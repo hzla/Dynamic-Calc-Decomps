@@ -1,0 +1,198 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "nidoran-f",
+  "familyMembers": [
+    "Nidoqueen",
+    "Nidoran-F",
+    "Nidorina"
+  ],
+  "speciesEntries": {
+    "Nidoqueen": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 4,
+          "averageParticipationPct": 12.7,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 4.5,
+          "topBattles": [
+            {
+              "usageKey": "190",
+              "displayName": "Lass Kara - Celestial Tower",
+              "leadLevel": 60,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Pilot Chase - Mistralton City",
+              "leadLevel": 62,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "588",
+              "displayName": "PkMn Trainer Cheren19",
+              "leadLevel": 98,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "139",
+              "displayName": "Pokefan Georgia - Celestial Tower",
+              "leadLevel": 60,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "138",
+              "displayName": "Pokefan Jude - Celestial Tower",
+              "leadLevel": 60,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "120",
+              "displayName": "Psychic Doreen - Celestial Tower",
+              "leadLevel": 59,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "279",
+              "displayName": "Team Plasma Grunt13",
+              "leadLevel": 41,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "301",
+              "displayName": "Team Plasma Grunt22 - Chargestone Cave",
+              "leadLevel": 64,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "311",
+              "displayName": "Team Plasma Grunt32 - Chargestone Cave",
+              "leadLevel": 63,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "222",
+              "displayName": "Team Plasma Grunt5 - Relic Castle",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 4,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 4.5,
+        "topBattles": [
+          {
+            "usageKey": "190",
+            "displayName": "Lass Kara - Celestial Tower",
+            "leadLevel": 60,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "71",
+            "displayName": "Pilot Chase - Mistralton City",
+            "leadLevel": 62,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "588",
+            "displayName": "PkMn Trainer Cheren19",
+            "leadLevel": 98,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "139",
+            "displayName": "Pokefan Georgia - Celestial Tower",
+            "leadLevel": 60,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "138",
+            "displayName": "Pokefan Jude - Celestial Tower",
+            "leadLevel": 60,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "120",
+            "displayName": "Psychic Doreen - Celestial Tower",
+            "leadLevel": 59,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "279",
+            "displayName": "Team Plasma Grunt13",
+            "leadLevel": 41,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "301",
+            "displayName": "Team Plasma Grunt22 - Chargestone Cave",
+            "leadLevel": 64,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "311",
+            "displayName": "Team Plasma Grunt32 - Chargestone Cave",
+            "leadLevel": 63,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "222",
+            "displayName": "Team Plasma Grunt5 - Relic Castle",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,6 +1,14 @@
 (function () {
     let currentMainPageView = "calculator";
     let mainNavInitialized = false;
+    const dashboardRoutes = {
+        "Emerald Imperium 1.3": "./dashboards/emeraldimperium.html",
+        "Renegade Platinum": "./dashboards/renegadeplatinum.html",
+        "Platinum Kaizo": "./dashboards/platinumkaizo.html",
+        "Pokemon Null": "./dashboards/pokemonnull.html",
+        "Cascade White": "./dashboards/cascadewhite.html",
+        "Vintage White Plus": "./dashboards/vintagewhiteplus.html",
+    };
 
     function hasMainNavShell() {
         return !!document.getElementById("main-view-tabs");
@@ -14,6 +22,56 @@
         titleEl.textContent = title || "";
         titleEl.style.display = title ? "block" : "none";
         renderGameVersionTabs(title);
+        updateDashboardLink(title);
+    }
+
+    function getDashboardRoute(title) {
+        if (typeof title !== "string" || !title) {
+            return null;
+        }
+
+        return Object.keys(dashboardRoutes)
+            .sort((left, right) => right.length - left.length)
+            .find((key) => title.includes(key)) || null;
+    }
+
+    function ensureDashboardLink() {
+        const primaryTabs = document.querySelector(".main-view-tabs-primary");
+        if (!primaryTabs) {
+            return null;
+        }
+
+        let link = document.getElementById("main-nav-dashboard");
+        if (link) {
+            return link;
+        }
+
+        link = document.createElement("a");
+        link.id = "main-nav-dashboard";
+        link.className = "main-view-tab";
+        link.textContent = "Statistics";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.style.display = "none";
+        primaryTabs.appendChild(link);
+        return link;
+    }
+
+    function updateDashboardLink(title) {
+        const link = ensureDashboardLink();
+        if (!link) {
+            return;
+        }
+
+        const routeKey = getDashboardRoute(title);
+        if (!routeKey) {
+            link.style.display = "none";
+            link.removeAttribute("href");
+            return;
+        }
+
+        link.href = new URL(dashboardRoutes[routeKey], window.location.href).toString();
+        link.style.display = "inline-flex";
     }
 
     function getMatchingGameVersionKey(title) {
@@ -240,6 +298,7 @@
             });
         });
 
+        ensureDashboardLink();
         updateMainPageTitle(typeof window.TITLE === "string" ? window.TITLE : "");
         setMainPageView("calculator");
     }

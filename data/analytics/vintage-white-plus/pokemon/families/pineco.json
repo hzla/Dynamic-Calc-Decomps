@@ -1,0 +1,290 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "pineco",
+  "familyMembers": [
+    "Forretress",
+    "Pineco"
+  ],
+  "speciesEntries": {
+    "Forretress": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 13,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 6.1,
+          "topBattles": [
+            {
+              "usageKey": "300",
+              "displayName": "Team Plasma Grunt21 - Chargestone Cave",
+              "leadLevel": 64,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "244",
+              "displayName": "Ace Trainer Shanta - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "73",
+              "displayName": "Worker Filipe - Cold Storage",
+              "leadLevel": 52,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "29",
+              "displayName": "PkMn Ranger Audra - Pinwheel Forest",
+              "leadLevel": 30,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "403",
+              "displayName": "PkMn Trainer Cheren13",
+              "leadLevel": 37,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "541",
+              "displayName": "PkMn Trainer Cheren18",
+              "leadLevel": 69,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "296",
+              "displayName": "Team Plasma Grunt17",
+              "leadLevel": 32,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "81",
+              "displayName": "Team Plasma Grunt3",
+              "leadLevel": 55,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "127",
+              "displayName": "Worker Brady - Mistralton City",
+              "leadLevel": 61,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "201",
+              "displayName": "Worker Felix - Driftveil City",
+              "leadLevel": 53,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Pineco": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "267",
+              "displayName": "Ace Trainer Dara - Opelucid City",
+              "leadLevel": 83,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "272",
+              "displayName": "Ace Trainer Tom - Opelucid City",
+              "leadLevel": 83,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "190",
+              "displayName": "Lass Kara - Celestial Tower",
+              "leadLevel": 60,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "131",
+              "displayName": "Leader Brycen",
+              "leadLevel": 74,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "132",
+              "displayName": "Leader Iris",
+              "leadLevel": 86,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "494",
+              "displayName": "PkMn Trainer Bianca7",
+              "leadLevel": 80,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "539",
+              "displayName": "PkMn Trainer Cheren16",
+              "leadLevel": 68,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "117",
+              "displayName": "Scientist Naoko - Chargestone Cave",
+              "leadLevel": 62,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 13,
+        "averageParticipationPct": 33.6,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 6.1,
+        "topBattles": [
+          {
+            "usageKey": "300",
+            "displayName": "Team Plasma Grunt21 - Chargestone Cave",
+            "leadLevel": 64,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "244",
+            "displayName": "Ace Trainer Shanta - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "73",
+            "displayName": "Worker Filipe - Cold Storage",
+            "leadLevel": 52,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "29",
+            "displayName": "PkMn Ranger Audra - Pinwheel Forest",
+            "leadLevel": 30,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "403",
+            "displayName": "PkMn Trainer Cheren13",
+            "leadLevel": 37,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "541",
+            "displayName": "PkMn Trainer Cheren18",
+            "leadLevel": 69,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "296",
+            "displayName": "Team Plasma Grunt17",
+            "leadLevel": 32,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "81",
+            "displayName": "Team Plasma Grunt3",
+            "leadLevel": 55,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "127",
+            "displayName": "Worker Brady - Mistralton City",
+            "leadLevel": 61,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "201",
+            "displayName": "Worker Felix - Driftveil City",
+            "leadLevel": 53,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

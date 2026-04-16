@@ -1,0 +1,197 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "lapras",
+  "familyMembers": [
+    "Lapras",
+    "Lapras-Mega"
+  ],
+  "speciesEntries": {
+    "Lapras": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 5,
+          "averageParticipationPct": 22.6,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.8,
+          "topBattles": [
+            {
+              "usageKey": "132",
+              "displayName": "Leader Iris",
+              "leadLevel": 86,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "245",
+              "displayName": "Ace Trainer Cathy - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "271",
+              "displayName": "Ace Trainer Jose - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "214",
+              "displayName": "Battle Girl Chandra - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "213",
+              "displayName": "Battle Girl Mikiko - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "212",
+              "displayName": "Battle Girl Miriam - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "216",
+              "displayName": "Black Belt Kendrew - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "217",
+              "displayName": "Black Belt Thomas - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "188",
+              "displayName": "PkMn Ranger Annie - Route 8",
+              "leadLevel": 68,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "227",
+              "displayName": "Team Plasma Grunt10 - Relic Castle",
+              "leadLevel": 83,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 5,
+        "averageParticipationPct": 22.6,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.8,
+        "topBattles": [
+          {
+            "usageKey": "132",
+            "displayName": "Leader Iris",
+            "leadLevel": 86,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "245",
+            "displayName": "Ace Trainer Cathy - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "271",
+            "displayName": "Ace Trainer Jose - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "214",
+            "displayName": "Battle Girl Chandra - Icirrus City",
+            "leadLevel": 72,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "213",
+            "displayName": "Battle Girl Mikiko - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "212",
+            "displayName": "Battle Girl Miriam - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "216",
+            "displayName": "Black Belt Kendrew - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "217",
+            "displayName": "Black Belt Thomas - Icirrus City",
+            "leadLevel": 72,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "188",
+            "displayName": "PkMn Ranger Annie - Route 8",
+            "leadLevel": 68,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "227",
+            "displayName": "Team Plasma Grunt10 - Relic Castle",
+            "leadLevel": 83,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

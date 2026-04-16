@@ -1,0 +1,384 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "trapinch",
+  "familyMembers": [
+    "Flygon",
+    "Trapinch",
+    "Vibrava"
+  ],
+  "speciesEntries": {
+    "Flygon": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 11,
+          "averageParticipationPct": 28.9,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 8.9,
+          "topBattles": [
+            {
+              "usageKey": "301",
+              "displayName": "Team Plasma Grunt22 - Chargestone Cave",
+              "leadLevel": 64,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "265",
+              "displayName": "Ace Trainer Olwen - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "159",
+              "displayName": "Battle Girl Sharon - Twist Mountain",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "95",
+              "displayName": "Clerk F Katie - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "168",
+              "displayName": "Clerk M Isaac - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "256",
+              "displayName": "Hiker Clarke - Mistralton Cave",
+              "leadLevel": 67,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "255",
+              "displayName": "Hiker Hugh - Mistralton Cave",
+              "leadLevel": 67,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "243",
+              "displayName": "Hiker Terrell - Twist Mountain",
+              "leadLevel": 65,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "278",
+              "displayName": "Team Plasma Grunt12",
+              "leadLevel": 55,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "81",
+              "displayName": "Team Plasma Grunt3",
+              "leadLevel": 55,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Trapinch": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 5,
+          "averageParticipationPct": 20.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.2,
+          "topBattles": [
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "443",
+              "displayName": "Backpacker Stephen - Route 16",
+              "leadLevel": 39,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Lass Eva - Pinwheel Forest",
+              "leadLevel": 29,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 0,
+              "ownedCount": 2,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "507",
+              "displayName": "PkMn Trainer Bianca13",
+              "leadLevel": 36,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "90",
+              "displayName": "PkMn Trainer Cheren7",
+              "leadLevel": 54,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "412",
+              "displayName": "Policeman Daniel - Route 16",
+              "leadLevel": 40,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "30",
+              "displayName": "School Kid Sammy - Pinwheel Forest",
+              "leadLevel": 30,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "552",
+              "displayName": "Team Plasma Grunt35",
+              "leadLevel": 32,
+              "partyCount": 0,
+              "ownedCount": 2,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Vibrava": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 11,
+          "averageParticipationPct": 32.7,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.0,
+          "topBattles": [
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
+            },
+            {
+              "usageKey": "69",
+              "displayName": "Lady Colette",
+              "leadLevel": 42,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "68",
+              "displayName": "Lady Magnolia - Nimbasa City",
+              "leadLevel": 40,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "66",
+              "displayName": "Rich Boy Cody - Nimbasa City",
+              "leadLevel": 40,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "200",
+              "displayName": "Harlequin Rick",
+              "leadLevel": 33,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Lass Eva - Pinwheel Forest",
+              "leadLevel": 29,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "67",
+              "displayName": "Rich Boy Rolan",
+              "leadLevel": 41,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "297",
+              "displayName": "Team Plasma Grunt18",
+              "leadLevel": 33,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 16,
+        "averageParticipationPct": 35.6,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 7.6,
+        "topBattles": [
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
+          },
+          {
+            "usageKey": "301",
+            "displayName": "Team Plasma Grunt22 - Chargestone Cave",
+            "leadLevel": 64,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "69",
+            "displayName": "Lady Colette",
+            "leadLevel": 42,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Ace Trainer Olwen - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "159",
+            "displayName": "Battle Girl Sharon - Twist Mountain",
+            "leadLevel": 68,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "95",
+            "displayName": "Clerk F Katie - Driftveil City",
+            "leadLevel": 54,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "168",
+            "displayName": "Clerk M Isaac - Driftveil City",
+            "leadLevel": 54,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "198",
+            "displayName": "Harlequin Louis - Castelia City",
+            "leadLevel": 34,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "256",
+            "displayName": "Hiker Clarke - Mistralton Cave",
+            "leadLevel": 67,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "255",
+            "displayName": "Hiker Hugh - Mistralton Cave",
+            "leadLevel": 67,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

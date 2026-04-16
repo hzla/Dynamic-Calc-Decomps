@@ -1,0 +1,7089 @@
+{
+  "title": "Pokemon Null",
+  "generatedAt": "2026-04-16T20:27:20.529362Z",
+  "species": [
+    {
+      "species": "Abomasnow",
+      "familyKey": "snover",
+      "detailFile": "families/snover.json",
+      "familyMembers": [
+        "Abomasnow",
+        "Abomasnow-Mega",
+        "Snover"
+      ]
+    },
+    {
+      "species": "Abomasnow-Mega",
+      "familyKey": "snover",
+      "detailFile": "families/snover.json",
+      "familyMembers": [
+        "Abomasnow",
+        "Abomasnow-Mega",
+        "Snover"
+      ]
+    },
+    {
+      "species": "Abra",
+      "familyKey": "abra",
+      "detailFile": "families/abra.json",
+      "familyMembers": [
+        "Abra",
+        "Alakazam",
+        "Alakazam-Mega",
+        "Kadabra"
+      ]
+    },
+    {
+      "species": "Absol",
+      "familyKey": "absol",
+      "detailFile": "families/absol.json",
+      "familyMembers": [
+        "Absol",
+        "Absol-Mega"
+      ]
+    },
+    {
+      "species": "Absol-Mega",
+      "familyKey": "absol",
+      "detailFile": "families/absol.json",
+      "familyMembers": [
+        "Absol",
+        "Absol-Mega"
+      ]
+    },
+    {
+      "species": "Accelgor",
+      "familyKey": "shelmet",
+      "detailFile": "families/shelmet.json",
+      "familyMembers": [
+        "Accelgor",
+        "Shelmet"
+      ]
+    },
+    {
+      "species": "Aegislash-Both",
+      "familyKey": "honedge",
+      "detailFile": "families/honedge.json",
+      "familyMembers": [
+        "Aegislash-Both",
+        "Aegislash-Shield",
+        "Doublade",
+        "Honedge"
+      ]
+    },
+    {
+      "species": "Aerodactyl",
+      "familyKey": "aerodactyl",
+      "detailFile": "families/aerodactyl.json",
+      "familyMembers": [
+        "Aerodactyl",
+        "Aerodactyl-Mega"
+      ]
+    },
+    {
+      "species": "Aggron",
+      "familyKey": "aron",
+      "detailFile": "families/aron.json",
+      "familyMembers": [
+        "Aggron",
+        "Aggron-Mega",
+        "Aron",
+        "Lairon"
+      ]
+    },
+    {
+      "species": "Aggron-Mega",
+      "familyKey": "aron",
+      "detailFile": "families/aron.json",
+      "familyMembers": [
+        "Aggron",
+        "Aggron-Mega",
+        "Aron",
+        "Lairon"
+      ]
+    },
+    {
+      "species": "Aipom",
+      "familyKey": "aipom",
+      "detailFile": "families/aipom.json",
+      "familyMembers": [
+        "Aipom",
+        "Ambipom"
+      ]
+    },
+    {
+      "species": "Alakazam",
+      "familyKey": "abra",
+      "detailFile": "families/abra.json",
+      "familyMembers": [
+        "Abra",
+        "Alakazam",
+        "Alakazam-Mega",
+        "Kadabra"
+      ]
+    },
+    {
+      "species": "Alakazam-Mega",
+      "familyKey": "abra",
+      "detailFile": "families/abra.json",
+      "familyMembers": [
+        "Abra",
+        "Alakazam",
+        "Alakazam-Mega",
+        "Kadabra"
+      ]
+    },
+    {
+      "species": "Alcremie",
+      "familyKey": "milcery",
+      "detailFile": "families/milcery.json",
+      "familyMembers": [
+        "Alcremie",
+        "Alcremie-Mega",
+        "Milcery"
+      ]
+    },
+    {
+      "species": "Altaria",
+      "familyKey": "swablu",
+      "detailFile": "families/swablu.json",
+      "familyMembers": [
+        "Altaria",
+        "Altaria-Mega",
+        "Swablu"
+      ]
+    },
+    {
+      "species": "Altaria-Mega",
+      "familyKey": "swablu",
+      "detailFile": "families/swablu.json",
+      "familyMembers": [
+        "Altaria",
+        "Altaria-Mega",
+        "Swablu"
+      ]
+    },
+    {
+      "species": "Ambipom",
+      "familyKey": "aipom",
+      "detailFile": "families/aipom.json",
+      "familyMembers": [
+        "Aipom",
+        "Ambipom"
+      ]
+    },
+    {
+      "species": "Amoonguss",
+      "familyKey": "foongus",
+      "detailFile": "families/foongus.json",
+      "familyMembers": [
+        "Amoonguss",
+        "Foongus"
+      ]
+    },
+    {
+      "species": "Ampharos",
+      "familyKey": "mareep",
+      "detailFile": "families/mareep.json",
+      "familyMembers": [
+        "Ampharos",
+        "Ampharos-Mega",
+        "Flaaffy",
+        "Mareep"
+      ]
+    },
+    {
+      "species": "Ampharos-Mega",
+      "familyKey": "mareep",
+      "detailFile": "families/mareep.json",
+      "familyMembers": [
+        "Ampharos",
+        "Ampharos-Mega",
+        "Flaaffy",
+        "Mareep"
+      ]
+    },
+    {
+      "species": "Annihilape",
+      "familyKey": "mankey",
+      "detailFile": "families/mankey.json",
+      "familyMembers": [
+        "Annihilape",
+        "Mankey",
+        "Primeape"
+      ]
+    },
+    {
+      "species": "Anorith",
+      "familyKey": "anorith",
+      "detailFile": "families/anorith.json",
+      "familyMembers": [
+        "Anorith",
+        "Armaldo"
+      ]
+    },
+    {
+      "species": "Appletun",
+      "familyKey": "applin",
+      "detailFile": "families/applin.json",
+      "familyMembers": [
+        "Appletun",
+        "Appletun-Mega",
+        "Applin",
+        "Dipplin",
+        "Flapple",
+        "Flapple-Mega",
+        "Hydrapple"
+      ]
+    },
+    {
+      "species": "Applin",
+      "familyKey": "applin",
+      "detailFile": "families/applin.json",
+      "familyMembers": [
+        "Appletun",
+        "Appletun-Mega",
+        "Applin",
+        "Dipplin",
+        "Flapple",
+        "Flapple-Mega",
+        "Hydrapple"
+      ]
+    },
+    {
+      "species": "Araquanid",
+      "familyKey": "dewpider",
+      "detailFile": "families/dewpider.json",
+      "familyMembers": [
+        "Araquanid",
+        "Dewpider"
+      ]
+    },
+    {
+      "species": "Arbok",
+      "familyKey": "ekans",
+      "detailFile": "families/ekans.json",
+      "familyMembers": [
+        "Arbok",
+        "Ekans"
+      ]
+    },
+    {
+      "species": "Arboliva",
+      "familyKey": "smoliv",
+      "detailFile": "families/smoliv.json",
+      "familyMembers": [
+        "Arboliva",
+        "Dolliv",
+        "Smoliv"
+      ]
+    },
+    {
+      "species": "Arcanine",
+      "familyKey": "growlithe",
+      "detailFile": "families/growlithe.json",
+      "familyMembers": [
+        "Arcanine",
+        "Growlithe"
+      ]
+    },
+    {
+      "species": "Arcanine-Hisui",
+      "familyKey": "growlithe-hisui",
+      "detailFile": "families/growlithe-hisui.json",
+      "familyMembers": [
+        "Arcanine-Hisui",
+        "Growlithe-Hisui"
+      ]
+    },
+    {
+      "species": "Archaludon",
+      "familyKey": "duraludon",
+      "detailFile": "families/duraludon.json",
+      "familyMembers": [
+        "Archaludon",
+        "Duraludon"
+      ]
+    },
+    {
+      "species": "Archeops",
+      "familyKey": "archen",
+      "detailFile": "families/archen.json",
+      "familyMembers": [
+        "Archen",
+        "Archeops"
+      ]
+    },
+    {
+      "species": "Arctovish",
+      "familyKey": "arctovish",
+      "detailFile": "families/arctovish.json",
+      "familyMembers": [
+        "Arctovish"
+      ]
+    },
+    {
+      "species": "Arctozolt",
+      "familyKey": "arctozolt",
+      "detailFile": "families/arctozolt.json",
+      "familyMembers": [
+        "Arctozolt"
+      ]
+    },
+    {
+      "species": "Armaldo",
+      "familyKey": "anorith",
+      "detailFile": "families/anorith.json",
+      "familyMembers": [
+        "Anorith",
+        "Armaldo"
+      ]
+    },
+    {
+      "species": "Armarouge",
+      "familyKey": "charcadet",
+      "detailFile": "families/charcadet.json",
+      "familyMembers": [
+        "Armarouge",
+        "Ceruledge",
+        "Charcadet"
+      ]
+    },
+    {
+      "species": "Aron",
+      "familyKey": "aron",
+      "detailFile": "families/aron.json",
+      "familyMembers": [
+        "Aggron",
+        "Aggron-Mega",
+        "Aron",
+        "Lairon"
+      ]
+    },
+    {
+      "species": "Articuno-Galar",
+      "familyKey": "articuno-galar",
+      "detailFile": "families/articuno-galar.json",
+      "familyMembers": [
+        "Articuno-Galar"
+      ]
+    },
+    {
+      "species": "Audino",
+      "familyKey": "audino",
+      "detailFile": "families/audino.json",
+      "familyMembers": [
+        "Audino",
+        "Audino-Mega"
+      ]
+    },
+    {
+      "species": "Audino-Mega",
+      "familyKey": "audino",
+      "detailFile": "families/audino.json",
+      "familyMembers": [
+        "Audino",
+        "Audino-Mega"
+      ]
+    },
+    {
+      "species": "Aurorus",
+      "familyKey": "amaura",
+      "detailFile": "families/amaura.json",
+      "familyMembers": [
+        "Amaura",
+        "Aurorus"
+      ]
+    },
+    {
+      "species": "Avalugg",
+      "familyKey": "bergmite",
+      "detailFile": "families/bergmite.json",
+      "familyMembers": [
+        "Avalugg",
+        "Avalugg-Hisui",
+        "Bergmite"
+      ]
+    },
+    {
+      "species": "Avalugg-Hisui",
+      "familyKey": "bergmite",
+      "detailFile": "families/bergmite.json",
+      "familyMembers": [
+        "Avalugg",
+        "Avalugg-Hisui",
+        "Bergmite"
+      ]
+    },
+    {
+      "species": "Axew",
+      "familyKey": "axew",
+      "detailFile": "families/axew.json",
+      "familyMembers": [
+        "Axew",
+        "Fraxure",
+        "Haxorus"
+      ]
+    },
+    {
+      "species": "Azumarill",
+      "familyKey": "azurill",
+      "detailFile": "families/azurill.json",
+      "familyMembers": [
+        "Azumarill",
+        "Azurill",
+        "Marill"
+      ]
+    },
+    {
+      "species": "Bagon",
+      "familyKey": "bagon",
+      "detailFile": "families/bagon.json",
+      "familyMembers": [
+        "Bagon",
+        "Salamence",
+        "Salamence-Mega",
+        "Shelgon"
+      ]
+    },
+    {
+      "species": "Banette",
+      "familyKey": "shuppet",
+      "detailFile": "families/shuppet.json",
+      "familyMembers": [
+        "Banette",
+        "Banette-Mega",
+        "Shuppet"
+      ]
+    },
+    {
+      "species": "Banette-Mega",
+      "familyKey": "shuppet",
+      "detailFile": "families/shuppet.json",
+      "familyMembers": [
+        "Banette",
+        "Banette-Mega",
+        "Shuppet"
+      ]
+    },
+    {
+      "species": "Barbaracle",
+      "familyKey": "binacle",
+      "detailFile": "families/binacle.json",
+      "familyMembers": [
+        "Barbaracle",
+        "Binacle"
+      ]
+    },
+    {
+      "species": "Barboach",
+      "familyKey": "barboach",
+      "detailFile": "families/barboach.json",
+      "familyMembers": [
+        "Barboach",
+        "Whiscash"
+      ]
+    },
+    {
+      "species": "Barraskewda",
+      "familyKey": "arrokuda",
+      "detailFile": "families/arrokuda.json",
+      "familyMembers": [
+        "Arrokuda",
+        "Barraskewda"
+      ]
+    },
+    {
+      "species": "Basculegion",
+      "familyKey": "basculin",
+      "detailFile": "families/basculin.json",
+      "familyMembers": [
+        "Basculegion",
+        "Basculin"
+      ]
+    },
+    {
+      "species": "Basculegion-F",
+      "familyKey": "basculin-blue-striped",
+      "detailFile": "families/basculin-blue-striped.json",
+      "familyMembers": [
+        "Basculegion",
+        "Basculegion-F",
+        "Basculin-Blue-Striped"
+      ]
+    },
+    {
+      "species": "Bastiodon",
+      "familyKey": "shieldon",
+      "detailFile": "families/shieldon.json",
+      "familyMembers": [
+        "Bastiodon",
+        "Shieldon"
+      ]
+    },
+    {
+      "species": "Baxcalibur",
+      "familyKey": "frigibax",
+      "detailFile": "families/frigibax.json",
+      "familyMembers": [
+        "Arctibax",
+        "Baxcalibur",
+        "Frigibax"
+      ]
+    },
+    {
+      "species": "Bayleef",
+      "familyKey": "chikorita",
+      "detailFile": "families/chikorita.json",
+      "familyMembers": [
+        "Bayleef",
+        "Chikorita",
+        "Meganium"
+      ]
+    },
+    {
+      "species": "Beartic",
+      "familyKey": "cubchoo",
+      "detailFile": "families/cubchoo.json",
+      "familyMembers": [
+        "Beartic",
+        "Cubchoo"
+      ]
+    },
+    {
+      "species": "Beedrill",
+      "familyKey": "weedle",
+      "detailFile": "families/weedle.json",
+      "familyMembers": [
+        "Beedrill",
+        "Beedrill-Mega",
+        "Kakuna",
+        "Weedle"
+      ]
+    },
+    {
+      "species": "Beedrill-Mega",
+      "familyKey": "weedle",
+      "detailFile": "families/weedle.json",
+      "familyMembers": [
+        "Beedrill",
+        "Beedrill-Mega",
+        "Kakuna",
+        "Weedle"
+      ]
+    },
+    {
+      "species": "Bellibolt",
+      "familyKey": "tadbulb",
+      "detailFile": "families/tadbulb.json",
+      "familyMembers": [
+        "Bellibolt",
+        "Tadbulb"
+      ]
+    },
+    {
+      "species": "Bellossom",
+      "familyKey": "oddish",
+      "detailFile": "families/oddish.json",
+      "familyMembers": [
+        "Bellossom",
+        "Gloom",
+        "Oddish",
+        "Vileplume"
+      ]
+    },
+    {
+      "species": "Bellsprout",
+      "familyKey": "bellsprout",
+      "detailFile": "families/bellsprout.json",
+      "familyMembers": [
+        "Bellsprout",
+        "Victreebel",
+        "Weepinbell"
+      ]
+    },
+    {
+      "species": "Bergmite",
+      "familyKey": "bergmite",
+      "detailFile": "families/bergmite.json",
+      "familyMembers": [
+        "Avalugg",
+        "Avalugg-Hisui",
+        "Bergmite"
+      ]
+    },
+    {
+      "species": "Bewear",
+      "familyKey": "stufful",
+      "detailFile": "families/stufful.json",
+      "familyMembers": [
+        "Bewear",
+        "Stufful"
+      ]
+    },
+    {
+      "species": "Bibarel",
+      "familyKey": "bidoof",
+      "detailFile": "families/bidoof.json",
+      "familyMembers": [
+        "Bibarel",
+        "Bidoof"
+      ]
+    },
+    {
+      "species": "Bidoof",
+      "familyKey": "bidoof",
+      "detailFile": "families/bidoof.json",
+      "familyMembers": [
+        "Bibarel",
+        "Bidoof"
+      ]
+    },
+    {
+      "species": "Bisharp",
+      "familyKey": "pawniard",
+      "detailFile": "families/pawniard.json",
+      "familyMembers": [
+        "Bisharp",
+        "Kingambit",
+        "Pawniard"
+      ]
+    },
+    {
+      "species": "Blacephalon",
+      "familyKey": "blacephalon",
+      "detailFile": "families/blacephalon.json",
+      "familyMembers": [
+        "Blacephalon"
+      ]
+    },
+    {
+      "species": "Blastoise",
+      "familyKey": "squirtle",
+      "detailFile": "families/squirtle.json",
+      "familyMembers": [
+        "Blastoise",
+        "Blastoise-Mega",
+        "Squirtle",
+        "Wartortle"
+      ]
+    },
+    {
+      "species": "Blastoise-Mega",
+      "familyKey": "squirtle",
+      "detailFile": "families/squirtle.json",
+      "familyMembers": [
+        "Blastoise",
+        "Blastoise-Mega",
+        "Squirtle",
+        "Wartortle"
+      ]
+    },
+    {
+      "species": "Blaziken",
+      "familyKey": "torchic",
+      "detailFile": "families/torchic.json",
+      "familyMembers": [
+        "Blaziken",
+        "Blaziken-Mega",
+        "Combusken",
+        "Torchic"
+      ]
+    },
+    {
+      "species": "Blipbug",
+      "familyKey": "blipbug",
+      "detailFile": "families/blipbug.json",
+      "familyMembers": [
+        "Blipbug",
+        "Dottler",
+        "Orbeetle",
+        "Orbeetle-Mega"
+      ]
+    },
+    {
+      "species": "Blitzle",
+      "familyKey": "blitzle",
+      "detailFile": "families/blitzle.json",
+      "familyMembers": [
+        "Blitzle",
+        "Zebstrika"
+      ]
+    },
+    {
+      "species": "Boldore",
+      "familyKey": "roggenrola",
+      "detailFile": "families/roggenrola.json",
+      "familyMembers": [
+        "Boldore",
+        "Gigalith",
+        "Roggenrola"
+      ]
+    },
+    {
+      "species": "Boltund",
+      "familyKey": "yamper",
+      "detailFile": "families/yamper.json",
+      "familyMembers": [
+        "Boltund",
+        "Yamper"
+      ]
+    },
+    {
+      "species": "Bombirdier",
+      "familyKey": "bombirdier",
+      "detailFile": "families/bombirdier.json",
+      "familyMembers": [
+        "Bombirdier"
+      ]
+    },
+    {
+      "species": "Braixen",
+      "familyKey": "fennekin",
+      "detailFile": "families/fennekin.json",
+      "familyMembers": [
+        "Braixen",
+        "Delphox",
+        "Fennekin"
+      ]
+    },
+    {
+      "species": "Brambleghast",
+      "familyKey": "bramblin",
+      "detailFile": "families/bramblin.json",
+      "familyMembers": [
+        "Brambleghast",
+        "Bramblin"
+      ]
+    },
+    {
+      "species": "Braviary",
+      "familyKey": "rufflet",
+      "detailFile": "families/rufflet.json",
+      "familyMembers": [
+        "Braviary",
+        "Braviary-Hisui",
+        "Rufflet"
+      ]
+    },
+    {
+      "species": "Braviary-Hisui",
+      "familyKey": "rufflet",
+      "detailFile": "families/rufflet.json",
+      "familyMembers": [
+        "Braviary",
+        "Braviary-Hisui",
+        "Rufflet"
+      ]
+    },
+    {
+      "species": "Breloom",
+      "familyKey": "shroomish",
+      "detailFile": "families/shroomish.json",
+      "familyMembers": [
+        "Breloom",
+        "Shroomish"
+      ]
+    },
+    {
+      "species": "Bronzong",
+      "familyKey": "bronzor",
+      "detailFile": "families/bronzor.json",
+      "familyMembers": [
+        "Bronzong",
+        "Bronzor"
+      ]
+    },
+    {
+      "species": "Bronzor",
+      "familyKey": "bronzor",
+      "detailFile": "families/bronzor.json",
+      "familyMembers": [
+        "Bronzong",
+        "Bronzor"
+      ]
+    },
+    {
+      "species": "Bruxish",
+      "familyKey": "bruxish",
+      "detailFile": "families/bruxish.json",
+      "familyMembers": [
+        "Bruxish"
+      ]
+    },
+    {
+      "species": "Budew",
+      "familyKey": "budew",
+      "detailFile": "families/budew.json",
+      "familyMembers": [
+        "Budew",
+        "Roselia",
+        "Roserade",
+        "Roserade-Mega"
+      ]
+    },
+    {
+      "species": "Buizel",
+      "familyKey": "buizel",
+      "detailFile": "families/buizel.json",
+      "familyMembers": [
+        "Buizel",
+        "Floatzel"
+      ]
+    },
+    {
+      "species": "Bulbasaur",
+      "familyKey": "bulbasaur",
+      "detailFile": "families/bulbasaur.json",
+      "familyMembers": [
+        "Bulbasaur",
+        "Ivysaur",
+        "Venusaur",
+        "Venusaur-Mega"
+      ]
+    },
+    {
+      "species": "Bunnelby",
+      "familyKey": "bunnelby",
+      "detailFile": "families/bunnelby.json",
+      "familyMembers": [
+        "Bunnelby",
+        "Diggersby"
+      ]
+    },
+    {
+      "species": "Butterfree",
+      "familyKey": "caterpie",
+      "detailFile": "families/caterpie.json",
+      "familyMembers": [
+        "Butterfree",
+        "Butterfree-Mega",
+        "Caterpie",
+        "Metapod"
+      ]
+    },
+    {
+      "species": "Cacturne",
+      "familyKey": "cacnea",
+      "detailFile": "families/cacnea.json",
+      "familyMembers": [
+        "Cacnea",
+        "Cacturne"
+      ]
+    },
+    {
+      "species": "Calyrex",
+      "familyKey": "calyrex",
+      "detailFile": "families/calyrex.json",
+      "familyMembers": [
+        "Calyrex"
+      ]
+    },
+    {
+      "species": "Camerupt",
+      "familyKey": "numel",
+      "detailFile": "families/numel.json",
+      "familyMembers": [
+        "Camerupt",
+        "Camerupt-Mega",
+        "Numel"
+      ]
+    },
+    {
+      "species": "Camerupt-Mega",
+      "familyKey": "numel",
+      "detailFile": "families/numel.json",
+      "familyMembers": [
+        "Camerupt",
+        "Camerupt-Mega",
+        "Numel"
+      ]
+    },
+    {
+      "species": "Capsakid",
+      "familyKey": "capsakid",
+      "detailFile": "families/capsakid.json",
+      "familyMembers": [
+        "Capsakid",
+        "Scovillain"
+      ]
+    },
+    {
+      "species": "Carbink",
+      "familyKey": "carbink",
+      "detailFile": "families/carbink.json",
+      "familyMembers": [
+        "Carbink"
+      ]
+    },
+    {
+      "species": "Carkol",
+      "familyKey": "rolycoly",
+      "detailFile": "families/rolycoly.json",
+      "familyMembers": [
+        "Carkol",
+        "Coalossal",
+        "Coalossal-Mega",
+        "Rolycoly"
+      ]
+    },
+    {
+      "species": "Carvanha",
+      "familyKey": "carvanha",
+      "detailFile": "families/carvanha.json",
+      "familyMembers": [
+        "Carvanha",
+        "Sharpedo",
+        "Sharpedo-Mega"
+      ]
+    },
+    {
+      "species": "Castform",
+      "familyKey": "castform",
+      "detailFile": "families/castform.json",
+      "familyMembers": [
+        "Castform"
+      ]
+    },
+    {
+      "species": "Centiskorch",
+      "familyKey": "sizzlipede",
+      "detailFile": "families/sizzlipede.json",
+      "familyMembers": [
+        "Centiskorch",
+        "Centiskorch-Mega",
+        "Sizzlipede"
+      ]
+    },
+    {
+      "species": "Ceruledge",
+      "familyKey": "charcadet",
+      "detailFile": "families/charcadet.json",
+      "familyMembers": [
+        "Armarouge",
+        "Ceruledge",
+        "Charcadet"
+      ]
+    },
+    {
+      "species": "Cetitan",
+      "familyKey": "cetoddle",
+      "detailFile": "families/cetoddle.json",
+      "familyMembers": [
+        "Cetitan",
+        "Cetoddle"
+      ]
+    },
+    {
+      "species": "Cetoddle",
+      "familyKey": "cetoddle",
+      "detailFile": "families/cetoddle.json",
+      "familyMembers": [
+        "Cetitan",
+        "Cetoddle"
+      ]
+    },
+    {
+      "species": "Charcadet",
+      "familyKey": "charcadet",
+      "detailFile": "families/charcadet.json",
+      "familyMembers": [
+        "Armarouge",
+        "Ceruledge",
+        "Charcadet"
+      ]
+    },
+    {
+      "species": "Charizard",
+      "familyKey": "charmander",
+      "detailFile": "families/charmander.json",
+      "familyMembers": [
+        "Charizard",
+        "Charizard-Mega-X",
+        "Charizard-Mega-Y",
+        "Charmander",
+        "Charmeleon"
+      ]
+    },
+    {
+      "species": "Charizard-Mega-X",
+      "familyKey": "charmander",
+      "detailFile": "families/charmander.json",
+      "familyMembers": [
+        "Charizard",
+        "Charizard-Mega-X",
+        "Charizard-Mega-Y",
+        "Charmander",
+        "Charmeleon"
+      ]
+    },
+    {
+      "species": "Charjabug",
+      "familyKey": "grubbin",
+      "detailFile": "families/grubbin.json",
+      "familyMembers": [
+        "Charjabug",
+        "Grubbin",
+        "Vikavolt"
+      ]
+    },
+    {
+      "species": "Charmander",
+      "familyKey": "charmander",
+      "detailFile": "families/charmander.json",
+      "familyMembers": [
+        "Charizard",
+        "Charizard-Mega-X",
+        "Charizard-Mega-Y",
+        "Charmander",
+        "Charmeleon"
+      ]
+    },
+    {
+      "species": "Charmeleon",
+      "familyKey": "charmander",
+      "detailFile": "families/charmander.json",
+      "familyMembers": [
+        "Charizard",
+        "Charizard-Mega-X",
+        "Charizard-Mega-Y",
+        "Charmander",
+        "Charmeleon"
+      ]
+    },
+    {
+      "species": "Chesnaught",
+      "familyKey": "chespin",
+      "detailFile": "families/chespin.json",
+      "familyMembers": [
+        "Chesnaught",
+        "Chespin",
+        "Quilladin"
+      ]
+    },
+    {
+      "species": "Chesnaught-Mega",
+      "familyKey": "chespin",
+      "detailFile": "families/chespin.json",
+      "familyMembers": [
+        "Chesnaught",
+        "Chesnaught-Mega",
+        "Chespin",
+        "Quilladin"
+      ]
+    },
+    {
+      "species": "Chespin",
+      "familyKey": "chespin",
+      "detailFile": "families/chespin.json",
+      "familyMembers": [
+        "Chesnaught",
+        "Chespin",
+        "Quilladin"
+      ]
+    },
+    {
+      "species": "Chikorita",
+      "familyKey": "chikorita",
+      "detailFile": "families/chikorita.json",
+      "familyMembers": [
+        "Bayleef",
+        "Chikorita",
+        "Meganium"
+      ]
+    },
+    {
+      "species": "Chimecho",
+      "familyKey": "chingling",
+      "detailFile": "families/chingling.json",
+      "familyMembers": [
+        "Chimecho",
+        "Chingling"
+      ]
+    },
+    {
+      "species": "Chingling",
+      "familyKey": "chingling",
+      "detailFile": "families/chingling.json",
+      "familyMembers": [
+        "Chimecho",
+        "Chingling"
+      ]
+    },
+    {
+      "species": "Cinderace",
+      "familyKey": "scorbunny",
+      "detailFile": "families/scorbunny.json",
+      "familyMembers": [
+        "Cinderace",
+        "Raboot",
+        "Scorbunny"
+      ]
+    },
+    {
+      "species": "Clamperl",
+      "familyKey": "clamperl",
+      "detailFile": "families/clamperl.json",
+      "familyMembers": [
+        "Clamperl",
+        "Gorebyss",
+        "Huntail"
+      ]
+    },
+    {
+      "species": "Clawitzer",
+      "familyKey": "clauncher",
+      "detailFile": "families/clauncher.json",
+      "familyMembers": [
+        "Clauncher",
+        "Clawitzer"
+      ]
+    },
+    {
+      "species": "Claydol",
+      "familyKey": "baltoy",
+      "detailFile": "families/baltoy.json",
+      "familyMembers": [
+        "Baltoy",
+        "Claydol"
+      ]
+    },
+    {
+      "species": "Clefable",
+      "familyKey": "cleffa",
+      "detailFile": "families/cleffa.json",
+      "familyMembers": [
+        "Clefable",
+        "Clefairy",
+        "Cleffa"
+      ]
+    },
+    {
+      "species": "Clefable-Mega",
+      "familyKey": "cleffa",
+      "detailFile": "families/cleffa.json",
+      "familyMembers": [
+        "Clefable",
+        "Clefable-Mega",
+        "Clefairy",
+        "Cleffa"
+      ]
+    },
+    {
+      "species": "Clodsire",
+      "familyKey": "wooper-paldea",
+      "detailFile": "families/wooper-paldea.json",
+      "familyMembers": [
+        "Clodsire",
+        "Wooper-Paldea"
+      ]
+    },
+    {
+      "species": "Cloyster",
+      "familyKey": "shellder",
+      "detailFile": "families/shellder.json",
+      "familyMembers": [
+        "Cloyster",
+        "Shellder"
+      ]
+    },
+    {
+      "species": "Coalossal",
+      "familyKey": "rolycoly",
+      "detailFile": "families/rolycoly.json",
+      "familyMembers": [
+        "Carkol",
+        "Coalossal",
+        "Coalossal-Mega",
+        "Rolycoly"
+      ]
+    },
+    {
+      "species": "Cofagrigus",
+      "familyKey": "yamask",
+      "detailFile": "families/yamask.json",
+      "familyMembers": [
+        "Cofagrigus",
+        "Yamask"
+      ]
+    },
+    {
+      "species": "Combee",
+      "familyKey": "combee",
+      "detailFile": "families/combee.json",
+      "familyMembers": [
+        "Combee",
+        "Vespiquen"
+      ]
+    },
+    {
+      "species": "Comfey",
+      "familyKey": "comfey",
+      "detailFile": "families/comfey.json",
+      "familyMembers": [
+        "Comfey"
+      ]
+    },
+    {
+      "species": "Conkeldurr",
+      "familyKey": "timburr",
+      "detailFile": "families/timburr.json",
+      "familyMembers": [
+        "Conkeldurr",
+        "Gurdurr",
+        "Timburr"
+      ]
+    },
+    {
+      "species": "Copperajah",
+      "familyKey": "cufant",
+      "detailFile": "families/cufant.json",
+      "familyMembers": [
+        "Copperajah",
+        "Copperajah-Mega",
+        "Cufant"
+      ]
+    },
+    {
+      "species": "Corphish",
+      "familyKey": "corphish",
+      "detailFile": "families/corphish.json",
+      "familyMembers": [
+        "Corphish",
+        "Crawdaunt"
+      ]
+    },
+    {
+      "species": "Corsola",
+      "familyKey": "corsola",
+      "detailFile": "families/corsola.json",
+      "familyMembers": [
+        "Corsola"
+      ]
+    },
+    {
+      "species": "Corsola-Galar",
+      "familyKey": "corsola-galar",
+      "detailFile": "families/corsola-galar.json",
+      "familyMembers": [
+        "Corsola-Galar",
+        "Cursola"
+      ]
+    },
+    {
+      "species": "Corviknight",
+      "familyKey": "rookidee",
+      "detailFile": "families/rookidee.json",
+      "familyMembers": [
+        "Corviknight",
+        "Corvisquire",
+        "Rookidee"
+      ]
+    },
+    {
+      "species": "Corvisquire",
+      "familyKey": "rookidee",
+      "detailFile": "families/rookidee.json",
+      "familyMembers": [
+        "Corviknight",
+        "Corvisquire",
+        "Rookidee"
+      ]
+    },
+    {
+      "species": "Cottonee",
+      "familyKey": "cottonee",
+      "detailFile": "families/cottonee.json",
+      "familyMembers": [
+        "Cottonee",
+        "Whimsicott"
+      ]
+    },
+    {
+      "species": "Crabominable",
+      "familyKey": "crabrawler",
+      "detailFile": "families/crabrawler.json",
+      "familyMembers": [
+        "Crabominable",
+        "Crabrawler"
+      ]
+    },
+    {
+      "species": "Crabrawler",
+      "familyKey": "crabrawler",
+      "detailFile": "families/crabrawler.json",
+      "familyMembers": [
+        "Crabominable",
+        "Crabrawler"
+      ]
+    },
+    {
+      "species": "Cradily",
+      "familyKey": "lileep",
+      "detailFile": "families/lileep.json",
+      "familyMembers": [
+        "Cradily",
+        "Lileep"
+      ]
+    },
+    {
+      "species": "Cranidos",
+      "familyKey": "cranidos",
+      "detailFile": "families/cranidos.json",
+      "familyMembers": [
+        "Cranidos",
+        "Rampardos"
+      ]
+    },
+    {
+      "species": "Crawdaunt",
+      "familyKey": "corphish",
+      "detailFile": "families/corphish.json",
+      "familyMembers": [
+        "Corphish",
+        "Crawdaunt"
+      ]
+    },
+    {
+      "species": "Croagunk",
+      "familyKey": "croagunk",
+      "detailFile": "families/croagunk.json",
+      "familyMembers": [
+        "Croagunk",
+        "Toxicroak"
+      ]
+    },
+    {
+      "species": "Crobat",
+      "familyKey": "zubat",
+      "detailFile": "families/zubat.json",
+      "familyMembers": [
+        "Crobat",
+        "Golbat",
+        "Zubat"
+      ]
+    },
+    {
+      "species": "Croconaw",
+      "familyKey": "totodile",
+      "detailFile": "families/totodile.json",
+      "familyMembers": [
+        "Croconaw",
+        "Feraligatr",
+        "Totodile"
+      ]
+    },
+    {
+      "species": "Cubchoo",
+      "familyKey": "cubchoo",
+      "detailFile": "families/cubchoo.json",
+      "familyMembers": [
+        "Beartic",
+        "Cubchoo"
+      ]
+    },
+    {
+      "species": "Cubone",
+      "familyKey": "cubone",
+      "detailFile": "families/cubone.json",
+      "familyMembers": [
+        "Cubone",
+        "Marowak",
+        "Marowak-Alola"
+      ]
+    },
+    {
+      "species": "Cursola",
+      "familyKey": "corsola-galar",
+      "detailFile": "families/corsola-galar.json",
+      "familyMembers": [
+        "Corsola-Galar",
+        "Cursola"
+      ]
+    },
+    {
+      "species": "Cutiefly",
+      "familyKey": "cutiefly",
+      "detailFile": "families/cutiefly.json",
+      "familyMembers": [
+        "Cutiefly",
+        "Ribombee"
+      ]
+    },
+    {
+      "species": "Cyclizar",
+      "familyKey": "cyclizar",
+      "detailFile": "families/cyclizar.json",
+      "familyMembers": [
+        "Cyclizar"
+      ]
+    },
+    {
+      "species": "Cyndaquil",
+      "familyKey": "cyndaquil",
+      "detailFile": "families/cyndaquil.json",
+      "familyMembers": [
+        "Cyndaquil",
+        "Quilava",
+        "Typhlosion",
+        "Typhlosion-Hisui"
+      ]
+    },
+    {
+      "species": "Dachsbun",
+      "familyKey": "fidough",
+      "detailFile": "families/fidough.json",
+      "familyMembers": [
+        "Dachsbun",
+        "Fidough"
+      ]
+    },
+    {
+      "species": "Darmanitan",
+      "familyKey": "darumaka",
+      "detailFile": "families/darumaka.json",
+      "familyMembers": [
+        "Darmanitan",
+        "Darumaka"
+      ]
+    },
+    {
+      "species": "Darmanitan-Galar",
+      "familyKey": "darumaka-galar",
+      "detailFile": "families/darumaka-galar.json",
+      "familyMembers": [
+        "Darmanitan-Galar",
+        "Darumaka-Galar"
+      ]
+    },
+    {
+      "species": "Darmanitan-Zen",
+      "familyKey": "darmanitan-zen",
+      "detailFile": "families/darmanitan-zen.json",
+      "familyMembers": [
+        "Darmanitan-Zen"
+      ]
+    },
+    {
+      "species": "Darumaka",
+      "familyKey": "darumaka",
+      "detailFile": "families/darumaka.json",
+      "familyMembers": [
+        "Darmanitan",
+        "Darumaka"
+      ]
+    },
+    {
+      "species": "Delcatty",
+      "familyKey": "skitty",
+      "detailFile": "families/skitty.json",
+      "familyMembers": [
+        "Delcatty",
+        "Skitty"
+      ]
+    },
+    {
+      "species": "Delibird",
+      "familyKey": "delibird",
+      "detailFile": "families/delibird.json",
+      "familyMembers": [
+        "Delibird"
+      ]
+    },
+    {
+      "species": "Delphox",
+      "familyKey": "fennekin",
+      "detailFile": "families/fennekin.json",
+      "familyMembers": [
+        "Braixen",
+        "Delphox",
+        "Fennekin"
+      ]
+    },
+    {
+      "species": "Delphox-Mega",
+      "familyKey": "fennekin",
+      "detailFile": "families/fennekin.json",
+      "familyMembers": [
+        "Braixen",
+        "Delphox",
+        "Delphox-Mega",
+        "Fennekin"
+      ]
+    },
+    {
+      "species": "Dewgong",
+      "familyKey": "seel",
+      "detailFile": "families/seel.json",
+      "familyMembers": [
+        "Dewgong",
+        "Seel"
+      ]
+    },
+    {
+      "species": "Dewott",
+      "familyKey": "oshawott",
+      "detailFile": "families/oshawott.json",
+      "familyMembers": [
+        "Dewott",
+        "Oshawott",
+        "Samurott",
+        "Samurott-Hisui"
+      ]
+    },
+    {
+      "species": "Dewpider",
+      "familyKey": "dewpider",
+      "detailFile": "families/dewpider.json",
+      "familyMembers": [
+        "Araquanid",
+        "Dewpider"
+      ]
+    },
+    {
+      "species": "Dhelmise",
+      "familyKey": "dhelmise",
+      "detailFile": "families/dhelmise.json",
+      "familyMembers": [
+        "Dhelmise"
+      ]
+    },
+    {
+      "species": "Diancie",
+      "familyKey": "diancie",
+      "detailFile": "families/diancie.json",
+      "familyMembers": [
+        "Diancie",
+        "Diancie-Mega"
+      ]
+    },
+    {
+      "species": "Diggersby",
+      "familyKey": "bunnelby",
+      "detailFile": "families/bunnelby.json",
+      "familyMembers": [
+        "Bunnelby",
+        "Diggersby"
+      ]
+    },
+    {
+      "species": "Dipplin",
+      "familyKey": "applin",
+      "detailFile": "families/applin.json",
+      "familyMembers": [
+        "Appletun",
+        "Appletun-Mega",
+        "Applin",
+        "Dipplin",
+        "Flapple",
+        "Flapple-Mega",
+        "Hydrapple"
+      ]
+    },
+    {
+      "species": "Ditto",
+      "familyKey": "ditto",
+      "detailFile": "families/ditto.json",
+      "familyMembers": [
+        "Ditto"
+      ]
+    },
+    {
+      "species": "Dolliv",
+      "familyKey": "smoliv",
+      "detailFile": "families/smoliv.json",
+      "familyMembers": [
+        "Arboliva",
+        "Dolliv",
+        "Smoliv"
+      ]
+    },
+    {
+      "species": "Dondozo",
+      "familyKey": "dondozo",
+      "detailFile": "families/dondozo.json",
+      "familyMembers": [
+        "Dondozo"
+      ]
+    },
+    {
+      "species": "Donphan",
+      "familyKey": "phanpy",
+      "detailFile": "families/phanpy.json",
+      "familyMembers": [
+        "Donphan",
+        "Phanpy"
+      ]
+    },
+    {
+      "species": "Doublade",
+      "familyKey": "honedge",
+      "detailFile": "families/honedge.json",
+      "familyMembers": [
+        "Aegislash-Shield",
+        "Doublade",
+        "Honedge"
+      ]
+    },
+    {
+      "species": "Dracovish",
+      "familyKey": "dracovish",
+      "detailFile": "families/dracovish.json",
+      "familyMembers": [
+        "Dracovish"
+      ]
+    },
+    {
+      "species": "Dracozolt",
+      "familyKey": "dracozolt",
+      "detailFile": "families/dracozolt.json",
+      "familyMembers": [
+        "Dracozolt"
+      ]
+    },
+    {
+      "species": "Dragalge",
+      "familyKey": "skrelp",
+      "detailFile": "families/skrelp.json",
+      "familyMembers": [
+        "Dragalge",
+        "Skrelp"
+      ]
+    },
+    {
+      "species": "Dragalge-Mega",
+      "familyKey": "skrelp",
+      "detailFile": "families/skrelp.json",
+      "familyMembers": [
+        "Dragalge",
+        "Dragalge-Mega",
+        "Skrelp"
+      ]
+    },
+    {
+      "species": "Dragapult",
+      "familyKey": "dreepy",
+      "detailFile": "families/dreepy.json",
+      "familyMembers": [
+        "Dragapult",
+        "Drakloak",
+        "Dreepy"
+      ]
+    },
+    {
+      "species": "Dragonite",
+      "familyKey": "dratini",
+      "detailFile": "families/dratini.json",
+      "familyMembers": [
+        "Dragonair",
+        "Dragonite",
+        "Dratini"
+      ]
+    },
+    {
+      "species": "Drampa",
+      "familyKey": "drampa",
+      "detailFile": "families/drampa.json",
+      "familyMembers": [
+        "Drampa"
+      ]
+    },
+    {
+      "species": "Drampa-Mega",
+      "familyKey": "drampa",
+      "detailFile": "families/drampa.json",
+      "familyMembers": [
+        "Drampa",
+        "Drampa-Mega"
+      ]
+    },
+    {
+      "species": "Drapion",
+      "familyKey": "skorupi",
+      "detailFile": "families/skorupi.json",
+      "familyMembers": [
+        "Drapion",
+        "Skorupi"
+      ]
+    },
+    {
+      "species": "Dratini",
+      "familyKey": "dratini",
+      "detailFile": "families/dratini.json",
+      "familyMembers": [
+        "Dragonair",
+        "Dragonite",
+        "Dratini"
+      ]
+    },
+    {
+      "species": "Drednaw",
+      "familyKey": "chewtle",
+      "detailFile": "families/chewtle.json",
+      "familyMembers": [
+        "Chewtle",
+        "Drednaw",
+        "Drednaw-Mega"
+      ]
+    },
+    {
+      "species": "Drifblim",
+      "familyKey": "drifloon",
+      "detailFile": "families/drifloon.json",
+      "familyMembers": [
+        "Drifblim",
+        "Drifloon"
+      ]
+    },
+    {
+      "species": "Druddigon",
+      "familyKey": "druddigon",
+      "detailFile": "families/druddigon.json",
+      "familyMembers": [
+        "Druddigon"
+      ]
+    },
+    {
+      "species": "Dubwool",
+      "familyKey": "wooloo",
+      "detailFile": "families/wooloo.json",
+      "familyMembers": [
+        "Dubwool",
+        "Wooloo"
+      ]
+    },
+    {
+      "species": "Ducklett",
+      "familyKey": "ducklett",
+      "detailFile": "families/ducklett.json",
+      "familyMembers": [
+        "Ducklett",
+        "Swanna"
+      ]
+    },
+    {
+      "species": "Dudunsparce",
+      "familyKey": "dunsparce",
+      "detailFile": "families/dunsparce.json",
+      "familyMembers": [
+        "Dudunsparce",
+        "Dunsparce"
+      ]
+    },
+    {
+      "species": "Dugtrio",
+      "familyKey": "diglett",
+      "detailFile": "families/diglett.json",
+      "familyMembers": [
+        "Diglett",
+        "Dugtrio"
+      ]
+    },
+    {
+      "species": "Durant",
+      "familyKey": "durant",
+      "detailFile": "families/durant.json",
+      "familyMembers": [
+        "Durant"
+      ]
+    },
+    {
+      "species": "Dusclops",
+      "familyKey": "duskull",
+      "detailFile": "families/duskull.json",
+      "familyMembers": [
+        "Dusclops",
+        "Dusknoir",
+        "Dusknoir-Mega",
+        "Duskull"
+      ]
+    },
+    {
+      "species": "Dusknoir",
+      "familyKey": "duskull",
+      "detailFile": "families/duskull.json",
+      "familyMembers": [
+        "Dusclops",
+        "Dusknoir",
+        "Dusknoir-Mega",
+        "Duskull"
+      ]
+    },
+    {
+      "species": "Duskull",
+      "familyKey": "duskull",
+      "detailFile": "families/duskull.json",
+      "familyMembers": [
+        "Dusclops",
+        "Dusknoir",
+        "Dusknoir-Mega",
+        "Duskull"
+      ]
+    },
+    {
+      "species": "Eelektrik",
+      "familyKey": "tynamo",
+      "detailFile": "families/tynamo.json",
+      "familyMembers": [
+        "Eelektrik",
+        "Eelektross",
+        "Tynamo"
+      ]
+    },
+    {
+      "species": "Eelektross",
+      "familyKey": "tynamo",
+      "detailFile": "families/tynamo.json",
+      "familyMembers": [
+        "Eelektrik",
+        "Eelektross",
+        "Tynamo"
+      ]
+    },
+    {
+      "species": "Eelektross-Mega",
+      "familyKey": "tynamo",
+      "detailFile": "families/tynamo.json",
+      "familyMembers": [
+        "Eelektrik",
+        "Eelektross",
+        "Eelektross-Mega",
+        "Tynamo"
+      ]
+    },
+    {
+      "species": "Eiscue",
+      "familyKey": "eiscue",
+      "detailFile": "families/eiscue.json",
+      "familyMembers": [
+        "Eiscue"
+      ]
+    },
+    {
+      "species": "Eiscue-Noice",
+      "familyKey": "eiscue-noice",
+      "detailFile": "families/eiscue-noice.json",
+      "familyMembers": [
+        "Eiscue-Noice"
+      ]
+    },
+    {
+      "species": "Ekans",
+      "familyKey": "ekans",
+      "detailFile": "families/ekans.json",
+      "familyMembers": [
+        "Arbok",
+        "Ekans"
+      ]
+    },
+    {
+      "species": "Eldegoss",
+      "familyKey": "gossifleur",
+      "detailFile": "families/gossifleur.json",
+      "familyMembers": [
+        "Eldegoss",
+        "Gossifleur"
+      ]
+    },
+    {
+      "species": "Electabuzz",
+      "familyKey": "elekid",
+      "detailFile": "families/elekid.json",
+      "familyMembers": [
+        "Electabuzz",
+        "Electivire",
+        "Elekid"
+      ]
+    },
+    {
+      "species": "Electivire",
+      "familyKey": "elekid",
+      "detailFile": "families/elekid.json",
+      "familyMembers": [
+        "Electabuzz",
+        "Electivire",
+        "Elekid"
+      ]
+    },
+    {
+      "species": "Electrike",
+      "familyKey": "electrike",
+      "detailFile": "families/electrike.json",
+      "familyMembers": [
+        "Electrike",
+        "Manectric",
+        "Manectric-Mega"
+      ]
+    },
+    {
+      "species": "Electrode",
+      "familyKey": "voltorb",
+      "detailFile": "families/voltorb.json",
+      "familyMembers": [
+        "Electrode",
+        "Voltorb"
+      ]
+    },
+    {
+      "species": "Electrode-Hisui",
+      "familyKey": "voltorb-hisui",
+      "detailFile": "families/voltorb-hisui.json",
+      "familyMembers": [
+        "Electrode-Hisui",
+        "Voltorb-Hisui"
+      ]
+    },
+    {
+      "species": "Elekid",
+      "familyKey": "elekid",
+      "detailFile": "families/elekid.json",
+      "familyMembers": [
+        "Electabuzz",
+        "Electivire",
+        "Elekid"
+      ]
+    },
+    {
+      "species": "Emboar",
+      "familyKey": "tepig",
+      "detailFile": "families/tepig.json",
+      "familyMembers": [
+        "Emboar",
+        "Pignite",
+        "Tepig"
+      ]
+    },
+    {
+      "species": "Emboar-Mega",
+      "familyKey": "tepig",
+      "detailFile": "families/tepig.json",
+      "familyMembers": [
+        "Emboar",
+        "Emboar-Mega",
+        "Pignite",
+        "Tepig"
+      ]
+    },
+    {
+      "species": "Empoleon",
+      "familyKey": "piplup",
+      "detailFile": "families/piplup.json",
+      "familyMembers": [
+        "Empoleon",
+        "Empoleon-Mega-D",
+        "Empoleon-Mega-O",
+        "Piplup",
+        "Prinplup"
+      ]
+    },
+    {
+      "species": "Enamorus",
+      "familyKey": "enamorus",
+      "detailFile": "families/enamorus.json",
+      "familyMembers": [
+        "Enamorus"
+      ]
+    },
+    {
+      "species": "Escavalier",
+      "familyKey": "karrablast",
+      "detailFile": "families/karrablast.json",
+      "familyMembers": [
+        "Escavalier",
+        "Karrablast"
+      ]
+    },
+    {
+      "species": "Espathra",
+      "familyKey": "flittle",
+      "detailFile": "families/flittle.json",
+      "familyMembers": [
+        "Espathra",
+        "Flittle"
+      ]
+    },
+    {
+      "species": "Espeon",
+      "familyKey": "eevee",
+      "detailFile": "families/eevee.json",
+      "familyMembers": [
+        "Eevee",
+        "Espeon",
+        "Flareon",
+        "Glaceon",
+        "Jolteon",
+        "Leafeon",
+        "Sylveon",
+        "Umbreon",
+        "Vaporeon"
+      ]
+    },
+    {
+      "species": "Espurr",
+      "familyKey": "espurr",
+      "detailFile": "families/espurr.json",
+      "familyMembers": [
+        "Espurr",
+        "Meowstic",
+        "Meowstic-F"
+      ]
+    },
+    {
+      "species": "Excadrill",
+      "familyKey": "drilbur",
+      "detailFile": "families/drilbur.json",
+      "familyMembers": [
+        "Drilbur",
+        "Excadrill"
+      ]
+    },
+    {
+      "species": "Exeggcute",
+      "familyKey": "exeggcute",
+      "detailFile": "families/exeggcute.json",
+      "familyMembers": [
+        "Exeggcute",
+        "Exeggutor",
+        "Exeggutor-Alola"
+      ]
+    },
+    {
+      "species": "Exeggutor",
+      "familyKey": "exeggcute",
+      "detailFile": "families/exeggcute.json",
+      "familyMembers": [
+        "Exeggcute",
+        "Exeggutor",
+        "Exeggutor-Alola"
+      ]
+    },
+    {
+      "species": "Exeggutor-Alola",
+      "familyKey": "exeggcute",
+      "detailFile": "families/exeggcute.json",
+      "familyMembers": [
+        "Exeggcute",
+        "Exeggutor",
+        "Exeggutor-Alola"
+      ]
+    },
+    {
+      "species": "Falinks",
+      "familyKey": "falinks",
+      "detailFile": "families/falinks.json",
+      "familyMembers": [
+        "Falinks"
+      ]
+    },
+    {
+      "species": "Falinks-Mega",
+      "familyKey": "falinks",
+      "detailFile": "families/falinks.json",
+      "familyMembers": [
+        "Falinks",
+        "Falinks-Mega"
+      ]
+    },
+    {
+      "species": "Farigiraf",
+      "familyKey": "girafarig",
+      "detailFile": "families/girafarig.json",
+      "familyMembers": [
+        "Farigiraf",
+        "Girafarig"
+      ]
+    },
+    {
+      "species": "Feebas",
+      "familyKey": "feebas",
+      "detailFile": "families/feebas.json",
+      "familyMembers": [
+        "Feebas",
+        "Milotic"
+      ]
+    },
+    {
+      "species": "Fennekin",
+      "familyKey": "fennekin",
+      "detailFile": "families/fennekin.json",
+      "familyMembers": [
+        "Braixen",
+        "Delphox",
+        "Fennekin"
+      ]
+    },
+    {
+      "species": "Feraligatr",
+      "familyKey": "totodile",
+      "detailFile": "families/totodile.json",
+      "familyMembers": [
+        "Croconaw",
+        "Feraligatr",
+        "Totodile"
+      ]
+    },
+    {
+      "species": "Feraligatr-Mega",
+      "familyKey": "totodile",
+      "detailFile": "families/totodile.json",
+      "familyMembers": [
+        "Croconaw",
+        "Feraligatr",
+        "Feraligatr-Mega",
+        "Totodile"
+      ]
+    },
+    {
+      "species": "Ferrothorn",
+      "familyKey": "ferroseed",
+      "detailFile": "families/ferroseed.json",
+      "familyMembers": [
+        "Ferroseed",
+        "Ferrothorn"
+      ]
+    },
+    {
+      "species": "Flaaffy",
+      "familyKey": "mareep",
+      "detailFile": "families/mareep.json",
+      "familyMembers": [
+        "Ampharos",
+        "Ampharos-Mega",
+        "Flaaffy",
+        "Mareep"
+      ]
+    },
+    {
+      "species": "Flapple",
+      "familyKey": "applin",
+      "detailFile": "families/applin.json",
+      "familyMembers": [
+        "Appletun",
+        "Appletun-Mega",
+        "Applin",
+        "Dipplin",
+        "Flapple",
+        "Flapple-Mega",
+        "Hydrapple"
+      ]
+    },
+    {
+      "species": "Flareon",
+      "familyKey": "eevee",
+      "detailFile": "families/eevee.json",
+      "familyMembers": [
+        "Eevee",
+        "Espeon",
+        "Flareon",
+        "Glaceon",
+        "Jolteon",
+        "Leafeon",
+        "Sylveon",
+        "Umbreon",
+        "Vaporeon"
+      ]
+    },
+    {
+      "species": "Fletchinder",
+      "familyKey": "fletchling",
+      "detailFile": "families/fletchling.json",
+      "familyMembers": [
+        "Fletchinder",
+        "Fletchling",
+        "Talonflame"
+      ]
+    },
+    {
+      "species": "Fletchling",
+      "familyKey": "fletchling",
+      "detailFile": "families/fletchling.json",
+      "familyMembers": [
+        "Fletchinder",
+        "Fletchling",
+        "Talonflame"
+      ]
+    },
+    {
+      "species": "Flittle",
+      "familyKey": "flittle",
+      "detailFile": "families/flittle.json",
+      "familyMembers": [
+        "Espathra",
+        "Flittle"
+      ]
+    },
+    {
+      "species": "Floatzel",
+      "familyKey": "buizel",
+      "detailFile": "families/buizel.json",
+      "familyMembers": [
+        "Buizel",
+        "Floatzel"
+      ]
+    },
+    {
+      "species": "Floette",
+      "familyKey": "flab-b",
+      "detailFile": "families/flab-b.json",
+      "familyMembers": [
+        "Flab\u00e9b\u00e9",
+        "Floette",
+        "Florges"
+      ]
+    },
+    {
+      "species": "Floette-Eternal",
+      "familyKey": "floette-eternal",
+      "detailFile": "families/floette-eternal.json",
+      "familyMembers": [
+        "Floette-Eternal"
+      ]
+    },
+    {
+      "species": "Florges",
+      "familyKey": "flab-b",
+      "detailFile": "families/flab-b.json",
+      "familyMembers": [
+        "Flab\u00e9b\u00e9",
+        "Floette",
+        "Florges"
+      ]
+    },
+    {
+      "species": "Flutter Mane",
+      "familyKey": "flutter-mane",
+      "detailFile": "families/flutter-mane.json",
+      "familyMembers": [
+        "Flutter Mane"
+      ]
+    },
+    {
+      "species": "Flygon",
+      "familyKey": "trapinch",
+      "detailFile": "families/trapinch.json",
+      "familyMembers": [
+        "Flygon",
+        "Trapinch",
+        "Vibrava"
+      ]
+    },
+    {
+      "species": "Foongus",
+      "familyKey": "foongus",
+      "detailFile": "families/foongus.json",
+      "familyMembers": [
+        "Amoonguss",
+        "Foongus"
+      ]
+    },
+    {
+      "species": "Fraxure",
+      "familyKey": "axew",
+      "detailFile": "families/axew.json",
+      "familyMembers": [
+        "Axew",
+        "Fraxure",
+        "Haxorus"
+      ]
+    },
+    {
+      "species": "Froakie",
+      "familyKey": "froakie",
+      "detailFile": "families/froakie.json",
+      "familyMembers": [
+        "Froakie",
+        "Frogadier",
+        "Greninja"
+      ]
+    },
+    {
+      "species": "Frogadier",
+      "familyKey": "froakie",
+      "detailFile": "families/froakie.json",
+      "familyMembers": [
+        "Froakie",
+        "Frogadier",
+        "Greninja"
+      ]
+    },
+    {
+      "species": "Froslass",
+      "familyKey": "snorunt",
+      "detailFile": "families/snorunt.json",
+      "familyMembers": [
+        "Froslass",
+        "Glalie",
+        "Glalie-Mega",
+        "Snorunt"
+      ]
+    },
+    {
+      "species": "Froslass-Mega",
+      "familyKey": "snorunt",
+      "detailFile": "families/snorunt.json",
+      "familyMembers": [
+        "Froslass",
+        "Froslass-Mega",
+        "Glalie",
+        "Glalie-Mega",
+        "Snorunt"
+      ]
+    },
+    {
+      "species": "Frosmoth",
+      "familyKey": "snom",
+      "detailFile": "families/snom.json",
+      "familyMembers": [
+        "Frosmoth",
+        "Snom"
+      ]
+    },
+    {
+      "species": "Gallade",
+      "familyKey": "ralts",
+      "detailFile": "families/ralts.json",
+      "familyMembers": [
+        "Gallade",
+        "Gallade-Mega",
+        "Gardevoir",
+        "Gardevoir-Mega",
+        "Kirlia",
+        "Ralts"
+      ]
+    },
+    {
+      "species": "Galvantula",
+      "familyKey": "joltik",
+      "detailFile": "families/joltik.json",
+      "familyMembers": [
+        "Galvantula",
+        "Joltik"
+      ]
+    },
+    {
+      "species": "Garchomp",
+      "familyKey": "gible",
+      "detailFile": "families/gible.json",
+      "familyMembers": [
+        "Gabite",
+        "Garchomp",
+        "Garchomp-Mega",
+        "Gible"
+      ]
+    },
+    {
+      "species": "Garchomp-Mega",
+      "familyKey": "gible",
+      "detailFile": "families/gible.json",
+      "familyMembers": [
+        "Gabite",
+        "Garchomp",
+        "Garchomp-Mega",
+        "Gible"
+      ]
+    },
+    {
+      "species": "Gardevoir",
+      "familyKey": "ralts",
+      "detailFile": "families/ralts.json",
+      "familyMembers": [
+        "Gallade",
+        "Gallade-Mega",
+        "Gardevoir",
+        "Gardevoir-Mega",
+        "Kirlia",
+        "Ralts"
+      ]
+    },
+    {
+      "species": "Gardevoir-Mega",
+      "familyKey": "ralts",
+      "detailFile": "families/ralts.json",
+      "familyMembers": [
+        "Gallade",
+        "Gallade-Mega",
+        "Gardevoir",
+        "Gardevoir-Mega",
+        "Kirlia",
+        "Ralts"
+      ]
+    },
+    {
+      "species": "Garganacl",
+      "familyKey": "nacli",
+      "detailFile": "families/nacli.json",
+      "familyMembers": [
+        "Garganacl",
+        "Nacli",
+        "Naclstack"
+      ]
+    },
+    {
+      "species": "Gastrodon",
+      "familyKey": "shellos",
+      "detailFile": "families/shellos.json",
+      "familyMembers": [
+        "Gastrodon",
+        "Shellos"
+      ]
+    },
+    {
+      "species": "Gengar",
+      "familyKey": "gastly",
+      "detailFile": "families/gastly.json",
+      "familyMembers": [
+        "Gastly",
+        "Gengar",
+        "Gengar-Mega",
+        "Haunter"
+      ]
+    },
+    {
+      "species": "Gengar-Mega",
+      "familyKey": "gastly",
+      "detailFile": "families/gastly.json",
+      "familyMembers": [
+        "Gastly",
+        "Gengar",
+        "Gengar-Mega",
+        "Haunter"
+      ]
+    },
+    {
+      "species": "Geodude",
+      "familyKey": "geodude",
+      "detailFile": "families/geodude.json",
+      "familyMembers": [
+        "Geodude",
+        "Golem",
+        "Graveler"
+      ]
+    },
+    {
+      "species": "Geodude-Alola",
+      "familyKey": "geodude-alola",
+      "detailFile": "families/geodude-alola.json",
+      "familyMembers": [
+        "Geodude-Alola",
+        "Golem-Alola",
+        "Graveler-Alola"
+      ]
+    },
+    {
+      "species": "Gholdengo",
+      "familyKey": "gimmighoul-roaming",
+      "detailFile": "families/gimmighoul-roaming.json",
+      "familyMembers": [
+        "Gholdengo",
+        "Gimmighoul-Roaming"
+      ]
+    },
+    {
+      "species": "Gible",
+      "familyKey": "gible",
+      "detailFile": "families/gible.json",
+      "familyMembers": [
+        "Gabite",
+        "Garchomp",
+        "Garchomp-Mega",
+        "Gible"
+      ]
+    },
+    {
+      "species": "Gigalith",
+      "familyKey": "roggenrola",
+      "detailFile": "families/roggenrola.json",
+      "familyMembers": [
+        "Boldore",
+        "Gigalith",
+        "Roggenrola"
+      ]
+    },
+    {
+      "species": "Girafarig",
+      "familyKey": "girafarig",
+      "detailFile": "families/girafarig.json",
+      "familyMembers": [
+        "Farigiraf",
+        "Girafarig"
+      ]
+    },
+    {
+      "species": "Glaceon",
+      "familyKey": "eevee",
+      "detailFile": "families/eevee.json",
+      "familyMembers": [
+        "Eevee",
+        "Espeon",
+        "Flareon",
+        "Glaceon",
+        "Jolteon",
+        "Leafeon",
+        "Sylveon",
+        "Umbreon",
+        "Vaporeon"
+      ]
+    },
+    {
+      "species": "Glalie",
+      "familyKey": "snorunt",
+      "detailFile": "families/snorunt.json",
+      "familyMembers": [
+        "Froslass",
+        "Glalie",
+        "Glalie-Mega",
+        "Snorunt"
+      ]
+    },
+    {
+      "species": "Glalie-Mega",
+      "familyKey": "snorunt",
+      "detailFile": "families/snorunt.json",
+      "familyMembers": [
+        "Froslass",
+        "Glalie",
+        "Glalie-Mega",
+        "Snorunt"
+      ]
+    },
+    {
+      "species": "Glameow",
+      "familyKey": "glameow",
+      "detailFile": "families/glameow.json",
+      "familyMembers": [
+        "Glameow",
+        "Purugly"
+      ]
+    },
+    {
+      "species": "Gligar",
+      "familyKey": "gligar",
+      "detailFile": "families/gligar.json",
+      "familyMembers": [
+        "Gligar",
+        "Gliscor"
+      ]
+    },
+    {
+      "species": "Glimmora",
+      "familyKey": "glimmet",
+      "detailFile": "families/glimmet.json",
+      "familyMembers": [
+        "Glimmet",
+        "Glimmora"
+      ]
+    },
+    {
+      "species": "Gliscor",
+      "familyKey": "gligar",
+      "detailFile": "families/gligar.json",
+      "familyMembers": [
+        "Gligar",
+        "Gliscor"
+      ]
+    },
+    {
+      "species": "Gloom",
+      "familyKey": "oddish",
+      "detailFile": "families/oddish.json",
+      "familyMembers": [
+        "Bellossom",
+        "Gloom",
+        "Oddish",
+        "Vileplume"
+      ]
+    },
+    {
+      "species": "Golbat",
+      "familyKey": "zubat",
+      "detailFile": "families/zubat.json",
+      "familyMembers": [
+        "Crobat",
+        "Golbat",
+        "Zubat"
+      ]
+    },
+    {
+      "species": "Golem",
+      "familyKey": "geodude",
+      "detailFile": "families/geodude.json",
+      "familyMembers": [
+        "Geodude",
+        "Golem",
+        "Graveler"
+      ]
+    },
+    {
+      "species": "Golem-Alola",
+      "familyKey": "geodude-alola",
+      "detailFile": "families/geodude-alola.json",
+      "familyMembers": [
+        "Geodude-Alola",
+        "Golem-Alola",
+        "Graveler-Alola"
+      ]
+    },
+    {
+      "species": "Golisopod",
+      "familyKey": "wimpod",
+      "detailFile": "families/wimpod.json",
+      "familyMembers": [
+        "Golisopod",
+        "Wimpod"
+      ]
+    },
+    {
+      "species": "Golurk",
+      "familyKey": "golett",
+      "detailFile": "families/golett.json",
+      "familyMembers": [
+        "Golett",
+        "Golurk"
+      ]
+    },
+    {
+      "species": "Goodra",
+      "familyKey": "goomy",
+      "detailFile": "families/goomy.json",
+      "familyMembers": [
+        "Goodra",
+        "Goodra-Hisui",
+        "Goomy",
+        "Sliggoo",
+        "Sliggoo-Hisui"
+      ]
+    },
+    {
+      "species": "Goodra-Hisui",
+      "familyKey": "goomy",
+      "detailFile": "families/goomy.json",
+      "familyMembers": [
+        "Goodra",
+        "Goodra-Hisui",
+        "Goomy",
+        "Sliggoo",
+        "Sliggoo-Hisui"
+      ]
+    },
+    {
+      "species": "Goomy",
+      "familyKey": "goomy",
+      "detailFile": "families/goomy.json",
+      "familyMembers": [
+        "Goodra",
+        "Goodra-Hisui",
+        "Goomy",
+        "Sliggoo",
+        "Sliggoo-Hisui"
+      ]
+    },
+    {
+      "species": "Gorebyss",
+      "familyKey": "clamperl",
+      "detailFile": "families/clamperl.json",
+      "familyMembers": [
+        "Clamperl",
+        "Gorebyss",
+        "Huntail"
+      ]
+    },
+    {
+      "species": "Gossifleur",
+      "familyKey": "gossifleur",
+      "detailFile": "families/gossifleur.json",
+      "familyMembers": [
+        "Eldegoss",
+        "Gossifleur"
+      ]
+    },
+    {
+      "species": "Grafaiai",
+      "familyKey": "shroodle",
+      "detailFile": "families/shroodle.json",
+      "familyMembers": [
+        "Grafaiai",
+        "Shroodle"
+      ]
+    },
+    {
+      "species": "Granbull",
+      "familyKey": "snubbull",
+      "detailFile": "families/snubbull.json",
+      "familyMembers": [
+        "Granbull",
+        "Snubbull"
+      ]
+    },
+    {
+      "species": "Graveler",
+      "familyKey": "geodude",
+      "detailFile": "families/geodude.json",
+      "familyMembers": [
+        "Geodude",
+        "Golem",
+        "Graveler"
+      ]
+    },
+    {
+      "species": "Graveler-Alola",
+      "familyKey": "geodude-alola",
+      "detailFile": "families/geodude-alola.json",
+      "familyMembers": [
+        "Geodude-Alola",
+        "Golem-Alola",
+        "Graveler-Alola"
+      ]
+    },
+    {
+      "species": "Great Tusk",
+      "familyKey": "great-tusk",
+      "detailFile": "families/great-tusk.json",
+      "familyMembers": [
+        "Great Tusk"
+      ]
+    },
+    {
+      "species": "Greninja",
+      "familyKey": "froakie",
+      "detailFile": "families/froakie.json",
+      "familyMembers": [
+        "Froakie",
+        "Frogadier",
+        "Greninja"
+      ]
+    },
+    {
+      "species": "Greninja-Mega",
+      "familyKey": "froakie",
+      "detailFile": "families/froakie.json",
+      "familyMembers": [
+        "Froakie",
+        "Frogadier",
+        "Greninja",
+        "Greninja-Mega"
+      ]
+    },
+    {
+      "species": "Grimmsnarl",
+      "familyKey": "impidimp",
+      "detailFile": "families/impidimp.json",
+      "familyMembers": [
+        "Grimmsnarl",
+        "Grimmsnarl-Mega",
+        "Impidimp",
+        "Morgrem"
+      ]
+    },
+    {
+      "species": "Grotle",
+      "familyKey": "turtwig",
+      "detailFile": "families/turtwig.json",
+      "familyMembers": [
+        "Grotle",
+        "Torterra",
+        "Torterra-Mega",
+        "Turtwig"
+      ]
+    },
+    {
+      "species": "Growlithe",
+      "familyKey": "growlithe",
+      "detailFile": "families/growlithe.json",
+      "familyMembers": [
+        "Arcanine",
+        "Growlithe"
+      ]
+    },
+    {
+      "species": "Growlithe-Hisui",
+      "familyKey": "growlithe-hisui",
+      "detailFile": "families/growlithe-hisui.json",
+      "familyMembers": [
+        "Arcanine-Hisui",
+        "Growlithe-Hisui"
+      ]
+    },
+    {
+      "species": "Grubbin",
+      "familyKey": "grubbin",
+      "detailFile": "families/grubbin.json",
+      "familyMembers": [
+        "Charjabug",
+        "Grubbin",
+        "Vikavolt"
+      ]
+    },
+    {
+      "species": "Gulpin",
+      "familyKey": "gulpin",
+      "detailFile": "families/gulpin.json",
+      "familyMembers": [
+        "Gulpin",
+        "Swalot"
+      ]
+    },
+    {
+      "species": "Gurdurr",
+      "familyKey": "timburr",
+      "detailFile": "families/timburr.json",
+      "familyMembers": [
+        "Conkeldurr",
+        "Gurdurr",
+        "Timburr"
+      ]
+    },
+    {
+      "species": "Gyarados",
+      "familyKey": "magikarp",
+      "detailFile": "families/magikarp.json",
+      "familyMembers": [
+        "Gyarados",
+        "Gyarados-Mega",
+        "Magikarp"
+      ]
+    },
+    {
+      "species": "Gyarados-Mega",
+      "familyKey": "magikarp",
+      "detailFile": "families/magikarp.json",
+      "familyMembers": [
+        "Gyarados",
+        "Gyarados-Mega",
+        "Magikarp"
+      ]
+    },
+    {
+      "species": "Happiny",
+      "familyKey": "happiny",
+      "detailFile": "families/happiny.json",
+      "familyMembers": [
+        "Blissey",
+        "Chansey",
+        "Happiny"
+      ]
+    },
+    {
+      "species": "Hariyama",
+      "familyKey": "makuhita",
+      "detailFile": "families/makuhita.json",
+      "familyMembers": [
+        "Hariyama",
+        "Makuhita"
+      ]
+    },
+    {
+      "species": "Hatterene",
+      "familyKey": "hatenna",
+      "detailFile": "families/hatenna.json",
+      "familyMembers": [
+        "Hatenna",
+        "Hatterene",
+        "Hattrem"
+      ]
+    },
+    {
+      "species": "Hawlucha",
+      "familyKey": "hawlucha",
+      "detailFile": "families/hawlucha.json",
+      "familyMembers": [
+        "Hawlucha"
+      ]
+    },
+    {
+      "species": "Hawlucha-Mega",
+      "familyKey": "hawlucha",
+      "detailFile": "families/hawlucha.json",
+      "familyMembers": [
+        "Hawlucha",
+        "Hawlucha-Mega"
+      ]
+    },
+    {
+      "species": "Haxorus",
+      "familyKey": "axew",
+      "detailFile": "families/axew.json",
+      "familyMembers": [
+        "Axew",
+        "Fraxure",
+        "Haxorus"
+      ]
+    },
+    {
+      "species": "Heatmor",
+      "familyKey": "heatmor",
+      "detailFile": "families/heatmor.json",
+      "familyMembers": [
+        "Heatmor"
+      ]
+    },
+    {
+      "species": "Heatran",
+      "familyKey": "heatran",
+      "detailFile": "families/heatran.json",
+      "familyMembers": [
+        "Heatran"
+      ]
+    },
+    {
+      "species": "Heliolisk",
+      "familyKey": "helioptile",
+      "detailFile": "families/helioptile.json",
+      "familyMembers": [
+        "Heliolisk",
+        "Helioptile"
+      ]
+    },
+    {
+      "species": "Helioptile",
+      "familyKey": "helioptile",
+      "detailFile": "families/helioptile.json",
+      "familyMembers": [
+        "Heliolisk",
+        "Helioptile"
+      ]
+    },
+    {
+      "species": "Heracross",
+      "familyKey": "heracross",
+      "detailFile": "families/heracross.json",
+      "familyMembers": [
+        "Heracross",
+        "Heracross-Mega"
+      ]
+    },
+    {
+      "species": "Heracross-Mega",
+      "familyKey": "heracross",
+      "detailFile": "families/heracross.json",
+      "familyMembers": [
+        "Heracross",
+        "Heracross-Mega"
+      ]
+    },
+    {
+      "species": "Herdier",
+      "familyKey": "lillipup",
+      "detailFile": "families/lillipup.json",
+      "familyMembers": [
+        "Herdier",
+        "Lillipup",
+        "Stoutland"
+      ]
+    },
+    {
+      "species": "Hippowdon",
+      "familyKey": "hippopotas",
+      "detailFile": "families/hippopotas.json",
+      "familyMembers": [
+        "Hippopotas",
+        "Hippowdon"
+      ]
+    },
+    {
+      "species": "Hitmonchan",
+      "familyKey": "tyrogue",
+      "detailFile": "families/tyrogue.json",
+      "familyMembers": [
+        "Hitmonchan",
+        "Hitmonlee",
+        "Hitmontop",
+        "Tyrogue"
+      ]
+    },
+    {
+      "species": "Hitmonlee",
+      "familyKey": "tyrogue",
+      "detailFile": "families/tyrogue.json",
+      "familyMembers": [
+        "Hitmonchan",
+        "Hitmonlee",
+        "Hitmontop",
+        "Tyrogue"
+      ]
+    },
+    {
+      "species": "Hitmontop",
+      "familyKey": "tyrogue",
+      "detailFile": "families/tyrogue.json",
+      "familyMembers": [
+        "Hitmonchan",
+        "Hitmonlee",
+        "Hitmontop",
+        "Tyrogue"
+      ]
+    },
+    {
+      "species": "Ho-Oh",
+      "familyKey": "ho-oh",
+      "detailFile": "families/ho-oh.json",
+      "familyMembers": [
+        "Ho-Oh"
+      ]
+    },
+    {
+      "species": "Honchkrow",
+      "familyKey": "murkrow",
+      "detailFile": "families/murkrow.json",
+      "familyMembers": [
+        "Honchkrow",
+        "Murkrow"
+      ]
+    },
+    {
+      "species": "Horsea",
+      "familyKey": "horsea",
+      "detailFile": "families/horsea.json",
+      "familyMembers": [
+        "Horsea",
+        "Kingdra",
+        "Seadra"
+      ]
+    },
+    {
+      "species": "Houndoom",
+      "familyKey": "houndour",
+      "detailFile": "families/houndour.json",
+      "familyMembers": [
+        "Houndoom",
+        "Houndoom-Mega",
+        "Houndour"
+      ]
+    },
+    {
+      "species": "Houndour",
+      "familyKey": "houndour",
+      "detailFile": "families/houndour.json",
+      "familyMembers": [
+        "Houndoom",
+        "Houndoom-Mega",
+        "Houndour"
+      ]
+    },
+    {
+      "species": "Houndstone",
+      "familyKey": "greavard",
+      "detailFile": "families/greavard.json",
+      "familyMembers": [
+        "Greavard",
+        "Houndstone"
+      ]
+    },
+    {
+      "species": "Huntail",
+      "familyKey": "clamperl",
+      "detailFile": "families/clamperl.json",
+      "familyMembers": [
+        "Clamperl",
+        "Gorebyss",
+        "Huntail"
+      ]
+    },
+    {
+      "species": "Hydrapple",
+      "familyKey": "applin",
+      "detailFile": "families/applin.json",
+      "familyMembers": [
+        "Appletun",
+        "Appletun-Mega",
+        "Applin",
+        "Dipplin",
+        "Flapple",
+        "Flapple-Mega",
+        "Hydrapple"
+      ]
+    },
+    {
+      "species": "Hydreigon",
+      "familyKey": "deino",
+      "detailFile": "families/deino.json",
+      "familyMembers": [
+        "Deino",
+        "Hydreigon",
+        "Zweilous"
+      ]
+    },
+    {
+      "species": "Incineroar",
+      "familyKey": "litten",
+      "detailFile": "families/litten.json",
+      "familyMembers": [
+        "Incineroar",
+        "Litten",
+        "Torracat"
+      ]
+    },
+    {
+      "species": "Infernape",
+      "familyKey": "chimchar",
+      "detailFile": "families/chimchar.json",
+      "familyMembers": [
+        "Chimchar",
+        "Infernape",
+        "Infernape-Mega",
+        "Monferno"
+      ]
+    },
+    {
+      "species": "Inkay",
+      "familyKey": "inkay",
+      "detailFile": "families/inkay.json",
+      "familyMembers": [
+        "Inkay",
+        "Malamar"
+      ]
+    },
+    {
+      "species": "Inteleon",
+      "familyKey": "sobble",
+      "detailFile": "families/sobble.json",
+      "familyMembers": [
+        "Drizzile",
+        "Inteleon",
+        "Sobble"
+      ]
+    },
+    {
+      "species": "Iron Bundle",
+      "familyKey": "iron-bundle",
+      "detailFile": "families/iron-bundle.json",
+      "familyMembers": [
+        "Iron Bundle"
+      ]
+    },
+    {
+      "species": "Iron Moth",
+      "familyKey": "iron-moth",
+      "detailFile": "families/iron-moth.json",
+      "familyMembers": [
+        "Iron Moth"
+      ]
+    },
+    {
+      "species": "Ivysaur",
+      "familyKey": "bulbasaur",
+      "detailFile": "families/bulbasaur.json",
+      "familyMembers": [
+        "Bulbasaur",
+        "Ivysaur",
+        "Venusaur",
+        "Venusaur-Mega"
+      ]
+    },
+    {
+      "species": "Jellicent",
+      "familyKey": "frillish",
+      "detailFile": "families/frillish.json",
+      "familyMembers": [
+        "Frillish",
+        "Jellicent"
+      ]
+    },
+    {
+      "species": "Jolteon",
+      "familyKey": "eevee",
+      "detailFile": "families/eevee.json",
+      "familyMembers": [
+        "Eevee",
+        "Espeon",
+        "Flareon",
+        "Glaceon",
+        "Jolteon",
+        "Leafeon",
+        "Sylveon",
+        "Umbreon",
+        "Vaporeon"
+      ]
+    },
+    {
+      "species": "Kabuto",
+      "familyKey": "kabuto",
+      "detailFile": "families/kabuto.json",
+      "familyMembers": [
+        "Kabuto",
+        "Kabutops"
+      ]
+    },
+    {
+      "species": "Kabutops",
+      "familyKey": "kabuto",
+      "detailFile": "families/kabuto.json",
+      "familyMembers": [
+        "Kabuto",
+        "Kabutops"
+      ]
+    },
+    {
+      "species": "Kadabra",
+      "familyKey": "abra",
+      "detailFile": "families/abra.json",
+      "familyMembers": [
+        "Abra",
+        "Alakazam",
+        "Alakazam-Mega",
+        "Kadabra"
+      ]
+    },
+    {
+      "species": "Kangaskhan",
+      "familyKey": "kangaskhan",
+      "detailFile": "families/kangaskhan.json",
+      "familyMembers": [
+        "Kangaskhan",
+        "Kangaskhan-Mega"
+      ]
+    },
+    {
+      "species": "Kangaskhan-Mega",
+      "familyKey": "kangaskhan",
+      "detailFile": "families/kangaskhan.json",
+      "familyMembers": [
+        "Kangaskhan",
+        "Kangaskhan-Mega"
+      ]
+    },
+    {
+      "species": "Karrablast",
+      "familyKey": "karrablast",
+      "detailFile": "families/karrablast.json",
+      "familyMembers": [
+        "Escavalier",
+        "Karrablast"
+      ]
+    },
+    {
+      "species": "Kartana",
+      "familyKey": "kartana",
+      "detailFile": "families/kartana.json",
+      "familyMembers": [
+        "Kartana"
+      ]
+    },
+    {
+      "species": "Kecleon",
+      "familyKey": "kecleon",
+      "detailFile": "families/kecleon.json",
+      "familyMembers": [
+        "Kecleon"
+      ]
+    },
+    {
+      "species": "Kilowattrel",
+      "familyKey": "wattrel",
+      "detailFile": "families/wattrel.json",
+      "familyMembers": [
+        "Kilowattrel",
+        "Wattrel"
+      ]
+    },
+    {
+      "species": "Kingambit",
+      "familyKey": "pawniard",
+      "detailFile": "families/pawniard.json",
+      "familyMembers": [
+        "Bisharp",
+        "Kingambit",
+        "Pawniard"
+      ]
+    },
+    {
+      "species": "Kingdra",
+      "familyKey": "horsea",
+      "detailFile": "families/horsea.json",
+      "familyMembers": [
+        "Horsea",
+        "Kingdra",
+        "Seadra"
+      ]
+    },
+    {
+      "species": "Kingler",
+      "familyKey": "krabby",
+      "detailFile": "families/krabby.json",
+      "familyMembers": [
+        "Kingler",
+        "Kingler-Mega",
+        "Krabby"
+      ]
+    },
+    {
+      "species": "Kirlia",
+      "familyKey": "ralts",
+      "detailFile": "families/ralts.json",
+      "familyMembers": [
+        "Gallade",
+        "Gallade-Mega",
+        "Gardevoir",
+        "Gardevoir-Mega",
+        "Kirlia",
+        "Ralts"
+      ]
+    },
+    {
+      "species": "Klawf",
+      "familyKey": "klawf",
+      "detailFile": "families/klawf.json",
+      "familyMembers": [
+        "Klawf"
+      ]
+    },
+    {
+      "species": "Kleavor",
+      "familyKey": "scyther",
+      "detailFile": "families/scyther.json",
+      "familyMembers": [
+        "Kleavor",
+        "Scizor",
+        "Scizor-Mega",
+        "Scyther"
+      ]
+    },
+    {
+      "species": "Klefki",
+      "familyKey": "klefki",
+      "detailFile": "families/klefki.json",
+      "familyMembers": [
+        "Klefki"
+      ]
+    },
+    {
+      "species": "Koffing",
+      "familyKey": "koffing",
+      "detailFile": "families/koffing.json",
+      "familyMembers": [
+        "Koffing",
+        "Weezing",
+        "Weezing-Galar"
+      ]
+    },
+    {
+      "species": "Kommo-o",
+      "familyKey": "jangmo-o",
+      "detailFile": "families/jangmo-o.json",
+      "familyMembers": [
+        "Hakamo-o",
+        "Jangmo-o",
+        "Kommo-o"
+      ]
+    },
+    {
+      "species": "Krabby",
+      "familyKey": "krabby",
+      "detailFile": "families/krabby.json",
+      "familyMembers": [
+        "Kingler",
+        "Kingler-Mega",
+        "Krabby"
+      ]
+    },
+    {
+      "species": "Krookodile",
+      "familyKey": "sandile",
+      "detailFile": "families/sandile.json",
+      "familyMembers": [
+        "Krokorok",
+        "Krookodile",
+        "Sandile"
+      ]
+    },
+    {
+      "species": "Lairon",
+      "familyKey": "aron",
+      "detailFile": "families/aron.json",
+      "familyMembers": [
+        "Aggron",
+        "Aggron-Mega",
+        "Aron",
+        "Lairon"
+      ]
+    },
+    {
+      "species": "Landorus",
+      "familyKey": "landorus",
+      "detailFile": "families/landorus.json",
+      "familyMembers": [
+        "Landorus"
+      ]
+    },
+    {
+      "species": "Landorus-Therian",
+      "familyKey": "landorus-therian",
+      "detailFile": "families/landorus-therian.json",
+      "familyMembers": [
+        "Landorus-Therian"
+      ]
+    },
+    {
+      "species": "Lanturn",
+      "familyKey": "chinchou",
+      "detailFile": "families/chinchou.json",
+      "familyMembers": [
+        "Chinchou",
+        "Lanturn"
+      ]
+    },
+    {
+      "species": "Lapras",
+      "familyKey": "lapras",
+      "detailFile": "families/lapras.json",
+      "familyMembers": [
+        "Lapras",
+        "Lapras-Mega"
+      ]
+    },
+    {
+      "species": "Latias",
+      "familyKey": "latias",
+      "detailFile": "families/latias.json",
+      "familyMembers": [
+        "Latias",
+        "Latias-Mega"
+      ]
+    },
+    {
+      "species": "Latios",
+      "familyKey": "latios",
+      "detailFile": "families/latios.json",
+      "familyMembers": [
+        "Latios",
+        "Latios-Mega"
+      ]
+    },
+    {
+      "species": "Leafeon",
+      "familyKey": "eevee",
+      "detailFile": "families/eevee.json",
+      "familyMembers": [
+        "Eevee",
+        "Espeon",
+        "Flareon",
+        "Glaceon",
+        "Jolteon",
+        "Leafeon",
+        "Sylveon",
+        "Umbreon",
+        "Vaporeon"
+      ]
+    },
+    {
+      "species": "Leavanny",
+      "familyKey": "sewaddle",
+      "detailFile": "families/sewaddle.json",
+      "familyMembers": [
+        "Leavanny",
+        "Sewaddle",
+        "Swadloon"
+      ]
+    },
+    {
+      "species": "Liepard",
+      "familyKey": "purrloin",
+      "detailFile": "families/purrloin.json",
+      "familyMembers": [
+        "Liepard",
+        "Purrloin"
+      ]
+    },
+    {
+      "species": "Lileep",
+      "familyKey": "lileep",
+      "detailFile": "families/lileep.json",
+      "familyMembers": [
+        "Cradily",
+        "Lileep"
+      ]
+    },
+    {
+      "species": "Lilligant",
+      "familyKey": "petilil",
+      "detailFile": "families/petilil.json",
+      "familyMembers": [
+        "Lilligant",
+        "Lilligant-Hisui",
+        "Petilil"
+      ]
+    },
+    {
+      "species": "Lilligant-Hisui",
+      "familyKey": "petilil",
+      "detailFile": "families/petilil.json",
+      "familyMembers": [
+        "Lilligant",
+        "Lilligant-Hisui",
+        "Petilil"
+      ]
+    },
+    {
+      "species": "Lillipup",
+      "familyKey": "lillipup",
+      "detailFile": "families/lillipup.json",
+      "familyMembers": [
+        "Herdier",
+        "Lillipup",
+        "Stoutland"
+      ]
+    },
+    {
+      "species": "Linoone-Galar",
+      "familyKey": "zigzagoon-galar",
+      "detailFile": "families/zigzagoon-galar.json",
+      "familyMembers": [
+        "Linoone-Galar",
+        "Obstagoon",
+        "Zigzagoon-Galar"
+      ]
+    },
+    {
+      "species": "Litleo",
+      "familyKey": "litleo",
+      "detailFile": "families/litleo.json",
+      "familyMembers": [
+        "Litleo",
+        "Pyroar"
+      ]
+    },
+    {
+      "species": "Litten",
+      "familyKey": "litten",
+      "detailFile": "families/litten.json",
+      "familyMembers": [
+        "Incineroar",
+        "Litten",
+        "Torracat"
+      ]
+    },
+    {
+      "species": "Lokix",
+      "familyKey": "nymble",
+      "detailFile": "families/nymble.json",
+      "familyMembers": [
+        "Lokix",
+        "Nymble"
+      ]
+    },
+    {
+      "species": "Lombre",
+      "familyKey": "lotad",
+      "detailFile": "families/lotad.json",
+      "familyMembers": [
+        "Lombre",
+        "Lotad",
+        "Ludicolo"
+      ]
+    },
+    {
+      "species": "Lopunny",
+      "familyKey": "buneary",
+      "detailFile": "families/buneary.json",
+      "familyMembers": [
+        "Buneary",
+        "Lopunny",
+        "Lopunny-Mega"
+      ]
+    },
+    {
+      "species": "Lopunny-Mega",
+      "familyKey": "buneary",
+      "detailFile": "families/buneary.json",
+      "familyMembers": [
+        "Buneary",
+        "Lopunny",
+        "Lopunny-Mega"
+      ]
+    },
+    {
+      "species": "Lotad",
+      "familyKey": "lotad",
+      "detailFile": "families/lotad.json",
+      "familyMembers": [
+        "Lombre",
+        "Lotad",
+        "Ludicolo"
+      ]
+    },
+    {
+      "species": "Lucario",
+      "familyKey": "riolu",
+      "detailFile": "families/riolu.json",
+      "familyMembers": [
+        "Lucario",
+        "Lucario-Mega",
+        "Riolu"
+      ]
+    },
+    {
+      "species": "Lucario-Mega",
+      "familyKey": "riolu",
+      "detailFile": "families/riolu.json",
+      "familyMembers": [
+        "Lucario",
+        "Lucario-Mega",
+        "Riolu"
+      ]
+    },
+    {
+      "species": "Ludicolo",
+      "familyKey": "lotad",
+      "detailFile": "families/lotad.json",
+      "familyMembers": [
+        "Lombre",
+        "Lotad",
+        "Ludicolo"
+      ]
+    },
+    {
+      "species": "Lumineon",
+      "familyKey": "finneon",
+      "detailFile": "families/finneon.json",
+      "familyMembers": [
+        "Finneon",
+        "Lumineon"
+      ]
+    },
+    {
+      "species": "Luvdisc",
+      "familyKey": "luvdisc",
+      "detailFile": "families/luvdisc.json",
+      "familyMembers": [
+        "Luvdisc"
+      ]
+    },
+    {
+      "species": "Luxio",
+      "familyKey": "shinx",
+      "detailFile": "families/shinx.json",
+      "familyMembers": [
+        "Luxio",
+        "Luxray",
+        "Luxray-Mega",
+        "Shinx"
+      ]
+    },
+    {
+      "species": "Luxray",
+      "familyKey": "shinx",
+      "detailFile": "families/shinx.json",
+      "familyMembers": [
+        "Luxio",
+        "Luxray",
+        "Luxray-Mega",
+        "Shinx"
+      ]
+    },
+    {
+      "species": "Lycanroc",
+      "familyKey": "rockruff",
+      "detailFile": "families/rockruff.json",
+      "familyMembers": [
+        "Lycanroc",
+        "Lycanroc-Dusk",
+        "Lycanroc-Midnight",
+        "Rockruff"
+      ]
+    },
+    {
+      "species": "Lycanroc-Dusk",
+      "familyKey": "rockruff",
+      "detailFile": "families/rockruff.json",
+      "familyMembers": [
+        "Lycanroc",
+        "Lycanroc-Dusk",
+        "Lycanroc-Midnight",
+        "Rockruff"
+      ]
+    },
+    {
+      "species": "Lycanroc-Midnight",
+      "familyKey": "rockruff",
+      "detailFile": "families/rockruff.json",
+      "familyMembers": [
+        "Lycanroc",
+        "Lycanroc-Dusk",
+        "Lycanroc-Midnight",
+        "Rockruff"
+      ]
+    },
+    {
+      "species": "Mabosstiff",
+      "familyKey": "maschiff",
+      "detailFile": "families/maschiff.json",
+      "familyMembers": [
+        "Mabosstiff",
+        "Maschiff"
+      ]
+    },
+    {
+      "species": "Magby",
+      "familyKey": "magby",
+      "detailFile": "families/magby.json",
+      "familyMembers": [
+        "Magby",
+        "Magmar",
+        "Magmortar"
+      ]
+    },
+    {
+      "species": "Magcargo",
+      "familyKey": "slugma",
+      "detailFile": "families/slugma.json",
+      "familyMembers": [
+        "Magcargo",
+        "Slugma"
+      ]
+    },
+    {
+      "species": "Magikarp",
+      "familyKey": "magikarp",
+      "detailFile": "families/magikarp.json",
+      "familyMembers": [
+        "Gyarados",
+        "Gyarados-Mega",
+        "Magikarp"
+      ]
+    },
+    {
+      "species": "Magmar",
+      "familyKey": "magby",
+      "detailFile": "families/magby.json",
+      "familyMembers": [
+        "Magby",
+        "Magmar",
+        "Magmortar"
+      ]
+    },
+    {
+      "species": "Magmortar",
+      "familyKey": "magby",
+      "detailFile": "families/magby.json",
+      "familyMembers": [
+        "Magby",
+        "Magmar",
+        "Magmortar"
+      ]
+    },
+    {
+      "species": "Magnemite",
+      "familyKey": "magnemite",
+      "detailFile": "families/magnemite.json",
+      "familyMembers": [
+        "Magnemite",
+        "Magneton",
+        "Magnezone"
+      ]
+    },
+    {
+      "species": "Magneton",
+      "familyKey": "magnemite",
+      "detailFile": "families/magnemite.json",
+      "familyMembers": [
+        "Magnemite",
+        "Magneton",
+        "Magnezone"
+      ]
+    },
+    {
+      "species": "Magnezone",
+      "familyKey": "magnemite",
+      "detailFile": "families/magnemite.json",
+      "familyMembers": [
+        "Magnemite",
+        "Magneton",
+        "Magnezone"
+      ]
+    },
+    {
+      "species": "Makuhita",
+      "familyKey": "makuhita",
+      "detailFile": "families/makuhita.json",
+      "familyMembers": [
+        "Hariyama",
+        "Makuhita"
+      ]
+    },
+    {
+      "species": "Malamar",
+      "familyKey": "inkay",
+      "detailFile": "families/inkay.json",
+      "familyMembers": [
+        "Inkay",
+        "Malamar"
+      ]
+    },
+    {
+      "species": "Mamoswine",
+      "familyKey": "swinub",
+      "detailFile": "families/swinub.json",
+      "familyMembers": [
+        "Mamoswine",
+        "Piloswine",
+        "Swinub"
+      ]
+    },
+    {
+      "species": "Manaphy",
+      "familyKey": "manaphy",
+      "detailFile": "families/manaphy.json",
+      "familyMembers": [
+        "Manaphy"
+      ]
+    },
+    {
+      "species": "Mandibuzz",
+      "familyKey": "vullaby",
+      "detailFile": "families/vullaby.json",
+      "familyMembers": [
+        "Mandibuzz",
+        "Vullaby"
+      ]
+    },
+    {
+      "species": "Manectric",
+      "familyKey": "electrike",
+      "detailFile": "families/electrike.json",
+      "familyMembers": [
+        "Electrike",
+        "Manectric",
+        "Manectric-Mega"
+      ]
+    },
+    {
+      "species": "Manectric-Mega",
+      "familyKey": "electrike",
+      "detailFile": "families/electrike.json",
+      "familyMembers": [
+        "Electrike",
+        "Manectric",
+        "Manectric-Mega"
+      ]
+    },
+    {
+      "species": "Mankey",
+      "familyKey": "mankey",
+      "detailFile": "families/mankey.json",
+      "familyMembers": [
+        "Annihilape",
+        "Mankey",
+        "Primeape"
+      ]
+    },
+    {
+      "species": "Mantine",
+      "familyKey": "mantyke",
+      "detailFile": "families/mantyke.json",
+      "familyMembers": [
+        "Mantine",
+        "Mantyke"
+      ]
+    },
+    {
+      "species": "Mantyke",
+      "familyKey": "mantyke",
+      "detailFile": "families/mantyke.json",
+      "familyMembers": [
+        "Mantine",
+        "Mantyke"
+      ]
+    },
+    {
+      "species": "Mareanie",
+      "familyKey": "mareanie",
+      "detailFile": "families/mareanie.json",
+      "familyMembers": [
+        "Mareanie",
+        "Toxapex"
+      ]
+    },
+    {
+      "species": "Mareep",
+      "familyKey": "mareep",
+      "detailFile": "families/mareep.json",
+      "familyMembers": [
+        "Ampharos",
+        "Ampharos-Mega",
+        "Flaaffy",
+        "Mareep"
+      ]
+    },
+    {
+      "species": "Marill",
+      "familyKey": "azurill",
+      "detailFile": "families/azurill.json",
+      "familyMembers": [
+        "Azumarill",
+        "Azurill",
+        "Marill"
+      ]
+    },
+    {
+      "species": "Marowak",
+      "familyKey": "cubone",
+      "detailFile": "families/cubone.json",
+      "familyMembers": [
+        "Cubone",
+        "Marowak",
+        "Marowak-Alola"
+      ]
+    },
+    {
+      "species": "Marowak-Alola",
+      "familyKey": "cubone",
+      "detailFile": "families/cubone.json",
+      "familyMembers": [
+        "Cubone",
+        "Marowak",
+        "Marowak-Alola"
+      ]
+    },
+    {
+      "species": "Marshadow",
+      "familyKey": "marshadow",
+      "detailFile": "families/marshadow.json",
+      "familyMembers": [
+        "Marshadow"
+      ]
+    },
+    {
+      "species": "Marshtomp",
+      "familyKey": "mudkip",
+      "detailFile": "families/mudkip.json",
+      "familyMembers": [
+        "Marshtomp",
+        "Mudkip",
+        "Swampert",
+        "Swampert-Mega"
+      ]
+    },
+    {
+      "species": "Maschiff",
+      "familyKey": "maschiff",
+      "detailFile": "families/maschiff.json",
+      "familyMembers": [
+        "Mabosstiff",
+        "Maschiff"
+      ]
+    },
+    {
+      "species": "Masquerain",
+      "familyKey": "surskit",
+      "detailFile": "families/surskit.json",
+      "familyMembers": [
+        "Masquerain",
+        "Surskit"
+      ]
+    },
+    {
+      "species": "Mawile",
+      "familyKey": "mawile",
+      "detailFile": "families/mawile.json",
+      "familyMembers": [
+        "Mawile",
+        "Mawile-Mega"
+      ]
+    },
+    {
+      "species": "Mawile-Mega",
+      "familyKey": "mawile",
+      "detailFile": "families/mawile.json",
+      "familyMembers": [
+        "Mawile",
+        "Mawile-Mega"
+      ]
+    },
+    {
+      "species": "Medicham",
+      "familyKey": "meditite",
+      "detailFile": "families/meditite.json",
+      "familyMembers": [
+        "Medicham",
+        "Medicham-Mega",
+        "Meditite"
+      ]
+    },
+    {
+      "species": "Medicham-Mega",
+      "familyKey": "meditite",
+      "detailFile": "families/meditite.json",
+      "familyMembers": [
+        "Medicham",
+        "Medicham-Mega",
+        "Meditite"
+      ]
+    },
+    {
+      "species": "Meditite",
+      "familyKey": "meditite",
+      "detailFile": "families/meditite.json",
+      "familyMembers": [
+        "Medicham",
+        "Medicham-Mega",
+        "Meditite"
+      ]
+    },
+    {
+      "species": "Meganium",
+      "familyKey": "chikorita",
+      "detailFile": "families/chikorita.json",
+      "familyMembers": [
+        "Bayleef",
+        "Chikorita",
+        "Meganium"
+      ]
+    },
+    {
+      "species": "Meowscarada",
+      "familyKey": "sprigatito",
+      "detailFile": "families/sprigatito.json",
+      "familyMembers": [
+        "Floragato",
+        "Meowscarada",
+        "Sprigatito"
+      ]
+    },
+    {
+      "species": "Meowstic",
+      "familyKey": "espurr",
+      "detailFile": "families/espurr.json",
+      "familyMembers": [
+        "Espurr",
+        "Meowstic",
+        "Meowstic-F"
+      ]
+    },
+    {
+      "species": "Meowstic-F",
+      "familyKey": "espurr",
+      "detailFile": "families/espurr.json",
+      "familyMembers": [
+        "Espurr",
+        "Meowstic",
+        "Meowstic-F"
+      ]
+    },
+    {
+      "species": "Meowth",
+      "familyKey": "meowth",
+      "detailFile": "families/meowth.json",
+      "familyMembers": [
+        "Meowth",
+        "Persian"
+      ]
+    },
+    {
+      "species": "Meowth-Alola",
+      "familyKey": "meowth-alola",
+      "detailFile": "families/meowth-alola.json",
+      "familyMembers": [
+        "Meowth-Alola",
+        "Persian-Alola"
+      ]
+    },
+    {
+      "species": "Meowth-Galar",
+      "familyKey": "meowth-galar",
+      "detailFile": "families/meowth-galar.json",
+      "familyMembers": [
+        "Meowth-Galar",
+        "Perrserker"
+      ]
+    },
+    {
+      "species": "Metagross",
+      "familyKey": "beldum",
+      "detailFile": "families/beldum.json",
+      "familyMembers": [
+        "Beldum",
+        "Metagross",
+        "Metagross-Mega",
+        "Metang"
+      ]
+    },
+    {
+      "species": "Mew",
+      "familyKey": "mew",
+      "detailFile": "families/mew.json",
+      "familyMembers": [
+        "Mew"
+      ]
+    },
+    {
+      "species": "Mienfoo",
+      "familyKey": "mienfoo",
+      "detailFile": "families/mienfoo.json",
+      "familyMembers": [
+        "Mienfoo",
+        "Mienshao"
+      ]
+    },
+    {
+      "species": "Mienshao",
+      "familyKey": "mienfoo",
+      "detailFile": "families/mienfoo.json",
+      "familyMembers": [
+        "Mienfoo",
+        "Mienshao"
+      ]
+    },
+    {
+      "species": "Milotic",
+      "familyKey": "feebas",
+      "detailFile": "families/feebas.json",
+      "familyMembers": [
+        "Feebas",
+        "Milotic"
+      ]
+    },
+    {
+      "species": "Mime Jr.",
+      "familyKey": "mime-jr",
+      "detailFile": "families/mime-jr.json",
+      "familyMembers": [
+        "Mime Jr.",
+        "Mr. Mime",
+        "Mr. Mime-Galar",
+        "Mr. Rime"
+      ]
+    },
+    {
+      "species": "Mimikyu",
+      "familyKey": "mimikyu",
+      "detailFile": "families/mimikyu.json",
+      "familyMembers": [
+        "Mimikyu"
+      ]
+    },
+    {
+      "species": "Minior",
+      "familyKey": "minior",
+      "detailFile": "families/minior.json",
+      "familyMembers": [
+        "Minior"
+      ]
+    },
+    {
+      "species": "Minior-Meteor",
+      "familyKey": "minior-meteor",
+      "detailFile": "families/minior-meteor.json",
+      "familyMembers": [
+        "Minior-Meteor"
+      ]
+    },
+    {
+      "species": "Mismagius",
+      "familyKey": "misdreavus",
+      "detailFile": "families/misdreavus.json",
+      "familyMembers": [
+        "Misdreavus",
+        "Mismagius"
+      ]
+    },
+    {
+      "species": "Morelull",
+      "familyKey": "morelull",
+      "detailFile": "families/morelull.json",
+      "familyMembers": [
+        "Morelull",
+        "Shiinotic"
+      ]
+    },
+    {
+      "species": "Morpeko",
+      "familyKey": "morpeko",
+      "detailFile": "families/morpeko.json",
+      "familyMembers": [
+        "Morpeko"
+      ]
+    },
+    {
+      "species": "Morpeko-Hangry",
+      "familyKey": "morpeko-hangry",
+      "detailFile": "families/morpeko-hangry.json",
+      "familyMembers": [
+        "Morpeko-Hangry"
+      ]
+    },
+    {
+      "species": "Mr. Mime",
+      "familyKey": "mime-jr",
+      "detailFile": "families/mime-jr.json",
+      "familyMembers": [
+        "Mime Jr.",
+        "Mr. Mime",
+        "Mr. Mime-Galar",
+        "Mr. Rime"
+      ]
+    },
+    {
+      "species": "Mr. Rime",
+      "familyKey": "mime-jr",
+      "detailFile": "families/mime-jr.json",
+      "familyMembers": [
+        "Mime Jr.",
+        "Mr. Mime",
+        "Mr. Mime-Galar",
+        "Mr. Rime"
+      ]
+    },
+    {
+      "species": "Mudbray",
+      "familyKey": "mudbray",
+      "detailFile": "families/mudbray.json",
+      "familyMembers": [
+        "Mudbray",
+        "Mudsdale"
+      ]
+    },
+    {
+      "species": "Mudkip",
+      "familyKey": "mudkip",
+      "detailFile": "families/mudkip.json",
+      "familyMembers": [
+        "Marshtomp",
+        "Mudkip",
+        "Swampert",
+        "Swampert-Mega"
+      ]
+    },
+    {
+      "species": "Mudsdale",
+      "familyKey": "mudbray",
+      "detailFile": "families/mudbray.json",
+      "familyMembers": [
+        "Mudbray",
+        "Mudsdale"
+      ]
+    },
+    {
+      "species": "Muk-Alola",
+      "familyKey": "grimer-alola",
+      "detailFile": "families/grimer-alola.json",
+      "familyMembers": [
+        "Grimer-Alola",
+        "Muk-Alola"
+      ]
+    },
+    {
+      "species": "Munkidori",
+      "familyKey": "munkidori",
+      "detailFile": "families/munkidori.json",
+      "familyMembers": [
+        "Munkidori"
+      ]
+    },
+    {
+      "species": "Murkrow",
+      "familyKey": "murkrow",
+      "detailFile": "families/murkrow.json",
+      "familyMembers": [
+        "Honchkrow",
+        "Murkrow"
+      ]
+    },
+    {
+      "species": "Nacli",
+      "familyKey": "nacli",
+      "detailFile": "families/nacli.json",
+      "familyMembers": [
+        "Garganacl",
+        "Nacli",
+        "Naclstack"
+      ]
+    },
+    {
+      "species": "Naclstack",
+      "familyKey": "nacli",
+      "detailFile": "families/nacli.json",
+      "familyMembers": [
+        "Garganacl",
+        "Nacli",
+        "Naclstack"
+      ]
+    },
+    {
+      "species": "Natu",
+      "familyKey": "natu",
+      "detailFile": "families/natu.json",
+      "familyMembers": [
+        "Natu",
+        "Xatu"
+      ]
+    },
+    {
+      "species": "Nidoking",
+      "familyKey": "nidoran-m",
+      "detailFile": "families/nidoran-m.json",
+      "familyMembers": [
+        "Nidoking",
+        "Nidoran-M",
+        "Nidorino"
+      ]
+    },
+    {
+      "species": "Nidoqueen",
+      "familyKey": "nidoran-f",
+      "detailFile": "families/nidoran-f.json",
+      "familyMembers": [
+        "Nidoqueen",
+        "Nidoran-F",
+        "Nidorina"
+      ]
+    },
+    {
+      "species": "Nidoran-F",
+      "familyKey": "nidoran-f",
+      "detailFile": "families/nidoran-f.json",
+      "familyMembers": [
+        "Nidoqueen",
+        "Nidoran-F",
+        "Nidorina"
+      ]
+    },
+    {
+      "species": "Nidoran-M",
+      "familyKey": "nidoran-m",
+      "detailFile": "families/nidoran-m.json",
+      "familyMembers": [
+        "Nidoking",
+        "Nidoran-M",
+        "Nidorino"
+      ]
+    },
+    {
+      "species": "Nidorina",
+      "familyKey": "nidoran-f",
+      "detailFile": "families/nidoran-f.json",
+      "familyMembers": [
+        "Nidoqueen",
+        "Nidoran-F",
+        "Nidorina"
+      ]
+    },
+    {
+      "species": "Nidorino",
+      "familyKey": "nidoran-m",
+      "detailFile": "families/nidoran-m.json",
+      "familyMembers": [
+        "Nidoking",
+        "Nidoran-M",
+        "Nidorino"
+      ]
+    },
+    {
+      "species": "Nincada",
+      "familyKey": "nincada",
+      "detailFile": "families/nincada.json",
+      "familyMembers": [
+        "Nincada",
+        "Ninjask",
+        "Shedinja"
+      ]
+    },
+    {
+      "species": "Ninetales-Alola",
+      "familyKey": "vulpix-alola",
+      "detailFile": "families/vulpix-alola.json",
+      "familyMembers": [
+        "Ninetales-Alola",
+        "Vulpix-Alola"
+      ]
+    },
+    {
+      "species": "Ninjask",
+      "familyKey": "nincada",
+      "detailFile": "families/nincada.json",
+      "familyMembers": [
+        "Nincada",
+        "Ninjask",
+        "Shedinja"
+      ]
+    },
+    {
+      "species": "Noibat",
+      "familyKey": "noibat",
+      "detailFile": "families/noibat.json",
+      "familyMembers": [
+        "Noibat",
+        "Noivern"
+      ]
+    },
+    {
+      "species": "Noivern",
+      "familyKey": "noibat",
+      "detailFile": "families/noibat.json",
+      "familyMembers": [
+        "Noibat",
+        "Noivern"
+      ]
+    },
+    {
+      "species": "Nosepass",
+      "familyKey": "nosepass",
+      "detailFile": "families/nosepass.json",
+      "familyMembers": [
+        "Nosepass",
+        "Probopass"
+      ]
+    },
+    {
+      "species": "Numel",
+      "familyKey": "numel",
+      "detailFile": "families/numel.json",
+      "familyMembers": [
+        "Camerupt",
+        "Camerupt-Mega",
+        "Numel"
+      ]
+    },
+    {
+      "species": "Nuzleaf",
+      "familyKey": "seedot",
+      "detailFile": "families/seedot.json",
+      "familyMembers": [
+        "Nuzleaf",
+        "Seedot",
+        "Shiftry"
+      ]
+    },
+    {
+      "species": "Nymble",
+      "familyKey": "nymble",
+      "detailFile": "families/nymble.json",
+      "familyMembers": [
+        "Lokix",
+        "Nymble"
+      ]
+    },
+    {
+      "species": "Obstagoon",
+      "familyKey": "zigzagoon-galar",
+      "detailFile": "families/zigzagoon-galar.json",
+      "familyMembers": [
+        "Linoone-Galar",
+        "Obstagoon",
+        "Zigzagoon-Galar"
+      ]
+    },
+    {
+      "species": "Oddish",
+      "familyKey": "oddish",
+      "detailFile": "families/oddish.json",
+      "familyMembers": [
+        "Bellossom",
+        "Gloom",
+        "Oddish",
+        "Vileplume"
+      ]
+    },
+    {
+      "species": "Omanyte",
+      "familyKey": "omanyte",
+      "detailFile": "families/omanyte.json",
+      "familyMembers": [
+        "Omanyte",
+        "Omastar"
+      ]
+    },
+    {
+      "species": "Omastar",
+      "familyKey": "omanyte",
+      "detailFile": "families/omanyte.json",
+      "familyMembers": [
+        "Omanyte",
+        "Omastar"
+      ]
+    },
+    {
+      "species": "Onix",
+      "familyKey": "onix",
+      "detailFile": "families/onix.json",
+      "familyMembers": [
+        "Onix",
+        "Steelix",
+        "Steelix-Mega"
+      ]
+    },
+    {
+      "species": "Orbeetle",
+      "familyKey": "blipbug",
+      "detailFile": "families/blipbug.json",
+      "familyMembers": [
+        "Blipbug",
+        "Dottler",
+        "Orbeetle",
+        "Orbeetle-Mega"
+      ]
+    },
+    {
+      "species": "Orthworm",
+      "familyKey": "orthworm",
+      "detailFile": "families/orthworm.json",
+      "familyMembers": [
+        "Orthworm"
+      ]
+    },
+    {
+      "species": "Oshawott",
+      "familyKey": "oshawott",
+      "detailFile": "families/oshawott.json",
+      "familyMembers": [
+        "Dewott",
+        "Oshawott",
+        "Samurott",
+        "Samurott-Hisui"
+      ]
+    },
+    {
+      "species": "Overqwil",
+      "familyKey": "qwilfish-hisui",
+      "detailFile": "families/qwilfish-hisui.json",
+      "familyMembers": [
+        "Overqwil",
+        "Qwilfish-Hisui"
+      ]
+    },
+    {
+      "species": "Palafin",
+      "familyKey": "finizen",
+      "detailFile": "families/finizen.json",
+      "familyMembers": [
+        "Finizen",
+        "Palafin"
+      ]
+    },
+    {
+      "species": "Palafin-Hero",
+      "familyKey": "palafin-hero",
+      "detailFile": "families/palafin-hero.json",
+      "familyMembers": [
+        "Palafin-Hero"
+      ]
+    },
+    {
+      "species": "Palossand",
+      "familyKey": "sandygast",
+      "detailFile": "families/sandygast.json",
+      "familyMembers": [
+        "Palossand",
+        "Sandygast"
+      ]
+    },
+    {
+      "species": "Palpitoad",
+      "familyKey": "tympole",
+      "detailFile": "families/tympole.json",
+      "familyMembers": [
+        "Palpitoad",
+        "Seismitoad",
+        "Tympole"
+      ]
+    },
+    {
+      "species": "Pawmi",
+      "familyKey": "pawmi",
+      "detailFile": "families/pawmi.json",
+      "familyMembers": [
+        "Pawmi",
+        "Pawmo",
+        "Pawmot"
+      ]
+    },
+    {
+      "species": "Pawmot",
+      "familyKey": "pawmi",
+      "detailFile": "families/pawmi.json",
+      "familyMembers": [
+        "Pawmi",
+        "Pawmo",
+        "Pawmot"
+      ]
+    },
+    {
+      "species": "Perrserker",
+      "familyKey": "meowth-galar",
+      "detailFile": "families/meowth-galar.json",
+      "familyMembers": [
+        "Meowth-Galar",
+        "Perrserker"
+      ]
+    },
+    {
+      "species": "Persian",
+      "familyKey": "meowth",
+      "detailFile": "families/meowth.json",
+      "familyMembers": [
+        "Meowth",
+        "Persian"
+      ]
+    },
+    {
+      "species": "Persian-Alola",
+      "familyKey": "meowth-alola",
+      "detailFile": "families/meowth-alola.json",
+      "familyMembers": [
+        "Meowth-Alola",
+        "Persian-Alola"
+      ]
+    },
+    {
+      "species": "Petilil",
+      "familyKey": "petilil",
+      "detailFile": "families/petilil.json",
+      "familyMembers": [
+        "Lilligant",
+        "Lilligant-Hisui",
+        "Petilil"
+      ]
+    },
+    {
+      "species": "Phione",
+      "familyKey": "phione",
+      "detailFile": "families/phione.json",
+      "familyMembers": [
+        "Phione"
+      ]
+    },
+    {
+      "species": "Pichu",
+      "familyKey": "pichu",
+      "detailFile": "families/pichu.json",
+      "familyMembers": [
+        "Pichu",
+        "Pikachu",
+        "Raichu",
+        "Raichu-Alola"
+      ]
+    },
+    {
+      "species": "Pidgeot",
+      "familyKey": "pidgey",
+      "detailFile": "families/pidgey.json",
+      "familyMembers": [
+        "Pidgeot",
+        "Pidgeot-Mega",
+        "Pidgeotto",
+        "Pidgey"
+      ]
+    },
+    {
+      "species": "Pidgeot-Mega",
+      "familyKey": "pidgey",
+      "detailFile": "families/pidgey.json",
+      "familyMembers": [
+        "Pidgeot",
+        "Pidgeot-Mega",
+        "Pidgeotto",
+        "Pidgey"
+      ]
+    },
+    {
+      "species": "Pidgeotto",
+      "familyKey": "pidgey",
+      "detailFile": "families/pidgey.json",
+      "familyMembers": [
+        "Pidgeot",
+        "Pidgeot-Mega",
+        "Pidgeotto",
+        "Pidgey"
+      ]
+    },
+    {
+      "species": "Pidgey",
+      "familyKey": "pidgey",
+      "detailFile": "families/pidgey.json",
+      "familyMembers": [
+        "Pidgeot",
+        "Pidgeot-Mega",
+        "Pidgeotto",
+        "Pidgey"
+      ]
+    },
+    {
+      "species": "Pignite",
+      "familyKey": "tepig",
+      "detailFile": "families/tepig.json",
+      "familyMembers": [
+        "Emboar",
+        "Pignite",
+        "Tepig"
+      ]
+    },
+    {
+      "species": "Pikachu",
+      "familyKey": "pichu",
+      "detailFile": "families/pichu.json",
+      "familyMembers": [
+        "Pichu",
+        "Pikachu",
+        "Raichu",
+        "Raichu-Alola"
+      ]
+    },
+    {
+      "species": "Piloswine",
+      "familyKey": "swinub",
+      "detailFile": "families/swinub.json",
+      "familyMembers": [
+        "Mamoswine",
+        "Piloswine",
+        "Swinub"
+      ]
+    },
+    {
+      "species": "Pinsir",
+      "familyKey": "pinsir",
+      "detailFile": "families/pinsir.json",
+      "familyMembers": [
+        "Pinsir",
+        "Pinsir-Mega"
+      ]
+    },
+    {
+      "species": "Pinsir-Mega",
+      "familyKey": "pinsir",
+      "detailFile": "families/pinsir.json",
+      "familyMembers": [
+        "Pinsir",
+        "Pinsir-Mega"
+      ]
+    },
+    {
+      "species": "Piplup",
+      "familyKey": "piplup",
+      "detailFile": "families/piplup.json",
+      "familyMembers": [
+        "Empoleon",
+        "Empoleon-Mega-D",
+        "Empoleon-Mega-O",
+        "Piplup",
+        "Prinplup"
+      ]
+    },
+    {
+      "species": "Politoed",
+      "familyKey": "poliwag",
+      "detailFile": "families/poliwag.json",
+      "familyMembers": [
+        "Politoed",
+        "Poliwag",
+        "Poliwhirl",
+        "Poliwrath"
+      ]
+    },
+    {
+      "species": "Poliwag",
+      "familyKey": "poliwag",
+      "detailFile": "families/poliwag.json",
+      "familyMembers": [
+        "Politoed",
+        "Poliwag",
+        "Poliwhirl",
+        "Poliwrath"
+      ]
+    },
+    {
+      "species": "Poliwhirl",
+      "familyKey": "poliwag",
+      "detailFile": "families/poliwag.json",
+      "familyMembers": [
+        "Politoed",
+        "Poliwag",
+        "Poliwhirl",
+        "Poliwrath"
+      ]
+    },
+    {
+      "species": "Poliwrath",
+      "familyKey": "poliwag",
+      "detailFile": "families/poliwag.json",
+      "familyMembers": [
+        "Politoed",
+        "Poliwag",
+        "Poliwhirl",
+        "Poliwrath"
+      ]
+    },
+    {
+      "species": "Polteageist",
+      "familyKey": "sinistea",
+      "detailFile": "families/sinistea.json",
+      "familyMembers": [
+        "Polteageist",
+        "Sinistea"
+      ]
+    },
+    {
+      "species": "Ponyta-Galar",
+      "familyKey": "ponyta-galar",
+      "detailFile": "families/ponyta-galar.json",
+      "familyMembers": [
+        "Ponyta-Galar",
+        "Rapidash-Galar"
+      ]
+    },
+    {
+      "species": "Porygon-Z",
+      "familyKey": "porygon",
+      "detailFile": "families/porygon.json",
+      "familyMembers": [
+        "Porygon",
+        "Porygon-Z",
+        "Porygon2"
+      ]
+    },
+    {
+      "species": "Porygon2",
+      "familyKey": "porygon",
+      "detailFile": "families/porygon.json",
+      "familyMembers": [
+        "Porygon",
+        "Porygon-Z",
+        "Porygon2"
+      ]
+    },
+    {
+      "species": "Primarina",
+      "familyKey": "popplio",
+      "detailFile": "families/popplio.json",
+      "familyMembers": [
+        "Brionne",
+        "Popplio",
+        "Primarina"
+      ]
+    },
+    {
+      "species": "Primeape",
+      "familyKey": "mankey",
+      "detailFile": "families/mankey.json",
+      "familyMembers": [
+        "Annihilape",
+        "Mankey",
+        "Primeape"
+      ]
+    },
+    {
+      "species": "Probopass",
+      "familyKey": "nosepass",
+      "detailFile": "families/nosepass.json",
+      "familyMembers": [
+        "Nosepass",
+        "Probopass"
+      ]
+    },
+    {
+      "species": "Pupitar",
+      "familyKey": "larvitar",
+      "detailFile": "families/larvitar.json",
+      "familyMembers": [
+        "Larvitar",
+        "Pupitar",
+        "Tyranitar",
+        "Tyranitar-Mega"
+      ]
+    },
+    {
+      "species": "Purugly",
+      "familyKey": "glameow",
+      "detailFile": "families/glameow.json",
+      "familyMembers": [
+        "Glameow",
+        "Purugly"
+      ]
+    },
+    {
+      "species": "Pyroar",
+      "familyKey": "pyroar",
+      "detailFile": "families/pyroar.json",
+      "familyMembers": [
+        "Pyroar"
+      ]
+    },
+    {
+      "species": "Pyroar-Mega",
+      "familyKey": "pyroar",
+      "detailFile": "families/pyroar.json",
+      "familyMembers": [
+        "Pyroar",
+        "Pyroar-Mega"
+      ]
+    },
+    {
+      "species": "Quagsire",
+      "familyKey": "wooper",
+      "detailFile": "families/wooper.json",
+      "familyMembers": [
+        "Quagsire",
+        "Wooper"
+      ]
+    },
+    {
+      "species": "Quaquaval",
+      "familyKey": "quaxly",
+      "detailFile": "families/quaxly.json",
+      "familyMembers": [
+        "Quaquaval",
+        "Quaxly",
+        "Quaxwell"
+      ]
+    },
+    {
+      "species": "Quaxly",
+      "familyKey": "quaxly",
+      "detailFile": "families/quaxly.json",
+      "familyMembers": [
+        "Quaquaval",
+        "Quaxly",
+        "Quaxwell"
+      ]
+    },
+    {
+      "species": "Quaxwell",
+      "familyKey": "quaxly",
+      "detailFile": "families/quaxly.json",
+      "familyMembers": [
+        "Quaquaval",
+        "Quaxly",
+        "Quaxwell"
+      ]
+    },
+    {
+      "species": "Quilava",
+      "familyKey": "cyndaquil",
+      "detailFile": "families/cyndaquil.json",
+      "familyMembers": [
+        "Cyndaquil",
+        "Quilava",
+        "Typhlosion",
+        "Typhlosion-Hisui"
+      ]
+    },
+    {
+      "species": "Quilladin",
+      "familyKey": "chespin",
+      "detailFile": "families/chespin.json",
+      "familyMembers": [
+        "Chesnaught",
+        "Chespin",
+        "Quilladin"
+      ]
+    },
+    {
+      "species": "Qwilfish",
+      "familyKey": "qwilfish",
+      "detailFile": "families/qwilfish.json",
+      "familyMembers": [
+        "Qwilfish"
+      ]
+    },
+    {
+      "species": "Qwilfish-Hisui",
+      "familyKey": "qwilfish-hisui",
+      "detailFile": "families/qwilfish-hisui.json",
+      "familyMembers": [
+        "Overqwil",
+        "Qwilfish-Hisui"
+      ]
+    },
+    {
+      "species": "Raging Bolt",
+      "familyKey": "raging-bolt",
+      "detailFile": "families/raging-bolt.json",
+      "familyMembers": [
+        "Raging Bolt"
+      ]
+    },
+    {
+      "species": "Raichu",
+      "familyKey": "pichu",
+      "detailFile": "families/pichu.json",
+      "familyMembers": [
+        "Pichu",
+        "Pikachu",
+        "Raichu",
+        "Raichu-Alola"
+      ]
+    },
+    {
+      "species": "Raichu-Alola",
+      "familyKey": "pichu",
+      "detailFile": "families/pichu.json",
+      "familyMembers": [
+        "Pichu",
+        "Pikachu",
+        "Raichu",
+        "Raichu-Alola"
+      ]
+    },
+    {
+      "species": "Ralts",
+      "familyKey": "ralts",
+      "detailFile": "families/ralts.json",
+      "familyMembers": [
+        "Gallade",
+        "Gallade-Mega",
+        "Gardevoir",
+        "Gardevoir-Mega",
+        "Kirlia",
+        "Ralts"
+      ]
+    },
+    {
+      "species": "Rampardos",
+      "familyKey": "cranidos",
+      "detailFile": "families/cranidos.json",
+      "familyMembers": [
+        "Cranidos",
+        "Rampardos"
+      ]
+    },
+    {
+      "species": "Rapidash-Galar",
+      "familyKey": "ponyta-galar",
+      "detailFile": "families/ponyta-galar.json",
+      "familyMembers": [
+        "Ponyta-Galar",
+        "Rapidash-Galar"
+      ]
+    },
+    {
+      "species": "Relicanth",
+      "familyKey": "relicanth",
+      "detailFile": "families/relicanth.json",
+      "familyMembers": [
+        "Relicanth"
+      ]
+    },
+    {
+      "species": "Reuniclus",
+      "familyKey": "solosis",
+      "detailFile": "families/solosis.json",
+      "familyMembers": [
+        "Duosion",
+        "Reuniclus",
+        "Solosis"
+      ]
+    },
+    {
+      "species": "Revavroom",
+      "familyKey": "varoom",
+      "detailFile": "families/varoom.json",
+      "familyMembers": [
+        "Revavroom",
+        "Varoom"
+      ]
+    },
+    {
+      "species": "Rhydon",
+      "familyKey": "rhyhorn",
+      "detailFile": "families/rhyhorn.json",
+      "familyMembers": [
+        "Rhydon",
+        "Rhyhorn",
+        "Rhyperior"
+      ]
+    },
+    {
+      "species": "Rhyhorn",
+      "familyKey": "rhyhorn",
+      "detailFile": "families/rhyhorn.json",
+      "familyMembers": [
+        "Rhydon",
+        "Rhyhorn",
+        "Rhyperior"
+      ]
+    },
+    {
+      "species": "Rhyperior",
+      "familyKey": "rhyhorn",
+      "detailFile": "families/rhyhorn.json",
+      "familyMembers": [
+        "Rhydon",
+        "Rhyhorn",
+        "Rhyperior"
+      ]
+    },
+    {
+      "species": "Ribombee",
+      "familyKey": "cutiefly",
+      "detailFile": "families/cutiefly.json",
+      "familyMembers": [
+        "Cutiefly",
+        "Ribombee"
+      ]
+    },
+    {
+      "species": "Rillaboom",
+      "familyKey": "grookey",
+      "detailFile": "families/grookey.json",
+      "familyMembers": [
+        "Grookey",
+        "Rillaboom",
+        "Thwackey"
+      ]
+    },
+    {
+      "species": "Riolu",
+      "familyKey": "riolu",
+      "detailFile": "families/riolu.json",
+      "familyMembers": [
+        "Lucario",
+        "Lucario-Mega",
+        "Riolu"
+      ]
+    },
+    {
+      "species": "Rockruff",
+      "familyKey": "rockruff",
+      "detailFile": "families/rockruff.json",
+      "familyMembers": [
+        "Lycanroc",
+        "Lycanroc-Dusk",
+        "Lycanroc-Midnight",
+        "Rockruff"
+      ]
+    },
+    {
+      "species": "Roggenrola",
+      "familyKey": "roggenrola",
+      "detailFile": "families/roggenrola.json",
+      "familyMembers": [
+        "Boldore",
+        "Gigalith",
+        "Roggenrola"
+      ]
+    },
+    {
+      "species": "Rolycoly",
+      "familyKey": "rolycoly",
+      "detailFile": "families/rolycoly.json",
+      "familyMembers": [
+        "Carkol",
+        "Coalossal",
+        "Coalossal-Mega",
+        "Rolycoly"
+      ]
+    },
+    {
+      "species": "Rookidee",
+      "familyKey": "rookidee",
+      "detailFile": "families/rookidee.json",
+      "familyMembers": [
+        "Corviknight",
+        "Corvisquire",
+        "Rookidee"
+      ]
+    },
+    {
+      "species": "Roselia",
+      "familyKey": "budew",
+      "detailFile": "families/budew.json",
+      "familyMembers": [
+        "Budew",
+        "Roselia",
+        "Roserade",
+        "Roserade-Mega"
+      ]
+    },
+    {
+      "species": "Roserade",
+      "familyKey": "budew",
+      "detailFile": "families/budew.json",
+      "familyMembers": [
+        "Budew",
+        "Roselia",
+        "Roserade",
+        "Roserade-Mega"
+      ]
+    },
+    {
+      "species": "Rotom",
+      "familyKey": "rotom",
+      "detailFile": "families/rotom.json",
+      "familyMembers": [
+        "Rotom"
+      ]
+    },
+    {
+      "species": "Rotom-Fan",
+      "familyKey": "rotom-fan",
+      "detailFile": "families/rotom-fan.json",
+      "familyMembers": [
+        "Rotom-Fan"
+      ]
+    },
+    {
+      "species": "Rotom-Frost",
+      "familyKey": "rotom-frost",
+      "detailFile": "families/rotom-frost.json",
+      "familyMembers": [
+        "Rotom-Frost"
+      ]
+    },
+    {
+      "species": "Rotom-Heat",
+      "familyKey": "rotom-heat",
+      "detailFile": "families/rotom-heat.json",
+      "familyMembers": [
+        "Rotom-Heat"
+      ]
+    },
+    {
+      "species": "Rotom-Mow",
+      "familyKey": "rotom-mow",
+      "detailFile": "families/rotom-mow.json",
+      "familyMembers": [
+        "Rotom-Mow"
+      ]
+    },
+    {
+      "species": "Rotom-Wash",
+      "familyKey": "rotom-wash",
+      "detailFile": "families/rotom-wash.json",
+      "familyMembers": [
+        "Rotom-Wash"
+      ]
+    },
+    {
+      "species": "Rufflet",
+      "familyKey": "rufflet",
+      "detailFile": "families/rufflet.json",
+      "familyMembers": [
+        "Braviary",
+        "Braviary-Hisui",
+        "Rufflet"
+      ]
+    },
+    {
+      "species": "Runerigus",
+      "familyKey": "yamask-galar",
+      "detailFile": "families/yamask-galar.json",
+      "familyMembers": [
+        "Runerigus",
+        "Yamask-Galar"
+      ]
+    },
+    {
+      "species": "Sableye",
+      "familyKey": "sableye",
+      "detailFile": "families/sableye.json",
+      "familyMembers": [
+        "Sableye",
+        "Sableye-Mega"
+      ]
+    },
+    {
+      "species": "Sableye-Mega",
+      "familyKey": "sableye",
+      "detailFile": "families/sableye.json",
+      "familyMembers": [
+        "Sableye",
+        "Sableye-Mega"
+      ]
+    },
+    {
+      "species": "Salamence",
+      "familyKey": "bagon",
+      "detailFile": "families/bagon.json",
+      "familyMembers": [
+        "Bagon",
+        "Salamence",
+        "Salamence-Mega",
+        "Shelgon"
+      ]
+    },
+    {
+      "species": "Salandit",
+      "familyKey": "salandit",
+      "detailFile": "families/salandit.json",
+      "familyMembers": [
+        "Salandit",
+        "Salazzle"
+      ]
+    },
+    {
+      "species": "Salazzle",
+      "familyKey": "salandit",
+      "detailFile": "families/salandit.json",
+      "familyMembers": [
+        "Salandit",
+        "Salazzle"
+      ]
+    },
+    {
+      "species": "Samurott",
+      "familyKey": "oshawott",
+      "detailFile": "families/oshawott.json",
+      "familyMembers": [
+        "Dewott",
+        "Oshawott",
+        "Samurott",
+        "Samurott-Hisui"
+      ]
+    },
+    {
+      "species": "Samurott-Hisui",
+      "familyKey": "oshawott",
+      "detailFile": "families/oshawott.json",
+      "familyMembers": [
+        "Dewott",
+        "Oshawott",
+        "Samurott",
+        "Samurott-Hisui"
+      ]
+    },
+    {
+      "species": "Sandile",
+      "familyKey": "sandile",
+      "detailFile": "families/sandile.json",
+      "familyMembers": [
+        "Krokorok",
+        "Krookodile",
+        "Sandile"
+      ]
+    },
+    {
+      "species": "Sandshrew-Alola",
+      "familyKey": "sandshrew-alola",
+      "detailFile": "families/sandshrew-alola.json",
+      "familyMembers": [
+        "Sandshrew-Alola",
+        "Sandslash-Alola"
+      ]
+    },
+    {
+      "species": "Sandslash",
+      "familyKey": "sandshrew",
+      "detailFile": "families/sandshrew.json",
+      "familyMembers": [
+        "Sandshrew",
+        "Sandslash"
+      ]
+    },
+    {
+      "species": "Sandslash-Alola",
+      "familyKey": "sandshrew-alola",
+      "detailFile": "families/sandshrew-alola.json",
+      "familyMembers": [
+        "Sandshrew-Alola",
+        "Sandslash-Alola"
+      ]
+    },
+    {
+      "species": "Sandygast",
+      "familyKey": "sandygast",
+      "detailFile": "families/sandygast.json",
+      "familyMembers": [
+        "Palossand",
+        "Sandygast"
+      ]
+    },
+    {
+      "species": "Sceptile",
+      "familyKey": "treecko",
+      "detailFile": "families/treecko.json",
+      "familyMembers": [
+        "Grovyle",
+        "Sceptile",
+        "Sceptile-Mega",
+        "Treecko"
+      ]
+    },
+    {
+      "species": "Sceptile-Mega",
+      "familyKey": "treecko",
+      "detailFile": "families/treecko.json",
+      "familyMembers": [
+        "Grovyle",
+        "Sceptile",
+        "Sceptile-Mega",
+        "Treecko"
+      ]
+    },
+    {
+      "species": "Scizor",
+      "familyKey": "scyther",
+      "detailFile": "families/scyther.json",
+      "familyMembers": [
+        "Kleavor",
+        "Scizor",
+        "Scizor-Mega",
+        "Scyther"
+      ]
+    },
+    {
+      "species": "Scizor-Mega",
+      "familyKey": "scyther",
+      "detailFile": "families/scyther.json",
+      "familyMembers": [
+        "Kleavor",
+        "Scizor",
+        "Scizor-Mega",
+        "Scyther"
+      ]
+    },
+    {
+      "species": "Scolipede",
+      "familyKey": "venipede",
+      "detailFile": "families/venipede.json",
+      "familyMembers": [
+        "Scolipede",
+        "Venipede",
+        "Whirlipede"
+      ]
+    },
+    {
+      "species": "Scolipede-Mega",
+      "familyKey": "venipede",
+      "detailFile": "families/venipede.json",
+      "familyMembers": [
+        "Scolipede",
+        "Scolipede-Mega",
+        "Venipede",
+        "Whirlipede"
+      ]
+    },
+    {
+      "species": "Scovillain",
+      "familyKey": "capsakid",
+      "detailFile": "families/capsakid.json",
+      "familyMembers": [
+        "Capsakid",
+        "Scovillain"
+      ]
+    },
+    {
+      "species": "Scrafty",
+      "familyKey": "scraggy",
+      "detailFile": "families/scraggy.json",
+      "familyMembers": [
+        "Scrafty",
+        "Scraggy"
+      ]
+    },
+    {
+      "species": "Scrafty-Mega",
+      "familyKey": "scraggy",
+      "detailFile": "families/scraggy.json",
+      "familyMembers": [
+        "Scrafty",
+        "Scrafty-Mega",
+        "Scraggy"
+      ]
+    },
+    {
+      "species": "Scraggy",
+      "familyKey": "scraggy",
+      "detailFile": "families/scraggy.json",
+      "familyMembers": [
+        "Scrafty",
+        "Scraggy"
+      ]
+    },
+    {
+      "species": "Scream Tail",
+      "familyKey": "scream-tail",
+      "detailFile": "families/scream-tail.json",
+      "familyMembers": [
+        "Scream Tail"
+      ]
+    },
+    {
+      "species": "Scyther",
+      "familyKey": "scyther",
+      "detailFile": "families/scyther.json",
+      "familyMembers": [
+        "Kleavor",
+        "Scizor",
+        "Scizor-Mega",
+        "Scyther"
+      ]
+    },
+    {
+      "species": "Sealeo",
+      "familyKey": "spheal",
+      "detailFile": "families/spheal.json",
+      "familyMembers": [
+        "Sealeo",
+        "Spheal",
+        "Walrein"
+      ]
+    },
+    {
+      "species": "Seedot",
+      "familyKey": "seedot",
+      "detailFile": "families/seedot.json",
+      "familyMembers": [
+        "Nuzleaf",
+        "Seedot",
+        "Shiftry"
+      ]
+    },
+    {
+      "species": "Seel",
+      "familyKey": "seel",
+      "detailFile": "families/seel.json",
+      "familyMembers": [
+        "Dewgong",
+        "Seel"
+      ]
+    },
+    {
+      "species": "Seismitoad",
+      "familyKey": "tympole",
+      "detailFile": "families/tympole.json",
+      "familyMembers": [
+        "Palpitoad",
+        "Seismitoad",
+        "Tympole"
+      ]
+    },
+    {
+      "species": "Serperior",
+      "familyKey": "snivy",
+      "detailFile": "families/snivy.json",
+      "familyMembers": [
+        "Serperior",
+        "Servine",
+        "Snivy"
+      ]
+    },
+    {
+      "species": "Servine",
+      "familyKey": "snivy",
+      "detailFile": "families/snivy.json",
+      "familyMembers": [
+        "Serperior",
+        "Servine",
+        "Snivy"
+      ]
+    },
+    {
+      "species": "Sewaddle",
+      "familyKey": "sewaddle",
+      "detailFile": "families/sewaddle.json",
+      "familyMembers": [
+        "Leavanny",
+        "Sewaddle",
+        "Swadloon"
+      ]
+    },
+    {
+      "species": "Sharpedo",
+      "familyKey": "carvanha",
+      "detailFile": "families/carvanha.json",
+      "familyMembers": [
+        "Carvanha",
+        "Sharpedo",
+        "Sharpedo-Mega"
+      ]
+    },
+    {
+      "species": "Sharpedo-Mega",
+      "familyKey": "carvanha",
+      "detailFile": "families/carvanha.json",
+      "familyMembers": [
+        "Carvanha",
+        "Sharpedo",
+        "Sharpedo-Mega"
+      ]
+    },
+    {
+      "species": "Shedinja",
+      "familyKey": "nincada",
+      "detailFile": "families/nincada.json",
+      "familyMembers": [
+        "Nincada",
+        "Ninjask",
+        "Shedinja"
+      ]
+    },
+    {
+      "species": "Shellder",
+      "familyKey": "shellder",
+      "detailFile": "families/shellder.json",
+      "familyMembers": [
+        "Cloyster",
+        "Shellder"
+      ]
+    },
+    {
+      "species": "Shellos",
+      "familyKey": "shellos",
+      "detailFile": "families/shellos.json",
+      "familyMembers": [
+        "Gastrodon",
+        "Shellos"
+      ]
+    },
+    {
+      "species": "Shiftry",
+      "familyKey": "seedot",
+      "detailFile": "families/seedot.json",
+      "familyMembers": [
+        "Nuzleaf",
+        "Seedot",
+        "Shiftry"
+      ]
+    },
+    {
+      "species": "Shiinotic",
+      "familyKey": "morelull",
+      "detailFile": "families/morelull.json",
+      "familyMembers": [
+        "Morelull",
+        "Shiinotic"
+      ]
+    },
+    {
+      "species": "Shinx",
+      "familyKey": "shinx",
+      "detailFile": "families/shinx.json",
+      "familyMembers": [
+        "Luxio",
+        "Luxray",
+        "Luxray-Mega",
+        "Shinx"
+      ]
+    },
+    {
+      "species": "Shroodle",
+      "familyKey": "shroodle",
+      "detailFile": "families/shroodle.json",
+      "familyMembers": [
+        "Grafaiai",
+        "Shroodle"
+      ]
+    },
+    {
+      "species": "Shroomish",
+      "familyKey": "shroomish",
+      "detailFile": "families/shroomish.json",
+      "familyMembers": [
+        "Breloom",
+        "Shroomish"
+      ]
+    },
+    {
+      "species": "Shuckle",
+      "familyKey": "shuckle",
+      "detailFile": "families/shuckle.json",
+      "familyMembers": [
+        "Shuckle"
+      ]
+    },
+    {
+      "species": "Shuppet",
+      "familyKey": "shuppet",
+      "detailFile": "families/shuppet.json",
+      "familyMembers": [
+        "Banette",
+        "Banette-Mega",
+        "Shuppet"
+      ]
+    },
+    {
+      "species": "Sigilyph",
+      "familyKey": "sigilyph",
+      "detailFile": "families/sigilyph.json",
+      "familyMembers": [
+        "Sigilyph"
+      ]
+    },
+    {
+      "species": "Silvally",
+      "familyKey": "type-null",
+      "detailFile": "families/type-null.json",
+      "familyMembers": [
+        "Silvally",
+        "Type: Null"
+      ]
+    },
+    {
+      "species": "Silvally-Bug",
+      "familyKey": "silvally-bug",
+      "detailFile": "families/silvally-bug.json",
+      "familyMembers": [
+        "Silvally-Bug"
+      ]
+    },
+    {
+      "species": "Silvally-Dark",
+      "familyKey": "silvally-dark",
+      "detailFile": "families/silvally-dark.json",
+      "familyMembers": [
+        "Silvally-Dark"
+      ]
+    },
+    {
+      "species": "Silvally-Fairy",
+      "familyKey": "silvally-fairy",
+      "detailFile": "families/silvally-fairy.json",
+      "familyMembers": [
+        "Silvally-Fairy"
+      ]
+    },
+    {
+      "species": "Silvally-Fire",
+      "familyKey": "silvally-fire",
+      "detailFile": "families/silvally-fire.json",
+      "familyMembers": [
+        "Silvally-Fire"
+      ]
+    },
+    {
+      "species": "Silvally-Ghost",
+      "familyKey": "silvally-ghost",
+      "detailFile": "families/silvally-ghost.json",
+      "familyMembers": [
+        "Silvally-Ghost"
+      ]
+    },
+    {
+      "species": "Silvally-Grass",
+      "familyKey": "silvally-grass",
+      "detailFile": "families/silvally-grass.json",
+      "familyMembers": [
+        "Silvally-Grass"
+      ]
+    },
+    {
+      "species": "Silvally-Ground",
+      "familyKey": "silvally-ground",
+      "detailFile": "families/silvally-ground.json",
+      "familyMembers": [
+        "Silvally-Ground"
+      ]
+    },
+    {
+      "species": "Silvally-Ice",
+      "familyKey": "silvally-ice",
+      "detailFile": "families/silvally-ice.json",
+      "familyMembers": [
+        "Silvally-Ice"
+      ]
+    },
+    {
+      "species": "Silvally-Water",
+      "familyKey": "silvally-water",
+      "detailFile": "families/silvally-water.json",
+      "familyMembers": [
+        "Silvally-Water"
+      ]
+    },
+    {
+      "species": "Sizzlipede",
+      "familyKey": "sizzlipede",
+      "detailFile": "families/sizzlipede.json",
+      "familyMembers": [
+        "Centiskorch",
+        "Centiskorch-Mega",
+        "Sizzlipede"
+      ]
+    },
+    {
+      "species": "Skarmory",
+      "familyKey": "skarmory",
+      "detailFile": "families/skarmory.json",
+      "familyMembers": [
+        "Skarmory"
+      ]
+    },
+    {
+      "species": "Skarmory-Mega",
+      "familyKey": "skarmory",
+      "detailFile": "families/skarmory.json",
+      "familyMembers": [
+        "Skarmory",
+        "Skarmory-Mega"
+      ]
+    },
+    {
+      "species": "Skeledirge",
+      "familyKey": "fuecoco",
+      "detailFile": "families/fuecoco.json",
+      "familyMembers": [
+        "Crocalor",
+        "Fuecoco",
+        "Skeledirge"
+      ]
+    },
+    {
+      "species": "Skitty",
+      "familyKey": "skitty",
+      "detailFile": "families/skitty.json",
+      "familyMembers": [
+        "Delcatty",
+        "Skitty"
+      ]
+    },
+    {
+      "species": "Skorupi",
+      "familyKey": "skorupi",
+      "detailFile": "families/skorupi.json",
+      "familyMembers": [
+        "Drapion",
+        "Skorupi"
+      ]
+    },
+    {
+      "species": "Skrelp",
+      "familyKey": "skrelp",
+      "detailFile": "families/skrelp.json",
+      "familyMembers": [
+        "Dragalge",
+        "Skrelp"
+      ]
+    },
+    {
+      "species": "Skuntank",
+      "familyKey": "stunky",
+      "detailFile": "families/stunky.json",
+      "familyMembers": [
+        "Skuntank",
+        "Stunky"
+      ]
+    },
+    {
+      "species": "Slaking",
+      "familyKey": "slakoth",
+      "detailFile": "families/slakoth.json",
+      "familyMembers": [
+        "Slaking",
+        "Slaking-Mega",
+        "Slakoth",
+        "Vigoroth"
+      ]
+    },
+    {
+      "species": "Slither Wing",
+      "familyKey": "slither-wing",
+      "detailFile": "families/slither-wing.json",
+      "familyMembers": [
+        "Slither Wing"
+      ]
+    },
+    {
+      "species": "Slowbro",
+      "familyKey": "slowpoke",
+      "detailFile": "families/slowpoke.json",
+      "familyMembers": [
+        "Slowbro",
+        "Slowbro-Mega",
+        "Slowking",
+        "Slowpoke"
+      ]
+    },
+    {
+      "species": "Slowbro-Galar",
+      "familyKey": "slowpoke-galar",
+      "detailFile": "families/slowpoke-galar.json",
+      "familyMembers": [
+        "Slowbro-Galar",
+        "Slowking-Galar",
+        "Slowpoke-Galar"
+      ]
+    },
+    {
+      "species": "Slowking",
+      "familyKey": "slowpoke",
+      "detailFile": "families/slowpoke.json",
+      "familyMembers": [
+        "Slowbro",
+        "Slowbro-Mega",
+        "Slowking",
+        "Slowpoke"
+      ]
+    },
+    {
+      "species": "Slowking-Galar",
+      "familyKey": "slowpoke-galar",
+      "detailFile": "families/slowpoke-galar.json",
+      "familyMembers": [
+        "Slowbro-Galar",
+        "Slowking-Galar",
+        "Slowpoke-Galar"
+      ]
+    },
+    {
+      "species": "Slowpoke",
+      "familyKey": "slowpoke",
+      "detailFile": "families/slowpoke.json",
+      "familyMembers": [
+        "Slowbro",
+        "Slowbro-Mega",
+        "Slowking",
+        "Slowpoke"
+      ]
+    },
+    {
+      "species": "Slowpoke-Galar",
+      "familyKey": "slowpoke-galar",
+      "detailFile": "families/slowpoke-galar.json",
+      "familyMembers": [
+        "Slowbro-Galar",
+        "Slowking-Galar",
+        "Slowpoke-Galar"
+      ]
+    },
+    {
+      "species": "Slugma",
+      "familyKey": "slugma",
+      "detailFile": "families/slugma.json",
+      "familyMembers": [
+        "Magcargo",
+        "Slugma"
+      ]
+    },
+    {
+      "species": "Smoliv",
+      "familyKey": "smoliv",
+      "detailFile": "families/smoliv.json",
+      "familyMembers": [
+        "Arboliva",
+        "Dolliv",
+        "Smoliv"
+      ]
+    },
+    {
+      "species": "Sneasler",
+      "familyKey": "sneasel-hisui",
+      "detailFile": "families/sneasel-hisui.json",
+      "familyMembers": [
+        "Sneasel-Hisui",
+        "Sneasler"
+      ]
+    },
+    {
+      "species": "Snivy",
+      "familyKey": "snivy",
+      "detailFile": "families/snivy.json",
+      "familyMembers": [
+        "Serperior",
+        "Servine",
+        "Snivy"
+      ]
+    },
+    {
+      "species": "Snom",
+      "familyKey": "snom",
+      "detailFile": "families/snom.json",
+      "familyMembers": [
+        "Frosmoth",
+        "Snom"
+      ]
+    },
+    {
+      "species": "Snorlax",
+      "familyKey": "munchlax",
+      "detailFile": "families/munchlax.json",
+      "familyMembers": [
+        "Munchlax",
+        "Snorlax",
+        "Snorlax-Mega"
+      ]
+    },
+    {
+      "species": "Snorunt",
+      "familyKey": "snorunt",
+      "detailFile": "families/snorunt.json",
+      "familyMembers": [
+        "Froslass",
+        "Glalie",
+        "Glalie-Mega",
+        "Snorunt"
+      ]
+    },
+    {
+      "species": "Snover",
+      "familyKey": "snover",
+      "detailFile": "families/snover.json",
+      "familyMembers": [
+        "Abomasnow",
+        "Abomasnow-Mega",
+        "Snover"
+      ]
+    },
+    {
+      "species": "Snubbull",
+      "familyKey": "snubbull",
+      "detailFile": "families/snubbull.json",
+      "familyMembers": [
+        "Granbull",
+        "Snubbull"
+      ]
+    },
+    {
+      "species": "Solosis",
+      "familyKey": "solosis",
+      "detailFile": "families/solosis.json",
+      "familyMembers": [
+        "Duosion",
+        "Reuniclus",
+        "Solosis"
+      ]
+    },
+    {
+      "species": "Solrock",
+      "familyKey": "solrock",
+      "detailFile": "families/solrock.json",
+      "familyMembers": [
+        "Solrock"
+      ]
+    },
+    {
+      "species": "Spectrier",
+      "familyKey": "spectrier",
+      "detailFile": "families/spectrier.json",
+      "familyMembers": [
+        "Spectrier"
+      ]
+    },
+    {
+      "species": "Spheal",
+      "familyKey": "spheal",
+      "detailFile": "families/spheal.json",
+      "familyMembers": [
+        "Sealeo",
+        "Spheal",
+        "Walrein"
+      ]
+    },
+    {
+      "species": "Spinda",
+      "familyKey": "spinda",
+      "detailFile": "families/spinda.json",
+      "familyMembers": [
+        "Spinda"
+      ]
+    },
+    {
+      "species": "Squirtle",
+      "familyKey": "squirtle",
+      "detailFile": "families/squirtle.json",
+      "familyMembers": [
+        "Blastoise",
+        "Blastoise-Mega",
+        "Squirtle",
+        "Wartortle"
+      ]
+    },
+    {
+      "species": "Stantler",
+      "familyKey": "stantler",
+      "detailFile": "families/stantler.json",
+      "familyMembers": [
+        "Stantler",
+        "Wyrdeer"
+      ]
+    },
+    {
+      "species": "Staraptor",
+      "familyKey": "starly",
+      "detailFile": "families/starly.json",
+      "familyMembers": [
+        "Staraptor",
+        "Staravia",
+        "Starly"
+      ]
+    },
+    {
+      "species": "Starly",
+      "familyKey": "starly",
+      "detailFile": "families/starly.json",
+      "familyMembers": [
+        "Staraptor",
+        "Staravia",
+        "Starly"
+      ]
+    },
+    {
+      "species": "Starmie",
+      "familyKey": "staryu",
+      "detailFile": "families/staryu.json",
+      "familyMembers": [
+        "Starmie",
+        "Staryu"
+      ]
+    },
+    {
+      "species": "Starmie-Mega",
+      "familyKey": "staryu",
+      "detailFile": "families/staryu.json",
+      "familyMembers": [
+        "Starmie",
+        "Starmie-Mega",
+        "Staryu"
+      ]
+    },
+    {
+      "species": "Staryu",
+      "familyKey": "staryu",
+      "detailFile": "families/staryu.json",
+      "familyMembers": [
+        "Starmie",
+        "Staryu"
+      ]
+    },
+    {
+      "species": "Steelix",
+      "familyKey": "onix",
+      "detailFile": "families/onix.json",
+      "familyMembers": [
+        "Onix",
+        "Steelix",
+        "Steelix-Mega"
+      ]
+    },
+    {
+      "species": "Steelix-Mega",
+      "familyKey": "onix",
+      "detailFile": "families/onix.json",
+      "familyMembers": [
+        "Onix",
+        "Steelix",
+        "Steelix-Mega"
+      ]
+    },
+    {
+      "species": "Stonjourner",
+      "familyKey": "stonjourner",
+      "detailFile": "families/stonjourner.json",
+      "familyMembers": [
+        "Stonjourner"
+      ]
+    },
+    {
+      "species": "Stoutland",
+      "familyKey": "lillipup",
+      "detailFile": "families/lillipup.json",
+      "familyMembers": [
+        "Herdier",
+        "Lillipup",
+        "Stoutland"
+      ]
+    },
+    {
+      "species": "Stunfisk",
+      "familyKey": "stunfisk",
+      "detailFile": "families/stunfisk.json",
+      "familyMembers": [
+        "Stunfisk"
+      ]
+    },
+    {
+      "species": "Stunfisk-Galar",
+      "familyKey": "stunfisk-galar",
+      "detailFile": "families/stunfisk-galar.json",
+      "familyMembers": [
+        "Stunfisk-Galar"
+      ]
+    },
+    {
+      "species": "Stunky",
+      "familyKey": "stunky",
+      "detailFile": "families/stunky.json",
+      "familyMembers": [
+        "Skuntank",
+        "Stunky"
+      ]
+    },
+    {
+      "species": "Surskit",
+      "familyKey": "surskit",
+      "detailFile": "families/surskit.json",
+      "familyMembers": [
+        "Masquerain",
+        "Surskit"
+      ]
+    },
+    {
+      "species": "Swablu",
+      "familyKey": "swablu",
+      "detailFile": "families/swablu.json",
+      "familyMembers": [
+        "Altaria",
+        "Altaria-Mega",
+        "Swablu"
+      ]
+    },
+    {
+      "species": "Swadloon",
+      "familyKey": "sewaddle",
+      "detailFile": "families/sewaddle.json",
+      "familyMembers": [
+        "Leavanny",
+        "Sewaddle",
+        "Swadloon"
+      ]
+    },
+    {
+      "species": "Swalot",
+      "familyKey": "gulpin",
+      "detailFile": "families/gulpin.json",
+      "familyMembers": [
+        "Gulpin",
+        "Swalot"
+      ]
+    },
+    {
+      "species": "Swampert",
+      "familyKey": "mudkip",
+      "detailFile": "families/mudkip.json",
+      "familyMembers": [
+        "Marshtomp",
+        "Mudkip",
+        "Swampert",
+        "Swampert-Mega"
+      ]
+    },
+    {
+      "species": "Swanna",
+      "familyKey": "ducklett",
+      "detailFile": "families/ducklett.json",
+      "familyMembers": [
+        "Ducklett",
+        "Swanna"
+      ]
+    },
+    {
+      "species": "Swinub",
+      "familyKey": "swinub",
+      "detailFile": "families/swinub.json",
+      "familyMembers": [
+        "Mamoswine",
+        "Piloswine",
+        "Swinub"
+      ]
+    },
+    {
+      "species": "Sylveon",
+      "familyKey": "eevee",
+      "detailFile": "families/eevee.json",
+      "familyMembers": [
+        "Eevee",
+        "Espeon",
+        "Flareon",
+        "Glaceon",
+        "Jolteon",
+        "Leafeon",
+        "Sylveon",
+        "Umbreon",
+        "Vaporeon"
+      ]
+    },
+    {
+      "species": "Tadbulb",
+      "familyKey": "tadbulb",
+      "detailFile": "families/tadbulb.json",
+      "familyMembers": [
+        "Bellibolt",
+        "Tadbulb"
+      ]
+    },
+    {
+      "species": "Talonflame",
+      "familyKey": "fletchling",
+      "detailFile": "families/fletchling.json",
+      "familyMembers": [
+        "Fletchinder",
+        "Fletchling",
+        "Talonflame"
+      ]
+    },
+    {
+      "species": "Tangela",
+      "familyKey": "tangela",
+      "detailFile": "families/tangela.json",
+      "familyMembers": [
+        "Tangela",
+        "Tangrowth"
+      ]
+    },
+    {
+      "species": "Tangrowth",
+      "familyKey": "tangela",
+      "detailFile": "families/tangela.json",
+      "familyMembers": [
+        "Tangela",
+        "Tangrowth"
+      ]
+    },
+    {
+      "species": "Tapu Fini",
+      "familyKey": "tapu-fini",
+      "detailFile": "families/tapu-fini.json",
+      "familyMembers": [
+        "Tapu Fini"
+      ]
+    },
+    {
+      "species": "Tapu Koko",
+      "familyKey": "tapu-koko",
+      "detailFile": "families/tapu-koko.json",
+      "familyMembers": [
+        "Tapu Koko"
+      ]
+    },
+    {
+      "species": "Tatsugiri",
+      "familyKey": "tatsugiri",
+      "detailFile": "families/tatsugiri.json",
+      "familyMembers": [
+        "Tatsugiri"
+      ]
+    },
+    {
+      "species": "Tauros",
+      "familyKey": "tauros",
+      "detailFile": "families/tauros.json",
+      "familyMembers": [
+        "Tauros"
+      ]
+    },
+    {
+      "species": "Tauros-Paldea-Aqua",
+      "familyKey": "tauros-paldea-aqua",
+      "detailFile": "families/tauros-paldea-aqua.json",
+      "familyMembers": [
+        "Tauros-Paldea-Aqua"
+      ]
+    },
+    {
+      "species": "Tauros-Paldea-Blaze",
+      "familyKey": "tauros-paldea-blaze",
+      "detailFile": "families/tauros-paldea-blaze.json",
+      "familyMembers": [
+        "Tauros-Paldea-Blaze"
+      ]
+    },
+    {
+      "species": "Tauros-Paldea-Combat",
+      "familyKey": "tauros-paldea-combat",
+      "detailFile": "families/tauros-paldea-combat.json",
+      "familyMembers": [
+        "Tauros-Paldea-Combat"
+      ]
+    },
+    {
+      "species": "Tentacool",
+      "familyKey": "tentacool",
+      "detailFile": "families/tentacool.json",
+      "familyMembers": [
+        "Tentacool",
+        "Tentacruel"
+      ]
+    },
+    {
+      "species": "Tentacruel",
+      "familyKey": "tentacool",
+      "detailFile": "families/tentacool.json",
+      "familyMembers": [
+        "Tentacool",
+        "Tentacruel"
+      ]
+    },
+    {
+      "species": "Tepig",
+      "familyKey": "tepig",
+      "detailFile": "families/tepig.json",
+      "familyMembers": [
+        "Emboar",
+        "Pignite",
+        "Tepig"
+      ]
+    },
+    {
+      "species": "Thundurus",
+      "familyKey": "thundurus",
+      "detailFile": "families/thundurus.json",
+      "familyMembers": [
+        "Thundurus"
+      ]
+    },
+    {
+      "species": "Timburr",
+      "familyKey": "timburr",
+      "detailFile": "families/timburr.json",
+      "familyMembers": [
+        "Conkeldurr",
+        "Gurdurr",
+        "Timburr"
+      ]
+    },
+    {
+      "species": "Tinkaton",
+      "familyKey": "tinkatink",
+      "detailFile": "families/tinkatink.json",
+      "familyMembers": [
+        "Tinkatink",
+        "Tinkaton",
+        "Tinkatuff"
+      ]
+    },
+    {
+      "species": "Tinkatuff",
+      "familyKey": "tinkatink",
+      "detailFile": "families/tinkatink.json",
+      "familyMembers": [
+        "Tinkatink",
+        "Tinkaton",
+        "Tinkatuff"
+      ]
+    },
+    {
+      "species": "Toedscool",
+      "familyKey": "toedscool",
+      "detailFile": "families/toedscool.json",
+      "familyMembers": [
+        "Toedscool",
+        "Toedscruel"
+      ]
+    },
+    {
+      "species": "Toedscruel",
+      "familyKey": "toedscool",
+      "detailFile": "families/toedscool.json",
+      "familyMembers": [
+        "Toedscool",
+        "Toedscruel"
+      ]
+    },
+    {
+      "species": "Togedemaru",
+      "familyKey": "togedemaru",
+      "detailFile": "families/togedemaru.json",
+      "familyMembers": [
+        "Togedemaru"
+      ]
+    },
+    {
+      "species": "Togekiss",
+      "familyKey": "togepi",
+      "detailFile": "families/togepi.json",
+      "familyMembers": [
+        "Togekiss",
+        "Togepi",
+        "Togetic"
+      ]
+    },
+    {
+      "species": "Torkoal",
+      "familyKey": "torkoal",
+      "detailFile": "families/torkoal.json",
+      "familyMembers": [
+        "Torkoal"
+      ]
+    },
+    {
+      "species": "Tornadus",
+      "familyKey": "tornadus",
+      "detailFile": "families/tornadus.json",
+      "familyMembers": [
+        "Tornadus"
+      ]
+    },
+    {
+      "species": "Tornadus-Therian",
+      "familyKey": "tornadus-therian",
+      "detailFile": "families/tornadus-therian.json",
+      "familyMembers": [
+        "Tornadus-Therian"
+      ]
+    },
+    {
+      "species": "Torterra",
+      "familyKey": "turtwig",
+      "detailFile": "families/turtwig.json",
+      "familyMembers": [
+        "Grotle",
+        "Torterra",
+        "Torterra-Mega",
+        "Turtwig"
+      ]
+    },
+    {
+      "species": "Totodile",
+      "familyKey": "totodile",
+      "detailFile": "families/totodile.json",
+      "familyMembers": [
+        "Croconaw",
+        "Feraligatr",
+        "Totodile"
+      ]
+    },
+    {
+      "species": "Toxapex",
+      "familyKey": "mareanie",
+      "detailFile": "families/mareanie.json",
+      "familyMembers": [
+        "Mareanie",
+        "Toxapex"
+      ]
+    },
+    {
+      "species": "Toxicroak",
+      "familyKey": "croagunk",
+      "detailFile": "families/croagunk.json",
+      "familyMembers": [
+        "Croagunk",
+        "Toxicroak"
+      ]
+    },
+    {
+      "species": "Toxtricity",
+      "familyKey": "toxel",
+      "detailFile": "families/toxel.json",
+      "familyMembers": [
+        "Toxel",
+        "Toxtricity",
+        "Toxtricity-Low-Key",
+        "Toxtricity-Mega"
+      ]
+    },
+    {
+      "species": "Toxtricity-Low-Key",
+      "familyKey": "toxel",
+      "detailFile": "families/toxel.json",
+      "familyMembers": [
+        "Toxel",
+        "Toxtricity",
+        "Toxtricity-Low-Key",
+        "Toxtricity-Mega"
+      ]
+    },
+    {
+      "species": "Trapinch",
+      "familyKey": "trapinch",
+      "detailFile": "families/trapinch.json",
+      "familyMembers": [
+        "Flygon",
+        "Trapinch",
+        "Vibrava"
+      ]
+    },
+    {
+      "species": "Turtonator",
+      "familyKey": "turtonator",
+      "detailFile": "families/turtonator.json",
+      "familyMembers": [
+        "Turtonator"
+      ]
+    },
+    {
+      "species": "Turtwig",
+      "familyKey": "turtwig",
+      "detailFile": "families/turtwig.json",
+      "familyMembers": [
+        "Grotle",
+        "Torterra",
+        "Torterra-Mega",
+        "Turtwig"
+      ]
+    },
+    {
+      "species": "Tympole",
+      "familyKey": "tympole",
+      "detailFile": "families/tympole.json",
+      "familyMembers": [
+        "Palpitoad",
+        "Seismitoad",
+        "Tympole"
+      ]
+    },
+    {
+      "species": "Tynamo",
+      "familyKey": "tynamo",
+      "detailFile": "families/tynamo.json",
+      "familyMembers": [
+        "Eelektrik",
+        "Eelektross",
+        "Tynamo"
+      ]
+    },
+    {
+      "species": "Type: Null",
+      "familyKey": "type-null",
+      "detailFile": "families/type-null.json",
+      "familyMembers": [
+        "Silvally",
+        "Type: Null"
+      ]
+    },
+    {
+      "species": "Typhlosion",
+      "familyKey": "cyndaquil",
+      "detailFile": "families/cyndaquil.json",
+      "familyMembers": [
+        "Cyndaquil",
+        "Quilava",
+        "Typhlosion",
+        "Typhlosion-Hisui"
+      ]
+    },
+    {
+      "species": "Typhlosion-Hisui",
+      "familyKey": "cyndaquil",
+      "detailFile": "families/cyndaquil.json",
+      "familyMembers": [
+        "Cyndaquil",
+        "Quilava",
+        "Typhlosion",
+        "Typhlosion-Hisui"
+      ]
+    },
+    {
+      "species": "Tyranitar",
+      "familyKey": "larvitar",
+      "detailFile": "families/larvitar.json",
+      "familyMembers": [
+        "Larvitar",
+        "Pupitar",
+        "Tyranitar",
+        "Tyranitar-Mega"
+      ]
+    },
+    {
+      "species": "Tyranitar-Mega",
+      "familyKey": "larvitar",
+      "detailFile": "families/larvitar.json",
+      "familyMembers": [
+        "Larvitar",
+        "Pupitar",
+        "Tyranitar",
+        "Tyranitar-Mega"
+      ]
+    },
+    {
+      "species": "Tyrantrum",
+      "familyKey": "tyrunt",
+      "detailFile": "families/tyrunt.json",
+      "familyMembers": [
+        "Tyrantrum",
+        "Tyrunt"
+      ]
+    },
+    {
+      "species": "Tyrogue",
+      "familyKey": "tyrogue",
+      "detailFile": "families/tyrogue.json",
+      "familyMembers": [
+        "Hitmonchan",
+        "Hitmonlee",
+        "Hitmontop",
+        "Tyrogue"
+      ]
+    },
+    {
+      "species": "Tyrunt",
+      "familyKey": "tyrunt",
+      "detailFile": "families/tyrunt.json",
+      "familyMembers": [
+        "Tyrantrum",
+        "Tyrunt"
+      ]
+    },
+    {
+      "species": "Umbreon",
+      "familyKey": "eevee",
+      "detailFile": "families/eevee.json",
+      "familyMembers": [
+        "Eevee",
+        "Espeon",
+        "Flareon",
+        "Glaceon",
+        "Jolteon",
+        "Leafeon",
+        "Sylveon",
+        "Umbreon",
+        "Vaporeon"
+      ]
+    },
+    {
+      "species": "Unown",
+      "familyKey": "unown",
+      "detailFile": "families/unown.json",
+      "familyMembers": [
+        "Unown"
+      ]
+    },
+    {
+      "species": "Ursaluna",
+      "familyKey": "teddiursa",
+      "detailFile": "families/teddiursa.json",
+      "familyMembers": [
+        "Teddiursa",
+        "Ursaluna",
+        "Ursaring"
+      ]
+    },
+    {
+      "species": "Ursaluna-Bloodmoon",
+      "familyKey": "ursaluna-bloodmoon",
+      "detailFile": "families/ursaluna-bloodmoon.json",
+      "familyMembers": [
+        "Ursaluna-Bloodmoon"
+      ]
+    },
+    {
+      "species": "Urshifu-Rapid-Strike",
+      "familyKey": "kubfu",
+      "detailFile": "families/kubfu.json",
+      "familyMembers": [
+        "Kubfu",
+        "Urshifu",
+        "Urshifu-Rapid-Strike"
+      ]
+    },
+    {
+      "species": "Vaporeon",
+      "familyKey": "eevee",
+      "detailFile": "families/eevee.json",
+      "familyMembers": [
+        "Eevee",
+        "Espeon",
+        "Flareon",
+        "Glaceon",
+        "Jolteon",
+        "Leafeon",
+        "Sylveon",
+        "Umbreon",
+        "Vaporeon"
+      ]
+    },
+    {
+      "species": "Veluza",
+      "familyKey": "veluza",
+      "detailFile": "families/veluza.json",
+      "familyMembers": [
+        "Veluza"
+      ]
+    },
+    {
+      "species": "Venipede",
+      "familyKey": "venipede",
+      "detailFile": "families/venipede.json",
+      "familyMembers": [
+        "Scolipede",
+        "Venipede",
+        "Whirlipede"
+      ]
+    },
+    {
+      "species": "Venusaur",
+      "familyKey": "bulbasaur",
+      "detailFile": "families/bulbasaur.json",
+      "familyMembers": [
+        "Bulbasaur",
+        "Ivysaur",
+        "Venusaur",
+        "Venusaur-Mega"
+      ]
+    },
+    {
+      "species": "Vespiquen",
+      "familyKey": "combee",
+      "detailFile": "families/combee.json",
+      "familyMembers": [
+        "Combee",
+        "Vespiquen"
+      ]
+    },
+    {
+      "species": "Victini",
+      "familyKey": "victini",
+      "detailFile": "families/victini.json",
+      "familyMembers": [
+        "Victini"
+      ]
+    },
+    {
+      "species": "Victreebel",
+      "familyKey": "bellsprout",
+      "detailFile": "families/bellsprout.json",
+      "familyMembers": [
+        "Bellsprout",
+        "Victreebel",
+        "Weepinbell"
+      ]
+    },
+    {
+      "species": "Victreebel-Mega",
+      "familyKey": "bellsprout",
+      "detailFile": "families/bellsprout.json",
+      "familyMembers": [
+        "Bellsprout",
+        "Victreebel",
+        "Victreebel-Mega",
+        "Weepinbell"
+      ]
+    },
+    {
+      "species": "Vikavolt",
+      "familyKey": "grubbin",
+      "detailFile": "families/grubbin.json",
+      "familyMembers": [
+        "Charjabug",
+        "Grubbin",
+        "Vikavolt"
+      ]
+    },
+    {
+      "species": "Vileplume",
+      "familyKey": "oddish",
+      "detailFile": "families/oddish.json",
+      "familyMembers": [
+        "Bellossom",
+        "Gloom",
+        "Oddish",
+        "Vileplume"
+      ]
+    },
+    {
+      "species": "Volbeat",
+      "familyKey": "volbeat",
+      "detailFile": "families/volbeat.json",
+      "familyMembers": [
+        "Volbeat"
+      ]
+    },
+    {
+      "species": "Volcarona",
+      "familyKey": "larvesta",
+      "detailFile": "families/larvesta.json",
+      "familyMembers": [
+        "Larvesta",
+        "Volcarona"
+      ]
+    },
+    {
+      "species": "Walking Wake",
+      "familyKey": "walking-wake",
+      "detailFile": "families/walking-wake.json",
+      "familyMembers": [
+        "Walking Wake"
+      ]
+    },
+    {
+      "species": "Walrein",
+      "familyKey": "spheal",
+      "detailFile": "families/spheal.json",
+      "familyMembers": [
+        "Sealeo",
+        "Spheal",
+        "Walrein"
+      ]
+    },
+    {
+      "species": "Wartortle",
+      "familyKey": "squirtle",
+      "detailFile": "families/squirtle.json",
+      "familyMembers": [
+        "Blastoise",
+        "Blastoise-Mega",
+        "Squirtle",
+        "Wartortle"
+      ]
+    },
+    {
+      "species": "Weavile",
+      "familyKey": "sneasel",
+      "detailFile": "families/sneasel.json",
+      "familyMembers": [
+        "Sneasel",
+        "Weavile"
+      ]
+    },
+    {
+      "species": "Weedle",
+      "familyKey": "weedle",
+      "detailFile": "families/weedle.json",
+      "familyMembers": [
+        "Beedrill",
+        "Beedrill-Mega",
+        "Kakuna",
+        "Weedle"
+      ]
+    },
+    {
+      "species": "Weepinbell",
+      "familyKey": "bellsprout",
+      "detailFile": "families/bellsprout.json",
+      "familyMembers": [
+        "Bellsprout",
+        "Victreebel",
+        "Weepinbell"
+      ]
+    },
+    {
+      "species": "Weezing",
+      "familyKey": "koffing",
+      "detailFile": "families/koffing.json",
+      "familyMembers": [
+        "Koffing",
+        "Weezing",
+        "Weezing-Galar"
+      ]
+    },
+    {
+      "species": "Weezing-Galar",
+      "familyKey": "koffing",
+      "detailFile": "families/koffing.json",
+      "familyMembers": [
+        "Koffing",
+        "Weezing",
+        "Weezing-Galar"
+      ]
+    },
+    {
+      "species": "Whimsicott",
+      "familyKey": "cottonee",
+      "detailFile": "families/cottonee.json",
+      "familyMembers": [
+        "Cottonee",
+        "Whimsicott"
+      ]
+    },
+    {
+      "species": "Whirlipede",
+      "familyKey": "venipede",
+      "detailFile": "families/venipede.json",
+      "familyMembers": [
+        "Scolipede",
+        "Venipede",
+        "Whirlipede"
+      ]
+    },
+    {
+      "species": "Whiscash",
+      "familyKey": "barboach",
+      "detailFile": "families/barboach.json",
+      "familyMembers": [
+        "Barboach",
+        "Whiscash"
+      ]
+    },
+    {
+      "species": "Wooloo",
+      "familyKey": "wooloo",
+      "detailFile": "families/wooloo.json",
+      "familyMembers": [
+        "Dubwool",
+        "Wooloo"
+      ]
+    },
+    {
+      "species": "Wooper",
+      "familyKey": "wooper",
+      "detailFile": "families/wooper.json",
+      "familyMembers": [
+        "Quagsire",
+        "Wooper"
+      ]
+    },
+    {
+      "species": "Wooper-Paldea",
+      "familyKey": "wooper-paldea",
+      "detailFile": "families/wooper-paldea.json",
+      "familyMembers": [
+        "Clodsire",
+        "Wooper-Paldea"
+      ]
+    },
+    {
+      "species": "Wyrdeer",
+      "familyKey": "stantler",
+      "detailFile": "families/stantler.json",
+      "familyMembers": [
+        "Stantler",
+        "Wyrdeer"
+      ]
+    },
+    {
+      "species": "Xatu",
+      "familyKey": "natu",
+      "detailFile": "families/natu.json",
+      "familyMembers": [
+        "Natu",
+        "Xatu"
+      ]
+    },
+    {
+      "species": "Xurkitree",
+      "familyKey": "xurkitree",
+      "detailFile": "families/xurkitree.json",
+      "familyMembers": [
+        "Xurkitree"
+      ]
+    },
+    {
+      "species": "Yanma",
+      "familyKey": "yanma",
+      "detailFile": "families/yanma.json",
+      "familyMembers": [
+        "Yanma",
+        "Yanmega"
+      ]
+    },
+    {
+      "species": "Yanmega",
+      "familyKey": "yanma",
+      "detailFile": "families/yanma.json",
+      "familyMembers": [
+        "Yanma",
+        "Yanmega"
+      ]
+    },
+    {
+      "species": "Zebstrika",
+      "familyKey": "blitzle",
+      "detailFile": "families/blitzle.json",
+      "familyMembers": [
+        "Blitzle",
+        "Zebstrika"
+      ]
+    },
+    {
+      "species": "Zeraora",
+      "familyKey": "zeraora",
+      "detailFile": "families/zeraora.json",
+      "familyMembers": [
+        "Zeraora"
+      ]
+    },
+    {
+      "species": "Zigzagoon-Galar",
+      "familyKey": "zigzagoon-galar",
+      "detailFile": "families/zigzagoon-galar.json",
+      "familyMembers": [
+        "Linoone-Galar",
+        "Obstagoon",
+        "Zigzagoon-Galar"
+      ]
+    },
+    {
+      "species": "Zoroark",
+      "familyKey": "zorua",
+      "detailFile": "families/zorua.json",
+      "familyMembers": [
+        "Zoroark",
+        "Zorua"
+      ]
+    },
+    {
+      "species": "Zoroark-Hisui",
+      "familyKey": "zorua-hisui",
+      "detailFile": "families/zorua-hisui.json",
+      "familyMembers": [
+        "Zoroark-Hisui",
+        "Zorua-Hisui"
+      ]
+    },
+    {
+      "species": "Zubat",
+      "familyKey": "zubat",
+      "detailFile": "families/zubat.json",
+      "familyMembers": [
+        "Crobat",
+        "Golbat",
+        "Zubat"
+      ]
+    }
+  ]
+}

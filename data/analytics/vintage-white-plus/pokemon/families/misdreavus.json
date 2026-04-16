@@ -1,0 +1,290 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "misdreavus",
+  "familyMembers": [
+    "Misdreavus",
+    "Mismagius"
+  ],
+  "speciesEntries": {
+    "Misdreavus": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "104",
+              "displayName": "Ace Trainer Corky - Chargestone Cave",
+              "leadLevel": 64,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "95",
+              "displayName": "Clerk F Katie - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "68",
+              "displayName": "Lady Magnolia - Nimbasa City",
+              "leadLevel": 40,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "491",
+              "displayName": "PkMn Trainer Bianca4",
+              "leadLevel": 62,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "90",
+              "displayName": "PkMn Trainer Cheren7",
+              "leadLevel": 54,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "66",
+              "displayName": "Rich Boy Cody - Nimbasa City",
+              "leadLevel": 40,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "117",
+              "displayName": "Scientist Naoko - Chargestone Cave",
+              "leadLevel": 62,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "298",
+              "displayName": "Team Plasma Grunt19 - Chargestone Cave",
+              "leadLevel": 63,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Mismagius": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 6,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 4.5,
+          "topBattles": [
+            {
+              "usageKey": "75",
+              "displayName": "Worker Ryan - Cold Storage",
+              "leadLevel": 53,
+              "partyCount": 4,
+              "ownedCount": 5,
+              "participationPct": 80
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "442",
+              "displayName": "Backpacker Peter - Route 16",
+              "leadLevel": 40,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "216",
+              "displayName": "Black Belt Kendrew - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "492",
+              "displayName": "PkMn Trainer Bianca5",
+              "leadLevel": 61,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "66",
+              "displayName": "Rich Boy Cody - Nimbasa City",
+              "leadLevel": 40,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "298",
+              "displayName": "Team Plasma Grunt19 - Chargestone Cave",
+              "leadLevel": 63,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "299",
+              "displayName": "Team Plasma Grunt20 - Chargestone Cave",
+              "leadLevel": 63,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "303",
+              "displayName": "Team Plasma Grunt24 - Dragonspiral Tower",
+              "leadLevel": 77,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "221",
+              "displayName": "Team Plasma Grunt4 - Relic Castle",
+              "leadLevel": 80,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 6,
+        "averageParticipationPct": 14.3,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 4.5,
+        "topBattles": [
+          {
+            "usageKey": "75",
+            "displayName": "Worker Ryan - Cold Storage",
+            "leadLevel": 53,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "24",
+            "displayName": "Leader Clay",
+            "leadLevel": 56,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "442",
+            "displayName": "Backpacker Peter - Route 16",
+            "leadLevel": 40,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "216",
+            "displayName": "Black Belt Kendrew - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "492",
+            "displayName": "PkMn Trainer Bianca5",
+            "leadLevel": 61,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "66",
+            "displayName": "Rich Boy Cody - Nimbasa City",
+            "leadLevel": 40,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "298",
+            "displayName": "Team Plasma Grunt19 - Chargestone Cave",
+            "leadLevel": 63,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "299",
+            "displayName": "Team Plasma Grunt20 - Chargestone Cave",
+            "leadLevel": 63,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "303",
+            "displayName": "Team Plasma Grunt24 - Dragonspiral Tower",
+            "leadLevel": 77,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "221",
+            "displayName": "Team Plasma Grunt4 - Relic Castle",
+            "leadLevel": 80,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

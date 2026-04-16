@@ -1,0 +1,54 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "igglybuff",
+  "familyMembers": [
+    "Igglybuff",
+    "Jigglypuff",
+    "Wigglytuff"
+  ],
+  "speciesEntries": {
+    "Wigglytuff": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "73",
+              "displayName": "Worker Filipe - Cold Storage",
+              "leadLevel": 52,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 1,
+        "averageParticipationPct": 0.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 0.0,
+        "topBattles": [
+          {
+            "usageKey": "73",
+            "displayName": "Worker Filipe - Cold Storage",
+            "leadLevel": 52,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

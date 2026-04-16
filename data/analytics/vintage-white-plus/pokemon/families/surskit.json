@@ -1,0 +1,234 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "surskit",
+  "familyMembers": [
+    "Masquerain",
+    "Surskit"
+  ],
+  "speciesEntries": {
+    "Masquerain": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 3,
+          "averageParticipationPct": 13.1,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.3,
+          "topBattles": [
+            {
+              "usageKey": "99",
+              "displayName": "Ace Trainer Cheyenne - Route 10",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "244",
+              "displayName": "Ace Trainer Shanta - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "69",
+              "displayName": "Lady Colette",
+              "leadLevel": 42,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "91",
+              "displayName": "PkMn Trainer Cheren8",
+              "leadLevel": 52,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "278",
+              "displayName": "Team Plasma Grunt12",
+              "leadLevel": 55,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "226",
+              "displayName": "Team Plasma Grunt9 - Relic Castle",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "75",
+              "displayName": "Worker Ryan - Cold Storage",
+              "leadLevel": 53,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "90",
+              "displayName": "PkMn Trainer Cheren7",
+              "leadLevel": 54,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            }
+          ]
+        }
+      }
+    },
+    "Surskit": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "214",
+              "displayName": "Battle Girl Chandra - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "212",
+              "displayName": "Battle Girl Miriam - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "216",
+              "displayName": "Black Belt Kendrew - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 3,
+        "averageParticipationPct": 13.1,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.3,
+        "topBattles": [
+          {
+            "usageKey": "99",
+            "displayName": "Ace Trainer Cheyenne - Route 10",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "244",
+            "displayName": "Ace Trainer Shanta - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "69",
+            "displayName": "Lady Colette",
+            "leadLevel": 42,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "24",
+            "displayName": "Leader Clay",
+            "leadLevel": 56,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "91",
+            "displayName": "PkMn Trainer Cheren8",
+            "leadLevel": 52,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "278",
+            "displayName": "Team Plasma Grunt12",
+            "leadLevel": 55,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "226",
+            "displayName": "Team Plasma Grunt9 - Relic Castle",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "75",
+            "displayName": "Worker Ryan - Cold Storage",
+            "leadLevel": 53,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "90",
+            "displayName": "PkMn Trainer Cheren7",
+            "leadLevel": 54,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "89",
+            "displayName": "Team Plasma N",
+            "leadLevel": 42,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          }
+        ]
+      }
+    }
+  }
+}

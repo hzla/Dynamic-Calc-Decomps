@@ -1,0 +1,197 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "chinchou",
+  "familyMembers": [
+    "Chinchou",
+    "Lanturn"
+  ],
+  "speciesEntries": {
+    "Lanturn": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 4,
+          "averageParticipationPct": 29.2,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.8,
+          "topBattles": [
+            {
+              "usageKey": "73",
+              "displayName": "Worker Filipe - Cold Storage",
+              "leadLevel": 52,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "265",
+              "displayName": "Ace Trainer Olwen - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "407",
+              "displayName": "Champion Alder",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "243",
+              "displayName": "Hiker Terrell - Twist Mountain",
+              "leadLevel": 65,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "163",
+              "displayName": "Parasol Lady Melita - Route 8",
+              "leadLevel": 68,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "539",
+              "displayName": "PkMn Trainer Cheren16",
+              "leadLevel": 68,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "540",
+              "displayName": "PkMn Trainer Cheren17",
+              "leadLevel": 68,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "447",
+              "displayName": "Swimmer F Caroline - Route 17",
+              "leadLevel": 67,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "74",
+              "displayName": "Worker Glenn - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 4,
+        "averageParticipationPct": 29.2,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.8,
+        "topBattles": [
+          {
+            "usageKey": "73",
+            "displayName": "Worker Filipe - Cold Storage",
+            "leadLevel": 52,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Ace Trainer Olwen - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "407",
+            "displayName": "Champion Alder",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "243",
+            "displayName": "Hiker Terrell - Twist Mountain",
+            "leadLevel": 65,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "163",
+            "displayName": "Parasol Lady Melita - Route 8",
+            "leadLevel": 68,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "539",
+            "displayName": "PkMn Trainer Cheren16",
+            "leadLevel": 68,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "540",
+            "displayName": "PkMn Trainer Cheren17",
+            "leadLevel": 68,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "447",
+            "displayName": "Swimmer F Caroline - Route 17",
+            "leadLevel": 67,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "74",
+            "displayName": "Worker Glenn - Cold Storage",
+            "leadLevel": 51,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

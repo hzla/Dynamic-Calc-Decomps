@@ -1,0 +1,197 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "omanyte",
+  "familyMembers": [
+    "Omanyte",
+    "Omastar"
+  ],
+  "speciesEntries": {
+    "Omastar": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 10,
+          "averageParticipationPct": 36.3,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.5,
+          "topBattles": [
+            {
+              "usageKey": "90",
+              "displayName": "PkMn Trainer Cheren7",
+              "leadLevel": 54,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "493",
+              "displayName": "PkMn Trainer Bianca6",
+              "leadLevel": 60,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "279",
+              "displayName": "Team Plasma Grunt13",
+              "leadLevel": 41,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "153",
+              "displayName": "Backpacker Jerome - Route 4",
+              "leadLevel": 38,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "73",
+              "displayName": "Worker Filipe - Cold Storage",
+              "leadLevel": 52,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "243",
+              "displayName": "Hiker Terrell - Twist Mountain",
+              "leadLevel": 65,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Pilot Chase - Mistralton City",
+              "leadLevel": 62,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "257",
+              "displayName": "Scientist Ron - Route 6",
+              "leadLevel": 51,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "302",
+              "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
+              "leadLevel": 78,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 10,
+        "averageParticipationPct": 36.3,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.5,
+        "topBattles": [
+          {
+            "usageKey": "90",
+            "displayName": "PkMn Trainer Cheren7",
+            "leadLevel": 54,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "89",
+            "displayName": "Team Plasma N",
+            "leadLevel": 42,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "493",
+            "displayName": "PkMn Trainer Bianca6",
+            "leadLevel": 60,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "279",
+            "displayName": "Team Plasma Grunt13",
+            "leadLevel": 41,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "153",
+            "displayName": "Backpacker Jerome - Route 4",
+            "leadLevel": 38,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "73",
+            "displayName": "Worker Filipe - Cold Storage",
+            "leadLevel": 52,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "243",
+            "displayName": "Hiker Terrell - Twist Mountain",
+            "leadLevel": 65,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "71",
+            "displayName": "Pilot Chase - Mistralton City",
+            "leadLevel": 62,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "257",
+            "displayName": "Scientist Ron - Route 6",
+            "leadLevel": 51,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "302",
+            "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
+            "leadLevel": 78,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

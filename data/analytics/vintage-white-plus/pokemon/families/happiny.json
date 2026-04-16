@@ -1,0 +1,198 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "happiny",
+  "familyMembers": [
+    "Blissey",
+    "Chansey",
+    "Happiny"
+  ],
+  "speciesEntries": {
+    "Blissey": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 41.7,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 5.0,
+          "topBattles": [
+            {
+              "usageKey": "159",
+              "displayName": "Battle Girl Sharon - Twist Mountain",
+              "leadLevel": 68,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "217",
+              "displayName": "Black Belt Thomas - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "131",
+              "displayName": "Leader Brycen",
+              "leadLevel": 74,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "38",
+              "displayName": "Worker Cairn - Twist Mountain",
+              "leadLevel": 68,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "124",
+              "displayName": "Worker Heath - Twist Mountain",
+              "leadLevel": 68,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "213",
+              "displayName": "Battle Girl Mikiko - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "110",
+              "displayName": "Black Belt Teppei - Twist Mountain",
+              "leadLevel": 68,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "256",
+              "displayName": "Hiker Clarke - Mistralton Cave",
+              "leadLevel": 67,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "255",
+              "displayName": "Hiker Hugh - Mistralton Cave",
+              "leadLevel": 67,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "195",
+              "displayName": "Hiker Neil - Twist Mountain",
+              "leadLevel": 68,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 1,
+        "averageParticipationPct": 41.7,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 5.0,
+        "topBattles": [
+          {
+            "usageKey": "159",
+            "displayName": "Battle Girl Sharon - Twist Mountain",
+            "leadLevel": 68,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "217",
+            "displayName": "Black Belt Thomas - Icirrus City",
+            "leadLevel": 72,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "131",
+            "displayName": "Leader Brycen",
+            "leadLevel": 74,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "38",
+            "displayName": "Worker Cairn - Twist Mountain",
+            "leadLevel": 68,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "124",
+            "displayName": "Worker Heath - Twist Mountain",
+            "leadLevel": 68,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "213",
+            "displayName": "Battle Girl Mikiko - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "110",
+            "displayName": "Black Belt Teppei - Twist Mountain",
+            "leadLevel": 68,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "256",
+            "displayName": "Hiker Clarke - Mistralton Cave",
+            "leadLevel": 67,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "255",
+            "displayName": "Hiker Hugh - Mistralton Cave",
+            "leadLevel": 67,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "195",
+            "displayName": "Hiker Neil - Twist Mountain",
+            "leadLevel": 68,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

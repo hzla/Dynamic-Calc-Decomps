@@ -1,0 +1,290 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "mantyke",
+  "familyMembers": [
+    "Mantine",
+    "Mantyke"
+  ],
+  "speciesEntries": {
+    "Mantine": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 5,
+          "averageParticipationPct": 33.9,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 5.2,
+          "topBattles": [
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "232",
+              "displayName": "Team Plasma Ghetsis",
+              "leadLevel": 100,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "213",
+              "displayName": "Battle Girl Mikiko - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "159",
+              "displayName": "Battle Girl Sharon - Twist Mountain",
+              "leadLevel": 68,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "255",
+              "displayName": "Hiker Hugh - Mistralton Cave",
+              "leadLevel": 67,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "507",
+              "displayName": "PkMn Trainer Bianca13",
+              "leadLevel": 36,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "403",
+              "displayName": "PkMn Trainer Cheren13",
+              "leadLevel": 37,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "58",
+              "displayName": "PkMn Trainer Cheren6",
+              "leadLevel": 17,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Mantyke": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "214",
+              "displayName": "Battle Girl Chandra - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "212",
+              "displayName": "Battle Girl Miriam - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "216",
+              "displayName": "Black Belt Kendrew - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "507",
+              "displayName": "PkMn Trainer Bianca13",
+              "leadLevel": 36,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "90",
+              "displayName": "PkMn Trainer Cheren7",
+              "leadLevel": 54,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "552",
+              "displayName": "Team Plasma Grunt35",
+              "leadLevel": 32,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 5,
+        "averageParticipationPct": 33.9,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 5.2,
+        "topBattles": [
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "232",
+            "displayName": "Team Plasma Ghetsis",
+            "leadLevel": 100,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "213",
+            "displayName": "Battle Girl Mikiko - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "159",
+            "displayName": "Battle Girl Sharon - Twist Mountain",
+            "leadLevel": 68,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "198",
+            "displayName": "Harlequin Louis - Castelia City",
+            "leadLevel": 34,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "255",
+            "displayName": "Hiker Hugh - Mistralton Cave",
+            "leadLevel": 67,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "507",
+            "displayName": "PkMn Trainer Bianca13",
+            "leadLevel": 36,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "403",
+            "displayName": "PkMn Trainer Cheren13",
+            "leadLevel": 37,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "58",
+            "displayName": "PkMn Trainer Cheren6",
+            "leadLevel": 17,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "voltorb",
+  "familyMembers": [
+    "Electrode",
+    "Voltorb"
+  ],
+  "speciesEntries": {
+    "Electrode": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 15,
+          "averageParticipationPct": 40.8,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 7.0,
+          "topBattles": [
+            {
+              "usageKey": "212",
+              "displayName": "Battle Girl Miriam - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "72",
+              "displayName": "Worker Victor - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 4,
+              "ownedCount": 5,
+              "participationPct": 80
+            },
+            {
+              "usageKey": "25",
+              "displayName": "Leader Skyla",
+              "leadLevel": 65,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "105",
+              "displayName": "Ace Trainer Jared - Chargestone Cave",
+              "leadLevel": 61,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "231",
+              "displayName": "Elite Four Caitlin",
+              "leadLevel": 100,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "229",
+              "displayName": "Elite Four Marshal",
+              "leadLevel": 100,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "228",
+              "displayName": "Elite Four Shauntal",
+              "leadLevel": 100,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "117",
+              "displayName": "Scientist Naoko - Chargestone Cave",
+              "leadLevel": 62,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 3,
+              "ownedCount": 6,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "218",
+              "displayName": "Team Plasma N2",
+              "leadLevel": 63,
+              "partyCount": 3,
+              "ownedCount": 7,
+              "participationPct": 43
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 15,
+        "averageParticipationPct": 40.8,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 7.0,
+        "topBattles": [
+          {
+            "usageKey": "212",
+            "displayName": "Battle Girl Miriam - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "72",
+            "displayName": "Worker Victor - Cold Storage",
+            "leadLevel": 51,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "25",
+            "displayName": "Leader Skyla",
+            "leadLevel": 65,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "105",
+            "displayName": "Ace Trainer Jared - Chargestone Cave",
+            "leadLevel": 61,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "231",
+            "displayName": "Elite Four Caitlin",
+            "leadLevel": 100,
+            "partyCount": 3,
+            "ownedCount": 5,
+            "participationPct": 60
+          },
+          {
+            "usageKey": "229",
+            "displayName": "Elite Four Marshal",
+            "leadLevel": 100,
+            "partyCount": 3,
+            "ownedCount": 5,
+            "participationPct": 60
+          },
+          {
+            "usageKey": "228",
+            "displayName": "Elite Four Shauntal",
+            "leadLevel": 100,
+            "partyCount": 3,
+            "ownedCount": 5,
+            "participationPct": 60
+          },
+          {
+            "usageKey": "117",
+            "displayName": "Scientist Naoko - Chargestone Cave",
+            "leadLevel": 62,
+            "partyCount": 3,
+            "ownedCount": 5,
+            "participationPct": 60
+          },
+          {
+            "usageKey": "215",
+            "displayName": "Black Belt Grant - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 3,
+            "ownedCount": 6,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "218",
+            "displayName": "Team Plasma N2",
+            "leadLevel": 63,
+            "partyCount": 3,
+            "ownedCount": 7,
+            "participationPct": 43
+          }
+        ]
+      }
+    }
+  }
+}

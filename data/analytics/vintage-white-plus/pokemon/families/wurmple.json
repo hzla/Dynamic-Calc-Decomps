@@ -1,0 +1,293 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "wurmple",
+  "familyMembers": [
+    "Beautifly",
+    "Cascoon",
+    "Dustox",
+    "Silcoon",
+    "Wurmple"
+  ],
+  "speciesEntries": {
+    "Beautifly": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 11,
+          "averageParticipationPct": 57.6,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.8,
+          "topBattles": [
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "9",
+              "displayName": "Waiter Maxwell - Striaton City",
+              "leadLevel": 13,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 3,
+              "ownedCount": 7,
+              "participationPct": 43
+            },
+            {
+              "usageKey": "11",
+              "displayName": "Leader Chili",
+              "leadLevel": 14,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "12",
+              "displayName": "Leader Cilan",
+              "leadLevel": 14,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "10",
+              "displayName": "Waitress Tia - Striaton City",
+              "leadLevel": 11,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "47",
+              "displayName": "Dancer Brian - Route 5",
+              "leadLevel": 40,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Dustox": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 23,
+          "averageParticipationPct": 66.9,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.7,
+          "topBattles": [
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 12,
+              "ownedCount": 13,
+              "participationPct": 92
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 8,
+              "ownedCount": 9,
+              "participationPct": 89
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 6,
+              "ownedCount": 8,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 5,
+              "ownedCount": 6,
+              "participationPct": 83
+            },
+            {
+              "usageKey": "32",
+              "displayName": "Twins Mayo & May - Pinwheel Forest",
+              "leadLevel": 31,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "309",
+              "displayName": "Team Plasma Grunt30",
+              "leadLevel": 31,
+              "partyCount": 4,
+              "ownedCount": 5,
+              "participationPct": 80
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "292",
+              "displayName": "School Kid Gina - Route 3",
+              "leadLevel": 21,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "296",
+              "displayName": "Team Plasma Grunt17",
+              "leadLevel": 32,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "12",
+              "displayName": "Leader Cilan",
+              "leadLevel": 14,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 31,
+        "averageParticipationPct": 65.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.8,
+        "topBattles": [
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 15,
+            "ownedCount": 16,
+            "participationPct": 94
+          },
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 11,
+            "ownedCount": 16,
+            "participationPct": 69
+          },
+          {
+            "usageKey": "295",
+            "displayName": "Team Plasma Grunt16",
+            "leadLevel": 31,
+            "partyCount": 7,
+            "ownedCount": 8,
+            "participationPct": 88
+          },
+          {
+            "usageKey": "86",
+            "displayName": "School Kid Carter - Nacrene City",
+            "leadLevel": 23,
+            "partyCount": 7,
+            "ownedCount": 9,
+            "participationPct": 78
+          },
+          {
+            "usageKey": "87",
+            "displayName": "School Kid Lydia",
+            "leadLevel": 24,
+            "partyCount": 6,
+            "ownedCount": 9,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "12",
+            "displayName": "Leader Cilan",
+            "leadLevel": 14,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "292",
+            "displayName": "School Kid Gina - Route 3",
+            "leadLevel": 21,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "32",
+            "displayName": "Twins Mayo & May - Pinwheel Forest",
+            "leadLevel": 31,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "309",
+            "displayName": "Team Plasma Grunt30",
+            "leadLevel": 31,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "296",
+            "displayName": "Team Plasma Grunt17",
+            "leadLevel": 32,
+            "partyCount": 4,
+            "ownedCount": 7,
+            "participationPct": 57
+          }
+        ]
+      }
+    }
+  }
+}

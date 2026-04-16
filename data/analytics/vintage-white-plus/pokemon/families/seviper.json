@@ -1,0 +1,84 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "seviper",
+  "familyMembers": [
+    "Seviper"
+  ],
+  "speciesEntries": {
+    "Seviper": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 2,
+          "averageParticipationPct": 50.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.5,
+          "topBattles": [
+            {
+              "usageKey": "72",
+              "displayName": "Worker Victor - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "407",
+              "displayName": "Champion Alder",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "567",
+              "displayName": "PkMn Trainer Cynthia",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 2,
+        "averageParticipationPct": 50.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 0.5,
+        "topBattles": [
+          {
+            "usageKey": "72",
+            "displayName": "Worker Victor - Cold Storage",
+            "leadLevel": 51,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "407",
+            "displayName": "Champion Alder",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "567",
+            "displayName": "PkMn Trainer Cynthia",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

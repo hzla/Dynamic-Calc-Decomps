@@ -1,0 +1,133 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "sunkern",
+  "familyMembers": [
+    "Sunflora",
+    "Sunkern"
+  ],
+  "speciesEntries": {
+    "Sunflora": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 2,
+          "averageParticipationPct": 90.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.5,
+          "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Ace Trainer Clara - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "271",
+              "displayName": "Ace Trainer Jose - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "292",
+              "displayName": "School Kid Gina - Route 3",
+              "leadLevel": 21,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "274",
+              "displayName": "Veteran Hugo",
+              "leadLevel": 83,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "275",
+              "displayName": "Veteran Kim - Opelucid City",
+              "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "132",
+              "displayName": "Leader Iris",
+              "leadLevel": 86,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 2,
+        "averageParticipationPct": 90.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 2.5,
+        "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Ace Trainer Clara - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "271",
+            "displayName": "Ace Trainer Jose - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "292",
+            "displayName": "School Kid Gina - Route 3",
+            "leadLevel": 21,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "274",
+            "displayName": "Veteran Hugo",
+            "leadLevel": 83,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "275",
+            "displayName": "Veteran Kim - Opelucid City",
+            "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "132",
+            "displayName": "Leader Iris",
+            "leadLevel": 86,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

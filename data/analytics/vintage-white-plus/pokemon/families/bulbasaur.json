@@ -1,0 +1,276 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "bulbasaur",
+  "familyMembers": [
+    "Bulbasaur",
+    "Ivysaur",
+    "Venusaur",
+    "Venusaur-Mega"
+  ],
+  "speciesEntries": {
+    "Ivysaur": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 4,
+          "averageParticipationPct": 60.4,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.8,
+          "topBattles": [
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "28",
+              "displayName": "PkMn Ranger Miguel - Pinwheel Forest",
+              "leadLevel": 32,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "296",
+              "displayName": "Team Plasma Grunt17",
+              "leadLevel": 32,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "297",
+              "displayName": "Team Plasma Grunt18",
+              "leadLevel": 33,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "552",
+              "displayName": "Team Plasma Grunt35",
+              "leadLevel": 32,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Venusaur": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 5,
+          "averageParticipationPct": 62.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 9.4,
+          "topBattles": [
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "296",
+              "displayName": "Team Plasma Grunt17",
+              "leadLevel": 32,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "201",
+              "displayName": "Worker Felix - Driftveil City",
+              "leadLevel": 53,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "246",
+              "displayName": "Ace Trainer Dwayne - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "265",
+              "displayName": "Ace Trainer Olwen - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "244",
+              "displayName": "Ace Trainer Shanta - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "47",
+              "displayName": "Dancer Brian - Route 5",
+              "leadLevel": 40,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "231",
+              "displayName": "Elite Four Caitlin",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "256",
+              "displayName": "Hiker Clarke - Mistralton Cave",
+              "leadLevel": 67,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "255",
+              "displayName": "Hiker Hugh - Mistralton Cave",
+              "leadLevel": 67,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 7,
+        "averageParticipationPct": 63.5,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 7.7,
+        "topBattles": [
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "87",
+            "displayName": "School Kid Lydia",
+            "leadLevel": 24,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "296",
+            "displayName": "Team Plasma Grunt17",
+            "leadLevel": 32,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "201",
+            "displayName": "Worker Felix - Driftveil City",
+            "leadLevel": 53,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "246",
+            "displayName": "Ace Trainer Dwayne - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Ace Trainer Olwen - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "244",
+            "displayName": "Ace Trainer Shanta - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "47",
+            "displayName": "Dancer Brian - Route 5",
+            "leadLevel": 40,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

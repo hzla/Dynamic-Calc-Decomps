@@ -1,0 +1,290 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "taillow",
+  "familyMembers": [
+    "Swellow",
+    "Taillow"
+  ],
+  "speciesEntries": {
+    "Swellow": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 7,
+          "averageParticipationPct": 75.4,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.3,
+          "topBattles": [
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "509",
+              "displayName": "PkMn Trainer Bianca15",
+              "leadLevel": 35,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "403",
+              "displayName": "PkMn Trainer Cheren13",
+              "leadLevel": 37,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "405",
+              "displayName": "PkMn Trainer Cheren15",
+              "leadLevel": 36,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "57",
+              "displayName": "PkMn Trainer Cheren5",
+              "leadLevel": 18,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "58",
+              "displayName": "PkMn Trainer Cheren6",
+              "leadLevel": 17,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Taillow": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 6,
+          "averageParticipationPct": 11.3,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.8,
+          "topBattles": [
+            {
+              "usageKey": "11",
+              "displayName": "Leader Chili",
+              "leadLevel": 14,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "13",
+              "displayName": "Leader Cress",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "9",
+              "displayName": "Waiter Maxwell - Striaton City",
+              "leadLevel": 13,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "10",
+              "displayName": "Waitress Tia - Striaton City",
+              "leadLevel": 11,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "104",
+              "displayName": "Ace Trainer Corky - Chargestone Cave",
+              "leadLevel": 64,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "95",
+              "displayName": "Clerk F Katie - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "68",
+              "displayName": "Lady Magnolia - Nimbasa City",
+              "leadLevel": 40,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 8,
+        "averageParticipationPct": 66.8,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.5,
+        "topBattles": [
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 3,
+            "ownedCount": 5,
+            "participationPct": 60
+          },
+          {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "87",
+            "displayName": "School Kid Lydia",
+            "leadLevel": 24,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "13",
+            "displayName": "Leader Cress",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "509",
+            "displayName": "PkMn Trainer Bianca15",
+            "leadLevel": 35,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "403",
+            "displayName": "PkMn Trainer Cheren13",
+            "leadLevel": 37,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "404",
+            "displayName": "PkMn Trainer Cheren14",
+            "leadLevel": 36,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "405",
+            "displayName": "PkMn Trainer Cheren15",
+            "leadLevel": 36,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

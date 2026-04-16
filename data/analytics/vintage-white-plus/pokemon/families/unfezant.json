@@ -1,0 +1,52 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "unfezant",
+  "familyMembers": [
+    "Unfezant"
+  ],
+  "speciesEntries": {
+    "Unfezant": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "567",
+              "displayName": "PkMn Trainer Cynthia",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 1,
+        "averageParticipationPct": 100.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 1.0,
+        "topBattles": [
+          {
+            "usageKey": "567",
+            "displayName": "PkMn Trainer Cynthia",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

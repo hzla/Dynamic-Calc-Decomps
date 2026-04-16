@@ -1,0 +1,196 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "zangoose",
+  "familyMembers": [
+    "Zangoose"
+  ],
+  "speciesEntries": {
+    "Zangoose": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 3,
+          "averageParticipationPct": 16.1,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.0,
+          "topBattles": [
+            {
+              "usageKey": "299",
+              "displayName": "Team Plasma Grunt20 - Chargestone Cave",
+              "leadLevel": 63,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "493",
+              "displayName": "PkMn Trainer Bianca6",
+              "leadLevel": 60,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "310",
+              "displayName": "Team Plasma Grunt31 - Chargestone Cave",
+              "leadLevel": 63,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "73",
+              "displayName": "Worker Filipe - Cold Storage",
+              "leadLevel": 52,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "104",
+              "displayName": "Ace Trainer Corky - Chargestone Cave",
+              "leadLevel": 64,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "606",
+              "displayName": "Ace Trainer Elmer - Route 7",
+              "leadLevel": 59,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "95",
+              "displayName": "Clerk F Katie - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 3,
+        "averageParticipationPct": 16.1,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 2.0,
+        "topBattles": [
+          {
+            "usageKey": "299",
+            "displayName": "Team Plasma Grunt20 - Chargestone Cave",
+            "leadLevel": 63,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "493",
+            "displayName": "PkMn Trainer Bianca6",
+            "leadLevel": 60,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "310",
+            "displayName": "Team Plasma Grunt31 - Chargestone Cave",
+            "leadLevel": 63,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "89",
+            "displayName": "Team Plasma N",
+            "leadLevel": 42,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "73",
+            "displayName": "Worker Filipe - Cold Storage",
+            "leadLevel": 52,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "104",
+            "displayName": "Ace Trainer Corky - Chargestone Cave",
+            "leadLevel": 64,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "606",
+            "displayName": "Ace Trainer Elmer - Route 7",
+            "leadLevel": 59,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "95",
+            "displayName": "Clerk F Katie - Driftveil City",
+            "leadLevel": 54,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "24",
+            "displayName": "Leader Clay",
+            "leadLevel": 56,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "poochyena",
+  "familyMembers": [
+    "Mightyena",
+    "Poochyena"
+  ],
+  "speciesEntries": {
+    "Mightyena": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 12,
+          "averageParticipationPct": 68.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.7,
+          "topBattles": [
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 7,
+              "ownedCount": 6,
+              "participationPct": 117
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 5,
+              "ownedCount": 6,
+              "participationPct": 83
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "75",
+              "displayName": "Worker Ryan - Cold Storage",
+              "leadLevel": 53,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "491",
+              "displayName": "PkMn Trainer Bianca4",
+              "leadLevel": 62,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "57",
+              "displayName": "PkMn Trainer Cheren5",
+              "leadLevel": 18,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "292",
+              "displayName": "School Kid Gina - Route 3",
+              "leadLevel": 21,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "257",
+              "displayName": "Scientist Ron - Route 6",
+              "leadLevel": 51,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "88",
+              "displayName": "Scientist Satomi",
+              "leadLevel": 23,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Poochyena": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 7,
+          "averageParticipationPct": 78.6,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.3,
+          "topBattles": [
+            {
+              "usageKey": "13",
+              "displayName": "Leader Cress",
+              "leadLevel": 14,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "12",
+              "displayName": "Leader Cilan",
+              "leadLevel": 14,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "11",
+              "displayName": "Leader Chili",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "9",
+              "displayName": "Waiter Maxwell - Striaton City",
+              "leadLevel": 13,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "10",
+              "displayName": "Waitress Tia - Striaton City",
+              "leadLevel": 11,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "294",
+              "displayName": "Team Plasma Grunt15",
+              "leadLevel": 19,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 15,
+        "averageParticipationPct": 81.7,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.6,
+        "topBattles": [
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 7,
+            "ownedCount": 6,
+            "participationPct": 117
+          },
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 7,
+            "participationPct": 86
+          },
+          {
+            "usageKey": "12",
+            "displayName": "Leader Cilan",
+            "leadLevel": 14,
+            "partyCount": 3,
+            "ownedCount": 2,
+            "participationPct": 150
+          },
+          {
+            "usageKey": "13",
+            "displayName": "Leader Cress",
+            "leadLevel": 14,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "87",
+            "displayName": "School Kid Lydia",
+            "leadLevel": 24,
+            "partyCount": 3,
+            "ownedCount": 5,
+            "participationPct": 60
+          },
+          {
+            "usageKey": "86",
+            "displayName": "School Kid Carter - Nacrene City",
+            "leadLevel": 23,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "75",
+            "displayName": "Worker Ryan - Cold Storage",
+            "leadLevel": 53,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "491",
+            "displayName": "PkMn Trainer Bianca4",
+            "leadLevel": 62,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "57",
+            "displayName": "PkMn Trainer Cheren5",
+            "leadLevel": 18,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

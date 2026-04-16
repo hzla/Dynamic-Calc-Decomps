@@ -1,0 +1,196 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "plusle",
+  "familyMembers": [
+    "Plusle"
+  ],
+  "speciesEntries": {
+    "Plusle": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 2,
+          "averageParticipationPct": 36.1,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.5,
+          "topBattles": [
+            {
+              "usageKey": "491",
+              "displayName": "PkMn Trainer Bianca4",
+              "leadLevel": 62,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "76",
+              "displayName": "Worker Patton - Cold Storage",
+              "leadLevel": 53,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "75",
+              "displayName": "Worker Ryan - Cold Storage",
+              "leadLevel": 53,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "606",
+              "displayName": "Ace Trainer Elmer - Route 7",
+              "leadLevel": 59,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "105",
+              "displayName": "Ace Trainer Jared - Chargestone Cave",
+              "leadLevel": 61,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "264",
+              "displayName": "Ace Trainer Kassandra - Celestial Tower",
+              "leadLevel": 61,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "69",
+              "displayName": "Lady Colette",
+              "leadLevel": 42,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 2,
+        "averageParticipationPct": 36.1,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 2.5,
+        "topBattles": [
+          {
+            "usageKey": "491",
+            "displayName": "PkMn Trainer Bianca4",
+            "leadLevel": 62,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "404",
+            "displayName": "PkMn Trainer Cheren14",
+            "leadLevel": 36,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "89",
+            "displayName": "Team Plasma N",
+            "leadLevel": 42,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "76",
+            "displayName": "Worker Patton - Cold Storage",
+            "leadLevel": 53,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "75",
+            "displayName": "Worker Ryan - Cold Storage",
+            "leadLevel": 53,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "606",
+            "displayName": "Ace Trainer Elmer - Route 7",
+            "leadLevel": 59,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "105",
+            "displayName": "Ace Trainer Jared - Chargestone Cave",
+            "leadLevel": 61,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "264",
+            "displayName": "Ace Trainer Kassandra - Celestial Tower",
+            "leadLevel": 61,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "69",
+            "displayName": "Lady Colette",
+            "leadLevel": 42,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

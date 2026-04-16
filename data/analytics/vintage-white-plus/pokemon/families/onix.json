@@ -1,0 +1,291 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "onix",
+  "familyMembers": [
+    "Onix",
+    "Steelix",
+    "Steelix-Mega"
+  ],
+  "speciesEntries": {
+    "Onix": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 8,
+          "averageParticipationPct": 53.1,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.9,
+          "topBattles": [
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "292",
+              "displayName": "School Kid Gina - Route 3",
+              "leadLevel": 21,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "230",
+              "displayName": "Elite Four Grimsley",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "229",
+              "displayName": "Elite Four Marshal",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "29",
+              "displayName": "PkMn Ranger Audra - Pinwheel Forest",
+              "leadLevel": 30,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "296",
+              "displayName": "Team Plasma Grunt17",
+              "leadLevel": 32,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "309",
+              "displayName": "Team Plasma Grunt30",
+              "leadLevel": 31,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Steelix": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 6,
+          "averageParticipationPct": 58.7,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 4.0,
+          "topBattles": [
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 4,
+              "ownedCount": 5,
+              "participationPct": 80
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "212",
+              "displayName": "Battle Girl Miriam - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "216",
+              "displayName": "Black Belt Kendrew - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "69",
+              "displayName": "Lady Colette",
+              "leadLevel": 42,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Lass Eva - Pinwheel Forest",
+              "leadLevel": 29,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "233",
+              "displayName": "Psychic Low - Desert Resort",
+              "leadLevel": 39,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 10,
+        "averageParticipationPct": 51.1,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.9,
+        "topBattles": [
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "295",
+            "displayName": "Team Plasma Grunt16",
+            "leadLevel": 31,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "296",
+            "displayName": "Team Plasma Grunt17",
+            "leadLevel": 32,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "292",
+            "displayName": "School Kid Gina - Route 3",
+            "leadLevel": 21,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "212",
+            "displayName": "Battle Girl Miriam - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "215",
+            "displayName": "Black Belt Grant - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "216",
+            "displayName": "Black Belt Kendrew - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "69",
+            "displayName": "Lady Colette",
+            "leadLevel": 42,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

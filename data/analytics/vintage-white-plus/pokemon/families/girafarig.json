@@ -1,0 +1,181 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "girafarig",
+  "familyMembers": [
+    "Farigiraf",
+    "Girafarig"
+  ],
+  "speciesEntries": {
+    "Girafarig": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 3,
+          "averageParticipationPct": 23.8,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.7,
+          "topBattles": [
+            {
+              "usageKey": "196",
+              "displayName": "Harlequin Jack - Castelia City",
+              "leadLevel": 32,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "29",
+              "displayName": "PkMn Ranger Audra - Pinwheel Forest",
+              "leadLevel": 30,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "32",
+              "displayName": "Twins Mayo & May - Pinwheel Forest",
+              "leadLevel": 31,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "90",
+              "displayName": "PkMn Trainer Cheren7",
+              "leadLevel": 54,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "75",
+              "displayName": "Worker Ryan - Cold Storage",
+              "leadLevel": 53,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 3,
+        "averageParticipationPct": 23.8,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 1.7,
+        "topBattles": [
+          {
+            "usageKey": "196",
+            "displayName": "Harlequin Jack - Castelia City",
+            "leadLevel": 32,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "198",
+            "displayName": "Harlequin Louis - Castelia City",
+            "leadLevel": 34,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "29",
+            "displayName": "PkMn Ranger Audra - Pinwheel Forest",
+            "leadLevel": 30,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "32",
+            "displayName": "Twins Mayo & May - Pinwheel Forest",
+            "leadLevel": 31,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "24",
+            "displayName": "Leader Clay",
+            "leadLevel": 56,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "404",
+            "displayName": "PkMn Trainer Cheren14",
+            "leadLevel": 36,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "90",
+            "displayName": "PkMn Trainer Cheren7",
+            "leadLevel": 54,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "75",
+            "displayName": "Worker Ryan - Cold Storage",
+            "leadLevel": 53,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

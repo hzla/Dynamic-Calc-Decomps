@@ -1,0 +1,470 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "tyrogue",
+  "familyMembers": [
+    "Hitmonchan",
+    "Hitmonlee",
+    "Hitmontop",
+    "Tyrogue"
+  ],
+  "speciesEntries": {
+    "Hitmonchan": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 6,
+          "averageParticipationPct": 54.9,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.7,
+          "topBattles": [
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "552",
+              "displayName": "Team Plasma Grunt35",
+              "leadLevel": 32,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Lass Eva - Pinwheel Forest",
+              "leadLevel": 29,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "135",
+              "displayName": "Roughneck Reese - Route 9",
+              "leadLevel": 79,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Hitmonlee": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 7,
+          "averageParticipationPct": 80.3,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.7,
+          "topBattles": [
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "243",
+              "displayName": "Hiker Terrell - Twist Mountain",
+              "leadLevel": 65,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "403",
+              "displayName": "PkMn Trainer Cheren13",
+              "leadLevel": 37,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "88",
+              "displayName": "Scientist Satomi",
+              "leadLevel": 23,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "296",
+              "displayName": "Team Plasma Grunt17",
+              "leadLevel": 32,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "309",
+              "displayName": "Team Plasma Grunt30",
+              "leadLevel": 31,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Hitmontop": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 29,
+          "averageParticipationPct": 67.9,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 7.6,
+          "topBattles": [
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 19,
+              "participationPct": 95
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 16,
+              "ownedCount": 18,
+              "participationPct": 89
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 13,
+              "ownedCount": 14,
+              "participationPct": 93
+            },
+            {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 10,
+              "ownedCount": 10,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 9,
+              "ownedCount": 11,
+              "participationPct": 82
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 7,
+              "ownedCount": 7,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "32",
+              "displayName": "Twins Mayo & May - Pinwheel Forest",
+              "leadLevel": 31,
+              "partyCount": 7,
+              "ownedCount": 8,
+              "participationPct": 88
+            },
+            {
+              "usageKey": "309",
+              "displayName": "Team Plasma Grunt30",
+              "leadLevel": 31,
+              "partyCount": 6,
+              "ownedCount": 7,
+              "participationPct": 86
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 6,
+              "ownedCount": 13,
+              "participationPct": 46
+            },
+            {
+              "usageKey": "297",
+              "displayName": "Team Plasma Grunt18",
+              "leadLevel": 33,
+              "partyCount": 5,
+              "ownedCount": 6,
+              "participationPct": 83
+            }
+          ]
+        }
+      }
+    },
+    "Tyrogue": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 9,
+          "averageParticipationPct": 3.7,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.1,
+          "topBattles": [
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 1,
+              "ownedCount": 7,
+              "participationPct": 14
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 0,
+              "ownedCount": 4,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 0,
+              "ownedCount": 4,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "88",
+              "displayName": "Scientist Satomi",
+              "leadLevel": 23,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "309",
+              "displayName": "Team Plasma Grunt30",
+              "leadLevel": 31,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "32",
+              "displayName": "Twins Mayo & May - Pinwheel Forest",
+              "leadLevel": 31,
+              "partyCount": 0,
+              "ownedCount": 2,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 40,
+        "averageParticipationPct": 68.1,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 6.5,
+        "topBattles": [
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 22,
+            "ownedCount": 23,
+            "participationPct": 96
+          },
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 21,
+            "ownedCount": 25,
+            "participationPct": 84
+          },
+          {
+            "usageKey": "87",
+            "displayName": "School Kid Lydia",
+            "leadLevel": 24,
+            "partyCount": 15,
+            "ownedCount": 16,
+            "participationPct": 94
+          },
+          {
+            "usageKey": "295",
+            "displayName": "Team Plasma Grunt16",
+            "leadLevel": 31,
+            "partyCount": 11,
+            "ownedCount": 14,
+            "participationPct": 79
+          },
+          {
+            "usageKey": "89",
+            "displayName": "Team Plasma N",
+            "leadLevel": 42,
+            "partyCount": 10,
+            "ownedCount": 11,
+            "participationPct": 91
+          },
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 10,
+            "ownedCount": 19,
+            "participationPct": 53
+          },
+          {
+            "usageKey": "32",
+            "displayName": "Twins Mayo & May - Pinwheel Forest",
+            "leadLevel": 31,
+            "partyCount": 9,
+            "ownedCount": 11,
+            "participationPct": 82
+          },
+          {
+            "usageKey": "86",
+            "displayName": "School Kid Carter - Nacrene City",
+            "leadLevel": 23,
+            "partyCount": 7,
+            "ownedCount": 8,
+            "participationPct": 88
+          },
+          {
+            "usageKey": "309",
+            "displayName": "Team Plasma Grunt30",
+            "leadLevel": 31,
+            "partyCount": 7,
+            "ownedCount": 8,
+            "participationPct": 88
+          },
+          {
+            "usageKey": "552",
+            "displayName": "Team Plasma Grunt35",
+            "leadLevel": 32,
+            "partyCount": 7,
+            "ownedCount": 9,
+            "participationPct": 78
+          }
+        ]
+      }
+    }
+  }
+}

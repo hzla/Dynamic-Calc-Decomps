@@ -1,0 +1,454 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "oddish",
+  "familyMembers": [
+    "Bellossom",
+    "Gloom",
+    "Oddish",
+    "Vileplume"
+  ],
+  "speciesEntries": {
+    "Bellossom": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 50.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 4.0,
+          "topBattles": [
+            {
+              "usageKey": "196",
+              "displayName": "Harlequin Jack - Castelia City",
+              "leadLevel": 32,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "279",
+              "displayName": "Team Plasma Grunt13",
+              "leadLevel": 41,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "552",
+              "displayName": "Team Plasma Grunt35",
+              "leadLevel": 32,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "153",
+              "displayName": "Backpacker Jerome - Route 4",
+              "leadLevel": 38,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Gloom": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 4,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.2,
+          "topBattles": [
+            {
+              "usageKey": "58",
+              "displayName": "PkMn Trainer Cheren6",
+              "leadLevel": 17,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "292",
+              "displayName": "School Kid Gina - Route 3",
+              "leadLevel": 21,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "293",
+              "displayName": "Team Plasma Grunt14",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "18",
+              "displayName": "Twins Kumi & Amy",
+              "leadLevel": 16,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 0,
+              "ownedCount": 2,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "491",
+              "displayName": "PkMn Trainer Bianca4",
+              "leadLevel": 62,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Oddish": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 6,
+          "averageParticipationPct": 50.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "11",
+              "displayName": "Leader Chili",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "13",
+              "displayName": "Leader Cress",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "3",
+              "displayName": "School Kid Al - Route 3",
+              "leadLevel": 20,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "308",
+              "displayName": "Team Plasma Grunt29",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "9",
+              "displayName": "Waiter Maxwell - Striaton City",
+              "leadLevel": 13,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "10",
+              "displayName": "Waitress Tia - Striaton City",
+              "leadLevel": 11,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 0,
+              "ownedCount": 2,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "491",
+              "displayName": "PkMn Trainer Bianca4",
+              "leadLevel": 62,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Vileplume": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 4,
+          "averageParticipationPct": 31.2,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.8,
+          "topBattles": [
+            {
+              "usageKey": "552",
+              "displayName": "Team Plasma Grunt35",
+              "leadLevel": 32,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 1,
+              "ownedCount": 3,
+              "participationPct": 33
+            },
+            {
+              "usageKey": "265",
+              "displayName": "Ace Trainer Olwen - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "228",
+              "displayName": "Elite Four Shauntal",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "196",
+              "displayName": "Harlequin Jack - Castelia City",
+              "leadLevel": 32,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "494",
+              "displayName": "PkMn Trainer Bianca7",
+              "leadLevel": 80,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "120",
+              "displayName": "Psychic Doreen - Celestial Tower",
+              "leadLevel": 59,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "135",
+              "displayName": "Roughneck Reese - Route 9",
+              "leadLevel": 79,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 9,
+        "averageParticipationPct": 47.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 2.0,
+        "topBattles": [
+          {
+            "usageKey": "552",
+            "displayName": "Team Plasma Grunt35",
+            "leadLevel": 32,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "13",
+            "displayName": "Leader Cress",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "58",
+            "displayName": "PkMn Trainer Cheren6",
+            "leadLevel": 17,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "3",
+            "displayName": "School Kid Al - Route 3",
+            "leadLevel": 20,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "292",
+            "displayName": "School Kid Gina - Route 3",
+            "leadLevel": 21,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "279",
+            "displayName": "Team Plasma Grunt13",
+            "leadLevel": 41,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "293",
+            "displayName": "Team Plasma Grunt14",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "295",
+            "displayName": "Team Plasma Grunt16",
+            "leadLevel": 31,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "308",
+            "displayName": "Team Plasma Grunt29",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

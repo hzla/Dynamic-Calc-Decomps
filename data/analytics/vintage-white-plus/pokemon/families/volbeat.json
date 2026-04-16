@@ -1,0 +1,196 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "volbeat",
+  "familyMembers": [
+    "Volbeat"
+  ],
+  "speciesEntries": {
+    "Volbeat": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 8,
+          "averageParticipationPct": 26.4,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 4.0,
+          "topBattles": [
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "297",
+              "displayName": "Team Plasma Grunt18",
+              "leadLevel": 33,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "269",
+              "displayName": "Ace Trainer Beckett - Celestial Tower",
+              "leadLevel": 61,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "264",
+              "displayName": "Ace Trainer Kassandra - Celestial Tower",
+              "leadLevel": 61,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "290",
+              "displayName": "Backpacker Keane - Route 4",
+              "leadLevel": 36,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "155",
+              "displayName": "Backpacker Ruth - Route 7",
+              "leadLevel": 59,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Lass Eva - Pinwheel Forest",
+              "leadLevel": 29,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "508",
+              "displayName": "PkMn Trainer Bianca14",
+              "leadLevel": 36,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 8,
+        "averageParticipationPct": 26.4,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 4.0,
+        "topBattles": [
+          {
+            "usageKey": "404",
+            "displayName": "PkMn Trainer Cheren14",
+            "leadLevel": 36,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "297",
+            "displayName": "Team Plasma Grunt18",
+            "leadLevel": 33,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "269",
+            "displayName": "Ace Trainer Beckett - Celestial Tower",
+            "leadLevel": 61,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "264",
+            "displayName": "Ace Trainer Kassandra - Celestial Tower",
+            "leadLevel": 61,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "290",
+            "displayName": "Backpacker Keane - Route 4",
+            "leadLevel": 36,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "155",
+            "displayName": "Backpacker Ruth - Route 7",
+            "leadLevel": 59,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "198",
+            "displayName": "Harlequin Louis - Castelia City",
+            "leadLevel": 34,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Lass Eva - Pinwheel Forest",
+            "leadLevel": 29,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "508",
+            "displayName": "PkMn Trainer Bianca14",
+            "leadLevel": 36,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

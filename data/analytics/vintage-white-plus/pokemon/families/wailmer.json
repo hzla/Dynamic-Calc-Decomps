@@ -1,0 +1,290 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "wailmer",
+  "familyMembers": [
+    "Wailmer",
+    "Wailord"
+  ],
+  "speciesEntries": {
+    "Wailmer": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 3,
+          "averageParticipationPct": 4.2,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.3,
+          "topBattles": [
+            {
+              "usageKey": "74",
+              "displayName": "Worker Glenn - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "606",
+              "displayName": "Ace Trainer Elmer - Route 7",
+              "leadLevel": 59,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "105",
+              "displayName": "Ace Trainer Jared - Chargestone Cave",
+              "leadLevel": 61,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "407",
+              "displayName": "Champion Alder",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "95",
+              "displayName": "Clerk F Katie - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "25",
+              "displayName": "Leader Skyla",
+              "leadLevel": 65,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "491",
+              "displayName": "PkMn Trainer Bianca4",
+              "leadLevel": 62,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "493",
+              "displayName": "PkMn Trainer Bianca6",
+              "leadLevel": 60,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "567",
+              "displayName": "PkMn Trainer Cynthia",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Wailord": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 8,
+          "averageParticipationPct": 37.2,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.0,
+          "topBattles": [
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "72",
+              "displayName": "Worker Victor - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Lass Eva - Pinwheel Forest",
+              "leadLevel": 29,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "29",
+              "displayName": "PkMn Ranger Audra - Pinwheel Forest",
+              "leadLevel": 30,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "91",
+              "displayName": "PkMn Trainer Cheren8",
+              "leadLevel": 52,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "292",
+              "displayName": "School Kid Gina - Route 3",
+              "leadLevel": 21,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "31",
+              "displayName": "School Kid Millie - Pinwheel Forest",
+              "leadLevel": 29,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "88",
+              "displayName": "Scientist Satomi",
+              "leadLevel": 23,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 9,
+        "averageParticipationPct": 34.3,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 2.8,
+        "topBattles": [
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "72",
+            "displayName": "Worker Victor - Cold Storage",
+            "leadLevel": 51,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Lass Eva - Pinwheel Forest",
+            "leadLevel": 29,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "29",
+            "displayName": "PkMn Ranger Audra - Pinwheel Forest",
+            "leadLevel": 30,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "91",
+            "displayName": "PkMn Trainer Cheren8",
+            "leadLevel": 52,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "292",
+            "displayName": "School Kid Gina - Route 3",
+            "leadLevel": 21,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "87",
+            "displayName": "School Kid Lydia",
+            "leadLevel": 24,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "31",
+            "displayName": "School Kid Millie - Pinwheel Forest",
+            "leadLevel": 29,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "88",
+            "displayName": "Scientist Satomi",
+            "leadLevel": 23,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

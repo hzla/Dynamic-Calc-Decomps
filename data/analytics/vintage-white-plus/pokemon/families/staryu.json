@@ -1,0 +1,290 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "staryu",
+  "familyMembers": [
+    "Starmie",
+    "Staryu"
+  ],
+  "speciesEntries": {
+    "Starmie": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 15,
+          "averageParticipationPct": 57.9,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.4,
+          "topBattles": [
+            {
+              "usageKey": "272",
+              "displayName": "Ace Trainer Tom - Opelucid City",
+              "leadLevel": 83,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Ace Trainer Dara - Opelucid City",
+              "leadLevel": 83,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "306",
+              "displayName": "Team Plasma Grunt27",
+              "leadLevel": 78,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "305",
+              "displayName": "Team Plasma Grunt26",
+              "leadLevel": 77,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "519",
+              "displayName": "Ace Trainer Jordan - Twist Mountain",
+              "leadLevel": 69,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Staryu": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 3,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "99",
+              "displayName": "Ace Trainer Cheyenne - Route 10",
+              "leadLevel": 82,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Ace Trainer Clara - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "247",
+              "displayName": "Ace Trainer David - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "246",
+              "displayName": "Ace Trainer Dwayne - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "244",
+              "displayName": "Ace Trainer Shanta - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "272",
+              "displayName": "Ace Trainer Tom - Opelucid City",
+              "leadLevel": 83,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "248",
+              "displayName": "Black Belt Tyrone - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "132",
+              "displayName": "Leader Iris",
+              "leadLevel": 86,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "588",
+              "displayName": "PkMn Trainer Cheren19",
+              "leadLevel": 98,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 0,
+              "ownedCount": 2,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 15,
+        "averageParticipationPct": 56.8,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 2.4,
+        "topBattles": [
+          {
+            "usageKey": "272",
+            "displayName": "Ace Trainer Tom - Opelucid City",
+            "leadLevel": 83,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 3,
+            "ownedCount": 6,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Ace Trainer Dara - Opelucid City",
+            "leadLevel": 83,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "306",
+            "displayName": "Team Plasma Grunt27",
+            "leadLevel": 78,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "305",
+            "displayName": "Team Plasma Grunt26",
+            "leadLevel": 77,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "519",
+            "displayName": "Ace Trainer Jordan - Twist Mountain",
+            "leadLevel": 69,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "24",
+            "displayName": "Leader Clay",
+            "leadLevel": 56,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "86",
+            "displayName": "School Kid Carter - Nacrene City",
+            "leadLevel": 23,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "295",
+            "displayName": "Team Plasma Grunt16",
+            "leadLevel": 31,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

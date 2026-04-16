@@ -539,6 +539,9 @@ input[type="file"] {
 
 .main-view-tab {
     box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     border: 0;
     background: transparent;
     color: #f1f1f1;
@@ -548,6 +551,7 @@ input[type="file"] {
     font: inherit;
     font-size: 18px;
     line-height: 1;
+    text-decoration: none;
     transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 

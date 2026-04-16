@@ -1,0 +1,70 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "dratini",
+  "familyMembers": [
+    "Dragonair",
+    "Dragonite",
+    "Dratini"
+  ],
+  "speciesEntries": {
+    "Dragonite": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "228",
+              "displayName": "Elite Four Shauntal",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "135",
+              "displayName": "Roughneck Reese - Route 9",
+              "leadLevel": 79,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 1,
+        "averageParticipationPct": 0.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 0.0,
+        "topBattles": [
+          {
+            "usageKey": "228",
+            "displayName": "Elite Four Shauntal",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "135",
+            "displayName": "Roughneck Reese - Route 9",
+            "leadLevel": 79,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

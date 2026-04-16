@@ -1,0 +1,196 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "lunatone",
+  "familyMembers": [
+    "Lunatone"
+  ],
+  "speciesEntries": {
+    "Lunatone": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 2,
+          "averageParticipationPct": 18.8,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 3.0,
+          "topBattles": [
+            {
+              "usageKey": "229",
+              "displayName": "Elite Four Marshal",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "228",
+              "displayName": "Elite Four Shauntal",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "588",
+              "displayName": "PkMn Trainer Cheren19",
+              "leadLevel": 98,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "231",
+              "displayName": "Elite Four Caitlin",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "232",
+              "displayName": "Team Plasma Ghetsis",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "586",
+              "displayName": "Team Plasma N3",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "245",
+              "displayName": "Ace Trainer Cathy - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 2,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "99",
+              "displayName": "Ace Trainer Cheyenne - Route 10",
+              "leadLevel": 82,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "247",
+              "displayName": "Ace Trainer David - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "246",
+              "displayName": "Ace Trainer Dwayne - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 2,
+        "averageParticipationPct": 18.8,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 3.0,
+        "topBattles": [
+          {
+            "usageKey": "229",
+            "displayName": "Elite Four Marshal",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "228",
+            "displayName": "Elite Four Shauntal",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "588",
+            "displayName": "PkMn Trainer Cheren19",
+            "leadLevel": 98,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "231",
+            "displayName": "Elite Four Caitlin",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "232",
+            "displayName": "Team Plasma Ghetsis",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "Team Plasma N3",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "245",
+            "displayName": "Ace Trainer Cathy - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 2,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "99",
+            "displayName": "Ace Trainer Cheyenne - Route 10",
+            "leadLevel": 82,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "247",
+            "displayName": "Ace Trainer David - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "246",
+            "displayName": "Ace Trainer Dwayne - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

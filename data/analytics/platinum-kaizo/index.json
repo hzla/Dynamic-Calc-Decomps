@@ -1,2512 +1,19 @@
 {
   "title": "Platinum Kaizo",
   "slug": "platinum-kaizo",
-  "generatedAt": "2026-04-16T15:36:11.324596Z",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
   "historyLimit": 100,
   "trainerCount": 237,
-  "overview": {
-    "runCount": 708,
-    "importantTrainerBattles": [
-      {
-        "displayName": "Leader Roark",
-        "sourceDisplayName": "Leader Roark",
-        "usageKey": "246",
-        "trId": 246,
-        "leadLevel": 15,
-        "maxLevel": 16,
-        "runCount": 349
-      },
-      {
-        "displayName": "Leader Gardenia",
-        "sourceDisplayName": "Leader Gardenia",
-        "usageKey": "315",
-        "trId": 315,
-        "leadLevel": 26,
-        "maxLevel": 28,
-        "runCount": 132
-      },
-      {
-        "displayName": "Leader Fantina",
-        "sourceDisplayName": "Leader Fantina",
-        "usageKey": "318",
-        "trId": 318,
-        "leadLevel": 36,
-        "maxLevel": 38,
-        "runCount": 20
-      },
-      {
-        "displayName": "Leader Maylene",
-        "sourceDisplayName": "Leader Maylene",
-        "usageKey": "317",
-        "trId": 317,
-        "leadLevel": 44,
-        "maxLevel": 47,
-        "runCount": 9
-      },
-      {
-        "displayName": "Leader Wake",
-        "sourceDisplayName": "Leader Wake",
-        "usageKey": "316",
-        "trId": 316,
-        "leadLevel": 52,
-        "maxLevel": 54,
-        "runCount": 13
-      },
-      {
-        "displayName": "Leader Byron",
-        "sourceDisplayName": "Leader Byron",
-        "usageKey": "250",
-        "trId": 250,
-        "leadLevel": 65,
-        "maxLevel": 65,
-        "runCount": 4
-      },
-      {
-        "displayName": "Leader Candice",
-        "sourceDisplayName": "Leader Candice",
-        "usageKey": "319",
-        "trId": 319,
-        "leadLevel": 72,
-        "maxLevel": 74,
-        "runCount": 4
-      },
-      {
-        "displayName": "Leader Volkner",
-        "sourceDisplayName": "Leader Volkner",
-        "usageKey": "320",
-        "trId": 320,
-        "leadLevel": 80,
-        "maxLevel": 84,
-        "runCount": 4
-      },
-      {
-        "displayName": "Elite Four Aaron",
-        "sourceDisplayName": "Elite Four Aaron2",
-        "usageKey": "866",
-        "trId": 866,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 2
-      },
-      {
-        "displayName": "Elite Four Bertha",
-        "sourceDisplayName": "Elite Four Bertha2",
-        "usageKey": "867",
-        "trId": 867,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 2
-      },
-      {
-        "displayName": "Elite Four Flint",
-        "sourceDisplayName": "Elite Four Flint2",
-        "usageKey": "868",
-        "trId": 868,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 2
-      },
-      {
-        "displayName": "Elite Four Lucian",
-        "sourceDisplayName": "Elite Four Lucian",
-        "usageKey": "869",
-        "trId": 869,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 1
-      },
-      {
-        "displayName": "Champion Cynthia",
-        "sourceDisplayName": "Champion Cynthia",
-        "usageKey": "870",
-        "trId": 870,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 3
-      }
-    ],
-    "starterGiftGroups": [
-      {
-        "label": "Starters",
-        "totalRunsMatched": 694,
-        "slices": [
-          {
-            "species": "Turtwig",
-            "count": 338,
-            "pct": 44,
-            "runPct": 49
-          },
-          {
-            "species": "Piplup",
-            "count": 256,
-            "pct": 33,
-            "runPct": 37
-          },
-          {
-            "species": "Chimchar",
-            "count": 173,
-            "pct": 23,
-            "runPct": 25
-          }
-        ]
-      },
-      {
-        "label": "Poketch Company",
-        "totalRunsMatched": 667,
-        "slices": [
-          {
-            "species": "Skitty",
-            "count": 412,
-            "pct": 39,
-            "runPct": 62
-          },
-          {
-            "species": "Glameow",
-            "count": 375,
-            "pct": 36,
-            "runPct": 56
-          },
-          {
-            "species": "Meowth",
-            "count": 266,
-            "pct": 25,
-            "runPct": 40
-          }
-        ]
-      },
-      {
-        "label": "Eevolutions",
-        "totalRunsMatched": 22,
-        "slices": [
-          {
-            "species": "Leafeon",
-            "count": 12,
-            "pct": 43,
-            "runPct": 55
-          },
-          {
-            "species": "Umbreon",
-            "count": 12,
-            "pct": 43,
-            "runPct": 55
-          },
-          {
-            "species": "Espeon",
-            "count": 2,
-            "pct": 7,
-            "runPct": 9
-          },
-          {
-            "species": "Glaceon",
-            "count": 1,
-            "pct": 4,
-            "runPct": 5
-          },
-          {
-            "species": "Jolteon",
-            "count": 1,
-            "pct": 4,
-            "runPct": 5
-          },
-          {
-            "species": "Flareon",
-            "count": 0,
-            "pct": 0,
-            "runPct": 0
-          },
-          {
-            "species": "Vaporeon",
-            "count": 0,
-            "pct": 0,
-            "runPct": 0
-          }
-        ]
-      },
-      {
-        "label": "Veilstone",
-        "totalRunsMatched": 234,
-        "slices": [
-          {
-            "species": "Mr. Mime",
-            "count": 94,
-            "pct": 18,
-            "runPct": 40
-          },
-          {
-            "species": "Pikachu",
-            "count": 72,
-            "pct": 14,
-            "runPct": 31
-          },
-          {
-            "species": "Nidoking",
-            "count": 65,
-            "pct": 12,
-            "runPct": 28
-          },
-          {
-            "species": "Persian",
-            "count": 51,
-            "pct": 10,
-            "runPct": 22
-          },
-          {
-            "species": "Nidoqueen",
-            "count": 39,
-            "pct": 7,
-            "runPct": 17
-          },
-          {
-            "species": "Magmar",
-            "count": 33,
-            "pct": 6,
-            "runPct": 14
-          },
-          {
-            "species": "Gallade",
-            "count": 25,
-            "pct": 5,
-            "runPct": 11
-          },
-          {
-            "species": "Venusaur",
-            "count": 21,
-            "pct": 4,
-            "runPct": 9
-          },
-          {
-            "species": "Voltorb",
-            "count": 20,
-            "pct": 4,
-            "runPct": 9
-          },
-          {
-            "species": "Charizard",
-            "count": 17,
-            "pct": 3,
-            "runPct": 7
-          },
-          {
-            "species": "Blastoise",
-            "count": 15,
-            "pct": 3,
-            "runPct": 6
-          },
-          {
-            "species": "Electabuzz",
-            "count": 11,
-            "pct": 2,
-            "runPct": 5
-          },
-          {
-            "species": "Pinsir",
-            "count": 9,
-            "pct": 2,
-            "runPct": 4
-          },
-          {
-            "species": "Jynx",
-            "count": 8,
-            "pct": 2,
-            "runPct": 3
-          },
-          {
-            "species": "Scyther",
-            "count": 8,
-            "pct": 2,
-            "runPct": 3
-          },
-          {
-            "species": "Miltank",
-            "count": 7,
-            "pct": 1,
-            "runPct": 3
-          },
-          {
-            "species": "Porygon",
-            "count": 6,
-            "pct": 1,
-            "runPct": 3
-          },
-          {
-            "species": "Clefairy",
-            "count": 5,
-            "pct": 1,
-            "runPct": 2
-          },
-          {
-            "species": "Murkrow",
-            "count": 5,
-            "pct": 1,
-            "runPct": 2
-          },
-          {
-            "species": "Castform",
-            "count": 4,
-            "pct": 1,
-            "runPct": 2
-          },
-          {
-            "species": "Magneton",
-            "count": 4,
-            "pct": 1,
-            "runPct": 2
-          },
-          {
-            "species": "Sableye",
-            "count": 4,
-            "pct": 1,
-            "runPct": 2
-          },
-          {
-            "species": "Ditto",
-            "count": 2,
-            "pct": 0,
-            "runPct": 1
-          },
-          {
-            "species": "Dragonite",
-            "count": 2,
-            "pct": 0,
-            "runPct": 1
-          },
-          {
-            "species": "Misdreavus",
-            "count": 2,
-            "pct": 0,
-            "runPct": 1
-          },
-          {
-            "species": "Hitmontop",
-            "count": 1,
-            "pct": 0,
-            "runPct": 0
-          },
-          {
-            "species": "Tauros",
-            "count": 1,
-            "pct": 0,
-            "runPct": 0
-          },
-          {
-            "species": "Phione",
-            "count": 0,
-            "pct": 0,
-            "runPct": 0
-          }
-        ]
-      },
-      {
-        "label": "Canalave Library",
-        "totalRunsMatched": 6,
-        "slices": [
-          {
-            "species": "Lunatone",
-            "count": 6,
-            "pct": 86,
-            "runPct": 100
-          },
-          {
-            "species": "Solrock",
-            "count": 1,
-            "pct": 14,
-            "runPct": 17
-          }
-        ]
-      },
-      {
-        "label": "Fossil",
-        "totalRunsMatched": 49,
-        "slices": [
-          {
-            "species": "Omanyte",
-            "count": 24,
-            "pct": 36,
-            "runPct": 49
-          },
-          {
-            "species": "Kabuto",
-            "count": 20,
-            "pct": 30,
-            "runPct": 41
-          },
-          {
-            "species": "Anorith",
-            "count": 13,
-            "pct": 19,
-            "runPct": 27
-          },
-          {
-            "species": "Lileep",
-            "count": 7,
-            "pct": 10,
-            "runPct": 14
-          },
-          {
-            "species": "Aerodactyl",
-            "count": 2,
-            "pct": 3,
-            "runPct": 4
-          },
-          {
-            "species": "Shieldon",
-            "count": 1,
-            "pct": 1,
-            "runPct": 2
-          },
-          {
-            "species": "Cranidos",
-            "count": 0,
-            "pct": 0,
-            "runPct": 0
-          }
-        ]
-      },
-      {
-        "label": "Contest Hall",
-        "totalRunsMatched": 26,
-        "slices": [
-          {
-            "species": "Charizard",
-            "count": 17,
-            "pct": 50,
-            "runPct": 65
-          },
-          {
-            "species": "Steelix",
-            "count": 7,
-            "pct": 21,
-            "runPct": 27
-          },
-          {
-            "species": "Alakazam",
-            "count": 4,
-            "pct": 12,
-            "runPct": 15
-          },
-          {
-            "species": "Milotic",
-            "count": 4,
-            "pct": 12,
-            "runPct": 15
-          },
-          {
-            "species": "Kangaskhan",
-            "count": 2,
-            "pct": 6,
-            "runPct": 8
-          }
-        ]
-      }
-    ],
-    "runDepth": {
-      "available": true,
-      "averageStep": 49.6,
-      "averagePct": 10.3,
-      "maxStep": 483,
-      "runsCounted": 708,
-      "histogram": [
-        {
-          "step": 1,
-          "count": 0
-        },
-        {
-          "step": 2,
-          "count": 0
-        },
-        {
-          "step": 3,
-          "count": 2
-        },
-        {
-          "step": 4,
-          "count": 4
-        },
-        {
-          "step": 5,
-          "count": 0
-        },
-        {
-          "step": 6,
-          "count": 5
-        },
-        {
-          "step": 7,
-          "count": 1
-        },
-        {
-          "step": 8,
-          "count": 2
-        },
-        {
-          "step": 9,
-          "count": 2
-        },
-        {
-          "step": 10,
-          "count": 32
-        },
-        {
-          "step": 11,
-          "count": 21
-        },
-        {
-          "step": 12,
-          "count": 19
-        },
-        {
-          "step": 13,
-          "count": 4
-        },
-        {
-          "step": 14,
-          "count": 3
-        },
-        {
-          "step": 15,
-          "count": 8
-        },
-        {
-          "step": 16,
-          "count": 9
-        },
-        {
-          "step": 17,
-          "count": 10
-        },
-        {
-          "step": 18,
-          "count": 7
-        },
-        {
-          "step": 19,
-          "count": 18
-        },
-        {
-          "step": 20,
-          "count": 7
-        },
-        {
-          "step": 21,
-          "count": 13
-        },
-        {
-          "step": 22,
-          "count": 25
-        },
-        {
-          "step": 23,
-          "count": 21
-        },
-        {
-          "step": 24,
-          "count": 153
-        },
-        {
-          "step": 25,
-          "count": 1
-        },
-        {
-          "step": 26,
-          "count": 0
-        },
-        {
-          "step": 27,
-          "count": 1
-        },
-        {
-          "step": 28,
-          "count": 0
-        },
-        {
-          "step": 29,
-          "count": 1
-        },
-        {
-          "step": 30,
-          "count": 0
-        },
-        {
-          "step": 31,
-          "count": 0
-        },
-        {
-          "step": 32,
-          "count": 0
-        },
-        {
-          "step": 33,
-          "count": 2
-        },
-        {
-          "step": 34,
-          "count": 1
-        },
-        {
-          "step": 35,
-          "count": 9
-        },
-        {
-          "step": 36,
-          "count": 6
-        },
-        {
-          "step": 37,
-          "count": 5
-        },
-        {
-          "step": 38,
-          "count": 17
-        },
-        {
-          "step": 39,
-          "count": 15
-        },
-        {
-          "step": 40,
-          "count": 5
-        },
-        {
-          "step": 41,
-          "count": 50
-        },
-        {
-          "step": 42,
-          "count": 0
-        },
-        {
-          "step": 43,
-          "count": 2
-        },
-        {
-          "step": 44,
-          "count": 0
-        },
-        {
-          "step": 45,
-          "count": 1
-        },
-        {
-          "step": 46,
-          "count": 1
-        },
-        {
-          "step": 47,
-          "count": 3
-        },
-        {
-          "step": 48,
-          "count": 4
-        },
-        {
-          "step": 49,
-          "count": 6
-        },
-        {
-          "step": 50,
-          "count": 0
-        },
-        {
-          "step": 51,
-          "count": 0
-        },
-        {
-          "step": 52,
-          "count": 0
-        },
-        {
-          "step": 53,
-          "count": 0
-        },
-        {
-          "step": 54,
-          "count": 1
-        },
-        {
-          "step": 55,
-          "count": 0
-        },
-        {
-          "step": 56,
-          "count": 0
-        },
-        {
-          "step": 57,
-          "count": 3
-        },
-        {
-          "step": 58,
-          "count": 2
-        },
-        {
-          "step": 59,
-          "count": 5
-        },
-        {
-          "step": 60,
-          "count": 6
-        },
-        {
-          "step": 61,
-          "count": 1
-        },
-        {
-          "step": 62,
-          "count": 1
-        },
-        {
-          "step": 63,
-          "count": 0
-        },
-        {
-          "step": 64,
-          "count": 1
-        },
-        {
-          "step": 65,
-          "count": 3
-        },
-        {
-          "step": 66,
-          "count": 1
-        },
-        {
-          "step": 67,
-          "count": 1
-        },
-        {
-          "step": 68,
-          "count": 0
-        },
-        {
-          "step": 69,
-          "count": 0
-        },
-        {
-          "step": 70,
-          "count": 0
-        },
-        {
-          "step": 71,
-          "count": 4
-        },
-        {
-          "step": 72,
-          "count": 13
-        },
-        {
-          "step": 73,
-          "count": 70
-        },
-        {
-          "step": 74,
-          "count": 1
-        },
-        {
-          "step": 75,
-          "count": 3
-        },
-        {
-          "step": 76,
-          "count": 4
-        },
-        {
-          "step": 77,
-          "count": 14
-        },
-        {
-          "step": 78,
-          "count": 2
-        },
-        {
-          "step": 79,
-          "count": 3
-        },
-        {
-          "step": 80,
-          "count": 19
-        },
-        {
-          "step": 81,
-          "count": 0
-        },
-        {
-          "step": 82,
-          "count": 0
-        },
-        {
-          "step": 83,
-          "count": 0
-        },
-        {
-          "step": 84,
-          "count": 0
-        },
-        {
-          "step": 85,
-          "count": 0
-        },
-        {
-          "step": 86,
-          "count": 0
-        },
-        {
-          "step": 87,
-          "count": 0
-        },
-        {
-          "step": 88,
-          "count": 0
-        },
-        {
-          "step": 89,
-          "count": 1
-        },
-        {
-          "step": 90,
-          "count": 1
-        },
-        {
-          "step": 91,
-          "count": 1
-        },
-        {
-          "step": 92,
-          "count": 0
-        },
-        {
-          "step": 93,
-          "count": 1
-        },
-        {
-          "step": 94,
-          "count": 1
-        },
-        {
-          "step": 95,
-          "count": 1
-        },
-        {
-          "step": 96,
-          "count": 1
-        },
-        {
-          "step": 97,
-          "count": 0
-        },
-        {
-          "step": 98,
-          "count": 0
-        },
-        {
-          "step": 99,
-          "count": 1
-        },
-        {
-          "step": 100,
-          "count": 0
-        },
-        {
-          "step": 101,
-          "count": 0
-        },
-        {
-          "step": 102,
-          "count": 1
-        },
-        {
-          "step": 103,
-          "count": 0
-        },
-        {
-          "step": 104,
-          "count": 0
-        },
-        {
-          "step": 105,
-          "count": 1
-        },
-        {
-          "step": 106,
-          "count": 1
-        },
-        {
-          "step": 107,
-          "count": 0
-        },
-        {
-          "step": 108,
-          "count": 0
-        },
-        {
-          "step": 109,
-          "count": 0
-        },
-        {
-          "step": 110,
-          "count": 0
-        },
-        {
-          "step": 111,
-          "count": 0
-        },
-        {
-          "step": 112,
-          "count": 0
-        },
-        {
-          "step": 113,
-          "count": 0
-        },
-        {
-          "step": 114,
-          "count": 1
-        },
-        {
-          "step": 115,
-          "count": 8
-        },
-        {
-          "step": 116,
-          "count": 0
-        },
-        {
-          "step": 117,
-          "count": 1
-        },
-        {
-          "step": 118,
-          "count": 0
-        },
-        {
-          "step": 119,
-          "count": 0
-        },
-        {
-          "step": 120,
-          "count": 0
-        },
-        {
-          "step": 121,
-          "count": 0
-        },
-        {
-          "step": 122,
-          "count": 0
-        },
-        {
-          "step": 123,
-          "count": 0
-        },
-        {
-          "step": 124,
-          "count": 0
-        },
-        {
-          "step": 125,
-          "count": 0
-        },
-        {
-          "step": 126,
-          "count": 0
-        },
-        {
-          "step": 127,
-          "count": 0
-        },
-        {
-          "step": 128,
-          "count": 0
-        },
-        {
-          "step": 129,
-          "count": 0
-        },
-        {
-          "step": 130,
-          "count": 0
-        },
-        {
-          "step": 131,
-          "count": 0
-        },
-        {
-          "step": 132,
-          "count": 0
-        },
-        {
-          "step": 133,
-          "count": 0
-        },
-        {
-          "step": 134,
-          "count": 0
-        },
-        {
-          "step": 135,
-          "count": 0
-        },
-        {
-          "step": 136,
-          "count": 0
-        },
-        {
-          "step": 137,
-          "count": 0
-        },
-        {
-          "step": 138,
-          "count": 0
-        },
-        {
-          "step": 139,
-          "count": 0
-        },
-        {
-          "step": 140,
-          "count": 1
-        },
-        {
-          "step": 141,
-          "count": 0
-        },
-        {
-          "step": 142,
-          "count": 0
-        },
-        {
-          "step": 143,
-          "count": 0
-        },
-        {
-          "step": 144,
-          "count": 0
-        },
-        {
-          "step": 145,
-          "count": 0
-        },
-        {
-          "step": 146,
-          "count": 0
-        },
-        {
-          "step": 147,
-          "count": 0
-        },
-        {
-          "step": 148,
-          "count": 0
-        },
-        {
-          "step": 149,
-          "count": 0
-        },
-        {
-          "step": 150,
-          "count": 0
-        },
-        {
-          "step": 151,
-          "count": 0
-        },
-        {
-          "step": 152,
-          "count": 0
-        },
-        {
-          "step": 153,
-          "count": 0
-        },
-        {
-          "step": 154,
-          "count": 1
-        },
-        {
-          "step": 155,
-          "count": 3
-        },
-        {
-          "step": 156,
-          "count": 0
-        },
-        {
-          "step": 157,
-          "count": 0
-        },
-        {
-          "step": 158,
-          "count": 0
-        },
-        {
-          "step": 159,
-          "count": 0
-        },
-        {
-          "step": 160,
-          "count": 1
-        },
-        {
-          "step": 161,
-          "count": 0
-        },
-        {
-          "step": 162,
-          "count": 0
-        },
-        {
-          "step": 163,
-          "count": 0
-        },
-        {
-          "step": 164,
-          "count": 0
-        },
-        {
-          "step": 165,
-          "count": 0
-        },
-        {
-          "step": 166,
-          "count": 0
-        },
-        {
-          "step": 167,
-          "count": 0
-        },
-        {
-          "step": 168,
-          "count": 0
-        },
-        {
-          "step": 169,
-          "count": 0
-        },
-        {
-          "step": 170,
-          "count": 0
-        },
-        {
-          "step": 171,
-          "count": 0
-        },
-        {
-          "step": 172,
-          "count": 0
-        },
-        {
-          "step": 173,
-          "count": 0
-        },
-        {
-          "step": 174,
-          "count": 0
-        },
-        {
-          "step": 175,
-          "count": 0
-        },
-        {
-          "step": 176,
-          "count": 0
-        },
-        {
-          "step": 177,
-          "count": 0
-        },
-        {
-          "step": 178,
-          "count": 0
-        },
-        {
-          "step": 179,
-          "count": 1
-        },
-        {
-          "step": 180,
-          "count": 0
-        },
-        {
-          "step": 181,
-          "count": 0
-        },
-        {
-          "step": 182,
-          "count": 0
-        },
-        {
-          "step": 183,
-          "count": 0
-        },
-        {
-          "step": 184,
-          "count": 0
-        },
-        {
-          "step": 185,
-          "count": 0
-        },
-        {
-          "step": 186,
-          "count": 0
-        },
-        {
-          "step": 187,
-          "count": 0
-        },
-        {
-          "step": 188,
-          "count": 0
-        },
-        {
-          "step": 189,
-          "count": 1
-        },
-        {
-          "step": 190,
-          "count": 0
-        },
-        {
-          "step": 191,
-          "count": 0
-        },
-        {
-          "step": 192,
-          "count": 0
-        },
-        {
-          "step": 193,
-          "count": 3
-        },
-        {
-          "step": 194,
-          "count": 2
-        },
-        {
-          "step": 195,
-          "count": 0
-        },
-        {
-          "step": 196,
-          "count": 0
-        },
-        {
-          "step": 197,
-          "count": 0
-        },
-        {
-          "step": 198,
-          "count": 0
-        },
-        {
-          "step": 199,
-          "count": 0
-        },
-        {
-          "step": 200,
-          "count": 0
-        },
-        {
-          "step": 201,
-          "count": 0
-        },
-        {
-          "step": 202,
-          "count": 0
-        },
-        {
-          "step": 203,
-          "count": 0
-        },
-        {
-          "step": 204,
-          "count": 0
-        },
-        {
-          "step": 205,
-          "count": 0
-        },
-        {
-          "step": 206,
-          "count": 0
-        },
-        {
-          "step": 207,
-          "count": 0
-        },
-        {
-          "step": 208,
-          "count": 0
-        },
-        {
-          "step": 209,
-          "count": 0
-        },
-        {
-          "step": 210,
-          "count": 0
-        },
-        {
-          "step": 211,
-          "count": 0
-        },
-        {
-          "step": 212,
-          "count": 0
-        },
-        {
-          "step": 213,
-          "count": 0
-        },
-        {
-          "step": 214,
-          "count": 0
-        },
-        {
-          "step": 215,
-          "count": 0
-        },
-        {
-          "step": 216,
-          "count": 0
-        },
-        {
-          "step": 217,
-          "count": 1
-        },
-        {
-          "step": 218,
-          "count": 0
-        },
-        {
-          "step": 219,
-          "count": 0
-        },
-        {
-          "step": 220,
-          "count": 0
-        },
-        {
-          "step": 221,
-          "count": 0
-        },
-        {
-          "step": 222,
-          "count": 0
-        },
-        {
-          "step": 223,
-          "count": 1
-        },
-        {
-          "step": 224,
-          "count": 0
-        },
-        {
-          "step": 225,
-          "count": 0
-        },
-        {
-          "step": 226,
-          "count": 0
-        },
-        {
-          "step": 227,
-          "count": 1
-        },
-        {
-          "step": 228,
-          "count": 0
-        },
-        {
-          "step": 229,
-          "count": 0
-        },
-        {
-          "step": 230,
-          "count": 0
-        },
-        {
-          "step": 231,
-          "count": 1
-        },
-        {
-          "step": 232,
-          "count": 0
-        },
-        {
-          "step": 233,
-          "count": 0
-        },
-        {
-          "step": 234,
-          "count": 0
-        },
-        {
-          "step": 235,
-          "count": 0
-        },
-        {
-          "step": 236,
-          "count": 0
-        },
-        {
-          "step": 237,
-          "count": 0
-        },
-        {
-          "step": 238,
-          "count": 0
-        },
-        {
-          "step": 239,
-          "count": 0
-        },
-        {
-          "step": 240,
-          "count": 0
-        },
-        {
-          "step": 241,
-          "count": 0
-        },
-        {
-          "step": 242,
-          "count": 0
-        },
-        {
-          "step": 243,
-          "count": 0
-        },
-        {
-          "step": 244,
-          "count": 0
-        },
-        {
-          "step": 245,
-          "count": 0
-        },
-        {
-          "step": 246,
-          "count": 0
-        },
-        {
-          "step": 247,
-          "count": 0
-        },
-        {
-          "step": 248,
-          "count": 0
-        },
-        {
-          "step": 249,
-          "count": 0
-        },
-        {
-          "step": 250,
-          "count": 0
-        },
-        {
-          "step": 251,
-          "count": 0
-        },
-        {
-          "step": 252,
-          "count": 0
-        },
-        {
-          "step": 253,
-          "count": 0
-        },
-        {
-          "step": 254,
-          "count": 0
-        },
-        {
-          "step": 255,
-          "count": 0
-        },
-        {
-          "step": 256,
-          "count": 0
-        },
-        {
-          "step": 257,
-          "count": 0
-        },
-        {
-          "step": 258,
-          "count": 0
-        },
-        {
-          "step": 259,
-          "count": 1
-        },
-        {
-          "step": 260,
-          "count": 1
-        },
-        {
-          "step": 261,
-          "count": 0
-        },
-        {
-          "step": 262,
-          "count": 0
-        },
-        {
-          "step": 263,
-          "count": 0
-        },
-        {
-          "step": 264,
-          "count": 0
-        },
-        {
-          "step": 265,
-          "count": 0
-        },
-        {
-          "step": 266,
-          "count": 0
-        },
-        {
-          "step": 267,
-          "count": 0
-        },
-        {
-          "step": 268,
-          "count": 0
-        },
-        {
-          "step": 269,
-          "count": 0
-        },
-        {
-          "step": 270,
-          "count": 0
-        },
-        {
-          "step": 271,
-          "count": 0
-        },
-        {
-          "step": 272,
-          "count": 0
-        },
-        {
-          "step": 273,
-          "count": 0
-        },
-        {
-          "step": 274,
-          "count": 0
-        },
-        {
-          "step": 275,
-          "count": 0
-        },
-        {
-          "step": 276,
-          "count": 0
-        },
-        {
-          "step": 277,
-          "count": 0
-        },
-        {
-          "step": 278,
-          "count": 0
-        },
-        {
-          "step": 279,
-          "count": 0
-        },
-        {
-          "step": 280,
-          "count": 0
-        },
-        {
-          "step": 281,
-          "count": 0
-        },
-        {
-          "step": 282,
-          "count": 1
-        },
-        {
-          "step": 283,
-          "count": 0
-        },
-        {
-          "step": 284,
-          "count": 0
-        },
-        {
-          "step": 285,
-          "count": 0
-        },
-        {
-          "step": 286,
-          "count": 0
-        },
-        {
-          "step": 287,
-          "count": 0
-        },
-        {
-          "step": 288,
-          "count": 0
-        },
-        {
-          "step": 289,
-          "count": 0
-        },
-        {
-          "step": 290,
-          "count": 0
-        },
-        {
-          "step": 291,
-          "count": 0
-        },
-        {
-          "step": 292,
-          "count": 0
-        },
-        {
-          "step": 293,
-          "count": 0
-        },
-        {
-          "step": 294,
-          "count": 0
-        },
-        {
-          "step": 295,
-          "count": 0
-        },
-        {
-          "step": 296,
-          "count": 0
-        },
-        {
-          "step": 297,
-          "count": 0
-        },
-        {
-          "step": 298,
-          "count": 0
-        },
-        {
-          "step": 299,
-          "count": 0
-        },
-        {
-          "step": 300,
-          "count": 0
-        },
-        {
-          "step": 301,
-          "count": 0
-        },
-        {
-          "step": 302,
-          "count": 0
-        },
-        {
-          "step": 303,
-          "count": 0
-        },
-        {
-          "step": 304,
-          "count": 0
-        },
-        {
-          "step": 305,
-          "count": 0
-        },
-        {
-          "step": 306,
-          "count": 0
-        },
-        {
-          "step": 307,
-          "count": 0
-        },
-        {
-          "step": 308,
-          "count": 0
-        },
-        {
-          "step": 309,
-          "count": 0
-        },
-        {
-          "step": 310,
-          "count": 0
-        },
-        {
-          "step": 311,
-          "count": 0
-        },
-        {
-          "step": 312,
-          "count": 0
-        },
-        {
-          "step": 313,
-          "count": 1
-        },
-        {
-          "step": 314,
-          "count": 0
-        },
-        {
-          "step": 315,
-          "count": 0
-        },
-        {
-          "step": 316,
-          "count": 1
-        },
-        {
-          "step": 317,
-          "count": 0
-        },
-        {
-          "step": 318,
-          "count": 0
-        },
-        {
-          "step": 319,
-          "count": 0
-        },
-        {
-          "step": 320,
-          "count": 0
-        },
-        {
-          "step": 321,
-          "count": 1
-        },
-        {
-          "step": 322,
-          "count": 0
-        },
-        {
-          "step": 323,
-          "count": 0
-        },
-        {
-          "step": 324,
-          "count": 0
-        },
-        {
-          "step": 325,
-          "count": 0
-        },
-        {
-          "step": 326,
-          "count": 0
-        },
-        {
-          "step": 327,
-          "count": 0
-        },
-        {
-          "step": 328,
-          "count": 0
-        },
-        {
-          "step": 329,
-          "count": 0
-        },
-        {
-          "step": 330,
-          "count": 0
-        },
-        {
-          "step": 331,
-          "count": 0
-        },
-        {
-          "step": 332,
-          "count": 0
-        },
-        {
-          "step": 333,
-          "count": 0
-        },
-        {
-          "step": 334,
-          "count": 0
-        },
-        {
-          "step": 335,
-          "count": 2
-        },
-        {
-          "step": 336,
-          "count": 0
-        },
-        {
-          "step": 337,
-          "count": 0
-        },
-        {
-          "step": 338,
-          "count": 0
-        },
-        {
-          "step": 339,
-          "count": 0
-        },
-        {
-          "step": 340,
-          "count": 0
-        },
-        {
-          "step": 341,
-          "count": 0
-        },
-        {
-          "step": 342,
-          "count": 0
-        },
-        {
-          "step": 343,
-          "count": 0
-        },
-        {
-          "step": 344,
-          "count": 0
-        },
-        {
-          "step": 345,
-          "count": 0
-        },
-        {
-          "step": 346,
-          "count": 0
-        },
-        {
-          "step": 347,
-          "count": 0
-        },
-        {
-          "step": 348,
-          "count": 0
-        },
-        {
-          "step": 349,
-          "count": 0
-        },
-        {
-          "step": 350,
-          "count": 0
-        },
-        {
-          "step": 351,
-          "count": 0
-        },
-        {
-          "step": 352,
-          "count": 0
-        },
-        {
-          "step": 353,
-          "count": 0
-        },
-        {
-          "step": 354,
-          "count": 0
-        },
-        {
-          "step": 355,
-          "count": 0
-        },
-        {
-          "step": 356,
-          "count": 0
-        },
-        {
-          "step": 357,
-          "count": 0
-        },
-        {
-          "step": 358,
-          "count": 0
-        },
-        {
-          "step": 359,
-          "count": 0
-        },
-        {
-          "step": 360,
-          "count": 0
-        },
-        {
-          "step": 361,
-          "count": 0
-        },
-        {
-          "step": 362,
-          "count": 0
-        },
-        {
-          "step": 363,
-          "count": 0
-        },
-        {
-          "step": 364,
-          "count": 0
-        },
-        {
-          "step": 365,
-          "count": 0
-        },
-        {
-          "step": 366,
-          "count": 0
-        },
-        {
-          "step": 367,
-          "count": 0
-        },
-        {
-          "step": 368,
-          "count": 0
-        },
-        {
-          "step": 369,
-          "count": 0
-        },
-        {
-          "step": 370,
-          "count": 0
-        },
-        {
-          "step": 371,
-          "count": 0
-        },
-        {
-          "step": 372,
-          "count": 0
-        },
-        {
-          "step": 373,
-          "count": 0
-        },
-        {
-          "step": 374,
-          "count": 0
-        },
-        {
-          "step": 375,
-          "count": 0
-        },
-        {
-          "step": 376,
-          "count": 0
-        },
-        {
-          "step": 377,
-          "count": 0
-        },
-        {
-          "step": 378,
-          "count": 0
-        },
-        {
-          "step": 379,
-          "count": 0
-        },
-        {
-          "step": 380,
-          "count": 0
-        },
-        {
-          "step": 381,
-          "count": 0
-        },
-        {
-          "step": 382,
-          "count": 0
-        },
-        {
-          "step": 383,
-          "count": 0
-        },
-        {
-          "step": 384,
-          "count": 0
-        },
-        {
-          "step": 385,
-          "count": 0
-        },
-        {
-          "step": 386,
-          "count": 0
-        },
-        {
-          "step": 387,
-          "count": 0
-        },
-        {
-          "step": 388,
-          "count": 0
-        },
-        {
-          "step": 389,
-          "count": 0
-        },
-        {
-          "step": 390,
-          "count": 0
-        },
-        {
-          "step": 391,
-          "count": 0
-        },
-        {
-          "step": 392,
-          "count": 0
-        },
-        {
-          "step": 393,
-          "count": 0
-        },
-        {
-          "step": 394,
-          "count": 0
-        },
-        {
-          "step": 395,
-          "count": 0
-        },
-        {
-          "step": 396,
-          "count": 0
-        },
-        {
-          "step": 397,
-          "count": 0
-        },
-        {
-          "step": 398,
-          "count": 0
-        },
-        {
-          "step": 399,
-          "count": 0
-        },
-        {
-          "step": 400,
-          "count": 0
-        },
-        {
-          "step": 401,
-          "count": 0
-        },
-        {
-          "step": 402,
-          "count": 0
-        },
-        {
-          "step": 403,
-          "count": 0
-        },
-        {
-          "step": 404,
-          "count": 0
-        },
-        {
-          "step": 405,
-          "count": 0
-        },
-        {
-          "step": 406,
-          "count": 0
-        },
-        {
-          "step": 407,
-          "count": 0
-        },
-        {
-          "step": 408,
-          "count": 0
-        },
-        {
-          "step": 409,
-          "count": 0
-        },
-        {
-          "step": 410,
-          "count": 0
-        },
-        {
-          "step": 411,
-          "count": 0
-        },
-        {
-          "step": 412,
-          "count": 0
-        },
-        {
-          "step": 413,
-          "count": 0
-        },
-        {
-          "step": 414,
-          "count": 0
-        },
-        {
-          "step": 415,
-          "count": 1
-        },
-        {
-          "step": 416,
-          "count": 0
-        },
-        {
-          "step": 417,
-          "count": 0
-        },
-        {
-          "step": 418,
-          "count": 0
-        },
-        {
-          "step": 419,
-          "count": 0
-        },
-        {
-          "step": 420,
-          "count": 0
-        },
-        {
-          "step": 421,
-          "count": 0
-        },
-        {
-          "step": 422,
-          "count": 0
-        },
-        {
-          "step": 423,
-          "count": 0
-        },
-        {
-          "step": 424,
-          "count": 0
-        },
-        {
-          "step": 425,
-          "count": 0
-        },
-        {
-          "step": 426,
-          "count": 0
-        },
-        {
-          "step": 427,
-          "count": 0
-        },
-        {
-          "step": 428,
-          "count": 0
-        },
-        {
-          "step": 429,
-          "count": 0
-        },
-        {
-          "step": 430,
-          "count": 0
-        },
-        {
-          "step": 431,
-          "count": 0
-        },
-        {
-          "step": 432,
-          "count": 0
-        },
-        {
-          "step": 433,
-          "count": 0
-        },
-        {
-          "step": 434,
-          "count": 0
-        },
-        {
-          "step": 435,
-          "count": 0
-        },
-        {
-          "step": 436,
-          "count": 0
-        },
-        {
-          "step": 437,
-          "count": 0
-        },
-        {
-          "step": 438,
-          "count": 0
-        },
-        {
-          "step": 439,
-          "count": 0
-        },
-        {
-          "step": 440,
-          "count": 0
-        },
-        {
-          "step": 441,
-          "count": 0
-        },
-        {
-          "step": 442,
-          "count": 0
-        },
-        {
-          "step": 443,
-          "count": 0
-        },
-        {
-          "step": 444,
-          "count": 0
-        },
-        {
-          "step": 445,
-          "count": 0
-        },
-        {
-          "step": 446,
-          "count": 0
-        },
-        {
-          "step": 447,
-          "count": 0
-        },
-        {
-          "step": 448,
-          "count": 0
-        },
-        {
-          "step": 449,
-          "count": 1
-        },
-        {
-          "step": 450,
-          "count": 0
-        },
-        {
-          "step": 451,
-          "count": 1
-        },
-        {
-          "step": 452,
-          "count": 0
-        },
-        {
-          "step": 453,
-          "count": 0
-        },
-        {
-          "step": 454,
-          "count": 0
-        },
-        {
-          "step": 455,
-          "count": 0
-        },
-        {
-          "step": 456,
-          "count": 0
-        },
-        {
-          "step": 457,
-          "count": 0
-        },
-        {
-          "step": 458,
-          "count": 0
-        },
-        {
-          "step": 459,
-          "count": 0
-        },
-        {
-          "step": 460,
-          "count": 0
-        },
-        {
-          "step": 461,
-          "count": 0
-        },
-        {
-          "step": 462,
-          "count": 0
-        },
-        {
-          "step": 463,
-          "count": 0
-        },
-        {
-          "step": 464,
-          "count": 0
-        },
-        {
-          "step": 465,
-          "count": 0
-        },
-        {
-          "step": 466,
-          "count": 0
-        },
-        {
-          "step": 467,
-          "count": 0
-        },
-        {
-          "step": 468,
-          "count": 0
-        },
-        {
-          "step": 469,
-          "count": 0
-        },
-        {
-          "step": 470,
-          "count": 0
-        },
-        {
-          "step": 471,
-          "count": 0
-        },
-        {
-          "step": 472,
-          "count": 0
-        },
-        {
-          "step": 473,
-          "count": 0
-        },
-        {
-          "step": 474,
-          "count": 0
-        },
-        {
-          "step": 475,
-          "count": 0
-        },
-        {
-          "step": 476,
-          "count": 1
-        },
-        {
-          "step": 477,
-          "count": 0
-        },
-        {
-          "step": 478,
-          "count": 1
-        },
-        {
-          "step": 479,
-          "count": 0
-        },
-        {
-          "step": 480,
-          "count": 3
-        },
-        {
-          "step": 481,
-          "count": 0
-        },
-        {
-          "step": 482,
-          "count": 0
-        },
-        {
-          "step": 483,
-          "count": 0
-        }
-      ],
-      "importantTrainerMarkers": [
-        {
-          "label": "Leader Roark",
-          "step": 24,
-          "usageKey": "246"
-        },
-        {
-          "label": "Leader Gardenia",
-          "step": 73,
-          "usageKey": "315"
-        },
-        {
-          "label": "Leader Fantina",
-          "step": 115,
-          "usageKey": "318"
-        },
-        {
-          "label": "Leader Maylene",
-          "step": 155,
-          "usageKey": "317"
-        },
-        {
-          "label": "Leader Wake",
-          "step": 193,
-          "usageKey": "316"
-        },
-        {
-          "label": "Leader Byron",
-          "step": 259,
-          "usageKey": "250"
-        },
-        {
-          "label": "Leader Candice",
-          "step": 310,
-          "usageKey": "319"
-        },
-        {
-          "label": "Leader Volkner",
-          "step": 335,
-          "usageKey": "320"
-        },
-        {
-          "label": "Elite Four Aaron",
-          "step": 476,
-          "usageKey": "866"
-        },
-        {
-          "label": "Elite Four Bertha",
-          "step": 477,
-          "usageKey": "867"
-        },
-        {
-          "label": "Elite Four Flint",
-          "step": 478,
-          "usageKey": "868"
-        },
-        {
-          "label": "Elite Four Lucian",
-          "step": 479,
-          "usageKey": "869"
-        },
-        {
-          "label": "Champion Cynthia",
-          "step": 480,
-          "usageKey": "870"
-        }
-      ]
-    }
+  "overviewFile": "overview.json",
+  "overviewMeta": {
+    "runDepthAvailable": true,
+    "maxStep": 483,
+    "defaultMinDepth": 1
+  },
+  "pokemonIndexFile": "pokemon/index.json",
+  "pokemonMeta": {
+    "available": true,
+    "familyToggleDefault": "family"
   },
   "trainers": [
     {
@@ -2517,7 +24,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 4,
-      "trId": 20
+      "trId": 20,
+      "teamVariantNames": [
+        "Battle Girl Kelsey |Route 205|"
+      ]
     },
     {
       "displayName": "Ninja Boy Donny",
@@ -2527,7 +37,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 6,
-      "trId": 357
+      "trId": 357,
+      "teamVariantNames": [
+        "Ninja Boy Donny"
+      ]
     },
     {
       "displayName": "Pok\u00e9 Kid Danielle",
@@ -2537,7 +50,10 @@
       "maxLevel": 44,
       "isBoss": false,
       "partySize": 5,
-      "trId": 53
+      "trId": 53,
+      "teamVariantNames": [
+        "Pok\u00e9 Kid Danielle"
+      ]
     },
     {
       "displayName": "Youngster Tristan |Route 202|",
@@ -2547,7 +63,10 @@
       "maxLevel": 5,
       "isBoss": false,
       "partySize": 3,
-      "trId": 1
+      "trId": 1,
+      "teamVariantNames": [
+        "Youngster Tristan |Route 202|"
+      ]
     },
     {
       "displayName": "Bug Catcher Logan |Route 202|",
@@ -2557,7 +76,10 @@
       "maxLevel": 7,
       "isBoss": false,
       "partySize": 4,
-      "trId": 2
+      "trId": 2,
+      "teamVariantNames": [
+        "Bug Catcher Logan |Route 202|"
+      ]
     },
     {
       "displayName": "Lass Natalie |Route 203|",
@@ -2567,7 +89,10 @@
       "maxLevel": 6,
       "isBoss": false,
       "partySize": 3,
-      "trId": 3
+      "trId": 3,
+      "teamVariantNames": [
+        "Lass Natalie |Route 203|"
+      ]
     },
     {
       "displayName": "Lass Samantha |Route 204|",
@@ -2577,7 +102,10 @@
       "maxLevel": 7,
       "isBoss": false,
       "partySize": 3,
-      "trId": 11
+      "trId": 11,
+      "teamVariantNames": [
+        "Lass Samantha |Route 204|"
+      ]
     },
     {
       "displayName": "Clown Mickey",
@@ -2587,7 +115,10 @@
       "maxLevel": 8,
       "isBoss": false,
       "partySize": 3,
-      "trId": 253
+      "trId": 253,
+      "teamVariantNames": [
+        "Clown Mickey"
+      ]
     },
     {
       "displayName": "Clown Moe",
@@ -2597,7 +128,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 3,
-      "trId": 254
+      "trId": 254,
+      "teamVariantNames": [
+        "Clown Moe"
+      ]
     },
     {
       "displayName": "Clown Ronald",
@@ -2607,7 +141,10 @@
       "maxLevel": 8,
       "isBoss": false,
       "partySize": 3,
-      "trId": 252
+      "trId": 252,
+      "teamVariantNames": [
+        "Clown Ronald"
+      ]
     },
     {
       "displayName": "Clown Ronald2",
@@ -2617,7 +154,10 @@
       "maxLevel": 8,
       "isBoss": false,
       "partySize": 3,
-      "trId": 255
+      "trId": 255,
+      "teamVariantNames": [
+        "Clown Ronald2"
+      ]
     },
     {
       "displayName": "Lass Sarah |Route 204|",
@@ -2627,7 +167,10 @@
       "maxLevel": 8,
       "isBoss": false,
       "partySize": 3,
-      "trId": 12
+      "trId": 12,
+      "teamVariantNames": [
+        "Lass Sarah |Route 204|"
+      ]
     },
     {
       "displayName": "Youngster Tyler |Route 204|",
@@ -2637,7 +180,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 3,
-      "trId": 10
+      "trId": 10,
+      "teamVariantNames": [
+        "Youngster Tyler |Route 204|"
+      ]
     },
     {
       "displayName": "Camper Curtis |Hearthome City|",
@@ -2647,7 +193,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 5,
-      "trId": 265
+      "trId": 265,
+      "teamVariantNames": [
+        "Camper Curtis |Hearthome City|"
+      ]
     },
     {
       "displayName": "Lass Kaitlin",
@@ -2657,7 +206,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 4,
-      "trId": 323
+      "trId": 323,
+      "teamVariantNames": [
+        "Lass Kaitlin"
+      ]
     },
     {
       "displayName": "Lass Madeline |Route 203|",
@@ -2667,7 +219,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 4,
-      "trId": 322
+      "trId": 322,
+      "teamVariantNames": [
+        "Lass Madeline |Route 203|"
+      ]
     },
     {
       "displayName": "Picnicker Diana |Hearthome City|",
@@ -2677,7 +232,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 5,
-      "trId": 329
+      "trId": 329,
+      "teamVariantNames": [
+        "Picnicker Diana |Hearthome City|"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry",
@@ -2687,7 +245,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 6,
-      "trId": 247
+      "trId": 247,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry2",
@@ -2697,7 +258,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 6,
-      "trId": 248
+      "trId": 248,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry2"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry3",
@@ -2707,7 +271,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 6,
-      "trId": 249
+      "trId": 249,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry3"
+      ]
     },
     {
       "displayName": "Youngster Dallas |Route 203|",
@@ -2717,7 +284,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 4,
-      "trId": 355
+      "trId": 355,
+      "teamVariantNames": [
+        "Youngster Dallas |Route 203|"
+      ]
     },
     {
       "displayName": "Youngster Michael",
@@ -2727,7 +297,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 4,
-      "trId": 4
+      "trId": 4,
+      "teamVariantNames": [
+        "Youngster Michael"
+      ]
     },
     {
       "displayName": "Worker Colin |Oreburgh Mine|",
@@ -2737,7 +310,10 @@
       "maxLevel": 11,
       "isBoss": false,
       "partySize": 4,
-      "trId": 195
+      "trId": 195,
+      "teamVariantNames": [
+        "Worker Colin |Oreburgh Mine|"
+      ]
     },
     {
       "displayName": "Worker Mason",
@@ -2747,7 +323,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 4,
-      "trId": 196
+      "trId": 196,
+      "teamVariantNames": [
+        "Worker Mason"
+      ]
     },
     {
       "displayName": "Ruin Maniac Darius",
@@ -2757,7 +336,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 5,
-      "trId": 245
+      "trId": 245,
+      "teamVariantNames": [
+        "Ruin Maniac Darius"
+      ]
     },
     {
       "displayName": "Bug Catcher Sebastian |Hearthome City|",
@@ -2767,7 +349,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 5,
-      "trId": 356
+      "trId": 356,
+      "teamVariantNames": [
+        "Bug Catcher Sebastian |Hearthome City|"
+      ]
     },
     {
       "displayName": "Scientist Jonathon |Oreburgh City|",
@@ -2777,7 +362,10 @@
       "maxLevel": 15,
       "isBoss": false,
       "partySize": 5,
-      "trId": 244
+      "trId": 244,
+      "teamVariantNames": [
+        "Scientist Jonathon |Oreburgh City|"
+      ]
     },
     {
       "displayName": "Leader Roark",
@@ -2787,7 +375,10 @@
       "maxLevel": 16,
       "isBoss": true,
       "partySize": 6,
-      "trId": 246
+      "trId": 246,
+      "teamVariantNames": [
+        "Leader Roark"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Dawn2",
@@ -2797,7 +388,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 6,
-      "trId": 617
+      "trId": 617,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn2"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Dawn3",
@@ -2807,7 +401,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 6,
-      "trId": 618
+      "trId": 618,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn3"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Lucas",
@@ -2817,7 +414,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 6,
-      "trId": 613
+      "trId": 613,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Lucas2",
@@ -2827,7 +427,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 6,
-      "trId": 614
+      "trId": 614,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas2"
+      ]
     },
     {
       "displayName": "Galactic Luna2",
@@ -2837,7 +440,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 4,
-      "trId": 415
+      "trId": 415,
+      "teamVariantNames": [
+        "Galactic Luna2"
+      ]
     },
     {
       "displayName": "Galactic Venus",
@@ -2847,7 +453,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 4,
-      "trId": 414
+      "trId": 414,
+      "teamVariantNames": [
+        "Galactic Venus"
+      ]
     },
     {
       "displayName": "T.G. Squad Phobos",
@@ -2857,7 +466,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 5,
-      "trId": 299
+      "trId": 299,
+      "teamVariantNames": [
+        "T.G. Squad Phobos"
+      ]
     },
     {
       "displayName": "Aroma Lady Taylor |Route 204|",
@@ -2867,7 +479,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 5,
-      "trId": 14
+      "trId": 14,
+      "teamVariantNames": [
+        "Aroma Lady Taylor |Route 204|"
+      ]
     },
     {
       "displayName": "Bug Catcher Brandon |Route 204|",
@@ -2877,7 +492,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 5,
-      "trId": 13
+      "trId": 13,
+      "teamVariantNames": [
+        "Bug Catcher Brandon |Route 204|"
+      ]
     },
     {
       "displayName": "Galactic Mercury",
@@ -2887,7 +505,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 4,
-      "trId": 211
+      "trId": 211,
+      "teamVariantNames": [
+        "Galactic Mercury"
+      ]
     },
     {
       "displayName": "Galactic Mercury2",
@@ -2897,7 +518,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 4,
-      "trId": 296
+      "trId": 296,
+      "teamVariantNames": [
+        "Galactic Mercury2"
+      ]
     },
     {
       "displayName": "Galactic Terra |Valley Windworks|",
@@ -2907,7 +531,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 4,
-      "trId": 297
+      "trId": 297,
+      "teamVariantNames": [
+        "Galactic Terra |Valley Windworks|"
+      ]
     },
     {
       "displayName": "Galactic Mercury |Eterna Forest|",
@@ -2917,7 +544,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 5,
-      "trId": 202
+      "trId": 202,
+      "teamVariantNames": [
+        "Galactic Mercury |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Galactic Ophelia",
@@ -2927,7 +557,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 3,
-      "trId": 204
+      "trId": 204,
+      "teamVariantNames": [
+        "Galactic Ophelia"
+      ]
     },
     {
       "displayName": "T.G. Squad Deimos |Valley Windworks|",
@@ -2937,7 +570,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 5,
-      "trId": 298
+      "trId": 298,
+      "teamVariantNames": [
+        "T.G. Squad Deimos |Valley Windworks|"
+      ]
     },
     {
       "displayName": "Twins Liv & Liz |Route 205|",
@@ -2947,7 +583,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 4,
-      "trId": 15
+      "trId": 15,
+      "teamVariantNames": [
+        "Twins Liv & Liz |Route 205|"
+      ]
     },
     {
       "displayName": "Galactic Luna3",
@@ -2957,7 +596,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 4,
-      "trId": 436
+      "trId": 436,
+      "teamVariantNames": [
+        "Galactic Luna3"
+      ]
     },
     {
       "displayName": "Galactic Miranda",
@@ -2967,7 +609,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 3,
-      "trId": 464
+      "trId": 464,
+      "teamVariantNames": [
+        "Galactic Miranda"
+      ]
     },
     {
       "displayName": "Galactic Pluto |Fuego Ironworks|",
@@ -2977,7 +622,10 @@
       "maxLevel": 20,
       "isBoss": false,
       "partySize": 5,
-      "trId": 843
+      "trId": 843,
+      "teamVariantNames": [
+        "Galactic Pluto |Fuego Ironworks|"
+      ]
     },
     {
       "displayName": "Galactic Prospero |Eterna Forest|",
@@ -2987,7 +635,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 3,
-      "trId": 463
+      "trId": 463,
+      "teamVariantNames": [
+        "Galactic Prospero |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Galactic Setebos |Eterna Forest|",
@@ -2997,7 +648,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 3,
-      "trId": 462
+      "trId": 462,
+      "teamVariantNames": [
+        "Galactic Setebos |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Camper Jacob |Route 205|",
@@ -3007,7 +661,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 4,
-      "trId": 16
+      "trId": 16,
+      "teamVariantNames": [
+        "Camper Jacob |Route 205|"
+      ]
     },
     {
       "displayName": "Commander Mars",
@@ -3017,7 +674,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 6,
-      "trId": 295
+      "trId": 295,
+      "teamVariantNames": [
+        "Commander Mars"
+      ]
     },
     {
       "displayName": "Galactic Terra |Eterna Forest|",
@@ -3027,7 +687,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 4,
-      "trId": 435
+      "trId": 435,
+      "teamVariantNames": [
+        "Galactic Terra |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Galactic Uranus",
@@ -3037,7 +700,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 3,
-      "trId": 206
+      "trId": 206,
+      "teamVariantNames": [
+        "Galactic Uranus"
+      ]
     },
     {
       "displayName": "Galactic Venus |Eterna Forest|",
@@ -3047,7 +713,10 @@
       "maxLevel": 21,
       "isBoss": false,
       "partySize": 5,
-      "trId": 203
+      "trId": 203,
+      "teamVariantNames": [
+        "Galactic Venus |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Hiker Daniel |Route 205|",
@@ -3057,7 +726,10 @@
       "maxLevel": 21,
       "isBoss": false,
       "partySize": 4,
-      "trId": 18
+      "trId": 18,
+      "teamVariantNames": [
+        "Hiker Daniel |Route 205|"
+      ]
     },
     {
       "displayName": "Aroma Lady Elizabeth |Route 205|",
@@ -3067,7 +739,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 4,
-      "trId": 21
+      "trId": 21,
+      "teamVariantNames": [
+        "Aroma Lady Elizabeth |Route 205|"
+      ]
     },
     {
       "displayName": "Aroma Lady Jenna",
@@ -3077,7 +752,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 5,
-      "trId": 259
+      "trId": 259,
+      "teamVariantNames": [
+        "Aroma Lady Jenna"
+      ]
     },
     {
       "displayName": "Camper Zackary |Iron Island|",
@@ -3087,7 +765,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 4,
-      "trId": 377
+      "trId": 377,
+      "teamVariantNames": [
+        "Camper Zackary |Iron Island|"
+      ]
     },
     {
       "displayName": "Fisherman Andrew |Route 205|",
@@ -3097,7 +778,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 5,
-      "trId": 22
+      "trId": 22,
+      "teamVariantNames": [
+        "Fisherman Andrew |Route 205|"
+      ]
     },
     {
       "displayName": "Fisherman Zachary |Route 206|",
@@ -3107,7 +791,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 5,
-      "trId": 24
+      "trId": 24,
+      "teamVariantNames": [
+        "Fisherman Zachary |Route 206|"
+      ]
     },
     {
       "displayName": "Galactic Bianca |Eterna Forest|",
@@ -3117,7 +804,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 3,
-      "trId": 201
+      "trId": 201,
+      "teamVariantNames": [
+        "Galactic Bianca |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Galactic Neptune",
@@ -3127,7 +817,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 3,
-      "trId": 395
+      "trId": 395,
+      "teamVariantNames": [
+        "Galactic Neptune"
+      ]
     },
     {
       "displayName": "Galactic Sycorax |Eterna Forest|",
@@ -3137,7 +830,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 3,
-      "trId": 461
+      "trId": 461,
+      "teamVariantNames": [
+        "Galactic Sycorax |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Galactic Trinculo",
@@ -3147,7 +843,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 4,
-      "trId": 413
+      "trId": 413,
+      "teamVariantNames": [
+        "Galactic Trinculo"
+      ]
     },
     {
       "displayName": "Hiker Nicholas |Route 205|",
@@ -3157,7 +856,10 @@
       "maxLevel": 22,
       "isBoss": false,
       "partySize": 4,
-      "trId": 19
+      "trId": 19,
+      "teamVariantNames": [
+        "Hiker Nicholas |Route 205|"
+      ]
     },
     {
       "displayName": "Picnicker Siena |Route 205|",
@@ -3167,7 +869,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 4,
-      "trId": 17
+      "trId": 17,
+      "teamVariantNames": [
+        "Picnicker Siena |Route 205|"
+      ]
     },
     {
       "displayName": "Fisherman Joseph",
@@ -3177,7 +882,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 5,
-      "trId": 23
+      "trId": 23,
+      "teamVariantNames": [
+        "Fisherman Joseph"
+      ]
     },
     {
       "displayName": "Galactic Francisco",
@@ -3187,7 +895,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 3,
-      "trId": 432
+      "trId": 432,
+      "teamVariantNames": [
+        "Galactic Francisco"
+      ]
     },
     {
       "displayName": "Galactic Puck |T.G. Eterna Bldg|",
@@ -3197,7 +908,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 4,
-      "trId": 411
+      "trId": 411,
+      "teamVariantNames": [
+        "Galactic Puck |T.G. Eterna Bldg|"
+      ]
     },
     {
       "displayName": "Galactic Triton",
@@ -3207,7 +921,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 3,
-      "trId": 398
+      "trId": 398,
+      "teamVariantNames": [
+        "Galactic Triton"
+      ]
     },
     {
       "displayName": "Picnicker Karina |Iron Island|",
@@ -3217,7 +934,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 4,
-      "trId": 456
+      "trId": 456,
+      "teamVariantNames": [
+        "Picnicker Karina |Iron Island|"
+      ]
     },
     {
       "displayName": "Youngster Roland3",
@@ -3227,7 +947,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 2,
-      "trId": 823
+      "trId": 823,
+      "teamVariantNames": [
+        "Youngster Roland3"
+      ]
     },
     {
       "displayName": "Lass Caroline |Hearthome City|",
@@ -3237,7 +960,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 5,
-      "trId": 324
+      "trId": 324,
+      "teamVariantNames": [
+        "Lass Caroline |Hearthome City|"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Cheryl",
@@ -3247,7 +973,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 6,
-      "trId": 608
+      "trId": 608,
+      "teamVariantNames": [
+        "Pkmn Trainer Cheryl"
+      ]
     },
     {
       "displayName": "Artist Angel",
@@ -3257,7 +986,10 @@
       "maxLevel": 25,
       "isBoss": false,
       "partySize": 5,
-      "trId": 260
+      "trId": 260,
+      "teamVariantNames": [
+        "Artist Angel"
+      ]
     },
     {
       "displayName": "Leader Gardenia",
@@ -3267,7 +999,10 @@
       "maxLevel": 28,
       "isBoss": true,
       "partySize": 6,
-      "trId": 315
+      "trId": 315,
+      "teamVariantNames": [
+        "Leader Gardenia"
+      ]
     },
     {
       "displayName": "Galactic Amalthia |T.G. Eterna Bldg|",
@@ -3277,7 +1012,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 5,
-      "trId": 421
+      "trId": 421,
+      "teamVariantNames": [
+        "Galactic Amalthia |T.G. Eterna Bldg|"
+      ]
     },
     {
       "displayName": "Galactic Callisto |Eterna Forest|",
@@ -3287,7 +1025,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 5,
-      "trId": 410
+      "trId": 410,
+      "teamVariantNames": [
+        "Galactic Callisto |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Artist Allen |Sunyshore City|",
@@ -3297,7 +1038,10 @@
       "maxLevel": 34,
       "isBoss": false,
       "partySize": 5,
-      "trId": 280
+      "trId": 280,
+      "teamVariantNames": [
+        "Artist Allen |Sunyshore City|"
+      ]
     },
     {
       "displayName": "Galactic Io |T.G. Eterna Bldg|",
@@ -3307,7 +1051,10 @@
       "maxLevel": 32,
       "isBoss": false,
       "partySize": 5,
-      "trId": 422
+      "trId": 422,
+      "teamVariantNames": [
+        "Galactic Io |T.G. Eterna Bldg|"
+      ]
     },
     {
       "displayName": "Scientist Galileo |Route 222|",
@@ -3317,7 +1064,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 5,
-      "trId": 831
+      "trId": 831,
+      "teamVariantNames": [
+        "Scientist Galileo |Route 222|"
+      ]
     },
     {
       "displayName": "Black Belt Kyle |Route 208|",
@@ -3327,7 +1077,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 4,
-      "trId": 42
+      "trId": 42,
+      "teamVariantNames": [
+        "Black Belt Kyle |Route 208|"
+      ]
     },
     {
       "displayName": "Clown Chance |Sunyshore City|",
@@ -3337,7 +1090,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 4,
-      "trId": 340
+      "trId": 340,
+      "teamVariantNames": [
+        "Clown Chance |Sunyshore City|"
+      ]
     },
     {
       "displayName": "Cyclist John |Route 206|",
@@ -3347,7 +1103,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 2,
-      "trId": 27
+      "trId": 27,
+      "teamVariantNames": [
+        "Cyclist John |Route 206|"
+      ]
     },
     {
       "displayName": "Galactic Europa2",
@@ -3357,7 +1116,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 5,
-      "trId": 423
+      "trId": 423,
+      "teamVariantNames": [
+        "Galactic Europa2"
+      ]
     },
     {
       "displayName": "Galactic Ganymede |Eterna Forest|",
@@ -3367,7 +1129,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 5,
-      "trId": 412
+      "trId": 412,
+      "teamVariantNames": [
+        "Galactic Ganymede |Eterna Forest|"
+      ]
     },
     {
       "displayName": "Policeman Morton",
@@ -3377,7 +1142,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 5,
-      "trId": 325
+      "trId": 325,
+      "teamVariantNames": [
+        "Policeman Morton"
+      ]
     },
     {
       "displayName": "Cyclist Ryan |Route 206|",
@@ -3387,7 +1155,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 5,
-      "trId": 28
+      "trId": 28,
+      "teamVariantNames": [
+        "Cyclist Ryan |Route 206|"
+      ]
     },
     {
       "displayName": "Idol Amber |Hearthome City|",
@@ -3397,7 +1168,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 4,
-      "trId": 33
+      "trId": 33,
+      "teamVariantNames": [
+        "Idol Amber |Hearthome City|"
+      ]
     },
     {
       "displayName": "Leader Fantina? |Sunyshore City|",
@@ -3407,7 +1181,10 @@
       "maxLevel": 34,
       "isBoss": true,
       "partySize": 6,
-      "trId": 343
+      "trId": 343,
+      "teamVariantNames": [
+        "Leader Fantina? |Sunyshore City|"
+      ]
     },
     {
       "displayName": "Pok\u00e9fan Martha",
@@ -3417,7 +1194,10 @@
       "maxLevel": 36,
       "isBoss": false,
       "partySize": 4,
-      "trId": 51
+      "trId": 51,
+      "teamVariantNames": [
+        "Pok\u00e9fan Martha"
+      ]
     },
     {
       "displayName": "Psychic Cheyenne |Sunyshore City|",
@@ -3427,7 +1207,10 @@
       "maxLevel": 32,
       "isBoss": false,
       "partySize": 5,
-      "trId": 330
+      "trId": 330,
+      "teamVariantNames": [
+        "Psychic Cheyenne |Sunyshore City|"
+      ]
     },
     {
       "displayName": "Clown Justin |Hearthome City|",
@@ -3437,7 +1220,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 4,
-      "trId": 37
+      "trId": 37,
+      "teamVariantNames": [
+        "Clown Justin |Hearthome City|"
+      ]
     },
     {
       "displayName": "Cyclist Karen |Route 206|",
@@ -3447,7 +1233,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 5,
-      "trId": 31
+      "trId": 31,
+      "teamVariantNames": [
+        "Cyclist Karen |Route 206|"
+      ]
     },
     {
       "displayName": "Idol Catherine |Sunyshore City|",
@@ -3457,7 +1246,10 @@
       "maxLevel": 34,
       "isBoss": false,
       "partySize": 6,
-      "trId": 284
+      "trId": 284,
+      "teamVariantNames": [
+        "Idol Catherine |Sunyshore City|"
+      ]
     },
     {
       "displayName": "Aroma Lady Hannah |Route 208|",
@@ -3467,7 +1259,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 5,
-      "trId": 44
+      "trId": 44,
+      "teamVariantNames": [
+        "Aroma Lady Hannah |Route 208|"
+      ]
     },
     {
       "displayName": "Commander Jupiter",
@@ -3477,7 +1272,10 @@
       "maxLevel": 34,
       "isBoss": false,
       "partySize": 6,
-      "trId": 406
+      "trId": 406,
+      "teamVariantNames": [
+        "Commander Jupiter"
+      ]
     },
     {
       "displayName": "Dragon Tamer Drax |Route 208|",
@@ -3487,7 +1285,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 5,
-      "trId": 43
+      "trId": 43,
+      "teamVariantNames": [
+        "Dragon Tamer Drax |Route 208|"
+      ]
     },
     {
       "displayName": "Hiker Alexander |Route 208|",
@@ -3497,7 +1298,10 @@
       "maxLevel": 34,
       "isBoss": false,
       "partySize": 5,
-      "trId": 40
+      "trId": 40,
+      "teamVariantNames": [
+        "Hiker Alexander |Route 208|"
+      ]
     },
     {
       "displayName": "Hiker Jonathan |Route 208|",
@@ -3507,7 +1311,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 5,
-      "trId": 41
+      "trId": 41,
+      "teamVariantNames": [
+        "Hiker Jonathan |Route 208|"
+      ]
     },
     {
       "displayName": "Roughneck Robert |Route 208|",
@@ -3517,7 +1324,10 @@
       "maxLevel": 34,
       "isBoss": false,
       "partySize": 4,
-      "trId": 39
+      "trId": 39,
+      "teamVariantNames": [
+        "Roughneck Robert |Route 208|"
+      ]
     },
     {
       "displayName": "Artist William |Route 209|",
@@ -3527,7 +1337,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 5,
-      "trId": 45
+      "trId": 45,
+      "teamVariantNames": [
+        "Artist William |Route 209|"
+      ]
     },
     {
       "displayName": "Clown Luigi |Hearthome City|",
@@ -3537,7 +1350,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 6,
-      "trId": 35
+      "trId": 35,
+      "teamVariantNames": [
+        "Clown Luigi |Hearthome City|"
+      ]
     },
     {
       "displayName": "Leader Fantina",
@@ -3547,7 +1363,10 @@
       "maxLevel": 38,
       "isBoss": true,
       "partySize": 6,
-      "trId": 318
+      "trId": 318,
+      "teamVariantNames": [
+        "Leader Fantina"
+      ]
     },
     {
       "displayName": "Pok\u00e9fan Stewart |Route 207|",
@@ -3557,7 +1376,10 @@
       "maxLevel": 42,
       "isBoss": false,
       "partySize": 4,
-      "trId": 50
+      "trId": 50,
+      "teamVariantNames": [
+        "Pok\u00e9fan Stewart |Route 207|"
+      ]
     },
     {
       "displayName": "Belle & Pa Ava & Matt |Hearthome City|",
@@ -3567,7 +1389,10 @@
       "maxLevel": 45,
       "isBoss": false,
       "partySize": 5,
-      "trId": 290
+      "trId": 290,
+      "teamVariantNames": [
+        "Belle & Pa Ava & Matt |Hearthome City|"
+      ]
     },
     {
       "displayName": "Double Team Nate & Lisa |Canalave City|",
@@ -3577,7 +1402,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 6,
-      "trId": 278
+      "trId": 278,
+      "teamVariantNames": [
+        "Double Team Nate & Lisa |Canalave City|"
+      ]
     },
     {
       "displayName": "Galactic Uranus2",
@@ -3587,7 +1415,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 6,
-      "trId": 848
+      "trId": 848,
+      "teamVariantNames": [
+        "Galactic Uranus2"
+      ]
     },
     {
       "displayName": "Pkmn Breeder Albert |Route 209|",
@@ -3597,7 +1428,10 @@
       "maxLevel": 38,
       "isBoss": false,
       "partySize": 4,
-      "trId": 46
+      "trId": 46,
+      "teamVariantNames": [
+        "Pkmn Breeder Albert |Route 209|"
+      ]
     },
     {
       "displayName": "Pkmn Breeder Jennifer |Route 209|",
@@ -3607,7 +1441,10 @@
       "maxLevel": 39,
       "isBoss": false,
       "partySize": 4,
-      "trId": 47
+      "trId": 47,
+      "teamVariantNames": [
+        "Pkmn Breeder Jennifer |Route 209|"
+      ]
     },
     {
       "displayName": "Pkmn Breeder Johnny",
@@ -3617,7 +1454,10 @@
       "maxLevel": 55,
       "isBoss": false,
       "partySize": 6,
-      "trId": 57
+      "trId": 57,
+      "teamVariantNames": [
+        "Pkmn Breeder Johnny"
+      ]
     },
     {
       "displayName": "Black Belt Derek |Route 215|",
@@ -3627,7 +1467,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 5,
-      "trId": 128
+      "trId": 128,
+      "teamVariantNames": [
+        "Black Belt Derek |Route 215|"
+      ]
     },
     {
       "displayName": "Cowgirl Shelley |Route 209|",
@@ -3637,7 +1480,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 4,
-      "trId": 48
+      "trId": 48,
+      "teamVariantNames": [
+        "Cowgirl Shelley |Route 209|"
+      ]
     },
     {
       "displayName": "Cyclist Cecelia |Route 209|",
@@ -3647,7 +1493,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 4,
-      "trId": 307
+      "trId": 307,
+      "teamVariantNames": [
+        "Cyclist Cecelia |Route 209|"
+      ]
     },
     {
       "displayName": "Jogger Richard |Route 207|",
@@ -3657,7 +1506,10 @@
       "maxLevel": 39,
       "isBoss": false,
       "partySize": 3,
-      "trId": 49
+      "trId": 49,
+      "teamVariantNames": [
+        "Jogger Richard |Route 207|"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry4",
@@ -3667,7 +1519,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 6,
-      "trId": 470
+      "trId": 470,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry4"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry5",
@@ -3677,7 +1532,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 6,
-      "trId": 471
+      "trId": 471,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry5"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry6",
@@ -3687,7 +1545,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 6,
-      "trId": 472
+      "trId": 472,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry6"
+      ]
     },
     {
       "displayName": "Rancher Marco |Pastoria City|",
@@ -3697,7 +1558,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 4,
-      "trId": 292
+      "trId": 292,
+      "teamVariantNames": [
+        "Rancher Marco |Pastoria City|"
+      ]
     },
     {
       "displayName": "Ruin Maniac Calvin |Iron Island|",
@@ -3707,7 +1571,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 5,
-      "trId": 304
+      "trId": 304,
+      "teamVariantNames": [
+        "Ruin Maniac Calvin |Iron Island|"
+      ]
     },
     {
       "displayName": "Twins Teri & Tia |Clamberclaw Cliffs|",
@@ -3717,7 +1584,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 6,
-      "trId": 65
+      "trId": 65,
+      "teamVariantNames": [
+        "Twins Teri & Tia |Clamberclaw Cliffs|"
+      ]
     },
     {
       "displayName": "Young Couple Ty & Sue |Veilstone City|",
@@ -3727,7 +1597,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 6,
-      "trId": 55
+      "trId": 55,
+      "teamVariantNames": [
+        "Young Couple Ty & Sue |Veilstone City|"
+      ]
     },
     {
       "displayName": "Battle Girl Carly |Veilstone City|",
@@ -3737,7 +1610,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 5,
-      "trId": 309
+      "trId": 309,
+      "teamVariantNames": [
+        "Battle Girl Carly |Veilstone City|"
+      ]
     },
     {
       "displayName": "Black Belt Daniel |Veilstone City|",
@@ -3747,7 +1623,10 @@
       "maxLevel": 43,
       "isBoss": false,
       "partySize": 5,
-      "trId": 310
+      "trId": 310,
+      "teamVariantNames": [
+        "Black Belt Daniel |Veilstone City|"
+      ]
     },
     {
       "displayName": "Battle Girl Jedrzejczyk",
@@ -3757,7 +1636,10 @@
       "maxLevel": 45,
       "isBoss": false,
       "partySize": 5,
-      "trId": 312
+      "trId": 312,
+      "teamVariantNames": [
+        "Battle Girl Jedrzejczyk"
+      ]
     },
     {
       "displayName": "Beauty Jasmine |Route 215|",
@@ -3767,7 +1649,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 129
+      "trId": 129,
+      "teamVariantNames": [
+        "Beauty Jasmine |Route 215|"
+      ]
     },
     {
       "displayName": "Rancher Gregory |Route 215|",
@@ -3777,7 +1662,10 @@
       "maxLevel": 42,
       "isBoss": false,
       "partySize": 4,
-      "trId": 127
+      "trId": 127,
+      "teamVariantNames": [
+        "Rancher Gregory |Route 215|"
+      ]
     },
     {
       "displayName": "Twins Emma & Lil",
@@ -3787,7 +1675,10 @@
       "maxLevel": 42,
       "isBoss": false,
       "partySize": 5,
-      "trId": 294
+      "trId": 294,
+      "teamVariantNames": [
+        "Twins Emma & Lil"
+      ]
     },
     {
       "displayName": "Roughneck Magnus |Wayward Cave|",
@@ -3797,7 +1688,10 @@
       "maxLevel": 45,
       "isBoss": false,
       "partySize": 5,
-      "trId": 382
+      "trId": 382,
+      "teamVariantNames": [
+        "Roughneck Magnus |Wayward Cave|"
+      ]
     },
     {
       "displayName": "Roughneck Rafael |Veilstone City|",
@@ -3807,7 +1701,10 @@
       "maxLevel": 43,
       "isBoss": false,
       "partySize": 5,
-      "trId": 311
+      "trId": 311,
+      "teamVariantNames": [
+        "Roughneck Rafael |Veilstone City|"
+      ]
     },
     {
       "displayName": "Bird Keeper Kahlil |Route 210|",
@@ -3817,7 +1714,10 @@
       "maxLevel": 44,
       "isBoss": false,
       "partySize": 5,
-      "trId": 56
+      "trId": 56,
+      "teamVariantNames": [
+        "Bird Keeper Kahlil |Route 210|"
+      ]
     },
     {
       "displayName": "Collector Ripper |Route 214|",
@@ -3827,7 +1727,10 @@
       "maxLevel": 44,
       "isBoss": false,
       "partySize": 6,
-      "trId": 272
+      "trId": 272,
+      "teamVariantNames": [
+        "Collector Ripper |Route 214|"
+      ]
     },
     {
       "displayName": "Leader Maylene",
@@ -3837,7 +1740,10 @@
       "maxLevel": 47,
       "isBoss": true,
       "partySize": 6,
-      "trId": 317
+      "trId": 317,
+      "teamVariantNames": [
+        "Leader Maylene"
+      ]
     },
     {
       "displayName": "Ruin Maniac Bryan |Route 214|",
@@ -3847,7 +1753,10 @@
       "maxLevel": 45,
       "isBoss": false,
       "partySize": 4,
-      "trId": 113
+      "trId": 113,
+      "teamVariantNames": [
+        "Ruin Maniac Bryan |Route 214|"
+      ]
     },
     {
       "displayName": "Ruin Maniac Jones",
@@ -3857,7 +1766,10 @@
       "maxLevel": 46,
       "isBoss": false,
       "partySize": 4,
-      "trId": 114
+      "trId": 114,
+      "teamVariantNames": [
+        "Ruin Maniac Jones"
+      ]
     },
     {
       "displayName": "Collector Brady",
@@ -3867,7 +1779,10 @@
       "maxLevel": 46,
       "isBoss": false,
       "partySize": 6,
-      "trId": 273
+      "trId": 273,
+      "teamVariantNames": [
+        "Collector Brady"
+      ]
     },
     {
       "displayName": "Fisherman Josh",
@@ -3877,7 +1792,10 @@
       "maxLevel": 47,
       "isBoss": false,
       "partySize": 6,
-      "trId": 92
+      "trId": 92,
+      "teamVariantNames": [
+        "Fisherman Josh"
+      ]
     },
     {
       "displayName": "Gambler Carlos",
@@ -3887,7 +1805,10 @@
       "maxLevel": 46,
       "isBoss": false,
       "partySize": 5,
-      "trId": 121
+      "trId": 121,
+      "teamVariantNames": [
+        "Gambler Carlos"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry7",
@@ -3897,7 +1818,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 6,
-      "trId": 473
+      "trId": 473,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry7"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry9",
@@ -3907,7 +1831,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 6,
-      "trId": 475
+      "trId": 475,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry9"
+      ]
     },
     {
       "displayName": "Roughneck Walter",
@@ -3917,7 +1844,10 @@
       "maxLevel": 49,
       "isBoss": false,
       "partySize": 6,
-      "trId": 401
+      "trId": 401,
+      "teamVariantNames": [
+        "Roughneck Walter"
+      ]
     },
     {
       "displayName": "Swimmer\u2640 Mary |Route 213|",
@@ -3927,7 +1857,10 @@
       "maxLevel": 47,
       "isBoss": false,
       "partySize": 3,
-      "trId": 106
+      "trId": 106,
+      "teamVariantNames": [
+        "Swimmer\u2640 Mary |Route 213|"
+      ]
     },
     {
       "displayName": "Beauty Cyndy",
@@ -3937,7 +1870,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 346
+      "trId": 346,
+      "teamVariantNames": [
+        "Beauty Cyndy"
+      ]
     },
     {
       "displayName": "Sailor Paul |Route 213|",
@@ -3947,7 +1883,10 @@
       "maxLevel": 48,
       "isBoss": false,
       "partySize": 4,
-      "trId": 110
+      "trId": 110,
+      "teamVariantNames": [
+        "Sailor Paul |Route 213|"
+      ]
     },
     {
       "displayName": "Swimmer\u2642 Sheltin |Route 213|",
@@ -3957,7 +1896,10 @@
       "maxLevel": 48,
       "isBoss": false,
       "partySize": 3,
-      "trId": 103
+      "trId": 103,
+      "teamVariantNames": [
+        "Swimmer\u2642 Sheltin |Route 213|"
+      ]
     },
     {
       "displayName": "Tuber Jacky |Pastoria City|",
@@ -3967,7 +1909,10 @@
       "maxLevel": 47,
       "isBoss": false,
       "partySize": 6,
-      "trId": 497
+      "trId": 497,
+      "teamVariantNames": [
+        "Tuber Jacky |Pastoria City|"
+      ]
     },
     {
       "displayName": "Galactic Leda",
@@ -3977,7 +1922,10 @@
       "maxLevel": 49,
       "isBoss": false,
       "partySize": 6,
-      "trId": 75
+      "trId": 75,
+      "teamVariantNames": [
+        "Galactic Leda"
+      ]
     },
     {
       "displayName": "Parasol Lady Monet |Hearthome City|",
@@ -3987,7 +1935,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 6,
-      "trId": 339
+      "trId": 339,
+      "teamVariantNames": [
+        "Parasol Lady Monet |Hearthome City|"
+      ]
     },
     {
       "displayName": "Swimmer\u2640 Haley |Route 213|",
@@ -3997,7 +1948,10 @@
       "maxLevel": 48,
       "isBoss": false,
       "partySize": 3,
-      "trId": 105
+      "trId": 105,
+      "teamVariantNames": [
+        "Swimmer\u2640 Haley |Route 213|"
+      ]
     },
     {
       "displayName": "Tuber Caitlyn |Lake Valor|",
@@ -4007,7 +1961,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 498
+      "trId": 498,
+      "teamVariantNames": [
+        "Tuber Caitlyn |Lake Valor|"
+      ]
     },
     {
       "displayName": "Galactic Luna |Clamberclaw Cliffs|",
@@ -4017,7 +1974,10 @@
       "maxLevel": 49,
       "isBoss": false,
       "partySize": 6,
-      "trId": 66
+      "trId": 66,
+      "teamVariantNames": [
+        "Galactic Luna |Clamberclaw Cliffs|"
+      ]
     },
     {
       "displayName": "Galactic Metis",
@@ -4027,7 +1987,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 6,
-      "trId": 489
+      "trId": 489,
+      "teamVariantNames": [
+        "Galactic Metis"
+      ]
     },
     {
       "displayName": "Galactic Terra",
@@ -4037,7 +2000,10 @@
       "maxLevel": 49,
       "isBoss": false,
       "partySize": 6,
-      "trId": 67
+      "trId": 67,
+      "teamVariantNames": [
+        "Galactic Terra"
+      ]
     },
     {
       "displayName": "Galactic Valetudo |Clamberclaw Cliffs|",
@@ -4047,7 +2013,10 @@
       "maxLevel": 49,
       "isBoss": false,
       "partySize": 6,
-      "trId": 71
+      "trId": 71,
+      "teamVariantNames": [
+        "Galactic Valetudo |Clamberclaw Cliffs|"
+      ]
     },
     {
       "displayName": "Galactic Venus |Clamberclaw Cliffs|",
@@ -4057,7 +2026,10 @@
       "maxLevel": 49,
       "isBoss": false,
       "partySize": 6,
-      "trId": 73
+      "trId": 73,
+      "teamVariantNames": [
+        "Galactic Venus |Clamberclaw Cliffs|"
+      ]
     },
     {
       "displayName": "Pkmn Ranger Erick |Route 209|",
@@ -4067,7 +2039,10 @@
       "maxLevel": 49,
       "isBoss": false,
       "partySize": 6,
-      "trId": 293
+      "trId": 293,
+      "teamVariantNames": [
+        "Pkmn Ranger Erick |Route 209|"
+      ]
     },
     {
       "displayName": "Pkmn Ranger Sam",
@@ -4077,7 +2052,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 6,
-      "trId": 483
+      "trId": 483,
+      "teamVariantNames": [
+        "Pkmn Ranger Sam"
+      ]
     },
     {
       "displayName": "Double Team Stevie & Lindsey",
@@ -4087,7 +2065,10 @@
       "maxLevel": 53,
       "isBoss": false,
       "partySize": 6,
-      "trId": 696
+      "trId": 696,
+      "teamVariantNames": [
+        "Double Team Stevie & Lindsey"
+      ]
     },
     {
       "displayName": "Fisherman Kenneth",
@@ -4097,7 +2078,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 111
+      "trId": 111,
+      "teamVariantNames": [
+        "Fisherman Kenneth"
+      ]
     },
     {
       "displayName": "Galactic Amalthia",
@@ -4107,7 +2091,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 6,
-      "trId": 490
+      "trId": 490,
+      "teamVariantNames": [
+        "Galactic Amalthia"
+      ]
     },
     {
       "displayName": "Galactic Himalia",
@@ -4117,7 +2104,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 6,
-      "trId": 79
+      "trId": 79,
+      "teamVariantNames": [
+        "Galactic Himalia"
+      ]
     },
     {
       "displayName": "Galactic Io |Wayward Cave|",
@@ -4127,7 +2117,10 @@
       "maxLevel": 53,
       "isBoss": false,
       "partySize": 6,
-      "trId": 442
+      "trId": 442,
+      "teamVariantNames": [
+        "Galactic Io |Wayward Cave|"
+      ]
     },
     {
       "displayName": "Galactic Thebe |Pok\u00e9mon Mansion|",
@@ -4137,7 +2130,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 6,
-      "trId": 81
+      "trId": 81,
+      "teamVariantNames": [
+        "Galactic Thebe |Pok\u00e9mon Mansion|"
+      ]
     },
     {
       "displayName": "Galactic Europa",
@@ -4147,7 +2143,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 76
+      "trId": 76,
+      "teamVariantNames": [
+        "Galactic Europa"
+      ]
     },
     {
       "displayName": "Galactic Ganymede |Clamberclaw Cliffs|",
@@ -4157,7 +2156,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 78
+      "trId": 78,
+      "teamVariantNames": [
+        "Galactic Ganymede |Clamberclaw Cliffs|"
+      ]
     },
     {
       "displayName": "Galactic Io2",
@@ -4167,7 +2169,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 847
+      "trId": 847,
+      "teamVariantNames": [
+        "Galactic Io2"
+      ]
     },
     {
       "displayName": "Galactic Mercury |Lake Valor|",
@@ -4177,7 +2182,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 5,
-      "trId": 416
+      "trId": 416,
+      "teamVariantNames": [
+        "Galactic Mercury |Lake Valor|"
+      ]
     },
     {
       "displayName": "Galactic Themisto",
@@ -4187,7 +2195,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 6,
-      "trId": 68
+      "trId": 68,
+      "teamVariantNames": [
+        "Galactic Themisto"
+      ]
     },
     {
       "displayName": "Interviewers Molly & Shannon",
@@ -4197,7 +2208,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 4,
-      "trId": 687
+      "trId": 687,
+      "teamVariantNames": [
+        "Interviewers Molly & Shannon"
+      ]
     },
     {
       "displayName": "Leader Wake",
@@ -4207,7 +2221,10 @@
       "maxLevel": 54,
       "isBoss": true,
       "partySize": 6,
-      "trId": 316
+      "trId": 316,
+      "teamVariantNames": [
+        "Leader Wake"
+      ]
     },
     {
       "displayName": "Commander Jupiter3",
@@ -4217,7 +2234,10 @@
       "maxLevel": 54,
       "isBoss": false,
       "partySize": 6,
-      "trId": 441
+      "trId": 441,
+      "teamVariantNames": [
+        "Commander Jupiter3"
+      ]
     },
     {
       "displayName": "Galactic Boss Cyrus4",
@@ -4227,7 +2247,10 @@
       "maxLevel": 55,
       "isBoss": false,
       "partySize": 6,
-      "trId": 913
+      "trId": 913,
+      "teamVariantNames": [
+        "Galactic Boss Cyrus4"
+      ]
     },
     {
       "displayName": "Beauty Chelle |Route 222|",
@@ -4237,7 +2260,10 @@
       "maxLevel": 57,
       "isBoss": false,
       "partySize": 6,
-      "trId": 491
+      "trId": 491,
+      "teamVariantNames": [
+        "Beauty Chelle |Route 222|"
+      ]
     },
     {
       "displayName": "Hiker David |Victory Road|",
@@ -4247,7 +2273,10 @@
       "maxLevel": 56,
       "isBoss": false,
       "partySize": 5,
-      "trId": 232
+      "trId": 232,
+      "teamVariantNames": [
+        "Hiker David |Victory Road|"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry10",
@@ -4257,7 +2286,10 @@
       "maxLevel": 57,
       "isBoss": false,
       "partySize": 6,
-      "trId": 476
+      "trId": 476,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry10"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Barry11",
@@ -4267,7 +2299,10 @@
       "maxLevel": 57,
       "isBoss": false,
       "partySize": 6,
-      "trId": 477
+      "trId": 477,
+      "teamVariantNames": [
+        "Pkmn Trainer Barry11"
+      ]
     },
     {
       "displayName": "Sailor Cesar |Hearthome City|",
@@ -4277,7 +2312,10 @@
       "maxLevel": 56,
       "isBoss": false,
       "partySize": 5,
-      "trId": 279
+      "trId": 279,
+      "teamVariantNames": [
+        "Sailor Cesar |Hearthome City|"
+      ]
     },
     {
       "displayName": "Scientist Bill",
@@ -4287,7 +2325,10 @@
       "maxLevel": 57,
       "isBoss": false,
       "partySize": 5,
-      "trId": 154
+      "trId": 154,
+      "teamVariantNames": [
+        "Scientist Bill"
+      ]
     },
     {
       "displayName": "Galactic Mimas",
@@ -4297,7 +2338,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 4,
-      "trId": 373
+      "trId": 373,
+      "teamVariantNames": [
+        "Galactic Mimas"
+      ]
     },
     {
       "displayName": "Idol Skylar |Pastoria City|",
@@ -4307,7 +2351,10 @@
       "maxLevel": 60,
       "isBoss": false,
       "partySize": 6,
-      "trId": 338
+      "trId": 338,
+      "teamVariantNames": [
+        "Idol Skylar |Pastoria City|"
+      ]
     },
     {
       "displayName": "Commander Mars2",
@@ -4317,7 +2364,10 @@
       "maxLevel": 65,
       "isBoss": false,
       "partySize": 6,
-      "trId": 405
+      "trId": 405,
+      "teamVariantNames": [
+        "Commander Mars2"
+      ]
     },
     {
       "displayName": "Galactic Pluto",
@@ -4327,7 +2377,10 @@
       "maxLevel": 64,
       "isBoss": false,
       "partySize": 4,
-      "trId": 282
+      "trId": 282,
+      "teamVariantNames": [
+        "Galactic Pluto"
+      ]
     },
     {
       "displayName": "Leader Byron",
@@ -4337,7 +2390,10 @@
       "maxLevel": 65,
       "isBoss": true,
       "partySize": 6,
-      "trId": 250
+      "trId": 250,
+      "teamVariantNames": [
+        "Leader Byron"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Marley",
@@ -4347,7 +2403,10 @@
       "maxLevel": 67,
       "isBoss": false,
       "partySize": 6,
-      "trId": 610
+      "trId": 610,
+      "teamVariantNames": [
+        "Pkmn Trainer Marley"
+      ]
     },
     {
       "displayName": "Ninja Boy Matthew |Route 217|",
@@ -4357,7 +2416,10 @@
       "maxLevel": 87,
       "isBoss": false,
       "partySize": 6,
-      "trId": 146
+      "trId": 146,
+      "teamVariantNames": [
+        "Ninja Boy Matthew |Route 217|"
+      ]
     },
     {
       "displayName": "Pkmn Trainer Dawn6",
@@ -4367,7 +2429,10 @@
       "maxLevel": 68,
       "isBoss": false,
       "partySize": 6,
-      "trId": 801
+      "trId": 801,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn6"
+      ]
     },
     {
       "displayName": "Ace Trainer Tenzing",
@@ -4377,7 +2442,10 @@
       "maxLevel": 72,
       "isBoss": false,
       "partySize": 5,
-      "trId": 828
+      "trId": 828,
+      "teamVariantNames": [
+        "Ace Trainer Tenzing"
+      ]
     },
     {
       "displayName": "Ace Trainer Laura |Route 216|",
@@ -4387,7 +2455,10 @@
       "maxLevel": 71,
       "isBoss": false,
       "partySize": 5,
-      "trId": 134
+      "trId": 134,
+      "teamVariantNames": [
+        "Ace Trainer Laura |Route 216|"
+      ]
     },
     {
       "displayName": "Ace Trainer Alicia |Route 214|",
@@ -4397,7 +2468,10 @@
       "maxLevel": 72,
       "isBoss": false,
       "partySize": 5,
-      "trId": 271
+      "trId": 271,
+      "teamVariantNames": [
+        "Ace Trainer Alicia |Route 214|"
+      ]
     },
     {
       "displayName": "Veteran Anton |Snowpoint City|",
@@ -4407,7 +2481,10 @@
       "maxLevel": 71,
       "isBoss": false,
       "partySize": 5,
-      "trId": 827
+      "trId": 827,
+      "teamVariantNames": [
+        "Veteran Anton |Snowpoint City|"
+      ]
     },
     {
       "displayName": "Guitarist Garrett |Route 216|",
@@ -4417,7 +2494,10 @@
       "maxLevel": 72,
       "isBoss": false,
       "partySize": 4,
-      "trId": 133
+      "trId": 133,
+      "teamVariantNames": [
+        "Guitarist Garrett |Route 216|"
+      ]
     },
     {
       "displayName": "Leader Candice",
@@ -4427,7 +2507,10 @@
       "maxLevel": 74,
       "isBoss": true,
       "partySize": 6,
-      "trId": 319
+      "trId": 319,
+      "teamVariantNames": [
+        "Leader Candice"
+      ]
     },
     {
       "displayName": "Pok\u00e9fan June |Route 222|",
@@ -4437,7 +2520,10 @@
       "maxLevel": 75,
       "isBoss": false,
       "partySize": 5,
-      "trId": 174
+      "trId": 174,
+      "teamVariantNames": [
+        "Pok\u00e9fan June |Route 222|"
+      ]
     },
     {
       "displayName": "Belle & Pa Scout & Atticus |Route 222|",
@@ -4447,7 +2533,10 @@
       "maxLevel": 76,
       "isBoss": false,
       "partySize": 5,
-      "trId": 172
+      "trId": 172,
+      "teamVariantNames": [
+        "Belle & Pa Scout & Atticus |Route 222|"
+      ]
     },
     {
       "displayName": "Interviewers Barbara & Walter |Route 223|",
@@ -4457,7 +2546,10 @@
       "maxLevel": 84,
       "isBoss": false,
       "partySize": 5,
-      "trId": 182
+      "trId": 182,
+      "teamVariantNames": [
+        "Interviewers Barbara & Walter |Route 223|"
+      ]
     },
     {
       "displayName": "Pok\u00e9fan Sheen",
@@ -4467,7 +2559,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 4,
-      "trId": 177
+      "trId": 177,
+      "teamVariantNames": [
+        "Pok\u00e9fan Sheen"
+      ]
     },
     {
       "displayName": "Clown Forrest",
@@ -4477,7 +2572,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 5,
-      "trId": 341
+      "trId": 341,
+      "teamVariantNames": [
+        "Clown Forrest"
+      ]
     },
     {
       "displayName": "Cowgirl Meghan |Pok\u00e9mon Mansion|",
@@ -4487,7 +2585,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 6,
-      "trId": 331
+      "trId": 331,
+      "teamVariantNames": [
+        "Cowgirl Meghan |Pok\u00e9mon Mansion|"
+      ]
     },
     {
       "displayName": "Guitarist Preston |Sunyshore City|",
@@ -4497,7 +2598,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 6,
-      "trId": 302
+      "trId": 302,
+      "teamVariantNames": [
+        "Guitarist Preston |Sunyshore City|"
+      ]
     },
     {
       "displayName": "Leader Volkner",
@@ -4507,7 +2611,10 @@
       "maxLevel": 84,
       "isBoss": true,
       "partySize": 6,
-      "trId": 320
+      "trId": 320,
+      "teamVariantNames": [
+        "Leader Volkner"
+      ]
     },
     {
       "displayName": "Waiter Reynolds |Lake Verity|",
@@ -4517,7 +2624,10 @@
       "maxLevel": 81,
       "isBoss": false,
       "partySize": 3,
-      "trId": 281
+      "trId": 281,
+      "teamVariantNames": [
+        "Waiter Reynolds |Lake Verity|"
+      ]
     },
     {
       "displayName": "Galactic Rhea |Galactic HQ|",
@@ -4527,7 +2637,10 @@
       "maxLevel": 87,
       "isBoss": false,
       "partySize": 5,
-      "trId": 639
+      "trId": 639,
+      "teamVariantNames": [
+        "Galactic Rhea |Galactic HQ|"
+      ]
     },
     {
       "displayName": "T.G. Squad Belinda |Galactic HQ|",
@@ -4537,7 +2650,10 @@
       "maxLevel": 83,
       "isBoss": false,
       "partySize": 6,
-      "trId": 546
+      "trId": 546,
+      "teamVariantNames": [
+        "T.G. Squad Belinda |Galactic HQ|"
+      ]
     },
     {
       "displayName": "Galactic Titan2",
@@ -4547,7 +2663,10 @@
       "maxLevel": 84,
       "isBoss": false,
       "partySize": 6,
-      "trId": 652
+      "trId": 652,
+      "teamVariantNames": [
+        "Galactic Titan2"
+      ]
     },
     {
       "displayName": "Scientist Caliban |Galactic HQ|",
@@ -4557,7 +2676,10 @@
       "maxLevel": 87,
       "isBoss": false,
       "partySize": 5,
-      "trId": 547
+      "trId": 547,
+      "teamVariantNames": [
+        "Scientist Caliban |Galactic HQ|"
+      ]
     },
     {
       "displayName": "T.G. Squad Mab |Stark Mountain|",
@@ -4567,7 +2689,10 @@
       "maxLevel": 86,
       "isBoss": false,
       "partySize": 5,
-      "trId": 555
+      "trId": 555,
+      "teamVariantNames": [
+        "T.G. Squad Mab |Stark Mountain|"
+      ]
     },
     {
       "displayName": "Galactic Janus |Galactic HQ|",
@@ -4577,7 +2702,10 @@
       "maxLevel": 85,
       "isBoss": false,
       "partySize": 5,
-      "trId": 644
+      "trId": 644,
+      "teamVariantNames": [
+        "Galactic Janus |Galactic HQ|"
+      ]
     },
     {
       "displayName": "T.G. Squad Juliet |Galactic HQ|",
@@ -4587,7 +2715,10 @@
       "maxLevel": 85,
       "isBoss": false,
       "partySize": 6,
-      "trId": 545
+      "trId": 545,
+      "teamVariantNames": [
+        "T.G. Squad Juliet |Galactic HQ|"
+      ]
     },
     {
       "displayName": "Galactic Prospero |Galactic HQ|",
@@ -4597,7 +2728,10 @@
       "maxLevel": 87,
       "isBoss": false,
       "partySize": 6,
-      "trId": 550
+      "trId": 550,
+      "teamVariantNames": [
+        "Galactic Prospero |Galactic HQ|"
+      ]
     },
     {
       "displayName": "T.G. Squad Amalthia",
@@ -4607,7 +2741,10 @@
       "maxLevel": 88,
       "isBoss": false,
       "partySize": 5,
-      "trId": 534
+      "trId": 534,
+      "teamVariantNames": [
+        "T.G. Squad Amalthia"
+      ]
     },
     {
       "displayName": "T.G. Squad Deimos |Coronet Highlands|",
@@ -4617,7 +2754,10 @@
       "maxLevel": 89,
       "isBoss": false,
       "partySize": 6,
-      "trId": 533
+      "trId": 533,
+      "teamVariantNames": [
+        "T.G. Squad Deimos |Coronet Highlands|"
+      ]
     },
     {
       "displayName": "Clown Julia |Victory Road|",
@@ -4627,7 +2767,10 @@
       "maxLevel": 88,
       "isBoss": false,
       "partySize": 6,
-      "trId": 229
+      "trId": 229,
+      "teamVariantNames": [
+        "Clown Julia |Victory Road|"
+      ]
     },
     {
       "displayName": "Galactic Luna |Route 225|",
@@ -4637,7 +2780,10 @@
       "maxLevel": 88,
       "isBoss": false,
       "partySize": 6,
-      "trId": 572
+      "trId": 572,
+      "teamVariantNames": [
+        "Galactic Luna |Route 225|"
+      ]
     },
     {
       "displayName": "Galactic Uranus |Stark Mountain|",
@@ -4647,7 +2793,10 @@
       "maxLevel": 88,
       "isBoss": false,
       "partySize": 6,
-      "trId": 560
+      "trId": 560,
+      "teamVariantNames": [
+        "Galactic Uranus |Stark Mountain|"
+      ]
     },
     {
       "displayName": "Scientist Stephano |Galactic HQ|",
@@ -4657,7 +2806,10 @@
       "maxLevel": 88,
       "isBoss": false,
       "partySize": 5,
-      "trId": 548
+      "trId": 548,
+      "teamVariantNames": [
+        "Scientist Stephano |Galactic HQ|"
+      ]
     },
     {
       "displayName": "Commander Mars3",
@@ -4667,7 +2819,10 @@
       "maxLevel": 95,
       "isBoss": false,
       "partySize": 6,
-      "trId": 528
+      "trId": 528,
+      "teamVariantNames": [
+        "Commander Mars3"
+      ]
     },
     {
       "displayName": "Galactic Miranda |Mt. Coronet|",
@@ -4677,7 +2832,10 @@
       "maxLevel": 92,
       "isBoss": false,
       "partySize": 5,
-      "trId": 522
+      "trId": 522,
+      "teamVariantNames": [
+        "Galactic Miranda |Mt. Coronet|"
+      ]
     },
     {
       "displayName": "Galactic Pluto2",
@@ -4687,7 +2845,10 @@
       "maxLevel": 91,
       "isBoss": false,
       "partySize": 5,
-      "trId": 520
+      "trId": 520,
+      "teamVariantNames": [
+        "Galactic Pluto2"
+      ]
     },
     {
       "displayName": "Galactic Prospero",
@@ -4697,7 +2858,10 @@
       "maxLevel": 94,
       "isBoss": false,
       "partySize": 5,
-      "trId": 526
+      "trId": 526,
+      "teamVariantNames": [
+        "Galactic Prospero"
+      ]
     },
     {
       "displayName": "Galactic Rosalind",
@@ -4707,7 +2871,10 @@
       "maxLevel": 91,
       "isBoss": false,
       "partySize": 5,
-      "trId": 509
+      "trId": 509,
+      "teamVariantNames": [
+        "Galactic Rosalind"
+      ]
     },
     {
       "displayName": "Galactic Europa |Coronet Highlands|",
@@ -4717,7 +2884,10 @@
       "maxLevel": 92,
       "isBoss": false,
       "partySize": 5,
-      "trId": 519
+      "trId": 519,
+      "teamVariantNames": [
+        "Galactic Europa |Coronet Highlands|"
+      ]
     },
     {
       "displayName": "Galactic Boss Cyrus",
@@ -4727,7 +2897,10 @@
       "maxLevel": 94,
       "isBoss": false,
       "partySize": 6,
-      "trId": 403
+      "trId": 403,
+      "teamVariantNames": [
+        "Galactic Boss Cyrus"
+      ]
     },
     {
       "displayName": "Fisherman Greg",
@@ -4737,7 +2910,10 @@
       "maxLevel": 96,
       "isBoss": false,
       "partySize": 6,
-      "trId": 168
+      "trId": 168,
+      "teamVariantNames": [
+        "Fisherman Greg"
+      ]
     },
     {
       "displayName": "Galactic Boss Cyrus2",
@@ -4747,7 +2923,10 @@
       "maxLevel": 97,
       "isBoss": false,
       "partySize": 6,
-      "trId": 404
+      "trId": 404,
+      "teamVariantNames": [
+        "Galactic Boss Cyrus2"
+      ]
     },
     {
       "displayName": "Sis and Bro Dora & Diego |Route 221|",
@@ -4757,7 +2936,10 @@
       "maxLevel": 99,
       "isBoss": false,
       "partySize": 5,
-      "trId": 166
+      "trId": 166,
+      "teamVariantNames": [
+        "Sis and Bro Dora & Diego |Route 221|"
+      ]
     },
     {
       "displayName": "Champion Cynthia",
@@ -4767,7 +2949,10 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 870
+      "trId": 870,
+      "teamVariantNames": [
+        "Champion Cynthia"
+      ]
     },
     {
       "displayName": "Elite Four Aaron2",
@@ -4777,7 +2962,10 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 866
+      "trId": 866,
+      "teamVariantNames": [
+        "Elite Four Aaron2"
+      ]
     },
     {
       "displayName": "Elite Four Bertha2",
@@ -4787,7 +2975,10 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 867
+      "trId": 867,
+      "teamVariantNames": [
+        "Elite Four Bertha2"
+      ]
     },
     {
       "displayName": "Elite Four Flint2",
@@ -4797,7 +2988,10 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 868
+      "trId": 868,
+      "teamVariantNames": [
+        "Elite Four Flint2"
+      ]
     },
     {
       "displayName": "Elite Four Flint3",
@@ -4807,7 +3001,10 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 874
+      "trId": 874,
+      "teamVariantNames": [
+        "Elite Four Flint3"
+      ]
     },
     {
       "displayName": "Elite Four Lucian",
@@ -4817,7 +3014,10 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 869
+      "trId": 869,
+      "teamVariantNames": [
+        "Elite Four Lucian"
+      ]
     },
     {
       "displayName": "Galactic Laomedeia |Coronet Highlands|",
@@ -4827,7 +3027,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 3,
-      "trId": 516
+      "trId": 516,
+      "teamVariantNames": [
+        "Galactic Laomedeia |Coronet Highlands|"
+      ]
     },
     {
       "displayName": "Galactic Proteus |Coronet Highlands|",
@@ -4837,7 +3040,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 515
+      "trId": 515,
+      "teamVariantNames": [
+        "Galactic Proteus |Coronet Highlands|"
+      ]
     },
     {
       "displayName": "Gambler John Keating |Victory Road|",
@@ -4847,7 +3053,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 228
+      "trId": 228,
+      "teamVariantNames": [
+        "Gambler John Keating |Victory Road|"
+      ]
     },
     {
       "displayName": "Tuber Jared |Route 213|",
@@ -4857,7 +3066,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 2,
-      "trId": 107
+      "trId": 107,
+      "teamVariantNames": [
+        "Tuber Jared |Route 213|"
+      ]
     },
     {
       "displayName": "Pok\u00e9 Kid Danielle",
@@ -4867,7 +3079,8 @@
       "maxLevel": null,
       "isBoss": false,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "teamVariantNames": []
     },
     {
       "displayName": "Scientist Galileo |Route 222|",
@@ -4877,7 +3090,8 @@
       "maxLevel": null,
       "isBoss": false,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "teamVariantNames": []
     }
   ]
 }

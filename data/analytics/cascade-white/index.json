@@ -1,1145 +1,19 @@
 {
   "title": "Cascade White",
   "slug": "cascade-white",
-  "generatedAt": "2026-04-16T15:36:11.324596Z",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
   "historyLimit": 100,
   "trainerCount": 105,
-  "overview": {
-    "runCount": 45,
-    "importantTrainerBattles": [
-      {
-        "displayName": "Kanto Leader Brock - Pledge Grove",
-        "sourceDisplayName": "Kanto Leader Brock - Pledge Grove",
-        "usageKey": "764",
-        "trId": 764,
-        "leadLevel": 13,
-        "maxLevel": 14,
-        "runCount": 14
-      },
-      {
-        "displayName": "Leader Cheren",
-        "sourceDisplayName": "Leader Cheren",
-        "usageKey": "156",
-        "trId": 156,
-        "leadLevel": 13,
-        "maxLevel": 15,
-        "runCount": 11
-      },
-      {
-        "displayName": "Kanto Leader Misty - Virbank City",
-        "sourceDisplayName": "Kanto Leader Misty - Virbank City",
-        "usageKey": "765",
-        "trId": 765,
-        "leadLevel": 20,
-        "maxLevel": 22,
-        "runCount": 6
-      },
-      {
-        "displayName": "Leader Roxie",
-        "sourceDisplayName": "Leader Roxie",
-        "usageKey": "157",
-        "trId": 157,
-        "leadLevel": 20,
-        "maxLevel": 23,
-        "runCount": 11
-      },
-      {
-        "displayName": "Kanto Leader Lt. Surge - Liberty Garden",
-        "sourceDisplayName": "Kanto Leader Lt. Surge - Liberty Garden",
-        "usageKey": "766",
-        "trId": 766,
-        "leadLevel": 30,
-        "maxLevel": 31,
-        "runCount": 9
-      },
-      {
-        "displayName": "Leader Burgh",
-        "sourceDisplayName": "Leader Burgh",
-        "usageKey": "154",
-        "trId": 154,
-        "leadLevel": 30,
-        "maxLevel": 32,
-        "runCount": 5
-      },
-      {
-        "displayName": "Kanto Leader Erika - Lostlorn Forest",
-        "sourceDisplayName": "Kanto Leader Erika - Lostlorn Forest",
-        "usageKey": "767",
-        "trId": 767,
-        "leadLevel": 39,
-        "maxLevel": 40,
-        "runCount": 3
-      },
-      {
-        "displayName": "Leader Elesa",
-        "sourceDisplayName": "Leader Elesa",
-        "usageKey": "153",
-        "trId": 153,
-        "leadLevel": 39,
-        "maxLevel": 41,
-        "runCount": 3
-      },
-      {
-        "displayName": "Leader Clay",
-        "sourceDisplayName": "Leader Clay",
-        "usageKey": "158",
-        "trId": 158,
-        "leadLevel": 44,
-        "maxLevel": 46,
-        "runCount": 2
-      },
-      {
-        "displayName": "Sinnoh Leader Volkner",
-        "sourceDisplayName": "Sinnoh Leader Volkner",
-        "usageKey": "493",
-        "trId": 493,
-        "leadLevel": 51,
-        "maxLevel": 52,
-        "runCount": 2
-      },
-      {
-        "displayName": "Kanto Leader Sabrina - Celestial Tower",
-        "sourceDisplayName": "Kanto Leader Sabrina - Celestial Tower",
-        "usageKey": "769",
-        "trId": 769,
-        "leadLevel": 52,
-        "maxLevel": 54,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Skyla",
-        "sourceDisplayName": "Leader Skyla",
-        "usageKey": "155",
-        "trId": 155,
-        "leadLevel": 54,
-        "maxLevel": 55,
-        "runCount": 1
-      }
-    ],
-    "starterGiftGroups": [],
-    "runDepth": {
-      "available": true,
-      "averageStep": 54.7,
-      "averagePct": 23.0,
-      "maxStep": 238,
-      "runsCounted": 45,
-      "histogram": [
-        {
-          "step": 1,
-          "count": 0
-        },
-        {
-          "step": 2,
-          "count": 0
-        },
-        {
-          "step": 3,
-          "count": 0
-        },
-        {
-          "step": 4,
-          "count": 0
-        },
-        {
-          "step": 5,
-          "count": 0
-        },
-        {
-          "step": 6,
-          "count": 0
-        },
-        {
-          "step": 7,
-          "count": 0
-        },
-        {
-          "step": 8,
-          "count": 2
-        },
-        {
-          "step": 9,
-          "count": 3
-        },
-        {
-          "step": 10,
-          "count": 0
-        },
-        {
-          "step": 11,
-          "count": 2
-        },
-        {
-          "step": 12,
-          "count": 1
-        },
-        {
-          "step": 13,
-          "count": 8
-        },
-        {
-          "step": 14,
-          "count": 0
-        },
-        {
-          "step": 15,
-          "count": 0
-        },
-        {
-          "step": 16,
-          "count": 0
-        },
-        {
-          "step": 17,
-          "count": 0
-        },
-        {
-          "step": 18,
-          "count": 0
-        },
-        {
-          "step": 19,
-          "count": 0
-        },
-        {
-          "step": 20,
-          "count": 1
-        },
-        {
-          "step": 21,
-          "count": 0
-        },
-        {
-          "step": 22,
-          "count": 1
-        },
-        {
-          "step": 23,
-          "count": 1
-        },
-        {
-          "step": 24,
-          "count": 2
-        },
-        {
-          "step": 25,
-          "count": 3
-        },
-        {
-          "step": 26,
-          "count": 1
-        },
-        {
-          "step": 27,
-          "count": 0
-        },
-        {
-          "step": 28,
-          "count": 0
-        },
-        {
-          "step": 29,
-          "count": 0
-        },
-        {
-          "step": 30,
-          "count": 1
-        },
-        {
-          "step": 31,
-          "count": 1
-        },
-        {
-          "step": 32,
-          "count": 0
-        },
-        {
-          "step": 33,
-          "count": 0
-        },
-        {
-          "step": 34,
-          "count": 0
-        },
-        {
-          "step": 35,
-          "count": 0
-        },
-        {
-          "step": 36,
-          "count": 0
-        },
-        {
-          "step": 37,
-          "count": 1
-        },
-        {
-          "step": 38,
-          "count": 0
-        },
-        {
-          "step": 39,
-          "count": 0
-        },
-        {
-          "step": 40,
-          "count": 0
-        },
-        {
-          "step": 41,
-          "count": 0
-        },
-        {
-          "step": 42,
-          "count": 1
-        },
-        {
-          "step": 43,
-          "count": 0
-        },
-        {
-          "step": 44,
-          "count": 0
-        },
-        {
-          "step": 45,
-          "count": 3
-        },
-        {
-          "step": 46,
-          "count": 0
-        },
-        {
-          "step": 47,
-          "count": 0
-        },
-        {
-          "step": 48,
-          "count": 1
-        },
-        {
-          "step": 49,
-          "count": 0
-        },
-        {
-          "step": 50,
-          "count": 0
-        },
-        {
-          "step": 51,
-          "count": 0
-        },
-        {
-          "step": 52,
-          "count": 0
-        },
-        {
-          "step": 53,
-          "count": 0
-        },
-        {
-          "step": 54,
-          "count": 0
-        },
-        {
-          "step": 55,
-          "count": 0
-        },
-        {
-          "step": 56,
-          "count": 0
-        },
-        {
-          "step": 57,
-          "count": 0
-        },
-        {
-          "step": 58,
-          "count": 0
-        },
-        {
-          "step": 59,
-          "count": 0
-        },
-        {
-          "step": 60,
-          "count": 0
-        },
-        {
-          "step": 61,
-          "count": 0
-        },
-        {
-          "step": 62,
-          "count": 0
-        },
-        {
-          "step": 63,
-          "count": 0
-        },
-        {
-          "step": 64,
-          "count": 1
-        },
-        {
-          "step": 65,
-          "count": 0
-        },
-        {
-          "step": 66,
-          "count": 0
-        },
-        {
-          "step": 67,
-          "count": 0
-        },
-        {
-          "step": 68,
-          "count": 0
-        },
-        {
-          "step": 69,
-          "count": 1
-        },
-        {
-          "step": 70,
-          "count": 0
-        },
-        {
-          "step": 71,
-          "count": 0
-        },
-        {
-          "step": 72,
-          "count": 0
-        },
-        {
-          "step": 73,
-          "count": 0
-        },
-        {
-          "step": 74,
-          "count": 0
-        },
-        {
-          "step": 75,
-          "count": 0
-        },
-        {
-          "step": 76,
-          "count": 0
-        },
-        {
-          "step": 77,
-          "count": 0
-        },
-        {
-          "step": 78,
-          "count": 0
-        },
-        {
-          "step": 79,
-          "count": 1
-        },
-        {
-          "step": 80,
-          "count": 0
-        },
-        {
-          "step": 81,
-          "count": 0
-        },
-        {
-          "step": 82,
-          "count": 0
-        },
-        {
-          "step": 83,
-          "count": 0
-        },
-        {
-          "step": 84,
-          "count": 0
-        },
-        {
-          "step": 85,
-          "count": 0
-        },
-        {
-          "step": 86,
-          "count": 0
-        },
-        {
-          "step": 87,
-          "count": 0
-        },
-        {
-          "step": 88,
-          "count": 0
-        },
-        {
-          "step": 89,
-          "count": 1
-        },
-        {
-          "step": 90,
-          "count": 0
-        },
-        {
-          "step": 91,
-          "count": 0
-        },
-        {
-          "step": 92,
-          "count": 0
-        },
-        {
-          "step": 93,
-          "count": 0
-        },
-        {
-          "step": 94,
-          "count": 1
-        },
-        {
-          "step": 95,
-          "count": 0
-        },
-        {
-          "step": 96,
-          "count": 0
-        },
-        {
-          "step": 97,
-          "count": 0
-        },
-        {
-          "step": 98,
-          "count": 0
-        },
-        {
-          "step": 99,
-          "count": 0
-        },
-        {
-          "step": 100,
-          "count": 0
-        },
-        {
-          "step": 101,
-          "count": 0
-        },
-        {
-          "step": 102,
-          "count": 0
-        },
-        {
-          "step": 103,
-          "count": 0
-        },
-        {
-          "step": 104,
-          "count": 0
-        },
-        {
-          "step": 105,
-          "count": 0
-        },
-        {
-          "step": 106,
-          "count": 0
-        },
-        {
-          "step": 107,
-          "count": 0
-        },
-        {
-          "step": 108,
-          "count": 0
-        },
-        {
-          "step": 109,
-          "count": 0
-        },
-        {
-          "step": 110,
-          "count": 0
-        },
-        {
-          "step": 111,
-          "count": 0
-        },
-        {
-          "step": 112,
-          "count": 0
-        },
-        {
-          "step": 113,
-          "count": 0
-        },
-        {
-          "step": 114,
-          "count": 0
-        },
-        {
-          "step": 115,
-          "count": 0
-        },
-        {
-          "step": 116,
-          "count": 0
-        },
-        {
-          "step": 117,
-          "count": 0
-        },
-        {
-          "step": 118,
-          "count": 0
-        },
-        {
-          "step": 119,
-          "count": 0
-        },
-        {
-          "step": 120,
-          "count": 1
-        },
-        {
-          "step": 121,
-          "count": 0
-        },
-        {
-          "step": 122,
-          "count": 0
-        },
-        {
-          "step": 123,
-          "count": 0
-        },
-        {
-          "step": 124,
-          "count": 0
-        },
-        {
-          "step": 125,
-          "count": 0
-        },
-        {
-          "step": 126,
-          "count": 0
-        },
-        {
-          "step": 127,
-          "count": 0
-        },
-        {
-          "step": 128,
-          "count": 0
-        },
-        {
-          "step": 129,
-          "count": 0
-        },
-        {
-          "step": 130,
-          "count": 0
-        },
-        {
-          "step": 131,
-          "count": 0
-        },
-        {
-          "step": 132,
-          "count": 0
-        },
-        {
-          "step": 133,
-          "count": 0
-        },
-        {
-          "step": 134,
-          "count": 0
-        },
-        {
-          "step": 135,
-          "count": 0
-        },
-        {
-          "step": 136,
-          "count": 0
-        },
-        {
-          "step": 137,
-          "count": 0
-        },
-        {
-          "step": 138,
-          "count": 0
-        },
-        {
-          "step": 139,
-          "count": 0
-        },
-        {
-          "step": 140,
-          "count": 0
-        },
-        {
-          "step": 141,
-          "count": 0
-        },
-        {
-          "step": 142,
-          "count": 0
-        },
-        {
-          "step": 143,
-          "count": 0
-        },
-        {
-          "step": 144,
-          "count": 0
-        },
-        {
-          "step": 145,
-          "count": 0
-        },
-        {
-          "step": 146,
-          "count": 0
-        },
-        {
-          "step": 147,
-          "count": 0
-        },
-        {
-          "step": 148,
-          "count": 0
-        },
-        {
-          "step": 149,
-          "count": 0
-        },
-        {
-          "step": 150,
-          "count": 0
-        },
-        {
-          "step": 151,
-          "count": 0
-        },
-        {
-          "step": 152,
-          "count": 0
-        },
-        {
-          "step": 153,
-          "count": 0
-        },
-        {
-          "step": 154,
-          "count": 0
-        },
-        {
-          "step": 155,
-          "count": 0
-        },
-        {
-          "step": 156,
-          "count": 0
-        },
-        {
-          "step": 157,
-          "count": 0
-        },
-        {
-          "step": 158,
-          "count": 0
-        },
-        {
-          "step": 159,
-          "count": 0
-        },
-        {
-          "step": 160,
-          "count": 0
-        },
-        {
-          "step": 161,
-          "count": 0
-        },
-        {
-          "step": 162,
-          "count": 0
-        },
-        {
-          "step": 163,
-          "count": 0
-        },
-        {
-          "step": 164,
-          "count": 0
-        },
-        {
-          "step": 165,
-          "count": 0
-        },
-        {
-          "step": 166,
-          "count": 1
-        },
-        {
-          "step": 167,
-          "count": 0
-        },
-        {
-          "step": 168,
-          "count": 0
-        },
-        {
-          "step": 169,
-          "count": 0
-        },
-        {
-          "step": 170,
-          "count": 0
-        },
-        {
-          "step": 171,
-          "count": 0
-        },
-        {
-          "step": 172,
-          "count": 0
-        },
-        {
-          "step": 173,
-          "count": 0
-        },
-        {
-          "step": 174,
-          "count": 0
-        },
-        {
-          "step": 175,
-          "count": 0
-        },
-        {
-          "step": 176,
-          "count": 0
-        },
-        {
-          "step": 177,
-          "count": 0
-        },
-        {
-          "step": 178,
-          "count": 0
-        },
-        {
-          "step": 179,
-          "count": 0
-        },
-        {
-          "step": 180,
-          "count": 0
-        },
-        {
-          "step": 181,
-          "count": 0
-        },
-        {
-          "step": 182,
-          "count": 0
-        },
-        {
-          "step": 183,
-          "count": 0
-        },
-        {
-          "step": 184,
-          "count": 0
-        },
-        {
-          "step": 185,
-          "count": 0
-        },
-        {
-          "step": 186,
-          "count": 0
-        },
-        {
-          "step": 187,
-          "count": 0
-        },
-        {
-          "step": 188,
-          "count": 0
-        },
-        {
-          "step": 189,
-          "count": 0
-        },
-        {
-          "step": 190,
-          "count": 0
-        },
-        {
-          "step": 191,
-          "count": 0
-        },
-        {
-          "step": 192,
-          "count": 0
-        },
-        {
-          "step": 193,
-          "count": 0
-        },
-        {
-          "step": 194,
-          "count": 0
-        },
-        {
-          "step": 195,
-          "count": 1
-        },
-        {
-          "step": 196,
-          "count": 0
-        },
-        {
-          "step": 197,
-          "count": 0
-        },
-        {
-          "step": 198,
-          "count": 0
-        },
-        {
-          "step": 199,
-          "count": 0
-        },
-        {
-          "step": 200,
-          "count": 0
-        },
-        {
-          "step": 201,
-          "count": 1
-        },
-        {
-          "step": 202,
-          "count": 0
-        },
-        {
-          "step": 203,
-          "count": 0
-        },
-        {
-          "step": 204,
-          "count": 0
-        },
-        {
-          "step": 205,
-          "count": 0
-        },
-        {
-          "step": 206,
-          "count": 1
-        },
-        {
-          "step": 207,
-          "count": 0
-        },
-        {
-          "step": 208,
-          "count": 0
-        },
-        {
-          "step": 209,
-          "count": 0
-        },
-        {
-          "step": 210,
-          "count": 0
-        },
-        {
-          "step": 211,
-          "count": 0
-        },
-        {
-          "step": 212,
-          "count": 0
-        },
-        {
-          "step": 213,
-          "count": 0
-        },
-        {
-          "step": 214,
-          "count": 0
-        },
-        {
-          "step": 215,
-          "count": 0
-        },
-        {
-          "step": 216,
-          "count": 0
-        },
-        {
-          "step": 217,
-          "count": 0
-        },
-        {
-          "step": 218,
-          "count": 0
-        },
-        {
-          "step": 219,
-          "count": 0
-        },
-        {
-          "step": 220,
-          "count": 0
-        },
-        {
-          "step": 221,
-          "count": 0
-        },
-        {
-          "step": 222,
-          "count": 0
-        },
-        {
-          "step": 223,
-          "count": 0
-        },
-        {
-          "step": 224,
-          "count": 0
-        },
-        {
-          "step": 225,
-          "count": 0
-        },
-        {
-          "step": 226,
-          "count": 0
-        },
-        {
-          "step": 227,
-          "count": 1
-        },
-        {
-          "step": 228,
-          "count": 0
-        },
-        {
-          "step": 229,
-          "count": 0
-        },
-        {
-          "step": 230,
-          "count": 0
-        },
-        {
-          "step": 231,
-          "count": 0
-        },
-        {
-          "step": 232,
-          "count": 0
-        },
-        {
-          "step": 233,
-          "count": 0
-        },
-        {
-          "step": 234,
-          "count": 0
-        },
-        {
-          "step": 235,
-          "count": 1
-        },
-        {
-          "step": 236,
-          "count": 0
-        },
-        {
-          "step": 237,
-          "count": 0
-        },
-        {
-          "step": 238,
-          "count": 0
-        }
-      ],
-      "importantTrainerMarkers": [
-        {
-          "label": "Kanto Leader Brock - Pledge Grove",
-          "step": 20,
-          "usageKey": "764"
-        },
-        {
-          "label": "Leader Cheren",
-          "step": 25,
-          "usageKey": "156"
-        },
-        {
-          "label": "Kanto Leader Misty - Virbank City",
-          "step": 35,
-          "usageKey": "765"
-        },
-        {
-          "label": "Leader Roxie",
-          "step": 45,
-          "usageKey": "157"
-        },
-        {
-          "label": "Kanto Leader Lt. Surge - Liberty Garden",
-          "step": 64,
-          "usageKey": "766"
-        },
-        {
-          "label": "Leader Burgh",
-          "step": 69,
-          "usageKey": "154"
-        },
-        {
-          "label": "Kanto Leader Erika - Lostlorn Forest",
-          "step": 120,
-          "usageKey": "767"
-        },
-        {
-          "label": "Leader Elesa",
-          "step": 126,
-          "usageKey": "153"
-        },
-        {
-          "label": "Leader Clay",
-          "step": 156,
-          "usageKey": "158"
-        },
-        {
-          "label": "Sinnoh Leader Volkner",
-          "step": 205,
-          "usageKey": "493"
-        },
-        {
-          "label": "Kanto Leader Sabrina - Celestial Tower",
-          "step": 221,
-          "usageKey": "769"
-        },
-        {
-          "label": "Leader Skyla",
-          "step": 227,
-          "usageKey": "155"
-        }
-      ]
-    }
+  "overviewFile": "overview.json",
+  "overviewMeta": {
+    "runDepthAvailable": true,
+    "maxStep": 238,
+    "defaultMinDepth": 1
+  },
+  "pokemonIndexFile": "pokemon/index.json",
+  "pokemonMeta": {
+    "available": true,
+    "familyToggleDefault": "family"
   },
   "trainers": [
     {
@@ -1150,7 +24,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 4,
-      "trId": 182
+      "trId": 182,
+      "teamVariantNames": [
+        "Janitor Orville - Floccesy Ranch"
+      ]
     },
     {
       "displayName": "Lass Molly - Floccesy Ranch",
@@ -1160,7 +37,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 4,
-      "trId": 181
+      "trId": 181,
+      "teamVariantNames": [
+        "Lass Molly - Floccesy Ranch"
+      ]
     },
     {
       "displayName": "PkMn Trainer Rival4 - Starter 1",
@@ -1170,7 +50,10 @@
       "maxLevel": 11,
       "isBoss": false,
       "partySize": 4,
-      "trId": 166
+      "trId": 166,
+      "teamVariantNames": [
+        "PkMn Trainer Rival4 - Starter 1"
+      ]
     },
     {
       "displayName": "PkMn Trainer Rival5 - Starter 2",
@@ -1180,7 +63,10 @@
       "maxLevel": 11,
       "isBoss": false,
       "partySize": 4,
-      "trId": 167
+      "trId": 167,
+      "teamVariantNames": [
+        "PkMn Trainer Rival5 - Starter 2"
+      ]
     },
     {
       "displayName": "PkMn Trainer Rival6 - Starter 3",
@@ -1190,7 +76,10 @@
       "maxLevel": 11,
       "isBoss": false,
       "partySize": 4,
-      "trId": 168
+      "trId": 168,
+      "teamVariantNames": [
+        "PkMn Trainer Rival6 - Starter 3"
+      ]
     },
     {
       "displayName": "Youngster Kenny - Floccesy Ranch",
@@ -1200,7 +89,10 @@
       "maxLevel": 10,
       "isBoss": false,
       "partySize": 4,
-      "trId": 180
+      "trId": 180,
+      "teamVariantNames": [
+        "Youngster Kenny - Floccesy Ranch"
+      ]
     },
     {
       "displayName": "Lass Serena",
@@ -1210,7 +102,10 @@
       "maxLevel": 13,
       "isBoss": false,
       "partySize": 4,
-      "trId": 172
+      "trId": 172,
+      "teamVariantNames": [
+        "Lass Serena"
+      ]
     },
     {
       "displayName": "School Kid Alberta",
@@ -1220,7 +115,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 4,
-      "trId": 455
+      "trId": 455,
+      "teamVariantNames": [
+        "School Kid Alberta"
+      ]
     },
     {
       "displayName": "School Kid Cassie",
@@ -1230,7 +128,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 3,
-      "trId": 170
+      "trId": 170,
+      "teamVariantNames": [
+        "School Kid Cassie"
+      ]
     },
     {
       "displayName": "School Kid Cassie2",
@@ -1240,7 +141,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 3,
-      "trId": 748
+      "trId": 748,
+      "teamVariantNames": [
+        "School Kid Cassie2"
+      ]
     },
     {
       "displayName": "School Kid Cassie3",
@@ -1250,7 +154,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 3,
-      "trId": 750
+      "trId": 750,
+      "teamVariantNames": [
+        "School Kid Cassie3"
+      ]
     },
     {
       "displayName": "School Kid Keston - Pinwheel Forest",
@@ -1260,7 +167,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 4,
-      "trId": 633
+      "trId": 633,
+      "teamVariantNames": [
+        "School Kid Keston - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "School Kid Marsha - Route 3",
@@ -1270,7 +180,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 4,
-      "trId": 394
+      "trId": 394,
+      "teamVariantNames": [
+        "School Kid Marsha - Route 3"
+      ]
     },
     {
       "displayName": "School Kid Seymour",
@@ -1280,7 +193,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 3,
-      "trId": 169
+      "trId": 169,
+      "teamVariantNames": [
+        "School Kid Seymour"
+      ]
     },
     {
       "displayName": "School Kid Seymour2",
@@ -1290,7 +206,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 3,
-      "trId": 747
+      "trId": 747,
+      "teamVariantNames": [
+        "School Kid Seymour2"
+      ]
     },
     {
       "displayName": "School Kid Seymour3",
@@ -1300,7 +219,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 3,
-      "trId": 749
+      "trId": 749,
+      "teamVariantNames": [
+        "School Kid Seymour3"
+      ]
     },
     {
       "displayName": "Kanto Leader Brock - Pledge Grove",
@@ -1311,7 +233,9 @@
       "isBoss": true,
       "partySize": 5,
       "trId": 764,
-      "sourceDisplayName": "Kanto Leader Brock - Pledge Grove"
+      "teamVariantNames": [
+        "Kanto Leader Brock - Pledge Grove"
+      ]
     },
     {
       "displayName": "Leader Cheren",
@@ -1322,7 +246,9 @@
       "isBoss": true,
       "partySize": 5,
       "trId": 156,
-      "sourceDisplayName": "Leader Cheren"
+      "teamVariantNames": [
+        "Leader Cheren"
+      ]
     },
     {
       "displayName": "Rival Benga3 - Floccesy Ranch - Starter 3",
@@ -1332,7 +258,10 @@
       "maxLevel": 13,
       "isBoss": false,
       "partySize": 4,
-      "trId": 772
+      "trId": 772,
+      "teamVariantNames": [
+        "Rival Benga3 - Floccesy Ranch - Starter 3"
+      ]
     },
     {
       "displayName": "Youngster Pedro",
@@ -1342,7 +271,10 @@
       "maxLevel": 13,
       "isBoss": false,
       "partySize": 4,
-      "trId": 171
+      "trId": 171,
+      "teamVariantNames": [
+        "Youngster Pedro"
+      ]
     },
     {
       "displayName": "Preschooler Albert - Route 20",
@@ -1352,7 +284,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 4,
-      "trId": 173
+      "trId": 173,
+      "teamVariantNames": [
+        "Preschooler Albert - Route 20"
+      ]
     },
     {
       "displayName": "Preschooler Lin - Route 20",
@@ -1362,7 +297,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 4,
-      "trId": 174
+      "trId": 174,
+      "teamVariantNames": [
+        "Preschooler Lin - Route 20"
+      ]
     },
     {
       "displayName": "Hiker Jerome",
@@ -1372,7 +310,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 4,
-      "trId": 206
+      "trId": 206,
+      "teamVariantNames": [
+        "Hiker Jerome"
+      ]
     },
     {
       "displayName": "Nursery Aide Kimya - Route 20",
@@ -1382,7 +323,10 @@
       "maxLevel": 17,
       "isBoss": false,
       "partySize": 5,
-      "trId": 176
+      "trId": 176,
+      "teamVariantNames": [
+        "Nursery Aide Kimya - Route 20"
+      ]
     },
     {
       "displayName": "PkMn Trainer Rival16 - Starter 1",
@@ -1392,7 +336,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 5,
-      "trId": 556
+      "trId": 556,
+      "teamVariantNames": [
+        "PkMn Trainer Rival16 - Starter 1"
+      ]
     },
     {
       "displayName": "PkMn Trainer Rival17 - Abundant Shrine - Starter 2",
@@ -1402,7 +349,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 5,
-      "trId": 557
+      "trId": 557,
+      "teamVariantNames": [
+        "PkMn Trainer Rival17 - Abundant Shrine - Starter 2"
+      ]
     },
     {
       "displayName": "PkMn Trainer Rival18 - Abundant Shrine - Starter 3",
@@ -1412,7 +362,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 5,
-      "trId": 558
+      "trId": 558,
+      "teamVariantNames": [
+        "PkMn Trainer Rival18 - Abundant Shrine - Starter 3"
+      ]
     },
     {
       "displayName": "Youngster Masahiro - Virbank Complex",
@@ -1422,7 +375,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 4,
-      "trId": 745
+      "trId": 745,
+      "teamVariantNames": [
+        "Youngster Masahiro - Virbank Complex"
+      ]
     },
     {
       "displayName": "Youngster Waylon - Virbank Complex",
@@ -1432,7 +388,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 4,
-      "trId": 746
+      "trId": 746,
+      "teamVariantNames": [
+        "Youngster Waylon - Virbank Complex"
+      ]
     },
     {
       "displayName": "Lass Daya - Virbank Complex",
@@ -1442,7 +401,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 5,
-      "trId": 738
+      "trId": 738,
+      "teamVariantNames": [
+        "Lass Daya - Virbank Complex"
+      ]
     },
     {
       "displayName": "Twins Lia & Lily - Route 20",
@@ -1452,7 +414,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 4,
-      "trId": 175
+      "trId": 175,
+      "teamVariantNames": [
+        "Twins Lia & Lily - Route 20"
+      ]
     },
     {
       "displayName": "Worker Isaac",
@@ -1462,7 +427,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 4,
-      "trId": 203
+      "trId": 203,
+      "teamVariantNames": [
+        "Worker Isaac"
+      ]
     },
     {
       "displayName": "Worker Nathan",
@@ -1472,7 +440,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 4,
-      "trId": 205
+      "trId": 205,
+      "teamVariantNames": [
+        "Worker Nathan"
+      ]
     },
     {
       "displayName": "Youngster Keita - Virbank Complex",
@@ -1482,7 +453,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 4,
-      "trId": 645
+      "trId": 645,
+      "teamVariantNames": [
+        "Youngster Keita - Virbank Complex"
+      ]
     },
     {
       "displayName": "Guitarist Billy Jo",
@@ -1492,7 +466,10 @@
       "maxLevel": 21,
       "isBoss": false,
       "partySize": 5,
-      "trId": 179
+      "trId": 179,
+      "teamVariantNames": [
+        "Guitarist Billy Jo"
+      ]
     },
     {
       "displayName": "Scientist Bryce - Virbank City",
@@ -1502,7 +479,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 4,
-      "trId": 555
+      "trId": 555,
+      "teamVariantNames": [
+        "Scientist Bryce - Virbank City"
+      ]
     },
     {
       "displayName": "Worker Mitchell",
@@ -1512,7 +492,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 4,
-      "trId": 204
+      "trId": 204,
+      "teamVariantNames": [
+        "Worker Mitchell"
+      ]
     },
     {
       "displayName": "Kanto Leader Misty - Virbank City",
@@ -1523,7 +506,9 @@
       "isBoss": true,
       "partySize": 5,
       "trId": 765,
-      "sourceDisplayName": "Kanto Leader Misty - Virbank City"
+      "teamVariantNames": [
+        "Kanto Leader Misty - Virbank City"
+      ]
     },
     {
       "displayName": "Leader Roxie",
@@ -1534,7 +519,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 157,
-      "sourceDisplayName": "Leader Roxie"
+      "teamVariantNames": [
+        "Leader Roxie"
+      ]
     },
     {
       "displayName": "Roughneck Nicky",
@@ -1544,7 +531,10 @@
       "maxLevel": 21,
       "isBoss": false,
       "partySize": 5,
-      "trId": 178
+      "trId": 178,
+      "teamVariantNames": [
+        "Roughneck Nicky"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt44",
@@ -1554,7 +544,10 @@
       "maxLevel": 25,
       "isBoss": false,
       "partySize": 4,
-      "trId": 690
+      "trId": 690,
+      "teamVariantNames": [
+        "Team Plasma Grunt44"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt48",
@@ -1564,7 +557,10 @@
       "maxLevel": 25,
       "isBoss": false,
       "partySize": 4,
-      "trId": 763
+      "trId": 763,
+      "teamVariantNames": [
+        "Team Plasma Grunt48"
+      ]
     },
     {
       "displayName": "Pokefan Norbert - Route 4",
@@ -1574,7 +570,10 @@
       "maxLevel": 26,
       "isBoss": false,
       "partySize": 5,
-      "trId": 224
+      "trId": 224,
+      "teamVariantNames": [
+        "Pokefan Norbert - Route 4"
+      ]
     },
     {
       "displayName": "Nurse Kirsten - Castelia Sewers",
@@ -1584,7 +583,10 @@
       "maxLevel": 26,
       "isBoss": false,
       "partySize": 2,
-      "trId": 119
+      "trId": 119,
+      "teamVariantNames": [
+        "Nurse Kirsten - Castelia Sewers"
+      ]
     },
     {
       "displayName": "Clerk F Britney - Castelia City",
@@ -1594,7 +596,10 @@
       "maxLevel": 28,
       "isBoss": false,
       "partySize": 4,
-      "trId": 691
+      "trId": 691,
+      "teamVariantNames": [
+        "Clerk F Britney - Castelia City"
+      ]
     },
     {
       "displayName": "Clerk M Clemens",
@@ -1604,7 +609,10 @@
       "maxLevel": 28,
       "isBoss": false,
       "partySize": 4,
-      "trId": 501
+      "trId": 501,
+      "teamVariantNames": [
+        "Clerk M Clemens"
+      ]
     },
     {
       "displayName": "Clerk M Warren",
@@ -1614,7 +622,10 @@
       "maxLevel": 28,
       "isBoss": false,
       "partySize": 4,
-      "trId": 502
+      "trId": 502,
+      "teamVariantNames": [
+        "Clerk M Warren"
+      ]
     },
     {
       "displayName": "Janitor Brady - Castelia Sewers",
@@ -1624,7 +635,10 @@
       "maxLevel": 28,
       "isBoss": false,
       "partySize": 5,
-      "trId": 462
+      "trId": 462,
+      "teamVariantNames": [
+        "Janitor Brady - Castelia Sewers"
+      ]
     },
     {
       "displayName": "Worker Scott - Relic Passage",
@@ -1634,7 +648,10 @@
       "maxLevel": 28,
       "isBoss": false,
       "partySize": 5,
-      "trId": 466
+      "trId": 466,
+      "teamVariantNames": [
+        "Worker Scott - Relic Passage"
+      ]
     },
     {
       "displayName": "Clerk M Gilligan - Castelia City",
@@ -1644,7 +661,10 @@
       "maxLevel": 28,
       "isBoss": false,
       "partySize": 4,
-      "trId": 692
+      "trId": 692,
+      "teamVariantNames": [
+        "Clerk M Gilligan - Castelia City"
+      ]
     },
     {
       "displayName": "Harlequin Jack",
@@ -1654,7 +674,10 @@
       "maxLevel": 29,
       "isBoss": false,
       "partySize": 4,
-      "trId": 735
+      "trId": 735,
+      "teamVariantNames": [
+        "Harlequin Jack"
+      ]
     },
     {
       "displayName": "Roughneck Chance - Route 9",
@@ -1664,7 +687,10 @@
       "maxLevel": 28,
       "isBoss": false,
       "partySize": 4,
-      "trId": 329
+      "trId": 329,
+      "teamVariantNames": [
+        "Roughneck Chance - Route 9"
+      ]
     },
     {
       "displayName": "Harlequin Anders - Castelia City",
@@ -1674,7 +700,10 @@
       "maxLevel": 30,
       "isBoss": false,
       "partySize": 5,
-      "trId": 737
+      "trId": 737,
+      "teamVariantNames": [
+        "Harlequin Anders - Castelia City"
+      ]
     },
     {
       "displayName": "Harlequin Clarence - Castelia City",
@@ -1684,7 +713,10 @@
       "maxLevel": 29,
       "isBoss": false,
       "partySize": 4,
-      "trId": 734
+      "trId": 734,
+      "teamVariantNames": [
+        "Harlequin Clarence - Castelia City"
+      ]
     },
     {
       "displayName": "Harlequin Gary - Castelia City",
@@ -1694,7 +726,10 @@
       "maxLevel": 29,
       "isBoss": false,
       "partySize": 4,
-      "trId": 736
+      "trId": 736,
+      "teamVariantNames": [
+        "Harlequin Gary - Castelia City"
+      ]
     },
     {
       "displayName": "School Kid Neil",
@@ -1704,7 +739,10 @@
       "maxLevel": 29,
       "isBoss": false,
       "partySize": 5,
-      "trId": 503
+      "trId": 503,
+      "teamVariantNames": [
+        "School Kid Neil"
+      ]
     },
     {
       "displayName": "Kanto Leader Lt. Surge - Liberty Garden",
@@ -1715,7 +753,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 766,
-      "sourceDisplayName": "Kanto Leader Lt. Surge - Liberty Garden"
+      "teamVariantNames": [
+        "Kanto Leader Lt. Surge - Liberty Garden"
+      ]
     },
     {
       "displayName": "Leader Burgh",
@@ -1726,7 +766,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 154,
-      "sourceDisplayName": "Leader Burgh"
+      "teamVariantNames": [
+        "Leader Burgh"
+      ]
     },
     {
       "displayName": "Twins Tara & Val - Route 4",
@@ -1736,7 +778,10 @@
       "maxLevel": 34,
       "isBoss": false,
       "partySize": 4,
-      "trId": 226
+      "trId": 226,
+      "teamVariantNames": [
+        "Twins Tara & Val - Route 4"
+      ]
     },
     {
       "displayName": "Team Plasma Colress2",
@@ -1746,7 +791,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 5,
-      "trId": 358
+      "trId": 358,
+      "teamVariantNames": [
+        "Team Plasma Colress2"
+      ]
     },
     {
       "displayName": "Cosplayer Cassie - Join Avenue",
@@ -1756,7 +804,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 3,
-      "trId": 13
+      "trId": 13,
+      "teamVariantNames": [
+        "Cosplayer Cassie - Join Avenue"
+      ]
     },
     {
       "displayName": "Cosplayer Jared - Join Avenue",
@@ -1766,7 +817,10 @@
       "maxLevel": 35,
       "isBoss": false,
       "partySize": 3,
-      "trId": 59
+      "trId": 59,
+      "teamVariantNames": [
+        "Cosplayer Jared - Join Avenue"
+      ]
     },
     {
       "displayName": "Lady Lina - Route 4",
@@ -1776,7 +830,10 @@
       "maxLevel": 36,
       "isBoss": false,
       "partySize": 4,
-      "trId": 147
+      "trId": 147,
+      "teamVariantNames": [
+        "Lady Lina - Route 4"
+      ]
     },
     {
       "displayName": "Cosplayer Amy - Join Avenue",
@@ -1786,7 +843,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 3,
-      "trId": 248
+      "trId": 248,
+      "teamVariantNames": [
+        "Cosplayer Amy - Join Avenue"
+      ]
     },
     {
       "displayName": "Cosplayer Anders - Join Avenue",
@@ -1796,7 +856,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 3,
-      "trId": 48
+      "trId": 48,
+      "teamVariantNames": [
+        "Cosplayer Anders - Join Avenue"
+      ]
     },
     {
       "displayName": "PkMn Ranger Jaden - Desert Resort",
@@ -1806,7 +869,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 4,
-      "trId": 666
+      "trId": 666,
+      "teamVariantNames": [
+        "PkMn Ranger Jaden - Desert Resort"
+      ]
     },
     {
       "displayName": "Rival Benga4 - Route 4 - Starter 3",
@@ -1816,7 +882,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 5,
-      "trId": 773
+      "trId": 773,
+      "teamVariantNames": [
+        "Rival Benga4 - Route 4 - Starter 3"
+      ]
     },
     {
       "displayName": "Backers Bob & Rob - Nimbasa City",
@@ -1826,7 +895,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 2,
-      "trId": 51
+      "trId": 51,
+      "teamVariantNames": [
+        "Backers Bob & Rob - Nimbasa City"
+      ]
     },
     {
       "displayName": "Backers Kay & May - Nimbasa City",
@@ -1836,7 +908,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 2,
-      "trId": 52
+      "trId": 52,
+      "teamVariantNames": [
+        "Backers Kay & May - Nimbasa City"
+      ]
     },
     {
       "displayName": "Beauty Nikola",
@@ -1846,7 +921,10 @@
       "maxLevel": 38,
       "isBoss": false,
       "partySize": 4,
-      "trId": 207
+      "trId": 207,
+      "teamVariantNames": [
+        "Beauty Nikola"
+      ]
     },
     {
       "displayName": "Cosplayer Miriam - Join Avenue",
@@ -1856,7 +934,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 4,
-      "trId": 251
+      "trId": 251,
+      "teamVariantNames": [
+        "Cosplayer Miriam - Join Avenue"
+      ]
     },
     {
       "displayName": "Psychic Future - Desert Resort",
@@ -1866,7 +947,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 4,
-      "trId": 669
+      "trId": 669,
+      "teamVariantNames": [
+        "Psychic Future - Desert Resort"
+      ]
     },
     {
       "displayName": "Kanto Leader Erika - Lostlorn Forest",
@@ -1877,7 +961,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 767,
-      "sourceDisplayName": "Kanto Leader Erika - Lostlorn Forest"
+      "teamVariantNames": [
+        "Kanto Leader Erika - Lostlorn Forest"
+      ]
     },
     {
       "displayName": "Leader Elesa",
@@ -1888,7 +974,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 153,
-      "sourceDisplayName": "Leader Elesa"
+      "teamVariantNames": [
+        "Leader Elesa"
+      ]
     },
     {
       "displayName": "Linebacker Dan3 - Driftveil Drawbridge",
@@ -1898,7 +986,10 @@
       "maxLevel": 39,
       "isBoss": false,
       "partySize": 3,
-      "trId": 65
+      "trId": 65,
+      "teamVariantNames": [
+        "Linebacker Dan3 - Driftveil Drawbridge"
+      ]
     },
     {
       "displayName": "Infielder Alex3 - Driftveil Drawbridge",
@@ -1908,7 +999,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 3,
-      "trId": 56
+      "trId": 56,
+      "teamVariantNames": [
+        "Infielder Alex3 - Driftveil Drawbridge"
+      ]
     },
     {
       "displayName": "Infielder Connor - Driftveil Drawbridge",
@@ -1918,7 +1012,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 3,
-      "trId": 57
+      "trId": 57,
+      "teamVariantNames": [
+        "Infielder Connor - Driftveil Drawbridge"
+      ]
     },
     {
       "displayName": "Smasher Aspen3 - Driftveil Drawbridge",
@@ -1928,7 +1025,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 3,
-      "trId": 249
+      "trId": 249,
+      "teamVariantNames": [
+        "Smasher Aspen3 - Driftveil Drawbridge"
+      ]
     },
     {
       "displayName": "Worker Noel",
@@ -1938,7 +1038,10 @@
       "maxLevel": 43,
       "isBoss": false,
       "partySize": 5,
-      "trId": 324
+      "trId": 324,
+      "teamVariantNames": [
+        "Worker Noel"
+      ]
     },
     {
       "displayName": "Leader Clay",
@@ -1949,7 +1052,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 158,
-      "sourceDisplayName": "Leader Clay"
+      "teamVariantNames": [
+        "Leader Clay"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt5",
@@ -1959,7 +1064,10 @@
       "maxLevel": 46,
       "isBoss": false,
       "partySize": 4,
-      "trId": 372
+      "trId": 372,
+      "teamVariantNames": [
+        "Team Plasma Grunt5"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt6",
@@ -1969,7 +1077,10 @@
       "maxLevel": 46,
       "isBoss": false,
       "partySize": 4,
-      "trId": 373
+      "trId": 373,
+      "teamVariantNames": [
+        "Team Plasma Grunt6"
+      ]
     },
     {
       "displayName": "Team Plasma Colress4 - Chargestone Cave",
@@ -1979,7 +1090,10 @@
       "maxLevel": 48,
       "isBoss": false,
       "partySize": 6,
-      "trId": 739
+      "trId": 739,
+      "teamVariantNames": [
+        "Team Plasma Colress4 - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Dancer Kidd - Chargestone Cave",
@@ -1989,7 +1103,10 @@
       "maxLevel": 48,
       "isBoss": false,
       "partySize": 4,
-      "trId": 743
+      "trId": 743,
+      "teamVariantNames": [
+        "Dancer Kidd - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Guitarist Anna - Chargestone Cave",
@@ -1999,7 +1116,10 @@
       "maxLevel": 48,
       "isBoss": false,
       "partySize": 4,
-      "trId": 537
+      "trId": 537,
+      "teamVariantNames": [
+        "Guitarist Anna - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Hiker Jameson - Chargestone Cave",
@@ -2009,7 +1129,10 @@
       "maxLevel": 49,
       "isBoss": false,
       "partySize": 4,
-      "trId": 741
+      "trId": 741,
+      "teamVariantNames": [
+        "Hiker Jameson - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Hiker Otto - Chargestone Cave",
@@ -2019,7 +1142,10 @@
       "maxLevel": 48,
       "isBoss": false,
       "partySize": 4,
-      "trId": 539
+      "trId": 539,
+      "teamVariantNames": [
+        "Hiker Otto - Chargestone Cave"
+      ]
     },
     {
       "displayName": "PkMn Ranger Briana - Chargestone Cave",
@@ -2029,7 +1155,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 543
+      "trId": 543,
+      "teamVariantNames": [
+        "PkMn Ranger Briana - Chargestone Cave"
+      ]
     },
     {
       "displayName": "PkMn Ranger Louis - Chargestone Cave",
@@ -2039,7 +1168,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 544
+      "trId": 544,
+      "teamVariantNames": [
+        "PkMn Ranger Louis - Chargestone Cave"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca - Dreamyard",
@@ -2049,7 +1181,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 5,
-      "trId": 593
+      "trId": 593,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca - Dreamyard"
+      ]
     },
     {
       "displayName": "PkMn Trainer Rival14 - Starter 2",
@@ -2059,7 +1194,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 6,
-      "trId": 488
+      "trId": 488,
+      "teamVariantNames": [
+        "PkMn Trainer Rival14 - Starter 2"
+      ]
     },
     {
       "displayName": "School Kid Dwight - Chargestone Cave",
@@ -2069,7 +1207,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 16
+      "trId": 16,
+      "teamVariantNames": [
+        "School Kid Dwight - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Ace Trainer Belle - Mistralton Cave",
@@ -2079,7 +1220,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 4,
-      "trId": 683
+      "trId": 683,
+      "teamVariantNames": [
+        "Ace Trainer Belle - Mistralton Cave"
+      ]
     },
     {
       "displayName": "Ace Trainer Vicki - Chargestone Cave",
@@ -2089,7 +1233,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 545
+      "trId": 545,
+      "teamVariantNames": [
+        "Ace Trainer Vicki - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Beauty Monika - Chargestone Cave",
@@ -2099,7 +1246,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 744
+      "trId": 744,
+      "teamVariantNames": [
+        "Beauty Monika - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Doctor Kit - Chargestone Cave",
@@ -2109,7 +1259,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 671
+      "trId": 671,
+      "teamVariantNames": [
+        "Doctor Kit - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Old Statue - Pinwheel Forest",
@@ -2119,7 +1272,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 5,
-      "trId": 634
+      "trId": 634,
+      "teamVariantNames": [
+        "Old Statue - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "Scientist Lumi - Chargestone Cave",
@@ -2129,7 +1285,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 542
+      "trId": 542,
+      "teamVariantNames": [
+        "Scientist Lumi - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Scientist Ronald - Chargestone Cave",
@@ -2139,7 +1298,10 @@
       "maxLevel": 50,
       "isBoss": false,
       "partySize": 4,
-      "trId": 541
+      "trId": 541,
+      "teamVariantNames": [
+        "Scientist Ronald - Chargestone Cave"
+      ]
     },
     {
       "displayName": "PkMn Trainer Rival13 - Clay Tunnel - Starter 1",
@@ -2149,7 +1311,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 6,
-      "trId": 487
+      "trId": 487,
+      "teamVariantNames": [
+        "PkMn Trainer Rival13 - Clay Tunnel - Starter 1"
+      ]
     },
     {
       "displayName": "Sinnoh Leader Volkner",
@@ -2160,7 +1325,9 @@
       "isBoss": true,
       "partySize": 5,
       "trId": 493,
-      "sourceDisplayName": "Sinnoh Leader Volkner"
+      "teamVariantNames": [
+        "Sinnoh Leader Volkner"
+      ]
     },
     {
       "displayName": "Kanto Leader Sabrina - Celestial Tower",
@@ -2171,7 +1338,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 769,
-      "sourceDisplayName": "Kanto Leader Sabrina - Celestial Tower"
+      "teamVariantNames": [
+        "Kanto Leader Sabrina - Celestial Tower"
+      ]
     },
     {
       "displayName": "Pilot Chase - Mistralton City",
@@ -2181,7 +1350,10 @@
       "maxLevel": 53,
       "isBoss": false,
       "partySize": 5,
-      "trId": 152
+      "trId": 152,
+      "teamVariantNames": [
+        "Pilot Chase - Mistralton City"
+      ]
     },
     {
       "displayName": "Leader Skyla",
@@ -2192,7 +1364,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 155,
-      "sourceDisplayName": "Leader Skyla"
+      "teamVariantNames": [
+        "Leader Skyla"
+      ]
     },
     {
       "displayName": "Janitor Orville - Floccesy Ranch",
@@ -2202,7 +1376,8 @@
       "maxLevel": null,
       "isBoss": false,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "teamVariantNames": []
     }
   ]
 }

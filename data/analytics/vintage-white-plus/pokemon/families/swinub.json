@@ -1,0 +1,163 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "swinub",
+  "familyMembers": [
+    "Mamoswine",
+    "Piloswine",
+    "Swinub"
+  ],
+  "speciesEntries": {
+    "Mamoswine": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "242",
+              "displayName": "Hiker Darrell - Twist Mountain",
+              "leadLevel": 68,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Swinub": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "231",
+              "displayName": "Elite Four Caitlin",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "230",
+              "displayName": "Elite Four Grimsley",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "229",
+              "displayName": "Elite Four Marshal",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "228",
+              "displayName": "Elite Four Shauntal",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "232",
+              "displayName": "Team Plasma Ghetsis",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "586",
+              "displayName": "Team Plasma N3",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 2,
+        "averageParticipationPct": 0.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 0.0,
+        "topBattles": [
+          {
+            "usageKey": "231",
+            "displayName": "Elite Four Caitlin",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "230",
+            "displayName": "Elite Four Grimsley",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "229",
+            "displayName": "Elite Four Marshal",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "228",
+            "displayName": "Elite Four Shauntal",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "242",
+            "displayName": "Hiker Darrell - Twist Mountain",
+            "leadLevel": 68,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "232",
+            "displayName": "Team Plasma Ghetsis",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "586",
+            "displayName": "Team Plasma N3",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

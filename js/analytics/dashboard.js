@@ -3,21 +3,62 @@ TITLE = document.title.split(" Usage Data")[0];
 window.allPoks = {};
 window.analyticsIndexData = null;
 window.analyticsManifest = null;
+window.analyticsOverviewData = null;
+window.analyticsOverviewState = {
+  minDepth: 1,
+  currentSnapshot: null,
+  starterSorts: {},
+};
+window.analyticsPokemonState = {
+  selectedSpecies: null,
+  familyMode: true,
+  pokemonIndexData: null,
+  pokemonDetailData: null,
+};
+window.dashboardCalculatorUrl = null;
+window.dashboardCalculatorUrlPromise = null;
 
 const TRAINERS = {};
-const OVERVIEW_CHART_COLORS = [
-  "#8be9fd",
-  "#50fa7b",
-  "#ff79c6",
-  "#bd93f9",
-  "#f1fa8c",
-  "#ffb86c",
-  "#ff5555",
-  "#7df9ff",
-];
+const TYPE_COLORS = {
+  Normal: "#A8A77A",
+  Fire: "#EE8130",
+  Water: "#6390F0",
+  Electric: "#F7D02C",
+  Grass: "#7AC74C",
+  Ice: "#96D9D6",
+  Fighting: "#C22E28",
+  Poison: "#A33EA1",
+  Ground: "#E2BF65",
+  Flying: "#A98FF3",
+  Psychic: "#F95587",
+  Bug: "#A6B91A",
+  Rock: "#B6A136",
+  Ghost: "#735797",
+  Dragon: "#6F35FC",
+  Dark: "#705746",
+  Steel: "#B7B7CE",
+  Fairy: "#D685AD",
+};
+const OVERVIEW_CHART_FALLBACK_COLOR = "#8be9fd";
+const starterChartSpriteCache = new Map();
 
 let latestAnalyticsRequestId = 0;
 let overviewCharts = [];
+let isRoutingDashboardState = false;
+
+const CALCULATOR_TITLE_CANDIDATES = {
+  "Emerald Imperium 1.3": ["Emerald Imperium 1.3 w/ EVs", "Emerald Imperium 1.3 No EVs"],
+  "Pokemon Null": ["Pokemon Null 1.2", "Pokemon Null 1.1"],
+  "Cascade White": ["Cascade White (NEW)", "Cascade White 2"],
+};
+const CALCULATOR_URL_FALLBACKS = {
+  "Emerald Imperium 1.3": "?data=imp13&dmgGen=8&gen=8&types=6&noSwitch=1&evs=1",
+  "Renegade Platinum": "?data=renegadeplatinum",
+  "Platinum Kaizo": "?data=pk&noSwitch=1",
+  "Pokemon Null": "?data=null",
+  "Cascade White": "?data=casc&critGen=5",
+  "Vintage White Plus": "?data=vwplus",
+};
 
 getTrainerNames();
 
@@ -30,11 +71,107 @@ function leadLevel(teamArr) {
 }
 
 function dashboardConfig() {
-  return (window.DASHBOARD_GAME_CONFIG && window.DASHBOARD_GAME_CONFIG[TITLE]) || {};
+  const config = window.DASHBOARD_GAME_CONFIG || {};
+  const resolvedTitle = typeof window.resolveOfflineAnalyticsTitle === "function"
+    ? window.resolveOfflineAnalyticsTitle(TITLE, window.analyticsManifest || { titles: config })
+    : TITLE;
+  return config[TITLE] || config[resolvedTitle] || {};
 }
 
 function dashboardAssetBase() {
   return String(window.DASHBOARD_ASSET_BASE || ".").replace(/\/+$/, "");
+}
+
+function resolvedDashboardTitle() {
+  return typeof window.resolveOfflineAnalyticsTitle === "function"
+    ? window.resolveOfflineAnalyticsTitle(TITLE, window.analyticsManifest || { titles: {} })
+    : TITLE;
+}
+
+function isNullDashboard() {
+  return resolvedDashboardTitle() === "Pokemon Null";
+}
+
+function stripLocationSuffix(name) {
+  return String(name ?? "").replace(/\s+\|[^|]+\|$/g, "").trim();
+}
+
+function displayTrainerName(name) {
+  const text = String(name ?? "").trim();
+  if (!text) return "";
+  return isNullDashboard() ? stripLocationSuffix(text) : text;
+}
+
+function calculatorTitleCandidates() {
+  const resolvedTitle = resolvedDashboardTitle();
+  const candidates = [
+    ...(CALCULATOR_TITLE_CANDIDATES[resolvedTitle] || []),
+    resolvedTitle,
+    TITLE,
+  ].filter(Boolean);
+  return [...new Set(candidates)];
+}
+
+function relativeCalculatorUrlFromSource(source) {
+  const url = new URL(source, `${window.location.origin}${dashboardAssetBase()}/index.html`);
+  return `${dashboardAssetBase()}/index.html${url.search || ""}${url.hash || ""}`;
+}
+
+function findCalculatorOption(options) {
+  const candidates = calculatorTitleCandidates();
+  for (const candidate of candidates) {
+    const exact = options.find((option) => option.label === candidate);
+    if (exact) return exact;
+  }
+  for (const candidate of candidates) {
+    const partial = options.find((option) => option.label.includes(candidate) || candidate.includes(option.label));
+    if (partial) return partial;
+  }
+  return null;
+}
+
+function fallbackCalculatorUrl() {
+  const resolvedTitle = resolvedDashboardTitle();
+  const query = CALCULATOR_URL_FALLBACKS[resolvedTitle] || CALCULATOR_URL_FALLBACKS[TITLE];
+  return query ? `${dashboardAssetBase()}/index.html${query}` : "";
+}
+
+async function loadCalculatorUrlFromIndex() {
+  if (window.dashboardCalculatorUrl !== null) {
+    return window.dashboardCalculatorUrl;
+  }
+  if (window.dashboardCalculatorUrlPromise) {
+    return window.dashboardCalculatorUrlPromise;
+  }
+
+  window.dashboardCalculatorUrlPromise = fetch(`${dashboardAssetBase()}/index.html`, { cache: "no-store" })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Failed to load calculator index (${response.status})`);
+      }
+      return response.text();
+    })
+    .then((html) => {
+      const doc = new DOMParser().parseFromString(html, "text/html");
+      const options = Array.from(doc.querySelectorAll("option[data-source]"))
+        .map((option) => ({
+          label: String(option.textContent || "").trim(),
+          source: String(option.getAttribute("data-source") || "").trim(),
+        }))
+        .filter((option) => option.label && option.source);
+      const match = findCalculatorOption(options);
+      window.dashboardCalculatorUrl = match ? relativeCalculatorUrlFromSource(match.source) : fallbackCalculatorUrl();
+      return window.dashboardCalculatorUrl;
+    })
+    .catch(() => {
+      window.dashboardCalculatorUrl = fallbackCalculatorUrl();
+      return window.dashboardCalculatorUrl;
+    })
+    .finally(() => {
+      window.dashboardCalculatorUrlPromise = null;
+    });
+
+  return window.dashboardCalculatorUrlPromise;
 }
 
 function spriteFileFromSpecies(species) {
@@ -52,6 +189,90 @@ function spriteSrc(species) {
   return `${dashboardAssetBase()}/img/pokesprite/${spriteFileFromSpecies(species)}.png`;
 }
 
+function starterSliceColor(slice) {
+  const firstType = String(slice?.firstType || "").trim();
+  return TYPE_COLORS[firstType] || OVERVIEW_CHART_FALLBACK_COLOR;
+}
+
+function loadStarterChartSprite(species, chart) {
+  const src = spriteSrc(species);
+  if (starterChartSpriteCache.has(src)) {
+    return starterChartSpriteCache.get(src);
+  }
+
+  const image = new Image();
+  image.onload = () => {
+    if (chart && typeof chart.update === "function") chart.update("none");
+  };
+  image.onerror = () => {
+    image.dataset.failed = "1";
+  };
+  image.src = src;
+  starterChartSpriteCache.set(src, image);
+  return image;
+}
+
+function starterSliceSpritePlugin(slices) {
+  return {
+    id: "starterSliceSpritePlugin",
+    afterDatasetsDraw(chart) {
+      const datasetMeta = chart.getDatasetMeta(0);
+      if (!datasetMeta?.data?.length) return;
+
+      const ctx = chart.ctx;
+      datasetMeta.data.forEach((arc, index) => {
+        const slice = slices[index];
+        if (!slice || Number(slice.pct) <= 5) return;
+
+        const image = loadStarterChartSprite(slice.species, chart);
+        if (!image || !image.complete || image.dataset.failed === "1") return;
+
+        const {
+          startAngle,
+          endAngle,
+          outerRadius,
+          innerRadius,
+          x: centerX,
+          y: centerY,
+        } = typeof arc.getProps === "function"
+          ? arc.getProps(["startAngle", "endAngle", "outerRadius", "innerRadius", "x", "y"], true)
+          : arc;
+
+        const angle = Math.abs(endAngle - startAngle);
+        const maxChord = outerRadius * angle * 0.72;
+        const maxRadial = (outerRadius - innerRadius) * 0.95;
+        const size = Math.max(18, Math.min(42, maxChord, maxRadial));
+        if (!Number.isFinite(size) || size < 18) return;
+
+        const midAngle = (startAngle + endAngle) / 2;
+        const radius = innerRadius + (outerRadius - innerRadius) * 0.58;
+        const x = centerX + Math.cos(midAngle) * radius;
+        const y = centerY + Math.sin(midAngle) * radius;
+
+        ctx.save();
+        ctx.fillStyle = "rgba(31, 34, 48, 0.82)";
+        ctx.beginPath();
+        ctx.arc(x, y, size / 2, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.fill();
+        ctx.strokeStyle = "rgba(255, 255, 255, 0.22)";
+        ctx.lineWidth = 1;
+        ctx.stroke();
+        ctx.imageSmoothingEnabled = false;
+        ctx.drawImage(image, x - (size / 2), y - (size / 2), size, size);
+        ctx.restore();
+      });
+    },
+  };
+}
+
+function pokemonLinkMarkup(species, innerHtml, className = "") {
+  const safeSpecies = String(species || "");
+  if (!safeSpecies) return innerHtml;
+  const extraClass = className ? ` ${className}` : "";
+  return `<button type="button" class="pokemonLink${extraClass}" data-species="${escapeHtml(safeSpecies)}">${innerHtml}</button>`;
+}
+
 function buildSelect2Data(trainers) {
   const bossesByLvl = new Map();
   const othersByLvl = new Map();
@@ -60,14 +281,16 @@ function buildSelect2Data(trainers) {
     const displayName = trainer.displayName || String(trainer.usageKey || "");
     const team = TRAINERS[displayName] || [];
     const lvl = Number.isFinite(+trainer.leadLevel) ? +trainer.leadLevel : leadLevel(team);
+    const visibleName = displayTrainerName(displayName);
 
     const entry = {
       id: displayName,
-      text: displayName,
+      text: visibleName,
       _leadLevel: lvl,
       _usageKey: String(trainer.usageKey ?? displayName),
       tr_id: trainer.trId ?? null,
       _partySize: trainer.partySize ?? team.length,
+      _teamVariantNames: Array.isArray(trainer.teamVariantNames) ? trainer.teamVariantNames : [],
       _isBoss: trainer.isBoss != null ? Boolean(trainer.isBoss) : isBossTrainer(displayName),
     };
     const map = entry._isBoss ? bossesByLvl : othersByLvl;
@@ -87,6 +310,18 @@ function buildSelect2Data(trainers) {
     { text: "Bosses", children: mapToLevelGroups(bossesByLvl) },
     { text: "Others", children: mapToLevelGroups(othersByLvl) },
   ];
+}
+
+function buildPokemonSelectData(speciesEntries) {
+  return (speciesEntries || [])
+    .map((entry) => ({
+      id: entry.species,
+      text: entry.species,
+      detailFile: entry.detailFile,
+      familyKey: entry.familyKey,
+      familyMembers: entry.familyMembers || [],
+    }))
+    .sort((left, right) => left.text.localeCompare(right.text));
 }
 
 function escapeHtml(s) {
@@ -116,6 +351,22 @@ function formatGeneratedAt(value) {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return String(value);
   return date.toLocaleString();
+}
+
+function formatDepthValue(value) {
+  const num = Number(value);
+  if (!Number.isFinite(num)) return "—";
+  return Number.isInteger(num) ? String(num) : num.toFixed(1);
+}
+
+function formatDepthSummary(step, pct) {
+  if (!Number.isFinite(Number(step))) return "Avg depth —";
+  return `Avg depth ${formatDepthValue(step)} (${formatPercent(pct)})`;
+}
+
+function formatPieChartDepthText(step) {
+  if (!Number.isFinite(Number(step))) return "Average run depth —";
+  return `Average run depth ${formatDepthValue(step)} battles`;
 }
 
 function ensureHeaderElements() {
@@ -149,6 +400,16 @@ function ensureHeaderElements() {
     actions.appendChild(overviewBtn);
   }
 
+  let calculatorLink = actions.querySelector("[data-action='calculator']");
+  if (!calculatorLink) {
+    calculatorLink = document.createElement("a");
+    calculatorLink.className = "header-btn";
+    calculatorLink.dataset.action = "calculator";
+    calculatorLink.textContent = "Calculator";
+    calculatorLink.style.display = "none";
+    actions.appendChild(calculatorLink);
+  }
+
   let controlsMeta = document.querySelector(".controlsMeta");
   if (!controlsMeta) {
     controlsMeta = document.createElement("div");
@@ -157,11 +418,11 @@ function ensureHeaderElements() {
     if (controls) controls.appendChild(controlsMeta);
   }
 
-  return { titleSub, overviewBtn, controlsMeta };
+  return { titleSub, overviewBtn, calculatorLink, controlsMeta };
 }
 
 function renderHeader(mode, options) {
-  const { titleSub, overviewBtn, controlsMeta } = ensureHeaderElements();
+  const { titleSub, overviewBtn, calculatorLink, controlsMeta } = ensureHeaderElements();
   const generatedAt = options?.generatedAt ? formatGeneratedAt(options.generatedAt) : "";
 
   if (titleSub) {
@@ -171,6 +432,16 @@ function renderHeader(mode, options) {
   if (overviewBtn) {
     overviewBtn.textContent = mode === "overview" ? "Overview" : "Back to overview";
     overviewBtn.disabled = mode === "overview";
+  }
+
+  if (calculatorLink) {
+    if (window.dashboardCalculatorUrl) {
+      calculatorLink.href = window.dashboardCalculatorUrl;
+      calculatorLink.style.display = "inline-flex";
+    } else {
+      calculatorLink.removeAttribute("href");
+      calculatorLink.style.display = "none";
+    }
   }
 
   if (controlsMeta) {
@@ -209,19 +480,58 @@ function trainerSpriteSrc(name) {
   return `${dashboardAssetBase()}/img/trainer_sprites/${trainerSpriteSlug(name) || "unknown"}.png`;
 }
 
-function renderImportantTrainerSection(overview) {
-  const items = Array.isArray(overview?.importantTrainerBattles) ? overview.importantTrainerBattles : [];
+function overviewState() {
+  return window.analyticsOverviewState || { minDepth: 1, currentSnapshot: null, starterSorts: {} };
+}
+
+function pokemonState() {
+  return window.analyticsPokemonState || {
+    selectedSpecies: null,
+    familyMode: true,
+    pokemonIndexData: null,
+    pokemonDetailData: null,
+  };
+}
+
+function clampMinDepth(value, overviewData) {
+  const maxStep = Math.max(
+    1,
+    Number(overviewData?.maxStep || window.analyticsIndexData?.overviewMeta?.maxStep || 1)
+  );
+  const raw = Number.parseInt(String(value ?? ""), 10);
+  if (!Number.isFinite(raw)) {
+    return Math.max(1, Math.min(maxStep, Number(overviewData?.defaultMinDepth || 1)));
+  }
+  return Math.max(1, Math.min(maxStep, raw));
+}
+
+function getOverviewSnapshot(overviewData, minDepth) {
+  const byMinDepth = overviewData?.byMinDepth || {};
+  const key = String(clampMinDepth(minDepth, overviewData));
+  return byMinDepth[key] || byMinDepth["1"] || null;
+}
+
+function setOverviewMinDepth(nextMinDepth) {
+  const state = overviewState();
+  state.minDepth = clampMinDepth(nextMinDepth, window.analyticsOverviewData);
+  state.currentSnapshot = getOverviewSnapshot(window.analyticsOverviewData, state.minDepth);
+  window.analyticsOverviewState = state;
+  return state.currentSnapshot;
+}
+
+function renderImportantTrainerSection(snapshot) {
+  const items = Array.isArray(snapshot?.importantTrainerBattles) ? snapshot.importantTrainerBattles : [];
   const cards = items.length
     ? items
         .map(
           (item) => `
             <button type="button" class="importantCard" data-trainer-name="${escapeHtml(item.sourceDisplayName || item.displayName)}">
               <div class="importantSprite">
-                <img src="${trainerSpriteSrc(item.displayName)}" alt="${escapeHtml(item.displayName)}" loading="lazy"
+                <img src="${trainerSpriteSrc(item.displayName)}" alt="${escapeHtml(displayTrainerName(item.displayName))}" loading="lazy"
                      onerror="this.style.opacity=.35;this.title='Missing trainer sprite'">
               </div>
               <div class="importantCardBody">
-                <div class="importantName">${escapeHtml(item.displayName)}</div>
+                <div class="importantName">${escapeHtml(displayTrainerName(item.displayName))}</div>
                 <div class="importantCount">${escapeHtml(formatNumber(item.runCount))} runs</div>
               </div>
             </button>
@@ -240,37 +550,93 @@ function renderImportantTrainerSection(overview) {
   `;
 }
 
-function filteredRunDepthMarkers(runDepth) {
-  const markers = Array.isArray(runDepth?.importantTrainerMarkers)
-    ? runDepth.importantTrainerMarkers.filter((marker) => String(marker?.label || "").trim())
-    : [];
+function filteredRunDepthMarkers(source, minDepth = 1) {
+  const rawMarkers = Array.isArray(source)
+    ? source
+    : Array.isArray(source?.importantTrainerMarkers)
+      ? source.importantTrainerMarkers
+      : [];
+  const markers = rawMarkers.filter((marker) => String(marker?.label || "").trim());
+  const minStep = Math.max(1, Number(minDepth) || 1);
 
-  const champions = markers.filter((marker) => /Champion/i.test(marker.label));
+  const eligibleMarkers = markers.filter((marker) => Number(marker?.step) >= minStep);
+  const champions = eligibleMarkers.filter((marker) => /Champion/i.test(marker.label));
   const championToShow = champions.length
     ? champions.reduce((best, marker) => (Number(marker.step) > Number(best.step) ? marker : best))
     : null;
-
-  return markers.filter((marker) => {
+  return eligibleMarkers.filter((marker) => {
     if (/Elite Four/i.test(marker.label)) return false;
     if (/Champion/i.test(marker.label)) return championToShow && marker === championToShow;
     return true;
+  }).reduce((acc, marker) => {
+    if (/Leader Tate\b/i.test(marker.label) || /Leader Liza\b/i.test(marker.label)) {
+      const existing = acc.find((item) => item._mergedTateLiza);
+      const step = Number(marker.step);
+      if (existing) {
+        if (Number.isFinite(step) && step < Number(existing.step)) {
+          existing.step = step;
+        }
+        return acc;
+      }
+      acc.push({
+        ...marker,
+        label: "Leader Tate & Liza",
+        _mergedTateLiza: true,
+      });
+      return acc;
+    }
+    acc.push(marker);
+    return acc;
+  }, []);
+}
+
+function starterLegendSortMode(groupLabel) {
+  const state = overviewState();
+  state.starterSorts ||= {};
+  window.analyticsOverviewState = state;
+  return state.starterSorts[groupLabel] || "pick-rate";
+}
+
+function setStarterLegendSortMode(groupLabel, mode) {
+  const state = overviewState();
+  state.starterSorts ||= {};
+  state.starterSorts[groupLabel] = mode === "run-depth" ? "run-depth" : "pick-rate";
+  window.analyticsOverviewState = state;
+}
+
+function sortedGroupSlices(group, sortMode) {
+  const mode = sortMode || starterLegendSortMode(group?.label);
+  return [...(group?.slices || [])].sort((a, b) => {
+    if (mode === "run-depth") {
+      const depthDelta = Number(b.averageRunDepthStep ?? -1) - Number(a.averageRunDepthStep ?? -1);
+      if (depthDelta) return depthDelta;
+    }
+    const countDelta = (b.count - a.count);
+    if (countDelta) return countDelta;
+    return a.species.localeCompare(b.species);
   });
 }
 
-function sortedGroupSlices(group) {
-  return [...(group?.slices || [])].sort((a, b) => (b.count - a.count) || a.species.localeCompare(b.species));
-}
-
 function starterChartLegend(group) {
-  return sortedGroupSlices(group)
+  const slices = sortedGroupSlices(group);
+  return slices
     .map(
-      (slice, index) => `
+      (slice) => `
         <div class="chartLegendRow">
-          <div class="chartLegendMain">
-            <img class="chartLegendSprite" src="${spriteSrc(slice.species)}" alt="${escapeHtml(slice.species)}" loading="lazy"
-                 onerror="this.style.opacity=.35;this.title='Missing sprite'">
-            <span>${escapeHtml(slice.species)}</span>
-          </div>
+          ${pokemonLinkMarkup(
+            slice.species,
+            `
+              <img class="chartLegendSprite" src="${spriteSrc(slice.species)}" alt="${escapeHtml(slice.species)}" loading="lazy"
+                   onerror="this.style.opacity=.35;this.title='Missing sprite'">
+              <div class="chartLegendText">
+                <span>${escapeHtml(slice.species)}</span>
+                ${slice.averageRunDepthStep != null
+                  ? `<div class="chartLegendDepth">${escapeHtml(formatPieChartDepthText(slice.averageRunDepthStep))}</div>`
+                  : ""}
+              </div>
+            `,
+            "chartLegendMain"
+          )}
           <span class="chartLegendPct">${escapeHtml(formatPercent(slice.pct))}</span>
         </div>
       `
@@ -278,23 +644,56 @@ function starterChartLegend(group) {
     .join("");
 }
 
-function renderStarterGiftCharts(overview) {
-  const groups = Array.isArray(overview?.starterGiftGroups) ? overview.starterGiftGroups : [];
+function renderStarterGiftCharts(snapshot) {
+  const groups = Array.isArray(snapshot?.starterGiftGroups) ? snapshot.starterGiftGroups : [];
   if (!groups.length) {
     return "";
   }
 
+  if (!snapshot?.runCount) {
+    return `
+      <section class="overviewSection">
+        <div class="sectionHeader">
+          <h2>Starter / Gift Distribution</h2>
+        </div>
+        <div class="emptyState">No runs matched this filter.</div>
+      </section>
+    `;
+  }
+
   const cards = groups
     .map(
-      (group, index) => `
+      (group, index) => {
+        const hasData = sortedGroupSlices(group).some((slice) => Number(slice.count) > 0);
+        const supportsRunDepthSort = sortedGroupSlices(group).some((slice) => slice.averageRunDepthStep != null);
+        const sortMode = supportsRunDepthSort ? starterLegendSortMode(group.label) : "pick-rate";
+        if (!hasData) {
+          return `
+            <div class="chartCard">
+              <h3>${escapeHtml(group.label)}</h3>
+              <div class="emptyState">No matching runs for this filter.</div>
+            </div>
+          `;
+        }
+        return `
         <div class="chartCard">
-          <h3>${escapeHtml(group.label)}</h3>
+          <div class="chartCardHeader">
+            <h3>${escapeHtml(group.label)}</h3>
+            <label class="chartSortControl">
+              <span>Sort rows</span>
+              <select class="starterSortSelect" data-group-label="${escapeHtml(group.label)}">
+                <option value="pick-rate"${sortMode === "pick-rate" ? " selected" : ""}>Pick rate</option>
+                <option value="run-depth"${sortMode === "run-depth" ? " selected" : ""}${supportsRunDepthSort ? "" : " disabled"}>Run depth</option>
+              </select>
+            </label>
+          </div>
           <div class="chartWrap">
             <canvas id="starter-chart-${index}" aria-label="${escapeHtml(group.label)} distribution"></canvas>
           </div>
           <div class="chartLegend">${starterChartLegend(group)}</div>
         </div>
-      `
+      `;
+      }
     )
     .join("");
 
@@ -303,22 +702,23 @@ function renderStarterGiftCharts(overview) {
       <div class="sectionHeader">
         <h2>Starter / Gift Distribution</h2>
       </div>
+      <div class="sectionMeta">Average run depth means how far a runner was able to get on average when they have this Pokemon.</div>
       <div class="chartGrid">${cards}</div>
     </section>
   `;
 }
 
-function hydrateStarterGiftCharts(overview) {
+function hydrateStarterGiftCharts(snapshot) {
   clearOverviewCharts();
 
   if (typeof Chart === "undefined") return;
 
-  const groups = Array.isArray(overview?.starterGiftGroups) ? overview.starterGiftGroups : [];
+  const groups = Array.isArray(snapshot?.starterGiftGroups) ? snapshot.starterGiftGroups : [];
   groups.forEach((group, index) => {
     const canvas = document.getElementById(`starter-chart-${index}`);
     if (!canvas) return;
 
-    const slices = sortedGroupSlices(group);
+    const slices = Array.isArray(group?.slices) ? group.slices : [];
     const labels = slices.map((slice) => slice.species);
     const data = slices.map((slice) => slice.count);
     if (!data.length) return;
@@ -330,7 +730,7 @@ function hydrateStarterGiftCharts(overview) {
         datasets: [
           {
             data,
-            backgroundColor: labels.map((_, colorIndex) => OVERVIEW_CHART_COLORS[colorIndex % OVERVIEW_CHART_COLORS.length]),
+            backgroundColor: slices.map((slice) => starterSliceColor(slice)),
             borderColor: "#1f2230",
             borderWidth: 2,
           },
@@ -344,18 +744,22 @@ function hydrateStarterGiftCharts(overview) {
             callbacks: {
               label(context) {
                 const slice = slices[context.dataIndex];
-                return `${slice.species}: ${slice.pct}%`;
+                const depthText = slice.averageRunDepthStep != null
+                  ? ` • ${formatPieChartDepthText(slice.averageRunDepthStep)}`
+                  : "";
+                return `${slice.species}: ${slice.pct}%${depthText}`;
               },
             },
           },
         },
       },
+      plugins: [starterSliceSpritePlugin(slices)],
     });
     overviewCharts.push(chart);
   });
 }
 
-function hydrateRunDepthChart(runDepth) {
+function hydrateRunDepthChart(runDepth, minDepth) {
   if (typeof Chart === "undefined" || !runDepth || runDepth.available === false) return;
 
   const canvas = document.getElementById("run-depth-chart");
@@ -363,14 +767,8 @@ function hydrateRunDepthChart(runDepth) {
   if (!canvas || !histogram.length) return;
 
   const labels = histogram.map((entry) => entry.step);
-  const exactCounts = histogram.map((entry) => entry.count);
-  const data = new Array(exactCounts.length);
-  let runningTotal = 0;
-  for (let index = exactCounts.length - 1; index >= 0; index -= 1) {
-    runningTotal += Number(exactCounts[index]) || 0;
-    data[index] = runningTotal;
-  }
-  const visibleMarkers = filteredRunDepthMarkers(runDepth);
+  const data = histogram.map((entry) => entry.count);
+  const visibleMarkers = filteredRunDepthMarkers(runDepth?.importantTrainerMarkers || [], minDepth);
   const markerMap = new Map();
   visibleMarkers.forEach((marker) => {
     const step = Number(marker.step);
@@ -429,7 +827,7 @@ function hydrateRunDepthChart(runDepth) {
             callback(value, index) {
               const step = labels[index];
               const markers = markerMap.get(Number(step));
-              if (markers && markers.length) return [`${step}`, ...markers];
+              if (markers && markers.length) return markers.map((marker) => displayTrainerName(marker));
               return "";
             },
           },
@@ -460,11 +858,26 @@ async function selectTrainerByName(trainerName) {
   await renderTrainerSelection(selectedTrainer);
 }
 
+function renderOverviewControls(overviewData, minDepth) {
+  return "";
+}
+
+function renderTopPokemonByAverageDepth(snapshot) {
+  return "";
+}
+
 function wireOverviewInteractions() {
   $(".importantCard").off("click").on("click", function () {
     const trainerName = this.dataset.trainerName;
     if (!trainerName) return;
     void selectTrainerByName(trainerName);
+  });
+
+  $(".starterSortSelect").off("change").on("change", function () {
+    const groupLabel = this.dataset.groupLabel;
+    if (!groupLabel) return;
+    setStarterLegendSortMode(groupLabel, this.value);
+    renderOverview(window.analyticsIndexData, window.analyticsOverviewData, overviewState().currentSnapshot);
   });
 }
 
@@ -473,9 +886,20 @@ function renderRunDepthSection(runDepth) {
     return `
       <section class="overviewSection">
         <div class="sectionHeader">
-          <h2>Average Run Depth</h2>
+          <h2>Players by Run Depth</h2>
         </div>
         <div class="emptyState">Not available for this game.</div>
+      </section>
+    `;
+  }
+
+  if (!runDepth.runsCounted) {
+    return `
+      <section class="overviewSection">
+        <div class="sectionHeader">
+          <h2>Players by Run Depth</h2>
+        </div>
+        <div class="emptyState">No runs matched this filter.</div>
       </section>
     `;
   }
@@ -483,47 +907,55 @@ function renderRunDepthSection(runDepth) {
   return `
     <section class="overviewSection">
       <div class="sectionHeader">
-        <h2>Average Run Depth</h2>
+        <h2>Players by Run Depth</h2>
       </div>
       <div class="runDepthWrap">
-        <canvas id="run-depth-chart" aria-label="Average run depth distribution"></canvas>
+        <canvas id="run-depth-chart" aria-label="Players by run depth distribution"></canvas>
       </div>
     </section>
   `;
 }
 
-function renderOverview(indexData) {
+function renderOverview(indexData, overviewData, snapshot) {
   clearOverviewCharts();
-  renderHeader("overview", { generatedAt: indexData?.generatedAt });
+  renderHeader("overview", { generatedAt: overviewData?.generatedAt || indexData?.generatedAt });
 
-  const overview = indexData?.overview || {};
-  const starterSection = renderStarterGiftCharts(overview);
+  const state = overviewState();
+  const currentSnapshot = snapshot || state.currentSnapshot || getOverviewSnapshot(overviewData, state.minDepth);
+  state.currentSnapshot = currentSnapshot;
+  window.analyticsOverviewState = state;
+
+  const starterSection = renderStarterGiftCharts(currentSnapshot);
+  const topPokemonSection = renderTopPokemonByAverageDepth(currentSnapshot);
 
   const html = `
     <div class="overview">
+      ${renderOverviewControls(overviewData, state.minDepth)}
       <div class="overviewGrid">
-        ${overviewCard("Runs", formatNumber(overview.runCount || 0))}
+        ${overviewCard("Runs", formatNumber(currentSnapshot?.runCount || 0))}
       </div>
-      ${renderImportantTrainerSection(overview)}
-      ${renderRunDepthSection(overview.runDepth)}
+      ${renderImportantTrainerSection(currentSnapshot)}
+      ${renderRunDepthSection(currentSnapshot?.runDepth)}
       ${starterSection}
+      ${topPokemonSection}
     </div>
   `;
 
   $("#out").html(html);
-  hydrateStarterGiftCharts(overview);
-  hydrateRunDepthChart(overview.runDepth);
+  hydrateStarterGiftCharts(currentSnapshot);
+  hydrateRunDepthChart(currentSnapshot?.runDepth, state.minDepth);
   wireOverviewInteractions();
 }
 
-function renderTeam(trainerName, team) {
+function renderSingleTeamCard(trainerName, team) {
   const leadLvl = leadLevel(team);
+  const visibleTrainerName = displayTrainerName(trainerName);
 
   let html = `
     <div class="team">
       <div class="teamHeader">
         <div>
-          <div class="name">${escapeHtml(trainerName)}</div>
+          <div class="name">${escapeHtml(visibleTrainerName)}</div>
           <div class="meta">Lead level: <span style="color:var(--accent);font-weight:700;">${leadLvl}</span> • Party size: ${team.length}</div>
         </div>
       </div>
@@ -543,12 +975,20 @@ function renderTeam(trainerName, team) {
     html += `
       <div class="monCard">
         <div class="monTop">
-          <img src="${img}" alt="${escapeHtml(species)}" loading="lazy"
-               onerror="this.style.opacity=.35;this.title='Missing sprite: ${img}'">
+          ${pokemonLinkMarkup(
+            species,
+            `<img src="${img}" alt="${escapeHtml(species)}" loading="lazy"
+                 onerror="this.style.opacity=.35;this.title='Missing sprite: ${img}'">`,
+            "pokemonSpriteButton"
+          )}
         </div>
         <div class="monBody">
           <div class="monTitle">
-            <div class="species" title="${escapeHtml(species)}">${escapeHtml(species)}</div>
+            ${pokemonLinkMarkup(
+              species,
+              escapeHtml(species),
+              "species pokemonNameLink"
+            )}
             <div class="lvl">Lv ${escapeHtml(level)}</div>
           </div>
 
@@ -567,6 +1007,41 @@ function renderTeam(trainerName, team) {
   }
 
   html += `</div></div>`;
+  return html;
+}
+
+function renderTeam(trainerName, team, teamVariantNames = []) {
+  const variantNames = Array.isArray(teamVariantNames) && teamVariantNames.length
+    ? teamVariantNames
+    : [trainerName];
+  const teamEntries = variantNames
+    .map((variantName) => ({
+      trainerName: variantName,
+      team: Array.isArray(TRAINERS[variantName]) ? TRAINERS[variantName] : [],
+    }))
+    .filter((entry) => entry.team.length);
+
+  if (!teamEntries.length) {
+    teamEntries.push({
+      trainerName,
+      team: Array.isArray(team) ? team : [],
+    });
+  }
+
+  let html = "";
+  if (teamEntries.length > 1) {
+    html += `
+      <div class="dashTitle" style="margin-top:14px;">
+        <h3>Team Variations</h3>
+        <div class="meta">${teamEntries.length} variations</div>
+      </div>
+    `;
+  }
+
+  for (const entry of teamEntries) {
+    html += renderSingleTeamCard(entry.trainerName, entry.team);
+  }
+
   html += `
     <div id="usageDash" class="dash"></div>
     <div id="battlesDash" class="dash"></div>
@@ -600,18 +1075,66 @@ function templateSelection(item) {
   return item.text;
 }
 
+function templatePokemonResult(item) {
+  if (!item.id) return item.text;
+  const $row = $("<div class=\"pokemonOption\"></div>");
+  const $img = $("<img>").attr({
+    src: spriteSrc(item.text),
+    alt: item.text,
+    loading: "lazy",
+  }).on("error", function () {
+    this.style.opacity = ".35";
+    this.title = "Missing sprite";
+  });
+  $row.append($img);
+  $row.append($("<span></span>").text(item.text));
+  return $row;
+}
+
+function templatePokemonSelection(item) {
+  if (!item || !item.id) return item?.text || "Search pokemon…";
+  return item.text;
+}
+
 function getUsageTrainerKey(data) {
   return String(data?._usageKey ?? data?.tr_id ?? data?.id ?? "");
 }
 
-function updateTrainerQueryParam(trainerName) {
+function updateDashboardQueryParams(updates, options = {}) {
   const url = new URL(window.location.href);
-  if (trainerName) {
-    url.searchParams.set("trainer", trainerName);
-  } else {
-    url.searchParams.delete("trainer");
+  Object.entries(updates || {}).forEach(([key, value]) => {
+    if (value === null || value === undefined || value === false || value === "") {
+      url.searchParams.delete(key);
+      return;
+    }
+    url.searchParams.set(key, String(value));
+  });
+  if (url.href === window.location.href) return;
+  if (options.replace) {
+    window.history.replaceState({}, "", url);
+    return;
   }
-  window.history.replaceState({}, "", url);
+  window.history.pushState({}, "", url);
+}
+
+function updateTrainerQueryParam(trainerName, options) {
+  updateDashboardQueryParams({
+    trainer: trainerName || null,
+    pokemon: null,
+    family: null,
+  }, options);
+}
+
+function updatePokemonQueryParams(species, familyMode, options) {
+  updateDashboardQueryParams({
+    trainer: null,
+    pokemon: species || null,
+    family: familyMode ? null : "0",
+  }, options);
+}
+
+function currentPokemonFamilyMode() {
+  return new URLSearchParams(window.location.search).get("family") !== "0";
 }
 
 function findTrainerOptionById(select2Data, trainerName) {
@@ -663,15 +1186,21 @@ function renderUsageDash(summary) {
     html += `
       <div class="usageCard">
         <div class="usageCardTop">
-          <img src="${img}" alt="${escapeHtml(species)}" loading="lazy"
-               onerror="this.style.opacity=.35;this.title='Missing sprite: ${img}'">
-          <div>
-            <div class="name">${escapeHtml(species)}</div>
-            <div class="sub">
-              Used in party: <b style="color:var(--accent)">${inParty}</b> / ${caughtCount}
-              • Participation: <b style="color:var(--accent)">${participation}</b>
-            </div>
-          </div>
+          ${pokemonLinkMarkup(
+            species,
+            `
+              <img src="${img}" alt="${escapeHtml(species)}" loading="lazy"
+                   onerror="this.style.opacity=.35;this.title='Missing sprite: ${img}'">
+              <div>
+                <div class="name">${escapeHtml(species)}</div>
+                <div class="sub">
+                  Used in party: <b style="color:var(--accent)">${inParty}</b> / ${caughtCount}
+                  • Participation: <b style="color:var(--accent)">${participation}</b>
+                </div>
+              </div>
+            `,
+            "usageCardPokemonLink"
+          )}
         </div>
 
         <div class="usageBody">
@@ -732,12 +1261,20 @@ function renderBattlesDash(battles) {
       html += `
         <div class="monCard">
           <div class="monTop">
-            <img src="${img}" alt="${escapeHtml(species)}" loading="lazy"
-                 onerror="this.style.opacity=.35;this.title='Missing sprite: ${img}'">
+            ${pokemonLinkMarkup(
+              species,
+              `<img src="${img}" alt="${escapeHtml(species)}" loading="lazy"
+                   onerror="this.style.opacity=.35;this.title='Missing sprite: ${img}'">`,
+              "pokemonSpriteButton"
+            )}
           </div>
           <div class="monBody">
             <div class="monTitle">
-              <div class="species" title="${escapeHtml(species)}">${escapeHtml(species)}</div>
+              ${pokemonLinkMarkup(
+                species,
+                escapeHtml(species),
+                "species pokemonNameLink"
+              )}
               <div class="lvl"></div>
             </div>
 
@@ -779,26 +1316,253 @@ async function renderTrainerUsageDashboard(trainerData) {
   }
 }
 
-async function renderTrainerSelection(data) {
+async function ensureOverviewDataLoaded() {
+  if (window.analyticsOverviewData) {
+    return window.analyticsOverviewData;
+  }
+
+  window.analyticsOverviewData = await window.loadAnalyticsOverviewByIndex(window.analyticsIndexData);
+  const state = overviewState();
+  state.minDepth = 1;
+  state.currentSnapshot = getOverviewSnapshot(window.analyticsOverviewData, state.minDepth);
+  window.analyticsOverviewState = state;
+  return window.analyticsOverviewData;
+}
+
+async function ensurePokemonIndexLoaded() {
+  const state = pokemonState();
+  if (state.pokemonIndexData) {
+    return state.pokemonIndexData;
+  }
+  state.pokemonIndexData = await window.loadPokemonIndexByGame(window.analyticsIndexData);
+  window.analyticsPokemonState = state;
+  return state.pokemonIndexData;
+}
+
+function getPokemonSnapshot(pokemonDetailData, species, familyMode, minDepth) {
+  const safeSpecies = String(species || "");
+  const key = String(clampMinDepth(minDepth, window.analyticsOverviewData || window.analyticsIndexData?.overviewMeta));
+  if (familyMode) {
+    return pokemonDetailData?.familyCombined?.byMinDepth?.[key] || pokemonDetailData?.familyCombined?.byMinDepth?.["1"] || null;
+  }
+  return pokemonDetailData?.speciesEntries?.[safeSpecies]?.byMinDepth?.[key]
+    || pokemonDetailData?.speciesEntries?.[safeSpecies]?.byMinDepth?.["1"]
+    || null;
+}
+
+function renderPokemonOverviewPage(snapshot, options) {
+  clearOverviewCharts();
+  const species = options?.species || "Unknown";
+  const familyMode = Boolean(options?.familyMode);
+  const familyMembers = Array.isArray(options?.familyMembers) ? options.familyMembers : [];
+  const showToggle = familyMembers.length > 1;
+  const hasRunDepth = window.analyticsIndexData?.overviewMeta?.runDepthAvailable;
+  const averageRunDepth = snapshot?.averageRunDepthStep != null
+    ? `${formatDepthValue(snapshot.averageRunDepthStep)} • ${formatPercent(snapshot.averageRunDepthPct)}`
+    : "—";
+  const familyLabel = familyMode ? `Aggregating ${familyMembers.join(", ")}.` : "";
+  const topBattles = Array.isArray(snapshot?.topBattles) ? snapshot.topBattles : [];
+
+  renderHeader("pokemon-detail", {
+    generatedAt: options?.generatedAt || window.analyticsIndexData?.generatedAt,
+  });
+
+  const html = `
+    <div class="overview">
+      ${renderOverviewControls(window.analyticsOverviewData, overviewState().minDepth)}
+      <section class="overviewSection pokemonOverview">
+        <div class="pokemonOverviewHeader">
+          <div class="pokemonHero">
+            <img src="${spriteSrc(species)}" alt="${escapeHtml(species)}" loading="lazy"
+                 onerror="this.style.opacity=.35;this.title='Missing sprite'">
+            <div>
+              <h2>${escapeHtml(species)}</h2>
+              ${familyMode && familyMembers.length
+                ? `<div class="sectionMeta">${escapeHtml(familyMembers.join(", "))}</div>`
+                : ""}
+            </div>
+          </div>
+          ${showToggle ? `
+            <label class="familyToggle">
+              <input id="pokemonFamilyToggle" type="checkbox"${familyMode ? " checked" : ""}>
+              <span>Include full family</span>
+            </label>
+          ` : ""}
+        </div>
+        ${familyLabel ? `<div class="sectionMeta">${escapeHtml(familyLabel)}</div>` : ""}
+        <div class="overviewGrid">
+          ${overviewCard("Runs with this Pokemon", formatNumber(snapshot?.runCount || 0))}
+          ${overviewCard("Avg participation", snapshot?.averageParticipationPct != null ? formatPercent(snapshot.averageParticipationPct) : "—")}
+          ${overviewCard("Avg run depth", hasRunDepth ? averageRunDepth : "—")}
+        </div>
+        ${snapshot?.runCount ? "" : `<div class="emptyState">No runs matched the current depth filter.</div>`}
+      </section>
+      <section class="overviewSection">
+        <div class="sectionHeader">
+          <h2>Top 10 Battles</h2>
+        </div>
+        ${topBattles.length ? `
+          <div class="overviewTableWrap">
+            <table class="overviewTable">
+              <thead>
+                <tr>
+                  <th>Battle</th>
+                  <th>Recorded uses</th>
+                  <th>Participation</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${topBattles.map((battle) => `
+                  <tr>
+                    <td>
+                      <div>${escapeHtml(displayTrainerName(battle.displayName || battle.usageKey || "Unknown"))}</div>
+                      ${battle.leadLevel != null ? `<div class="sectionMeta">Lead Lv ${escapeHtml(String(battle.leadLevel))}</div>` : ""}
+                    </td>
+                    <td>${escapeHtml(formatNumber(battle.partyCount || 0))}</td>
+                    <td>${escapeHtml(formatPercent(battle.participationPct || 0))}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        ` : `<div class="emptyState">No battle usage data available for this filter.</div>`}
+      </section>
+    </div>
+  `;
+
+  $("#out").html(html);
+}
+
+function wirePokemonInteractions() {
+  $("#pokemonFamilyToggle").off("change").on("change", function () {
+    const state = pokemonState();
+    state.familyMode = Boolean(this.checked);
+    window.analyticsPokemonState = state;
+    updatePokemonQueryParams(state.selectedSpecies, state.familyMode);
+    void renderPokemonDetailMode(state.selectedSpecies, state.familyMode);
+  });
+}
+
+async function renderPokemonDetailMode(species, familyMode, options = {}) {
+  const safeSpecies = String(species || "");
+  if (!safeSpecies) {
+    await renderOverviewMode(options);
+    return;
+  }
+
+  try {
+    if (window.analyticsIndexData?.overviewMeta?.runDepthAvailable) {
+      await ensureOverviewDataLoaded();
+    }
+    const pokemonIndexData = await ensurePokemonIndexLoaded();
+    const { detail, indexEntry } = await window.loadPokemonFamilyDetail(pokemonIndexData, safeSpecies);
+    const state = pokemonState();
+    state.selectedSpecies = safeSpecies;
+    state.familyMode = Boolean(familyMode);
+    state.pokemonIndexData = pokemonIndexData;
+    state.pokemonDetailData = detail;
+    window.analyticsPokemonState = state;
+    if (options.updateUrl !== false) {
+      updatePokemonQueryParams(safeSpecies, state.familyMode, { replace: Boolean(options.replaceHistory) });
+    }
+    renderPokemonOverviewPage(
+      getPokemonSnapshot(detail, safeSpecies, state.familyMode, overviewState().minDepth),
+      {
+        species: safeSpecies,
+        familyMode: state.familyMode,
+        familyMembers: indexEntry?.familyMembers || detail?.familyMembers || [],
+        generatedAt: detail?.generatedAt,
+      }
+    );
+    wirePokemonInteractions();
+  } catch (error) {
+    renderHeader("pokemon-detail", { generatedAt: window.analyticsIndexData?.generatedAt });
+    renderOutMessage("Pokemon data unavailable.", error.message || "Failed to load offline pokemon analytics.");
+  }
+}
+
+async function renderOverviewMode() {
+  try {
+    const overviewData = await ensureOverviewDataLoaded();
+    const state = overviewState();
+    const snapshot = state.currentSnapshot || getOverviewSnapshot(overviewData, state.minDepth);
+    renderOverview(window.analyticsIndexData, overviewData, snapshot);
+  } catch (error) {
+    renderHeader("overview", { generatedAt: window.analyticsIndexData?.generatedAt });
+    renderOutMessage("Offline overview unavailable.", error.message || "Failed to load overview analytics.");
+  }
+}
+
+async function selectPokemonBySpecies(species) {
+  if (!species) return;
+  const pokemonIndexData = await ensurePokemonIndexLoaded();
+  const entry = (pokemonIndexData?.species || []).find((item) => item.species === species);
+  if (!entry) return;
+  $("#pokemonSelect").val(species).trigger("change.select2");
+  await renderPokemonDetailMode(species, currentPokemonFamilyMode());
+}
+
+async function renderTrainerSelection(data, options = {}) {
   if (!data || !data.id) return;
 
   clearOverviewCharts();
   const displayName = data.id;
   const team = TRAINERS[displayName] || [];
+  const teamVariantNames = Array.isArray(data._teamVariantNames) ? data._teamVariantNames : [];
 
-  updateTrainerQueryParam(displayName);
+  if (options.updateUrl !== false) {
+    updateTrainerQueryParam(displayName, { replace: Boolean(options.replaceHistory) });
+  }
   renderHeader("trainer-detail", {
     generatedAt: window.analyticsIndexData?.generatedAt,
     trainerName: displayName,
   });
-  renderTeam(displayName, team);
+  renderTeam(displayName, team, teamVariantNames);
   await renderTrainerUsageDashboard(data);
 }
 
-async function navigateToOverview() {
-  updateTrainerQueryParam("");
-  renderOverview(window.analyticsIndexData);
-  $("#trainerSelect").val(null).trigger("change");
+async function navigateToOverview(options = {}) {
+  if (options.updateUrl !== false) {
+    updateDashboardQueryParams({
+      trainer: null,
+      pokemon: null,
+      family: null,
+    }, { replace: Boolean(options.replaceHistory) });
+  }
+  $("#trainerSelect").val(null).trigger("change.select2");
+  $("#pokemonSelect").val(null).trigger("change.select2");
+  await renderOverviewMode();
+}
+
+async function syncDashboardFromUrl(options = {}) {
+  const params = new URLSearchParams(window.location.search);
+  const queriedTrainer = params.get("trainer");
+  const queriedPokemon = params.get("pokemon");
+  const familyMode = currentPokemonFamilyMode();
+  const trainerData = queriedTrainer ? findTrainerOptionById(window.select2TrainerData || [], queriedTrainer) : null;
+  const pokemonEntries = window.select2PokemonData || [];
+  const pokemonExists = queriedPokemon && pokemonEntries.some((entry) => entry.id === queriedPokemon);
+
+  isRoutingDashboardState = true;
+  try {
+    if (trainerData) {
+      $("#trainerSelect").val(trainerData.id).trigger("change.select2");
+      $("#pokemonSelect").val(null).trigger("change.select2");
+      await renderTrainerSelection(trainerData, { updateUrl: false, replaceHistory: options.replaceHistory });
+      return;
+    }
+
+    if (pokemonExists) {
+      $("#trainerSelect").val(null).trigger("change.select2");
+      $("#pokemonSelect").val(queriedPokemon).trigger("change.select2");
+      await renderPokemonDetailMode(queriedPokemon, familyMode, { updateUrl: false, replaceHistory: options.replaceHistory });
+      return;
+    }
+
+    await navigateToOverview({ updateUrl: false, replaceHistory: options.replaceHistory });
+  } finally {
+    isRoutingDashboardState = false;
+  }
 }
 
 function getTrainerNames() {
@@ -836,6 +1600,10 @@ async function initializeDashboard() {
     return;
   }
 
+  window.dashboardCalculatorUrl = fallbackCalculatorUrl();
+  renderHeader("overview", { generatedAt: window.analyticsIndexData?.generatedAt });
+  window.dashboardCalculatorUrl = await loadCalculatorUrlFromIndex();
+
   const trainerEntries = window.analyticsIndexData?.trainers || [];
   if (!trainerEntries.length) {
     renderHeader("overview", { generatedAt: window.analyticsIndexData?.generatedAt });
@@ -845,6 +1613,15 @@ async function initializeDashboard() {
 
   const data = buildSelect2Data(trainerEntries);
   window.select2TrainerData = data;
+  let pokemonData = [];
+
+  try {
+    const pokemonIndexData = await ensurePokemonIndexLoaded();
+    pokemonData = buildPokemonSelectData(pokemonIndexData?.species || []);
+    window.select2PokemonData = pokemonData;
+  } catch (error) {
+    console.warn(error);
+  }
 
   $("#trainerSelect").select2({
     data,
@@ -873,22 +1650,53 @@ async function initializeDashboard() {
     },
   });
 
+  $("#pokemonSelect").select2({
+    data: pokemonData,
+    placeholder: "Search pokemon…",
+    allowClear: true,
+    width: "100%",
+    templateResult: templatePokemonResult,
+    templateSelection: templatePokemonSelection,
+  });
+
   $("#trainerSelect")
     .on("select2:select", function (e) {
+      if (isRoutingDashboardState) return;
+      $("#pokemonSelect").val(null).trigger("change.select2");
       void renderTrainerSelection(e.params.data);
     })
     .on("select2:clear", function () {
+      if (isRoutingDashboardState) return;
+      if ($("#pokemonSelect").val()) return;
       void navigateToOverview();
     });
 
-  const queriedTrainer = new URLSearchParams(window.location.search).get("trainer");
-  const selectedTrainer = queriedTrainer ? findTrainerOptionById(data, queriedTrainer) : null;
-  if (selectedTrainer) {
-    await selectTrainerByName(selectedTrainer.id);
-    return;
-  }
+  $("#pokemonSelect")
+    .on("select2:select", function (e) {
+      if (isRoutingDashboardState) return;
+      $("#trainerSelect").val(null).trigger("change.select2");
+      void renderPokemonDetailMode(e.params.data.id, true);
+    })
+    .on("select2:clear", function () {
+      if (isRoutingDashboardState) return;
+      if ($("#trainerSelect").val()) return;
+      void navigateToOverview();
+    });
 
-  renderOverview(window.analyticsIndexData);
+  $(document)
+    .off("click.analyticsPokemonLink", ".pokemonLink")
+    .on("click.analyticsPokemonLink", ".pokemonLink", function (event) {
+      event.preventDefault();
+      const species = this.dataset.species;
+      if (!species) return;
+      void selectPokemonBySpecies(species);
+    });
+
+  window.addEventListener("popstate", () => {
+    void syncDashboardFromUrl({ replaceHistory: true });
+  });
+
+  await syncDashboardFromUrl({ replaceHistory: true });
 }
 
 $(function () {

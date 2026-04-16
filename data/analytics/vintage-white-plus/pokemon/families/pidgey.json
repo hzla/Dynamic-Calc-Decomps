@@ -1,0 +1,313 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "pidgey",
+  "familyMembers": [
+    "Pidgeot",
+    "Pidgeot-Mega",
+    "Pidgeotto",
+    "Pidgey"
+  ],
+  "speciesEntries": {
+    "Pidgeot": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 12,
+          "averageParticipationPct": 38.3,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 14.0,
+          "topBattles": [
+            {
+              "usageKey": "25",
+              "displayName": "Leader Skyla",
+              "leadLevel": 65,
+              "partyCount": 5,
+              "ownedCount": 5,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "73",
+              "displayName": "Worker Filipe - Cold Storage",
+              "leadLevel": 52,
+              "partyCount": 5,
+              "ownedCount": 5,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "304",
+              "displayName": "Team Plasma Grunt25 - Dragonspiral Tower",
+              "leadLevel": 77,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "612",
+              "displayName": "Team Plasma Grunt46 - Dragonspiral Tower",
+              "leadLevel": 77,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "306",
+              "displayName": "Team Plasma Grunt27",
+              "leadLevel": 78,
+              "partyCount": 4,
+              "ownedCount": 5,
+              "participationPct": 80
+            },
+            {
+              "usageKey": "312",
+              "displayName": "Team Plasma Grunt33 - Dragonspiral Tower",
+              "leadLevel": 77,
+              "partyCount": 4,
+              "ownedCount": 5,
+              "participationPct": 80
+            },
+            {
+              "usageKey": "313",
+              "displayName": "Team Plasma Grunt34",
+              "leadLevel": 78,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "586",
+              "displayName": "Team Plasma N3",
+              "leadLevel": 100,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "302",
+              "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
+              "leadLevel": 78,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "305",
+              "displayName": "Team Plasma Grunt26",
+              "leadLevel": 77,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            }
+          ]
+        }
+      }
+    },
+    "Pidgeotto": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 11,
+          "averageParticipationPct": 43.9,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.1,
+          "topBattles": [
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Lass Eva - Pinwheel Forest",
+              "leadLevel": 29,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "20",
+              "displayName": "PkMn Breeder Adelaide - Route 3",
+              "leadLevel": 17,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "297",
+              "displayName": "Team Plasma Grunt18",
+              "leadLevel": 33,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "552",
+              "displayName": "Team Plasma Grunt35",
+              "leadLevel": 32,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "407",
+              "displayName": "Champion Alder",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "27",
+              "displayName": "PkMn Ranger Irene - Pinwheel Forest",
+              "leadLevel": 31,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Pidgey": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 20,
+        "averageParticipationPct": 40.9,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 9.0,
+        "topBattles": [
+          {
+            "usageKey": "25",
+            "displayName": "Leader Skyla",
+            "leadLevel": 65,
+            "partyCount": 5,
+            "ownedCount": 5,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "73",
+            "displayName": "Worker Filipe - Cold Storage",
+            "leadLevel": 52,
+            "partyCount": 5,
+            "ownedCount": 5,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "304",
+            "displayName": "Team Plasma Grunt25 - Dragonspiral Tower",
+            "leadLevel": 77,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "612",
+            "displayName": "Team Plasma Grunt46 - Dragonspiral Tower",
+            "leadLevel": 77,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "306",
+            "displayName": "Team Plasma Grunt27",
+            "leadLevel": 78,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "312",
+            "displayName": "Team Plasma Grunt33 - Dragonspiral Tower",
+            "leadLevel": 77,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "313",
+            "displayName": "Team Plasma Grunt34",
+            "leadLevel": 78,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "586",
+            "displayName": "Team Plasma N3",
+            "leadLevel": 100,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "302",
+            "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
+            "leadLevel": 78,
+            "partyCount": 3,
+            "ownedCount": 5,
+            "participationPct": 60
+          }
+        ]
+      }
+    }
+  }
+}

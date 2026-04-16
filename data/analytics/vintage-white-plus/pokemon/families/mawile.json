@@ -1,0 +1,197 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "mawile",
+  "familyMembers": [
+    "Mawile",
+    "Mawile-Mega"
+  ],
+  "speciesEntries": {
+    "Mawile": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 5,
+          "averageParticipationPct": 2.6,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.8,
+          "topBattles": [
+            {
+              "usageKey": "247",
+              "displayName": "Ace Trainer David - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Ace Trainer Webster - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "95",
+              "displayName": "Clerk F Katie - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "256",
+              "displayName": "Hiker Clarke - Mistralton Cave",
+              "leadLevel": 67,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "24",
+              "displayName": "Leader Clay",
+              "leadLevel": 56,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "301",
+              "displayName": "Team Plasma Grunt22 - Chargestone Cave",
+              "leadLevel": 64,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "305",
+              "displayName": "Team Plasma Grunt26",
+              "leadLevel": 77,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "306",
+              "displayName": "Team Plasma Grunt27",
+              "leadLevel": 78,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "307",
+              "displayName": "Team Plasma Grunt28",
+              "leadLevel": 80,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "81",
+              "displayName": "Team Plasma Grunt3",
+              "leadLevel": 55,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 5,
+        "averageParticipationPct": 2.6,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 2.8,
+        "topBattles": [
+          {
+            "usageKey": "247",
+            "displayName": "Ace Trainer David - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Ace Trainer Webster - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "95",
+            "displayName": "Clerk F Katie - Driftveil City",
+            "leadLevel": 54,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "256",
+            "displayName": "Hiker Clarke - Mistralton Cave",
+            "leadLevel": 67,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "24",
+            "displayName": "Leader Clay",
+            "leadLevel": 56,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "301",
+            "displayName": "Team Plasma Grunt22 - Chargestone Cave",
+            "leadLevel": 64,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "305",
+            "displayName": "Team Plasma Grunt26",
+            "leadLevel": 77,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "306",
+            "displayName": "Team Plasma Grunt27",
+            "leadLevel": 78,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "307",
+            "displayName": "Team Plasma Grunt28",
+            "leadLevel": 80,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "81",
+            "displayName": "Team Plasma Grunt3",
+            "leadLevel": 55,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

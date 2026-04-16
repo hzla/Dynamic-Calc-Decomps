@@ -1,0 +1,199 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "gastly",
+  "familyMembers": [
+    "Gastly",
+    "Gengar",
+    "Gengar-Mega",
+    "Haunter"
+  ],
+  "speciesEntries": {
+    "Gengar": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 16.7,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 4.0,
+          "topBattles": [
+            {
+              "usageKey": "73",
+              "displayName": "Worker Filipe - Cold Storage",
+              "leadLevel": 52,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "74",
+              "displayName": "Worker Glenn - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "76",
+              "displayName": "Worker Patton - Cold Storage",
+              "leadLevel": 53,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "72",
+              "displayName": "Worker Victor - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "606",
+              "displayName": "Ace Trainer Elmer - Route 7",
+              "leadLevel": 59,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "212",
+              "displayName": "Battle Girl Miriam - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "243",
+              "displayName": "Hiker Terrell - Twist Mountain",
+              "leadLevel": 65,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "190",
+              "displayName": "Lass Kara - Celestial Tower",
+              "leadLevel": 60,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "131",
+              "displayName": "Leader Brycen",
+              "leadLevel": 74,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 1,
+        "averageParticipationPct": 16.7,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 4.0,
+        "topBattles": [
+          {
+            "usageKey": "73",
+            "displayName": "Worker Filipe - Cold Storage",
+            "leadLevel": 52,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "74",
+            "displayName": "Worker Glenn - Cold Storage",
+            "leadLevel": 51,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "76",
+            "displayName": "Worker Patton - Cold Storage",
+            "leadLevel": 53,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "72",
+            "displayName": "Worker Victor - Cold Storage",
+            "leadLevel": 51,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "606",
+            "displayName": "Ace Trainer Elmer - Route 7",
+            "leadLevel": 59,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "212",
+            "displayName": "Battle Girl Miriam - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "215",
+            "displayName": "Black Belt Grant - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "243",
+            "displayName": "Hiker Terrell - Twist Mountain",
+            "leadLevel": 65,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "190",
+            "displayName": "Lass Kara - Celestial Tower",
+            "leadLevel": 60,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "131",
+            "displayName": "Leader Brycen",
+            "leadLevel": 74,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

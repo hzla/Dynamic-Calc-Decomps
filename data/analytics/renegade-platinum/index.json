@@ -1,0 +1,4583 @@
+{
+  "title": "Renegade Platinum",
+  "slug": "renegade-platinum",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "historyLimit": 100,
+  "trainerCount": 352,
+  "overviewFile": "overview.json",
+  "overviewMeta": {
+    "runDepthAvailable": true,
+    "maxStep": 477,
+    "defaultMinDepth": 1
+  },
+  "pokemonIndexFile": "pokemon/index.json",
+  "pokemonMeta": {
+    "available": true,
+    "familyToggleDefault": "family"
+  },
+  "trainers": [
+    {
+      "displayName": "Reporter Kayla",
+      "usageKey": "1022",
+      "detailFile": "trainers/002.json",
+      "leadLevel": 5,
+      "maxLevel": 5,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 1022,
+      "teamVariantNames": [
+        "Reporter Kayla"
+      ]
+    },
+    {
+      "displayName": "Youngster Logan |Route 202|",
+      "usageKey": "2",
+      "detailFile": "trainers/042.json",
+      "leadLevel": 7,
+      "maxLevel": 7,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 2,
+      "teamVariantNames": [
+        "Youngster Logan |Route 202|"
+      ]
+    },
+    {
+      "displayName": "Lass Samantha |Route 204|",
+      "usageKey": "11",
+      "detailFile": "trainers/007.json",
+      "leadLevel": 8,
+      "maxLevel": 8,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 11,
+      "teamVariantNames": [
+        "Lass Samantha |Route 204|"
+      ]
+    },
+    {
+      "displayName": "Lass Sarah |Route 204|",
+      "usageKey": "12",
+      "detailFile": "trainers/011.json",
+      "leadLevel": 8,
+      "maxLevel": 8,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 12,
+      "teamVariantNames": [
+        "Lass Sarah |Route 204|"
+      ]
+    },
+    {
+      "displayName": "School Kid Christine |Route 213|",
+      "usageKey": "345",
+      "detailFile": "trainers/146.json",
+      "leadLevel": 8,
+      "maxLevel": 8,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 345,
+      "teamVariantNames": [
+        "School Kid Christine |Route 213|"
+      ]
+    },
+    {
+      "displayName": "Lass Kaitlin",
+      "usageKey": "323",
+      "detailFile": "trainers/131.json",
+      "leadLevel": 9,
+      "maxLevel": 9,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 323,
+      "teamVariantNames": [
+        "Lass Kaitlin"
+      ]
+    },
+    {
+      "displayName": "Youngster Michael",
+      "usageKey": "4",
+      "detailFile": "trainers/172.json",
+      "leadLevel": 9,
+      "maxLevel": 9,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 4,
+      "teamVariantNames": [
+        "Youngster Michael"
+      ]
+    },
+    {
+      "displayName": "Camper Curtis |Hearthome City|",
+      "usageKey": "265",
+      "detailFile": "trainers/082.json",
+      "leadLevel": 10,
+      "maxLevel": 10,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 265,
+      "teamVariantNames": [
+        "Camper Curtis |Hearthome City|"
+      ]
+    },
+    {
+      "displayName": "Picnicker Diana |Hearthome City|",
+      "usageKey": "329",
+      "detailFile": "trainers/135.json",
+      "leadLevel": 10,
+      "maxLevel": 10,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 329,
+      "teamVariantNames": [
+        "Picnicker Diana |Hearthome City|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric",
+      "usageKey": "247",
+      "detailFile": "trainers/068.json",
+      "leadLevel": 10,
+      "maxLevel": 11,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 247,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric2",
+      "usageKey": "248",
+      "detailFile": "trainers/069.json",
+      "leadLevel": 10,
+      "maxLevel": 11,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 248,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric2"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric3",
+      "usageKey": "249",
+      "detailFile": "trainers/070.json",
+      "leadLevel": 10,
+      "maxLevel": 11,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 249,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric3"
+      ]
+    },
+    {
+      "displayName": "Reporter Helen",
+      "usageKey": "934",
+      "detailFile": "trainers/295.json",
+      "leadLevel": 10,
+      "maxLevel": 10,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 934,
+      "teamVariantNames": [
+        "Reporter Helen"
+      ]
+    },
+    {
+      "displayName": "Youngster Dallas |Route 203|",
+      "usageKey": "355",
+      "detailFile": "trainers/149.json",
+      "leadLevel": 10,
+      "maxLevel": 10,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 355,
+      "teamVariantNames": [
+        "Youngster Dallas |Route 203|"
+      ]
+    },
+    {
+      "displayName": "Youngster Sebastian |Hearthome City|",
+      "usageKey": "356",
+      "detailFile": "trainers/150.json",
+      "leadLevel": 10,
+      "maxLevel": 10,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 356,
+      "teamVariantNames": [
+        "Youngster Sebastian |Hearthome City|"
+      ]
+    },
+    {
+      "displayName": "Worker Colin |Oreburgh Mine|",
+      "usageKey": "195",
+      "detailFile": "trainers/040.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 195,
+      "teamVariantNames": [
+        "Worker Colin |Oreburgh Mine|"
+      ]
+    },
+    {
+      "displayName": "Worker Mason",
+      "usageKey": "196",
+      "detailFile": "trainers/041.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 196,
+      "teamVariantNames": [
+        "Worker Mason"
+      ]
+    },
+    {
+      "displayName": "Aroma Lady Taylor |Route 204|",
+      "usageKey": "14",
+      "detailFile": "trainers/022.json",
+      "leadLevel": 13,
+      "maxLevel": 13,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 14,
+      "teamVariantNames": [
+        "Aroma Lady Taylor |Route 204|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt5",
+      "usageKey": "414",
+      "detailFile": "trainers/185.json",
+      "leadLevel": 13,
+      "maxLevel": 13,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 414,
+      "teamVariantNames": [
+        "Galactic Grunt5"
+      ]
+    },
+    {
+      "displayName": "Youngster Darius",
+      "usageKey": "245",
+      "detailFile": "trainers/066.json",
+      "leadLevel": 13,
+      "maxLevel": 13,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 245,
+      "teamVariantNames": [
+        "Youngster Darius"
+      ]
+    },
+    {
+      "displayName": "Youngster Jonathon |Oreburgh City|",
+      "usageKey": "244",
+      "detailFile": "trainers/065.json",
+      "leadLevel": 13,
+      "maxLevel": 13,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 244,
+      "teamVariantNames": [
+        "Youngster Jonathon |Oreburgh City|"
+      ]
+    },
+    {
+      "displayName": "Bug Catcher Brandon |Route 204|",
+      "usageKey": "13",
+      "detailFile": "trainers/016.json",
+      "leadLevel": 14,
+      "maxLevel": 14,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 13,
+      "teamVariantNames": [
+        "Bug Catcher Brandon |Route 204|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt |Fuego Ironworks|",
+      "usageKey": "843",
+      "detailFile": "trainers/280.json",
+      "leadLevel": 14,
+      "maxLevel": 14,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 843,
+      "teamVariantNames": [
+        "Galactic Grunt |Fuego Ironworks|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt |Route 218|",
+      "usageKey": "299",
+      "detailFile": "trainers/111.json",
+      "leadLevel": 14,
+      "maxLevel": 14,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 299,
+      "teamVariantNames": [
+        "Galactic Grunt |Route 218|"
+      ]
+    },
+    {
+      "displayName": "Camper Jacob |Route 205|",
+      "usageKey": "16",
+      "detailFile": "trainers/029.json",
+      "leadLevel": 15,
+      "maxLevel": 15,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 16,
+      "teamVariantNames": [
+        "Camper Jacob |Route 205|"
+      ]
+    },
+    {
+      "displayName": "Camper Zackary |Iron Island|",
+      "usageKey": "377",
+      "detailFile": "trainers/157.json",
+      "leadLevel": 15,
+      "maxLevel": 15,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 377,
+      "teamVariantNames": [
+        "Camper Zackary |Iron Island|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt",
+      "usageKey": "296",
+      "detailFile": "trainers/108.json",
+      "leadLevel": 15,
+      "maxLevel": 15,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 296,
+      "teamVariantNames": [
+        "Galactic Grunt"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt |Valley Windworks|",
+      "usageKey": "297",
+      "detailFile": "trainers/109.json",
+      "leadLevel": 15,
+      "maxLevel": 15,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 297,
+      "teamVariantNames": [
+        "Galactic Grunt |Valley Windworks|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt2 |Valley Windworks|",
+      "usageKey": "298",
+      "detailFile": "trainers/110.json",
+      "leadLevel": 15,
+      "maxLevel": 15,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 298,
+      "teamVariantNames": [
+        "Galactic Grunt2 |Valley Windworks|"
+      ]
+    },
+    {
+      "displayName": "Hiker Daniel |Route 205|",
+      "usageKey": "18",
+      "detailFile": "trainers/034.json",
+      "leadLevel": 15,
+      "maxLevel": 15,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 18,
+      "teamVariantNames": [
+        "Hiker Daniel |Route 205|"
+      ]
+    },
+    {
+      "displayName": "Leader Roark",
+      "usageKey": "246",
+      "detailFile": "trainers/067.json",
+      "leadLevel": 15,
+      "maxLevel": 16,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 246,
+      "teamVariantNames": [
+        "Leader Roark"
+      ]
+    },
+    {
+      "displayName": "Reporter Jenny",
+      "usageKey": "1021",
+      "detailFile": "trainers/001.json",
+      "leadLevel": 15,
+      "maxLevel": 15,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 1021,
+      "teamVariantNames": [
+        "Reporter Jenny"
+      ]
+    },
+    {
+      "displayName": "Twins Liv \uff06 Liz |Route 205|",
+      "usageKey": "15",
+      "detailFile": "trainers/028.json",
+      "leadLevel": 15,
+      "maxLevel": 15,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 15,
+      "teamVariantNames": [
+        "Twins Liv \uff06 Liz |Route 205|"
+      ]
+    },
+    {
+      "displayName": "Aroma Lady Elizabeth |Route 205|",
+      "usageKey": "21",
+      "detailFile": "trainers/049.json",
+      "leadLevel": 16,
+      "maxLevel": 16,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 21,
+      "teamVariantNames": [
+        "Aroma Lady Elizabeth |Route 205|"
+      ]
+    },
+    {
+      "displayName": "Battle Girl Kelsey |Route 205|",
+      "usageKey": "20",
+      "detailFile": "trainers/043.json",
+      "leadLevel": 16,
+      "maxLevel": 16,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 20,
+      "teamVariantNames": [
+        "Battle Girl Kelsey |Route 205|"
+      ]
+    },
+    {
+      "displayName": "Bug Catcher Jack |Eterna Forest|",
+      "usageKey": "201",
+      "detailFile": "trainers/044.json",
+      "leadLevel": 16,
+      "maxLevel": 16,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 201,
+      "teamVariantNames": [
+        "Bug Catcher Jack |Eterna Forest|"
+      ]
+    },
+    {
+      "displayName": "Hiker Nicholas |Route 205|",
+      "usageKey": "19",
+      "detailFile": "trainers/037.json",
+      "leadLevel": 16,
+      "maxLevel": 16,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 19,
+      "teamVariantNames": [
+        "Hiker Nicholas |Route 205|"
+      ]
+    },
+    {
+      "displayName": "Bug Catcher Phillip |Eterna Forest|",
+      "usageKey": "202",
+      "detailFile": "trainers/045.json",
+      "leadLevel": 17,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 202,
+      "teamVariantNames": [
+        "Bug Catcher Phillip |Eterna Forest|"
+      ]
+    },
+    {
+      "displayName": "Psychic Elijah |Eterna Forest|",
+      "usageKey": "205",
+      "detailFile": "trainers/047.json",
+      "leadLevel": 17,
+      "maxLevel": 17,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 205,
+      "teamVariantNames": [
+        "Psychic Elijah |Eterna Forest|"
+      ]
+    },
+    {
+      "displayName": "Psychic Lindsey",
+      "usageKey": "206",
+      "detailFile": "trainers/048.json",
+      "leadLevel": 17,
+      "maxLevel": 17,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 206,
+      "teamVariantNames": [
+        "Psychic Lindsey"
+      ]
+    },
+    {
+      "displayName": "Commander Mars",
+      "usageKey": "295",
+      "detailFile": "trainers/107.json",
+      "leadLevel": 18,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 295,
+      "teamVariantNames": [
+        "Commander Mars"
+      ]
+    },
+    {
+      "displayName": "Fisherman Joseph |Route 205|",
+      "usageKey": "23",
+      "detailFile": "trainers/056.json",
+      "leadLevel": 18,
+      "maxLevel": 18,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 23,
+      "teamVariantNames": [
+        "Fisherman Joseph |Route 205|"
+      ]
+    },
+    {
+      "displayName": "Psychic Kody |Victory Road|",
+      "usageKey": "395",
+      "detailFile": "trainers/167.json",
+      "leadLevel": 18,
+      "maxLevel": 20,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 395,
+      "teamVariantNames": [
+        "Psychic Kody |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Psychic Rachael |Victory Road|",
+      "usageKey": "398",
+      "detailFile": "trainers/170.json",
+      "leadLevel": 18,
+      "maxLevel": 20,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 398,
+      "teamVariantNames": [
+        "Psychic Rachael |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Bug Catcher Donald |Eterna Forest|",
+      "usageKey": "203",
+      "detailFile": "trainers/046.json",
+      "leadLevel": 19,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 203,
+      "teamVariantNames": [
+        "Bug Catcher Donald |Eterna Forest|"
+      ]
+    },
+    {
+      "displayName": "Cyclist Axel |Route 206|",
+      "usageKey": "25",
+      "detailFile": "trainers/071.json",
+      "leadLevel": 19,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 25,
+      "teamVariantNames": [
+        "Cyclist Axel |Route 206|"
+      ]
+    },
+    {
+      "displayName": "Cyclist Kayla |Route 206|",
+      "usageKey": "31",
+      "detailFile": "trainers/120.json",
+      "leadLevel": 19,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 31,
+      "teamVariantNames": [
+        "Cyclist Kayla |Route 206|"
+      ]
+    },
+    {
+      "displayName": "Cyclist Nicole |Route 206|",
+      "usageKey": "30",
+      "detailFile": "trainers/112.json",
+      "leadLevel": 19,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 30,
+      "teamVariantNames": [
+        "Cyclist Nicole |Route 206|"
+      ]
+    },
+    {
+      "displayName": "Hiker Louis |Route 212|",
+      "usageKey": "326",
+      "detailFile": "trainers/133.json",
+      "leadLevel": 19,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 326,
+      "teamVariantNames": [
+        "Hiker Louis |Route 212|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cheryl",
+      "usageKey": "608",
+      "detailFile": "trainers/257.json",
+      "leadLevel": 19,
+      "maxLevel": 20,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 608,
+      "teamVariantNames": [
+        "Pkmn Trainer Cheryl"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cheryl3",
+      "usageKey": "1064",
+      "detailFile": "trainers/005.json",
+      "leadLevel": 19,
+      "maxLevel": 20,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 1064,
+      "teamVariantNames": [
+        "Pkmn Trainer Cheryl3"
+      ]
+    },
+    {
+      "displayName": "Bird Keeper Alexandra",
+      "usageKey": "76",
+      "detailFile": "trainers/273.json",
+      "leadLevel": 20,
+      "maxLevel": 20,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 76,
+      "teamVariantNames": [
+        "Bird Keeper Alexandra"
+      ]
+    },
+    {
+      "displayName": "Skier Edward |Route 216|",
+      "usageKey": "137",
+      "detailFile": "trainers/021.json",
+      "leadLevel": 20,
+      "maxLevel": 20,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 137,
+      "teamVariantNames": [
+        "Skier Edward |Route 216|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Garrett |Route 216|",
+      "usageKey": "133",
+      "detailFile": "trainers/018.json",
+      "leadLevel": 22,
+      "maxLevel": 22,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 133,
+      "teamVariantNames": [
+        "Ace Trainer Garrett |Route 216|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Maria |Route 216|",
+      "usageKey": "135",
+      "detailFile": "trainers/020.json",
+      "leadLevel": 22,
+      "maxLevel": 22,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 135,
+      "teamVariantNames": [
+        "Ace Trainer Maria |Route 216|"
+      ]
+    },
+    {
+      "displayName": "Lass Caroline |Hearthome City|",
+      "usageKey": "324",
+      "detailFile": "trainers/132.json",
+      "leadLevel": 22,
+      "maxLevel": 22,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 324,
+      "teamVariantNames": [
+        "Lass Caroline |Hearthome City|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Blake |Route 216|",
+      "usageKey": "132",
+      "detailFile": "trainers/017.json",
+      "leadLevel": 23,
+      "maxLevel": 23,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 132,
+      "teamVariantNames": [
+        "Ace Trainer Blake |Route 216|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Laura |Route 216|",
+      "usageKey": "134",
+      "detailFile": "trainers/019.json",
+      "leadLevel": 23,
+      "maxLevel": 23,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 134,
+      "teamVariantNames": [
+        "Ace Trainer Laura |Route 216|"
+      ]
+    },
+    {
+      "displayName": "Aroma Lady Angela",
+      "usageKey": "260",
+      "detailFile": "trainers/077.json",
+      "leadLevel": 23,
+      "maxLevel": 23,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 260,
+      "teamVariantNames": [
+        "Aroma Lady Angela"
+      ]
+    },
+    {
+      "displayName": "Aroma Lady Jenna",
+      "usageKey": "259",
+      "detailFile": "trainers/076.json",
+      "leadLevel": 23,
+      "maxLevel": 23,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 259,
+      "teamVariantNames": [
+        "Aroma Lady Jenna"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt2",
+      "usageKey": "410",
+      "detailFile": "trainers/183.json",
+      "leadLevel": 23,
+      "maxLevel": 23,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 410,
+      "teamVariantNames": [
+        "Galactic Grunt2"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt3 |T.G. Eterna Bldg|",
+      "usageKey": "421",
+      "detailFile": "trainers/188.json",
+      "leadLevel": 23,
+      "maxLevel": 23,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 421,
+      "teamVariantNames": [
+        "Galactic Grunt3 |T.G. Eterna Bldg|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt7",
+      "usageKey": "423",
+      "detailFile": "trainers/189.json",
+      "leadLevel": 23,
+      "maxLevel": 23,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 423,
+      "teamVariantNames": [
+        "Galactic Grunt7"
+      ]
+    },
+    {
+      "displayName": "Camper Anthony |Route 207|",
+      "usageKey": "34",
+      "detailFile": "trainers/143.json",
+      "leadLevel": 24,
+      "maxLevel": 24,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 34,
+      "teamVariantNames": [
+        "Camper Anthony |Route 207|"
+      ]
+    },
+    {
+      "displayName": "Collector Terry",
+      "usageKey": "383",
+      "detailFile": "trainers/161.json",
+      "leadLevel": 24,
+      "maxLevel": 24,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 383,
+      "teamVariantNames": [
+        "Collector Terry"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt21",
+      "usageKey": "939",
+      "detailFile": "trainers/299.json",
+      "leadLevel": 24,
+      "maxLevel": 24,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 939,
+      "teamVariantNames": [
+        "Galactic Grunt21"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt3",
+      "usageKey": "412",
+      "detailFile": "trainers/184.json",
+      "leadLevel": 24,
+      "maxLevel": 24,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 412,
+      "teamVariantNames": [
+        "Galactic Grunt3"
+      ]
+    },
+    {
+      "displayName": "Picnicker Lauren |Route 207|",
+      "usageKey": "35",
+      "detailFile": "trainers/148.json",
+      "leadLevel": 24,
+      "maxLevel": 24,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 35,
+      "teamVariantNames": [
+        "Picnicker Lauren |Route 207|"
+      ]
+    },
+    {
+      "displayName": "Scientist Travon |Route 222|",
+      "usageKey": "831",
+      "detailFile": "trainers/277.json",
+      "leadLevel": 24,
+      "maxLevel": 24,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 831,
+      "teamVariantNames": [
+        "Scientist Travon |Route 222|"
+      ]
+    },
+    {
+      "displayName": "Hiker Justin |Route 207|",
+      "usageKey": "37",
+      "detailFile": "trainers/155.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 37,
+      "teamVariantNames": [
+        "Hiker Justin |Route 207|"
+      ]
+    },
+    {
+      "displayName": "Leader Gardenia",
+      "usageKey": "315",
+      "detailFile": "trainers/125.json",
+      "leadLevel": 25,
+      "maxLevel": 26,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 315,
+      "teamVariantNames": [
+        "Leader Gardenia"
+      ]
+    },
+    {
+      "displayName": "Picnicker Ana",
+      "usageKey": "459",
+      "detailFile": "trainers/203.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 459,
+      "teamVariantNames": [
+        "Picnicker Ana"
+      ]
+    },
+    {
+      "displayName": "Picnicker Tori |Wayward Cave|",
+      "usageKey": "458",
+      "detailFile": "trainers/202.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 458,
+      "teamVariantNames": [
+        "Picnicker Tori |Wayward Cave|"
+      ]
+    },
+    {
+      "displayName": "Ruin Maniac Gerald |Victory Road|",
+      "usageKey": "443",
+      "detailFile": "trainers/195.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 443,
+      "teamVariantNames": [
+        "Ruin Maniac Gerald |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Youngster Austin |Route 207|",
+      "usageKey": "33",
+      "detailFile": "trainers/136.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 33,
+      "teamVariantNames": [
+        "Youngster Austin |Route 207|"
+      ]
+    },
+    {
+      "displayName": "Youngster Wayne |Pastoria City|",
+      "usageKey": "496",
+      "detailFile": "trainers/224.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 496,
+      "teamVariantNames": [
+        "Youngster Wayne |Pastoria City|"
+      ]
+    },
+    {
+      "displayName": "Battle Girl Helen |Route 208|",
+      "usageKey": "38",
+      "detailFile": "trainers/159.json",
+      "leadLevel": 26,
+      "maxLevel": 26,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 38,
+      "teamVariantNames": [
+        "Battle Girl Helen |Route 208|"
+      ]
+    },
+    {
+      "displayName": "Commander Jupiter",
+      "usageKey": "406",
+      "detailFile": "trainers/178.json",
+      "leadLevel": 26,
+      "maxLevel": 27,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 406,
+      "teamVariantNames": [
+        "Commander Jupiter"
+      ]
+    },
+    {
+      "displayName": "Hiker Jonathan |Route 208|",
+      "usageKey": "41",
+      "detailFile": "trainers/182.json",
+      "leadLevel": 26,
+      "maxLevel": 26,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 41,
+      "teamVariantNames": [
+        "Hiker Jonathan |Route 208|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Breeder Albert |Route 209|",
+      "usageKey": "46",
+      "detailFile": "trainers/204.json",
+      "leadLevel": 26,
+      "maxLevel": 26,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 46,
+      "teamVariantNames": [
+        "Pkmn Breeder Albert |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Breeder Jennifer |Route 209|",
+      "usageKey": "47",
+      "detailFile": "trainers/205.json",
+      "leadLevel": 26,
+      "maxLevel": 26,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 47,
+      "teamVariantNames": [
+        "Pkmn Breeder Jennifer |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Aroma Lady Hannah |Route 208|",
+      "usageKey": "44",
+      "detailFile": "trainers/194.json",
+      "leadLevel": 27,
+      "maxLevel": 27,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 44,
+      "teamVariantNames": [
+        "Aroma Lady Hannah |Route 208|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt23",
+      "usageKey": "948",
+      "detailFile": "trainers/309.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 948,
+      "teamVariantNames": [
+        "Galactic Grunt23"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt31",
+      "usageKey": "956",
+      "detailFile": "trainers/314.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 956,
+      "teamVariantNames": [
+        "Galactic Grunt31"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt33",
+      "usageKey": "958",
+      "detailFile": "trainers/315.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 958,
+      "teamVariantNames": [
+        "Galactic Grunt33"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Mira",
+      "usageKey": "612",
+      "detailFile": "trainers/259.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 612,
+      "teamVariantNames": [
+        "Pkmn Trainer Mira"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Mira3",
+      "usageKey": "1065",
+      "detailFile": "trainers/006.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 1065,
+      "teamVariantNames": [
+        "Pkmn Trainer Mira3"
+      ]
+    },
+    {
+      "displayName": "Pok\u00e9 Kid Danielle",
+      "usageKey": "53",
+      "detailFile": "trainers/247.json",
+      "leadLevel": 28,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 53,
+      "teamVariantNames": [
+        "Pok\u00e9 Kid Danielle"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Allen |Sunyshore City|",
+      "usageKey": "280",
+      "detailFile": "trainers/094.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 280,
+      "teamVariantNames": [
+        "Ace Trainer Allen |Sunyshore City|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Catherine |Sunyshore City|",
+      "usageKey": "284",
+      "detailFile": "trainers/098.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 284,
+      "teamVariantNames": [
+        "Ace Trainer Catherine |Sunyshore City|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt22",
+      "usageKey": "947",
+      "detailFile": "trainers/308.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 947,
+      "teamVariantNames": [
+        "Galactic Grunt22"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt25",
+      "usageKey": "950",
+      "detailFile": "trainers/311.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 950,
+      "teamVariantNames": [
+        "Galactic Grunt25"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt26",
+      "usageKey": "951",
+      "detailFile": "trainers/312.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 951,
+      "teamVariantNames": [
+        "Galactic Grunt26"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt30",
+      "usageKey": "955",
+      "detailFile": "trainers/313.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 955,
+      "teamVariantNames": [
+        "Galactic Grunt30"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn10",
+      "usageKey": "940",
+      "detailFile": "trainers/301.json",
+      "leadLevel": 29,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 940,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn10"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn11",
+      "usageKey": "941",
+      "detailFile": "trainers/302.json",
+      "leadLevel": 29,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 941,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn11"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas10",
+      "usageKey": "943",
+      "detailFile": "trainers/304.json",
+      "leadLevel": 29,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 943,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas10"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas11",
+      "usageKey": "944",
+      "detailFile": "trainers/305.json",
+      "leadLevel": 29,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 944,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas11"
+      ]
+    },
+    {
+      "displayName": "Clown Lee2",
+      "usageKey": "886",
+      "detailFile": "trainers/289.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 886,
+      "teamVariantNames": [
+        "Clown Lee2"
+      ]
+    },
+    {
+      "displayName": "Cowgirl Shelley |Route 209|",
+      "usageKey": "48",
+      "detailFile": "trainers/216.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 48,
+      "teamVariantNames": [
+        "Cowgirl Shelley |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Guitarist Arturo4",
+      "usageKey": "877",
+      "detailFile": "trainers/287.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 877,
+      "teamVariantNames": [
+        "Guitarist Arturo4"
+      ]
+    },
+    {
+      "displayName": "Interviewers Roxy\uff06Oli2",
+      "usageKey": "883",
+      "detailFile": "trainers/288.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 883,
+      "teamVariantNames": [
+        "Interviewers Roxy\uff06Oli2"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn12",
+      "usageKey": "942",
+      "detailFile": "trainers/303.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 942,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn12"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas12",
+      "usageKey": "945",
+      "detailFile": "trainers/306.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 945,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas12"
+      ]
+    },
+    {
+      "displayName": "Pok\u00e9fan Rebekah |Route 209|",
+      "usageKey": "531",
+      "detailFile": "trainers/249.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 531,
+      "teamVariantNames": [
+        "Pok\u00e9fan Rebekah |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Reporter Kinsey2",
+      "usageKey": "894",
+      "detailFile": "trainers/290.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 894,
+      "teamVariantNames": [
+        "Reporter Kinsey2"
+      ]
+    },
+    {
+      "displayName": "Twins Ema \uff06 Lil",
+      "usageKey": "294",
+      "detailFile": "trainers/106.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 294,
+      "teamVariantNames": [
+        "Twins Ema \uff06 Lil"
+      ]
+    },
+    {
+      "displayName": "Pkmn Breeder Amber",
+      "usageKey": "57",
+      "detailFile": "trainers/256.json",
+      "leadLevel": 31,
+      "maxLevel": 31,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 57,
+      "teamVariantNames": [
+        "Pkmn Breeder Amber"
+      ]
+    },
+    {
+      "displayName": "Pkmn Breeder Kahlil |Route 210|",
+      "usageKey": "56",
+      "detailFile": "trainers/255.json",
+      "leadLevel": 31,
+      "maxLevel": 31,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 56,
+      "teamVariantNames": [
+        "Pkmn Breeder Kahlil |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Pok\u00e9fan Leonard |Route 209|",
+      "usageKey": "530",
+      "detailFile": "trainers/248.json",
+      "leadLevel": 31,
+      "maxLevel": 31,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 530,
+      "teamVariantNames": [
+        "Pok\u00e9fan Leonard |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Ruin Maniac Karl |Route 225|",
+      "usageKey": "553",
+      "detailFile": "trainers/254.json",
+      "leadLevel": 31,
+      "maxLevel": 31,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 553,
+      "teamVariantNames": [
+        "Ruin Maniac Karl |Route 225|"
+      ]
+    },
+    {
+      "displayName": "Young Couple Ty \uff06 Sue |Route 210|",
+      "usageKey": "55",
+      "detailFile": "trainers/253.json",
+      "leadLevel": 31,
+      "maxLevel": 31,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 55,
+      "teamVariantNames": [
+        "Young Couple Ty \uff06 Sue |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Youngster Oliver |Route 209|",
+      "usageKey": "532",
+      "detailFile": "trainers/250.json",
+      "leadLevel": 31,
+      "maxLevel": 31,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 532,
+      "teamVariantNames": [
+        "Youngster Oliver |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric4",
+      "usageKey": "470",
+      "detailFile": "trainers/206.json",
+      "leadLevel": 32,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 470,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric4"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric5",
+      "usageKey": "471",
+      "detailFile": "trainers/207.json",
+      "leadLevel": 32,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 471,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric5"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric6",
+      "usageKey": "472",
+      "detailFile": "trainers/208.json",
+      "leadLevel": 32,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 472,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric6"
+      ]
+    },
+    {
+      "displayName": "Twins Teri\uff06Tia |Route 210|",
+      "usageKey": "65",
+      "detailFile": "trainers/260.json",
+      "leadLevel": 32,
+      "maxLevel": 32,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 65,
+      "teamVariantNames": [
+        "Twins Teri\uff06Tia |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Belle & Pa Ava\uff06Matt",
+      "usageKey": "290",
+      "detailFile": "trainers/104.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 290,
+      "teamVariantNames": [
+        "Belle & Pa Ava\uff06Matt"
+      ]
+    },
+    {
+      "displayName": "Belle & Pa Beth\uff06Bob |Route 209|",
+      "usageKey": "533",
+      "detailFile": "trainers/251.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 533,
+      "teamVariantNames": [
+        "Belle & Pa Beth\uff06Bob |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Colby |Veilstone City|",
+      "usageKey": "309",
+      "detailFile": "trainers/119.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 309,
+      "teamVariantNames": [
+        "Black Belt Colby |Veilstone City|"
+      ]
+    },
+    {
+      "displayName": "Collector Brady |Route 221|",
+      "usageKey": "273",
+      "detailFile": "trainers/089.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 273,
+      "teamVariantNames": [
+        "Collector Brady |Route 221|"
+      ]
+    },
+    {
+      "displayName": "Collector Douglas |Route 214|",
+      "usageKey": "272",
+      "detailFile": "trainers/088.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 272,
+      "teamVariantNames": [
+        "Collector Douglas |Route 214|"
+      ]
+    },
+    {
+      "displayName": "Commander Saturn2",
+      "usageKey": "959",
+      "detailFile": "trainers/316.json",
+      "leadLevel": 33,
+      "maxLevel": 34,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 959,
+      "teamVariantNames": [
+        "Commander Saturn2"
+      ]
+    },
+    {
+      "displayName": "Gentleman Backlot",
+      "usageKey": "960",
+      "detailFile": "trainers/318.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 960,
+      "teamVariantNames": [
+        "Gentleman Backlot"
+      ]
+    },
+    {
+      "displayName": "Leader Fantina",
+      "usageKey": "318",
+      "detailFile": "trainers/128.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 318,
+      "teamVariantNames": [
+        "Leader Fantina"
+      ]
+    },
+    {
+      "displayName": "Ruin Maniac Bryan |Route 214|",
+      "usageKey": "113",
+      "detailFile": "trainers/009.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 113,
+      "teamVariantNames": [
+        "Ruin Maniac Bryan |Route 214|"
+      ]
+    },
+    {
+      "displayName": "Ruin Maniac Calvin |Route 224|",
+      "usageKey": "304",
+      "detailFile": "trainers/117.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 304,
+      "teamVariantNames": [
+        "Ruin Maniac Calvin |Route 224|"
+      ]
+    },
+    {
+      "displayName": "Young Couple Mike\uff06Nat",
+      "usageKey": "534",
+      "detailFile": "trainers/252.json",
+      "leadLevel": 33,
+      "maxLevel": 33,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 534,
+      "teamVariantNames": [
+        "Young Couple Mike\uff06Nat"
+      ]
+    },
+    {
+      "displayName": "Black Belt Derek |Route 215|",
+      "usageKey": "128",
+      "detailFile": "trainers/014.json",
+      "leadLevel": 34,
+      "maxLevel": 34,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 128,
+      "teamVariantNames": [
+        "Black Belt Derek |Route 215|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Gregory |Route 215|",
+      "usageKey": "127",
+      "detailFile": "trainers/013.json",
+      "leadLevel": 34,
+      "maxLevel": 34,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 127,
+      "teamVariantNames": [
+        "Black Belt Gregory |Route 215|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Nathaniel |Route 215|",
+      "usageKey": "129",
+      "detailFile": "trainers/015.json",
+      "leadLevel": 34,
+      "maxLevel": 34,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 129,
+      "teamVariantNames": [
+        "Black Belt Nathaniel |Route 215|"
+      ]
+    },
+    {
+      "displayName": "Psychic Abigail |Route 214|",
+      "usageKey": "120",
+      "detailFile": "trainers/012.json",
+      "leadLevel": 34,
+      "maxLevel": 34,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 120,
+      "teamVariantNames": [
+        "Psychic Abigail |Route 214|"
+      ]
+    },
+    {
+      "displayName": "Psychic Mitchell |Route 214|",
+      "usageKey": "119",
+      "detailFile": "trainers/010.json",
+      "leadLevel": 34,
+      "maxLevel": 34,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 119,
+      "teamVariantNames": [
+        "Psychic Mitchell |Route 214|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Dennis |Canalave City|",
+      "usageKey": "278",
+      "detailFile": "trainers/092.json",
+      "leadLevel": 35,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 278,
+      "teamVariantNames": [
+        "Ace Trainer Dennis |Canalave City|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Maya |Route 224|",
+      "usageKey": "287",
+      "detailFile": "trainers/101.json",
+      "leadLevel": 35,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 287,
+      "teamVariantNames": [
+        "Ace Trainer Maya |Route 224|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Darren |Veilstone City|",
+      "usageKey": "310",
+      "detailFile": "trainers/121.json",
+      "leadLevel": 35,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 310,
+      "teamVariantNames": [
+        "Black Belt Darren |Veilstone City|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Rafael |Veilstone City|",
+      "usageKey": "311",
+      "detailFile": "trainers/122.json",
+      "leadLevel": 35,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 311,
+      "teamVariantNames": [
+        "Black Belt Rafael |Veilstone City|"
+      ]
+    },
+    {
+      "displayName": "Dragon Tamer Nils",
+      "usageKey": "935",
+      "detailFile": "trainers/296.json",
+      "leadLevel": 35,
+      "maxLevel": 36,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 935,
+      "teamVariantNames": [
+        "Dragon Tamer Nils"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt19",
+      "usageKey": "848",
+      "detailFile": "trainers/283.json",
+      "leadLevel": 35,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 848,
+      "teamVariantNames": [
+        "Galactic Grunt19"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt20",
+      "usageKey": "849",
+      "detailFile": "trainers/284.json",
+      "leadLevel": 35,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 849,
+      "teamVariantNames": [
+        "Galactic Grunt20"
+      ]
+    },
+    {
+      "displayName": "Black Belt Jeffery |Route 224|",
+      "usageKey": "312",
+      "detailFile": "trainers/123.json",
+      "leadLevel": 36,
+      "maxLevel": 36,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 312,
+      "teamVariantNames": [
+        "Black Belt Jeffery |Route 224|"
+      ]
+    },
+    {
+      "displayName": "Fisherman Josh |Route 212|",
+      "usageKey": "92",
+      "detailFile": "trainers/292.json",
+      "leadLevel": 36,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 92,
+      "teamVariantNames": [
+        "Fisherman Josh |Route 212|"
+      ]
+    },
+    {
+      "displayName": "Fisherman Kenneth",
+      "usageKey": "111",
+      "detailFile": "trainers/008.json",
+      "leadLevel": 36,
+      "maxLevel": 36,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 111,
+      "teamVariantNames": [
+        "Fisherman Kenneth"
+      ]
+    },
+    {
+      "displayName": "Beauty Cyndy",
+      "usageKey": "346",
+      "detailFile": "trainers/147.json",
+      "leadLevel": 37,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 346,
+      "teamVariantNames": [
+        "Beauty Cyndy"
+      ]
+    },
+    {
+      "displayName": "Collector Dean |Route 214|",
+      "usageKey": "381",
+      "detailFile": "trainers/160.json",
+      "leadLevel": 37,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 381,
+      "teamVariantNames": [
+        "Collector Dean |Route 214|"
+      ]
+    },
+    {
+      "displayName": "Policeman Danny |Route 222|",
+      "usageKey": "332",
+      "detailFile": "trainers/138.json",
+      "leadLevel": 37,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 332,
+      "teamVariantNames": [
+        "Policeman Danny |Route 222|"
+      ]
+    },
+    {
+      "displayName": "Scientist Shaun",
+      "usageKey": "486",
+      "detailFile": "trainers/221.json",
+      "leadLevel": 37,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 486,
+      "teamVariantNames": [
+        "Scientist Shaun"
+      ]
+    },
+    {
+      "displayName": "Leader Maylene",
+      "usageKey": "317",
+      "detailFile": "trainers/127.json",
+      "leadLevel": 38,
+      "maxLevel": 39,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 317,
+      "teamVariantNames": [
+        "Leader Maylene"
+      ]
+    },
+    {
+      "displayName": "Parasol Lady Alexa |Route 212|",
+      "usageKey": "327",
+      "detailFile": "trainers/134.json",
+      "leadLevel": 38,
+      "maxLevel": 38,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 327,
+      "teamVariantNames": [
+        "Parasol Lady Alexa |Route 212|"
+      ]
+    },
+    {
+      "displayName": "Fisherman Erick |Route 209|",
+      "usageKey": "293",
+      "detailFile": "trainers/105.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 293,
+      "teamVariantNames": [
+        "Fisherman Erick |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Fisherman Walter",
+      "usageKey": "401",
+      "detailFile": "trainers/174.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 401,
+      "teamVariantNames": [
+        "Fisherman Walter"
+      ]
+    },
+    {
+      "displayName": "Ninja Boy Joel |Route 210|",
+      "usageKey": "70",
+      "detailFile": "trainers/266.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 70,
+      "teamVariantNames": [
+        "Ninja Boy Joel |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Ninja Boy Nathan |Route 210|",
+      "usageKey": "71",
+      "detailFile": "trainers/267.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 71,
+      "teamVariantNames": [
+        "Ninja Boy Nathan |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Ranger Allison",
+      "usageKey": "96",
+      "detailFile": "trainers/317.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 96,
+      "teamVariantNames": [
+        "Pkmn Ranger Allison"
+      ]
+    },
+    {
+      "displayName": "Pkmn Ranger Jeffrey |Route 212|",
+      "usageKey": "95",
+      "detailFile": "trainers/310.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 95,
+      "teamVariantNames": [
+        "Pkmn Ranger Jeffrey |Route 212|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Ranger Taylor |Route 212|",
+      "usageKey": "94",
+      "detailFile": "trainers/300.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 94,
+      "teamVariantNames": [
+        "Pkmn Ranger Taylor |Route 212|"
+      ]
+    },
+    {
+      "displayName": "Sailor Damian |Hearthome City|",
+      "usageKey": "339",
+      "detailFile": "trainers/142.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 339,
+      "teamVariantNames": [
+        "Sailor Damian |Hearthome City|"
+      ]
+    },
+    {
+      "displayName": "Sailor Samson",
+      "usageKey": "483",
+      "detailFile": "trainers/220.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 483,
+      "teamVariantNames": [
+        "Sailor Samson"
+      ]
+    },
+    {
+      "displayName": "Tuber Caitlyn |Victory Road|",
+      "usageKey": "498",
+      "detailFile": "trainers/226.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 498,
+      "teamVariantNames": [
+        "Tuber Caitlyn |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Tuber Jacky |Pastoria City|",
+      "usageKey": "497",
+      "detailFile": "trainers/225.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 497,
+      "teamVariantNames": [
+        "Tuber Jacky |Pastoria City|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Ranger Allison2",
+      "usageKey": "736",
+      "detailFile": "trainers/270.json",
+      "leadLevel": 40,
+      "maxLevel": 40,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 736,
+      "teamVariantNames": [
+        "Pkmn Ranger Allison2"
+      ]
+    },
+    {
+      "displayName": "Pkmn Ranger Taylor",
+      "usageKey": "732",
+      "detailFile": "trainers/269.json",
+      "leadLevel": 40,
+      "maxLevel": 40,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 732,
+      "teamVariantNames": [
+        "Pkmn Ranger Taylor"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Ernest |Route 210|",
+      "usageKey": "66",
+      "detailFile": "trainers/261.json",
+      "leadLevel": 41,
+      "maxLevel": 41,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 66,
+      "teamVariantNames": [
+        "Ace Trainer Ernest |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Dragon Tamer Patrick |Route 210|",
+      "usageKey": "73",
+      "detailFile": "trainers/268.json",
+      "leadLevel": 41,
+      "maxLevel": 41,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 73,
+      "teamVariantNames": [
+        "Dragon Tamer Patrick |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric8",
+      "usageKey": "474",
+      "detailFile": "trainers/210.json",
+      "leadLevel": 41,
+      "maxLevel": 42,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 474,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric8"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric9",
+      "usageKey": "475",
+      "detailFile": "trainers/211.json",
+      "leadLevel": 41,
+      "maxLevel": 42,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 475,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric9"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Alyssa |Route 210|",
+      "usageKey": "67",
+      "detailFile": "trainers/263.json",
+      "leadLevel": 42,
+      "maxLevel": 42,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 67,
+      "teamVariantNames": [
+        "Ace Trainer Alyssa |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Bird Keeper Brianna |Route 210|",
+      "usageKey": "74",
+      "detailFile": "trainers/271.json",
+      "leadLevel": 42,
+      "maxLevel": 42,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 74,
+      "teamVariantNames": [
+        "Bird Keeper Brianna |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Adam |Route 210|",
+      "usageKey": "69",
+      "detailFile": "trainers/265.json",
+      "leadLevel": 42,
+      "maxLevel": 42,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 69,
+      "teamVariantNames": [
+        "Black Belt Adam |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Double Team Zac \uff06 Jen |Route 211|",
+      "usageKey": "75",
+      "detailFile": "trainers/272.json",
+      "leadLevel": 42,
+      "maxLevel": 42,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 75,
+      "teamVariantNames": [
+        "Double Team Zac \uff06 Jen |Route 211|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric7",
+      "usageKey": "473",
+      "detailFile": "trainers/209.json",
+      "leadLevel": 42,
+      "maxLevel": 42,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 473,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric7"
+      ]
+    },
+    {
+      "displayName": "Tuber Trenton |Route 222|",
+      "usageKey": "358",
+      "detailFile": "trainers/151.json",
+      "leadLevel": 42,
+      "maxLevel": 42,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 358,
+      "teamVariantNames": [
+        "Tuber Trenton |Route 222|"
+      ]
+    },
+    {
+      "displayName": "Worker Dillan |Fuego Ironworks|",
+      "usageKey": "844",
+      "detailFile": "trainers/281.json",
+      "leadLevel": 42,
+      "maxLevel": 44,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 844,
+      "teamVariantNames": [
+        "Worker Dillan |Fuego Ironworks|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt |Lake Valor|",
+      "usageKey": "416",
+      "detailFile": "trainers/186.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 416,
+      "teamVariantNames": [
+        "Galactic Grunt |Lake Valor|"
+      ]
+    },
+    {
+      "displayName": "Leader Wake",
+      "usageKey": "316",
+      "detailFile": "trainers/126.json",
+      "leadLevel": 43,
+      "maxLevel": 44,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 316,
+      "teamVariantNames": [
+        "Leader Wake"
+      ]
+    },
+    {
+      "displayName": "Sailor Skyler |Pastoria City|",
+      "usageKey": "338",
+      "detailFile": "trainers/141.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 338,
+      "teamVariantNames": [
+        "Sailor Skyler |Pastoria City|"
+      ]
+    },
+    {
+      "displayName": "Swimmer\u2640 Haley |Route 213|",
+      "usageKey": "105",
+      "detailFile": "trainers/003.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 105,
+      "teamVariantNames": [
+        "Swimmer\u2640 Haley |Route 213|"
+      ]
+    },
+    {
+      "displayName": "Swimmer\u2640 Jessica |Route 220|",
+      "usageKey": "162",
+      "detailFile": "trainers/030.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 162,
+      "teamVariantNames": [
+        "Swimmer\u2640 Jessica |Route 220|"
+      ]
+    },
+    {
+      "displayName": "Tuber Mariel |Route 222|",
+      "usageKey": "360",
+      "detailFile": "trainers/152.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 360,
+      "teamVariantNames": [
+        "Tuber Mariel |Route 222|"
+      ]
+    },
+    {
+      "displayName": "Veteran Brian |Route 210|",
+      "usageKey": "68",
+      "detailFile": "trainers/264.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 68,
+      "teamVariantNames": [
+        "Veteran Brian |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Worker Conrad",
+      "usageKey": "846",
+      "detailFile": "trainers/282.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 846,
+      "teamVariantNames": [
+        "Worker Conrad"
+      ]
+    },
+    {
+      "displayName": "Fisherman Cory",
+      "usageKey": "168",
+      "detailFile": "trainers/031.json",
+      "leadLevel": 44,
+      "maxLevel": 44,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 168,
+      "teamVariantNames": [
+        "Fisherman Cory"
+      ]
+    },
+    {
+      "displayName": "Guitarist Tony |Sunyshore City|",
+      "usageKey": "300",
+      "detailFile": "trainers/113.json",
+      "leadLevel": 44,
+      "maxLevel": 44,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 300,
+      "teamVariantNames": [
+        "Guitarist Tony |Sunyshore City|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn14",
+      "usageKey": "964",
+      "detailFile": "trainers/320.json",
+      "leadLevel": 44,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 964,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn14"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn15",
+      "usageKey": "965",
+      "detailFile": "trainers/321.json",
+      "leadLevel": 44,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 965,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn15"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas14",
+      "usageKey": "967",
+      "detailFile": "trainers/323.json",
+      "leadLevel": 44,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 967,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas14"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas15",
+      "usageKey": "968",
+      "detailFile": "trainers/324.json",
+      "leadLevel": 44,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 968,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas15"
+      ]
+    },
+    {
+      "displayName": "Swimmer\u2640 Claire",
+      "usageKey": "494",
+      "detailFile": "trainers/223.json",
+      "leadLevel": 44,
+      "maxLevel": 44,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 494,
+      "teamVariantNames": [
+        "Swimmer\u2640 Claire"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Jake |Route 221|",
+      "usageKey": "170",
+      "detailFile": "trainers/032.json",
+      "leadLevel": 45,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 170,
+      "teamVariantNames": [
+        "Ace Trainer Jake |Route 221|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Shannon |Route 222|",
+      "usageKey": "171",
+      "detailFile": "trainers/033.json",
+      "leadLevel": 45,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 171,
+      "teamVariantNames": [
+        "Ace Trainer Shannon |Route 222|"
+      ]
+    },
+    {
+      "displayName": "Collector Ivan |Caf\u00e9|",
+      "usageKey": "274",
+      "detailFile": "trainers/090.json",
+      "leadLevel": 45,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 274,
+      "teamVariantNames": [
+        "Collector Ivan |Caf\u00e9|"
+      ]
+    },
+    {
+      "displayName": "Galactic Boss Cyrus3",
+      "usageKey": "913",
+      "detailFile": "trainers/291.json",
+      "leadLevel": 45,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 913,
+      "teamVariantNames": [
+        "Galactic Boss Cyrus3"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn13",
+      "usageKey": "963",
+      "detailFile": "trainers/319.json",
+      "leadLevel": 45,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 963,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn13"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas13",
+      "usageKey": "966",
+      "detailFile": "trainers/322.json",
+      "leadLevel": 45,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 966,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas13"
+      ]
+    },
+    {
+      "displayName": "Veteran Grant",
+      "usageKey": "240",
+      "detailFile": "trainers/064.json",
+      "leadLevel": 45,
+      "maxLevel": 45,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 240,
+      "teamVariantNames": [
+        "Veteran Grant"
+      ]
+    },
+    {
+      "displayName": "Camper Lawrence |Wayward Cave|",
+      "usageKey": "378",
+      "detailFile": "trainers/158.json",
+      "leadLevel": 46,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 378,
+      "teamVariantNames": [
+        "Camper Lawrence |Wayward Cave|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt16",
+      "usageKey": "835",
+      "detailFile": "trainers/278.json",
+      "leadLevel": 46,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 835,
+      "teamVariantNames": [
+        "Galactic Grunt16"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt17",
+      "usageKey": "836",
+      "detailFile": "trainers/279.json",
+      "leadLevel": 46,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 836,
+      "teamVariantNames": [
+        "Galactic Grunt17"
+      ]
+    },
+    {
+      "displayName": "Hiker Damon |Iron Island|",
+      "usageKey": "452",
+      "detailFile": "trainers/199.json",
+      "leadLevel": 46,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 452,
+      "teamVariantNames": [
+        "Hiker Damon |Iron Island|"
+      ]
+    },
+    {
+      "displayName": "Picnicker Summer |Wayward Cave|",
+      "usageKey": "457",
+      "detailFile": "trainers/201.json",
+      "leadLevel": 46,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 457,
+      "teamVariantNames": [
+        "Picnicker Summer |Wayward Cave|"
+      ]
+    },
+    {
+      "displayName": "Worker Gary |Route 216|",
+      "usageKey": "257",
+      "detailFile": "trainers/074.json",
+      "leadLevel": 46,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 257,
+      "teamVariantNames": [
+        "Worker Gary |Route 216|"
+      ]
+    },
+    {
+      "displayName": "Hiker Maurice |Wayward Cave|",
+      "usageKey": "453",
+      "detailFile": "trainers/200.json",
+      "leadLevel": 47,
+      "maxLevel": 47,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 453,
+      "teamVariantNames": [
+        "Hiker Maurice |Wayward Cave|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Brenda |Victory Road|",
+      "usageKey": "392",
+      "detailFile": "trainers/165.json",
+      "leadLevel": 48,
+      "maxLevel": 48,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 392,
+      "teamVariantNames": [
+        "Ace Trainer Brenda |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Jonah |Victory Road|",
+      "usageKey": "388",
+      "detailFile": "trainers/163.json",
+      "leadLevel": 48,
+      "maxLevel": 48,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 388,
+      "teamVariantNames": [
+        "Ace Trainer Jonah |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Castle Valet Darach2",
+      "usageKey": "969",
+      "detailFile": "trainers/325.json",
+      "leadLevel": 48,
+      "maxLevel": 48,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 969,
+      "teamVariantNames": [
+        "Castle Valet Darach2"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric11",
+      "usageKey": "477",
+      "detailFile": "trainers/213.json",
+      "leadLevel": 48,
+      "maxLevel": 49,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 477,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric11"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric12",
+      "usageKey": "478",
+      "detailFile": "trainers/214.json",
+      "leadLevel": 48,
+      "maxLevel": 49,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 478,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric12"
+      ]
+    },
+    {
+      "displayName": "Worker Jackson |Canalave City|",
+      "usageKey": "256",
+      "detailFile": "trainers/073.json",
+      "leadLevel": 48,
+      "maxLevel": 48,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 256,
+      "teamVariantNames": [
+        "Worker Jackson |Canalave City|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt |Galactic HQ|",
+      "usageKey": "427",
+      "detailFile": "trainers/191.json",
+      "leadLevel": 49,
+      "maxLevel": 49,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 427,
+      "teamVariantNames": [
+        "Galactic Grunt |Galactic HQ|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt2 |T.G. Eterna Bldg|",
+      "usageKey": "420",
+      "detailFile": "trainers/187.json",
+      "leadLevel": 49,
+      "maxLevel": 49,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 420,
+      "teamVariantNames": [
+        "Galactic Grunt2 |T.G. Eterna Bldg|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric10",
+      "usageKey": "476",
+      "detailFile": "trainers/212.json",
+      "leadLevel": 49,
+      "maxLevel": 49,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 476,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric10"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Riley3",
+      "usageKey": "970",
+      "detailFile": "trainers/326.json",
+      "leadLevel": 49,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 970,
+      "teamVariantNames": [
+        "Pkmn Trainer Riley3"
+      ]
+    },
+    {
+      "displayName": "Skier Madison |Route 217|",
+      "usageKey": "145",
+      "detailFile": "trainers/026.json",
+      "leadLevel": 49,
+      "maxLevel": 52,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 145,
+      "teamVariantNames": [
+        "Skier Madison |Route 217|"
+      ]
+    },
+    {
+      "displayName": "Worker Gerardo",
+      "usageKey": "367",
+      "detailFile": "trainers/154.json",
+      "leadLevel": 49,
+      "maxLevel": 49,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 367,
+      "teamVariantNames": [
+        "Worker Gerardo"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Breanna |Hearthome City|",
+      "usageKey": "283",
+      "detailFile": "trainers/097.json",
+      "leadLevel": 50,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 283,
+      "teamVariantNames": [
+        "Ace Trainer Breanna |Hearthome City|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Cesar |Hearthome City|",
+      "usageKey": "279",
+      "detailFile": "trainers/093.json",
+      "leadLevel": 50,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 279,
+      "teamVariantNames": [
+        "Ace Trainer Cesar |Hearthome City|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt4 |Lake Verity|",
+      "usageKey": "426",
+      "detailFile": "trainers/190.json",
+      "leadLevel": 50,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 426,
+      "teamVariantNames": [
+        "Galactic Grunt4 |Lake Verity|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Luke",
+      "usageKey": "148",
+      "detailFile": "trainers/027.json",
+      "leadLevel": 51,
+      "maxLevel": 51,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 148,
+      "teamVariantNames": [
+        "Black Belt Luke"
+      ]
+    },
+    {
+      "displayName": "Skier Lexie |Route 217|",
+      "usageKey": "144",
+      "detailFile": "trainers/025.json",
+      "leadLevel": 51,
+      "maxLevel": 51,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 144,
+      "teamVariantNames": [
+        "Skier Lexie |Route 217|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Dalton |Route 217|",
+      "usageKey": "140",
+      "detailFile": "trainers/023.json",
+      "leadLevel": 52,
+      "maxLevel": 52,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 140,
+      "teamVariantNames": [
+        "Ace Trainer Dalton |Route 217|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Olivia |Route 217|",
+      "usageKey": "141",
+      "detailFile": "trainers/024.json",
+      "leadLevel": 52,
+      "maxLevel": 52,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 141,
+      "teamVariantNames": [
+        "Ace Trainer Olivia |Route 217|"
+      ]
+    },
+    {
+      "displayName": "Commander Mars2",
+      "usageKey": "405",
+      "detailFile": "trainers/177.json",
+      "leadLevel": 52,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 405,
+      "teamVariantNames": [
+        "Commander Mars2"
+      ]
+    },
+    {
+      "displayName": "Commander Saturn",
+      "usageKey": "408",
+      "detailFile": "trainers/180.json",
+      "leadLevel": 52,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 408,
+      "teamVariantNames": [
+        "Commander Saturn"
+      ]
+    },
+    {
+      "displayName": "Leader Byron",
+      "usageKey": "250",
+      "detailFile": "trainers/072.json",
+      "leadLevel": 52,
+      "maxLevel": 53,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 250,
+      "teamVariantNames": [
+        "Leader Byron"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Brenna |Galactic HQ|",
+      "usageKey": "828",
+      "detailFile": "trainers/275.json",
+      "leadLevel": 53,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 828,
+      "teamVariantNames": [
+        "Ace Trainer Brenna |Galactic HQ|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Sergio |Snowpoint City|",
+      "usageKey": "268",
+      "detailFile": "trainers/084.json",
+      "leadLevel": 53,
+      "maxLevel": 55,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 268,
+      "teamVariantNames": [
+        "Ace Trainer Sergio |Snowpoint City|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt3 |Galactic HQ|",
+      "usageKey": "507",
+      "detailFile": "trainers/229.json",
+      "leadLevel": 53,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 507,
+      "teamVariantNames": [
+        "Galactic Grunt3 |Galactic HQ|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt7 |Mt. Coronet|",
+      "usageKey": "522",
+      "detailFile": "trainers/240.json",
+      "leadLevel": 53,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 522,
+      "teamVariantNames": [
+        "Galactic Grunt7 |Mt. Coronet|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt8",
+      "usageKey": "428",
+      "detailFile": "trainers/192.json",
+      "leadLevel": 53,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 428,
+      "teamVariantNames": [
+        "Galactic Grunt8"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt8 |Galactic HQ|",
+      "usageKey": "513",
+      "detailFile": "trainers/233.json",
+      "leadLevel": 53,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 513,
+      "teamVariantNames": [
+        "Galactic Grunt8 |Galactic HQ|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt9",
+      "usageKey": "430",
+      "detailFile": "trainers/193.json",
+      "leadLevel": 53,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 430,
+      "teamVariantNames": [
+        "Galactic Grunt9"
+      ]
+    },
+    {
+      "displayName": "Scientist Fredrick |T.G. Eterna Bldg|",
+      "usageKey": "830",
+      "detailFile": "trainers/276.json",
+      "leadLevel": 53,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 830,
+      "teamVariantNames": [
+        "Scientist Fredrick |T.G. Eterna Bldg|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Anton |Snowpoint City|",
+      "usageKey": "827",
+      "detailFile": "trainers/274.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 827,
+      "teamVariantNames": [
+        "Ace Trainer Anton |Snowpoint City|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Aran",
+      "usageKey": "936",
+      "detailFile": "trainers/297.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 936,
+      "teamVariantNames": [
+        "Ace Trainer Aran"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Isaiah |Snowpoint City|",
+      "usageKey": "269",
+      "detailFile": "trainers/085.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 269,
+      "teamVariantNames": [
+        "Ace Trainer Isaiah |Snowpoint City|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Nephenee",
+      "usageKey": "937",
+      "detailFile": "trainers/298.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 937,
+      "teamVariantNames": [
+        "Ace Trainer Nephenee"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Savannah |Snowpoint City|",
+      "usageKey": "270",
+      "detailFile": "trainers/086.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 270,
+      "teamVariantNames": [
+        "Ace Trainer Savannah |Snowpoint City|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt |Mt. Coronet|",
+      "usageKey": "514",
+      "detailFile": "trainers/234.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 514,
+      "teamVariantNames": [
+        "Galactic Grunt |Mt. Coronet|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt10",
+      "usageKey": "510",
+      "detailFile": "trainers/231.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 510,
+      "teamVariantNames": [
+        "Galactic Grunt10"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt2 |Mt. Coronet|",
+      "usageKey": "515",
+      "detailFile": "trainers/235.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 515,
+      "teamVariantNames": [
+        "Galactic Grunt2 |Mt. Coronet|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt3 |Mt. Coronet|",
+      "usageKey": "516",
+      "detailFile": "trainers/236.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 516,
+      "teamVariantNames": [
+        "Galactic Grunt3 |Mt. Coronet|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt4 |Galactic HQ|",
+      "usageKey": "508",
+      "detailFile": "trainers/230.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 508,
+      "teamVariantNames": [
+        "Galactic Grunt4 |Galactic HQ|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt7 |Galactic HQ|",
+      "usageKey": "512",
+      "detailFile": "trainers/232.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 512,
+      "teamVariantNames": [
+        "Galactic Grunt7 |Galactic HQ|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt8 |Mt. Coronet|",
+      "usageKey": "523",
+      "detailFile": "trainers/241.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 523,
+      "teamVariantNames": [
+        "Galactic Grunt8 |Mt. Coronet|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt9 |Mt. Coronet|",
+      "usageKey": "524",
+      "detailFile": "trainers/242.json",
+      "leadLevel": 54,
+      "maxLevel": 54,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 524,
+      "teamVariantNames": [
+        "Galactic Grunt9 |Mt. Coronet|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Alicia |Route 214|",
+      "usageKey": "271",
+      "detailFile": "trainers/087.json",
+      "leadLevel": 55,
+      "maxLevel": 55,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 271,
+      "teamVariantNames": [
+        "Ace Trainer Alicia |Route 214|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Philip",
+      "usageKey": "258",
+      "detailFile": "trainers/075.json",
+      "leadLevel": 55,
+      "maxLevel": 55,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 258,
+      "teamVariantNames": [
+        "Black Belt Philip"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt10 |Mt. Coronet|",
+      "usageKey": "525",
+      "detailFile": "trainers/243.json",
+      "leadLevel": 55,
+      "maxLevel": 55,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 525,
+      "teamVariantNames": [
+        "Galactic Grunt10 |Mt. Coronet|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt11",
+      "usageKey": "520",
+      "detailFile": "trainers/238.json",
+      "leadLevel": 55,
+      "maxLevel": 55,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 520,
+      "teamVariantNames": [
+        "Galactic Grunt11"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt12",
+      "usageKey": "526",
+      "detailFile": "trainers/244.json",
+      "leadLevel": 55,
+      "maxLevel": 55,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 526,
+      "teamVariantNames": [
+        "Galactic Grunt12"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt4 |Mt. Coronet|",
+      "usageKey": "517",
+      "detailFile": "trainers/237.json",
+      "leadLevel": 55,
+      "maxLevel": 55,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 517,
+      "teamVariantNames": [
+        "Galactic Grunt4 |Mt. Coronet|"
+      ]
+    },
+    {
+      "displayName": "Leader Candice",
+      "usageKey": "319",
+      "detailFile": "trainers/129.json",
+      "leadLevel": 55,
+      "maxLevel": 56,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 319,
+      "teamVariantNames": [
+        "Leader Candice"
+      ]
+    },
+    {
+      "displayName": "Commander Saturn |T.G. Eterna Bldg|",
+      "usageKey": "409",
+      "detailFile": "trainers/181.json",
+      "leadLevel": 56,
+      "maxLevel": 57,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 409,
+      "teamVariantNames": [
+        "Commander Saturn |T.G. Eterna Bldg|"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt13",
+      "usageKey": "527",
+      "detailFile": "trainers/245.json",
+      "leadLevel": 56,
+      "maxLevel": 56,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 527,
+      "teamVariantNames": [
+        "Galactic Grunt13"
+      ]
+    },
+    {
+      "displayName": "Galactic Grunt9 |Galactic HQ|",
+      "usageKey": "521",
+      "detailFile": "trainers/239.json",
+      "leadLevel": 56,
+      "maxLevel": 56,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 521,
+      "teamVariantNames": [
+        "Galactic Grunt9 |Galactic HQ|"
+      ]
+    },
+    {
+      "displayName": "Pok\u00e9 Kid Meghan |Route 212|",
+      "usageKey": "331",
+      "detailFile": "trainers/137.json",
+      "leadLevel": 56,
+      "maxLevel": 59,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 331,
+      "teamVariantNames": [
+        "Pok\u00e9 Kid Meghan |Route 212|"
+      ]
+    },
+    {
+      "displayName": "Sailor Luther",
+      "usageKey": "180",
+      "detailFile": "trainers/035.json",
+      "leadLevel": 56,
+      "maxLevel": 56,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 180,
+      "teamVariantNames": [
+        "Sailor Luther"
+      ]
+    },
+    {
+      "displayName": "School Kid Forrest",
+      "usageKey": "341",
+      "detailFile": "trainers/144.json",
+      "leadLevel": 56,
+      "maxLevel": 59,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 341,
+      "teamVariantNames": [
+        "School Kid Forrest"
+      ]
+    },
+    {
+      "displayName": "School Kid Tiera",
+      "usageKey": "344",
+      "detailFile": "trainers/145.json",
+      "leadLevel": 56,
+      "maxLevel": 59,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 344,
+      "teamVariantNames": [
+        "School Kid Tiera"
+      ]
+    },
+    {
+      "displayName": "Beauty Nicola",
+      "usageKey": "492",
+      "detailFile": "trainers/222.json",
+      "leadLevel": 57,
+      "maxLevel": 57,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 492,
+      "teamVariantNames": [
+        "Beauty Nicola"
+      ]
+    },
+    {
+      "displayName": "Commander Jupiter2",
+      "usageKey": "407",
+      "detailFile": "trainers/179.json",
+      "leadLevel": 57,
+      "maxLevel": 58,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 407,
+      "teamVariantNames": [
+        "Commander Jupiter2"
+      ]
+    },
+    {
+      "displayName": "Commander Mars |Route 209|",
+      "usageKey": "528",
+      "detailFile": "trainers/246.json",
+      "leadLevel": 57,
+      "maxLevel": 58,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 528,
+      "teamVariantNames": [
+        "Commander Mars |Route 209|"
+      ]
+    },
+    {
+      "displayName": "Galactic Boss Cyrus",
+      "usageKey": "403",
+      "detailFile": "trainers/175.json",
+      "leadLevel": 57,
+      "maxLevel": 58,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 403,
+      "teamVariantNames": [
+        "Galactic Boss Cyrus"
+      ]
+    },
+    {
+      "displayName": "Rich Boy Trey",
+      "usageKey": "335",
+      "detailFile": "trainers/139.json",
+      "leadLevel": 57,
+      "maxLevel": 57,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 335,
+      "teamVariantNames": [
+        "Rich Boy Trey"
+      ]
+    },
+    {
+      "displayName": "Sailor Marc |Route 218|",
+      "usageKey": "337",
+      "detailFile": "trainers/140.json",
+      "leadLevel": 57,
+      "maxLevel": 57,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 337,
+      "teamVariantNames": [
+        "Sailor Marc |Route 218|"
+      ]
+    },
+    {
+      "displayName": "Sailor Zachariah |Pastoria City|",
+      "usageKey": "482",
+      "detailFile": "trainers/219.json",
+      "leadLevel": 58,
+      "maxLevel": 58,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 482,
+      "teamVariantNames": [
+        "Sailor Zachariah |Pastoria City|"
+      ]
+    },
+    {
+      "displayName": "Galactic Boss Cyrus2",
+      "usageKey": "404",
+      "detailFile": "trainers/176.json",
+      "leadLevel": 59,
+      "maxLevel": 60,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 404,
+      "teamVariantNames": [
+        "Galactic Boss Cyrus2"
+      ]
+    },
+    {
+      "displayName": "Swimmer\u2640 Crystal |Route 223|",
+      "usageKey": "192",
+      "detailFile": "trainers/038.json",
+      "leadLevel": 59,
+      "maxLevel": 59,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 192,
+      "teamVariantNames": [
+        "Swimmer\u2640 Crystal |Route 223|"
+      ]
+    },
+    {
+      "displayName": "Swimmer\u2640 Gabrielle |Oreburgh Mine|",
+      "usageKey": "194",
+      "detailFile": "trainers/039.json",
+      "leadLevel": 59,
+      "maxLevel": 59,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 194,
+      "teamVariantNames": [
+        "Swimmer\u2640 Gabrielle |Oreburgh Mine|"
+      ]
+    },
+    {
+      "displayName": "Swimmer\u2642 Oscar |Route 223|",
+      "usageKey": "188",
+      "detailFile": "trainers/036.json",
+      "leadLevel": 59,
+      "maxLevel": 59,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 188,
+      "teamVariantNames": [
+        "Swimmer\u2642 Oscar |Route 223|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Destiny |Route 224|",
+      "usageKey": "285",
+      "detailFile": "trainers/099.json",
+      "leadLevel": 60,
+      "maxLevel": 60,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 285,
+      "teamVariantNames": [
+        "Ace Trainer Destiny |Route 224|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Zachery |Route 224|",
+      "usageKey": "281",
+      "detailFile": "trainers/095.json",
+      "leadLevel": 60,
+      "maxLevel": 60,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 281,
+      "teamVariantNames": [
+        "Ace Trainer Zachery |Route 224|"
+      ]
+    },
+    {
+      "displayName": "Guitarist Jerry |Sunyshore City|",
+      "usageKey": "301",
+      "detailFile": "trainers/114.json",
+      "leadLevel": 60,
+      "maxLevel": 60,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 301,
+      "teamVariantNames": [
+        "Guitarist Jerry |Sunyshore City|"
+      ]
+    },
+    {
+      "displayName": "Guitarist Lonnie |Route 215|",
+      "usageKey": "303",
+      "detailFile": "trainers/116.json",
+      "leadLevel": 60,
+      "maxLevel": 60,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 303,
+      "teamVariantNames": [
+        "Guitarist Lonnie |Route 215|"
+      ]
+    },
+    {
+      "displayName": "Guitarist Preston |Sunyshore City|",
+      "usageKey": "302",
+      "detailFile": "trainers/115.json",
+      "leadLevel": 60,
+      "maxLevel": 60,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 302,
+      "teamVariantNames": [
+        "Guitarist Preston |Sunyshore City|"
+      ]
+    },
+    {
+      "displayName": "Leader Volkner",
+      "usageKey": "320",
+      "detailFile": "trainers/130.json",
+      "leadLevel": 61,
+      "maxLevel": 62,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 320,
+      "teamVariantNames": [
+        "Leader Volkner"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Henry |Victory Road|",
+      "usageKey": "225",
+      "detailFile": "trainers/051.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 225,
+      "teamVariantNames": [
+        "Ace Trainer Henry |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Mariah |Victory Road|",
+      "usageKey": "226",
+      "detailFile": "trainers/052.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 226,
+      "teamVariantNames": [
+        "Ace Trainer Mariah |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Omar |Victory Road|",
+      "usageKey": "224",
+      "detailFile": "trainers/050.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 224,
+      "teamVariantNames": [
+        "Ace Trainer Omar |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Sydney |Victory Road|",
+      "usageKey": "227",
+      "detailFile": "trainers/053.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 227,
+      "teamVariantNames": [
+        "Ace Trainer Sydney |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Arcade Star Dahlia2",
+      "usageKey": "973",
+      "detailFile": "trainers/328.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 973,
+      "teamVariantNames": [
+        "Arcade Star Dahlia2"
+      ]
+    },
+    {
+      "displayName": "Bird Keeper Hana |Victory Road|",
+      "usageKey": "233",
+      "detailFile": "trainers/059.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 233,
+      "teamVariantNames": [
+        "Bird Keeper Hana |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Miles |Iron Island|",
+      "usageKey": "444",
+      "detailFile": "trainers/196.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 444,
+      "teamVariantNames": [
+        "Black Belt Miles |Iron Island|"
+      ]
+    },
+    {
+      "displayName": "Psychic Bryce |Victory Road|",
+      "usageKey": "234",
+      "detailFile": "trainers/060.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 234,
+      "teamVariantNames": [
+        "Psychic Bryce |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Psychic Valencia |Victory Road|",
+      "usageKey": "235",
+      "detailFile": "trainers/061.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 235,
+      "teamVariantNames": [
+        "Psychic Valencia |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Bird Keeper Autumn",
+      "usageKey": "373",
+      "detailFile": "trainers/156.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 373,
+      "teamVariantNames": [
+        "Bird Keeper Autumn"
+      ]
+    },
+    {
+      "displayName": "Black Belt Eddie |Victory Road|",
+      "usageKey": "446",
+      "detailFile": "trainers/197.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 446,
+      "teamVariantNames": [
+        "Black Belt Eddie |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Black Belt Willie",
+      "usageKey": "447",
+      "detailFile": "trainers/198.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 447,
+      "teamVariantNames": [
+        "Black Belt Willie"
+      ]
+    },
+    {
+      "displayName": "Double Team Al \uff06 Kay",
+      "usageKey": "237",
+      "detailFile": "trainers/063.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 237,
+      "teamVariantNames": [
+        "Double Team Al \uff06 Kay"
+      ]
+    },
+    {
+      "displayName": "Double Team Jo \uff06 Pat |Victory Road|",
+      "usageKey": "236",
+      "detailFile": "trainers/062.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 236,
+      "teamVariantNames": [
+        "Double Team Jo \uff06 Pat |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Dragon Tamer Clinton |Canalave City|",
+      "usageKey": "231",
+      "detailFile": "trainers/058.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 231,
+      "teamVariantNames": [
+        "Dragon Tamer Clinton |Canalave City|"
+      ]
+    },
+    {
+      "displayName": "Dragon Tamer Ondrej |Victory Road|",
+      "usageKey": "230",
+      "detailFile": "trainers/057.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 230,
+      "teamVariantNames": [
+        "Dragon Tamer Ondrej |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Psychic Deandre |Eterna Forest|",
+      "usageKey": "397",
+      "detailFile": "trainers/169.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 397,
+      "teamVariantNames": [
+        "Psychic Deandre |Eterna Forest|"
+      ]
+    },
+    {
+      "displayName": "Psychic Desiree |Victory Road|",
+      "usageKey": "399",
+      "detailFile": "trainers/171.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 399,
+      "teamVariantNames": [
+        "Psychic Desiree |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Psychic Kendra |Pastoria City|",
+      "usageKey": "400",
+      "detailFile": "trainers/173.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 400,
+      "teamVariantNames": [
+        "Psychic Kendra |Pastoria City|"
+      ]
+    },
+    {
+      "displayName": "Psychic Landon |Victory Road|",
+      "usageKey": "396",
+      "detailFile": "trainers/168.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 396,
+      "teamVariantNames": [
+        "Psychic Landon |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Veteran Clayton |Victory Road|",
+      "usageKey": "229",
+      "detailFile": "trainers/055.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 229,
+      "teamVariantNames": [
+        "Veteran Clayton |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Veteran Edgar |Victory Road|",
+      "usageKey": "228",
+      "detailFile": "trainers/054.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 228,
+      "teamVariantNames": [
+        "Veteran Edgar |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Brandi |Victory Road|",
+      "usageKey": "393",
+      "detailFile": "trainers/166.json",
+      "leadLevel": 65,
+      "maxLevel": 65,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 393,
+      "teamVariantNames": [
+        "Ace Trainer Brandi |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Micah |Victory Road|",
+      "usageKey": "389",
+      "detailFile": "trainers/164.json",
+      "leadLevel": 65,
+      "maxLevel": 65,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 389,
+      "teamVariantNames": [
+        "Ace Trainer Micah |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Dragon Tamer Joe",
+      "usageKey": "386",
+      "detailFile": "trainers/162.json",
+      "leadLevel": 65,
+      "maxLevel": 65,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 386,
+      "teamVariantNames": [
+        "Dragon Tamer Joe"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Marley",
+      "usageKey": "610",
+      "detailFile": "trainers/258.json",
+      "leadLevel": 65,
+      "maxLevel": 66,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 610,
+      "teamVariantNames": [
+        "Pkmn Trainer Marley"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Marley3",
+      "usageKey": "974",
+      "detailFile": "trainers/329.json",
+      "leadLevel": 65,
+      "maxLevel": 66,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 974,
+      "teamVariantNames": [
+        "Pkmn Trainer Marley3"
+      ]
+    },
+    {
+      "displayName": "Black Belt Carl |Canalave City|",
+      "usageKey": "313",
+      "detailFile": "trainers/124.json",
+      "leadLevel": 66,
+      "maxLevel": 66,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 313,
+      "teamVariantNames": [
+        "Black Belt Carl |Canalave City|"
+      ]
+    },
+    {
+      "displayName": "Psychic Brittney |Route 210|",
+      "usageKey": "289",
+      "detailFile": "trainers/103.json",
+      "leadLevel": 66,
+      "maxLevel": 66,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 289,
+      "teamVariantNames": [
+        "Psychic Brittney |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Psychic Maxwell |Route 224|",
+      "usageKey": "288",
+      "detailFile": "trainers/102.json",
+      "leadLevel": 66,
+      "maxLevel": 66,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 288,
+      "teamVariantNames": [
+        "Psychic Maxwell |Route 224|"
+      ]
+    },
+    {
+      "displayName": "Ruin Maniac Larry |Route 210|",
+      "usageKey": "305",
+      "detailFile": "trainers/118.json",
+      "leadLevel": 66,
+      "maxLevel": 66,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 305,
+      "teamVariantNames": [
+        "Ruin Maniac Larry |Route 210|"
+      ]
+    },
+    {
+      "displayName": "Veteran Brenden",
+      "usageKey": "500",
+      "detailFile": "trainers/228.json",
+      "leadLevel": 66,
+      "maxLevel": 66,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 500,
+      "teamVariantNames": [
+        "Veteran Brenden"
+      ]
+    },
+    {
+      "displayName": "Veteran Terrell |Victory Road|",
+      "usageKey": "499",
+      "detailFile": "trainers/227.json",
+      "leadLevel": 66,
+      "maxLevel": 66,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 499,
+      "teamVariantNames": [
+        "Veteran Terrell |Victory Road|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Jamie |Route 215|",
+      "usageKey": "286",
+      "detailFile": "trainers/100.json",
+      "leadLevel": 67,
+      "maxLevel": 67,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 286,
+      "teamVariantNames": [
+        "Ace Trainer Jamie |Route 215|"
+      ]
+    },
+    {
+      "displayName": "Ace Trainer Ruben |Canalave City|",
+      "usageKey": "282",
+      "detailFile": "trainers/096.json",
+      "leadLevel": 67,
+      "maxLevel": 67,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 282,
+      "teamVariantNames": [
+        "Ace Trainer Ruben |Canalave City|"
+      ]
+    },
+    {
+      "displayName": "Dragon Tamer Hayden |Route 215|",
+      "usageKey": "277",
+      "detailFile": "trainers/091.json",
+      "leadLevel": 67,
+      "maxLevel": 67,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 277,
+      "teamVariantNames": [
+        "Dragon Tamer Hayden |Route 215|"
+      ]
+    },
+    {
+      "displayName": "Veteran Armando",
+      "usageKey": "362",
+      "detailFile": "trainers/153.json",
+      "leadLevel": 68,
+      "maxLevel": 68,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 362,
+      "teamVariantNames": [
+        "Veteran Armando"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn17",
+      "usageKey": "976",
+      "detailFile": "trainers/331.json",
+      "leadLevel": 69,
+      "maxLevel": 70,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 976,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn17"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn18",
+      "usageKey": "977",
+      "detailFile": "trainers/332.json",
+      "leadLevel": 69,
+      "maxLevel": 70,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 977,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn18"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas17",
+      "usageKey": "979",
+      "detailFile": "trainers/334.json",
+      "leadLevel": 69,
+      "maxLevel": 70,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 979,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas17"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas18",
+      "usageKey": "980",
+      "detailFile": "trainers/335.json",
+      "leadLevel": 69,
+      "maxLevel": 70,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 980,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas18"
+      ]
+    },
+    {
+      "displayName": "Galactic Boss Cyrus4",
+      "usageKey": "972",
+      "detailFile": "trainers/327.json",
+      "leadLevel": 70,
+      "maxLevel": 70,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 972,
+      "teamVariantNames": [
+        "Galactic Boss Cyrus4"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric |Route 223|",
+      "usageKey": "481",
+      "detailFile": "trainers/218.json",
+      "leadLevel": 70,
+      "maxLevel": 71,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 481,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric |Route 223|"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric14",
+      "usageKey": "480",
+      "detailFile": "trainers/217.json",
+      "leadLevel": 70,
+      "maxLevel": 71,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 480,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric14"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Dawn16",
+      "usageKey": "975",
+      "detailFile": "trainers/330.json",
+      "leadLevel": 70,
+      "maxLevel": 70,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 975,
+      "teamVariantNames": [
+        "Pkmn Trainer Dawn16"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Lucas16",
+      "usageKey": "978",
+      "detailFile": "trainers/333.json",
+      "leadLevel": 70,
+      "maxLevel": 70,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 978,
+      "teamVariantNames": [
+        "Pkmn Trainer Lucas16"
+      ]
+    },
+    {
+      "displayName": "Elite Four Aaron",
+      "usageKey": "261",
+      "detailFile": "trainers/078.json",
+      "leadLevel": 71,
+      "maxLevel": 84,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 261,
+      "teamVariantNames": [
+        "Elite Four Aaron",
+        "Elite Four Aaron2",
+        "Elite Four Aaron4",
+        "Elite Four Aaron3"
+      ]
+    },
+    {
+      "displayName": "Elite Four Aaron5",
+      "usageKey": "982",
+      "detailFile": "trainers/337.json",
+      "leadLevel": 71,
+      "maxLevel": 72,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 982,
+      "teamVariantNames": [
+        "Elite Four Aaron5"
+      ]
+    },
+    {
+      "displayName": "Elite Four Aaron6",
+      "usageKey": "983",
+      "detailFile": "trainers/338.json",
+      "leadLevel": 71,
+      "maxLevel": 72,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 983,
+      "teamVariantNames": [
+        "Elite Four Aaron6"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric13",
+      "usageKey": "479",
+      "detailFile": "trainers/215.json",
+      "leadLevel": 71,
+      "maxLevel": 71,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 479,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric13"
+      ]
+    },
+    {
+      "displayName": "Elite Four Bertha",
+      "usageKey": "262",
+      "detailFile": "trainers/079.json",
+      "leadLevel": 72,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 262,
+      "teamVariantNames": [
+        "Elite Four Bertha",
+        "Elite Four Bertha3",
+        "Elite Four Bertha2",
+        "Elite Four Bertha4"
+      ]
+    },
+    {
+      "displayName": "Elite Four Bertha5",
+      "usageKey": "986",
+      "detailFile": "trainers/341.json",
+      "leadLevel": 72,
+      "maxLevel": 73,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 986,
+      "teamVariantNames": [
+        "Elite Four Bertha5"
+      ]
+    },
+    {
+      "displayName": "Elite Four Flint",
+      "usageKey": "263",
+      "detailFile": "trainers/080.json",
+      "leadLevel": 73,
+      "maxLevel": 86,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 263,
+      "teamVariantNames": [
+        "Elite Four Flint",
+        "Elite Four Flint2",
+        "Elite Four Flint4",
+        "Elite Four Flint3"
+      ]
+    },
+    {
+      "displayName": "Elite Four Flint5",
+      "usageKey": "988",
+      "detailFile": "trainers/343.json",
+      "leadLevel": 73,
+      "maxLevel": 74,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 988,
+      "teamVariantNames": [
+        "Elite Four Flint5"
+      ]
+    },
+    {
+      "displayName": "Elite Four Flint6",
+      "usageKey": "989",
+      "detailFile": "trainers/344.json",
+      "leadLevel": 73,
+      "maxLevel": 74,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 989,
+      "teamVariantNames": [
+        "Elite Four Flint6"
+      ]
+    },
+    {
+      "displayName": "Elite Four Lucian",
+      "usageKey": "264",
+      "detailFile": "trainers/081.json",
+      "leadLevel": 74,
+      "maxLevel": 75,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 264,
+      "teamVariantNames": [
+        "Elite Four Lucian",
+        "Elite Four Lucian4",
+        "Elite Four Lucian2",
+        "Elite Four Lucian3"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Cedric24",
+      "usageKey": "923",
+      "detailFile": "trainers/293.json",
+      "leadLevel": 75,
+      "maxLevel": 75,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 923,
+      "teamVariantNames": [
+        "Pkmn Trainer Cedric24"
+      ]
+    },
+    {
+      "displayName": "Champion Cynthia",
+      "usageKey": "267",
+      "detailFile": "trainers/083.json",
+      "leadLevel": 77,
+      "maxLevel": 78,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 993,
+      "teamVariantNames": [
+        "Champion Cynthia2",
+        "Champion Cynthia",
+        "Champion Cynthia3",
+        "Champion Cynthia4"
+      ]
+    },
+    {
+      "displayName": "Commander Jupiter3",
+      "usageKey": "927",
+      "detailFile": "trainers/294.json",
+      "leadLevel": 77,
+      "maxLevel": 78,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 927,
+      "teamVariantNames": [
+        "Commander Jupiter3"
+      ]
+    },
+    {
+      "displayName": "Dragon Tamer Hayden",
+      "usageKey": "661",
+      "detailFile": "trainers/262.json",
+      "leadLevel": 77,
+      "maxLevel": 77,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 661,
+      "teamVariantNames": [
+        "Dragon Tamer Hayden"
+      ]
+    },
+    {
+      "displayName": "Pkmn Trainer Marley2",
+      "usageKey": "863",
+      "detailFile": "trainers/285.json",
+      "leadLevel": 81,
+      "maxLevel": 82,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 863,
+      "teamVariantNames": [
+        "Pkmn Trainer Marley2"
+      ]
+    },
+    {
+      "displayName": "Galactic Boss Cyrus5",
+      "usageKey": "1063",
+      "detailFile": "trainers/004.json",
+      "leadLevel": 83,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 1063,
+      "teamVariantNames": [
+        "Galactic Boss Cyrus5"
+      ]
+    },
+    {
+      "displayName": "866",
+      "usageKey": "866",
+      "detailFile": "trainers/286.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 866,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "946",
+      "usageKey": "946",
+      "detailFile": "trainers/307.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 946,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "981",
+      "usageKey": "981",
+      "detailFile": "trainers/336.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 981,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "984",
+      "usageKey": "984",
+      "detailFile": "trainers/339.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 984,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "985",
+      "usageKey": "985",
+      "detailFile": "trainers/340.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 985,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "987",
+      "usageKey": "987",
+      "detailFile": "trainers/342.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 987,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "990",
+      "usageKey": "990",
+      "detailFile": "trainers/345.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 990,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "991",
+      "usageKey": "991",
+      "detailFile": "trainers/346.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 991,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "992",
+      "usageKey": "992",
+      "detailFile": "trainers/347.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 992,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "993",
+      "usageKey": "993",
+      "detailFile": "trainers/348.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 993,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "994",
+      "usageKey": "994",
+      "detailFile": "trainers/349.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 994,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "995",
+      "usageKey": "995",
+      "detailFile": "trainers/350.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": 995,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "Galactic Grunt |Lake Valor|",
+      "usageKey": "Galactic Grunt |Lake Valor|",
+      "detailFile": "trainers/351.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null,
+      "teamVariantNames": []
+    },
+    {
+      "displayName": "Leader Gardenia",
+      "usageKey": "Leader Gardenia",
+      "detailFile": "trainers/352.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null,
+      "teamVariantNames": []
+    }
+  ]
+}

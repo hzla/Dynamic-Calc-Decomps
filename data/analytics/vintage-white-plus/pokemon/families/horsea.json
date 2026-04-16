@@ -1,0 +1,219 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "horsea",
+  "familyMembers": [
+    "Horsea",
+    "Kingdra",
+    "Seadra"
+  ],
+  "speciesEntries": {
+    "Kingdra": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 3,
+          "averageParticipationPct": 4.3,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.0,
+          "topBattles": [
+            {
+              "usageKey": "95",
+              "displayName": "Clerk F Katie - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "168",
+              "displayName": "Clerk M Isaac - Driftveil City",
+              "leadLevel": 54,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "491",
+              "displayName": "PkMn Trainer Bianca4",
+              "leadLevel": 62,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "311",
+              "displayName": "Team Plasma Grunt32 - Chargestone Cave",
+              "leadLevel": 63,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "76",
+              "displayName": "Worker Patton - Cold Storage",
+              "leadLevel": 53,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "131",
+              "displayName": "Leader Brycen",
+              "leadLevel": 74,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "606",
+              "displayName": "Ace Trainer Elmer - Route 7",
+              "leadLevel": 59,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "105",
+              "displayName": "Ace Trainer Jared - Chargestone Cave",
+              "leadLevel": 61,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "271",
+              "displayName": "Ace Trainer Jose - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "155",
+              "displayName": "Backpacker Ruth - Route 7",
+              "leadLevel": 59,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Seadra": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "74",
+              "displayName": "Worker Glenn - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 3,
+        "averageParticipationPct": 4.3,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 2.0,
+        "topBattles": [
+          {
+            "usageKey": "95",
+            "displayName": "Clerk F Katie - Driftveil City",
+            "leadLevel": 54,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "168",
+            "displayName": "Clerk M Isaac - Driftveil City",
+            "leadLevel": 54,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "491",
+            "displayName": "PkMn Trainer Bianca4",
+            "leadLevel": 62,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "311",
+            "displayName": "Team Plasma Grunt32 - Chargestone Cave",
+            "leadLevel": 63,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "76",
+            "displayName": "Worker Patton - Cold Storage",
+            "leadLevel": 53,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "131",
+            "displayName": "Leader Brycen",
+            "leadLevel": 74,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "606",
+            "displayName": "Ace Trainer Elmer - Route 7",
+            "leadLevel": 59,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "105",
+            "displayName": "Ace Trainer Jared - Chargestone Cave",
+            "leadLevel": 61,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "271",
+            "displayName": "Ace Trainer Jose - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "155",
+            "displayName": "Backpacker Ruth - Route 7",
+            "leadLevel": 59,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

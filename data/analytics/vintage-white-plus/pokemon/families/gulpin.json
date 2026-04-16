@@ -1,0 +1,197 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "gulpin",
+  "familyMembers": [
+    "Gulpin",
+    "Swalot"
+  ],
+  "speciesEntries": {
+    "Swalot": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 2,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "267",
+              "displayName": "Ace Trainer Dara - Opelucid City",
+              "leadLevel": 83,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "272",
+              "displayName": "Ace Trainer Tom - Opelucid City",
+              "leadLevel": 83,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "214",
+              "displayName": "Battle Girl Chandra - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "213",
+              "displayName": "Battle Girl Mikiko - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "212",
+              "displayName": "Battle Girl Miriam - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "Black Belt Grant - Icirrus City",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": null,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "216",
+              "displayName": "Black Belt Kendrew - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "217",
+              "displayName": "Black Belt Thomas - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "231",
+              "displayName": "Elite Four Caitlin",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 2,
+        "averageParticipationPct": 0.0,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 0.0,
+        "topBattles": [
+          {
+            "usageKey": "267",
+            "displayName": "Ace Trainer Dara - Opelucid City",
+            "leadLevel": 83,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "272",
+            "displayName": "Ace Trainer Tom - Opelucid City",
+            "leadLevel": 83,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "214",
+            "displayName": "Battle Girl Chandra - Icirrus City",
+            "leadLevel": 72,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "213",
+            "displayName": "Battle Girl Mikiko - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "212",
+            "displayName": "Battle Girl Miriam - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "215",
+            "displayName": "Black Belt Grant - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "Black Belt Grant - Icirrus City",
+            "displayName": "Black Belt Grant - Icirrus City",
+            "leadLevel": null,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "216",
+            "displayName": "Black Belt Kendrew - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "217",
+            "displayName": "Black Belt Thomas - Icirrus City",
+            "leadLevel": 72,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "231",
+            "displayName": "Elite Four Caitlin",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

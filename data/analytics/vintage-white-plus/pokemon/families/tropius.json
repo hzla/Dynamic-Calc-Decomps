@@ -1,0 +1,196 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "tropius",
+  "familyMembers": [
+    "Tropius"
+  ],
+  "speciesEntries": {
+    "Tropius": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 7,
+          "averageParticipationPct": 28.5,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 6.7,
+          "topBattles": [
+            {
+              "usageKey": "190",
+              "displayName": "Lass Kara - Celestial Tower",
+              "leadLevel": 60,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "138",
+              "displayName": "Pokefan Jude - Celestial Tower",
+              "leadLevel": 60,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "302",
+              "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
+              "leadLevel": 78,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "218",
+              "displayName": "Team Plasma N2",
+              "leadLevel": 63,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "271",
+              "displayName": "Ace Trainer Jose - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "303",
+              "displayName": "Team Plasma Grunt24 - Dragonspiral Tower",
+              "leadLevel": 77,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "221",
+              "displayName": "Team Plasma Grunt4 - Relic Castle",
+              "leadLevel": 80,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "226",
+              "displayName": "Team Plasma Grunt9 - Relic Castle",
+              "leadLevel": 82,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "607",
+              "displayName": "Ace Trainer Elmer2 - Route 7",
+              "leadLevel": 59,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 7,
+        "averageParticipationPct": 28.5,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 6.7,
+        "topBattles": [
+          {
+            "usageKey": "190",
+            "displayName": "Lass Kara - Celestial Tower",
+            "leadLevel": 60,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "138",
+            "displayName": "Pokefan Jude - Celestial Tower",
+            "leadLevel": 60,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "302",
+            "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
+            "leadLevel": 78,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "218",
+            "displayName": "Team Plasma N2",
+            "leadLevel": 63,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "271",
+            "displayName": "Ace Trainer Jose - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "303",
+            "displayName": "Team Plasma Grunt24 - Dragonspiral Tower",
+            "leadLevel": 77,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "221",
+            "displayName": "Team Plasma Grunt4 - Relic Castle",
+            "leadLevel": 80,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "226",
+            "displayName": "Team Plasma Grunt9 - Relic Castle",
+            "leadLevel": 82,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "607",
+            "displayName": "Ace Trainer Elmer2 - Route 7",
+            "leadLevel": 59,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

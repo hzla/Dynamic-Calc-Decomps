@@ -1,0 +1,290 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "grimer",
+  "familyMembers": [
+    "Grimer",
+    "Muk"
+  ],
+  "speciesEntries": {
+    "Grimer": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 0.0,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.0,
+          "topBattles": [
+            {
+              "usageKey": "99",
+              "displayName": "Ace Trainer Cheyenne - Route 10",
+              "leadLevel": 82,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Ace Trainer Clara - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "247",
+              "displayName": "Ace Trainer David - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "246",
+              "displayName": "Ace Trainer Dwayne - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "244",
+              "displayName": "Ace Trainer Shanta - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "272",
+              "displayName": "Ace Trainer Tom - Opelucid City",
+              "leadLevel": 83,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "248",
+              "displayName": "Black Belt Tyrone - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "132",
+              "displayName": "Leader Iris",
+              "leadLevel": 86,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "588",
+              "displayName": "PkMn Trainer Cheren19",
+              "leadLevel": 98,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "227",
+              "displayName": "Team Plasma Grunt10 - Relic Castle",
+              "leadLevel": 83,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Muk": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 4,
+          "averageParticipationPct": 31.2,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 1.5,
+          "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Ace Trainer Clara - Opelucid City",
+              "leadLevel": 82,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "247",
+              "displayName": "Ace Trainer David - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "44",
+              "displayName": "Backpacker Michael - Route 5",
+              "leadLevel": 41,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "493",
+              "displayName": "PkMn Trainer Bianca6",
+              "leadLevel": 60,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "88",
+              "displayName": "Scientist Satomi",
+              "leadLevel": 23,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "304",
+              "displayName": "Team Plasma Grunt25 - Dragonspiral Tower",
+              "leadLevel": 77,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "99",
+              "displayName": "Ace Trainer Cheyenne - Route 10",
+              "leadLevel": 82,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "246",
+              "displayName": "Ace Trainer Dwayne - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "606",
+              "displayName": "Ace Trainer Elmer - Route 7",
+              "leadLevel": 59,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "244",
+              "displayName": "Ace Trainer Shanta - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 4,
+        "averageParticipationPct": 31.2,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 1.5,
+        "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Ace Trainer Clara - Opelucid City",
+            "leadLevel": 82,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "247",
+            "displayName": "Ace Trainer David - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "44",
+            "displayName": "Backpacker Michael - Route 5",
+            "leadLevel": 41,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "493",
+            "displayName": "PkMn Trainer Bianca6",
+            "leadLevel": 60,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "88",
+            "displayName": "Scientist Satomi",
+            "leadLevel": 23,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "304",
+            "displayName": "Team Plasma Grunt25 - Dragonspiral Tower",
+            "leadLevel": 77,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "99",
+            "displayName": "Ace Trainer Cheyenne - Route 10",
+            "leadLevel": 82,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "246",
+            "displayName": "Ace Trainer Dwayne - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "606",
+            "displayName": "Ace Trainer Elmer - Route 7",
+            "leadLevel": 59,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          },
+          {
+            "usageKey": "244",
+            "displayName": "Ace Trainer Shanta - Victory Road",
+            "leadLevel": 100,
+            "partyCount": 0,
+            "ownedCount": 1,
+            "participationPct": 0
+          }
+        ]
+      }
+    }
+  }
+}

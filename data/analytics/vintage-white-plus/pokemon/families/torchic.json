@@ -1,0 +1,385 @@
+{
+  "title": "Vintage White Plus",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "familyKey": "torchic",
+  "familyMembers": [
+    "Blaziken",
+    "Blaziken-Mega",
+    "Combusken",
+    "Torchic"
+  ],
+  "speciesEntries": {
+    "Blaziken": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 12,
+          "averageParticipationPct": 26.2,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 6.8,
+          "topBattles": [
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "216",
+              "displayName": "Black Belt Kendrew - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "153",
+              "displayName": "Backpacker Jerome - Route 4",
+              "leadLevel": 38,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "404",
+              "displayName": "PkMn Trainer Cheren14",
+              "leadLevel": 36,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "72",
+              "displayName": "Worker Victor - Cold Storage",
+              "leadLevel": 51,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 3,
+              "ownedCount": 6,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 3,
+              "ownedCount": 9,
+              "participationPct": 33
+            },
+            {
+              "usageKey": "214",
+              "displayName": "Battle Girl Chandra - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "81",
+              "displayName": "Team Plasma Grunt3",
+              "leadLevel": 55,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "201",
+              "displayName": "Worker Felix - Driftveil City",
+              "leadLevel": 53,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Combusken": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 23,
+          "averageParticipationPct": 61.3,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 2.8,
+          "topBattles": [
+            {
+              "usageKey": "21",
+              "displayName": "Leader Lenora",
+              "leadLevel": 25,
+              "partyCount": 9,
+              "ownedCount": 12,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
+              "partyCount": 9,
+              "ownedCount": 17,
+              "participationPct": 53
+            },
+            {
+              "usageKey": "87",
+              "displayName": "School Kid Lydia",
+              "leadLevel": 24,
+              "partyCount": 6,
+              "ownedCount": 7,
+              "participationPct": 86
+            },
+            {
+              "usageKey": "86",
+              "displayName": "School Kid Carter - Nacrene City",
+              "leadLevel": 23,
+              "partyCount": 4,
+              "ownedCount": 5,
+              "participationPct": 80
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 4,
+              "ownedCount": 7,
+              "participationPct": 57
+            },
+            {
+              "usageKey": "295",
+              "displayName": "Team Plasma Grunt16",
+              "leadLevel": 31,
+              "partyCount": 4,
+              "ownedCount": 7,
+              "participationPct": 57
+            },
+            {
+              "usageKey": "57",
+              "displayName": "PkMn Trainer Cheren5",
+              "leadLevel": 18,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "32",
+              "displayName": "Twins Mayo & May - Pinwheel Forest",
+              "leadLevel": 31,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "297",
+              "displayName": "Team Plasma Grunt18",
+              "leadLevel": 33,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "293",
+              "displayName": "Team Plasma Grunt14",
+              "leadLevel": 14,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            }
+          ]
+        }
+      }
+    },
+    "Torchic": {
+      "byMinDepth": {
+        "1": {
+          "runCount": 6,
+          "averageParticipationPct": 46.6,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": 0.8,
+          "topBattles": [
+            {
+              "usageKey": "13",
+              "displayName": "Leader Cress",
+              "leadLevel": 14,
+              "partyCount": 5,
+              "ownedCount": 5,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "245",
+              "displayName": "Ace Trainer Cathy - Victory Road",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "214",
+              "displayName": "Battle Girl Chandra - Icirrus City",
+              "leadLevel": 72,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "212",
+              "displayName": "Battle Girl Miriam - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "215",
+              "displayName": "Black Belt Grant - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "216",
+              "displayName": "Black Belt Kendrew - Icirrus City",
+              "leadLevel": 71,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "231",
+              "displayName": "Elite Four Caitlin",
+              "leadLevel": 100,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "25",
+              "displayName": "Leader Skyla",
+              "leadLevel": 65,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "492",
+              "displayName": "PkMn Trainer Bianca5",
+              "leadLevel": 61,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            },
+            {
+              "usageKey": "495",
+              "displayName": "PkMn Trainer Bianca8",
+              "leadLevel": 79,
+              "partyCount": 0,
+              "ownedCount": 1,
+              "participationPct": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "familyCombined": {
+    "byMinDepth": {
+      "1": {
+        "runCount": 26,
+        "averageParticipationPct": 54.2,
+        "averageRunDepthStep": null,
+        "averageRunDepthPct": null,
+        "averageBattlesUsed": 5.8,
+        "topBattles": [
+          {
+            "usageKey": "21",
+            "displayName": "Leader Lenora",
+            "leadLevel": 25,
+            "partyCount": 9,
+            "ownedCount": 12,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
+            "partyCount": 9,
+            "ownedCount": 17,
+            "participationPct": 53
+          },
+          {
+            "usageKey": "87",
+            "displayName": "School Kid Lydia",
+            "leadLevel": 24,
+            "partyCount": 6,
+            "ownedCount": 7,
+            "participationPct": 86
+          },
+          {
+            "usageKey": "13",
+            "displayName": "Leader Cress",
+            "leadLevel": 14,
+            "partyCount": 5,
+            "ownedCount": 5,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "215",
+            "displayName": "Black Belt Grant - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "86",
+            "displayName": "School Kid Carter - Nacrene City",
+            "leadLevel": 23,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "295",
+            "displayName": "Team Plasma Grunt16",
+            "leadLevel": 31,
+            "partyCount": 4,
+            "ownedCount": 7,
+            "participationPct": 57
+          },
+          {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 4,
+            "ownedCount": 8,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "216",
+            "displayName": "Black Belt Kendrew - Icirrus City",
+            "leadLevel": 71,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "57",
+            "displayName": "PkMn Trainer Cheren5",
+            "leadLevel": 18,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          }
+        ]
+      }
+    }
+  }
+}

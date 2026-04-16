@@ -152,6 +152,18 @@
       margin-left: 8px;
     }
 
+    .pokemonOption{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .pokemonOption img{
+      width: 26px;
+      height: 26px;
+      image-rendering: pixelated;
+      filter: drop-shadow(0 8px 12px rgba(0,0,0,.35));
+    }
+
     /* Team card */
     .team{
       margin-top: 14px;
@@ -206,12 +218,45 @@
         rgba(0,0,0,.14);
       border-bottom: 1px solid rgba(248,248,242,.10);
     }
-    .monTop img{
-      image-rendering: pixelated;
-      width: 86px;
-      height: 86px;
-      filter: drop-shadow(0 10px 16px rgba(0,0,0,.45));
-    }
+.monTop img{
+  image-rendering: pixelated;
+  width: 86px;
+  height: 86px;
+  filter: drop-shadow(0 10px 16px rgba(0,0,0,.45));
+}
+.pokemonLink{
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+  margin: 0;
+  text-align: inherit;
+  cursor: pointer;
+}
+
+.pokemonLink:hover{
+  color: var(--accent);
+}
+
+.pokemonLink:focus-visible{
+  outline: 2px solid rgba(139,233,253,.6);
+  outline-offset: 3px;
+  border-radius: 12px;
+}
+
+.pokemonSpriteButton{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.pokemonNameLink{
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
     .monBody{
       padding: 10px 10px 12px;
     }
@@ -323,6 +368,12 @@
   image-rendering: pixelated;
   filter: drop-shadow(0 10px 16px rgba(0,0,0,.45));
 }
+.usageCardPokemonLink{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width: 0;
+}
 .usageCardTop .name{
   font-weight: 800;
   font-size: 13px;
@@ -393,6 +444,9 @@
   border-radius: 999px;
   padding: 9px 14px;
   font-weight: 650;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
   cursor: pointer;
   transition: background .15s ease, border-color .15s ease, opacity .15s ease;
 }
@@ -417,6 +471,43 @@
   margin-top: 14px;
   display:grid;
   gap: 14px;
+}
+
+.overviewControls{
+  display:grid;
+  grid-template-columns: minmax(160px, 220px) minmax(220px, 1fr) auto;
+  gap: 12px;
+  align-items:end;
+}
+
+@media (max-width: 860px){
+  .overviewControls{
+    grid-template-columns: 1fr;
+  }
+}
+
+.overviewControl{
+  display:grid;
+  gap: 6px;
+}
+
+.overviewControl label{
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.overviewControl input,
+.overviewControl select{
+  border-radius: 12px;
+  border: 1px solid rgba(248,248,242,.16);
+  background: rgba(31,34,48,.92);
+  color: var(--text);
+  padding: 10px 12px;
+  font: inherit;
+}
+
+.overviewResetBtn{
+  justify-self: start;
 }
 
 .overviewGrid{
@@ -551,6 +642,34 @@
   gap: 12px;
 }
 
+.chartCardHeader{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 12px;
+}
+
+.chartCardHeader h3{
+  margin:0;
+}
+
+.chartSortControl{
+  display:grid;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.chartSortControl select{
+  min-width: 120px;
+  border-radius: 10px;
+  border: 1px solid rgba(248,248,242,.16);
+  background: rgba(31,34,48,.92);
+  color: var(--text);
+  padding: 6px 10px;
+  font: inherit;
+}
+
 .chartWrap{
   position: relative;
   height: 260px;
@@ -573,6 +692,20 @@
   display:flex;
   align-items:center;
   gap: 8px;
+  min-width: 0;
+  text-align: left;
+}
+
+.chartLegendText{
+  display:grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.chartLegendText span{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .chartLegendSprite{
@@ -585,6 +718,7 @@
 .chartLegendPct{
   color: var(--accent);
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .chartSwatch{
@@ -597,4 +731,92 @@
 .runDepthWrap{
   position: relative;
   height: 320px;
+}
+
+.chartLegendDepth{
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.overviewTableWrap{
+  overflow-x: auto;
+}
+
+.overviewTable{
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 420px;
+}
+
+.overviewTable th,
+.overviewTable td{
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(248,248,242,.1);
+  text-align: left;
+}
+
+.overviewTable th{
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.overviewTable td{
+  font-size: 13px;
+}
+
+.overviewTablePokemon{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+}
+
+.overviewTablePokemon img{
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 8px 12px rgba(0,0,0,.35));
+}
+
+.pokemonOverview{
+  display:grid;
+  gap: 14px;
+}
+
+.pokemonOverviewHeader{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.pokemonHero{
+  display:flex;
+  align-items:center;
+  gap: 14px;
+}
+
+.pokemonHero img{
+  width: 88px;
+  height: 88px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 10px 16px rgba(0,0,0,.45));
+}
+
+.pokemonHero h2{
+  margin:0 0 4px;
+  font-size: 20px;
+}
+
+.familyToggle{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.familyToggle input{
+  accent-color: var(--accent);
 }

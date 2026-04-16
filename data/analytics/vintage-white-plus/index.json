@@ -1,153 +1,19 @@
 {
   "title": "Vintage White Plus",
   "slug": "vintage-white-plus",
-  "generatedAt": "2026-04-16T15:36:11.324596Z",
+  "generatedAt": "2026-04-16T19:12:54.015134Z",
   "historyLimit": 100,
   "trainerCount": 208,
-  "overview": {
-    "runCount": 90,
-    "importantTrainerBattles": [
-      {
-        "displayName": "Leader Chili",
-        "sourceDisplayName": "Leader Chili",
-        "usageKey": "11",
-        "trId": 11,
-        "leadLevel": 14,
-        "maxLevel": 15,
-        "runCount": 12
-      },
-      {
-        "displayName": "Leader Cilan",
-        "sourceDisplayName": "Leader Cilan",
-        "usageKey": "12",
-        "trId": 12,
-        "leadLevel": 14,
-        "maxLevel": 15,
-        "runCount": 5
-      },
-      {
-        "displayName": "Leader Cress",
-        "sourceDisplayName": "Leader Cress",
-        "usageKey": "13",
-        "trId": 13,
-        "leadLevel": 14,
-        "maxLevel": 15,
-        "runCount": 5
-      },
-      {
-        "displayName": "Leader Lenora",
-        "sourceDisplayName": "Leader Lenora",
-        "usageKey": "21",
-        "trId": 21,
-        "leadLevel": 25,
-        "maxLevel": 28,
-        "runCount": 55
-      },
-      {
-        "displayName": "Leader Burgh",
-        "sourceDisplayName": "Leader Burgh",
-        "usageKey": "22",
-        "trId": 22,
-        "leadLevel": 33,
-        "maxLevel": 35,
-        "runCount": 36
-      },
-      {
-        "displayName": "Leader Elesa",
-        "sourceDisplayName": "Leader Elesa",
-        "usageKey": "23",
-        "trId": 23,
-        "leadLevel": 42,
-        "maxLevel": 44,
-        "runCount": 24
-      },
-      {
-        "displayName": "Leader Clay",
-        "sourceDisplayName": "Leader Clay",
-        "usageKey": "24",
-        "trId": 24,
-        "leadLevel": 56,
-        "maxLevel": 58,
-        "runCount": 17
-      },
-      {
-        "displayName": "Leader Skyla",
-        "sourceDisplayName": "Leader Skyla",
-        "usageKey": "25",
-        "trId": 25,
-        "leadLevel": 65,
-        "maxLevel": 67,
-        "runCount": 8
-      },
-      {
-        "displayName": "Leader Brycen",
-        "sourceDisplayName": "Leader Brycen",
-        "usageKey": "131",
-        "trId": 131,
-        "leadLevel": 74,
-        "maxLevel": 74,
-        "runCount": 9
-      },
-      {
-        "displayName": "Leader Iris",
-        "sourceDisplayName": "Leader Iris",
-        "usageKey": "132",
-        "trId": 132,
-        "leadLevel": 86,
-        "maxLevel": 86,
-        "runCount": 10
-      },
-      {
-        "displayName": "Champion Alder",
-        "sourceDisplayName": "Champion Alder",
-        "usageKey": "407",
-        "trId": 407,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 1
-      },
-      {
-        "displayName": "Elite Four Caitlin",
-        "sourceDisplayName": "Elite Four Caitlin",
-        "usageKey": "231",
-        "trId": 231,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 7
-      },
-      {
-        "displayName": "Elite Four Grimsley",
-        "sourceDisplayName": "Elite Four Grimsley",
-        "usageKey": "230",
-        "trId": 230,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 7
-      },
-      {
-        "displayName": "Elite Four Marshal",
-        "sourceDisplayName": "Elite Four Marshal",
-        "usageKey": "229",
-        "trId": 229,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 7
-      },
-      {
-        "displayName": "Elite Four Shauntal",
-        "sourceDisplayName": "Elite Four Shauntal",
-        "usageKey": "228",
-        "trId": 228,
-        "leadLevel": 100,
-        "maxLevel": 100,
-        "runCount": 7
-      }
-    ],
-    "starterGiftGroups": [],
-    "runDepth": {
-      "available": false,
-      "reason": "no_trainer_order"
-    }
+  "overviewFile": "overview.json",
+  "overviewMeta": {
+    "runDepthAvailable": false,
+    "maxStep": 0,
+    "defaultMinDepth": 1
+  },
+  "pokemonIndexFile": "pokemon/index.json",
+  "pokemonMeta": {
+    "available": true,
+    "familyToggleDefault": "family"
   },
   "trainers": [
     {
@@ -158,7 +24,10 @@
       "maxLevel": 5,
       "isBoss": false,
       "partySize": 1,
-      "trId": 587
+      "trId": 587,
+      "teamVariantNames": [
+        "Team Plasma N4"
+      ]
     },
     {
       "displayName": "Waitress Tia - Striaton City",
@@ -168,7 +37,10 @@
       "maxLevel": 13,
       "isBoss": false,
       "partySize": 3,
-      "trId": 10
+      "trId": 10,
+      "teamVariantNames": [
+        "Waitress Tia - Striaton City"
+      ]
     },
     {
       "displayName": "Youngster Joey - Dreamyard",
@@ -178,7 +50,10 @@
       "maxLevel": 12,
       "isBoss": false,
       "partySize": 2,
-      "trId": 7
+      "trId": 7,
+      "teamVariantNames": [
+        "Youngster Joey - Dreamyard"
+      ]
     },
     {
       "displayName": "Waiter Maxwell - Striaton City",
@@ -188,7 +63,10 @@
       "maxLevel": 13,
       "isBoss": false,
       "partySize": 3,
-      "trId": 9
+      "trId": 9,
+      "teamVariantNames": [
+        "Waiter Maxwell - Striaton City"
+      ]
     },
     {
       "displayName": "Leader Chili",
@@ -199,7 +77,9 @@
       "isBoss": true,
       "partySize": 3,
       "trId": 11,
-      "sourceDisplayName": "Leader Chili"
+      "teamVariantNames": [
+        "Leader Chili"
+      ]
     },
     {
       "displayName": "Leader Cilan",
@@ -210,7 +90,9 @@
       "isBoss": true,
       "partySize": 3,
       "trId": 12,
-      "sourceDisplayName": "Leader Cilan"
+      "teamVariantNames": [
+        "Leader Cilan"
+      ]
     },
     {
       "displayName": "Leader Cress",
@@ -221,7 +103,9 @@
       "isBoss": true,
       "partySize": 3,
       "trId": 13,
-      "sourceDisplayName": "Leader Cress"
+      "teamVariantNames": [
+        "Leader Cress"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren12",
@@ -231,7 +115,10 @@
       "maxLevel": 14,
       "isBoss": false,
       "partySize": 2,
-      "trId": 289
+      "trId": 289,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren12"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt14",
@@ -241,7 +128,10 @@
       "maxLevel": 14,
       "isBoss": false,
       "partySize": 3,
-      "trId": 293
+      "trId": 293,
+      "teamVariantNames": [
+        "Team Plasma Grunt14"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt29",
@@ -251,7 +141,10 @@
       "maxLevel": 15,
       "isBoss": false,
       "partySize": 3,
-      "trId": 308
+      "trId": 308,
+      "teamVariantNames": [
+        "Team Plasma Grunt29"
+      ]
     },
     {
       "displayName": "Team Plasma 2",
@@ -261,7 +154,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 3,
-      "trId": 277
+      "trId": 277,
+      "teamVariantNames": [
+        "Team Plasma 2"
+      ]
     },
     {
       "displayName": "Twins Kumi & Amy",
@@ -271,7 +167,10 @@
       "maxLevel": 16,
       "isBoss": false,
       "partySize": 2,
-      "trId": 18
+      "trId": 18,
+      "teamVariantNames": [
+        "Twins Kumi & Amy"
+      ]
     },
     {
       "displayName": "PkMn Breeder Adelaide - Route 3",
@@ -281,7 +180,10 @@
       "maxLevel": 17,
       "isBoss": false,
       "partySize": 6,
-      "trId": 20
+      "trId": 20,
+      "teamVariantNames": [
+        "PkMn Breeder Adelaide - Route 3"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren6",
@@ -291,7 +193,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 3,
-      "trId": 58
+      "trId": 58,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren6"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren4",
@@ -301,7 +206,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 3,
-      "trId": 56
+      "trId": 56,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren4"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren5",
@@ -311,7 +219,10 @@
       "maxLevel": 18,
       "isBoss": false,
       "partySize": 3,
-      "trId": 57
+      "trId": 57,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren5"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt15",
@@ -321,7 +232,10 @@
       "maxLevel": 19,
       "isBoss": false,
       "partySize": 2,
-      "trId": 294
+      "trId": 294,
+      "teamVariantNames": [
+        "Team Plasma Grunt15"
+      ]
     },
     {
       "displayName": "School Kid Al - Route 3",
@@ -331,7 +245,10 @@
       "maxLevel": 21,
       "isBoss": false,
       "partySize": 3,
-      "trId": 3
+      "trId": 3,
+      "teamVariantNames": [
+        "School Kid Al - Route 3"
+      ]
     },
     {
       "displayName": "School Kid Marsha - Route 3",
@@ -341,7 +258,10 @@
       "maxLevel": 21,
       "isBoss": false,
       "partySize": 4,
-      "trId": 4
+      "trId": 4,
+      "teamVariantNames": [
+        "School Kid Marsha - Route 3"
+      ]
     },
     {
       "displayName": "PkMn Trainer N2",
@@ -351,7 +271,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 4,
-      "trId": 65
+      "trId": 65,
+      "teamVariantNames": [
+        "PkMn Trainer N2"
+      ]
     },
     {
       "displayName": "School Kid Gina - Route 3",
@@ -361,7 +284,10 @@
       "maxLevel": 21,
       "isBoss": false,
       "partySize": 3,
-      "trId": 292
+      "trId": 292,
+      "teamVariantNames": [
+        "School Kid Gina - Route 3"
+      ]
     },
     {
       "displayName": "School Kid Carter - Nacrene City",
@@ -371,7 +297,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 3,
-      "trId": 86
+      "trId": 86,
+      "teamVariantNames": [
+        "School Kid Carter - Nacrene City"
+      ]
     },
     {
       "displayName": "Scientist Satomi",
@@ -381,7 +310,10 @@
       "maxLevel": 23,
       "isBoss": false,
       "partySize": 2,
-      "trId": 88
+      "trId": 88,
+      "teamVariantNames": [
+        "Scientist Satomi"
+      ]
     },
     {
       "displayName": "School Kid Lydia",
@@ -391,7 +323,10 @@
       "maxLevel": 24,
       "isBoss": false,
       "partySize": 5,
-      "trId": 87
+      "trId": 87,
+      "teamVariantNames": [
+        "School Kid Lydia"
+      ]
     },
     {
       "displayName": "Leader Lenora",
@@ -402,7 +337,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 21,
-      "sourceDisplayName": "Leader Lenora"
+      "teamVariantNames": [
+        "Leader Lenora"
+      ]
     },
     {
       "displayName": "Worker Gus - Route 4",
@@ -412,7 +349,10 @@
       "maxLevel": 26,
       "isBoss": false,
       "partySize": 3,
-      "trId": 291
+      "trId": 291,
+      "teamVariantNames": [
+        "Worker Gus - Route 4"
+      ]
     },
     {
       "displayName": "Lass Eva - Pinwheel Forest",
@@ -422,7 +362,10 @@
       "maxLevel": 29,
       "isBoss": false,
       "partySize": 4,
-      "trId": 34
+      "trId": 34,
+      "teamVariantNames": [
+        "Lass Eva - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "School Kid Millie - Pinwheel Forest",
@@ -432,7 +375,10 @@
       "maxLevel": 30,
       "isBoss": false,
       "partySize": 3,
-      "trId": 31
+      "trId": 31,
+      "teamVariantNames": [
+        "School Kid Millie - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "PkMn Ranger Audra - Pinwheel Forest",
@@ -442,7 +388,10 @@
       "maxLevel": 30,
       "isBoss": false,
       "partySize": 3,
-      "trId": 29
+      "trId": 29,
+      "teamVariantNames": [
+        "PkMn Ranger Audra - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "School Kid Sammy - Pinwheel Forest",
@@ -452,7 +401,10 @@
       "maxLevel": 30,
       "isBoss": false,
       "partySize": 2,
-      "trId": 30
+      "trId": 30,
+      "teamVariantNames": [
+        "School Kid Sammy - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "Youngster Nicholas - Pinwheel Forest",
@@ -462,7 +414,10 @@
       "maxLevel": 30,
       "isBoss": false,
       "partySize": 3,
-      "trId": 33
+      "trId": 33,
+      "teamVariantNames": [
+        "Youngster Nicholas - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "PkMn Ranger Irene - Pinwheel Forest",
@@ -472,7 +427,10 @@
       "maxLevel": 32,
       "isBoss": false,
       "partySize": 3,
-      "trId": 27
+      "trId": 27,
+      "teamVariantNames": [
+        "PkMn Ranger Irene - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt16",
@@ -482,7 +440,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 3,
-      "trId": 295
+      "trId": 295,
+      "teamVariantNames": [
+        "Team Plasma Grunt16"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt30",
@@ -492,7 +453,10 @@
       "maxLevel": 32,
       "isBoss": false,
       "partySize": 3,
-      "trId": 309
+      "trId": 309,
+      "teamVariantNames": [
+        "Team Plasma Grunt30"
+      ]
     },
     {
       "displayName": "Twins Mayo & May - Pinwheel Forest",
@@ -502,7 +466,10 @@
       "maxLevel": 31,
       "isBoss": false,
       "partySize": 2,
-      "trId": 32
+      "trId": 32,
+      "teamVariantNames": [
+        "Twins Mayo & May - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "Harlequin Jack - Castelia City",
@@ -512,7 +479,10 @@
       "maxLevel": 32,
       "isBoss": false,
       "partySize": 2,
-      "trId": 196
+      "trId": 196,
+      "teamVariantNames": [
+        "Harlequin Jack - Castelia City"
+      ]
     },
     {
       "displayName": "PkMn Ranger Miguel - Pinwheel Forest",
@@ -522,7 +492,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 3,
-      "trId": 28
+      "trId": 28,
+      "teamVariantNames": [
+        "PkMn Ranger Miguel - Pinwheel Forest"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt17",
@@ -532,7 +505,10 @@
       "maxLevel": 32,
       "isBoss": false,
       "partySize": 3,
-      "trId": 296
+      "trId": 296,
+      "teamVariantNames": [
+        "Team Plasma Grunt17"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt35",
@@ -542,7 +518,10 @@
       "maxLevel": 32,
       "isBoss": false,
       "partySize": 4,
-      "trId": 552
+      "trId": 552,
+      "teamVariantNames": [
+        "Team Plasma Grunt35"
+      ]
     },
     {
       "displayName": "Harlequin Rick",
@@ -552,7 +531,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 2,
-      "trId": 200
+      "trId": 200,
+      "teamVariantNames": [
+        "Harlequin Rick"
+      ]
     },
     {
       "displayName": "Leader Burgh",
@@ -563,7 +545,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 22,
-      "sourceDisplayName": "Leader Burgh"
+      "teamVariantNames": [
+        "Leader Burgh"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt18",
@@ -573,7 +557,10 @@
       "maxLevel": 33,
       "isBoss": false,
       "partySize": 3,
-      "trId": 297
+      "trId": 297,
+      "teamVariantNames": [
+        "Team Plasma Grunt18"
+      ]
     },
     {
       "displayName": "Harlequin Louis - Castelia City",
@@ -583,7 +570,10 @@
       "maxLevel": 34,
       "isBoss": false,
       "partySize": 4,
-      "trId": 198
+      "trId": 198,
+      "teamVariantNames": [
+        "Harlequin Louis - Castelia City"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca15",
@@ -593,7 +583,10 @@
       "maxLevel": 36,
       "isBoss": false,
       "partySize": 4,
-      "trId": 509
+      "trId": 509,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca15"
+      ]
     },
     {
       "displayName": "Backpacker Keane - Route 4",
@@ -603,7 +596,10 @@
       "maxLevel": 36,
       "isBoss": false,
       "partySize": 3,
-      "trId": 290
+      "trId": 290,
+      "teamVariantNames": [
+        "Backpacker Keane - Route 4"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca13",
@@ -613,7 +609,10 @@
       "maxLevel": 36,
       "isBoss": false,
       "partySize": 4,
-      "trId": 507
+      "trId": 507,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca13"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca14",
@@ -623,7 +622,10 @@
       "maxLevel": 36,
       "isBoss": false,
       "partySize": 4,
-      "trId": 508
+      "trId": 508,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca14"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren14",
@@ -633,7 +635,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 4,
-      "trId": 404
+      "trId": 404,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren14"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren15",
@@ -643,7 +648,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 4,
-      "trId": 405
+      "trId": 405,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren15"
+      ]
     },
     {
       "displayName": "Backpacker Anna - Route 4",
@@ -653,7 +661,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 3,
-      "trId": 156
+      "trId": 156,
+      "teamVariantNames": [
+        "Backpacker Anna - Route 4"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren13",
@@ -663,7 +674,10 @@
       "maxLevel": 37,
       "isBoss": false,
       "partySize": 4,
-      "trId": 403
+      "trId": 403,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren13"
+      ]
     },
     {
       "displayName": "Backpacker Jerome - Route 4",
@@ -673,7 +687,10 @@
       "maxLevel": 38,
       "isBoss": false,
       "partySize": 3,
-      "trId": 153
+      "trId": 153,
+      "teamVariantNames": [
+        "Backpacker Jerome - Route 4"
+      ]
     },
     {
       "displayName": "Worker Zack - Route 4",
@@ -683,7 +700,10 @@
       "maxLevel": 38,
       "isBoss": false,
       "partySize": 3,
-      "trId": 37
+      "trId": 37,
+      "teamVariantNames": [
+        "Worker Zack - Route 4"
+      ]
     },
     {
       "displayName": "Backpacker Stephen - Route 16",
@@ -693,7 +713,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 5,
-      "trId": 443
+      "trId": 443,
+      "teamVariantNames": [
+        "Backpacker Stephen - Route 16"
+      ]
     },
     {
       "displayName": "Psychic Low - Desert Resort",
@@ -703,7 +726,10 @@
       "maxLevel": 39,
       "isBoss": false,
       "partySize": 3,
-      "trId": 233
+      "trId": 233,
+      "teamVariantNames": [
+        "Psychic Low - Desert Resort"
+      ]
     },
     {
       "displayName": "Psychic Perry - Relic Castle",
@@ -713,7 +739,10 @@
       "maxLevel": 39,
       "isBoss": false,
       "partySize": 2,
-      "trId": 51
+      "trId": 51,
+      "teamVariantNames": [
+        "Psychic Perry - Relic Castle"
+      ]
     },
     {
       "displayName": "Artist Horton - Route 5",
@@ -723,7 +752,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 5,
-      "trId": 49
+      "trId": 49,
+      "teamVariantNames": [
+        "Artist Horton - Route 5"
+      ]
     },
     {
       "displayName": "Backpacker Peter - Route 16",
@@ -733,7 +765,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 5,
-      "trId": 442
+      "trId": 442,
+      "teamVariantNames": [
+        "Backpacker Peter - Route 16"
+      ]
     },
     {
       "displayName": "Cyclist Krissa - Route 16",
@@ -743,7 +778,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 6,
-      "trId": 409
+      "trId": 409,
+      "teamVariantNames": [
+        "Cyclist Krissa - Route 16"
+      ]
     },
     {
       "displayName": "Dancer Brian - Route 5",
@@ -753,7 +791,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 5,
-      "trId": 47
+      "trId": 47,
+      "teamVariantNames": [
+        "Dancer Brian - Route 5"
+      ]
     },
     {
       "displayName": "Lady Magnolia - Nimbasa City",
@@ -763,7 +804,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 3,
-      "trId": 68
+      "trId": 68,
+      "teamVariantNames": [
+        "Lady Magnolia - Nimbasa City"
+      ]
     },
     {
       "displayName": "Musician Preston",
@@ -773,7 +817,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 5,
-      "trId": 46
+      "trId": 46,
+      "teamVariantNames": [
+        "Musician Preston"
+      ]
     },
     {
       "displayName": "Policeman Daniel - Route 16",
@@ -783,7 +830,10 @@
       "maxLevel": 40,
       "isBoss": false,
       "partySize": 5,
-      "trId": 412
+      "trId": 412,
+      "teamVariantNames": [
+        "Policeman Daniel - Route 16"
+      ]
     },
     {
       "displayName": "Rich Boy Cody - Nimbasa City",
@@ -793,7 +843,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 3,
-      "trId": 66
+      "trId": 66,
+      "teamVariantNames": [
+        "Rich Boy Cody - Nimbasa City"
+      ]
     },
     {
       "displayName": "Backpacker Michael - Route 5",
@@ -803,7 +856,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 5,
-      "trId": 44
+      "trId": 44,
+      "teamVariantNames": [
+        "Backpacker Michael - Route 5"
+      ]
     },
     {
       "displayName": "Rich Boy Rolan",
@@ -813,7 +869,10 @@
       "maxLevel": 42,
       "isBoss": false,
       "partySize": 3,
-      "trId": 67
+      "trId": 67,
+      "teamVariantNames": [
+        "Rich Boy Rolan"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt13",
@@ -823,7 +882,10 @@
       "maxLevel": 41,
       "isBoss": false,
       "partySize": 4,
-      "trId": 279
+      "trId": 279,
+      "teamVariantNames": [
+        "Team Plasma Grunt13"
+      ]
     },
     {
       "displayName": "Lady Colette",
@@ -833,7 +895,10 @@
       "maxLevel": 42,
       "isBoss": false,
       "partySize": 3,
-      "trId": 69
+      "trId": 69,
+      "teamVariantNames": [
+        "Lady Colette"
+      ]
     },
     {
       "displayName": "Leader Elesa",
@@ -844,7 +909,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 23,
-      "sourceDisplayName": "Leader Elesa"
+      "teamVariantNames": [
+        "Leader Elesa"
+      ]
     },
     {
       "displayName": "Team Plasma N",
@@ -854,7 +921,10 @@
       "maxLevel": 42,
       "isBoss": false,
       "partySize": 4,
-      "trId": 89
+      "trId": 89,
+      "teamVariantNames": [
+        "Team Plasma N"
+      ]
     },
     {
       "displayName": "Scientist Maria - Route 6",
@@ -864,7 +934,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 5,
-      "trId": 258
+      "trId": 258,
+      "teamVariantNames": [
+        "Scientist Maria - Route 6"
+      ]
     },
     {
       "displayName": "Scientist Ron - Route 6",
@@ -874,7 +947,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 5,
-      "trId": 257
+      "trId": 257,
+      "teamVariantNames": [
+        "Scientist Ron - Route 6"
+      ]
     },
     {
       "displayName": "Scientist William - Route 6",
@@ -884,7 +960,10 @@
       "maxLevel": 51,
       "isBoss": false,
       "partySize": 5,
-      "trId": 112
+      "trId": 112,
+      "teamVariantNames": [
+        "Scientist William - Route 6"
+      ]
     },
     {
       "displayName": "Worker Glenn - Cold Storage",
@@ -894,7 +973,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 74
+      "trId": 74,
+      "teamVariantNames": [
+        "Worker Glenn - Cold Storage"
+      ]
     },
     {
       "displayName": "Worker Victor - Cold Storage",
@@ -904,7 +986,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 72
+      "trId": 72,
+      "teamVariantNames": [
+        "Worker Victor - Cold Storage"
+      ]
     },
     {
       "displayName": "Youngster Kenneth - Cold Storage",
@@ -914,7 +999,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 141
+      "trId": 141,
+      "teamVariantNames": [
+        "Youngster Kenneth - Cold Storage"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren8",
@@ -924,7 +1012,10 @@
       "maxLevel": 54,
       "isBoss": false,
       "partySize": 5,
-      "trId": 91
+      "trId": 91,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren8"
+      ]
     },
     {
       "displayName": "Worker Filipe - Cold Storage",
@@ -934,7 +1025,10 @@
       "maxLevel": 52,
       "isBoss": false,
       "partySize": 6,
-      "trId": 73
+      "trId": 73,
+      "teamVariantNames": [
+        "Worker Filipe - Cold Storage"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren9",
@@ -944,7 +1038,10 @@
       "maxLevel": 54,
       "isBoss": false,
       "partySize": 5,
-      "trId": 92
+      "trId": 92,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren9"
+      ]
     },
     {
       "displayName": "Worker Don - Driftveil City",
@@ -954,7 +1051,10 @@
       "maxLevel": 54,
       "isBoss": false,
       "partySize": 4,
-      "trId": 203
+      "trId": 203,
+      "teamVariantNames": [
+        "Worker Don - Driftveil City"
+      ]
     },
     {
       "displayName": "Worker Felix - Driftveil City",
@@ -964,7 +1064,10 @@
       "maxLevel": 53,
       "isBoss": false,
       "partySize": 4,
-      "trId": 201
+      "trId": 201,
+      "teamVariantNames": [
+        "Worker Felix - Driftveil City"
+      ]
     },
     {
       "displayName": "Worker Patton - Cold Storage",
@@ -974,7 +1077,10 @@
       "maxLevel": 53,
       "isBoss": false,
       "partySize": 6,
-      "trId": 76
+      "trId": 76,
+      "teamVariantNames": [
+        "Worker Patton - Cold Storage"
+      ]
     },
     {
       "displayName": "Worker Ryan - Cold Storage",
@@ -984,7 +1090,10 @@
       "maxLevel": 53,
       "isBoss": false,
       "partySize": 6,
-      "trId": 75
+      "trId": 75,
+      "teamVariantNames": [
+        "Worker Ryan - Cold Storage"
+      ]
     },
     {
       "displayName": "Clerk F Katie - Driftveil City",
@@ -994,7 +1103,10 @@
       "maxLevel": 54,
       "isBoss": false,
       "partySize": 4,
-      "trId": 95
+      "trId": 95,
+      "teamVariantNames": [
+        "Clerk F Katie - Driftveil City"
+      ]
     },
     {
       "displayName": "Clerk M Isaac - Driftveil City",
@@ -1004,7 +1116,10 @@
       "maxLevel": 54,
       "isBoss": false,
       "partySize": 4,
-      "trId": 168
+      "trId": 168,
+      "teamVariantNames": [
+        "Clerk M Isaac - Driftveil City"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren7",
@@ -1014,7 +1129,10 @@
       "maxLevel": 54,
       "isBoss": false,
       "partySize": 5,
-      "trId": 90
+      "trId": 90,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren7"
+      ]
     },
     {
       "displayName": "Worker Sterling - Driftveil City",
@@ -1024,7 +1142,10 @@
       "maxLevel": 54,
       "isBoss": false,
       "partySize": 4,
-      "trId": 202
+      "trId": 202,
+      "teamVariantNames": [
+        "Worker Sterling - Driftveil City"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt11",
@@ -1034,7 +1155,10 @@
       "maxLevel": 55,
       "isBoss": false,
       "partySize": 3,
-      "trId": 276
+      "trId": 276,
+      "teamVariantNames": [
+        "Team Plasma Grunt11"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt12",
@@ -1044,7 +1168,10 @@
       "maxLevel": 55,
       "isBoss": false,
       "partySize": 3,
-      "trId": 278
+      "trId": 278,
+      "teamVariantNames": [
+        "Team Plasma Grunt12"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt3",
@@ -1054,7 +1181,10 @@
       "maxLevel": 55,
       "isBoss": false,
       "partySize": 3,
-      "trId": 81
+      "trId": 81,
+      "teamVariantNames": [
+        "Team Plasma Grunt3"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt44",
@@ -1064,7 +1194,10 @@
       "maxLevel": 55,
       "isBoss": false,
       "partySize": 3,
-      "trId": 610
+      "trId": 610,
+      "teamVariantNames": [
+        "Team Plasma Grunt44"
+      ]
     },
     {
       "displayName": "Leader Clay",
@@ -1075,7 +1208,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 24,
-      "sourceDisplayName": "Leader Clay"
+      "teamVariantNames": [
+        "Leader Clay"
+      ]
     },
     {
       "displayName": "Ace Trainer Elmer - Route 7",
@@ -1085,7 +1220,10 @@
       "maxLevel": 59,
       "isBoss": false,
       "partySize": 6,
-      "trId": 606
+      "trId": 606,
+      "teamVariantNames": [
+        "Ace Trainer Elmer - Route 7"
+      ]
     },
     {
       "displayName": "Ace Trainer Elmer2 - Route 7",
@@ -1095,7 +1233,10 @@
       "maxLevel": 59,
       "isBoss": false,
       "partySize": 6,
-      "trId": 607
+      "trId": 607,
+      "teamVariantNames": [
+        "Ace Trainer Elmer2 - Route 7"
+      ]
     },
     {
       "displayName": "Backpacker Ruth - Route 7",
@@ -1105,7 +1246,10 @@
       "maxLevel": 59,
       "isBoss": false,
       "partySize": 5,
-      "trId": 155
+      "trId": 155,
+      "teamVariantNames": [
+        "Backpacker Ruth - Route 7"
+      ]
     },
     {
       "displayName": "PkMn Ranger Mary - Route 7",
@@ -1115,7 +1259,10 @@
       "maxLevel": 59,
       "isBoss": false,
       "partySize": 5,
-      "trId": 187
+      "trId": 187,
+      "teamVariantNames": [
+        "PkMn Ranger Mary - Route 7"
+      ]
     },
     {
       "displayName": "PkMn Ranger Pedro - Route 7",
@@ -1125,7 +1272,10 @@
       "maxLevel": 59,
       "isBoss": false,
       "partySize": 5,
-      "trId": 183
+      "trId": 183,
+      "teamVariantNames": [
+        "PkMn Ranger Pedro - Route 7"
+      ]
     },
     {
       "displayName": "Psychic Doreen - Celestial Tower",
@@ -1135,7 +1285,10 @@
       "maxLevel": 60,
       "isBoss": false,
       "partySize": 4,
-      "trId": 120
+      "trId": 120,
+      "teamVariantNames": [
+        "Psychic Doreen - Celestial Tower"
+      ]
     },
     {
       "displayName": "Lass Kara - Celestial Tower",
@@ -1145,7 +1298,10 @@
       "maxLevel": 60,
       "isBoss": false,
       "partySize": 4,
-      "trId": 190
+      "trId": 190,
+      "teamVariantNames": [
+        "Lass Kara - Celestial Tower"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca6",
@@ -1155,7 +1311,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 5,
-      "trId": 493
+      "trId": 493,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca6"
+      ]
     },
     {
       "displayName": "Pokefan Georgia - Celestial Tower",
@@ -1165,7 +1324,10 @@
       "maxLevel": 60,
       "isBoss": false,
       "partySize": 4,
-      "trId": 139
+      "trId": 139,
+      "teamVariantNames": [
+        "Pokefan Georgia - Celestial Tower"
+      ]
     },
     {
       "displayName": "Pokefan Jude - Celestial Tower",
@@ -1175,7 +1337,10 @@
       "maxLevel": 60,
       "isBoss": false,
       "partySize": 4,
-      "trId": 138
+      "trId": 138,
+      "teamVariantNames": [
+        "Pokefan Jude - Celestial Tower"
+      ]
     },
     {
       "displayName": "Psychic Micki - Celestial Tower",
@@ -1185,7 +1350,10 @@
       "maxLevel": 61,
       "isBoss": false,
       "partySize": 4,
-      "trId": 118
+      "trId": 118,
+      "teamVariantNames": [
+        "Psychic Micki - Celestial Tower"
+      ]
     },
     {
       "displayName": "Ace Trainer Beckett - Celestial Tower",
@@ -1195,7 +1363,10 @@
       "maxLevel": 61,
       "isBoss": false,
       "partySize": 6,
-      "trId": 269
+      "trId": 269,
+      "teamVariantNames": [
+        "Ace Trainer Beckett - Celestial Tower"
+      ]
     },
     {
       "displayName": "Ace Trainer Jared - Chargestone Cave",
@@ -1205,7 +1376,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 5,
-      "trId": 105
+      "trId": 105,
+      "teamVariantNames": [
+        "Ace Trainer Jared - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Ace Trainer Kassandra - Celestial Tower",
@@ -1215,7 +1389,10 @@
       "maxLevel": 61,
       "isBoss": false,
       "partySize": 6,
-      "trId": 264
+      "trId": 264,
+      "teamVariantNames": [
+        "Ace Trainer Kassandra - Celestial Tower"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca5",
@@ -1225,7 +1402,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 5,
-      "trId": 492
+      "trId": 492,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca5"
+      ]
     },
     {
       "displayName": "Worker Brady - Mistralton City",
@@ -1235,7 +1415,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 4,
-      "trId": 127
+      "trId": 127,
+      "teamVariantNames": [
+        "Worker Brady - Mistralton City"
+      ]
     },
     {
       "displayName": "Worker Cliff - Mistralton City",
@@ -1245,7 +1428,10 @@
       "maxLevel": 61,
       "isBoss": false,
       "partySize": 4,
-      "trId": 125
+      "trId": 125,
+      "teamVariantNames": [
+        "Worker Cliff - Mistralton City"
+      ]
     },
     {
       "displayName": "Pilot Chase - Mistralton City",
@@ -1255,7 +1441,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 4,
-      "trId": 71
+      "trId": 71,
+      "teamVariantNames": [
+        "Pilot Chase - Mistralton City"
+      ]
     },
     {
       "displayName": "Pilot Ted - Mistralton City",
@@ -1265,7 +1454,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 4,
-      "trId": 70
+      "trId": 70,
+      "teamVariantNames": [
+        "Pilot Ted - Mistralton City"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca4",
@@ -1275,7 +1467,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 5,
-      "trId": 491
+      "trId": 491,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca4"
+      ]
     },
     {
       "displayName": "Scientist Naoko - Chargestone Cave",
@@ -1285,7 +1480,10 @@
       "maxLevel": 63,
       "isBoss": false,
       "partySize": 5,
-      "trId": 117
+      "trId": 117,
+      "teamVariantNames": [
+        "Scientist Naoko - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Scientist Ronald - Chargestone Cave",
@@ -1295,7 +1493,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 4,
-      "trId": 240
+      "trId": 240,
+      "teamVariantNames": [
+        "Scientist Ronald - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Worker Arnold - Mistralton City",
@@ -1305,7 +1506,10 @@
       "maxLevel": 62,
       "isBoss": false,
       "partySize": 4,
-      "trId": 128
+      "trId": 128,
+      "teamVariantNames": [
+        "Worker Arnold - Mistralton City"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt19 - Chargestone Cave",
@@ -1315,7 +1519,10 @@
       "maxLevel": 63,
       "isBoss": false,
       "partySize": 4,
-      "trId": 298
+      "trId": 298,
+      "teamVariantNames": [
+        "Team Plasma Grunt19 - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt20 - Chargestone Cave",
@@ -1325,7 +1532,10 @@
       "maxLevel": 63,
       "isBoss": false,
       "partySize": 4,
-      "trId": 299
+      "trId": 299,
+      "teamVariantNames": [
+        "Team Plasma Grunt20 - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt31 - Chargestone Cave",
@@ -1335,7 +1545,10 @@
       "maxLevel": 63,
       "isBoss": false,
       "partySize": 4,
-      "trId": 310
+      "trId": 310,
+      "teamVariantNames": [
+        "Team Plasma Grunt31 - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt32 - Chargestone Cave",
@@ -1345,7 +1558,10 @@
       "maxLevel": 64,
       "isBoss": false,
       "partySize": 4,
-      "trId": 311
+      "trId": 311,
+      "teamVariantNames": [
+        "Team Plasma Grunt32 - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt45 - Chargestone Cave",
@@ -1355,7 +1571,10 @@
       "maxLevel": 63,
       "isBoss": false,
       "partySize": 4,
-      "trId": 611
+      "trId": 611,
+      "teamVariantNames": [
+        "Team Plasma Grunt45 - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Team Plasma N2",
@@ -1365,7 +1584,10 @@
       "maxLevel": 65,
       "isBoss": false,
       "partySize": 6,
-      "trId": 218
+      "trId": 218,
+      "teamVariantNames": [
+        "Team Plasma N2"
+      ]
     },
     {
       "displayName": "Ace Trainer Corky - Chargestone Cave",
@@ -1375,7 +1597,10 @@
       "maxLevel": 64,
       "isBoss": false,
       "partySize": 4,
-      "trId": 104
+      "trId": 104,
+      "teamVariantNames": [
+        "Ace Trainer Corky - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Scientist Orville - Chargestone Cave",
@@ -1385,7 +1610,10 @@
       "maxLevel": 64,
       "isBoss": false,
       "partySize": 4,
-      "trId": 115
+      "trId": 115,
+      "teamVariantNames": [
+        "Scientist Orville - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt21 - Chargestone Cave",
@@ -1395,7 +1623,10 @@
       "maxLevel": 64,
       "isBoss": false,
       "partySize": 4,
-      "trId": 300
+      "trId": 300,
+      "teamVariantNames": [
+        "Team Plasma Grunt21 - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt22 - Chargestone Cave",
@@ -1405,7 +1636,10 @@
       "maxLevel": 64,
       "isBoss": false,
       "partySize": 4,
-      "trId": 301
+      "trId": 301,
+      "teamVariantNames": [
+        "Team Plasma Grunt22 - Chargestone Cave"
+      ]
     },
     {
       "displayName": "Hiker Terrell - Twist Mountain",
@@ -1415,7 +1649,10 @@
       "maxLevel": 65,
       "isBoss": false,
       "partySize": 5,
-      "trId": 243
+      "trId": 243,
+      "teamVariantNames": [
+        "Hiker Terrell - Twist Mountain"
+      ]
     },
     {
       "displayName": "Leader Skyla",
@@ -1426,7 +1663,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 25,
-      "sourceDisplayName": "Leader Skyla"
+      "teamVariantNames": [
+        "Leader Skyla"
+      ]
     },
     {
       "displayName": "Swimmer F Joyce - Route 17",
@@ -1436,7 +1675,10 @@
       "maxLevel": 67,
       "isBoss": false,
       "partySize": 4,
-      "trId": 390
+      "trId": 390,
+      "teamVariantNames": [
+        "Swimmer F Joyce - Route 17"
+      ]
     },
     {
       "displayName": "Backpacker Kumiko - Route 18",
@@ -1446,7 +1688,10 @@
       "maxLevel": 67,
       "isBoss": false,
       "partySize": 5,
-      "trId": 439
+      "trId": 439,
+      "teamVariantNames": [
+        "Backpacker Kumiko - Route 18"
+      ]
     },
     {
       "displayName": "Hiker Clarke - Mistralton Cave",
@@ -1456,7 +1701,10 @@
       "maxLevel": 67,
       "isBoss": false,
       "partySize": 5,
-      "trId": 256
+      "trId": 256,
+      "teamVariantNames": [
+        "Hiker Clarke - Mistralton Cave"
+      ]
     },
     {
       "displayName": "Hiker Hugh - Mistralton Cave",
@@ -1466,7 +1714,10 @@
       "maxLevel": 67,
       "isBoss": false,
       "partySize": 5,
-      "trId": 255
+      "trId": 255,
+      "teamVariantNames": [
+        "Hiker Hugh - Mistralton Cave"
+      ]
     },
     {
       "displayName": "Swimmer F Caroline - Route 17",
@@ -1476,7 +1727,10 @@
       "maxLevel": 67,
       "isBoss": false,
       "partySize": 4,
-      "trId": 447
+      "trId": 447,
+      "teamVariantNames": [
+        "Swimmer F Caroline - Route 17"
+      ]
     },
     {
       "displayName": "Battle Girl Sharon - Twist Mountain",
@@ -1486,7 +1740,10 @@
       "maxLevel": 68,
       "isBoss": false,
       "partySize": 5,
-      "trId": 159
+      "trId": 159,
+      "teamVariantNames": [
+        "Battle Girl Sharon - Twist Mountain"
+      ]
     },
     {
       "displayName": "Black Belt Teppei - Twist Mountain",
@@ -1496,7 +1753,10 @@
       "maxLevel": 69,
       "isBoss": false,
       "partySize": 5,
-      "trId": 110
+      "trId": 110,
+      "teamVariantNames": [
+        "Black Belt Teppei - Twist Mountain"
+      ]
     },
     {
       "displayName": "Hiker Darrell - Twist Mountain",
@@ -1506,7 +1766,10 @@
       "maxLevel": 69,
       "isBoss": false,
       "partySize": 5,
-      "trId": 242
+      "trId": 242,
+      "teamVariantNames": [
+        "Hiker Darrell - Twist Mountain"
+      ]
     },
     {
       "displayName": "Hiker Neil - Twist Mountain",
@@ -1516,7 +1779,10 @@
       "maxLevel": 69,
       "isBoss": false,
       "partySize": 5,
-      "trId": 195
+      "trId": 195,
+      "teamVariantNames": [
+        "Hiker Neil - Twist Mountain"
+      ]
     },
     {
       "displayName": "Parasol Lady Melita - Route 8",
@@ -1526,7 +1792,10 @@
       "maxLevel": 68,
       "isBoss": false,
       "partySize": 5,
-      "trId": 163
+      "trId": 163,
+      "teamVariantNames": [
+        "Parasol Lady Melita - Route 8"
+      ]
     },
     {
       "displayName": "PkMn Ranger Annie - Route 8",
@@ -1536,7 +1805,10 @@
       "maxLevel": 69,
       "isBoss": false,
       "partySize": 5,
-      "trId": 188
+      "trId": 188,
+      "teamVariantNames": [
+        "PkMn Ranger Annie - Route 8"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren16",
@@ -1546,7 +1818,10 @@
       "maxLevel": 70,
       "isBoss": false,
       "partySize": 6,
-      "trId": 539
+      "trId": 539,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren16"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren17",
@@ -1556,7 +1831,10 @@
       "maxLevel": 70,
       "isBoss": false,
       "partySize": 6,
-      "trId": 540
+      "trId": 540,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren17"
+      ]
     },
     {
       "displayName": "Worker Cairn - Twist Mountain",
@@ -1566,7 +1844,10 @@
       "maxLevel": 68,
       "isBoss": false,
       "partySize": 5,
-      "trId": 38
+      "trId": 38,
+      "teamVariantNames": [
+        "Worker Cairn - Twist Mountain"
+      ]
     },
     {
       "displayName": "Worker Heath - Twist Mountain",
@@ -1576,7 +1857,10 @@
       "maxLevel": 68,
       "isBoss": false,
       "partySize": 5,
-      "trId": 124
+      "trId": 124,
+      "teamVariantNames": [
+        "Worker Heath - Twist Mountain"
+      ]
     },
     {
       "displayName": "Ace Trainer Jordan - Twist Mountain",
@@ -1586,7 +1870,10 @@
       "maxLevel": 69,
       "isBoss": false,
       "partySize": 6,
-      "trId": 519
+      "trId": 519,
+      "teamVariantNames": [
+        "Ace Trainer Jordan - Twist Mountain"
+      ]
     },
     {
       "displayName": "Parasol Lady Lumi - Route 8",
@@ -1596,7 +1883,10 @@
       "maxLevel": 69,
       "isBoss": false,
       "partySize": 5,
-      "trId": 164
+      "trId": 164,
+      "teamVariantNames": [
+        "Parasol Lady Lumi - Route 8"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren18",
@@ -1606,7 +1896,10 @@
       "maxLevel": 70,
       "isBoss": false,
       "partySize": 6,
-      "trId": 541
+      "trId": 541,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren18"
+      ]
     },
     {
       "displayName": "Battle Girl Mikiko - Icirrus City",
@@ -1616,7 +1909,10 @@
       "maxLevel": 72,
       "isBoss": false,
       "partySize": 5,
-      "trId": 213
+      "trId": 213,
+      "teamVariantNames": [
+        "Battle Girl Mikiko - Icirrus City"
+      ]
     },
     {
       "displayName": "Battle Girl Miriam - Icirrus City",
@@ -1626,7 +1922,10 @@
       "maxLevel": 71,
       "isBoss": false,
       "partySize": 5,
-      "trId": 212
+      "trId": 212,
+      "teamVariantNames": [
+        "Battle Girl Miriam - Icirrus City"
+      ]
     },
     {
       "displayName": "Black Belt Grant - Icirrus City",
@@ -1636,7 +1935,10 @@
       "maxLevel": 71,
       "isBoss": false,
       "partySize": 5,
-      "trId": 215
+      "trId": 215,
+      "teamVariantNames": [
+        "Black Belt Grant - Icirrus City"
+      ]
     },
     {
       "displayName": "Black Belt Kendrew - Icirrus City",
@@ -1646,7 +1948,10 @@
       "maxLevel": 71,
       "isBoss": false,
       "partySize": 5,
-      "trId": 216
+      "trId": 216,
+      "teamVariantNames": [
+        "Black Belt Kendrew - Icirrus City"
+      ]
     },
     {
       "displayName": "Battle Girl Chandra - Icirrus City",
@@ -1656,7 +1961,10 @@
       "maxLevel": 72,
       "isBoss": false,
       "partySize": 5,
-      "trId": 214
+      "trId": 214,
+      "teamVariantNames": [
+        "Battle Girl Chandra - Icirrus City"
+      ]
     },
     {
       "displayName": "Black Belt Thomas - Icirrus City",
@@ -1666,7 +1974,10 @@
       "maxLevel": 72,
       "isBoss": false,
       "partySize": 5,
-      "trId": 217
+      "trId": 217,
+      "teamVariantNames": [
+        "Black Belt Thomas - Icirrus City"
+      ]
     },
     {
       "displayName": "Leader Brycen",
@@ -1677,7 +1988,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 131,
-      "sourceDisplayName": "Leader Brycen"
+      "teamVariantNames": [
+        "Leader Brycen"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt24 - Dragonspiral Tower",
@@ -1687,7 +2000,10 @@
       "maxLevel": 77,
       "isBoss": false,
       "partySize": 5,
-      "trId": 303
+      "trId": 303,
+      "teamVariantNames": [
+        "Team Plasma Grunt24 - Dragonspiral Tower"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt25 - Dragonspiral Tower",
@@ -1697,7 +2013,10 @@
       "maxLevel": 79,
       "isBoss": false,
       "partySize": 5,
-      "trId": 304
+      "trId": 304,
+      "teamVariantNames": [
+        "Team Plasma Grunt25 - Dragonspiral Tower"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt26",
@@ -1707,7 +2026,10 @@
       "maxLevel": 77,
       "isBoss": false,
       "partySize": 3,
-      "trId": 305
+      "trId": 305,
+      "teamVariantNames": [
+        "Team Plasma Grunt26"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt33 - Dragonspiral Tower",
@@ -1717,7 +2039,10 @@
       "maxLevel": 79,
       "isBoss": false,
       "partySize": 5,
-      "trId": 312
+      "trId": 312,
+      "teamVariantNames": [
+        "Team Plasma Grunt33 - Dragonspiral Tower"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt46 - Dragonspiral Tower",
@@ -1727,7 +2052,10 @@
       "maxLevel": 78,
       "isBoss": false,
       "partySize": 5,
-      "trId": 612
+      "trId": 612,
+      "teamVariantNames": [
+        "Team Plasma Grunt46 - Dragonspiral Tower"
+      ]
     },
     {
       "displayName": "Hooligans Jim & Cas - Route 9",
@@ -1737,7 +2065,10 @@
       "maxLevel": 78,
       "isBoss": false,
       "partySize": 6,
-      "trId": 157
+      "trId": 157,
+      "teamVariantNames": [
+        "Hooligans Jim & Cas - Route 9"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca9",
@@ -1747,7 +2078,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 6,
-      "trId": 496
+      "trId": 496,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca9"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
@@ -1757,7 +2091,10 @@
       "maxLevel": 79,
       "isBoss": false,
       "partySize": 5,
-      "trId": 302
+      "trId": 302,
+      "teamVariantNames": [
+        "Team Plasma Grunt23 - Dragonspiral Tower"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt27",
@@ -1767,7 +2104,10 @@
       "maxLevel": 78,
       "isBoss": false,
       "partySize": 3,
-      "trId": 306
+      "trId": 306,
+      "teamVariantNames": [
+        "Team Plasma Grunt27"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt34",
@@ -1777,7 +2117,10 @@
       "maxLevel": 78,
       "isBoss": false,
       "partySize": 3,
-      "trId": 313
+      "trId": 313,
+      "teamVariantNames": [
+        "Team Plasma Grunt34"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca8",
@@ -1787,7 +2130,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 6,
-      "trId": 495
+      "trId": 495,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca8"
+      ]
     },
     {
       "displayName": "Roughneck Reese - Route 9",
@@ -1797,7 +2143,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 4,
-      "trId": 135
+      "trId": 135,
+      "teamVariantNames": [
+        "Roughneck Reese - Route 9"
+      ]
     },
     {
       "displayName": "PkMn Trainer Bianca7",
@@ -1807,7 +2156,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 6,
-      "trId": 494
+      "trId": 494,
+      "teamVariantNames": [
+        "PkMn Trainer Bianca7"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt28",
@@ -1817,7 +2169,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 3,
-      "trId": 307
+      "trId": 307,
+      "teamVariantNames": [
+        "Team Plasma Grunt28"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt4 - Relic Castle",
@@ -1827,7 +2182,10 @@
       "maxLevel": 80,
       "isBoss": false,
       "partySize": 5,
-      "trId": 221
+      "trId": 221,
+      "teamVariantNames": [
+        "Team Plasma Grunt4 - Relic Castle"
+      ]
     },
     {
       "displayName": "Battle Girl Amy - Route 10",
@@ -1837,7 +2195,10 @@
       "maxLevel": 81,
       "isBoss": false,
       "partySize": 3,
-      "trId": 158
+      "trId": 158,
+      "teamVariantNames": [
+        "Battle Girl Amy - Route 10"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt8 - Relic Castle",
@@ -1847,7 +2208,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 5,
-      "trId": 225
+      "trId": 225,
+      "teamVariantNames": [
+        "Team Plasma Grunt8 - Relic Castle"
+      ]
     },
     {
       "displayName": "Veteran Karla - Route 10",
@@ -1857,7 +2221,10 @@
       "maxLevel": 81,
       "isBoss": false,
       "partySize": 4,
-      "trId": 179
+      "trId": 179,
+      "teamVariantNames": [
+        "Veteran Karla - Route 10"
+      ]
     },
     {
       "displayName": "Ace Trainer Cheyenne - Route 10",
@@ -1867,7 +2234,10 @@
       "maxLevel": 83,
       "isBoss": false,
       "partySize": 6,
-      "trId": 99
+      "trId": 99,
+      "teamVariantNames": [
+        "Ace Trainer Cheyenne - Route 10"
+      ]
     },
     {
       "displayName": "Ace Trainer Clara - Opelucid City",
@@ -1877,7 +2247,10 @@
       "maxLevel": 83,
       "isBoss": false,
       "partySize": 4,
-      "trId": 266
+      "trId": 266,
+      "teamVariantNames": [
+        "Ace Trainer Clara - Opelucid City"
+      ]
     },
     {
       "displayName": "Ace Trainer Johan - Route 10",
@@ -1887,7 +2260,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 4,
-      "trId": 103
+      "trId": 103,
+      "teamVariantNames": [
+        "Ace Trainer Johan - Route 10"
+      ]
     },
     {
       "displayName": "Ace Trainer Jose - Opelucid City",
@@ -1897,7 +2273,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 4,
-      "trId": 271
+      "trId": 271,
+      "teamVariantNames": [
+        "Ace Trainer Jose - Opelucid City"
+      ]
     },
     {
       "displayName": "Ace Trainer Olwen - Opelucid City",
@@ -1907,7 +2286,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 4,
-      "trId": 265
+      "trId": 265,
+      "teamVariantNames": [
+        "Ace Trainer Olwen - Opelucid City"
+      ]
     },
     {
       "displayName": "Ace Trainer Webster - Opelucid City",
@@ -1917,7 +2299,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 4,
-      "trId": 270
+      "trId": 270,
+      "teamVariantNames": [
+        "Ace Trainer Webster - Opelucid City"
+      ]
     },
     {
       "displayName": "Hiker Bret - Route 10",
@@ -1927,7 +2312,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 5,
-      "trId": 193
+      "trId": 193,
+      "teamVariantNames": [
+        "Hiker Bret - Route 10"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt5 - Relic Castle",
@@ -1937,7 +2325,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 5,
-      "trId": 222
+      "trId": 222,
+      "teamVariantNames": [
+        "Team Plasma Grunt5 - Relic Castle"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt6 - Relic Castle",
@@ -1947,7 +2338,10 @@
       "maxLevel": 82,
       "isBoss": false,
       "partySize": 5,
-      "trId": 223
+      "trId": 223,
+      "teamVariantNames": [
+        "Team Plasma Grunt6 - Relic Castle"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt9 - Relic Castle",
@@ -1957,7 +2351,10 @@
       "maxLevel": 83,
       "isBoss": false,
       "partySize": 5,
-      "trId": 226
+      "trId": 226,
+      "teamVariantNames": [
+        "Team Plasma Grunt9 - Relic Castle"
+      ]
     },
     {
       "displayName": "Veteran Chester - Route 10",
@@ -1967,7 +2364,10 @@
       "maxLevel": 83,
       "isBoss": false,
       "partySize": 6,
-      "trId": 178
+      "trId": 178,
+      "teamVariantNames": [
+        "Veteran Chester - Route 10"
+      ]
     },
     {
       "displayName": "Ace Trainer Dara - Opelucid City",
@@ -1977,7 +2377,10 @@
       "maxLevel": 84,
       "isBoss": false,
       "partySize": 4,
-      "trId": 267
+      "trId": 267,
+      "teamVariantNames": [
+        "Ace Trainer Dara - Opelucid City"
+      ]
     },
     {
       "displayName": "Ace Trainer Tom - Opelucid City",
@@ -1987,7 +2390,10 @@
       "maxLevel": 83,
       "isBoss": false,
       "partySize": 4,
-      "trId": 272
+      "trId": 272,
+      "teamVariantNames": [
+        "Ace Trainer Tom - Opelucid City"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt10 - Relic Castle",
@@ -1997,7 +2403,10 @@
       "maxLevel": 85,
       "isBoss": false,
       "partySize": 5,
-      "trId": 227
+      "trId": 227,
+      "teamVariantNames": [
+        "Team Plasma Grunt10 - Relic Castle"
+      ]
     },
     {
       "displayName": "Team Plasma Grunt7 - Relic Castle",
@@ -2007,7 +2416,10 @@
       "maxLevel": 85,
       "isBoss": false,
       "partySize": 5,
-      "trId": 224
+      "trId": 224,
+      "teamVariantNames": [
+        "Team Plasma Grunt7 - Relic Castle"
+      ]
     },
     {
       "displayName": "Veteran Hugo",
@@ -2017,7 +2429,10 @@
       "maxLevel": 83,
       "isBoss": false,
       "partySize": 4,
-      "trId": 274
+      "trId": 274,
+      "teamVariantNames": [
+        "Veteran Hugo"
+      ]
     },
     {
       "displayName": "Veteran Kim - Opelucid City",
@@ -2027,7 +2442,10 @@
       "maxLevel": 84,
       "isBoss": false,
       "partySize": 4,
-      "trId": 275
+      "trId": 275,
+      "teamVariantNames": [
+        "Veteran Kim - Opelucid City"
+      ]
     },
     {
       "displayName": "Leader Iris",
@@ -2038,7 +2456,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 132,
-      "sourceDisplayName": "Leader Iris"
+      "teamVariantNames": [
+        "Leader Iris"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren19",
@@ -2048,7 +2468,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 588
+      "trId": 588,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren19"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren20",
@@ -2058,7 +2481,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 589
+      "trId": 589,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren20"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cheren21",
@@ -2068,7 +2494,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 590
+      "trId": 590,
+      "teamVariantNames": [
+        "PkMn Trainer Cheren21"
+      ]
     },
     {
       "displayName": "Ace Trainer Cathy - Victory Road",
@@ -2078,7 +2507,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 245
+      "trId": 245,
+      "teamVariantNames": [
+        "Ace Trainer Cathy - Victory Road"
+      ]
     },
     {
       "displayName": "Ace Trainer David - Victory Road",
@@ -2088,7 +2520,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 247
+      "trId": 247,
+      "teamVariantNames": [
+        "Ace Trainer David - Victory Road"
+      ]
     },
     {
       "displayName": "Ace Trainer Dwayne - Victory Road",
@@ -2098,7 +2533,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 246
+      "trId": 246,
+      "teamVariantNames": [
+        "Ace Trainer Dwayne - Victory Road"
+      ]
     },
     {
       "displayName": "Ace Trainer Shanta - Victory Road",
@@ -2108,7 +2546,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 244
+      "trId": 244,
+      "teamVariantNames": [
+        "Ace Trainer Shanta - Victory Road"
+      ]
     },
     {
       "displayName": "Black Belt Tyrone - Victory Road",
@@ -2118,7 +2559,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 248
+      "trId": 248,
+      "teamVariantNames": [
+        "Black Belt Tyrone - Victory Road"
+      ]
     },
     {
       "displayName": "Champion Alder",
@@ -2129,7 +2573,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 407,
-      "sourceDisplayName": "Champion Alder"
+      "teamVariantNames": [
+        "Champion Alder"
+      ]
     },
     {
       "displayName": "Elite Four Caitlin",
@@ -2140,7 +2586,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 231,
-      "sourceDisplayName": "Elite Four Caitlin"
+      "teamVariantNames": [
+        "Elite Four Caitlin"
+      ]
     },
     {
       "displayName": "Elite Four Grimsley",
@@ -2151,7 +2599,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 230,
-      "sourceDisplayName": "Elite Four Grimsley"
+      "teamVariantNames": [
+        "Elite Four Grimsley"
+      ]
     },
     {
       "displayName": "Elite Four Marshal",
@@ -2162,7 +2612,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 229,
-      "sourceDisplayName": "Elite Four Marshal"
+      "teamVariantNames": [
+        "Elite Four Marshal"
+      ]
     },
     {
       "displayName": "Elite Four Shauntal",
@@ -2173,7 +2625,9 @@
       "isBoss": true,
       "partySize": 6,
       "trId": 228,
-      "sourceDisplayName": "Elite Four Shauntal"
+      "teamVariantNames": [
+        "Elite Four Shauntal"
+      ]
     },
     {
       "displayName": "PkMn Trainer Cynthia",
@@ -2183,7 +2637,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 567
+      "trId": 567,
+      "teamVariantNames": [
+        "PkMn Trainer Cynthia"
+      ]
     },
     {
       "displayName": "Team Plasma Ghetsis",
@@ -2193,7 +2650,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 232
+      "trId": 232,
+      "teamVariantNames": [
+        "Team Plasma Ghetsis"
+      ]
     },
     {
       "displayName": "Team Plasma N3",
@@ -2203,7 +2663,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 586
+      "trId": 586,
+      "teamVariantNames": [
+        "Team Plasma N3"
+      ]
     },
     {
       "displayName": "Veteran Martell - Victory Road",
@@ -2213,7 +2676,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 2,
-      "trId": 250
+      "trId": 250,
+      "teamVariantNames": [
+        "Veteran Martell - Victory Road"
+      ]
     },
     {
       "displayName": "Veteran Tiffany - Victory Road",
@@ -2223,7 +2689,10 @@
       "maxLevel": 100,
       "isBoss": false,
       "partySize": 6,
-      "trId": 251
+      "trId": 251,
+      "teamVariantNames": [
+        "Veteran Tiffany - Victory Road"
+      ]
     },
     {
       "displayName": "Black Belt Grant - Icirrus City",
@@ -2233,7 +2702,8 @@
       "maxLevel": null,
       "isBoss": false,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "teamVariantNames": []
     },
     {
       "displayName": "Team Plasma N3",
@@ -2243,7 +2713,8 @@
       "maxLevel": null,
       "isBoss": false,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "teamVariantNames": []
     }
   ]
 }

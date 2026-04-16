@@ -1,4 +1,68 @@
 DASHBOARD_GAME_CONFIG = {
+  "Pokemon Null 1.1": {
+    trainerOrderKey: "null",
+    starterGiftGroups: {
+      "Starters": ["Chespin", "Fennekin", "Froakie"],
+      "Disaster": ["Tornadus", "Thundurus", "Landorus", "Enamorus"],
+    },
+    importantTrainers: [
+      { usageKey: "Leader Roxanne", label: "Leader Roxanne" },
+      { usageKey: "Leader Brawly", label: "Leader Brawly" },
+      { usageKey: "Leader Wattson", label: "Leader Wattson" },
+      { usageKey: "Leader Flannery", label: "Leader Flannery" },
+      { usageKey: "Leader Norman", label: "Leader Norman" },
+      { usageKey: "Leader Winona", label: "Leader Winona" },
+      { usageKey: "Leader Tate", label: "Leader Tate" },
+      { usageKey: "Leader Liza", label: "Leader Liza" },
+      { usageKey: "Elite Four Sidney", label: "Elite Four Sidney" },
+      { usageKey: "Elite Four Phoebe", label: "Elite Four Phoebe" },
+      { usageKey: "Elite Four Glacia", label: "Elite Four Glacia" },
+      { usageKey: "Elite Four Rival", label: "Elite Four Rival" },
+      { usageKey: "Champion Wallace", label: "Champion Wallace" },
+    ],
+    importantTrainerVariants: [
+      {
+        label: "Leader Winona",
+        usageKey: "Leader Winona",
+        variants: [
+          { displayName: "Leader Winona 1 |Fortree Gym|" },
+          { displayName: "Leader Winona 2 |Fortree Gym|" },
+        ],
+      },
+      {
+        label: "Elite Four Sidney",
+        usageKey: "Elite Four Sidney",
+        variants: [
+          { displayName: "Elite Four Sidney Singles |Pokémon League|" },
+          { displayName: "Elite Four Sidney Doubles |Pokémon League|" },
+        ],
+      },
+      {
+        label: "Elite Four Phoebe",
+        usageKey: "Elite Four Phoebe",
+        variants: [
+          { displayName: "Elite Four Phoebe Singles |Pokémon League|" },
+          { displayName: "Elite Four Phoebe Doubles |Pokémon League|" },
+        ],
+      },
+      {
+        label: "Elite Four Glacia",
+        usageKey: "Elite Four Glacia",
+        variants: [
+          { displayName: "Ex Elite Four Glacia 1 |Icicle Cave|" },
+          { displayName: "Ex Elite Four Glacia 2 |Route 123|" },
+        ],
+      },
+      {
+        label: "Elite Four Rival",
+        usageKey: "Elite Four Rival",
+        variants: [
+          { displayName: "Elite Four Rival Singles |Pokémon League|" },
+          { displayName: "Elite Four Rival Doubles |Pokémon League|" },
+        ],
+      },
+    ],
+  },
   "Renegade Platinum": {
     importantTrainers: [
       { usageKey: "246", label: "Leader Roark" },
@@ -29,10 +93,62 @@ DASHBOARD_GAME_CONFIG = {
         "Cranidos",
         "Shieldon",
         "Aerodactyl",
-        "Anorith"
-      ]
+        "Anorith",
+      ],
     },
     exactMatchGroups: ["Eevolutions"],
+    importantTrainerVariants: [
+      {
+        label: "Elite Four Aaron",
+        usageKey: "261",
+        variants: [
+          { displayName: "Elite Four Aaron" },
+          { displayName: "Elite Four Aaron2" },
+          { displayName: "Elite Four Aaron3" },
+          { displayName: "Elite Four Aaron4" },
+        ],
+      },
+      {
+        label: "Elite Four Bertha",
+        usageKey: "262",
+        variants: [
+          { displayName: "Elite Four Bertha" },
+          { displayName: "Elite Four Bertha2" },
+          { displayName: "Elite Four Bertha3" },
+          { displayName: "Elite Four Bertha4" },
+        ],
+      },
+      {
+        label: "Elite Four Flint",
+        usageKey: "263",
+        variants: [
+          { displayName: "Elite Four Flint" },
+          { displayName: "Elite Four Flint2" },
+          { displayName: "Elite Four Flint3" },
+          { displayName: "Elite Four Flint4" },
+        ],
+      },
+      {
+        label: "Elite Four Lucian",
+        usageKey: "264",
+        variants: [
+          { displayName: "Elite Four Lucian" },
+          { displayName: "Elite Four Lucian2" },
+          { displayName: "Elite Four Lucian3" },
+          { displayName: "Elite Four Lucian4" },
+        ],
+      },
+      {
+        label: "Champion Cynthia",
+        usageKey: "267",
+        variants: [
+          { displayName: "Champion Cynthia" },
+          { displayName: "Champion Cynthia2" },
+          { displayName: "Champion Cynthia3" },
+          { displayName: "Champion Cynthia4" },
+        ],
+      },
+    ],
   },
   "Platinum Kaizo": {
     starterGiftGroups: {
@@ -67,7 +183,7 @@ DASHBOARD_GAME_CONFIG = {
         "Blastoise",
         "Hitmontop",
         "Tauros",
-        "Dragonite"
+        "Dragonite",
       ],
       "Canalave Library": ["Solrock", "Lunatone"],
       "Fossil": [
@@ -77,15 +193,15 @@ DASHBOARD_GAME_CONFIG = {
         "Cranidos",
         "Shieldon",
         "Aerodactyl",
-        "Anorith"
+        "Anorith",
       ],
       "Contest Hall": [
         "Charizard",
         "Milotic",
         "Kangaskhan",
         "Alakazam",
-        "Steelix"
-      ]
+        "Steelix",
+      ],
     },
     exactMatchGroups: ["Eevolutions", "Contest Hall", "Veilstone"],
     importantTrainers: [
@@ -154,7 +270,7 @@ DASHBOARD_GAME_CONFIG = {
         "Landorus",
         "Keldeo",
         "Calyrex",
-        "Enamorus"
+        "Enamorus",
       ],
       "Route 109 Seashore House": [
         "Tyrogue",
@@ -173,7 +289,7 @@ DASHBOARD_GAME_CONFIG = {
         "Togepi",
         "Type: Null",
         "Charcadet",
-        "Aerodactyl"
+        "Aerodactyl",
       ],
       "Shoal Cave Low Tide Lower Room": [
         "Great Tusk",
@@ -204,7 +320,7 @@ DASHBOARD_GAME_CONFIG = {
         "Stakataka",
         "Poipole",
         "Pheromosa",
-        "Celesteela"
+        "Celesteela",
       ],
       "Victory Road 1F": [
         "Great Tusk",
@@ -235,8 +351,34 @@ DASHBOARD_GAME_CONFIG = {
         "Stakataka",
         "Poipole",
         "Pheromosa",
-        "Celesteela"
-      ]
+        "Celesteela",
+      ],
     },
+    importantTrainerVariants: [
+      {
+        label: "Elite Four Sidney",
+        usageKey: "261",
+        variants: [
+          { displayName: "Elite Four Sidney1" },
+          { displayName: "Elite Four Sidney2" },
+        ],
+      },
+      {
+        label: "Elite Four Phoebe",
+        usageKey: "262",
+        variants: [
+          { displayName: "Elite Four Phoebe1" },
+          { displayName: "Elite Four Phoebe2" },
+        ],
+      },
+      {
+        label: "Elite Four Glacia",
+        usageKey: "263",
+        variants: [
+          { displayName: "Elite Four Glacia1" },
+          { displayName: "Elite Four Glacia2" },
+        ],
+      },
+    ],
   },
 };
