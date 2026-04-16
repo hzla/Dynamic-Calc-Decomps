@@ -123544,7 +123544,7 @@ backup_data = {
       ]
     }
   },
-  "formatted_sets": {
+ "formatted_sets": {
     "Mienshao": {
       "Lvl 50 Smasher Elena ": {
         "level": 50,
@@ -125445,8 +125445,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow3 ": {
-        "level": 58,
+      "Lvl 56 Team Plasma Shadow3 ": {
+        "level": 56,
         "ai": 15,
         "noCh": false,
         "tr_id": 113,
@@ -125461,14 +125461,14 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Starf Berry",
-        "nature": "Relaxed",
+        "nature": "Calm",
         "moves": [
-          "Acid Spray",
-          "Flamethrower",
           "Spit Up",
-          "Swallow"
+          "Swallow",
+          "Baneful Bunker",
+          "Seed Bomb"
         ],
-        "sub_index": 1,
+        "sub_index": 2,
         "ability": "Gourmand",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
@@ -127121,11 +127121,11 @@ backup_data = {
         "nature": "Calm",
         "moves": [
           "Dark Void",
-          "Seismic Toss",
-          "Detect",
-          "Foul Play"
+          "Parting Shot",
+          "Imprison",
+          "Seething Cold"
         ],
-        "sub_index": 0,
+        "sub_index": 3,
         "ability": "Bad Dreams",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
@@ -131858,8 +131858,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Shadow7 ": {
-        "level": 50,
+      "Lvl 52 Team Plasma Shadow7 ": {
+        "level": 52,
         "ai": 79,
         "noCh": false,
         "tr_id": 236,
@@ -131873,11 +131873,11 @@ backup_data = {
         },
         "battle_type": "Triples",
         "reward_item": "None",
-        "item": "Normal Gem",
-        "nature": "Gentle",
+        "item": "Focus Sash",
+        "nature": "Bold",
         "moves": [
-          "Thunderbolt",
-          "Double-Edge",
+          "Discharge",
+          "Counter",
           "Flash Cannon",
           "Magnet Rise"
         ],
@@ -131984,8 +131984,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow4 ": {
-        "level": 58,
+      "Lvl 57 Team Plasma Shadow4 ": {
+        "level": 57,
         "ai": 15,
         "noCh": false,
         "tr_id": 114,
@@ -132000,14 +132000,14 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Choice Scarf",
-        "nature": "Docile",
+        "nature": "Naive",
         "moves": [
           "Relic Song",
-          "-----",
-          "-----",
-          "-----"
+          "",
+          "",
+          ""
         ],
-        "sub_index": 1,
+        "sub_index": 2,
         "ability": "Pixilate",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
@@ -135492,8 +135492,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Shadow7 ": {
-        "level": 50,
+      "Lvl 52 Team Plasma Shadow7 ": {
+        "level": 52,
         "ai": 79,
         "noCh": false,
         "tr_id": 236,
@@ -135508,7 +135508,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Jaboca Berry",
-        "nature": "Docile",
+        "nature": "Modest",
         "moves": [
           "Fake Out",
           "Dark Pulse",
@@ -137773,7 +137773,7 @@ backup_data = {
           "Heat Wave",
           "U-turn"
         ],
-        "sub_index": 3,
+        "sub_index": 4,
         "ability": "Stakeout",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
@@ -141074,6 +141074,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 57 Team Plasma Shadow4 ": {
+        "level": 57,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 114,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Hardy",
+        "moves": [
+          "Signal Beam",
+          "Whirlwind",
+          "Sleep Powder",
+          "Endure"
+        ],
+        "sub_index": 1,
+        "ability": "Effect Spore",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 61 Lass Henrietta - Route 2": {
         "level": 61,
         "ai": 1,
@@ -141940,7 +141971,7 @@ backup_data = {
           "Dragon Tail",
           "Stealth Rock",
           "Glare",
-          "Barb Barrage"
+          "Explosion"
         ],
         "sub_index": 0,
         "ability": "Solid Rock",
@@ -143157,11 +143188,11 @@ backup_data = {
         "nature": "Careful",
         "moves": [
           "Circle Throw",
-          "Pursuit",
-          "-----",
-          "-----"
+          "Thrash",
+          "Rolling Kick",
+          ""
         ],
-        "sub_index": 2,
+        "sub_index": 3,
         "ability": "Patient",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
@@ -144815,12 +144846,12 @@ backup_data = {
         "item": "King’s Rock",
         "nature": "Timid",
         "moves": [
-          "Fury Swipes",
-          "Quick Attack",
+          "Icicle Spear",
+          "Razor Winds",
           "Attract",
-          "Icicle Spear"
+          "Quick Attack"
         ],
-        "sub_index": 3,
+        "sub_index": 4,
         "ability": "Skill Link",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
@@ -148018,8 +148049,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Shadow7 ": {
-        "level": 50,
+      "Lvl 52 Team Plasma Shadow7 ": {
+        "level": 52,
         "ai": 79,
         "noCh": false,
         "tr_id": 236,
@@ -148034,7 +148065,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Rowap Berry",
-        "nature": "Sassy",
+        "nature": "Docile",
         "moves": [
           "Spin Out",
           "Steamroller",
@@ -148410,11 +148441,11 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Coba Berry",
-        "nature": "Modest",
+        "nature": "Mild",
         "moves": [
           "Draco Meteor",
-          "Leech Seed",
-          "Substitute",
+          "Ingrain",
+          "Slam",
           "Detect"
         ],
         "sub_index": 1,
@@ -148929,8 +148960,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow3 ": {
-        "level": 58,
+      "Lvl 56 Team Plasma Shadow3 ": {
+        "level": 56,
         "ai": 15,
         "noCh": false,
         "tr_id": 113,
@@ -148945,12 +148976,12 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Clear Amulet",
-        "nature": "Bashful",
+        "nature": "Docile",
         "moves": [
           "Fake Out",
           "Teeter Dance",
           "Dizzy Punch",
-          "Psybeam"
+          "Stored Power"
         ],
         "sub_index": 0,
         "ability": "Moody",
@@ -150651,6 +150682,287 @@ backup_data = {
         "sub_index": 4,
         "ability": "Serene Grace",
         "sprite": "trainer_sprites/pokefan.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Seviper": {
+      "Lvl 57 Team Plasma Shadow2 ": {
+        "level": 57,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 69,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Choice Band",
+        "nature": "Rash",
+        "moves": [
+          "Wrap",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 3,
+        "ability": "Corrosion",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 62 Boss Trainer Danelle ": {
+        "level": 62,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 190,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Black Sludge",
+        "nature": "Hardy",
+        "moves": [
+          "Poison Fang",
+          "Venoshock",
+          "Dragon Tail",
+          "Coil"
+        ],
+        "sub_index": 1,
+        "ability": "Infiltrator",
+        "sprite": "trainer_sprites/bosstrainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 28 Team Plasma Grunt1 ": {
+        "level": 28,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 342,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Shuca Berry",
+        "nature": "Adamant",
+        "moves": [
+          "Venoshock",
+          "Night Slash",
+          "Mega Drain",
+          "Flame Burst"
+        ],
+        "sub_index": 2,
+        "ability": "Exploit",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 47 Team Plasma Grunt9 ": {
+        "level": 47,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 376,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Air Balloon",
+        "nature": "Timid",
+        "moves": [
+          "Poison Fang",
+          "Ice Fang",
+          "Fire Fang",
+          "Thunder Fang"
+        ],
+        "sub_index": 0,
+        "ability": "Strong Jaw",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 46 Team Plasma Grunt19 ": {
+        "level": 46,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 434,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Quirky",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Infiltrator",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 46 Team Plasma Grunt34 - Plasma Frigate": {
+        "level": 46,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 449,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Calm",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Infiltrator",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 56 Battle Girl Chan - Reversal Mountain": {
+        "level": 56,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 524,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Quirky",
+        "moves": [
+          "Poison Fang",
+          "Crunch",
+          "Ice Fang",
+          "Fire Fang"
+        ],
+        "sub_index": 0,
+        "ability": "Strong Jaw",
+        "sprite": "trainer_sprites/battlegirl.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 Team Plasma Grunt42 ": {
+        "level": 44,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 586,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Adamant",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Infiltrator",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 46 Team Plasma Grunt51 ": {
+        "level": 46,
+        "ai": 129,
+        "noCh": false,
+        "tr_id": 799,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bold",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Infiltrator",
+        "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -152548,11 +152860,11 @@ backup_data = {
         "moves": [
           "Power Trip",
           "Double Team",
-          "-----",
-          "-----"
+          "Iron Head",
+          "Obstruct"
         ],
         "sub_index": 2,
-        "ability": "Defiant",
+        "ability": "Speed Boost",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -162038,9 +162350,73 @@ backup_data = {
         }
       }
     },
+    "Bibarel": {
+      "Lvl 56 Team Plasma Shadow3 ": {
+        "level": 56,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 113,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Bright Powder",
+        "nature": "Docile",
+        "moves": [
+          "Chip Away",
+          "Torment",
+          "Slack Off",
+          "Acupressure"
+        ],
+        "sub_index": 1,
+        "ability": "Simple",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 26 Worker Cliff - Twist Mountain": {
+        "level": 26,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 492,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Hasty",
+        "moves": [
+          "Barrage",
+          "Headbutt",
+          "Aqua Jet",
+          "Amnesia"
+        ],
+        "sub_index": 0,
+        "ability": "Huge Power",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Amoonguss": {
-      "Lvl 58 Team Plasma Shadow4 ": {
-        "level": 58,
+      "Lvl 57 Team Plasma Shadow4 ": {
+        "level": 57,
         "ai": 15,
         "noCh": false,
         "tr_id": 114,
@@ -162055,12 +162431,12 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Black Sludge",
-        "nature": "Calm",
+        "nature": "Adamant",
         "moves": [
           "Spore",
-          "Wake-Up Slap",
-          "Seismic Toss",
-          "Foul Play"
+          "Whirlwind",
+          "Knock Off",
+          "Gunk Shot"
         ],
         "sub_index": 0,
         "ability": "Prankster",
@@ -167130,6 +167506,37 @@ backup_data = {
         "sub_index": 1,
         "ability": "Exploit",
         "sprite": "trainer_sprites/grimsley.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 58 Team Plasma Shadow6 ": {
+        "level": 58,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 235,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Super Potion",
+        "item": "Focus Band",
+        "nature": "Modest",
+        "moves": [
+          "Whirlwind",
+          "Pursuit",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 2,
+        "ability": "Pickpocket",
+        "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -179005,256 +179412,6 @@ backup_data = {
         }
       }
     },
-    "Seviper": {
-      "Lvl 62 Boss Trainer Danelle ": {
-        "level": 62,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 190,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Black Sludge",
-        "nature": "Hardy",
-        "moves": [
-          "Poison Fang",
-          "Venoshock",
-          "Dragon Tail",
-          "Coil"
-        ],
-        "sub_index": 1,
-        "ability": "Infiltrator",
-        "sprite": "trainer_sprites/bosstrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 28 Team Plasma Grunt1 ": {
-        "level": 28,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 342,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Shuca Berry",
-        "nature": "Adamant",
-        "moves": [
-          "Venoshock",
-          "Night Slash",
-          "Mega Drain",
-          "Flame Burst"
-        ],
-        "sub_index": 2,
-        "ability": "Exploit",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma Grunt9 ": {
-        "level": 47,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 376,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Air Balloon",
-        "nature": "Timid",
-        "moves": [
-          "Poison Fang",
-          "Ice Fang",
-          "Fire Fang",
-          "Thunder Fang"
-        ],
-        "sub_index": 0,
-        "ability": "Strong Jaw",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 46 Team Plasma Grunt19 ": {
-        "level": 46,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 434,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Quirky",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Infiltrator",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 46 Team Plasma Grunt34 - Plasma Frigate": {
-        "level": 46,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 449,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Calm",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Infiltrator",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 56 Battle Girl Chan - Reversal Mountain": {
-        "level": 56,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 524,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Quirky",
-        "moves": [
-          "Poison Fang",
-          "Crunch",
-          "Ice Fang",
-          "Fire Fang"
-        ],
-        "sub_index": 0,
-        "ability": "Strong Jaw",
-        "sprite": "trainer_sprites/battlegirl.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 Team Plasma Grunt42 ": {
-        "level": 44,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 586,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Adamant",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Infiltrator",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 46 Team Plasma Grunt51 ": {
-        "level": 46,
-        "ai": 129,
-        "noCh": false,
-        "tr_id": 799,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bold",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Infiltrator",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Bronzong": {
       "Lvl 65 Boss Trainer Ellas ": {
         "level": 65,
@@ -185617,13 +185774,13 @@ backup_data = {
         "item": "Bright Powder",
         "nature": "Docile",
         "moves": [
-          "Lunge",
-          "Detect",
-          "Substitute",
-          "Baton Pass"
+          "Skitter Smack",
+          "Dual Wingbeat",
+          "U-turn",
+          "Metronome"
         ],
         "sub_index": 0,
-        "ability": "Speed Boost",
+        "ability": "Sniper",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -185724,6 +185881,101 @@ backup_data = {
         }
       }
     },
+    "Blissey": {
+      "Lvl 57 Team Plasma Shadow5 ": {
+        "level": 57,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 233,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Attack Insurance",
+        "nature": "Calm",
+        "moves": [
+          "Seismic Toss",
+          "Toxic",
+          "Soft-Boiled",
+          "Minimize"
+        ],
+        "sub_index": 3,
+        "ability": "Healer",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 49 Doctor Kit - Chargestone Cave": {
+        "level": 49,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 671,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "None",
+        "item": "Kee Berry",
+        "nature": "Brave",
+        "moves": [
+          "Giga Impact",
+          "Superpower",
+          "Protect",
+          "Helping Hand"
+        ],
+        "sub_index": 1,
+        "ability": "Healer",
+        "sprite": "trainer_sprites/doctor.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 62 Nurse Carol - Twist Mountain": {
+        "level": 62,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 725,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Lonely",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Natural Cure",
+        "sprite": "trainer_sprites/nurse.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Tentacruel": {
       "Lvl 57 Team Plasma Shadow5 ": {
         "level": 57,
@@ -185743,12 +185995,12 @@ backup_data = {
         "item": "Black Sludge",
         "nature": "Quiet",
         "moves": [
-          "Acid Armor",
           "Venoshock",
           "Toxic",
-          "Scald"
+          "Scald",
+          "Acid Armor"
         ],
-        "sub_index": 3,
+        "sub_index": 4,
         "ability": "Corrosion",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
@@ -185946,8 +186198,8 @@ backup_data = {
       }
     },
     "Weezing": {
-      "Lvl 51 Team Plasma Shadow7 ": {
-        "level": 51,
+      "Lvl 60 Team Plasma Shadow7 ": {
+        "level": 60,
         "ai": 79,
         "noCh": false,
         "tr_id": 236,
@@ -185962,7 +186214,7 @@ backup_data = {
         "battle_type": "Triples",
         "reward_item": "None",
         "item": "Choice Band",
-        "nature": "Bashful",
+        "nature": "Serious",
         "moves": [
           "Explosion",
           "-----",
@@ -186953,6 +187205,39 @@ backup_data = {
         }
       }
     },
+    "Wobbuffet": {
+      "Lvl 58 Team Plasma Shadow8 ": {
+        "level": 58,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 250,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Red Card",
+        "nature": "Relaxed",
+        "moves": [
+          "Counter",
+          "Mirror Coat",
+          "Psywave",
+          "Teleport"
+        ],
+        "sub_index": 0,
+        "ability": "Shadow Tag",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Ariados": {
       "Lvl 58 Team Plasma Shadow8 ": {
         "level": 58,
@@ -186975,7 +187260,7 @@ backup_data = {
           "1st Impression",
           "Leech Life",
           "Payback",
-          "Hyper Beam"
+          "Giga Impact"
         ],
         "sub_index": 1,
         "ability": "Arena Trap",
@@ -187101,7 +187386,7 @@ backup_data = {
           "Sucker Punch",
           "Pursuit",
           "Screech",
-          "Moonblast"
+          "Double Slap"
         ],
         "sub_index": 2,
         "ability": "Tough Claws",
@@ -197314,39 +197599,6 @@ backup_data = {
         }
       }
     },
-    "Bibarel": {
-      "Lvl 26 Worker Cliff - Twist Mountain": {
-        "level": 26,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 492,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Hasty",
-        "moves": [
-          "Barrage",
-          "Headbutt",
-          "Aqua Jet",
-          "Amnesia"
-        ],
-        "sub_index": 0,
-        "ability": "Huge Power",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Slowking": {
       "Lvl 65 PkMn Trainer Cress ": {
         "level": 65,
@@ -200206,70 +200458,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Iron Fist",
         "sprite": "trainer_sprites/kantoleader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Blissey": {
-      "Lvl 49 Doctor Kit - Chargestone Cave": {
-        "level": 49,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 671,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "None",
-        "item": "Kee Berry",
-        "nature": "Brave",
-        "moves": [
-          "Giga Impact",
-          "Superpower",
-          "Protect",
-          "Helping Hand"
-        ],
-        "sub_index": 1,
-        "ability": "Healer",
-        "sprite": "trainer_sprites/doctor.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 Nurse Carol - Twist Mountain": {
-        "level": 62,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 725,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Lonely",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Natural Cure",
-        "sprite": "trainer_sprites/nurse.png",
         "form": 0,
         "evs": {
           "df": 0
