@@ -347,6 +347,7 @@ function get_next_in_g4() {
                     dmg = Math.floor(dmg / 3)
                 }
             }
+            console.log(`${p2.name} ${moveName} ${dmg}`)
 
             if (dmg > highestDamage) {
                 highestDamage = dmg

@@ -156,6 +156,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
             if (move.named("Weather Ball", "Judgment") || move.name.includes("Hidden Power")) {
                 console.log("immunity skipped")
                 // Do nothing
+            } else {
+                return result
             }
         }
             
