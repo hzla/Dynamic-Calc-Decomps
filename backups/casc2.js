@@ -160164,11 +160164,11 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Sitrus Berry",
         "nature": "Brave",
         "moves": [
           "Ancient Power",
-          "Psychic Noise",
+          "Extrasensory",
           "Reflect",
           "Light Screen"
         ],
@@ -160195,11 +160195,11 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Potion",
-        "item": "Life Orb",
+        "item": "Sitrus Berry",
         "nature": "Calm",
         "moves": [
           "Ancient Power",
-          "Psychic Noise",
+          "Extrasensory",
           "Reflect",
           "Light Screen"
         ],
@@ -173551,7 +173551,7 @@ backup_data = {
         "item": "Water Gem",
         "nature": "Brave",
         "moves": [
-          "Aqua Tail",
+          "Waterfall",
           "Flamethrower",
           "Air Slash",
           "Thunderbolt"
@@ -173583,7 +173583,7 @@ backup_data = {
         "nature": "Rash",
         "moves": [
           "Air Slash",
-          "Aqua Tail",
+          "Waterfall",
           "Flamethrower",
           "Thunderbolt"
         ],
@@ -180694,12 +180694,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Wide Lens",
+        "item": "Sitrus Berry",
         "nature": "Lax",
         "moves": [
-          "Dragon Rush",
+          "Dual Chop",
           "Iron Tail",
-          "Stone Edge",
+          "Rock Slide",
           "Fire Blast"
         ],
         "sub_index": 0,
@@ -180725,13 +180725,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Potion",
-        "item": "Wide Lens",
+        "item": "Sitrus Berry",
         "nature": "Modest",
         "moves": [
-          "Dragon Rush",
+          "Dual Chop",
           "Iron Tail",
-          "Stone Edge",
-          "Drill Run"
+          "Rock Slide",
+          "Fire Blast"
         ],
         "sub_index": 0,
         "ability": "Mold Breaker",
@@ -185838,7 +185838,7 @@ backup_data = {
         "item": "Black Sludge",
         "nature": "Hardy",
         "moves": [
-          "Power Whip",
+          "Vine Whip",
           "Sludge Bomb",
           "Earthquake",
           "Knock Off"
@@ -185939,132 +185939,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Overgrow",
         "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Ninetales": {
-      "Lvl 57 Rival Benga3 - Starter 3": {
-        "level": 57,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 234,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Bright Powder",
-        "nature": "Quirky",
-        "moves": [
-          "Dazzling Gleam",
-          "Heat Wave",
-          "Extrasensory",
-          "Shadow Ball"
-        ],
-        "sub_index": 5,
-        "ability": "Serene Grace",
-        "sprite": "trainer_sprites/benga.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 Psychic Micki - Celestial Tower": {
-        "level": 51,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 553,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Calm",
-        "moves": [
-          "Searing Shot",
-          "Dazzling Gleam",
-          "Extrasensory",
-          "Ominous Wind"
-        ],
-        "sub_index": 0,
-        "ability": "Serene Grace",
-        "sprite": "trainer_sprites/psychic.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 39 Kanto Leader Erika - Lostlorn Forest": {
-        "level": 39,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 767,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Fire Gem",
-        "nature": "Lax",
-        "moves": [
-          "Mystical Fire",
-          "Solar Beam",
-          "Extrasensory",
-          "Dazzling Gleam"
-        ],
-        "sub_index": 0,
-        "ability": "Drought",
-        "sprite": "trainer_sprites/erika.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 77 PkMn Trainer N2 ": {
-        "level": 77,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 783,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Timid",
-        "moves": [
-          "Fire Blast",
-          "Solar Beam",
-          "Foul Play",
-          "Confuse Ray"
-        ],
-        "sub_index": 0,
-        "ability": "Serene Grace",
-        "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -198621,6 +198495,101 @@ backup_data = {
         "sub_index": 4,
         "ability": "Sniper",
         "sprite": "trainer_sprites/socialite.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Ninetales": {
+      "Lvl 51 Psychic Micki - Celestial Tower": {
+        "level": 51,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 553,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Calm",
+        "moves": [
+          "Searing Shot",
+          "Dazzling Gleam",
+          "Extrasensory",
+          "Ominous Wind"
+        ],
+        "sub_index": 0,
+        "ability": "Serene Grace",
+        "sprite": "trainer_sprites/psychic.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 39 Kanto Leader Erika - Lostlorn Forest": {
+        "level": 39,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 767,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Fire Gem",
+        "nature": "Lax",
+        "moves": [
+          "Mystical Fire",
+          "Solar Beam",
+          "Extrasensory",
+          "Dazzling Gleam"
+        ],
+        "sub_index": 0,
+        "ability": "Drought",
+        "sprite": "trainer_sprites/erika.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 77 PkMn Trainer N2 ": {
+        "level": 77,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 783,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Timid",
+        "moves": [
+          "Fire Blast",
+          "Solar Beam",
+          "Foul Play",
+          "Confuse Ray"
+        ],
+        "sub_index": 0,
+        "ability": "Serene Grace",
+        "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
           "df": 0
