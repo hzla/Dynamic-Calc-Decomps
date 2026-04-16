@@ -119,7 +119,8 @@ function performCalculations() {
 		p1.maxDamages.sort(function (firstMove, secondMove) {
 			return secondMove.maxDamage - firstMove.maxDamage;
 		});
-		$(resultLocations[0][i].move + " + label").text(p1.moves[i].name.replace("Hidden Power", "HP"));
+		var p1MoveLabel = (p1.moves[i].originalName || p1.moves[i].name).replace("Hidden Power", "HP");
+		$(resultLocations[0][i].move + " + label").text(p1MoveLabel);
 		
 
 		$(resultLocations[0][i].damage).text(result.moveDesc(notation));
@@ -142,7 +143,8 @@ function performCalculations() {
 		p2.maxDamages.sort(function (firstMove, secondMove) {
 			return secondMove.maxDamage - firstMove.maxDamage;
 		});
-		$(resultLocations[1][i].move + " + label").text(p2.moves[i].name.replace("Hidden Power", "HP"));
+		var p2MoveLabel = (p2.moves[i].originalName || p2.moves[i].name).replace("Hidden Power", "HP");
+		$(resultLocations[1][i].move + " + label").text(p2MoveLabel);
 		$(resultLocations[1][i].damage).text(result.moveDesc(notation));
 
 		var dmgInfo = $(resultLocations[1][i].damage).text()

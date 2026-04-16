@@ -69,6 +69,23 @@ let currentTypeMatchup           = 2;
 
 let dynamicTypeBugActive = true;
 
+const MOVE_NAME_ALIASES = {
+    "Solar-Beam": "Solar Beam"
+};
+
+function registerMoveAliasesForTable(table) {
+    if (!table) {
+        return;
+    }
+
+    for (var alias in MOVE_NAME_ALIASES) {
+        var canonicalName = MOVE_NAME_ALIASES[alias];
+        if (table[canonicalName] && typeof table[alias] === "undefined") {
+            table[alias] = table[canonicalName];
+        }
+    }
+}
+
 function updateHeaderShellState() {
   if (typeof window.updateMainPageHeaderState !== "function") {
     return;
@@ -846,6 +863,10 @@ function loadMovesData() {
         MOVES_BY_ID[8][cleanString(move)] = jsonMoves[moveName]
     }
   }
+
+    registerMoveAliasesForTable(moves)
+    registerMoveAliasesForTable(jsonMoves)
+    registerMoveAliasesForTable(backup_moves)
 
     // Post move data loading, game specific adjustments
   
