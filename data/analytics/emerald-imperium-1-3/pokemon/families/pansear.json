@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "pansear",
   "familyMembers": [
     "Pansear",
@@ -20494,7 +20494,7 @@
         },
         "47": {
           "runCount": 75,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 97.5,
           "averageRunDepthPct": 70.1,
           "averageBattlesUsed": 0.3,
@@ -20528,8 +20528,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "524",
@@ -20583,7 +20583,7 @@
         },
         "46": {
           "runCount": 77,
-          "averageParticipationPct": 7.1,
+          "averageParticipationPct": 7.0,
           "averageRunDepthStep": 96.1,
           "averageRunDepthPct": 69.1,
           "averageBattlesUsed": 0.3,
@@ -20625,8 +20625,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "524",
@@ -20672,7 +20672,7 @@
         },
         "45": {
           "runCount": 77,
-          "averageParticipationPct": 7.1,
+          "averageParticipationPct": 7.0,
           "averageRunDepthStep": 96.1,
           "averageRunDepthPct": 69.1,
           "averageBattlesUsed": 0.3,
@@ -20714,8 +20714,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "524",
@@ -20761,7 +20761,7 @@
         },
         "44": {
           "runCount": 77,
-          "averageParticipationPct": 7.1,
+          "averageParticipationPct": 7.0,
           "averageRunDepthStep": 96.1,
           "averageRunDepthPct": 69.1,
           "averageBattlesUsed": 0.3,
@@ -20803,8 +20803,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "524",
@@ -20892,8 +20892,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "714",
@@ -20939,7 +20939,7 @@
         },
         "42": {
           "runCount": 79,
-          "averageParticipationPct": 9.4,
+          "averageParticipationPct": 9.3,
           "averageRunDepthStep": 94.8,
           "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 0.4,
@@ -20977,17 +20977,17 @@
               "participationPct": 40
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "629",
               "displayName": "Hiker Lucas",
               "leadLevel": -2,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
@@ -21028,7 +21028,7 @@
         },
         "41": {
           "runCount": 79,
-          "averageParticipationPct": 9.4,
+          "averageParticipationPct": 9.3,
           "averageRunDepthStep": 94.8,
           "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 0.4,
@@ -21066,17 +21066,17 @@
               "participationPct": 40
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "629",
               "displayName": "Hiker Lucas",
               "leadLevel": -2,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
@@ -21163,20 +21163,20 @@
               "participationPct": 33
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "524",
@@ -21206,7 +21206,7 @@
         },
         "39": {
           "runCount": 83,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 92.1,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.4,
@@ -21252,20 +21252,20 @@
               "participationPct": 33
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21295,7 +21295,7 @@
         },
         "38": {
           "runCount": 83,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 92.1,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.4,
@@ -21341,20 +21341,20 @@
               "participationPct": 33
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21442,8 +21442,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21531,8 +21531,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21620,8 +21620,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21709,8 +21709,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21798,8 +21798,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21829,7 +21829,7 @@
         },
         "32": {
           "runCount": 92,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 86.4,
           "averageRunDepthPct": 62.2,
           "averageBattlesUsed": 0.4,
@@ -21847,8 +21847,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -21918,7 +21918,7 @@
         },
         "31": {
           "runCount": 92,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 86.4,
           "averageRunDepthPct": 62.2,
           "averageBattlesUsed": 0.4,
@@ -21936,8 +21936,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22007,7 +22007,7 @@
         },
         "30": {
           "runCount": 92,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 86.4,
           "averageRunDepthPct": 62.2,
           "averageBattlesUsed": 0.4,
@@ -22025,8 +22025,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22114,8 +22114,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22185,7 +22185,7 @@
         },
         "28": {
           "runCount": 94,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 85.2,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.4,
@@ -22203,8 +22203,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22274,7 +22274,7 @@
         },
         "27": {
           "runCount": 94,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 85.2,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.4,
@@ -22292,8 +22292,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22363,7 +22363,7 @@
         },
         "26": {
           "runCount": 94,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 85.2,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.4,
@@ -22381,8 +22381,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22452,7 +22452,7 @@
         },
         "25": {
           "runCount": 94,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 85.2,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.4,
@@ -22470,8 +22470,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22541,7 +22541,7 @@
         },
         "24": {
           "runCount": 94,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 85.2,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.4,
@@ -22559,8 +22559,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22630,7 +22630,7 @@
         },
         "23": {
           "runCount": 94,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 85.2,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.4,
@@ -22648,8 +22648,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22719,7 +22719,7 @@
         },
         "22": {
           "runCount": 94,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 85.2,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.4,
@@ -22737,8 +22737,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22808,7 +22808,7 @@
         },
         "21": {
           "runCount": 94,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 85.2,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.4,
@@ -22826,8 +22826,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -22897,7 +22897,7 @@
         },
         "20": {
           "runCount": 95,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 84.5,
           "averageRunDepthPct": 60.8,
           "averageBattlesUsed": 0.4,
@@ -22915,8 +22915,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -23004,8 +23004,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "215",
@@ -23093,8 +23093,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23182,8 +23182,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23271,8 +23271,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23342,7 +23342,7 @@
         },
         "15": {
           "runCount": 99,
-          "averageParticipationPct": 13.1,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 81.8,
           "averageRunDepthPct": 58.8,
           "averageBattlesUsed": 0.4,
@@ -23360,8 +23360,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23431,7 +23431,7 @@
         },
         "14": {
           "runCount": 99,
-          "averageParticipationPct": 13.1,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 81.8,
           "averageRunDepthPct": 58.8,
           "averageBattlesUsed": 0.4,
@@ -23449,8 +23449,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23538,8 +23538,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23627,8 +23627,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23716,8 +23716,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23805,8 +23805,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23894,8 +23894,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -23983,8 +23983,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -24072,8 +24072,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -24161,8 +24161,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -24250,8 +24250,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -24339,8 +24339,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -24428,8 +24428,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -24517,8 +24517,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -24606,8 +24606,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "524",
@@ -32870,7 +32870,7 @@
       },
       "47": {
         "runCount": 80,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 97.3,
         "averageRunDepthPct": 70.0,
         "averageBattlesUsed": 0.3,
@@ -32904,8 +32904,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "851",
@@ -33001,8 +33001,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "851",
@@ -33090,8 +33090,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "851",
@@ -33179,8 +33179,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "851",
@@ -33264,20 +33264,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 2,
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "851",
@@ -33361,20 +33361,20 @@
             "participationPct": 33
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 2,
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "851",
@@ -33450,20 +33450,20 @@
             "participationPct": 33
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 2,
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "851",
@@ -33551,8 +33551,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "851",
@@ -33582,7 +33582,7 @@
       },
       "39": {
         "runCount": 90,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.3,
         "averageRunDepthStep": 91.1,
         "averageRunDepthPct": 65.6,
         "averageBattlesUsed": 0.4,
@@ -33640,8 +33640,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "851",
@@ -33671,7 +33671,7 @@
       },
       "38": {
         "runCount": 90,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.3,
         "averageRunDepthStep": 91.1,
         "averageRunDepthPct": 65.6,
         "averageBattlesUsed": 0.4,
@@ -33729,8 +33729,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "851",
@@ -33760,7 +33760,7 @@
       },
       "37": {
         "runCount": 92,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.3,
         "averageRunDepthStep": 90.0,
         "averageRunDepthPct": 64.7,
         "averageBattlesUsed": 0.4,
@@ -33826,8 +33826,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 8,
-            "participationPct": 25
+            "ownedCount": 9,
+            "participationPct": 22
           },
           {
             "usageKey": "524",
@@ -33849,7 +33849,7 @@
       },
       "36": {
         "runCount": 92,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.3,
         "averageRunDepthStep": 90.0,
         "averageRunDepthPct": 64.7,
         "averageBattlesUsed": 0.4,
@@ -33915,8 +33915,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 8,
-            "participationPct": 25
+            "ownedCount": 9,
+            "participationPct": 22
           },
           {
             "usageKey": "524",
@@ -33938,7 +33938,7 @@
       },
       "35": {
         "runCount": 97,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 87.1,
         "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.4,
@@ -34004,8 +34004,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 9,
-            "participationPct": 22
+            "ownedCount": 10,
+            "participationPct": 20
           },
           {
             "usageKey": "524",
@@ -34027,7 +34027,7 @@
       },
       "34": {
         "runCount": 97,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 87.1,
         "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.4,
@@ -34093,8 +34093,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 9,
-            "participationPct": 22
+            "ownedCount": 10,
+            "participationPct": 20
           },
           {
             "usageKey": "524",
@@ -34116,7 +34116,7 @@
       },
       "33": {
         "runCount": 97,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 87.1,
         "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.4,
@@ -34182,8 +34182,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 2,
-            "ownedCount": 9,
-            "participationPct": 22
+            "ownedCount": 10,
+            "participationPct": 20
           },
           {
             "usageKey": "524",
@@ -34231,8 +34231,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -34294,7 +34294,7 @@
       },
       "31": {
         "runCount": 108,
-        "averageParticipationPct": 11.0,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 81.5,
         "averageRunDepthPct": 58.6,
         "averageBattlesUsed": 0.4,
@@ -34320,8 +34320,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -34383,7 +34383,7 @@
       },
       "30": {
         "runCount": 108,
-        "averageParticipationPct": 11.0,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 81.5,
         "averageRunDepthPct": 58.6,
         "averageBattlesUsed": 0.4,
@@ -34409,8 +34409,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -34498,8 +34498,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -34587,8 +34587,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -34676,8 +34676,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -34765,8 +34765,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -34854,8 +34854,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -34943,8 +34943,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -35032,8 +35032,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -35121,8 +35121,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -35210,8 +35210,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -35299,8 +35299,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -35388,8 +35388,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "215",
@@ -35451,7 +35451,7 @@
       },
       "18": {
         "runCount": 115,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 77.9,
         "averageRunDepthPct": 56.0,
         "averageBattlesUsed": 0.4,
@@ -35477,8 +35477,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -35540,7 +35540,7 @@
       },
       "17": {
         "runCount": 115,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 77.9,
         "averageRunDepthPct": 56.0,
         "averageBattlesUsed": 0.4,
@@ -35566,8 +35566,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -35629,7 +35629,7 @@
       },
       "16": {
         "runCount": 115,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 77.9,
         "averageRunDepthPct": 56.0,
         "averageBattlesUsed": 0.4,
@@ -35655,8 +35655,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -35744,8 +35744,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -35833,8 +35833,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -35922,8 +35922,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -35985,7 +35985,7 @@
       },
       "12": {
         "runCount": 139,
-        "averageParticipationPct": 15.9,
+        "averageParticipationPct": 15.8,
         "averageRunDepthStep": 66.7,
         "averageRunDepthPct": 48.0,
         "averageBattlesUsed": 0.4,
@@ -36011,8 +36011,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36074,7 +36074,7 @@
       },
       "11": {
         "runCount": 139,
-        "averageParticipationPct": 15.9,
+        "averageParticipationPct": 15.8,
         "averageRunDepthStep": 66.7,
         "averageRunDepthPct": 48.0,
         "averageBattlesUsed": 0.4,
@@ -36100,8 +36100,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36189,8 +36189,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36278,8 +36278,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36367,8 +36367,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36456,8 +36456,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36545,8 +36545,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36608,7 +36608,7 @@
       },
       "5": {
         "runCount": 146,
-        "averageParticipationPct": 16.5,
+        "averageParticipationPct": 16.4,
         "averageRunDepthStep": 63.9,
         "averageRunDepthPct": 46.0,
         "averageBattlesUsed": 0.4,
@@ -36634,8 +36634,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36723,8 +36723,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36786,7 +36786,7 @@
       },
       "3": {
         "runCount": 153,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 61.1,
         "averageRunDepthPct": 44.0,
         "averageBattlesUsed": 0.4,
@@ -36812,8 +36812,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36875,7 +36875,7 @@
       },
       "2": {
         "runCount": 153,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 61.1,
         "averageRunDepthPct": 44.0,
         "averageBattlesUsed": 0.4,
@@ -36901,8 +36901,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",
@@ -36964,7 +36964,7 @@
       },
       "1": {
         "runCount": 153,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 61.1,
         "averageRunDepthPct": 44.0,
         "averageBattlesUsed": 0.4,
@@ -36990,8 +36990,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 18,
-            "participationPct": 17
+            "ownedCount": 19,
+            "participationPct": 16
           },
           {
             "usageKey": "524",

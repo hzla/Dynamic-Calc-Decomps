@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "iron-thorns",
   "familyMembers": [
     "Iron Thorns"
@@ -8897,10 +8897,10 @@
           ]
         },
         "35": {
-          "runCount": 24,
-          "averageParticipationPct": 32.8,
-          "averageRunDepthStep": 101.5,
-          "averageRunDepthPct": 73.1,
+          "runCount": 25,
+          "averageParticipationPct": 35.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -8976,9 +8976,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -8986,10 +8986,10 @@
           ]
         },
         "34": {
-          "runCount": 24,
-          "averageParticipationPct": 32.8,
-          "averageRunDepthStep": 101.5,
-          "averageRunDepthPct": 73.1,
+          "runCount": 25,
+          "averageParticipationPct": 35.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9065,9 +9065,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9075,10 +9075,10 @@
           ]
         },
         "33": {
-          "runCount": 24,
-          "averageParticipationPct": 32.8,
-          "averageRunDepthStep": 101.5,
-          "averageRunDepthPct": 73.1,
+          "runCount": 25,
+          "averageParticipationPct": 35.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9154,9 +9154,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9164,10 +9164,10 @@
           ]
         },
         "32": {
-          "runCount": 24,
-          "averageParticipationPct": 32.8,
-          "averageRunDepthStep": 101.5,
-          "averageRunDepthPct": 73.1,
+          "runCount": 25,
+          "averageParticipationPct": 35.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9243,9 +9243,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9253,10 +9253,10 @@
           ]
         },
         "31": {
-          "runCount": 24,
-          "averageParticipationPct": 32.8,
-          "averageRunDepthStep": 101.5,
-          "averageRunDepthPct": 73.1,
+          "runCount": 25,
+          "averageParticipationPct": 35.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9332,9 +9332,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9342,10 +9342,10 @@
           ]
         },
         "30": {
-          "runCount": 24,
-          "averageParticipationPct": 32.8,
-          "averageRunDepthStep": 101.5,
-          "averageRunDepthPct": 73.1,
+          "runCount": 25,
+          "averageParticipationPct": 35.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9421,9 +9421,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9431,10 +9431,10 @@
           ]
         },
         "29": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9510,9 +9510,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9520,10 +9520,10 @@
           ]
         },
         "28": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9599,9 +9599,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9609,10 +9609,10 @@
           ]
         },
         "27": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9688,9 +9688,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9698,10 +9698,10 @@
           ]
         },
         "26": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9777,9 +9777,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9787,10 +9787,10 @@
           ]
         },
         "25": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9866,9 +9866,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9876,10 +9876,10 @@
           ]
         },
         "24": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -9955,9 +9955,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -9965,10 +9965,10 @@
           ]
         },
         "23": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10044,9 +10044,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10054,10 +10054,10 @@
           ]
         },
         "22": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10133,9 +10133,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10143,10 +10143,10 @@
           ]
         },
         "21": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10222,9 +10222,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10232,10 +10232,10 @@
           ]
         },
         "20": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10311,9 +10311,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10321,10 +10321,10 @@
           ]
         },
         "19": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10400,9 +10400,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10410,10 +10410,10 @@
           ]
         },
         "18": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10489,9 +10489,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10499,10 +10499,10 @@
           ]
         },
         "17": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10578,9 +10578,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10588,10 +10588,10 @@
           ]
         },
         "16": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10667,9 +10667,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10677,10 +10677,10 @@
           ]
         },
         "15": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10756,9 +10756,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10766,10 +10766,10 @@
           ]
         },
         "14": {
-          "runCount": 25,
-          "averageParticipationPct": 35.5,
-          "averageRunDepthStep": 98.6,
-          "averageRunDepthPct": 71.0,
+          "runCount": 26,
+          "averageParticipationPct": 38.0,
+          "averageRunDepthStep": 96.2,
+          "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -10845,9 +10845,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10855,10 +10855,10 @@
           ]
         },
         "13": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10934,9 +10934,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -10944,10 +10944,10 @@
           ]
         },
         "12": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11023,9 +11023,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11033,10 +11033,10 @@
           ]
         },
         "11": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11112,9 +11112,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11122,10 +11122,10 @@
           ]
         },
         "10": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11201,9 +11201,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11211,10 +11211,10 @@
           ]
         },
         "9": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11290,9 +11290,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11300,10 +11300,10 @@
           ]
         },
         "8": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11379,9 +11379,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11389,10 +11389,10 @@
           ]
         },
         "7": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11468,9 +11468,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11478,10 +11478,10 @@
           ]
         },
         "6": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11557,9 +11557,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11567,10 +11567,10 @@
           ]
         },
         "5": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11646,9 +11646,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11656,10 +11656,10 @@
           ]
         },
         "4": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11735,9 +11735,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11745,10 +11745,10 @@
           ]
         },
         "3": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11824,9 +11824,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11834,10 +11834,10 @@
           ]
         },
         "2": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11913,9 +11913,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -11923,10 +11923,10 @@
           ]
         },
         "1": {
-          "runCount": 28,
-          "averageParticipationPct": 35.3,
-          "averageRunDepthStep": 89.5,
-          "averageRunDepthPct": 64.4,
+          "runCount": 29,
+          "averageParticipationPct": 37.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -12002,9 +12002,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -20905,10 +20905,10 @@
         ]
       },
       "35": {
-        "runCount": 24,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 101.5,
-        "averageRunDepthPct": 73.1,
+        "runCount": 25,
+        "averageParticipationPct": 35.5,
+        "averageRunDepthStep": 98.9,
+        "averageRunDepthPct": 71.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -20984,9 +20984,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -20994,10 +20994,10 @@
         ]
       },
       "34": {
-        "runCount": 24,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 101.5,
-        "averageRunDepthPct": 73.1,
+        "runCount": 25,
+        "averageParticipationPct": 35.5,
+        "averageRunDepthStep": 98.9,
+        "averageRunDepthPct": 71.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21073,9 +21073,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21083,10 +21083,10 @@
         ]
       },
       "33": {
-        "runCount": 24,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 101.5,
-        "averageRunDepthPct": 73.1,
+        "runCount": 25,
+        "averageParticipationPct": 35.5,
+        "averageRunDepthStep": 98.9,
+        "averageRunDepthPct": 71.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21162,9 +21162,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21172,10 +21172,10 @@
         ]
       },
       "32": {
-        "runCount": 24,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 101.5,
-        "averageRunDepthPct": 73.1,
+        "runCount": 25,
+        "averageParticipationPct": 35.5,
+        "averageRunDepthStep": 98.9,
+        "averageRunDepthPct": 71.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21251,9 +21251,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21261,10 +21261,10 @@
         ]
       },
       "31": {
-        "runCount": 24,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 101.5,
-        "averageRunDepthPct": 73.1,
+        "runCount": 25,
+        "averageParticipationPct": 35.5,
+        "averageRunDepthStep": 98.9,
+        "averageRunDepthPct": 71.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21340,9 +21340,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21350,10 +21350,10 @@
         ]
       },
       "30": {
-        "runCount": 24,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 101.5,
-        "averageRunDepthPct": 73.1,
+        "runCount": 25,
+        "averageParticipationPct": 35.5,
+        "averageRunDepthStep": 98.9,
+        "averageRunDepthPct": 71.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21429,9 +21429,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21439,10 +21439,10 @@
         ]
       },
       "29": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21518,9 +21518,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21528,10 +21528,10 @@
         ]
       },
       "28": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21607,9 +21607,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21617,10 +21617,10 @@
         ]
       },
       "27": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21696,9 +21696,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21706,10 +21706,10 @@
         ]
       },
       "26": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21785,9 +21785,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21795,10 +21795,10 @@
         ]
       },
       "25": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21874,9 +21874,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21884,10 +21884,10 @@
         ]
       },
       "24": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -21963,9 +21963,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -21973,10 +21973,10 @@
         ]
       },
       "23": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22052,9 +22052,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22062,10 +22062,10 @@
         ]
       },
       "22": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22141,9 +22141,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22151,10 +22151,10 @@
         ]
       },
       "21": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22230,9 +22230,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22240,10 +22240,10 @@
         ]
       },
       "20": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22319,9 +22319,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22329,10 +22329,10 @@
         ]
       },
       "19": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22408,9 +22408,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22418,10 +22418,10 @@
         ]
       },
       "18": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22497,9 +22497,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22507,10 +22507,10 @@
         ]
       },
       "17": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22586,9 +22586,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22596,10 +22596,10 @@
         ]
       },
       "16": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22675,9 +22675,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22685,10 +22685,10 @@
         ]
       },
       "15": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22764,9 +22764,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22774,10 +22774,10 @@
         ]
       },
       "14": {
-        "runCount": 25,
-        "averageParticipationPct": 35.5,
-        "averageRunDepthStep": 98.6,
-        "averageRunDepthPct": 71.0,
+        "runCount": 26,
+        "averageParticipationPct": 38.0,
+        "averageRunDepthStep": 96.2,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -22853,9 +22853,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22863,10 +22863,10 @@
         ]
       },
       "13": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -22942,9 +22942,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -22952,10 +22952,10 @@
         ]
       },
       "12": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23031,9 +23031,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23041,10 +23041,10 @@
         ]
       },
       "11": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23120,9 +23120,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23130,10 +23130,10 @@
         ]
       },
       "10": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23209,9 +23209,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23219,10 +23219,10 @@
         ]
       },
       "9": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23298,9 +23298,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23308,10 +23308,10 @@
         ]
       },
       "8": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23387,9 +23387,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23397,10 +23397,10 @@
         ]
       },
       "7": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23476,9 +23476,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23486,10 +23486,10 @@
         ]
       },
       "6": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23565,9 +23565,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23575,10 +23575,10 @@
         ]
       },
       "5": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23654,9 +23654,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23664,10 +23664,10 @@
         ]
       },
       "4": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23743,9 +23743,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23753,10 +23753,10 @@
         ]
       },
       "3": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23832,9 +23832,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23842,10 +23842,10 @@
         ]
       },
       "2": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -23921,9 +23921,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -23931,10 +23931,10 @@
         ]
       },
       "1": {
-        "runCount": 28,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 89.5,
-        "averageRunDepthPct": 64.4,
+        "runCount": 29,
+        "averageParticipationPct": 37.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -24010,9 +24010,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100

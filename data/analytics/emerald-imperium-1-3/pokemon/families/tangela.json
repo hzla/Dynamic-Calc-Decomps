@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "tangela",
   "familyMembers": [
     "Tangela",
@@ -12025,10 +12025,10 @@
           ]
         },
         "4": {
-          "runCount": 256,
-          "averageParticipationPct": 25.6,
-          "averageRunDepthStep": 51.4,
-          "averageRunDepthPct": 37.0,
+          "runCount": 257,
+          "averageParticipationPct": 25.9,
+          "averageRunDepthStep": 51.3,
+          "averageRunDepthPct": 36.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -12043,9 +12043,9 @@
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 16,
-              "ownedCount": 26,
-              "participationPct": 62
+              "partyCount": 17,
+              "ownedCount": 27,
+              "participationPct": 63
             },
             {
               "usageKey": "851",
@@ -12114,10 +12114,10 @@
           ]
         },
         "3": {
-          "runCount": 265,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 49.8,
-          "averageRunDepthPct": 35.8,
+          "runCount": 266,
+          "averageParticipationPct": 26.9,
+          "averageRunDepthStep": 49.6,
+          "averageRunDepthPct": 35.7,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -12132,9 +12132,9 @@
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 16,
-              "ownedCount": 26,
-              "participationPct": 62
+              "partyCount": 17,
+              "ownedCount": 27,
+              "participationPct": 63
             },
             {
               "usageKey": "851",
@@ -12203,10 +12203,10 @@
           ]
         },
         "2": {
-          "runCount": 266,
-          "averageParticipationPct": 26.9,
-          "averageRunDepthStep": 49.6,
-          "averageRunDepthPct": 35.7,
+          "runCount": 267,
+          "averageParticipationPct": 27.1,
+          "averageRunDepthStep": 49.5,
+          "averageRunDepthPct": 35.6,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -12221,9 +12221,9 @@
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 16,
-              "ownedCount": 26,
-              "participationPct": 62
+              "partyCount": 17,
+              "ownedCount": 27,
+              "participationPct": 63
             },
             {
               "usageKey": "851",
@@ -12292,10 +12292,10 @@
           ]
         },
         "1": {
-          "runCount": 267,
-          "averageParticipationPct": 27.1,
-          "averageRunDepthStep": 49.4,
-          "averageRunDepthPct": 35.6,
+          "runCount": 268,
+          "averageParticipationPct": 27.4,
+          "averageRunDepthStep": 49.3,
+          "averageRunDepthPct": 35.4,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -12310,9 +12310,9 @@
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 16,
-              "ownedCount": 26,
-              "participationPct": 62
+              "partyCount": 17,
+              "ownedCount": 27,
+              "participationPct": 63
             },
             {
               "usageKey": "851",
@@ -36776,10 +36776,10 @@
         ]
       },
       "4": {
-        "runCount": 365,
-        "averageParticipationPct": 26.4,
-        "averageRunDepthStep": 57.4,
-        "averageRunDepthPct": 41.3,
+        "runCount": 366,
+        "averageParticipationPct": 26.6,
+        "averageRunDepthStep": 57.2,
+        "averageRunDepthPct": 41.2,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -36794,9 +36794,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 17,
-            "ownedCount": 27,
-            "participationPct": 63
+            "partyCount": 18,
+            "ownedCount": 28,
+            "participationPct": 64
           },
           {
             "usageKey": "851",
@@ -36865,10 +36865,10 @@
         ]
       },
       "3": {
-        "runCount": 374,
-        "averageParticipationPct": 27.1,
-        "averageRunDepthStep": 56.1,
-        "averageRunDepthPct": 40.3,
+        "runCount": 375,
+        "averageParticipationPct": 27.3,
+        "averageRunDepthStep": 55.9,
+        "averageRunDepthPct": 40.2,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -36883,9 +36883,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 17,
-            "ownedCount": 27,
-            "participationPct": 63
+            "partyCount": 18,
+            "ownedCount": 28,
+            "participationPct": 64
           },
           {
             "usageKey": "851",
@@ -36954,10 +36954,10 @@
         ]
       },
       "2": {
-        "runCount": 375,
-        "averageParticipationPct": 27.3,
-        "averageRunDepthStep": 55.9,
-        "averageRunDepthPct": 40.2,
+        "runCount": 376,
+        "averageParticipationPct": 27.5,
+        "averageRunDepthStep": 55.8,
+        "averageRunDepthPct": 40.1,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -36972,9 +36972,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 17,
-            "ownedCount": 27,
-            "participationPct": 63
+            "partyCount": 18,
+            "ownedCount": 28,
+            "participationPct": 64
           },
           {
             "usageKey": "851",
@@ -37043,10 +37043,10 @@
         ]
       },
       "1": {
-        "runCount": 376,
-        "averageParticipationPct": 27.5,
-        "averageRunDepthStep": 55.8,
-        "averageRunDepthPct": 40.1,
+        "runCount": 377,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 55.6,
+        "averageRunDepthPct": 40.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -37061,9 +37061,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 17,
-            "ownedCount": 27,
-            "participationPct": 63
+            "partyCount": 18,
+            "ownedCount": 28,
+            "participationPct": 64
           },
           {
             "usageKey": "851",

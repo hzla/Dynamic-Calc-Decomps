@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "alomomola",
   "familyMembers": [
     "Alomomola"
@@ -366,7 +366,7 @@
         },
         "135": {
           "runCount": 34,
-          "averageParticipationPct": 3.8,
+          "averageParticipationPct": 3.6,
           "averageRunDepthStep": 136.9,
           "averageRunDepthPct": 98.5,
           "averageBattlesUsed": 0.3,
@@ -392,8 +392,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival X",
@@ -455,7 +455,7 @@
         },
         "134": {
           "runCount": 34,
-          "averageParticipationPct": 3.8,
+          "averageParticipationPct": 3.6,
           "averageRunDepthStep": 136.9,
           "averageRunDepthPct": 98.5,
           "averageBattlesUsed": 0.3,
@@ -481,8 +481,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival X",
@@ -544,7 +544,7 @@
         },
         "133": {
           "runCount": 37,
-          "averageParticipationPct": 3.5,
+          "averageParticipationPct": 3.3,
           "averageRunDepthStep": 136.6,
           "averageRunDepthPct": 98.3,
           "averageBattlesUsed": 0.3,
@@ -570,8 +570,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival X",
@@ -633,7 +633,7 @@
         },
         "132": {
           "runCount": 37,
-          "averageParticipationPct": 3.5,
+          "averageParticipationPct": 3.3,
           "averageRunDepthStep": 136.6,
           "averageRunDepthPct": 98.3,
           "averageBattlesUsed": 0.3,
@@ -659,8 +659,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival X",
@@ -722,7 +722,7 @@
         },
         "131": {
           "runCount": 37,
-          "averageParticipationPct": 3.5,
+          "averageParticipationPct": 3.3,
           "averageRunDepthStep": 136.6,
           "averageRunDepthPct": 98.3,
           "averageBattlesUsed": 0.3,
@@ -748,8 +748,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival X",
@@ -811,7 +811,7 @@
         },
         "130": {
           "runCount": 38,
-          "averageParticipationPct": 3.4,
+          "averageParticipationPct": 3.3,
           "averageRunDepthStep": 136.4,
           "averageRunDepthPct": 98.2,
           "averageBattlesUsed": 0.3,
@@ -837,8 +837,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival X",
@@ -900,7 +900,7 @@
         },
         "129": {
           "runCount": 41,
-          "averageParticipationPct": 3.6,
+          "averageParticipationPct": 3.4,
           "averageRunDepthStep": 135.9,
           "averageRunDepthPct": 97.8,
           "averageBattlesUsed": 0.3,
@@ -922,20 +922,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -989,7 +989,7 @@
         },
         "128": {
           "runCount": 42,
-          "averageParticipationPct": 3.5,
+          "averageParticipationPct": 3.3,
           "averageRunDepthStep": 135.7,
           "averageRunDepthPct": 97.6,
           "averageBattlesUsed": 0.3,
@@ -1011,20 +1011,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1078,7 +1078,7 @@
         },
         "127": {
           "runCount": 42,
-          "averageParticipationPct": 3.5,
+          "averageParticipationPct": 3.3,
           "averageRunDepthStep": 135.7,
           "averageRunDepthPct": 97.6,
           "averageBattlesUsed": 0.3,
@@ -1100,20 +1100,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1167,7 +1167,7 @@
         },
         "126": {
           "runCount": 42,
-          "averageParticipationPct": 3.5,
+          "averageParticipationPct": 3.3,
           "averageRunDepthStep": 135.7,
           "averageRunDepthPct": 97.6,
           "averageBattlesUsed": 0.3,
@@ -1189,20 +1189,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1256,7 +1256,7 @@
         },
         "125": {
           "runCount": 45,
-          "averageParticipationPct": 3.2,
+          "averageParticipationPct": 3.1,
           "averageRunDepthStep": 135.0,
           "averageRunDepthPct": 97.1,
           "averageBattlesUsed": 0.3,
@@ -1278,20 +1278,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1345,7 +1345,7 @@
         },
         "124": {
           "runCount": 47,
-          "averageParticipationPct": 3.1,
+          "averageParticipationPct": 3.0,
           "averageRunDepthStep": 134.5,
           "averageRunDepthPct": 96.8,
           "averageBattlesUsed": 0.3,
@@ -1367,20 +1367,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1434,7 +1434,7 @@
         },
         "123": {
           "runCount": 49,
-          "averageParticipationPct": 3.0,
+          "averageParticipationPct": 2.9,
           "averageRunDepthStep": 134.1,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 0.3,
@@ -1456,20 +1456,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1523,7 +1523,7 @@
         },
         "122": {
           "runCount": 50,
-          "averageParticipationPct": 2.9,
+          "averageParticipationPct": 2.8,
           "averageRunDepthStep": 133.8,
           "averageRunDepthPct": 96.3,
           "averageBattlesUsed": 0.3,
@@ -1545,20 +1545,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1612,7 +1612,7 @@
         },
         "121": {
           "runCount": 50,
-          "averageParticipationPct": 2.9,
+          "averageParticipationPct": 2.8,
           "averageRunDepthStep": 133.8,
           "averageRunDepthPct": 96.3,
           "averageBattlesUsed": 0.3,
@@ -1634,20 +1634,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1701,7 +1701,7 @@
         },
         "120": {
           "runCount": 51,
-          "averageParticipationPct": 2.9,
+          "averageParticipationPct": 2.8,
           "averageRunDepthStep": 133.5,
           "averageRunDepthPct": 96.1,
           "averageBattlesUsed": 0.3,
@@ -1723,20 +1723,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1790,7 +1790,7 @@
         },
         "119": {
           "runCount": 51,
-          "averageParticipationPct": 2.9,
+          "averageParticipationPct": 2.8,
           "averageRunDepthStep": 133.5,
           "averageRunDepthPct": 96.1,
           "averageBattlesUsed": 0.3,
@@ -1812,20 +1812,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1879,7 +1879,7 @@
         },
         "118": {
           "runCount": 51,
-          "averageParticipationPct": 2.9,
+          "averageParticipationPct": 2.8,
           "averageRunDepthStep": 133.5,
           "averageRunDepthPct": 96.1,
           "averageBattlesUsed": 0.3,
@@ -1901,20 +1901,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -1968,7 +1968,7 @@
         },
         "117": {
           "runCount": 51,
-          "averageParticipationPct": 2.9,
+          "averageParticipationPct": 2.8,
           "averageRunDepthStep": 133.5,
           "averageRunDepthPct": 96.1,
           "averageBattlesUsed": 0.3,
@@ -1990,20 +1990,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Triathlete Declan",
               "displayName": "Triathlete Declan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             },
             {
               "usageKey": "601",
@@ -2057,7 +2057,7 @@
         },
         "116": {
           "runCount": 54,
-          "averageParticipationPct": 2.7,
+          "averageParticipationPct": 2.6,
           "averageRunDepthStep": 132.6,
           "averageRunDepthPct": 95.4,
           "averageBattlesUsed": 0.3,
@@ -2091,8 +2091,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2146,7 +2146,7 @@
         },
         "115": {
           "runCount": 58,
-          "averageParticipationPct": 2.5,
+          "averageParticipationPct": 2.4,
           "averageRunDepthStep": 131.4,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 0.2,
@@ -2180,8 +2180,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2235,7 +2235,7 @@
         },
         "114": {
           "runCount": 58,
-          "averageParticipationPct": 2.5,
+          "averageParticipationPct": 2.4,
           "averageRunDepthStep": 131.4,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 0.2,
@@ -2269,8 +2269,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2324,7 +2324,7 @@
         },
         "113": {
           "runCount": 59,
-          "averageParticipationPct": 3.8,
+          "averageParticipationPct": 3.7,
           "averageRunDepthStep": 131.1,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.3,
@@ -2390,8 +2390,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2413,7 +2413,7 @@
         },
         "112": {
           "runCount": 59,
-          "averageParticipationPct": 3.8,
+          "averageParticipationPct": 3.7,
           "averageRunDepthStep": 131.1,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.3,
@@ -2479,8 +2479,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2502,7 +2502,7 @@
         },
         "111": {
           "runCount": 59,
-          "averageParticipationPct": 3.8,
+          "averageParticipationPct": 3.7,
           "averageRunDepthStep": 131.1,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.3,
@@ -2568,8 +2568,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2591,7 +2591,7 @@
         },
         "110": {
           "runCount": 59,
-          "averageParticipationPct": 3.8,
+          "averageParticipationPct": 3.7,
           "averageRunDepthStep": 131.1,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.3,
@@ -2657,8 +2657,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2680,7 +2680,7 @@
         },
         "109": {
           "runCount": 59,
-          "averageParticipationPct": 3.8,
+          "averageParticipationPct": 3.7,
           "averageRunDepthStep": 131.1,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.3,
@@ -2746,8 +2746,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2769,7 +2769,7 @@
         },
         "108": {
           "runCount": 60,
-          "averageParticipationPct": 3.8,
+          "averageParticipationPct": 3.7,
           "averageRunDepthStep": 130.7,
           "averageRunDepthPct": 94.0,
           "averageBattlesUsed": 0.3,
@@ -2835,8 +2835,8 @@
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2920,20 +2920,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Rival Brendan Route 119 Torchic",
               "displayName": "Rival Brendan Route 119 Torchic",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 3,
+              "participationPct": 33
             },
             {
               "usageKey": "601",
@@ -2947,7 +2947,7 @@
         },
         "106": {
           "runCount": 66,
-          "averageParticipationPct": 3.9,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 128.5,
           "averageRunDepthPct": 92.4,
           "averageBattlesUsed": 0.3,
@@ -3017,17 +3017,17 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
+              "usageKey": "601",
+              "displayName": "Magma Leader Maxie Magma Hideout",
+              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 4,
               "participationPct": 25
             },
             {
-              "usageKey": "601",
-              "displayName": "Magma Leader Maxie Magma Hideout",
-              "leadLevel": 80,
+              "usageKey": "Rival X",
+              "displayName": "Rival X",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 4,
               "participationPct": 25
@@ -3036,7 +3036,7 @@
         },
         "105": {
           "runCount": 71,
-          "averageParticipationPct": 3.9,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 126.8,
           "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.3,
@@ -3125,7 +3125,7 @@
         },
         "104": {
           "runCount": 71,
-          "averageParticipationPct": 3.9,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 126.8,
           "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.3,
@@ -3570,7 +3570,7 @@
         },
         "99": {
           "runCount": 78,
-          "averageParticipationPct": 3.7,
+          "averageParticipationPct": 3.6,
           "averageRunDepthStep": 124.6,
           "averageRunDepthPct": 89.7,
           "averageBattlesUsed": 0.3,
@@ -3926,7 +3926,7 @@
         },
         "95": {
           "runCount": 80,
-          "averageParticipationPct": 3.6,
+          "averageParticipationPct": 3.5,
           "averageRunDepthStep": 123.9,
           "averageRunDepthPct": 89.2,
           "averageBattlesUsed": 0.3,
@@ -4282,7 +4282,7 @@
         },
         "91": {
           "runCount": 85,
-          "averageParticipationPct": 3.4,
+          "averageParticipationPct": 3.3,
           "averageRunDepthStep": 122.1,
           "averageRunDepthPct": 87.8,
           "averageBattlesUsed": 0.3,
@@ -4371,7 +4371,7 @@
         },
         "90": {
           "runCount": 90,
-          "averageParticipationPct": 3.2,
+          "averageParticipationPct": 3.1,
           "averageRunDepthStep": 120.3,
           "averageRunDepthPct": 86.5,
           "averageBattlesUsed": 0.2,
@@ -4549,7 +4549,7 @@
         },
         "88": {
           "runCount": 98,
-          "averageParticipationPct": 5.0,
+          "averageParticipationPct": 4.9,
           "averageRunDepthStep": 117.7,
           "averageRunDepthPct": 84.7,
           "averageBattlesUsed": 0.2,
@@ -4994,7 +4994,7 @@
         },
         "83": {
           "runCount": 108,
-          "averageParticipationPct": 5.0,
+          "averageParticipationPct": 4.9,
           "averageRunDepthStep": 114.7,
           "averageRunDepthPct": 82.5,
           "averageBattlesUsed": 0.2,
@@ -5083,7 +5083,7 @@
         },
         "82": {
           "runCount": 115,
-          "averageParticipationPct": 4.7,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 112.7,
           "averageRunDepthPct": 81.1,
           "averageBattlesUsed": 0.2,
@@ -5172,7 +5172,7 @@
         },
         "81": {
           "runCount": 117,
-          "averageParticipationPct": 4.6,
+          "averageParticipationPct": 4.5,
           "averageRunDepthStep": 112.1,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.2,
@@ -5261,7 +5261,7 @@
         },
         "80": {
           "runCount": 117,
-          "averageParticipationPct": 4.6,
+          "averageParticipationPct": 4.5,
           "averageRunDepthStep": 112.1,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.2,
@@ -5350,7 +5350,7 @@
         },
         "79": {
           "runCount": 117,
-          "averageParticipationPct": 4.6,
+          "averageParticipationPct": 4.5,
           "averageRunDepthStep": 112.1,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.2,
@@ -5439,7 +5439,7 @@
         },
         "78": {
           "runCount": 117,
-          "averageParticipationPct": 4.6,
+          "averageParticipationPct": 4.5,
           "averageRunDepthStep": 112.1,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.2,
@@ -5528,7 +5528,7 @@
         },
         "77": {
           "runCount": 117,
-          "averageParticipationPct": 4.6,
+          "averageParticipationPct": 4.5,
           "averageRunDepthStep": 112.1,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.2,
@@ -5617,7 +5617,7 @@
         },
         "76": {
           "runCount": 119,
-          "averageParticipationPct": 4.8,
+          "averageParticipationPct": 4.7,
           "averageRunDepthStep": 111.5,
           "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.2,
@@ -5884,7 +5884,7 @@
         },
         "73": {
           "runCount": 122,
-          "averageParticipationPct": 4.7,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 110.6,
           "averageRunDepthPct": 79.6,
           "averageBattlesUsed": 0.2,
@@ -6062,7 +6062,7 @@
         },
         "71": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6151,7 +6151,7 @@
         },
         "70": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6240,7 +6240,7 @@
         },
         "69": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6329,7 +6329,7 @@
         },
         "68": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6418,7 +6418,7 @@
         },
         "67": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6507,7 +6507,7 @@
         },
         "66": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6596,7 +6596,7 @@
         },
         "65": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6685,7 +6685,7 @@
         },
         "64": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6774,7 +6774,7 @@
         },
         "63": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6863,7 +6863,7 @@
         },
         "62": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -6952,7 +6952,7 @@
         },
         "61": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7041,7 +7041,7 @@
         },
         "60": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7130,7 +7130,7 @@
         },
         "59": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7219,7 +7219,7 @@
         },
         "58": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7308,7 +7308,7 @@
         },
         "57": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7397,7 +7397,7 @@
         },
         "56": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7486,7 +7486,7 @@
         },
         "55": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7575,7 +7575,7 @@
         },
         "54": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7664,7 +7664,7 @@
         },
         "53": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7753,7 +7753,7 @@
         },
         "52": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7842,7 +7842,7 @@
         },
         "51": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -7931,7 +7931,7 @@
         },
         "50": {
           "runCount": 127,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 109.1,
           "averageRunDepthPct": 78.5,
           "averageBattlesUsed": 0.2,
@@ -8020,7 +8020,7 @@
         },
         "49": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8109,7 +8109,7 @@
         },
         "48": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8198,7 +8198,7 @@
         },
         "47": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8287,7 +8287,7 @@
         },
         "46": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8376,7 +8376,7 @@
         },
         "45": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8465,7 +8465,7 @@
         },
         "44": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8554,7 +8554,7 @@
         },
         "43": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8643,7 +8643,7 @@
         },
         "42": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8732,7 +8732,7 @@
         },
         "41": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8821,7 +8821,7 @@
         },
         "40": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8910,7 +8910,7 @@
         },
         "39": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -8999,7 +8999,7 @@
         },
         "38": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9088,7 +9088,7 @@
         },
         "37": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9177,7 +9177,7 @@
         },
         "36": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9266,7 +9266,7 @@
         },
         "35": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9355,7 +9355,7 @@
         },
         "34": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9444,7 +9444,7 @@
         },
         "33": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9533,7 +9533,7 @@
         },
         "32": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9622,7 +9622,7 @@
         },
         "31": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9711,7 +9711,7 @@
         },
         "30": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9800,7 +9800,7 @@
         },
         "29": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9889,7 +9889,7 @@
         },
         "28": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -9978,7 +9978,7 @@
         },
         "27": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -10067,7 +10067,7 @@
         },
         "26": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -10156,7 +10156,7 @@
         },
         "25": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -10245,7 +10245,7 @@
         },
         "24": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -10334,7 +10334,7 @@
         },
         "23": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -10423,7 +10423,7 @@
         },
         "22": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -10512,7 +10512,7 @@
         },
         "21": {
           "runCount": 128,
-          "averageParticipationPct": 4.5,
+          "averageParticipationPct": 4.4,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.2,
@@ -11046,7 +11046,7 @@
         },
         "15": {
           "runCount": 130,
-          "averageParticipationPct": 5.2,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 107.2,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.2,
@@ -11135,7 +11135,7 @@
         },
         "14": {
           "runCount": 130,
-          "averageParticipationPct": 5.2,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 107.2,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.2,
@@ -12025,7 +12025,7 @@
         },
         "4": {
           "runCount": 134,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.8,
           "averageRunDepthStep": 104.3,
           "averageRunDepthPct": 75.1,
           "averageBattlesUsed": 0.2,
@@ -12114,7 +12114,7 @@
         },
         "3": {
           "runCount": 134,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.8,
           "averageRunDepthStep": 104.3,
           "averageRunDepthPct": 75.1,
           "averageBattlesUsed": 0.2,
@@ -12203,7 +12203,7 @@
         },
         "2": {
           "runCount": 134,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.8,
           "averageRunDepthStep": 104.3,
           "averageRunDepthPct": 75.1,
           "averageBattlesUsed": 0.2,
@@ -12292,7 +12292,7 @@
         },
         "1": {
           "runCount": 134,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.8,
           "averageRunDepthStep": 104.3,
           "averageRunDepthPct": 75.1,
           "averageBattlesUsed": 0.2,
@@ -12742,7 +12742,7 @@
       },
       "135": {
         "runCount": 34,
-        "averageParticipationPct": 3.8,
+        "averageParticipationPct": 3.6,
         "averageRunDepthStep": 136.9,
         "averageRunDepthPct": 98.5,
         "averageBattlesUsed": 0.3,
@@ -12768,8 +12768,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "Rival X",
@@ -12831,7 +12831,7 @@
       },
       "134": {
         "runCount": 34,
-        "averageParticipationPct": 3.8,
+        "averageParticipationPct": 3.6,
         "averageRunDepthStep": 136.9,
         "averageRunDepthPct": 98.5,
         "averageBattlesUsed": 0.3,
@@ -12857,8 +12857,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "Rival X",
@@ -12920,7 +12920,7 @@
       },
       "133": {
         "runCount": 37,
-        "averageParticipationPct": 3.5,
+        "averageParticipationPct": 3.3,
         "averageRunDepthStep": 136.6,
         "averageRunDepthPct": 98.3,
         "averageBattlesUsed": 0.3,
@@ -12946,8 +12946,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "Rival X",
@@ -13009,7 +13009,7 @@
       },
       "132": {
         "runCount": 37,
-        "averageParticipationPct": 3.5,
+        "averageParticipationPct": 3.3,
         "averageRunDepthStep": 136.6,
         "averageRunDepthPct": 98.3,
         "averageBattlesUsed": 0.3,
@@ -13035,8 +13035,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "Rival X",
@@ -13098,7 +13098,7 @@
       },
       "131": {
         "runCount": 37,
-        "averageParticipationPct": 3.5,
+        "averageParticipationPct": 3.3,
         "averageRunDepthStep": 136.6,
         "averageRunDepthPct": 98.3,
         "averageBattlesUsed": 0.3,
@@ -13124,8 +13124,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "Rival X",
@@ -13187,7 +13187,7 @@
       },
       "130": {
         "runCount": 38,
-        "averageParticipationPct": 3.4,
+        "averageParticipationPct": 3.3,
         "averageRunDepthStep": 136.4,
         "averageRunDepthPct": 98.2,
         "averageBattlesUsed": 0.3,
@@ -13213,8 +13213,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "Rival X",
@@ -13276,7 +13276,7 @@
       },
       "129": {
         "runCount": 41,
-        "averageParticipationPct": 3.6,
+        "averageParticipationPct": 3.4,
         "averageRunDepthStep": 135.9,
         "averageRunDepthPct": 97.8,
         "averageBattlesUsed": 0.3,
@@ -13298,20 +13298,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -13365,7 +13365,7 @@
       },
       "128": {
         "runCount": 42,
-        "averageParticipationPct": 3.5,
+        "averageParticipationPct": 3.3,
         "averageRunDepthStep": 135.7,
         "averageRunDepthPct": 97.6,
         "averageBattlesUsed": 0.3,
@@ -13387,20 +13387,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -13454,7 +13454,7 @@
       },
       "127": {
         "runCount": 42,
-        "averageParticipationPct": 3.5,
+        "averageParticipationPct": 3.3,
         "averageRunDepthStep": 135.7,
         "averageRunDepthPct": 97.6,
         "averageBattlesUsed": 0.3,
@@ -13476,20 +13476,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -13543,7 +13543,7 @@
       },
       "126": {
         "runCount": 42,
-        "averageParticipationPct": 3.5,
+        "averageParticipationPct": 3.3,
         "averageRunDepthStep": 135.7,
         "averageRunDepthPct": 97.6,
         "averageBattlesUsed": 0.3,
@@ -13565,20 +13565,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -13632,7 +13632,7 @@
       },
       "125": {
         "runCount": 45,
-        "averageParticipationPct": 3.2,
+        "averageParticipationPct": 3.1,
         "averageRunDepthStep": 135.0,
         "averageRunDepthPct": 97.1,
         "averageBattlesUsed": 0.3,
@@ -13654,20 +13654,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -13721,7 +13721,7 @@
       },
       "124": {
         "runCount": 47,
-        "averageParticipationPct": 3.1,
+        "averageParticipationPct": 3.0,
         "averageRunDepthStep": 134.5,
         "averageRunDepthPct": 96.8,
         "averageBattlesUsed": 0.3,
@@ -13743,20 +13743,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -13810,7 +13810,7 @@
       },
       "123": {
         "runCount": 49,
-        "averageParticipationPct": 3.0,
+        "averageParticipationPct": 2.9,
         "averageRunDepthStep": 134.1,
         "averageRunDepthPct": 96.4,
         "averageBattlesUsed": 0.3,
@@ -13832,20 +13832,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -13899,7 +13899,7 @@
       },
       "122": {
         "runCount": 50,
-        "averageParticipationPct": 2.9,
+        "averageParticipationPct": 2.8,
         "averageRunDepthStep": 133.8,
         "averageRunDepthPct": 96.3,
         "averageBattlesUsed": 0.3,
@@ -13921,20 +13921,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -13988,7 +13988,7 @@
       },
       "121": {
         "runCount": 50,
-        "averageParticipationPct": 2.9,
+        "averageParticipationPct": 2.8,
         "averageRunDepthStep": 133.8,
         "averageRunDepthPct": 96.3,
         "averageBattlesUsed": 0.3,
@@ -14010,20 +14010,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -14077,7 +14077,7 @@
       },
       "120": {
         "runCount": 51,
-        "averageParticipationPct": 2.9,
+        "averageParticipationPct": 2.8,
         "averageRunDepthStep": 133.5,
         "averageRunDepthPct": 96.1,
         "averageBattlesUsed": 0.3,
@@ -14099,20 +14099,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -14166,7 +14166,7 @@
       },
       "119": {
         "runCount": 51,
-        "averageParticipationPct": 2.9,
+        "averageParticipationPct": 2.8,
         "averageRunDepthStep": 133.5,
         "averageRunDepthPct": 96.1,
         "averageBattlesUsed": 0.3,
@@ -14188,20 +14188,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -14255,7 +14255,7 @@
       },
       "118": {
         "runCount": 51,
-        "averageParticipationPct": 2.9,
+        "averageParticipationPct": 2.8,
         "averageRunDepthStep": 133.5,
         "averageRunDepthPct": 96.1,
         "averageBattlesUsed": 0.3,
@@ -14277,20 +14277,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -14344,7 +14344,7 @@
       },
       "117": {
         "runCount": 51,
-        "averageParticipationPct": 2.9,
+        "averageParticipationPct": 2.8,
         "averageRunDepthStep": 133.5,
         "averageRunDepthPct": 96.1,
         "averageBattlesUsed": 0.3,
@@ -14366,20 +14366,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Triathlete Declan",
             "displayName": "Triathlete Declan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           },
           {
             "usageKey": "601",
@@ -14433,7 +14433,7 @@
       },
       "116": {
         "runCount": 54,
-        "averageParticipationPct": 2.7,
+        "averageParticipationPct": 2.6,
         "averageRunDepthStep": 132.6,
         "averageRunDepthPct": 95.4,
         "averageBattlesUsed": 0.3,
@@ -14467,8 +14467,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -14522,7 +14522,7 @@
       },
       "115": {
         "runCount": 58,
-        "averageParticipationPct": 2.5,
+        "averageParticipationPct": 2.4,
         "averageRunDepthStep": 131.4,
         "averageRunDepthPct": 94.5,
         "averageBattlesUsed": 0.2,
@@ -14556,8 +14556,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -14611,7 +14611,7 @@
       },
       "114": {
         "runCount": 58,
-        "averageParticipationPct": 2.5,
+        "averageParticipationPct": 2.4,
         "averageRunDepthStep": 131.4,
         "averageRunDepthPct": 94.5,
         "averageBattlesUsed": 0.2,
@@ -14645,8 +14645,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -14700,7 +14700,7 @@
       },
       "113": {
         "runCount": 59,
-        "averageParticipationPct": 3.8,
+        "averageParticipationPct": 3.7,
         "averageRunDepthStep": 131.1,
         "averageRunDepthPct": 94.3,
         "averageBattlesUsed": 0.3,
@@ -14766,8 +14766,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -14789,7 +14789,7 @@
       },
       "112": {
         "runCount": 59,
-        "averageParticipationPct": 3.8,
+        "averageParticipationPct": 3.7,
         "averageRunDepthStep": 131.1,
         "averageRunDepthPct": 94.3,
         "averageBattlesUsed": 0.3,
@@ -14855,8 +14855,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -14878,7 +14878,7 @@
       },
       "111": {
         "runCount": 59,
-        "averageParticipationPct": 3.8,
+        "averageParticipationPct": 3.7,
         "averageRunDepthStep": 131.1,
         "averageRunDepthPct": 94.3,
         "averageBattlesUsed": 0.3,
@@ -14944,8 +14944,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -14967,7 +14967,7 @@
       },
       "110": {
         "runCount": 59,
-        "averageParticipationPct": 3.8,
+        "averageParticipationPct": 3.7,
         "averageRunDepthStep": 131.1,
         "averageRunDepthPct": 94.3,
         "averageBattlesUsed": 0.3,
@@ -15033,8 +15033,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -15056,7 +15056,7 @@
       },
       "109": {
         "runCount": 59,
-        "averageParticipationPct": 3.8,
+        "averageParticipationPct": 3.7,
         "averageRunDepthStep": 131.1,
         "averageRunDepthPct": 94.3,
         "averageBattlesUsed": 0.3,
@@ -15122,8 +15122,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -15145,7 +15145,7 @@
       },
       "108": {
         "runCount": 60,
-        "averageParticipationPct": 3.8,
+        "averageParticipationPct": 3.7,
         "averageRunDepthStep": 130.7,
         "averageRunDepthPct": 94.0,
         "averageBattlesUsed": 0.3,
@@ -15211,8 +15211,8 @@
             "displayName": "Magma Admin Courtney",
             "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -15296,20 +15296,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Rival Brendan Route 119 Torchic",
             "displayName": "Rival Brendan Route 119 Torchic",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           },
           {
             "usageKey": "601",
@@ -15323,7 +15323,7 @@
       },
       "106": {
         "runCount": 66,
-        "averageParticipationPct": 3.9,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 128.5,
         "averageRunDepthPct": 92.4,
         "averageBattlesUsed": 0.3,
@@ -15393,17 +15393,17 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 4,
             "participationPct": 25
           },
           {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
+            "usageKey": "Rival X",
+            "displayName": "Rival X",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 4,
             "participationPct": 25
@@ -15412,7 +15412,7 @@
       },
       "105": {
         "runCount": 71,
-        "averageParticipationPct": 3.9,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 126.8,
         "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.3,
@@ -15501,7 +15501,7 @@
       },
       "104": {
         "runCount": 71,
-        "averageParticipationPct": 3.9,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 126.8,
         "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.3,
@@ -15946,7 +15946,7 @@
       },
       "99": {
         "runCount": 78,
-        "averageParticipationPct": 3.7,
+        "averageParticipationPct": 3.6,
         "averageRunDepthStep": 124.6,
         "averageRunDepthPct": 89.7,
         "averageBattlesUsed": 0.3,
@@ -16302,7 +16302,7 @@
       },
       "95": {
         "runCount": 80,
-        "averageParticipationPct": 3.6,
+        "averageParticipationPct": 3.5,
         "averageRunDepthStep": 123.9,
         "averageRunDepthPct": 89.2,
         "averageBattlesUsed": 0.3,
@@ -16658,7 +16658,7 @@
       },
       "91": {
         "runCount": 85,
-        "averageParticipationPct": 3.4,
+        "averageParticipationPct": 3.3,
         "averageRunDepthStep": 122.1,
         "averageRunDepthPct": 87.8,
         "averageBattlesUsed": 0.3,
@@ -16747,7 +16747,7 @@
       },
       "90": {
         "runCount": 90,
-        "averageParticipationPct": 3.2,
+        "averageParticipationPct": 3.1,
         "averageRunDepthStep": 120.3,
         "averageRunDepthPct": 86.5,
         "averageBattlesUsed": 0.2,
@@ -16925,7 +16925,7 @@
       },
       "88": {
         "runCount": 98,
-        "averageParticipationPct": 5.0,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 117.7,
         "averageRunDepthPct": 84.7,
         "averageBattlesUsed": 0.2,
@@ -17370,7 +17370,7 @@
       },
       "83": {
         "runCount": 108,
-        "averageParticipationPct": 5.0,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 114.7,
         "averageRunDepthPct": 82.5,
         "averageBattlesUsed": 0.2,
@@ -17459,7 +17459,7 @@
       },
       "82": {
         "runCount": 115,
-        "averageParticipationPct": 4.7,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 112.7,
         "averageRunDepthPct": 81.1,
         "averageBattlesUsed": 0.2,
@@ -17548,7 +17548,7 @@
       },
       "81": {
         "runCount": 117,
-        "averageParticipationPct": 4.6,
+        "averageParticipationPct": 4.5,
         "averageRunDepthStep": 112.1,
         "averageRunDepthPct": 80.7,
         "averageBattlesUsed": 0.2,
@@ -17637,7 +17637,7 @@
       },
       "80": {
         "runCount": 117,
-        "averageParticipationPct": 4.6,
+        "averageParticipationPct": 4.5,
         "averageRunDepthStep": 112.1,
         "averageRunDepthPct": 80.7,
         "averageBattlesUsed": 0.2,
@@ -17726,7 +17726,7 @@
       },
       "79": {
         "runCount": 117,
-        "averageParticipationPct": 4.6,
+        "averageParticipationPct": 4.5,
         "averageRunDepthStep": 112.1,
         "averageRunDepthPct": 80.7,
         "averageBattlesUsed": 0.2,
@@ -17815,7 +17815,7 @@
       },
       "78": {
         "runCount": 117,
-        "averageParticipationPct": 4.6,
+        "averageParticipationPct": 4.5,
         "averageRunDepthStep": 112.1,
         "averageRunDepthPct": 80.7,
         "averageBattlesUsed": 0.2,
@@ -17904,7 +17904,7 @@
       },
       "77": {
         "runCount": 117,
-        "averageParticipationPct": 4.6,
+        "averageParticipationPct": 4.5,
         "averageRunDepthStep": 112.1,
         "averageRunDepthPct": 80.7,
         "averageBattlesUsed": 0.2,
@@ -17993,7 +17993,7 @@
       },
       "76": {
         "runCount": 119,
-        "averageParticipationPct": 4.8,
+        "averageParticipationPct": 4.7,
         "averageRunDepthStep": 111.5,
         "averageRunDepthPct": 80.2,
         "averageBattlesUsed": 0.2,
@@ -18260,7 +18260,7 @@
       },
       "73": {
         "runCount": 122,
-        "averageParticipationPct": 4.7,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 110.6,
         "averageRunDepthPct": 79.6,
         "averageBattlesUsed": 0.2,
@@ -18438,7 +18438,7 @@
       },
       "71": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -18527,7 +18527,7 @@
       },
       "70": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -18616,7 +18616,7 @@
       },
       "69": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -18705,7 +18705,7 @@
       },
       "68": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -18794,7 +18794,7 @@
       },
       "67": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -18883,7 +18883,7 @@
       },
       "66": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -18972,7 +18972,7 @@
       },
       "65": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19061,7 +19061,7 @@
       },
       "64": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19150,7 +19150,7 @@
       },
       "63": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19239,7 +19239,7 @@
       },
       "62": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19328,7 +19328,7 @@
       },
       "61": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19417,7 +19417,7 @@
       },
       "60": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19506,7 +19506,7 @@
       },
       "59": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19595,7 +19595,7 @@
       },
       "58": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19684,7 +19684,7 @@
       },
       "57": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19773,7 +19773,7 @@
       },
       "56": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19862,7 +19862,7 @@
       },
       "55": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -19951,7 +19951,7 @@
       },
       "54": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -20040,7 +20040,7 @@
       },
       "53": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -20129,7 +20129,7 @@
       },
       "52": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -20218,7 +20218,7 @@
       },
       "51": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -20307,7 +20307,7 @@
       },
       "50": {
         "runCount": 127,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 109.1,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.2,
@@ -20396,7 +20396,7 @@
       },
       "49": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -20485,7 +20485,7 @@
       },
       "48": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -20574,7 +20574,7 @@
       },
       "47": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -20663,7 +20663,7 @@
       },
       "46": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -20752,7 +20752,7 @@
       },
       "45": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -20841,7 +20841,7 @@
       },
       "44": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -20930,7 +20930,7 @@
       },
       "43": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21019,7 +21019,7 @@
       },
       "42": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21108,7 +21108,7 @@
       },
       "41": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21197,7 +21197,7 @@
       },
       "40": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21286,7 +21286,7 @@
       },
       "39": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21375,7 +21375,7 @@
       },
       "38": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21464,7 +21464,7 @@
       },
       "37": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21553,7 +21553,7 @@
       },
       "36": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21642,7 +21642,7 @@
       },
       "35": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21731,7 +21731,7 @@
       },
       "34": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21820,7 +21820,7 @@
       },
       "33": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21909,7 +21909,7 @@
       },
       "32": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -21998,7 +21998,7 @@
       },
       "31": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22087,7 +22087,7 @@
       },
       "30": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22176,7 +22176,7 @@
       },
       "29": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22265,7 +22265,7 @@
       },
       "28": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22354,7 +22354,7 @@
       },
       "27": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22443,7 +22443,7 @@
       },
       "26": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22532,7 +22532,7 @@
       },
       "25": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22621,7 +22621,7 @@
       },
       "24": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22710,7 +22710,7 @@
       },
       "23": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22799,7 +22799,7 @@
       },
       "22": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -22888,7 +22888,7 @@
       },
       "21": {
         "runCount": 128,
-        "averageParticipationPct": 4.5,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 108.6,
         "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.2,
@@ -23422,7 +23422,7 @@
       },
       "15": {
         "runCount": 130,
-        "averageParticipationPct": 5.2,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 107.2,
         "averageRunDepthPct": 77.1,
         "averageBattlesUsed": 0.2,
@@ -23511,7 +23511,7 @@
       },
       "14": {
         "runCount": 130,
-        "averageParticipationPct": 5.2,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 107.2,
         "averageRunDepthPct": 77.1,
         "averageBattlesUsed": 0.2,
@@ -24401,7 +24401,7 @@
       },
       "4": {
         "runCount": 134,
-        "averageParticipationPct": 6.9,
+        "averageParticipationPct": 6.8,
         "averageRunDepthStep": 104.3,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.2,
@@ -24490,7 +24490,7 @@
       },
       "3": {
         "runCount": 134,
-        "averageParticipationPct": 6.9,
+        "averageParticipationPct": 6.8,
         "averageRunDepthStep": 104.3,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.2,
@@ -24579,7 +24579,7 @@
       },
       "2": {
         "runCount": 134,
-        "averageParticipationPct": 6.9,
+        "averageParticipationPct": 6.8,
         "averageRunDepthStep": 104.3,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.2,
@@ -24668,7 +24668,7 @@
       },
       "1": {
         "runCount": 134,
-        "averageParticipationPct": 6.9,
+        "averageParticipationPct": 6.8,
         "averageRunDepthStep": 104.3,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.2,

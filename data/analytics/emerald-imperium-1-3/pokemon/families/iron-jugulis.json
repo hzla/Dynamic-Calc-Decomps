@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "iron-jugulis",
   "familyMembers": [
     "Iron Jugulis"
@@ -5333,10 +5333,10 @@
           ]
         },
         "79": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5396,6 +5396,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -5409,23 +5417,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "78": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5485,6 +5485,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -5498,23 +5506,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "77": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5574,6 +5574,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -5587,23 +5595,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "76": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5663,6 +5663,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -5676,23 +5684,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "75": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5752,6 +5752,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -5765,23 +5773,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "74": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5841,6 +5841,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -5854,23 +5862,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "73": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5930,6 +5930,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -5943,23 +5951,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "72": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6019,6 +6019,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6032,23 +6040,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "71": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6108,6 +6108,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6121,23 +6129,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "70": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6197,6 +6197,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6210,23 +6218,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "69": {
-          "runCount": 16,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 129.7,
-          "averageRunDepthPct": 93.3,
+          "runCount": 17,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 126.7,
+          "averageRunDepthPct": 91.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6286,6 +6286,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6299,23 +6307,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "68": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6375,6 +6375,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6388,23 +6396,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "67": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6464,6 +6464,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6477,23 +6485,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "66": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6553,6 +6553,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6566,23 +6574,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "65": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6642,6 +6642,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6655,23 +6663,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "64": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6731,6 +6731,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6744,23 +6752,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "63": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6820,6 +6820,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6833,23 +6841,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "62": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6909,6 +6909,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -6922,23 +6930,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "61": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6998,6 +6998,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7011,23 +7019,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "60": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7087,6 +7087,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7100,23 +7108,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "59": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7176,6 +7176,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7189,23 +7197,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "58": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7265,6 +7265,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7278,23 +7286,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "57": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7354,6 +7354,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7367,23 +7375,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "56": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7443,6 +7443,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7456,23 +7464,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "55": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7532,6 +7532,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7545,23 +7553,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "54": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7621,6 +7621,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7634,23 +7642,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "53": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7710,6 +7710,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7723,23 +7731,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "52": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7799,6 +7799,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7812,23 +7820,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "51": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7888,6 +7888,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7901,23 +7909,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "50": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -7977,6 +7977,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -7990,23 +7998,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "49": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8066,6 +8066,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8079,23 +8087,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "48": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8155,6 +8155,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8168,23 +8176,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "47": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8244,6 +8244,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8257,23 +8265,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "46": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8333,6 +8333,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8346,23 +8354,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "45": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8422,6 +8422,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8435,23 +8443,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "44": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8511,6 +8511,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8524,23 +8532,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "43": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8600,6 +8600,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8613,23 +8621,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "42": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8689,6 +8689,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8702,23 +8710,15 @@
               "leadLevel": null,
               "partyCount": 0,
               "ownedCount": 3,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
               "participationPct": 0
             }
           ]
         },
         "41": {
-          "runCount": 17,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 126.1,
-          "averageRunDepthPct": 90.7,
+          "runCount": 18,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8778,6 +8778,14 @@
               "participationPct": 50
             },
             {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
               "usageKey": "586",
               "displayName": "586",
               "leadLevel": null,
@@ -8792,22 +8800,14 @@
               "partyCount": 0,
               "ownedCount": 3,
               "participationPct": 0
-            },
-            {
-              "usageKey": "588",
-              "displayName": "588",
-              "leadLevel": null,
-              "partyCount": 0,
-              "ownedCount": 2,
-              "participationPct": 0
             }
           ]
         },
         "40": {
-          "runCount": 18,
-          "averageParticipationPct": 18.9,
-          "averageRunDepthStep": 121.3,
-          "averageRunDepthPct": 87.3,
+          "runCount": 19,
+          "averageParticipationPct": 23.2,
+          "averageRunDepthStep": 119.1,
+          "averageRunDepthPct": 85.6,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8883,20 +8883,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "586",
-              "displayName": "586",
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
               "leadLevel": null,
-              "partyCount": 0,
+              "partyCount": 1,
               "ownedCount": 2,
-              "participationPct": 0
+              "participationPct": 50
             }
           ]
         },
         "39": {
-          "runCount": 19,
-          "averageParticipationPct": 19.2,
-          "averageRunDepthStep": 116.9,
-          "averageRunDepthPct": 84.1,
+          "runCount": 20,
+          "averageParticipationPct": 23.2,
+          "averageRunDepthStep": 115.0,
+          "averageRunDepthPct": 82.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8972,9 +8972,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "677",
-              "displayName": "Twins Tori And Tia",
-              "leadLevel": -2,
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -8982,10 +8982,10 @@
           ]
         },
         "38": {
-          "runCount": 20,
-          "averageParticipationPct": 23.2,
-          "averageRunDepthStep": 113.0,
-          "averageRunDepthPct": 81.3,
+          "runCount": 21,
+          "averageParticipationPct": 26.9,
+          "averageRunDepthStep": 111.4,
+          "averageRunDepthPct": 80.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -9071,10 +9071,10 @@
           ]
         },
         "37": {
-          "runCount": 20,
-          "averageParticipationPct": 23.2,
-          "averageRunDepthStep": 113.0,
-          "averageRunDepthPct": 81.3,
+          "runCount": 21,
+          "averageParticipationPct": 26.9,
+          "averageRunDepthStep": 111.4,
+          "averageRunDepthPct": 80.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -9160,10 +9160,10 @@
           ]
         },
         "36": {
-          "runCount": 20,
-          "averageParticipationPct": 23.2,
-          "averageRunDepthStep": 113.0,
-          "averageRunDepthPct": 81.3,
+          "runCount": 21,
+          "averageParticipationPct": 26.9,
+          "averageRunDepthStep": 111.4,
+          "averageRunDepthPct": 80.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -9249,10 +9249,10 @@
           ]
         },
         "35": {
-          "runCount": 21,
-          "averageParticipationPct": 26.9,
-          "averageRunDepthStep": 109.3,
-          "averageRunDepthPct": 78.6,
+          "runCount": 22,
+          "averageParticipationPct": 30.2,
+          "averageRunDepthStep": 107.9,
+          "averageRunDepthPct": 77.6,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
@@ -9338,10 +9338,10 @@
           ]
         },
         "34": {
-          "runCount": 21,
-          "averageParticipationPct": 26.9,
-          "averageRunDepthStep": 109.3,
-          "averageRunDepthPct": 78.6,
+          "runCount": 22,
+          "averageParticipationPct": 30.2,
+          "averageRunDepthStep": 107.9,
+          "averageRunDepthPct": 77.6,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
@@ -9427,10 +9427,10 @@
           ]
         },
         "33": {
-          "runCount": 21,
-          "averageParticipationPct": 26.9,
-          "averageRunDepthStep": 109.3,
-          "averageRunDepthPct": 78.6,
+          "runCount": 22,
+          "averageParticipationPct": 30.2,
+          "averageRunDepthStep": 107.9,
+          "averageRunDepthPct": 77.6,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
@@ -9516,10 +9516,10 @@
           ]
         },
         "32": {
-          "runCount": 21,
-          "averageParticipationPct": 26.9,
-          "averageRunDepthStep": 109.3,
-          "averageRunDepthPct": 78.6,
+          "runCount": 22,
+          "averageParticipationPct": 30.2,
+          "averageRunDepthStep": 107.9,
+          "averageRunDepthPct": 77.6,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
@@ -9605,10 +9605,10 @@
           ]
         },
         "31": {
-          "runCount": 21,
-          "averageParticipationPct": 26.9,
-          "averageRunDepthStep": 109.3,
-          "averageRunDepthPct": 78.6,
+          "runCount": 22,
+          "averageParticipationPct": 30.2,
+          "averageRunDepthStep": 107.9,
+          "averageRunDepthPct": 77.6,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
@@ -9694,11 +9694,11 @@
           ]
         },
         "30": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -9783,11 +9783,11 @@
           ]
         },
         "29": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -9872,11 +9872,11 @@
           ]
         },
         "28": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -9961,11 +9961,11 @@
           ]
         },
         "27": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10050,11 +10050,11 @@
           ]
         },
         "26": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10139,11 +10139,11 @@
           ]
         },
         "25": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10228,11 +10228,11 @@
           ]
         },
         "24": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10317,11 +10317,11 @@
           ]
         },
         "23": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10406,11 +10406,11 @@
           ]
         },
         "22": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10495,11 +10495,11 @@
           ]
         },
         "21": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10584,11 +10584,11 @@
           ]
         },
         "20": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10673,11 +10673,11 @@
           ]
         },
         "19": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10762,11 +10762,11 @@
           ]
         },
         "18": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10851,11 +10851,11 @@
           ]
         },
         "17": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -10940,11 +10940,11 @@
           ]
         },
         "16": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -11029,11 +11029,11 @@
           ]
         },
         "15": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -11118,11 +11118,11 @@
           ]
         },
         "14": {
-          "runCount": 23,
-          "averageParticipationPct": 24.6,
-          "averageRunDepthStep": 102.4,
-          "averageRunDepthPct": 73.7,
-          "averageBattlesUsed": 1.3,
+          "runCount": 24,
+          "averageParticipationPct": 27.7,
+          "averageRunDepthStep": 101.4,
+          "averageRunDepthPct": 73.0,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "261",
@@ -11207,10 +11207,10 @@
           ]
         },
         "13": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -11296,10 +11296,10 @@
           ]
         },
         "12": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -11385,10 +11385,10 @@
           ]
         },
         "11": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -11474,10 +11474,10 @@
           ]
         },
         "10": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -11563,10 +11563,10 @@
           ]
         },
         "9": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -11652,10 +11652,10 @@
           ]
         },
         "8": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -11741,10 +11741,10 @@
           ]
         },
         "7": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -11830,10 +11830,10 @@
           ]
         },
         "6": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -11919,10 +11919,10 @@
           ]
         },
         "5": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -12008,10 +12008,10 @@
           ]
         },
         "4": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -12097,10 +12097,10 @@
           ]
         },
         "3": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -12186,10 +12186,10 @@
           ]
         },
         "2": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -12275,10 +12275,10 @@
           ]
         },
         "1": {
-          "runCount": 25,
-          "averageParticipationPct": 26.6,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 26,
+          "averageParticipationPct": 29.4,
+          "averageRunDepthStep": 94.6,
+          "averageRunDepthPct": 68.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -17693,10 +17693,10 @@
         ]
       },
       "79": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -17756,6 +17756,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -17769,23 +17777,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "78": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -17845,6 +17845,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -17858,23 +17866,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "77": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -17934,6 +17934,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -17947,23 +17955,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "76": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -18023,6 +18023,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18036,23 +18044,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "75": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -18112,6 +18112,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18125,23 +18133,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "74": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -18201,6 +18201,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18214,23 +18222,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "73": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -18290,6 +18290,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18303,23 +18311,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "72": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -18379,6 +18379,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18392,23 +18400,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "71": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -18468,6 +18468,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18481,23 +18489,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "70": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -18557,6 +18557,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18570,23 +18578,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "69": {
-        "runCount": 16,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 129.7,
-        "averageRunDepthPct": 93.3,
+        "runCount": 17,
+        "averageParticipationPct": 22.0,
+        "averageRunDepthStep": 126.7,
+        "averageRunDepthPct": 91.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -18646,6 +18646,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18659,23 +18667,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "68": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -18735,6 +18735,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18748,23 +18756,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "67": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -18824,6 +18824,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18837,23 +18845,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "66": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -18913,6 +18913,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -18926,23 +18934,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "65": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19002,6 +19002,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19015,23 +19023,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "64": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19091,6 +19091,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19104,23 +19112,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "63": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19180,6 +19180,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19193,23 +19201,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "62": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19269,6 +19269,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19282,23 +19290,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "61": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19358,6 +19358,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19371,23 +19379,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "60": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19447,6 +19447,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19460,23 +19468,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "59": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19536,6 +19536,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19549,23 +19557,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "58": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19625,6 +19625,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19638,23 +19646,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "57": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19714,6 +19714,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19727,23 +19735,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "56": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19803,6 +19803,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19816,23 +19824,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "55": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19892,6 +19892,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19905,23 +19913,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "54": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -19981,6 +19981,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -19994,23 +20002,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "53": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20070,6 +20070,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20083,23 +20091,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "52": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20159,6 +20159,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20172,23 +20180,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "51": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20248,6 +20248,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20261,23 +20269,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "50": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20337,6 +20337,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20350,23 +20358,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "49": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20426,6 +20426,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20439,23 +20447,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "48": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20515,6 +20515,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20528,23 +20536,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "47": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20604,6 +20604,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20617,23 +20625,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "46": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20693,6 +20693,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20706,23 +20714,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "45": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20782,6 +20782,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20795,23 +20803,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "44": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20871,6 +20871,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20884,23 +20892,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "43": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -20960,6 +20960,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -20973,23 +20981,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "42": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -21049,6 +21049,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -21062,23 +21070,15 @@
             "leadLevel": null,
             "partyCount": 0,
             "ownedCount": 3,
-            "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
             "participationPct": 0
           }
         ]
       },
       "41": {
-        "runCount": 17,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 126.1,
-        "averageRunDepthPct": 90.7,
+        "runCount": 18,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 123.4,
+        "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -21138,6 +21138,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
@@ -21152,22 +21160,14 @@
             "partyCount": 0,
             "ownedCount": 3,
             "participationPct": 0
-          },
-          {
-            "usageKey": "588",
-            "displayName": "588",
-            "leadLevel": null,
-            "partyCount": 0,
-            "ownedCount": 2,
-            "participationPct": 0
           }
         ]
       },
       "40": {
-        "runCount": 18,
-        "averageParticipationPct": 18.9,
-        "averageRunDepthStep": 121.3,
-        "averageRunDepthPct": 87.3,
+        "runCount": 19,
+        "averageParticipationPct": 23.2,
+        "averageRunDepthStep": 119.1,
+        "averageRunDepthPct": 85.6,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -21243,20 +21243,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "586",
-            "displayName": "586",
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
             "leadLevel": null,
-            "partyCount": 0,
+            "partyCount": 1,
             "ownedCount": 2,
-            "participationPct": 0
+            "participationPct": 50
           }
         ]
       },
       "39": {
-        "runCount": 19,
-        "averageParticipationPct": 19.2,
-        "averageRunDepthStep": 116.9,
-        "averageRunDepthPct": 84.1,
+        "runCount": 20,
+        "averageParticipationPct": 23.2,
+        "averageRunDepthStep": 115.0,
+        "averageRunDepthPct": 82.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -21332,9 +21332,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "677",
-            "displayName": "Twins Tori And Tia",
-            "leadLevel": -2,
+            "usageKey": "Rival Iriv24",
+            "displayName": "Rival Iriv24",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -21342,10 +21342,10 @@
         ]
       },
       "38": {
-        "runCount": 20,
-        "averageParticipationPct": 23.2,
-        "averageRunDepthStep": 113.0,
-        "averageRunDepthPct": 81.3,
+        "runCount": 21,
+        "averageParticipationPct": 26.9,
+        "averageRunDepthStep": 111.4,
+        "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -21431,10 +21431,10 @@
         ]
       },
       "37": {
-        "runCount": 20,
-        "averageParticipationPct": 23.2,
-        "averageRunDepthStep": 113.0,
-        "averageRunDepthPct": 81.3,
+        "runCount": 21,
+        "averageParticipationPct": 26.9,
+        "averageRunDepthStep": 111.4,
+        "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -21520,10 +21520,10 @@
         ]
       },
       "36": {
-        "runCount": 20,
-        "averageParticipationPct": 23.2,
-        "averageRunDepthStep": 113.0,
-        "averageRunDepthPct": 81.3,
+        "runCount": 21,
+        "averageParticipationPct": 26.9,
+        "averageRunDepthStep": 111.4,
+        "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -21609,10 +21609,10 @@
         ]
       },
       "35": {
-        "runCount": 21,
-        "averageParticipationPct": 26.9,
-        "averageRunDepthStep": 109.3,
-        "averageRunDepthPct": 78.6,
+        "runCount": 22,
+        "averageParticipationPct": 30.2,
+        "averageRunDepthStep": 107.9,
+        "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
@@ -21698,10 +21698,10 @@
         ]
       },
       "34": {
-        "runCount": 21,
-        "averageParticipationPct": 26.9,
-        "averageRunDepthStep": 109.3,
-        "averageRunDepthPct": 78.6,
+        "runCount": 22,
+        "averageParticipationPct": 30.2,
+        "averageRunDepthStep": 107.9,
+        "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
@@ -21787,10 +21787,10 @@
         ]
       },
       "33": {
-        "runCount": 21,
-        "averageParticipationPct": 26.9,
-        "averageRunDepthStep": 109.3,
-        "averageRunDepthPct": 78.6,
+        "runCount": 22,
+        "averageParticipationPct": 30.2,
+        "averageRunDepthStep": 107.9,
+        "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
@@ -21876,10 +21876,10 @@
         ]
       },
       "32": {
-        "runCount": 21,
-        "averageParticipationPct": 26.9,
-        "averageRunDepthStep": 109.3,
-        "averageRunDepthPct": 78.6,
+        "runCount": 22,
+        "averageParticipationPct": 30.2,
+        "averageRunDepthStep": 107.9,
+        "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
@@ -21965,10 +21965,10 @@
         ]
       },
       "31": {
-        "runCount": 21,
-        "averageParticipationPct": 26.9,
-        "averageRunDepthStep": 109.3,
-        "averageRunDepthPct": 78.6,
+        "runCount": 22,
+        "averageParticipationPct": 30.2,
+        "averageRunDepthStep": 107.9,
+        "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
@@ -22054,11 +22054,11 @@
         ]
       },
       "30": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22143,11 +22143,11 @@
         ]
       },
       "29": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22232,11 +22232,11 @@
         ]
       },
       "28": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22321,11 +22321,11 @@
         ]
       },
       "27": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22410,11 +22410,11 @@
         ]
       },
       "26": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22499,11 +22499,11 @@
         ]
       },
       "25": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22588,11 +22588,11 @@
         ]
       },
       "24": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22677,11 +22677,11 @@
         ]
       },
       "23": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22766,11 +22766,11 @@
         ]
       },
       "22": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22855,11 +22855,11 @@
         ]
       },
       "21": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -22944,11 +22944,11 @@
         ]
       },
       "20": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -23033,11 +23033,11 @@
         ]
       },
       "19": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -23122,11 +23122,11 @@
         ]
       },
       "18": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -23211,11 +23211,11 @@
         ]
       },
       "17": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -23300,11 +23300,11 @@
         ]
       },
       "16": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -23389,11 +23389,11 @@
         ]
       },
       "15": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -23478,11 +23478,11 @@
         ]
       },
       "14": {
-        "runCount": 23,
-        "averageParticipationPct": 24.6,
-        "averageRunDepthStep": 102.4,
-        "averageRunDepthPct": 73.7,
-        "averageBattlesUsed": 1.3,
+        "runCount": 24,
+        "averageParticipationPct": 27.7,
+        "averageRunDepthStep": 101.4,
+        "averageRunDepthPct": 73.0,
+        "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "261",
@@ -23567,10 +23567,10 @@
         ]
       },
       "13": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -23656,10 +23656,10 @@
         ]
       },
       "12": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -23745,10 +23745,10 @@
         ]
       },
       "11": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -23834,10 +23834,10 @@
         ]
       },
       "10": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -23923,10 +23923,10 @@
         ]
       },
       "9": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -24012,10 +24012,10 @@
         ]
       },
       "8": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -24101,10 +24101,10 @@
         ]
       },
       "7": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -24190,10 +24190,10 @@
         ]
       },
       "6": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -24279,10 +24279,10 @@
         ]
       },
       "5": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -24368,10 +24368,10 @@
         ]
       },
       "4": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -24457,10 +24457,10 @@
         ]
       },
       "3": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -24546,10 +24546,10 @@
         ]
       },
       "2": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -24635,10 +24635,10 @@
         ]
       },
       "1": {
-        "runCount": 25,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 26,
+        "averageParticipationPct": 29.4,
+        "averageRunDepthStep": 94.6,
+        "averageRunDepthPct": 68.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {

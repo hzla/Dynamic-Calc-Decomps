@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "swinub",
   "familyMembers": [
     "Mamoswine",
@@ -190,7 +190,7 @@
         },
         "137": {
           "runCount": 20,
-          "averageParticipationPct": 13.4,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 137.8,
           "averageRunDepthPct": 99.1,
           "averageBattlesUsed": 1.1,
@@ -279,7 +279,7 @@
         },
         "136": {
           "runCount": 20,
-          "averageParticipationPct": 13.4,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 137.8,
           "averageRunDepthPct": 99.1,
           "averageBattlesUsed": 1.1,
@@ -368,7 +368,7 @@
         },
         "135": {
           "runCount": 24,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 137.3,
           "averageRunDepthPct": 98.8,
           "averageBattlesUsed": 1.1,
@@ -457,7 +457,7 @@
         },
         "134": {
           "runCount": 24,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 137.3,
           "averageRunDepthPct": 98.8,
           "averageBattlesUsed": 1.1,
@@ -546,7 +546,7 @@
         },
         "133": {
           "runCount": 27,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 136.8,
           "averageRunDepthPct": 98.4,
           "averageBattlesUsed": 1.3,
@@ -635,7 +635,7 @@
         },
         "132": {
           "runCount": 27,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 136.8,
           "averageRunDepthPct": 98.4,
           "averageBattlesUsed": 1.3,
@@ -724,7 +724,7 @@
         },
         "131": {
           "runCount": 29,
-          "averageParticipationPct": 12.6,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 136.4,
           "averageRunDepthPct": 98.1,
           "averageBattlesUsed": 1.2,
@@ -813,7 +813,7 @@
         },
         "130": {
           "runCount": 32,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 135.8,
           "averageRunDepthPct": 97.7,
           "averageBattlesUsed": 1.2,
@@ -902,7 +902,7 @@
         },
         "129": {
           "runCount": 33,
-          "averageParticipationPct": 12.8,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 135.6,
           "averageRunDepthPct": 97.6,
           "averageBattlesUsed": 1.3,
@@ -991,7 +991,7 @@
         },
         "128": {
           "runCount": 33,
-          "averageParticipationPct": 12.8,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 135.6,
           "averageRunDepthPct": 97.6,
           "averageBattlesUsed": 1.3,
@@ -1080,7 +1080,7 @@
         },
         "127": {
           "runCount": 34,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 135.4,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 1.3,
@@ -1169,7 +1169,7 @@
         },
         "126": {
           "runCount": 36,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 134.8,
           "averageRunDepthPct": 97.0,
           "averageBattlesUsed": 1.2,
@@ -1258,7 +1258,7 @@
         },
         "125": {
           "runCount": 36,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 134.8,
           "averageRunDepthPct": 97.0,
           "averageBattlesUsed": 1.2,
@@ -1347,7 +1347,7 @@
         },
         "124": {
           "runCount": 38,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.6,
           "averageBattlesUsed": 1.3,
@@ -1389,8 +1389,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -1436,7 +1436,7 @@
         },
         "123": {
           "runCount": 39,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 134.0,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.3,
@@ -1478,8 +1478,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -1525,7 +1525,7 @@
         },
         "122": {
           "runCount": 39,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 134.0,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.3,
@@ -1567,8 +1567,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -1614,7 +1614,7 @@
         },
         "121": {
           "runCount": 39,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 134.0,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.3,
@@ -1656,8 +1656,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -1703,7 +1703,7 @@
         },
         "120": {
           "runCount": 39,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 134.0,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.3,
@@ -1745,8 +1745,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -1791,10 +1791,10 @@
           ]
         },
         "119": {
-          "runCount": 39,
-          "averageParticipationPct": 13.2,
-          "averageRunDepthStep": 134.0,
-          "averageRunDepthPct": 96.4,
+          "runCount": 40,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 133.6,
+          "averageRunDepthPct": 96.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -1834,8 +1834,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -1880,10 +1880,10 @@
           ]
         },
         "118": {
-          "runCount": 39,
-          "averageParticipationPct": 13.2,
-          "averageRunDepthStep": 134.0,
-          "averageRunDepthPct": 96.4,
+          "runCount": 40,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 133.6,
+          "averageRunDepthPct": 96.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -1923,8 +1923,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -1969,10 +1969,10 @@
           ]
         },
         "117": {
-          "runCount": 41,
-          "averageParticipationPct": 12.6,
-          "averageRunDepthStep": 133.1,
-          "averageRunDepthPct": 95.8,
+          "runCount": 42,
+          "averageParticipationPct": 14.2,
+          "averageRunDepthStep": 132.8,
+          "averageRunDepthPct": 95.5,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -2012,8 +2012,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2058,10 +2058,10 @@
           ]
         },
         "116": {
-          "runCount": 43,
-          "averageParticipationPct": 12.0,
-          "averageRunDepthStep": 132.3,
-          "averageRunDepthPct": 95.2,
+          "runCount": 44,
+          "averageParticipationPct": 13.6,
+          "averageRunDepthStep": 132.0,
+          "averageRunDepthPct": 95.0,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -2101,8 +2101,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2147,10 +2147,10 @@
           ]
         },
         "115": {
-          "runCount": 48,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 130.5,
-          "averageRunDepthPct": 93.9,
+          "runCount": 49,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 130.3,
+          "averageRunDepthPct": 93.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -2190,8 +2190,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2236,10 +2236,10 @@
           ]
         },
         "114": {
-          "runCount": 48,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 130.5,
-          "averageRunDepthPct": 93.9,
+          "runCount": 49,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 130.3,
+          "averageRunDepthPct": 93.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -2279,8 +2279,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2325,10 +2325,10 @@
           ]
         },
         "113": {
-          "runCount": 48,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 130.5,
-          "averageRunDepthPct": 93.9,
+          "runCount": 49,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 130.3,
+          "averageRunDepthPct": 93.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -2368,8 +2368,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2414,10 +2414,10 @@
           ]
         },
         "112": {
-          "runCount": 48,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 130.5,
-          "averageRunDepthPct": 93.9,
+          "runCount": 49,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 130.3,
+          "averageRunDepthPct": 93.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -2457,8 +2457,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2503,10 +2503,10 @@
           ]
         },
         "111": {
-          "runCount": 48,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 130.5,
-          "averageRunDepthPct": 93.9,
+          "runCount": 49,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 130.3,
+          "averageRunDepthPct": 93.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -2546,8 +2546,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2592,10 +2592,10 @@
           ]
         },
         "110": {
-          "runCount": 48,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 130.5,
-          "averageRunDepthPct": 93.9,
+          "runCount": 49,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 130.3,
+          "averageRunDepthPct": 93.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -2635,8 +2635,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2681,10 +2681,10 @@
           ]
         },
         "109": {
-          "runCount": 48,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 130.5,
-          "averageRunDepthPct": 93.9,
+          "runCount": 49,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 130.3,
+          "averageRunDepthPct": 93.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -2724,8 +2724,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2770,10 +2770,10 @@
           ]
         },
         "108": {
-          "runCount": 48,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 130.5,
-          "averageRunDepthPct": 93.9,
+          "runCount": 49,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 130.3,
+          "averageRunDepthPct": 93.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -2813,8 +2813,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "268",
@@ -2859,10 +2859,10 @@
           ]
         },
         "107": {
-          "runCount": 53,
-          "averageParticipationPct": 9.7,
-          "averageRunDepthStep": 128.3,
-          "averageRunDepthPct": 92.3,
+          "runCount": 54,
+          "averageParticipationPct": 11.1,
+          "averageRunDepthStep": 128.1,
+          "averageRunDepthPct": 92.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -2898,14 +2898,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Elite Four Drake",
-              "displayName": "Elite Four Drake",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
@@ -2920,6 +2912,14 @@
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "Elite Four Drake",
+              "displayName": "Elite Four Drake",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "713",
@@ -2948,10 +2948,10 @@
           ]
         },
         "106": {
-          "runCount": 57,
-          "averageParticipationPct": 9.0,
-          "averageRunDepthStep": 126.8,
-          "averageRunDepthPct": 91.2,
+          "runCount": 58,
+          "averageParticipationPct": 10.3,
+          "averageRunDepthStep": 126.6,
+          "averageRunDepthPct": 91.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -2987,14 +2987,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Elite Four Drake",
-              "displayName": "Elite Four Drake",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
@@ -3009,6 +3001,14 @@
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "Elite Four Drake",
+              "displayName": "Elite Four Drake",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "713",
@@ -3037,9 +3037,9 @@
           ]
         },
         "105": {
-          "runCount": 62,
-          "averageParticipationPct": 8.6,
-          "averageRunDepthStep": 125.0,
+          "runCount": 63,
+          "averageParticipationPct": 9.8,
+          "averageRunDepthStep": 124.9,
           "averageRunDepthPct": 89.9,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -3092,20 +3092,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Elite Four Drake",
-              "displayName": "Elite Four Drake",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "Elite Four Drake",
+              "displayName": "Elite Four Drake",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "270",
@@ -3126,10 +3126,10 @@
           ]
         },
         "104": {
-          "runCount": 63,
-          "averageParticipationPct": 8.4,
-          "averageRunDepthStep": 124.7,
-          "averageRunDepthPct": 89.7,
+          "runCount": 64,
+          "averageParticipationPct": 9.6,
+          "averageRunDepthStep": 124.6,
+          "averageRunDepthPct": 89.6,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -3181,20 +3181,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Elite Four Drake",
-              "displayName": "Elite Four Drake",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "Elite Four Drake",
+              "displayName": "Elite Four Drake",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "270",
@@ -3215,9 +3215,9 @@
           ]
         },
         "103": {
-          "runCount": 68,
-          "averageParticipationPct": 8.4,
-          "averageRunDepthStep": 123.1,
+          "runCount": 69,
+          "averageParticipationPct": 9.5,
+          "averageRunDepthStep": 123.0,
           "averageRunDepthPct": 88.5,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -3270,20 +3270,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Elite Four Drake",
-              "displayName": "Elite Four Drake",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "Elite Four Drake",
+              "displayName": "Elite Four Drake",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "270",
@@ -3304,9 +3304,9 @@
           ]
         },
         "102": {
-          "runCount": 70,
-          "averageParticipationPct": 8.3,
-          "averageRunDepthStep": 122.5,
+          "runCount": 71,
+          "averageParticipationPct": 9.4,
+          "averageRunDepthStep": 122.4,
           "averageRunDepthPct": 88.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -3363,8 +3363,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "268",
@@ -3393,9 +3393,9 @@
           ]
         },
         "101": {
-          "runCount": 70,
-          "averageParticipationPct": 8.3,
-          "averageRunDepthStep": 122.5,
+          "runCount": 71,
+          "averageParticipationPct": 9.4,
+          "averageRunDepthStep": 122.4,
           "averageRunDepthPct": 88.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -3452,8 +3452,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "268",
@@ -3482,9 +3482,9 @@
           ]
         },
         "100": {
-          "runCount": 70,
-          "averageParticipationPct": 8.3,
-          "averageRunDepthStep": 122.5,
+          "runCount": 71,
+          "averageParticipationPct": 9.4,
+          "averageRunDepthStep": 122.4,
           "averageRunDepthPct": 88.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -3541,8 +3541,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "268",
@@ -3571,9 +3571,9 @@
           ]
         },
         "99": {
-          "runCount": 70,
-          "averageParticipationPct": 8.3,
-          "averageRunDepthStep": 122.5,
+          "runCount": 71,
+          "averageParticipationPct": 9.4,
+          "averageRunDepthStep": 122.4,
           "averageRunDepthPct": 88.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -3630,8 +3630,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "268",
@@ -3660,10 +3660,10 @@
           ]
         },
         "98": {
-          "runCount": 71,
-          "averageParticipationPct": 8.2,
+          "runCount": 72,
+          "averageParticipationPct": 9.2,
           "averageRunDepthStep": 122.1,
-          "averageRunDepthPct": 87.9,
+          "averageRunDepthPct": 87.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -3719,8 +3719,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "268",
@@ -3749,10 +3749,10 @@
           ]
         },
         "97": {
-          "runCount": 71,
-          "averageParticipationPct": 8.2,
+          "runCount": 72,
+          "averageParticipationPct": 9.2,
           "averageRunDepthStep": 122.1,
-          "averageRunDepthPct": 87.9,
+          "averageRunDepthPct": 87.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -3808,8 +3808,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "268",
@@ -3838,10 +3838,10 @@
           ]
         },
         "96": {
-          "runCount": 71,
-          "averageParticipationPct": 8.2,
+          "runCount": 72,
+          "averageParticipationPct": 9.2,
           "averageRunDepthStep": 122.1,
-          "averageRunDepthPct": 87.9,
+          "averageRunDepthPct": 87.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -3897,8 +3897,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "268",
@@ -3927,8 +3927,8 @@
           ]
         },
         "95": {
-          "runCount": 73,
-          "averageParticipationPct": 8.0,
+          "runCount": 74,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 121.4,
           "averageRunDepthPct": 87.3,
           "averageBattlesUsed": 0.8,
@@ -3986,8 +3986,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "268",
@@ -4016,10 +4016,10 @@
           ]
         },
         "94": {
-          "runCount": 74,
-          "averageParticipationPct": 8.0,
+          "runCount": 75,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 121.0,
-          "averageRunDepthPct": 87.1,
+          "averageRunDepthPct": 87.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -4075,8 +4075,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "270",
@@ -4105,10 +4105,10 @@
           ]
         },
         "93": {
-          "runCount": 74,
-          "averageParticipationPct": 8.0,
+          "runCount": 75,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 121.0,
-          "averageRunDepthPct": 87.1,
+          "averageRunDepthPct": 87.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -4164,8 +4164,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "270",
@@ -4194,10 +4194,10 @@
           ]
         },
         "92": {
-          "runCount": 74,
-          "averageParticipationPct": 8.0,
+          "runCount": 75,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 121.0,
-          "averageRunDepthPct": 87.1,
+          "averageRunDepthPct": 87.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -4253,8 +4253,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "270",
@@ -4283,8 +4283,8 @@
           ]
         },
         "91": {
-          "runCount": 76,
-          "averageParticipationPct": 7.8,
+          "runCount": 77,
+          "averageParticipationPct": 8.8,
           "averageRunDepthStep": 120.2,
           "averageRunDepthPct": 86.5,
           "averageBattlesUsed": 0.8,
@@ -4342,8 +4342,8 @@
               "displayName": "Elite Four Drake",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "270",
@@ -4372,8 +4372,8 @@
           ]
         },
         "90": {
-          "runCount": 80,
-          "averageParticipationPct": 9.0,
+          "runCount": 81,
+          "averageParticipationPct": 10.0,
           "averageRunDepthStep": 118.7,
           "averageRunDepthPct": 85.4,
           "averageBattlesUsed": 0.9,
@@ -4461,9 +4461,9 @@
           ]
         },
         "89": {
-          "runCount": 83,
-          "averageParticipationPct": 9.9,
-          "averageRunDepthStep": 117.6,
+          "runCount": 84,
+          "averageParticipationPct": 10.8,
+          "averageRunDepthStep": 117.7,
           "averageRunDepthPct": 84.6,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -4550,9 +4550,9 @@
           ]
         },
         "88": {
-          "runCount": 83,
-          "averageParticipationPct": 9.9,
-          "averageRunDepthStep": 117.6,
+          "runCount": 84,
+          "averageParticipationPct": 10.8,
+          "averageRunDepthStep": 117.7,
           "averageRunDepthPct": 84.6,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -4639,8 +4639,8 @@
           ]
         },
         "87": {
-          "runCount": 84,
-          "averageParticipationPct": 9.8,
+          "runCount": 85,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 117.3,
           "averageRunDepthPct": 84.4,
           "averageBattlesUsed": 0.9,
@@ -4728,8 +4728,8 @@
           ]
         },
         "86": {
-          "runCount": 85,
-          "averageParticipationPct": 9.9,
+          "runCount": 86,
+          "averageParticipationPct": 10.8,
           "averageRunDepthStep": 116.9,
           "averageRunDepthPct": 84.1,
           "averageBattlesUsed": 0.9,
@@ -4817,10 +4817,10 @@
           ]
         },
         "85": {
-          "runCount": 86,
-          "averageParticipationPct": 10.1,
-          "averageRunDepthStep": 116.5,
-          "averageRunDepthPct": 83.8,
+          "runCount": 87,
+          "averageParticipationPct": 10.9,
+          "averageRunDepthStep": 116.6,
+          "averageRunDepthPct": 83.9,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -4906,10 +4906,10 @@
           ]
         },
         "84": {
-          "runCount": 86,
-          "averageParticipationPct": 10.1,
-          "averageRunDepthStep": 116.5,
-          "averageRunDepthPct": 83.8,
+          "runCount": 87,
+          "averageParticipationPct": 10.9,
+          "averageRunDepthStep": 116.6,
+          "averageRunDepthPct": 83.9,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -4995,8 +4995,8 @@
           ]
         },
         "83": {
-          "runCount": 88,
-          "averageParticipationPct": 9.8,
+          "runCount": 89,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 115.8,
           "averageRunDepthPct": 83.3,
           "averageBattlesUsed": 0.9,
@@ -5084,8 +5084,8 @@
           ]
         },
         "82": {
-          "runCount": 91,
-          "averageParticipationPct": 10.2,
+          "runCount": 92,
+          "averageParticipationPct": 11.0,
           "averageRunDepthStep": 114.7,
           "averageRunDepthPct": 82.5,
           "averageBattlesUsed": 1.0,
@@ -5173,9 +5173,9 @@
           ]
         },
         "81": {
-          "runCount": 93,
-          "averageParticipationPct": 10.2,
-          "averageRunDepthStep": 113.9,
+          "runCount": 94,
+          "averageParticipationPct": 11.0,
+          "averageRunDepthStep": 114.0,
           "averageRunDepthPct": 82.0,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -5262,8 +5262,8 @@
           ]
         },
         "80": {
-          "runCount": 94,
-          "averageParticipationPct": 10.1,
+          "runCount": 95,
+          "averageParticipationPct": 10.9,
           "averageRunDepthStep": 113.6,
           "averageRunDepthPct": 81.7,
           "averageBattlesUsed": 1.0,
@@ -5351,10 +5351,10 @@
           ]
         },
         "79": {
-          "runCount": 97,
-          "averageParticipationPct": 10.8,
-          "averageRunDepthStep": 112.5,
-          "averageRunDepthPct": 80.9,
+          "runCount": 98,
+          "averageParticipationPct": 11.6,
+          "averageRunDepthStep": 112.6,
+          "averageRunDepthPct": 81.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5440,8 +5440,8 @@
           ]
         },
         "78": {
-          "runCount": 98,
-          "averageParticipationPct": 10.7,
+          "runCount": 99,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 112.2,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.9,
@@ -5529,8 +5529,8 @@
           ]
         },
         "77": {
-          "runCount": 98,
-          "averageParticipationPct": 10.7,
+          "runCount": 99,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 112.2,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.9,
@@ -5618,8 +5618,8 @@
           ]
         },
         "76": {
-          "runCount": 98,
-          "averageParticipationPct": 10.7,
+          "runCount": 99,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 112.2,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.9,
@@ -5707,8 +5707,8 @@
           ]
         },
         "75": {
-          "runCount": 98,
-          "averageParticipationPct": 10.7,
+          "runCount": 99,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 112.2,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.9,
@@ -5796,10 +5796,10 @@
           ]
         },
         "74": {
-          "runCount": 99,
-          "averageParticipationPct": 10.9,
+          "runCount": 100,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 111.8,
-          "averageRunDepthPct": 80.4,
+          "averageRunDepthPct": 80.5,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -5885,10 +5885,10 @@
           ]
         },
         "73": {
-          "runCount": 99,
-          "averageParticipationPct": 10.9,
+          "runCount": 100,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 111.8,
-          "averageRunDepthPct": 80.4,
+          "averageRunDepthPct": 80.5,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -5974,10 +5974,10 @@
           ]
         },
         "72": {
-          "runCount": 101,
-          "averageParticipationPct": 10.9,
-          "averageRunDepthStep": 111.0,
-          "averageRunDepthPct": 79.8,
+          "runCount": 102,
+          "averageParticipationPct": 11.6,
+          "averageRunDepthStep": 111.1,
+          "averageRunDepthPct": 79.9,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -6063,10 +6063,10 @@
           ]
         },
         "71": {
-          "runCount": 101,
-          "averageParticipationPct": 10.9,
-          "averageRunDepthStep": 111.0,
-          "averageRunDepthPct": 79.8,
+          "runCount": 102,
+          "averageParticipationPct": 11.6,
+          "averageRunDepthStep": 111.1,
+          "averageRunDepthPct": 79.9,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -6152,10 +6152,10 @@
           ]
         },
         "70": {
-          "runCount": 101,
-          "averageParticipationPct": 10.9,
-          "averageRunDepthStep": 111.0,
-          "averageRunDepthPct": 79.8,
+          "runCount": 102,
+          "averageParticipationPct": 11.6,
+          "averageRunDepthStep": 111.1,
+          "averageRunDepthPct": 79.9,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -6241,10 +6241,10 @@
           ]
         },
         "69": {
-          "runCount": 102,
-          "averageParticipationPct": 10.9,
-          "averageRunDepthStep": 110.6,
-          "averageRunDepthPct": 79.5,
+          "runCount": 103,
+          "averageParticipationPct": 11.6,
+          "averageRunDepthStep": 110.7,
+          "averageRunDepthPct": 79.6,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -6330,8 +6330,8 @@
           ]
         },
         "68": {
-          "runCount": 105,
-          "averageParticipationPct": 11.9,
+          "runCount": 106,
+          "averageParticipationPct": 12.5,
           "averageRunDepthStep": 109.4,
           "averageRunDepthPct": 78.7,
           "averageBattlesUsed": 1.0,
@@ -6419,10 +6419,10 @@
           ]
         },
         "67": {
-          "runCount": 108,
-          "averageParticipationPct": 11.9,
-          "averageRunDepthStep": 108.2,
-          "averageRunDepthPct": 77.8,
+          "runCount": 109,
+          "averageParticipationPct": 12.5,
+          "averageRunDepthStep": 108.3,
+          "averageRunDepthPct": 77.9,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -6508,9 +6508,9 @@
           ]
         },
         "66": {
-          "runCount": 110,
-          "averageParticipationPct": 12.5,
-          "averageRunDepthStep": 107.4,
+          "runCount": 111,
+          "averageParticipationPct": 13.2,
+          "averageRunDepthStep": 107.5,
           "averageRunDepthPct": 77.3,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -6597,9 +6597,9 @@
           ]
         },
         "65": {
-          "runCount": 110,
-          "averageParticipationPct": 12.5,
-          "averageRunDepthStep": 107.4,
+          "runCount": 111,
+          "averageParticipationPct": 13.2,
+          "averageRunDepthStep": 107.5,
           "averageRunDepthPct": 77.3,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -6686,9 +6686,9 @@
           ]
         },
         "64": {
-          "runCount": 110,
-          "averageParticipationPct": 12.5,
-          "averageRunDepthStep": 107.4,
+          "runCount": 111,
+          "averageParticipationPct": 13.2,
+          "averageRunDepthStep": 107.5,
           "averageRunDepthPct": 77.3,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -6775,9 +6775,9 @@
           ]
         },
         "63": {
-          "runCount": 110,
-          "averageParticipationPct": 12.5,
-          "averageRunDepthStep": 107.4,
+          "runCount": 111,
+          "averageParticipationPct": 13.2,
+          "averageRunDepthStep": 107.5,
           "averageRunDepthPct": 77.3,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -6864,10 +6864,10 @@
           ]
         },
         "62": {
-          "runCount": 111,
-          "averageParticipationPct": 12.4,
-          "averageRunDepthStep": 107.0,
-          "averageRunDepthPct": 77.0,
+          "runCount": 112,
+          "averageParticipationPct": 13.0,
+          "averageRunDepthStep": 107.1,
+          "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -6953,10 +6953,10 @@
           ]
         },
         "61": {
-          "runCount": 112,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 106.6,
-          "averageRunDepthPct": 76.7,
+          "runCount": 113,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 106.7,
+          "averageRunDepthPct": 76.8,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -7042,10 +7042,10 @@
           ]
         },
         "60": {
-          "runCount": 113,
-          "averageParticipationPct": 12.2,
-          "averageRunDepthStep": 106.2,
-          "averageRunDepthPct": 76.4,
+          "runCount": 114,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 106.3,
+          "averageRunDepthPct": 76.5,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -7131,10 +7131,10 @@
           ]
         },
         "59": {
-          "runCount": 114,
-          "averageParticipationPct": 13.0,
-          "averageRunDepthStep": 105.8,
-          "averageRunDepthPct": 76.1,
+          "runCount": 115,
+          "averageParticipationPct": 13.6,
+          "averageRunDepthStep": 105.9,
+          "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -7220,10 +7220,10 @@
           ]
         },
         "58": {
-          "runCount": 118,
-          "averageParticipationPct": 12.7,
-          "averageRunDepthStep": 104.1,
-          "averageRunDepthPct": 74.9,
+          "runCount": 119,
+          "averageParticipationPct": 13.3,
+          "averageRunDepthStep": 104.3,
+          "averageRunDepthPct": 75.0,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -7309,10 +7309,10 @@
           ]
         },
         "57": {
-          "runCount": 118,
-          "averageParticipationPct": 12.7,
-          "averageRunDepthStep": 104.1,
-          "averageRunDepthPct": 74.9,
+          "runCount": 119,
+          "averageParticipationPct": 13.3,
+          "averageRunDepthStep": 104.3,
+          "averageRunDepthPct": 75.0,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -7398,10 +7398,10 @@
           ]
         },
         "56": {
-          "runCount": 119,
-          "averageParticipationPct": 13.4,
-          "averageRunDepthStep": 103.7,
-          "averageRunDepthPct": 74.6,
+          "runCount": 120,
+          "averageParticipationPct": 14.0,
+          "averageRunDepthStep": 103.9,
+          "averageRunDepthPct": 74.7,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -7487,11 +7487,11 @@
           ]
         },
         "55": {
-          "runCount": 120,
-          "averageParticipationPct": 13.3,
-          "averageRunDepthStep": 103.3,
-          "averageRunDepthPct": 74.3,
-          "averageBattlesUsed": 0.9,
+          "runCount": 121,
+          "averageParticipationPct": 13.9,
+          "averageRunDepthStep": 103.5,
+          "averageRunDepthPct": 74.4,
+          "averageBattlesUsed": 1.0,
           "topBattles": [
             {
               "usageKey": "267",
@@ -7576,10 +7576,10 @@
           ]
         },
         "54": {
-          "runCount": 121,
-          "averageParticipationPct": 13.2,
-          "averageRunDepthStep": 102.9,
-          "averageRunDepthPct": 74.0,
+          "runCount": 122,
+          "averageParticipationPct": 13.8,
+          "averageRunDepthStep": 103.1,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -7665,10 +7665,10 @@
           ]
         },
         "53": {
-          "runCount": 121,
-          "averageParticipationPct": 13.2,
-          "averageRunDepthStep": 102.9,
-          "averageRunDepthPct": 74.0,
+          "runCount": 122,
+          "averageParticipationPct": 13.8,
+          "averageRunDepthStep": 103.1,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -7754,10 +7754,10 @@
           ]
         },
         "52": {
-          "runCount": 121,
-          "averageParticipationPct": 13.2,
-          "averageRunDepthStep": 102.9,
-          "averageRunDepthPct": 74.0,
+          "runCount": 122,
+          "averageParticipationPct": 13.8,
+          "averageRunDepthStep": 103.1,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -7843,10 +7843,10 @@
           ]
         },
         "51": {
-          "runCount": 121,
-          "averageParticipationPct": 13.2,
-          "averageRunDepthStep": 102.9,
-          "averageRunDepthPct": 74.0,
+          "runCount": 122,
+          "averageParticipationPct": 13.8,
+          "averageRunDepthStep": 103.1,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -7932,10 +7932,10 @@
           ]
         },
         "50": {
-          "runCount": 121,
-          "averageParticipationPct": 13.2,
-          "averageRunDepthStep": 102.9,
-          "averageRunDepthPct": 74.0,
+          "runCount": 122,
+          "averageParticipationPct": 13.8,
+          "averageRunDepthStep": 103.1,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8021,10 +8021,10 @@
           ]
         },
         "49": {
-          "runCount": 129,
-          "averageParticipationPct": 13.1,
-          "averageRunDepthStep": 99.6,
-          "averageRunDepthPct": 71.6,
+          "runCount": 130,
+          "averageParticipationPct": 13.7,
+          "averageRunDepthStep": 99.7,
+          "averageRunDepthPct": 71.7,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8110,10 +8110,10 @@
           ]
         },
         "48": {
-          "runCount": 131,
-          "averageParticipationPct": 12.9,
-          "averageRunDepthStep": 98.8,
-          "averageRunDepthPct": 71.1,
+          "runCount": 132,
+          "averageParticipationPct": 13.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8199,10 +8199,10 @@
           ]
         },
         "47": {
-          "runCount": 138,
-          "averageParticipationPct": 13.0,
-          "averageRunDepthStep": 96.2,
-          "averageRunDepthPct": 69.2,
+          "runCount": 139,
+          "averageParticipationPct": 13.5,
+          "averageRunDepthStep": 96.3,
+          "averageRunDepthPct": 69.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8288,10 +8288,10 @@
           ]
         },
         "46": {
-          "runCount": 139,
-          "averageParticipationPct": 13.7,
-          "averageRunDepthStep": 95.8,
-          "averageRunDepthPct": 68.9,
+          "runCount": 140,
+          "averageParticipationPct": 14.2,
+          "averageRunDepthStep": 96.0,
+          "averageRunDepthPct": 69.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8377,10 +8377,10 @@
           ]
         },
         "45": {
-          "runCount": 139,
-          "averageParticipationPct": 13.7,
-          "averageRunDepthStep": 95.8,
-          "averageRunDepthPct": 68.9,
+          "runCount": 140,
+          "averageParticipationPct": 14.2,
+          "averageRunDepthStep": 96.0,
+          "averageRunDepthPct": 69.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8466,10 +8466,10 @@
           ]
         },
         "44": {
-          "runCount": 140,
-          "averageParticipationPct": 13.6,
-          "averageRunDepthStep": 95.4,
-          "averageRunDepthPct": 68.7,
+          "runCount": 141,
+          "averageParticipationPct": 14.1,
+          "averageRunDepthStep": 95.6,
+          "averageRunDepthPct": 68.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8555,10 +8555,10 @@
           ]
         },
         "43": {
-          "runCount": 144,
-          "averageParticipationPct": 13.7,
-          "averageRunDepthStep": 94.0,
-          "averageRunDepthPct": 67.6,
+          "runCount": 145,
+          "averageParticipationPct": 14.2,
+          "averageRunDepthStep": 94.2,
+          "averageRunDepthPct": 67.7,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8644,10 +8644,10 @@
           ]
         },
         "42": {
-          "runCount": 145,
-          "averageParticipationPct": 14.3,
-          "averageRunDepthStep": 93.6,
-          "averageRunDepthPct": 67.4,
+          "runCount": 146,
+          "averageParticipationPct": 14.8,
+          "averageRunDepthStep": 93.8,
+          "averageRunDepthPct": 67.5,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8733,10 +8733,10 @@
           ]
         },
         "41": {
-          "runCount": 147,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.8,
+          "runCount": 148,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 93.1,
+          "averageRunDepthPct": 67.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8822,10 +8822,10 @@
           ]
         },
         "40": {
-          "runCount": 150,
-          "averageParticipationPct": 14.2,
-          "averageRunDepthStep": 91.8,
-          "averageRunDepthPct": 66.1,
+          "runCount": 151,
+          "averageParticipationPct": 14.6,
+          "averageRunDepthStep": 92.0,
+          "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8911,10 +8911,10 @@
           ]
         },
         "39": {
-          "runCount": 153,
-          "averageParticipationPct": 14.6,
-          "averageRunDepthStep": 90.8,
-          "averageRunDepthPct": 65.3,
+          "runCount": 154,
+          "averageParticipationPct": 15.0,
+          "averageRunDepthStep": 91.0,
+          "averageRunDepthPct": 65.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9000,10 +9000,10 @@
           ]
         },
         "38": {
-          "runCount": 156,
-          "averageParticipationPct": 14.3,
-          "averageRunDepthStep": 89.8,
-          "averageRunDepthPct": 64.6,
+          "runCount": 157,
+          "averageParticipationPct": 14.7,
+          "averageRunDepthStep": 90.0,
+          "averageRunDepthPct": 64.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9089,10 +9089,10 @@
           ]
         },
         "37": {
-          "runCount": 156,
-          "averageParticipationPct": 14.3,
-          "averageRunDepthStep": 89.8,
-          "averageRunDepthPct": 64.6,
+          "runCount": 157,
+          "averageParticipationPct": 14.7,
+          "averageRunDepthStep": 90.0,
+          "averageRunDepthPct": 64.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9178,10 +9178,10 @@
           ]
         },
         "36": {
-          "runCount": 156,
-          "averageParticipationPct": 14.3,
-          "averageRunDepthStep": 89.8,
-          "averageRunDepthPct": 64.6,
+          "runCount": 157,
+          "averageParticipationPct": 14.7,
+          "averageRunDepthStep": 90.0,
+          "averageRunDepthPct": 64.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9267,10 +9267,10 @@
           ]
         },
         "35": {
-          "runCount": 163,
-          "averageParticipationPct": 15.1,
-          "averageRunDepthStep": 87.4,
-          "averageRunDepthPct": 62.9,
+          "runCount": 164,
+          "averageParticipationPct": 15.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9356,10 +9356,10 @@
           ]
         },
         "34": {
-          "runCount": 163,
-          "averageParticipationPct": 15.1,
-          "averageRunDepthStep": 87.4,
-          "averageRunDepthPct": 62.9,
+          "runCount": 164,
+          "averageParticipationPct": 15.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9445,10 +9445,10 @@
           ]
         },
         "33": {
-          "runCount": 163,
-          "averageParticipationPct": 15.1,
-          "averageRunDepthStep": 87.4,
-          "averageRunDepthPct": 62.9,
+          "runCount": 164,
+          "averageParticipationPct": 15.5,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9534,10 +9534,10 @@
           ]
         },
         "32": {
-          "runCount": 173,
-          "averageParticipationPct": 17.4,
-          "averageRunDepthStep": 84.2,
-          "averageRunDepthPct": 60.6,
+          "runCount": 174,
+          "averageParticipationPct": 17.8,
+          "averageRunDepthStep": 84.4,
+          "averageRunDepthPct": 60.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9623,10 +9623,10 @@
           ]
         },
         "31": {
-          "runCount": 175,
-          "averageParticipationPct": 17.7,
-          "averageRunDepthStep": 83.6,
-          "averageRunDepthPct": 60.2,
+          "runCount": 176,
+          "averageParticipationPct": 18.1,
+          "averageRunDepthStep": 83.8,
+          "averageRunDepthPct": 60.3,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9712,10 +9712,10 @@
           ]
         },
         "30": {
-          "runCount": 176,
-          "averageParticipationPct": 17.6,
-          "averageRunDepthStep": 83.3,
-          "averageRunDepthPct": 59.9,
+          "runCount": 177,
+          "averageParticipationPct": 18.0,
+          "averageRunDepthStep": 83.5,
+          "averageRunDepthPct": 60.1,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9801,10 +9801,10 @@
           ]
         },
         "29": {
-          "runCount": 177,
-          "averageParticipationPct": 17.9,
-          "averageRunDepthStep": 83.0,
-          "averageRunDepthPct": 59.7,
+          "runCount": 178,
+          "averageParticipationPct": 18.3,
+          "averageRunDepthStep": 83.2,
+          "averageRunDepthPct": 59.9,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9890,10 +9890,10 @@
           ]
         },
         "28": {
-          "runCount": 177,
-          "averageParticipationPct": 17.9,
-          "averageRunDepthStep": 83.0,
-          "averageRunDepthPct": 59.7,
+          "runCount": 178,
+          "averageParticipationPct": 18.3,
+          "averageRunDepthStep": 83.2,
+          "averageRunDepthPct": 59.9,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9979,10 +9979,10 @@
           ]
         },
         "27": {
-          "runCount": 178,
-          "averageParticipationPct": 18.4,
-          "averageRunDepthStep": 82.7,
-          "averageRunDepthPct": 59.5,
+          "runCount": 179,
+          "averageParticipationPct": 18.7,
+          "averageRunDepthStep": 82.9,
+          "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10068,10 +10068,10 @@
           ]
         },
         "26": {
-          "runCount": 178,
-          "averageParticipationPct": 18.4,
-          "averageRunDepthStep": 82.7,
-          "averageRunDepthPct": 59.5,
+          "runCount": 179,
+          "averageParticipationPct": 18.7,
+          "averageRunDepthStep": 82.9,
+          "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10157,10 +10157,10 @@
           ]
         },
         "25": {
-          "runCount": 178,
-          "averageParticipationPct": 18.4,
-          "averageRunDepthStep": 82.7,
-          "averageRunDepthPct": 59.5,
+          "runCount": 179,
+          "averageParticipationPct": 18.7,
+          "averageRunDepthStep": 82.9,
+          "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10246,10 +10246,10 @@
           ]
         },
         "24": {
-          "runCount": 178,
-          "averageParticipationPct": 18.4,
-          "averageRunDepthStep": 82.7,
-          "averageRunDepthPct": 59.5,
+          "runCount": 179,
+          "averageParticipationPct": 18.7,
+          "averageRunDepthStep": 82.9,
+          "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10335,10 +10335,10 @@
           ]
         },
         "23": {
-          "runCount": 178,
-          "averageParticipationPct": 18.4,
-          "averageRunDepthStep": 82.7,
-          "averageRunDepthPct": 59.5,
+          "runCount": 179,
+          "averageParticipationPct": 18.7,
+          "averageRunDepthStep": 82.9,
+          "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10424,10 +10424,10 @@
           ]
         },
         "22": {
-          "runCount": 178,
-          "averageParticipationPct": 18.4,
-          "averageRunDepthStep": 82.7,
-          "averageRunDepthPct": 59.5,
+          "runCount": 179,
+          "averageParticipationPct": 18.7,
+          "averageRunDepthStep": 82.9,
+          "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10513,10 +10513,10 @@
           ]
         },
         "21": {
-          "runCount": 178,
-          "averageParticipationPct": 18.4,
-          "averageRunDepthStep": 82.7,
-          "averageRunDepthPct": 59.5,
+          "runCount": 179,
+          "averageParticipationPct": 18.7,
+          "averageRunDepthStep": 82.9,
+          "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10602,10 +10602,10 @@
           ]
         },
         "20": {
-          "runCount": 179,
-          "averageParticipationPct": 18.3,
-          "averageRunDepthStep": 82.4,
-          "averageRunDepthPct": 59.2,
+          "runCount": 180,
+          "averageParticipationPct": 18.6,
+          "averageRunDepthStep": 82.6,
+          "averageRunDepthPct": 59.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10691,10 +10691,10 @@
           ]
         },
         "19": {
-          "runCount": 179,
-          "averageParticipationPct": 18.3,
-          "averageRunDepthStep": 82.4,
-          "averageRunDepthPct": 59.2,
+          "runCount": 180,
+          "averageParticipationPct": 18.6,
+          "averageRunDepthStep": 82.6,
+          "averageRunDepthPct": 59.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10780,10 +10780,10 @@
           ]
         },
         "18": {
-          "runCount": 179,
-          "averageParticipationPct": 18.3,
-          "averageRunDepthStep": 82.4,
-          "averageRunDepthPct": 59.2,
+          "runCount": 180,
+          "averageParticipationPct": 18.6,
+          "averageRunDepthStep": 82.6,
+          "averageRunDepthPct": 59.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10869,10 +10869,10 @@
           ]
         },
         "17": {
-          "runCount": 179,
-          "averageParticipationPct": 18.3,
-          "averageRunDepthStep": 82.4,
-          "averageRunDepthPct": 59.2,
+          "runCount": 180,
+          "averageParticipationPct": 18.6,
+          "averageRunDepthStep": 82.6,
+          "averageRunDepthPct": 59.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10958,10 +10958,10 @@
           ]
         },
         "16": {
-          "runCount": 179,
-          "averageParticipationPct": 18.3,
-          "averageRunDepthStep": 82.4,
-          "averageRunDepthPct": 59.2,
+          "runCount": 180,
+          "averageParticipationPct": 18.6,
+          "averageRunDepthStep": 82.6,
+          "averageRunDepthPct": 59.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11047,10 +11047,10 @@
           ]
         },
         "15": {
-          "runCount": 179,
-          "averageParticipationPct": 18.3,
-          "averageRunDepthStep": 82.4,
-          "averageRunDepthPct": 59.2,
+          "runCount": 180,
+          "averageParticipationPct": 18.6,
+          "averageRunDepthStep": 82.6,
+          "averageRunDepthPct": 59.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11136,10 +11136,10 @@
           ]
         },
         "14": {
-          "runCount": 179,
-          "averageParticipationPct": 18.3,
-          "averageRunDepthStep": 82.4,
-          "averageRunDepthPct": 59.2,
+          "runCount": 180,
+          "averageParticipationPct": 18.6,
+          "averageRunDepthStep": 82.6,
+          "averageRunDepthPct": 59.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11225,10 +11225,10 @@
           ]
         },
         "13": {
-          "runCount": 180,
-          "averageParticipationPct": 18.6,
-          "averageRunDepthStep": 82.0,
-          "averageRunDepthPct": 59.0,
+          "runCount": 181,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 82.2,
+          "averageRunDepthPct": 59.1,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11314,10 +11314,10 @@
           ]
         },
         "12": {
-          "runCount": 180,
-          "averageParticipationPct": 18.6,
-          "averageRunDepthStep": 82.0,
-          "averageRunDepthPct": 59.0,
+          "runCount": 181,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 82.2,
+          "averageRunDepthPct": 59.1,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11403,10 +11403,10 @@
           ]
         },
         "11": {
-          "runCount": 180,
-          "averageParticipationPct": 18.6,
-          "averageRunDepthStep": 82.0,
-          "averageRunDepthPct": 59.0,
+          "runCount": 181,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 82.2,
+          "averageRunDepthPct": 59.1,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11492,10 +11492,10 @@
           ]
         },
         "10": {
-          "runCount": 180,
-          "averageParticipationPct": 18.6,
-          "averageRunDepthStep": 82.0,
-          "averageRunDepthPct": 59.0,
+          "runCount": 181,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 82.2,
+          "averageRunDepthPct": 59.1,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11581,10 +11581,10 @@
           ]
         },
         "9": {
-          "runCount": 181,
-          "averageParticipationPct": 18.9,
-          "averageRunDepthStep": 81.6,
-          "averageRunDepthPct": 58.7,
+          "runCount": 182,
+          "averageParticipationPct": 19.2,
+          "averageRunDepthStep": 81.8,
+          "averageRunDepthPct": 58.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11670,10 +11670,10 @@
           ]
         },
         "8": {
-          "runCount": 181,
-          "averageParticipationPct": 18.9,
-          "averageRunDepthStep": 81.6,
-          "averageRunDepthPct": 58.7,
+          "runCount": 182,
+          "averageParticipationPct": 19.2,
+          "averageRunDepthStep": 81.8,
+          "averageRunDepthPct": 58.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11759,10 +11759,10 @@
           ]
         },
         "7": {
-          "runCount": 181,
-          "averageParticipationPct": 18.9,
-          "averageRunDepthStep": 81.6,
-          "averageRunDepthPct": 58.7,
+          "runCount": 182,
+          "averageParticipationPct": 19.2,
+          "averageRunDepthStep": 81.8,
+          "averageRunDepthPct": 58.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11848,10 +11848,10 @@
           ]
         },
         "6": {
-          "runCount": 181,
-          "averageParticipationPct": 18.9,
-          "averageRunDepthStep": 81.6,
-          "averageRunDepthPct": 58.7,
+          "runCount": 182,
+          "averageParticipationPct": 19.2,
+          "averageRunDepthStep": 81.8,
+          "averageRunDepthPct": 58.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11937,10 +11937,10 @@
           ]
         },
         "5": {
-          "runCount": 181,
-          "averageParticipationPct": 18.9,
-          "averageRunDepthStep": 81.6,
-          "averageRunDepthPct": 58.7,
+          "runCount": 182,
+          "averageParticipationPct": 19.2,
+          "averageRunDepthStep": 81.8,
+          "averageRunDepthPct": 58.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -12026,10 +12026,10 @@
           ]
         },
         "4": {
-          "runCount": 182,
-          "averageParticipationPct": 19.3,
-          "averageRunDepthStep": 81.1,
-          "averageRunDepthPct": 58.4,
+          "runCount": 183,
+          "averageParticipationPct": 19.7,
+          "averageRunDepthStep": 81.3,
+          "averageRunDepthPct": 58.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -12115,10 +12115,10 @@
           ]
         },
         "3": {
-          "runCount": 182,
-          "averageParticipationPct": 19.3,
-          "averageRunDepthStep": 81.1,
-          "averageRunDepthPct": 58.4,
+          "runCount": 183,
+          "averageParticipationPct": 19.7,
+          "averageRunDepthStep": 81.3,
+          "averageRunDepthPct": 58.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -12204,10 +12204,10 @@
           ]
         },
         "2": {
-          "runCount": 182,
-          "averageParticipationPct": 19.3,
-          "averageRunDepthStep": 81.1,
-          "averageRunDepthPct": 58.4,
+          "runCount": 183,
+          "averageParticipationPct": 19.7,
+          "averageRunDepthStep": 81.3,
+          "averageRunDepthPct": 58.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -12293,10 +12293,10 @@
           ]
         },
         "1": {
-          "runCount": 182,
-          "averageParticipationPct": 19.3,
-          "averageRunDepthStep": 81.1,
-          "averageRunDepthPct": 58.4,
+          "runCount": 183,
+          "averageParticipationPct": 19.7,
+          "averageRunDepthStep": 81.3,
+          "averageRunDepthPct": 58.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -37316,7 +37316,7 @@
       },
       "137": {
         "runCount": 25,
-        "averageParticipationPct": 9.2,
+        "averageParticipationPct": 8.5,
         "averageRunDepthStep": 137.7,
         "averageRunDepthPct": 99.1,
         "averageBattlesUsed": 0.9,
@@ -37394,9 +37394,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -37405,7 +37405,7 @@
       },
       "136": {
         "runCount": 25,
-        "averageParticipationPct": 9.2,
+        "averageParticipationPct": 8.5,
         "averageRunDepthStep": 137.7,
         "averageRunDepthPct": 99.1,
         "averageBattlesUsed": 0.9,
@@ -37483,9 +37483,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -37494,7 +37494,7 @@
       },
       "135": {
         "runCount": 29,
-        "averageParticipationPct": 9.4,
+        "averageParticipationPct": 8.8,
         "averageRunDepthStep": 137.3,
         "averageRunDepthPct": 98.8,
         "averageBattlesUsed": 1.0,
@@ -37583,7 +37583,7 @@
       },
       "134": {
         "runCount": 29,
-        "averageParticipationPct": 9.4,
+        "averageParticipationPct": 8.8,
         "averageRunDepthStep": 137.3,
         "averageRunDepthPct": 98.8,
         "averageBattlesUsed": 1.0,
@@ -37672,7 +37672,7 @@
       },
       "133": {
         "runCount": 32,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 9.6,
         "averageRunDepthStep": 136.9,
         "averageRunDepthPct": 98.5,
         "averageBattlesUsed": 1.2,
@@ -37761,7 +37761,7 @@
       },
       "132": {
         "runCount": 32,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 9.6,
         "averageRunDepthStep": 136.9,
         "averageRunDepthPct": 98.5,
         "averageBattlesUsed": 1.2,
@@ -37850,7 +37850,7 @@
       },
       "131": {
         "runCount": 34,
-        "averageParticipationPct": 9.5,
+        "averageParticipationPct": 9.0,
         "averageRunDepthStep": 136.6,
         "averageRunDepthPct": 98.2,
         "averageBattlesUsed": 1.1,
@@ -37939,7 +37939,7 @@
       },
       "130": {
         "runCount": 37,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 8.9,
         "averageRunDepthStep": 136.0,
         "averageRunDepthPct": 97.9,
         "averageBattlesUsed": 1.1,
@@ -38028,7 +38028,7 @@
       },
       "129": {
         "runCount": 38,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 135.8,
         "averageRunDepthPct": 97.7,
         "averageBattlesUsed": 1.3,
@@ -38117,7 +38117,7 @@
       },
       "128": {
         "runCount": 38,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 135.8,
         "averageRunDepthPct": 97.7,
         "averageBattlesUsed": 1.3,
@@ -38206,7 +38206,7 @@
       },
       "127": {
         "runCount": 39,
-        "averageParticipationPct": 9.9,
+        "averageParticipationPct": 9.5,
         "averageRunDepthStep": 135.6,
         "averageRunDepthPct": 97.6,
         "averageBattlesUsed": 1.2,
@@ -38295,7 +38295,7 @@
       },
       "126": {
         "runCount": 41,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 135.1,
         "averageRunDepthPct": 97.2,
         "averageBattlesUsed": 1.2,
@@ -38384,7 +38384,7 @@
       },
       "125": {
         "runCount": 41,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 135.1,
         "averageRunDepthPct": 97.2,
         "averageBattlesUsed": 1.2,
@@ -38473,7 +38473,7 @@
       },
       "124": {
         "runCount": 46,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 133.9,
         "averageRunDepthPct": 96.4,
         "averageBattlesUsed": 1.2,
@@ -38503,20 +38503,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -38562,7 +38562,7 @@
       },
       "123": {
         "runCount": 47,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 133.7,
         "averageRunDepthPct": 96.2,
         "averageBattlesUsed": 1.1,
@@ -38592,20 +38592,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -38651,7 +38651,7 @@
       },
       "122": {
         "runCount": 47,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 133.7,
         "averageRunDepthPct": 96.2,
         "averageBattlesUsed": 1.1,
@@ -38681,20 +38681,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -38740,7 +38740,7 @@
       },
       "121": {
         "runCount": 47,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 133.7,
         "averageRunDepthPct": 96.2,
         "averageBattlesUsed": 1.1,
@@ -38770,20 +38770,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -38829,7 +38829,7 @@
       },
       "120": {
         "runCount": 47,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 133.7,
         "averageRunDepthPct": 96.2,
         "averageBattlesUsed": 1.1,
@@ -38859,20 +38859,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -38917,10 +38917,10 @@
         ]
       },
       "119": {
-        "runCount": 47,
-        "averageParticipationPct": 10.2,
-        "averageRunDepthStep": 133.7,
-        "averageRunDepthPct": 96.2,
+        "runCount": 48,
+        "averageParticipationPct": 11.7,
+        "averageRunDepthStep": 133.4,
+        "averageRunDepthPct": 96.0,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -38948,20 +38948,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39006,10 +39006,10 @@
         ]
       },
       "118": {
-        "runCount": 48,
-        "averageParticipationPct": 10.0,
-        "averageRunDepthStep": 133.4,
-        "averageRunDepthPct": 96.0,
+        "runCount": 49,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 133.1,
+        "averageRunDepthPct": 95.7,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -39037,20 +39037,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39095,10 +39095,10 @@
         ]
       },
       "117": {
-        "runCount": 50,
-        "averageParticipationPct": 9.6,
-        "averageRunDepthStep": 132.7,
-        "averageRunDepthPct": 95.5,
+        "runCount": 51,
+        "averageParticipationPct": 11.0,
+        "averageRunDepthStep": 132.5,
+        "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -39126,20 +39126,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39184,10 +39184,10 @@
         ]
       },
       "116": {
-        "runCount": 52,
-        "averageParticipationPct": 9.2,
-        "averageRunDepthStep": 132.1,
-        "averageRunDepthPct": 95.0,
+        "runCount": 53,
+        "averageParticipationPct": 10.6,
+        "averageRunDepthStep": 131.8,
+        "averageRunDepthPct": 94.8,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -39215,20 +39215,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39273,10 +39273,10 @@
         ]
       },
       "115": {
-        "runCount": 57,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 130.6,
-        "averageRunDepthPct": 93.9,
+        "runCount": 58,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 130.4,
+        "averageRunDepthPct": 93.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -39304,20 +39304,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39362,10 +39362,10 @@
         ]
       },
       "114": {
-        "runCount": 57,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 130.6,
-        "averageRunDepthPct": 93.9,
+        "runCount": 58,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 130.4,
+        "averageRunDepthPct": 93.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -39393,20 +39393,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39451,10 +39451,10 @@
         ]
       },
       "113": {
-        "runCount": 57,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 130.6,
-        "averageRunDepthPct": 93.9,
+        "runCount": 58,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 130.4,
+        "averageRunDepthPct": 93.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -39482,20 +39482,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39540,10 +39540,10 @@
         ]
       },
       "112": {
-        "runCount": 57,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 130.6,
-        "averageRunDepthPct": 93.9,
+        "runCount": 58,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 130.4,
+        "averageRunDepthPct": 93.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -39571,20 +39571,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39629,10 +39629,10 @@
         ]
       },
       "111": {
-        "runCount": 57,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 130.6,
-        "averageRunDepthPct": 93.9,
+        "runCount": 58,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 130.4,
+        "averageRunDepthPct": 93.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -39660,20 +39660,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39718,10 +39718,10 @@
         ]
       },
       "110": {
-        "runCount": 57,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 130.6,
-        "averageRunDepthPct": 93.9,
+        "runCount": 58,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 130.4,
+        "averageRunDepthPct": 93.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -39749,20 +39749,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39807,10 +39807,10 @@
         ]
       },
       "109": {
-        "runCount": 57,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 130.6,
-        "averageRunDepthPct": 93.9,
+        "runCount": 58,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 130.4,
+        "averageRunDepthPct": 93.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -39838,20 +39838,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39896,10 +39896,10 @@
         ]
       },
       "108": {
-        "runCount": 57,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 130.6,
-        "averageRunDepthPct": 93.9,
+        "runCount": 58,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 130.4,
+        "averageRunDepthPct": 93.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -39927,20 +39927,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "268",
@@ -39985,10 +39985,10 @@
         ]
       },
       "107": {
-        "runCount": 62,
-        "averageParticipationPct": 7.7,
-        "averageRunDepthStep": 128.7,
-        "averageRunDepthPct": 92.6,
+        "runCount": 63,
+        "averageParticipationPct": 8.9,
+        "averageRunDepthStep": 128.5,
+        "averageRunDepthPct": 92.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -40036,8 +40036,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40074,10 +40074,10 @@
         ]
       },
       "106": {
-        "runCount": 67,
-        "averageParticipationPct": 7.2,
-        "averageRunDepthStep": 127.0,
-        "averageRunDepthPct": 91.4,
+        "runCount": 68,
+        "averageParticipationPct": 8.3,
+        "averageRunDepthStep": 126.9,
+        "averageRunDepthPct": 91.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -40125,8 +40125,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40163,10 +40163,10 @@
         ]
       },
       "105": {
-        "runCount": 72,
-        "averageParticipationPct": 6.9,
-        "averageRunDepthStep": 125.5,
-        "averageRunDepthPct": 90.3,
+        "runCount": 73,
+        "averageParticipationPct": 7.9,
+        "averageRunDepthStep": 125.4,
+        "averageRunDepthPct": 90.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -40230,8 +40230,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40252,9 +40252,9 @@
         ]
       },
       "104": {
-        "runCount": 73,
-        "averageParticipationPct": 6.8,
-        "averageRunDepthStep": 125.2,
+        "runCount": 74,
+        "averageParticipationPct": 7.8,
+        "averageRunDepthStep": 125.1,
         "averageRunDepthPct": 90.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -40319,8 +40319,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40341,9 +40341,9 @@
         ]
       },
       "103": {
-        "runCount": 79,
-        "averageParticipationPct": 6.7,
-        "averageRunDepthStep": 123.5,
+        "runCount": 80,
+        "averageParticipationPct": 7.7,
+        "averageRunDepthStep": 123.4,
         "averageRunDepthPct": 88.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -40408,8 +40408,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40430,10 +40430,10 @@
         ]
       },
       "102": {
-        "runCount": 81,
-        "averageParticipationPct": 6.7,
-        "averageRunDepthStep": 123.0,
-        "averageRunDepthPct": 88.5,
+        "runCount": 82,
+        "averageParticipationPct": 7.6,
+        "averageRunDepthStep": 122.9,
+        "averageRunDepthPct": 88.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -40485,20 +40485,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40519,10 +40519,10 @@
         ]
       },
       "101": {
-        "runCount": 81,
-        "averageParticipationPct": 6.7,
-        "averageRunDepthStep": 123.0,
-        "averageRunDepthPct": 88.5,
+        "runCount": 82,
+        "averageParticipationPct": 7.6,
+        "averageRunDepthStep": 122.9,
+        "averageRunDepthPct": 88.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -40574,20 +40574,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40608,10 +40608,10 @@
         ]
       },
       "100": {
-        "runCount": 81,
-        "averageParticipationPct": 6.7,
-        "averageRunDepthStep": 123.0,
-        "averageRunDepthPct": 88.5,
+        "runCount": 82,
+        "averageParticipationPct": 7.6,
+        "averageRunDepthStep": 122.9,
+        "averageRunDepthPct": 88.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -40663,20 +40663,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40697,10 +40697,10 @@
         ]
       },
       "99": {
-        "runCount": 81,
-        "averageParticipationPct": 6.7,
-        "averageRunDepthStep": 123.0,
-        "averageRunDepthPct": 88.5,
+        "runCount": 82,
+        "averageParticipationPct": 7.6,
+        "averageRunDepthStep": 122.9,
+        "averageRunDepthPct": 88.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -40752,20 +40752,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40786,8 +40786,8 @@
         ]
       },
       "98": {
-        "runCount": 82,
-        "averageParticipationPct": 6.6,
+        "runCount": 83,
+        "averageParticipationPct": 7.6,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 0.8,
@@ -40841,20 +40841,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40875,8 +40875,8 @@
         ]
       },
       "97": {
-        "runCount": 82,
-        "averageParticipationPct": 6.6,
+        "runCount": 83,
+        "averageParticipationPct": 7.6,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 0.8,
@@ -40930,20 +40930,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -40964,8 +40964,8 @@
         ]
       },
       "96": {
-        "runCount": 82,
-        "averageParticipationPct": 6.6,
+        "runCount": 83,
+        "averageParticipationPct": 7.6,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 0.8,
@@ -41019,20 +41019,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -41053,10 +41053,10 @@
         ]
       },
       "95": {
-        "runCount": 84,
-        "averageParticipationPct": 6.5,
+        "runCount": 85,
+        "averageParticipationPct": 7.4,
         "averageRunDepthStep": 122.0,
-        "averageRunDepthPct": 87.8,
+        "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -41108,20 +41108,20 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Elite Four Drake",
-            "displayName": "Elite Four Drake",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "Elite Four Drake",
+            "displayName": "Elite Four Drake",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "270",
@@ -41142,9 +41142,9 @@
         ]
       },
       "94": {
-        "runCount": 85,
-        "averageParticipationPct": 6.5,
-        "averageRunDepthStep": 121.7,
+        "runCount": 86,
+        "averageParticipationPct": 7.4,
+        "averageRunDepthStep": 121.6,
         "averageRunDepthPct": 87.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -41201,8 +41201,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "268",
@@ -41231,9 +41231,9 @@
         ]
       },
       "93": {
-        "runCount": 85,
-        "averageParticipationPct": 6.5,
-        "averageRunDepthStep": 121.7,
+        "runCount": 86,
+        "averageParticipationPct": 7.4,
+        "averageRunDepthStep": 121.6,
         "averageRunDepthPct": 87.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -41290,8 +41290,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "268",
@@ -41320,9 +41320,9 @@
         ]
       },
       "92": {
-        "runCount": 85,
-        "averageParticipationPct": 6.5,
-        "averageRunDepthStep": 121.7,
+        "runCount": 86,
+        "averageParticipationPct": 7.4,
+        "averageRunDepthStep": 121.6,
         "averageRunDepthPct": 87.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -41379,8 +41379,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "268",
@@ -41409,9 +41409,9 @@
         ]
       },
       "91": {
-        "runCount": 87,
-        "averageParticipationPct": 6.4,
-        "averageRunDepthStep": 121.0,
+        "runCount": 88,
+        "averageParticipationPct": 7.2,
+        "averageRunDepthStep": 120.9,
         "averageRunDepthPct": 87.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -41468,8 +41468,8 @@
             "displayName": "Elite Four Drake",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "268",
@@ -41498,8 +41498,8 @@
         ]
       },
       "90": {
-        "runCount": 91,
-        "averageParticipationPct": 7.7,
+        "runCount": 92,
+        "averageParticipationPct": 8.5,
         "averageRunDepthStep": 119.6,
         "averageRunDepthPct": 86.0,
         "averageBattlesUsed": 0.9,
@@ -41587,8 +41587,8 @@
         ]
       },
       "89": {
-        "runCount": 95,
-        "averageParticipationPct": 8.4,
+        "runCount": 96,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 118.3,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.9,
@@ -41676,8 +41676,8 @@
         ]
       },
       "88": {
-        "runCount": 96,
-        "averageParticipationPct": 8.3,
+        "runCount": 97,
+        "averageParticipationPct": 9.1,
         "averageRunDepthStep": 118.0,
         "averageRunDepthPct": 84.9,
         "averageBattlesUsed": 0.9,
@@ -41765,8 +41765,8 @@
         ]
       },
       "87": {
-        "runCount": 97,
-        "averageParticipationPct": 8.2,
+        "runCount": 98,
+        "averageParticipationPct": 9.0,
         "averageRunDepthStep": 117.7,
         "averageRunDepthPct": 84.7,
         "averageBattlesUsed": 0.9,
@@ -41854,9 +41854,9 @@
         ]
       },
       "86": {
-        "runCount": 98,
-        "averageParticipationPct": 8.3,
-        "averageRunDepthStep": 117.3,
+        "runCount": 99,
+        "averageParticipationPct": 9.1,
+        "averageRunDepthStep": 117.4,
         "averageRunDepthPct": 84.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -41943,8 +41943,8 @@
         ]
       },
       "85": {
-        "runCount": 99,
-        "averageParticipationPct": 8.5,
+        "runCount": 100,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 117.0,
         "averageRunDepthPct": 84.2,
         "averageBattlesUsed": 0.9,
@@ -42032,8 +42032,8 @@
         ]
       },
       "84": {
-        "runCount": 99,
-        "averageParticipationPct": 8.5,
+        "runCount": 100,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 117.0,
         "averageRunDepthPct": 84.2,
         "averageBattlesUsed": 0.9,
@@ -42121,9 +42121,9 @@
         ]
       },
       "83": {
-        "runCount": 101,
-        "averageParticipationPct": 8.3,
-        "averageRunDepthStep": 116.3,
+        "runCount": 102,
+        "averageParticipationPct": 9.0,
+        "averageRunDepthStep": 116.4,
         "averageRunDepthPct": 83.7,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -42210,9 +42210,9 @@
         ]
       },
       "82": {
-        "runCount": 107,
-        "averageParticipationPct": 8.5,
-        "averageRunDepthStep": 114.4,
+        "runCount": 108,
+        "averageParticipationPct": 9.2,
+        "averageRunDepthStep": 114.5,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -42299,9 +42299,9 @@
         ]
       },
       "81": {
-        "runCount": 109,
-        "averageParticipationPct": 8.6,
-        "averageRunDepthStep": 113.8,
+        "runCount": 110,
+        "averageParticipationPct": 9.3,
+        "averageRunDepthStep": 113.9,
         "averageRunDepthPct": 81.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -42388,8 +42388,8 @@
         ]
       },
       "80": {
-        "runCount": 110,
-        "averageParticipationPct": 8.5,
+        "runCount": 111,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 113.5,
         "averageRunDepthPct": 81.7,
         "averageBattlesUsed": 1.0,
@@ -42477,8 +42477,8 @@
         ]
       },
       "79": {
-        "runCount": 113,
-        "averageParticipationPct": 9.2,
+        "runCount": 114,
+        "averageParticipationPct": 9.8,
         "averageRunDepthStep": 112.6,
         "averageRunDepthPct": 81.0,
         "averageBattlesUsed": 0.9,
@@ -42566,8 +42566,8 @@
         ]
       },
       "78": {
-        "runCount": 114,
-        "averageParticipationPct": 9.1,
+        "runCount": 115,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 112.3,
         "averageRunDepthPct": 80.8,
         "averageBattlesUsed": 0.9,
@@ -42655,8 +42655,8 @@
         ]
       },
       "77": {
-        "runCount": 114,
-        "averageParticipationPct": 9.1,
+        "runCount": 115,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 112.3,
         "averageRunDepthPct": 80.8,
         "averageBattlesUsed": 0.9,
@@ -42744,8 +42744,8 @@
         ]
       },
       "76": {
-        "runCount": 114,
-        "averageParticipationPct": 9.1,
+        "runCount": 115,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 112.3,
         "averageRunDepthPct": 80.8,
         "averageBattlesUsed": 0.9,
@@ -42833,8 +42833,8 @@
         ]
       },
       "75": {
-        "runCount": 114,
-        "averageParticipationPct": 9.1,
+        "runCount": 115,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 112.3,
         "averageRunDepthPct": 80.8,
         "averageBattlesUsed": 0.9,
@@ -42922,10 +42922,10 @@
         ]
       },
       "74": {
-        "runCount": 115,
-        "averageParticipationPct": 9.3,
-        "averageRunDepthStep": 111.9,
-        "averageRunDepthPct": 80.5,
+        "runCount": 116,
+        "averageParticipationPct": 9.9,
+        "averageRunDepthStep": 112.0,
+        "averageRunDepthPct": 80.6,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -43011,10 +43011,10 @@
         ]
       },
       "73": {
-        "runCount": 115,
-        "averageParticipationPct": 9.3,
-        "averageRunDepthStep": 111.9,
-        "averageRunDepthPct": 80.5,
+        "runCount": 116,
+        "averageParticipationPct": 9.9,
+        "averageRunDepthStep": 112.0,
+        "averageRunDepthPct": 80.6,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -43100,10 +43100,10 @@
         ]
       },
       "72": {
-        "runCount": 117,
-        "averageParticipationPct": 9.3,
+        "runCount": 118,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 111.3,
-        "averageRunDepthPct": 80.0,
+        "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -43189,10 +43189,10 @@
         ]
       },
       "71": {
-        "runCount": 117,
-        "averageParticipationPct": 9.3,
+        "runCount": 118,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 111.3,
-        "averageRunDepthPct": 80.0,
+        "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -43278,10 +43278,10 @@
         ]
       },
       "70": {
-        "runCount": 117,
-        "averageParticipationPct": 9.3,
+        "runCount": 118,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 111.3,
-        "averageRunDepthPct": 80.0,
+        "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -43367,10 +43367,10 @@
         ]
       },
       "69": {
-        "runCount": 119,
-        "averageParticipationPct": 9.2,
+        "runCount": 120,
+        "averageParticipationPct": 9.8,
         "averageRunDepthStep": 110.6,
-        "averageRunDepthPct": 79.5,
+        "averageRunDepthPct": 79.6,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -43456,9 +43456,9 @@
         ]
       },
       "68": {
-        "runCount": 122,
-        "averageParticipationPct": 10.1,
-        "averageRunDepthStep": 109.5,
+        "runCount": 123,
+        "averageParticipationPct": 10.7,
+        "averageRunDepthStep": 109.6,
         "averageRunDepthPct": 78.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -43545,10 +43545,10 @@
         ]
       },
       "67": {
-        "runCount": 125,
-        "averageParticipationPct": 10.1,
-        "averageRunDepthStep": 108.5,
-        "averageRunDepthPct": 78.0,
+        "runCount": 126,
+        "averageParticipationPct": 10.7,
+        "averageRunDepthStep": 108.6,
+        "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -43634,9 +43634,9 @@
         ]
       },
       "66": {
-        "runCount": 127,
-        "averageParticipationPct": 10.7,
-        "averageRunDepthStep": 107.8,
+        "runCount": 128,
+        "averageParticipationPct": 11.3,
+        "averageRunDepthStep": 107.9,
         "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -43723,9 +43723,9 @@
         ]
       },
       "65": {
-        "runCount": 127,
-        "averageParticipationPct": 10.7,
-        "averageRunDepthStep": 107.8,
+        "runCount": 128,
+        "averageParticipationPct": 11.3,
+        "averageRunDepthStep": 107.9,
         "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -43812,9 +43812,9 @@
         ]
       },
       "64": {
-        "runCount": 127,
-        "averageParticipationPct": 10.7,
-        "averageRunDepthStep": 107.8,
+        "runCount": 128,
+        "averageParticipationPct": 11.3,
+        "averageRunDepthStep": 107.9,
         "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -43901,9 +43901,9 @@
         ]
       },
       "63": {
-        "runCount": 127,
-        "averageParticipationPct": 10.7,
-        "averageRunDepthStep": 107.8,
+        "runCount": 128,
+        "averageParticipationPct": 11.3,
+        "averageRunDepthStep": 107.9,
         "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -43990,10 +43990,10 @@
         ]
       },
       "62": {
-        "runCount": 128,
-        "averageParticipationPct": 10.6,
-        "averageRunDepthStep": 107.5,
-        "averageRunDepthPct": 77.3,
+        "runCount": 129,
+        "averageParticipationPct": 11.2,
+        "averageRunDepthStep": 107.6,
+        "averageRunDepthPct": 77.4,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -44079,9 +44079,9 @@
         ]
       },
       "61": {
-        "runCount": 129,
-        "averageParticipationPct": 10.5,
-        "averageRunDepthStep": 107.1,
+        "runCount": 130,
+        "averageParticipationPct": 11.1,
+        "averageRunDepthStep": 107.2,
         "averageRunDepthPct": 77.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -44168,10 +44168,10 @@
         ]
       },
       "60": {
-        "runCount": 130,
-        "averageParticipationPct": 10.5,
-        "averageRunDepthStep": 106.7,
-        "averageRunDepthPct": 76.8,
+        "runCount": 131,
+        "averageParticipationPct": 11.0,
+        "averageRunDepthStep": 106.8,
+        "averageRunDepthPct": 76.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -44257,9 +44257,9 @@
         ]
       },
       "59": {
-        "runCount": 132,
-        "averageParticipationPct": 11.1,
-        "averageRunDepthStep": 106.0,
+        "runCount": 133,
+        "averageParticipationPct": 11.6,
+        "averageRunDepthStep": 106.1,
         "averageRunDepthPct": 76.3,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -44346,9 +44346,9 @@
         ]
       },
       "58": {
-        "runCount": 136,
-        "averageParticipationPct": 10.8,
-        "averageRunDepthStep": 104.6,
+        "runCount": 137,
+        "averageParticipationPct": 11.4,
+        "averageRunDepthStep": 104.7,
         "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -44435,9 +44435,9 @@
         ]
       },
       "57": {
-        "runCount": 136,
-        "averageParticipationPct": 10.8,
-        "averageRunDepthStep": 104.6,
+        "runCount": 137,
+        "averageParticipationPct": 11.4,
+        "averageRunDepthStep": 104.7,
         "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -44524,10 +44524,10 @@
         ]
       },
       "56": {
-        "runCount": 137,
-        "averageParticipationPct": 11.5,
-        "averageRunDepthStep": 104.2,
-        "averageRunDepthPct": 75.0,
+        "runCount": 138,
+        "averageParticipationPct": 12.0,
+        "averageRunDepthStep": 104.4,
+        "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -44613,10 +44613,10 @@
         ]
       },
       "55": {
-        "runCount": 139,
-        "averageParticipationPct": 11.3,
-        "averageRunDepthStep": 103.5,
-        "averageRunDepthPct": 74.5,
+        "runCount": 140,
+        "averageParticipationPct": 11.8,
+        "averageRunDepthStep": 103.7,
+        "averageRunDepthPct": 74.6,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -44702,10 +44702,10 @@
         ]
       },
       "54": {
-        "runCount": 140,
-        "averageParticipationPct": 11.2,
-        "averageRunDepthStep": 103.2,
-        "averageRunDepthPct": 74.2,
+        "runCount": 141,
+        "averageParticipationPct": 11.7,
+        "averageRunDepthStep": 103.3,
+        "averageRunDepthPct": 74.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -44791,10 +44791,10 @@
         ]
       },
       "53": {
-        "runCount": 141,
-        "averageParticipationPct": 11.2,
-        "averageRunDepthStep": 102.8,
-        "averageRunDepthPct": 74.0,
+        "runCount": 142,
+        "averageParticipationPct": 11.7,
+        "averageRunDepthStep": 102.9,
+        "averageRunDepthPct": 74.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -44880,10 +44880,10 @@
         ]
       },
       "52": {
-        "runCount": 141,
-        "averageParticipationPct": 11.2,
-        "averageRunDepthStep": 102.8,
-        "averageRunDepthPct": 74.0,
+        "runCount": 142,
+        "averageParticipationPct": 11.7,
+        "averageRunDepthStep": 102.9,
+        "averageRunDepthPct": 74.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -44969,10 +44969,10 @@
         ]
       },
       "51": {
-        "runCount": 141,
-        "averageParticipationPct": 11.2,
-        "averageRunDepthStep": 102.8,
-        "averageRunDepthPct": 74.0,
+        "runCount": 142,
+        "averageParticipationPct": 11.7,
+        "averageRunDepthStep": 102.9,
+        "averageRunDepthPct": 74.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -45058,10 +45058,10 @@
         ]
       },
       "50": {
-        "runCount": 141,
-        "averageParticipationPct": 11.2,
-        "averageRunDepthStep": 102.8,
-        "averageRunDepthPct": 74.0,
+        "runCount": 142,
+        "averageParticipationPct": 11.7,
+        "averageRunDepthStep": 102.9,
+        "averageRunDepthPct": 74.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -45147,9 +45147,9 @@
         ]
       },
       "49": {
-        "runCount": 150,
-        "averageParticipationPct": 11.2,
-        "averageRunDepthStep": 99.6,
+        "runCount": 151,
+        "averageParticipationPct": 11.6,
+        "averageRunDepthStep": 99.7,
         "averageRunDepthPct": 71.7,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -45236,10 +45236,10 @@
         ]
       },
       "48": {
-        "runCount": 152,
-        "averageParticipationPct": 11.0,
-        "averageRunDepthStep": 98.9,
-        "averageRunDepthPct": 71.2,
+        "runCount": 153,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 99.1,
+        "averageRunDepthPct": 71.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -45325,10 +45325,10 @@
         ]
       },
       "47": {
-        "runCount": 159,
-        "averageParticipationPct": 11.2,
-        "averageRunDepthStep": 96.6,
-        "averageRunDepthPct": 69.5,
+        "runCount": 160,
+        "averageParticipationPct": 11.6,
+        "averageRunDepthStep": 96.8,
+        "averageRunDepthPct": 69.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -45414,11 +45414,11 @@
         ]
       },
       "46": {
-        "runCount": 160,
-        "averageParticipationPct": 11.7,
-        "averageRunDepthStep": 96.3,
-        "averageRunDepthPct": 69.3,
-        "averageBattlesUsed": 0.8,
+        "runCount": 161,
+        "averageParticipationPct": 12.2,
+        "averageRunDepthStep": 96.5,
+        "averageRunDepthPct": 69.4,
+        "averageBattlesUsed": 0.9,
         "topBattles": [
           {
             "usageKey": "267",
@@ -45503,11 +45503,11 @@
         ]
       },
       "45": {
-        "runCount": 160,
-        "averageParticipationPct": 11.7,
-        "averageRunDepthStep": 96.3,
-        "averageRunDepthPct": 69.3,
-        "averageBattlesUsed": 0.8,
+        "runCount": 161,
+        "averageParticipationPct": 12.2,
+        "averageRunDepthStep": 96.5,
+        "averageRunDepthPct": 69.4,
+        "averageBattlesUsed": 0.9,
         "topBattles": [
           {
             "usageKey": "267",
@@ -45592,10 +45592,10 @@
         ]
       },
       "44": {
-        "runCount": 161,
-        "averageParticipationPct": 11.7,
-        "averageRunDepthStep": 96.0,
-        "averageRunDepthPct": 69.1,
+        "runCount": 162,
+        "averageParticipationPct": 12.1,
+        "averageRunDepthStep": 96.1,
+        "averageRunDepthPct": 69.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -45681,10 +45681,10 @@
         ]
       },
       "43": {
-        "runCount": 166,
-        "averageParticipationPct": 12.4,
-        "averageRunDepthStep": 94.4,
-        "averageRunDepthPct": 67.9,
+        "runCount": 167,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 94.5,
+        "averageRunDepthPct": 68.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -45770,10 +45770,10 @@
         ]
       },
       "42": {
-        "runCount": 168,
-        "averageParticipationPct": 12.8,
-        "averageRunDepthStep": 93.8,
-        "averageRunDepthPct": 67.5,
+        "runCount": 169,
+        "averageParticipationPct": 13.2,
+        "averageRunDepthStep": 93.9,
+        "averageRunDepthPct": 67.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -45859,10 +45859,10 @@
         ]
       },
       "41": {
-        "runCount": 170,
-        "averageParticipationPct": 13.0,
-        "averageRunDepthStep": 93.2,
-        "averageRunDepthPct": 67.0,
+        "runCount": 171,
+        "averageParticipationPct": 13.4,
+        "averageRunDepthStep": 93.3,
+        "averageRunDepthPct": 67.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -45948,10 +45948,10 @@
         ]
       },
       "40": {
-        "runCount": 174,
-        "averageParticipationPct": 12.7,
-        "averageRunDepthStep": 91.9,
-        "averageRunDepthPct": 66.1,
+        "runCount": 175,
+        "averageParticipationPct": 13.1,
+        "averageRunDepthStep": 92.1,
+        "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46037,10 +46037,10 @@
         ]
       },
       "39": {
-        "runCount": 177,
-        "averageParticipationPct": 13.0,
-        "averageRunDepthStep": 91.0,
-        "averageRunDepthPct": 65.5,
+        "runCount": 178,
+        "averageParticipationPct": 13.4,
+        "averageRunDepthStep": 91.2,
+        "averageRunDepthPct": 65.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46126,10 +46126,10 @@
         ]
       },
       "38": {
-        "runCount": 180,
-        "averageParticipationPct": 12.8,
-        "averageRunDepthStep": 90.2,
-        "averageRunDepthPct": 64.9,
+        "runCount": 181,
+        "averageParticipationPct": 13.2,
+        "averageRunDepthStep": 90.3,
+        "averageRunDepthPct": 65.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46215,10 +46215,10 @@
         ]
       },
       "37": {
-        "runCount": 180,
-        "averageParticipationPct": 12.8,
-        "averageRunDepthStep": 90.2,
-        "averageRunDepthPct": 64.9,
+        "runCount": 181,
+        "averageParticipationPct": 13.2,
+        "averageRunDepthStep": 90.3,
+        "averageRunDepthPct": 65.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46304,10 +46304,10 @@
         ]
       },
       "36": {
-        "runCount": 180,
-        "averageParticipationPct": 12.8,
-        "averageRunDepthStep": 90.2,
-        "averageRunDepthPct": 64.9,
+        "runCount": 181,
+        "averageParticipationPct": 13.2,
+        "averageRunDepthStep": 90.3,
+        "averageRunDepthPct": 65.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46393,10 +46393,10 @@
         ]
       },
       "35": {
-        "runCount": 187,
-        "averageParticipationPct": 13.5,
-        "averageRunDepthStep": 88.1,
-        "averageRunDepthPct": 63.4,
+        "runCount": 188,
+        "averageParticipationPct": 13.9,
+        "averageRunDepthStep": 88.2,
+        "averageRunDepthPct": 63.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46482,10 +46482,10 @@
         ]
       },
       "34": {
-        "runCount": 187,
-        "averageParticipationPct": 13.5,
-        "averageRunDepthStep": 88.1,
-        "averageRunDepthPct": 63.4,
+        "runCount": 188,
+        "averageParticipationPct": 13.9,
+        "averageRunDepthStep": 88.2,
+        "averageRunDepthPct": 63.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46571,10 +46571,10 @@
         ]
       },
       "33": {
-        "runCount": 187,
-        "averageParticipationPct": 13.5,
-        "averageRunDepthStep": 88.1,
-        "averageRunDepthPct": 63.4,
+        "runCount": 188,
+        "averageParticipationPct": 13.9,
+        "averageRunDepthStep": 88.2,
+        "averageRunDepthPct": 63.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46660,10 +46660,10 @@
         ]
       },
       "32": {
-        "runCount": 197,
-        "averageParticipationPct": 15.7,
-        "averageRunDepthStep": 85.2,
-        "averageRunDepthPct": 61.3,
+        "runCount": 198,
+        "averageParticipationPct": 16.0,
+        "averageRunDepthStep": 85.4,
+        "averageRunDepthPct": 61.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46749,10 +46749,10 @@
         ]
       },
       "31": {
-        "runCount": 200,
-        "averageParticipationPct": 15.9,
-        "averageRunDepthStep": 84.4,
-        "averageRunDepthPct": 60.7,
+        "runCount": 201,
+        "averageParticipationPct": 16.3,
+        "averageRunDepthStep": 84.6,
+        "averageRunDepthPct": 60.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46838,10 +46838,10 @@
         ]
       },
       "30": {
-        "runCount": 201,
-        "averageParticipationPct": 15.8,
-        "averageRunDepthStep": 84.2,
-        "averageRunDepthPct": 60.5,
+        "runCount": 202,
+        "averageParticipationPct": 16.2,
+        "averageRunDepthStep": 84.3,
+        "averageRunDepthPct": 60.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -46927,10 +46927,10 @@
         ]
       },
       "29": {
-        "runCount": 202,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 83.9,
-        "averageRunDepthPct": 60.3,
+        "runCount": 203,
+        "averageParticipationPct": 16.4,
+        "averageRunDepthStep": 84.1,
+        "averageRunDepthPct": 60.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47016,10 +47016,10 @@
         ]
       },
       "28": {
-        "runCount": 202,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 83.9,
-        "averageRunDepthPct": 60.3,
+        "runCount": 203,
+        "averageParticipationPct": 16.4,
+        "averageRunDepthStep": 84.1,
+        "averageRunDepthPct": 60.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47105,10 +47105,10 @@
         ]
       },
       "27": {
-        "runCount": 203,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 83.6,
-        "averageRunDepthPct": 60.1,
+        "runCount": 204,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 83.8,
+        "averageRunDepthPct": 60.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47194,10 +47194,10 @@
         ]
       },
       "26": {
-        "runCount": 203,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 83.6,
-        "averageRunDepthPct": 60.1,
+        "runCount": 204,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 83.8,
+        "averageRunDepthPct": 60.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47283,10 +47283,10 @@
         ]
       },
       "25": {
-        "runCount": 203,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 83.6,
-        "averageRunDepthPct": 60.1,
+        "runCount": 204,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 83.8,
+        "averageRunDepthPct": 60.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47372,10 +47372,10 @@
         ]
       },
       "24": {
-        "runCount": 204,
-        "averageParticipationPct": 16.9,
-        "averageRunDepthStep": 83.3,
-        "averageRunDepthPct": 59.9,
+        "runCount": 205,
+        "averageParticipationPct": 17.2,
+        "averageRunDepthStep": 83.5,
+        "averageRunDepthPct": 60.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47461,10 +47461,10 @@
         ]
       },
       "23": {
-        "runCount": 206,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 82.7,
-        "averageRunDepthPct": 59.5,
+        "runCount": 207,
+        "averageParticipationPct": 17.4,
+        "averageRunDepthStep": 82.9,
+        "averageRunDepthPct": 59.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47550,10 +47550,10 @@
         ]
       },
       "22": {
-        "runCount": 207,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 82.4,
-        "averageRunDepthPct": 59.3,
+        "runCount": 208,
+        "averageParticipationPct": 17.4,
+        "averageRunDepthStep": 82.6,
+        "averageRunDepthPct": 59.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47639,10 +47639,10 @@
         ]
       },
       "21": {
-        "runCount": 208,
-        "averageParticipationPct": 17.0,
-        "averageRunDepthStep": 82.1,
-        "averageRunDepthPct": 59.1,
+        "runCount": 209,
+        "averageParticipationPct": 17.3,
+        "averageRunDepthStep": 82.3,
+        "averageRunDepthPct": 59.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47728,10 +47728,10 @@
         ]
       },
       "20": {
-        "runCount": 211,
-        "averageParticipationPct": 17.3,
-        "averageRunDepthStep": 81.3,
-        "averageRunDepthPct": 58.5,
+        "runCount": 212,
+        "averageParticipationPct": 17.6,
+        "averageRunDepthStep": 81.4,
+        "averageRunDepthPct": 58.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47817,10 +47817,10 @@
         ]
       },
       "19": {
-        "runCount": 213,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 80.7,
-        "averageRunDepthPct": 58.0,
+        "runCount": 214,
+        "averageParticipationPct": 17.4,
+        "averageRunDepthStep": 80.8,
+        "averageRunDepthPct": 58.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47906,10 +47906,10 @@
         ]
       },
       "18": {
-        "runCount": 215,
-        "averageParticipationPct": 17.4,
-        "averageRunDepthStep": 80.1,
-        "averageRunDepthPct": 57.6,
+        "runCount": 216,
+        "averageParticipationPct": 17.7,
+        "averageRunDepthStep": 80.3,
+        "averageRunDepthPct": 57.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -47995,10 +47995,10 @@
         ]
       },
       "17": {
-        "runCount": 215,
-        "averageParticipationPct": 17.4,
-        "averageRunDepthStep": 80.1,
-        "averageRunDepthPct": 57.6,
+        "runCount": 216,
+        "averageParticipationPct": 17.7,
+        "averageRunDepthStep": 80.3,
+        "averageRunDepthPct": 57.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -48084,10 +48084,10 @@
         ]
       },
       "16": {
-        "runCount": 215,
-        "averageParticipationPct": 17.4,
-        "averageRunDepthStep": 80.1,
-        "averageRunDepthPct": 57.6,
+        "runCount": 216,
+        "averageParticipationPct": 17.7,
+        "averageRunDepthStep": 80.3,
+        "averageRunDepthPct": 57.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -48173,10 +48173,10 @@
         ]
       },
       "15": {
-        "runCount": 220,
-        "averageParticipationPct": 17.7,
-        "averageRunDepthStep": 78.6,
-        "averageRunDepthPct": 56.6,
+        "runCount": 221,
+        "averageParticipationPct": 18.0,
+        "averageRunDepthStep": 78.8,
+        "averageRunDepthPct": 56.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -48262,10 +48262,10 @@
         ]
       },
       "14": {
-        "runCount": 221,
-        "averageParticipationPct": 17.8,
-        "averageRunDepthStep": 78.3,
-        "averageRunDepthPct": 56.3,
+        "runCount": 222,
+        "averageParticipationPct": 18.1,
+        "averageRunDepthStep": 78.5,
+        "averageRunDepthPct": 56.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -48351,10 +48351,10 @@
         ]
       },
       "13": {
-        "runCount": 241,
-        "averageParticipationPct": 17.7,
-        "averageRunDepthStep": 72.9,
-        "averageRunDepthPct": 52.4,
+        "runCount": 242,
+        "averageParticipationPct": 18.0,
+        "averageRunDepthStep": 73.1,
+        "averageRunDepthPct": 52.6,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -48440,10 +48440,10 @@
         ]
       },
       "12": {
-        "runCount": 242,
-        "averageParticipationPct": 17.9,
-        "averageRunDepthStep": 72.6,
-        "averageRunDepthPct": 52.3,
+        "runCount": 243,
+        "averageParticipationPct": 18.2,
+        "averageRunDepthStep": 72.8,
+        "averageRunDepthPct": 52.4,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -48529,10 +48529,10 @@
         ]
       },
       "11": {
-        "runCount": 242,
-        "averageParticipationPct": 17.9,
-        "averageRunDepthStep": 72.6,
-        "averageRunDepthPct": 52.3,
+        "runCount": 243,
+        "averageParticipationPct": 18.2,
+        "averageRunDepthStep": 72.8,
+        "averageRunDepthPct": 52.4,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -48618,10 +48618,10 @@
         ]
       },
       "10": {
-        "runCount": 242,
-        "averageParticipationPct": 17.9,
-        "averageRunDepthStep": 72.6,
-        "averageRunDepthPct": 52.3,
+        "runCount": 243,
+        "averageParticipationPct": 18.2,
+        "averageRunDepthStep": 72.8,
+        "averageRunDepthPct": 52.4,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -48707,10 +48707,10 @@
         ]
       },
       "9": {
-        "runCount": 245,
-        "averageParticipationPct": 18.0,
-        "averageRunDepthStep": 71.9,
-        "averageRunDepthPct": 51.7,
+        "runCount": 246,
+        "averageParticipationPct": 18.2,
+        "averageRunDepthStep": 72.1,
+        "averageRunDepthPct": 51.8,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -48796,10 +48796,10 @@
         ]
       },
       "8": {
-        "runCount": 249,
-        "averageParticipationPct": 17.9,
-        "averageRunDepthStep": 70.8,
-        "averageRunDepthPct": 51.0,
+        "runCount": 250,
+        "averageParticipationPct": 18.1,
+        "averageRunDepthStep": 71.0,
+        "averageRunDepthPct": 51.1,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -48885,10 +48885,10 @@
         ]
       },
       "7": {
-        "runCount": 250,
-        "averageParticipationPct": 17.8,
-        "averageRunDepthStep": 70.6,
-        "averageRunDepthPct": 50.8,
+        "runCount": 251,
+        "averageParticipationPct": 18.1,
+        "averageRunDepthStep": 70.8,
+        "averageRunDepthPct": 50.9,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -48974,10 +48974,10 @@
         ]
       },
       "6": {
-        "runCount": 253,
-        "averageParticipationPct": 18.0,
-        "averageRunDepthStep": 69.8,
-        "averageRunDepthPct": 50.2,
+        "runCount": 254,
+        "averageParticipationPct": 18.2,
+        "averageRunDepthStep": 70.0,
+        "averageRunDepthPct": 50.4,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -49063,10 +49063,10 @@
         ]
       },
       "5": {
-        "runCount": 255,
-        "averageParticipationPct": 18.2,
-        "averageRunDepthStep": 69.3,
-        "averageRunDepthPct": 49.9,
+        "runCount": 256,
+        "averageParticipationPct": 18.5,
+        "averageRunDepthStep": 69.5,
+        "averageRunDepthPct": 50.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -49152,10 +49152,10 @@
         ]
       },
       "4": {
-        "runCount": 268,
-        "averageParticipationPct": 19.8,
-        "averageRunDepthStep": 66.1,
-        "averageRunDepthPct": 47.6,
+        "runCount": 269,
+        "averageParticipationPct": 20.1,
+        "averageRunDepthStep": 66.3,
+        "averageRunDepthPct": 47.7,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -49241,10 +49241,10 @@
         ]
       },
       "3": {
-        "runCount": 273,
-        "averageParticipationPct": 19.7,
-        "averageRunDepthStep": 65.0,
-        "averageRunDepthPct": 46.7,
+        "runCount": 274,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 65.2,
+        "averageRunDepthPct": 46.9,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -49330,10 +49330,10 @@
         ]
       },
       "2": {
-        "runCount": 273,
-        "averageParticipationPct": 19.7,
-        "averageRunDepthStep": 65.0,
-        "averageRunDepthPct": 46.7,
+        "runCount": 274,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 65.2,
+        "averageRunDepthPct": 46.9,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -49419,10 +49419,10 @@
         ]
       },
       "1": {
-        "runCount": 273,
-        "averageParticipationPct": 19.7,
-        "averageRunDepthStep": 65.0,
-        "averageRunDepthPct": 46.7,
+        "runCount": 274,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 65.2,
+        "averageRunDepthPct": 46.9,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {

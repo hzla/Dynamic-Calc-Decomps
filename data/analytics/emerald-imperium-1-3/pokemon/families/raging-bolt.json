@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "raging-bolt",
   "familyMembers": [
     "Raging Bolt"
@@ -9065,34 +9065,34 @@
           ]
         },
         "35": {
-          "runCount": 26,
-          "averageParticipationPct": 23.9,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
-          "averageBattlesUsed": 1.0,
+          "runCount": 27,
+          "averageParticipationPct": 26.7,
+          "averageRunDepthStep": 95.3,
+          "averageRunDepthPct": 68.6,
+          "averageBattlesUsed": 1.1,
           "topBattles": [
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
             {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
               "ownedCount": 3,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
-            },
-            {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 2,
-              "ownedCount": 2,
               "participationPct": 100
             },
             {
@@ -9154,34 +9154,34 @@
           ]
         },
         "34": {
-          "runCount": 26,
-          "averageParticipationPct": 23.9,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
-          "averageBattlesUsed": 1.0,
+          "runCount": 27,
+          "averageParticipationPct": 26.7,
+          "averageRunDepthStep": 95.3,
+          "averageRunDepthPct": 68.6,
+          "averageBattlesUsed": 1.1,
           "topBattles": [
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
             {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 3,
               "ownedCount": 3,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
-            },
-            {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 2,
-              "ownedCount": 2,
               "participationPct": 100
             },
             {
@@ -9243,19 +9243,27 @@
           ]
         },
         "33": {
-          "runCount": 27,
-          "averageParticipationPct": 26.7,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 28,
+          "averageParticipationPct": 29.3,
+          "averageRunDepthStep": 93.1,
+          "averageRunDepthPct": 67.0,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9264,14 +9272,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -9332,19 +9332,27 @@
           ]
         },
         "32": {
-          "runCount": 27,
-          "averageParticipationPct": 26.7,
-          "averageRunDepthStep": 95.2,
-          "averageRunDepthPct": 68.5,
+          "runCount": 28,
+          "averageParticipationPct": 29.3,
+          "averageRunDepthStep": 93.1,
+          "averageRunDepthPct": 67.0,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9353,14 +9361,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -9421,19 +9421,27 @@
           ]
         },
         "31": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9442,14 +9450,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -9510,19 +9510,27 @@
           ]
         },
         "30": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9531,14 +9539,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -9599,19 +9599,27 @@
           ]
         },
         "29": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9620,14 +9628,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -9688,19 +9688,27 @@
           ]
         },
         "28": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9709,14 +9717,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -9777,19 +9777,27 @@
           ]
         },
         "27": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9798,14 +9806,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -9866,19 +9866,27 @@
           ]
         },
         "26": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9887,14 +9895,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -9955,19 +9955,27 @@
           ]
         },
         "25": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -9976,14 +9984,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10044,19 +10044,27 @@
           ]
         },
         "24": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10065,14 +10073,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10133,19 +10133,27 @@
           ]
         },
         "23": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10154,14 +10162,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10222,19 +10222,27 @@
           ]
         },
         "22": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10243,14 +10251,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10311,19 +10311,27 @@
           ]
         },
         "21": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10332,14 +10340,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10400,19 +10400,27 @@
           ]
         },
         "20": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10421,14 +10429,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10489,19 +10489,27 @@
           ]
         },
         "19": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10510,14 +10518,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10578,19 +10578,27 @@
           ]
         },
         "18": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10599,14 +10607,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10667,19 +10667,27 @@
           ]
         },
         "17": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10688,14 +10696,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10756,19 +10756,27 @@
           ]
         },
         "16": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10777,14 +10785,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10845,19 +10845,27 @@
           ]
         },
         "15": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10866,14 +10874,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -10934,19 +10934,27 @@
           ]
         },
         "14": {
-          "runCount": 28,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 92.9,
-          "averageRunDepthPct": 66.9,
+          "runCount": 29,
+          "averageParticipationPct": 31.8,
+          "averageRunDepthStep": 90.9,
+          "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 3,
+              "partyCount": 4,
+              "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "267",
@@ -10955,14 +10963,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11023,24 +11023,32 @@
           ]
         },
         "13": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11052,14 +11060,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11112,24 +11112,32 @@
           ]
         },
         "12": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11141,14 +11149,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11201,24 +11201,32 @@
           ]
         },
         "11": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11230,14 +11238,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11290,24 +11290,32 @@
           ]
         },
         "10": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11319,14 +11327,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11379,24 +11379,32 @@
           ]
         },
         "9": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11408,14 +11416,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11468,24 +11468,32 @@
           ]
         },
         "8": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11497,14 +11505,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11557,24 +11557,32 @@
           ]
         },
         "7": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11586,14 +11594,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11646,24 +11646,32 @@
           ]
         },
         "6": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11675,14 +11683,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11735,24 +11735,32 @@
           ]
         },
         "5": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11764,14 +11772,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11824,24 +11824,32 @@
           ]
         },
         "4": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11853,14 +11861,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -11913,24 +11913,32 @@
           ]
         },
         "3": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -11942,14 +11950,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -12002,24 +12002,32 @@
           ]
         },
         "2": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -12031,14 +12039,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -12091,24 +12091,32 @@
           ]
         },
         "1": {
-          "runCount": 30,
-          "averageParticipationPct": 31.8,
-          "averageRunDepthStep": 87.6,
-          "averageRunDepthPct": 63.0,
+          "runCount": 31,
+          "averageParticipationPct": 34.0,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
             {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
@@ -12120,14 +12128,6 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route111",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
             },
             {
               "usageKey": "227",
@@ -21241,34 +21241,34 @@
         ]
       },
       "35": {
-        "runCount": 26,
-        "averageParticipationPct": 23.9,
-        "averageRunDepthStep": 97.6,
-        "averageRunDepthPct": 70.2,
-        "averageBattlesUsed": 1.0,
+        "runCount": 27,
+        "averageParticipationPct": 26.7,
+        "averageRunDepthStep": 95.3,
+        "averageRunDepthPct": 68.6,
+        "averageBattlesUsed": 1.1,
         "topBattles": [
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
           {
             "usageKey": "267",
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
             "ownedCount": 3,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 2,
-            "ownedCount": 2,
             "participationPct": 100
           },
           {
@@ -21330,34 +21330,34 @@
         ]
       },
       "34": {
-        "runCount": 26,
-        "averageParticipationPct": 23.9,
-        "averageRunDepthStep": 97.6,
-        "averageRunDepthPct": 70.2,
-        "averageBattlesUsed": 1.0,
+        "runCount": 27,
+        "averageParticipationPct": 26.7,
+        "averageRunDepthStep": 95.3,
+        "averageRunDepthPct": 68.6,
+        "averageBattlesUsed": 1.1,
         "topBattles": [
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
           {
             "usageKey": "267",
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 3,
             "ownedCount": 3,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 2,
-            "ownedCount": 2,
             "participationPct": 100
           },
           {
@@ -21419,19 +21419,27 @@
         ]
       },
       "33": {
-        "runCount": 27,
-        "averageParticipationPct": 26.7,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 28,
+        "averageParticipationPct": 29.3,
+        "averageRunDepthStep": 93.1,
+        "averageRunDepthPct": 67.0,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -21440,14 +21448,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -21508,19 +21508,27 @@
         ]
       },
       "32": {
-        "runCount": 27,
-        "averageParticipationPct": 26.7,
-        "averageRunDepthStep": 95.2,
-        "averageRunDepthPct": 68.5,
+        "runCount": 28,
+        "averageParticipationPct": 29.3,
+        "averageRunDepthStep": 93.1,
+        "averageRunDepthPct": 67.0,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -21529,14 +21537,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -21597,19 +21597,27 @@
         ]
       },
       "31": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -21618,14 +21626,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -21686,19 +21686,27 @@
         ]
       },
       "30": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -21707,14 +21715,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -21775,19 +21775,27 @@
         ]
       },
       "29": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -21796,14 +21804,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -21864,19 +21864,27 @@
         ]
       },
       "28": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -21885,14 +21893,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -21953,19 +21953,27 @@
         ]
       },
       "27": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -21974,14 +21982,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22042,19 +22042,27 @@
         ]
       },
       "26": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22063,14 +22071,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22131,19 +22131,27 @@
         ]
       },
       "25": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22152,14 +22160,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22220,19 +22220,27 @@
         ]
       },
       "24": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22241,14 +22249,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22309,19 +22309,27 @@
         ]
       },
       "23": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22330,14 +22338,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22398,19 +22398,27 @@
         ]
       },
       "22": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22419,14 +22427,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22487,19 +22487,27 @@
         ]
       },
       "21": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22508,14 +22516,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22576,19 +22576,27 @@
         ]
       },
       "20": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22597,14 +22605,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22665,19 +22665,27 @@
         ]
       },
       "19": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22686,14 +22694,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22754,19 +22754,27 @@
         ]
       },
       "18": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22775,14 +22783,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22843,19 +22843,27 @@
         ]
       },
       "17": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22864,14 +22872,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -22932,19 +22932,27 @@
         ]
       },
       "16": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -22953,14 +22961,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23021,19 +23021,27 @@
         ]
       },
       "15": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -23042,14 +23050,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23110,19 +23110,27 @@
         ]
       },
       "14": {
-        "runCount": 28,
-        "averageParticipationPct": 29.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.9,
+        "runCount": 29,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 90.9,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
-            "partyCount": 3,
-            "ownedCount": 3,
+            "partyCount": 4,
+            "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -23131,14 +23139,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23199,24 +23199,32 @@
         ]
       },
       "13": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23228,14 +23236,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23288,24 +23288,32 @@
         ]
       },
       "12": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23317,14 +23325,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23377,24 +23377,32 @@
         ]
       },
       "11": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23406,14 +23414,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23466,24 +23466,32 @@
         ]
       },
       "10": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23495,14 +23503,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23555,24 +23555,32 @@
         ]
       },
       "9": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23584,14 +23592,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23644,24 +23644,32 @@
         ]
       },
       "8": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23673,14 +23681,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23733,24 +23733,32 @@
         ]
       },
       "7": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23762,14 +23770,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23822,24 +23822,32 @@
         ]
       },
       "6": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23851,14 +23859,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -23911,24 +23911,32 @@
         ]
       },
       "5": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -23940,14 +23948,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -24000,24 +24000,32 @@
         ]
       },
       "4": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -24029,14 +24037,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -24089,24 +24089,32 @@
         ]
       },
       "3": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -24118,14 +24126,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -24178,24 +24178,32 @@
         ]
       },
       "2": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -24207,14 +24215,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",
@@ -24267,24 +24267,32 @@
         ]
       },
       "1": {
-        "runCount": 30,
-        "averageParticipationPct": 31.8,
-        "averageRunDepthStep": 87.6,
-        "averageRunDepthPct": 63.0,
+        "runCount": 31,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 85.9,
+        "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          },
           {
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -24296,14 +24304,6 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route111",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
           },
           {
             "usageKey": "227",

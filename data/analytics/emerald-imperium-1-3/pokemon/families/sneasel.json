@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "sneasel",
   "familyMembers": [
     "Sneasel",
@@ -15482,20 +15482,20 @@
               "participationPct": 40
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "Magma Leader Maxie Magma Hideout",
               "displayName": "Magma Leader Maxie Magma Hideout",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             }
           ]
         },
@@ -15571,20 +15571,20 @@
               "participationPct": 40
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
               "usageKey": "Magma Leader Maxie Magma Hideout",
               "displayName": "Magma Leader Maxie Magma Hideout",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 6,
               "participationPct": 33
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
             }
           ]
         },
@@ -15664,8 +15664,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Magma Leader Maxie Magma Hideout",
@@ -15753,8 +15753,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Magma Leader Maxie Magma Hideout",
@@ -15842,8 +15842,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Magma Leader Maxie Magma Hideout",
@@ -15931,8 +15931,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Magma Leader Maxie Magma Hideout",
@@ -16020,8 +16020,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Magma Leader Maxie Magma Hideout",
@@ -16109,8 +16109,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Magma Leader Maxie Magma Hideout",
@@ -16198,8 +16198,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Magma Leader Maxie Magma Hideout",
@@ -16287,8 +16287,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "Magma Leader Maxie Magma Hideout",
@@ -16320,8 +16320,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
+              "ownedCount": 8,
+              "participationPct": 38
             },
             {
               "usageKey": "261",
@@ -16409,8 +16409,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
+              "ownedCount": 8,
+              "participationPct": 38
             },
             {
               "usageKey": "261",
@@ -16498,8 +16498,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
+              "ownedCount": 8,
+              "participationPct": 38
             },
             {
               "usageKey": "261",
@@ -16587,8 +16587,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
+              "ownedCount": 8,
+              "participationPct": 38
             },
             {
               "usageKey": "261",
@@ -16658,7 +16658,7 @@
         },
         "91": {
           "runCount": 64,
-          "averageParticipationPct": 14.5,
+          "averageParticipationPct": 14.4,
           "averageRunDepthStep": 125.4,
           "averageRunDepthPct": 90.2,
           "averageBattlesUsed": 0.8,
@@ -16676,8 +16676,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
+              "ownedCount": 8,
+              "participationPct": 38
             },
             {
               "usageKey": "261",
@@ -16765,8 +16765,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
+              "ownedCount": 8,
+              "participationPct": 38
             },
             {
               "usageKey": "261",
@@ -16854,8 +16854,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 9,
-              "participationPct": 33
+              "ownedCount": 10,
+              "participationPct": 30
             },
             {
               "usageKey": "261",
@@ -16943,8 +16943,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 9,
-              "participationPct": 33
+              "ownedCount": 10,
+              "participationPct": 30
             },
             {
               "usageKey": "261",
@@ -17032,8 +17032,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 9,
-              "participationPct": 33
+              "ownedCount": 10,
+              "participationPct": 30
             },
             {
               "usageKey": "261",
@@ -17121,8 +17121,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 10,
-              "participationPct": 30
+              "ownedCount": 11,
+              "participationPct": 27
             },
             {
               "usageKey": "261",
@@ -17210,8 +17210,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 10,
-              "participationPct": 30
+              "ownedCount": 11,
+              "participationPct": 27
             },
             {
               "usageKey": "261",
@@ -17299,8 +17299,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 10,
-              "participationPct": 30
+              "ownedCount": 11,
+              "participationPct": 27
             },
             {
               "usageKey": "261",
@@ -17388,8 +17388,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
+              "ownedCount": 12,
+              "participationPct": 25
             },
             {
               "usageKey": "261",
@@ -17469,8 +17469,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -17558,8 +17558,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -17647,8 +17647,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -17736,8 +17736,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -17825,8 +17825,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -17914,8 +17914,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18003,8 +18003,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18092,8 +18092,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18181,8 +18181,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18260,7 +18260,7 @@
         },
         "73": {
           "runCount": 83,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.6,
           "averageRunDepthStep": 115.7,
           "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 0.7,
@@ -18270,8 +18270,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18359,8 +18359,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18448,8 +18448,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18537,8 +18537,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18626,8 +18626,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18715,8 +18715,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18804,8 +18804,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18893,8 +18893,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -18982,8 +18982,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19071,8 +19071,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19160,8 +19160,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19249,8 +19249,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19338,8 +19338,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19427,8 +19427,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19516,8 +19516,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19605,8 +19605,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19694,8 +19694,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19783,8 +19783,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19872,8 +19872,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -19961,8 +19961,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20050,8 +20050,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20139,8 +20139,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20228,8 +20228,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20317,8 +20317,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20406,8 +20406,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20495,8 +20495,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20584,8 +20584,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20673,8 +20673,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20762,8 +20762,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20851,8 +20851,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -20940,8 +20940,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21029,8 +21029,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21118,8 +21118,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21207,8 +21207,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21296,8 +21296,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21385,8 +21385,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21474,8 +21474,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21563,8 +21563,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21652,8 +21652,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21741,8 +21741,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21830,8 +21830,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -21919,8 +21919,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22008,8 +22008,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22097,8 +22097,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22186,8 +22186,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22275,8 +22275,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22364,8 +22364,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22453,8 +22453,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22542,8 +22542,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22631,8 +22631,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22720,8 +22720,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22809,8 +22809,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22898,8 +22898,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -22987,8 +22987,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23076,8 +23076,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23165,8 +23165,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23254,8 +23254,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23343,8 +23343,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23432,8 +23432,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23521,8 +23521,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23610,8 +23610,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23699,8 +23699,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23788,8 +23788,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23877,8 +23877,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -23966,8 +23966,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -24055,8 +24055,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -24144,8 +24144,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -24233,8 +24233,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -24322,8 +24322,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -24411,8 +24411,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -24500,8 +24500,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -24589,8 +24589,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -24678,8 +24678,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 16,
-              "participationPct": 38
+              "ownedCount": 17,
+              "participationPct": 35
             },
             {
               "usageKey": "262",
@@ -27866,12 +27866,12 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -27955,12 +27955,12 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28036,20 +28036,20 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "Magma Leader Maxie Magma Hideout",
             "displayName": "Magma Leader Maxie Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28125,20 +28125,20 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "Magma Leader Maxie Magma Hideout",
             "displayName": "Magma Leader Maxie Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28214,20 +28214,20 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "Magma Leader Maxie Magma Hideout",
             "displayName": "Magma Leader Maxie Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28303,20 +28303,20 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "Magma Leader Maxie Magma Hideout",
             "displayName": "Magma Leader Maxie Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28392,20 +28392,20 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "Magma Leader Maxie Magma Hideout",
             "displayName": "Magma Leader Maxie Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28481,20 +28481,20 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "Magma Leader Maxie Magma Hideout",
             "displayName": "Magma Leader Maxie Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28570,20 +28570,20 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "Magma Leader Maxie Magma Hideout",
             "displayName": "Magma Leader Maxie Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28659,20 +28659,20 @@
             "participationPct": 29
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "Magma Leader Maxie Magma Hideout",
             "displayName": "Magma Leader Maxie Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
@@ -28696,8 +28696,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 8,
-            "participationPct": 38
+            "ownedCount": 9,
+            "participationPct": 33
           },
           {
             "usageKey": "261",
@@ -28785,8 +28785,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 8,
-            "participationPct": 38
+            "ownedCount": 9,
+            "participationPct": 33
           },
           {
             "usageKey": "261",
@@ -28874,8 +28874,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 8,
-            "participationPct": 38
+            "ownedCount": 9,
+            "participationPct": 33
           },
           {
             "usageKey": "261",
@@ -28963,8 +28963,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 8,
-            "participationPct": 38
+            "ownedCount": 9,
+            "participationPct": 33
           },
           {
             "usageKey": "261",
@@ -29052,8 +29052,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 8,
-            "participationPct": 38
+            "ownedCount": 9,
+            "participationPct": 33
           },
           {
             "usageKey": "261",
@@ -29141,8 +29141,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 8,
-            "participationPct": 38
+            "ownedCount": 9,
+            "participationPct": 33
           },
           {
             "usageKey": "261",
@@ -29230,8 +29230,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 10,
-            "participationPct": 30
+            "ownedCount": 11,
+            "participationPct": 27
           },
           {
             "usageKey": "261",
@@ -29319,8 +29319,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 10,
-            "participationPct": 30
+            "ownedCount": 11,
+            "participationPct": 27
           },
           {
             "usageKey": "261",
@@ -29408,8 +29408,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 10,
-            "participationPct": 30
+            "ownedCount": 11,
+            "participationPct": 27
           },
           {
             "usageKey": "261",
@@ -29497,8 +29497,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
+            "ownedCount": 12,
+            "participationPct": 25
           },
           {
             "usageKey": "261",
@@ -29586,8 +29586,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
+            "ownedCount": 12,
+            "participationPct": 25
           },
           {
             "usageKey": "261",
@@ -29675,8 +29675,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
+            "ownedCount": 12,
+            "participationPct": 25
           },
           {
             "usageKey": "261",
@@ -29764,8 +29764,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 3,
-            "ownedCount": 12,
-            "participationPct": 25
+            "ownedCount": 13,
+            "participationPct": 23
           },
           {
             "usageKey": "261",
@@ -29845,8 +29845,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -29934,8 +29934,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30023,8 +30023,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30112,8 +30112,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30201,8 +30201,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30290,8 +30290,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30379,8 +30379,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30468,8 +30468,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30557,8 +30557,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30646,8 +30646,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30735,8 +30735,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30824,8 +30824,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -30913,8 +30913,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31002,8 +31002,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31091,8 +31091,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31180,8 +31180,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31269,8 +31269,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31358,8 +31358,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31447,8 +31447,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31536,8 +31536,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31625,8 +31625,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31714,8 +31714,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31793,7 +31793,7 @@
       },
       "60": {
         "runCount": 122,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.3,
         "averageRunDepthStep": 105.6,
         "averageRunDepthPct": 76.0,
         "averageBattlesUsed": 0.5,
@@ -31803,8 +31803,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31892,8 +31892,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -31981,8 +31981,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32070,8 +32070,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32159,8 +32159,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32248,8 +32248,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32337,8 +32337,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32426,8 +32426,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32515,8 +32515,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32604,8 +32604,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32693,8 +32693,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32782,8 +32782,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32871,8 +32871,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -32960,8 +32960,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33049,8 +33049,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33138,8 +33138,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33227,8 +33227,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33316,8 +33316,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33405,8 +33405,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33494,8 +33494,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33583,8 +33583,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33672,8 +33672,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33761,8 +33761,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33850,8 +33850,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -33939,8 +33939,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34028,8 +34028,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34117,8 +34117,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34206,8 +34206,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34295,8 +34295,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34384,8 +34384,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34473,8 +34473,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34562,8 +34562,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34651,8 +34651,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34740,8 +34740,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34829,8 +34829,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -34918,8 +34918,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35007,8 +35007,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35096,8 +35096,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35185,8 +35185,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35274,8 +35274,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35363,8 +35363,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35452,8 +35452,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35541,8 +35541,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35630,8 +35630,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35719,8 +35719,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35808,8 +35808,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35897,8 +35897,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -35986,8 +35986,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36075,8 +36075,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36164,8 +36164,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36253,8 +36253,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36342,8 +36342,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36431,8 +36431,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36520,8 +36520,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36609,8 +36609,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36698,8 +36698,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36787,8 +36787,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36876,8 +36876,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -36965,8 +36965,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",
@@ -37054,8 +37054,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 18,
-            "participationPct": 33
+            "ownedCount": 19,
+            "participationPct": 32
           },
           {
             "usageKey": "262",

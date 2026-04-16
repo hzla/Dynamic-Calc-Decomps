@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "greavard",
   "familyMembers": [
     "Greavard",
@@ -16537,7 +16537,7 @@
         },
         "92": {
           "runCount": 49,
-          "averageParticipationPct": 9.5,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 125.3,
           "averageRunDepthPct": 90.1,
           "averageBattlesUsed": 1.3,
@@ -16591,17 +16591,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -16626,7 +16626,7 @@
         },
         "91": {
           "runCount": 50,
-          "averageParticipationPct": 9.4,
+          "averageParticipationPct": 8.8,
           "averageRunDepthStep": 124.6,
           "averageRunDepthPct": 89.6,
           "averageBattlesUsed": 1.2,
@@ -16680,17 +16680,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -16715,7 +16715,7 @@
         },
         "90": {
           "runCount": 53,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 1.2,
@@ -16769,17 +16769,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -16804,7 +16804,7 @@
         },
         "89": {
           "runCount": 53,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 1.2,
@@ -16858,17 +16858,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -16893,7 +16893,7 @@
         },
         "88": {
           "runCount": 53,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 1.2,
@@ -16947,17 +16947,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -16982,7 +16982,7 @@
         },
         "87": {
           "runCount": 53,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 1.2,
@@ -17036,17 +17036,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17071,7 +17071,7 @@
         },
         "86": {
           "runCount": 53,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 1.2,
@@ -17125,17 +17125,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17160,7 +17160,7 @@
         },
         "85": {
           "runCount": 53,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 1.2,
@@ -17214,17 +17214,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17249,7 +17249,7 @@
         },
         "84": {
           "runCount": 54,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.2,
           "averageRunDepthStep": 121.9,
           "averageRunDepthPct": 87.7,
           "averageBattlesUsed": 1.1,
@@ -17303,17 +17303,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17338,7 +17338,7 @@
         },
         "83": {
           "runCount": 55,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 8.0,
           "averageRunDepthStep": 121.2,
           "averageRunDepthPct": 87.2,
           "averageBattlesUsed": 1.1,
@@ -17392,17 +17392,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17427,7 +17427,7 @@
         },
         "82": {
           "runCount": 57,
-          "averageParticipationPct": 9.1,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 119.8,
           "averageRunDepthPct": 86.2,
           "averageBattlesUsed": 1.1,
@@ -17481,17 +17481,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17516,7 +17516,7 @@
         },
         "81": {
           "runCount": 57,
-          "averageParticipationPct": 9.1,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 119.8,
           "averageRunDepthPct": 86.2,
           "averageBattlesUsed": 1.1,
@@ -17570,17 +17570,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17605,7 +17605,7 @@
         },
         "80": {
           "runCount": 59,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 118.5,
           "averageRunDepthPct": 85.2,
           "averageBattlesUsed": 1.1,
@@ -17659,17 +17659,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17694,7 +17694,7 @@
         },
         "79": {
           "runCount": 59,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 118.5,
           "averageRunDepthPct": 85.2,
           "averageBattlesUsed": 1.1,
@@ -17748,17 +17748,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17783,7 +17783,7 @@
         },
         "78": {
           "runCount": 59,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 118.5,
           "averageRunDepthPct": 85.2,
           "averageBattlesUsed": 1.1,
@@ -17837,17 +17837,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17872,7 +17872,7 @@
         },
         "77": {
           "runCount": 61,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 8.1,
           "averageRunDepthStep": 117.1,
           "averageRunDepthPct": 84.3,
           "averageBattlesUsed": 1.0,
@@ -17926,17 +17926,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -17961,7 +17961,7 @@
         },
         "76": {
           "runCount": 62,
-          "averageParticipationPct": 8.4,
+          "averageParticipationPct": 7.9,
           "averageRunDepthStep": 116.5,
           "averageRunDepthPct": 83.8,
           "averageBattlesUsed": 1.0,
@@ -18015,17 +18015,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18050,7 +18050,7 @@
         },
         "75": {
           "runCount": 63,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 115.8,
           "averageRunDepthPct": 83.3,
           "averageBattlesUsed": 1.1,
@@ -18108,14 +18108,6 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
-            },
-            {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
             },
@@ -18123,6 +18115,14 @@
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18139,7 +18139,7 @@
         },
         "74": {
           "runCount": 63,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 115.8,
           "averageRunDepthPct": 83.3,
           "averageBattlesUsed": 1.1,
@@ -18197,14 +18197,6 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
-            },
-            {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
             },
@@ -18212,6 +18204,14 @@
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18228,7 +18228,7 @@
         },
         "73": {
           "runCount": 63,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 115.8,
           "averageRunDepthPct": 83.3,
           "averageBattlesUsed": 1.1,
@@ -18286,14 +18286,6 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
-            },
-            {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
             },
@@ -18301,6 +18293,14 @@
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18317,7 +18317,7 @@
         },
         "72": {
           "runCount": 65,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 1.1,
@@ -18371,25 +18371,25 @@
               "participationPct": 27
             },
             {
+              "usageKey": "590",
+              "displayName": "Champion Steven With Wallace",
+              "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
               "usageKey": "Kindler Spencer",
               "displayName": "Kindler Spencer",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "590",
-              "displayName": "Champion Steven With Wallace",
-              "leadLevel": 85,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18406,7 +18406,7 @@
         },
         "71": {
           "runCount": 65,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 1.1,
@@ -18460,25 +18460,25 @@
               "participationPct": 27
             },
             {
+              "usageKey": "590",
+              "displayName": "Champion Steven With Wallace",
+              "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
               "usageKey": "Kindler Spencer",
               "displayName": "Kindler Spencer",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "590",
-              "displayName": "Champion Steven With Wallace",
-              "leadLevel": 85,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18495,7 +18495,7 @@
         },
         "70": {
           "runCount": 67,
-          "averageParticipationPct": 8.4,
+          "averageParticipationPct": 8.0,
           "averageRunDepthStep": 113.1,
           "averageRunDepthPct": 81.4,
           "averageBattlesUsed": 1.0,
@@ -18549,25 +18549,25 @@
               "participationPct": 27
             },
             {
+              "usageKey": "590",
+              "displayName": "Champion Steven With Wallace",
+              "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
               "usageKey": "Kindler Spencer",
               "displayName": "Kindler Spencer",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "590",
-              "displayName": "Champion Steven With Wallace",
-              "leadLevel": 85,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18584,7 +18584,7 @@
         },
         "69": {
           "runCount": 67,
-          "averageParticipationPct": 8.4,
+          "averageParticipationPct": 8.0,
           "averageRunDepthStep": 113.1,
           "averageRunDepthPct": 81.4,
           "averageBattlesUsed": 1.0,
@@ -18638,25 +18638,25 @@
               "participationPct": 27
             },
             {
+              "usageKey": "590",
+              "displayName": "Champion Steven With Wallace",
+              "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
               "usageKey": "Kindler Spencer",
               "displayName": "Kindler Spencer",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "590",
-              "displayName": "Champion Steven With Wallace",
-              "leadLevel": 85,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18673,7 +18673,7 @@
         },
         "68": {
           "runCount": 74,
-          "averageParticipationPct": 10.4,
+          "averageParticipationPct": 10.1,
           "averageRunDepthStep": 108.9,
           "averageRunDepthPct": 78.3,
           "averageBattlesUsed": 1.0,
@@ -18727,14 +18727,6 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
@@ -18743,8 +18735,8 @@
               "participationPct": 67
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
@@ -18757,12 +18749,20 @@
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "159",
+              "displayName": "Kindler Spencer",
+              "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
             }
           ]
         },
         "67": {
           "runCount": 75,
-          "averageParticipationPct": 10.3,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 108.3,
           "averageRunDepthPct": 77.9,
           "averageBattlesUsed": 1.0,
@@ -18816,14 +18816,6 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
@@ -18832,8 +18824,8 @@
               "participationPct": 67
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
@@ -18846,12 +18838,20 @@
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "159",
+              "displayName": "Kindler Spencer",
+              "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
             }
           ]
         },
         "66": {
           "runCount": 76,
-          "averageParticipationPct": 10.4,
+          "averageParticipationPct": 10.1,
           "averageRunDepthStep": 107.7,
           "averageRunDepthPct": 77.5,
           "averageBattlesUsed": 1.0,
@@ -18881,17 +18881,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -18913,17 +18913,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -18940,7 +18940,7 @@
         },
         "65": {
           "runCount": 78,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 106.6,
           "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 1.0,
@@ -18970,17 +18970,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19002,17 +19002,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19029,7 +19029,7 @@
         },
         "64": {
           "runCount": 78,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 106.6,
           "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 1.0,
@@ -19059,17 +19059,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19091,17 +19091,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19118,7 +19118,7 @@
         },
         "63": {
           "runCount": 80,
-          "averageParticipationPct": 11.1,
+          "averageParticipationPct": 10.8,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 1.0,
@@ -19148,17 +19148,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19180,17 +19180,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19207,7 +19207,7 @@
         },
         "62": {
           "runCount": 81,
-          "averageParticipationPct": 11.0,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 1.0,
@@ -19237,17 +19237,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19269,17 +19269,17 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19296,7 +19296,7 @@
         },
         "61": {
           "runCount": 84,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 103.4,
           "averageRunDepthPct": 74.4,
           "averageBattlesUsed": 1.0,
@@ -19326,17 +19326,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19366,17 +19366,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19385,7 +19385,7 @@
         },
         "60": {
           "runCount": 84,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 103.4,
           "averageRunDepthPct": 74.4,
           "averageBattlesUsed": 1.0,
@@ -19415,17 +19415,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19455,17 +19455,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19474,7 +19474,7 @@
         },
         "59": {
           "runCount": 84,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 103.4,
           "averageRunDepthPct": 74.4,
           "averageBattlesUsed": 1.0,
@@ -19504,17 +19504,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19544,17 +19544,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19563,7 +19563,7 @@
         },
         "58": {
           "runCount": 86,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 102.4,
           "averageRunDepthPct": 73.7,
           "averageBattlesUsed": 1.0,
@@ -19593,17 +19593,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19633,17 +19633,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19652,7 +19652,7 @@
         },
         "57": {
           "runCount": 86,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 102.4,
           "averageRunDepthPct": 73.7,
           "averageBattlesUsed": 1.0,
@@ -19682,17 +19682,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19722,17 +19722,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19741,7 +19741,7 @@
         },
         "56": {
           "runCount": 86,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 102.4,
           "averageRunDepthPct": 73.7,
           "averageBattlesUsed": 1.0,
@@ -19771,17 +19771,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19811,17 +19811,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19830,7 +19830,7 @@
         },
         "55": {
           "runCount": 86,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 102.4,
           "averageRunDepthPct": 73.7,
           "averageBattlesUsed": 1.0,
@@ -19860,17 +19860,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19900,17 +19900,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -19919,7 +19919,7 @@
         },
         "54": {
           "runCount": 86,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 102.4,
           "averageRunDepthPct": 73.7,
           "averageBattlesUsed": 1.0,
@@ -19949,17 +19949,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -19989,17 +19989,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -20008,7 +20008,7 @@
         },
         "53": {
           "runCount": 87,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 101.8,
           "averageRunDepthPct": 73.2,
           "averageBattlesUsed": 1.0,
@@ -20038,17 +20038,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -20078,17 +20078,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -20097,7 +20097,7 @@
         },
         "52": {
           "runCount": 87,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 101.8,
           "averageRunDepthPct": 73.2,
           "averageBattlesUsed": 1.0,
@@ -20127,17 +20127,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -20167,17 +20167,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -20186,7 +20186,7 @@
         },
         "51": {
           "runCount": 87,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 101.8,
           "averageRunDepthPct": 73.2,
           "averageBattlesUsed": 1.0,
@@ -20216,17 +20216,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -20256,17 +20256,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -20275,7 +20275,7 @@
         },
         "50": {
           "runCount": 87,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 101.8,
           "averageRunDepthPct": 73.2,
           "averageBattlesUsed": 1.0,
@@ -20305,17 +20305,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -20345,17 +20345,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "590",
               "displayName": "Champion Steven With Wallace",
               "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Kindler Spencer",
+              "displayName": "Kindler Spencer",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -20364,7 +20364,7 @@
         },
         "49": {
           "runCount": 94,
-          "averageParticipationPct": 12.9,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 97.9,
           "averageRunDepthPct": 70.4,
           "averageBattlesUsed": 1.0,
@@ -20402,17 +20402,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -20434,26 +20434,26 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
+            },
+            {
+              "usageKey": "590",
+              "displayName": "Champion Steven With Wallace",
+              "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
             }
           ]
         },
         "48": {
           "runCount": 95,
-          "averageParticipationPct": 12.7,
+          "averageParticipationPct": 12.5,
           "averageRunDepthStep": 97.4,
           "averageRunDepthPct": 70.0,
           "averageBattlesUsed": 1.0,
@@ -20491,17 +20491,17 @@
               "participationPct": 31
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
+              "leadLevel": null,
               "partyCount": 3,
               "ownedCount": 5,
               "participationPct": 60
@@ -20523,26 +20523,26 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
+            },
+            {
+              "usageKey": "590",
+              "displayName": "Champion Steven With Wallace",
+              "leadLevel": 85,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
             }
           ]
         },
         "47": {
           "runCount": 100,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 94.8,
           "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.0,
@@ -20600,8 +20600,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "336",
@@ -20620,8 +20620,8 @@
               "participationPct": 27
             },
             {
-              "usageKey": "Kindler Spencer",
-              "displayName": "Kindler Spencer",
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -20631,7 +20631,7 @@
         },
         "46": {
           "runCount": 104,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 93.0,
           "averageRunDepthPct": 66.9,
           "averageBattlesUsed": 0.9,
@@ -20689,8 +20689,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "336",
@@ -20720,7 +20720,7 @@
         },
         "45": {
           "runCount": 106,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.7,
           "averageRunDepthStep": 92.1,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.9,
@@ -20778,8 +20778,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "336",
@@ -20809,7 +20809,7 @@
         },
         "44": {
           "runCount": 106,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.7,
           "averageRunDepthStep": 92.1,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.9,
@@ -20867,8 +20867,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "336",
@@ -20898,7 +20898,7 @@
         },
         "43": {
           "runCount": 110,
-          "averageParticipationPct": 12.9,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 90.3,
           "averageRunDepthPct": 64.9,
           "averageBattlesUsed": 0.9,
@@ -20964,8 +20964,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "744",
@@ -20987,7 +20987,7 @@
         },
         "42": {
           "runCount": 113,
-          "averageParticipationPct": 14.3,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 89.0,
           "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
@@ -21053,8 +21053,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "744",
@@ -21076,7 +21076,7 @@
         },
         "41": {
           "runCount": 116,
-          "averageParticipationPct": 13.9,
+          "averageParticipationPct": 13.7,
           "averageRunDepthStep": 87.8,
           "averageRunDepthPct": 63.1,
           "averageBattlesUsed": 0.9,
@@ -21142,8 +21142,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "744",
@@ -21165,7 +21165,7 @@
         },
         "40": {
           "runCount": 118,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.5,
           "averageRunDepthStep": 86.9,
           "averageRunDepthPct": 62.5,
           "averageBattlesUsed": 0.9,
@@ -21231,8 +21231,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "744",
@@ -21254,7 +21254,7 @@
         },
         "39": {
           "runCount": 123,
-          "averageParticipationPct": 14.1,
+          "averageParticipationPct": 13.9,
           "averageRunDepthStep": 85.0,
           "averageRunDepthPct": 61.1,
           "averageBattlesUsed": 0.9,
@@ -21320,8 +21320,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             },
             {
               "usageKey": "744",
@@ -21343,7 +21343,7 @@
         },
         "38": {
           "runCount": 127,
-          "averageParticipationPct": 15.7,
+          "averageParticipationPct": 15.5,
           "averageRunDepthStep": 83.5,
           "averageRunDepthPct": 60.1,
           "averageBattlesUsed": 0.9,
@@ -21425,14 +21425,14 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             }
           ]
         },
         "37": {
           "runCount": 127,
-          "averageParticipationPct": 15.7,
+          "averageParticipationPct": 15.5,
           "averageRunDepthStep": 83.5,
           "averageRunDepthPct": 60.1,
           "averageBattlesUsed": 0.9,
@@ -21514,14 +21514,14 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             }
           ]
         },
         "36": {
           "runCount": 128,
-          "averageParticipationPct": 15.6,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 83.1,
           "averageRunDepthPct": 59.8,
           "averageBattlesUsed": 0.9,
@@ -21603,14 +21603,14 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
+              "ownedCount": 5,
+              "participationPct": 60
             }
           ]
         },
         "35": {
           "runCount": 134,
-          "averageParticipationPct": 17.9,
+          "averageParticipationPct": 17.7,
           "averageRunDepthStep": 81.0,
           "averageRunDepthPct": 58.3,
           "averageBattlesUsed": 0.9,
@@ -21699,7 +21699,7 @@
         },
         "34": {
           "runCount": 134,
-          "averageParticipationPct": 17.9,
+          "averageParticipationPct": 17.7,
           "averageRunDepthStep": 81.0,
           "averageRunDepthPct": 58.3,
           "averageBattlesUsed": 0.9,
@@ -21788,7 +21788,7 @@
         },
         "33": {
           "runCount": 134,
-          "averageParticipationPct": 17.9,
+          "averageParticipationPct": 17.7,
           "averageRunDepthStep": 81.0,
           "averageRunDepthPct": 58.3,
           "averageBattlesUsed": 0.9,
@@ -21877,7 +21877,7 @@
         },
         "32": {
           "runCount": 148,
-          "averageParticipationPct": 18.8,
+          "averageParticipationPct": 18.6,
           "averageRunDepthStep": 76.4,
           "averageRunDepthPct": 54.9,
           "averageBattlesUsed": 0.9,
@@ -21966,7 +21966,7 @@
         },
         "31": {
           "runCount": 148,
-          "averageParticipationPct": 18.8,
+          "averageParticipationPct": 18.6,
           "averageRunDepthStep": 76.4,
           "averageRunDepthPct": 54.9,
           "averageBattlesUsed": 0.9,
@@ -22055,7 +22055,7 @@
         },
         "30": {
           "runCount": 151,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.3,
           "averageBattlesUsed": 0.9,
@@ -22144,7 +22144,7 @@
         },
         "29": {
           "runCount": 154,
-          "averageParticipationPct": 19.0,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 74.5,
           "averageRunDepthPct": 53.6,
           "averageBattlesUsed": 0.9,
@@ -22233,7 +22233,7 @@
         },
         "28": {
           "runCount": 154,
-          "averageParticipationPct": 19.0,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 74.5,
           "averageRunDepthPct": 53.6,
           "averageBattlesUsed": 0.9,
@@ -22322,7 +22322,7 @@
         },
         "27": {
           "runCount": 154,
-          "averageParticipationPct": 19.0,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 74.5,
           "averageRunDepthPct": 53.6,
           "averageBattlesUsed": 0.9,
@@ -22411,7 +22411,7 @@
         },
         "26": {
           "runCount": 154,
-          "averageParticipationPct": 19.0,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 74.5,
           "averageRunDepthPct": 53.6,
           "averageBattlesUsed": 0.9,
@@ -22500,7 +22500,7 @@
         },
         "25": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -22589,7 +22589,7 @@
         },
         "24": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -22678,7 +22678,7 @@
         },
         "23": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -22767,7 +22767,7 @@
         },
         "22": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -22856,7 +22856,7 @@
         },
         "21": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -22945,7 +22945,7 @@
         },
         "20": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23034,7 +23034,7 @@
         },
         "19": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23123,7 +23123,7 @@
         },
         "18": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23212,7 +23212,7 @@
         },
         "17": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23301,7 +23301,7 @@
         },
         "16": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23390,7 +23390,7 @@
         },
         "15": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23479,7 +23479,7 @@
         },
         "14": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23568,7 +23568,7 @@
         },
         "13": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23657,7 +23657,7 @@
         },
         "12": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23746,7 +23746,7 @@
         },
         "11": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23835,7 +23835,7 @@
         },
         "10": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -23924,7 +23924,7 @@
         },
         "9": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -24013,7 +24013,7 @@
         },
         "8": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -24102,7 +24102,7 @@
         },
         "7": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -24191,7 +24191,7 @@
         },
         "6": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -24280,7 +24280,7 @@
         },
         "5": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -24369,7 +24369,7 @@
         },
         "4": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -24458,7 +24458,7 @@
         },
         "3": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -24547,7 +24547,7 @@
         },
         "2": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -24636,7 +24636,7 @@
         },
         "1": {
           "runCount": 155,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 74.2,
           "averageRunDepthPct": 53.4,
           "averageBattlesUsed": 0.9,
@@ -28913,7 +28913,7 @@
       },
       "92": {
         "runCount": 50,
-        "averageParticipationPct": 9.2,
+        "averageParticipationPct": 8.7,
         "averageRunDepthStep": 125.1,
         "averageRunDepthPct": 90.0,
         "averageBattlesUsed": 1.2,
@@ -28967,17 +28967,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29002,7 +29002,7 @@
       },
       "91": {
         "runCount": 51,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.5,
         "averageRunDepthStep": 124.4,
         "averageRunDepthPct": 89.5,
         "averageBattlesUsed": 1.2,
@@ -29056,17 +29056,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29091,7 +29091,7 @@
       },
       "90": {
         "runCount": 55,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 121.9,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 1.1,
@@ -29145,17 +29145,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29180,7 +29180,7 @@
       },
       "89": {
         "runCount": 55,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 121.9,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 1.1,
@@ -29234,17 +29234,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29269,7 +29269,7 @@
       },
       "88": {
         "runCount": 55,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 121.9,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 1.1,
@@ -29323,17 +29323,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29358,7 +29358,7 @@
       },
       "87": {
         "runCount": 55,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 121.9,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 1.1,
@@ -29412,17 +29412,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29447,7 +29447,7 @@
       },
       "86": {
         "runCount": 55,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 121.9,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 1.1,
@@ -29501,17 +29501,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29536,7 +29536,7 @@
       },
       "85": {
         "runCount": 55,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 121.9,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 1.1,
@@ -29590,17 +29590,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29625,7 +29625,7 @@
       },
       "84": {
         "runCount": 56,
-        "averageParticipationPct": 8.2,
+        "averageParticipationPct": 7.7,
         "averageRunDepthStep": 121.2,
         "averageRunDepthPct": 87.2,
         "averageBattlesUsed": 1.1,
@@ -29679,17 +29679,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29714,7 +29714,7 @@
       },
       "83": {
         "runCount": 57,
-        "averageParticipationPct": 8.1,
+        "averageParticipationPct": 7.6,
         "averageRunDepthStep": 120.6,
         "averageRunDepthPct": 86.7,
         "averageBattlesUsed": 1.1,
@@ -29768,17 +29768,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29803,7 +29803,7 @@
       },
       "82": {
         "runCount": 60,
-        "averageParticipationPct": 8.5,
+        "averageParticipationPct": 8.0,
         "averageRunDepthStep": 118.6,
         "averageRunDepthPct": 85.3,
         "averageBattlesUsed": 1.1,
@@ -29857,17 +29857,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29892,7 +29892,7 @@
       },
       "81": {
         "runCount": 60,
-        "averageParticipationPct": 8.5,
+        "averageParticipationPct": 8.0,
         "averageRunDepthStep": 118.6,
         "averageRunDepthPct": 85.3,
         "averageBattlesUsed": 1.1,
@@ -29946,17 +29946,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -29981,7 +29981,7 @@
       },
       "80": {
         "runCount": 62,
-        "averageParticipationPct": 8.2,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 117.4,
         "averageRunDepthPct": 84.5,
         "averageBattlesUsed": 1.0,
@@ -30035,17 +30035,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30070,7 +30070,7 @@
       },
       "79": {
         "runCount": 62,
-        "averageParticipationPct": 8.2,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 117.4,
         "averageRunDepthPct": 84.5,
         "averageBattlesUsed": 1.0,
@@ -30124,17 +30124,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30159,7 +30159,7 @@
       },
       "78": {
         "runCount": 62,
-        "averageParticipationPct": 8.2,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 117.4,
         "averageRunDepthPct": 84.5,
         "averageBattlesUsed": 1.0,
@@ -30213,17 +30213,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30248,7 +30248,7 @@
       },
       "77": {
         "runCount": 64,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.5,
         "averageRunDepthStep": 116.1,
         "averageRunDepthPct": 83.5,
         "averageBattlesUsed": 1.0,
@@ -30302,17 +30302,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30337,7 +30337,7 @@
       },
       "76": {
         "runCount": 65,
-        "averageParticipationPct": 7.8,
+        "averageParticipationPct": 7.4,
         "averageRunDepthStep": 115.5,
         "averageRunDepthPct": 83.1,
         "averageBattlesUsed": 1.0,
@@ -30391,17 +30391,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30426,7 +30426,7 @@
       },
       "75": {
         "runCount": 67,
-        "averageParticipationPct": 8.3,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 114.3,
         "averageRunDepthPct": 82.2,
         "averageBattlesUsed": 1.0,
@@ -30484,14 +30484,6 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
           },
@@ -30499,6 +30491,14 @@
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30515,7 +30515,7 @@
       },
       "74": {
         "runCount": 67,
-        "averageParticipationPct": 8.3,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 114.3,
         "averageRunDepthPct": 82.2,
         "averageBattlesUsed": 1.0,
@@ -30573,14 +30573,6 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
           },
@@ -30588,6 +30580,14 @@
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30604,7 +30604,7 @@
       },
       "73": {
         "runCount": 67,
-        "averageParticipationPct": 8.3,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 114.3,
         "averageRunDepthPct": 82.2,
         "averageBattlesUsed": 1.0,
@@ -30662,14 +30662,6 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
           },
@@ -30677,6 +30669,14 @@
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30693,7 +30693,7 @@
       },
       "72": {
         "runCount": 69,
-        "averageParticipationPct": 8.1,
+        "averageParticipationPct": 7.7,
         "averageRunDepthStep": 113.1,
         "averageRunDepthPct": 81.3,
         "averageBattlesUsed": 1.0,
@@ -30747,25 +30747,25 @@
             "participationPct": 27
           },
           {
+            "usageKey": "590",
+            "displayName": "Champion Steven With Wallace",
+            "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
             "usageKey": "Kindler Spencer",
             "displayName": "Kindler Spencer",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
             "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30782,7 +30782,7 @@
       },
       "71": {
         "runCount": 69,
-        "averageParticipationPct": 8.1,
+        "averageParticipationPct": 7.7,
         "averageRunDepthStep": 113.1,
         "averageRunDepthPct": 81.3,
         "averageBattlesUsed": 1.0,
@@ -30836,25 +30836,25 @@
             "participationPct": 27
           },
           {
+            "usageKey": "590",
+            "displayName": "Champion Steven With Wallace",
+            "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
             "usageKey": "Kindler Spencer",
             "displayName": "Kindler Spencer",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
             "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30871,7 +30871,7 @@
       },
       "70": {
         "runCount": 71,
-        "averageParticipationPct": 7.8,
+        "averageParticipationPct": 7.5,
         "averageRunDepthStep": 111.9,
         "averageRunDepthPct": 80.5,
         "averageBattlesUsed": 1.0,
@@ -30925,25 +30925,25 @@
             "participationPct": 27
           },
           {
+            "usageKey": "590",
+            "displayName": "Champion Steven With Wallace",
+            "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
             "usageKey": "Kindler Spencer",
             "displayName": "Kindler Spencer",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
             "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -30960,7 +30960,7 @@
       },
       "69": {
         "runCount": 71,
-        "averageParticipationPct": 7.8,
+        "averageParticipationPct": 7.5,
         "averageRunDepthStep": 111.9,
         "averageRunDepthPct": 80.5,
         "averageBattlesUsed": 1.0,
@@ -31014,25 +31014,25 @@
             "participationPct": 27
           },
           {
+            "usageKey": "590",
+            "displayName": "Champion Steven With Wallace",
+            "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
             "usageKey": "Kindler Spencer",
             "displayName": "Kindler Spencer",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
             "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31049,7 +31049,7 @@
       },
       "68": {
         "runCount": 78,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.4,
         "averageRunDepthStep": 107.9,
         "averageRunDepthPct": 77.6,
         "averageBattlesUsed": 1.0,
@@ -31103,14 +31103,6 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
@@ -31119,8 +31111,8 @@
             "participationPct": 67
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
@@ -31133,12 +31125,20 @@
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "159",
+            "displayName": "Kindler Spencer",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
           }
         ]
       },
       "67": {
         "runCount": 79,
-        "averageParticipationPct": 9.7,
+        "averageParticipationPct": 9.3,
         "averageRunDepthStep": 107.4,
         "averageRunDepthPct": 77.3,
         "averageBattlesUsed": 0.9,
@@ -31192,14 +31192,6 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
@@ -31208,8 +31200,8 @@
             "participationPct": 67
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
@@ -31222,12 +31214,20 @@
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "159",
+            "displayName": "Kindler Spencer",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
           }
         ]
       },
       "66": {
         "runCount": 80,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.5,
         "averageRunDepthStep": 106.9,
         "averageRunDepthPct": 76.9,
         "averageBattlesUsed": 0.9,
@@ -31261,8 +31261,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -31289,17 +31289,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31316,7 +31316,7 @@
       },
       "65": {
         "runCount": 82,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 105.9,
         "averageRunDepthPct": 76.2,
         "averageBattlesUsed": 0.9,
@@ -31350,8 +31350,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -31378,17 +31378,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31405,7 +31405,7 @@
       },
       "64": {
         "runCount": 82,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 105.9,
         "averageRunDepthPct": 76.2,
         "averageBattlesUsed": 0.9,
@@ -31439,8 +31439,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -31467,17 +31467,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31494,7 +31494,7 @@
       },
       "63": {
         "runCount": 84,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 104.8,
         "averageRunDepthPct": 75.4,
         "averageBattlesUsed": 0.9,
@@ -31528,8 +31528,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -31556,17 +31556,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31583,7 +31583,7 @@
       },
       "62": {
         "runCount": 85,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 104.3,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.9,
@@ -31617,8 +31617,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -31645,17 +31645,17 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31672,7 +31672,7 @@
       },
       "61": {
         "runCount": 88,
-        "averageParticipationPct": 11.6,
+        "averageParticipationPct": 11.3,
         "averageRunDepthStep": 102.9,
         "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.9,
@@ -31706,8 +31706,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -31742,17 +31742,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31761,7 +31761,7 @@
       },
       "60": {
         "runCount": 88,
-        "averageParticipationPct": 11.6,
+        "averageParticipationPct": 11.3,
         "averageRunDepthStep": 102.9,
         "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.9,
@@ -31795,8 +31795,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -31831,17 +31831,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31850,7 +31850,7 @@
       },
       "59": {
         "runCount": 89,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.2,
         "averageRunDepthStep": 102.4,
         "averageRunDepthPct": 73.6,
         "averageBattlesUsed": 0.9,
@@ -31884,8 +31884,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -31920,17 +31920,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -31939,7 +31939,7 @@
       },
       "58": {
         "runCount": 91,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 101.4,
         "averageRunDepthPct": 72.9,
         "averageBattlesUsed": 0.9,
@@ -31973,8 +31973,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32009,17 +32009,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32028,7 +32028,7 @@
       },
       "57": {
         "runCount": 91,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 101.4,
         "averageRunDepthPct": 72.9,
         "averageBattlesUsed": 0.9,
@@ -32062,8 +32062,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32098,17 +32098,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32117,7 +32117,7 @@
       },
       "56": {
         "runCount": 91,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 101.4,
         "averageRunDepthPct": 72.9,
         "averageBattlesUsed": 0.9,
@@ -32151,8 +32151,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32187,17 +32187,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32206,7 +32206,7 @@
       },
       "55": {
         "runCount": 92,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 100.9,
         "averageRunDepthPct": 72.6,
         "averageBattlesUsed": 0.9,
@@ -32240,8 +32240,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32276,17 +32276,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32295,7 +32295,7 @@
       },
       "54": {
         "runCount": 93,
-        "averageParticipationPct": 11.0,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 100.4,
         "averageRunDepthPct": 72.2,
         "averageBattlesUsed": 0.9,
@@ -32329,8 +32329,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32365,17 +32365,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32384,7 +32384,7 @@
       },
       "53": {
         "runCount": 95,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.5,
         "averageRunDepthStep": 99.4,
         "averageRunDepthPct": 71.5,
         "averageBattlesUsed": 0.9,
@@ -32418,8 +32418,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32454,17 +32454,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32473,7 +32473,7 @@
       },
       "52": {
         "runCount": 95,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.5,
         "averageRunDepthStep": 99.4,
         "averageRunDepthPct": 71.5,
         "averageBattlesUsed": 0.9,
@@ -32507,8 +32507,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32543,17 +32543,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32562,7 +32562,7 @@
       },
       "51": {
         "runCount": 95,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.5,
         "averageRunDepthStep": 99.4,
         "averageRunDepthPct": 71.5,
         "averageBattlesUsed": 0.9,
@@ -32596,8 +32596,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32632,17 +32632,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32651,7 +32651,7 @@
       },
       "50": {
         "runCount": 95,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.5,
         "averageRunDepthStep": 99.4,
         "averageRunDepthPct": 71.5,
         "averageBattlesUsed": 0.9,
@@ -32685,8 +32685,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32721,17 +32721,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32740,7 +32740,7 @@
       },
       "49": {
         "runCount": 102,
-        "averageParticipationPct": 11.8,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 95.9,
         "averageRunDepthPct": 69.0,
         "averageBattlesUsed": 0.9,
@@ -32782,8 +32782,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32810,17 +32810,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32829,7 +32829,7 @@
       },
       "48": {
         "runCount": 103,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 95.5,
         "averageRunDepthPct": 68.7,
         "averageBattlesUsed": 0.9,
@@ -32871,8 +32871,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32899,17 +32899,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
             "usageKey": "590",
             "displayName": "Champion Steven With Wallace",
             "leadLevel": 85,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Kindler Spencer",
+            "displayName": "Kindler Spencer",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -32918,7 +32918,7 @@
       },
       "47": {
         "runCount": 109,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.9,
@@ -32976,8 +32976,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "336",
@@ -32996,18 +32996,18 @@
             "participationPct": 27
           },
           {
-            "usageKey": "Kindler Spencer",
-            "displayName": "Kindler Spencer",
-            "leadLevel": null,
+            "usageKey": "590",
+            "displayName": "Champion Steven With Wallace",
+            "leadLevel": 85,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           }
         ]
       },
       "46": {
         "runCount": 113,
-        "averageParticipationPct": 11.4,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 91.1,
         "averageRunDepthPct": 65.6,
         "averageBattlesUsed": 0.9,
@@ -33065,8 +33065,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "744",
@@ -33096,7 +33096,7 @@
       },
       "45": {
         "runCount": 115,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 90.3,
         "averageRunDepthPct": 65.0,
         "averageBattlesUsed": 0.9,
@@ -33154,8 +33154,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "744",
@@ -33185,7 +33185,7 @@
       },
       "44": {
         "runCount": 116,
-        "averageParticipationPct": 11.8,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 89.9,
         "averageRunDepthPct": 64.7,
         "averageBattlesUsed": 0.9,
@@ -33243,8 +33243,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "744",
@@ -33274,7 +33274,7 @@
       },
       "43": {
         "runCount": 120,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 88.4,
         "averageRunDepthPct": 63.6,
         "averageBattlesUsed": 0.8,
@@ -33340,8 +33340,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "744",
@@ -33363,7 +33363,7 @@
       },
       "42": {
         "runCount": 123,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 12.8,
         "averageRunDepthStep": 87.2,
         "averageRunDepthPct": 62.8,
         "averageBattlesUsed": 0.9,
@@ -33429,8 +33429,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "744",
@@ -33452,7 +33452,7 @@
       },
       "41": {
         "runCount": 126,
-        "averageParticipationPct": 12.7,
+        "averageParticipationPct": 12.5,
         "averageRunDepthStep": 86.1,
         "averageRunDepthPct": 62.0,
         "averageBattlesUsed": 0.8,
@@ -33518,8 +33518,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "744",
@@ -33541,7 +33541,7 @@
       },
       "40": {
         "runCount": 128,
-        "averageParticipationPct": 12.5,
+        "averageParticipationPct": 12.3,
         "averageRunDepthStep": 85.4,
         "averageRunDepthPct": 61.5,
         "averageBattlesUsed": 0.8,
@@ -33607,8 +33607,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "744",
@@ -33630,7 +33630,7 @@
       },
       "39": {
         "runCount": 133,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.8,
         "averageRunDepthStep": 83.7,
         "averageRunDepthPct": 60.2,
         "averageBattlesUsed": 0.8,
@@ -33696,8 +33696,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           },
           {
             "usageKey": "744",
@@ -33719,7 +33719,7 @@
       },
       "38": {
         "runCount": 137,
-        "averageParticipationPct": 14.5,
+        "averageParticipationPct": 14.3,
         "averageRunDepthStep": 82.3,
         "averageRunDepthPct": 59.2,
         "averageBattlesUsed": 0.8,
@@ -33801,14 +33801,14 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           }
         ]
       },
       "37": {
         "runCount": 137,
-        "averageParticipationPct": 14.5,
+        "averageParticipationPct": 14.3,
         "averageRunDepthStep": 82.3,
         "averageRunDepthPct": 59.2,
         "averageBattlesUsed": 0.8,
@@ -33890,14 +33890,14 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           }
         ]
       },
       "36": {
         "runCount": 138,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.2,
         "averageRunDepthStep": 82.0,
         "averageRunDepthPct": 59.0,
         "averageBattlesUsed": 0.8,
@@ -33979,14 +33979,14 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 5,
+            "participationPct": 60
           }
         ]
       },
       "35": {
         "runCount": 144,
-        "averageParticipationPct": 16.6,
+        "averageParticipationPct": 16.4,
         "averageRunDepthStep": 80.0,
         "averageRunDepthPct": 57.6,
         "averageBattlesUsed": 0.9,
@@ -34075,7 +34075,7 @@
       },
       "34": {
         "runCount": 144,
-        "averageParticipationPct": 16.6,
+        "averageParticipationPct": 16.4,
         "averageRunDepthStep": 80.0,
         "averageRunDepthPct": 57.6,
         "averageBattlesUsed": 0.9,
@@ -34164,7 +34164,7 @@
       },
       "33": {
         "runCount": 144,
-        "averageParticipationPct": 16.6,
+        "averageParticipationPct": 16.4,
         "averageRunDepthStep": 80.0,
         "averageRunDepthPct": 57.6,
         "averageBattlesUsed": 0.9,
@@ -34253,7 +34253,7 @@
       },
       "32": {
         "runCount": 158,
-        "averageParticipationPct": 17.6,
+        "averageParticipationPct": 17.4,
         "averageRunDepthStep": 75.8,
         "averageRunDepthPct": 54.5,
         "averageBattlesUsed": 0.8,
@@ -34342,7 +34342,7 @@
       },
       "31": {
         "runCount": 158,
-        "averageParticipationPct": 17.6,
+        "averageParticipationPct": 17.4,
         "averageRunDepthStep": 75.8,
         "averageRunDepthPct": 54.5,
         "averageBattlesUsed": 0.8,
@@ -34431,7 +34431,7 @@
       },
       "30": {
         "runCount": 161,
-        "averageParticipationPct": 17.9,
+        "averageParticipationPct": 17.7,
         "averageRunDepthStep": 74.9,
         "averageRunDepthPct": 53.9,
         "averageBattlesUsed": 0.8,
@@ -34520,7 +34520,7 @@
       },
       "29": {
         "runCount": 165,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.8,
         "averageRunDepthPct": 53.1,
         "averageBattlesUsed": 0.8,
@@ -34609,7 +34609,7 @@
       },
       "28": {
         "runCount": 165,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.8,
         "averageRunDepthPct": 53.1,
         "averageBattlesUsed": 0.8,
@@ -34698,7 +34698,7 @@
       },
       "27": {
         "runCount": 165,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.8,
         "averageRunDepthPct": 53.1,
         "averageBattlesUsed": 0.8,
@@ -34787,7 +34787,7 @@
       },
       "26": {
         "runCount": 165,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.8,
         "averageRunDepthPct": 53.1,
         "averageBattlesUsed": 0.8,
@@ -34876,7 +34876,7 @@
       },
       "25": {
         "runCount": 166,
-        "averageParticipationPct": 17.8,
+        "averageParticipationPct": 17.7,
         "averageRunDepthStep": 73.5,
         "averageRunDepthPct": 52.9,
         "averageBattlesUsed": 0.8,
@@ -34965,7 +34965,7 @@
       },
       "24": {
         "runCount": 166,
-        "averageParticipationPct": 17.8,
+        "averageParticipationPct": 17.7,
         "averageRunDepthStep": 73.5,
         "averageRunDepthPct": 52.9,
         "averageBattlesUsed": 0.8,
@@ -35054,7 +35054,7 @@
       },
       "23": {
         "runCount": 166,
-        "averageParticipationPct": 17.8,
+        "averageParticipationPct": 17.7,
         "averageRunDepthStep": 73.5,
         "averageRunDepthPct": 52.9,
         "averageBattlesUsed": 0.8,
@@ -35143,7 +35143,7 @@
       },
       "22": {
         "runCount": 166,
-        "averageParticipationPct": 17.8,
+        "averageParticipationPct": 17.7,
         "averageRunDepthStep": 73.5,
         "averageRunDepthPct": 52.9,
         "averageBattlesUsed": 0.8,
@@ -35232,7 +35232,7 @@
       },
       "21": {
         "runCount": 167,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.2,
         "averageRunDepthPct": 52.7,
         "averageBattlesUsed": 0.8,
@@ -35321,7 +35321,7 @@
       },
       "20": {
         "runCount": 167,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.2,
         "averageRunDepthPct": 52.7,
         "averageBattlesUsed": 0.8,
@@ -35410,7 +35410,7 @@
       },
       "19": {
         "runCount": 167,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.2,
         "averageRunDepthPct": 52.7,
         "averageBattlesUsed": 0.8,
@@ -35499,7 +35499,7 @@
       },
       "18": {
         "runCount": 167,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.2,
         "averageRunDepthPct": 52.7,
         "averageBattlesUsed": 0.8,
@@ -35588,7 +35588,7 @@
       },
       "17": {
         "runCount": 167,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.2,
         "averageRunDepthPct": 52.7,
         "averageBattlesUsed": 0.8,
@@ -35677,7 +35677,7 @@
       },
       "16": {
         "runCount": 167,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.2,
         "averageRunDepthPct": 52.7,
         "averageBattlesUsed": 0.8,
@@ -35766,7 +35766,7 @@
       },
       "15": {
         "runCount": 167,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.2,
         "averageRunDepthPct": 52.7,
         "averageBattlesUsed": 0.8,
@@ -35855,7 +35855,7 @@
       },
       "14": {
         "runCount": 167,
-        "averageParticipationPct": 17.7,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 73.2,
         "averageRunDepthPct": 52.7,
         "averageBattlesUsed": 0.8,
@@ -35944,7 +35944,7 @@
       },
       "13": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36033,7 +36033,7 @@
       },
       "12": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36122,7 +36122,7 @@
       },
       "11": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36211,7 +36211,7 @@
       },
       "10": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36300,7 +36300,7 @@
       },
       "9": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36389,7 +36389,7 @@
       },
       "8": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36478,7 +36478,7 @@
       },
       "7": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36567,7 +36567,7 @@
       },
       "6": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36656,7 +36656,7 @@
       },
       "5": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36745,7 +36745,7 @@
       },
       "4": {
         "runCount": 169,
-        "averageParticipationPct": 18.1,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 72.5,
         "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 0.8,
@@ -36834,7 +36834,7 @@
       },
       "3": {
         "runCount": 170,
-        "averageParticipationPct": 18.6,
+        "averageParticipationPct": 18.4,
         "averageRunDepthStep": 72.1,
         "averageRunDepthPct": 51.9,
         "averageBattlesUsed": 0.8,
@@ -36923,7 +36923,7 @@
       },
       "2": {
         "runCount": 170,
-        "averageParticipationPct": 18.6,
+        "averageParticipationPct": 18.4,
         "averageRunDepthStep": 72.1,
         "averageRunDepthPct": 51.9,
         "averageBattlesUsed": 0.8,
@@ -37012,7 +37012,7 @@
       },
       "1": {
         "runCount": 170,
-        "averageParticipationPct": 18.6,
+        "averageParticipationPct": 18.4,
         "averageRunDepthStep": 72.1,
         "averageRunDepthPct": 51.9,
         "averageBattlesUsed": 0.8,

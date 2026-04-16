@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "grookey",
   "familyMembers": [
     "Grookey",
@@ -12743,7 +12743,7 @@
         },
         "135": {
           "runCount": 43,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 137.3,
           "averageRunDepthPct": 98.8,
           "averageBattlesUsed": 1.2,
@@ -12805,14 +12805,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Battle Girl Jenny",
-              "displayName": "Battle Girl Jenny",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Fisherman Kai",
               "displayName": "Fisherman Kai",
               "leadLevel": null,
@@ -12824,6 +12816,14 @@
               "usageKey": "73",
               "displayName": "Guitarist Brian 7 Badges",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "146",
+              "displayName": "Magma Admin Courtney Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -12832,7 +12832,7 @@
         },
         "134": {
           "runCount": 43,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 137.3,
           "averageRunDepthPct": 98.8,
           "averageBattlesUsed": 1.2,
@@ -12894,9 +12894,98 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Battle Girl Jenny",
-              "displayName": "Battle Girl Jenny",
+              "usageKey": "Fisherman Kai",
+              "displayName": "Fisherman Kai",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "73",
+              "displayName": "Guitarist Brian 7 Badges",
+              "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "146",
+              "displayName": "Magma Admin Courtney Mt Chimney",
+              "leadLevel": 43,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "133": {
+          "runCount": 45,
+          "averageParticipationPct": 8.6,
+          "averageRunDepthStep": 137.1,
+          "averageRunDepthPct": 98.6,
+          "averageBattlesUsed": 1.2,
+          "topBattles": [
+            {
+              "usageKey": "568",
+              "displayName": "Leader Tate",
+              "leadLevel": 76,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "272",
+              "displayName": "Leader Juan",
+              "leadLevel": 82,
+              "partyCount": 4,
+              "ownedCount": 12,
+              "participationPct": 33
+            },
+            {
+              "usageKey": "Camper Drew",
+              "displayName": "Camper Drew",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "Picnicker Celia",
+              "displayName": "Picnicker Celia",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "569",
+              "displayName": "Leader Liza",
+              "leadLevel": 76,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "80",
+              "displayName": "Cooltrainer Albert",
+              "leadLevel": 83,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
+            },
+            {
+              "usageKey": "32",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": 64,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -12919,98 +13008,9 @@
             }
           ]
         },
-        "133": {
-          "runCount": 45,
-          "averageParticipationPct": 9.0,
-          "averageRunDepthStep": 137.1,
-          "averageRunDepthPct": 98.6,
-          "averageBattlesUsed": 1.2,
-          "topBattles": [
-            {
-              "usageKey": "568",
-              "displayName": "Leader Tate",
-              "leadLevel": 76,
-              "partyCount": 4,
-              "ownedCount": 4,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "272",
-              "displayName": "Leader Juan",
-              "leadLevel": 82,
-              "partyCount": 4,
-              "ownedCount": 12,
-              "participationPct": 33
-            },
-            {
-              "usageKey": "Camper Drew",
-              "displayName": "Camper Drew",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
-              "usageKey": "Picnicker Celia",
-              "displayName": "Picnicker Celia",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
-            },
-            {
-              "usageKey": "569",
-              "displayName": "Leader Liza",
-              "leadLevel": 76,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "80",
-              "displayName": "Cooltrainer Albert",
-              "leadLevel": 83,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "32",
-              "displayName": "Aqua Admin Shelly Weather Institute",
-              "leadLevel": 64,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Battle Girl Jenny",
-              "displayName": "Battle Girl Jenny",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            }
-          ]
-        },
         "132": {
           "runCount": 45,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 137.1,
           "averageRunDepthPct": 98.6,
           "averageBattlesUsed": 1.2,
@@ -13068,8 +13068,8 @@
               "displayName": "Aqua Leader Archie Hideout",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "32",
@@ -13080,17 +13080,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Battle Girl Jenny",
-              "displayName": "Battle Girl Jenny",
+              "usageKey": "Fisherman Kai",
+              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
-              "leadLevel": null,
+              "usageKey": "73",
+              "displayName": "Guitarist Brian 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -13099,7 +13099,7 @@
         },
         "131": {
           "runCount": 47,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 136.9,
           "averageRunDepthPct": 98.5,
           "averageBattlesUsed": 1.2,
@@ -13165,8 +13165,8 @@
               "displayName": "Aqua Leader Archie Hideout",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13188,7 +13188,7 @@
         },
         "130": {
           "runCount": 51,
-          "averageParticipationPct": 8.9,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 136.3,
           "averageRunDepthPct": 98.1,
           "averageBattlesUsed": 1.1,
@@ -13242,20 +13242,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13277,7 +13277,7 @@
         },
         "129": {
           "runCount": 54,
-          "averageParticipationPct": 8.9,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 135.9,
           "averageRunDepthPct": 97.8,
           "averageBattlesUsed": 1.1,
@@ -13339,20 +13339,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13366,7 +13366,7 @@
         },
         "128": {
           "runCount": 55,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 135.8,
           "averageRunDepthPct": 97.7,
           "averageBattlesUsed": 1.1,
@@ -13428,20 +13428,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13455,7 +13455,7 @@
         },
         "127": {
           "runCount": 56,
-          "averageParticipationPct": 8.6,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 135.6,
           "averageRunDepthPct": 97.6,
           "averageBattlesUsed": 1.1,
@@ -13517,20 +13517,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13544,7 +13544,7 @@
         },
         "126": {
           "runCount": 57,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 8.2,
           "averageRunDepthStep": 135.4,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 1.1,
@@ -13606,20 +13606,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13633,7 +13633,7 @@
         },
         "125": {
           "runCount": 57,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 8.2,
           "averageRunDepthStep": 135.4,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 1.1,
@@ -13695,20 +13695,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13722,7 +13722,7 @@
         },
         "124": {
           "runCount": 63,
-          "averageParticipationPct": 7.7,
+          "averageParticipationPct": 7.4,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.7,
           "averageBattlesUsed": 1.0,
@@ -13784,20 +13784,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13811,7 +13811,7 @@
         },
         "123": {
           "runCount": 64,
-          "averageParticipationPct": 8.1,
+          "averageParticipationPct": 7.8,
           "averageRunDepthStep": 134.2,
           "averageRunDepthPct": 96.5,
           "averageBattlesUsed": 1.0,
@@ -13873,20 +13873,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13900,7 +13900,7 @@
         },
         "122": {
           "runCount": 64,
-          "averageParticipationPct": 8.1,
+          "averageParticipationPct": 7.8,
           "averageRunDepthStep": 134.2,
           "averageRunDepthPct": 96.5,
           "averageBattlesUsed": 1.0,
@@ -13962,20 +13962,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -13989,7 +13989,7 @@
         },
         "121": {
           "runCount": 64,
-          "averageParticipationPct": 8.1,
+          "averageParticipationPct": 7.8,
           "averageRunDepthStep": 134.2,
           "averageRunDepthPct": 96.5,
           "averageBattlesUsed": 1.0,
@@ -14051,20 +14051,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -14078,7 +14078,7 @@
         },
         "120": {
           "runCount": 64,
-          "averageParticipationPct": 8.1,
+          "averageParticipationPct": 7.8,
           "averageRunDepthStep": 134.2,
           "averageRunDepthPct": 96.5,
           "averageBattlesUsed": 1.0,
@@ -14140,20 +14140,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -14167,7 +14167,7 @@
         },
         "119": {
           "runCount": 64,
-          "averageParticipationPct": 8.1,
+          "averageParticipationPct": 7.8,
           "averageRunDepthStep": 134.2,
           "averageRunDepthPct": 96.5,
           "averageBattlesUsed": 1.0,
@@ -14229,20 +14229,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -14256,7 +14256,7 @@
         },
         "118": {
           "runCount": 67,
-          "averageParticipationPct": 9.6,
+          "averageParticipationPct": 9.4,
           "averageRunDepthStep": 133.4,
           "averageRunDepthPct": 96.0,
           "averageBattlesUsed": 1.0,
@@ -14318,20 +14318,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -14345,7 +14345,7 @@
         },
         "117": {
           "runCount": 67,
-          "averageParticipationPct": 9.6,
+          "averageParticipationPct": 9.4,
           "averageRunDepthStep": 133.4,
           "averageRunDepthPct": 96.0,
           "averageBattlesUsed": 1.0,
@@ -14407,20 +14407,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -14434,7 +14434,7 @@
         },
         "116": {
           "runCount": 70,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 132.7,
           "averageRunDepthPct": 95.5,
           "averageBattlesUsed": 0.9,
@@ -14496,20 +14496,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "34",
@@ -14523,7 +14523,7 @@
         },
         "115": {
           "runCount": 77,
-          "averageParticipationPct": 10.3,
+          "averageParticipationPct": 10.0,
           "averageRunDepthStep": 131.1,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.9,
@@ -14593,26 +14593,26 @@
               "participationPct": 40
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             }
           ]
         },
         "114": {
           "runCount": 77,
-          "averageParticipationPct": 10.3,
+          "averageParticipationPct": 10.0,
           "averageRunDepthStep": 131.1,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.9,
@@ -14682,26 +14682,26 @@
               "participationPct": 40
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             }
           ]
         },
         "113": {
           "runCount": 78,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 130.9,
           "averageRunDepthPct": 94.1,
           "averageBattlesUsed": 0.9,
@@ -14771,26 +14771,26 @@
               "participationPct": 40
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             }
           ]
         },
         "112": {
           "runCount": 78,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 130.9,
           "averageRunDepthPct": 94.1,
           "averageBattlesUsed": 0.9,
@@ -14860,26 +14860,26 @@
               "participationPct": 40
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             }
           ]
         },
         "111": {
           "runCount": 78,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 130.9,
           "averageRunDepthPct": 94.1,
           "averageBattlesUsed": 0.9,
@@ -14949,26 +14949,26 @@
               "participationPct": 40
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             }
           ]
         },
         "110": {
           "runCount": 78,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 130.9,
           "averageRunDepthPct": 94.1,
           "averageBattlesUsed": 0.9,
@@ -15038,26 +15038,26 @@
               "participationPct": 40
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             }
           ]
         },
         "109": {
           "runCount": 78,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 130.9,
           "averageRunDepthPct": 94.1,
           "averageBattlesUsed": 0.9,
@@ -15127,26 +15127,26 @@
               "participationPct": 40
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             }
           ]
         },
         "108": {
           "runCount": 79,
-          "averageParticipationPct": 11.3,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 130.6,
           "averageRunDepthPct": 93.9,
           "averageBattlesUsed": 0.9,
@@ -15216,26 +15216,26 @@
               "participationPct": 40
             },
             {
-              "usageKey": "Aqua Leader Archie Hideout",
-              "displayName": "Aqua Leader Archie Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            },
+            {
+              "usageKey": "Aqua Leader Archie Hideout",
+              "displayName": "Aqua Leader Archie Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
             }
           ]
         },
         "107": {
           "runCount": 83,
-          "averageParticipationPct": 11.0,
+          "averageParticipationPct": 10.8,
           "averageRunDepthStep": 129.4,
           "averageRunDepthPct": 93.1,
           "averageBattlesUsed": 0.9,
@@ -15324,7 +15324,7 @@
         },
         "106": {
           "runCount": 88,
-          "averageParticipationPct": 13.4,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 128.1,
           "averageRunDepthPct": 92.2,
           "averageBattlesUsed": 1.0,
@@ -15413,7 +15413,7 @@
         },
         "105": {
           "runCount": 94,
-          "averageParticipationPct": 12.9,
+          "averageParticipationPct": 12.7,
           "averageRunDepthStep": 126.6,
           "averageRunDepthPct": 91.1,
           "averageBattlesUsed": 1.0,
@@ -15502,7 +15502,7 @@
         },
         "104": {
           "runCount": 95,
-          "averageParticipationPct": 12.8,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 126.4,
           "averageRunDepthPct": 90.9,
           "averageBattlesUsed": 0.9,
@@ -15591,7 +15591,7 @@
         },
         "103": {
           "runCount": 100,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 125.2,
           "averageRunDepthPct": 90.1,
           "averageBattlesUsed": 1.0,
@@ -15680,7 +15680,7 @@
         },
         "102": {
           "runCount": 102,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 124.8,
           "averageRunDepthPct": 89.8,
           "averageBattlesUsed": 1.0,
@@ -15769,7 +15769,7 @@
         },
         "101": {
           "runCount": 102,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 124.8,
           "averageRunDepthPct": 89.8,
           "averageBattlesUsed": 1.0,
@@ -15858,7 +15858,7 @@
         },
         "100": {
           "runCount": 102,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 124.8,
           "averageRunDepthPct": 89.8,
           "averageBattlesUsed": 1.0,
@@ -15947,7 +15947,7 @@
         },
         "99": {
           "runCount": 102,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 124.8,
           "averageRunDepthPct": 89.8,
           "averageBattlesUsed": 1.0,
@@ -16036,7 +16036,7 @@
         },
         "98": {
           "runCount": 103,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 124.5,
           "averageRunDepthPct": 89.6,
           "averageBattlesUsed": 1.0,
@@ -16125,7 +16125,7 @@
         },
         "97": {
           "runCount": 103,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 124.5,
           "averageRunDepthPct": 89.6,
           "averageBattlesUsed": 1.0,
@@ -16214,7 +16214,7 @@
         },
         "96": {
           "runCount": 103,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 124.5,
           "averageRunDepthPct": 89.6,
           "averageBattlesUsed": 1.0,
@@ -16303,7 +16303,7 @@
         },
         "95": {
           "runCount": 104,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.4,
           "averageRunDepthStep": 124.2,
           "averageRunDepthPct": 89.4,
           "averageBattlesUsed": 1.0,
@@ -16392,7 +16392,7 @@
         },
         "94": {
           "runCount": 104,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.4,
           "averageRunDepthStep": 124.2,
           "averageRunDepthPct": 89.4,
           "averageBattlesUsed": 1.0,
@@ -16481,7 +16481,7 @@
         },
         "93": {
           "runCount": 105,
-          "averageParticipationPct": 13.4,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 123.9,
           "averageRunDepthPct": 89.2,
           "averageBattlesUsed": 1.0,
@@ -16570,7 +16570,7 @@
         },
         "92": {
           "runCount": 110,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.4,
           "averageRunDepthStep": 122.5,
           "averageRunDepthPct": 88.1,
           "averageBattlesUsed": 1.0,
@@ -16659,7 +16659,7 @@
         },
         "91": {
           "runCount": 113,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 121.6,
           "averageRunDepthPct": 87.5,
           "averageBattlesUsed": 1.0,
@@ -16748,7 +16748,7 @@
         },
         "90": {
           "runCount": 122,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 119.3,
           "averageRunDepthPct": 85.8,
           "averageBattlesUsed": 0.9,
@@ -16837,7 +16837,7 @@
         },
         "89": {
           "runCount": 129,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 117.7,
           "averageRunDepthPct": 84.6,
           "averageBattlesUsed": 0.9,
@@ -16926,7 +16926,7 @@
         },
         "88": {
           "runCount": 132,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 117.0,
           "averageRunDepthPct": 84.2,
           "averageBattlesUsed": 0.9,
@@ -17015,7 +17015,7 @@
         },
         "87": {
           "runCount": 133,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 116.8,
           "averageRunDepthPct": 84.0,
           "averageBattlesUsed": 0.9,
@@ -17104,7 +17104,7 @@
         },
         "86": {
           "runCount": 135,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 116.3,
           "averageRunDepthPct": 83.7,
           "averageBattlesUsed": 0.8,
@@ -17193,7 +17193,7 @@
         },
         "85": {
           "runCount": 138,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 115.6,
           "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 0.8,
@@ -17282,7 +17282,7 @@
         },
         "84": {
           "runCount": 138,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 115.6,
           "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 0.8,
@@ -17371,7 +17371,7 @@
         },
         "83": {
           "runCount": 143,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 12.4,
           "averageRunDepthStep": 114.5,
           "averageRunDepthPct": 82.4,
           "averageBattlesUsed": 0.8,
@@ -17460,7 +17460,7 @@
         },
         "82": {
           "runCount": 151,
-          "averageParticipationPct": 11.8,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 112.8,
           "averageRunDepthPct": 81.1,
           "averageBattlesUsed": 0.8,
@@ -17549,7 +17549,7 @@
         },
         "81": {
           "runCount": 155,
-          "averageParticipationPct": 11.8,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 111.9,
           "averageRunDepthPct": 80.5,
           "averageBattlesUsed": 0.8,
@@ -17638,7 +17638,7 @@
         },
         "80": {
           "runCount": 158,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 111.3,
           "averageRunDepthPct": 80.1,
           "averageBattlesUsed": 0.8,
@@ -17727,7 +17727,7 @@
         },
         "79": {
           "runCount": 163,
-          "averageParticipationPct": 11.3,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 110.3,
           "averageRunDepthPct": 79.4,
           "averageBattlesUsed": 0.8,
@@ -17816,7 +17816,7 @@
         },
         "78": {
           "runCount": 163,
-          "averageParticipationPct": 11.3,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 110.3,
           "averageRunDepthPct": 79.4,
           "averageBattlesUsed": 0.8,
@@ -17905,7 +17905,7 @@
         },
         "77": {
           "runCount": 163,
-          "averageParticipationPct": 11.3,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 110.3,
           "averageRunDepthPct": 79.4,
           "averageBattlesUsed": 0.8,
@@ -17994,7 +17994,7 @@
         },
         "76": {
           "runCount": 164,
-          "averageParticipationPct": 11.3,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 110.1,
           "averageRunDepthPct": 79.2,
           "averageBattlesUsed": 0.8,
@@ -18083,7 +18083,7 @@
         },
         "75": {
           "runCount": 166,
-          "averageParticipationPct": 11.1,
+          "averageParticipationPct": 11.0,
           "averageRunDepthStep": 109.7,
           "averageRunDepthPct": 78.9,
           "averageBattlesUsed": 0.7,
@@ -18172,7 +18172,7 @@
         },
         "74": {
           "runCount": 167,
-          "averageParticipationPct": 11.1,
+          "averageParticipationPct": 10.9,
           "averageRunDepthStep": 109.5,
           "averageRunDepthPct": 78.8,
           "averageBattlesUsed": 0.7,
@@ -18261,7 +18261,7 @@
         },
         "73": {
           "runCount": 168,
-          "averageParticipationPct": 11.0,
+          "averageParticipationPct": 10.9,
           "averageRunDepthStep": 109.3,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.7,
@@ -18350,7 +18350,7 @@
         },
         "72": {
           "runCount": 173,
-          "averageParticipationPct": 10.7,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 108.2,
           "averageRunDepthPct": 77.8,
           "averageBattlesUsed": 0.7,
@@ -18439,7 +18439,7 @@
         },
         "71": {
           "runCount": 173,
-          "averageParticipationPct": 10.7,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 108.2,
           "averageRunDepthPct": 77.8,
           "averageBattlesUsed": 0.7,
@@ -18528,7 +18528,7 @@
         },
         "70": {
           "runCount": 176,
-          "averageParticipationPct": 11.1,
+          "averageParticipationPct": 11.0,
           "averageRunDepthStep": 107.6,
           "averageRunDepthPct": 77.4,
           "averageBattlesUsed": 0.7,
@@ -18617,7 +18617,7 @@
         },
         "69": {
           "runCount": 178,
-          "averageParticipationPct": 11.3,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.7,
@@ -18706,7 +18706,7 @@
         },
         "68": {
           "runCount": 192,
-          "averageParticipationPct": 11.1,
+          "averageParticipationPct": 11.0,
           "averageRunDepthStep": 104.3,
           "averageRunDepthPct": 75.0,
           "averageBattlesUsed": 0.7,
@@ -18795,7 +18795,7 @@
         },
         "67": {
           "runCount": 197,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 103.3,
           "averageRunDepthPct": 74.3,
           "averageBattlesUsed": 0.7,
@@ -18884,7 +18884,7 @@
         },
         "66": {
           "runCount": 200,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 102.8,
           "averageRunDepthPct": 73.9,
           "averageBattlesUsed": 0.7,
@@ -18973,7 +18973,7 @@
         },
         "65": {
           "runCount": 203,
-          "averageParticipationPct": 11.8,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 102.2,
           "averageRunDepthPct": 73.5,
           "averageBattlesUsed": 0.7,
@@ -19062,7 +19062,7 @@
         },
         "64": {
           "runCount": 211,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 100.8,
           "averageRunDepthPct": 72.5,
           "averageBattlesUsed": 0.7,
@@ -19151,7 +19151,7 @@
         },
         "63": {
           "runCount": 214,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 100.2,
           "averageRunDepthPct": 72.1,
           "averageBattlesUsed": 0.7,
@@ -19418,7 +19418,7 @@
         },
         "60": {
           "runCount": 230,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 97.5,
           "averageRunDepthPct": 70.1,
           "averageBattlesUsed": 0.7,
@@ -19507,7 +19507,7 @@
         },
         "59": {
           "runCount": 233,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 97.0,
           "averageRunDepthPct": 69.8,
           "averageBattlesUsed": 0.7,
@@ -19596,7 +19596,7 @@
         },
         "58": {
           "runCount": 240,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 95.9,
           "averageRunDepthPct": 69.0,
           "averageBattlesUsed": 0.7,
@@ -19774,7 +19774,7 @@
         },
         "56": {
           "runCount": 243,
-          "averageParticipationPct": 13.4,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 95.4,
           "averageRunDepthPct": 68.6,
           "averageBattlesUsed": 0.7,
@@ -19863,7 +19863,7 @@
         },
         "55": {
           "runCount": 246,
-          "averageParticipationPct": 14.5,
+          "averageParticipationPct": 14.4,
           "averageRunDepthStep": 94.9,
           "averageRunDepthPct": 68.3,
           "averageBattlesUsed": 0.7,
@@ -19952,7 +19952,7 @@
         },
         "54": {
           "runCount": 249,
-          "averageParticipationPct": 15.1,
+          "averageParticipationPct": 15.0,
           "averageRunDepthStep": 94.4,
           "averageRunDepthPct": 67.9,
           "averageBattlesUsed": 0.7,
@@ -20041,7 +20041,7 @@
         },
         "53": {
           "runCount": 250,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 15.1,
           "averageRunDepthStep": 94.2,
           "averageRunDepthPct": 67.8,
           "averageBattlesUsed": 0.7,
@@ -20130,7 +20130,7 @@
         },
         "52": {
           "runCount": 251,
-          "averageParticipationPct": 15.1,
+          "averageParticipationPct": 15.0,
           "averageRunDepthStep": 94.0,
           "averageRunDepthPct": 67.7,
           "averageBattlesUsed": 0.7,
@@ -20219,7 +20219,7 @@
         },
         "51": {
           "runCount": 251,
-          "averageParticipationPct": 15.1,
+          "averageParticipationPct": 15.0,
           "averageRunDepthStep": 94.0,
           "averageRunDepthPct": 67.7,
           "averageBattlesUsed": 0.7,
@@ -20308,7 +20308,7 @@
         },
         "50": {
           "runCount": 251,
-          "averageParticipationPct": 15.1,
+          "averageParticipationPct": 15.0,
           "averageRunDepthStep": 94.0,
           "averageRunDepthPct": 67.7,
           "averageBattlesUsed": 0.7,
@@ -20397,7 +20397,7 @@
         },
         "49": {
           "runCount": 270,
-          "averageParticipationPct": 14.9,
+          "averageParticipationPct": 14.8,
           "averageRunDepthStep": 90.9,
           "averageRunDepthPct": 65.4,
           "averageBattlesUsed": 0.7,
@@ -20575,7 +20575,7 @@
         },
         "47": {
           "runCount": 283,
-          "averageParticipationPct": 15.0,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 88.9,
           "averageRunDepthPct": 63.9,
           "averageBattlesUsed": 0.7,
@@ -20842,7 +20842,7 @@
         },
         "44": {
           "runCount": 292,
-          "averageParticipationPct": 14.7,
+          "averageParticipationPct": 14.6,
           "averageRunDepthStep": 87.5,
           "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.7,
@@ -21020,7 +21020,7 @@
         },
         "42": {
           "runCount": 301,
-          "averageParticipationPct": 14.9,
+          "averageParticipationPct": 14.8,
           "averageRunDepthStep": 86.2,
           "averageRunDepthPct": 62.0,
           "averageBattlesUsed": 0.7,
@@ -21109,7 +21109,7 @@
         },
         "41": {
           "runCount": 304,
-          "averageParticipationPct": 15.3,
+          "averageParticipationPct": 15.2,
           "averageRunDepthStep": 85.8,
           "averageRunDepthPct": 61.7,
           "averageBattlesUsed": 0.7,
@@ -21287,7 +21287,7 @@
         },
         "39": {
           "runCount": 306,
-          "averageParticipationPct": 15.5,
+          "averageParticipationPct": 15.4,
           "averageRunDepthStep": 85.4,
           "averageRunDepthPct": 61.5,
           "averageBattlesUsed": 0.7,
@@ -21376,7 +21376,7 @@
         },
         "38": {
           "runCount": 306,
-          "averageParticipationPct": 15.5,
+          "averageParticipationPct": 15.4,
           "averageRunDepthStep": 85.4,
           "averageRunDepthPct": 61.5,
           "averageBattlesUsed": 0.7,
@@ -21465,7 +21465,7 @@
         },
         "37": {
           "runCount": 306,
-          "averageParticipationPct": 15.5,
+          "averageParticipationPct": 15.4,
           "averageRunDepthStep": 85.4,
           "averageRunDepthPct": 61.5,
           "averageBattlesUsed": 0.7,
@@ -21554,7 +21554,7 @@
         },
         "36": {
           "runCount": 306,
-          "averageParticipationPct": 15.5,
+          "averageParticipationPct": 15.4,
           "averageRunDepthStep": 85.4,
           "averageRunDepthPct": 61.5,
           "averageBattlesUsed": 0.7,
@@ -21643,7 +21643,7 @@
         },
         "35": {
           "runCount": 306,
-          "averageParticipationPct": 15.5,
+          "averageParticipationPct": 15.4,
           "averageRunDepthStep": 85.4,
           "averageRunDepthPct": 61.5,
           "averageBattlesUsed": 0.7,
@@ -21732,7 +21732,7 @@
         },
         "34": {
           "runCount": 306,
-          "averageParticipationPct": 15.5,
+          "averageParticipationPct": 15.4,
           "averageRunDepthStep": 85.4,
           "averageRunDepthPct": 61.5,
           "averageBattlesUsed": 0.7,
@@ -21821,7 +21821,7 @@
         },
         "33": {
           "runCount": 306,
-          "averageParticipationPct": 15.5,
+          "averageParticipationPct": 15.4,
           "averageRunDepthStep": 85.4,
           "averageRunDepthPct": 61.5,
           "averageBattlesUsed": 0.7,
@@ -21910,7 +21910,7 @@
         },
         "32": {
           "runCount": 308,
-          "averageParticipationPct": 15.4,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 85.1,
           "averageRunDepthPct": 61.2,
           "averageBattlesUsed": 0.7,
@@ -21999,7 +21999,7 @@
         },
         "31": {
           "runCount": 308,
-          "averageParticipationPct": 15.4,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 85.1,
           "averageRunDepthPct": 61.2,
           "averageBattlesUsed": 0.7,
@@ -23601,7 +23601,7 @@
         },
         "13": {
           "runCount": 313,
-          "averageParticipationPct": 15.8,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 84.1,
           "averageRunDepthPct": 60.5,
           "averageBattlesUsed": 0.7,
@@ -23690,7 +23690,7 @@
         },
         "12": {
           "runCount": 313,
-          "averageParticipationPct": 15.8,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 84.1,
           "averageRunDepthPct": 60.5,
           "averageBattlesUsed": 0.7,
@@ -23779,7 +23779,7 @@
         },
         "11": {
           "runCount": 313,
-          "averageParticipationPct": 15.8,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 84.1,
           "averageRunDepthPct": 60.5,
           "averageBattlesUsed": 0.7,
@@ -23868,7 +23868,7 @@
         },
         "10": {
           "runCount": 313,
-          "averageParticipationPct": 15.8,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 84.1,
           "averageRunDepthPct": 60.5,
           "averageBattlesUsed": 0.7,
@@ -35430,7 +35430,7 @@
       },
       "135": {
         "runCount": 44,
-        "averageParticipationPct": 8.5,
+        "averageParticipationPct": 8.2,
         "averageRunDepthStep": 137.3,
         "averageRunDepthPct": 98.8,
         "averageBattlesUsed": 1.2,
@@ -35492,14 +35492,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Battle Girl Jenny",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "73",
             "displayName": "Guitarist Brian 7 Badges",
             "leadLevel": 0,
@@ -35511,6 +35503,14 @@
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "146",
+            "displayName": "Magma Admin Courtney Mt Chimney",
+            "leadLevel": 43,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35519,7 +35519,7 @@
       },
       "134": {
         "runCount": 44,
-        "averageParticipationPct": 8.5,
+        "averageParticipationPct": 8.2,
         "averageRunDepthStep": 137.3,
         "averageRunDepthPct": 98.8,
         "averageBattlesUsed": 1.2,
@@ -35581,9 +35581,98 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Battle Girl Jenny",
-            "displayName": "Battle Girl Jenny",
+            "usageKey": "73",
+            "displayName": "Guitarist Brian 7 Badges",
+            "leadLevel": 0,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "146",
+            "displayName": "Magma Admin Courtney Mt Chimney",
+            "leadLevel": 43,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      },
+      "133": {
+        "runCount": 46,
+        "averageParticipationPct": 8.4,
+        "averageRunDepthStep": 137.1,
+        "averageRunDepthPct": 98.6,
+        "averageBattlesUsed": 1.2,
+        "topBattles": [
+          {
+            "usageKey": "568",
+            "displayName": "Leader Tate",
+            "leadLevel": 76,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "272",
+            "displayName": "Leader Juan",
+            "leadLevel": 82,
+            "partyCount": 4,
+            "ownedCount": 12,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "Camper Drew",
+            "displayName": "Camper Drew",
             "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "Picnicker Celia",
+            "displayName": "Picnicker Celia",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 5,
+            "participationPct": 60
+          },
+          {
+            "usageKey": "569",
+            "displayName": "Leader Liza",
+            "leadLevel": 76,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "80",
+            "displayName": "Cooltrainer Albert",
+            "leadLevel": 83,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "32",
+            "displayName": "Aqua Admin Shelly Weather Institute",
+            "leadLevel": 64,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35606,98 +35695,9 @@
           }
         ]
       },
-      "133": {
-        "runCount": 46,
-        "averageParticipationPct": 8.8,
-        "averageRunDepthStep": 137.1,
-        "averageRunDepthPct": 98.6,
-        "averageBattlesUsed": 1.2,
-        "topBattles": [
-          {
-            "usageKey": "568",
-            "displayName": "Leader Tate",
-            "leadLevel": 76,
-            "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "272",
-            "displayName": "Leader Juan",
-            "leadLevel": 82,
-            "partyCount": 4,
-            "ownedCount": 12,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "Camper Drew",
-            "displayName": "Camper Drew",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
-          },
-          {
-            "usageKey": "Picnicker Celia",
-            "displayName": "Picnicker Celia",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
-          },
-          {
-            "usageKey": "569",
-            "displayName": "Leader Liza",
-            "leadLevel": 76,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "80",
-            "displayName": "Cooltrainer Albert",
-            "leadLevel": 83,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
-            "usageKey": "32",
-            "displayName": "Aqua Admin Shelly Weather Institute",
-            "leadLevel": 64,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Battle Girl Jenny",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "73",
-            "displayName": "Guitarist Brian 7 Badges",
-            "leadLevel": 0,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          }
-        ]
-      },
       "132": {
         "runCount": 46,
-        "averageParticipationPct": 8.8,
+        "averageParticipationPct": 8.4,
         "averageRunDepthStep": 137.1,
         "averageRunDepthPct": 98.6,
         "averageBattlesUsed": 1.2,
@@ -35755,8 +35755,8 @@
             "displayName": "Aqua Leader Archie Hideout",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "32",
@@ -35767,17 +35767,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Battle Girl Jenny",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": null,
+            "usageKey": "73",
+            "displayName": "Guitarist Brian 7 Badges",
+            "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "73",
-            "displayName": "Guitarist Brian 7 Badges",
-            "leadLevel": 0,
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35786,7 +35786,7 @@
       },
       "131": {
         "runCount": 48,
-        "averageParticipationPct": 9.1,
+        "averageParticipationPct": 8.8,
         "averageRunDepthStep": 136.9,
         "averageRunDepthPct": 98.5,
         "averageBattlesUsed": 1.2,
@@ -35852,8 +35852,8 @@
             "displayName": "Aqua Leader Archie Hideout",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -35875,7 +35875,7 @@
       },
       "130": {
         "runCount": 52,
-        "averageParticipationPct": 8.7,
+        "averageParticipationPct": 8.4,
         "averageRunDepthStep": 136.3,
         "averageRunDepthPct": 98.1,
         "averageBattlesUsed": 1.1,
@@ -35929,20 +35929,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -35964,7 +35964,7 @@
       },
       "129": {
         "runCount": 55,
-        "averageParticipationPct": 8.9,
+        "averageParticipationPct": 8.6,
         "averageRunDepthStep": 135.9,
         "averageRunDepthPct": 97.8,
         "averageBattlesUsed": 1.1,
@@ -36026,20 +36026,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36053,7 +36053,7 @@
       },
       "128": {
         "runCount": 56,
-        "averageParticipationPct": 8.7,
+        "averageParticipationPct": 8.4,
         "averageRunDepthStep": 135.8,
         "averageRunDepthPct": 97.7,
         "averageBattlesUsed": 1.1,
@@ -36115,20 +36115,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36142,7 +36142,7 @@
       },
       "127": {
         "runCount": 57,
-        "averageParticipationPct": 8.6,
+        "averageParticipationPct": 8.3,
         "averageRunDepthStep": 135.6,
         "averageRunDepthPct": 97.6,
         "averageBattlesUsed": 1.1,
@@ -36204,20 +36204,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36231,7 +36231,7 @@
       },
       "126": {
         "runCount": 58,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 8.1,
         "averageRunDepthStep": 135.5,
         "averageRunDepthPct": 97.5,
         "averageBattlesUsed": 1.1,
@@ -36293,20 +36293,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36320,7 +36320,7 @@
       },
       "125": {
         "runCount": 58,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 8.1,
         "averageRunDepthStep": 135.5,
         "averageRunDepthPct": 97.5,
         "averageBattlesUsed": 1.1,
@@ -36382,20 +36382,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36409,7 +36409,7 @@
       },
       "124": {
         "runCount": 64,
-        "averageParticipationPct": 7.6,
+        "averageParticipationPct": 7.4,
         "averageRunDepthStep": 134.4,
         "averageRunDepthPct": 96.7,
         "averageBattlesUsed": 1.0,
@@ -36471,20 +36471,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36498,7 +36498,7 @@
       },
       "123": {
         "runCount": 65,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 134.2,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 1.0,
@@ -36560,20 +36560,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36587,7 +36587,7 @@
       },
       "122": {
         "runCount": 65,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 134.2,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 1.0,
@@ -36649,20 +36649,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36676,7 +36676,7 @@
       },
       "121": {
         "runCount": 65,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 134.2,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 1.0,
@@ -36738,20 +36738,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36765,7 +36765,7 @@
       },
       "120": {
         "runCount": 65,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 134.2,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 1.0,
@@ -36827,20 +36827,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36854,7 +36854,7 @@
       },
       "119": {
         "runCount": 65,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 134.2,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 1.0,
@@ -36916,20 +36916,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -36943,7 +36943,7 @@
       },
       "118": {
         "runCount": 68,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.3,
         "averageRunDepthStep": 133.5,
         "averageRunDepthPct": 96.0,
         "averageBattlesUsed": 1.0,
@@ -37005,20 +37005,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -37032,7 +37032,7 @@
       },
       "117": {
         "runCount": 68,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.3,
         "averageRunDepthStep": 133.5,
         "averageRunDepthPct": 96.0,
         "averageBattlesUsed": 1.0,
@@ -37094,20 +37094,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -37121,7 +37121,7 @@
       },
       "116": {
         "runCount": 71,
-        "averageParticipationPct": 9.9,
+        "averageParticipationPct": 9.6,
         "averageRunDepthStep": 132.8,
         "averageRunDepthPct": 95.5,
         "averageBattlesUsed": 1.0,
@@ -37183,20 +37183,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "34",
@@ -37210,7 +37210,7 @@
       },
       "115": {
         "runCount": 78,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 10.0,
         "averageRunDepthStep": 131.2,
         "averageRunDepthPct": 94.4,
         "averageBattlesUsed": 1.0,
@@ -37280,26 +37280,26 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
       "114": {
         "runCount": 78,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 10.0,
         "averageRunDepthStep": 131.2,
         "averageRunDepthPct": 94.4,
         "averageBattlesUsed": 1.0,
@@ -37369,26 +37369,26 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
       "113": {
         "runCount": 79,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 130.9,
         "averageRunDepthPct": 94.2,
         "averageBattlesUsed": 0.9,
@@ -37458,26 +37458,26 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
       "112": {
         "runCount": 79,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 130.9,
         "averageRunDepthPct": 94.2,
         "averageBattlesUsed": 0.9,
@@ -37547,26 +37547,26 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
       "111": {
         "runCount": 79,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 130.9,
         "averageRunDepthPct": 94.2,
         "averageBattlesUsed": 0.9,
@@ -37636,26 +37636,26 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
       "110": {
         "runCount": 79,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 130.9,
         "averageRunDepthPct": 94.2,
         "averageBattlesUsed": 0.9,
@@ -37725,26 +37725,26 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
       "109": {
         "runCount": 79,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 130.9,
         "averageRunDepthPct": 94.2,
         "averageBattlesUsed": 0.9,
@@ -37814,26 +37814,26 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
       "108": {
         "runCount": 80,
-        "averageParticipationPct": 11.2,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 130.7,
         "averageRunDepthPct": 94.0,
         "averageBattlesUsed": 0.9,
@@ -37903,26 +37903,26 @@
             "participationPct": 40
           },
           {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Leader Archie Hideout",
+            "displayName": "Aqua Leader Archie Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
       "107": {
         "runCount": 85,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 129.3,
         "averageRunDepthPct": 93.0,
         "averageBattlesUsed": 0.9,
@@ -38011,7 +38011,7 @@
       },
       "106": {
         "runCount": 90,
-        "averageParticipationPct": 13.2,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 128.0,
         "averageRunDepthPct": 92.1,
         "averageBattlesUsed": 1.0,
@@ -38100,7 +38100,7 @@
       },
       "105": {
         "runCount": 96,
-        "averageParticipationPct": 12.7,
+        "averageParticipationPct": 12.5,
         "averageRunDepthStep": 126.5,
         "averageRunDepthPct": 91.0,
         "averageBattlesUsed": 1.0,
@@ -38189,7 +38189,7 @@
       },
       "104": {
         "runCount": 97,
-        "averageParticipationPct": 12.6,
+        "averageParticipationPct": 12.4,
         "averageRunDepthStep": 126.3,
         "averageRunDepthPct": 90.9,
         "averageBattlesUsed": 0.9,
@@ -38278,7 +38278,7 @@
       },
       "103": {
         "runCount": 102,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 125.2,
         "averageRunDepthPct": 90.0,
         "averageBattlesUsed": 1.0,
@@ -38367,7 +38367,7 @@
       },
       "102": {
         "runCount": 104,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 124.7,
         "averageRunDepthPct": 89.7,
         "averageBattlesUsed": 1.0,
@@ -38456,7 +38456,7 @@
       },
       "101": {
         "runCount": 104,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 124.7,
         "averageRunDepthPct": 89.7,
         "averageBattlesUsed": 1.0,
@@ -38545,7 +38545,7 @@
       },
       "100": {
         "runCount": 104,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 124.7,
         "averageRunDepthPct": 89.7,
         "averageBattlesUsed": 1.0,
@@ -38634,7 +38634,7 @@
       },
       "99": {
         "runCount": 104,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 124.7,
         "averageRunDepthPct": 89.7,
         "averageBattlesUsed": 1.0,
@@ -38723,7 +38723,7 @@
       },
       "98": {
         "runCount": 105,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 124.5,
         "averageRunDepthPct": 89.5,
         "averageBattlesUsed": 1.0,
@@ -38812,7 +38812,7 @@
       },
       "97": {
         "runCount": 105,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 124.5,
         "averageRunDepthPct": 89.5,
         "averageBattlesUsed": 1.0,
@@ -38901,7 +38901,7 @@
       },
       "96": {
         "runCount": 105,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 124.5,
         "averageRunDepthPct": 89.5,
         "averageBattlesUsed": 1.0,
@@ -38990,7 +38990,7 @@
       },
       "95": {
         "runCount": 106,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 124.2,
         "averageRunDepthPct": 89.3,
         "averageBattlesUsed": 1.0,
@@ -39079,7 +39079,7 @@
       },
       "94": {
         "runCount": 106,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 124.2,
         "averageRunDepthPct": 89.3,
         "averageBattlesUsed": 1.0,
@@ -39168,7 +39168,7 @@
       },
       "93": {
         "runCount": 107,
-        "averageParticipationPct": 13.2,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 123.9,
         "averageRunDepthPct": 89.1,
         "averageBattlesUsed": 1.0,
@@ -39257,7 +39257,7 @@
       },
       "92": {
         "runCount": 112,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 122.5,
         "averageRunDepthPct": 88.1,
         "averageBattlesUsed": 1.0,
@@ -39346,7 +39346,7 @@
       },
       "91": {
         "runCount": 115,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.8,
         "averageRunDepthStep": 121.6,
         "averageRunDepthPct": 87.5,
         "averageBattlesUsed": 1.0,
@@ -39435,7 +39435,7 @@
       },
       "90": {
         "runCount": 125,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 119.1,
         "averageRunDepthPct": 85.7,
         "averageBattlesUsed": 0.9,
@@ -39524,7 +39524,7 @@
       },
       "89": {
         "runCount": 132,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.2,
         "averageRunDepthStep": 117.5,
         "averageRunDepthPct": 84.5,
         "averageBattlesUsed": 0.8,
@@ -39613,7 +39613,7 @@
       },
       "88": {
         "runCount": 135,
-        "averageParticipationPct": 12.1,
+        "averageParticipationPct": 12.0,
         "averageRunDepthStep": 116.9,
         "averageRunDepthPct": 84.1,
         "averageBattlesUsed": 0.9,
@@ -39702,7 +39702,7 @@
       },
       "87": {
         "runCount": 136,
-        "averageParticipationPct": 12.2,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 116.6,
         "averageRunDepthPct": 83.9,
         "averageBattlesUsed": 0.9,
@@ -39791,7 +39791,7 @@
       },
       "86": {
         "runCount": 138,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 116.2,
         "averageRunDepthPct": 83.6,
         "averageBattlesUsed": 0.8,
@@ -39880,7 +39880,7 @@
       },
       "85": {
         "runCount": 141,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 115.5,
         "averageRunDepthPct": 83.1,
         "averageBattlesUsed": 0.8,
@@ -39969,7 +39969,7 @@
       },
       "84": {
         "runCount": 141,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 115.5,
         "averageRunDepthPct": 83.1,
         "averageBattlesUsed": 0.8,
@@ -40058,7 +40058,7 @@
       },
       "83": {
         "runCount": 146,
-        "averageParticipationPct": 12.3,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 0.8,
@@ -40147,7 +40147,7 @@
       },
       "82": {
         "runCount": 155,
-        "averageParticipationPct": 11.6,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 112.5,
         "averageRunDepthPct": 81.0,
         "averageBattlesUsed": 0.8,
@@ -40236,7 +40236,7 @@
       },
       "81": {
         "runCount": 159,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 111.7,
         "averageRunDepthPct": 80.4,
         "averageBattlesUsed": 0.8,
@@ -40325,7 +40325,7 @@
       },
       "80": {
         "runCount": 162,
-        "averageParticipationPct": 11.4,
+        "averageParticipationPct": 11.3,
         "averageRunDepthStep": 111.2,
         "averageRunDepthPct": 80.0,
         "averageBattlesUsed": 0.8,
@@ -40414,7 +40414,7 @@
       },
       "79": {
         "runCount": 167,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 110.2,
         "averageRunDepthPct": 79.3,
         "averageBattlesUsed": 0.7,
@@ -40503,7 +40503,7 @@
       },
       "78": {
         "runCount": 167,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 110.2,
         "averageRunDepthPct": 79.3,
         "averageBattlesUsed": 0.7,
@@ -40592,7 +40592,7 @@
       },
       "77": {
         "runCount": 167,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 110.2,
         "averageRunDepthPct": 79.3,
         "averageBattlesUsed": 0.7,
@@ -40681,7 +40681,7 @@
       },
       "76": {
         "runCount": 168,
-        "averageParticipationPct": 11.0,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 110.0,
         "averageRunDepthPct": 79.1,
         "averageBattlesUsed": 0.7,
@@ -40770,7 +40770,7 @@
       },
       "75": {
         "runCount": 170,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 109.6,
         "averageRunDepthPct": 78.8,
         "averageBattlesUsed": 0.7,
@@ -40859,7 +40859,7 @@
       },
       "74": {
         "runCount": 171,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 109.4,
         "averageRunDepthPct": 78.7,
         "averageBattlesUsed": 0.7,
@@ -40948,7 +40948,7 @@
       },
       "73": {
         "runCount": 172,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 109.2,
         "averageRunDepthPct": 78.5,
         "averageBattlesUsed": 0.7,
@@ -41037,7 +41037,7 @@
       },
       "72": {
         "runCount": 177,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 108.1,
         "averageRunDepthPct": 77.8,
         "averageBattlesUsed": 0.7,
@@ -41126,7 +41126,7 @@
       },
       "71": {
         "runCount": 177,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 108.1,
         "averageRunDepthPct": 77.8,
         "averageBattlesUsed": 0.7,
@@ -41215,7 +41215,7 @@
       },
       "70": {
         "runCount": 180,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 107.5,
         "averageRunDepthPct": 77.3,
         "averageBattlesUsed": 0.7,
@@ -41304,7 +41304,7 @@
       },
       "69": {
         "runCount": 182,
-        "averageParticipationPct": 11.0,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 107.0,
         "averageRunDepthPct": 77.0,
         "averageBattlesUsed": 0.7,
@@ -41393,7 +41393,7 @@
       },
       "68": {
         "runCount": 197,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 104.1,
         "averageRunDepthPct": 74.9,
         "averageBattlesUsed": 0.7,
@@ -41482,7 +41482,7 @@
       },
       "67": {
         "runCount": 202,
-        "averageParticipationPct": 11.2,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 103.2,
         "averageRunDepthPct": 74.2,
         "averageBattlesUsed": 0.7,
@@ -41571,7 +41571,7 @@
       },
       "66": {
         "runCount": 205,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 102.6,
         "averageRunDepthPct": 73.8,
         "averageBattlesUsed": 0.7,
@@ -41660,7 +41660,7 @@
       },
       "65": {
         "runCount": 208,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 102.1,
         "averageRunDepthPct": 73.4,
         "averageBattlesUsed": 0.7,
@@ -41749,7 +41749,7 @@
       },
       "64": {
         "runCount": 216,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.2,
         "averageRunDepthStep": 100.7,
         "averageRunDepthPct": 72.4,
         "averageBattlesUsed": 0.7,
@@ -41927,7 +41927,7 @@
       },
       "62": {
         "runCount": 223,
-        "averageParticipationPct": 12.3,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 99.5,
         "averageRunDepthPct": 71.6,
         "averageBattlesUsed": 0.7,
@@ -42105,7 +42105,7 @@
       },
       "60": {
         "runCount": 235,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 97.5,
         "averageRunDepthPct": 70.1,
         "averageBattlesUsed": 0.7,
@@ -42194,7 +42194,7 @@
       },
       "59": {
         "runCount": 238,
-        "averageParticipationPct": 12.1,
+        "averageParticipationPct": 12.0,
         "averageRunDepthStep": 97.0,
         "averageRunDepthPct": 69.8,
         "averageBattlesUsed": 0.7,
@@ -42283,7 +42283,7 @@
       },
       "58": {
         "runCount": 245,
-        "averageParticipationPct": 12.8,
+        "averageParticipationPct": 12.7,
         "averageRunDepthStep": 95.9,
         "averageRunDepthPct": 69.0,
         "averageBattlesUsed": 0.7,
@@ -42372,7 +42372,7 @@
       },
       "57": {
         "runCount": 246,
-        "averageParticipationPct": 12.8,
+        "averageParticipationPct": 12.7,
         "averageRunDepthStep": 95.7,
         "averageRunDepthPct": 68.9,
         "averageBattlesUsed": 0.7,
@@ -42550,7 +42550,7 @@
       },
       "55": {
         "runCount": 251,
-        "averageParticipationPct": 14.3,
+        "averageParticipationPct": 14.2,
         "averageRunDepthStep": 94.9,
         "averageRunDepthPct": 68.3,
         "averageBattlesUsed": 0.7,
@@ -42639,7 +42639,7 @@
       },
       "54": {
         "runCount": 254,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 94.4,
         "averageRunDepthPct": 67.9,
         "averageBattlesUsed": 0.7,
@@ -42817,7 +42817,7 @@
       },
       "52": {
         "runCount": 256,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 94.1,
         "averageRunDepthPct": 67.7,
         "averageBattlesUsed": 0.7,
@@ -42906,7 +42906,7 @@
       },
       "51": {
         "runCount": 256,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 94.1,
         "averageRunDepthPct": 67.7,
         "averageBattlesUsed": 0.7,
@@ -42995,7 +42995,7 @@
       },
       "50": {
         "runCount": 256,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 94.1,
         "averageRunDepthPct": 67.7,
         "averageBattlesUsed": 0.7,
@@ -43084,7 +43084,7 @@
       },
       "49": {
         "runCount": 275,
-        "averageParticipationPct": 14.7,
+        "averageParticipationPct": 14.6,
         "averageRunDepthStep": 91.0,
         "averageRunDepthPct": 65.5,
         "averageBattlesUsed": 0.7,
@@ -43262,7 +43262,7 @@
       },
       "47": {
         "runCount": 291,
-        "averageParticipationPct": 14.5,
+        "averageParticipationPct": 14.4,
         "averageRunDepthStep": 88.6,
         "averageRunDepthPct": 63.7,
         "averageBattlesUsed": 0.7,
@@ -43529,7 +43529,7 @@
       },
       "44": {
         "runCount": 300,
-        "averageParticipationPct": 14.2,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 87.3,
         "averageRunDepthPct": 62.8,
         "averageBattlesUsed": 0.7,
@@ -43618,7 +43618,7 @@
       },
       "43": {
         "runCount": 305,
-        "averageParticipationPct": 14.5,
+        "averageParticipationPct": 14.4,
         "averageRunDepthStep": 86.6,
         "averageRunDepthPct": 62.3,
         "averageBattlesUsed": 0.7,
@@ -43707,7 +43707,7 @@
       },
       "42": {
         "runCount": 309,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.3,
         "averageRunDepthStep": 86.0,
         "averageRunDepthPct": 61.9,
         "averageBattlesUsed": 0.7,
@@ -43796,7 +43796,7 @@
       },
       "41": {
         "runCount": 312,
-        "averageParticipationPct": 14.8,
+        "averageParticipationPct": 14.7,
         "averageRunDepthStep": 85.6,
         "averageRunDepthPct": 61.5,
         "averageBattlesUsed": 0.7,
@@ -44330,7 +44330,7 @@
       },
       "35": {
         "runCount": 315,
-        "averageParticipationPct": 15.0,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 85.1,
         "averageRunDepthPct": 61.2,
         "averageBattlesUsed": 0.7,
@@ -44419,7 +44419,7 @@
       },
       "34": {
         "runCount": 315,
-        "averageParticipationPct": 15.0,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 85.1,
         "averageRunDepthPct": 61.2,
         "averageBattlesUsed": 0.7,
@@ -44508,7 +44508,7 @@
       },
       "33": {
         "runCount": 315,
-        "averageParticipationPct": 15.0,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 85.1,
         "averageRunDepthPct": 61.2,
         "averageBattlesUsed": 0.7,
@@ -44597,7 +44597,7 @@
       },
       "32": {
         "runCount": 317,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 84.8,
         "averageRunDepthPct": 61.0,
         "averageBattlesUsed": 0.7,
@@ -44686,7 +44686,7 @@
       },
       "31": {
         "runCount": 317,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 84.8,
         "averageRunDepthPct": 61.0,
         "averageBattlesUsed": 0.7,
@@ -44775,7 +44775,7 @@
       },
       "30": {
         "runCount": 319,
-        "averageParticipationPct": 15.1,
+        "averageParticipationPct": 15.0,
         "averageRunDepthStep": 84.4,
         "averageRunDepthPct": 60.7,
         "averageBattlesUsed": 0.7,
@@ -44864,7 +44864,7 @@
       },
       "29": {
         "runCount": 319,
-        "averageParticipationPct": 15.1,
+        "averageParticipationPct": 15.0,
         "averageRunDepthStep": 84.4,
         "averageRunDepthPct": 60.7,
         "averageBattlesUsed": 0.7,
@@ -44953,7 +44953,7 @@
       },
       "28": {
         "runCount": 319,
-        "averageParticipationPct": 15.1,
+        "averageParticipationPct": 15.0,
         "averageRunDepthStep": 84.4,
         "averageRunDepthPct": 60.7,
         "averageBattlesUsed": 0.7,
@@ -45042,7 +45042,7 @@
       },
       "27": {
         "runCount": 320,
-        "averageParticipationPct": 15.4,
+        "averageParticipationPct": 15.3,
         "averageRunDepthStep": 84.2,
         "averageRunDepthPct": 60.6,
         "averageBattlesUsed": 0.7,
@@ -45487,7 +45487,7 @@
       },
       "22": {
         "runCount": 322,
-        "averageParticipationPct": 15.5,
+        "averageParticipationPct": 15.4,
         "averageRunDepthStep": 83.9,
         "averageRunDepthPct": 60.3,
         "averageBattlesUsed": 0.7,
@@ -46110,7 +46110,7 @@
       },
       "15": {
         "runCount": 325,
-        "averageParticipationPct": 15.8,
+        "averageParticipationPct": 15.7,
         "averageRunDepthStep": 83.3,
         "averageRunDepthPct": 59.9,
         "averageBattlesUsed": 0.7,
@@ -46199,7 +46199,7 @@
       },
       "14": {
         "runCount": 325,
-        "averageParticipationPct": 15.8,
+        "averageParticipationPct": 15.7,
         "averageRunDepthStep": 83.3,
         "averageRunDepthPct": 59.9,
         "averageBattlesUsed": 0.7,
@@ -46288,7 +46288,7 @@
       },
       "13": {
         "runCount": 334,
-        "averageParticipationPct": 16.3,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 81.4,
         "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.7,
@@ -46377,7 +46377,7 @@
       },
       "12": {
         "runCount": 334,
-        "averageParticipationPct": 16.3,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 81.4,
         "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.7,
@@ -46466,7 +46466,7 @@
       },
       "11": {
         "runCount": 334,
-        "averageParticipationPct": 16.3,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 81.4,
         "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.7,
@@ -46555,7 +46555,7 @@
       },
       "10": {
         "runCount": 334,
-        "averageParticipationPct": 16.3,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 81.4,
         "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.7,
@@ -46822,7 +46822,7 @@
       },
       "7": {
         "runCount": 336,
-        "averageParticipationPct": 16.5,
+        "averageParticipationPct": 16.4,
         "averageRunDepthStep": 80.9,
         "averageRunDepthPct": 58.2,
         "averageBattlesUsed": 0.7,
@@ -46911,7 +46911,7 @@
       },
       "6": {
         "runCount": 336,
-        "averageParticipationPct": 16.5,
+        "averageParticipationPct": 16.4,
         "averageRunDepthStep": 80.9,
         "averageRunDepthPct": 58.2,
         "averageBattlesUsed": 0.7,
@@ -47000,7 +47000,7 @@
       },
       "5": {
         "runCount": 336,
-        "averageParticipationPct": 16.5,
+        "averageParticipationPct": 16.4,
         "averageRunDepthStep": 80.9,
         "averageRunDepthPct": 58.2,
         "averageBattlesUsed": 0.7,
@@ -47089,7 +47089,7 @@
       },
       "4": {
         "runCount": 344,
-        "averageParticipationPct": 17.4,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.1,
         "averageRunDepthPct": 56.9,
         "averageBattlesUsed": 0.7,

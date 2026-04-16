@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "ekans",
   "familyMembers": [
     "Arbok",
@@ -5173,7 +5173,7 @@
         },
         "81": {
           "runCount": 144,
-          "averageParticipationPct": 6.7,
+          "averageParticipationPct": 6.6,
           "averageRunDepthStep": 111.4,
           "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.5,
@@ -5223,16 +5223,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5262,7 +5262,7 @@
         },
         "80": {
           "runCount": 144,
-          "averageParticipationPct": 6.7,
+          "averageParticipationPct": 6.6,
           "averageRunDepthStep": 111.4,
           "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.5,
@@ -5312,16 +5312,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5351,7 +5351,7 @@
         },
         "79": {
           "runCount": 148,
-          "averageParticipationPct": 7.2,
+          "averageParticipationPct": 7.1,
           "averageRunDepthStep": 110.5,
           "averageRunDepthPct": 79.5,
           "averageBattlesUsed": 0.5,
@@ -5401,16 +5401,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5440,7 +5440,7 @@
         },
         "78": {
           "runCount": 150,
-          "averageParticipationPct": 7.1,
+          "averageParticipationPct": 7.0,
           "averageRunDepthStep": 110.1,
           "averageRunDepthPct": 79.2,
           "averageBattlesUsed": 0.5,
@@ -5490,16 +5490,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5529,7 +5529,7 @@
         },
         "77": {
           "runCount": 151,
-          "averageParticipationPct": 7.0,
+          "averageParticipationPct": 6.9,
           "averageRunDepthStep": 109.9,
           "averageRunDepthPct": 79.1,
           "averageBattlesUsed": 0.5,
@@ -5579,16 +5579,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5618,7 +5618,7 @@
         },
         "76": {
           "runCount": 152,
-          "averageParticipationPct": 7.0,
+          "averageParticipationPct": 6.9,
           "averageRunDepthStep": 109.7,
           "averageRunDepthPct": 78.9,
           "averageBattlesUsed": 0.5,
@@ -5668,16 +5668,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5757,16 +5757,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5796,7 +5796,7 @@
         },
         "74": {
           "runCount": 154,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.8,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.5,
@@ -5846,16 +5846,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5935,16 +5935,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -5974,7 +5974,7 @@
         },
         "72": {
           "runCount": 161,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 107.6,
           "averageRunDepthPct": 77.4,
           "averageBattlesUsed": 0.5,
@@ -6024,16 +6024,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -6073,8 +6073,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 11,
-              "ownedCount": 14,
-              "participationPct": 79
+              "ownedCount": 15,
+              "participationPct": 73
             },
             {
               "usageKey": "336",
@@ -6113,16 +6113,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -6152,7 +6152,7 @@
         },
         "70": {
           "runCount": 163,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.5,
@@ -6162,8 +6162,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 11,
-              "ownedCount": 14,
-              "participationPct": 79
+              "ownedCount": 15,
+              "participationPct": 73
             },
             {
               "usageKey": "336",
@@ -6202,16 +6202,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -6241,7 +6241,7 @@
         },
         "69": {
           "runCount": 164,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 106.9,
           "averageRunDepthPct": 76.9,
           "averageBattlesUsed": 0.5,
@@ -6251,8 +6251,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 11,
-              "ownedCount": 14,
-              "participationPct": 79
+              "ownedCount": 15,
+              "participationPct": 73
             },
             {
               "usageKey": "336",
@@ -6291,16 +6291,16 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 1,
-              "participationPct": 200
+              "ownedCount": 2,
+              "participationPct": 100
             },
             {
               "usageKey": "Pkmn Breeder Ezekiel",
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "215",
@@ -6340,8 +6340,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 12,
-              "ownedCount": 16,
-              "participationPct": 75
+              "ownedCount": 17,
+              "participationPct": 71
             },
             {
               "usageKey": "336",
@@ -6372,8 +6372,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 2,
-              "participationPct": 150
+              "ownedCount": 3,
+              "participationPct": 100
             },
             {
               "usageKey": "Twins Tori And Tia",
@@ -6388,8 +6388,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Michelle",
@@ -6429,8 +6429,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 13,
-              "ownedCount": 17,
-              "participationPct": 76
+              "ownedCount": 18,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -6461,8 +6461,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 2,
-              "participationPct": 150
+              "ownedCount": 3,
+              "participationPct": 100
             },
             {
               "usageKey": "Twins Tori And Tia",
@@ -6477,8 +6477,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Michelle",
@@ -6508,7 +6508,7 @@
         },
         "66": {
           "runCount": 185,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 102.4,
           "averageRunDepthPct": 73.7,
           "averageBattlesUsed": 0.5,
@@ -6518,8 +6518,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 13,
-              "ownedCount": 17,
-              "participationPct": 76
+              "ownedCount": 18,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -6550,8 +6550,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 2,
-              "participationPct": 150
+              "ownedCount": 3,
+              "participationPct": 100
             },
             {
               "usageKey": "Twins Tori And Tia",
@@ -6566,8 +6566,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Michelle",
@@ -6607,8 +6607,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 18,
-              "participationPct": 78
+              "ownedCount": 19,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -6631,8 +6631,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -6663,8 +6663,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Michelle",
@@ -6696,8 +6696,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 18,
-              "participationPct": 78
+              "ownedCount": 19,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -6720,8 +6720,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -6752,8 +6752,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Michelle",
@@ -6775,7 +6775,7 @@
         },
         "63": {
           "runCount": 195,
-          "averageParticipationPct": 6.4,
+          "averageParticipationPct": 6.3,
           "averageRunDepthStep": 100.5,
           "averageRunDepthPct": 72.3,
           "averageBattlesUsed": 0.5,
@@ -6785,8 +6785,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 18,
-              "participationPct": 78
+              "ownedCount": 19,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -6809,8 +6809,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -6841,8 +6841,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Michelle",
@@ -6864,7 +6864,7 @@
         },
         "62": {
           "runCount": 197,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 100.1,
           "averageRunDepthPct": 72.0,
           "averageBattlesUsed": 0.5,
@@ -6874,8 +6874,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 18,
-              "participationPct": 78
+              "ownedCount": 19,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -6898,8 +6898,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -6930,8 +6930,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Michelle",
@@ -6963,8 +6963,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -6987,8 +6987,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7019,8 +7019,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Michelle",
@@ -7042,7 +7042,7 @@
         },
         "60": {
           "runCount": 203,
-          "averageParticipationPct": 6.4,
+          "averageParticipationPct": 6.3,
           "averageRunDepthStep": 98.9,
           "averageRunDepthPct": 71.2,
           "averageBattlesUsed": 0.5,
@@ -7052,8 +7052,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7076,8 +7076,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7104,16 +7104,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7131,7 +7131,7 @@
         },
         "59": {
           "runCount": 207,
-          "averageParticipationPct": 6.3,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 98.1,
           "averageRunDepthPct": 70.6,
           "averageBattlesUsed": 0.4,
@@ -7141,8 +7141,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7165,8 +7165,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7193,16 +7193,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7220,7 +7220,7 @@
         },
         "58": {
           "runCount": 213,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 6.0,
           "averageRunDepthStep": 97.0,
           "averageRunDepthPct": 69.8,
           "averageBattlesUsed": 0.4,
@@ -7230,8 +7230,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7254,8 +7254,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7282,16 +7282,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7319,8 +7319,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7343,8 +7343,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7371,16 +7371,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7398,7 +7398,7 @@
         },
         "56": {
           "runCount": 217,
-          "averageParticipationPct": 6.0,
+          "averageParticipationPct": 5.9,
           "averageRunDepthStep": 96.3,
           "averageRunDepthPct": 69.3,
           "averageBattlesUsed": 0.4,
@@ -7408,8 +7408,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7432,8 +7432,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7460,16 +7460,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7497,8 +7497,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7521,8 +7521,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7549,16 +7549,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7586,8 +7586,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7610,8 +7610,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7638,16 +7638,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7665,7 +7665,7 @@
         },
         "53": {
           "runCount": 221,
-          "averageParticipationPct": 5.9,
+          "averageParticipationPct": 5.8,
           "averageRunDepthStep": 95.5,
           "averageRunDepthPct": 68.7,
           "averageBattlesUsed": 0.4,
@@ -7675,8 +7675,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7699,8 +7699,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7727,16 +7727,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7764,8 +7764,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7788,8 +7788,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7816,16 +7816,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7843,7 +7843,7 @@
         },
         "51": {
           "runCount": 224,
-          "averageParticipationPct": 5.8,
+          "averageParticipationPct": 5.7,
           "averageRunDepthStep": 94.9,
           "averageRunDepthPct": 68.3,
           "averageBattlesUsed": 0.4,
@@ -7853,8 +7853,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7877,8 +7877,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7905,16 +7905,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -7932,7 +7932,7 @@
         },
         "50": {
           "runCount": 224,
-          "averageParticipationPct": 5.8,
+          "averageParticipationPct": 5.7,
           "averageRunDepthStep": 94.9,
           "averageRunDepthPct": 68.3,
           "averageBattlesUsed": 0.4,
@@ -7942,8 +7942,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "ownedCount": 20,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -7966,8 +7966,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -7994,16 +7994,16 @@
               "participationPct": 33
             },
             {
-              "usageKey": "Pkmn Breeder Ezekiel",
-              "displayName": "Pkmn Breeder Ezekiel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Cooltrainer Michelle",
               "displayName": "Cooltrainer Michelle",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Pkmn Breeder Ezekiel",
+              "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -8021,7 +8021,7 @@
         },
         "49": {
           "runCount": 250,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 90.1,
           "averageRunDepthPct": 64.8,
           "averageBattlesUsed": 0.4,
@@ -8031,8 +8031,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 17,
-              "ownedCount": 22,
-              "participationPct": 77
+              "ownedCount": 23,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -8063,8 +8063,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -8103,8 +8103,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -8120,8 +8120,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 17,
-              "ownedCount": 22,
-              "participationPct": 77
+              "ownedCount": 23,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -8152,8 +8152,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -8209,8 +8209,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 17,
-              "ownedCount": 22,
-              "participationPct": 77
+              "ownedCount": 23,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -8241,8 +8241,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -8298,8 +8298,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 17,
-              "ownedCount": 22,
-              "participationPct": 77
+              "ownedCount": 23,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -8330,8 +8330,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -8387,8 +8387,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 17,
-              "ownedCount": 22,
-              "participationPct": 77
+              "ownedCount": 23,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -8419,8 +8419,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -8476,8 +8476,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 17,
-              "ownedCount": 22,
-              "participationPct": 77
+              "ownedCount": 23,
+              "participationPct": 74
             },
             {
               "usageKey": "336",
@@ -8508,8 +8508,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 3,
-              "participationPct": 133
+              "ownedCount": 4,
+              "participationPct": 100
             },
             {
               "usageKey": "627",
@@ -8565,8 +8565,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 17,
-              "ownedCount": 23,
-              "participationPct": 74
+              "ownedCount": 24,
+              "participationPct": 71
             },
             {
               "usageKey": "336",
@@ -8581,8 +8581,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
+              "ownedCount": 5,
+              "participationPct": 100
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -8644,7 +8644,7 @@
         },
         "42": {
           "runCount": 311,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 81.2,
           "averageRunDepthPct": 58.4,
           "averageBattlesUsed": 0.4,
@@ -8654,8 +8654,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 17,
-              "ownedCount": 24,
-              "participationPct": 71
+              "ownedCount": 25,
+              "participationPct": 68
             },
             {
               "usageKey": "336",
@@ -8670,8 +8670,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
+              "ownedCount": 5,
+              "participationPct": 100
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -8743,8 +8743,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 21,
-              "ownedCount": 28,
-              "participationPct": 75
+              "ownedCount": 29,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -8767,8 +8767,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
+              "ownedCount": 5,
+              "participationPct": 100
             },
             {
               "usageKey": "269",
@@ -8832,8 +8832,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 22,
-              "ownedCount": 29,
-              "participationPct": 76
+              "ownedCount": 30,
+              "participationPct": 73
             },
             {
               "usageKey": "336",
@@ -8856,8 +8856,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
+              "ownedCount": 5,
+              "participationPct": 100
             },
             {
               "usageKey": "269",
@@ -8921,8 +8921,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 23,
-              "ownedCount": 32,
-              "participationPct": 72
+              "ownedCount": 33,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -8941,17 +8941,17 @@
               "participationPct": 35
             },
             {
-              "usageKey": "Rival Wally Mauville",
-              "displayName": "Rival Wally Mauville",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
-            },
-            {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
+              "partyCount": 5,
+              "ownedCount": 5,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 5,
               "participationPct": 100
@@ -9000,7 +9000,7 @@
         },
         "38": {
           "runCount": 345,
-          "averageParticipationPct": 8.4,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 77.1,
           "averageRunDepthPct": 55.5,
           "averageBattlesUsed": 0.4,
@@ -9010,8 +9010,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 23,
-              "ownedCount": 32,
-              "participationPct": 72
+              "ownedCount": 33,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -9030,17 +9030,17 @@
               "participationPct": 35
             },
             {
-              "usageKey": "Rival Wally Mauville",
-              "displayName": "Rival Wally Mauville",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
-            },
-            {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
+              "partyCount": 5,
+              "ownedCount": 5,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 5,
               "participationPct": 100
@@ -9099,8 +9099,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 23,
-              "ownedCount": 32,
-              "participationPct": 72
+              "ownedCount": 33,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -9119,17 +9119,17 @@
               "participationPct": 35
             },
             {
-              "usageKey": "Rival Wally Mauville",
-              "displayName": "Rival Wally Mauville",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
-            },
-            {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
+              "partyCount": 5,
+              "ownedCount": 5,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 5,
               "participationPct": 100
@@ -9188,8 +9188,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 23,
-              "ownedCount": 32,
-              "participationPct": 72
+              "ownedCount": 33,
+              "participationPct": 70
             },
             {
               "usageKey": "336",
@@ -9208,17 +9208,17 @@
               "participationPct": 35
             },
             {
-              "usageKey": "Rival Wally Mauville",
-              "displayName": "Rival Wally Mauville",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
-            },
-            {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
+              "partyCount": 5,
+              "ownedCount": 5,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 5,
               "participationPct": 100
@@ -9277,8 +9277,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 25,
-              "ownedCount": 35,
-              "participationPct": 71
+              "ownedCount": 36,
+              "participationPct": 69
             },
             {
               "usageKey": "336",
@@ -9301,8 +9301,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 6,
-              "ownedCount": 6,
-              "participationPct": 100
+              "ownedCount": 7,
+              "participationPct": 86
             },
             {
               "usageKey": "266",
@@ -9366,8 +9366,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 25,
-              "ownedCount": 35,
-              "participationPct": 71
+              "ownedCount": 36,
+              "participationPct": 69
             },
             {
               "usageKey": "336",
@@ -9390,8 +9390,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 6,
-              "ownedCount": 6,
-              "participationPct": 100
+              "ownedCount": 7,
+              "participationPct": 86
             },
             {
               "usageKey": "266",
@@ -9455,8 +9455,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 25,
-              "ownedCount": 35,
-              "participationPct": 71
+              "ownedCount": 36,
+              "participationPct": 69
             },
             {
               "usageKey": "336",
@@ -9479,8 +9479,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 6,
-              "ownedCount": 6,
-              "participationPct": 100
+              "ownedCount": 7,
+              "participationPct": 86
             },
             {
               "usageKey": "266",
@@ -9534,7 +9534,7 @@
         },
         "32": {
           "runCount": 399,
-          "averageParticipationPct": 14.1,
+          "averageParticipationPct": 14.0,
           "averageRunDepthStep": 71.2,
           "averageRunDepthPct": 51.2,
           "averageBattlesUsed": 0.4,
@@ -9544,8 +9544,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -9568,8 +9568,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 7,
-              "ownedCount": 7,
-              "participationPct": 100
+              "ownedCount": 8,
+              "participationPct": 88
             },
             {
               "usageKey": "266",
@@ -9623,7 +9623,7 @@
         },
         "31": {
           "runCount": 402,
-          "averageParticipationPct": 14.5,
+          "averageParticipationPct": 14.4,
           "averageRunDepthStep": 70.9,
           "averageRunDepthPct": 51.0,
           "averageBattlesUsed": 0.4,
@@ -9633,8 +9633,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -9649,8 +9649,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -9712,7 +9712,7 @@
         },
         "30": {
           "runCount": 412,
-          "averageParticipationPct": 16.0,
+          "averageParticipationPct": 15.9,
           "averageRunDepthStep": 69.9,
           "averageRunDepthPct": 50.3,
           "averageBattlesUsed": 0.5,
@@ -9722,8 +9722,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -9738,8 +9738,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -9811,8 +9811,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -9827,8 +9827,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -9867,8 +9867,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 7,
-              "participationPct": 57
+              "ownedCount": 8,
+              "participationPct": 50
             },
             {
               "usageKey": "627",
@@ -9900,8 +9900,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -9916,8 +9916,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -9956,8 +9956,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -9989,8 +9989,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10005,8 +10005,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10045,8 +10045,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10078,8 +10078,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10094,8 +10094,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10134,8 +10134,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10167,8 +10167,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10183,8 +10183,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10223,8 +10223,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10256,8 +10256,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10272,8 +10272,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10312,8 +10312,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10345,8 +10345,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10361,8 +10361,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10401,8 +10401,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10434,8 +10434,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10450,8 +10450,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10490,8 +10490,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10523,8 +10523,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10539,8 +10539,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10579,8 +10579,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10612,8 +10612,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10628,8 +10628,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10668,8 +10668,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10701,8 +10701,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10717,8 +10717,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10757,8 +10757,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10790,8 +10790,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10806,8 +10806,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10846,8 +10846,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10879,8 +10879,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10895,8 +10895,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -10935,8 +10935,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -10968,8 +10968,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -10984,8 +10984,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11024,8 +11024,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11057,8 +11057,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11073,8 +11073,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11113,8 +11113,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11146,8 +11146,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11162,8 +11162,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11202,8 +11202,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11235,8 +11235,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11259,8 +11259,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11291,8 +11291,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11324,8 +11324,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11348,8 +11348,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11380,8 +11380,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11413,8 +11413,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11437,8 +11437,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11469,8 +11469,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11502,8 +11502,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11526,8 +11526,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11558,8 +11558,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11591,8 +11591,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11615,8 +11615,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11647,8 +11647,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11680,8 +11680,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11704,8 +11704,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11736,8 +11736,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11769,8 +11769,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11793,8 +11793,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11825,8 +11825,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11858,8 +11858,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11882,8 +11882,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -11914,8 +11914,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -11947,8 +11947,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -11971,8 +11971,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -12003,8 +12003,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -12036,8 +12036,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -12060,8 +12060,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -12092,8 +12092,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -12125,8 +12125,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -12149,8 +12149,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -12181,8 +12181,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -12214,8 +12214,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -12238,8 +12238,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -12270,8 +12270,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -12303,8 +12303,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 47,
-              "ownedCount": 64,
-              "participationPct": 73
+              "ownedCount": 65,
+              "participationPct": 72
             },
             {
               "usageKey": "336",
@@ -12327,8 +12327,8 @@
               "displayName": "Rival Wally Mauville",
               "leadLevel": null,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -12359,8 +12359,8 @@
               "displayName": "Pkmn Breeder Ezekiel",
               "leadLevel": null,
               "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
+              "ownedCount": 10,
+              "participationPct": 40
             },
             {
               "usageKey": "627",
@@ -29884,7 +29884,7 @@
       },
       "81": {
         "runCount": 144,
-        "averageParticipationPct": 6.7,
+        "averageParticipationPct": 6.6,
         "averageRunDepthStep": 111.4,
         "averageRunDepthPct": 80.2,
         "averageBattlesUsed": 0.5,
@@ -29934,16 +29934,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -29973,7 +29973,7 @@
       },
       "80": {
         "runCount": 144,
-        "averageParticipationPct": 6.7,
+        "averageParticipationPct": 6.6,
         "averageRunDepthStep": 111.4,
         "averageRunDepthPct": 80.2,
         "averageBattlesUsed": 0.5,
@@ -30023,16 +30023,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30062,7 +30062,7 @@
       },
       "79": {
         "runCount": 148,
-        "averageParticipationPct": 7.2,
+        "averageParticipationPct": 7.1,
         "averageRunDepthStep": 110.5,
         "averageRunDepthPct": 79.5,
         "averageBattlesUsed": 0.5,
@@ -30112,16 +30112,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30151,7 +30151,7 @@
       },
       "78": {
         "runCount": 150,
-        "averageParticipationPct": 7.1,
+        "averageParticipationPct": 7.0,
         "averageRunDepthStep": 110.1,
         "averageRunDepthPct": 79.2,
         "averageBattlesUsed": 0.5,
@@ -30201,16 +30201,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30240,7 +30240,7 @@
       },
       "77": {
         "runCount": 151,
-        "averageParticipationPct": 7.0,
+        "averageParticipationPct": 6.9,
         "averageRunDepthStep": 109.9,
         "averageRunDepthPct": 79.1,
         "averageBattlesUsed": 0.5,
@@ -30290,16 +30290,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30329,7 +30329,7 @@
       },
       "76": {
         "runCount": 152,
-        "averageParticipationPct": 7.0,
+        "averageParticipationPct": 6.9,
         "averageRunDepthStep": 109.7,
         "averageRunDepthPct": 78.9,
         "averageBattlesUsed": 0.5,
@@ -30379,16 +30379,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30468,16 +30468,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30507,7 +30507,7 @@
       },
       "74": {
         "runCount": 154,
-        "averageParticipationPct": 6.9,
+        "averageParticipationPct": 6.8,
         "averageRunDepthStep": 109.2,
         "averageRunDepthPct": 78.6,
         "averageBattlesUsed": 0.5,
@@ -30557,16 +30557,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30646,16 +30646,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30685,7 +30685,7 @@
       },
       "72": {
         "runCount": 161,
-        "averageParticipationPct": 6.6,
+        "averageParticipationPct": 6.5,
         "averageRunDepthStep": 107.6,
         "averageRunDepthPct": 77.4,
         "averageBattlesUsed": 0.5,
@@ -30735,16 +30735,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30784,8 +30784,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 15,
-            "participationPct": 73
+            "ownedCount": 16,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -30824,16 +30824,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30863,7 +30863,7 @@
       },
       "70": {
         "runCount": 163,
-        "averageParticipationPct": 6.6,
+        "averageParticipationPct": 6.5,
         "averageRunDepthStep": 107.1,
         "averageRunDepthPct": 77.1,
         "averageBattlesUsed": 0.5,
@@ -30873,8 +30873,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 15,
-            "participationPct": 73
+            "ownedCount": 16,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -30913,16 +30913,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -30952,7 +30952,7 @@
       },
       "69": {
         "runCount": 164,
-        "averageParticipationPct": 6.6,
+        "averageParticipationPct": 6.5,
         "averageRunDepthStep": 106.9,
         "averageRunDepthPct": 76.9,
         "averageBattlesUsed": 0.5,
@@ -30962,8 +30962,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 15,
-            "participationPct": 73
+            "ownedCount": 16,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -31002,16 +31002,16 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Wally Mauville",
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "215",
@@ -31051,8 +31051,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 12,
-            "ownedCount": 17,
-            "participationPct": 71
+            "ownedCount": 18,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -31083,8 +31083,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "Twins Tori And Tia",
@@ -31099,8 +31099,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Michelle",
@@ -31140,8 +31140,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 13,
-            "ownedCount": 18,
-            "participationPct": 72
+            "ownedCount": 19,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -31172,8 +31172,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "Twins Tori And Tia",
@@ -31188,8 +31188,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Michelle",
@@ -31219,7 +31219,7 @@
       },
       "66": {
         "runCount": 185,
-        "averageParticipationPct": 6.6,
+        "averageParticipationPct": 6.5,
         "averageRunDepthStep": 102.4,
         "averageRunDepthPct": 73.7,
         "averageBattlesUsed": 0.5,
@@ -31229,8 +31229,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 13,
-            "ownedCount": 18,
-            "participationPct": 72
+            "ownedCount": 19,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -31261,8 +31261,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "Twins Tori And Tia",
@@ -31277,8 +31277,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Michelle",
@@ -31318,8 +31318,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 19,
-            "participationPct": 74
+            "ownedCount": 20,
+            "participationPct": 70
           },
           {
             "usageKey": "336",
@@ -31342,8 +31342,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -31374,8 +31374,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Michelle",
@@ -31407,8 +31407,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 19,
-            "participationPct": 74
+            "ownedCount": 20,
+            "participationPct": 70
           },
           {
             "usageKey": "336",
@@ -31431,8 +31431,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -31463,8 +31463,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Michelle",
@@ -31486,7 +31486,7 @@
       },
       "63": {
         "runCount": 195,
-        "averageParticipationPct": 6.4,
+        "averageParticipationPct": 6.3,
         "averageRunDepthStep": 100.5,
         "averageRunDepthPct": 72.3,
         "averageBattlesUsed": 0.5,
@@ -31496,8 +31496,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 19,
-            "participationPct": 74
+            "ownedCount": 20,
+            "participationPct": 70
           },
           {
             "usageKey": "336",
@@ -31520,8 +31520,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -31552,8 +31552,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Michelle",
@@ -31575,7 +31575,7 @@
       },
       "62": {
         "runCount": 197,
-        "averageParticipationPct": 6.6,
+        "averageParticipationPct": 6.5,
         "averageRunDepthStep": 100.1,
         "averageRunDepthPct": 72.0,
         "averageBattlesUsed": 0.5,
@@ -31585,8 +31585,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 19,
-            "participationPct": 74
+            "ownedCount": 20,
+            "participationPct": 70
           },
           {
             "usageKey": "336",
@@ -31609,8 +31609,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -31641,8 +31641,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Michelle",
@@ -31674,8 +31674,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -31698,8 +31698,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -31730,8 +31730,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Michelle",
@@ -31753,7 +31753,7 @@
       },
       "60": {
         "runCount": 203,
-        "averageParticipationPct": 6.4,
+        "averageParticipationPct": 6.3,
         "averageRunDepthStep": 98.9,
         "averageRunDepthPct": 71.2,
         "averageBattlesUsed": 0.5,
@@ -31763,8 +31763,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -31787,8 +31787,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -31815,16 +31815,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -31852,8 +31852,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -31876,8 +31876,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -31904,16 +31904,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -31931,7 +31931,7 @@
       },
       "58": {
         "runCount": 214,
-        "averageParticipationPct": 6.1,
+        "averageParticipationPct": 6.0,
         "averageRunDepthStep": 96.8,
         "averageRunDepthPct": 69.7,
         "averageBattlesUsed": 0.4,
@@ -31941,8 +31941,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -31965,8 +31965,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -31993,16 +31993,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32020,7 +32020,7 @@
       },
       "57": {
         "runCount": 217,
-        "averageParticipationPct": 6.0,
+        "averageParticipationPct": 5.9,
         "averageRunDepthStep": 96.3,
         "averageRunDepthPct": 69.3,
         "averageBattlesUsed": 0.4,
@@ -32030,8 +32030,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -32054,8 +32054,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32082,16 +32082,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32109,7 +32109,7 @@
       },
       "56": {
         "runCount": 218,
-        "averageParticipationPct": 6.0,
+        "averageParticipationPct": 5.9,
         "averageRunDepthStep": 96.1,
         "averageRunDepthPct": 69.1,
         "averageBattlesUsed": 0.4,
@@ -32119,8 +32119,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -32143,8 +32143,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32171,16 +32171,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32198,7 +32198,7 @@
       },
       "55": {
         "runCount": 221,
-        "averageParticipationPct": 5.9,
+        "averageParticipationPct": 5.8,
         "averageRunDepthStep": 95.5,
         "averageRunDepthPct": 68.7,
         "averageBattlesUsed": 0.4,
@@ -32208,8 +32208,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -32232,8 +32232,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32260,16 +32260,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32297,8 +32297,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -32321,8 +32321,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32349,16 +32349,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32376,7 +32376,7 @@
       },
       "53": {
         "runCount": 224,
-        "averageParticipationPct": 5.8,
+        "averageParticipationPct": 5.7,
         "averageRunDepthStep": 95.0,
         "averageRunDepthPct": 68.3,
         "averageBattlesUsed": 0.4,
@@ -32386,8 +32386,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -32410,8 +32410,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32438,16 +32438,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32475,8 +32475,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -32499,8 +32499,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32527,16 +32527,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32564,8 +32564,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -32588,8 +32588,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32616,16 +32616,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32653,8 +32653,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 14,
-            "ownedCount": 20,
-            "participationPct": 70
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -32677,8 +32677,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32705,16 +32705,16 @@
             "participationPct": 33
           },
           {
-            "usageKey": "Pkmn Breeder Ezekiel",
-            "displayName": "Pkmn Breeder Ezekiel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Cooltrainer Michelle",
             "displayName": "Cooltrainer Michelle",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Pkmn Breeder Ezekiel",
+            "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -32742,8 +32742,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 17,
-            "ownedCount": 23,
-            "participationPct": 74
+            "ownedCount": 24,
+            "participationPct": 71
           },
           {
             "usageKey": "336",
@@ -32774,8 +32774,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32814,14 +32814,14 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           }
         ]
       },
       "48": {
         "runCount": 258,
-        "averageParticipationPct": 6.8,
+        "averageParticipationPct": 6.7,
         "averageRunDepthStep": 88.9,
         "averageRunDepthPct": 64.0,
         "averageBattlesUsed": 0.4,
@@ -32831,8 +32831,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 17,
-            "ownedCount": 23,
-            "participationPct": 74
+            "ownedCount": 24,
+            "participationPct": 71
           },
           {
             "usageKey": "336",
@@ -32863,8 +32863,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32920,8 +32920,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 17,
-            "ownedCount": 23,
-            "participationPct": 74
+            "ownedCount": 24,
+            "participationPct": 71
           },
           {
             "usageKey": "336",
@@ -32952,8 +32952,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -32999,7 +32999,7 @@
       },
       "46": {
         "runCount": 278,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 85.9,
         "averageRunDepthPct": 61.8,
         "averageBattlesUsed": 0.4,
@@ -33009,8 +33009,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 17,
-            "ownedCount": 23,
-            "participationPct": 74
+            "ownedCount": 24,
+            "participationPct": 71
           },
           {
             "usageKey": "336",
@@ -33041,8 +33041,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -33098,8 +33098,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 17,
-            "ownedCount": 23,
-            "participationPct": 74
+            "ownedCount": 24,
+            "participationPct": 71
           },
           {
             "usageKey": "336",
@@ -33130,8 +33130,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -33187,8 +33187,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 17,
-            "ownedCount": 23,
-            "participationPct": 74
+            "ownedCount": 24,
+            "participationPct": 71
           },
           {
             "usageKey": "336",
@@ -33219,8 +33219,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
+            "ownedCount": 5,
+            "participationPct": 80
           },
           {
             "usageKey": "627",
@@ -33276,8 +33276,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 17,
-            "ownedCount": 24,
-            "participationPct": 71
+            "ownedCount": 25,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -33292,8 +33292,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -33365,8 +33365,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 17,
-            "ownedCount": 25,
-            "participationPct": 68
+            "ownedCount": 26,
+            "participationPct": 65
           },
           {
             "usageKey": "336",
@@ -33381,8 +33381,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -33444,7 +33444,7 @@
       },
       "41": {
         "runCount": 323,
-        "averageParticipationPct": 7.0,
+        "averageParticipationPct": 6.9,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.4,
@@ -33454,8 +33454,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 21,
-            "ownedCount": 29,
-            "participationPct": 72
+            "ownedCount": 30,
+            "participationPct": 70
           },
           {
             "usageKey": "336",
@@ -33478,8 +33478,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "269",
@@ -33543,8 +33543,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 22,
-            "ownedCount": 30,
-            "participationPct": 73
+            "ownedCount": 31,
+            "participationPct": 71
           },
           {
             "usageKey": "336",
@@ -33567,8 +33567,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "269",
@@ -33622,7 +33622,7 @@
       },
       "39": {
         "runCount": 342,
-        "averageParticipationPct": 8.2,
+        "averageParticipationPct": 8.1,
         "averageRunDepthStep": 77.6,
         "averageRunDepthPct": 55.8,
         "averageBattlesUsed": 0.4,
@@ -33632,8 +33632,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 23,
-            "ownedCount": 33,
-            "participationPct": 70
+            "ownedCount": 34,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -33664,8 +33664,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "269",
@@ -33721,8 +33721,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 23,
-            "ownedCount": 33,
-            "participationPct": 70
+            "ownedCount": 34,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -33753,8 +33753,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "269",
@@ -33800,7 +33800,7 @@
       },
       "37": {
         "runCount": 349,
-        "averageParticipationPct": 8.3,
+        "averageParticipationPct": 8.2,
         "averageRunDepthStep": 76.8,
         "averageRunDepthPct": 55.2,
         "averageBattlesUsed": 0.4,
@@ -33810,8 +33810,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 23,
-            "ownedCount": 33,
-            "participationPct": 70
+            "ownedCount": 34,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -33842,8 +33842,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "269",
@@ -33899,8 +33899,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 23,
-            "ownedCount": 33,
-            "participationPct": 70
+            "ownedCount": 34,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -33931,8 +33931,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "269",
@@ -33988,8 +33988,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 25,
-            "ownedCount": 36,
-            "participationPct": 69
+            "ownedCount": 37,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -34012,8 +34012,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 6,
-            "ownedCount": 7,
-            "participationPct": 86
+            "ownedCount": 8,
+            "participationPct": 75
           },
           {
             "usageKey": "266",
@@ -34077,8 +34077,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 25,
-            "ownedCount": 36,
-            "participationPct": 69
+            "ownedCount": 37,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -34101,8 +34101,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 6,
-            "ownedCount": 7,
-            "participationPct": 86
+            "ownedCount": 8,
+            "participationPct": 75
           },
           {
             "usageKey": "266",
@@ -34166,8 +34166,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 25,
-            "ownedCount": 36,
-            "participationPct": 69
+            "ownedCount": 37,
+            "participationPct": 68
           },
           {
             "usageKey": "336",
@@ -34190,8 +34190,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 6,
-            "ownedCount": 7,
-            "participationPct": 86
+            "ownedCount": 8,
+            "participationPct": 75
           },
           {
             "usageKey": "266",
@@ -34245,7 +34245,7 @@
       },
       "32": {
         "runCount": 405,
-        "averageParticipationPct": 13.9,
+        "averageParticipationPct": 13.8,
         "averageRunDepthStep": 70.8,
         "averageRunDepthPct": 50.9,
         "averageBattlesUsed": 0.4,
@@ -34255,8 +34255,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34279,8 +34279,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 9,
+            "participationPct": 78
           },
           {
             "usageKey": "266",
@@ -34334,7 +34334,7 @@
       },
       "31": {
         "runCount": 408,
-        "averageParticipationPct": 14.3,
+        "averageParticipationPct": 14.2,
         "averageRunDepthStep": 70.5,
         "averageRunDepthPct": 50.7,
         "averageBattlesUsed": 0.4,
@@ -34344,8 +34344,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34360,8 +34360,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -34433,8 +34433,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34449,8 +34449,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -34512,7 +34512,7 @@
       },
       "29": {
         "runCount": 423,
-        "averageParticipationPct": 16.3,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 69.0,
         "averageRunDepthPct": 49.7,
         "averageBattlesUsed": 0.5,
@@ -34522,8 +34522,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34538,8 +34538,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -34578,8 +34578,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 7,
-            "participationPct": 57
+            "ownedCount": 8,
+            "participationPct": 50
           },
           {
             "usageKey": "627",
@@ -34611,8 +34611,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34627,8 +34627,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -34667,8 +34667,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -34700,8 +34700,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34716,8 +34716,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -34756,8 +34756,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -34789,8 +34789,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34805,8 +34805,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -34845,8 +34845,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -34878,8 +34878,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34894,8 +34894,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -34934,8 +34934,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -34967,8 +34967,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -34983,8 +34983,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35023,8 +35023,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35056,8 +35056,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35072,8 +35072,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35112,8 +35112,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35145,8 +35145,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35161,8 +35161,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35201,8 +35201,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35234,8 +35234,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35250,8 +35250,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35290,8 +35290,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35323,8 +35323,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35339,8 +35339,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35379,8 +35379,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35412,8 +35412,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35428,8 +35428,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35468,8 +35468,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35501,8 +35501,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35517,8 +35517,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35557,8 +35557,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35590,8 +35590,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35606,8 +35606,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35646,8 +35646,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35679,8 +35679,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35695,8 +35695,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35735,8 +35735,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35768,8 +35768,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35784,8 +35784,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35824,8 +35824,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35857,8 +35857,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35873,8 +35873,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -35913,8 +35913,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -35946,8 +35946,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -35970,8 +35970,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36002,8 +36002,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36035,8 +36035,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36059,8 +36059,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36091,8 +36091,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36124,8 +36124,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36148,8 +36148,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36180,8 +36180,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36213,8 +36213,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36237,8 +36237,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36269,8 +36269,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36302,8 +36302,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36326,8 +36326,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36358,8 +36358,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36391,8 +36391,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36415,8 +36415,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36447,8 +36447,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36480,8 +36480,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36504,8 +36504,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36536,8 +36536,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36569,8 +36569,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36593,8 +36593,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36625,8 +36625,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36658,8 +36658,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36682,8 +36682,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36714,8 +36714,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36747,8 +36747,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36771,8 +36771,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36803,8 +36803,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36836,8 +36836,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36860,8 +36860,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36892,8 +36892,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -36925,8 +36925,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -36949,8 +36949,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -36981,8 +36981,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",
@@ -37014,8 +37014,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 47,
-            "ownedCount": 67,
-            "participationPct": 70
+            "ownedCount": 68,
+            "participationPct": 69
           },
           {
             "usageKey": "336",
@@ -37038,8 +37038,8 @@
             "displayName": "Rival Wally Mauville",
             "leadLevel": null,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Rival Dawn Route111",
@@ -37070,8 +37070,8 @@
             "displayName": "Pkmn Breeder Ezekiel",
             "leadLevel": null,
             "partyCount": 4,
-            "ownedCount": 9,
-            "participationPct": 44
+            "ownedCount": 10,
+            "participationPct": 40
           },
           {
             "usageKey": "627",

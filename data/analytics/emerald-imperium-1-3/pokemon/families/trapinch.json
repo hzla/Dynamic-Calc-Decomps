@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "trapinch",
   "familyMembers": [
     "Flygon",
@@ -9267,10 +9267,10 @@
           ]
         },
         "35": {
-          "runCount": 329,
-          "averageParticipationPct": 33.9,
-          "averageRunDepthStep": 75.7,
-          "averageRunDepthPct": 54.4,
+          "runCount": 331,
+          "averageParticipationPct": 34.3,
+          "averageRunDepthStep": 75.4,
+          "averageRunDepthPct": 54.3,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
@@ -9293,9 +9293,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -9356,10 +9356,10 @@
           ]
         },
         "34": {
-          "runCount": 329,
-          "averageParticipationPct": 33.9,
-          "averageRunDepthStep": 75.7,
-          "averageRunDepthPct": 54.4,
+          "runCount": 331,
+          "averageParticipationPct": 34.3,
+          "averageRunDepthStep": 75.4,
+          "averageRunDepthPct": 54.3,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
@@ -9382,9 +9382,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -9445,11 +9445,11 @@
           ]
         },
         "33": {
-          "runCount": 330,
-          "averageParticipationPct": 33.8,
-          "averageRunDepthStep": 75.5,
-          "averageRunDepthPct": 54.3,
-          "averageBattlesUsed": 1.4,
+          "runCount": 332,
+          "averageParticipationPct": 34.2,
+          "averageRunDepthStep": 75.3,
+          "averageRunDepthPct": 54.2,
+          "averageBattlesUsed": 1.3,
           "topBattles": [
             {
               "usageKey": "268",
@@ -9471,9 +9471,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -9534,10 +9534,10 @@
           ]
         },
         "32": {
-          "runCount": 334,
-          "averageParticipationPct": 33.4,
-          "averageRunDepthStep": 75.0,
-          "averageRunDepthPct": 54.0,
+          "runCount": 336,
+          "averageParticipationPct": 33.8,
+          "averageRunDepthStep": 74.8,
+          "averageRunDepthPct": 53.8,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -9560,9 +9560,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -9623,10 +9623,10 @@
           ]
         },
         "31": {
-          "runCount": 334,
-          "averageParticipationPct": 33.4,
-          "averageRunDepthStep": 75.0,
-          "averageRunDepthPct": 54.0,
+          "runCount": 336,
+          "averageParticipationPct": 33.8,
+          "averageRunDepthStep": 74.8,
+          "averageRunDepthPct": 53.8,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -9649,9 +9649,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -9712,10 +9712,10 @@
           ]
         },
         "30": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -9738,9 +9738,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -9801,10 +9801,10 @@
           ]
         },
         "29": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -9827,9 +9827,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -9890,10 +9890,10 @@
           ]
         },
         "28": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -9916,9 +9916,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -9979,10 +9979,10 @@
           ]
         },
         "27": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10005,9 +10005,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10068,10 +10068,10 @@
           ]
         },
         "26": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10094,9 +10094,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10157,10 +10157,10 @@
           ]
         },
         "25": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10183,9 +10183,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10246,10 +10246,10 @@
           ]
         },
         "24": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10272,9 +10272,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10335,10 +10335,10 @@
           ]
         },
         "23": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10361,9 +10361,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10424,10 +10424,10 @@
           ]
         },
         "22": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10450,9 +10450,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10513,10 +10513,10 @@
           ]
         },
         "21": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10539,9 +10539,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10602,10 +10602,10 @@
           ]
         },
         "20": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10628,9 +10628,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10691,10 +10691,10 @@
           ]
         },
         "19": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10717,9 +10717,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10780,10 +10780,10 @@
           ]
         },
         "18": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10806,9 +10806,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10869,10 +10869,10 @@
           ]
         },
         "17": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10895,9 +10895,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -10958,10 +10958,10 @@
           ]
         },
         "16": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -10984,9 +10984,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11047,10 +11047,10 @@
           ]
         },
         "15": {
-          "runCount": 339,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 74.4,
-          "averageRunDepthPct": 53.5,
+          "runCount": 341,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 74.1,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11073,9 +11073,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11136,10 +11136,10 @@
           ]
         },
         "14": {
-          "runCount": 340,
-          "averageParticipationPct": 32.8,
-          "averageRunDepthStep": 74.2,
-          "averageRunDepthPct": 53.4,
+          "runCount": 342,
+          "averageParticipationPct": 33.2,
+          "averageRunDepthStep": 73.9,
+          "averageRunDepthPct": 53.2,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11162,9 +11162,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11225,10 +11225,10 @@
           ]
         },
         "13": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11251,9 +11251,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11314,10 +11314,10 @@
           ]
         },
         "12": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11340,9 +11340,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11403,10 +11403,10 @@
           ]
         },
         "11": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11429,9 +11429,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11492,10 +11492,10 @@
           ]
         },
         "10": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11518,9 +11518,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11581,10 +11581,10 @@
           ]
         },
         "9": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11607,9 +11607,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11670,10 +11670,10 @@
           ]
         },
         "8": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11696,9 +11696,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11759,10 +11759,10 @@
           ]
         },
         "7": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11785,9 +11785,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11848,10 +11848,10 @@
           ]
         },
         "6": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11874,9 +11874,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -11937,10 +11937,10 @@
           ]
         },
         "5": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -11963,9 +11963,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -12026,10 +12026,10 @@
           ]
         },
         "4": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -12052,9 +12052,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -12115,10 +12115,10 @@
           ]
         },
         "3": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -12141,9 +12141,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -12204,10 +12204,10 @@
           ]
         },
         "2": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -12230,9 +12230,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -12293,10 +12293,10 @@
           ]
         },
         "1": {
-          "runCount": 342,
-          "averageParticipationPct": 32.9,
-          "averageRunDepthStep": 73.8,
-          "averageRunDepthPct": 53.1,
+          "runCount": 344,
+          "averageParticipationPct": 33.3,
+          "averageRunDepthStep": 73.6,
+          "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
@@ -12319,9 +12319,9 @@
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
-              "partyCount": 13,
-              "ownedCount": 23,
-              "participationPct": 57
+              "partyCount": 15,
+              "ownedCount": 25,
+              "participationPct": 60
             },
             {
               "usageKey": "597",
@@ -46305,10 +46305,10 @@
         ]
       },
       "35": {
-        "runCount": 351,
-        "averageParticipationPct": 32.0,
-        "averageRunDepthStep": 76.5,
-        "averageRunDepthPct": 55.0,
+        "runCount": 353,
+        "averageParticipationPct": 32.4,
+        "averageRunDepthStep": 76.3,
+        "averageRunDepthPct": 54.9,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -46331,9 +46331,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -46394,10 +46394,10 @@
         ]
       },
       "34": {
-        "runCount": 351,
-        "averageParticipationPct": 32.0,
-        "averageRunDepthStep": 76.5,
-        "averageRunDepthPct": 55.0,
+        "runCount": 353,
+        "averageParticipationPct": 32.4,
+        "averageRunDepthStep": 76.3,
+        "averageRunDepthPct": 54.9,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -46420,9 +46420,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -46483,10 +46483,10 @@
         ]
       },
       "33": {
-        "runCount": 352,
-        "averageParticipationPct": 31.9,
-        "averageRunDepthStep": 76.4,
-        "averageRunDepthPct": 54.9,
+        "runCount": 354,
+        "averageParticipationPct": 32.3,
+        "averageRunDepthStep": 76.1,
+        "averageRunDepthPct": 54.8,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -46509,9 +46509,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -46572,10 +46572,10 @@
         ]
       },
       "32": {
-        "runCount": 384,
-        "averageParticipationPct": 31.1,
-        "averageRunDepthStep": 72.7,
-        "averageRunDepthPct": 52.3,
+        "runCount": 386,
+        "averageParticipationPct": 31.5,
+        "averageRunDepthStep": 72.5,
+        "averageRunDepthPct": 52.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -46606,9 +46606,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -46661,10 +46661,10 @@
         ]
       },
       "31": {
-        "runCount": 384,
-        "averageParticipationPct": 31.1,
-        "averageRunDepthStep": 72.7,
-        "averageRunDepthPct": 52.3,
+        "runCount": 386,
+        "averageParticipationPct": 31.5,
+        "averageRunDepthStep": 72.5,
+        "averageRunDepthPct": 52.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -46695,9 +46695,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -46750,10 +46750,10 @@
         ]
       },
       "30": {
-        "runCount": 393,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.7,
-        "averageRunDepthPct": 51.6,
+        "runCount": 395,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 71.5,
+        "averageRunDepthPct": 51.5,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -46784,9 +46784,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -46839,10 +46839,10 @@
         ]
       },
       "29": {
-        "runCount": 393,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.7,
-        "averageRunDepthPct": 51.6,
+        "runCount": 395,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 71.5,
+        "averageRunDepthPct": 51.5,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -46873,9 +46873,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -46928,10 +46928,10 @@
         ]
       },
       "28": {
-        "runCount": 395,
-        "averageParticipationPct": 30.5,
-        "averageRunDepthStep": 71.5,
-        "averageRunDepthPct": 51.4,
+        "runCount": 397,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.3,
+        "averageRunDepthPct": 51.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -46962,9 +46962,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47017,10 +47017,10 @@
         ]
       },
       "27": {
-        "runCount": 396,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.4,
-        "averageRunDepthPct": 51.3,
+        "runCount": 398,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47051,9 +47051,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47106,10 +47106,10 @@
         ]
       },
       "26": {
-        "runCount": 396,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.4,
-        "averageRunDepthPct": 51.3,
+        "runCount": 398,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47140,9 +47140,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47195,10 +47195,10 @@
         ]
       },
       "25": {
-        "runCount": 396,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.4,
-        "averageRunDepthPct": 51.3,
+        "runCount": 398,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47229,9 +47229,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47284,10 +47284,10 @@
         ]
       },
       "24": {
-        "runCount": 396,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.4,
-        "averageRunDepthPct": 51.3,
+        "runCount": 398,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47318,9 +47318,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47373,10 +47373,10 @@
         ]
       },
       "23": {
-        "runCount": 396,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.4,
-        "averageRunDepthPct": 51.3,
+        "runCount": 398,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47407,9 +47407,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47462,10 +47462,10 @@
         ]
       },
       "22": {
-        "runCount": 396,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.4,
-        "averageRunDepthPct": 51.3,
+        "runCount": 398,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47496,9 +47496,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47551,10 +47551,10 @@
         ]
       },
       "21": {
-        "runCount": 396,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.4,
-        "averageRunDepthPct": 51.3,
+        "runCount": 398,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47585,9 +47585,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47640,10 +47640,10 @@
         ]
       },
       "20": {
-        "runCount": 396,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.4,
-        "averageRunDepthPct": 51.3,
+        "runCount": 398,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47674,9 +47674,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47729,10 +47729,10 @@
         ]
       },
       "19": {
-        "runCount": 397,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.2,
-        "averageRunDepthPct": 51.2,
+        "runCount": 399,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.1,
+        "averageRunDepthPct": 51.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47763,9 +47763,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47818,10 +47818,10 @@
         ]
       },
       "18": {
-        "runCount": 397,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.2,
-        "averageRunDepthPct": 51.2,
+        "runCount": 399,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.1,
+        "averageRunDepthPct": 51.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47852,9 +47852,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47907,10 +47907,10 @@
         ]
       },
       "17": {
-        "runCount": 397,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.2,
-        "averageRunDepthPct": 51.2,
+        "runCount": 399,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.1,
+        "averageRunDepthPct": 51.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -47941,9 +47941,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -47996,10 +47996,10 @@
         ]
       },
       "16": {
-        "runCount": 397,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.2,
-        "averageRunDepthPct": 51.2,
+        "runCount": 399,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.1,
+        "averageRunDepthPct": 51.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48030,9 +48030,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48085,10 +48085,10 @@
         ]
       },
       "15": {
-        "runCount": 397,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.2,
-        "averageRunDepthPct": 51.2,
+        "runCount": 399,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 71.1,
+        "averageRunDepthPct": 51.1,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48119,9 +48119,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48174,10 +48174,10 @@
         ]
       },
       "14": {
-        "runCount": 398,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 71.1,
-        "averageRunDepthPct": 51.1,
+        "runCount": 400,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.9,
+        "averageRunDepthPct": 51.0,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48208,9 +48208,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48263,10 +48263,10 @@
         ]
       },
       "13": {
-        "runCount": 401,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 70.7,
-        "averageRunDepthPct": 50.8,
+        "runCount": 403,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.5,
+        "averageRunDepthPct": 50.7,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48297,9 +48297,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48352,10 +48352,10 @@
         ]
       },
       "12": {
-        "runCount": 401,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 70.7,
-        "averageRunDepthPct": 50.8,
+        "runCount": 403,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.5,
+        "averageRunDepthPct": 50.7,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48386,9 +48386,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48441,10 +48441,10 @@
         ]
       },
       "11": {
-        "runCount": 401,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 70.7,
-        "averageRunDepthPct": 50.8,
+        "runCount": 403,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.5,
+        "averageRunDepthPct": 50.7,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48475,9 +48475,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48530,10 +48530,10 @@
         ]
       },
       "10": {
-        "runCount": 401,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 70.7,
-        "averageRunDepthPct": 50.8,
+        "runCount": 403,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.5,
+        "averageRunDepthPct": 50.7,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48564,9 +48564,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48619,10 +48619,10 @@
         ]
       },
       "9": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48653,9 +48653,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48708,10 +48708,10 @@
         ]
       },
       "8": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48742,9 +48742,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48797,10 +48797,10 @@
         ]
       },
       "7": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48831,9 +48831,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48886,10 +48886,10 @@
         ]
       },
       "6": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -48920,9 +48920,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -48975,10 +48975,10 @@
         ]
       },
       "5": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -49009,9 +49009,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -49064,10 +49064,10 @@
         ]
       },
       "4": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -49098,9 +49098,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -49153,10 +49153,10 @@
         ]
       },
       "3": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -49187,9 +49187,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -49242,10 +49242,10 @@
         ]
       },
       "2": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -49276,9 +49276,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",
@@ -49331,10 +49331,10 @@
         ]
       },
       "1": {
-        "runCount": 402,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 70.5,
-        "averageRunDepthPct": 50.7,
+        "runCount": 404,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -49365,9 +49365,9 @@
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 24,
-            "participationPct": 54
+            "partyCount": 15,
+            "ownedCount": 26,
+            "participationPct": 58
           },
           {
             "usageKey": "597",

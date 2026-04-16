@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "mantyke",
   "familyMembers": [
     "Mantine",
@@ -733,8 +733,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 8,
-              "ownedCount": 7,
-              "participationPct": 114
+              "ownedCount": 8,
+              "participationPct": 100
             },
             {
               "usageKey": "626",
@@ -822,8 +822,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 9,
-              "ownedCount": 8,
-              "participationPct": 112
+              "ownedCount": 9,
+              "participationPct": 100
             },
             {
               "usageKey": "269",
@@ -911,8 +911,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 10,
-              "ownedCount": 10,
-              "participationPct": 100
+              "ownedCount": 11,
+              "participationPct": 91
             },
             {
               "usageKey": "626",
@@ -990,7 +990,7 @@
         },
         "128": {
           "runCount": 82,
-          "averageParticipationPct": 20.9,
+          "averageParticipationPct": 20.8,
           "averageRunDepthStep": 135.2,
           "averageRunDepthPct": 97.2,
           "averageBattlesUsed": 2.8,
@@ -1000,8 +1000,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 10,
-              "ownedCount": 10,
-              "participationPct": 100
+              "ownedCount": 11,
+              "participationPct": 91
             },
             {
               "usageKey": "626",
@@ -1089,8 +1089,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1168,7 +1168,7 @@
         },
         "126": {
           "runCount": 87,
-          "averageParticipationPct": 20.4,
+          "averageParticipationPct": 20.3,
           "averageRunDepthStep": 134.7,
           "averageRunDepthPct": 96.9,
           "averageBattlesUsed": 2.8,
@@ -1178,8 +1178,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1257,7 +1257,7 @@
         },
         "125": {
           "runCount": 90,
-          "averageParticipationPct": 19.7,
+          "averageParticipationPct": 19.6,
           "averageRunDepthStep": 134.4,
           "averageRunDepthPct": 96.7,
           "averageBattlesUsed": 2.7,
@@ -1267,8 +1267,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1356,8 +1356,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1445,8 +1445,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1534,8 +1534,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1623,8 +1623,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1712,8 +1712,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1801,8 +1801,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1890,8 +1890,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -1969,7 +1969,7 @@
         },
         "117": {
           "runCount": 109,
-          "averageParticipationPct": 19.0,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 132.2,
           "averageRunDepthPct": 95.1,
           "averageBattlesUsed": 2.3,
@@ -1979,8 +1979,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2068,8 +2068,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2157,8 +2157,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2246,8 +2246,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2335,8 +2335,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2424,8 +2424,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2513,8 +2513,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2602,8 +2602,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2691,8 +2691,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2780,8 +2780,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 12,
-              "ownedCount": 12,
-              "participationPct": 100
+              "ownedCount": 13,
+              "participationPct": 92
             },
             {
               "usageKey": "626",
@@ -2869,8 +2869,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 15,
-              "ownedCount": 15,
-              "participationPct": 100
+              "ownedCount": 16,
+              "participationPct": 94
             },
             {
               "usageKey": "626",
@@ -2958,8 +2958,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 16,
-              "ownedCount": 16,
-              "participationPct": 100
+              "ownedCount": 17,
+              "participationPct": 94
             },
             {
               "usageKey": "626",
@@ -3047,8 +3047,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 17,
-              "ownedCount": 17,
-              "participationPct": 100
+              "ownedCount": 18,
+              "participationPct": 94
             },
             {
               "usageKey": "626",
@@ -3136,8 +3136,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 17,
-              "ownedCount": 17,
-              "participationPct": 100
+              "ownedCount": 18,
+              "participationPct": 94
             },
             {
               "usageKey": "626",
@@ -3215,7 +3215,7 @@
         },
         "103": {
           "runCount": 158,
-          "averageParticipationPct": 19.3,
+          "averageParticipationPct": 19.2,
           "averageRunDepthStep": 124.8,
           "averageRunDepthPct": 89.8,
           "averageBattlesUsed": 2.1,
@@ -3225,8 +3225,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 18,
-              "participationPct": 100
+              "ownedCount": 19,
+              "participationPct": 95
             },
             {
               "usageKey": "626",
@@ -3304,7 +3304,7 @@
         },
         "102": {
           "runCount": 163,
-          "averageParticipationPct": 18.9,
+          "averageParticipationPct": 18.8,
           "averageRunDepthStep": 124.1,
           "averageRunDepthPct": 89.3,
           "averageBattlesUsed": 2.0,
@@ -3314,8 +3314,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 19,
-              "participationPct": 95
+              "ownedCount": 20,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -3403,8 +3403,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 19,
-              "participationPct": 95
+              "ownedCount": 20,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -3492,8 +3492,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 19,
-              "participationPct": 95
+              "ownedCount": 20,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -3581,8 +3581,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 19,
-              "participationPct": 95
+              "ownedCount": 20,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -3670,8 +3670,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 19,
-              "participationPct": 95
+              "ownedCount": 20,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -3759,8 +3759,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 19,
-              "participationPct": 95
+              "ownedCount": 20,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -3848,8 +3848,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 19,
-              "participationPct": 95
+              "ownedCount": 20,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -3937,8 +3937,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 18,
-              "ownedCount": 19,
-              "participationPct": 95
+              "ownedCount": 20,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -4016,7 +4016,7 @@
         },
         "94": {
           "runCount": 175,
-          "averageParticipationPct": 19.1,
+          "averageParticipationPct": 19.0,
           "averageRunDepthStep": 122.2,
           "averageRunDepthPct": 87.9,
           "averageBattlesUsed": 1.9,
@@ -4026,8 +4026,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 19,
-              "ownedCount": 20,
-              "participationPct": 95
+              "ownedCount": 21,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -4105,7 +4105,7 @@
         },
         "93": {
           "runCount": 176,
-          "averageParticipationPct": 19.0,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 122.1,
           "averageRunDepthPct": 87.8,
           "averageBattlesUsed": 1.9,
@@ -4115,8 +4115,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 19,
-              "ownedCount": 20,
-              "participationPct": 95
+              "ownedCount": 21,
+              "participationPct": 90
             },
             {
               "usageKey": "626",
@@ -4204,8 +4204,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 20,
-              "ownedCount": 21,
-              "participationPct": 95
+              "ownedCount": 22,
+              "participationPct": 91
             },
             {
               "usageKey": "626",
@@ -4293,8 +4293,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 20,
-              "ownedCount": 21,
-              "participationPct": 95
+              "ownedCount": 22,
+              "participationPct": 91
             },
             {
               "usageKey": "626",
@@ -4382,8 +4382,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 20,
-              "ownedCount": 21,
-              "participationPct": 95
+              "ownedCount": 22,
+              "participationPct": 91
             },
             {
               "usageKey": "626",
@@ -4461,7 +4461,7 @@
         },
         "89": {
           "runCount": 211,
-          "averageParticipationPct": 20.5,
+          "averageParticipationPct": 20.4,
           "averageRunDepthStep": 116.8,
           "averageRunDepthPct": 84.0,
           "averageBattlesUsed": 1.7,
@@ -4471,8 +4471,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 20,
-              "ownedCount": 22,
-              "participationPct": 91
+              "ownedCount": 23,
+              "participationPct": 87
             },
             {
               "usageKey": "626",
@@ -4560,8 +4560,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 20,
-              "ownedCount": 23,
-              "participationPct": 87
+              "ownedCount": 24,
+              "participationPct": 83
             },
             {
               "usageKey": "626",
@@ -4649,8 +4649,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 20,
-              "ownedCount": 23,
-              "participationPct": 87
+              "ownedCount": 24,
+              "participationPct": 83
             },
             {
               "usageKey": "626",
@@ -4738,8 +4738,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 21,
-              "ownedCount": 24,
-              "participationPct": 88
+              "ownedCount": 25,
+              "participationPct": 84
             },
             {
               "usageKey": "626",
@@ -4817,7 +4817,7 @@
         },
         "85": {
           "runCount": 226,
-          "averageParticipationPct": 20.6,
+          "averageParticipationPct": 20.5,
           "averageRunDepthStep": 114.8,
           "averageRunDepthPct": 82.6,
           "averageBattlesUsed": 1.7,
@@ -4827,8 +4827,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 21,
-              "ownedCount": 24,
-              "participationPct": 88
+              "ownedCount": 25,
+              "participationPct": 84
             },
             {
               "usageKey": "626",
@@ -4906,7 +4906,7 @@
         },
         "84": {
           "runCount": 226,
-          "averageParticipationPct": 20.6,
+          "averageParticipationPct": 20.5,
           "averageRunDepthStep": 114.8,
           "averageRunDepthPct": 82.6,
           "averageBattlesUsed": 1.7,
@@ -4916,8 +4916,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 21,
-              "ownedCount": 24,
-              "participationPct": 88
+              "ownedCount": 25,
+              "participationPct": 84
             },
             {
               "usageKey": "626",
@@ -5005,8 +5005,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 21,
-              "ownedCount": 24,
-              "participationPct": 88
+              "ownedCount": 25,
+              "participationPct": 84
             },
             {
               "usageKey": "626",
@@ -5094,8 +5094,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 23,
-              "ownedCount": 26,
-              "participationPct": 88
+              "ownedCount": 27,
+              "participationPct": 85
             },
             {
               "usageKey": "626",
@@ -5183,8 +5183,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 23,
-              "ownedCount": 26,
-              "participationPct": 88
+              "ownedCount": 27,
+              "participationPct": 85
             },
             {
               "usageKey": "626",
@@ -5262,7 +5262,7 @@
         },
         "80": {
           "runCount": 243,
-          "averageParticipationPct": 20.2,
+          "averageParticipationPct": 20.1,
           "averageRunDepthStep": 112.5,
           "averageRunDepthPct": 80.9,
           "averageBattlesUsed": 1.6,
@@ -5272,8 +5272,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 23,
-              "ownedCount": 26,
-              "participationPct": 88
+              "ownedCount": 27,
+              "participationPct": 85
             },
             {
               "usageKey": "626",
@@ -5361,8 +5361,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 23,
-              "ownedCount": 26,
-              "participationPct": 88
+              "ownedCount": 27,
+              "participationPct": 85
             },
             {
               "usageKey": "626",
@@ -5450,8 +5450,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 23,
-              "ownedCount": 26,
-              "participationPct": 88
+              "ownedCount": 27,
+              "participationPct": 85
             },
             {
               "usageKey": "626",
@@ -5539,8 +5539,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 23,
-              "ownedCount": 26,
-              "participationPct": 88
+              "ownedCount": 27,
+              "participationPct": 85
             },
             {
               "usageKey": "626",
@@ -5628,8 +5628,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 24,
-              "ownedCount": 27,
-              "participationPct": 89
+              "ownedCount": 28,
+              "participationPct": 86
             },
             {
               "usageKey": "626",
@@ -5717,8 +5717,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 25,
-              "ownedCount": 28,
-              "participationPct": 89
+              "ownedCount": 29,
+              "participationPct": 86
             },
             {
               "usageKey": "626",
@@ -5806,8 +5806,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 25,
-              "ownedCount": 28,
-              "participationPct": 89
+              "ownedCount": 29,
+              "participationPct": 86
             },
             {
               "usageKey": "626",
@@ -5895,8 +5895,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 25,
-              "ownedCount": 28,
-              "participationPct": 89
+              "ownedCount": 29,
+              "participationPct": 86
             },
             {
               "usageKey": "626",
@@ -5984,8 +5984,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 26,
-              "ownedCount": 29,
-              "participationPct": 90
+              "ownedCount": 30,
+              "participationPct": 87
             },
             {
               "usageKey": "626",
@@ -6073,8 +6073,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 26,
-              "ownedCount": 29,
-              "participationPct": 90
+              "ownedCount": 30,
+              "participationPct": 87
             },
             {
               "usageKey": "626",
@@ -6162,8 +6162,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 26,
-              "ownedCount": 29,
-              "participationPct": 90
+              "ownedCount": 30,
+              "participationPct": 87
             },
             {
               "usageKey": "626",
@@ -6251,8 +6251,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 26,
-              "ownedCount": 30,
-              "participationPct": 87
+              "ownedCount": 31,
+              "participationPct": 84
             },
             {
               "usageKey": "626",
@@ -6340,8 +6340,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 28,
-              "ownedCount": 33,
-              "participationPct": 85
+              "ownedCount": 34,
+              "participationPct": 82
             },
             {
               "usageKey": "269",
@@ -6429,8 +6429,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 29,
-              "ownedCount": 35,
-              "participationPct": 83
+              "ownedCount": 36,
+              "participationPct": 81
             },
             {
               "usageKey": "269",
@@ -6518,8 +6518,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 29,
-              "ownedCount": 35,
-              "participationPct": 83
+              "ownedCount": 36,
+              "participationPct": 81
             },
             {
               "usageKey": "269",
@@ -6597,7 +6597,7 @@
         },
         "65": {
           "runCount": 304,
-          "averageParticipationPct": 23.1,
+          "averageParticipationPct": 23.0,
           "averageRunDepthStep": 104.0,
           "averageRunDepthPct": 74.8,
           "averageBattlesUsed": 1.6,
@@ -6607,8 +6607,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 29,
-              "ownedCount": 35,
-              "participationPct": 83
+              "ownedCount": 36,
+              "participationPct": 81
             },
             {
               "usageKey": "269",
@@ -6696,8 +6696,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 29,
-              "ownedCount": 35,
-              "participationPct": 83
+              "ownedCount": 36,
+              "participationPct": 81
             },
             {
               "usageKey": "269",
@@ -6785,8 +6785,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 29,
-              "ownedCount": 35,
-              "participationPct": 83
+              "ownedCount": 36,
+              "participationPct": 81
             },
             {
               "usageKey": "269",
@@ -6864,7 +6864,7 @@
         },
         "62": {
           "runCount": 323,
-          "averageParticipationPct": 22.7,
+          "averageParticipationPct": 22.6,
           "averageRunDepthStep": 101.6,
           "averageRunDepthPct": 73.1,
           "averageBattlesUsed": 1.5,
@@ -6874,8 +6874,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 29,
-              "ownedCount": 35,
-              "participationPct": 83
+              "ownedCount": 36,
+              "participationPct": 81
             },
             {
               "usageKey": "269",
@@ -6914,8 +6914,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 13,
-              "ownedCount": 20,
-              "participationPct": 65
+              "ownedCount": 21,
+              "participationPct": 62
             },
             {
               "usageKey": "Beauty Jessica",
@@ -6953,7 +6953,7 @@
         },
         "61": {
           "runCount": 324,
-          "averageParticipationPct": 22.8,
+          "averageParticipationPct": 22.7,
           "averageRunDepthStep": 101.5,
           "averageRunDepthPct": 73.0,
           "averageBattlesUsed": 1.5,
@@ -6963,8 +6963,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 29,
-              "ownedCount": 35,
-              "participationPct": 83
+              "ownedCount": 36,
+              "participationPct": 81
             },
             {
               "usageKey": "269",
@@ -7003,8 +7003,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 13,
-              "ownedCount": 20,
-              "participationPct": 65
+              "ownedCount": 21,
+              "participationPct": 62
             },
             {
               "usageKey": "Beauty Jessica",
@@ -7042,98 +7042,9 @@
         },
         "60": {
           "runCount": 331,
-          "averageParticipationPct": 23.4,
+          "averageParticipationPct": 23.3,
           "averageRunDepthStep": 100.6,
           "averageRunDepthPct": 72.4,
-          "averageBattlesUsed": 1.5,
-          "topBattles": [
-            {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 30,
-              "ownedCount": 36,
-              "participationPct": 83
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 18,
-              "ownedCount": 45,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Magma Leader Maxie Mt Chimney",
-              "displayName": "Magma Leader Maxie Mt Chimney",
-              "leadLevel": null,
-              "partyCount": 17,
-              "ownedCount": 19,
-              "participationPct": 89
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 17,
-              "ownedCount": 31,
-              "participationPct": 55
-            },
-            {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
-              "partyCount": 14,
-              "ownedCount": 21,
-              "participationPct": 67
-            },
-            {
-              "usageKey": "602",
-              "displayName": "Magma Leader Maxie Mt Chimney",
-              "leadLevel": 44,
-              "partyCount": 13,
-              "ownedCount": 16,
-              "participationPct": 81
-            },
-            {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 12,
-              "ownedCount": 30,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Beauty Jessica",
-              "displayName": "Beauty Jessica",
-              "leadLevel": null,
-              "partyCount": 11,
-              "ownedCount": 18,
-              "participationPct": 61
-            },
-            {
-              "usageKey": "566",
-              "displayName": "Leader Maylene",
-              "leadLevel": -1,
-              "partyCount": 10,
-              "ownedCount": 31,
-              "participationPct": 32
-            },
-            {
-              "usageKey": "Aqua Admin Shelly Weather Institute",
-              "displayName": "Aqua Admin Shelly Weather Institute",
-              "leadLevel": null,
-              "partyCount": 9,
-              "ownedCount": 18,
-              "participationPct": 50
-            }
-          ]
-        },
-        "59": {
-          "runCount": 335,
-          "averageParticipationPct": 23.5,
-          "averageRunDepthStep": 100.1,
-          "averageRunDepthPct": 72.0,
           "averageBattlesUsed": 1.5,
           "topBattles": [
             {
@@ -7218,20 +7129,20 @@
             }
           ]
         },
-        "58": {
-          "runCount": 341,
-          "averageParticipationPct": 23.7,
-          "averageRunDepthStep": 99.4,
-          "averageRunDepthPct": 71.5,
+        "59": {
+          "runCount": 335,
+          "averageParticipationPct": 23.4,
+          "averageRunDepthStep": 100.1,
+          "averageRunDepthPct": 72.0,
           "averageBattlesUsed": 1.5,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 32,
-              "ownedCount": 39,
-              "participationPct": 82
+              "partyCount": 30,
+              "ownedCount": 38,
+              "participationPct": 79
             },
             {
               "usageKey": "269",
@@ -7262,8 +7173,97 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 23,
+              "participationPct": 61
+            },
+            {
+              "usageKey": "602",
+              "displayName": "Magma Leader Maxie Mt Chimney",
+              "leadLevel": 44,
+              "partyCount": 13,
+              "ownedCount": 16,
+              "participationPct": 81
+            },
+            {
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
+              "partyCount": 12,
+              "ownedCount": 30,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Beauty Jessica",
+              "displayName": "Beauty Jessica",
+              "leadLevel": null,
+              "partyCount": 11,
+              "ownedCount": 18,
+              "participationPct": 61
+            },
+            {
+              "usageKey": "566",
+              "displayName": "Leader Maylene",
+              "leadLevel": -1,
+              "partyCount": 10,
+              "ownedCount": 31,
+              "participationPct": 32
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 9,
+              "ownedCount": 18,
+              "participationPct": 50
+            }
+          ]
+        },
+        "58": {
+          "runCount": 341,
+          "averageParticipationPct": 23.6,
+          "averageRunDepthStep": 99.4,
+          "averageRunDepthPct": 71.5,
+          "averageBattlesUsed": 1.5,
+          "topBattles": [
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
+              "partyCount": 32,
+              "ownedCount": 40,
+              "participationPct": 80
+            },
+            {
+              "usageKey": "269",
+              "displayName": "Leader Norman",
+              "leadLevel": 59,
+              "partyCount": 18,
+              "ownedCount": 45,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Magma Leader Maxie Mt Chimney",
+              "displayName": "Magma Leader Maxie Mt Chimney",
+              "leadLevel": null,
+              "partyCount": 17,
+              "ownedCount": 19,
+              "participationPct": 89
+            },
+            {
+              "usageKey": "626",
+              "displayName": "Leader Wake",
+              "leadLevel": -1,
+              "partyCount": 17,
+              "ownedCount": 31,
+              "participationPct": 55
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 14,
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -7309,7 +7309,7 @@
         },
         "57": {
           "runCount": 343,
-          "averageParticipationPct": 23.6,
+          "averageParticipationPct": 23.5,
           "averageRunDepthStep": 99.1,
           "averageRunDepthPct": 71.3,
           "averageBattlesUsed": 1.5,
@@ -7319,8 +7319,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 32,
-              "ownedCount": 39,
-              "participationPct": 82
+              "ownedCount": 40,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -7351,8 +7351,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -7398,7 +7398,7 @@
         },
         "56": {
           "runCount": 345,
-          "averageParticipationPct": 24.0,
+          "averageParticipationPct": 23.9,
           "averageRunDepthStep": 98.9,
           "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.5,
@@ -7408,8 +7408,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 32,
-              "ownedCount": 39,
-              "participationPct": 82
+              "ownedCount": 40,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -7440,8 +7440,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -7487,7 +7487,7 @@
         },
         "55": {
           "runCount": 349,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 98.4,
           "averageRunDepthPct": 70.8,
           "averageBattlesUsed": 1.5,
@@ -7497,8 +7497,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 32,
-              "ownedCount": 40,
-              "participationPct": 80
+              "ownedCount": 41,
+              "participationPct": 78
             },
             {
               "usageKey": "269",
@@ -7529,8 +7529,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -7576,7 +7576,7 @@
         },
         "54": {
           "runCount": 352,
-          "averageParticipationPct": 24.0,
+          "averageParticipationPct": 23.9,
           "averageRunDepthStep": 98.0,
           "averageRunDepthPct": 70.5,
           "averageBattlesUsed": 1.5,
@@ -7586,8 +7586,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 32,
-              "ownedCount": 40,
-              "participationPct": 80
+              "ownedCount": 41,
+              "participationPct": 78
             },
             {
               "usageKey": "269",
@@ -7618,8 +7618,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -7665,7 +7665,7 @@
         },
         "53": {
           "runCount": 354,
-          "averageParticipationPct": 24.0,
+          "averageParticipationPct": 23.9,
           "averageRunDepthStep": 97.7,
           "averageRunDepthPct": 70.3,
           "averageBattlesUsed": 1.5,
@@ -7675,8 +7675,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 33,
-              "ownedCount": 41,
-              "participationPct": 80
+              "ownedCount": 42,
+              "participationPct": 79
             },
             {
               "usageKey": "269",
@@ -7707,8 +7707,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -7754,7 +7754,7 @@
         },
         "52": {
           "runCount": 356,
-          "averageParticipationPct": 23.8,
+          "averageParticipationPct": 23.7,
           "averageRunDepthStep": 97.5,
           "averageRunDepthPct": 70.1,
           "averageBattlesUsed": 1.5,
@@ -7764,8 +7764,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 33,
-              "ownedCount": 41,
-              "participationPct": 80
+              "ownedCount": 42,
+              "participationPct": 79
             },
             {
               "usageKey": "269",
@@ -7796,8 +7796,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -7843,7 +7843,7 @@
         },
         "51": {
           "runCount": 358,
-          "averageParticipationPct": 23.7,
+          "averageParticipationPct": 23.6,
           "averageRunDepthStep": 97.2,
           "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 1.5,
@@ -7853,8 +7853,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 33,
-              "ownedCount": 41,
-              "participationPct": 80
+              "ownedCount": 42,
+              "participationPct": 79
             },
             {
               "usageKey": "269",
@@ -7885,8 +7885,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -7932,7 +7932,7 @@
         },
         "50": {
           "runCount": 358,
-          "averageParticipationPct": 23.7,
+          "averageParticipationPct": 23.6,
           "averageRunDepthStep": 97.2,
           "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 1.5,
@@ -7942,8 +7942,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 33,
-              "ownedCount": 41,
-              "participationPct": 80
+              "ownedCount": 42,
+              "participationPct": 79
             },
             {
               "usageKey": "269",
@@ -7974,8 +7974,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "602",
@@ -8020,19 +8020,19 @@
           ]
         },
         "49": {
-          "runCount": 390,
-          "averageParticipationPct": 26.8,
-          "averageRunDepthStep": 93.2,
-          "averageRunDepthPct": 67.1,
+          "runCount": 391,
+          "averageParticipationPct": 27.0,
+          "averageRunDepthStep": 93.1,
+          "averageRunDepthPct": 67.0,
           "averageBattlesUsed": 1.5,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8071,8 +8071,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "336",
@@ -8109,19 +8109,19 @@
           ]
         },
         "48": {
-          "runCount": 399,
-          "averageParticipationPct": 27.4,
-          "averageRunDepthStep": 92.2,
-          "averageRunDepthPct": 66.4,
+          "runCount": 400,
+          "averageParticipationPct": 27.5,
+          "averageRunDepthStep": 92.1,
+          "averageRunDepthPct": 66.3,
           "averageBattlesUsed": 1.5,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8168,8 +8168,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "336",
@@ -8198,19 +8198,19 @@
           ]
         },
         "47": {
-          "runCount": 432,
-          "averageParticipationPct": 30.2,
-          "averageRunDepthStep": 88.8,
-          "averageRunDepthPct": 63.9,
+          "runCount": 433,
+          "averageParticipationPct": 30.3,
+          "averageRunDepthStep": 88.7,
+          "averageRunDepthPct": 63.8,
           "averageBattlesUsed": 1.5,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8257,8 +8257,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "336",
@@ -8287,19 +8287,19 @@
           ]
         },
         "46": {
-          "runCount": 439,
-          "averageParticipationPct": 30.0,
-          "averageRunDepthStep": 88.1,
-          "averageRunDepthPct": 63.4,
+          "runCount": 440,
+          "averageParticipationPct": 30.1,
+          "averageRunDepthStep": 88.0,
+          "averageRunDepthPct": 63.3,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8346,8 +8346,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "336",
@@ -8376,9 +8376,9 @@
           ]
         },
         "45": {
-          "runCount": 441,
-          "averageParticipationPct": 29.9,
-          "averageRunDepthStep": 87.9,
+          "runCount": 442,
+          "averageParticipationPct": 30.0,
+          "averageRunDepthStep": 87.8,
           "averageRunDepthPct": 63.2,
           "averageBattlesUsed": 1.4,
           "topBattles": [
@@ -8386,9 +8386,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8435,8 +8435,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "336",
@@ -8465,19 +8465,19 @@
           ]
         },
         "44": {
-          "runCount": 443,
-          "averageParticipationPct": 29.9,
-          "averageRunDepthStep": 87.7,
-          "averageRunDepthPct": 63.1,
+          "runCount": 444,
+          "averageParticipationPct": 30.0,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8532,8 +8532,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Magma Admin Tabitha Mt Chimney",
@@ -8554,19 +8554,19 @@
           ]
         },
         "43": {
-          "runCount": 465,
-          "averageParticipationPct": 29.5,
-          "averageRunDepthStep": 85.6,
-          "averageRunDepthPct": 61.6,
+          "runCount": 466,
+          "averageParticipationPct": 29.6,
+          "averageRunDepthStep": 85.5,
+          "averageRunDepthPct": 61.5,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8621,8 +8621,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Magma Admin Tabitha Mt Chimney",
@@ -8643,9 +8643,9 @@
           ]
         },
         "42": {
-          "runCount": 476,
-          "averageParticipationPct": 28.9,
-          "averageRunDepthStep": 84.6,
+          "runCount": 477,
+          "averageParticipationPct": 29.0,
+          "averageRunDepthStep": 84.5,
           "averageRunDepthPct": 60.8,
           "averageBattlesUsed": 1.4,
           "topBattles": [
@@ -8653,9 +8653,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8710,8 +8710,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Magma Admin Tabitha Mt Chimney",
@@ -8732,19 +8732,19 @@
           ]
         },
         "41": {
-          "runCount": 482,
-          "averageParticipationPct": 29.2,
+          "runCount": 483,
+          "averageParticipationPct": 29.3,
           "averageRunDepthStep": 84.0,
-          "averageRunDepthPct": 60.5,
+          "averageRunDepthPct": 60.4,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8799,8 +8799,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Magma Admin Tabitha Mt Chimney",
@@ -8821,19 +8821,19 @@
           ]
         },
         "40": {
-          "runCount": 486,
-          "averageParticipationPct": 29.4,
-          "averageRunDepthStep": 83.7,
-          "averageRunDepthPct": 60.2,
+          "runCount": 487,
+          "averageParticipationPct": 29.5,
+          "averageRunDepthStep": 83.6,
+          "averageRunDepthPct": 60.1,
           "averageBattlesUsed": 1.4,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8888,8 +8888,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Magma Admin Tabitha Mt Chimney",
@@ -8910,9 +8910,9 @@
           ]
         },
         "39": {
-          "runCount": 503,
+          "runCount": 504,
           "averageParticipationPct": 29.7,
-          "averageRunDepthStep": 82.2,
+          "averageRunDepthStep": 82.1,
           "averageRunDepthPct": 59.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
@@ -8920,9 +8920,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -8977,8 +8977,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -8999,19 +8999,19 @@
           ]
         },
         "38": {
-          "runCount": 513,
-          "averageParticipationPct": 30.6,
-          "averageRunDepthStep": 81.3,
-          "averageRunDepthPct": 58.5,
+          "runCount": 514,
+          "averageParticipationPct": 30.7,
+          "averageRunDepthStep": 81.2,
+          "averageRunDepthPct": 58.4,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9066,8 +9066,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -9088,19 +9088,19 @@
           ]
         },
         "37": {
-          "runCount": 518,
-          "averageParticipationPct": 30.5,
-          "averageRunDepthStep": 80.9,
-          "averageRunDepthPct": 58.2,
+          "runCount": 519,
+          "averageParticipationPct": 30.6,
+          "averageRunDepthStep": 80.8,
+          "averageRunDepthPct": 58.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9155,8 +9155,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Rival Dawn Route111",
@@ -9177,19 +9177,19 @@
           ]
         },
         "36": {
-          "runCount": 523,
-          "averageParticipationPct": 30.8,
+          "runCount": 524,
+          "averageParticipationPct": 30.9,
           "averageRunDepthStep": 80.4,
-          "averageRunDepthPct": 57.9,
+          "averageRunDepthPct": 57.8,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9252,8 +9252,8 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             },
             {
               "usageKey": "Magma Admin Tabitha Mt Chimney",
@@ -9266,9 +9266,9 @@
           ]
         },
         "35": {
-          "runCount": 553,
-          "averageParticipationPct": 32.4,
-          "averageRunDepthStep": 78.0,
+          "runCount": 554,
+          "averageParticipationPct": 32.5,
+          "averageRunDepthStep": 77.9,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
@@ -9276,9 +9276,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9349,15 +9349,15 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             }
           ]
         },
         "34": {
-          "runCount": 553,
-          "averageParticipationPct": 32.4,
-          "averageRunDepthStep": 78.0,
+          "runCount": 554,
+          "averageParticipationPct": 32.5,
+          "averageRunDepthStep": 77.9,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 1.3,
           "topBattles": [
@@ -9365,9 +9365,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9438,25 +9438,25 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             }
           ]
         },
         "33": {
-          "runCount": 555,
-          "averageParticipationPct": 32.3,
+          "runCount": 556,
+          "averageParticipationPct": 32.4,
           "averageRunDepthStep": 77.8,
-          "averageRunDepthPct": 56.0,
+          "averageRunDepthPct": 55.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9527,25 +9527,25 @@
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 14,
-              "ownedCount": 24,
-              "participationPct": 58
+              "ownedCount": 25,
+              "participationPct": 56
             }
           ]
         },
         "32": {
-          "runCount": 593,
-          "averageParticipationPct": 32.3,
-          "averageRunDepthStep": 74.9,
-          "averageRunDepthPct": 53.9,
+          "runCount": 594,
+          "averageParticipationPct": 32.4,
+          "averageRunDepthStep": 74.8,
+          "averageRunDepthPct": 53.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9622,19 +9622,19 @@
           ]
         },
         "31": {
-          "runCount": 597,
-          "averageParticipationPct": 32.3,
-          "averageRunDepthStep": 74.6,
-          "averageRunDepthPct": 53.7,
+          "runCount": 598,
+          "averageParticipationPct": 32.4,
+          "averageRunDepthStep": 74.5,
+          "averageRunDepthPct": 53.6,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9711,8 +9711,8 @@
           ]
         },
         "30": {
-          "runCount": 606,
-          "averageParticipationPct": 32.3,
+          "runCount": 607,
+          "averageParticipationPct": 32.4,
           "averageRunDepthStep": 73.9,
           "averageRunDepthPct": 53.2,
           "averageBattlesUsed": 1.2,
@@ -9721,9 +9721,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9800,9 +9800,9 @@
           ]
         },
         "29": {
-          "runCount": 611,
-          "averageParticipationPct": 32.3,
-          "averageRunDepthStep": 73.6,
+          "runCount": 612,
+          "averageParticipationPct": 32.4,
+          "averageRunDepthStep": 73.5,
           "averageRunDepthPct": 52.9,
           "averageBattlesUsed": 1.2,
           "topBattles": [
@@ -9810,9 +9810,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9889,19 +9889,19 @@
           ]
         },
         "28": {
-          "runCount": 612,
-          "averageParticipationPct": 32.4,
-          "averageRunDepthStep": 73.5,
-          "averageRunDepthPct": 52.9,
+          "runCount": 613,
+          "averageParticipationPct": 32.5,
+          "averageRunDepthStep": 73.4,
+          "averageRunDepthPct": 52.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -9978,9 +9978,9 @@
           ]
         },
         "27": {
-          "runCount": 616,
+          "runCount": 617,
           "averageParticipationPct": 32.5,
-          "averageRunDepthStep": 73.2,
+          "averageRunDepthStep": 73.1,
           "averageRunDepthPct": 52.6,
           "averageBattlesUsed": 1.2,
           "topBattles": [
@@ -9988,9 +9988,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10067,9 +10067,9 @@
           ]
         },
         "26": {
-          "runCount": 618,
-          "averageParticipationPct": 32.4,
-          "averageRunDepthStep": 73.0,
+          "runCount": 620,
+          "averageParticipationPct": 32.5,
+          "averageRunDepthStep": 72.9,
           "averageRunDepthPct": 52.5,
           "averageBattlesUsed": 1.2,
           "topBattles": [
@@ -10077,9 +10077,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10156,19 +10156,19 @@
           ]
         },
         "25": {
-          "runCount": 625,
-          "averageParticipationPct": 32.6,
-          "averageRunDepthStep": 72.5,
-          "averageRunDepthPct": 52.2,
+          "runCount": 627,
+          "averageParticipationPct": 32.8,
+          "averageRunDepthStep": 72.4,
+          "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10245,19 +10245,19 @@
           ]
         },
         "24": {
-          "runCount": 626,
-          "averageParticipationPct": 32.5,
-          "averageRunDepthStep": 72.4,
-          "averageRunDepthPct": 52.1,
+          "runCount": 628,
+          "averageParticipationPct": 32.7,
+          "averageRunDepthStep": 72.3,
+          "averageRunDepthPct": 52.0,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10334,19 +10334,19 @@
           ]
         },
         "23": {
-          "runCount": 628,
-          "averageParticipationPct": 32.4,
-          "averageRunDepthStep": 72.3,
-          "averageRunDepthPct": 52.0,
+          "runCount": 630,
+          "averageParticipationPct": 32.6,
+          "averageRunDepthStep": 72.1,
+          "averageRunDepthPct": 51.9,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10423,19 +10423,19 @@
           ]
         },
         "22": {
-          "runCount": 632,
-          "averageParticipationPct": 32.7,
-          "averageRunDepthStep": 71.9,
-          "averageRunDepthPct": 51.8,
+          "runCount": 634,
+          "averageParticipationPct": 32.9,
+          "averageRunDepthStep": 71.8,
+          "averageRunDepthPct": 51.7,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10512,19 +10512,19 @@
           ]
         },
         "21": {
-          "runCount": 635,
-          "averageParticipationPct": 32.5,
-          "averageRunDepthStep": 71.7,
-          "averageRunDepthPct": 51.6,
+          "runCount": 637,
+          "averageParticipationPct": 32.7,
+          "averageRunDepthStep": 71.6,
+          "averageRunDepthPct": 51.5,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10601,9 +10601,9 @@
           ]
         },
         "20": {
-          "runCount": 641,
-          "averageParticipationPct": 32.4,
-          "averageRunDepthStep": 71.2,
+          "runCount": 643,
+          "averageParticipationPct": 32.6,
+          "averageRunDepthStep": 71.1,
           "averageRunDepthPct": 51.2,
           "averageBattlesUsed": 1.2,
           "topBattles": [
@@ -10611,9 +10611,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10690,19 +10690,19 @@
           ]
         },
         "19": {
-          "runCount": 643,
-          "averageParticipationPct": 32.3,
-          "averageRunDepthStep": 71.0,
-          "averageRunDepthPct": 51.1,
+          "runCount": 645,
+          "averageParticipationPct": 32.5,
+          "averageRunDepthStep": 70.9,
+          "averageRunDepthPct": 51.0,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10779,19 +10779,19 @@
           ]
         },
         "18": {
-          "runCount": 648,
-          "averageParticipationPct": 32.6,
-          "averageRunDepthStep": 70.6,
-          "averageRunDepthPct": 50.8,
+          "runCount": 650,
+          "averageParticipationPct": 32.7,
+          "averageRunDepthStep": 70.5,
+          "averageRunDepthPct": 50.7,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10868,19 +10868,19 @@
           ]
         },
         "17": {
-          "runCount": 648,
-          "averageParticipationPct": 32.6,
-          "averageRunDepthStep": 70.6,
-          "averageRunDepthPct": 50.8,
+          "runCount": 650,
+          "averageParticipationPct": 32.7,
+          "averageRunDepthStep": 70.5,
+          "averageRunDepthPct": 50.7,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -10957,19 +10957,19 @@
           ]
         },
         "16": {
-          "runCount": 649,
-          "averageParticipationPct": 32.7,
-          "averageRunDepthStep": 70.6,
-          "averageRunDepthPct": 50.8,
+          "runCount": 651,
+          "averageParticipationPct": 32.8,
+          "averageRunDepthStep": 70.5,
+          "averageRunDepthPct": 50.7,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11046,19 +11046,19 @@
           ]
         },
         "15": {
-          "runCount": 669,
-          "averageParticipationPct": 33.4,
-          "averageRunDepthStep": 68.9,
-          "averageRunDepthPct": 49.6,
+          "runCount": 671,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 68.8,
+          "averageRunDepthPct": 49.5,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11135,19 +11135,19 @@
           ]
         },
         "14": {
-          "runCount": 669,
-          "averageParticipationPct": 33.4,
-          "averageRunDepthStep": 68.9,
-          "averageRunDepthPct": 49.6,
+          "runCount": 671,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 68.8,
+          "averageRunDepthPct": 49.5,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11224,19 +11224,19 @@
           ]
         },
         "13": {
-          "runCount": 674,
-          "averageParticipationPct": 33.2,
-          "averageRunDepthStep": 68.5,
-          "averageRunDepthPct": 49.3,
+          "runCount": 676,
+          "averageParticipationPct": 33.4,
+          "averageRunDepthStep": 68.4,
+          "averageRunDepthPct": 49.2,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11313,19 +11313,19 @@
           ]
         },
         "12": {
-          "runCount": 674,
-          "averageParticipationPct": 33.2,
-          "averageRunDepthStep": 68.5,
-          "averageRunDepthPct": 49.3,
+          "runCount": 676,
+          "averageParticipationPct": 33.4,
+          "averageRunDepthStep": 68.4,
+          "averageRunDepthPct": 49.2,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11402,19 +11402,19 @@
           ]
         },
         "11": {
-          "runCount": 675,
-          "averageParticipationPct": 33.3,
-          "averageRunDepthStep": 68.4,
-          "averageRunDepthPct": 49.2,
+          "runCount": 677,
+          "averageParticipationPct": 33.5,
+          "averageRunDepthStep": 68.3,
+          "averageRunDepthPct": 49.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11491,19 +11491,19 @@
           ]
         },
         "10": {
-          "runCount": 675,
-          "averageParticipationPct": 33.3,
-          "averageRunDepthStep": 68.4,
-          "averageRunDepthPct": 49.2,
+          "runCount": 677,
+          "averageParticipationPct": 33.5,
+          "averageRunDepthStep": 68.3,
+          "averageRunDepthPct": 49.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11580,19 +11580,19 @@
           ]
         },
         "9": {
-          "runCount": 675,
-          "averageParticipationPct": 33.3,
-          "averageRunDepthStep": 68.4,
-          "averageRunDepthPct": 49.2,
+          "runCount": 677,
+          "averageParticipationPct": 33.5,
+          "averageRunDepthStep": 68.3,
+          "averageRunDepthPct": 49.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11669,19 +11669,19 @@
           ]
         },
         "8": {
-          "runCount": 675,
-          "averageParticipationPct": 33.3,
-          "averageRunDepthStep": 68.4,
-          "averageRunDepthPct": 49.2,
+          "runCount": 677,
+          "averageParticipationPct": 33.5,
+          "averageRunDepthStep": 68.3,
+          "averageRunDepthPct": 49.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11758,19 +11758,19 @@
           ]
         },
         "7": {
-          "runCount": 675,
-          "averageParticipationPct": 33.3,
-          "averageRunDepthStep": 68.4,
-          "averageRunDepthPct": 49.2,
+          "runCount": 677,
+          "averageParticipationPct": 33.5,
+          "averageRunDepthStep": 68.3,
+          "averageRunDepthPct": 49.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11847,19 +11847,19 @@
           ]
         },
         "6": {
-          "runCount": 675,
-          "averageParticipationPct": 33.3,
-          "averageRunDepthStep": 68.4,
-          "averageRunDepthPct": 49.2,
+          "runCount": 677,
+          "averageParticipationPct": 33.5,
+          "averageRunDepthStep": 68.3,
+          "averageRunDepthPct": 49.1,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -11936,19 +11936,19 @@
           ]
         },
         "5": {
-          "runCount": 678,
-          "averageParticipationPct": 33.5,
-          "averageRunDepthStep": 68.1,
-          "averageRunDepthPct": 49.0,
+          "runCount": 680,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 68.0,
+          "averageRunDepthPct": 48.9,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -12025,19 +12025,19 @@
           ]
         },
         "4": {
-          "runCount": 678,
-          "averageParticipationPct": 33.5,
-          "averageRunDepthStep": 68.1,
-          "averageRunDepthPct": 49.0,
+          "runCount": 680,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 68.0,
+          "averageRunDepthPct": 48.9,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -12114,19 +12114,19 @@
           ]
         },
         "3": {
-          "runCount": 678,
-          "averageParticipationPct": 33.5,
-          "averageRunDepthStep": 68.1,
-          "averageRunDepthPct": 49.0,
+          "runCount": 680,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 68.0,
+          "averageRunDepthPct": 48.9,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -12203,19 +12203,19 @@
           ]
         },
         "2": {
-          "runCount": 678,
-          "averageParticipationPct": 33.5,
-          "averageRunDepthStep": 68.1,
-          "averageRunDepthPct": 49.0,
+          "runCount": 680,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 68.0,
+          "averageRunDepthPct": 48.9,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -12292,19 +12292,19 @@
           ]
         },
         "1": {
-          "runCount": 678,
-          "averageParticipationPct": 33.5,
-          "averageRunDepthStep": 68.1,
-          "averageRunDepthPct": 49.0,
+          "runCount": 680,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 68.0,
+          "averageRunDepthPct": 48.9,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 57,
-              "ownedCount": 69,
-              "participationPct": 83
+              "partyCount": 58,
+              "ownedCount": 71,
+              "participationPct": 82
             },
             {
               "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -24489,10 +24489,10 @@
           ]
         },
         "3": {
-          "runCount": 433,
-          "averageParticipationPct": 26.3,
-          "averageRunDepthStep": 37.9,
-          "averageRunDepthPct": 27.3,
+          "runCount": 434,
+          "averageParticipationPct": 26.5,
+          "averageRunDepthStep": 37.8,
+          "averageRunDepthPct": 27.2,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -24507,9 +24507,9 @@
               "usageKey": "851",
               "displayName": "Leader Candice",
               "leadLevel": -1,
-              "partyCount": 56,
-              "ownedCount": 81,
-              "participationPct": 69
+              "partyCount": 57,
+              "ownedCount": 82,
+              "participationPct": 70
             },
             {
               "usageKey": "266",
@@ -24578,97 +24578,8 @@
           ]
         },
         "2": {
-          "runCount": 434,
-          "averageParticipationPct": 26.5,
-          "averageRunDepthStep": 37.8,
-          "averageRunDepthPct": 27.2,
-          "averageBattlesUsed": 0.5,
-          "topBattles": [
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 79,
-              "ownedCount": 92,
-              "participationPct": 86
-            },
-            {
-              "usageKey": "851",
-              "displayName": "Leader Candice",
-              "leadLevel": -1,
-              "partyCount": 56,
-              "ownedCount": 81,
-              "participationPct": 69
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 10,
-              "ownedCount": 136,
-              "participationPct": 7
-            },
-            {
-              "usageKey": "Rival Brendan Rustboro Torchic",
-              "displayName": "Rival Brendan Rustboro Torchic",
-              "leadLevel": null,
-              "partyCount": 8,
-              "ownedCount": 12,
-              "participationPct": 67
-            },
-            {
-              "usageKey": "Rival Brendan Rustboro Treecko",
-              "displayName": "Rival Brendan Rustboro Treecko",
-              "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 11,
-              "participationPct": 55
-            },
-            {
-              "usageKey": "Rival May Rustboro Treecko",
-              "displayName": "Rival May Rustboro Treecko",
-              "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 11,
-              "participationPct": 55
-            },
-            {
-              "usageKey": "16",
-              "displayName": "Team Aqua Grunt Rusturf Tunnel",
-              "leadLevel": -2,
-              "partyCount": 5,
-              "ownedCount": 11,
-              "participationPct": 45
-            },
-            {
-              "usageKey": "769",
-              "displayName": "Rival May Rustboro Torchic",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
-              "usageKey": "592",
-              "displayName": "Rival Brendan Rustboro Treecko",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 8,
-              "participationPct": 38
-            },
-            {
-              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
-              "displayName": "Team Aqua Grunt Rusturf Tunnel",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 9,
-              "participationPct": 33
-            }
-          ]
-        },
-        "1": {
           "runCount": 435,
-          "averageParticipationPct": 26.4,
+          "averageParticipationPct": 26.6,
           "averageRunDepthStep": 37.7,
           "averageRunDepthPct": 27.2,
           "averageBattlesUsed": 0.5,
@@ -24685,9 +24596,9 @@
               "usageKey": "851",
               "displayName": "Leader Candice",
               "leadLevel": -1,
-              "partyCount": 56,
-              "ownedCount": 81,
-              "participationPct": 69
+              "partyCount": 57,
+              "ownedCount": 82,
+              "participationPct": 70
             },
             {
               "usageKey": "266",
@@ -24730,6 +24641,14 @@
               "participationPct": 45
             },
             {
+              "usageKey": "Rival Dawn Route104",
+              "displayName": "Rival Dawn Route104",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
               "usageKey": "769",
               "displayName": "Rival May Rustboro Torchic",
               "leadLevel": -2,
@@ -24744,14 +24663,95 @@
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
+            }
+          ]
+        },
+        "1": {
+          "runCount": 436,
+          "averageParticipationPct": 26.6,
+          "averageRunDepthStep": 37.7,
+          "averageRunDepthPct": 27.1,
+          "averageBattlesUsed": 0.5,
+          "topBattles": [
+            {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 79,
+              "ownedCount": 92,
+              "participationPct": 86
             },
             {
-              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
+              "usageKey": "851",
+              "displayName": "Leader Candice",
+              "leadLevel": -1,
+              "partyCount": 57,
+              "ownedCount": 82,
+              "participationPct": 70
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 10,
+              "ownedCount": 136,
+              "participationPct": 7
+            },
+            {
+              "usageKey": "Rival Brendan Rustboro Torchic",
+              "displayName": "Rival Brendan Rustboro Torchic",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 12,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Rival Brendan Rustboro Treecko",
+              "displayName": "Rival Brendan Rustboro Treecko",
+              "leadLevel": null,
+              "partyCount": 6,
+              "ownedCount": 11,
+              "participationPct": 55
+            },
+            {
+              "usageKey": "Rival May Rustboro Treecko",
+              "displayName": "Rival May Rustboro Treecko",
+              "leadLevel": null,
+              "partyCount": 6,
+              "ownedCount": 11,
+              "participationPct": 55
+            },
+            {
+              "usageKey": "16",
               "displayName": "Team Aqua Grunt Rusturf Tunnel",
+              "leadLevel": -2,
+              "partyCount": 5,
+              "ownedCount": 11,
+              "participationPct": 45
+            },
+            {
+              "usageKey": "Rival Dawn Route104",
+              "displayName": "Rival Dawn Route104",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 9,
-              "participationPct": 33
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "769",
+              "displayName": "Rival May Rustboro Torchic",
+              "leadLevel": -2,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "592",
+              "displayName": "Rival Brendan Rustboro Treecko",
+              "leadLevel": -2,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
             }
           ]
         }
@@ -25484,8 +25484,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 9,
-            "ownedCount": 9,
-            "participationPct": 100
+            "ownedCount": 10,
+            "participationPct": 90
           },
           {
             "usageKey": "626",
@@ -25573,8 +25573,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 10,
-            "ownedCount": 10,
-            "participationPct": 100
+            "ownedCount": 11,
+            "participationPct": 91
           },
           {
             "usageKey": "626",
@@ -25662,8 +25662,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 11,
-            "ownedCount": 12,
-            "participationPct": 92
+            "ownedCount": 13,
+            "participationPct": 85
           },
           {
             "usageKey": "626",
@@ -25741,7 +25741,7 @@
       },
       "128": {
         "runCount": 84,
-        "averageParticipationPct": 20.4,
+        "averageParticipationPct": 20.3,
         "averageRunDepthStep": 135.0,
         "averageRunDepthPct": 97.1,
         "averageBattlesUsed": 2.9,
@@ -25751,8 +25751,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 11,
-            "ownedCount": 12,
-            "participationPct": 92
+            "ownedCount": 13,
+            "participationPct": 85
           },
           {
             "usageKey": "626",
@@ -25830,7 +25830,7 @@
       },
       "127": {
         "runCount": 88,
-        "averageParticipationPct": 20.2,
+        "averageParticipationPct": 20.1,
         "averageRunDepthStep": 134.7,
         "averageRunDepthPct": 96.9,
         "averageBattlesUsed": 2.9,
@@ -25840,8 +25840,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -25919,7 +25919,7 @@
       },
       "126": {
         "runCount": 89,
-        "averageParticipationPct": 20.0,
+        "averageParticipationPct": 19.9,
         "averageRunDepthStep": 134.6,
         "averageRunDepthPct": 96.8,
         "averageBattlesUsed": 2.9,
@@ -25929,8 +25929,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26018,8 +26018,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26107,8 +26107,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26196,8 +26196,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26275,7 +26275,7 @@
       },
       "122": {
         "runCount": 105,
-        "averageParticipationPct": 17.4,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 132.9,
         "averageRunDepthPct": 95.6,
         "averageBattlesUsed": 2.5,
@@ -26285,8 +26285,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26364,7 +26364,7 @@
       },
       "121": {
         "runCount": 105,
-        "averageParticipationPct": 17.4,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 132.9,
         "averageRunDepthPct": 95.6,
         "averageBattlesUsed": 2.5,
@@ -26374,8 +26374,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26463,8 +26463,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26552,8 +26552,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26641,8 +26641,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26730,8 +26730,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26809,7 +26809,7 @@
       },
       "116": {
         "runCount": 117,
-        "averageParticipationPct": 19.8,
+        "averageParticipationPct": 19.7,
         "averageRunDepthStep": 131.3,
         "averageRunDepthPct": 94.5,
         "averageBattlesUsed": 2.3,
@@ -26819,8 +26819,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26908,8 +26908,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -26997,8 +26997,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -27086,8 +27086,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -27175,8 +27175,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -27264,8 +27264,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -27353,8 +27353,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -27442,8 +27442,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -27531,8 +27531,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 13,
-            "ownedCount": 14,
-            "participationPct": 93
+            "ownedCount": 15,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -27620,8 +27620,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 16,
-            "ownedCount": 17,
-            "participationPct": 94
+            "ownedCount": 18,
+            "participationPct": 89
           },
           {
             "usageKey": "626",
@@ -27709,8 +27709,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 17,
-            "ownedCount": 18,
-            "participationPct": 94
+            "ownedCount": 19,
+            "participationPct": 89
           },
           {
             "usageKey": "626",
@@ -27798,8 +27798,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 18,
-            "ownedCount": 19,
-            "participationPct": 95
+            "ownedCount": 20,
+            "participationPct": 90
           },
           {
             "usageKey": "626",
@@ -27887,8 +27887,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 18,
-            "ownedCount": 19,
-            "participationPct": 95
+            "ownedCount": 20,
+            "participationPct": 90
           },
           {
             "usageKey": "626",
@@ -27966,7 +27966,7 @@
       },
       "103": {
         "runCount": 161,
-        "averageParticipationPct": 18.8,
+        "averageParticipationPct": 18.7,
         "averageRunDepthStep": 124.8,
         "averageRunDepthPct": 89.8,
         "averageBattlesUsed": 2.1,
@@ -27976,8 +27976,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 20,
-            "participationPct": 95
+            "ownedCount": 21,
+            "participationPct": 90
           },
           {
             "usageKey": "626",
@@ -28065,8 +28065,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 21,
-            "participationPct": 90
+            "ownedCount": 22,
+            "participationPct": 86
           },
           {
             "usageKey": "626",
@@ -28154,8 +28154,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 21,
-            "participationPct": 90
+            "ownedCount": 22,
+            "participationPct": 86
           },
           {
             "usageKey": "626",
@@ -28243,8 +28243,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 21,
-            "participationPct": 90
+            "ownedCount": 22,
+            "participationPct": 86
           },
           {
             "usageKey": "626",
@@ -28332,8 +28332,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 21,
-            "participationPct": 90
+            "ownedCount": 22,
+            "participationPct": 86
           },
           {
             "usageKey": "626",
@@ -28411,7 +28411,7 @@
       },
       "98": {
         "runCount": 170,
-        "averageParticipationPct": 18.8,
+        "averageParticipationPct": 18.7,
         "averageRunDepthStep": 123.5,
         "averageRunDepthPct": 88.9,
         "averageBattlesUsed": 2.0,
@@ -28421,8 +28421,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 21,
-            "participationPct": 90
+            "ownedCount": 22,
+            "participationPct": 86
           },
           {
             "usageKey": "626",
@@ -28500,7 +28500,7 @@
       },
       "97": {
         "runCount": 170,
-        "averageParticipationPct": 18.8,
+        "averageParticipationPct": 18.7,
         "averageRunDepthStep": 123.5,
         "averageRunDepthPct": 88.9,
         "averageBattlesUsed": 2.0,
@@ -28510,8 +28510,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 21,
-            "participationPct": 90
+            "ownedCount": 22,
+            "participationPct": 86
           },
           {
             "usageKey": "626",
@@ -28599,8 +28599,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 21,
-            "participationPct": 90
+            "ownedCount": 22,
+            "participationPct": 86
           },
           {
             "usageKey": "626",
@@ -28688,8 +28688,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 19,
-            "ownedCount": 21,
-            "participationPct": 90
+            "ownedCount": 22,
+            "participationPct": 86
           },
           {
             "usageKey": "626",
@@ -28777,8 +28777,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 20,
-            "ownedCount": 22,
-            "participationPct": 91
+            "ownedCount": 23,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -28866,8 +28866,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 20,
-            "ownedCount": 22,
-            "participationPct": 91
+            "ownedCount": 23,
+            "participationPct": 87
           },
           {
             "usageKey": "626",
@@ -28955,8 +28955,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 21,
-            "ownedCount": 23,
-            "participationPct": 91
+            "ownedCount": 24,
+            "participationPct": 88
           },
           {
             "usageKey": "626",
@@ -29044,8 +29044,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 21,
-            "ownedCount": 23,
-            "participationPct": 91
+            "ownedCount": 24,
+            "participationPct": 88
           },
           {
             "usageKey": "626",
@@ -29133,8 +29133,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 21,
-            "ownedCount": 23,
-            "participationPct": 91
+            "ownedCount": 24,
+            "participationPct": 88
           },
           {
             "usageKey": "626",
@@ -29222,8 +29222,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 21,
-            "ownedCount": 24,
-            "participationPct": 88
+            "ownedCount": 25,
+            "participationPct": 84
           },
           {
             "usageKey": "626",
@@ -29311,8 +29311,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 21,
-            "ownedCount": 25,
-            "participationPct": 84
+            "ownedCount": 26,
+            "participationPct": 81
           },
           {
             "usageKey": "626",
@@ -29400,8 +29400,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 21,
-            "ownedCount": 25,
-            "participationPct": 84
+            "ownedCount": 26,
+            "participationPct": 81
           },
           {
             "usageKey": "626",
@@ -29489,8 +29489,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 22,
-            "ownedCount": 26,
-            "participationPct": 85
+            "ownedCount": 27,
+            "participationPct": 81
           },
           {
             "usageKey": "626",
@@ -29578,8 +29578,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 22,
-            "ownedCount": 26,
-            "participationPct": 85
+            "ownedCount": 27,
+            "participationPct": 81
           },
           {
             "usageKey": "626",
@@ -29667,8 +29667,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 22,
-            "ownedCount": 26,
-            "participationPct": 85
+            "ownedCount": 27,
+            "participationPct": 81
           },
           {
             "usageKey": "626",
@@ -29756,8 +29756,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 22,
-            "ownedCount": 26,
-            "participationPct": 85
+            "ownedCount": 27,
+            "participationPct": 81
           },
           {
             "usageKey": "626",
@@ -29845,8 +29845,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 24,
-            "ownedCount": 28,
-            "participationPct": 86
+            "ownedCount": 29,
+            "participationPct": 83
           },
           {
             "usageKey": "626",
@@ -29924,7 +29924,7 @@
       },
       "81": {
         "runCount": 249,
-        "averageParticipationPct": 19.2,
+        "averageParticipationPct": 19.1,
         "averageRunDepthStep": 112.4,
         "averageRunDepthPct": 80.9,
         "averageBattlesUsed": 1.7,
@@ -29934,8 +29934,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 24,
-            "ownedCount": 28,
-            "participationPct": 86
+            "ownedCount": 29,
+            "participationPct": 83
           },
           {
             "usageKey": "626",
@@ -30023,8 +30023,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 24,
-            "ownedCount": 28,
-            "participationPct": 86
+            "ownedCount": 29,
+            "participationPct": 83
           },
           {
             "usageKey": "626",
@@ -30112,8 +30112,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 24,
-            "ownedCount": 28,
-            "participationPct": 86
+            "ownedCount": 29,
+            "participationPct": 83
           },
           {
             "usageKey": "626",
@@ -30201,8 +30201,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 24,
-            "ownedCount": 28,
-            "participationPct": 86
+            "ownedCount": 29,
+            "participationPct": 83
           },
           {
             "usageKey": "626",
@@ -30290,8 +30290,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 24,
-            "ownedCount": 28,
-            "participationPct": 86
+            "ownedCount": 29,
+            "participationPct": 83
           },
           {
             "usageKey": "626",
@@ -30379,8 +30379,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 25,
-            "ownedCount": 29,
-            "participationPct": 86
+            "ownedCount": 30,
+            "participationPct": 83
           },
           {
             "usageKey": "626",
@@ -30468,8 +30468,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 26,
-            "ownedCount": 30,
-            "participationPct": 87
+            "ownedCount": 31,
+            "participationPct": 84
           },
           {
             "usageKey": "626",
@@ -30557,8 +30557,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 26,
-            "ownedCount": 30,
-            "participationPct": 87
+            "ownedCount": 31,
+            "participationPct": 84
           },
           {
             "usageKey": "626",
@@ -30646,8 +30646,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 26,
-            "ownedCount": 30,
-            "participationPct": 87
+            "ownedCount": 31,
+            "participationPct": 84
           },
           {
             "usageKey": "626",
@@ -30735,8 +30735,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 27,
-            "ownedCount": 31,
-            "participationPct": 87
+            "ownedCount": 32,
+            "participationPct": 84
           },
           {
             "usageKey": "626",
@@ -30824,8 +30824,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 27,
-            "ownedCount": 31,
-            "participationPct": 87
+            "ownedCount": 32,
+            "participationPct": 84
           },
           {
             "usageKey": "626",
@@ -30913,8 +30913,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 27,
-            "ownedCount": 32,
-            "participationPct": 84
+            "ownedCount": 33,
+            "participationPct": 82
           },
           {
             "usageKey": "626",
@@ -31002,8 +31002,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 27,
-            "ownedCount": 33,
-            "participationPct": 82
+            "ownedCount": 34,
+            "participationPct": 79
           },
           {
             "usageKey": "626",
@@ -31081,7 +31081,7 @@
       },
       "68": {
         "runCount": 296,
-        "averageParticipationPct": 21.7,
+        "averageParticipationPct": 21.6,
         "averageRunDepthStep": 106.0,
         "averageRunDepthPct": 76.2,
         "averageBattlesUsed": 1.6,
@@ -31091,8 +31091,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 29,
-            "ownedCount": 36,
-            "participationPct": 81
+            "ownedCount": 37,
+            "participationPct": 78
           },
           {
             "usageKey": "269",
@@ -31180,8 +31180,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 30,
-            "ownedCount": 38,
-            "participationPct": 79
+            "ownedCount": 39,
+            "participationPct": 77
           },
           {
             "usageKey": "269",
@@ -31269,8 +31269,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 30,
-            "ownedCount": 38,
-            "participationPct": 79
+            "ownedCount": 39,
+            "participationPct": 77
           },
           {
             "usageKey": "269",
@@ -31358,8 +31358,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 30,
-            "ownedCount": 38,
-            "participationPct": 79
+            "ownedCount": 39,
+            "participationPct": 77
           },
           {
             "usageKey": "269",
@@ -31447,8 +31447,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 30,
-            "ownedCount": 38,
-            "participationPct": 79
+            "ownedCount": 39,
+            "participationPct": 77
           },
           {
             "usageKey": "269",
@@ -31536,8 +31536,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 30,
-            "ownedCount": 38,
-            "participationPct": 79
+            "ownedCount": 39,
+            "participationPct": 77
           },
           {
             "usageKey": "269",
@@ -31615,7 +31615,7 @@
       },
       "62": {
         "runCount": 332,
-        "averageParticipationPct": 22.4,
+        "averageParticipationPct": 22.3,
         "averageRunDepthStep": 101.5,
         "averageRunDepthPct": 73.0,
         "averageBattlesUsed": 1.6,
@@ -31625,8 +31625,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 30,
-            "ownedCount": 38,
-            "participationPct": 79
+            "ownedCount": 39,
+            "participationPct": 77
           },
           {
             "usageKey": "269",
@@ -31665,8 +31665,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 13,
-            "ownedCount": 21,
-            "participationPct": 62
+            "ownedCount": 22,
+            "participationPct": 59
           },
           {
             "usageKey": "Beauty Jessica",
@@ -31704,7 +31704,7 @@
       },
       "61": {
         "runCount": 333,
-        "averageParticipationPct": 22.5,
+        "averageParticipationPct": 22.4,
         "averageRunDepthStep": 101.3,
         "averageRunDepthPct": 72.9,
         "averageBattlesUsed": 1.6,
@@ -31714,8 +31714,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 30,
-            "ownedCount": 38,
-            "participationPct": 79
+            "ownedCount": 39,
+            "participationPct": 77
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -31754,8 +31754,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 13,
-            "ownedCount": 21,
-            "participationPct": 62
+            "ownedCount": 22,
+            "participationPct": 59
           },
           {
             "usageKey": "Beauty Jessica",
@@ -31793,98 +31793,9 @@
       },
       "60": {
         "runCount": 340,
-        "averageParticipationPct": 22.9,
+        "averageParticipationPct": 22.8,
         "averageRunDepthStep": 100.5,
         "averageRunDepthPct": 72.3,
-        "averageBattlesUsed": 1.6,
-        "topBattles": [
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 31,
-            "ownedCount": 39,
-            "participationPct": 79
-          },
-          {
-            "usageKey": "Magma Leader Maxie Mt Chimney",
-            "displayName": "Magma Leader Maxie Mt Chimney",
-            "leadLevel": null,
-            "partyCount": 18,
-            "ownedCount": 21,
-            "participationPct": 86
-          },
-          {
-            "usageKey": "269",
-            "displayName": "Leader Norman",
-            "leadLevel": 59,
-            "partyCount": 18,
-            "ownedCount": 46,
-            "participationPct": 39
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 17,
-            "ownedCount": 32,
-            "participationPct": 53
-          },
-          {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 14,
-            "ownedCount": 22,
-            "participationPct": 64
-          },
-          {
-            "usageKey": "602",
-            "displayName": "Magma Leader Maxie Mt Chimney",
-            "leadLevel": 44,
-            "partyCount": 13,
-            "ownedCount": 16,
-            "participationPct": 81
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 12,
-            "ownedCount": 31,
-            "participationPct": 39
-          },
-          {
-            "usageKey": "Beauty Jessica",
-            "displayName": "Beauty Jessica",
-            "leadLevel": null,
-            "partyCount": 11,
-            "ownedCount": 19,
-            "participationPct": 58
-          },
-          {
-            "usageKey": "566",
-            "displayName": "Leader Maylene",
-            "leadLevel": -1,
-            "partyCount": 10,
-            "ownedCount": 31,
-            "participationPct": 32
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 9,
-            "ownedCount": 9,
-            "participationPct": 100
-          }
-        ]
-      },
-      "59": {
-        "runCount": 344,
-        "averageParticipationPct": 23.0,
-        "averageRunDepthStep": 100.0,
-        "averageRunDepthPct": 72.0,
         "averageBattlesUsed": 1.6,
         "topBattles": [
           {
@@ -31952,37 +31863,37 @@
             "participationPct": 58
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 10,
-            "ownedCount": 10,
-            "participationPct": 100
-          },
-          {
             "usageKey": "566",
             "displayName": "Leader Maylene",
             "leadLevel": -1,
             "partyCount": 10,
             "ownedCount": 31,
             "participationPct": 32
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 9,
+            "ownedCount": 9,
+            "participationPct": 100
           }
         ]
       },
-      "58": {
-        "runCount": 350,
-        "averageParticipationPct": 23.2,
-        "averageRunDepthStep": 99.3,
-        "averageRunDepthPct": 71.4,
+      "59": {
+        "runCount": 344,
+        "averageParticipationPct": 22.9,
+        "averageRunDepthStep": 100.0,
+        "averageRunDepthPct": 72.0,
         "averageBattlesUsed": 1.6,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 33,
-            "ownedCount": 42,
-            "participationPct": 79
+            "partyCount": 31,
+            "ownedCount": 41,
+            "participationPct": 76
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32013,8 +31924,97 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 24,
+            "participationPct": 58
+          },
+          {
+            "usageKey": "602",
+            "displayName": "Magma Leader Maxie Mt Chimney",
+            "leadLevel": 44,
+            "partyCount": 13,
+            "ownedCount": 16,
+            "participationPct": 81
+          },
+          {
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
+            "partyCount": 12,
+            "ownedCount": 31,
+            "participationPct": 39
+          },
+          {
+            "usageKey": "Beauty Jessica",
+            "displayName": "Beauty Jessica",
+            "leadLevel": null,
+            "partyCount": 11,
+            "ownedCount": 19,
+            "participationPct": 58
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 10,
+            "ownedCount": 10,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "566",
+            "displayName": "Leader Maylene",
+            "leadLevel": -1,
+            "partyCount": 10,
+            "ownedCount": 31,
+            "participationPct": 32
+          }
+        ]
+      },
+      "58": {
+        "runCount": 350,
+        "averageParticipationPct": 23.1,
+        "averageRunDepthStep": 99.3,
+        "averageRunDepthPct": 71.4,
+        "averageBattlesUsed": 1.6,
+        "topBattles": [
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 33,
+            "ownedCount": 43,
+            "participationPct": 77
+          },
+          {
+            "usageKey": "Magma Leader Maxie Mt Chimney",
+            "displayName": "Magma Leader Maxie Mt Chimney",
+            "leadLevel": null,
+            "partyCount": 18,
+            "ownedCount": 21,
+            "participationPct": 86
+          },
+          {
+            "usageKey": "269",
+            "displayName": "Leader Norman",
+            "leadLevel": 59,
+            "partyCount": 18,
+            "ownedCount": 46,
+            "participationPct": 39
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 17,
+            "ownedCount": 32,
+            "participationPct": 53
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 14,
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32060,7 +32060,7 @@
       },
       "57": {
         "runCount": 352,
-        "averageParticipationPct": 23.1,
+        "averageParticipationPct": 23.0,
         "averageRunDepthStep": 99.1,
         "averageRunDepthPct": 71.3,
         "averageBattlesUsed": 1.6,
@@ -32070,8 +32070,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 33,
-            "ownedCount": 42,
-            "participationPct": 79
+            "ownedCount": 43,
+            "participationPct": 77
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32102,8 +32102,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32149,7 +32149,7 @@
       },
       "56": {
         "runCount": 354,
-        "averageParticipationPct": 23.5,
+        "averageParticipationPct": 23.4,
         "averageRunDepthStep": 98.8,
         "averageRunDepthPct": 71.1,
         "averageBattlesUsed": 1.6,
@@ -32159,8 +32159,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 33,
-            "ownedCount": 42,
-            "participationPct": 79
+            "ownedCount": 43,
+            "participationPct": 77
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32191,8 +32191,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32238,7 +32238,7 @@
       },
       "55": {
         "runCount": 358,
-        "averageParticipationPct": 23.7,
+        "averageParticipationPct": 23.6,
         "averageRunDepthStep": 98.3,
         "averageRunDepthPct": 70.7,
         "averageBattlesUsed": 1.6,
@@ -32248,8 +32248,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 33,
-            "ownedCount": 43,
-            "participationPct": 77
+            "ownedCount": 44,
+            "participationPct": 75
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32280,8 +32280,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32327,7 +32327,7 @@
       },
       "54": {
         "runCount": 361,
-        "averageParticipationPct": 23.5,
+        "averageParticipationPct": 23.4,
         "averageRunDepthStep": 98.0,
         "averageRunDepthPct": 70.5,
         "averageBattlesUsed": 1.6,
@@ -32337,8 +32337,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 33,
-            "ownedCount": 43,
-            "participationPct": 77
+            "ownedCount": 44,
+            "participationPct": 75
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32369,8 +32369,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32416,7 +32416,7 @@
       },
       "53": {
         "runCount": 363,
-        "averageParticipationPct": 23.5,
+        "averageParticipationPct": 23.4,
         "averageRunDepthStep": 97.7,
         "averageRunDepthPct": 70.3,
         "averageBattlesUsed": 1.5,
@@ -32426,8 +32426,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 34,
-            "ownedCount": 44,
-            "participationPct": 77
+            "ownedCount": 45,
+            "participationPct": 76
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32458,8 +32458,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32515,8 +32515,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 34,
-            "ownedCount": 44,
-            "participationPct": 77
+            "ownedCount": 45,
+            "participationPct": 76
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32547,8 +32547,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32594,7 +32594,7 @@
       },
       "51": {
         "runCount": 367,
-        "averageParticipationPct": 23.2,
+        "averageParticipationPct": 23.1,
         "averageRunDepthStep": 97.2,
         "averageRunDepthPct": 69.9,
         "averageBattlesUsed": 1.5,
@@ -32604,8 +32604,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 34,
-            "ownedCount": 44,
-            "participationPct": 77
+            "ownedCount": 45,
+            "participationPct": 76
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32636,8 +32636,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32683,7 +32683,7 @@
       },
       "50": {
         "runCount": 367,
-        "averageParticipationPct": 23.2,
+        "averageParticipationPct": 23.1,
         "averageRunDepthStep": 97.2,
         "averageRunDepthPct": 69.9,
         "averageBattlesUsed": 1.5,
@@ -32693,8 +32693,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 34,
-            "ownedCount": 44,
-            "participationPct": 77
+            "ownedCount": 45,
+            "participationPct": 76
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -32725,8 +32725,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "602",
@@ -32771,18 +32771,18 @@
         ]
       },
       "49": {
-        "runCount": 402,
-        "averageParticipationPct": 26.0,
-        "averageRunDepthStep": 93.0,
-        "averageRunDepthPct": 66.9,
+        "runCount": 403,
+        "averageParticipationPct": 26.1,
+        "averageRunDepthStep": 92.9,
+        "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 1.5,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -32830,8 +32830,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "336",
@@ -32860,18 +32860,18 @@
         ]
       },
       "48": {
-        "runCount": 411,
-        "averageParticipationPct": 26.4,
-        "averageRunDepthStep": 92.0,
-        "averageRunDepthPct": 66.2,
+        "runCount": 412,
+        "averageParticipationPct": 26.5,
+        "averageRunDepthStep": 91.9,
+        "averageRunDepthPct": 66.1,
         "averageBattlesUsed": 1.5,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -32927,8 +32927,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "336",
@@ -32949,18 +32949,18 @@
         ]
       },
       "47": {
-        "runCount": 444,
-        "averageParticipationPct": 29.4,
-        "averageRunDepthStep": 88.7,
-        "averageRunDepthPct": 63.8,
+        "runCount": 445,
+        "averageParticipationPct": 29.5,
+        "averageRunDepthStep": 88.6,
+        "averageRunDepthPct": 63.7,
         "averageBattlesUsed": 1.5,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33024,8 +33024,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "336",
@@ -33038,9 +33038,9 @@
         ]
       },
       "46": {
-        "runCount": 451,
-        "averageParticipationPct": 29.2,
-        "averageRunDepthStep": 88.0,
+        "runCount": 452,
+        "averageParticipationPct": 29.3,
+        "averageRunDepthStep": 87.9,
         "averageRunDepthPct": 63.3,
         "averageBattlesUsed": 1.5,
         "topBattles": [
@@ -33048,8 +33048,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33113,8 +33113,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "336",
@@ -33127,18 +33127,18 @@
         ]
       },
       "45": {
-        "runCount": 453,
-        "averageParticipationPct": 29.2,
-        "averageRunDepthStep": 87.8,
-        "averageRunDepthPct": 63.2,
+        "runCount": 454,
+        "averageParticipationPct": 29.3,
+        "averageRunDepthStep": 87.7,
+        "averageRunDepthPct": 63.1,
         "averageBattlesUsed": 1.5,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33202,8 +33202,8 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           },
           {
             "usageKey": "336",
@@ -33216,9 +33216,9 @@
         ]
       },
       "44": {
-        "runCount": 455,
-        "averageParticipationPct": 29.2,
-        "averageRunDepthStep": 87.6,
+        "runCount": 456,
+        "averageParticipationPct": 29.3,
+        "averageRunDepthStep": 87.5,
         "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 1.5,
         "topBattles": [
@@ -33226,8 +33226,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33299,15 +33299,15 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           }
         ]
       },
       "43": {
-        "runCount": 479,
-        "averageParticipationPct": 28.9,
-        "averageRunDepthStep": 85.4,
+        "runCount": 480,
+        "averageParticipationPct": 29.0,
+        "averageRunDepthStep": 85.3,
         "averageRunDepthPct": 61.4,
         "averageBattlesUsed": 1.5,
         "topBattles": [
@@ -33315,8 +33315,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33388,24 +33388,24 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           }
         ]
       },
       "42": {
-        "runCount": 491,
-        "averageParticipationPct": 28.4,
+        "runCount": 492,
+        "averageParticipationPct": 28.5,
         "averageRunDepthStep": 84.3,
-        "averageRunDepthPct": 60.7,
+        "averageRunDepthPct": 60.6,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33477,24 +33477,24 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           }
         ]
       },
       "41": {
-        "runCount": 497,
-        "averageParticipationPct": 28.7,
-        "averageRunDepthStep": 83.8,
-        "averageRunDepthPct": 60.3,
+        "runCount": 498,
+        "averageParticipationPct": 28.8,
+        "averageRunDepthStep": 83.7,
+        "averageRunDepthPct": 60.2,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33566,24 +33566,24 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           }
         ]
       },
       "40": {
-        "runCount": 502,
-        "averageParticipationPct": 28.8,
-        "averageRunDepthStep": 83.4,
-        "averageRunDepthPct": 60.0,
+        "runCount": 503,
+        "averageParticipationPct": 28.9,
+        "averageRunDepthStep": 83.3,
+        "averageRunDepthPct": 59.9,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33655,14 +33655,14 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           }
         ]
       },
       "39": {
-        "runCount": 519,
-        "averageParticipationPct": 28.9,
+        "runCount": 520,
+        "averageParticipationPct": 29.0,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 1.4,
@@ -33671,8 +33671,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33744,14 +33744,14 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           }
         ]
       },
       "38": {
-        "runCount": 531,
-        "averageParticipationPct": 29.9,
+        "runCount": 532,
+        "averageParticipationPct": 30.0,
         "averageRunDepthStep": 80.9,
         "averageRunDepthPct": 58.2,
         "averageBattlesUsed": 1.4,
@@ -33760,8 +33760,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33833,14 +33833,14 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           }
         ]
       },
       "37": {
-        "runCount": 536,
-        "averageParticipationPct": 29.8,
+        "runCount": 537,
+        "averageParticipationPct": 29.9,
         "averageRunDepthStep": 80.5,
         "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 1.4,
@@ -33849,8 +33849,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -33922,15 +33922,15 @@
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 14,
-            "ownedCount": 25,
-            "participationPct": 56
+            "ownedCount": 26,
+            "participationPct": 54
           }
         ]
       },
       "36": {
-        "runCount": 541,
+        "runCount": 542,
         "averageParticipationPct": 30.1,
-        "averageRunDepthStep": 80.1,
+        "averageRunDepthStep": 80.0,
         "averageRunDepthPct": 57.6,
         "averageBattlesUsed": 1.4,
         "topBattles": [
@@ -33938,8 +33938,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34017,9 +34017,9 @@
         ]
       },
       "35": {
-        "runCount": 573,
+        "runCount": 574,
         "averageParticipationPct": 31.5,
-        "averageRunDepthStep": 77.6,
+        "averageRunDepthStep": 77.5,
         "averageRunDepthPct": 55.8,
         "averageBattlesUsed": 1.4,
         "topBattles": [
@@ -34027,8 +34027,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34106,9 +34106,9 @@
         ]
       },
       "34": {
-        "runCount": 573,
+        "runCount": 574,
         "averageParticipationPct": 31.5,
-        "averageRunDepthStep": 77.6,
+        "averageRunDepthStep": 77.5,
         "averageRunDepthPct": 55.8,
         "averageBattlesUsed": 1.4,
         "topBattles": [
@@ -34116,8 +34116,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34195,7 +34195,7 @@
         ]
       },
       "33": {
-        "runCount": 575,
+        "runCount": 576,
         "averageParticipationPct": 31.4,
         "averageRunDepthStep": 77.4,
         "averageRunDepthPct": 55.7,
@@ -34205,8 +34205,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34284,8 +34284,8 @@
         ]
       },
       "32": {
-        "runCount": 616,
-        "averageParticipationPct": 31.2,
+        "runCount": 617,
+        "averageParticipationPct": 31.3,
         "averageRunDepthStep": 74.4,
         "averageRunDepthPct": 53.5,
         "averageBattlesUsed": 1.3,
@@ -34294,8 +34294,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34373,9 +34373,9 @@
         ]
       },
       "31": {
-        "runCount": 621,
-        "averageParticipationPct": 31.1,
-        "averageRunDepthStep": 74.1,
+        "runCount": 622,
+        "averageParticipationPct": 31.2,
+        "averageRunDepthStep": 74.0,
         "averageRunDepthPct": 53.3,
         "averageBattlesUsed": 1.3,
         "topBattles": [
@@ -34383,8 +34383,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34462,7 +34462,7 @@
         ]
       },
       "30": {
-        "runCount": 630,
+        "runCount": 631,
         "averageParticipationPct": 31.2,
         "averageRunDepthStep": 73.4,
         "averageRunDepthPct": 52.8,
@@ -34472,8 +34472,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34551,8 +34551,8 @@
         ]
       },
       "29": {
-        "runCount": 636,
-        "averageParticipationPct": 31.1,
+        "runCount": 637,
+        "averageParticipationPct": 31.2,
         "averageRunDepthStep": 73.0,
         "averageRunDepthPct": 52.5,
         "averageBattlesUsed": 1.3,
@@ -34561,8 +34561,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34640,18 +34640,18 @@
         ]
       },
       "28": {
-        "runCount": 637,
-        "averageParticipationPct": 31.2,
+        "runCount": 638,
+        "averageParticipationPct": 31.3,
         "averageRunDepthStep": 72.9,
-        "averageRunDepthPct": 52.5,
+        "averageRunDepthPct": 52.4,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34729,18 +34729,18 @@
         ]
       },
       "27": {
-        "runCount": 641,
+        "runCount": 642,
         "averageParticipationPct": 31.3,
-        "averageRunDepthStep": 72.7,
-        "averageRunDepthPct": 52.3,
+        "averageRunDepthStep": 72.6,
+        "averageRunDepthPct": 52.2,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34818,18 +34818,18 @@
         ]
       },
       "26": {
-        "runCount": 643,
-        "averageParticipationPct": 31.2,
-        "averageRunDepthStep": 72.5,
-        "averageRunDepthPct": 52.2,
+        "runCount": 645,
+        "averageParticipationPct": 31.4,
+        "averageRunDepthStep": 72.4,
+        "averageRunDepthPct": 52.1,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34907,18 +34907,18 @@
         ]
       },
       "25": {
-        "runCount": 652,
-        "averageParticipationPct": 31.3,
-        "averageRunDepthStep": 71.9,
-        "averageRunDepthPct": 51.7,
+        "runCount": 654,
+        "averageParticipationPct": 31.5,
+        "averageRunDepthStep": 71.7,
+        "averageRunDepthPct": 51.6,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -34996,9 +34996,9 @@
         ]
       },
       "24": {
-        "runCount": 653,
-        "averageParticipationPct": 31.3,
-        "averageRunDepthStep": 71.8,
+        "runCount": 655,
+        "averageParticipationPct": 31.5,
+        "averageRunDepthStep": 71.7,
         "averageRunDepthPct": 51.6,
         "averageBattlesUsed": 1.3,
         "topBattles": [
@@ -35006,8 +35006,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35085,9 +35085,9 @@
         ]
       },
       "23": {
-        "runCount": 655,
-        "averageParticipationPct": 31.2,
-        "averageRunDepthStep": 71.6,
+        "runCount": 657,
+        "averageParticipationPct": 31.4,
+        "averageRunDepthStep": 71.5,
         "averageRunDepthPct": 51.5,
         "averageBattlesUsed": 1.3,
         "topBattles": [
@@ -35095,8 +35095,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35174,18 +35174,18 @@
         ]
       },
       "22": {
-        "runCount": 659,
-        "averageParticipationPct": 31.5,
-        "averageRunDepthStep": 71.3,
-        "averageRunDepthPct": 51.3,
+        "runCount": 661,
+        "averageParticipationPct": 31.6,
+        "averageRunDepthStep": 71.2,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35263,18 +35263,18 @@
         ]
       },
       "21": {
-        "runCount": 663,
-        "averageParticipationPct": 31.4,
-        "averageRunDepthStep": 71.0,
-        "averageRunDepthPct": 51.1,
+        "runCount": 665,
+        "averageParticipationPct": 31.5,
+        "averageRunDepthStep": 70.9,
+        "averageRunDepthPct": 51.0,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35352,18 +35352,18 @@
         ]
       },
       "20": {
-        "runCount": 669,
-        "averageParticipationPct": 31.2,
-        "averageRunDepthStep": 70.6,
-        "averageRunDepthPct": 50.8,
+        "runCount": 671,
+        "averageParticipationPct": 31.4,
+        "averageRunDepthStep": 70.5,
+        "averageRunDepthPct": 50.7,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35441,18 +35441,18 @@
         ]
       },
       "19": {
-        "runCount": 671,
-        "averageParticipationPct": 31.2,
-        "averageRunDepthStep": 70.4,
-        "averageRunDepthPct": 50.7,
+        "runCount": 673,
+        "averageParticipationPct": 31.3,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35530,18 +35530,18 @@
         ]
       },
       "18": {
-        "runCount": 676,
-        "averageParticipationPct": 31.4,
-        "averageRunDepthStep": 70.0,
-        "averageRunDepthPct": 50.4,
+        "runCount": 678,
+        "averageParticipationPct": 31.5,
+        "averageRunDepthStep": 69.9,
+        "averageRunDepthPct": 50.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35619,18 +35619,18 @@
         ]
       },
       "17": {
-        "runCount": 676,
-        "averageParticipationPct": 31.4,
-        "averageRunDepthStep": 70.0,
-        "averageRunDepthPct": 50.4,
+        "runCount": 678,
+        "averageParticipationPct": 31.5,
+        "averageRunDepthStep": 69.9,
+        "averageRunDepthPct": 50.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35708,9 +35708,9 @@
         ]
       },
       "16": {
-        "runCount": 677,
-        "averageParticipationPct": 31.4,
-        "averageRunDepthStep": 69.9,
+        "runCount": 679,
+        "averageParticipationPct": 31.6,
+        "averageRunDepthStep": 69.8,
         "averageRunDepthPct": 50.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
@@ -35718,8 +35718,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35797,18 +35797,18 @@
         ]
       },
       "15": {
-        "runCount": 699,
-        "averageParticipationPct": 32.0,
-        "averageRunDepthStep": 68.2,
-        "averageRunDepthPct": 49.1,
+        "runCount": 701,
+        "averageParticipationPct": 32.2,
+        "averageRunDepthStep": 68.1,
+        "averageRunDepthPct": 49.0,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35886,18 +35886,18 @@
         ]
       },
       "14": {
-        "runCount": 699,
-        "averageParticipationPct": 32.0,
-        "averageRunDepthStep": 68.2,
-        "averageRunDepthPct": 49.1,
+        "runCount": 701,
+        "averageParticipationPct": 32.2,
+        "averageRunDepthStep": 68.1,
+        "averageRunDepthPct": 49.0,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -35975,18 +35975,18 @@
         ]
       },
       "13": {
-        "runCount": 784,
-        "averageParticipationPct": 30.3,
+        "runCount": 786,
+        "averageParticipationPct": 30.4,
         "averageRunDepthStep": 62.2,
-        "averageRunDepthPct": 44.8,
+        "averageRunDepthPct": 44.7,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36064,18 +36064,18 @@
         ]
       },
       "12": {
-        "runCount": 788,
-        "averageParticipationPct": 30.1,
-        "averageRunDepthStep": 62.0,
-        "averageRunDepthPct": 44.6,
+        "runCount": 790,
+        "averageParticipationPct": 30.2,
+        "averageRunDepthStep": 61.9,
+        "averageRunDepthPct": 44.5,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36153,18 +36153,18 @@
         ]
       },
       "11": {
-        "runCount": 790,
-        "averageParticipationPct": 30.2,
+        "runCount": 792,
+        "averageParticipationPct": 30.4,
         "averageRunDepthStep": 61.8,
-        "averageRunDepthPct": 44.5,
+        "averageRunDepthPct": 44.4,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36242,18 +36242,18 @@
         ]
       },
       "10": {
-        "runCount": 797,
-        "averageParticipationPct": 30.5,
-        "averageRunDepthStep": 61.4,
-        "averageRunDepthPct": 44.2,
+        "runCount": 799,
+        "averageParticipationPct": 30.7,
+        "averageRunDepthStep": 61.3,
+        "averageRunDepthPct": 44.1,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36331,8 +36331,8 @@
         ]
       },
       "9": {
-        "runCount": 804,
-        "averageParticipationPct": 30.5,
+        "runCount": 806,
+        "averageParticipationPct": 30.6,
         "averageRunDepthStep": 60.9,
         "averageRunDepthPct": 43.8,
         "averageBattlesUsed": 1.1,
@@ -36341,8 +36341,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36420,8 +36420,8 @@
         ]
       },
       "8": {
-        "runCount": 815,
-        "averageParticipationPct": 30.9,
+        "runCount": 817,
+        "averageParticipationPct": 31.0,
         "averageRunDepthStep": 60.2,
         "averageRunDepthPct": 43.3,
         "averageBattlesUsed": 1.1,
@@ -36430,8 +36430,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36509,9 +36509,9 @@
         ]
       },
       "7": {
-        "runCount": 820,
-        "averageParticipationPct": 30.9,
-        "averageRunDepthStep": 59.9,
+        "runCount": 822,
+        "averageParticipationPct": 31.1,
+        "averageRunDepthStep": 59.8,
         "averageRunDepthPct": 43.1,
         "averageBattlesUsed": 1.1,
         "topBattles": [
@@ -36519,8 +36519,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36598,9 +36598,9 @@
         ]
       },
       "6": {
-        "runCount": 822,
-        "averageParticipationPct": 31.1,
-        "averageRunDepthStep": 59.8,
+        "runCount": 824,
+        "averageParticipationPct": 31.3,
+        "averageRunDepthStep": 59.7,
         "averageRunDepthPct": 43.0,
         "averageBattlesUsed": 1.1,
         "topBattles": [
@@ -36608,8 +36608,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36687,9 +36687,9 @@
         ]
       },
       "5": {
-        "runCount": 826,
-        "averageParticipationPct": 31.3,
-        "averageRunDepthStep": 59.5,
+        "runCount": 828,
+        "averageParticipationPct": 31.5,
+        "averageRunDepthStep": 59.4,
         "averageRunDepthPct": 42.8,
         "averageBattlesUsed": 1.1,
         "topBattles": [
@@ -36697,8 +36697,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36776,8 +36776,8 @@
         ]
       },
       "4": {
-        "runCount": 865,
-        "averageParticipationPct": 33.8,
+        "runCount": 867,
+        "averageParticipationPct": 34.0,
         "averageRunDepthStep": 57.0,
         "averageRunDepthPct": 41.0,
         "averageBattlesUsed": 1.1,
@@ -36794,8 +36794,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
@@ -36865,10 +36865,10 @@
         ]
       },
       "3": {
-        "runCount": 890,
-        "averageParticipationPct": 35.4,
-        "averageRunDepthStep": 55.5,
-        "averageRunDepthPct": 39.9,
+        "runCount": 893,
+        "averageParticipationPct": 35.6,
+        "averageRunDepthStep": 55.4,
+        "averageRunDepthPct": 39.8,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -36883,17 +36883,17 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
-            "partyCount": 56,
-            "ownedCount": 82,
-            "participationPct": 68
+            "partyCount": 57,
+            "ownedCount": 83,
+            "participationPct": 69
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -36954,10 +36954,10 @@
         ]
       },
       "2": {
-        "runCount": 891,
-        "averageParticipationPct": 35.4,
-        "averageRunDepthStep": 55.4,
-        "averageRunDepthPct": 39.9,
+        "runCount": 894,
+        "averageParticipationPct": 35.6,
+        "averageRunDepthStep": 55.3,
+        "averageRunDepthPct": 39.8,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -36972,17 +36972,17 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
-            "partyCount": 56,
-            "ownedCount": 82,
-            "participationPct": 68
+            "partyCount": 57,
+            "ownedCount": 83,
+            "participationPct": 69
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -37043,9 +37043,9 @@
         ]
       },
       "1": {
-        "runCount": 892,
-        "averageParticipationPct": 35.4,
-        "averageRunDepthStep": 55.4,
+        "runCount": 895,
+        "averageParticipationPct": 35.6,
+        "averageRunDepthStep": 55.3,
         "averageRunDepthPct": 39.8,
         "averageBattlesUsed": 1.1,
         "topBattles": [
@@ -37061,17 +37061,17 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 58,
-            "ownedCount": 74,
+            "partyCount": 59,
+            "ownedCount": 76,
             "participationPct": 78
           },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
-            "partyCount": 56,
-            "ownedCount": 82,
-            "participationPct": 68
+            "partyCount": 57,
+            "ownedCount": 83,
+            "participationPct": 69
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",

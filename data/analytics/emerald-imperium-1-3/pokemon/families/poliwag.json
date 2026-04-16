@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "poliwag",
   "familyMembers": [
     "Politoed",
@@ -4018,7 +4018,7 @@
         },
         "94": {
           "runCount": 109,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 125.4,
           "averageRunDepthPct": 90.2,
           "averageBattlesUsed": 0.6,
@@ -4107,7 +4107,7 @@
         },
         "93": {
           "runCount": 109,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 125.4,
           "averageRunDepthPct": 90.2,
           "averageBattlesUsed": 0.6,
@@ -4196,7 +4196,7 @@
         },
         "92": {
           "runCount": 111,
-          "averageParticipationPct": 11.8,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 124.8,
           "averageRunDepthPct": 89.8,
           "averageBattlesUsed": 0.6,
@@ -4285,7 +4285,7 @@
         },
         "91": {
           "runCount": 114,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 123.9,
           "averageRunDepthPct": 89.1,
           "averageBattlesUsed": 0.6,
@@ -4374,7 +4374,7 @@
         },
         "90": {
           "runCount": 119,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.0,
           "averageRunDepthStep": 122.5,
           "averageRunDepthPct": 88.1,
           "averageBattlesUsed": 0.6,
@@ -4463,7 +4463,7 @@
         },
         "89": {
           "runCount": 125,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 120.9,
           "averageRunDepthPct": 87.0,
           "averageBattlesUsed": 0.5,
@@ -4552,7 +4552,7 @@
         },
         "88": {
           "runCount": 126,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 120.6,
           "averageRunDepthPct": 86.8,
           "averageBattlesUsed": 0.5,
@@ -4641,7 +4641,7 @@
         },
         "87": {
           "runCount": 126,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 120.6,
           "averageRunDepthPct": 86.8,
           "averageBattlesUsed": 0.5,
@@ -4730,7 +4730,7 @@
         },
         "86": {
           "runCount": 126,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 120.6,
           "averageRunDepthPct": 86.8,
           "averageBattlesUsed": 0.5,
@@ -4819,7 +4819,7 @@
         },
         "85": {
           "runCount": 126,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 120.6,
           "averageRunDepthPct": 86.8,
           "averageBattlesUsed": 0.5,
@@ -4908,7 +4908,7 @@
         },
         "84": {
           "runCount": 126,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 120.6,
           "averageRunDepthPct": 86.8,
           "averageBattlesUsed": 0.5,
@@ -4997,7 +4997,7 @@
         },
         "83": {
           "runCount": 132,
-          "averageParticipationPct": 10.9,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 118.9,
           "averageRunDepthPct": 85.5,
           "averageBattlesUsed": 0.5,
@@ -5086,7 +5086,7 @@
         },
         "82": {
           "runCount": 138,
-          "averageParticipationPct": 10.4,
+          "averageParticipationPct": 10.2,
           "averageRunDepthStep": 117.3,
           "averageRunDepthPct": 84.4,
           "averageBattlesUsed": 0.5,
@@ -5175,7 +5175,7 @@
         },
         "81": {
           "runCount": 139,
-          "averageParticipationPct": 10.3,
+          "averageParticipationPct": 10.2,
           "averageRunDepthStep": 117.0,
           "averageRunDepthPct": 84.2,
           "averageBattlesUsed": 0.5,
@@ -5264,7 +5264,7 @@
         },
         "80": {
           "runCount": 142,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 10.0,
           "averageRunDepthStep": 116.3,
           "averageRunDepthPct": 83.6,
           "averageBattlesUsed": 0.5,
@@ -5353,7 +5353,7 @@
         },
         "79": {
           "runCount": 147,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 115.0,
           "averageRunDepthPct": 82.7,
           "averageBattlesUsed": 0.5,
@@ -5442,7 +5442,7 @@
         },
         "78": {
           "runCount": 148,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 114.7,
           "averageRunDepthPct": 82.5,
           "averageBattlesUsed": 0.5,
@@ -5531,7 +5531,7 @@
         },
         "77": {
           "runCount": 148,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 114.7,
           "averageRunDepthPct": 82.5,
           "averageBattlesUsed": 0.5,
@@ -5620,7 +5620,7 @@
         },
         "76": {
           "runCount": 148,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 114.7,
           "averageRunDepthPct": 82.5,
           "averageBattlesUsed": 0.5,
@@ -5709,7 +5709,7 @@
         },
         "75": {
           "runCount": 150,
-          "averageParticipationPct": 9.6,
+          "averageParticipationPct": 9.4,
           "averageRunDepthStep": 114.2,
           "averageRunDepthPct": 82.2,
           "averageBattlesUsed": 0.5,
@@ -5798,7 +5798,7 @@
         },
         "74": {
           "runCount": 152,
-          "averageParticipationPct": 9.4,
+          "averageParticipationPct": 9.3,
           "averageRunDepthStep": 113.7,
           "averageRunDepthPct": 81.8,
           "averageBattlesUsed": 0.4,
@@ -5887,7 +5887,7 @@
         },
         "73": {
           "runCount": 152,
-          "averageParticipationPct": 9.4,
+          "averageParticipationPct": 9.3,
           "averageRunDepthStep": 113.7,
           "averageRunDepthPct": 81.8,
           "averageBattlesUsed": 0.4,
@@ -5976,7 +5976,7 @@
         },
         "72": {
           "runCount": 155,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 112.9,
           "averageRunDepthPct": 81.2,
           "averageBattlesUsed": 0.4,
@@ -6065,7 +6065,7 @@
         },
         "71": {
           "runCount": 155,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 112.9,
           "averageRunDepthPct": 81.2,
           "averageBattlesUsed": 0.4,
@@ -6154,7 +6154,7 @@
         },
         "70": {
           "runCount": 155,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 112.9,
           "averageRunDepthPct": 81.2,
           "averageBattlesUsed": 0.4,
@@ -6243,7 +6243,7 @@
         },
         "69": {
           "runCount": 159,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 111.8,
           "averageRunDepthPct": 80.4,
           "averageBattlesUsed": 0.4,
@@ -6332,7 +6332,7 @@
         },
         "68": {
           "runCount": 163,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 110.7,
           "averageRunDepthPct": 79.6,
           "averageBattlesUsed": 0.4,
@@ -6421,7 +6421,7 @@
         },
         "67": {
           "runCount": 163,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 110.7,
           "averageRunDepthPct": 79.6,
           "averageBattlesUsed": 0.4,
@@ -6510,7 +6510,7 @@
         },
         "66": {
           "runCount": 163,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 110.7,
           "averageRunDepthPct": 79.6,
           "averageBattlesUsed": 0.4,
@@ -6599,7 +6599,7 @@
         },
         "65": {
           "runCount": 163,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 110.7,
           "averageRunDepthPct": 79.6,
           "averageBattlesUsed": 0.4,
@@ -6688,7 +6688,7 @@
         },
         "64": {
           "runCount": 164,
-          "averageParticipationPct": 9.2,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 110.4,
           "averageRunDepthPct": 79.4,
           "averageBattlesUsed": 0.4,
@@ -6777,7 +6777,7 @@
         },
         "63": {
           "runCount": 165,
-          "averageParticipationPct": 9.1,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 110.1,
           "averageRunDepthPct": 79.2,
           "averageBattlesUsed": 0.4,
@@ -6866,7 +6866,7 @@
         },
         "62": {
           "runCount": 166,
-          "averageParticipationPct": 9.1,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 109.8,
           "averageRunDepthPct": 79.0,
           "averageBattlesUsed": 0.4,
@@ -6955,7 +6955,7 @@
         },
         "61": {
           "runCount": 166,
-          "averageParticipationPct": 9.1,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 109.8,
           "averageRunDepthPct": 79.0,
           "averageBattlesUsed": 0.4,
@@ -7044,7 +7044,7 @@
         },
         "60": {
           "runCount": 167,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.5,
           "averageRunDepthPct": 78.8,
           "averageBattlesUsed": 0.4,
@@ -7133,7 +7133,7 @@
         },
         "59": {
           "runCount": 167,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.5,
           "averageRunDepthPct": 78.8,
           "averageBattlesUsed": 0.4,
@@ -7222,7 +7222,7 @@
         },
         "58": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -7311,7 +7311,7 @@
         },
         "57": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -7400,7 +7400,7 @@
         },
         "56": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -7489,7 +7489,7 @@
         },
         "55": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -7578,7 +7578,7 @@
         },
         "54": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -7667,7 +7667,7 @@
         },
         "53": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -7756,7 +7756,7 @@
         },
         "52": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -7845,7 +7845,7 @@
         },
         "51": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -7934,7 +7934,7 @@
         },
         "50": {
           "runCount": 168,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.4,
@@ -8023,7 +8023,7 @@
         },
         "49": {
           "runCount": 172,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.8,
           "averageRunDepthPct": 77.6,
           "averageBattlesUsed": 0.4,
@@ -8112,7 +8112,7 @@
         },
         "48": {
           "runCount": 172,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.8,
           "averageRunDepthPct": 77.6,
           "averageBattlesUsed": 0.4,
@@ -8201,7 +8201,7 @@
         },
         "47": {
           "runCount": 173,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 107.5,
           "averageRunDepthPct": 77.3,
           "averageBattlesUsed": 0.4,
@@ -8290,7 +8290,7 @@
         },
         "46": {
           "runCount": 173,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 107.5,
           "averageRunDepthPct": 77.3,
           "averageBattlesUsed": 0.4,
@@ -8379,7 +8379,7 @@
         },
         "45": {
           "runCount": 174,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.4,
@@ -8468,7 +8468,7 @@
         },
         "44": {
           "runCount": 174,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.4,
@@ -8557,7 +8557,7 @@
         },
         "43": {
           "runCount": 174,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.4,
@@ -8646,7 +8646,7 @@
         },
         "42": {
           "runCount": 174,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.4,
@@ -8735,7 +8735,7 @@
         },
         "41": {
           "runCount": 174,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.4,
@@ -8824,7 +8824,7 @@
         },
         "40": {
           "runCount": 174,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.4,
@@ -8913,7 +8913,7 @@
         },
         "39": {
           "runCount": 174,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.4,
@@ -9002,7 +9002,7 @@
         },
         "38": {
           "runCount": 175,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 106.7,
           "averageRunDepthPct": 76.8,
           "averageBattlesUsed": 0.4,
@@ -9091,7 +9091,7 @@
         },
         "37": {
           "runCount": 175,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 106.7,
           "averageRunDepthPct": 76.8,
           "averageBattlesUsed": 0.4,
@@ -9180,7 +9180,7 @@
         },
         "36": {
           "runCount": 176,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 106.3,
           "averageRunDepthPct": 76.5,
           "averageBattlesUsed": 0.4,
@@ -9269,7 +9269,7 @@
         },
         "35": {
           "runCount": 177,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 105.9,
           "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 0.4,
@@ -9358,7 +9358,7 @@
         },
         "34": {
           "runCount": 177,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 105.9,
           "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 0.4,
@@ -9447,7 +9447,7 @@
         },
         "33": {
           "runCount": 177,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 105.9,
           "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 0.4,
@@ -9536,7 +9536,7 @@
         },
         "32": {
           "runCount": 177,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 105.9,
           "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 0.4,
@@ -9625,7 +9625,7 @@
         },
         "31": {
           "runCount": 177,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 105.9,
           "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 0.4,
@@ -9714,7 +9714,7 @@
         },
         "30": {
           "runCount": 177,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 105.9,
           "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 0.4,
@@ -9803,7 +9803,7 @@
         },
         "29": {
           "runCount": 177,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 105.9,
           "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 0.4,
@@ -9892,7 +9892,7 @@
         },
         "28": {
           "runCount": 177,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 105.9,
           "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 0.4,
@@ -9981,7 +9981,7 @@
         },
         "27": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10070,7 +10070,7 @@
         },
         "26": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10159,7 +10159,7 @@
         },
         "25": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10248,7 +10248,7 @@
         },
         "24": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10337,7 +10337,7 @@
         },
         "23": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10426,7 +10426,7 @@
         },
         "22": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10515,7 +10515,7 @@
         },
         "21": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10604,7 +10604,7 @@
         },
         "20": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10693,7 +10693,7 @@
         },
         "19": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10782,7 +10782,7 @@
         },
         "18": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10871,7 +10871,7 @@
         },
         "17": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -10960,7 +10960,7 @@
         },
         "16": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -11049,7 +11049,7 @@
         },
         "15": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -11138,7 +11138,7 @@
         },
         "14": {
           "runCount": 178,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.4,
@@ -11227,7 +11227,7 @@
         },
         "13": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -11316,7 +11316,7 @@
         },
         "12": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -11405,7 +11405,7 @@
         },
         "11": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -11494,7 +11494,7 @@
         },
         "10": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -11583,7 +11583,7 @@
         },
         "9": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -11672,7 +11672,7 @@
         },
         "8": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -11761,7 +11761,7 @@
         },
         "7": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -11850,7 +11850,7 @@
         },
         "6": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -11939,7 +11939,7 @@
         },
         "5": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -12028,7 +12028,7 @@
         },
         "4": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -12117,7 +12117,7 @@
         },
         "3": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -12206,7 +12206,7 @@
         },
         "2": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -12295,7 +12295,7 @@
         },
         "1": {
           "runCount": 179,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.0,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 0.4,
@@ -38295,7 +38295,7 @@
         },
         "126": {
           "runCount": 56,
-          "averageParticipationPct": 10.9,
+          "averageParticipationPct": 10.8,
           "averageRunDepthStep": 135.3,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 2.2,
@@ -38473,7 +38473,7 @@
         },
         "124": {
           "runCount": 64,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 133.9,
           "averageRunDepthPct": 96.3,
           "averageBattlesUsed": 2.0,
@@ -40431,7 +40431,7 @@
         },
         "102": {
           "runCount": 100,
-          "averageParticipationPct": 11.8,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 125.0,
           "averageRunDepthPct": 89.9,
           "averageBattlesUsed": 1.5,
@@ -42478,7 +42478,7 @@
         },
         "79": {
           "runCount": 157,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 111.4,
           "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 1.1,
@@ -45681,10 +45681,10 @@
           ]
         },
         "43": {
-          "runCount": 191,
-          "averageParticipationPct": 13.5,
-          "averageRunDepthStep": 102.8,
-          "averageRunDepthPct": 74.0,
+          "runCount": 192,
+          "averageParticipationPct": 13.9,
+          "averageRunDepthStep": 102.5,
+          "averageRunDepthPct": 73.8,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -45770,10 +45770,10 @@
           ]
         },
         "42": {
-          "runCount": 191,
-          "averageParticipationPct": 13.5,
-          "averageRunDepthStep": 102.8,
-          "averageRunDepthPct": 74.0,
+          "runCount": 192,
+          "averageParticipationPct": 13.9,
+          "averageRunDepthStep": 102.5,
+          "averageRunDepthPct": 73.8,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -45859,10 +45859,10 @@
           ]
         },
         "41": {
-          "runCount": 191,
-          "averageParticipationPct": 13.5,
-          "averageRunDepthStep": 102.8,
-          "averageRunDepthPct": 74.0,
+          "runCount": 192,
+          "averageParticipationPct": 13.9,
+          "averageRunDepthStep": 102.5,
+          "averageRunDepthPct": 73.8,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -45948,10 +45948,10 @@
           ]
         },
         "40": {
-          "runCount": 193,
-          "averageParticipationPct": 13.6,
-          "averageRunDepthStep": 102.2,
-          "averageRunDepthPct": 73.5,
+          "runCount": 194,
+          "averageParticipationPct": 14.1,
+          "averageRunDepthStep": 101.9,
+          "averageRunDepthPct": 73.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46037,10 +46037,10 @@
           ]
         },
         "39": {
-          "runCount": 194,
-          "averageParticipationPct": 13.6,
-          "averageRunDepthStep": 101.9,
-          "averageRunDepthPct": 73.3,
+          "runCount": 195,
+          "averageParticipationPct": 14.0,
+          "averageRunDepthStep": 101.6,
+          "averageRunDepthPct": 73.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46126,10 +46126,10 @@
           ]
         },
         "38": {
-          "runCount": 194,
-          "averageParticipationPct": 13.6,
-          "averageRunDepthStep": 101.9,
-          "averageRunDepthPct": 73.3,
+          "runCount": 195,
+          "averageParticipationPct": 14.0,
+          "averageRunDepthStep": 101.6,
+          "averageRunDepthPct": 73.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46215,10 +46215,10 @@
           ]
         },
         "37": {
-          "runCount": 194,
-          "averageParticipationPct": 13.6,
-          "averageRunDepthStep": 101.9,
-          "averageRunDepthPct": 73.3,
+          "runCount": 195,
+          "averageParticipationPct": 14.0,
+          "averageRunDepthStep": 101.6,
+          "averageRunDepthPct": 73.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46304,10 +46304,10 @@
           ]
         },
         "36": {
-          "runCount": 195,
-          "averageParticipationPct": 13.5,
-          "averageRunDepthStep": 101.5,
-          "averageRunDepthPct": 73.0,
+          "runCount": 196,
+          "averageParticipationPct": 13.9,
+          "averageRunDepthStep": 101.2,
+          "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -46393,187 +46393,9 @@
           ]
         },
         "35": {
-          "runCount": 197,
-          "averageParticipationPct": 13.6,
-          "averageRunDepthStep": 100.9,
-          "averageRunDepthPct": 72.6,
-          "averageBattlesUsed": 1.0,
-          "topBattles": [
-            {
-              "usageKey": "Aqua Leader Archie",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": null,
-              "partyCount": 9,
-              "ownedCount": 18,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 9,
-              "ownedCount": 32,
-              "participationPct": 28
-            },
-            {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 20,
-              "participationPct": 35
-            },
-            {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
-            },
-            {
-              "usageKey": "Rival X",
-              "displayName": "Rival X",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 17,
-              "participationPct": 29
-            },
-            {
-              "usageKey": "Magma Leader Maxie Magma Hideout",
-              "displayName": "Magma Leader Maxie Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 21,
-              "participationPct": 24
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 5,
-              "ownedCount": 24,
-              "participationPct": 21
-            },
-            {
-              "usageKey": "34",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": 80,
-              "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
-              "partyCount": 4,
-              "ownedCount": 10,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Rival Iriv24",
-              "displayName": "Rival Iriv24",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 17,
-              "participationPct": 24
-            }
-          ]
-        },
-        "34": {
-          "runCount": 197,
-          "averageParticipationPct": 13.6,
-          "averageRunDepthStep": 100.9,
-          "averageRunDepthPct": 72.6,
-          "averageBattlesUsed": 1.0,
-          "topBattles": [
-            {
-              "usageKey": "Aqua Leader Archie",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": null,
-              "partyCount": 9,
-              "ownedCount": 18,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 9,
-              "ownedCount": 32,
-              "participationPct": 28
-            },
-            {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 20,
-              "participationPct": 35
-            },
-            {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
-            },
-            {
-              "usageKey": "Rival X",
-              "displayName": "Rival X",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 17,
-              "participationPct": 29
-            },
-            {
-              "usageKey": "Magma Leader Maxie Magma Hideout",
-              "displayName": "Magma Leader Maxie Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 21,
-              "participationPct": 24
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 5,
-              "ownedCount": 24,
-              "participationPct": 21
-            },
-            {
-              "usageKey": "34",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": 80,
-              "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
-              "partyCount": 4,
-              "ownedCount": 10,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Rival Iriv24",
-              "displayName": "Rival Iriv24",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 17,
-              "participationPct": 24
-            }
-          ]
-        },
-        "33": {
           "runCount": 198,
-          "averageParticipationPct": 13.5,
-          "averageRunDepthStep": 100.5,
+          "averageParticipationPct": 14.0,
+          "averageRunDepthStep": 100.6,
           "averageRunDepthPct": 72.3,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -46659,11 +46481,189 @@
             }
           ]
         },
+        "34": {
+          "runCount": 198,
+          "averageParticipationPct": 14.0,
+          "averageRunDepthStep": 100.6,
+          "averageRunDepthPct": 72.3,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "Aqua Leader Archie",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": null,
+              "partyCount": 9,
+              "ownedCount": 18,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 9,
+              "ownedCount": 32,
+              "participationPct": 28
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 7,
+              "ownedCount": 20,
+              "participationPct": 35
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 13,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "Rival X",
+              "displayName": "Rival X",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 17,
+              "participationPct": 29
+            },
+            {
+              "usageKey": "Magma Leader Maxie Magma Hideout",
+              "displayName": "Magma Leader Maxie Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 21,
+              "participationPct": 24
+            },
+            {
+              "usageKey": "626",
+              "displayName": "Leader Wake",
+              "leadLevel": -1,
+              "partyCount": 5,
+              "ownedCount": 24,
+              "participationPct": 21
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": 80,
+              "partyCount": 4,
+              "ownedCount": 9,
+              "participationPct": 44
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
+              "partyCount": 4,
+              "ownedCount": 10,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 17,
+              "participationPct": 24
+            }
+          ]
+        },
+        "33": {
+          "runCount": 199,
+          "averageParticipationPct": 14.0,
+          "averageRunDepthStep": 100.2,
+          "averageRunDepthPct": 72.1,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "Aqua Leader Archie",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": null,
+              "partyCount": 9,
+              "ownedCount": 18,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 9,
+              "ownedCount": 32,
+              "participationPct": 28
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 7,
+              "ownedCount": 20,
+              "participationPct": 35
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 13,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "Rival X",
+              "displayName": "Rival X",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 17,
+              "participationPct": 29
+            },
+            {
+              "usageKey": "Magma Leader Maxie Magma Hideout",
+              "displayName": "Magma Leader Maxie Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 21,
+              "participationPct": 24
+            },
+            {
+              "usageKey": "626",
+              "displayName": "Leader Wake",
+              "leadLevel": -1,
+              "partyCount": 5,
+              "ownedCount": 24,
+              "participationPct": 21
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": 80,
+              "partyCount": 4,
+              "ownedCount": 9,
+              "participationPct": 44
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
+              "partyCount": 4,
+              "ownedCount": 10,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 17,
+              "participationPct": 24
+            }
+          ]
+        },
         "32": {
-          "runCount": 201,
-          "averageParticipationPct": 14.1,
-          "averageRunDepthStep": 99.5,
-          "averageRunDepthPct": 71.6,
+          "runCount": 202,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 99.2,
+          "averageRunDepthPct": 71.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -46749,276 +46749,9 @@
           ]
         },
         "31": {
-          "runCount": 202,
-          "averageParticipationPct": 14.1,
-          "averageRunDepthStep": 99.1,
-          "averageRunDepthPct": 71.3,
-          "averageBattlesUsed": 1.0,
-          "topBattles": [
-            {
-              "usageKey": "Aqua Leader Archie",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": null,
-              "partyCount": 9,
-              "ownedCount": 18,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 9,
-              "ownedCount": 32,
-              "participationPct": 28
-            },
-            {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 20,
-              "participationPct": 35
-            },
-            {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
-            },
-            {
-              "usageKey": "Rival X",
-              "displayName": "Rival X",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 17,
-              "participationPct": 29
-            },
-            {
-              "usageKey": "Magma Leader Maxie Magma Hideout",
-              "displayName": "Magma Leader Maxie Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 21,
-              "participationPct": 24
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 5,
-              "ownedCount": 24,
-              "participationPct": 21
-            },
-            {
-              "usageKey": "34",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": 80,
-              "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
-              "partyCount": 4,
-              "ownedCount": 10,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Rival Iriv24",
-              "displayName": "Rival Iriv24",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 17,
-              "participationPct": 24
-            }
-          ]
-        },
-        "30": {
-          "runCount": 202,
-          "averageParticipationPct": 14.1,
-          "averageRunDepthStep": 99.1,
-          "averageRunDepthPct": 71.3,
-          "averageBattlesUsed": 1.0,
-          "topBattles": [
-            {
-              "usageKey": "Aqua Leader Archie",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": null,
-              "partyCount": 9,
-              "ownedCount": 18,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 9,
-              "ownedCount": 32,
-              "participationPct": 28
-            },
-            {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 20,
-              "participationPct": 35
-            },
-            {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
-            },
-            {
-              "usageKey": "Rival X",
-              "displayName": "Rival X",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 17,
-              "participationPct": 29
-            },
-            {
-              "usageKey": "Magma Leader Maxie Magma Hideout",
-              "displayName": "Magma Leader Maxie Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 21,
-              "participationPct": 24
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 5,
-              "ownedCount": 24,
-              "participationPct": 21
-            },
-            {
-              "usageKey": "34",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": 80,
-              "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
-              "partyCount": 4,
-              "ownedCount": 10,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Rival Iriv24",
-              "displayName": "Rival Iriv24",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 17,
-              "participationPct": 24
-            }
-          ]
-        },
-        "29": {
-          "runCount": 202,
-          "averageParticipationPct": 14.1,
-          "averageRunDepthStep": 99.1,
-          "averageRunDepthPct": 71.3,
-          "averageBattlesUsed": 1.0,
-          "topBattles": [
-            {
-              "usageKey": "Aqua Leader Archie",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": null,
-              "partyCount": 9,
-              "ownedCount": 18,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 9,
-              "ownedCount": 32,
-              "participationPct": 28
-            },
-            {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 20,
-              "participationPct": 35
-            },
-            {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
-            },
-            {
-              "usageKey": "Rival X",
-              "displayName": "Rival X",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 17,
-              "participationPct": 29
-            },
-            {
-              "usageKey": "Magma Leader Maxie Magma Hideout",
-              "displayName": "Magma Leader Maxie Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 21,
-              "participationPct": 24
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 5,
-              "ownedCount": 24,
-              "participationPct": 21
-            },
-            {
-              "usageKey": "34",
-              "displayName": "Aqua Leader Archie",
-              "leadLevel": 80,
-              "partyCount": 4,
-              "ownedCount": 9,
-              "participationPct": 44
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
-              "partyCount": 4,
-              "ownedCount": 10,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Rival Iriv24",
-              "displayName": "Rival Iriv24",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 17,
-              "participationPct": 24
-            }
-          ]
-        },
-        "28": {
           "runCount": 203,
-          "averageParticipationPct": 14.0,
-          "averageRunDepthStep": 98.8,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 98.9,
           "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -47104,11 +46837,278 @@
             }
           ]
         },
-        "27": {
-          "runCount": 205,
+        "30": {
+          "runCount": 203,
           "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 98.1,
-          "averageRunDepthPct": 70.6,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "Aqua Leader Archie",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": null,
+              "partyCount": 9,
+              "ownedCount": 18,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 9,
+              "ownedCount": 32,
+              "participationPct": 28
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 7,
+              "ownedCount": 20,
+              "participationPct": 35
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 13,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "Rival X",
+              "displayName": "Rival X",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 17,
+              "participationPct": 29
+            },
+            {
+              "usageKey": "Magma Leader Maxie Magma Hideout",
+              "displayName": "Magma Leader Maxie Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 21,
+              "participationPct": 24
+            },
+            {
+              "usageKey": "626",
+              "displayName": "Leader Wake",
+              "leadLevel": -1,
+              "partyCount": 5,
+              "ownedCount": 24,
+              "participationPct": 21
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": 80,
+              "partyCount": 4,
+              "ownedCount": 9,
+              "participationPct": 44
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
+              "partyCount": 4,
+              "ownedCount": 10,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 17,
+              "participationPct": 24
+            }
+          ]
+        },
+        "29": {
+          "runCount": 203,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "Aqua Leader Archie",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": null,
+              "partyCount": 9,
+              "ownedCount": 18,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 9,
+              "ownedCount": 32,
+              "participationPct": 28
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 7,
+              "ownedCount": 20,
+              "participationPct": 35
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 13,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "Rival X",
+              "displayName": "Rival X",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 17,
+              "participationPct": 29
+            },
+            {
+              "usageKey": "Magma Leader Maxie Magma Hideout",
+              "displayName": "Magma Leader Maxie Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 21,
+              "participationPct": 24
+            },
+            {
+              "usageKey": "626",
+              "displayName": "Leader Wake",
+              "leadLevel": -1,
+              "partyCount": 5,
+              "ownedCount": 24,
+              "participationPct": 21
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": 80,
+              "partyCount": 4,
+              "ownedCount": 9,
+              "participationPct": 44
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
+              "partyCount": 4,
+              "ownedCount": 10,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 17,
+              "participationPct": 24
+            }
+          ]
+        },
+        "28": {
+          "runCount": 204,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 98.5,
+          "averageRunDepthPct": 70.9,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "Aqua Leader Archie",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": null,
+              "partyCount": 9,
+              "ownedCount": 18,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 9,
+              "ownedCount": 32,
+              "participationPct": 28
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 7,
+              "ownedCount": 20,
+              "participationPct": 35
+            },
+            {
+              "usageKey": "Magma Admin Courtney",
+              "displayName": "Magma Admin Courtney",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 13,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "Rival X",
+              "displayName": "Rival X",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 17,
+              "participationPct": 29
+            },
+            {
+              "usageKey": "Magma Leader Maxie Magma Hideout",
+              "displayName": "Magma Leader Maxie Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 21,
+              "participationPct": 24
+            },
+            {
+              "usageKey": "626",
+              "displayName": "Leader Wake",
+              "leadLevel": -1,
+              "partyCount": 5,
+              "ownedCount": 24,
+              "participationPct": 21
+            },
+            {
+              "usageKey": "34",
+              "displayName": "Aqua Leader Archie",
+              "leadLevel": 80,
+              "partyCount": 4,
+              "ownedCount": 9,
+              "participationPct": 44
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
+              "partyCount": 4,
+              "ownedCount": 10,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Rival Iriv24",
+              "displayName": "Rival Iriv24",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 17,
+              "participationPct": 24
+            }
+          ]
+        },
+        "27": {
+          "runCount": 206,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 97.8,
+          "averageRunDepthPct": 70.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47194,10 +47194,10 @@
           ]
         },
         "26": {
-          "runCount": 205,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 98.1,
-          "averageRunDepthPct": 70.6,
+          "runCount": 206,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 97.8,
+          "averageRunDepthPct": 70.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47283,10 +47283,10 @@
           ]
         },
         "25": {
-          "runCount": 205,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 98.1,
-          "averageRunDepthPct": 70.6,
+          "runCount": 206,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 97.8,
+          "averageRunDepthPct": 70.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47372,10 +47372,10 @@
           ]
         },
         "24": {
-          "runCount": 205,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 98.1,
-          "averageRunDepthPct": 70.6,
+          "runCount": 206,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 97.8,
+          "averageRunDepthPct": 70.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47461,10 +47461,10 @@
           ]
         },
         "23": {
-          "runCount": 207,
-          "averageParticipationPct": 14.4,
-          "averageRunDepthStep": 97.4,
-          "averageRunDepthPct": 70.1,
+          "runCount": 208,
+          "averageParticipationPct": 14.8,
+          "averageRunDepthStep": 97.1,
+          "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47550,10 +47550,10 @@
           ]
         },
         "22": {
-          "runCount": 207,
-          "averageParticipationPct": 14.4,
-          "averageRunDepthStep": 97.4,
-          "averageRunDepthPct": 70.1,
+          "runCount": 208,
+          "averageParticipationPct": 14.8,
+          "averageRunDepthStep": 97.1,
+          "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47639,10 +47639,10 @@
           ]
         },
         "21": {
-          "runCount": 207,
-          "averageParticipationPct": 14.4,
-          "averageRunDepthStep": 97.4,
-          "averageRunDepthPct": 70.1,
+          "runCount": 208,
+          "averageParticipationPct": 14.8,
+          "averageRunDepthStep": 97.1,
+          "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47728,10 +47728,10 @@
           ]
         },
         "20": {
-          "runCount": 208,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 97.0,
-          "averageRunDepthPct": 69.8,
+          "runCount": 209,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 96.7,
+          "averageRunDepthPct": 69.6,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47817,10 +47817,10 @@
           ]
         },
         "19": {
-          "runCount": 208,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 97.0,
-          "averageRunDepthPct": 69.8,
+          "runCount": 209,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 96.7,
+          "averageRunDepthPct": 69.6,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47906,10 +47906,10 @@
           ]
         },
         "18": {
-          "runCount": 208,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 97.0,
-          "averageRunDepthPct": 69.8,
+          "runCount": 209,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 96.7,
+          "averageRunDepthPct": 69.6,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -47995,10 +47995,10 @@
           ]
         },
         "17": {
-          "runCount": 208,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 97.0,
-          "averageRunDepthPct": 69.8,
+          "runCount": 209,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 96.7,
+          "averageRunDepthPct": 69.6,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48084,10 +48084,10 @@
           ]
         },
         "16": {
-          "runCount": 208,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 97.0,
-          "averageRunDepthPct": 69.8,
+          "runCount": 209,
+          "averageParticipationPct": 14.9,
+          "averageRunDepthStep": 96.7,
+          "averageRunDepthPct": 69.6,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48173,10 +48173,10 @@
           ]
         },
         "15": {
-          "runCount": 211,
-          "averageParticipationPct": 14.7,
-          "averageRunDepthStep": 95.8,
-          "averageRunDepthPct": 68.9,
+          "runCount": 213,
+          "averageParticipationPct": 15.5,
+          "averageRunDepthStep": 95.2,
+          "averageRunDepthPct": 68.5,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48262,10 +48262,10 @@
           ]
         },
         "14": {
-          "runCount": 211,
-          "averageParticipationPct": 14.7,
-          "averageRunDepthStep": 95.8,
-          "averageRunDepthPct": 68.9,
+          "runCount": 213,
+          "averageParticipationPct": 15.5,
+          "averageRunDepthStep": 95.2,
+          "averageRunDepthPct": 68.5,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48351,10 +48351,10 @@
           ]
         },
         "13": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48440,10 +48440,10 @@
           ]
         },
         "12": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48529,10 +48529,10 @@
           ]
         },
         "11": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48618,10 +48618,10 @@
           ]
         },
         "10": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48707,10 +48707,10 @@
           ]
         },
         "9": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48796,10 +48796,10 @@
           ]
         },
         "8": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48885,10 +48885,10 @@
           ]
         },
         "7": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -48974,10 +48974,10 @@
           ]
         },
         "6": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -49063,10 +49063,10 @@
           ]
         },
         "5": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -49152,10 +49152,10 @@
           ]
         },
         "4": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -49241,10 +49241,10 @@
           ]
         },
         "3": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -49330,10 +49330,10 @@
           ]
         },
         "2": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -49419,10 +49419,10 @@
           ]
         },
         "1": {
-          "runCount": 219,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 221,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
@@ -49692,7 +49692,7 @@
       },
       "137": {
         "runCount": 59,
-        "averageParticipationPct": 6.4,
+        "averageParticipationPct": 6.3,
         "averageRunDepthStep": 137.8,
         "averageRunDepthPct": 99.2,
         "averageBattlesUsed": 1.9,
@@ -49781,7 +49781,7 @@
       },
       "136": {
         "runCount": 59,
-        "averageParticipationPct": 6.4,
+        "averageParticipationPct": 6.3,
         "averageRunDepthStep": 137.8,
         "averageRunDepthPct": 99.2,
         "averageBattlesUsed": 1.9,
@@ -53163,7 +53163,7 @@
       },
       "98": {
         "runCount": 183,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 124.7,
         "averageRunDepthPct": 89.7,
         "averageBattlesUsed": 1.2,
@@ -53519,7 +53519,7 @@
       },
       "94": {
         "runCount": 192,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 123.4,
         "averageRunDepthPct": 88.7,
         "averageBattlesUsed": 1.2,
@@ -53608,7 +53608,7 @@
       },
       "93": {
         "runCount": 193,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 123.2,
         "averageRunDepthPct": 88.6,
         "averageBattlesUsed": 1.2,
@@ -53697,7 +53697,7 @@
       },
       "92": {
         "runCount": 197,
-        "averageParticipationPct": 10.6,
+        "averageParticipationPct": 10.5,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 1.1,
@@ -53786,7 +53786,7 @@
       },
       "91": {
         "runCount": 205,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 121.3,
         "averageRunDepthPct": 87.3,
         "averageBattlesUsed": 1.1,
@@ -53875,7 +53875,7 @@
       },
       "90": {
         "runCount": 216,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 10.0,
         "averageRunDepthStep": 119.7,
         "averageRunDepthPct": 86.1,
         "averageBattlesUsed": 1.1,
@@ -53964,7 +53964,7 @@
       },
       "89": {
         "runCount": 228,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 118.1,
         "averageRunDepthPct": 85.0,
         "averageBattlesUsed": 1.0,
@@ -54053,7 +54053,7 @@
       },
       "88": {
         "runCount": 233,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 117.5,
         "averageRunDepthPct": 84.5,
         "averageBattlesUsed": 1.0,
@@ -54142,7 +54142,7 @@
       },
       "87": {
         "runCount": 235,
-        "averageParticipationPct": 10.3,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 117.2,
         "averageRunDepthPct": 84.3,
         "averageBattlesUsed": 1.0,
@@ -54320,7 +54320,7 @@
       },
       "85": {
         "runCount": 242,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 116.3,
         "averageRunDepthPct": 83.7,
         "averageBattlesUsed": 1.0,
@@ -54409,7 +54409,7 @@
       },
       "84": {
         "runCount": 242,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 116.3,
         "averageRunDepthPct": 83.7,
         "averageBattlesUsed": 1.0,
@@ -54587,7 +54587,7 @@
       },
       "82": {
         "runCount": 267,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 113.1,
         "averageRunDepthPct": 81.4,
         "averageBattlesUsed": 0.9,
@@ -54676,7 +54676,7 @@
       },
       "81": {
         "runCount": 271,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 112.6,
         "averageRunDepthPct": 81.0,
         "averageBattlesUsed": 0.9,
@@ -54765,7 +54765,7 @@
       },
       "80": {
         "runCount": 276,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 112.1,
         "averageRunDepthPct": 80.6,
         "averageBattlesUsed": 0.9,
@@ -54854,7 +54854,7 @@
       },
       "79": {
         "runCount": 284,
-        "averageParticipationPct": 10.6,
+        "averageParticipationPct": 10.5,
         "averageRunDepthStep": 111.1,
         "averageRunDepthPct": 79.9,
         "averageBattlesUsed": 0.9,
@@ -54943,7 +54943,7 @@
       },
       "78": {
         "runCount": 286,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 110.9,
         "averageRunDepthPct": 79.8,
         "averageBattlesUsed": 0.9,
@@ -55032,7 +55032,7 @@
       },
       "77": {
         "runCount": 287,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 110.8,
         "averageRunDepthPct": 79.7,
         "averageBattlesUsed": 0.9,
@@ -55121,7 +55121,7 @@
       },
       "76": {
         "runCount": 289,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.3,
         "averageRunDepthStep": 110.5,
         "averageRunDepthPct": 79.5,
         "averageBattlesUsed": 0.9,
@@ -55210,7 +55210,7 @@
       },
       "75": {
         "runCount": 293,
-        "averageParticipationPct": 10.3,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 110.1,
         "averageRunDepthPct": 79.2,
         "averageBattlesUsed": 0.8,
@@ -55299,7 +55299,7 @@
       },
       "74": {
         "runCount": 297,
-        "averageParticipationPct": 10.3,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 109.6,
         "averageRunDepthPct": 78.8,
         "averageBattlesUsed": 0.8,
@@ -55388,7 +55388,7 @@
       },
       "73": {
         "runCount": 299,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 109.3,
         "averageRunDepthPct": 78.6,
         "averageBattlesUsed": 0.8,
@@ -55477,7 +55477,7 @@
       },
       "72": {
         "runCount": 306,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 108.5,
         "averageRunDepthPct": 78.0,
         "averageBattlesUsed": 0.8,
@@ -55655,7 +55655,7 @@
       },
       "70": {
         "runCount": 308,
-        "averageParticipationPct": 9.9,
+        "averageParticipationPct": 9.8,
         "averageRunDepthStep": 108.2,
         "averageRunDepthPct": 77.9,
         "averageBattlesUsed": 0.8,
@@ -55744,7 +55744,7 @@
       },
       "69": {
         "runCount": 315,
-        "averageParticipationPct": 9.7,
+        "averageParticipationPct": 9.6,
         "averageRunDepthStep": 107.3,
         "averageRunDepthPct": 77.2,
         "averageBattlesUsed": 0.8,
@@ -55922,7 +55922,7 @@
       },
       "67": {
         "runCount": 323,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 10.0,
         "averageRunDepthStep": 106.4,
         "averageRunDepthPct": 76.5,
         "averageBattlesUsed": 0.8,
@@ -56011,7 +56011,7 @@
       },
       "66": {
         "runCount": 323,
-        "averageParticipationPct": 10.1,
+        "averageParticipationPct": 10.0,
         "averageRunDepthStep": 106.4,
         "averageRunDepthPct": 76.5,
         "averageBattlesUsed": 0.8,
@@ -56189,7 +56189,7 @@
       },
       "64": {
         "runCount": 327,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 105.9,
         "averageRunDepthPct": 76.2,
         "averageBattlesUsed": 0.8,
@@ -56545,7 +56545,7 @@
       },
       "60": {
         "runCount": 330,
-        "averageParticipationPct": 9.9,
+        "averageParticipationPct": 9.8,
         "averageRunDepthStep": 105.5,
         "averageRunDepthPct": 75.9,
         "averageBattlesUsed": 0.8,
@@ -56634,7 +56634,7 @@
       },
       "59": {
         "runCount": 330,
-        "averageParticipationPct": 9.9,
+        "averageParticipationPct": 9.8,
         "averageRunDepthStep": 105.5,
         "averageRunDepthPct": 75.9,
         "averageBattlesUsed": 0.8,
@@ -57079,7 +57079,7 @@
       },
       "54": {
         "runCount": 333,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 105.0,
         "averageRunDepthPct": 75.6,
         "averageBattlesUsed": 0.8,
@@ -57168,7 +57168,7 @@
       },
       "53": {
         "runCount": 333,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 105.0,
         "averageRunDepthPct": 75.6,
         "averageBattlesUsed": 0.8,
@@ -57257,7 +57257,7 @@
       },
       "52": {
         "runCount": 333,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 105.0,
         "averageRunDepthPct": 75.6,
         "averageBattlesUsed": 0.8,
@@ -57346,7 +57346,7 @@
       },
       "51": {
         "runCount": 333,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 105.0,
         "averageRunDepthPct": 75.6,
         "averageBattlesUsed": 0.8,
@@ -57435,7 +57435,7 @@
       },
       "50": {
         "runCount": 333,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 105.0,
         "averageRunDepthPct": 75.6,
         "averageBattlesUsed": 0.8,
@@ -57969,7 +57969,7 @@
       },
       "44": {
         "runCount": 350,
-        "averageParticipationPct": 10.3,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 102.2,
         "averageRunDepthPct": 73.5,
         "averageBattlesUsed": 0.8,
@@ -58057,10 +58057,10 @@
         ]
       },
       "43": {
-        "runCount": 352,
-        "averageParticipationPct": 10.6,
-        "averageRunDepthStep": 101.9,
-        "averageRunDepthPct": 73.3,
+        "runCount": 353,
+        "averageParticipationPct": 10.8,
+        "averageRunDepthStep": 101.7,
+        "averageRunDepthPct": 73.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -58146,10 +58146,10 @@
         ]
       },
       "42": {
-        "runCount": 353,
-        "averageParticipationPct": 10.6,
-        "averageRunDepthStep": 101.7,
-        "averageRunDepthPct": 73.2,
+        "runCount": 354,
+        "averageParticipationPct": 10.8,
+        "averageRunDepthStep": 101.6,
+        "averageRunDepthPct": 73.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -58235,10 +58235,10 @@
         ]
       },
       "41": {
-        "runCount": 353,
-        "averageParticipationPct": 10.6,
-        "averageRunDepthStep": 101.7,
-        "averageRunDepthPct": 73.2,
+        "runCount": 354,
+        "averageParticipationPct": 10.8,
+        "averageRunDepthStep": 101.6,
+        "averageRunDepthPct": 73.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -58324,10 +58324,10 @@
         ]
       },
       "40": {
-        "runCount": 355,
-        "averageParticipationPct": 10.7,
-        "averageRunDepthStep": 101.4,
-        "averageRunDepthPct": 72.9,
+        "runCount": 356,
+        "averageParticipationPct": 10.9,
+        "averageRunDepthStep": 101.2,
+        "averageRunDepthPct": 72.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -58413,10 +58413,10 @@
         ]
       },
       "39": {
-        "runCount": 358,
-        "averageParticipationPct": 11.0,
-        "averageRunDepthStep": 100.9,
-        "averageRunDepthPct": 72.6,
+        "runCount": 359,
+        "averageParticipationPct": 11.2,
+        "averageRunDepthStep": 100.7,
+        "averageRunDepthPct": 72.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -58502,10 +58502,10 @@
         ]
       },
       "38": {
-        "runCount": 359,
-        "averageParticipationPct": 11.0,
-        "averageRunDepthStep": 100.7,
-        "averageRunDepthPct": 72.4,
+        "runCount": 360,
+        "averageParticipationPct": 11.2,
+        "averageRunDepthStep": 100.5,
+        "averageRunDepthPct": 72.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -58591,10 +58591,10 @@
         ]
       },
       "37": {
-        "runCount": 359,
-        "averageParticipationPct": 11.0,
-        "averageRunDepthStep": 100.7,
-        "averageRunDepthPct": 72.4,
+        "runCount": 360,
+        "averageParticipationPct": 11.2,
+        "averageRunDepthStep": 100.5,
+        "averageRunDepthPct": 72.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -58680,10 +58680,10 @@
         ]
       },
       "36": {
-        "runCount": 361,
-        "averageParticipationPct": 10.9,
-        "averageRunDepthStep": 100.3,
-        "averageRunDepthPct": 72.2,
+        "runCount": 362,
+        "averageParticipationPct": 11.1,
+        "averageRunDepthStep": 100.2,
+        "averageRunDepthPct": 72.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -58769,187 +58769,9 @@
         ]
       },
       "35": {
-        "runCount": 365,
-        "averageParticipationPct": 10.9,
-        "averageRunDepthStep": 99.6,
-        "averageRunDepthPct": 71.7,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "34",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": 80,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          },
-          {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          }
-        ]
-      },
-      "34": {
-        "runCount": 365,
-        "averageParticipationPct": 10.9,
-        "averageRunDepthStep": 99.6,
-        "averageRunDepthPct": 71.7,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "34",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": 80,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          },
-          {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          }
-        ]
-      },
-      "33": {
         "runCount": 366,
-        "averageParticipationPct": 10.9,
-        "averageRunDepthStep": 99.4,
+        "averageParticipationPct": 11.1,
+        "averageRunDepthStep": 99.5,
         "averageRunDepthPct": 71.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -59035,11 +58857,189 @@
           }
         ]
       },
-      "32": {
-        "runCount": 372,
+      "34": {
+        "runCount": 366,
         "averageParticipationPct": 11.1,
-        "averageRunDepthStep": 98.3,
-        "averageRunDepthPct": 70.7,
+        "averageRunDepthStep": 99.5,
+        "averageRunDepthPct": 71.5,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": 80,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          }
+        ]
+      },
+      "33": {
+        "runCount": 367,
+        "averageParticipationPct": 11.1,
+        "averageRunDepthStep": 99.3,
+        "averageRunDepthPct": 71.4,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": 80,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          }
+        ]
+      },
+      "32": {
+        "runCount": 373,
+        "averageParticipationPct": 11.3,
+        "averageRunDepthStep": 98.2,
+        "averageRunDepthPct": 70.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -59125,275 +59125,8 @@
         ]
       },
       "31": {
-        "runCount": 374,
-        "averageParticipationPct": 11.1,
-        "averageRunDepthStep": 98.0,
-        "averageRunDepthPct": 70.5,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "34",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": 80,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          },
-          {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          }
-        ]
-      },
-      "30": {
-        "runCount": 374,
-        "averageParticipationPct": 11.1,
-        "averageRunDepthStep": 98.0,
-        "averageRunDepthPct": 70.5,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "34",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": 80,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          },
-          {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          }
-        ]
-      },
-      "29": {
-        "runCount": 374,
-        "averageParticipationPct": 11.1,
-        "averageRunDepthStep": 98.0,
-        "averageRunDepthPct": 70.5,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "34",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": 80,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          },
-          {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          }
-        ]
-      },
-      "28": {
         "runCount": 375,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 11.3,
         "averageRunDepthStep": 97.8,
         "averageRunDepthPct": 70.4,
         "averageBattlesUsed": 0.8,
@@ -59480,11 +59213,278 @@
           }
         ]
       },
+      "30": {
+        "runCount": 375,
+        "averageParticipationPct": 11.3,
+        "averageRunDepthStep": 97.8,
+        "averageRunDepthPct": 70.4,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": 80,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          }
+        ]
+      },
+      "29": {
+        "runCount": 375,
+        "averageParticipationPct": 11.3,
+        "averageRunDepthStep": 97.8,
+        "averageRunDepthPct": 70.4,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": 80,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          }
+        ]
+      },
+      "28": {
+        "runCount": 376,
+        "averageParticipationPct": 11.3,
+        "averageRunDepthStep": 97.6,
+        "averageRunDepthPct": 70.2,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": 80,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          }
+        ]
+      },
       "27": {
-        "runCount": 379,
-        "averageParticipationPct": 11.4,
-        "averageRunDepthStep": 97.0,
-        "averageRunDepthPct": 69.8,
+        "runCount": 380,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.9,
+        "averageRunDepthPct": 69.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -59570,10 +59570,10 @@
         ]
       },
       "26": {
-        "runCount": 379,
-        "averageParticipationPct": 11.4,
-        "averageRunDepthStep": 97.0,
-        "averageRunDepthPct": 69.8,
+        "runCount": 380,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.9,
+        "averageRunDepthPct": 69.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -59659,10 +59659,10 @@
         ]
       },
       "25": {
-        "runCount": 379,
-        "averageParticipationPct": 11.4,
-        "averageRunDepthStep": 97.0,
-        "averageRunDepthPct": 69.8,
+        "runCount": 380,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.9,
+        "averageRunDepthPct": 69.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -59748,10 +59748,10 @@
         ]
       },
       "24": {
-        "runCount": 379,
-        "averageParticipationPct": 11.4,
-        "averageRunDepthStep": 97.0,
-        "averageRunDepthPct": 69.8,
+        "runCount": 380,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.9,
+        "averageRunDepthPct": 69.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -59837,275 +59837,8 @@
         ]
       },
       "23": {
-        "runCount": 381,
-        "averageParticipationPct": 11.3,
-        "averageRunDepthStep": 96.7,
-        "averageRunDepthPct": 69.5,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "34",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": 80,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          },
-          {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          }
-        ]
-      },
-      "22": {
-        "runCount": 381,
-        "averageParticipationPct": 11.3,
-        "averageRunDepthStep": 96.7,
-        "averageRunDepthPct": 69.5,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "34",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": 80,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          },
-          {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          }
-        ]
-      },
-      "21": {
-        "runCount": 381,
-        "averageParticipationPct": 11.3,
-        "averageRunDepthStep": 96.7,
-        "averageRunDepthPct": 69.5,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "34",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": 80,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          },
-          {
-            "usageKey": "Magma Admin Courtney",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 20,
-            "participationPct": 25
-          }
-        ]
-      },
-      "20": {
         "runCount": 382,
-        "averageParticipationPct": 11.4,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 96.5,
         "averageRunDepthPct": 69.4,
         "averageBattlesUsed": 0.8,
@@ -60192,11 +59925,278 @@
           }
         ]
       },
-      "19": {
+      "22": {
+        "runCount": 382,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.5,
+        "averageRunDepthPct": 69.4,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": 80,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          }
+        ]
+      },
+      "21": {
+        "runCount": 382,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.5,
+        "averageRunDepthPct": 69.4,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": 80,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          }
+        ]
+      },
+      "20": {
         "runCount": 383,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 96.3,
-        "averageRunDepthPct": 69.2,
+        "averageRunDepthPct": 69.3,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "34",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": 80,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          },
+          {
+            "usageKey": "Magma Admin Courtney",
+            "displayName": "Magma Admin Courtney",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 20,
+            "participationPct": 25
+          }
+        ]
+      },
+      "19": {
+        "runCount": 384,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.1,
+        "averageRunDepthPct": 69.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -60282,10 +60282,10 @@
         ]
       },
       "18": {
-        "runCount": 383,
-        "averageParticipationPct": 11.3,
-        "averageRunDepthStep": 96.3,
-        "averageRunDepthPct": 69.2,
+        "runCount": 384,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.1,
+        "averageRunDepthPct": 69.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -60371,10 +60371,10 @@
         ]
       },
       "17": {
-        "runCount": 383,
-        "averageParticipationPct": 11.3,
-        "averageRunDepthStep": 96.3,
-        "averageRunDepthPct": 69.2,
+        "runCount": 384,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.1,
+        "averageRunDepthPct": 69.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -60460,10 +60460,10 @@
         ]
       },
       "16": {
-        "runCount": 383,
-        "averageParticipationPct": 11.3,
-        "averageRunDepthStep": 96.3,
-        "averageRunDepthPct": 69.2,
+        "runCount": 384,
+        "averageParticipationPct": 11.5,
+        "averageRunDepthStep": 96.1,
+        "averageRunDepthPct": 69.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -60549,10 +60549,10 @@
         ]
       },
       "15": {
-        "runCount": 387,
-        "averageParticipationPct": 11.6,
-        "averageRunDepthStep": 95.4,
-        "averageRunDepthPct": 68.6,
+        "runCount": 389,
+        "averageParticipationPct": 12.0,
+        "averageRunDepthStep": 95.1,
+        "averageRunDepthPct": 68.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -60638,10 +60638,10 @@
         ]
       },
       "14": {
-        "runCount": 387,
-        "averageParticipationPct": 11.6,
-        "averageRunDepthStep": 95.4,
-        "averageRunDepthPct": 68.6,
+        "runCount": 389,
+        "averageParticipationPct": 12.0,
+        "averageRunDepthStep": 95.1,
+        "averageRunDepthPct": 68.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -60727,98 +60727,9 @@
         ]
       },
       "13": {
-        "runCount": 404,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 91.9,
-        "averageRunDepthPct": 66.1,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Leader Archie",
-            "displayName": "Aqua Leader Archie",
-            "leadLevel": null,
-            "partyCount": 13,
-            "ownedCount": 25,
-            "participationPct": 52
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 10,
-            "ownedCount": 60,
-            "participationPct": 17
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 9,
-            "ownedCount": 30,
-            "participationPct": 30
-          },
-          {
-            "usageKey": "Magma Leader Maxie Magma Hideout",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 9,
-            "ownedCount": 33,
-            "participationPct": 27
-          },
-          {
-            "usageKey": "710",
-            "displayName": "Leader Roark",
-            "leadLevel": -1,
-            "partyCount": 8,
-            "ownedCount": 34,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 29,
-            "participationPct": 24
-          },
-          {
-            "usageKey": "851",
-            "displayName": "Leader Candice",
-            "leadLevel": -1,
-            "partyCount": 6,
-            "ownedCount": 8,
-            "participationPct": 75
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 6,
-            "ownedCount": 16,
-            "participationPct": 38
-          },
-          {
-            "usageKey": "601",
-            "displayName": "Magma Leader Maxie Magma Hideout",
-            "leadLevel": 80,
-            "partyCount": 6,
-            "ownedCount": 23,
-            "participationPct": 26
-          },
-          {
-            "usageKey": "449",
-            "displayName": "Battle Girl Jenny",
-            "leadLevel": -1,
-            "partyCount": 5,
-            "ownedCount": 19,
-            "participationPct": 26
-          }
-        ]
-      },
-      "12": {
         "runCount": 406,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 91.5,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 91.6,
         "averageRunDepthPct": 65.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -60904,11 +60815,100 @@
           }
         ]
       },
+      "12": {
+        "runCount": 408,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 91.2,
+        "averageRunDepthPct": 65.6,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Leader Archie",
+            "displayName": "Aqua Leader Archie",
+            "leadLevel": null,
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 10,
+            "ownedCount": 60,
+            "participationPct": 17
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 9,
+            "ownedCount": 30,
+            "participationPct": 30
+          },
+          {
+            "usageKey": "Magma Leader Maxie Magma Hideout",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 9,
+            "ownedCount": 33,
+            "participationPct": 27
+          },
+          {
+            "usageKey": "710",
+            "displayName": "Leader Roark",
+            "leadLevel": -1,
+            "partyCount": 8,
+            "ownedCount": 34,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 29,
+            "participationPct": 24
+          },
+          {
+            "usageKey": "851",
+            "displayName": "Leader Candice",
+            "leadLevel": -1,
+            "partyCount": 6,
+            "ownedCount": 8,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 6,
+            "ownedCount": 16,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "601",
+            "displayName": "Magma Leader Maxie Magma Hideout",
+            "leadLevel": 80,
+            "partyCount": 6,
+            "ownedCount": 23,
+            "participationPct": 26
+          },
+          {
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
+            "partyCount": 5,
+            "ownedCount": 19,
+            "participationPct": 26
+          }
+        ]
+      },
       "11": {
-        "runCount": 407,
-        "averageParticipationPct": 12.4,
-        "averageRunDepthStep": 91.4,
-        "averageRunDepthPct": 65.7,
+        "runCount": 409,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 91.0,
+        "averageRunDepthPct": 65.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -60994,10 +60994,10 @@
         ]
       },
       "10": {
-        "runCount": 407,
-        "averageParticipationPct": 12.4,
-        "averageRunDepthStep": 91.4,
-        "averageRunDepthPct": 65.7,
+        "runCount": 409,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 91.0,
+        "averageRunDepthPct": 65.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -61083,10 +61083,10 @@
         ]
       },
       "9": {
-        "runCount": 409,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 90.9,
-        "averageRunDepthPct": 65.4,
+        "runCount": 411,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 90.6,
+        "averageRunDepthPct": 65.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -61172,10 +61172,10 @@
         ]
       },
       "8": {
-        "runCount": 410,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 90.7,
-        "averageRunDepthPct": 65.3,
+        "runCount": 412,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 90.4,
+        "averageRunDepthPct": 65.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -61261,10 +61261,10 @@
         ]
       },
       "7": {
-        "runCount": 410,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 90.7,
-        "averageRunDepthPct": 65.3,
+        "runCount": 412,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 90.4,
+        "averageRunDepthPct": 65.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -61350,10 +61350,10 @@
         ]
       },
       "6": {
-        "runCount": 410,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 90.7,
-        "averageRunDepthPct": 65.3,
+        "runCount": 412,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 90.4,
+        "averageRunDepthPct": 65.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -61439,10 +61439,10 @@
         ]
       },
       "5": {
-        "runCount": 412,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 90.3,
-        "averageRunDepthPct": 65.0,
+        "runCount": 414,
+        "averageParticipationPct": 12.6,
+        "averageRunDepthStep": 90.0,
+        "averageRunDepthPct": 64.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -61528,10 +61528,10 @@
         ]
       },
       "4": {
-        "runCount": 418,
-        "averageParticipationPct": 12.6,
-        "averageRunDepthStep": 89.1,
-        "averageRunDepthPct": 64.1,
+        "runCount": 420,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 88.8,
+        "averageRunDepthPct": 63.9,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -61617,10 +61617,10 @@
         ]
       },
       "3": {
-        "runCount": 420,
-        "averageParticipationPct": 12.5,
-        "averageRunDepthStep": 88.7,
-        "averageRunDepthPct": 63.8,
+        "runCount": 422,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 88.4,
+        "averageRunDepthPct": 63.6,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -61706,10 +61706,10 @@
         ]
       },
       "2": {
-        "runCount": 420,
-        "averageParticipationPct": 12.5,
-        "averageRunDepthStep": 88.7,
-        "averageRunDepthPct": 63.8,
+        "runCount": 422,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 88.4,
+        "averageRunDepthPct": 63.6,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -61795,10 +61795,10 @@
         ]
       },
       "1": {
-        "runCount": 420,
-        "averageParticipationPct": 12.5,
-        "averageRunDepthStep": 88.7,
-        "averageRunDepthPct": 63.8,
+        "runCount": 422,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 88.4,
+        "averageRunDepthPct": 63.6,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {

@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "nacli",
   "familyMembers": [
     "Garganacl",
@@ -220,6 +220,14 @@
               "participationPct": 22
             },
             {
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -266,14 +274,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "Champion Steven With Wallace",
-              "displayName": "Champion Steven With Wallace",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -309,6 +309,14 @@
               "participationPct": 22
             },
             {
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -355,14 +363,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "Champion Steven With Wallace",
-              "displayName": "Champion Steven With Wallace",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -414,14 +414,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -448,6 +440,14 @@
             {
               "usageKey": "School Kid Georgia",
               "displayName": "School Kid Georgia",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -503,14 +503,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -537,6 +529,14 @@
             {
               "usageKey": "School Kid Georgia",
               "displayName": "School Kid Georgia",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -592,14 +592,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -626,6 +618,14 @@
             {
               "usageKey": "School Kid Georgia",
               "displayName": "School Kid Georgia",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -681,14 +681,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -715,6 +707,14 @@
             {
               "usageKey": "School Kid Georgia",
               "displayName": "School Kid Georgia",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -770,14 +770,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -804,6 +796,14 @@
             {
               "usageKey": "School Kid Georgia",
               "displayName": "School Kid Georgia",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "School Kid Ted",
+              "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -867,14 +867,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -897,12 +889,20 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
         "129": {
           "runCount": 40,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 136.0,
           "averageRunDepthPct": 97.8,
           "averageBattlesUsed": 0.7,
@@ -956,14 +956,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -983,6 +975,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1045,14 +1045,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1072,6 +1064,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1134,14 +1134,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1161,6 +1153,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1223,14 +1223,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1250,6 +1242,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1312,14 +1312,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1339,6 +1331,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1401,14 +1401,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1428,6 +1420,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1490,14 +1490,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1517,6 +1509,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1579,14 +1579,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1606,6 +1598,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1668,14 +1668,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1695,6 +1687,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1757,14 +1757,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1784,6 +1776,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1846,14 +1846,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1873,6 +1865,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -1935,14 +1935,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -1962,6 +1954,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2024,14 +2024,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -2051,6 +2043,14 @@
               "usageKey": "71",
               "displayName": "Rival Master Poucine",
               "leadLevel": 0,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Torchic",
+              "displayName": "Rival May Route 119 Torchic",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2113,14 +2113,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2140,6 +2132,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2202,14 +2202,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2229,6 +2221,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2291,14 +2291,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2318,6 +2310,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2380,14 +2380,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2407,6 +2399,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2469,14 +2469,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2496,6 +2488,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2558,14 +2558,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2585,6 +2577,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2647,14 +2647,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2674,6 +2666,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2736,14 +2736,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2763,6 +2755,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2825,14 +2825,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2852,6 +2844,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "71",
+              "displayName": "Rival Master Poucine",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -2914,14 +2914,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -2941,6 +2933,14 @@
               "usageKey": "663",
               "displayName": "Rival Brendan Evergrande Torchic",
               "leadLevel": 84,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3011,14 +3011,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -3030,6 +3022,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3100,14 +3100,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -3119,6 +3111,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3189,14 +3189,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -3208,6 +3200,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3278,14 +3278,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -3297,6 +3289,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3367,14 +3367,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -3386,6 +3378,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3456,14 +3456,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -3475,6 +3467,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3545,14 +3545,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -3564,6 +3556,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3634,14 +3634,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -3653,6 +3645,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3731,17 +3731,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3820,17 +3820,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3909,17 +3909,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -3998,17 +3998,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4087,17 +4087,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4176,17 +4176,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4265,17 +4265,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4354,17 +4354,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4435,14 +4435,6 @@
               "participationPct": 13
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -4454,6 +4446,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4524,14 +4524,6 @@
               "participationPct": 13
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -4543,6 +4535,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4613,14 +4613,6 @@
               "participationPct": 13
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -4632,6 +4624,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4702,14 +4702,6 @@
               "participationPct": 13
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -4721,6 +4713,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4791,14 +4791,6 @@
               "participationPct": 13
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -4810,6 +4802,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4880,14 +4880,6 @@
               "participationPct": 13
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -4899,6 +4891,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -4969,14 +4969,6 @@
               "participationPct": 13
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "597",
               "displayName": "Magma Admin Tabitha Mt Chimney",
               "leadLevel": 43,
@@ -4988,6 +4980,14 @@
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "663",
+              "displayName": "Rival Brendan Evergrande Torchic",
+              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5074,8 +5074,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5163,8 +5163,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5252,8 +5252,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5341,8 +5341,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5430,8 +5430,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5519,8 +5519,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5608,8 +5608,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5697,8 +5697,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5786,8 +5786,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5875,8 +5875,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5964,8 +5964,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -6053,8 +6053,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -6142,8 +6142,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -6943,8 +6943,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -6954,7 +6954,7 @@
         },
         "61": {
           "runCount": 80,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 117.8,
           "averageRunDepthPct": 84.7,
           "averageBattlesUsed": 0.7,
@@ -7032,8 +7032,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7121,8 +7121,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7210,8 +7210,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7299,8 +7299,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7388,8 +7388,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7477,8 +7477,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7566,8 +7566,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7655,8 +7655,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7744,8 +7744,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7833,8 +7833,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -7922,8 +7922,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -8011,8 +8011,8 @@
               "participationPct": 100
             },
             {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
               "partyCount": 1,
               "ownedCount": 1,
@@ -8111,7 +8111,7 @@
         },
         "48": {
           "runCount": 86,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 113.1,
           "averageRunDepthPct": 81.4,
           "averageBattlesUsed": 0.6,
@@ -8556,7 +8556,7 @@
         },
         "43": {
           "runCount": 88,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 111.6,
           "averageRunDepthPct": 80.3,
           "averageBattlesUsed": 0.6,
@@ -8645,7 +8645,7 @@
         },
         "42": {
           "runCount": 88,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 111.6,
           "averageRunDepthPct": 80.3,
           "averageBattlesUsed": 0.6,
@@ -8734,7 +8734,7 @@
         },
         "41": {
           "runCount": 88,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 111.6,
           "averageRunDepthPct": 80.3,
           "averageBattlesUsed": 0.6,
@@ -33487,7 +33487,7 @@
       },
       "137": {
         "runCount": 25,
-        "averageParticipationPct": 9.2,
+        "averageParticipationPct": 9.1,
         "averageRunDepthStep": 137.9,
         "averageRunDepthPct": 99.2,
         "averageBattlesUsed": 0.7,
@@ -33515,6 +33515,14 @@
             "partyCount": 2,
             "ownedCount": 10,
             "participationPct": 20
+          },
+          {
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           },
           {
             "usageKey": "Picnicker Rachel",
@@ -33563,20 +33571,12 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "Champion Steven With Wallace",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
       "136": {
         "runCount": 25,
-        "averageParticipationPct": 9.2,
+        "averageParticipationPct": 9.1,
         "averageRunDepthStep": 137.9,
         "averageRunDepthPct": 99.2,
         "averageBattlesUsed": 0.7,
@@ -33604,6 +33604,14 @@
             "partyCount": 2,
             "ownedCount": 10,
             "participationPct": 20
+          },
+          {
+            "usageKey": "336",
+            "displayName": "Leader Fantina",
+            "leadLevel": -1,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           },
           {
             "usageKey": "Picnicker Rachel",
@@ -33652,14 +33660,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "Champion Steven With Wallace",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -33711,14 +33711,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -33745,6 +33737,14 @@
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Youngster Eddie",
+            "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -33800,14 +33800,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -33834,6 +33826,14 @@
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Youngster Eddie",
+            "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -33889,14 +33889,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -33923,6 +33915,14 @@
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Youngster Eddie",
+            "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -33978,14 +33978,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34012,6 +34004,14 @@
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Youngster Eddie",
+            "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34067,14 +34067,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34101,6 +34093,14 @@
           {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Youngster Eddie",
+            "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34164,14 +34164,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34190,6 +34182,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "School Kid Georgia",
+            "displayName": "School Kid Georgia",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34253,14 +34253,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34279,6 +34271,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34342,14 +34342,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34368,6 +34360,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34431,14 +34431,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34457,6 +34449,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34520,14 +34520,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34546,6 +34538,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34609,14 +34609,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34635,6 +34627,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34698,14 +34698,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34724,6 +34716,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34787,14 +34787,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34813,6 +34805,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34876,14 +34876,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34902,6 +34894,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -34965,14 +34965,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -34991,6 +34983,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -35054,14 +35054,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -35080,6 +35072,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -35143,14 +35143,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -35169,6 +35161,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -35232,14 +35232,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -35258,6 +35250,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -35321,14 +35321,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -35347,6 +35339,14 @@
           {
             "usageKey": "Rival May Route 119 Torchic",
             "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Ursula",
+            "displayName": "Rival Ursula",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -35410,14 +35410,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -35437,6 +35429,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35499,14 +35499,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -35526,6 +35518,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35588,14 +35588,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -35615,6 +35607,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35677,14 +35677,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -35704,6 +35696,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35766,14 +35766,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -35793,6 +35785,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35855,14 +35855,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -35882,6 +35874,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -35944,14 +35944,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -35971,6 +35963,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36033,14 +36033,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -36060,6 +36052,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36122,14 +36122,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -36149,6 +36141,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Torchic",
+            "displayName": "Rival May Route 119 Torchic",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36211,14 +36211,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -36238,6 +36230,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36308,14 +36308,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -36327,6 +36319,14 @@
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36397,14 +36397,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -36416,6 +36408,14 @@
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36486,14 +36486,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "597",
             "displayName": "Magma Admin Tabitha Mt Chimney",
             "leadLevel": 43,
@@ -36505,6 +36497,14 @@
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36575,14 +36575,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -36594,6 +36586,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36664,14 +36664,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -36683,6 +36675,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36753,14 +36753,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -36772,6 +36764,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36842,14 +36842,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -36861,6 +36853,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -36931,14 +36931,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -36950,6 +36942,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37028,17 +37028,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37117,17 +37117,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37206,17 +37206,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37295,17 +37295,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37384,17 +37384,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37473,17 +37473,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37562,17 +37562,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37651,17 +37651,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "663",
+            "displayName": "Rival Brendan Evergrande Torchic",
+            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37732,14 +37732,6 @@
             "participationPct": 12
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -37751,6 +37743,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37821,14 +37821,6 @@
             "participationPct": 12
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -37840,6 +37832,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37910,14 +37910,6 @@
             "participationPct": 12
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -37929,6 +37921,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -37999,14 +37999,6 @@
             "participationPct": 12
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -38018,6 +38010,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -38088,14 +38088,6 @@
             "participationPct": 12
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -38107,6 +38099,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -38177,14 +38177,6 @@
             "participationPct": 12
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -38196,6 +38188,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -38266,14 +38266,6 @@
             "participationPct": 12
           },
           {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -38285,6 +38277,14 @@
             "usageKey": "663",
             "displayName": "Rival Brendan Evergrande Torchic",
             "leadLevel": 84,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -38649,7 +38649,7 @@
       },
       "79": {
         "runCount": 80,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 120.8,
         "averageRunDepthPct": 86.9,
         "averageBattlesUsed": 0.6,
@@ -38738,7 +38738,7 @@
       },
       "78": {
         "runCount": 80,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 120.8,
         "averageRunDepthPct": 86.9,
         "averageBattlesUsed": 0.6,
@@ -38827,7 +38827,7 @@
       },
       "77": {
         "runCount": 80,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 120.8,
         "averageRunDepthPct": 86.9,
         "averageBattlesUsed": 0.6,
@@ -38916,7 +38916,7 @@
       },
       "76": {
         "runCount": 80,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 120.8,
         "averageRunDepthPct": 86.9,
         "averageBattlesUsed": 0.6,

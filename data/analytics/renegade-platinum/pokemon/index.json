@@ -1,6 +1,6 @@
 {
   "title": "Renegade Platinum",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "species": [
     {
       "species": "Abomasnow",
@@ -606,6 +606,26 @@
       "detailFile": "families/celebi.json",
       "familyMembers": [
         "Celebi"
+      ]
+    },
+    {
+      "species": "Centiskorch",
+      "familyKey": "sizzlipede",
+      "detailFile": "families/sizzlipede.json",
+      "familyMembers": [
+        "Centiskorch",
+        "Centiskorch-Mega",
+        "Sizzlipede"
+      ]
+    },
+    {
+      "species": "Ceruledge",
+      "familyKey": "charcadet",
+      "detailFile": "families/charcadet.json",
+      "familyMembers": [
+        "Armarouge",
+        "Ceruledge",
+        "Charcadet"
       ]
     },
     {
@@ -1576,6 +1596,14 @@
       "detailFile": "families/giratina.json",
       "familyMembers": [
         "Giratina"
+      ]
+    },
+    {
+      "species": "Giratina-Origin",
+      "familyKey": "giratina-origin",
+      "detailFile": "families/giratina-origin.json",
+      "familyMembers": [
+        "Giratina-Origin"
       ]
     },
     {
@@ -3785,6 +3813,46 @@
       ]
     },
     {
+      "species": "Rotom-Fan",
+      "familyKey": "rotom-fan",
+      "detailFile": "families/rotom-fan.json",
+      "familyMembers": [
+        "Rotom-Fan"
+      ]
+    },
+    {
+      "species": "Rotom-Frost",
+      "familyKey": "rotom-frost",
+      "detailFile": "families/rotom-frost.json",
+      "familyMembers": [
+        "Rotom-Frost"
+      ]
+    },
+    {
+      "species": "Rotom-Heat",
+      "familyKey": "rotom-heat",
+      "detailFile": "families/rotom-heat.json",
+      "familyMembers": [
+        "Rotom-Heat"
+      ]
+    },
+    {
+      "species": "Rotom-Mow",
+      "familyKey": "rotom-mow",
+      "detailFile": "families/rotom-mow.json",
+      "familyMembers": [
+        "Rotom-Mow"
+      ]
+    },
+    {
+      "species": "Rotom-Wash",
+      "familyKey": "rotom-wash",
+      "detailFile": "families/rotom-wash.json",
+      "familyMembers": [
+        "Rotom-Wash"
+      ]
+    },
+    {
       "species": "Sableye",
       "familyKey": "sableye",
       "detailFile": "families/sableye.json",
@@ -3965,6 +4033,14 @@
       "detailFile": "families/shaymin.json",
       "familyMembers": [
         "Shaymin"
+      ]
+    },
+    {
+      "species": "Shaymin-Sky",
+      "familyKey": "shaymin-sky",
+      "detailFile": "families/shaymin-sky.json",
+      "familyMembers": [
+        "Shaymin-Sky"
       ]
     },
     {
@@ -5080,6 +5156,30 @@
     },
     {
       "species": "Wormadam",
+      "familyKey": "burmy",
+      "detailFile": "families/burmy.json",
+      "familyMembers": [
+        "Burmy",
+        "Mothim",
+        "Wormadam",
+        "Wormadam-Sandy",
+        "Wormadam-Trash"
+      ]
+    },
+    {
+      "species": "Wormadam-Sandy",
+      "familyKey": "burmy",
+      "detailFile": "families/burmy.json",
+      "familyMembers": [
+        "Burmy",
+        "Mothim",
+        "Wormadam",
+        "Wormadam-Sandy",
+        "Wormadam-Trash"
+      ]
+    },
+    {
+      "species": "Wormadam-Trash",
       "familyKey": "burmy",
       "detailFile": "families/burmy.json",
       "familyMembers": [

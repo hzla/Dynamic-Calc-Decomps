@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "pyroar",
   "familyMembers": [
     "Pyroar"
@@ -4015,7 +4015,7 @@
         },
         "94": {
           "runCount": 52,
-          "averageParticipationPct": 10.9,
+          "averageParticipationPct": 10.8,
           "averageRunDepthStep": 122.2,
           "averageRunDepthPct": 87.9,
           "averageBattlesUsed": 0.7,
@@ -4029,20 +4029,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Youngster Eddie",
               "displayName": "Youngster Eddie",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "211",
@@ -4104,7 +4104,7 @@
         },
         "93": {
           "runCount": 52,
-          "averageParticipationPct": 10.9,
+          "averageParticipationPct": 10.8,
           "averageRunDepthStep": 122.2,
           "averageRunDepthPct": 87.9,
           "averageBattlesUsed": 0.7,
@@ -4118,20 +4118,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Youngster Eddie",
               "displayName": "Youngster Eddie",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "211",
@@ -4193,7 +4193,7 @@
         },
         "92": {
           "runCount": 53,
-          "averageParticipationPct": 10.7,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 121.7,
           "averageRunDepthPct": 87.5,
           "averageBattlesUsed": 0.6,
@@ -4207,20 +4207,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Youngster Eddie",
               "displayName": "Youngster Eddie",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "211",
@@ -4282,7 +4282,7 @@
         },
         "91": {
           "runCount": 54,
-          "averageParticipationPct": 10.5,
+          "averageParticipationPct": 10.4,
           "averageRunDepthStep": 121.1,
           "averageRunDepthPct": 87.1,
           "averageBattlesUsed": 0.6,
@@ -4296,20 +4296,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Youngster Eddie",
               "displayName": "Youngster Eddie",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "211",
@@ -4371,7 +4371,7 @@
         },
         "90": {
           "runCount": 60,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.3,
           "averageRunDepthStep": 118.0,
           "averageRunDepthPct": 84.9,
           "averageBattlesUsed": 0.6,
@@ -4393,20 +4393,20 @@
               "participationPct": 50
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Youngster Eddie",
               "displayName": "Youngster Eddie",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "211",
@@ -4494,8 +4494,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "211",
@@ -4583,8 +4583,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "211",
@@ -4672,8 +4672,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "211",
@@ -4761,8 +4761,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "211",
@@ -4816,7 +4816,7 @@
         },
         "85": {
           "runCount": 68,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 0.6,
@@ -4850,8 +4850,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "211",
@@ -4905,7 +4905,7 @@
         },
         "84": {
           "runCount": 68,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 0.6,
@@ -4939,8 +4939,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "211",
@@ -4994,7 +4994,7 @@
         },
         "83": {
           "runCount": 68,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 0.6,
@@ -5028,8 +5028,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 7,
+              "participationPct": 29
             },
             {
               "usageKey": "211",
@@ -5117,8 +5117,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5172,7 +5172,7 @@
         },
         "81": {
           "runCount": 70,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 113.4,
           "averageRunDepthPct": 81.6,
           "averageBattlesUsed": 0.6,
@@ -5206,8 +5206,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5261,7 +5261,7 @@
         },
         "80": {
           "runCount": 72,
-          "averageParticipationPct": 12.7,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 112.5,
           "averageRunDepthPct": 80.9,
           "averageBattlesUsed": 0.5,
@@ -5295,8 +5295,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5350,7 +5350,7 @@
         },
         "79": {
           "runCount": 72,
-          "averageParticipationPct": 12.7,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 112.5,
           "averageRunDepthPct": 80.9,
           "averageBattlesUsed": 0.5,
@@ -5384,8 +5384,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5439,7 +5439,7 @@
         },
         "78": {
           "runCount": 72,
-          "averageParticipationPct": 12.7,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 112.5,
           "averageRunDepthPct": 80.9,
           "averageBattlesUsed": 0.5,
@@ -5473,8 +5473,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5528,7 +5528,7 @@
         },
         "77": {
           "runCount": 72,
-          "averageParticipationPct": 12.7,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 112.5,
           "averageRunDepthPct": 80.9,
           "averageBattlesUsed": 0.5,
@@ -5562,8 +5562,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5617,7 +5617,7 @@
         },
         "76": {
           "runCount": 72,
-          "averageParticipationPct": 12.7,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 112.5,
           "averageRunDepthPct": 80.9,
           "averageBattlesUsed": 0.5,
@@ -5651,8 +5651,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5705,10 +5705,10 @@
           ]
         },
         "75": {
-          "runCount": 72,
-          "averageParticipationPct": 12.7,
-          "averageRunDepthStep": 112.5,
-          "averageRunDepthPct": 80.9,
+          "runCount": 73,
+          "averageParticipationPct": 13.8,
+          "averageRunDepthStep": 112.0,
+          "averageRunDepthPct": 80.6,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -5740,8 +5740,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5794,10 +5794,10 @@
           ]
         },
         "74": {
-          "runCount": 73,
-          "averageParticipationPct": 12.5,
-          "averageRunDepthStep": 112.0,
-          "averageRunDepthPct": 80.5,
+          "runCount": 74,
+          "averageParticipationPct": 13.6,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -5829,8 +5829,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5883,10 +5883,10 @@
           ]
         },
         "73": {
-          "runCount": 73,
-          "averageParticipationPct": 12.5,
-          "averageRunDepthStep": 112.0,
-          "averageRunDepthPct": 80.5,
+          "runCount": 74,
+          "averageParticipationPct": 13.6,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -5918,8 +5918,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -5972,10 +5972,10 @@
           ]
         },
         "72": {
-          "runCount": 77,
-          "averageParticipationPct": 12.1,
-          "averageRunDepthStep": 109.9,
-          "averageRunDepthPct": 79.1,
+          "runCount": 78,
+          "averageParticipationPct": 13.2,
+          "averageRunDepthStep": 109.4,
+          "averageRunDepthPct": 78.7,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -6015,8 +6015,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -6061,10 +6061,10 @@
           ]
         },
         "71": {
-          "runCount": 78,
-          "averageParticipationPct": 12.0,
-          "averageRunDepthStep": 109.4,
-          "averageRunDepthPct": 78.7,
+          "runCount": 79,
+          "averageParticipationPct": 13.0,
+          "averageRunDepthStep": 108.9,
+          "averageRunDepthPct": 78.4,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -6104,8 +6104,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -6150,10 +6150,10 @@
           ]
         },
         "70": {
-          "runCount": 79,
-          "averageParticipationPct": 11.8,
-          "averageRunDepthStep": 108.9,
-          "averageRunDepthPct": 78.3,
+          "runCount": 80,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 108.5,
+          "averageRunDepthPct": 78.0,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -6193,8 +6193,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "211",
@@ -6239,10 +6239,10 @@
           ]
         },
         "69": {
-          "runCount": 83,
-          "averageParticipationPct": 12.2,
-          "averageRunDepthStep": 107.0,
-          "averageRunDepthPct": 77.0,
+          "runCount": 84,
+          "averageParticipationPct": 13.1,
+          "averageRunDepthStep": 106.6,
+          "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -6314,8 +6314,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "590",
@@ -6328,10 +6328,10 @@
           ]
         },
         "68": {
-          "runCount": 88,
-          "averageParticipationPct": 12.1,
-          "averageRunDepthStep": 104.8,
-          "averageRunDepthPct": 75.4,
+          "runCount": 89,
+          "averageParticipationPct": 13.0,
+          "averageRunDepthStep": 104.4,
+          "averageRunDepthPct": 75.1,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -6403,8 +6403,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
+              "ownedCount": 8,
+              "participationPct": 25
             },
             {
               "usageKey": "590",
@@ -6417,11 +6417,11 @@
           ]
         },
         "67": {
-          "runCount": 91,
-          "averageParticipationPct": 12.0,
-          "averageRunDepthStep": 103.5,
-          "averageRunDepthPct": 74.5,
-          "averageBattlesUsed": 0.6,
+          "runCount": 92,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 103.2,
+          "averageRunDepthPct": 74.2,
+          "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "Camper Rusty",
@@ -6506,10 +6506,10 @@
           ]
         },
         "66": {
-          "runCount": 92,
-          "averageParticipationPct": 12.4,
-          "averageRunDepthStep": 103.1,
-          "averageRunDepthPct": 74.2,
+          "runCount": 93,
+          "averageParticipationPct": 13.3,
+          "averageRunDepthStep": 102.8,
+          "averageRunDepthPct": 74.0,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
@@ -6595,10 +6595,10 @@
           ]
         },
         "65": {
-          "runCount": 92,
-          "averageParticipationPct": 12.4,
-          "averageRunDepthStep": 103.1,
-          "averageRunDepthPct": 74.2,
+          "runCount": 93,
+          "averageParticipationPct": 13.3,
+          "averageRunDepthStep": 102.8,
+          "averageRunDepthPct": 74.0,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
@@ -6684,10 +6684,10 @@
           ]
         },
         "64": {
-          "runCount": 97,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 101.1,
-          "averageRunDepthPct": 72.7,
+          "runCount": 98,
+          "averageParticipationPct": 13.1,
+          "averageRunDepthStep": 100.8,
+          "averageRunDepthPct": 72.5,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
@@ -6773,10 +6773,10 @@
           ]
         },
         "63": {
-          "runCount": 98,
-          "averageParticipationPct": 12.2,
-          "averageRunDepthStep": 100.7,
-          "averageRunDepthPct": 72.4,
+          "runCount": 99,
+          "averageParticipationPct": 13.0,
+          "averageRunDepthStep": 100.4,
+          "averageRunDepthPct": 72.3,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
@@ -6862,10 +6862,10 @@
           ]
         },
         "62": {
-          "runCount": 101,
-          "averageParticipationPct": 11.8,
-          "averageRunDepthStep": 99.5,
-          "averageRunDepthPct": 71.6,
+          "runCount": 102,
+          "averageParticipationPct": 12.6,
+          "averageRunDepthStep": 99.3,
+          "averageRunDepthPct": 71.4,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -6941,9 +6941,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 7,
               "participationPct": 29
@@ -6951,10 +6951,10 @@
           ]
         },
         "61": {
-          "runCount": 102,
-          "averageParticipationPct": 11.7,
-          "averageRunDepthStep": 99.2,
-          "averageRunDepthPct": 71.3,
+          "runCount": 103,
+          "averageParticipationPct": 12.5,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7030,9 +7030,9 @@
               "participationPct": 40
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 7,
               "participationPct": 29
@@ -7040,10 +7040,10 @@
           ]
         },
         "60": {
-          "runCount": 107,
-          "averageParticipationPct": 11.1,
-          "averageRunDepthStep": 97.3,
-          "averageRunDepthPct": 70.0,
+          "runCount": 108,
+          "averageParticipationPct": 11.9,
+          "averageRunDepthStep": 97.1,
+          "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7111,28 +7111,28 @@
               "participationPct": 50
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
-            },
-            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
               "partyCount": 2,
               "ownedCount": 7,
               "participationPct": 29
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 8,
+              "participationPct": 25
             }
           ]
         },
         "59": {
-          "runCount": 109,
-          "averageParticipationPct": 10.9,
-          "averageRunDepthStep": 96.6,
-          "averageRunDepthPct": 69.5,
+          "runCount": 110,
+          "averageParticipationPct": 11.7,
+          "averageRunDepthStep": 96.4,
+          "averageRunDepthPct": 69.4,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7200,28 +7200,28 @@
               "participationPct": 50
             },
             {
-              "usageKey": "270",
-              "displayName": "Leader Winona",
-              "leadLevel": 68,
-              "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
-            },
-            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
               "partyCount": 2,
               "ownedCount": 7,
               "participationPct": 29
+            },
+            {
+              "usageKey": "270",
+              "displayName": "Leader Winona",
+              "leadLevel": 68,
+              "partyCount": 2,
+              "ownedCount": 8,
+              "participationPct": 25
             }
           ]
         },
         "58": {
-          "runCount": 113,
-          "averageParticipationPct": 11.9,
-          "averageRunDepthStep": 95.3,
-          "averageRunDepthPct": 68.5,
+          "runCount": 114,
+          "averageParticipationPct": 12.6,
+          "averageRunDepthStep": 95.1,
+          "averageRunDepthPct": 68.4,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7307,10 +7307,10 @@
           ]
         },
         "57": {
-          "runCount": 114,
-          "averageParticipationPct": 11.8,
-          "averageRunDepthStep": 94.9,
-          "averageRunDepthPct": 68.3,
+          "runCount": 115,
+          "averageParticipationPct": 12.5,
+          "averageRunDepthStep": 94.8,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7396,10 +7396,10 @@
           ]
         },
         "56": {
-          "runCount": 118,
-          "averageParticipationPct": 13.9,
-          "averageRunDepthStep": 93.6,
-          "averageRunDepthPct": 67.3,
+          "runCount": 119,
+          "averageParticipationPct": 14.6,
+          "averageRunDepthStep": 93.5,
+          "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7485,10 +7485,10 @@
           ]
         },
         "55": {
-          "runCount": 120,
-          "averageParticipationPct": 14.0,
-          "averageRunDepthStep": 93.0,
-          "averageRunDepthPct": 66.9,
+          "runCount": 121,
+          "averageParticipationPct": 14.6,
+          "averageRunDepthStep": 92.8,
+          "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7574,10 +7574,10 @@
           ]
         },
         "54": {
-          "runCount": 121,
-          "averageParticipationPct": 13.8,
-          "averageRunDepthStep": 92.6,
-          "averageRunDepthPct": 66.7,
+          "runCount": 122,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 92.5,
+          "averageRunDepthPct": 66.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7663,10 +7663,10 @@
           ]
         },
         "53": {
-          "runCount": 121,
-          "averageParticipationPct": 13.8,
-          "averageRunDepthStep": 92.6,
-          "averageRunDepthPct": 66.7,
+          "runCount": 122,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 92.5,
+          "averageRunDepthPct": 66.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7752,10 +7752,10 @@
           ]
         },
         "52": {
-          "runCount": 121,
-          "averageParticipationPct": 13.8,
-          "averageRunDepthStep": 92.6,
-          "averageRunDepthPct": 66.7,
+          "runCount": 122,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 92.5,
+          "averageRunDepthPct": 66.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7841,10 +7841,10 @@
           ]
         },
         "51": {
-          "runCount": 121,
-          "averageParticipationPct": 13.8,
-          "averageRunDepthStep": 92.6,
-          "averageRunDepthPct": 66.7,
+          "runCount": 122,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 92.5,
+          "averageRunDepthPct": 66.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -7930,10 +7930,10 @@
           ]
         },
         "50": {
-          "runCount": 121,
-          "averageParticipationPct": 13.8,
-          "averageRunDepthStep": 92.6,
-          "averageRunDepthPct": 66.7,
+          "runCount": 122,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 92.5,
+          "averageRunDepthPct": 66.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -8019,10 +8019,10 @@
           ]
         },
         "49": {
-          "runCount": 130,
-          "averageParticipationPct": 13.9,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.5,
+          "runCount": 131,
+          "averageParticipationPct": 14.6,
+          "averageRunDepthStep": 89.5,
+          "averageRunDepthPct": 64.4,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -8108,9 +8108,9 @@
           ]
         },
         "48": {
-          "runCount": 131,
-          "averageParticipationPct": 13.8,
-          "averageRunDepthStep": 89.3,
+          "runCount": 132,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 89.2,
           "averageRunDepthPct": 64.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
@@ -8197,9 +8197,9 @@
           ]
         },
         "47": {
-          "runCount": 136,
-          "averageParticipationPct": 13.9,
-          "averageRunDepthStep": 87.8,
+          "runCount": 137,
+          "averageParticipationPct": 14.5,
+          "averageRunDepthStep": 87.7,
           "averageRunDepthPct": 63.1,
           "averageBattlesUsed": 0.6,
           "topBattles": [
@@ -8286,10 +8286,10 @@
           ]
         },
         "46": {
-          "runCount": 140,
-          "averageParticipationPct": 13.8,
-          "averageRunDepthStep": 86.6,
-          "averageRunDepthPct": 62.3,
+          "runCount": 141,
+          "averageParticipationPct": 14.4,
+          "averageRunDepthStep": 86.5,
+          "averageRunDepthPct": 62.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -8375,10 +8375,10 @@
           ]
         },
         "45": {
-          "runCount": 141,
-          "averageParticipationPct": 13.7,
-          "averageRunDepthStep": 86.3,
-          "averageRunDepthPct": 62.1,
+          "runCount": 142,
+          "averageParticipationPct": 14.3,
+          "averageRunDepthStep": 86.2,
+          "averageRunDepthPct": 62.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -8464,9 +8464,9 @@
           ]
         },
         "44": {
-          "runCount": 143,
-          "averageParticipationPct": 13.5,
-          "averageRunDepthStep": 85.7,
+          "runCount": 144,
+          "averageParticipationPct": 14.1,
+          "averageRunDepthStep": 85.6,
           "averageRunDepthPct": 61.6,
           "averageBattlesUsed": 0.6,
           "topBattles": [
@@ -8553,8 +8553,8 @@
           ]
         },
         "43": {
-          "runCount": 148,
-          "averageParticipationPct": 15.4,
+          "runCount": 149,
+          "averageParticipationPct": 16.0,
           "averageRunDepthStep": 84.2,
           "averageRunDepthPct": 60.6,
           "averageBattlesUsed": 0.6,
@@ -8642,9 +8642,9 @@
           ]
         },
         "42": {
-          "runCount": 150,
-          "averageParticipationPct": 15.9,
-          "averageRunDepthStep": 83.7,
+          "runCount": 151,
+          "averageParticipationPct": 16.4,
+          "averageRunDepthStep": 83.6,
           "averageRunDepthPct": 60.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
@@ -8731,8 +8731,8 @@
           ]
         },
         "41": {
-          "runCount": 153,
-          "averageParticipationPct": 15.6,
+          "runCount": 154,
+          "averageParticipationPct": 16.1,
           "averageRunDepthStep": 82.8,
           "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.6,
@@ -8820,8 +8820,8 @@
           ]
         },
         "40": {
-          "runCount": 153,
-          "averageParticipationPct": 15.6,
+          "runCount": 154,
+          "averageParticipationPct": 16.1,
           "averageRunDepthStep": 82.8,
           "averageRunDepthPct": 59.6,
           "averageBattlesUsed": 0.6,
@@ -8909,11 +8909,11 @@
           ]
         },
         "39": {
-          "runCount": 155,
-          "averageParticipationPct": 15.4,
-          "averageRunDepthStep": 82.3,
-          "averageRunDepthPct": 59.2,
-          "averageBattlesUsed": 0.5,
+          "runCount": 156,
+          "averageParticipationPct": 15.9,
+          "averageRunDepthStep": 82.2,
+          "averageRunDepthPct": 59.1,
+          "averageBattlesUsed": 0.6,
           "topBattles": [
             {
               "usageKey": "714",
@@ -8998,10 +8998,10 @@
           ]
         },
         "38": {
-          "runCount": 156,
-          "averageParticipationPct": 15.3,
-          "averageRunDepthStep": 82.0,
-          "averageRunDepthPct": 59.0,
+          "runCount": 157,
+          "averageParticipationPct": 15.8,
+          "averageRunDepthStep": 81.9,
+          "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -9087,10 +9087,10 @@
           ]
         },
         "37": {
-          "runCount": 158,
-          "averageParticipationPct": 15.4,
+          "runCount": 159,
+          "averageParticipationPct": 15.9,
           "averageRunDepthStep": 81.4,
-          "averageRunDepthPct": 58.6,
+          "averageRunDepthPct": 58.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -9176,10 +9176,10 @@
           ]
         },
         "36": {
-          "runCount": 158,
-          "averageParticipationPct": 15.4,
+          "runCount": 159,
+          "averageParticipationPct": 15.9,
           "averageRunDepthStep": 81.4,
-          "averageRunDepthPct": 58.6,
+          "averageRunDepthPct": 58.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -9265,10 +9265,10 @@
           ]
         },
         "35": {
-          "runCount": 160,
-          "averageParticipationPct": 15.2,
+          "runCount": 161,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 80.8,
-          "averageRunDepthPct": 58.2,
+          "averageRunDepthPct": 58.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -9354,10 +9354,10 @@
           ]
         },
         "34": {
-          "runCount": 160,
-          "averageParticipationPct": 15.2,
+          "runCount": 161,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 80.8,
-          "averageRunDepthPct": 58.2,
+          "averageRunDepthPct": 58.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -9443,10 +9443,10 @@
           ]
         },
         "33": {
-          "runCount": 160,
-          "averageParticipationPct": 15.2,
+          "runCount": 161,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 80.8,
-          "averageRunDepthPct": 58.2,
+          "averageRunDepthPct": 58.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -9532,10 +9532,10 @@
           ]
         },
         "32": {
-          "runCount": 160,
-          "averageParticipationPct": 15.2,
+          "runCount": 161,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 80.8,
-          "averageRunDepthPct": 58.2,
+          "averageRunDepthPct": 58.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -9621,10 +9621,10 @@
           ]
         },
         "31": {
-          "runCount": 160,
-          "averageParticipationPct": 15.2,
+          "runCount": 161,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 80.8,
-          "averageRunDepthPct": 58.2,
+          "averageRunDepthPct": 58.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -9710,10 +9710,10 @@
           ]
         },
         "30": {
-          "runCount": 160,
-          "averageParticipationPct": 15.2,
+          "runCount": 161,
+          "averageParticipationPct": 15.7,
           "averageRunDepthStep": 80.8,
-          "averageRunDepthPct": 58.2,
+          "averageRunDepthPct": 58.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -9799,8 +9799,8 @@
           ]
         },
         "29": {
-          "runCount": 161,
-          "averageParticipationPct": 15.8,
+          "runCount": 162,
+          "averageParticipationPct": 16.2,
           "averageRunDepthStep": 80.5,
           "averageRunDepthPct": 57.9,
           "averageBattlesUsed": 0.5,
@@ -9888,8 +9888,8 @@
           ]
         },
         "28": {
-          "runCount": 161,
-          "averageParticipationPct": 15.8,
+          "runCount": 162,
+          "averageParticipationPct": 16.2,
           "averageRunDepthStep": 80.5,
           "averageRunDepthPct": 57.9,
           "averageBattlesUsed": 0.5,
@@ -9977,8 +9977,8 @@
           ]
         },
         "27": {
-          "runCount": 161,
-          "averageParticipationPct": 15.8,
+          "runCount": 162,
+          "averageParticipationPct": 16.2,
           "averageRunDepthStep": 80.5,
           "averageRunDepthPct": 57.9,
           "averageBattlesUsed": 0.5,
@@ -10066,8 +10066,8 @@
           ]
         },
         "26": {
-          "runCount": 161,
-          "averageParticipationPct": 15.8,
+          "runCount": 162,
+          "averageParticipationPct": 16.2,
           "averageRunDepthStep": 80.5,
           "averageRunDepthPct": 57.9,
           "averageBattlesUsed": 0.5,
@@ -10155,8 +10155,8 @@
           ]
         },
         "25": {
-          "runCount": 161,
-          "averageParticipationPct": 15.8,
+          "runCount": 162,
+          "averageParticipationPct": 16.2,
           "averageRunDepthStep": 80.5,
           "averageRunDepthPct": 57.9,
           "averageBattlesUsed": 0.5,
@@ -10244,8 +10244,8 @@
           ]
         },
         "24": {
-          "runCount": 161,
-          "averageParticipationPct": 15.8,
+          "runCount": 162,
+          "averageParticipationPct": 16.2,
           "averageRunDepthStep": 80.5,
           "averageRunDepthPct": 57.9,
           "averageBattlesUsed": 0.5,
@@ -10333,8 +10333,8 @@
           ]
         },
         "23": {
-          "runCount": 163,
-          "averageParticipationPct": 16.8,
+          "runCount": 164,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.6,
@@ -10422,8 +10422,8 @@
           ]
         },
         "22": {
-          "runCount": 163,
-          "averageParticipationPct": 16.8,
+          "runCount": 164,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.6,
@@ -10511,8 +10511,8 @@
           ]
         },
         "21": {
-          "runCount": 163,
-          "averageParticipationPct": 16.8,
+          "runCount": 164,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.6,
@@ -10600,8 +10600,8 @@
           ]
         },
         "20": {
-          "runCount": 163,
-          "averageParticipationPct": 16.8,
+          "runCount": 164,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.6,
@@ -10689,8 +10689,8 @@
           ]
         },
         "19": {
-          "runCount": 163,
-          "averageParticipationPct": 16.8,
+          "runCount": 164,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.6,
@@ -10778,8 +10778,8 @@
           ]
         },
         "18": {
-          "runCount": 163,
-          "averageParticipationPct": 16.8,
+          "runCount": 164,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.6,
@@ -10867,8 +10867,8 @@
           ]
         },
         "17": {
-          "runCount": 163,
-          "averageParticipationPct": 16.8,
+          "runCount": 164,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.6,
@@ -10956,8 +10956,8 @@
           ]
         },
         "16": {
-          "runCount": 163,
-          "averageParticipationPct": 16.8,
+          "runCount": 164,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.6,
@@ -11045,8 +11045,8 @@
           ]
         },
         "15": {
-          "runCount": 165,
-          "averageParticipationPct": 16.6,
+          "runCount": 166,
+          "averageParticipationPct": 17.1,
           "averageRunDepthStep": 79.0,
           "averageRunDepthPct": 56.8,
           "averageBattlesUsed": 0.5,
@@ -11134,11 +11134,11 @@
           ]
         },
         "14": {
-          "runCount": 166,
-          "averageParticipationPct": 17.1,
+          "runCount": 167,
+          "averageParticipationPct": 17.6,
           "averageRunDepthStep": 78.6,
           "averageRunDepthPct": 56.6,
-          "averageBattlesUsed": 0.5,
+          "averageBattlesUsed": 0.6,
           "topBattles": [
             {
               "usageKey": "714",
@@ -11223,8 +11223,8 @@
           ]
         },
         "13": {
-          "runCount": 167,
-          "averageParticipationPct": 17.6,
+          "runCount": 168,
+          "averageParticipationPct": 18.0,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.6,
@@ -11312,8 +11312,8 @@
           ]
         },
         "12": {
-          "runCount": 167,
-          "averageParticipationPct": 17.6,
+          "runCount": 168,
+          "averageParticipationPct": 18.0,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.6,
@@ -11401,8 +11401,8 @@
           ]
         },
         "11": {
-          "runCount": 167,
-          "averageParticipationPct": 17.6,
+          "runCount": 168,
+          "averageParticipationPct": 18.0,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.6,
@@ -11490,8 +11490,8 @@
           ]
         },
         "10": {
-          "runCount": 167,
-          "averageParticipationPct": 17.6,
+          "runCount": 168,
+          "averageParticipationPct": 18.0,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.6,
@@ -11579,8 +11579,8 @@
           ]
         },
         "9": {
-          "runCount": 167,
-          "averageParticipationPct": 17.6,
+          "runCount": 168,
+          "averageParticipationPct": 18.0,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.6,
@@ -11668,8 +11668,8 @@
           ]
         },
         "8": {
-          "runCount": 167,
-          "averageParticipationPct": 17.6,
+          "runCount": 168,
+          "averageParticipationPct": 18.0,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.6,
@@ -11757,8 +11757,8 @@
           ]
         },
         "7": {
-          "runCount": 167,
-          "averageParticipationPct": 17.6,
+          "runCount": 168,
+          "averageParticipationPct": 18.0,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.6,
@@ -11846,8 +11846,8 @@
           ]
         },
         "6": {
-          "runCount": 167,
-          "averageParticipationPct": 17.6,
+          "runCount": 168,
+          "averageParticipationPct": 18.0,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.6,
@@ -11935,8 +11935,8 @@
           ]
         },
         "5": {
-          "runCount": 168,
-          "averageParticipationPct": 18.1,
+          "runCount": 169,
+          "averageParticipationPct": 18.5,
           "averageRunDepthStep": 77.8,
           "averageRunDepthPct": 56.0,
           "averageBattlesUsed": 0.6,
@@ -12024,8 +12024,8 @@
           ]
         },
         "4": {
-          "runCount": 168,
-          "averageParticipationPct": 18.1,
+          "runCount": 169,
+          "averageParticipationPct": 18.5,
           "averageRunDepthStep": 77.8,
           "averageRunDepthPct": 56.0,
           "averageBattlesUsed": 0.6,
@@ -12113,8 +12113,8 @@
           ]
         },
         "3": {
-          "runCount": 168,
-          "averageParticipationPct": 18.1,
+          "runCount": 169,
+          "averageParticipationPct": 18.5,
           "averageRunDepthStep": 77.8,
           "averageRunDepthPct": 56.0,
           "averageBattlesUsed": 0.6,
@@ -12202,8 +12202,8 @@
           ]
         },
         "2": {
-          "runCount": 168,
-          "averageParticipationPct": 18.1,
+          "runCount": 169,
+          "averageParticipationPct": 18.5,
           "averageRunDepthStep": 77.8,
           "averageRunDepthPct": 56.0,
           "averageBattlesUsed": 0.6,
@@ -12291,8 +12291,8 @@
           ]
         },
         "1": {
-          "runCount": 168,
-          "averageParticipationPct": 18.1,
+          "runCount": 169,
+          "averageParticipationPct": 18.5,
           "averageRunDepthStep": 77.8,
           "averageRunDepthPct": 56.0,
           "averageBattlesUsed": 0.6,
@@ -16391,7 +16391,7 @@
       },
       "94": {
         "runCount": 52,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 122.2,
         "averageRunDepthPct": 87.9,
         "averageBattlesUsed": 0.7,
@@ -16405,20 +16405,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Youngster Eddie",
             "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "211",
@@ -16480,7 +16480,7 @@
       },
       "93": {
         "runCount": 52,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 122.2,
         "averageRunDepthPct": 87.9,
         "averageBattlesUsed": 0.7,
@@ -16494,20 +16494,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Youngster Eddie",
             "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "211",
@@ -16569,7 +16569,7 @@
       },
       "92": {
         "runCount": 53,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 121.7,
         "averageRunDepthPct": 87.5,
         "averageBattlesUsed": 0.6,
@@ -16583,20 +16583,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Youngster Eddie",
             "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "211",
@@ -16658,7 +16658,7 @@
       },
       "91": {
         "runCount": 54,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 121.1,
         "averageRunDepthPct": 87.1,
         "averageBattlesUsed": 0.6,
@@ -16672,20 +16672,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Youngster Eddie",
             "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "211",
@@ -16747,7 +16747,7 @@
       },
       "90": {
         "runCount": 60,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.3,
         "averageRunDepthStep": 118.0,
         "averageRunDepthPct": 84.9,
         "averageBattlesUsed": 0.6,
@@ -16769,20 +16769,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Youngster Eddie",
             "displayName": "Youngster Eddie",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "211",
@@ -16870,8 +16870,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "211",
@@ -16959,8 +16959,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "211",
@@ -17048,8 +17048,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "211",
@@ -17137,8 +17137,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "211",
@@ -17192,7 +17192,7 @@
       },
       "85": {
         "runCount": 68,
-        "averageParticipationPct": 13.2,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 0.6,
@@ -17226,8 +17226,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "211",
@@ -17281,7 +17281,7 @@
       },
       "84": {
         "runCount": 68,
-        "averageParticipationPct": 13.2,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 0.6,
@@ -17315,8 +17315,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "211",
@@ -17370,7 +17370,7 @@
       },
       "83": {
         "runCount": 68,
-        "averageParticipationPct": 13.2,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 0.6,
@@ -17404,8 +17404,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 6,
-            "participationPct": 33
+            "ownedCount": 7,
+            "participationPct": 29
           },
           {
             "usageKey": "211",
@@ -17493,8 +17493,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -17548,7 +17548,7 @@
       },
       "81": {
         "runCount": 70,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 113.4,
         "averageRunDepthPct": 81.6,
         "averageBattlesUsed": 0.6,
@@ -17582,8 +17582,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -17637,7 +17637,7 @@
       },
       "80": {
         "runCount": 72,
-        "averageParticipationPct": 12.7,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 112.5,
         "averageRunDepthPct": 80.9,
         "averageBattlesUsed": 0.5,
@@ -17671,8 +17671,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -17726,7 +17726,7 @@
       },
       "79": {
         "runCount": 72,
-        "averageParticipationPct": 12.7,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 112.5,
         "averageRunDepthPct": 80.9,
         "averageBattlesUsed": 0.5,
@@ -17760,8 +17760,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -17815,7 +17815,7 @@
       },
       "78": {
         "runCount": 72,
-        "averageParticipationPct": 12.7,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 112.5,
         "averageRunDepthPct": 80.9,
         "averageBattlesUsed": 0.5,
@@ -17849,8 +17849,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -17904,7 +17904,7 @@
       },
       "77": {
         "runCount": 72,
-        "averageParticipationPct": 12.7,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 112.5,
         "averageRunDepthPct": 80.9,
         "averageBattlesUsed": 0.5,
@@ -17938,8 +17938,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -17993,7 +17993,7 @@
       },
       "76": {
         "runCount": 72,
-        "averageParticipationPct": 12.7,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 112.5,
         "averageRunDepthPct": 80.9,
         "averageBattlesUsed": 0.5,
@@ -18027,8 +18027,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -18081,10 +18081,10 @@
         ]
       },
       "75": {
-        "runCount": 72,
-        "averageParticipationPct": 12.7,
-        "averageRunDepthStep": 112.5,
-        "averageRunDepthPct": 80.9,
+        "runCount": 73,
+        "averageParticipationPct": 13.8,
+        "averageRunDepthStep": 112.0,
+        "averageRunDepthPct": 80.6,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -18116,8 +18116,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -18170,10 +18170,10 @@
         ]
       },
       "74": {
-        "runCount": 73,
-        "averageParticipationPct": 12.5,
-        "averageRunDepthStep": 112.0,
-        "averageRunDepthPct": 80.5,
+        "runCount": 74,
+        "averageParticipationPct": 13.6,
+        "averageRunDepthStep": 111.5,
+        "averageRunDepthPct": 80.2,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -18205,8 +18205,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -18259,10 +18259,10 @@
         ]
       },
       "73": {
-        "runCount": 73,
-        "averageParticipationPct": 12.5,
-        "averageRunDepthStep": 112.0,
-        "averageRunDepthPct": 80.5,
+        "runCount": 74,
+        "averageParticipationPct": 13.6,
+        "averageRunDepthStep": 111.5,
+        "averageRunDepthPct": 80.2,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -18294,8 +18294,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -18348,10 +18348,10 @@
         ]
       },
       "72": {
-        "runCount": 77,
-        "averageParticipationPct": 12.1,
-        "averageRunDepthStep": 109.9,
-        "averageRunDepthPct": 79.1,
+        "runCount": 78,
+        "averageParticipationPct": 13.2,
+        "averageRunDepthStep": 109.4,
+        "averageRunDepthPct": 78.7,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -18391,8 +18391,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -18437,10 +18437,10 @@
         ]
       },
       "71": {
-        "runCount": 78,
-        "averageParticipationPct": 12.0,
-        "averageRunDepthStep": 109.4,
-        "averageRunDepthPct": 78.7,
+        "runCount": 79,
+        "averageParticipationPct": 13.0,
+        "averageRunDepthStep": 108.9,
+        "averageRunDepthPct": 78.4,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -18480,8 +18480,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -18526,10 +18526,10 @@
         ]
       },
       "70": {
-        "runCount": 79,
-        "averageParticipationPct": 11.8,
-        "averageRunDepthStep": 108.9,
-        "averageRunDepthPct": 78.3,
+        "runCount": 80,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 108.5,
+        "averageRunDepthPct": 78.0,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -18569,8 +18569,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "211",
@@ -18615,10 +18615,10 @@
         ]
       },
       "69": {
-        "runCount": 83,
-        "averageParticipationPct": 12.2,
-        "averageRunDepthStep": 107.0,
-        "averageRunDepthPct": 77.0,
+        "runCount": 84,
+        "averageParticipationPct": 13.1,
+        "averageRunDepthStep": 106.6,
+        "averageRunDepthPct": 76.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -18690,8 +18690,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "590",
@@ -18704,10 +18704,10 @@
         ]
       },
       "68": {
-        "runCount": 88,
-        "averageParticipationPct": 12.1,
-        "averageRunDepthStep": 104.8,
-        "averageRunDepthPct": 75.4,
+        "runCount": 89,
+        "averageParticipationPct": 13.0,
+        "averageRunDepthStep": 104.4,
+        "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -18779,8 +18779,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
+            "ownedCount": 8,
+            "participationPct": 25
           },
           {
             "usageKey": "590",
@@ -18793,11 +18793,11 @@
         ]
       },
       "67": {
-        "runCount": 91,
-        "averageParticipationPct": 12.0,
-        "averageRunDepthStep": 103.5,
-        "averageRunDepthPct": 74.5,
-        "averageBattlesUsed": 0.6,
+        "runCount": 92,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 103.2,
+        "averageRunDepthPct": 74.2,
+        "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "Camper Rusty",
@@ -18882,10 +18882,10 @@
         ]
       },
       "66": {
-        "runCount": 92,
-        "averageParticipationPct": 12.4,
-        "averageRunDepthStep": 103.1,
-        "averageRunDepthPct": 74.2,
+        "runCount": 93,
+        "averageParticipationPct": 13.3,
+        "averageRunDepthStep": 102.8,
+        "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -18971,10 +18971,10 @@
         ]
       },
       "65": {
-        "runCount": 92,
-        "averageParticipationPct": 12.4,
-        "averageRunDepthStep": 103.1,
-        "averageRunDepthPct": 74.2,
+        "runCount": 93,
+        "averageParticipationPct": 13.3,
+        "averageRunDepthStep": 102.8,
+        "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -19060,10 +19060,10 @@
         ]
       },
       "64": {
-        "runCount": 97,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 101.1,
-        "averageRunDepthPct": 72.7,
+        "runCount": 98,
+        "averageParticipationPct": 13.1,
+        "averageRunDepthStep": 100.8,
+        "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -19149,10 +19149,10 @@
         ]
       },
       "63": {
-        "runCount": 98,
-        "averageParticipationPct": 12.2,
-        "averageRunDepthStep": 100.7,
-        "averageRunDepthPct": 72.4,
+        "runCount": 99,
+        "averageParticipationPct": 13.0,
+        "averageRunDepthStep": 100.4,
+        "averageRunDepthPct": 72.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -19238,10 +19238,10 @@
         ]
       },
       "62": {
-        "runCount": 101,
-        "averageParticipationPct": 11.8,
-        "averageRunDepthStep": 99.5,
-        "averageRunDepthPct": 71.6,
+        "runCount": 102,
+        "averageParticipationPct": 12.6,
+        "averageRunDepthStep": 99.3,
+        "averageRunDepthPct": 71.4,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -19317,9 +19317,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
@@ -19327,10 +19327,10 @@
         ]
       },
       "61": {
-        "runCount": 102,
-        "averageParticipationPct": 11.7,
-        "averageRunDepthStep": 99.2,
-        "averageRunDepthPct": 71.3,
+        "runCount": 103,
+        "averageParticipationPct": 12.5,
+        "averageRunDepthStep": 98.9,
+        "averageRunDepthPct": 71.2,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -19406,9 +19406,9 @@
             "participationPct": 40
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
@@ -19416,10 +19416,10 @@
         ]
       },
       "60": {
-        "runCount": 107,
-        "averageParticipationPct": 11.1,
-        "averageRunDepthStep": 97.3,
-        "averageRunDepthPct": 70.0,
+        "runCount": 108,
+        "averageParticipationPct": 11.9,
+        "averageRunDepthStep": 97.1,
+        "averageRunDepthPct": 69.9,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -19487,28 +19487,28 @@
             "participationPct": 50
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
       "59": {
-        "runCount": 109,
-        "averageParticipationPct": 10.9,
-        "averageRunDepthStep": 96.6,
-        "averageRunDepthPct": 69.5,
+        "runCount": 110,
+        "averageParticipationPct": 11.7,
+        "averageRunDepthStep": 96.4,
+        "averageRunDepthPct": 69.4,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -19576,28 +19576,28 @@
             "participationPct": 50
           },
           {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 2,
-            "ownedCount": 7,
-            "participationPct": 29
-          },
-          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 7,
             "participationPct": 29
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 2,
+            "ownedCount": 8,
+            "participationPct": 25
           }
         ]
       },
       "58": {
-        "runCount": 113,
-        "averageParticipationPct": 11.9,
-        "averageRunDepthStep": 95.3,
-        "averageRunDepthPct": 68.5,
+        "runCount": 114,
+        "averageParticipationPct": 12.6,
+        "averageRunDepthStep": 95.1,
+        "averageRunDepthPct": 68.4,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -19683,10 +19683,10 @@
         ]
       },
       "57": {
-        "runCount": 114,
-        "averageParticipationPct": 11.8,
-        "averageRunDepthStep": 94.9,
-        "averageRunDepthPct": 68.3,
+        "runCount": 115,
+        "averageParticipationPct": 12.5,
+        "averageRunDepthStep": 94.8,
+        "averageRunDepthPct": 68.2,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -19772,10 +19772,10 @@
         ]
       },
       "56": {
-        "runCount": 118,
-        "averageParticipationPct": 13.9,
-        "averageRunDepthStep": 93.6,
-        "averageRunDepthPct": 67.3,
+        "runCount": 119,
+        "averageParticipationPct": 14.6,
+        "averageRunDepthStep": 93.5,
+        "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -19861,10 +19861,10 @@
         ]
       },
       "55": {
-        "runCount": 120,
-        "averageParticipationPct": 14.0,
-        "averageRunDepthStep": 93.0,
-        "averageRunDepthPct": 66.9,
+        "runCount": 121,
+        "averageParticipationPct": 14.6,
+        "averageRunDepthStep": 92.8,
+        "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -19950,10 +19950,10 @@
         ]
       },
       "54": {
-        "runCount": 121,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 92.6,
-        "averageRunDepthPct": 66.7,
+        "runCount": 122,
+        "averageParticipationPct": 14.5,
+        "averageRunDepthStep": 92.5,
+        "averageRunDepthPct": 66.5,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -20039,10 +20039,10 @@
         ]
       },
       "53": {
-        "runCount": 121,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 92.6,
-        "averageRunDepthPct": 66.7,
+        "runCount": 122,
+        "averageParticipationPct": 14.5,
+        "averageRunDepthStep": 92.5,
+        "averageRunDepthPct": 66.5,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -20128,10 +20128,10 @@
         ]
       },
       "52": {
-        "runCount": 121,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 92.6,
-        "averageRunDepthPct": 66.7,
+        "runCount": 122,
+        "averageParticipationPct": 14.5,
+        "averageRunDepthStep": 92.5,
+        "averageRunDepthPct": 66.5,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -20217,10 +20217,10 @@
         ]
       },
       "51": {
-        "runCount": 121,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 92.6,
-        "averageRunDepthPct": 66.7,
+        "runCount": 122,
+        "averageParticipationPct": 14.5,
+        "averageRunDepthStep": 92.5,
+        "averageRunDepthPct": 66.5,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -20306,10 +20306,10 @@
         ]
       },
       "50": {
-        "runCount": 121,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 92.6,
-        "averageRunDepthPct": 66.7,
+        "runCount": 122,
+        "averageParticipationPct": 14.5,
+        "averageRunDepthStep": 92.5,
+        "averageRunDepthPct": 66.5,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -20395,10 +20395,10 @@
         ]
       },
       "49": {
-        "runCount": 130,
-        "averageParticipationPct": 13.9,
-        "averageRunDepthStep": 89.6,
-        "averageRunDepthPct": 64.5,
+        "runCount": 131,
+        "averageParticipationPct": 14.6,
+        "averageRunDepthStep": 89.5,
+        "averageRunDepthPct": 64.4,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -20484,9 +20484,9 @@
         ]
       },
       "48": {
-        "runCount": 131,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 89.3,
+        "runCount": 132,
+        "averageParticipationPct": 14.5,
+        "averageRunDepthStep": 89.2,
         "averageRunDepthPct": 64.2,
         "averageBattlesUsed": 0.6,
         "topBattles": [
@@ -20573,9 +20573,9 @@
         ]
       },
       "47": {
-        "runCount": 136,
-        "averageParticipationPct": 13.9,
-        "averageRunDepthStep": 87.8,
+        "runCount": 137,
+        "averageParticipationPct": 14.5,
+        "averageRunDepthStep": 87.7,
         "averageRunDepthPct": 63.1,
         "averageBattlesUsed": 0.6,
         "topBattles": [
@@ -20662,10 +20662,10 @@
         ]
       },
       "46": {
-        "runCount": 140,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 86.6,
-        "averageRunDepthPct": 62.3,
+        "runCount": 141,
+        "averageParticipationPct": 14.4,
+        "averageRunDepthStep": 86.5,
+        "averageRunDepthPct": 62.2,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -20751,10 +20751,10 @@
         ]
       },
       "45": {
-        "runCount": 141,
-        "averageParticipationPct": 13.7,
-        "averageRunDepthStep": 86.3,
-        "averageRunDepthPct": 62.1,
+        "runCount": 142,
+        "averageParticipationPct": 14.3,
+        "averageRunDepthStep": 86.2,
+        "averageRunDepthPct": 62.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -20840,9 +20840,9 @@
         ]
       },
       "44": {
-        "runCount": 143,
-        "averageParticipationPct": 13.5,
-        "averageRunDepthStep": 85.7,
+        "runCount": 144,
+        "averageParticipationPct": 14.1,
+        "averageRunDepthStep": 85.6,
         "averageRunDepthPct": 61.6,
         "averageBattlesUsed": 0.6,
         "topBattles": [
@@ -20929,8 +20929,8 @@
         ]
       },
       "43": {
-        "runCount": 148,
-        "averageParticipationPct": 15.4,
+        "runCount": 149,
+        "averageParticipationPct": 16.0,
         "averageRunDepthStep": 84.2,
         "averageRunDepthPct": 60.6,
         "averageBattlesUsed": 0.6,
@@ -21018,9 +21018,9 @@
         ]
       },
       "42": {
-        "runCount": 150,
-        "averageParticipationPct": 15.9,
-        "averageRunDepthStep": 83.7,
+        "runCount": 151,
+        "averageParticipationPct": 16.4,
+        "averageRunDepthStep": 83.6,
         "averageRunDepthPct": 60.2,
         "averageBattlesUsed": 0.6,
         "topBattles": [
@@ -21107,8 +21107,8 @@
         ]
       },
       "41": {
-        "runCount": 153,
-        "averageParticipationPct": 15.6,
+        "runCount": 154,
+        "averageParticipationPct": 16.1,
         "averageRunDepthStep": 82.8,
         "averageRunDepthPct": 59.6,
         "averageBattlesUsed": 0.6,
@@ -21196,8 +21196,8 @@
         ]
       },
       "40": {
-        "runCount": 153,
-        "averageParticipationPct": 15.6,
+        "runCount": 154,
+        "averageParticipationPct": 16.1,
         "averageRunDepthStep": 82.8,
         "averageRunDepthPct": 59.6,
         "averageBattlesUsed": 0.6,
@@ -21285,11 +21285,11 @@
         ]
       },
       "39": {
-        "runCount": 155,
-        "averageParticipationPct": 15.4,
-        "averageRunDepthStep": 82.3,
-        "averageRunDepthPct": 59.2,
-        "averageBattlesUsed": 0.5,
+        "runCount": 156,
+        "averageParticipationPct": 15.9,
+        "averageRunDepthStep": 82.2,
+        "averageRunDepthPct": 59.1,
+        "averageBattlesUsed": 0.6,
         "topBattles": [
           {
             "usageKey": "714",
@@ -21374,10 +21374,10 @@
         ]
       },
       "38": {
-        "runCount": 156,
-        "averageParticipationPct": 15.3,
-        "averageRunDepthStep": 82.0,
-        "averageRunDepthPct": 59.0,
+        "runCount": 157,
+        "averageParticipationPct": 15.8,
+        "averageRunDepthStep": 81.9,
+        "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -21463,10 +21463,10 @@
         ]
       },
       "37": {
-        "runCount": 158,
-        "averageParticipationPct": 15.4,
+        "runCount": 159,
+        "averageParticipationPct": 15.9,
         "averageRunDepthStep": 81.4,
-        "averageRunDepthPct": 58.6,
+        "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -21552,10 +21552,10 @@
         ]
       },
       "36": {
-        "runCount": 158,
-        "averageParticipationPct": 15.4,
+        "runCount": 159,
+        "averageParticipationPct": 15.9,
         "averageRunDepthStep": 81.4,
-        "averageRunDepthPct": 58.6,
+        "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -21641,10 +21641,10 @@
         ]
       },
       "35": {
-        "runCount": 160,
-        "averageParticipationPct": 15.2,
+        "runCount": 161,
+        "averageParticipationPct": 15.7,
         "averageRunDepthStep": 80.8,
-        "averageRunDepthPct": 58.2,
+        "averageRunDepthPct": 58.1,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -21730,10 +21730,10 @@
         ]
       },
       "34": {
-        "runCount": 160,
-        "averageParticipationPct": 15.2,
+        "runCount": 161,
+        "averageParticipationPct": 15.7,
         "averageRunDepthStep": 80.8,
-        "averageRunDepthPct": 58.2,
+        "averageRunDepthPct": 58.1,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -21819,10 +21819,10 @@
         ]
       },
       "33": {
-        "runCount": 160,
-        "averageParticipationPct": 15.2,
+        "runCount": 161,
+        "averageParticipationPct": 15.7,
         "averageRunDepthStep": 80.8,
-        "averageRunDepthPct": 58.2,
+        "averageRunDepthPct": 58.1,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -21908,10 +21908,10 @@
         ]
       },
       "32": {
-        "runCount": 160,
-        "averageParticipationPct": 15.2,
+        "runCount": 161,
+        "averageParticipationPct": 15.7,
         "averageRunDepthStep": 80.8,
-        "averageRunDepthPct": 58.2,
+        "averageRunDepthPct": 58.1,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -21997,10 +21997,10 @@
         ]
       },
       "31": {
-        "runCount": 160,
-        "averageParticipationPct": 15.2,
+        "runCount": 161,
+        "averageParticipationPct": 15.7,
         "averageRunDepthStep": 80.8,
-        "averageRunDepthPct": 58.2,
+        "averageRunDepthPct": 58.1,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -22086,10 +22086,10 @@
         ]
       },
       "30": {
-        "runCount": 160,
-        "averageParticipationPct": 15.2,
+        "runCount": 161,
+        "averageParticipationPct": 15.7,
         "averageRunDepthStep": 80.8,
-        "averageRunDepthPct": 58.2,
+        "averageRunDepthPct": 58.1,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -22175,8 +22175,8 @@
         ]
       },
       "29": {
-        "runCount": 161,
-        "averageParticipationPct": 15.8,
+        "runCount": 162,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 80.5,
         "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 0.5,
@@ -22264,8 +22264,8 @@
         ]
       },
       "28": {
-        "runCount": 161,
-        "averageParticipationPct": 15.8,
+        "runCount": 162,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 80.5,
         "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 0.5,
@@ -22353,8 +22353,8 @@
         ]
       },
       "27": {
-        "runCount": 161,
-        "averageParticipationPct": 15.8,
+        "runCount": 162,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 80.5,
         "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 0.5,
@@ -22442,8 +22442,8 @@
         ]
       },
       "26": {
-        "runCount": 161,
-        "averageParticipationPct": 15.8,
+        "runCount": 162,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 80.5,
         "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 0.5,
@@ -22531,8 +22531,8 @@
         ]
       },
       "25": {
-        "runCount": 161,
-        "averageParticipationPct": 15.8,
+        "runCount": 162,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 80.5,
         "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 0.5,
@@ -22620,8 +22620,8 @@
         ]
       },
       "24": {
-        "runCount": 161,
-        "averageParticipationPct": 15.8,
+        "runCount": 162,
+        "averageParticipationPct": 16.2,
         "averageRunDepthStep": 80.5,
         "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 0.5,
@@ -22709,8 +22709,8 @@
         ]
       },
       "23": {
-        "runCount": 163,
-        "averageParticipationPct": 16.8,
+        "runCount": 164,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.6,
@@ -22798,8 +22798,8 @@
         ]
       },
       "22": {
-        "runCount": 163,
-        "averageParticipationPct": 16.8,
+        "runCount": 164,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.6,
@@ -22887,8 +22887,8 @@
         ]
       },
       "21": {
-        "runCount": 163,
-        "averageParticipationPct": 16.8,
+        "runCount": 164,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.6,
@@ -22976,8 +22976,8 @@
         ]
       },
       "20": {
-        "runCount": 163,
-        "averageParticipationPct": 16.8,
+        "runCount": 164,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.6,
@@ -23065,8 +23065,8 @@
         ]
       },
       "19": {
-        "runCount": 163,
-        "averageParticipationPct": 16.8,
+        "runCount": 164,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.6,
@@ -23154,8 +23154,8 @@
         ]
       },
       "18": {
-        "runCount": 163,
-        "averageParticipationPct": 16.8,
+        "runCount": 164,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.6,
@@ -23243,8 +23243,8 @@
         ]
       },
       "17": {
-        "runCount": 163,
-        "averageParticipationPct": 16.8,
+        "runCount": 164,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.6,
@@ -23332,8 +23332,8 @@
         ]
       },
       "16": {
-        "runCount": 163,
-        "averageParticipationPct": 16.8,
+        "runCount": 164,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 79.8,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.6,
@@ -23421,8 +23421,8 @@
         ]
       },
       "15": {
-        "runCount": 165,
-        "averageParticipationPct": 16.6,
+        "runCount": 166,
+        "averageParticipationPct": 17.1,
         "averageRunDepthStep": 79.0,
         "averageRunDepthPct": 56.8,
         "averageBattlesUsed": 0.5,
@@ -23510,11 +23510,11 @@
         ]
       },
       "14": {
-        "runCount": 166,
-        "averageParticipationPct": 17.1,
+        "runCount": 167,
+        "averageParticipationPct": 17.6,
         "averageRunDepthStep": 78.6,
         "averageRunDepthPct": 56.6,
-        "averageBattlesUsed": 0.5,
+        "averageBattlesUsed": 0.6,
         "topBattles": [
           {
             "usageKey": "714",
@@ -23599,8 +23599,8 @@
         ]
       },
       "13": {
-        "runCount": 167,
-        "averageParticipationPct": 17.6,
+        "runCount": 168,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 78.2,
         "averageRunDepthPct": 56.3,
         "averageBattlesUsed": 0.6,
@@ -23688,8 +23688,8 @@
         ]
       },
       "12": {
-        "runCount": 167,
-        "averageParticipationPct": 17.6,
+        "runCount": 168,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 78.2,
         "averageRunDepthPct": 56.3,
         "averageBattlesUsed": 0.6,
@@ -23777,8 +23777,8 @@
         ]
       },
       "11": {
-        "runCount": 167,
-        "averageParticipationPct": 17.6,
+        "runCount": 168,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 78.2,
         "averageRunDepthPct": 56.3,
         "averageBattlesUsed": 0.6,
@@ -23866,8 +23866,8 @@
         ]
       },
       "10": {
-        "runCount": 167,
-        "averageParticipationPct": 17.6,
+        "runCount": 168,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 78.2,
         "averageRunDepthPct": 56.3,
         "averageBattlesUsed": 0.6,
@@ -23955,8 +23955,8 @@
         ]
       },
       "9": {
-        "runCount": 167,
-        "averageParticipationPct": 17.6,
+        "runCount": 168,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 78.2,
         "averageRunDepthPct": 56.3,
         "averageBattlesUsed": 0.6,
@@ -24044,8 +24044,8 @@
         ]
       },
       "8": {
-        "runCount": 167,
-        "averageParticipationPct": 17.6,
+        "runCount": 168,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 78.2,
         "averageRunDepthPct": 56.3,
         "averageBattlesUsed": 0.6,
@@ -24133,8 +24133,8 @@
         ]
       },
       "7": {
-        "runCount": 167,
-        "averageParticipationPct": 17.6,
+        "runCount": 168,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 78.2,
         "averageRunDepthPct": 56.3,
         "averageBattlesUsed": 0.6,
@@ -24222,8 +24222,8 @@
         ]
       },
       "6": {
-        "runCount": 167,
-        "averageParticipationPct": 17.6,
+        "runCount": 168,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 78.2,
         "averageRunDepthPct": 56.3,
         "averageBattlesUsed": 0.6,
@@ -24311,8 +24311,8 @@
         ]
       },
       "5": {
-        "runCount": 168,
-        "averageParticipationPct": 18.1,
+        "runCount": 169,
+        "averageParticipationPct": 18.5,
         "averageRunDepthStep": 77.8,
         "averageRunDepthPct": 56.0,
         "averageBattlesUsed": 0.6,
@@ -24400,8 +24400,8 @@
         ]
       },
       "4": {
-        "runCount": 168,
-        "averageParticipationPct": 18.1,
+        "runCount": 169,
+        "averageParticipationPct": 18.5,
         "averageRunDepthStep": 77.8,
         "averageRunDepthPct": 56.0,
         "averageBattlesUsed": 0.6,
@@ -24489,8 +24489,8 @@
         ]
       },
       "3": {
-        "runCount": 168,
-        "averageParticipationPct": 18.1,
+        "runCount": 169,
+        "averageParticipationPct": 18.5,
         "averageRunDepthStep": 77.8,
         "averageRunDepthPct": 56.0,
         "averageBattlesUsed": 0.6,
@@ -24578,8 +24578,8 @@
         ]
       },
       "2": {
-        "runCount": 168,
-        "averageParticipationPct": 18.1,
+        "runCount": 169,
+        "averageParticipationPct": 18.5,
         "averageRunDepthStep": 77.8,
         "averageRunDepthPct": 56.0,
         "averageBattlesUsed": 0.6,
@@ -24667,8 +24667,8 @@
         ]
       },
       "1": {
-        "runCount": 168,
-        "averageParticipationPct": 18.1,
+        "runCount": 169,
+        "averageParticipationPct": 18.5,
         "averageRunDepthStep": 77.8,
         "averageRunDepthPct": 56.0,
         "averageBattlesUsed": 0.6,

@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "ducklett",
   "familyMembers": [
     "Ducklett",
@@ -16301,19 +16301,19 @@
           ]
         },
         "95": {
-          "runCount": 122,
-          "averageParticipationPct": 9.2,
-          "averageRunDepthStep": 123.9,
-          "averageRunDepthPct": 89.1,
+          "runCount": 123,
+          "averageParticipationPct": 9.9,
+          "averageRunDepthStep": 123.6,
+          "averageRunDepthPct": 88.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 9,
-              "ownedCount": 20,
-              "participationPct": 45
+              "partyCount": 10,
+              "ownedCount": 21,
+              "participationPct": 48
             },
             {
               "usageKey": "701",
@@ -16390,19 +16390,19 @@
           ]
         },
         "94": {
-          "runCount": 122,
-          "averageParticipationPct": 9.2,
-          "averageRunDepthStep": 123.9,
-          "averageRunDepthPct": 89.1,
+          "runCount": 123,
+          "averageParticipationPct": 9.9,
+          "averageRunDepthStep": 123.6,
+          "averageRunDepthPct": 88.9,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 9,
-              "ownedCount": 20,
-              "participationPct": 45
+              "partyCount": 10,
+              "ownedCount": 21,
+              "participationPct": 48
             },
             {
               "usageKey": "701",
@@ -16479,19 +16479,19 @@
           ]
         },
         "93": {
-          "runCount": 123,
-          "averageParticipationPct": 9.1,
-          "averageRunDepthStep": 123.6,
-          "averageRunDepthPct": 88.9,
-          "averageBattlesUsed": 1.3,
+          "runCount": 124,
+          "averageParticipationPct": 9.8,
+          "averageRunDepthStep": 123.4,
+          "averageRunDepthPct": 88.8,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 9,
-              "ownedCount": 20,
-              "participationPct": 45
+              "partyCount": 10,
+              "ownedCount": 21,
+              "participationPct": 48
             },
             {
               "usageKey": "701",
@@ -16568,19 +16568,19 @@
           ]
         },
         "92": {
-          "runCount": 129,
-          "averageParticipationPct": 9.4,
-          "averageRunDepthStep": 122.1,
-          "averageRunDepthPct": 87.9,
+          "runCount": 130,
+          "averageParticipationPct": 10.1,
+          "averageRunDepthStep": 121.9,
+          "averageRunDepthPct": 87.7,
           "averageBattlesUsed": 1.3,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 11,
-              "ownedCount": 22,
-              "participationPct": 50
+              "partyCount": 12,
+              "ownedCount": 23,
+              "participationPct": 52
             },
             {
               "usageKey": "701",
@@ -16657,19 +16657,19 @@
           ]
         },
         "91": {
-          "runCount": 135,
-          "averageParticipationPct": 9.1,
-          "averageRunDepthStep": 120.7,
-          "averageRunDepthPct": 86.9,
+          "runCount": 136,
+          "averageParticipationPct": 9.8,
+          "averageRunDepthStep": 120.6,
+          "averageRunDepthPct": 86.7,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 11,
-              "ownedCount": 23,
-              "participationPct": 48
+              "partyCount": 12,
+              "ownedCount": 24,
+              "participationPct": 50
             },
             {
               "usageKey": "701",
@@ -16746,19 +16746,19 @@
           ]
         },
         "90": {
-          "runCount": 147,
-          "averageParticipationPct": 9.1,
-          "averageRunDepthStep": 118.2,
-          "averageRunDepthPct": 85.1,
+          "runCount": 148,
+          "averageParticipationPct": 9.7,
+          "averageRunDepthStep": 118.1,
+          "averageRunDepthPct": 85.0,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 12,
-              "ownedCount": 24,
-              "participationPct": 50
+              "partyCount": 13,
+              "ownedCount": 25,
+              "participationPct": 52
             },
             {
               "usageKey": "701",
@@ -16835,19 +16835,19 @@
           ]
         },
         "89": {
-          "runCount": 155,
-          "averageParticipationPct": 11.1,
-          "averageRunDepthStep": 116.7,
-          "averageRunDepthPct": 84.0,
+          "runCount": 156,
+          "averageParticipationPct": 11.7,
+          "averageRunDepthStep": 116.6,
+          "averageRunDepthPct": 83.9,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 12,
-              "ownedCount": 25,
-              "participationPct": 48
+              "partyCount": 13,
+              "ownedCount": 26,
+              "participationPct": 50
             },
             {
               "usageKey": "701",
@@ -16924,19 +16924,19 @@
           ]
         },
         "88": {
-          "runCount": 160,
-          "averageParticipationPct": 10.9,
-          "averageRunDepthStep": 115.8,
-          "averageRunDepthPct": 83.3,
+          "runCount": 161,
+          "averageParticipationPct": 11.5,
+          "averageRunDepthStep": 115.7,
+          "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 12,
-              "ownedCount": 26,
-              "participationPct": 46
+              "partyCount": 13,
+              "ownedCount": 27,
+              "participationPct": 48
             },
             {
               "usageKey": "701",
@@ -17013,19 +17013,19 @@
           ]
         },
         "87": {
-          "runCount": 162,
-          "averageParticipationPct": 10.8,
-          "averageRunDepthStep": 115.5,
-          "averageRunDepthPct": 83.1,
+          "runCount": 163,
+          "averageParticipationPct": 11.4,
+          "averageRunDepthStep": 115.3,
+          "averageRunDepthPct": 83.0,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 12,
-              "ownedCount": 26,
-              "participationPct": 46
+              "partyCount": 13,
+              "ownedCount": 27,
+              "participationPct": 48
             },
             {
               "usageKey": "701",
@@ -17102,19 +17102,19 @@
           ]
         },
         "86": {
-          "runCount": 169,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 114.3,
-          "averageRunDepthPct": 82.2,
+          "runCount": 170,
+          "averageParticipationPct": 11.2,
+          "averageRunDepthStep": 114.1,
+          "averageRunDepthPct": 82.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 15,
-              "ownedCount": 29,
-              "participationPct": 52
+              "partyCount": 16,
+              "ownedCount": 30,
+              "participationPct": 53
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17191,9 +17191,9 @@
           ]
         },
         "85": {
-          "runCount": 172,
-          "averageParticipationPct": 10.6,
-          "averageRunDepthStep": 113.7,
+          "runCount": 173,
+          "averageParticipationPct": 11.2,
+          "averageRunDepthStep": 113.6,
           "averageRunDepthPct": 81.8,
           "averageBattlesUsed": 1.1,
           "topBattles": [
@@ -17201,9 +17201,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 17,
-              "ownedCount": 31,
-              "participationPct": 55
+              "partyCount": 18,
+              "ownedCount": 32,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17280,9 +17280,9 @@
           ]
         },
         "84": {
-          "runCount": 172,
-          "averageParticipationPct": 10.6,
-          "averageRunDepthStep": 113.7,
+          "runCount": 173,
+          "averageParticipationPct": 11.2,
+          "averageRunDepthStep": 113.6,
           "averageRunDepthPct": 81.8,
           "averageBattlesUsed": 1.1,
           "topBattles": [
@@ -17290,9 +17290,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 17,
-              "ownedCount": 31,
-              "participationPct": 55
+              "partyCount": 18,
+              "ownedCount": 32,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17369,19 +17369,19 @@
           ]
         },
         "83": {
-          "runCount": 177,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 112.9,
-          "averageRunDepthPct": 81.2,
+          "runCount": 178,
+          "averageParticipationPct": 11.2,
+          "averageRunDepthStep": 112.8,
+          "averageRunDepthPct": 81.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 17,
-              "ownedCount": 31,
-              "participationPct": 55
+              "partyCount": 18,
+              "ownedCount": 32,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17458,19 +17458,19 @@
           ]
         },
         "82": {
-          "runCount": 191,
-          "averageParticipationPct": 10.7,
-          "averageRunDepthStep": 110.6,
-          "averageRunDepthPct": 79.6,
+          "runCount": 192,
+          "averageParticipationPct": 11.1,
+          "averageRunDepthStep": 110.5,
+          "averageRunDepthPct": 79.5,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 18,
-              "ownedCount": 34,
-              "participationPct": 53
+              "partyCount": 19,
+              "ownedCount": 35,
+              "participationPct": 54
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17547,9 +17547,9 @@
           ]
         },
         "81": {
-          "runCount": 197,
-          "averageParticipationPct": 10.6,
-          "averageRunDepthStep": 109.7,
+          "runCount": 198,
+          "averageParticipationPct": 11.1,
+          "averageRunDepthStep": 109.6,
           "averageRunDepthPct": 78.9,
           "averageBattlesUsed": 1.1,
           "topBattles": [
@@ -17557,9 +17557,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 35,
-              "participationPct": 54
+              "partyCount": 20,
+              "ownedCount": 36,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17636,19 +17636,19 @@
           ]
         },
         "80": {
-          "runCount": 202,
-          "averageParticipationPct": 10.8,
-          "averageRunDepthStep": 109.0,
-          "averageRunDepthPct": 78.4,
+          "runCount": 203,
+          "averageParticipationPct": 11.3,
+          "averageRunDepthStep": 108.9,
+          "averageRunDepthPct": 78.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 35,
-              "participationPct": 54
+              "partyCount": 20,
+              "ownedCount": 36,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17725,19 +17725,19 @@
           ]
         },
         "79": {
-          "runCount": 208,
-          "averageParticipationPct": 10.8,
-          "averageRunDepthStep": 108.1,
-          "averageRunDepthPct": 77.8,
+          "runCount": 209,
+          "averageParticipationPct": 11.2,
+          "averageRunDepthStep": 108.0,
+          "averageRunDepthPct": 77.7,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 35,
-              "participationPct": 54
+              "partyCount": 20,
+              "ownedCount": 36,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17814,19 +17814,19 @@
           ]
         },
         "78": {
-          "runCount": 211,
-          "averageParticipationPct": 10.6,
-          "averageRunDepthStep": 107.7,
-          "averageRunDepthPct": 77.5,
+          "runCount": 212,
+          "averageParticipationPct": 11.0,
+          "averageRunDepthStep": 107.6,
+          "averageRunDepthPct": 77.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 35,
-              "participationPct": 54
+              "partyCount": 20,
+              "ownedCount": 36,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17903,19 +17903,19 @@
           ]
         },
         "77": {
-          "runCount": 211,
-          "averageParticipationPct": 10.6,
-          "averageRunDepthStep": 107.7,
-          "averageRunDepthPct": 77.5,
+          "runCount": 212,
+          "averageParticipationPct": 11.0,
+          "averageRunDepthStep": 107.6,
+          "averageRunDepthPct": 77.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 35,
-              "participationPct": 54
+              "partyCount": 20,
+              "ownedCount": 36,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -17992,19 +17992,19 @@
           ]
         },
         "76": {
-          "runCount": 211,
-          "averageParticipationPct": 10.6,
-          "averageRunDepthStep": 107.7,
-          "averageRunDepthPct": 77.5,
+          "runCount": 212,
+          "averageParticipationPct": 11.0,
+          "averageRunDepthStep": 107.6,
+          "averageRunDepthPct": 77.4,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 35,
-              "participationPct": 54
+              "partyCount": 20,
+              "ownedCount": 36,
+              "participationPct": 56
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -18081,8 +18081,8 @@
           ]
         },
         "75": {
-          "runCount": 214,
-          "averageParticipationPct": 10.6,
+          "runCount": 215,
+          "averageParticipationPct": 11.0,
           "averageRunDepthStep": 107.2,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 1.1,
@@ -18091,9 +18091,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 36,
-              "participationPct": 53
+              "partyCount": 20,
+              "ownedCount": 37,
+              "participationPct": 54
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -18170,8 +18170,8 @@
           ]
         },
         "74": {
-          "runCount": 218,
-          "averageParticipationPct": 11.0,
+          "runCount": 219,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 106.6,
           "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 1.1,
@@ -18180,9 +18180,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 36,
-              "participationPct": 53
+              "partyCount": 20,
+              "ownedCount": 37,
+              "participationPct": 54
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -18259,9 +18259,9 @@
           ]
         },
         "73": {
-          "runCount": 219,
-          "averageParticipationPct": 10.9,
-          "averageRunDepthStep": 106.5,
+          "runCount": 220,
+          "averageParticipationPct": 11.3,
+          "averageRunDepthStep": 106.4,
           "averageRunDepthPct": 76.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
@@ -18269,9 +18269,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 36,
-              "participationPct": 53
+              "partyCount": 20,
+              "ownedCount": 37,
+              "participationPct": 54
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -18348,19 +18348,19 @@
           ]
         },
         "72": {
-          "runCount": 222,
-          "averageParticipationPct": 11.1,
-          "averageRunDepthStep": 106.0,
-          "averageRunDepthPct": 76.3,
+          "runCount": 223,
+          "averageParticipationPct": 11.5,
+          "averageRunDepthStep": 105.9,
+          "averageRunDepthPct": 76.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 36,
-              "participationPct": 53
+              "partyCount": 20,
+              "ownedCount": 37,
+              "participationPct": 54
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -18437,8 +18437,8 @@
           ]
         },
         "71": {
-          "runCount": 223,
-          "averageParticipationPct": 11.0,
+          "runCount": 224,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 105.8,
           "averageRunDepthPct": 76.1,
           "averageBattlesUsed": 1.1,
@@ -18447,9 +18447,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 36,
-              "participationPct": 53
+              "partyCount": 20,
+              "ownedCount": 37,
+              "participationPct": 54
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -18526,8 +18526,8 @@
           ]
         },
         "70": {
-          "runCount": 225,
-          "averageParticipationPct": 11.1,
+          "runCount": 226,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 1.1,
@@ -18536,9 +18536,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 36,
-              "participationPct": 53
+              "partyCount": 20,
+              "ownedCount": 37,
+              "participationPct": 54
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -18615,19 +18615,19 @@
           ]
         },
         "69": {
-          "runCount": 228,
-          "averageParticipationPct": 11.2,
+          "runCount": 229,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 105.0,
-          "averageRunDepthPct": 75.6,
+          "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 19,
-              "ownedCount": 38,
-              "participationPct": 50
+              "partyCount": 20,
+              "ownedCount": 39,
+              "participationPct": 51
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -18704,8 +18704,8 @@
           ]
         },
         "68": {
-          "runCount": 254,
-          "averageParticipationPct": 12.1,
+          "runCount": 255,
+          "averageParticipationPct": 12.4,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 1.1,
@@ -18714,9 +18714,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 47,
-              "participationPct": 49
+              "partyCount": 24,
+              "ownedCount": 48,
+              "participationPct": 50
             },
             {
               "usageKey": "269",
@@ -18793,8 +18793,8 @@
           ]
         },
         "67": {
-          "runCount": 266,
-          "averageParticipationPct": 12.8,
+          "runCount": 267,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 99.7,
           "averageRunDepthPct": 71.7,
           "averageBattlesUsed": 1.1,
@@ -18803,9 +18803,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 47,
-              "participationPct": 49
+              "partyCount": 24,
+              "ownedCount": 48,
+              "participationPct": 50
             },
             {
               "usageKey": "269",
@@ -18882,8 +18882,8 @@
           ]
         },
         "66": {
-          "runCount": 270,
-          "averageParticipationPct": 12.7,
+          "runCount": 271,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 99.2,
           "averageRunDepthPct": 71.4,
           "averageBattlesUsed": 1.1,
@@ -18892,9 +18892,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 47,
-              "participationPct": 49
+              "partyCount": 24,
+              "ownedCount": 48,
+              "participationPct": 50
             },
             {
               "usageKey": "269",
@@ -18971,9 +18971,9 @@
           ]
         },
         "65": {
-          "runCount": 272,
-          "averageParticipationPct": 12.7,
-          "averageRunDepthStep": 99.0,
+          "runCount": 273,
+          "averageParticipationPct": 13.0,
+          "averageRunDepthStep": 98.9,
           "averageRunDepthPct": 71.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
@@ -18981,9 +18981,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 47,
-              "participationPct": 49
+              "partyCount": 24,
+              "ownedCount": 48,
+              "participationPct": 50
             },
             {
               "usageKey": "269",
@@ -19060,8 +19060,8 @@
           ]
         },
         "64": {
-          "runCount": 278,
-          "averageParticipationPct": 13.0,
+          "runCount": 279,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 98.2,
           "averageRunDepthPct": 70.6,
           "averageBattlesUsed": 1.1,
@@ -19070,9 +19070,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 48,
-              "participationPct": 48
+              "partyCount": 24,
+              "ownedCount": 49,
+              "participationPct": 49
             },
             {
               "usageKey": "269",
@@ -19149,9 +19149,9 @@
           ]
         },
         "63": {
-          "runCount": 284,
-          "averageParticipationPct": 13.1,
-          "averageRunDepthStep": 97.5,
+          "runCount": 285,
+          "averageParticipationPct": 13.4,
+          "averageRunDepthStep": 97.4,
           "averageRunDepthPct": 70.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
@@ -19159,9 +19159,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 48,
-              "participationPct": 48
+              "partyCount": 24,
+              "ownedCount": 49,
+              "participationPct": 49
             },
             {
               "usageKey": "269",
@@ -19238,8 +19238,8 @@
           ]
         },
         "62": {
-          "runCount": 288,
-          "averageParticipationPct": 12.9,
+          "runCount": 289,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 97.0,
           "averageRunDepthPct": 69.8,
           "averageBattlesUsed": 1.1,
@@ -19248,9 +19248,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 48,
-              "participationPct": 48
+              "partyCount": 24,
+              "ownedCount": 49,
+              "participationPct": 49
             },
             {
               "usageKey": "269",
@@ -19327,8 +19327,8 @@
           ]
         },
         "61": {
-          "runCount": 296,
-          "averageParticipationPct": 12.8,
+          "runCount": 297,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 96.0,
           "averageRunDepthPct": 69.1,
           "averageBattlesUsed": 1.0,
@@ -19337,9 +19337,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 49,
-              "participationPct": 47
+              "partyCount": 24,
+              "ownedCount": 50,
+              "participationPct": 48
             },
             {
               "usageKey": "269",
@@ -19416,8 +19416,8 @@
           ]
         },
         "60": {
-          "runCount": 301,
-          "averageParticipationPct": 12.6,
+          "runCount": 302,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 95.4,
           "averageRunDepthPct": 68.6,
           "averageBattlesUsed": 1.0,
@@ -19426,9 +19426,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 50,
-              "participationPct": 46
+              "partyCount": 24,
+              "ownedCount": 51,
+              "participationPct": 47
             },
             {
               "usageKey": "269",
@@ -19505,8 +19505,8 @@
           ]
         },
         "59": {
-          "runCount": 304,
-          "averageParticipationPct": 12.5,
+          "runCount": 305,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 95.0,
           "averageRunDepthPct": 68.4,
           "averageBattlesUsed": 1.0,
@@ -19515,9 +19515,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 23,
-              "ownedCount": 50,
-              "participationPct": 46
+              "partyCount": 24,
+              "ownedCount": 51,
+              "participationPct": 47
             },
             {
               "usageKey": "269",
@@ -19594,8 +19594,8 @@
           ]
         },
         "58": {
-          "runCount": 318,
-          "averageParticipationPct": 13.7,
+          "runCount": 319,
+          "averageParticipationPct": 14.0,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 1.0,
@@ -19604,9 +19604,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 51,
-              "participationPct": 47
+              "partyCount": 25,
+              "ownedCount": 52,
+              "participationPct": 48
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -19683,8 +19683,8 @@
           ]
         },
         "57": {
-          "runCount": 321,
-          "averageParticipationPct": 13.9,
+          "runCount": 322,
+          "averageParticipationPct": 14.2,
           "averageRunDepthStep": 93.1,
           "averageRunDepthPct": 67.0,
           "averageBattlesUsed": 1.0,
@@ -19693,9 +19693,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 51,
-              "participationPct": 47
+              "partyCount": 25,
+              "ownedCount": 52,
+              "participationPct": 48
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -19772,9 +19772,9 @@
           ]
         },
         "56": {
-          "runCount": 322,
-          "averageParticipationPct": 13.9,
-          "averageRunDepthStep": 92.9,
+          "runCount": 323,
+          "averageParticipationPct": 14.1,
+          "averageRunDepthStep": 93.0,
           "averageRunDepthPct": 66.9,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -19782,9 +19782,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 51,
-              "participationPct": 47
+              "partyCount": 25,
+              "ownedCount": 52,
+              "participationPct": 48
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -19861,8 +19861,8 @@
           ]
         },
         "55": {
-          "runCount": 326,
-          "averageParticipationPct": 14.0,
+          "runCount": 327,
+          "averageParticipationPct": 14.3,
           "averageRunDepthStep": 92.5,
           "averageRunDepthPct": 66.5,
           "averageBattlesUsed": 1.0,
@@ -19871,9 +19871,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 51,
-              "participationPct": 47
+              "partyCount": 25,
+              "ownedCount": 52,
+              "participationPct": 48
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -19950,8 +19950,8 @@
           ]
         },
         "54": {
-          "runCount": 330,
-          "averageParticipationPct": 13.8,
+          "runCount": 331,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 1.0,
@@ -19960,9 +19960,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 52,
-              "participationPct": 46
+              "partyCount": 25,
+              "ownedCount": 53,
+              "participationPct": 47
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -20039,19 +20039,19 @@
           ]
         },
         "53": {
-          "runCount": 333,
-          "averageParticipationPct": 14.0,
+          "runCount": 334,
+          "averageParticipationPct": 14.3,
           "averageRunDepthStep": 91.7,
-          "averageRunDepthPct": 65.9,
+          "averageRunDepthPct": 66.0,
           "averageBattlesUsed": 1.0,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 52,
-              "participationPct": 46
+              "partyCount": 25,
+              "ownedCount": 53,
+              "participationPct": 47
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -20128,8 +20128,8 @@
           ]
         },
         "52": {
-          "runCount": 335,
-          "averageParticipationPct": 14.2,
+          "runCount": 336,
+          "averageParticipationPct": 14.5,
           "averageRunDepthStep": 91.4,
           "averageRunDepthPct": 65.8,
           "averageBattlesUsed": 1.0,
@@ -20138,9 +20138,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 52,
-              "participationPct": 46
+              "partyCount": 25,
+              "ownedCount": 53,
+              "participationPct": 47
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -20217,8 +20217,8 @@
           ]
         },
         "51": {
-          "runCount": 336,
-          "averageParticipationPct": 14.2,
+          "runCount": 337,
+          "averageParticipationPct": 14.4,
           "averageRunDepthStep": 91.3,
           "averageRunDepthPct": 65.7,
           "averageBattlesUsed": 1.0,
@@ -20227,9 +20227,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 52,
-              "participationPct": 46
+              "partyCount": 25,
+              "ownedCount": 53,
+              "participationPct": 47
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -20306,8 +20306,8 @@
           ]
         },
         "50": {
-          "runCount": 336,
-          "averageParticipationPct": 14.2,
+          "runCount": 337,
+          "averageParticipationPct": 14.4,
           "averageRunDepthStep": 91.3,
           "averageRunDepthPct": 65.7,
           "averageBattlesUsed": 1.0,
@@ -20316,9 +20316,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 24,
-              "ownedCount": 52,
-              "participationPct": 46
+              "partyCount": 25,
+              "ownedCount": 53,
+              "participationPct": 47
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -20395,8 +20395,8 @@
           ]
         },
         "49": {
-          "runCount": 371,
-          "averageParticipationPct": 17.1,
+          "runCount": 372,
+          "averageParticipationPct": 17.3,
           "averageRunDepthStep": 87.3,
           "averageRunDepthPct": 62.8,
           "averageBattlesUsed": 1.0,
@@ -20405,9 +20405,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -20484,8 +20484,8 @@
           ]
         },
         "48": {
-          "runCount": 377,
-          "averageParticipationPct": 17.6,
+          "runCount": 378,
+          "averageParticipationPct": 17.8,
           "averageRunDepthStep": 86.7,
           "averageRunDepthPct": 62.4,
           "averageBattlesUsed": 1.0,
@@ -20494,9 +20494,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -20573,8 +20573,8 @@
           ]
         },
         "47": {
-          "runCount": 408,
-          "averageParticipationPct": 18.1,
+          "runCount": 409,
+          "averageParticipationPct": 18.3,
           "averageRunDepthStep": 83.7,
           "averageRunDepthPct": 60.2,
           "averageBattlesUsed": 1.0,
@@ -20583,9 +20583,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Rival Wally Route110",
@@ -20662,9 +20662,9 @@
           ]
         },
         "46": {
-          "runCount": 422,
-          "averageParticipationPct": 18.3,
-          "averageRunDepthStep": 82.4,
+          "runCount": 423,
+          "averageParticipationPct": 18.5,
+          "averageRunDepthStep": 82.5,
           "averageRunDepthPct": 59.3,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -20672,9 +20672,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "597",
@@ -20751,9 +20751,9 @@
           ]
         },
         "45": {
-          "runCount": 424,
-          "averageParticipationPct": 18.5,
-          "averageRunDepthStep": 82.2,
+          "runCount": 425,
+          "averageParticipationPct": 18.7,
+          "averageRunDepthStep": 82.3,
           "averageRunDepthPct": 59.2,
           "averageBattlesUsed": 1.0,
           "topBattles": [
@@ -20761,9 +20761,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "597",
@@ -20840,8 +20840,8 @@
           ]
         },
         "44": {
-          "runCount": 429,
-          "averageParticipationPct": 18.3,
+          "runCount": 430,
+          "averageParticipationPct": 18.5,
           "averageRunDepthStep": 81.8,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.9,
@@ -20850,9 +20850,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "597",
@@ -20929,19 +20929,19 @@
           ]
         },
         "43": {
-          "runCount": 457,
-          "averageParticipationPct": 19.1,
-          "averageRunDepthStep": 79.4,
-          "averageRunDepthPct": 57.1,
+          "runCount": 458,
+          "averageParticipationPct": 19.2,
+          "averageRunDepthStep": 79.5,
+          "averageRunDepthPct": 57.2,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "597",
@@ -21018,8 +21018,8 @@
           ]
         },
         "42": {
-          "runCount": 469,
-          "averageParticipationPct": 19.2,
+          "runCount": 470,
+          "averageParticipationPct": 19.3,
           "averageRunDepthStep": 78.5,
           "averageRunDepthPct": 56.5,
           "averageBattlesUsed": 0.9,
@@ -21028,9 +21028,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "597",
@@ -21107,9 +21107,9 @@
           ]
         },
         "41": {
-          "runCount": 472,
-          "averageParticipationPct": 19.4,
-          "averageRunDepthStep": 78.2,
+          "runCount": 473,
+          "averageParticipationPct": 19.6,
+          "averageRunDepthStep": 78.3,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -21117,9 +21117,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "597",
@@ -21196,8 +21196,8 @@
           ]
         },
         "40": {
-          "runCount": 480,
-          "averageParticipationPct": 19.4,
+          "runCount": 481,
+          "averageParticipationPct": 19.6,
           "averageRunDepthStep": 77.6,
           "averageRunDepthPct": 55.8,
           "averageBattlesUsed": 0.9,
@@ -21206,9 +21206,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "597",
@@ -21285,8 +21285,8 @@
           ]
         },
         "39": {
-          "runCount": 498,
-          "averageParticipationPct": 19.1,
+          "runCount": 499,
+          "averageParticipationPct": 19.3,
           "averageRunDepthStep": 76.2,
           "averageRunDepthPct": 54.8,
           "averageBattlesUsed": 0.9,
@@ -21295,9 +21295,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "597",
@@ -21374,19 +21374,19 @@
           ]
         },
         "38": {
-          "runCount": 503,
-          "averageParticipationPct": 19.3,
-          "averageRunDepthStep": 75.8,
-          "averageRunDepthPct": 54.5,
+          "runCount": 504,
+          "averageParticipationPct": 19.4,
+          "averageRunDepthStep": 75.9,
+          "averageRunDepthPct": 54.6,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21463,19 +21463,19 @@
           ]
         },
         "37": {
-          "runCount": 507,
-          "averageParticipationPct": 19.8,
+          "runCount": 508,
+          "averageParticipationPct": 19.9,
           "averageRunDepthStep": 75.5,
-          "averageRunDepthPct": 54.3,
+          "averageRunDepthPct": 54.4,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21552,8 +21552,8 @@
           ]
         },
         "36": {
-          "runCount": 515,
-          "averageParticipationPct": 20.0,
+          "runCount": 516,
+          "averageParticipationPct": 20.2,
           "averageRunDepthStep": 74.9,
           "averageRunDepthPct": 53.9,
           "averageBattlesUsed": 0.9,
@@ -21562,9 +21562,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21641,9 +21641,9 @@
           ]
         },
         "35": {
-          "runCount": 555,
-          "averageParticipationPct": 19.9,
-          "averageRunDepthStep": 72.0,
+          "runCount": 556,
+          "averageParticipationPct": 20.1,
+          "averageRunDepthStep": 72.1,
           "averageRunDepthPct": 51.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -21651,9 +21651,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21730,9 +21730,9 @@
           ]
         },
         "34": {
-          "runCount": 555,
-          "averageParticipationPct": 19.9,
-          "averageRunDepthStep": 72.0,
+          "runCount": 556,
+          "averageParticipationPct": 20.1,
+          "averageRunDepthStep": 72.1,
           "averageRunDepthPct": 51.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -21740,9 +21740,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21819,9 +21819,9 @@
           ]
         },
         "33": {
-          "runCount": 558,
-          "averageParticipationPct": 20.1,
-          "averageRunDepthStep": 71.8,
+          "runCount": 559,
+          "averageParticipationPct": 20.2,
+          "averageRunDepthStep": 71.9,
           "averageRunDepthPct": 51.7,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -21829,9 +21829,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21908,19 +21908,19 @@
           ]
         },
         "32": {
-          "runCount": 617,
-          "averageParticipationPct": 19.0,
+          "runCount": 618,
+          "averageParticipationPct": 19.1,
           "averageRunDepthStep": 68.0,
-          "averageRunDepthPct": 48.9,
+          "averageRunDepthPct": 49.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -21997,8 +21997,8 @@
           ]
         },
         "31": {
-          "runCount": 628,
-          "averageParticipationPct": 19.3,
+          "runCount": 629,
+          "averageParticipationPct": 19.4,
           "averageRunDepthStep": 67.4,
           "averageRunDepthPct": 48.5,
           "averageBattlesUsed": 0.8,
@@ -22007,9 +22007,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -22086,19 +22086,19 @@
           ]
         },
         "30": {
-          "runCount": 648,
-          "averageParticipationPct": 19.6,
+          "runCount": 649,
+          "averageParticipationPct": 19.8,
           "averageRunDepthStep": 66.2,
-          "averageRunDepthPct": 47.6,
+          "averageRunDepthPct": 47.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -22175,8 +22175,8 @@
           ]
         },
         "29": {
-          "runCount": 661,
-          "averageParticipationPct": 20.4,
+          "runCount": 662,
+          "averageParticipationPct": 20.5,
           "averageRunDepthStep": 65.5,
           "averageRunDepthPct": 47.1,
           "averageBattlesUsed": 0.8,
@@ -22185,9 +22185,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -22264,8 +22264,8 @@
           ]
         },
         "28": {
-          "runCount": 666,
-          "averageParticipationPct": 20.8,
+          "runCount": 667,
+          "averageParticipationPct": 20.9,
           "averageRunDepthStep": 65.2,
           "averageRunDepthPct": 46.9,
           "averageBattlesUsed": 0.8,
@@ -22274,9 +22274,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "538",
@@ -22353,8 +22353,8 @@
           ]
         },
         "27": {
-          "runCount": 673,
-          "averageParticipationPct": 21.1,
+          "runCount": 674,
+          "averageParticipationPct": 21.2,
           "averageRunDepthStep": 64.8,
           "averageRunDepthPct": 46.6,
           "averageBattlesUsed": 0.8,
@@ -22363,9 +22363,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "538",
@@ -22442,19 +22442,19 @@
           ]
         },
         "26": {
-          "runCount": 677,
-          "averageParticipationPct": 21.5,
+          "runCount": 678,
+          "averageParticipationPct": 21.6,
           "averageRunDepthStep": 64.6,
-          "averageRunDepthPct": 46.4,
+          "averageRunDepthPct": 46.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "538",
@@ -22531,9 +22531,9 @@
           ]
         },
         "25": {
-          "runCount": 683,
-          "averageParticipationPct": 21.5,
-          "averageRunDepthStep": 64.2,
+          "runCount": 684,
+          "averageParticipationPct": 21.6,
+          "averageRunDepthStep": 64.3,
           "averageRunDepthPct": 46.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -22541,9 +22541,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -22620,8 +22620,8 @@
           ]
         },
         "24": {
-          "runCount": 684,
-          "averageParticipationPct": 21.5,
+          "runCount": 685,
+          "averageParticipationPct": 21.6,
           "averageRunDepthStep": 64.2,
           "averageRunDepthPct": 46.2,
           "averageBattlesUsed": 0.8,
@@ -22630,9 +22630,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -22709,19 +22709,19 @@
           ]
         },
         "23": {
-          "runCount": 689,
-          "averageParticipationPct": 21.5,
+          "runCount": 690,
+          "averageParticipationPct": 21.6,
           "averageRunDepthStep": 63.9,
-          "averageRunDepthPct": 45.9,
+          "averageRunDepthPct": 46.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -22798,8 +22798,8 @@
           ]
         },
         "22": {
-          "runCount": 699,
-          "averageParticipationPct": 21.6,
+          "runCount": 700,
+          "averageParticipationPct": 21.7,
           "averageRunDepthStep": 63.3,
           "averageRunDepthPct": 45.5,
           "averageBattlesUsed": 0.8,
@@ -22808,9 +22808,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "21",
@@ -22887,8 +22887,8 @@
           ]
         },
         "21": {
-          "runCount": 704,
-          "averageParticipationPct": 21.6,
+          "runCount": 705,
+          "averageParticipationPct": 21.7,
           "averageRunDepthStep": 63.0,
           "averageRunDepthPct": 45.3,
           "averageBattlesUsed": 0.8,
@@ -22897,9 +22897,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "21",
@@ -22976,9 +22976,9 @@
           ]
         },
         "20": {
-          "runCount": 711,
-          "averageParticipationPct": 21.8,
-          "averageRunDepthStep": 62.5,
+          "runCount": 712,
+          "averageParticipationPct": 21.9,
+          "averageRunDepthStep": 62.6,
           "averageRunDepthPct": 45.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -22986,9 +22986,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "21",
@@ -23065,9 +23065,9 @@
           ]
         },
         "19": {
-          "runCount": 718,
-          "averageParticipationPct": 21.8,
-          "averageRunDepthStep": 62.1,
+          "runCount": 719,
+          "averageParticipationPct": 21.9,
+          "averageRunDepthStep": 62.2,
           "averageRunDepthPct": 44.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -23075,9 +23075,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "21",
@@ -23154,9 +23154,9 @@
           ]
         },
         "18": {
-          "runCount": 723,
-          "averageParticipationPct": 22.2,
-          "averageRunDepthStep": 61.8,
+          "runCount": 724,
+          "averageParticipationPct": 22.3,
+          "averageRunDepthStep": 61.9,
           "averageRunDepthPct": 44.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -23164,9 +23164,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "21",
@@ -23243,19 +23243,19 @@
           ]
         },
         "17": {
-          "runCount": 724,
-          "averageParticipationPct": 22.2,
-          "averageRunDepthStep": 61.7,
-          "averageRunDepthPct": 44.4,
+          "runCount": 725,
+          "averageParticipationPct": 22.3,
+          "averageRunDepthStep": 61.8,
+          "averageRunDepthPct": 44.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "21",
@@ -23332,19 +23332,19 @@
           ]
         },
         "16": {
-          "runCount": 724,
-          "averageParticipationPct": 22.2,
-          "averageRunDepthStep": 61.7,
-          "averageRunDepthPct": 44.4,
+          "runCount": 725,
+          "averageParticipationPct": 22.3,
+          "averageRunDepthStep": 61.8,
+          "averageRunDepthPct": 44.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "21",
@@ -23421,9 +23421,9 @@
           ]
         },
         "15": {
-          "runCount": 745,
-          "averageParticipationPct": 24.3,
-          "averageRunDepthStep": 60.4,
+          "runCount": 746,
+          "averageParticipationPct": 24.4,
+          "averageRunDepthStep": 60.5,
           "averageRunDepthPct": 43.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -23431,9 +23431,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -23510,9 +23510,9 @@
           ]
         },
         "14": {
-          "runCount": 745,
-          "averageParticipationPct": 24.3,
-          "averageRunDepthStep": 60.4,
+          "runCount": 746,
+          "averageParticipationPct": 24.4,
+          "averageRunDepthStep": 60.5,
           "averageRunDepthPct": 43.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -23520,9 +23520,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -23599,19 +23599,19 @@
           ]
         },
         "13": {
-          "runCount": 748,
-          "averageParticipationPct": 24.4,
-          "averageRunDepthStep": 60.2,
-          "averageRunDepthPct": 43.3,
+          "runCount": 749,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 60.3,
+          "averageRunDepthPct": 43.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -23688,19 +23688,19 @@
           ]
         },
         "12": {
-          "runCount": 748,
-          "averageParticipationPct": 24.4,
-          "averageRunDepthStep": 60.2,
-          "averageRunDepthPct": 43.3,
+          "runCount": 749,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 60.3,
+          "averageRunDepthPct": 43.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -23777,19 +23777,19 @@
           ]
         },
         "11": {
-          "runCount": 748,
-          "averageParticipationPct": 24.4,
-          "averageRunDepthStep": 60.2,
-          "averageRunDepthPct": 43.3,
+          "runCount": 749,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 60.3,
+          "averageRunDepthPct": 43.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -23866,19 +23866,19 @@
           ]
         },
         "10": {
-          "runCount": 748,
-          "averageParticipationPct": 24.4,
-          "averageRunDepthStep": 60.2,
-          "averageRunDepthPct": 43.3,
+          "runCount": 749,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 60.3,
+          "averageRunDepthPct": 43.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -23955,19 +23955,19 @@
           ]
         },
         "9": {
-          "runCount": 748,
-          "averageParticipationPct": 24.4,
-          "averageRunDepthStep": 60.2,
-          "averageRunDepthPct": 43.3,
+          "runCount": 749,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 60.3,
+          "averageRunDepthPct": 43.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24044,19 +24044,19 @@
           ]
         },
         "8": {
-          "runCount": 748,
-          "averageParticipationPct": 24.4,
-          "averageRunDepthStep": 60.2,
-          "averageRunDepthPct": 43.3,
+          "runCount": 749,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 60.3,
+          "averageRunDepthPct": 43.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24133,19 +24133,19 @@
           ]
         },
         "7": {
-          "runCount": 748,
-          "averageParticipationPct": 24.4,
-          "averageRunDepthStep": 60.2,
-          "averageRunDepthPct": 43.3,
+          "runCount": 749,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 60.3,
+          "averageRunDepthPct": 43.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24222,19 +24222,19 @@
           ]
         },
         "6": {
-          "runCount": 748,
-          "averageParticipationPct": 24.4,
-          "averageRunDepthStep": 60.2,
-          "averageRunDepthPct": 43.3,
+          "runCount": 749,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 60.3,
+          "averageRunDepthPct": 43.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24311,8 +24311,8 @@
           ]
         },
         "5": {
-          "runCount": 753,
-          "averageParticipationPct": 24.5,
+          "runCount": 754,
+          "averageParticipationPct": 24.6,
           "averageRunDepthStep": 59.9,
           "averageRunDepthPct": 43.1,
           "averageBattlesUsed": 0.8,
@@ -24321,9 +24321,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24400,8 +24400,8 @@
           ]
         },
         "4": {
-          "runCount": 753,
-          "averageParticipationPct": 24.5,
+          "runCount": 754,
+          "averageParticipationPct": 24.6,
           "averageRunDepthStep": 59.9,
           "averageRunDepthPct": 43.1,
           "averageBattlesUsed": 0.8,
@@ -24410,9 +24410,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24489,8 +24489,8 @@
           ]
         },
         "3": {
-          "runCount": 753,
-          "averageParticipationPct": 24.5,
+          "runCount": 754,
+          "averageParticipationPct": 24.6,
           "averageRunDepthStep": 59.9,
           "averageRunDepthPct": 43.1,
           "averageBattlesUsed": 0.8,
@@ -24499,9 +24499,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24578,8 +24578,8 @@
           ]
         },
         "2": {
-          "runCount": 753,
-          "averageParticipationPct": 24.5,
+          "runCount": 754,
+          "averageParticipationPct": 24.6,
           "averageRunDepthStep": 59.9,
           "averageRunDepthPct": 43.1,
           "averageBattlesUsed": 0.8,
@@ -24588,9 +24588,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24667,8 +24667,8 @@
           ]
         },
         "1": {
-          "runCount": 753,
-          "averageParticipationPct": 24.5,
+          "runCount": 754,
+          "averageParticipationPct": 24.6,
           "averageRunDepthStep": 59.9,
           "averageRunDepthPct": 43.1,
           "averageBattlesUsed": 0.8,
@@ -24677,9 +24677,9 @@
               "usageKey": "268",
               "displayName": "Leader Flannery",
               "leadLevel": 47,
-              "partyCount": 42,
-              "ownedCount": 85,
-              "participationPct": 49
+              "partyCount": 43,
+              "ownedCount": 86,
+              "participationPct": 50
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -28677,19 +28677,19 @@
         ]
       },
       "95": {
-        "runCount": 128,
-        "averageParticipationPct": 8.0,
-        "averageRunDepthStep": 124.0,
-        "averageRunDepthPct": 89.2,
+        "runCount": 129,
+        "averageParticipationPct": 8.8,
+        "averageRunDepthStep": 123.8,
+        "averageRunDepthPct": 89.0,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 9,
-            "ownedCount": 20,
-            "participationPct": 45
+            "partyCount": 10,
+            "ownedCount": 21,
+            "participationPct": 48
           },
           {
             "usageKey": "701",
@@ -28766,19 +28766,19 @@
         ]
       },
       "94": {
-        "runCount": 129,
-        "averageParticipationPct": 8.0,
-        "averageRunDepthStep": 123.8,
-        "averageRunDepthPct": 89.0,
+        "runCount": 130,
+        "averageParticipationPct": 8.7,
+        "averageRunDepthStep": 123.5,
+        "averageRunDepthPct": 88.9,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 9,
-            "ownedCount": 20,
-            "participationPct": 45
+            "partyCount": 10,
+            "ownedCount": 21,
+            "participationPct": 48
           },
           {
             "usageKey": "701",
@@ -28855,19 +28855,19 @@
         ]
       },
       "93": {
-        "runCount": 130,
-        "averageParticipationPct": 7.9,
-        "averageRunDepthStep": 123.5,
-        "averageRunDepthPct": 88.9,
+        "runCount": 131,
+        "averageParticipationPct": 8.6,
+        "averageRunDepthStep": 123.3,
+        "averageRunDepthPct": 88.7,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 9,
-            "ownedCount": 20,
-            "participationPct": 45
+            "partyCount": 10,
+            "ownedCount": 21,
+            "participationPct": 48
           },
           {
             "usageKey": "701",
@@ -28944,19 +28944,19 @@
         ]
       },
       "92": {
-        "runCount": 136,
-        "averageParticipationPct": 8.3,
-        "averageRunDepthStep": 122.1,
-        "averageRunDepthPct": 87.9,
+        "runCount": 137,
+        "averageParticipationPct": 8.9,
+        "averageRunDepthStep": 121.9,
+        "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 11,
-            "ownedCount": 22,
-            "participationPct": 50
+            "partyCount": 12,
+            "ownedCount": 23,
+            "participationPct": 52
           },
           {
             "usageKey": "701",
@@ -29033,19 +29033,19 @@
         ]
       },
       "91": {
-        "runCount": 142,
-        "averageParticipationPct": 8.0,
-        "averageRunDepthStep": 120.8,
-        "averageRunDepthPct": 86.9,
+        "runCount": 143,
+        "averageParticipationPct": 8.7,
+        "averageRunDepthStep": 120.6,
+        "averageRunDepthPct": 86.8,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 11,
-            "ownedCount": 23,
-            "participationPct": 48
+            "partyCount": 12,
+            "ownedCount": 24,
+            "participationPct": 50
           },
           {
             "usageKey": "701",
@@ -29122,19 +29122,19 @@
         ]
       },
       "90": {
-        "runCount": 155,
-        "averageParticipationPct": 8.1,
-        "averageRunDepthStep": 118.2,
-        "averageRunDepthPct": 85.1,
+        "runCount": 156,
+        "averageParticipationPct": 8.6,
+        "averageRunDepthStep": 118.1,
+        "averageRunDepthPct": 85.0,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 12,
-            "ownedCount": 24,
-            "participationPct": 50
+            "partyCount": 13,
+            "ownedCount": 25,
+            "participationPct": 52
           },
           {
             "usageKey": "701",
@@ -29211,19 +29211,19 @@
         ]
       },
       "89": {
-        "runCount": 163,
-        "averageParticipationPct": 10.0,
-        "averageRunDepthStep": 116.8,
-        "averageRunDepthPct": 84.0,
+        "runCount": 164,
+        "averageParticipationPct": 10.6,
+        "averageRunDepthStep": 116.7,
+        "averageRunDepthPct": 83.9,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 12,
-            "ownedCount": 25,
-            "participationPct": 48
+            "partyCount": 13,
+            "ownedCount": 26,
+            "participationPct": 50
           },
           {
             "usageKey": "701",
@@ -29300,19 +29300,19 @@
         ]
       },
       "88": {
-        "runCount": 168,
-        "averageParticipationPct": 9.9,
-        "averageRunDepthStep": 115.9,
-        "averageRunDepthPct": 83.4,
+        "runCount": 169,
+        "averageParticipationPct": 10.4,
+        "averageRunDepthStep": 115.8,
+        "averageRunDepthPct": 83.3,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 12,
-            "ownedCount": 26,
-            "participationPct": 46
+            "partyCount": 13,
+            "ownedCount": 27,
+            "participationPct": 48
           },
           {
             "usageKey": "701",
@@ -29389,19 +29389,19 @@
         ]
       },
       "87": {
-        "runCount": 170,
-        "averageParticipationPct": 9.8,
-        "averageRunDepthStep": 115.6,
-        "averageRunDepthPct": 83.2,
+        "runCount": 171,
+        "averageParticipationPct": 10.3,
+        "averageRunDepthStep": 115.5,
+        "averageRunDepthPct": 83.1,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 12,
-            "ownedCount": 26,
-            "participationPct": 46
+            "partyCount": 13,
+            "ownedCount": 27,
+            "participationPct": 48
           },
           {
             "usageKey": "701",
@@ -29478,19 +29478,19 @@
         ]
       },
       "86": {
-        "runCount": 177,
-        "averageParticipationPct": 9.7,
-        "averageRunDepthStep": 114.4,
-        "averageRunDepthPct": 82.3,
+        "runCount": 178,
+        "averageParticipationPct": 10.2,
+        "averageRunDepthStep": 114.3,
+        "averageRunDepthPct": 82.2,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 15,
-            "ownedCount": 29,
-            "participationPct": 52
+            "partyCount": 16,
+            "ownedCount": 30,
+            "participationPct": 53
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -29567,19 +29567,19 @@
         ]
       },
       "85": {
-        "runCount": 180,
-        "averageParticipationPct": 9.7,
-        "averageRunDepthStep": 113.9,
-        "averageRunDepthPct": 82.0,
+        "runCount": 181,
+        "averageParticipationPct": 10.2,
+        "averageRunDepthStep": 113.8,
+        "averageRunDepthPct": 81.9,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 17,
-            "ownedCount": 31,
-            "participationPct": 55
+            "partyCount": 18,
+            "ownedCount": 32,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -29656,19 +29656,19 @@
         ]
       },
       "84": {
-        "runCount": 180,
-        "averageParticipationPct": 9.7,
-        "averageRunDepthStep": 113.9,
-        "averageRunDepthPct": 82.0,
+        "runCount": 181,
+        "averageParticipationPct": 10.2,
+        "averageRunDepthStep": 113.8,
+        "averageRunDepthPct": 81.9,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 17,
-            "ownedCount": 31,
-            "participationPct": 55
+            "partyCount": 18,
+            "ownedCount": 32,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -29745,19 +29745,19 @@
         ]
       },
       "83": {
-        "runCount": 186,
-        "averageParticipationPct": 9.7,
+        "runCount": 187,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 112.9,
-        "averageRunDepthPct": 81.3,
+        "averageRunDepthPct": 81.2,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 17,
-            "ownedCount": 31,
-            "participationPct": 55
+            "partyCount": 18,
+            "ownedCount": 32,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -29834,19 +29834,19 @@
         ]
       },
       "82": {
-        "runCount": 201,
-        "averageParticipationPct": 9.6,
+        "runCount": 202,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 110.6,
-        "averageRunDepthPct": 79.6,
+        "averageRunDepthPct": 79.5,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 18,
-            "ownedCount": 34,
-            "participationPct": 53
+            "partyCount": 19,
+            "ownedCount": 35,
+            "participationPct": 54
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -29923,19 +29923,19 @@
         ]
       },
       "81": {
-        "runCount": 207,
-        "averageParticipationPct": 9.6,
-        "averageRunDepthStep": 109.8,
-        "averageRunDepthPct": 79.0,
+        "runCount": 208,
+        "averageParticipationPct": 10.1,
+        "averageRunDepthStep": 109.7,
+        "averageRunDepthPct": 78.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 35,
-            "participationPct": 54
+            "partyCount": 20,
+            "ownedCount": 36,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30012,19 +30012,19 @@
         ]
       },
       "80": {
-        "runCount": 212,
-        "averageParticipationPct": 9.9,
-        "averageRunDepthStep": 109.1,
-        "averageRunDepthPct": 78.5,
+        "runCount": 213,
+        "averageParticipationPct": 10.3,
+        "averageRunDepthStep": 109.0,
+        "averageRunDepthPct": 78.4,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 35,
-            "participationPct": 54
+            "partyCount": 20,
+            "ownedCount": 36,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30101,19 +30101,19 @@
         ]
       },
       "79": {
-        "runCount": 218,
-        "averageParticipationPct": 9.8,
+        "runCount": 219,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 108.2,
-        "averageRunDepthPct": 77.9,
+        "averageRunDepthPct": 77.8,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 35,
-            "participationPct": 54
+            "partyCount": 20,
+            "ownedCount": 36,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30190,19 +30190,19 @@
         ]
       },
       "78": {
-        "runCount": 221,
-        "averageParticipationPct": 9.7,
+        "runCount": 222,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 107.8,
-        "averageRunDepthPct": 77.6,
+        "averageRunDepthPct": 77.5,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 35,
-            "participationPct": 54
+            "partyCount": 20,
+            "ownedCount": 36,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30279,19 +30279,19 @@
         ]
       },
       "77": {
-        "runCount": 221,
-        "averageParticipationPct": 9.7,
+        "runCount": 222,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 107.8,
-        "averageRunDepthPct": 77.6,
+        "averageRunDepthPct": 77.5,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 35,
-            "participationPct": 54
+            "partyCount": 20,
+            "ownedCount": 36,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30368,19 +30368,19 @@
         ]
       },
       "76": {
-        "runCount": 221,
-        "averageParticipationPct": 9.7,
+        "runCount": 222,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 107.8,
-        "averageRunDepthPct": 77.6,
+        "averageRunDepthPct": 77.5,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 35,
-            "participationPct": 54
+            "partyCount": 20,
+            "ownedCount": 36,
+            "participationPct": 56
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30457,19 +30457,19 @@
         ]
       },
       "75": {
-        "runCount": 224,
-        "averageParticipationPct": 9.7,
-        "averageRunDepthStep": 107.4,
-        "averageRunDepthPct": 77.3,
+        "runCount": 225,
+        "averageParticipationPct": 10.1,
+        "averageRunDepthStep": 107.3,
+        "averageRunDepthPct": 77.2,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 36,
-            "participationPct": 53
+            "partyCount": 20,
+            "ownedCount": 37,
+            "participationPct": 54
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30546,8 +30546,8 @@
         ]
       },
       "74": {
-        "runCount": 228,
-        "averageParticipationPct": 10.1,
+        "runCount": 229,
+        "averageParticipationPct": 10.5,
         "averageRunDepthStep": 106.8,
         "averageRunDepthPct": 76.8,
         "averageBattlesUsed": 1.0,
@@ -30556,9 +30556,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 36,
-            "participationPct": 53
+            "partyCount": 20,
+            "ownedCount": 37,
+            "participationPct": 54
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30635,9 +30635,9 @@
         ]
       },
       "73": {
-        "runCount": 229,
-        "averageParticipationPct": 10.0,
-        "averageRunDepthStep": 106.7,
+        "runCount": 230,
+        "averageParticipationPct": 10.4,
+        "averageRunDepthStep": 106.6,
         "averageRunDepthPct": 76.7,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -30645,9 +30645,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 36,
-            "participationPct": 53
+            "partyCount": 20,
+            "ownedCount": 37,
+            "participationPct": 54
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30724,8 +30724,8 @@
         ]
       },
       "72": {
-        "runCount": 232,
-        "averageParticipationPct": 10.2,
+        "runCount": 233,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 106.2,
         "averageRunDepthPct": 76.4,
         "averageBattlesUsed": 1.1,
@@ -30734,9 +30734,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 36,
-            "participationPct": 53
+            "partyCount": 20,
+            "ownedCount": 37,
+            "participationPct": 54
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30813,9 +30813,9 @@
         ]
       },
       "71": {
-        "runCount": 233,
-        "averageParticipationPct": 10.1,
-        "averageRunDepthStep": 106.1,
+        "runCount": 234,
+        "averageParticipationPct": 10.5,
+        "averageRunDepthStep": 106.0,
         "averageRunDepthPct": 76.3,
         "averageBattlesUsed": 1.0,
         "topBattles": [
@@ -30823,9 +30823,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 36,
-            "participationPct": 53
+            "partyCount": 20,
+            "ownedCount": 37,
+            "participationPct": 54
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30902,9 +30902,9 @@
         ]
       },
       "70": {
-        "runCount": 235,
-        "averageParticipationPct": 10.2,
-        "averageRunDepthStep": 105.8,
+        "runCount": 236,
+        "averageParticipationPct": 10.6,
+        "averageRunDepthStep": 105.7,
         "averageRunDepthPct": 76.1,
         "averageBattlesUsed": 1.1,
         "topBattles": [
@@ -30912,9 +30912,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 36,
-            "participationPct": 53
+            "partyCount": 20,
+            "ownedCount": 37,
+            "participationPct": 54
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -30991,19 +30991,19 @@
         ]
       },
       "69": {
-        "runCount": 238,
-        "averageParticipationPct": 10.3,
+        "runCount": 239,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 105.3,
-        "averageRunDepthPct": 75.8,
+        "averageRunDepthPct": 75.7,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 19,
-            "ownedCount": 38,
-            "participationPct": 50
+            "partyCount": 20,
+            "ownedCount": 39,
+            "participationPct": 51
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -31080,8 +31080,8 @@
         ]
       },
       "68": {
-        "runCount": 264,
-        "averageParticipationPct": 11.2,
+        "runCount": 265,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 101.6,
         "averageRunDepthPct": 73.1,
         "averageBattlesUsed": 1.0,
@@ -31090,9 +31090,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 47,
-            "participationPct": 49
+            "partyCount": 24,
+            "ownedCount": 48,
+            "participationPct": 50
           },
           {
             "usageKey": "269",
@@ -31169,8 +31169,8 @@
         ]
       },
       "67": {
-        "runCount": 277,
-        "averageParticipationPct": 11.9,
+        "runCount": 278,
+        "averageParticipationPct": 12.3,
         "averageRunDepthStep": 100.0,
         "averageRunDepthPct": 71.9,
         "averageBattlesUsed": 1.0,
@@ -31179,9 +31179,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 47,
-            "participationPct": 49
+            "partyCount": 24,
+            "ownedCount": 48,
+            "participationPct": 50
           },
           {
             "usageKey": "269",
@@ -31258,8 +31258,8 @@
         ]
       },
       "66": {
-        "runCount": 281,
-        "averageParticipationPct": 11.9,
+        "runCount": 282,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 99.5,
         "averageRunDepthPct": 71.6,
         "averageBattlesUsed": 1.0,
@@ -31268,9 +31268,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 47,
-            "participationPct": 49
+            "partyCount": 24,
+            "ownedCount": 48,
+            "participationPct": 50
           },
           {
             "usageKey": "269",
@@ -31347,8 +31347,8 @@
         ]
       },
       "65": {
-        "runCount": 283,
-        "averageParticipationPct": 11.9,
+        "runCount": 284,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 99.3,
         "averageRunDepthPct": 71.4,
         "averageBattlesUsed": 1.0,
@@ -31357,9 +31357,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 47,
-            "participationPct": 49
+            "partyCount": 24,
+            "ownedCount": 48,
+            "participationPct": 50
           },
           {
             "usageKey": "269",
@@ -31436,8 +31436,8 @@
         ]
       },
       "64": {
-        "runCount": 289,
-        "averageParticipationPct": 12.1,
+        "runCount": 290,
+        "averageParticipationPct": 12.4,
         "averageRunDepthStep": 98.5,
         "averageRunDepthPct": 70.9,
         "averageBattlesUsed": 1.1,
@@ -31446,9 +31446,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 48,
-            "participationPct": 48
+            "partyCount": 24,
+            "ownedCount": 49,
+            "participationPct": 49
           },
           {
             "usageKey": "269",
@@ -31525,8 +31525,8 @@
         ]
       },
       "63": {
-        "runCount": 295,
-        "averageParticipationPct": 12.2,
+        "runCount": 296,
+        "averageParticipationPct": 12.5,
         "averageRunDepthStep": 97.8,
         "averageRunDepthPct": 70.4,
         "averageBattlesUsed": 1.0,
@@ -31535,9 +31535,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 48,
-            "participationPct": 48
+            "partyCount": 24,
+            "ownedCount": 49,
+            "participationPct": 49
           },
           {
             "usageKey": "269",
@@ -31614,8 +31614,8 @@
         ]
       },
       "62": {
-        "runCount": 299,
-        "averageParticipationPct": 12.1,
+        "runCount": 300,
+        "averageParticipationPct": 12.4,
         "averageRunDepthStep": 97.3,
         "averageRunDepthPct": 70.0,
         "averageBattlesUsed": 1.0,
@@ -31624,9 +31624,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 48,
-            "participationPct": 48
+            "partyCount": 24,
+            "ownedCount": 49,
+            "participationPct": 49
           },
           {
             "usageKey": "269",
@@ -31703,8 +31703,8 @@
         ]
       },
       "61": {
-        "runCount": 307,
-        "averageParticipationPct": 12.0,
+        "runCount": 308,
+        "averageParticipationPct": 12.3,
         "averageRunDepthStep": 96.4,
         "averageRunDepthPct": 69.3,
         "averageBattlesUsed": 1.0,
@@ -31713,9 +31713,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 49,
-            "participationPct": 47
+            "partyCount": 24,
+            "ownedCount": 50,
+            "participationPct": 48
           },
           {
             "usageKey": "269",
@@ -31792,8 +31792,8 @@
         ]
       },
       "60": {
-        "runCount": 312,
-        "averageParticipationPct": 11.8,
+        "runCount": 313,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 95.8,
         "averageRunDepthPct": 68.9,
         "averageBattlesUsed": 1.0,
@@ -31802,9 +31802,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 50,
-            "participationPct": 46
+            "partyCount": 24,
+            "ownedCount": 51,
+            "participationPct": 47
           },
           {
             "usageKey": "269",
@@ -31881,8 +31881,8 @@
         ]
       },
       "59": {
-        "runCount": 316,
-        "averageParticipationPct": 11.7,
+        "runCount": 317,
+        "averageParticipationPct": 12.0,
         "averageRunDepthStep": 95.3,
         "averageRunDepthPct": 68.6,
         "averageBattlesUsed": 1.0,
@@ -31891,9 +31891,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 23,
-            "ownedCount": 50,
-            "participationPct": 46
+            "partyCount": 24,
+            "ownedCount": 51,
+            "participationPct": 47
           },
           {
             "usageKey": "269",
@@ -31970,19 +31970,19 @@
         ]
       },
       "58": {
-        "runCount": 330,
-        "averageParticipationPct": 12.9,
+        "runCount": 331,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.8,
-        "averageRunDepthPct": 67.4,
+        "averageRunDepthPct": 67.5,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 51,
-            "participationPct": 47
+            "partyCount": 25,
+            "ownedCount": 52,
+            "participationPct": 48
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32059,8 +32059,8 @@
         ]
       },
       "57": {
-        "runCount": 333,
-        "averageParticipationPct": 13.1,
+        "runCount": 334,
+        "averageParticipationPct": 13.3,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 1.0,
@@ -32069,9 +32069,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 51,
-            "participationPct": 47
+            "partyCount": 25,
+            "ownedCount": 52,
+            "participationPct": 48
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32148,8 +32148,8 @@
         ]
       },
       "56": {
-        "runCount": 334,
-        "averageParticipationPct": 13.0,
+        "runCount": 335,
+        "averageParticipationPct": 13.3,
         "averageRunDepthStep": 93.3,
         "averageRunDepthPct": 67.1,
         "averageBattlesUsed": 1.0,
@@ -32158,9 +32158,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 51,
-            "participationPct": 47
+            "partyCount": 25,
+            "ownedCount": 52,
+            "participationPct": 48
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32237,9 +32237,9 @@
         ]
       },
       "55": {
-        "runCount": 339,
-        "averageParticipationPct": 13.1,
-        "averageRunDepthStep": 92.7,
+        "runCount": 340,
+        "averageParticipationPct": 13.4,
+        "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.7,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -32247,9 +32247,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 52,
-            "participationPct": 46
+            "partyCount": 25,
+            "ownedCount": 53,
+            "participationPct": 47
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32326,8 +32326,8 @@
         ]
       },
       "54": {
-        "runCount": 343,
-        "averageParticipationPct": 13.0,
+        "runCount": 344,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 92.3,
         "averageRunDepthPct": 66.4,
         "averageBattlesUsed": 0.9,
@@ -32336,9 +32336,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 53,
-            "participationPct": 45
+            "partyCount": 25,
+            "ownedCount": 54,
+            "participationPct": 46
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32415,9 +32415,9 @@
         ]
       },
       "53": {
-        "runCount": 347,
-        "averageParticipationPct": 13.1,
-        "averageRunDepthStep": 91.8,
+        "runCount": 348,
+        "averageParticipationPct": 13.4,
+        "averageRunDepthStep": 91.9,
         "averageRunDepthPct": 66.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -32425,9 +32425,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 53,
-            "participationPct": 45
+            "partyCount": 25,
+            "ownedCount": 54,
+            "participationPct": 46
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32504,8 +32504,8 @@
         ]
       },
       "52": {
-        "runCount": 349,
-        "averageParticipationPct": 13.3,
+        "runCount": 350,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 91.6,
         "averageRunDepthPct": 65.9,
         "averageBattlesUsed": 0.9,
@@ -32514,9 +32514,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 53,
-            "participationPct": 45
+            "partyCount": 25,
+            "ownedCount": 54,
+            "participationPct": 46
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32593,8 +32593,8 @@
         ]
       },
       "51": {
-        "runCount": 350,
-        "averageParticipationPct": 13.3,
+        "runCount": 351,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 91.5,
         "averageRunDepthPct": 65.8,
         "averageBattlesUsed": 0.9,
@@ -32603,9 +32603,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 53,
-            "participationPct": 45
+            "partyCount": 25,
+            "ownedCount": 54,
+            "participationPct": 46
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32682,8 +32682,8 @@
         ]
       },
       "50": {
-        "runCount": 350,
-        "averageParticipationPct": 13.3,
+        "runCount": 351,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 91.5,
         "averageRunDepthPct": 65.8,
         "averageBattlesUsed": 0.9,
@@ -32692,9 +32692,9 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 24,
-            "ownedCount": 53,
-            "participationPct": 45
+            "partyCount": 25,
+            "ownedCount": 54,
+            "participationPct": 46
           },
           {
             "usageKey": "Rival Wally Route110",
@@ -32771,9 +32771,9 @@
         ]
       },
       "49": {
-        "runCount": 386,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 87.5,
+        "runCount": 387,
+        "averageParticipationPct": 16.3,
+        "averageRunDepthStep": 87.6,
         "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -32781,8 +32781,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -32860,9 +32860,9 @@
         ]
       },
       "48": {
-        "runCount": 393,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 86.8,
+        "runCount": 394,
+        "averageParticipationPct": 16.7,
+        "averageRunDepthStep": 86.9,
         "averageRunDepthPct": 62.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -32870,8 +32870,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -32949,8 +32949,8 @@
         ]
       },
       "47": {
-        "runCount": 424,
-        "averageParticipationPct": 17.1,
+        "runCount": 425,
+        "averageParticipationPct": 17.3,
         "averageRunDepthStep": 83.9,
         "averageRunDepthPct": 60.4,
         "averageBattlesUsed": 0.9,
@@ -32959,8 +32959,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33038,8 +33038,8 @@
         ]
       },
       "46": {
-        "runCount": 438,
-        "averageParticipationPct": 17.4,
+        "runCount": 439,
+        "averageParticipationPct": 17.5,
         "averageRunDepthStep": 82.7,
         "averageRunDepthPct": 59.5,
         "averageBattlesUsed": 0.9,
@@ -33048,8 +33048,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33127,9 +33127,9 @@
         ]
       },
       "45": {
-        "runCount": 440,
-        "averageParticipationPct": 17.5,
-        "averageRunDepthStep": 82.5,
+        "runCount": 441,
+        "averageParticipationPct": 17.7,
+        "averageRunDepthStep": 82.6,
         "averageRunDepthPct": 59.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -33137,8 +33137,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33216,8 +33216,8 @@
         ]
       },
       "44": {
-        "runCount": 445,
-        "averageParticipationPct": 17.3,
+        "runCount": 446,
+        "averageParticipationPct": 17.5,
         "averageRunDepthStep": 82.1,
         "averageRunDepthPct": 59.1,
         "averageBattlesUsed": 0.9,
@@ -33226,8 +33226,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33305,18 +33305,18 @@
         ]
       },
       "43": {
-        "runCount": 474,
-        "averageParticipationPct": 18.0,
+        "runCount": 475,
+        "averageParticipationPct": 18.2,
         "averageRunDepthStep": 79.7,
-        "averageRunDepthPct": 57.3,
+        "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33394,8 +33394,8 @@
         ]
       },
       "42": {
-        "runCount": 486,
-        "averageParticipationPct": 18.1,
+        "runCount": 487,
+        "averageParticipationPct": 18.3,
         "averageRunDepthStep": 78.8,
         "averageRunDepthPct": 56.7,
         "averageBattlesUsed": 0.9,
@@ -33404,8 +33404,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33483,9 +33483,9 @@
         ]
       },
       "41": {
-        "runCount": 489,
-        "averageParticipationPct": 18.4,
-        "averageRunDepthStep": 78.5,
+        "runCount": 490,
+        "averageParticipationPct": 18.6,
+        "averageRunDepthStep": 78.6,
         "averageRunDepthPct": 56.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -33493,8 +33493,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33572,9 +33572,9 @@
         ]
       },
       "40": {
-        "runCount": 497,
-        "averageParticipationPct": 18.3,
-        "averageRunDepthStep": 77.9,
+        "runCount": 498,
+        "averageParticipationPct": 18.4,
+        "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -33582,8 +33582,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33661,8 +33661,8 @@
         ]
       },
       "39": {
-        "runCount": 515,
-        "averageParticipationPct": 18.0,
+        "runCount": 516,
+        "averageParticipationPct": 18.2,
         "averageRunDepthStep": 76.6,
         "averageRunDepthPct": 55.1,
         "averageBattlesUsed": 0.9,
@@ -33671,8 +33671,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33750,8 +33750,8 @@
         ]
       },
       "38": {
-        "runCount": 520,
-        "averageParticipationPct": 18.2,
+        "runCount": 521,
+        "averageParticipationPct": 18.4,
         "averageRunDepthStep": 76.2,
         "averageRunDepthPct": 54.8,
         "averageBattlesUsed": 0.9,
@@ -33760,8 +33760,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33839,8 +33839,8 @@
         ]
       },
       "37": {
-        "runCount": 524,
-        "averageParticipationPct": 18.7,
+        "runCount": 525,
+        "averageParticipationPct": 18.8,
         "averageRunDepthStep": 75.9,
         "averageRunDepthPct": 54.6,
         "averageBattlesUsed": 0.9,
@@ -33849,8 +33849,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -33928,8 +33928,8 @@
         ]
       },
       "36": {
-        "runCount": 532,
-        "averageParticipationPct": 18.9,
+        "runCount": 533,
+        "averageParticipationPct": 19.1,
         "averageRunDepthStep": 75.3,
         "averageRunDepthPct": 54.2,
         "averageBattlesUsed": 0.9,
@@ -33938,8 +33938,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34017,18 +34017,18 @@
         ]
       },
       "35": {
-        "runCount": 574,
-        "averageParticipationPct": 18.8,
-        "averageRunDepthStep": 72.3,
-        "averageRunDepthPct": 52.0,
+        "runCount": 575,
+        "averageParticipationPct": 18.9,
+        "averageRunDepthStep": 72.4,
+        "averageRunDepthPct": 52.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34106,18 +34106,18 @@
         ]
       },
       "34": {
-        "runCount": 574,
-        "averageParticipationPct": 18.8,
-        "averageRunDepthStep": 72.3,
-        "averageRunDepthPct": 52.0,
+        "runCount": 575,
+        "averageParticipationPct": 18.9,
+        "averageRunDepthStep": 72.4,
+        "averageRunDepthPct": 52.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34195,9 +34195,9 @@
         ]
       },
       "33": {
-        "runCount": 577,
-        "averageParticipationPct": 18.9,
-        "averageRunDepthStep": 72.1,
+        "runCount": 578,
+        "averageParticipationPct": 19.0,
+        "averageRunDepthStep": 72.2,
         "averageRunDepthPct": 51.9,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -34205,8 +34205,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34284,8 +34284,8 @@
         ]
       },
       "32": {
-        "runCount": 637,
-        "averageParticipationPct": 17.9,
+        "runCount": 638,
+        "averageParticipationPct": 18.0,
         "averageRunDepthStep": 68.4,
         "averageRunDepthPct": 49.2,
         "averageBattlesUsed": 0.8,
@@ -34294,8 +34294,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34373,18 +34373,18 @@
         ]
       },
       "31": {
-        "runCount": 648,
-        "averageParticipationPct": 18.2,
-        "averageRunDepthStep": 67.7,
-        "averageRunDepthPct": 48.7,
+        "runCount": 649,
+        "averageParticipationPct": 18.3,
+        "averageRunDepthStep": 67.8,
+        "averageRunDepthPct": 48.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34462,8 +34462,8 @@
         ]
       },
       "30": {
-        "runCount": 668,
-        "averageParticipationPct": 18.4,
+        "runCount": 669,
+        "averageParticipationPct": 18.5,
         "averageRunDepthStep": 66.6,
         "averageRunDepthPct": 47.9,
         "averageBattlesUsed": 0.8,
@@ -34472,8 +34472,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34551,8 +34551,8 @@
         ]
       },
       "29": {
-        "runCount": 681,
-        "averageParticipationPct": 19.1,
+        "runCount": 682,
+        "averageParticipationPct": 19.3,
         "averageRunDepthStep": 65.9,
         "averageRunDepthPct": 47.4,
         "averageBattlesUsed": 0.8,
@@ -34561,8 +34561,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34640,8 +34640,8 @@
         ]
       },
       "28": {
-        "runCount": 686,
-        "averageParticipationPct": 19.6,
+        "runCount": 687,
+        "averageParticipationPct": 19.7,
         "averageRunDepthStep": 65.6,
         "averageRunDepthPct": 47.2,
         "averageBattlesUsed": 0.8,
@@ -34650,8 +34650,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34729,9 +34729,9 @@
         ]
       },
       "27": {
-        "runCount": 693,
-        "averageParticipationPct": 19.8,
-        "averageRunDepthStep": 65.2,
+        "runCount": 694,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 65.3,
         "averageRunDepthPct": 46.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -34739,8 +34739,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34818,8 +34818,8 @@
         ]
       },
       "26": {
-        "runCount": 697,
-        "averageParticipationPct": 20.2,
+        "runCount": 698,
+        "averageParticipationPct": 20.3,
         "averageRunDepthStep": 65.0,
         "averageRunDepthPct": 46.8,
         "averageBattlesUsed": 0.8,
@@ -34828,8 +34828,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34907,9 +34907,9 @@
         ]
       },
       "25": {
-        "runCount": 703,
-        "averageParticipationPct": 20.2,
-        "averageRunDepthStep": 64.6,
+        "runCount": 704,
+        "averageParticipationPct": 20.4,
+        "averageRunDepthStep": 64.7,
         "averageRunDepthPct": 46.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -34917,8 +34917,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -34996,8 +34996,8 @@
         ]
       },
       "24": {
-        "runCount": 704,
-        "averageParticipationPct": 20.2,
+        "runCount": 705,
+        "averageParticipationPct": 20.3,
         "averageRunDepthStep": 64.6,
         "averageRunDepthPct": 46.5,
         "averageBattlesUsed": 0.8,
@@ -35006,8 +35006,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35085,8 +35085,8 @@
         ]
       },
       "23": {
-        "runCount": 709,
-        "averageParticipationPct": 20.2,
+        "runCount": 710,
+        "averageParticipationPct": 20.3,
         "averageRunDepthStep": 64.3,
         "averageRunDepthPct": 46.3,
         "averageBattlesUsed": 0.8,
@@ -35095,8 +35095,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35174,18 +35174,18 @@
         ]
       },
       "22": {
-        "runCount": 719,
-        "averageParticipationPct": 20.3,
-        "averageRunDepthStep": 63.7,
-        "averageRunDepthPct": 45.8,
+        "runCount": 720,
+        "averageParticipationPct": 20.4,
+        "averageRunDepthStep": 63.8,
+        "averageRunDepthPct": 45.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35263,18 +35263,18 @@
         ]
       },
       "21": {
-        "runCount": 724,
-        "averageParticipationPct": 20.3,
-        "averageRunDepthStep": 63.4,
-        "averageRunDepthPct": 45.6,
+        "runCount": 725,
+        "averageParticipationPct": 20.4,
+        "averageRunDepthStep": 63.5,
+        "averageRunDepthPct": 45.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35352,18 +35352,18 @@
         ]
       },
       "20": {
-        "runCount": 731,
-        "averageParticipationPct": 20.5,
+        "runCount": 732,
+        "averageParticipationPct": 20.6,
         "averageRunDepthStep": 63.0,
-        "averageRunDepthPct": 45.3,
+        "averageRunDepthPct": 45.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35441,18 +35441,18 @@
         ]
       },
       "19": {
-        "runCount": 738,
-        "averageParticipationPct": 20.5,
+        "runCount": 739,
+        "averageParticipationPct": 20.6,
         "averageRunDepthStep": 62.6,
-        "averageRunDepthPct": 45.0,
+        "averageRunDepthPct": 45.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35530,8 +35530,8 @@
         ]
       },
       "18": {
-        "runCount": 743,
-        "averageParticipationPct": 20.9,
+        "runCount": 744,
+        "averageParticipationPct": 21.0,
         "averageRunDepthStep": 62.3,
         "averageRunDepthPct": 44.8,
         "averageBattlesUsed": 0.8,
@@ -35540,8 +35540,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35619,9 +35619,9 @@
         ]
       },
       "17": {
-        "runCount": 744,
-        "averageParticipationPct": 20.9,
-        "averageRunDepthStep": 62.2,
+        "runCount": 745,
+        "averageParticipationPct": 21.0,
+        "averageRunDepthStep": 62.3,
         "averageRunDepthPct": 44.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -35629,8 +35629,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35708,9 +35708,9 @@
         ]
       },
       "16": {
-        "runCount": 744,
-        "averageParticipationPct": 20.9,
-        "averageRunDepthStep": 62.2,
+        "runCount": 745,
+        "averageParticipationPct": 21.0,
+        "averageRunDepthStep": 62.3,
         "averageRunDepthPct": 44.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -35718,8 +35718,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35797,18 +35797,18 @@
         ]
       },
       "15": {
-        "runCount": 767,
-        "averageParticipationPct": 22.8,
+        "runCount": 768,
+        "averageParticipationPct": 22.9,
         "averageRunDepthStep": 60.8,
-        "averageRunDepthPct": 43.7,
+        "averageRunDepthPct": 43.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35886,18 +35886,18 @@
         ]
       },
       "14": {
-        "runCount": 767,
-        "averageParticipationPct": 22.8,
+        "runCount": 768,
+        "averageParticipationPct": 22.9,
         "averageRunDepthStep": 60.8,
-        "averageRunDepthPct": 43.7,
+        "averageRunDepthPct": 43.8,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -35975,9 +35975,9 @@
         ]
       },
       "13": {
-        "runCount": 852,
-        "averageParticipationPct": 21.0,
-        "averageRunDepthStep": 56.0,
+        "runCount": 853,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 56.1,
         "averageRunDepthPct": 40.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -35985,8 +35985,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36064,9 +36064,9 @@
         ]
       },
       "12": {
-        "runCount": 852,
-        "averageParticipationPct": 21.0,
-        "averageRunDepthStep": 56.0,
+        "runCount": 853,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 56.1,
         "averageRunDepthPct": 40.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36074,8 +36074,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36153,9 +36153,9 @@
         ]
       },
       "11": {
-        "runCount": 852,
-        "averageParticipationPct": 21.0,
-        "averageRunDepthStep": 56.0,
+        "runCount": 853,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 56.1,
         "averageRunDepthPct": 40.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36163,8 +36163,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36242,9 +36242,9 @@
         ]
       },
       "10": {
-        "runCount": 852,
-        "averageParticipationPct": 21.0,
-        "averageRunDepthStep": 56.0,
+        "runCount": 853,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 56.1,
         "averageRunDepthPct": 40.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36252,8 +36252,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36331,9 +36331,9 @@
         ]
       },
       "9": {
-        "runCount": 852,
-        "averageParticipationPct": 21.0,
-        "averageRunDepthStep": 56.0,
+        "runCount": 853,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 56.1,
         "averageRunDepthPct": 40.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36341,8 +36341,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36420,9 +36420,9 @@
         ]
       },
       "8": {
-        "runCount": 852,
-        "averageParticipationPct": 21.0,
-        "averageRunDepthStep": 56.0,
+        "runCount": 853,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 56.1,
         "averageRunDepthPct": 40.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36430,8 +36430,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36509,7 +36509,7 @@
         ]
       },
       "7": {
-        "runCount": 853,
+        "runCount": 854,
         "averageParticipationPct": 21.0,
         "averageRunDepthStep": 56.0,
         "averageRunDepthPct": 40.3,
@@ -36519,8 +36519,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36598,7 +36598,7 @@
         ]
       },
       "6": {
-        "runCount": 853,
+        "runCount": 854,
         "averageParticipationPct": 21.0,
         "averageRunDepthStep": 56.0,
         "averageRunDepthPct": 40.3,
@@ -36608,8 +36608,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36687,9 +36687,9 @@
         ]
       },
       "5": {
-        "runCount": 859,
+        "runCount": 860,
         "averageParticipationPct": 21.2,
-        "averageRunDepthStep": 55.6,
+        "averageRunDepthStep": 55.7,
         "averageRunDepthPct": 40.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36697,8 +36697,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36776,9 +36776,9 @@
         ]
       },
       "4": {
-        "runCount": 859,
+        "runCount": 860,
         "averageParticipationPct": 21.2,
-        "averageRunDepthStep": 55.6,
+        "averageRunDepthStep": 55.7,
         "averageRunDepthPct": 40.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36786,8 +36786,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36865,9 +36865,9 @@
         ]
       },
       "3": {
-        "runCount": 859,
+        "runCount": 860,
         "averageParticipationPct": 21.2,
-        "averageRunDepthStep": 55.6,
+        "averageRunDepthStep": 55.7,
         "averageRunDepthPct": 40.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36875,8 +36875,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -36954,9 +36954,9 @@
         ]
       },
       "2": {
-        "runCount": 859,
+        "runCount": 860,
         "averageParticipationPct": 21.2,
-        "averageRunDepthStep": 55.6,
+        "averageRunDepthStep": 55.7,
         "averageRunDepthPct": 40.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -36964,8 +36964,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {
@@ -37043,9 +37043,9 @@
         ]
       },
       "1": {
-        "runCount": 859,
+        "runCount": 860,
         "averageParticipationPct": 21.2,
-        "averageRunDepthStep": 55.6,
+        "averageRunDepthStep": 55.7,
         "averageRunDepthPct": 40.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
@@ -37053,8 +37053,8 @@
             "usageKey": "268",
             "displayName": "Leader Flannery",
             "leadLevel": 47,
-            "partyCount": 42,
-            "ownedCount": 86,
+            "partyCount": 43,
+            "ownedCount": 87,
             "participationPct": 49
           },
           {

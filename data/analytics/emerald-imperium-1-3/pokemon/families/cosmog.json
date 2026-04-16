@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "cosmog",
   "familyMembers": [
     "Cosmoem",
@@ -42917,10 +42917,10 @@
           ]
         },
         "43": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 33,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -42980,6 +42980,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
@@ -42990,14 +42998,6 @@
             {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -43006,10 +43006,10 @@
           ]
         },
         "42": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 33,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -43069,6 +43069,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
@@ -43079,14 +43087,6 @@
             {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -43095,10 +43095,10 @@
           ]
         },
         "41": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 33,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -43158,6 +43158,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
@@ -43168,14 +43176,6 @@
             {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -43184,10 +43184,10 @@
           ]
         },
         "40": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 33,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -43247,6 +43247,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
@@ -43257,14 +43265,6 @@
             {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -43273,10 +43273,10 @@
           ]
         },
         "39": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 33,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -43336,6 +43336,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
@@ -43346,14 +43354,6 @@
             {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -43362,10 +43362,10 @@
           ]
         },
         "38": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 33,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -43425,6 +43425,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
@@ -43435,14 +43443,6 @@
             {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -43451,10 +43451,10 @@
           ]
         },
         "37": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 33,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -43514,6 +43514,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
@@ -43524,14 +43532,6 @@
             {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -43540,10 +43540,10 @@
           ]
         },
         "36": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 33,
+          "averageParticipationPct": 19.0,
+          "averageRunDepthStep": 111.5,
+          "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -43603,6 +43603,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
@@ -43613,14 +43621,6 @@
             {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -43629,16 +43629,24 @@
           ]
         },
         "35": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 34,
+          "averageParticipationPct": 21.4,
+          "averageRunDepthStep": 109.3,
+          "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "159",
               "displayName": "Kindler Spencer",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
@@ -43692,25 +43700,17 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -43718,16 +43718,24 @@
           ]
         },
         "34": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 34,
+          "averageParticipationPct": 21.4,
+          "averageRunDepthStep": 109.3,
+          "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "159",
               "displayName": "Kindler Spencer",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
@@ -43781,25 +43789,17 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "267",
               "displayName": "Leader Wattson",
               "leadLevel": 34,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -43807,16 +43807,24 @@
           ]
         },
         "33": {
-          "runCount": 32,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 113.7,
-          "averageRunDepthPct": 81.8,
+          "runCount": 34,
+          "averageParticipationPct": 21.4,
+          "averageRunDepthStep": 109.3,
+          "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "159",
               "displayName": "Kindler Spencer",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
@@ -43865,6 +43873,14 @@
               "usageKey": "Hiker Trent",
               "displayName": "Hiker Trent",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -43876,36 +43892,28 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Magma Admin Courtney",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
             }
           ]
         },
         "32": {
-          "runCount": 33,
-          "averageParticipationPct": 16.3,
-          "averageRunDepthStep": 111.2,
-          "averageRunDepthPct": 80.0,
+          "runCount": 35,
+          "averageParticipationPct": 20.8,
+          "averageRunDepthStep": 107.1,
+          "averageRunDepthPct": 77.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
               "usageKey": "159",
               "displayName": "Kindler Spencer",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
@@ -43959,25 +43967,17 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Magma Admin Courtney",
               "displayName": "Magma Admin Courtney",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "858",
-              "displayName": "Rival Dawn Lilycove",
-              "leadLevel": 71,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -43985,10 +43985,10 @@
           ]
         },
         "31": {
-          "runCount": 35,
-          "averageParticipationPct": 21.1,
-          "averageRunDepthStep": 106.6,
-          "averageRunDepthPct": 76.7,
+          "runCount": 37,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 102.9,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44010,6 +44010,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44058,14 +44066,6 @@
             {
               "usageKey": "Guitarist Joseph",
               "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Lucas",
-              "displayName": "Hiker Lucas",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44074,10 +44074,10 @@
           ]
         },
         "30": {
-          "runCount": 35,
-          "averageParticipationPct": 21.1,
-          "averageRunDepthStep": 106.6,
-          "averageRunDepthPct": 76.7,
+          "runCount": 37,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 102.9,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44099,6 +44099,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44147,14 +44155,6 @@
             {
               "usageKey": "Guitarist Joseph",
               "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Lucas",
-              "displayName": "Hiker Lucas",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44163,10 +44163,10 @@
           ]
         },
         "29": {
-          "runCount": 35,
-          "averageParticipationPct": 21.1,
-          "averageRunDepthStep": 106.6,
-          "averageRunDepthPct": 76.7,
+          "runCount": 37,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 102.9,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44188,6 +44188,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44236,14 +44244,6 @@
             {
               "usageKey": "Guitarist Joseph",
               "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Lucas",
-              "displayName": "Hiker Lucas",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44252,10 +44252,10 @@
           ]
         },
         "28": {
-          "runCount": 35,
-          "averageParticipationPct": 21.1,
-          "averageRunDepthStep": 106.6,
-          "averageRunDepthPct": 76.7,
+          "runCount": 37,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 102.9,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44277,6 +44277,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44325,14 +44333,6 @@
             {
               "usageKey": "Guitarist Joseph",
               "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Lucas",
-              "displayName": "Hiker Lucas",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44341,10 +44341,10 @@
           ]
         },
         "27": {
-          "runCount": 35,
-          "averageParticipationPct": 21.1,
-          "averageRunDepthStep": 106.6,
-          "averageRunDepthPct": 76.7,
+          "runCount": 37,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 102.9,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44366,6 +44366,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44414,14 +44422,6 @@
             {
               "usageKey": "Guitarist Joseph",
               "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Lucas",
-              "displayName": "Hiker Lucas",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44430,10 +44430,10 @@
           ]
         },
         "26": {
-          "runCount": 35,
-          "averageParticipationPct": 21.1,
-          "averageRunDepthStep": 106.6,
-          "averageRunDepthPct": 76.7,
+          "runCount": 37,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 102.9,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44455,6 +44455,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44503,14 +44511,6 @@
             {
               "usageKey": "Guitarist Joseph",
               "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Lucas",
-              "displayName": "Hiker Lucas",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44519,10 +44519,10 @@
           ]
         },
         "25": {
-          "runCount": 35,
-          "averageParticipationPct": 21.1,
-          "averageRunDepthStep": 106.6,
-          "averageRunDepthPct": 76.7,
+          "runCount": 37,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 102.9,
+          "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44544,6 +44544,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44592,14 +44600,6 @@
             {
               "usageKey": "Guitarist Joseph",
               "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Lucas",
-              "displayName": "Hiker Lucas",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44608,10 +44608,10 @@
           ]
         },
         "24": {
-          "runCount": 36,
-          "averageParticipationPct": 23.3,
-          "averageRunDepthStep": 104.3,
-          "averageRunDepthPct": 75.0,
+          "runCount": 38,
+          "averageParticipationPct": 27.1,
+          "averageRunDepthStep": 100.9,
+          "averageRunDepthPct": 72.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44633,6 +44633,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44681,14 +44689,6 @@
             {
               "usageKey": "Fisherman Kai",
               "displayName": "Fisherman Kai",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Guitarist Joseph",
-              "displayName": "Guitarist Joseph",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44697,10 +44697,10 @@
           ]
         },
         "23": {
-          "runCount": 37,
-          "averageParticipationPct": 24.2,
-          "averageRunDepthStep": 102.1,
-          "averageRunDepthPct": 73.5,
+          "runCount": 39,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44730,6 +44730,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44770,14 +44778,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44786,10 +44786,10 @@
           ]
         },
         "22": {
-          "runCount": 37,
-          "averageParticipationPct": 24.2,
-          "averageRunDepthStep": 102.1,
-          "averageRunDepthPct": 73.5,
+          "runCount": 39,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44819,6 +44819,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44859,14 +44867,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44875,10 +44875,10 @@
           ]
         },
         "21": {
-          "runCount": 37,
-          "averageParticipationPct": 24.2,
-          "averageRunDepthStep": 102.1,
-          "averageRunDepthPct": 73.5,
+          "runCount": 39,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44908,6 +44908,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -44948,14 +44956,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -44964,10 +44964,10 @@
           ]
         },
         "20": {
-          "runCount": 37,
-          "averageParticipationPct": 24.2,
-          "averageRunDepthStep": 102.1,
-          "averageRunDepthPct": 73.5,
+          "runCount": 39,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -44997,6 +44997,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45037,14 +45045,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45053,10 +45053,10 @@
           ]
         },
         "19": {
-          "runCount": 37,
-          "averageParticipationPct": 24.2,
-          "averageRunDepthStep": 102.1,
-          "averageRunDepthPct": 73.5,
+          "runCount": 39,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45086,6 +45086,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45126,14 +45134,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45142,10 +45142,10 @@
           ]
         },
         "18": {
-          "runCount": 37,
-          "averageParticipationPct": 24.2,
-          "averageRunDepthStep": 102.1,
-          "averageRunDepthPct": 73.5,
+          "runCount": 39,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45175,6 +45175,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45215,14 +45223,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45231,10 +45231,10 @@
           ]
         },
         "17": {
-          "runCount": 37,
-          "averageParticipationPct": 24.2,
-          "averageRunDepthStep": 102.1,
-          "averageRunDepthPct": 73.5,
+          "runCount": 39,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45264,6 +45264,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45304,14 +45312,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45320,10 +45320,10 @@
           ]
         },
         "16": {
-          "runCount": 37,
-          "averageParticipationPct": 24.2,
-          "averageRunDepthStep": 102.1,
-          "averageRunDepthPct": 73.5,
+          "runCount": 39,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 98.9,
+          "averageRunDepthPct": 71.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45353,6 +45353,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45393,14 +45401,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45409,10 +45409,10 @@
           ]
         },
         "15": {
-          "runCount": 38,
-          "averageParticipationPct": 26.2,
-          "averageRunDepthStep": 99.8,
-          "averageRunDepthPct": 71.8,
+          "runCount": 40,
+          "averageParticipationPct": 29.6,
+          "averageRunDepthStep": 96.8,
+          "averageRunDepthPct": 69.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45442,6 +45442,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45482,14 +45490,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45498,10 +45498,10 @@
           ]
         },
         "14": {
-          "runCount": 38,
-          "averageParticipationPct": 26.2,
-          "averageRunDepthStep": 99.8,
-          "averageRunDepthPct": 71.8,
+          "runCount": 40,
+          "averageParticipationPct": 29.6,
+          "averageRunDepthStep": 96.8,
+          "averageRunDepthPct": 69.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45531,6 +45531,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45571,14 +45579,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45587,10 +45587,10 @@
           ]
         },
         "13": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45620,6 +45620,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45660,14 +45668,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45676,10 +45676,10 @@
           ]
         },
         "12": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45709,6 +45709,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45749,14 +45757,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45765,10 +45765,10 @@
           ]
         },
         "11": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45798,6 +45798,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45838,14 +45846,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45854,10 +45854,10 @@
           ]
         },
         "10": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45887,6 +45887,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -45927,14 +45935,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -45943,10 +45943,10 @@
           ]
         },
         "9": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -45976,6 +45976,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46016,14 +46024,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -46032,10 +46032,10 @@
           ]
         },
         "8": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46065,6 +46065,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46105,14 +46113,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -46121,10 +46121,10 @@
           ]
         },
         "7": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46154,6 +46154,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46194,14 +46202,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -46210,10 +46210,10 @@
           ]
         },
         "6": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46243,6 +46243,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46283,14 +46291,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -46299,10 +46299,10 @@
           ]
         },
         "5": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46332,6 +46332,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46372,14 +46380,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -46388,10 +46388,10 @@
           ]
         },
         "4": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46421,6 +46421,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46461,14 +46469,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -46477,10 +46477,10 @@
           ]
         },
         "3": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46510,6 +46510,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46550,14 +46558,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -46566,10 +46566,10 @@
           ]
         },
         "2": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46599,6 +46599,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46639,14 +46647,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -46655,10 +46655,10 @@
           ]
         },
         "1": {
-          "runCount": 39,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 97.6,
-          "averageRunDepthPct": 70.2,
+          "runCount": 41,
+          "averageParticipationPct": 31.4,
+          "averageRunDepthStep": 94.7,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -46688,6 +46688,14 @@
             {
               "usageKey": "Pkmn Breeder Lydia",
               "displayName": "Pkmn Breeder Lydia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route111",
+              "displayName": "Rival Dawn Route111",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 2,
@@ -46728,14 +46736,6 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Fisherman Kai",
-              "displayName": "Fisherman Kai",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -55293,10 +55293,10 @@
         ]
       },
       "43": {
-        "runCount": 46,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 106.0,
-        "averageRunDepthPct": 76.3,
+        "runCount": 47,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 104.7,
+        "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -55382,10 +55382,10 @@
         ]
       },
       "42": {
-        "runCount": 46,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 106.0,
-        "averageRunDepthPct": 76.3,
+        "runCount": 47,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 104.7,
+        "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -55471,10 +55471,10 @@
         ]
       },
       "41": {
-        "runCount": 46,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 106.0,
-        "averageRunDepthPct": 76.3,
+        "runCount": 47,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 104.7,
+        "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -55560,10 +55560,10 @@
         ]
       },
       "40": {
-        "runCount": 46,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 106.0,
-        "averageRunDepthPct": 76.3,
+        "runCount": 47,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 104.7,
+        "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -55649,10 +55649,10 @@
         ]
       },
       "39": {
-        "runCount": 46,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 106.0,
-        "averageRunDepthPct": 76.3,
+        "runCount": 47,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 104.7,
+        "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -55738,10 +55738,10 @@
         ]
       },
       "38": {
-        "runCount": 46,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 106.0,
-        "averageRunDepthPct": 76.3,
+        "runCount": 47,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 104.7,
+        "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -55827,10 +55827,10 @@
         ]
       },
       "37": {
-        "runCount": 46,
-        "averageParticipationPct": 32.8,
-        "averageRunDepthStep": 106.0,
-        "averageRunDepthPct": 76.3,
+        "runCount": 47,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 104.7,
+        "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -55916,10 +55916,10 @@
         ]
       },
       "36": {
-        "runCount": 47,
-        "averageParticipationPct": 32.1,
-        "averageRunDepthStep": 104.5,
-        "averageRunDepthPct": 75.2,
+        "runCount": 48,
+        "averageParticipationPct": 33.3,
+        "averageRunDepthStep": 103.2,
+        "averageRunDepthPct": 74.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -56005,10 +56005,10 @@
         ]
       },
       "35": {
-        "runCount": 48,
-        "averageParticipationPct": 31.4,
-        "averageRunDepthStep": 103.1,
-        "averageRunDepthPct": 74.2,
+        "runCount": 50,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 100.5,
+        "averageRunDepthPct": 72.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -56023,6 +56023,14 @@
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -56078,14 +56086,6 @@
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -56094,10 +56094,10 @@
         ]
       },
       "34": {
-        "runCount": 48,
-        "averageParticipationPct": 31.4,
-        "averageRunDepthStep": 103.1,
-        "averageRunDepthPct": 74.2,
+        "runCount": 50,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 100.5,
+        "averageRunDepthPct": 72.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -56112,6 +56112,14 @@
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -56167,14 +56175,6 @@
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -56183,10 +56183,10 @@
         ]
       },
       "33": {
-        "runCount": 48,
-        "averageParticipationPct": 31.4,
-        "averageRunDepthStep": 103.1,
-        "averageRunDepthPct": 74.2,
+        "runCount": 50,
+        "averageParticipationPct": 34.0,
+        "averageRunDepthStep": 100.5,
+        "averageRunDepthPct": 72.3,
         "averageBattlesUsed": 1.2,
         "topBattles": [
           {
@@ -56201,6 +56201,14 @@
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -56260,22 +56268,14 @@
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
           }
         ]
       },
       "32": {
-        "runCount": 49,
-        "averageParticipationPct": 30.8,
-        "averageRunDepthStep": 101.6,
-        "averageRunDepthPct": 73.1,
+        "runCount": 51,
+        "averageParticipationPct": 33.3,
+        "averageRunDepthStep": 99.2,
+        "averageRunDepthPct": 71.3,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -56295,6 +56295,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -56349,22 +56357,14 @@
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Aqua Leader Archie Hideout",
-            "displayName": "Aqua Leader Archie Hideout",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
           }
         ]
       },
       "31": {
-        "runCount": 51,
-        "averageParticipationPct": 33.5,
-        "averageRunDepthStep": 98.9,
-        "averageRunDepthPct": 71.1,
+        "runCount": 53,
+        "averageParticipationPct": 35.9,
+        "averageRunDepthStep": 96.6,
+        "averageRunDepthPct": 69.5,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -56394,6 +56394,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -56438,22 +56446,14 @@
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
           }
         ]
       },
       "30": {
-        "runCount": 52,
-        "averageParticipationPct": 32.9,
-        "averageRunDepthStep": 97.5,
-        "averageRunDepthPct": 70.2,
+        "runCount": 54,
+        "averageParticipationPct": 35.2,
+        "averageRunDepthStep": 95.4,
+        "averageRunDepthPct": 68.6,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -56483,6 +56483,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -56524,14 +56532,6 @@
             "usageKey": "7",
             "displayName": "Aqua Admin Matt Seafloor Cavern",
             "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
@@ -56539,10 +56539,10 @@
         ]
       },
       "29": {
-        "runCount": 52,
-        "averageParticipationPct": 32.9,
-        "averageRunDepthStep": 97.5,
-        "averageRunDepthPct": 70.2,
+        "runCount": 54,
+        "averageParticipationPct": 35.2,
+        "averageRunDepthStep": 95.4,
+        "averageRunDepthPct": 68.6,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -56572,6 +56572,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -56613,14 +56621,6 @@
             "usageKey": "7",
             "displayName": "Aqua Admin Matt Seafloor Cavern",
             "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
@@ -56628,10 +56628,10 @@
         ]
       },
       "28": {
-        "runCount": 52,
-        "averageParticipationPct": 32.9,
-        "averageRunDepthStep": 97.5,
-        "averageRunDepthPct": 70.2,
+        "runCount": 54,
+        "averageParticipationPct": 35.2,
+        "averageRunDepthStep": 95.4,
+        "averageRunDepthPct": 68.6,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -56661,6 +56661,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -56702,14 +56710,6 @@
             "usageKey": "7",
             "displayName": "Aqua Admin Matt Seafloor Cavern",
             "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
@@ -56717,10 +56717,10 @@
         ]
       },
       "27": {
-        "runCount": 52,
-        "averageParticipationPct": 32.9,
-        "averageRunDepthStep": 97.5,
-        "averageRunDepthPct": 70.2,
+        "runCount": 54,
+        "averageParticipationPct": 35.2,
+        "averageRunDepthStep": 95.4,
+        "averageRunDepthPct": 68.6,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -56750,6 +56750,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -56791,14 +56799,6 @@
             "usageKey": "7",
             "displayName": "Aqua Admin Matt Seafloor Cavern",
             "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
@@ -56806,10 +56806,10 @@
         ]
       },
       "26": {
-        "runCount": 52,
-        "averageParticipationPct": 32.9,
-        "averageRunDepthStep": 97.5,
-        "averageRunDepthPct": 70.2,
+        "runCount": 54,
+        "averageParticipationPct": 35.2,
+        "averageRunDepthStep": 95.4,
+        "averageRunDepthPct": 68.6,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -56839,6 +56839,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -56880,14 +56888,6 @@
             "usageKey": "7",
             "displayName": "Aqua Admin Matt Seafloor Cavern",
             "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
@@ -56895,10 +56895,10 @@
         ]
       },
       "25": {
-        "runCount": 52,
-        "averageParticipationPct": 32.9,
-        "averageRunDepthStep": 97.5,
-        "averageRunDepthPct": 70.2,
+        "runCount": 54,
+        "averageParticipationPct": 35.2,
+        "averageRunDepthStep": 95.4,
+        "averageRunDepthPct": 68.6,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -56928,6 +56928,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -56969,14 +56977,6 @@
             "usageKey": "7",
             "displayName": "Aqua Admin Matt Seafloor Cavern",
             "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
@@ -56984,10 +56984,10 @@
         ]
       },
       "24": {
-        "runCount": 53,
-        "averageParticipationPct": 34.1,
-        "averageRunDepthStep": 96.2,
-        "averageRunDepthPct": 69.2,
+        "runCount": 55,
+        "averageParticipationPct": 36.4,
+        "averageRunDepthStep": 94.1,
+        "averageRunDepthPct": 67.7,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -57017,6 +57017,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -57058,14 +57066,6 @@
             "usageKey": "7",
             "displayName": "Aqua Admin Matt Seafloor Cavern",
             "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "336",
-            "displayName": "Leader Fantina",
-            "leadLevel": -1,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
@@ -57073,10 +57073,10 @@
         ]
       },
       "23": {
-        "runCount": 54,
-        "averageParticipationPct": 34.6,
-        "averageRunDepthStep": 94.8,
-        "averageRunDepthPct": 68.2,
+        "runCount": 56,
+        "averageParticipationPct": 36.7,
+        "averageRunDepthStep": 92.8,
+        "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -57120,6 +57120,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57150,22 +57158,14 @@
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
           }
         ]
       },
       "22": {
-        "runCount": 54,
-        "averageParticipationPct": 34.6,
-        "averageRunDepthStep": 94.8,
-        "averageRunDepthPct": 68.2,
+        "runCount": 56,
+        "averageParticipationPct": 36.7,
+        "averageRunDepthStep": 92.8,
+        "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -57209,6 +57209,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57239,22 +57247,14 @@
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
           }
         ]
       },
       "21": {
-        "runCount": 54,
-        "averageParticipationPct": 34.6,
-        "averageRunDepthStep": 94.8,
-        "averageRunDepthPct": 68.2,
+        "runCount": 56,
+        "averageParticipationPct": 36.7,
+        "averageRunDepthStep": 92.8,
+        "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -57298,6 +57298,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57328,22 +57336,14 @@
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
           }
         ]
       },
       "20": {
-        "runCount": 54,
-        "averageParticipationPct": 34.6,
-        "averageRunDepthStep": 94.8,
-        "averageRunDepthPct": 68.2,
+        "runCount": 56,
+        "averageParticipationPct": 36.7,
+        "averageRunDepthStep": 92.8,
+        "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -57387,6 +57387,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57417,22 +57425,14 @@
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
           }
         ]
       },
       "19": {
-        "runCount": 54,
-        "averageParticipationPct": 34.6,
-        "averageRunDepthStep": 94.8,
-        "averageRunDepthPct": 68.2,
+        "runCount": 56,
+        "averageParticipationPct": 36.7,
+        "averageRunDepthStep": 92.8,
+        "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -57470,6 +57470,14 @@
           {
             "usageKey": "Rival Brendan Route 110 Torchic",
             "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 2,
@@ -57506,22 +57514,14 @@
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
           }
         ]
       },
       "18": {
-        "runCount": 55,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 93.4,
-        "averageRunDepthPct": 67.2,
+        "runCount": 57,
+        "averageParticipationPct": 37.4,
+        "averageRunDepthStep": 91.5,
+        "averageRunDepthPct": 65.8,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
@@ -57541,14 +57541,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -57560,6 +57552,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -57581,6 +57581,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57595,22 +57603,14 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "17": {
-        "runCount": 55,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 93.4,
-        "averageRunDepthPct": 67.2,
+        "runCount": 57,
+        "averageParticipationPct": 37.4,
+        "averageRunDepthStep": 91.5,
+        "averageRunDepthPct": 65.8,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
@@ -57630,14 +57630,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -57649,6 +57641,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -57670,6 +57670,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57684,22 +57692,14 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "16": {
-        "runCount": 55,
-        "averageParticipationPct": 35.3,
-        "averageRunDepthStep": 93.4,
-        "averageRunDepthPct": 67.2,
+        "runCount": 57,
+        "averageParticipationPct": 37.4,
+        "averageRunDepthStep": 91.5,
+        "averageRunDepthPct": 65.8,
         "averageBattlesUsed": 1.4,
         "topBattles": [
           {
@@ -57719,14 +57719,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -57738,6 +57730,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -57759,6 +57759,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57773,23 +57781,15 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "15": {
-        "runCount": 56,
-        "averageParticipationPct": 36.5,
-        "averageRunDepthStep": 92.0,
-        "averageRunDepthPct": 66.2,
-        "averageBattlesUsed": 1.4,
+        "runCount": 58,
+        "averageParticipationPct": 38.5,
+        "averageRunDepthStep": 90.2,
+        "averageRunDepthPct": 64.9,
+        "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "270",
@@ -57808,14 +57808,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -57827,6 +57819,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -57848,6 +57848,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57862,23 +57870,15 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "14": {
-        "runCount": 56,
-        "averageParticipationPct": 36.5,
-        "averageRunDepthStep": 92.0,
-        "averageRunDepthPct": 66.2,
-        "averageBattlesUsed": 1.4,
+        "runCount": 58,
+        "averageParticipationPct": 38.5,
+        "averageRunDepthStep": 90.2,
+        "averageRunDepthPct": 64.9,
+        "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "270",
@@ -57897,14 +57897,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -57916,6 +57908,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -57937,6 +57937,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -57951,22 +57959,14 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "13": {
-        "runCount": 58,
-        "averageParticipationPct": 38.6,
-        "averageRunDepthStep": 89.3,
-        "averageRunDepthPct": 64.2,
+        "runCount": 60,
+        "averageParticipationPct": 40.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -57986,14 +57986,6 @@
             "participationPct": 80
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -58005,6 +57997,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -58026,6 +58026,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58040,22 +58048,14 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "12": {
-        "runCount": 58,
-        "averageParticipationPct": 38.6,
-        "averageRunDepthStep": 89.3,
-        "averageRunDepthPct": 64.2,
+        "runCount": 60,
+        "averageParticipationPct": 40.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -58075,14 +58075,6 @@
             "participationPct": 80
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -58094,6 +58086,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -58115,6 +58115,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58129,22 +58137,14 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "11": {
-        "runCount": 58,
-        "averageParticipationPct": 38.6,
-        "averageRunDepthStep": 89.3,
-        "averageRunDepthPct": 64.2,
+        "runCount": 60,
+        "averageParticipationPct": 40.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -58164,14 +58164,6 @@
             "participationPct": 80
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -58183,6 +58175,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -58204,6 +58204,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58218,22 +58226,14 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "10": {
-        "runCount": 58,
-        "averageParticipationPct": 38.6,
-        "averageRunDepthStep": 89.3,
-        "averageRunDepthPct": 64.2,
+        "runCount": 60,
+        "averageParticipationPct": 40.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -58253,14 +58253,6 @@
             "participationPct": 80
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -58272,6 +58264,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -58293,6 +58293,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58307,22 +58315,14 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "9": {
-        "runCount": 58,
-        "averageParticipationPct": 38.6,
-        "averageRunDepthStep": 89.3,
-        "averageRunDepthPct": 64.2,
+        "runCount": 60,
+        "averageParticipationPct": 40.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -58342,14 +58342,6 @@
             "participationPct": 80
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -58361,6 +58353,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -58382,6 +58382,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58396,22 +58404,14 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "8": {
-        "runCount": 58,
-        "averageParticipationPct": 38.6,
-        "averageRunDepthStep": 89.3,
-        "averageRunDepthPct": 64.2,
+        "runCount": 60,
+        "averageParticipationPct": 40.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -58431,14 +58431,6 @@
             "participationPct": 80
           },
           {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "159",
             "displayName": "Kindler Spencer",
             "leadLevel": -1,
@@ -58450,6 +58442,14 @@
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -58471,6 +58471,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58485,22 +58493,103 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "7": {
-        "runCount": 58,
-        "averageParticipationPct": 38.6,
-        "averageRunDepthStep": 89.3,
-        "averageRunDepthPct": 64.2,
+        "runCount": 60,
+        "averageParticipationPct": 40.5,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
+        "averageBattlesUsed": 1.3,
+        "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 5,
+            "ownedCount": 5,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "270",
+            "displayName": "Leader Winona",
+            "leadLevel": 68,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "159",
+            "displayName": "Kindler Spencer",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "851",
+            "displayName": "Leader Candice",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Pkmn Breeder Lydia",
+            "displayName": "Pkmn Breeder Lydia",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Brendan Route 110 Torchic",
+            "displayName": "Rival Brendan Route 110 Torchic",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "727",
+            "displayName": "Rival Suneal",
+            "leadLevel": 0,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          }
+        ]
+      },
+      "6": {
+        "runCount": 61,
+        "averageParticipationPct": 41.5,
+        "averageRunDepthStep": 86.3,
+        "averageRunDepthPct": 62.1,
         "averageBattlesUsed": 1.3,
         "topBattles": [
           {
@@ -58523,98 +58612,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
-            "usageKey": "159",
-            "displayName": "Kindler Spencer",
-            "leadLevel": -1,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "851",
-            "displayName": "Leader Candice",
-            "leadLevel": -1,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Pkmn Breeder Lydia",
-            "displayName": "Pkmn Breeder Lydia",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Brendan Route 110 Torchic",
-            "displayName": "Rival Brendan Route 110 Torchic",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "727",
-            "displayName": "Rival Suneal",
-            "leadLevel": 0,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Wally Mauville",
-            "displayName": "Rival Wally Mauville",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          }
-        ]
-      },
-      "6": {
-        "runCount": 59,
-        "averageParticipationPct": 39.7,
-        "averageRunDepthStep": 87.9,
-        "averageRunDepthPct": 63.2,
-        "averageBattlesUsed": 1.4,
-        "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "270",
-            "displayName": "Leader Winona",
-            "leadLevel": 68,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
             "partyCount": 3,
-            "ownedCount": 2,
-            "participationPct": 150
+            "ownedCount": 3,
+            "participationPct": 100
           },
           {
             "usageKey": "159",
@@ -58649,6 +58649,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58663,23 +58671,15 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "5": {
-        "runCount": 59,
-        "averageParticipationPct": 39.7,
-        "averageRunDepthStep": 87.9,
-        "averageRunDepthPct": 63.2,
-        "averageBattlesUsed": 1.4,
+        "runCount": 61,
+        "averageParticipationPct": 41.5,
+        "averageRunDepthStep": 86.3,
+        "averageRunDepthPct": 62.1,
+        "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "266",
@@ -58702,8 +58702,8 @@
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 3,
-            "ownedCount": 2,
-            "participationPct": 150
+            "ownedCount": 3,
+            "participationPct": 100
           },
           {
             "usageKey": "159",
@@ -58738,6 +58738,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58752,23 +58760,15 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "4": {
-        "runCount": 59,
-        "averageParticipationPct": 39.7,
-        "averageRunDepthStep": 87.9,
-        "averageRunDepthPct": 63.2,
-        "averageBattlesUsed": 1.4,
+        "runCount": 61,
+        "averageParticipationPct": 41.5,
+        "averageRunDepthStep": 86.3,
+        "averageRunDepthPct": 62.1,
+        "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "266",
@@ -58791,8 +58791,8 @@
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 3,
-            "ownedCount": 2,
-            "participationPct": 150
+            "ownedCount": 3,
+            "participationPct": 100
           },
           {
             "usageKey": "159",
@@ -58827,6 +58827,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58841,23 +58849,15 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "3": {
-        "runCount": 59,
-        "averageParticipationPct": 39.7,
-        "averageRunDepthStep": 87.9,
-        "averageRunDepthPct": 63.2,
-        "averageBattlesUsed": 1.4,
+        "runCount": 61,
+        "averageParticipationPct": 41.5,
+        "averageRunDepthStep": 86.3,
+        "averageRunDepthPct": 62.1,
+        "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "266",
@@ -58880,8 +58880,8 @@
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 3,
-            "ownedCount": 2,
-            "participationPct": 150
+            "ownedCount": 3,
+            "participationPct": 100
           },
           {
             "usageKey": "159",
@@ -58916,6 +58916,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -58930,23 +58938,15 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "2": {
-        "runCount": 59,
-        "averageParticipationPct": 39.7,
-        "averageRunDepthStep": 87.9,
-        "averageRunDepthPct": 63.2,
-        "averageBattlesUsed": 1.4,
+        "runCount": 61,
+        "averageParticipationPct": 41.5,
+        "averageRunDepthStep": 86.3,
+        "averageRunDepthPct": 62.1,
+        "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "266",
@@ -58969,8 +58969,8 @@
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 3,
-            "ownedCount": 2,
-            "participationPct": 150
+            "ownedCount": 3,
+            "participationPct": 100
           },
           {
             "usageKey": "159",
@@ -59005,6 +59005,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -59019,23 +59027,15 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       },
       "1": {
-        "runCount": 59,
-        "averageParticipationPct": 39.7,
-        "averageRunDepthStep": 87.9,
-        "averageRunDepthPct": 63.2,
-        "averageBattlesUsed": 1.4,
+        "runCount": 61,
+        "averageParticipationPct": 41.5,
+        "averageRunDepthStep": 86.3,
+        "averageRunDepthPct": 62.1,
+        "averageBattlesUsed": 1.3,
         "topBattles": [
           {
             "usageKey": "266",
@@ -59058,8 +59058,8 @@
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 3,
-            "ownedCount": 2,
-            "participationPct": 150
+            "ownedCount": 3,
+            "participationPct": 100
           },
           {
             "usageKey": "159",
@@ -59094,6 +59094,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Dawn Route111",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "727",
             "displayName": "Rival Suneal",
             "leadLevel": 0,
@@ -59108,14 +59116,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "860",
-            "displayName": "Elite Four Cynthia",
-            "leadLevel": 85,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           }
         ]
       }

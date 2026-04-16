@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "tirtouga",
   "familyMembers": [
     "Carracosta",
@@ -11,7 +11,7 @@
       "byMinDepth": {
         "139": {
           "runCount": 7,
-          "averageParticipationPct": 22.8,
+          "averageParticipationPct": 22.7,
           "averageRunDepthStep": 139.0,
           "averageRunDepthPct": 100.0,
           "averageBattlesUsed": 2.4,
@@ -43,6 +43,14 @@
             {
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -87,14 +95,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -124,6 +124,14 @@
             {
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -176,14 +184,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -213,6 +213,14 @@
             {
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -261,14 +269,6 @@
             {
               "usageKey": "728",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "732",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
               "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
@@ -308,6 +308,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "44",
               "displayName": "Ruin Maniac Dusty",
               "leadLevel": -2,
@@ -350,14 +358,6 @@
             {
               "usageKey": "728",
               "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "732",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
               "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
@@ -397,6 +397,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "44",
               "displayName": "Ruin Maniac Dusty",
               "leadLevel": -2,
@@ -440,14 +448,6 @@
               "usageKey": "728",
               "displayName": "Magma Admin Courtney",
               "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "473",
-              "displayName": "Picnicker Martha",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -486,6 +486,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "44",
               "displayName": "Ruin Maniac Dusty",
               "leadLevel": -2,
@@ -529,14 +537,6 @@
               "usageKey": "728",
               "displayName": "Magma Admin Courtney",
               "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "473",
-              "displayName": "Picnicker Martha",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -583,6 +583,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -617,14 +625,6 @@
             {
               "usageKey": "Cooltrainer Albert",
               "displayName": "Cooltrainer Albert",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "Lass Robin",
-              "displayName": "Lass Robin",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
@@ -672,6 +672,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -706,14 +714,6 @@
             {
               "usageKey": "Cooltrainer Albert",
               "displayName": "Cooltrainer Albert",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "Lass Robin",
-              "displayName": "Lass Robin",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
@@ -761,6 +761,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -796,14 +804,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -858,6 +858,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -885,14 +893,6 @@
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "Lass Robin",
-              "displayName": "Lass Robin",
-              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -947,6 +947,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -974,14 +982,6 @@
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "Lass Robin",
-              "displayName": "Lass Robin",
-              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1036,6 +1036,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1063,14 +1071,6 @@
               "usageKey": "80",
               "displayName": "Cooltrainer Albert",
               "leadLevel": 83,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "Lass Robin",
-              "displayName": "Lass Robin",
-              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1125,6 +1125,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1152,14 +1160,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1214,6 +1214,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1241,14 +1249,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1303,6 +1303,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1330,14 +1338,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1346,7 +1346,7 @@
         },
         "124": {
           "runCount": 35,
-          "averageParticipationPct": 6.5,
+          "averageParticipationPct": 6.4,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.6,
           "averageBattlesUsed": 0.7,
@@ -1392,6 +1392,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1419,14 +1427,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1435,7 +1435,7 @@
         },
         "123": {
           "runCount": 35,
-          "averageParticipationPct": 6.5,
+          "averageParticipationPct": 6.4,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.6,
           "averageBattlesUsed": 0.7,
@@ -1481,6 +1481,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1508,14 +1516,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1524,7 +1524,7 @@
         },
         "122": {
           "runCount": 35,
-          "averageParticipationPct": 6.5,
+          "averageParticipationPct": 6.4,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.6,
           "averageBattlesUsed": 0.7,
@@ -1570,6 +1570,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1597,14 +1605,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1613,7 +1613,7 @@
         },
         "121": {
           "runCount": 35,
-          "averageParticipationPct": 6.5,
+          "averageParticipationPct": 6.4,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.6,
           "averageBattlesUsed": 0.7,
@@ -1659,6 +1659,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1686,14 +1694,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1702,7 +1702,7 @@
         },
         "120": {
           "runCount": 35,
-          "averageParticipationPct": 6.5,
+          "averageParticipationPct": 6.4,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.6,
           "averageBattlesUsed": 0.7,
@@ -1748,6 +1748,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1775,14 +1783,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1791,7 +1791,7 @@
         },
         "119": {
           "runCount": 35,
-          "averageParticipationPct": 6.5,
+          "averageParticipationPct": 6.4,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.6,
           "averageBattlesUsed": 0.7,
@@ -1837,6 +1837,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1864,14 +1872,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1880,7 +1880,7 @@
         },
         "118": {
           "runCount": 36,
-          "averageParticipationPct": 6.3,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 133.9,
           "averageRunDepthPct": 96.3,
           "averageBattlesUsed": 0.7,
@@ -1926,6 +1926,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -1953,14 +1961,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -1969,7 +1969,7 @@
         },
         "117": {
           "runCount": 36,
-          "averageParticipationPct": 6.3,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 133.9,
           "averageRunDepthPct": 96.3,
           "averageBattlesUsed": 0.7,
@@ -2015,6 +2015,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2045,20 +2053,12 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "116": {
           "runCount": 38,
-          "averageParticipationPct": 6.0,
+          "averageParticipationPct": 5.9,
           "averageRunDepthStep": 132.9,
           "averageRunDepthPct": 95.6,
           "averageBattlesUsed": 0.7,
@@ -2104,6 +2104,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2131,14 +2139,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2193,6 +2193,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2220,14 +2228,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2282,6 +2282,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2309,14 +2317,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2371,6 +2371,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2398,14 +2406,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2460,6 +2460,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2487,14 +2495,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2549,6 +2549,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2576,14 +2584,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2638,6 +2638,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2665,14 +2673,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2727,6 +2727,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2754,14 +2762,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2816,6 +2816,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2843,14 +2851,6 @@
               "usageKey": "Lass Robin",
               "displayName": "Lass Robin",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "728",
-              "displayName": "Magma Admin Courtney",
-              "leadLevel": 80,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -2897,6 +2897,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -2935,20 +2943,12 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
-              "leadLevel": -2,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "106": {
           "runCount": 44,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.4,
           "averageRunDepthStep": 129.6,
           "averageRunDepthPct": 93.2,
           "averageBattlesUsed": 0.6,
@@ -2986,6 +2986,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3020,14 +3028,6 @@
             {
               "usageKey": "275",
               "displayName": "Picnicker Rachel",
-              "leadLevel": -2,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
@@ -3037,7 +3037,7 @@
         },
         "105": {
           "runCount": 45,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.3,
           "averageRunDepthStep": 129.0,
           "averageRunDepthPct": 92.8,
           "averageBattlesUsed": 0.6,
@@ -3069,6 +3069,14 @@
             {
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3109,14 +3117,6 @@
             {
               "usageKey": "275",
               "displayName": "Picnicker Rachel",
-              "leadLevel": -2,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
@@ -3126,7 +3126,7 @@
         },
         "104": {
           "runCount": 45,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.3,
           "averageRunDepthStep": 129.0,
           "averageRunDepthPct": 92.8,
           "averageBattlesUsed": 0.6,
@@ -3158,6 +3158,14 @@
             {
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3198,14 +3206,6 @@
             {
               "usageKey": "275",
               "displayName": "Picnicker Rachel",
-              "leadLevel": -2,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
@@ -3253,6 +3253,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3287,14 +3295,6 @@
             {
               "usageKey": "275",
               "displayName": "Picnicker Rachel",
-              "leadLevel": -2,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
@@ -3334,6 +3334,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3377,14 +3385,6 @@
               "usageKey": "493",
               "displayName": "Sailor Dwayne 7 Badges",
               "leadLevel": 0,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -3423,6 +3423,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3466,14 +3474,6 @@
               "usageKey": "493",
               "displayName": "Sailor Dwayne 7 Badges",
               "leadLevel": 0,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -3512,6 +3512,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3555,14 +3563,6 @@
               "usageKey": "493",
               "displayName": "Sailor Dwayne 7 Badges",
               "leadLevel": 0,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -3601,6 +3601,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3644,14 +3652,6 @@
               "usageKey": "493",
               "displayName": "Sailor Dwayne 7 Badges",
               "leadLevel": 0,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -3690,6 +3690,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3733,14 +3741,6 @@
               "usageKey": "493",
               "displayName": "Sailor Dwayne 7 Badges",
               "leadLevel": 0,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -3779,6 +3779,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3822,14 +3830,6 @@
               "usageKey": "493",
               "displayName": "Sailor Dwayne 7 Badges",
               "leadLevel": 0,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -3868,6 +3868,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -3911,14 +3919,6 @@
               "usageKey": "493",
               "displayName": "Sailor Dwayne 7 Badges",
               "leadLevel": 0,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "332",
-              "displayName": "Youngster Eddie",
-              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -3957,6 +3957,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -4000,14 +4008,6 @@
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "493",
-              "displayName": "Sailor Dwayne 7 Badges",
-              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -4046,6 +4046,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -4089,14 +4097,6 @@
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "493",
-              "displayName": "Sailor Dwayne 7 Badges",
-              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -4135,6 +4135,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
@@ -4178,14 +4186,6 @@
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "493",
-              "displayName": "Sailor Dwayne 7 Badges",
-              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -4224,6 +4224,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "647",
               "displayName": "Beauty Johanna 7 Badges",
               "leadLevel": 0,
@@ -4267,14 +4275,6 @@
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "493",
-              "displayName": "Sailor Dwayne 7 Badges",
-              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -4313,6 +4313,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "647",
               "displayName": "Beauty Johanna 7 Badges",
               "leadLevel": 0,
@@ -4356,14 +4364,6 @@
               "usageKey": "658",
               "displayName": "Rival Wally Route110",
               "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "493",
-              "displayName": "Sailor Dwayne 7 Badges",
-              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -4402,6 +4402,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "647",
               "displayName": "Beauty Johanna 7 Badges",
               "leadLevel": 0,
@@ -4448,14 +4456,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "493",
-              "displayName": "Sailor Dwayne 7 Badges",
-              "leadLevel": 0,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -4485,6 +4485,14 @@
             {
               "usageKey": "Picnicker Martha",
               "displayName": "Picnicker Martha",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4534,14 +4542,6 @@
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "493",
-              "displayName": "Sailor Dwayne 7 Badges",
-              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -4580,6 +4580,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "596",
               "displayName": "Team Aqua Grunt Weather Inst5",
               "leadLevel": 63,
@@ -4623,14 +4631,6 @@
               "usageKey": "Rival Cap",
               "displayName": "Rival Cap",
               "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "493",
-              "displayName": "Sailor Dwayne 7 Badges",
-              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -4677,14 +4677,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "596",
               "displayName": "Team Aqua Grunt Weather Inst5",
               "leadLevel": 63,
@@ -4719,6 +4711,14 @@
             {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
@@ -4766,14 +4766,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "596",
               "displayName": "Team Aqua Grunt Weather Inst5",
               "leadLevel": 63,
@@ -4808,6 +4800,14 @@
             {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
@@ -4855,14 +4855,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "596",
               "displayName": "Team Aqua Grunt Weather Inst5",
               "leadLevel": 63,
@@ -4897,6 +4889,14 @@
             {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
@@ -4944,14 +4944,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "596",
               "displayName": "Team Aqua Grunt Weather Inst5",
               "leadLevel": 63,
@@ -4986,6 +4978,14 @@
             {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 2,
@@ -5073,9 +5073,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5084,7 +5084,7 @@
         },
         "82": {
           "runCount": 61,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.3,
           "averageRunDepthStep": 118.8,
           "averageRunDepthPct": 85.4,
           "averageBattlesUsed": 0.5,
@@ -5162,9 +5162,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5173,7 +5173,7 @@
         },
         "81": {
           "runCount": 61,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.3,
           "averageRunDepthStep": 118.8,
           "averageRunDepthPct": 85.4,
           "averageBattlesUsed": 0.5,
@@ -5251,9 +5251,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5340,9 +5340,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5429,9 +5429,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5518,9 +5518,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5607,9 +5607,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5696,9 +5696,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5874,9 +5874,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -5963,9 +5963,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -6052,9 +6052,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -6141,9 +6141,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -6230,9 +6230,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -6241,7 +6241,7 @@
         },
         "69": {
           "runCount": 67,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 6.0,
           "averageRunDepthStep": 114.8,
           "averageRunDepthPct": 82.6,
           "averageBattlesUsed": 0.5,
@@ -6319,9 +6319,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "493",
+              "displayName": "Sailor Dwayne 7 Badges",
+              "leadLevel": 0,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -6864,7 +6864,7 @@
         },
         "62": {
           "runCount": 80,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 107.0,
           "averageRunDepthPct": 76.9,
           "averageBattlesUsed": 0.5,
@@ -7220,7 +7220,7 @@
         },
         "58": {
           "runCount": 82,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.8,
           "averageRunDepthPct": 76.1,
           "averageBattlesUsed": 0.5,
@@ -7309,7 +7309,7 @@
         },
         "57": {
           "runCount": 82,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 105.8,
           "averageRunDepthPct": 76.1,
           "averageBattlesUsed": 0.5,
@@ -7665,7 +7665,7 @@
         },
         "53": {
           "runCount": 85,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 104.0,
           "averageRunDepthPct": 74.8,
           "averageBattlesUsed": 0.5,
@@ -7754,7 +7754,7 @@
         },
         "52": {
           "runCount": 85,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 104.0,
           "averageRunDepthPct": 74.8,
           "averageBattlesUsed": 0.5,
@@ -7843,7 +7843,7 @@
         },
         "51": {
           "runCount": 85,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 104.0,
           "averageRunDepthPct": 74.8,
           "averageBattlesUsed": 0.5,
@@ -7932,7 +7932,7 @@
         },
         "50": {
           "runCount": 85,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 104.0,
           "averageRunDepthPct": 74.8,
           "averageBattlesUsed": 0.5,
@@ -23512,7 +23512,7 @@
     "byMinDepth": {
       "139": {
         "runCount": 7,
-        "averageParticipationPct": 22.8,
+        "averageParticipationPct": 22.7,
         "averageRunDepthStep": 139.0,
         "averageRunDepthPct": 100.0,
         "averageBattlesUsed": 2.4,
@@ -23544,6 +23544,14 @@
           {
             "usageKey": "Rival Cap",
             "displayName": "Rival Cap",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -23588,14 +23596,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -23625,6 +23625,14 @@
           {
             "usageKey": "Rival Cap",
             "displayName": "Rival Cap",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -23677,14 +23685,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -23714,6 +23714,14 @@
           {
             "usageKey": "Rival Cap",
             "displayName": "Rival Cap",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -23762,14 +23770,6 @@
           {
             "usageKey": "728",
             "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "732",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
             "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
@@ -23809,6 +23809,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "44",
             "displayName": "Ruin Maniac Dusty",
             "leadLevel": -2,
@@ -23851,14 +23859,6 @@
           {
             "usageKey": "728",
             "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "732",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
             "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
@@ -23898,6 +23898,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "44",
             "displayName": "Ruin Maniac Dusty",
             "leadLevel": -2,
@@ -23941,14 +23949,6 @@
             "usageKey": "728",
             "displayName": "Magma Admin Courtney",
             "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "473",
-            "displayName": "Picnicker Martha",
-            "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -23987,6 +23987,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "44",
             "displayName": "Ruin Maniac Dusty",
             "leadLevel": -2,
@@ -24030,14 +24038,6 @@
             "usageKey": "728",
             "displayName": "Magma Admin Courtney",
             "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "473",
-            "displayName": "Picnicker Martha",
-            "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24084,6 +24084,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24118,14 +24126,6 @@
           {
             "usageKey": "Cooltrainer Albert",
             "displayName": "Cooltrainer Albert",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "Lass Robin",
-            "displayName": "Lass Robin",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
@@ -24173,6 +24173,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24207,14 +24215,6 @@
           {
             "usageKey": "Cooltrainer Albert",
             "displayName": "Cooltrainer Albert",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "Lass Robin",
-            "displayName": "Lass Robin",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
@@ -24262,6 +24262,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24297,14 +24305,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24359,6 +24359,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24386,14 +24394,6 @@
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "Lass Robin",
-            "displayName": "Lass Robin",
-            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24448,6 +24448,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24475,14 +24483,6 @@
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "Lass Robin",
-            "displayName": "Lass Robin",
-            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24537,6 +24537,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24564,14 +24572,6 @@
             "usageKey": "80",
             "displayName": "Cooltrainer Albert",
             "leadLevel": 83,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "Lass Robin",
-            "displayName": "Lass Robin",
-            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24626,6 +24626,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24653,14 +24661,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24715,6 +24715,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24742,14 +24750,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24804,6 +24804,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24831,14 +24839,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24847,7 +24847,7 @@
       },
       "124": {
         "runCount": 35,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 134.3,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 0.7,
@@ -24893,6 +24893,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -24920,14 +24928,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -24936,7 +24936,7 @@
       },
       "123": {
         "runCount": 35,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 134.3,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 0.7,
@@ -24982,6 +24982,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25009,14 +25017,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25025,7 +25025,7 @@
       },
       "122": {
         "runCount": 35,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 134.3,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 0.7,
@@ -25071,6 +25071,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25098,14 +25106,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25114,7 +25114,7 @@
       },
       "121": {
         "runCount": 35,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 134.3,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 0.7,
@@ -25160,6 +25160,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25187,14 +25195,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25203,7 +25203,7 @@
       },
       "120": {
         "runCount": 35,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 134.3,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 0.7,
@@ -25249,6 +25249,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25276,14 +25284,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25292,7 +25292,7 @@
       },
       "119": {
         "runCount": 35,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 134.3,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 0.7,
@@ -25338,6 +25338,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25365,14 +25373,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25381,7 +25381,7 @@
       },
       "118": {
         "runCount": 36,
-        "averageParticipationPct": 6.3,
+        "averageParticipationPct": 6.2,
         "averageRunDepthStep": 133.9,
         "averageRunDepthPct": 96.3,
         "averageBattlesUsed": 0.7,
@@ -25427,6 +25427,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25454,14 +25462,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25470,7 +25470,7 @@
       },
       "117": {
         "runCount": 36,
-        "averageParticipationPct": 6.3,
+        "averageParticipationPct": 6.2,
         "averageRunDepthStep": 133.9,
         "averageRunDepthPct": 96.3,
         "averageBattlesUsed": 0.7,
@@ -25516,6 +25516,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25546,20 +25554,12 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "116": {
         "runCount": 38,
-        "averageParticipationPct": 6.0,
+        "averageParticipationPct": 5.9,
         "averageRunDepthStep": 132.9,
         "averageRunDepthPct": 95.6,
         "averageBattlesUsed": 0.7,
@@ -25605,6 +25605,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25632,14 +25640,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25694,6 +25694,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25721,14 +25729,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25783,6 +25783,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25810,14 +25818,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25872,6 +25872,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25899,14 +25907,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -25961,6 +25961,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -25988,14 +25996,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -26050,6 +26050,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26077,14 +26085,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -26139,6 +26139,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26166,14 +26174,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -26228,6 +26228,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26255,14 +26263,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -26317,6 +26317,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26344,14 +26352,6 @@
             "usageKey": "Lass Robin",
             "displayName": "Lass Robin",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "728",
-            "displayName": "Magma Admin Courtney",
-            "leadLevel": 80,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -26398,6 +26398,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26436,20 +26444,12 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "332",
-            "displayName": "Youngster Eddie",
-            "leadLevel": -2,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "106": {
         "runCount": 44,
-        "averageParticipationPct": 5.5,
+        "averageParticipationPct": 5.4,
         "averageRunDepthStep": 129.6,
         "averageRunDepthPct": 93.2,
         "averageBattlesUsed": 0.6,
@@ -26487,6 +26487,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26521,14 +26529,6 @@
           {
             "usageKey": "275",
             "displayName": "Picnicker Rachel",
-            "leadLevel": -2,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "332",
-            "displayName": "Youngster Eddie",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
@@ -26538,7 +26538,7 @@
       },
       "105": {
         "runCount": 45,
-        "averageParticipationPct": 5.4,
+        "averageParticipationPct": 5.3,
         "averageRunDepthStep": 129.0,
         "averageRunDepthPct": 92.8,
         "averageBattlesUsed": 0.6,
@@ -26570,6 +26570,14 @@
           {
             "usageKey": "Rival Cap",
             "displayName": "Rival Cap",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -26610,14 +26618,6 @@
           {
             "usageKey": "275",
             "displayName": "Picnicker Rachel",
-            "leadLevel": -2,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "332",
-            "displayName": "Youngster Eddie",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
@@ -26627,7 +26627,7 @@
       },
       "104": {
         "runCount": 45,
-        "averageParticipationPct": 5.4,
+        "averageParticipationPct": 5.3,
         "averageRunDepthStep": 129.0,
         "averageRunDepthPct": 92.8,
         "averageBattlesUsed": 0.6,
@@ -26659,6 +26659,14 @@
           {
             "usageKey": "Rival Cap",
             "displayName": "Rival Cap",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -26699,14 +26707,6 @@
           {
             "usageKey": "275",
             "displayName": "Picnicker Rachel",
-            "leadLevel": -2,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "332",
-            "displayName": "Youngster Eddie",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
@@ -26754,6 +26754,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26789,14 +26797,6 @@
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 1,
             "ownedCount": 3,
             "participationPct": 33
@@ -26835,6 +26835,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26878,14 +26886,6 @@
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 1,
             "ownedCount": 3,
             "participationPct": 33
@@ -26924,6 +26924,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -26967,14 +26975,6 @@
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 1,
             "ownedCount": 3,
             "participationPct": 33
@@ -27013,6 +27013,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -27056,14 +27064,6 @@
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 1,
             "ownedCount": 3,
             "participationPct": 33
@@ -27102,6 +27102,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -27145,14 +27153,6 @@
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 1,
             "ownedCount": 3,
             "participationPct": 33
@@ -27191,6 +27191,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -27234,14 +27242,6 @@
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 1,
             "ownedCount": 3,
             "participationPct": 33
@@ -27280,6 +27280,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -27323,14 +27331,6 @@
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 1,
             "ownedCount": 3,
             "participationPct": 33
@@ -27369,6 +27369,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -27412,14 +27420,6 @@
             "usageKey": "586",
             "displayName": "586",
             "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "590",
-            "displayName": "Champion Steven With Wallace",
-            "leadLevel": 85,
             "partyCount": 1,
             "ownedCount": 3,
             "participationPct": 33
@@ -27458,6 +27458,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -27504,14 +27512,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "586",
-            "displayName": "586",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -27547,6 +27547,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -27593,14 +27601,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "586",
-            "displayName": "586",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -27636,6 +27636,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "658",
             "displayName": "Rival Wally Route110",
             "leadLevel": -1,
@@ -27682,14 +27690,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "586",
-            "displayName": "586",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -27725,6 +27725,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "647",
             "displayName": "Beauty Johanna 7 Badges",
             "leadLevel": 0,
@@ -27771,14 +27779,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "586",
-            "displayName": "586",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -27814,6 +27814,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "647",
             "displayName": "Beauty Johanna 7 Badges",
             "leadLevel": 0,
@@ -27860,14 +27868,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "586",
-            "displayName": "586",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -27903,6 +27903,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "647",
             "displayName": "Beauty Johanna 7 Badges",
             "leadLevel": 0,
@@ -27949,14 +27957,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "586",
-            "displayName": "586",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -27992,6 +27992,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "596",
             "displayName": "Team Aqua Grunt Weather Inst5",
             "leadLevel": 63,
@@ -28038,14 +28046,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "586",
-            "displayName": "586",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -28081,6 +28081,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "596",
             "displayName": "Team Aqua Grunt Weather Inst5",
             "leadLevel": 63,
@@ -28127,14 +28135,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "586",
-            "displayName": "586",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -28178,14 +28178,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "596",
             "displayName": "Team Aqua Grunt Weather Inst5",
             "leadLevel": 63,
@@ -28212,6 +28204,14 @@
           {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
@@ -28267,14 +28267,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "596",
             "displayName": "Team Aqua Grunt Weather Inst5",
             "leadLevel": 63,
@@ -28301,6 +28293,14 @@
           {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
@@ -28356,14 +28356,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "596",
             "displayName": "Team Aqua Grunt Weather Inst5",
             "leadLevel": 63,
@@ -28390,6 +28382,14 @@
           {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 2,
@@ -28445,14 +28445,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "596",
             "displayName": "Team Aqua Grunt Weather Inst5",
             "leadLevel": 63,
@@ -28485,6 +28477,14 @@
             "participationPct": 50
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
@@ -28496,7 +28496,7 @@
       },
       "83": {
         "runCount": 61,
-        "averageParticipationPct": 5.4,
+        "averageParticipationPct": 5.3,
         "averageRunDepthStep": 119.4,
         "averageRunDepthPct": 85.9,
         "averageBattlesUsed": 0.5,
@@ -28566,20 +28566,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "586",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           }
         ]
       },
@@ -28655,20 +28655,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "586",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           }
         ]
       },
@@ -28744,20 +28744,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "586",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           }
         ]
       },
@@ -28833,20 +28833,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "586",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           }
         ]
       },
@@ -28922,20 +28922,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "586",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           }
         ]
       },
@@ -29011,20 +29011,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "586",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           }
         ]
       },
@@ -29100,20 +29100,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "586",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           }
         ]
       },
@@ -29189,20 +29189,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
             "usageKey": "493",
             "displayName": "Sailor Dwayne 7 Badges",
             "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "586",
+            "displayName": "586",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 3,
+            "participationPct": 33
           }
         ]
       },
@@ -29286,9 +29286,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "493",
+            "displayName": "Sailor Dwayne 7 Badges",
+            "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -29297,7 +29297,7 @@
       },
       "74": {
         "runCount": 67,
-        "averageParticipationPct": 6.1,
+        "averageParticipationPct": 6.0,
         "averageRunDepthStep": 115.7,
         "averageRunDepthPct": 83.2,
         "averageBattlesUsed": 0.5,
@@ -29375,9 +29375,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "493",
+            "displayName": "Sailor Dwayne 7 Badges",
+            "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -29386,7 +29386,7 @@
       },
       "73": {
         "runCount": 67,
-        "averageParticipationPct": 6.1,
+        "averageParticipationPct": 6.0,
         "averageRunDepthStep": 115.7,
         "averageRunDepthPct": 83.2,
         "averageBattlesUsed": 0.5,
@@ -29464,9 +29464,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "493",
+            "displayName": "Sailor Dwayne 7 Badges",
+            "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -29475,7 +29475,7 @@
       },
       "72": {
         "runCount": 68,
-        "averageParticipationPct": 6.0,
+        "averageParticipationPct": 5.9,
         "averageRunDepthStep": 115.1,
         "averageRunDepthPct": 82.8,
         "averageBattlesUsed": 0.5,
@@ -29553,9 +29553,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "493",
+            "displayName": "Sailor Dwayne 7 Badges",
+            "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -29564,7 +29564,7 @@
       },
       "71": {
         "runCount": 69,
-        "averageParticipationPct": 5.9,
+        "averageParticipationPct": 5.8,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 0.5,
@@ -29642,9 +29642,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "493",
+            "displayName": "Sailor Dwayne 7 Badges",
+            "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -29653,7 +29653,7 @@
       },
       "70": {
         "runCount": 69,
-        "averageParticipationPct": 5.9,
+        "averageParticipationPct": 5.8,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 0.5,
@@ -29731,9 +29731,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "493",
+            "displayName": "Sailor Dwayne 7 Badges",
+            "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -29820,9 +29820,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "493",
+            "displayName": "Sailor Dwayne 7 Badges",
+            "leadLevel": 0,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -30187,7 +30187,7 @@
       },
       "64": {
         "runCount": 85,
-        "averageParticipationPct": 7.0,
+        "averageParticipationPct": 6.9,
         "averageRunDepthStep": 105.5,
         "averageRunDepthPct": 75.9,
         "averageBattlesUsed": 0.5,
@@ -30365,7 +30365,7 @@
       },
       "62": {
         "runCount": 87,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 104.5,
         "averageRunDepthPct": 75.2,
         "averageBattlesUsed": 0.5,

@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "bronzor",
   "familyMembers": [
     "Bronzong",
@@ -4016,7 +4016,7 @@
         },
         "94": {
           "runCount": 71,
-          "averageParticipationPct": 18.0,
+          "averageParticipationPct": 17.9,
           "averageRunDepthStep": 123.1,
           "averageRunDepthPct": 88.6,
           "averageBattlesUsed": 1.9,
@@ -4066,8 +4066,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 4,
-              "ownedCount": 11,
-              "participationPct": 36
+              "ownedCount": 12,
+              "participationPct": 33
             },
             {
               "usageKey": "449",
@@ -4155,8 +4155,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 4,
-              "ownedCount": 11,
-              "participationPct": 36
+              "ownedCount": 12,
+              "participationPct": 33
             },
             {
               "usageKey": "449",
@@ -4194,7 +4194,7 @@
         },
         "92": {
           "runCount": 75,
-          "averageParticipationPct": 20.1,
+          "averageParticipationPct": 20.0,
           "averageRunDepthStep": 121.5,
           "averageRunDepthPct": 87.4,
           "averageBattlesUsed": 2.0,
@@ -4228,8 +4228,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 12,
-              "participationPct": 42
+              "ownedCount": 13,
+              "participationPct": 38
             },
             {
               "usageKey": "449",
@@ -4317,8 +4317,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 12,
-              "participationPct": 42
+              "ownedCount": 13,
+              "participationPct": 38
             },
             {
               "usageKey": "449",
@@ -4372,7 +4372,7 @@
         },
         "90": {
           "runCount": 82,
-          "averageParticipationPct": 18.4,
+          "averageParticipationPct": 18.3,
           "averageRunDepthStep": 118.8,
           "averageRunDepthPct": 85.5,
           "averageBattlesUsed": 1.8,
@@ -4406,8 +4406,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 12,
-              "participationPct": 42
+              "ownedCount": 13,
+              "participationPct": 38
             },
             {
               "usageKey": "449",
@@ -4495,8 +4495,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 12,
-              "participationPct": 42
+              "ownedCount": 13,
+              "participationPct": 38
             },
             {
               "usageKey": "449",
@@ -4584,8 +4584,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 12,
-              "participationPct": 42
+              "ownedCount": 13,
+              "participationPct": 38
             },
             {
               "usageKey": "449",
@@ -4673,8 +4673,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 12,
-              "participationPct": 42
+              "ownedCount": 13,
+              "participationPct": 38
             },
             {
               "usageKey": "449",
@@ -4728,7 +4728,7 @@
         },
         "86": {
           "runCount": 90,
-          "averageParticipationPct": 18.8,
+          "averageParticipationPct": 18.7,
           "averageRunDepthStep": 116.1,
           "averageRunDepthPct": 83.5,
           "averageBattlesUsed": 1.7,
@@ -4762,8 +4762,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
+              "ownedCount": 14,
+              "participationPct": 36
             },
             {
               "usageKey": "449",
@@ -4817,7 +4817,7 @@
         },
         "85": {
           "runCount": 90,
-          "averageParticipationPct": 18.8,
+          "averageParticipationPct": 18.7,
           "averageRunDepthStep": 116.1,
           "averageRunDepthPct": 83.5,
           "averageBattlesUsed": 1.7,
@@ -4851,8 +4851,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
+              "ownedCount": 14,
+              "participationPct": 36
             },
             {
               "usageKey": "449",
@@ -4906,7 +4906,7 @@
         },
         "84": {
           "runCount": 90,
-          "averageParticipationPct": 18.8,
+          "averageParticipationPct": 18.7,
           "averageRunDepthStep": 116.1,
           "averageRunDepthPct": 83.5,
           "averageBattlesUsed": 1.7,
@@ -4940,8 +4940,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
+              "ownedCount": 14,
+              "participationPct": 36
             },
             {
               "usageKey": "449",
@@ -5029,8 +5029,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 5,
-              "ownedCount": 13,
-              "participationPct": 38
+              "ownedCount": 14,
+              "participationPct": 36
             },
             {
               "usageKey": "449",
@@ -5084,7 +5084,7 @@
         },
         "82": {
           "runCount": 100,
-          "averageParticipationPct": 19.0,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 112.7,
           "averageRunDepthPct": 81.1,
           "averageBattlesUsed": 1.6,
@@ -5118,8 +5118,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5173,7 +5173,7 @@
         },
         "81": {
           "runCount": 103,
-          "averageParticipationPct": 18.9,
+          "averageParticipationPct": 18.8,
           "averageRunDepthStep": 111.8,
           "averageRunDepthPct": 80.4,
           "averageBattlesUsed": 1.7,
@@ -5207,8 +5207,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5262,7 +5262,7 @@
         },
         "80": {
           "runCount": 104,
-          "averageParticipationPct": 18.7,
+          "averageParticipationPct": 18.6,
           "averageRunDepthStep": 111.5,
           "averageRunDepthPct": 80.2,
           "averageBattlesUsed": 1.7,
@@ -5296,8 +5296,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5351,7 +5351,7 @@
         },
         "79": {
           "runCount": 107,
-          "averageParticipationPct": 18.2,
+          "averageParticipationPct": 18.1,
           "averageRunDepthStep": 110.6,
           "averageRunDepthPct": 79.5,
           "averageBattlesUsed": 1.6,
@@ -5385,8 +5385,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5474,8 +5474,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5563,8 +5563,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5652,8 +5652,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5741,8 +5741,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5796,7 +5796,7 @@
         },
         "74": {
           "runCount": 111,
-          "averageParticipationPct": 18.0,
+          "averageParticipationPct": 17.9,
           "averageRunDepthStep": 109.3,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 1.6,
@@ -5830,8 +5830,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -5919,8 +5919,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6008,8 +6008,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6097,8 +6097,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6186,8 +6186,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6275,8 +6275,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6364,8 +6364,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6453,8 +6453,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6542,8 +6542,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6597,7 +6597,7 @@
         },
         "65": {
           "runCount": 131,
-          "averageParticipationPct": 17.6,
+          "averageParticipationPct": 17.5,
           "averageRunDepthStep": 103.1,
           "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.5,
@@ -6631,8 +6631,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6686,7 +6686,7 @@
         },
         "64": {
           "runCount": 131,
-          "averageParticipationPct": 17.6,
+          "averageParticipationPct": 17.5,
           "averageRunDepthStep": 103.1,
           "averageRunDepthPct": 74.1,
           "averageBattlesUsed": 1.5,
@@ -6720,8 +6720,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6775,7 +6775,7 @@
         },
         "63": {
           "runCount": 132,
-          "averageParticipationPct": 17.5,
+          "averageParticipationPct": 17.4,
           "averageRunDepthStep": 102.8,
           "averageRunDepthPct": 73.9,
           "averageBattlesUsed": 1.4,
@@ -6809,8 +6809,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -6864,7 +6864,7 @@
         },
         "62": {
           "runCount": 134,
-          "averageParticipationPct": 17.6,
+          "averageParticipationPct": 17.5,
           "averageRunDepthStep": 102.1,
           "averageRunDepthPct": 73.5,
           "averageBattlesUsed": 1.4,
@@ -6898,8 +6898,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Lass Robin",
@@ -7011,8 +7011,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7108,8 +7108,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7197,8 +7197,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7294,8 +7294,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7309,7 +7309,7 @@
         },
         "57": {
           "runCount": 146,
-          "averageParticipationPct": 20.4,
+          "averageParticipationPct": 20.3,
           "averageRunDepthStep": 98.6,
           "averageRunDepthPct": 70.9,
           "averageBattlesUsed": 1.5,
@@ -7383,8 +7383,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7398,7 +7398,7 @@
         },
         "56": {
           "runCount": 146,
-          "averageParticipationPct": 20.4,
+          "averageParticipationPct": 20.3,
           "averageRunDepthStep": 98.6,
           "averageRunDepthPct": 70.9,
           "averageBattlesUsed": 1.5,
@@ -7472,8 +7472,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7487,7 +7487,7 @@
         },
         "55": {
           "runCount": 148,
-          "averageParticipationPct": 20.4,
+          "averageParticipationPct": 20.3,
           "averageRunDepthStep": 98.0,
           "averageRunDepthPct": 70.5,
           "averageBattlesUsed": 1.5,
@@ -7561,8 +7561,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7650,8 +7650,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7739,8 +7739,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7828,8 +7828,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -7917,8 +7917,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -8006,8 +8006,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "Hiker Lucas",
@@ -8095,8 +8095,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "268",
@@ -8184,8 +8184,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "268",
@@ -8273,8 +8273,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "268",
@@ -8362,8 +8362,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "268",
@@ -8451,8 +8451,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "268",
@@ -8540,8 +8540,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             },
             {
               "usageKey": "268",
@@ -8637,14 +8637,14 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             }
           ]
         },
         "42": {
           "runCount": 205,
-          "averageParticipationPct": 21.3,
+          "averageParticipationPct": 21.2,
           "averageRunDepthStep": 83.8,
           "averageRunDepthPct": 60.3,
           "averageBattlesUsed": 1.3,
@@ -8726,8 +8726,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             }
           ]
         },
@@ -8815,8 +8815,8 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             }
           ]
         },
@@ -8904,14 +8904,14 @@
               "displayName": "Leader Winona",
               "leadLevel": 68,
               "partyCount": 6,
-              "ownedCount": 18,
-              "participationPct": 33
+              "ownedCount": 19,
+              "participationPct": 32
             }
           ]
         },
         "39": {
           "runCount": 217,
-          "averageParticipationPct": 22.0,
+          "averageParticipationPct": 21.9,
           "averageRunDepthStep": 81.4,
           "averageRunDepthPct": 58.5,
           "averageBattlesUsed": 1.2,
@@ -9178,7 +9178,7 @@
         },
         "36": {
           "runCount": 223,
-          "averageParticipationPct": 22.4,
+          "averageParticipationPct": 22.3,
           "averageRunDepthStep": 80.2,
           "averageRunDepthPct": 57.7,
           "averageBattlesUsed": 1.2,
@@ -9445,7 +9445,7 @@
         },
         "33": {
           "runCount": 233,
-          "averageParticipationPct": 23.8,
+          "averageParticipationPct": 23.7,
           "averageRunDepthStep": 78.2,
           "averageRunDepthPct": 56.3,
           "averageBattlesUsed": 1.2,
@@ -11225,7 +11225,7 @@
         },
         "13": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -11314,7 +11314,7 @@
         },
         "12": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -11403,7 +11403,7 @@
         },
         "11": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -11492,7 +11492,7 @@
         },
         "10": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -11581,7 +11581,7 @@
         },
         "9": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -11670,7 +11670,7 @@
         },
         "8": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -11759,7 +11759,7 @@
         },
         "7": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -11848,7 +11848,7 @@
         },
         "6": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -11937,7 +11937,7 @@
         },
         "5": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -12026,7 +12026,7 @@
         },
         "4": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -12115,7 +12115,7 @@
         },
         "3": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -12204,7 +12204,7 @@
         },
         "2": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -12293,7 +12293,7 @@
         },
         "1": {
           "runCount": 264,
-          "averageParticipationPct": 26.3,
+          "averageParticipationPct": 26.2,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 1.2,
@@ -28767,7 +28767,7 @@
       },
       "94": {
         "runCount": 72,
-        "averageParticipationPct": 17.8,
+        "averageParticipationPct": 17.7,
         "averageRunDepthStep": 123.3,
         "averageRunDepthPct": 88.7,
         "averageBattlesUsed": 2.0,
@@ -28825,8 +28825,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 4,
-            "ownedCount": 12,
-            "participationPct": 33
+            "ownedCount": 13,
+            "participationPct": 31
           },
           {
             "usageKey": "449",
@@ -28856,7 +28856,7 @@
       },
       "93": {
         "runCount": 73,
-        "averageParticipationPct": 17.6,
+        "averageParticipationPct": 17.5,
         "averageRunDepthStep": 122.9,
         "averageRunDepthPct": 88.4,
         "averageBattlesUsed": 2.0,
@@ -28914,8 +28914,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 4,
-            "ownedCount": 12,
-            "participationPct": 33
+            "ownedCount": 13,
+            "participationPct": 31
           },
           {
             "usageKey": "449",
@@ -28979,8 +28979,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 13,
-            "participationPct": 38
+            "ownedCount": 14,
+            "participationPct": 36
           },
           {
             "usageKey": "449",
@@ -29034,7 +29034,7 @@
       },
       "91": {
         "runCount": 77,
-        "averageParticipationPct": 19.7,
+        "averageParticipationPct": 19.6,
         "averageRunDepthStep": 121.3,
         "averageRunDepthPct": 87.2,
         "averageBattlesUsed": 2.0,
@@ -29068,8 +29068,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 13,
-            "participationPct": 38
+            "ownedCount": 14,
+            "participationPct": 36
           },
           {
             "usageKey": "449",
@@ -29157,8 +29157,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 13,
-            "participationPct": 38
+            "ownedCount": 14,
+            "participationPct": 36
           },
           {
             "usageKey": "449",
@@ -29212,7 +29212,7 @@
       },
       "89": {
         "runCount": 86,
-        "averageParticipationPct": 18.4,
+        "averageParticipationPct": 18.3,
         "averageRunDepthStep": 118.0,
         "averageRunDepthPct": 84.9,
         "averageBattlesUsed": 1.8,
@@ -29254,8 +29254,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 13,
-            "participationPct": 38
+            "ownedCount": 14,
+            "participationPct": 36
           },
           {
             "usageKey": "449",
@@ -29301,7 +29301,7 @@
       },
       "88": {
         "runCount": 89,
-        "averageParticipationPct": 19.0,
+        "averageParticipationPct": 18.9,
         "averageRunDepthStep": 116.9,
         "averageRunDepthPct": 84.1,
         "averageBattlesUsed": 1.8,
@@ -29343,8 +29343,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 13,
-            "participationPct": 38
+            "ownedCount": 14,
+            "participationPct": 36
           },
           {
             "usageKey": "449",
@@ -29390,7 +29390,7 @@
       },
       "87": {
         "runCount": 90,
-        "averageParticipationPct": 18.8,
+        "averageParticipationPct": 18.7,
         "averageRunDepthStep": 116.6,
         "averageRunDepthPct": 83.9,
         "averageBattlesUsed": 1.8,
@@ -29432,8 +29432,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 13,
-            "participationPct": 38
+            "ownedCount": 14,
+            "participationPct": 36
           },
           {
             "usageKey": "449",
@@ -29521,8 +29521,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 14,
-            "participationPct": 36
+            "ownedCount": 15,
+            "participationPct": 33
           },
           {
             "usageKey": "449",
@@ -29610,8 +29610,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 14,
-            "participationPct": 36
+            "ownedCount": 15,
+            "participationPct": 33
           },
           {
             "usageKey": "449",
@@ -29699,8 +29699,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 14,
-            "participationPct": 36
+            "ownedCount": 15,
+            "participationPct": 33
           },
           {
             "usageKey": "449",
@@ -29788,8 +29788,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 5,
-            "ownedCount": 14,
-            "participationPct": 36
+            "ownedCount": 15,
+            "participationPct": 33
           },
           {
             "usageKey": "449",
@@ -29869,8 +29869,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -29924,7 +29924,7 @@
       },
       "81": {
         "runCount": 104,
-        "averageParticipationPct": 18.9,
+        "averageParticipationPct": 18.8,
         "averageRunDepthStep": 112.0,
         "averageRunDepthPct": 80.6,
         "averageBattlesUsed": 1.8,
@@ -29958,8 +29958,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30047,8 +30047,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30136,8 +30136,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30191,7 +30191,7 @@
       },
       "78": {
         "runCount": 111,
-        "averageParticipationPct": 18.2,
+        "averageParticipationPct": 18.1,
         "averageRunDepthStep": 109.9,
         "averageRunDepthPct": 79.1,
         "averageBattlesUsed": 1.6,
@@ -30225,8 +30225,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30280,7 +30280,7 @@
       },
       "77": {
         "runCount": 111,
-        "averageParticipationPct": 18.2,
+        "averageParticipationPct": 18.1,
         "averageRunDepthStep": 109.9,
         "averageRunDepthPct": 79.1,
         "averageBattlesUsed": 1.6,
@@ -30314,8 +30314,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30369,7 +30369,7 @@
       },
       "76": {
         "runCount": 111,
-        "averageParticipationPct": 18.2,
+        "averageParticipationPct": 18.1,
         "averageRunDepthStep": 109.9,
         "averageRunDepthPct": 79.1,
         "averageBattlesUsed": 1.6,
@@ -30403,8 +30403,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30458,7 +30458,7 @@
       },
       "75": {
         "runCount": 112,
-        "averageParticipationPct": 18.0,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 109.6,
         "averageRunDepthPct": 78.8,
         "averageBattlesUsed": 1.6,
@@ -30492,8 +30492,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30581,8 +30581,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30636,7 +30636,7 @@
       },
       "73": {
         "runCount": 114,
-        "averageParticipationPct": 18.0,
+        "averageParticipationPct": 17.9,
         "averageRunDepthStep": 109.0,
         "averageRunDepthPct": 78.4,
         "averageBattlesUsed": 1.6,
@@ -30670,8 +30670,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "266",
@@ -30759,8 +30759,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -30848,8 +30848,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -30937,8 +30937,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31026,8 +31026,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31115,8 +31115,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31204,8 +31204,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31293,8 +31293,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31382,8 +31382,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31471,8 +31471,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31560,8 +31560,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31649,8 +31649,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Lass Robin",
@@ -31704,7 +31704,7 @@
       },
       "61": {
         "runCount": 143,
-        "averageParticipationPct": 18.3,
+        "averageParticipationPct": 18.2,
         "averageRunDepthStep": 100.3,
         "averageRunDepthPct": 72.1,
         "averageBattlesUsed": 1.5,
@@ -31770,8 +31770,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31867,8 +31867,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -31882,7 +31882,7 @@
       },
       "59": {
         "runCount": 147,
-        "averageParticipationPct": 18.6,
+        "averageParticipationPct": 18.5,
         "averageRunDepthStep": 99.2,
         "averageRunDepthPct": 71.3,
         "averageBattlesUsed": 1.5,
@@ -31956,8 +31956,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           },
           {
             "usageKey": "Hiker Lucas",
@@ -32053,8 +32053,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -32142,8 +32142,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -32231,14 +32231,14 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
       "55": {
         "runCount": 157,
-        "averageParticipationPct": 19.7,
+        "averageParticipationPct": 19.6,
         "averageRunDepthStep": 96.5,
         "averageRunDepthPct": 69.4,
         "averageBattlesUsed": 1.5,
@@ -32320,8 +32320,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -32409,14 +32409,14 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
       "53": {
         "runCount": 163,
-        "averageParticipationPct": 20.2,
+        "averageParticipationPct": 20.1,
         "averageRunDepthStep": 94.9,
         "averageRunDepthPct": 68.3,
         "averageBattlesUsed": 1.4,
@@ -32498,8 +32498,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -32587,8 +32587,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -32676,8 +32676,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -32765,8 +32765,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -32854,8 +32854,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -32943,14 +32943,14 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
       "47": {
         "runCount": 192,
-        "averageParticipationPct": 18.5,
+        "averageParticipationPct": 18.4,
         "averageRunDepthStep": 87.9,
         "averageRunDepthPct": 63.2,
         "averageBattlesUsed": 1.3,
@@ -33032,8 +33032,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -33121,8 +33121,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -33210,8 +33210,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -33299,8 +33299,8 @@
             "displayName": "Leader Winona",
             "leadLevel": 68,
             "partyCount": 6,
-            "ownedCount": 19,
-            "participationPct": 32
+            "ownedCount": 20,
+            "participationPct": 30
           }
         ]
       },
@@ -33484,7 +33484,7 @@
       },
       "41": {
         "runCount": 222,
-        "averageParticipationPct": 20.1,
+        "averageParticipationPct": 20.0,
         "averageRunDepthStep": 81.8,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 1.2,
@@ -33573,7 +33573,7 @@
       },
       "40": {
         "runCount": 223,
-        "averageParticipationPct": 20.3,
+        "averageParticipationPct": 20.2,
         "averageRunDepthStep": 81.7,
         "averageRunDepthPct": 58.7,
         "averageBattlesUsed": 1.2,
@@ -33662,7 +33662,7 @@
       },
       "39": {
         "runCount": 231,
-        "averageParticipationPct": 20.7,
+        "averageParticipationPct": 20.6,
         "averageRunDepthStep": 80.2,
         "averageRunDepthPct": 57.7,
         "averageBattlesUsed": 1.2,
@@ -33929,7 +33929,7 @@
       },
       "36": {
         "runCount": 237,
-        "averageParticipationPct": 21.1,
+        "averageParticipationPct": 21.0,
         "averageRunDepthStep": 79.1,
         "averageRunDepthPct": 56.9,
         "averageBattlesUsed": 1.2,
@@ -34463,7 +34463,7 @@
       },
       "30": {
         "runCount": 269,
-        "averageParticipationPct": 23.3,
+        "averageParticipationPct": 23.2,
         "averageRunDepthStep": 73.5,
         "averageRunDepthPct": 52.9,
         "averageBattlesUsed": 1.2,
@@ -36510,7 +36510,7 @@
       },
       "7": {
         "runCount": 337,
-        "averageParticipationPct": 25.5,
+        "averageParticipationPct": 25.4,
         "averageRunDepthStep": 62.1,
         "averageRunDepthPct": 44.7,
         "averageBattlesUsed": 1.0,
@@ -36599,7 +36599,7 @@
       },
       "6": {
         "runCount": 337,
-        "averageParticipationPct": 25.5,
+        "averageParticipationPct": 25.4,
         "averageRunDepthStep": 62.1,
         "averageRunDepthPct": 44.7,
         "averageBattlesUsed": 1.0,

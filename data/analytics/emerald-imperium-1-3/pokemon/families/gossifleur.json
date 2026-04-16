@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "gossifleur",
   "familyMembers": [
     "Eldegoss",
@@ -4460,10 +4460,10 @@
           ]
         },
         "89": {
-          "runCount": 63,
-          "averageParticipationPct": 8.5,
-          "averageRunDepthStep": 117.7,
-          "averageRunDepthPct": 84.7,
+          "runCount": 64,
+          "averageParticipationPct": 9.9,
+          "averageRunDepthStep": 117.2,
+          "averageRunDepthPct": 84.3,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -4549,97 +4549,8 @@
           ]
         },
         "88": {
-          "runCount": 65,
-          "averageParticipationPct": 8.3,
-          "averageRunDepthStep": 116.8,
-          "averageRunDepthPct": 84.0,
-          "averageBattlesUsed": 0.8,
-          "topBattles": [
-            {
-              "usageKey": "Guitarist Joseph",
-              "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 4,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Trent",
-              "displayName": "Hiker Trent",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
-              "usageKey": "852",
-              "displayName": "Leader Gardenia",
-              "leadLevel": -1,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Team Aqua Grunt Museum2",
-              "displayName": "Team Aqua Grunt Museum2",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Twins Tori And Tia",
-              "displayName": "Twins Tori And Tia",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "Picnicker Charlotte",
-              "displayName": "Picnicker Charlotte",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
-              "usageKey": "336",
-              "displayName": "Leader Fantina",
-              "leadLevel": -1,
-              "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
-            }
-          ]
-        },
-        "87": {
           "runCount": 66,
-          "averageParticipationPct": 8.1,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 116.3,
           "averageRunDepthPct": 83.7,
           "averageBattlesUsed": 0.8,
@@ -4726,11 +4637,100 @@
             }
           ]
         },
-        "86": {
+        "87": {
           "runCount": 67,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 9.5,
           "averageRunDepthStep": 115.9,
-          "averageRunDepthPct": 83.3,
+          "averageRunDepthPct": 83.4,
+          "averageBattlesUsed": 0.8,
+          "topBattles": [
+            {
+              "usageKey": "Guitarist Joseph",
+              "displayName": "Guitarist Joseph",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Hiker Trent",
+              "displayName": "Hiker Trent",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "852",
+              "displayName": "Leader Gardenia",
+              "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Team Aqua Grunt Museum2",
+              "displayName": "Team Aqua Grunt Museum2",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Twins Tori And Tia",
+              "displayName": "Twins Tori And Tia",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Charlotte",
+              "displayName": "Picnicker Charlotte",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 6,
+              "participationPct": 33
+            },
+            {
+              "usageKey": "336",
+              "displayName": "Leader Fantina",
+              "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 7,
+              "participationPct": 29
+            }
+          ]
+        },
+        "86": {
+          "runCount": 68,
+          "averageParticipationPct": 9.9,
+          "averageRunDepthStep": 115.5,
+          "averageRunDepthPct": 83.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -4816,10 +4816,10 @@
           ]
         },
         "85": {
-          "runCount": 67,
-          "averageParticipationPct": 8.5,
-          "averageRunDepthStep": 115.9,
-          "averageRunDepthPct": 83.3,
+          "runCount": 68,
+          "averageParticipationPct": 9.9,
+          "averageRunDepthStep": 115.5,
+          "averageRunDepthPct": 83.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -4905,10 +4905,10 @@
           ]
         },
         "84": {
-          "runCount": 67,
-          "averageParticipationPct": 8.5,
-          "averageRunDepthStep": 115.9,
-          "averageRunDepthPct": 83.3,
+          "runCount": 68,
+          "averageParticipationPct": 9.9,
+          "averageRunDepthStep": 115.5,
+          "averageRunDepthPct": 83.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -4994,10 +4994,10 @@
           ]
         },
         "83": {
-          "runCount": 70,
-          "averageParticipationPct": 8.1,
-          "averageRunDepthStep": 114.4,
-          "averageRunDepthPct": 82.3,
+          "runCount": 71,
+          "averageParticipationPct": 9.4,
+          "averageRunDepthStep": 114.1,
+          "averageRunDepthPct": 82.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -5083,10 +5083,10 @@
           ]
         },
         "82": {
-          "runCount": 76,
-          "averageParticipationPct": 7.5,
-          "averageRunDepthStep": 111.9,
-          "averageRunDepthPct": 80.5,
+          "runCount": 77,
+          "averageParticipationPct": 8.7,
+          "averageRunDepthStep": 111.6,
+          "averageRunDepthPct": 80.3,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5172,10 +5172,10 @@
           ]
         },
         "81": {
-          "runCount": 80,
-          "averageParticipationPct": 8.5,
-          "averageRunDepthStep": 110.3,
-          "averageRunDepthPct": 79.4,
+          "runCount": 81,
+          "averageParticipationPct": 9.6,
+          "averageRunDepthStep": 110.1,
+          "averageRunDepthPct": 79.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5183,8 +5183,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5261,10 +5261,10 @@
           ]
         },
         "80": {
-          "runCount": 81,
-          "averageParticipationPct": 8.4,
-          "averageRunDepthStep": 110.0,
-          "averageRunDepthPct": 79.1,
+          "runCount": 82,
+          "averageParticipationPct": 9.5,
+          "averageRunDepthStep": 109.7,
+          "averageRunDepthPct": 78.9,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5272,8 +5272,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5350,10 +5350,10 @@
           ]
         },
         "79": {
-          "runCount": 83,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 109.2,
-          "averageRunDepthPct": 78.6,
+          "runCount": 84,
+          "averageParticipationPct": 9.3,
+          "averageRunDepthStep": 109.0,
+          "averageRunDepthPct": 78.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5361,8 +5361,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5439,10 +5439,10 @@
           ]
         },
         "78": {
-          "runCount": 83,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 109.2,
-          "averageRunDepthPct": 78.6,
+          "runCount": 84,
+          "averageParticipationPct": 9.3,
+          "averageRunDepthStep": 109.0,
+          "averageRunDepthPct": 78.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5450,8 +5450,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5528,10 +5528,10 @@
           ]
         },
         "77": {
-          "runCount": 83,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 109.2,
-          "averageRunDepthPct": 78.6,
+          "runCount": 84,
+          "averageParticipationPct": 9.3,
+          "averageRunDepthStep": 109.0,
+          "averageRunDepthPct": 78.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5539,8 +5539,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5617,10 +5617,10 @@
           ]
         },
         "76": {
-          "runCount": 83,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 109.2,
-          "averageRunDepthPct": 78.6,
+          "runCount": 84,
+          "averageParticipationPct": 9.3,
+          "averageRunDepthStep": 109.0,
+          "averageRunDepthPct": 78.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5628,8 +5628,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5706,10 +5706,10 @@
           ]
         },
         "75": {
-          "runCount": 84,
-          "averageParticipationPct": 8.4,
-          "averageRunDepthStep": 108.8,
-          "averageRunDepthPct": 78.3,
+          "runCount": 85,
+          "averageParticipationPct": 9.5,
+          "averageRunDepthStep": 108.6,
+          "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5717,8 +5717,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5795,10 +5795,10 @@
           ]
         },
         "74": {
-          "runCount": 85,
-          "averageParticipationPct": 8.3,
-          "averageRunDepthStep": 108.4,
-          "averageRunDepthPct": 78.0,
+          "runCount": 86,
+          "averageParticipationPct": 9.4,
+          "averageRunDepthStep": 108.2,
+          "averageRunDepthPct": 77.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5806,8 +5806,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5884,10 +5884,10 @@
           ]
         },
         "73": {
-          "runCount": 86,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 108.0,
-          "averageRunDepthPct": 77.7,
+          "runCount": 87,
+          "averageParticipationPct": 9.3,
+          "averageRunDepthStep": 107.8,
+          "averageRunDepthPct": 77.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5895,8 +5895,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -5973,10 +5973,10 @@
           ]
         },
         "72": {
-          "runCount": 89,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 106.8,
-          "averageRunDepthPct": 76.8,
+          "runCount": 90,
+          "averageParticipationPct": 9.2,
+          "averageRunDepthStep": 106.6,
+          "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -5984,8 +5984,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6062,10 +6062,10 @@
           ]
         },
         "71": {
-          "runCount": 89,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 106.8,
-          "averageRunDepthPct": 76.8,
+          "runCount": 90,
+          "averageParticipationPct": 9.2,
+          "averageRunDepthStep": 106.6,
+          "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6073,8 +6073,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6151,10 +6151,10 @@
           ]
         },
         "70": {
-          "runCount": 90,
-          "averageParticipationPct": 8.1,
-          "averageRunDepthStep": 106.4,
-          "averageRunDepthPct": 76.5,
+          "runCount": 91,
+          "averageParticipationPct": 9.1,
+          "averageRunDepthStep": 106.2,
+          "averageRunDepthPct": 76.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6162,8 +6162,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6240,10 +6240,10 @@
           ]
         },
         "69": {
-          "runCount": 91,
-          "averageParticipationPct": 8.0,
-          "averageRunDepthStep": 106.0,
-          "averageRunDepthPct": 76.2,
+          "runCount": 92,
+          "averageParticipationPct": 9.0,
+          "averageRunDepthStep": 105.8,
+          "averageRunDepthPct": 76.1,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6251,8 +6251,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6329,10 +6329,10 @@
           ]
         },
         "68": {
-          "runCount": 100,
-          "averageParticipationPct": 9.1,
-          "averageRunDepthStep": 102.5,
-          "averageRunDepthPct": 73.8,
+          "runCount": 101,
+          "averageParticipationPct": 10.0,
+          "averageRunDepthStep": 102.4,
+          "averageRunDepthPct": 73.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -6340,8 +6340,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6418,10 +6418,10 @@
           ]
         },
         "67": {
-          "runCount": 105,
-          "averageParticipationPct": 11.6,
-          "averageRunDepthStep": 100.8,
-          "averageRunDepthPct": 72.6,
+          "runCount": 106,
+          "averageParticipationPct": 12.4,
+          "averageRunDepthStep": 100.7,
+          "averageRunDepthPct": 72.5,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6429,8 +6429,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6507,10 +6507,10 @@
           ]
         },
         "66": {
-          "runCount": 105,
-          "averageParticipationPct": 11.6,
-          "averageRunDepthStep": 100.8,
-          "averageRunDepthPct": 72.6,
+          "runCount": 106,
+          "averageParticipationPct": 12.4,
+          "averageRunDepthStep": 100.7,
+          "averageRunDepthPct": 72.5,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6518,8 +6518,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 5,
-              "ownedCount": 5,
-              "participationPct": 100
+              "ownedCount": 6,
+              "participationPct": 83
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6596,10 +6596,10 @@
           ]
         },
         "65": {
-          "runCount": 107,
-          "averageParticipationPct": 12.4,
-          "averageRunDepthStep": 100.2,
-          "averageRunDepthPct": 72.1,
+          "runCount": 108,
+          "averageParticipationPct": 13.2,
+          "averageRunDepthStep": 100.1,
+          "averageRunDepthPct": 72.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6607,8 +6607,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 7,
-              "ownedCount": 7,
-              "participationPct": 100
+              "ownedCount": 8,
+              "participationPct": 88
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6685,10 +6685,10 @@
           ]
         },
         "64": {
-          "runCount": 109,
-          "averageParticipationPct": 12.2,
-          "averageRunDepthStep": 99.5,
-          "averageRunDepthPct": 71.6,
+          "runCount": 110,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 99.4,
+          "averageRunDepthPct": 71.5,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6696,8 +6696,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 7,
-              "ownedCount": 7,
-              "participationPct": 100
+              "ownedCount": 8,
+              "participationPct": 88
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6774,10 +6774,10 @@
           ]
         },
         "63": {
-          "runCount": 110,
-          "averageParticipationPct": 12.1,
-          "averageRunDepthStep": 99.2,
-          "averageRunDepthPct": 71.4,
+          "runCount": 111,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 99.1,
+          "averageRunDepthPct": 71.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6785,8 +6785,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 7,
-              "ownedCount": 7,
-              "participationPct": 100
+              "ownedCount": 8,
+              "participationPct": 88
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6863,10 +6863,10 @@
           ]
         },
         "62": {
-          "runCount": 112,
-          "averageParticipationPct": 11.8,
-          "averageRunDepthStep": 98.5,
-          "averageRunDepthPct": 70.9,
+          "runCount": 113,
+          "averageParticipationPct": 12.6,
+          "averageRunDepthStep": 98.4,
+          "averageRunDepthPct": 70.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6874,8 +6874,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 7,
-              "ownedCount": 7,
-              "participationPct": 100
+              "ownedCount": 8,
+              "participationPct": 88
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -6952,10 +6952,10 @@
           ]
         },
         "61": {
-          "runCount": 114,
-          "averageParticipationPct": 12.1,
-          "averageRunDepthStep": 97.9,
-          "averageRunDepthPct": 70.4,
+          "runCount": 115,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 97.8,
+          "averageRunDepthPct": 70.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -6963,8 +6963,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 7,
-              "ownedCount": 7,
-              "participationPct": 100
+              "ownedCount": 8,
+              "participationPct": 88
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -7041,9 +7041,9 @@
           ]
         },
         "60": {
-          "runCount": 116,
-          "averageParticipationPct": 11.9,
-          "averageRunDepthStep": 97.2,
+          "runCount": 117,
+          "averageParticipationPct": 12.6,
+          "averageRunDepthStep": 97.1,
           "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -7052,8 +7052,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 7,
-              "ownedCount": 7,
-              "participationPct": 100
+              "ownedCount": 8,
+              "participationPct": 88
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -7130,9 +7130,9 @@
           ]
         },
         "59": {
-          "runCount": 116,
-          "averageParticipationPct": 11.9,
-          "averageRunDepthStep": 97.2,
+          "runCount": 117,
+          "averageParticipationPct": 12.6,
+          "averageRunDepthStep": 97.1,
           "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -7141,8 +7141,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 7,
-              "ownedCount": 7,
-              "participationPct": 100
+              "ownedCount": 8,
+              "participationPct": 88
             },
             {
               "usageKey": "Guitarist Joseph",
@@ -7219,10 +7219,10 @@
           ]
         },
         "58": {
-          "runCount": 121,
-          "averageParticipationPct": 11.6,
-          "averageRunDepthStep": 95.6,
-          "averageRunDepthPct": 68.8,
+          "runCount": 122,
+          "averageParticipationPct": 12.4,
+          "averageRunDepthStep": 95.5,
+          "averageRunDepthPct": 68.7,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -7230,8 +7230,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -7308,9 +7308,9 @@
           ]
         },
         "57": {
-          "runCount": 122,
-          "averageParticipationPct": 11.5,
-          "averageRunDepthStep": 95.3,
+          "runCount": 123,
+          "averageParticipationPct": 12.3,
+          "averageRunDepthStep": 95.2,
           "averageRunDepthPct": 68.5,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -7319,8 +7319,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -7397,9 +7397,9 @@
           ]
         },
         "56": {
-          "runCount": 123,
-          "averageParticipationPct": 11.5,
-          "averageRunDepthStep": 95.0,
+          "runCount": 124,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 94.9,
           "averageRunDepthPct": 68.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -7408,8 +7408,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -7486,9 +7486,9 @@
           ]
         },
         "55": {
-          "runCount": 123,
-          "averageParticipationPct": 11.5,
-          "averageRunDepthStep": 95.0,
+          "runCount": 124,
+          "averageParticipationPct": 12.2,
+          "averageRunDepthStep": 94.9,
           "averageRunDepthPct": 68.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -7497,8 +7497,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -7575,9 +7575,9 @@
           ]
         },
         "54": {
-          "runCount": 127,
-          "averageParticipationPct": 12.7,
-          "averageRunDepthStep": 93.7,
+          "runCount": 128,
+          "averageParticipationPct": 13.3,
+          "averageRunDepthStep": 93.6,
           "averageRunDepthPct": 67.4,
           "averageBattlesUsed": 0.9,
           "topBattles": [
@@ -7586,8 +7586,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -7664,10 +7664,10 @@
           ]
         },
         "53": {
-          "runCount": 128,
-          "averageParticipationPct": 13.4,
+          "runCount": 129,
+          "averageParticipationPct": 14.0,
           "averageRunDepthStep": 93.3,
-          "averageRunDepthPct": 67.2,
+          "averageRunDepthPct": 67.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -7675,8 +7675,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -7753,10 +7753,10 @@
           ]
         },
         "52": {
-          "runCount": 128,
-          "averageParticipationPct": 13.4,
+          "runCount": 129,
+          "averageParticipationPct": 14.0,
           "averageRunDepthStep": 93.3,
-          "averageRunDepthPct": 67.2,
+          "averageRunDepthPct": 67.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -7764,8 +7764,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -7842,8 +7842,8 @@
           ]
         },
         "51": {
-          "runCount": 129,
-          "averageParticipationPct": 13.2,
+          "runCount": 130,
+          "averageParticipationPct": 13.9,
           "averageRunDepthStep": 93.0,
           "averageRunDepthPct": 66.9,
           "averageBattlesUsed": 0.8,
@@ -7853,8 +7853,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -7931,8 +7931,8 @@
           ]
         },
         "50": {
-          "runCount": 129,
-          "averageParticipationPct": 13.2,
+          "runCount": 130,
+          "averageParticipationPct": 13.9,
           "averageRunDepthStep": 93.0,
           "averageRunDepthPct": 66.9,
           "averageBattlesUsed": 0.8,
@@ -7942,8 +7942,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 8,
-              "ownedCount": 8,
-              "participationPct": 100
+              "ownedCount": 9,
+              "participationPct": 89
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -8020,8 +8020,8 @@
           ]
         },
         "49": {
-          "runCount": 145,
-          "averageParticipationPct": 12.9,
+          "runCount": 146,
+          "averageParticipationPct": 13.5,
           "averageRunDepthStep": 88.2,
           "averageRunDepthPct": 63.4,
           "averageBattlesUsed": 0.8,
@@ -8031,8 +8031,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 9,
-              "ownedCount": 9,
-              "participationPct": 100
+              "ownedCount": 10,
+              "participationPct": 90
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -8109,9 +8109,9 @@
           ]
         },
         "48": {
-          "runCount": 148,
-          "averageParticipationPct": 14.0,
-          "averageRunDepthStep": 87.3,
+          "runCount": 149,
+          "averageParticipationPct": 14.6,
+          "averageRunDepthStep": 87.4,
           "averageRunDepthPct": 62.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -8120,8 +8120,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 9,
-              "ownedCount": 9,
-              "participationPct": 100
+              "ownedCount": 10,
+              "participationPct": 90
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -8198,8 +8198,8 @@
           ]
         },
         "47": {
-          "runCount": 153,
-          "averageParticipationPct": 13.6,
+          "runCount": 154,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 86.0,
           "averageRunDepthPct": 61.9,
           "averageBattlesUsed": 0.8,
@@ -8209,8 +8209,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 9,
-              "ownedCount": 10,
-              "participationPct": 90
+              "ownedCount": 11,
+              "participationPct": 82
             },
             {
               "usageKey": "Parasol Lady Madeline",
@@ -8287,8 +8287,8 @@
           ]
         },
         "46": {
-          "runCount": 154,
-          "averageParticipationPct": 13.9,
+          "runCount": 155,
+          "averageParticipationPct": 14.4,
           "averageRunDepthStep": 85.8,
           "averageRunDepthPct": 61.7,
           "averageBattlesUsed": 0.8,
@@ -8298,8 +8298,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 10,
-              "ownedCount": 11,
-              "participationPct": 91
+              "ownedCount": 12,
+              "participationPct": 83
             },
             {
               "usageKey": "267",
@@ -8376,8 +8376,8 @@
           ]
         },
         "45": {
-          "runCount": 154,
-          "averageParticipationPct": 13.9,
+          "runCount": 155,
+          "averageParticipationPct": 14.4,
           "averageRunDepthStep": 85.8,
           "averageRunDepthPct": 61.7,
           "averageBattlesUsed": 0.8,
@@ -8387,8 +8387,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 10,
-              "ownedCount": 11,
-              "participationPct": 91
+              "ownedCount": 12,
+              "participationPct": 83
             },
             {
               "usageKey": "267",
@@ -8465,9 +8465,9 @@
           ]
         },
         "44": {
-          "runCount": 156,
-          "averageParticipationPct": 13.7,
-          "averageRunDepthStep": 85.2,
+          "runCount": 157,
+          "averageParticipationPct": 14.2,
+          "averageRunDepthStep": 85.3,
           "averageRunDepthPct": 61.3,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -8476,8 +8476,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 10,
-              "ownedCount": 11,
-              "participationPct": 91
+              "ownedCount": 12,
+              "participationPct": 83
             },
             {
               "usageKey": "267",
@@ -8554,99 +8554,10 @@
           ]
         },
         "43": {
-          "runCount": 162,
-          "averageParticipationPct": 14.3,
+          "runCount": 163,
+          "averageParticipationPct": 14.8,
           "averageRunDepthStep": 83.7,
           "averageRunDepthPct": 60.2,
-          "averageBattlesUsed": 0.8,
-          "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 11,
-              "ownedCount": 12,
-              "participationPct": 92
-            },
-            {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 7,
-              "ownedCount": 17,
-              "participationPct": 41
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 5,
-              "ownedCount": 9,
-              "participationPct": 56
-            },
-            {
-              "usageKey": "Guitarist Joseph",
-              "displayName": "Guitarist Joseph",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 4,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Team Aqua Grunt Museum2",
-              "displayName": "Team Aqua Grunt Museum2",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 4,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Hiker Trent",
-              "displayName": "Hiker Trent",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 7,
-              "participationPct": 57
-            },
-            {
-              "usageKey": "Picnicker Martha",
-              "displayName": "Picnicker Martha",
-              "leadLevel": null,
-              "partyCount": 4,
-              "ownedCount": 12,
-              "participationPct": 33
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 19,
-              "participationPct": 21
-            },
-            {
-              "usageKey": "852",
-              "displayName": "Leader Gardenia",
-              "leadLevel": -1,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
-              "usageKey": "Triathlete Alyssa",
-              "displayName": "Triathlete Alyssa",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
-            }
-          ]
-        },
-        "42": {
-          "runCount": 167,
-          "averageParticipationPct": 13.9,
-          "averageRunDepthStep": 82.4,
-          "averageRunDepthPct": 59.3,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -8731,9 +8642,98 @@
             }
           ]
         },
+        "42": {
+          "runCount": 168,
+          "averageParticipationPct": 14.4,
+          "averageRunDepthStep": 82.5,
+          "averageRunDepthPct": 59.3,
+          "averageBattlesUsed": 0.8,
+          "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 11,
+              "ownedCount": 14,
+              "participationPct": 79
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 7,
+              "ownedCount": 17,
+              "participationPct": 41
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 5,
+              "ownedCount": 9,
+              "participationPct": 56
+            },
+            {
+              "usageKey": "Guitarist Joseph",
+              "displayName": "Guitarist Joseph",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Team Aqua Grunt Museum2",
+              "displayName": "Team Aqua Grunt Museum2",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Hiker Trent",
+              "displayName": "Hiker Trent",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 7,
+              "participationPct": 57
+            },
+            {
+              "usageKey": "Picnicker Martha",
+              "displayName": "Picnicker Martha",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 12,
+              "participationPct": 33
+            },
+            {
+              "usageKey": "269",
+              "displayName": "Leader Norman",
+              "leadLevel": 59,
+              "partyCount": 4,
+              "ownedCount": 19,
+              "participationPct": 21
+            },
+            {
+              "usageKey": "852",
+              "displayName": "Leader Gardenia",
+              "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "Triathlete Alyssa",
+              "displayName": "Triathlete Alyssa",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 5,
+              "participationPct": 60
+            }
+          ]
+        },
         "41": {
-          "runCount": 173,
-          "averageParticipationPct": 14.3,
+          "runCount": 174,
+          "averageParticipationPct": 14.8,
           "averageRunDepthStep": 81.0,
           "averageRunDepthPct": 58.3,
           "averageBattlesUsed": 0.8,
@@ -8743,8 +8743,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 12,
-              "ownedCount": 14,
-              "participationPct": 86
+              "ownedCount": 15,
+              "participationPct": 80
             },
             {
               "usageKey": "267",
@@ -8821,8 +8821,8 @@
           ]
         },
         "40": {
-          "runCount": 177,
-          "averageParticipationPct": 15.1,
+          "runCount": 178,
+          "averageParticipationPct": 15.6,
           "averageRunDepthStep": 80.1,
           "averageRunDepthPct": 57.6,
           "averageBattlesUsed": 0.8,
@@ -8832,8 +8832,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 13,
-              "ownedCount": 15,
-              "participationPct": 87
+              "ownedCount": 16,
+              "participationPct": 81
             },
             {
               "usageKey": "267",
@@ -8910,9 +8910,9 @@
           ]
         },
         "39": {
-          "runCount": 184,
-          "averageParticipationPct": 15.9,
-          "averageRunDepthStep": 78.5,
+          "runCount": 185,
+          "averageParticipationPct": 16.3,
+          "averageRunDepthStep": 78.6,
           "averageRunDepthPct": 56.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -8921,8 +8921,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 13,
-              "ownedCount": 15,
-              "participationPct": 87
+              "ownedCount": 16,
+              "participationPct": 81
             },
             {
               "usageKey": "267",
@@ -8999,9 +8999,9 @@
           ]
         },
         "38": {
-          "runCount": 188,
-          "averageParticipationPct": 16.9,
-          "averageRunDepthStep": 77.6,
+          "runCount": 189,
+          "averageParticipationPct": 17.3,
+          "averageRunDepthStep": 77.7,
           "averageRunDepthPct": 55.9,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -9010,8 +9010,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 13,
-              "ownedCount": 15,
-              "participationPct": 87
+              "ownedCount": 16,
+              "participationPct": 81
             },
             {
               "usageKey": "267",
@@ -9088,9 +9088,9 @@
           ]
         },
         "37": {
-          "runCount": 188,
-          "averageParticipationPct": 16.9,
-          "averageRunDepthStep": 77.6,
+          "runCount": 189,
+          "averageParticipationPct": 17.3,
+          "averageRunDepthStep": 77.7,
           "averageRunDepthPct": 55.9,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -9099,8 +9099,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 13,
-              "ownedCount": 15,
-              "participationPct": 87
+              "ownedCount": 16,
+              "participationPct": 81
             },
             {
               "usageKey": "267",
@@ -9177,9 +9177,9 @@
           ]
         },
         "36": {
-          "runCount": 188,
-          "averageParticipationPct": 16.9,
-          "averageRunDepthStep": 77.6,
+          "runCount": 189,
+          "averageParticipationPct": 17.3,
+          "averageRunDepthStep": 77.7,
           "averageRunDepthPct": 55.9,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -9188,8 +9188,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 13,
-              "ownedCount": 15,
-              "participationPct": 87
+              "ownedCount": 16,
+              "participationPct": 81
             },
             {
               "usageKey": "267",
@@ -9266,9 +9266,9 @@
           ]
         },
         "35": {
-          "runCount": 196,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 75.9,
+          "runCount": 197,
+          "averageParticipationPct": 16.9,
+          "averageRunDepthStep": 76.0,
           "averageRunDepthPct": 54.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -9277,8 +9277,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 14,
-              "ownedCount": 17,
-              "participationPct": 82
+              "ownedCount": 18,
+              "participationPct": 78
             },
             {
               "usageKey": "267",
@@ -9355,9 +9355,9 @@
           ]
         },
         "34": {
-          "runCount": 196,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 75.9,
+          "runCount": 197,
+          "averageParticipationPct": 16.9,
+          "averageRunDepthStep": 76.0,
           "averageRunDepthPct": 54.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -9366,8 +9366,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 14,
-              "ownedCount": 17,
-              "participationPct": 82
+              "ownedCount": 18,
+              "participationPct": 78
             },
             {
               "usageKey": "267",
@@ -9444,10 +9444,10 @@
           ]
         },
         "33": {
-          "runCount": 197,
-          "averageParticipationPct": 16.4,
+          "runCount": 198,
+          "averageParticipationPct": 16.8,
           "averageRunDepthStep": 75.7,
-          "averageRunDepthPct": 54.4,
+          "averageRunDepthPct": 54.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9455,8 +9455,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 14,
-              "ownedCount": 17,
-              "participationPct": 82
+              "ownedCount": 18,
+              "participationPct": 78
             },
             {
               "usageKey": "267",
@@ -9533,10 +9533,10 @@
           ]
         },
         "32": {
-          "runCount": 205,
-          "averageParticipationPct": 16.5,
+          "runCount": 206,
+          "averageParticipationPct": 16.9,
           "averageRunDepthStep": 74.0,
-          "averageRunDepthPct": 53.2,
+          "averageRunDepthPct": 53.3,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9544,8 +9544,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 15,
-              "ownedCount": 18,
-              "participationPct": 83
+              "ownedCount": 19,
+              "participationPct": 79
             },
             {
               "usageKey": "267",
@@ -9622,8 +9622,8 @@
           ]
         },
         "31": {
-          "runCount": 208,
-          "averageParticipationPct": 16.5,
+          "runCount": 209,
+          "averageParticipationPct": 16.9,
           "averageRunDepthStep": 73.4,
           "averageRunDepthPct": 52.8,
           "averageBattlesUsed": 0.8,
@@ -9633,8 +9633,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 15,
-              "ownedCount": 18,
-              "participationPct": 83
+              "ownedCount": 19,
+              "participationPct": 79
             },
             {
               "usageKey": "267",
@@ -9711,9 +9711,9 @@
           ]
         },
         "30": {
-          "runCount": 212,
-          "averageParticipationPct": 16.2,
-          "averageRunDepthStep": 72.5,
+          "runCount": 213,
+          "averageParticipationPct": 16.6,
+          "averageRunDepthStep": 72.6,
           "averageRunDepthPct": 52.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -9722,8 +9722,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 15,
-              "ownedCount": 18,
-              "participationPct": 83
+              "ownedCount": 19,
+              "participationPct": 79
             },
             {
               "usageKey": "267",
@@ -9800,9 +9800,9 @@
           ]
         },
         "29": {
-          "runCount": 214,
-          "averageParticipationPct": 16.3,
-          "averageRunDepthStep": 72.1,
+          "runCount": 215,
+          "averageParticipationPct": 16.7,
+          "averageRunDepthStep": 72.2,
           "averageRunDepthPct": 51.9,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -9811,8 +9811,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 15,
-              "ownedCount": 18,
-              "participationPct": 83
+              "ownedCount": 19,
+              "participationPct": 79
             },
             {
               "usageKey": "267",
@@ -9889,10 +9889,10 @@
           ]
         },
         "28": {
-          "runCount": 218,
-          "averageParticipationPct": 16.4,
-          "averageRunDepthStep": 71.3,
-          "averageRunDepthPct": 51.3,
+          "runCount": 219,
+          "averageParticipationPct": 16.8,
+          "averageRunDepthStep": 71.4,
+          "averageRunDepthPct": 51.4,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -9900,8 +9900,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 16,
-              "ownedCount": 21,
-              "participationPct": 76
+              "ownedCount": 22,
+              "participationPct": 73
             },
             {
               "usageKey": "267",
@@ -9978,9 +9978,9 @@
           ]
         },
         "27": {
-          "runCount": 219,
-          "averageParticipationPct": 16.7,
-          "averageRunDepthStep": 71.1,
+          "runCount": 220,
+          "averageParticipationPct": 17.1,
+          "averageRunDepthStep": 71.2,
           "averageRunDepthPct": 51.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -9989,8 +9989,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 17,
-              "ownedCount": 22,
-              "participationPct": 77
+              "ownedCount": 23,
+              "participationPct": 74
             },
             {
               "usageKey": "267",
@@ -10067,10 +10067,10 @@
           ]
         },
         "26": {
-          "runCount": 220,
-          "averageParticipationPct": 16.7,
-          "averageRunDepthStep": 70.9,
-          "averageRunDepthPct": 51.0,
+          "runCount": 221,
+          "averageParticipationPct": 17.0,
+          "averageRunDepthStep": 71.0,
+          "averageRunDepthPct": 51.1,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10078,8 +10078,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 17,
-              "ownedCount": 22,
-              "participationPct": 77
+              "ownedCount": 23,
+              "participationPct": 74
             },
             {
               "usageKey": "267",
@@ -10156,10 +10156,10 @@
           ]
         },
         "25": {
-          "runCount": 222,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 70.5,
-          "averageRunDepthPct": 50.7,
+          "runCount": 223,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 70.6,
+          "averageRunDepthPct": 50.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10167,8 +10167,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 18,
-              "ownedCount": 23,
-              "participationPct": 78
+              "ownedCount": 24,
+              "participationPct": 75
             },
             {
               "usageKey": "267",
@@ -10245,10 +10245,10 @@
           ]
         },
         "24": {
-          "runCount": 222,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 70.5,
-          "averageRunDepthPct": 50.7,
+          "runCount": 223,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 70.6,
+          "averageRunDepthPct": 50.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10256,8 +10256,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 18,
-              "ownedCount": 23,
-              "participationPct": 78
+              "ownedCount": 24,
+              "participationPct": 75
             },
             {
               "usageKey": "267",
@@ -10334,10 +10334,10 @@
           ]
         },
         "23": {
-          "runCount": 222,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 70.5,
-          "averageRunDepthPct": 50.7,
+          "runCount": 223,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 70.6,
+          "averageRunDepthPct": 50.8,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10345,8 +10345,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 18,
-              "ownedCount": 23,
-              "participationPct": 78
+              "ownedCount": 24,
+              "participationPct": 75
             },
             {
               "usageKey": "267",
@@ -10423,9 +10423,9 @@
           ]
         },
         "22": {
-          "runCount": 223,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 70.3,
+          "runCount": 224,
+          "averageParticipationPct": 17.1,
+          "averageRunDepthStep": 70.4,
           "averageRunDepthPct": 50.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -10434,8 +10434,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 18,
-              "ownedCount": 23,
-              "participationPct": 78
+              "ownedCount": 24,
+              "participationPct": 75
             },
             {
               "usageKey": "267",
@@ -10512,10 +10512,10 @@
           ]
         },
         "21": {
-          "runCount": 224,
-          "averageParticipationPct": 16.7,
+          "runCount": 225,
+          "averageParticipationPct": 17.1,
           "averageRunDepthStep": 70.1,
-          "averageRunDepthPct": 50.4,
+          "averageRunDepthPct": 50.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10523,8 +10523,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 18,
-              "ownedCount": 23,
-              "participationPct": 78
+              "ownedCount": 24,
+              "participationPct": 75
             },
             {
               "usageKey": "267",
@@ -10601,10 +10601,10 @@
           ]
         },
         "20": {
-          "runCount": 224,
-          "averageParticipationPct": 16.7,
+          "runCount": 225,
+          "averageParticipationPct": 17.1,
           "averageRunDepthStep": 70.1,
-          "averageRunDepthPct": 50.4,
+          "averageRunDepthPct": 50.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10612,8 +10612,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 18,
-              "ownedCount": 23,
-              "participationPct": 78
+              "ownedCount": 24,
+              "participationPct": 75
             },
             {
               "usageKey": "267",
@@ -10690,8 +10690,8 @@
           ]
         },
         "19": {
-          "runCount": 228,
-          "averageParticipationPct": 17.5,
+          "runCount": 229,
+          "averageParticipationPct": 17.9,
           "averageRunDepthStep": 69.2,
           "averageRunDepthPct": 49.8,
           "averageBattlesUsed": 0.8,
@@ -10701,8 +10701,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 19,
-              "ownedCount": 24,
-              "participationPct": 79
+              "ownedCount": 25,
+              "participationPct": 76
             },
             {
               "usageKey": "267",
@@ -10779,10 +10779,10 @@
           ]
         },
         "18": {
-          "runCount": 229,
-          "averageParticipationPct": 17.4,
-          "averageRunDepthStep": 68.9,
-          "averageRunDepthPct": 49.6,
+          "runCount": 230,
+          "averageParticipationPct": 17.8,
+          "averageRunDepthStep": 69.0,
+          "averageRunDepthPct": 49.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10790,8 +10790,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 19,
-              "ownedCount": 24,
-              "participationPct": 79
+              "ownedCount": 25,
+              "participationPct": 76
             },
             {
               "usageKey": "267",
@@ -10868,10 +10868,10 @@
           ]
         },
         "17": {
-          "runCount": 229,
-          "averageParticipationPct": 17.4,
-          "averageRunDepthStep": 68.9,
-          "averageRunDepthPct": 49.6,
+          "runCount": 230,
+          "averageParticipationPct": 17.8,
+          "averageRunDepthStep": 69.0,
+          "averageRunDepthPct": 49.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10879,8 +10879,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 19,
-              "ownedCount": 24,
-              "participationPct": 79
+              "ownedCount": 25,
+              "participationPct": 76
             },
             {
               "usageKey": "267",
@@ -10957,10 +10957,10 @@
           ]
         },
         "16": {
-          "runCount": 230,
-          "averageParticipationPct": 17.8,
-          "averageRunDepthStep": 68.7,
-          "averageRunDepthPct": 49.4,
+          "runCount": 231,
+          "averageParticipationPct": 18.1,
+          "averageRunDepthStep": 68.8,
+          "averageRunDepthPct": 49.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -10968,8 +10968,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 20,
-              "ownedCount": 25,
-              "participationPct": 80
+              "ownedCount": 26,
+              "participationPct": 77
             },
             {
               "usageKey": "267",
@@ -11046,10 +11046,10 @@
           ]
         },
         "15": {
-          "runCount": 236,
-          "averageParticipationPct": 19.0,
-          "averageRunDepthStep": 67.3,
-          "averageRunDepthPct": 48.4,
+          "runCount": 237,
+          "averageParticipationPct": 19.4,
+          "averageRunDepthStep": 67.4,
+          "averageRunDepthPct": 48.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11057,8 +11057,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 20,
-              "ownedCount": 26,
-              "participationPct": 77
+              "ownedCount": 27,
+              "participationPct": 74
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11135,10 +11135,10 @@
           ]
         },
         "14": {
-          "runCount": 236,
-          "averageParticipationPct": 19.0,
-          "averageRunDepthStep": 67.3,
-          "averageRunDepthPct": 48.4,
+          "runCount": 237,
+          "averageParticipationPct": 19.4,
+          "averageRunDepthStep": 67.4,
+          "averageRunDepthPct": 48.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11146,8 +11146,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 20,
-              "ownedCount": 26,
-              "participationPct": 77
+              "ownedCount": 27,
+              "participationPct": 74
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11224,10 +11224,10 @@
           ]
         },
         "13": {
-          "runCount": 256,
-          "averageParticipationPct": 21.1,
-          "averageRunDepthStep": 63.1,
-          "averageRunDepthPct": 45.4,
+          "runCount": 257,
+          "averageParticipationPct": 21.4,
+          "averageRunDepthStep": 63.2,
+          "averageRunDepthPct": 45.5,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11235,8 +11235,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11313,10 +11313,10 @@
           ]
         },
         "12": {
-          "runCount": 258,
-          "averageParticipationPct": 21.7,
-          "averageRunDepthStep": 62.7,
-          "averageRunDepthPct": 45.1,
+          "runCount": 259,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 62.8,
+          "averageRunDepthPct": 45.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11324,8 +11324,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11402,10 +11402,10 @@
           ]
         },
         "11": {
-          "runCount": 258,
-          "averageParticipationPct": 21.7,
-          "averageRunDepthStep": 62.7,
-          "averageRunDepthPct": 45.1,
+          "runCount": 259,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 62.8,
+          "averageRunDepthPct": 45.2,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11413,8 +11413,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11491,9 +11491,9 @@
           ]
         },
         "10": {
-          "runCount": 259,
-          "averageParticipationPct": 21.6,
-          "averageRunDepthStep": 62.5,
+          "runCount": 260,
+          "averageParticipationPct": 21.9,
+          "averageRunDepthStep": 62.6,
           "averageRunDepthPct": 45.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -11502,8 +11502,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11580,9 +11580,9 @@
           ]
         },
         "9": {
-          "runCount": 259,
-          "averageParticipationPct": 21.6,
-          "averageRunDepthStep": 62.5,
+          "runCount": 260,
+          "averageParticipationPct": 21.9,
+          "averageRunDepthStep": 62.6,
           "averageRunDepthPct": 45.0,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -11591,8 +11591,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11669,9 +11669,9 @@
           ]
         },
         "8": {
-          "runCount": 261,
-          "averageParticipationPct": 22.0,
-          "averageRunDepthStep": 62.1,
+          "runCount": 262,
+          "averageParticipationPct": 22.3,
+          "averageRunDepthStep": 62.2,
           "averageRunDepthPct": 44.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -11680,8 +11680,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11758,9 +11758,9 @@
           ]
         },
         "7": {
-          "runCount": 261,
-          "averageParticipationPct": 22.0,
-          "averageRunDepthStep": 62.1,
+          "runCount": 262,
+          "averageParticipationPct": 22.3,
+          "averageRunDepthStep": 62.2,
           "averageRunDepthPct": 44.7,
           "averageBattlesUsed": 0.8,
           "topBattles": [
@@ -11769,8 +11769,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11847,10 +11847,10 @@
           ]
         },
         "6": {
-          "runCount": 262,
-          "averageParticipationPct": 21.9,
-          "averageRunDepthStep": 61.9,
-          "averageRunDepthPct": 44.5,
+          "runCount": 263,
+          "averageParticipationPct": 22.2,
+          "averageRunDepthStep": 62.0,
+          "averageRunDepthPct": 44.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11858,8 +11858,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -11936,10 +11936,10 @@
           ]
         },
         "5": {
-          "runCount": 262,
-          "averageParticipationPct": 21.9,
-          "averageRunDepthStep": 61.9,
-          "averageRunDepthPct": 44.5,
+          "runCount": 263,
+          "averageParticipationPct": 22.2,
+          "averageRunDepthStep": 62.0,
+          "averageRunDepthPct": 44.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -11947,8 +11947,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -12025,10 +12025,10 @@
           ]
         },
         "4": {
-          "runCount": 262,
-          "averageParticipationPct": 21.9,
-          "averageRunDepthStep": 61.9,
-          "averageRunDepthPct": 44.5,
+          "runCount": 263,
+          "averageParticipationPct": 22.2,
+          "averageRunDepthStep": 62.0,
+          "averageRunDepthPct": 44.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -12036,8 +12036,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -12114,10 +12114,10 @@
           ]
         },
         "3": {
-          "runCount": 262,
-          "averageParticipationPct": 21.9,
-          "averageRunDepthStep": 61.9,
-          "averageRunDepthPct": 44.5,
+          "runCount": 263,
+          "averageParticipationPct": 22.2,
+          "averageRunDepthStep": 62.0,
+          "averageRunDepthPct": 44.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -12125,8 +12125,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -12203,10 +12203,10 @@
           ]
         },
         "2": {
-          "runCount": 262,
-          "averageParticipationPct": 21.9,
-          "averageRunDepthStep": 61.9,
-          "averageRunDepthPct": 44.5,
+          "runCount": 263,
+          "averageParticipationPct": 22.2,
+          "averageRunDepthStep": 62.0,
+          "averageRunDepthPct": 44.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -12214,8 +12214,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -12292,10 +12292,10 @@
           ]
         },
         "1": {
-          "runCount": 262,
-          "averageParticipationPct": 21.9,
-          "averageRunDepthStep": 61.9,
-          "averageRunDepthPct": 44.5,
+          "runCount": 263,
+          "averageParticipationPct": 22.2,
+          "averageRunDepthStep": 62.0,
+          "averageRunDepthPct": 44.6,
           "averageBattlesUsed": 0.8,
           "topBattles": [
             {
@@ -12303,8 +12303,8 @@
               "displayName": "Leader Brawly",
               "leadLevel": 25,
               "partyCount": 29,
-              "ownedCount": 46,
-              "participationPct": 63
+              "ownedCount": 47,
+              "participationPct": 62
             },
             {
               "usageKey": "Team Aqua Grunt Museum2",
@@ -24400,19 +24400,19 @@
           ]
         },
         "4": {
-          "runCount": 79,
-          "averageParticipationPct": 8.3,
-          "averageRunDepthStep": 38.4,
-          "averageRunDepthPct": 27.6,
+          "runCount": 80,
+          "averageParticipationPct": 9.4,
+          "averageRunDepthStep": 38.0,
+          "averageRunDepthPct": 27.3,
           "averageBattlesUsed": 0.2,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 8,
-              "ownedCount": 21,
-              "participationPct": 38
+              "partyCount": 9,
+              "ownedCount": 22,
+              "participationPct": 41
             },
             {
               "usageKey": "851",
@@ -24489,19 +24489,19 @@
           ]
         },
         "3": {
-          "runCount": 84,
-          "averageParticipationPct": 10.2,
-          "averageRunDepthStep": 36.3,
-          "averageRunDepthPct": 26.1,
+          "runCount": 85,
+          "averageParticipationPct": 11.2,
+          "averageRunDepthStep": 35.9,
+          "averageRunDepthPct": 25.8,
           "averageBattlesUsed": 0.2,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 8,
-              "ownedCount": 21,
-              "participationPct": 38
+              "partyCount": 9,
+              "ownedCount": 22,
+              "participationPct": 41
             },
             {
               "usageKey": "851",
@@ -24578,19 +24578,19 @@
           ]
         },
         "2": {
-          "runCount": 84,
-          "averageParticipationPct": 10.2,
-          "averageRunDepthStep": 36.3,
-          "averageRunDepthPct": 26.1,
+          "runCount": 85,
+          "averageParticipationPct": 11.2,
+          "averageRunDepthStep": 35.9,
+          "averageRunDepthPct": 25.8,
           "averageBattlesUsed": 0.2,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 8,
-              "ownedCount": 21,
-              "participationPct": 38
+              "partyCount": 9,
+              "ownedCount": 22,
+              "participationPct": 41
             },
             {
               "usageKey": "851",
@@ -24667,19 +24667,19 @@
           ]
         },
         "1": {
-          "runCount": 84,
-          "averageParticipationPct": 10.2,
-          "averageRunDepthStep": 36.3,
-          "averageRunDepthPct": 26.1,
+          "runCount": 85,
+          "averageParticipationPct": 11.2,
+          "averageRunDepthStep": 35.9,
+          "averageRunDepthPct": 25.8,
           "averageBattlesUsed": 0.2,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 8,
-              "ownedCount": 21,
-              "participationPct": 38
+              "partyCount": 9,
+              "ownedCount": 22,
+              "participationPct": 41
             },
             {
               "usageKey": "851",
@@ -29211,10 +29211,10 @@
         ]
       },
       "89": {
-        "runCount": 63,
-        "averageParticipationPct": 8.7,
-        "averageRunDepthStep": 117.7,
-        "averageRunDepthPct": 84.7,
+        "runCount": 64,
+        "averageParticipationPct": 10.1,
+        "averageRunDepthStep": 117.2,
+        "averageRunDepthPct": 84.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -29300,10 +29300,10 @@
         ]
       },
       "88": {
-        "runCount": 65,
-        "averageParticipationPct": 8.5,
-        "averageRunDepthStep": 116.8,
-        "averageRunDepthPct": 84.0,
+        "runCount": 66,
+        "averageParticipationPct": 9.8,
+        "averageRunDepthStep": 116.3,
+        "averageRunDepthPct": 83.7,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -29389,11 +29389,11 @@
         ]
       },
       "87": {
-        "runCount": 66,
-        "averageParticipationPct": 8.3,
-        "averageRunDepthStep": 116.3,
-        "averageRunDepthPct": 83.7,
-        "averageBattlesUsed": 0.8,
+        "runCount": 67,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 115.9,
+        "averageRunDepthPct": 83.4,
+        "averageBattlesUsed": 0.9,
         "topBattles": [
           {
             "usageKey": "Guitarist Joseph",
@@ -29478,10 +29478,10 @@
         ]
       },
       "86": {
-        "runCount": 67,
-        "averageParticipationPct": 8.7,
-        "averageRunDepthStep": 115.9,
-        "averageRunDepthPct": 83.3,
+        "runCount": 68,
+        "averageParticipationPct": 10.0,
+        "averageRunDepthStep": 115.5,
+        "averageRunDepthPct": 83.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -29567,10 +29567,10 @@
         ]
       },
       "85": {
-        "runCount": 67,
-        "averageParticipationPct": 8.7,
-        "averageRunDepthStep": 115.9,
-        "averageRunDepthPct": 83.3,
+        "runCount": 68,
+        "averageParticipationPct": 10.0,
+        "averageRunDepthStep": 115.5,
+        "averageRunDepthPct": 83.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -29656,10 +29656,10 @@
         ]
       },
       "84": {
-        "runCount": 67,
-        "averageParticipationPct": 8.7,
-        "averageRunDepthStep": 115.9,
-        "averageRunDepthPct": 83.3,
+        "runCount": 68,
+        "averageParticipationPct": 10.0,
+        "averageRunDepthStep": 115.5,
+        "averageRunDepthPct": 83.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -29745,10 +29745,10 @@
         ]
       },
       "83": {
-        "runCount": 70,
-        "averageParticipationPct": 8.3,
-        "averageRunDepthStep": 114.4,
-        "averageRunDepthPct": 82.3,
+        "runCount": 71,
+        "averageParticipationPct": 9.6,
+        "averageRunDepthStep": 114.1,
+        "averageRunDepthPct": 82.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -29834,10 +29834,10 @@
         ]
       },
       "82": {
-        "runCount": 76,
-        "averageParticipationPct": 7.7,
-        "averageRunDepthStep": 111.9,
-        "averageRunDepthPct": 80.5,
+        "runCount": 77,
+        "averageParticipationPct": 8.9,
+        "averageRunDepthStep": 111.6,
+        "averageRunDepthPct": 80.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -29923,10 +29923,10 @@
         ]
       },
       "81": {
-        "runCount": 80,
-        "averageParticipationPct": 8.7,
-        "averageRunDepthStep": 110.3,
-        "averageRunDepthPct": 79.4,
+        "runCount": 81,
+        "averageParticipationPct": 9.8,
+        "averageRunDepthStep": 110.1,
+        "averageRunDepthPct": 79.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -29934,8 +29934,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30012,10 +30012,10 @@
         ]
       },
       "80": {
-        "runCount": 81,
-        "averageParticipationPct": 8.6,
-        "averageRunDepthStep": 110.0,
-        "averageRunDepthPct": 79.1,
+        "runCount": 82,
+        "averageParticipationPct": 9.7,
+        "averageRunDepthStep": 109.7,
+        "averageRunDepthPct": 78.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -30023,8 +30023,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30101,10 +30101,10 @@
         ]
       },
       "79": {
-        "runCount": 83,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 109.2,
-        "averageRunDepthPct": 78.6,
+        "runCount": 84,
+        "averageParticipationPct": 9.5,
+        "averageRunDepthStep": 109.0,
+        "averageRunDepthPct": 78.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -30112,8 +30112,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30190,10 +30190,10 @@
         ]
       },
       "78": {
-        "runCount": 83,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 109.2,
-        "averageRunDepthPct": 78.6,
+        "runCount": 84,
+        "averageParticipationPct": 9.5,
+        "averageRunDepthStep": 109.0,
+        "averageRunDepthPct": 78.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -30201,8 +30201,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30279,10 +30279,10 @@
         ]
       },
       "77": {
-        "runCount": 83,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 109.2,
-        "averageRunDepthPct": 78.6,
+        "runCount": 84,
+        "averageParticipationPct": 9.5,
+        "averageRunDepthStep": 109.0,
+        "averageRunDepthPct": 78.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -30290,8 +30290,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30368,10 +30368,10 @@
         ]
       },
       "76": {
-        "runCount": 83,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 109.2,
-        "averageRunDepthPct": 78.6,
+        "runCount": 84,
+        "averageParticipationPct": 9.5,
+        "averageRunDepthStep": 109.0,
+        "averageRunDepthPct": 78.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -30379,8 +30379,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 5,
-            "participationPct": 100
+            "ownedCount": 6,
+            "participationPct": 83
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30457,10 +30457,10 @@
         ]
       },
       "75": {
-        "runCount": 84,
-        "averageParticipationPct": 8.6,
-        "averageRunDepthStep": 108.8,
-        "averageRunDepthPct": 78.3,
+        "runCount": 85,
+        "averageParticipationPct": 9.6,
+        "averageRunDepthStep": 108.6,
+        "averageRunDepthPct": 78.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -30468,8 +30468,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30546,10 +30546,10 @@
         ]
       },
       "74": {
-        "runCount": 85,
-        "averageParticipationPct": 8.5,
-        "averageRunDepthStep": 108.4,
-        "averageRunDepthPct": 78.0,
+        "runCount": 86,
+        "averageParticipationPct": 9.5,
+        "averageRunDepthStep": 108.2,
+        "averageRunDepthPct": 77.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -30557,8 +30557,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30635,19 +30635,19 @@
         ]
       },
       "73": {
-        "runCount": 86,
-        "averageParticipationPct": 8.4,
-        "averageRunDepthStep": 108.0,
-        "averageRunDepthPct": 77.7,
-        "averageBattlesUsed": 0.8,
+        "runCount": 87,
+        "averageParticipationPct": 9.4,
+        "averageRunDepthStep": 107.8,
+        "averageRunDepthPct": 77.5,
+        "averageBattlesUsed": 0.9,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30724,10 +30724,10 @@
         ]
       },
       "72": {
-        "runCount": 89,
-        "averageParticipationPct": 8.3,
-        "averageRunDepthStep": 106.8,
-        "averageRunDepthPct": 76.8,
+        "runCount": 90,
+        "averageParticipationPct": 9.3,
+        "averageRunDepthStep": 106.6,
+        "averageRunDepthPct": 76.7,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -30735,8 +30735,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30813,10 +30813,10 @@
         ]
       },
       "71": {
-        "runCount": 89,
-        "averageParticipationPct": 8.3,
-        "averageRunDepthStep": 106.8,
-        "averageRunDepthPct": 76.8,
+        "runCount": 90,
+        "averageParticipationPct": 9.3,
+        "averageRunDepthStep": 106.6,
+        "averageRunDepthPct": 76.7,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -30824,8 +30824,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30902,10 +30902,10 @@
         ]
       },
       "70": {
-        "runCount": 90,
-        "averageParticipationPct": 8.2,
-        "averageRunDepthStep": 106.4,
-        "averageRunDepthPct": 76.5,
+        "runCount": 91,
+        "averageParticipationPct": 9.2,
+        "averageRunDepthStep": 106.2,
+        "averageRunDepthPct": 76.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -30913,8 +30913,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -30991,10 +30991,10 @@
         ]
       },
       "69": {
-        "runCount": 91,
-        "averageParticipationPct": 8.1,
-        "averageRunDepthStep": 106.0,
-        "averageRunDepthPct": 76.2,
+        "runCount": 92,
+        "averageParticipationPct": 9.1,
+        "averageRunDepthStep": 105.8,
+        "averageRunDepthPct": 76.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31002,8 +31002,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31080,10 +31080,10 @@
         ]
       },
       "68": {
-        "runCount": 100,
-        "averageParticipationPct": 9.2,
-        "averageRunDepthStep": 102.5,
-        "averageRunDepthPct": 73.8,
+        "runCount": 101,
+        "averageParticipationPct": 10.1,
+        "averageRunDepthStep": 102.4,
+        "averageRunDepthPct": 73.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -31091,8 +31091,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31169,10 +31169,10 @@
         ]
       },
       "67": {
-        "runCount": 105,
-        "averageParticipationPct": 11.7,
-        "averageRunDepthStep": 100.8,
-        "averageRunDepthPct": 72.6,
+        "runCount": 106,
+        "averageParticipationPct": 12.5,
+        "averageRunDepthStep": 100.7,
+        "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31180,8 +31180,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31258,10 +31258,10 @@
         ]
       },
       "66": {
-        "runCount": 105,
-        "averageParticipationPct": 11.7,
-        "averageRunDepthStep": 100.8,
-        "averageRunDepthPct": 72.6,
+        "runCount": 106,
+        "averageParticipationPct": 12.5,
+        "averageRunDepthStep": 100.7,
+        "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31269,8 +31269,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31347,10 +31347,10 @@
         ]
       },
       "65": {
-        "runCount": 107,
-        "averageParticipationPct": 12.5,
-        "averageRunDepthStep": 100.2,
-        "averageRunDepthPct": 72.1,
+        "runCount": 108,
+        "averageParticipationPct": 13.3,
+        "averageRunDepthStep": 100.1,
+        "averageRunDepthPct": 72.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31358,8 +31358,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 9,
+            "participationPct": 78
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31436,10 +31436,10 @@
         ]
       },
       "64": {
-        "runCount": 109,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 99.5,
-        "averageRunDepthPct": 71.6,
+        "runCount": 110,
+        "averageParticipationPct": 13.0,
+        "averageRunDepthStep": 99.4,
+        "averageRunDepthPct": 71.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31447,8 +31447,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 9,
+            "participationPct": 78
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31525,10 +31525,10 @@
         ]
       },
       "63": {
-        "runCount": 110,
-        "averageParticipationPct": 12.1,
-        "averageRunDepthStep": 99.2,
-        "averageRunDepthPct": 71.4,
+        "runCount": 111,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 99.1,
+        "averageRunDepthPct": 71.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31536,8 +31536,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 9,
+            "participationPct": 78
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31614,10 +31614,10 @@
         ]
       },
       "62": {
-        "runCount": 112,
-        "averageParticipationPct": 11.9,
-        "averageRunDepthStep": 98.5,
-        "averageRunDepthPct": 70.9,
+        "runCount": 113,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 98.4,
+        "averageRunDepthPct": 70.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31625,8 +31625,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 9,
+            "participationPct": 78
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31703,10 +31703,10 @@
         ]
       },
       "61": {
-        "runCount": 114,
-        "averageParticipationPct": 12.2,
-        "averageRunDepthStep": 97.9,
-        "averageRunDepthPct": 70.4,
+        "runCount": 115,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 97.8,
+        "averageRunDepthPct": 70.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31714,8 +31714,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 9,
+            "participationPct": 78
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31792,9 +31792,9 @@
         ]
       },
       "60": {
-        "runCount": 116,
-        "averageParticipationPct": 11.9,
-        "averageRunDepthStep": 97.2,
+        "runCount": 117,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 97.1,
         "averageRunDepthPct": 69.9,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -31803,8 +31803,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 9,
+            "participationPct": 78
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31881,9 +31881,9 @@
         ]
       },
       "59": {
-        "runCount": 116,
-        "averageParticipationPct": 11.9,
-        "averageRunDepthStep": 97.2,
+        "runCount": 117,
+        "averageParticipationPct": 12.7,
+        "averageRunDepthStep": 97.1,
         "averageRunDepthPct": 69.9,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -31892,8 +31892,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 9,
+            "participationPct": 78
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -31970,10 +31970,10 @@
         ]
       },
       "58": {
-        "runCount": 121,
-        "averageParticipationPct": 11.7,
-        "averageRunDepthStep": 95.6,
-        "averageRunDepthPct": 68.8,
+        "runCount": 122,
+        "averageParticipationPct": 12.4,
+        "averageRunDepthStep": 95.5,
+        "averageRunDepthPct": 68.7,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -31981,8 +31981,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32059,9 +32059,9 @@
         ]
       },
       "57": {
-        "runCount": 122,
-        "averageParticipationPct": 11.6,
-        "averageRunDepthStep": 95.3,
+        "runCount": 123,
+        "averageParticipationPct": 12.3,
+        "averageRunDepthStep": 95.2,
         "averageRunDepthPct": 68.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -32070,8 +32070,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32148,9 +32148,9 @@
         ]
       },
       "56": {
-        "runCount": 123,
-        "averageParticipationPct": 11.5,
-        "averageRunDepthStep": 95.0,
+        "runCount": 124,
+        "averageParticipationPct": 12.2,
+        "averageRunDepthStep": 94.9,
         "averageRunDepthPct": 68.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -32159,8 +32159,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32237,9 +32237,9 @@
         ]
       },
       "55": {
-        "runCount": 123,
-        "averageParticipationPct": 11.5,
-        "averageRunDepthStep": 95.0,
+        "runCount": 124,
+        "averageParticipationPct": 12.2,
+        "averageRunDepthStep": 94.9,
         "averageRunDepthPct": 68.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -32248,8 +32248,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32326,9 +32326,9 @@
         ]
       },
       "54": {
-        "runCount": 127,
-        "averageParticipationPct": 12.8,
-        "averageRunDepthStep": 93.7,
+        "runCount": 128,
+        "averageParticipationPct": 13.4,
+        "averageRunDepthStep": 93.6,
         "averageRunDepthPct": 67.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
@@ -32337,8 +32337,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32415,10 +32415,10 @@
         ]
       },
       "53": {
-        "runCount": 128,
-        "averageParticipationPct": 13.4,
+        "runCount": 129,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 93.3,
-        "averageRunDepthPct": 67.2,
+        "averageRunDepthPct": 67.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -32426,8 +32426,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32504,10 +32504,10 @@
         ]
       },
       "52": {
-        "runCount": 128,
-        "averageParticipationPct": 13.4,
+        "runCount": 129,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 93.3,
-        "averageRunDepthPct": 67.2,
+        "averageRunDepthPct": 67.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -32515,8 +32515,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32593,8 +32593,8 @@
         ]
       },
       "51": {
-        "runCount": 129,
-        "averageParticipationPct": 13.3,
+        "runCount": 130,
+        "averageParticipationPct": 14.0,
         "averageRunDepthStep": 93.0,
         "averageRunDepthPct": 66.9,
         "averageBattlesUsed": 0.9,
@@ -32604,8 +32604,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32682,8 +32682,8 @@
         ]
       },
       "50": {
-        "runCount": 129,
-        "averageParticipationPct": 13.3,
+        "runCount": 130,
+        "averageParticipationPct": 14.0,
         "averageRunDepthStep": 93.0,
         "averageRunDepthPct": 66.9,
         "averageBattlesUsed": 0.9,
@@ -32693,8 +32693,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 8,
-            "ownedCount": 9,
-            "participationPct": 89
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32771,8 +32771,8 @@
         ]
       },
       "49": {
-        "runCount": 146,
-        "averageParticipationPct": 12.9,
+        "runCount": 147,
+        "averageParticipationPct": 13.5,
         "averageRunDepthStep": 87.9,
         "averageRunDepthPct": 63.2,
         "averageBattlesUsed": 0.8,
@@ -32782,8 +32782,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 9,
-            "ownedCount": 10,
-            "participationPct": 90
+            "ownedCount": 11,
+            "participationPct": 82
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32860,8 +32860,8 @@
         ]
       },
       "48": {
-        "runCount": 149,
-        "averageParticipationPct": 14.0,
+        "runCount": 150,
+        "averageParticipationPct": 14.5,
         "averageRunDepthStep": 87.1,
         "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.8,
@@ -32871,8 +32871,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 9,
-            "ownedCount": 10,
-            "participationPct": 90
+            "ownedCount": 11,
+            "participationPct": 82
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -32949,8 +32949,8 @@
         ]
       },
       "47": {
-        "runCount": 154,
-        "averageParticipationPct": 13.5,
+        "runCount": 155,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 85.8,
         "averageRunDepthPct": 61.7,
         "averageBattlesUsed": 0.8,
@@ -32960,8 +32960,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 9,
-            "ownedCount": 11,
-            "participationPct": 82
+            "ownedCount": 12,
+            "participationPct": 75
           },
           {
             "usageKey": "Parasol Lady Madeline",
@@ -33038,9 +33038,9 @@
         ]
       },
       "46": {
-        "runCount": 155,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 85.5,
+        "runCount": 156,
+        "averageParticipationPct": 14.4,
+        "averageRunDepthStep": 85.6,
         "averageRunDepthPct": 61.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -33049,8 +33049,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 10,
-            "ownedCount": 12,
-            "participationPct": 83
+            "ownedCount": 13,
+            "participationPct": 77
           },
           {
             "usageKey": "267",
@@ -33127,9 +33127,9 @@
         ]
       },
       "45": {
-        "runCount": 155,
-        "averageParticipationPct": 13.8,
-        "averageRunDepthStep": 85.5,
+        "runCount": 156,
+        "averageParticipationPct": 14.4,
+        "averageRunDepthStep": 85.6,
         "averageRunDepthPct": 61.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -33138,8 +33138,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 10,
-            "ownedCount": 12,
-            "participationPct": 83
+            "ownedCount": 13,
+            "participationPct": 77
           },
           {
             "usageKey": "267",
@@ -33216,8 +33216,8 @@
         ]
       },
       "44": {
-        "runCount": 157,
-        "averageParticipationPct": 13.7,
+        "runCount": 158,
+        "averageParticipationPct": 14.2,
         "averageRunDepthStep": 85.0,
         "averageRunDepthPct": 61.2,
         "averageBattlesUsed": 0.8,
@@ -33227,8 +33227,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 10,
-            "ownedCount": 12,
-            "participationPct": 83
+            "ownedCount": 13,
+            "participationPct": 77
           },
           {
             "usageKey": "267",
@@ -33305,99 +33305,10 @@
         ]
       },
       "43": {
-        "runCount": 163,
-        "averageParticipationPct": 14.4,
+        "runCount": 164,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 83.5,
-        "averageRunDepthPct": 60.0,
-        "averageBattlesUsed": 0.8,
-        "topBattles": [
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 11,
-            "ownedCount": 13,
-            "participationPct": 85
-          },
-          {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 7,
-            "ownedCount": 17,
-            "participationPct": 41
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 5,
-            "ownedCount": 9,
-            "participationPct": 56
-          },
-          {
-            "usageKey": "Guitarist Joseph",
-            "displayName": "Guitarist Joseph",
-            "leadLevel": null,
-            "partyCount": 4,
-            "ownedCount": 4,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "852",
-            "displayName": "Leader Gardenia",
-            "leadLevel": -1,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
-            "usageKey": "Team Aqua Grunt Museum2",
-            "displayName": "Team Aqua Grunt Museum2",
-            "leadLevel": null,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
-            "usageKey": "Hiker Trent",
-            "displayName": "Hiker Trent",
-            "leadLevel": null,
-            "partyCount": 4,
-            "ownedCount": 7,
-            "participationPct": 57
-          },
-          {
-            "usageKey": "Picnicker Martha",
-            "displayName": "Picnicker Martha",
-            "leadLevel": null,
-            "partyCount": 4,
-            "ownedCount": 12,
-            "participationPct": 33
-          },
-          {
-            "usageKey": "269",
-            "displayName": "Leader Norman",
-            "leadLevel": 59,
-            "partyCount": 4,
-            "ownedCount": 19,
-            "participationPct": 21
-          },
-          {
-            "usageKey": "Rival May Rustboro Torchic",
-            "displayName": "Rival May Rustboro Torchic",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 3,
-            "participationPct": 100
-          }
-        ]
-      },
-      "42": {
-        "runCount": 168,
-        "averageParticipationPct": 13.9,
-        "averageRunDepthStep": 82.2,
-        "averageRunDepthPct": 59.2,
+        "averageRunDepthPct": 60.1,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -33482,11 +33393,100 @@
           }
         ]
       },
+      "42": {
+        "runCount": 169,
+        "averageParticipationPct": 14.4,
+        "averageRunDepthStep": 82.3,
+        "averageRunDepthPct": 59.2,
+        "averageBattlesUsed": 0.8,
+        "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 11,
+            "ownedCount": 15,
+            "participationPct": 73
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 7,
+            "ownedCount": 17,
+            "participationPct": 41
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 5,
+            "ownedCount": 9,
+            "participationPct": 56
+          },
+          {
+            "usageKey": "Guitarist Joseph",
+            "displayName": "Guitarist Joseph",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "852",
+            "displayName": "Leader Gardenia",
+            "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "Team Aqua Grunt Museum2",
+            "displayName": "Team Aqua Grunt Museum2",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 5,
+            "participationPct": 80
+          },
+          {
+            "usageKey": "Hiker Trent",
+            "displayName": "Hiker Trent",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 7,
+            "participationPct": 57
+          },
+          {
+            "usageKey": "Picnicker Martha",
+            "displayName": "Picnicker Martha",
+            "leadLevel": null,
+            "partyCount": 4,
+            "ownedCount": 12,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "269",
+            "displayName": "Leader Norman",
+            "leadLevel": 59,
+            "partyCount": 4,
+            "ownedCount": 19,
+            "participationPct": 21
+          },
+          {
+            "usageKey": "Rival May Rustboro Torchic",
+            "displayName": "Rival May Rustboro Torchic",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          }
+        ]
+      },
       "41": {
-        "runCount": 174,
-        "averageParticipationPct": 14.3,
+        "runCount": 175,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 80.8,
-        "averageRunDepthPct": 58.1,
+        "averageRunDepthPct": 58.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -33494,8 +33494,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 12,
-            "ownedCount": 15,
-            "participationPct": 80
+            "ownedCount": 16,
+            "participationPct": 75
           },
           {
             "usageKey": "267",
@@ -33572,8 +33572,8 @@
         ]
       },
       "40": {
-        "runCount": 178,
-        "averageParticipationPct": 15.1,
+        "runCount": 179,
+        "averageParticipationPct": 15.6,
         "averageRunDepthStep": 79.9,
         "averageRunDepthPct": 57.5,
         "averageBattlesUsed": 0.8,
@@ -33583,8 +33583,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 13,
-            "ownedCount": 16,
-            "participationPct": 81
+            "ownedCount": 17,
+            "participationPct": 76
           },
           {
             "usageKey": "267",
@@ -33661,9 +33661,9 @@
         ]
       },
       "39": {
-        "runCount": 185,
-        "averageParticipationPct": 15.8,
-        "averageRunDepthStep": 78.3,
+        "runCount": 186,
+        "averageParticipationPct": 16.2,
+        "averageRunDepthStep": 78.4,
         "averageRunDepthPct": 56.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -33672,8 +33672,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 13,
-            "ownedCount": 16,
-            "participationPct": 81
+            "ownedCount": 17,
+            "participationPct": 76
           },
           {
             "usageKey": "267",
@@ -33750,10 +33750,10 @@
         ]
       },
       "38": {
-        "runCount": 189,
-        "averageParticipationPct": 16.8,
+        "runCount": 190,
+        "averageParticipationPct": 17.2,
         "averageRunDepthStep": 77.5,
-        "averageRunDepthPct": 55.7,
+        "averageRunDepthPct": 55.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -33761,8 +33761,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 13,
-            "ownedCount": 16,
-            "participationPct": 81
+            "ownedCount": 17,
+            "participationPct": 76
           },
           {
             "usageKey": "267",
@@ -33839,10 +33839,10 @@
         ]
       },
       "37": {
-        "runCount": 189,
-        "averageParticipationPct": 16.8,
+        "runCount": 190,
+        "averageParticipationPct": 17.2,
         "averageRunDepthStep": 77.5,
-        "averageRunDepthPct": 55.7,
+        "averageRunDepthPct": 55.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -33850,8 +33850,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 13,
-            "ownedCount": 16,
-            "participationPct": 81
+            "ownedCount": 17,
+            "participationPct": 76
           },
           {
             "usageKey": "267",
@@ -33928,10 +33928,10 @@
         ]
       },
       "36": {
-        "runCount": 189,
-        "averageParticipationPct": 16.8,
+        "runCount": 190,
+        "averageParticipationPct": 17.2,
         "averageRunDepthStep": 77.5,
-        "averageRunDepthPct": 55.7,
+        "averageRunDepthPct": 55.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -33939,8 +33939,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 13,
-            "ownedCount": 16,
-            "participationPct": 81
+            "ownedCount": 17,
+            "participationPct": 76
           },
           {
             "usageKey": "267",
@@ -34017,8 +34017,8 @@
         ]
       },
       "35": {
-        "runCount": 197,
-        "averageParticipationPct": 16.4,
+        "runCount": 198,
+        "averageParticipationPct": 16.8,
         "averageRunDepthStep": 75.8,
         "averageRunDepthPct": 54.5,
         "averageBattlesUsed": 0.8,
@@ -34028,8 +34028,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 14,
-            "ownedCount": 18,
-            "participationPct": 78
+            "ownedCount": 19,
+            "participationPct": 74
           },
           {
             "usageKey": "267",
@@ -34106,8 +34106,8 @@
         ]
       },
       "34": {
-        "runCount": 197,
-        "averageParticipationPct": 16.4,
+        "runCount": 198,
+        "averageParticipationPct": 16.8,
         "averageRunDepthStep": 75.8,
         "averageRunDepthPct": 54.5,
         "averageBattlesUsed": 0.8,
@@ -34117,8 +34117,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 14,
-            "ownedCount": 18,
-            "participationPct": 78
+            "ownedCount": 19,
+            "participationPct": 74
           },
           {
             "usageKey": "267",
@@ -34195,10 +34195,10 @@
         ]
       },
       "33": {
-        "runCount": 198,
-        "averageParticipationPct": 16.3,
-        "averageRunDepthStep": 75.5,
-        "averageRunDepthPct": 54.3,
+        "runCount": 199,
+        "averageParticipationPct": 16.7,
+        "averageRunDepthStep": 75.6,
+        "averageRunDepthPct": 54.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -34206,8 +34206,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 14,
-            "ownedCount": 18,
-            "participationPct": 78
+            "ownedCount": 19,
+            "participationPct": 74
           },
           {
             "usageKey": "267",
@@ -34284,9 +34284,9 @@
         ]
       },
       "32": {
-        "runCount": 207,
-        "averageParticipationPct": 16.2,
-        "averageRunDepthStep": 73.6,
+        "runCount": 208,
+        "averageParticipationPct": 16.6,
+        "averageRunDepthStep": 73.7,
         "averageRunDepthPct": 53.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -34295,8 +34295,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 15,
-            "ownedCount": 20,
-            "participationPct": 75
+            "ownedCount": 21,
+            "participationPct": 71
           },
           {
             "usageKey": "267",
@@ -34373,10 +34373,10 @@
         ]
       },
       "31": {
-        "runCount": 210,
-        "averageParticipationPct": 16.2,
-        "averageRunDepthStep": 73.0,
-        "averageRunDepthPct": 52.5,
+        "runCount": 211,
+        "averageParticipationPct": 16.6,
+        "averageRunDepthStep": 73.1,
+        "averageRunDepthPct": 52.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -34384,8 +34384,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 15,
-            "ownedCount": 20,
-            "participationPct": 75
+            "ownedCount": 21,
+            "participationPct": 71
           },
           {
             "usageKey": "267",
@@ -34462,9 +34462,9 @@
         ]
       },
       "30": {
-        "runCount": 214,
-        "averageParticipationPct": 15.9,
-        "averageRunDepthStep": 72.2,
+        "runCount": 215,
+        "averageParticipationPct": 16.3,
+        "averageRunDepthStep": 72.3,
         "averageRunDepthPct": 52.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -34473,8 +34473,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 15,
-            "ownedCount": 20,
-            "participationPct": 75
+            "ownedCount": 21,
+            "participationPct": 71
           },
           {
             "usageKey": "267",
@@ -34551,9 +34551,9 @@
         ]
       },
       "29": {
-        "runCount": 216,
-        "averageParticipationPct": 16.0,
-        "averageRunDepthStep": 71.8,
+        "runCount": 217,
+        "averageParticipationPct": 16.4,
+        "averageRunDepthStep": 71.9,
         "averageRunDepthPct": 51.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -34562,8 +34562,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 15,
-            "ownedCount": 20,
-            "participationPct": 75
+            "ownedCount": 21,
+            "participationPct": 71
           },
           {
             "usageKey": "267",
@@ -34640,10 +34640,10 @@
         ]
       },
       "28": {
-        "runCount": 220,
-        "averageParticipationPct": 16.2,
-        "averageRunDepthStep": 71.0,
-        "averageRunDepthPct": 51.1,
+        "runCount": 221,
+        "averageParticipationPct": 16.6,
+        "averageRunDepthStep": 71.1,
+        "averageRunDepthPct": 51.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -34651,8 +34651,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 16,
-            "ownedCount": 23,
-            "participationPct": 70
+            "ownedCount": 24,
+            "participationPct": 67
           },
           {
             "usageKey": "267",
@@ -34729,9 +34729,9 @@
         ]
       },
       "27": {
-        "runCount": 221,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 70.8,
+        "runCount": 222,
+        "averageParticipationPct": 16.9,
+        "averageRunDepthStep": 70.9,
         "averageRunDepthPct": 51.0,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -34740,8 +34740,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 17,
-            "ownedCount": 24,
-            "participationPct": 71
+            "ownedCount": 25,
+            "participationPct": 68
           },
           {
             "usageKey": "267",
@@ -34818,10 +34818,10 @@
         ]
       },
       "26": {
-        "runCount": 222,
-        "averageParticipationPct": 16.4,
-        "averageRunDepthStep": 70.6,
-        "averageRunDepthPct": 50.8,
+        "runCount": 223,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 70.7,
+        "averageRunDepthPct": 50.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -34829,8 +34829,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 17,
-            "ownedCount": 24,
-            "participationPct": 71
+            "ownedCount": 25,
+            "participationPct": 68
           },
           {
             "usageKey": "267",
@@ -34907,10 +34907,10 @@
         ]
       },
       "25": {
-        "runCount": 224,
-        "averageParticipationPct": 16.6,
-        "averageRunDepthStep": 70.2,
-        "averageRunDepthPct": 50.5,
+        "runCount": 225,
+        "averageParticipationPct": 17.0,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -34918,8 +34918,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 18,
-            "ownedCount": 25,
-            "participationPct": 72
+            "ownedCount": 26,
+            "participationPct": 69
           },
           {
             "usageKey": "267",
@@ -34996,10 +34996,10 @@
         ]
       },
       "24": {
-        "runCount": 224,
-        "averageParticipationPct": 16.6,
-        "averageRunDepthStep": 70.2,
-        "averageRunDepthPct": 50.5,
+        "runCount": 225,
+        "averageParticipationPct": 17.0,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -35007,8 +35007,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 18,
-            "ownedCount": 25,
-            "participationPct": 72
+            "ownedCount": 26,
+            "participationPct": 69
           },
           {
             "usageKey": "267",
@@ -35085,10 +35085,10 @@
         ]
       },
       "23": {
-        "runCount": 224,
-        "averageParticipationPct": 16.6,
-        "averageRunDepthStep": 70.2,
-        "averageRunDepthPct": 50.5,
+        "runCount": 225,
+        "averageParticipationPct": 17.0,
+        "averageRunDepthStep": 70.3,
+        "averageRunDepthPct": 50.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -35096,8 +35096,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 18,
-            "ownedCount": 25,
-            "participationPct": 72
+            "ownedCount": 26,
+            "participationPct": 69
           },
           {
             "usageKey": "267",
@@ -35174,9 +35174,9 @@
         ]
       },
       "22": {
-        "runCount": 225,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 70.0,
+        "runCount": 226,
+        "averageParticipationPct": 16.9,
+        "averageRunDepthStep": 70.1,
         "averageRunDepthPct": 50.4,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -35185,8 +35185,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 18,
-            "ownedCount": 25,
-            "participationPct": 72
+            "ownedCount": 26,
+            "participationPct": 69
           },
           {
             "usageKey": "267",
@@ -35263,10 +35263,10 @@
         ]
       },
       "21": {
-        "runCount": 226,
-        "averageParticipationPct": 16.4,
-        "averageRunDepthStep": 69.8,
-        "averageRunDepthPct": 50.2,
+        "runCount": 227,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 69.9,
+        "averageRunDepthPct": 50.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -35274,8 +35274,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 18,
-            "ownedCount": 25,
-            "participationPct": 72
+            "ownedCount": 26,
+            "participationPct": 69
           },
           {
             "usageKey": "267",
@@ -35352,10 +35352,10 @@
         ]
       },
       "20": {
-        "runCount": 226,
-        "averageParticipationPct": 16.4,
-        "averageRunDepthStep": 69.8,
-        "averageRunDepthPct": 50.2,
+        "runCount": 227,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 69.9,
+        "averageRunDepthPct": 50.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -35363,8 +35363,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 18,
-            "ownedCount": 25,
-            "participationPct": 72
+            "ownedCount": 26,
+            "participationPct": 69
           },
           {
             "usageKey": "267",
@@ -35441,9 +35441,9 @@
         ]
       },
       "19": {
-        "runCount": 230,
-        "averageParticipationPct": 17.3,
-        "averageRunDepthStep": 68.9,
+        "runCount": 231,
+        "averageParticipationPct": 17.7,
+        "averageRunDepthStep": 69.0,
         "averageRunDepthPct": 49.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -35452,8 +35452,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 19,
-            "ownedCount": 26,
-            "participationPct": 73
+            "ownedCount": 27,
+            "participationPct": 70
           },
           {
             "usageKey": "267",
@@ -35530,10 +35530,10 @@
         ]
       },
       "18": {
-        "runCount": 231,
-        "averageParticipationPct": 17.2,
-        "averageRunDepthStep": 68.7,
-        "averageRunDepthPct": 49.4,
+        "runCount": 232,
+        "averageParticipationPct": 17.6,
+        "averageRunDepthStep": 68.8,
+        "averageRunDepthPct": 49.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -35541,8 +35541,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 19,
-            "ownedCount": 26,
-            "participationPct": 73
+            "ownedCount": 27,
+            "participationPct": 70
           },
           {
             "usageKey": "267",
@@ -35619,10 +35619,10 @@
         ]
       },
       "17": {
-        "runCount": 231,
-        "averageParticipationPct": 17.2,
-        "averageRunDepthStep": 68.7,
-        "averageRunDepthPct": 49.4,
+        "runCount": 232,
+        "averageParticipationPct": 17.6,
+        "averageRunDepthStep": 68.8,
+        "averageRunDepthPct": 49.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -35630,8 +35630,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 19,
-            "ownedCount": 26,
-            "participationPct": 73
+            "ownedCount": 27,
+            "participationPct": 70
           },
           {
             "usageKey": "267",
@@ -35708,9 +35708,9 @@
         ]
       },
       "16": {
-        "runCount": 232,
-        "averageParticipationPct": 17.5,
-        "averageRunDepthStep": 68.5,
+        "runCount": 233,
+        "averageParticipationPct": 17.8,
+        "averageRunDepthStep": 68.6,
         "averageRunDepthPct": 49.3,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -35719,8 +35719,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 20,
-            "ownedCount": 27,
-            "participationPct": 74
+            "ownedCount": 28,
+            "participationPct": 71
           },
           {
             "usageKey": "267",
@@ -35797,10 +35797,10 @@
         ]
       },
       "15": {
-        "runCount": 239,
-        "averageParticipationPct": 18.4,
-        "averageRunDepthStep": 66.9,
-        "averageRunDepthPct": 48.1,
+        "runCount": 240,
+        "averageParticipationPct": 18.8,
+        "averageRunDepthStep": 67.0,
+        "averageRunDepthPct": 48.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -35808,8 +35808,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 20,
-            "ownedCount": 28,
-            "participationPct": 71
+            "ownedCount": 29,
+            "participationPct": 69
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -35886,10 +35886,10 @@
         ]
       },
       "14": {
-        "runCount": 239,
-        "averageParticipationPct": 18.4,
-        "averageRunDepthStep": 66.9,
-        "averageRunDepthPct": 48.1,
+        "runCount": 240,
+        "averageParticipationPct": 18.8,
+        "averageRunDepthStep": 67.0,
+        "averageRunDepthPct": 48.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -35897,8 +35897,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 20,
-            "ownedCount": 28,
-            "participationPct": 71
+            "ownedCount": 29,
+            "participationPct": 69
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -35975,9 +35975,9 @@
         ]
       },
       "13": {
-        "runCount": 261,
-        "averageParticipationPct": 20.3,
-        "averageRunDepthStep": 62.4,
+        "runCount": 262,
+        "averageParticipationPct": 20.6,
+        "averageRunDepthStep": 62.5,
         "averageRunDepthPct": 44.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -35986,8 +35986,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36064,10 +36064,10 @@
         ]
       },
       "12": {
-        "runCount": 263,
-        "averageParticipationPct": 20.8,
-        "averageRunDepthStep": 62.0,
-        "averageRunDepthPct": 44.6,
+        "runCount": 264,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 62.1,
+        "averageRunDepthPct": 44.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -36075,8 +36075,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36153,10 +36153,10 @@
         ]
       },
       "11": {
-        "runCount": 263,
-        "averageParticipationPct": 20.8,
-        "averageRunDepthStep": 62.0,
-        "averageRunDepthPct": 44.6,
+        "runCount": 264,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 62.1,
+        "averageRunDepthPct": 44.7,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -36164,8 +36164,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36242,10 +36242,10 @@
         ]
       },
       "10": {
-        "runCount": 264,
-        "averageParticipationPct": 20.8,
-        "averageRunDepthStep": 61.8,
-        "averageRunDepthPct": 44.4,
+        "runCount": 265,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 61.9,
+        "averageRunDepthPct": 44.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -36253,8 +36253,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36331,10 +36331,10 @@
         ]
       },
       "9": {
-        "runCount": 264,
-        "averageParticipationPct": 20.8,
-        "averageRunDepthStep": 61.8,
-        "averageRunDepthPct": 44.4,
+        "runCount": 265,
+        "averageParticipationPct": 21.1,
+        "averageRunDepthStep": 61.9,
+        "averageRunDepthPct": 44.5,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -36342,8 +36342,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36420,9 +36420,9 @@
         ]
       },
       "8": {
-        "runCount": 266,
-        "averageParticipationPct": 21.2,
-        "averageRunDepthStep": 61.4,
+        "runCount": 267,
+        "averageParticipationPct": 21.5,
+        "averageRunDepthStep": 61.5,
         "averageRunDepthPct": 44.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -36431,8 +36431,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36509,9 +36509,9 @@
         ]
       },
       "7": {
-        "runCount": 266,
-        "averageParticipationPct": 21.2,
-        "averageRunDepthStep": 61.4,
+        "runCount": 267,
+        "averageParticipationPct": 21.5,
+        "averageRunDepthStep": 61.5,
         "averageRunDepthPct": 44.2,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -36520,8 +36520,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36598,9 +36598,9 @@
         ]
       },
       "6": {
-        "runCount": 268,
-        "averageParticipationPct": 21.1,
-        "averageRunDepthStep": 61.0,
+        "runCount": 269,
+        "averageParticipationPct": 21.3,
+        "averageRunDepthStep": 61.1,
         "averageRunDepthPct": 43.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -36609,8 +36609,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36687,9 +36687,9 @@
         ]
       },
       "5": {
-        "runCount": 268,
-        "averageParticipationPct": 21.1,
-        "averageRunDepthStep": 61.0,
+        "runCount": 269,
+        "averageParticipationPct": 21.3,
+        "averageRunDepthStep": 61.1,
         "averageRunDepthPct": 43.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -36698,8 +36698,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36776,10 +36776,10 @@
         ]
       },
       "4": {
-        "runCount": 276,
-        "averageParticipationPct": 21.5,
-        "averageRunDepthStep": 59.3,
-        "averageRunDepthPct": 42.7,
+        "runCount": 278,
+        "averageParticipationPct": 22.1,
+        "averageRunDepthStep": 59.2,
+        "averageRunDepthPct": 42.6,
         "averageBattlesUsed": 0.8,
         "topBattles": [
           {
@@ -36787,8 +36787,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36810,9 +36810,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 8,
-            "ownedCount": 21,
-            "participationPct": 38
+            "partyCount": 9,
+            "ownedCount": 22,
+            "participationPct": 41
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -36865,9 +36865,9 @@
         ]
       },
       "3": {
-        "runCount": 281,
-        "averageParticipationPct": 21.9,
-        "averageRunDepthStep": 58.3,
+        "runCount": 283,
+        "averageParticipationPct": 22.4,
+        "averageRunDepthStep": 58.2,
         "averageRunDepthPct": 41.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -36876,8 +36876,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36899,9 +36899,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 8,
-            "ownedCount": 21,
-            "participationPct": 38
+            "partyCount": 9,
+            "ownedCount": 22,
+            "participationPct": 41
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -36954,9 +36954,9 @@
         ]
       },
       "2": {
-        "runCount": 281,
-        "averageParticipationPct": 21.9,
-        "averageRunDepthStep": 58.3,
+        "runCount": 283,
+        "averageParticipationPct": 22.4,
+        "averageRunDepthStep": 58.2,
         "averageRunDepthPct": 41.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -36965,8 +36965,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -36988,9 +36988,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 8,
-            "ownedCount": 21,
-            "participationPct": 38
+            "partyCount": 9,
+            "ownedCount": 22,
+            "participationPct": 41
           },
           {
             "usageKey": "Guitarist Joseph",
@@ -37043,9 +37043,9 @@
         ]
       },
       "1": {
-        "runCount": 281,
-        "averageParticipationPct": 21.9,
-        "averageRunDepthStep": 58.3,
+        "runCount": 283,
+        "averageParticipationPct": 22.4,
+        "averageRunDepthStep": 58.2,
         "averageRunDepthPct": 41.9,
         "averageBattlesUsed": 0.8,
         "topBattles": [
@@ -37054,8 +37054,8 @@
             "displayName": "Leader Brawly",
             "leadLevel": 25,
             "partyCount": 29,
-            "ownedCount": 50,
-            "participationPct": 58
+            "ownedCount": 51,
+            "participationPct": 57
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -37077,9 +37077,9 @@
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 8,
-            "ownedCount": 21,
-            "participationPct": 38
+            "partyCount": 9,
+            "ownedCount": 22,
+            "participationPct": 41
           },
           {
             "usageKey": "Guitarist Joseph",

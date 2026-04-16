@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "whismur",
   "familyMembers": [
     "Exploud",
@@ -23600,19 +23600,19 @@
           ]
         },
         "13": {
-          "runCount": 217,
-          "averageParticipationPct": 5.7,
-          "averageRunDepthStep": 41.6,
-          "averageRunDepthPct": 29.9,
+          "runCount": 219,
+          "averageParticipationPct": 6.5,
+          "averageRunDepthStep": 41.3,
+          "averageRunDepthPct": 29.7,
           "averageBattlesUsed": 0.1,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -23689,19 +23689,19 @@
           ]
         },
         "12": {
-          "runCount": 220,
-          "averageParticipationPct": 6.1,
-          "averageRunDepthStep": 41.1,
-          "averageRunDepthPct": 29.6,
+          "runCount": 222,
+          "averageParticipationPct": 6.9,
+          "averageRunDepthStep": 40.9,
+          "averageRunDepthPct": 29.4,
           "averageBattlesUsed": 0.1,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -23778,19 +23778,19 @@
           ]
         },
         "11": {
-          "runCount": 223,
-          "averageParticipationPct": 6.4,
-          "averageRunDepthStep": 40.7,
-          "averageRunDepthPct": 29.3,
+          "runCount": 225,
+          "averageParticipationPct": 7.3,
+          "averageRunDepthStep": 40.5,
+          "averageRunDepthPct": 29.1,
           "averageBattlesUsed": 0.1,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -23867,19 +23867,19 @@
           ]
         },
         "10": {
-          "runCount": 226,
-          "averageParticipationPct": 6.3,
-          "averageRunDepthStep": 40.3,
-          "averageRunDepthPct": 29.0,
+          "runCount": 228,
+          "averageParticipationPct": 7.2,
+          "averageRunDepthStep": 40.1,
+          "averageRunDepthPct": 28.8,
           "averageBattlesUsed": 0.1,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -23956,19 +23956,19 @@
           ]
         },
         "9": {
-          "runCount": 227,
-          "averageParticipationPct": 6.3,
-          "averageRunDepthStep": 40.2,
-          "averageRunDepthPct": 28.9,
+          "runCount": 229,
+          "averageParticipationPct": 7.1,
+          "averageRunDepthStep": 40.0,
+          "averageRunDepthPct": 28.7,
           "averageBattlesUsed": 0.1,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -24045,12 +24045,20 @@
           ]
         },
         "8": {
-          "runCount": 231,
-          "averageParticipationPct": 7.1,
-          "averageRunDepthStep": 39.6,
-          "averageRunDepthPct": 28.5,
+          "runCount": 233,
+          "averageParticipationPct": 7.9,
+          "averageRunDepthStep": 39.4,
+          "averageRunDepthPct": 28.4,
           "averageBattlesUsed": 0.1,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
+            },
             {
               "usageKey": "599",
               "displayName": "Rival Brendan Rustboro Torchic",
@@ -24058,14 +24066,6 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
             },
             {
               "usageKey": "16",
@@ -24134,12 +24134,20 @@
           ]
         },
         "7": {
-          "runCount": 235,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 39.1,
-          "averageRunDepthPct": 28.1,
+          "runCount": 237,
+          "averageParticipationPct": 9.0,
+          "averageRunDepthStep": 38.9,
+          "averageRunDepthPct": 28.0,
           "averageBattlesUsed": 0.1,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
+            },
             {
               "usageKey": "599",
               "displayName": "Rival Brendan Rustboro Torchic",
@@ -24147,14 +24155,6 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
             },
             {
               "usageKey": "16",
@@ -24223,12 +24223,20 @@
           ]
         },
         "6": {
-          "runCount": 236,
-          "averageParticipationPct": 8.2,
-          "averageRunDepthStep": 38.9,
-          "averageRunDepthPct": 28.0,
+          "runCount": 238,
+          "averageParticipationPct": 9.0,
+          "averageRunDepthStep": 38.7,
+          "averageRunDepthPct": 27.9,
           "averageBattlesUsed": 0.1,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
+            },
             {
               "usageKey": "599",
               "displayName": "Rival Brendan Rustboro Torchic",
@@ -24236,14 +24244,6 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
             },
             {
               "usageKey": "16",
@@ -24312,12 +24312,20 @@
           ]
         },
         "5": {
-          "runCount": 240,
-          "averageParticipationPct": 9.3,
-          "averageRunDepthStep": 38.4,
-          "averageRunDepthPct": 27.6,
+          "runCount": 242,
+          "averageParticipationPct": 10.1,
+          "averageRunDepthStep": 38.2,
+          "averageRunDepthPct": 27.5,
           "averageBattlesUsed": 0.1,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
+            },
             {
               "usageKey": "599",
               "displayName": "Rival Brendan Rustboro Torchic",
@@ -24325,14 +24333,6 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
             },
             {
               "usageKey": "16",
@@ -24401,12 +24401,20 @@
           ]
         },
         "4": {
-          "runCount": 241,
-          "averageParticipationPct": 9.3,
-          "averageRunDepthStep": 38.2,
-          "averageRunDepthPct": 27.5,
+          "runCount": 243,
+          "averageParticipationPct": 10.0,
+          "averageRunDepthStep": 38.0,
+          "averageRunDepthPct": 27.4,
           "averageBattlesUsed": 0.1,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
+            },
             {
               "usageKey": "599",
               "displayName": "Rival Brendan Rustboro Torchic",
@@ -24414,14 +24422,6 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
             },
             {
               "usageKey": "16",
@@ -24490,12 +24490,20 @@
           ]
         },
         "3": {
-          "runCount": 241,
-          "averageParticipationPct": 9.3,
-          "averageRunDepthStep": 38.2,
-          "averageRunDepthPct": 27.5,
+          "runCount": 243,
+          "averageParticipationPct": 10.0,
+          "averageRunDepthStep": 38.0,
+          "averageRunDepthPct": 27.4,
           "averageBattlesUsed": 0.1,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
+            },
             {
               "usageKey": "599",
               "displayName": "Rival Brendan Rustboro Torchic",
@@ -24503,14 +24511,6 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
             },
             {
               "usageKey": "16",
@@ -24579,12 +24579,20 @@
           ]
         },
         "2": {
-          "runCount": 241,
-          "averageParticipationPct": 9.3,
-          "averageRunDepthStep": 38.2,
-          "averageRunDepthPct": 27.5,
+          "runCount": 243,
+          "averageParticipationPct": 10.0,
+          "averageRunDepthStep": 38.0,
+          "averageRunDepthPct": 27.4,
           "averageBattlesUsed": 0.1,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
+            },
             {
               "usageKey": "599",
               "displayName": "Rival Brendan Rustboro Torchic",
@@ -24592,14 +24600,6 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
             },
             {
               "usageKey": "16",
@@ -24668,12 +24668,20 @@
           ]
         },
         "1": {
-          "runCount": 241,
-          "averageParticipationPct": 9.3,
-          "averageRunDepthStep": 38.2,
-          "averageRunDepthPct": 27.5,
+          "runCount": 243,
+          "averageParticipationPct": 10.0,
+          "averageRunDepthStep": 38.0,
+          "averageRunDepthPct": 27.4,
           "averageBattlesUsed": 0.1,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 6,
+              "ownedCount": 61,
+              "participationPct": 10
+            },
             {
               "usageKey": "599",
               "displayName": "Rival Brendan Rustboro Torchic",
@@ -24681,14 +24689,6 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
-            },
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 4,
-              "ownedCount": 59,
-              "participationPct": 7
             },
             {
               "usageKey": "16",
@@ -48351,12 +48351,20 @@
         ]
       },
       "13": {
-        "runCount": 418,
-        "averageParticipationPct": 4.2,
-        "averageRunDepthStep": 56.7,
-        "averageRunDepthPct": 40.8,
+        "runCount": 420,
+        "averageParticipationPct": 4.7,
+        "averageRunDepthStep": 56.5,
+        "averageRunDepthPct": 40.7,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
             "displayName": "Rival Brendan Rustboro Torchic",
@@ -48364,14 +48372,6 @@
             "partyCount": 4,
             "ownedCount": 4,
             "participationPct": 100
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "269",
@@ -48440,12 +48440,20 @@
         ]
       },
       "12": {
-        "runCount": 421,
-        "averageParticipationPct": 4.4,
-        "averageRunDepthStep": 56.4,
-        "averageRunDepthPct": 40.6,
+        "runCount": 423,
+        "averageParticipationPct": 4.9,
+        "averageRunDepthStep": 56.2,
+        "averageRunDepthPct": 40.4,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
             "displayName": "Rival Brendan Rustboro Torchic",
@@ -48453,14 +48461,6 @@
             "partyCount": 4,
             "ownedCount": 4,
             "participationPct": 100
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "269",
@@ -48529,12 +48529,20 @@
         ]
       },
       "11": {
-        "runCount": 424,
-        "averageParticipationPct": 4.7,
-        "averageRunDepthStep": 56.1,
-        "averageRunDepthPct": 40.3,
+        "runCount": 426,
+        "averageParticipationPct": 5.1,
+        "averageRunDepthStep": 55.9,
+        "averageRunDepthPct": 40.2,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
             "displayName": "Rival Brendan Rustboro Torchic",
@@ -48542,14 +48550,6 @@
             "partyCount": 4,
             "ownedCount": 4,
             "participationPct": 100
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "269",
@@ -48618,12 +48618,20 @@
         ]
       },
       "10": {
-        "runCount": 427,
-        "averageParticipationPct": 4.6,
-        "averageRunDepthStep": 55.8,
-        "averageRunDepthPct": 40.1,
+        "runCount": 429,
+        "averageParticipationPct": 5.1,
+        "averageRunDepthStep": 55.6,
+        "averageRunDepthPct": 40.0,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
             "displayName": "Rival Brendan Rustboro Torchic",
@@ -48631,14 +48639,6 @@
             "partyCount": 4,
             "ownedCount": 4,
             "participationPct": 100
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "269",
@@ -48707,12 +48707,20 @@
         ]
       },
       "9": {
-        "runCount": 428,
-        "averageParticipationPct": 4.6,
-        "averageRunDepthStep": 55.6,
-        "averageRunDepthPct": 40.0,
+        "runCount": 430,
+        "averageParticipationPct": 5.1,
+        "averageRunDepthStep": 55.4,
+        "averageRunDepthPct": 39.9,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
             "displayName": "Rival Brendan Rustboro Torchic",
@@ -48720,14 +48728,6 @@
             "partyCount": 4,
             "ownedCount": 4,
             "participationPct": 100
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "269",
@@ -48796,12 +48796,20 @@
         ]
       },
       "8": {
-        "runCount": 433,
-        "averageParticipationPct": 4.9,
-        "averageRunDepthStep": 55.1,
-        "averageRunDepthPct": 39.6,
+        "runCount": 435,
+        "averageParticipationPct": 5.3,
+        "averageRunDepthStep": 54.9,
+        "averageRunDepthPct": 39.5,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "599",
             "displayName": "Rival Brendan Rustboro Torchic",
@@ -48817,14 +48825,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "16",
@@ -48885,12 +48885,20 @@
         ]
       },
       "7": {
-        "runCount": 437,
-        "averageParticipationPct": 5.4,
-        "averageRunDepthStep": 54.7,
-        "averageRunDepthPct": 39.3,
+        "runCount": 439,
+        "averageParticipationPct": 5.8,
+        "averageRunDepthStep": 54.5,
+        "averageRunDepthPct": 39.2,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "599",
             "displayName": "Rival Brendan Rustboro Torchic",
@@ -48906,14 +48914,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "16",
@@ -48974,12 +48974,20 @@
         ]
       },
       "6": {
-        "runCount": 440,
-        "averageParticipationPct": 5.4,
-        "averageRunDepthStep": 54.3,
-        "averageRunDepthPct": 39.1,
+        "runCount": 442,
+        "averageParticipationPct": 5.8,
+        "averageRunDepthStep": 54.1,
+        "averageRunDepthPct": 38.9,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "599",
             "displayName": "Rival Brendan Rustboro Torchic",
@@ -48995,14 +49003,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "16",
@@ -49063,12 +49063,20 @@
         ]
       },
       "5": {
-        "runCount": 444,
-        "averageParticipationPct": 6.0,
-        "averageRunDepthStep": 53.9,
-        "averageRunDepthPct": 38.8,
+        "runCount": 446,
+        "averageParticipationPct": 6.4,
+        "averageRunDepthStep": 53.7,
+        "averageRunDepthPct": 38.6,
         "averageBattlesUsed": 0.1,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
+          },
           {
             "usageKey": "852",
             "displayName": "Leader Gardenia",
@@ -49092,14 +49100,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "16",
@@ -49152,10 +49152,10 @@
         ]
       },
       "4": {
-        "runCount": 470,
-        "averageParticipationPct": 7.7,
-        "averageRunDepthStep": 51.1,
-        "averageRunDepthPct": 36.8,
+        "runCount": 472,
+        "averageParticipationPct": 8.1,
+        "averageRunDepthStep": 51.0,
+        "averageRunDepthPct": 36.7,
         "averageBattlesUsed": 0.2,
         "topBattles": [
           {
@@ -49165,6 +49165,14 @@
             "partyCount": 10,
             "ownedCount": 45,
             "participationPct": 22
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
           },
           {
             "usageKey": "852",
@@ -49197,14 +49205,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "16",
@@ -49241,10 +49241,10 @@
         ]
       },
       "3": {
-        "runCount": 484,
-        "averageParticipationPct": 8.1,
-        "averageRunDepthStep": 49.7,
-        "averageRunDepthPct": 35.8,
+        "runCount": 486,
+        "averageParticipationPct": 8.4,
+        "averageRunDepthStep": 49.6,
+        "averageRunDepthPct": 35.7,
         "averageBattlesUsed": 0.2,
         "topBattles": [
           {
@@ -49262,6 +49262,14 @@
             "partyCount": 8,
             "ownedCount": 45,
             "participationPct": 18
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
           },
           {
             "usageKey": "852",
@@ -49286,14 +49294,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "16",
@@ -49330,10 +49330,10 @@
         ]
       },
       "2": {
-        "runCount": 484,
-        "averageParticipationPct": 8.1,
-        "averageRunDepthStep": 49.7,
-        "averageRunDepthPct": 35.8,
+        "runCount": 486,
+        "averageParticipationPct": 8.4,
+        "averageRunDepthStep": 49.6,
+        "averageRunDepthPct": 35.7,
         "averageBattlesUsed": 0.2,
         "topBattles": [
           {
@@ -49351,6 +49351,14 @@
             "partyCount": 8,
             "ownedCount": 45,
             "participationPct": 18
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
           },
           {
             "usageKey": "852",
@@ -49375,14 +49383,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "16",
@@ -49419,10 +49419,10 @@
         ]
       },
       "1": {
-        "runCount": 484,
-        "averageParticipationPct": 8.1,
-        "averageRunDepthStep": 49.7,
-        "averageRunDepthPct": 35.8,
+        "runCount": 486,
+        "averageParticipationPct": 8.4,
+        "averageRunDepthStep": 49.6,
+        "averageRunDepthPct": 35.7,
         "averageBattlesUsed": 0.2,
         "topBattles": [
           {
@@ -49440,6 +49440,14 @@
             "partyCount": 8,
             "ownedCount": 45,
             "participationPct": 18
+          },
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 6,
+            "ownedCount": 68,
+            "participationPct": 9
           },
           {
             "usageKey": "852",
@@ -49464,14 +49472,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 4,
-            "ownedCount": 66,
-            "participationPct": 6
           },
           {
             "usageKey": "16",

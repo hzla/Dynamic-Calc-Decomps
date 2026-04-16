@@ -477,6 +477,17 @@ def build_important_trainer_variant_alias_map(
     return alias_map
 
 
+def explicit_multi_team_usage_keys(title_config: dict[str, Any]) -> set[str]:
+    usage_keys = set()
+    for item in title_config.get("importantTrainerVariants") or []:
+        canonical_display_name = str(item.get("label") or item.get("displayName") or "").strip()
+        canonical_usage_key = str(item.get("usageKey") or canonical_display_name).strip()
+        variants = item.get("variants") or []
+        if canonical_usage_key and len(variants) > 1:
+            usage_keys.add(canonical_usage_key)
+    return usage_keys
+
+
 def build_null_location_alias_map(
     rows: list[dict[str, Any]],
     backup_entries: list[dict[str, Any]],
@@ -1986,6 +1997,7 @@ def export_title(
     title_dir = output_dir / slug
     title_dir.mkdir(parents=True, exist_ok=True)
     title_config = get_title_config(title, dashboard_config)
+    explicit_multi_team_keys = explicit_multi_team_usage_keys(title_config)
     backup_entries = build_backup_trainer_entries(title)
     gym_alias_map = emerald_gym_leader_alias_map(title, title_config, backup_entries)
     variant_alias_map = build_important_trainer_variant_alias_map(title_config)
@@ -2074,9 +2086,24 @@ def export_title(
             ):
                 normalized_entry["sourceDisplayName"] = source_display_name
 
-        if source_display_name and source_display_name not in seen_variant_names[usage_key]:
+        if (
+            usage_key in explicit_multi_team_keys
+            and source_display_name
+            and source_display_name not in seen_variant_names[usage_key]
+        ):
             normalized_entry["teamVariantNames"].append(source_display_name)
             seen_variant_names[usage_key].add(source_display_name)
+
+    for entry in index_entries:
+        usage_key = str(entry["usageKey"])
+        if usage_key in explicit_multi_team_keys:
+            if not entry["teamVariantNames"]:
+                fallback_name = str(entry.get("sourceDisplayName") or entry["displayName"]).strip()
+                entry["teamVariantNames"] = [fallback_name] if fallback_name else []
+            continue
+
+        canonical_team_name = str(entry["displayName"] or "").strip()
+        entry["teamVariantNames"] = [canonical_team_name] if canonical_team_name else []
 
     for usage_key in sorted(grouped_rows.keys()):
         if usage_key in fallback_entries:

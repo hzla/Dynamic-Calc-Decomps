@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "slugma",
   "familyMembers": [
     "Magcargo",
@@ -1969,7 +1969,7 @@
         },
         "117": {
           "runCount": 53,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 133.2,
           "averageRunDepthPct": 95.8,
           "averageBattlesUsed": 0.8,
@@ -2058,7 +2058,7 @@
         },
         "116": {
           "runCount": 55,
-          "averageParticipationPct": 6.7,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 132.5,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2147,7 +2147,7 @@
         },
         "115": {
           "runCount": 59,
-          "averageParticipationPct": 6.2,
+          "averageParticipationPct": 5.8,
           "averageRunDepthStep": 131.3,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 0.7,
@@ -2236,7 +2236,7 @@
         },
         "114": {
           "runCount": 59,
-          "averageParticipationPct": 6.2,
+          "averageParticipationPct": 5.8,
           "averageRunDepthStep": 131.3,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 0.7,
@@ -2325,7 +2325,7 @@
         },
         "113": {
           "runCount": 60,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.7,
           "averageRunDepthStep": 131.0,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.7,
@@ -2414,7 +2414,7 @@
         },
         "112": {
           "runCount": 60,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.7,
           "averageRunDepthStep": 131.0,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.7,
@@ -2503,7 +2503,7 @@
         },
         "111": {
           "runCount": 60,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.7,
           "averageRunDepthStep": 131.0,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.7,
@@ -2592,7 +2592,7 @@
         },
         "110": {
           "runCount": 60,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.7,
           "averageRunDepthStep": 131.0,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.7,
@@ -2681,7 +2681,7 @@
         },
         "109": {
           "runCount": 60,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.7,
           "averageRunDepthStep": 131.0,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.7,
@@ -2770,7 +2770,7 @@
         },
         "108": {
           "runCount": 60,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.7,
           "averageRunDepthStep": 131.0,
           "averageRunDepthPct": 94.3,
           "averageBattlesUsed": 0.7,
@@ -2859,7 +2859,7 @@
         },
         "107": {
           "runCount": 61,
-          "averageParticipationPct": 6.0,
+          "averageParticipationPct": 5.6,
           "averageRunDepthStep": 130.6,
           "averageRunDepthPct": 94.0,
           "averageBattlesUsed": 0.7,
@@ -2948,7 +2948,7 @@
         },
         "106": {
           "runCount": 63,
-          "averageParticipationPct": 5.8,
+          "averageParticipationPct": 5.4,
           "averageRunDepthStep": 129.9,
           "averageRunDepthPct": 93.4,
           "averageBattlesUsed": 0.6,
@@ -3037,7 +3037,7 @@
         },
         "105": {
           "runCount": 65,
-          "averageParticipationPct": 6.0,
+          "averageParticipationPct": 5.6,
           "averageRunDepthStep": 129.1,
           "averageRunDepthPct": 92.9,
           "averageBattlesUsed": 0.6,
@@ -3126,7 +3126,7 @@
         },
         "104": {
           "runCount": 65,
-          "averageParticipationPct": 6.0,
+          "averageParticipationPct": 5.6,
           "averageRunDepthStep": 129.1,
           "averageRunDepthPct": 92.9,
           "averageBattlesUsed": 0.6,
@@ -3215,7 +3215,7 @@
         },
         "103": {
           "runCount": 70,
-          "averageParticipationPct": 5.6,
+          "averageParticipationPct": 5.3,
           "averageRunDepthStep": 127.2,
           "averageRunDepthPct": 91.5,
           "averageBattlesUsed": 0.6,
@@ -3304,7 +3304,7 @@
         },
         "102": {
           "runCount": 72,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 126.5,
           "averageRunDepthPct": 91.0,
           "averageBattlesUsed": 0.6,
@@ -3393,7 +3393,7 @@
         },
         "101": {
           "runCount": 72,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 126.5,
           "averageRunDepthPct": 91.0,
           "averageBattlesUsed": 0.6,
@@ -3482,7 +3482,7 @@
         },
         "100": {
           "runCount": 72,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 126.5,
           "averageRunDepthPct": 91.0,
           "averageBattlesUsed": 0.6,
@@ -3571,7 +3571,7 @@
         },
         "99": {
           "runCount": 72,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 126.5,
           "averageRunDepthPct": 91.0,
           "averageBattlesUsed": 0.6,
@@ -3660,7 +3660,7 @@
         },
         "98": {
           "runCount": 72,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 126.5,
           "averageRunDepthPct": 91.0,
           "averageBattlesUsed": 0.6,
@@ -3749,7 +3749,7 @@
         },
         "97": {
           "runCount": 72,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 126.5,
           "averageRunDepthPct": 91.0,
           "averageBattlesUsed": 0.6,
@@ -3838,7 +3838,7 @@
         },
         "96": {
           "runCount": 73,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 126.1,
           "averageRunDepthPct": 90.7,
           "averageBattlesUsed": 0.6,
@@ -3927,7 +3927,7 @@
         },
         "95": {
           "runCount": 74,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 125.7,
           "averageRunDepthPct": 90.4,
           "averageBattlesUsed": 0.6,
@@ -4016,7 +4016,7 @@
         },
         "94": {
           "runCount": 75,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.4,
           "averageRunDepthStep": 125.3,
           "averageRunDepthPct": 90.1,
           "averageBattlesUsed": 0.6,
@@ -4105,7 +4105,7 @@
         },
         "93": {
           "runCount": 75,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.4,
           "averageRunDepthStep": 125.3,
           "averageRunDepthPct": 90.1,
           "averageBattlesUsed": 0.6,
@@ -4194,7 +4194,7 @@
         },
         "92": {
           "runCount": 77,
-          "averageParticipationPct": 5.6,
+          "averageParticipationPct": 5.3,
           "averageRunDepthStep": 124.4,
           "averageRunDepthPct": 89.5,
           "averageBattlesUsed": 0.6,
@@ -4283,7 +4283,7 @@
         },
         "91": {
           "runCount": 80,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 123.2,
           "averageRunDepthPct": 88.6,
           "averageBattlesUsed": 0.6,
@@ -4372,7 +4372,7 @@
         },
         "90": {
           "runCount": 82,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 4.9,
           "averageRunDepthStep": 122.3,
           "averageRunDepthPct": 88.0,
           "averageBattlesUsed": 0.5,
@@ -4461,7 +4461,7 @@
         },
         "89": {
           "runCount": 84,
-          "averageParticipationPct": 6.3,
+          "averageParticipationPct": 6.0,
           "averageRunDepthStep": 121.5,
           "averageRunDepthPct": 87.4,
           "averageBattlesUsed": 0.5,
@@ -4550,7 +4550,7 @@
         },
         "88": {
           "runCount": 87,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.8,
           "averageRunDepthStep": 120.4,
           "averageRunDepthPct": 86.6,
           "averageBattlesUsed": 0.5,
@@ -4639,7 +4639,7 @@
         },
         "87": {
           "runCount": 87,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.8,
           "averageRunDepthStep": 120.4,
           "averageRunDepthPct": 86.6,
           "averageBattlesUsed": 0.5,
@@ -4728,7 +4728,7 @@
         },
         "86": {
           "runCount": 88,
-          "averageParticipationPct": 6.1,
+          "averageParticipationPct": 5.8,
           "averageRunDepthStep": 120.0,
           "averageRunDepthPct": 86.3,
           "averageBattlesUsed": 0.5,
@@ -4817,7 +4817,7 @@
         },
         "85": {
           "runCount": 89,
-          "averageParticipationPct": 6.0,
+          "averageParticipationPct": 5.8,
           "averageRunDepthStep": 119.6,
           "averageRunDepthPct": 86.0,
           "averageBattlesUsed": 0.5,
@@ -4906,7 +4906,7 @@
         },
         "84": {
           "runCount": 89,
-          "averageParticipationPct": 6.0,
+          "averageParticipationPct": 5.8,
           "averageRunDepthStep": 119.6,
           "averageRunDepthPct": 86.0,
           "averageBattlesUsed": 0.5,
@@ -4995,7 +4995,7 @@
         },
         "83": {
           "runCount": 91,
-          "averageParticipationPct": 5.9,
+          "averageParticipationPct": 5.6,
           "averageRunDepthStep": 118.8,
           "averageRunDepthPct": 85.5,
           "averageBattlesUsed": 0.5,
@@ -5084,7 +5084,7 @@
         },
         "82": {
           "runCount": 98,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.3,
           "averageRunDepthStep": 116.2,
           "averageRunDepthPct": 83.6,
           "averageBattlesUsed": 0.6,
@@ -5173,7 +5173,7 @@
         },
         "81": {
           "runCount": 98,
-          "averageParticipationPct": 6.6,
+          "averageParticipationPct": 6.3,
           "averageRunDepthStep": 116.2,
           "averageRunDepthPct": 83.6,
           "averageBattlesUsed": 0.6,
@@ -5262,7 +5262,7 @@
         },
         "80": {
           "runCount": 99,
-          "averageParticipationPct": 6.5,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 115.8,
           "averageRunDepthPct": 83.3,
           "averageBattlesUsed": 0.6,
@@ -5351,7 +5351,7 @@
         },
         "79": {
           "runCount": 100,
-          "averageParticipationPct": 6.4,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 115.4,
           "averageRunDepthPct": 83.1,
           "averageBattlesUsed": 0.6,
@@ -5440,7 +5440,7 @@
         },
         "78": {
           "runCount": 100,
-          "averageParticipationPct": 6.4,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 115.4,
           "averageRunDepthPct": 83.1,
           "averageBattlesUsed": 0.6,
@@ -5529,7 +5529,7 @@
         },
         "77": {
           "runCount": 100,
-          "averageParticipationPct": 6.4,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 115.4,
           "averageRunDepthPct": 83.1,
           "averageBattlesUsed": 0.6,
@@ -5618,7 +5618,7 @@
         },
         "76": {
           "runCount": 100,
-          "averageParticipationPct": 6.4,
+          "averageParticipationPct": 6.2,
           "averageRunDepthStep": 115.4,
           "averageRunDepthPct": 83.1,
           "averageBattlesUsed": 0.6,
@@ -5707,7 +5707,7 @@
         },
         "75": {
           "runCount": 101,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.6,
           "averageRunDepthStep": 115.0,
           "averageRunDepthPct": 82.8,
           "averageBattlesUsed": 0.6,
@@ -5796,7 +5796,7 @@
         },
         "74": {
           "runCount": 101,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.6,
           "averageRunDepthStep": 115.0,
           "averageRunDepthPct": 82.8,
           "averageBattlesUsed": 0.6,
@@ -5885,7 +5885,7 @@
         },
         "73": {
           "runCount": 101,
-          "averageParticipationPct": 6.9,
+          "averageParticipationPct": 6.6,
           "averageRunDepthStep": 115.0,
           "averageRunDepthPct": 82.8,
           "averageBattlesUsed": 0.6,
@@ -5974,7 +5974,7 @@
         },
         "72": {
           "runCount": 107,
-          "averageParticipationPct": 6.8,
+          "averageParticipationPct": 6.6,
           "averageRunDepthStep": 112.6,
           "averageRunDepthPct": 81.0,
           "averageBattlesUsed": 0.6,
@@ -6063,7 +6063,7 @@
         },
         "71": {
           "runCount": 108,
-          "averageParticipationPct": 6.7,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 112.2,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 0.6,
@@ -6152,7 +6152,7 @@
         },
         "70": {
           "runCount": 109,
-          "averageParticipationPct": 6.7,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 111.9,
           "averageRunDepthPct": 80.5,
           "averageBattlesUsed": 0.6,
@@ -6241,7 +6241,7 @@
         },
         "69": {
           "runCount": 109,
-          "averageParticipationPct": 6.7,
+          "averageParticipationPct": 6.5,
           "averageRunDepthStep": 111.9,
           "averageRunDepthPct": 80.5,
           "averageBattlesUsed": 0.6,
@@ -6330,7 +6330,7 @@
         },
         "68": {
           "runCount": 119,
-          "averageParticipationPct": 7.3,
+          "averageParticipationPct": 7.1,
           "averageRunDepthStep": 108.2,
           "averageRunDepthPct": 77.8,
           "averageBattlesUsed": 0.6,
@@ -6419,7 +6419,7 @@
         },
         "67": {
           "runCount": 121,
-          "averageParticipationPct": 7.6,
+          "averageParticipationPct": 7.4,
           "averageRunDepthStep": 107.5,
           "averageRunDepthPct": 77.3,
           "averageBattlesUsed": 0.6,
@@ -6508,7 +6508,7 @@
         },
         "66": {
           "runCount": 123,
-          "averageParticipationPct": 7.4,
+          "averageParticipationPct": 7.2,
           "averageRunDepthStep": 106.8,
           "averageRunDepthPct": 76.8,
           "averageBattlesUsed": 0.6,
@@ -6597,7 +6597,7 @@
         },
         "65": {
           "runCount": 125,
-          "averageParticipationPct": 8.1,
+          "averageParticipationPct": 7.9,
           "averageRunDepthStep": 106.1,
           "averageRunDepthPct": 76.4,
           "averageBattlesUsed": 0.6,
@@ -6686,7 +6686,7 @@
         },
         "64": {
           "runCount": 126,
-          "averageParticipationPct": 8.9,
+          "averageParticipationPct": 8.7,
           "averageRunDepthStep": 105.8,
           "averageRunDepthPct": 76.1,
           "averageBattlesUsed": 0.6,
@@ -6775,7 +6775,7 @@
         },
         "63": {
           "runCount": 127,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 105.5,
           "averageRunDepthPct": 75.9,
           "averageBattlesUsed": 0.6,
@@ -6864,7 +6864,7 @@
         },
         "62": {
           "runCount": 128,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 105.1,
           "averageRunDepthPct": 75.6,
           "averageBattlesUsed": 0.6,
@@ -6953,7 +6953,7 @@
         },
         "61": {
           "runCount": 129,
-          "averageParticipationPct": 8.6,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 104.8,
           "averageRunDepthPct": 75.4,
           "averageBattlesUsed": 0.6,
@@ -7042,7 +7042,7 @@
         },
         "60": {
           "runCount": 131,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 104.1,
           "averageRunDepthPct": 74.9,
           "averageBattlesUsed": 0.6,
@@ -7131,7 +7131,7 @@
         },
         "59": {
           "runCount": 134,
-          "averageParticipationPct": 8.3,
+          "averageParticipationPct": 8.1,
           "averageRunDepthStep": 103.1,
           "averageRunDepthPct": 74.2,
           "averageBattlesUsed": 0.6,
@@ -7220,7 +7220,7 @@
         },
         "58": {
           "runCount": 138,
-          "averageParticipationPct": 8.1,
+          "averageParticipationPct": 7.9,
           "averageRunDepthStep": 101.8,
           "averageRunDepthPct": 73.2,
           "averageBattlesUsed": 0.6,
@@ -7309,7 +7309,7 @@
         },
         "57": {
           "runCount": 140,
-          "averageParticipationPct": 8.0,
+          "averageParticipationPct": 7.8,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 0.6,
@@ -7398,7 +7398,7 @@
         },
         "56": {
           "runCount": 140,
-          "averageParticipationPct": 8.0,
+          "averageParticipationPct": 7.8,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 0.6,
@@ -7487,7 +7487,7 @@
         },
         "55": {
           "runCount": 140,
-          "averageParticipationPct": 8.0,
+          "averageParticipationPct": 7.8,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 0.6,
@@ -7576,7 +7576,7 @@
         },
         "54": {
           "runCount": 141,
-          "averageParticipationPct": 7.9,
+          "averageParticipationPct": 7.7,
           "averageRunDepthStep": 100.8,
           "averageRunDepthPct": 72.5,
           "averageBattlesUsed": 0.6,
@@ -7665,7 +7665,7 @@
         },
         "53": {
           "runCount": 143,
-          "averageParticipationPct": 8.6,
+          "averageParticipationPct": 8.4,
           "averageRunDepthStep": 100.1,
           "averageRunDepthPct": 72.0,
           "averageBattlesUsed": 0.6,
@@ -7754,7 +7754,7 @@
         },
         "52": {
           "runCount": 144,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 99.8,
           "averageRunDepthPct": 71.8,
           "averageBattlesUsed": 0.6,
@@ -7843,7 +7843,7 @@
         },
         "51": {
           "runCount": 145,
-          "averageParticipationPct": 8.4,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 99.5,
           "averageRunDepthPct": 71.6,
           "averageBattlesUsed": 0.6,
@@ -7932,7 +7932,7 @@
         },
         "50": {
           "runCount": 145,
-          "averageParticipationPct": 8.4,
+          "averageParticipationPct": 8.3,
           "averageRunDepthStep": 99.5,
           "averageRunDepthPct": 71.6,
           "averageBattlesUsed": 0.6,
@@ -8021,7 +8021,7 @@
         },
         "49": {
           "runCount": 171,
-          "averageParticipationPct": 9.6,
+          "averageParticipationPct": 9.5,
           "averageRunDepthStep": 91.8,
           "averageRunDepthPct": 66.0,
           "averageBattlesUsed": 0.5,
@@ -8110,7 +8110,7 @@
         },
         "48": {
           "runCount": 174,
-          "averageParticipationPct": 9.5,
+          "averageParticipationPct": 9.3,
           "averageRunDepthStep": 91.0,
           "averageRunDepthPct": 65.5,
           "averageBattlesUsed": 0.5,
@@ -8199,7 +8199,7 @@
         },
         "47": {
           "runCount": 180,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 89.6,
           "averageRunDepthPct": 64.4,
           "averageBattlesUsed": 0.5,
@@ -8288,7 +8288,7 @@
         },
         "46": {
           "runCount": 183,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.5,
           "averageRunDepthStep": 88.9,
           "averageRunDepthPct": 63.9,
           "averageBattlesUsed": 0.5,
@@ -8377,7 +8377,7 @@
         },
         "45": {
           "runCount": 185,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 88.4,
           "averageRunDepthPct": 63.6,
           "averageBattlesUsed": 0.5,
@@ -8466,7 +8466,7 @@
         },
         "44": {
           "runCount": 188,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.5,
           "averageRunDepthStep": 87.7,
           "averageRunDepthPct": 63.1,
           "averageBattlesUsed": 0.5,
@@ -8555,7 +8555,7 @@
         },
         "43": {
           "runCount": 206,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 83.8,
           "averageRunDepthPct": 60.3,
           "averageBattlesUsed": 0.5,
@@ -8644,7 +8644,7 @@
         },
         "42": {
           "runCount": 216,
-          "averageParticipationPct": 9.6,
+          "averageParticipationPct": 9.5,
           "averageRunDepthStep": 81.8,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.5,
@@ -8733,7 +8733,7 @@
         },
         "41": {
           "runCount": 222,
-          "averageParticipationPct": 9.5,
+          "averageParticipationPct": 9.4,
           "averageRunDepthStep": 80.7,
           "averageRunDepthPct": 58.1,
           "averageBattlesUsed": 0.5,
@@ -8822,7 +8822,7 @@
         },
         "40": {
           "runCount": 230,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 10.0,
           "averageRunDepthStep": 79.3,
           "averageRunDepthPct": 57.1,
           "averageBattlesUsed": 0.5,
@@ -8911,7 +8911,7 @@
         },
         "39": {
           "runCount": 241,
-          "averageParticipationPct": 10.5,
+          "averageParticipationPct": 10.4,
           "averageRunDepthStep": 77.5,
           "averageRunDepthPct": 55.7,
           "averageBattlesUsed": 0.4,
@@ -9000,7 +9000,7 @@
         },
         "38": {
           "runCount": 244,
-          "averageParticipationPct": 10.3,
+          "averageParticipationPct": 10.2,
           "averageRunDepthStep": 77.0,
           "averageRunDepthPct": 55.4,
           "averageBattlesUsed": 0.4,
@@ -9089,7 +9089,7 @@
         },
         "37": {
           "runCount": 245,
-          "averageParticipationPct": 10.3,
+          "averageParticipationPct": 10.2,
           "averageRunDepthStep": 76.8,
           "averageRunDepthPct": 55.3,
           "averageBattlesUsed": 0.4,
@@ -9178,7 +9178,7 @@
         },
         "36": {
           "runCount": 245,
-          "averageParticipationPct": 10.3,
+          "averageParticipationPct": 10.2,
           "averageRunDepthStep": 76.8,
           "averageRunDepthPct": 55.3,
           "averageBattlesUsed": 0.4,
@@ -9267,7 +9267,7 @@
         },
         "35": {
           "runCount": 246,
-          "averageParticipationPct": 10.2,
+          "averageParticipationPct": 10.1,
           "averageRunDepthStep": 76.7,
           "averageRunDepthPct": 55.2,
           "averageBattlesUsed": 0.4,
@@ -9356,7 +9356,7 @@
         },
         "34": {
           "runCount": 246,
-          "averageParticipationPct": 10.2,
+          "averageParticipationPct": 10.1,
           "averageRunDepthStep": 76.7,
           "averageRunDepthPct": 55.2,
           "averageBattlesUsed": 0.4,
@@ -9445,7 +9445,7 @@
         },
         "33": {
           "runCount": 247,
-          "averageParticipationPct": 10.2,
+          "averageParticipationPct": 10.1,
           "averageRunDepthStep": 76.5,
           "averageRunDepthPct": 55.0,
           "averageBattlesUsed": 0.4,
@@ -9534,7 +9534,7 @@
         },
         "32": {
           "runCount": 250,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 10.0,
           "averageRunDepthStep": 76.0,
           "averageRunDepthPct": 54.6,
           "averageBattlesUsed": 0.4,
@@ -9623,7 +9623,7 @@
         },
         "31": {
           "runCount": 250,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 10.0,
           "averageRunDepthStep": 76.0,
           "averageRunDepthPct": 54.6,
           "averageBattlesUsed": 0.4,
@@ -9712,7 +9712,7 @@
         },
         "30": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -9801,7 +9801,7 @@
         },
         "29": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -9890,7 +9890,7 @@
         },
         "28": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -9979,7 +9979,7 @@
         },
         "27": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10068,7 +10068,7 @@
         },
         "26": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10157,7 +10157,7 @@
         },
         "25": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10246,7 +10246,7 @@
         },
         "24": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10335,7 +10335,7 @@
         },
         "23": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10424,7 +10424,7 @@
         },
         "22": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10513,7 +10513,7 @@
         },
         "21": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10602,7 +10602,7 @@
         },
         "20": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10691,7 +10691,7 @@
         },
         "19": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10780,7 +10780,7 @@
         },
         "18": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10869,7 +10869,7 @@
         },
         "17": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -10958,7 +10958,7 @@
         },
         "16": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -11047,7 +11047,7 @@
         },
         "15": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -11136,7 +11136,7 @@
         },
         "14": {
           "runCount": 253,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 75.4,
           "averageRunDepthPct": 54.2,
           "averageBattlesUsed": 0.4,
@@ -11225,7 +11225,7 @@
         },
         "13": {
           "runCount": 254,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 75.2,
           "averageRunDepthPct": 54.1,
           "averageBattlesUsed": 0.4,
@@ -11314,7 +11314,7 @@
         },
         "12": {
           "runCount": 254,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 75.2,
           "averageRunDepthPct": 54.1,
           "averageBattlesUsed": 0.4,
@@ -11403,7 +11403,7 @@
         },
         "11": {
           "runCount": 254,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 75.2,
           "averageRunDepthPct": 54.1,
           "averageBattlesUsed": 0.4,
@@ -11492,7 +11492,7 @@
         },
         "10": {
           "runCount": 254,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 75.2,
           "averageRunDepthPct": 54.1,
           "averageBattlesUsed": 0.4,
@@ -11581,7 +11581,7 @@
         },
         "9": {
           "runCount": 254,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 75.2,
           "averageRunDepthPct": 54.1,
           "averageBattlesUsed": 0.4,
@@ -11670,7 +11670,7 @@
         },
         "8": {
           "runCount": 254,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 75.2,
           "averageRunDepthPct": 54.1,
           "averageBattlesUsed": 0.4,
@@ -11759,7 +11759,7 @@
         },
         "7": {
           "runCount": 254,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 75.2,
           "averageRunDepthPct": 54.1,
           "averageBattlesUsed": 0.4,
@@ -11848,7 +11848,7 @@
         },
         "6": {
           "runCount": 254,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 75.2,
           "averageRunDepthPct": 54.1,
           "averageBattlesUsed": 0.4,
@@ -11937,7 +11937,7 @@
         },
         "5": {
           "runCount": 255,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 74.9,
           "averageRunDepthPct": 53.9,
           "averageBattlesUsed": 0.4,
@@ -12026,7 +12026,7 @@
         },
         "4": {
           "runCount": 255,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 74.9,
           "averageRunDepthPct": 53.9,
           "averageBattlesUsed": 0.4,
@@ -12115,7 +12115,7 @@
         },
         "3": {
           "runCount": 255,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 74.9,
           "averageRunDepthPct": 53.9,
           "averageBattlesUsed": 0.4,
@@ -12204,7 +12204,7 @@
         },
         "2": {
           "runCount": 255,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 74.9,
           "averageRunDepthPct": 53.9,
           "averageBattlesUsed": 0.4,
@@ -12293,7 +12293,7 @@
         },
         "1": {
           "runCount": 255,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 74.9,
           "averageRunDepthPct": 53.9,
           "averageBattlesUsed": 0.4,
@@ -26720,7 +26720,7 @@
       },
       "117": {
         "runCount": 54,
-        "averageParticipationPct": 6.2,
+        "averageParticipationPct": 5.7,
         "averageRunDepthStep": 133.1,
         "averageRunDepthPct": 95.8,
         "averageBattlesUsed": 0.8,
@@ -26809,7 +26809,7 @@
       },
       "116": {
         "runCount": 56,
-        "averageParticipationPct": 6.0,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 132.5,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -26898,7 +26898,7 @@
       },
       "115": {
         "runCount": 62,
-        "averageParticipationPct": 5.4,
+        "averageParticipationPct": 5.0,
         "averageRunDepthStep": 130.8,
         "averageRunDepthPct": 94.1,
         "averageBattlesUsed": 0.7,
@@ -26987,7 +26987,7 @@
       },
       "114": {
         "runCount": 62,
-        "averageParticipationPct": 5.4,
+        "averageParticipationPct": 5.0,
         "averageRunDepthStep": 130.8,
         "averageRunDepthPct": 94.1,
         "averageBattlesUsed": 0.7,
@@ -27076,7 +27076,7 @@
       },
       "113": {
         "runCount": 63,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 130.5,
         "averageRunDepthPct": 93.9,
         "averageBattlesUsed": 0.7,
@@ -27165,7 +27165,7 @@
       },
       "112": {
         "runCount": 63,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 130.5,
         "averageRunDepthPct": 93.9,
         "averageBattlesUsed": 0.7,
@@ -27254,7 +27254,7 @@
       },
       "111": {
         "runCount": 63,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 130.5,
         "averageRunDepthPct": 93.9,
         "averageBattlesUsed": 0.7,
@@ -27343,7 +27343,7 @@
       },
       "110": {
         "runCount": 63,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 130.5,
         "averageRunDepthPct": 93.9,
         "averageBattlesUsed": 0.7,
@@ -27432,7 +27432,7 @@
       },
       "109": {
         "runCount": 63,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 130.5,
         "averageRunDepthPct": 93.9,
         "averageBattlesUsed": 0.7,
@@ -27521,7 +27521,7 @@
       },
       "108": {
         "runCount": 63,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 130.5,
         "averageRunDepthPct": 93.9,
         "averageBattlesUsed": 0.7,
@@ -27610,7 +27610,7 @@
       },
       "107": {
         "runCount": 64,
-        "averageParticipationPct": 5.2,
+        "averageParticipationPct": 4.8,
         "averageRunDepthStep": 130.2,
         "averageRunDepthPct": 93.6,
         "averageBattlesUsed": 0.6,
@@ -27699,7 +27699,7 @@
       },
       "106": {
         "runCount": 66,
-        "averageParticipationPct": 5.1,
+        "averageParticipationPct": 4.7,
         "averageRunDepthStep": 129.4,
         "averageRunDepthPct": 93.1,
         "averageBattlesUsed": 0.6,
@@ -27788,7 +27788,7 @@
       },
       "105": {
         "runCount": 68,
-        "averageParticipationPct": 5.2,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 128.7,
         "averageRunDepthPct": 92.6,
         "averageBattlesUsed": 0.6,
@@ -27877,7 +27877,7 @@
       },
       "104": {
         "runCount": 68,
-        "averageParticipationPct": 5.2,
+        "averageParticipationPct": 4.9,
         "averageRunDepthStep": 128.7,
         "averageRunDepthPct": 92.6,
         "averageBattlesUsed": 0.6,
@@ -27966,7 +27966,7 @@
       },
       "103": {
         "runCount": 74,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 126.6,
         "averageRunDepthPct": 91.1,
         "averageBattlesUsed": 0.6,
@@ -28055,7 +28055,7 @@
       },
       "102": {
         "runCount": 76,
-        "averageParticipationPct": 4.8,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 126.0,
         "averageRunDepthPct": 90.6,
         "averageBattlesUsed": 0.6,
@@ -28144,7 +28144,7 @@
       },
       "101": {
         "runCount": 76,
-        "averageParticipationPct": 4.8,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 126.0,
         "averageRunDepthPct": 90.6,
         "averageBattlesUsed": 0.6,
@@ -28233,7 +28233,7 @@
       },
       "100": {
         "runCount": 76,
-        "averageParticipationPct": 4.8,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 126.0,
         "averageRunDepthPct": 90.6,
         "averageBattlesUsed": 0.6,
@@ -28322,7 +28322,7 @@
       },
       "99": {
         "runCount": 76,
-        "averageParticipationPct": 4.8,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 126.0,
         "averageRunDepthPct": 90.6,
         "averageBattlesUsed": 0.6,
@@ -28411,7 +28411,7 @@
       },
       "98": {
         "runCount": 77,
-        "averageParticipationPct": 4.7,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 125.6,
         "averageRunDepthPct": 90.4,
         "averageBattlesUsed": 0.6,
@@ -28500,7 +28500,7 @@
       },
       "97": {
         "runCount": 77,
-        "averageParticipationPct": 4.7,
+        "averageParticipationPct": 4.4,
         "averageRunDepthStep": 125.6,
         "averageRunDepthPct": 90.4,
         "averageBattlesUsed": 0.6,
@@ -28589,7 +28589,7 @@
       },
       "96": {
         "runCount": 78,
-        "averageParticipationPct": 4.7,
+        "averageParticipationPct": 4.3,
         "averageRunDepthStep": 125.2,
         "averageRunDepthPct": 90.1,
         "averageBattlesUsed": 0.6,
@@ -28678,7 +28678,7 @@
       },
       "95": {
         "runCount": 80,
-        "averageParticipationPct": 5.9,
+        "averageParticipationPct": 5.6,
         "averageRunDepthStep": 124.5,
         "averageRunDepthPct": 89.6,
         "averageBattlesUsed": 0.6,
@@ -28767,7 +28767,7 @@
       },
       "94": {
         "runCount": 81,
-        "averageParticipationPct": 6.2,
+        "averageParticipationPct": 5.8,
         "averageRunDepthStep": 124.1,
         "averageRunDepthPct": 89.3,
         "averageBattlesUsed": 0.6,
@@ -28856,7 +28856,7 @@
       },
       "93": {
         "runCount": 81,
-        "averageParticipationPct": 6.2,
+        "averageParticipationPct": 5.8,
         "averageRunDepthStep": 124.1,
         "averageRunDepthPct": 89.3,
         "averageBattlesUsed": 0.6,
@@ -28945,7 +28945,7 @@
       },
       "92": {
         "runCount": 83,
-        "averageParticipationPct": 6.0,
+        "averageParticipationPct": 5.7,
         "averageRunDepthStep": 123.3,
         "averageRunDepthPct": 88.7,
         "averageBattlesUsed": 0.6,
@@ -29034,7 +29034,7 @@
       },
       "91": {
         "runCount": 86,
-        "averageParticipationPct": 5.8,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 122.2,
         "averageRunDepthPct": 87.9,
         "averageBattlesUsed": 0.5,
@@ -29123,7 +29123,7 @@
       },
       "90": {
         "runCount": 88,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.4,
         "averageRunDepthStep": 121.5,
         "averageRunDepthPct": 87.4,
         "averageBattlesUsed": 0.5,
@@ -29212,7 +29212,7 @@
       },
       "89": {
         "runCount": 90,
-        "averageParticipationPct": 6.1,
+        "averageParticipationPct": 5.8,
         "averageRunDepthStep": 120.7,
         "averageRunDepthPct": 86.9,
         "averageBattlesUsed": 0.5,
@@ -29301,7 +29301,7 @@
       },
       "88": {
         "runCount": 93,
-        "averageParticipationPct": 5.9,
+        "averageParticipationPct": 5.6,
         "averageRunDepthStep": 119.7,
         "averageRunDepthPct": 86.1,
         "averageBattlesUsed": 0.5,
@@ -29390,7 +29390,7 @@
       },
       "87": {
         "runCount": 93,
-        "averageParticipationPct": 5.9,
+        "averageParticipationPct": 5.6,
         "averageRunDepthStep": 119.7,
         "averageRunDepthPct": 86.1,
         "averageBattlesUsed": 0.5,
@@ -29479,7 +29479,7 @@
       },
       "86": {
         "runCount": 94,
-        "averageParticipationPct": 5.9,
+        "averageParticipationPct": 5.6,
         "averageRunDepthStep": 119.3,
         "averageRunDepthPct": 85.8,
         "averageBattlesUsed": 0.5,
@@ -29568,7 +29568,7 @@
       },
       "85": {
         "runCount": 95,
-        "averageParticipationPct": 5.8,
+        "averageParticipationPct": 5.6,
         "averageRunDepthStep": 119.0,
         "averageRunDepthPct": 85.6,
         "averageBattlesUsed": 0.5,
@@ -29657,7 +29657,7 @@
       },
       "84": {
         "runCount": 95,
-        "averageParticipationPct": 5.8,
+        "averageParticipationPct": 5.6,
         "averageRunDepthStep": 119.0,
         "averageRunDepthPct": 85.6,
         "averageBattlesUsed": 0.5,
@@ -29746,7 +29746,7 @@
       },
       "83": {
         "runCount": 97,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 118.2,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.5,
@@ -29835,7 +29835,7 @@
       },
       "82": {
         "runCount": 104,
-        "averageParticipationPct": 6.3,
+        "averageParticipationPct": 6.1,
         "averageRunDepthStep": 115.8,
         "averageRunDepthPct": 83.3,
         "averageBattlesUsed": 0.6,
@@ -29924,7 +29924,7 @@
       },
       "81": {
         "runCount": 104,
-        "averageParticipationPct": 6.3,
+        "averageParticipationPct": 6.1,
         "averageRunDepthStep": 115.8,
         "averageRunDepthPct": 83.3,
         "averageBattlesUsed": 0.6,
@@ -30013,7 +30013,7 @@
       },
       "80": {
         "runCount": 105,
-        "averageParticipationPct": 6.3,
+        "averageParticipationPct": 6.0,
         "averageRunDepthStep": 115.4,
         "averageRunDepthPct": 83.1,
         "averageBattlesUsed": 0.6,
@@ -30102,7 +30102,7 @@
       },
       "79": {
         "runCount": 106,
-        "averageParticipationPct": 6.2,
+        "averageParticipationPct": 6.0,
         "averageRunDepthStep": 115.1,
         "averageRunDepthPct": 82.8,
         "averageBattlesUsed": 0.5,
@@ -30191,7 +30191,7 @@
       },
       "78": {
         "runCount": 106,
-        "averageParticipationPct": 6.2,
+        "averageParticipationPct": 6.0,
         "averageRunDepthStep": 115.1,
         "averageRunDepthPct": 82.8,
         "averageBattlesUsed": 0.5,
@@ -30280,7 +30280,7 @@
       },
       "77": {
         "runCount": 106,
-        "averageParticipationPct": 6.2,
+        "averageParticipationPct": 6.0,
         "averageRunDepthStep": 115.1,
         "averageRunDepthPct": 82.8,
         "averageBattlesUsed": 0.5,
@@ -30369,7 +30369,7 @@
       },
       "76": {
         "runCount": 106,
-        "averageParticipationPct": 6.2,
+        "averageParticipationPct": 6.0,
         "averageRunDepthStep": 115.1,
         "averageRunDepthPct": 82.8,
         "averageBattlesUsed": 0.5,
@@ -30458,7 +30458,7 @@
       },
       "75": {
         "runCount": 107,
-        "averageParticipationPct": 6.6,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 114.7,
         "averageRunDepthPct": 82.5,
         "averageBattlesUsed": 0.6,
@@ -30547,7 +30547,7 @@
       },
       "74": {
         "runCount": 107,
-        "averageParticipationPct": 6.6,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 114.7,
         "averageRunDepthPct": 82.5,
         "averageBattlesUsed": 0.6,
@@ -30636,7 +30636,7 @@
       },
       "73": {
         "runCount": 107,
-        "averageParticipationPct": 6.6,
+        "averageParticipationPct": 6.4,
         "averageRunDepthStep": 114.7,
         "averageRunDepthPct": 82.5,
         "averageBattlesUsed": 0.6,
@@ -30725,7 +30725,7 @@
       },
       "72": {
         "runCount": 114,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.3,
         "averageRunDepthStep": 112.1,
         "averageRunDepthPct": 80.7,
         "averageBattlesUsed": 0.6,
@@ -30814,7 +30814,7 @@
       },
       "71": {
         "runCount": 115,
-        "averageParticipationPct": 6.5,
+        "averageParticipationPct": 6.3,
         "averageRunDepthStep": 111.7,
         "averageRunDepthPct": 80.4,
         "averageBattlesUsed": 0.6,
@@ -30903,7 +30903,7 @@
       },
       "70": {
         "runCount": 116,
-        "averageParticipationPct": 6.4,
+        "averageParticipationPct": 6.2,
         "averageRunDepthStep": 111.4,
         "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 0.6,
@@ -30992,7 +30992,7 @@
       },
       "69": {
         "runCount": 116,
-        "averageParticipationPct": 6.4,
+        "averageParticipationPct": 6.2,
         "averageRunDepthStep": 111.4,
         "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 0.6,
@@ -31081,7 +31081,7 @@
       },
       "68": {
         "runCount": 126,
-        "averageParticipationPct": 7.0,
+        "averageParticipationPct": 6.8,
         "averageRunDepthStep": 107.9,
         "averageRunDepthPct": 77.7,
         "averageBattlesUsed": 0.6,
@@ -31170,7 +31170,7 @@
       },
       "67": {
         "runCount": 128,
-        "averageParticipationPct": 7.2,
+        "averageParticipationPct": 7.0,
         "averageRunDepthStep": 107.3,
         "averageRunDepthPct": 77.2,
         "averageBattlesUsed": 0.6,
@@ -31259,7 +31259,7 @@
       },
       "66": {
         "runCount": 130,
-        "averageParticipationPct": 7.1,
+        "averageParticipationPct": 6.9,
         "averageRunDepthStep": 106.7,
         "averageRunDepthPct": 76.7,
         "averageBattlesUsed": 0.6,
@@ -31348,7 +31348,7 @@
       },
       "65": {
         "runCount": 132,
-        "averageParticipationPct": 7.8,
+        "averageParticipationPct": 7.6,
         "averageRunDepthStep": 106.0,
         "averageRunDepthPct": 76.3,
         "averageBattlesUsed": 0.6,
@@ -31437,7 +31437,7 @@
       },
       "64": {
         "runCount": 133,
-        "averageParticipationPct": 8.5,
+        "averageParticipationPct": 8.3,
         "averageRunDepthStep": 105.7,
         "averageRunDepthPct": 76.1,
         "averageBattlesUsed": 0.6,
@@ -31526,7 +31526,7 @@
       },
       "63": {
         "runCount": 134,
-        "averageParticipationPct": 8.4,
+        "averageParticipationPct": 8.2,
         "averageRunDepthStep": 105.4,
         "averageRunDepthPct": 75.8,
         "averageBattlesUsed": 0.6,
@@ -31615,7 +31615,7 @@
       },
       "62": {
         "runCount": 135,
-        "averageParticipationPct": 8.3,
+        "averageParticipationPct": 8.2,
         "averageRunDepthStep": 105.1,
         "averageRunDepthPct": 75.6,
         "averageBattlesUsed": 0.6,
@@ -31704,7 +31704,7 @@
       },
       "61": {
         "runCount": 136,
-        "averageParticipationPct": 8.3,
+        "averageParticipationPct": 8.1,
         "averageRunDepthStep": 104.8,
         "averageRunDepthPct": 75.4,
         "averageBattlesUsed": 0.6,
@@ -31793,7 +31793,7 @@
       },
       "60": {
         "runCount": 138,
-        "averageParticipationPct": 8.2,
+        "averageParticipationPct": 8.0,
         "averageRunDepthStep": 104.1,
         "averageRunDepthPct": 74.9,
         "averageBattlesUsed": 0.6,
@@ -31882,7 +31882,7 @@
       },
       "59": {
         "runCount": 142,
-        "averageParticipationPct": 7.9,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 102.8,
         "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.6,
@@ -31971,7 +31971,7 @@
       },
       "58": {
         "runCount": 147,
-        "averageParticipationPct": 7.7,
+        "averageParticipationPct": 7.5,
         "averageRunDepthStep": 101.3,
         "averageRunDepthPct": 72.9,
         "averageBattlesUsed": 0.6,
@@ -32060,7 +32060,7 @@
       },
       "57": {
         "runCount": 149,
-        "averageParticipationPct": 7.6,
+        "averageParticipationPct": 7.4,
         "averageRunDepthStep": 100.7,
         "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.6,
@@ -32149,7 +32149,7 @@
       },
       "56": {
         "runCount": 149,
-        "averageParticipationPct": 7.6,
+        "averageParticipationPct": 7.4,
         "averageRunDepthStep": 100.7,
         "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.6,
@@ -32238,7 +32238,7 @@
       },
       "55": {
         "runCount": 150,
-        "averageParticipationPct": 7.5,
+        "averageParticipationPct": 7.3,
         "averageRunDepthStep": 100.4,
         "averageRunDepthPct": 72.2,
         "averageBattlesUsed": 0.6,
@@ -32327,7 +32327,7 @@
       },
       "54": {
         "runCount": 151,
-        "averageParticipationPct": 7.5,
+        "averageParticipationPct": 7.3,
         "averageRunDepthStep": 100.1,
         "averageRunDepthPct": 72.0,
         "averageBattlesUsed": 0.5,
@@ -32416,7 +32416,7 @@
       },
       "53": {
         "runCount": 154,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.9,
         "averageRunDepthStep": 99.2,
         "averageRunDepthPct": 71.4,
         "averageBattlesUsed": 0.6,
@@ -32505,7 +32505,7 @@
       },
       "52": {
         "runCount": 155,
-        "averageParticipationPct": 8.0,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 98.9,
         "averageRunDepthPct": 71.1,
         "averageBattlesUsed": 0.6,
@@ -32594,7 +32594,7 @@
       },
       "51": {
         "runCount": 156,
-        "averageParticipationPct": 7.9,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 98.6,
         "averageRunDepthPct": 70.9,
         "averageBattlesUsed": 0.6,
@@ -32683,7 +32683,7 @@
       },
       "50": {
         "runCount": 156,
-        "averageParticipationPct": 7.9,
+        "averageParticipationPct": 7.8,
         "averageRunDepthStep": 98.6,
         "averageRunDepthPct": 70.9,
         "averageBattlesUsed": 0.6,
@@ -32772,7 +32772,7 @@
       },
       "49": {
         "runCount": 184,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.9,
         "averageRunDepthStep": 91.0,
         "averageRunDepthPct": 65.5,
         "averageBattlesUsed": 0.5,
@@ -32861,7 +32861,7 @@
       },
       "48": {
         "runCount": 187,
-        "averageParticipationPct": 8.9,
+        "averageParticipationPct": 8.7,
         "averageRunDepthStep": 90.3,
         "averageRunDepthPct": 65.0,
         "averageBattlesUsed": 0.5,
@@ -32950,7 +32950,7 @@
       },
       "47": {
         "runCount": 194,
-        "averageParticipationPct": 9.2,
+        "averageParticipationPct": 9.1,
         "averageRunDepthStep": 88.8,
         "averageRunDepthPct": 63.9,
         "averageBattlesUsed": 0.5,
@@ -33039,7 +33039,7 @@
       },
       "46": {
         "runCount": 197,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.9,
         "averageRunDepthStep": 88.1,
         "averageRunDepthPct": 63.4,
         "averageBattlesUsed": 0.5,
@@ -33128,7 +33128,7 @@
       },
       "45": {
         "runCount": 199,
-        "averageParticipationPct": 9.2,
+        "averageParticipationPct": 9.1,
         "averageRunDepthStep": 87.7,
         "averageRunDepthPct": 63.1,
         "averageBattlesUsed": 0.5,
@@ -33217,7 +33217,7 @@
       },
       "44": {
         "runCount": 203,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.9,
         "averageRunDepthStep": 86.8,
         "averageRunDepthPct": 62.5,
         "averageBattlesUsed": 0.5,
@@ -33306,7 +33306,7 @@
       },
       "43": {
         "runCount": 221,
-        "averageParticipationPct": 9.2,
+        "averageParticipationPct": 9.1,
         "averageRunDepthStep": 83.3,
         "averageRunDepthPct": 59.9,
         "averageBattlesUsed": 0.4,
@@ -33395,7 +33395,7 @@
       },
       "42": {
         "runCount": 232,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.9,
         "averageRunDepthStep": 81.3,
         "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.4,
@@ -33484,7 +33484,7 @@
       },
       "41": {
         "runCount": 238,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.8,
         "averageRunDepthStep": 80.3,
         "averageRunDepthPct": 57.8,
         "averageBattlesUsed": 0.4,
@@ -33573,7 +33573,7 @@
       },
       "40": {
         "runCount": 246,
-        "averageParticipationPct": 9.5,
+        "averageParticipationPct": 9.4,
         "averageRunDepthStep": 79.0,
         "averageRunDepthPct": 56.8,
         "averageBattlesUsed": 0.4,
@@ -33662,7 +33662,7 @@
       },
       "39": {
         "runCount": 259,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 77.0,
         "averageRunDepthPct": 55.4,
         "averageBattlesUsed": 0.4,
@@ -33751,7 +33751,7 @@
       },
       "38": {
         "runCount": 262,
-        "averageParticipationPct": 9.7,
+        "averageParticipationPct": 9.6,
         "averageRunDepthStep": 76.5,
         "averageRunDepthPct": 55.1,
         "averageBattlesUsed": 0.4,
@@ -33840,7 +33840,7 @@
       },
       "37": {
         "runCount": 263,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.5,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 54.9,
         "averageBattlesUsed": 0.4,
@@ -33929,7 +33929,7 @@
       },
       "36": {
         "runCount": 263,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.5,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 54.9,
         "averageBattlesUsed": 0.4,
@@ -34018,7 +34018,7 @@
       },
       "35": {
         "runCount": 264,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.5,
         "averageRunDepthStep": 76.2,
         "averageRunDepthPct": 54.8,
         "averageBattlesUsed": 0.4,
@@ -34107,7 +34107,7 @@
       },
       "34": {
         "runCount": 264,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.5,
         "averageRunDepthStep": 76.2,
         "averageRunDepthPct": 54.8,
         "averageBattlesUsed": 0.4,
@@ -34196,7 +34196,7 @@
       },
       "33": {
         "runCount": 265,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.5,
         "averageRunDepthStep": 76.1,
         "averageRunDepthPct": 54.7,
         "averageBattlesUsed": 0.4,
@@ -34285,7 +34285,7 @@
       },
       "32": {
         "runCount": 268,
-        "averageParticipationPct": 9.4,
+        "averageParticipationPct": 9.3,
         "averageRunDepthStep": 75.6,
         "averageRunDepthPct": 54.4,
         "averageBattlesUsed": 0.4,
@@ -34374,7 +34374,7 @@
       },
       "31": {
         "runCount": 268,
-        "averageParticipationPct": 9.4,
+        "averageParticipationPct": 9.3,
         "averageRunDepthStep": 75.6,
         "averageRunDepthPct": 54.4,
         "averageBattlesUsed": 0.4,
@@ -34463,7 +34463,7 @@
       },
       "30": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -34552,7 +34552,7 @@
       },
       "29": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -34641,7 +34641,7 @@
       },
       "28": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -34730,7 +34730,7 @@
       },
       "27": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -34819,7 +34819,7 @@
       },
       "26": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -34908,7 +34908,7 @@
       },
       "25": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -34997,7 +34997,7 @@
       },
       "24": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35086,7 +35086,7 @@
       },
       "23": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35175,7 +35175,7 @@
       },
       "22": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35264,7 +35264,7 @@
       },
       "21": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35353,7 +35353,7 @@
       },
       "20": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35442,7 +35442,7 @@
       },
       "19": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35531,7 +35531,7 @@
       },
       "18": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35620,7 +35620,7 @@
       },
       "17": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35709,7 +35709,7 @@
       },
       "16": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35798,7 +35798,7 @@
       },
       "15": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35887,7 +35887,7 @@
       },
       "14": {
         "runCount": 271,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 75.1,
         "averageRunDepthPct": 54.0,
         "averageBattlesUsed": 0.4,
@@ -35976,7 +35976,7 @@
       },
       "13": {
         "runCount": 272,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.8,
         "averageRunDepthPct": 53.8,
         "averageBattlesUsed": 0.4,
@@ -36065,7 +36065,7 @@
       },
       "12": {
         "runCount": 272,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.8,
         "averageRunDepthPct": 53.8,
         "averageBattlesUsed": 0.4,
@@ -36154,7 +36154,7 @@
       },
       "11": {
         "runCount": 272,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.8,
         "averageRunDepthPct": 53.8,
         "averageBattlesUsed": 0.4,
@@ -36243,7 +36243,7 @@
       },
       "10": {
         "runCount": 272,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.8,
         "averageRunDepthPct": 53.8,
         "averageBattlesUsed": 0.4,
@@ -36332,7 +36332,7 @@
       },
       "9": {
         "runCount": 272,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.8,
         "averageRunDepthPct": 53.8,
         "averageBattlesUsed": 0.4,
@@ -36421,7 +36421,7 @@
       },
       "8": {
         "runCount": 272,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.8,
         "averageRunDepthPct": 53.8,
         "averageBattlesUsed": 0.4,
@@ -36510,7 +36510,7 @@
       },
       "7": {
         "runCount": 272,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.8,
         "averageRunDepthPct": 53.8,
         "averageBattlesUsed": 0.4,
@@ -36599,7 +36599,7 @@
       },
       "6": {
         "runCount": 272,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.8,
         "averageRunDepthPct": 53.8,
         "averageBattlesUsed": 0.4,
@@ -36688,7 +36688,7 @@
       },
       "5": {
         "runCount": 273,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.6,
         "averageRunDepthPct": 53.7,
         "averageBattlesUsed": 0.4,
@@ -36777,7 +36777,7 @@
       },
       "4": {
         "runCount": 273,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.6,
         "averageRunDepthPct": 53.7,
         "averageBattlesUsed": 0.4,
@@ -36866,7 +36866,7 @@
       },
       "3": {
         "runCount": 273,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.6,
         "averageRunDepthPct": 53.7,
         "averageBattlesUsed": 0.4,
@@ -36955,7 +36955,7 @@
       },
       "2": {
         "runCount": 273,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.6,
         "averageRunDepthPct": 53.7,
         "averageBattlesUsed": 0.4,
@@ -37044,7 +37044,7 @@
       },
       "1": {
         "runCount": 273,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 74.6,
         "averageRunDepthPct": 53.7,
         "averageBattlesUsed": 0.4,

@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "zubat",
   "familyMembers": [
     "Crobat",
@@ -6118,14 +6118,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 4,
-              "ownedCount": 5,
-              "participationPct": 80
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -6145,6 +6137,14 @@
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
               "partyCount": 4,
               "ownedCount": 6,
               "participationPct": 67
@@ -6207,14 +6207,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 4,
-              "ownedCount": 5,
-              "participationPct": 80
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -6234,6 +6226,14 @@
               "usageKey": "336",
               "displayName": "Leader Fantina",
               "leadLevel": -1,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
               "partyCount": 4,
               "ownedCount": 6,
               "participationPct": 67
@@ -6296,14 +6296,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 4,
-              "ownedCount": 5,
-              "participationPct": 80
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -6326,12 +6318,20 @@
               "partyCount": 4,
               "ownedCount": 6,
               "participationPct": 67
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             }
           ]
         },
         "68": {
           "runCount": 178,
-          "averageParticipationPct": 18.6,
+          "averageParticipationPct": 18.5,
           "averageRunDepthStep": 112.2,
           "averageRunDepthPct": 80.7,
           "averageBattlesUsed": 1.1,
@@ -6385,14 +6385,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 4,
-              "ownedCount": 5,
-              "participationPct": 80
-            },
-            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -6407,6 +6399,14 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "336",
@@ -6474,14 +6474,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 4,
-              "ownedCount": 5,
-              "participationPct": 80
-            },
-            {
               "usageKey": "Rival Wally Route110",
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
@@ -6498,6 +6490,14 @@
               "participationPct": 80
             },
             {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
+            },
+            {
               "usageKey": "Picnicker Rachel",
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
@@ -6509,7 +6509,7 @@
         },
         "66": {
           "runCount": 182,
-          "averageParticipationPct": 19.0,
+          "averageParticipationPct": 18.9,
           "averageRunDepthStep": 111.2,
           "averageRunDepthPct": 80.0,
           "averageBattlesUsed": 1.1,
@@ -6563,14 +6563,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 4,
-              "ownedCount": 5,
-              "participationPct": 80
-            },
-            {
               "usageKey": "Rival Wally Route110",
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
@@ -6585,6 +6577,14 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "Picnicker Rachel",
@@ -6652,14 +6652,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 4,
-              "ownedCount": 5,
-              "participationPct": 80
-            },
-            {
               "usageKey": "Rival Wally Route110",
               "displayName": "Rival Wally Route110",
               "leadLevel": null,
@@ -6674,6 +6666,14 @@
               "partyCount": 4,
               "ownedCount": 5,
               "participationPct": 80
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 4,
+              "ownedCount": 6,
+              "participationPct": 67
             },
             {
               "usageKey": "Picnicker Rachel",
@@ -6709,20 +6709,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -6798,20 +6798,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -6887,20 +6887,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -6976,20 +6976,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7065,20 +7065,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7154,20 +7154,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7243,20 +7243,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7332,20 +7332,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7421,20 +7421,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7510,20 +7510,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7599,20 +7599,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7688,20 +7688,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7777,20 +7777,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7866,20 +7866,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -7955,20 +7955,20 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 6,
-              "participationPct": 83
-            },
-            {
               "usageKey": "Parasol Lady Madeline",
               "displayName": "Parasol Lady Madeline",
               "leadLevel": null,
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 7,
+              "participationPct": 71
             },
             {
               "usageKey": "519",
@@ -8022,7 +8022,7 @@
         },
         "49": {
           "runCount": 198,
-          "averageParticipationPct": 22.1,
+          "averageParticipationPct": 21.4,
           "averageRunDepthStep": 106.7,
           "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 1.1,
@@ -8036,20 +8036,20 @@
               "participationPct": 88
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 6,
-              "ownedCount": 6,
-              "participationPct": 100
-            },
-            {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 6,
               "ownedCount": 7,
               "participationPct": 86
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 6,
+              "ownedCount": 8,
+              "participationPct": 75
             },
             {
               "usageKey": "268",
@@ -8111,7 +8111,7 @@
         },
         "48": {
           "runCount": 200,
-          "averageParticipationPct": 22.6,
+          "averageParticipationPct": 21.9,
           "averageRunDepthStep": 106.1,
           "averageRunDepthPct": 76.3,
           "averageBattlesUsed": 1.1,
@@ -8125,20 +8125,20 @@
               "participationPct": 88
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 6,
-              "ownedCount": 7,
-              "participationPct": 86
-            },
-            {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 6,
               "ownedCount": 7,
               "participationPct": 86
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 6,
+              "ownedCount": 9,
+              "participationPct": 67
             },
             {
               "usageKey": "566",
@@ -8200,7 +8200,7 @@
         },
         "47": {
           "runCount": 203,
-          "averageParticipationPct": 22.3,
+          "averageParticipationPct": 21.6,
           "averageRunDepthStep": 105.2,
           "averageRunDepthPct": 75.7,
           "averageBattlesUsed": 1.1,
@@ -8214,20 +8214,20 @@
               "participationPct": 88
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 6,
-              "ownedCount": 7,
-              "participationPct": 86
-            },
-            {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 6,
               "ownedCount": 7,
               "participationPct": 86
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 6,
+              "ownedCount": 9,
+              "participationPct": 67
             },
             {
               "usageKey": "566",
@@ -8289,7 +8289,7 @@
         },
         "46": {
           "runCount": 204,
-          "averageParticipationPct": 22.2,
+          "averageParticipationPct": 21.5,
           "averageRunDepthStep": 104.9,
           "averageRunDepthPct": 75.5,
           "averageBattlesUsed": 1.1,
@@ -8303,20 +8303,20 @@
               "participationPct": 88
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 6,
-              "ownedCount": 7,
-              "participationPct": 86
-            },
-            {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 6,
               "ownedCount": 7,
               "participationPct": 86
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 6,
+              "ownedCount": 9,
+              "participationPct": 67
             },
             {
               "usageKey": "566",
@@ -8378,7 +8378,7 @@
         },
         "45": {
           "runCount": 205,
-          "averageParticipationPct": 22.5,
+          "averageParticipationPct": 21.9,
           "averageRunDepthStep": 104.6,
           "averageRunDepthPct": 75.3,
           "averageBattlesUsed": 1.1,
@@ -8392,20 +8392,20 @@
               "participationPct": 88
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 6,
-              "ownedCount": 7,
-              "participationPct": 86
-            },
-            {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 6,
               "ownedCount": 7,
               "participationPct": 86
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 6,
+              "ownedCount": 9,
+              "participationPct": 67
             },
             {
               "usageKey": "566",
@@ -8467,7 +8467,7 @@
         },
         "44": {
           "runCount": 205,
-          "averageParticipationPct": 22.5,
+          "averageParticipationPct": 21.9,
           "averageRunDepthStep": 104.6,
           "averageRunDepthPct": 75.3,
           "averageBattlesUsed": 1.1,
@@ -8481,20 +8481,20 @@
               "participationPct": 88
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 6,
-              "ownedCount": 7,
-              "participationPct": 86
-            },
-            {
               "usageKey": "School Kid Ted",
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 6,
               "ownedCount": 7,
               "participationPct": 86
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 6,
+              "ownedCount": 9,
+              "participationPct": 67
             },
             {
               "usageKey": "566",
@@ -8556,7 +8556,7 @@
         },
         "43": {
           "runCount": 209,
-          "averageParticipationPct": 22.7,
+          "averageParticipationPct": 22.1,
           "averageRunDepthStep": 103.5,
           "averageRunDepthPct": 74.4,
           "averageBattlesUsed": 1.1,
@@ -8578,17 +8578,17 @@
               "participationPct": 86
             },
             {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 6,
-              "ownedCount": 8,
-              "participationPct": 75
-            },
-            {
               "usageKey": "566",
               "displayName": "Leader Maylene",
               "leadLevel": -1,
+              "partyCount": 6,
+              "ownedCount": 10,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
               "partyCount": 6,
               "ownedCount": 10,
               "participationPct": 60
@@ -8645,7 +8645,7 @@
         },
         "42": {
           "runCount": 214,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 23.5,
           "averageRunDepthStep": 102.0,
           "averageRunDepthPct": 73.4,
           "averageBattlesUsed": 1.1,
@@ -8663,8 +8663,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
+              "ownedCount": 11,
+              "participationPct": 64
             },
             {
               "usageKey": "School Kid Ted",
@@ -8734,7 +8734,7 @@
         },
         "41": {
           "runCount": 216,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 23.5,
           "averageRunDepthStep": 101.5,
           "averageRunDepthPct": 73.0,
           "averageBattlesUsed": 1.1,
@@ -8752,8 +8752,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
+              "ownedCount": 11,
+              "participationPct": 64
             },
             {
               "usageKey": "School Kid Ted",
@@ -8823,7 +8823,7 @@
         },
         "40": {
           "runCount": 217,
-          "averageParticipationPct": 24.5,
+          "averageParticipationPct": 23.8,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 1.1,
@@ -8833,8 +8833,8 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 8,
-              "ownedCount": 10,
-              "participationPct": 80
+              "ownedCount": 12,
+              "participationPct": 67
             },
             {
               "usageKey": "269",
@@ -8911,10 +8911,10 @@
           ]
         },
         "39": {
-          "runCount": 218,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 100.9,
-          "averageRunDepthPct": 72.6,
+          "runCount": 219,
+          "averageParticipationPct": 24.4,
+          "averageRunDepthStep": 100.6,
+          "averageRunDepthPct": 72.4,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -8922,8 +8922,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 9,
-              "ownedCount": 11,
-              "participationPct": 82
+              "ownedCount": 13,
+              "participationPct": 69
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -8932,14 +8940,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -9000,10 +9000,10 @@
           ]
         },
         "38": {
-          "runCount": 219,
-          "averageParticipationPct": 25.0,
-          "averageRunDepthStep": 100.6,
-          "averageRunDepthPct": 72.4,
+          "runCount": 220,
+          "averageParticipationPct": 24.7,
+          "averageRunDepthStep": 100.3,
+          "averageRunDepthPct": 72.2,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -9011,8 +9011,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 9,
-              "ownedCount": 11,
-              "participationPct": 82
+              "ownedCount": 13,
+              "participationPct": 69
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -9021,14 +9029,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -9089,10 +9089,10 @@
           ]
         },
         "37": {
-          "runCount": 221,
-          "averageParticipationPct": 25.2,
-          "averageRunDepthStep": 100.0,
-          "averageRunDepthPct": 72.0,
+          "runCount": 222,
+          "averageParticipationPct": 24.9,
+          "averageRunDepthStep": 99.7,
+          "averageRunDepthPct": 71.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -9100,8 +9100,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 9,
-              "ownedCount": 12,
-              "participationPct": 75
+              "ownedCount": 14,
+              "participationPct": 64
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -9110,14 +9118,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -9178,10 +9178,10 @@
           ]
         },
         "36": {
-          "runCount": 221,
-          "averageParticipationPct": 25.2,
-          "averageRunDepthStep": 100.0,
-          "averageRunDepthPct": 72.0,
+          "runCount": 222,
+          "averageParticipationPct": 24.9,
+          "averageRunDepthStep": 99.7,
+          "averageRunDepthPct": 71.8,
           "averageBattlesUsed": 1.2,
           "topBattles": [
             {
@@ -9189,8 +9189,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 9,
-              "ownedCount": 12,
-              "participationPct": 75
+              "ownedCount": 14,
+              "participationPct": 64
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -9199,14 +9207,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -9267,10 +9267,10 @@
           ]
         },
         "35": {
-          "runCount": 229,
-          "averageParticipationPct": 26.3,
-          "averageRunDepthStep": 97.8,
-          "averageRunDepthPct": 70.3,
+          "runCount": 230,
+          "averageParticipationPct": 26.0,
+          "averageRunDepthStep": 97.5,
+          "averageRunDepthPct": 70.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9278,8 +9278,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 9,
-              "ownedCount": 13,
-              "participationPct": 69
+              "ownedCount": 15,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -9288,14 +9296,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -9356,10 +9356,10 @@
           ]
         },
         "34": {
-          "runCount": 229,
-          "averageParticipationPct": 26.3,
-          "averageRunDepthStep": 97.8,
-          "averageRunDepthPct": 70.3,
+          "runCount": 230,
+          "averageParticipationPct": 26.0,
+          "averageRunDepthStep": 97.5,
+          "averageRunDepthPct": 70.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9367,8 +9367,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 9,
-              "ownedCount": 13,
-              "participationPct": 69
+              "ownedCount": 15,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -9377,14 +9385,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -9445,10 +9445,10 @@
           ]
         },
         "33": {
-          "runCount": 229,
-          "averageParticipationPct": 26.3,
-          "averageRunDepthStep": 97.8,
-          "averageRunDepthPct": 70.3,
+          "runCount": 230,
+          "averageParticipationPct": 26.0,
+          "averageRunDepthStep": 97.5,
+          "averageRunDepthPct": 70.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9456,8 +9456,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 9,
-              "ownedCount": 13,
-              "participationPct": 69
+              "ownedCount": 15,
+              "participationPct": 60
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -9466,14 +9474,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -9534,10 +9534,10 @@
           ]
         },
         "32": {
-          "runCount": 238,
-          "averageParticipationPct": 25.7,
-          "averageRunDepthStep": 95.3,
-          "averageRunDepthPct": 68.5,
+          "runCount": 239,
+          "averageParticipationPct": 25.5,
+          "averageRunDepthStep": 95.0,
+          "averageRunDepthPct": 68.4,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9545,8 +9545,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -9555,14 +9563,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -9623,10 +9623,10 @@
           ]
         },
         "31": {
-          "runCount": 239,
-          "averageParticipationPct": 25.9,
-          "averageRunDepthStep": 95.0,
-          "averageRunDepthPct": 68.3,
+          "runCount": 240,
+          "averageParticipationPct": 25.6,
+          "averageRunDepthStep": 94.8,
+          "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9634,8 +9634,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "269",
@@ -9644,14 +9652,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -9712,10 +9712,10 @@
           ]
         },
         "30": {
-          "runCount": 245,
-          "averageParticipationPct": 26.5,
-          "averageRunDepthStep": 93.4,
-          "averageRunDepthPct": 67.2,
+          "runCount": 246,
+          "averageParticipationPct": 26.2,
+          "averageRunDepthStep": 93.2,
+          "averageRunDepthPct": 67.0,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9723,8 +9723,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -9741,14 +9749,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -9801,10 +9801,10 @@
           ]
         },
         "29": {
-          "runCount": 246,
-          "averageParticipationPct": 26.4,
-          "averageRunDepthStep": 93.1,
-          "averageRunDepthPct": 67.0,
+          "runCount": 247,
+          "averageParticipationPct": 26.1,
+          "averageRunDepthStep": 92.9,
+          "averageRunDepthPct": 66.9,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9812,8 +9812,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -9830,14 +9838,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -9890,10 +9890,10 @@
           ]
         },
         "28": {
-          "runCount": 248,
-          "averageParticipationPct": 27.0,
-          "averageRunDepthStep": 92.6,
-          "averageRunDepthPct": 66.6,
+          "runCount": 249,
+          "averageParticipationPct": 26.7,
+          "averageRunDepthStep": 92.4,
+          "averageRunDepthPct": 66.5,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9901,8 +9901,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -9919,14 +9927,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -9979,10 +9979,10 @@
           ]
         },
         "27": {
-          "runCount": 249,
-          "averageParticipationPct": 27.3,
-          "averageRunDepthStep": 92.4,
-          "averageRunDepthPct": 66.4,
+          "runCount": 250,
+          "averageParticipationPct": 27.0,
+          "averageRunDepthStep": 92.1,
+          "averageRunDepthPct": 66.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -9990,8 +9990,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10008,14 +10016,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -10068,10 +10068,10 @@
           ]
         },
         "26": {
-          "runCount": 249,
-          "averageParticipationPct": 27.3,
-          "averageRunDepthStep": 92.4,
-          "averageRunDepthPct": 66.4,
+          "runCount": 250,
+          "averageParticipationPct": 27.0,
+          "averageRunDepthStep": 92.1,
+          "averageRunDepthPct": 66.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10079,8 +10079,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10097,14 +10105,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -10157,10 +10157,10 @@
           ]
         },
         "25": {
-          "runCount": 249,
-          "averageParticipationPct": 27.3,
-          "averageRunDepthStep": 92.4,
-          "averageRunDepthPct": 66.4,
+          "runCount": 250,
+          "averageParticipationPct": 27.0,
+          "averageRunDepthStep": 92.1,
+          "averageRunDepthPct": 66.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10168,8 +10168,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10186,14 +10194,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -10246,10 +10246,10 @@
           ]
         },
         "24": {
-          "runCount": 249,
-          "averageParticipationPct": 27.3,
-          "averageRunDepthStep": 92.4,
-          "averageRunDepthPct": 66.4,
+          "runCount": 250,
+          "averageParticipationPct": 27.0,
+          "averageRunDepthStep": 92.1,
+          "averageRunDepthPct": 66.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10257,8 +10257,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10275,14 +10283,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -10335,10 +10335,10 @@
           ]
         },
         "23": {
-          "runCount": 250,
-          "averageParticipationPct": 27.6,
-          "averageRunDepthStep": 92.1,
-          "averageRunDepthPct": 66.2,
+          "runCount": 251,
+          "averageParticipationPct": 27.3,
+          "averageRunDepthStep": 91.9,
+          "averageRunDepthPct": 66.1,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10346,8 +10346,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10364,14 +10372,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "266",
@@ -10424,10 +10424,10 @@
           ]
         },
         "22": {
-          "runCount": 251,
-          "averageParticipationPct": 27.9,
-          "averageRunDepthStep": 91.8,
-          "averageRunDepthPct": 66.0,
+          "runCount": 252,
+          "averageParticipationPct": 27.6,
+          "averageRunDepthStep": 91.6,
+          "averageRunDepthPct": 65.9,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10435,8 +10435,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10461,14 +10469,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -10513,10 +10513,10 @@
           ]
         },
         "21": {
-          "runCount": 251,
-          "averageParticipationPct": 27.9,
-          "averageRunDepthStep": 91.8,
-          "averageRunDepthPct": 66.0,
+          "runCount": 252,
+          "averageParticipationPct": 27.6,
+          "averageRunDepthStep": 91.6,
+          "averageRunDepthPct": 65.9,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10524,8 +10524,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10550,14 +10558,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -10602,10 +10602,10 @@
           ]
         },
         "20": {
-          "runCount": 252,
-          "averageParticipationPct": 28.1,
-          "averageRunDepthStep": 91.5,
-          "averageRunDepthPct": 65.8,
+          "runCount": 253,
+          "averageParticipationPct": 27.9,
+          "averageRunDepthStep": 91.3,
+          "averageRunDepthPct": 65.7,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10613,8 +10613,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10639,14 +10647,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -10691,10 +10691,10 @@
           ]
         },
         "19": {
-          "runCount": 253,
-          "averageParticipationPct": 28.0,
-          "averageRunDepthStep": 91.2,
-          "averageRunDepthPct": 65.6,
+          "runCount": 254,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 91.0,
+          "averageRunDepthPct": 65.5,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10702,8 +10702,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10728,14 +10736,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -10780,10 +10780,10 @@
           ]
         },
         "18": {
-          "runCount": 254,
-          "averageParticipationPct": 28.3,
-          "averageRunDepthStep": 90.9,
-          "averageRunDepthPct": 65.4,
+          "runCount": 255,
+          "averageParticipationPct": 28.0,
+          "averageRunDepthStep": 90.7,
+          "averageRunDepthPct": 65.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10791,8 +10791,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10817,14 +10825,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -10869,10 +10869,10 @@
           ]
         },
         "17": {
-          "runCount": 254,
-          "averageParticipationPct": 28.3,
-          "averageRunDepthStep": 90.9,
-          "averageRunDepthPct": 65.4,
+          "runCount": 255,
+          "averageParticipationPct": 28.0,
+          "averageRunDepthStep": 90.7,
+          "averageRunDepthPct": 65.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10880,8 +10880,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10906,14 +10914,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -10958,10 +10958,10 @@
           ]
         },
         "16": {
-          "runCount": 254,
-          "averageParticipationPct": 28.3,
-          "averageRunDepthStep": 90.9,
-          "averageRunDepthPct": 65.4,
+          "runCount": 255,
+          "averageParticipationPct": 28.0,
+          "averageRunDepthStep": 90.7,
+          "averageRunDepthPct": 65.3,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -10969,8 +10969,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -10995,14 +11003,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11047,10 +11047,10 @@
           ]
         },
         "15": {
-          "runCount": 257,
-          "averageParticipationPct": 28.8,
-          "averageRunDepthStep": 90.1,
-          "averageRunDepthPct": 64.8,
+          "runCount": 258,
+          "averageParticipationPct": 28.5,
+          "averageRunDepthStep": 89.9,
+          "averageRunDepthPct": 64.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11058,8 +11058,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11084,14 +11092,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11136,10 +11136,10 @@
           ]
         },
         "14": {
-          "runCount": 257,
-          "averageParticipationPct": 28.8,
-          "averageRunDepthStep": 90.1,
-          "averageRunDepthPct": 64.8,
+          "runCount": 258,
+          "averageParticipationPct": 28.5,
+          "averageRunDepthStep": 89.9,
+          "averageRunDepthPct": 64.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11147,8 +11147,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11173,14 +11181,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11225,10 +11225,10 @@
           ]
         },
         "13": {
-          "runCount": 271,
-          "averageParticipationPct": 29.1,
-          "averageRunDepthStep": 86.1,
-          "averageRunDepthPct": 61.9,
+          "runCount": 272,
+          "averageParticipationPct": 28.9,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11244,8 +11244,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11262,14 +11270,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11314,10 +11314,10 @@
           ]
         },
         "12": {
-          "runCount": 271,
-          "averageParticipationPct": 29.1,
-          "averageRunDepthStep": 86.1,
-          "averageRunDepthPct": 61.9,
+          "runCount": 272,
+          "averageParticipationPct": 28.9,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11333,8 +11333,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11351,14 +11359,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11403,10 +11403,10 @@
           ]
         },
         "11": {
-          "runCount": 271,
-          "averageParticipationPct": 29.1,
-          "averageRunDepthStep": 86.1,
-          "averageRunDepthPct": 61.9,
+          "runCount": 272,
+          "averageParticipationPct": 28.9,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11422,8 +11422,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11440,14 +11448,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11492,10 +11492,10 @@
           ]
         },
         "10": {
-          "runCount": 271,
-          "averageParticipationPct": 29.1,
-          "averageRunDepthStep": 86.1,
-          "averageRunDepthPct": 61.9,
+          "runCount": 272,
+          "averageParticipationPct": 28.9,
+          "averageRunDepthStep": 85.9,
+          "averageRunDepthPct": 61.8,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11511,8 +11511,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11529,14 +11537,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11581,10 +11581,10 @@
           ]
         },
         "9": {
-          "runCount": 272,
-          "averageParticipationPct": 29.0,
-          "averageRunDepthStep": 85.8,
-          "averageRunDepthPct": 61.7,
+          "runCount": 273,
+          "averageParticipationPct": 28.8,
+          "averageRunDepthStep": 85.6,
+          "averageRunDepthPct": 61.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11600,8 +11600,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11618,14 +11626,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11670,10 +11670,10 @@
           ]
         },
         "8": {
-          "runCount": 272,
-          "averageParticipationPct": 29.0,
-          "averageRunDepthStep": 85.8,
-          "averageRunDepthPct": 61.7,
+          "runCount": 273,
+          "averageParticipationPct": 28.8,
+          "averageRunDepthStep": 85.6,
+          "averageRunDepthPct": 61.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11689,8 +11689,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11707,14 +11715,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11759,10 +11759,10 @@
           ]
         },
         "7": {
-          "runCount": 272,
-          "averageParticipationPct": 29.0,
-          "averageRunDepthStep": 85.8,
-          "averageRunDepthPct": 61.7,
+          "runCount": 273,
+          "averageParticipationPct": 28.8,
+          "averageRunDepthStep": 85.6,
+          "averageRunDepthPct": 61.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11778,8 +11778,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11796,14 +11804,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11848,10 +11848,10 @@
           ]
         },
         "6": {
-          "runCount": 272,
-          "averageParticipationPct": 29.0,
-          "averageRunDepthStep": 85.8,
-          "averageRunDepthPct": 61.7,
+          "runCount": 273,
+          "averageParticipationPct": 28.8,
+          "averageRunDepthStep": 85.6,
+          "averageRunDepthPct": 61.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11867,8 +11867,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11885,14 +11893,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -11937,10 +11937,10 @@
           ]
         },
         "5": {
-          "runCount": 272,
-          "averageParticipationPct": 29.0,
-          "averageRunDepthStep": 85.8,
-          "averageRunDepthPct": 61.7,
+          "runCount": 273,
+          "averageParticipationPct": 28.8,
+          "averageRunDepthStep": 85.6,
+          "averageRunDepthPct": 61.6,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -11956,8 +11956,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -11974,14 +11982,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -12026,10 +12026,10 @@
           ]
         },
         "4": {
-          "runCount": 273,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 85.5,
-          "averageRunDepthPct": 61.5,
+          "runCount": 274,
+          "averageParticipationPct": 29.0,
+          "averageRunDepthStep": 85.3,
+          "averageRunDepthPct": 61.4,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -12045,8 +12045,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -12063,14 +12071,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -12115,10 +12115,10 @@
           ]
         },
         "3": {
-          "runCount": 273,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 85.5,
-          "averageRunDepthPct": 61.5,
+          "runCount": 274,
+          "averageParticipationPct": 29.0,
+          "averageRunDepthStep": 85.3,
+          "averageRunDepthPct": 61.4,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -12134,8 +12134,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -12152,14 +12160,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -12204,10 +12204,10 @@
           ]
         },
         "2": {
-          "runCount": 273,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 85.5,
-          "averageRunDepthPct": 61.5,
+          "runCount": 274,
+          "averageParticipationPct": 29.0,
+          "averageRunDepthStep": 85.3,
+          "averageRunDepthPct": 61.4,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -12223,8 +12223,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -12241,14 +12249,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -12293,10 +12293,10 @@
           ]
         },
         "1": {
-          "runCount": 273,
-          "averageParticipationPct": 29.3,
-          "averageRunDepthStep": 85.5,
-          "averageRunDepthPct": 61.5,
+          "runCount": 274,
+          "averageParticipationPct": 29.0,
+          "averageRunDepthStep": 85.3,
+          "averageRunDepthPct": 61.4,
           "averageBattlesUsed": 1.1,
           "topBattles": [
             {
@@ -12312,8 +12312,16 @@
               "displayName": "Leader Wattson",
               "leadLevel": 34,
               "partyCount": 10,
-              "ownedCount": 22,
-              "participationPct": 45
+              "ownedCount": 24,
+              "participationPct": 42
+            },
+            {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 8,
+              "ownedCount": 10,
+              "participationPct": 80
             },
             {
               "usageKey": "336",
@@ -12330,14 +12338,6 @@
               "partyCount": 7,
               "ownedCount": 8,
               "participationPct": 88
-            },
-            {
-              "usageKey": "Parasol Lady Madeline",
-              "displayName": "Parasol Lady Madeline",
-              "leadLevel": null,
-              "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
             },
             {
               "usageKey": "School Kid Ted",
@@ -42508,14 +42508,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -42535,6 +42527,14 @@
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
@@ -42597,14 +42597,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -42624,6 +42616,14 @@
             "usageKey": "336",
             "displayName": "Leader Fantina",
             "leadLevel": -1,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
@@ -42686,14 +42686,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -42716,12 +42708,20 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           }
         ]
       },
       "68": {
         "runCount": 185,
-        "averageParticipationPct": 17.9,
+        "averageParticipationPct": 17.8,
         "averageRunDepthStep": 112.2,
         "averageRunDepthPct": 80.7,
         "averageBattlesUsed": 1.0,
@@ -42775,14 +42775,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -42797,6 +42789,14 @@
             "partyCount": 4,
             "ownedCount": 5,
             "participationPct": 80
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "336",
@@ -42864,14 +42864,6 @@
             "participationPct": 29
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
             "usageKey": "Rival Wally Route110",
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
@@ -42888,6 +42880,14 @@
             "participationPct": 80
           },
           {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
+          },
+          {
             "usageKey": "Picnicker Rachel",
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
@@ -42899,7 +42899,7 @@
       },
       "66": {
         "runCount": 189,
-        "averageParticipationPct": 18.3,
+        "averageParticipationPct": 18.2,
         "averageRunDepthStep": 111.3,
         "averageRunDepthPct": 80.1,
         "averageBattlesUsed": 1.0,
@@ -42953,14 +42953,6 @@
             "participationPct": 29
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
             "usageKey": "Rival Wally Route110",
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
@@ -42975,6 +42967,14 @@
             "partyCount": 4,
             "ownedCount": 5,
             "participationPct": 80
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "Picnicker Rachel",
@@ -43042,14 +43042,6 @@
             "participationPct": 29
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 4,
-            "ownedCount": 5,
-            "participationPct": 80
-          },
-          {
             "usageKey": "Rival Wally Route110",
             "displayName": "Rival Wally Route110",
             "leadLevel": null,
@@ -43064,6 +43056,14 @@
             "partyCount": 4,
             "ownedCount": 5,
             "participationPct": 80
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 4,
+            "ownedCount": 6,
+            "participationPct": 67
           },
           {
             "usageKey": "Picnicker Rachel",
@@ -43107,20 +43107,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43196,20 +43196,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43285,20 +43285,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43374,20 +43374,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43463,20 +43463,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43552,20 +43552,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43641,20 +43641,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43730,20 +43730,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43819,20 +43819,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43908,20 +43908,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -43997,20 +43997,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -44086,20 +44086,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -44175,20 +44175,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -44264,20 +44264,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -44353,20 +44353,20 @@
             "participationPct": 83
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
-          },
-          {
             "usageKey": "Parasol Lady Madeline",
             "displayName": "Parasol Lady Madeline",
             "leadLevel": null,
             "partyCount": 5,
             "ownedCount": 6,
             "participationPct": 83
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 5,
+            "ownedCount": 7,
+            "participationPct": 71
           },
           {
             "usageKey": "519",
@@ -44412,7 +44412,7 @@
       },
       "49": {
         "runCount": 205,
-        "averageParticipationPct": 21.3,
+        "averageParticipationPct": 20.6,
         "averageRunDepthStep": 106.9,
         "averageRunDepthPct": 76.9,
         "averageBattlesUsed": 1.0,
@@ -44426,20 +44426,20 @@
             "participationPct": 88
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 6,
-            "ownedCount": 6,
-            "participationPct": 100
-          },
-          {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 6,
             "ownedCount": 7,
             "participationPct": 86
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 6,
+            "ownedCount": 8,
+            "participationPct": 75
           },
           {
             "usageKey": "268",
@@ -44501,7 +44501,7 @@
       },
       "48": {
         "runCount": 208,
-        "averageParticipationPct": 21.7,
+        "averageParticipationPct": 21.0,
         "averageRunDepthStep": 106.1,
         "averageRunDepthPct": 76.3,
         "averageBattlesUsed": 1.1,
@@ -44515,20 +44515,20 @@
             "participationPct": 88
           },
           {
-            "usageKey": "267",
-            "displayName": "Leader Wattson",
-            "leadLevel": 34,
-            "partyCount": 6,
-            "ownedCount": 7,
-            "participationPct": 86
-          },
-          {
             "usageKey": "School Kid Ted",
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 6,
             "ownedCount": 7,
             "participationPct": 86
+          },
+          {
+            "usageKey": "267",
+            "displayName": "Leader Wattson",
+            "leadLevel": 34,
+            "partyCount": 6,
+            "ownedCount": 9,
+            "participationPct": 67
           },
           {
             "usageKey": "566",
@@ -44590,7 +44590,7 @@
       },
       "47": {
         "runCount": 212,
-        "averageParticipationPct": 21.5,
+        "averageParticipationPct": 20.8,
         "averageRunDepthStep": 104.9,
         "averageRunDepthPct": 75.5,
         "averageBattlesUsed": 1.1,
@@ -44608,8 +44608,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 10,
+            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -44679,7 +44679,7 @@
       },
       "46": {
         "runCount": 213,
-        "averageParticipationPct": 21.4,
+        "averageParticipationPct": 20.7,
         "averageRunDepthStep": 104.7,
         "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 1.1,
@@ -44697,8 +44697,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 10,
+            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -44768,7 +44768,7 @@
       },
       "45": {
         "runCount": 214,
-        "averageParticipationPct": 21.7,
+        "averageParticipationPct": 21.1,
         "averageRunDepthStep": 104.4,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 1.1,
@@ -44786,8 +44786,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 10,
+            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -44857,7 +44857,7 @@
       },
       "44": {
         "runCount": 214,
-        "averageParticipationPct": 21.7,
+        "averageParticipationPct": 21.1,
         "averageRunDepthStep": 104.4,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 1.1,
@@ -44875,8 +44875,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 7,
-            "ownedCount": 8,
-            "participationPct": 88
+            "ownedCount": 10,
+            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -44946,7 +44946,7 @@
       },
       "43": {
         "runCount": 219,
-        "averageParticipationPct": 22.0,
+        "averageParticipationPct": 21.4,
         "averageRunDepthStep": 103.0,
         "averageRunDepthPct": 74.1,
         "averageBattlesUsed": 1.1,
@@ -44964,8 +44964,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
+            "ownedCount": 12,
+            "participationPct": 58
           },
           {
             "usageKey": "School Kid Ted",
@@ -45035,7 +45035,7 @@
       },
       "42": {
         "runCount": 224,
-        "averageParticipationPct": 23.4,
+        "averageParticipationPct": 22.8,
         "averageRunDepthStep": 101.6,
         "averageRunDepthPct": 73.1,
         "averageBattlesUsed": 1.1,
@@ -45045,8 +45045,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 8,
-            "ownedCount": 11,
-            "participationPct": 73
+            "ownedCount": 13,
+            "participationPct": 62
           },
           {
             "usageKey": "269",
@@ -45124,7 +45124,7 @@
       },
       "41": {
         "runCount": 227,
-        "averageParticipationPct": 23.3,
+        "averageParticipationPct": 22.7,
         "averageRunDepthStep": 100.8,
         "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 1.1,
@@ -45134,8 +45134,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 8,
-            "ownedCount": 11,
-            "participationPct": 73
+            "ownedCount": 13,
+            "participationPct": 62
           },
           {
             "usageKey": "269",
@@ -45213,7 +45213,7 @@
       },
       "40": {
         "runCount": 229,
-        "averageParticipationPct": 23.5,
+        "averageParticipationPct": 22.9,
         "averageRunDepthStep": 100.3,
         "averageRunDepthPct": 72.2,
         "averageBattlesUsed": 1.1,
@@ -45223,8 +45223,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 9,
-            "ownedCount": 12,
-            "participationPct": 75
+            "ownedCount": 14,
+            "participationPct": 64
           },
           {
             "usageKey": "269",
@@ -45301,10 +45301,10 @@
         ]
       },
       "39": {
-        "runCount": 231,
-        "averageParticipationPct": 23.6,
-        "averageRunDepthStep": 99.8,
-        "averageRunDepthPct": 71.8,
+        "runCount": 232,
+        "averageParticipationPct": 23.3,
+        "averageRunDepthStep": 99.5,
+        "averageRunDepthPct": 71.6,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -45312,8 +45312,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 10,
-            "ownedCount": 13,
-            "participationPct": 77
+            "ownedCount": 15,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 10,
+            "participationPct": 80
           },
           {
             "usageKey": "269",
@@ -45322,14 +45330,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 9,
-            "participationPct": 78
           },
           {
             "usageKey": "School Kid Ted",
@@ -45390,10 +45390,10 @@
         ]
       },
       "38": {
-        "runCount": 233,
-        "averageParticipationPct": 23.8,
-        "averageRunDepthStep": 99.2,
-        "averageRunDepthPct": 71.4,
+        "runCount": 234,
+        "averageParticipationPct": 23.5,
+        "averageRunDepthStep": 99.0,
+        "averageRunDepthPct": 71.2,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -45401,8 +45401,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 10,
-            "ownedCount": 13,
-            "participationPct": 77
+            "ownedCount": 15,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -45411,14 +45419,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -45479,10 +45479,10 @@
         ]
       },
       "37": {
-        "runCount": 235,
-        "averageParticipationPct": 24.0,
-        "averageRunDepthStep": 98.7,
-        "averageRunDepthPct": 71.0,
+        "runCount": 236,
+        "averageParticipationPct": 23.7,
+        "averageRunDepthStep": 98.5,
+        "averageRunDepthPct": 70.8,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -45490,8 +45490,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 10,
-            "ownedCount": 14,
-            "participationPct": 71
+            "ownedCount": 16,
+            "participationPct": 62
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -45500,14 +45508,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -45568,10 +45568,10 @@
         ]
       },
       "36": {
-        "runCount": 236,
-        "averageParticipationPct": 23.9,
-        "averageRunDepthStep": 98.4,
-        "averageRunDepthPct": 70.8,
+        "runCount": 237,
+        "averageParticipationPct": 23.6,
+        "averageRunDepthStep": 98.2,
+        "averageRunDepthPct": 70.6,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -45579,8 +45579,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 10,
-            "ownedCount": 14,
-            "participationPct": 71
+            "ownedCount": 16,
+            "participationPct": 62
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -45589,14 +45597,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -45657,10 +45657,10 @@
         ]
       },
       "35": {
-        "runCount": 245,
-        "averageParticipationPct": 24.9,
-        "averageRunDepthStep": 96.1,
-        "averageRunDepthPct": 69.1,
+        "runCount": 246,
+        "averageParticipationPct": 24.6,
+        "averageRunDepthStep": 95.9,
+        "averageRunDepthPct": 69.0,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -45668,8 +45668,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 10,
-            "ownedCount": 15,
-            "participationPct": 67
+            "ownedCount": 17,
+            "participationPct": 59
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -45678,14 +45686,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -45746,10 +45746,10 @@
         ]
       },
       "34": {
-        "runCount": 245,
-        "averageParticipationPct": 24.9,
-        "averageRunDepthStep": 96.1,
-        "averageRunDepthPct": 69.1,
+        "runCount": 246,
+        "averageParticipationPct": 24.6,
+        "averageRunDepthStep": 95.9,
+        "averageRunDepthPct": 69.0,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -45757,8 +45757,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 10,
-            "ownedCount": 15,
-            "participationPct": 67
+            "ownedCount": 17,
+            "participationPct": 59
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -45767,14 +45775,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -45835,10 +45835,10 @@
         ]
       },
       "33": {
-        "runCount": 246,
-        "averageParticipationPct": 24.8,
-        "averageRunDepthStep": 95.9,
-        "averageRunDepthPct": 69.0,
+        "runCount": 247,
+        "averageParticipationPct": 24.5,
+        "averageRunDepthStep": 95.6,
+        "averageRunDepthPct": 68.8,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -45846,8 +45846,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 10,
-            "ownedCount": 15,
-            "participationPct": 67
+            "ownedCount": 17,
+            "participationPct": 59
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -45856,14 +45864,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -45924,10 +45924,10 @@
         ]
       },
       "32": {
-        "runCount": 258,
-        "averageParticipationPct": 24.3,
-        "averageRunDepthStep": 92.9,
-        "averageRunDepthPct": 66.8,
+        "runCount": 259,
+        "averageParticipationPct": 24.0,
+        "averageRunDepthStep": 92.7,
+        "averageRunDepthPct": 66.7,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -45935,8 +45935,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -45950,14 +45958,6 @@
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
             "partyCount": 7,
             "ownedCount": 10,
             "participationPct": 70
@@ -46013,10 +46013,10 @@
         ]
       },
       "31": {
-        "runCount": 259,
-        "averageParticipationPct": 24.4,
-        "averageRunDepthStep": 92.6,
-        "averageRunDepthPct": 66.7,
+        "runCount": 260,
+        "averageParticipationPct": 24.2,
+        "averageRunDepthStep": 92.4,
+        "averageRunDepthPct": 66.5,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46024,8 +46024,16 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -46039,14 +46047,6 @@
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
             "partyCount": 7,
             "ownedCount": 10,
             "participationPct": 70
@@ -46102,19 +46102,19 @@
         ]
       },
       "30": {
-        "runCount": 265,
-        "averageParticipationPct": 25.0,
-        "averageRunDepthStep": 91.2,
-        "averageRunDepthPct": 65.6,
-        "averageBattlesUsed": 1.0,
+        "runCount": 266,
+        "averageParticipationPct": 24.8,
+        "averageRunDepthStep": 91.0,
+        "averageRunDepthPct": 65.5,
+        "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "267",
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46123,6 +46123,14 @@
             "partyCount": 10,
             "ownedCount": 19,
             "participationPct": 53
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -46136,14 +46144,6 @@
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
             "partyCount": 7,
             "ownedCount": 10,
             "participationPct": 70
@@ -46191,10 +46191,10 @@
         ]
       },
       "29": {
-        "runCount": 268,
-        "averageParticipationPct": 25.1,
-        "averageRunDepthStep": 90.5,
-        "averageRunDepthPct": 65.1,
+        "runCount": 269,
+        "averageParticipationPct": 24.9,
+        "averageRunDepthStep": 90.3,
+        "averageRunDepthPct": 65.0,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -46202,8 +46202,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46212,6 +46212,14 @@
             "partyCount": 10,
             "ownedCount": 19,
             "participationPct": 53
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "269",
@@ -46225,14 +46233,6 @@
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
             "partyCount": 7,
             "ownedCount": 10,
             "participationPct": 70
@@ -46280,10 +46280,10 @@
         ]
       },
       "28": {
-        "runCount": 272,
-        "averageParticipationPct": 25.7,
-        "averageRunDepthStep": 89.6,
-        "averageRunDepthPct": 64.5,
+        "runCount": 273,
+        "averageParticipationPct": 25.4,
+        "averageRunDepthStep": 89.4,
+        "averageRunDepthPct": 64.3,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46291,8 +46291,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46301,6 +46301,14 @@
             "partyCount": 10,
             "ownedCount": 19,
             "participationPct": 53
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "266",
@@ -46317,14 +46325,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -46369,10 +46369,10 @@
         ]
       },
       "27": {
-        "runCount": 273,
-        "averageParticipationPct": 26.0,
-        "averageRunDepthStep": 89.4,
-        "averageRunDepthPct": 64.3,
+        "runCount": 274,
+        "averageParticipationPct": 25.7,
+        "averageRunDepthStep": 89.2,
+        "averageRunDepthPct": 64.2,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46380,8 +46380,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46390,6 +46390,14 @@
             "partyCount": 10,
             "ownedCount": 19,
             "participationPct": 53
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "266",
@@ -46406,14 +46414,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -46458,10 +46458,10 @@
         ]
       },
       "26": {
-        "runCount": 273,
-        "averageParticipationPct": 26.0,
-        "averageRunDepthStep": 89.4,
-        "averageRunDepthPct": 64.3,
+        "runCount": 274,
+        "averageParticipationPct": 25.7,
+        "averageRunDepthStep": 89.2,
+        "averageRunDepthPct": 64.2,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46469,8 +46469,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46479,6 +46479,14 @@
             "partyCount": 10,
             "ownedCount": 19,
             "participationPct": 53
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "266",
@@ -46495,14 +46503,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -46547,10 +46547,10 @@
         ]
       },
       "25": {
-        "runCount": 273,
-        "averageParticipationPct": 26.0,
-        "averageRunDepthStep": 89.4,
-        "averageRunDepthPct": 64.3,
+        "runCount": 274,
+        "averageParticipationPct": 25.7,
+        "averageRunDepthStep": 89.2,
+        "averageRunDepthPct": 64.2,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46558,8 +46558,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46568,6 +46568,14 @@
             "partyCount": 10,
             "ownedCount": 19,
             "participationPct": 53
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "266",
@@ -46584,14 +46592,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -46636,10 +46636,10 @@
         ]
       },
       "24": {
-        "runCount": 273,
-        "averageParticipationPct": 26.0,
-        "averageRunDepthStep": 89.4,
-        "averageRunDepthPct": 64.3,
+        "runCount": 274,
+        "averageParticipationPct": 25.7,
+        "averageRunDepthStep": 89.2,
+        "averageRunDepthPct": 64.2,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46647,8 +46647,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46657,6 +46657,14 @@
             "partyCount": 10,
             "ownedCount": 19,
             "participationPct": 53
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "266",
@@ -46673,14 +46681,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -46725,10 +46725,10 @@
         ]
       },
       "23": {
-        "runCount": 275,
-        "averageParticipationPct": 26.1,
-        "averageRunDepthStep": 88.9,
-        "averageRunDepthPct": 64.0,
+        "runCount": 276,
+        "averageParticipationPct": 25.9,
+        "averageRunDepthStep": 88.7,
+        "averageRunDepthPct": 63.8,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46736,8 +46736,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46746,6 +46746,14 @@
             "partyCount": 10,
             "ownedCount": 19,
             "participationPct": 53
+          },
+          {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
           },
           {
             "usageKey": "266",
@@ -46762,14 +46770,6 @@
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -46814,10 +46814,10 @@
         ]
       },
       "22": {
-        "runCount": 277,
-        "averageParticipationPct": 26.3,
-        "averageRunDepthStep": 88.4,
-        "averageRunDepthPct": 63.6,
+        "runCount": 278,
+        "averageParticipationPct": 26.1,
+        "averageRunDepthStep": 88.2,
+        "averageRunDepthPct": 63.5,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46825,8 +46825,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46845,20 +46845,20 @@
             "participationPct": 64
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -46903,10 +46903,10 @@
         ]
       },
       "21": {
-        "runCount": 277,
-        "averageParticipationPct": 26.3,
-        "averageRunDepthStep": 88.4,
-        "averageRunDepthPct": 63.6,
+        "runCount": 278,
+        "averageParticipationPct": 26.1,
+        "averageRunDepthStep": 88.2,
+        "averageRunDepthPct": 63.5,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -46914,8 +46914,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -46934,20 +46934,20 @@
             "participationPct": 64
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -46992,10 +46992,10 @@
         ]
       },
       "20": {
-        "runCount": 278,
-        "averageParticipationPct": 26.6,
-        "averageRunDepthStep": 88.2,
-        "averageRunDepthPct": 63.4,
+        "runCount": 279,
+        "averageParticipationPct": 26.3,
+        "averageRunDepthStep": 88.0,
+        "averageRunDepthPct": 63.3,
         "averageBattlesUsed": 1.1,
         "topBattles": [
           {
@@ -47003,8 +47003,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47023,20 +47023,20 @@
             "participationPct": 64
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47081,19 +47081,19 @@
         ]
       },
       "19": {
-        "runCount": 280,
-        "averageParticipationPct": 26.4,
-        "averageRunDepthStep": 87.7,
-        "averageRunDepthPct": 63.1,
-        "averageBattlesUsed": 1.0,
+        "runCount": 281,
+        "averageParticipationPct": 26.1,
+        "averageRunDepthStep": 87.5,
+        "averageRunDepthPct": 63.0,
+        "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "267",
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47112,20 +47112,20 @@
             "participationPct": 64
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47170,19 +47170,19 @@
         ]
       },
       "18": {
-        "runCount": 282,
-        "averageParticipationPct": 26.9,
-        "averageRunDepthStep": 87.2,
-        "averageRunDepthPct": 62.7,
-        "averageBattlesUsed": 1.0,
+        "runCount": 283,
+        "averageParticipationPct": 26.7,
+        "averageRunDepthStep": 87.0,
+        "averageRunDepthPct": 62.6,
+        "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "267",
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47201,20 +47201,20 @@
             "participationPct": 64
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47259,19 +47259,19 @@
         ]
       },
       "17": {
-        "runCount": 282,
-        "averageParticipationPct": 26.9,
-        "averageRunDepthStep": 87.2,
-        "averageRunDepthPct": 62.7,
-        "averageBattlesUsed": 1.0,
+        "runCount": 283,
+        "averageParticipationPct": 26.7,
+        "averageRunDepthStep": 87.0,
+        "averageRunDepthPct": 62.6,
+        "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "267",
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47290,20 +47290,20 @@
             "participationPct": 64
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47348,19 +47348,19 @@
         ]
       },
       "16": {
-        "runCount": 282,
-        "averageParticipationPct": 26.9,
-        "averageRunDepthStep": 87.2,
-        "averageRunDepthPct": 62.7,
-        "averageBattlesUsed": 1.0,
+        "runCount": 283,
+        "averageParticipationPct": 26.7,
+        "averageRunDepthStep": 87.0,
+        "averageRunDepthPct": 62.6,
+        "averageBattlesUsed": 1.1,
         "topBattles": [
           {
             "usageKey": "267",
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47379,20 +47379,20 @@
             "participationPct": 64
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47437,10 +47437,10 @@
         ]
       },
       "15": {
-        "runCount": 286,
-        "averageParticipationPct": 27.2,
-        "averageRunDepthStep": 86.2,
-        "averageRunDepthPct": 62.0,
+        "runCount": 287,
+        "averageParticipationPct": 27.0,
+        "averageRunDepthStep": 86.0,
+        "averageRunDepthPct": 61.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -47448,8 +47448,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47468,20 +47468,20 @@
             "participationPct": 60
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47526,10 +47526,10 @@
         ]
       },
       "14": {
-        "runCount": 286,
-        "averageParticipationPct": 27.2,
-        "averageRunDepthStep": 86.2,
-        "averageRunDepthPct": 62.0,
+        "runCount": 287,
+        "averageParticipationPct": 27.0,
+        "averageRunDepthStep": 86.0,
+        "averageRunDepthPct": 61.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -47537,8 +47537,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47557,20 +47557,20 @@
             "participationPct": 60
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47615,10 +47615,10 @@
         ]
       },
       "13": {
-        "runCount": 305,
-        "averageParticipationPct": 28.5,
-        "averageRunDepthStep": 81.6,
-        "averageRunDepthPct": 58.7,
+        "runCount": 306,
+        "averageParticipationPct": 28.3,
+        "averageRunDepthStep": 81.5,
+        "averageRunDepthPct": 58.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -47634,8 +47634,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47646,20 +47646,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47704,10 +47704,10 @@
         ]
       },
       "12": {
-        "runCount": 305,
-        "averageParticipationPct": 28.5,
-        "averageRunDepthStep": 81.6,
-        "averageRunDepthPct": 58.7,
+        "runCount": 306,
+        "averageParticipationPct": 28.3,
+        "averageRunDepthStep": 81.5,
+        "averageRunDepthPct": 58.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -47723,8 +47723,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47735,20 +47735,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47793,10 +47793,10 @@
         ]
       },
       "11": {
-        "runCount": 306,
-        "averageParticipationPct": 28.4,
-        "averageRunDepthStep": 81.4,
-        "averageRunDepthPct": 58.5,
+        "runCount": 307,
+        "averageParticipationPct": 28.2,
+        "averageRunDepthStep": 81.2,
+        "averageRunDepthPct": 58.4,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -47812,8 +47812,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47824,20 +47824,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47882,10 +47882,10 @@
         ]
       },
       "10": {
-        "runCount": 306,
-        "averageParticipationPct": 28.4,
-        "averageRunDepthStep": 81.4,
-        "averageRunDepthPct": 58.5,
+        "runCount": 307,
+        "averageParticipationPct": 28.2,
+        "averageRunDepthStep": 81.2,
+        "averageRunDepthPct": 58.4,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -47901,8 +47901,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -47913,20 +47913,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -47971,10 +47971,10 @@
         ]
       },
       "9": {
-        "runCount": 307,
-        "averageParticipationPct": 28.3,
-        "averageRunDepthStep": 81.1,
-        "averageRunDepthPct": 58.4,
+        "runCount": 308,
+        "averageParticipationPct": 28.1,
+        "averageRunDepthStep": 81.0,
+        "averageRunDepthPct": 58.3,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -47990,8 +47990,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48002,20 +48002,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -48060,10 +48060,10 @@
         ]
       },
       "8": {
-        "runCount": 307,
-        "averageParticipationPct": 28.3,
-        "averageRunDepthStep": 81.1,
-        "averageRunDepthPct": 58.4,
+        "runCount": 308,
+        "averageParticipationPct": 28.1,
+        "averageRunDepthStep": 81.0,
+        "averageRunDepthPct": 58.3,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -48079,8 +48079,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48091,20 +48091,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -48149,10 +48149,10 @@
         ]
       },
       "7": {
-        "runCount": 307,
-        "averageParticipationPct": 28.3,
-        "averageRunDepthStep": 81.1,
-        "averageRunDepthPct": 58.4,
+        "runCount": 308,
+        "averageParticipationPct": 28.1,
+        "averageRunDepthStep": 81.0,
+        "averageRunDepthPct": 58.3,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -48168,8 +48168,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48180,20 +48180,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -48238,10 +48238,10 @@
         ]
       },
       "6": {
-        "runCount": 307,
-        "averageParticipationPct": 28.3,
-        "averageRunDepthStep": 81.1,
-        "averageRunDepthPct": 58.4,
+        "runCount": 308,
+        "averageParticipationPct": 28.1,
+        "averageRunDepthStep": 81.0,
+        "averageRunDepthPct": 58.3,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -48257,8 +48257,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48269,20 +48269,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -48327,10 +48327,10 @@
         ]
       },
       "5": {
-        "runCount": 308,
-        "averageParticipationPct": 28.5,
-        "averageRunDepthStep": 80.9,
-        "averageRunDepthPct": 58.2,
+        "runCount": 309,
+        "averageParticipationPct": 28.3,
+        "averageRunDepthStep": 80.8,
+        "averageRunDepthPct": 58.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -48346,8 +48346,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48358,20 +48358,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -48416,10 +48416,10 @@
         ]
       },
       "4": {
-        "runCount": 309,
-        "averageParticipationPct": 28.8,
-        "averageRunDepthStep": 80.7,
-        "averageRunDepthPct": 58.0,
+        "runCount": 310,
+        "averageParticipationPct": 28.5,
+        "averageRunDepthStep": 80.5,
+        "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -48435,8 +48435,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48447,20 +48447,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -48505,10 +48505,10 @@
         ]
       },
       "3": {
-        "runCount": 309,
-        "averageParticipationPct": 28.8,
-        "averageRunDepthStep": 80.7,
-        "averageRunDepthPct": 58.0,
+        "runCount": 310,
+        "averageParticipationPct": 28.5,
+        "averageRunDepthStep": 80.5,
+        "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -48524,8 +48524,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48536,20 +48536,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -48594,10 +48594,10 @@
         ]
       },
       "2": {
-        "runCount": 309,
-        "averageParticipationPct": 28.8,
-        "averageRunDepthStep": 80.7,
-        "averageRunDepthPct": 58.0,
+        "runCount": 310,
+        "averageParticipationPct": 28.5,
+        "averageRunDepthStep": 80.5,
+        "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -48613,8 +48613,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48625,20 +48625,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",
@@ -48683,10 +48683,10 @@
         ]
       },
       "1": {
-        "runCount": 309,
-        "averageParticipationPct": 28.8,
-        "averageRunDepthStep": 80.7,
-        "averageRunDepthPct": 58.0,
+        "runCount": 310,
+        "averageParticipationPct": 28.5,
+        "averageRunDepthStep": 80.5,
+        "averageRunDepthPct": 57.9,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -48702,8 +48702,8 @@
             "displayName": "Leader Wattson",
             "leadLevel": 34,
             "partyCount": 11,
-            "ownedCount": 27,
-            "participationPct": 41
+            "ownedCount": 29,
+            "participationPct": 38
           },
           {
             "usageKey": "336",
@@ -48714,20 +48714,20 @@
             "participationPct": 53
           },
           {
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
+            "partyCount": 8,
+            "ownedCount": 11,
+            "participationPct": 73
+          },
+          {
             "usageKey": "269",
             "displayName": "Leader Norman",
             "leadLevel": 59,
             "partyCount": 7,
             "ownedCount": 8,
             "participationPct": 88
-          },
-          {
-            "usageKey": "Parasol Lady Madeline",
-            "displayName": "Parasol Lady Madeline",
-            "leadLevel": null,
-            "partyCount": 7,
-            "ownedCount": 10,
-            "participationPct": 70
           },
           {
             "usageKey": "School Kid Ted",

@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "oddish",
   "familyMembers": [
     "Bellossom",
@@ -5128,8 +5128,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5217,8 +5217,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5306,8 +5306,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5395,8 +5395,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5484,8 +5484,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5573,8 +5573,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5662,8 +5662,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5751,8 +5751,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5840,8 +5840,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -5929,8 +5929,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Matt Weather Inst",
@@ -6018,8 +6018,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6107,8 +6107,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6196,8 +6196,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6243,7 +6243,7 @@
         },
         "69": {
           "runCount": 44,
-          "averageParticipationPct": 22.5,
+          "averageParticipationPct": 22.4,
           "averageRunDepthStep": 116.7,
           "averageRunDepthPct": 84.0,
           "averageBattlesUsed": 0.7,
@@ -6285,8 +6285,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6332,7 +6332,7 @@
         },
         "68": {
           "runCount": 44,
-          "averageParticipationPct": 22.5,
+          "averageParticipationPct": 22.4,
           "averageRunDepthStep": 116.7,
           "averageRunDepthPct": 84.0,
           "averageBattlesUsed": 0.7,
@@ -6374,8 +6374,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6421,7 +6421,7 @@
         },
         "67": {
           "runCount": 45,
-          "averageParticipationPct": 22.0,
+          "averageParticipationPct": 21.9,
           "averageRunDepthStep": 115.6,
           "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 0.7,
@@ -6463,8 +6463,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6510,7 +6510,7 @@
         },
         "66": {
           "runCount": 45,
-          "averageParticipationPct": 22.0,
+          "averageParticipationPct": 21.9,
           "averageRunDepthStep": 115.6,
           "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 0.7,
@@ -6552,8 +6552,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6599,7 +6599,7 @@
         },
         "65": {
           "runCount": 45,
-          "averageParticipationPct": 22.0,
+          "averageParticipationPct": 21.9,
           "averageRunDepthStep": 115.6,
           "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 0.7,
@@ -6641,8 +6641,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6688,7 +6688,7 @@
         },
         "64": {
           "runCount": 45,
-          "averageParticipationPct": 22.0,
+          "averageParticipationPct": 21.9,
           "averageRunDepthStep": 115.6,
           "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 0.7,
@@ -6730,8 +6730,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6819,8 +6819,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6908,8 +6908,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -6997,8 +6997,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7086,8 +7086,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7175,8 +7175,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7264,8 +7264,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7311,7 +7311,7 @@
         },
         "57": {
           "runCount": 50,
-          "averageParticipationPct": 19.8,
+          "averageParticipationPct": 19.7,
           "averageRunDepthStep": 110.0,
           "averageRunDepthPct": 79.1,
           "averageBattlesUsed": 0.6,
@@ -7353,8 +7353,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7400,7 +7400,7 @@
         },
         "56": {
           "runCount": 50,
-          "averageParticipationPct": 19.8,
+          "averageParticipationPct": 19.7,
           "averageRunDepthStep": 110.0,
           "averageRunDepthPct": 79.1,
           "averageBattlesUsed": 0.6,
@@ -7442,8 +7442,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7531,8 +7531,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7620,8 +7620,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7709,8 +7709,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7798,8 +7798,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7887,8 +7887,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -7976,8 +7976,8 @@
               "displayName": "Leader Flannery",
               "leadLevel": 47,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -8061,17 +8061,17 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8150,17 +8150,17 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8239,14 +8239,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8258,6 +8250,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8328,14 +8328,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8347,6 +8339,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8417,14 +8417,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8436,6 +8428,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8506,14 +8506,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8525,6 +8517,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8595,14 +8595,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8614,6 +8606,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8684,14 +8684,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8703,6 +8695,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8773,14 +8773,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8792,6 +8784,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8862,14 +8862,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8881,6 +8873,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8913,7 +8913,7 @@
         },
         "39": {
           "runCount": 68,
-          "averageParticipationPct": 22.8,
+          "averageParticipationPct": 22.7,
           "averageRunDepthStep": 92.9,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.6,
@@ -8951,14 +8951,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -8970,6 +8962,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9040,14 +9040,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9059,6 +9051,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9129,14 +9129,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9148,6 +9140,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9218,14 +9218,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9237,6 +9229,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9307,14 +9307,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9326,6 +9318,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9396,14 +9396,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9415,6 +9407,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9485,14 +9485,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9504,6 +9496,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9582,14 +9582,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9601,6 +9593,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9679,14 +9679,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9698,6 +9690,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9768,14 +9768,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9787,6 +9779,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9857,14 +9857,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9876,6 +9868,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9946,14 +9946,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -9965,6 +9957,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -10035,14 +10035,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -10054,6 +10046,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -10124,14 +10124,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -10143,6 +10135,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -10213,14 +10213,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -10232,6 +10224,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -10302,14 +10302,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
@@ -10321,6 +10313,14 @@
               "usageKey": "Aqua Admin Shelly Weather Institute",
               "displayName": "Aqua Admin Shelly Weather Institute",
               "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "268",
+              "displayName": "Leader Flannery",
+              "leadLevel": 47,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -10407,20 +10407,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -10496,20 +10496,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -10585,20 +10585,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -10674,20 +10674,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -10763,20 +10763,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -10852,20 +10852,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -10941,20 +10941,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11030,20 +11030,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11119,26 +11119,26 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
         "14": {
           "runCount": 82,
-          "averageParticipationPct": 24.0,
+          "averageParticipationPct": 23.9,
           "averageRunDepthStep": 82.3,
           "averageRunDepthPct": 59.2,
           "averageBattlesUsed": 0.6,
@@ -11208,20 +11208,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11297,20 +11297,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11386,20 +11386,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11475,20 +11475,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11564,20 +11564,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11653,20 +11653,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11742,20 +11742,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11831,20 +11831,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -11920,20 +11920,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -12009,20 +12009,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Magma Leader Maxie Mt Chimney",
               "displayName": "Magma Leader Maxie Mt Chimney",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Aqua Admin Shelly Weather Institute",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
@@ -12106,9 +12106,9 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
+              "usageKey": "Magma Leader Maxie Mt Chimney",
+              "displayName": "Magma Leader Maxie Mt Chimney",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
@@ -12195,9 +12195,9 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
+              "usageKey": "Magma Leader Maxie Mt Chimney",
+              "displayName": "Magma Leader Maxie Mt Chimney",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
@@ -12284,9 +12284,9 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
+              "usageKey": "Magma Leader Maxie Mt Chimney",
+              "displayName": "Magma Leader Maxie Mt Chimney",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
@@ -12373,9 +12373,9 @@
               "participationPct": 67
             },
             {
-              "usageKey": "268",
-              "displayName": "Leader Flannery",
-              "leadLevel": 47,
+              "usageKey": "Magma Leader Maxie Mt Chimney",
+              "displayName": "Magma Leader Maxie Mt Chimney",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
@@ -54293,8 +54293,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -54382,8 +54382,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -54471,8 +54471,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -54510,7 +54510,7 @@
       },
       "79": {
         "runCount": 64,
-        "averageParticipationPct": 15.6,
+        "averageParticipationPct": 15.5,
         "averageRunDepthStep": 118.3,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.5,
@@ -54560,8 +54560,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -54599,7 +54599,7 @@
       },
       "78": {
         "runCount": 64,
-        "averageParticipationPct": 15.6,
+        "averageParticipationPct": 15.5,
         "averageRunDepthStep": 118.3,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.5,
@@ -54649,8 +54649,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -54688,7 +54688,7 @@
       },
       "77": {
         "runCount": 64,
-        "averageParticipationPct": 15.6,
+        "averageParticipationPct": 15.5,
         "averageRunDepthStep": 118.3,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.5,
@@ -54738,8 +54738,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -54777,7 +54777,7 @@
       },
       "76": {
         "runCount": 64,
-        "averageParticipationPct": 15.6,
+        "averageParticipationPct": 15.5,
         "averageRunDepthStep": 118.3,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.5,
@@ -54827,8 +54827,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -54866,7 +54866,7 @@
       },
       "75": {
         "runCount": 64,
-        "averageParticipationPct": 15.6,
+        "averageParticipationPct": 15.5,
         "averageRunDepthStep": 118.3,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.5,
@@ -54916,8 +54916,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -54955,7 +54955,7 @@
       },
       "74": {
         "runCount": 64,
-        "averageParticipationPct": 15.6,
+        "averageParticipationPct": 15.5,
         "averageRunDepthStep": 118.3,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.5,
@@ -55005,8 +55005,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -55044,7 +55044,7 @@
       },
       "73": {
         "runCount": 64,
-        "averageParticipationPct": 15.6,
+        "averageParticipationPct": 15.5,
         "averageRunDepthStep": 118.3,
         "averageRunDepthPct": 85.1,
         "averageBattlesUsed": 0.5,
@@ -55094,8 +55094,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Matt Weather Inst",
@@ -55133,7 +55133,7 @@
       },
       "72": {
         "runCount": 65,
-        "averageParticipationPct": 16.9,
+        "averageParticipationPct": 16.8,
         "averageRunDepthStep": 117.6,
         "averageRunDepthPct": 84.6,
         "averageBattlesUsed": 0.6,
@@ -55183,8 +55183,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55222,7 +55222,7 @@
       },
       "71": {
         "runCount": 65,
-        "averageParticipationPct": 16.9,
+        "averageParticipationPct": 16.8,
         "averageRunDepthStep": 117.6,
         "averageRunDepthPct": 84.6,
         "averageBattlesUsed": 0.6,
@@ -55272,8 +55272,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55311,7 +55311,7 @@
       },
       "70": {
         "runCount": 65,
-        "averageParticipationPct": 16.9,
+        "averageParticipationPct": 16.8,
         "averageRunDepthStep": 117.6,
         "averageRunDepthPct": 84.6,
         "averageBattlesUsed": 0.6,
@@ -55361,8 +55361,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55450,8 +55450,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55539,8 +55539,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55628,8 +55628,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55717,8 +55717,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55806,8 +55806,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55895,8 +55895,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -55984,8 +55984,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56073,8 +56073,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56162,8 +56162,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56251,8 +56251,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56340,8 +56340,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56429,8 +56429,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56518,8 +56518,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56607,8 +56607,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56696,8 +56696,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56785,8 +56785,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56874,8 +56874,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -56963,8 +56963,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -57052,8 +57052,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -57141,8 +57141,8 @@
             "displayName": "Leader Flannery",
             "leadLevel": 47,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "Aqua Admin Shelly Weather Institute",
@@ -57226,17 +57226,17 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -57269,7 +57269,7 @@
       },
       "48": {
         "runCount": 85,
-        "averageParticipationPct": 14.5,
+        "averageParticipationPct": 14.4,
         "averageRunDepthStep": 104.2,
         "averageRunDepthPct": 74.9,
         "averageBattlesUsed": 0.4,
@@ -57315,17 +57315,17 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -57404,14 +57404,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -57423,6 +57415,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -57493,14 +57493,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -57512,6 +57504,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -57582,14 +57582,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -57601,6 +57593,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -57671,14 +57671,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -57690,6 +57682,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -57760,14 +57760,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -57779,6 +57771,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -57849,14 +57849,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -57868,6 +57860,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -57938,14 +57938,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -57957,6 +57949,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58027,14 +58027,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -58046,6 +58038,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58116,14 +58116,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -58135,6 +58127,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58205,14 +58205,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -58224,6 +58216,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58248,7 +58248,7 @@
       },
       "37": {
         "runCount": 104,
-        "averageParticipationPct": 16.2,
+        "averageParticipationPct": 16.1,
         "averageRunDepthStep": 92.9,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.5,
@@ -58300,14 +58300,6 @@
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
-          },
-          {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
           },
           {
             "usageKey": "Magma Leader Maxie Mt Chimney",
@@ -58326,6 +58318,14 @@
             "participationPct": 33
           },
           {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
             "usageKey": "Aqua Admin Matt Weather Inst",
             "displayName": "Aqua Admin Matt Weather Inst",
             "leadLevel": null,
@@ -58337,7 +58337,7 @@
       },
       "36": {
         "runCount": 104,
-        "averageParticipationPct": 16.2,
+        "averageParticipationPct": 16.1,
         "averageRunDepthStep": 92.9,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.5,
@@ -58391,14 +58391,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -58410,6 +58402,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58488,14 +58488,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -58507,6 +58499,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58577,14 +58577,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -58596,6 +58588,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58666,14 +58666,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -58685,6 +58677,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58755,14 +58755,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
@@ -58774,6 +58766,14 @@
             "usageKey": "Aqua Admin Shelly Weather Institute",
             "displayName": "Aqua Admin Shelly Weather Institute",
             "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
+          },
+          {
+            "usageKey": "268",
+            "displayName": "Leader Flannery",
+            "leadLevel": 47,
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
@@ -58852,20 +58852,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Admin Shelly Weather Institute",
+            "displayName": "Aqua Admin Shelly Weather Institute",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
@@ -58941,20 +58941,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Admin Shelly Weather Institute",
+            "displayName": "Aqua Admin Shelly Weather Institute",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
@@ -59030,20 +59030,20 @@
             "participationPct": 67
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Admin Shelly Weather Institute",
+            "displayName": "Aqua Admin Shelly Weather Institute",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
@@ -59119,20 +59119,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Admin Shelly Weather Institute",
+            "displayName": "Aqua Admin Shelly Weather Institute",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
@@ -59208,20 +59208,20 @@
             "participationPct": 50
           },
           {
-            "usageKey": "268",
-            "displayName": "Leader Flannery",
-            "leadLevel": 47,
-            "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
-          },
-          {
             "usageKey": "Magma Leader Maxie Mt Chimney",
             "displayName": "Magma Leader Maxie Mt Chimney",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
+          },
+          {
+            "usageKey": "Aqua Admin Shelly Weather Institute",
+            "displayName": "Aqua Admin Shelly Weather Institute",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 6,
+            "participationPct": 33
           }
         ]
       },
@@ -60206,7 +60206,7 @@
       },
       "15": {
         "runCount": 133,
-        "averageParticipationPct": 20.2,
+        "averageParticipationPct": 20.1,
         "averageRunDepthStep": 78.9,
         "averageRunDepthPct": 56.7,
         "averageBattlesUsed": 0.6,

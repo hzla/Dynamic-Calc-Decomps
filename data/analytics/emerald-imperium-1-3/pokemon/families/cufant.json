@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "cufant",
   "familyMembers": [
     "Copperajah",
@@ -4195,7 +4195,7 @@
         },
         "92": {
           "runCount": 40,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.2,
           "averageRunDepthStep": 125.8,
           "averageRunDepthPct": 90.5,
           "averageBattlesUsed": 0.4,
@@ -4205,8 +4205,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Caroline",
@@ -4284,7 +4284,7 @@
         },
         "91": {
           "runCount": 41,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 125.0,
           "averageRunDepthPct": 89.9,
           "averageBattlesUsed": 0.4,
@@ -4294,8 +4294,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "ownedCount": 3,
+              "participationPct": 67
             },
             {
               "usageKey": "Cooltrainer Caroline",
@@ -4373,7 +4373,7 @@
         },
         "90": {
           "runCount": 44,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 0.6,
@@ -4391,8 +4391,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -4462,7 +4462,7 @@
         },
         "89": {
           "runCount": 44,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 0.6,
@@ -4480,8 +4480,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -4551,7 +4551,7 @@
         },
         "88": {
           "runCount": 44,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 0.6,
@@ -4569,8 +4569,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -4640,7 +4640,7 @@
         },
         "87": {
           "runCount": 44,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 0.6,
@@ -4658,8 +4658,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -4729,7 +4729,7 @@
         },
         "86": {
           "runCount": 44,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 122.6,
           "averageRunDepthPct": 88.2,
           "averageBattlesUsed": 0.6,
@@ -4747,8 +4747,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -4818,7 +4818,7 @@
         },
         "85": {
           "runCount": 45,
-          "averageParticipationPct": 5.6,
+          "averageParticipationPct": 5.4,
           "averageRunDepthStep": 121.8,
           "averageRunDepthPct": 87.6,
           "averageBattlesUsed": 0.6,
@@ -4836,8 +4836,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -4907,7 +4907,7 @@
         },
         "84": {
           "runCount": 45,
-          "averageParticipationPct": 5.6,
+          "averageParticipationPct": 5.4,
           "averageRunDepthStep": 121.8,
           "averageRunDepthPct": 87.6,
           "averageBattlesUsed": 0.6,
@@ -4925,8 +4925,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -4996,7 +4996,7 @@
         },
         "83": {
           "runCount": 47,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.2,
           "averageRunDepthStep": 120.1,
           "averageRunDepthPct": 86.4,
           "averageBattlesUsed": 0.6,
@@ -5014,8 +5014,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5085,7 +5085,7 @@
         },
         "82": {
           "runCount": 48,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 119.3,
           "averageRunDepthPct": 85.8,
           "averageBattlesUsed": 0.6,
@@ -5103,8 +5103,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5174,7 +5174,7 @@
         },
         "81": {
           "runCount": 48,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 119.3,
           "averageRunDepthPct": 85.8,
           "averageBattlesUsed": 0.6,
@@ -5192,8 +5192,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5263,7 +5263,7 @@
         },
         "80": {
           "runCount": 48,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 119.3,
           "averageRunDepthPct": 85.8,
           "averageBattlesUsed": 0.6,
@@ -5281,8 +5281,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5352,7 +5352,7 @@
         },
         "79": {
           "runCount": 48,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 119.3,
           "averageRunDepthPct": 85.8,
           "averageBattlesUsed": 0.6,
@@ -5370,8 +5370,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5441,7 +5441,7 @@
         },
         "78": {
           "runCount": 48,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 119.3,
           "averageRunDepthPct": 85.8,
           "averageBattlesUsed": 0.6,
@@ -5459,8 +5459,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5530,7 +5530,7 @@
         },
         "77": {
           "runCount": 48,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 119.3,
           "averageRunDepthPct": 85.8,
           "averageBattlesUsed": 0.6,
@@ -5548,8 +5548,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5619,7 +5619,7 @@
         },
         "76": {
           "runCount": 48,
-          "averageParticipationPct": 5.3,
+          "averageParticipationPct": 5.1,
           "averageRunDepthStep": 119.3,
           "averageRunDepthPct": 85.8,
           "averageBattlesUsed": 0.6,
@@ -5637,8 +5637,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5708,7 +5708,7 @@
         },
         "75": {
           "runCount": 49,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 118.4,
           "averageRunDepthPct": 85.2,
           "averageBattlesUsed": 0.7,
@@ -5726,8 +5726,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5797,7 +5797,7 @@
         },
         "74": {
           "runCount": 49,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 118.4,
           "averageRunDepthPct": 85.2,
           "averageBattlesUsed": 0.7,
@@ -5815,8 +5815,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5886,7 +5886,7 @@
         },
         "73": {
           "runCount": 49,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 118.4,
           "averageRunDepthPct": 85.2,
           "averageBattlesUsed": 0.7,
@@ -5904,8 +5904,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -5975,7 +5975,7 @@
         },
         "72": {
           "runCount": 49,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 118.4,
           "averageRunDepthPct": 85.2,
           "averageBattlesUsed": 0.7,
@@ -5993,8 +5993,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -6064,7 +6064,7 @@
         },
         "71": {
           "runCount": 49,
-          "averageParticipationPct": 5.7,
+          "averageParticipationPct": 5.5,
           "averageRunDepthStep": 118.4,
           "averageRunDepthPct": 85.2,
           "averageBattlesUsed": 0.7,
@@ -6082,8 +6082,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -6153,7 +6153,7 @@
         },
         "70": {
           "runCount": 51,
-          "averageParticipationPct": 5.5,
+          "averageParticipationPct": 5.3,
           "averageRunDepthStep": 116.5,
           "averageRunDepthPct": 83.8,
           "averageBattlesUsed": 0.7,
@@ -6171,8 +6171,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -6242,7 +6242,7 @@
         },
         "69": {
           "runCount": 52,
-          "averageParticipationPct": 5.4,
+          "averageParticipationPct": 5.2,
           "averageRunDepthStep": 115.6,
           "averageRunDepthPct": 83.2,
           "averageBattlesUsed": 0.7,
@@ -6260,8 +6260,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "Beauty Johanna 3 Badges",
@@ -6331,7 +6331,7 @@
         },
         "68": {
           "runCount": 61,
-          "averageParticipationPct": 7.8,
+          "averageParticipationPct": 7.7,
           "averageRunDepthStep": 108.6,
           "averageRunDepthPct": 78.1,
           "averageBattlesUsed": 0.7,
@@ -6365,8 +6365,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "269",
@@ -6420,7 +6420,7 @@
         },
         "67": {
           "runCount": 62,
-          "averageParticipationPct": 7.7,
+          "averageParticipationPct": 7.6,
           "averageRunDepthStep": 107.9,
           "averageRunDepthPct": 77.6,
           "averageBattlesUsed": 0.7,
@@ -6454,8 +6454,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 4,
+              "participationPct": 50
             },
             {
               "usageKey": "269",
@@ -6509,7 +6509,7 @@
         },
         "66": {
           "runCount": 63,
-          "averageParticipationPct": 7.6,
+          "averageParticipationPct": 7.4,
           "averageRunDepthStep": 107.2,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.7,
@@ -6543,8 +6543,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "269",
@@ -6598,7 +6598,7 @@
         },
         "65": {
           "runCount": 63,
-          "averageParticipationPct": 7.6,
+          "averageParticipationPct": 7.4,
           "averageRunDepthStep": 107.2,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.7,
@@ -6632,8 +6632,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "269",
@@ -6687,7 +6687,7 @@
         },
         "64": {
           "runCount": 64,
-          "averageParticipationPct": 7.5,
+          "averageParticipationPct": 7.3,
           "averageRunDepthStep": 106.6,
           "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 0.7,
@@ -6721,8 +6721,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "269",
@@ -6776,7 +6776,7 @@
         },
         "63": {
           "runCount": 64,
-          "averageParticipationPct": 7.5,
+          "averageParticipationPct": 7.3,
           "averageRunDepthStep": 106.6,
           "averageRunDepthPct": 76.7,
           "averageBattlesUsed": 0.7,
@@ -6810,8 +6810,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "269",
@@ -6865,7 +6865,7 @@
         },
         "62": {
           "runCount": 66,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 105.2,
           "averageRunDepthPct": 75.7,
           "averageBattlesUsed": 0.7,
@@ -6899,8 +6899,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "269",
@@ -6954,7 +6954,7 @@
         },
         "61": {
           "runCount": 67,
-          "averageParticipationPct": 10.1,
+          "averageParticipationPct": 10.0,
           "averageRunDepthStep": 104.6,
           "averageRunDepthPct": 75.2,
           "averageBattlesUsed": 0.7,
@@ -6988,8 +6988,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7043,7 +7043,7 @@
         },
         "60": {
           "runCount": 68,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 103.9,
           "averageRunDepthPct": 74.7,
           "averageBattlesUsed": 0.7,
@@ -7077,8 +7077,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7132,7 +7132,7 @@
         },
         "59": {
           "runCount": 68,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 103.9,
           "averageRunDepthPct": 74.7,
           "averageBattlesUsed": 0.7,
@@ -7166,8 +7166,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7221,7 +7221,7 @@
         },
         "58": {
           "runCount": 70,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 12.4,
           "averageRunDepthStep": 102.6,
           "averageRunDepthPct": 73.8,
           "averageBattlesUsed": 0.7,
@@ -7255,8 +7255,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7310,7 +7310,7 @@
         },
         "57": {
           "runCount": 70,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 12.4,
           "averageRunDepthStep": 102.6,
           "averageRunDepthPct": 73.8,
           "averageBattlesUsed": 0.7,
@@ -7344,8 +7344,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7399,7 +7399,7 @@
         },
         "56": {
           "runCount": 70,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 12.4,
           "averageRunDepthStep": 102.6,
           "averageRunDepthPct": 73.8,
           "averageBattlesUsed": 0.7,
@@ -7433,8 +7433,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7488,7 +7488,7 @@
         },
         "55": {
           "runCount": 71,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 101.9,
           "averageRunDepthPct": 73.3,
           "averageBattlesUsed": 0.7,
@@ -7522,8 +7522,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7577,7 +7577,7 @@
         },
         "54": {
           "runCount": 72,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 0.7,
@@ -7611,8 +7611,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7666,7 +7666,7 @@
         },
         "53": {
           "runCount": 72,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 0.7,
@@ -7700,8 +7700,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7755,7 +7755,7 @@
         },
         "52": {
           "runCount": 72,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 0.7,
@@ -7789,8 +7789,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7844,7 +7844,7 @@
         },
         "51": {
           "runCount": 72,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 0.7,
@@ -7878,8 +7878,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -7933,7 +7933,7 @@
         },
         "50": {
           "runCount": 72,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 101.2,
           "averageRunDepthPct": 72.8,
           "averageBattlesUsed": 0.7,
@@ -7967,8 +7967,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -8022,7 +8022,7 @@
         },
         "49": {
           "runCount": 80,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 96.0,
           "averageRunDepthPct": 69.1,
           "averageBattlesUsed": 0.7,
@@ -8056,8 +8056,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -8111,7 +8111,7 @@
         },
         "48": {
           "runCount": 82,
-          "averageParticipationPct": 11.1,
+          "averageParticipationPct": 11.0,
           "averageRunDepthStep": 94.9,
           "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 0.7,
@@ -8145,8 +8145,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -8200,7 +8200,7 @@
         },
         "47": {
           "runCount": 83,
-          "averageParticipationPct": 11.0,
+          "averageParticipationPct": 10.9,
           "averageRunDepthStep": 94.3,
           "averageRunDepthPct": 67.8,
           "averageBattlesUsed": 0.7,
@@ -8234,8 +8234,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -8289,7 +8289,7 @@
         },
         "46": {
           "runCount": 84,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 93.7,
           "averageRunDepthPct": 67.4,
           "averageBattlesUsed": 0.7,
@@ -8323,8 +8323,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -8378,7 +8378,7 @@
         },
         "45": {
           "runCount": 85,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 93.1,
           "averageRunDepthPct": 67.0,
           "averageBattlesUsed": 0.7,
@@ -8412,8 +8412,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -8467,7 +8467,7 @@
         },
         "44": {
           "runCount": 86,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 92.6,
           "averageRunDepthPct": 66.6,
           "averageBattlesUsed": 0.7,
@@ -8501,8 +8501,8 @@
               "displayName": "Picnicker Rachel",
               "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "332",
@@ -8556,7 +8556,7 @@
         },
         "43": {
           "runCount": 91,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 89.8,
           "averageRunDepthPct": 64.6,
           "averageBattlesUsed": 0.7,
@@ -8586,17 +8586,17 @@
               "participationPct": 75
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8691,17 +8691,17 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8780,17 +8780,17 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8869,17 +8869,17 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -8912,7 +8912,7 @@
         },
         "39": {
           "runCount": 96,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 15.1,
           "averageRunDepthStep": 87.3,
           "averageRunDepthPct": 62.8,
           "averageBattlesUsed": 0.7,
@@ -8958,17 +8958,17 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9001,7 +9001,7 @@
         },
         "38": {
           "runCount": 100,
-          "averageParticipationPct": 14.6,
+          "averageParticipationPct": 14.5,
           "averageRunDepthStep": 85.3,
           "averageRunDepthPct": 61.4,
           "averageBattlesUsed": 0.6,
@@ -9047,17 +9047,17 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9090,7 +9090,7 @@
         },
         "37": {
           "runCount": 101,
-          "averageParticipationPct": 15.4,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 84.9,
           "averageRunDepthPct": 61.1,
           "averageBattlesUsed": 0.6,
@@ -9136,17 +9136,17 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9179,7 +9179,7 @@
         },
         "36": {
           "runCount": 103,
-          "averageParticipationPct": 16.1,
+          "averageParticipationPct": 16.0,
           "averageRunDepthStep": 83.9,
           "averageRunDepthPct": 60.4,
           "averageBattlesUsed": 0.7,
@@ -9233,17 +9233,17 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9268,7 +9268,7 @@
         },
         "35": {
           "runCount": 107,
-          "averageParticipationPct": 17.8,
+          "averageParticipationPct": 17.7,
           "averageRunDepthStep": 82.1,
           "averageRunDepthPct": 59.1,
           "averageBattlesUsed": 0.7,
@@ -9322,14 +9322,6 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "744",
               "displayName": "Rival Dawn Route111",
               "leadLevel": -2,
@@ -9341,6 +9333,14 @@
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9357,7 +9357,7 @@
         },
         "34": {
           "runCount": 107,
-          "averageParticipationPct": 17.8,
+          "averageParticipationPct": 17.7,
           "averageRunDepthStep": 82.1,
           "averageRunDepthPct": 59.1,
           "averageBattlesUsed": 0.7,
@@ -9411,14 +9411,6 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "744",
               "displayName": "Rival Dawn Route111",
               "leadLevel": -2,
@@ -9430,6 +9422,14 @@
               "usageKey": "714",
               "displayName": "Picnicker Charlotte",
               "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
@@ -9446,7 +9446,7 @@
         },
         "33": {
           "runCount": 107,
-          "averageParticipationPct": 17.8,
+          "averageParticipationPct": 17.7,
           "averageRunDepthStep": 82.1,
           "averageRunDepthPct": 59.1,
           "averageBattlesUsed": 0.7,
@@ -9500,14 +9500,6 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "744",
               "displayName": "Rival Dawn Route111",
               "leadLevel": -2,
@@ -9524,6 +9516,14 @@
               "participationPct": 40
             },
             {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
               "usageKey": "332",
               "displayName": "Youngster Eddie",
               "leadLevel": -2,
@@ -9535,7 +9535,7 @@
         },
         "32": {
           "runCount": 111,
-          "averageParticipationPct": 20.8,
+          "averageParticipationPct": 20.7,
           "averageRunDepthStep": 80.3,
           "averageRunDepthPct": 57.8,
           "averageBattlesUsed": 0.7,
@@ -9589,14 +9589,6 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "744",
               "displayName": "Rival Dawn Route111",
               "leadLevel": -2,
@@ -9613,6 +9605,14 @@
               "participationPct": 40
             },
             {
+              "usageKey": "Picnicker Rachel",
+              "displayName": "Picnicker Rachel",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
+            },
+            {
               "usageKey": "332",
               "displayName": "Youngster Eddie",
               "leadLevel": -2,
@@ -9624,7 +9624,7 @@
         },
         "31": {
           "runCount": 112,
-          "averageParticipationPct": 21.5,
+          "averageParticipationPct": 21.4,
           "averageRunDepthStep": 79.8,
           "averageRunDepthPct": 57.4,
           "averageBattlesUsed": 0.7,
@@ -9694,26 +9694,26 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "744",
               "displayName": "Rival Dawn Route111",
               "leadLevel": -2,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "714",
+              "displayName": "Picnicker Charlotte",
+              "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
         "30": {
           "runCount": 113,
-          "averageParticipationPct": 22.2,
+          "averageParticipationPct": 22.1,
           "averageRunDepthStep": 79.4,
           "averageRunDepthPct": 57.1,
           "averageBattlesUsed": 0.7,
@@ -9791,9 +9791,9 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Picnicker Rachel",
-              "displayName": "Picnicker Rachel",
-              "leadLevel": null,
+              "usageKey": "744",
+              "displayName": "Rival Dawn Route111",
+              "leadLevel": -2,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
@@ -9891,7 +9891,7 @@
         },
         "28": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -9980,7 +9980,7 @@
         },
         "27": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10069,7 +10069,7 @@
         },
         "26": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10158,7 +10158,7 @@
         },
         "25": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10247,7 +10247,7 @@
         },
         "24": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10336,7 +10336,7 @@
         },
         "23": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10425,7 +10425,7 @@
         },
         "22": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10514,7 +10514,7 @@
         },
         "21": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10603,7 +10603,7 @@
         },
         "20": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10692,7 +10692,7 @@
         },
         "19": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10781,7 +10781,7 @@
         },
         "18": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10870,7 +10870,7 @@
         },
         "17": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -10959,7 +10959,7 @@
         },
         "16": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11048,7 +11048,7 @@
         },
         "15": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11137,7 +11137,7 @@
         },
         "14": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11226,7 +11226,7 @@
         },
         "13": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11315,7 +11315,7 @@
         },
         "12": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11404,7 +11404,7 @@
         },
         "11": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11493,7 +11493,7 @@
         },
         "10": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11582,7 +11582,7 @@
         },
         "9": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11671,7 +11671,7 @@
         },
         "8": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11760,7 +11760,7 @@
         },
         "7": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11849,7 +11849,7 @@
         },
         "6": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -11938,7 +11938,7 @@
         },
         "5": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -12027,7 +12027,7 @@
         },
         "4": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -12116,7 +12116,7 @@
         },
         "3": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -12205,7 +12205,7 @@
         },
         "2": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -12294,7 +12294,7 @@
         },
         "1": {
           "runCount": 116,
-          "averageParticipationPct": 24.2,
+          "averageParticipationPct": 24.1,
           "averageRunDepthStep": 78.1,
           "averageRunDepthPct": 56.2,
           "averageBattlesUsed": 0.7,
@@ -28898,7 +28898,7 @@
       },
       "92": {
         "runCount": 40,
-        "averageParticipationPct": 5.4,
+        "averageParticipationPct": 5.2,
         "averageRunDepthStep": 125.8,
         "averageRunDepthPct": 90.5,
         "averageBattlesUsed": 0.4,
@@ -28908,8 +28908,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Caroline",
@@ -28987,7 +28987,7 @@
       },
       "91": {
         "runCount": 41,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 125.0,
         "averageRunDepthPct": 89.9,
         "averageBattlesUsed": 0.4,
@@ -28997,8 +28997,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "ownedCount": 3,
+            "participationPct": 67
           },
           {
             "usageKey": "Cooltrainer Caroline",
@@ -29076,7 +29076,7 @@
       },
       "90": {
         "runCount": 44,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 0.6,
@@ -29094,8 +29094,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29165,7 +29165,7 @@
       },
       "89": {
         "runCount": 44,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 0.6,
@@ -29183,8 +29183,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29254,7 +29254,7 @@
       },
       "88": {
         "runCount": 44,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 0.6,
@@ -29272,8 +29272,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29343,7 +29343,7 @@
       },
       "87": {
         "runCount": 44,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 0.6,
@@ -29361,8 +29361,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29432,7 +29432,7 @@
       },
       "86": {
         "runCount": 44,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 122.6,
         "averageRunDepthPct": 88.2,
         "averageBattlesUsed": 0.6,
@@ -29450,8 +29450,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29521,7 +29521,7 @@
       },
       "85": {
         "runCount": 45,
-        "averageParticipationPct": 5.6,
+        "averageParticipationPct": 5.4,
         "averageRunDepthStep": 121.8,
         "averageRunDepthPct": 87.6,
         "averageBattlesUsed": 0.6,
@@ -29539,8 +29539,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29610,7 +29610,7 @@
       },
       "84": {
         "runCount": 45,
-        "averageParticipationPct": 5.6,
+        "averageParticipationPct": 5.4,
         "averageRunDepthStep": 121.8,
         "averageRunDepthPct": 87.6,
         "averageBattlesUsed": 0.6,
@@ -29628,8 +29628,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29699,7 +29699,7 @@
       },
       "83": {
         "runCount": 47,
-        "averageParticipationPct": 5.4,
+        "averageParticipationPct": 5.2,
         "averageRunDepthStep": 120.1,
         "averageRunDepthPct": 86.4,
         "averageBattlesUsed": 0.6,
@@ -29717,8 +29717,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29788,7 +29788,7 @@
       },
       "82": {
         "runCount": 48,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 119.3,
         "averageRunDepthPct": 85.8,
         "averageBattlesUsed": 0.6,
@@ -29806,8 +29806,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29877,7 +29877,7 @@
       },
       "81": {
         "runCount": 48,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 119.3,
         "averageRunDepthPct": 85.8,
         "averageBattlesUsed": 0.6,
@@ -29895,8 +29895,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -29966,7 +29966,7 @@
       },
       "80": {
         "runCount": 48,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 119.3,
         "averageRunDepthPct": 85.8,
         "averageBattlesUsed": 0.6,
@@ -29984,8 +29984,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30055,7 +30055,7 @@
       },
       "79": {
         "runCount": 48,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 119.3,
         "averageRunDepthPct": 85.8,
         "averageBattlesUsed": 0.6,
@@ -30073,8 +30073,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30144,7 +30144,7 @@
       },
       "78": {
         "runCount": 48,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 119.3,
         "averageRunDepthPct": 85.8,
         "averageBattlesUsed": 0.6,
@@ -30162,8 +30162,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30233,7 +30233,7 @@
       },
       "77": {
         "runCount": 48,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 119.3,
         "averageRunDepthPct": 85.8,
         "averageBattlesUsed": 0.6,
@@ -30251,8 +30251,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30322,7 +30322,7 @@
       },
       "76": {
         "runCount": 48,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 119.3,
         "averageRunDepthPct": 85.8,
         "averageBattlesUsed": 0.6,
@@ -30340,8 +30340,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30411,7 +30411,7 @@
       },
       "75": {
         "runCount": 49,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 118.4,
         "averageRunDepthPct": 85.2,
         "averageBattlesUsed": 0.7,
@@ -30429,8 +30429,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30500,7 +30500,7 @@
       },
       "74": {
         "runCount": 49,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 118.4,
         "averageRunDepthPct": 85.2,
         "averageBattlesUsed": 0.7,
@@ -30518,8 +30518,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30589,7 +30589,7 @@
       },
       "73": {
         "runCount": 49,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 118.4,
         "averageRunDepthPct": 85.2,
         "averageBattlesUsed": 0.7,
@@ -30607,8 +30607,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30678,7 +30678,7 @@
       },
       "72": {
         "runCount": 49,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 118.4,
         "averageRunDepthPct": 85.2,
         "averageBattlesUsed": 0.7,
@@ -30696,8 +30696,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30767,7 +30767,7 @@
       },
       "71": {
         "runCount": 49,
-        "averageParticipationPct": 5.7,
+        "averageParticipationPct": 5.5,
         "averageRunDepthStep": 118.4,
         "averageRunDepthPct": 85.2,
         "averageBattlesUsed": 0.7,
@@ -30785,8 +30785,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30856,7 +30856,7 @@
       },
       "70": {
         "runCount": 51,
-        "averageParticipationPct": 5.5,
+        "averageParticipationPct": 5.3,
         "averageRunDepthStep": 116.5,
         "averageRunDepthPct": 83.8,
         "averageBattlesUsed": 0.7,
@@ -30874,8 +30874,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -30945,7 +30945,7 @@
       },
       "69": {
         "runCount": 53,
-        "averageParticipationPct": 5.3,
+        "averageParticipationPct": 5.1,
         "averageRunDepthStep": 114.7,
         "averageRunDepthPct": 82.5,
         "averageBattlesUsed": 0.6,
@@ -30963,8 +30963,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "Beauty Johanna 3 Badges",
@@ -31034,7 +31034,7 @@
       },
       "68": {
         "runCount": 62,
-        "averageParticipationPct": 7.7,
+        "averageParticipationPct": 7.6,
         "averageRunDepthStep": 107.9,
         "averageRunDepthPct": 77.7,
         "averageBattlesUsed": 0.7,
@@ -31068,8 +31068,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "269",
@@ -31123,7 +31123,7 @@
       },
       "67": {
         "runCount": 63,
-        "averageParticipationPct": 7.6,
+        "averageParticipationPct": 7.4,
         "averageRunDepthStep": 107.3,
         "averageRunDepthPct": 77.2,
         "averageBattlesUsed": 0.7,
@@ -31157,8 +31157,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 4,
+            "participationPct": 50
           },
           {
             "usageKey": "269",
@@ -31212,7 +31212,7 @@
       },
       "66": {
         "runCount": 64,
-        "averageParticipationPct": 7.5,
+        "averageParticipationPct": 7.3,
         "averageRunDepthStep": 106.6,
         "averageRunDepthPct": 76.7,
         "averageBattlesUsed": 0.7,
@@ -31246,8 +31246,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "269",
@@ -31301,7 +31301,7 @@
       },
       "65": {
         "runCount": 64,
-        "averageParticipationPct": 7.5,
+        "averageParticipationPct": 7.3,
         "averageRunDepthStep": 106.6,
         "averageRunDepthPct": 76.7,
         "averageBattlesUsed": 0.7,
@@ -31335,8 +31335,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "269",
@@ -31390,7 +31390,7 @@
       },
       "64": {
         "runCount": 65,
-        "averageParticipationPct": 7.3,
+        "averageParticipationPct": 7.2,
         "averageRunDepthStep": 106.0,
         "averageRunDepthPct": 76.2,
         "averageBattlesUsed": 0.7,
@@ -31424,8 +31424,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "269",
@@ -31479,7 +31479,7 @@
       },
       "63": {
         "runCount": 65,
-        "averageParticipationPct": 7.3,
+        "averageParticipationPct": 7.2,
         "averageRunDepthStep": 106.0,
         "averageRunDepthPct": 76.2,
         "averageBattlesUsed": 0.7,
@@ -31513,8 +31513,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "269",
@@ -31568,7 +31568,7 @@
       },
       "62": {
         "runCount": 67,
-        "averageParticipationPct": 8.6,
+        "averageParticipationPct": 8.5,
         "averageRunDepthStep": 104.7,
         "averageRunDepthPct": 75.3,
         "averageBattlesUsed": 0.7,
@@ -31602,8 +31602,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "269",
@@ -31657,7 +31657,7 @@
       },
       "61": {
         "runCount": 68,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.8,
         "averageRunDepthStep": 104.0,
         "averageRunDepthPct": 74.8,
         "averageBattlesUsed": 0.7,
@@ -31691,8 +31691,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -31746,7 +31746,7 @@
       },
       "60": {
         "runCount": 69,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 103.4,
         "averageRunDepthPct": 74.4,
         "averageBattlesUsed": 0.7,
@@ -31780,8 +31780,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -31835,7 +31835,7 @@
       },
       "59": {
         "runCount": 69,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 103.4,
         "averageRunDepthPct": 74.4,
         "averageBattlesUsed": 0.7,
@@ -31869,8 +31869,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -31924,7 +31924,7 @@
       },
       "58": {
         "runCount": 71,
-        "averageParticipationPct": 12.4,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 102.1,
         "averageRunDepthPct": 73.5,
         "averageBattlesUsed": 0.7,
@@ -31958,8 +31958,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32013,7 +32013,7 @@
       },
       "57": {
         "runCount": 71,
-        "averageParticipationPct": 12.4,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 102.1,
         "averageRunDepthPct": 73.5,
         "averageBattlesUsed": 0.7,
@@ -32047,8 +32047,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32102,7 +32102,7 @@
       },
       "56": {
         "runCount": 71,
-        "averageParticipationPct": 12.4,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 102.1,
         "averageRunDepthPct": 73.5,
         "averageBattlesUsed": 0.7,
@@ -32136,8 +32136,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32191,7 +32191,7 @@
       },
       "55": {
         "runCount": 72,
-        "averageParticipationPct": 12.2,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 101.5,
         "averageRunDepthPct": 73.0,
         "averageBattlesUsed": 0.7,
@@ -32225,8 +32225,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32280,7 +32280,7 @@
       },
       "54": {
         "runCount": 73,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 100.8,
         "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.7,
@@ -32314,8 +32314,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32369,7 +32369,7 @@
       },
       "53": {
         "runCount": 73,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 100.8,
         "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.7,
@@ -32403,8 +32403,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32458,7 +32458,7 @@
       },
       "52": {
         "runCount": 73,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 100.8,
         "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.7,
@@ -32492,8 +32492,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32547,7 +32547,7 @@
       },
       "51": {
         "runCount": 73,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 100.8,
         "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.7,
@@ -32581,8 +32581,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32636,7 +32636,7 @@
       },
       "50": {
         "runCount": 73,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 100.8,
         "averageRunDepthPct": 72.5,
         "averageBattlesUsed": 0.7,
@@ -32670,8 +32670,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32725,7 +32725,7 @@
       },
       "49": {
         "runCount": 82,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 95.1,
         "averageRunDepthPct": 68.4,
         "averageBattlesUsed": 0.7,
@@ -32759,8 +32759,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32814,7 +32814,7 @@
       },
       "48": {
         "runCount": 84,
-        "averageParticipationPct": 10.8,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 94.0,
         "averageRunDepthPct": 67.6,
         "averageBattlesUsed": 0.6,
@@ -32848,8 +32848,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32903,7 +32903,7 @@
       },
       "47": {
         "runCount": 86,
-        "averageParticipationPct": 10.6,
+        "averageParticipationPct": 10.5,
         "averageRunDepthStep": 92.9,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.6,
@@ -32937,8 +32937,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -32992,7 +32992,7 @@
       },
       "46": {
         "runCount": 87,
-        "averageParticipationPct": 11.2,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 92.4,
         "averageRunDepthPct": 66.5,
         "averageBattlesUsed": 0.6,
@@ -33026,8 +33026,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -33081,7 +33081,7 @@
       },
       "45": {
         "runCount": 88,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 91.8,
         "averageRunDepthPct": 66.1,
         "averageBattlesUsed": 0.6,
@@ -33115,8 +33115,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -33170,7 +33170,7 @@
       },
       "44": {
         "runCount": 89,
-        "averageParticipationPct": 11.0,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 91.3,
         "averageRunDepthPct": 65.7,
         "averageBattlesUsed": 0.6,
@@ -33204,8 +33204,8 @@
             "displayName": "Picnicker Rachel",
             "leadLevel": null,
             "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "332",
@@ -33259,7 +33259,7 @@
       },
       "43": {
         "runCount": 94,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.2,
         "averageRunDepthStep": 88.7,
         "averageRunDepthPct": 63.8,
         "averageBattlesUsed": 0.6,
@@ -33289,17 +33289,17 @@
             "participationPct": 75
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -33348,7 +33348,7 @@
       },
       "42": {
         "runCount": 98,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 86.8,
         "averageRunDepthPct": 62.5,
         "averageBattlesUsed": 0.7,
@@ -33394,17 +33394,17 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -33437,7 +33437,7 @@
       },
       "41": {
         "runCount": 98,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 86.8,
         "averageRunDepthPct": 62.5,
         "averageBattlesUsed": 0.7,
@@ -33483,17 +33483,17 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -33526,7 +33526,7 @@
       },
       "40": {
         "runCount": 98,
-        "averageParticipationPct": 14.9,
+        "averageParticipationPct": 14.8,
         "averageRunDepthStep": 86.8,
         "averageRunDepthPct": 62.5,
         "averageBattlesUsed": 0.7,
@@ -33572,17 +33572,17 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -33615,7 +33615,7 @@
       },
       "39": {
         "runCount": 99,
-        "averageParticipationPct": 14.7,
+        "averageParticipationPct": 14.6,
         "averageRunDepthStep": 86.3,
         "averageRunDepthPct": 62.1,
         "averageBattlesUsed": 0.6,
@@ -33661,17 +33661,17 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -33704,7 +33704,7 @@
       },
       "38": {
         "runCount": 103,
-        "averageParticipationPct": 14.2,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 84.5,
         "averageRunDepthPct": 60.8,
         "averageBattlesUsed": 0.6,
@@ -33750,17 +33750,17 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -33793,7 +33793,7 @@
       },
       "37": {
         "runCount": 104,
-        "averageParticipationPct": 15.0,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 84.0,
         "averageRunDepthPct": 60.4,
         "averageBattlesUsed": 0.6,
@@ -33839,17 +33839,17 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -33936,17 +33936,17 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -34025,14 +34025,6 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "744",
             "displayName": "Rival Dawn Route111",
             "leadLevel": -2,
@@ -34044,6 +34036,14 @@
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -34114,14 +34114,6 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "744",
             "displayName": "Rival Dawn Route111",
             "leadLevel": -2,
@@ -34133,6 +34125,14 @@
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -34203,14 +34203,6 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "744",
             "displayName": "Rival Dawn Route111",
             "leadLevel": -2,
@@ -34222,6 +34214,14 @@
             "usageKey": "714",
             "displayName": "Picnicker Charlotte",
             "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 5,
             "participationPct": 40
@@ -34292,14 +34292,6 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "744",
             "displayName": "Rival Dawn Route111",
             "leadLevel": -2,
@@ -34316,6 +34308,14 @@
             "participationPct": 40
           },
           {
+            "usageKey": "Picnicker Rachel",
+            "displayName": "Picnicker Rachel",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
+          },
+          {
             "usageKey": "332",
             "displayName": "Youngster Eddie",
             "leadLevel": -2,
@@ -34327,7 +34327,7 @@
       },
       "31": {
         "runCount": 118,
-        "averageParticipationPct": 22.1,
+        "averageParticipationPct": 22.0,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.7,
@@ -34397,26 +34397,26 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "744",
             "displayName": "Rival Dawn Route111",
             "leadLevel": -2,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "714",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           }
         ]
       },
       "30": {
         "runCount": 119,
-        "averageParticipationPct": 22.5,
+        "averageParticipationPct": 22.4,
         "averageRunDepthStep": 77.6,
         "averageRunDepthPct": 55.8,
         "averageBattlesUsed": 0.7,
@@ -34494,9 +34494,9 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Picnicker Rachel",
-            "displayName": "Picnicker Rachel",
-            "leadLevel": null,
+            "usageKey": "744",
+            "displayName": "Rival Dawn Route111",
+            "leadLevel": -2,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
@@ -34505,7 +34505,7 @@
       },
       "29": {
         "runCount": 121,
-        "averageParticipationPct": 23.8,
+        "averageParticipationPct": 23.7,
         "averageRunDepthStep": 76.8,
         "averageRunDepthPct": 55.2,
         "averageBattlesUsed": 0.7,
@@ -34594,7 +34594,7 @@
       },
       "28": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -34683,7 +34683,7 @@
       },
       "27": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -34772,7 +34772,7 @@
       },
       "26": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -34861,7 +34861,7 @@
       },
       "25": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -34950,7 +34950,7 @@
       },
       "24": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -35039,7 +35039,7 @@
       },
       "23": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -35128,7 +35128,7 @@
       },
       "22": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -35217,7 +35217,7 @@
       },
       "21": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -35306,7 +35306,7 @@
       },
       "20": {
         "runCount": 122,
-        "averageParticipationPct": 24.4,
+        "averageParticipationPct": 24.3,
         "averageRunDepthStep": 76.4,
         "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.7,
@@ -35395,7 +35395,7 @@
       },
       "19": {
         "runCount": 123,
-        "averageParticipationPct": 24.2,
+        "averageParticipationPct": 24.1,
         "averageRunDepthStep": 75.9,
         "averageRunDepthPct": 54.6,
         "averageBattlesUsed": 0.7,
@@ -35484,7 +35484,7 @@
       },
       "18": {
         "runCount": 123,
-        "averageParticipationPct": 24.2,
+        "averageParticipationPct": 24.1,
         "averageRunDepthStep": 75.9,
         "averageRunDepthPct": 54.6,
         "averageBattlesUsed": 0.7,
@@ -35573,7 +35573,7 @@
       },
       "17": {
         "runCount": 123,
-        "averageParticipationPct": 24.2,
+        "averageParticipationPct": 24.1,
         "averageRunDepthStep": 75.9,
         "averageRunDepthPct": 54.6,
         "averageBattlesUsed": 0.7,
@@ -35662,7 +35662,7 @@
       },
       "16": {
         "runCount": 123,
-        "averageParticipationPct": 24.2,
+        "averageParticipationPct": 24.1,
         "averageRunDepthStep": 75.9,
         "averageRunDepthPct": 54.6,
         "averageBattlesUsed": 0.7,
@@ -35751,7 +35751,7 @@
       },
       "15": {
         "runCount": 123,
-        "averageParticipationPct": 24.2,
+        "averageParticipationPct": 24.1,
         "averageRunDepthStep": 75.9,
         "averageRunDepthPct": 54.6,
         "averageBattlesUsed": 0.7,
@@ -35840,7 +35840,7 @@
       },
       "14": {
         "runCount": 123,
-        "averageParticipationPct": 24.2,
+        "averageParticipationPct": 24.1,
         "averageRunDepthStep": 75.9,
         "averageRunDepthPct": 54.6,
         "averageBattlesUsed": 0.7,
@@ -35929,7 +35929,7 @@
       },
       "13": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36018,7 +36018,7 @@
       },
       "12": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36107,7 +36107,7 @@
       },
       "11": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36196,7 +36196,7 @@
       },
       "10": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36285,7 +36285,7 @@
       },
       "9": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36374,7 +36374,7 @@
       },
       "8": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36463,7 +36463,7 @@
       },
       "7": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36552,7 +36552,7 @@
       },
       "6": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36641,7 +36641,7 @@
       },
       "5": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36730,7 +36730,7 @@
       },
       "4": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36819,7 +36819,7 @@
       },
       "3": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36908,7 +36908,7 @@
       },
       "2": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,
@@ -36997,7 +36997,7 @@
       },
       "1": {
         "runCount": 124,
-        "averageParticipationPct": 24.0,
+        "averageParticipationPct": 23.9,
         "averageRunDepthStep": 75.4,
         "averageRunDepthPct": 54.3,
         "averageBattlesUsed": 0.7,

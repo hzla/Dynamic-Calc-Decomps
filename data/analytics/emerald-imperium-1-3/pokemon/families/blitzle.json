@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "blitzle",
   "familyMembers": [
     "Blitzle",
@@ -12395,7 +12395,7 @@
         },
         "138": {
           "runCount": 8,
-          "averageParticipationPct": 11.1,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 138.5,
           "averageRunDepthPct": 99.6,
           "averageBattlesUsed": 2.1,
@@ -12449,14 +12449,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "528",
               "displayName": "Rival Brendan Route 119 Torchic",
               "leadLevel": 64,
@@ -12479,12 +12471,20 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
         "137": {
           "runCount": 24,
-          "averageParticipationPct": 10.9,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 137.5,
           "averageRunDepthPct": 98.9,
           "averageBattlesUsed": 1.1,
@@ -12554,17 +12554,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "528",
+              "displayName": "Rival Brendan Route 119 Torchic",
+              "leadLevel": 64,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -12573,7 +12573,7 @@
         },
         "136": {
           "runCount": 24,
-          "averageParticipationPct": 10.9,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 137.5,
           "averageRunDepthPct": 98.9,
           "averageBattlesUsed": 1.1,
@@ -12643,17 +12643,17 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
+              "usageKey": "597",
+              "displayName": "Magma Admin Tabitha Mt Chimney",
+              "leadLevel": 43,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
             },
             {
-              "usageKey": "597",
-              "displayName": "Magma Admin Tabitha Mt Chimney",
-              "leadLevel": 43,
+              "usageKey": "528",
+              "displayName": "Rival Brendan Route 119 Torchic",
+              "leadLevel": 64,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -12662,7 +12662,7 @@
         },
         "135": {
           "runCount": 32,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 136.9,
           "averageRunDepthPct": 98.5,
           "averageBattlesUsed": 1.4,
@@ -12751,7 +12751,7 @@
         },
         "134": {
           "runCount": 32,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 136.9,
           "averageRunDepthPct": 98.5,
           "averageBattlesUsed": 1.4,
@@ -12840,7 +12840,7 @@
         },
         "133": {
           "runCount": 34,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 136.6,
           "averageRunDepthPct": 98.3,
           "averageBattlesUsed": 1.4,
@@ -12929,7 +12929,7 @@
         },
         "132": {
           "runCount": 34,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 136.6,
           "averageRunDepthPct": 98.3,
           "averageBattlesUsed": 1.4,
@@ -13018,7 +13018,7 @@
         },
         "131": {
           "runCount": 34,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 136.6,
           "averageRunDepthPct": 98.3,
           "averageBattlesUsed": 1.4,
@@ -13107,7 +13107,7 @@
         },
         "130": {
           "runCount": 36,
-          "averageParticipationPct": 12.8,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 136.3,
           "averageRunDepthPct": 98.0,
           "averageBattlesUsed": 1.6,
@@ -13196,7 +13196,7 @@
         },
         "129": {
           "runCount": 38,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 135.9,
           "averageRunDepthPct": 97.8,
           "averageBattlesUsed": 1.6,
@@ -13285,7 +13285,7 @@
         },
         "128": {
           "runCount": 39,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 135.7,
           "averageRunDepthPct": 97.6,
           "averageBattlesUsed": 1.6,
@@ -13374,7 +13374,7 @@
         },
         "127": {
           "runCount": 39,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 135.7,
           "averageRunDepthPct": 97.6,
           "averageBattlesUsed": 1.6,
@@ -13463,7 +13463,7 @@
         },
         "126": {
           "runCount": 40,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 135.4,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 1.6,
@@ -13552,7 +13552,7 @@
         },
         "125": {
           "runCount": 40,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 135.4,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 1.6,
@@ -13641,7 +13641,7 @@
         },
         "124": {
           "runCount": 45,
-          "averageParticipationPct": 10.9,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 134.2,
           "averageRunDepthPct": 96.5,
           "averageBattlesUsed": 1.5,
@@ -13730,7 +13730,7 @@
         },
         "123": {
           "runCount": 46,
-          "averageParticipationPct": 10.8,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 133.9,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.5,
@@ -13819,7 +13819,7 @@
         },
         "122": {
           "runCount": 46,
-          "averageParticipationPct": 10.8,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 133.9,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.5,
@@ -13908,7 +13908,7 @@
         },
         "121": {
           "runCount": 46,
-          "averageParticipationPct": 10.8,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 133.9,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.5,
@@ -13997,7 +13997,7 @@
         },
         "120": {
           "runCount": 46,
-          "averageParticipationPct": 10.8,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 133.9,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.5,
@@ -14086,7 +14086,7 @@
         },
         "119": {
           "runCount": 46,
-          "averageParticipationPct": 10.8,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 133.9,
           "averageRunDepthPct": 96.4,
           "averageBattlesUsed": 1.5,
@@ -14175,7 +14175,7 @@
         },
         "118": {
           "runCount": 49,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 133.0,
           "averageRunDepthPct": 95.7,
           "averageBattlesUsed": 1.4,
@@ -14264,7 +14264,7 @@
         },
         "117": {
           "runCount": 50,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 132.6,
           "averageRunDepthPct": 95.4,
           "averageBattlesUsed": 1.4,
@@ -14353,7 +14353,7 @@
         },
         "116": {
           "runCount": 51,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 132.3,
           "averageRunDepthPct": 95.2,
           "averageBattlesUsed": 1.4,
@@ -14442,7 +14442,7 @@
         },
         "115": {
           "runCount": 53,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 1.3,
@@ -14531,7 +14531,7 @@
         },
         "114": {
           "runCount": 53,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 1.3,
@@ -14620,7 +14620,7 @@
         },
         "113": {
           "runCount": 54,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 131.3,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 1.3,
@@ -14709,7 +14709,7 @@
         },
         "112": {
           "runCount": 54,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 131.3,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 1.3,
@@ -14798,7 +14798,7 @@
         },
         "111": {
           "runCount": 54,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 131.3,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 1.3,
@@ -14887,7 +14887,7 @@
         },
         "110": {
           "runCount": 54,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 131.3,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 1.3,
@@ -14976,7 +14976,7 @@
         },
         "109": {
           "runCount": 54,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 131.3,
           "averageRunDepthPct": 94.5,
           "averageBattlesUsed": 1.3,
@@ -15065,7 +15065,7 @@
         },
         "108": {
           "runCount": 55,
-          "averageParticipationPct": 12.9,
+          "averageParticipationPct": 12.7,
           "averageRunDepthStep": 130.9,
           "averageRunDepthPct": 94.2,
           "averageBattlesUsed": 1.3,
@@ -15154,7 +15154,7 @@
         },
         "107": {
           "runCount": 61,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 128.5,
           "averageRunDepthPct": 92.5,
           "averageBattlesUsed": 1.3,
@@ -15200,14 +15200,6 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
               "usageKey": "Team Aqua Grunt Museum2",
               "displayName": "Team Aqua Grunt Museum2",
               "leadLevel": null,
@@ -15218,6 +15210,14 @@
             {
               "usageKey": "Fisherman Claude",
               "displayName": "Fisherman Claude",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -15243,7 +15243,7 @@
         },
         "106": {
           "runCount": 62,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 128.2,
           "averageRunDepthPct": 92.2,
           "averageBattlesUsed": 1.4,
@@ -15305,14 +15305,6 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Team Aqua Grunt Museum2",
               "displayName": "Team Aqua Grunt Museum2",
               "leadLevel": null,
@@ -15327,12 +15319,20 @@
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
         "105": {
           "runCount": 64,
-          "averageParticipationPct": 12.9,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 127.5,
           "averageRunDepthPct": 91.7,
           "averageBattlesUsed": 1.3,
@@ -15394,14 +15394,6 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Team Aqua Grunt Museum2",
               "displayName": "Team Aqua Grunt Museum2",
               "leadLevel": null,
@@ -15416,12 +15408,20 @@
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
         "104": {
           "runCount": 64,
-          "averageParticipationPct": 12.9,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 127.5,
           "averageRunDepthPct": 91.7,
           "averageBattlesUsed": 1.3,
@@ -15483,14 +15483,6 @@
               "participationPct": 50
             },
             {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
               "usageKey": "Team Aqua Grunt Museum2",
               "displayName": "Team Aqua Grunt Museum2",
               "leadLevel": null,
@@ -15505,12 +15497,20 @@
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
+            },
+            {
+              "usageKey": "Magma Admin Tabitha Magma Hideout",
+              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
         "103": {
           "runCount": 68,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 12.4,
           "averageRunDepthStep": 126.0,
           "averageRunDepthPct": 90.7,
           "averageBattlesUsed": 1.3,
@@ -15580,16 +15580,16 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Magma Admin Tabitha Magma Hideout",
-              "displayName": "Magma Admin Tabitha Magma Hideout",
+              "usageKey": "Team Aqua Grunt Museum2",
+              "displayName": "Team Aqua Grunt Museum2",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
             },
             {
-              "usageKey": "Team Aqua Grunt Museum2",
-              "displayName": "Team Aqua Grunt Museum2",
+              "usageKey": "Triathlete Alyssa",
+              "displayName": "Triathlete Alyssa",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -15599,7 +15599,7 @@
         },
         "102": {
           "runCount": 69,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 125.7,
           "averageRunDepthPct": 90.4,
           "averageBattlesUsed": 1.3,
@@ -15688,7 +15688,7 @@
         },
         "101": {
           "runCount": 69,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 125.7,
           "averageRunDepthPct": 90.4,
           "averageBattlesUsed": 1.3,
@@ -15777,7 +15777,7 @@
         },
         "100": {
           "runCount": 69,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 125.7,
           "averageRunDepthPct": 90.4,
           "averageBattlesUsed": 1.3,
@@ -15866,7 +15866,7 @@
         },
         "99": {
           "runCount": 69,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 125.7,
           "averageRunDepthPct": 90.4,
           "averageBattlesUsed": 1.3,
@@ -15955,7 +15955,7 @@
         },
         "98": {
           "runCount": 70,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 125.3,
           "averageRunDepthPct": 90.1,
           "averageBattlesUsed": 1.3,
@@ -16044,7 +16044,7 @@
         },
         "97": {
           "runCount": 71,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 124.9,
           "averageRunDepthPct": 89.8,
           "averageBattlesUsed": 1.3,
@@ -16133,7 +16133,7 @@
         },
         "96": {
           "runCount": 71,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 124.9,
           "averageRunDepthPct": 89.8,
           "averageBattlesUsed": 1.3,
@@ -16222,7 +16222,7 @@
         },
         "95": {
           "runCount": 72,
-          "averageParticipationPct": 11.8,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 124.5,
           "averageRunDepthPct": 89.5,
           "averageBattlesUsed": 1.2,
@@ -16311,7 +16311,7 @@
         },
         "94": {
           "runCount": 73,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 124.0,
           "averageRunDepthPct": 89.2,
           "averageBattlesUsed": 1.3,
@@ -16400,7 +16400,7 @@
         },
         "93": {
           "runCount": 73,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 124.0,
           "averageRunDepthPct": 89.2,
           "averageBattlesUsed": 1.3,
@@ -16489,7 +16489,7 @@
         },
         "92": {
           "runCount": 78,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 122.0,
           "averageRunDepthPct": 87.8,
           "averageBattlesUsed": 1.2,
@@ -16578,7 +16578,7 @@
         },
         "91": {
           "runCount": 81,
-          "averageParticipationPct": 10.8,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 120.8,
           "averageRunDepthPct": 86.9,
           "averageBattlesUsed": 1.1,
@@ -16667,7 +16667,7 @@
         },
         "90": {
           "runCount": 89,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 118.1,
           "averageRunDepthPct": 84.9,
           "averageBattlesUsed": 1.1,
@@ -16756,7 +16756,7 @@
         },
         "89": {
           "runCount": 92,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 117.1,
           "averageRunDepthPct": 84.3,
           "averageBattlesUsed": 1.0,
@@ -16845,7 +16845,7 @@
         },
         "88": {
           "runCount": 94,
-          "averageParticipationPct": 9.5,
+          "averageParticipationPct": 9.4,
           "averageRunDepthStep": 116.5,
           "averageRunDepthPct": 83.8,
           "averageBattlesUsed": 1.0,
@@ -16934,7 +16934,7 @@
         },
         "87": {
           "runCount": 94,
-          "averageParticipationPct": 9.5,
+          "averageParticipationPct": 9.4,
           "averageRunDepthStep": 116.5,
           "averageRunDepthPct": 83.8,
           "averageBattlesUsed": 1.0,
@@ -17112,7 +17112,7 @@
         },
         "85": {
           "runCount": 101,
-          "averageParticipationPct": 9.2,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 1.0,
@@ -17201,7 +17201,7 @@
         },
         "84": {
           "runCount": 101,
-          "averageParticipationPct": 9.2,
+          "averageParticipationPct": 9.1,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 1.0,
@@ -17290,7 +17290,7 @@
         },
         "83": {
           "runCount": 105,
-          "averageParticipationPct": 8.9,
+          "averageParticipationPct": 8.8,
           "averageRunDepthStep": 113.2,
           "averageRunDepthPct": 81.4,
           "averageBattlesUsed": 1.0,
@@ -17468,7 +17468,7 @@
         },
         "81": {
           "runCount": 120,
-          "averageParticipationPct": 8.8,
+          "averageParticipationPct": 8.7,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.9,
@@ -17557,7 +17557,7 @@
         },
         "80": {
           "runCount": 121,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 109.0,
           "averageRunDepthPct": 78.4,
           "averageBattlesUsed": 0.9,
@@ -17646,7 +17646,7 @@
         },
         "79": {
           "runCount": 121,
-          "averageParticipationPct": 8.7,
+          "averageParticipationPct": 8.6,
           "averageRunDepthStep": 109.0,
           "averageRunDepthPct": 78.4,
           "averageBattlesUsed": 0.9,
@@ -17735,7 +17735,7 @@
         },
         "78": {
           "runCount": 123,
-          "averageParticipationPct": 8.6,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 108.5,
           "averageRunDepthPct": 78.0,
           "averageBattlesUsed": 0.9,
@@ -17824,7 +17824,7 @@
         },
         "77": {
           "runCount": 123,
-          "averageParticipationPct": 8.6,
+          "averageParticipationPct": 8.5,
           "averageRunDepthStep": 108.5,
           "averageRunDepthPct": 78.0,
           "averageBattlesUsed": 0.9,
@@ -17913,7 +17913,7 @@
         },
         "76": {
           "runCount": 124,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 8.4,
           "averageRunDepthStep": 108.2,
           "averageRunDepthPct": 77.8,
           "averageBattlesUsed": 0.9,
@@ -18002,7 +18002,7 @@
         },
         "75": {
           "runCount": 124,
-          "averageParticipationPct": 8.5,
+          "averageParticipationPct": 8.4,
           "averageRunDepthStep": 108.2,
           "averageRunDepthPct": 77.8,
           "averageBattlesUsed": 0.9,
@@ -18091,7 +18091,7 @@
         },
         "74": {
           "runCount": 126,
-          "averageParticipationPct": 9.4,
+          "averageParticipationPct": 9.3,
           "averageRunDepthStep": 107.7,
           "averageRunDepthPct": 77.5,
           "averageBattlesUsed": 0.9,
@@ -18180,7 +18180,7 @@
         },
         "73": {
           "runCount": 128,
-          "averageParticipationPct": 9.6,
+          "averageParticipationPct": 9.5,
           "averageRunDepthStep": 107.1,
           "averageRunDepthPct": 77.1,
           "averageBattlesUsed": 0.9,
@@ -18625,7 +18625,7 @@
         },
         "68": {
           "runCount": 150,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 101.6,
           "averageRunDepthPct": 73.1,
           "averageBattlesUsed": 0.8,
@@ -18714,7 +18714,7 @@
         },
         "67": {
           "runCount": 157,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 100.0,
           "averageRunDepthPct": 72.0,
           "averageBattlesUsed": 0.8,
@@ -18892,7 +18892,7 @@
         },
         "65": {
           "runCount": 159,
-          "averageParticipationPct": 9.9,
+          "averageParticipationPct": 9.8,
           "averageRunDepthStep": 99.6,
           "averageRunDepthPct": 71.6,
           "averageBattlesUsed": 0.7,
@@ -19337,7 +19337,7 @@
         },
         "60": {
           "runCount": 175,
-          "averageParticipationPct": 9.5,
+          "averageParticipationPct": 9.4,
           "averageRunDepthStep": 96.2,
           "averageRunDepthPct": 69.2,
           "averageBattlesUsed": 0.7,
@@ -19871,7 +19871,7 @@
         },
         "54": {
           "runCount": 192,
-          "averageParticipationPct": 9.1,
+          "averageParticipationPct": 9.0,
           "averageRunDepthStep": 92.7,
           "averageRunDepthPct": 66.7,
           "averageBattlesUsed": 0.7,
@@ -20138,7 +20138,7 @@
         },
         "51": {
           "runCount": 196,
-          "averageParticipationPct": 8.9,
+          "averageParticipationPct": 8.8,
           "averageRunDepthStep": 91.9,
           "averageRunDepthPct": 66.1,
           "averageBattlesUsed": 0.7,
@@ -20227,7 +20227,7 @@
         },
         "50": {
           "runCount": 196,
-          "averageParticipationPct": 8.9,
+          "averageParticipationPct": 8.8,
           "averageRunDepthStep": 91.9,
           "averageRunDepthPct": 66.1,
           "averageBattlesUsed": 0.7,
@@ -20405,7 +20405,7 @@
         },
         "48": {
           "runCount": 221,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.2,
           "averageRunDepthStep": 87.0,
           "averageRunDepthPct": 62.6,
           "averageBattlesUsed": 0.6,
@@ -20583,7 +20583,7 @@
         },
         "46": {
           "runCount": 244,
-          "averageParticipationPct": 9.4,
+          "averageParticipationPct": 9.3,
           "averageRunDepthStep": 83.2,
           "averageRunDepthPct": 59.9,
           "averageBattlesUsed": 0.6,
@@ -20939,7 +20939,7 @@
         },
         "42": {
           "runCount": 273,
-          "averageParticipationPct": 9.0,
+          "averageParticipationPct": 8.9,
           "averageRunDepthStep": 78.9,
           "averageRunDepthPct": 56.8,
           "averageBattlesUsed": 0.5,
@@ -21117,7 +21117,7 @@
         },
         "40": {
           "runCount": 277,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.2,
           "averageRunDepthStep": 78.4,
           "averageRunDepthPct": 56.4,
           "averageBattlesUsed": 0.5,
@@ -21562,7 +21562,7 @@
         },
         "35": {
           "runCount": 323,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 0.5,
@@ -21651,7 +21651,7 @@
         },
         "34": {
           "runCount": 323,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 0.5,
@@ -21740,7 +21740,7 @@
         },
         "33": {
           "runCount": 323,
-          "averageParticipationPct": 9.7,
+          "averageParticipationPct": 9.6,
           "averageRunDepthStep": 72.4,
           "averageRunDepthPct": 52.1,
           "averageBattlesUsed": 0.5,
@@ -21829,7 +21829,7 @@
         },
         "32": {
           "runCount": 353,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.5,
           "averageRunDepthStep": 69.0,
           "averageRunDepthPct": 49.6,
           "averageBattlesUsed": 0.5,
@@ -22007,7 +22007,7 @@
         },
         "30": {
           "runCount": 375,
-          "averageParticipationPct": 11.8,
+          "averageParticipationPct": 11.7,
           "averageRunDepthStep": 66.7,
           "averageRunDepthPct": 48.0,
           "averageBattlesUsed": 0.5,
@@ -22630,7 +22630,7 @@
         },
         "23": {
           "runCount": 394,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 64.8,
           "averageRunDepthPct": 46.7,
           "averageBattlesUsed": 0.5,
@@ -22719,7 +22719,7 @@
         },
         "22": {
           "runCount": 397,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 64.5,
           "averageRunDepthPct": 46.4,
           "averageBattlesUsed": 0.5,
@@ -22808,7 +22808,7 @@
         },
         "21": {
           "runCount": 400,
-          "averageParticipationPct": 12.1,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 64.2,
           "averageRunDepthPct": 46.2,
           "averageBattlesUsed": 0.5,
@@ -24771,7 +24771,7 @@
       },
       "138": {
         "runCount": 8,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 138.5,
         "averageRunDepthPct": 99.6,
         "averageBattlesUsed": 2.1,
@@ -24825,14 +24825,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "528",
             "displayName": "Rival Brendan Route 119 Torchic",
             "leadLevel": 64,
@@ -24855,12 +24847,20 @@
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
       "137": {
         "runCount": 24,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 137.5,
         "averageRunDepthPct": 98.9,
         "averageBattlesUsed": 1.1,
@@ -24930,17 +24930,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
+            "usageKey": "597",
+            "displayName": "Magma Admin Tabitha Mt Chimney",
+            "leadLevel": 43,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "597",
-            "displayName": "Magma Admin Tabitha Mt Chimney",
-            "leadLevel": 43,
+            "usageKey": "528",
+            "displayName": "Rival Brendan Route 119 Torchic",
+            "leadLevel": 64,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -24949,7 +24949,7 @@
       },
       "136": {
         "runCount": 24,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 137.5,
         "averageRunDepthPct": 98.9,
         "averageBattlesUsed": 1.1,
@@ -25019,17 +25019,17 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
+            "usageKey": "597",
+            "displayName": "Magma Admin Tabitha Mt Chimney",
+            "leadLevel": 43,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
           },
           {
-            "usageKey": "597",
-            "displayName": "Magma Admin Tabitha Mt Chimney",
-            "leadLevel": 43,
+            "usageKey": "528",
+            "displayName": "Rival Brendan Route 119 Torchic",
+            "leadLevel": 64,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -25038,7 +25038,7 @@
       },
       "135": {
         "runCount": 32,
-        "averageParticipationPct": 11.8,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 136.9,
         "averageRunDepthPct": 98.5,
         "averageBattlesUsed": 1.4,
@@ -25127,7 +25127,7 @@
       },
       "134": {
         "runCount": 32,
-        "averageParticipationPct": 11.8,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 136.9,
         "averageRunDepthPct": 98.5,
         "averageBattlesUsed": 1.4,
@@ -25216,7 +25216,7 @@
       },
       "133": {
         "runCount": 34,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 136.6,
         "averageRunDepthPct": 98.3,
         "averageBattlesUsed": 1.4,
@@ -25305,7 +25305,7 @@
       },
       "132": {
         "runCount": 34,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 136.6,
         "averageRunDepthPct": 98.3,
         "averageBattlesUsed": 1.4,
@@ -25394,7 +25394,7 @@
       },
       "131": {
         "runCount": 34,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 136.6,
         "averageRunDepthPct": 98.3,
         "averageBattlesUsed": 1.4,
@@ -25483,7 +25483,7 @@
       },
       "130": {
         "runCount": 36,
-        "averageParticipationPct": 12.3,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 136.3,
         "averageRunDepthPct": 98.0,
         "averageBattlesUsed": 1.6,
@@ -25572,7 +25572,7 @@
       },
       "129": {
         "runCount": 38,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 135.9,
         "averageRunDepthPct": 97.8,
         "averageBattlesUsed": 1.6,
@@ -25661,7 +25661,7 @@
       },
       "128": {
         "runCount": 39,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 135.7,
         "averageRunDepthPct": 97.6,
         "averageBattlesUsed": 1.6,
@@ -25750,7 +25750,7 @@
       },
       "127": {
         "runCount": 39,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.5,
         "averageRunDepthStep": 135.7,
         "averageRunDepthPct": 97.6,
         "averageBattlesUsed": 1.6,
@@ -25839,7 +25839,7 @@
       },
       "126": {
         "runCount": 40,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.3,
         "averageRunDepthStep": 135.4,
         "averageRunDepthPct": 97.4,
         "averageBattlesUsed": 1.6,
@@ -25928,7 +25928,7 @@
       },
       "125": {
         "runCount": 40,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.3,
         "averageRunDepthStep": 135.4,
         "averageRunDepthPct": 97.4,
         "averageBattlesUsed": 1.6,
@@ -26017,7 +26017,7 @@
       },
       "124": {
         "runCount": 45,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.3,
         "averageRunDepthStep": 134.2,
         "averageRunDepthPct": 96.5,
         "averageBattlesUsed": 1.5,
@@ -26106,7 +26106,7 @@
       },
       "123": {
         "runCount": 46,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 133.9,
         "averageRunDepthPct": 96.4,
         "averageBattlesUsed": 1.5,
@@ -26195,7 +26195,7 @@
       },
       "122": {
         "runCount": 46,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 133.9,
         "averageRunDepthPct": 96.4,
         "averageBattlesUsed": 1.5,
@@ -26284,7 +26284,7 @@
       },
       "121": {
         "runCount": 46,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 133.9,
         "averageRunDepthPct": 96.4,
         "averageBattlesUsed": 1.5,
@@ -26373,7 +26373,7 @@
       },
       "120": {
         "runCount": 46,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 133.9,
         "averageRunDepthPct": 96.4,
         "averageBattlesUsed": 1.5,
@@ -26462,7 +26462,7 @@
       },
       "119": {
         "runCount": 46,
-        "averageParticipationPct": 10.4,
+        "averageParticipationPct": 10.2,
         "averageRunDepthStep": 133.9,
         "averageRunDepthPct": 96.4,
         "averageBattlesUsed": 1.5,
@@ -26551,7 +26551,7 @@
       },
       "118": {
         "runCount": 49,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 133.0,
         "averageRunDepthPct": 95.7,
         "averageBattlesUsed": 1.4,
@@ -26640,7 +26640,7 @@
       },
       "117": {
         "runCount": 50,
-        "averageParticipationPct": 11.8,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 132.6,
         "averageRunDepthPct": 95.4,
         "averageBattlesUsed": 1.4,
@@ -26729,7 +26729,7 @@
       },
       "116": {
         "runCount": 51,
-        "averageParticipationPct": 11.6,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 132.3,
         "averageRunDepthPct": 95.2,
         "averageBattlesUsed": 1.4,
@@ -26818,7 +26818,7 @@
       },
       "115": {
         "runCount": 53,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 1.3,
@@ -26907,7 +26907,7 @@
       },
       "114": {
         "runCount": 53,
-        "averageParticipationPct": 11.1,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 1.3,
@@ -26996,7 +26996,7 @@
       },
       "113": {
         "runCount": 54,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 131.3,
         "averageRunDepthPct": 94.5,
         "averageBattlesUsed": 1.3,
@@ -27085,7 +27085,7 @@
       },
       "112": {
         "runCount": 54,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 131.3,
         "averageRunDepthPct": 94.5,
         "averageBattlesUsed": 1.3,
@@ -27174,7 +27174,7 @@
       },
       "111": {
         "runCount": 54,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 131.3,
         "averageRunDepthPct": 94.5,
         "averageBattlesUsed": 1.3,
@@ -27263,7 +27263,7 @@
       },
       "110": {
         "runCount": 54,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 131.3,
         "averageRunDepthPct": 94.5,
         "averageBattlesUsed": 1.3,
@@ -27352,7 +27352,7 @@
       },
       "109": {
         "runCount": 54,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 131.3,
         "averageRunDepthPct": 94.5,
         "averageBattlesUsed": 1.3,
@@ -27441,7 +27441,7 @@
       },
       "108": {
         "runCount": 55,
-        "averageParticipationPct": 12.5,
+        "averageParticipationPct": 12.4,
         "averageRunDepthStep": 130.9,
         "averageRunDepthPct": 94.2,
         "averageBattlesUsed": 1.3,
@@ -27530,7 +27530,7 @@
       },
       "107": {
         "runCount": 61,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 128.5,
         "averageRunDepthPct": 92.5,
         "averageBattlesUsed": 1.3,
@@ -27576,14 +27576,6 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
             "usageKey": "Team Aqua Grunt Museum2",
             "displayName": "Team Aqua Grunt Museum2",
             "leadLevel": null,
@@ -27594,6 +27586,14 @@
           {
             "usageKey": "Fisherman Claude",
             "displayName": "Fisherman Claude",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -27619,7 +27619,7 @@
       },
       "106": {
         "runCount": 62,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 128.2,
         "averageRunDepthPct": 92.2,
         "averageBattlesUsed": 1.4,
@@ -27681,14 +27681,6 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Team Aqua Grunt Museum2",
             "displayName": "Team Aqua Grunt Museum2",
             "leadLevel": null,
@@ -27703,12 +27695,20 @@
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           }
         ]
       },
       "105": {
         "runCount": 64,
-        "averageParticipationPct": 12.6,
+        "averageParticipationPct": 12.5,
         "averageRunDepthStep": 127.5,
         "averageRunDepthPct": 91.7,
         "averageBattlesUsed": 1.3,
@@ -27770,14 +27770,6 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Team Aqua Grunt Museum2",
             "displayName": "Team Aqua Grunt Museum2",
             "leadLevel": null,
@@ -27792,12 +27784,20 @@
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           }
         ]
       },
       "104": {
         "runCount": 64,
-        "averageParticipationPct": 12.6,
+        "averageParticipationPct": 12.5,
         "averageRunDepthStep": 127.5,
         "averageRunDepthPct": 91.7,
         "averageBattlesUsed": 1.3,
@@ -27859,14 +27859,6 @@
             "participationPct": 50
           },
           {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
             "usageKey": "Team Aqua Grunt Museum2",
             "displayName": "Team Aqua Grunt Museum2",
             "leadLevel": null,
@@ -27881,12 +27873,20 @@
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
+          },
+          {
+            "usageKey": "Magma Admin Tabitha Magma Hideout",
+            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "leadLevel": null,
+            "partyCount": 2,
+            "ownedCount": 5,
+            "participationPct": 40
           }
         ]
       },
       "103": {
         "runCount": 68,
-        "averageParticipationPct": 12.2,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 126.0,
         "averageRunDepthPct": 90.7,
         "averageBattlesUsed": 1.3,
@@ -27956,16 +27956,16 @@
             "participationPct": 67
           },
           {
-            "usageKey": "Magma Admin Tabitha Magma Hideout",
-            "displayName": "Magma Admin Tabitha Magma Hideout",
+            "usageKey": "Team Aqua Grunt Museum2",
+            "displayName": "Team Aqua Grunt Museum2",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
           },
           {
-            "usageKey": "Team Aqua Grunt Museum2",
-            "displayName": "Team Aqua Grunt Museum2",
+            "usageKey": "Triathlete Alyssa",
+            "displayName": "Triathlete Alyssa",
             "leadLevel": null,
             "partyCount": 2,
             "ownedCount": 4,
@@ -27975,7 +27975,7 @@
       },
       "102": {
         "runCount": 69,
-        "averageParticipationPct": 12.1,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 125.7,
         "averageRunDepthPct": 90.4,
         "averageBattlesUsed": 1.3,
@@ -28064,7 +28064,7 @@
       },
       "101": {
         "runCount": 69,
-        "averageParticipationPct": 12.1,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 125.7,
         "averageRunDepthPct": 90.4,
         "averageBattlesUsed": 1.3,
@@ -28153,7 +28153,7 @@
       },
       "100": {
         "runCount": 69,
-        "averageParticipationPct": 12.1,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 125.7,
         "averageRunDepthPct": 90.4,
         "averageBattlesUsed": 1.3,
@@ -28242,7 +28242,7 @@
       },
       "99": {
         "runCount": 69,
-        "averageParticipationPct": 12.1,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 125.7,
         "averageRunDepthPct": 90.4,
         "averageBattlesUsed": 1.3,
@@ -28331,7 +28331,7 @@
       },
       "98": {
         "runCount": 70,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 125.3,
         "averageRunDepthPct": 90.1,
         "averageBattlesUsed": 1.3,
@@ -28420,7 +28420,7 @@
       },
       "97": {
         "runCount": 71,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 124.9,
         "averageRunDepthPct": 89.8,
         "averageBattlesUsed": 1.3,
@@ -28509,7 +28509,7 @@
       },
       "96": {
         "runCount": 71,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 124.9,
         "averageRunDepthPct": 89.8,
         "averageBattlesUsed": 1.3,
@@ -28598,7 +28598,7 @@
       },
       "95": {
         "runCount": 72,
-        "averageParticipationPct": 11.6,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 124.5,
         "averageRunDepthPct": 89.5,
         "averageBattlesUsed": 1.2,
@@ -28687,7 +28687,7 @@
       },
       "94": {
         "runCount": 73,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 124.0,
         "averageRunDepthPct": 89.2,
         "averageBattlesUsed": 1.3,
@@ -28776,7 +28776,7 @@
       },
       "93": {
         "runCount": 73,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 124.0,
         "averageRunDepthPct": 89.2,
         "averageBattlesUsed": 1.3,
@@ -28865,7 +28865,7 @@
       },
       "92": {
         "runCount": 78,
-        "averageParticipationPct": 10.9,
+        "averageParticipationPct": 10.8,
         "averageRunDepthStep": 122.0,
         "averageRunDepthPct": 87.8,
         "averageBattlesUsed": 1.2,
@@ -28954,7 +28954,7 @@
       },
       "91": {
         "runCount": 81,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 120.8,
         "averageRunDepthPct": 86.9,
         "averageBattlesUsed": 1.1,
@@ -29043,7 +29043,7 @@
       },
       "90": {
         "runCount": 89,
-        "averageParticipationPct": 9.8,
+        "averageParticipationPct": 9.7,
         "averageRunDepthStep": 118.1,
         "averageRunDepthPct": 84.9,
         "averageBattlesUsed": 1.1,
@@ -29132,7 +29132,7 @@
       },
       "89": {
         "runCount": 92,
-        "averageParticipationPct": 9.5,
+        "averageParticipationPct": 9.4,
         "averageRunDepthStep": 117.1,
         "averageRunDepthPct": 84.3,
         "averageBattlesUsed": 1.0,
@@ -29221,7 +29221,7 @@
       },
       "88": {
         "runCount": 94,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 116.5,
         "averageRunDepthPct": 83.8,
         "averageBattlesUsed": 1.0,
@@ -29310,7 +29310,7 @@
       },
       "87": {
         "runCount": 94,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 116.5,
         "averageRunDepthPct": 83.8,
         "averageBattlesUsed": 1.0,
@@ -29488,7 +29488,7 @@
       },
       "85": {
         "runCount": 101,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.9,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 1.0,
@@ -29577,7 +29577,7 @@
       },
       "84": {
         "runCount": 101,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.9,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 1.0,
@@ -29666,7 +29666,7 @@
       },
       "83": {
         "runCount": 105,
-        "averageParticipationPct": 8.7,
+        "averageParticipationPct": 8.6,
         "averageRunDepthStep": 113.2,
         "averageRunDepthPct": 81.4,
         "averageBattlesUsed": 1.0,
@@ -29755,7 +29755,7 @@
       },
       "82": {
         "runCount": 115,
-        "averageParticipationPct": 9.0,
+        "averageParticipationPct": 8.9,
         "averageRunDepthStep": 110.5,
         "averageRunDepthPct": 79.5,
         "averageBattlesUsed": 0.9,
@@ -29933,7 +29933,7 @@
       },
       "80": {
         "runCount": 122,
-        "averageParticipationPct": 8.5,
+        "averageParticipationPct": 8.4,
         "averageRunDepthStep": 108.8,
         "averageRunDepthPct": 78.2,
         "averageBattlesUsed": 0.9,
@@ -30022,7 +30022,7 @@
       },
       "79": {
         "runCount": 122,
-        "averageParticipationPct": 8.5,
+        "averageParticipationPct": 8.4,
         "averageRunDepthStep": 108.8,
         "averageRunDepthPct": 78.2,
         "averageBattlesUsed": 0.9,
@@ -30289,7 +30289,7 @@
       },
       "76": {
         "runCount": 125,
-        "averageParticipationPct": 8.3,
+        "averageParticipationPct": 8.2,
         "averageRunDepthStep": 108.0,
         "averageRunDepthPct": 77.7,
         "averageBattlesUsed": 0.8,
@@ -30378,7 +30378,7 @@
       },
       "75": {
         "runCount": 125,
-        "averageParticipationPct": 8.3,
+        "averageParticipationPct": 8.2,
         "averageRunDepthStep": 108.0,
         "averageRunDepthPct": 77.7,
         "averageBattlesUsed": 0.8,
@@ -30556,7 +30556,7 @@
       },
       "73": {
         "runCount": 129,
-        "averageParticipationPct": 9.4,
+        "averageParticipationPct": 9.3,
         "averageRunDepthStep": 106.9,
         "averageRunDepthPct": 76.9,
         "averageBattlesUsed": 0.8,
@@ -30645,7 +30645,7 @@
       },
       "72": {
         "runCount": 134,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 105.6,
         "averageRunDepthPct": 76.0,
         "averageBattlesUsed": 0.8,
@@ -30734,7 +30734,7 @@
       },
       "71": {
         "runCount": 134,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 105.6,
         "averageRunDepthPct": 76.0,
         "averageBattlesUsed": 0.8,
@@ -30912,7 +30912,7 @@
       },
       "69": {
         "runCount": 138,
-        "averageParticipationPct": 10.5,
+        "averageParticipationPct": 10.4,
         "averageRunDepthStep": 104.6,
         "averageRunDepthPct": 75.2,
         "averageBattlesUsed": 0.8,
@@ -31001,7 +31001,7 @@
       },
       "68": {
         "runCount": 151,
-        "averageParticipationPct": 9.6,
+        "averageParticipationPct": 9.5,
         "averageRunDepthStep": 101.4,
         "averageRunDepthPct": 73.0,
         "averageBattlesUsed": 0.8,
@@ -31090,7 +31090,7 @@
       },
       "67": {
         "runCount": 158,
-        "averageParticipationPct": 9.5,
+        "averageParticipationPct": 9.4,
         "averageRunDepthStep": 99.9,
         "averageRunDepthPct": 71.9,
         "averageBattlesUsed": 0.7,
@@ -31268,7 +31268,7 @@
       },
       "65": {
         "runCount": 160,
-        "averageParticipationPct": 9.7,
+        "averageParticipationPct": 9.6,
         "averageRunDepthStep": 99.5,
         "averageRunDepthPct": 71.6,
         "averageBattlesUsed": 0.7,
@@ -31535,7 +31535,7 @@
       },
       "62": {
         "runCount": 173,
-        "averageParticipationPct": 9.4,
+        "averageParticipationPct": 9.3,
         "averageRunDepthStep": 96.8,
         "averageRunDepthPct": 69.6,
         "averageBattlesUsed": 0.7,
@@ -32158,7 +32158,7 @@
       },
       "55": {
         "runCount": 193,
-        "averageParticipationPct": 8.9,
+        "averageParticipationPct": 8.8,
         "averageRunDepthStep": 92.7,
         "averageRunDepthPct": 66.7,
         "averageBattlesUsed": 0.7,
@@ -32247,7 +32247,7 @@
       },
       "54": {
         "runCount": 196,
-        "averageParticipationPct": 8.8,
+        "averageParticipationPct": 8.7,
         "averageRunDepthStep": 92.1,
         "averageRunDepthPct": 66.3,
         "averageBattlesUsed": 0.7,
@@ -32336,7 +32336,7 @@
       },
       "53": {
         "runCount": 200,
-        "averageParticipationPct": 8.6,
+        "averageParticipationPct": 8.5,
         "averageRunDepthStep": 91.3,
         "averageRunDepthPct": 65.7,
         "averageBattlesUsed": 0.7,
@@ -32425,7 +32425,7 @@
       },
       "52": {
         "runCount": 200,
-        "averageParticipationPct": 8.6,
+        "averageParticipationPct": 8.5,
         "averageRunDepthStep": 91.3,
         "averageRunDepthPct": 65.7,
         "averageBattlesUsed": 0.7,
@@ -32781,7 +32781,7 @@
       },
       "48": {
         "runCount": 226,
-        "averageParticipationPct": 8.8,
+        "averageParticipationPct": 8.7,
         "averageRunDepthStep": 86.4,
         "averageRunDepthPct": 62.2,
         "averageBattlesUsed": 0.6,
@@ -32959,7 +32959,7 @@
       },
       "46": {
         "runCount": 250,
-        "averageParticipationPct": 8.9,
+        "averageParticipationPct": 8.8,
         "averageRunDepthStep": 82.6,
         "averageRunDepthPct": 59.5,
         "averageBattlesUsed": 0.6,
@@ -34383,7 +34383,7 @@
       },
       "30": {
         "runCount": 383,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.2,
         "averageRunDepthStep": 66.5,
         "averageRunDepthPct": 47.8,
         "averageBattlesUsed": 0.5,
@@ -34917,7 +34917,7 @@
       },
       "24": {
         "runCount": 401,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 64.8,
         "averageRunDepthPct": 46.6,
         "averageBattlesUsed": 0.5,
@@ -35273,7 +35273,7 @@
       },
       "20": {
         "runCount": 412,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 63.6,
         "averageRunDepthPct": 45.7,
         "averageBattlesUsed": 0.5,
@@ -35451,7 +35451,7 @@
       },
       "18": {
         "runCount": 425,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 62.2,
         "averageRunDepthPct": 44.8,
         "averageBattlesUsed": 0.5,

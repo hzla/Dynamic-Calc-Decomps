@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "lotad",
   "familyMembers": [
     "Lombre",
@@ -11225,19 +11225,19 @@
           ]
         },
         "13": {
-          "runCount": 250,
-          "averageParticipationPct": 13.5,
-          "averageRunDepthStep": 45.0,
-          "averageRunDepthPct": 32.4,
+          "runCount": 251,
+          "averageParticipationPct": 13.8,
+          "averageRunDepthStep": 44.9,
+          "averageRunDepthPct": 32.3,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 23,
-              "ownedCount": 28,
-              "participationPct": 82
+              "partyCount": 24,
+              "ownedCount": 29,
+              "participationPct": 83
             },
             {
               "usageKey": "851",
@@ -11314,19 +11314,19 @@
           ]
         },
         "12": {
-          "runCount": 253,
-          "averageParticipationPct": 13.5,
-          "averageRunDepthStep": 44.6,
-          "averageRunDepthPct": 32.1,
+          "runCount": 254,
+          "averageParticipationPct": 13.9,
+          "averageRunDepthStep": 44.5,
+          "averageRunDepthPct": 32.0,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 23,
-              "ownedCount": 28,
-              "participationPct": 82
+              "partyCount": 24,
+              "ownedCount": 29,
+              "participationPct": 83
             },
             {
               "usageKey": "851",
@@ -11403,18 +11403,18 @@
           ]
         },
         "11": {
-          "runCount": 257,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 44.1,
-          "averageRunDepthPct": 31.7,
+          "runCount": 258,
+          "averageParticipationPct": 14.8,
+          "averageRunDepthStep": 43.9,
+          "averageRunDepthPct": 31.6,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 24,
-              "ownedCount": 29,
+              "partyCount": 25,
+              "ownedCount": 30,
               "participationPct": 83
             },
             {
@@ -11492,18 +11492,18 @@
           ]
         },
         "10": {
-          "runCount": 259,
-          "averageParticipationPct": 14.4,
-          "averageRunDepthStep": 43.8,
-          "averageRunDepthPct": 31.5,
+          "runCount": 261,
+          "averageParticipationPct": 15.0,
+          "averageRunDepthStep": 43.6,
+          "averageRunDepthPct": 31.3,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 24,
-              "ownedCount": 29,
+              "partyCount": 25,
+              "ownedCount": 30,
               "participationPct": 83
             },
             {
@@ -11581,18 +11581,18 @@
           ]
         },
         "9": {
-          "runCount": 263,
-          "averageParticipationPct": 14.5,
-          "averageRunDepthStep": 43.3,
-          "averageRunDepthPct": 31.1,
+          "runCount": 265,
+          "averageParticipationPct": 15.2,
+          "averageRunDepthStep": 43.0,
+          "averageRunDepthPct": 31.0,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 24,
-              "ownedCount": 29,
+              "partyCount": 25,
+              "ownedCount": 30,
               "participationPct": 83
             },
             {
@@ -11670,19 +11670,19 @@
           ]
         },
         "8": {
-          "runCount": 271,
-          "averageParticipationPct": 16.2,
-          "averageRunDepthStep": 42.2,
-          "averageRunDepthPct": 30.4,
+          "runCount": 273,
+          "averageParticipationPct": 16.8,
+          "averageRunDepthStep": 42.0,
+          "averageRunDepthPct": 30.2,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 25,
-              "ownedCount": 30,
-              "participationPct": 83
+              "partyCount": 26,
+              "ownedCount": 31,
+              "participationPct": 84
             },
             {
               "usageKey": "851",
@@ -11759,19 +11759,19 @@
           ]
         },
         "7": {
-          "runCount": 279,
-          "averageParticipationPct": 16.6,
-          "averageRunDepthStep": 41.2,
-          "averageRunDepthPct": 29.7,
+          "runCount": 281,
+          "averageParticipationPct": 17.2,
+          "averageRunDepthStep": 41.0,
+          "averageRunDepthPct": 29.5,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 25,
-              "ownedCount": 30,
-              "participationPct": 83
+              "partyCount": 26,
+              "ownedCount": 31,
+              "participationPct": 84
             },
             {
               "usageKey": "851",
@@ -11848,19 +11848,19 @@
           ]
         },
         "6": {
-          "runCount": 281,
-          "averageParticipationPct": 17.2,
-          "averageRunDepthStep": 41.0,
-          "averageRunDepthPct": 29.5,
+          "runCount": 283,
+          "averageParticipationPct": 17.8,
+          "averageRunDepthStep": 40.8,
+          "averageRunDepthPct": 29.3,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 25,
-              "ownedCount": 30,
-              "participationPct": 83
+              "partyCount": 26,
+              "ownedCount": 31,
+              "participationPct": 84
             },
             {
               "usageKey": "851",
@@ -11937,19 +11937,19 @@
           ]
         },
         "5": {
-          "runCount": 285,
-          "averageParticipationPct": 17.3,
-          "averageRunDepthStep": 40.5,
-          "averageRunDepthPct": 29.1,
+          "runCount": 287,
+          "averageParticipationPct": 17.9,
+          "averageRunDepthStep": 40.3,
+          "averageRunDepthPct": 29.0,
           "averageBattlesUsed": 0.3,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 25,
-              "ownedCount": 30,
-              "participationPct": 83
+              "partyCount": 26,
+              "ownedCount": 31,
+              "participationPct": 84
             },
             {
               "usageKey": "851",
@@ -12026,19 +12026,19 @@
           ]
         },
         "4": {
-          "runCount": 306,
-          "averageParticipationPct": 21.7,
-          "averageRunDepthStep": 38.0,
-          "averageRunDepthPct": 27.3,
+          "runCount": 308,
+          "averageParticipationPct": 22.2,
+          "averageRunDepthStep": 37.8,
+          "averageRunDepthPct": 27.2,
           "averageBattlesUsed": 0.4,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 44,
-              "ownedCount": 51,
-              "participationPct": 86
+              "partyCount": 45,
+              "ownedCount": 52,
+              "participationPct": 87
             },
             {
               "usageKey": "851",
@@ -12115,19 +12115,19 @@
           ]
         },
         "3": {
-          "runCount": 331,
-          "averageParticipationPct": 23.1,
-          "averageRunDepthStep": 35.3,
-          "averageRunDepthPct": 25.4,
+          "runCount": 333,
+          "averageParticipationPct": 23.5,
+          "averageRunDepthStep": 35.2,
+          "averageRunDepthPct": 25.3,
           "averageBattlesUsed": 0.4,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 44,
-              "ownedCount": 51,
-              "participationPct": 86
+              "partyCount": 45,
+              "ownedCount": 52,
+              "participationPct": 87
             },
             {
               "usageKey": "851",
@@ -12204,19 +12204,19 @@
           ]
         },
         "2": {
-          "runCount": 332,
-          "averageParticipationPct": 23.3,
-          "averageRunDepthStep": 35.2,
-          "averageRunDepthPct": 25.3,
+          "runCount": 334,
+          "averageParticipationPct": 23.8,
+          "averageRunDepthStep": 35.1,
+          "averageRunDepthPct": 25.2,
           "averageBattlesUsed": 0.4,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 44,
-              "ownedCount": 51,
-              "participationPct": 86
+              "partyCount": 45,
+              "ownedCount": 52,
+              "participationPct": 87
             },
             {
               "usageKey": "851",
@@ -12293,19 +12293,19 @@
           ]
         },
         "1": {
-          "runCount": 332,
-          "averageParticipationPct": 23.3,
-          "averageRunDepthStep": 35.2,
-          "averageRunDepthPct": 25.3,
+          "runCount": 334,
+          "averageParticipationPct": 23.8,
+          "averageRunDepthStep": 35.1,
+          "averageRunDepthPct": 25.2,
           "averageBattlesUsed": 0.4,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 44,
-              "ownedCount": 51,
-              "participationPct": 86
+              "partyCount": 45,
+              "ownedCount": 52,
+              "participationPct": 87
             },
             {
               "usageKey": "851",
@@ -32950,7 +32950,7 @@
         },
         "47": {
           "runCount": 283,
-          "averageParticipationPct": 9.8,
+          "averageParticipationPct": 9.7,
           "averageRunDepthStep": 90.0,
           "averageRunDepthPct": 64.8,
           "averageBattlesUsed": 0.8,
@@ -34908,7 +34908,7 @@
         },
         "25": {
           "runCount": 431,
-          "averageParticipationPct": 15.4,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 71.5,
           "averageRunDepthPct": 51.5,
           "averageBattlesUsed": 0.7,
@@ -35975,18 +35975,18 @@
           ]
         },
         "13": {
-          "runCount": 487,
-          "averageParticipationPct": 20.5,
-          "averageRunDepthStep": 65.0,
-          "averageRunDepthPct": 46.8,
+          "runCount": 488,
+          "averageParticipationPct": 20.6,
+          "averageRunDepthStep": 64.9,
+          "averageRunDepthPct": 46.7,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36064,18 +36064,18 @@
           ]
         },
         "12": {
-          "runCount": 487,
-          "averageParticipationPct": 20.5,
-          "averageRunDepthStep": 65.0,
-          "averageRunDepthPct": 46.8,
+          "runCount": 488,
+          "averageParticipationPct": 20.6,
+          "averageRunDepthStep": 64.9,
+          "averageRunDepthPct": 46.7,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36153,18 +36153,18 @@
           ]
         },
         "11": {
-          "runCount": 487,
-          "averageParticipationPct": 20.5,
-          "averageRunDepthStep": 65.0,
-          "averageRunDepthPct": 46.8,
+          "runCount": 488,
+          "averageParticipationPct": 20.6,
+          "averageRunDepthStep": 64.9,
+          "averageRunDepthPct": 46.7,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36242,18 +36242,18 @@
           ]
         },
         "10": {
-          "runCount": 487,
-          "averageParticipationPct": 20.5,
-          "averageRunDepthStep": 65.0,
-          "averageRunDepthPct": 46.8,
+          "runCount": 488,
+          "averageParticipationPct": 20.6,
+          "averageRunDepthStep": 64.9,
+          "averageRunDepthPct": 46.7,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36331,18 +36331,18 @@
           ]
         },
         "9": {
-          "runCount": 487,
-          "averageParticipationPct": 20.5,
-          "averageRunDepthStep": 65.0,
-          "averageRunDepthPct": 46.8,
+          "runCount": 488,
+          "averageParticipationPct": 20.6,
+          "averageRunDepthStep": 64.9,
+          "averageRunDepthPct": 46.7,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36420,18 +36420,18 @@
           ]
         },
         "8": {
-          "runCount": 487,
-          "averageParticipationPct": 20.5,
-          "averageRunDepthStep": 65.0,
-          "averageRunDepthPct": 46.8,
+          "runCount": 488,
+          "averageParticipationPct": 20.6,
+          "averageRunDepthStep": 64.9,
+          "averageRunDepthPct": 46.7,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36509,18 +36509,18 @@
           ]
         },
         "7": {
-          "runCount": 488,
-          "averageParticipationPct": 20.4,
-          "averageRunDepthStep": 64.9,
-          "averageRunDepthPct": 46.7,
+          "runCount": 489,
+          "averageParticipationPct": 20.6,
+          "averageRunDepthStep": 64.8,
+          "averageRunDepthPct": 46.6,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36598,18 +36598,18 @@
           ]
         },
         "6": {
-          "runCount": 488,
-          "averageParticipationPct": 20.4,
-          "averageRunDepthStep": 64.9,
-          "averageRunDepthPct": 46.7,
+          "runCount": 489,
+          "averageParticipationPct": 20.6,
+          "averageRunDepthStep": 64.8,
+          "averageRunDepthPct": 46.6,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36687,18 +36687,18 @@
           ]
         },
         "5": {
-          "runCount": 489,
-          "averageParticipationPct": 20.6,
-          "averageRunDepthStep": 64.8,
-          "averageRunDepthPct": 46.6,
+          "runCount": 490,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 64.7,
+          "averageRunDepthPct": 46.5,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36776,18 +36776,18 @@
           ]
         },
         "4": {
-          "runCount": 489,
-          "averageParticipationPct": 20.6,
-          "averageRunDepthStep": 64.8,
-          "averageRunDepthPct": 46.6,
+          "runCount": 490,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 64.7,
+          "averageRunDepthPct": 46.5,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36865,18 +36865,18 @@
           ]
         },
         "3": {
-          "runCount": 489,
-          "averageParticipationPct": 20.6,
-          "averageRunDepthStep": 64.8,
-          "averageRunDepthPct": 46.6,
+          "runCount": 490,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 64.7,
+          "averageRunDepthPct": 46.5,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -36954,18 +36954,18 @@
           ]
         },
         "2": {
-          "runCount": 489,
-          "averageParticipationPct": 20.6,
-          "averageRunDepthStep": 64.8,
-          "averageRunDepthPct": 46.6,
+          "runCount": 490,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 64.7,
+          "averageRunDepthPct": 46.5,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -37043,18 +37043,18 @@
           ]
         },
         "1": {
-          "runCount": 489,
-          "averageParticipationPct": 20.6,
-          "averageRunDepthStep": 64.8,
-          "averageRunDepthPct": 46.6,
+          "runCount": 490,
+          "averageParticipationPct": 20.7,
+          "averageRunDepthStep": 64.7,
+          "averageRunDepthPct": 46.5,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 41,
-              "ownedCount": 58,
+              "partyCount": 42,
+              "ownedCount": 59,
               "participationPct": 71
             },
             {
@@ -45771,7 +45771,7 @@
       },
       "42": {
         "runCount": 347,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 83.7,
         "averageRunDepthPct": 60.2,
         "averageBattlesUsed": 0.8,
@@ -46305,7 +46305,7 @@
       },
       "36": {
         "runCount": 381,
-        "averageParticipationPct": 14.0,
+        "averageParticipationPct": 13.9,
         "averageRunDepthStep": 79.7,
         "averageRunDepthPct": 57.4,
         "averageBattlesUsed": 0.8,
@@ -47195,7 +47195,7 @@
       },
       "26": {
         "runCount": 495,
-        "averageParticipationPct": 14.5,
+        "averageParticipationPct": 14.4,
         "averageRunDepthStep": 68.7,
         "averageRunDepthPct": 49.4,
         "averageBattlesUsed": 0.7,
@@ -48351,27 +48351,27 @@
         ]
       },
       "13": {
-        "runCount": 610,
-        "averageParticipationPct": 19.0,
-        "averageRunDepthStep": 58.5,
-        "averageRunDepthPct": 42.1,
+        "runCount": 612,
+        "averageParticipationPct": 19.3,
+        "averageRunDepthStep": 58.4,
+        "averageRunDepthPct": 42.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 23,
-            "ownedCount": 29,
-            "participationPct": 79
+            "partyCount": 24,
+            "ownedCount": 30,
+            "participationPct": 80
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -48440,27 +48440,27 @@
         ]
       },
       "12": {
-        "runCount": 613,
-        "averageParticipationPct": 19.0,
-        "averageRunDepthStep": 58.3,
-        "averageRunDepthPct": 42.0,
+        "runCount": 615,
+        "averageParticipationPct": 19.2,
+        "averageRunDepthStep": 58.2,
+        "averageRunDepthPct": 41.9,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 23,
-            "ownedCount": 29,
-            "participationPct": 79
+            "partyCount": 24,
+            "ownedCount": 30,
+            "participationPct": 80
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -48529,27 +48529,27 @@
         ]
       },
       "11": {
-        "runCount": 617,
-        "averageParticipationPct": 19.3,
-        "averageRunDepthStep": 58.0,
-        "averageRunDepthPct": 41.7,
+        "runCount": 619,
+        "averageParticipationPct": 19.6,
+        "averageRunDepthStep": 57.9,
+        "averageRunDepthPct": 41.6,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 24,
-            "ownedCount": 30,
-            "participationPct": 80
+            "partyCount": 25,
+            "ownedCount": 31,
+            "participationPct": 81
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -48618,27 +48618,27 @@
         ]
       },
       "10": {
-        "runCount": 619,
-        "averageParticipationPct": 19.3,
-        "averageRunDepthStep": 57.9,
-        "averageRunDepthPct": 41.6,
+        "runCount": 622,
+        "averageParticipationPct": 19.7,
+        "averageRunDepthStep": 57.6,
+        "averageRunDepthPct": 41.5,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 24,
-            "ownedCount": 30,
-            "participationPct": 80
+            "partyCount": 25,
+            "ownedCount": 31,
+            "participationPct": 81
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -48707,27 +48707,27 @@
         ]
       },
       "9": {
-        "runCount": 623,
-        "averageParticipationPct": 19.3,
-        "averageRunDepthStep": 57.5,
-        "averageRunDepthPct": 41.4,
+        "runCount": 626,
+        "averageParticipationPct": 19.7,
+        "averageRunDepthStep": 57.3,
+        "averageRunDepthPct": 41.2,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 24,
-            "ownedCount": 30,
-            "participationPct": 80
+            "partyCount": 25,
+            "ownedCount": 31,
+            "participationPct": 81
           },
           {
             "usageKey": "Team Aqua Grunt Museum2",
@@ -48796,26 +48796,26 @@
         ]
       },
       "8": {
-        "runCount": 631,
-        "averageParticipationPct": 20.0,
-        "averageRunDepthStep": 56.9,
-        "averageRunDepthPct": 40.9,
+        "runCount": 634,
+        "averageParticipationPct": 20.3,
+        "averageRunDepthStep": 56.7,
+        "averageRunDepthPct": 40.8,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 25,
-            "ownedCount": 31,
+            "partyCount": 26,
+            "ownedCount": 32,
             "participationPct": 81
           },
           {
@@ -48885,26 +48885,26 @@
         ]
       },
       "7": {
-        "runCount": 639,
-        "averageParticipationPct": 20.1,
-        "averageRunDepthStep": 56.3,
-        "averageRunDepthPct": 40.5,
+        "runCount": 642,
+        "averageParticipationPct": 20.5,
+        "averageRunDepthStep": 56.1,
+        "averageRunDepthPct": 40.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 25,
-            "ownedCount": 31,
+            "partyCount": 26,
+            "ownedCount": 32,
             "participationPct": 81
           },
           {
@@ -48974,26 +48974,26 @@
         ]
       },
       "6": {
-        "runCount": 641,
-        "averageParticipationPct": 20.4,
-        "averageRunDepthStep": 56.1,
-        "averageRunDepthPct": 40.4,
+        "runCount": 644,
+        "averageParticipationPct": 20.7,
+        "averageRunDepthStep": 55.9,
+        "averageRunDepthPct": 40.2,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 25,
-            "ownedCount": 31,
+            "partyCount": 26,
+            "ownedCount": 32,
             "participationPct": 81
           },
           {
@@ -49063,26 +49063,26 @@
         ]
       },
       "5": {
-        "runCount": 646,
-        "averageParticipationPct": 20.5,
-        "averageRunDepthStep": 55.7,
-        "averageRunDepthPct": 40.1,
+        "runCount": 649,
+        "averageParticipationPct": 20.9,
+        "averageRunDepthStep": 55.5,
+        "averageRunDepthPct": 40.0,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 25,
-            "ownedCount": 31,
+            "partyCount": 26,
+            "ownedCount": 32,
             "participationPct": 81
           },
           {
@@ -49152,26 +49152,26 @@
         ]
       },
       "4": {
-        "runCount": 667,
-        "averageParticipationPct": 22.4,
-        "averageRunDepthStep": 54.1,
-        "averageRunDepthPct": 38.9,
+        "runCount": 670,
+        "averageParticipationPct": 22.8,
+        "averageRunDepthStep": 53.9,
+        "averageRunDepthPct": 38.8,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 44,
-            "ownedCount": 52,
+            "partyCount": 45,
+            "ownedCount": 53,
             "participationPct": 85
           },
           {
@@ -49241,26 +49241,26 @@
         ]
       },
       "3": {
-        "runCount": 694,
-        "averageParticipationPct": 23.0,
-        "averageRunDepthStep": 52.1,
-        "averageRunDepthPct": 37.5,
+        "runCount": 697,
+        "averageParticipationPct": 23.3,
+        "averageRunDepthStep": 51.9,
+        "averageRunDepthPct": 37.4,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 44,
-            "ownedCount": 52,
+            "partyCount": 45,
+            "ownedCount": 53,
             "participationPct": 85
           },
           {
@@ -49330,26 +49330,26 @@
         ]
       },
       "2": {
-        "runCount": 695,
-        "averageParticipationPct": 23.1,
-        "averageRunDepthStep": 52.1,
-        "averageRunDepthPct": 37.4,
+        "runCount": 698,
+        "averageParticipationPct": 23.4,
+        "averageRunDepthStep": 51.9,
+        "averageRunDepthPct": 37.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 44,
-            "ownedCount": 52,
+            "partyCount": 45,
+            "ownedCount": 53,
             "participationPct": 85
           },
           {
@@ -49419,26 +49419,26 @@
         ]
       },
       "1": {
-        "runCount": 695,
-        "averageParticipationPct": 23.1,
-        "averageRunDepthStep": 52.1,
-        "averageRunDepthPct": 37.4,
+        "runCount": 698,
+        "averageParticipationPct": 23.4,
+        "averageRunDepthStep": 51.9,
+        "averageRunDepthPct": 37.3,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 46,
-            "ownedCount": 119,
+            "partyCount": 47,
+            "ownedCount": 120,
             "participationPct": 39
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 44,
-            "ownedCount": 52,
+            "partyCount": 45,
+            "ownedCount": 53,
             "participationPct": 85
           },
           {

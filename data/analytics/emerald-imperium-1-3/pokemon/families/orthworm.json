@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "orthworm",
   "familyMembers": [
     "Orthworm"
@@ -9621,10 +9621,10 @@
           ]
         },
         "31": {
-          "runCount": 154,
-          "averageParticipationPct": 12.6,
-          "averageRunDepthStep": 89.1,
-          "averageRunDepthPct": 64.1,
+          "runCount": 155,
+          "averageParticipationPct": 13.2,
+          "averageRunDepthStep": 88.8,
+          "averageRunDepthPct": 63.9,
           "averageBattlesUsed": 0.7,
           "topBattles": [
             {
@@ -9676,6 +9676,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -9698,22 +9706,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "30": {
-          "runCount": 156,
-          "averageParticipationPct": 12.4,
-          "averageRunDepthStep": 88.4,
-          "averageRunDepthPct": 63.6,
+          "runCount": 157,
+          "averageParticipationPct": 13.0,
+          "averageRunDepthStep": 88.0,
+          "averageRunDepthPct": 63.3,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -9765,6 +9765,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -9787,22 +9795,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "29": {
-          "runCount": 156,
-          "averageParticipationPct": 12.4,
-          "averageRunDepthStep": 88.4,
-          "averageRunDepthPct": 63.6,
+          "runCount": 157,
+          "averageParticipationPct": 13.0,
+          "averageRunDepthStep": 88.0,
+          "averageRunDepthPct": 63.3,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -9854,6 +9854,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -9876,22 +9884,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "28": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -9943,6 +9943,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -9965,22 +9973,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "27": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10032,6 +10032,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10054,22 +10062,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "26": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10121,6 +10121,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10143,22 +10151,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "25": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10210,6 +10210,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10232,22 +10240,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "24": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10299,6 +10299,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10321,22 +10329,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "23": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10388,6 +10388,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10410,22 +10418,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "22": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10477,6 +10477,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10499,22 +10507,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "21": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10566,6 +10566,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10588,22 +10596,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "20": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10655,6 +10655,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10677,22 +10685,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "19": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10744,6 +10744,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10766,22 +10774,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "18": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10833,6 +10833,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10855,22 +10863,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "17": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -10922,6 +10922,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -10944,22 +10952,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "16": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11011,6 +11011,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11033,22 +11041,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "15": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11100,6 +11100,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11122,22 +11130,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "14": {
-          "runCount": 157,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 88.0,
-          "averageRunDepthPct": 63.3,
+          "runCount": 158,
+          "averageParticipationPct": 12.9,
+          "averageRunDepthStep": 87.6,
+          "averageRunDepthPct": 63.0,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11189,6 +11189,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11211,22 +11219,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "13": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11278,6 +11278,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11300,22 +11308,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "12": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11367,6 +11367,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11389,22 +11397,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "11": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11456,6 +11456,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11478,22 +11486,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "10": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11545,6 +11545,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11567,22 +11575,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "9": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11634,6 +11634,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11656,22 +11664,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "8": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11723,6 +11723,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11745,22 +11753,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "7": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11812,6 +11812,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11834,22 +11842,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "6": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11901,6 +11901,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -11923,22 +11931,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "5": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -11990,6 +11990,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -12012,22 +12020,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "4": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -12079,6 +12079,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -12101,22 +12109,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "3": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -12168,6 +12168,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -12190,22 +12198,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "2": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -12257,6 +12257,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -12279,22 +12287,14 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         },
         "1": {
-          "runCount": 158,
-          "averageParticipationPct": 12.3,
-          "averageRunDepthStep": 87.5,
-          "averageRunDepthPct": 63.0,
+          "runCount": 159,
+          "averageParticipationPct": 12.8,
+          "averageRunDepthStep": 87.2,
+          "averageRunDepthPct": 62.7,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -12346,6 +12346,14 @@
               "participationPct": 75
             },
             {
+              "usageKey": "Rival Wally Mauville",
+              "displayName": "Rival Wally Mauville",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
               "usageKey": "656",
               "displayName": "Rival Wally Mauville",
               "leadLevel": 32,
@@ -12368,14 +12376,6 @@
               "partyCount": 3,
               "ownedCount": 7,
               "participationPct": 43
-            },
-            {
-              "usageKey": "744",
-              "displayName": "Rival Dawn Route111",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 11,
-              "participationPct": 27
             }
           ]
         }
@@ -21997,10 +21997,10 @@
         ]
       },
       "31": {
-        "runCount": 154,
-        "averageParticipationPct": 12.6,
-        "averageRunDepthStep": 89.1,
-        "averageRunDepthPct": 64.1,
+        "runCount": 155,
+        "averageParticipationPct": 13.2,
+        "averageRunDepthStep": 88.8,
+        "averageRunDepthPct": 63.9,
         "averageBattlesUsed": 0.7,
         "topBattles": [
           {
@@ -22052,6 +22052,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22074,22 +22082,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "30": {
-        "runCount": 156,
-        "averageParticipationPct": 12.4,
-        "averageRunDepthStep": 88.4,
-        "averageRunDepthPct": 63.6,
+        "runCount": 157,
+        "averageParticipationPct": 13.0,
+        "averageRunDepthStep": 88.0,
+        "averageRunDepthPct": 63.3,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22141,6 +22141,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22163,22 +22171,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "29": {
-        "runCount": 156,
-        "averageParticipationPct": 12.4,
-        "averageRunDepthStep": 88.4,
-        "averageRunDepthPct": 63.6,
+        "runCount": 157,
+        "averageParticipationPct": 13.0,
+        "averageRunDepthStep": 88.0,
+        "averageRunDepthPct": 63.3,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22230,6 +22230,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22252,22 +22260,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "28": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22319,6 +22319,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22341,22 +22349,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "27": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22408,6 +22408,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22430,22 +22438,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "26": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22497,6 +22497,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22519,22 +22527,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "25": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22586,6 +22586,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22608,22 +22616,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "24": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22675,6 +22675,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22697,22 +22705,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "23": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22764,6 +22764,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22786,22 +22794,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "22": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22853,6 +22853,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22875,22 +22883,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "21": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -22942,6 +22942,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -22964,22 +22972,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "20": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23031,6 +23031,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23053,22 +23061,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "19": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23120,6 +23120,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23142,22 +23150,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "18": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23209,6 +23209,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23231,22 +23239,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "17": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23298,6 +23298,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23320,22 +23328,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "16": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23387,6 +23387,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23409,22 +23417,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "15": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23476,6 +23476,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23498,22 +23506,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "14": {
-        "runCount": 157,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 88.0,
-        "averageRunDepthPct": 63.3,
+        "runCount": 158,
+        "averageParticipationPct": 12.9,
+        "averageRunDepthStep": 87.6,
+        "averageRunDepthPct": 63.0,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23565,6 +23565,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23587,22 +23595,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "13": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23654,6 +23654,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23676,22 +23684,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "12": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23743,6 +23743,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23765,22 +23773,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "11": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23832,6 +23832,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23854,22 +23862,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "10": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -23921,6 +23921,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -23943,22 +23951,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "9": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24010,6 +24010,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24032,22 +24040,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "8": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24099,6 +24099,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24121,22 +24129,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "7": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24188,6 +24188,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24210,22 +24218,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "6": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24277,6 +24277,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24299,22 +24307,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "5": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24366,6 +24366,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24388,22 +24396,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "4": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24455,6 +24455,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24477,22 +24485,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "3": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24544,6 +24544,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24566,22 +24574,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "2": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24633,6 +24633,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24655,22 +24663,14 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       },
       "1": {
-        "runCount": 158,
-        "averageParticipationPct": 12.3,
-        "averageRunDepthStep": 87.5,
-        "averageRunDepthPct": 63.0,
+        "runCount": 159,
+        "averageParticipationPct": 12.8,
+        "averageRunDepthStep": 87.2,
+        "averageRunDepthPct": 62.7,
         "averageBattlesUsed": 0.6,
         "topBattles": [
           {
@@ -24722,6 +24722,14 @@
             "participationPct": 75
           },
           {
+            "usageKey": "Rival Wally Mauville",
+            "displayName": "Rival Wally Mauville",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
             "usageKey": "656",
             "displayName": "Rival Wally Mauville",
             "leadLevel": 32,
@@ -24744,14 +24752,6 @@
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
-          },
-          {
-            "usageKey": "744",
-            "displayName": "Rival Dawn Route111",
-            "leadLevel": -2,
-            "partyCount": 3,
-            "ownedCount": 11,
-            "participationPct": 27
           }
         ]
       }

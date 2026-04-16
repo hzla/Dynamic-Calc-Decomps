@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "bidoof",
   "familyMembers": [
     "Bibarel",
@@ -11224,12 +11224,20 @@
           ]
         },
         "13": {
-          "runCount": 258,
-          "averageParticipationPct": 16.2,
-          "averageRunDepthStep": 52.9,
-          "averageRunDepthPct": 38.0,
+          "runCount": 259,
+          "averageParticipationPct": 16.6,
+          "averageRunDepthStep": 52.7,
+          "averageRunDepthPct": 37.9,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11239,20 +11247,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 12,
-              "ownedCount": 17,
-              "participationPct": 71
+              "partyCount": 13,
+              "ownedCount": 18,
+              "participationPct": 72
             },
             {
               "usageKey": "Hiker Lucas",
@@ -11313,12 +11313,20 @@
           ]
         },
         "12": {
-          "runCount": 261,
-          "averageParticipationPct": 16.4,
-          "averageRunDepthStep": 52.4,
-          "averageRunDepthPct": 37.7,
+          "runCount": 262,
+          "averageParticipationPct": 16.8,
+          "averageRunDepthStep": 52.2,
+          "averageRunDepthPct": 37.6,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11328,20 +11336,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 12,
-              "ownedCount": 17,
-              "participationPct": 71
+              "partyCount": 13,
+              "ownedCount": 18,
+              "participationPct": 72
             },
             {
               "usageKey": "Hiker Lucas",
@@ -11402,12 +11402,20 @@
           ]
         },
         "11": {
-          "runCount": 262,
-          "averageParticipationPct": 16.8,
-          "averageRunDepthStep": 52.2,
-          "averageRunDepthPct": 37.6,
+          "runCount": 263,
+          "averageParticipationPct": 17.1,
+          "averageRunDepthStep": 52.1,
+          "averageRunDepthPct": 37.5,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11417,20 +11425,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 12,
-              "ownedCount": 17,
-              "participationPct": 71
+              "partyCount": 13,
+              "ownedCount": 18,
+              "participationPct": 72
             },
             {
               "usageKey": "Hiker Lucas",
@@ -11491,12 +11491,20 @@
           ]
         },
         "10": {
-          "runCount": 263,
-          "averageParticipationPct": 17.1,
-          "averageRunDepthStep": 52.1,
-          "averageRunDepthPct": 37.5,
+          "runCount": 264,
+          "averageParticipationPct": 17.4,
+          "averageRunDepthStep": 51.9,
+          "averageRunDepthPct": 37.4,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11506,20 +11514,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 12,
-              "ownedCount": 17,
-              "participationPct": 71
+              "partyCount": 13,
+              "ownedCount": 18,
+              "participationPct": 72
             },
             {
               "usageKey": "Hiker Lucas",
@@ -11580,12 +11580,20 @@
           ]
         },
         "9": {
-          "runCount": 265,
-          "averageParticipationPct": 17.7,
-          "averageRunDepthStep": 51.7,
-          "averageRunDepthPct": 37.2,
+          "runCount": 266,
+          "averageParticipationPct": 18.0,
+          "averageRunDepthStep": 51.6,
+          "averageRunDepthPct": 37.1,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11595,20 +11603,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 12,
-              "ownedCount": 17,
-              "participationPct": 71
+              "partyCount": 13,
+              "ownedCount": 18,
+              "participationPct": 72
             },
             {
               "usageKey": "Hiker Lucas",
@@ -11669,12 +11669,20 @@
           ]
         },
         "8": {
-          "runCount": 271,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 50.8,
-          "averageRunDepthPct": 36.5,
+          "runCount": 272,
+          "averageParticipationPct": 19.8,
+          "averageRunDepthStep": 50.6,
+          "averageRunDepthPct": 36.4,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11684,20 +11692,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 13,
-              "ownedCount": 18,
-              "participationPct": 72
+              "partyCount": 14,
+              "ownedCount": 19,
+              "participationPct": 74
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -11758,12 +11758,20 @@
           ]
         },
         "7": {
-          "runCount": 273,
-          "averageParticipationPct": 19.7,
-          "averageRunDepthStep": 50.5,
-          "averageRunDepthPct": 36.3,
+          "runCount": 274,
+          "averageParticipationPct": 20.0,
+          "averageRunDepthStep": 50.3,
+          "averageRunDepthPct": 36.2,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11773,20 +11781,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 14,
-              "ownedCount": 19,
-              "participationPct": 74
+              "partyCount": 15,
+              "ownedCount": 20,
+              "participationPct": 75
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -11847,12 +11847,20 @@
           ]
         },
         "6": {
-          "runCount": 277,
-          "averageParticipationPct": 20.9,
-          "averageRunDepthStep": 49.8,
-          "averageRunDepthPct": 35.8,
+          "runCount": 278,
+          "averageParticipationPct": 21.2,
+          "averageRunDepthStep": 49.7,
+          "averageRunDepthPct": 35.7,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11862,20 +11870,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 16,
-              "ownedCount": 21,
-              "participationPct": 76
+              "partyCount": 17,
+              "ownedCount": 22,
+              "participationPct": 77
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -11936,12 +11936,20 @@
           ]
         },
         "5": {
-          "runCount": 280,
-          "averageParticipationPct": 20.7,
-          "averageRunDepthStep": 49.3,
-          "averageRunDepthPct": 35.5,
+          "runCount": 281,
+          "averageParticipationPct": 21.0,
+          "averageRunDepthStep": 49.2,
+          "averageRunDepthPct": 35.4,
           "averageBattlesUsed": 0.4,
           "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
+            },
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
@@ -11951,20 +11959,12 @@
               "participationPct": 89
             },
             {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
-            },
-            {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 16,
-              "ownedCount": 21,
-              "participationPct": 76
+              "partyCount": 17,
+              "ownedCount": 22,
+              "participationPct": 77
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -12025,19 +12025,19 @@
           ]
         },
         "4": {
-          "runCount": 298,
-          "averageParticipationPct": 24.5,
-          "averageRunDepthStep": 46.6,
-          "averageRunDepthPct": 33.5,
+          "runCount": 299,
+          "averageParticipationPct": 24.7,
+          "averageRunDepthStep": 46.5,
+          "averageRunDepthPct": 33.4,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 31,
-              "ownedCount": 39,
-              "participationPct": 79
+              "partyCount": 32,
+              "ownedCount": 40,
+              "participationPct": 80
             },
             {
               "usageKey": "851",
@@ -12051,9 +12051,9 @@
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -12114,35 +12114,35 @@
           ]
         },
         "3": {
-          "runCount": 310,
-          "averageParticipationPct": 27.4,
-          "averageRunDepthStep": 44.9,
-          "averageRunDepthPct": 32.3,
+          "runCount": 312,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 44.7,
+          "averageRunDepthPct": 32.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
               "leadLevel": -1,
-              "partyCount": 33,
-              "ownedCount": 36,
+              "partyCount": 34,
+              "ownedCount": 37,
               "participationPct": 92
             },
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 31,
-              "ownedCount": 39,
-              "participationPct": 79
+              "partyCount": 32,
+              "ownedCount": 40,
+              "participationPct": 80
             },
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -12203,35 +12203,35 @@
           ]
         },
         "2": {
-          "runCount": 310,
-          "averageParticipationPct": 27.4,
-          "averageRunDepthStep": 44.9,
-          "averageRunDepthPct": 32.3,
+          "runCount": 312,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 44.7,
+          "averageRunDepthPct": 32.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
               "leadLevel": -1,
-              "partyCount": 33,
-              "ownedCount": 36,
+              "partyCount": 34,
+              "ownedCount": 37,
               "participationPct": 92
             },
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 31,
-              "ownedCount": 39,
-              "participationPct": 79
+              "partyCount": 32,
+              "ownedCount": 40,
+              "participationPct": 80
             },
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -12292,35 +12292,35 @@
           ]
         },
         "1": {
-          "runCount": 310,
-          "averageParticipationPct": 27.4,
-          "averageRunDepthStep": 44.9,
-          "averageRunDepthPct": 32.3,
+          "runCount": 312,
+          "averageParticipationPct": 27.8,
+          "averageRunDepthStep": 44.7,
+          "averageRunDepthPct": 32.1,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
               "usageKey": "851",
               "displayName": "Leader Candice",
               "leadLevel": -1,
-              "partyCount": 33,
-              "ownedCount": 36,
+              "partyCount": 34,
+              "ownedCount": 37,
               "participationPct": 92
             },
             {
               "usageKey": "265",
               "displayName": "Leader Roxanne",
               "leadLevel": 14,
-              "partyCount": 31,
-              "ownedCount": 39,
-              "participationPct": 79
+              "partyCount": 32,
+              "ownedCount": 40,
+              "participationPct": 80
             },
             {
               "usageKey": "266",
               "displayName": "Leader Brawly",
               "leadLevel": 25,
-              "partyCount": 17,
-              "ownedCount": 61,
-              "participationPct": 28
+              "partyCount": 18,
+              "ownedCount": 62,
+              "participationPct": 29
             },
             {
               "usageKey": "Rival Brendan Rustboro Torchic",
@@ -34183,12 +34183,20 @@
         ]
       },
       "13": {
-        "runCount": 267,
-        "averageParticipationPct": 15.7,
-        "averageRunDepthStep": 53.2,
-        "averageRunDepthPct": 38.3,
+        "runCount": 268,
+        "averageParticipationPct": 16.0,
+        "averageRunDepthStep": 53.0,
+        "averageRunDepthPct": 38.2,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34198,20 +34206,12 @@
             "participationPct": 85
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 12,
-            "ownedCount": 18,
-            "participationPct": 67
+            "partyCount": 13,
+            "ownedCount": 19,
+            "participationPct": 68
           },
           {
             "usageKey": "Hiker Lucas",
@@ -34272,12 +34272,20 @@
         ]
       },
       "12": {
-        "runCount": 270,
-        "averageParticipationPct": 15.9,
-        "averageRunDepthStep": 52.7,
-        "averageRunDepthPct": 37.9,
+        "runCount": 271,
+        "averageParticipationPct": 16.2,
+        "averageRunDepthStep": 52.6,
+        "averageRunDepthPct": 37.8,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34287,20 +34295,12 @@
             "participationPct": 85
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 12,
-            "ownedCount": 18,
-            "participationPct": 67
+            "partyCount": 13,
+            "ownedCount": 19,
+            "participationPct": 68
           },
           {
             "usageKey": "Hiker Lucas",
@@ -34361,12 +34361,20 @@
         ]
       },
       "11": {
-        "runCount": 271,
-        "averageParticipationPct": 16.2,
-        "averageRunDepthStep": 52.6,
-        "averageRunDepthPct": 37.8,
+        "runCount": 272,
+        "averageParticipationPct": 16.5,
+        "averageRunDepthStep": 52.4,
+        "averageRunDepthPct": 37.7,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34376,20 +34384,12 @@
             "participationPct": 85
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 12,
-            "ownedCount": 18,
-            "participationPct": 67
+            "partyCount": 13,
+            "ownedCount": 19,
+            "participationPct": 68
           },
           {
             "usageKey": "Hiker Lucas",
@@ -34450,12 +34450,20 @@
         ]
       },
       "10": {
-        "runCount": 272,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 52.4,
-        "averageRunDepthPct": 37.7,
+        "runCount": 273,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 52.3,
+        "averageRunDepthPct": 37.6,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34465,20 +34473,12 @@
             "participationPct": 85
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 12,
-            "ownedCount": 18,
-            "participationPct": 67
+            "partyCount": 13,
+            "ownedCount": 19,
+            "participationPct": 68
           },
           {
             "usageKey": "Hiker Lucas",
@@ -34539,12 +34539,20 @@
         ]
       },
       "9": {
-        "runCount": 274,
-        "averageParticipationPct": 17.1,
-        "averageRunDepthStep": 52.1,
-        "averageRunDepthPct": 37.5,
+        "runCount": 275,
+        "averageParticipationPct": 17.4,
+        "averageRunDepthStep": 52.0,
+        "averageRunDepthPct": 37.4,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34554,20 +34562,12 @@
             "participationPct": 85
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 12,
-            "ownedCount": 18,
-            "participationPct": 67
+            "partyCount": 13,
+            "ownedCount": 19,
+            "participationPct": 68
           },
           {
             "usageKey": "Hiker Lucas",
@@ -34628,12 +34628,20 @@
         ]
       },
       "8": {
-        "runCount": 280,
-        "averageParticipationPct": 18.7,
-        "averageRunDepthStep": 51.2,
-        "averageRunDepthPct": 36.8,
+        "runCount": 281,
+        "averageParticipationPct": 19.0,
+        "averageRunDepthStep": 51.0,
+        "averageRunDepthPct": 36.7,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34643,20 +34651,12 @@
             "participationPct": 81
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 13,
-            "ownedCount": 20,
-            "participationPct": 65
+            "partyCount": 14,
+            "ownedCount": 21,
+            "participationPct": 67
           },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
@@ -34717,12 +34717,20 @@
         ]
       },
       "7": {
-        "runCount": 282,
-        "averageParticipationPct": 18.9,
-        "averageRunDepthStep": 50.9,
-        "averageRunDepthPct": 36.6,
+        "runCount": 283,
+        "averageParticipationPct": 19.2,
+        "averageRunDepthStep": 50.7,
+        "averageRunDepthPct": 36.5,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34732,20 +34740,12 @@
             "participationPct": 81
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 14,
-            "ownedCount": 21,
-            "participationPct": 67
+            "partyCount": 15,
+            "ownedCount": 22,
+            "participationPct": 68
           },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
@@ -34806,12 +34806,20 @@
         ]
       },
       "6": {
-        "runCount": 286,
-        "averageParticipationPct": 20.1,
-        "averageRunDepthStep": 50.2,
-        "averageRunDepthPct": 36.1,
+        "runCount": 287,
+        "averageParticipationPct": 20.3,
+        "averageRunDepthStep": 50.1,
+        "averageRunDepthPct": 36.0,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34821,20 +34829,12 @@
             "participationPct": 81
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 16,
-            "ownedCount": 23,
-            "participationPct": 70
+            "partyCount": 17,
+            "ownedCount": 24,
+            "participationPct": 71
           },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
@@ -34895,12 +34895,20 @@
         ]
       },
       "5": {
-        "runCount": 289,
-        "averageParticipationPct": 19.9,
-        "averageRunDepthStep": 49.8,
-        "averageRunDepthPct": 35.8,
+        "runCount": 290,
+        "averageParticipationPct": 20.1,
+        "averageRunDepthStep": 49.6,
+        "averageRunDepthPct": 35.7,
         "averageBattlesUsed": 0.4,
         "topBattles": [
+          {
+            "usageKey": "266",
+            "displayName": "Leader Brawly",
+            "leadLevel": 25,
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
+          },
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
@@ -34910,20 +34918,12 @@
             "participationPct": 81
           },
           {
-            "usageKey": "266",
-            "displayName": "Leader Brawly",
-            "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
-          },
-          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 16,
-            "ownedCount": 23,
-            "participationPct": 70
+            "partyCount": 17,
+            "ownedCount": 24,
+            "participationPct": 71
           },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
@@ -34984,18 +34984,18 @@
         ]
       },
       "4": {
-        "runCount": 307,
-        "averageParticipationPct": 23.6,
-        "averageRunDepthStep": 47.1,
-        "averageRunDepthPct": 33.9,
+        "runCount": 308,
+        "averageParticipationPct": 23.8,
+        "averageRunDepthStep": 47.0,
+        "averageRunDepthPct": 33.8,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 31,
-            "ownedCount": 41,
+            "partyCount": 32,
+            "ownedCount": 42,
             "participationPct": 76
           },
           {
@@ -35010,9 +35010,9 @@
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
           },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
@@ -35073,35 +35073,35 @@
         ]
       },
       "3": {
-        "runCount": 320,
-        "averageParticipationPct": 26.7,
-        "averageRunDepthStep": 45.3,
-        "averageRunDepthPct": 32.6,
+        "runCount": 322,
+        "averageParticipationPct": 27.1,
+        "averageRunDepthStep": 45.1,
+        "averageRunDepthPct": 32.4,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
-            "partyCount": 34,
-            "ownedCount": 39,
-            "participationPct": 87
+            "partyCount": 35,
+            "ownedCount": 40,
+            "participationPct": 88
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 31,
-            "ownedCount": 41,
+            "partyCount": 32,
+            "ownedCount": 42,
             "participationPct": 76
           },
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
           },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
@@ -35162,35 +35162,35 @@
         ]
       },
       "2": {
-        "runCount": 320,
-        "averageParticipationPct": 26.7,
-        "averageRunDepthStep": 45.3,
-        "averageRunDepthPct": 32.6,
+        "runCount": 322,
+        "averageParticipationPct": 27.1,
+        "averageRunDepthStep": 45.1,
+        "averageRunDepthPct": 32.4,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
-            "partyCount": 34,
-            "ownedCount": 39,
-            "participationPct": 87
+            "partyCount": 35,
+            "ownedCount": 40,
+            "participationPct": 88
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 31,
-            "ownedCount": 41,
+            "partyCount": 32,
+            "ownedCount": 42,
             "participationPct": 76
           },
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
           },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",
@@ -35251,35 +35251,35 @@
         ]
       },
       "1": {
-        "runCount": 320,
-        "averageParticipationPct": 26.7,
-        "averageRunDepthStep": 45.3,
-        "averageRunDepthPct": 32.6,
+        "runCount": 322,
+        "averageParticipationPct": 27.1,
+        "averageRunDepthStep": 45.1,
+        "averageRunDepthPct": 32.4,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
-            "partyCount": 34,
-            "ownedCount": 39,
-            "participationPct": 87
+            "partyCount": 35,
+            "ownedCount": 40,
+            "participationPct": 88
           },
           {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
-            "partyCount": 31,
-            "ownedCount": 41,
+            "partyCount": 32,
+            "ownedCount": 42,
             "participationPct": 76
           },
           {
             "usageKey": "266",
             "displayName": "Leader Brawly",
             "leadLevel": 25,
-            "partyCount": 17,
-            "ownedCount": 63,
-            "participationPct": 27
+            "partyCount": 18,
+            "ownedCount": 64,
+            "participationPct": 28
           },
           {
             "usageKey": "Rival Brendan Rustboro Torchic",

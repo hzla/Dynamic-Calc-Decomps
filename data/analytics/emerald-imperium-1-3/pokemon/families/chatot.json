@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "chatot",
   "familyMembers": [
     "Chatot"
@@ -6856,7 +6856,7 @@
         },
         "43": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -6886,20 +6886,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -6945,7 +6945,7 @@
         },
         "42": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -6975,20 +6975,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7034,7 +7034,7 @@
         },
         "41": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7064,20 +7064,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7123,7 +7123,7 @@
         },
         "40": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7153,20 +7153,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7212,7 +7212,7 @@
         },
         "39": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7242,20 +7242,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7301,7 +7301,7 @@
         },
         "38": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7331,20 +7331,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7390,7 +7390,7 @@
         },
         "37": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7420,20 +7420,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7479,7 +7479,7 @@
         },
         "36": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7509,20 +7509,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7568,7 +7568,7 @@
         },
         "35": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7598,20 +7598,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7657,7 +7657,7 @@
         },
         "34": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7687,20 +7687,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7746,7 +7746,7 @@
         },
         "33": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7776,20 +7776,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7835,7 +7835,7 @@
         },
         "32": {
           "runCount": 12,
-          "averageParticipationPct": 4.2,
+          "averageParticipationPct": 3.8,
           "averageRunDepthStep": 81.9,
           "averageRunDepthPct": 58.9,
           "averageBattlesUsed": 0.4,
@@ -7865,20 +7865,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -7924,7 +7924,7 @@
         },
         "31": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -7954,6 +7954,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -7968,14 +7976,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8013,7 +8013,7 @@
         },
         "30": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8043,6 +8043,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8057,14 +8065,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8102,7 +8102,7 @@
         },
         "29": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8132,6 +8132,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8146,14 +8154,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8191,7 +8191,7 @@
         },
         "28": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8221,6 +8221,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8235,14 +8243,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8280,7 +8280,7 @@
         },
         "27": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8310,6 +8310,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8324,14 +8332,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8369,7 +8369,7 @@
         },
         "26": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8399,6 +8399,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8413,14 +8421,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8458,7 +8458,7 @@
         },
         "25": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8488,6 +8488,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8502,14 +8510,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8547,7 +8547,7 @@
         },
         "24": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8577,6 +8577,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8591,14 +8599,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8636,7 +8636,7 @@
         },
         "23": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8666,6 +8666,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8680,14 +8688,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8725,7 +8725,7 @@
         },
         "22": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8755,6 +8755,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8769,14 +8777,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8814,7 +8814,7 @@
         },
         "21": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8844,6 +8844,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8858,14 +8866,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8903,7 +8903,7 @@
         },
         "20": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -8933,6 +8933,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -8947,14 +8955,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -8992,7 +8992,7 @@
         },
         "19": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9022,6 +9022,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9036,14 +9044,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9081,7 +9081,7 @@
         },
         "18": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9111,6 +9111,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9125,14 +9133,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9170,7 +9170,7 @@
         },
         "17": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9200,6 +9200,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9214,14 +9222,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9259,7 +9259,7 @@
         },
         "16": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9289,6 +9289,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9303,14 +9311,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9348,7 +9348,7 @@
         },
         "15": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9378,6 +9378,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9392,14 +9400,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9437,7 +9437,7 @@
         },
         "14": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9467,6 +9467,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9481,14 +9489,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9526,7 +9526,7 @@
         },
         "13": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9556,6 +9556,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9570,14 +9578,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9615,7 +9615,7 @@
         },
         "12": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9645,6 +9645,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9659,14 +9667,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9704,7 +9704,7 @@
         },
         "11": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9734,6 +9734,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9748,14 +9756,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9793,7 +9793,7 @@
         },
         "10": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9823,6 +9823,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9837,14 +9845,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9882,7 +9882,7 @@
         },
         "9": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -9912,6 +9912,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -9926,14 +9934,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -9971,7 +9971,7 @@
         },
         "8": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -10001,6 +10001,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -10015,14 +10023,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -10060,7 +10060,7 @@
         },
         "7": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -10090,6 +10090,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -10104,14 +10112,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -10149,7 +10149,7 @@
         },
         "6": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -10179,6 +10179,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -10193,14 +10201,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -10238,7 +10238,7 @@
         },
         "5": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -10268,6 +10268,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -10282,14 +10290,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -10327,7 +10327,7 @@
         },
         "4": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -10357,6 +10357,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -10371,14 +10379,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -10416,7 +10416,7 @@
         },
         "3": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -10446,6 +10446,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -10460,14 +10468,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -10505,7 +10505,7 @@
         },
         "2": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -10535,6 +10535,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -10549,14 +10557,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -10594,7 +10594,7 @@
         },
         "1": {
           "runCount": 13,
-          "averageParticipationPct": 4.9,
+          "averageParticipationPct": 4.6,
           "averageRunDepthStep": 78.0,
           "averageRunDepthPct": 56.1,
           "averageBattlesUsed": 0.5,
@@ -10624,6 +10624,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
@@ -10638,14 +10646,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 0,
-              "participationPct": 0
             },
             {
               "usageKey": "7",
@@ -17534,7 +17534,7 @@
       },
       "43": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -17564,20 +17564,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -17623,7 +17623,7 @@
       },
       "42": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -17653,20 +17653,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -17712,7 +17712,7 @@
       },
       "41": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -17742,20 +17742,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -17801,7 +17801,7 @@
       },
       "40": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -17831,20 +17831,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -17890,7 +17890,7 @@
       },
       "39": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -17920,20 +17920,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -17979,7 +17979,7 @@
       },
       "38": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -18009,20 +18009,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18068,7 +18068,7 @@
       },
       "37": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -18098,20 +18098,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18157,7 +18157,7 @@
       },
       "36": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -18187,20 +18187,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18246,7 +18246,7 @@
       },
       "35": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -18276,20 +18276,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18335,7 +18335,7 @@
       },
       "34": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -18365,20 +18365,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18424,7 +18424,7 @@
       },
       "33": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -18454,20 +18454,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18513,7 +18513,7 @@
       },
       "32": {
         "runCount": 12,
-        "averageParticipationPct": 4.2,
+        "averageParticipationPct": 3.8,
         "averageRunDepthStep": 81.9,
         "averageRunDepthPct": 58.9,
         "averageBattlesUsed": 0.4,
@@ -18543,20 +18543,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18602,7 +18602,7 @@
       },
       "31": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -18632,6 +18632,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -18646,14 +18654,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18691,7 +18691,7 @@
       },
       "30": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -18721,6 +18721,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -18735,14 +18743,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18780,7 +18780,7 @@
       },
       "29": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -18810,6 +18810,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -18824,14 +18832,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18869,7 +18869,7 @@
       },
       "28": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -18899,6 +18899,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -18913,14 +18921,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -18958,7 +18958,7 @@
       },
       "27": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -18988,6 +18988,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19002,14 +19010,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19047,7 +19047,7 @@
       },
       "26": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19077,6 +19077,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19091,14 +19099,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19136,7 +19136,7 @@
       },
       "25": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19166,6 +19166,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19180,14 +19188,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19225,7 +19225,7 @@
       },
       "24": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19255,6 +19255,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19269,14 +19277,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19314,7 +19314,7 @@
       },
       "23": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19344,6 +19344,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19358,14 +19366,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19403,7 +19403,7 @@
       },
       "22": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19433,6 +19433,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19447,14 +19455,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19492,7 +19492,7 @@
       },
       "21": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19522,6 +19522,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19536,14 +19544,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19581,7 +19581,7 @@
       },
       "20": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19611,6 +19611,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19625,14 +19633,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19670,7 +19670,7 @@
       },
       "19": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19700,6 +19700,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19714,14 +19722,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19759,7 +19759,7 @@
       },
       "18": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19789,6 +19789,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19803,14 +19811,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19848,7 +19848,7 @@
       },
       "17": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19878,6 +19878,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19892,14 +19900,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -19937,7 +19937,7 @@
       },
       "16": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -19967,6 +19967,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -19981,14 +19989,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20026,7 +20026,7 @@
       },
       "15": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20056,6 +20056,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20070,14 +20078,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20115,7 +20115,7 @@
       },
       "14": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20145,6 +20145,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20159,14 +20167,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20204,7 +20204,7 @@
       },
       "13": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20234,6 +20234,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20248,14 +20256,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20293,7 +20293,7 @@
       },
       "12": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20323,6 +20323,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20337,14 +20345,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20382,7 +20382,7 @@
       },
       "11": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20412,6 +20412,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20426,14 +20434,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20471,7 +20471,7 @@
       },
       "10": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20501,6 +20501,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20515,14 +20523,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20560,7 +20560,7 @@
       },
       "9": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20590,6 +20590,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20604,14 +20612,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20649,7 +20649,7 @@
       },
       "8": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20679,6 +20679,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20693,14 +20701,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20738,7 +20738,7 @@
       },
       "7": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20768,6 +20768,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20782,14 +20790,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20827,7 +20827,7 @@
       },
       "6": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20857,6 +20857,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20871,14 +20879,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -20916,7 +20916,7 @@
       },
       "5": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -20946,6 +20946,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -20960,14 +20968,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -21005,7 +21005,7 @@
       },
       "4": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -21035,6 +21035,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -21049,14 +21057,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -21094,7 +21094,7 @@
       },
       "3": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -21124,6 +21124,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -21138,14 +21146,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -21183,7 +21183,7 @@
       },
       "2": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -21213,6 +21213,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -21227,14 +21235,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",
@@ -21272,7 +21272,7 @@
       },
       "1": {
         "runCount": 13,
-        "averageParticipationPct": 4.9,
+        "averageParticipationPct": 4.6,
         "averageRunDepthStep": 78.0,
         "averageRunDepthPct": 56.1,
         "averageBattlesUsed": 0.5,
@@ -21302,6 +21302,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "265",
+            "displayName": "Leader Roxanne",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
@@ -21316,14 +21324,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "265",
-            "displayName": "Leader Roxanne",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 0,
-            "participationPct": 0
           },
           {
             "usageKey": "7",

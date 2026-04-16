@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "skarmory",
   "familyMembers": [
     "Skarmory"
@@ -4193,7 +4193,7 @@
         },
         "92": {
           "runCount": 106,
-          "averageParticipationPct": 11.6,
+          "averageParticipationPct": 11.0,
           "averageRunDepthStep": 120.5,
           "averageRunDepthPct": 86.7,
           "averageBattlesUsed": 1.1,
@@ -4282,7 +4282,7 @@
         },
         "91": {
           "runCount": 107,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 10.9,
           "averageRunDepthStep": 120.2,
           "averageRunDepthPct": 86.5,
           "averageBattlesUsed": 1.0,
@@ -4371,7 +4371,7 @@
         },
         "90": {
           "runCount": 110,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 10.7,
           "averageRunDepthStep": 119.4,
           "averageRunDepthPct": 85.9,
           "averageBattlesUsed": 1.0,
@@ -4460,7 +4460,7 @@
         },
         "89": {
           "runCount": 115,
-          "averageParticipationPct": 12.6,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 118.1,
           "averageRunDepthPct": 84.9,
           "averageBattlesUsed": 1.0,
@@ -4549,7 +4549,7 @@
         },
         "88": {
           "runCount": 118,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 117.3,
           "averageRunDepthPct": 84.4,
           "averageBattlesUsed": 1.0,
@@ -4638,7 +4638,7 @@
         },
         "87": {
           "runCount": 119,
-          "averageParticipationPct": 12.7,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 117.1,
           "averageRunDepthPct": 84.2,
           "averageBattlesUsed": 1.0,
@@ -4727,7 +4727,7 @@
         },
         "86": {
           "runCount": 121,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 116.5,
           "averageRunDepthPct": 83.8,
           "averageBattlesUsed": 1.0,
@@ -4816,7 +4816,7 @@
         },
         "85": {
           "runCount": 121,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 116.5,
           "averageRunDepthPct": 83.8,
           "averageBattlesUsed": 1.0,
@@ -4905,7 +4905,7 @@
         },
         "84": {
           "runCount": 121,
-          "averageParticipationPct": 12.5,
+          "averageParticipationPct": 12.0,
           "averageRunDepthStep": 116.5,
           "averageRunDepthPct": 83.8,
           "averageBattlesUsed": 1.0,
@@ -4994,7 +4994,7 @@
         },
         "83": {
           "runCount": 123,
-          "averageParticipationPct": 12.3,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 116.0,
           "averageRunDepthPct": 83.4,
           "averageBattlesUsed": 1.0,
@@ -5083,7 +5083,7 @@
         },
         "82": {
           "runCount": 127,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 114.9,
           "averageRunDepthPct": 82.7,
           "averageBattlesUsed": 1.0,
@@ -5172,7 +5172,7 @@
         },
         "81": {
           "runCount": 129,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 1.0,
@@ -5261,7 +5261,7 @@
         },
         "80": {
           "runCount": 129,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 114.4,
           "averageRunDepthPct": 82.3,
           "averageBattlesUsed": 1.0,
@@ -5350,7 +5350,7 @@
         },
         "79": {
           "runCount": 132,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 12.7,
           "averageRunDepthStep": 113.6,
           "averageRunDepthPct": 81.7,
           "averageBattlesUsed": 0.9,
@@ -5439,7 +5439,7 @@
         },
         "78": {
           "runCount": 133,
-          "averageParticipationPct": 13.1,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 113.3,
           "averageRunDepthPct": 81.5,
           "averageBattlesUsed": 0.9,
@@ -5528,7 +5528,7 @@
         },
         "77": {
           "runCount": 133,
-          "averageParticipationPct": 13.1,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 113.3,
           "averageRunDepthPct": 81.5,
           "averageBattlesUsed": 0.9,
@@ -5617,7 +5617,7 @@
         },
         "76": {
           "runCount": 133,
-          "averageParticipationPct": 13.1,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 113.3,
           "averageRunDepthPct": 81.5,
           "averageBattlesUsed": 0.9,
@@ -5706,7 +5706,7 @@
         },
         "75": {
           "runCount": 134,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 113.0,
           "averageRunDepthPct": 81.3,
           "averageBattlesUsed": 0.9,
@@ -5795,7 +5795,7 @@
         },
         "74": {
           "runCount": 134,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 113.0,
           "averageRunDepthPct": 81.3,
           "averageBattlesUsed": 0.9,
@@ -5884,7 +5884,7 @@
         },
         "73": {
           "runCount": 135,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 112.7,
           "averageRunDepthPct": 81.1,
           "averageBattlesUsed": 0.9,
@@ -5973,7 +5973,7 @@
         },
         "72": {
           "runCount": 138,
-          "averageParticipationPct": 14.1,
+          "averageParticipationPct": 13.6,
           "averageRunDepthStep": 111.9,
           "averageRunDepthPct": 80.5,
           "averageBattlesUsed": 0.9,
@@ -6062,7 +6062,7 @@
         },
         "71": {
           "runCount": 138,
-          "averageParticipationPct": 14.1,
+          "averageParticipationPct": 13.6,
           "averageRunDepthStep": 111.9,
           "averageRunDepthPct": 80.5,
           "averageBattlesUsed": 0.9,
@@ -6151,7 +6151,7 @@
         },
         "70": {
           "runCount": 139,
-          "averageParticipationPct": 14.0,
+          "averageParticipationPct": 13.5,
           "averageRunDepthStep": 111.6,
           "averageRunDepthPct": 80.3,
           "averageBattlesUsed": 0.9,
@@ -6240,7 +6240,7 @@
         },
         "69": {
           "runCount": 142,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 110.7,
           "averageRunDepthPct": 79.6,
           "averageBattlesUsed": 0.9,
@@ -6329,7 +6329,7 @@
         },
         "68": {
           "runCount": 147,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 109.2,
           "averageRunDepthPct": 78.6,
           "averageBattlesUsed": 0.9,
@@ -6418,7 +6418,7 @@
         },
         "67": {
           "runCount": 150,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 108.4,
           "averageRunDepthPct": 78.0,
           "averageBattlesUsed": 0.9,
@@ -6484,8 +6484,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
+              "ownedCount": 6,
+              "participationPct": 50
             },
             {
               "usageKey": "274",
@@ -6507,7 +6507,7 @@
         },
         "66": {
           "runCount": 151,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 108.1,
           "averageRunDepthPct": 77.8,
           "averageBattlesUsed": 0.9,
@@ -6573,8 +6573,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
+              "ownedCount": 6,
+              "participationPct": 50
             },
             {
               "usageKey": "274",
@@ -6596,7 +6596,7 @@
         },
         "65": {
           "runCount": 151,
-          "averageParticipationPct": 13.5,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 108.1,
           "averageRunDepthPct": 77.8,
           "averageBattlesUsed": 0.9,
@@ -6662,8 +6662,8 @@
               "displayName": "School Kid Ted",
               "leadLevel": null,
               "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
+              "ownedCount": 6,
+              "participationPct": 50
             },
             {
               "usageKey": "274",
@@ -6685,7 +6685,7 @@
         },
         "64": {
           "runCount": 153,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 107.5,
           "averageRunDepthPct": 77.3,
           "averageBattlesUsed": 0.8,
@@ -6755,17 +6755,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -6774,7 +6774,7 @@
         },
         "63": {
           "runCount": 155,
-          "averageParticipationPct": 13.1,
+          "averageParticipationPct": 12.7,
           "averageRunDepthStep": 106.9,
           "averageRunDepthPct": 76.9,
           "averageBattlesUsed": 0.8,
@@ -6844,17 +6844,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -6863,7 +6863,7 @@
         },
         "62": {
           "runCount": 157,
-          "averageParticipationPct": 12.9,
+          "averageParticipationPct": 12.5,
           "averageRunDepthStep": 106.4,
           "averageRunDepthPct": 76.5,
           "averageBattlesUsed": 0.8,
@@ -6933,17 +6933,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -6952,7 +6952,7 @@
         },
         "61": {
           "runCount": 158,
-          "averageParticipationPct": 12.9,
+          "averageParticipationPct": 12.4,
           "averageRunDepthStep": 106.1,
           "averageRunDepthPct": 76.3,
           "averageBattlesUsed": 0.8,
@@ -7022,17 +7022,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7041,7 +7041,7 @@
         },
         "60": {
           "runCount": 159,
-          "averageParticipationPct": 12.8,
+          "averageParticipationPct": 12.4,
           "averageRunDepthStep": 105.8,
           "averageRunDepthPct": 76.1,
           "averageBattlesUsed": 0.8,
@@ -7111,17 +7111,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7130,7 +7130,7 @@
         },
         "59": {
           "runCount": 161,
-          "averageParticipationPct": 12.6,
+          "averageParticipationPct": 12.2,
           "averageRunDepthStep": 105.2,
           "averageRunDepthPct": 75.7,
           "averageBattlesUsed": 0.8,
@@ -7200,17 +7200,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7219,7 +7219,7 @@
         },
         "58": {
           "runCount": 164,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 104.3,
           "averageRunDepthPct": 75.1,
           "averageBattlesUsed": 0.8,
@@ -7289,17 +7289,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7308,7 +7308,7 @@
         },
         "57": {
           "runCount": 164,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 104.3,
           "averageRunDepthPct": 75.1,
           "averageBattlesUsed": 0.8,
@@ -7378,17 +7378,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7397,7 +7397,7 @@
         },
         "56": {
           "runCount": 164,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 104.3,
           "averageRunDepthPct": 75.1,
           "averageBattlesUsed": 0.8,
@@ -7467,17 +7467,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7486,7 +7486,7 @@
         },
         "55": {
           "runCount": 165,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 104.0,
           "averageRunDepthPct": 74.8,
           "averageBattlesUsed": 0.8,
@@ -7556,17 +7556,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7575,7 +7575,7 @@
         },
         "54": {
           "runCount": 166,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 12.8,
           "averageRunDepthStep": 103.7,
           "averageRunDepthPct": 74.6,
           "averageBattlesUsed": 0.8,
@@ -7645,17 +7645,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7664,7 +7664,7 @@
         },
         "53": {
           "runCount": 167,
-          "averageParticipationPct": 13.1,
+          "averageParticipationPct": 12.7,
           "averageRunDepthStep": 103.4,
           "averageRunDepthPct": 74.4,
           "averageBattlesUsed": 0.8,
@@ -7734,17 +7734,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7753,7 +7753,7 @@
         },
         "52": {
           "runCount": 168,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 103.1,
           "averageRunDepthPct": 74.2,
           "averageBattlesUsed": 0.8,
@@ -7823,17 +7823,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7842,7 +7842,7 @@
         },
         "51": {
           "runCount": 168,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 103.1,
           "averageRunDepthPct": 74.2,
           "averageBattlesUsed": 0.8,
@@ -7912,17 +7912,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -7931,7 +7931,7 @@
         },
         "50": {
           "runCount": 168,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.6,
           "averageRunDepthStep": 103.1,
           "averageRunDepthPct": 74.2,
           "averageBattlesUsed": 0.8,
@@ -8001,17 +8001,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -8020,7 +8020,7 @@
         },
         "49": {
           "runCount": 181,
-          "averageParticipationPct": 12.6,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 99.2,
           "averageRunDepthPct": 71.4,
           "averageBattlesUsed": 0.8,
@@ -8090,17 +8090,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -8109,7 +8109,7 @@
         },
         "48": {
           "runCount": 184,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 98.4,
           "averageRunDepthPct": 70.8,
           "averageBattlesUsed": 0.7,
@@ -8179,17 +8179,17 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
               "usageKey": "449",
               "displayName": "Battle Girl Jenny",
               "leadLevel": -1,
+              "partyCount": 3,
+              "ownedCount": 8,
+              "participationPct": 38
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
               "partyCount": 3,
               "ownedCount": 8,
               "participationPct": 38
@@ -8198,7 +8198,7 @@
         },
         "47": {
           "runCount": 193,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 96.0,
           "averageRunDepthPct": 69.1,
           "averageBattlesUsed": 0.7,
@@ -8276,18 +8276,18 @@
               "participationPct": 43
             },
             {
-              "usageKey": "School Kid Ted",
-              "displayName": "School Kid Ted",
-              "leadLevel": null,
+              "usageKey": "449",
+              "displayName": "Battle Girl Jenny",
+              "leadLevel": -1,
               "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
+              "ownedCount": 8,
+              "participationPct": 38
             }
           ]
         },
         "46": {
           "runCount": 195,
-          "averageParticipationPct": 13.4,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 95.5,
           "averageRunDepthPct": 68.7,
           "averageBattlesUsed": 0.7,
@@ -8376,7 +8376,7 @@
         },
         "45": {
           "runCount": 195,
-          "averageParticipationPct": 13.4,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 95.5,
           "averageRunDepthPct": 68.7,
           "averageBattlesUsed": 0.7,
@@ -8465,7 +8465,7 @@
         },
         "44": {
           "runCount": 196,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.0,
           "averageRunDepthStep": 95.2,
           "averageRunDepthPct": 68.5,
           "averageBattlesUsed": 0.7,
@@ -8554,7 +8554,7 @@
         },
         "43": {
           "runCount": 201,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.4,
           "averageRunDepthStep": 93.9,
           "averageRunDepthPct": 67.6,
           "averageBattlesUsed": 0.7,
@@ -8643,7 +8643,7 @@
         },
         "42": {
           "runCount": 202,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 93.7,
           "averageRunDepthPct": 67.4,
           "averageBattlesUsed": 0.7,
@@ -8732,7 +8732,7 @@
         },
         "41": {
           "runCount": 202,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 93.7,
           "averageRunDepthPct": 67.4,
           "averageBattlesUsed": 0.7,
@@ -8821,7 +8821,7 @@
         },
         "40": {
           "runCount": 202,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.3,
           "averageRunDepthStep": 93.7,
           "averageRunDepthPct": 67.4,
           "averageBattlesUsed": 0.7,
@@ -8910,7 +8910,7 @@
         },
         "39": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -8999,7 +8999,7 @@
         },
         "38": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -9088,7 +9088,7 @@
         },
         "37": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -9177,7 +9177,7 @@
         },
         "36": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -9266,7 +9266,7 @@
         },
         "35": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -9355,7 +9355,7 @@
         },
         "34": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -9444,7 +9444,7 @@
         },
         "33": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -9533,7 +9533,7 @@
         },
         "32": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -9622,7 +9622,7 @@
         },
         "31": {
           "runCount": 203,
-          "averageParticipationPct": 13.6,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 93.4,
           "averageRunDepthPct": 67.2,
           "averageBattlesUsed": 0.7,
@@ -9711,7 +9711,7 @@
         },
         "30": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -9800,7 +9800,7 @@
         },
         "29": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -9889,7 +9889,7 @@
         },
         "28": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -9978,7 +9978,7 @@
         },
         "27": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10067,7 +10067,7 @@
         },
         "26": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10156,7 +10156,7 @@
         },
         "25": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10245,7 +10245,7 @@
         },
         "24": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10334,7 +10334,7 @@
         },
         "23": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10423,7 +10423,7 @@
         },
         "22": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10512,7 +10512,7 @@
         },
         "21": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10601,7 +10601,7 @@
         },
         "20": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10690,7 +10690,7 @@
         },
         "19": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10779,7 +10779,7 @@
         },
         "18": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10868,7 +10868,7 @@
         },
         "17": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -10957,7 +10957,7 @@
         },
         "16": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -11046,7 +11046,7 @@
         },
         "15": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -11135,7 +11135,7 @@
         },
         "14": {
           "runCount": 205,
-          "averageParticipationPct": 14.4,
+          "averageParticipationPct": 14.1,
           "averageRunDepthStep": 92.8,
           "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.7,
@@ -11224,7 +11224,7 @@
         },
         "13": {
           "runCount": 207,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.7,
@@ -11313,7 +11313,7 @@
         },
         "12": {
           "runCount": 207,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.7,
@@ -11402,7 +11402,7 @@
         },
         "11": {
           "runCount": 207,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.7,
@@ -11491,7 +11491,7 @@
         },
         "10": {
           "runCount": 207,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.7,
@@ -11580,7 +11580,7 @@
         },
         "9": {
           "runCount": 207,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.7,
@@ -11669,7 +11669,7 @@
         },
         "8": {
           "runCount": 207,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.7,
@@ -11758,7 +11758,7 @@
         },
         "7": {
           "runCount": 207,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.7,
@@ -11847,7 +11847,7 @@
         },
         "6": {
           "runCount": 207,
-          "averageParticipationPct": 15.2,
+          "averageParticipationPct": 14.9,
           "averageRunDepthStep": 92.0,
           "averageRunDepthPct": 66.2,
           "averageBattlesUsed": 0.7,
@@ -11936,7 +11936,7 @@
         },
         "5": {
           "runCount": 208,
-          "averageParticipationPct": 15.7,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 91.6,
           "averageRunDepthPct": 65.9,
           "averageBattlesUsed": 0.7,
@@ -12025,7 +12025,7 @@
         },
         "4": {
           "runCount": 208,
-          "averageParticipationPct": 15.7,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 91.6,
           "averageRunDepthPct": 65.9,
           "averageBattlesUsed": 0.7,
@@ -12114,7 +12114,7 @@
         },
         "3": {
           "runCount": 208,
-          "averageParticipationPct": 15.7,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 91.6,
           "averageRunDepthPct": 65.9,
           "averageBattlesUsed": 0.7,
@@ -12203,7 +12203,7 @@
         },
         "2": {
           "runCount": 208,
-          "averageParticipationPct": 15.7,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 91.6,
           "averageRunDepthPct": 65.9,
           "averageBattlesUsed": 0.7,
@@ -12292,7 +12292,7 @@
         },
         "1": {
           "runCount": 208,
-          "averageParticipationPct": 15.7,
+          "averageParticipationPct": 15.3,
           "averageRunDepthStep": 91.6,
           "averageRunDepthPct": 65.9,
           "averageBattlesUsed": 0.7,
@@ -16569,7 +16569,7 @@
       },
       "92": {
         "runCount": 106,
-        "averageParticipationPct": 11.6,
+        "averageParticipationPct": 11.0,
         "averageRunDepthStep": 120.5,
         "averageRunDepthPct": 86.7,
         "averageBattlesUsed": 1.1,
@@ -16658,7 +16658,7 @@
       },
       "91": {
         "runCount": 107,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 10.9,
         "averageRunDepthStep": 120.2,
         "averageRunDepthPct": 86.5,
         "averageBattlesUsed": 1.0,
@@ -16747,7 +16747,7 @@
       },
       "90": {
         "runCount": 110,
-        "averageParticipationPct": 11.4,
+        "averageParticipationPct": 10.7,
         "averageRunDepthStep": 119.4,
         "averageRunDepthPct": 85.9,
         "averageBattlesUsed": 1.0,
@@ -16836,7 +16836,7 @@
       },
       "89": {
         "runCount": 115,
-        "averageParticipationPct": 12.6,
+        "averageParticipationPct": 12.0,
         "averageRunDepthStep": 118.1,
         "averageRunDepthPct": 84.9,
         "averageBattlesUsed": 1.0,
@@ -16925,7 +16925,7 @@
       },
       "88": {
         "runCount": 118,
-        "averageParticipationPct": 12.5,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 117.3,
         "averageRunDepthPct": 84.4,
         "averageBattlesUsed": 1.0,
@@ -17014,7 +17014,7 @@
       },
       "87": {
         "runCount": 119,
-        "averageParticipationPct": 12.7,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 117.1,
         "averageRunDepthPct": 84.2,
         "averageBattlesUsed": 1.0,
@@ -17103,7 +17103,7 @@
       },
       "86": {
         "runCount": 121,
-        "averageParticipationPct": 12.5,
+        "averageParticipationPct": 12.0,
         "averageRunDepthStep": 116.5,
         "averageRunDepthPct": 83.8,
         "averageBattlesUsed": 1.0,
@@ -17192,7 +17192,7 @@
       },
       "85": {
         "runCount": 121,
-        "averageParticipationPct": 12.5,
+        "averageParticipationPct": 12.0,
         "averageRunDepthStep": 116.5,
         "averageRunDepthPct": 83.8,
         "averageBattlesUsed": 1.0,
@@ -17281,7 +17281,7 @@
       },
       "84": {
         "runCount": 121,
-        "averageParticipationPct": 12.5,
+        "averageParticipationPct": 12.0,
         "averageRunDepthStep": 116.5,
         "averageRunDepthPct": 83.8,
         "averageBattlesUsed": 1.0,
@@ -17370,7 +17370,7 @@
       },
       "83": {
         "runCount": 123,
-        "averageParticipationPct": 12.3,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 116.0,
         "averageRunDepthPct": 83.4,
         "averageBattlesUsed": 1.0,
@@ -17459,7 +17459,7 @@
       },
       "82": {
         "runCount": 127,
-        "averageParticipationPct": 13.5,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 114.9,
         "averageRunDepthPct": 82.7,
         "averageBattlesUsed": 1.0,
@@ -17548,7 +17548,7 @@
       },
       "81": {
         "runCount": 129,
-        "averageParticipationPct": 13.5,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 1.0,
@@ -17637,7 +17637,7 @@
       },
       "80": {
         "runCount": 129,
-        "averageParticipationPct": 13.5,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 114.4,
         "averageRunDepthPct": 82.3,
         "averageBattlesUsed": 1.0,
@@ -17726,7 +17726,7 @@
       },
       "79": {
         "runCount": 132,
-        "averageParticipationPct": 13.2,
+        "averageParticipationPct": 12.7,
         "averageRunDepthStep": 113.6,
         "averageRunDepthPct": 81.7,
         "averageBattlesUsed": 0.9,
@@ -17815,7 +17815,7 @@
       },
       "78": {
         "runCount": 133,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 113.3,
         "averageRunDepthPct": 81.5,
         "averageBattlesUsed": 0.9,
@@ -17904,7 +17904,7 @@
       },
       "77": {
         "runCount": 133,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 113.3,
         "averageRunDepthPct": 81.5,
         "averageBattlesUsed": 0.9,
@@ -17993,7 +17993,7 @@
       },
       "76": {
         "runCount": 133,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 113.3,
         "averageRunDepthPct": 81.5,
         "averageBattlesUsed": 0.9,
@@ -18082,7 +18082,7 @@
       },
       "75": {
         "runCount": 134,
-        "averageParticipationPct": 13.7,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 113.0,
         "averageRunDepthPct": 81.3,
         "averageBattlesUsed": 0.9,
@@ -18171,7 +18171,7 @@
       },
       "74": {
         "runCount": 134,
-        "averageParticipationPct": 13.7,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 113.0,
         "averageRunDepthPct": 81.3,
         "averageBattlesUsed": 0.9,
@@ -18260,7 +18260,7 @@
       },
       "73": {
         "runCount": 135,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 112.7,
         "averageRunDepthPct": 81.1,
         "averageBattlesUsed": 0.9,
@@ -18349,7 +18349,7 @@
       },
       "72": {
         "runCount": 138,
-        "averageParticipationPct": 14.1,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 111.9,
         "averageRunDepthPct": 80.5,
         "averageBattlesUsed": 0.9,
@@ -18438,7 +18438,7 @@
       },
       "71": {
         "runCount": 138,
-        "averageParticipationPct": 14.1,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 111.9,
         "averageRunDepthPct": 80.5,
         "averageBattlesUsed": 0.9,
@@ -18527,7 +18527,7 @@
       },
       "70": {
         "runCount": 139,
-        "averageParticipationPct": 14.0,
+        "averageParticipationPct": 13.5,
         "averageRunDepthStep": 111.6,
         "averageRunDepthPct": 80.3,
         "averageBattlesUsed": 0.9,
@@ -18616,7 +18616,7 @@
       },
       "69": {
         "runCount": 142,
-        "averageParticipationPct": 13.7,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 110.7,
         "averageRunDepthPct": 79.6,
         "averageBattlesUsed": 0.9,
@@ -18705,7 +18705,7 @@
       },
       "68": {
         "runCount": 147,
-        "averageParticipationPct": 13.5,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 109.2,
         "averageRunDepthPct": 78.6,
         "averageBattlesUsed": 0.9,
@@ -18794,7 +18794,7 @@
       },
       "67": {
         "runCount": 150,
-        "averageParticipationPct": 13.5,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 108.4,
         "averageRunDepthPct": 78.0,
         "averageBattlesUsed": 0.9,
@@ -18860,8 +18860,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
+            "ownedCount": 6,
+            "participationPct": 50
           },
           {
             "usageKey": "274",
@@ -18883,7 +18883,7 @@
       },
       "66": {
         "runCount": 151,
-        "averageParticipationPct": 13.5,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 108.1,
         "averageRunDepthPct": 77.8,
         "averageBattlesUsed": 0.9,
@@ -18949,8 +18949,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
+            "ownedCount": 6,
+            "participationPct": 50
           },
           {
             "usageKey": "274",
@@ -18972,7 +18972,7 @@
       },
       "65": {
         "runCount": 151,
-        "averageParticipationPct": 13.5,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 108.1,
         "averageRunDepthPct": 77.8,
         "averageBattlesUsed": 0.9,
@@ -19038,8 +19038,8 @@
             "displayName": "School Kid Ted",
             "leadLevel": null,
             "partyCount": 3,
-            "ownedCount": 5,
-            "participationPct": 60
+            "ownedCount": 6,
+            "participationPct": 50
           },
           {
             "usageKey": "274",
@@ -19061,7 +19061,7 @@
       },
       "64": {
         "runCount": 153,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 12.8,
         "averageRunDepthStep": 107.5,
         "averageRunDepthPct": 77.3,
         "averageBattlesUsed": 0.8,
@@ -19131,17 +19131,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19150,7 +19150,7 @@
       },
       "63": {
         "runCount": 155,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 12.7,
         "averageRunDepthStep": 106.9,
         "averageRunDepthPct": 76.9,
         "averageBattlesUsed": 0.8,
@@ -19220,17 +19220,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19239,7 +19239,7 @@
       },
       "62": {
         "runCount": 157,
-        "averageParticipationPct": 12.9,
+        "averageParticipationPct": 12.5,
         "averageRunDepthStep": 106.4,
         "averageRunDepthPct": 76.5,
         "averageBattlesUsed": 0.8,
@@ -19309,17 +19309,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19328,7 +19328,7 @@
       },
       "61": {
         "runCount": 158,
-        "averageParticipationPct": 12.9,
+        "averageParticipationPct": 12.4,
         "averageRunDepthStep": 106.1,
         "averageRunDepthPct": 76.3,
         "averageBattlesUsed": 0.8,
@@ -19398,17 +19398,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19417,7 +19417,7 @@
       },
       "60": {
         "runCount": 159,
-        "averageParticipationPct": 12.8,
+        "averageParticipationPct": 12.4,
         "averageRunDepthStep": 105.8,
         "averageRunDepthPct": 76.1,
         "averageBattlesUsed": 0.8,
@@ -19487,17 +19487,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19506,7 +19506,7 @@
       },
       "59": {
         "runCount": 161,
-        "averageParticipationPct": 12.6,
+        "averageParticipationPct": 12.2,
         "averageRunDepthStep": 105.2,
         "averageRunDepthPct": 75.7,
         "averageBattlesUsed": 0.8,
@@ -19576,17 +19576,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19595,7 +19595,7 @@
       },
       "58": {
         "runCount": 164,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 104.3,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.8,
@@ -19665,17 +19665,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19684,7 +19684,7 @@
       },
       "57": {
         "runCount": 164,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 104.3,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.8,
@@ -19754,17 +19754,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19773,7 +19773,7 @@
       },
       "56": {
         "runCount": 164,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 104.3,
         "averageRunDepthPct": 75.1,
         "averageBattlesUsed": 0.8,
@@ -19843,17 +19843,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19862,7 +19862,7 @@
       },
       "55": {
         "runCount": 165,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 104.0,
         "averageRunDepthPct": 74.8,
         "averageBattlesUsed": 0.8,
@@ -19932,17 +19932,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -19951,7 +19951,7 @@
       },
       "54": {
         "runCount": 166,
-        "averageParticipationPct": 13.2,
+        "averageParticipationPct": 12.8,
         "averageRunDepthStep": 103.7,
         "averageRunDepthPct": 74.6,
         "averageBattlesUsed": 0.8,
@@ -20021,17 +20021,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -20040,7 +20040,7 @@
       },
       "53": {
         "runCount": 167,
-        "averageParticipationPct": 13.1,
+        "averageParticipationPct": 12.7,
         "averageRunDepthStep": 103.4,
         "averageRunDepthPct": 74.4,
         "averageBattlesUsed": 0.8,
@@ -20110,17 +20110,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -20129,7 +20129,7 @@
       },
       "52": {
         "runCount": 168,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 103.1,
         "averageRunDepthPct": 74.2,
         "averageBattlesUsed": 0.8,
@@ -20199,17 +20199,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -20218,7 +20218,7 @@
       },
       "51": {
         "runCount": 168,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 103.1,
         "averageRunDepthPct": 74.2,
         "averageBattlesUsed": 0.8,
@@ -20288,17 +20288,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -20307,7 +20307,7 @@
       },
       "50": {
         "runCount": 168,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.6,
         "averageRunDepthStep": 103.1,
         "averageRunDepthPct": 74.2,
         "averageBattlesUsed": 0.8,
@@ -20377,17 +20377,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -20396,7 +20396,7 @@
       },
       "49": {
         "runCount": 181,
-        "averageParticipationPct": 12.6,
+        "averageParticipationPct": 12.3,
         "averageRunDepthStep": 99.2,
         "averageRunDepthPct": 71.4,
         "averageBattlesUsed": 0.8,
@@ -20466,17 +20466,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -20485,7 +20485,7 @@
       },
       "48": {
         "runCount": 184,
-        "averageParticipationPct": 12.4,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 98.4,
         "averageRunDepthPct": 70.8,
         "averageBattlesUsed": 0.7,
@@ -20555,17 +20555,17 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
             "usageKey": "449",
             "displayName": "Battle Girl Jenny",
             "leadLevel": -1,
+            "partyCount": 3,
+            "ownedCount": 8,
+            "participationPct": 38
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
             "partyCount": 3,
             "ownedCount": 8,
             "participationPct": 38
@@ -20574,7 +20574,7 @@
       },
       "47": {
         "runCount": 193,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 96.0,
         "averageRunDepthPct": 69.1,
         "averageBattlesUsed": 0.7,
@@ -20652,18 +20652,18 @@
             "participationPct": 43
           },
           {
-            "usageKey": "School Kid Ted",
-            "displayName": "School Kid Ted",
-            "leadLevel": null,
+            "usageKey": "449",
+            "displayName": "Battle Girl Jenny",
+            "leadLevel": -1,
             "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
+            "ownedCount": 8,
+            "participationPct": 38
           }
         ]
       },
       "46": {
         "runCount": 195,
-        "averageParticipationPct": 13.4,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 95.5,
         "averageRunDepthPct": 68.7,
         "averageBattlesUsed": 0.7,
@@ -20752,7 +20752,7 @@
       },
       "45": {
         "runCount": 195,
-        "averageParticipationPct": 13.4,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 95.5,
         "averageRunDepthPct": 68.7,
         "averageBattlesUsed": 0.7,
@@ -20841,7 +20841,7 @@
       },
       "44": {
         "runCount": 196,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.0,
         "averageRunDepthStep": 95.2,
         "averageRunDepthPct": 68.5,
         "averageBattlesUsed": 0.7,
@@ -20930,7 +20930,7 @@
       },
       "43": {
         "runCount": 201,
-        "averageParticipationPct": 13.7,
+        "averageParticipationPct": 13.4,
         "averageRunDepthStep": 93.9,
         "averageRunDepthPct": 67.6,
         "averageBattlesUsed": 0.7,
@@ -21019,7 +21019,7 @@
       },
       "42": {
         "runCount": 202,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.3,
         "averageRunDepthStep": 93.7,
         "averageRunDepthPct": 67.4,
         "averageBattlesUsed": 0.7,
@@ -21108,7 +21108,7 @@
       },
       "41": {
         "runCount": 202,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.3,
         "averageRunDepthStep": 93.7,
         "averageRunDepthPct": 67.4,
         "averageBattlesUsed": 0.7,
@@ -21197,7 +21197,7 @@
       },
       "40": {
         "runCount": 202,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.3,
         "averageRunDepthStep": 93.7,
         "averageRunDepthPct": 67.4,
         "averageBattlesUsed": 0.7,
@@ -21286,7 +21286,7 @@
       },
       "39": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -21375,7 +21375,7 @@
       },
       "38": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -21464,7 +21464,7 @@
       },
       "37": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -21553,7 +21553,7 @@
       },
       "36": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -21642,7 +21642,7 @@
       },
       "35": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -21731,7 +21731,7 @@
       },
       "34": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -21820,7 +21820,7 @@
       },
       "33": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -21909,7 +21909,7 @@
       },
       "32": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -21998,7 +21998,7 @@
       },
       "31": {
         "runCount": 203,
-        "averageParticipationPct": 13.6,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 93.4,
         "averageRunDepthPct": 67.2,
         "averageBattlesUsed": 0.7,
@@ -22087,7 +22087,7 @@
       },
       "30": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22176,7 +22176,7 @@
       },
       "29": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22265,7 +22265,7 @@
       },
       "28": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22354,7 +22354,7 @@
       },
       "27": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22443,7 +22443,7 @@
       },
       "26": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22532,7 +22532,7 @@
       },
       "25": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22621,7 +22621,7 @@
       },
       "24": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22710,7 +22710,7 @@
       },
       "23": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22799,7 +22799,7 @@
       },
       "22": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22888,7 +22888,7 @@
       },
       "21": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -22977,7 +22977,7 @@
       },
       "20": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -23066,7 +23066,7 @@
       },
       "19": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -23155,7 +23155,7 @@
       },
       "18": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -23244,7 +23244,7 @@
       },
       "17": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -23333,7 +23333,7 @@
       },
       "16": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -23422,7 +23422,7 @@
       },
       "15": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -23511,7 +23511,7 @@
       },
       "14": {
         "runCount": 205,
-        "averageParticipationPct": 14.4,
+        "averageParticipationPct": 14.1,
         "averageRunDepthStep": 92.8,
         "averageRunDepthPct": 66.8,
         "averageBattlesUsed": 0.7,
@@ -23600,7 +23600,7 @@
       },
       "13": {
         "runCount": 207,
-        "averageParticipationPct": 15.2,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 92.0,
         "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.7,
@@ -23689,7 +23689,7 @@
       },
       "12": {
         "runCount": 207,
-        "averageParticipationPct": 15.2,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 92.0,
         "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.7,
@@ -23778,7 +23778,7 @@
       },
       "11": {
         "runCount": 207,
-        "averageParticipationPct": 15.2,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 92.0,
         "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.7,
@@ -23867,7 +23867,7 @@
       },
       "10": {
         "runCount": 207,
-        "averageParticipationPct": 15.2,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 92.0,
         "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.7,
@@ -23956,7 +23956,7 @@
       },
       "9": {
         "runCount": 207,
-        "averageParticipationPct": 15.2,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 92.0,
         "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.7,
@@ -24045,7 +24045,7 @@
       },
       "8": {
         "runCount": 207,
-        "averageParticipationPct": 15.2,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 92.0,
         "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.7,
@@ -24134,7 +24134,7 @@
       },
       "7": {
         "runCount": 207,
-        "averageParticipationPct": 15.2,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 92.0,
         "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.7,
@@ -24223,7 +24223,7 @@
       },
       "6": {
         "runCount": 207,
-        "averageParticipationPct": 15.2,
+        "averageParticipationPct": 14.9,
         "averageRunDepthStep": 92.0,
         "averageRunDepthPct": 66.2,
         "averageBattlesUsed": 0.7,
@@ -24312,7 +24312,7 @@
       },
       "5": {
         "runCount": 208,
-        "averageParticipationPct": 15.7,
+        "averageParticipationPct": 15.3,
         "averageRunDepthStep": 91.6,
         "averageRunDepthPct": 65.9,
         "averageBattlesUsed": 0.7,
@@ -24401,7 +24401,7 @@
       },
       "4": {
         "runCount": 208,
-        "averageParticipationPct": 15.7,
+        "averageParticipationPct": 15.3,
         "averageRunDepthStep": 91.6,
         "averageRunDepthPct": 65.9,
         "averageBattlesUsed": 0.7,
@@ -24490,7 +24490,7 @@
       },
       "3": {
         "runCount": 208,
-        "averageParticipationPct": 15.7,
+        "averageParticipationPct": 15.3,
         "averageRunDepthStep": 91.6,
         "averageRunDepthPct": 65.9,
         "averageBattlesUsed": 0.7,
@@ -24579,7 +24579,7 @@
       },
       "2": {
         "runCount": 208,
-        "averageParticipationPct": 15.7,
+        "averageParticipationPct": 15.3,
         "averageRunDepthStep": 91.6,
         "averageRunDepthPct": 65.9,
         "averageBattlesUsed": 0.7,
@@ -24668,7 +24668,7 @@
       },
       "1": {
         "runCount": 208,
-        "averageParticipationPct": 15.7,
+        "averageParticipationPct": 15.3,
         "averageRunDepthStep": 91.6,
         "averageRunDepthPct": 65.9,
         "averageBattlesUsed": 0.7,

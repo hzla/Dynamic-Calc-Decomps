@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "latias",
   "familyMembers": [
     "Latias",
@@ -12377,6 +12377,2292 @@
               "partyCount": 0,
               "ownedCount": 1,
               "participationPct": 0
+            }
+          ]
+        }
+      }
+    },
+    "Latias-Mega": {
+      "byMinDepth": {
+        "139": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "138": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "137": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "136": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "135": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "134": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "133": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "132": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "131": {
+          "runCount": 0,
+          "averageParticipationPct": null,
+          "averageRunDepthStep": null,
+          "averageRunDepthPct": null,
+          "averageBattlesUsed": null,
+          "topBattles": []
+        },
+        "130": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "129": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "128": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "127": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "126": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "125": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "124": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "123": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "122": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "121": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "120": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "119": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "118": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "117": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "116": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "115": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "114": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "113": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "112": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "111": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "110": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "109": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "108": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "107": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "106": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "105": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "104": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "103": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "102": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "101": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "100": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "99": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "98": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "97": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "96": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "95": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "94": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "93": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "92": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "91": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "90": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "89": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "88": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "87": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "86": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "85": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "84": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "83": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "82": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "81": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "80": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "79": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "78": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "77": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "76": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "75": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "74": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "73": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "72": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "71": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "70": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "69": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "68": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "67": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "66": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "65": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "64": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "63": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "62": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "61": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "60": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "59": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "58": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "57": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "56": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "55": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "54": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "53": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "52": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "51": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "50": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "49": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "48": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "47": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "46": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "45": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "44": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "43": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "42": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "41": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "40": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "39": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "38": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "37": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "36": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "35": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "34": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "33": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "32": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "31": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "30": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "29": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "28": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "27": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "26": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "25": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "24": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "23": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "22": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "21": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "20": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "19": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "18": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "17": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "16": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "15": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "14": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "13": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "12": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "11": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "10": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "9": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "8": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "7": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "6": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "5": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "4": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "3": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "2": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "1": {
+          "runCount": 1,
+          "averageParticipationPct": 100.0,
+          "averageRunDepthStep": 130.0,
+          "averageRunDepthPct": 93.5,
+          "averageBattlesUsed": 1.0,
+          "topBattles": [
+            {
+              "usageKey": "587",
+              "displayName": "587",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         }

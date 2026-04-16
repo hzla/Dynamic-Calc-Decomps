@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "plusle",
   "familyMembers": [
     "Plusle"
@@ -210,14 +210,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
@@ -269,6 +261,14 @@
               "usageKey": "Collector Edwin",
               "displayName": "Collector Edwin",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "629",
+              "displayName": "Hiker Lucas",
+              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -299,14 +299,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
@@ -358,6 +350,14 @@
               "usageKey": "Collector Edwin",
               "displayName": "Collector Edwin",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "629",
+              "displayName": "Hiker Lucas",
+              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -388,14 +388,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
@@ -447,6 +439,14 @@
               "usageKey": "Collector Edwin",
               "displayName": "Collector Edwin",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "629",
+              "displayName": "Hiker Lucas",
+              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -477,14 +477,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
@@ -536,6 +528,14 @@
               "usageKey": "Collector Edwin",
               "displayName": "Collector Edwin",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "629",
+              "displayName": "Hiker Lucas",
+              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -566,14 +566,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
@@ -625,6 +617,14 @@
               "usageKey": "Collector Edwin",
               "displayName": "Collector Edwin",
               "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "629",
+              "displayName": "Hiker Lucas",
+              "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -655,14 +655,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival Dawn Route111",
               "displayName": "Rival Dawn Route111",
               "leadLevel": null,
@@ -717,6 +709,14 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
+            },
+            {
+              "usageKey": "629",
+              "displayName": "Hiker Lucas",
+              "leadLevel": -2,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -738,14 +738,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -806,12 +798,20 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
+            },
+            {
+              "usageKey": "626",
+              "displayName": "Leader Wake",
+              "leadLevel": -1,
+              "partyCount": 1,
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
         "130": {
           "runCount": 25,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 136.4,
           "averageRunDepthPct": 98.1,
           "averageBattlesUsed": 0.9,
@@ -835,14 +835,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -891,6 +883,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -938,14 +938,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -980,6 +972,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -989,7 +989,7 @@
         },
         "128": {
           "runCount": 27,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 135.8,
           "averageRunDepthPct": 97.7,
           "averageBattlesUsed": 0.9,
@@ -1021,14 +1021,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1069,6 +1061,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1078,7 +1078,7 @@
         },
         "127": {
           "runCount": 27,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 135.8,
           "averageRunDepthPct": 97.7,
           "averageBattlesUsed": 0.9,
@@ -1110,14 +1110,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1158,6 +1150,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1167,7 +1167,7 @@
         },
         "126": {
           "runCount": 27,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 135.8,
           "averageRunDepthPct": 97.7,
           "averageBattlesUsed": 0.9,
@@ -1199,14 +1199,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1251,12 +1243,20 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
         "125": {
           "runCount": 28,
-          "averageParticipationPct": 11.3,
+          "averageParticipationPct": 11.2,
           "averageRunDepthStep": 135.4,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 0.9,
@@ -1294,14 +1294,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -1340,12 +1332,20 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
         "124": {
           "runCount": 31,
-          "averageParticipationPct": 10.2,
+          "averageParticipationPct": 10.1,
           "averageRunDepthStep": 134.3,
           "averageRunDepthPct": 96.6,
           "averageBattlesUsed": 0.8,
@@ -1383,14 +1383,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -1425,6 +1417,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1472,14 +1472,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -1514,6 +1506,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1561,14 +1561,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -1603,6 +1595,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1650,14 +1650,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -1692,6 +1684,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1739,14 +1739,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -1781,6 +1773,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1828,14 +1828,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -1870,6 +1862,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -1917,14 +1917,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -1959,6 +1951,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2006,14 +2006,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -2052,12 +2044,20 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
         "116": {
           "runCount": 34,
-          "averageParticipationPct": 9.3,
+          "averageParticipationPct": 9.2,
           "averageRunDepthStep": 132.9,
           "averageRunDepthPct": 95.6,
           "averageBattlesUsed": 0.7,
@@ -2095,14 +2095,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -2137,6 +2129,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2146,7 +2146,7 @@
         },
         "115": {
           "runCount": 35,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 132.4,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2178,14 +2178,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2226,6 +2218,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2235,7 +2235,7 @@
         },
         "114": {
           "runCount": 35,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 132.4,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2267,14 +2267,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2315,6 +2307,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2324,7 +2324,7 @@
         },
         "113": {
           "runCount": 35,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 132.4,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2356,14 +2356,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2404,6 +2396,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2413,7 +2413,7 @@
         },
         "112": {
           "runCount": 35,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 132.4,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2445,14 +2445,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2493,6 +2485,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2502,7 +2502,7 @@
         },
         "111": {
           "runCount": 35,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 132.4,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2534,14 +2534,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2582,6 +2574,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2591,7 +2591,7 @@
         },
         "110": {
           "runCount": 35,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 132.4,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2623,14 +2623,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2671,6 +2663,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2680,7 +2680,7 @@
         },
         "109": {
           "runCount": 35,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 132.4,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2712,14 +2712,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2760,6 +2752,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2769,7 +2769,7 @@
         },
         "108": {
           "runCount": 35,
-          "averageParticipationPct": 11.9,
+          "averageParticipationPct": 11.8,
           "averageRunDepthStep": 132.4,
           "averageRunDepthPct": 95.3,
           "averageBattlesUsed": 0.7,
@@ -2801,14 +2801,6 @@
             {
               "usageKey": "Rival Brendan Route 110 Mudkip",
               "displayName": "Rival Brendan Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2849,6 +2841,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2896,14 +2896,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -2938,6 +2930,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -2985,14 +2985,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3027,6 +3019,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3074,14 +3074,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3116,6 +3108,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3163,14 +3163,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3205,6 +3197,14 @@
             {
               "usageKey": "Sr And Jr Anna And Meg",
               "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Dylan",
+              "displayName": "Triathlete Dylan",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3260,14 +3260,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3294,6 +3286,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3349,14 +3349,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3383,6 +3375,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3438,14 +3438,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3472,6 +3464,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3527,14 +3527,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3561,6 +3553,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3616,14 +3616,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3650,6 +3642,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3705,14 +3705,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3739,6 +3731,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3794,14 +3794,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3828,6 +3820,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3883,14 +3883,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -3917,6 +3909,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -3972,14 +3972,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4006,6 +3998,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4061,14 +4061,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4095,6 +4087,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4150,14 +4150,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4184,6 +4176,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4239,14 +4239,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4273,6 +4265,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4328,14 +4328,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4362,6 +4354,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4417,14 +4417,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4451,6 +4443,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4460,7 +4460,7 @@
         },
         "89": {
           "runCount": 45,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.6,
           "averageRunDepthStep": 125.2,
           "averageRunDepthPct": 90.0,
           "averageBattlesUsed": 0.7,
@@ -4506,14 +4506,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4540,6 +4532,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4549,7 +4549,7 @@
         },
         "88": {
           "runCount": 45,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.6,
           "averageRunDepthStep": 125.2,
           "averageRunDepthPct": 90.0,
           "averageBattlesUsed": 0.7,
@@ -4595,14 +4595,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4629,6 +4621,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4638,7 +4638,7 @@
         },
         "87": {
           "runCount": 45,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.6,
           "averageRunDepthStep": 125.2,
           "averageRunDepthPct": 90.0,
           "averageBattlesUsed": 0.7,
@@ -4684,14 +4684,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4718,6 +4710,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4727,7 +4727,7 @@
         },
         "86": {
           "runCount": 45,
-          "averageParticipationPct": 13.7,
+          "averageParticipationPct": 13.6,
           "averageRunDepthStep": 125.2,
           "averageRunDepthPct": 90.0,
           "averageBattlesUsed": 0.7,
@@ -4773,14 +4773,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4807,6 +4799,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4862,14 +4862,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4896,6 +4888,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -4951,14 +4951,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -4985,6 +4977,14 @@
             {
               "usageKey": "Rival May Route 119 Treecko",
               "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
               "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
@@ -5040,14 +5040,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -5078,12 +5070,20 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Sr And Jr Anna And Meg",
+              "displayName": "Sr And Jr Anna And Meg",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
         "82": {
           "runCount": 51,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 120.2,
           "averageRunDepthPct": 86.4,
           "averageBattlesUsed": 0.6,
@@ -5137,14 +5137,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Cap",
-              "displayName": "Rival Cap",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "Rival May Evergrande Treecko",
               "displayName": "Rival May Evergrande Treecko",
               "leadLevel": null,
@@ -5167,12 +5159,20 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
+            },
+            {
+              "usageKey": "Rival May Route 119 Treecko",
+              "displayName": "Rival May Route 119 Treecko",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
         "81": {
           "runCount": 52,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 119.4,
           "averageRunDepthPct": 85.9,
           "averageBattlesUsed": 0.7,
@@ -5261,7 +5261,7 @@
         },
         "80": {
           "runCount": 52,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 119.4,
           "averageRunDepthPct": 85.9,
           "averageBattlesUsed": 0.7,
@@ -5350,7 +5350,7 @@
         },
         "79": {
           "runCount": 52,
-          "averageParticipationPct": 12.4,
+          "averageParticipationPct": 12.3,
           "averageRunDepthStep": 119.4,
           "averageRunDepthPct": 85.9,
           "averageBattlesUsed": 0.7,
@@ -5439,7 +5439,7 @@
         },
         "78": {
           "runCount": 53,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 118.6,
           "averageRunDepthPct": 85.3,
           "averageBattlesUsed": 0.8,
@@ -5528,7 +5528,7 @@
         },
         "77": {
           "runCount": 53,
-          "averageParticipationPct": 13.0,
+          "averageParticipationPct": 12.9,
           "averageRunDepthStep": 118.6,
           "averageRunDepthPct": 85.3,
           "averageBattlesUsed": 0.8,
@@ -10333,10 +10333,10 @@
           ]
         },
         "23": {
-          "runCount": 190,
-          "averageParticipationPct": 16.4,
-          "averageRunDepthStep": 64.4,
-          "averageRunDepthPct": 46.3,
+          "runCount": 191,
+          "averageParticipationPct": 16.8,
+          "averageRunDepthStep": 64.2,
+          "averageRunDepthPct": 46.2,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -10354,6 +10354,14 @@
               "partyCount": 5,
               "ownedCount": 25,
               "participationPct": 20
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -10386,14 +10394,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "18",
@@ -10422,10 +10422,10 @@
           ]
         },
         "22": {
-          "runCount": 193,
-          "averageParticipationPct": 16.6,
-          "averageRunDepthStep": 63.7,
-          "averageRunDepthPct": 45.8,
+          "runCount": 194,
+          "averageParticipationPct": 17.1,
+          "averageRunDepthStep": 63.5,
+          "averageRunDepthPct": 45.7,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -10443,6 +10443,14 @@
               "partyCount": 7,
               "ownedCount": 27,
               "participationPct": 26
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -10475,14 +10483,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -10511,10 +10511,10 @@
           ]
         },
         "21": {
-          "runCount": 194,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 63.5,
-          "averageRunDepthPct": 45.7,
+          "runCount": 195,
+          "averageParticipationPct": 17.0,
+          "averageRunDepthStep": 63.3,
+          "averageRunDepthPct": 45.5,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -10532,6 +10532,14 @@
               "partyCount": 7,
               "ownedCount": 27,
               "participationPct": 26
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -10564,14 +10572,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -10600,10 +10600,10 @@
           ]
         },
         "20": {
-          "runCount": 195,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 63.3,
-          "averageRunDepthPct": 45.5,
+          "runCount": 196,
+          "averageParticipationPct": 16.9,
+          "averageRunDepthStep": 63.1,
+          "averageRunDepthPct": 45.4,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -10621,6 +10621,14 @@
               "partyCount": 7,
               "ownedCount": 27,
               "participationPct": 26
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -10653,14 +10661,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -10689,10 +10689,10 @@
           ]
         },
         "19": {
-          "runCount": 195,
-          "averageParticipationPct": 16.5,
-          "averageRunDepthStep": 63.3,
-          "averageRunDepthPct": 45.5,
+          "runCount": 196,
+          "averageParticipationPct": 16.9,
+          "averageRunDepthStep": 63.1,
+          "averageRunDepthPct": 45.4,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -10710,6 +10710,14 @@
               "partyCount": 7,
               "ownedCount": 27,
               "participationPct": 26
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -10742,14 +10750,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -10778,10 +10778,10 @@
           ]
         },
         "18": {
-          "runCount": 196,
-          "averageParticipationPct": 16.4,
-          "averageRunDepthStep": 63.0,
-          "averageRunDepthPct": 45.3,
+          "runCount": 197,
+          "averageParticipationPct": 16.8,
+          "averageRunDepthStep": 62.8,
+          "averageRunDepthPct": 45.2,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -10799,6 +10799,14 @@
               "partyCount": 7,
               "ownedCount": 27,
               "participationPct": 26
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -10831,14 +10839,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -10867,10 +10867,10 @@
           ]
         },
         "17": {
-          "runCount": 196,
-          "averageParticipationPct": 16.4,
-          "averageRunDepthStep": 63.0,
-          "averageRunDepthPct": 45.3,
+          "runCount": 197,
+          "averageParticipationPct": 16.8,
+          "averageRunDepthStep": 62.8,
+          "averageRunDepthPct": 45.2,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -10888,6 +10888,14 @@
               "partyCount": 7,
               "ownedCount": 27,
               "participationPct": 26
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -10920,14 +10928,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -10956,10 +10956,10 @@
           ]
         },
         "16": {
-          "runCount": 196,
-          "averageParticipationPct": 16.4,
-          "averageRunDepthStep": 63.0,
-          "averageRunDepthPct": 45.3,
+          "runCount": 197,
+          "averageParticipationPct": 16.8,
+          "averageRunDepthStep": 62.8,
+          "averageRunDepthPct": 45.2,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -10977,6 +10977,14 @@
               "partyCount": 7,
               "ownedCount": 27,
               "participationPct": 26
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11009,14 +11017,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11045,10 +11045,10 @@
           ]
         },
         "15": {
-          "runCount": 203,
-          "averageParticipationPct": 16.1,
-          "averageRunDepthStep": 61.4,
-          "averageRunDepthPct": 44.2,
+          "runCount": 204,
+          "averageParticipationPct": 16.5,
+          "averageRunDepthStep": 61.2,
+          "averageRunDepthPct": 44.0,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11066,6 +11066,14 @@
               "partyCount": 8,
               "ownedCount": 29,
               "participationPct": 28
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11098,14 +11106,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11134,10 +11134,10 @@
           ]
         },
         "14": {
-          "runCount": 204,
-          "averageParticipationPct": 16.0,
-          "averageRunDepthStep": 61.1,
-          "averageRunDepthPct": 44.0,
+          "runCount": 205,
+          "averageParticipationPct": 16.4,
+          "averageRunDepthStep": 61.0,
+          "averageRunDepthPct": 43.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11155,6 +11155,14 @@
               "partyCount": 8,
               "ownedCount": 29,
               "participationPct": 28
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11187,14 +11195,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11223,10 +11223,10 @@
           ]
         },
         "13": {
-          "runCount": 223,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 57.0,
-          "averageRunDepthPct": 41.0,
+          "runCount": 224,
+          "averageParticipationPct": 19.9,
+          "averageRunDepthStep": 56.9,
+          "averageRunDepthPct": 40.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11244,6 +11244,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11276,14 +11284,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11312,10 +11312,10 @@
           ]
         },
         "12": {
-          "runCount": 223,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 57.0,
-          "averageRunDepthPct": 41.0,
+          "runCount": 224,
+          "averageParticipationPct": 19.9,
+          "averageRunDepthStep": 56.9,
+          "averageRunDepthPct": 40.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11333,6 +11333,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11365,14 +11373,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11401,10 +11401,10 @@
           ]
         },
         "11": {
-          "runCount": 223,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 57.0,
-          "averageRunDepthPct": 41.0,
+          "runCount": 224,
+          "averageParticipationPct": 19.9,
+          "averageRunDepthStep": 56.9,
+          "averageRunDepthPct": 40.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11422,6 +11422,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11454,14 +11462,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11490,10 +11490,10 @@
           ]
         },
         "10": {
-          "runCount": 223,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 57.0,
-          "averageRunDepthPct": 41.0,
+          "runCount": 224,
+          "averageParticipationPct": 19.9,
+          "averageRunDepthStep": 56.9,
+          "averageRunDepthPct": 40.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11511,6 +11511,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11543,14 +11551,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11579,10 +11579,10 @@
           ]
         },
         "9": {
-          "runCount": 223,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 57.0,
-          "averageRunDepthPct": 41.0,
+          "runCount": 224,
+          "averageParticipationPct": 19.9,
+          "averageRunDepthStep": 56.9,
+          "averageRunDepthPct": 40.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11600,6 +11600,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11632,14 +11640,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11668,10 +11668,10 @@
           ]
         },
         "8": {
-          "runCount": 223,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 57.0,
-          "averageRunDepthPct": 41.0,
+          "runCount": 224,
+          "averageParticipationPct": 19.9,
+          "averageRunDepthStep": 56.9,
+          "averageRunDepthPct": 40.9,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11689,6 +11689,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11721,14 +11729,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11757,10 +11757,10 @@
           ]
         },
         "7": {
-          "runCount": 224,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 56.8,
-          "averageRunDepthPct": 40.9,
+          "runCount": 225,
+          "averageParticipationPct": 19.8,
+          "averageRunDepthStep": 56.7,
+          "averageRunDepthPct": 40.8,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11778,6 +11778,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11810,14 +11818,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11846,10 +11846,10 @@
           ]
         },
         "6": {
-          "runCount": 224,
-          "averageParticipationPct": 19.5,
-          "averageRunDepthStep": 56.8,
-          "averageRunDepthPct": 40.9,
+          "runCount": 225,
+          "averageParticipationPct": 19.8,
+          "averageRunDepthStep": 56.7,
+          "averageRunDepthPct": 40.8,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11867,6 +11867,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11899,14 +11907,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -11935,10 +11935,10 @@
           ]
         },
         "5": {
-          "runCount": 225,
-          "averageParticipationPct": 19.8,
-          "averageRunDepthStep": 56.6,
-          "averageRunDepthPct": 40.7,
+          "runCount": 226,
+          "averageParticipationPct": 20.2,
+          "averageRunDepthStep": 56.4,
+          "averageRunDepthPct": 40.6,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -11956,6 +11956,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -11988,14 +11996,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -12024,10 +12024,10 @@
           ]
         },
         "4": {
-          "runCount": 225,
-          "averageParticipationPct": 19.8,
-          "averageRunDepthStep": 56.6,
-          "averageRunDepthPct": 40.7,
+          "runCount": 226,
+          "averageParticipationPct": 20.2,
+          "averageRunDepthStep": 56.4,
+          "averageRunDepthPct": 40.6,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -12045,6 +12045,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -12077,14 +12085,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -12113,10 +12113,10 @@
           ]
         },
         "3": {
-          "runCount": 225,
-          "averageParticipationPct": 19.8,
-          "averageRunDepthStep": 56.6,
-          "averageRunDepthPct": 40.7,
+          "runCount": 226,
+          "averageParticipationPct": 20.2,
+          "averageRunDepthStep": 56.4,
+          "averageRunDepthPct": 40.6,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -12134,6 +12134,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -12166,14 +12174,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -12202,10 +12202,10 @@
           ]
         },
         "2": {
-          "runCount": 225,
-          "averageParticipationPct": 19.8,
-          "averageRunDepthStep": 56.6,
-          "averageRunDepthPct": 40.7,
+          "runCount": 226,
+          "averageParticipationPct": 20.2,
+          "averageRunDepthStep": 56.4,
+          "averageRunDepthPct": 40.6,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -12223,6 +12223,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -12255,14 +12263,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -12291,10 +12291,10 @@
           ]
         },
         "1": {
-          "runCount": 225,
-          "averageParticipationPct": 19.8,
-          "averageRunDepthStep": 56.6,
-          "averageRunDepthPct": 40.7,
+          "runCount": 226,
+          "averageParticipationPct": 20.2,
+          "averageRunDepthStep": 56.4,
+          "averageRunDepthPct": 40.6,
           "averageBattlesUsed": 0.5,
           "topBattles": [
             {
@@ -12312,6 +12312,14 @@
               "partyCount": 18,
               "ownedCount": 38,
               "participationPct": 47
+            },
+            {
+              "usageKey": "Rival May Route 110 Mudkip",
+              "displayName": "Rival May Route 110 Mudkip",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "656",
@@ -12344,14 +12352,6 @@
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival May Route 110 Mudkip",
-              "displayName": "Rival May Route 110 Mudkip",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
             },
             {
               "usageKey": "536",
@@ -12586,14 +12586,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
@@ -12645,6 +12637,14 @@
             "usageKey": "Collector Edwin",
             "displayName": "Collector Edwin",
             "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "629",
+            "displayName": "Hiker Lucas",
+            "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -12675,14 +12675,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
@@ -12734,6 +12726,14 @@
             "usageKey": "Collector Edwin",
             "displayName": "Collector Edwin",
             "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "629",
+            "displayName": "Hiker Lucas",
+            "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -12764,14 +12764,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
@@ -12823,6 +12815,14 @@
             "usageKey": "Collector Edwin",
             "displayName": "Collector Edwin",
             "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "629",
+            "displayName": "Hiker Lucas",
+            "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -12853,14 +12853,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
@@ -12912,6 +12904,14 @@
             "usageKey": "Collector Edwin",
             "displayName": "Collector Edwin",
             "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "629",
+            "displayName": "Hiker Lucas",
+            "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -12942,14 +12942,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
@@ -13001,6 +12993,14 @@
             "usageKey": "Collector Edwin",
             "displayName": "Collector Edwin",
             "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "629",
+            "displayName": "Hiker Lucas",
+            "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -13031,14 +13031,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival Dawn Route111",
             "displayName": "Rival Dawn Route111",
             "leadLevel": null,
@@ -13093,6 +13085,14 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "629",
+            "displayName": "Hiker Lucas",
+            "leadLevel": -2,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -13114,14 +13114,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13182,12 +13174,20 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 1,
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
       "130": {
         "runCount": 25,
-        "averageParticipationPct": 12.2,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 136.4,
         "averageRunDepthPct": 98.1,
         "averageBattlesUsed": 0.9,
@@ -13211,14 +13211,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13267,6 +13259,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13314,14 +13314,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -13356,6 +13348,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13365,7 +13365,7 @@
       },
       "128": {
         "runCount": 27,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 135.8,
         "averageRunDepthPct": 97.7,
         "averageBattlesUsed": 0.9,
@@ -13397,14 +13397,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13445,6 +13437,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13454,7 +13454,7 @@
       },
       "127": {
         "runCount": 27,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 135.8,
         "averageRunDepthPct": 97.7,
         "averageBattlesUsed": 0.9,
@@ -13486,14 +13486,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13534,6 +13526,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13543,7 +13543,7 @@
       },
       "126": {
         "runCount": 27,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 135.8,
         "averageRunDepthPct": 97.7,
         "averageBattlesUsed": 0.9,
@@ -13575,14 +13575,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13627,12 +13619,20 @@
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
       "125": {
         "runCount": 28,
-        "averageParticipationPct": 11.3,
+        "averageParticipationPct": 11.2,
         "averageRunDepthStep": 135.4,
         "averageRunDepthPct": 97.4,
         "averageBattlesUsed": 0.9,
@@ -13670,14 +13670,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -13716,12 +13708,20 @@
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
       "124": {
         "runCount": 31,
-        "averageParticipationPct": 10.2,
+        "averageParticipationPct": 10.1,
         "averageRunDepthStep": 134.3,
         "averageRunDepthPct": 96.6,
         "averageBattlesUsed": 0.8,
@@ -13759,14 +13759,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -13801,6 +13793,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13848,14 +13848,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -13890,6 +13882,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -13937,14 +13937,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -13979,6 +13971,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14026,14 +14026,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -14068,6 +14060,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14115,14 +14115,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -14157,6 +14149,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14204,14 +14204,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -14246,6 +14238,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14293,14 +14293,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -14335,6 +14327,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14382,14 +14382,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -14428,12 +14420,20 @@
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
       "116": {
         "runCount": 34,
-        "averageParticipationPct": 9.3,
+        "averageParticipationPct": 9.2,
         "averageRunDepthStep": 132.9,
         "averageRunDepthPct": 95.6,
         "averageBattlesUsed": 0.7,
@@ -14471,14 +14471,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -14513,6 +14505,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14522,7 +14522,7 @@
       },
       "115": {
         "runCount": 35,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 132.4,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -14554,14 +14554,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14602,6 +14594,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14611,7 +14611,7 @@
       },
       "114": {
         "runCount": 35,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 132.4,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -14643,14 +14643,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14691,6 +14683,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14700,7 +14700,7 @@
       },
       "113": {
         "runCount": 35,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 132.4,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -14732,14 +14732,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14780,6 +14772,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14789,7 +14789,7 @@
       },
       "112": {
         "runCount": 35,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 132.4,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -14821,14 +14821,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14869,6 +14861,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14878,7 +14878,7 @@
       },
       "111": {
         "runCount": 35,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 132.4,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -14910,14 +14910,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14958,6 +14950,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -14967,7 +14967,7 @@
       },
       "110": {
         "runCount": 35,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 132.4,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -14999,14 +14999,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15047,6 +15039,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15056,7 +15056,7 @@
       },
       "109": {
         "runCount": 35,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 132.4,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -15088,14 +15088,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15136,6 +15128,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15145,7 +15145,7 @@
       },
       "108": {
         "runCount": 35,
-        "averageParticipationPct": 11.9,
+        "averageParticipationPct": 11.8,
         "averageRunDepthStep": 132.4,
         "averageRunDepthPct": 95.3,
         "averageBattlesUsed": 0.7,
@@ -15177,14 +15177,6 @@
           {
             "usageKey": "Rival Brendan Route 110 Mudkip",
             "displayName": "Rival Brendan Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15225,6 +15217,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15272,14 +15272,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -15314,6 +15306,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15361,14 +15361,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -15403,6 +15395,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15450,14 +15450,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -15492,6 +15484,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15539,14 +15539,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -15581,6 +15573,14 @@
           {
             "usageKey": "Sr And Jr Anna And Meg",
             "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Triathlete Dylan",
+            "displayName": "Triathlete Dylan",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15636,14 +15636,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -15670,6 +15662,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15725,14 +15725,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -15759,6 +15751,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15814,14 +15814,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -15848,6 +15840,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15903,14 +15903,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -15937,6 +15929,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -15992,14 +15992,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16026,6 +16018,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16081,14 +16081,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16115,6 +16107,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16170,14 +16170,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16204,6 +16196,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16259,14 +16259,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16293,6 +16285,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16348,14 +16348,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16382,6 +16374,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16437,14 +16437,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16471,6 +16463,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16526,14 +16526,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16560,6 +16552,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16615,14 +16615,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16649,6 +16641,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16704,14 +16704,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16738,6 +16730,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16793,14 +16793,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16827,6 +16819,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16836,7 +16836,7 @@
       },
       "89": {
         "runCount": 45,
-        "averageParticipationPct": 13.7,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 125.2,
         "averageRunDepthPct": 90.0,
         "averageBattlesUsed": 0.7,
@@ -16882,14 +16882,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -16916,6 +16908,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -16925,7 +16925,7 @@
       },
       "88": {
         "runCount": 45,
-        "averageParticipationPct": 13.7,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 125.2,
         "averageRunDepthPct": 90.0,
         "averageBattlesUsed": 0.7,
@@ -16971,14 +16971,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -17005,6 +16997,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -17014,7 +17014,7 @@
       },
       "87": {
         "runCount": 45,
-        "averageParticipationPct": 13.7,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 125.2,
         "averageRunDepthPct": 90.0,
         "averageBattlesUsed": 0.7,
@@ -17060,14 +17060,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -17094,6 +17086,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -17103,7 +17103,7 @@
       },
       "86": {
         "runCount": 45,
-        "averageParticipationPct": 13.7,
+        "averageParticipationPct": 13.6,
         "averageRunDepthStep": 125.2,
         "averageRunDepthPct": 90.0,
         "averageBattlesUsed": 0.7,
@@ -17149,14 +17149,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -17183,6 +17175,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -17238,14 +17238,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -17272,6 +17264,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -17327,14 +17327,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -17361,6 +17353,14 @@
           {
             "usageKey": "Rival May Route 119 Treecko",
             "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
             "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
@@ -17416,14 +17416,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -17454,12 +17446,20 @@
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Sr And Jr Anna And Meg",
+            "displayName": "Sr And Jr Anna And Meg",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
       "82": {
         "runCount": 51,
-        "averageParticipationPct": 12.4,
+        "averageParticipationPct": 12.3,
         "averageRunDepthStep": 120.2,
         "averageRunDepthPct": 86.4,
         "averageBattlesUsed": 0.6,
@@ -17513,14 +17513,6 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Cap",
-            "displayName": "Rival Cap",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
             "usageKey": "Rival May Evergrande Treecko",
             "displayName": "Rival May Evergrande Treecko",
             "leadLevel": null,
@@ -17543,12 +17535,20 @@
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
+          },
+          {
+            "usageKey": "Rival May Route 119 Treecko",
+            "displayName": "Rival May Route 119 Treecko",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
       "81": {
         "runCount": 52,
-        "averageParticipationPct": 12.4,
+        "averageParticipationPct": 12.3,
         "averageRunDepthStep": 119.4,
         "averageRunDepthPct": 85.9,
         "averageBattlesUsed": 0.7,
@@ -17637,7 +17637,7 @@
       },
       "80": {
         "runCount": 52,
-        "averageParticipationPct": 12.4,
+        "averageParticipationPct": 12.3,
         "averageRunDepthStep": 119.4,
         "averageRunDepthPct": 85.9,
         "averageBattlesUsed": 0.7,
@@ -17726,7 +17726,7 @@
       },
       "79": {
         "runCount": 52,
-        "averageParticipationPct": 12.4,
+        "averageParticipationPct": 12.3,
         "averageRunDepthStep": 119.4,
         "averageRunDepthPct": 85.9,
         "averageBattlesUsed": 0.7,
@@ -17815,7 +17815,7 @@
       },
       "78": {
         "runCount": 53,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 118.6,
         "averageRunDepthPct": 85.3,
         "averageBattlesUsed": 0.8,
@@ -17904,7 +17904,7 @@
       },
       "77": {
         "runCount": 53,
-        "averageParticipationPct": 13.0,
+        "averageParticipationPct": 12.9,
         "averageRunDepthStep": 118.6,
         "averageRunDepthPct": 85.3,
         "averageBattlesUsed": 0.8,
@@ -22709,10 +22709,10 @@
         ]
       },
       "23": {
-        "runCount": 190,
-        "averageParticipationPct": 16.4,
-        "averageRunDepthStep": 64.4,
-        "averageRunDepthPct": 46.3,
+        "runCount": 191,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 64.2,
+        "averageRunDepthPct": 46.2,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -22730,6 +22730,14 @@
             "partyCount": 5,
             "ownedCount": 25,
             "participationPct": 20
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -22762,14 +22770,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "18",
@@ -22798,10 +22798,10 @@
         ]
       },
       "22": {
-        "runCount": 193,
-        "averageParticipationPct": 16.6,
-        "averageRunDepthStep": 63.7,
-        "averageRunDepthPct": 45.8,
+        "runCount": 194,
+        "averageParticipationPct": 17.1,
+        "averageRunDepthStep": 63.5,
+        "averageRunDepthPct": 45.7,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -22819,6 +22819,14 @@
             "partyCount": 7,
             "ownedCount": 27,
             "participationPct": 26
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -22851,14 +22859,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -22887,10 +22887,10 @@
         ]
       },
       "21": {
-        "runCount": 194,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 63.5,
-        "averageRunDepthPct": 45.7,
+        "runCount": 195,
+        "averageParticipationPct": 17.0,
+        "averageRunDepthStep": 63.3,
+        "averageRunDepthPct": 45.5,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -22908,6 +22908,14 @@
             "partyCount": 7,
             "ownedCount": 27,
             "participationPct": 26
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -22940,14 +22948,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -22976,10 +22976,10 @@
         ]
       },
       "20": {
-        "runCount": 195,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 63.3,
-        "averageRunDepthPct": 45.5,
+        "runCount": 196,
+        "averageParticipationPct": 16.9,
+        "averageRunDepthStep": 63.1,
+        "averageRunDepthPct": 45.4,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -22997,6 +22997,14 @@
             "partyCount": 7,
             "ownedCount": 27,
             "participationPct": 26
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23029,14 +23037,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23065,10 +23065,10 @@
         ]
       },
       "19": {
-        "runCount": 195,
-        "averageParticipationPct": 16.5,
-        "averageRunDepthStep": 63.3,
-        "averageRunDepthPct": 45.5,
+        "runCount": 196,
+        "averageParticipationPct": 16.9,
+        "averageRunDepthStep": 63.1,
+        "averageRunDepthPct": 45.4,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23086,6 +23086,14 @@
             "partyCount": 7,
             "ownedCount": 27,
             "participationPct": 26
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23118,14 +23126,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23154,10 +23154,10 @@
         ]
       },
       "18": {
-        "runCount": 196,
-        "averageParticipationPct": 16.4,
-        "averageRunDepthStep": 63.0,
-        "averageRunDepthPct": 45.3,
+        "runCount": 197,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 62.8,
+        "averageRunDepthPct": 45.2,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23175,6 +23175,14 @@
             "partyCount": 7,
             "ownedCount": 27,
             "participationPct": 26
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23207,14 +23215,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23243,10 +23243,10 @@
         ]
       },
       "17": {
-        "runCount": 196,
-        "averageParticipationPct": 16.4,
-        "averageRunDepthStep": 63.0,
-        "averageRunDepthPct": 45.3,
+        "runCount": 197,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 62.8,
+        "averageRunDepthPct": 45.2,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23264,6 +23264,14 @@
             "partyCount": 7,
             "ownedCount": 27,
             "participationPct": 26
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23296,14 +23304,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23332,10 +23332,10 @@
         ]
       },
       "16": {
-        "runCount": 196,
-        "averageParticipationPct": 16.4,
-        "averageRunDepthStep": 63.0,
-        "averageRunDepthPct": 45.3,
+        "runCount": 197,
+        "averageParticipationPct": 16.8,
+        "averageRunDepthStep": 62.8,
+        "averageRunDepthPct": 45.2,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23353,6 +23353,14 @@
             "partyCount": 7,
             "ownedCount": 27,
             "participationPct": 26
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23385,14 +23393,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23421,10 +23421,10 @@
         ]
       },
       "15": {
-        "runCount": 203,
-        "averageParticipationPct": 16.1,
-        "averageRunDepthStep": 61.4,
-        "averageRunDepthPct": 44.2,
+        "runCount": 204,
+        "averageParticipationPct": 16.5,
+        "averageRunDepthStep": 61.2,
+        "averageRunDepthPct": 44.0,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23442,6 +23442,14 @@
             "partyCount": 8,
             "ownedCount": 29,
             "participationPct": 28
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23474,14 +23482,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23510,10 +23510,10 @@
         ]
       },
       "14": {
-        "runCount": 204,
-        "averageParticipationPct": 16.0,
-        "averageRunDepthStep": 61.1,
-        "averageRunDepthPct": 44.0,
+        "runCount": 205,
+        "averageParticipationPct": 16.4,
+        "averageRunDepthStep": 61.0,
+        "averageRunDepthPct": 43.9,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23531,6 +23531,14 @@
             "partyCount": 8,
             "ownedCount": 29,
             "participationPct": 28
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23563,14 +23571,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23599,10 +23599,10 @@
         ]
       },
       "13": {
-        "runCount": 223,
-        "averageParticipationPct": 19.5,
-        "averageRunDepthStep": 57.0,
-        "averageRunDepthPct": 41.0,
+        "runCount": 224,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 56.9,
+        "averageRunDepthPct": 40.9,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23620,6 +23620,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23652,14 +23660,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23688,10 +23688,10 @@
         ]
       },
       "12": {
-        "runCount": 223,
-        "averageParticipationPct": 19.5,
-        "averageRunDepthStep": 57.0,
-        "averageRunDepthPct": 41.0,
+        "runCount": 224,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 56.9,
+        "averageRunDepthPct": 40.9,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23709,6 +23709,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23741,14 +23749,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23777,10 +23777,10 @@
         ]
       },
       "11": {
-        "runCount": 223,
-        "averageParticipationPct": 19.5,
-        "averageRunDepthStep": 57.0,
-        "averageRunDepthPct": 41.0,
+        "runCount": 224,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 56.9,
+        "averageRunDepthPct": 40.9,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23798,6 +23798,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23830,14 +23838,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23866,10 +23866,10 @@
         ]
       },
       "10": {
-        "runCount": 223,
-        "averageParticipationPct": 19.5,
-        "averageRunDepthStep": 57.0,
-        "averageRunDepthPct": 41.0,
+        "runCount": 224,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 56.9,
+        "averageRunDepthPct": 40.9,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23887,6 +23887,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -23919,14 +23927,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -23955,10 +23955,10 @@
         ]
       },
       "9": {
-        "runCount": 223,
-        "averageParticipationPct": 19.5,
-        "averageRunDepthStep": 57.0,
-        "averageRunDepthPct": 41.0,
+        "runCount": 224,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 56.9,
+        "averageRunDepthPct": 40.9,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -23976,6 +23976,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24008,14 +24016,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -24044,10 +24044,10 @@
         ]
       },
       "8": {
-        "runCount": 223,
-        "averageParticipationPct": 19.5,
-        "averageRunDepthStep": 57.0,
-        "averageRunDepthPct": 41.0,
+        "runCount": 224,
+        "averageParticipationPct": 19.9,
+        "averageRunDepthStep": 56.9,
+        "averageRunDepthPct": 40.9,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -24065,6 +24065,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24097,14 +24105,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -24133,10 +24133,10 @@
         ]
       },
       "7": {
-        "runCount": 224,
-        "averageParticipationPct": 19.5,
-        "averageRunDepthStep": 56.8,
-        "averageRunDepthPct": 40.9,
+        "runCount": 225,
+        "averageParticipationPct": 19.8,
+        "averageRunDepthStep": 56.7,
+        "averageRunDepthPct": 40.8,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -24154,6 +24154,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24186,14 +24194,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -24222,10 +24222,10 @@
         ]
       },
       "6": {
-        "runCount": 224,
-        "averageParticipationPct": 19.5,
-        "averageRunDepthStep": 56.8,
-        "averageRunDepthPct": 40.9,
+        "runCount": 225,
+        "averageParticipationPct": 19.8,
+        "averageRunDepthStep": 56.7,
+        "averageRunDepthPct": 40.8,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -24243,6 +24243,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24275,14 +24283,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -24311,10 +24311,10 @@
         ]
       },
       "5": {
-        "runCount": 225,
-        "averageParticipationPct": 19.8,
-        "averageRunDepthStep": 56.6,
-        "averageRunDepthPct": 40.7,
+        "runCount": 226,
+        "averageParticipationPct": 20.2,
+        "averageRunDepthStep": 56.4,
+        "averageRunDepthPct": 40.6,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -24332,6 +24332,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24364,14 +24372,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -24400,10 +24400,10 @@
         ]
       },
       "4": {
-        "runCount": 225,
-        "averageParticipationPct": 19.8,
-        "averageRunDepthStep": 56.6,
-        "averageRunDepthPct": 40.7,
+        "runCount": 226,
+        "averageParticipationPct": 20.2,
+        "averageRunDepthStep": 56.4,
+        "averageRunDepthPct": 40.6,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -24421,6 +24421,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24453,14 +24461,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -24489,10 +24489,10 @@
         ]
       },
       "3": {
-        "runCount": 225,
-        "averageParticipationPct": 19.8,
-        "averageRunDepthStep": 56.6,
-        "averageRunDepthPct": 40.7,
+        "runCount": 226,
+        "averageParticipationPct": 20.2,
+        "averageRunDepthStep": 56.4,
+        "averageRunDepthPct": 40.6,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -24510,6 +24510,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24542,14 +24550,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -24578,10 +24578,10 @@
         ]
       },
       "2": {
-        "runCount": 225,
-        "averageParticipationPct": 19.8,
-        "averageRunDepthStep": 56.6,
-        "averageRunDepthPct": 40.7,
+        "runCount": 226,
+        "averageParticipationPct": 20.2,
+        "averageRunDepthStep": 56.4,
+        "averageRunDepthPct": 40.6,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -24599,6 +24599,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24631,14 +24639,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",
@@ -24667,10 +24667,10 @@
         ]
       },
       "1": {
-        "runCount": 225,
-        "averageParticipationPct": 19.8,
-        "averageRunDepthStep": 56.6,
-        "averageRunDepthPct": 40.7,
+        "runCount": 226,
+        "averageParticipationPct": 20.2,
+        "averageRunDepthStep": 56.4,
+        "averageRunDepthPct": 40.6,
         "averageBattlesUsed": 0.5,
         "topBattles": [
           {
@@ -24688,6 +24688,14 @@
             "partyCount": 18,
             "ownedCount": 38,
             "participationPct": 47
+          },
+          {
+            "usageKey": "Rival May Route 110 Mudkip",
+            "displayName": "Rival May Route 110 Mudkip",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "656",
@@ -24720,14 +24728,6 @@
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
-          },
-          {
-            "usageKey": "Rival May Route 110 Mudkip",
-            "displayName": "Rival May Route 110 Mudkip",
-            "leadLevel": null,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
           },
           {
             "usageKey": "536",

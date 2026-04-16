@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "sandygast",
   "familyMembers": [
     "Palossand",
@@ -8021,7 +8021,7 @@
         },
         "49": {
           "runCount": 127,
-          "averageParticipationPct": 18.2,
+          "averageParticipationPct": 17.8,
           "averageRunDepthStep": 105.6,
           "averageRunDepthPct": 76.0,
           "averageBattlesUsed": 0.9,
@@ -8110,7 +8110,7 @@
         },
         "48": {
           "runCount": 134,
-          "averageParticipationPct": 18.8,
+          "averageParticipationPct": 18.4,
           "averageRunDepthStep": 102.6,
           "averageRunDepthPct": 73.8,
           "averageBattlesUsed": 0.9,
@@ -8199,7 +8199,7 @@
         },
         "47": {
           "runCount": 138,
-          "averageParticipationPct": 18.7,
+          "averageParticipationPct": 18.4,
           "averageRunDepthStep": 101.0,
           "averageRunDepthPct": 72.7,
           "averageBattlesUsed": 0.9,
@@ -8288,7 +8288,7 @@
         },
         "46": {
           "runCount": 140,
-          "averageParticipationPct": 18.9,
+          "averageParticipationPct": 18.6,
           "averageRunDepthStep": 100.2,
           "averageRunDepthPct": 72.1,
           "averageBattlesUsed": 0.9,
@@ -8377,7 +8377,7 @@
         },
         "45": {
           "runCount": 140,
-          "averageParticipationPct": 18.9,
+          "averageParticipationPct": 18.6,
           "averageRunDepthStep": 100.2,
           "averageRunDepthPct": 72.1,
           "averageBattlesUsed": 0.9,
@@ -8466,7 +8466,7 @@
         },
         "44": {
           "runCount": 141,
-          "averageParticipationPct": 18.8,
+          "averageParticipationPct": 18.4,
           "averageRunDepthStep": 99.8,
           "averageRunDepthPct": 71.8,
           "averageBattlesUsed": 0.9,
@@ -8554,10 +8554,10 @@
           ]
         },
         "43": {
-          "runCount": 147,
-          "averageParticipationPct": 21.4,
-          "averageRunDepthStep": 97.5,
-          "averageRunDepthPct": 70.2,
+          "runCount": 148,
+          "averageParticipationPct": 21.6,
+          "averageRunDepthStep": 97.1,
+          "averageRunDepthPct": 69.9,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8572,9 +8572,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -8643,10 +8643,10 @@
           ]
         },
         "42": {
-          "runCount": 149,
-          "averageParticipationPct": 21.8,
-          "averageRunDepthStep": 96.8,
-          "averageRunDepthPct": 69.6,
+          "runCount": 150,
+          "averageParticipationPct": 22.0,
+          "averageRunDepthStep": 96.4,
+          "averageRunDepthPct": 69.4,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8661,9 +8661,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -8732,10 +8732,10 @@
           ]
         },
         "41": {
-          "runCount": 152,
-          "averageParticipationPct": 21.4,
-          "averageRunDepthStep": 95.7,
-          "averageRunDepthPct": 68.8,
+          "runCount": 153,
+          "averageParticipationPct": 21.6,
+          "averageRunDepthStep": 95.3,
+          "averageRunDepthPct": 68.6,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8750,9 +8750,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -8821,10 +8821,10 @@
           ]
         },
         "40": {
-          "runCount": 153,
-          "averageParticipationPct": 21.2,
-          "averageRunDepthStep": 95.3,
-          "averageRunDepthPct": 68.6,
+          "runCount": 154,
+          "averageParticipationPct": 21.4,
+          "averageRunDepthStep": 95.0,
+          "averageRunDepthPct": 68.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8839,9 +8839,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -8910,10 +8910,10 @@
           ]
         },
         "39": {
-          "runCount": 158,
-          "averageParticipationPct": 22.5,
-          "averageRunDepthStep": 93.5,
-          "averageRunDepthPct": 67.3,
+          "runCount": 160,
+          "averageParticipationPct": 23.1,
+          "averageRunDepthStep": 92.9,
+          "averageRunDepthPct": 66.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -8928,9 +8928,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -8999,10 +8999,10 @@
           ]
         },
         "38": {
-          "runCount": 160,
-          "averageParticipationPct": 23.4,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 162,
+          "averageParticipationPct": 24.1,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9017,9 +9017,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9062,6 +9062,14 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
@@ -9076,22 +9084,14 @@
               "partyCount": 4,
               "ownedCount": 13,
               "participationPct": 31
-            },
-            {
-              "usageKey": "Lass Robin",
-              "displayName": "Lass Robin",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
             }
           ]
         },
         "37": {
-          "runCount": 160,
-          "averageParticipationPct": 23.4,
-          "averageRunDepthStep": 92.8,
-          "averageRunDepthPct": 66.8,
+          "runCount": 162,
+          "averageParticipationPct": 24.1,
+          "averageRunDepthStep": 92.2,
+          "averageRunDepthPct": 66.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9106,9 +9106,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9151,6 +9151,14 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
@@ -9165,22 +9173,14 @@
               "partyCount": 4,
               "ownedCount": 13,
               "participationPct": 31
-            },
-            {
-              "usageKey": "Lass Robin",
-              "displayName": "Lass Robin",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
             }
           ]
         },
         "36": {
-          "runCount": 161,
-          "averageParticipationPct": 23.9,
-          "averageRunDepthStep": 92.5,
-          "averageRunDepthPct": 66.5,
+          "runCount": 163,
+          "averageParticipationPct": 24.5,
+          "averageRunDepthStep": 91.8,
+          "averageRunDepthPct": 66.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9195,9 +9195,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9240,6 +9240,14 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
@@ -9254,22 +9262,14 @@
               "partyCount": 4,
               "ownedCount": 13,
               "participationPct": 31
-            },
-            {
-              "usageKey": "Lass Robin",
-              "displayName": "Lass Robin",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
             }
           ]
         },
         "35": {
-          "runCount": 165,
-          "averageParticipationPct": 24.5,
-          "averageRunDepthStep": 91.1,
-          "averageRunDepthPct": 65.5,
+          "runCount": 167,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 90.5,
+          "averageRunDepthPct": 65.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9284,9 +9284,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9337,28 +9337,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "34": {
-          "runCount": 165,
-          "averageParticipationPct": 24.5,
-          "averageRunDepthStep": 91.1,
-          "averageRunDepthPct": 65.5,
+          "runCount": 167,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 90.5,
+          "averageRunDepthPct": 65.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9373,9 +9373,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9426,28 +9426,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "33": {
-          "runCount": 165,
-          "averageParticipationPct": 24.5,
-          "averageRunDepthStep": 91.1,
-          "averageRunDepthPct": 65.5,
+          "runCount": 167,
+          "averageParticipationPct": 25.1,
+          "averageRunDepthStep": 90.5,
+          "averageRunDepthPct": 65.1,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9462,9 +9462,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9515,28 +9515,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "32": {
-          "runCount": 166,
-          "averageParticipationPct": 25.0,
-          "averageRunDepthStep": 90.7,
-          "averageRunDepthPct": 65.3,
+          "runCount": 168,
+          "averageParticipationPct": 25.6,
+          "averageRunDepthStep": 90.1,
+          "averageRunDepthPct": 64.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9551,9 +9551,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9604,28 +9604,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "31": {
-          "runCount": 166,
-          "averageParticipationPct": 25.0,
-          "averageRunDepthStep": 90.7,
-          "averageRunDepthPct": 65.3,
+          "runCount": 168,
+          "averageParticipationPct": 25.6,
+          "averageRunDepthStep": 90.1,
+          "averageRunDepthPct": 64.8,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9640,9 +9640,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9693,28 +9693,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "30": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9729,9 +9729,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9782,28 +9782,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "29": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9818,9 +9818,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9871,28 +9871,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "28": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9907,9 +9907,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -9960,28 +9960,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "27": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -9996,9 +9996,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10049,28 +10049,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "26": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10085,9 +10085,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10138,28 +10138,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "25": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10174,9 +10174,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10227,28 +10227,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "24": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10263,9 +10263,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10316,28 +10316,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "23": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10352,9 +10352,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10405,28 +10405,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "22": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10441,9 +10441,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10494,28 +10494,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "21": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10530,9 +10530,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10583,28 +10583,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "20": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10619,9 +10619,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10672,28 +10672,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "19": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10708,9 +10708,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10761,28 +10761,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "18": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10797,9 +10797,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10850,28 +10850,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "17": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10886,9 +10886,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -10939,28 +10939,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "16": {
-          "runCount": 168,
-          "averageParticipationPct": 24.7,
-          "averageRunDepthStep": 90.0,
-          "averageRunDepthPct": 64.8,
+          "runCount": 170,
+          "averageParticipationPct": 25.3,
+          "averageRunDepthStep": 89.4,
+          "averageRunDepthPct": 64.3,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -10975,9 +10975,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11028,28 +11028,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "15": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11064,9 +11064,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11117,28 +11117,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "14": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11153,9 +11153,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11206,28 +11206,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "13": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11242,9 +11242,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11295,28 +11295,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "12": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11331,9 +11331,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11384,28 +11384,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "11": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11420,9 +11420,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11473,28 +11473,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "10": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11509,9 +11509,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11562,28 +11562,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "9": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11598,9 +11598,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11651,28 +11651,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "8": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11687,9 +11687,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11740,28 +11740,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "7": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11776,9 +11776,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11829,28 +11829,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "6": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11865,9 +11865,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -11918,28 +11918,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "5": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -11954,9 +11954,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -12007,28 +12007,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "4": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -12043,9 +12043,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -12096,28 +12096,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "3": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -12132,9 +12132,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -12185,28 +12185,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "2": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -12221,9 +12221,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -12274,28 +12274,28 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         },
         "1": {
-          "runCount": 169,
-          "averageParticipationPct": 25.1,
-          "averageRunDepthStep": 89.6,
-          "averageRunDepthPct": 64.4,
+          "runCount": 171,
+          "averageParticipationPct": 25.7,
+          "averageRunDepthStep": 89.0,
+          "averageRunDepthPct": 64.0,
           "averageBattlesUsed": 0.9,
           "topBattles": [
             {
@@ -12310,9 +12310,9 @@
               "usageKey": "Picnicker Charlotte",
               "displayName": "Picnicker Charlotte",
               "leadLevel": null,
-              "partyCount": 6,
-              "ownedCount": 13,
-              "participationPct": 46
+              "partyCount": 7,
+              "ownedCount": 14,
+              "participationPct": 50
             },
             {
               "usageKey": "268",
@@ -12363,20 +12363,20 @@
               "participationPct": 57
             },
             {
+              "usageKey": "Parasol Lady Madeline",
+              "displayName": "Parasol Lady Madeline",
+              "leadLevel": null,
+              "partyCount": 4,
+              "ownedCount": 8,
+              "participationPct": 50
+            },
+            {
               "usageKey": "677",
               "displayName": "Twins Tori And Tia",
               "leadLevel": -2,
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 4,
-              "ownedCount": 13,
-              "participationPct": 31
             }
           ]
         }
@@ -24044,10 +24044,10 @@
           ]
         },
         "8": {
-          "runCount": 106,
-          "averageParticipationPct": 28.5,
-          "averageRunDepthStep": 57.2,
-          "averageRunDepthPct": 41.1,
+          "runCount": 107,
+          "averageParticipationPct": 29.1,
+          "averageRunDepthStep": 56.7,
+          "averageRunDepthPct": 40.8,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -24091,6 +24091,14 @@
               "participationPct": 67
             },
             {
+              "usageKey": "Rival Brendan Rustboro Torchic",
+              "displayName": "Rival Brendan Rustboro Torchic",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
               "usageKey": "701",
               "displayName": "Triathlete Alyssa",
               "leadLevel": -3,
@@ -24121,22 +24129,14 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Brendan Rustboro Treecko",
-              "displayName": "Rival Brendan Rustboro Treecko",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
             }
           ]
         },
         "7": {
-          "runCount": 110,
-          "averageParticipationPct": 31.1,
-          "averageRunDepthStep": 55.4,
-          "averageRunDepthPct": 39.8,
+          "runCount": 111,
+          "averageParticipationPct": 31.7,
+          "averageRunDepthStep": 54.9,
+          "averageRunDepthPct": 39.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -24196,97 +24196,8 @@
               "participationPct": 67
             },
             {
-              "usageKey": "701",
-              "displayName": "Triathlete Alyssa",
-              "leadLevel": -3,
-              "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
-            },
-            {
-              "usageKey": "21",
-              "displayName": "Team Aqua Grunt Museum2",
-              "leadLevel": 30,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
-            },
-            {
-              "usageKey": "Team Aqua Grunt Museum2",
-              "displayName": "Team Aqua Grunt Museum2",
-              "leadLevel": null,
-              "partyCount": 2,
-              "ownedCount": 7,
-              "participationPct": 29
-            }
-          ]
-        },
-        "6": {
-          "runCount": 113,
-          "averageParticipationPct": 32.0,
-          "averageRunDepthStep": 54.0,
-          "averageRunDepthPct": 38.9,
-          "averageBattlesUsed": 0.6,
-          "topBattles": [
-            {
-              "usageKey": "266",
-              "displayName": "Leader Brawly",
-              "leadLevel": 25,
-              "partyCount": 23,
-              "ownedCount": 28,
-              "participationPct": 82
-            },
-            {
-              "usageKey": "265",
-              "displayName": "Leader Roxanne",
-              "leadLevel": 14,
-              "partyCount": 8,
-              "ownedCount": 9,
-              "participationPct": 89
-            },
-            {
-              "usageKey": "267",
-              "displayName": "Leader Wattson",
-              "leadLevel": 34,
-              "partyCount": 5,
-              "ownedCount": 25,
-              "participationPct": 20
-            },
-            {
-              "usageKey": "Rival Brendan Rustboro Treecko",
-              "displayName": "Rival Brendan Rustboro Treecko",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Triathlete Alyssa",
-              "displayName": "Triathlete Alyssa",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 3,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "592",
-              "displayName": "Rival Brendan Rustboro Treecko",
-              "leadLevel": -2,
-              "partyCount": 3,
-              "ownedCount": 4,
-              "participationPct": 75
-            },
-            {
-              "usageKey": "599",
+              "usageKey": "Rival Brendan Rustboro Torchic",
               "displayName": "Rival Brendan Rustboro Torchic",
-              "leadLevel": -2,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
-              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
-              "displayName": "Team Aqua Grunt Rusturf Tunnel",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
@@ -24310,9 +24221,9 @@
             }
           ]
         },
-        "5": {
+        "6": {
           "runCount": 114,
-          "averageParticipationPct": 31.7,
+          "averageParticipationPct": 32.6,
           "averageRunDepthStep": 53.6,
           "averageRunDepthPct": 38.6,
           "averageBattlesUsed": 0.6,
@@ -24374,6 +24285,14 @@
               "participationPct": 67
             },
             {
+              "usageKey": "Rival Brendan Rustboro Torchic",
+              "displayName": "Rival Brendan Rustboro Torchic",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
               "usageKey": "Team Aqua Grunt Rusturf Tunnel",
               "displayName": "Team Aqua Grunt Rusturf Tunnel",
               "leadLevel": null,
@@ -24388,22 +24307,103 @@
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
+            }
+          ]
+        },
+        "5": {
+          "runCount": 115,
+          "averageParticipationPct": 32.3,
+          "averageRunDepthStep": 53.2,
+          "averageRunDepthPct": 38.3,
+          "averageBattlesUsed": 0.6,
+          "topBattles": [
+            {
+              "usageKey": "266",
+              "displayName": "Leader Brawly",
+              "leadLevel": 25,
+              "partyCount": 23,
+              "ownedCount": 28,
+              "participationPct": 82
             },
             {
-              "usageKey": "21",
-              "displayName": "Team Aqua Grunt Museum2",
-              "leadLevel": 30,
+              "usageKey": "265",
+              "displayName": "Leader Roxanne",
+              "leadLevel": 14,
+              "partyCount": 8,
+              "ownedCount": 9,
+              "participationPct": 89
+            },
+            {
+              "usageKey": "267",
+              "displayName": "Leader Wattson",
+              "leadLevel": 34,
+              "partyCount": 5,
+              "ownedCount": 25,
+              "participationPct": 20
+            },
+            {
+              "usageKey": "Rival Brendan Rustboro Treecko",
+              "displayName": "Rival Brendan Rustboro Treecko",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Triathlete Alyssa",
+              "displayName": "Triathlete Alyssa",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "592",
+              "displayName": "Rival Brendan Rustboro Treecko",
+              "leadLevel": -2,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "599",
+              "displayName": "Rival Brendan Rustboro Torchic",
+              "leadLevel": -2,
               "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "Rival Brendan Rustboro Torchic",
+              "displayName": "Rival Brendan Rustboro Torchic",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
+              "displayName": "Team Aqua Grunt Rusturf Tunnel",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "701",
+              "displayName": "Triathlete Alyssa",
+              "leadLevel": -3,
+              "partyCount": 2,
+              "ownedCount": 5,
+              "participationPct": 40
             }
           ]
         },
         "4": {
-          "runCount": 120,
-          "averageParticipationPct": 31.4,
-          "averageRunDepthStep": 51.1,
-          "averageRunDepthPct": 36.8,
+          "runCount": 121,
+          "averageParticipationPct": 32.0,
+          "averageRunDepthStep": 50.8,
+          "averageRunDepthPct": 36.5,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -24463,6 +24463,14 @@
               "participationPct": 67
             },
             {
+              "usageKey": "Rival Brendan Rustboro Torchic",
+              "displayName": "Rival Brendan Rustboro Torchic",
+              "leadLevel": null,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
               "usageKey": "Team Aqua Grunt Rusturf Tunnel",
               "displayName": "Team Aqua Grunt Rusturf Tunnel",
               "leadLevel": null,
@@ -24477,22 +24485,14 @@
               "partyCount": 2,
               "ownedCount": 5,
               "participationPct": 40
-            },
-            {
-              "usageKey": "21",
-              "displayName": "Team Aqua Grunt Museum2",
-              "leadLevel": 30,
-              "partyCount": 2,
-              "ownedCount": 6,
-              "participationPct": 33
             }
           ]
         },
         "3": {
-          "runCount": 129,
-          "averageParticipationPct": 33.1,
-          "averageRunDepthStep": 47.8,
-          "averageRunDepthPct": 34.4,
+          "runCount": 130,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 47.5,
+          "averageRunDepthPct": 34.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -24560,28 +24560,28 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
-              "displayName": "Team Aqua Grunt Rusturf Tunnel",
+              "usageKey": "Rival Brendan Rustboro Torchic",
+              "displayName": "Rival Brendan Rustboro Torchic",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
             },
             {
-              "usageKey": "701",
-              "displayName": "Triathlete Alyssa",
-              "leadLevel": -3,
+              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
+              "displayName": "Team Aqua Grunt Rusturf Tunnel",
+              "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 4,
+              "participationPct": 50
             }
           ]
         },
         "2": {
-          "runCount": 129,
-          "averageParticipationPct": 33.1,
-          "averageRunDepthStep": 47.8,
-          "averageRunDepthPct": 34.4,
+          "runCount": 130,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 47.5,
+          "averageRunDepthPct": 34.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -24649,28 +24649,28 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
-              "displayName": "Team Aqua Grunt Rusturf Tunnel",
+              "usageKey": "Rival Brendan Rustboro Torchic",
+              "displayName": "Rival Brendan Rustboro Torchic",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
             },
             {
-              "usageKey": "701",
-              "displayName": "Triathlete Alyssa",
-              "leadLevel": -3,
+              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
+              "displayName": "Team Aqua Grunt Rusturf Tunnel",
+              "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 4,
+              "participationPct": 50
             }
           ]
         },
         "1": {
-          "runCount": 129,
-          "averageParticipationPct": 33.1,
-          "averageRunDepthStep": 47.8,
-          "averageRunDepthPct": 34.4,
+          "runCount": 130,
+          "averageParticipationPct": 33.6,
+          "averageRunDepthStep": 47.5,
+          "averageRunDepthPct": 34.2,
           "averageBattlesUsed": 0.6,
           "topBattles": [
             {
@@ -24738,20 +24738,20 @@
               "participationPct": 67
             },
             {
-              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
-              "displayName": "Team Aqua Grunt Rusturf Tunnel",
+              "usageKey": "Rival Brendan Rustboro Torchic",
+              "displayName": "Rival Brendan Rustboro Torchic",
               "leadLevel": null,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
             },
             {
-              "usageKey": "701",
-              "displayName": "Triathlete Alyssa",
-              "leadLevel": -3,
+              "usageKey": "Team Aqua Grunt Rusturf Tunnel",
+              "displayName": "Team Aqua Grunt Rusturf Tunnel",
+              "leadLevel": null,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 4,
+              "participationPct": 50
             }
           ]
         }
@@ -32772,7 +32772,7 @@
       },
       "49": {
         "runCount": 141,
-        "averageParticipationPct": 19.4,
+        "averageParticipationPct": 19.1,
         "averageRunDepthStep": 103.5,
         "averageRunDepthPct": 74.4,
         "averageBattlesUsed": 1.0,
@@ -32861,7 +32861,7 @@
       },
       "48": {
         "runCount": 148,
-        "averageParticipationPct": 20.3,
+        "averageParticipationPct": 20.0,
         "averageRunDepthStep": 100.9,
         "averageRunDepthPct": 72.6,
         "averageBattlesUsed": 1.0,
@@ -32950,7 +32950,7 @@
       },
       "47": {
         "runCount": 152,
-        "averageParticipationPct": 20.2,
+        "averageParticipationPct": 19.9,
         "averageRunDepthStep": 99.4,
         "averageRunDepthPct": 71.5,
         "averageBattlesUsed": 1.0,
@@ -33039,7 +33039,7 @@
       },
       "46": {
         "runCount": 155,
-        "averageParticipationPct": 20.2,
+        "averageParticipationPct": 19.8,
         "averageRunDepthStep": 98.4,
         "averageRunDepthPct": 70.8,
         "averageBattlesUsed": 1.0,
@@ -33128,7 +33128,7 @@
       },
       "45": {
         "runCount": 155,
-        "averageParticipationPct": 20.2,
+        "averageParticipationPct": 19.8,
         "averageRunDepthStep": 98.4,
         "averageRunDepthPct": 70.8,
         "averageBattlesUsed": 1.0,
@@ -33217,7 +33217,7 @@
       },
       "44": {
         "runCount": 156,
-        "averageParticipationPct": 20.0,
+        "averageParticipationPct": 19.7,
         "averageRunDepthStep": 98.1,
         "averageRunDepthPct": 70.5,
         "averageBattlesUsed": 1.0,
@@ -33305,10 +33305,10 @@
         ]
       },
       "43": {
-        "runCount": 162,
-        "averageParticipationPct": 22.2,
-        "averageRunDepthStep": 96.0,
-        "averageRunDepthPct": 69.1,
+        "runCount": 163,
+        "averageParticipationPct": 22.3,
+        "averageRunDepthStep": 95.7,
+        "averageRunDepthPct": 68.8,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -33331,9 +33331,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -33394,10 +33394,10 @@
         ]
       },
       "42": {
-        "runCount": 164,
-        "averageParticipationPct": 22.5,
-        "averageRunDepthStep": 95.4,
-        "averageRunDepthPct": 68.6,
+        "runCount": 165,
+        "averageParticipationPct": 22.7,
+        "averageRunDepthStep": 95.0,
+        "averageRunDepthPct": 68.4,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -33420,9 +33420,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -33483,10 +33483,10 @@
         ]
       },
       "41": {
-        "runCount": 167,
-        "averageParticipationPct": 22.1,
-        "averageRunDepthStep": 94.4,
-        "averageRunDepthPct": 67.9,
+        "runCount": 168,
+        "averageParticipationPct": 22.3,
+        "averageRunDepthStep": 94.1,
+        "averageRunDepthPct": 67.7,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -33509,9 +33509,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -33572,10 +33572,10 @@
         ]
       },
       "40": {
-        "runCount": 168,
-        "averageParticipationPct": 22.0,
-        "averageRunDepthStep": 94.1,
-        "averageRunDepthPct": 67.7,
+        "runCount": 169,
+        "averageParticipationPct": 22.1,
+        "averageRunDepthStep": 93.8,
+        "averageRunDepthPct": 67.4,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -33598,9 +33598,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -33661,10 +33661,10 @@
         ]
       },
       "39": {
-        "runCount": 173,
-        "averageParticipationPct": 23.5,
-        "averageRunDepthStep": 92.5,
-        "averageRunDepthPct": 66.5,
+        "runCount": 175,
+        "averageParticipationPct": 24.1,
+        "averageRunDepthStep": 91.9,
+        "averageRunDepthPct": 66.1,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -33687,9 +33687,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -33750,10 +33750,10 @@
         ]
       },
       "38": {
-        "runCount": 175,
-        "averageParticipationPct": 24.4,
-        "averageRunDepthStep": 91.8,
-        "averageRunDepthPct": 66.1,
+        "runCount": 177,
+        "averageParticipationPct": 24.9,
+        "averageRunDepthStep": 91.3,
+        "averageRunDepthPct": 65.7,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -33776,9 +33776,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -33829,9 +33829,9 @@
             "participationPct": 57
           },
           {
-            "usageKey": "677",
-            "displayName": "Twins Tori And Tia",
-            "leadLevel": -2,
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
             "partyCount": 4,
             "ownedCount": 8,
             "participationPct": 50
@@ -33839,10 +33839,10 @@
         ]
       },
       "37": {
-        "runCount": 175,
-        "averageParticipationPct": 24.4,
-        "averageRunDepthStep": 91.8,
-        "averageRunDepthPct": 66.1,
+        "runCount": 177,
+        "averageParticipationPct": 24.9,
+        "averageRunDepthStep": 91.3,
+        "averageRunDepthPct": 65.7,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -33865,9 +33865,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -33918,9 +33918,9 @@
             "participationPct": 57
           },
           {
-            "usageKey": "677",
-            "displayName": "Twins Tori And Tia",
-            "leadLevel": -2,
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
             "partyCount": 4,
             "ownedCount": 8,
             "participationPct": 50
@@ -33928,10 +33928,10 @@
         ]
       },
       "36": {
-        "runCount": 176,
-        "averageParticipationPct": 24.8,
-        "averageRunDepthStep": 91.5,
-        "averageRunDepthPct": 65.8,
+        "runCount": 178,
+        "averageParticipationPct": 25.4,
+        "averageRunDepthStep": 91.0,
+        "averageRunDepthPct": 65.4,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -33954,9 +33954,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34007,9 +34007,9 @@
             "participationPct": 57
           },
           {
-            "usageKey": "677",
-            "displayName": "Twins Tori And Tia",
-            "leadLevel": -2,
+            "usageKey": "Parasol Lady Madeline",
+            "displayName": "Parasol Lady Madeline",
+            "leadLevel": null,
             "partyCount": 4,
             "ownedCount": 8,
             "participationPct": 50
@@ -34017,10 +34017,10 @@
         ]
       },
       "35": {
-        "runCount": 180,
-        "averageParticipationPct": 25.4,
-        "averageRunDepthStep": 90.3,
-        "averageRunDepthPct": 64.9,
+        "runCount": 182,
+        "averageParticipationPct": 25.9,
+        "averageRunDepthStep": 89.7,
+        "averageRunDepthPct": 64.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -34043,9 +34043,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34106,10 +34106,10 @@
         ]
       },
       "34": {
-        "runCount": 180,
-        "averageParticipationPct": 25.4,
-        "averageRunDepthStep": 90.3,
-        "averageRunDepthPct": 64.9,
+        "runCount": 182,
+        "averageParticipationPct": 25.9,
+        "averageRunDepthStep": 89.7,
+        "averageRunDepthPct": 64.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -34132,9 +34132,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34195,10 +34195,10 @@
         ]
       },
       "33": {
-        "runCount": 180,
-        "averageParticipationPct": 25.4,
-        "averageRunDepthStep": 90.3,
-        "averageRunDepthPct": 64.9,
+        "runCount": 182,
+        "averageParticipationPct": 25.9,
+        "averageRunDepthStep": 89.7,
+        "averageRunDepthPct": 64.6,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -34221,9 +34221,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34284,10 +34284,10 @@
         ]
       },
       "32": {
-        "runCount": 192,
-        "averageParticipationPct": 25.9,
-        "averageRunDepthStep": 86.6,
-        "averageRunDepthPct": 62.3,
+        "runCount": 194,
+        "averageParticipationPct": 26.4,
+        "averageRunDepthStep": 86.2,
+        "averageRunDepthPct": 62.0,
         "averageBattlesUsed": 1.0,
         "topBattles": [
           {
@@ -34310,9 +34310,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34373,11 +34373,11 @@
         ]
       },
       "31": {
-        "runCount": 194,
-        "averageParticipationPct": 25.6,
-        "averageRunDepthStep": 86.1,
-        "averageRunDepthPct": 61.9,
-        "averageBattlesUsed": 0.9,
+        "runCount": 196,
+        "averageParticipationPct": 26.1,
+        "averageRunDepthStep": 85.6,
+        "averageRunDepthPct": 61.6,
+        "averageBattlesUsed": 1.0,
         "topBattles": [
           {
             "usageKey": "266",
@@ -34399,9 +34399,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34462,10 +34462,10 @@
         ]
       },
       "30": {
-        "runCount": 197,
-        "averageParticipationPct": 25.2,
-        "averageRunDepthStep": 85.2,
-        "averageRunDepthPct": 61.3,
+        "runCount": 199,
+        "averageParticipationPct": 25.7,
+        "averageRunDepthStep": 84.8,
+        "averageRunDepthPct": 61.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -34488,9 +34488,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34551,10 +34551,10 @@
         ]
       },
       "29": {
-        "runCount": 197,
-        "averageParticipationPct": 25.2,
-        "averageRunDepthStep": 85.2,
-        "averageRunDepthPct": 61.3,
+        "runCount": 199,
+        "averageParticipationPct": 25.7,
+        "averageRunDepthStep": 84.8,
+        "averageRunDepthPct": 61.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -34577,9 +34577,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34640,10 +34640,10 @@
         ]
       },
       "28": {
-        "runCount": 197,
-        "averageParticipationPct": 25.2,
-        "averageRunDepthStep": 85.2,
-        "averageRunDepthPct": 61.3,
+        "runCount": 199,
+        "averageParticipationPct": 25.7,
+        "averageRunDepthStep": 84.8,
+        "averageRunDepthPct": 61.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -34666,9 +34666,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34729,10 +34729,10 @@
         ]
       },
       "27": {
-        "runCount": 197,
-        "averageParticipationPct": 25.2,
-        "averageRunDepthStep": 85.2,
-        "averageRunDepthPct": 61.3,
+        "runCount": 199,
+        "averageParticipationPct": 25.7,
+        "averageRunDepthStep": 84.8,
+        "averageRunDepthPct": 61.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -34755,9 +34755,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34818,10 +34818,10 @@
         ]
       },
       "26": {
-        "runCount": 198,
-        "averageParticipationPct": 25.1,
-        "averageRunDepthStep": 84.9,
-        "averageRunDepthPct": 61.1,
+        "runCount": 200,
+        "averageParticipationPct": 25.6,
+        "averageRunDepthStep": 84.5,
+        "averageRunDepthPct": 60.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -34844,9 +34844,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34907,10 +34907,10 @@
         ]
       },
       "25": {
-        "runCount": 198,
-        "averageParticipationPct": 25.1,
-        "averageRunDepthStep": 84.9,
-        "averageRunDepthPct": 61.1,
+        "runCount": 200,
+        "averageParticipationPct": 25.6,
+        "averageRunDepthStep": 84.5,
+        "averageRunDepthPct": 60.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -34933,9 +34933,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -34996,10 +34996,10 @@
         ]
       },
       "24": {
-        "runCount": 198,
-        "averageParticipationPct": 25.1,
-        "averageRunDepthStep": 84.9,
-        "averageRunDepthPct": 61.1,
+        "runCount": 200,
+        "averageParticipationPct": 25.6,
+        "averageRunDepthStep": 84.5,
+        "averageRunDepthPct": 60.8,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35022,9 +35022,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35085,10 +35085,10 @@
         ]
       },
       "23": {
-        "runCount": 199,
-        "averageParticipationPct": 24.9,
-        "averageRunDepthStep": 84.6,
-        "averageRunDepthPct": 60.9,
+        "runCount": 201,
+        "averageParticipationPct": 25.4,
+        "averageRunDepthStep": 84.2,
+        "averageRunDepthPct": 60.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35111,9 +35111,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35174,10 +35174,10 @@
         ]
       },
       "22": {
-        "runCount": 199,
-        "averageParticipationPct": 24.9,
-        "averageRunDepthStep": 84.6,
-        "averageRunDepthPct": 60.9,
+        "runCount": 201,
+        "averageParticipationPct": 25.4,
+        "averageRunDepthStep": 84.2,
+        "averageRunDepthPct": 60.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35200,9 +35200,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35263,10 +35263,10 @@
         ]
       },
       "21": {
-        "runCount": 200,
-        "averageParticipationPct": 24.8,
-        "averageRunDepthStep": 84.3,
-        "averageRunDepthPct": 60.6,
+        "runCount": 202,
+        "averageParticipationPct": 25.3,
+        "averageRunDepthStep": 83.8,
+        "averageRunDepthPct": 60.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35289,9 +35289,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35352,10 +35352,10 @@
         ]
       },
       "20": {
-        "runCount": 201,
-        "averageParticipationPct": 24.7,
-        "averageRunDepthStep": 84.0,
-        "averageRunDepthPct": 60.4,
+        "runCount": 203,
+        "averageParticipationPct": 25.2,
+        "averageRunDepthStep": 83.5,
+        "averageRunDepthPct": 60.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35378,9 +35378,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35441,10 +35441,10 @@
         ]
       },
       "19": {
-        "runCount": 203,
-        "averageParticipationPct": 24.5,
-        "averageRunDepthStep": 83.3,
-        "averageRunDepthPct": 59.9,
+        "runCount": 205,
+        "averageParticipationPct": 24.9,
+        "averageRunDepthStep": 82.9,
+        "averageRunDepthPct": 59.6,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35467,9 +35467,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35530,10 +35530,10 @@
         ]
       },
       "18": {
-        "runCount": 204,
-        "averageParticipationPct": 24.8,
-        "averageRunDepthStep": 83.0,
-        "averageRunDepthPct": 59.7,
+        "runCount": 206,
+        "averageParticipationPct": 25.3,
+        "averageRunDepthStep": 82.6,
+        "averageRunDepthPct": 59.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35556,9 +35556,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35619,10 +35619,10 @@
         ]
       },
       "17": {
-        "runCount": 204,
-        "averageParticipationPct": 24.8,
-        "averageRunDepthStep": 83.0,
-        "averageRunDepthPct": 59.7,
+        "runCount": 206,
+        "averageParticipationPct": 25.3,
+        "averageRunDepthStep": 82.6,
+        "averageRunDepthPct": 59.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35645,9 +35645,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35708,10 +35708,10 @@
         ]
       },
       "16": {
-        "runCount": 205,
-        "averageParticipationPct": 24.9,
-        "averageRunDepthStep": 82.7,
-        "averageRunDepthPct": 59.5,
+        "runCount": 207,
+        "averageParticipationPct": 25.4,
+        "averageRunDepthStep": 82.3,
+        "averageRunDepthPct": 59.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35734,9 +35734,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35797,10 +35797,10 @@
         ]
       },
       "15": {
-        "runCount": 208,
-        "averageParticipationPct": 25.5,
-        "averageRunDepthStep": 81.7,
-        "averageRunDepthPct": 58.8,
+        "runCount": 210,
+        "averageParticipationPct": 26.0,
+        "averageRunDepthStep": 81.3,
+        "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35823,9 +35823,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35886,10 +35886,10 @@
         ]
       },
       "14": {
-        "runCount": 208,
-        "averageParticipationPct": 25.5,
-        "averageRunDepthStep": 81.7,
-        "averageRunDepthPct": 58.8,
+        "runCount": 210,
+        "averageParticipationPct": 26.0,
+        "averageRunDepthStep": 81.3,
+        "averageRunDepthPct": 58.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35912,9 +35912,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -35975,10 +35975,10 @@
         ]
       },
       "13": {
-        "runCount": 221,
-        "averageParticipationPct": 28.5,
-        "averageRunDepthStep": 77.6,
-        "averageRunDepthPct": 55.9,
+        "runCount": 223,
+        "averageParticipationPct": 28.9,
+        "averageRunDepthStep": 77.3,
+        "averageRunDepthPct": 55.6,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -35998,20 +35998,20 @@
             "participationPct": 54
           },
           {
+            "usageKey": "Picnicker Charlotte",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
+          },
+          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 6,
             "ownedCount": 7,
             "participationPct": 86
-          },
-          {
-            "usageKey": "Picnicker Charlotte",
-            "displayName": "Picnicker Charlotte",
-            "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
           },
           {
             "usageKey": "268",
@@ -36064,10 +36064,10 @@
         ]
       },
       "12": {
-        "runCount": 222,
-        "averageParticipationPct": 28.4,
-        "averageRunDepthStep": 77.4,
-        "averageRunDepthPct": 55.6,
+        "runCount": 224,
+        "averageParticipationPct": 28.8,
+        "averageRunDepthStep": 77.0,
+        "averageRunDepthPct": 55.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36087,20 +36087,20 @@
             "participationPct": 54
           },
           {
+            "usageKey": "Picnicker Charlotte",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
+          },
+          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 6,
             "ownedCount": 7,
             "participationPct": 86
-          },
-          {
-            "usageKey": "Picnicker Charlotte",
-            "displayName": "Picnicker Charlotte",
-            "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
           },
           {
             "usageKey": "268",
@@ -36153,10 +36153,10 @@
         ]
       },
       "11": {
-        "runCount": 222,
-        "averageParticipationPct": 28.4,
-        "averageRunDepthStep": 77.4,
-        "averageRunDepthPct": 55.6,
+        "runCount": 224,
+        "averageParticipationPct": 28.8,
+        "averageRunDepthStep": 77.0,
+        "averageRunDepthPct": 55.4,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36176,20 +36176,20 @@
             "participationPct": 54
           },
           {
+            "usageKey": "Picnicker Charlotte",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
+          },
+          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 6,
             "ownedCount": 7,
             "participationPct": 86
-          },
-          {
-            "usageKey": "Picnicker Charlotte",
-            "displayName": "Picnicker Charlotte",
-            "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
           },
           {
             "usageKey": "268",
@@ -36242,10 +36242,10 @@
         ]
       },
       "10": {
-        "runCount": 223,
-        "averageParticipationPct": 28.7,
-        "averageRunDepthStep": 77.0,
-        "averageRunDepthPct": 55.4,
+        "runCount": 225,
+        "averageParticipationPct": 29.1,
+        "averageRunDepthStep": 76.7,
+        "averageRunDepthPct": 55.2,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36265,20 +36265,20 @@
             "participationPct": 54
           },
           {
+            "usageKey": "Picnicker Charlotte",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
+          },
+          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 6,
             "ownedCount": 7,
             "participationPct": 86
-          },
-          {
-            "usageKey": "Picnicker Charlotte",
-            "displayName": "Picnicker Charlotte",
-            "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
           },
           {
             "usageKey": "268",
@@ -36331,10 +36331,10 @@
         ]
       },
       "9": {
-        "runCount": 224,
-        "averageParticipationPct": 28.6,
-        "averageRunDepthStep": 76.7,
-        "averageRunDepthPct": 55.2,
+        "runCount": 226,
+        "averageParticipationPct": 29.0,
+        "averageRunDepthStep": 76.4,
+        "averageRunDepthPct": 55.0,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36354,20 +36354,20 @@
             "participationPct": 54
           },
           {
+            "usageKey": "Picnicker Charlotte",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
+          },
+          {
             "usageKey": "265",
             "displayName": "Leader Roxanne",
             "leadLevel": 14,
             "partyCount": 6,
             "ownedCount": 7,
             "participationPct": 86
-          },
-          {
-            "usageKey": "Picnicker Charlotte",
-            "displayName": "Picnicker Charlotte",
-            "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
           },
           {
             "usageKey": "268",
@@ -36420,10 +36420,10 @@
         ]
       },
       "8": {
-        "runCount": 228,
-        "averageParticipationPct": 28.8,
-        "averageRunDepthStep": 75.5,
-        "averageRunDepthPct": 54.3,
+        "runCount": 231,
+        "averageParticipationPct": 29.6,
+        "averageRunDepthStep": 74.9,
+        "averageRunDepthPct": 53.9,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36454,9 +36454,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -36509,10 +36509,10 @@
         ]
       },
       "7": {
-        "runCount": 232,
-        "averageParticipationPct": 30.1,
-        "averageRunDepthStep": 74.4,
-        "averageRunDepthPct": 53.5,
+        "runCount": 235,
+        "averageParticipationPct": 30.8,
+        "averageRunDepthStep": 73.8,
+        "averageRunDepthPct": 53.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36543,9 +36543,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -36598,10 +36598,10 @@
         ]
       },
       "6": {
-        "runCount": 235,
-        "averageParticipationPct": 30.5,
-        "averageRunDepthStep": 73.5,
-        "averageRunDepthPct": 52.9,
+        "runCount": 238,
+        "averageParticipationPct": 31.2,
+        "averageRunDepthStep": 72.9,
+        "averageRunDepthPct": 52.5,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36632,9 +36632,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -36687,10 +36687,10 @@
         ]
       },
       "5": {
-        "runCount": 236,
-        "averageParticipationPct": 30.4,
-        "averageRunDepthStep": 73.2,
-        "averageRunDepthPct": 52.7,
+        "runCount": 239,
+        "averageParticipationPct": 31.1,
+        "averageRunDepthStep": 72.7,
+        "averageRunDepthPct": 52.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36721,9 +36721,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -36776,10 +36776,10 @@
         ]
       },
       "4": {
-        "runCount": 242,
-        "averageParticipationPct": 30.3,
-        "averageRunDepthStep": 71.5,
-        "averageRunDepthPct": 51.4,
+        "runCount": 245,
+        "averageParticipationPct": 30.9,
+        "averageRunDepthStep": 71.0,
+        "averageRunDepthPct": 51.1,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36810,9 +36810,9 @@
             "usageKey": "Picnicker Charlotte",
             "displayName": "Picnicker Charlotte",
             "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
           },
           {
             "usageKey": "268",
@@ -36865,10 +36865,10 @@
         ]
       },
       "3": {
-        "runCount": 251,
-        "averageParticipationPct": 31.2,
-        "averageRunDepthStep": 69.0,
-        "averageRunDepthPct": 49.7,
+        "runCount": 254,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 68.6,
+        "averageRunDepthPct": 49.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36896,20 +36896,20 @@
             "participationPct": 54
           },
           {
+            "usageKey": "Picnicker Charlotte",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
+          },
+          {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
             "partyCount": 7,
             "ownedCount": 23,
             "participationPct": 30
-          },
-          {
-            "usageKey": "Picnicker Charlotte",
-            "displayName": "Picnicker Charlotte",
-            "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
           },
           {
             "usageKey": "268",
@@ -36954,10 +36954,10 @@
         ]
       },
       "2": {
-        "runCount": 251,
-        "averageParticipationPct": 31.2,
-        "averageRunDepthStep": 69.0,
-        "averageRunDepthPct": 49.7,
+        "runCount": 254,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 68.6,
+        "averageRunDepthPct": 49.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -36985,20 +36985,20 @@
             "participationPct": 54
           },
           {
+            "usageKey": "Picnicker Charlotte",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
+          },
+          {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
             "partyCount": 7,
             "ownedCount": 23,
             "participationPct": 30
-          },
-          {
-            "usageKey": "Picnicker Charlotte",
-            "displayName": "Picnicker Charlotte",
-            "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
           },
           {
             "usageKey": "268",
@@ -37043,10 +37043,10 @@
         ]
       },
       "1": {
-        "runCount": 251,
-        "averageParticipationPct": 31.2,
-        "averageRunDepthStep": 69.0,
-        "averageRunDepthPct": 49.7,
+        "runCount": 254,
+        "averageParticipationPct": 31.8,
+        "averageRunDepthStep": 68.6,
+        "averageRunDepthPct": 49.3,
         "averageBattlesUsed": 0.9,
         "topBattles": [
           {
@@ -37074,20 +37074,20 @@
             "participationPct": 54
           },
           {
+            "usageKey": "Picnicker Charlotte",
+            "displayName": "Picnicker Charlotte",
+            "leadLevel": null,
+            "partyCount": 7,
+            "ownedCount": 14,
+            "participationPct": 50
+          },
+          {
             "usageKey": "851",
             "displayName": "Leader Candice",
             "leadLevel": -1,
             "partyCount": 7,
             "ownedCount": 23,
             "participationPct": 30
-          },
-          {
-            "usageKey": "Picnicker Charlotte",
-            "displayName": "Picnicker Charlotte",
-            "leadLevel": null,
-            "partyCount": 6,
-            "ownedCount": 13,
-            "participationPct": 46
           },
           {
             "usageKey": "268",

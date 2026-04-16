@@ -1,6 +1,6 @@
 {
   "title": "Emerald Imperium 1.3",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-16T20:48:09.475576Z",
   "familyKey": "mimikyu",
   "familyMembers": [
     "Mimikyu"
@@ -722,7 +722,7 @@
         },
         "131": {
           "runCount": 20,
-          "averageParticipationPct": 13.2,
+          "averageParticipationPct": 13.1,
           "averageRunDepthStep": 136.7,
           "averageRunDepthPct": 98.3,
           "averageBattlesUsed": 0.7,
@@ -768,6 +768,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "519",
               "displayName": "Rival Wally Vr",
               "leadLevel": 84,
@@ -795,14 +803,6 @@
               "usageKey": "270",
               "displayName": "Leader Winona",
               "leadLevel": 68,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -811,7 +811,7 @@
         },
         "130": {
           "runCount": 22,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 136.1,
           "averageRunDepthPct": 97.9,
           "averageBattlesUsed": 0.6,
@@ -857,6 +857,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "519",
               "displayName": "Rival Wally Vr",
               "leadLevel": 84,
@@ -884,14 +892,6 @@
               "usageKey": "270",
               "displayName": "Leader Winona",
               "leadLevel": 68,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -900,7 +900,7 @@
         },
         "129": {
           "runCount": 22,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 136.1,
           "averageRunDepthPct": 97.9,
           "averageBattlesUsed": 0.6,
@@ -946,6 +946,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "519",
               "displayName": "Rival Wally Vr",
               "leadLevel": 84,
@@ -973,14 +981,6 @@
               "usageKey": "270",
               "displayName": "Leader Winona",
               "leadLevel": 68,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
@@ -989,7 +989,7 @@
         },
         "128": {
           "runCount": 22,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 136.1,
           "averageRunDepthPct": 97.9,
           "averageBattlesUsed": 0.6,
@@ -1035,6 +1035,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "519",
               "displayName": "Rival Wally Vr",
               "leadLevel": 84,
@@ -1065,20 +1073,12 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "127": {
           "runCount": 24,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 135.3,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 0.6,
@@ -1132,6 +1132,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "519",
               "displayName": "Rival Wally Vr",
               "leadLevel": 84,
@@ -1154,20 +1162,12 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
         "126": {
           "runCount": 24,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 135.3,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 0.6,
@@ -1221,6 +1221,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "519",
               "displayName": "Rival Wally Vr",
               "leadLevel": 84,
@@ -1243,20 +1251,12 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
         "125": {
           "runCount": 24,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 135.3,
           "averageRunDepthPct": 97.4,
           "averageBattlesUsed": 0.6,
@@ -1310,6 +1310,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "519",
               "displayName": "Rival Wally Vr",
               "leadLevel": 84,
@@ -1332,14 +1340,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -1407,6 +1407,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
@@ -1421,14 +1429,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -1496,6 +1496,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
@@ -1510,14 +1518,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -1585,6 +1585,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
@@ -1599,14 +1607,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -1674,6 +1674,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
@@ -1688,14 +1696,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -1763,6 +1763,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
@@ -1777,14 +1785,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -1852,6 +1852,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
@@ -1866,14 +1874,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -1941,6 +1941,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
@@ -1955,14 +1963,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -2030,6 +2030,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
@@ -2044,14 +2052,6 @@
               "partyCount": 1,
               "ownedCount": 2,
               "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 1,
-              "ownedCount": 3,
-              "participationPct": 33
             }
           ]
         },
@@ -2146,7 +2146,7 @@
         },
         "115": {
           "runCount": 32,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 0.7,
@@ -2235,7 +2235,7 @@
         },
         "114": {
           "runCount": 32,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 0.7,
@@ -2324,7 +2324,7 @@
         },
         "113": {
           "runCount": 32,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 0.7,
@@ -2413,7 +2413,7 @@
         },
         "112": {
           "runCount": 32,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 0.7,
@@ -2502,7 +2502,7 @@
         },
         "111": {
           "runCount": 32,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 0.7,
@@ -2591,7 +2591,7 @@
         },
         "110": {
           "runCount": 32,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 0.7,
@@ -2680,7 +2680,7 @@
         },
         "109": {
           "runCount": 32,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 0.7,
@@ -2769,7 +2769,7 @@
         },
         "108": {
           "runCount": 32,
-          "averageParticipationPct": 13.3,
+          "averageParticipationPct": 13.2,
           "averageRunDepthStep": 131.7,
           "averageRunDepthPct": 94.7,
           "averageBattlesUsed": 0.7,
@@ -2858,7 +2858,7 @@
         },
         "107": {
           "runCount": 35,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 129.5,
           "averageRunDepthPct": 93.2,
           "averageBattlesUsed": 0.6,
@@ -2928,26 +2928,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "106": {
           "runCount": 35,
-          "averageParticipationPct": 12.2,
+          "averageParticipationPct": 12.1,
           "averageRunDepthStep": 129.5,
           "averageRunDepthPct": 93.2,
           "averageBattlesUsed": 0.6,
@@ -3017,20 +3017,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -3106,20 +3106,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -3195,26 +3195,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "103": {
           "runCount": 40,
-          "averageParticipationPct": 10.7,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 126.3,
           "averageRunDepthPct": 90.8,
           "averageBattlesUsed": 0.6,
@@ -3284,26 +3284,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "102": {
           "runCount": 40,
-          "averageParticipationPct": 10.7,
+          "averageParticipationPct": 10.6,
           "averageRunDepthStep": 126.3,
           "averageRunDepthPct": 90.8,
           "averageBattlesUsed": 0.6,
@@ -3373,20 +3373,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -3462,20 +3462,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -3551,20 +3551,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -3640,20 +3640,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -3729,20 +3729,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -3818,26 +3818,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "96": {
           "runCount": 44,
-          "averageParticipationPct": 12.0,
+          "averageParticipationPct": 11.9,
           "averageRunDepthStep": 123.8,
           "averageRunDepthPct": 89.1,
           "averageBattlesUsed": 0.5,
@@ -3907,26 +3907,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "95": {
           "runCount": 47,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 122.0,
           "averageRunDepthPct": 87.7,
           "averageBattlesUsed": 0.5,
@@ -3996,26 +3996,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "94": {
           "runCount": 47,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 122.0,
           "averageRunDepthPct": 87.7,
           "averageBattlesUsed": 0.5,
@@ -4085,26 +4085,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "93": {
           "runCount": 47,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 122.0,
           "averageRunDepthPct": 87.7,
           "averageBattlesUsed": 0.5,
@@ -4174,20 +4174,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -4263,26 +4263,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "91": {
           "runCount": 49,
-          "averageParticipationPct": 12.8,
+          "averageParticipationPct": 12.7,
           "averageRunDepthStep": 120.7,
           "averageRunDepthPct": 86.8,
           "averageBattlesUsed": 0.5,
@@ -4352,20 +4352,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -4441,20 +4441,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -4530,26 +4530,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "88": {
           "runCount": 55,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 117.3,
           "averageRunDepthPct": 84.4,
           "averageBattlesUsed": 0.4,
@@ -4619,26 +4619,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "87": {
           "runCount": 55,
-          "averageParticipationPct": 11.4,
+          "averageParticipationPct": 11.3,
           "averageRunDepthStep": 117.3,
           "averageRunDepthPct": 84.4,
           "averageBattlesUsed": 0.4,
@@ -4708,26 +4708,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "86": {
           "runCount": 56,
-          "averageParticipationPct": 11.2,
+          "averageParticipationPct": 11.1,
           "averageRunDepthStep": 116.8,
           "averageRunDepthPct": 84.0,
           "averageBattlesUsed": 0.4,
@@ -4797,26 +4797,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "85": {
           "runCount": 57,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 116.2,
           "averageRunDepthPct": 83.6,
           "averageBattlesUsed": 0.5,
@@ -4886,26 +4886,26 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
         "84": {
           "runCount": 57,
-          "averageParticipationPct": 11.5,
+          "averageParticipationPct": 11.4,
           "averageRunDepthStep": 116.2,
           "averageRunDepthPct": 83.6,
           "averageBattlesUsed": 0.5,
@@ -4975,20 +4975,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -5064,20 +5064,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -5153,20 +5153,20 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "274",
               "displayName": "School Kid Ted",
               "leadLevel": -2,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
-              "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
             }
           ]
         },
@@ -5250,9 +5250,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5339,9 +5339,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5428,9 +5428,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5517,9 +5517,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5606,9 +5606,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5695,9 +5695,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5784,9 +5784,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5873,9 +5873,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -5962,9 +5962,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -6051,9 +6051,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -6140,9 +6140,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -6229,9 +6229,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "274",
-              "displayName": "School Kid Ted",
-              "leadLevel": -2,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -6240,7 +6240,7 @@
         },
         "69": {
           "runCount": 70,
-          "averageParticipationPct": 11.7,
+          "averageParticipationPct": 11.6,
           "averageRunDepthStep": 109.3,
           "averageRunDepthPct": 78.7,
           "averageBattlesUsed": 0.5,
@@ -6763,12 +6763,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
@@ -6852,12 +6852,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
@@ -6941,12 +6941,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "7",
-              "displayName": "Aqua Admin Matt Seafloor Cavern",
-              "leadLevel": 80,
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
               "partyCount": 1,
-              "ownedCount": 2,
-              "participationPct": 50
+              "ownedCount": 1,
+              "participationPct": 100
             }
           ]
         },
@@ -7030,6 +7030,95 @@
               "participationPct": 100
             },
             {
+              "usageKey": "Rival Wally Route110",
+              "displayName": "Rival Wally Route110",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            }
+          ]
+        },
+        "60": {
+          "runCount": 82,
+          "averageParticipationPct": 9.9,
+          "averageRunDepthStep": 102.8,
+          "averageRunDepthPct": 74.0,
+          "averageBattlesUsed": 0.4,
+          "topBattles": [
+            {
+              "usageKey": "Aqua Admin Matt Weather Inst",
+              "displayName": "Aqua Admin Matt Weather Inst",
+              "leadLevel": null,
+              "partyCount": 3,
+              "ownedCount": 7,
+              "participationPct": 43
+            },
+            {
+              "usageKey": "519",
+              "displayName": "Rival Wally Vr",
+              "leadLevel": 84,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "859",
+              "displayName": "Rival Dawn Evergrande",
+              "leadLevel": 84,
+              "partyCount": 2,
+              "ownedCount": 4,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "626",
+              "displayName": "Leader Wake",
+              "leadLevel": -1,
+              "partyCount": 2,
+              "ownedCount": 9,
+              "participationPct": 22
+            },
+            {
+              "usageKey": "269",
+              "displayName": "Leader Norman",
+              "leadLevel": 59,
+              "partyCount": 2,
+              "ownedCount": 13,
+              "participationPct": 15
+            },
+            {
+              "usageKey": "32",
+              "displayName": "Aqua Admin Shelly Weather Institute",
+              "leadLevel": 64,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Black Belt Daisuke",
+              "displayName": "Black Belt Daisuke",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Cooltrainer Felix",
+              "displayName": "Cooltrainer Felix",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "Rival Dawn Route104",
+              "displayName": "Rival Dawn Route104",
+              "leadLevel": null,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "7",
               "displayName": "Aqua Admin Matt Seafloor Cavern",
               "leadLevel": 80,
@@ -7039,98 +7128,9 @@
             }
           ]
         },
-        "60": {
-          "runCount": 82,
-          "averageParticipationPct": 10.0,
-          "averageRunDepthStep": 102.8,
-          "averageRunDepthPct": 74.0,
-          "averageBattlesUsed": 0.4,
-          "topBattles": [
-            {
-              "usageKey": "Aqua Admin Matt Weather Inst",
-              "displayName": "Aqua Admin Matt Weather Inst",
-              "leadLevel": null,
-              "partyCount": 3,
-              "ownedCount": 7,
-              "participationPct": 43
-            },
-            {
-              "usageKey": "519",
-              "displayName": "Rival Wally Vr",
-              "leadLevel": 84,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "859",
-              "displayName": "Rival Dawn Evergrande",
-              "leadLevel": 84,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "626",
-              "displayName": "Leader Wake",
-              "leadLevel": -1,
-              "partyCount": 2,
-              "ownedCount": 9,
-              "participationPct": 22
-            },
-            {
-              "usageKey": "269",
-              "displayName": "Leader Norman",
-              "leadLevel": 59,
-              "partyCount": 2,
-              "ownedCount": 13,
-              "participationPct": 15
-            },
-            {
-              "usageKey": "32",
-              "displayName": "Aqua Admin Shelly Weather Institute",
-              "leadLevel": 64,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Black Belt Daisuke",
-              "displayName": "Black Belt Daisuke",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Cooltrainer Felix",
-              "displayName": "Cooltrainer Felix",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Dawn Route104",
-              "displayName": "Rival Dawn Route104",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            }
-          ]
-        },
         "59": {
           "runCount": 82,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 102.8,
           "averageRunDepthPct": 74.0,
           "averageBattlesUsed": 0.4,
@@ -7208,18 +7208,18 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
         "58": {
           "runCount": 82,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 102.8,
           "averageRunDepthPct": 74.0,
           "averageBattlesUsed": 0.4,
@@ -7297,18 +7297,18 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
         "57": {
           "runCount": 82,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 102.8,
           "averageRunDepthPct": 74.0,
           "averageBattlesUsed": 0.4,
@@ -7386,18 +7386,18 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
         "56": {
           "runCount": 82,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 102.8,
           "averageRunDepthPct": 74.0,
           "averageBattlesUsed": 0.4,
@@ -7475,12 +7475,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -7564,12 +7564,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -7653,12 +7653,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -7742,12 +7742,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -7831,12 +7831,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -7920,12 +7920,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8009,12 +8009,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8098,12 +8098,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8187,12 +8187,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8276,12 +8276,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8365,12 +8365,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8454,12 +8454,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8543,12 +8543,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8632,12 +8632,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8721,12 +8721,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8810,12 +8810,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8899,12 +8899,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -8988,12 +8988,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9077,12 +9077,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9166,12 +9166,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9255,12 +9255,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9344,12 +9344,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9433,12 +9433,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9522,12 +9522,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9611,12 +9611,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9700,12 +9700,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9789,12 +9789,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9878,12 +9878,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -9967,12 +9967,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10056,12 +10056,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10145,12 +10145,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10234,12 +10234,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10323,12 +10323,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10412,12 +10412,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10501,12 +10501,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10590,12 +10590,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10679,12 +10679,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10768,12 +10768,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10857,12 +10857,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -10946,12 +10946,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11035,12 +11035,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11124,12 +11124,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11213,12 +11213,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11302,12 +11302,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11391,12 +11391,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11480,12 +11480,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11569,12 +11569,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11658,12 +11658,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11747,12 +11747,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11836,12 +11836,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -11925,12 +11925,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -12014,12 +12014,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -12103,12 +12103,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
@@ -12192,18 +12192,18 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
         "2": {
           "runCount": 92,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 94.9,
           "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 0.4,
@@ -12281,18 +12281,18 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         },
         "1": {
           "runCount": 92,
-          "averageParticipationPct": 10.0,
+          "averageParticipationPct": 9.9,
           "averageRunDepthStep": 94.9,
           "averageRunDepthPct": 68.2,
           "averageBattlesUsed": 0.4,
@@ -12370,12 +12370,12 @@
               "participationPct": 100
             },
             {
-              "usageKey": "Rival Wally Route110",
-              "displayName": "Rival Wally Route110",
-              "leadLevel": null,
+              "usageKey": "7",
+              "displayName": "Aqua Admin Matt Seafloor Cavern",
+              "leadLevel": 80,
               "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
+              "ownedCount": 2,
+              "participationPct": 50
             }
           ]
         }
@@ -13098,7 +13098,7 @@
       },
       "131": {
         "runCount": 20,
-        "averageParticipationPct": 13.2,
+        "averageParticipationPct": 13.1,
         "averageRunDepthStep": 136.7,
         "averageRunDepthPct": 98.3,
         "averageBattlesUsed": 0.7,
@@ -13144,6 +13144,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
@@ -13171,14 +13179,6 @@
             "usageKey": "270",
             "displayName": "Leader Winona",
             "leadLevel": 68,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "859",
-            "displayName": "Rival Dawn Evergrande",
-            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -13187,7 +13187,7 @@
       },
       "130": {
         "runCount": 22,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 136.1,
         "averageRunDepthPct": 97.9,
         "averageBattlesUsed": 0.6,
@@ -13233,6 +13233,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
@@ -13260,14 +13268,6 @@
             "usageKey": "270",
             "displayName": "Leader Winona",
             "leadLevel": 68,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "859",
-            "displayName": "Rival Dawn Evergrande",
-            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -13276,7 +13276,7 @@
       },
       "129": {
         "runCount": 22,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 136.1,
         "averageRunDepthPct": 97.9,
         "averageBattlesUsed": 0.6,
@@ -13322,6 +13322,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
@@ -13349,14 +13357,6 @@
             "usageKey": "270",
             "displayName": "Leader Winona",
             "leadLevel": 68,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "859",
-            "displayName": "Rival Dawn Evergrande",
-            "leadLevel": 84,
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
@@ -13365,7 +13365,7 @@
       },
       "128": {
         "runCount": 22,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 136.1,
         "averageRunDepthPct": 97.9,
         "averageBattlesUsed": 0.6,
@@ -13411,6 +13411,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
@@ -13441,20 +13449,12 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "859",
-            "displayName": "Rival Dawn Evergrande",
-            "leadLevel": 84,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "127": {
         "runCount": 24,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 135.3,
         "averageRunDepthPct": 97.4,
         "averageBattlesUsed": 0.6,
@@ -13508,6 +13508,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
@@ -13530,20 +13538,12 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
       "126": {
         "runCount": 24,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 135.3,
         "averageRunDepthPct": 97.4,
         "averageBattlesUsed": 0.6,
@@ -13597,6 +13597,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
@@ -13619,20 +13627,12 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
       "125": {
         "runCount": 24,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 135.3,
         "averageRunDepthPct": 97.4,
         "averageBattlesUsed": 0.6,
@@ -13686,6 +13686,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "519",
             "displayName": "Rival Wally Vr",
             "leadLevel": 84,
@@ -13708,14 +13716,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -13783,6 +13783,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
@@ -13797,14 +13805,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -13872,6 +13872,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
@@ -13886,14 +13894,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -13961,6 +13961,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
@@ -13975,14 +13983,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -14050,6 +14050,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
@@ -14064,14 +14072,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -14139,6 +14139,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
@@ -14153,14 +14161,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -14228,6 +14228,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
@@ -14242,14 +14250,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -14317,6 +14317,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
@@ -14331,14 +14339,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -14406,6 +14406,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
@@ -14420,14 +14428,6 @@
             "partyCount": 1,
             "ownedCount": 2,
             "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 1,
-            "ownedCount": 3,
-            "participationPct": 33
           }
         ]
       },
@@ -14522,7 +14522,7 @@
       },
       "115": {
         "runCount": 32,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 0.7,
@@ -14611,7 +14611,7 @@
       },
       "114": {
         "runCount": 32,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 0.7,
@@ -14700,7 +14700,7 @@
       },
       "113": {
         "runCount": 32,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 0.7,
@@ -14789,7 +14789,7 @@
       },
       "112": {
         "runCount": 32,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 0.7,
@@ -14878,7 +14878,7 @@
       },
       "111": {
         "runCount": 32,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 0.7,
@@ -14967,7 +14967,7 @@
       },
       "110": {
         "runCount": 32,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 0.7,
@@ -15056,7 +15056,7 @@
       },
       "109": {
         "runCount": 32,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 0.7,
@@ -15145,7 +15145,7 @@
       },
       "108": {
         "runCount": 32,
-        "averageParticipationPct": 13.3,
+        "averageParticipationPct": 13.2,
         "averageRunDepthStep": 131.7,
         "averageRunDepthPct": 94.7,
         "averageBattlesUsed": 0.7,
@@ -15234,7 +15234,7 @@
       },
       "107": {
         "runCount": 35,
-        "averageParticipationPct": 12.2,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 129.5,
         "averageRunDepthPct": 93.2,
         "averageBattlesUsed": 0.6,
@@ -15304,26 +15304,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "106": {
         "runCount": 35,
-        "averageParticipationPct": 12.2,
+        "averageParticipationPct": 12.1,
         "averageRunDepthStep": 129.5,
         "averageRunDepthPct": 93.2,
         "averageBattlesUsed": 0.6,
@@ -15393,20 +15393,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -15482,20 +15482,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -15571,26 +15571,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "103": {
         "runCount": 40,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 126.3,
         "averageRunDepthPct": 90.8,
         "averageBattlesUsed": 0.6,
@@ -15660,26 +15660,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "102": {
         "runCount": 40,
-        "averageParticipationPct": 10.7,
+        "averageParticipationPct": 10.6,
         "averageRunDepthStep": 126.3,
         "averageRunDepthPct": 90.8,
         "averageBattlesUsed": 0.6,
@@ -15749,20 +15749,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -15838,20 +15838,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -15927,20 +15927,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -16016,20 +16016,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -16105,20 +16105,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -16194,26 +16194,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "96": {
         "runCount": 44,
-        "averageParticipationPct": 12.0,
+        "averageParticipationPct": 11.9,
         "averageRunDepthStep": 123.8,
         "averageRunDepthPct": 89.1,
         "averageBattlesUsed": 0.5,
@@ -16283,26 +16283,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "95": {
         "runCount": 47,
-        "averageParticipationPct": 11.2,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 122.0,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 0.5,
@@ -16372,26 +16372,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "94": {
         "runCount": 47,
-        "averageParticipationPct": 11.2,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 122.0,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 0.5,
@@ -16461,26 +16461,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "93": {
         "runCount": 47,
-        "averageParticipationPct": 11.2,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 122.0,
         "averageRunDepthPct": 87.7,
         "averageBattlesUsed": 0.5,
@@ -16550,20 +16550,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -16639,26 +16639,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "91": {
         "runCount": 49,
-        "averageParticipationPct": 12.8,
+        "averageParticipationPct": 12.7,
         "averageRunDepthStep": 120.7,
         "averageRunDepthPct": 86.8,
         "averageBattlesUsed": 0.5,
@@ -16728,20 +16728,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -16817,20 +16817,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -16906,26 +16906,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "88": {
         "runCount": 55,
-        "averageParticipationPct": 11.4,
+        "averageParticipationPct": 11.3,
         "averageRunDepthStep": 117.3,
         "averageRunDepthPct": 84.4,
         "averageBattlesUsed": 0.4,
@@ -16995,26 +16995,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "87": {
         "runCount": 55,
-        "averageParticipationPct": 11.4,
+        "averageParticipationPct": 11.3,
         "averageRunDepthStep": 117.3,
         "averageRunDepthPct": 84.4,
         "averageBattlesUsed": 0.4,
@@ -17084,26 +17084,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "86": {
         "runCount": 56,
-        "averageParticipationPct": 11.2,
+        "averageParticipationPct": 11.1,
         "averageRunDepthStep": 116.8,
         "averageRunDepthPct": 84.0,
         "averageBattlesUsed": 0.4,
@@ -17173,26 +17173,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "85": {
         "runCount": 57,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 116.2,
         "averageRunDepthPct": 83.6,
         "averageBattlesUsed": 0.5,
@@ -17262,26 +17262,26 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
       "84": {
         "runCount": 57,
-        "averageParticipationPct": 11.5,
+        "averageParticipationPct": 11.4,
         "averageRunDepthStep": 116.2,
         "averageRunDepthPct": 83.6,
         "averageBattlesUsed": 0.5,
@@ -17351,20 +17351,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -17440,20 +17440,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -17529,20 +17529,20 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "274",
             "displayName": "School Kid Ted",
             "leadLevel": -2,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
-          },
-          {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
           }
         ]
       },
@@ -17626,9 +17626,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -17715,9 +17715,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -17804,9 +17804,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -17893,9 +17893,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -17982,9 +17982,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -18071,9 +18071,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -18160,9 +18160,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -18249,9 +18249,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -18338,9 +18338,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -18427,9 +18427,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -18516,9 +18516,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -18605,9 +18605,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "274",
-            "displayName": "School Kid Ted",
-            "leadLevel": -2,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -18616,7 +18616,7 @@
       },
       "69": {
         "runCount": 70,
-        "averageParticipationPct": 11.7,
+        "averageParticipationPct": 11.6,
         "averageRunDepthStep": 109.3,
         "averageRunDepthPct": 78.7,
         "averageBattlesUsed": 0.5,
@@ -19139,12 +19139,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
@@ -19228,12 +19228,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
@@ -19317,12 +19317,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "7",
-            "displayName": "Aqua Admin Matt Seafloor Cavern",
-            "leadLevel": 80,
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
             "partyCount": 1,
-            "ownedCount": 2,
-            "participationPct": 50
+            "ownedCount": 1,
+            "participationPct": 100
           }
         ]
       },
@@ -19406,6 +19406,95 @@
             "participationPct": 100
           },
           {
+            "usageKey": "Rival Wally Route110",
+            "displayName": "Rival Wally Route110",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          }
+        ]
+      },
+      "60": {
+        "runCount": 82,
+        "averageParticipationPct": 9.9,
+        "averageRunDepthStep": 102.8,
+        "averageRunDepthPct": 74.0,
+        "averageBattlesUsed": 0.4,
+        "topBattles": [
+          {
+            "usageKey": "Aqua Admin Matt Weather Inst",
+            "displayName": "Aqua Admin Matt Weather Inst",
+            "leadLevel": null,
+            "partyCount": 3,
+            "ownedCount": 7,
+            "participationPct": 43
+          },
+          {
+            "usageKey": "519",
+            "displayName": "Rival Wally Vr",
+            "leadLevel": 84,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "859",
+            "displayName": "Rival Dawn Evergrande",
+            "leadLevel": 84,
+            "partyCount": 2,
+            "ownedCount": 4,
+            "participationPct": 50
+          },
+          {
+            "usageKey": "626",
+            "displayName": "Leader Wake",
+            "leadLevel": -1,
+            "partyCount": 2,
+            "ownedCount": 9,
+            "participationPct": 22
+          },
+          {
+            "usageKey": "269",
+            "displayName": "Leader Norman",
+            "leadLevel": 59,
+            "partyCount": 2,
+            "ownedCount": 13,
+            "participationPct": 15
+          },
+          {
+            "usageKey": "32",
+            "displayName": "Aqua Admin Shelly Weather Institute",
+            "leadLevel": 64,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Black Belt Daisuke",
+            "displayName": "Black Belt Daisuke",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Cooltrainer Felix",
+            "displayName": "Cooltrainer Felix",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "Rival Dawn Route104",
+            "displayName": "Rival Dawn Route104",
+            "leadLevel": null,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "7",
             "displayName": "Aqua Admin Matt Seafloor Cavern",
             "leadLevel": 80,
@@ -19415,98 +19504,9 @@
           }
         ]
       },
-      "60": {
-        "runCount": 82,
-        "averageParticipationPct": 10.0,
-        "averageRunDepthStep": 102.8,
-        "averageRunDepthPct": 74.0,
-        "averageBattlesUsed": 0.4,
-        "topBattles": [
-          {
-            "usageKey": "Aqua Admin Matt Weather Inst",
-            "displayName": "Aqua Admin Matt Weather Inst",
-            "leadLevel": null,
-            "partyCount": 3,
-            "ownedCount": 7,
-            "participationPct": 43
-          },
-          {
-            "usageKey": "519",
-            "displayName": "Rival Wally Vr",
-            "leadLevel": 84,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "859",
-            "displayName": "Rival Dawn Evergrande",
-            "leadLevel": 84,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "626",
-            "displayName": "Leader Wake",
-            "leadLevel": -1,
-            "partyCount": 2,
-            "ownedCount": 9,
-            "participationPct": 22
-          },
-          {
-            "usageKey": "269",
-            "displayName": "Leader Norman",
-            "leadLevel": 59,
-            "partyCount": 2,
-            "ownedCount": 13,
-            "participationPct": 15
-          },
-          {
-            "usageKey": "32",
-            "displayName": "Aqua Admin Shelly Weather Institute",
-            "leadLevel": 64,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Black Belt Daisuke",
-            "displayName": "Black Belt Daisuke",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Cooltrainer Felix",
-            "displayName": "Cooltrainer Felix",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Dawn Route104",
-            "displayName": "Rival Dawn Route104",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          }
-        ]
-      },
       "59": {
         "runCount": 82,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 102.8,
         "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.4,
@@ -19584,18 +19584,18 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
       "58": {
         "runCount": 82,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 102.8,
         "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.4,
@@ -19673,18 +19673,18 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
       "57": {
         "runCount": 82,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 102.8,
         "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.4,
@@ -19762,18 +19762,18 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
       "56": {
         "runCount": 82,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 102.8,
         "averageRunDepthPct": 74.0,
         "averageBattlesUsed": 0.4,
@@ -19851,12 +19851,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -19940,12 +19940,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20029,12 +20029,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20118,12 +20118,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20207,12 +20207,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20296,12 +20296,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20385,12 +20385,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20474,12 +20474,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20563,12 +20563,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20652,12 +20652,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20741,12 +20741,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20830,12 +20830,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -20919,12 +20919,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21008,12 +21008,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21097,12 +21097,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21186,12 +21186,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21275,12 +21275,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21364,12 +21364,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21453,12 +21453,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21542,12 +21542,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21631,12 +21631,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21720,12 +21720,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21809,12 +21809,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21898,12 +21898,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -21987,12 +21987,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22076,12 +22076,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22165,12 +22165,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22254,12 +22254,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22343,12 +22343,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22432,12 +22432,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22521,12 +22521,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22610,12 +22610,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22699,12 +22699,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22788,12 +22788,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22877,12 +22877,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -22966,12 +22966,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23055,12 +23055,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23144,12 +23144,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23233,12 +23233,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23322,12 +23322,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23411,12 +23411,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23500,12 +23500,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23589,12 +23589,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23678,12 +23678,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23767,12 +23767,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23856,12 +23856,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -23945,12 +23945,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -24034,12 +24034,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -24123,12 +24123,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -24212,12 +24212,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -24301,12 +24301,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -24390,12 +24390,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -24479,12 +24479,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
@@ -24568,18 +24568,18 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
       "2": {
         "runCount": 92,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 94.9,
         "averageRunDepthPct": 68.2,
         "averageBattlesUsed": 0.4,
@@ -24657,18 +24657,18 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       },
       "1": {
         "runCount": 92,
-        "averageParticipationPct": 10.0,
+        "averageParticipationPct": 9.9,
         "averageRunDepthStep": 94.9,
         "averageRunDepthPct": 68.2,
         "averageBattlesUsed": 0.4,
@@ -24746,12 +24746,12 @@
             "participationPct": 100
           },
           {
-            "usageKey": "Rival Wally Route110",
-            "displayName": "Rival Wally Route110",
-            "leadLevel": null,
+            "usageKey": "7",
+            "displayName": "Aqua Admin Matt Seafloor Cavern",
+            "leadLevel": 80,
             "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
+            "ownedCount": 2,
+            "participationPct": 50
           }
         ]
       }
