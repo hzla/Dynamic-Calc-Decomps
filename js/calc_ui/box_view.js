@@ -118,7 +118,8 @@
         return [
             localStorage.getItem("customsets") || "",
             localStorage.getItem("encounters") || "",
-            localStorage.getItem("battleLogs") || ""
+            localStorage.getItem("battleLogs") || "",
+            localStorage.getItem("battleLogImportantTrainersOnly") || ""
         ].join("::");
     }
 
@@ -846,7 +847,7 @@
 
         window.addEventListener("storage", function (event) {
             if (
-                (event.key === "customsets" || event.key === "encounters" || event.key === "battleLogs") &&
+                (event.key === "customsets" || event.key === "encounters" || event.key === "battleLogs" || event.key === "battleLogImportantTrainersOnly") &&
                 document.body.classList.contains("main-page-box-view")
             ) {
                 renderBoxView(true);

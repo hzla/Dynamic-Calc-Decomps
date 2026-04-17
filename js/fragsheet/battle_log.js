@@ -1,6 +1,7 @@
 ﻿(function () {
     const BATTLE_LOG_STORAGE_KEY = "battleLogs";
     const BATTLE_LOG_SOURCE_META_KEY = "battleLogSourceMeta";
+    const BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY = "battleLogImportantTrainersOnly";
     const BATTLE_LOG_SYNC_URL = "http://127.0.0.1:31124/battle_log";
     const BATTLE_LOG_SYNC_MAX_ATTEMPTS = 6;
     const BATTLE_LOG_SYNC_BASE_RETRY_MS = 400;
@@ -9,11 +10,13 @@
     const BATTLE_LOG_PACKED_MAX_VERSION = 3;
     let lastRenderedBattleLogRaw = null;
     let lastRenderedCustomLeadsRaw = null;
+    let lastRenderedImportantTrainerOnly = null;
     let syncBattleLogsInFlight = false;
     let activeBattleLogSplitFilter = "all";
     let battleLogUiInitialized = false;
     let editableAttemptFileState = null;
     let battleLogEditModeEnabled = true;
+    let battleLogImportantTrainersOnly = readStoredBoolean(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY, false);
     const BATTLE_LOG_ID_PLACEHOLDERS = {
         species: "Unknown",
         move: "Unknown",
@@ -78,6 +81,24 @@
             return JSON.parse(raw);
         } catch (e) {
             return null;
+        }
+    }
+
+    function readStoredBoolean(key, fallbackValue) {
+        try {
+            const raw = localStorage.getItem(key);
+            if (raw == null) return !!fallbackValue;
+            return raw === "true";
+        } catch (_err) {
+            return !!fallbackValue;
+        }
+    }
+
+    function persistImportantTrainerFilter(enabled) {
+        battleLogImportantTrainersOnly = !!enabled;
+        try {
+            localStorage.setItem(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY, battleLogImportantTrainersOnly ? "true" : "false");
+        } catch (_err) {
         }
     }
 
@@ -1228,6 +1249,59 @@
         return parsed;
     }
 
+    function trainerLeadSetHasHeldItem(trainerId) {
+        const customLeadsMap = getCustomLeadsMap();
+        if (!customLeadsMap || typeof customLeadsMap !== "object") {
+            return false;
+        }
+
+        const rawSetId = customLeadsMap[trainerId];
+        if (!rawSetId) {
+            return false;
+        }
+
+        const species = String(rawSetId).split(" (")[0];
+        let setName = String(rawSetId).split(" (")[1];
+        if (!species || !setName) {
+            return false;
+        }
+
+        setName = setName.replace(/\)\[\d+\]$/, "").replace(/\)$/, "");
+        const set = window.setdex && window.setdex[species] && window.setdex[species][setName]
+            ? window.setdex[species][setName]
+            : null;
+        if (!set || typeof set !== "object") {
+            return false;
+        }
+
+        const heldItem = set.item;
+        const normalized = String(heldItem || "").trim().toLowerCase();
+        return !!normalized && normalized !== "-" && normalized !== "none";
+    }
+
+    function isImportantBattleLogSession(session) {
+        const trainerId = getSessionTrainerId(session);
+        const trainerName = parseTrainerName(trainerId);
+        if (trainerName.toLowerCase().includes("rival")) {
+            return true;
+        }
+
+        const trainerLeadLevel = parseTrainerLeadLevel(trainerId);
+        if (Number.isFinite(trainerLeadLevel) && trainerLeadLevel < 1) {
+            return true;
+        }
+
+        return trainerLeadSetHasHeldItem(trainerId);
+    }
+
+    function getBattleLogSessionsForCounts(sessions) {
+        const normalizedSessions = Array.isArray(sessions) ? sessions : [];
+        if (!battleLogImportantTrainersOnly) {
+            return normalizedSessions;
+        }
+        return normalizedSessions.filter(isImportantBattleLogSession);
+    }
+
     function getBattleLogSplitIndexForLevel(level) {
         if (!Number.isFinite(level)) return null;
         if (typeof window.TITLE !== "string" || !window.TITLE) return null;
@@ -1330,18 +1404,6 @@
         return getBattleLogSplitIndexForLevel(getBattleLogSessionLevel(session));
     }
 
-    function getBattleLogSessionSplitTypeClass(session) {
-        const splitIndex = getBattleLogSessionSplitIndex(session);
-        if (splitIndex == null) return "";
-        if (typeof window.TITLE !== "string" || !window.TITLE) return "";
-        if (!window.splitData || !window.splitData[window.TITLE]) return "";
-        const splitCfg = window.splitData[window.TITLE];
-        const types = Array.isArray(splitCfg.types) ? splitCfg.types : null;
-        if (!types || typeof types[splitIndex] === "undefined") return "";
-        const typeName = types[splitIndex];
-        return typeName ? `${String(typeName)}-type` : "";
-    }
-
     function getBattleLogSplitTabsConfig() {
         if (typeof window.TITLE !== "string" || !window.TITLE) return null;
         if (!window.splitData || !window.splitData[window.TITLE]) return null;
@@ -1396,7 +1458,126 @@
         container.innerHTML = html;
     }
 
-    function rebuildEncounterFragsFromBattleLog(sessions) {
+    function slugifyBattleLogSplitLabel(label) {
+        return String(label || "")
+            .toLowerCase()
+            .replace(/&/g, "and")
+            .replace(/[^a-z0-9]+/g, "")
+            .trim();
+    }
+
+    function getBattleLogSplitHeaderSpriteCandidates(label) {
+        const rawLabel = String(label || "").trim();
+        if (!rawLabel) {
+            return [];
+        }
+
+        const candidates = [];
+        const seen = {};
+
+        function pushCandidate(value) {
+            const slug = slugifyBattleLogSplitLabel(value);
+            if (!slug || seen[slug]) {
+                return;
+            }
+            seen[slug] = true;
+            candidates.push(`./img/trainer_sprites/${slug}.png`);
+        }
+
+        pushCandidate(rawLabel);
+
+        if (rawLabel.includes("/")) {
+            pushCandidate(rawLabel.split("/")[0]);
+        }
+
+        if (rawLabel.includes("&")) {
+            pushCandidate(rawLabel.split("&")[0]);
+        }
+
+        return candidates;
+    }
+
+    function handleBattleLogSplitHeaderImageError(img) {
+        if (!img) {
+            return;
+        }
+
+        const remaining = String(img.getAttribute("data-fallback-sources") || "")
+            .split("|")
+            .map((value) => String(value || "").trim())
+            .filter(Boolean);
+
+        if (remaining.length) {
+            const [nextSource, ...rest] = remaining;
+            img.setAttribute("data-fallback-sources", rest.join("|"));
+            img.src = nextSource;
+            return;
+        }
+
+        if (img.parentNode) {
+            img.parentNode.style.display = "none";
+        } else {
+            img.style.display = "none";
+        }
+    }
+
+    function renderBattleLogSplitSectionHeader(label) {
+        const splitLabel = String(label || "").trim();
+        const title = splitLabel ? `${splitLabel} Split` : "Split";
+        const lowerLabel = splitLabel.toLowerCase();
+        let spriteHtml = "";
+
+        if (lowerLabel.includes("tate") && lowerLabel.includes("liza")) {
+            spriteHtml = `
+                <div class="battle-log-split-section-img-pair">
+                    <div class="battle-log-split-section-img-wrap">
+                        <img
+                            class="battle-log-split-section-img"
+                            src="./img/trainer_sprites/tate.png"
+                            alt=""
+                            data-fallback-sources=""
+                            onerror="window.handleBattleLogSplitHeaderImageError(this)"
+                        >
+                    </div>
+                    <div class="battle-log-split-section-img-wrap">
+                        <img
+                            class="battle-log-split-section-img"
+                            src="./img/trainer_sprites/liza.png"
+                            alt=""
+                            data-fallback-sources=""
+                            onerror="window.handleBattleLogSplitHeaderImageError(this)"
+                        >
+                    </div>
+                </div>
+            `;
+        } else {
+            const spriteCandidates = getBattleLogSplitHeaderSpriteCandidates(splitLabel);
+            const primarySprite = spriteCandidates[0] || "";
+            const fallbackSprites = spriteCandidates.slice(1).join("|");
+            spriteHtml = primarySprite
+                ? `
+                    <div class="battle-log-split-section-img-wrap">
+                        <img
+                            class="battle-log-split-section-img"
+                            src="${escHtml(primarySprite)}"
+                            alt=""
+                            data-fallback-sources="${escHtml(fallbackSprites)}"
+                            onerror="window.handleBattleLogSplitHeaderImageError(this)"
+                        >
+                    </div>
+                `
+                : "";
+        }
+
+        return `
+            <div class="battle-log-split-section-header">
+                ${spriteHtml}
+                <div class="battle-log-split-section-title">${escHtml(title)}</div>
+            </div>
+        `;
+    }
+
+    function rebuildEncounterFragsFromBattleLog(allSessions, sessionsToApply) {
         if (!window.encounters || typeof window.encounters !== "object") {
             return;
         }
@@ -1443,37 +1624,58 @@
             return null;
         }
 
-        const speciesPresent = {};
+        const allSpeciesPresent = {};
+        const filteredSpeciesPresent = {};
+        const resetSessions = Array.isArray(allSessions) ? allSessions : [];
+        const appliedSessions = Array.isArray(sessionsToApply) ? sessionsToApply : [];
 
-        sessions.forEach((session) => {
+        resetSessions.forEach((session) => {
             const party = Array.isArray(session && session.start && session.start.pParty) ? session.start.pParty : [];
             party.forEach((mon) => {
                 const species = resolveEncounterSpeciesForBattleLogMon(mon && mon.species);
                 if (species) {
-                    speciesPresent[species] = true;
+                    allSpeciesPresent[species] = true;
+                }
+            });
+
+            const events = Array.isArray(session && session.events) ? session.events : [];
+            events.forEach((event) => {
+                const species = resolveEncounterSpeciesForBattleLogMon(event && event.pSpecies);
+                if (species) {
+                    allSpeciesPresent[species] = true;
                 }
             });
         });
 
-        for (const species of Object.keys(speciesPresent)) {
+        for (const species of Object.keys(allSpeciesPresent)) {
             const enc = window.encounters[species];
             if (!enc) continue;
             enc.frags = [];
             enc.fragCount = 0;
             enc.prevoFragCount = 0;
+            enc.alive = true;
         }
 
-        sessions.forEach((session) => {
+        appliedSessions.forEach((session) => {
             const trainerId = getSessionTrainerId(session);
             const trainerNameWithSpace = buildFragTrainerNamePreserveTrailingSpace(trainerId);
             const sessionLevel = getBattleLogSessionLevel(session);
             const trainerLeadLevel = Number.isFinite(sessionLevel) ? sessionLevel : 10;
+            const party = Array.isArray(session && session.start && session.start.pParty) ? session.start.pParty : [];
             const events = Array.isArray(session && session.events) ? session.events : [];
+
+            party.forEach((mon) => {
+                const species = resolveEncounterSpeciesForBattleLogMon(mon && mon.species);
+                if (species) {
+                    filteredSpeciesPresent[species] = true;
+                }
+            });
 
             events.forEach((event) => {
                 if (event && event.type === "aiKo") {
-                    const aiKoSpecies = event.pSpecies;
+                    const aiKoSpecies = resolveEncounterSpeciesForBattleLogMon(event.pSpecies);
                     if (aiKoSpecies && window.encounters[aiKoSpecies]) {
+                        filteredSpeciesPresent[aiKoSpecies] = true;
                         window.encounters[aiKoSpecies].alive = false;
                     }
                     return;
@@ -1483,6 +1685,7 @@
                 const pSpecies = resolveEncounterSpeciesForBattleLogMon(event.pSpecies);
                 const aiSpecies = event.aiSpecies || "Unknown";
                 if (!pSpecies || !window.encounters[pSpecies]) return;
+                filteredSpeciesPresent[pSpecies] = true;
 
                 const fragEntry = `${aiSpecies} (Lvl ${trainerLeadLevel} ${trainerNameWithSpace})`;
                 const fragList = Array.isArray(window.encounters[pSpecies].frags) ? window.encounters[pSpecies].frags : [];
@@ -1494,7 +1697,7 @@
             });
         });
 
-        for (const species of Object.keys(speciesPresent)) {
+        for (const species of Object.keys(filteredSpeciesPresent)) {
             if (!window.encounters[species]) continue;
             try {
                 if (typeof window.prevoData === "function") {
@@ -2022,14 +2225,13 @@
     function renderSession(session, index, editable) {
         const trainerId = getSessionTrainerId(session);
         const trainerName = parseTrainerName(trainerId);
-        const splitTypeClass = getBattleLogSessionSplitTypeClass(session);
         const deathCount = getPlayerDeathCount(session);
         const deathSummaryClass = deathCount > 0 ? "deaths" : "deathless";
         const deathSummaryText = deathCount > 0 ? `${deathCount} Deaths` : "Deathless";
 
         return `
             <div class="battle-session" data-battle-index="${index}" data-session-start-index="${escHtml(session.startIndex)}">
-                <div class="battle-session-header${splitTypeClass ? ` ${escHtml(splitTypeClass)}` : ""}" role="button" tabindex="0" aria-expanded="false">
+                <div class="battle-session-header" role="button" tabindex="0" aria-expanded="false">
                     <div class="battle-session-title">Vs ${escHtml(trainerName)}</div>
                     <div class="battle-session-meta ${deathSummaryClass}">${escHtml(deathSummaryText)}</div>
                 </div>
@@ -2039,6 +2241,57 @@
                 </div>
             </div>
         `;
+    }
+
+    function renderBattleLogSessions(sessions, editable) {
+        const normalizedSessions = Array.isArray(sessions) ? sessions : [];
+        const splitTabs = getBattleLogSplitTabsConfig();
+
+        if (activeBattleLogSplitFilter !== "all" || !Array.isArray(splitTabs) || !splitTabs.length) {
+            return normalizedSessions.map((session, index) => renderSession(session, index, editable)).join("");
+        }
+
+        const sessionsBySplitIndex = {};
+        const sessionsWithoutSplit = [];
+        normalizedSessions.forEach((session) => {
+            const splitIndex = getBattleLogSessionSplitIndex(session);
+            if (splitIndex == null) {
+                sessionsWithoutSplit.push(session);
+                return;
+            }
+
+            if (!Array.isArray(sessionsBySplitIndex[splitIndex])) {
+                sessionsBySplitIndex[splitIndex] = [];
+            }
+            sessionsBySplitIndex[splitIndex].push(session);
+        });
+
+        let html = "";
+        let renderedIndex = 0;
+
+        splitTabs.forEach((tab) => {
+            const sectionSessions = sessionsBySplitIndex[tab.index];
+            if (!Array.isArray(sectionSessions) || !sectionSessions.length) {
+                return;
+            }
+
+            html += renderBattleLogSplitSectionHeader(tab.label);
+            html += sectionSessions.map((session) => {
+                const sessionHtml = renderSession(session, renderedIndex, editable);
+                renderedIndex += 1;
+                return sessionHtml;
+            }).join("");
+        });
+
+        if (sessionsWithoutSplit.length) {
+            html += sessionsWithoutSplit.map((session) => {
+                const sessionHtml = renderSession(session, renderedIndex, editable);
+                renderedIndex += 1;
+                return sessionHtml;
+            }).join("");
+        }
+
+        return html;
     }
 
     function snapshotBattleLogUiState() {
@@ -2163,9 +2416,11 @@
 
         const currentBattleLogRaw = getBattleLogStorageFingerprint();
         const currentCustomLeadsRaw = localStorage.getItem("customLeads");
+        const currentImportantTrainerOnly = battleLogImportantTrainersOnly;
         const hasInputChanged =
             currentBattleLogRaw !== lastRenderedBattleLogRaw ||
-            currentCustomLeadsRaw !== lastRenderedCustomLeadsRaw;
+            currentCustomLeadsRaw !== lastRenderedCustomLeadsRaw ||
+            currentImportantTrainerOnly !== lastRenderedImportantTrainerOnly;
 
         if (!force && !hasInputChanged) {
             return;
@@ -2175,6 +2430,7 @@
         if (!resolved.data) {
             lastRenderedBattleLogRaw = currentBattleLogRaw;
             lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
+            lastRenderedImportantTrainerOnly = currentImportantTrainerOnly;
             container.innerHTML = '<div class="battle-log-empty">No battle log data found.</div>';
             restoreBattleLogUiState(uiState);
             renderBattleLogFragsheetPanel();
@@ -2183,13 +2439,14 @@
 
         const { parseErrors } = normalizeRecords(resolved.data);
         const sessions = buildBattleLogSessionsFromPayload(resolved.data);
+        const sessionsForCounts = getBattleLogSessionsForCounts(sessions);
         const hasEditableAttempt = hasEditableAttemptFileState();
         const editable = hasEditableAttempt && battleLogEditModeEnabled;
-        rebuildEncounterFragsFromBattleLog(sessions);
+        rebuildEncounterFragsFromBattleLog(sessions, sessionsForCounts);
         renderBattleLogFragsheetPanel();
         renderBattleLogSplitTabs();
 
-        const filteredSessions = sessions.filter((session) => {
+        const filteredSessions = sessionsForCounts.filter((session) => {
             if (activeBattleLogSplitFilter === "all") return true;
             const splitIndex = getBattleLogSessionSplitIndex(session);
             return splitIndex != null && Number(splitIndex) === Number(activeBattleLogSplitFilter);
@@ -2198,6 +2455,7 @@
         if (!sessions.length) {
             lastRenderedBattleLogRaw = currentBattleLogRaw;
             lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
+            lastRenderedImportantTrainerOnly = currentImportantTrainerOnly;
             container.innerHTML = `
                 <div class="battle-log-empty">No battle sessions found in battle log data.</div>
                 ${parseErrors.length ? `<div class="battle-log-note">${escHtml(parseErrors.length)} parse error(s) ignored.</div>` : ""}
@@ -2223,12 +2481,13 @@
         if (!filteredSessions.length) {
             html += `<div class="battle-log-empty">No battles found for the selected split filter.</div>`;
         } else {
-            html += filteredSessions.map((session, index) => renderSession(session, index, editable)).join("");
+            html += renderBattleLogSessions(filteredSessions, editable);
         }
         container.innerHTML = html;
         restoreBattleLogUiState(uiState);
         lastRenderedBattleLogRaw = currentBattleLogRaw;
         lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
+        lastRenderedImportantTrainerOnly = currentImportantTrainerOnly;
     }
 
     function getBattleLogSpeciesBattleCounts() {
@@ -2237,7 +2496,7 @@
             return {};
         }
 
-        const sessions = buildBattleLogSessionsFromPayload(resolved.data);
+        const sessions = getBattleLogSessionsForCounts(buildBattleLogSessionsFromPayload(resolved.data));
         const speciesBattleCounts = {};
 
         sessions.forEach((session) => {
@@ -2321,7 +2580,12 @@
 
         window.addEventListener("storage", function (event) {
             if (!event.key) return;
-            if (event.key !== BATTLE_LOG_STORAGE_KEY && event.key !== "customLeads") return;
+            if (event.key === BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY) {
+                battleLogImportantTrainersOnly = readStoredBoolean(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY, false);
+                syncImportantTrainerToggleUi();
+            } else if (event.key !== BATTLE_LOG_STORAGE_KEY && event.key !== "customLeads") {
+                return;
+            }
             if (document.body.classList.contains("battle-log-mode")) {
                 renderBattleLogView(false);
             }
@@ -2330,19 +2594,25 @@
         let lastBattleLogRaw = getBattleLogStorageFingerprint();
         let lastCustomLeadsRaw = localStorage.getItem("customLeads");
         let lastSyncLuaRaw = localStorage.getItem("syncLua");
+        let lastImportantTrainerOnlyRaw = localStorage.getItem(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY);
         setInterval(function () {
             const nextBattleLogRaw = getBattleLogStorageFingerprint();
             const nextCustomLeadsRaw = localStorage.getItem("customLeads");
             const nextSyncLuaRaw = localStorage.getItem("syncLua");
+            const nextImportantTrainerOnlyRaw = localStorage.getItem(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY);
             const changed =
                 nextBattleLogRaw !== lastBattleLogRaw ||
                 nextCustomLeadsRaw !== lastCustomLeadsRaw ||
-                nextSyncLuaRaw !== lastSyncLuaRaw;
+                nextSyncLuaRaw !== lastSyncLuaRaw ||
+                nextImportantTrainerOnlyRaw !== lastImportantTrainerOnlyRaw;
             if (!changed) return;
 
             lastBattleLogRaw = nextBattleLogRaw;
             lastCustomLeadsRaw = nextCustomLeadsRaw;
             lastSyncLuaRaw = nextSyncLuaRaw;
+            lastImportantTrainerOnlyRaw = nextImportantTrainerOnlyRaw;
+            battleLogImportantTrainersOnly = readStoredBoolean(BATTLE_LOG_IMPORTANT_TRAINERS_ONLY_KEY, false);
+            syncImportantTrainerToggleUi();
             applyBattleLogTabVisibility();
 
             if (document.body.classList.contains("battle-log-mode")) {
@@ -2379,6 +2649,8 @@
             });
         }
 
+        syncImportantTrainerToggleUi();
+
         $(document).on("click", ".battle-log-split-tab", function () {
             const next = $(this).attr("data-battle-log-split");
             activeBattleLogSplitFilter = next === "all" ? "all" : parseInt(next, 10);
@@ -2386,6 +2658,12 @@
             if (document.body.classList.contains("battle-log-mode")) {
                 renderBattleLogView(true);
             }
+        });
+
+        $(document).on("change", "#battle-log-important-trainers-toggle", function () {
+            persistImportantTrainerFilter(!!this.checked);
+            syncImportantTrainerToggleUi();
+            renderBattleLogView(true);
         });
 
         $(document).on("change", "#battle-log-edit-mode-toggle", function () {
@@ -2437,6 +2715,7 @@
         logActiveBattleLogRomAdapter("DOMContentLoaded");
         applyBattleLogTabVisibility();
         updateBattleLogToolbarState();
+        syncImportantTrainerToggleUi();
         if (document.getElementById("main-view-tabs")) {
             setViewMode("fragsheet");
             return;
@@ -2453,8 +2732,17 @@
         initializeBattleLogUi();
         setViewMode(mode);
     };
+    window.handleBattleLogSplitHeaderImageError = handleBattleLogSplitHeaderImageError;
     window.isBattleLogEnabledForTitle = isBattleLogEnabledForTitle;
     window.getBattleLogSpeciesBattleCounts = getBattleLogSpeciesBattleCounts;
+
+    function syncImportantTrainerToggleUi() {
+        const toggle = document.getElementById("battle-log-important-trainers-toggle");
+        if (!toggle) {
+            return;
+        }
+        toggle.checked = !!battleLogImportantTrainersOnly;
+    }
 
     document.addEventListener("DOMContentLoaded", initializeBattleLogUi);
 })();

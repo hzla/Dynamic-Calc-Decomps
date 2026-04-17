@@ -629,7 +629,11 @@ a:visited {
 }
 
 .battle-log-edit-toggle input:checked + .battle-log-edit-toggle-slider {
-    background: #4a7a52;
+    background: #bb86fc;
+}
+
+.battle-log-edit-toggle input:focus + .battle-log-edit-toggle-slider {
+    box-shadow: 0 0 1px #bb86fc;
 }
 
 .battle-log-edit-toggle input:checked + .battle-log-edit-toggle-slider::after {
@@ -642,6 +646,10 @@ a:visited {
     gap: 10px;
     padding: 12px 12px 0;
     flex-wrap: wrap;
+}
+
+.battle-log-toolbar-toggle {
+    margin-left: auto;
 }
 
 .battle-log-toolbar-btn {
@@ -706,6 +714,50 @@ a:visited {
     margin-bottom: 12px;
     overflow: hidden;
     background: #1f2426;
+}
+
+.battle-log-split-section-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    min-height: 84px;
+    margin: 18px 0 14px;
+    padding: 14px 18px;
+    border: 1px solid #68686e;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #242a30, #1c2026);
+    box-sizing: border-box;
+}
+
+.battle-log-split-section-img-wrap {
+    width: 72px;
+    height: 72px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.battle-log-split-section-img-pair {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 0 0 auto;
+}
+
+.battle-log-split-section-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.battle-log-split-section-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #f1f1f1;
 }
 
 .battle-session-header {

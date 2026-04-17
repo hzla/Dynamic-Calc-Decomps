@@ -1,6 +1,7 @@
 (function () {
     let currentMainPageView = "calculator";
     let mainNavInitialized = false;
+    const MAIN_PAGE_VIEW_QUERY_PARAM = "view";
     const dashboardRoutes = {
         "Emerald Imperium 1.3": "./dashboards/emeraldimperium.html",
         "Renegade Platinum": "./dashboards/renegadeplatinum.html",
@@ -227,11 +228,63 @@
         return "calculator";
     }
 
-    function setMainPageView(viewName) {
+    function getMainPageViewUrl(viewName) {
+        const url = new URL(window.location.href);
+        url.searchParams.set(MAIN_PAGE_VIEW_QUERY_PARAM, viewName);
+        return url;
+    }
+
+    function getRequestedMainPageViewFromUrl() {
+        const url = new URL(window.location.href);
+        return url.searchParams.get(MAIN_PAGE_VIEW_QUERY_PARAM);
+    }
+
+    function getHistoryStateForView(viewName) {
+        const previousState = window.history && window.history.state && typeof window.history.state === "object"
+            ? window.history.state
+            : {};
+        return {
+            ...previousState,
+            mainPageView: viewName
+        };
+    }
+
+    function syncHistoryForMainPageView(viewName, replaceHistory) {
+        if (!window.history || typeof window.history.pushState !== "function" || typeof window.history.replaceState !== "function") {
+            return;
+        }
+
+        const url = getMainPageViewUrl(viewName);
+        const nextState = getHistoryStateForView(viewName);
+        const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+        const nextUrl = `${url.pathname}${url.search}${url.hash}`;
+
+        if (replaceHistory || currentUrl === nextUrl) {
+            window.history.replaceState(nextState, "", nextUrl);
+            return;
+        }
+
+        window.history.pushState(nextState, "", nextUrl);
+    }
+
+    function getInitialMainPageView() {
+        const requestedFromUrl = getRequestedMainPageViewFromUrl();
+        if (requestedFromUrl) {
+            return requestedFromUrl;
+        }
+
+        const stateView = window.history && window.history.state && typeof window.history.state === "object"
+            ? window.history.state.mainPageView
+            : null;
+        return stateView || "calculator";
+    }
+
+    function setMainPageView(viewName, options) {
         if (!hasMainNavShell()) {
             return null;
         }
 
+        const settings = options && typeof options === "object" ? options : {};
         const nextView = normalizeRequestedView(viewName);
         ensureFragsheetShellInitialized();
 
@@ -256,6 +309,11 @@
         setActiveMainTab(nextView);
         setViewVisibility(nextView);
         updateBodyViewClasses(nextView);
+
+        if (!settings.skipHistory) {
+            syncHistoryForMainPageView(nextView, settings.replaceHistory === true);
+        }
+
         return nextView;
     }
 
@@ -282,7 +340,7 @@
         }
 
         if (currentMainPageView === "battle-log" && !state.showBattleLog) {
-            setMainPageView("fragsheet");
+            setMainPageView("fragsheet", { replaceHistory: true });
         }
     }
 
@@ -298,9 +356,17 @@
             });
         });
 
+        window.addEventListener("popstate", function (event) {
+            const stateView = event && event.state && typeof event.state === "object"
+                ? event.state.mainPageView
+                : null;
+            const requestedView = stateView || getRequestedMainPageViewFromUrl() || "calculator";
+            setMainPageView(requestedView, { skipHistory: true });
+        });
+
         ensureDashboardLink();
         updateMainPageTitle(typeof window.TITLE === "string" ? window.TITLE : "");
-        setMainPageView("calculator");
+        setMainPageView(getInitialMainPageView(), { replaceHistory: true });
     }
 
     window.setMainPageView = setMainPageView;

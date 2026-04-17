@@ -39,7 +39,10 @@ const TYPE_COLORS = {
   Steel: "#B7B7CE",
   Fairy: "#D685AD",
 };
-const OVERVIEW_CHART_FALLBACK_COLOR = "#8be9fd";
+const TYPE_ORDER = Object.keys(TYPE_COLORS);
+const OVERVIEW_CHART_FALLBACK_COLOR = "#bb86fc";
+const STARTER_SLICE_SPRITE_THRESHOLD_PCT = 4;
+const STARTER_SLICE_SPRITE_CENTER_OFFSET_PX = 15;
 const starterChartSpriteCache = new Map();
 
 let latestAnalyticsRequestId = 0;
@@ -189,9 +192,112 @@ function spriteSrc(species) {
   return `${dashboardAssetBase()}/img/pokesprite/${spriteFileFromSpecies(species)}.png`;
 }
 
+function dashboardCssVar(name, fallback) {
+  if (typeof document === "undefined" || typeof window.getComputedStyle !== "function") {
+    return fallback;
+  }
+  const value = window.getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  return value || fallback;
+}
+
+function clampNumber(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function dashboardChartDevicePixelRatio() {
+  if (typeof window === "undefined" || !Number.isFinite(window.devicePixelRatio)) {
+    return 2;
+  }
+  return clampNumber(window.devicePixelRatio, 2, 3);
+}
+
+function applyDashboardChartDefaults() {
+  if (typeof Chart === "undefined" || !Chart.defaults) return;
+
+  Chart.defaults.devicePixelRatio = dashboardChartDevicePixelRatio();
+  Chart.defaults.color = dashboardCssVar("--text-muted", "rgba(248, 248, 242, 0.72)");
+  Chart.defaults.borderColor = dashboardCssVar("--chart-grid", "rgba(255, 255, 255, 0.1)");
+  if (Chart.defaults.font) {
+    Chart.defaults.font.family = "Verdana, sans-serif";
+  }
+  if (Chart.defaults.elements?.arc) {
+    Chart.defaults.elements.arc.borderAlign = "inner";
+  }
+  if (Chart.defaults.plugins && Chart.defaults.plugins.tooltip) {
+    Chart.defaults.plugins.tooltip.backgroundColor = dashboardCssVar("--surface-1", "rgba(24, 24, 24, 0.92)");
+    Chart.defaults.plugins.tooltip.borderColor = dashboardCssVar("--border-2", "#44475a");
+    Chart.defaults.plugins.tooltip.borderWidth = 1;
+    Chart.defaults.plugins.tooltip.titleColor = dashboardCssVar("--text-1", "#f8f8f2");
+    Chart.defaults.plugins.tooltip.bodyColor = dashboardCssVar("--text-1", "#f8f8f2");
+  }
+  if (Chart.defaults.scale && Chart.defaults.scale.grid) {
+    Chart.defaults.scale.grid.color = dashboardCssVar("--chart-grid", "rgba(255, 255, 255, 0.1)");
+    Chart.defaults.scale.alignToPixels = true;
+  }
+}
+
 function starterSliceColor(slice) {
   const firstType = String(slice?.firstType || "").trim();
-  return TYPE_COLORS[firstType] || OVERVIEW_CHART_FALLBACK_COLOR;
+  return TYPE_COLORS[firstType] || dashboardCssVar("--chart-pie-fallback", OVERVIEW_CHART_FALLBACK_COLOR);
+}
+
+function starterSliceType(slice) {
+  return String(slice?.firstType || "").trim() || "Unknown";
+}
+
+function orderedStarterPieSlices(group) {
+  const slices = Array.isArray(group?.slices) ? [...group.slices] : [];
+  const typeTotals = new Map();
+  const typeRank = new Map(TYPE_ORDER.map((type, index) => [type, index]));
+
+  slices.forEach((slice) => {
+    const type = starterSliceType(slice);
+    typeTotals.set(type, (typeTotals.get(type) || 0) + (Number(slice?.count) || 0));
+  });
+
+  return slices.sort((left, right) => {
+    const leftType = starterSliceType(left);
+    const rightType = starterSliceType(right);
+
+    if (leftType !== rightType) {
+      const typeTotalDelta = (typeTotals.get(rightType) || 0) - (typeTotals.get(leftType) || 0);
+      if (typeTotalDelta) return typeTotalDelta;
+
+      const typeRankDelta = (typeRank.get(leftType) ?? Number.MAX_SAFE_INTEGER)
+        - (typeRank.get(rightType) ?? Number.MAX_SAFE_INTEGER);
+      if (typeRankDelta) return typeRankDelta;
+
+      return leftType.localeCompare(rightType);
+    }
+
+    const countDelta = (Number(right?.count) || 0) - (Number(left?.count) || 0);
+    if (countDelta) return countDelta;
+
+    return String(left?.species || "").localeCompare(String(right?.species || ""));
+  });
+}
+
+function starterSpriteLayout(slices) {
+  const smallestVisiblePct = (Array.isArray(slices) ? slices : [])
+    .map((slice) => Number(slice?.pct))
+    .filter((pct) => Number.isFinite(pct) && pct >= STARTER_SLICE_SPRITE_THRESHOLD_PCT)
+    .reduce(
+      (smallest, pct) => Math.min(smallest, pct),
+      Number.POSITIVE_INFINITY
+    );
+  const resolvedSmallestPct = Number.isFinite(smallestVisiblePct)
+    ? smallestVisiblePct
+    : STARTER_SLICE_SPRITE_THRESHOLD_PCT;
+  const comfort = clampNumber((resolvedSmallestPct - STARTER_SLICE_SPRITE_THRESHOLD_PCT) / 8, 0, 1);
+
+  return {
+    minSize: 16 + (comfort * 5),
+    maxSize: 34 + (comfort * 14),
+    sizeMultiplier: 0.92 + (comfort * 0.18),
+    chordFactor: 0.58 + (comfort * 0.14),
+    radialLimitFactor: 0.8 + (comfort * 0.15),
+    radialFactor: 0.68 - (comfort * 0.1),
+  };
 }
 
 function loadStarterChartSprite(species, chart) {
@@ -213,6 +319,8 @@ function loadStarterChartSprite(species, chart) {
 }
 
 function starterSliceSpritePlugin(slices) {
+  const layout = starterSpriteLayout(slices);
+
   return {
     id: "starterSliceSpritePlugin",
     afterDatasetsDraw(chart) {
@@ -222,7 +330,7 @@ function starterSliceSpritePlugin(slices) {
       const ctx = chart.ctx;
       datasetMeta.data.forEach((arc, index) => {
         const slice = slices[index];
-        if (!slice || Number(slice.pct) <= 5) return;
+        if (!slice || Number(slice.pct) < STARTER_SLICE_SPRITE_THRESHOLD_PCT) return;
 
         const image = loadStarterChartSprite(slice.species, chart);
         if (!image || !image.complete || image.dataset.failed === "1") return;
@@ -239,23 +347,32 @@ function starterSliceSpritePlugin(slices) {
           : arc;
 
         const angle = Math.abs(endAngle - startAngle);
-        const maxChord = outerRadius * angle * 0.72;
-        const maxRadial = (outerRadius - innerRadius) * 0.95;
-        const size = Math.max(18, Math.min(42, maxChord, maxRadial));
-        if (!Number.isFinite(size) || size < 18) return;
+        const maxChord = outerRadius * angle * layout.chordFactor;
+        const maxRadial = (outerRadius - innerRadius) * layout.radialLimitFactor;
+        const availableSize = Math.min(maxChord, maxRadial);
+        const size = clampNumber(
+          availableSize * layout.sizeMultiplier,
+          Math.min(layout.minSize, availableSize),
+          Math.min(layout.maxSize, availableSize)
+        );
+        if (!Number.isFinite(size) || size < 12) return;
 
         const midAngle = (startAngle + endAngle) / 2;
-        const radius = innerRadius + (outerRadius - innerRadius) * 0.58;
+        const desiredRadius = innerRadius
+          + (outerRadius - innerRadius) * layout.radialFactor
+          + STARTER_SLICE_SPRITE_CENTER_OFFSET_PX;
+        const maxRadius = Math.max(innerRadius, outerRadius - (size / 2) - 2);
+        const radius = Math.min(desiredRadius, maxRadius);
         const x = centerX + Math.cos(midAngle) * radius;
         const y = centerY + Math.sin(midAngle) * radius;
 
         ctx.save();
-        ctx.fillStyle = "rgba(31, 34, 48, 0.82)";
+        ctx.fillStyle = dashboardCssVar("--chart-neutral-fill", "rgba(24, 24, 24, 0.94)");
         ctx.beginPath();
         ctx.arc(x, y, size / 2, 0, Math.PI * 2);
         ctx.closePath();
         ctx.fill();
-        ctx.strokeStyle = "rgba(255, 255, 255, 0.22)";
+        ctx.strokeStyle = dashboardCssVar("--chart-neutral-border", "#44475a");
         ctx.lineWidth = 1;
         ctx.stroke();
         ctx.imageSmoothingEnabled = false;
@@ -712,13 +829,14 @@ function hydrateStarterGiftCharts(snapshot) {
   clearOverviewCharts();
 
   if (typeof Chart === "undefined") return;
+  applyDashboardChartDefaults();
 
   const groups = Array.isArray(snapshot?.starterGiftGroups) ? snapshot.starterGiftGroups : [];
   groups.forEach((group, index) => {
     const canvas = document.getElementById(`starter-chart-${index}`);
     if (!canvas) return;
 
-    const slices = Array.isArray(group?.slices) ? group.slices : [];
+    const slices = orderedStarterPieSlices(group);
     const labels = slices.map((slice) => slice.species);
     const data = slices.map((slice) => slice.count);
     if (!data.length) return;
@@ -731,7 +849,7 @@ function hydrateStarterGiftCharts(snapshot) {
           {
             data,
             backgroundColor: slices.map((slice) => starterSliceColor(slice)),
-            borderColor: "#1f2230",
+            borderColor: dashboardCssVar("--chart-neutral-border", "#44475a"),
             borderWidth: 2,
           },
         ],
@@ -761,6 +879,7 @@ function hydrateStarterGiftCharts(snapshot) {
 
 function hydrateRunDepthChart(runDepth, minDepth) {
   if (typeof Chart === "undefined" || !runDepth || runDepth.available === false) return;
+  applyDashboardChartDefaults();
 
   const canvas = document.getElementById("run-depth-chart");
   const histogram = Array.isArray(runDepth.histogram) ? runDepth.histogram : [];
@@ -784,8 +903,8 @@ function hydrateRunDepthChart(runDepth, minDepth) {
       datasets: [
         {
           data,
-          backgroundColor: "rgba(139, 233, 253, 0.45)",
-          borderColor: "#8be9fd",
+          backgroundColor: dashboardCssVar("--chart-fill", "rgba(187, 134, 252, 0.34)"),
+          borderColor: dashboardCssVar("--chart-stroke", "#bb86fc"),
           borderWidth: 1,
           borderRadius: 2,
           barPercentage: 1,
