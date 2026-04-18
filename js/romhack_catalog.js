@@ -144,7 +144,7 @@
             variants: [
                 {
                     label: "Emerald Kaizo",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=24bbfc0e69ff4a5c006b&dmgGen=3&gen=8&switchIn=11&types=3",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=ek",
                     coverImage: "",
                     description: ""
                 }
@@ -379,7 +379,7 @@
             title: "Radical Red 4.1",
             coverImage: "",
             description: "",
-            sourceTitle: "Radical Red 4.1 Hardcore",
+            sourceTitle: "Radical Red 4.1",
             variants: [
                 {
                     label: "Radical Red 4.1",
