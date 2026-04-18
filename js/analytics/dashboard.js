@@ -147,19 +147,19 @@ async function loadCalculatorUrlFromIndex() {
     return window.dashboardCalculatorUrlPromise;
   }
 
-  window.dashboardCalculatorUrlPromise = fetch(`${dashboardAssetBase()}/index.html`, { cache: "no-store" })
+  window.dashboardCalculatorUrlPromise = fetch(`${dashboardAssetBase()}/js/romhack_catalog.js`, { cache: "no-store" })
     .then((response) => {
       if (!response.ok) {
-        throw new Error(`Failed to load calculator index (${response.status})`);
+        throw new Error(`Failed to load romhack catalog (${response.status})`);
       }
       return response.text();
     })
-    .then((html) => {
-      const doc = new DOMParser().parseFromString(html, "text/html");
-      const options = Array.from(doc.querySelectorAll("option[data-source]"))
+    .then((scriptText) => {
+      const sandboxWindow = {};
+      const options = new Function("window", `${scriptText}; return window.romhackLinkOptions || [];`)(sandboxWindow)
         .map((option) => ({
-          label: String(option.textContent || "").trim(),
-          source: String(option.getAttribute("data-source") || "").trim(),
+          label: String(option.label || "").trim(),
+          source: String(option.source || "").trim(),
         }))
         .filter((option) => option.label && option.source);
       const match = findCalculatorOption(options);

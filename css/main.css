@@ -435,6 +435,15 @@ input[type="file"] {
     width: 110px;
 }
 
+.romhack-modal-trigger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
 .wrapper.app-shell {
     min-width: 0;
 }
@@ -490,11 +499,206 @@ input[type="file"] {
 .header-settings.app-header-shell .calc-select {
     order: 3;
     box-sizing: border-box;
+    display: none;
     width: 220px;
     max-width: 100%;
     background: rgba(24, 24, 24, 0.8);
     color: #f1f1f1;
     border: 1px solid rgb(118, 118, 118);
+}
+
+.header-settings.app-header-shell .romhack-modal-trigger {
+    order: 3;
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+    background: rgba(24, 24, 24, 0.8);
+    color: #f1f1f1;
+    border: 1px solid rgb(118, 118, 118);
+    font-size: 18px;
+    line-height: 1;
+    padding: 0px 20px;
+}
+
+.header-settings.app-header-shell .romhack-modal-trigger:hover {
+    background: rgba(255,255,255,0.05);
+    border-color: rgba(187, 134, 252, 0.42);
+}
+
+.romhack-browser-open {
+    overflow: hidden;
+}
+
+.romhack-browser-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+}
+
+.romhack-browser-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 11, 15, 0.74);
+    backdrop-filter: blur(4px);
+}
+
+.romhack-browser-dialog {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: min(1120px, calc(100vw - 32px));
+    max-height: calc(100vh - 48px);
+    margin: 24px auto;
+    border: 1px solid rgba(118, 118, 118, 0.7);
+    border-radius: 24px;
+    background: rgba(24, 24, 24, 0.97);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+.romhack-browser-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 24px;
+    border-bottom: 1px solid rgba(118, 118, 118, 0.45);
+}
+
+.romhack-browser-header h2 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.1;
+    color: #f1f1f1;
+}
+
+.romhack-browser-close {
+    border: 1px solid rgba(118, 118, 118, 0.8);
+    background: rgba(255, 255, 255, 0.04);
+    color: #f1f1f1;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 1;
+    transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.romhack-browser-close:hover,
+.romhack-browser-close:focus {
+    background: rgba(187, 134, 252, 0.16);
+    border-color: rgba(187, 134, 252, 0.55);
+    color: #fff;
+}
+
+.romhack-browser-content {
+    overflow: auto;
+    padding: 24px;
+}
+
+.romhack-browser-section + .romhack-browser-section {
+    margin-top: 28px;
+}
+
+.romhack-browser-section-title {
+    margin: 0 0 14px;
+    color: #f1f1f1;
+    font-size: 24px;
+}
+
+.romhack-browser-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+}
+
+.romhack-browser-game {
+    display: block;
+    padding: 16px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(118, 118, 118, 0.45);
+    text-decoration: none;
+    transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.romhack-browser-game-single:hover,
+.romhack-browser-game-single:focus {
+    background: rgba(187, 134, 252, 0.12);
+    border-color: rgba(187, 134, 252, 0.6);
+    box-shadow: inset 0 0 0 1px rgba(187, 134, 252, 0.2);
+    transform: translateY(-1px);
+}
+
+.romhack-browser-game-single:active {
+    background: rgba(187, 134, 252, 0.2);
+    transform: translateY(0);
+}
+
+.romhack-browser-game-title {
+    margin: 0 0 12px;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #f1f1f1;
+}
+
+.romhack-browser-game-single .romhack-browser-game-title {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+}
+
+.romhack-browser-game-single {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+}
+
+.romhack-browser-game-subtitle {
+    margin-top: 8px;
+    color: rgba(241, 241, 241, 0.72);
+    font-size: 14px;
+    line-height: 1.35;
+}
+
+.romhack-browser-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.romhack-browser-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(118, 118, 118, 0.85);
+    background: rgba(255, 255, 255, 0.03);
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+.romhack-browser-link:hover,
+.romhack-browser-link:focus {
+    background: rgba(187, 134, 252, 0.14);
+    border-color: rgba(187, 134, 252, 0.65);
+    box-shadow: inset 0 0 0 1px rgba(187, 134, 252, 0.18);
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.romhack-browser-link:active {
+    background: rgba(187, 134, 252, 0.22);
+    border-color: rgba(187, 134, 252, 0.78);
+    transform: translateY(0);
 }
 
 #main-view-tabs {
@@ -504,7 +708,7 @@ input[type="file"] {
     align-items: center;
     gap: 4px;
     padding: 4px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid rgb(118, 118, 118);
     background: rgba(24, 24, 24, 0.8);
     box-shadow: none;
@@ -545,7 +749,7 @@ input[type="file"] {
     border: 0;
     background: transparent;
     color: #f1f1f1;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 12px 18px;
     cursor: pointer;
     font: inherit;
@@ -3240,6 +3444,23 @@ table.field {
 
   .header-settings.app-header-shell .calc-select {
     width: 188px;
+  }
+
+  .romhack-browser-dialog {
+    width: min(1120px, calc(100vw - 20px));
+    max-height: calc(100vh - 20px);
+    margin: 10px auto;
+    border-radius: 20px;
+  }
+
+  .romhack-browser-header,
+  .romhack-browser-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .romhack-browser-grid {
+    grid-template-columns: 1fr;
   }
 
   #show-ai {

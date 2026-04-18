@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?55220c45" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?0378905a" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?d7ad71a3" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
@@ -17,62 +17,11 @@
     https://cdn.jsdelivr.net/npm/object-hash@3.0.0/dist/object_hash.min.js
     "></script>
     <script src="https://unpkg.com/pako@2.1.0/dist/pako.min.js"></script>
+    <script type="text/javascript" src="./js/romhack_catalog.js?37af32de"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->    
     <script>
         params = new URLSearchParams(window.location.search)
-        SOURCES = {"9aa37533b7c000992d92": "Blaze Black/Volt White",
-       "04770c9a89687b02a9f5": "Blaze Black 2/Volt White 2 Original",
-       "945a33720dbd6bc04488": "Blaze Black 2/Volt White 2 Redux 1.4",
-       "da1eedc0e39ea07b75bf": "Vintage White",
-       "renegadeplatinum": "Renegade Platinum",
-       "03e577af7cc9856a1f42": "Sacred Gold/Storm Silver",
-       "9e7113f0ee22dad116e1": "Platinum Redux 5.2 TC6",
-       "b6e2693147e215f10f4a": "Radical Red 3.02",
-       "7a1ed35468b22ea01103": "Ancestral X",
-       "8c3ca30ba346734d5e4f": "Run & Bun",
-       "f109940e5639c3702e6d": "Rising Ruby/Sinking Saphire",
-       "00734d33040067eb7e9f": "Grand Colloseum 2.0",
-       "24bbfc0e69ff4a5c006b": "Emerald Kaizo",
-       "casc": "Cascade White 2",
-       "13fc25a3b19071978dd6": "Platinum",
-       "be0a4fedbe0ff31e47b0": "Heart Gold/Soul Silver",
-       "78381c312866ee2e6ff9": "Black/White",
-       "83c196dce6759252b3f4": "Black 2/White 2",
-       "8d1ab90a3b3c494d8485": "Eternal X/Wilting Y Insanity Rebalanced",
-       "68bfb2ccba14b7f6b1f0": "Inclement Emerald",
-       "e9030beba9c1ba8804e8": "Kaizo Colloseum",
-       "6875151cfa5eea00eafa": "Inclement Emerald No EVs",
-       "d6364c8b89ad50905e6a": "Sterling Silver",
-       "8f199f3f40194ecc4b8e": "Sterling Silver 1.14",
-       "7ea3ff9a608c1963a0a5": "Sterling Silver 1.15",
-       "b819708dba8f8c0641d5": "Sterling Silver 1.16",
-       "5b789b0056c18c5c668b": "Platinum Redux 2.6",
-       "de22f896c09fceb0b273": "Maximum Platinum",
-       "eae4ac1396d4b82d8b87": "Pitch Black 2",
-       "ee9b421600cd6487e4e3": "Photonic Sun/Prismatic Moon",
-       "9abb79df1e356642c229": "Fire Red Omega",
-       "12f82557ed0e08145660": "Fire Red",
-       "2487bca2d6c21c388695": "Fire Red Deluxe",
-       "aeb373b7631d4afd7a53": "Emerald",
-       "006ac04e900ccb3110df": "Luminescent Platinum",
-       "4d69b577b07a86fe790c": "Righteous Red",
-       "55d895a19083b26c0c53": "Emerald Imperium 1.2",
-       "imp13"               : "Emerald Imperium 1.3",
-       "9fd7b1ba4583a9ba7166": "Mariomon",
-       "b60bd402cbb993ed3b77": "Parallel Emerald ATO",
-       "17af2cc6ec56f8f293bd": "Parallel Emerald Hard",
-       "a0e5b4fa06d9e7762210": "Parallel Emerald Normal",
-       "e91164d90d06a009e6cc": "Radical Red 4.1 Hardcore",
-
-       "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
-       "2ec049ba9513d189a915": "Emerald Imperium",
-       "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
-       "hardlove": "Hardlove Gold",
-       "blind": "Blinding White 2",
-       "null": "Pokemon Null 1.1",
-       "null12": "Pokemon Null 1.2",
-       "pk": "Platinum Kaizo"
-      }
+        SOURCES = window.romhackSourceTitles || {}
        
         if (SOURCES[params.get('data')]) {
             TITLE = SOURCES[params.get('data')] || "NONE"
@@ -302,7 +251,7 @@
         <select class="calc-select">
             
             <optgroup label="Romhacks">
-                <option selected="selected" >Romhacks</option>
+                <option selected="selected">More Romhacks</option>
                 <option data-source="https://hzla.github.io/Dynamic-Calc/?data=7a1ed35468b22ea01103&dmgGen=6&gen=6">Ancestral X</option>
                 <option data-source="https://hzla.github.io/Dynamic-Calc/?data=9aa37533b7c000992d92&gen=5&types=5">Blaze Black</option>
                 <option data-source="https://hzla.github.io/Dynamic-Calc/?data=04770c9a89687b02a9f5&gen=8&types=5">Blaze Black 2 Original</option>
@@ -358,6 +307,19 @@
 
                
         </select>
+        <button type="button" class="btn btn-small romhack-modal-trigger" id="open-romhack-modal" aria-haspopup="dialog" aria-controls="romhack-browser-modal">
+            More Romhacks
+        </button>
+    </div>
+    <div id="romhack-browser-modal" class="romhack-browser-modal" role="dialog" aria-modal="true" aria-labelledby="romhack-browser-title" hidden>
+        <div class="romhack-browser-backdrop" data-close-romhack-modal></div>
+        <div class="romhack-browser-dialog" role="document">
+            <div class="romhack-browser-header">
+                <h2 id="romhack-browser-title">Browse Romhacks</h2>
+                <button type="button" class="romhack-browser-close" aria-label="Close romhack browser" data-close-romhack-modal>&times;</button>
+            </div>
+            <div id="romhack-browser-content" class="romhack-browser-content"></div>
+        </div>
     </div>
     <div id="calculator-view" class="main-page-view">
     <hr />
@@ -438,7 +400,7 @@
               <div id="learnset-show">Dex</div>
               <div id="dex-show">Dex</div>
               <div id="save-pok">Save</div>
-              <div id="add-party-pok">Add to Party</div>
+              <div id="add-party-pok">+ Party</div>
               <div id="box-remove">Remove</div>
             </div>
 
@@ -2238,15 +2200,16 @@
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?6a193211"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
     <script type="text/javascript" src="./js/calc_ui/menu_settings.js?4714b7b1"></script>
-    <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?d327eaa4"></script>
+    <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?e170b8cd"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
     <script type="text/javascript" src="./js/fragsheet/battle_log.js?876533dd"></script>
     <script type="text/javascript" src="./js/calc_ui/box_view.js"></script>
     <script type="text/javascript" src="./js/calc_ui/main_nav.js"></script>
+    <script type="text/javascript" src="./js/romhack_modal.js?e0f09628"></script>
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?6f63fcac"></script>
-    <script type="text/javascript" src="./js/initialize.js?7888b9d2"></script>
+    <script type="text/javascript" src="./js/initialize.js?eedc9ccc"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?c133edf9"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?0600edbf"></script>
