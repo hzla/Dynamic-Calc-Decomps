@@ -41,6 +41,17 @@ backupFiles = {
 	"Navy Sapphire": "navy"
 }
 
+if (typeof window !== "undefined") {
+	window.romhackSourceTitles = window.romhackSourceTitles || {}
+
+	Object.keys(backupFiles).forEach(function(title) {
+		var alias = backupFiles[title]
+		if (alias && !window.romhackSourceTitles[alias]) {
+			window.romhackSourceTitles[alias] = title
+		}
+	})
+}
+
 gameVersions = {
 	"Radical Red": [
 		{
