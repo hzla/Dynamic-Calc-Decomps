@@ -45,6 +45,7 @@ let movePPs = {};
 
 let calcingForSwitchIns = false;
 let changingSets        = false;
+var initializing        = false;
 let terminalStarted     = false;
 let partnerName         = null;
 let customLeads         = null;
