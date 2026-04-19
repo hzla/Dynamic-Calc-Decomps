@@ -244,7 +244,7 @@ function setGameSettings(title) {
     $('#maxR').next().remove()
 
     
-  } else if (title.includes("Sterling Silver")) {
+  } else if (title.includes("Sterling Silver") || title.includes("Sacred Gold")) {
     gameGen = 4
     settings.damageGen = 4
     if (!settings.noSwitch) {

@@ -455,7 +455,7 @@
             variants: [
                 {
                     label: "Sacred Gold/Storm Silver No Fairy",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=03e577af7cc9856a1f42&gen=7&switchIn=4&types=4&dmgGen=4",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=sgss",
                     coverImage: "",
                     description: ""
                 }
