@@ -141444,11 +141444,8 @@ backup_data = {
                 "ivs_raw": 191,
                 "p_id": 492,
                 "nature": "Modest"
-            }
-        },
-        "Shaymin":
-        {
-            "Lvl 76 Pokémon Trainer Wally2 ":
+            },
+             "Lvl 76 Pokémon Trainer Wally2 ":
             {
                 "evs":
                 {},

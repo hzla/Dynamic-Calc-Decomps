@@ -167,20 +167,26 @@ $(document).ready(function() {
 
                     offset = boxDataOffset
                     CHUNK_SIZE = 136
-                    n = 510
+                    var liveBoxSlotCount = 510
+                    var totalBoxSlotCount = 510
 
                     if (save_expansion) {
-                       n = 870 
+                       liveBoxSlotCount = 870 
+                       totalBoxSlotCount = 870
                     } 
 
                     if (baseGame == "BW") {
-                        n = 210
+                        liveBoxSlotCount = 210
+                        totalBoxSlotCount = 210
+                    } else if (baseGame == "Pt" || baseGame == "HGSS") {
+                        totalBoxSlotCount = 540
                     }
 
                     boxPokOffsets = {}
                     savBox = []
+                    const deadMons = []
 
-                    for (let i = 0; i < n; i++) {
+                    for (let i = 0; i < totalBoxSlotCount; i++) {
                         // Extract the chunk of 236 bytes from the binary data
 
                        if (baseGame == "HGSS") {
@@ -194,11 +200,27 @@ $(document).ready(function() {
                        }
                       
                        chunk = view.slice(offset, offset + CHUNK_SIZE);
-                       
-                       showdownImport += parsePKM(chunk, false, offset)
+                       const showdownBlock = parsePKM(chunk, false, offset)
+                       if (i < liveBoxSlotCount) {
+                           showdownImport += showdownBlock
+                       } else {
+                           const deadMon = buildDsSaveDeadMonFromShowdown(showdownBlock, Math.floor(i / 30) + 1, (i % 30) + 1)
+                           if (deadMon) {
+                               deadMons.push(deadMon)
+                           }
+                       }
                        offset += CHUNK_SIZE                 
                     }
-                    $('.import-team-text').val(showdownImport)
+                    if (typeof window.applyImportedSnapshot === 'function') {
+                        window.applyImportedSnapshot({
+                            showdownImport: showdownImport,
+                            deadMons: deadMons,
+                            source: 'save-file',
+                            replaceDeadMons: true
+                        })
+                    } else {
+                        $('.import-team-text').val(showdownImport)
+                    }
                     
                     // If we get here, processing was successful
                     return true;
@@ -257,6 +279,51 @@ function uint8ArrayFromNumberArray(values) {
         out[i] = Number(values[i]) & 0xFF;
     }
     return out;
+}
+
+function buildDsSaveDeadMonFromShowdown(showdownBlock, box, slot) {
+    const text = String(showdownBlock || "").replace(/\r/g, "").trim();
+    if (!text) {
+        return null;
+    }
+
+    const lines = text.split("\n");
+    const headerLine = String(lines[0] || "").trim();
+    if (!headerLine) {
+        return null;
+    }
+
+    let speciesName = "";
+    if (typeof findImportedSpeciesNameFromHeader === "function") {
+        speciesName = findImportedSpeciesNameFromHeader(headerLine);
+    }
+    speciesName = checkExeptions(String(speciesName || "").trim());
+    if (!speciesName) {
+        return null;
+    }
+
+    let nickname = "";
+    if (typeof getNicknameFromImportHeader === "function") {
+        nickname = String(getNicknameFromImportHeader(headerLine, speciesName) || "").trim();
+    }
+
+    let met = "";
+    for (let i = 1; i < lines.length; i++) {
+        const match = String(lines[i] || "").match(/^Met:\s*(.*)$/i);
+        if (match) {
+            met = String(match[1] || "").trim();
+            break;
+        }
+    }
+
+    return {
+        speciesName: speciesName,
+        nickname: nickname,
+        met: met,
+        box: box,
+        slot: slot,
+        source: "save-file",
+    };
 }
 
 function uint8ArrayFromHexString(hex) {
@@ -393,6 +460,7 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
 
     const partyBytes = uint8ArrayFromHexString(dump.party);
     const boxBytes = uint8ArrayFromHexString(dump.boxes);
+    const deadMons = [];
 
     let showdownImport = "";
 
@@ -412,6 +480,28 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
         showdownImport += parsePKM(chunk, false, start);
     }
 
+    const deadBoxes = Array.isArray(dump.deadBoxes) ? dump.deadBoxes : [];
+    for (let boxIndex = 0; boxIndex < deadBoxes.length; boxIndex++) {
+        const deadBox = deadBoxes[boxIndex];
+        const slots = Array.isArray(deadBox && deadBox.slots) ? deadBox.slots : [];
+        for (let slotIndex = 0; slotIndex < slots.length; slotIndex++) {
+            const deadEntry = slots[slotIndex];
+            if (!deadEntry || typeof deadEntry !== "object") {
+                continue;
+            }
+            deadMons.push({
+                speciesName: checkExeptions(String(deadEntry.species || "").trim()),
+                speciesId: typeof deadEntry.speciesId === "number" ? deadEntry.speciesId : undefined,
+                nickname: String(deadEntry.nickname || "").trim(),
+                met: String(deadEntry.location || "").trim(),
+                metLocationId: typeof deadEntry.locationId === "number" ? deadEntry.locationId : undefined,
+                box: typeof deadEntry.box === "number" ? deadEntry.box : (Number(deadBox.box) || (boxIndex + 1)),
+                slot: typeof deadEntry.slot === "number" ? deadEntry.slot : (slotIndex + 1),
+                source: "desmume",
+            });
+        }
+    }
+
     return {
         trainerId: dump.trainerId,
         secretId: dump.secretId,
@@ -419,6 +509,8 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
         boxedPokemonCount: dump.boxedPokemonCount || 0,
         boxSlotsDumped: boxSlotsParsed,
         showdownImport,
+        deadMons,
+        source: "desmume",
         rawDump: dump,
     };
 }

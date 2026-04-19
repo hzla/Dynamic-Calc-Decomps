@@ -635,7 +635,9 @@ function buildShowdownExportText(speciesName, setData) {
 }
 
 function exportAllCustomSets() {
-	var customsets = getStoredCustomSets();
+	var customsets = (pendingSnapshotMeta || queuedReplaceDeadMons)
+		? removeMyBoxEntries(getStoredCustomSets())
+		: getStoredCustomSets();
 	var speciesNames = Object.keys(customsets || {}).sort();
 	var exportedSets = [];
 
@@ -1231,7 +1233,9 @@ function upsertImportedSet(customsets, poke) {
 }
 
 function addToDex(poke) {
-	var customsets = getStoredCustomSets();
+	var customsets = replaceDeadMons
+		? removeMyBoxEntries(getStoredCustomSets())
+		: getStoredCustomSets();
 	var importBatchId = createBoxImportBatchId();
 	poke.boxImportBatchId = importBatchId;
 	var importedSet = upsertImportedSet(customsets, poke);
@@ -1350,7 +1354,8 @@ function importShowdownTextIntoImporter(showdownText, clearAfterImport) {
 	}
 }
 
-function tryImportShowdownTextFromClipboard() {
+function tryImportShowdownTextFromClipboard(options) {
+	var importOptions = options && typeof options === "object" ? options : null;
 	if (typeof navigator === "undefined" || !navigator.clipboard || typeof navigator.clipboard.readText !== "function") {
 		console.warn("Clipboard fallback is unavailable in this browser context.");
 		return Promise.resolve(false);
@@ -1363,7 +1368,16 @@ function tryImportShowdownTextFromClipboard() {
 				return false;
 			}
 			console.log("Importing showdown text from clipboard fallback.");
-			importShowdownTextIntoImporter(clipboardText, false);
+			if (importOptions) {
+				applyImportedSnapshot({
+					showdownImport: clipboardText,
+					deadMons: [],
+					source: importOptions.source || "import",
+					replaceDeadMons: importOptions.replaceDeadMons !== false,
+				});
+			} else {
+				importShowdownTextIntoImporter(clipboardText, false);
+			}
 			return true;
 		})
 		.catch(function (err) {
@@ -1390,7 +1404,16 @@ function importLuaJsonDumpForCurrentTitle(pokes) {
 }
 
 function importPolledMasterBoxPayload(boxPayload) {
-	return importLuaJsonDumpForCurrentTitle(boxPayload);
+	var result = importLuaJsonDumpForCurrentTitle(boxPayload);
+	if (result && typeof window.applyImportedSnapshot === "function") {
+		window.applyImportedSnapshot({
+			showdownImport: result.showdownImport || "",
+			deadMons: result.deadMons || [],
+			source: result.source || "desmume",
+			replaceDeadMons: true,
+		});
+	}
+	return result;
 }
 
 window.importPolledMasterBoxPayload = importPolledMasterBoxPayload;
@@ -1423,6 +1446,229 @@ function syncFragsheetFromImportedBox() {
 	}
 }
 
+var pendingImportedSnapshotMeta = null;
+
+function cloneDeadMonsList(deadMons) {
+	if (!Array.isArray(deadMons)) {
+		return [];
+	}
+
+	if (typeof structuredClone === "function") {
+		return structuredClone(deadMons);
+	}
+
+	return JSON.parse(JSON.stringify(deadMons));
+}
+
+function getStoredDeadMons() {
+	if (typeof localStorage === "undefined") {
+		return [];
+	}
+
+	try {
+		var parsed = JSON.parse(localStorage.deadMons || "[]");
+		return Array.isArray(parsed) ? parsed : [];
+	} catch (_error) {
+		return [];
+	}
+}
+
+function persistDeadMons(deadMons, replaceDeadMons) {
+	if (typeof localStorage === "undefined") {
+		return [];
+	}
+
+	var nextDeadMons = cloneDeadMonsList(deadMons);
+	if (!replaceDeadMons) {
+		nextDeadMons = getStoredDeadMons().concat(nextDeadMons);
+	}
+
+	localStorage.deadMons = JSON.stringify(nextDeadMons);
+	return nextDeadMons;
+}
+
+function removeMyBoxEntries(customsets) {
+	if (!customsets || typeof customsets !== "object") {
+		return {};
+	}
+
+	var nextCustomsets = {};
+	for (var speciesName in customsets) {
+		if (!customsets[speciesName] || typeof customsets[speciesName] !== "object") {
+			continue;
+		}
+
+		var nextSpeciesSets = {};
+		for (var setName in customsets[speciesName]) {
+			if (setName === "My Box") {
+				continue;
+			}
+			nextSpeciesSets[setName] = cloneImportedSetData(customsets[speciesName][setName]);
+		}
+
+		if (Object.keys(nextSpeciesSets).length > 0) {
+			nextCustomsets[speciesName] = nextSpeciesSets;
+		}
+	}
+
+	return nextCustomsets;
+}
+
+function getNicknameFromImportHeader(headerLine, speciesName) {
+	var headerInfo = extractGenderFromImportHeader(headerLine);
+	var currentRow = headerInfo.header.split(/[()@]/);
+
+	for (var i = 0; i < currentRow.length; i++) {
+		currentRow[i] = checkExeptions(currentRow[i].trim());
+		if (calc.SPECIES[8][currentRow[i]] !== undefined) {
+			if (i === 1 && currentRow[0].trim()) {
+				return currentRow[0].trim();
+			}
+			return "";
+		}
+	}
+
+	return "";
+}
+
+function normalizeImportedDeadMon(deadMon, fallbackSource) {
+	if (!deadMon || typeof deadMon !== "object") {
+		return null;
+	}
+
+	var speciesName = deadMon.speciesName || deadMon.species;
+	if (!speciesName && deadMon.headerLine) {
+		speciesName = findImportedSpeciesNameFromHeader(deadMon.headerLine);
+	}
+	speciesName = checkExeptions(String(speciesName || "").trim());
+	if (!speciesName) {
+		return null;
+	}
+
+	var normalized = {
+		speciesName: speciesName,
+		nickname: String(deadMon.nickname || deadMon.nn || "").trim(),
+		met: typeof deadMon.met === "undefined" ? undefined : String(deadMon.met).trim(),
+		source: String(deadMon.source || fallbackSource || "import"),
+	};
+
+	if (typeof deadMon.speciesId !== "undefined" && deadMon.speciesId !== null && deadMon.speciesId !== "") {
+		normalized.speciesId = Number(deadMon.speciesId);
+	}
+	if (typeof deadMon.metLocationId !== "undefined" && deadMon.metLocationId !== null && deadMon.metLocationId !== "") {
+		normalized.metLocationId = Number(deadMon.metLocationId);
+	}
+	if (typeof deadMon.box !== "undefined" && deadMon.box !== null && deadMon.box !== "") {
+		normalized.box = Number(deadMon.box);
+	}
+	if (typeof deadMon.slot !== "undefined" && deadMon.slot !== null && deadMon.slot !== "") {
+		normalized.slot = Number(deadMon.slot);
+	}
+
+	return normalized;
+}
+
+function splitImportedShowdownText(showdownText, fallbackSource) {
+	var source = fallbackSource || "import";
+	var text = String(showdownText || "").replace(/\r/g, "");
+	var lines = text.split("\n");
+	var tidLine = "";
+	if (lines.length && /^TID:\s*\d+:\d+\s*$/i.test(String(lines[0] || "").trim())) {
+		tidLine = String(lines.shift() || "").trim();
+		text = lines.join("\n");
+	}
+	var blocks = text.split(/\n\s*\n/);
+	var liveBlocks = [];
+	var deadMons = [];
+
+	if (tidLine) {
+		liveBlocks.push(tidLine);
+	}
+
+	for (var i = 0; i < blocks.length; i++) {
+		var block = String(blocks[i] || "").trim();
+		if (!block) {
+			continue;
+		}
+
+		var lines = block.split("\n");
+		var headerLine = String(lines[0] || "").trim();
+		if (!headerLine) {
+			continue;
+		}
+
+		var isDeadBlock = lines.some(function (line) {
+			return /^Dead:\s*Yes\s*$/i.test(String(line || "").trim());
+		});
+		if (!isDeadBlock) {
+			liveBlocks.push(block);
+			continue;
+		}
+
+		var speciesName = findImportedSpeciesNameFromHeader(headerLine);
+		if (!speciesName) {
+			continue;
+		}
+
+		var met = "";
+		for (var lineIndex = 1; lineIndex < lines.length; lineIndex++) {
+			var trimmed = String(lines[lineIndex] || "").trim();
+			if (/^Met:/i.test(trimmed)) {
+				met = trimmed.slice(4).trim();
+			}
+		}
+
+		var deadMon = normalizeImportedDeadMon({
+			headerLine: headerLine,
+			speciesName: speciesName,
+			nickname: getNicknameFromImportHeader(headerLine, speciesName),
+			met: met,
+			source: source,
+		}, source);
+		if (deadMon) {
+			deadMons.push(deadMon);
+		}
+	}
+
+	return {
+		liveText: liveBlocks.join("\n\n").trim(),
+		deadMons: deadMons,
+	};
+}
+
+function applyImportedSnapshot(snapshot) {
+	var payload = snapshot && typeof snapshot === "object" ? snapshot : {};
+	var showdownImport = String(payload.showdownImport || "");
+	var deadMons = cloneDeadMonsList(payload.deadMons);
+	var source = String(payload.source || "import");
+	var replaceDeadMons = payload.replaceDeadMons !== false;
+
+	pendingImportedSnapshotMeta = {
+		deadMons: deadMons,
+		source: source,
+		replaceDeadMons: replaceDeadMons,
+	};
+
+	if (showdownImport.trim()) {
+		importShowdownTextIntoImporter(showdownImport, false);
+		return;
+	}
+
+	var persistedDeadMons = persistDeadMons(deadMons, replaceDeadMons);
+	var customsets = replaceDeadMons
+		? removeMyBoxEntries(getStoredCustomSets())
+		: getStoredCustomSets();
+	applyImportedBoxPreview(customsets);
+	if (typeof window.syncImportedEncounterState === "function") {
+		window.syncImportedEncounterState(customsets, persistedDeadMons);
+	} else {
+		syncFragsheetFromImportedBox();
+	}
+	pendingImportedSnapshotMeta = null;
+}
+
+window.applyImportedSnapshot = applyImportedSnapshot;
+
 function persistTrainerIdFromImportedText(rows) {
 	if (!rows || !rows.length) {
 		return;
@@ -1453,27 +1699,58 @@ function persistTrainerIdFromImportedText(rows) {
 }
 
 function addSets(pokes, name) {
+	var queuedDeadMons = [];
+	var queuedSource = "import";
+	var queuedReplaceDeadMons = false;
+
 	if (isValidJSON(pokes)) {
 		try {
 			const luaDumpResult = importLuaJsonDumpForCurrentTitle(pokes);
 			if (!luaDumpResult || typeof luaDumpResult.showdownImport !== "string") {
 				throw new Error("Lua box dump import did not return showdown text");
 			}
+			queuedDeadMons = cloneDeadMonsList(luaDumpResult.deadMons);
+			queuedSource = String(luaDumpResult.source || "desmume");
+			queuedReplaceDeadMons = true;
 			pokes = luaDumpResult.showdownImport;
 		} catch (error) {
 			console.error("Failed to import Lua box dump JSON", error);
 			alert("Failed to import Lua box dump JSON. See console for details.");
 			return;
 		}
-	}	
+	}
 
-	var rows = pokes.split("\n");
-	persistTrainerIdFromImportedText(rows);
+	var pendingSnapshotMeta = pendingImportedSnapshotMeta;
+	pendingImportedSnapshotMeta = null;
+
+	var splitImport = splitImportedShowdownText(
+		pokes,
+		pendingSnapshotMeta ? pendingSnapshotMeta.source : queuedSource
+	);
+	var parsedDeadMons = cloneDeadMonsList(splitImport.deadMons);
+	if (pendingSnapshotMeta && Array.isArray(pendingSnapshotMeta.deadMons) && pendingSnapshotMeta.deadMons.length) {
+		parsedDeadMons = parsedDeadMons.concat(cloneDeadMonsList(pendingSnapshotMeta.deadMons));
+	}
+	if (queuedDeadMons.length) {
+		parsedDeadMons = parsedDeadMons.concat(queuedDeadMons);
+	}
+
+	var replaceDeadMons = false;
+	if (pendingSnapshotMeta) {
+		replaceDeadMons = pendingSnapshotMeta.replaceDeadMons !== false;
+	} else if (queuedReplaceDeadMons || parsedDeadMons.length > 0) {
+		replaceDeadMons = true;
+	}
+
+	persistTrainerIdFromImportedText(String(pokes || "").split("\n"));
+	var rows = splitImport.liveText ? splitImport.liveText.split("\n") : [];
 	var currentRow;
 	var currentPoke;
 	var addedpokes = 0;
 	var importedRows = [];
-	var customsets = getStoredCustomSets();
+	var customsets = replaceDeadMons
+		? removeMyBoxEntries(getStoredCustomSets())
+		: getStoredCustomSets();
 	var importBatchId = createBoxImportBatchId();
 	// currentParty = []
 	for (var i = 0; i < rows.length; i++) {
@@ -1530,11 +1807,27 @@ function addSets(pokes, name) {
 			}
 		}
 	}
+	var persistedDeadMons = null;
+	if (replaceDeadMons || parsedDeadMons.length > 0) {
+		persistedDeadMons = persistDeadMons(parsedDeadMons, replaceDeadMons);
+	}
+
 	if (addedpokes > 0) {
 		reconcileMegaImports(importedRows, customsets);
 		rememberLatestBoxImportBatchId(importBatchId);
 		applyImportedBoxPreview(customsets);
-		syncFragsheetFromImportedBox();
+		if (typeof window.syncImportedEncounterState === "function") {
+			window.syncImportedEncounterState(customsets, persistedDeadMons || getStoredDeadMons());
+		} else {
+			syncFragsheetFromImportedBox();
+		}
+	} else if (replaceDeadMons || parsedDeadMons.length > 0) {
+		applyImportedBoxPreview(customsets);
+		if (typeof window.syncImportedEncounterState === "function") {
+			window.syncImportedEncounterState(customsets, persistedDeadMons || getStoredDeadMons());
+		} else {
+			syncFragsheetFromImportedBox();
+		}
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}
@@ -1747,16 +2040,24 @@ function fetchLuaBytesWithRetry(url, attempt, maxAttempts, retryDelayMs) {
 function fetchDsPackedBoxWithClipboardFallback(url, maxAttempts, retryDelayMs) {
 	return fetchLuaBytesOnce(url)
 		.then(function (bytes) {
-			var showdownText = decodeDsPackedBoxToShowdownText(bytes);
-			if (!showdownText || !showdownText.trim()) {
+			var payload = decodeDsPackedBoxPayload(bytes);
+			if (!payload || ((!payload.showdownImport || !payload.showdownImport.trim()) && (!payload.deadMons || !payload.deadMons.length))) {
 				throw new Error("Empty decoded /box/packed payload");
 			}
-			importShowdownTextIntoImporter(showdownText, false);
+			applyImportedSnapshot({
+				showdownImport: payload.showdownImport,
+				deadMons: payload.deadMons,
+				source: "desmume",
+				replaceDeadMons: true,
+			});
 			return "endpoint";
 		})
 		.catch(function (firstErr) {
 			console.warn("First DS /box/packed fetch attempt failed; checking clipboard fallback.", firstErr);
-			return tryImportShowdownTextFromClipboard().then(function (importedFromClipboard) {
+			return tryImportShowdownTextFromClipboard({
+				source: "desmume",
+				replaceDeadMons: true,
+			}).then(function (importedFromClipboard) {
 				if (importedFromClipboard) {
 					console.log("DS sync completed from clipboard fallback.");
 					return "clipboard";
@@ -1766,11 +2067,16 @@ function fetchDsPackedBoxWithClipboardFallback(url, maxAttempts, retryDelayMs) {
 				}
 				console.warn("Clipboard fallback unavailable; retrying DS /box/packed endpoint.");
 				return fetchLuaBytesWithRetry(url, 2, maxAttempts, retryDelayMs).then(function (bytes) {
-					var showdownText = decodeDsPackedBoxToShowdownText(bytes);
-					if (!showdownText || !showdownText.trim()) {
+					var payload = decodeDsPackedBoxPayload(bytes);
+					if (!payload || ((!payload.showdownImport || !payload.showdownImport.trim()) && (!payload.deadMons || !payload.deadMons.length))) {
 						throw new Error("Empty decoded /box/packed payload");
 					}
-					importShowdownTextIntoImporter(showdownText, false);
+					applyImportedSnapshot({
+						showdownImport: payload.showdownImport,
+						deadMons: payload.deadMons,
+						source: "desmume",
+						replaceDeadMons: true,
+					});
 					return "endpoint";
 				});
 			});
@@ -1795,7 +2101,27 @@ function uint8ArrayToHexString(bytes) {
 	return out;
 }
 
-function decodeDsPackedBoxToShowdownText(payloadBytes) {
+function resolveDsPackedSpeciesName(speciesId) {
+	var raw = (typeof sav_pok_names !== "undefined" && sav_pok_names && sav_pok_names[speciesId])
+		? String(sav_pok_names[speciesId]).trim()
+		: "";
+	if (!raw) {
+		return "Species-" + String(speciesId);
+	}
+	return checkExeptions(raw);
+}
+
+function resolveDsPackedMetLocationName(locationId) {
+	var byGame = (typeof locations !== "undefined" && locations && baseGame && locations[baseGame])
+		? locations[baseGame]
+		: null;
+	if (Array.isArray(byGame) && byGame[locationId]) {
+		return String(byGame[locationId]).trim();
+	}
+	return "";
+}
+
+function decodeDsPackedBoxPayload(payloadBytes) {
 	var bytes = payloadBytes instanceof Uint8Array
 		? payloadBytes
 		: new Uint8Array(payloadBytes || new ArrayBuffer(0));
@@ -1804,7 +2130,7 @@ function decodeDsPackedBoxToShowdownText(payloadBytes) {
 	}
 
 	var magic = String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]);
-	if (magic !== "DPB1") {
+	if (magic !== "DPB1" && magic !== "DPB2") {
 		throw new Error("Unexpected DS packed box header: " + magic);
 	}
 
@@ -1850,7 +2176,51 @@ function decodeDsPackedBoxToShowdownText(payloadBytes) {
 	if (!result || typeof result.showdownImport !== "string") {
 		throw new Error("DS packed box decode did not return showdown text");
 	}
-	return result.showdownImport;
+
+	var deadMons = [];
+	if (magic === "DPB2") {
+		var deadCountOffset = expectedLength;
+		if (bytes.length < deadCountOffset + 2) {
+			throw new Error("Packed DS dead trailer is truncated");
+		}
+		var deadCount = readUint16LE(bytes, deadCountOffset);
+		var deadRecordOffset = deadCountOffset + 2;
+		var requiredBytes = deadRecordOffset + (deadCount * 6);
+		if (bytes.length < requiredBytes) {
+			throw new Error("Packed DS dead records are truncated");
+		}
+
+		for (var deadIndex = 0; deadIndex < deadCount; deadIndex++) {
+			var recordOffset = deadRecordOffset + (deadIndex * 6);
+			var box = bytes[recordOffset] >>> 0;
+			var slot = bytes[recordOffset + 1] >>> 0;
+			var speciesId = readUint16LE(bytes, recordOffset + 2);
+			var metLocationId = readUint16LE(bytes, recordOffset + 4);
+			if (!speciesId) {
+				continue;
+			}
+
+			deadMons.push({
+				speciesName: resolveDsPackedSpeciesName(speciesId),
+				speciesId: speciesId,
+				nickname: "",
+				met: resolveDsPackedMetLocationName(metLocationId),
+				metLocationId: metLocationId,
+				box: box,
+				slot: slot,
+				source: "desmume",
+			});
+		}
+	}
+
+	return {
+		trainerId: trainerId,
+		secretId: secretId,
+		showdownImport: result.showdownImport,
+		deadMons: deadMons,
+		boxCount: boxCount,
+		currentBoxIndex: currentBoxIndex,
+	};
 }
 
 function decodeNullPackedBoxToShowdownText(payloadBytes) {
@@ -2270,7 +2640,12 @@ $("#sync-lua").click(() => {
 			if (!showdownText || !showdownText.trim()) {
 				throw new Error("Empty decoded /box payload");
 			}
-			importShowdownTextIntoImporter(showdownText, true);
+			applyImportedSnapshot({
+				showdownImport: showdownText,
+				deadMons: [],
+				source: "desmume",
+				replaceDeadMons: true,
+			});
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
 			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/emeraldimperium.lua\n\n Last Updated 3/10/2026");
@@ -2284,7 +2659,12 @@ $("#sync-lua").click(() => {
 			if (!showdownText || !showdownText.trim()) {
 				throw new Error("Empty decoded /box payload");
 			}
-			importShowdownTextIntoImporter(showdownText, true);
+			applyImportedSnapshot({
+				showdownImport: showdownText,
+				deadMons: [],
+				source: "desmume",
+				replaceDeadMons: true,
+			});
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
 			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnullv1.1.lua\n\n Last Updated 3/9/2026\nYou can now view logs/frags for any battles played while using the latest Lua script on the Battle Logs tab of the Fragsheet page");

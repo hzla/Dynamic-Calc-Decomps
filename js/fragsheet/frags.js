@@ -25,63 +25,154 @@ function sanitizeEncounterSetData(setData) {
 	return sanitizedSetData
 }
 
+function getStoredDeadMons() {
+	if (!localStorage.deadMons) {
+		return []
+	}
+
+	try {
+		const parsed = JSON.parse(localStorage.deadMons)
+		return Array.isArray(parsed) ? parsed : []
+	} catch (_error) {
+		return []
+	}
+}
+
+function buildMinimalDeadEncounterSet(deadMon) {
+	const speciesName = String(deadMon && deadMon.speciesName || "").trim()
+	const met = String(deadMon && deadMon.met || "").trim()
+	const nickname = String(deadMon && deadMon.nickname || "").trim()
+	return {
+		"My Box": {
+			nn: nickname,
+			met: met,
+		}
+	}
+}
+
+function syncImportedEncounterState(customsetsInput, deadMonsInput) {
+	const currentEncounters = getEncounters()
+	const nextEncounters = {}
+	const customsetsMap = (customsetsInput && typeof customsetsInput === "object") ? customsetsInput : {}
+	const deadMons = Array.isArray(deadMonsInput) ? deadMonsInput : getStoredDeadMons()
+	const deadSpeciesLookup = {}
+	const touchedSpecies = {}
+
+	for (const [speciesName, encounter] of Object.entries(currentEncounters)) {
+		nextEncounters[speciesName] = {
+			setData: cloneEncounterSetData(encounter && encounter.setData),
+			fragCount: typeof encounter.fragCount === "number" ? encounter.fragCount : 0,
+			frags: Array.isArray(encounter.frags) ? [...encounter.frags] : [],
+			prevoFragCount: typeof encounter.prevoFragCount === "number" ? encounter.prevoFragCount : 0,
+			alive: typeof encounter.alive === "boolean" ? encounter.alive : true,
+			hide: Boolean(encounter.hide)
+		}
+	}
+
+	for (const deadMon of deadMons) {
+		const speciesName = String(deadMon && deadMon.speciesName || "").trim()
+		if (!speciesName) {
+			continue
+		}
+		deadSpeciesLookup[speciesName] = true
+	}
+
+	for (const [speciesName, setData] of Object.entries(customsetsMap)) {
+		if (!setData || !setData["My Box"]) {
+			continue
+		}
+
+		const previousEncounter = currentEncounters[speciesName] || {}
+		const encounter = {
+			setData: sanitizeEncounterSetData(setData),
+			fragCount: typeof previousEncounter.fragCount === "number" ? previousEncounter.fragCount : 0,
+			frags: Array.isArray(previousEncounter.frags) ? [...previousEncounter.frags] : [],
+			prevoFragCount: typeof previousEncounter.prevoFragCount === "number" ? previousEncounter.prevoFragCount : 0,
+			alive: !deadSpeciesLookup[speciesName],
+			hide: Boolean(previousEncounter.hide)
+		}
+
+		nextEncounters[speciesName] = encounter
+		touchedSpecies[speciesName] = true
+	}
+
+	for (const deadMon of deadMons) {
+		const speciesName = String(deadMon && deadMon.speciesName || "").trim()
+		if (!speciesName) {
+			continue
+		}
+
+		if (!nextEncounters[speciesName]) {
+			const previousEncounter = currentEncounters[speciesName] || {}
+			nextEncounters[speciesName] = {
+				setData: buildMinimalDeadEncounterSet(deadMon),
+				fragCount: typeof previousEncounter.fragCount === "number" ? previousEncounter.fragCount : 0,
+				frags: Array.isArray(previousEncounter.frags) ? [...previousEncounter.frags] : [],
+				prevoFragCount: typeof previousEncounter.prevoFragCount === "number" ? previousEncounter.prevoFragCount : 0,
+				alive: false,
+				hide: Boolean(previousEncounter.hide)
+			}
+		} else {
+			nextEncounters[speciesName].alive = false
+			if (deadMon.met) {
+				nextEncounters[speciesName].setData["My Box"].met = String(deadMon.met).trim()
+			}
+			if (deadMon.nickname) {
+				nextEncounters[speciesName].setData["My Box"].nn = String(deadMon.nickname).trim()
+			}
+		}
+		touchedSpecies[speciesName] = true
+	}
+
+	for (const [speciesName, encounter] of Object.entries(nextEncounters)) {
+		if (!touchedSpecies[speciesName]) {
+			continue
+		}
+
+		let preFrags = [0, [], false, false]
+		try {
+			preFrags = prevoData(speciesName, nextEncounters) || preFrags
+		} catch (_error) {
+			preFrags = [0, [], false, false]
+		}
+
+		encounter.prevoFragCount = Number(preFrags[0]) || 0
+		if (!Array.isArray(encounter.frags)) {
+			encounter.frags = []
+		}
+		encounter.fragCount = encounter.frags.length
+
+		if (!encounter.setData["My Box"].met && preFrags[2]) {
+			encounter.setData["My Box"].met = preFrags[2]
+		}
+
+		if (!encounter.setData["My Box"].nn && preFrags[3]) {
+			encounter.setData["My Box"].nn = preFrags[3]
+		}
+	}
+
+	localStorage.encounters = JSON.stringify(nextEncounters)
+	window.encounters = nextEncounters
+	if (typeof encounters !== "undefined") {
+		encounters = nextEncounters
+	}
+	if (typeof window.refreshTables === "function" && window.gridApi) {
+		try {
+			window.refreshTables()
+		} catch (_error) {
+		}
+	}
+
+	return nextEncounters
+}
+
+window.syncImportedEncounterState = syncImportedEncounterState
+
 
 // Add any new mons to encounters found in custom sets
 // Adds frag count of prevos to any new mons found
 function importEncounters() {
-	// Initialize encounter list if doesn't exist
-	if (localStorage.encounters) {
-		currentEncounters = JSON.parse(localStorage.encounters)
-	} else {
-		currentEncounters = {}
-	}
-	for (const [speciesName, setData] of Object.entries(customSets)) {
-	  if (!setData["My Box"]) {
-		continue
-	  }
-
-	  let sanitizedSetData = sanitizeEncounterSetData(setData)
-		
-	  // add to encounters if doesn't exist
-	  if (!currentEncounters[speciesName]) {
-		// console.log(currentEncounters)s
-
-	  	let encounter = {setData: sanitizedSetData, fragCount: 0, frags: [], prevoFragCount: 0, alive: true, hide: false}
-
-	  	currentEncounters[speciesName] = encounter
-
-	  	let preFrags = prevoData(speciesName, currentEncounters)
-	
-	  	encounter.prevoFragCount = preFrags[0]
-
-
-	  	encounter.fragCount = preFrags[0]
-	  	encounter.frags = preFrags[1]
-
-
-
-	  	if (preFrags[2]) {
-	  		encounter.setData["My Box"].met = preFrags[2]
-	  	}
-
-	  	if (preFrags[3]) {
-	  		encounter.setData["My Box"].nn = preFrags[3]
-	  	}	  	
-	  } else {
-		currentEncounters[speciesName].setData = sanitizedSetData
-		if (typeof currentEncounters[speciesName].alive === "undefined") {
-			currentEncounters[speciesName].alive = true
-		}
-		if (!Array.isArray(currentEncounters[speciesName].frags)) {
-			currentEncounters[speciesName].frags = []
-		}
-		if (typeof currentEncounters[speciesName].fragCount !== "number") {
-			currentEncounters[speciesName].fragCount = currentEncounters[speciesName].frags.length
-		}
-	  }
-	}
-	localStorage.encounters = JSON.stringify(currentEncounters)  	
-	return currentEncounters
+	return syncImportedEncounterState(customSets, getStoredDeadMons())
 }
 
 function watchLocalStorageProperty(propertyName, callback) {
@@ -276,6 +367,3 @@ $(document).ready(function(){
 	});
 
 })
-
-
-

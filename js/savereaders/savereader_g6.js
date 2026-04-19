@@ -101,8 +101,17 @@ $(document).ready(function () {
                 saveFileName = selectedName;
                 savExt = ((selectedName.split('.').pop()) || '').toLowerCase();
                 g67ShowLoadSuccess(selectedName, result.detectedGame);
-                $('.import-team-text').val(result.showdownImport);
-                $('#import').click();
+                if (typeof window.applyImportedSnapshot === 'function') {
+                    window.applyImportedSnapshot({
+                        showdownImport: result.showdownImport,
+                        deadMons: result.deadMons || [],
+                        source: 'save-file',
+                        replaceDeadMons: true
+                    });
+                } else {
+                    $('.import-team-text').val(result.showdownImport);
+                    $('#import').click();
+                }
             } catch (err) {
                 $('.import-team-text').val('');
                 console.error('Failed to parse Gen 6 save file.', err);
@@ -177,6 +186,7 @@ function g67ParseSaveFile(arrayBuffer, variants) {
         detectedGame: variant.detectedGame,
         partyMons,
         boxMons,
+        deadMons: [],
         partyCount,
         importedBoxCount: boxMons.length,
         showdownImport

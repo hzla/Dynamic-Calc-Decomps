@@ -7,6 +7,7 @@ const G3_HALF_SAVE_SIZE = 0x10000;
 const G3_PARTY_STRUCT_SIZE = 100;
 const G3_BOX_STRUCT_SIZE = 80;
 const G3_BOXES_TO_IMPORT = 13;
+const G3_TOTAL_BOX_COUNT = 14;
 const G3_SLOTS_PER_BOX = 30;
 const G3_FIRST_UNALIGNED_NATIONAL = 252;
 const G3_FIRST_UNALIGNED_INTERNAL = 277;
@@ -78,8 +79,17 @@ $(document).ready(function () {
                 saveFileName = selectedName;
                 savExt = ((selectedName.split('.').pop()) || '').toLowerCase();
                 g3ShowLoadSuccess(selectedName, result.detectedGame);
-                $('.import-team-text').val(result.showdownImport);
-                $('#import').click();
+                if (typeof window.applyImportedSnapshot === 'function') {
+                    window.applyImportedSnapshot({
+                        showdownImport: result.showdownImport,
+                        deadMons: result.deadMons || [],
+                        source: 'save-file',
+                        replaceDeadMons: true
+                    });
+                } else {
+                    $('.import-team-text').val(result.showdownImport);
+                    $('#import').click();
+                }
             } catch (err) {
                 console.error('Failed to parse vanilla Gen 3 save file.', err);
                 alert('Unable to parse this save. Only raw Emerald/FireRed/LeafGreen .sav/.srm saves are supported right now.');
@@ -127,13 +137,26 @@ function parseGen3SaveFile(arrayBuffer) {
         }
     }
 
-    const totalStorageSlots = G3_BOXES_TO_IMPORT * G3_SLOTS_PER_BOX;
+    const totalStorageSlots = G3_TOTAL_BOX_COUNT * G3_SLOTS_PER_BOX;
+    const deadMons = [];
     for (let i = 0; i < totalStorageSlots; i++) {
         const start = 4 + (i * G3_BOX_STRUCT_SIZE);
         const chunk = buffers.storageBuffer.slice(start, start + G3_BOX_STRUCT_SIZE);
         const mon = g3ParseMonChunk(chunk, false, i + 1);
         if (mon) {
-            parsedBoxes.push(mon);
+            if (i < (G3_BOXES_TO_IMPORT * G3_SLOTS_PER_BOX)) {
+                parsedBoxes.push(mon);
+            } else {
+                deadMons.push({
+                    speciesName: mon.speciesName,
+                    speciesId: mon.speciesId,
+                    nickname: mon.nickname || '',
+                    met: mon.metLocation || '',
+                    box: Math.floor(i / G3_SLOTS_PER_BOX) + 1,
+                    slot: (i % G3_SLOTS_PER_BOX) + 1,
+                    source: 'save-file'
+                });
+            }
         }
     }
 
@@ -149,6 +172,7 @@ function parseGen3SaveFile(arrayBuffer) {
         detectedGame: variant.key,
         partyMons: parsedParty,
         boxMons: parsedBoxes,
+        deadMons,
         partyCount,
         importedBoxCount: parsedBoxes.length,
         showdownImport

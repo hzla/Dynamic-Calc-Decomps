@@ -97,9 +97,11 @@ if (TITLE.includes("Imperium")) {
                     $('#changelog').html(changelog).show()
 
                     let showdownText = ""
+                    let deadMons = []
                     try {
                         const deterministicResult = parseDeterministicPokeEmeraldSave(saveFile)
                         showdownText = deterministicResult.showdownText
+                        deadMons = deterministicResult.deadMons || []
 
                         if (!isRawSaveState) {
                             applyDeterministicTmPocketResults(deterministicResult.tmPocketEntries, {
@@ -111,10 +113,20 @@ if (TITLE.includes("Imperium")) {
                         const reason = err && err.message ? err.message : String(err)
                         console.warn(`[PokeEmerald deterministic] ${reason}. Falling back to brute-force scan.`)
                         showdownText = bruteForceImportPokeEmeraldSave(saveFile, { isRawSaveState })
+                        deadMons = []
                     }
 
-                    $('.import-team-text').val(showdownText)
-                    $('#import').click()    
+                    if (typeof window.applyImportedSnapshot === 'function') {
+                        window.applyImportedSnapshot({
+                            showdownImport: showdownText,
+                            deadMons: deadMons,
+                            source: 'save-file',
+                            replaceDeadMons: true
+                        })
+                    } else {
+                        $('.import-team-text').val(showdownText)
+                        $('#import').click()
+                    }
                 };
                 reader.readAsArrayBuffer(file);
 
@@ -210,17 +222,34 @@ function parseDeterministicPokeEmeraldSave(saveFile) {
     }
 
     const totalBoxSlots = POKEEMERALD_TOTAL_BOXES_COUNT * POKEEMERALD_IN_BOX_COUNT;
+    const liveBoxSlots = (POKEEMERALD_TOTAL_BOXES_COUNT - 1) * POKEEMERALD_IN_BOX_COUNT;
+    const deadMons = [];
     for (let i = 0; i < totalBoxSlots; i++) {
         const mon = gen3ParseRawMonChunk(readDataViewChunk(pokemonStorage, POKEEMERALD_BOX_BASE_OFFSET + (i * POKEEMERALD_BOX_MON_SIZE), POKEEMERALD_BOX_MON_SIZE), false, i + 1);
         if (!mon) {
             continue;
         }
         localStorage.lastTid = mon.trainerIdSecret;
-        showdownText += gen3MonToShowdown(mon);
+        if (i < liveBoxSlots) {
+            showdownText += gen3MonToShowdown(mon);
+            continue;
+        }
+
+        deadMons.push({
+            speciesName: mon.speciesName,
+            speciesId: mon.speciesId,
+            nickname: mon.nickname || "",
+            met: mon.metLocation || "",
+            metLocationId: typeof mon.metLocationId === "number" ? mon.metLocationId : undefined,
+            box: Math.floor(i / POKEEMERALD_IN_BOX_COUNT) + 1,
+            slot: (i % POKEEMERALD_IN_BOX_COUNT) + 1,
+            source: "save-file",
+        });
     }
 
     return {
         showdownText,
+        deadMons,
         tmPocketEntries: extractDeterministicTmPocketEntries(saveBlock1),
     };
 }
@@ -1093,6 +1122,7 @@ function gen3ParseRawMonChunk(chunk, isParty = false, slot = 0) {
         hp,
         maxHP,
         isEgg,
+        metLocationId: metId,
         metLocation,
     };
 }
@@ -1174,6 +1204,7 @@ function parsePokeLuaGen3RawBoxDump(boxDumpInput) {
 
     const parsedParty = [];
     const parsedBoxes = [];
+    const deadMons = [];
     let showdownImport = "";
 
     for (let i = 0; i < partyCountParsed; i++) {
@@ -1196,6 +1227,28 @@ function parsePokeLuaGen3RawBoxDump(boxDumpInput) {
         }
     }
 
+    const deadBoxes = Array.isArray(dump.deadBoxes) ? dump.deadBoxes : [];
+    for (let boxIndex = 0; boxIndex < deadBoxes.length; boxIndex++) {
+        const deadBox = deadBoxes[boxIndex];
+        const slots = Array.isArray(deadBox && deadBox.slots) ? deadBox.slots : [];
+        for (let slotIndex = 0; slotIndex < slots.length; slotIndex++) {
+            const deadEntry = slots[slotIndex];
+            if (!deadEntry || typeof deadEntry !== "object") {
+                continue;
+            }
+            deadMons.push({
+                speciesName: checkExeptions(String(deadEntry.species || "").trim()),
+                speciesId: typeof deadEntry.speciesId === "number" ? deadEntry.speciesId : undefined,
+                nickname: String(deadEntry.nickname || "").trim(),
+                met: String(deadEntry.location || "").trim(),
+                metLocationId: typeof deadEntry.locationId === "number" ? deadEntry.locationId : undefined,
+                box: typeof deadEntry.box === "number" ? deadEntry.box : (Number(deadBox.box) || (boxIndex + 1)),
+                slot: typeof deadEntry.slot === "number" ? deadEntry.slot : (slotIndex + 1),
+                source: "desmume",
+            });
+        }
+    }
+
     return {
         trainerId: dump.trainerId,
         secretId: dump.secretId,
@@ -1203,6 +1256,8 @@ function parsePokeLuaGen3RawBoxDump(boxDumpInput) {
         boxedPokemonCount: parsedBoxes.length,
         boxSlotsDumped: boxSlotsParsed,
         showdownImport,
+        deadMons,
+        source: "desmume",
         parsedParty,
         parsedBoxes,
         rawDump: dump,

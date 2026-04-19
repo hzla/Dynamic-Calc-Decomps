@@ -121,6 +121,7 @@ if (TITLE.includes("Imperium")) {
                     let lastFoundAt = 0
 
                     let showdownText = ""
+                    let deadMons = []
 
                     saveFile 
 
@@ -427,14 +428,38 @@ if (TITLE.includes("Imperium")) {
                       if (mon) showdownText += monToShowdown(mon);
                     }
 
+                    const LIVE_BOX_COUNT = TOTAL_BOXES_COUNT - 1;
+                    const LIVE_BOX_MON_COUNT = LIVE_BOX_COUNT * IN_BOX_COUNT;
                     for (let i = 0; i < BOXMON_COUNT; i++) {
                       const off = BOX_BASE_OFFSET + i * BOXMON_SIZE;
                       const mon = parseGen3MonAt(pokemonStorage, off, false);
-                      if (mon) showdownText += monToShowdown(mon);
+                      if (!mon) continue;
+                      if (i < LIVE_BOX_MON_COUNT) {
+                        showdownText += monToShowdown(mon);
+                      } else {
+                        deadMons.push({
+                          speciesName: mon.speciesName,
+                          speciesId: mon.speciesId,
+                          nickname: mon.nn || "",
+                          met: mon.met || "",
+                          box: Math.floor(i / IN_BOX_COUNT) + 1,
+                          slot: (i % IN_BOX_COUNT) + 1,
+                          source: "save-file",
+                        });
+                      }
                     }
 
-                    $('.import-team-text').val(showdownText);
-                    $('#import').click();
+                    if (typeof window.applyImportedSnapshot === 'function') {
+                        window.applyImportedSnapshot({
+                            showdownImport: showdownText,
+                            deadMons: deadMons,
+                            source: 'save-file',
+                            replaceDeadMons: true
+                        });
+                    } else {
+                        $('.import-team-text').val(showdownText);
+                        $('#import').click();
+                    }
                 };
                 reader.readAsArrayBuffer(file);
 
@@ -715,7 +740,6 @@ function extractSaveState(file) {
     }
   }
 }
-
 
 
 

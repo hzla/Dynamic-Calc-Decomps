@@ -157,8 +157,17 @@ if (TITLE.includes(" Null")) {
                         }
                         $('#changelog').html(changelogText).show();
 
-                        $('.import-team-text').val(partyReadResult.showdownText + boxReadResult.showdownText);
-                        $('#import').click();
+                        if (typeof window.applyImportedSnapshot === 'function') {
+                            window.applyImportedSnapshot({
+                                showdownImport: partyReadResult.showdownText + boxReadResult.showdownText,
+                                deadMons: [],
+                                source: 'save-file',
+                                replaceDeadMons: true
+                            });
+                        } else {
+                            $('.import-team-text').val(partyReadResult.showdownText + boxReadResult.showdownText);
+                            $('#import').click();
+                        }
                     } catch (err) {
                         console.error("Failed to parse Pokemon Null save file.", err);
                         alert("Unable to parse this Pokemon Null save file.");

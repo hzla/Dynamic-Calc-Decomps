@@ -94,56 +94,30 @@ function getCurrentBoxSetsForReload() {
 
 function rebuildFragsheetFromCurrentBox() {
     const currentBoxSets = getCurrentBoxSetsForReload()
-    const rebuiltEncounters = {}
-
-    for (const [speciesName, setData] of Object.entries(currentBoxSets)) {
-        if (!setData || !setData["My Box"]) {
-            continue
+    const deadMons = (() => {
+        try {
+            const parsed = JSON.parse(localStorage.deadMons || "[]")
+            return Array.isArray(parsed) ? parsed : []
+        } catch (_error) {
+            return []
         }
+    })()
 
-        const encounter = {
-            setData: cloneEncounterSetData(setData),
-            fragCount: 0,
-            frags: [],
-            prevoFragCount: 0,
-            alive: true,
-            hide: false
+    if (typeof window.syncImportedEncounterState === "function") {
+        localStorage.encounters = ""
+        window.encounters = {}
+        if (typeof encounters !== "undefined") {
+            encounters = {}
         }
-
-        delete encounter.setData["My Box"].moves
-        delete encounter.setData["My Box"].isCustomSet
-        delete encounter.setData["My Box"].level
-
-        rebuiltEncounters[speciesName] = encounter
-
-        let preFrags = [0, [], false, false]
-        if (typeof window.prevoData === "function") {
-            try {
-                preFrags = window.prevoData(speciesName, rebuiltEncounters) || preFrags
-            } catch (_error) {
-                preFrags = [0, [], false, false]
-            }
-        }
-
-        encounter.prevoFragCount = Number(preFrags[0]) || 0
-        encounter.fragCount = encounter.prevoFragCount
-        encounter.frags = Array.isArray(preFrags[1]) ? [...preFrags[1]] : []
-
-        if (preFrags[2]) {
-            encounter.setData["My Box"].met = preFrags[2]
-        }
-
-        if (preFrags[3]) {
-            encounter.setData["My Box"].nn = preFrags[3]
-        }
+        return window.syncImportedEncounterState(currentBoxSets, deadMons)
     }
 
+    const rebuiltEncounters = {}
     localStorage.encounters = JSON.stringify(rebuiltEncounters)
     window.encounters = rebuiltEncounters
     if (typeof encounters !== "undefined") {
         encounters = rebuiltEncounters
     }
-
     return rebuiltEncounters
 }
 

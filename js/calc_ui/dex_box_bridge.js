@@ -111,6 +111,10 @@
 		return safeJsonParse(window.localStorage && window.localStorage.customsets, {});
 	}
 
+	function getDeadMonsList() {
+		return safeJsonParse(window.localStorage && window.localStorage.deadMons, []);
+	}
+
 	function normalizeNumber(value, fallbackValue) {
 		var numeric = Number(value);
 		return Number.isFinite(numeric) ? numeric : fallbackValue;
@@ -213,8 +217,29 @@
 		return lines.join("\n");
 	}
 
+	function serializeDeadMon(deadMon) {
+		if (!deadMon || typeof deadMon !== "object") return "";
+
+		var speciesName = String(deadMon.speciesName || deadMon.species || "").trim();
+		if (!speciesName) return "";
+
+		var nickname = String(deadMon.nickname || deadMon.nn || "").trim();
+		var header = nickname && nickname !== speciesName
+			? nickname + " (" + speciesName + ")"
+			: speciesName;
+
+		var lines = [header, "Dead: Yes"];
+		var met = String(deadMon.met || deadMon.location || "").trim();
+		if (met) {
+			lines.push("Met: " + met);
+		}
+
+		return lines.join("\n");
+	}
+
 	function buildCustomSetsPayload() {
 		var customSetsMap = getCustomSetsMap();
+		var deadMons = getDeadMonsList();
 		var speciesNames = Object.keys(customSetsMap || {});
 		var blocks = [];
 
@@ -230,6 +255,12 @@
 			var block = serializeCustomSet(speciesName, speciesSets["My Box"]);
 			if (!block) continue;
 			blocks.push(block);
+		}
+
+		for (var deadIndex = 0; deadIndex < deadMons.length; deadIndex++) {
+			var deadBlock = serializeDeadMon(deadMons[deadIndex]);
+			if (!deadBlock) continue;
+			blocks.push(deadBlock);
 		}
 
 		return {
