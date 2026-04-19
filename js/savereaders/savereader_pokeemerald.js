@@ -58,9 +58,10 @@ if (TITLE.includes("Imperium")) {
                     console.log("reloading new save file")
                     // Convert the binary string to ArrayBuffer for easier access
                     let buffer = e.target.result;
-                    // view = new Uint8Array(buffer);
+                    const fileExt = ((saveFileName.split('.').pop()) || '').toLowerCase();
+                    const isRawSaveState = /^ss[1-9]$/.test(fileExt);
 
-                    if (savExt.includes("ss")) {
+                    if (isRawSaveState) {
 
                         // decompress compressed mgba save state
                         if (buffer.byteLength < 100000) {
@@ -80,9 +81,6 @@ if (TITLE.includes("Imperium")) {
 
                     saveUploaded = true;
 
-
-                    let lvlCap = $('#lvl-cap').val()  || 1
-
                     const now = new Date();
                     const timeString = now.toLocaleTimeString([], {
                       hour: '2-digit',
@@ -97,399 +95,24 @@ if (TITLE.includes("Imperium")) {
                        $('#clearSets').after("<p id='changelog'></p>") 
                     }
                     $('#changelog').html(changelog).show()
-                    
-
-                    save_index_a_offset = 0xffc
-                    save_block_b_offset = 0x00E000
-                    trainer_id_offset = 0xa
-                    save_index_b_offset = save_block_b_offset + save_index_a_offset
-
-                    const save_index_a = saveFile.getUint16(save_index_a_offset, true)
-                    const save_index_b = saveFile.getUint16(save_index_b_offset, true)
-                    var block_offset = 0
-
-
-                    if (save_index_b > save_index_a || save_index_a == 65535) {
-                         block_offset = save_block_b_offset
-                    }
-
-                    var save_index = Math.max(save_index_a, save_index_b)
-                    // console.log(save_index_a)
-                    // console.log(save_index_b)
-                    // if (save_index_b == 65535) {save_index = save_index_a }
-                    // if (save_index_a == 65535) { save_index = save_index_b }
-
-                    let rotation = save_index % 14
-
-
-
-
-                    console.log(rotation)
-
-                    console.log(`save_index: ${save_index}, rotation: ${rotation}`)
-                    let retries = 0
-                    if (!savExt.includes("ss")) {
-                        localStorage.legalTms = ''
-                        getTms(saveFile, 0)
-                    }
-                    
-
-
-                    let offset = 0;
-                    const magicValue = 0x0202;
-
-                    offset = 0
-
-                    let pokCount = 0
-
-
-                    let lastFoundAt = 0
 
                     let showdownText = ""
-
-                    saveFile 
-
-                    while (offset < saveFile.byteLength - 1) { 
-                        const value = saveFile.getUint16(offset, true); 
-                        
-                        if (value === magicValue) {
-                            lastFoundAt = offset
-
-                            // move back 18 bytes and get PID, TID, and custom nature info
-                            offset -= 18
-                            let pid = saveFile.getUint32(offset, true)
-                            offset += 4
-                            let tid = saveFile.getUint32(offset, true)
-                            localStorage.lastTid = tid
-
-
-                            offset += 4
-
-
-                            let nn = ""
-
-                            for (let i = 0; i <10; i++) {
-                                let letter = gen3TextTable[saveFile.getUint8(offset + i, true)] || ""
-                                nn += letter
-                            }
-
-
-                            // let moddedNature = (saveFile.getUint16(offset, true) >> 13) && 0b11111
-
-                            // substructs are scrambled according to PID
-                            let suborder = orderFormats[pid % 24]
-                           
-
-                            let key = pid ^ tid
-                            let decrypted = []
-
-
-                            offset = lastFoundAt + 14
-
-
-                            invalidData = false
-                            // decrypt substructs
-
-
-                            for (let i = 0; i <= 11; i++) {
-                                let block = null
-                                try {
-                                   block = saveFile.getUint32(offset , true) ^ key 
-                                } catch {
-                                    invalidData = true
-                                    block = []
-                                    break;
-                                }
-                                
-                                decrypted.push(block)
-                                offset += 4
-                            }
-
-                            if (invalidData) {
-                                offset = lastFoundAt + 2
-                                continue
-                            }
-
-                            let growth_index = suborder.indexOf(1)
-                            let moves_index = suborder.indexOf(2)
-                            let evs_index = suborder.indexOf(3)
-                            let misc_index = suborder.indexOf(4)
-
-
-                            // get Species
-                            let speciesId = [decrypted[growth_index * 3]] & 0x07FF
-                            // for Inclement Emerald
-                            if (TITLE.includes("Inclement") && speciesId > 899) {
-                                speciesId += 7
-                            }
-                            let speciesName = emImpMons[speciesId]
-
-                            if (speciesName == "Hitmonchan") {
-                                console.log(`${pid}, ${tid}`)
-                            }
-
-
-
-
-
-
-
-                            // Skip if species id out of bounds
-                            if (!speciesName || speciesName == "None") {
-                                offset = lastFoundAt + 2
-                                continue
-                            }
-
-
-                            // console.log(`${speciesName}: ${tid}`)
-
-
-                            // Try Substitute Spaces for Dashes if pokemon name doesn't exist
-
-                            if (!pokedex[speciesName]) {
-               
-                                speciesName = speciesName.replaceAll(" ", "-")
-                            }
-
-                            // get Item
-                            let itemId = [decrypted[growth_index * 3]] >> 16 & 0x07FF
-
-                            // skip if invalid item
-                            if (itemId >= emImpItems.length) {
-                                offset = lastFoundAt + 2
-                                continue
-                            }
-
-
-
-
-                            // get Level
-                            let speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
-                            let exp = [decrypted[growth_index * 3 + 1]] & 0x1FFFFF
-                            let gr = 0
-
-                            // todo consolidate files
-                            if (em_imp_primary_mons[speciesName] && em_imp_primary_mons[speciesName]["gr"]) {
-                                gr =  em_imp_primary_mons[speciesName]["gr"]
-                            } else {
-                                if (typeof learnsets[speciesNameId] == "undefined") {
-                                    speciesName = speciesName.split("-").slice(0,2).join("-")
-                                    speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
-                                } 
-
-                                if (typeof learnsets[speciesNameId] == "undefined") {
-                                    speciesName = speciesName.split("-")[0]
-                                    speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
-                                } 
-
-
-                                if (typeof learnsets[speciesNameId] == "undefined") {
-                                    console.log(`can't find growth for ${speciesName}`)
-                                } else {
-                                    gr = learnsets[speciesNameId].gr 
-                                }
-                            }
-                            
-                        
-
-                            
-                            if (typeof gr == "unefined") {
-                               console.log(learnsets[speciesNameId])
-                               console.log(`${speciesNameId} growth not found`)
-                               gr = 0 
-                            }
-
-                            let level;
-                            try {
-                                level = get_level(expTables[gr], exp)
-                            } catch {
-                                offset = lastFoundAt + 2
-                                continue
-                            }
-
-
-
-                   
-
-
-                            let nn11 = gen3TextTable[decrypted[growth_index * 3 + 1] >> 21 & 0xFF] || ""
-                            let nn12 = gen3TextTable[decrypted[growth_index * 3 + 2] >> 14 & 0xFF] || ""
-
-                            nn += nn11
-                            nn += nn12
-
-                            met = locations["EM"][decrypted[misc_index * 3] >> 8 & 0xFF] 
-
-
-
-                            // console.log(nn)
-                            
-                            // get nature
-                            let monNature = 0
-                            if (TITLE.includes("Inclement")) {
-                                let natureByte = [decrypted[misc_index * 3]] >> 16 & 0x07FF
-                                monNature = natures[natureByte & 31744 >> 10]   
-                            } else {
-                                monNature = natures[pid % 25]
-                                // if (moddedNature <= 26) {
-                                //     monNature = natures[moddedNature]
-                                // }
-                            }
-
-                            // get evs
-                            let int1 = decrypted[evs_index * 3]
-                            let int2 = decrypted[evs_index * 3 + 1]
-
-                            let evs = []
-
-                            evs[0] = (int1 & 0xFF)
-                            evs[1] = ((int1 >> 8) & 0xFF)
-                            evs[2] = ((int1 >> 16) & 0xFF)
-                            evs[3]= ((int1 >> 24) & 0xFF)
-                            evs[4] = (int2 & 0xFF)
-                            evs[5] = ((int2 >> 8) & 0xFF)
-
-                            // skip if pokemon has evs and evs are turned off
-                            if (evs[0] +  evs[1] +  evs[2] +  evs[3] +  evs[4] +  evs[5] > 0 && !settings.hasEvs) {
-                                offset = lastFoundAt + 2
-                                continue
-                            }
-
-                            console.log([offset, speciesName, tid])
-
-                            // get moves
-                            let move1 = pokeemeraldMoves[[decrypted[moves_index * 3]] & 0x07FF]
-                            let move2 = pokeemeraldMoves[[decrypted[moves_index * 3]] >> 16 & 0x07FF]
-                            let move3 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] & 0x07FF]
-                            let move4 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] >> 16 & 0x07FF]
-
-                            let moves = [move1, move2, move3, move4]
-                            let illegalMoveFound = false
-
-
-
-                            if (move1 == "None") {
-                                illegalMoveFound = true
-                            }
-
-                            
-                            // filter for legal moves
-
-                            try {
-                                if (localStorage.filterSaveFile == '1' && localStorage.randomized != '1') {
-                                    let legalMoves = getFamilyLegalMoves(speciesName)
-                                    for (move of moves) {
-
-                                        if (!move) {
-                                            illegalMoveFound = true
-                                            continue
-                                        }
-
-                                        if (legalMoves.indexOf(move.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) == -1 && move != "None" && !move.includes("Hidden Power") && !move.includes("Return")) {
-                                            console.log(`Ilegal move found on ${speciesName}: ${move}`)
-                                            illegalMoveFound = true
-                                        }
-                                    }
-                                }
-                            } catch {
-                                console.log(`Unable to filter illegal moves for ${speciesName}`)
-                            }
-                            
-
-                            // skip if any moves out of bounds or duplicates moves that aren't "None"
-                            if (hasInvalidMoves(moves) || illegalMoveFound) {
-                                offset = lastFoundAt + 2
-                                continue
-                            }
-
-                            // get ivs 
-                            let ivs = getIVs(decrypted[misc_index * 3 + 1])
-
-                            // get ability
-
-                            let abilitySlot = 0
-
-                            if (TITLE.includes("Inclement")) {
-                                abilitySlot = decrypted[misc_index * 3 + 2] & 96 >> 5
-                            } else {
-                                abilitySlot = decrypted[misc_index * 3 + 2] >> 29 & 0b11
-                                
-                                // todo: get final ability list
-                                if (abilsPrimary[speciesName]) {
-                                    abilitySlot = abilsPrimary[speciesName][abilitySlot]
-                                }
-                                else if (abils[speciesName]) {
-                                    abilitySlot = abils[speciesName][abilitySlot]
-                                } else {
-                                    console.log(`${speciesName} no ability found`)
-                                }          
-                            }
-
-                            if (localStorage.randomized == '1') {
-
-                                try {
-                                    let slotIndex = decrypted[misc_index * 3 + 2] >> 29 & 0b11
-
-                                    // console.log(`${speciesName}: Ability Slot: ${slotIndex}, abilities: ${abilsPrimary[speciesName]}`)
-
-                                    if (abilsPrimary[speciesName][slotIndex] == "None") {
-                                        slotIndex = 0
-                                        // console.log(`Setting ability slot to 0`)
-                                    } 
-                                    abilitySlot = sav_abilities[randomizeAbility(speciesId, slotIndex, tid)]
-
-                                    // console.log(`running randomizeAbility(${speciesId}, ${slotIndex}, ${tid}): returns ${randomizeAbility(speciesId, slotIndex, tid)}, ${sav_abilities[randomizeAbility(speciesId, slotIndex, tid)]}`)
-
-
-                                    
-
-                                } catch {
-                                    abilitySlot = "None"
-                                }                  
-                            }
-
-
-                            
-
-
-
-                            if (nn.toLowerCase() != speciesName.toLowerCase() && !(speciesName.toLowerCase().includes(nn.toLowerCase().trim()))) {
-                            
-                                if (nn.toLowerCase().includes(speciesName.toLowerCase())) {
-                                    showdownText += `${speciesName}`
-                                } else {
-                                    showdownText += `${nn} (${speciesName})`
-                                }
-
-                               
-                            } else {
-                                showdownText += `${speciesName}`
-                            }
-
-                            
-                            if (itemId != 0) {
-                                showdownText += ` @ ${itemTitleize(emImpItems[itemId])}`
-                            }
-                            showdownText += "\n"
-                            showdownText += `Level: ${level}\n`
-                            showdownText += `${monNature} Nature\n`
-
-                            if (settings.hasEvs) {
-                                showdownText += `EVs: ${evs[0]} HP / ${evs[1]} Atk / ${evs[2]} Def / ${evs[3]} Spe / ${evs[4]} SpA / ${evs[5]} SpD\n`
-                            }
-                            showdownText += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[3]} Spe / ${ivs[4]} SpA / ${ivs[5]} SpD\n`
-
-                            showdownText += `Ability: ${abilitySlot}\n`
-                            showdownText += `- ${move1}\n`
-                            showdownText += `- ${move2}\n`
-                            showdownText += `- ${move3}\n`
-                            showdownText += `- ${move4}\n`
-                            showdownText += `Met: ${met}\n\n`
-                            offset = lastFoundAt + 2
-                        } else {
-                            offset += 2; 
-                        }   
+                    try {
+                        const deterministicResult = parseDeterministicPokeEmeraldSave(saveFile)
+                        showdownText = deterministicResult.showdownText
+
+                        if (!isRawSaveState) {
+                            applyDeterministicTmPocketResults(deterministicResult.tmPocketEntries, {
+                                fileName: saveFileName,
+                                fileExt,
+                            })
+                        }
+                    } catch (err) {
+                        const reason = err && err.message ? err.message : String(err)
+                        console.warn(`[PokeEmerald deterministic] ${reason}. Falling back to brute-force scan.`)
+                        showdownText = bruteForceImportPokeEmeraldSave(saveFile, { isRawSaveState })
                     }
+
                     $('.import-team-text').val(showdownText)
                     $('#import').click()    
                 };
@@ -522,6 +145,473 @@ if (TITLE.includes("Imperium")) {
     });
 }
 
+
+const POKEEMERALD_SECTOR_SIZE = 0x1000;
+const POKEEMERALD_SECTOR_DATA_SIZE = 0x0FF4;
+const POKEEMERALD_SECTOR_ID_OFFSET = 0x0FF4;
+const POKEEMERALD_SECTOR_SIGNATURE_OFFSET = 0x0FF8;
+const POKEEMERALD_SECTOR_COUNTER_OFFSET = 0x0FFC;
+const POKEEMERALD_SECTOR_SIGNATURE = 0x08012025;
+const POKEEMERALD_LOGICAL_SECTOR_COUNT = 28;
+const POKEEMERALD_SAVEBLOCK1_START = 1;
+const POKEEMERALD_SAVEBLOCK1_END = 16;
+const POKEEMERALD_STORAGE_START = 17;
+const POKEEMERALD_STORAGE_END = 27;
+const POKEEMERALD_PARTY_COUNT_OFFSET = 0x234;
+const POKEEMERALD_PARTY_BASE_OFFSET = 0x238;
+const POKEEMERALD_PARTY_SIZE = 6;
+const POKEEMERALD_PARTY_MON_SIZE = 100;
+const POKEEMERALD_BOX_MON_SIZE = 80;
+const POKEEMERALD_BOX_BASE_OFFSET = 0x0004;
+const POKEEMERALD_TOTAL_BOXES_COUNT = 14;
+const POKEEMERALD_IN_BOX_COUNT = 30;
+const POKEEMERALD_TM_POCKET_OFFSET = 0x0B18;
+const POKEEMERALD_TM_POCKET_COUNT = 252;
+
+function parseDeterministicPokeEmeraldSave(saveFile) {
+    const logical = buildNewestLogicalSectors(saveFile);
+    const saveBlock1 = concatLogicalRange(logical, POKEEMERALD_SAVEBLOCK1_START, POKEEMERALD_SAVEBLOCK1_END);
+    const pokemonStorage = concatLogicalRange(logical, POKEEMERALD_STORAGE_START, POKEEMERALD_STORAGE_END);
+
+    if (saveBlock1.byteLength <= POKEEMERALD_PARTY_COUNT_OFFSET) {
+        throw new Error(`SaveBlock1 too small for party count (${saveBlock1.byteLength} bytes)`);
+    }
+
+    const requiredPartyBytes = POKEEMERALD_PARTY_BASE_OFFSET + (POKEEMERALD_PARTY_SIZE * POKEEMERALD_PARTY_MON_SIZE);
+    if (saveBlock1.byteLength < requiredPartyBytes) {
+        throw new Error(`SaveBlock1 too small for party data (${saveBlock1.byteLength} bytes)`);
+    }
+
+    const requiredBoxBytes = POKEEMERALD_BOX_BASE_OFFSET + (POKEEMERALD_TOTAL_BOXES_COUNT * POKEEMERALD_IN_BOX_COUNT * POKEEMERALD_BOX_MON_SIZE);
+    if (pokemonStorage.byteLength < requiredBoxBytes) {
+        throw new Error(`PokemonStorage too small for boxed mons (${pokemonStorage.byteLength} bytes)`);
+    }
+
+    const partyCount = saveBlock1.getUint8(POKEEMERALD_PARTY_COUNT_OFFSET);
+    if (!Number.isFinite(partyCount) || partyCount < 0 || partyCount > POKEEMERALD_PARTY_SIZE) {
+        throw new Error(`Invalid party count ${partyCount}`);
+    }
+
+    let showdownText = "";
+    let parsedPartyCount = 0;
+
+    for (let i = 0; i < partyCount; i++) {
+        const mon = gen3ParseRawMonChunk(readDataViewChunk(saveBlock1, POKEEMERALD_PARTY_BASE_OFFSET + (i * POKEEMERALD_PARTY_MON_SIZE), POKEEMERALD_PARTY_MON_SIZE), true, i + 1);
+        if (!mon) {
+            continue;
+        }
+        localStorage.lastTid = mon.trainerIdSecret;
+        parsedPartyCount++;
+        showdownText += gen3MonToShowdown(mon);
+    }
+
+    if (partyCount > 0 && parsedPartyCount === 0) {
+        throw new Error("Deterministic party parsing returned zero valid mons");
+    }
+
+    const totalBoxSlots = POKEEMERALD_TOTAL_BOXES_COUNT * POKEEMERALD_IN_BOX_COUNT;
+    for (let i = 0; i < totalBoxSlots; i++) {
+        const mon = gen3ParseRawMonChunk(readDataViewChunk(pokemonStorage, POKEEMERALD_BOX_BASE_OFFSET + (i * POKEEMERALD_BOX_MON_SIZE), POKEEMERALD_BOX_MON_SIZE), false, i + 1);
+        if (!mon) {
+            continue;
+        }
+        localStorage.lastTid = mon.trainerIdSecret;
+        showdownText += gen3MonToShowdown(mon);
+    }
+
+    return {
+        showdownText,
+        tmPocketEntries: extractDeterministicTmPocketEntries(saveBlock1),
+    };
+}
+
+function buildNewestLogicalSectors(saveDv) {
+    const totalSectors = Math.floor(saveDv.byteLength / POKEEMERALD_SECTOR_SIZE);
+    const newest = new Array(POKEEMERALD_LOGICAL_SECTOR_COUNT).fill(null);
+
+    for (let phys = 0; phys < totalSectors; phys++) {
+        const base = phys * POKEEMERALD_SECTOR_SIZE;
+        if (base + POKEEMERALD_SECTOR_SIZE > saveDv.byteLength) {
+            break;
+        }
+
+        const signature = saveDv.getUint32(base + POKEEMERALD_SECTOR_SIGNATURE_OFFSET, true);
+        if (signature !== POKEEMERALD_SECTOR_SIGNATURE) {
+            continue;
+        }
+
+        const logicalId = saveDv.getUint16(base + POKEEMERALD_SECTOR_ID_OFFSET, true);
+        if (logicalId < 0 || logicalId >= POKEEMERALD_LOGICAL_SECTOR_COUNT) {
+            continue;
+        }
+
+        const counter = saveDv.getUint32(base + POKEEMERALD_SECTOR_COUNTER_OFFSET, true);
+        const existing = newest[logicalId];
+        if (existing && existing.counter >= counter) {
+            continue;
+        }
+
+        const data = new Uint8Array(POKEEMERALD_SECTOR_DATA_SIZE);
+        data.set(new Uint8Array(saveDv.buffer, saveDv.byteOffset + base, POKEEMERALD_SECTOR_DATA_SIZE));
+        newest[logicalId] = {
+            counter,
+            data,
+        };
+    }
+
+    return newest;
+}
+
+function concatLogicalRange(logical, startId, endIdInclusive) {
+    let totalBytes = 0;
+    const buffers = [];
+
+    for (let id = startId; id <= endIdInclusive; id++) {
+        const entry = logical[id];
+        if (!entry) {
+            throw new Error(`Missing logical sector ${id}`);
+        }
+        buffers.push(entry.data);
+        totalBytes += entry.data.length;
+    }
+
+    const output = new Uint8Array(totalBytes);
+    let offset = 0;
+    for (const chunk of buffers) {
+        output.set(chunk, offset);
+        offset += chunk.length;
+    }
+    return new DataView(output.buffer);
+}
+
+function readDataViewChunk(dv, offset, length) {
+    if (offset < 0 || length < 0 || offset + length > dv.byteLength) {
+        return new Uint8Array();
+    }
+    return new Uint8Array(dv.buffer.slice(dv.byteOffset + offset, dv.byteOffset + offset + length));
+}
+
+function extractDeterministicTmPocketEntries(saveBlock1) {
+    const entries = [];
+
+    for (let i = 0; i < POKEEMERALD_TM_POCKET_COUNT; i++) {
+        const offset = POKEEMERALD_TM_POCKET_OFFSET + (i * 4);
+        const itemId = saveBlock1.getUint16(offset, true);
+        const quantity = saveBlock1.getUint16(offset + 2, true);
+        if (itemId === 0) {
+            continue;
+        }
+
+        let itemName = emImpItems[itemId];
+        if (typeof itemName === "undefined") {
+            continue;
+        }
+
+        itemName = itemName.replace("M0", "M");
+        if (!itemName.includes("TM") && !itemName.includes("HM")) {
+            continue;
+        }
+
+        entries.push({
+            itemId,
+            itemName,
+            quantity,
+            moveName: resolveTmHmMoveName(itemName),
+        });
+    }
+
+    return entries;
+}
+
+function resolveTmHmMoveName(itemName) {
+    let moveName = null;
+    if (itemName.includes("TM")) {
+        moveName = invertedTms[itemName.slice(2)];
+    } else if (itemName.includes("HM")) {
+        moveName = invertedHms[itemName.slice(2)];
+    }
+
+    if (!moveName) {
+        return "";
+    }
+
+    return moveName.replace("U Turn", "U-turn").replace("Will O Wisp", "Will-O-Wisp");
+}
+
+function applyDeterministicTmPocketResults(tmPocketEntries, context) {
+    const legalMoves = [];
+    const seenMoves = new Set();
+
+    for (const entry of tmPocketEntries) {
+        if (!entry.moveName || seenMoves.has(entry.moveName)) {
+            continue;
+        }
+        seenMoves.add(entry.moveName);
+        legalMoves.push(entry.moveName);
+    }
+
+    localStorage.legalTms = legalMoves.length > 0 ? legalMoves : [];
+    console.log("[PokeEmerald deterministic TM pocket]", {
+        fileName: context.fileName,
+        fileExt: context.fileExt,
+        entries: tmPocketEntries,
+    });
+}
+
+function bruteForceImportPokeEmeraldSave(saveFile, options = {}) {
+    if (!options.isRawSaveState) {
+        localStorage.legalTms = '';
+        getTms(saveFile, 0);
+    }
+
+    let offset = 0;
+    const magicValue = 0x0202;
+    let lastFoundAt = 0;
+    let showdownText = "";
+
+    while (offset < saveFile.byteLength - 1) {
+        const value = saveFile.getUint16(offset, true);
+
+        if (value === magicValue) {
+            lastFoundAt = offset;
+
+            offset -= 18;
+            let pid = saveFile.getUint32(offset, true);
+            offset += 4;
+            let tid = saveFile.getUint32(offset, true);
+            localStorage.lastTid = tid;
+            offset += 4;
+
+            let nn = "";
+            for (let i = 0; i < 10; i++) {
+                let letter = gen3TextTable[saveFile.getUint8(offset + i, true)] || "";
+                nn += letter;
+            }
+
+            let suborder = orderFormats[pid % 24];
+            let key = pid ^ tid;
+            let decrypted = [];
+
+            offset = lastFoundAt + 14;
+
+            let invalidData = false;
+            for (let i = 0; i <= 11; i++) {
+                let block = null;
+                try {
+                    block = saveFile.getUint32(offset, true) ^ key;
+                } catch {
+                    invalidData = true;
+                    block = [];
+                    break;
+                }
+
+                decrypted.push(block);
+                offset += 4;
+            }
+
+            if (invalidData) {
+                offset = lastFoundAt + 2;
+                continue;
+            }
+
+            let growth_index = suborder.indexOf(1);
+            let moves_index = suborder.indexOf(2);
+            let evs_index = suborder.indexOf(3);
+            let misc_index = suborder.indexOf(4);
+
+            let speciesId = [decrypted[growth_index * 3]] & 0x07FF;
+            if (TITLE.includes("Inclement") && speciesId > 899) {
+                speciesId += 7;
+            }
+            let speciesName = emImpMons[speciesId];
+
+            if (!speciesName || speciesName == "None") {
+                offset = lastFoundAt + 2;
+                continue;
+            }
+
+            if (!pokedex[speciesName]) {
+                speciesName = speciesName.replaceAll(" ", "-");
+            }
+
+            let itemId = [decrypted[growth_index * 3]] >> 16 & 0x07FF;
+            if (itemId >= emImpItems.length) {
+                offset = lastFoundAt + 2;
+                continue;
+            }
+
+            let speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+            let exp = [decrypted[growth_index * 3 + 1]] & 0x1FFFFF;
+            let gr = 0;
+
+            if (em_imp_primary_mons[speciesName] && em_imp_primary_mons[speciesName]["gr"]) {
+                gr = em_imp_primary_mons[speciesName]["gr"];
+            } else {
+                if (typeof learnsets[speciesNameId] == "undefined") {
+                    speciesName = speciesName.split("-").slice(0, 2).join("-");
+                    speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+                }
+
+                if (typeof learnsets[speciesNameId] == "undefined") {
+                    speciesName = speciesName.split("-")[0];
+                    speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+                }
+
+                if (typeof learnsets[speciesNameId] == "undefined") {
+                    console.log(`can't find growth for ${speciesName}`);
+                } else {
+                    gr = learnsets[speciesNameId].gr;
+                }
+            }
+
+            if (typeof gr == "unefined") {
+                console.log(learnsets[speciesNameId]);
+                console.log(`${speciesNameId} growth not found`);
+                gr = 0;
+            }
+
+            let level;
+            try {
+                level = get_level(expTables[gr], exp);
+            } catch {
+                offset = lastFoundAt + 2;
+                continue;
+            }
+
+            let nn11 = gen3TextTable[decrypted[growth_index * 3 + 1] >> 21 & 0xFF] || "";
+            let nn12 = gen3TextTable[decrypted[growth_index * 3 + 2] >> 14 & 0xFF] || "";
+
+            nn += nn11;
+            nn += nn12;
+
+            let met = locations["EM"][decrypted[misc_index * 3] >> 8 & 0xFF];
+
+            let monNature = 0;
+            if (TITLE.includes("Inclement")) {
+                let natureByte = [decrypted[misc_index * 3]] >> 16 & 0x07FF;
+                monNature = natures[natureByte & 31744 >> 10];
+            } else {
+                monNature = natures[pid % 25];
+            }
+
+            let int1 = decrypted[evs_index * 3];
+            let int2 = decrypted[evs_index * 3 + 1];
+
+            let evs = [];
+            evs[0] = (int1 & 0xFF);
+            evs[1] = ((int1 >> 8) & 0xFF);
+            evs[2] = ((int1 >> 16) & 0xFF);
+            evs[3] = ((int1 >> 24) & 0xFF);
+            evs[4] = (int2 & 0xFF);
+            evs[5] = ((int2 >> 8) & 0xFF);
+
+            if (evs[0] + evs[1] + evs[2] + evs[3] + evs[4] + evs[5] > 0 && !settings.hasEvs) {
+                offset = lastFoundAt + 2;
+                continue;
+            }
+
+            let move1 = pokeemeraldMoves[[decrypted[moves_index * 3]] & 0x07FF];
+            let move2 = pokeemeraldMoves[[decrypted[moves_index * 3]] >> 16 & 0x07FF];
+            let move3 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] & 0x07FF];
+            let move4 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] >> 16 & 0x07FF];
+
+            let moves = [move1, move2, move3, move4];
+            let illegalMoveFound = false;
+
+            if (move1 == "None") {
+                illegalMoveFound = true;
+            }
+
+            try {
+                if (localStorage.filterSaveFile == '1' && localStorage.randomized != '1') {
+                    let legalMoves = getFamilyLegalMoves(speciesName);
+                    for (move of moves) {
+                        if (!move) {
+                            illegalMoveFound = true;
+                            continue;
+                        }
+
+                        if (legalMoves.indexOf(move.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) == -1 && move != "None" && !move.includes("Hidden Power") && !move.includes("Return")) {
+                            console.log(`Ilegal move found on ${speciesName}: ${move}`);
+                            illegalMoveFound = true;
+                        }
+                    }
+                }
+            } catch {
+                console.log(`Unable to filter illegal moves for ${speciesName}`);
+            }
+
+            if (hasInvalidMoves(moves) || illegalMoveFound) {
+                offset = lastFoundAt + 2;
+                continue;
+            }
+
+            let ivs = getIVs(decrypted[misc_index * 3 + 1]);
+
+            let abilitySlot = 0;
+            if (TITLE.includes("Inclement")) {
+                abilitySlot = decrypted[misc_index * 3 + 2] & 96 >> 5;
+            } else {
+                abilitySlot = decrypted[misc_index * 3 + 2] >> 29 & 0b11;
+
+                if (abilsPrimary[speciesName]) {
+                    abilitySlot = abilsPrimary[speciesName][abilitySlot];
+                } else if (abils[speciesName]) {
+                    abilitySlot = abils[speciesName][abilitySlot];
+                } else {
+                    console.log(`${speciesName} no ability found`);
+                }
+            }
+
+            if (localStorage.randomized == '1') {
+                try {
+                    let slotIndex = decrypted[misc_index * 3 + 2] >> 29 & 0b11;
+
+                    if (abilsPrimary[speciesName][slotIndex] == "None") {
+                        slotIndex = 0;
+                    }
+                    abilitySlot = sav_abilities[randomizeAbility(speciesId, slotIndex, tid)];
+                } catch {
+                    abilitySlot = "None";
+                }
+            }
+
+            if (nn.toLowerCase() != speciesName.toLowerCase() && !(speciesName.toLowerCase().includes(nn.toLowerCase().trim()))) {
+                if (nn.toLowerCase().includes(speciesName.toLowerCase())) {
+                    showdownText += `${speciesName}`;
+                } else {
+                    showdownText += `${nn} (${speciesName})`;
+                }
+            } else {
+                showdownText += `${speciesName}`;
+            }
+
+            if (itemId != 0) {
+                showdownText += ` @ ${itemTitleize(emImpItems[itemId])}`;
+            }
+            showdownText += "\n";
+            showdownText += `Level: ${level}\n`;
+            showdownText += `${monNature} Nature\n`;
+
+            if (settings.hasEvs) {
+                showdownText += `EVs: ${evs[0]} HP / ${evs[1]} Atk / ${evs[2]} Def / ${evs[3]} Spe / ${evs[4]} SpA / ${evs[5]} SpD\n`;
+            }
+            showdownText += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[3]} Spe / ${ivs[4]} SpA / ${ivs[5]} SpD\n`;
+
+            showdownText += `Ability: ${abilitySlot}\n`;
+            showdownText += `- ${move1}\n`;
+            showdownText += `- ${move2}\n`;
+            showdownText += `- ${move3}\n`;
+            showdownText += `- ${move4}\n`;
+            showdownText += `Met: ${met}\n\n`;
+            offset = lastFoundAt + 2;
+        } else {
+            offset += 2;
+        }
+    }
+
+    return showdownText;
+}
 
 function getTms(tmData, rotation) {   
     let tmOffset = 0;
@@ -860,6 +950,28 @@ function gen3ResolveLevel(speciesName, exp) {
     return null;
 }
 
+function gen3ResolveAbilityName(speciesName, speciesId, rawAbilityIndex, trainerIdSecret) {
+    if (localStorage.randomized == '1') {
+        try {
+            let slotIndex = rawAbilityIndex;
+            if (abilsPrimary[speciesName] && abilsPrimary[speciesName][slotIndex] == "None") {
+                slotIndex = 0;
+            }
+            return sav_abilities[randomizeAbility(speciesId, slotIndex, trainerIdSecret)];
+        } catch (_err) {
+            return "None";
+        }
+    }
+
+    if (abilsPrimary[speciesName]) {
+        return abilsPrimary[speciesName][rawAbilityIndex];
+    }
+    if (abils[speciesName]) {
+        return abils[speciesName][rawAbilityIndex];
+    }
+    return rawAbilityIndex;
+}
+
 function gen3ParseRawMonChunk(chunk, isParty = false, slot = 0) {
     if (!chunk || chunk.length < 80) {
         return null;
@@ -945,12 +1057,13 @@ function gen3ParseRawMonChunk(chunk, isParty = false, slot = 0) {
     const ivWord = decrypted[miscIndex * 3 + 1] >>> 0;
     const ivs = (typeof getIVs === "function") ? getIVs(ivWord) : [0, 0, 0, 0, 0, 0];
 
-    const abilityIndex = ((decrypted[miscIndex * 3 + 2] >>> 29) & 0x3) >>> 0;
+    const rawAbilityIndex = ((decrypted[miscIndex * 3 + 2] >>> 29) & 0x3) >>> 0;
+    const abilityName = gen3ResolveAbilityName(speciesName, speciesId, rawAbilityIndex, trainerIdSecret);
 
     const natureId = personality % 25;
     const natureName = (typeof natures !== "undefined" && natures[natureId]) ? natures[natureId] : null;
     const itemName = (typeof emImpItems !== "undefined") ? emImpItems[itemId] : null;
-    const nickname = gen3DecodeNickname(chunk.slice(0x08, 0x12));
+    const nickname = `${gen3DecodeNickname(chunk.slice(0x08, 0x12))}${gen3TextTable[(decrypted[growthIndex * 3 + 1] >>> 21) & 0xFF] || ""}${gen3TextTable[(decrypted[growthIndex * 3 + 2] >>> 14) & 0xFF] || ""}`.trim();
     const metId = ((decrypted[miscIndex * 3] >> 8) & 0xFF) >>> 0;
     const metLocation = (typeof locations !== "undefined" && locations["EM"]) ? locations["EM"][metId] : null;
 
@@ -975,7 +1088,8 @@ function gen3ParseRawMonChunk(chunk, isParty = false, slot = 0) {
         ivs,
         natureId,
         natureName,
-        abilityIndex,
+        abilityIndex: rawAbilityIndex,
+        abilityName,
         hp,
         maxHP,
         isEgg,
@@ -1016,18 +1130,11 @@ function gen3MonToShowdown(mon) {
         out.push(`EVs: ${mon.evs[0]} HP / ${mon.evs[1]} Atk / ${mon.evs[2]} Def / ${mon.evs[3]} Spe / ${mon.evs[4]} SpA / ${mon.evs[5]} SpD`);
     }
     out.push(`IVs: ${mon.ivs[0]} HP / ${mon.ivs[1]} Atk / ${mon.ivs[2]} Def / ${mon.ivs[3]} Spe / ${mon.ivs[4]} SpA / ${mon.ivs[5]} SpD`);
-    out.push(`Ability: ${Number(mon.abilityIndex) || 0}`);
+    out.push(`Ability: ${mon.abilityName || Number(mon.abilityIndex) || 0}`);
 
-    let moveLines = 0;
     for (let i = 0; i < mon.moveNames.length; i++) {
         const moveName = mon.moveNames[i];
-        if (moveName && moveName !== "None") {
-            out.push(`- ${moveName}`);
-            moveLines++;
-        }
-    }
-    if (moveLines === 0) {
-        out.push("- Tackle");
+        out.push(`- ${moveName || "None"}`);
     }
 
     if (mon.metLocation) {
@@ -1109,5 +1216,3 @@ function loadPokeLuaGen3RawBoxDump(boxDumpInput) {
     }
     return result;
 }
-
-

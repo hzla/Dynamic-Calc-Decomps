@@ -141415,6 +141415,37 @@ backup_data = {
                 "nature": "Rash"
             }
         },
+        "Shaymin-Sky": {
+            "Lvl 95 Pokémon Trainer Wally5 ":
+            {
+                "evs":
+                {},
+                "level": 95,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Focus Sash",
+                "class_id": 272,
+                "moves":
+                [
+                    "Leech Seed",
+                    "Air Slash",
+                    "Seed Flare",
+                    "Earth Power"
+                ],
+                "sub_index": 0,
+                "ability": "Serene Grace",
+                "ivs_raw": 191,
+                "p_id": 492,
+                "nature": "Modest"
+            }
+        },
         "Shaymin":
         {
             "Lvl 76 Pokémon Trainer Wally2 ":
@@ -141445,35 +141476,6 @@ backup_data = {
                 "ivs_raw": 255,
                 "p_id": 492,
                 "nature": "Docile"
-            },
-            "Lvl 95 Pokémon Trainer Wally5 ":
-            {
-                "evs":
-                {},
-                "level": 95,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Focus Sash",
-                "class_id": 272,
-                "moves":
-                [
-                    "Leech Seed",
-                    "Air Slash",
-                    "Seed Flare",
-                    "Earth Power"
-                ],
-                "sub_index": 0,
-                "ability": "Serene Grace",
-                "ivs_raw": 191,
-                "p_id": 492,
-                "nature": "Modest"
             }
         },
         "Porygon-Z":

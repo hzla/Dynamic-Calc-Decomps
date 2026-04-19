@@ -60,6 +60,34 @@ function enableRememberHpStatus(win) {
   win.$('#toggle-remember-hp-status input').prop('checked', true)
 }
 
+function installConsoleCapture(win) {
+  if (!win.__codexConsoleCaptureInstalled) {
+    const originalLog = win.console.log.bind(win.console)
+    const originalWarn = win.console.warn.bind(win.console)
+
+    win.__consoleLogCalls = []
+    win.__consoleWarnCalls = []
+    win.console.log = (...args) => {
+      win.__consoleLogCalls.push(args)
+      return originalLog(...args)
+    }
+    win.console.warn = (...args) => {
+      win.__consoleWarnCalls.push(args)
+      return originalWarn(...args)
+    }
+    win.__codexConsoleCaptureInstalled = true
+  }
+
+  win.__consoleLogCalls.length = 0
+  win.__consoleWarnCalls.length = 0
+}
+
+function consoleCallsContain(calls, pattern) {
+  return (calls || []).some((args) =>
+    (args || []).some((arg) => typeof arg === 'string' && pattern.test(arg))
+  )
+}
+
 function findTrainerSwitchTargets(win) {
   const trainerGroups = new Map()
 
@@ -488,6 +516,10 @@ for (let calc of calcs) {
 
     if (calc.title) {
       it('can import a save', () => {
+        if (calc.title.includes('Emerald Imperium')) {
+          cy.window().then((win) => installConsoleCapture(win))
+        }
+
         cy.get('#save-upload').selectFile(`cypress/fixtures/saves/${calc.title}.sav`, {force: true})
 
         cy.fixture(`./texts/${calc.title}_save_paste.txt`).then((expectedContent) => {
@@ -519,7 +551,27 @@ for (let calc of calcs) {
             }
           }
         });
+
+        if (calc.title.includes('Emerald Imperium')) {
+          cy.window().then((win) => {
+            expect(consoleCallsContain(win.__consoleLogCalls, /\[PokeEmerald deterministic TM pocket\]/)).to.equal(true)
+            expect(consoleCallsContain(win.__consoleWarnCalls, /Falling back to brute-force scan/i)).to.equal(false)
+            expect(String(win.localStorage.legalTms || '')).to.not.equal('')
+          })
+        }
       }) 
+
+      if (calc.title.includes('Emerald Imperium')) {
+        it('can import an ss1 save without TM pocket logging', () => {
+          cy.window().then((win) => installConsoleCapture(win))
+          cy.get('#save-upload').selectFile('cypress/fixtures/saves/Emerald Imperium 1.3.ss1', {force: true})
+          cy.get('.import-team-text').first().should('contain.value', 'Chikorita')
+          cy.window().then((win) => {
+            expect(consoleCallsContain(win.__consoleLogCalls, /\[PokeEmerald deterministic TM pocket\]/)).to.equal(false)
+            expect(consoleCallsContain(win.__consoleWarnCalls, /Falling back to brute-force scan/i)).to.equal(false)
+          })
+        })
+      }
 
       it('shows box sort controls and preserves search highlights while sorting', () => {
         cy.get('.player-poks .trainer-pok').its('length').should('be.gt', 0)
