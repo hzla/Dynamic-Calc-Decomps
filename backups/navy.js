@@ -150,7 +150,7 @@ backup_data = {
             "type": "Ground",
             "basePower": 90,
             "category": "Physical",
-            "secondaries": true
+            "secondaries": true,
         },
         "Jump Kick":
         {
@@ -1175,7 +1175,7 @@ backup_data = {
         "Icy Wind":
         {
             "type": "Ice",
-            "basePower": 55,
+            "basePower": 60,
             "category": "Special"
         },
         "Detect":
@@ -2437,7 +2437,7 @@ backup_data = {
             "type": "Dragon",
             "basePower": 95,
             "category": "Special",
-            "secondaries": true,
+            "secondaries": true
         },
         "Dragon Rush":
         {
@@ -3793,16 +3793,16 @@ backup_data = {
                     "Mega Drain"
                 ],
                 [
-                    22,
+                    21,
                     "Razor Leaf"
+                ],
+                [
+                    23,
+                    "Venoshock"
                 ],
                 [
                     25,
                     "Growth"
-                ],
-                [
-                    25,
-                    "Venoshock"
                 ],
                 [
                     28,
@@ -3904,16 +3904,16 @@ backup_data = {
                     "Mega Drain"
                 ],
                 [
-                    22,
+                    21,
                     "Razor Leaf"
+                ],
+                [
+                    23,
+                    "Venoshock"
                 ],
                 [
                     25,
                     "Growth"
-                ],
-                [
-                    25,
-                    "Sludge"
                 ],
                 [
                     28,
@@ -4015,16 +4015,16 @@ backup_data = {
                     "Mega Drain"
                 ],
                 [
-                    22,
+                    21,
                     "Razor Leaf"
+                ],
+                [
+                    23,
+                    "Venoshock"
                 ],
                 [
                     25,
                     "Growth"
-                ],
-                [
-                    25,
-                    "Venoshock"
                 ],
                 [
                     28,
@@ -4429,15 +4429,15 @@ backup_data = {
                 ],
                 [
                     18,
-                    "Icy Wind"
+                    "Water Pulse"
                 ],
                 [
                     21,
-                    "Rapid Spin"
+                    "Icy Wind"
                 ],
                 [
-                    25,
-                    "Water Pulse"
+                    23,
+                    "Rapid Spin"
                 ],
                 [
                     28,
@@ -4527,15 +4527,15 @@ backup_data = {
                 ],
                 [
                     18,
-                    "Icy Wind"
+                    "Water Pulse"
                 ],
                 [
                     21,
-                    "Rapid Spin"
+                    "Icy Wind"
                 ],
                 [
-                    25,
-                    "Water Pulse"
+                    23,
+                    "Rapid Spin"
                 ],
                 [
                     28,
@@ -4630,15 +4630,15 @@ backup_data = {
                 ],
                 [
                     18,
-                    "Icy Wind"
+                    "Water Pulse"
                 ],
                 [
                     21,
-                    "Rapid Spin"
+                    "Icy Wind"
                 ],
                 [
-                    25,
-                    "Water Pulse"
+                    23,
+                    "Rapid Spin"
                 ],
                 [
                     28,
@@ -4998,7 +4998,7 @@ backup_data = {
                 ],
                 [
                     16,
-                    "Rage"
+                    "Poison Sting"
                 ],
                 [
                     18,
@@ -5034,7 +5034,7 @@ backup_data = {
                 ],
                 [
                     39,
-                    "Megahorn"
+                    "Protect"
                 ],
                 [
                     43,
@@ -5046,7 +5046,7 @@ backup_data = {
                 ],
                 [
                     47,
-                    "Swords Dance"
+                    "Megahorn"
                 ],
                 [
                     50,
@@ -5101,7 +5101,7 @@ backup_data = {
                 ],
                 [
                     19,
-                    "Whirlwind"
+                    "Wing Attack"
                 ],
                 [
                     22,
@@ -5109,7 +5109,7 @@ backup_data = {
                 ],
                 [
                     25,
-                    "Wing Attack"
+                    "Whirlwind"
                 ],
                 [
                     30,
@@ -5204,7 +5204,7 @@ backup_data = {
                 ],
                 [
                     19,
-                    "Whirlwind"
+                    "Wing Attack"
                 ],
                 [
                     22,
@@ -5212,7 +5212,7 @@ backup_data = {
                 ],
                 [
                     25,
-                    "Wing Attack"
+                    "Whirlwind"
                 ],
                 [
                     30,
@@ -5303,7 +5303,7 @@ backup_data = {
                 ],
                 [
                     19,
-                    "Whirlwind"
+                    "Wing Attack"
                 ],
                 [
                     22,
@@ -5311,7 +5311,7 @@ backup_data = {
                 ],
                 [
                     25,
-                    "Wing Attack"
+                    "Whirlwind"
                 ],
                 [
                     30,
@@ -6243,19 +6243,19 @@ backup_data = {
                     "Magnitude"
                 ],
                 [
-                    17,
+                    16,
                     "Bulldoze"
                 ],
                 [
-                    20,
+                    18,
                     "Fury Swipes"
                 ],
                 [
-                    23,
+                    21,
                     "Sand Tomb"
                 ],
                 [
-                    26,
+                    25,
                     "Slash"
                 ],
                 [
@@ -6349,19 +6349,19 @@ backup_data = {
                     "Magnitude"
                 ],
                 [
-                    17,
+                    16,
                     "Bulldoze"
                 ],
                 [
-                    20,
+                    18,
                     "Fury Swipes"
                 ],
                 [
-                    23,
+                    21,
                     "Sand Tomb"
                 ],
                 [
-                    26,
+                    25,
                     "Slash"
                 ],
                 [
@@ -6464,11 +6464,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Helping Hand"
+                    "Mud Bomb"
                 ],
                 [
                     28,
-                    "Poison Fang"
+                    "Helping Hand"
                 ],
                 [
                     30,
@@ -6484,7 +6484,7 @@ backup_data = {
                 ],
                 [
                     48,
-                    "Crunch"
+                    "Sucker Punch"
                 ],
                 [
                     52,
@@ -6550,11 +6550,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Helping Hand"
+                    "Mud Bomb"
                 ],
                 [
                     28,
-                    "Poison Fang"
+                    "Helping Hand"
                 ],
                 [
                     30,
@@ -6585,14 +6585,14 @@ backup_data = {
             {
                 "hp": 90,
                 "at": 77,
-                "df": 87,
+                "df": 92,
                 "sa": 100,
                 "sd": 90,
                 "sp": 76
             },
             "abilities":
             [
-                "Poison Point",
+                "Multiscale",
                 "Sheer Force",
                 "Rivalry"
             ],
@@ -6637,31 +6637,31 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Helping Hand"
+                    "Mud Bomb"
                 ],
                 [
                     28,
-                    "Poison Fang"
+                    "Helping Hand"
                 ],
                 [
                     30,
-                    "Toxic Spikes"
+                    "Earth Power"
                 ],
                 [
                     32,
-                    "High Horsepower"
-                ],
-                [
-                    34,
                     "Sludge Bomb"
                 ],
                 [
-                    37,
-                    "Body Slam"
+                    34,
+                    "Toxic Spikes"
+                ],
+                [
+                    36,
+                    "High Horsepower"
                 ],
                 [
                     40,
-                    "Earth Power"
+                    "Charm"
                 ],
                 [
                     43,
@@ -6669,7 +6669,7 @@ backup_data = {
                 ],
                 [
                     45,
-                    "Drill Run"
+                    "Super Fang"
                 ],
                 [
                     48,
@@ -6895,11 +6895,11 @@ backup_data = {
                 "df": 77,
                 "sa": 85,
                 "sd": 80,
-                "sp": 95
+                "sp": 100
             },
             "abilities":
             [
-                "Poison Point",
+                "Poison Touch",
                 "Sheer Force",
                 "Rivalry"
             ],
@@ -6936,7 +6936,7 @@ backup_data = {
                 ],
                 [
                     17,
-                    "Sludge"
+                    "Poison Fang"
                 ],
                 [
                     20,
@@ -6944,31 +6944,31 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Helping Hand"
+                    "Bulldoze"
                 ],
                 [
                     28,
-                    "Poison Fang"
+                    "Helping Hand"
                 ],
                 [
                     30,
-                    "Toxic Spikes"
+                    "Earth Power"
                 ],
                 [
                     32,
-                    "High Horsepower"
-                ],
-                [
-                    34,
-                    "Sludge Bomb"
-                ],
-                [
-                    37,
                     "Poison Jab"
                 ],
                 [
+                    34,
+                    "Toxic Spikes"
+                ],
+                [
+                    36,
+                    "High Horsepower"
+                ],
+                [
                     40,
-                    "Earth Power"
+                    "Drill Run"
                 ],
                 [
                     43,
@@ -6976,7 +6976,7 @@ backup_data = {
                 ],
                 [
                     45,
-                    "Drill Run"
+                    "Superpower"
                 ],
                 [
                     48,
@@ -7338,7 +7338,7 @@ backup_data = {
                 ],
                 [
                     40,
-                    "Grudge"
+                    "Heat Wave"
                 ],
                 [
                     42,
@@ -7453,7 +7453,7 @@ backup_data = {
                 ],
                 [
                     40,
-                    "Grudge"
+                    "Heat Wave"
                 ],
                 [
                     42,
@@ -8272,11 +8272,11 @@ backup_data = {
                     "Fury Cutter"
                 ],
                 [
-                    15,
+                    14,
                     "Bug Bite"
                 ],
                 [
-                    19,
+                    16,
                     "Bullet Seed"
                 ],
                 [
@@ -8284,20 +8284,20 @@ backup_data = {
                     "Slash"
                 ],
                 [
-                    26,
+                    25,
                     "Seed Bomb"
                 ],
                 [
-                    28,
+                    27,
                     "Growth"
                 ],
                 [
-                    30,
-                    "Giga Drain"
+                    29,
+                    "X-Scissor"
                 ],
                 [
-                    32,
-                    "X-Scissor"
+                    35,
+                    "Toxic"
                 ],
                 [
                     37,
@@ -8371,7 +8371,7 @@ backup_data = {
                     "Fury Cutter"
                 ],
                 [
-                    13,
+                    14,
                     "Bug Bite"
                 ],
                 [
@@ -8383,24 +8383,24 @@ backup_data = {
                     "Shadow Sneak"
                 ],
                 [
-                    26,
+                    25,
                     "Seed Bomb"
                 ],
                 [
-                    28,
+                    27,
                     "Growth"
                 ],
                 [
                     30,
-                    "Giga Drain"
-                ],
-                [
-                    32,
                     "X-Scissor"
                 ],
                 [
-                    35,
+                    32,
                     "Shadow Claw"
+                ],
+                [
+                    35,
+                    "Toxic"
                 ],
                 [
                     37,
@@ -9609,12 +9609,12 @@ backup_data = {
                     "Fire Fang"
                 ],
                 [
-                    23,
-                    "Take Down"
+                    20,
+                    "Thunder Fang"
                 ],
                 [
-                    26,
-                    "Thunder Fang"
+                    23,
+                    "Take Down"
                 ],
                 [
                     30,
@@ -9727,12 +9727,12 @@ backup_data = {
                     "Fire Fang"
                 ],
                 [
-                    23,
-                    "Take Down"
+                    20,
+                    "Thunder Fang"
                 ],
                 [
-                    26,
-                    "Thunder Fang"
+                    23,
+                    "Take Down"
                 ],
                 [
                     30,
@@ -10222,6 +10222,10 @@ backup_data = {
                     "Encore"
                 ],
                 [
+                    63,
+                    "Psycho Boost"
+                ],
+                [
                     71,
                     "Nasty Plot"
                 ]
@@ -10338,6 +10342,10 @@ backup_data = {
                 [
                     55,
                     "Encore"
+                ],
+                [
+                    63,
+                    "Psycho Boost"
                 ],
                 [
                     71,
@@ -14776,6 +14784,10 @@ backup_data = {
                 [
                     61,
                     "Leaf Storm"
+                ],
+                [
+                    65,
+                    "Psycho Boost"
                 ]
             ],
             "id": 103
@@ -15441,7 +15453,7 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Haze"
+                    "Flame Burst"
                 ],
                 [
                     26,
@@ -15449,7 +15461,7 @@ backup_data = {
                 ],
                 [
                     28,
-                    "Flame Burst"
+                    "Haze"
                 ],
                 [
                     30,
@@ -15457,19 +15469,19 @@ backup_data = {
                 ],
                 [
                     32,
-                    "Destiny Bond"
+                    "Sludge Bomb"
                 ],
                 [
-                    36,
-                    "Belch"
-                ],
-                [
-                    39,
+                    35,
                     "Flamethrower"
                 ],
                 [
+                    39,
+                    "Destiny Bond"
+                ],
+                [
                     42,
-                    "Sludge Bomb"
+                    "Belch"
                 ],
                 [
                     44,
@@ -15548,7 +15560,7 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Haze"
+                    "Flame Burst"
                 ],
                 [
                     26,
@@ -15556,7 +15568,7 @@ backup_data = {
                 ],
                 [
                     28,
-                    "Flame Burst"
+                    "Haze"
                 ],
                 [
                     30,
@@ -15564,19 +15576,19 @@ backup_data = {
                 ],
                 [
                     32,
-                    "Destiny Bond"
+                    "Sludge Bomb"
                 ],
                 [
-                    36,
-                    "Belch"
-                ],
-                [
-                    39,
+                    35,
                     "Flamethrower"
                 ],
                 [
+                    39,
+                    "Destiny Bond"
+                ],
+                [
                     42,
-                    "Sludge Bomb"
+                    "Belch"
                 ],
                 [
                     44,
@@ -16014,11 +16026,11 @@ backup_data = {
                 ],
                 [
                     18,
-                    "Growth"
+                    "Mega Drain"
                 ],
                 [
                     20,
-                    "Mega Drain"
+                    "Growth"
                 ],
                 [
                     22,
@@ -16034,7 +16046,7 @@ backup_data = {
                 ],
                 [
                     30,
-                    "Synthesis"
+                    "Ancient Power"
                 ],
                 [
                     32,
@@ -16042,7 +16054,7 @@ backup_data = {
                 ],
                 [
                     35,
-                    "Ancient Power"
+                    "Synthesis"
                 ],
                 [
                     37,
@@ -16964,12 +16976,16 @@ backup_data = {
                     "Encore"
                 ],
                 [
-                    22,
+                    21,
                     "Light Screen"
                 ],
                 [
-                    22,
+                    21,
                     "Reflect"
+                ],
+                [
+                    23,
+                    "Draining Kiss"
                 ],
                 [
                     26,
@@ -19046,7 +19062,7 @@ backup_data = {
             [
                 [
                     1,
-                    "Aerial Ace"
+                    "Stealth Rock"
                 ],
                 [
                     1,
@@ -20688,10 +20704,10 @@ backup_data = {
             {
                 "hp": 85,
                 "at": 75,
-                "df": 75,
+                "df": 70,
                 "sa": 120,
-                "sd": 80,
-                "sp": 100
+                "sd": 75,
+                "sp": 110
             },
             "abilities":
             [
@@ -21474,7 +21490,7 @@ backup_data = {
                 ],
                 [
                     35,
-                    "Zen Headbutt"
+                    "Moonblast"
                 ],
                 [
                     39,
@@ -21585,7 +21601,7 @@ backup_data = {
                 ],
                 [
                     35,
-                    "Zen Headbutt"
+                    "Moonblast"
                 ],
                 [
                     39,
@@ -21696,11 +21712,11 @@ backup_data = {
                 ],
                 [
                     33,
-                    "Bug Buzz"
+                    "Drain Punch"
                 ],
                 [
                     35,
-                    "Drain Punch"
+                    "U-turn"
                 ],
                 [
                     38,
@@ -21811,11 +21827,11 @@ backup_data = {
                 ],
                 [
                     33,
-                    "Bug Buzz"
+                    "Drain Punch"
                 ],
                 [
                     35,
-                    "Drain Punch"
+                    "U-turn"
                 ],
                 [
                     38,
@@ -22893,7 +22909,7 @@ backup_data = {
                 ],
                 [
                     22,
-                    "Lucky Chant"
+                    "Psybeam"
                 ],
                 [
                     24,
@@ -23004,7 +23020,7 @@ backup_data = {
                 ],
                 [
                     20,
-                    "Miracle Eye"
+                    "Psybeam"
                 ],
                 [
                     22,
@@ -23576,11 +23592,11 @@ backup_data = {
                     "Ice Punch"
                 ],
                 [
-                    31,
+                    30,
                     "Waterfall"
                 ],
                 [
-                    34,
+                    32,
                     "Play Rough"
                 ],
                 [
@@ -23692,14 +23708,14 @@ backup_data = {
                 ],
                 [
                     28,
-                    "Ice Fang"
+                    "Ice Punch"
                 ],
                 [
-                    31,
+                    30,
                     "Waterfall"
                 ],
                 [
-                    34,
+                    32,
                     "Play Rough"
                 ],
                 [
@@ -23975,9 +23991,9 @@ backup_data = {
             },
             "abilities":
             [
-                "Chlorophyll",
                 "Aerilate",
-                "Leaf Guard"
+                "Aerilate",
+                "Chlorophyll"
             ],
             "types":
             [
@@ -23995,19 +24011,19 @@ backup_data = {
                     "Synthesis"
                 ],
                 [
-                    6,
+                    4,
                     "Tail Whip"
                 ],
                 [
-                    8,
+                    5,
                     "Tackle"
                 ],
                 [
-                    9,
+                    8,
                     "Fairy Wind"
                 ],
                 [
-                    11,
+                    10,
                     "Bullet Seed"
                 ],
                 [
@@ -24040,7 +24056,7 @@ backup_data = {
                 ],
                 [
                     25,
-                    "Acrobatics"
+                    "Giga Drain"
                 ],
                 [
                     27,
@@ -24048,7 +24064,7 @@ backup_data = {
                 ],
                 [
                     30,
-                    "Giga Drain"
+                    "Acrobatics"
                 ],
                 [
                     32,
@@ -24102,9 +24118,9 @@ backup_data = {
             },
             "abilities":
             [
-                "Chlorophyll",
                 "Aerilate",
-                "Leaf Guard"
+                "Aerilate",
+                "Chlorophyll"
             ],
             "types":
             [
@@ -24122,19 +24138,19 @@ backup_data = {
                     "Synthesis"
                 ],
                 [
-                    6,
+                    4,
                     "Tail Whip"
                 ],
                 [
-                    8,
+                    5,
                     "Tackle"
                 ],
                 [
-                    9,
+                    8,
                     "Fairy Wind"
                 ],
                 [
-                    11,
+                    10,
                     "Bullet Seed"
                 ],
                 [
@@ -24175,7 +24191,7 @@ backup_data = {
                 ],
                 [
                     30,
-                    "Giga Drain"
+                    "Acrobatics"
                 ],
                 [
                     32,
@@ -24229,7 +24245,7 @@ backup_data = {
             },
             "abilities":
             [
-                "Chlorophyll",
+                "Aerilate",
                 "Aerilate",
                 "Leaf Guard"
             ],
@@ -24249,19 +24265,19 @@ backup_data = {
                     "Synthesis"
                 ],
                 [
-                    6,
+                    5,
                     "Tail Whip"
                 ],
                 [
-                    9,
+                    8,
                     "Fairy Wind"
                 ],
                 [
-                    11,
+                    10,
                     "Bullet Seed"
                 ],
                 [
-                    13,
+                    10,
                     "Gust"
                 ],
                 [
@@ -24391,7 +24407,7 @@ backup_data = {
                     "Fury Swipes"
                 ],
                 [
-                    18,
+                    16,
                     "Quick Attack"
                 ],
                 [
@@ -24521,7 +24537,7 @@ backup_data = {
                     "Giga Drain"
                 ],
                 [
-                    34,
+                    37,
                     "Morning Sun"
                 ],
                 [
@@ -24629,11 +24645,11 @@ backup_data = {
                 ],
                 [
                     34,
-                    "Morning Sun"
+                    "Flamethrower"
                 ],
                 [
                     37,
-                    "Flamethrower"
+                    "Morning Sun"
                 ],
                 [
                     39,
@@ -27336,7 +27352,7 @@ backup_data = {
                 ],
                 [
                     32,
-                    "Play Rough"
+                    "High Horsepower"
                 ],
                 [
                     34,
@@ -27344,7 +27360,7 @@ backup_data = {
                 ],
                 [
                     35,
-                    "High Horsepower"
+                    "Play Rough"
                 ],
                 [
                     37,
@@ -27459,7 +27475,7 @@ backup_data = {
                 ],
                 [
                     32,
-                    "Play Rough"
+                    "High Horsepower"
                 ],
                 [
                     34,
@@ -27467,7 +27483,7 @@ backup_data = {
                 ],
                 [
                     35,
-                    "High Horsepower"
+                    "Play Rough"
                 ],
                 [
                     37,
@@ -27556,7 +27572,7 @@ backup_data = {
                     "Ancient Power"
                 ],
                 [
-                    25,
+                    23,
                     "Flame Burst"
                 ],
                 [
@@ -27675,7 +27691,7 @@ backup_data = {
                     "Ancient Power"
                 ],
                 [
-                    25,
+                    23,
                     "Flame Burst"
                 ],
                 [
@@ -28447,11 +28463,11 @@ backup_data = {
                     "Take Down"
                 ],
                 [
-                    22,
-                    "Agility"
+                    23,
+                    "Air Slash"
                 ],
                 [
-                    24,
+                    25,
                     "Bubble Beam"
                 ],
                 [
@@ -28464,7 +28480,7 @@ backup_data = {
                 ],
                 [
                     31,
-                    "Air Slash"
+                    "Scald"
                 ],
                 [
                     34,
@@ -28476,7 +28492,7 @@ backup_data = {
                 ],
                 [
                     40,
-                    "Scald"
+                    "Agility"
                 ],
                 [
                     43,
@@ -31148,9 +31164,9 @@ backup_data = {
             },
             "abilities":
             [
-                "Overgrow",
+                "Unburden",
                 "Lightning Rod",
-                "Unburden"
+                "Overgrow"
             ],
             "types":
             [
@@ -31246,9 +31262,9 @@ backup_data = {
             },
             "abilities":
             [
-                "Overgrow",
+                "Unburden",
                 "Lightning Rod",
-                "Unburden"
+                "Overgrow"
             ],
             "types":
             [
@@ -31357,9 +31373,9 @@ backup_data = {
             },
             "abilities":
             [
-                "Overgrow",
+                "Unburden",
                 "Lightning Rod",
-                "Unburden"
+                "Overgrow"
             ],
             "types":
             [
@@ -31476,9 +31492,9 @@ backup_data = {
             },
             "abilities":
             [
-                "Blaze",
+                "Sheer Force",
                 "Run Away",
-                "Sheer Force"
+                "Blaze"
             ],
             "types":
             [
@@ -31578,9 +31594,9 @@ backup_data = {
             },
             "abilities":
             [
-                "Blaze",
+                "Sheer Force",
                 "Hyper Cutter",
-                "Sheer Force"
+                "Blaze"
             ],
             "types":
             [
@@ -31697,9 +31713,9 @@ backup_data = {
             },
             "abilities":
             [
-                "Blaze",
+                "Sheer Force",
                 "Reckless",
-                "Sheer Force"
+                "Blaze"
             ],
             "types":
             [
@@ -32944,15 +32960,15 @@ backup_data = {
                     "Natural Gift"
                 ],
                 [
-                    13,
+                    12,
                     "Mist"
                 ],
                 [
-                    16,
+                    14,
                     "Mega Drain"
                 ],
                 [
-                    20,
+                    16,
                     "Bubble Beam"
                 ],
                 [
@@ -32960,7 +32976,7 @@ backup_data = {
                     "Nature Power"
                 ],
                 [
-                    27,
+                    25,
                     "Uproar"
                 ],
                 [
@@ -32973,7 +32989,7 @@ backup_data = {
                 ],
                 [
                     34,
-                    "Zen Headbutt"
+                    "Scald"
                 ],
                 [
                     38,
@@ -33051,16 +33067,16 @@ backup_data = {
                     "Fake Out"
                 ],
                 [
-                    16,
+                    14,
                     "Mega Drain"
                 ],
                 [
-                    18,
-                    "Water Sport"
+                    16,
+                    "Bubble Beam"
                 ],
                 [
                     20,
-                    "Bubble Beam"
+                    "Water Sport"
                 ],
                 [
                     23,
@@ -33084,7 +33100,7 @@ backup_data = {
                 ],
                 [
                     34,
-                    "Zen Headbutt"
+                    "Scald"
                 ],
                 [
                     36,
@@ -33166,16 +33182,16 @@ backup_data = {
                     "Fake Out"
                 ],
                 [
-                    16,
+                    14,
                     "Mega Drain"
                 ],
                 [
-                    18,
-                    "Water Sport"
+                    16,
+                    "Bubble Beam"
                 ],
                 [
                     20,
-                    "Bubble Beam"
+                    "Water Sport"
                 ],
                 [
                     23,
@@ -33199,7 +33215,7 @@ backup_data = {
                 ],
                 [
                     34,
-                    "Zen Headbutt"
+                    "Scald"
                 ],
                 [
                     36,
@@ -34419,11 +34435,11 @@ backup_data = {
                 ],
                 [
                     33,
-                    "Bug Buzz"
+                    "Scald"
                 ],
                 [
                     35,
-                    "Scald"
+                    "Bug Buzz"
                 ],
                 [
                     48,
@@ -34514,11 +34530,11 @@ backup_data = {
                 ],
                 [
                     33,
-                    "Bug Buzz"
+                    "Scald"
                 ],
                 [
                     35,
-                    "Scald"
+                    "Bug Buzz"
                 ],
                 [
                     37,
@@ -36195,11 +36211,11 @@ backup_data = {
                 ],
                 [
                     20,
-                    "Double Slap"
+                    "Snarl"
                 ],
                 [
                     22,
-                    "Feint Attack"
+                    "Draining Kiss"
                 ],
                 [
                     24,
@@ -36211,7 +36227,7 @@ backup_data = {
                 ],
                 [
                     28,
-                    "Draining Kiss"
+                    "Wish"
                 ],
                 [
                     30,
@@ -36227,11 +36243,11 @@ backup_data = {
                 ],
                 [
                     38,
-                    "Heal Bell"
+                    "Moonblast"
                 ],
                 [
                     41,
-                    "Double-Edge"
+                    "Last Resort"
                 ],
                 [
                     44,
@@ -36239,7 +36255,7 @@ backup_data = {
                 ],
                 [
                     46,
-                    "Moonblast"
+                    "Heal Bell"
                 ],
                 [
                     48,
@@ -36318,11 +36334,11 @@ backup_data = {
                 ],
                 [
                     20,
-                    "Double Slap"
+                    "Snarl"
                 ],
                 [
                     22,
-                    "Feint Attack"
+                    "Draining Kiss"
                 ],
                 [
                     24,
@@ -36334,7 +36350,7 @@ backup_data = {
                 ],
                 [
                     28,
-                    "Draining Kiss"
+                    "Wish"
                 ],
                 [
                     30,
@@ -36350,11 +36366,11 @@ backup_data = {
                 ],
                 [
                     38,
-                    "Heal Bell"
+                    "Moonblast"
                 ],
                 [
                     41,
-                    "Double-Edge"
+                    "Last Resort"
                 ],
                 [
                     44,
@@ -36362,7 +36378,7 @@ backup_data = {
                 ],
                 [
                     46,
-                    "Moonblast"
+                    "Heal Bell"
                 ],
                 [
                     48,
@@ -36371,6 +36387,10 @@ backup_data = {
                 [
                     52,
                     "Aura Sphere"
+                ],
+                [
+                    57,
+                    "Boomburst"
                 ]
             ],
             "id": 301
@@ -37439,9 +37459,9 @@ backup_data = {
                 "hp": 60,
                 "at": 50,
                 "df": 60,
-                "sa": 110,
+                "sa": 120,
                 "sd": 85,
-                "sp": 110
+                "sp": 120
             },
             "abilities":
             [
@@ -37538,7 +37558,7 @@ backup_data = {
                 ],
                 [
                     49,
-                    "Entrainment"
+                    "Encore"
                 ],
                 [
                     52,
@@ -37553,10 +37573,10 @@ backup_data = {
             {
                 "hp": 60,
                 "at": 40,
-                "df": 70,
+                "df": 80,
                 "sa": 100,
                 "sd": 95,
-                "sp": 110
+                "sp": 120
             },
             "abilities":
             [
@@ -37653,7 +37673,7 @@ backup_data = {
                 ],
                 [
                     49,
-                    "Entrainment"
+                    "Encore"
                 ],
                 [
                     52,
@@ -37775,8 +37795,8 @@ backup_data = {
             {
                 "hp": 75,
                 "at": 47,
-                "df": 75,
-                "sa": 110,
+                "df": 80,
+                "sa": 105,
                 "sd": 96,
                 "sp": 100
             },
@@ -37949,11 +37969,11 @@ backup_data = {
                     "Giga Drain"
                 ],
                 [
-                    35,
-                    "Spikes"
+                    36,
+                    "Sludge Bomb"
                 ],
                 [
-                    37,
+                    38,
                     "Sleep Powder"
                 ],
                 [
@@ -38756,7 +38776,7 @@ backup_data = {
                 ],
                 [
                     35,
-                    "Rock Slide"
+                    "Will-O-Wisp"
                 ],
                 [
                     38,
@@ -38867,7 +38887,7 @@ backup_data = {
                 ],
                 [
                     35,
-                    "Rock Slide"
+                    "Will-O-Wisp"
                 ],
                 [
                     38,
@@ -38993,7 +39013,7 @@ backup_data = {
                 ],
                 [
                     54,
-                    "Eruption"
+                    "Stealth Rock"
                 ],
                 [
                     58,
@@ -39005,6 +39025,10 @@ backup_data = {
                 ],
                 [
                     61,
+                    "Eruption"
+                ],
+                [
+                    65,
                     "Shell Smash"
                 ]
             ],
@@ -39202,6 +39226,10 @@ backup_data = {
                 [
                     50,
                     "Aura Sphere"
+                ],
+                [
+                    55,
+                    "Psycho Boost"
                 ]
             ],
             "id": 326
@@ -39685,19 +39713,19 @@ backup_data = {
                     "Growth"
                 ],
                 [
-                    15,
+                    14,
                     "Feint Attack"
                 ],
                 [
-                    18,
+                    16,
+                    "Bullet Seed"
+                ],
+                [
+                    20,
                     "Ingrain"
                 ],
                 [
-                    22,
-                    "Payback"
-                ],
-                [
-                    24,
+                    23,
                     "Spikes"
                 ],
                 [
@@ -39800,19 +39828,19 @@ backup_data = {
                     "Growth"
                 ],
                 [
-                    15,
+                    14,
                     "Feint Attack"
                 ],
                 [
-                    18,
+                    16,
+                    "Bullet Seed"
+                ],
+                [
+                    20,
                     "Ingrain"
                 ],
                 [
-                    22,
-                    "Payback"
-                ],
-                [
-                    24,
+                    23,
                     "Spikes"
                 ],
                 [
@@ -41068,8 +41096,8 @@ backup_data = {
                     "Heal Block"
                 ],
                 [
-                    12,
-                    "Rock Tomb"
+                    14,
+                    "Mud Shot"
                 ],
                 [
                     16,
@@ -41175,7 +41203,7 @@ backup_data = {
                     "Heal Block"
                 ],
                 [
-                    12,
+                    14,
                     "Mud Shot"
                 ],
                 [
@@ -42736,7 +42764,7 @@ backup_data = {
                     "Psywave"
                 ],
                 [
-                    17,
+                    16,
                     "Psybeam"
                 ],
                 [
@@ -42744,7 +42772,7 @@ backup_data = {
                     "Heal Bell"
                 ],
                 [
-                    25,
+                    22,
                     "Mirror Shot"
                 ],
                 [
@@ -46584,7 +46612,7 @@ backup_data = {
                     "Quick Attack"
                 ],
                 [
-                    8,
+                    9,
                     "Aerial Ace"
                 ],
                 [
@@ -46683,7 +46711,7 @@ backup_data = {
                     "Quick Attack"
                 ],
                 [
-                    8,
+                    9,
                     "Aerial Ace"
                 ],
                 [
@@ -46786,7 +46814,7 @@ backup_data = {
                     "Quick Attack"
                 ],
                 [
-                    8,
+                    9,
                     "Aerial Ace"
                 ],
                 [
@@ -47648,7 +47676,7 @@ backup_data = {
                 ],
                 [
                     16,
-                    "Leech Seed"
+                    "Venoshock"
                 ],
                 [
                     19,
@@ -47660,7 +47688,7 @@ backup_data = {
                 ],
                 [
                     24,
-                    "Venoshock"
+                    "Leech Seed"
                 ],
                 [
                     26,
@@ -47679,11 +47707,11 @@ backup_data = {
                     "Giga Drain"
                 ],
                 [
-                    35,
-                    "Spikes"
+                    36,
+                    "Sludge Bomb"
                 ],
                 [
-                    37,
+                    38,
                     "Sleep Powder"
                 ],
                 [
@@ -47755,7 +47783,7 @@ backup_data = {
                 ],
                 [
                     16,
-                    "Leech Seed"
+                    "Venoshock"
                 ],
                 [
                     19,
@@ -47767,7 +47795,7 @@ backup_data = {
                 ],
                 [
                     24,
-                    "Venoshock"
+                    "Leech Seed"
                 ],
                 [
                     26,
@@ -47787,14 +47815,14 @@ backup_data = {
                 ],
                 [
                     34,
-                    "Worry Seed"
-                ],
-                [
-                    35,
                     "Spikes"
                 ],
                 [
-                    37,
+                    36,
+                    "Sludge Bomb"
+                ],
+                [
+                    38,
                     "Sleep Powder"
                 ],
                 [
@@ -48549,6 +48577,10 @@ backup_data = {
                     "Gust"
                 ],
                 [
+                    8,
+                    "Bug Bite"
+                ],
+                [
                     13,
                     "Bug Bite"
                 ],
@@ -48621,7 +48653,7 @@ backup_data = {
                 ],
                 [
                     8,
-                    "Pursuit"
+                    "Bug Bite"
                 ],
                 [
                     10,
@@ -48629,7 +48661,7 @@ backup_data = {
                 ],
                 [
                     13,
-                    "Bug Bite"
+                    "Pursuit"
                 ],
                 [
                     17,
@@ -49070,23 +49102,23 @@ backup_data = {
                     "Draining Kiss"
                 ],
                 [
-                    30,
-                    "Giga Drain"
-                ],
-                [
                     32,
                     "Seed Bomb"
                 ],
                 [
-                    35,
+                    34,
+                    "Grass Whistle"
+                ],
+                [
+                    36,
                     "Synthesis"
                 ],
                 [
-                    37,
+                    38,
                     "Lucky Chant"
                 ],
                 [
-                    39,
+                    40,
                     "Flower Shield"
                 ],
                 [
@@ -49182,10 +49214,6 @@ backup_data = {
                 ],
                 [
                     30,
-                    "Giga Drain"
-                ],
-                [
-                    31,
                     "Flame Wheel"
                 ],
                 [
@@ -49193,15 +49221,19 @@ backup_data = {
                     "Seed Bomb"
                 ],
                 [
-                    35,
+                    34,
+                    "Grass Whistle"
+                ],
+                [
+                    36,
                     "Synthesis"
                 ],
                 [
-                    37,
+                    38,
                     "Lucky Chant"
                 ],
                 [
-                    39,
+                    40,
                     "Flower Shield"
                 ],
                 [
@@ -49268,23 +49300,23 @@ backup_data = {
                 ],
                 [
                     7,
-                    "Water Pulse"
+                    "Icy Wind"
                 ],
                 [
                     11,
-                    "Mud Bomb"
+                    "Mud Shot"
                 ],
                 [
                     15,
-                    "Icy Wind"
+                    "Water Pulse"
                 ],
                 [
                     21,
                     "Yawn"
                 ],
                 [
-                    26,
-                    "Body Slam"
+                    24,
+                    "Mud Bomb"
                 ],
                 [
                     30,
@@ -49367,23 +49399,23 @@ backup_data = {
                 ],
                 [
                     7,
-                    "Water Pulse"
+                    "Icy Wind"
                 ],
                 [
                     11,
-                    "Mud Bomb"
+                    "Mud Shot"
                 ],
                 [
                     15,
-                    "Icy Wind"
+                    "Water Pulse"
                 ],
                 [
                     21,
                     "Yawn"
                 ],
                 [
-                    26,
-                    "Body Slam"
+                    24,
+                    "Mud Bomb"
                 ],
                 [
                     30,
@@ -50523,7 +50555,7 @@ backup_data = {
                     "Psywave"
                 ],
                 [
-                    17,
+                    16,
                     "Psybeam"
                 ],
                 [
@@ -50897,7 +50929,7 @@ backup_data = {
                 ],
                 [
                     34,
-                    "Safeguard"
+                    "Stealth Rock"
                 ],
                 [
                     38,
@@ -51184,16 +51216,16 @@ backup_data = {
                     "Encore"
                 ],
                 [
-                    22,
+                    21,
                     "Light Screen"
                 ],
                 [
-                    22,
+                    21,
                     "Reflect"
                 ],
                 [
-                    24,
-                    "Psywave"
+                    23,
+                    "Draining Kiss"
                 ],
                 [
                     26,
@@ -52045,11 +52077,11 @@ backup_data = {
         {
             "bs":
             {
-                "hp": 40,
+                "hp": 50,
                 "at": 70,
-                "df": 40,
+                "df": 50,
                 "sa": 65,
-                "sd": 40,
+                "sd": 50,
                 "sp": 60
             },
             "abilities":
@@ -52304,7 +52336,7 @@ backup_data = {
             "abilities":
             [
                 "Sand Stream",
-                "Sand Force",
+                "Filter",
                 "Sand Force"
             ],
             "types":
@@ -52414,7 +52446,7 @@ backup_data = {
             "abilities":
             [
                 "Sand Stream",
-                "Sand Force",
+                "Filter",
                 "Sand Force"
             ],
             "types":
@@ -52752,12 +52784,12 @@ backup_data = {
         {
             "bs":
             {
-                "hp": 48,
+                "hp": 58,
                 "at": 71,
-                "df": 40,
+                "df": 45,
                 "sa": 61,
-                "sd": 40,
-                "sp": 60
+                "sd": 50,
+                "sp": 70
             },
             "abilities":
             [
@@ -52875,12 +52907,12 @@ backup_data = {
         {
             "bs":
             {
-                "hp": 83,
+                "hp": 88,
                 "at": 116,
                 "df": 65,
                 "sa": 86,
                 "sd": 65,
-                "sp": 95
+                "sp": 100
             },
             "abilities":
             [
@@ -53403,11 +53435,11 @@ backup_data = {
                     "Take Down"
                 ],
                 [
-                    22,
-                    "Agility"
+                    23,
+                    "Air Slash"
                 ],
                 [
-                    24,
+                    25,
                     "Bubble Beam"
                 ],
                 [
@@ -53420,7 +53452,7 @@ backup_data = {
                 ],
                 [
                     31,
-                    "Air Slash"
+                    "Scald"
                 ],
                 [
                     34,
@@ -53432,7 +53464,7 @@ backup_data = {
                 ],
                 [
                     40,
-                    "Scald"
+                    "Agility"
                 ],
                 [
                     43,
@@ -53459,7 +53491,7 @@ backup_data = {
             "abilities":
             [
                 "Snow Warning",
-                "Snow Warning",
+                "Thick Fat",
                 "Soundproof"
             ],
             "types":
@@ -54260,7 +54292,7 @@ backup_data = {
                 ],
                 [
                     30,
-                    "Synthesis"
+                    "Ancient Power"
                 ],
                 [
                     32,
@@ -54268,7 +54300,7 @@ backup_data = {
                 ],
                 [
                     35,
-                    "Ancient Power"
+                    "Synthesis"
                 ],
                 [
                     37,
@@ -58623,11 +58655,11 @@ backup_data = {
                 ],
                 [
                     14,
-                    "Take Down"
+                    "Bite"
                 ],
                 [
                     16,
-                    "Bite"
+                    "Take Down"
                 ],
                 [
                     22,
@@ -58843,11 +58875,11 @@ backup_data = {
                 ],
                 [
                     14,
-                    "Take Down"
+                    "Bite"
                 ],
                 [
                     16,
-                    "Bite"
+                    "Take Down"
                 ],
                 [
                     22,
@@ -59193,11 +59225,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Hone Claws"
+                    "Seed Bomb"
                 ],
                 [
                     25,
-                    "Seed Bomb"
+                    "Hone Claws"
                 ],
                 [
                     27,
@@ -59295,7 +59327,7 @@ backup_data = {
                 ],
                 [
                     15,
-                    "Leech Life"
+                    "Bullet Seed"
                 ],
                 [
                     18,
@@ -59307,11 +59339,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Hone Claws"
+                    "Seed Bomb"
                 ],
                 [
                     25,
-                    "Seed Bomb"
+                    "Hone Claws"
                 ],
                 [
                     27,
@@ -59425,11 +59457,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Hone Claws"
+                    "Heat Wave"
                 ],
                 [
                     25,
-                    "Heat Wave"
+                    "Hone Claws"
                 ],
                 [
                     27,
@@ -59657,11 +59689,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Hone Claws"
+                    "Scald"
                 ],
                 [
                     25,
-                    "Scald"
+                    "Hone Claws"
                 ],
                 [
                     27,
@@ -59771,11 +59803,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Hone Claws"
+                    "Scald"
                 ],
                 [
                     25,
-                    "Scald"
+                    "Hone Claws"
                 ],
                 [
                     27,
@@ -59897,7 +59929,7 @@ backup_data = {
                 ],
                 [
                     25,
-                    "Synchronoise"
+                    "Extrasensory"
                 ],
                 [
                     28,
@@ -60012,7 +60044,7 @@ backup_data = {
                 ],
                 [
                     25,
-                    "Synchronoise"
+                    "Extrasensory"
                 ],
                 [
                     28,
@@ -60622,7 +60654,7 @@ backup_data = {
             [
                 [
                     1,
-                    "Tackle"
+                    "Stealth Rock"
                 ],
                 [
                     3,
@@ -60724,7 +60756,7 @@ backup_data = {
             [
                 [
                     1,
-                    "Tackle"
+                    "Stealth Rock"
                 ],
                 [
                     3,
@@ -60826,7 +60858,7 @@ backup_data = {
             [
                 [
                     1,
-                    "Tackle"
+                    "Stealth Rock"
                 ],
                 [
                     1,
@@ -60973,7 +61005,7 @@ backup_data = {
                 ],
                 [
                     25,
-                    "Drain Punch"
+                    "Draining Kiss"
                 ],
                 [
                     27,
@@ -61021,10 +61053,14 @@ backup_data = {
                 ],
                 [
                     53,
+                    "Moonblast"
+                ],
+                [
+                    57,
                     "Nasty Plot"
                 ],
                 [
-                    60,
+                    61,
                     "Hurricane"
                 ]
             ],
@@ -61148,10 +61184,14 @@ backup_data = {
                 ],
                 [
                     53,
+                    "Moonblast"
+                ],
+                [
+                    57,
                     "Nasty Plot"
                 ],
                 [
-                    60,
+                    61,
                     "Hurricane"
                 ]
             ],
@@ -62077,6 +62117,10 @@ backup_data = {
                 [
                     49,
                     "Hydro Pump"
+                ],
+                [
+                    52,
+                    "Stealth Rock"
                 ]
             ],
             "id": 536
@@ -62188,6 +62232,10 @@ backup_data = {
                 [
                     49,
                     "Hydro Pump"
+                ],
+                [
+                    52,
+                    "Stealth Rock"
                 ]
             ],
             "id": 537
@@ -65118,7 +65166,7 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Water Gun"
+                    "Stealth Rock"
                 ],
                 [
                     4,
@@ -65198,7 +65246,7 @@ backup_data = {
                 ],
                 [
                     61,
-                    "Waterfall"
+                    "Aqua Tail"
                 ]
             ],
             "id": 564
@@ -65237,7 +65285,7 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Water Gun"
+                    "Stealth Rock"
                 ],
                 [
                     4,
@@ -65570,7 +65618,7 @@ backup_data = {
             "abilities":
             [
                 "Stench",
-                "Sticky Hold",
+                "Poison Touch",
                 "Aftermath"
             ],
             "types":
@@ -65680,7 +65728,7 @@ backup_data = {
             "abilities":
             [
                 "Stench",
-                "Weak Armor",
+                "Poison Touch",
                 "Aftermath"
             ],
             "types":
@@ -65858,11 +65906,11 @@ backup_data = {
                 ],
                 [
                     29,
-                    "Agility"
+                    "Dark Pulse"
                 ],
                 [
                     32,
-                    "Dark Pulse"
+                    "Agility"
                 ],
                 [
                     34,
@@ -65972,7 +66020,7 @@ backup_data = {
                 ],
                 [
                     29,
-                    "Agility"
+                    "Dark Pulse"
                 ],
                 [
                     30,
@@ -65980,7 +66028,7 @@ backup_data = {
                 ],
                 [
                     32,
-                    "Dark Pulse"
+                    "Agility"
                 ],
                 [
                     34,
@@ -66577,6 +66625,10 @@ backup_data = {
                 [
                     56,
                     "Night Daze"
+                ],
+                [
+                    62,
+                    "Psycho Boost"
                 ]
             ],
             "id": 576
@@ -66753,7 +66805,7 @@ backup_data = {
                 ],
                 [
                     27,
-                    "Endeavor"
+                    "Venoshock"
                 ],
                 [
                     30,
@@ -66777,7 +66829,7 @@ backup_data = {
                 ],
                 [
                     39,
-                    "Trick Room"
+                    "Endeavor"
                 ],
                 [
                     42,
@@ -66900,7 +66952,7 @@ backup_data = {
                 ],
                 [
                     39,
-                    "Trick Room"
+                    "Endeavor"
                 ],
                 [
                     42,
@@ -66921,6 +66973,14 @@ backup_data = {
                 [
                     53,
                     "Aura Sphere"
+                ],
+                [
+                    56,
+                    "Sludge Wave"
+                ],
+                [
+                    62,
+                    "Psycho Boost"
                 ]
             ],
             "id": 579
@@ -66979,11 +67039,11 @@ backup_data = {
                 ],
                 [
                     19,
-                    "Feather Dance"
+                    "Air Cutter"
                 ],
                 [
                     23,
-                    "Air Cutter"
+                    "Feather Dance"
                 ],
                 [
                     25,
@@ -67090,11 +67150,11 @@ backup_data = {
                 ],
                 [
                     19,
-                    "Feather Dance"
+                    "Air Cutter"
                 ],
                 [
                     23,
-                    "Air Cutter"
+                    "Feather Dance"
                 ],
                 [
                     25,
@@ -68160,11 +68220,11 @@ backup_data = {
                 ],
                 [
                     31,
-                    "Synthesis"
+                    "Sludge Bomb"
                 ],
                 [
                     34,
-                    "Sludge Bomb"
+                    "Synthesis"
                 ],
                 [
                     36,
@@ -68271,11 +68331,11 @@ backup_data = {
                 ],
                 [
                     31,
-                    "Synthesis"
+                    "Sludge Bomb"
                 ],
                 [
                     34,
-                    "Sludge Bomb"
+                    "Synthesis"
                 ],
                 [
                     36,
@@ -69696,7 +69756,7 @@ backup_data = {
                 ],
                 [
                     18,
-                    "Headbutt"
+                    "Disable"
                 ],
                 [
                     21,
@@ -69712,7 +69772,7 @@ backup_data = {
                 ],
                 [
                     28,
-                    "Zen Headbutt"
+                    "Discharge"
                 ],
                 [
                     31,
@@ -69823,7 +69883,7 @@ backup_data = {
                 ],
                 [
                     18,
-                    "Headbutt"
+                    "Disable"
                 ],
                 [
                     21,
@@ -69839,7 +69899,7 @@ backup_data = {
                 ],
                 [
                     28,
-                    "Zen Headbutt"
+                    "Discharge"
                 ],
                 [
                     31,
@@ -71916,15 +71976,15 @@ backup_data = {
                 ],
                 [
                     30,
-                    "Night Slash"
-                ],
-                [
-                    32,
                     "Iron Head"
                 ],
                 [
+                    32,
+                    "Night Slash"
+                ],
+                [
                     35,
-                    "Metal Sound"
+                    "Screech"
                 ],
                 [
                     37,
@@ -72035,15 +72095,15 @@ backup_data = {
                 ],
                 [
                     30,
-                    "Night Slash"
-                ],
-                [
-                    32,
                     "Iron Head"
                 ],
                 [
+                    32,
+                    "Night Slash"
+                ],
+                [
                     35,
-                    "Metal Sound"
+                    "Screech"
                 ],
                 [
                     37,
@@ -74995,12 +75055,12 @@ backup_data = {
                     "Spiky Shield"
                 ],
                 [
-                    38,
-                    "Iron Head"
+                    36,
+                    "Drain Punch"
                 ],
                 [
-                    40,
-                    "Drain Punch"
+                    38,
+                    "Iron Head"
                 ],
                 [
                     45,
@@ -75138,7 +75198,7 @@ backup_data = {
             [
                 "Blaze",
                 "Magic Guard",
-                "Magician"
+                "Magic Bounce"
             ],
             "types":
             [
@@ -75236,7 +75296,7 @@ backup_data = {
             [
                 "Blaze",
                 "Magic Guard",
-                "Magician"
+                "Magic Bounce"
             ],
             "types":
             [
@@ -76730,11 +76790,11 @@ backup_data = {
                     "Razor Leaf"
                 ],
                 [
-                    15,
+                    14,
                     "Wish"
                 ],
                 [
-                    17,
+                    16,
                     "Magical Leaf"
                 ],
                 [
@@ -76832,11 +76892,11 @@ backup_data = {
                     "Razor Leaf"
                 ],
                 [
-                    15,
+                    14,
                     "Wish"
                 ],
                 [
-                    17,
+                    16,
                     "Magical Leaf"
                 ],
                 [
@@ -76942,11 +77002,11 @@ backup_data = {
                     "Razor Leaf"
                 ],
                 [
-                    15,
+                    14,
                     "Wish"
                 ],
                 [
-                    17,
+                    16,
                     "Magical Leaf"
                 ],
                 [
@@ -77527,6 +77587,10 @@ backup_data = {
                 ],
                 [
                     50,
+                    "Double-Edge"
+                ],
+                [
+                    56,
                     "Last Resort"
                 ]
             ],
@@ -77598,6 +77662,10 @@ backup_data = {
                 [
                     30,
                     "Trick"
+                ],
+                [
+                    32,
+                    "Psychic"
                 ],
                 [
                     45,
@@ -77687,7 +77755,7 @@ backup_data = {
                 ],
                 [
                     32,
-                    "Miracle Eye"
+                    "Psychic"
                 ],
                 [
                     35,
@@ -77695,7 +77763,7 @@ backup_data = {
                 ],
                 [
                     38,
-                    "Psychic"
+                    "Miracle Eye"
                 ],
                 [
                     40,
@@ -77720,6 +77788,10 @@ backup_data = {
                 [
                     53,
                     "Quick Guard"
+                ],
+                [
+                    58,
+                    "Psycho Boost"
                 ]
             ],
             "id": 678
@@ -78137,15 +78209,15 @@ backup_data = {
                     "Draining Kiss"
                 ],
                 [
-                    27,
+                    26,
                     "Aromatherapy"
                 ],
                 [
-                    29,
+                    28,
                     "Attract"
                 ],
                 [
-                    31,
+                    30,
                     "Moonblast"
                 ],
                 [
@@ -78240,19 +78312,19 @@ backup_data = {
                     "Draining Kiss"
                 ],
                 [
-                    25,
+                    24,
                     "Clear Smog"
                 ],
                 [
-                    27,
+                    26,
                     "Aromatherapy"
                 ],
                 [
-                    29,
+                    28,
                     "Attract"
                 ],
                 [
-                    31,
+                    30,
                     "Moonblast"
                 ],
                 [
@@ -80497,7 +80569,7 @@ backup_data = {
                 ],
                 [
                     28,
-                    "Volt Switch"
+                    "Fake Out"
                 ],
                 [
                     30,
@@ -80521,15 +80593,15 @@ backup_data = {
                 ],
                 [
                     42,
-                    "Discharge"
-                ],
-                [
-                    45,
                     "Super Fang"
                 ],
                 [
+                    45,
+                    "Wild Charge"
+                ],
+                [
                     48,
-                    "Thunder"
+                    "Extreme Speed"
                 ],
                 [
                     52,
@@ -82868,6 +82940,31 @@ backup_data = {
             "learnset_info": null,
             "id": 728
         },
+        "Rotom-Heat":
+        {
+            "bs":
+            {
+                "hp": 60,
+                "at": 55,
+                "df": 107,
+                "sa": 105,
+                "sd": 107,
+                "sp": 86
+            },
+            "abilities":
+            [
+                "Levitate",
+                "Levitate",
+                "Levitate"
+            ],
+            "types":
+            [
+                "Electric",
+                "Fire"
+            ],
+            "learnset_info": null,
+            "id": 730
+        },
         "Rotom-Wash":
         {
             "bs":
@@ -84238,10 +84335,10 @@ backup_data = {
             {
                 "hp": 85,
                 "at": 130,
-                "df": 111,
+                "df": 106,
                 "sa": 100,
                 "sd": 109,
-                "sp": 100
+                "sp": 105
             },
             "abilities":
             [
@@ -84265,8 +84362,8 @@ backup_data = {
                 "at": 80,
                 "df": 102,
                 "sa": 159,
-                "sd": 109,
-                "sp": 100
+                "sd": 104,
+                "sp": 105
             },
             "abilities":
             [
@@ -84835,9 +84932,9 @@ backup_data = {
                 "hp": 108,
                 "at": 170,
                 "df": 110,
-                "sa": 115,
+                "sa": 110,
                 "sd": 95,
-                "sp": 102
+                "sp": 107
             },
             "abilities":
             [
@@ -85097,11 +85194,11 @@ backup_data = {
                     "Razor Leaf"
                 ],
                 [
-                    15,
+                    14,
                     "Wish"
                 ],
                 [
-                    17,
+                    16,
                     "Magical Leaf"
                 ],
                 [
@@ -85203,11 +85300,11 @@ backup_data = {
                     "Razor Leaf"
                 ],
                 [
-                    15,
+                    14,
                     "Wish"
                 ],
                 [
-                    17,
+                    16,
                     "Magical Leaf"
                 ],
                 [
@@ -85309,11 +85406,11 @@ backup_data = {
                     "Razor Leaf"
                 ],
                 [
-                    15,
+                    14,
                     "Wish"
                 ],
                 [
-                    17,
+                    16,
                     "Magical Leaf"
                 ],
                 [
@@ -85415,11 +85512,11 @@ backup_data = {
                     "Razor Leaf"
                 ],
                 [
-                    15,
+                    14,
                     "Wish"
                 ],
                 [
-                    17,
+                    16,
                     "Magical Leaf"
                 ],
                 [
@@ -86197,7 +86294,7 @@ backup_data = {
                     "Leer"
                 ],
                 "sub_index": 0,
-                "ability": "Overgrow",
+                "ability": "Unburden",
                 "ivs_raw": 0,
                 "p_id": 252,
                 "nature": "Jolly"
@@ -86224,7 +86321,7 @@ backup_data = {
                     "Leer"
                 ],
                 "sub_index": 0,
-                "ability": "Overgrow",
+                "ability": "Unburden",
                 "ivs_raw": 0,
                 "p_id": 252,
                 "nature": "Bashful"
@@ -86254,7 +86351,7 @@ backup_data = {
                     "Growl"
                 ],
                 "sub_index": 0,
-                "ability": "Blaze",
+                "ability": "Sheer Force",
                 "ivs_raw": 0,
                 "p_id": 255,
                 "nature": "Timid"
@@ -86281,7 +86378,7 @@ backup_data = {
                     "Growl"
                 ],
                 "sub_index": 0,
-                "ability": "Blaze",
+                "ability": "Sheer Force",
                 "ivs_raw": 0,
                 "p_id": 255,
                 "nature": "Lax"
@@ -89628,8 +89725,8 @@ backup_data = {
                 "class_id": 153,
                 "moves":
                 [
-                    "Double Slap",
-                    "Feint Attack",
+                    "Snarl",
+                    "Draining Kiss",
                     "Charm",
                     "Wake-Up Slap"
                 ],
@@ -89657,10 +89754,10 @@ backup_data = {
                 "class_id": 153,
                 "moves":
                 [
-                    "Feint Attack",
+                    "Draining Kiss",
                     "Charm",
                     "Wake-Up Slap",
-                    "Draining Kiss"
+                    "Wish"
                 ],
                 "sub_index": 4,
                 "ability": "Cute Charm",
@@ -89689,7 +89786,7 @@ backup_data = {
                     "Assist",
                     "Hyper Voice",
                     "Captivate",
-                    "Heal Bell"
+                    "Moonblast"
                 ],
                 "sub_index": 4,
                 "ability": "Cute Charm",
@@ -89715,9 +89812,9 @@ backup_data = {
                 "class_id": 153,
                 "moves":
                 [
-                    "Double-Edge",
+                    "Last Resort",
                     "Nasty Plot",
-                    "Moonblast",
+                    "Heal Bell",
                     "Baton Pass"
                 ],
                 "sub_index": 4,
@@ -89744,8 +89841,8 @@ backup_data = {
                 "class_id": 199,
                 "moves":
                 [
-                    "Double Slap",
-                    "Feint Attack",
+                    "Snarl",
+                    "Draining Kiss",
                     "Charm",
                     "Wake-Up Slap"
                 ],
@@ -89773,10 +89870,10 @@ backup_data = {
                 "class_id": 199,
                 "moves":
                 [
-                    "Feint Attack",
+                    "Draining Kiss",
                     "Charm",
                     "Wake-Up Slap",
-                    "Draining Kiss"
+                    "Wish"
                 ],
                 "sub_index": 0,
                 "ability": "Cute Charm",
@@ -89803,7 +89900,7 @@ backup_data = {
                 "moves":
                 [
                     "Wake-Up Slap",
-                    "Draining Kiss",
+                    "Wish",
                     "Assist",
                     "Hyper Voice"
                 ],
@@ -90359,7 +90456,7 @@ backup_data = {
                 "class_id": 132,
                 "moves":
                 [
-                    "Spikes",
+                    "Sludge Bomb",
                     "Sleep Powder",
                     "Ancient Power",
                     "Aromatherapy"
@@ -90539,7 +90636,7 @@ backup_data = {
                     "Baton Pass",
                     "Thunderbolt",
                     "Nasty Plot",
-                    "Entrainment"
+                    "Encore"
                 ],
                 "sub_index": 0,
                 "ability": "Plus",
@@ -90684,7 +90781,7 @@ backup_data = {
                     "Baton Pass",
                     "Thunderbolt",
                     "Nasty Plot",
-                    "Entrainment"
+                    "Encore"
                 ],
                 "sub_index": 0,
                 "ability": "Plus",
@@ -90861,7 +90958,7 @@ backup_data = {
                     "Dazzling Gleam",
                     "Thunderbolt",
                     "Nasty Plot",
-                    "Entrainment"
+                    "Encore"
                 ],
                 "sub_index": 1,
                 "ability": "Minus",
@@ -91006,7 +91103,7 @@ backup_data = {
                     "Dazzling Gleam",
                     "Thunderbolt",
                     "Nasty Plot",
-                    "Entrainment"
+                    "Encore"
                 ],
                 "sub_index": 1,
                 "ability": "Minus",
@@ -92601,7 +92698,7 @@ backup_data = {
                 [
                     "Magical Leaf",
                     "Grass Whistle",
-                    "Venoshock",
+                    "Leech Seed",
                     "Mud Shot"
                 ],
                 "sub_index": 3,
@@ -92629,7 +92726,7 @@ backup_data = {
                 "moves":
                 [
                     "Grass Whistle",
-                    "Venoshock",
+                    "Leech Seed",
                     "Mud Shot",
                     "Toxic Spikes"
                 ],
@@ -92658,7 +92755,7 @@ backup_data = {
                 "moves":
                 [
                     "Giga Drain",
-                    "Spikes",
+                    "Sludge Bomb",
                     "Sleep Powder",
                     "Ancient Power"
                 ],
@@ -94241,10 +94338,10 @@ backup_data = {
                 "class_id": 142,
                 "moves":
                 [
-                    "Helping Hand",
                     "Aqua Ring",
                     "Ice Punch",
-                    "Waterfall"
+                    "Waterfall",
+                    "Play Rough"
                 ],
                 "sub_index": 0,
                 "ability": "Huge Power",
@@ -99173,10 +99270,10 @@ backup_data = {
                 "class_id": 131,
                 "moves":
                 [
-                    "Bubble",
                     "Natural Gift",
                     "Mist",
-                    "Fake Out"
+                    "Fake Out",
+                    "Mega Drain"
                 ],
                 "sub_index": 0,
                 "ability": "Swift Swim",
@@ -99203,8 +99300,8 @@ backup_data = {
                 "moves":
                 [
                     "Mega Drain",
-                    "Water Sport",
                     "Bubble Beam",
+                    "Water Sport",
                     "Nature Power"
                 ],
                 "sub_index": 0,
@@ -99231,8 +99328,8 @@ backup_data = {
                 "class_id": 145,
                 "moves":
                 [
-                    "Water Sport",
                     "Bubble Beam",
+                    "Water Sport",
                     "Nature Power",
                     "Teeter Dance"
                 ],
@@ -100991,6 +101088,64 @@ backup_data = {
                 "p_id": 405,
                 "nature": "Bashful"
             },
+            "Lvl 41 Pokémon Trainer Brendan14 ":
+            {
+                "evs":
+                {},
+                "level": 41,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Roseli Berry",
+                "class_id": 127,
+                "moves":
+                [
+                    "Thunder Fang",
+                    "Crunch",
+                    "Fire Fang",
+                    "Double Kick"
+                ],
+                "sub_index": 0,
+                "ability": "Strong Jaw",
+                "ivs_raw": 191,
+                "p_id": 405,
+                "nature": "Jolly"
+            },
+            "Lvl 41 Pokémon Trainer May14 ":
+            {
+                "evs":
+                {},
+                "level": 41,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Roseli Berry",
+                "class_id": 128,
+                "moves":
+                [
+                    "Crunch",
+                    "Thunder Fang",
+                    "Double Kick",
+                    "Fire Fang"
+                ],
+                "sub_index": 0,
+                "ability": "Strong Jaw",
+                "ivs_raw": 223,
+                "p_id": 405,
+                "nature": "Adamant"
+            },
             "Lvl 83 Pokémon Trainer Brendan17 ":
             {
                 "evs":
@@ -101199,6 +101354,35 @@ backup_data = {
                 "ivs_raw": 159,
                 "p_id": 6,
                 "nature": "Quiet"
+            },
+            "Lvl 41 Pokémon Trainer May15 ":
+            {
+                "evs":
+                {},
+                "level": 41,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Assault Vest",
+                "class_id": 128,
+                "moves":
+                [
+                    "Flamethrower",
+                    "Air Slash",
+                    "Focus Blast",
+                    "Dazzling Gleam"
+                ],
+                "sub_index": 1,
+                "ability": "Flame Body",
+                "ivs_raw": 95,
+                "p_id": 6,
+                "nature": "Mild"
             },
             "Lvl 86 Pokémon Trainer Zinnia":
             {
@@ -101728,93 +101912,6 @@ backup_data = {
                 "p_id": 277,
                 "nature": "Timid"
             },
-            "Lvl 37 Pokémon Trainer May13 ":
-            {
-                "evs":
-                {},
-                "level": 37,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Flame Orb",
-                "class_id": 128,
-                "moves":
-                [
-                    "Steel Wing",
-                    "Wing Attack",
-                    "Protect",
-                    "Facade"
-                ],
-                "sub_index": 0,
-                "ability": "Guts",
-                "ivs_raw": 159,
-                "p_id": 277,
-                "nature": "Adamant"
-            },
-            "Lvl 37 Pokémon Trainer May14 ":
-            {
-                "evs":
-                {},
-                "level": 37,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Flame Orb",
-                "class_id": 128,
-                "moves":
-                [
-                    "Steel Wing",
-                    "Wing Attack",
-                    "Protect",
-                    "Facade"
-                ],
-                "sub_index": 0,
-                "ability": "Guts",
-                "ivs_raw": 159,
-                "p_id": 277,
-                "nature": "Adamant"
-            },
-            "Lvl 37 Pokémon Trainer May15 ":
-            {
-                "evs":
-                {},
-                "level": 37,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Flame Orb",
-                "class_id": 128,
-                "moves":
-                [
-                    "Steel Wing",
-                    "Wing Attack",
-                    "Protect",
-                    "Facade"
-                ],
-                "sub_index": 0,
-                "ability": "Guts",
-                "ivs_raw": 159,
-                "p_id": 277,
-                "nature": "Adamant"
-            },
             "Lvl 83 Pokémon Trainer May16 ":
             {
                 "evs":
@@ -102100,9 +102197,9 @@ backup_data = {
                 "class_id": 199,
                 "moves":
                 [
-                    "Double-Edge",
+                    "Last Resort",
                     "Nasty Plot",
-                    "Moonblast",
+                    "Heal Bell",
                     "Baton Pass"
                 ],
                 "sub_index": 0,
@@ -104525,11 +104622,11 @@ backup_data = {
                 "p_id": 257,
                 "nature": "Jolly"
             },
-            "Lvl 38 Pokémon Trainer Brendan14 ":
+            "Lvl 42 Pokémon Trainer Brendan14 ":
             {
                 "evs":
                 {},
-                "level": 38,
+                "level": 42,
                 "ivs":
                 {
                     "hp": 31,
@@ -104550,15 +104647,15 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Sheer Force",
-                "ivs_raw": 159,
+                "ivs_raw": 223,
                 "p_id": 257,
                 "nature": "Jolly"
             },
-            "Lvl 38 Pokémon Trainer May14 ":
+            "Lvl 42 Pokémon Trainer May14 ":
             {
                 "evs":
                 {},
-                "level": 38,
+                "level": 42,
                 "ivs":
                 {
                     "hp": 31,
@@ -104579,9 +104676,9 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Sheer Force",
-                "ivs_raw": 255,
+                "ivs_raw": 223,
                 "p_id": 257,
-                "nature": "Lonely"
+                "nature": "Jolly"
             }
         },
         "Hawlucha":
@@ -106118,11 +106215,11 @@ backup_data = {
                 "p_id": 530,
                 "nature": "Naughty"
             },
-            "Lvl 50 Pokémon Trainer Steven":
+            "Lvl 52 Pokémon Trainer Steven":
             {
                 "evs":
                 {},
-                "level": 50,
+                "level": 52,
                 "ivs":
                 {
                     "hp": 31,
@@ -106143,9 +106240,9 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Mold Breaker",
-                "ivs_raw": 127,
+                "ivs_raw": 159,
                 "p_id": 530,
-                "nature": "Lonely"
+                "nature": "Jolly"
             },
             "Lvl 99 Champion Steven2 ":
             {
@@ -106735,7 +106832,7 @@ backup_data = {
                 "moves":
                 [
                     "Leech Seed",
-                    "Zen Headbutt",
+                    "Scald",
                     "Knock Off",
                     "Synthesis"
                 ],
@@ -106763,7 +106860,7 @@ backup_data = {
                 "class_id": 145,
                 "moves":
                 [
-                    "Zen Headbutt",
+                    "Scald",
                     "Knock Off",
                     "Synthesis",
                     "Energy Ball"
@@ -107058,7 +107155,7 @@ backup_data = {
                 [
                     "Eruption",
                     "Earth Power",
-                    "Grass Knot",
+                    "Power Gem",
                     "Fire Blast"
                 ],
                 "sub_index": 1,
@@ -107096,11 +107193,11 @@ backup_data = {
                 "p_id": 157,
                 "nature": "Timid"
             },
-            "Lvl 37 Pokémon Trainer May13 ":
+            "Lvl 41 Pokémon Trainer May13 ":
             {
                 "evs":
                 {},
-                "level": 37,
+                "level": 41,
                 "ivs":
                 {
                     "hp": 31,
@@ -107110,7 +107207,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "item": "Wise Glasses",
+                "item": "Life Orb",
                 "class_id": 128,
                 "moves":
                 [
@@ -107121,9 +107218,9 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Flash Fire",
-                "ivs_raw": 255,
+                "ivs_raw": 31,
                 "p_id": 157,
-                "nature": "Quiet"
+                "nature": "Modest"
             },
             "Lvl 72 Lady Nora":
             {
@@ -108631,7 +108728,7 @@ backup_data = {
                 "class_id": 132,
                 "moves":
                 [
-                    "Flamethrower",
+                    "Morning Sun",
                     "Encore",
                     "Earth Power",
                     "Fire Blast"
@@ -111071,35 +111168,6 @@ backup_data = {
                 "p_id": 389,
                 "nature": "Jolly"
             },
-            "Lvl 37 Pokémon Trainer Brendan15 ":
-            {
-                "evs":
-                {},
-                "level": 37,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Focus Sash",
-                "class_id": 127,
-                "moves":
-                [
-                    "Seed Bomb",
-                    "High Horsepower",
-                    "Rock Slide",
-                    "Protect"
-                ],
-                "sub_index": 1,
-                "ability": "Solid Rock",
-                "ivs_raw": 223,
-                "p_id": 389,
-                "nature": "Adamant"
-            },
             "Lvl 83 Pokémon Trainer Brendan18 ":
             {
                 "evs":
@@ -112965,11 +113033,11 @@ backup_data = {
                 "p_id": 395,
                 "nature": "Naive"
             },
-            "Lvl 37 Pokémon Trainer Brendan14 ":
+            "Lvl 41 Pokémon Trainer Brendan14 ":
             {
                 "evs":
                 {},
-                "level": 37,
+                "level": 41,
                 "ivs":
                 {
                     "hp": 31,
@@ -112990,9 +113058,9 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Competitive",
-                "ivs_raw": 127,
+                "ivs_raw": 95,
                 "p_id": 395,
-                "nature": "Timid"
+                "nature": "Mild"
             },
             "Lvl 38 Aqua Admin Shelly2 ":
             {
@@ -115175,7 +115243,7 @@ backup_data = {
                 "class_id": 164,
                 "moves":
                 [
-                    "Scald",
+                    "Bug Buzz",
                     "Tailwind",
                     "Whirlwind",
                     "Air Slash"
@@ -118202,7 +118270,7 @@ backup_data = {
                 "class_id": 137,
                 "moves":
                 [
-                    "Scald",
+                    "Agility",
                     "Haze",
                     "Hurricane",
                     "Hydro Pump"
@@ -118260,7 +118328,7 @@ backup_data = {
                 "class_id": 154,
                 "moves":
                 [
-                    "Scald",
+                    "Agility",
                     "Haze",
                     "Hurricane",
                     "Hydro Pump"
@@ -120920,10 +120988,10 @@ backup_data = {
                 "class_id": 165,
                 "moves":
                 [
-                    "Mud Shot",
                     "Leech Seed",
                     "Growth",
-                    "Feint Attack"
+                    "Feint Attack",
+                    "Bullet Seed"
                 ],
                 "sub_index": 0,
                 "ability": "Sand Veil",
@@ -121217,6 +121285,35 @@ backup_data = {
                 "ivs_raw": 63,
                 "p_id": 655,
                 "nature": "Quiet"
+            },
+            "Lvl 41 Pokémon Trainer Brendan15 ":
+            {
+                "evs":
+                {},
+                "level": 41,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Passho Berry",
+                "class_id": 127,
+                "moves":
+                [
+                    "Flamethrower",
+                    "Psychic",
+                    "Thunderbolt",
+                    "Energy Ball"
+                ],
+                "sub_index": 1,
+                "ability": "Magic Guard",
+                "ivs_raw": 223,
+                "p_id": 655,
+                "nature": "Timid"
             },
             "Lvl 83 Pokémon Trainer Brendan18 ":
             {
@@ -122157,9 +122254,9 @@ backup_data = {
                 "moves":
                 [
                     "Will-O-Wisp",
-                    "Destiny Bond",
-                    "Belch",
-                    "Flamethrower"
+                    "Sludge Bomb",
+                    "Flamethrower",
+                    "Destiny Bond"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
@@ -122186,9 +122283,9 @@ backup_data = {
                 "moves":
                 [
                     "Will-O-Wisp",
-                    "Destiny Bond",
-                    "Belch",
-                    "Flamethrower"
+                    "Sludge Bomb",
+                    "Flamethrower",
+                    "Destiny Bond"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
@@ -122214,8 +122311,8 @@ backup_data = {
                 "class_id": 179,
                 "moves":
                 [
-                    "Flamethrower",
-                    "Sludge Bomb",
+                    "Destiny Bond",
+                    "Belch",
                     "Memento",
                     "Self-Destruct"
                 ],
@@ -122417,8 +122514,8 @@ backup_data = {
                 "class_id": 183,
                 "moves":
                 [
-                    "Flamethrower",
-                    "Sludge Bomb",
+                    "Destiny Bond",
+                    "Belch",
                     "Memento",
                     "Self-Destruct"
                 ],
@@ -122447,9 +122544,9 @@ backup_data = {
                 "moves":
                 [
                     "Will-O-Wisp",
-                    "Destiny Bond",
-                    "Belch",
-                    "Flamethrower"
+                    "Sludge Bomb",
+                    "Flamethrower",
+                    "Destiny Bond"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -122475,7 +122572,7 @@ backup_data = {
                 "class_id": 179,
                 "moves":
                 [
-                    "Sludge Bomb",
+                    "Belch",
                     "Memento",
                     "Self-Destruct",
                     "Sludge Wave"
@@ -122504,7 +122601,7 @@ backup_data = {
                 "class_id": 179,
                 "moves":
                 [
-                    "Sludge Bomb",
+                    "Belch",
                     "Memento",
                     "Self-Destruct",
                     "Sludge Wave"
@@ -122794,7 +122891,7 @@ backup_data = {
                 "class_id": 149,
                 "moves":
                 [
-                    "Rock Slide",
+                    "Will-O-Wisp",
                     "Earthquake",
                     "Heat Wave",
                     "Power Gem"
@@ -122999,7 +123096,7 @@ backup_data = {
                 [
                     "Earth Power",
                     "Yawn",
-                    "Rock Slide",
+                    "Will-O-Wisp",
                     "Earthquake"
                 ],
                 "sub_index": 0,
@@ -123028,7 +123125,7 @@ backup_data = {
                 [
                     "Earth Power",
                     "Yawn",
-                    "Rock Slide",
+                    "Will-O-Wisp",
                     "Earthquake"
                 ],
                 "sub_index": 0,
@@ -123117,7 +123214,7 @@ backup_data = {
                 "moves":
                 [
                     "Yawn",
-                    "Rock Slide",
+                    "Will-O-Wisp",
                     "Earthquake",
                     "Heat Wave"
                 ],
@@ -123177,10 +123274,10 @@ backup_data = {
                 "class_id": 179,
                 "moves":
                 [
-                    "Explosion",
-                    "Flame Burst",
+                    "Haze",
                     "Will-O-Wisp",
-                    "Destiny Bond"
+                    "Sludge Bomb",
+                    "Flamethrower"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -123235,9 +123332,9 @@ backup_data = {
                 "class_id": 179,
                 "moves":
                 [
-                    "Haze",
-                    "Explosion",
                     "Flame Burst",
+                    "Explosion",
+                    "Haze",
                     "Will-O-Wisp"
                 ],
                 "sub_index": 0,
@@ -123264,10 +123361,10 @@ backup_data = {
                 "class_id": 179,
                 "moves":
                 [
-                    "Flame Burst",
+                    "Haze",
                     "Will-O-Wisp",
-                    "Destiny Bond",
-                    "Belch"
+                    "Sludge Bomb",
+                    "Flamethrower"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -123293,10 +123390,10 @@ backup_data = {
                 "class_id": 183,
                 "moves":
                 [
-                    "Explosion",
-                    "Flame Burst",
+                    "Haze",
                     "Will-O-Wisp",
-                    "Destiny Bond"
+                    "Sludge Bomb",
+                    "Flamethrower"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
@@ -123325,7 +123422,7 @@ backup_data = {
                     "Assurance",
                     "Sludge",
                     "Clear Smog",
-                    "Haze"
+                    "Flame Burst"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -123375,9 +123472,9 @@ backup_data = {
                 "moves":
                 [
                     "Clear Smog",
-                    "Haze",
+                    "Flame Burst",
                     "Explosion",
-                    "Flame Burst"
+                    "Haze"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -123406,7 +123503,7 @@ backup_data = {
                     "Assurance",
                     "Sludge",
                     "Clear Smog",
-                    "Haze"
+                    "Flame Burst"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -123608,7 +123705,7 @@ backup_data = {
                     "Curse",
                     "Earth Power",
                     "Yawn",
-                    "Rock Slide"
+                    "Will-O-Wisp"
                 ],
                 "sub_index": 1,
                 "ability": "Sturdy",
@@ -123637,7 +123734,7 @@ backup_data = {
                     "Curse",
                     "Earth Power",
                     "Yawn",
-                    "Rock Slide"
+                    "Will-O-Wisp"
                 ],
                 "sub_index": 0,
                 "ability": "Simple",
@@ -123665,7 +123762,7 @@ backup_data = {
                 [
                     "Earth Power",
                     "Yawn",
-                    "Rock Slide",
+                    "Will-O-Wisp",
                     "Earthquake"
                 ],
                 "sub_index": 0,
@@ -123898,7 +123995,7 @@ backup_data = {
                     "Curse",
                     "Earth Power",
                     "Yawn",
-                    "Rock Slide"
+                    "Will-O-Wisp"
                 ],
                 "sub_index": 0,
                 "ability": "Sturdy",
@@ -124099,7 +124196,7 @@ backup_data = {
                 "moves":
                 [
                     "Yawn",
-                    "Rock Slide",
+                    "Will-O-Wisp",
                     "Earthquake",
                     "Heat Wave"
                 ],
@@ -124978,7 +125075,7 @@ backup_data = {
                     "Cotton Guard"
                 ],
                 "sub_index": 1,
-                "ability": "Chlorophyll",
+                "ability": "Aerilate",
                 "ivs_raw": 0,
                 "p_id": 189,
                 "nature": "Docile"
@@ -125007,7 +125104,7 @@ backup_data = {
                     "Tailwind"
                 ],
                 "sub_index": 1,
-                "ability": "Chlorophyll",
+                "ability": "Aerilate",
                 "ivs_raw": 160,
                 "p_id": 189,
                 "nature": "Quirky"
@@ -125036,7 +125133,7 @@ backup_data = {
                     "Tailwind"
                 ],
                 "sub_index": 0,
-                "ability": "Chlorophyll",
+                "ability": "Aerilate",
                 "ivs_raw": 160,
                 "p_id": 189,
                 "nature": "Quirky"
@@ -125065,7 +125162,7 @@ backup_data = {
                     "Tailwind"
                 ],
                 "sub_index": 3,
-                "ability": "Chlorophyll",
+                "ability": "Aerilate",
                 "ivs_raw": 160,
                 "p_id": 189,
                 "nature": "Quirky"
@@ -125094,7 +125191,7 @@ backup_data = {
                     "Tailwind"
                 ],
                 "sub_index": 2,
-                "ability": "Chlorophyll",
+                "ability": "Aerilate",
                 "ivs_raw": 160,
                 "p_id": 189,
                 "nature": "Quirky"
@@ -125892,93 +125989,6 @@ backup_data = {
                 "p_id": 18,
                 "nature": "Modest"
             },
-            "Lvl 37 Pokémon Trainer Brendan13 ":
-            {
-                "evs":
-                {},
-                "level": 37,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Yache Berry",
-                "class_id": 127,
-                "moves":
-                [
-                    "Protect",
-                    "Air Slash",
-                    "Hyper Voice",
-                    "Focus Blast"
-                ],
-                "sub_index": 0,
-                "ability": "No Guard",
-                "ivs_raw": 95,
-                "p_id": 18,
-                "nature": "Timid"
-            },
-            "Lvl 37 Pokémon Trainer Brendan14 ":
-            {
-                "evs":
-                {},
-                "level": 37,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Yache Berry",
-                "class_id": 127,
-                "moves":
-                [
-                    "Protect",
-                    "Air Slash",
-                    "Hyper Voice",
-                    "Focus Blast"
-                ],
-                "sub_index": 0,
-                "ability": "No Guard",
-                "ivs_raw": 95,
-                "p_id": 18,
-                "nature": "Timid"
-            },
-            "Lvl 37 Pokémon Trainer Brendan15 ":
-            {
-                "evs":
-                {},
-                "level": 37,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Yache Berry",
-                "class_id": 127,
-                "moves":
-                [
-                    "Protect",
-                    "Air Slash",
-                    "Hyper Voice",
-                    "Focus Blast"
-                ],
-                "sub_index": 0,
-                "ability": "No Guard",
-                "ivs_raw": 95,
-                "p_id": 18,
-                "nature": "Timid"
-            },
             "Lvl 83 Pokémon Trainer Brendan16 ":
             {
                 "evs":
@@ -126185,11 +126195,11 @@ backup_data = {
                 "p_id": 392,
                 "nature": "Serious"
             },
-            "Lvl 37 Pokémon Trainer Brendan13 ":
+            "Lvl 41 Pokémon Trainer Brendan13 ":
             {
                 "evs":
                 {},
-                "level": 37,
+                "level": 41,
                 "ivs":
                 {
                     "hp": 31,
@@ -126199,7 +126209,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "item": "Muscle Band",
+                "item": "Life Orb",
                 "class_id": 127,
                 "moves":
                 [
@@ -126212,7 +126222,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "ivs_raw": 191,
                 "p_id": 392,
-                "nature": "Naughty"
+                "nature": "Naive"
             },
             "Lvl 83 Pokémon Trainer Brendan16 ":
             {
@@ -126390,6 +126400,64 @@ backup_data = {
                 "ivs_raw": 255,
                 "p_id": 466,
                 "nature": "Timid"
+            },
+            "Lvl 41 Pokémon Trainer Brendan13 ":
+            {
+                "evs":
+                {},
+                "level": 41,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Assault Vest",
+                "class_id": 127,
+                "moves":
+                [
+                    "Thunder Punch",
+                    "Drain Punch",
+                    "Fire Punch",
+                    "Wild Charge"
+                ],
+                "sub_index": 0,
+                "ability": "Iron Fist",
+                "ivs_raw": 223,
+                "p_id": 466,
+                "nature": "Adamant"
+            },
+            "Lvl 41 Pokémon Trainer May13 ":
+            {
+                "evs":
+                {},
+                "level": 41,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Assault Vest",
+                "class_id": 128,
+                "moves":
+                [
+                    "Thunder Punch",
+                    "Drain Punch",
+                    "Fire Punch",
+                    "Wild Charge"
+                ],
+                "sub_index": 0,
+                "ability": "Iron Fist",
+                "ivs_raw": 159,
+                "p_id": 466,
+                "nature": "Hasty"
             },
             "Lvl 83 Pokémon Trainer Brendan16 ":
             {
@@ -126914,7 +126982,7 @@ backup_data = {
                     "Ice Punch"
                 ],
                 "sub_index": 4,
-                "ability": "Poison Point",
+                "ability": "Poison Touch",
                 "ivs_raw": 223,
                 "p_id": 34,
                 "nature": "Lonely"
@@ -126943,7 +127011,7 @@ backup_data = {
                     "Gunk Shot"
                 ],
                 "sub_index": 1,
-                "ability": "Poison Point",
+                "ability": "Poison Touch",
                 "ivs_raw": 120,
                 "p_id": 34,
                 "nature": "Modest"
@@ -126998,7 +127066,7 @@ backup_data = {
                     "Gunk Shot"
                 ],
                 "sub_index": 0,
-                "ability": "Poison Point",
+                "ability": "Poison Touch",
                 "ivs_raw": 120,
                 "p_id": 34,
                 "nature": "Modest"
@@ -127027,7 +127095,7 @@ backup_data = {
                     "Gunk Shot"
                 ],
                 "sub_index": 3,
-                "ability": "Poison Point",
+                "ability": "Poison Touch",
                 "ivs_raw": 120,
                 "p_id": 34,
                 "nature": "Modest"
@@ -127056,7 +127124,7 @@ backup_data = {
                     "Gunk Shot"
                 ],
                 "sub_index": 2,
-                "ability": "Poison Point",
+                "ability": "Poison Touch",
                 "ivs_raw": 120,
                 "p_id": 34,
                 "nature": "Modest"
@@ -127088,7 +127156,7 @@ backup_data = {
                     "Leaf Blade"
                 ],
                 "sub_index": 5,
-                "ability": "Unburden",
+                "ability": "Overgrow",
                 "ivs_raw": 255,
                 "p_id": 254,
                 "nature": "Hardy"
@@ -127117,16 +127185,16 @@ backup_data = {
                     "Leaf Blade"
                 ],
                 "sub_index": 5,
-                "ability": "Unburden",
+                "ability": "Overgrow",
                 "ivs_raw": 95,
                 "p_id": 254,
                 "nature": "Jolly"
             },
-            "Lvl 38 Pokémon Trainer Brendan13 ":
+            "Lvl 42 Pokémon Trainer Brendan13 ":
             {
                 "evs":
                 {},
-                "level": 38,
+                "level": 42,
                 "ivs":
                 {
                     "hp": 31,
@@ -127147,15 +127215,15 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Unburden",
-                "ivs_raw": 63,
+                "ivs_raw": 95,
                 "p_id": 254,
-                "nature": "Lonely"
+                "nature": "Naive"
             },
-            "Lvl 38 Pokémon Trainer May13 ":
+            "Lvl 42 Pokémon Trainer May13 ":
             {
                 "evs":
                 {},
-                "level": 38,
+                "level": 42,
                 "ivs":
                 {
                     "hp": 31,
@@ -127178,7 +127246,7 @@ backup_data = {
                 "ability": "Unburden",
                 "ivs_raw": 255,
                 "p_id": 254,
-                "nature": "Bashful"
+                "nature": "Docile"
             },
             "Lvl 65 Ace Trainer Harriet":
             {
@@ -127476,11 +127544,69 @@ backup_data = {
                 "p_id": 462,
                 "nature": "Impish"
             },
-            "Lvl 50 Pokémon Trainer Steven":
+            "Lvl 41 Pokémon Trainer Brendan15 ":
             {
                 "evs":
                 {},
-                "level": 50,
+                "level": 41,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Wise Glasses",
+                "class_id": 127,
+                "moves":
+                [
+                    "Volt Switch",
+                    "Flash Cannon",
+                    "Reflect",
+                    "Light Screen"
+                ],
+                "sub_index": 0,
+                "ability": "Analytic",
+                "ivs_raw": 95,
+                "p_id": 462,
+                "nature": "Serious"
+            },
+            "Lvl 41 Pokémon Trainer May15 ":
+            {
+                "evs":
+                {},
+                "level": 41,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Wise Glasses",
+                "class_id": 128,
+                "moves":
+                [
+                    "Volt Switch",
+                    "Flash Cannon",
+                    "Reflect",
+                    "Light Screen"
+                ],
+                "sub_index": 0,
+                "ability": "Analytic",
+                "ivs_raw": 31,
+                "p_id": 462,
+                "nature": "Mild"
+            },
+            "Lvl 52 Pokémon Trainer Steven":
+            {
+                "evs":
+                {},
+                "level": 52,
                 "ivs":
                 {
                     "hp": 31,
@@ -127501,9 +127627,9 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "ivs_raw": 223,
+                "ivs_raw": 63,
                 "p_id": 462,
-                "nature": "Quiet"
+                "nature": "Modest"
             },
             "Lvl 83 Pokémon Trainer Brendan18 ":
             {
@@ -127563,11 +127689,11 @@ backup_data = {
                 "p_id": 462,
                 "nature": "Quiet"
             },
-            "Lvl 89 Pokémon Trainer Steven2 ":
+            "Lvl 91 Pokémon Trainer Steven2 ":
             {
                 "evs":
                 {},
-                "level": 89,
+                "level": 91,
                 "ivs":
                 {
                     "hp": 31,
@@ -127581,14 +127707,14 @@ backup_data = {
                 "class_id": 219,
                 "moves":
                 [
-                    "Protect",
+                    "Thunder Wave",
                     "Thunder",
                     "Flash Cannon",
                     "Bug Buzz"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "ivs_raw": 159,
+                "ivs_raw": 223,
                 "p_id": 462,
                 "nature": "Rash"
             }
@@ -127653,11 +127779,11 @@ backup_data = {
                 "p_id": 260,
                 "nature": "Adamant"
             },
-            "Lvl 38 Pokémon Trainer Brendan15 ":
+            "Lvl 42 Pokémon Trainer Brendan15 ":
             {
                 "evs":
                 {},
-                "level": 38,
+                "level": 42,
                 "ivs":
                 {
                     "hp": 31,
@@ -127678,15 +127804,15 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Dry Skin",
-                "ivs_raw": 255,
+                "ivs_raw": 191,
                 "p_id": 260,
-                "nature": "Relaxed"
+                "nature": "Adamant"
             },
-            "Lvl 38 Pokémon Trainer May15 ":
+            "Lvl 42 Pokémon Trainer May15 ":
             {
                 "evs":
                 {},
-                "level": 38,
+                "level": 42,
                 "ivs":
                 {
                     "hp": 31,
@@ -127707,9 +127833,9 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Dry Skin",
-                "ivs_raw": 255,
+                "ivs_raw": 95,
                 "p_id": 260,
-                "nature": "Hasty"
+                "nature": "Impish"
             }
         },
         "Quilava":
@@ -127757,7 +127883,7 @@ backup_data = {
                     "sd": 25,
                     "sp": 25
                 },
-                "item": "Wise Glasses",
+                "item": "Shell Bell",
                 "class_id": 61,
                 "moves":
                 [
@@ -128217,7 +128343,7 @@ backup_data = {
                     "Gunk Shot"
                 ],
                 "sub_index": 1,
-                "ability": "Poison Point",
+                "ability": "Multiscale",
                 "ivs_raw": 120,
                 "p_id": 31,
                 "nature": "Rash"
@@ -128246,7 +128372,7 @@ backup_data = {
                     "Gunk Shot"
                 ],
                 "sub_index": 3,
-                "ability": "Poison Point",
+                "ability": "Multiscale",
                 "ivs_raw": 120,
                 "p_id": 31,
                 "nature": "Rash"
@@ -128275,7 +128401,7 @@ backup_data = {
                     "Gunk Shot"
                 ],
                 "sub_index": 0,
-                "ability": "Poison Point",
+                "ability": "Multiscale",
                 "ivs_raw": 120,
                 "p_id": 31,
                 "nature": "Rash"
@@ -128304,7 +128430,7 @@ backup_data = {
                     "Gunk Shot"
                 ],
                 "sub_index": 1,
-                "ability": "Poison Point",
+                "ability": "Multiscale",
                 "ivs_raw": 120,
                 "p_id": 31,
                 "nature": "Rash"
@@ -128457,11 +128583,11 @@ backup_data = {
                 "p_id": 160,
                 "nature": "Adamant"
             },
-            "Lvl 37 Pokémon Trainer May14 ":
+            "Lvl 41 Pokémon Trainer May14 ":
             {
                 "evs":
                 {},
-                "level": 37,
+                "level": 41,
                 "ivs":
                 {
                     "hp": 31,
@@ -128484,7 +128610,7 @@ backup_data = {
                 "ability": "Sheer Force",
                 "ivs_raw": 191,
                 "p_id": 160,
-                "nature": "Jolly"
+                "nature": "Hasty"
             },
             "Lvl 71 Fisherman River":
             {
@@ -128633,35 +128759,6 @@ backup_data = {
                 "ivs_raw": 255,
                 "p_id": 154,
                 "nature": "Bold"
-            },
-            "Lvl 37 Pokémon Trainer May15 ":
-            {
-                "evs":
-                {},
-                "level": 37,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Leftovers",
-                "class_id": 128,
-                "moves":
-                [
-                    "Leech Seed",
-                    "Earth Power",
-                    "Giga Drain",
-                    "Dazzling Gleam"
-                ],
-                "sub_index": 1,
-                "ability": "Filter",
-                "ivs_raw": 95,
-                "p_id": 154,
-                "nature": "Modest"
             },
             "Lvl 83 Pokémon Trainer May18 ":
             {
@@ -128896,7 +128993,7 @@ backup_data = {
                 "class_id": 130,
                 "moves":
                 [
-                    "Drain Punch",
+                    "U-turn",
                     "Knock Off",
                     "Baton Pass",
                     "Encore"
@@ -129789,11 +129886,11 @@ backup_data = {
                 "p_id": 707,
                 "nature": "Bold"
             },
-            "Lvl 50 Pokémon Trainer Steven":
+            "Lvl 52 Pokémon Trainer Steven":
             {
                 "evs":
                 {},
-                "level": 50,
+                "level": 52,
                 "ivs":
                 {
                     "hp": 31,
@@ -129810,13 +129907,13 @@ backup_data = {
                     "Reflect",
                     "Light Screen",
                     "Thunder Wave",
-                    "Moonblast"
+                    "Play Rough"
                 ],
                 "sub_index": 0,
                 "ability": "Prankster",
-                "ivs_raw": 159,
+                "ivs_raw": 223,
                 "p_id": 707,
-                "nature": "Sassy"
+                "nature": "Impish"
             },
             "Lvl 36 Fairy Tale Girl Franny":
             {
@@ -129847,11 +129944,11 @@ backup_data = {
                 "p_id": 707,
                 "nature": "Lax"
             },
-            "Lvl 89 Pokémon Trainer Steven2 ":
+            "Lvl 91 Pokémon Trainer Steven2 ":
             {
                 "evs":
                 {},
-                "level": 89,
+                "level": 91,
                 "ivs":
                 {
                     "hp": 31,
@@ -129872,9 +129969,9 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Prankster",
-                "ivs_raw": 31,
+                "ivs_raw": 63,
                 "p_id": 707,
-                "nature": "Careful"
+                "nature": "Calm"
             }
         },
         "Ninetales":
@@ -132305,7 +132402,7 @@ backup_data = {
                 "class_id": 149,
                 "moves":
                 [
-                    "Spikes",
+                    "Sludge Bomb",
                     "Sleep Powder",
                     "Ancient Power",
                     "Aromatherapy"
@@ -134027,10 +134124,10 @@ backup_data = {
                 "class_id": 159,
                 "moves":
                 [
-                    "Harden",
                     "Incinerate",
                     "Clear Smog",
-                    "Ancient Power"
+                    "Ancient Power",
+                    "Flame Burst"
                 ],
                 "sub_index": 0,
                 "ability": "Magma Armor",
@@ -136642,35 +136739,6 @@ backup_data = {
                 "p_id": 555,
                 "nature": "Naughty"
             },
-            "Lvl 64 Leaders Liza & Tate":
-            {
-                "evs":
-                {},
-                "level": 64,
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "item": "Weakness Policy",
-                "class_id": 206,
-                "moves":
-                [
-                    "Heat Wave",
-                    "Psychic",
-                    "Focus Blast",
-                    "Grass Knot"
-                ],
-                "sub_index": 2,
-                "ability": "Filter",
-                "ivs_raw": 63,
-                "p_id": 555,
-                "nature": "Mild"
-            },
             "Lvl 41 Ace Trainer Zane":
             {
                 "evs":
@@ -136699,6 +136767,38 @@ backup_data = {
                 "ivs_raw": 120,
                 "p_id": 555,
                 "nature": "Impish"
+            }
+        },
+        "Darmanitan-Zen":
+        {
+            "Lvl 64 Leaders Liza & Tate":
+            {
+                "evs":
+                {},
+                "level": 64,
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Weakness Policy",
+                "class_id": 206,
+                "moves":
+                [
+                    "Heat Wave",
+                    "Psychic",
+                    "Focus Blast",
+                    "Grass Knot"
+                ],
+                "sub_index": 2,
+                "ability": "Filter",
+                "ivs_raw": 63,
+                "p_id": 555,
+                "nature": "Mild"
             }
         },
         "Houndoom-Mega":
@@ -139199,11 +139299,11 @@ backup_data = {
                 "p_id": 649,
                 "nature": "Naive"
             },
-            "Lvl 89 Pokémon Trainer Steven2 ":
+            "Lvl 91 Pokémon Trainer Steven2 ":
             {
                 "evs":
                 {},
-                "level": 89,
+                "level": 91,
                 "ivs":
                 {
                     "hp": 31,
@@ -139224,9 +139324,9 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Download",
-                "ivs_raw": 127,
+                "ivs_raw": 255,
                 "p_id": 649,
-                "nature": "Serious"
+                "nature": "Timid"
             }
         },
         "Landorus-Therian":
@@ -139289,11 +139389,11 @@ backup_data = {
                 "p_id": 645,
                 "nature": "Hasty"
             },
-            "Lvl 89 Pokémon Trainer Steven2 ":
+            "Lvl 91 Pokémon Trainer Steven2 ":
             {
                 "evs":
                 {},
-                "level": 89,
+                "level": 91,
                 "ivs":
                 {
                     "hp": 31,
@@ -139303,7 +139403,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "item": "Passho Berry",
+                "item": "Focus Sash",
                 "class_id": 219,
                 "moves":
                 [
@@ -139316,7 +139416,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "ivs_raw": 255,
                 "p_id": 645,
-                "nature": "Modest"
+                "nature": "Adamant"
             }
         },
         "Aerodactyl":
@@ -139379,11 +139479,11 @@ backup_data = {
                 "p_id": 142,
                 "nature": "Hasty"
             },
-            "Lvl 51 Pokémon Trainer Steven":
+            "Lvl 53 Pokémon Trainer Steven":
             {
                 "evs":
                 {},
-                "level": 51,
+                "level": 53,
                 "ivs":
                 {
                     "hp": 31,
@@ -139406,7 +139506,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "ivs_raw": 223,
                 "p_id": 142,
-                "nature": "Naughty"
+                "nature": "Jolly"
             },
             "Lvl 48 Ruin Maniac Hayes":
             {
@@ -139495,11 +139595,11 @@ backup_data = {
         },
         "Metagross":
         {
-            "Lvl 52 Pokémon Trainer Steven":
+            "Lvl 54 Pokémon Trainer Steven":
             {
                 "evs":
                 {},
-                "level": 52,
+                "level": 54,
                 "ivs":
                 {
                     "hp": 31,
@@ -139522,7 +139622,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "ivs_raw": 223,
                 "p_id": 376,
-                "nature": "Bashful"
+                "nature": "Brave"
             }
         },
         "Metagross-Mega":
@@ -139585,11 +139685,11 @@ backup_data = {
                 "p_id": 376,
                 "nature": "Naive"
             },
-            "Lvl 90 Pokémon Trainer Steven2 ":
+            "Lvl 92 Pokémon Trainer Steven2 ":
             {
                 "evs":
                 {},
-                "level": 90,
+                "level": 92,
                 "ivs":
                 {
                     "hp": 31,
@@ -139603,16 +139703,16 @@ backup_data = {
                 "class_id": 219,
                 "moves":
                 [
-                    "Heavy Slam",
+                    "Meteor Mash",
                     "Zen Headbutt",
                     "Wild Charge",
                     "Bullet Punch"
                 ],
                 "sub_index": 5,
                 "ability": "Tough Claws",
-                "ivs_raw": 255,
+                "ivs_raw": 191,
                 "p_id": 376,
-                "nature": "Quirky"
+                "nature": "Naughty"
             }
         },
         "Tirtouga":
@@ -140746,7 +140846,7 @@ backup_data = {
                     "Earthquake"
                 ],
                 "sub_index": 0,
-                "ability": "Sand Force",
+                "ability": "Filter",
                 "ivs_raw": 40,
                 "p_id": 450,
                 "nature": "Sassy"
@@ -141315,7 +141415,7 @@ backup_data = {
                 "nature": "Rash"
             }
         },
-        "Shaymin-Sky":
+        "Shaymin":
         {
             "Lvl 76 Pokémon Trainer Wally2 ":
             {
@@ -142674,7 +142774,7 @@ backup_data = {
                     "Sucker Punch",
                     "Zen Headbutt",
                     "Iron Tail",
-                    "Last Resort"
+                    "Double-Edge"
                 ],
                 "sub_index": 0,
                 "ability": "Fur Coat",
@@ -142685,11 +142785,11 @@ backup_data = {
         },
         "Cradily":
         {
-            "Lvl 50 Pokémon Trainer Steven":
+            "Lvl 52 Pokémon Trainer Steven":
             {
                 "evs":
                 {},
-                "level": 50,
+                "level": 52,
                 "ivs":
                 {
                     "hp": 31,
@@ -142710,9 +142810,9 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Storm Drain",
-                "ivs_raw": 95,
+                "ivs_raw": 31,
                 "p_id": 346,
-                "nature": "Bold"
+                "nature": "Calm"
             },
             "Lvl 56 Ace Trainer Indigo2 ":
             {
@@ -142743,11 +142843,11 @@ backup_data = {
                 "p_id": 346,
                 "nature": "Relaxed"
             },
-            "Lvl 89 Pokémon Trainer Steven2 ":
+            "Lvl 91 Pokémon Trainer Steven2 ":
             {
                 "evs":
                 {},
-                "level": 89,
+                "level": 91,
                 "ivs":
                 {
                     "hp": 31,
@@ -142764,13 +142864,13 @@ backup_data = {
                     "Giga Drain",
                     "Earth Power",
                     "Power Gem",
-                    "Protect"
+                    "Leech Seed"
                 ],
                 "sub_index": 4,
                 "ability": "Storm Drain",
-                "ivs_raw": 63,
+                "ivs_raw": 223,
                 "p_id": 346,
-                "nature": "Bashful"
+                "nature": "Calm"
             }
         },
         "Simisage":
@@ -142915,10 +143015,10 @@ backup_data = {
                 "class_id": 176,
                 "moves":
                 [
-                    "Earth Power",
                     "Drain Punch",
                     "Power Whip",
-                    "Hydro Pump"
+                    "Hydro Pump",
+                    "Stealth Rock"
                 ],
                 "sub_index": 0,
                 "ability": "Water Absorb",
@@ -144156,13 +144256,13 @@ backup_data = {
                     "sd": 25,
                     "sp": 25
                 },
-                "item": "Passho Berry",
+                "item": "Oran Berry",
                 "class_id": 61,
                 "moves":
                 [
                     "Bulldoze",
                     "Aerial Ace",
-                    "Feint Attack",
+                    "Rock Tomb",
                     "Metal Claw"
                 ],
                 "sub_index": 3,
