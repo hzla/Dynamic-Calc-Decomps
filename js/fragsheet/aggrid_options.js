@@ -421,7 +421,14 @@ function getEvolutionChain(speciesName) {
         return []
     }
 
-    return [resolved.ancestor].concat(resolved.ancestorEntry["evos"] || [])
+    // Some form-heavy families collapse multiple form evolutions onto the same
+    // base species in evoData (for example Deerling -> Sawsbuck repeated 4x).
+    // Deduping here prevents the "later evolution" checks from treating the
+    // same species as its own later evolution and hiding the row.
+    let rawChain = [resolved.ancestor].concat(resolved.ancestorEntry["evos"] || [])
+    return rawChain.filter(function(chainSpeciesName, index) {
+        return rawChain.indexOf(chainSpeciesName) === index
+    })
 }
 
 function getSpeciesFamilyMembers(speciesName) {

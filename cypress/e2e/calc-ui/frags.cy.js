@@ -81,6 +81,89 @@ for (let calc of calcs) {
     })      
   })  
 
+  describe(`${calc.title} Fragsheet`, () => {
+    it('keeps Sawsbuck visible when Deerling evo data contains duplicate form entries', () => {
+      const batchId = 'sawsbuck-form-regression'
+      const customSets = {
+        Deerling: {
+          'My Box': {
+            ability: 'Chlorophyll',
+            ivs: { hp: 31, at: 31, df: 31, sp: 31, sa: 31, sd: 31 },
+            nature: 'Jolly',
+            nn: 'Spring',
+            status: 'Healthy',
+            met: 'ROUTE 117',
+            boxImportBatchId: batchId
+          }
+        },
+        Sawsbuck: {
+          'My Box': {
+            ability: 'Sap Sipper',
+            ivs: { hp: 31, at: 31, df: 31, sp: 31, sa: 31, sd: 31 },
+            nature: 'Adamant',
+            nn: 'Kaylee',
+            status: 'Healthy',
+            met: 'ROUTE 118',
+            boxImportBatchId: batchId
+          }
+        }
+      }
+
+      const encounters = {
+        Deerling: {
+          setData: {
+            'My Box': {
+              ability: 'Chlorophyll',
+              ivs: { hp: 31, at: 31, df: 31, sp: 31, sa: 31, sd: 31 },
+              nature: 'Jolly',
+              nn: 'Spring',
+              status: 'Healthy',
+              met: 'ROUTE 117',
+              boxImportBatchId: batchId
+            }
+          },
+          fragCount: 0,
+          frags: [],
+          prevoFragCount: 0,
+          alive: true,
+          hide: false
+        },
+        Sawsbuck: {
+          setData: {
+            'My Box': {
+              ability: 'Sap Sipper',
+              ivs: { hp: 31, at: 31, df: 31, sp: 31, sa: 31, sd: 31 },
+              nature: 'Adamant',
+              nn: 'Kaylee',
+              status: 'Healthy',
+              met: 'ROUTE 118',
+              boxImportBatchId: batchId
+            }
+          },
+          fragCount: 0,
+          frags: [],
+          prevoFragCount: 0,
+          alive: true,
+          hide: false
+        }
+      }
+
+      cy.visit(calc.url.replace('index', 'frags'), {
+        onBeforeLoad(win) {
+          win.localStorage.clear()
+          win.localStorage.customsets = JSON.stringify(customSets)
+          win.localStorage.encounters = JSON.stringify(encounters)
+        }
+      })
+
+      cy.window().should('have.property', 'gridApi')
+      cy.window().then((win) => {
+        expect(win.gridApi.getDisplayedRowCount()).to.eq(1)
+        expect(win.gridApi.getDisplayedRowAtIndex(0).data.species).to.eq('Sawsbuck')
+      })
+    })
+  })
+
   // describe(`${calc.title} Fragsheet`, () => {
   //   before(() => {
         
@@ -164,6 +247,5 @@ for (let calc of calcs) {
 
 
 // check to make sure every listed move exists
-
 
 
