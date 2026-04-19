@@ -4,7 +4,14 @@ function get_trainer_names() {
     var all_poks = setdex
     var trainer_names = [] 
 
+    if (!all_poks || typeof all_poks !== "object") {
+        return trainer_names
+    }
+
     for (const [pok_name, poks] of Object.entries(all_poks)) {
+        if (!poks || typeof poks !== "object") {
+            continue
+        }
         var pok_tr_names = Object.keys(poks)
         for (i in pok_tr_names) {
            var trainer_name = pok_tr_names[i]
@@ -20,7 +27,14 @@ function get_custom_trainer_names() {
     var all_poks = setdex
     var trainer_names = {} 
 
+    if (!all_poks || typeof all_poks !== "object") {
+        return trainer_names
+    }
+
     for (const [pok_name, poks] of Object.entries(all_poks)) {
+        if (!poks || typeof poks !== "object") {
+            continue
+        }
         var pok_tr_names = Object.keys(poks)
         for (i in pok_tr_names) {
            var trainer_name = pok_tr_names[i]

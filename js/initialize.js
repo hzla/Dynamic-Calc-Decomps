@@ -153,15 +153,14 @@ $(document).ready(function() {
             onNotFound: (src) => console.log(`Not found: ${src}`)
     });    
   } else {
-    $.get(npoint, function(data){
-        npoint_data = data
-        backup_data = data
-        gameGen = settings.damageGen
-        settings.gameSwitchIn = gameGen
-        settings.sourceType = "full"
-        toggleGen3SwitchGuide();
-        TITLE = ""
-        TITLE = npoint_data.title || SOURCES[params.get("data")] || "Untitled"
+	    $.get(npoint, function(data){
+	        npoint_data = data
+	        backup_data = data
+	        gameGen = settings.damageGen
+	        settings.gameSwitchIn = gameGen
+	        toggleGen3SwitchGuide();
+	        TITLE = ""
+	        TITLE = npoint_data.title || SOURCES[params.get("data")] || "Untitled"
         document.title = TITLE + " Calculator"
         setBaseGame(TITLE)
         $('#rom-title').text(TITLE).show()
