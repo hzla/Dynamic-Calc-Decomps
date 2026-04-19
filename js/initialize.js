@@ -245,7 +245,7 @@ function setGameSettings(title) {
     $('#maxR').next().remove()
 
     
-  } else if (title == "Sterling Silver") {
+  } else if (title.includes("Sterling Silver")) {
     gameGen = 4
     settings.damageGen = 4
     if (!settings.noSwitch) {

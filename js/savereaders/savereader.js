@@ -24,7 +24,12 @@ $(document).ready(function() {
         sav_pok_growths = pk_pok_growths
     }
 
-    document.getElementById('save-upload-g45').addEventListener('change', function(event, forceBlock2=false) {
+    const saveUploadG45 = document.getElementById('save-upload-g45');
+    if (!saveUploadG45) {
+        return;
+    }
+
+    saveUploadG45.addEventListener('change', function(event, forceBlock2=false) {
     if ($('#save-upload').length > 0) return;
     const file = event.target.files[0];
     if (file) {
