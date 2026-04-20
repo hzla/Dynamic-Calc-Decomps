@@ -233,6 +233,8 @@ local ensureDirExistsForPath
 local appendBattleLogEvent
 local emitCondensedRecord
 local howToUseBuffer
+local buildPlayerPartySnapshot
+local buildEnemyPartySnapshot
 
 local JSON_NULL = rawget(_G, "JSON_NULL")
 if JSON_NULL == nil or type(JSON_NULL) ~= "table" then
@@ -1300,6 +1302,145 @@ local function updateMasterFile(_trainerId, _secretId)
     return flushCurrentAttemptMasterIfDirty(true)
 end
 
+local function toWholeNumber(value)
+    local n = tonumber(value)
+    if n == nil then
+        return nil
+    end
+    return math.floor(n)
+end
+
+local function buildAlivePartySlotMap(party, slotFieldIsOneBased)
+    local aliveBySlot = {}
+    if type(party) ~= "table" then
+        return aliveBySlot
+    end
+    for fallbackIndex = 1, #party do
+        local mon = party[fallbackIndex]
+        if type(mon) == "table" then
+            local slot = toWholeNumber(mon.slot)
+            if slot == nil then
+                slot = fallbackIndex - 1
+            elseif slotFieldIsOneBased then
+                slot = slot - 1
+            end
+            if slot ~= nil and slot >= 0 and slot < CONFIG.struct.party_size then
+                local hp = toWholeNumber(mon.hp)
+                if hp == nil then
+                    hp = toWholeNumber(mon.currentHP)
+                end
+                if hp ~= nil then
+                    aliveBySlot[slot] = hp > 0
+                end
+            end
+        end
+    end
+    return aliveBySlot
+end
+
+local function findLatestSessionStartIndex(events)
+    if type(events) ~= "table" then
+        return nil
+    end
+    for i = #events, 1, -1 do
+        local ev = events[i]
+        if type(ev) == "table" and ev.type == "session_start" then
+            return i
+        end
+    end
+    return nil
+end
+
+local function sanitizeCurrentSessionKoEvents(events, playerParty, enemyParty)
+    if type(events) ~= "table" then
+        return events, false, 0
+    end
+
+    local sessionStart = findLatestSessionStartIndex(events)
+    if sessionStart == nil then
+        return events, false, 0
+    end
+
+    local playerAliveBySlot = buildAlivePartySlotMap(playerParty, true)
+    local enemyAliveBySlot = buildAlivePartySlotMap(enemyParty, false)
+    local seenVictims = {}
+    local out = {}
+    local dropped = 0
+
+    for i = 1, sessionStart - 1 do
+        out[#out + 1] = events[i]
+    end
+
+    for i = sessionStart, #events do
+        local ev = events[i]
+        local keep = true
+        if type(ev) == "table" then
+            local evType = ev.type
+            if evType == "aiKo" then
+                local playerSlot = toWholeNumber(ev.pSlot)
+                local victimKey = (playerSlot ~= nil) and ("aiKo:" .. tostring(playerSlot)) or nil
+                if playerSlot ~= nil and playerAliveBySlot[playerSlot] == true then
+                    keep = false
+                elseif victimKey ~= nil and seenVictims[victimKey] then
+                    keep = false
+                elseif victimKey ~= nil then
+                    seenVictims[victimKey] = true
+                end
+            elseif evType == "pKo" then
+                local enemySlot = toWholeNumber(ev.aiPartySlot)
+                local victimKey = (enemySlot ~= nil) and ("pKo:" .. tostring(enemySlot)) or nil
+                if enemySlot ~= nil and enemyAliveBySlot[enemySlot] == true then
+                    keep = false
+                elseif victimKey ~= nil and seenVictims[victimKey] then
+                    keep = false
+                elseif victimKey ~= nil then
+                    seenVictims[victimKey] = true
+                end
+            end
+        end
+
+        if keep then
+            out[#out + 1] = ev
+        else
+            dropped = dropped + 1
+        end
+    end
+
+    if dropped > 0 then
+        return out, true, dropped
+    end
+    return events, false, 0
+end
+
+local function getEnemyPartyForKoValidation()
+    local liveEnemyParty = buildEnemyPartySnapshot()
+    for _, mon in pairs(liveEnemyParty) do
+        if type(mon) == "table" then
+            return liveEnemyParty
+        end
+    end
+    return state.prevEnemyParty or {}
+end
+
+local function validateCurrentSessionKoEvents()
+    local events, ctx = getCurrentAttemptEvents()
+    if type(events) ~= "table" or type(ctx) ~= "table" then
+        return
+    end
+
+    local playerParty = buildPlayerPartySnapshot()
+    local enemyParty = getEnemyPartyForKoValidation()
+    local sanitized, changed, dropped = sanitizeCurrentSessionKoEvents(events, playerParty, enemyParty)
+    if not changed then
+        return
+    end
+
+    state.export.eventsByAttempt[ctx.attempt] = sanitized
+    cacheAttemptContext(ctx)
+    markAttemptMasterDirty(ctx.attempt, false)
+    log(string.format("[Gen3 M2] KO validation removed %d invalid or duplicate KO event(s) from the current session.", dropped))
+end
+
 appendBattleLogEvent = function(record)
     if type(record) ~= "table" then
         return
@@ -1316,6 +1457,10 @@ appendBattleLogEvent = function(record)
         end
     end
     events[#events + 1] = record
+    if record.type == "aiKo" or record.type == "pKo" or record.type == "session_end" then
+        validateCurrentSessionKoEvents()
+        events = state.export.eventsByAttempt[ctx.attempt] or events
+    end
     cacheAttemptContext(ctx)
     markAttemptMasterDirty(ctx.attempt, false)
 end
@@ -1875,7 +2020,7 @@ local function getPlayerPartyCount()
     return countLikelyPartyMons(getPlayerPartyBase())
 end
 
-local function buildPlayerPartySnapshot()
+buildPlayerPartySnapshot = function()
     local out = {}
     local playerParty = getPlayerPartyBase()
     if not playerParty then
@@ -1932,7 +2077,7 @@ local function buildPlayerPartySnapshot()
     return out
 end
 
-local function buildEnemyPartySnapshot()
+buildEnemyPartySnapshot = function()
     local out = {}
     if not CONFIG.addresses.gEnemyParty then
         return out
@@ -2773,8 +2918,24 @@ local function emitMissingEnemyPartyKoEvents(snapshots, enemyParty)
     end
 end
 
+local function isSameTrackedMon(prevSnap, curSnap)
+    if not prevSnap or not curSnap then
+        return false
+    end
+    if prevSnap.side ~= curSnap.side then
+        return false
+    end
+    return prevSnap.partyIndex == curSnap.partyIndex
+end
+
 local function emitKoEvent(snapshots, koSnap, hpBefore, hpAfter)
-    local koKey = string.format("%s:%d:%d:%d:%d", tostring(state.sessionSignature), koSnap.battler, state.actionIndex, hpBefore, hpAfter)
+    local koKey = string.format(
+        "%s:%d:%d:%d",
+        tostring(state.sessionSignature),
+        tonumber(koSnap.side) or -1,
+        tonumber(koSnap.partyIndex) or -1,
+        tonumber(koSnap.species) or 0
+    )
     if state.emittedKoKeys[koKey] then
         return
     end
@@ -3031,16 +3192,20 @@ local function pollBattleState()
             local prev = state.prevBattlers[b]
             local cur = snapshots[b]
             if prev and cur then
-                local moveEvent = detectMoveUse(prev, cur)
-                if moveEvent then
-                    state.actionIndex = state.actionIndex + 1
-                    emitMoveEvent(cur, moveEvent.slot, moveEvent.ppBefore, moveEvent.ppAfter, moveEvent.moveId)
-                    state.lastMoveByBattler[b] = {
-                        moveId = moveEvent.moveId,
-                        actionIndex = state.actionIndex,
-                        species = cur.species,
-                        side = cur.side,
-                    }
+                if not isSameTrackedMon(prev, cur) then
+                    state.lastMoveByBattler[b] = nil
+                else
+                    local moveEvent = detectMoveUse(prev, cur)
+                    if moveEvent then
+                        state.actionIndex = state.actionIndex + 1
+                        emitMoveEvent(cur, moveEvent.slot, moveEvent.ppBefore, moveEvent.ppAfter, moveEvent.moveId)
+                        state.lastMoveByBattler[b] = {
+                            moveId = moveEvent.moveId,
+                            actionIndex = state.actionIndex,
+                            species = cur.species,
+                            side = cur.side,
+                        }
+                    end
                 end
             end
         end
@@ -3049,7 +3214,7 @@ local function pollBattleState()
         for b = 0, battlersCount - 1 do
             local prev = state.prevBattlers[b]
             local cur = snapshots[b]
-            if prev and cur and prev.hp ~= nil and cur.hp ~= nil and prev.hp ~= cur.hp then
+            if isSameTrackedMon(prev, cur) and prev.hp ~= nil and cur.hp ~= nil and prev.hp ~= cur.hp then
                 emitHpEvent(cur, prev.hp, cur.hp)
                 if prev.hp > 0 and cur.hp == 0 then
                     emitKoEvent(snapshots, cur, prev.hp, cur.hp)
