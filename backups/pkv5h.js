@@ -5243,7 +5243,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Sassy",
                 "moves": [
                     "Metronome",
                     "-",
@@ -5489,7 +5489,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Brave",
                 "moves": [
                     "Thief",
                     "Embargo",
@@ -6539,7 +6539,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -8788,7 +8788,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Naughty",
                 "moves": [
                     "Tailwind",
                     "Hurricane",
@@ -9456,7 +9456,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -10631,7 +10631,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -10753,7 +10753,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -13404,7 +13404,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Bashful",
                 "moves": [
                     "Fake Out",
                     "U-turn",
@@ -13593,7 +13593,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Adamant",
                 "moves": [
                     "Psychic",
                     "Wish",
@@ -13624,7 +13624,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Hasty",
+                "nature": "Impish",
                 "moves": [
                     "Disable",
                     "Psychic",
@@ -14171,7 +14171,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -14645,7 +14645,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Careful",
                 "moves": [
                     "Destiny Bond",
                     "Lunar Dance",
@@ -14653,7 +14653,7 @@ backup_data = {
                     "Confuse Ray"
                 ],
                 "sub_index": 0,
-                "ability": " -",
+                "ability": "Levitate",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -18373,7 +18373,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -18963,7 +18963,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -19692,7 +19692,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -20009,7 +20009,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Hardy",
                 "moves": [
                     "Crabhammer",
                     "Night Slash",
@@ -20165,7 +20165,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Jolly",
                 "moves": [
                     "Fling",
                     "Shadow Sneak",
@@ -20349,7 +20349,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Quiet",
                 "moves": [
                     "Mystical Fire",
                     "Thunderbolt",
@@ -20382,7 +20382,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Gentle",
                 "moves": [
                     "Perish Song",
                     "Substitute",
@@ -20660,7 +20660,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Relaxed",
+                "nature": "Modest",
                 "moves": [
                     "Dark Pulse",
                     "Ominous Wind",
@@ -22364,7 +22364,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -22676,7 +22676,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bold",
+                "nature": "Adamant",
                 "moves": [
                     "Explosion",
                     "Earthquake",
@@ -22793,7 +22793,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -23257,7 +23257,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Docile",
                 "moves": [
                     "Blizzard",
                     "Sludge Bomb",
@@ -23382,7 +23382,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Adamant",
                 "moves": [
                     "Toxic Spikes",
                     "Muddy Water",
@@ -23651,7 +23651,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -24794,7 +24794,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Brave",
                 "moves": [
                     "Earthquake",
                     "Ice Ball",
@@ -25044,7 +25044,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Lax",
                 "moves": [
                     "Rage",
                     "Beat Up",
@@ -25679,7 +25679,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -25937,7 +25937,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Quiet",
                 "moves": [
                     "Rage",
                     "Outrage",
@@ -26233,7 +26233,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -27286,7 +27286,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 24,
                     "at": 24,
@@ -28891,7 +28891,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Bold",
                 "moves": [
                     "Metronome",
                     "-",
@@ -28952,7 +28952,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Lax",
                 "moves": [
                     "Blizzard",
                     "Scald",
@@ -30973,7 +30973,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 3,
                     "at": 3,
@@ -34519,7 +34519,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -34549,7 +34549,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -34835,7 +34835,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Brave",
+                "nature": "Hasty",
                 "moves": [
                     "Lovely Kiss",
                     "HP Fire",
@@ -36534,7 +36534,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -36880,7 +36880,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -37471,7 +37471,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -38026,7 +38026,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -38712,7 +38712,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Adamant",
                 "moves": [
                     "Fire Punch",
                     "Facade",
@@ -38838,7 +38838,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Sassy",
                 "moves": [
                     "Gyro Ball",
                     "Explosion",
@@ -38846,7 +38846,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 "sub_index": 5,
-                "ability": " -",
+                "ability": "Heatproof",
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
@@ -39458,7 +39458,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Gentle",
+                "nature": "Quirky",
                 "moves": [
                     "Curse",
                     "Wood Hammer",
@@ -40284,7 +40284,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Lonely",
                 "moves": [
                     "Ominous Wind",
                     "Tailwind",
@@ -40527,7 +40527,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Brave",
                 "moves": [
                     "Head Smash",
                     "Pursuit",
@@ -40557,7 +40557,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Lonely",
+                "nature": "Modest",
                 "moves": [
                     "Hammer Arm",
                     "Head Smash",
@@ -41092,7 +41092,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Mild",
                 "moves": [
                     "Ice Beam",
                     "Thunderbolt",
@@ -41655,7 +41655,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Hardy",
                 "moves": [
                     "Rock Polish",
                     "Flare Blitz",
@@ -42855,7 +42855,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Rash",
+                "nature": "Sassy",
                 "moves": [
                     "Psychic",
                     "Shadow Ball",
@@ -44328,7 +44328,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Lonely",
                 "moves": [
                     "Nasty Plot",
                     "Focus Blast",
@@ -45034,7 +45034,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Quirky",
                 "moves": [
                     "Metronome",
                     "-",
@@ -45157,7 +45157,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Lonely",
                 "moves": [
                     "Blizzard",
                     "Psychic",
@@ -45239,7 +45239,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -45248,7 +45248,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Timid",
+                "nature": "Naive",
                 "moves": [
                     "Trick Room",
                     "Future Sight",
@@ -45311,7 +45311,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Gentle",
                 "moves": [
                     "Nasty Plot",
                     "Blizzard",
@@ -45405,7 +45405,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Modest",
                 "moves": [
                     "Psychic",
                     "Calm Mind",
@@ -45459,7 +45459,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -46628,7 +46628,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -46670,7 +46670,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Quiet",
+                "nature": "Naughty",
                 "moves": [
                     "Crabhammer",
                     "X-Scissor",
@@ -47737,7 +47737,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Careful",
                 "moves": [
                     "Sing",
                     "Hyper Beam",
@@ -48079,7 +48079,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Hardy",
                 "moves": [
                     "Scald",
                     "Icy Wind",
@@ -48605,7 +48605,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Modest",
                 "moves": [
                     "Sucker Punch",
                     "Super Fang",
@@ -48942,7 +48942,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Serious",
+                "nature": "Naive",
                 "moves": [
                     "Spikes",
                     "Explosion",
@@ -49089,7 +49089,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -49343,7 +49343,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Modest",
                 "moves": [
                     "Swords Dance",
                     "Close Combat",
@@ -49951,7 +49951,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -50045,7 +50045,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -50086,7 +50086,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Rash",
                 "moves": [
                     "Sing",
                     "Hydro Pump",
@@ -50109,7 +50109,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -50118,7 +50118,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Brave",
                 "moves": [
                     "Blizzard",
                     "Muddy Water",
@@ -50243,7 +50243,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bold",
+                "nature": "Mild",
                 "moves": [
                     "Muddy Water",
                     "Thunder",
@@ -50494,7 +50494,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Docile",
                 "moves": [
                     "Gunk Shot",
                     "Explosion",
@@ -51144,7 +51144,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Relaxed",
+                "nature": "Naughty",
                 "moves": [
                     "Outrage",
                     "Flare Blitz",
@@ -51265,7 +51265,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Bashful",
                 "moves": [
                     "Fire Fang",
                     "Extreme Speed",
@@ -51601,7 +51601,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Timid",
+                "nature": "Sassy",
                 "moves": [
                     "Extreme Speed",
                     "Flare Blitz",
@@ -52323,7 +52323,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Jolly",
                 "moves": [
                     "Sheer Cold",
                     "Aqua Tail",
@@ -52537,7 +52537,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -52608,7 +52608,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Quirky",
                 "moves": [
                     "Spikes",
                     "Explosion",
@@ -53221,7 +53221,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -53436,7 +53436,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -53506,7 +53506,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Quirky",
                 "moves": [
                     "Curse",
                     "Body Slam",
@@ -53539,7 +53539,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Serious",
                 "moves": [
                     "Pursuit",
                     "Outrage",
@@ -54448,7 +54448,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Brave",
+                "nature": "Hasty",
                 "moves": [
                     "Head Smash",
                     "Giga Impact",
@@ -55037,7 +55037,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Naive",
                 "moves": [
                     "Thunder Wave",
                     "Zen Headbutt",
@@ -55191,7 +55191,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Gentle",
+                "nature": "Lonely",
                 "moves": [
                     "Sing",
                     "Focus Blast",
@@ -55338,7 +55338,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -55438,7 +55438,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Timid",
+                "nature": "Serious",
                 "moves": [
                     "Sand Tomb",
                     "Ice Ball",
@@ -55781,7 +55781,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Modest",
+                "nature": "Calm",
                 "moves": [
                     "Sky Attack",
                     "X-Scissor",
@@ -56112,7 +56112,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -56173,7 +56173,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -56890,7 +56890,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -57195,7 +57195,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -57326,7 +57326,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Jolly",
+                "nature": "Timid",
                 "moves": [
                     "Hurricane",
                     "Attack Order",
@@ -57483,7 +57483,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Naughty",
                 "moves": [
                     "Attack Order",
                     "Defend Order",
@@ -57513,7 +57513,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Lonely",
                 "moves": [
                     "Attack Order",
                     "Hurricane",
@@ -58766,7 +58766,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Docile",
                 "moves": [
                     "Rest",
                     "Waterfall",
@@ -58831,7 +58831,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Sassy",
                 "moves": [
                     "Curse",
                     "Aqua Tail",
@@ -58839,7 +58839,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 "sub_index": 1,
-                "ability": "Hydration",
+                "ability": "Swift Swim",
                 "gender": "Female",
                 "location": "Galactic HQ",
                 "spriteId": 104,
@@ -58949,7 +58949,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -58958,7 +58958,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Adamant",
                 "moves": [
                     "Avalanche",
                     "Waterfall",
@@ -59051,7 +59051,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Bold",
                 "moves": [
                     "Muddy Water",
                     "Earthquake",
@@ -59205,7 +59205,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Lax",
+                "nature": "Docile",
                 "moves": [
                     "Avalanche",
                     "Earthquake",
@@ -59661,7 +59661,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 3,
                     "at": 3,
@@ -59856,7 +59856,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Timid",
                 "moves": [
                     "Dragon Dance",
                     "Roost",
@@ -60161,7 +60161,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -60315,7 +60315,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -60669,7 +60669,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Quiet",
+                "nature": "Quirky",
                 "moves": [
                     "Vise Grip",
                     "Megahorn",
@@ -61066,7 +61066,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -62520,7 +62520,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -62529,7 +62529,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Rash",
                 "moves": [
                     "Nature Power",
                     "Scald",
@@ -63122,7 +63122,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Gentle",
                 "moves": [
                     "Aqua Tail",
                     "Bulldoze",
@@ -63673,7 +63673,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Bashful",
                 "moves": [
                     "Calm Mind",
                     "Earthquake",
@@ -65277,7 +65277,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Bold",
                 "moves": [
                     "Giga Drain",
                     "Leech Seed",
@@ -65298,7 +65298,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -66354,7 +66354,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Timid",
                 "moves": [
                     "Draco Meteor",
                     "Dragon Rush",
@@ -66737,7 +66737,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Naughty",
                 "moves": [
                     "Ice Shard",
                     "Stone Edge",
@@ -66895,7 +66895,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Naughty",
                 "moves": [
                     "Extrasensory",
                     "Hyper Beam",
@@ -67163,7 +67163,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -68595,7 +68595,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Naive",
                 "moves": [
                     "Avalanche",
                     "Earthquake",
@@ -68655,7 +68655,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naughty",
+                "nature": "Jolly",
                 "moves": [
                     "Waterfall",
                     "Drill Peck",
@@ -69363,7 +69363,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naive",
+                "nature": "Sassy",
                 "moves": [
                     "Ice Ball",
                     "Accelerock",
@@ -70150,7 +70150,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -70181,7 +70181,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -70252,7 +70252,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Careful",
                 "moves": [
                     "Low Kick",
                     "Avalanche",
@@ -70559,7 +70559,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Relaxed",
                 "moves": [
                     "Toxic",
                     "Blizzard",
@@ -70777,7 +70777,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Quirky",
                 "moves": [
                     "Blizzard",
                     "Earth Power",
@@ -71029,7 +71029,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Gentle",
+                "nature": "Rash",
                 "moves": [
                     "Hurricane",
                     "Supersonic",
@@ -71053,7 +71053,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -71178,7 +71178,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -71208,7 +71208,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -71310,7 +71310,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Sassy",
                 "moves": [
                     "Sky Attack",
                     "Rock Slide",
@@ -71333,7 +71333,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -71402,7 +71402,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Relaxed",
+                "nature": "Lonely",
                 "moves": [
                     "Sky Attack",
                     "Head Smash",
@@ -72337,7 +72337,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Impish",
                 "moves": [
                     "Scald",
                     "Signal Beam",
@@ -72433,7 +72433,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Mild",
                 "moves": [
                     "Hydro Pump",
                     "Bug Buzz",
@@ -72466,7 +72466,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Naive",
                 "moves": [
                     "Dive",
                     "Bounce",
@@ -73072,7 +73072,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Hardy",
                 "moves": [
                     "Aqua Tail",
                     "Fake Out",
@@ -73195,7 +73195,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Brave",
                 "moves": [
                     "Follow Me",
                     "Yawn",
@@ -73414,7 +73414,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Calm",
                 "moves": [
                     "Cross Chop",
                     "Rock Slide",
@@ -73988,7 +73988,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Quiet",
                 "moves": [
                     "Dragon Rush",
                     "Hydro Pump",
@@ -74109,7 +74109,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Impish",
+                "nature": "Hasty",
                 "moves": [
                     "Blizzard",
                     "Twister",
@@ -75303,7 +75303,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Modest",
                 "moves": [
                     "Magnet Rise",
                     "Discharge",
@@ -76013,7 +76013,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Rash",
                 "moves": [
                     "Sleep Powder",
                     "Power Whip",
@@ -76356,7 +76356,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Hardy",
+                "nature": "Adamant",
                 "moves": [
                     "Superpower",
                     "Rock Slide",
@@ -76388,7 +76388,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Naive",
                 "moves": [
                     "Blizzard",
                     "Pursuit",
@@ -76453,7 +76453,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Rash",
                 "moves": [
                     "Blizzard",
                     "Ancient Power",
@@ -76537,7 +76537,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -77350,7 +77350,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -78409,7 +78409,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Lax",
                 "moves": [
                     "Hail Ball",
                     "Fire Spin",
@@ -78440,7 +78440,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Timid",
+                "nature": "Quirky",
                 "moves": [
                     "Blast Burn",
                     "Energy Ball",
@@ -78504,7 +78504,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Rash",
+                "nature": "Mild",
                 "moves": [
                     "Blast Burn",
                     "Protect",
@@ -78755,7 +78755,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Serious",
                 "moves": [
                     "Fury Cutter",
                     "Crunch",
@@ -79354,7 +79354,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -79736,7 +79736,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Hasty",
+                "nature": "Lonely",
                 "moves": [
                     "Pursuit",
                     "Shadow Punch",
@@ -79766,7 +79766,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Calm",
                 "moves": [
                     "Trick Room",
                     "Shadow Punch",
@@ -80041,7 +80041,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Bold",
                 "moves": [
                     "Swift",
                     "Nasty Plot",
@@ -80335,7 +80335,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -80977,7 +80977,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -80986,7 +80986,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Hasty",
                 "moves": [
                     "Teeter Dance",
                     "Muddy Water",
@@ -82018,7 +82018,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Serious",
                 "moves": [
                     "Crabhammer",
                     "Aerial Ace",
@@ -83203,7 +83203,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Lax",
                 "moves": [
                     "Sand Tomb",
                     "Rock Wrecker",
@@ -83573,7 +83573,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 24,
                     "at": 24,
@@ -83703,7 +83703,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -85480,7 +85480,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Adamant",
                 "moves": [
                     "Discharge",
                     "Magnet Bomb",
@@ -85604,7 +85604,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naive",
+                "nature": "Docile",
                 "moves": [
                     "Explosion",
                     "Discharge",
@@ -85844,7 +85844,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Modest",
+                "nature": "Naughty",
                 "moves": [
                     "Flash Cannon",
                     "Extrasensory",
@@ -85876,7 +85876,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Docile",
+                "nature": "Adamant",
                 "moves": [
                     "Follow Me",
                     "Iron Head",
@@ -86384,7 +86384,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Hasty",
                 "moves": [
                     "Bullet Punch",
                     "Night Slash",
@@ -86541,7 +86541,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Quiet",
                 "moves": [
                     "Acupressure",
                     "Pursuit",
@@ -86603,7 +86603,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Lax",
+                "nature": "Quiet",
                 "moves": [
                     "Aqua Tail",
                     "Night Slash",
@@ -87708,7 +87708,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Brave",
+                "nature": "Lonely",
                 "moves": [
                     "Earthquake",
                     "Outrage",
@@ -87836,7 +87836,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naughty",
+                "nature": "Adamant",
                 "moves": [
                     "Sand Tomb",
                     "Dragon Claw",
@@ -88051,7 +88051,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Rash",
                 "moves": [
                     "Discharge",
                     "Ominous Wind",
@@ -88646,7 +88646,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Docile",
                 "moves": [
                     "Thunder Wave",
                     "Air Slash",
@@ -89519,7 +89519,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Quirky",
                 "moves": [
                     "Overheat",
                     "Explosion",
@@ -90328,7 +90328,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "4",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -90804,7 +90804,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Brave",
                 "moves": [
                     "Rock Polish",
                     "Sheer Cold",
@@ -91107,7 +91107,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King's Rock",
+                "item": "King’s Rock",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -91469,7 +91469,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Lonely",
                 "moves": [
                     "Draco Meteor",
                     "Stealth Rock",
@@ -91596,7 +91596,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Docile",
+                "nature": "Lonely",
                 "moves": [
                     "Fury Cutter",
                     "Outrage",
@@ -92320,7 +92320,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Gentle",
+                "nature": "Rash",
                 "moves": [
                     "Magma Storm",
                     "Flash Cannon",
@@ -92382,7 +92382,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naughty",
+                "nature": "Sassy",
                 "moves": [
                     "Gyro Ball",
                     "Explosion",
@@ -92566,7 +92566,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Modest",
+                "nature": "Naughty",
                 "moves": [
                     "Calm Mind",
                     "Ice Beam",
@@ -92600,7 +92600,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Docile",
+                "nature": "Lax",
                 "moves": [
                     "Explosion",
                     "Superpower",
@@ -92663,7 +92663,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Lonely",
                 "moves": [
                     "Twister",
                     "Mystical Fire",
@@ -92794,7 +92794,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Calm",
                 "moves": [
                     "Lunar Dance",
                     "Cosmic Power",
@@ -93549,7 +93549,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Careful",
                 "moves": [
                     "Poison Powder",
                     "-",
@@ -93739,7 +93739,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Naive",
                 "moves": [
                     "Twister",
                     "Mystical Fire",
@@ -93771,7 +93771,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naughty",
+                "nature": "Mild",
                 "moves": [
                     "Mist Ball",
                     "Draco Meteor",
@@ -93834,7 +93834,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Lax",
+                "nature": "Serious",
                 "moves": [
                     "Charge Beam",
                     "HP Fire",
@@ -94298,7 +94298,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Brave",
                 "moves": [
                     "Dark Void",
                     "Confuse Ray",
@@ -94327,7 +94327,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Timid",
                 "moves": [
                     "Dark Void",
                     "Dark Pulse",
@@ -94729,7 +94729,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naughty",
+                "nature": "Mild",
                 "moves": [
                     "Aeroblast",
                     "Iron Head",
@@ -94760,7 +94760,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Hasty",
                 "moves": [
                     "Tail Glow",
                     "Heart Swap",
@@ -94791,7 +94791,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Quirky",
+                "nature": "Rash",
                 "moves": [
                     "Air Slash",
                     "Seed Flare",
@@ -94822,7 +94822,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Jolly",
+                "nature": "Naughty",
                 "moves": [
                     "Aura Sphere",
                     "Dragon Rush",
@@ -94853,7 +94853,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Naughty",
                 "moves": [
                     "Swords Dance",
                     "Earthquake",
