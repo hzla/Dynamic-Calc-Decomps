@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?9a1c65ee" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?68987c81" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?d7ad71a3" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
@@ -319,6 +319,36 @@
                 <button type="button" class="romhack-browser-close" aria-label="Close romhack browser" data-close-romhack-modal>&times;</button>
             </div>
             <div id="romhack-browser-content" class="romhack-browser-content"></div>
+        </div>
+    </div>
+    <div id="box-filter-colors-modal" class="romhack-browser-modal box-filter-colors-modal" role="dialog" aria-modal="true" aria-labelledby="box-filter-colors-title" hidden>
+        <div class="romhack-browser-backdrop" data-close-box-filter-colors></div>
+        <div class="romhack-browser-dialog box-filter-colors-dialog" role="document">
+            <div class="romhack-browser-header">
+                <h2 id="box-filter-colors-title">Box Filter Colors</h2>
+                <button type="button" class="romhack-browser-close" aria-label="Close box filter colors" data-close-box-filter-colors>&times;</button>
+            </div>
+            <div class="romhack-browser-content box-filter-colors-content">
+                <div id="box-filter-colors-options" class="box-filter-colors-sidebar" role="tablist" aria-label="Box filter highlight types"></div>
+                <div class="box-filter-colors-editor">
+                    <div class="box-filter-colors-editor-head">
+                        <div>
+                            <h3 id="box-filter-colors-current-label">Min % Dealt</h3>
+                            <p class="box-filter-colors-subtitle">Choose a base color for this highlight.</p>
+                        </div>
+                        <div class="box-filter-colors-inputs">
+                            <input type="color" id="box-filter-color-picker" aria-label="Choose highlight color">
+                            <input type="text" id="box-filter-color-hex" aria-label="Hex color value" inputmode="text" autocomplete="off" spellcheck="false" maxlength="7">
+                        </div>
+                    </div>
+                    <div id="box-filter-colors-preview" class="box-filter-colors-preview"></div>
+                    <p class="box-filter-colors-note">Might OHKO and Might be OHKOd are always faded versions of the selected OHKO colors.</p>
+                    <div class="box-filter-colors-actions">
+                        <button type="button" id="reset-box-filter-colors" class="box-filter-colors-secondary">Reset Defaults</button>
+                        <button type="button" id="close-box-filter-colors" class="box-filter-colors-primary" data-close-box-filter-colors>Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="calculator-view" class="main-page-view">
@@ -1044,6 +1074,35 @@
                 <div class="filter-row">
                     <div class="filter-desc" id="faster-label">Faster</div>
                     <div id="clear-filters">Clear</div>
+                </div>
+
+                <br>
+                <div class="filter-row">
+                    <div class="filter-desc">Default Colors (off when searching %s)</div>
+                    <label class="switch mini-switch">
+                      <input type="checkbox" id="adv-boxrolls" checked="true">
+                      <span class="slider round"></span>
+                    </label>
+                </div>
+
+                <div class="filter-row">
+                    <div class="filter-desc" id="ohko-label">Ohkos</div>
+                </div>
+
+                <div class="filter-row">
+                    <div class="filter-desc" id="mb-ohko-label">Might Ohko</div>
+                </div>
+
+                <div class="filter-row">
+                    <div class="filter-desc" id="ohkod-label">Is Ohkod</div>
+                </div>
+
+                <div class="filter-row">
+                    <div class="filter-desc" id="mb-ohkod-label">Might be Ohkod</div>
+                </div>
+
+                <div class="box-filter-colors-trigger-row">
+                    <button type="button" id="open-box-filter-colors" class="box-filter-colors-trigger" aria-haspopup="dialog" aria-controls="box-filter-colors-modal">Customize Colors</button>
                 </div>
             </div>
 
@@ -2210,7 +2269,8 @@
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?6f63fcac"></script>
     <script type="text/javascript" src="./js/initialize.js?55c6dcf6"></script>
-    <script type="text/javascript" src="./js/calc_ui/player_box.js?c133edf9"></script>
+    <script type="text/javascript" src="./js/calc_ui/player_box.js?550b3d71"></script>
+    <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?0600edbf"></script>
     <script type="text/javascript" src="./js/calc_ui/switch_preview/g3.js?532505d9"></script>
@@ -2220,7 +2280,7 @@
     <script type="text/javascript" src="./js/calc_ui/ai_display.js?4c40ce6e"></script>
 
     <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?b147e32d"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?67dfff47"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?4b4f43e0"></script>
 
 
 

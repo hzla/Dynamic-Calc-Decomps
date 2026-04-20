@@ -176,6 +176,7 @@ function getBoxMatchupContextOptions() {
             $('.opposing.set-selector').first().val() || "",
             String(settings && settings.damageGen),
             String($('#filter-move').val() || ""),
+            String($('#adv-boxrolls').prop('checked')),
             getBoxInputFingerprint('#p1'),
             getBoxInputFingerprint('#p2'),
             getBoxInputFingerprint('.field-info')
@@ -186,6 +187,7 @@ function getBoxMatchupContextOptions() {
         opponentCurrentHp: opponentCurrentHp,
         opponentSpeed: opponentSpeed,
         selectedMoveIndex: $('#filter-move option:selected').index(),
+        advBoxrollsEnabled: $('#adv-boxrolls').prop('checked'),
         dealtMinRoll: $("#min-dealt").val(),
         takenMaxRoll: $("#max-taken").val()
     }
@@ -379,7 +381,11 @@ function getBoxMatchupMetrics(setId, options) {
         worstMaxTakenMove: "",
         faster: false,
         killer: false,
-        defender: false
+        defender: false,
+        ohko: false,
+        mbOhko: false,
+        ohkod: false,
+        mbOhkod: false
     }
 
     if (!options) {
@@ -403,8 +409,9 @@ function getBoxMatchupMetrics(setId, options) {
 
     var monSpeed = Number(mon.rawStats && mon.rawStats.spe) || 0
     var monHp = Number(mon.originalCurHP) || 0
-    var dealtMinRoll = options.dealtMinRoll === "" ? 10000000 : Number(options.dealtMinRoll)
-    var takenMaxRoll = options.takenMaxRoll === "" ? -100000 : Number(options.takenMaxRoll)
+    var dealtMinRoll = options.dealtMinRoll === "" ? 10000 : Number(options.dealtMinRoll)
+    var takenMaxRoll = options.takenMaxRoll === "" ? -1 : Number(options.takenMaxRoll)
+    var useDefaultColors = dealtMinRoll == 10000 && takenMaxRoll == -1 && options.advBoxrollsEnabled
     var results = calculateAllMoves(settings.damageGen, options.opponent, options.p1field, mon, options.p2field, false)
     var opposingResults = results[0] || []
     var playerResults = results[1] || []
@@ -420,7 +427,11 @@ function getBoxMatchupMetrics(setId, options) {
         worstMaxTakenMove: "",
         faster: monSpeed > options.opponentSpeed,
         killer: false,
-        defender: false
+        defender: false,
+        ohko: false,
+        mbOhko: false,
+        ohkod: false,
+        mbOhkod: false
     }
 
     for (var j = 0; j < 4; j++) {
@@ -435,6 +446,13 @@ function getBoxMatchupMetrics(setId, options) {
                 }
                 if (can_kill(playerDamage, options.opponentCurrentHp * dealtMinRoll / 100)) {
                     metrics.killer = true
+                }
+                if (useDefaultColors) {
+                    if (can_kill(playerDamage, options.opponentCurrentHp)) {
+                        metrics.ohko = true
+                    } else if (kill_count > 0) {
+                        metrics.mbOhko = true
+                    }
                 }
             }
         }
@@ -463,6 +481,14 @@ function getBoxMatchupMetrics(setId, options) {
 
         if (can_topkill(opposingDamage, monHp * takenMaxRoll / 100)) {
             hasUnsafeTakenMove = true
+        }
+        if (useDefaultColors) {
+            can_topkill(opposingDamage, monHp)
+            if (kill_count >= 16) {
+                metrics.ohkod = true
+            } else if (kill_count > 0) {
+                metrics.mbOhkod = true
+            }
         }
     }
 
@@ -1173,9 +1199,7 @@ function box_rolls() {
     var defenders = []
     var faster = []
 
-    $('.killer').removeClass('killer')
-    $('.defender').removeClass('defender')
-    $('.faster').removeClass('faster')
+    $('.player-poks .trainer-pok, .player-party .trainer-pok').removeClass('killer').removeClass('defender').removeClass('ohko').removeClass('mb-ohko').removeClass('ohkod').removeClass('mb-ohkod').removeClass('faster')
 
     var contextOptions = getBoxMatchupContextOptions()
     if (!contextOptions) {
@@ -1197,9 +1221,21 @@ function box_rolls() {
             $(`.trainer-pok[data-id='${box[m]}']`).addClass('killer')
         }
 
+        if (metrics.ohko) {
+            $(`.trainer-pok[data-id='${box[m]}']`).addClass('ohko')
+        } else if (metrics.mbOhko) {
+            $(`.trainer-pok[data-id='${box[m]}']`).addClass('mb-ohko')
+        }
+
         if (metrics.defender) {
             defenders.push({"set": box[m], "move": metrics.worstMaxTakenMove})
             $(`.trainer-pok[data-id='${box[m]}']`).addClass('defender')
+        }
+
+        if (metrics.ohkod) {
+            $(`.trainer-pok[data-id='${box[m]}']`).addClass('ohkod')
+        } else if (metrics.mbOhkod) {
+            $(`.trainer-pok[data-id='${box[m]}']`).addClass('mb-ohkod')
         }
     }
     return {"killers": killers, "defenders": defenders, "faster": faster}  

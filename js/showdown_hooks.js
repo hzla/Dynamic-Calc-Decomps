@@ -505,14 +505,6 @@ $(document).ready(function() {
         e.preventDefault()
     })
 
-    $(document).on('blur', '#max-taken, #min-dealt', function() {
-        if ($(this).val() != "") {
-           box_rolls() 
-        } 
-    })
-
-    $(document).on('change', '#filter-move', box_rolls)
-
     $(document).on('change', '.opposing.set-selector', function() {
         if (isDamageBoxSortKey(BOX_SORT_STATE.key) || $('#player-poks-filter:visible').length > 0) {
             refreshBoxDisplay()
@@ -525,13 +517,14 @@ $(document).ready(function() {
         }
     })
 
+    $(document).on('blur', '#max-taken, #min-dealt', box_rolls)
+    $(document).on('change', '#filter-move', box_rolls)
+    $(document).on('change', '#adv-boxrolls', box_rolls)
+
     $(document).on('click', '#clear-filters', function(){
         $('#max-taken').val("")
         $('#min-dealt').val("")
-        var poks = $('#p1').find(".trainer-pok")
-
-        poks.removeClass('defender')
-        poks.removeClass('killer')
+        box_rolls()
         hideBoxDamageTooltip()
     })
 })
