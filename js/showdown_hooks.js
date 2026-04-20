@@ -269,6 +269,8 @@ $(document).ready(function() {
         } else {
             fainted.push(set)
         }
+
+        refresh_next_in()
     })
 
     $(document).on('click', '#add-party-pok', function() {

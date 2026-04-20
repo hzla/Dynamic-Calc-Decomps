@@ -52,9 +52,14 @@ function get_next_in_g4() {
     var ranked_trainer_poks = []
     var trainer_poks = CURRENT_TRAINER_POKS
     var trainer_poks_copy = JSON.parse(JSON.stringify(trainer_poks))
+    var current_opposing_set = $('.set-selector.opposing')[1].value
     var player_type1 = $('.type1').first().val()
     var player_type2 = $('.type2').first().val()
     var player_pok = $('.set-selector.player')[1].value.substring(0, $('.set-selector.player')[1].value.indexOf(" ("))
+
+    function get_trainer_preview_data_id(trainerPok) {
+        return trainerPok.split("[")[0]
+    }
 
     if (player_type2 == "") {
         player_type2 = player_type1
@@ -283,11 +288,14 @@ function get_next_in_g4() {
             continue
         }
 
+        var trainer_preview_data_id = get_trainer_preview_data_id(trainer_poks[i])
+        var is_fainted = fainted.includes(trainer_preview_data_id)
+        var is_current_mon = trainer_poks[i] == current_opposing_set
+        var can_consume_first_phase2_check = !is_fainted && !is_current_mon
 
-
-        var is_first_phase2_mon = !checked_first_phase2_mon
+        var is_first_phase2_mon = can_consume_first_phase2_check && !checked_first_phase2_mon
         
-        if (sub_index != get_current_in().sub_index) {
+        if (can_consume_first_phase2_check) {
             checked_first_phase2_mon = true
         }
         
