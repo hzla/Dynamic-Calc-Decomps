@@ -1256,6 +1256,37 @@ function refresh_next_in() {
 		return
 	}
 
+	function shouldShowGen4Phase2AccuracyWarning() {
+		if (typeof gameGen === "undefined" || gameGen != 4 || !Array.isArray(CURRENT_TRAINER_POKS)) {
+			return false
+		}
+
+		for (var i = 0; i < CURRENT_TRAINER_POKS.length; i++) {
+			var setId = CURRENT_TRAINER_POKS[i]
+			if (typeof setId !== "string") {
+				continue
+			}
+
+			var species = setId.split(" (")[0]
+			var set_name = setId.split(" (")[1]
+			if (!species || !set_name) {
+				continue
+			}
+
+			set_name = set_name.replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
+			if (!setdex[species] || !setdex[species][set_name] || !Array.isArray(setdex[species][set_name].moves)) {
+				continue
+			}
+
+			var firstMoveName = setdex[species][set_name].moves[0]
+			if (firstMoveName && moves[firstMoveName] && moves[firstMoveName].bp == 1) {
+				return true
+			}
+		}
+
+		return false
+	}
+
 	var trpok_html = ""
 	var renderedEntries = []
 	var subIndexCounts = {}
@@ -1367,6 +1398,10 @@ function refresh_next_in() {
 		$('.opposing.trainer-pok-list').addClass('dual-trainer-preview')
 	} else {
 		$('.opposing.trainer-pok-list').removeClass('dual-trainer-preview')
+	}
+
+	if (shouldShowGen4Phase2AccuracyWarning()) {
+		trpok_html += `<div class="trainer-preview-warning">Please mark fainted pokemon for fully accurate phase 2 dmg simulations for this trainer</div>`
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
 

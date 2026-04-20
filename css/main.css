@@ -2082,6 +2082,14 @@ table td {
     margin-top: 20px;
 }
 
+.trainer-preview-warning {
+    width: calc(100% - 10px);
+    margin: 12px 0 4px 10px;
+    color: rgba(255,255,255,0.72);
+    font-size: 11px;
+    line-height: 1.35;
+}
+
 .tag-partner-label {
     margin-top: 0px;
 }
