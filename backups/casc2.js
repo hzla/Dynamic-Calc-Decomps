@@ -5614,7 +5614,7 @@ backup_data = {
     },
     "Heart Stamp": {
       "type": "Fairy",
-      "basePower": 60,
+      "basePower": 80,
       "category": "Physical",
       "pp": 25,
       "accuracy": 100,
@@ -27382,7 +27382,7 @@ backup_data = {
           ],
           [
             12,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             15,
@@ -27421,11 +27421,11 @@ backup_data = {
             "Reflect"
           ],
           [
-            34,
-            "Light Screen"
+            36,
+            "Heart Stamp"
           ],
           [
-            37,
+            38,
             "Substitute"
           ],
           [
@@ -30427,9 +30427,9 @@ backup_data = {
         ]
       },
       "abs": [
-        "Skill Link",
+        "Swift Swim",
         "Battle Armor",
-        "Swift Swim"
+        "Skill Link"
       ],
       "evos": [
         "Kabutops"
@@ -30632,9 +30632,9 @@ backup_data = {
         ]
       },
       "abs": [
-        "Skill Link",
+        "Swift Swim",
         "Battle Armor",
-        "Swift Swim"
+        "Skill Link"
       ],
       "evoType": "level",
       "evoLevel": 30
@@ -32381,7 +32381,7 @@ backup_data = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Stomp"
           ],
           [
             13,
@@ -32547,7 +32547,7 @@ backup_data = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Stomp"
           ],
           [
             13,
@@ -32735,7 +32735,7 @@ backup_data = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Stomp"
           ],
           [
             13,
@@ -37871,7 +37871,7 @@ backup_data = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             12,
@@ -38064,7 +38064,7 @@ backup_data = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             12,
@@ -41294,7 +41294,7 @@ backup_data = {
           ],
           [
             7,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             9,
@@ -41330,7 +41330,7 @@ backup_data = {
           ],
           [
             34,
-            "Dazzling Gleam"
+            "Heart Stamp"
           ],
           [
             37,
@@ -57357,7 +57357,7 @@ backup_data = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             12,
@@ -78197,8 +78197,7 @@ backup_data = {
       "name": "Cherubi",
       "num": 420,
       "types": [
-        "Grass",
-        "Fire"
+        "Grass"
       ],
       "items": [
         "None",
@@ -81533,7 +81532,7 @@ backup_data = {
           ],
           [
             12,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             15,
@@ -81572,11 +81571,11 @@ backup_data = {
             "Reflect"
           ],
           [
-            34,
-            "Light Screen"
+            36,
+            "Heart Stamp"
           ],
           [
-            37,
+            38,
             "Substitute"
           ],
           [
@@ -87807,7 +87806,7 @@ backup_data = {
           ],
           [
             13,
-            "Heart Stamp"
+            "Covet"
           ],
           [
             15,
@@ -96594,7 +96593,7 @@ backup_data = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Disarming Voice"
           ],
           [
             14,
@@ -96626,7 +96625,7 @@ backup_data = {
           ],
           [
             35,
-            "Fairy Wind"
+            "Heart Stamp"
           ],
           [
             38,
@@ -96751,7 +96750,7 @@ backup_data = {
           ],
           [
             1,
-            "Iron Tail"
+            "Fairy Wind"
           ],
           [
             4,
@@ -96763,7 +96762,7 @@ backup_data = {
           ],
           [
             10,
-            "Heart Stamp"
+            "Disarming Voice"
           ],
           [
             14,
@@ -96795,7 +96794,7 @@ backup_data = {
           ],
           [
             35,
-            "Fairy Wind"
+            "Heart Stamp"
           ],
           [
             38,
@@ -126031,7 +126030,7 @@ backup_data = {
           "Destiny Bond"
         ],
         "sub_index": 0,
-        "ability": "Cursed Body",
+        "ability": "Stench",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -130187,7 +130186,7 @@ backup_data = {
           "Retaliate",
           "Double Kick",
           "Rolling Kick",
-          "Dizzy Punch"
+          "Heart Stamp"
         ],
         "sub_index": 4,
         "ability": "Hustle",
@@ -133669,7 +133668,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 3,
-        "ability": "Skill Link",
+        "ability": "Swift Swim",
         "sprite": "trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -133700,7 +133699,7 @@ backup_data = {
           "X-Scissor"
         ],
         "sub_index": 1,
-        "ability": "Skill Link",
+        "ability": "Swift Swim",
         "sprite": "trainer_sprites/bosstrainer.png",
         "form": 0,
         "evs": {
@@ -133793,7 +133792,7 @@ backup_data = {
           "Low Kick"
         ],
         "sub_index": 4,
-        "ability": "Skill Link",
+        "ability": "Swift Swim",
         "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
@@ -138080,10 +138079,10 @@ backup_data = {
         "item": "Tera Powder",
         "nature": "Lax",
         "moves": [
-          "Thunder Wave",
+          "Supercell Slam",
           "Snap Trap",
-          "Iron Head",
-          "Leech Seed"
+          "U-turn",
+          "Spikes"
         ],
         "sub_index": 1,
         "ability": "Levitate",
@@ -142842,7 +142841,7 @@ backup_data = {
         "item": "-",
         "nature": "Rash",
         "moves": [
-          "Heart Stamp",
+          "Disarming Voice",
           "Wing Attack",
           "Confusion",
           "Supersonic"
@@ -149133,11 +149132,11 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Enigma Berry",
-        "nature": "Jolly",
+        "nature": "Hardy",
         "moves": [
           "Night Shade",
           "Will-O-Wisp",
-          "Seismic Toss",
+          "Force Palm",
           "Recycle"
         ],
         "sub_index": 0,
@@ -150088,6 +150087,37 @@ backup_data = {
         "ability": "Regenerator",
         "sprite": "trainer_sprites/schoolkidf.png",
         "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 28 Scientist Blythe ": {
+        "level": 28,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 100,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Enigma Berry",
+        "nature": "Bashful",
+        "moves": [
+          "Slam",
+          "Pursuit",
+          "Counter",
+          "Protect"
+        ],
+        "sub_index": 2,
+        "ability": " ",
+        "sprite": "trainer_sprites/scientistf.png",
+        "form": 1,
         "evs": {
           "df": 0
         }
@@ -155635,7 +155665,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Enigma Berry",
-        "nature": "Lax",
+        "nature": "Brave",
         "moves": [
           "Dragon Claw",
           "Stockpile",
@@ -157585,13 +157615,13 @@ backup_data = {
         "item": "-",
         "nature": "Brave",
         "moves": [
-          "Headbutt",
-          "Ice Beam",
+          "Secret Power",
+          "Thunderbolt",
           "Flamethrower",
-          "Thunderbolt"
+          "Ice Beam"
         ],
         "sub_index": 3,
-        "ability": "Thick Fat",
+        "ability": "Scrappy",
         "sprite": "trainer_sprites/nurseryaide.png",
         "form": 0,
         "evs": {
@@ -160064,14 +160094,14 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Enigma Berry",
-        "nature": "Hasty",
+        "nature": "Sassy",
         "moves": [
           "Ingrain",
           "Scald",
           "Recycle",
-          "Yawn"
+          "Recover"
         ],
-        "sub_index": 2,
+        "sub_index": 3,
         "ability": "Sap Sipper",
         "sprite": "trainer_sprites/scientistf.png",
         "form": 1,
@@ -165358,7 +165388,7 @@ backup_data = {
         "moves": [
           "Fake Out",
           "Concuss",
-          "Heart Stamp",
+          "Covet",
           "Reflect"
         ],
         "sub_index": 0,
@@ -172672,7 +172702,7 @@ backup_data = {
           "Scald",
           "Venoshock",
           "Toxic Spikes",
-          "Flail"
+          "Endure"
         ],
         "sub_index": 0,
         "ability": "Intimidate",
@@ -172957,7 +172987,7 @@ backup_data = {
           "Infernal Parade",
           "Smog",
           "Explosion",
-          "Will-O-Wisp"
+          "Toxic Spikes"
         ],
         "sub_index": 3,
         "ability": "Levitate",
@@ -173052,7 +173082,7 @@ backup_data = {
           "Twineedle",
           "Barb Barrage",
           "Rollout",
-          "Toxic"
+          "Toxic Spikes"
         ],
         "sub_index": 5,
         "ability": "Tenacity",
@@ -175742,7 +175772,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Adamant",
+        "nature": "Bold",
         "moves": [
           "Sparkle",
           "Flame Burst",
@@ -175806,7 +175836,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Relaxed",
+        "nature": "Timid",
         "moves": [
           "Mega Drain",
           "Incinerate",
@@ -176140,7 +176170,7 @@ backup_data = {
         }
       }
     },
-    "Grotle": {
+    "Dratini": {
       "Lvl 17 Nursery Aide Kimya - Route 20": {
         "level": 17,
         "ai": 15,
@@ -176157,16 +176187,47 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Bashful",
+        "nature": "Quiet",
         "moves": [
-          "Bulldoze",
-          "Ingrain",
-          "Synthesis",
-          "Rock Tomb"
+          "Dragon Breath",
+          "Water Pulse",
+          "Recover",
+          "Icy Wind"
         ],
         "sub_index": 4,
-        "ability": "Solid Rock",
+        "ability": "Majestic Ward",
         "sprite": "trainer_sprites/nurseryaide.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 59 Preschooler Samantha ": {
+        "level": 59,
+        "ai": 0,
+        "noCh": false,
+        "tr_id": 650,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Docile",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Marvel Scale",
+        "sprite": "trainer_sprites/preschoolerf.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -188553,12 +188614,12 @@ backup_data = {
         "nature": "Docile",
         "moves": [
           "Nuzzle",
-          "Heart Stamp",
+          "Covet",
           "Quick Attack",
           "Thunder Wave"
         ],
         "sub_index": 2,
-        "ability": "Galvanize",
+        "ability": "Static",
         "sprite": "trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -189664,13 +189725,13 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Miracle Seed",
+        "item": "Magnet",
         "nature": "Mild",
         "moves": [
           "Electroweb",
           "Leaf Tornado",
           "Volt Switch",
-          "Icy Wind"
+          "Confuse Ray"
         ],
         "sub_index": 3,
         "ability": "Levitate",
@@ -190816,6 +190877,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 15 Preschooler Buster - Route 3": {
+        "level": 15,
+        "ai": 0,
+        "noCh": false,
+        "tr_id": 396,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Lax",
+        "moves": [
+          "Clear Smog",
+          "Mud Shot",
+          "Gastro Acid",
+          "Aqua Jet"
+        ],
+        "sub_index": 2,
+        "ability": "Dry Skin",
+        "sprite": "trainer_sprites/preschooler.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 60 Youngster Astor - Route 8": {
         "level": 60,
         "ai": 1,
@@ -191597,10 +191689,10 @@ backup_data = {
           "Metal Claw",
           "Dragon Breath",
           "Water Pulse",
-          "Shock Wave"
+          "Scary Face"
         ],
         "sub_index": 2,
-        "ability": "Sturdy",
+        "ability": "Filter",
         "sprite": "trainer_sprites/janitor.png",
         "form": 0,
         "evs": {
@@ -191789,7 +191881,7 @@ backup_data = {
           "1st Impression",
           "Gunk Shot",
           "U-turn",
-          "Pursuit"
+          "Payback"
         ],
         "sub_index": 1,
         "ability": "Stakeout",
@@ -195305,9 +195397,9 @@ backup_data = {
         }
       }
     },
-    "Riolu": {
-      "Lvl 61 Preschooler Buster - Route 3": {
-        "level": 61,
+    "Horsea": {
+      "Lvl 15 Preschooler Buster - Route 3": {
+        "level": 15,
         "ai": 0,
         "noCh": false,
         "tr_id": 396,
@@ -195322,26 +195414,28 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Sassy",
+        "nature": "Lax",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Chilling Water",
+          "Breaking Swipe",
+          "Smokescreen",
+          "Sludge"
         ],
         "sub_index": 0,
-        "ability": "Scrappy",
+        "ability": "Drizzle",
         "sprite": "trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 15 Black Belt Rodrigo ": {
+      }
+    },
+    "Kabuto": {
+      "Lvl 15 Preschooler Buster - Route 3": {
         "level": 15,
-        "ai": 3,
+        "ai": 0,
         "noCh": false,
-        "tr_id": 712,
+        "tr_id": 396,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -195353,7 +195447,38 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Relaxed",
+        "nature": "Mild",
+        "moves": [
+          "Rock Blast",
+          "Water Pulse",
+          "Icicle Spear",
+          "Protect"
+        ],
+        "sub_index": 1,
+        "ability": "Swift Swim",
+        "sprite": "trainer_sprites/preschooler.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 62 Backpacker Shane - Route 1": {
+        "level": 62,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 405,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Quiet",
         "moves": [
           "",
           "",
@@ -195361,18 +195486,20 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Prankster",
-        "sprite": "trainer_sprites/blackbelt.png",
+        "ability": "Battle Armor",
+        "sprite": "trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 15 Black Belt Grigor ": {
-        "level": 15,
-        "ai": 3,
+      }
+    },
+    "Grotle": {
+      "Lvl 16 Preschooler Buster - Route 3": {
+        "level": 16,
+        "ai": 0,
         "noCh": false,
-        "tr_id": 715,
+        "tr_id": 396,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -195386,78 +195513,14 @@ backup_data = {
         "item": "-",
         "nature": "Gentle",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Bullet Seed",
+          "Mud Bomb",
+          "Leech Seed",
+          "Amnesia"
         ],
-        "sub_index": 0,
-        "ability": "Scrappy",
-        "sprite": "trainer_sprites/blackbelt.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Ledian": {
-      "Lvl 61 Preschooler Buster - Route 3": {
-        "level": 61,
-        "ai": 0,
-        "noCh": false,
-        "tr_id": 396,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Calm",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Iron Fist",
+        "sub_index": 3,
+        "ability": "Solid Rock",
         "sprite": "trainer_sprites/preschooler.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 29 Harlequin Anders - Castelia City": {
-        "level": 29,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 737,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Band",
-        "nature": "Naughty",
-        "moves": [
-          "Sky Uppercut",
-          "U-turn",
-          "Ice Punch",
-          "Thunder Punch"
-        ],
-        "sub_index": 2,
-        "ability": "Iron Fist",
-        "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -195904,39 +195967,6 @@ backup_data = {
         "sub_index": 3,
         "ability": "Intimidate",
         "sprite": "trainer_sprites/lass.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Kabuto": {
-      "Lvl 62 Backpacker Shane - Route 1": {
-        "level": 62,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 405,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Quiet",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Battle Armor",
-        "sprite": "trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -200078,39 +200108,6 @@ backup_data = {
         }
       }
     },
-    "Dratini": {
-      "Lvl 59 Preschooler Samantha ": {
-        "level": 59,
-        "ai": 0,
-        "noCh": false,
-        "tr_id": 650,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Docile",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Marvel Scale",
-        "sprite": "trainer_sprites/preschoolerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Gulpin": {
       "Lvl 60 Scientist Marie - Route 15": {
         "level": 60,
@@ -200460,6 +200457,103 @@ backup_data = {
         "sub_index": 0,
         "ability": "Snow Warning",
         "sprite": "trainer_sprites/clerkf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Riolu": {
+      "Lvl 15 Black Belt Rodrigo ": {
+        "level": 15,
+        "ai": 3,
+        "noCh": false,
+        "tr_id": 712,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Relaxed",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Prankster",
+        "sprite": "trainer_sprites/blackbelt.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 15 Black Belt Grigor ": {
+        "level": 15,
+        "ai": 3,
+        "noCh": false,
+        "tr_id": 715,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Gentle",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Scrappy",
+        "sprite": "trainer_sprites/blackbelt.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Ledian": {
+      "Lvl 29 Harlequin Anders - Castelia City": {
+        "level": 29,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 737,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Band",
+        "nature": "Naughty",
+        "moves": [
+          "Sky Uppercut",
+          "U-turn",
+          "Ice Punch",
+          "Thunder Punch"
+        ],
+        "sub_index": 2,
+        "ability": "Iron Fist",
+        "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -200911,7 +201005,7 @@ backup_data = {
         "nature": "Relaxed",
         "moves": [
           "Metal Sound",
-          "Magical Leaf",
+          "Confuse Ray",
           "Telekinesis",
           "Water Pulse"
         ],
@@ -201165,10 +201259,15 @@ backup_data = {
       "next": 176,
       "prev": 173
     },
+    "396": {
+      "id": 396,
+      "next": 176,
+      "prev": 174
+    },
      "176": {
       "id": 176,
       "next": 175,
-      "prev": 174
+      "prev": 396
     },
      "175": {
       "id": 175,
