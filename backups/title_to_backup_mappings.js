@@ -41,6 +41,10 @@ backupFiles = {
 	"Navy Sapphire": "navy"
 }
 
+sourceTitleAliases = {
+	"bb8579a3798fd63b429d": "Royal Sapphire"
+}
+
 if (typeof window !== "undefined") {
 	window.romhackSourceTitles = window.romhackSourceTitles || {}
 
@@ -48,6 +52,12 @@ if (typeof window !== "undefined") {
 		var alias = backupFiles[title]
 		if (alias && !window.romhackSourceTitles[alias]) {
 			window.romhackSourceTitles[alias] = title
+		}
+	})
+
+	Object.keys(sourceTitleAliases).forEach(function(sourceId) {
+		if (!window.romhackSourceTitles[sourceId]) {
+			window.romhackSourceTitles[sourceId] = sourceTitleAliases[sourceId]
 		}
 	})
 }

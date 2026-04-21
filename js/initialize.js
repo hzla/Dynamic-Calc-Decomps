@@ -161,6 +161,10 @@ $(document).ready(function() {
 	        toggleGen3SwitchGuide();
 	        TITLE = ""
 	        TITLE = npoint_data.title || SOURCES[params.get("data")] || "Untitled"
+        setGameSettings(TITLE)
+        if (typeof applyAutoImportMegasVisibility === "function") {
+            applyAutoImportMegasVisibility()
+        }
         document.title = TITLE + " Calculator"
         setBaseGame(TITLE)
         $('#rom-title').text(TITLE).show()
@@ -191,6 +195,8 @@ $(document).ready(function() {
         //     }             
         // }, 100)
 
+    }).fail(function(jqXHR, textStatus, errorThrown) {
+        console.error(`Failed to load calc data from ${npoint}: ${textStatus}`, errorThrown || jqXHR.status)
     })
   }
 })
