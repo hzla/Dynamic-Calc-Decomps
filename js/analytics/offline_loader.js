@@ -1,8 +1,7 @@
 (function () {
   const DEFAULT_BASE = "data/analytics";
   const TITLE_ALIASES = {
-    "Pokemon Null 1.1": "Pokemon Null",
-    "Pokemon Null 1.2": "Pokemon Null",
+    "Pokemon Null": "Pokemon Null 1.2",
   };
   let manifestPromise = null;
   const indexPromises = new Map();

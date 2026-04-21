@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "zubat",
   "familyMembers": [
     "Crobat",
@@ -11,8 +11,8 @@
     "Crobat": {
       "byMinDepth": {
         "1": {
-          "runCount": 21,
-          "averageParticipationPct": 69.4,
+          "runCount": 22,
+          "averageParticipationPct": 70.8,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 4.2,
@@ -37,8 +37,16 @@
               "usageKey": "22",
               "displayName": "Leader Burgh",
               "leadLevel": 33,
-              "partyCount": 4,
-              "ownedCount": 4,
+              "partyCount": 5,
+              "ownedCount": 5,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 3,
+              "ownedCount": 3,
               "participationPct": 100
             },
             {
@@ -58,9 +66,9 @@
               "participationPct": 100
             },
             {
-              "usageKey": "23",
-              "displayName": "Leader Elesa",
-              "leadLevel": 42,
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
@@ -85,14 +93,6 @@
               "usageKey": "244",
               "displayName": "Ace Trainer Shanta - Victory Road",
               "leadLevel": 100,
-              "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
-            },
-            {
-              "usageKey": "272",
-              "displayName": "Ace Trainer Tom - Opelucid City",
-              "leadLevel": 83,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -219,11 +219,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 22,
-        "averageParticipationPct": 70.7,
+        "runCount": 23,
+        "averageParticipationPct": 72.0,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 4.1,
+        "averageBattlesUsed": 4.0,
         "topBattles": [
           {
             "usageKey": "65",
@@ -245,8 +245,16 @@
             "usageKey": "22",
             "displayName": "Leader Burgh",
             "leadLevel": 33,
-            "partyCount": 4,
-            "ownedCount": 4,
+            "partyCount": 5,
+            "ownedCount": 5,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 3,
+            "ownedCount": 3,
             "participationPct": 100
           },
           {
@@ -266,9 +274,9 @@
             "participationPct": 100
           },
           {
-            "usageKey": "23",
-            "displayName": "Leader Elesa",
-            "leadLevel": 42,
+            "usageKey": "198",
+            "displayName": "Harlequin Louis - Castelia City",
+            "leadLevel": 34,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100
@@ -293,14 +301,6 @@
             "usageKey": "244",
             "displayName": "Ace Trainer Shanta - Victory Road",
             "leadLevel": 100,
-            "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
-          },
-          {
-            "usageKey": "272",
-            "displayName": "Ace Trainer Tom - Opelucid City",
-            "leadLevel": 83,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67

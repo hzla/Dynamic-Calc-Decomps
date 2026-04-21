@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "totodile",
   "familyMembers": [
     "Croconaw",
@@ -65,7 +65,7 @@
       "byMinDepth": {
         "1": {
           "runCount": 11,
-          "averageParticipationPct": 38.7,
+          "averageParticipationPct": 38.6,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 3.2,
@@ -196,7 +196,7 @@
     "byMinDepth": {
       "1": {
         "runCount": 12,
-        "averageParticipationPct": 30.4,
+        "averageParticipationPct": 30.3,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 2.9,

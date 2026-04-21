@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "ponyta",
   "familyMembers": [
     "Ponyta",
@@ -11,7 +11,7 @@
       "byMinDepth": {
         "1": {
           "runCount": 17,
-          "averageParticipationPct": 61.2,
+          "averageParticipationPct": 53.4,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 1.8,
@@ -21,16 +21,16 @@
               "displayName": "PkMn Trainer N2",
               "leadLevel": 21,
               "partyCount": 6,
-              "ownedCount": 8,
-              "participationPct": 75
+              "ownedCount": 9,
+              "participationPct": 67
             },
             {
               "usageKey": "12",
               "displayName": "Leader Cilan",
               "leadLevel": 14,
               "partyCount": 5,
-              "ownedCount": 4,
-              "participationPct": 125
+              "ownedCount": 5,
+              "participationPct": 100
             },
             {
               "usageKey": "292",
@@ -198,7 +198,7 @@
     "byMinDepth": {
       "1": {
         "runCount": 18,
-        "averageParticipationPct": 69.8,
+        "averageParticipationPct": 58.6,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 5.1,
@@ -216,16 +216,16 @@
             "displayName": "PkMn Trainer N2",
             "leadLevel": 21,
             "partyCount": 6,
-            "ownedCount": 8,
-            "participationPct": 75
+            "ownedCount": 9,
+            "participationPct": 67
           },
           {
             "usageKey": "12",
             "displayName": "Leader Cilan",
             "leadLevel": 14,
             "partyCount": 5,
-            "ownedCount": 4,
-            "participationPct": 125
+            "ownedCount": 5,
+            "participationPct": 100
           },
           {
             "usageKey": "296",

@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "mawile",
   "familyMembers": [
     "Mawile",
@@ -10,12 +10,20 @@
     "Mawile": {
       "byMinDepth": {
         "1": {
-          "runCount": 5,
-          "averageParticipationPct": 2.6,
+          "runCount": 6,
+          "averageParticipationPct": 18.8,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 2.8,
+          "averageBattlesUsed": 2.7,
           "topBattles": [
+            {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
             {
               "usageKey": "247",
               "displayName": "Ace Trainer David - Victory Road",
@@ -87,14 +95,6 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "81",
-              "displayName": "Team Plasma Grunt3",
-              "leadLevel": 55,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
             }
           ]
         }
@@ -104,12 +104,20 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 5,
-        "averageParticipationPct": 2.6,
+        "runCount": 6,
+        "averageParticipationPct": 18.8,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 2.8,
+        "averageBattlesUsed": 2.7,
         "topBattles": [
+          {
+            "usageKey": "89",
+            "displayName": "Team Plasma N",
+            "leadLevel": 42,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
           {
             "usageKey": "247",
             "displayName": "Ace Trainer David - Victory Road",
@@ -178,14 +186,6 @@
             "usageKey": "307",
             "displayName": "Team Plasma Grunt28",
             "leadLevel": 80,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "81",
-            "displayName": "Team Plasma Grunt3",
-            "leadLevel": 55,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100

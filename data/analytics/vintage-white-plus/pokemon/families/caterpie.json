@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "caterpie",
   "familyMembers": [
     "Butterfree",
@@ -12,8 +12,8 @@
     "Butterfree": {
       "byMinDepth": {
         "1": {
-          "runCount": 11,
-          "averageParticipationPct": 51.1,
+          "runCount": 12,
+          "averageParticipationPct": 55.1,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 2.9,
@@ -51,12 +51,28 @@
               "participationPct": 100
             },
             {
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
               "usageKey": "86",
               "displayName": "School Kid Carter - Nacrene City",
               "leadLevel": 23,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
+            },
+            {
+              "usageKey": "153",
+              "displayName": "Backpacker Jerome - Route 4",
+              "leadLevel": 38,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
             },
             {
               "usageKey": "22",
@@ -81,22 +97,6 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "279",
-              "displayName": "Team Plasma Grunt13",
-              "leadLevel": 41,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "294",
-              "displayName": "Team Plasma Grunt15",
-              "leadLevel": 19,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
             }
           ]
         }
@@ -106,8 +106,8 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 11,
-        "averageParticipationPct": 51.1,
+        "runCount": 12,
+        "averageParticipationPct": 55.1,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 2.9,
@@ -145,12 +145,28 @@
             "participationPct": 100
           },
           {
+            "usageKey": "89",
+            "displayName": "Team Plasma N",
+            "leadLevel": 42,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "86",
             "displayName": "School Kid Carter - Nacrene City",
             "leadLevel": 23,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
+          },
+          {
+            "usageKey": "153",
+            "displayName": "Backpacker Jerome - Route 4",
+            "leadLevel": 38,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           },
           {
             "usageKey": "22",
@@ -172,22 +188,6 @@
             "usageKey": "403",
             "displayName": "PkMn Trainer Cheren13",
             "leadLevel": 37,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "279",
-            "displayName": "Team Plasma Grunt13",
-            "leadLevel": 41,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "294",
-            "displayName": "Team Plasma Grunt15",
-            "leadLevel": 19,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100

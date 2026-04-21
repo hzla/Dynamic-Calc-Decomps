@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "makuhita",
   "familyMembers": [
     "Hariyama",
@@ -10,11 +10,11 @@
     "Hariyama": {
       "byMinDepth": {
         "1": {
-          "runCount": 16,
-          "averageParticipationPct": 58.9,
+          "runCount": 17,
+          "averageParticipationPct": 61.3,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 6.2,
+          "averageBattlesUsed": 6.1,
           "topBattles": [
             {
               "usageKey": "21",
@@ -44,9 +44,9 @@
               "usageKey": "22",
               "displayName": "Leader Burgh",
               "leadLevel": 33,
-              "partyCount": 4,
-              "ownedCount": 7,
-              "participationPct": 57
+              "partyCount": 5,
+              "ownedCount": 8,
+              "participationPct": 62
             },
             {
               "usageKey": "507",
@@ -55,6 +55,22 @@
               "partyCount": 3,
               "ownedCount": 3,
               "participationPct": 100
+            },
+            {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
+            },
+            {
+              "usageKey": "403",
+              "displayName": "PkMn Trainer Cheren13",
+              "leadLevel": 37,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "295",
@@ -76,22 +92,6 @@
               "usageKey": "90",
               "displayName": "PkMn Trainer Cheren7",
               "leadLevel": 54,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "86",
-              "displayName": "School Kid Carter - Nacrene City",
-              "leadLevel": 23,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "292",
-              "displayName": "School Kid Gina - Route 3",
-              "leadLevel": 21,
               "partyCount": 2,
               "ownedCount": 2,
               "participationPct": 100
@@ -165,11 +165,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 16,
-        "averageParticipationPct": 58.9,
+        "runCount": 17,
+        "averageParticipationPct": 61.3,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 6.3,
+        "averageBattlesUsed": 6.1,
         "topBattles": [
           {
             "usageKey": "21",
@@ -199,9 +199,9 @@
             "usageKey": "22",
             "displayName": "Leader Burgh",
             "leadLevel": 33,
-            "partyCount": 4,
-            "ownedCount": 7,
-            "participationPct": 57
+            "partyCount": 5,
+            "ownedCount": 8,
+            "participationPct": 62
           },
           {
             "usageKey": "507",
@@ -210,6 +210,22 @@
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
+          },
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
+          },
+          {
+            "usageKey": "403",
+            "displayName": "PkMn Trainer Cheren13",
+            "leadLevel": 37,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "295",
@@ -231,22 +247,6 @@
             "usageKey": "90",
             "displayName": "PkMn Trainer Cheren7",
             "leadLevel": 54,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "86",
-            "displayName": "School Kid Carter - Nacrene City",
-            "leadLevel": 23,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "292",
-            "displayName": "School Kid Gina - Route 3",
-            "leadLevel": 21,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100

@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "sentret",
   "familyMembers": [
     "Furret",
@@ -11,23 +11,23 @@
       "byMinDepth": {
         "1": {
           "runCount": 11,
-          "averageParticipationPct": 51.8,
+          "averageParticipationPct": 39.6,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 2.5,
           "topBattles": [
             {
-              "usageKey": "65",
-              "displayName": "PkMn Trainer N2",
-              "leadLevel": 21,
-              "partyCount": 3,
-              "ownedCount": 5,
-              "participationPct": 60
-            },
-            {
               "usageKey": "21",
               "displayName": "Leader Lenora",
               "leadLevel": 25,
+              "partyCount": 3,
+              "ownedCount": 6,
+              "participationPct": 50
+            },
+            {
+              "usageKey": "65",
+              "displayName": "PkMn Trainer N2",
+              "leadLevel": 21,
               "partyCount": 3,
               "ownedCount": 6,
               "participationPct": 50
@@ -73,6 +73,14 @@
               "participationPct": 100
             },
             {
+              "usageKey": "12",
+              "displayName": "Leader Cilan",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
               "usageKey": "403",
               "displayName": "PkMn Trainer Cheren13",
               "leadLevel": 37,
@@ -84,14 +92,6 @@
               "usageKey": "87",
               "displayName": "School Kid Lydia",
               "leadLevel": 24,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "294",
-              "displayName": "Team Plasma Grunt15",
-              "leadLevel": 19,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -182,23 +182,23 @@
     "byMinDepth": {
       "1": {
         "runCount": 12,
-        "averageParticipationPct": 47.5,
+        "averageParticipationPct": 36.3,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 2.3,
         "topBattles": [
           {
-            "usageKey": "65",
-            "displayName": "PkMn Trainer N2",
-            "leadLevel": 21,
-            "partyCount": 3,
-            "ownedCount": 6,
-            "participationPct": 50
-          },
-          {
             "usageKey": "21",
             "displayName": "Leader Lenora",
             "leadLevel": 25,
+            "partyCount": 3,
+            "ownedCount": 7,
+            "participationPct": 43
+          },
+          {
+            "usageKey": "65",
+            "displayName": "PkMn Trainer N2",
+            "leadLevel": 21,
             "partyCount": 3,
             "ownedCount": 7,
             "participationPct": 43
@@ -244,6 +244,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "12",
+            "displayName": "Leader Cilan",
+            "leadLevel": 14,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "403",
             "displayName": "PkMn Trainer Cheren13",
             "leadLevel": 37,
@@ -255,14 +263,6 @@
             "usageKey": "294",
             "displayName": "Team Plasma Grunt15",
             "leadLevel": 19,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "89",
-            "displayName": "Team Plasma N",
-            "leadLevel": 42,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100

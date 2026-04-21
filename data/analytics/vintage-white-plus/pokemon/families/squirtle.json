@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "squirtle",
   "familyMembers": [
     "Blastoise",
@@ -105,8 +105,8 @@
     "Squirtle": {
       "byMinDepth": {
         "1": {
-          "runCount": 20,
-          "averageParticipationPct": 32.6,
+          "runCount": 21,
+          "averageParticipationPct": 35.8,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 0.8,
@@ -125,6 +125,14 @@
               "leadLevel": 14,
               "partyCount": 3,
               "ownedCount": 3,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "12",
+              "displayName": "Leader Cilan",
+              "leadLevel": 14,
+              "partyCount": 2,
+              "ownedCount": 2,
               "participationPct": 100
             },
             {
@@ -149,14 +157,6 @@
               "leadLevel": 12,
               "partyCount": 2,
               "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "12",
-              "displayName": "Leader Cilan",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 1,
               "participationPct": 100
             },
             {
@@ -199,7 +199,7 @@
       "byMinDepth": {
         "1": {
           "runCount": 40,
-          "averageParticipationPct": 69.2,
+          "averageParticipationPct": 66.7,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 2.5,
@@ -209,8 +209,8 @@
               "displayName": "PkMn Trainer N2",
               "leadLevel": 21,
               "partyCount": 22,
-              "ownedCount": 24,
-              "participationPct": 92
+              "ownedCount": 25,
+              "participationPct": 88
             },
             {
               "usageKey": "21",
@@ -293,7 +293,7 @@
     "byMinDepth": {
       "1": {
         "runCount": 52,
-        "averageParticipationPct": 65.4,
+        "averageParticipationPct": 61.6,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 4.4,
@@ -303,8 +303,8 @@
             "displayName": "PkMn Trainer N2",
             "leadLevel": 21,
             "partyCount": 22,
-            "ownedCount": 24,
-            "participationPct": 92
+            "ownedCount": 25,
+            "participationPct": 88
           },
           {
             "usageKey": "21",

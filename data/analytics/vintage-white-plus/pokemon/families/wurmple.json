@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "wurmple",
   "familyMembers": [
     "Beautifly",
@@ -106,11 +106,11 @@
     "Dustox": {
       "byMinDepth": {
         "1": {
-          "runCount": 23,
-          "averageParticipationPct": 66.9,
+          "runCount": 24,
+          "averageParticipationPct": 68.3,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 3.7,
+          "averageBattlesUsed": 3.6,
           "topBattles": [
             {
               "usageKey": "65",
@@ -185,8 +185,8 @@
               "participationPct": 60
             },
             {
-              "usageKey": "12",
-              "displayName": "Leader Cilan",
+              "usageKey": "11",
+              "displayName": "Leader Chili",
               "leadLevel": 14,
               "partyCount": 2,
               "ownedCount": 2,
@@ -200,11 +200,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 31,
-        "averageParticipationPct": 65.0,
+        "runCount": 32,
+        "averageParticipationPct": 66.1,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 3.8,
+        "averageBattlesUsed": 3.7,
         "topBattles": [
           {
             "usageKey": "65",
@@ -247,6 +247,14 @@
             "participationPct": 67
           },
           {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 4,
+            "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
             "usageKey": "12",
             "displayName": "Leader Cilan",
             "leadLevel": 14,
@@ -277,14 +285,6 @@
             "partyCount": 4,
             "ownedCount": 6,
             "participationPct": 67
-          },
-          {
-            "usageKey": "296",
-            "displayName": "Team Plasma Grunt17",
-            "leadLevel": 32,
-            "partyCount": 4,
-            "ownedCount": 7,
-            "participationPct": 57
           }
         ]
       }

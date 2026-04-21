@@ -1,6 +1,6 @@
 {
-  "title": "Pokemon Null",
-  "generatedAt": "2026-04-16T20:48:09.475576Z",
+  "title": "Pokemon Null 1.1",
+  "generatedAt": "2026-04-21T00:21:26.505485Z",
   "species": [
     {
       "species": "Abomasnow",
@@ -767,16 +767,6 @@
       ]
     },
     {
-      "species": "Braviary-Hisui",
-      "familyKey": "rufflet",
-      "detailFile": "families/rufflet.json",
-      "familyMembers": [
-        "Braviary",
-        "Braviary-Hisui",
-        "Rufflet"
-      ]
-    },
-    {
       "species": "Breloom",
       "familyKey": "shroomish",
       "detailFile": "families/shroomish.json",
@@ -1214,14 +1204,6 @@
       "familyMembers": [
         "Combee",
         "Vespiquen"
-      ]
-    },
-    {
-      "species": "Comfey",
-      "familyKey": "comfey",
-      "detailFile": "families/comfey.json",
-      "familyMembers": [
-        "Comfey"
       ]
     },
     {
@@ -1785,17 +1767,6 @@
       "detailFile": "families/durant.json",
       "familyMembers": [
         "Durant"
-      ]
-    },
-    {
-      "species": "Dusclops",
-      "familyKey": "duskull",
-      "detailFile": "families/duskull.json",
-      "familyMembers": [
-        "Dusclops",
-        "Dusknoir",
-        "Dusknoir-Mega",
-        "Duskull"
       ]
     },
     {
@@ -3148,14 +3119,6 @@
       "detailFile": "families/iron-bundle.json",
       "familyMembers": [
         "Iron Bundle"
-      ]
-    },
-    {
-      "species": "Iron Moth",
-      "familyKey": "iron-moth",
-      "detailFile": "families/iron-moth.json",
-      "familyMembers": [
-        "Iron Moth"
       ]
     },
     {

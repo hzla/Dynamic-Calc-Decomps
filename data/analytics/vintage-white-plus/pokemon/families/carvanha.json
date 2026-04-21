@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "carvanha",
   "familyMembers": [
     "Carvanha",
@@ -11,26 +11,26 @@
     "Carvanha": {
       "byMinDepth": {
         "1": {
-          "runCount": 4,
-          "averageParticipationPct": 59.2,
+          "runCount": 5,
+          "averageParticipationPct": 67.3,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 1.8,
+          "averageBattlesUsed": 1.6,
           "topBattles": [
+            {
+              "usageKey": "11",
+              "displayName": "Leader Chili",
+              "leadLevel": 14,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
             {
               "usageKey": "65",
               "displayName": "PkMn Trainer N2",
               "leadLevel": 21,
               "partyCount": 2,
               "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "11",
-              "displayName": "Leader Chili",
-              "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 1,
               "participationPct": 100
             },
             {
@@ -198,12 +198,20 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 6,
-        "averageParticipationPct": 49.3,
+        "runCount": 7,
+        "averageParticipationPct": 56.5,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 4.0,
+        "averageBattlesUsed": 3.6,
         "topBattles": [
+          {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
           {
             "usageKey": "508",
             "displayName": "PkMn Trainer Bianca14",
@@ -232,14 +240,6 @@
             "usageKey": "168",
             "displayName": "Clerk M Isaac - Driftveil City",
             "leadLevel": 54,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "11",
-            "displayName": "Leader Chili",
-            "leadLevel": 14,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100

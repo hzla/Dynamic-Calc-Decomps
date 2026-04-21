@@ -6,7 +6,9 @@
         "Emerald Imperium 1.3": "./dashboards/emeraldimperium.html",
         "Renegade Platinum": "./dashboards/renegadeplatinum.html",
         "Platinum Kaizo": "./dashboards/platinumkaizo.html",
-        "Pokemon Null": "./dashboards/pokemonnull.html",
+        "Pokemon Null 1.2": "./dashboards/pokemonnull12.html",
+        "Pokemon Null 1.1": "./dashboards/pokemonnull.html",
+        "Pokemon Null": "./dashboards/pokemonnull12.html",
         "Cascade White": "./dashboards/cascadewhite.html",
         "Vintage White Plus": "./dashboards/vintagewhiteplus.html",
     };

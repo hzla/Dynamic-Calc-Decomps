@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "growlithe",
   "familyMembers": [
     "Arcanine",
@@ -10,19 +10,19 @@
     "Arcanine": {
       "byMinDepth": {
         "1": {
-          "runCount": 23,
-          "averageParticipationPct": 63.2,
+          "runCount": 24,
+          "averageParticipationPct": 64.7,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 6.7,
+          "averageBattlesUsed": 6.5,
           "topBattles": [
             {
               "usageKey": "22",
               "displayName": "Leader Burgh",
               "leadLevel": 33,
-              "partyCount": 10,
-              "ownedCount": 12,
-              "participationPct": 83
+              "partyCount": 11,
+              "ownedCount": 13,
+              "participationPct": 85
             },
             {
               "usageKey": "21",
@@ -103,8 +103,8 @@
     "Growlithe": {
       "byMinDepth": {
         "1": {
-          "runCount": 13,
-          "averageParticipationPct": 50.0,
+          "runCount": 14,
+          "averageParticipationPct": 53.6,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 0.8,
@@ -123,6 +123,14 @@
               "leadLevel": 12,
               "partyCount": 2,
               "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "11",
+              "displayName": "Leader Chili",
+              "leadLevel": 14,
+              "partyCount": 1,
+              "ownedCount": 1,
               "participationPct": 100
             },
             {
@@ -180,14 +188,6 @@
               "partyCount": 0,
               "ownedCount": 1,
               "participationPct": 0
-            },
-            {
-              "usageKey": "95",
-              "displayName": "Clerk F Katie - Driftveil City",
-              "leadLevel": 54,
-              "partyCount": 0,
-              "ownedCount": 1,
-              "participationPct": 0
             }
           ]
         }
@@ -197,19 +197,19 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 29,
-        "averageParticipationPct": 60.2,
+        "runCount": 31,
+        "averageParticipationPct": 62.8,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 5.7,
+        "averageBattlesUsed": 5.4,
         "topBattles": [
           {
             "usageKey": "22",
             "displayName": "Leader Burgh",
             "leadLevel": 33,
-            "partyCount": 10,
-            "ownedCount": 12,
-            "participationPct": 83
+            "partyCount": 11,
+            "ownedCount": 13,
+            "participationPct": 85
           },
           {
             "usageKey": "65",
@@ -276,12 +276,12 @@
             "participationPct": 80
           },
           {
-            "usageKey": "153",
-            "displayName": "Backpacker Jerome - Route 4",
-            "leadLevel": 38,
+            "usageKey": "198",
+            "displayName": "Harlequin Louis - Castelia City",
+            "leadLevel": 34,
             "partyCount": 3,
-            "ownedCount": 4,
-            "participationPct": 75
+            "ownedCount": 3,
+            "participationPct": 100
           }
         ]
       }

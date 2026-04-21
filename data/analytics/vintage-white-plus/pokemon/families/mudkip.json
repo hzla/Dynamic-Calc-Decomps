@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "mudkip",
   "familyMembers": [
     "Marshtomp",
@@ -13,7 +13,7 @@
       "byMinDepth": {
         "1": {
           "runCount": 27,
-          "averageParticipationPct": 62.1,
+          "averageParticipationPct": 58.4,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 2.7,
@@ -31,8 +31,8 @@
               "displayName": "PkMn Trainer N2",
               "leadLevel": 21,
               "partyCount": 10,
-              "ownedCount": 12,
-              "participationPct": 83
+              "ownedCount": 13,
+              "participationPct": 77
             },
             {
               "usageKey": "86",
@@ -105,8 +105,8 @@
     "Mudkip": {
       "byMinDepth": {
         "1": {
-          "runCount": 7,
-          "averageParticipationPct": 47.6,
+          "runCount": 8,
+          "averageParticipationPct": 54.2,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 1.4,
@@ -115,8 +115,8 @@
               "usageKey": "12",
               "displayName": "Leader Cilan",
               "leadLevel": 14,
-              "partyCount": 4,
-              "ownedCount": 4,
+              "partyCount": 5,
+              "ownedCount": 5,
               "participationPct": 100
             },
             {
@@ -293,7 +293,7 @@
     "byMinDepth": {
       "1": {
         "runCount": 31,
-        "averageParticipationPct": 58.9,
+        "averageParticipationPct": 52.5,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 7.2,
@@ -311,8 +311,8 @@
             "displayName": "PkMn Trainer N2",
             "leadLevel": 21,
             "partyCount": 10,
-            "ownedCount": 12,
-            "participationPct": 83
+            "ownedCount": 13,
+            "participationPct": 77
           },
           {
             "usageKey": "23",
@@ -335,8 +335,8 @@
             "displayName": "Leader Cilan",
             "leadLevel": 14,
             "partyCount": 5,
-            "ownedCount": 4,
-            "participationPct": 125
+            "ownedCount": 5,
+            "participationPct": 100
           },
           {
             "usageKey": "87",

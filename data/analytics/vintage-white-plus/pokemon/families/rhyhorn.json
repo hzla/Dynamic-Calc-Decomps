@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "rhyhorn",
   "familyMembers": [
     "Rhydon",
@@ -197,11 +197,11 @@
     "Rhyperior": {
       "byMinDepth": {
         "1": {
-          "runCount": 11,
-          "averageParticipationPct": 22.2,
+          "runCount": 12,
+          "averageParticipationPct": 28.7,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 4.1,
+          "averageBattlesUsed": 3.8,
           "topBattles": [
             {
               "usageKey": "23",
@@ -291,11 +291,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 14,
-        "averageParticipationPct": 35.7,
+        "runCount": 15,
+        "averageParticipationPct": 40.0,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 4.8,
+        "averageBattlesUsed": 4.5,
         "topBattles": [
           {
             "usageKey": "65",

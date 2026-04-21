@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "goldeen",
   "familyMembers": [
     "Goldeen",
@@ -10,8 +10,8 @@
     "Goldeen": {
       "byMinDepth": {
         "1": {
-          "runCount": 19,
-          "averageParticipationPct": 58.3,
+          "runCount": 20,
+          "averageParticipationPct": 60.4,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 1.8,
@@ -20,8 +20,8 @@
               "usageKey": "11",
               "displayName": "Leader Chili",
               "leadLevel": 14,
-              "partyCount": 5,
-              "ownedCount": 5,
+              "partyCount": 6,
+              "ownedCount": 6,
               "participationPct": 100
             },
             {
@@ -103,8 +103,8 @@
     "Seaking": {
       "byMinDepth": {
         "1": {
-          "runCount": 29,
-          "averageParticipationPct": 44.2,
+          "runCount": 30,
+          "averageParticipationPct": 46.0,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 2.9,
@@ -126,6 +126,14 @@
               "participationPct": 86
             },
             {
+              "usageKey": "23",
+              "displayName": "Leader Elesa",
+              "leadLevel": 42,
+              "partyCount": 6,
+              "ownedCount": 10,
+              "participationPct": 60
+            },
+            {
               "usageKey": "297",
               "displayName": "Team Plasma Grunt18",
               "leadLevel": 33,
@@ -140,14 +148,6 @@
               "partyCount": 5,
               "ownedCount": 6,
               "participationPct": 83
-            },
-            {
-              "usageKey": "23",
-              "displayName": "Leader Elesa",
-              "leadLevel": 42,
-              "partyCount": 5,
-              "ownedCount": 9,
-              "participationPct": 56
             },
             {
               "usageKey": "34",
@@ -197,11 +197,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 32,
-        "averageParticipationPct": 47.9,
+        "runCount": 34,
+        "averageParticipationPct": 50.9,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 3.7,
+        "averageBattlesUsed": 3.6,
         "topBattles": [
           {
             "usageKey": "21",
@@ -231,9 +231,17 @@
             "usageKey": "11",
             "displayName": "Leader Chili",
             "leadLevel": 14,
-            "partyCount": 5,
-            "ownedCount": 5,
+            "partyCount": 6,
+            "ownedCount": 6,
             "participationPct": 100
+          },
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 6,
+            "ownedCount": 10,
+            "participationPct": 60
           },
           {
             "usageKey": "297",
@@ -250,14 +258,6 @@
             "partyCount": 5,
             "ownedCount": 7,
             "participationPct": 71
-          },
-          {
-            "usageKey": "23",
-            "displayName": "Leader Elesa",
-            "leadLevel": 42,
-            "partyCount": 5,
-            "ownedCount": 9,
-            "participationPct": 56
           },
           {
             "usageKey": "34",

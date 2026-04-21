@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "lotad",
   "familyMembers": [
     "Lombre",
@@ -11,8 +11,8 @@
     "Lombre": {
       "byMinDepth": {
         "1": {
-          "runCount": 9,
-          "averageParticipationPct": 50.9,
+          "runCount": 10,
+          "averageParticipationPct": 55.8,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 0.8,
@@ -21,8 +21,8 @@
               "usageKey": "11",
               "displayName": "Leader Chili",
               "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 1,
+              "partyCount": 2,
+              "ownedCount": 2,
               "participationPct": 100
             },
             {
@@ -190,7 +190,7 @@
       "byMinDepth": {
         "1": {
           "runCount": 17,
-          "averageParticipationPct": 55.6,
+          "averageParticipationPct": 55.5,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 4.6,
@@ -330,14 +330,6 @@
             "participationPct": 50
           },
           {
-            "usageKey": "11",
-            "displayName": "Leader Chili",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 1,
-            "participationPct": 200
-          },
-          {
             "usageKey": "214",
             "displayName": "Battle Girl Chandra - Icirrus City",
             "leadLevel": 72,
@@ -357,6 +349,14 @@
             "usageKey": "34",
             "displayName": "Lass Eva - Pinwheel Forest",
             "leadLevel": 29,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
             "partyCount": 2,
             "ownedCount": 2,
             "participationPct": 100

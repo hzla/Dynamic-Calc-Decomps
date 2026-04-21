@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "shuppet",
   "familyMembers": [
     "Banette",
@@ -11,11 +11,11 @@
     "Banette": {
       "byMinDepth": {
         "1": {
-          "runCount": 16,
-          "averageParticipationPct": 37.4,
+          "runCount": 17,
+          "averageParticipationPct": 41.1,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 7.9,
+          "averageBattlesUsed": 7.5,
           "topBattles": [
             {
               "usageKey": "231",
@@ -198,11 +198,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 21,
-        "averageParticipationPct": 41.8,
+        "runCount": 22,
+        "averageParticipationPct": 44.5,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 6.8,
+        "averageBattlesUsed": 6.5,
         "topBattles": [
           {
             "usageKey": "21",

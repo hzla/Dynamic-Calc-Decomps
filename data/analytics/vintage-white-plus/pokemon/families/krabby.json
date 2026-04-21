@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "krabby",
   "familyMembers": [
     "Kingler",
@@ -11,19 +11,19 @@
     "Kingler": {
       "byMinDepth": {
         "1": {
-          "runCount": 32,
-          "averageParticipationPct": 64.4,
+          "runCount": 34,
+          "averageParticipationPct": 66.4,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 12.4,
+          "averageBattlesUsed": 11.8,
           "topBattles": [
             {
               "usageKey": "22",
               "displayName": "Leader Burgh",
               "leadLevel": 33,
-              "partyCount": 16,
-              "ownedCount": 19,
-              "participationPct": 84
+              "partyCount": 17,
+              "ownedCount": 20,
+              "participationPct": 85
             },
             {
               "usageKey": "21",
@@ -53,6 +53,14 @@
               "usageKey": "403",
               "displayName": "PkMn Trainer Cheren13",
               "leadLevel": 37,
+              "partyCount": 9,
+              "ownedCount": 11,
+              "participationPct": 82
+            },
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
               "partyCount": 8,
               "ownedCount": 10,
               "participationPct": 80
@@ -82,20 +90,12 @@
               "participationPct": 88
             },
             {
-              "usageKey": "198",
-              "displayName": "Harlequin Louis - Castelia City",
-              "leadLevel": 34,
+              "usageKey": "153",
+              "displayName": "Backpacker Jerome - Route 4",
+              "leadLevel": 38,
               "partyCount": 7,
-              "ownedCount": 9,
-              "participationPct": 78
-            },
-            {
-              "usageKey": "89",
-              "displayName": "Team Plasma N",
-              "leadLevel": 42,
-              "partyCount": 7,
-              "ownedCount": 13,
-              "participationPct": 54
+              "ownedCount": 11,
+              "participationPct": 64
             }
           ]
         }
@@ -198,19 +198,19 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 35,
-        "averageParticipationPct": 63.4,
+        "runCount": 37,
+        "averageParticipationPct": 65.3,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 11.6,
+        "averageBattlesUsed": 11.2,
         "topBattles": [
           {
             "usageKey": "22",
             "displayName": "Leader Burgh",
             "leadLevel": 33,
-            "partyCount": 16,
-            "ownedCount": 19,
-            "participationPct": 84
+            "partyCount": 17,
+            "ownedCount": 20,
+            "participationPct": 85
           },
           {
             "usageKey": "21",
@@ -240,6 +240,14 @@
             "usageKey": "403",
             "displayName": "PkMn Trainer Cheren13",
             "leadLevel": 37,
+            "partyCount": 9,
+            "ownedCount": 11,
+            "participationPct": 82
+          },
+          {
+            "usageKey": "198",
+            "displayName": "Harlequin Louis - Castelia City",
+            "leadLevel": 34,
             "partyCount": 8,
             "ownedCount": 10,
             "participationPct": 80
@@ -269,20 +277,12 @@
             "participationPct": 88
           },
           {
-            "usageKey": "198",
-            "displayName": "Harlequin Louis - Castelia City",
-            "leadLevel": 34,
+            "usageKey": "153",
+            "displayName": "Backpacker Jerome - Route 4",
+            "leadLevel": 38,
             "partyCount": 7,
-            "ownedCount": 9,
-            "participationPct": 78
-          },
-          {
-            "usageKey": "65",
-            "displayName": "PkMn Trainer N2",
-            "leadLevel": 21,
-            "partyCount": 7,
-            "ownedCount": 12,
-            "participationPct": 58
+            "ownedCount": 11,
+            "participationPct": 64
           }
         ]
       }

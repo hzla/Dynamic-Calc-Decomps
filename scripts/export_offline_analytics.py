@@ -22,7 +22,8 @@ TITLE_TO_SLUG = {
     "Emerald Imperium 1.3": "emerald-imperium-1-3",
     "Renegade Platinum": "renegade-platinum",
     "Platinum Kaizo": "platinum-kaizo",
-    "Pokemon Null": "pokemon-null",
+    "Pokemon Null 1.1": "pokemon-null",
+    "Pokemon Null 1.2": "pokemon-null-1-2",
     "Cascade White": "cascade-white",
     "Vintage White Plus": "vintage-white-plus",
 }
@@ -31,18 +32,23 @@ TITLE_TO_BACKUP = {
     "Emerald Imperium 1.3": ROOT / "backups" / "imp_1-3.js",
     "Renegade Platinum": ROOT / "backups" / "rp.js",
     "Platinum Kaizo": ROOT / "backups" / "pk.js",
-    "Pokemon Null": ROOT / "backups" / "null.js",
+    "Pokemon Null 1.1": ROOT / "backups" / "null.js",
+    "Pokemon Null 1.2": ROOT / "backups" / "null12.js",
     "Cascade White": ROOT / "backups" / "casc.js",
     "Vintage White Plus": ROOT / "backups" / "vwplus.js",
 }
 
 TITLE_ALIASES = {
-    "Pokemon Null 1.1": "Pokemon Null",
-    "Pokemon Null 1.2": "Pokemon Null",
+    "Pokemon Null": "Pokemon Null 1.2",
 }
 
 TITLE_CONFIG_FALLBACKS = {
-    "Pokemon Null": ["Pokemon Null 1.1", "Pokemon Null 1.2"],
+    "Pokemon Null": ["Pokemon Null 1.2", "Pokemon Null 1.1"],
+    "Pokemon Null 1.2": ["Pokemon Null 1.1"],
+}
+
+TITLE_SOURCE_OVERRIDES = {
+    "Pokemon Null 1.1": ["Pokemon Null", "Pokemon Null 1.1"],
 }
 
 CONFIG_PATH = ROOT / "js" / "analytics" / "dashboard_game_config.js"
@@ -56,6 +62,10 @@ IMPORTANT_TRAINER_RE = re.compile(r"(Leader|Elite Four|Champion)", re.I)
 EM_IMP_ORDER_NAME_RE = re.compile(r"^(.*?) \(Lvl [^ ]+ (.*?) \)$")
 EMERALD_GYM_ALIAS_RE = re.compile(r"^(Leader [A-Za-z& ]+?)(\d+)$")
 LOCATION_SUFFIX_RE = re.compile(r"\s+\|[^|]+\|$")
+
+
+def is_pokemon_null_title(title: str) -> bool:
+    return str(title or "").startswith("Pokemon Null")
 
 
 def parse_args() -> argparse.Namespace:
@@ -262,14 +272,17 @@ def extract_location_suffix(value: str) -> str | None:
 
 
 def source_titles_for_title(title: str) -> list[str]:
-    canonical = canonical_title(title)
+    requested = str(title or "").strip()
+    canonical = canonical_title(requested)
     if not canonical:
         return []
 
     source_titles = {canonical}
-    for alias, mapped_title in TITLE_ALIASES.items():
-        if mapped_title == canonical:
-            source_titles.add(alias)
+    if requested and requested != canonical:
+        source_titles.add(requested)
+    for source_title in TITLE_SOURCE_OVERRIDES.get(requested, []):
+        if source_title:
+            source_titles.add(source_title)
     return sorted(source_titles)
 
 
@@ -349,7 +362,7 @@ def species_name_table(title: str) -> list[str]:
             ROOT / "js" / "savereaders" / "save_constants" / "em_imp_constants.js",
             "emImpMons",
         )
-    if title == "Pokemon Null":
+    if is_pokemon_null_title(title):
         null_mons = load_json_literal(
             ROOT / "js" / "savereaders" / "save_constants" / "null_constants.js",
             "nullMons",
@@ -443,7 +456,9 @@ def emerald_gym_leader_alias_map(
 
 
 def build_important_trainer_variant_alias_map(
+    title: str,
     title_config: dict[str, Any],
+    backup_entries: list[dict[str, Any]],
 ) -> dict[str, dict[str, Any]]:
     def alias_forms(value: str) -> set[str]:
         text = str(value or "").strip()
@@ -452,6 +467,25 @@ def build_important_trainer_variant_alias_map(
         stripped = LOCATION_SUFFIX_RE.sub("", text).strip()
         return {candidate for candidate in {text, stripped} if candidate}
 
+    backup_entry_by_alias: dict[str, dict[str, Any]] = {}
+    for entry in backup_entries:
+        display_name = str(entry.get("displayName") or "").strip()
+        usage_key = str(entry.get("usageKey") or "").strip()
+        for alias in alias_forms(display_name) | alias_forms(usage_key):
+            backup_entry_by_alias.setdefault(alias, entry)
+
+    def resolve_backup_entry(display_name: str, usage_key: str) -> dict[str, Any] | None:
+        candidates = [
+            display_name,
+            usage_key,
+            LOCATION_SUFFIX_RE.sub("", display_name).strip(),
+            LOCATION_SUFFIX_RE.sub("", usage_key).strip(),
+        ]
+        for candidate in candidates:
+            if candidate and candidate in backup_entry_by_alias:
+                return backup_entry_by_alias[candidate]
+        return None
+
     alias_map: dict[str, dict[str, Any]] = {}
     for item in title_config.get("importantTrainerVariants") or []:
         canonical_display_name = str(item.get("label") or item.get("displayName") or "").strip()
@@ -459,21 +493,67 @@ def build_important_trainer_variant_alias_map(
         if not canonical_display_name or not canonical_usage_key:
             continue
 
-        aliases = set()
-        aliases.update(alias_forms(canonical_display_name))
-        aliases.update(alias_forms(canonical_usage_key))
-        for variant in item.get("variants") or []:
-            variant_display_name = str(variant.get("displayName") or "").strip()
-            variant_usage_key = str(variant.get("usageKey") or "").strip()
-            aliases.update(alias_forms(variant_display_name))
-            aliases.update(alias_forms(variant_usage_key))
+        variants = item.get("variants") or []
+        if not is_pokemon_null_title(title):
+            aliases = set()
+            aliases.update(alias_forms(canonical_display_name))
+            aliases.update(alias_forms(canonical_usage_key))
+            for variant in variants:
+                variant_display_name = str(variant.get("displayName") or "").strip()
+                variant_usage_key = str(variant.get("usageKey") or "").strip()
+                aliases.update(alias_forms(variant_display_name))
+                aliases.update(alias_forms(variant_usage_key))
 
-        for alias in aliases:
-            if alias:
-                alias_map[alias] = {
-                    "displayName": canonical_display_name,
-                    "usageKey": canonical_usage_key,
+            for alias in aliases:
+                if alias:
+                    alias_map[alias] = {
+                        "displayName": canonical_display_name,
+                        "usageKey": canonical_usage_key,
+                    }
+            continue
+
+        variant_groups: dict[int | None, list[dict[str, str]]] = defaultdict(list)
+        for variant in variants:
+            variant_display_name = str(variant.get("displayName") or "").strip()
+            variant_usage_key = str(variant.get("usageKey") or variant_display_name).strip()
+            if not variant_display_name and not variant_usage_key:
+                continue
+            backup_entry = resolve_backup_entry(variant_display_name, variant_usage_key)
+            lead_level = backup_entry.get("leadLevel") if backup_entry else None
+            variant_groups[lead_level].append(
+                {
+                    "displayName": variant_display_name,
+                    "usageKey": variant_usage_key,
                 }
+            )
+
+        if not variant_groups:
+            continue
+
+        numeric_levels = sorted(level for level in variant_groups if level is not None)
+        primary_level = numeric_levels[0] if numeric_levels else next(iter(variant_groups))
+
+        for lead_level, grouped_variants in variant_groups.items():
+            if lead_level == primary_level:
+                target_display_name = canonical_display_name
+                target_usage_key = canonical_usage_key
+                aliases = alias_forms(canonical_display_name) | alias_forms(canonical_usage_key)
+            else:
+                primary_variant = grouped_variants[0]
+                target_display_name = primary_variant["displayName"] or primary_variant["usageKey"]
+                target_usage_key = primary_variant["usageKey"] or target_display_name
+                aliases = set()
+
+            for grouped_variant in grouped_variants:
+                aliases.update(alias_forms(grouped_variant["displayName"]))
+                aliases.update(alias_forms(grouped_variant["usageKey"]))
+
+            for alias in aliases:
+                if alias:
+                    alias_map[alias] = {
+                        "displayName": target_display_name,
+                        "usageKey": target_usage_key,
+                    }
     return alias_map
 
 
@@ -485,6 +565,18 @@ def explicit_multi_team_usage_keys(title_config: dict[str, Any]) -> set[str]:
         variants = item.get("variants") or []
         if canonical_usage_key and len(variants) > 1:
             usage_keys.add(canonical_usage_key)
+    return usage_keys
+
+
+def configured_important_trainer_usage_keys(title_config: dict[str, Any]) -> list[str]:
+    usage_keys: list[str] = []
+    seen: set[str] = set()
+    for item in title_config.get("importantTrainers") or []:
+        usage_key = str(item.get("usageKey") or item.get("displayName") or item.get("label") or "").strip()
+        if not usage_key or usage_key in seen:
+            continue
+        seen.add(usage_key)
+        usage_keys.append(usage_key)
     return usage_keys
 
 
@@ -1113,7 +1205,7 @@ def resolve_important_trainers(
                     "sourceDisplayName": entry.get("sourceDisplayName") or entry["displayName"],
                     "displayName": (
                         entry["displayName"]
-                        if title == "Pokemon Null"
+                        if is_pokemon_null_title(title)
                         else (item.get("label") or entry["displayName"])
                     ),
                 }
@@ -1128,9 +1220,10 @@ def resolve_important_trainers(
 
 
 def build_null_trainer_id_to_name_map(
+    title: str,
     alias_stages: list[dict[str, dict[str, Any]]],
 ) -> dict[int, str]:
-    backup = load_json_literal(TITLE_TO_BACKUP["Pokemon Null"], "backup_data")
+    backup = load_json_literal(TITLE_TO_BACKUP[title], "backup_data")
     formatted_sets = backup.get("formatted_sets") or {}
 
     tr_id_to_name: dict[int, str] = {}
@@ -1153,7 +1246,7 @@ def build_null_trainer_id_to_name_map(
 
             canonical_display_name, _ = canonicalize_trainer_identity(
                 trainer_name,
-                normalize_usage_key("Pokemon Null", trainer_name, tr_id),
+                normalize_usage_key(title, trainer_name, tr_id),
                 alias_stages,
             )
             if not canonical_display_name:
@@ -1173,8 +1266,8 @@ def build_null_trainer_id_to_name_map(
     return tr_id_to_name
 
 
-def resolve_null_anchor_trainer_id() -> int | None:
-    backup = load_json_literal(TITLE_TO_BACKUP["Pokemon Null"], "backup_data")
+def resolve_null_anchor_trainer_id(title: str) -> int | None:
+    backup = load_json_literal(TITLE_TO_BACKUP[title], "backup_data")
     formatted_sets = backup.get("formatted_sets") or {}
 
     for species_name, sets in formatted_sets.items():
@@ -1272,11 +1365,15 @@ def build_run_buckets(
 def build_important_trainer_overview(
     important_trainers: list[dict[str, Any]],
     runs: list[dict[str, Any]],
+    progression_by_usage_key: dict[str, dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     output = []
     for trainer in important_trainers:
         usage_key = str(trainer["usageKey"])
+        progression_entry = (progression_by_usage_key or {}).get(usage_key)
         run_count = sum(1 for run in runs if usage_key in run["usageKeys"])
+        reached_count = progression_entry.get("reachedCount") if progression_entry else run_count
+        ended_count = progression_entry.get("endedCount") if progression_entry else None
         output.append(
             {
                 "displayName": trainer["displayName"],
@@ -1285,10 +1382,69 @@ def build_important_trainer_overview(
                 "trId": trainer.get("trId"),
                 "leadLevel": trainer.get("leadLevel"),
                 "maxLevel": trainer.get("maxLevel"),
-                "runCount": run_count,
+                "runCount": reached_count,
+                "reachedCount": reached_count,
+                "endedCount": ended_count,
             }
         )
     return output
+
+
+def build_trainer_progression_overview(
+    filtered_runs: list[dict[str, Any]],
+    depth_context: dict[str, Any],
+) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
+    if not depth_context.get("available"):
+        return {}, []
+
+    max_step = int(depth_context.get("maxStep") or 0)
+    if max_step <= 0:
+        return {}, []
+
+    exact_histogram = [0] * (max_step + 2)
+    for run in filtered_runs:
+        step = run.get("maxDepth")
+        if isinstance(step, int) and 1 <= step <= max_step:
+            exact_histogram[step] += 1
+
+    reached_by_step = [0] * (max_step + 3)
+    running_total = 0
+    for step in range(max_step, 0, -1):
+        running_total += exact_histogram[step]
+        reached_by_step[step] = running_total
+
+    progression_by_usage_key: dict[str, dict[str, Any]] = {}
+    progression_entries: list[dict[str, Any]] = []
+    for trainer in depth_context.get("trainerSteps") or []:
+        step = int(trainer.get("step") or 0)
+        if step <= 0 or step > max_step:
+            continue
+
+        reached_count = reached_by_step[step]
+        next_reached = reached_by_step[step + 1] if step < max_step else reached_count
+        ended_count = max(reached_count - next_reached, 0)
+        entry = {
+            **trainer,
+            "runCount": reached_count,
+            "reachedCount": reached_count,
+            "endedCount": ended_count,
+        }
+        usage_key = str(trainer.get("usageKey") or "")
+        if usage_key:
+            progression_by_usage_key[usage_key] = entry
+        progression_entries.append(entry)
+
+    top_run_enders = sorted(
+        [entry for entry in progression_entries if entry.get("endedCount", 0) > 0],
+        key=lambda entry: (
+            -int(entry.get("endedCount") or 0),
+            -int(entry.get("reachedCount") or 0),
+            int(entry.get("step") or 10**9),
+            str(entry.get("displayName") or ""),
+        ),
+    )[:10]
+
+    return progression_by_usage_key, top_run_enders
 
 
 def resolve_run_depth_context(
@@ -1305,7 +1461,7 @@ def resolve_run_depth_context(
             continue
         usage_key_to_name[str(entry["usageKey"])] = (
             entry["displayName"]
-            if title == "Pokemon Null"
+            if is_pokemon_null_title(title)
             else (entry.get("sourceDisplayName") or entry["displayName"])
         )
     for run in runs_by_tid.values():
@@ -1323,6 +1479,7 @@ def resolve_run_depth_context(
             "reason": reason,
             "maxStep": 0,
             "markers": [],
+            "trainerSteps": [],
         }
 
     if title == "Emerald Imperium 1.3":
@@ -1357,14 +1514,30 @@ def resolve_run_depth_context(
             "reason": None,
             "maxStep": max_step,
             "markers": sorted(markers, key=lambda item: (item["step"], item["label"])),
+            "trainerSteps": sorted(
+                [
+                    {
+                        "displayName": entry["displayName"],
+                        "sourceDisplayName": entry.get("sourceDisplayName") or entry["displayName"],
+                        "usageKey": str(entry["usageKey"]),
+                        "trId": entry.get("trId"),
+                        "leadLevel": entry.get("leadLevel"),
+                        "maxLevel": entry.get("maxLevel"),
+                        "step": depth_map.get(str(entry.get("sourceDisplayName") or entry["displayName"])),
+                    }
+                    for entry in index_entries
+                    if depth_map.get(str(entry.get("sourceDisplayName") or entry["displayName"])) is not None
+                ],
+                key=lambda item: (item["step"], item["displayName"]),
+            ),
         }
 
-    if title == "Pokemon Null":
+    if is_pokemon_null_title(title):
         trainer_orders = load_trainer_orders(trainer_order_key)
         if not trainer_orders:
             return unavailable("no_trainer_order")
 
-        anchor_id = resolve_null_anchor_trainer_id()
+        anchor_id = resolve_null_anchor_trainer_id(title)
         if anchor_id is None:
             anchor_id = next(
                 (
@@ -1417,6 +1590,22 @@ def resolve_run_depth_context(
             "reason": None,
             "maxStep": max_step,
             "markers": sorted(markers, key=lambda item: (item["step"], item["label"])),
+            "trainerSteps": sorted(
+                [
+                    {
+                        "displayName": entry["displayName"],
+                        "sourceDisplayName": entry.get("sourceDisplayName") or entry["displayName"],
+                        "usageKey": str(entry["usageKey"]),
+                        "trId": entry.get("trId"),
+                        "leadLevel": entry.get("leadLevel"),
+                        "maxLevel": entry.get("maxLevel"),
+                        "step": name_depth_map.get(str(entry["displayName"])),
+                    }
+                    for entry in index_entries
+                    if name_depth_map.get(str(entry["displayName"])) is not None
+                ],
+                key=lambda item: (item["step"], item["displayName"]),
+            ),
         }
 
     if not trainer_order_key:
@@ -1455,6 +1644,22 @@ def resolve_run_depth_context(
         "reason": None,
         "maxStep": max_step,
         "markers": sorted(markers, key=lambda item: (item["step"], item["label"])),
+        "trainerSteps": sorted(
+            [
+                {
+                    "displayName": entry["displayName"],
+                    "sourceDisplayName": entry.get("sourceDisplayName") or entry["displayName"],
+                    "usageKey": str(entry["usageKey"]),
+                    "trId": entry.get("trId"),
+                    "leadLevel": entry.get("leadLevel"),
+                    "maxLevel": entry.get("maxLevel"),
+                    "step": depth_map.get(entry["trId"]),
+                }
+                for entry in index_entries
+                if entry.get("trId") is not None and depth_map.get(entry["trId"]) is not None
+            ],
+            key=lambda item: (item["step"], item["displayName"]),
+        ),
     }
 
 
@@ -1624,9 +1829,15 @@ def build_snapshot(
     depth_context: dict[str, Any],
     species_first_type_lookup: dict[str, str],
 ) -> dict[str, Any]:
+    progression_by_usage_key, top_run_enders = build_trainer_progression_overview(filtered_runs, depth_context)
     return {
         "runCount": len(filtered_runs),
-        "importantTrainerBattles": build_important_trainer_overview(important_trainers, filtered_runs),
+        "importantTrainerBattles": build_important_trainer_overview(
+            important_trainers,
+            filtered_runs,
+            progression_by_usage_key,
+        ),
+        "topRunEnders": top_run_enders,
         "starterGiftGroups": build_starter_gift_groups(
             filtered_runs,
             title_config,
@@ -2000,14 +2211,14 @@ def export_title(
     explicit_multi_team_keys = explicit_multi_team_usage_keys(title_config)
     backup_entries = build_backup_trainer_entries(title)
     gym_alias_map = emerald_gym_leader_alias_map(title, title_config, backup_entries)
-    variant_alias_map = build_important_trainer_variant_alias_map(title_config)
-    null_location_alias_map = build_null_location_alias_map(rows, backup_entries) if title == "Pokemon Null" else {}
+    variant_alias_map = build_important_trainer_variant_alias_map(title, title_config, backup_entries)
+    null_location_alias_map = build_null_location_alias_map(rows, backup_entries) if is_pokemon_null_title(title) else {}
     alias_stages: list[dict[str, dict[str, Any]]] = []
     if title == "Emerald Imperium 1.3" and gym_alias_map:
         alias_stages.append(gym_alias_map)
     if variant_alias_map:
         alias_stages.append(variant_alias_map)
-    if title == "Pokemon Null" and null_location_alias_map:
+    if is_pokemon_null_title(title) and null_location_alias_map:
         alias_stages.append(null_location_alias_map)
 
     species_table = species_name_table(title)
@@ -2027,6 +2238,8 @@ def export_title(
     grouped_rows: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in normalized_rows:
         grouped_rows[row["usageKey"]].append(row)
+    for usage_key in configured_important_trainer_usage_keys(title_config):
+        grouped_rows.setdefault(usage_key, [])
 
     if alias_stages:
         for entry in backup_entries:
@@ -2162,7 +2375,7 @@ def export_title(
         normalized_rows,
         title_config,
         evo_data,
-        build_null_trainer_id_to_name_map(alias_stages) if title == "Pokemon Null" else None,
+        build_null_trainer_id_to_name_map(title, alias_stages) if is_pokemon_null_title(title) else None,
     )
     overview_payload, overview_meta = build_overview_payload(
         title,

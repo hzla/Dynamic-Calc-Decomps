@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "bagon",
   "familyMembers": [
     "Bagon",
@@ -82,7 +82,7 @@
       "byMinDepth": {
         "1": {
           "runCount": 7,
-          "averageParticipationPct": 28.4,
+          "averageParticipationPct": 27.8,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 5.4,
@@ -156,8 +156,8 @@
               "displayName": "Leader Iris",
               "leadLevel": 86,
               "partyCount": 2,
-              "ownedCount": 5,
-              "participationPct": 40
+              "ownedCount": 6,
+              "participationPct": 33
             },
             {
               "usageKey": "188",
@@ -176,7 +176,7 @@
     "byMinDepth": {
       "1": {
         "runCount": 7,
-        "averageParticipationPct": 28.4,
+        "averageParticipationPct": 27.8,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 5.4,
@@ -250,8 +250,8 @@
             "displayName": "Leader Iris",
             "leadLevel": 86,
             "partyCount": 2,
-            "ownedCount": 5,
-            "participationPct": 40
+            "ownedCount": 6,
+            "participationPct": 33
           },
           {
             "usageKey": "188",

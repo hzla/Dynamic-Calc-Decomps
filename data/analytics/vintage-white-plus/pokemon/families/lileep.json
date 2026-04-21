@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "lileep",
   "familyMembers": [
     "Cradily",
@@ -10,11 +10,11 @@
     "Cradily": {
       "byMinDepth": {
         "1": {
-          "runCount": 12,
-          "averageParticipationPct": 33.7,
+          "runCount": 13,
+          "averageParticipationPct": 38.8,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 4.1,
+          "averageBattlesUsed": 4.0,
           "topBattles": [
             {
               "usageKey": "23",
@@ -23,6 +23,14 @@
               "partyCount": 4,
               "ownedCount": 8,
               "participationPct": 50
+            },
+            {
+              "usageKey": "153",
+              "displayName": "Backpacker Jerome - Route 4",
+              "leadLevel": 38,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
             },
             {
               "usageKey": "68",
@@ -49,12 +57,12 @@
               "participationPct": 60
             },
             {
-              "usageKey": "153",
-              "displayName": "Backpacker Jerome - Route 4",
-              "leadLevel": 38,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
+              "usageKey": "89",
+              "displayName": "Team Plasma N",
+              "leadLevel": 42,
+              "partyCount": 3,
+              "ownedCount": 7,
+              "participationPct": 43
             },
             {
               "usageKey": "90",
@@ -84,14 +92,6 @@
               "usageKey": "24",
               "displayName": "Leader Clay",
               "leadLevel": 56,
-              "partyCount": 2,
-              "ownedCount": 4,
-              "participationPct": 50
-            },
-            {
-              "usageKey": "74",
-              "displayName": "Worker Glenn - Cold Storage",
-              "leadLevel": 51,
               "partyCount": 2,
               "ownedCount": 4,
               "participationPct": 50
@@ -125,11 +125,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 12,
-        "averageParticipationPct": 33.7,
+        "runCount": 13,
+        "averageParticipationPct": 38.8,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 4.1,
+        "averageBattlesUsed": 4.0,
         "topBattles": [
           {
             "usageKey": "23",
@@ -138,6 +138,14 @@
             "partyCount": 4,
             "ownedCount": 8,
             "participationPct": 50
+          },
+          {
+            "usageKey": "153",
+            "displayName": "Backpacker Jerome - Route 4",
+            "leadLevel": 38,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
           },
           {
             "usageKey": "68",
@@ -164,12 +172,12 @@
             "participationPct": 60
           },
           {
-            "usageKey": "153",
-            "displayName": "Backpacker Jerome - Route 4",
-            "leadLevel": 38,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
+            "usageKey": "89",
+            "displayName": "Team Plasma N",
+            "leadLevel": 42,
+            "partyCount": 3,
+            "ownedCount": 7,
+            "participationPct": 43
           },
           {
             "usageKey": "90",
@@ -199,14 +207,6 @@
             "usageKey": "24",
             "displayName": "Leader Clay",
             "leadLevel": 56,
-            "partyCount": 2,
-            "ownedCount": 4,
-            "participationPct": 50
-          },
-          {
-            "usageKey": "74",
-            "displayName": "Worker Glenn - Cold Storage",
-            "leadLevel": 51,
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50

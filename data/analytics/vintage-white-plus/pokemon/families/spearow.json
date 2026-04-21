@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "spearow",
   "familyMembers": [
     "Fearow",
@@ -10,11 +10,11 @@
     "Fearow": {
       "byMinDepth": {
         "1": {
-          "runCount": 6,
-          "averageParticipationPct": 61.1,
+          "runCount": 7,
+          "averageParticipationPct": 66.7,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 11.5,
+          "averageBattlesUsed": 10.0,
           "topBattles": [
             {
               "usageKey": "22",
@@ -197,11 +197,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 7,
-        "averageParticipationPct": 66.9,
+        "runCount": 8,
+        "averageParticipationPct": 71.1,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 10.6,
+        "averageBattlesUsed": 9.4,
         "topBattles": [
           {
             "usageKey": "22",

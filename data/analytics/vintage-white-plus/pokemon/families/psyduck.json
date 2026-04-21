@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "psyduck",
   "familyMembers": [
     "Golduck",
@@ -10,11 +10,11 @@
     "Golduck": {
       "byMinDepth": {
         "1": {
-          "runCount": 40,
-          "averageParticipationPct": 44.1,
+          "runCount": 42,
+          "averageParticipationPct": 46.8,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 3.3,
+          "averageBattlesUsed": 3.2,
           "topBattles": [
             {
               "usageKey": "21",
@@ -44,9 +44,9 @@
               "usageKey": "403",
               "displayName": "PkMn Trainer Cheren13",
               "leadLevel": 37,
-              "partyCount": 8,
-              "ownedCount": 13,
-              "participationPct": 62
+              "partyCount": 9,
+              "ownedCount": 14,
+              "participationPct": 64
             },
             {
               "usageKey": "87",
@@ -103,18 +103,18 @@
     "Psyduck": {
       "byMinDepth": {
         "1": {
-          "runCount": 35,
-          "averageParticipationPct": 50.3,
+          "runCount": 37,
+          "averageParticipationPct": 53.0,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 1.6,
+          "averageBattlesUsed": 1.5,
           "topBattles": [
             {
               "usageKey": "11",
               "displayName": "Leader Chili",
               "leadLevel": 14,
-              "partyCount": 10,
-              "ownedCount": 10,
+              "partyCount": 12,
+              "ownedCount": 12,
               "participationPct": 100
             },
             {
@@ -197,11 +197,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 55,
-        "averageParticipationPct": 50.3,
+        "runCount": 59,
+        "averageParticipationPct": 53.7,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 3.4,
+        "averageBattlesUsed": 3.2,
         "topBattles": [
           {
             "usageKey": "21",
@@ -220,6 +220,14 @@
             "participationPct": 48
           },
           {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 12,
+            "ownedCount": 12,
+            "participationPct": 100
+          },
+          {
             "usageKey": "22",
             "displayName": "Leader Burgh",
             "leadLevel": 33,
@@ -228,20 +236,12 @@
             "participationPct": 60
           },
           {
-            "usageKey": "11",
-            "displayName": "Leader Chili",
-            "leadLevel": 14,
-            "partyCount": 10,
-            "ownedCount": 10,
-            "participationPct": 100
-          },
-          {
             "usageKey": "403",
             "displayName": "PkMn Trainer Cheren13",
             "leadLevel": 37,
-            "partyCount": 8,
-            "ownedCount": 13,
-            "participationPct": 62
+            "partyCount": 9,
+            "ownedCount": 14,
+            "participationPct": 64
           },
           {
             "usageKey": "87",

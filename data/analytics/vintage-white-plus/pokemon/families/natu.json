@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "natu",
   "familyMembers": [
     "Natu",
@@ -10,8 +10,8 @@
     "Natu": {
       "byMinDepth": {
         "1": {
-          "runCount": 6,
-          "averageParticipationPct": 50.0,
+          "runCount": 7,
+          "averageParticipationPct": 57.1,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 1.3,
@@ -20,8 +20,8 @@
               "usageKey": "11",
               "displayName": "Leader Chili",
               "leadLevel": 14,
-              "partyCount": 2,
-              "ownedCount": 2,
+              "partyCount": 3,
+              "ownedCount": 3,
               "participationPct": 100
             },
             {
@@ -197,11 +197,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 14,
-        "averageParticipationPct": 52.3,
+        "runCount": 15,
+        "averageParticipationPct": 55.5,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 3.9,
+        "averageBattlesUsed": 3.7,
         "topBattles": [
           {
             "usageKey": "21",
@@ -244,6 +244,14 @@
             "participationPct": 80
           },
           {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
             "usageKey": "295",
             "displayName": "Team Plasma Grunt16",
             "leadLevel": 31,
@@ -266,14 +274,6 @@
             "partyCount": 3,
             "ownedCount": 4,
             "participationPct": 75
-          },
-          {
-            "usageKey": "11",
-            "displayName": "Leader Chili",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
           },
           {
             "usageKey": "507",

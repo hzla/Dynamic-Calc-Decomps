@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "chingling",
   "familyMembers": [
     "Chimecho",
@@ -10,8 +10,8 @@
     "Chimecho": {
       "byMinDepth": {
         "1": {
-          "runCount": 22,
-          "averageParticipationPct": 75.0,
+          "runCount": 23,
+          "averageParticipationPct": 76.1,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 4.5,
@@ -38,6 +38,14 @@
               "leadLevel": 31,
               "partyCount": 4,
               "ownedCount": 4,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "153",
+              "displayName": "Backpacker Jerome - Route 4",
+              "leadLevel": 38,
+              "partyCount": 3,
+              "ownedCount": 3,
               "participationPct": 100
             },
             {
@@ -73,14 +81,6 @@
               "participationPct": 100
             },
             {
-              "usageKey": "153",
-              "displayName": "Backpacker Jerome - Route 4",
-              "leadLevel": 38,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "196",
               "displayName": "Harlequin Jack - Castelia City",
               "leadLevel": 32,
@@ -104,8 +104,8 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 22,
-        "averageParticipationPct": 75.0,
+        "runCount": 23,
+        "averageParticipationPct": 76.1,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 4.5,
@@ -132,6 +132,14 @@
             "leadLevel": 31,
             "partyCount": 4,
             "ownedCount": 4,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "153",
+            "displayName": "Backpacker Jerome - Route 4",
+            "leadLevel": 38,
+            "partyCount": 3,
+            "ownedCount": 3,
             "participationPct": 100
           },
           {
@@ -164,14 +172,6 @@
             "leadLevel": 32,
             "partyCount": 3,
             "ownedCount": 3,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "153",
-            "displayName": "Backpacker Jerome - Route 4",
-            "leadLevel": 38,
-            "partyCount": 2,
-            "ownedCount": 2,
             "participationPct": 100
           },
           {

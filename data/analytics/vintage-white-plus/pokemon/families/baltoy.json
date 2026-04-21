@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "baltoy",
   "familyMembers": [
     "Baltoy",
@@ -103,24 +103,24 @@
     "Claydol": {
       "byMinDepth": {
         "1": {
-          "runCount": 7,
-          "averageParticipationPct": 29.9,
+          "runCount": 8,
+          "averageParticipationPct": 38.7,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 2.0,
           "topBattles": [
             {
-              "usageKey": "155",
-              "displayName": "Backpacker Ruth - Route 7",
-              "leadLevel": 59,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
               "usageKey": "23",
               "displayName": "Leader Elesa",
               "leadLevel": 42,
+              "partyCount": 2,
+              "ownedCount": 2,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "155",
+              "displayName": "Backpacker Ruth - Route 7",
+              "leadLevel": 59,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -137,6 +137,14 @@
               "usageKey": "491",
               "displayName": "PkMn Trainer Bianca4",
               "leadLevel": 62,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "403",
+              "displayName": "PkMn Trainer Cheren13",
+              "leadLevel": 37,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -180,14 +188,6 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "125",
-              "displayName": "Worker Cliff - Mistralton City",
-              "leadLevel": 61,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
             }
           ]
         }
@@ -197,12 +197,20 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 7,
-        "averageParticipationPct": 36.1,
+        "runCount": 8,
+        "averageParticipationPct": 44.1,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 2.4,
         "topBattles": [
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
           {
             "usageKey": "155",
             "displayName": "Backpacker Ruth - Route 7",
@@ -215,14 +223,6 @@
             "usageKey": "22",
             "displayName": "Leader Burgh",
             "leadLevel": 33,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "23",
-            "displayName": "Leader Elesa",
-            "leadLevel": 42,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
@@ -260,6 +260,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "403",
+            "displayName": "PkMn Trainer Cheren13",
+            "leadLevel": 37,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "90",
             "displayName": "PkMn Trainer Cheren7",
             "leadLevel": 54,
@@ -270,14 +278,6 @@
           {
             "usageKey": "139",
             "displayName": "Pokefan Georgia - Celestial Tower",
-            "leadLevel": 60,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "118",
-            "displayName": "Psychic Micki - Celestial Tower",
             "leadLevel": 60,
             "partyCount": 1,
             "ownedCount": 1,

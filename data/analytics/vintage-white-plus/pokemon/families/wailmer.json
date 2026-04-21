@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "wailmer",
   "familyMembers": [
     "Wailmer",
@@ -10,12 +10,28 @@
     "Wailmer": {
       "byMinDepth": {
         "1": {
-          "runCount": 3,
-          "averageParticipationPct": 4.2,
+          "runCount": 4,
+          "averageParticipationPct": 28.1,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 0.3,
+          "averageBattlesUsed": 0.8,
           "topBattles": [
+            {
+              "usageKey": "198",
+              "displayName": "Harlequin Louis - Castelia City",
+              "leadLevel": 34,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
+            {
+              "usageKey": "403",
+              "displayName": "PkMn Trainer Cheren13",
+              "leadLevel": 37,
+              "partyCount": 1,
+              "ownedCount": 1,
+              "participationPct": 100
+            },
             {
               "usageKey": "74",
               "displayName": "Worker Glenn - Cold Storage",
@@ -79,22 +95,6 @@
               "partyCount": 0,
               "ownedCount": 1,
               "participationPct": 0
-            },
-            {
-              "usageKey": "493",
-              "displayName": "PkMn Trainer Bianca6",
-              "leadLevel": 60,
-              "partyCount": 0,
-              "ownedCount": 1,
-              "participationPct": 0
-            },
-            {
-              "usageKey": "567",
-              "displayName": "PkMn Trainer Cynthia",
-              "leadLevel": 100,
-              "partyCount": 0,
-              "ownedCount": 1,
-              "participationPct": 0
             }
           ]
         }
@@ -103,11 +103,11 @@
     "Wailord": {
       "byMinDepth": {
         "1": {
-          "runCount": 8,
-          "averageParticipationPct": 37.2,
+          "runCount": 9,
+          "averageParticipationPct": 44.2,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 3.0,
+          "averageBattlesUsed": 2.9,
           "topBattles": [
             {
               "usageKey": "21",
@@ -197,11 +197,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 9,
-        "averageParticipationPct": 34.3,
+        "runCount": 10,
+        "averageParticipationPct": 40.8,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 2.8,
+        "averageBattlesUsed": 2.9,
         "topBattles": [
           {
             "usageKey": "21",
@@ -218,6 +218,14 @@
             "partyCount": 2,
             "ownedCount": 6,
             "participationPct": 33
+          },
+          {
+            "usageKey": "198",
+            "displayName": "Harlequin Louis - Castelia City",
+            "leadLevel": 34,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
           },
           {
             "usageKey": "34",
@@ -244,6 +252,14 @@
             "participationPct": 100
           },
           {
+            "usageKey": "403",
+            "displayName": "PkMn Trainer Cheren13",
+            "leadLevel": 37,
+            "partyCount": 1,
+            "ownedCount": 1,
+            "participationPct": 100
+          },
+          {
             "usageKey": "91",
             "displayName": "PkMn Trainer Cheren8",
             "leadLevel": 52,
@@ -263,22 +279,6 @@
             "usageKey": "87",
             "displayName": "School Kid Lydia",
             "leadLevel": 24,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "31",
-            "displayName": "School Kid Millie - Pinwheel Forest",
-            "leadLevel": 29,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "88",
-            "displayName": "Scientist Satomi",
-            "leadLevel": 23,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100

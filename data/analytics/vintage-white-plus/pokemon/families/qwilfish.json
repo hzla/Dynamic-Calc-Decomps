@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "qwilfish",
   "familyMembers": [
     "Qwilfish"
@@ -9,11 +9,11 @@
     "Qwilfish": {
       "byMinDepth": {
         "1": {
-          "runCount": 3,
-          "averageParticipationPct": 10.8,
+          "runCount": 4,
+          "averageParticipationPct": 33.1,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 4.3,
+          "averageBattlesUsed": 3.8,
           "topBattles": [
             {
               "usageKey": "266",
@@ -103,11 +103,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 3,
-        "averageParticipationPct": 10.8,
+        "runCount": 4,
+        "averageParticipationPct": 33.1,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 4.3,
+        "averageBattlesUsed": 3.8,
         "topBattles": [
           {
             "usageKey": "266",

@@ -1,6 +1,6 @@
 {
   "title": "Cascade White",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:19.828706Z",
   "species": [
     {
       "species": "Abomasnow",
@@ -345,6 +345,15 @@
       "detailFile": "families/castform.json",
       "familyMembers": [
         "Castform"
+      ]
+    },
+    {
+      "species": "Castform-Snowy",
+      "familyKey": "castform",
+      "detailFile": "families/castform.json",
+      "familyMembers": [
+        "Castform",
+        "Castform-Snowy"
       ]
     },
     {
@@ -3168,6 +3177,18 @@
     },
     {
       "species": "Wormadam",
+      "familyKey": "burmy",
+      "detailFile": "families/burmy.json",
+      "familyMembers": [
+        "Burmy",
+        "Mothim",
+        "Wormadam",
+        "Wormadam-Sandy",
+        "Wormadam-Trash"
+      ]
+    },
+    {
+      "species": "Wormadam-Sandy",
       "familyKey": "burmy",
       "detailFile": "families/burmy.json",
       "familyMembers": [

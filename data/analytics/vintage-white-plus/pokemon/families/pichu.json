@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "pichu",
   "familyMembers": [
     "Pichu",
@@ -106,7 +106,7 @@
       "byMinDepth": {
         "1": {
           "runCount": 8,
-          "averageParticipationPct": 35.7,
+          "averageParticipationPct": 35.6,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 2.9,

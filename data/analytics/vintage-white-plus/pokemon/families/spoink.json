@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "spoink",
   "familyMembers": [
     "Grumpig",
@@ -103,11 +103,11 @@
     "Spoink": {
       "byMinDepth": {
         "1": {
-          "runCount": 15,
-          "averageParticipationPct": 69.6,
+          "runCount": 16,
+          "averageParticipationPct": 71.5,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 2.0,
+          "averageBattlesUsed": 1.9,
           "topBattles": [
             {
               "usageKey": "65",
@@ -129,8 +129,8 @@
               "usageKey": "11",
               "displayName": "Leader Chili",
               "leadLevel": 14,
-              "partyCount": 2,
-              "ownedCount": 2,
+              "partyCount": 3,
+              "ownedCount": 3,
               "participationPct": 100
             },
             {
@@ -197,11 +197,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 21,
-        "averageParticipationPct": 51.0,
+        "runCount": 22,
+        "averageParticipationPct": 53.2,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 4.1,
+        "averageBattlesUsed": 4.0,
         "topBattles": [
           {
             "usageKey": "65",
@@ -223,6 +223,14 @@
             "usageKey": "153",
             "displayName": "Backpacker Jerome - Route 4",
             "leadLevel": 38,
+            "partyCount": 3,
+            "ownedCount": 3,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
             "partyCount": 3,
             "ownedCount": 3,
             "participationPct": 100
@@ -266,14 +274,6 @@
             "partyCount": 3,
             "ownedCount": 4,
             "participationPct": 75
-          },
-          {
-            "usageKey": "11",
-            "displayName": "Leader Chili",
-            "leadLevel": 14,
-            "partyCount": 2,
-            "ownedCount": 2,
-            "participationPct": 100
           },
           {
             "usageKey": "293",

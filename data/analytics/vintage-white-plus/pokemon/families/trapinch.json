@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "trapinch",
   "familyMembers": [
     "Flygon",
@@ -197,19 +197,19 @@
     "Vibrava": {
       "byMinDepth": {
         "1": {
-          "runCount": 11,
-          "averageParticipationPct": 32.7,
+          "runCount": 12,
+          "averageParticipationPct": 38.3,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 2.0,
+          "averageBattlesUsed": 1.9,
           "topBattles": [
             {
               "usageKey": "23",
               "displayName": "Leader Elesa",
               "leadLevel": 42,
-              "partyCount": 5,
-              "ownedCount": 7,
-              "participationPct": 71
+              "partyCount": 6,
+              "ownedCount": 8,
+              "participationPct": 75
             },
             {
               "usageKey": "69",
@@ -291,19 +291,19 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 16,
-        "averageParticipationPct": 35.6,
+        "runCount": 17,
+        "averageParticipationPct": 39.3,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 7.6,
+        "averageBattlesUsed": 7.2,
         "topBattles": [
           {
             "usageKey": "23",
             "displayName": "Leader Elesa",
             "leadLevel": 42,
-            "partyCount": 5,
-            "ownedCount": 7,
-            "participationPct": 71
+            "partyCount": 6,
+            "ownedCount": 8,
+            "participationPct": 75
           },
           {
             "usageKey": "301",

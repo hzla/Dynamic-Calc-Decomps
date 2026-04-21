@@ -681,6 +681,40 @@ body {
   gap: 12px;
 }
 
+.sectionTabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sectionTab {
+  appearance: none;
+  border: 1px solid var(--border-2);
+  border-radius: 999px;
+  background: var(--surface-4);
+  color: var(--text-muted);
+  padding: 7px 12px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.sectionTab:hover,
+.sectionTab:focus-visible {
+  border-color: var(--accent-primary);
+  color: var(--text-1);
+  outline: none;
+}
+
+.sectionTab.active {
+  border-color: var(--accent-primary);
+  background: rgba(187, 134, 252, 0.18);
+  color: var(--text-1);
+}
+
 .importantCard {
   display: grid;
   justify-items: center;
@@ -718,9 +752,43 @@ body {
   filter: drop-shadow(0 4px 7px rgba(0, 0, 0, 0.28));
 }
 
+.importantSpriteDual {
+  gap: 8px;
+}
+
+.importantSpriteDual img {
+  max-width: 44px;
+  max-height: 88px;
+}
+
 .importantCardBody {
   display: grid;
   gap: 4px;
+  width: 100%;
+}
+
+.importantStats {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+}
+
+.importantStatRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.importantStatRow span {
+  color: var(--text-muted-2);
+}
+
+.importantStatRow strong {
+  color: var(--accent-secondary);
+  font-size: 14px;
 }
 
 .chartGrid {

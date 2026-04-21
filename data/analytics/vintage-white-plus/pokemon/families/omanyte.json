@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "omanyte",
   "familyMembers": [
     "Omanyte",
@@ -10,11 +10,11 @@
     "Omastar": {
       "byMinDepth": {
         "1": {
-          "runCount": 10,
-          "averageParticipationPct": 36.3,
+          "runCount": 11,
+          "averageParticipationPct": 42.1,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 3.5,
+          "averageBattlesUsed": 3.4,
           "topBattles": [
             {
               "usageKey": "90",
@@ -31,6 +31,14 @@
               "partyCount": 4,
               "ownedCount": 4,
               "participationPct": 100
+            },
+            {
+              "usageKey": "73",
+              "displayName": "Worker Filipe - Cold Storage",
+              "leadLevel": 52,
+              "partyCount": 3,
+              "ownedCount": 4,
+              "participationPct": 75
             },
             {
               "usageKey": "493",
@@ -57,12 +65,12 @@
               "participationPct": 67
             },
             {
-              "usageKey": "73",
-              "displayName": "Worker Filipe - Cold Storage",
-              "leadLevel": 52,
+              "usageKey": "75",
+              "displayName": "Worker Ryan - Cold Storage",
+              "leadLevel": 53,
               "partyCount": 2,
-              "ownedCount": 3,
-              "participationPct": 67
+              "ownedCount": 5,
+              "participationPct": 40
             },
             {
               "usageKey": "243",
@@ -87,14 +95,6 @@
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
-            },
-            {
-              "usageKey": "302",
-              "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
-              "leadLevel": 78,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
             }
           ]
         }
@@ -104,11 +104,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 10,
-        "averageParticipationPct": 36.3,
+        "runCount": 11,
+        "averageParticipationPct": 42.1,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 3.5,
+        "averageBattlesUsed": 3.4,
         "topBattles": [
           {
             "usageKey": "90",
@@ -125,6 +125,14 @@
             "partyCount": 4,
             "ownedCount": 4,
             "participationPct": 100
+          },
+          {
+            "usageKey": "73",
+            "displayName": "Worker Filipe - Cold Storage",
+            "leadLevel": 52,
+            "partyCount": 3,
+            "ownedCount": 4,
+            "participationPct": 75
           },
           {
             "usageKey": "493",
@@ -151,12 +159,12 @@
             "participationPct": 67
           },
           {
-            "usageKey": "73",
-            "displayName": "Worker Filipe - Cold Storage",
-            "leadLevel": 52,
+            "usageKey": "75",
+            "displayName": "Worker Ryan - Cold Storage",
+            "leadLevel": 53,
             "partyCount": 2,
-            "ownedCount": 3,
-            "participationPct": 67
+            "ownedCount": 5,
+            "participationPct": 40
           },
           {
             "usageKey": "243",
@@ -178,14 +186,6 @@
             "usageKey": "257",
             "displayName": "Scientist Ron - Route 6",
             "leadLevel": 51,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "302",
-            "displayName": "Team Plasma Grunt23 - Dragonspiral Tower",
-            "leadLevel": 78,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100

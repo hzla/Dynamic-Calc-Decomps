@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "treecko",
   "familyMembers": [
     "Grovyle",
@@ -12,8 +12,8 @@
     "Grovyle": {
       "byMinDepth": {
         "1": {
-          "runCount": 50,
-          "averageParticipationPct": 39.4,
+          "runCount": 51,
+          "averageParticipationPct": 40.6,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 2.2,
@@ -41,6 +41,14 @@
               "partyCount": 6,
               "ownedCount": 17,
               "participationPct": 35
+            },
+            {
+              "usageKey": "22",
+              "displayName": "Leader Burgh",
+              "leadLevel": 33,
+              "partyCount": 6,
+              "ownedCount": 24,
+              "participationPct": 25
             },
             {
               "usageKey": "18",
@@ -75,14 +83,6 @@
               "participationPct": 38
             },
             {
-              "usageKey": "22",
-              "displayName": "Leader Burgh",
-              "leadLevel": 33,
-              "partyCount": 5,
-              "ownedCount": 23,
-              "participationPct": 22
-            },
-            {
               "usageKey": "20",
               "displayName": "PkMn Breeder Adelaide - Route 3",
               "leadLevel": 17,
@@ -105,19 +105,27 @@
     "Sceptile": {
       "byMinDepth": {
         "1": {
-          "runCount": 25,
-          "averageParticipationPct": 58.1,
+          "runCount": 27,
+          "averageParticipationPct": 61.2,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 8.2,
+          "averageBattlesUsed": 7.7,
           "topBattles": [
             {
               "usageKey": "23",
               "displayName": "Leader Elesa",
               "leadLevel": 42,
-              "partyCount": 10,
+              "partyCount": 11,
+              "ownedCount": 13,
+              "participationPct": 85
+            },
+            {
+              "usageKey": "403",
+              "displayName": "PkMn Trainer Cheren13",
+              "leadLevel": 37,
+              "partyCount": 8,
               "ownedCount": 12,
-              "participationPct": 83
+              "participationPct": 67
             },
             {
               "usageKey": "507",
@@ -134,14 +142,6 @@
               "partyCount": 7,
               "ownedCount": 10,
               "participationPct": 70
-            },
-            {
-              "usageKey": "403",
-              "displayName": "PkMn Trainer Cheren13",
-              "leadLevel": 37,
-              "partyCount": 7,
-              "ownedCount": 11,
-              "participationPct": 64
             },
             {
               "usageKey": "69",
@@ -198,8 +198,8 @@
     "Treecko": {
       "byMinDepth": {
         "1": {
-          "runCount": 24,
-          "averageParticipationPct": 36.5,
+          "runCount": 26,
+          "averageParticipationPct": 41.4,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 0.8,
@@ -208,8 +208,8 @@
               "usageKey": "11",
               "displayName": "Leader Chili",
               "leadLevel": 14,
-              "partyCount": 10,
-              "ownedCount": 10,
+              "partyCount": 12,
+              "ownedCount": 12,
               "participationPct": 100
             },
             {
@@ -292,11 +292,11 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 61,
-        "averageParticipationPct": 49.8,
+        "runCount": 65,
+        "averageParticipationPct": 52.9,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 5.5,
+        "averageBattlesUsed": 5.3,
         "topBattles": [
           {
             "usageKey": "65",
@@ -307,6 +307,22 @@
             "participationPct": 47
           },
           {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 12,
+            "ownedCount": 12,
+            "participationPct": 100
+          },
+          {
+            "usageKey": "23",
+            "displayName": "Leader Elesa",
+            "leadLevel": 42,
+            "partyCount": 11,
+            "ownedCount": 14,
+            "participationPct": 79
+          },
+          {
             "usageKey": "21",
             "displayName": "Leader Lenora",
             "leadLevel": 25,
@@ -315,20 +331,12 @@
             "participationPct": 28
           },
           {
-            "usageKey": "11",
-            "displayName": "Leader Chili",
-            "leadLevel": 14,
-            "partyCount": 10,
-            "ownedCount": 10,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "23",
-            "displayName": "Leader Elesa",
-            "leadLevel": 42,
-            "partyCount": 10,
-            "ownedCount": 13,
-            "participationPct": 77
+            "usageKey": "403",
+            "displayName": "PkMn Trainer Cheren13",
+            "leadLevel": 37,
+            "partyCount": 8,
+            "ownedCount": 14,
+            "participationPct": 57
           },
           {
             "usageKey": "507",
@@ -347,14 +355,6 @@
             "participationPct": 70
           },
           {
-            "usageKey": "403",
-            "displayName": "PkMn Trainer Cheren13",
-            "leadLevel": 37,
-            "partyCount": 7,
-            "ownedCount": 13,
-            "participationPct": 54
-          },
-          {
             "usageKey": "87",
             "displayName": "School Kid Lydia",
             "leadLevel": 24,
@@ -363,20 +363,20 @@
             "participationPct": 33
           },
           {
+            "usageKey": "22",
+            "displayName": "Leader Burgh",
+            "leadLevel": 33,
+            "partyCount": 6,
+            "ownedCount": 24,
+            "participationPct": 25
+          },
+          {
             "usageKey": "18",
             "displayName": "Twins Kumi & Amy",
             "leadLevel": 16,
             "partyCount": 5,
             "ownedCount": 5,
             "participationPct": 100
-          },
-          {
-            "usageKey": "292",
-            "displayName": "School Kid Gina - Route 3",
-            "leadLevel": 21,
-            "partyCount": 5,
-            "ownedCount": 6,
-            "participationPct": 83
           }
         ]
       }

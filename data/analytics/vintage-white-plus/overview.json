@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "maxStep": 0,
   "defaultMinDepth": 1,
   "milestones": [],
@@ -15,7 +15,9 @@
           "trId": 11,
           "leadLevel": 14,
           "maxLevel": 15,
-          "runCount": 12
+          "runCount": 12,
+          "reachedCount": 12,
+          "endedCount": null
         },
         {
           "displayName": "Leader Cilan",
@@ -24,7 +26,9 @@
           "trId": 12,
           "leadLevel": 14,
           "maxLevel": 15,
-          "runCount": 5
+          "runCount": 5,
+          "reachedCount": 5,
+          "endedCount": null
         },
         {
           "displayName": "Leader Cress",
@@ -33,7 +37,9 @@
           "trId": 13,
           "leadLevel": 14,
           "maxLevel": 15,
-          "runCount": 5
+          "runCount": 5,
+          "reachedCount": 5,
+          "endedCount": null
         },
         {
           "displayName": "Leader Lenora",
@@ -42,7 +48,9 @@
           "trId": 21,
           "leadLevel": 25,
           "maxLevel": 28,
-          "runCount": 55
+          "runCount": 55,
+          "reachedCount": 55,
+          "endedCount": null
         },
         {
           "displayName": "Leader Burgh",
@@ -51,7 +59,9 @@
           "trId": 22,
           "leadLevel": 33,
           "maxLevel": 35,
-          "runCount": 36
+          "runCount": 36,
+          "reachedCount": 36,
+          "endedCount": null
         },
         {
           "displayName": "Leader Elesa",
@@ -60,7 +70,9 @@
           "trId": 23,
           "leadLevel": 42,
           "maxLevel": 44,
-          "runCount": 24
+          "runCount": 24,
+          "reachedCount": 24,
+          "endedCount": null
         },
         {
           "displayName": "Leader Clay",
@@ -69,7 +81,9 @@
           "trId": 24,
           "leadLevel": 56,
           "maxLevel": 58,
-          "runCount": 17
+          "runCount": 17,
+          "reachedCount": 17,
+          "endedCount": null
         },
         {
           "displayName": "Leader Skyla",
@@ -78,7 +92,9 @@
           "trId": 25,
           "leadLevel": 65,
           "maxLevel": 67,
-          "runCount": 8
+          "runCount": 8,
+          "reachedCount": 8,
+          "endedCount": null
         },
         {
           "displayName": "Leader Brycen",
@@ -87,7 +103,9 @@
           "trId": 131,
           "leadLevel": 74,
           "maxLevel": 74,
-          "runCount": 9
+          "runCount": 9,
+          "reachedCount": 9,
+          "endedCount": null
         },
         {
           "displayName": "Leader Iris",
@@ -96,7 +114,9 @@
           "trId": 132,
           "leadLevel": 86,
           "maxLevel": 86,
-          "runCount": 10
+          "runCount": 10,
+          "reachedCount": 10,
+          "endedCount": null
         },
         {
           "displayName": "Champion Alder",
@@ -105,7 +125,9 @@
           "trId": 407,
           "leadLevel": 100,
           "maxLevel": 100,
-          "runCount": 1
+          "runCount": 1,
+          "reachedCount": 1,
+          "endedCount": null
         },
         {
           "displayName": "Elite Four Caitlin",
@@ -114,7 +136,9 @@
           "trId": 231,
           "leadLevel": 100,
           "maxLevel": 100,
-          "runCount": 7
+          "runCount": 7,
+          "reachedCount": 7,
+          "endedCount": null
         },
         {
           "displayName": "Elite Four Grimsley",
@@ -123,7 +147,9 @@
           "trId": 230,
           "leadLevel": 100,
           "maxLevel": 100,
-          "runCount": 7
+          "runCount": 7,
+          "reachedCount": 7,
+          "endedCount": null
         },
         {
           "displayName": "Elite Four Marshal",
@@ -132,7 +158,9 @@
           "trId": 229,
           "leadLevel": 100,
           "maxLevel": 100,
-          "runCount": 7
+          "runCount": 7,
+          "reachedCount": 7,
+          "endedCount": null
         },
         {
           "displayName": "Elite Four Shauntal",
@@ -141,9 +169,12 @@
           "trId": 228,
           "leadLevel": 100,
           "maxLevel": 100,
-          "runCount": 7
+          "runCount": 7,
+          "reachedCount": 7,
+          "endedCount": null
         }
       ],
+      "topRunEnders": [],
       "starterGiftGroups": [],
       "topPokemonByAverageDepth": [],
       "runDepth": {

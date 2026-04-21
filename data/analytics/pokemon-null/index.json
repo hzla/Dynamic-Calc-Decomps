@@ -1,9 +1,9 @@
 {
-  "title": "Pokemon Null",
+  "title": "Pokemon Null 1.1",
   "slug": "pokemon-null",
-  "generatedAt": "2026-04-16T20:48:09.475576Z",
+  "generatedAt": "2026-04-21T00:21:26.505485Z",
   "historyLimit": 100,
-  "trainerCount": 350,
+  "trainerCount": 346,
   "overviewFile": "overview.json",
   "overviewMeta": {
     "runDepthAvailable": true,
@@ -19,7 +19,7 @@
     {
       "displayName": "Route 103 Rival |Route 103|",
       "usageKey": "Route 103 Rival",
-      "detailFile": "trainers/263.json",
+      "detailFile": "trainers/260.json",
       "leadLevel": 11,
       "maxLevel": 11,
       "isBoss": false,
@@ -32,7 +32,7 @@
     {
       "displayName": "Root Academy Trainer #2 Slot1 |Root Academy|",
       "usageKey": "Root Academy Trainer #2 Slot1",
-      "detailFile": "trainers/255.json",
+      "detailFile": "trainers/252.json",
       "leadLevel": 17,
       "maxLevel": 17,
       "isBoss": false,
@@ -45,7 +45,7 @@
     {
       "displayName": "Root Academy Trainer #3 Slot1 |Root Academy|",
       "usageKey": "Root Academy Trainer #3 Slot1",
-      "detailFile": "trainers/257.json",
+      "detailFile": "trainers/254.json",
       "leadLevel": 22,
       "maxLevel": 22,
       "isBoss": false,
@@ -58,7 +58,7 @@
     {
       "displayName": "Root Academy Trainer #3 Slot2 |Root Academy|",
       "usageKey": "Root Academy Trainer #3 Slot2",
-      "detailFile": "trainers/258.json",
+      "detailFile": "trainers/255.json",
       "leadLevel": 23,
       "maxLevel": 23,
       "isBoss": false,
@@ -71,7 +71,7 @@
     {
       "displayName": "Root Academy Trainer #3 Slot3 |Root Academy|",
       "usageKey": "Root Academy Trainer #3 Slot3",
-      "detailFile": "trainers/259.json",
+      "detailFile": "trainers/256.json",
       "leadLevel": 24,
       "maxLevel": 24,
       "isBoss": false,
@@ -84,7 +84,7 @@
     {
       "displayName": "Root Academy Trainer #4 Slot1 |Root Academy|",
       "usageKey": "Root Academy Trainer #4 Slot1",
-      "detailFile": "trainers/261.json",
+      "detailFile": "trainers/258.json",
       "leadLevel": 27,
       "maxLevel": 27,
       "isBoss": false,
@@ -97,7 +97,7 @@
     {
       "displayName": "Root Academy Trainer #4 Slot2 |Root Academy|",
       "usageKey": "Root Academy Trainer #4 Slot2",
-      "detailFile": "trainers/262.json",
+      "detailFile": "trainers/259.json",
       "leadLevel": 28,
       "maxLevel": 28,
       "isBoss": false,
@@ -110,7 +110,7 @@
     {
       "displayName": "Bug Catcher Beni |Route 102|",
       "usageKey": "Bug Catcher Beni",
-      "detailFile": "trainers/059.json",
+      "detailFile": "trainers/058.json",
       "leadLevel": 33,
       "maxLevel": 34,
       "isBoss": false,
@@ -123,7 +123,7 @@
     {
       "displayName": "Youngster Calvin |Route 102|",
       "usageKey": "Youngster Calvin",
-      "detailFile": "trainers/343.json",
+      "detailFile": "trainers/339.json",
       "leadLevel": 33,
       "maxLevel": 34,
       "isBoss": false,
@@ -136,7 +136,7 @@
     {
       "displayName": "Youngster Joey |Route 102|",
       "usageKey": "Youngster Joey",
-      "detailFile": "trainers/345.json",
+      "detailFile": "trainers/341.json",
       "leadLevel": 33,
       "maxLevel": 34,
       "isBoss": false,
@@ -149,7 +149,7 @@
     {
       "displayName": "Lady Cindy |Route 104|",
       "usageKey": "Lady Cindy",
-      "detailFile": "trainers/164.json",
+      "detailFile": "trainers/162.json",
       "leadLevel": 34,
       "maxLevel": 35,
       "isBoss": false,
@@ -162,7 +162,7 @@
     {
       "displayName": "Lass Tiana |Route 102|",
       "usageKey": "Lass Tiana",
-      "detailFile": "trainers/174.json",
+      "detailFile": "trainers/172.json",
       "leadLevel": 34,
       "maxLevel": 35,
       "isBoss": false,
@@ -175,7 +175,7 @@
     {
       "displayName": "Oldale Team Aqua Grunt |Oldale Town|",
       "usageKey": "Oldale Team Aqua Grunt",
-      "detailFile": "trainers/204.json",
+      "detailFile": "trainers/202.json",
       "leadLevel": 34,
       "maxLevel": 34,
       "isBoss": false,
@@ -188,7 +188,7 @@
     {
       "displayName": "Youngster Swede |Route 104|",
       "usageKey": "Youngster Swede",
-      "detailFile": "trainers/348.json",
+      "detailFile": "trainers/344.json",
       "leadLevel": 34,
       "maxLevel": 35,
       "isBoss": false,
@@ -201,7 +201,7 @@
     {
       "displayName": "Bug Catcher James |Petalburg Woods|",
       "usageKey": "Bug Catcher James",
-      "detailFile": "trainers/060.json",
+      "detailFile": "trainers/059.json",
       "leadLevel": 35,
       "maxLevel": 36,
       "isBoss": false,
@@ -214,7 +214,7 @@
     {
       "displayName": "Bug Catcher Kenobi |Petalburg Woods|",
       "usageKey": "Bug Catcher Kenobi",
-      "detailFile": "trainers/062.json",
+      "detailFile": "trainers/061.json",
       "leadLevel": 35,
       "maxLevel": 35,
       "isBoss": false,
@@ -227,7 +227,7 @@
     {
       "displayName": "Twins Gina & Mia |Route 104|",
       "usageKey": "Twins Gina & Mia",
-      "detailFile": "trainers/334.json",
+      "detailFile": "trainers/330.json",
       "leadLevel": 35,
       "maxLevel": 38,
       "isBoss": false,
@@ -240,7 +240,7 @@
     {
       "displayName": "Youngster Tommy |Rustboro Gym|",
       "usageKey": "Youngster Tommy",
-      "detailFile": "trainers/350.json",
+      "detailFile": "trainers/346.json",
       "leadLevel": 35,
       "maxLevel": 37,
       "isBoss": false,
@@ -266,7 +266,7 @@
     {
       "displayName": "Rich Boy Winston |Route 104|",
       "usageKey": "Rich Boy Winston",
-      "detailFile": "trainers/251.json",
+      "detailFile": "trainers/248.json",
       "leadLevel": 36,
       "maxLevel": 37,
       "isBoss": false,
@@ -279,7 +279,7 @@
     {
       "displayName": "Woods Team Aqua Grunt |Petalburg Woods|",
       "usageKey": "Woods Team Aqua Grunt",
-      "detailFile": "trainers/341.json",
+      "detailFile": "trainers/337.json",
       "leadLevel": 36,
       "maxLevel": 36,
       "isBoss": false,
@@ -292,7 +292,7 @@
     {
       "displayName": "Youngster Josh |Rustboro Gym|",
       "usageKey": "Youngster Josh",
-      "detailFile": "trainers/346.json",
+      "detailFile": "trainers/342.json",
       "leadLevel": 36,
       "maxLevel": 36,
       "isBoss": false,
@@ -318,7 +318,7 @@
     {
       "displayName": "Leader Roxanne |Rustboro Gym|",
       "usageKey": "Leader Roxanne",
-      "detailFile": "trainers/179.json",
+      "detailFile": "trainers/177.json",
       "leadLevel": 37,
       "maxLevel": 38,
       "isBoss": true,
@@ -344,7 +344,7 @@
     {
       "displayName": "Youngster Schmo |Route 116|",
       "usageKey": "Youngster Schmo",
-      "detailFile": "trainers/347.json",
+      "detailFile": "trainers/343.json",
       "leadLevel": 39,
       "maxLevel": 40,
       "isBoss": false,
@@ -357,7 +357,7 @@
     {
       "displayName": "Bug Catcher Jose |Route 116|",
       "usageKey": "Bug Catcher Jose",
-      "detailFile": "trainers/061.json",
+      "detailFile": "trainers/060.json",
       "leadLevel": 40,
       "maxLevel": 42,
       "isBoss": false,
@@ -370,7 +370,7 @@
     {
       "displayName": "School Kid Karen |Route 116|",
       "usageKey": "School Kid Karen",
-      "detailFile": "trainers/272.json",
+      "detailFile": "trainers/269.json",
       "leadLevel": 40,
       "maxLevel": 41,
       "isBoss": false,
@@ -409,7 +409,7 @@
     {
       "displayName": "Rusturf Team Aqua Grunt |Rusturf Tunnel|",
       "usageKey": "Rusturf Team Aqua Grunt",
-      "detailFile": "trainers/268.json",
+      "detailFile": "trainers/265.json",
       "leadLevel": 42,
       "maxLevel": 45,
       "isBoss": false,
@@ -422,7 +422,7 @@
     {
       "displayName": "Blackbelt Bryant |Granite Cave|",
       "usageKey": "Blackbelt Bryant",
-      "detailFile": "trainers/047.json",
+      "detailFile": "trainers/046.json",
       "leadLevel": 43,
       "maxLevel": 45,
       "isBoss": false,
@@ -448,7 +448,7 @@
     {
       "displayName": "Rustboro Rival Chespin |Rustboro City|",
       "usageKey": "Rustboro Rival Chespin",
-      "detailFile": "trainers/265.json",
+      "detailFile": "trainers/262.json",
       "leadLevel": 43,
       "maxLevel": 44,
       "isBoss": false,
@@ -474,7 +474,7 @@
     {
       "displayName": "Blackbelt Cristian |Dewford Gym|",
       "usageKey": "Blackbelt Cristian",
-      "detailFile": "trainers/048.json",
+      "detailFile": "trainers/047.json",
       "leadLevel": 44,
       "maxLevel": 45,
       "isBoss": false,
@@ -487,7 +487,7 @@
     {
       "displayName": "Picnicker Emi |Granite Cave|",
       "usageKey": "Picnicker Emi",
-      "detailFile": "trainers/213.json",
+      "detailFile": "trainers/211.json",
       "leadLevel": 44,
       "maxLevel": 44,
       "isBoss": false,
@@ -500,7 +500,7 @@
     {
       "displayName": "Ranger Zoe |Granite Cave|",
       "usageKey": "Ranger Zoe",
-      "detailFile": "trainers/247.json",
+      "detailFile": "trainers/244.json",
       "leadLevel": 44,
       "maxLevel": 45,
       "isBoss": false,
@@ -513,7 +513,7 @@
     {
       "displayName": "Rustboro Rival Fennekin |Rustboro City|",
       "usageKey": "Rustboro Rival Fennekin",
-      "detailFile": "trainers/266.json",
+      "detailFile": "trainers/263.json",
       "leadLevel": 44,
       "maxLevel": 44,
       "isBoss": false,
@@ -526,7 +526,7 @@
     {
       "displayName": "Rustboro Rival Froakie |Rustboro City|",
       "usageKey": "Rustboro Rival Froakie",
-      "detailFile": "trainers/267.json",
+      "detailFile": "trainers/264.json",
       "leadLevel": 44,
       "maxLevel": 44,
       "isBoss": false,
@@ -552,7 +552,7 @@
     {
       "displayName": "Blackbelt Takao |Dewford Gym|",
       "usageKey": "Blackbelt Takao",
-      "detailFile": "trainers/052.json",
+      "detailFile": "trainers/051.json",
       "leadLevel": 45,
       "maxLevel": 45,
       "isBoss": false,
@@ -565,7 +565,7 @@
     {
       "displayName": "Leader Brawly |Dewford Gym|",
       "usageKey": "Leader Brawly",
-      "detailFile": "trainers/175.json",
+      "detailFile": "trainers/173.json",
       "leadLevel": 45,
       "maxLevel": 45,
       "isBoss": true,
@@ -578,7 +578,7 @@
     {
       "displayName": "Tuber Hailey |Route 109|",
       "usageKey": "Tuber Hailey",
-      "detailFile": "trainers/328.json",
+      "detailFile": "trainers/324.json",
       "leadLevel": 46,
       "maxLevel": 47,
       "isBoss": false,
@@ -591,7 +591,7 @@
     {
       "displayName": "Sailor Edmond |Route 109|",
       "usageKey": "Sailor Edmond",
-      "detailFile": "trainers/270.json",
+      "detailFile": "trainers/267.json",
       "leadLevel": 47,
       "maxLevel": 48,
       "isBoss": false,
@@ -604,7 +604,7 @@
     {
       "displayName": "Tuber Ricky |Route 109|",
       "usageKey": "Tuber Ricky",
-      "detailFile": "trainers/331.json",
+      "detailFile": "trainers/327.json",
       "leadLevel": 47,
       "maxLevel": 47,
       "isBoss": false,
@@ -617,7 +617,7 @@
     {
       "displayName": "Museum Team Aqua Grunt |Slateport Museum|",
       "usageKey": "Museum Team Aqua Grunt",
-      "detailFile": "trainers/193.json",
+      "detailFile": "trainers/191.json",
       "leadLevel": 48,
       "maxLevel": 48,
       "isBoss": false,
@@ -630,7 +630,7 @@
     {
       "displayName": "Sailor MSPaint |Route 109|",
       "usageKey": "Sailor MSPaint",
-      "detailFile": "trainers/271.json",
+      "detailFile": "trainers/268.json",
       "leadLevel": 48,
       "maxLevel": 48,
       "isBoss": false,
@@ -643,7 +643,7 @@
     {
       "displayName": "Tuber Chandler |Route 109|",
       "usageKey": "Tuber Chandler",
-      "detailFile": "trainers/327.json",
+      "detailFile": "trainers/323.json",
       "leadLevel": 48,
       "maxLevel": 48,
       "isBoss": false,
@@ -656,7 +656,7 @@
     {
       "displayName": "Tuber Lola |Route 109|",
       "usageKey": "Tuber Lola",
-      "detailFile": "trainers/330.json",
+      "detailFile": "trainers/326.json",
       "leadLevel": 48,
       "maxLevel": 48,
       "isBoss": false,
@@ -669,7 +669,7 @@
     {
       "displayName": "Museum Team Aqua Elite Grunt |Slateport Museum|",
       "usageKey": "Museum Team Aqua Elite Grunt",
-      "detailFile": "trainers/192.json",
+      "detailFile": "trainers/190.json",
       "leadLevel": 49,
       "maxLevel": 50,
       "isBoss": false,
@@ -682,7 +682,7 @@
     {
       "displayName": "Lass Haley |Icicle Cave|",
       "usageKey": "Lass Haley",
-      "detailFile": "trainers/172.json",
+      "detailFile": "trainers/170.json",
       "leadLevel": 50,
       "maxLevel": 51,
       "isBoss": false,
@@ -695,15 +695,14 @@
     {
       "displayName": "Elite Four Glacia",
       "usageKey": "Elite Four Glacia",
-      "detailFile": "trainers/103.json",
+      "detailFile": "trainers/102.json",
       "leadLevel": 51,
-      "maxLevel": 100,
+      "maxLevel": 53,
       "isBoss": true,
       "partySize": 7,
       "trId": 263,
       "teamVariantNames": [
-        "Ex Elite Four Glacia 1 |Icicle Cave|",
-        "Ex Elite Four Glacia 2 |Route 123|"
+        "Ex Elite Four Glacia 1 |Icicle Cave|"
       ]
     },
     {
@@ -722,7 +721,7 @@
     {
       "displayName": "Parasol Lady Saara |Icicle Cave|",
       "usageKey": "Parasol Lady Saara",
-      "detailFile": "trainers/207.json",
+      "detailFile": "trainers/205.json",
       "leadLevel": 51,
       "maxLevel": 52,
       "isBoss": false,
@@ -748,7 +747,7 @@
     {
       "displayName": "Rich Boy Techno |Route 117|",
       "usageKey": "Rich Boy Techno",
-      "detailFile": "trainers/250.json",
+      "detailFile": "trainers/247.json",
       "leadLevel": 54,
       "maxLevel": 55,
       "isBoss": false,
@@ -761,7 +760,7 @@
     {
       "displayName": "Blackbelt Iageezus |Route 117|",
       "usageKey": "Blackbelt Iageezus",
-      "detailFile": "trainers/049.json",
+      "detailFile": "trainers/048.json",
       "leadLevel": 55,
       "maxLevel": 56,
       "isBoss": false,
@@ -774,7 +773,7 @@
     {
       "displayName": "Breeder Tommy |Route 117|",
       "usageKey": "Breeder Tommy",
-      "detailFile": "trainers/055.json",
+      "detailFile": "trainers/054.json",
       "leadLevel": 55,
       "maxLevel": 56,
       "isBoss": false,
@@ -787,7 +786,7 @@
     {
       "displayName": "Bug Maniac Derek |Route 117|",
       "usageKey": "Bug Maniac Derek",
-      "detailFile": "trainers/066.json",
+      "detailFile": "trainers/065.json",
       "leadLevel": 55,
       "maxLevel": 56,
       "isBoss": false,
@@ -800,7 +799,7 @@
     {
       "displayName": "Psychic Brandi |Route 117|",
       "usageKey": "Psychic Brandi",
-      "detailFile": "trainers/227.json",
+      "detailFile": "trainers/224.json",
       "leadLevel": 55,
       "maxLevel": 55,
       "isBoss": false,
@@ -813,7 +812,7 @@
     {
       "displayName": "Triathlete Dylan & Triathlete Maria |Route 117|",
       "usageKey": "Triathlete Dylan & Triathlete Maria",
-      "detailFile": "trainers/322.json",
+      "detailFile": "trainers/318.json",
       "leadLevel": 55,
       "maxLevel": 56,
       "isBoss": false,
@@ -826,7 +825,7 @@
     {
       "displayName": "Twins Anna&Meg |Route 117|",
       "usageKey": "Twins Anna&Meg",
-      "detailFile": "trainers/333.json",
+      "detailFile": "trainers/329.json",
       "leadLevel": 55,
       "maxLevel": 56,
       "isBoss": false,
@@ -852,7 +851,7 @@
     {
       "displayName": "Bug Maniac Angelo |Mauville Gym|",
       "usageKey": "Bug Maniac Angelo",
-      "detailFile": "trainers/064.json",
+      "detailFile": "trainers/063.json",
       "leadLevel": 57,
       "maxLevel": 58,
       "isBoss": false,
@@ -878,7 +877,7 @@
     {
       "displayName": "Youngster Ben |Mauville Gym|",
       "usageKey": "Youngster Ben",
-      "detailFile": "trainers/342.json",
+      "detailFile": "trainers/338.json",
       "leadLevel": 57,
       "maxLevel": 58,
       "isBoss": false,
@@ -891,7 +890,7 @@
     {
       "displayName": "Leader Wattson |Mauville Gym|",
       "usageKey": "Leader Wattson",
-      "detailFile": "trainers/182.json",
+      "detailFile": "trainers/180.json",
       "leadLevel": 59,
       "maxLevel": 60,
       "isBoss": true,
@@ -904,7 +903,7 @@
     {
       "displayName": "Land Cave Team Magma Grunt #1 |Land Cave|",
       "usageKey": "Land Cave Team Magma Grunt #1",
-      "detailFile": "trainers/168.json",
+      "detailFile": "trainers/166.json",
       "leadLevel": 60,
       "maxLevel": 60,
       "isBoss": false,
@@ -917,7 +916,7 @@
     {
       "displayName": "Land Cave Team Magma Grunt #4 |Land Cave|",
       "usageKey": "Land Cave Team Magma Grunt #4",
-      "detailFile": "trainers/170.json",
+      "detailFile": "trainers/168.json",
       "leadLevel": 60,
       "maxLevel": 61,
       "isBoss": false,
@@ -930,7 +929,7 @@
     {
       "displayName": "Team Magma Grunt Croven |Land Cave|",
       "usageKey": "Team Magma Grunt Croven",
-      "detailFile": "trainers/311.json",
+      "detailFile": "trainers/307.json",
       "leadLevel": 60,
       "maxLevel": 61,
       "isBoss": false,
@@ -943,7 +942,7 @@
     {
       "displayName": "Psychic Jaclyn |Route 110|",
       "usageKey": "Psychic Jaclyn",
-      "detailFile": "trainers/231.json",
+      "detailFile": "trainers/228.json",
       "leadLevel": 61,
       "maxLevel": 62,
       "isBoss": false,
@@ -956,7 +955,7 @@
     {
       "displayName": "Team Magma Admin Courtney 1 |Land Cave|",
       "usageKey": "Team Magma Admin Courtney 1",
-      "detailFile": "trainers/305.json",
+      "detailFile": "trainers/301.json",
       "leadLevel": 61,
       "maxLevel": 65,
       "isBoss": false,
@@ -969,7 +968,7 @@
     {
       "displayName": "Triathlete Abigail |Route 110|",
       "usageKey": "Triathlete Abigail",
-      "detailFile": "trainers/319.json",
+      "detailFile": "trainers/315.json",
       "leadLevel": 61,
       "maxLevel": 62,
       "isBoss": false,
@@ -982,7 +981,7 @@
     {
       "displayName": "Land Cave Team Magma Elite Grunt |Land Cave|",
       "usageKey": "Land Cave Team Magma Elite Grunt",
-      "detailFile": "trainers/167.json",
+      "detailFile": "trainers/165.json",
       "leadLevel": 62,
       "maxLevel": 62,
       "isBoss": false,
@@ -995,7 +994,7 @@
     {
       "displayName": "Triathlete Benjamin & Triathlete Alyssa |Route 110|",
       "usageKey": "Triathlete Benjamin & Triathlete Alyssa",
-      "detailFile": "trainers/321.json",
+      "detailFile": "trainers/317.json",
       "leadLevel": 62,
       "maxLevel": 63,
       "isBoss": false,
@@ -1021,7 +1020,7 @@
     {
       "displayName": "Cycling Road Rival Fennekin |Route 110|",
       "usageKey": "Cycling Road Rival Fennekin",
-      "detailFile": "trainers/096.json",
+      "detailFile": "trainers/095.json",
       "leadLevel": 63,
       "maxLevel": 64,
       "isBoss": false,
@@ -1047,7 +1046,7 @@
     {
       "displayName": "Lass Janice |Verdanturf Tunnel|",
       "usageKey": "Lass Janice",
-      "detailFile": "trainers/173.json",
+      "detailFile": "trainers/171.json",
       "leadLevel": 63,
       "maxLevel": 63,
       "isBoss": false,
@@ -1060,7 +1059,7 @@
     {
       "displayName": "Pok\u00e9fan Isabel |Route 110|",
       "usageKey": "Pok\u00e9fan Isabel",
-      "detailFile": "trainers/219.json",
+      "detailFile": "trainers/217.json",
       "leadLevel": 63,
       "maxLevel": 64,
       "isBoss": false,
@@ -1073,7 +1072,7 @@
     {
       "displayName": "Pok\u00e9fan Kaleb |Route 110|",
       "usageKey": "Pok\u00e9fan Kaleb",
-      "detailFile": "trainers/220.json",
+      "detailFile": "trainers/218.json",
       "leadLevel": 63,
       "maxLevel": 64,
       "isBoss": false,
@@ -1086,7 +1085,7 @@
     {
       "displayName": "School Kid Mewttins |Verdanturf Tunnel|",
       "usageKey": "School Kid Mewttins",
-      "detailFile": "trainers/273.json",
+      "detailFile": "trainers/270.json",
       "leadLevel": 63,
       "maxLevel": 64,
       "isBoss": false,
@@ -1099,7 +1098,7 @@
     {
       "displayName": "Team Magma Grunt & Team Aqua Grunt |Verdanturf Tunnel|",
       "usageKey": "Team Magma Grunt & Team Aqua Grunt",
-      "detailFile": "trainers/309.json",
+      "detailFile": "trainers/305.json",
       "leadLevel": 63,
       "maxLevel": 64,
       "isBoss": false,
@@ -1112,7 +1111,7 @@
     {
       "displayName": "Triathlete Jasmine & Triathlete Jacob |Route 110|",
       "usageKey": "Triathlete Jasmine & Triathlete Jacob",
-      "detailFile": "trainers/323.json",
+      "detailFile": "trainers/319.json",
       "leadLevel": 63,
       "maxLevel": 63,
       "isBoss": false,
@@ -1125,7 +1124,7 @@
     {
       "displayName": "Youngster Timmy |Verdanturf Tunnel|",
       "usageKey": "Youngster Timmy",
-      "detailFile": "trainers/349.json",
+      "detailFile": "trainers/345.json",
       "leadLevel": 63,
       "maxLevel": 64,
       "isBoss": false,
@@ -1151,7 +1150,7 @@
     {
       "displayName": "Blackbelt Rhett |Route 103|",
       "usageKey": "Blackbelt Rhett",
-      "detailFile": "trainers/051.json",
+      "detailFile": "trainers/050.json",
       "leadLevel": 64,
       "maxLevel": 64,
       "isBoss": false,
@@ -1164,7 +1163,7 @@
     {
       "displayName": "Cycling Road Rival Chespin |Route 110|",
       "usageKey": "Cycling Road Rival Chespin",
-      "detailFile": "trainers/095.json",
+      "detailFile": "trainers/094.json",
       "leadLevel": 64,
       "maxLevel": 64,
       "isBoss": false,
@@ -1177,7 +1176,7 @@
     {
       "displayName": "Cycling Road Rival Froakie |Route 110|",
       "usageKey": "Cycling Road Rival Froakie",
-      "detailFile": "trainers/097.json",
+      "detailFile": "trainers/096.json",
       "leadLevel": 64,
       "maxLevel": 64,
       "isBoss": false,
@@ -1190,7 +1189,7 @@
     {
       "displayName": "Lady Sarah |Verdanturf Tunnel|",
       "usageKey": "Lady Sarah",
-      "detailFile": "trainers/166.json",
+      "detailFile": "trainers/164.json",
       "leadLevel": 64,
       "maxLevel": 64,
       "isBoss": false,
@@ -1203,7 +1202,7 @@
     {
       "displayName": "Parasol Lady Madeline & Youngster Jaylen |Verdanturf Tunnel|",
       "usageKey": "Parasol Lady Madeline & Youngster Jaylen",
-      "detailFile": "trainers/206.json",
+      "detailFile": "trainers/204.json",
       "leadLevel": 64,
       "maxLevel": 65,
       "isBoss": false,
@@ -1216,7 +1215,7 @@
     {
       "displayName": "Psychic Edward & Fisherman Dale |Verdanturf Tunnel|",
       "usageKey": "Psychic Edward & Fisherman Dale",
-      "detailFile": "trainers/229.json",
+      "detailFile": "trainers/226.json",
       "leadLevel": 64,
       "maxLevel": 64,
       "isBoss": false,
@@ -1229,7 +1228,7 @@
     {
       "displayName": "Rich Boy Dawson |Verdanturf Tunnel|",
       "usageKey": "Rich Boy Dawson",
-      "detailFile": "trainers/248.json",
+      "detailFile": "trainers/245.json",
       "leadLevel": 64,
       "maxLevel": 64,
       "isBoss": false,
@@ -1242,7 +1241,7 @@
     {
       "displayName": "Twins Amy&Liv |Route 103|",
       "usageKey": "Twins Amy&Liv",
-      "detailFile": "trainers/332.json",
+      "detailFile": "trainers/328.json",
       "leadLevel": 64,
       "maxLevel": 64,
       "isBoss": false,
@@ -1268,7 +1267,7 @@
     {
       "displayName": "Camper Charlie |Verdanturf Grotto|",
       "usageKey": "Camper Charlie",
-      "detailFile": "trainers/069.json",
+      "detailFile": "trainers/068.json",
       "leadLevel": 65,
       "maxLevel": 65,
       "isBoss": false,
@@ -1281,7 +1280,7 @@
     {
       "displayName": "Leader Norman |Petalburg Gym|",
       "usageKey": "Leader Norman",
-      "detailFile": "trainers/178.json",
+      "detailFile": "trainers/176.json",
       "leadLevel": 66,
       "maxLevel": 67,
       "isBoss": true,
@@ -1294,7 +1293,7 @@
     {
       "displayName": "Pok\u00e9fan Miguel |Verdanturf Tunnel|",
       "usageKey": "Pok\u00e9fan Miguel",
-      "detailFile": "trainers/221.json",
+      "detailFile": "trainers/219.json",
       "leadLevel": 66,
       "maxLevel": 66,
       "isBoss": false,
@@ -1307,7 +1306,7 @@
     {
       "displayName": "Winstrate Victor |Route 111|",
       "usageKey": "Winstrate Victor",
-      "detailFile": "trainers/338.json",
+      "detailFile": "trainers/334.json",
       "leadLevel": 66,
       "maxLevel": 66,
       "isBoss": false,
@@ -1320,7 +1319,7 @@
     {
       "displayName": "Winstrate Victoria |Route 111|",
       "usageKey": "Winstrate Victoria",
-      "detailFile": "trainers/339.json",
+      "detailFile": "trainers/335.json",
       "leadLevel": 66,
       "maxLevel": 67,
       "isBoss": false,
@@ -1333,7 +1332,7 @@
     {
       "displayName": "Winstrate Vivi |Route 111|",
       "usageKey": "Winstrate Vivi",
-      "detailFile": "trainers/340.json",
+      "detailFile": "trainers/336.json",
       "leadLevel": 66,
       "maxLevel": 67,
       "isBoss": false,
@@ -1346,7 +1345,7 @@
     {
       "displayName": "Camper Travis |Route 111|",
       "usageKey": "Camper Travis",
-      "detailFile": "trainers/074.json",
+      "detailFile": "trainers/073.json",
       "leadLevel": 67,
       "maxLevel": 68,
       "isBoss": false,
@@ -1359,7 +1358,7 @@
     {
       "displayName": "Picnicker Irene |Route 111|",
       "usageKey": "Picnicker Irene",
-      "detailFile": "trainers/216.json",
+      "detailFile": "trainers/214.json",
       "leadLevel": 67,
       "maxLevel": 68,
       "isBoss": false,
@@ -1372,7 +1371,7 @@
     {
       "displayName": "Ruin Maniac Dusty |Route 111|",
       "usageKey": "Ruin Maniac Dusty",
-      "detailFile": "trainers/264.json",
+      "detailFile": "trainers/261.json",
       "leadLevel": 67,
       "maxLevel": 68,
       "isBoss": false,
@@ -1385,7 +1384,7 @@
     {
       "displayName": "Winstrate Vicky |Route 111|",
       "usageKey": "Winstrate Vicky",
-      "detailFile": "trainers/337.json",
+      "detailFile": "trainers/333.json",
       "leadLevel": 67,
       "maxLevel": 68,
       "isBoss": false,
@@ -1398,7 +1397,7 @@
     {
       "displayName": "Camper Johny & Camper Tarian |Route 111|",
       "usageKey": "Camper Johny & Camper Tarian",
-      "detailFile": "trainers/073.json",
+      "detailFile": "trainers/072.json",
       "leadLevel": 68,
       "maxLevel": 68,
       "isBoss": false,
@@ -1411,7 +1410,7 @@
     {
       "displayName": "Picnicker Becky |Route 111|",
       "usageKey": "Picnicker Becky",
-      "detailFile": "trainers/210.json",
+      "detailFile": "trainers/208.json",
       "leadLevel": 68,
       "maxLevel": 68,
       "isBoss": false,
@@ -1424,7 +1423,7 @@
     {
       "displayName": "Picnicker Celia |Route 111|",
       "usageKey": "Picnicker Celia",
-      "detailFile": "trainers/211.json",
+      "detailFile": "trainers/209.json",
       "leadLevel": 68,
       "maxLevel": 68,
       "isBoss": false,
@@ -1437,7 +1436,7 @@
     {
       "displayName": "Picnicker Heidi & Ruin Maniac Bryan |Route 111|",
       "usageKey": "Picnicker Heidi & Ruin Maniac Bryan",
-      "detailFile": "trainers/215.json",
+      "detailFile": "trainers/213.json",
       "leadLevel": 68,
       "maxLevel": 69,
       "isBoss": false,
@@ -1450,7 +1449,7 @@
     {
       "displayName": "Blackbelt Nob |Route 115|",
       "usageKey": "Blackbelt Nob",
-      "detailFile": "trainers/050.json",
+      "detailFile": "trainers/049.json",
       "leadLevel": 69,
       "maxLevel": 71,
       "isBoss": false,
@@ -1463,7 +1462,7 @@
     {
       "displayName": "Bug Maniac Wyatt |Route 113|",
       "usageKey": "Bug Maniac Wyatt",
-      "detailFile": "trainers/068.json",
+      "detailFile": "trainers/067.json",
       "leadLevel": 69,
       "maxLevel": 69,
       "isBoss": false,
@@ -1476,7 +1475,7 @@
     {
       "displayName": "Camper Derek |Route 111|",
       "usageKey": "Camper Derek",
-      "detailFile": "trainers/070.json",
+      "detailFile": "trainers/069.json",
       "leadLevel": 69,
       "maxLevel": 69,
       "isBoss": false,
@@ -1528,7 +1527,7 @@
     {
       "displayName": "Kindler Bakugo |Route 114|",
       "usageKey": "Kindler Bakugo",
-      "detailFile": "trainers/160.json",
+      "detailFile": "trainers/158.json",
       "leadLevel": 69,
       "maxLevel": 70,
       "isBoss": false,
@@ -1541,7 +1540,7 @@
     {
       "displayName": "Ninja Boy Lao |Route 113|",
       "usageKey": "Ninja Boy Lao",
-      "detailFile": "trainers/199.json",
+      "detailFile": "trainers/197.json",
       "leadLevel": 69,
       "maxLevel": 69,
       "isBoss": false,
@@ -1554,7 +1553,7 @@
     {
       "displayName": "Pok\u00e9maniac Shikamaru |Route 114|",
       "usageKey": "Pok\u00e9maniac Shikamaru",
-      "detailFile": "trainers/222.json",
+      "detailFile": "trainers/220.json",
       "leadLevel": 69,
       "maxLevel": 70,
       "isBoss": false,
@@ -1567,7 +1566,7 @@
     {
       "displayName": "Psychic Marlene |Route 115|",
       "usageKey": "Psychic Marlene",
-      "detailFile": "trainers/233.json",
+      "detailFile": "trainers/230.json",
       "leadLevel": 69,
       "maxLevel": 71,
       "isBoss": false,
@@ -1580,7 +1579,7 @@
     {
       "displayName": "Twins Tori&Tia |Route 113|",
       "usageKey": "Twins Tori&Tia",
-      "detailFile": "trainers/336.json",
+      "detailFile": "trainers/332.json",
       "leadLevel": 69,
       "maxLevel": 70,
       "isBoss": false,
@@ -1593,7 +1592,7 @@
     {
       "displayName": "Cooltrainer June |Route 114|",
       "usageKey": "Cooltrainer June",
-      "detailFile": "trainers/087.json",
+      "detailFile": "trainers/086.json",
       "leadLevel": 70,
       "maxLevel": 70,
       "isBoss": false,
@@ -1658,7 +1657,7 @@
     {
       "displayName": "Mt. Chimney Team Magma Elite Grunt |Mt. Chimney|",
       "usageKey": "Mt. Chimney Team Magma Elite Grunt",
-      "detailFile": "trainers/189.json",
+      "detailFile": "trainers/187.json",
       "leadLevel": 70,
       "maxLevel": 72,
       "isBoss": false,
@@ -1671,7 +1670,7 @@
     {
       "displayName": "Ninja Boy Lung |Route 113|",
       "usageKey": "Ninja Boy Lung",
-      "detailFile": "trainers/200.json",
+      "detailFile": "trainers/198.json",
       "leadLevel": 70,
       "maxLevel": 70,
       "isBoss": false,
@@ -1684,7 +1683,7 @@
     {
       "displayName": "Ranger Moxi |Route 113|",
       "usageKey": "Ranger Moxi",
-      "detailFile": "trainers/245.json",
+      "detailFile": "trainers/242.json",
       "leadLevel": 70,
       "maxLevel": 70,
       "isBoss": false,
@@ -1692,19 +1691,6 @@
       "trId": 710,
       "teamVariantNames": [
         "Ranger Moxi |Route 113|"
-      ]
-    },
-    {
-      "displayName": "Sr. And Jr. Tyra&Ivy |Route 114|",
-      "usageKey": "Sr. And Jr. Tyra&Ivy",
-      "detailFile": "trainers/285.json",
-      "leadLevel": 70,
-      "maxLevel": 70,
-      "isBoss": false,
-      "partySize": 4,
-      "trId": 679,
-      "teamVariantNames": [
-        "Sr. And Jr. Tyra&Ivy |Route 114|"
       ]
     },
     {
@@ -1723,7 +1709,7 @@
     {
       "displayName": "Cooltrainer Axle |Lavaridge Gym|",
       "usageKey": "Cooltrainer Axle",
-      "detailFile": "trainers/078.json",
+      "detailFile": "trainers/077.json",
       "leadLevel": 71,
       "maxLevel": 72,
       "isBoss": false,
@@ -1736,7 +1722,7 @@
     {
       "displayName": "Dragon Tamer Jace |Lavaridge Gym|",
       "usageKey": "Dragon Tamer Jace",
-      "detailFile": "trainers/099.json",
+      "detailFile": "trainers/098.json",
       "leadLevel": 71,
       "maxLevel": 72,
       "isBoss": false,
@@ -1762,7 +1748,7 @@
     {
       "displayName": "Jagged Pass Team Magma Grunt |Jagged Pass|",
       "usageKey": "Jagged Pass Team Magma Grunt",
-      "detailFile": "trainers/159.json",
+      "detailFile": "trainers/157.json",
       "leadLevel": 71,
       "maxLevel": 71,
       "isBoss": false,
@@ -1775,7 +1761,7 @@
     {
       "displayName": "Leader Flannery |Lavaridge Gym|",
       "usageKey": "Leader Flannery",
-      "detailFile": "trainers/176.json",
+      "detailFile": "trainers/174.json",
       "leadLevel": 71,
       "maxLevel": 73,
       "isBoss": true,
@@ -1788,7 +1774,7 @@
     {
       "displayName": "Picnicker Diana |Jagged Pass|",
       "usageKey": "Picnicker Diana",
-      "detailFile": "trainers/212.json",
+      "detailFile": "trainers/210.json",
       "leadLevel": 71,
       "maxLevel": 71,
       "isBoss": false,
@@ -1801,7 +1787,7 @@
     {
       "displayName": "Picnicker Frieren |Route 114|",
       "usageKey": "Picnicker Frieren",
-      "detailFile": "trainers/214.json",
+      "detailFile": "trainers/212.json",
       "leadLevel": 71,
       "maxLevel": 71,
       "isBoss": false,
@@ -1814,7 +1800,7 @@
     {
       "displayName": "Team Magma Admin Courtney 2 |Route 114|",
       "usageKey": "Team Magma Admin Courtney 2",
-      "detailFile": "trainers/306.json",
+      "detailFile": "trainers/302.json",
       "leadLevel": 71,
       "maxLevel": 71,
       "isBoss": false,
@@ -1827,7 +1813,7 @@
     {
       "displayName": "Team Magma Admin Tabitha 1 |Mt. Chimney|",
       "usageKey": "Team Magma Admin Tabitha 1",
-      "detailFile": "trainers/307.json",
+      "detailFile": "trainers/303.json",
       "leadLevel": 71,
       "maxLevel": 72,
       "isBoss": false,
@@ -1840,7 +1826,7 @@
     {
       "displayName": "Triathlete Julio |Jagged Pass|",
       "usageKey": "Triathlete Julio",
-      "detailFile": "trainers/324.json",
+      "detailFile": "trainers/320.json",
       "leadLevel": 71,
       "maxLevel": 71,
       "isBoss": false,
@@ -1851,22 +1837,9 @@
       ]
     },
     {
-      "displayName": "Bird Keeper Perry |Route 108|",
-      "usageKey": "Bird Keeper Perry",
-      "detailFile": "trainers/044.json",
-      "leadLevel": 72,
-      "maxLevel": 74,
-      "isBoss": false,
-      "partySize": 4,
-      "trId": 398,
-      "teamVariantNames": [
-        "Bird Keeper Perry |Route 108|"
-      ]
-    },
-    {
       "displayName": "Cooltrainer Carolina & Sailor Cory |Route 108|",
       "usageKey": "Cooltrainer Carolina & Sailor Cory",
-      "detailFile": "trainers/080.json",
+      "detailFile": "trainers/079.json",
       "leadLevel": 72,
       "maxLevel": 73,
       "isBoss": false,
@@ -1905,7 +1878,7 @@
     {
       "displayName": "Kindler Nathan |Lavaridge Gym|",
       "usageKey": "Kindler Nathan",
-      "detailFile": "trainers/163.json",
+      "detailFile": "trainers/161.json",
       "leadLevel": 72,
       "maxLevel": 72,
       "isBoss": false,
@@ -1944,7 +1917,7 @@
     {
       "displayName": "Bug Maniac Taylor |Route 119|",
       "usageKey": "Bug Maniac Taylor",
-      "detailFile": "trainers/067.json",
+      "detailFile": "trainers/066.json",
       "leadLevel": 73,
       "maxLevel": 74,
       "isBoss": false,
@@ -1957,7 +1930,7 @@
     {
       "displayName": "Cooltrainer Garrison |Abandoned Ship|",
       "usageKey": "Cooltrainer Garrison",
-      "detailFile": "trainers/083.json",
+      "detailFile": "trainers/082.json",
       "leadLevel": 73,
       "maxLevel": 74,
       "isBoss": false,
@@ -1970,7 +1943,7 @@
     {
       "displayName": "Cooltrainer Geena |Abandoned Ship|",
       "usageKey": "Cooltrainer Geena",
-      "detailFile": "trainers/084.json",
+      "detailFile": "trainers/083.json",
       "leadLevel": 73,
       "maxLevel": 74,
       "isBoss": false,
@@ -1983,7 +1956,7 @@
     {
       "displayName": "Cooltrainer Irie |Abandoned Ship|",
       "usageKey": "Cooltrainer Irie",
-      "detailFile": "trainers/086.json",
+      "detailFile": "trainers/085.json",
       "leadLevel": 73,
       "maxLevel": 74,
       "isBoss": false,
@@ -2009,7 +1982,7 @@
     {
       "displayName": "Rich Boy Milky |Abandoned Ship|",
       "usageKey": "Rich Boy Milky",
-      "detailFile": "trainers/249.json",
+      "detailFile": "trainers/246.json",
       "leadLevel": 73,
       "maxLevel": 74,
       "isBoss": false,
@@ -2022,7 +1995,7 @@
     {
       "displayName": "Sailor Duncan |Abandoned Ship|",
       "usageKey": "Sailor Duncan",
-      "detailFile": "trainers/269.json",
+      "detailFile": "trainers/266.json",
       "leadLevel": 73,
       "maxLevel": 74,
       "isBoss": false,
@@ -2035,7 +2008,7 @@
     {
       "displayName": "Tuber Jani |Abandoned Ship|",
       "usageKey": "Tuber Jani",
-      "detailFile": "trainers/329.json",
+      "detailFile": "trainers/325.json",
       "leadLevel": 73,
       "maxLevel": 74,
       "isBoss": false,
@@ -2048,7 +2021,7 @@
     {
       "displayName": "Bird Keeper Phil & Parasol Lady Rachel |Route 119|",
       "usageKey": "Bird Keeper Phil & Parasol Lady Rachel",
-      "detailFile": "trainers/045.json",
+      "detailFile": "trainers/044.json",
       "leadLevel": 74,
       "maxLevel": 75,
       "isBoss": false,
@@ -2061,7 +2034,7 @@
     {
       "displayName": "Bug Catcher Kent |Route 119|",
       "usageKey": "Bug Catcher Kent",
-      "detailFile": "trainers/063.json",
+      "detailFile": "trainers/062.json",
       "leadLevel": 74,
       "maxLevel": 74,
       "isBoss": false,
@@ -2074,7 +2047,7 @@
     {
       "displayName": "Bug Maniac Brent |Route 119|",
       "usageKey": "Bug Maniac Brent",
-      "detailFile": "trainers/065.json",
+      "detailFile": "trainers/064.json",
       "leadLevel": 74,
       "maxLevel": 74,
       "isBoss": false,
@@ -2087,7 +2060,7 @@
     {
       "displayName": "Ninja Boy Terror |Route 119|",
       "usageKey": "Ninja Boy Terror",
-      "detailFile": "trainers/201.json",
+      "detailFile": "trainers/199.json",
       "leadLevel": 74,
       "maxLevel": 75,
       "isBoss": false,
@@ -2100,7 +2073,7 @@
     {
       "displayName": "Ranger Catherine |Route 119|",
       "usageKey": "Ranger Catherine",
-      "detailFile": "trainers/243.json",
+      "detailFile": "trainers/240.json",
       "leadLevel": 74,
       "maxLevel": 74,
       "isBoss": false,
@@ -2126,7 +2099,7 @@
     {
       "displayName": "Cooltrainer Chape |Route 119|",
       "usageKey": "Cooltrainer Chape",
-      "detailFile": "trainers/081.json",
+      "detailFile": "trainers/080.json",
       "leadLevel": 75,
       "maxLevel": 75,
       "isBoss": false,
@@ -2139,7 +2112,7 @@
     {
       "displayName": "Cooltrainer Greg |Route 119|",
       "usageKey": "Cooltrainer Greg",
-      "detailFile": "trainers/085.json",
+      "detailFile": "trainers/084.json",
       "leadLevel": 75,
       "maxLevel": 76,
       "isBoss": false,
@@ -2163,22 +2136,9 @@
       ]
     },
     {
-      "displayName": "Institute Team Aqua Grunt #1 |Weather Institute|",
-      "usageKey": "Institute Team Aqua Grunt #1",
-      "detailFile": "trainers/154.json",
-      "leadLevel": 75,
-      "maxLevel": 75,
-      "isBoss": false,
-      "partySize": 4,
-      "trId": 26,
-      "teamVariantNames": [
-        "Institute Team Aqua Grunt #1 |Weather Institute|"
-      ]
-    },
-    {
       "displayName": "Institute Team Aqua Grunt #2 |Weather Institute|",
       "usageKey": "Institute Team Aqua Grunt #2",
-      "detailFile": "trainers/155.json",
+      "detailFile": "trainers/154.json",
       "leadLevel": 75,
       "maxLevel": 75,
       "isBoss": false,
@@ -2189,35 +2149,9 @@
       ]
     },
     {
-      "displayName": "Institute Team Aqua Grunt #3 |Weather Institute|",
-      "usageKey": "Institute Team Aqua Grunt #3",
-      "detailFile": "trainers/156.json",
-      "leadLevel": 75,
-      "maxLevel": 75,
-      "isBoss": false,
-      "partySize": 4,
-      "trId": 18,
-      "teamVariantNames": [
-        "Institute Team Aqua Grunt #3 |Weather Institute|"
-      ]
-    },
-    {
-      "displayName": "Pok\u00e9maniac Truhcaz |Route 119|",
-      "usageKey": "Pok\u00e9maniac Truhcaz",
-      "detailFile": "trainers/224.json",
-      "leadLevel": 75,
-      "maxLevel": 76,
-      "isBoss": false,
-      "partySize": 4,
-      "trId": 224,
-      "teamVariantNames": [
-        "Pok\u00e9maniac Truhcaz |Route 119|"
-      ]
-    },
-    {
       "displayName": "Ranger Nak |Route 119|",
       "usageKey": "Ranger Nak",
-      "detailFile": "trainers/246.json",
+      "detailFile": "trainers/243.json",
       "leadLevel": 75,
       "maxLevel": 75,
       "isBoss": false,
@@ -2230,7 +2164,7 @@
     {
       "displayName": "Dragon Tamer Sora |Fortree Gym|",
       "usageKey": "Dragon Tamer Sora",
-      "detailFile": "trainers/100.json",
+      "detailFile": "trainers/099.json",
       "leadLevel": 76,
       "maxLevel": 77,
       "isBoss": false,
@@ -2243,7 +2177,7 @@
     {
       "displayName": "Ninja Boy Hideo |Route 119|",
       "usageKey": "Ninja Boy Hideo",
-      "detailFile": "trainers/198.json",
+      "detailFile": "trainers/196.json",
       "leadLevel": 76,
       "maxLevel": 76,
       "isBoss": false,
@@ -2256,7 +2190,7 @@
     {
       "displayName": "Ninja Boy Yasu & Guitarist Fabian |Route 119|",
       "usageKey": "Ninja Boy Yasu & Guitarist Fabian",
-      "detailFile": "trainers/202.json",
+      "detailFile": "trainers/200.json",
       "leadLevel": 76,
       "maxLevel": 77,
       "isBoss": false,
@@ -2269,7 +2203,7 @@
     {
       "displayName": "Team Aqua Grunt & Team Aqua Steve |Route 119|",
       "usageKey": "Team Aqua Grunt & Team Aqua Steve",
-      "detailFile": "trainers/298.json",
+      "detailFile": "trainers/294.json",
       "leadLevel": 76,
       "maxLevel": 77,
       "isBoss": false,
@@ -2308,7 +2242,7 @@
     {
       "displayName": "Bird Keeper Specter |Fortree Gym|",
       "usageKey": "Bird Keeper Specter",
-      "detailFile": "trainers/046.json",
+      "detailFile": "trainers/045.json",
       "leadLevel": 77,
       "maxLevel": 77,
       "isBoss": false,
@@ -2321,7 +2255,7 @@
     {
       "displayName": "Bridge Rival Chespin |Route 119|",
       "usageKey": "Bridge Rival Chespin",
-      "detailFile": "trainers/056.json",
+      "detailFile": "trainers/055.json",
       "leadLevel": 77,
       "maxLevel": 77,
       "isBoss": false,
@@ -2334,7 +2268,7 @@
     {
       "displayName": "Bridge Rival Fennekin |Route 119|",
       "usageKey": "Bridge Rival Fennekin",
-      "detailFile": "trainers/057.json",
+      "detailFile": "trainers/056.json",
       "leadLevel": 77,
       "maxLevel": 77,
       "isBoss": false,
@@ -2347,7 +2281,7 @@
     {
       "displayName": "Bridge Rival Froakie |Route 119|",
       "usageKey": "Bridge Rival Froakie",
-      "detailFile": "trainers/058.json",
+      "detailFile": "trainers/057.json",
       "leadLevel": 77,
       "maxLevel": 77,
       "isBoss": false,
@@ -2360,7 +2294,7 @@
     {
       "displayName": "Camper Flint & Bird Keeper Edwardo |Fortree Gym|",
       "usageKey": "Camper Flint & Bird Keeper Edwardo",
-      "detailFile": "trainers/071.json",
+      "detailFile": "trainers/070.json",
       "leadLevel": 77,
       "maxLevel": 77,
       "isBoss": false,
@@ -2373,7 +2307,7 @@
     {
       "displayName": "Cooltrainer Abobo |Route 120|",
       "usageKey": "Cooltrainer Abobo",
-      "detailFile": "trainers/077.json",
+      "detailFile": "trainers/076.json",
       "leadLevel": 77,
       "maxLevel": 78,
       "isBoss": false,
@@ -2386,7 +2320,7 @@
     {
       "displayName": "Cooltrainer Cristin |Route 121|",
       "usageKey": "Cooltrainer Cristin",
-      "detailFile": "trainers/082.json",
+      "detailFile": "trainers/081.json",
       "leadLevel": 77,
       "maxLevel": 80,
       "isBoss": false,
@@ -2399,7 +2333,7 @@
     {
       "displayName": "Institute Team Aqua Grunt #4 |Weather Institute|",
       "usageKey": "Institute Team Aqua Grunt #4",
-      "detailFile": "trainers/157.json",
+      "detailFile": "trainers/155.json",
       "leadLevel": 77,
       "maxLevel": 77,
       "isBoss": false,
@@ -2412,7 +2346,7 @@
     {
       "displayName": "Leader Winona",
       "usageKey": "Leader Winona",
-      "detailFile": "trainers/183.json",
+      "detailFile": "trainers/181.json",
       "leadLevel": 77,
       "maxLevel": 78,
       "isBoss": true,
@@ -2426,7 +2360,7 @@
     {
       "displayName": "Ninja Boy Alex |Route 120|",
       "usageKey": "Ninja Boy Alex",
-      "detailFile": "trainers/197.json",
+      "detailFile": "trainers/195.json",
       "leadLevel": 77,
       "maxLevel": 79,
       "isBoss": false,
@@ -2439,7 +2373,7 @@
     {
       "displayName": "Team Aqua Admin Shelly 1 |Weather Institute|",
       "usageKey": "Team Aqua Admin Shelly 1",
-      "detailFile": "trainers/296.json",
+      "detailFile": "trainers/292.json",
       "leadLevel": 77,
       "maxLevel": 77,
       "isBoss": false,
@@ -2465,7 +2399,7 @@
     {
       "displayName": "Cooltrainer Melodic |Route 120|",
       "usageKey": "Cooltrainer Melodic",
-      "detailFile": "trainers/089.json",
+      "detailFile": "trainers/088.json",
       "leadLevel": 78,
       "maxLevel": 80,
       "isBoss": false,
@@ -2491,7 +2425,7 @@
     {
       "displayName": "Parasol Lady Angelica |Route 120|",
       "usageKey": "Parasol Lady Angelica",
-      "detailFile": "trainers/205.json",
+      "detailFile": "trainers/203.json",
       "leadLevel": 78,
       "maxLevel": 78,
       "isBoss": false,
@@ -2504,7 +2438,7 @@
     {
       "displayName": "Partner Rival |Route 119|",
       "usageKey": "Partner Rival",
-      "detailFile": "trainers/208.json",
+      "detailFile": "trainers/206.json",
       "leadLevel": 78,
       "maxLevel": 78,
       "isBoss": false,
@@ -2517,7 +2451,7 @@
     {
       "displayName": "Sr. And Jr. Kate&Joy |Route 121|",
       "usageKey": "Sr. And Jr. Kate&Joy",
-      "detailFile": "trainers/284.json",
+      "detailFile": "trainers/281.json",
       "leadLevel": 78,
       "maxLevel": 80,
       "isBoss": false,
@@ -2530,7 +2464,7 @@
     {
       "displayName": "Cooltrainer Perseid |Route 120|",
       "usageKey": "Cooltrainer Perseid",
-      "detailFile": "trainers/090.json",
+      "detailFile": "trainers/089.json",
       "leadLevel": 79,
       "maxLevel": 80,
       "isBoss": false,
@@ -2556,7 +2490,7 @@
     {
       "displayName": "Lilycove Rival Chespin |Lilycove City|",
       "usageKey": "Lilycove Rival Chespin",
-      "detailFile": "trainers/184.json",
+      "detailFile": "trainers/182.json",
       "leadLevel": 79,
       "maxLevel": 80,
       "isBoss": false,
@@ -2569,7 +2503,7 @@
     {
       "displayName": "Psychic Kayla |Mt. Pyre|",
       "usageKey": "Psychic Kayla",
-      "detailFile": "trainers/232.json",
+      "detailFile": "trainers/229.json",
       "leadLevel": 79,
       "maxLevel": 80,
       "isBoss": false,
@@ -2582,7 +2516,7 @@
     {
       "displayName": "Psychic William |Mt. Pyre|",
       "usageKey": "Psychic William",
-      "detailFile": "trainers/237.json",
+      "detailFile": "trainers/234.json",
       "leadLevel": 79,
       "maxLevel": 80,
       "isBoss": false,
@@ -2595,7 +2529,7 @@
     {
       "displayName": "Blackbelt Tyrone |Mt. Pyre|",
       "usageKey": "Blackbelt Tyrone",
-      "detailFile": "trainers/053.json",
+      "detailFile": "trainers/052.json",
       "leadLevel": 80,
       "maxLevel": 80,
       "isBoss": false,
@@ -2608,7 +2542,7 @@
     {
       "displayName": "Breeder Gabrielle |Mt. Pyre|",
       "usageKey": "Breeder Gabrielle",
-      "detailFile": "trainers/054.json",
+      "detailFile": "trainers/053.json",
       "leadLevel": 80,
       "maxLevel": 80,
       "isBoss": false,
@@ -2621,7 +2555,7 @@
     {
       "displayName": "Cooltrainer Marcel |Route 121|",
       "usageKey": "Cooltrainer Marcel",
-      "detailFile": "trainers/088.json",
+      "detailFile": "trainers/087.json",
       "leadLevel": 80,
       "maxLevel": 80,
       "isBoss": false,
@@ -2712,7 +2646,7 @@
     {
       "displayName": "Lilycove Rival Fennekin |Lilycove City|",
       "usageKey": "Lilycove Rival Fennekin",
-      "detailFile": "trainers/185.json",
+      "detailFile": "trainers/183.json",
       "leadLevel": 80,
       "maxLevel": 80,
       "isBoss": false,
@@ -2725,7 +2659,7 @@
     {
       "displayName": "Lilycove Rival Froakie |Lilycove City|",
       "usageKey": "Lilycove Rival Froakie",
-      "detailFile": "trainers/186.json",
+      "detailFile": "trainers/184.json",
       "leadLevel": 80,
       "maxLevel": 80,
       "isBoss": false,
@@ -2738,7 +2672,7 @@
     {
       "displayName": "Pokemaniac Mark |Mt. Pyre|",
       "usageKey": "Pokemaniac Mark",
-      "detailFile": "trainers/217.json",
+      "detailFile": "trainers/215.json",
       "leadLevel": 80,
       "maxLevel": 80,
       "isBoss": false,
@@ -2751,7 +2685,7 @@
     {
       "displayName": "Pyre Team Aqua Grunt #2 |Mt. Pyre|",
       "usageKey": "Pyre Team Aqua Grunt #2",
-      "detailFile": "trainers/239.json",
+      "detailFile": "trainers/236.json",
       "leadLevel": 80,
       "maxLevel": 81,
       "isBoss": false,
@@ -2764,7 +2698,7 @@
     {
       "displayName": "Pyre Team Aqua Grunt #3 |Mt. Pyre|",
       "usageKey": "Pyre Team Aqua Grunt #3",
-      "detailFile": "trainers/240.json",
+      "detailFile": "trainers/237.json",
       "leadLevel": 80,
       "maxLevel": 81,
       "isBoss": false,
@@ -2777,7 +2711,7 @@
     {
       "displayName": "Pyre Team Aqua Grunt #4 |Mt. Pyre|",
       "usageKey": "Pyre Team Aqua Grunt #4",
-      "detailFile": "trainers/241.json",
+      "detailFile": "trainers/238.json",
       "leadLevel": 80,
       "maxLevel": 81,
       "isBoss": false,
@@ -2790,7 +2724,7 @@
     {
       "displayName": "Team Magma Grunt Coffee |Magma Hideout|",
       "usageKey": "Team Magma Grunt Coffee",
-      "detailFile": "trainers/310.json",
+      "detailFile": "trainers/306.json",
       "leadLevel": 80,
       "maxLevel": 81,
       "isBoss": false,
@@ -2829,7 +2763,7 @@
     {
       "displayName": "Psychic Cedric |Mt. Pyre|",
       "usageKey": "Psychic Cedric",
-      "detailFile": "trainers/228.json",
+      "detailFile": "trainers/225.json",
       "leadLevel": 81,
       "maxLevel": 81,
       "isBoss": false,
@@ -2842,7 +2776,7 @@
     {
       "displayName": "Pyre Team Aqua Grunt #5 |Mt. Pyre|",
       "usageKey": "Pyre Team Aqua Grunt #5",
-      "detailFile": "trainers/242.json",
+      "detailFile": "trainers/239.json",
       "leadLevel": 81,
       "maxLevel": 81,
       "isBoss": false,
@@ -2855,7 +2789,7 @@
     {
       "displayName": "Team Magma Admin Tabitha 2 |Magma Hideout|",
       "usageKey": "Team Magma Admin Tabitha 2",
-      "detailFile": "trainers/308.json",
+      "detailFile": "trainers/304.json",
       "leadLevel": 81,
       "maxLevel": 82,
       "isBoss": false,
@@ -2894,7 +2828,7 @@
     {
       "displayName": "Pyre Team Aqua Grunt #1 |Mt. Pyre|",
       "usageKey": "Pyre Team Aqua Grunt #1",
-      "detailFile": "trainers/238.json",
+      "detailFile": "trainers/235.json",
       "leadLevel": 82,
       "maxLevel": 82,
       "isBoss": false,
@@ -2907,7 +2841,7 @@
     {
       "displayName": "Team Aqua Grunt Soph |Aqua Hideout|",
       "usageKey": "Team Aqua Grunt Soph",
-      "detailFile": "trainers/301.json",
+      "detailFile": "trainers/297.json",
       "leadLevel": 82,
       "maxLevel": 83,
       "isBoss": false,
@@ -2920,7 +2854,7 @@
     {
       "displayName": "Team Magma Grunt Grintoul |Magma Hideout|",
       "usageKey": "Team Magma Grunt Grintoul",
-      "detailFile": "trainers/312.json",
+      "detailFile": "trainers/308.json",
       "leadLevel": 82,
       "maxLevel": 82,
       "isBoss": false,
@@ -2933,7 +2867,7 @@
     {
       "displayName": "Team Magma Leader Maxie 2 |Magma Hideout|",
       "usageKey": "Team Magma Leader Maxie 2",
-      "detailFile": "trainers/313.json",
+      "detailFile": "trainers/309.json",
       "leadLevel": 82,
       "maxLevel": 85,
       "isBoss": true,
@@ -2972,7 +2906,7 @@
     {
       "displayName": "Team Aqua Grunt Gian |Aqua Hideout|",
       "usageKey": "Team Aqua Grunt Gian",
-      "detailFile": "trainers/299.json",
+      "detailFile": "trainers/295.json",
       "leadLevel": 83,
       "maxLevel": 84,
       "isBoss": false,
@@ -2985,7 +2919,7 @@
     {
       "displayName": "Team Aqua Grunt Steve 2 |Aqua Hideout|",
       "usageKey": "Team Aqua Grunt Steve 2",
-      "detailFile": "trainers/302.json",
+      "detailFile": "trainers/298.json",
       "leadLevel": 83,
       "maxLevel": 84,
       "isBoss": false,
@@ -2998,7 +2932,7 @@
     {
       "displayName": "Pok\u00e9mon Trainer Leaf 1 |Mossdeep City|",
       "usageKey": "Pok\u00e9mon Trainer Leaf 1",
-      "detailFile": "trainers/225.json",
+      "detailFile": "trainers/222.json",
       "leadLevel": 84,
       "maxLevel": 87,
       "isBoss": false,
@@ -3011,7 +2945,7 @@
     {
       "displayName": "Swimmer Byonemil |Route 124|",
       "usageKey": "Swimmer Byonemil",
-      "detailFile": "trainers/289.json",
+      "detailFile": "trainers/285.json",
       "leadLevel": 84,
       "maxLevel": 86,
       "isBoss": false,
@@ -3024,7 +2958,7 @@
     {
       "displayName": "Swimmer Webe & Swimmer D.K |Route 124|",
       "usageKey": "Swimmer Webe & Swimmer D.K",
-      "detailFile": "trainers/293.json",
+      "detailFile": "trainers/289.json",
       "leadLevel": 84,
       "maxLevel": 85,
       "isBoss": false,
@@ -3037,7 +2971,7 @@
     {
       "displayName": "Pok\u00e9maniac Symes & Bug Maniac Connor |Mossdeep Gym|",
       "usageKey": "Pok\u00e9maniac Symes & Bug Maniac Connor",
-      "detailFile": "trainers/223.json",
+      "detailFile": "trainers/221.json",
       "leadLevel": 85,
       "maxLevel": 86,
       "isBoss": false,
@@ -3050,7 +2984,7 @@
     {
       "displayName": "Psychic Preston & Psychic Maura |Mossdeep Gym|",
       "usageKey": "Psychic Preston & Psychic Maura",
-      "detailFile": "trainers/234.json",
+      "detailFile": "trainers/231.json",
       "leadLevel": 85,
       "maxLevel": 85,
       "isBoss": false,
@@ -3063,7 +2997,7 @@
     {
       "displayName": "Team Aqua Admin Matt |Aqua Hideout|",
       "usageKey": "Team Aqua Admin Matt",
-      "detailFile": "trainers/295.json",
+      "detailFile": "trainers/291.json",
       "leadLevel": 85,
       "maxLevel": 85,
       "isBoss": false,
@@ -3102,7 +3036,7 @@
     {
       "displayName": "Leader Liza |Mossdeep Gym|",
       "usageKey": "Leader Liza",
-      "detailFile": "trainers/177.json",
+      "detailFile": "trainers/175.json",
       "leadLevel": 86,
       "maxLevel": 88,
       "isBoss": true,
@@ -3115,7 +3049,7 @@
     {
       "displayName": "Leader Tate |Mossdeep Gym|",
       "usageKey": "Leader Tate",
-      "detailFile": "trainers/181.json",
+      "detailFile": "trainers/179.json",
       "leadLevel": 86,
       "maxLevel": 87,
       "isBoss": true,
@@ -3128,7 +3062,7 @@
     {
       "displayName": "Psychic Hannah & Hex Maniac Sylvia |Mossdeep Gym|",
       "usageKey": "Psychic Hannah & Hex Maniac Sylvia",
-      "detailFile": "trainers/230.json",
+      "detailFile": "trainers/227.json",
       "leadLevel": 86,
       "maxLevel": 86,
       "isBoss": false,
@@ -3141,7 +3075,7 @@
     {
       "displayName": "Psychic Virgil & Psychic Nate |Mossdeep Gym|",
       "usageKey": "Psychic Virgil & Psychic Nate",
-      "detailFile": "trainers/236.json",
+      "detailFile": "trainers/233.json",
       "leadLevel": 86,
       "maxLevel": 86,
       "isBoss": false,
@@ -3154,7 +3088,7 @@
     {
       "displayName": "Space Center Team Magma Grunt #1 |Space Center|",
       "usageKey": "Space Center Team Magma Grunt #1",
-      "detailFile": "trainers/279.json",
+      "detailFile": "trainers/276.json",
       "leadLevel": 86,
       "maxLevel": 87,
       "isBoss": false,
@@ -3167,7 +3101,7 @@
     {
       "displayName": "Space Center Team Magma Grunt #2 |Space Center|",
       "usageKey": "Space Center Team Magma Grunt #2",
-      "detailFile": "trainers/280.json",
+      "detailFile": "trainers/277.json",
       "leadLevel": 86,
       "maxLevel": 87,
       "isBoss": false,
@@ -3180,7 +3114,7 @@
     {
       "displayName": "Space Center Team Magma Grunt #6 |Space Center|",
       "usageKey": "Space Center Team Magma Grunt #6",
-      "detailFile": "trainers/283.json",
+      "detailFile": "trainers/280.json",
       "leadLevel": 86,
       "maxLevel": 87,
       "isBoss": false,
@@ -3206,7 +3140,7 @@
     {
       "displayName": "Cooltrainer Puffy |Route 127|",
       "usageKey": "Cooltrainer Puffy",
-      "detailFile": "trainers/091.json",
+      "detailFile": "trainers/090.json",
       "leadLevel": 87,
       "maxLevel": 88,
       "isBoss": false,
@@ -3232,7 +3166,7 @@
     {
       "displayName": "Space Center Team Magma Elite Grunt |Space Center|",
       "usageKey": "Space Center Team Magma Elite Grunt",
-      "detailFile": "trainers/278.json",
+      "detailFile": "trainers/275.json",
       "leadLevel": 87,
       "maxLevel": 87,
       "isBoss": false,
@@ -3245,7 +3179,7 @@
     {
       "displayName": "Space Center Team Magma Grunt #4 |Space Center|",
       "usageKey": "Space Center Team Magma Grunt #4",
-      "detailFile": "trainers/281.json",
+      "detailFile": "trainers/278.json",
       "leadLevel": 87,
       "maxLevel": 87,
       "isBoss": false,
@@ -3258,7 +3192,7 @@
     {
       "displayName": "Space Center Team Magma Grunt #5 |Space Center|",
       "usageKey": "Space Center Team Magma Grunt #5",
-      "detailFile": "trainers/282.json",
+      "detailFile": "trainers/279.json",
       "leadLevel": 87,
       "maxLevel": 87,
       "isBoss": false,
@@ -3284,7 +3218,7 @@
     {
       "displayName": "Sis And Bro Reli&Ian |Route 127|",
       "usageKey": "Sis And Bro Reli&Ian",
-      "detailFile": "trainers/277.json",
+      "detailFile": "trainers/274.json",
       "leadLevel": 89,
       "maxLevel": 90,
       "isBoss": false,
@@ -3297,7 +3231,7 @@
     {
       "displayName": "Magma Leader Maxie & Tabitha |Space Center|",
       "usageKey": "Magma Leader Maxie & Tabitha",
-      "detailFile": "trainers/188.json",
+      "detailFile": "trainers/186.json",
       "leadLevel": 90,
       "maxLevel": 90,
       "isBoss": true,
@@ -3310,7 +3244,7 @@
     {
       "displayName": "Team Aqua Admin Shelly 2 |Seafloor Cavern|",
       "usageKey": "Team Aqua Admin Shelly 2",
-      "detailFile": "trainers/297.json",
+      "detailFile": "trainers/293.json",
       "leadLevel": 90,
       "maxLevel": 91,
       "isBoss": false,
@@ -3323,7 +3257,7 @@
     {
       "displayName": "Team Aqua Grunt Steve 3 |Seafloor Cavern|",
       "usageKey": "Team Aqua Grunt Steve 3",
-      "detailFile": "trainers/303.json",
+      "detailFile": "trainers/299.json",
       "leadLevel": 90,
       "maxLevel": 92,
       "isBoss": false,
@@ -3336,7 +3270,7 @@
     {
       "displayName": "Seafloor Team Aqua Grunt #1 |Seafloor Cavern|",
       "usageKey": "Seafloor Team Aqua Grunt #1",
-      "detailFile": "trainers/274.json",
+      "detailFile": "trainers/271.json",
       "leadLevel": 91,
       "maxLevel": 91,
       "isBoss": false,
@@ -3349,7 +3283,7 @@
     {
       "displayName": "Seafloor Team Aqua Grunt #2 |Seafloor Cavern|",
       "usageKey": "Seafloor Team Aqua Grunt #2",
-      "detailFile": "trainers/275.json",
+      "detailFile": "trainers/272.json",
       "leadLevel": 91,
       "maxLevel": 91,
       "isBoss": false,
@@ -3362,7 +3296,7 @@
     {
       "displayName": "Seafloor Team Aqua Grunt #4 |Seafloor Cavern|",
       "usageKey": "Seafloor Team Aqua Grunt #4",
-      "detailFile": "trainers/276.json",
+      "detailFile": "trainers/273.json",
       "leadLevel": 91,
       "maxLevel": 91,
       "isBoss": false,
@@ -3375,7 +3309,7 @@
     {
       "displayName": "Swimmer Reed |Route 129|",
       "usageKey": "Swimmer Reed",
-      "detailFile": "trainers/292.json",
+      "detailFile": "trainers/288.json",
       "leadLevel": 91,
       "maxLevel": 92,
       "isBoss": false,
@@ -3388,7 +3322,7 @@
     {
       "displayName": "Team Aqua Grunt Gren |Seafloor Cavern|",
       "usageKey": "Team Aqua Grunt Gren",
-      "detailFile": "trainers/300.json",
+      "detailFile": "trainers/296.json",
       "leadLevel": 91,
       "maxLevel": 91,
       "isBoss": false,
@@ -3401,7 +3335,7 @@
     {
       "displayName": "Swimmer Katie & Swimmer Santiago |Route 130|",
       "usageKey": "Swimmer Katie & Swimmer Santiago",
-      "detailFile": "trainers/290.json",
+      "detailFile": "trainers/286.json",
       "leadLevel": 92,
       "maxLevel": 94,
       "isBoss": false,
@@ -3414,7 +3348,7 @@
     {
       "displayName": "Team Aqua Leader Archie 2 |Seafloor Cavern|",
       "usageKey": "Team Aqua Leader Archie 2",
-      "detailFile": "trainers/304.json",
+      "detailFile": "trainers/300.json",
       "leadLevel": 92,
       "maxLevel": 95,
       "isBoss": true,
@@ -3427,7 +3361,7 @@
     {
       "displayName": "Triathlete Allison |Route 129|",
       "usageKey": "Triathlete Allison",
-      "detailFile": "trainers/320.json",
+      "detailFile": "trainers/316.json",
       "leadLevel": 92,
       "maxLevel": 92,
       "isBoss": false,
@@ -3440,7 +3374,7 @@
     {
       "displayName": "Triathlete Rydia |Route 130|",
       "usageKey": "Triathlete Rydia",
-      "detailFile": "trainers/325.json",
+      "detailFile": "trainers/321.json",
       "leadLevel": 93,
       "maxLevel": 94,
       "isBoss": false,
@@ -3453,7 +3387,7 @@
     {
       "displayName": "Triathlete Talia |Route 131|",
       "usageKey": "Triathlete Talia",
-      "detailFile": "trainers/326.json",
+      "detailFile": "trainers/322.json",
       "leadLevel": 93,
       "maxLevel": 94,
       "isBoss": false,
@@ -3492,7 +3426,7 @@
     {
       "displayName": "Cooltrainer Bazzo |Route 134|",
       "usageKey": "Cooltrainer Bazzo",
-      "detailFile": "trainers/079.json",
+      "detailFile": "trainers/078.json",
       "leadLevel": 95,
       "maxLevel": 95,
       "isBoss": false,
@@ -3505,7 +3439,7 @@
     {
       "displayName": "Cooltrainer Reyna |Route 123|",
       "usageKey": "Cooltrainer Reyna",
-      "detailFile": "trainers/092.json",
+      "detailFile": "trainers/091.json",
       "leadLevel": 95,
       "maxLevel": 97,
       "isBoss": false,
@@ -3518,7 +3452,7 @@
     {
       "displayName": "Lass Andrea |Sootopolis Gym|",
       "usageKey": "Lass Andrea",
-      "detailFile": "trainers/171.json",
+      "detailFile": "trainers/169.json",
       "leadLevel": 95,
       "maxLevel": 95,
       "isBoss": false,
@@ -3531,7 +3465,7 @@
     {
       "displayName": "Leader Steven |Sootopolis Gym|",
       "usageKey": "Leader Steven",
-      "detailFile": "trainers/180.json",
+      "detailFile": "trainers/178.json",
       "leadLevel": 95,
       "maxLevel": 100,
       "isBoss": true,
@@ -3544,7 +3478,7 @@
     {
       "displayName": "Lorekeeper Zinnia |Evergrande City|",
       "usageKey": "Lorekeeper Zinnia",
-      "detailFile": "trainers/187.json",
+      "detailFile": "trainers/185.json",
       "leadLevel": 95,
       "maxLevel": 98,
       "isBoss": false,
@@ -3557,7 +3491,7 @@
     {
       "displayName": "Pok\u00e9fan Bethany |Sootopolis Gym|",
       "usageKey": "Pok\u00e9fan Bethany",
-      "detailFile": "trainers/218.json",
+      "detailFile": "trainers/216.json",
       "leadLevel": 95,
       "maxLevel": 95,
       "isBoss": false,
@@ -3570,7 +3504,7 @@
     {
       "displayName": "Swimmer Puppy |Route 130|",
       "usageKey": "Swimmer Puppy",
-      "detailFile": "trainers/291.json",
+      "detailFile": "trainers/287.json",
       "leadLevel": 95,
       "maxLevel": 95,
       "isBoss": false,
@@ -3583,7 +3517,7 @@
     {
       "displayName": "Team Rocket Grunt #1 |Route 123|",
       "usageKey": "Team Rocket Grunt #1",
-      "detailFile": "trainers/314.json",
+      "detailFile": "trainers/310.json",
       "leadLevel": 95,
       "maxLevel": 96,
       "isBoss": false,
@@ -3596,7 +3530,7 @@
     {
       "displayName": "Team Rocket Grunt #2 |Route 123|",
       "usageKey": "Team Rocket Grunt #2",
-      "detailFile": "trainers/315.json",
+      "detailFile": "trainers/311.json",
       "leadLevel": 95,
       "maxLevel": 96,
       "isBoss": false,
@@ -3609,7 +3543,7 @@
     {
       "displayName": "Team Rocket Grunt #3 |Route 123|",
       "usageKey": "Team Rocket Grunt #3",
-      "detailFile": "trainers/316.json",
+      "detailFile": "trainers/312.json",
       "leadLevel": 95,
       "maxLevel": 96,
       "isBoss": false,
@@ -3622,7 +3556,7 @@
     {
       "displayName": "Cooltrainer Yoru |Route 123|",
       "usageKey": "Cooltrainer Yoru",
-      "detailFile": "trainers/093.json",
+      "detailFile": "trainers/092.json",
       "leadLevel": 96,
       "maxLevel": 97,
       "isBoss": false,
@@ -3635,7 +3569,7 @@
     {
       "displayName": "Kindler Kos |Route 123|",
       "usageKey": "Kindler Kos",
-      "detailFile": "trainers/162.json",
+      "detailFile": "trainers/160.json",
       "leadLevel": 96,
       "maxLevel": 98,
       "isBoss": false,
@@ -3648,7 +3582,7 @@
     {
       "displayName": "Lady Daphne |Sootopolis Gym|",
       "usageKey": "Lady Daphne",
-      "detailFile": "trainers/165.json",
+      "detailFile": "trainers/163.json",
       "leadLevel": 96,
       "maxLevel": 96,
       "isBoss": false,
@@ -3661,7 +3595,7 @@
     {
       "displayName": "Rival Wally 3 |Victory Road|",
       "usageKey": "Rival Wally 3",
-      "detailFile": "trainers/252.json",
+      "detailFile": "trainers/249.json",
       "leadLevel": 97,
       "maxLevel": 100,
       "isBoss": false,
@@ -3674,7 +3608,7 @@
     {
       "displayName": "Youngster Des |Route 123|",
       "usageKey": "Youngster Des",
-      "detailFile": "trainers/344.json",
+      "detailFile": "trainers/340.json",
       "leadLevel": 97,
       "maxLevel": 99,
       "isBoss": false,
@@ -3737,9 +3671,22 @@
       ]
     },
     {
+      "displayName": "Ex Elite Four Glacia 2 |Route 123|",
+      "usageKey": "Ex Elite Four Glacia 2",
+      "detailFile": "trainers/106.json",
+      "leadLevel": 99,
+      "maxLevel": 100,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 813,
+      "teamVariantNames": [
+        "Ex Elite Four Glacia 2 |Route 123|"
+      ]
+    },
+    {
       "displayName": "Natural Guru Spenser 2 |Victory Road|",
       "usageKey": "Natural Guru Spenser 2",
-      "detailFile": "trainers/194.json",
+      "detailFile": "trainers/192.json",
       "leadLevel": 99,
       "maxLevel": 100,
       "isBoss": false,
@@ -3752,7 +3699,7 @@
     {
       "displayName": "Naturalist Greta 1 |Victory Road|",
       "usageKey": "Naturalist Greta 1",
-      "detailFile": "trainers/195.json",
+      "detailFile": "trainers/193.json",
       "leadLevel": 99,
       "maxLevel": 100,
       "isBoss": false,
@@ -3765,7 +3712,7 @@
     {
       "displayName": "Naturalist Greta 2 |Victory Road|",
       "usageKey": "Naturalist Greta 2",
-      "detailFile": "trainers/196.json",
+      "detailFile": "trainers/194.json",
       "leadLevel": 99,
       "maxLevel": 100,
       "isBoss": false,
@@ -3778,7 +3725,7 @@
     {
       "displayName": "Pok\u00e9mon Trainer Leaf 2 |Route 123|",
       "usageKey": "Pok\u00e9mon Trainer Leaf 2",
-      "detailFile": "trainers/226.json",
+      "detailFile": "trainers/223.json",
       "leadLevel": 99,
       "maxLevel": 99,
       "isBoss": false,
@@ -3791,7 +3738,7 @@
     {
       "displayName": "Superstar Tucker 1 |Victory Road|",
       "usageKey": "Superstar Tucker 1",
-      "detailFile": "trainers/288.json",
+      "detailFile": "trainers/284.json",
       "leadLevel": 99,
       "maxLevel": 100,
       "isBoss": false,
@@ -3804,7 +3751,7 @@
     {
       "displayName": "Champion Wallace |Pok\u00e9mon League|",
       "usageKey": "Champion Wallace",
-      "detailFile": "trainers/075.json",
+      "detailFile": "trainers/074.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": true,
@@ -3817,7 +3764,7 @@
     {
       "displayName": "Elite Four Drake Doubles |Pok\u00e9mon League|",
       "usageKey": "Elite Four Drake Doubles",
-      "detailFile": "trainers/101.json",
+      "detailFile": "trainers/100.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": true,
@@ -3830,7 +3777,7 @@
     {
       "displayName": "Elite Four Drake Singles |Pok\u00e9mon League|",
       "usageKey": "Elite Four Drake Singles",
-      "detailFile": "trainers/102.json",
+      "detailFile": "trainers/101.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": true,
@@ -3843,7 +3790,7 @@
     {
       "displayName": "Elite Four Phoebe",
       "usageKey": "Elite Four Phoebe",
-      "detailFile": "trainers/104.json",
+      "detailFile": "trainers/103.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": true,
@@ -3857,7 +3804,7 @@
     {
       "displayName": "Elite Four Rival",
       "usageKey": "Elite Four Rival",
-      "detailFile": "trainers/105.json",
+      "detailFile": "trainers/104.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": true,
@@ -3871,7 +3818,7 @@
     {
       "displayName": "Elite Four Sidney",
       "usageKey": "Elite Four Sidney",
-      "detailFile": "trainers/106.json",
+      "detailFile": "trainers/105.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": true,
@@ -3898,7 +3845,7 @@
     {
       "displayName": "Teacher Anabel |Victory Road|",
       "usageKey": "Teacher Anabel",
-      "detailFile": "trainers/294.json",
+      "detailFile": "trainers/290.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": false,
@@ -3911,7 +3858,7 @@
     {
       "displayName": "Trainer Archie |Victory Road|",
       "usageKey": "Trainer Archie",
-      "detailFile": "trainers/317.json",
+      "detailFile": "trainers/313.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": false,
@@ -3924,7 +3871,7 @@
     {
       "displayName": "Trainer Maxie |Victory Road|",
       "usageKey": "Trainer Maxie",
-      "detailFile": "trainers/318.json",
+      "detailFile": "trainers/314.json",
       "leadLevel": 100,
       "maxLevel": 100,
       "isBoss": false,
@@ -4223,7 +4170,7 @@
     {
       "displayName": "Camper Johnny & Camper Tarian",
       "usageKey": "Camper Johnny & Camper Tarian",
-      "detailFile": "trainers/072.json",
+      "detailFile": "trainers/071.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4234,7 +4181,7 @@
     {
       "displayName": "Confusion Room)",
       "usageKey": "Confusion Room)",
-      "detailFile": "trainers/076.json",
+      "detailFile": "trainers/075.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4245,7 +4192,7 @@
     {
       "displayName": "Crit Room)",
       "usageKey": "Crit Room)",
-      "detailFile": "trainers/094.json",
+      "detailFile": "trainers/093.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4256,7 +4203,7 @@
     {
       "displayName": "Defense Room)",
       "usageKey": "Defense Room)",
-      "detailFile": "trainers/098.json",
+      "detailFile": "trainers/097.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4300,7 +4247,7 @@
     {
       "displayName": "Inverse Room)",
       "usageKey": "Inverse Room)",
-      "detailFile": "trainers/158.json",
+      "detailFile": "trainers/156.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4311,7 +4258,7 @@
     {
       "displayName": "Kindler Cole & Battle Girl Danielle",
       "usageKey": "Kindler Cole & Battle Girl Danielle",
-      "detailFile": "trainers/161.json",
+      "detailFile": "trainers/159.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4322,7 +4269,7 @@
     {
       "displayName": "Land Cave Team Magma Grunt #3",
       "usageKey": "Land Cave Team Magma Grunt #3",
-      "detailFile": "trainers/169.json",
+      "detailFile": "trainers/167.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4333,7 +4280,7 @@
     {
       "displayName": "Mt.Chimney Team Magma Elite Grunt",
       "usageKey": "Mt.Chimney Team Magma Elite Grunt",
-      "detailFile": "trainers/190.json",
+      "detailFile": "trainers/188.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4344,7 +4291,7 @@
     {
       "displayName": "Mt.Chimney Team Magma Grunt",
       "usageKey": "Mt.Chimney Team Magma Grunt",
-      "detailFile": "trainers/191.json",
+      "detailFile": "trainers/189.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4355,7 +4302,7 @@
     {
       "displayName": "Offense Room)",
       "usageKey": "Offense Room)",
-      "detailFile": "trainers/203.json",
+      "detailFile": "trainers/201.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4366,7 +4313,7 @@
     {
       "displayName": "Pass Room)",
       "usageKey": "Pass Room)",
-      "detailFile": "trainers/209.json",
+      "detailFile": "trainers/207.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4377,7 +4324,7 @@
     {
       "displayName": "Psychic Room)",
       "usageKey": "Psychic Room)",
-      "detailFile": "trainers/235.json",
+      "detailFile": "trainers/232.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4388,7 +4335,7 @@
     {
       "displayName": "Ranger Frank Josh",
       "usageKey": "Ranger Frank Josh",
-      "detailFile": "trainers/244.json",
+      "detailFile": "trainers/241.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4399,7 +4346,7 @@
     {
       "displayName": "Root Academy Trainer #1",
       "usageKey": "Root Academy Trainer #1",
-      "detailFile": "trainers/253.json",
+      "detailFile": "trainers/250.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4410,7 +4357,7 @@
     {
       "displayName": "Root Academy Trainer #2",
       "usageKey": "Root Academy Trainer #2",
-      "detailFile": "trainers/254.json",
+      "detailFile": "trainers/251.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4421,7 +4368,7 @@
     {
       "displayName": "Root Academy Trainer #3",
       "usageKey": "Root Academy Trainer #3",
-      "detailFile": "trainers/256.json",
+      "detailFile": "trainers/253.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4432,7 +4379,7 @@
     {
       "displayName": "Root Academy Trainer #4",
       "usageKey": "Root Academy Trainer #4",
-      "detailFile": "trainers/260.json",
+      "detailFile": "trainers/257.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4443,7 +4390,7 @@
     {
       "displayName": "Sr.And Jr.Kate&Joy",
       "usageKey": "Sr.And Jr.Kate&Joy",
-      "detailFile": "trainers/286.json",
+      "detailFile": "trainers/282.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4454,7 +4401,7 @@
     {
       "displayName": "Sr.And Jr.Tyra&Ivy",
       "usageKey": "Sr.And Jr.Tyra&Ivy",
-      "detailFile": "trainers/287.json",
+      "detailFile": "trainers/283.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,
@@ -4465,7 +4412,7 @@
     {
       "displayName": "Twins Gina&Mia",
       "usageKey": "Twins Gina&Mia",
-      "detailFile": "trainers/335.json",
+      "detailFile": "trainers/331.json",
       "leadLevel": null,
       "maxLevel": null,
       "isBoss": false,

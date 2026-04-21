@@ -8,6 +8,7 @@ window.analyticsOverviewState = {
   minDepth: 1,
   currentSnapshot: null,
   starterSorts: {},
+  trainerSectionTab: "important",
 };
 window.analyticsPokemonState = {
   selectedSpecies: null,
@@ -58,6 +59,8 @@ const CALCULATOR_URL_FALLBACKS = {
   "Emerald Imperium 1.3": "?data=imp13&dmgGen=8&gen=8&types=6&noSwitch=1&evs=1",
   "Renegade Platinum": "?data=renegadeplatinum",
   "Platinum Kaizo": "?data=pk&noSwitch=1",
+  "Pokemon Null 1.2": "?data=null",
+  "Pokemon Null 1.1": "?data=null11",
   "Pokemon Null": "?data=null",
   "Cascade White": "?data=casc&critGen=5",
   "Vintage White Plus": "?data=vwplus",
@@ -91,8 +94,12 @@ function resolvedDashboardTitle() {
     : TITLE;
 }
 
+function isPokemonNullDashboardTitle(title) {
+  return typeof title === "string" && title.startsWith("Pokemon Null");
+}
+
 function isNullDashboard() {
-  return resolvedDashboardTitle() === "Pokemon Null";
+  return isPokemonNullDashboardTitle(resolvedDashboardTitle());
 }
 
 function stripLocationSuffix(name) {
@@ -597,8 +604,32 @@ function trainerSpriteSrc(name) {
   return `${dashboardAssetBase()}/img/trainer_sprites/${trainerSpriteSlug(name) || "unknown"}.png`;
 }
 
+function renderTrainerOverviewSprite(item) {
+  const displayName = String(item?.displayName || "");
+  const usageKey = String(item?.usageKey || "");
+  if (isNullDashboard() && (usageKey === "Elite Four Rival" || /Elite Four Rival/i.test(displayName))) {
+    const brendanSrc = `${dashboardAssetBase()}/img/trainer_sprites/brendan.png`;
+    const maySrc = `${dashboardAssetBase()}/img/trainer_sprites/may.png`;
+    return `
+      <div class="importantSprite importantSpriteDual">
+        <img src="${brendanSrc}" alt="Brendan" loading="lazy"
+             onerror="this.style.opacity=.35;this.title='Missing trainer sprite'">
+        <img src="${maySrc}" alt="May" loading="lazy"
+             onerror="this.style.opacity=.35;this.title='Missing trainer sprite'">
+      </div>
+    `;
+  }
+
+  return `
+    <div class="importantSprite">
+      <img src="${trainerSpriteSrc(displayName)}" alt="${escapeHtml(displayTrainerName(displayName))}" loading="lazy"
+           onerror="this.style.opacity=.35;this.title='Missing trainer sprite'">
+    </div>
+  `;
+}
+
 function overviewState() {
-  return window.analyticsOverviewState || { minDepth: 1, currentSnapshot: null, starterSorts: {} };
+  return window.analyticsOverviewState || { minDepth: 1, currentSnapshot: null, starterSorts: {}, trainerSectionTab: "important" };
 }
 
 function pokemonState() {
@@ -636,31 +667,57 @@ function setOverviewMinDepth(nextMinDepth) {
   return state.currentSnapshot;
 }
 
+function currentTrainerSectionTab() {
+  const state = overviewState();
+  return state.trainerSectionTab === "run-enders" ? "run-enders" : "important";
+}
+
+function setTrainerSectionTab(nextTab) {
+  const state = overviewState();
+  state.trainerSectionTab = nextTab === "run-enders" ? "run-enders" : "important";
+  window.analyticsOverviewState = state;
+}
+
+function formatRunMetric(value) {
+  if (value == null || !Number.isFinite(Number(value))) return "—";
+  return `${formatNumber(value)} runs`;
+}
+
+function renderTrainerOverviewCard(item) {
+  return `
+    <button type="button" class="importantCard" data-trainer-key="${escapeHtml(item.usageKey || item.displayName)}">
+      ${renderTrainerOverviewSprite(item)}
+      <div class="importantCardBody">
+        <div class="importantName">${escapeHtml(displayTrainerName(item.displayName))}</div>
+        <div class="importantStats">
+          <div class="importantStatRow"><span>Reached</span><strong>${escapeHtml(formatRunMetric(item.reachedCount))}</strong></div>
+          <div class="importantStatRow"><span>Ended</span><strong>${escapeHtml(formatRunMetric(item.endedCount))}</strong></div>
+        </div>
+      </div>
+    </button>
+  `;
+}
+
 function renderImportantTrainerSection(snapshot) {
-  const items = Array.isArray(snapshot?.importantTrainerBattles) ? snapshot.importantTrainerBattles : [];
+  const activeTab = currentTrainerSectionTab();
+  const importantItems = Array.isArray(snapshot?.importantTrainerBattles) ? snapshot.importantTrainerBattles : [];
+  const topRunEnders = Array.isArray(snapshot?.topRunEnders) ? snapshot.topRunEnders : [];
+  const items = activeTab === "run-enders" ? topRunEnders : importantItems;
+  const emptyMessage = activeTab === "run-enders"
+    ? "Run-ender data is not available for this game."
+    : "No important trainer data configured for this game.";
   const cards = items.length
-    ? items
-        .map(
-          (item) => `
-            <button type="button" class="importantCard" data-trainer-name="${escapeHtml(item.sourceDisplayName || item.displayName)}">
-              <div class="importantSprite">
-                <img src="${trainerSpriteSrc(item.displayName)}" alt="${escapeHtml(displayTrainerName(item.displayName))}" loading="lazy"
-                     onerror="this.style.opacity=.35;this.title='Missing trainer sprite'">
-              </div>
-              <div class="importantCardBody">
-                <div class="importantName">${escapeHtml(displayTrainerName(item.displayName))}</div>
-                <div class="importantCount">${escapeHtml(formatNumber(item.runCount))} runs</div>
-              </div>
-            </button>
-          `
-        )
-        .join("")
-    : `<div class="emptyState">No important trainer data configured for this game.</div>`;
+    ? items.map((item) => renderTrainerOverviewCard(item)).join("")
+    : `<div class="emptyState">${emptyMessage}</div>`;
 
   return `
     <section class="overviewSection">
       <div class="sectionHeader">
         <h2>Important Trainers</h2>
+        <div class="sectionTabs" role="tablist" aria-label="Trainer overview sections">
+          <button type="button" class="sectionTab${activeTab === "important" ? " active" : ""}" data-section-tab="important" role="tab" aria-selected="${activeTab === "important" ? "true" : "false"}">Important Trainers</button>
+          <button type="button" class="sectionTab${activeTab === "run-enders" ? " active" : ""}" data-section-tab="run-enders" role="tab" aria-selected="${activeTab === "run-enders" ? "true" : "false"}">Top Run Enders</button>
+        </div>
       </div>
       <div class="importantGrid">${cards}</div>
     </section>
@@ -987,9 +1044,16 @@ function renderTopPokemonByAverageDepth(snapshot) {
 
 function wireOverviewInteractions() {
   $(".importantCard").off("click").on("click", function () {
-    const trainerName = this.dataset.trainerName;
-    if (!trainerName) return;
-    void selectTrainerByName(trainerName);
+    const trainerKey = this.dataset.trainerKey;
+    if (!trainerKey) return;
+    void selectTrainerByName(trainerKey);
+  });
+
+  $(".sectionTab").off("click").on("click", function () {
+    const nextTab = this.dataset.sectionTab;
+    if (!nextTab || nextTab === currentTrainerSectionTab()) return;
+    setTrainerSectionTab(nextTab);
+    renderOverview(window.analyticsIndexData, window.analyticsOverviewData, overviewState().currentSnapshot);
   });
 
   $(".starterSortSelect").off("change").on("change", function () {
@@ -1261,7 +1325,7 @@ function findTrainerOptionById(select2Data, trainerName) {
     if (!Array.isArray(section.children)) continue;
     for (const group of section.children) {
       if (!Array.isArray(group.children)) continue;
-      const match = group.children.find((child) => child.id === trainerName);
+      const match = group.children.find((child) => child.id === trainerName || child._usageKey === trainerName);
       if (match) return match;
     }
   }

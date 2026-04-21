@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "poochyena",
   "familyMembers": [
     "Mightyena",
@@ -11,7 +11,7 @@
       "byMinDepth": {
         "1": {
           "runCount": 12,
-          "averageParticipationPct": 68.0,
+          "averageParticipationPct": 63.9,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
           "averageBattlesUsed": 3.7,
@@ -21,8 +21,8 @@
               "displayName": "PkMn Trainer N2",
               "leadLevel": 21,
               "partyCount": 7,
-              "ownedCount": 6,
-              "participationPct": 117
+              "ownedCount": 7,
+              "participationPct": 100
             },
             {
               "usageKey": "21",
@@ -103,12 +103,20 @@
     "Poochyena": {
       "byMinDepth": {
         "1": {
-          "runCount": 7,
-          "averageParticipationPct": 78.6,
+          "runCount": 9,
+          "averageParticipationPct": 83.3,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 1.3,
+          "averageBattlesUsed": 1.2,
           "topBattles": [
+            {
+              "usageKey": "12",
+              "displayName": "Leader Cilan",
+              "leadLevel": 14,
+              "partyCount": 3,
+              "ownedCount": 3,
+              "participationPct": 100
+            },
             {
               "usageKey": "13",
               "displayName": "Leader Cress",
@@ -118,19 +126,11 @@
               "participationPct": 100
             },
             {
-              "usageKey": "12",
-              "displayName": "Leader Cilan",
-              "leadLevel": 14,
-              "partyCount": 2,
-              "ownedCount": 2,
-              "participationPct": 100
-            },
-            {
               "usageKey": "11",
               "displayName": "Leader Chili",
               "leadLevel": 14,
-              "partyCount": 1,
-              "ownedCount": 1,
+              "partyCount": 2,
+              "ownedCount": 2,
               "participationPct": 100
             },
             {
@@ -181,19 +181,19 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 15,
-        "averageParticipationPct": 81.7,
+        "runCount": 16,
+        "averageParticipationPct": 74.5,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
-        "averageBattlesUsed": 3.6,
+        "averageBattlesUsed": 3.4,
         "topBattles": [
           {
             "usageKey": "65",
             "displayName": "PkMn Trainer N2",
             "leadLevel": 21,
             "partyCount": 7,
-            "ownedCount": 6,
-            "participationPct": 117
+            "ownedCount": 7,
+            "participationPct": 100
           },
           {
             "usageKey": "21",
@@ -208,8 +208,8 @@
             "displayName": "Leader Cilan",
             "leadLevel": 14,
             "partyCount": 3,
-            "ownedCount": 2,
-            "participationPct": 150
+            "ownedCount": 3,
+            "participationPct": 100
           },
           {
             "usageKey": "13",
@@ -228,6 +228,14 @@
             "participationPct": 60
           },
           {
+            "usageKey": "11",
+            "displayName": "Leader Chili",
+            "leadLevel": 14,
+            "partyCount": 2,
+            "ownedCount": 2,
+            "participationPct": 100
+          },
+          {
             "usageKey": "86",
             "displayName": "School Kid Carter - Nacrene City",
             "leadLevel": 23,
@@ -242,14 +250,6 @@
             "partyCount": 2,
             "ownedCount": 4,
             "participationPct": 50
-          },
-          {
-            "usageKey": "11",
-            "displayName": "Leader Chili",
-            "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
           },
           {
             "usageKey": "491",

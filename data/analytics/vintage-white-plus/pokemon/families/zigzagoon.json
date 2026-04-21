@@ -1,6 +1,6 @@
 {
   "title": "Vintage White Plus",
-  "generatedAt": "2026-04-16T19:12:54.015134Z",
+  "generatedAt": "2026-04-21T00:19:25.632855Z",
   "familyKey": "zigzagoon",
   "familyMembers": [
     "Linoone",
@@ -10,11 +10,11 @@
     "Linoone": {
       "byMinDepth": {
         "1": {
-          "runCount": 10,
-          "averageParticipationPct": 36.9,
+          "runCount": 11,
+          "averageParticipationPct": 42.7,
           "averageRunDepthStep": null,
           "averageRunDepthPct": null,
-          "averageBattlesUsed": 2.6,
+          "averageBattlesUsed": 2.5,
           "topBattles": [
             {
               "usageKey": "292",
@@ -28,6 +28,14 @@
               "usageKey": "87",
               "displayName": "School Kid Lydia",
               "leadLevel": 24,
+              "partyCount": 2,
+              "ownedCount": 3,
+              "participationPct": 67
+            },
+            {
+              "usageKey": "75",
+              "displayName": "Worker Ryan - Cold Storage",
+              "leadLevel": 53,
               "partyCount": 2,
               "ownedCount": 3,
               "participationPct": 67
@@ -84,14 +92,6 @@
               "usageKey": "57",
               "displayName": "PkMn Trainer Cheren5",
               "leadLevel": 18,
-              "partyCount": 1,
-              "ownedCount": 1,
-              "participationPct": 100
-            },
-            {
-              "usageKey": "3",
-              "displayName": "School Kid Al - Route 3",
-              "leadLevel": 20,
               "partyCount": 1,
               "ownedCount": 1,
               "participationPct": 100
@@ -157,8 +157,8 @@
   "familyCombined": {
     "byMinDepth": {
       "1": {
-        "runCount": 11,
-        "averageParticipationPct": 34.8,
+        "runCount": 12,
+        "averageParticipationPct": 40.3,
         "averageRunDepthStep": null,
         "averageRunDepthPct": null,
         "averageBattlesUsed": 2.6,
@@ -175,6 +175,14 @@
             "usageKey": "87",
             "displayName": "School Kid Lydia",
             "leadLevel": 24,
+            "partyCount": 2,
+            "ownedCount": 3,
+            "participationPct": 67
+          },
+          {
+            "usageKey": "75",
+            "displayName": "Worker Ryan - Cold Storage",
+            "leadLevel": 53,
             "partyCount": 2,
             "ownedCount": 3,
             "participationPct": 67
@@ -231,14 +239,6 @@
             "usageKey": "11",
             "displayName": "Leader Chili",
             "leadLevel": 14,
-            "partyCount": 1,
-            "ownedCount": 1,
-            "participationPct": 100
-          },
-          {
-            "usageKey": "57",
-            "displayName": "PkMn Trainer Cheren5",
-            "leadLevel": 18,
             "partyCount": 1,
             "ownedCount": 1,
             "participationPct": 100
