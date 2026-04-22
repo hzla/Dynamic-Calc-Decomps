@@ -482,6 +482,24 @@ function getFragEntryValue(fragEntry) {
     return String(fragEntry || "")
 }
 
+function parseFragLevelMetadata(fragEntry) {
+    let fragValue = getFragEntryValue(fragEntry)
+    let match = fragValue.match(/Lvl (\d+)(\*)?/)
+    if (!match) {
+        return {
+            level: Number.POSITIVE_INFINITY,
+            hasAsterisk: false,
+            dedupeKey: fragValue
+        }
+    }
+
+    return {
+        level: parseInt(match[1], 10),
+        hasAsterisk: Boolean(match[2]),
+        dedupeKey: fragValue.replace(/Lvl \d+(\*)?/, `Lvl #${match[2] ? "*" : ""}`)
+    }
+}
+
 function getFragEntrySourceSpecies(fragEntry) {
     if (!fragEntry || typeof fragEntry !== "object") {
         return ""
@@ -720,6 +738,35 @@ function mergeFragsForDisplaySpecies(displaySpecies, sourceSpeciesList, encounte
     })
 }
 
+function dedupeDisplayedFragEntriesByLevel(fragEntries) {
+    let dedupedEntries = []
+    let bestEntryByKey = {}
+    let bestEntryIndexByKey = {}
+
+    for (let i = 0; i < fragEntries.length; i++) {
+        let fragEntry = fragEntries[i]
+        let fragValue = getFragEntryValue(fragEntry)
+        let levelMetadata = parseFragLevelMetadata(fragValue)
+        let existingEntry = bestEntryByKey[levelMetadata.dedupeKey]
+
+        if (!existingEntry) {
+            bestEntryByKey[levelMetadata.dedupeKey] = fragEntry
+            bestEntryIndexByKey[levelMetadata.dedupeKey] = dedupedEntries.length
+            dedupedEntries.push(fragEntry)
+            continue
+        }
+
+        let existingLevelMetadata = parseFragLevelMetadata(existingEntry)
+        if (levelMetadata.level < existingLevelMetadata.level) {
+            let existingIndex = bestEntryIndexByKey[levelMetadata.dedupeKey]
+            bestEntryByKey[levelMetadata.dedupeKey] = fragEntry
+            dedupedEntries[existingIndex] = fragEntry
+        }
+    }
+
+    return dedupedEntries
+}
+
 function safeParseStoredObject(rawValue) {
     try {
         return rawValue ? JSON.parse(rawValue) : {}
@@ -937,7 +984,9 @@ function createRowData() {
         let sourceSpeciesList = displaySpeciesMap[displaySpecies]
         let encounterForDisplaySpecies = encounters[displaySpecies] || encounters[sourceSpeciesList[0]] || {}
         let setData = chooseFragsheetDisplaySetData(displaySpecies, sourceSpeciesList, encounters)
-        let mergedFragEntries = mergeFragsForDisplaySpecies(displaySpecies, sourceSpeciesList, encounters)
+        let mergedFragEntries = dedupeDisplayedFragEntriesByLevel(
+            mergeFragsForDisplaySpecies(displaySpecies, sourceSpeciesList, encounters)
+        )
         let encRow = {}
         encRow.totalKo = 0
         encRow.species = displaySpecies

@@ -267,6 +267,51 @@ for (let calc of calcs) {
       cy.get('.ag-center-cols-container .ag-row').first().click()
       cy.contains('.fragged-note', 'Mega Evolved').should('exist')
     })
+
+    it('keeps only the lowest-level duplicate frag unless one entry is starred', () => {
+      const encounters = {
+        Sharpedo: {
+          setData: {
+            'My Box': {
+              ability: 'Speed Boost',
+              ivs: { hp: 31, at: 31, df: 31, sp: 31, sa: 31, sd: 31 },
+              nature: 'Jolly',
+              nn: 'Shark',
+              status: 'Healthy',
+              met: 'ROUTE 118'
+            }
+          },
+          fragCount: 4,
+          frags: [
+            'Carvanha (Lvl 23 Team Aqua Grunt Petalburg Woods )',
+            'Carvanha (Lvl 15 Team Aqua Grunt Petalburg Woods )',
+            'Numel (Lvl 22 Youngster Joey )',
+            'Numel (Lvl 22* Youngster Joey )'
+          ],
+          prevoFragCount: 0,
+          alive: true,
+          hide: false
+        }
+      }
+
+      cy.visit(calc.url.replace('index', 'frags'), {
+        onBeforeLoad(win) {
+          win.localStorage.clear()
+          win.localStorage.encounters = JSON.stringify(encounters)
+        }
+      })
+
+      cy.window().should('have.property', 'gridApi')
+      cy.window().then((win) => {
+        const sharpedoRow = win.gridApi.getDisplayedRowAtIndex(0).data
+        expect(sharpedoRow.species).to.eq('Sharpedo')
+        expect(sharpedoRow.fragCount).to.eq(3)
+        expect(sharpedoRow.frags).to.include('Carvanha (Lvl 15 Team Aqua Grunt Petalburg Woods )')
+        expect(sharpedoRow.frags).to.not.include('Carvanha (Lvl 23 Team Aqua Grunt Petalburg Woods )')
+        expect(sharpedoRow.frags).to.include('Numel (Lvl 22 Youngster Joey )')
+        expect(sharpedoRow.frags).to.include('Numel (Lvl 22* Youngster Joey )')
+      })
+    })
   })
 
   // describe(`${calc.title} Fragsheet`, () => {
