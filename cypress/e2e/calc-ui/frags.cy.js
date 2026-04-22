@@ -162,6 +162,111 @@ for (let calc of calcs) {
         expect(win.gridApi.getDisplayedRowAtIndex(0).data.species).to.eq('Sawsbuck')
       })
     })
+
+    it('rolls mega frags into the latest non-mega species and hides mega rows', () => {
+      const batchId = 'empoleon-mega-regression'
+      const encounters = {
+        Empoleon: {
+          setData: {
+            'My Box': {
+              ability: 'Competitive',
+              ivs: { hp: 31, at: 31, df: 31, sp: 31, sa: 31, sd: 31 },
+              nature: 'Bold',
+              nn: 'iriv',
+              status: 'Healthy',
+              met: 'LITTLEROOT TOWN',
+              boxImportBatchId: batchId
+            }
+          },
+          fragCount: 2,
+          frags: [
+            'Poochyena (Lvl 23 Team Aqua Grunt Petalburg Woods )',
+            'Rhyhorn (Lvl 14 Leader Roxanne )'
+          ],
+          prevoFragCount: 0,
+          alive: true,
+          hide: false
+        },
+        'Empoleon-Mega-O': {
+          setData: {
+            'My Box': {
+              ability: "Emperor's Prescence",
+              ivs: { hp: 31, at: 31, df: 31, sp: 31, sa: 31, sd: 31 },
+              nature: 'Bold',
+              nn: 'iriv',
+              status: 'Healthy',
+              met: 'LITTLEROOT TOWN',
+              boxImportBatchId: batchId,
+              megaImportMode: 'auto',
+              megaBaseSpecies: 'Empoleon'
+            }
+          },
+          fragCount: 2,
+          frags: [
+            'Treecko (Lvl 5 Rival May Route 103 Mudkip )',
+            'Mudkip (Lvl 6 Rival May Route 103 Treecko )'
+          ],
+          prevoFragCount: 0,
+          alive: true,
+          hide: false
+        },
+        'Empoleon-Mega-D': {
+          setData: {
+            'My Box': {
+              ability: 'Lightning Rod',
+              ivs: { hp: 31, at: 31, df: 31, sp: 31, sa: 31, sd: 31 },
+              nature: 'Bold',
+              nn: 'iriv',
+              status: 'Healthy',
+              met: 'LITTLEROOT TOWN',
+              boxImportBatchId: batchId,
+              megaImportMode: 'auto',
+              megaBaseSpecies: 'Empoleon'
+            }
+          },
+          fragCount: 4,
+          frags: [
+            'Poochyena (Lvl 23 Team Aqua Grunt Petalburg Woods )',
+            'Torchic (Lvl 7 Rival May Route 103 Mudkip )'
+          ],
+          prevoFragCount: 0,
+          alive: true,
+          hide: false
+        }
+      }
+
+      cy.visit(calc.url.replace('index', 'frags'), {
+        onBeforeLoad(win) {
+          win.localStorage.clear()
+          win.localStorage.encounters = JSON.stringify(encounters)
+        }
+      })
+
+      cy.window().should('have.property', 'gridApi')
+      cy.window().then((win) => {
+        const displayedRows = []
+        for (let i = 0; i < win.gridApi.getDisplayedRowCount(); i++) {
+          displayedRows.push(win.gridApi.getDisplayedRowAtIndex(i).data)
+        }
+
+        const empoleonRow = displayedRows.find((row) => row.species === 'Empoleon')
+        const megaDRow = displayedRows.find((row) => row.species === 'Empoleon-Mega-D')
+        const megaORow = displayedRows.find((row) => row.species === 'Empoleon-Mega-O')
+
+        expect(empoleonRow).to.exist
+        expect(empoleonRow.fragCount).to.eq(5)
+        expect(empoleonRow.totalKo).to.eq(5)
+        expect(empoleonRow.frags).to.include('Mudkip (Lvl 6 Rival May Route 103 Treecko )')
+        expect(empoleonRow.frags).to.include('Torchic (Lvl 7 Rival May Route 103 Mudkip )')
+
+        expect(megaDRow).to.not.exist
+        expect(megaORow).to.not.exist
+        expect(win.gridApi.getDisplayedRowCount()).to.eq(1)
+      })
+
+      cy.get('.ag-center-cols-container .ag-row').first().click()
+      cy.contains('.fragged-note', 'Mega Evolved').should('exist')
+    })
   })
 
   // describe(`${calc.title} Fragsheet`, () => {
@@ -247,5 +352,3 @@ for (let calc of calcs) {
 
 
 // check to make sure every listed move exists
-
-

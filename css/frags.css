@@ -153,7 +153,8 @@ a:visited {
     display: flex;
     width: calc(100vw - 1335px);
     min-width: 300px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 10px;
     justify-content: space-between;
 }
 
@@ -182,13 +183,14 @@ a:visited {
 #import-sheet,
 #export-sheet,
 #reload-box-battlelog {
-    width: calc(33.33% - 17px);
+    width: auto;
+    min-width: 0;
+    flex: 1 1 0;
+    margin-bottom: 0;
 }
 
 #reload-box-battlelog {
-    width: auto;
-    min-width: 320px;
-    flex: 1 0 320px;
+    flex: 1.45 1 0;
 }
 
 #reset-sheet {
@@ -338,8 +340,8 @@ a:visited {
 }
 
 .frag-row {
+    display: block;
     justify-content: space-between;
-    line-height: 40px;
     font-size: 16px;
     border-bottom: 1px solid rgba(88,86,82,0.5);
     box-sizing: border-box;
@@ -358,17 +360,31 @@ a:visited {
 }
 
 .fragged-mons {
-    height: 50px;
+    min-height: 82px;
     display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
     width: 100%;
     align-items: center;
+    padding: 10px 12px;
+    box-sizing: border-box;
 }
 
 .fragged-mons img {
-    display: flex;
-    width: 60px;
-    max-width: calc(16% - 1px);
-    object-fit: cover;
+    display: block;
+    width: 72px;
+    height: 72px;
+    max-width: none;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.fragged-note {
+    color: #f39c12;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 0 12px 10px;
 }
 
 /*    .frag-row:nth-child(2n) {
@@ -414,6 +430,23 @@ a:visited {
     width: 32px;
     height: 32px;
     image-rendering: pixelated;
+}
+
+.fragsheet-grid-sprite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    line-height: 0;
+}
+
+.fragsheet-grid-sprite img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
 
 .progress-bar {
@@ -470,12 +503,12 @@ a:visited {
     }
 
     .fragged-mons {
-        height: 120px;
+        min-height: 96px;
     }
 
     .fragged-mons img {
-        width: 80px;
-        max-width: calc(16% - 1px);
+        width: 88px;
+        height: 88px;
     }
 }
 
@@ -758,6 +791,10 @@ a:visited {
     font-weight: 700;
     line-height: 1.1;
     color: #f1f1f1;
+}
+
+#frag-history .battle-log-split-section-header {
+    border-radius: 0;
 }
 
 .battle-session-header {
@@ -1159,19 +1196,20 @@ body.battle-log-mode #battle-log-fragsheet-panel {
     margin-bottom: 14px;
     justify-content: flex-start;
     gap: 12px;
+    flex-wrap: nowrap;
 }
 
 #fragsheet-shell #import-sheet,
 #fragsheet-shell #export-sheet,
 #fragsheet-shell #reload-box-battlelog {
     width: auto;
-    flex: 1 1 180px;
+    min-width: 0;
+    flex: 1 1 0;
     margin-bottom: 0;
 }
 
 #fragsheet-shell #reload-box-battlelog {
-    min-width: 320px;
-    flex: 1 0 320px;
+    flex: 1.45 1 0;
 }
 
 #fragsheet-shell #tabs,

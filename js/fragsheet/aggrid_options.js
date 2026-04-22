@@ -107,11 +107,11 @@ function setColumnDefs() {
         },
         {
             headerName: 'Img',
-            field: 'img',
+            field: 'species',
             width: 80,
             cellRenderer: (params) => {
               if (params.data.species) {
-                return `<img src="./img/pokesprite/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.’]/g, '')}.png" style="width: 60px; height: 60px; object-fit: cover;margin-top: 10px;" />`;
+                return `<span class="fragsheet-grid-sprite"><img src="./img/pokesprite/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.’]/g, '')}.png" alt="" /></span>`;
               }
               return '';
             },
@@ -123,6 +123,7 @@ function setColumnDefs() {
             width: 115,
             menuTabs: [],
             editable: true,
+            valueFormatter: (params) => getDisplayNickname(params.value, params.data && params.data.species),
             cellEditor: 'agTextCellEditor',
             onCellValueChanged: (event) => {
                 updateEncounter('nn', event.data.species, event.newValue);
@@ -300,36 +301,54 @@ function setColumnDefs() {
 function displayFragHistory(rowData) {
     let battleCount = 0
 
-
-
-    $('.frag-row').remove()
+    $('#split-1-container').empty()
     $('.split-container').hide()
     $('#stat-title').text(`${rowData.species}'s Battles`)
     for (let i = 0; i < 9; i++) {
         let container = $(`#split-1-container`)
         let fragList = rowData[`split${i}FragInfo`]
         let seenTrainers = {}
+        let hasRenderedSplitHeader = false
 
-        for (const frag of fragList) {
+        if (!fragList.length) {
+            continue
+        }
+
+        for (const fragEntry of fragList) {
+            let frag = getFragEntryValue(fragEntry)
             let trName = formatFragHistoryTrainerName(extractTrainerName(frag))
-            
+            let sourceSpeciesName = getFragEntrySourceSpecies(fragEntry)
+            let trainerKey = seenTrainers[trName]
+            let wasMegaEvolved = isMegaFragSourceForDisplay(sourceSpeciesName, rowData.species)
+
             let pokName = extractPokemonName(frag)
             let spritePath = `./img/pokesprite/${pokName.toLowerCase().replace(/[ :'.-]+/g, '-').replace(/^-|-glitched$|-$/g, '')}.png`
-            let typing = splitData[TITLE]["types"][i]
+            let fragMonHtml = `<img src="${spritePath}" alt="${pokName}">`
 
+            if (!hasRenderedSplitHeader) {
+                container.append(renderFragHistorySplitSectionHeader(splitTitles[i]))
+                hasRenderedSplitHeader = true
+            }
 
-            if (!seenTrainers[trName]) {
+            if (!trainerKey) {
+                trainerKey = `split-${i}-battle-${battleCount}`
                 let fragHTML = `<div class="frag-row">
-                                    <div class="fragged-tr ${typing}-type"><div class="tr-name">${trName}</div> <div class="tr-split">${splitTitles[i]} Split</div></div>
-                                    <div class="fragged-mons" data-tr="${trName}"><img src="${spritePath}"></div>
+                                    <div class="fragged-tr"><div class="tr-name">${escapeFragHistoryHtml(trName)}</div></div>
+                                    <div class="fragged-mons" data-frag-key="${trainerKey}">${fragMonHtml}</div>
                                 </div>`
 
                 container.append(fragHTML)
-                seenTrainers[trName] = true
+                seenTrainers[trName] = trainerKey
                 battleCount += 1
             } else {
-                let fragHTML = `<img src="${spritePath}">`
-                $(`[data-tr="${trName}"`).append(fragHTML)
+                $(`[data-frag-key="${trainerKey}"]`).append(fragMonHtml)
+            }
+
+            if (wasMegaEvolved) {
+                let fragRow = $(`[data-frag-key="${trainerKey}"]`).closest('.frag-row')
+                if (!fragRow.find('.fragged-note').length) {
+                    fragRow.append(`<div class="fragged-note">Mega Evolved</div>`)
+                }
             }
             $(container).show()
         }
@@ -339,11 +358,13 @@ function displayFragHistory(rowData) {
 }
 
 function extractLevel(str) {
+    str = getFragEntryValue(str)
     const match = str.match(/Lvl (\d+)/);
     return match ? parseInt(match[1]) : null;
 }
 
 function extractTrainerName(str) {
+    str = getFragEntryValue(str)
     // Find "Lvl " followed by numbers, then capture everything after it until the closing parenthesis
     const match = str.match(/Lvl \d+\s+(.+?)\s*\)/);
     return match ? match[1].trim() : null;
@@ -357,6 +378,7 @@ function formatFragHistoryTrainerName(name) {
 }
 
 function extractPokemonName(str) {
+    str = getFragEntryValue(str)
     // Match everything before the opening parenthesis and trim whitespace
     const match = str.match(/^(.+?)\s*\(/);
     return match ? match[1].trim() : null;
@@ -371,6 +393,19 @@ function toTitleCase(str) {
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
+}
+
+function getDisplayNickname(nicknameValue, speciesName) {
+    let nickname = String(nicknameValue || "").trim()
+    if (!nickname || nickname === ".") {
+        return ""
+    }
+
+    if (nickname.toLowerCase() === String(speciesName || "").toLowerCase()) {
+        return ""
+    }
+
+    return nickname
 }
 
 function findRowDataBySpecies(speciesName) {
@@ -437,6 +472,252 @@ function getSpeciesFamilyMembers(speciesName) {
         return chain
     }
     return speciesName ? [speciesName] : []
+}
+
+function getFragEntryValue(fragEntry) {
+    if (fragEntry && typeof fragEntry === "object") {
+        return String(fragEntry.value || "")
+    }
+
+    return String(fragEntry || "")
+}
+
+function getFragEntrySourceSpecies(fragEntry) {
+    if (!fragEntry || typeof fragEntry !== "object") {
+        return ""
+    }
+
+    return String(fragEntry.sourceSpecies || "")
+}
+
+function escapeFragHistoryHtml(value) {
+    return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;")
+}
+
+function getFragsheetMegaBaseSpecies(speciesName) {
+    if (typeof speciesName !== "string") {
+        return ""
+    }
+
+    let megaIndex = speciesName.indexOf("-Mega")
+    if (megaIndex === -1) {
+        return speciesName
+    }
+
+    return speciesName.slice(0, megaIndex)
+}
+
+function isMegaSpeciesForFragsheet(speciesName) {
+    return typeof speciesName === "string" && speciesName.includes("-Mega")
+}
+
+function isMegaFragSourceForDisplay(sourceSpeciesName, displayedSpeciesName) {
+    if (!isMegaSpeciesForFragsheet(sourceSpeciesName)) {
+        return false
+    }
+
+    let sourceBaseSpecies = getFragsheetMegaBaseSpecies(sourceSpeciesName)
+    return Boolean(sourceBaseSpecies && sourceBaseSpecies === displayedSpeciesName)
+}
+
+function slugifyFragHistorySplitLabel(label) {
+    return String(label || "")
+        .toLowerCase()
+        .replace(/&/g, "and")
+        .replace(/[^a-z0-9]+/g, "")
+        .trim()
+}
+
+function getFragHistorySplitHeaderSpriteCandidates(label) {
+    const rawLabel = String(label || "").trim()
+    if (!rawLabel) {
+        return []
+    }
+
+    const candidates = []
+    const seen = {}
+
+    function pushCandidate(value) {
+        const slug = slugifyFragHistorySplitLabel(value)
+        if (!slug || seen[slug]) {
+            return
+        }
+        seen[slug] = true
+        candidates.push(`./img/trainer_sprites/${slug}.png`)
+    }
+
+    pushCandidate(rawLabel)
+
+    if (rawLabel.includes("/")) {
+        pushCandidate(rawLabel.split("/")[0])
+    }
+
+    if (rawLabel.includes("&")) {
+        pushCandidate(rawLabel.split("&")[0])
+    }
+
+    return candidates
+}
+
+function renderFragHistorySplitSectionHeader(label) {
+    const splitLabel = String(label || "").trim()
+    const title = splitLabel ? `${splitLabel} Split` : "Split"
+    const lowerLabel = splitLabel.toLowerCase()
+    let spriteHtml = ""
+
+    if (lowerLabel.includes("tate") && lowerLabel.includes("liza")) {
+        spriteHtml = `
+            <div class="battle-log-split-section-img-pair">
+                <div class="battle-log-split-section-img-wrap">
+                    <img
+                        class="battle-log-split-section-img"
+                        src="./img/trainer_sprites/tate.png"
+                        alt=""
+                        data-fallback-sources=""
+                        onerror="window.handleBattleLogSplitHeaderImageError(this)"
+                    >
+                </div>
+                <div class="battle-log-split-section-img-wrap">
+                    <img
+                        class="battle-log-split-section-img"
+                        src="./img/trainer_sprites/liza.png"
+                        alt=""
+                        data-fallback-sources=""
+                        onerror="window.handleBattleLogSplitHeaderImageError(this)"
+                    >
+                </div>
+            </div>
+        `
+    } else {
+        const spriteCandidates = getFragHistorySplitHeaderSpriteCandidates(splitLabel)
+        const primarySprite = spriteCandidates[0] || ""
+        const fallbackSprites = spriteCandidates.slice(1).join("|")
+        spriteHtml = primarySprite
+            ? `
+                <div class="battle-log-split-section-img-wrap">
+                    <img
+                        class="battle-log-split-section-img"
+                        src="${escapeFragHistoryHtml(primarySprite)}"
+                        alt=""
+                        data-fallback-sources="${escapeFragHistoryHtml(fallbackSprites)}"
+                        onerror="window.handleBattleLogSplitHeaderImageError(this)"
+                    >
+                </div>
+            `
+            : ""
+    }
+
+    return `
+        <div class="battle-log-split-section-header">
+            ${spriteHtml}
+            <div class="battle-log-split-section-title">${escapeFragHistoryHtml(title)}</div>
+        </div>
+    `
+}
+
+function speciesExistsInBoxOrEncounters(speciesName, encounters, boxSets) {
+    return (
+        speciesExistsInEncounterMap(speciesName, encounters) ||
+        speciesExistsInCustomSets(speciesName, boxSets)
+    )
+}
+
+function getFragsheetDisplaySpecies(speciesName, encounters, boxSets) {
+    let resolved = resolveEvoEntry(speciesName)
+    if (!resolved) {
+        return speciesName
+    }
+
+    let evolutionChain = getEvolutionChain(speciesName)
+    let resolvedSpeciesName = resolved.resolvedSpeciesName
+    let sourceIndex = evolutionChain.indexOf(resolvedSpeciesName)
+    if (sourceIndex < 0) {
+        sourceIndex = evolutionChain.indexOf(speciesName)
+    }
+
+    if (sourceIndex < 0) {
+        return speciesName
+    }
+
+    if (isMegaSpeciesForFragsheet(speciesName)) {
+        for (let i = evolutionChain.length - 1; i >= 0; i--) {
+            let candidateSpecies = evolutionChain[i]
+            if (isMegaSpeciesForFragsheet(candidateSpecies)) {
+                continue
+            }
+            return candidateSpecies
+        }
+        return getFragsheetMegaBaseSpecies(speciesName) || speciesName
+    }
+
+    for (let i = evolutionChain.length - 1; i > sourceIndex; i--) {
+        let candidateSpecies = evolutionChain[i]
+        if (isMegaSpeciesForFragsheet(candidateSpecies)) {
+            continue
+        }
+
+        if (speciesExistsInBoxOrEncounters(candidateSpecies, encounters, boxSets)) {
+            return candidateSpecies
+        }
+    }
+
+    return resolvedSpeciesName || speciesName
+}
+
+function chooseFragsheetDisplaySetData(displaySpecies, sourceSpeciesList, encounters) {
+    let preferredSources = [displaySpecies].concat(sourceSpeciesList || [])
+    for (let i = 0; i < preferredSources.length; i++) {
+        let speciesName = preferredSources[i]
+        if (!encounters[speciesName] || !encounters[speciesName].setData || !encounters[speciesName].setData["My Box"]) {
+            continue
+        }
+        return encounters[speciesName].setData["My Box"]
+    }
+
+    return null
+}
+
+function mergeFragsForDisplaySpecies(displaySpecies, sourceSpeciesList, encounters) {
+    let mergedFrags = []
+    let fragSourceMap = {}
+    let orderedSources = Array.isArray(sourceSpeciesList) ? [...sourceSpeciesList] : []
+
+    // Prefer non-mega/base entries when the same frag string exists in multiple forme buckets.
+    orderedSources.sort(function(a, b) {
+        return Number(isMegaSpeciesForFragsheet(a)) - Number(isMegaSpeciesForFragsheet(b))
+    })
+
+    for (let i = 0; i < orderedSources.length; i++) {
+        let sourceSpecies = orderedSources[i]
+        let encounter = encounters[sourceSpecies]
+        if (!encounter || !Array.isArray(encounter.frags)) {
+            continue
+        }
+
+        for (let fragIndex = 0; fragIndex < encounter.frags.length; fragIndex++) {
+            let fragValue = encounter.frags[fragIndex]
+            if (typeof fragValue === "undefined") {
+                continue
+            }
+
+            if (typeof fragSourceMap[fragValue] === "undefined") {
+                fragSourceMap[fragValue] = {
+                    value: fragValue,
+                    sourceSpecies: sourceSpecies
+                }
+                mergedFrags.push(fragValue)
+            }
+        }
+    }
+
+    return mergedFrags.map(function(fragValue) {
+        return fragSourceMap[fragValue]
+    })
 }
 
 function safeParseStoredObject(rawValue) {
@@ -642,134 +923,107 @@ function createRowData() {
     deadCount = 0
     rowData = []
     let currentBoxSets = getStoredCustomSetsForSpeciesHelpers()
+    let displaySpeciesMap = {}
 
     for (enc in encounters) {
-        encRow = {}
+        let displaySpecies = getFragsheetDisplaySpecies(enc, encounters, currentBoxSets)
+        if (!displaySpeciesMap[displaySpecies]) {
+            displaySpeciesMap[displaySpecies] = []
+        }
+        displaySpeciesMap[displaySpecies].push(enc)
+    }
+
+    for (let displaySpecies in displaySpeciesMap) {
+        let sourceSpeciesList = displaySpeciesMap[displaySpecies]
+        let encounterForDisplaySpecies = encounters[displaySpecies] || encounters[sourceSpeciesList[0]] || {}
+        let setData = chooseFragsheetDisplaySetData(displaySpecies, sourceSpeciesList, encounters)
+        let mergedFragEntries = mergeFragsForDisplaySpecies(displaySpecies, sourceSpeciesList, encounters)
+        let encRow = {}
         encRow.totalKo = 0
+        encRow.species = displaySpecies
+        encRow.sourceSpecies = sourceSpeciesList
+        encRow.frags = mergedFragEntries.map(function(fragEntry) {
+            return fragEntry.value
+        })
+        encRow.fragCount = encRow.frags.length
 
-        let foundEvo = findAnyLaterEvolutionInBoxOrEncounters(enc, encounters, currentBoxSets)
-
-
-        // merge frags with prevos
-        let prevo = prevoData(enc, encounters)
-        let uniqFrags = [...new Set(encounters[enc].frags.concat(prevo[1]))].filter(item => item !== undefined);
-
-        encounters[enc].frags = uniqFrags
-        encounters[enc].fragCount = uniqFrags.length
-        encRow.frags = uniqFrags
-        encRow.fragCount = uniqFrags.length
-
-
-
-
-
-
-        if (foundEvo) {
-            continue
+        if (encounterForDisplaySpecies.alive) {
+            encRow.status = "Alive"
+            aliveCount++
+        } else {
+            encRow.status = "Dead"
+            deadCount++
         }
 
-       if (encounters[enc].alive) {
-        encRow.status = "Alive"
-        aliveCount++
-       } else {
-        encRow.status = "Dead"
-        deadCount++
-       }
-
-       let setData = encounters[enc].setData["My Box"]
-
-
-
-       if (typeof setData == "undefined" && enc.includes("Rotom-") && typeof encounters["Rotom"].setData != "undefined") {
-            setData = encounters["Rotom"].setData
-       } 
-
-       if (enc.includes("Greninja-") && typeof encounters["Greninja"].setData != "undefined") {
-            setData = encounters["Greninja"].setData
-       } 
-
-
-
-
-
-       
-       encRow.species = enc
-
-        if (typeof setData == "undefined") {
+        if (typeof setData == "undefined" || setData == null) {
             setData = {}
-            encRow.nickname = enc
+            encRow.nickname = ""
             encRow.encounterLocation = "Click to Edit"
             encRow.nature = "Unknown"
             encRow.ability = "Unknown"
         } else {
-            encRow.nickname = setData.nn || enc
+            encRow.nickname = getDisplayNickname(setData.nn, displaySpecies)
             encRow.encounterLocation = setData.met
             encRow.nature = setData.nature
             encRow.ability = setData.ability
         }
 
-       if (!setData.ivs) {
-           encRow.hp = 31
-           encRow.at = 31
-           encRow.df = 31
-           encRow.sa = 31
-           encRow.sd = 31
-           encRow.sp = 31
-       } else {
-           encRow.hp = setData.ivs.hp
-           encRow.at = setData.ivs.at
-           encRow.df = setData.ivs.df
-           encRow.sa = setData.ivs.sa
-           encRow.sd = setData.ivs.sd
-           encRow.sp = setData.ivs.sp 
-       }
-       
+        if (!setData.ivs) {
+            encRow.hp = 31
+            encRow.at = 31
+            encRow.df = 31
+            encRow.sa = 31
+            encRow.sd = 31
+            encRow.sp = 31
+        } else {
+            encRow.hp = setData.ivs.hp
+            encRow.at = setData.ivs.at
+            encRow.df = setData.ivs.df
+            encRow.sa = setData.ivs.sa
+            encRow.sd = setData.ivs.sd
+            encRow.sp = setData.ivs.sp
+        }
 
-       for (let i = 0; i < 9; i++) {
+        for (let i = 0; i < 9; i++) {
             encRow[`split${i}`] = 0
             encRow[`split${i}FragInfo`] = []
-       }
-       let totalKos = 0
-       let splitFound = false
+        }
 
-       let seenTrainers = {}
+        let seenTrainers = {}
 
-       for (const frag of encounters[enc].frags) {
-        let level = extractLevel(frag)
-        let trName = extractTrainerName(frag)
+        for (const fragEntry of mergedFragEntries) {
+            let frag = getFragEntryValue(fragEntry)
+            let level = extractLevel(frag)
+            let trName = extractTrainerName(frag)
 
+            globalSeenTrainers[trName] ||= true
+            seenTrainers[trName] ||= true
 
-        globalSeenTrainers[trName] ||= true
-        seenTrainers[trName] ||= true
+            for (index in lvlcaps) {
+                let minCap = 0
 
-        splitFound = false
+                if (index > 0) {
+                    minCap = lvlcaps[index - 1]
+                }
 
-        for( index in lvlcaps) {
-            let minCap = 0
-
-            if (index > 0) {
-                minCap = lvlcaps[index - 1]
-            }
-
-            if (level <= lvlcaps[index] && level > minCap && (activeSplit == "all" || activeSplit == "all-simple" || activeSplit == index)) {
-                encRow[`split${index}`] += 1
-                encRow[`split${index}FragInfo`].push(frag)
-                encRow.totalKo += 1
-                allKos += 1 
-                break
-            }  
-            if (index == 8 && level > minCap && (activeSplit == "all" || activeSplit == "all-simple" || activeSplit == 8)) {
-                encRow[`split8`] += 1
-                encRow[`split${index}FragInfo`].push(frag)
-                encRow.totalKo += 1
-                allKos += 1 
+                if (level <= lvlcaps[index] && level > minCap && (activeSplit == "all" || activeSplit == "all-simple" || activeSplit == index)) {
+                    encRow[`split${index}`] += 1
+                    encRow[`split${index}FragInfo`].push(fragEntry)
+                    encRow.totalKo += 1
+                    allKos += 1
+                    break
+                }
+                if (index == 8 && level > minCap && (activeSplit == "all" || activeSplit == "all-simple" || activeSplit == 8)) {
+                    encRow[`split8`] += 1
+                    encRow[`split${index}FragInfo`].push(fragEntry)
+                    encRow.totalKo += 1
+                    allKos += 1
+                }
             }
         }
-        
-        
-       }
-       encRow.battleCount = Object.keys(seenTrainers).length
-       rowData.push(encRow)
+
+        encRow.battleCount = Object.keys(seenTrainers).length
+        rowData.push(encRow)
     }
     rowData = rowData.sort((a, b) => b.totalKo - a.totalKo);
     for (rowIndex in rowData) {
