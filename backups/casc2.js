@@ -25021,8 +25021,8 @@ backup_data = {
         "hp": 55,
         "at": 65,
         "df": 95,
-        "sa": 80,
-        "sd": 65,
+        "sa": 85,
+        "sd": 75,
         "sp": 45
       },
       "learnset_info": {
@@ -57167,7 +57167,7 @@ backup_data = {
           ],
           [
             1,
-            "Helping Hand"
+            "Obstruct"
           ],
           [
             3,
@@ -57223,7 +57223,7 @@ backup_data = {
           ],
           [
             47,
-            "Obstruct"
+            "Detect"
           ],
           [
             53,
@@ -83220,7 +83220,7 @@ backup_data = {
           ],
           [
             42,
-            "Sandstorm"
+            "Protect"
           ],
           [
             45,
@@ -83312,7 +83312,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Obstruct"
+            "Sandstorm"
           ],
           [
             1,
@@ -83372,7 +83372,7 @@ backup_data = {
           ],
           [
             42,
-            "Sandstorm"
+            "Protect"
           ],
           [
             45,
@@ -92472,7 +92472,7 @@ backup_data = {
           ],
           [
             59,
-            "Obstruct"
+            "Spiky Shield"
           ],
           [
             63,
@@ -128436,7 +128436,7 @@ backup_data = {
           "Beat Up",
           "Pursuit",
           "Poison Fang",
-          "Glare"
+          "Sing"
         ],
         "sub_index": 4,
         "ability": "Intimidate",
@@ -145253,7 +145253,7 @@ backup_data = {
           "Aerial Ace",
           "Karate Chop",
           "Razor Leaf",
-          "Feather Dance"
+          "Roost"
         ],
         "sub_index": 3,
         "ability": "Rattled",
@@ -154567,7 +154567,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Big Root",
+        "item": "Bright Powder",
         "nature": "Bashful",
         "moves": [
           "Starburst",
@@ -171816,9 +171816,9 @@ backup_data = {
         "nature": "Naughty",
         "moves": [
           "Dive",
-          "Spirit Break",
-          "Ice Beam",
-          "Recover"
+          "Triple Axel",
+          "Heart Stamp",
+          "Dragon Dance"
         ],
         "sub_index": 4,
         "ability": "Majestic Ward",
@@ -172982,7 +172982,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Docile",
+        "nature": "Modest",
         "moves": [
           "Infernal Parade",
           "Smog",
@@ -175742,9 +175742,9 @@ backup_data = {
         "nature": "Docile",
         "moves": [
           "Brine",
-          "Pluck",
+          "Dual Wingbeat",
           "Icicle Spear",
-          "Metal Claw"
+          "Amnesia"
         ],
         "sub_index": 3,
         "ability": "Slush Rush",
@@ -175871,10 +175871,10 @@ backup_data = {
         "item": "None",
         "nature": "Bold",
         "moves": [
-          "Sparkle",
+          "Power Gem",
           "Incinerate",
-          "Disarming Voice",
-          "Mud Shot"
+          "Iron Defense",
+          "Disarming Voice"
         ],
         "sub_index": 2,
         "ability": "Chlorophyll",
@@ -181772,7 +181772,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Red Card",
-        "nature": "Lax",
+        "nature": "Timid",
         "moves": [
           "Seed Flare",
           "Focus Blast",
@@ -182278,8 +182278,8 @@ backup_data = {
         "moves": [
           "Thunder",
           "Leaf Storm",
-          "Volt Switch",
-          "Detect"
+          "Parting Shot",
+          "Hurricane"
         ],
         "sub_index": 0,
         "ability": "Adaptability",
@@ -191846,8 +191846,8 @@ backup_data = {
         "nature": "Modest",
         "moves": [
           "Infestation",
-          "Water Pulse",
-          "Power Gem",
+          "Heal Order",
+          "Ancient Power",
           "U-turn"
         ],
         "sub_index": 0,
@@ -192481,7 +192481,7 @@ backup_data = {
         "moves": [
           "Ancient Power",
           "Scald",
-          "Soak",
+          "Focus Energy",
           "Rock Smash"
         ],
         "sub_index": 1,
@@ -198007,7 +198007,7 @@ backup_data = {
         "moves": [
           "Infestation",
           "Whirlwind",
-          "Diamond Storm",
+          "Body Press",
           "U-turn"
         ],
         "sub_index": 2,
@@ -198097,13 +198097,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Tera Plate",
+        "item": "Tera Gem",
         "nature": "Naive",
         "moves": [
           "Ancient Power",
           "Seed Flare",
           "Air Slash",
-          "Protect"
+          "Calm Mind"
         ],
         "sub_index": 3,
         "ability": "Serene Grace",
@@ -198115,8 +198115,8 @@ backup_data = {
       }
     },
     "Virizion": {
-      "Lvl 65 Guardian of Unova Virizion - Clay Tunnel": {
-        "level": 65,
+      "Lvl 66 Guardian of Unova Virizion - Clay Tunnel": {
+        "level": 66,
         "ai": 15,
         "noCh": false,
         "tr_id": 507,
@@ -198135,7 +198135,7 @@ backup_data = {
         "moves": [
           "Leaf Blade",
           "Sacred Sword",
-          "Detect",
+          "Substitute",
           "Psyblade"
         ],
         "sub_index": 5,
@@ -198577,8 +198577,8 @@ backup_data = {
         "item": "Mascot Badge",
         "nature": "Adamant",
         "moves": [
-          "Leaf Storm",
-          "Ancient Power",
+          "Seed Bomb",
+          "Stone Edge",
           "Earthquake",
           "Shell Smash"
         ],
@@ -200030,7 +200030,7 @@ backup_data = {
         "moves": [
           "Bulldoze",
           "Bug Bite",
-          "Bite",
+          "Counter",
           "Aerial Ace"
         ],
         "sub_index": 2,
@@ -202735,5 +202735,4 @@ backup_data = {
       "prev": 355
     }
   }
-
 }
