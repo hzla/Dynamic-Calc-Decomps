@@ -276,6 +276,21 @@
                 }
             ]
         },
+        "royal-sapphire": {
+            id: "royal-sapphire",
+            title: "Royal Sapphire",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Royal Sapphire",
+            variants: [
+                {
+                    label: "Royal Sapphire",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=bb8579a3798fd63b429d&dmgGen=3&gen=8&switchIn=3&types=3",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "photonic-sun-prismatic-moon": {
             id: "photonic-sun-prismatic-moon",
             title: "Photonic Sun/Prismatic Moon",
@@ -604,6 +619,7 @@
                 "pitch-black-2",
                 "platinum-redux",
                 "radical-red",
+                "royal-sapphire",
                 "righteous-red",
                 "sterling-silver",
                 "unbound",
