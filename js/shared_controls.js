@@ -958,13 +958,13 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 
 	
 
+	syncItemEffectToggle($(moveObj).closest('.poke-info'));
 }
 
 
 // auto-update move details on select
 $(".move-selector").change(function () {
 	showMoveExtras(this)
-	syncItemEffectToggle($(this).closest('.poke-info'));
 });
 
 
@@ -972,7 +972,10 @@ var lastItem = {p1: "(none)", p2: "(none)"};
 
 function pokeHasMoveNamed(pokeInfo, moveName) {
 	for (var i = 1; i <= 4; i++) {
-		if (pokeInfo.find('.move' + i + ' .move-selector').val() === moveName) {
+		var $moveField = pokeInfo.find('.move' + i + ' .move-selector');
+		var selectedValue = String($moveField.val() || '').trim();
+		var selectedText = String($moveField.parent().find('.select2-chosen').text() || '').trim();
+		if (selectedValue === moveName || selectedText === moveName) {
 			return true;
 		}
 	}
