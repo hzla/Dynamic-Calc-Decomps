@@ -41,6 +41,7 @@ var Pokemon = (function () {
         this.gender = options.gender || this.species.gender || 'M';
         this.ability = options.ability || ((_b = this.species.abilities) === null || _b === void 0 ? void 0 : _b[0]) || undefined;
         this.abilityOn = !!options.abilityOn;
+        this.itemOn = options.itemOn !== false;
         // this.isDynamaxed = !!options.isDynamaxed;
         // this.dynamaxLevel = this.isDynamaxed
         //     ? (options.dynamaxLevel === undefined ? 10 : options.dynamaxLevel) : undefined;
@@ -48,7 +49,7 @@ var Pokemon = (function () {
         this.alliesFainted = options.alliesFainted;
         this.boostedStat = options.boostedStat;
         // this.teraType = options.teraType;
-        this.item = options.item;
+        this.item = this.itemOn ? options.item : '';
         this.nature = options.nature || 'Serious';
         this.ivs = Pokemon.withDefault(gen, options.ivs, 31);
         this.evs = Pokemon.withDefault(gen, options.evs, gen.num >= 3 ? 0 : 252);
@@ -229,6 +230,7 @@ var Pokemon = (function () {
             level: this.level,
             ability: this.ability,
             abilityOn: this.abilityOn,
+            itemOn: this.itemOn,
             isDynamaxed: this.isDynamaxed,
             dynamaxLevel: this.dynamaxLevel,
             isSaltCure: this.isSaltCure,

@@ -443,6 +443,10 @@ function calculateDPP(gen, attacker, defender, move, field) {
             }
             desc.attackerItem = attacker.item;
         }
+        else if (isPhysical && attacker.hasItem('Berserk Gene')) {
+            attack = Math.floor(attack * 1.5);
+            desc.attackerItem = attacker.item;
+        }
         else if ((attacker.hasItem('Light Ball') && attacker.named('Pikachu')) ||
             (attacker.hasItem('Thick Club') && attacker.named('Cubone', 'Marowak') && isPhysical) ||
             (attacker.hasItem('Deep Sea Tooth') && attacker.named('Clamperl') && !isPhysical)) {

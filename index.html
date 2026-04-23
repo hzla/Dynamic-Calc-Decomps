@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?68987c81" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?9e1a49ae" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?86d43b1a" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
@@ -768,7 +768,7 @@
                         <option value="Quirky">Quirky</option>
                     </select>
                 </div>
-                <div class="gen-specific g3 g4 g5 g6 g7 g8">
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 inline-toggle-field">
                     <label for="abilityL1">Ability</label>
                     <select class="ability terrain-trigger calc-trigger" id="abilityL1"></select>
                     <input hidden type="checkbox" title= "Is this ability active?" class="abilityToggle calc-trigger">
@@ -790,9 +790,10 @@
                         <option value="spe">Speed</option>
                     </select>
                 </div>
-                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8">
+                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8 inline-toggle-field">
                     <label for="itemL1">Item</label>
                     <select class="item terrain-trigger calc-trigger" id="itemL1"></select>
+                    <input hidden type="checkbox" title="Is this item currently held/active?" class="itemToggle calc-trigger" checked>
                 </div>
                 <div>
                     <label for="statusL1">Status</label>
@@ -1897,7 +1898,7 @@
                         <option value="Timid">Timid (+Spe, -Atk)</option>
                     </select>
                 </div>
-                <div class="gen-specific g3 g4 g5 g6 g7 g8">
+                <div class="gen-specific g3 g4 g5 g6 g7 g8 inline-toggle-field">
                     <label for="abilityR1">Ability</label>
                     <select class="ability terrain-trigger calc-trigger" id="abilityR1"></select>
                     <input hidden type="checkbox" title= "Is this ability active?" class="abilityToggle calc-trigger">
@@ -1919,9 +1920,10 @@
                         <option value="spe">Speed</option>
                     </select>
                 </div>
-                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8">
+                <div class="gen-specific g2 g3 g4 g5 g6 g7 g8 inline-toggle-field">
                     <label for="itemR1">Item</label>
                     <select class="item terrain-trigger calc-trigger" id="itemR1"></select>
+                    <input hidden type="checkbox" title="Is this item currently held/active?" class="itemToggle calc-trigger" checked>
                 </div>
                 <div>
                     <label for="statusR1">Status</label>
@@ -2322,7 +2324,7 @@
 
     <script type="text/javascript" src="./calc/move.js?de87e36e"></script>
     
-    <script type="text/javascript" src="./calc/pokemon.js?59377ee6"></script>
+    <script type="text/javascript" src="./calc/pokemon.js?3c3541d7"></script>
     <script type="text/javascript" src="./calc/field.js?acbd6284"></script>
     <script type="text/javascript" src="./calc/items.js?f4fa1207"></script>
     <script type="text/javascript" src="./calc/mechanics/util.js?026ec5a8"></script>
@@ -2334,7 +2336,7 @@
     <script type="text/javascript" src="./calc/mechanics/vanilla/gen789.js?246cd4f1"></script>
 
     <script type="text/javascript" src="./calc/mechanics/gen56.js?f9532fec"></script>
-    <script type="text/javascript" src="./calc/mechanics/gen4.js?80ce891d"></script>
+    <script type="text/javascript" src="./calc/mechanics/gen4.js?9513650f"></script>
     <script type="text/javascript" src="./calc/mechanics/gen3.js?6534702c"></script>
     <script type="text/javascript" src="./calc/mechanics/gen12.js?468bc07c"></script>
     <script type="text/javascript" src="./calc/calc.js?d7fc4fbd"></script>
@@ -2342,7 +2344,7 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?efcedc8e"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?aba60d17"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?d13d4073"></script>
     <script type="text/javascript" src="./js/moveset_import.js?d879a33a"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>

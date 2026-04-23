@@ -2964,6 +2964,21 @@ table td {
     width: 100%;
 }
 
+.info-group.info-selectors .inline-toggle-field {
+    position: relative;
+    overflow: visible;
+}
+
+.info-group.info-selectors .inline-toggle-field .abilityToggle,
+.info-group.info-selectors .inline-toggle-field .itemToggle {
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    z-index: 1;
+}
+
 .info-group.info-selectors label {
     display: none;
 }
@@ -3858,6 +3873,19 @@ table.field {
 
   .info-group.info-selectors > div{
     display: flex;
+  }
+
+  .info-group.info-selectors .inline-toggle-field {
+    display: flex;
+    overflow: visible;
+  }
+
+  .info-group.info-selectors .inline-toggle-field .abilityToggle,
+  .info-group.info-selectors .inline-toggle-field .itemToggle {
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .info-group.info-selectors label {

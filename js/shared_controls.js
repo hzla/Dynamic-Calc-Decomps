@@ -86,6 +86,27 @@ var STATUS_ALIAS_MAP = {
 	'slp': 'Asleep'
 };
 
+var DAMAGE_RESIST_BERRIES = [
+	'Babiri Berry',
+	'Charti Berry',
+	'Chilan Berry',
+	'Chople Berry',
+	'Coba Berry',
+	'Colbur Berry',
+	'Haban Berry',
+	'Kasib Berry',
+	'Kebia Berry',
+	'Occa Berry',
+	'Passho Berry',
+	'Payapa Berry',
+	'Rindo Berry',
+	'Roseli Berry',
+	'Shuca Berry',
+	'Tanga Berry',
+	'Wacan Berry',
+	'Yache Berry'
+];
+
 var lastOpposingTrainerIdentity = null;
 
 function normalizeStoredStatus(statusValue) {
@@ -943,10 +964,49 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 // auto-update move details on select
 $(".move-selector").change(function () {
 	showMoveExtras(this)
+	syncItemEffectToggle($(this).closest('.poke-info'));
 });
 
 
 var lastItem = {p1: "(none)", p2: "(none)"};
+
+function pokeHasMoveNamed(pokeInfo, moveName) {
+	for (var i = 1; i <= 4; i++) {
+		if (pokeInfo.find('.move' + i + ' .move-selector').val() === moveName) {
+			return true;
+		}
+	}
+	return false;
+}
+
+function isConsumableDamageItem(itemName) {
+	return !!itemName && (
+		itemName === 'Berserk Gene' ||
+		itemName.slice(-4) === ' Gem' ||
+		DAMAGE_RESIST_BERRIES.indexOf(itemName) !== -1
+	);
+}
+
+function syncItemEffectToggle(pokeInfo, resetChecked) {
+	var $pokeInfo = $(pokeInfo);
+	var $itemToggle = $pokeInfo.find('.itemToggle');
+	if (!$itemToggle.length) {
+		return;
+	}
+
+	var itemName = $pokeInfo.find('.item').val();
+	var shouldShow = pokeHasMoveNamed($pokeInfo, 'Acrobatics') || isConsumableDamageItem(itemName);
+	var wasVisible = $itemToggle.is(':visible');
+
+	if (shouldShow) {
+		if (resetChecked || !wasVisible) {
+			$itemToggle.prop('checked', !!itemName);
+		}
+		$itemToggle.show();
+	} else {
+		$itemToggle.prop('checked', true).hide();
+	}
+}
 
 function showItemExtras(itemObj) {
 	var itemName = $(itemObj).val();
@@ -1023,11 +1083,17 @@ function syncItemState(itemObj) {
 	}
 
 	autosetQP(pokeObj);
+	syncItemEffectToggle(pokeObj, true);
 	lastItem[pokeObj.attr('id')] = itemName;
 }
 
 $(".item").change(function () {
 	syncItemState(this);
+});
+
+$(document).ready(function () {
+	syncItemEffectToggle($('#p1'));
+	syncItemEffectToggle($('#p2'));
 });
 
 function smogonAnalysis(pokemonName) {
@@ -2246,7 +2312,9 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		if (gen === 1) baseStats.spd = baseStats.spa;
 
 		var ability = pokeInfo.find(".ability").val();
-		var item = pokeInfo.find(".item").val();
+		var rawItem = pokeInfo.find(".item").val();
+		var itemOn = !pokeInfo.find(".itemToggle").is(":visible") || pokeInfo.find(".itemToggle").is(":checked");
+		var item = itemOn ? rawItem : '';
 		var isDynamaxed = pokeInfo.find(".max").prop("checked");
 		pokeInfo.isDynamaxed = isDynamaxed;
 		calcHP(pokeInfo);
@@ -2269,6 +2337,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			ability: ability,
 			abilityOn: pokeInfo.find(".abilityToggle").is(":checked"),
 			item: item,
+			itemOn: itemOn,
 			gender: pokeInfo.find(".gender").is(":visible") ? getGender(pokeInfo.find(".gender").val()) : "N",
 			nature: pokeInfo.find(".nature").val(),
 			ivs: ivs,
