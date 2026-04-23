@@ -38,7 +38,8 @@ backupFiles = {
 	"Pokemon Null 1.1": "null",
 	"Platinum Kaizo": "pkv5h",
 	"Platinum Kaizo v4": "pk",
-	"Navy Sapphire": "navy"
+	"Navy Sapphire": "navy",
+	"Rigorous Red": "rigred"
 }
 
 sourceTitleAliases = {

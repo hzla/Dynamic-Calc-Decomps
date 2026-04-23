@@ -461,6 +461,21 @@
                 }
             ]
         },
+        "rigorous-red": {
+            id: "rigorous-red",
+            title: "Rigorous Red",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Rigorous Red",
+            variants: [
+                {
+                    label: "Rigorous Red",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=e3f8f8f3adf1aef7c139&dmgGen=3&gen=8&types=3",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "sacred-gold-storm-silver": {
             id: "sacred-gold-storm-silver",
             title: "Sacred Gold/Storm Silver",
@@ -627,7 +642,8 @@
                 "righteous-red",
                 "sterling-silver",
                 "unbound",
-                "vintage-white-plus"
+                "vintage-white-plus",
+                "rigorous-red"
             ]
         }
     ];

@@ -290,7 +290,7 @@ function setGameSettings(title) {
     showDex = false
     showAI = false
     $('label[for="snow"]').hide()
-  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire") {
+  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire" || TITLE == "Rigorous Red") {
     gameGen = 3
     settings.gameSwitchIn = 3; 
     settings.switchIn = 3
