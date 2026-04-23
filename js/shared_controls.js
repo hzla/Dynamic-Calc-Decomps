@@ -959,6 +959,12 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	
 
 	syncItemEffectToggle($(moveObj).closest('.poke-info'));
+	var currentSide = $(moveObj).closest('.poke-info').attr('id');
+	if (currentSide === 'p1') {
+		syncItemEffectToggle($('#p2'));
+	} else if (currentSide === 'p2') {
+		syncItemEffectToggle($('#p1'));
+	}
 }
 
 
@@ -982,6 +988,17 @@ function pokeHasMoveNamed(pokeInfo, moveName) {
 	return false;
 }
 
+function getOpposingPokeInfo(pokeInfo) {
+	var currentId = $(pokeInfo).attr('id');
+	if (currentId === 'p1') {
+		return $('#p2');
+	}
+	if (currentId === 'p2') {
+		return $('#p1');
+	}
+	return $();
+}
+
 function isConsumableDamageItem(itemName) {
 	return !!itemName && (
 		itemName === 'Berserk Gene' ||
@@ -998,7 +1015,11 @@ function syncItemEffectToggle(pokeInfo, resetChecked) {
 	}
 
 	var itemName = $pokeInfo.find('.item').val();
-	var shouldShow = pokeHasMoveNamed($pokeInfo, 'Acrobatics') || isConsumableDamageItem(itemName);
+	var opposingPokeInfo = getOpposingPokeInfo($pokeInfo);
+	var shouldShow =
+		pokeHasMoveNamed($pokeInfo, 'Acrobatics') ||
+		isConsumableDamageItem(itemName) ||
+		(!!itemName && opposingPokeInfo.length && pokeHasMoveNamed(opposingPokeInfo, 'Knock Off'));
 	var wasVisible = $itemToggle.is(':visible');
 
 	if (shouldShow) {

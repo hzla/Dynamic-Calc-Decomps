@@ -561,7 +561,11 @@
                 "renegade-platinum",
                 "emerald-imperium-1-3",
                 "platinum-kaizo",
-                "pokemon-null"
+                "pokemon-null",
+                "ancestral-x",
+                "sterling-silver",
+                "blaze-black-2",
+                "vintage-white-plus"
             ]
         },
         {
@@ -573,7 +577,6 @@
                 "sacred-gold-storm-silver",
                 "blaze-black",
                 "blaze-black-2",
-                "blinding-white-2",
                 "rising-ruby-sinking-sapphire"
             ]
         },
@@ -612,6 +615,7 @@
             sortGames: "alphabetical",
             gameIds: [
                 "ancestral-x",
+                "blinding-white-2",
                 "cascade-white",
                 "luminescent-platinum",
                 "maximum-platinum",
