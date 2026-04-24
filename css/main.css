@@ -878,6 +878,13 @@ input[type="file"] {
     transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
 }
 
+.romhack-browser-game-featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
 .romhack-browser-game-single:hover,
 .romhack-browser-game-single:focus {
     background: rgba(187, 134, 252, 0.12);
@@ -896,6 +903,22 @@ input[type="file"] {
     font-size: 18px;
     line-height: 1.25;
     color: #f1f1f1;
+}
+
+.romhack-browser-boxart {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.28);
+}
+
+.romhack-browser-game-featured .romhack-browser-game-title {
+    margin: 0;
+    text-align: center;
+    width: 100%;
 }
 
 .romhack-browser-game-single .romhack-browser-game-title {
@@ -924,6 +947,7 @@ input[type="file"] {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
 
 .romhack-browser-link {
@@ -953,6 +977,28 @@ input[type="file"] {
     background: rgba(187, 134, 252, 0.22);
     border-color: rgba(187, 134, 252, 0.78);
     transform: translateY(0);
+}
+
+.romhack-browser-footer {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.romhack-browser-footer-title {
+    margin: 0 0 6px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(241, 241, 241, 0.78);
+}
+
+.romhack-browser-footer-text {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgba(241, 241, 241, 0.68);
 }
 
 #main-view-tabs {

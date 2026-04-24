@@ -3,7 +3,7 @@
         "ancestral-x": {
             id: "ancestral-x",
             title: "Ancestral X",
-            coverImage: "",
+            coverImage: "./img/boxart/ancestralx.jpg",
             description: "",
             sourceTitle: "Ancestral X",
             variants: [
@@ -33,30 +33,24 @@
         "blaze-black-2": {
             id: "blaze-black-2",
             title: "Blaze Black 2",
-            coverImage: "",
+            coverImage: "./img/boxart/blazeblack2redux.webp",
             description: "",
-            sourceTitle: "Blaze Black 2/Volt White 2 Original",
+            sourceTitle: "Blaze Black 2/Volt White 2",
             variants: [
                 {
-                    label: "Blaze Black 2 Original",
+                    label: "Original",
                     source: "https://hzla.github.io/Dynamic-Calc/?data=04770c9a89687b02a9f5&gen=8&types=5",
                     coverImage: "",
                     description: ""
                 },
                 {
-                    label: "Blaze Black 2 Redux Challenge Mode",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=11c4eeca5a94f8edf413&gen=8&challengeMode=true&types=6",
-                    coverImage: "",
-                    description: ""
-                },
-                {
-                    label: "Blaze Black 2 Redux 1.4",
+                    label: "Redux",
                     source: "https://hzla.github.io/Dynamic-Calc/?data=945a33720dbd6bc04488&gen=8&types=6",
                     coverImage: "",
                     description: ""
                 },
                 {
-                    label: "Blaze Black 2 Redux Challenge Mode 1.4",
+                    label: "Redux CM",
                     source: "https://hzla.github.io/Dynamic-Calc/?data=945a33720dbd6bc04488&gen=8&challengeMode=true&types=6",
                     coverImage: "",
                     description: ""
@@ -116,19 +110,19 @@
         },
         "emerald-imperium-1-3": {
             id: "emerald-imperium-1-3",
-            title: "Emerald Imperium 1.3",
-            coverImage: "",
+            title: "Emerald Imperium",
+            coverImage: "./img/boxart/emeraldimperium.webp",
             description: "",
             sourceTitle: "Emerald Imperium 1.3",
             variants: [
                 {
-                    label: "Emerald Imperium 1.3 No EVs",
+                    label: "No EVs",
                     source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=imp13&dmgGen=8&gen=8&types=6&noSwitch=1&evs=0",
                     coverImage: "",
                     description: ""
                 },
                 {
-                    label: "Emerald Imperium 1.3 w/ EVs",
+                    label: "w/ EVs",
                     source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=imp13&dmgGen=8&gen=8&types=6&noSwitch=1&evs=1",
                     coverImage: "",
                     description: ""
@@ -339,7 +333,7 @@
         "platinum-kaizo": {
             id: "platinum-kaizo",
             title: "Platinum Kaizo",
-            coverImage: "",
+            coverImage: "./img/boxart/platinumkaizo.png",
             description: "",
             sourceTitle: "Platinum Kaizo",
             variants: [
@@ -369,19 +363,19 @@
         "pokemon-null": {
             id: "pokemon-null",
             title: "Pokemon Null",
-            coverImage: "",
+            coverImage: "./img/boxart/pokemonnull.png",
             description: "",
             sourceTitle: "Pokemon Null",
             variants: [
                 {
-                    label: "Pokemon Null 1.2",
+                    label: "1.2",
                     source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=null",
                     sourceTitle: "Pokemon Null 1.2",
                     coverImage: "",
                     description: ""
                 },
                 {
-                    label: "Pokemon Null 1.1",
+                    label: "1.1",
                     source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=null11",
                     sourceTitle: "Pokemon Null 1.1",
                     coverImage: "",
@@ -419,7 +413,7 @@
         "renegade-platinum": {
             id: "renegade-platinum",
             title: "Renegade Platinum",
-            coverImage: "",
+            coverImage: "./img/boxart/renegadeplatinum.webp",
             description: "",
             sourceTitle: "Renegade Platinum",
             variants: [
@@ -494,7 +488,7 @@
         "sterling-silver": {
             id: "sterling-silver",
             title: "Sterling Silver",
-            coverImage: "",
+            coverImage: "./img/boxart/sterlingsilver.png",
             description: "",
             sourceTitle: "Sterling Silver 1.17",
             variants: [
@@ -524,7 +518,7 @@
         "vintage-white-plus": {
             id: "vintage-white-plus",
             title: "Vintage White Plus",
-            coverImage: "",
+            coverImage: "./img/boxart/vintagewhite.png",
             description: "",
             sourceTitle: "Vintage White Plus",
             variants: [

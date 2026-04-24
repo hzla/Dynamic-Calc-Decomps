@@ -10,6 +10,15 @@
     }
 
     let lastFocusedElement = null;
+    let hasRenderedCatalog = false;
+    const boxArtCredits = [
+        { artist: "chrisvulpine", game: "Platinum Kaizo" },
+        { artist: "Reamed", game: "Renegade Platinum" },
+        { artist: "Toxic_The_Big_Nibba", game: "Emerald Imperium" },
+        { artist: "SoggyBreadloaf069", game: "Pokemon Null" },
+        { artist: "Ara1705", game: "Blaze Black 2 Redux" },
+        { artist: "viperinfinity", game: "Ancestral X" }
+    ];
 
     function getSectionGames(section) {
         const gameIds = Array.isArray(section.gameIds) ? section.gameIds : [];
@@ -32,15 +41,26 @@
         return link;
     }
 
-    function renderGameCard(game) {
+    function renderGameCard(game, section) {
         const variants = Array.isArray(game.variants) ? game.variants : [];
         const isSingleVariant = variants.length === 1;
+        const isFeaturedSection = section && section.id === "featured";
+        const hasBoxArt = isFeaturedSection && Boolean(game.coverImage);
         const cardTag = isSingleVariant ? "a" : "article";
         const card = document.createElement(cardTag);
-        card.className = `romhack-browser-game${isSingleVariant ? " romhack-browser-game-single romhack-browser-action" : ""}`;
+        card.className = `romhack-browser-game${isSingleVariant ? " romhack-browser-game-single romhack-browser-action" : ""}${hasBoxArt ? " romhack-browser-game-featured" : ""}`;
 
         if (isSingleVariant) {
             card.href = variants[0].source;
+        }
+
+        if (hasBoxArt) {
+            const image = document.createElement("img");
+            image.className = "romhack-browser-boxart";
+            image.src = game.coverImage;
+            image.alt = `${game.title} box art`;
+            image.loading = "lazy";
+            card.appendChild(image);
         }
 
         const title = document.createElement("h3");
@@ -65,6 +85,7 @@
     function renderSection(section) {
         const sectionEl = document.createElement("section");
         sectionEl.className = "romhack-browser-section";
+        sectionEl.dataset.sectionId = section.id || "";
 
         const heading = document.createElement("h2");
         heading.className = "romhack-browser-section-title";
@@ -74,11 +95,28 @@
         const grid = document.createElement("div");
         grid.className = "romhack-browser-grid";
         getSectionGames(section).forEach((game) => {
-            grid.appendChild(renderGameCard(game));
+            grid.appendChild(renderGameCard(game, section));
         });
 
         sectionEl.appendChild(grid);
         return sectionEl;
+    }
+
+    function renderCreditsFooter() {
+        const footer = document.createElement("footer");
+        footer.className = "romhack-browser-footer";
+
+        const heading = document.createElement("p");
+        heading.className = "romhack-browser-footer-title";
+        heading.textContent = "Box art credits";
+        footer.appendChild(heading);
+
+        const list = document.createElement("p");
+        list.className = "romhack-browser-footer-text";
+        list.textContent = boxArtCredits.map((credit) => `${credit.artist} (${credit.game})`).join(" • ");
+        footer.appendChild(list);
+
+        return footer;
     }
 
     function renderCatalog() {
@@ -86,6 +124,8 @@
         catalog.sections.forEach((section) => {
             content.appendChild(renderSection(section));
         });
+        content.appendChild(renderCreditsFooter());
+        hasRenderedCatalog = true;
     }
 
     function closeModal() {
@@ -98,6 +138,9 @@
 
     function openModal() {
         lastFocusedElement = document.activeElement;
+        if (!hasRenderedCatalog) {
+            renderCatalog();
+        }
         modal.hidden = false;
         document.body.classList.add("romhack-browser-open");
         const firstLink = modal.querySelector(".romhack-browser-action");
@@ -105,8 +148,6 @@
             firstLink.focus();
         }
     }
-
-    renderCatalog();
 
     trigger.addEventListener("click", openModal);
     modal.addEventListener("click", function (event) {

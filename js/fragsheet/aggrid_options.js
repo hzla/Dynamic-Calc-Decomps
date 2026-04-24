@@ -1,5 +1,6 @@
 params = new URLSearchParams(window.location.search);
 let fragsheetGridInitialized = false;
+let globalSeenTrainers = {};
 SOURCES = window.romhackSourceTitles || {}
 
 function initializeSplits() {
@@ -969,6 +970,7 @@ function createRowData() {
     aliveCount = 0
     deadCount = 0
     rowData = []
+    globalSeenTrainers = {}
     let currentBoxSets = getStoredCustomSetsForSpeciesHelpers()
     let displaySpeciesMap = {}
 
