@@ -203,7 +203,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
     return Math.max(0, speed);
 }
 exports.getFinalSpeed = getFinalSpeed;
-function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRingTarget, isBoneZone, isCorrosion, isDarkRevealed=false) {
+function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRingTarget, isBoneZone, isCorrosion, isDarkRevealed=false, profile, ctx) {
     if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
         return 1;
     }
@@ -250,38 +250,17 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
         //     }
         //     return inverted_dmg;
         // }
-        if (TITLE.includes("Cascade")) {
-            if ( ($('#abilityL1') == "Corrosion" || $('#abilityL2') == "Corrosion") && type == "Steel" && move.type == "Poison") {
-                return 2
-            }
-            if (FIELD_EFFECTS["chargestone"]) {
-                if (type == "Ground" && move.type == "Electric") {
-                    return 0.5
+        if (profile && profile.hooks && profile.hooks.typeEffectiveness && profile.hooks.typeEffectiveness.length) {
+            var hookCtx = ctx || {};
+            hookCtx.gen = hookCtx.gen || gen;
+            hookCtx.move = hookCtx.move || move;
+            hookCtx.state = hookCtx.state || {};
+            hookCtx.state.effectivenessType = type;
+            for (var i = 0; i < profile.hooks.typeEffectiveness.length; i++) {
+                var next = profile.hooks.typeEffectiveness[i](hookCtx, effectiveness);
+                if (next !== undefined) {
+                    effectiveness = next;
                 }
-            } else if (FIELD_EFFECTS["celestial"]) {
-                if (type == "Normal" && move.type == "Ghost") {
-                    return 0.5
-                } 
-
-                if (type == "Dark" && move.type == "Psychic") {
-                    return 0.5
-                } 
-            } else if (FIELD_EFFECTS["opelucid"]) {
-                if (type == "Fairy" && move.type == "Dragon") {
-                    return 0.5
-                } 
-
-                if (type == "Ghost" && move.type == "Fighting") {
-                    return 0.5
-                }
-            }
-            if (move.named("Sky Uppercut") && type === "Flying") {
-
-                return 2;
-            } else if (move.named("Sacred Sword", "Relic Song") && type == "Ghost") {
-                return 1;
-            } else if (move.named("Chip Away")) {
-                return 1;
             }
         }
         

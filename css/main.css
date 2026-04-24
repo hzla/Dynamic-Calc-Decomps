@@ -1784,7 +1784,7 @@ input {
 
 #tooltip {
     font-size: 12px;
-    text-align: center;
+    text-align: left;
     margin: 10px;
 }
 
@@ -2322,7 +2322,7 @@ table td {
 }
 .trainer-preview-label,
 .trainer-preview-separator {
-    width: calc(100% - 10px);
+    width: calc(100% - 20px);
     margin: 8px 0 4px 10px;
     color: rgba(255,255,255,0.8);
     font-size: 12px;
@@ -2359,7 +2359,7 @@ table td {
     border: 1px solid rgba(255,255,255,0.25);
     background: rgba(255,255,255,0.08);
     color: #fff;
-    border-radius: 999px;
+    border-radius: 2;
     padding: 2px 10px;
     font-size: 11px;
     line-height: 18px;

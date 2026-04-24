@@ -5,11 +5,26 @@ var util_1 = require("../util");
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_2 = require("./util");
+var romhacks_1 = require("./romhacks");
+var romhack_helpers_1 = require("./romhacks/helpers");
 
 
 
 function calculateBWXY(gen, attacker, defender, move, field) {
     var _a;
+    var title = typeof TITLE === "string" ? TITLE : "";
+    var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
+    var ctx = {
+        gen: gen,
+        attacker: attacker,
+        defender: defender,
+        move: move,
+        field: field,
+        title: title,
+        desc: null,
+        util: util_2,
+        state: {}
+    };
     (0, util_2.checkAirLock)(attacker, field);
     (0, util_2.checkAirLock)(defender, field);
     (0, util_2.checkForecast)(attacker, field.weather);
@@ -20,10 +35,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     (0, util_2.checkRawStatChanges)(defender, field.defenderSide.isPowerTrick, field.isWonderRoom);
     (0, util_2.checkSeedBoost)(attacker, field);
     (0, util_2.checkSeedBoost)(defender, field);
-    if (TITLE.includes("Cascade")) {
-        (0, util_2.checkCascItems)(attacker);
-        (0, util_2.checkCascItems)(defender);
-    }
+    (0, romhack_helpers_1.runHooks)(profile, "beforeStats", ctx);
     (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
     (0, util_2.checkIntimidate)(gen, attacker, defender);
     (0, util_2.checkIntimidate)(gen, defender, attacker);
@@ -38,6 +50,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         defenderName: defender.name,
         isWonderRoom: field.isWonderRoom
     };
+    ctx.desc = desc;
 
     var isAttackerTera = attacker.item.startsWith("Tera ")
     var isDefenderTera = defender.item.startsWith("Tera ")
@@ -86,9 +99,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                         : field.hasWeather('Hail') ? 'Ice'
                             : 'Normal';
 
-        if ((defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE.includes("Cascade")) {
-            move.type = "Normal"
-        }
         desc.weather = field.weather;
         desc.moveType = move.type;
     }
@@ -122,6 +132,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         field.defenderSide.isReflect = false;
         field.defenderSide.isLightScreen = false;
     }
+    (0, romhack_helpers_1.runHooks)(profile, "afterMoveType", ctx);
     var isAerilate = false;
     var isPixilate = false;
     var isRefrigerate = false;
@@ -160,12 +171,15 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
-    var isDarkRevealed = attacker.hasAbility('Inner Focus') && TITLE.includes("Cascade")
-    var isForceNeutral = (move.named("Chip Away") || attacker.hasAbility("Normalize")) && TITLE.includes("Cascade")
+    var isCascadeProfile = profile.id === "cascade-white";
+    var isDarkRevealed = attacker.hasAbility('Inner Focus') && isCascadeProfile
+    var isForceNeutral = (move.named("Chip Away") || attacker.hasAbility("Normalize")) && isCascadeProfile
     gen.types.gen = settings.typeChart
-    var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, false, false, false, isDarkRevealed);
+    ctx.state.effectivenessType = defender.types[0];
+    var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, false, false, false, isDarkRevealed, profile, ctx);
     var type2Effectiveness = defender.types[1]
-        ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, false, false, false, isDarkRevealed)
+        ? (ctx.state.effectivenessType = defender.types[1],
+            (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, false, false, false, isDarkRevealed, profile, ctx))
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
 
@@ -222,7 +236,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
         (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
             (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
-        (move.named('Dream Eater') && !defender.hasStatus('slp') && TITLE != "Cascade White")) {
+        (move.named('Dream Eater') && !defender.hasStatus('slp') && !isCascadeProfile)) {
         return result;
     }
     if ((field.hasWeather('Harsh Sunshine') && move.hasType('Water')) ||
@@ -278,7 +292,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     var isSpread = field.gameType !== 'Singles' &&
         ['allAdjacent', 'allAdjacentFoes'].includes(move.target);
-    if (TITLE.includes("Cascade") && attacker.hasAbility("Ballistics") && move.flags.bullet && field.gameType !== 'Singles') {
+    if (isCascadeProfile && attacker.hasAbility("Ballistics") && move.flags.bullet && field.gameType !== 'Singles') {
         isSpread = true;
     }
     var computeDamageArray = function (hitCount) {
@@ -299,32 +313,13 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
                 break;
             case 'Electro Ball':
-                if (TITLE.includes("Cascade")) {
-                    if (defender.stats.spe < attacker.stats.spe) {
-                        basePower = move.bp * 2;
-                    }
-                    else {
-                        basePower = move.bp;
-                    }
-                }
-                else {
-                    if (defender.stats.spe === 0)
-                        defender.stats.spe = 1;
-                    var r = Math.floor(attacker.stats.spe / defender.stats.spe);
-                    basePower = r >= 4 ? 150 : r >= 3 ? 120 : r >= 2 ? 80 : r >= 1 ? 60 : 40;
-                }
+                if (defender.stats.spe === 0)
+                    defender.stats.spe = 1;
+                var r = Math.floor(attacker.stats.spe / defender.stats.spe);
+                basePower = r >= 4 ? 150 : r >= 3 ? 120 : r >= 2 ? 80 : r >= 1 ? 60 : 40;
                 desc.moveBP = basePower;
                 break;
             case 'Gyro Ball':
-                if (TITLE.includes("Cascade")) {
-                    if (defender.stats.spe > attacker.stats.spe) {
-                        basePower = move.bp * 2;
-                    }
-                    else {
-                        basePower = move.bp;
-                    }
-                    break;
-                }
                 if (attacker.stats.spe === 0)
                     attacker.stats.spe = 1;
                 basePower = Math.min(150, Math.floor((25 * defender.stats.spe) / attacker.stats.spe) + 1);
@@ -350,10 +345,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 break;
             case 'Heavy Slam':
             case 'Heat Crash':
-                if (TITLE.includes("Cascade")) {
-                    basePower = move.bp;
-                    break;
-                }
                 var wr = (attacker.weightkg * (0, util_2.getWeightFactor)(attacker)) /
                     (defender.weightkg * (0, util_2.getWeightFactor)(defender));
                 basePower = wr >= 5 ? 120 : wr >= 4 ? 100 : wr >= 3 ? 80 : wr >= 2 ? 60 : 40;
@@ -362,9 +353,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             case 'Stored Power':
             case 'Power Trip':
                 var boostMult = 20;
-                if (TITLE.includes("Cascade")) {
-                    boostMult = 25;
-                }
                 basePower = move.bp + boostMult * (0, util_2.countBoosts)(gen, attacker.boosts);
                 desc.moveBP = basePower;
                 break;
@@ -389,7 +377,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 break;
             case 'Weather Crash':
             case 'Weather Ball':
-                basePower = move.bp * (field.weather && !(field.hasWeather('Strong Winds') && (TITLE.includes("Cascade") && (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")))) ? 2 : 1);
+                basePower = move.bp * (field.weather && !field.hasWeather('Strong Winds') ? 2 : 1);
                 desc.moveBP = basePower;
                 break;
             case 'Fling':
@@ -451,6 +439,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             default:
                 basePower = move.bp;
         }
+        ctx.state.hitCount = hitCount;
+        ctx.state.turnOrder = turnOrder;
+        basePower = (0, romhack_helpers_1.applyValueHooks)(profile, "moveBasePower", ctx, basePower);
         if (basePower === 0) {
             return null;
         }
@@ -459,6 +450,19 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             hitResistedKnockOffDamage = true;
         }
         var bpMods = [];
+        var applyBPProfile = function (modifierId) {
+            ctx.state.modifierId = modifierId;
+            ctx.state.skipDefaultMod = false;
+            ctx.state.basePower = basePower;
+            ctx.state.hitCount = hitCount;
+            ctx.state.hitResistedKnockOffDamage = hitResistedKnockOffDamage;
+            ctx.state.hasAteTypeChange = hasAteTypeChange;
+            ctx.state.isMoisturize = isMoisturize;
+            ctx.state.typeEffectiveness = typeEffectiveness;
+            ctx.state.hitsPhysical = hitsPhysical;
+            bpMods = (0, romhack_helpers_1.applyValueHooks)(profile, "basePowerMods", ctx, bpMods);
+            ctx.state.modifierId = undefined;
+        };
         if ((attacker.hasAbility('Technician') && basePower <= 60 && !(move.named('Pursuit') && field.defenderSide.isSwitching)) ||
             (attacker.hasAbility('Flare Boost') &&
                 attacker.hasStatus('brn') && move.category === 'Special') ||
@@ -474,10 +478,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         else if (attacker.hasAbility('Sand Force') &&
             field.hasWeather('Sand') &&
             move.hasType('Rock', 'Ground', 'Steel')) {
-            if (TITLE.includes("Cascade")) {
-                bpMods.push(5734);
-            }
-            else {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("sandForceWeather");
+            if (bpMods.length === beforeProfileMods) {
                 bpMods.push(5325);
             }
             desc.attackerAbility = attacker.ability;
@@ -485,20 +488,17 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }
         else if (attacker.hasAbility('Sand Force') &&
             !field.hasWeather('Sand') &&
-            move.hasType('Rock', 'Ground', 'Steel') && TITLE.includes("Cascade")) {
-            bpMods.push(4915);
-            desc.attackerAbility = attacker.ability;
-            desc.weather = field.weather;
+            move.hasType('Rock', 'Ground', 'Steel')) {
+            applyBPProfile("sandForceNoWeather");
         }
         else if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage))) {
             bpMods.push(4915);
             desc.attackerAbility = attacker.ability;
         }
         else if ((attacker.hasAbility('Iron Fist') && move.flags.punch)) {
-            if (TITLE.includes("Cascade")) {
-                bpMods.push(5325);
-            }
-            else {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("ironFist");
+            if (bpMods.length === beforeProfileMods) {
                 bpMods.push(4915);
             }
             desc.attackerAbility = attacker.ability;
@@ -508,112 +508,17 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.attackerAbility = attacker.ability;
         }
         if (defender.hasAbility('Heatproof') && move.hasType('Fire')) {
-            if (TITLE.includes("Cascade")) {
-                bpMods.push(1024);
-            }
-            else {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("heatproof");
+            if (bpMods.length === beforeProfileMods) {
                 bpMods.push(2048);
             }
             desc.defenderAbility = defender.ability;
         }
-        if (TITLE.includes("Cascade")) {
-            if (defender.hasAbility("Slush Rush") && move.hasType("Ice")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Swift Swim") && move.hasType("Water")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Sand Rush") && move.hasType("Rock")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Toxic Boost") && move.hasType("Poison")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Permafrost") && move.category == "Special") {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Justified") && move.hasType("Dark")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Light Metal") && hitsPhysical) {
-                bpMods.push(6144);
-            }
-            else if (defender.hasAbility("Heavy Metal") && hitsPhysical) {
-                bpMods.push(2732);
-            }
-            else if (defender.hasAbility("Solid Rock", "Filter") && typeEffectiveness > 2) {
-                bpMods.push(3072);
-            }
-            else if (defender.hasAbility("Merciless") && attacker.status) {
-                console.log("".concat(attacker.name, " ").concat(attacker.status));
-                console.log(move.name);
-                bpMods.push(3072);
-            }
-            else if (defender.hasAbility("Sap Sipper") && move.hasType("Grass")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Motor Drive") && move.hasType("Electric")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Water Absorb") && move.hasType("Water")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Flash Fire") && move.hasType("Fire")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Strawberry") && move.hasType("Fairy")) {
-                bpMods.push(2048);
-            }
-            else if (defender.hasAbility("Teravolt") && move.hasType("Dragon")) {
-                bpMods.push(2048);
-            }
-            if (attacker.hasAbility("Normalize") || hasAteTypeChange) {
-                bpMods.push(4915);
-            }
-            else if (attacker.hasAbility("Moisturize") && isMoisturize) {
-                bpMods.push(4915);
-            }
-            else if (attacker.hasAbility("Reckless") && move.named("Explosion", "Self-Destruct")) {
-                bpMods.push(4915);
-            }
-            else if (attacker.hasAbility("Mold Breaker", "Turboblaze", "Teravolt")) {
-                bpMods.push(4505);
-            }
-            else if (attacker.hasAbility("Infiltrator") && typeEffectiveness > 1) {
-                bpMods.push(4915);
-            }
-            else if (attacker.hasAbility("Merciless") && defender.status) {
-                bpMods.push(5120);
-            }
-            else if (attacker.hasAbility("Hyper Cutter") && (move.flags.slicing || move.flags.claw)) {
-                bpMods.push(5325);
-            }
-            else if ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
-                (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
-                (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
-                (attacker.hasAbility('Swarm') && move.hasType('Bug'))) {
-                if (attacker.curHP() > attacker.maxHP() / 3) {
-                    bpMods.push(5120);
-                }
-            }
-            else if (attacker.hasAbility("Ballistics") && move.flags.bullet) {
-                bpMods.push(4915);
-            }
-            else if (defender.hasAbility("Colossal")) {
-                bpMods.push(3072);
-            }
-            else if (attacker.named("Farfetch’d") && attacker.hasItem("Stick") && hitsPhysical) {
-                bpMods.push(8192);
-            }
-            else if (attacker.hasItem('Light Ball') && attacker.name.startsWith('Eevee')) {
-                bpMods.push(8192);
-            }
-        }
         if (defender.hasAbility('Dry Skin') && move.hasType('Fire')) {
-            if (TITLE.includes("Cascade")) {
-                bpMods.push(8192);
-            }
-            else {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("drySkinFire");
+            if (bpMods.length === beforeProfileMods) {
                 bpMods.push(5120);
             }
             desc.defenderAbility = defender.ability;
@@ -622,30 +527,25 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             bpMods.push(5325);
             desc.attackerAbility = attacker.ability;
         }
-        if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N') && TITLE != "Cascade White") {
+        if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("rivalryBase");
             if (attacker.gender === defender.gender) {
-                bpMods.push(5120);
+                if (bpMods.length === beforeProfileMods && !ctx.state.skipDefaultMod)
+                    bpMods.push(5120);
                 desc.rivalry = 'buffed';
             }
             else {
-                bpMods.push(3072);
+                if (bpMods.length === beforeProfileMods && !ctx.state.skipDefaultMod)
+                    bpMods.push(3072);
                 desc.rivalry = 'nerfed';
             }
             desc.attackerAbility = attacker.ability;
         }
-        if (attacker.hasAbility('Rivalry') && TITLE.includes("Cascade")) {
-            var commonTypes = attacker.types.some(function (element) { return defender.types.includes(element); });
-            if (commonTypes) {
-                bpMods.push(5448);
-                desc.rivalry = 'buffed';
-            }
-            desc.attackerAbility = attacker.ability;
-        }
         if (attacker.item && (0, items_1.getItemBoostType)(attacker.item) === move.type) {
-            if (attacker.item.includes("Plate") && TITLE.includes("Cascade")) {
-                bpMods.push(5529);
-            }
-            else {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("plateBoost");
+            if (bpMods.length === beforeProfileMods) {
                 bpMods.push(4915);
             }
             desc.attackerItem = attacker.item;
@@ -681,9 +581,13 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             bpMods.push(8192);
             desc.moveBP = basePower * 2;
         }
-        else if ((gen.num > 5 || TITLE.includes("Cascade")) && move.named('Knock Off') && !hitResistedKnockOffDamage) {
-            bpMods.push(6144);
-            desc.moveBP = basePower * 1.5;
+        else if (move.named('Knock Off') && !hitResistedKnockOffDamage) {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("knockOff");
+            if (gen.num > 5 && bpMods.length === beforeProfileMods) {
+                bpMods.push(6144);
+                desc.moveBP = basePower * 1.5;
+            }
         }
         else if (move.named('Solar Beam') && field.hasWeather('Rain', 'Heavy Rain', 'Sand', 'Hail')) {
             bpMods.push(2048);
@@ -691,10 +595,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.weather = field.weather;
         }
         if (field.attackerSide.isHelpingHand) {
-            if (TITLE.includes("Cascade")) {
-                bpMods.push(8192);
-            }
-            else {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("helpingHand");
+            if (bpMods.length === beforeProfileMods) {
                 bpMods.push(6144);
             }
             desc.isHelpingHand = true;
@@ -718,7 +621,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             bpMods.push(6144);
         }
         if (isAerilate || isPixilate || isRefrigerate) {
-            if (!TITLE.includes("Cascade")) {
+            var beforeProfileMods = bpMods.length;
+            applyBPProfile("ateBoost");
+            if (bpMods.length === beforeProfileMods && !ctx.state.skipDefaultMod) {
                 bpMods.push(5325);
                 desc.attackerAbility = attacker.ability;
             }
@@ -769,6 +674,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 desc.terrain = field.terrain;
             }
         }
+        applyBPProfile();
         basePower = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((basePower * (0, util_2.chainMods)(bpMods, 41, 2097152)) / 4096)));
         var attack;
         var attackSource = move.named('Foul Play') ? defender : attacker;
@@ -864,6 +770,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             atMods.push(8192);
             desc.attackerItem = attacker.item;
         }
+        atMods = (0, romhack_helpers_1.applyValueHooks)(profile, "attackMods", ctx, atMods);
         attack = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((attack * (0, util_2.chainMods)(atMods, 410, 131072)) / 4096)));
         var defense;
         var defenseStat = move.overrideDefensiveStat || move.category === 'Physical' ? 'def' : 'spd';
@@ -890,11 +797,11 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             defense = (0, util_2.pokeRound)((defense * 3) / 2);
             desc.weather = field.weather;
         }
-        if (TITLE.includes("Cascade") && field.hasWeather('Hail') && defender.hasType('Ice') && hitsPhysical) {
-            defense = (0, util_2.pokeRound)((defense * 3) / 2);
-            desc.weather = field.weather;
-        }
         var dfMods = [];
+        ctx.state.defense = defense;
+        ctx.state.hitsPhysical = hitsPhysical;
+        dfMods = (0, romhack_helpers_1.applyValueHooks)(profile, "defenseMods", ctx, dfMods);
+        defense = ctx.state.defense;
         if (defender.hasAbility('Marvel Scale') && defender.status && hitsPhysical) {
             dfMods.push(6144);
             desc.defenderAbility = defender.ability;
@@ -964,7 +871,11 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         if (attacker.hasAbility('Parental Bond (Child)')) {
             baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 2048) / 4096);
         }
-        if (!((defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE.includes("Cascade"))) {
+        ctx.state.modifierId = "weather";
+        ctx.state.skipWeather = false;
+        baseDamage = (0, romhack_helpers_1.applyValueHooks)(profile, "baseDamage", ctx, baseDamage);
+        ctx.state.modifierId = undefined;
+        if (!ctx.state.skipWeather) {
             if ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
                 (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Water'))) {
                 baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 6144) / 4096);
@@ -976,11 +887,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 desc.weather = field.weather;
             }
         }
-        if (TITLE.includes("Cascade")) {
-            if (move.named("Explosion", "Self-Destruct")) {
-                isCritical = true;
-            }
-        }
+        ctx.state.isCritical = isCritical;
+        (0, romhack_helpers_1.runHooks)(profile, "beforeFinalDamage", ctx);
+        isCritical = ctx.state.isCritical;
         if (isCritical) {
             if (settings.critGen >= 6) {
                 baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (1.5)));
@@ -988,9 +897,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             else {
                 baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (gen.num > 5 ? 1.5 : 2)));
             }
-            if (TITLE.includes("Cascade") && defender.hasAbility("Forewarn")) {
-                baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (0.75)));
-            }
+            ctx.state.isCritical = isCritical;
+            baseDamage = (0, romhack_helpers_1.applyValueHooks)(profile, "baseDamage", ctx, baseDamage);
             desc.isCritical = isCritical;
         }
         var stabMod = 4096;
@@ -1013,7 +921,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         var applyBurn = attacker.hasStatus('brn') &&
             move.category === 'Physical' &&
             !attacker.hasAbility('Guts') &&
-            !(move.named('Facade') && (gen.num === 6 || TITLE.includes("Cascade")));
+            !(move.named('Facade') && (gen.num === 6 || isCascadeProfile));
         desc.isBurned = applyBurn;
         var finalMods = [];
         if (field.defenderSide.isReflect && move.category === 'Physical' && !isCritical) {
@@ -1035,14 +943,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             finalMods.push(2048);
             desc.defenderAbility = defender.ability;
         }
-        if (defender.hasAbility('Rivalry') && TITLE.includes("Cascade")) {
-            var commonTypes = attacker.types.some(function (element) { return defender.types.includes(element); });
-            if (commonTypes) {
-                finalMods.push(2744);
-                desc.rivalry = 'buffed';
-            }
-            desc.attackerAbility = attacker.ability;
-        }
+        finalMods = (0, romhack_helpers_1.applyValueHooks)(profile, "finalMods", ctx, finalMods);
         if (defender.hasAbility('Fluffy') && move.hasType('Fire')) {
             finalMods.push(8192);
             desc.defenderAbility = defender.ability;

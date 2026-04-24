@@ -29,7 +29,22 @@ exports.__esModule = true;
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
+var romhacks_1 = require("./romhacks");
+var romhack_helpers_1 = require("./romhacks/helpers");
 function calculateDPP(gen, attacker, defender, move, field) {
+    var title = typeof TITLE === "string" ? TITLE : "";
+    var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
+    var ctx = {
+        gen: gen,
+        attacker: attacker,
+        defender: defender,
+        move: move,
+        field: field,
+        title: title,
+        desc: null,
+        util: util_1,
+        state: {}
+    };
     // if (limitHits) {
     //     move.hits = 1
     // }
@@ -54,6 +69,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         moveName: move.name,
         defenderName: defender.name
     };
+    ctx.desc = desc;
     var result = new result_1.Result(gen, attacker, defender, move, field, 0, desc);
     if (move.category === 'Status' && !move.named('Nature Power')) {
         return result;
@@ -186,9 +202,6 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 }
                 break;
             case 'Eruption':
-                if (TITLE == "Platinum Kaizo") {
-                    break
-                }
                 basePower = Math.max(1, Math.floor((basePower * attacker.curHP()) / attacker.maxHP()));
                 desc.moveBP = basePower;
                 break;
@@ -267,28 +280,13 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
                 break;
             case 'Fury Cutter':
-                if (TITLE == "Platinum Kaizo") {
-                    basePower = (hitCount + 1) * 20;
-                    desc.moveBP = move.hits === 2 ? 60 : move.hits === 3 ? 120 : 30;
-                } else {
-                    break
-                }     
                 break;
             case 'Triple Kick':
-                if (TITLE == "Platinum Kaizo") {
-                    basePower = (hitCount + 1) * 20;
-                    desc.moveBP = move.hits === 2 ? 60 : move.hits === 3 ? 120 : 30;
-                } else {
-                    basePower = (hitCount + 1) * 10;
-                    desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
-                }
+                basePower = (hitCount + 1) * 10;
+                desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
                 
                 break;
             case 'Rock Wrecker':
-                if (TITLE == "Platinum Kaizo") {
-                    basePower = (hitCount + 1) * 20;;
-                    desc.moveBP = move.hits === 2 ? 70 : move.hits === 3 ? 120 : 30; 
-                }
                 break;
             case 'Triple Axel':
                 basePower = (hitCount + 1) * 20;;
@@ -297,6 +295,9 @@ function calculateDPP(gen, attacker, defender, move, field) {
             default:
                 basePower = move.bp;
         }
+        ctx.state.hitCount = hitCount;
+        ctx.state.originalBasePower = move.bp;
+        basePower = (0, romhack_helpers_1.applyValueHooks)(profile, "moveBasePower", ctx, basePower);
         if (basePower === 0) {
             return null;
         }
@@ -348,9 +349,14 @@ function calculateDPP(gen, attacker, defender, move, field) {
             (attacker.hasItem('Griseous Orb') &&
                 attacker.named('Giratina-Origin') &&
                 move.hasType('Ghost', 'Dragon'))) {
-            if (TITLE == "Platinum Kaizo" && attacker.item.includes("Plate")) {
-                basePower = Math.floor(basePower * 1.5);
-            } else {
+            ctx.state.modifierId = "plateBoost";
+            ctx.state.fixedMod = 1.5;
+            var profileMods = (0, romhack_helpers_1.applyValueHooks)(profile, "basePowerMods", ctx, []);
+            ctx.state.modifierId = undefined;
+            if (profileMods.length) {
+                basePower = Math.floor(basePower * profileMods[0]);
+            }
+            else {
                 basePower = Math.floor(basePower * 1.2);
             }
             

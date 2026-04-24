@@ -123,7 +123,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Skull Bash",
@@ -260,7 +268,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -405,7 +421,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -514,7 +538,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Dragon Dance",
         "Swords Dance",
@@ -522,7 +545,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belly Drum",
@@ -660,7 +691,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Dragon Dance",
         "Swords Dance",
@@ -668,7 +698,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -846,7 +884,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Tailwind",
         "Dragon Dance",
@@ -859,7 +896,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Focus Punch",
         "Flare Blitz",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -969,13 +1014,20 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Snowscape",
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mirror Coat",
@@ -1120,13 +1172,20 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Snowscape",
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -1279,13 +1338,20 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Snowscape",
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -1325,7 +1391,15 @@ em_imp_primary_mons = {
       ],
       "tms": [
         "Electroweb",
-        "Bug Bite"
+        "Bug Bite",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -1372,7 +1446,15 @@ em_imp_primary_mons = {
       "tms": [
         "Electroweb",
         "Bug Bite",
-        "Iron Defense"
+        "Iron Defense",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -1513,7 +1595,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Rain Dance",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -1554,7 +1644,15 @@ em_imp_primary_mons = {
       ],
       "tms": [
         "Electroweb",
-        "Bug Bite"
+        "Bug Bite",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -1602,7 +1700,15 @@ em_imp_primary_mons = {
       "tms": [
         "Electroweb",
         "Bug Bite",
-        "Iron Defense"
+        "Iron Defense",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -1729,7 +1835,15 @@ em_imp_primary_mons = {
         "Pin Missile",
         "Sunny Day",
         "Solar Beam",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -1830,7 +1944,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pursuit",
@@ -1951,7 +2073,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -2077,7 +2207,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -2180,7 +2318,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Body Slam",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Screech",
@@ -2319,7 +2465,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -2413,7 +2567,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Drill Run",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feint Attack",
@@ -2551,7 +2713,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Drill Run",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -2667,7 +2837,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pursuit",
@@ -2843,7 +3021,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -2980,7 +3166,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -3137,7 +3331,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Icicle Spear",
-        "Ice Beam"
+        "Ice Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -3280,7 +3482,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Dazzling Gleam",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -3423,7 +3633,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Water Pulse",
-        "Liquidation"
+        "Liquidation",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -3567,7 +3785,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Air Slash",
         "Fly",
-        "Hurricane"
+        "Hurricane",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -3711,7 +3937,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Psychic",
         "Psychic Noise",
-        "Zen Headbutt"
+        "Zen Headbutt",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -3855,7 +4089,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Iron Head",
         "Steel Beam",
-        "Flash Cannon"
+        "Flash Cannon",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -3999,7 +4241,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Close Combat",
         "Aura Sphere",
-        "Focus Blast"
+        "Focus Blast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -4109,6 +4359,16 @@ em_imp_primary_mons = {
           58,
           "Thunder"
         ]
+      ],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -4207,7 +4467,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -4334,7 +4602,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Focus Punch",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flail",
@@ -4493,7 +4769,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Focus Punch",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -4591,7 +4875,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Supersonic",
@@ -4712,7 +5004,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -4829,7 +5129,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Drill Run",
         "Stealth Rock",
         "Rock Blast",
@@ -4838,7 +5137,15 @@ em_imp_primary_mons = {
         "Hex",
         "Sandstorm",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -4932,7 +5239,15 @@ em_imp_primary_mons = {
         "Drill Run",
         "Body Slam",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -5048,7 +5363,15 @@ em_imp_primary_mons = {
         "Drill Run",
         "Body Slam",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -5164,7 +5487,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Drill Run",
         "Stealth Rock",
         "Rock Blast",
@@ -5174,7 +5496,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -5323,7 +5653,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Stealth Rock",
@@ -5338,7 +5667,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Moonblast",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -5434,7 +5771,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Stealth Rock",
@@ -5449,7 +5785,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Moonblast",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -5581,7 +5925,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Mystical Fire",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feint Attack",
@@ -5685,7 +6037,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Mystical Fire",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -5824,7 +6184,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Pain Split",
         "Stealth Rock",
@@ -5836,7 +6195,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -5945,7 +6312,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Pain Split",
         "Stealth Rock",
@@ -5958,7 +6324,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Moonblast",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -6070,7 +6444,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Quick Attack",
@@ -6219,7 +6601,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -6336,7 +6726,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Razor Leaf",
@@ -6473,7 +6871,15 @@ em_imp_primary_mons = {
         "Flash",
         "Swords Dance",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -6573,7 +6979,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -6677,7 +7091,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Leaf Blade"
+        "Leaf Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Screech",
@@ -6829,7 +7251,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -6926,7 +7356,15 @@ em_imp_primary_mons = {
         "Bug Bite",
         "Sunny Day",
         "Solar Beam",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Screech",
@@ -7076,7 +7514,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Silver Wind",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -7171,7 +7617,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Body Slam",
         "Sunny Day",
-        "Sandstorm"
+        "Sandstorm",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feint Attack",
@@ -7314,7 +7768,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Body Slam",
         "Sunny Day",
-        "Sandstorm"
+        "Sandstorm",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -7435,7 +7897,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Spite",
@@ -7605,7 +8075,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Power Gem",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -7722,14 +8200,21 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Calm Mind",
         "Snowscape",
         "Body Slam",
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Hypnosis",
@@ -7894,7 +8379,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Calm Mind",
         "Snowscape",
         "Nasty Plot",
@@ -7903,7 +8387,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -8039,12 +8531,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Foresight",
@@ -8224,13 +8723,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Stealth Rock",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -8357,7 +8863,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Psychic Fangs",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Body Slam",
@@ -8473,7 +8987,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Psychic Fangs",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -8567,7 +9089,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Body Slam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mist",
@@ -8692,12 +9222,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Snowscape",
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -8812,13 +9349,20 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Snowscape",
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -8884,7 +9428,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Encore",
@@ -9018,7 +9570,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Focus Blast",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -9146,7 +9706,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -9268,13 +9836,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Meditate",
@@ -9427,13 +10002,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -9593,14 +10175,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Rock Blast",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -9702,7 +10291,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Encore",
@@ -9839,7 +10436,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Power Whip",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -9957,7 +10562,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Power Whip",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -10075,7 +10688,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Hex",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Aurora Beam",
@@ -10224,7 +10845,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Hex",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -10338,7 +10967,6 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Rock Polish",
         "Stealth Rock",
@@ -10347,7 +10975,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Focus Punch",
-        "Smack Down"
+        "Smack Down",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mega Punch",
@@ -10497,7 +11133,6 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Rock Polish",
         "Stealth Rock",
@@ -10508,7 +11143,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Meteor Beam",
         "Smack Down",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -10660,7 +11303,6 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Rock Polish",
         "Stealth Rock",
@@ -10671,7 +11313,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Meteor Beam",
         "Smack Down",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -10779,7 +11429,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Flare Blitz",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flame Wheel",
@@ -10932,7 +11590,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Flare Blitz",
         "Megahorn",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -11065,7 +11731,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belly Drum",
@@ -11245,7 +11919,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -11364,7 +12046,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -11514,7 +12204,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -11656,7 +12354,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Leaf Blade",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Steel Wing",
@@ -11779,7 +12485,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Swords Dance",
         "Body Slam",
-        "Sunny Day"
+        "Sunny Day",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Quick Attack",
@@ -11920,7 +12634,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Swords Dance",
         "Body Slam",
-        "Sunny Day"
+        "Sunny Day",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -12029,7 +12751,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Water Pulse",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Lick",
@@ -12176,7 +12906,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Dive",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -12289,12 +13027,19 @@ em_imp_primary_mons = {
         "Ice Punch",
         "Sludge Wave",
         "Strength",
-        "Power-Up Punch",
         "Pain Split",
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Haze",
@@ -12445,13 +13190,20 @@ em_imp_primary_mons = {
         "Sludge Wave",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Pain Split",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -12561,7 +13313,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Bubble Beam",
@@ -12674,7 +13434,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -12792,7 +13560,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Sunny Day",
         "Hex",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Psywave",
@@ -12940,7 +13716,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Sunny Day",
         "Hex",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -13078,7 +13862,6 @@ em_imp_primary_mons = {
         "Trick Room",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Pain Split",
         "Foul Play",
         "Nasty Plot",
@@ -13087,7 +13870,15 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -13240,7 +14031,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Smack Down",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flail",
@@ -13389,7 +14188,6 @@ em_imp_primary_mons = {
         "Psychic Noise",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Calm Mind",
         "Foul Play",
         "Nasty Plot",
@@ -13397,7 +14195,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Barrier",
@@ -13565,7 +14371,6 @@ em_imp_primary_mons = {
         "Psychic Noise",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Calm Mind",
         "Foul Play",
         "Nasty Plot",
@@ -13573,7 +14378,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -13682,7 +14495,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Swords Dance",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Haze",
@@ -13836,7 +14657,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Rain Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -13952,7 +14781,15 @@ em_imp_primary_mons = {
         "Flash",
         "Charge Beam",
         "Foul Play",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Metal Sound",
@@ -14095,7 +14932,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Foul Play",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -14212,7 +15057,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Synthesis",
@@ -14339,7 +15192,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Mystical Fire",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -14454,7 +15315,6 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Stealth Rock",
         "Swords Dance",
@@ -14462,7 +15322,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Focus Punch",
-        "Stomping Tantrum"
+        "Stomping Tantrum",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Head Smash",
@@ -14620,14 +15488,21 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Stealth Rock",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -14767,14 +15642,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Blaze Kick",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -14922,14 +15804,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -15046,7 +15935,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
@@ -15054,7 +15942,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Rain Dance",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belly Drum",
@@ -15181,7 +16077,15 @@ em_imp_primary_mons = {
         "Flash",
         "Pain Split",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Screech",
@@ -15322,7 +16226,15 @@ em_imp_primary_mons = {
         "Flash",
         "Pain Split",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -15446,7 +16358,15 @@ em_imp_primary_mons = {
         "Megahorn",
         "Smack Down",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Crunch",
@@ -15607,7 +16527,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Drill Run",
         "Rock Polish",
@@ -15626,7 +16545,15 @@ em_imp_primary_mons = {
         "Megahorn",
         "Smack Down",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -15770,7 +16697,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Stealth Rock",
@@ -15783,7 +16709,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Present",
@@ -15923,7 +16857,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flail",
@@ -16066,14 +17008,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Snowscape",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Sandstorm",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Stomp",
@@ -16174,7 +17123,15 @@ em_imp_primary_mons = {
         "Dragon Dance",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flail",
@@ -16292,7 +17249,15 @@ em_imp_primary_mons = {
         "Dragon Dance",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -16395,7 +17360,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Psybeam",
@@ -16518,7 +17491,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -16641,7 +17622,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Rain Dance",
         "Water Pulse",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -16735,7 +17724,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Meteor Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -16899,7 +17896,6 @@ em_imp_primary_mons = {
         "Psyshock",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Calm Mind",
@@ -16913,7 +17909,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Moonblast",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Future Sight",
@@ -17051,7 +18055,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Trailblaze",
         "Rain Dance",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -17229,7 +18241,6 @@ em_imp_primary_mons = {
         "Psyshock",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Calm Mind",
         "Snowscape",
         "Nasty Plot",
@@ -17238,7 +18249,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Stored Power",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -17355,13 +18374,20 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Body Slam",
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -17484,12 +18510,19 @@ em_imp_primary_mons = {
         "Vacuum Wave",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Flame Charge",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -17625,7 +18658,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fury Attack",
@@ -17759,7 +18800,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Flare Blitz",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -17798,7 +18847,15 @@ em_imp_primary_mons = {
         ]
       ],
       "tms": [
-        "Hydro Pump"
+        "Hydro Pump",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -17929,7 +18986,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sandstorm",
         "Rain Dance",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -18068,7 +19133,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Megahorn",
         "Water Pulse",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Outrage",
@@ -18114,7 +19187,16 @@ em_imp_primary_mons = {
           "Transform"
         ]
       ],
-      "tms": []
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ]
     },
     "bs": {
       "hp": 48,
@@ -18213,7 +19295,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Charm",
@@ -18381,7 +19471,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -18507,7 +19605,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -18631,7 +19737,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Trailblaze",
         "Flare Blitz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -18734,7 +19848,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -18847,7 +19969,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Bubble Beam",
@@ -19002,7 +20132,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -19100,7 +20238,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Body Slam",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Bubble Beam",
@@ -19255,7 +20401,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sandstorm",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -19378,7 +20532,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Psychic Fangs",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Whirlwind",
@@ -19525,14 +20687,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Sandstorm",
         "Focus Punch",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Lick",
@@ -19668,7 +20837,15 @@ em_imp_primary_mons = {
         "Icicle Spear",
         "Sunny Day",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -19790,7 +20967,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -19912,7 +21097,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Flare Blitz",
         "Rain Dance",
-        "Trick Room"
+        "Trick Room",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -20016,7 +21209,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Water Pulse",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mist",
@@ -20145,7 +21346,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Water Pulse",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -20318,7 +21527,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Tailwind",
         "Dragon Dance",
         "Snowscape",
@@ -20328,7 +21536,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Water Pulse",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -20521,7 +21737,6 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Dark Hole",
         "Charge Beam",
@@ -20573,7 +21788,15 @@ em_imp_primary_mons = {
         "Steel Beam",
         "Heavy Slam",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -20676,7 +21899,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Vine Whip",
@@ -20815,7 +22046,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -20955,7 +22194,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Solar Blade",
         "Moonblast",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -21066,7 +22313,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Flame Charge",
         "Sunny Day",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fury Swipes",
@@ -21203,7 +22458,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Flare Blitz",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -21351,13 +22614,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Sunny Day",
         "Solar Beam",
         "Mystical Fire",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -21473,7 +22743,6 @@ em_imp_primary_mons = {
         "Surf",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Dragon Dance",
         "Snowscape",
         "Swords Dance",
@@ -21482,7 +22751,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Water Pulse",
-        "Roar"
+        "Roar",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Crunch",
@@ -21631,7 +22908,6 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Dragon Dance",
         "Snowscape",
         "Swords Dance",
@@ -21639,7 +22915,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -21800,7 +23084,6 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Dragon Dance",
         "Snowscape",
         "Swords Dance",
@@ -21809,7 +23092,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -21909,14 +23200,21 @@ em_imp_primary_mons = {
         "Cut",
         "Surf",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Tail Slap",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Double-Edge",
@@ -22065,14 +23363,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Tail Slap",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -22193,7 +23498,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mirror Move",
@@ -22357,7 +23670,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -22450,7 +23771,6 @@ em_imp_primary_mons = {
         "Ice Punch",
         "Acrobatics",
         "Flash",
-        "Power-Up Punch",
         "Bug Bite",
         "Tailwind",
         "Swords Dance",
@@ -22458,7 +23778,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Focus Punch",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Psybeam",
@@ -22602,7 +23930,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Bug Bite",
         "Tailwind",
         "Bulk Up",
@@ -22611,7 +23938,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Focus Punch",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -22729,7 +24064,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Psybeam",
@@ -22899,7 +24242,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Megahorn",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -23039,7 +24390,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -23150,7 +24509,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flail",
@@ -23320,7 +24687,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -23395,7 +24770,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Body Slam",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Reversal",
@@ -23498,7 +24881,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Present",
@@ -23598,7 +24989,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Perish Song",
@@ -23727,7 +25126,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Rain Dance",
-        "Aerial Ace"
+        "Aerial Ace",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Present",
@@ -23894,7 +25301,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Air Slash",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -24031,7 +25446,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Haze",
@@ -24202,7 +25625,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -24300,7 +25731,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Trailblaze",
         "Power Gem",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Take Down",
@@ -24431,13 +25870,20 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Body Slam",
         "Trailblaze",
         "Power Gem",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -24592,7 +26038,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Body Slam",
         "Trailblaze",
@@ -24601,7 +26046,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Supercell Slam",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -24706,7 +26159,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Leaf Blade",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -24825,14 +26286,21 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Snowscape",
         "Alluring Voice",
         "Body Slam",
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Encore",
@@ -24990,14 +26458,21 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Snowscape",
         "Alluring Voice",
         "Body Slam",
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -25134,7 +26609,6 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Calm Mind",
         "Foul Play",
@@ -25147,7 +26621,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Meteor Beam",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Self-Destruct",
@@ -25239,12 +26721,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Snowscape",
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -25367,7 +26856,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Confusion",
@@ -25519,7 +27016,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -25658,7 +27163,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Leaf Blade",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -25772,7 +27285,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Foul Play",
         "Nasty Plot",
         "Tail Slap",
@@ -25780,7 +27292,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -25908,7 +27428,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Grass Whistle",
@@ -26069,7 +27597,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Mystical Fire",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -26180,7 +27716,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Whirlwind",
@@ -26300,8 +27844,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Rain Dance",
-        "Power-Up Punch",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Body Slam",
@@ -26437,7 +27988,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Stealth Rock",
         "Snowscape",
         "Body Slam",
@@ -26445,7 +27995,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -26566,7 +28124,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Psychic Fangs",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -26678,7 +28244,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -26792,7 +28366,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Whirlwind",
@@ -26964,7 +28546,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Calm Mind",
         "Foul Play",
@@ -26976,7 +28557,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -27085,7 +28674,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Power Gem",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Screech",
@@ -27144,7 +28741,16 @@ em_imp_primary_mons = {
           "Ancient Power"
         ]
       ],
-      "tms": []
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ]
     },
     "bs": {},
     "evos": [],
@@ -27178,7 +28784,16 @@ em_imp_primary_mons = {
           "Destiny Bond"
         ]
       ],
-      "tms": []
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ]
     },
     "bs": {
       "hp": 190,
@@ -27299,7 +28914,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Psychic Fangs",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Take Down",
@@ -27435,7 +29058,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Sandstorm",
         "Spikes",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pin Missile",
@@ -27629,7 +29260,15 @@ em_imp_primary_mons = {
         "Spikes",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -27791,7 +29430,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Dragon Dance",
@@ -27933,7 +29580,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Power Whip",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Metal Claw",
@@ -28131,7 +29786,15 @@ em_imp_primary_mons = {
         "Smack Down",
         "Supercell Slam",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -28246,7 +29909,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Thunder Fang",
         "Ice Fang",
@@ -28255,7 +29917,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Metronome",
@@ -28429,7 +30099,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Thunder Fang",
         "Ice Fang",
@@ -28441,7 +30110,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Flare Blitz",
         "Rain Dance",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -28576,7 +30253,15 @@ em_imp_primary_mons = {
         "Hex",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flail",
@@ -28728,7 +30413,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Silver Wind",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -28855,7 +30548,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Sweet Scent",
@@ -29009,7 +30710,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Megahorn",
         "Arm Thrust",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Harden",
@@ -29138,7 +30847,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Calm Mind",
         "Foul Play",
         "Snowscape",
@@ -29147,7 +30855,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -29288,14 +31004,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Crunch",
@@ -29438,14 +31161,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -29570,7 +31300,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Power Gem"
+        "Power Gem",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Acid Armor",
@@ -29735,7 +31473,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Sandstorm",
         "Power Gem",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -29848,7 +31594,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sandstorm",
         "Rain Dance",
-        "Ice Fang"
+        "Ice Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Take Down",
@@ -30005,7 +31759,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Body Slam",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -30155,7 +31917,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Meteor Beam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Screech",
@@ -30272,7 +32042,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Sunny Day",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Aurora Beam",
@@ -30429,7 +32207,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Sunny Day",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -30488,7 +32274,6 @@ em_imp_primary_mons = {
         "Brave Bird",
         "Ice Spinner",
         "Fly",
-        "Power-Up Punch",
         "Drill Run",
         "Snowscape",
         "Icicle Spear",
@@ -30496,7 +32281,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Aurora Beam",
@@ -30656,7 +32449,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Body Slam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Twister",
@@ -30785,7 +32586,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Spikes",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Drill Peck",
@@ -30918,7 +32727,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fire Spin",
@@ -31091,7 +32908,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -31199,7 +33024,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Water Pulse",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -31305,7 +33138,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Trailblaze",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Focus Energy",
@@ -31464,7 +33305,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Power Whip",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -31579,7 +33428,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -31705,7 +33562,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Megahorn",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Spite",
@@ -31790,7 +33655,16 @@ em_imp_primary_mons = {
           "Sketch"
         ]
       ],
-      "tms": []
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ]
     },
     "bs": {
       "hp": 55,
@@ -31846,7 +33720,15 @@ em_imp_primary_mons = {
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Rapid Spin",
@@ -32009,7 +33891,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -32117,7 +34007,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Body Slam",
         "Stored Power",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Meditate",
@@ -32235,12 +34133,19 @@ em_imp_primary_mons = {
         "Ice Punch",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Karate Chop",
@@ -32353,12 +34258,19 @@ em_imp_primary_mons = {
         "Fire Punch",
         "Scorching Sands",
         "Rock Smash",
-        "Power-Up Punch",
         "Flame Charge",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Karate Chop",
@@ -32486,7 +34398,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Stealth Rock",
         "Body Slam",
         "Sunny Day",
@@ -32494,7 +34405,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Present",
@@ -32644,7 +34563,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Stealth Rock",
@@ -32658,7 +34576,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -32779,7 +34705,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -32909,7 +34843,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Sandstorm",
         "Flare Blitz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -33031,7 +34973,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Rain Dance",
-        "Tailwind"
+        "Tailwind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -33130,7 +35080,6 @@ em_imp_primary_mons = {
         "Snarl",
         "Superpower",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Dragon Dance",
         "Rock Polish",
@@ -33139,7 +35088,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pursuit",
@@ -33266,7 +35223,6 @@ em_imp_primary_mons = {
         "Snarl",
         "Superpower",
         "Scorching Sands",
-        "Power-Up Punch",
         "Iron Defense",
         "Dragon Dance",
         "Rock Polish",
@@ -33275,7 +35231,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -33436,7 +35400,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Dark Hole",
         "Iron Defense",
         "Dragon Dance",
@@ -33454,7 +35417,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Meteor Beam",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -33590,7 +35561,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -33722,7 +35701,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Mystical Fire",
         "Flare Blitz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -33840,7 +35827,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Leaf Blade",
         "Rain Dance",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -33949,12 +35944,19 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Crunch",
@@ -34113,14 +36115,21 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Leaf Blade",
         "Focus Punch",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -34295,7 +36304,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Dragon Dance",
         "Swords Dance",
         "Body Slam",
@@ -34304,7 +36312,15 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Focus Punch",
         "Solar Blade",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -34405,7 +36421,15 @@ em_imp_primary_mons = {
         "Flame Charge",
         "Swords Dance",
         "Body Slam",
-        "Sunny Day"
+        "Sunny Day",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -34550,7 +36574,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Bulk Up",
         "Swords Dance",
@@ -34558,7 +36581,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Blaze Kick",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -34714,7 +36745,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Bulk Up",
         "Swords Dance",
@@ -34723,7 +36753,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Blaze Kick",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -34832,7 +36870,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Snowscape",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Refresh",
@@ -34987,11 +37033,18 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Stealth Rock",
         "Snowscape",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -35133,13 +37186,20 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Stealth Rock",
         "Snowscape",
         "Body Slam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -35247,7 +37307,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Psychic Fangs",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Astonish",
@@ -35408,7 +37476,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Psychic Fangs",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -35518,7 +37594,15 @@ em_imp_primary_mons = {
         "Tail Slap",
         "Body Slam",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Charm",
@@ -35663,7 +37747,15 @@ em_imp_primary_mons = {
         "Tail Slap",
         "Body Slam",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -35707,7 +37799,15 @@ em_imp_primary_mons = {
       ],
       "tms": [
         "Electroweb",
-        "Bug Bite"
+        "Bug Bite",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -35759,7 +37859,15 @@ em_imp_primary_mons = {
       "tms": [
         "Electroweb",
         "Bug Bite",
-        "Iron Defense"
+        "Iron Defense",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -35872,7 +37980,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Solar Beam",
-        "Bug Buzz"
+        "Bug Buzz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -35914,7 +38030,15 @@ em_imp_primary_mons = {
       "tms": [
         "Electroweb",
         "Bug Bite",
-        "Iron Defense"
+        "Iron Defense",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -36024,7 +38148,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -36123,7 +38255,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Synthesis",
@@ -36246,13 +38386,20 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Snowscape",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -36334,14 +38481,21 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Snowscape",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -36414,7 +38568,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Body Slam",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Leech Seed",
@@ -36545,7 +38707,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Foul Play",
         "Swords Dance",
         "Nasty Plot",
@@ -36553,7 +38714,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Leaf Blade",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -36669,7 +38838,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Tailwind",
         "Foul Play",
         "Swords Dance",
@@ -36678,7 +38846,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Leaf Blade",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -36759,7 +38935,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Sandstorm",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endure",
@@ -36903,7 +39087,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Sandstorm",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -37008,7 +39200,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Sandstorm",
         "Phantom Force",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -37100,7 +39300,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pursuit",
@@ -37239,7 +39447,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -37333,7 +39549,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fake Tears",
@@ -37476,13 +39700,20 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -37589,13 +39820,20 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Calm Mind",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Encore",
@@ -37716,7 +39954,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mist",
@@ -37877,7 +40123,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -37962,7 +40216,15 @@ em_imp_primary_mons = {
         "Bug Bite",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Foresight",
@@ -38107,7 +40369,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -38221,7 +40491,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Dive",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Double-Edge",
@@ -38386,7 +40664,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Dive",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -38513,7 +40799,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Helping Hand",
@@ -38608,7 +40902,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -38742,7 +41044,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Foul Play",
         "Stealth Rock",
@@ -38751,7 +41052,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -38896,7 +41205,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -39055,7 +41372,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -39184,7 +41509,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Magnitude",
@@ -39324,7 +41657,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Eruption",
@@ -39475,7 +41816,6 @@ em_imp_primary_mons = {
         "Cut",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Pain Split",
         "Calm Mind",
         "Foul Play",
@@ -39486,7 +41826,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Recover",
@@ -39599,7 +41947,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Sandstorm",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Thrash",
@@ -39768,7 +42124,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -39883,7 +42247,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Splash",
@@ -40012,7 +42384,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Swords Dance",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mud Sport",
@@ -40181,7 +42561,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Nasty Plot",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -40232,7 +42620,15 @@ em_imp_primary_mons = {
         "Surf",
         "Waterfall",
         "Snowscape",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mirror Coat",
@@ -40387,7 +42783,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Body Slam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -40488,7 +42892,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Psychic Fangs",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Hydro Pump",
@@ -40648,7 +43060,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Psychic Fangs",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -40751,7 +43171,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Sandstorm"
+        "Sandstorm",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Focus Energy",
@@ -40896,7 +43324,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Sandstorm",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -41051,7 +43487,6 @@ em_imp_primary_mons = {
         "Fly",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Bug Bite",
         "Tailwind",
         "Dragon Dance",
@@ -41062,7 +43497,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Sandstorm",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -41176,14 +43619,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
         "Arm Thrust",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feint Attack",
@@ -41332,14 +43782,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
         "Arm Thrust",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -41441,7 +43898,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Crunch",
@@ -41584,7 +44049,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -41694,7 +44167,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Trailblaze",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Howl",
@@ -41873,7 +44354,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Flare Blitz",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -41982,7 +44471,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Body Slam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Water Sport",
@@ -42121,7 +44618,15 @@ em_imp_primary_mons = {
         "Icicle Spear",
         "Body Slam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -42258,7 +44763,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Water Pulse",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -42366,7 +44879,6 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Cut",
         "Flash",
-        "Power-Up Punch",
         "Swords Dance",
         "Nasty Plot",
         "Pin Missile",
@@ -42376,7 +44888,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Focus Punch",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Grass Whistle",
@@ -42543,7 +45063,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Flash",
-        "Power-Up Punch",
         "Dark Hole",
         "Foul Play",
         "Swords Dance",
@@ -42555,7 +45074,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Focus Punch",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -42645,7 +45172,15 @@ em_imp_primary_mons = {
         "Hex",
         "Trailblaze",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Block",
@@ -42791,7 +45326,15 @@ em_imp_primary_mons = {
         "Hex",
         "Trailblaze",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -42941,7 +45484,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Moonblast",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -43082,7 +45633,15 @@ em_imp_primary_mons = {
         "Flare Blitz",
         "Meteor Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -43165,7 +45724,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Alluring Voice",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Encore",
@@ -43297,7 +45864,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Power Gem",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Future Sight",
@@ -43459,7 +46034,6 @@ em_imp_primary_mons = {
         "Psychic Noise",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Nasty Plot",
@@ -43468,7 +46042,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Power Gem",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -43595,7 +46177,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Alluring Voice",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Wish",
@@ -43739,7 +46329,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Alluring Voice",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Wish",
@@ -43871,7 +46469,6 @@ em_imp_primary_mons = {
         "Play Rough",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Pain Split",
@@ -43889,7 +46486,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Poison Fang",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Poison Fang",
@@ -44027,7 +46632,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Pain Split",
         "Bulk Up",
         "Calm Mind",
@@ -44037,7 +46641,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fire Punch",
@@ -44210,7 +46822,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Pain Split",
         "Bulk Up",
         "Calm Mind",
@@ -44221,7 +46832,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -44344,7 +46963,15 @@ em_imp_primary_mons = {
         "Pluck",
         "Icy Wind",
         "Moonblast",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Agility",
@@ -44533,7 +47160,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Icy Wind",
         "Moonblast",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -44588,7 +47223,16 @@ em_imp_primary_mons = {
           "Destiny Bond"
         ]
       ],
-      "tms": []
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ]
     },
     "bs": {
       "hp": 95,
@@ -44701,7 +47345,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Imprison",
@@ -44874,7 +47526,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Pain Split",
         "Calm Mind",
@@ -44884,7 +47535,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Knock Off",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -45015,7 +47674,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Rain Dance",
         "Power Whip",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Spikes",
@@ -45129,13 +47796,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pursuit",
@@ -45271,14 +47945,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -45429,7 +48110,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
@@ -45437,7 +48117,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -45543,12 +48231,19 @@ em_imp_primary_mons = {
         "Sludge Wave",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Pain Split",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Acid Armor",
@@ -45709,12 +48404,19 @@ em_imp_primary_mons = {
         "Sludge Wave",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Pain Split",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -45847,7 +48549,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Headbutt",
@@ -45958,7 +48668,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Take Down",
@@ -46096,12 +48814,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -46254,14 +48979,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Thunder Fang",
         "Ice Fang",
         "Fire Fang",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -46322,7 +49054,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Body Slam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Refresh",
@@ -46464,7 +49204,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Water Pulse",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -46579,7 +49327,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Dive",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -46718,7 +49474,15 @@ em_imp_primary_mons = {
         "Hex",
         "Sandstorm",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feint Attack",
@@ -46854,7 +49618,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -47011,7 +49783,15 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -47160,7 +49940,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Power Whip",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Stockpile",
@@ -47301,13 +50089,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flail",
@@ -47448,7 +50243,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Rain Dance",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Magnitude",
@@ -47586,7 +50389,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endeavor",
@@ -47741,7 +50552,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -47896,7 +50715,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Rock Polish",
         "Stealth Rock",
@@ -47910,7 +50728,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Supercell Slam",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -48016,7 +50842,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Future Sight",
@@ -48136,7 +50970,6 @@ em_imp_primary_mons = {
         "Acrobatics",
         "Play Rough",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Bug Bite",
         "Tailwind",
@@ -48146,7 +50979,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Focus Punch",
         "Rain Dance",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Silver Wind",
@@ -48271,7 +51112,6 @@ em_imp_primary_mons = {
         "Acrobatics",
         "Play Rough",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Bug Bite",
         "Tailwind",
@@ -48281,7 +51121,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Focus Punch",
         "Rain Dance",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Silver Wind",
@@ -48400,7 +51248,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Sandstorm",
         "Power Gem",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Barrier",
@@ -48550,7 +51406,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Meteor Beam",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -48663,7 +51527,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Meteor Beam",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Rapid Spin",
@@ -48824,7 +51696,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Meteor Beam",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -48945,7 +51825,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -49095,7 +51983,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -49257,7 +52153,15 @@ em_imp_primary_mons = {
         "Moonblast",
         "Knock Off",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -49360,7 +52264,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Hydro Pump",
@@ -49500,7 +52412,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -49664,7 +52584,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -49699,7 +52627,15 @@ em_imp_primary_mons = {
         "Zen Headbutt",
         "Iron Head",
         "Iron Defense",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -49825,7 +52761,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Rock Polish",
         "Stealth Rock",
@@ -49836,7 +52771,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -49965,7 +52908,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Rock Polish",
         "Stealth Rock",
@@ -49977,7 +52919,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -50101,7 +53051,6 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Rock Polish",
@@ -50113,7 +53062,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Meteor Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -50238,7 +53195,6 @@ em_imp_primary_mons = {
         "Superpower",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Rock Polish",
         "Snowscape",
@@ -50247,7 +53203,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -50373,7 +53337,6 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Rock Polish",
@@ -50386,7 +53349,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -50490,7 +53461,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Water Pulse",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -50604,7 +53583,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Bulk Up",
         "Rock Polish",
         "Stealth Rock",
@@ -50616,7 +53594,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Smack Down",
         "Spikes",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -50746,7 +53732,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -50902,7 +53896,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Mystical Fire",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -51059,7 +54061,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Mystical Fire",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -51183,7 +54193,6 @@ em_imp_primary_mons = {
         "Play Rough",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Calm Mind",
@@ -51196,7 +54205,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Moonblast",
         "Steel Beam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -51330,7 +54347,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -51436,7 +54461,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Shell Smash",
@@ -51569,7 +54602,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bulldoze",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -51721,7 +54762,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Sandstorm",
         "Trailblaze",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -51827,7 +54876,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Bulk Up",
         "Stealth Rock",
@@ -51835,7 +54883,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Blaze Kick",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fire Punch",
@@ -51986,7 +55042,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Bulk Up",
         "Stealth Rock",
@@ -51995,7 +55050,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Blaze Kick",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -52144,7 +55207,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Bulk Up",
         "Calm Mind",
@@ -52155,7 +55217,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Blaze Kick",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -52262,7 +55332,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Stealth Rock",
         "Snowscape",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Double Hit",
@@ -52410,7 +55488,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Stealth Rock",
         "Snowscape",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -52583,7 +55669,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Rain Dance",
         "Iron Head",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -52669,7 +55763,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feather Dance",
@@ -52779,7 +55881,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -52893,7 +56003,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -52998,7 +56116,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Swords Dance",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Quick Attack",
@@ -53143,7 +56269,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -53192,7 +56326,15 @@ em_imp_primary_mons = {
       ],
       "tms": [
         "Bullet Seed",
-        "Bug Bite"
+        "Bug Bite",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -53323,14 +56465,21 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Bug Bite",
         "Swords Dance",
         "Pin Missile",
         "Sunny Day",
         "Bug Buzz",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -53428,7 +56577,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Trailblaze",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Ice Fang",
@@ -53548,7 +56705,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Trailblaze",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -53669,7 +56834,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Psychic Fangs",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -53742,7 +56915,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Spikes",
@@ -53852,7 +57033,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Silver Wind",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -53953,14 +57142,21 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Rock Polish",
         "Stealth Rock",
         "Swords Dance",
         "Sunny Day",
         "Sandstorm",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Crunch",
@@ -54109,7 +57305,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Pain Split",
         "Rock Polish",
         "Stealth Rock",
@@ -54120,7 +57315,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -54230,7 +57433,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Headbutt",
@@ -54383,7 +57594,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -54432,7 +57651,15 @@ em_imp_primary_mons = {
       ],
       "tms": [
         "Electroweb",
-        "Bug Bite"
+        "Bug Bite",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -54568,7 +57795,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Rain Dance",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -54677,7 +57912,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {},
@@ -54717,7 +57960,15 @@ em_imp_primary_mons = {
         "Dual Wingbeat",
         "Bug Bite",
         "Tailwind",
-        "Bug Buzz"
+        "Bug Buzz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -54869,7 +58120,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Power Gem",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -54982,7 +58241,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Alluring Voice",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Covet",
@@ -55097,12 +58364,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Bulk Up",
         "Snowscape",
         "Tail Slap",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mud-Slap",
@@ -55253,13 +58527,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Waterfall",
-        "Power-Up Punch",
         "Bulk Up",
         "Snowscape",
         "Tail Slap",
         "Ice Fang",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -55362,7 +58643,15 @@ em_imp_primary_mons = {
         "Flash",
         "Swords Dance",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Razor Leaf",
@@ -55503,7 +58792,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -55581,7 +58878,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Body Slam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -55711,7 +59016,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -55834,7 +59147,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Foul Play",
         "Nasty Plot",
         "Tail Slap",
@@ -55845,7 +59157,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Dual Chop",
-        "Arm Thrust"
+        "Arm Thrust",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -55953,7 +59273,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Hex",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Memento",
@@ -56101,7 +59429,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -56215,12 +59551,19 @@ em_imp_primary_mons = {
         "Cut",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fake Tears",
@@ -56398,12 +59741,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -56500,7 +59850,15 @@ em_imp_primary_mons = {
         "Phantom Force",
         "Power Gem",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -56617,7 +59975,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -56725,7 +60091,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Rain Dance",
-        "Body Slam"
+        "Body Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Bite",
@@ -56865,7 +60239,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Body Slam",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -56947,7 +60329,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -57082,7 +60472,15 @@ em_imp_primary_mons = {
         "Hex",
         "Trailblaze",
         "Rain Dance",
-        "Poison Jab"
+        "Poison Jab",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pursuit",
@@ -57240,7 +60638,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -57367,7 +60773,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -57540,7 +60954,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -57640,7 +61062,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Sunny Day",
         "Sandstorm",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Self-Destruct",
@@ -57782,7 +61212,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Future Sight",
@@ -57876,7 +61314,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Present",
@@ -58005,7 +61451,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Alluring Voice",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Encore",
@@ -58124,7 +61578,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Destiny Bond",
@@ -58227,7 +61689,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Dragon Breath",
@@ -58353,7 +61823,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -58490,7 +61968,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Spikes",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -58626,14 +62112,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
         "Sandstorm",
         "Focus Punch",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Lick",
@@ -58746,7 +62239,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Swords Dance",
@@ -58755,7 +62247,15 @@ em_imp_primary_mons = {
         "Blaze Kick",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Cross Chop",
@@ -58925,7 +62425,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Calm Mind",
@@ -58936,7 +62435,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -59018,7 +62525,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Body Slam",
         "Sunny Day",
-        "Sandstorm"
+        "Sandstorm",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Body Slam",
@@ -59148,7 +62663,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -59263,7 +62786,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Bug Buzz",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feint Attack",
@@ -59434,7 +62965,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Bug Buzz",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -59558,13 +63097,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Foul Play",
         "Nasty Plot",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Me First",
@@ -59725,14 +63271,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Foul Play",
         "Swords Dance",
         "Nasty Plot",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -59833,7 +63386,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Sleep Powder",
@@ -59949,7 +63510,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Rain Dance",
         "Water Pulse",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Sweet Kiss",
@@ -60097,7 +63666,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Rain Dance",
         "Water Pulse",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -60201,7 +63778,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Twister",
@@ -60326,7 +63911,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Solar Beam",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Leech Seed",
@@ -60470,7 +64063,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -60605,7 +64206,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Calm Mind",
         "Foul Play",
         "Snowscape",
@@ -60615,7 +64215,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -60770,7 +64378,15 @@ em_imp_primary_mons = {
         "Supercell Slam",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -60904,7 +64520,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Swords Dance",
         "Body Slam",
         "Sunny Day",
@@ -60912,7 +64527,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Rain Dance",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -61059,7 +64682,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Drill Run",
         "Rock Polish",
@@ -61078,7 +64700,15 @@ em_imp_primary_mons = {
         "Megahorn",
         "Smack Down",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -61220,7 +64850,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Power Whip",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -61368,14 +65006,21 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Bulk Up",
         "Body Slam",
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -61507,7 +65152,6 @@ em_imp_primary_mons = {
         "Vacuum Wave",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Flame Charge",
         "Body Slam",
         "Sunny Day",
@@ -61515,7 +65159,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Focus Punch",
         "Flare Blitz",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -61612,7 +65264,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Focus Punch",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -61740,7 +65400,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -61866,7 +65534,15 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Trailblaze",
         "Rain Dance",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -61976,7 +65652,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -62134,7 +65818,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Power Whip",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -62288,7 +65980,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -62410,7 +66110,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -62584,7 +66292,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Pain Split",
         "Bulk Up",
@@ -62597,7 +66304,15 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Focus Punch",
         "Rain Dance",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -62760,7 +66475,15 @@ em_imp_primary_mons = {
         "Supercell Slam",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -62919,7 +66642,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Pain Split",
         "Calm Mind",
@@ -62929,7 +66651,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Knock Off",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -63066,7 +66796,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Hex",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -63173,7 +66911,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Hex",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -63290,7 +67036,15 @@ em_imp_primary_mons = {
         "Hex",
         "Rain Dance",
         "Flamethrower",
-        "Overheat"
+        "Overheat",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -63408,7 +67162,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Hydro Pump",
         "Scald",
-        "Surf"
+        "Surf",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -63530,7 +67292,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Blizzard",
         "Frost Breath",
-        "Ice Beam"
+        "Ice Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -63651,7 +67421,15 @@ em_imp_primary_mons = {
         "Hex",
         "Rain Dance",
         "Hurricane",
-        "Air Slash"
+        "Air Slash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -63775,7 +67553,6 @@ em_imp_primary_mons = {
         "Play Rough",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Foul Play",
@@ -63785,7 +67562,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -63909,7 +67694,6 @@ em_imp_primary_mons = {
         "Play Rough",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Stealth Rock",
@@ -63917,7 +67701,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64035,7 +67827,6 @@ em_imp_primary_mons = {
         "Play Rough",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Stealth Rock",
@@ -64043,7 +67834,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64165,7 +67964,15 @@ em_imp_primary_mons = {
         "Draco Barrage",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64287,7 +68094,15 @@ em_imp_primary_mons = {
         "Water Pulse",
         "Draco Barrage",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64398,7 +68213,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Power Gem",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64513,14 +68336,21 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Rock Polish",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64636,7 +68466,15 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64756,7 +68594,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Moonblast",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64850,7 +68696,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Moonblast",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -64960,7 +68814,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Moonblast",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -65057,7 +68919,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Dark Hole",
         "Charge Beam",
         "Calm Mind",
@@ -65067,7 +68928,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Phantom Force",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -65234,7 +69103,15 @@ em_imp_primary_mons = {
         "Steel Beam",
         "Heavy Slam",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -65375,7 +69252,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Charge Beam",
         "Stored Power",
@@ -65383,7 +69259,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Blaze Kick",
         "Mystical Fire",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -65494,7 +69378,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Leaf Blade"
+        "Leaf Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Captivate",
@@ -65639,7 +69531,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Leaf Blade"
+        "Leaf Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -65784,7 +69684,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Leaf Blade"
+        "Leaf Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -65897,7 +69805,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Flare Blitz",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Covet",
@@ -66056,7 +69972,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Body Slam",
         "Sunny Day",
@@ -66064,7 +69979,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Flare Blitz",
         "Arm Thrust",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -66214,7 +70137,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Bulk Up",
         "Body Slam",
@@ -66223,7 +70145,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Flare Blitz",
         "Arm Thrust",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -66332,7 +70262,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Swords Dance",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Copycat",
@@ -66484,7 +70422,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rain Dance",
         "Water Pulse",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -66652,7 +70598,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rain Dance",
         "Megahorn",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -66765,7 +70719,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Body Slam",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Foresight",
@@ -66926,13 +70888,20 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Swords Dance",
         "Nasty Plot",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Body Slam"
+        "Body Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -67041,7 +71010,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Sunny Day",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Howl",
@@ -67181,7 +71158,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Sunny Day",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -67318,7 +71303,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Sunny Day",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -67429,7 +71422,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pay Day",
@@ -67568,7 +71569,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -67683,7 +71692,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Solar Beam",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Covet",
@@ -67782,12 +71799,19 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Nasty Plot",
         "Sunny Day",
         "Solar Beam",
         "Power Gem",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -67906,7 +71930,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Covet",
@@ -68002,14 +72034,21 @@ em_imp_primary_mons = {
         "Cut",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Nasty Plot",
         "Sunny Day",
         "Solar Beam",
         "Mystical Fire",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -68128,7 +72167,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Focus Punch",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Covet",
@@ -68220,11 +72267,18 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Snowscape",
         "Nasty Plot",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -68337,7 +72391,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Stored Power",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Sleep Talk",
@@ -68423,7 +72485,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Rain Dance",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -68524,7 +72594,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Tailwind",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Steel Wing",
@@ -68656,7 +72734,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Drill Run",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -68782,7 +72868,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Rain Dance",
-        "Dual Wingbeat"
+        "Dual Wingbeat",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -68875,7 +72969,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Rain Dance",
         "Flare Blitz",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Me First",
@@ -69013,7 +73115,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Flare Blitz",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -69107,7 +73217,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Smack Down",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Magnitude",
@@ -69236,7 +73354,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Smack Down",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -69359,7 +73485,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Smack Down",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -69484,7 +73618,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Nasty Plot",
         "Stored Power",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Charm",
@@ -69644,7 +73786,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Stored Power",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -69745,7 +73895,15 @@ em_imp_primary_mons = {
         "Drill Run",
         "Stealth Rock",
         "Swords Dance",
-        "Sandstorm"
+        "Sandstorm",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Iron Defense",
@@ -69877,7 +74035,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rock Blast",
         "Sandstorm",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -70022,7 +74188,6 @@ em_imp_primary_mons = {
         "Surf",
         "Flash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Pain Split",
         "Calm Mind",
@@ -70032,7 +74197,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Moonblast",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Wish",
@@ -70156,12 +74329,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Defog"
+        "Defog",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Drain Punch",
@@ -70307,12 +74487,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Defog"
+        "Defog",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -70447,13 +74634,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Rock Blast",
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Defog"
+        "Defog",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -70547,7 +74741,15 @@ em_imp_primary_mons = {
         "Surf",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Water Pulse",
@@ -70673,7 +74875,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Power Whip",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -70815,13 +75025,20 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Stealth Rock",
         "Snowscape",
         "Focus Punch",
         "Rain Dance",
         "Power Whip",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -70936,13 +75153,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Pain Split",
         "Bulk Up",
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -71057,12 +75281,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Pain Split",
         "Bulk Up",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -71141,7 +75372,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Silver Wind",
@@ -71230,7 +75469,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -71371,7 +75618,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Leaf Blade",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -71474,7 +75729,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Solar Beam",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Twineedle",
@@ -71607,7 +75870,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Solar Beam",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -71750,7 +76021,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Megahorn",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -71858,7 +76137,15 @@ em_imp_primary_mons = {
         "Flash",
         "Tailwind",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Natural Gift",
@@ -71960,7 +76247,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Solar Beam",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -72069,7 +76364,15 @@ em_imp_primary_mons = {
         "Flash",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Natural Gift",
@@ -72191,7 +76494,15 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Trailblaze",
         "Power Gem",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -72310,7 +76621,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Ice Fang",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Swift",
@@ -72450,7 +76769,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Thunder Fang",
         "Fire Fang",
-        "Sandstorm"
+        "Sandstorm",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Double-Edge",
@@ -72591,13 +76918,20 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Foul Play",
         "Stealth Rock",
         "Thunder Fang",
         "Fire Fang",
         "Sandstorm",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -72738,7 +77072,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Dark Hole",
         "Bulk Up",
         "Foul Play",
@@ -72747,7 +77080,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Sandstorm",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -72861,13 +77202,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Fire Fang",
         "Sunny Day",
         "Solar Beam",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Sleep Talk",
@@ -73030,7 +77378,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Iron Defense",
         "Bulk Up",
@@ -73040,7 +77387,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -73167,7 +77522,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Bullet Seed",
@@ -73288,7 +77651,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Sandstorm",
         "Smack Down",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endure",
@@ -73427,7 +77798,15 @@ em_imp_primary_mons = {
         "Solar Blade",
         "Smack Down",
         "Spikes",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -73550,14 +77929,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Dragon Dance",
         "Foul Play",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Drain Punch",
@@ -73706,14 +78092,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Dragon Dance",
         "Foul Play",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -73848,7 +78241,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Meteor Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Stored Power",
@@ -73961,7 +78362,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Nasty Plot",
         "Hex",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Memento",
@@ -74102,7 +78511,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Hex",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -74231,7 +78648,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Water Pulse",
-        "Smack Down"
+        "Smack Down",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Water Pulse",
@@ -74401,7 +78826,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Smack Down",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -74526,7 +78959,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Rock Blast",
         "Sandstorm",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Steel Wing",
@@ -74677,7 +79118,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Rock Blast",
         "Sandstorm",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -74787,7 +79236,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Sunny Day",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Spikes",
@@ -74935,7 +79392,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -75046,7 +79511,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Hex",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Detect",
@@ -75210,7 +79683,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Hex",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -75327,7 +79808,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Tail Slap",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Iron Tail",
@@ -75423,7 +79912,15 @@ em_imp_primary_mons = {
         "Tail Slap",
         "Rock Blast",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -75540,7 +80037,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Stored Power",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mirror Coat",
@@ -75689,7 +80194,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Stored Power",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -75820,14 +80333,21 @@ em_imp_primary_mons = {
         "Psychic Noise",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Foul Play",
         "Nasty Plot",
         "Stored Power",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -75941,7 +80461,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Stored Power",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Night Shade",
@@ -76083,7 +80611,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Stored Power",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -76231,14 +80767,21 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Pain Split",
         "Calm Mind",
         "Stored Power",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -76343,7 +80886,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Steel Wing",
@@ -76484,7 +81035,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Trailblaze",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -76584,7 +81143,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Icicle Spear",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Water Pulse",
@@ -76713,7 +81280,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Icicle Spear",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -76843,7 +81418,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Icicle Spear",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -76946,7 +81529,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fake Tears",
@@ -77087,7 +81678,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -77203,7 +81802,15 @@ em_imp_primary_mons = {
         "Flash",
         "Charge Beam",
         "Tailwind",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Roost",
@@ -77320,7 +81927,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Bug Buzz",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Megahorn",
@@ -77485,7 +82100,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Rain Dance",
         "Megahorn",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -77585,7 +82208,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Gastro Acid",
@@ -77715,7 +82346,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -77822,7 +82461,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Hex",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Acid Armor",
@@ -77961,7 +82608,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Hex",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -78102,7 +82757,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Alluring Voice",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pain Split",
@@ -78217,7 +82880,15 @@ em_imp_primary_mons = {
         "Pin Missile",
         "Bug Buzz",
         "Rain Dance",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pin Missile",
@@ -78363,7 +83034,15 @@ em_imp_primary_mons = {
         "Pin Missile",
         "Bug Buzz",
         "Rain Dance",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -78473,7 +83152,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Spikes",
         "Steel Beam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Bullet Seed",
@@ -78633,7 +83320,15 @@ em_imp_primary_mons = {
         "Spikes",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -78733,7 +83428,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Steel Beam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -78850,7 +83553,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Steel Beam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -78987,7 +83698,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Steel Beam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -79033,7 +83752,15 @@ em_imp_primary_mons = {
         "Giga Drain",
         "Rising Voltage",
         "Thunder Wave",
-        "Charge Beam"
+        "Charge Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -79145,7 +83872,15 @@ em_imp_primary_mons = {
         "Acrobatics",
         "Flash",
         "Charge Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -79257,12 +83992,19 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Focus Punch",
         "Rain Dance",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -79386,7 +84128,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Meteor Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Teleport",
@@ -79554,7 +84304,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Meteor Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -79666,7 +84424,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Solar Beam",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Acid Armor",
@@ -79799,7 +84565,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Solar Beam",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -79876,7 +84650,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Mystical Fire",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -79986,7 +84768,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -80134,7 +84924,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -80291,7 +85089,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -80406,13 +85212,20 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Snowscape",
         "Ice Fang",
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Yawn",
@@ -80588,7 +85401,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Bulk Up",
         "Snowscape",
         "Swords Dance",
@@ -80597,7 +85409,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -80721,7 +85541,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Icicle Spear",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -80817,7 +85645,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Bug Buzz",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endure",
@@ -80963,7 +85799,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Sandstorm",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -81081,7 +85925,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Stealth Rock",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Shock Wave",
@@ -81218,13 +86070,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Calm Mind",
         "Swords Dance",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endure",
@@ -81371,7 +86230,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Calm Mind",
         "Swords Dance",
@@ -81379,7 +86237,15 @@ em_imp_primary_mons = {
         "Blaze Kick",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -81504,7 +86370,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Stealth Rock",
         "Thunder Fang",
@@ -81512,7 +86377,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fire Fang",
@@ -81648,7 +86521,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Rock Polish",
         "Stealth Rock",
@@ -81656,7 +86528,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -81823,7 +86703,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Rock Polish",
@@ -81834,7 +86713,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -81942,7 +86829,6 @@ em_imp_primary_mons = {
         "Snarl",
         "Cut",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Foul Play",
         "Rock Polish",
@@ -81950,7 +86836,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sandstorm",
         "Rain Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Revenge",
@@ -82097,7 +86991,6 @@ em_imp_primary_mons = {
         "Snarl",
         "Cut",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Foul Play",
         "Rock Polish",
@@ -82105,7 +86998,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sandstorm",
         "Rain Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -82234,7 +87135,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Stomp",
@@ -82370,7 +87279,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Bulk Up",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -82532,7 +87449,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Bulk Up",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -82649,7 +87574,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Steel Wing",
@@ -82811,7 +87744,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -82948,7 +87889,6 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Cut",
         "Rock Smash",
-        "Power-Up Punch",
         "Bug Bite",
         "Body Slam",
         "Sunny Day",
@@ -82956,7 +87896,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Flare Blitz",
         "Rain Dance",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pursuit",
@@ -83077,7 +88025,15 @@ em_imp_primary_mons = {
         "Iron Defense",
         "Thunder Fang",
         "Sandstorm",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Screech",
@@ -83201,7 +88157,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fire Fang",
@@ -83342,7 +88306,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -83495,7 +88467,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -83591,7 +88571,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Trailblaze",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "String Shot",
@@ -83764,7 +88752,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Trailblaze",
         "Flare Blitz",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -83887,7 +88883,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Megahorn",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -84007,7 +89011,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Sandstorm",
         "Megahorn",
-        "Smack Down"
+        "Smack Down",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -84131,7 +89143,15 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Trailblaze",
         "Megahorn",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -84273,7 +89293,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Body Slam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -84415,7 +89443,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Body Slam",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -84542,7 +89578,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Flare Blitz",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -84671,7 +89715,15 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Rain Dance",
         "Supercell Slam",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -84807,7 +89859,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Nasty Plot",
         "Body Slam",
-        "Sandstorm"
+        "Sandstorm",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -84937,7 +89997,15 @@ em_imp_primary_mons = {
         "Icicle Spear",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -85055,7 +90123,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Rain Dance",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -85203,7 +90279,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Bulk Up",
         "Calm Mind",
@@ -85211,7 +90286,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -85349,7 +90432,15 @@ em_imp_primary_mons = {
         "Blaze Kick",
         "Bug Buzz",
         "Steel Beam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {},
@@ -85467,7 +90558,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Rain Dance",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -85595,7 +90694,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Rain Dance",
         "Silver Wind",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -85693,7 +90800,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -85783,6 +90898,16 @@ em_imp_primary_mons = {
           92,
           "Hyper Voice"
         ]
+      ],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -85872,6 +90997,16 @@ em_imp_primary_mons = {
           92,
           "Hyper Voice"
         ]
+      ],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -85990,7 +91125,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Pain Split",
         "Bulk Up",
@@ -86001,7 +91135,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Focus Punch",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Synthesis",
@@ -86143,7 +91285,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Pain Split",
         "Bulk Up",
@@ -86154,7 +91295,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Focus Punch",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -86326,7 +91475,6 @@ em_imp_primary_mons = {
         "Flash",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Pain Split",
         "Bulk Up",
@@ -86338,7 +91486,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Leaf Blade",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -86449,12 +91605,19 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Cut",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Foul Play",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Wish",
@@ -86588,12 +91751,19 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Cut",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Foul Play",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -86757,7 +91927,6 @@ em_imp_primary_mons = {
         "Trick Room",
         "Cut",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Calm Mind",
         "Foul Play",
@@ -86765,7 +91934,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Mystical Fire",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -86870,11 +92047,18 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Trailblaze",
         "Rain Dance",
         "Water Pulse",
-        "Smack Down"
+        "Smack Down",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Bestow",
@@ -87001,11 +92185,18 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Trailblaze",
         "Rain Dance",
         "Water Pulse",
-        "Smack Down"
+        "Smack Down",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -87173,14 +92364,21 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Dark Hole",
         "Swords Dance",
         "Trailblaze",
         "Rain Dance",
         "Water Pulse",
         "Spikes",
-        "Smack Down"
+        "Smack Down",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -87292,11 +92490,18 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Swords Dance",
         "Sandstorm",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Spikes",
@@ -87448,14 +92653,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Foul Play",
         "Swords Dance",
         "Body Slam",
         "Sandstorm",
         "Focus Punch",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -87556,7 +92768,15 @@ em_imp_primary_mons = {
         "Flame Charge",
         "Tailwind",
         "Swords Dance",
-        "Sunny Day"
+        "Sunny Day",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Tailwind",
@@ -87684,7 +92904,15 @@ em_imp_primary_mons = {
         "Flame Charge",
         "Tailwind",
         "Swords Dance",
-        "Sunny Day"
+        "Sunny Day",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -87824,7 +93052,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -87868,7 +93104,15 @@ em_imp_primary_mons = {
         ]
       ],
       "tms": [
-        "Bug Bite"
+        "Bug Bite",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": []
     },
@@ -87916,7 +93160,15 @@ em_imp_primary_mons = {
       "tms": [
         "Electroweb",
         "Bug Bite",
-        "Iron Defense"
+        "Iron Defense",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -88046,7 +93298,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Rain Dance",
-        "Air Slash"
+        "Air Slash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -88160,7 +93420,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Flare Blitz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Entrainment",
@@ -88305,7 +93573,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Flare Blitz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -88403,7 +93679,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Copycat",
@@ -88520,7 +93804,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -88623,7 +93915,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Moonblast",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -88737,7 +94037,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Defense Curl",
@@ -88889,7 +94197,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -89007,7 +94323,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Foul Play",
         "Swords Dance",
@@ -89015,7 +94330,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Arm Thrust"
+        "Arm Thrust",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Me First",
@@ -89200,7 +94523,6 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Foul Play",
         "Swords Dance",
@@ -89208,7 +94530,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Arm Thrust"
+        "Arm Thrust",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -89307,7 +94637,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Role Play",
@@ -89403,7 +94741,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Trick",
@@ -89560,7 +94906,6 @@ em_imp_primary_mons = {
         "Cut",
         "Flash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Nasty Plot",
@@ -89568,7 +94913,15 @@ em_imp_primary_mons = {
         "Tail Slap",
         "Sunny Day",
         "Mystical Fire",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -89670,7 +95023,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rain Dance",
         "Solar Blade",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Metal Sound",
@@ -89794,7 +95155,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rain Dance",
         "Solar Blade",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -89909,7 +95278,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Moonblast",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -90062,7 +95439,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Moonblast",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -90167,7 +95552,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Sunny Day",
         "Rain Dance",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "After You",
@@ -90295,7 +95688,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Sunny Day",
         "Rain Dance",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -90419,7 +95820,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Simple Beam",
@@ -90573,7 +95982,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -90683,7 +96100,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Rock Polish",
         "Stealth Rock",
@@ -90691,7 +96107,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Sandstorm",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Tickle",
@@ -90836,7 +96260,6 @@ em_imp_primary_mons = {
         "Surf",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Rock Polish",
@@ -90845,7 +96268,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Sandstorm",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -90943,7 +96374,15 @@ em_imp_primary_mons = {
         "Waterfall",
         "Snowscape",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Toxic Spikes",
@@ -91081,7 +96520,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -91179,7 +96626,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rain Dance",
         "Water Pulse",
-        "Smack Down"
+        "Smack Down",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Aqua Jet",
@@ -91326,7 +96781,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rain Dance",
         "Water Pulse",
-        "Smack Down"
+        "Smack Down",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -91429,7 +96892,15 @@ em_imp_primary_mons = {
         "Flash",
         "Charge Beam",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Agility",
@@ -91536,7 +97007,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Sunny Day",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -91658,7 +97137,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Poison Fang",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Dragon Dance",
@@ -91835,7 +97322,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Meteor Beam",
         "Poison Fang",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -91970,7 +97465,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Haze",
@@ -92142,7 +97645,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -92257,7 +97768,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Moonblast",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -92386,14 +97905,21 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Tailwind",
         "Bulk Up",
         "Swords Dance",
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Agility",
@@ -92515,7 +98041,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Sunny Day",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Eerie Impulse",
@@ -92646,7 +98180,15 @@ em_imp_primary_mons = {
         "Spikes",
         "Heavy Slam",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -92728,7 +98270,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Acid Armor",
@@ -92836,7 +98386,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -92992,7 +98550,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Power Whip",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -93102,7 +98668,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Spikes",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Switcheroo",
@@ -93217,13 +98791,20 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Pain Split",
         "Foul Play",
         "Sunny Day",
         "Hex",
         "Solar Beam",
-        "Phantom Force"
+        "Phantom Force",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Grudge",
@@ -93367,7 +98948,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Pain Split",
         "Calm Mind",
         "Foul Play",
@@ -93375,7 +98955,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Phantom Force",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -93491,7 +99079,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Solar Beam",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -93649,7 +99245,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Phantom Force",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -93756,7 +99360,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Icicle Spear",
         "Ice Fang",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Recover",
@@ -93925,7 +99537,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Body Slam",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -94045,7 +99665,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Solar Beam",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Switcheroo",
@@ -94212,7 +99840,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Solar Beam",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -94338,7 +99974,15 @@ em_imp_primary_mons = {
         "Megahorn",
         "Moonblast",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -94461,7 +100105,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -94586,7 +100238,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -94717,7 +100377,15 @@ em_imp_primary_mons = {
         "Moonblast",
         "Spikes",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -94842,7 +100510,6 @@ em_imp_primary_mons = {
         "Psychic Noise",
         "Trick Room",
         "Flash",
-        "Power-Up Punch",
         "Dark Hole",
         "Charge Beam",
         "Calm Mind",
@@ -94852,7 +100519,15 @@ em_imp_primary_mons = {
         "Phantom Force",
         "Focus Punch",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -94989,7 +100664,15 @@ em_imp_primary_mons = {
         "Flare Blitz",
         "Rain Dance",
         "Water Pulse",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -95125,7 +100808,6 @@ em_imp_primary_mons = {
         "Cut",
         "Flash",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Calm Mind",
         "Nasty Plot",
@@ -95134,7 +100816,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Mystical Fire",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -95235,7 +100925,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -95342,7 +101040,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Curse",
@@ -95482,7 +101188,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -95659,7 +101373,15 @@ em_imp_primary_mons = {
         "Phantom Force",
         "Trailblaze",
         "Solar Blade",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -95781,7 +101503,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Sunny Day",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Nasty Plot",
@@ -95927,7 +101657,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Sunny Day",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -96095,7 +101833,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Work Up",
-        "Power-Up Punch",
         "Flame Charge",
         "Dark Hole",
         "Bulk Up",
@@ -96106,7 +101843,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Blaze Kick",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -96215,7 +101960,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Snowscape",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Charm",
@@ -96346,7 +102099,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Snowscape",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -96481,7 +102242,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Stored Power",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -96582,7 +102351,15 @@ em_imp_primary_mons = {
         "Flame Charge",
         "Tailwind",
         "Swords Dance",
-        "Sunny Day"
+        "Sunny Day",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Brave Bird",
@@ -96713,7 +102490,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Swords Dance",
         "Rock Blast",
-        "Sunny Day"
+        "Sunny Day",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -96850,7 +102635,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rock Blast",
         "Sunny Day",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -96955,7 +102748,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Fire Fang",
         "Sandstorm",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Revenge",
@@ -97098,7 +102899,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Fire Fang",
         "Sandstorm",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -97177,7 +102986,15 @@ em_imp_primary_mons = {
         "Acrobatics",
         "Charge Beam",
         "Bug Bite",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Harden",
@@ -97299,7 +103116,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Bug Bite",
         "Iron Defense",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -97457,7 +103282,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -97557,12 +103390,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Wide Guard",
@@ -97701,13 +103541,20 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Snowscape",
         "Sunny Day",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -97819,7 +103666,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Alluring Voice",
         "Sandstorm",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Pluck",
@@ -97919,7 +103774,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Bug Buzz",
         "Moonblast",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Skill Swap",
@@ -98057,7 +103920,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Trailblaze",
         "Silver Wind",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -98162,7 +104033,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Thunder Fang",
         "Fire Fang",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Crush Claw",
@@ -98283,7 +104162,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Muddy Water",
@@ -98383,7 +104270,15 @@ em_imp_primary_mons = {
         "Pain Split",
         "Snowscape",
         "Pin Missile",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Stockpile",
@@ -98515,7 +104410,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Pin Missile",
         "Hex",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -98617,7 +104520,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Body Slam",
         "Sandstorm",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Body Slam",
@@ -98749,7 +104660,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Body Slam",
         "Sandstorm",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -98847,7 +104766,15 @@ em_imp_primary_mons = {
         "Bug Bite",
         "Iron Defense",
         "Bug Buzz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Power Split",
@@ -98986,7 +104913,15 @@ em_imp_primary_mons = {
         "Bug Bite",
         "Iron Defense",
         "Bug Buzz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -99077,7 +105012,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Leaf Blade",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Weather Ball",
@@ -99223,7 +105166,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -99319,7 +105270,15 @@ em_imp_primary_mons = {
         "Flash",
         "Sunny Day",
         "Solar Beam",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Amnesia",
@@ -99449,7 +105408,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -99555,7 +105522,15 @@ em_imp_primary_mons = {
         "Flame Charge",
         "Foul Play",
         "Nasty Plot",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belch",
@@ -99720,7 +105695,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Trailblaze",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -99819,11 +105802,18 @@ em_imp_primary_mons = {
         "Superpower",
         "Strength",
         "Work Up",
-        "Power-Up Punch",
         "Pain Split",
         "Bulk Up",
         "Swords Dance",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Ice Punch",
@@ -99955,12 +105945,19 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Work Up",
-        "Power-Up Punch",
         "Pain Split",
         "Bulk Up",
         "Swords Dance",
         "Body Slam",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -100041,7 +106038,15 @@ em_imp_primary_mons = {
         "Play Rough",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Grass Whistle",
@@ -100171,7 +106176,15 @@ em_imp_primary_mons = {
         "Cut",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -100315,7 +106328,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Power Whip",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -100444,7 +106465,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Stored Power",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endure",
@@ -100564,7 +106593,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Extrasensory",
@@ -100697,12 +106734,19 @@ em_imp_primary_mons = {
         "Strength",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Sunny Day",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Seismic Toss",
@@ -100752,7 +106796,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Bug Buzz",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Spikes",
@@ -100901,7 +106953,15 @@ em_imp_primary_mons = {
         "Pin Missile",
         "Bug Buzz",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -101013,7 +107073,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Hex",
         "Sandstorm",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Amnesia",
@@ -101144,7 +107212,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Hex",
         "Sandstorm",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -101241,7 +107317,15 @@ em_imp_primary_mons = {
         "Reflect",
         "Pain Split",
         "Snowscape",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endure",
@@ -101367,7 +107451,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -101547,7 +107639,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Poison Fang",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -101657,7 +107757,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Sandstorm",
         "Power Gem",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {},
@@ -101753,7 +107861,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Swords Dance",
         "Sunny Day",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Charm",
@@ -101889,7 +108005,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Draco Barrage",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Wide Guard",
@@ -102010,7 +108134,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Pin Missile",
         "Steel Beam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Reversal",
@@ -102130,14 +108262,21 @@ em_imp_primary_mons = {
         "Trick Room",
         "Cut",
         "Work Up",
-        "Power-Up Punch",
         "Charge Beam",
         "Pain Split",
         "Bulk Up",
         "Swords Dance",
         "Hex",
         "Phantom Force",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Grudge",
@@ -102251,7 +108390,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Water Pulse",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Water Pulse",
@@ -102388,7 +108535,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Hurricane",
@@ -102528,7 +108683,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Solar Blade",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -102643,7 +108806,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sandstorm",
         "Dragon Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -102795,13 +108966,20 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Swords Dance",
         "Sandstorm",
         "Dragon Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -102977,7 +109155,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Dragon Dance",
@@ -102986,7 +109163,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sandstorm",
         "Focus Punch",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -103118,7 +109303,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Rain Dance",
         "Supercell Slam",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -103241,7 +109434,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Moonblast",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -103368,7 +109569,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Calm Mind",
@@ -103378,7 +109578,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Megahorn",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -103505,7 +109713,15 @@ em_imp_primary_mons = {
         "Moonblast",
         "Water Pulse",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -103541,7 +109757,15 @@ em_imp_primary_mons = {
         ]
       ],
       "tms": [
-        "Teleport"
+        "Teleport",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -103586,7 +109810,15 @@ em_imp_primary_mons = {
         ]
       ],
       "tms": [
-        "Teleport"
+        "Teleport",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -103738,7 +109970,15 @@ em_imp_primary_mons = {
         "Flare Blitz",
         "Meteor Beam",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -103874,7 +110114,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Phantom Force",
         "Meteor Beam",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -104006,7 +110254,15 @@ em_imp_primary_mons = {
         "Hex",
         "Sandstorm",
         "Power Gem",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -104142,11 +110398,18 @@ em_imp_primary_mons = {
         "Superpower",
         "Strength",
         "Work Up",
-        "Power-Up Punch",
         "Bug Bite",
         "Bulk Up",
         "Body Slam",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -104270,7 +110533,15 @@ em_imp_primary_mons = {
         "Drill Run",
         "Foul Play",
         "Bug Buzz",
-        "Silver Wind"
+        "Silver Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -104390,7 +110661,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Rain Dance",
         "Power Whip",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -104524,7 +110803,15 @@ em_imp_primary_mons = {
         "Smack Down",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -104643,7 +110930,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Leaf Blade",
         "Solar Blade",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -104791,12 +111086,19 @@ em_imp_primary_mons = {
         "Draco Meteor",
         "Cut",
         "Strength",
-        "Power-Up Punch",
         "Dark Hole",
         "Iron Defense",
         "Body Slam",
         "Draco Barrage",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -104944,7 +111246,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Meteor Beam",
         "Draco Barrage",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -105071,7 +111381,15 @@ em_imp_primary_mons = {
         "Heavy Slam",
         "Gravity",
         "Misty Explosion",
-        "Draining Kiss"
+        "Draining Kiss",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -105186,14 +111504,21 @@ em_imp_primary_mons = {
         "Superpower",
         "Strength",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Calm Mind",
         "Foul Play",
         "Hex",
         "Blaze Kick",
         "Phantom Force",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -105290,7 +111615,15 @@ em_imp_primary_mons = {
         "Cut",
         "Body Slam",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Snatch",
@@ -105442,7 +111775,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -105532,7 +111873,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Trailblaze",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -105651,7 +112000,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Icicle Spear",
         "Spikes",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Ice Shard",
@@ -105770,7 +112127,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Spikes",
         "Steel Beam",
-        "Ice Spinner"
+        "Ice Spinner",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -105894,7 +112259,15 @@ em_imp_primary_mons = {
         "Hex",
         "Rain Dance",
         "Moonblast",
-        "Dazzling Gleam"
+        "Dazzling Gleam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Freeze-Dry",
@@ -106007,7 +112380,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Hex",
         "Rain Dance",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -106105,7 +112486,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feint Attack",
@@ -106250,7 +112639,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -106367,7 +112764,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Hypnosis",
@@ -106536,7 +112941,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Power Gem",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -106652,7 +113065,6 @@ em_imp_primary_mons = {
         "Superpower",
         "Scorching Sands",
         "Strength",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Rock Polish",
@@ -106663,7 +113075,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Smack Down",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Block",
@@ -106808,7 +113228,6 @@ em_imp_primary_mons = {
         "Superpower",
         "Scorching Sands",
         "Strength",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Rock Polish",
@@ -106820,7 +113239,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Meteor Beam",
         "Smack Down",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -106976,7 +113403,6 @@ em_imp_primary_mons = {
         "Heat Crash",
         "Body Press",
         "Strength",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Rock Polish",
@@ -106989,7 +113415,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Smack Down",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -107105,13 +113539,20 @@ em_imp_primary_mons = {
         "Sludge Wave",
         "Snarl",
         "Strength",
-        "Power-Up Punch",
         "Pain Split",
         "Rock Polish",
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Clear Smog",
@@ -107268,7 +113709,6 @@ em_imp_primary_mons = {
         "Sludge Wave",
         "Snarl",
         "Strength",
-        "Power-Up Punch",
         "Dark Hole",
         "Pain Split",
         "Rock Polish",
@@ -107276,7 +113716,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -107385,7 +113833,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Power Whip",
         "Draco Barrage",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -107522,7 +113978,6 @@ em_imp_primary_mons = {
         "Scorching Sands",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Flame Charge",
         "Iron Defense",
         "Pain Split",
@@ -107534,7 +113989,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Flare Blitz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -107657,7 +114120,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Calm Mind",
@@ -107671,7 +114133,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Teleport",
         "Spikes",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -107793,7 +114263,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Calm Mind",
@@ -107807,7 +114276,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Teleport",
         "Spikes",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -107929,7 +114406,6 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Rock Smash",
-        "Power-Up Punch",
         "Charge Beam",
         "Iron Defense",
         "Calm Mind",
@@ -107943,7 +114419,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Teleport",
         "Spikes",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108086,7 +114570,6 @@ em_imp_primary_mons = {
         "Play Rough",
         "Cut",
         "Strength",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Foul Play",
@@ -108099,7 +114582,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Psychic Fangs",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108185,7 +114676,15 @@ em_imp_primary_mons = {
         "Cut",
         "Nasty Plot",
         "Pin Missile",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108314,7 +114813,15 @@ em_imp_primary_mons = {
         "Pin Missile",
         "Hex",
         "Spikes",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108420,7 +114927,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108522,7 +115037,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Stored Power",
         "Sunny Day",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108644,12 +115167,19 @@ em_imp_primary_mons = {
         "Strength",
         "Flash",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Calm Mind",
         "Blaze Kick",
         "Focus Punch",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108788,7 +115318,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Sandstorm",
         "Trailblaze",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108848,7 +115386,15 @@ em_imp_primary_mons = {
         "Gyro Ball",
         "Flash Cannon",
         "Iron Defense",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -108961,13 +115507,20 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Body Slam",
         "Solar Beam",
         "Focus Punch",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -109058,7 +115611,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Solar Blade",
-        "Strength"
+        "Strength",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fake Out",
@@ -109176,7 +115737,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Solar Blade",
-        "Strength"
+        "Strength",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -109315,7 +115884,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Solar Blade",
-        "Strength"
+        "Strength",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -109408,7 +115985,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Sunny Day",
         "Blaze Kick",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "High Jump Kick",
@@ -109523,7 +116108,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Blaze Kick",
         "Trailblaze",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -109653,7 +116246,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Blaze Kick",
         "Trailblaze",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -109738,7 +116339,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Rain Dance",
         "Water Pulse",
-        "Icy Wind"
+        "Icy Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Aqua Jet",
@@ -109853,7 +116462,15 @@ em_imp_primary_mons = {
         "Work Up",
         "Rain Dance",
         "Water Pulse",
-        "Icy Wind"
+        "Icy Wind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -109981,7 +116598,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Icicle Spear",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -110077,7 +116702,15 @@ em_imp_primary_mons = {
         "Gyro Ball",
         "Tail Slap",
         "Body Slam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belly Drum",
@@ -110206,7 +116839,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Trailblaze",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -110291,7 +116932,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Nasty Plot",
         "Rock Smash",
-        "Pluck"
+        "Pluck",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Defog",
@@ -110391,7 +117040,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Nasty Plot",
         "Pluck",
-        "Rock Smash"
+        "Rock Smash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -110510,7 +117167,15 @@ em_imp_primary_mons = {
         "Pluck",
         "Rock Smash",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -110541,7 +117206,16 @@ em_imp_primary_mons = {
           "Struggle Bug"
         ]
       ],
-      "tms": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
       "egg": [
         "Infestation",
         "Recover",
@@ -110627,7 +117301,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Stored Power",
         "Solar Beam",
-        "Bug Buzz"
+        "Bug Buzz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -110757,7 +117439,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Stored Power",
         "Solar Beam",
-        "Bug Buzz"
+        "Bug Buzz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -110839,7 +117529,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Tail Slap",
         "Knock Off",
-        "Dark Pulse"
+        "Dark Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Howl",
@@ -110963,7 +117661,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Fire Fang",
         "Mystical Fire",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -111042,7 +117748,15 @@ em_imp_primary_mons = {
         "Grassy Glide",
         "Grass Knot",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Growth",
@@ -111149,7 +117863,15 @@ em_imp_primary_mons = {
         "Grassy Glide",
         "Grass Knot",
         "Sunny Day",
-        "Solar Beam"
+        "Solar Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -111226,7 +117948,15 @@ em_imp_primary_mons = {
       "tms": [
         "Grassy Glide",
         "Thunder Wave",
-        "Wild Charge"
+        "Wild Charge",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -111322,7 +118052,15 @@ em_imp_primary_mons = {
         "Wild Charge",
         "Body Press",
         "Swords Dance",
-        "Body Slam"
+        "Body Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -111393,7 +118131,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Body Slam",
         "Rain Dance",
-        "Dragon Tail"
+        "Dragon Tail",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Dragon Tail",
@@ -111531,7 +118277,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Megahorn",
-        "Dragon Tail"
+        "Dragon Tail",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -111615,7 +118369,15 @@ em_imp_primary_mons = {
         "Flame Charge",
         "Charge Beam",
         "Thunder Fang",
-        "Fire Fang"
+        "Fire Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Discharge",
@@ -111733,7 +118495,15 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Ice Fang",
         "Fire Fang",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -111823,7 +118593,15 @@ em_imp_primary_mons = {
         "Explosion",
         "Smack Down",
         "Scorching Sands",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Block",
@@ -111947,7 +118725,15 @@ em_imp_primary_mons = {
         "Smack Down",
         "Explosion",
         "Spikes",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -112091,7 +118877,15 @@ em_imp_primary_mons = {
         "Smack Down",
         "Spikes",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -112135,7 +118929,15 @@ em_imp_primary_mons = {
         ]
       ],
       "tms": [
-        "Grassy Glide"
+        "Grassy Glide",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Defense Curl",
@@ -112294,7 +119096,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Draco Barrage",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -112428,7 +119238,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Draco Barrage",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -112517,7 +119335,15 @@ em_imp_primary_mons = {
         "Drill Run",
         "Sandstorm",
         "Rock Tomb",
-        "Rock Slide"
+        "Rock Slide",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belch",
@@ -112640,7 +119466,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Fire Fang",
         "Body Slam",
-        "Sandstorm"
+        "Sandstorm",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -112742,7 +119576,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Rain Dance",
         "Pluck",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Aerial Ace",
@@ -112829,7 +119671,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Psychic Fangs",
         "Rain Dance",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Night Slash",
@@ -112926,7 +119776,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Psychic Fangs",
         "Rain Dance",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -112979,7 +119837,14 @@ em_imp_primary_mons = {
       "tms": [
         "Rising Voltage",
         "Charge Beam",
-        "Power-Up Punch"
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endeavor",
@@ -113149,7 +120014,14 @@ em_imp_primary_mons = {
         "Stored Power",
         "Hex",
         "Trailblaze",
-        "Power-Up Punch"
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -113241,7 +120113,15 @@ em_imp_primary_mons = {
         "Bug Bite",
         "Sunny Day",
         "Bug Buzz",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Defense Curl",
@@ -113367,7 +120247,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Mystical Fire",
         "Flare Blitz",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -113454,12 +120342,19 @@ em_imp_primary_mons = {
         "Superpower",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Pain Split",
         "Bulk Up",
         "Body Slam",
         "Focus Punch",
-        "Rock Smash"
+        "Rock Smash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Circle Throw",
@@ -113597,13 +120492,20 @@ em_imp_primary_mons = {
         "Surf",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Pain Split",
         "Bulk Up",
         "Body Slam",
         "Focus Punch",
         "Rock Smash",
-        "Arm Thrust"
+        "Arm Thrust",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -113694,7 +120596,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Stored Power",
         "Hex",
-        "Phantom Force"
+        "Phantom Force",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -113808,7 +120718,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Stored Power",
         "Hex",
-        "Phantom Force"
+        "Phantom Force",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -113888,7 +120806,15 @@ em_imp_primary_mons = {
         "Play Rough",
         "Calm Mind",
         "Stored Power",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "After You",
@@ -113992,7 +120918,15 @@ em_imp_primary_mons = {
         "Play Rough",
         "Calm Mind",
         "Stored Power",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -114112,7 +121046,15 @@ em_imp_primary_mons = {
         "Power Whip",
         "Moonblast",
         "Gravity",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -114208,7 +121150,15 @@ em_imp_primary_mons = {
         "Play Rough",
         "Foul Play",
         "Nasty Plot",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Parting Shot"
@@ -114324,7 +121274,15 @@ em_imp_primary_mons = {
         "Play Rough",
         "Foul Play",
         "Nasty Plot",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -114470,7 +121428,6 @@ em_imp_primary_mons = {
         "Superpower",
         "Play Rough",
         "Body Press",
-        "Power-Up Punch",
         "Dark Hole",
         "Bulk Up",
         "Foul Play",
@@ -114478,7 +121435,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Trailblaze",
         "Power Whip",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -114639,7 +121604,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Knock Off",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -114769,7 +121742,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -114891,7 +121872,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Meteor Beam",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -115007,7 +121996,6 @@ em_imp_primary_mons = {
         "Brave Bird",
         "Cut",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Tailwind",
         "Drill Run",
@@ -115016,7 +122004,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Leaf Blade",
         "Solar Blade",
-        "Rock Smash"
+        "Rock Smash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -115205,7 +122201,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -115343,7 +122347,15 @@ em_imp_primary_mons = {
         "Hex",
         "Sandstorm",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -115421,7 +122433,15 @@ em_imp_primary_mons = {
       "tms": [
         "Draining Kiss",
         "Dazzling Gleam",
-        "Stored Power"
+        "Stored Power",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Baby-Doll Eyes",
@@ -115573,7 +122593,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Moonblast",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -115680,7 +122708,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Trailblaze",
         "Megahorn",
-        "Rock Smash"
+        "Rock Smash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -115780,7 +122816,15 @@ em_imp_primary_mons = {
         "Hex",
         "Rain Dance",
         "Supercell Slam",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Memento",
@@ -115823,7 +122867,15 @@ em_imp_primary_mons = {
         "Icy Wind",
         "Bug Bite",
         "Icicle Spear",
-        "Bug Buzz"
+        "Bug Buzz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Bug Bite",
@@ -115959,7 +123011,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Snowscape",
         "Icicle Spear",
-        "Bug Buzz"
+        "Bug Buzz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -116057,7 +123117,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Ancient Power",
@@ -116156,7 +123224,15 @@ em_imp_primary_mons = {
         "Waterfall",
         "Iron Defense",
         "Snowscape",
-        "Icicle Spear"
+        "Icicle Spear",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Aqua Ring",
@@ -116260,7 +123336,15 @@ em_imp_primary_mons = {
         "Trick Room",
         "Calm Mind",
         "Stored Power",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Psych Up",
@@ -116377,7 +123461,15 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Ice Fang",
         "Fire Fang",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Charge",
@@ -116489,7 +123581,15 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Strength",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belch",
@@ -116624,7 +123724,15 @@ em_imp_primary_mons = {
         "Strength",
         "Supercell Slam",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -116736,7 +123844,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Pluck",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -116845,7 +123961,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Meteor Beam",
         "Rain Dance",
-        "Pluck"
+        "Pluck",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -116950,7 +124074,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Meteor Beam",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -117050,7 +124182,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Psychic Fangs",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -117160,7 +124300,15 @@ em_imp_primary_mons = {
         "Roar",
         "Draco Barrage",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mirror Coat",
@@ -117221,7 +124369,15 @@ em_imp_primary_mons = {
       ],
       "tms": [
         "Thunder Wave",
-        "Dragon Tail"
+        "Dragon Tail",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Confuse Ray",
@@ -117352,7 +124508,15 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Psychic Fangs",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -117495,7 +124659,15 @@ em_imp_primary_mons = {
         "Phantom Force",
         "Psychic Fangs",
         "Shadow Claw",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -117589,7 +124761,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Solar Blade",
         "Moonblast",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -117688,7 +124868,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Moonblast",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -117796,7 +124984,15 @@ em_imp_primary_mons = {
         "Dragon Tail",
         "Dragon Dance",
         "Draco Barrage",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -117903,11 +125099,18 @@ em_imp_primary_mons = {
         "Fire Punch",
         "Ice Punch",
         "Superpower",
-        "Power-Up Punch",
         "Bulk Up",
         "Foul Play",
         "Focus Punch",
-        "Rock Smash"
+        "Rock Smash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -118040,13 +125243,20 @@ em_imp_primary_mons = {
         "Fire Punch",
         "Ice Punch",
         "Superpower",
-        "Power-Up Punch",
         "Bulk Up",
         "Foul Play",
         "Swords Dance",
         "Trailblaze",
         "Focus Punch",
-        "Rock Smash"
+        "Rock Smash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -118181,7 +125391,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Power Whip",
-        "Energy Ball"
+        "Energy Ball",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -118288,7 +125506,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Solar Beam",
         "Trailblaze",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -118391,7 +125617,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -118492,7 +125726,15 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Fire Fang",
         "Body Slam",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -118645,7 +125887,14 @@ em_imp_primary_mons = {
         "Stored Power",
         "Hex",
         "Trailblaze",
-        "Power-Up Punch"
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -118741,7 +125990,15 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Alluring Voice",
         "Stored Power",
-        "Mystical Fire"
+        "Mystical Fire",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fake Out",
@@ -118870,13 +126127,20 @@ em_imp_primary_mons = {
         "Ice Punch",
         "Superpower",
         "Ice Spinner",
-        "Power-Up Punch",
         "Bulk Up",
         "Foul Play",
         "Swords Dance",
         "Trailblaze",
         "Focus Punch",
-        "Rock Smash"
+        "Rock Smash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -118988,7 +126252,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Covet",
@@ -119101,7 +126373,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Stored Power",
         "Mystical Fire",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Double Kick",
@@ -119238,7 +126518,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Mystical Fire",
         "Flare Blitz",
-        "Megahorn"
+        "Megahorn",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -119372,7 +126660,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belch",
@@ -119530,7 +126826,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Body Slam",
         "Water Pulse",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -119626,7 +126930,6 @@ em_imp_primary_mons = {
         "Brave Bird",
         "Cut",
         "Work Up",
-        "Power-Up Punch",
         "Tailwind",
         "Drill Run",
         "Swords Dance",
@@ -119634,7 +126937,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Leaf Blade",
         "Solar Blade",
-        "Rock Smash"
+        "Rock Smash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -119800,7 +127111,15 @@ em_imp_primary_mons = {
         "Pain Split",
         "Sunny Day",
         "Rain Dance",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -119974,7 +127293,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Stored Power",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Future Sight",
@@ -120116,7 +127443,15 @@ em_imp_primary_mons = {
         "Fly",
         "Tailwind",
         "Calm Mind",
-        "Stored Power"
+        "Stored Power",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -120234,7 +127569,15 @@ em_imp_primary_mons = {
         "Blaze Kick",
         "Trailblaze",
         "Rock Smash",
-        "Pluck"
+        "Pluck",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -120350,7 +127693,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Foul Play",
         "Nasty Plot",
-        "Hex"
+        "Hex",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -120502,7 +127853,15 @@ em_imp_primary_mons = {
         "Hex",
         "Power Gem",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -120616,7 +127975,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Confuse Ray",
@@ -120731,7 +128098,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Knock Off",
@@ -120876,7 +128251,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance",
-        "Knock Off"
+        "Knock Off",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -120986,12 +128369,19 @@ em_imp_primary_mons = {
         "Ice Punch",
         "Superpower",
         "Work Up",
-        "Power-Up Punch",
         "Ice Fang",
         "Fire Fang",
         "Sunny Day",
         "Flare Blitz",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Flame Wheel",
@@ -121129,7 +128519,6 @@ em_imp_primary_mons = {
         "Superpower",
         "Body Press",
         "Work Up",
-        "Power-Up Punch",
         "Iron Defense",
         "Bulk Up",
         "Ice Fang",
@@ -121137,7 +128526,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Flare Blitz",
-        "Focus Punch"
+        "Focus Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -121256,7 +128653,15 @@ em_imp_primary_mons = {
         "Hex",
         "Sandstorm",
         "Rain Dance",
-        "Will-O-Wisp"
+        "Will-O-Wisp",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Memento"
@@ -121370,7 +128775,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Sandstorm",
         "Rain Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Astonish",
@@ -121533,7 +128946,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Megahorn",
         "Iron Defense",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -121679,7 +129100,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Phantom Force",
         "Trailblaze",
-        "Nasty Plot"
+        "Nasty Plot",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -121782,7 +129211,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Megahorn",
         "Iron Defense",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -121884,7 +129321,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Hex",
         "Phantom Force",
-        "Nasty Plot"
+        "Nasty Plot",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -122029,7 +129474,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Psychic Fangs",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Body Slam",
@@ -122173,7 +129626,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Psychic Fangs",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -122329,7 +129790,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Hex",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -122483,7 +129952,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
-        "Tailwind"
+        "Tailwind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -122623,7 +130100,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Megahorn",
         "Calm Mind",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -122766,7 +130251,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Bug Buzz",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -122879,7 +130372,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Captivate",
@@ -123050,7 +130551,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -123187,7 +130696,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Foul Play",
         "Solar Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Leech Seed",
@@ -123340,7 +130857,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Solar Beam",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -123440,7 +130965,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Draco Barrage",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -123596,7 +131129,15 @@ em_imp_primary_mons = {
         "Power Whip",
         "Draco Barrage",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -123754,7 +131295,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Phantom Force",
         "Focus Punch",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -123916,7 +131465,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rain Dance",
         "Megahorn",
-        "Air Slash"
+        "Air Slash",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -124084,13 +131641,20 @@ em_imp_primary_mons = {
         "Brave Bird",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze",
         "Focus Punch",
         "Swords Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -124249,7 +131813,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Rock Slide",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -124387,7 +131959,6 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Bulk Up",
         "Rock Blast",
         "Body Slam",
@@ -124397,7 +131968,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -124540,7 +132119,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Moonblast",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -124656,7 +132243,6 @@ em_imp_primary_mons = {
         "Ice Spinner",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Bulk Up",
         "Alluring Voice",
         "Sunny Day",
@@ -124664,7 +132250,15 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Trailblaze",
         "Focus Punch",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -124797,7 +132391,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Bulk Up",
         "Calm Mind",
         "Foul Play",
@@ -124807,7 +132400,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Ice Punch"
+        "Ice Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -124967,7 +132568,6 @@ em_imp_primary_mons = {
         "Cut",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Bulk Up",
         "Calm Mind",
         "Foul Play",
@@ -124977,7 +132577,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance",
-        "Ice Punch"
+        "Ice Punch",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -125120,7 +132728,15 @@ em_imp_primary_mons = {
         "Pin Missile",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Acid Spray",
@@ -125281,7 +132897,15 @@ em_imp_primary_mons = {
         "Pin Missile",
         "Rain Dance",
         "Water Pulse",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -125416,7 +133040,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Iron Defense",
         "Moonblast",
-        "Calm Mind"
+        "Calm Mind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -125509,7 +133141,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Leech Seed",
@@ -125618,11 +133258,18 @@ em_imp_primary_mons = {
         "Play Rough",
         "Cut",
         "Work Up",
-        "Power-Up Punch",
         "Nasty Plot",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -125754,7 +133401,6 @@ em_imp_primary_mons = {
         "Cut",
         "Rock Smash",
         "Work Up",
-        "Power-Up Punch",
         "Dark Hole",
         "Foul Play",
         "Nasty Plot",
@@ -125762,7 +133408,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Power Gem",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -125856,7 +133510,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Sunny Day",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Curse",
@@ -125966,7 +133628,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Sunny Day",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -126095,7 +133765,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Mystical Fire",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -126175,7 +133853,15 @@ em_imp_primary_mons = {
         "Brave Bird",
         "Surf",
         "Work Up",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Detect",
@@ -126272,7 +133958,15 @@ em_imp_primary_mons = {
         "Brave Bird",
         "Surf",
         "Work Up",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -126402,7 +134096,15 @@ em_imp_primary_mons = {
         "Bulk Up",
         "Swords Dance",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -126502,7 +134204,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Mist",
@@ -126626,7 +134336,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Megahorn",
         "Spikes",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -126713,7 +134431,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Sandstorm",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Final Gambit",
@@ -126822,7 +134548,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Sandstorm",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -126912,7 +134646,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Body Slam",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Icicle Spear",
@@ -127021,7 +134763,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Body Slam",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -127154,7 +134904,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Body Slam",
         "Rain Dance",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -127263,7 +135021,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Phantom Force",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -127402,7 +135168,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Phantom Force",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -127498,7 +135272,15 @@ em_imp_primary_mons = {
         "Volt Switch",
         "Wild Charge",
         "Charge Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Muddy Water",
@@ -127615,7 +135397,15 @@ em_imp_primary_mons = {
         "Surf",
         "Charge Beam",
         "Rain Dance",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -127739,7 +135529,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Flare Blitz",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -127879,7 +135677,15 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Flare Blitz",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -128020,7 +135826,6 @@ em_imp_primary_mons = {
         "Snarl",
         "Cut",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Foul Play",
         "Rock Polish",
@@ -128028,7 +135833,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sandstorm",
         "Rain Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -128184,7 +135997,6 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Waterfall",
         "Work Up",
-        "Power-Up Punch",
         "Bulk Up",
         "Stealth Rock",
         "Body Slam",
@@ -128192,7 +136004,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Phantom Force",
         "Focus Punch",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -128267,7 +136087,15 @@ em_imp_primary_mons = {
         "Will-O-Wisp",
         "Flame Charge",
         "Sunny Day",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Disable",
@@ -128460,7 +136288,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -128571,7 +136407,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Supercell Slam",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Iron Tail",
@@ -128671,7 +136515,15 @@ em_imp_primary_mons = {
         "Waterfall",
         "Body Slam",
         "Rain Dance",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -128814,7 +136666,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Focus Punch",
         "Rain Dance",
-        "Dive"
+        "Dive",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "gr": 5,
@@ -128923,7 +136783,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Rain Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Toxic",
@@ -129068,7 +136936,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -129186,7 +137062,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Rain Dance",
         "Power Whip",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Leech Seed",
@@ -129327,7 +137211,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Rain Dance",
         "Power Whip",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -129459,7 +137351,15 @@ em_imp_primary_mons = {
         "Flare Blitz",
         "Meteor Beam",
         "Draco Barrage",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -129570,7 +137470,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Supercell Slam",
         "Draco Barrage",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -129667,7 +137575,15 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Thunder Fang",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Fake Out",
@@ -129787,7 +137703,15 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Sunny Day",
         "Rain Dance",
-        "Arm Thrust"
+        "Arm Thrust",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -129914,7 +137838,6 @@ em_imp_primary_mons = {
         "Play Rough",
         "Body Press",
         "Strength",
-        "Power-Up Punch",
         "Charge Beam",
         "Bulk Up",
         "Thunder Fang",
@@ -129922,7 +137845,15 @@ em_imp_primary_mons = {
         "Blaze Kick",
         "Rain Dance",
         "Arm Thrust",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -130029,7 +137960,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Stealth Rock",
         "Swords Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Ice Hammer",
@@ -130153,7 +138092,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Stealth Rock",
         "Swords Dance",
-        "Steel Beam"
+        "Steel Beam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -130282,7 +138229,15 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Swords Dance",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -130394,7 +138349,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Curse",
@@ -130515,7 +138478,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Flare Blitz",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Curse",
@@ -130632,7 +138603,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sandstorm",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Curse",
@@ -130762,7 +138741,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Psychic Fangs",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -130889,7 +138876,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Megahorn",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -131007,7 +139002,15 @@ em_imp_primary_mons = {
         "Megahorn",
         "Supercell Slam",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -131136,7 +139139,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Arm Thrust",
         "Supercell Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -131268,7 +139279,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Flare Blitz",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -131397,7 +139416,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Meteor Beam",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -131539,7 +139566,15 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Body Slam",
         "Sunny Day",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -131688,7 +139723,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Supercell Slam",
         "Spikes",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -131793,7 +139836,15 @@ em_imp_primary_mons = {
         "Acrobatics",
         "Play Rough",
         "Sunny Day",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "After You",
@@ -131916,7 +139967,15 @@ em_imp_primary_mons = {
         "Play Rough",
         "Sunny Day",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -132023,7 +140082,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Body Slam",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Belly Drum",
@@ -132146,7 +140213,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Body Slam",
         "Rain Dance",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -132249,7 +140324,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Copycat",
@@ -132387,7 +140470,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -132490,7 +140581,15 @@ em_imp_primary_mons = {
         "Surf",
         "Body Slam",
         "Rain Dance",
-        "Snowscape"
+        "Snowscape",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -132629,7 +140728,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Hex",
         "Leaf Blade",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -132744,7 +140851,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Leaf Blade",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -132886,7 +141001,15 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Moonblast",
-        "Misty Explosion"
+        "Misty Explosion",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -133004,7 +141127,15 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Phantom Force",
         "Power Gem",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -133128,7 +141259,15 @@ em_imp_primary_mons = {
         "Supercell Slam",
         "Spikes",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -133249,7 +141388,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Bug Buzz",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -133362,7 +141509,15 @@ em_imp_primary_mons = {
         "Tailwind",
         "Bulk Up",
         "Swords Dance",
-        "Blaze Kick"
+        "Blaze Kick",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Quick Guard",
@@ -133477,7 +141632,15 @@ em_imp_primary_mons = {
         "Hex",
         "Psychic Fangs",
         "Rain Dance",
-        "Snowscape"
+        "Snowscape",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -133602,7 +141765,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Rain Dance",
-        "Power Whip"
+        "Power Whip",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -133718,7 +141889,15 @@ em_imp_primary_mons = {
         "Hex",
         "Sandstorm",
         "Spikes",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -133836,7 +142015,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Hex",
-        "Flare Blitz"
+        "Flare Blitz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -133930,7 +142117,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endeavor",
@@ -134056,7 +142251,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Double-Edge",
         "Endure",
-        "Mud-Slap"
+        "Mud-Slap",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -134141,6 +142344,16 @@ em_imp_primary_mons = {
           48,
           "Belch"
         ]
+      ],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -134181,7 +142394,15 @@ em_imp_primary_mons = {
         "Thief",
         "Nasty Plot",
         "Hex",
-        "Power Gem"
+        "Power Gem",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -134281,7 +142502,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -134394,7 +142623,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Power Gem",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Ancient Power",
@@ -134498,7 +142735,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Rain Dance",
         "Smack Down",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Ancient Power",
@@ -134616,7 +142861,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Rain Dance",
         "Smack Down",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -134752,7 +143005,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Smack Down",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -134850,7 +143111,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Trailblaze",
         "Rain Dance",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "First Impression",
@@ -135006,7 +143275,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Arm Thrust",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -135093,7 +143370,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Bug Buzz",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Skitter Smack",
@@ -135221,7 +143506,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Bug Buzz",
         "Trailblaze",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -135320,7 +143613,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Copycat",
@@ -135437,7 +143738,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -135538,7 +143847,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Destiny Bond",
@@ -135661,7 +143978,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Psychic Fangs",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -135742,7 +144067,15 @@ em_imp_primary_mons = {
         "Gunk Shot",
         "Bug Bite",
         "Iron Defense",
-        "Bug Buzz"
+        "Bug Buzz",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Cosmic Power",
@@ -135885,7 +144218,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Meteor Beam",
         "Rain Dance",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -135975,7 +144316,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Sandstorm",
         "Trailblaze",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Ingrain",
@@ -136106,7 +144455,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Mystical Fire",
         "Trailblaze",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -136205,7 +144562,15 @@ em_imp_primary_mons = {
         "Fly",
         "Flash",
         "Charge Beam",
-        "Tailwind"
+        "Tailwind",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Endeavor",
@@ -136335,7 +144700,15 @@ em_imp_primary_mons = {
         "Flash",
         "Charge Beam",
         "Tailwind",
-        "Supercell Slam"
+        "Supercell Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -136428,7 +144801,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Rain Dance",
         "Water Pulse",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Counter",
@@ -136536,7 +144917,6 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Iron Defense",
         "Stealth Rock",
         "Rock Blast",
@@ -136545,7 +144925,15 @@ em_imp_primary_mons = {
         "Smack Down",
         "Spikes",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Coil",
@@ -136646,7 +145034,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Psychic Fangs",
         "Rain Dance",
-        "Water Pulse"
+        "Water Pulse",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Recover",
@@ -136756,7 +145152,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Dive",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Curse",
@@ -136880,7 +145284,15 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Sunny Day",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Feather Dance",
@@ -136991,7 +145403,15 @@ em_imp_primary_mons = {
         "Power Gem",
         "Rain Dance",
         "Smack Down",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Explosion",
@@ -137127,7 +145547,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Smack Down",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -137236,7 +145664,15 @@ em_imp_primary_mons = {
         "Fly",
         "Tailwind",
         "Foul Play",
-        "Sunny Day"
+        "Sunny Day",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Double-Edge",
@@ -137352,7 +145788,15 @@ em_imp_primary_mons = {
         "Phantom Force",
         "Trailblaze",
         "Power Whip",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Beat Up",
@@ -137487,7 +145931,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Power Gem",
         "Power Whip",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -137577,7 +146029,15 @@ em_imp_primary_mons = {
         "Grass Knot",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Memento",
@@ -137685,7 +146145,15 @@ em_imp_primary_mons = {
         "Grass Knot",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -137807,7 +146275,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Sunny Day",
         "Solar Beam",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -137935,7 +146411,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Megahorn",
         "Solar Blade",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -138049,7 +146533,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Water Pulse",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -138137,7 +146629,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Rain Dance",
-        "Pluck"
+        "Pluck",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ],
       "egg": [
         "Roost",
@@ -138276,7 +146776,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Sandstorm",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -138374,7 +146882,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Hex",
         "Solar Beam",
-        "Phantom Force"
+        "Phantom Force",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -138487,7 +147003,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Hex",
         "Solar Beam",
-        "Phantom Force"
+        "Phantom Force",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -138596,7 +147120,6 @@ em_imp_primary_mons = {
         "Body Press",
         "Strength",
         "Rock Smash",
-        "Power-Up Punch",
         "Bulk Up",
         "Thunder Fang",
         "Ice Fang",
@@ -138604,7 +147127,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Psychic Fangs",
         "Focus Punch",
-        "Poison Fang"
+        "Poison Fang",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -138709,7 +147240,15 @@ em_imp_primary_mons = {
         "Stored Power",
         "Hex",
         "Mystical Fire",
-        "Trailblaze"
+        "Trailblaze",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -138827,7 +147366,15 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Tail Slap",
         "Hex",
-        "Moonblast"
+        "Moonblast",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -138956,7 +147503,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Solar Blade",
-        "Spikes"
+        "Spikes",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -139063,7 +147618,15 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -139188,7 +147751,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Draco Barrage",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -139311,7 +147882,15 @@ em_imp_primary_mons = {
         "Rock Smash",
         "Draco Barrage",
         "Steel Beam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -139455,7 +148034,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Psychic Fangs",
         "Flare Blitz",
-        "Draco Barrage"
+        "Draco Barrage",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -139589,7 +148176,15 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Supercell Slam",
         "Draco Barrage",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -139718,7 +148313,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Megahorn",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -139852,7 +148455,15 @@ em_imp_primary_mons = {
         "Supercell Slam",
         "Steel Beam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -139962,7 +148573,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Supercell Slam",
         "Heavy Slam",
-        "Gravity"
+        "Gravity",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -140059,7 +148678,15 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Hex",
-        "Phantom Force"
+        "Phantom Force",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     },
     "bs": {
@@ -140101,7 +148728,21 @@ em_imp_primary_mons = {
       "Thick Fat",
       "Thick Fat",
       "Thick Fat"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Venusaur-Gmax": {
     "bs": {
@@ -140122,7 +148763,21 @@ em_imp_primary_mons = {
       "Overgrow",
       "None",
       "Chlorophyll"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Charizard-Mega-X": {
     "bs": {
@@ -140143,7 +148798,21 @@ em_imp_primary_mons = {
       "Tough Claws",
       "Tough Claws",
       "Tough Claws"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Charizard-Mega-Y": {
     "bs": {
@@ -140164,7 +148833,21 @@ em_imp_primary_mons = {
       "Drought",
       "Drought",
       "Sheer Force"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Charizard-Gmax": {
     "bs": {
@@ -140185,7 +148868,21 @@ em_imp_primary_mons = {
       "Blaze",
       "None",
       "Solar Power"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Blastoise-Mega": {
     "bs": {
@@ -140205,7 +148902,21 @@ em_imp_primary_mons = {
       "Mega Launcher",
       "Mega Launcher",
       "Mega Launcher"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Blastoise-Gmax": {
     "bs": {
@@ -140225,7 +148936,21 @@ em_imp_primary_mons = {
       "Torrent",
       "None",
       "Rain Dish"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Butterfree-Mega": {
     "bs": {
@@ -140246,7 +148971,21 @@ em_imp_primary_mons = {
       "Compound Eyes",
       "Compound Eyes",
       "Compound Eyes"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Beedrill-Mega": {
     "bs": {
@@ -140267,7 +149006,21 @@ em_imp_primary_mons = {
       "Adaptability",
       "Adaptability",
       "Adaptability"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pidgeot-Mega": {
     "bs": {
@@ -140288,7 +149041,21 @@ em_imp_primary_mons = {
       "No Guard",
       "No Guard",
       "No Guard"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Raticate-Alola-Totem": {
     "bs": {
@@ -140309,7 +149076,21 @@ em_imp_primary_mons = {
       "Thick Fat",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-Original": {
     "bs": {
@@ -140329,7 +149110,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-Hoenn": {
     "bs": {
@@ -140349,7 +149144,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-Sinnoh": {
     "bs": {
@@ -140369,7 +149178,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-Unova": {
     "bs": {
@@ -140389,7 +149212,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-Kalos": {
     "bs": {
@@ -140409,7 +149246,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-Alola": {
     "bs": {
@@ -140429,7 +149280,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-Partner": {
     "bs": {
@@ -140449,7 +149314,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-World": {
     "bs": {
@@ -140469,7 +149348,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pikachu-Gmax": {
     "bs": {
@@ -140489,7 +149382,21 @@ em_imp_primary_mons = {
       "Static",
       "None",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Meowth-Gmax": {
     "bs": {
@@ -140509,7 +149416,21 @@ em_imp_primary_mons = {
       "Pickup",
       "Technician",
       "Unnerve"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Alakazam-Mega": {
     "bs": {
@@ -140529,7 +149450,21 @@ em_imp_primary_mons = {
       "Trace",
       "Trace",
       "Trace"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Machamp-Mega": {
     "bs": {
@@ -140549,7 +149484,21 @@ em_imp_primary_mons = {
       "ORAORAORAORA",
       "ORAORAORAORA",
       "ORAORAORAORA"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Slowbro-Mega": {
     "bs": {
@@ -140570,7 +149519,21 @@ em_imp_primary_mons = {
       "Regenerator",
       "Regenerator",
       "Shell Armor"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gengar-Mega": {
     "bs": {
@@ -140591,7 +149554,21 @@ em_imp_primary_mons = {
       "Shadow Tag",
       "Shadow Tag",
       "Shadow Tag"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gengar-Gmax": {
     "bs": {
@@ -140612,7 +149589,21 @@ em_imp_primary_mons = {
       "Levitate",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Steelix-Mega": {
     "bs": {
@@ -140633,7 +149624,21 @@ em_imp_primary_mons = {
       "Heatproof",
       "Heatproof",
       "Heatproof"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Kingler-Mega": {
     "bs": {
@@ -140654,7 +149659,21 @@ em_imp_primary_mons = {
       "Tough Claws",
       "Tough Claws",
       "Tough Claws"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Marowak-Alola-Totem": {
     "bs": {
@@ -140675,7 +149694,21 @@ em_imp_primary_mons = {
       "Rock Head",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Kangaskhan-Mega": {
     "bs": {
@@ -140695,7 +149728,21 @@ em_imp_primary_mons = {
       "Parental Bond",
       "Parental Bond",
       "Parental Bond"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Scizor-Mega": {
     "bs": {
@@ -140716,7 +149763,21 @@ em_imp_primary_mons = {
       "Technician",
       "Technician",
       "Technician"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pinsir-Mega": {
     "bs": {
@@ -140737,7 +149798,21 @@ em_imp_primary_mons = {
       "Aerilate",
       "Aerilate",
       "Aerilate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gyarados-Mega": {
     "bs": {
@@ -140758,7 +149833,21 @@ em_imp_primary_mons = {
       "Mold Breaker",
       "Mold Breaker",
       "Mold Breaker"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Lapras-Mega": {
     "bs": {
@@ -140779,7 +149868,21 @@ em_imp_primary_mons = {
       "Liquid Voice",
       "Liquid Voice",
       "Liquid Voice"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Eevee-Gmax": {
     "bs": {
@@ -140799,7 +149902,21 @@ em_imp_primary_mons = {
       "Run Away",
       "Adaptability",
       "Anticipation"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Aerodactyl-Mega": {
     "bs": {
@@ -140820,7 +149937,21 @@ em_imp_primary_mons = {
       "Tough Claws",
       "Tough Claws",
       "Tough Claws"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Snorlax-Mega": {
     "bs": {
@@ -140841,7 +149972,21 @@ em_imp_primary_mons = {
       "Thick Fat",
       "Thick Fat",
       "Thick Fat"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Mewtwo": {
     "bs": {
@@ -140861,7 +150006,21 @@ em_imp_primary_mons = {
       "Pressure",
       "None",
       "Unnerve"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Mewtwo-Mega-X": {
     "bs": {
@@ -140882,7 +150041,21 @@ em_imp_primary_mons = {
       "Steadfast",
       "Steadfast",
       "Steadfast"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Mewtwo-Mega-Y": {
     "bs": {
@@ -140902,7 +150075,21 @@ em_imp_primary_mons = {
       "Insomnia",
       "Insomnia",
       "Insomnia"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ampharos-Mega": {
     "bs": {
@@ -140923,7 +150110,21 @@ em_imp_primary_mons = {
       "Thick Fat",
       "Thick Fat",
       "Mold Breaker"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Heracross-Mega": {
     "bs": {
@@ -140944,7 +150145,21 @@ em_imp_primary_mons = {
       "Skill Link",
       "Skill Link",
       "Skill Link"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Houndoom-Mega": {
     "bs": {
@@ -140965,7 +150180,21 @@ em_imp_primary_mons = {
       "Dark Aura",
       "Dark Aura",
       "Solar Power"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Tyranitar-Mega": {
     "bs": {
@@ -140986,7 +150215,21 @@ em_imp_primary_mons = {
       "Sand Stream",
       "Sand Stream",
       "Sand Force"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Sceptile-Mega": {
     "bs": {
@@ -141007,7 +150250,21 @@ em_imp_primary_mons = {
       "Technician",
       "Technician",
       "Technician"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Blaziken-Mega": {
     "bs": {
@@ -141028,7 +150285,21 @@ em_imp_primary_mons = {
       "Striker",
       "Striker",
       "Striker"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Swampert-Mega": {
     "bs": {
@@ -141049,7 +150320,21 @@ em_imp_primary_mons = {
       "Swift Swim",
       "Swift Swim",
       "Swift Swim"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gardevoir-Mega": {
     "bs": {
@@ -141070,7 +150355,21 @@ em_imp_primary_mons = {
       "Pixilate",
       "Pixilate",
       "Pixilate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gallade-Mega": {
     "bs": {
@@ -141091,7 +150390,21 @@ em_imp_primary_mons = {
       "Sharpness",
       "Sharpness",
       "Inner Focus"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Sableye-Mega": {
     "bs": {
@@ -141112,7 +150425,21 @@ em_imp_primary_mons = {
       "Prankster",
       "Prankster",
       "Magic Bounce"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Mawile-Mega": {
     "bs": {
@@ -141133,7 +150460,21 @@ em_imp_primary_mons = {
       "Huge Power",
       "Huge Power",
       "Huge Power"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Aggron-Mega": {
     "bs": {
@@ -141153,7 +150494,21 @@ em_imp_primary_mons = {
       "Filter",
       "Filter",
       "Filter"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Medicham-Mega": {
     "bs": {
@@ -141174,7 +150529,21 @@ em_imp_primary_mons = {
       "Huge Power",
       "Huge Power",
       "Huge Power"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Manectric-Mega": {
     "bs": {
@@ -141194,7 +150563,21 @@ em_imp_primary_mons = {
       "Intimidate",
       "Intimidate",
       "Intimidate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Sharpedo-Mega": {
     "bs": {
@@ -141215,7 +150598,21 @@ em_imp_primary_mons = {
       "Strong Jaw",
       "Strong Jaw",
       "Strong Jaw"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Camerupt-Mega": {
     "bs": {
@@ -141236,7 +150633,21 @@ em_imp_primary_mons = {
       "Sheer Force",
       "Sheer Force",
       "Sheer Force"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Altaria-Mega": {
     "bs": {
@@ -141257,7 +150668,21 @@ em_imp_primary_mons = {
       "Pixilate",
       "Pixilate",
       "Pixilate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Castform-Sunny": {
     "bs": {
@@ -141277,7 +150702,21 @@ em_imp_primary_mons = {
       "Forecast",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Castform-Rainy": {
     "bs": {
@@ -141297,7 +150736,21 @@ em_imp_primary_mons = {
       "Forecast",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Castform-Snowy": {
     "bs": {
@@ -141317,7 +150770,21 @@ em_imp_primary_mons = {
       "Forecast",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Banette-Mega": {
     "bs": {
@@ -141338,7 +150805,21 @@ em_imp_primary_mons = {
       "Prankster",
       "Prankster",
       "Prankster"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Absol-Mega": {
     "bs": {
@@ -141359,7 +150840,21 @@ em_imp_primary_mons = {
       "Magic Bounce",
       "Sharpness",
       "Sharpness"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Glalie-Mega": {
     "bs": {
@@ -141379,7 +150874,21 @@ em_imp_primary_mons = {
       "Refrigerate",
       "Refrigerate",
       "Refrigerate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Salamence-Mega": {
     "bs": {
@@ -141400,7 +150909,21 @@ em_imp_primary_mons = {
       "Aerilate",
       "Aerilate",
       "Aerilate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Metagross-Mega": {
     "bs": {
@@ -141421,7 +150944,21 @@ em_imp_primary_mons = {
       "Tough Claws",
       "Tough Claws",
       "Tough Claws"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Latias-Mega": {
     "bs": {
@@ -141442,7 +150979,21 @@ em_imp_primary_mons = {
       "Levitate",
       "Levitate",
       "Levitate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Latios-Mega": {
     "bs": {
@@ -141463,7 +151014,21 @@ em_imp_primary_mons = {
       "Levitate",
       "Levitate",
       "Levitate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Kyogre-Primal": {
     "bs": {
@@ -141483,7 +151048,21 @@ em_imp_primary_mons = {
       "Primordial Sea",
       "Primordial Sea",
       "Primordial Sea"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Groudon-Primal": {
     "bs": {
@@ -141504,7 +151083,21 @@ em_imp_primary_mons = {
       "Desolate Land",
       "Desolate Land",
       "Desolate Land"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Rayquaza-Mega": {
     "bs": {
@@ -141525,7 +151118,21 @@ em_imp_primary_mons = {
       "Delta Stream",
       "Delta Stream",
       "Delta Stream"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Cherrim-Sunshine": {
     "bs": {
@@ -141545,7 +151152,21 @@ em_imp_primary_mons = {
       "Flower Gift",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Lopunny-Mega": {
     "bs": {
@@ -141566,7 +151187,21 @@ em_imp_primary_mons = {
       "Scrappy",
       "Scrappy",
       "Scrappy"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Garchomp-Mega": {
     "bs": {
@@ -141587,7 +151222,21 @@ em_imp_primary_mons = {
       "Sand Force",
       "Sand Force",
       "Sand Force"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Lucario-Mega": {
     "bs": {
@@ -141608,7 +151257,21 @@ em_imp_primary_mons = {
       "Adaptability",
       "Adaptability",
       "Adaptability"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Abomasnow-Mega": {
     "bs": {
@@ -141629,7 +151292,21 @@ em_imp_primary_mons = {
       "Slush Rush",
       "Slush Rush",
       "Snow Warning"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Rotom-Mow": {
     "bs": {
@@ -141650,7 +151327,21 @@ em_imp_primary_mons = {
       "Levitate",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Dialga-Origin": {
     "bs": {
@@ -141671,7 +151362,21 @@ em_imp_primary_mons = {
       "Pressure",
       "None",
       "Telepathy"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Palkia-Origin": {
     "bs": {
@@ -141692,7 +151397,21 @@ em_imp_primary_mons = {
       "Pressure",
       "None",
       "Telepathy"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Giratina-Origin": {
     "bs": {
@@ -141713,75 +151432,327 @@ em_imp_primary_mons = {
       "Levitate",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Fighting": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Flying": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Poison": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Ground": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Rock": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Bug": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Ghost": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Steel": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Fire": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Water": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Grass": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Electric": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Psychic": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Ice": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Dragon": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Dark": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Arceus-Fairy": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Audino-Mega": {
     "bs": {
@@ -141802,7 +151773,21 @@ em_imp_primary_mons = {
       "Regenerator",
       "Regenerator",
       "Regenerator"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Basculin-Blue-Striped": {
     "bs": {
@@ -141833,7 +151818,21 @@ em_imp_primary_mons = {
       "Rock Head",
       "Adaptability",
       "Mold Breaker"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Basculegion-F": {
     "bs": {
@@ -141987,7 +151986,15 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Hex",
         "Phantom Force",
-        "Rain Dance"
+        "Rain Dance",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     }
   },
@@ -142010,7 +152017,21 @@ em_imp_primary_mons = {
       "Zen Mode",
       "Zen Mode",
       "Zen Mode"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Darmanitan-Galar-Zen": {
     "bs": {
@@ -142031,7 +152052,21 @@ em_imp_primary_mons = {
       "Zen Mode",
       "Zen Mode",
       "Zen Mode"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Garbodor-Mega": {
     "bs": {
@@ -142051,7 +152086,21 @@ em_imp_primary_mons = {
       "Parasitic Waste",
       "Parasitic Waste",
       "Parasitic Waste"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Tornadus-Therian": {
     "bs": {
@@ -142071,7 +152120,21 @@ em_imp_primary_mons = {
       "Regenerator",
       "None",
       "Regenerator"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Thundurus-Therian": {
     "bs": {
@@ -142092,7 +152155,21 @@ em_imp_primary_mons = {
       "Volt Absorb",
       "None",
       "Volt Absorb"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Landorus-Therian": {
     "bs": {
@@ -142113,7 +152190,21 @@ em_imp_primary_mons = {
       "Intimidate",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Keldeo-Resolute": {
     "bs": {
@@ -142134,7 +152225,21 @@ em_imp_primary_mons = {
       "Justified",
       "None",
       "Sharpness"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Meloetta-Pirouette": {
     "bs": {
@@ -142155,23 +152260,93 @@ em_imp_primary_mons = {
       "Serene Grace",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Genesect-Douse": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Genesect-Shock": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Genesect-Burn": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Genesect-Chill": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Greninja-Ash": {
     "bs": {
@@ -142192,15 +152367,57 @@ em_imp_primary_mons = {
       "Battle Bond",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Vivillon-Fancy": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Vivillon-Pokeball": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Aegislash-Shield": {
     "bs": {
@@ -142303,7 +152520,15 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Rain Dance",
-        "Solar Blade"
+        "Solar Blade",
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
       ]
     }
   },
@@ -142326,7 +152551,21 @@ em_imp_primary_mons = {
       "Stance Change",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pumpkaboo-Small": {
     "bs": {
@@ -142358,7 +152597,21 @@ em_imp_primary_mons = {
       "Pickup",
       "Frisk",
       "Insomnia"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pumpkaboo-Large": {
     "bs": {
@@ -142390,7 +152643,21 @@ em_imp_primary_mons = {
       "Pickup",
       "Frisk",
       "Insomnia"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Pumpkaboo-Super": {
     "bs": {
@@ -142422,7 +152689,21 @@ em_imp_primary_mons = {
       "Pickup",
       "Frisk",
       "Insomnia"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gourgeist-Small": {
     "bs": {
@@ -142443,7 +152724,21 @@ em_imp_primary_mons = {
       "Pickup",
       "Frisk",
       "Flare Boost"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gourgeist-Large": {
     "bs": {
@@ -142464,7 +152759,21 @@ em_imp_primary_mons = {
       "Pickup",
       "Frisk",
       "Flare Boost"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gourgeist-Super": {
     "bs": {
@@ -142485,7 +152794,21 @@ em_imp_primary_mons = {
       "Pickup",
       "Frisk",
       "Flare Boost"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Zygarde-Complete": {
     "bs": {
@@ -142506,7 +152829,21 @@ em_imp_primary_mons = {
       "Power Construct",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Diancie-Mega": {
     "bs": {
@@ -142527,7 +152864,21 @@ em_imp_primary_mons = {
       "Magic Bounce",
       "Magic Bounce",
       "Magic Bounce"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gumshoos-Totem": {
     "bs": {
@@ -142547,7 +152898,21 @@ em_imp_primary_mons = {
       "Adaptability",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Vikavolt-Totem": {
     "bs": {
@@ -142568,7 +152933,21 @@ em_imp_primary_mons = {
       "Levitate",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Oricorio-Pom-Pom": {
     "bs": {
@@ -142589,7 +152968,21 @@ em_imp_primary_mons = {
       "Dancer",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Oricorio-Pa'u": {
     "bs": {
@@ -142610,7 +153003,21 @@ em_imp_primary_mons = {
       "Dancer",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Oricorio-Sensu": {
     "bs": {
@@ -142631,7 +153038,21 @@ em_imp_primary_mons = {
       "Dancer",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ribombee-Totem": {
     "bs": {
@@ -142652,7 +153073,21 @@ em_imp_primary_mons = {
       "Sweet Veil",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Wishiwashi-School": {
     "bs": {
@@ -142672,7 +153107,21 @@ em_imp_primary_mons = {
       "Schooling",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Araquanid-Totem": {
     "bs": {
@@ -142693,7 +153142,21 @@ em_imp_primary_mons = {
       "Water Bubble",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Lurantis-Totem": {
     "bs": {
@@ -142713,7 +153176,21 @@ em_imp_primary_mons = {
       "Leaf Guard",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Salazzle-Totem": {
     "bs": {
@@ -142734,79 +153211,345 @@ em_imp_primary_mons = {
       "Corrosion",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Fighting": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Flying": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Poison": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Ground": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Rock": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Bug": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Ghost": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Steel": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Fire": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Water": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Grass": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Electric": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Psychic": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Ice": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Dragon": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Dark": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Silvally-Fairy": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Minior-Meteor": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Togedemaru-Totem": {
     "bs": {
@@ -142827,7 +153570,21 @@ em_imp_primary_mons = {
       "Sturdy",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Mimikyu-Busted": {
     "bs": {
@@ -142848,7 +153605,21 @@ em_imp_primary_mons = {
       "Disguise",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Mimikyu-Totem": {
     "bs": {
@@ -142869,7 +153640,21 @@ em_imp_primary_mons = {
       "Disguise",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Mimikyu-Busted-Totem": {
     "bs": {
@@ -142890,7 +153675,21 @@ em_imp_primary_mons = {
       "Disguise",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Kommo-o-Totem": {
     "bs": {
@@ -142911,7 +153710,21 @@ em_imp_primary_mons = {
       "Overcoat",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Necrozma-Dusk-Mane": {
     "bs": {
@@ -142932,7 +153745,21 @@ em_imp_primary_mons = {
       "Prism Armor",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Necrozma-Dawn-Wings": {
     "bs": {
@@ -142953,7 +153780,21 @@ em_imp_primary_mons = {
       "Prism Armor",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Necrozma-Ultra": {
     "bs": {
@@ -142974,7 +153815,21 @@ em_imp_primary_mons = {
       "Neuroforce",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Magearna-Original": {
     "bs": {
@@ -142995,7 +153850,21 @@ em_imp_primary_mons = {
       "Soul-Heart",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Melmetal-Gmax": {
     "bs": {
@@ -143015,7 +153884,21 @@ em_imp_primary_mons = {
       "Iron Fist",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Rillaboom-Gmax": {
     "bs": {
@@ -143035,7 +153918,21 @@ em_imp_primary_mons = {
       "Overgrow",
       "None",
       "Grassy Surge"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Cinderace-Gmax": {
     "bs": {
@@ -143055,7 +153952,21 @@ em_imp_primary_mons = {
       "Blaze",
       "None",
       "Libero"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Inteleon-Gmax": {
     "bs": {
@@ -143075,7 +153986,21 @@ em_imp_primary_mons = {
       "Torrent",
       "None",
       "Sniper"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Corviknight-Gmax": {
     "bs": {
@@ -143096,7 +154021,21 @@ em_imp_primary_mons = {
       "Pressure",
       "Unnerve",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Orbeetle-Mega": {
     "bs": {
@@ -143117,7 +154056,21 @@ em_imp_primary_mons = {
       "Magic Guard",
       "Magic Guard",
       "Magic Guard"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Drednaw-Mega": {
     "bs": {
@@ -143138,7 +154091,21 @@ em_imp_primary_mons = {
       "Strong Jaw",
       "Strong Jaw",
       "Strong Jaw"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Coalossal-Mega": {
     "bs": {
@@ -143159,7 +154126,21 @@ em_imp_primary_mons = {
       "Mountaineer",
       "Mountaineer",
       "Mountaineer"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Flapple-Mega": {
     "bs": {
@@ -143180,7 +154161,21 @@ em_imp_primary_mons = {
       "Dragon's Maw",
       "Dragon's Maw",
       "Dragon's Maw"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Appletun-Mega": {
     "bs": {
@@ -143201,7 +154196,21 @@ em_imp_primary_mons = {
       "Contrary",
       "Contrary",
       "Contrary"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Sandaconda-Mega": {
     "bs": {
@@ -143222,7 +154231,21 @@ em_imp_primary_mons = {
       "Aerilate",
       "Aerilate",
       "Aerilate"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Cramorant-Gulping": {
     "bs": {
@@ -143243,7 +154266,21 @@ em_imp_primary_mons = {
       "Gulp Missile",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Cramorant-Gorging": {
     "bs": {
@@ -143264,7 +154301,21 @@ em_imp_primary_mons = {
       "Gulp Missile",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Toxtricity-Mega": {
     "bs": {
@@ -143285,7 +154336,21 @@ em_imp_primary_mons = {
       "Punk Rock",
       "Punk Rock",
       "Punk Rock"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Centiskorch-Mega": {
     "bs": {
@@ -143306,7 +154371,21 @@ em_imp_primary_mons = {
       "Mountaineer",
       "Mountaineer",
       "Mountaineer"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Sinistea-Antique": {
     "bs": {
@@ -143332,7 +154411,21 @@ em_imp_primary_mons = {
       "Weak Armor",
       "None",
       "Heatproof"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Polteageist-Antique": {
     "bs": {
@@ -143352,7 +154445,21 @@ em_imp_primary_mons = {
       "Weak Armor",
       "None",
       "Heatproof"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Hatterene-Gmax": {
     "bs": {
@@ -143373,7 +154480,21 @@ em_imp_primary_mons = {
       "Healer",
       "Anticipation",
       "Magic Bounce"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Grimmsnarl-Mega": {
     "bs": {
@@ -143394,11 +154515,39 @@ em_imp_primary_mons = {
       "Sheer Force",
       "Sheer Force",
       "Sheer Force"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Alcremie-Gmax": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Eiscue-Noice": {
     "bs": {
@@ -143418,7 +154567,21 @@ em_imp_primary_mons = {
       "Ice Face",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Morpeko-Hangry": {
     "bs": {
@@ -143439,7 +154602,21 @@ em_imp_primary_mons = {
       "Hunger Switch",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Copperajah-Mega": {
     "bs": {
@@ -143460,7 +154637,21 @@ em_imp_primary_mons = {
       "Sheer Force",
       "Sheer Force",
       "Sheer Force"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Duraludon-Gmax": {
     "bs": {
@@ -143481,7 +154672,21 @@ em_imp_primary_mons = {
       "Light Metal",
       "Heavy Metal",
       "Stalwart"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Zacian-Crowned": {
     "bs": {
@@ -143502,7 +154707,21 @@ em_imp_primary_mons = {
       "Intrepid Sword",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Zamazenta-Crowned": {
     "bs": {
@@ -143523,7 +154742,21 @@ em_imp_primary_mons = {
       "Dauntless Shield",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Eternatus-Eternamax": {
     "bs": {
@@ -143544,7 +154777,21 @@ em_imp_primary_mons = {
       "Pressure",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Urshifu-Gmax": {
     "bs": {
@@ -143565,7 +154812,21 @@ em_imp_primary_mons = {
       "Unseen Fist",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Urshifu-Rapid-Strike-Gmax": {
     "bs": {
@@ -143586,7 +154847,21 @@ em_imp_primary_mons = {
       "Unseen Fist",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Zarude-Dada": {
     "bs": {
@@ -143607,7 +154882,21 @@ em_imp_primary_mons = {
       "Leaf Guard",
       "None",
       "Defiant"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Enamorus-Therian": {
     "bs": {
@@ -143628,7 +154917,21 @@ em_imp_primary_mons = {
       "Overcoat",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Maushold-Four": {
     "bs": {
@@ -143648,7 +154951,21 @@ em_imp_primary_mons = {
       "Friend Guard",
       "Cheek Pouch",
       "Technician"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Squawkabilly-Blue": {
     "bs": {
@@ -143669,7 +154986,21 @@ em_imp_primary_mons = {
       "Intimidate",
       "Hustle",
       "Guts"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Squawkabilly-Yellow": {
     "bs": {
@@ -143690,7 +155021,21 @@ em_imp_primary_mons = {
       "Intimidate",
       "Hustle",
       "Sheer Force"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Squawkabilly-White": {
     "bs": {
@@ -143711,7 +155056,21 @@ em_imp_primary_mons = {
       "Intimidate",
       "Hustle",
       "Sheer Force"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Gimmighoul-Roaming": {
     "bs": {
@@ -143737,7 +155096,21 @@ em_imp_primary_mons = {
       "Run Away",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Poltchageist-Artisan": {
     "bs": {
@@ -143764,7 +155137,21 @@ em_imp_primary_mons = {
       "Heatproof",
       "None",
       "Heatproof"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Sinistcha-Masterpiece": {
     "bs": {
@@ -143785,35 +155172,147 @@ em_imp_primary_mons = {
       "Heatproof",
       "None",
       "Heatproof"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ogerpon-Wellspring": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ogerpon-Hearthflame": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ogerpon-Cornerstone": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ogerpon-Teal-Tera": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ogerpon-Wellspring-Tera": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ogerpon-Hearthflame-Tera": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Ogerpon-Cornerstone-Tera": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Terapagos-Terastal": {
     "bs": {
@@ -143833,7 +155332,21 @@ em_imp_primary_mons = {
       "Tera Shell",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Terapagos-Stellar": {
     "bs": {
@@ -143853,11 +155366,39 @@ em_imp_primary_mons = {
       "Teraform Zero",
       "None",
       "None"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Egg": {
     "bs": {},
-    "evos": []
+    "evos": [],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Luxray-Mega": {
     "bs": {
@@ -143878,7 +155419,21 @@ em_imp_primary_mons = {
       "Strong Jaw",
       "Strong Jaw",
       "Strong Jaw"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Torterra-Mega": {
     "bs": {
@@ -143899,7 +155454,21 @@ em_imp_primary_mons = {
       "Ice Eater",
       "Ice Eater",
       "Ice Eater"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Empoleon-Mega-O": {
     "bs": {
@@ -143920,7 +155489,21 @@ em_imp_primary_mons = {
       "Emperors Presence",
       "Emperors Presence",
       "Emperors Presence"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Empoleon-Mega-D": {
     "bs": {
@@ -143941,7 +155524,21 @@ em_imp_primary_mons = {
       "Lightning Rod",
       "Lightning Rod",
       "Lightning Rod"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Infernape-Mega": {
     "bs": {
@@ -143962,7 +155559,21 @@ em_imp_primary_mons = {
       "Iron Fist",
       "Iron Fist",
       "Iron Fist"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Slaking-Mega": {
     "bs": {
@@ -143982,7 +155593,21 @@ em_imp_primary_mons = {
       "Comatose",
       "Comatose",
       "Comatose"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Roserade-Mega": {
     "bs": {
@@ -144003,7 +155628,21 @@ em_imp_primary_mons = {
       "Technician",
       "Technician",
       "Technician"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Dusknoir-Mega": {
     "bs": {
@@ -144024,7 +155663,21 @@ em_imp_primary_mons = {
       "Prankster",
       "Prankster",
       "The Gripper"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Dialga-Primal": {
     "bs": {
@@ -144045,7 +155698,21 @@ em_imp_primary_mons = {
       "Primal Armor",
       "Primal Armor",
       "Primal Armor"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   },
   "Palkia-Primal": {
     "bs": {
@@ -144066,6 +155733,20 @@ em_imp_primary_mons = {
       "Primal Armor",
       "Primal Armor",
       "Primal Armor"
-    ]
+    ],
+    "learnset_info": {
+      "learnset": [],
+      "tms": [
+        "Hidden Power",
+        "Protect",
+        "Return",
+        "Substitute",
+        "Toxic",
+        "Facade",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "egg": []
+    }
   }
 }

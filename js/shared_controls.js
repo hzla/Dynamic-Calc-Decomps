@@ -38,6 +38,39 @@ function startsWith(string, target) {
 	return (string || '').slice(0, target.length) === target;
 }
 
+function titleIncludesEmeraldImperium() {
+	return typeof TITLE === 'string' && TITLE.includes('Emerald Imperium');
+}
+
+function isLeftPlayerPoke(pokeObj) {
+	return $(pokeObj).attr('id') === 'p1';
+}
+
+function getDefaultMoveHitsForPoke(pokeObj, move) {
+	var pokemon = $(pokeObj);
+	if (!move || !Array.isArray(move.multihit)) {
+		return 3;
+	}
+
+	if (move.multihit[1] === 2) {
+		return 2;
+	}
+
+	if (pokemon.find(".ability").val() === "Skill Link") {
+		return 5;
+	}
+
+	if (pokemon.find(".item").val() === "Loaded Dice") {
+		return 4;
+	}
+
+	if (!titleIncludesEmeraldImperium() && isLeftPlayerPoke(pokemon) && move.multihit[1] <= 5) {
+		return move.multihit[0];
+	}
+
+	return 3;
+}
+
 var LEGACY_STATS_RBY = ["hp", "at", "df", "sl", "sp"];
 var LEGACY_STATS_GSC = ["hp", "at", "df", "sa", "sd", "sp"];
 var LEGACY_STATS = [[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC];
@@ -519,12 +552,14 @@ $(".current-hp, .percent-hp").on("input keyup change blur", function () {
 
 
 function showAbilityExtras(abilityObj) {
-	var moveHits =
-		$(abilityObj).val() === 'Skill Link' ? 5 :
-			$(abilityObj).closest(".poke-info").find(".item").val() === 'Loaded Dice' ? 4 : 3;
-	$(abilityObj).closest(".poke-info").find(".move-hits").val(moveHits);
+	var pokeObj = $(abilityObj).closest(".poke-info");
+	pokeObj.find(".move-group").each(function () {
+		var moveName = $(this).find(".select2-chosen").text();
+		var move = moves[moveName] || moves['(No Move)'];
+		$(this).children(".move-hits").val(getDefaultMoveHitsForPoke(pokeObj, move));
+	});
 
-	var ability = $(abilityObj).closest(".poke-info").find(".ability").val();
+	var ability = pokeObj.find(".ability").val();
 
 	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download'];
 
@@ -889,12 +924,7 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 		moveGroupObj.children(".stat-drops").hide();
 		moveGroupObj.children(".move-hits").show();
 		var pokemon = $(moveObj).closest(".poke-info");
-		var moveHits = 3;
-		if (move.multihit[1] == 2)
-			moveHits = 2;
-		else if (move.multihit[1] == 5 && pokemon.find(".ability").val() === "Skill Link")
-			moveHits = 5;
-		moveGroupObj.children(".move-hits").val(moveHits);
+		moveGroupObj.children(".move-hits").val(getDefaultMoveHitsForPoke(pokemon, move));
 	} else if (dropsStats) {
 		moveGroupObj.children(".move-hits").hide();
 		moveGroupObj.children(".stat-drops").show();
@@ -1024,17 +1054,13 @@ function syncItemState(itemObj) {
 
 	for (var i = 1; i <= 4; i++) {
 		var moveSelector = ".move" + i;
-		var moveHits = 3;
 		var moveName = pokeObj.find(moveSelector).find(".select2-chosen").text();
 		var move = moves[moveName] || moves['(No Move)'];
 		if (move.multiaccuracy) {
-			moveHits = move.multihit;
-		} else if (pokeObj.find(".ability").val() === 'Skill Link') {
-			moveHits = 5;
-		} else if (itemName === 'Loaded Dice') {
-			moveHits = 4;
+			pokeObj.find(moveSelector).find(".move-hits").val(move.multihit);
+			continue;
 		}
-		pokeObj.find(moveSelector).find(".move-hits").val(moveHits);
+		pokeObj.find(moveSelector).find(".move-hits").val(getDefaultMoveHitsForPoke(pokeObj, move));
 	}
 
 	autosetQP(pokeObj);
