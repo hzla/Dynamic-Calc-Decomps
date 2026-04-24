@@ -2282,6 +2282,87 @@ table td {
     margin: 0;
 }
 
+.box-sort-card.faster {
+    border-bottom: 3px solid rgb(var(--box-filter-speed-rgb));
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.box-sort-card.killer {
+    background: rgba(var(--box-filter-min-dealt-rgb), 0.4);
+}
+
+.box-sort-card.ohko {
+    background: rgba(var(--box-filter-ohko-rgb), 0.8);
+    background: linear-gradient(rgba(var(--box-filter-ohko-rgb), 0.8), rgba(var(--box-filter-ohko-rgb), 0.8));
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.box-sort-card.mb-ohko:not(.ohko) {
+    background: rgba(var(--box-filter-ohko-rgb), 0.35);
+    background: linear-gradient(rgba(var(--box-filter-ohko-rgb), 0.35), rgba(var(--box-filter-ohko-rgb), 0.35));
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.box-sort-card.ohkod {
+    background: rgba(var(--box-filter-ohkod-rgb), 0.8);
+    background: linear-gradient(rgba(var(--box-filter-ohkod-rgb), 0.8), rgba(var(--box-filter-ohkod-rgb), 0.8));
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box-sort-card.mb-ohkod:not(.ohkod) {
+    background: rgba(var(--box-filter-ohkod-rgb), 0.35);
+    background: linear-gradient(rgba(var(--box-filter-ohkod-rgb), 0.35), rgba(var(--box-filter-ohkod-rgb), 0.35));
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box-sort-card.ohkod.ohko {
+    background: repeating-linear-gradient(
+      to right,
+      rgba(var(--box-filter-ohko-rgb), 0.8) 0 50%,
+      rgba(var(--box-filter-ohkod-rgb), 0.8) 50% 100%
+    );
+}
+
+.box-sort-card.mb-ohkod:not(.ohkod).ohko {
+    background: repeating-linear-gradient(
+      to right,
+      rgba(var(--box-filter-ohko-rgb), 0.8) 0 50%,
+      rgba(var(--box-filter-ohkod-rgb), 0.35) 50% 100%
+    );
+}
+
+.box-sort-card.mb-ohko:not(.ohko).ohkod {
+    background: repeating-linear-gradient(
+      to right,
+      rgba(var(--box-filter-ohko-rgb), 0.35) 0 50%,
+      rgba(var(--box-filter-ohkod-rgb), 0.8) 50% 100%
+    );
+}
+
+.box-sort-card.mb-ohkod.mb-ohko:not(.ohko):not(.ohkod) {
+    background: repeating-linear-gradient(
+      to right,
+      rgba(var(--box-filter-ohko-rgb), 0.35) 0 50%,
+      rgba(var(--box-filter-ohkod-rgb), 0.35) 50% 100%
+    );
+}
+
+.box-sort-card.defender,
+.box-sort-card.baiter {
+    background: rgb(var(--box-filter-max-taken-rgb));
+}
+
+.box-sort-card.killer.defender {
+    background: linear-gradient(to right, rgba(var(--box-filter-min-dealt-rgb), 0.4) 50%, rgb(var(--box-filter-max-taken-rgb)) 50%);
+}
+
 .box-sort-metric {
     display: none;
 }
@@ -3883,14 +3964,16 @@ table.field {
   .info-group.info-selectors .inline-toggle-field .abilityToggle,
   .info-group.info-selectors .inline-toggle-field .itemToggle {
     position: absolute;
-    left: -24px;
+    left: auto;
+    right: 65px;
     top: 50%;
     transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
   }
 
   .info-group.info-selectors label {
-    display: flex;
-    width: 92px;
+    display: none;
   }
 
   .info-group.info-selectors select {

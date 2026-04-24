@@ -119,11 +119,6 @@ const genInfo = {
     natures:   {}
 };
 
-
-if (settings.damageGen <= 3) {
-    $('#player-poks-filter').remove()
-}
-
 SOURCES = window.romhackSourceTitles || {}
 
 $(document).ready(function() {

@@ -897,7 +897,8 @@ function toggleMegaBoxVisibility(hasMegas) {
 
 function buildBoxSpriteHTML(setId, highlights) {
     var pok_name = setId.split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
-    return `<div class="box-sort-card" data-set-id="${setId}">
+    var highlightClasses = highlights ? ` ${highlights.trim()}` : ""
+    return `<div class="box-sort-card${highlightClasses}" data-set-id="${setId}">
         <div class="box-sort-metric"></div>
         <img class="trainer-pok left-side ${sprite_style} ${highlights}" src="./img/${sprite_style}/${pok_name}.png" data-id="${setId}">
     </div>`

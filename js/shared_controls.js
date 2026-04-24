@@ -71,6 +71,45 @@ function getDefaultMoveHitsForPoke(pokeObj, move) {
 	return 3;
 }
 
+function shouldHideAllEvColumns() {
+	return typeof settings !== 'undefined' && settings && !settings.hasEvs;
+}
+
+function pokeHasAnyVisibleEvs(pokeObj) {
+	var hasNonZeroEv = false;
+	$(pokeObj).find('.evs').each(function () {
+		if ((parseInt($(this).val(), 10) || 0) !== 0) {
+			hasNonZeroEv = true;
+			return false;
+		}
+	});
+	return hasNonZeroEv;
+}
+
+function setEvColumnVisibility(tableSelector, shouldShow) {
+	var table = $(tableSelector);
+	if (!table.length) {
+		return;
+	}
+
+	if (shouldShow) {
+		table.find('.ev-col').show();
+	} else {
+		table.find('.ev-col').hide();
+	}
+}
+
+function syncEvColumnVisibility() {
+	if (shouldHideAllEvColumns()) {
+		setEvColumnVisibility('.left-table table', false);
+		setEvColumnVisibility('.right-table table', false);
+		return;
+	}
+
+	setEvColumnVisibility('.left-table table', true);
+	setEvColumnVisibility('.right-table table', pokeHasAnyVisibleEvs($('#p2')));
+}
+
 var LEGACY_STATS_RBY = ["hp", "at", "df", "sl", "sp"];
 var LEGACY_STATS_GSC = ["hp", "at", "df", "sa", "sd", "sp"];
 var LEGACY_STATS = [[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC];
@@ -471,6 +510,14 @@ $(".sl .dvs").keyup(function () {
 
 $(".ivs, .dvs").bind("keyup change", function () {
 	refreshInferredHiddenPower($(this).closest(".poke-info"));
+});
+
+$(".evs").bind("keyup change", function () {
+	syncEvColumnVisibility();
+});
+
+$(document).ready(function () {
+	syncEvColumnVisibility();
 });
 
 function getHPDVs(poke) {
@@ -1908,6 +1955,7 @@ $(".set-selector").change(function () {
 		syncStatusSelectUi(pokeObj.find(".status"));
 		syncItemState(itemObj);
 		applyRememberedHpStatusToPokeInfo(pokeObj, fullSetName);
+		syncEvColumnVisibility();
 
 		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined") {
 			var setGender = getGender(setdex[pokemonName][setName]["gender"]);

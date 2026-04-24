@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?87309318" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?fcb21488" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?86d43b1a" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
@@ -494,7 +494,7 @@
                             <th></th>
                             <th scope="col">Base</th>
                             <th class="gen-specific g3 g4 g5 g6 g7 g8" scope="col">IVs</th>
-                            <th class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-label" scope="col">EVs</th>
+                            <th class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-label ev-col" scope="col">EVs</th>
                             <th class="gen-specific g1 g2 hide" scope="col">DVs</th>
                             <th></th>
                             <th></th>
@@ -511,7 +511,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -531,7 +531,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -567,7 +567,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -603,7 +603,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -639,7 +639,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -672,7 +672,7 @@
                             <td>
                                 <input class="base calc-trigger" value="100" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="65535" step="4" value="0" />
                             </td>
                             <td>
@@ -708,7 +708,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -1624,7 +1624,7 @@
                             <th></th>
                             <th scope="col">Base</th>
                             <th class="gen-specific g3 g4 g5 g6 g7 g8" scope="col">IVs</th>
-                            <th class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-label" scope="col">EVs</th>
+                            <th class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-label ev-col" scope="col">EVs</th>
                             <th class="gen-specific g1 g2 hide" scope="col">DVs</th>
                             <th></th>
                             <th></th>
@@ -1641,7 +1641,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -1661,7 +1661,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -1697,7 +1697,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -1733,7 +1733,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -1769,7 +1769,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -1802,7 +1802,7 @@
                             <td>
                                 <input class="base calc-trigger" value="100" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="65535" step="4" value="0" />
                             </td>
                             <td>
@@ -1838,7 +1838,7 @@
                             <td class="gen-specific g3 g4 g5 g6 g7 g8">
                                 <input class="ivs calc-trigger" value="31" />
                             </td>
-                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8">
+                            <td class="gen-specific g1 g3 g4 g5 g6 g7 g8 ev-col">
                                 <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0" />
                             </td>
                             <td class="gen-specific g1 g2 hide">
@@ -2271,8 +2271,8 @@
     <script type="text/javascript" src="./js/romhack_modal.js?e0f09628"></script>
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?6f63fcac"></script>
-    <script type="text/javascript" src="./js/initialize.js?88959aaa"></script>
-    <script type="text/javascript" src="./js/calc_ui/player_box.js?550b3d71"></script>
+    <script type="text/javascript" src="./js/initialize.js?8f4bcf50"></script>
+    <script type="text/javascript" src="./js/calc_ui/player_box.js?46a03efd"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?0600edbf"></script>
@@ -2348,7 +2348,7 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?314d9ce1"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?d1e98adc"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?d13d4073"></script>
     <script type="text/javascript" src="./js/moveset_import.js?d879a33a"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>
