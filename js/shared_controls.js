@@ -86,27 +86,6 @@ var STATUS_ALIAS_MAP = {
 	'slp': 'Asleep'
 };
 
-var DAMAGE_RESIST_BERRIES = [
-	'Babiri Berry',
-	'Charti Berry',
-	'Chilan Berry',
-	'Chople Berry',
-	'Coba Berry',
-	'Colbur Berry',
-	'Haban Berry',
-	'Kasib Berry',
-	'Kebia Berry',
-	'Occa Berry',
-	'Passho Berry',
-	'Payapa Berry',
-	'Rindo Berry',
-	'Roseli Berry',
-	'Shuca Berry',
-	'Tanga Berry',
-	'Wacan Berry',
-	'Yache Berry'
-];
-
 var lastOpposingTrainerIdentity = null;
 
 function normalizeStoredStatus(statusValue) {
@@ -959,12 +938,6 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	
 
 	syncItemEffectToggle($(moveObj).closest('.poke-info'));
-	var currentSide = $(moveObj).closest('.poke-info').attr('id');
-	if (currentSide === 'p1') {
-		syncItemEffectToggle($('#p2'));
-	} else if (currentSide === 'p2') {
-		syncItemEffectToggle($('#p1'));
-	}
 }
 
 
@@ -976,37 +949,6 @@ $(".move-selector").change(function () {
 
 var lastItem = {p1: "(none)", p2: "(none)"};
 
-function pokeHasMoveNamed(pokeInfo, moveName) {
-	for (var i = 1; i <= 4; i++) {
-		var $moveField = pokeInfo.find('.move' + i + ' .move-selector');
-		var selectedValue = String($moveField.val() || '').trim();
-		var selectedText = String($moveField.parent().find('.select2-chosen').text() || '').trim();
-		if (selectedValue === moveName || selectedText === moveName) {
-			return true;
-		}
-	}
-	return false;
-}
-
-function getOpposingPokeInfo(pokeInfo) {
-	var currentId = $(pokeInfo).attr('id');
-	if (currentId === 'p1') {
-		return $('#p2');
-	}
-	if (currentId === 'p2') {
-		return $('#p1');
-	}
-	return $();
-}
-
-function isConsumableDamageItem(itemName) {
-	return !!itemName && (
-		itemName === 'Berserk Gene' ||
-		itemName.slice(-4) === ' Gem' ||
-		DAMAGE_RESIST_BERRIES.indexOf(itemName) !== -1
-	);
-}
-
 function syncItemEffectToggle(pokeInfo, resetChecked) {
 	var $pokeInfo = $(pokeInfo);
 	var $itemToggle = $pokeInfo.find('.itemToggle');
@@ -1015,21 +957,10 @@ function syncItemEffectToggle(pokeInfo, resetChecked) {
 	}
 
 	var itemName = $pokeInfo.find('.item').val();
-	var opposingPokeInfo = getOpposingPokeInfo($pokeInfo);
-	var shouldShow =
-		pokeHasMoveNamed($pokeInfo, 'Acrobatics') ||
-		isConsumableDamageItem(itemName) ||
-		(!!itemName && opposingPokeInfo.length && pokeHasMoveNamed(opposingPokeInfo, 'Knock Off'));
-	var wasVisible = $itemToggle.is(':visible');
-
-	if (shouldShow) {
-		if (resetChecked || !wasVisible) {
-			$itemToggle.prop('checked', !!itemName);
-		}
-		$itemToggle.show();
-	} else {
-		$itemToggle.prop('checked', true).hide();
+	if (resetChecked) {
+		$itemToggle.prop('checked', !!itemName);
 	}
+	$itemToggle.show();
 }
 
 function showItemExtras(itemObj) {
