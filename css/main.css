@@ -4011,11 +4011,11 @@ table.field {
   .info-group.info-selectors .inline-toggle-field .itemToggle {
     position: absolute;
     left: auto;
-    right: 65px;
     top: 50%;
     transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
+    right: 4rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .info-group.info-selectors label {
