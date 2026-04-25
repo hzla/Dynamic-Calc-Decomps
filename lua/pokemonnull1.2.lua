@@ -5162,6 +5162,7 @@ local function trimIncompleteBattleEvents(events)
 
 	local out = {}
 	local currentSessionStart = nil
+	local currentSessionHasContent = false
 	local dropped = false
 
 	for i = 1, #events do
@@ -5169,27 +5170,28 @@ local function trimIncompleteBattleEvents(events)
 		local evType = type(ev) == "table" and ev.type or nil
 
 		if evType == "session_start" then
-			if currentSessionStart ~= nil then
+			if currentSessionStart ~= nil and not currentSessionHasContent then
 				while #out >= currentSessionStart do
 					out[#out] = nil
 				end
 				dropped = true
 			end
 			currentSessionStart = #out + 1
+			currentSessionHasContent = false
 			out[#out + 1] = ev
 		elseif evType == "session_end" then
-			if currentSessionStart ~= nil then
-				out[#out + 1] = ev
-				currentSessionStart = nil
-			else
-				out[#out + 1] = ev
-			end
+			out[#out + 1] = ev
+			currentSessionStart = nil
+			currentSessionHasContent = false
 		else
+			if currentSessionStart ~= nil then
+				currentSessionHasContent = true
+			end
 			out[#out + 1] = ev
 		end
 	end
 
-	if currentSessionStart ~= nil then
+	if currentSessionStart ~= nil and not currentSessionHasContent then
 		while #out >= currentSessionStart do
 			out[#out] = nil
 		end
@@ -5263,7 +5265,7 @@ local function hydrateAttemptStateFromMaster(attempt, masterPath)
 	normalizedEvents, droppedIncomplete = trimIncompleteBattleEvents(events)
 	nullExportState.eventsByAttempt[attempt] = normalizedEvents
 	if droppedIncomplete then
-		logExportInfo("BATTLELOG trimmed trailing incomplete session and resumed append from last complete battle.")
+		logExportInfo("BATTLELOG trimmed trailing empty session and resumed append from last recorded battle.")
 	end
 end
 
@@ -5615,12 +5617,13 @@ local function appendBattleLogEvent(record)
 			events = normalizedEvents
 			nullExportState.eventsByAttempt[ctx.attempt] = events
 			if droppedIncomplete then
-				logExportInfo("BATTLELOG removed incomplete trailing session before appending new session.")
+				logExportInfo("BATTLELOG removed trailing empty session before appending new session.")
 			end
 		end
 	end
 	events[#events + 1] = record
 	markAttemptMasterDirty(ctx.attempt, false)
+	writeAttemptMaster(ctx.attempt, false)
 	return ctx
 end
 
