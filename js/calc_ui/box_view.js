@@ -200,6 +200,9 @@
     }
 
     function getDisplayName(speciesName, setData) {
+        if (setData && setData.isEgg) {
+            return `${speciesName} (Egg)`;
+        }
         const nickname = setData && setData.nn ? String(setData.nn).trim() : "";
         if (nickname && nickname !== speciesName) {
             return nickname;
@@ -228,6 +231,15 @@
             .replace(/[’']/g, "")
             .replace(/[.:]/g, "");
         return `<img class="box-card-item" src="./img/items/${escapeHtml(itemSlug)}.png" alt="${escapeHtml(itemName)}" onerror="this.style.display='none'">`;
+    }
+
+    function getAbilityDisplayText(setData) {
+        const abilityName = String(setData && setData.ability || "Unknown").trim() || "Unknown";
+        const abilitySlotId = Number(setData && setData.abilitySlotId);
+        if (gameGen == 4 && Number.isInteger(abilitySlotId) && abilitySlotId > 0) {
+            return `${abilityName} (${abilitySlotId})`;
+        }
+        return abilityName;
     }
 
     function getTypeIconMarkup(typeName, extraClass) {
@@ -497,6 +509,7 @@
         const encountersMap = getEncountersMap();
         const battleCountMap = getBattleCountMap();
         const entries = [];
+        let eggEntryCount = 0;
 
         Object.keys(customSetsMap).forEach((speciesName) => {
             const speciesSets = customSetsMap[speciesName];
@@ -505,6 +518,13 @@
             }
 
             const setData = speciesSets["My Box"];
+            if (setData && setData.isEgg) {
+                eggEntryCount += 1;
+                console.log("[egg-debug][box-view] found egg custom set", {
+                    speciesName,
+                    setData,
+                });
+            }
             const baseStats = getSpeciesBaseStats(speciesName);
             const typeNames = getSpeciesTypes(speciesName);
             const typeSlugs = typeNames.map(normalizeSlug);
@@ -529,6 +549,15 @@
                 dexNumber: window.pokedex && window.pokedex[speciesName] ? Number(window.pokedex[speciesName].num) || Number.MAX_SAFE_INTEGER : Number.MAX_SAFE_INTEGER
             });
         });
+
+        if (eggEntryCount > 0) {
+            console.log("[egg-debug][box-view] total egg entries", {
+                eggEntryCount,
+                totalEntries: entries.length,
+            });
+        } else {
+            console.log("[egg-debug][box-view] no egg entries found in custom sets");
+        }
 
         return entries;
     }
@@ -652,7 +681,7 @@
                                 <div class="box-card-name">${escapeHtml(entry.displayName)}${entry.genderMarkup ? ` ${entry.genderMarkup}` : ""}</div>
                                 <div class="box-card-level">Lv. ${escapeHtml(entry.level)}</div>
                                 ${metLocation ? `<div class="box-card-level">${escapeHtml(metLocation)}</div>` : ""}
-                                <div class="box-card-level box-card-submeta">${escapeHtml(entry.setData.ability || "Unknown")}</div>
+                                <div class="box-card-level box-card-submeta">${escapeHtml(getAbilityDisplayText(entry.setData))}</div>
                                 <div class="box-card-stats">
                                     ${statRows.join("")}
                                 </div>

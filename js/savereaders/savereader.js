@@ -1,5 +1,11 @@
 // SAVEREADERS FOR GEN 4/5 AND HG-ENGINE
 
+var invalidSavSpeciesDebugCount = 0
+
+function isEmptyOrInvalidDsSaveCounter(value) {
+    return value === 0xFFFFFFFF || value === 0x00000000
+}
+
 $(document).ready(function() {
     if (gameGen == 4 || gameGen == 5 || mechanics == "hge") {
         $('#save-upload').attr('id', 'save-upload-g45')
@@ -113,7 +119,9 @@ $(document).ready(function() {
                     if (baseGame == "Pt" || baseGame == "HGSS") {
                         smallBlock1SaveCount = read32BitIntegerFromUint8Array(view,  smallBlockSize - 16)
                         smallBlock2SaveCount = read32BitIntegerFromUint8Array(view,  smallBlockSize + 0x40000 - 16)
-                        if (smallBlock2SaveCount > smallBlock1SaveCount || forceBlock2) {
+                        var smallBlock1Invalid = isEmptyOrInvalidDsSaveCounter(smallBlock1SaveCount)
+                        var smallBlock2Invalid = isEmptyOrInvalidDsSaveCounter(smallBlock2SaveCount)
+                        if (smallBlock1Invalid || forceBlock2 || (!smallBlock2Invalid && smallBlock2SaveCount > smallBlock1SaveCount)) {
                             partyCountOffset += 0x40000
                             blockId = read32BitIntegerFromUint8Array(view,  smallBlockSize + 0x40000 - 20)
                             console.log("now reading party from block 2")
@@ -123,7 +131,8 @@ $(document).ready(function() {
                             blockId = read32BitIntegerFromUint8Array(view,  smallBlockSize - 20)       
                         }
                         block1Id = read32BitIntegerFromUint8Array(view,  bigBlockStart + bigBlockSize - 20)
-                        if (block1Id != blockId || forceBlock2) {
+                        var bigBlock1Invalid = isEmptyOrInvalidDsSaveCounter(block1Id)
+                        if (bigBlock1Invalid || block1Id != blockId || forceBlock2) {
                             boxDataOffset += 0x40000
                             bigBlockStart += 0x40000
                             console.log("now reading box from block 2")
@@ -874,12 +883,29 @@ function parsePKM(chunk, is_party=false, offset=0) {
         gender = "M"
     }
 
-    var mon_name = sav_pok_names[decryptedData[mon_data_offset]]
+    var rawSpeciesId = decryptedData[mon_data_offset]
+    var mon_name = sav_pok_names[rawSpeciesId]
 
     try {
        mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name 
    } catch {
-        console.log(`failed to parse species id: ${decryptedData[mon_data_offset]}`)
+        invalidSavSpeciesDebugCount += 1
+        console.log(`failed to parse species id: ${rawSpeciesId}`)
+        if (invalidSavSpeciesDebugCount <= 25) {
+            console.log("[egg-debug][savereader] invalid species details", {
+                count: invalidSavSpeciesDebugCount,
+                speciesId: rawSpeciesId,
+                rawSpeciesName: mon_name || null,
+                isParty: Boolean(is_party),
+                offset: offset,
+                pid: pv >>> 0,
+                pidHex: "0x" + (pv >>> 0).toString(16).toUpperCase(),
+                shiftOrder: shiftOrder,
+                monDataOffset: mon_data_offset,
+                moveDataOffset: move_data_offset,
+                firstWords: decryptedData.slice(0, 16),
+            })
+        }
         return ""
    }
 
@@ -963,6 +989,28 @@ function parsePKM(chunk, is_party=false, offset=0) {
         var nature = natures[natureIndex]
     }
 
+    var exp = (decryptedData[mon_data_offset + 5] << 16) | (decryptedData[mon_data_offset + 4]  & 0xFFFF)
+    var isEgg = mon_name === "Egg" || mon_name === "Bad Egg" || ((iv_value >>> 30) & 0x1) === 1 || exp === 0
+    var abilitySlotId = null
+    if (gameGen == 4) {
+        abilitySlotId = (pv & 0x1) + 1
+    }
+    if (isEgg) {
+        console.log("[egg-debug][savereader] detected egg", {
+            speciesName: mon_name,
+            isParty: Boolean(is_party),
+            offset: offset,
+            speciesId: decryptedData[mon_data_offset],
+            pid: pv >>> 0,
+            pidHex: "0x" + (pv >>> 0).toString(16).toUpperCase(),
+            exp: exp,
+            eggBit30: (iv_value >>> 30) & 0x1,
+            abilitySlotId: abilitySlotId,
+            abilityName: ability || null,
+            nickname: nn,
+        })
+    }
+
     if (is_party) {
         partyMons[mon_name] = decryptedBattleStats.length - 1
         partyPIDs.push(pv)
@@ -982,16 +1030,16 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
 
     try {
-        if (nn.toLowerCase() != mon_name.toLowerCase()) {
-        // console.log([nn, mon_name])
-        showdownString += `${nn} (${mon_name})`
+        if (isEgg) {
+            showdownString += `${mon_name} (Egg)`
+        } else if (nn.toLowerCase() != mon_name.toLowerCase()) {
+            showdownString += `${nn} (${mon_name})`
         } else {
             showdownString += `${mon_name}`
-        }  
+        }
     } catch {
         console.log(mon_name)
-        showdownString += `${mon_name}`
-
+        showdownString += isEgg ? `${mon_name} (Egg)` : `${mon_name}`
     }
 
     if (gender && gender !== "N") {
@@ -1003,7 +1051,6 @@ function parsePKM(chunk, is_party=false, offset=0) {
     
     
 
-    var exp = (decryptedData[mon_data_offset + 5] << 16) | (decryptedData[mon_data_offset + 4]  & 0xFFFF)
     var exp_table = expTables[sav_pok_growths[decryptedData[mon_data_offset]]]
     var level = resolveSavLevelFromExperience(mon_name, exp);
     if (!Number.isFinite(level)) {
@@ -1014,7 +1061,15 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
     showdownString += `Level: ${level}\n`
     showdownString += `${nature} Nature\n`
-    showdownString += `Ability: ${ability}\n`
+    if (ability) {
+        showdownString += `Ability: ${ability}\n`
+    }
+    if (abilitySlotId !== null) {
+        showdownString += `Ability Slot: ${abilitySlotId}\n`
+    }
+    if (isEgg) {
+        showdownString += `Egg: Yes\n`
+    }
 
     showdownString += `EVs: ${hp_ev} HP / ${atk_ev} Atk / ${def_ev} Def / ${spa_ev} SpA / ${spd_ev} SpD / ${spe_ev} Spe\n`
     showdownString += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[4]} SpA / ${ivs[5]} SpD / ${ivs[3]} Spe\n`

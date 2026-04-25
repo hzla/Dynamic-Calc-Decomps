@@ -315,7 +315,8 @@ var DPP = ADV.concat([
     'Zap Plate',
     'Zoom Lens',
     "Bicycle",
-    "Town Map"
+    "Town Map",
+    "Exp. Share"
 ]);
 var BW = DPP.concat([
     'Absorb Bulb',

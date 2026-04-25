@@ -217,6 +217,61 @@ function getSetDataFromSetId(setId) {
 	return setdex[speciesName][setName];
 }
 
+function getImportedAbilitySlotDisplaySuffix(pokeObj) {
+	if (!pokeObj || !pokeObj.length || pokeObj.attr('id') !== 'p1') {
+		return '';
+	}
+
+	var setId = pokeObj.find('input.set-selector').val();
+	if (!setId || setId.indexOf('(My Box)') === -1) {
+		return '';
+	}
+
+	var speciesName = setId.substring(0, setId.indexOf(' ('));
+	var setData = customSets &&
+		customSets[speciesName] &&
+		customSets[speciesName]['My Box'];
+	var abilitySlotId = Number(setData && setData.abilitySlotId);
+	if (!Number.isInteger(abilitySlotId) || abilitySlotId < 1) {
+		return '';
+	}
+
+	return ` (${abilitySlotId})`;
+}
+
+function updateImportedAbilitySlotDisplay(pokeObj) {
+	if (!pokeObj || !pokeObj.length) {
+		return;
+	}
+
+	var abilitySelect = pokeObj.find('.ability');
+	var rawAbility = String(abilitySelect.val() || '').trim();
+	var suffix = rawAbility ? getImportedAbilitySlotDisplaySuffix(pokeObj) : '';
+
+	abilitySelect.find('option').each(function () {
+		var option = $(this);
+		var baseLabel = option.attr('data-base-label');
+		if (typeof baseLabel === 'undefined') {
+			baseLabel = option.text();
+			option.attr('data-base-label', baseLabel);
+		}
+		option.text(baseLabel);
+	});
+
+	if (rawAbility) {
+		var selectedOption = abilitySelect.find('option:selected');
+		if (selectedOption.length) {
+			var selectedBaseLabel = selectedOption.attr('data-base-label') || rawAbility;
+			selectedOption.text(selectedBaseLabel + suffix);
+		}
+	}
+
+	var chosen = abilitySelect.prev('.select2-container').find('.select2-chosen');
+	if (chosen.length) {
+		chosen.text(rawAbility ? (rawAbility + suffix) : rawAbility);
+	}
+}
+
 function applyRememberedHpStatusToPokeInfo(pokeObj, setId) {
 	var rememberedState = getRememberedStateForSet(pokeObj, setId);
 	if (!rememberedState || typeof rememberedState !== 'object') {
@@ -600,6 +655,7 @@ $(".current-hp, .percent-hp").on("input keyup change blur", function () {
 
 function showAbilityExtras(abilityObj) {
 	var pokeObj = $(abilityObj).closest(".poke-info");
+	updateImportedAbilitySlotDisplay(pokeObj);
 	pokeObj.find(".move-group").each(function () {
 		var moveName = $(this).find(".select2-chosen").text();
 		var move = moves[moveName] || moves['(No Move)'];
@@ -1873,6 +1929,7 @@ $(".set-selector").change(function () {
 
 			setSelectValueIfValid(abilityObj, set.ability, abilityFallback);
 			setSelectValueIfValid(itemObj, set.item, "");
+			updateImportedAbilitySlotDisplay(pokeObj);
 
 			var moves = randset ? selectMovesFromRandomOptions(randset.moves) : set.moves;
 			for (i = 0; i < 4; i++) {

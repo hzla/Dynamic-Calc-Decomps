@@ -89,6 +89,10 @@ function setSettingsDefaults() {
   if (typeof localStorage.themeIndex === 'undefined') {
     localStorage.themeIndex = 1
   }
+
+  if (typeof localStorage.dexSpeciesModalMode === 'undefined') {
+    localStorage.dexSpeciesModalMode = 0
+  }
   if (typeof localStorage.lvlCap != 'undefined') {
     $('#lvl-cap').val(localStorage.lvlCap)
   }
@@ -139,7 +143,7 @@ function setSettingsDefaults() {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -190,6 +194,10 @@ function setSettingsTogglesFromLocalStorage() {
 
     if (localStorage.dynamicTypeBug == '1') {
         $('#dynamic-type-bug input').prop('checked', true)
+    }
+
+    if (localStorage.dexSpeciesModalMode == '1') {
+        $('#toggle-dex-species-modal input').prop('checked', true)
     }
 
     applySyncLuaVisibility()
@@ -322,6 +330,10 @@ $('#toggle-battle-notes .slider').click(function(){
 
 $('#toggle-hl-moves .slider').click(function(){
     localStorage.highlightMoves = (parseInt(localStorage.highlightMoves) + 1) % 2   
+})
+
+$('#toggle-dex-species-modal .slider').click(function(){
+    localStorage.dexSpeciesModalMode = (parseInt(localStorage.dexSpeciesModalMode) + 1) % 2
 })
 
 $('#toggle-auto-import-megas .slider').click(toggleAutoImportMegas)

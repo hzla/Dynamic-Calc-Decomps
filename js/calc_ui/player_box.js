@@ -709,6 +709,16 @@ function getPreviewSpriteName(species_name) {
     return species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
 }
 
+function isImportedEggSpecies(speciesName) {
+    return Boolean(
+        speciesName &&
+        customSets &&
+        customSets[speciesName] &&
+        customSets[speciesName]["My Box"] &&
+        customSets[speciesName]["My Box"].isEgg
+    )
+}
+
 var manualTagPartnerSelectionPending = false
 var manualTagPartnerTrainerId = false
 var manualTagPartnerLockedTrainerIds = []
@@ -1030,6 +1040,9 @@ function displayParty() {
                 if (!setdex[species_name]) {
                     continue;
                 }
+                if (isImportedEggSpecies(species_name)) {
+                    continue;
+                }
                 var sprite_name = species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
                 var set_data = setdex[species_name]["My Box"]
                 pok = generatePartyHTML(set_data, species_name)
@@ -1063,14 +1076,16 @@ function get_box() {
         if (names[i].includes("My Box")) {
             var setId = names[i].split("[")[0]
             var speciesName = setId.split(" (")[0]
-            box.push(setId)
 
             if (
                 (typeof window.isSpeciesFamilyMarkedDead === "function" && window.isSpeciesFamilyMarkedDead(speciesName, encounters)) ||
-                (encounters && encounters[speciesName] && !encounters[speciesName].alive)
+                (encounters && encounters[speciesName] && !encounters[speciesName].alive) ||
+                isImportedEggSpecies(speciesName)
             ) {
                 continue
             }
+
+            box.push(setId)
 
             var set_name = setId.trim()
             var highlights = ""

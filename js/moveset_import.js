@@ -761,6 +761,12 @@ function getStats(currentPoke, rows, offset) {
 			}
 			currentPoke.level = parseInt(levelValue);
 			break;
+		case 'Ability Slot':
+			currentPoke.abilitySlotId = parseInt(currentRow[1]);
+			break;
+		case 'Egg':
+			currentPoke.isEgg = String(currentRow[1] || "").trim().toLowerCase() === "yes";
+			break;
 		case 'EVs':
 			for (j = 1; j < currentRow.length; j++) {
 				currentEV = currentRow[j].trim().split(" ");
@@ -840,15 +846,22 @@ function extractGenderFromImportHeader(headerLine) {
 function findImportedSpeciesNameFromHeader(headerLine) {
 	var headerInfo = extractGenderFromImportHeader(headerLine);
 	var currentRow = headerInfo.header.split(/[()@]/);
+	var eggCandidate = null;
 
 	for (var i = 0; i < currentRow.length; i++) {
 		var candidate = checkExeptions(currentRow[i].trim());
 		if (calc.SPECIES[8][candidate] !== undefined) {
+			if (candidate === "Egg" || candidate === "Bad Egg") {
+				if (!eggCandidate) {
+					eggCandidate = candidate;
+				}
+				continue;
+			}
 			return candidate;
 		}
 	}
 
-	return null;
+	return eggCandidate;
 }
 
 function getMoves(currentPoke, rows, offset) {
@@ -1208,6 +1221,14 @@ function buildDexObject(poke) {
 		dexObject.boxImportBatchId = String(poke.boxImportBatchId);
 	}
 
+	if (poke.isEgg) {
+		dexObject.isEgg = true;
+	}
+
+	if (Number.isInteger(poke.abilitySlotId)) {
+		dexObject.abilitySlotId = poke.abilitySlotId;
+	}
+
 	return {
 		speciesName: speciesName,
 		dexObject: dexObject
@@ -1216,11 +1237,29 @@ function buildDexObject(poke) {
 
 function upsertImportedSet(customsets, poke) {
 	var importedSet = buildDexObject(poke);
+	if (poke && poke.isEgg) {
+		console.log("[egg-debug][import] upserting egg set", {
+			inputSpeciesName: poke.name,
+			storedSpeciesName: importedSet.speciesName,
+			nickname: poke.nn,
+			level: poke.level,
+			ability: poke.ability,
+			abilitySlotId: poke.abilitySlotId,
+			isEgg: poke.isEgg,
+			met: poke.met,
+		});
+	}
 	if (!customsets[importedSet.speciesName]) {
 		customsets[importedSet.speciesName] = {};
 	}
 
 	customsets[importedSet.speciesName]["My Box"] = importedSet.dexObject;
+	if (importedSet.dexObject && importedSet.dexObject.isEgg) {
+		console.log("[egg-debug][import] stored egg set", {
+			speciesName: importedSet.speciesName,
+			setData: importedSet.dexObject,
+		});
+	}
 
 	if (importedSet.speciesName === "Aegislash-Blade") {
 		if (!customsets["Aegislash-Shield"]) {
@@ -1816,6 +1855,18 @@ function addSets(pokes, name) {
 		reconcileMegaImports(importedRows, customsets);
 		rememberLatestBoxImportBatchId(importBatchId);
 		applyImportedBoxPreview(customsets);
+		var eggSpeciesNames = Object.keys(customsets).filter(function(speciesName) {
+			return customsets[speciesName] &&
+				customsets[speciesName]["My Box"] &&
+				customsets[speciesName]["My Box"].isEgg;
+		});
+		console.log("[egg-debug][import] import summary", {
+			addedpokes: addedpokes,
+			importedRows: importedRows.length,
+			totalCustomSetSpecies: Object.keys(customsets).length,
+			eggSpeciesCount: eggSpeciesNames.length,
+			eggSpeciesNames: eggSpeciesNames.slice(0, 30),
+		});
 		if (typeof window.syncImportedEncounterState === "function") {
 			window.syncImportedEncounterState(customsets, persistedDeadMons || getStoredDeadMons());
 		} else {
