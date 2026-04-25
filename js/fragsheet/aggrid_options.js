@@ -1020,12 +1020,12 @@ function createRowData() {
         }
 
         if (!setData.ivs) {
-            encRow.hp = 31
-            encRow.at = 31
-            encRow.df = 31
-            encRow.sa = 31
-            encRow.sd = 31
-            encRow.sp = 31
+            encRow.hp = ""
+            encRow.at = ""
+            encRow.df = ""
+            encRow.sa = ""
+            encRow.sd = ""
+            encRow.sp = ""
         } else {
             encRow.hp = setData.ivs.hp
             encRow.at = setData.ivs.at

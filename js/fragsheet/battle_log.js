@@ -2528,6 +2528,68 @@
         return speciesBattleCounts;
     }
 
+    function buildBattleLogPartyMonReconstructionSet(mon) {
+        if (!mon || typeof mon !== "object") {
+            return null;
+        }
+
+        const speciesName = String(mon.species || "").trim();
+        if (!speciesName || speciesName === "Unknown") {
+            return null;
+        }
+
+        const setData = {
+            "My Box": {
+                ability: typeof mon.ability === "string" ? mon.ability : "",
+                nature: typeof mon.nature === "string" ? mon.nature : "",
+                item: typeof mon.heldItem === "string" ? mon.heldItem : "",
+                moves: Array.isArray(mon.moves)
+                    ? mon.moves.filter((moveName) => typeof moveName === "string" && moveName.trim())
+                    : [],
+                nn: "",
+                met: "",
+                status: typeof normalizeStoredStatus === "function"
+                    ? normalizeStoredStatus("Healthy")
+                    : "Healthy",
+            }
+        };
+
+        if (Number.isInteger(mon.abilitySlot)) {
+            setData["My Box"].abilitySlotId = mon.abilitySlot;
+        }
+
+        return {
+            speciesName,
+            setData,
+        };
+    }
+
+    function getBattleLogPlayerPartyReconstructionSets() {
+        const resolved = resolveBattleLogSource();
+        if (!resolved.data) {
+            return {};
+        }
+
+        const sessions = buildBattleLogSessionsFromPayload(resolved.data);
+        const reconstructedSets = {};
+
+        sessions.forEach((session) => {
+            const party = Array.isArray(session && session.start && session.start.pParty)
+                ? session.start.pParty
+                : [];
+
+            party.forEach((mon) => {
+                const reconstructed = buildBattleLogPartyMonReconstructionSet(mon);
+                if (!reconstructed) {
+                    return;
+                }
+                reconstructedSets[reconstructed.speciesName] = reconstructed.setData;
+            });
+        });
+
+        return reconstructedSets;
+    }
+
     function setViewMode(mode) {
         if (mode === "battle-log" && !isBattleLogEnabledForTitle()) {
             mode = "fragsheet";
@@ -2735,6 +2797,7 @@
     window.handleBattleLogSplitHeaderImageError = handleBattleLogSplitHeaderImageError;
     window.isBattleLogEnabledForTitle = isBattleLogEnabledForTitle;
     window.getBattleLogSpeciesBattleCounts = getBattleLogSpeciesBattleCounts;
+    window.getBattleLogPlayerPartyReconstructionSets = getBattleLogPlayerPartyReconstructionSets;
 
     function syncImportantTrainerToggleUi() {
         const toggle = document.getElementById("battle-log-important-trainers-toggle");

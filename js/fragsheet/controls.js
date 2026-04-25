@@ -92,8 +92,38 @@ function getCurrentBoxSetsForReload() {
     }
 }
 
+function mergeBattleLogPartySetsIntoReloadBoxSets(currentBoxSets) {
+    const mergedSets = {}
+    const baseSets = (currentBoxSets && typeof currentBoxSets === "object") ? currentBoxSets : {}
+
+    for (const [speciesName, setGroup] of Object.entries(baseSets)) {
+        mergedSets[speciesName] = cloneEncounterSetData(setGroup)
+    }
+
+    if (typeof window.getBattleLogPlayerPartyReconstructionSets !== "function") {
+        return mergedSets
+    }
+
+    let battleLogSets = {}
+    try {
+        battleLogSets = window.getBattleLogPlayerPartyReconstructionSets() || {}
+    } catch (error) {
+        console.error("Failed to gather player party species from battle log for fragsheet reload", error)
+        return mergedSets
+    }
+
+    for (const [speciesName, setGroup] of Object.entries(battleLogSets)) {
+        if (mergedSets[speciesName] && mergedSets[speciesName]["My Box"]) {
+            continue
+        }
+        mergedSets[speciesName] = cloneEncounterSetData(setGroup)
+    }
+
+    return mergedSets
+}
+
 function rebuildFragsheetFromCurrentBox() {
-    const currentBoxSets = getCurrentBoxSetsForReload()
+    const currentBoxSets = mergeBattleLogPartySetsIntoReloadBoxSets(getCurrentBoxSetsForReload())
     const deadMons = (() => {
         try {
             const parsed = JSON.parse(localStorage.deadMons || "[]")
