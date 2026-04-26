@@ -6613,7 +6613,7 @@ backup_data = {
           "Fire Pledge",
           "Blast Burn",
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -6807,7 +6807,7 @@ backup_data = {
           "Fire Pledge",
           "Blast Burn",
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -7018,7 +7018,7 @@ backup_data = {
           "Fire Pledge",
           "Blast Burn",
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -7752,7 +7752,7 @@ backup_data = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Skill Swap",
           "Signal Beam",
           "Psychic Noise",
@@ -7930,7 +7930,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Skill Swap",
           "Signal Beam",
           "Psychic Noise",
@@ -8064,7 +8064,7 @@ backup_data = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Drill Run",
           "Cross Poison",
@@ -8229,7 +8229,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Drill Run",
           "Cross Poison",
@@ -8392,6 +8392,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Protect",
@@ -8554,6 +8555,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Protect",
@@ -8734,6 +8736,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Protect",
@@ -8888,7 +8891,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Iron Head",
           "Drill Run",
@@ -9067,7 +9070,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Iron Head",
           "Drill Run",
@@ -9235,6 +9238,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Drill Run",
           "Bounce",
           "Foul Play",
@@ -9404,6 +9409,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Drill Run",
           "Bounce",
           "Foul Play",
@@ -9567,7 +9574,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Cross Poison",
@@ -9756,7 +9763,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Cross Poison",
@@ -11686,12 +11693,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 80,
-        "at": 45,
+        "hp": 75,
+        "at": 60,
         "df": 63,
-        "sa": 90,
+        "sa": 85,
         "sd": 80,
-        "sp": 45
+        "sp": 35
       },
       "learnset_info": {
         "learnset": [
@@ -11725,7 +11732,7 @@ backup_data = {
           ],
           [
             19,
-            "Draining Kiss"
+            "Double Slap"
           ],
           [
             22,
@@ -11888,8 +11895,8 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 70,
-        "df": 83,
+        "at": 80,
+        "df": 73,
         "sa": 105,
         "sd": 100,
         "sp": 60
@@ -11926,7 +11933,7 @@ backup_data = {
           ],
           [
             19,
-            "Draining Kiss"
+            "Double Slap"
           ],
           [
             22,
@@ -12978,6 +12985,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Zen Headbutt",
@@ -13148,6 +13157,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Zen Headbutt",
@@ -13890,9 +13901,8 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
           "Signal Beam",
           "Cross Poison",
           "Foul Play",
@@ -14089,9 +14099,8 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
           "Signal Beam",
           "Cross Poison",
           "Foul Play",
@@ -14240,7 +14249,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Skill Swap",
           "Signal Beam",
           "Psychic Noise",
@@ -14433,7 +14442,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Skill Swap",
           "Signal Beam",
           "Psychic Noise",
@@ -14579,7 +14588,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Iron Head",
           "Drill Run",
@@ -14748,7 +14756,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Iron Head",
           "Drill Run",
@@ -14907,8 +14914,9 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Iron Head",
           "Psychic Noise",
           "Low Kick",
@@ -15115,8 +15123,9 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Iron Head",
           "Psychic Noise",
           "Low Kick",
@@ -15699,8 +15708,9 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Bounce",
@@ -15894,8 +15904,9 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Bounce",
@@ -16871,6 +16882,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -17039,6 +17051,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -17233,6 +17246,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -17399,7 +17413,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -17578,7 +17591,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -17771,7 +17783,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -17928,7 +17939,6 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Low Kick",
           "Cross Poison",
@@ -18106,7 +18116,6 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Low Kick",
           "Cross Poison",
@@ -18297,7 +18306,6 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Low Kick",
           "Cross Poison",
@@ -20456,7 +20464,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Drill Run",
           "Bounce",
@@ -20974,6 +20982,7 @@ backup_data = {
           "Signal Beam",
           "Drill Run",
           "Seething Cold",
+          "Barrier",
           "Aqua Tail",
           "Protect",
           "Follow Me",
@@ -20983,6 +20992,7 @@ backup_data = {
           "Rest",
           "Toxic",
           "Chilling Water",
+          "Breaking Swipe",
           "Icy Wind",
           "Natural Gift",
           "Take Down",
@@ -21165,6 +21175,7 @@ backup_data = {
           "Signal Beam",
           "Drill Run",
           "Seething Cold",
+          "Barrier",
           "Aqua Tail",
           "Protect",
           "Follow Me",
@@ -21174,6 +21185,7 @@ backup_data = {
           "Rest",
           "Toxic",
           "Chilling Water",
+          "Breaking Swipe",
           "Icy Wind",
           "Natural Gift",
           "Take Down",
@@ -22039,6 +22051,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Seething Cold",
           "Thunder Punch",
           "Fire Punch",
@@ -22219,6 +22232,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Seething Cold",
           "Thunder Punch",
           "Fire Punch",
@@ -22413,6 +22427,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Seething Cold",
           "Thunder Punch",
           "Fire Punch",
@@ -23143,8 +23158,6 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -23328,8 +23341,6 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -23478,6 +23489,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -23668,6 +23680,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -26038,7 +26051,6 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Earth Power",
           "Self Destruct",
@@ -27504,6 +27516,7 @@ backup_data = {
         "tutors": [
           "Seed Bomb",
           "Skill Swap",
+          "Torment",
           "Psychic Noise",
           "Low Kick",
           "Thunder Punch",
@@ -27676,8 +27689,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Low Kick",
@@ -28009,7 +28021,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -28177,7 +28189,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -28366,8 +28378,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -30397,7 +30408,6 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -30602,7 +30612,6 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -30785,6 +30794,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Iron Head",
           "Earth Power",
           "Zen Headbutt",
@@ -31496,7 +31506,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Bounce",
           "Barrier",
@@ -31676,7 +31685,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Bounce",
           "Barrier",
@@ -31879,7 +31887,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Bounce",
           "Barrier",
@@ -32278,10 +32285,10 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
-          "Dual Chop",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -33543,7 +33550,7 @@ backup_data = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Seething Cold",
@@ -33740,7 +33747,7 @@ backup_data = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Seething Cold",
@@ -33939,7 +33946,7 @@ backup_data = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Seething Cold",
@@ -34103,6 +34110,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
           "Bounce",
@@ -34289,6 +34297,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
           "Bounce",
@@ -34797,7 +34806,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -35001,7 +35010,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -35156,7 +35165,6 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
           "Signal Beam",
           "Bounce",
           "Cross Poison",
@@ -35324,7 +35332,6 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
           "Signal Beam",
           "Bounce",
           "Cross Poison",
@@ -35505,6 +35512,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Zen Headbutt",
@@ -36059,7 +36068,7 @@ backup_data = {
           ],
           [
             19,
-            "Draining Kiss"
+            "Double Slap"
           ],
           [
             22,
@@ -36852,6 +36861,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Signal Beam",
           "Psychic Noise",
           "Bounce",
@@ -37042,6 +37052,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Signal Beam",
           "Psychic Noise",
           "Bounce",
@@ -37205,7 +37216,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
@@ -37387,7 +37397,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
@@ -37591,7 +37600,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Signal Beam",
           "Thunder Punch",
           "Fire Punch",
@@ -38718,7 +38726,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Magic Coat",
@@ -38888,7 +38896,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Magic Coat",
@@ -39072,7 +39080,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Magic Coat",
@@ -39218,7 +39226,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Low Kick",
@@ -39720,7 +39728,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Psychic Noise",
           "Bounce",
@@ -40248,6 +40256,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -40432,6 +40441,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -40619,6 +40629,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seething Cold",
           "Foul Play",
           "Protect",
@@ -41406,6 +41417,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -41569,7 +41581,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Signal Beam",
           "Iron Head",
@@ -41762,7 +41773,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Signal Beam",
           "Iron Head",
@@ -42133,8 +42143,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Drill Run",
           "Bounce",
           "Cross Poison",
@@ -42335,6 +42344,7 @@ backup_data = {
           "Head Smash",
           "Toxic",
           "Outrage",
+          "Superpower",
           "Screech",
           "Breaking Swipe",
           "Natural Gift",
@@ -43050,8 +43060,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Low Kick",
@@ -43217,7 +43226,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Signal Beam",
           "Earth Power",
           "Self Destruct",
@@ -43395,7 +43403,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -45366,6 +45373,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Ice Punch",
@@ -45837,6 +45845,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Foul Play",
           "Protect",
           "Defense Curl",
@@ -46018,6 +46027,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Foul Play",
           "Protect",
           "Defense Curl",
@@ -47130,10 +47140,10 @@ backup_data = {
           "Blast Burn",
           "Hydro Cannon",
           "Draco Meteor",
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
-          "Dual Chop",
+          "Torment",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -47794,7 +47804,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -47952,7 +47962,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -49909,8 +49919,7 @@ backup_data = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Low Kick",
           "Thunder Punch",
           "Focus Punch",
@@ -50098,8 +50107,7 @@ backup_data = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Low Kick",
           "Thunder Punch",
           "Focus Punch",
@@ -50305,8 +50313,7 @@ backup_data = {
           "Grass Pledge",
           "Frenzy Plant",
           "Draco Meteor",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
           "Low Kick",
           "Thunder Punch",
           "Focus Punch",
@@ -50471,8 +50478,8 @@ backup_data = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -50651,8 +50658,8 @@ backup_data = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -50853,8 +50860,8 @@ backup_data = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -51521,6 +51528,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Foul Play",
           "Protect",
           "Iron Tail",
@@ -51687,6 +51695,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Foul Play",
           "Protect",
           "Iron Tail",
@@ -51827,7 +51836,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Cross Poison",
@@ -52003,7 +52012,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Cross Poison",
@@ -52082,7 +52091,7 @@ backup_data = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Sweet Scent",
           "Heal Pulse",
           "Toxic",
@@ -52155,7 +52164,7 @@ backup_data = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Magic Coat",
           "Barrier",
@@ -52254,7 +52263,7 @@ backup_data = {
           ],
           [
             34,
-            "Light Screen"
+            "U-turn"
           ],
           [
             36,
@@ -52329,7 +52338,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Magic Coat",
           "Barrier",
@@ -52411,7 +52420,7 @@ backup_data = {
           "Hidden Force"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Cross Poison",
           "Magic Coat",
@@ -52510,7 +52519,7 @@ backup_data = {
           ],
           [
             34,
-            "Light Screen"
+            "U-turn"
           ],
           [
             36,
@@ -52584,7 +52593,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Cross Poison",
           "Magic Coat",
@@ -53747,6 +53756,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Psychic Noise",
           "Protect",
           "Iron Tail",
@@ -53908,6 +53918,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Psychic Noise",
           "Protect",
           "Iron Tail",
@@ -54071,6 +54082,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Gastro Acid",
@@ -54256,6 +54268,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Gastro Acid",
@@ -54409,6 +54422,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Thunder Punch",
@@ -54581,6 +54595,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Thunder Punch",
@@ -54782,6 +54797,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Thunder Punch",
@@ -54915,7 +54931,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Sweet Scent",
           "Aqua Tail",
@@ -55105,7 +55121,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Sweet Scent",
           "Aqua Tail",
@@ -55242,7 +55258,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Bounce",
           "Thunder Punch",
           "Zen Headbutt",
@@ -55434,7 +55450,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Bounce",
           "Thunder Punch",
           "Zen Headbutt",
@@ -56087,8 +56103,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Drill Run",
           "Earth Power",
@@ -56249,8 +56265,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Drill Run",
           "Cross Poison",
@@ -56407,8 +56423,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Drill Run",
           "Cross Poison",
@@ -57757,6 +57773,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
           "Psychic Noise",
@@ -57961,6 +57978,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
           "Psychic Noise",
@@ -58153,7 +58171,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Seething Cold",
@@ -58516,7 +58534,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -58716,7 +58734,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -58930,7 +58948,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -60188,7 +60206,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Thunder Punch",
           "Ice Punch",
@@ -60372,7 +60390,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Thunder Punch",
           "Ice Punch",
@@ -62843,7 +62861,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -63032,7 +63050,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -63239,7 +63257,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -64185,8 +64203,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Cross Poison",
@@ -64381,8 +64398,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -65295,7 +65311,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Ice Punch",
           "Zen Headbutt",
@@ -65492,7 +65508,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Ice Punch",
           "Zen Headbutt",
@@ -66350,8 +66366,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -66548,8 +66562,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
           "Signal Beam",
           "Iron Head",
           "Drill Run",
@@ -67228,7 +67240,7 @@ backup_data = {
         "tutors": [
           "Draco Meteor",
           "Skill Swap",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Cross Poison",
@@ -67385,7 +67397,11 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Seething Cold",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
           "Foul Play",
           "Self Destruct",
@@ -67569,11 +67585,16 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Seething Cold",
+          "Thunder Punch",
+          "Fire Punch",
+          "Ice Punch",
           "Magic Coat",
           "Foul Play",
           "Self Destruct",
           "Explosion",
+          "Focus Punch",
           "Protect",
           "Double-Edge",
           "Helping Hand",
@@ -68160,11 +68181,11 @@ backup_data = {
           ],
           [
             22,
-            "Draining Kiss"
+            "Psywave"
           ],
           [
             26,
-            "Refresh"
+            "Draining Kiss"
           ],
           [
             29,
@@ -68454,7 +68475,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Bounce",
@@ -69529,7 +69550,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Bounce",
           "Cross Poison",
@@ -69724,7 +69745,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Bounce",
           "Cross Poison",
@@ -69915,7 +69936,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Bounce",
           "Cross Poison",
@@ -70404,7 +70425,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Aqua Tail",
           "Protect",
@@ -70566,7 +70586,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Aqua Tail",
           "Protect",
@@ -70759,7 +70778,6 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
           "Iron Head",
           "Aqua Tail",
           "Protect",
@@ -73372,8 +73390,9 @@ backup_data = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -73562,8 +73581,9 @@ backup_data = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -73770,8 +73790,9 @@ backup_data = {
         "tutors": [
           "Fire Pledge",
           "Blast Burn",
+          "U-Turn",
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -74422,11 +74443,14 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Roost",
           "Defog",
           "Low Sweep",
@@ -74568,11 +74592,14 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Roost",
           "Defog",
           "Low Sweep",
@@ -74728,11 +74755,14 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Roost",
           "Defog",
           "Low Sweep",
@@ -75186,8 +75216,8 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Cross Poison",
@@ -75365,8 +75395,8 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Cross Poison",
@@ -77172,7 +77202,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -77342,7 +77372,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Seething Cold",
           "Sweet Scent",
@@ -77479,7 +77509,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Seething Cold",
           "Sweet Scent",
@@ -77666,7 +77696,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Seething Cold",
           "Sweet Scent",
@@ -77832,6 +77862,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Psychic Noise",
           "Thunder Punch",
@@ -77977,7 +78008,8 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Low Kick",
           "Ice Punch",
           "Focus Punch",
@@ -78165,7 +78197,8 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Low Kick",
           "Ice Punch",
           "Focus Punch",
@@ -78317,6 +78350,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Fire Punch",
           "Earth Power",
@@ -78504,6 +78538,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Fire Punch",
           "Earth Power",
@@ -79008,7 +79043,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Bounce",
           "Low Kick",
@@ -79188,6 +79223,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seething Cold",
           "Self Destruct",
           "Explosion",
@@ -79378,6 +79414,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seething Cold",
           "Self Destruct",
           "Explosion",
@@ -79534,6 +79571,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -79728,6 +79766,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Low Kick",
           "Thunder Punch",
@@ -80078,6 +80117,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seething Cold",
           "Foul Play",
           "Protect",
@@ -80231,8 +80271,10 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
+          "Torment",
           "Foul Play",
           "Protect",
           "Iron Tail",
@@ -80411,8 +80453,10 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Skill Swap",
+          "Torment",
           "Foul Play",
           "Protect",
           "Iron Tail",
@@ -80497,7 +80541,7 @@ backup_data = {
           ],
           [
             22,
-            "Draining Kiss"
+            "Psywave"
           ]
         ],
         "tms": [
@@ -80716,6 +80760,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -80904,6 +80949,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -81947,6 +81993,8 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Psychic Noise",
           "Protect",
           "Follow Me",
@@ -82103,6 +82151,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Seething Cold",
           "Foul Play",
           "Zen Headbutt",
@@ -82241,7 +82290,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Earth Power",
@@ -82411,7 +82460,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Earth Power",
@@ -82595,7 +82644,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Earth Power",
@@ -82905,7 +82954,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -83104,7 +83153,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -83590,7 +83639,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Cross Poison",
           "Aqua Tail",
           "Protect",
@@ -83777,7 +83825,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Cross Poison",
           "Aqua Tail",
           "Protect",
@@ -83950,7 +83997,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Cross Poison",
@@ -84151,7 +84198,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Cross Poison",
@@ -84339,7 +84386,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Iron Head",
           "Bounce",
           "Foul Play",
@@ -85391,6 +85438,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Low Kick",
           "Seething Cold",
           "Ice Punch",
@@ -86122,7 +86170,6 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Seed Bomb",
           "Earth Power",
           "Self Destruct",
@@ -86295,7 +86342,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Fire Punch",
@@ -86470,7 +86517,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Low Kick",
           "Cross Poison",
           "Thunder Punch",
@@ -86819,7 +86866,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Psychic Noise",
           "Bounce",
@@ -87389,8 +87436,8 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Drill Run",
           "Bounce",
           "Cross Poison",
@@ -89536,7 +89583,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Iron Head",
           "Seething Cold",
           "Earth Power",
@@ -90811,6 +90858,7 @@ backup_data = {
           "Rock Smash"
         ],
         "tutors": [
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Seething Cold",
@@ -90964,6 +91012,7 @@ backup_data = {
           "Frenzy Plant",
           "Draco Meteor",
           "Seed Bomb",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Sweet Scent",
@@ -91155,6 +91204,7 @@ backup_data = {
           "Frenzy Plant",
           "Draco Meteor",
           "Seed Bomb",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Sweet Scent",
@@ -91368,6 +91418,7 @@ backup_data = {
           "Frenzy Plant",
           "Draco Meteor",
           "Seed Bomb",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Sweet Scent",
@@ -92131,7 +92182,7 @@ backup_data = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -92327,7 +92378,7 @@ backup_data = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -92541,7 +92592,7 @@ backup_data = {
         "tutors": [
           "Water Pledge",
           "Hydro Cannon",
-          "Dual Chop",
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Seething Cold",
@@ -93514,7 +93565,9 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -93697,7 +93750,9 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Cross Poison",
           "Seething Cold",
           "Foul Play",
@@ -93857,6 +93912,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Earth Power",
@@ -94046,6 +94102,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Low Kick",
           "Thunder Punch",
           "Earth Power",
@@ -94224,6 +94281,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Low Kick",
           "Fire Punch",
           "Earth Power",
@@ -94415,6 +94473,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Low Kick",
           "Fire Punch",
           "Earth Power",
@@ -94593,6 +94652,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Low Kick",
           "Ice Punch",
           "Earth Power",
@@ -94785,6 +94845,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Low Kick",
           "Ice Punch",
           "Earth Power",
@@ -95319,6 +95380,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Iron Tail",
           "Double-Edge",
@@ -95477,6 +95539,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Iron Tail",
           "Double-Edge",
@@ -95653,6 +95716,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Protect",
           "Iron Tail",
           "Double-Edge",
@@ -95812,6 +95876,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -96008,6 +96073,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Signal Beam",
           "Bounce",
           "Low Kick",
@@ -96682,7 +96748,9 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Magic Coat",
           "Aqua Tail",
@@ -96879,7 +96947,9 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Magic Coat",
           "Aqua Tail",
@@ -97050,10 +97120,13 @@ backup_data = {
           "Self Destruct",
           "Explosion",
           "Protect",
+          "Defense Curl",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Screech",
           "Low Sweep",
           "Natural Gift",
@@ -97226,10 +97299,13 @@ backup_data = {
           "Self Destruct",
           "Explosion",
           "Protect",
+          "Defense Curl",
           "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
+          "Superpower",
           "Screech",
           "Low Sweep",
           "Natural Gift",
@@ -98919,12 +98995,13 @@ backup_data = {
           "Endure",
           "Poison Jab",
           "Grass Knot",
+          "U-turn",
           "Solar Blade",
           "Giga Impact",
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Signal Beam",
           "Cross Poison",
@@ -99072,12 +99149,13 @@ backup_data = {
           "Endure",
           "Poison Jab",
           "Grass Knot",
+          "U-turn",
           "Solar Blade",
           "Giga Impact",
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Signal Beam",
           "Cross Poison",
@@ -99270,12 +99348,13 @@ backup_data = {
           "Endure",
           "Poison Jab",
           "Grass Knot",
+          "U-turn",
           "Solar Blade",
           "Giga Impact",
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Seed Bomb",
           "Signal Beam",
           "Cross Poison",
@@ -99425,7 +99504,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -99590,7 +99668,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -99777,7 +99854,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -99947,7 +100023,9 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Sweet Scent",
           "Protect",
           "Follow Me",
@@ -100147,7 +100225,9 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Sweet Scent",
           "Protect",
           "Follow Me",
@@ -100848,6 +100928,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Earth Power",
@@ -101030,6 +101111,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Earth Power",
@@ -101226,6 +101308,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "Torment",
           "Drill Run",
           "Low Kick",
           "Earth Power",
@@ -101402,6 +101485,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Fire Punch",
           "Earth Power",
           "Focus Punch",
@@ -101600,6 +101684,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Fire Punch",
           "Earth Power",
           "Focus Punch",
@@ -101779,7 +101864,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Psychic Noise",
           "Bounce",
           "Thunder Punch",
@@ -101958,7 +102043,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Earth Power",
           "Self Destruct",
           "Explosion",
@@ -102140,7 +102225,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Earth Power",
           "Self Destruct",
           "Explosion",
@@ -102313,7 +102398,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -102504,7 +102589,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Thunder Punch",
@@ -103586,8 +103671,10 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Earth Power",
+          "Zen Headbutt",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -103771,8 +103858,10 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Earth Power",
+          "Zen Headbutt",
           "Aqua Tail",
           "Protect",
           "Iron Tail",
@@ -104291,7 +104380,9 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Seething Cold",
@@ -104473,7 +104564,9 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Seething Cold",
@@ -104637,15 +104730,26 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
+          "Bounce",
+          "Low Kick",
+          "Foul Play",
+          "Sweet Scent",
           "Aqua Tail",
           "Protect",
           "Follow Me",
           "Iron Tail",
           "Double-Edge",
+          "Heal Pulse",
+          "Lucky Chant",
           "Helping Hand",
+          "Healing Wish",
           "Rest",
           "Toxic",
+          "Fake Tears",
+          "Screech",
           "Icy Wind",
           "Natural Gift",
           "Take Down",
@@ -104814,15 +104918,26 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
+          "Torment",
+          "Bounce",
+          "Low Kick",
+          "Foul Play",
+          "Sweet Scent",
           "Aqua Tail",
           "Protect",
           "Follow Me",
           "Iron Tail",
           "Double-Edge",
+          "Heal Pulse",
+          "Lucky Chant",
           "Helping Hand",
+          "Healing Wish",
           "Rest",
           "Toxic",
+          "Fake Tears",
+          "Screech",
           "Icy Wind",
           "Natural Gift",
           "Take Down",
@@ -104971,6 +105086,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -105141,6 +105257,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -105332,6 +105449,7 @@ backup_data = {
         ],
         "tutors": [
           "Skill Swap",
+          "Torment",
           "Signal Beam",
           "Psychic Noise",
           "Seething Cold",
@@ -107286,6 +107404,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
+          "U-Turn",
           "Seed Bomb",
           "Signal Beam",
           "Protect",
@@ -107430,14 +107549,20 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Iron Head",
           "Drill Run",
+          "Self Destruct",
+          "Explosion",
           "Protect",
+          "Defense Curl",
+          "Iron Tail",
+          "Double-Edge",
           "Helping Hand",
           "Rest",
           "Toxic",
+          "Screech",
           "Struggle Bug",
+          "Natural Gift",
           "Take Down"
         ]
       },
@@ -107600,14 +107725,20 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Iron Head",
           "Drill Run",
+          "Self Destruct",
+          "Explosion",
           "Protect",
+          "Defense Curl",
+          "Iron Tail",
+          "Double-Edge",
           "Helping Hand",
           "Rest",
           "Toxic",
+          "Screech",
           "Struggle Bug",
+          "Natural Gift",
           "Take Down"
         ]
       },
@@ -107757,6 +107888,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Psychic Noise",
           "Foul Play",
           "Sweet Scent",
@@ -107935,6 +108067,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
+          "Torment",
           "Psychic Noise",
           "Foul Play",
           "Sweet Scent",
@@ -108088,6 +108221,8 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
+          "Torment",
+          "Signal Beam",
           "Seething Cold",
           "Magic Coat",
           "Self Destruct",
@@ -108271,6 +108406,8 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
+          "Torment",
+          "Signal Beam",
           "Seething Cold",
           "Magic Coat",
           "Self Destruct",
@@ -108432,6 +108569,7 @@ backup_data = {
           "Dive"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Seething Cold",
           "Magic Coat",
@@ -108595,7 +108733,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Sweet Scent",
@@ -108776,7 +108914,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Bounce",
           "Sweet Scent",
@@ -109655,6 +109793,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Cross Poison",
           "Seething Cold",
@@ -109852,6 +109991,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Cross Poison",
           "Seething Cold",
@@ -110066,6 +110206,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Bounce",
           "Cross Poison",
           "Seething Cold",
@@ -110577,6 +110718,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Protect",
           "Overheat",
           "Helping Hand",
@@ -110722,6 +110864,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Protect",
           "Overheat",
           "Helping Hand",
@@ -110880,6 +111023,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
+          "Torment",
           "Protect",
           "Overheat",
           "Helping Hand",
@@ -111033,7 +111177,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -111217,7 +111361,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -111415,7 +111559,7 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -112114,7 +112258,8 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Seething Cold",
           "Foul Play",
@@ -112294,7 +112439,8 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
+          "Torment",
           "Signal Beam",
           "Seething Cold",
           "Foul Play",
@@ -112633,7 +112779,8 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Focus Punch",
@@ -112819,7 +112966,8 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Dual Chop",
+          "U-Turn",
+          "Torment",
           "Bounce",
           "Low Kick",
           "Focus Punch",
@@ -113527,7 +113675,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Foul Play",
@@ -113701,7 +113849,7 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Dual Chop",
+          "Torment",
           "Iron Head",
           "Low Kick",
           "Foul Play",
@@ -114008,9 +114156,14 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
+          "Zen Headbutt",
           "Protect",
+          "Follow Me",
+          "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
           "Superpower",
           "Roost",
@@ -114161,9 +114314,14 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
+          "Zen Headbutt",
           "Protect",
+          "Follow Me",
+          "Double-Edge",
           "Helping Hand",
           "Rest",
+          "Head Smash",
           "Toxic",
           "Superpower",
           "Roost",
@@ -114313,9 +114471,12 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Foul Play",
           "Protect",
+          "Follow Me",
           "Helping Hand",
           "Rest",
           "Toxic",
@@ -114482,9 +114643,12 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Foul Play",
           "Protect",
+          "Follow Me",
           "Helping Hand",
           "Rest",
           "Toxic",
@@ -114659,7 +114823,6 @@ backup_data = {
           "Cut"
         ],
         "tutors": [
-          "Skitter Smack",
           "Iron Head",
           "Low Kick",
           "Seething Cold",
@@ -114831,7 +114994,6 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
-          "Skitter Smack",
           "Iron Head",
           "Drill Run",
           "Low Kick",
@@ -114988,6 +115150,8 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Aqua Tail",
@@ -115165,6 +115329,8 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Aqua Tail",
@@ -115372,6 +115538,8 @@ backup_data = {
         ],
         "tutors": [
           "Draco Meteor",
+          "U-Turn",
+          "Torment",
           "Seething Cold",
           "Earth Power",
           "Aqua Tail",
@@ -115523,7 +115691,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Zen Headbutt",
           "Sweet Scent",
@@ -115699,7 +115867,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Zen Headbutt",
           "Sweet Scent",
@@ -117314,7 +117482,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Signal Beam",
           "Low Kick",
           "Seething Cold",
@@ -117490,7 +117658,7 @@ backup_data = {
           "Fly"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Cross Poison",
@@ -120147,7 +120315,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -120315,7 +120483,7 @@ backup_data = {
           "Giga Impact"
         ],
         "tutors": [
-          "Skitter Smack",
+          "U-Turn",
           "Signal Beam",
           "Iron Head",
           "Psychic Noise",
@@ -122463,6 +122631,7 @@ backup_data = {
           "Strength"
         ],
         "tutors": [
+          "U-Turn",
           "Fire Punch",
           "Earth Power",
           "Focus Punch",
@@ -122625,7 +122794,7 @@ backup_data = {
         ],
         "tutors": [
           "Seed Bomb",
-          "Dual Chop",
+          "Torment",
           "Signal Beam",
           "Low Kick",
           "Seething Cold",
@@ -127182,12 +127351,12 @@ backup_data = {
         "nature": "Bold",
         "moves": [
           "Dark Void",
-          "Dream Eater",
-          "Baton Pass",
-          "Substitute"
+          "Future Sight",
+          "Parting Shot",
+          "Night Shade"
         ],
         "sub_index": 0,
-        "ability": "Bad Dreams",
+        "ability": "Inner Focus",
         "sprite": "trainer_sprites/sabrina.png",
         "form": 0,
         "evs": {
@@ -128340,8 +128509,8 @@ backup_data = {
         "moves": [
           "Psychic",
           "Calm Mind",
-          "Zap Cannon",
-          "Detect"
+          "Hyper Beam",
+          "Aura Sphere"
         ],
         "sub_index": 5,
         "ability": "Anticipation",
@@ -131435,8 +131604,8 @@ backup_data = {
         "item": "Colbur Berry",
         "nature": "Jolly",
         "moves": [
-          "Shadow Force",
-          "Crush Claw",
+          "Phantom Strike",
+          "Slam",
           "Pursuit",
           "Play Rough"
         ],
@@ -146691,7 +146860,7 @@ backup_data = {
           "Sacred Sword",
           "Aqua Tail",
           "X-Scissor",
-          "Night Slash"
+          "Meditate"
         ],
         "sub_index": 4,
         "ability": "Hyper Cutter",
@@ -148378,7 +148547,7 @@ backup_data = {
         "item": "Thick Club",
         "nature": "Serious",
         "moves": [
-          "Drill Run",
+          "Earthquake",
           "Shadow Force",
           "Temper Flare",
           "Drain Punch"
@@ -148890,6 +149059,37 @@ backup_data = {
         "sub_index": 1,
         "ability": "Shed Skin",
         "sprite": "trainer_sprites/pokemonranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 Kanto Leader Janine - Driftveil City": {
+        "level": 44,
+        "ai": 143,
+        "noCh": true,
+        "tr_id": 768,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Red Card",
+        "nature": "Lonely",
+        "moves": [
+          "Dragon Tail",
+          "Shadow Punch",
+          "Obstruct",
+          "Scary Face"
+        ],
+        "sub_index": 2,
+        "ability": "Adaptability",
+        "sprite": "trainer_sprites/janine.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -151828,8 +152028,8 @@ backup_data = {
         "item": "Focus Band",
         "nature": "Relaxed",
         "moves": [
-          "Scald",
-          "Hex",
+          "Hydro Cannon",
+          "Ominous Wind",
           "Mean Look",
           "Recover"
         ],
@@ -154576,7 +154776,7 @@ backup_data = {
           "Parting Shot"
         ],
         "sub_index": 1,
-        "ability": "Prankster",
+        "ability": "Effect Spore",
         "sprite": "trainer_sprites/virizion.png",
         "form": 0,
         "evs": {
@@ -156864,7 +157064,7 @@ backup_data = {
           "Sky Attack",
           "Steel Wing",
           "Drill Peck",
-          "Rock Slide"
+          "Stealth Rock"
         ],
         "sub_index": 2,
         "ability": "Tenacity",
@@ -168707,7 +168907,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Weakness Policy",
+        "item": "Enigma Berry",
         "nature": "Docile",
         "moves": [
           "Fairy Wind",
@@ -174021,7 +174221,7 @@ backup_data = {
         "moves": [
           "Whirlpool",
           "Ice Beam",
-          "Entrainment",
+          "Gastro Acid",
           "Slack Off"
         ],
         "sub_index": 2,
@@ -183358,37 +183558,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 44 Kanto Leader Janine - Driftveil City": {
-        "level": 44,
-        "ai": 143,
-        "noCh": true,
-        "tr_id": 768,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Charti Berry",
-        "nature": "Quirky",
-        "moves": [
-          "Shadow Ball",
-          "Blizzard",
-          "Air Slash",
-          "Hypnosis"
-        ],
-        "sub_index": 2,
-        "ability": "Keen Senses",
-        "sprite": "trainer_sprites/janine.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Poliwrath": {
@@ -186402,7 +186571,7 @@ backup_data = {
           "Heat Wave",
           "Thunder",
           "Body Press",
-          "Gyro Ball"
+          "Sludge Wave"
         ],
         "sub_index": 3,
         "ability": "Levitate",
@@ -195389,7 +195558,7 @@ backup_data = {
           "Hypnosis"
         ],
         "sub_index": 0,
-        "ability": "Thick Fat",
+        "ability": "Skill Link",
         "sprite": "trainer_sprites/pokefan.png",
         "form": 0,
         "evs": {
@@ -198577,7 +198746,7 @@ backup_data = {
         "item": "Mascot Badge",
         "nature": "Adamant",
         "moves": [
-          "Seed Bomb",
+          "Giga Impact",
           "Stone Edge",
           "Earthquake",
           "Shell Smash"
