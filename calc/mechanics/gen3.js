@@ -240,7 +240,7 @@ exports.calculateBPModsADV = calculateBPModsADV;
 function calculateAttackADV(gen, attacker, defender, move, desc, isCritical, field) {
     if (isCritical === void 0) { isCritical = false; }
     var isPhysical = move.category === 'Physical';
-    if (settings.typeChart == 3) {
+    if (settings.typeChart == 3 && TITLE != "Autumn Red") {
         
         if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
             isPhysical = true
@@ -273,7 +273,12 @@ function calculateAttackADV(gen, attacker, defender, move, desc, isCritical, fie
         desc.attackerAbility = attacker.ability;
     }
     if (!attacker.hasItem('Sea Incense') && move.hasType((0, items_1.getItemBoostType)(attacker.item))) {
-        at = Math.floor(at * 1.1);
+        if (TITLE == "Autumn Red") {
+           at = Math.floor(at * 1.2);
+        } else {
+           at = Math.floor(at * 1.1); 
+        }
+        
         desc.attackerItem = attacker.item;
     }
     else if (attacker.hasItem('Sea Incense') && move.hasType('Water')) {

@@ -1401,13 +1401,13 @@ function renderTrainerPreviewPok(next_pok) {
 
 	var isLead = ""
 
-	if (next_pok[0].includes("[0]") && (settings.gameSwitchIn >= 4 && settings.gameSwitchIn <= 7)) {
+	if (next_pok[0].includes("[0]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 7)) {
 		isLead = "lead"
 	}
-	if (next_pok[0].includes("[1]") && (settings.gameSwitchIn >= 4 && settings.gameSwitchIn <= 5) && battle_type != "Singles" && TITLE != "Platinum Kaizo") {
+	if (next_pok[0].includes("[1]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 5) && battle_type != "Singles" && TITLE != "Platinum Kaizo") {
 		isLead = "lead"
 	}
-	if (next_pok[0].includes("[2]") && (settings.gameSwitchIn >= 4 && settings.gameSwitchIn <= 7) && battle_type == "Triples") {
+	if (next_pok[0].includes("[2]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 7) && battle_type == "Triples") {
 		isLead = "lead"
 	}
 

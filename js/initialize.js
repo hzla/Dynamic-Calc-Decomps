@@ -297,7 +297,7 @@ function setGameSettings(title) {
     showDex = false
     showAI = false
     $('label[for="snow"]').hide()
-  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire" || TITLE == "Rigorous Red") {
+  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire" || TITLE == "Rigorous Red" || TITLE == "Autumn Red") {
     gameGen = 3
     settings.gameSwitchIn = 3; 
     settings.switchIn = 3
@@ -307,8 +307,11 @@ function setGameSettings(title) {
     settings.critGen = 5;
     save_expansion = false
     settings.hasMastersheet = false;
-    showDex = false
-    showAI = false
+    if (TITLE == "Autumn Red") {
+        showDex = true
+    } else {
+        showDex = false
+    }
     $('label[for="snow"]').hide()
   }else if (title == "Blinding White 2") {
     gameGen = 5

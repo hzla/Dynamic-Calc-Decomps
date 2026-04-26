@@ -39,7 +39,8 @@ backupFiles = {
 	"Platinum Kaizo": "pkv5h",
 	"Platinum Kaizo v4": "pk",
 	"Navy Sapphire": "navy",
-	"Rigorous Red": "rigred"
+	"Rigorous Red": "rigred",
+	"Autumn Red": "autumn"
 }
 
 sourceTitleAliases = {

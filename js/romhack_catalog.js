@@ -470,6 +470,21 @@
                 }
             ]
         },
+        "autumn-red": {
+            id: "autumn-red",
+            title: "Autumn Red",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Autumn Red",
+            variants: [
+                {
+                    label: "Autumn Red",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=autumnred&gen=8",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "sacred-gold-storm-silver": {
             id: "sacred-gold-storm-silver",
             title: "Sacred Gold/Storm Silver",
@@ -624,6 +639,7 @@
             sortGames: "alphabetical",
             gameIds: [
                 "ancestral-x",
+                "autumn-red",
                 "blinding-white-2",
                 "cascade-white",
                 "luminescent-platinum",
