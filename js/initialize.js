@@ -229,6 +229,20 @@ function setGameSettings(title) {
     showAI = true;
     $('label[for="snow"]').hide()
     $('label[for="fog"]').show()
+  } else if (title == "Black/White" || title == "Black 2/White 2") {
+    gameGen = 5
+    settings.damageGen = 5
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 5;
+      settings.switchIn = 5;  
+    }
+    settings.sourceType = "full"
+    settings.typeChart = 5;
+    settings.critGen = 5;
+    save_expansion = false
+    showDex = false;
+    showAI = true;
+    $('label[for="snow"]').hide()
   } else if (TITLE.includes(" Null")) {
     gameGen = 8
     settings.damageGen = 8
@@ -242,9 +256,7 @@ function setGameSettings(title) {
     $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
     $('label[for="hail"]').show()
     $('#maxL').next().remove()
-    $('#maxR').next().remove()
-
-    
+    $('#maxR').next().remove() 
   } else if (title.includes("Sterling Silver") || title.includes("Sacred Gold")) {
     gameGen = 4
     settings.damageGen = 4
@@ -425,7 +437,7 @@ function setBaseGame(title) {
       baseGame = "Pt"
       save_expansion = false
       $('#sync-lua, #desmume-icon').show()
-    } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
+    } else if (TITLE.includes("Black") || TITLE.includes("White")) {
       baseGame = "BW"
       if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
         baseVersion = "BW2"

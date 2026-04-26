@@ -539,7 +539,7 @@
             variants: [
                 {
                     label: "Black/White",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=78381c312866ee2e6ff9&gen=5&types=5",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=78381c312866ee2e6ff9&gen=5&types=5",
                     coverImage: "",
                     description: ""
                 }
@@ -554,7 +554,7 @@
             variants: [
                 {
                     label: "Black 2/White 2",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=83c196dce6759252b3f4&gen=5&types=5",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=83c196dce6759252b3f4&gen=5&types=5",
                     coverImage: "",
                     description: ""
                 }

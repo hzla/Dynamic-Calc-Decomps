@@ -9,6 +9,16 @@ splitData = {
 		"titles": ["Cilan/Chili/Cress", "Lenora", "Burgh", "Elesa", "Clay", "Skyla", "Brycen", "Drayden", "Elite 4"],
 		"types": ["fire", "normal", "bug", "electric", "ground", "flying", "ice", "dragon"]
 	},
+	"Black/White": {
+		"lvls": [14, 20, 23, 27, 31, 35, 39, 43, 50],
+		"titles": ["Cilan/Chili/Cress", "Lenora", "Burgh", "Elesa", "Clay", "Skyla", "Brycen", "Drayden", "Elite 4"],
+		"types": ["fire", "normal", "bug", "electric", "ground", "flying", "ice", "dragon"]
+	},
+	"Black 2/White 2": {
+		"lvls": [14, 19, 26, 32, 36, 42, 52, 55, 63],
+		"titles": ["Cheren", "Roxie", "Burgh", "Elesa", "Clay", "Skyla", "Drayden", "Marlon", "Elite 4"],
+		"types": ["normal", "poison", "bug", "electric", "ground", "flying", "dragon", "water"]
+	},	
 	"Blaze Black 2 Original": {
 		"lvls": [13, 20, 27, 36, 42, 50, 56, 62, 74],
 		"titles": ["Cheren", "Roxie", "Burgh", "Elesa", "Clay", "Skyla", "Drayden", "Marlon", "Elite 4"],
