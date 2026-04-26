@@ -462,8 +462,8 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 		
 
 
-		results[0][i] = calc.calculate(gen, p1, p2, p1.moves[i], p1field);
-		results[1][i] = calc.calculate(gen, p2, p1, p2.moves[i], p2field);
+		results[0][i] = calc.calculate(gen, p1, getDefensiveMoveTypeOverridePokemon(p2, $("#p2")), p1.moves[i], p1field);
+		results[1][i] = calc.calculate(gen, p2, getDefensiveMoveTypeOverridePokemon(p1, $("#p1")), p2.moves[i], p2field);
 	}
 	return results;
 }
@@ -474,7 +474,7 @@ function calculateLeftMoves(gen, p1, p1field, p2, p2field) {
 	var movePool = p1.getDamagingMovePool()
 
 	for (var i = 0; i < movePool.length; i++) {
-		results[0][i] = calc.calculate(gen, p1, p2, movePool[i], p1field);
+		results[0][i] = calc.calculate(gen, p1, getDefensiveMoveTypeOverridePokemon(p2, $("#p2")), movePool[i], p1field);
 	}
 	return results;
 }
@@ -496,9 +496,9 @@ function calculateAllLeftVisibleRight(gen, p1, p1field, p2, p2field) {
 
 
 	for (var i = 0; i < Math.max(movePool.length, 4); i++) {
-		results[0][i] = calc.calculate(gen, p1, p2, movePool[i] || movePool[i - 1], p1field);
+		results[0][i] = calc.calculate(gen, p1, getDefensiveMoveTypeOverridePokemon(p2, $("#p2")), movePool[i] || movePool[i - 1], p1field);
 		if (i < p2.moves.length) {
-			results[1][i] = calc.calculate(gen, p2, p1, p2.moves[i] || p2.moves[i - 1], p2field);
+			results[1][i] = calc.calculate(gen, p2, getDefensiveMoveTypeOverridePokemon(p1, $("#p1")), p2.moves[i] || p2.moves[i - 1], p2field);
 		}
 	}
 	return results;

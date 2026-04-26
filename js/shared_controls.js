@@ -46,6 +46,8 @@ function isLeftPlayerPoke(pokeObj) {
 	return $(pokeObj).attr('id') === 'p1';
 }
 
+var MOVE_TYPE_CHANGE_ABILITIES = ['Protean', 'Libero'];
+
 function getDefaultMoveHitsForPoke(pokeObj, move) {
 	var pokemon = $(pokeObj);
 	if (!move || !Array.isArray(move.multihit)) {
@@ -69,6 +71,77 @@ function getDefaultMoveHitsForPoke(pokeObj, move) {
 	}
 
 	return 3;
+}
+
+function hasMoveTypeChangeAbility(ability) {
+	return MOVE_TYPE_CHANGE_ABILITIES.indexOf(ability) !== -1;
+}
+
+function syncMoveTypeToggleState(pokeObj, resetChecked) {
+	var $pokeObj = $(pokeObj);
+	var hasMoveTypeAbility = hasMoveTypeChangeAbility($pokeObj.find(".ability").val());
+	var $toggles = $pokeObj.find(".move-type-toggle");
+	var $labels = $pokeObj.find(".move-type-toggle-btn");
+
+	if (!hasMoveTypeAbility) {
+		resetChecked = true;
+	}
+
+	if (resetChecked) {
+		$toggles.prop("checked", false);
+	}
+
+	$toggles.prop("disabled", !hasMoveTypeAbility);
+
+	if (hasMoveTypeAbility) {
+		$labels.show();
+	} else {
+		$labels.hide();
+	}
+
+	updateMoveTypeSelectStyles($pokeObj);
+}
+
+function updateMoveTypeSelectStyles(pokeObj) {
+	var $pokeObj = $(pokeObj);
+	var hasOverride = $pokeObj.find(".move-type-toggle:checked").length > 0;
+	$pokeObj.find(".type1, .type2").toggleClass("move-type-toggle-active", hasOverride);
+}
+
+function getMoveTypeOverride(pokeInfo) {
+	var $pokeInfo = $(pokeInfo);
+	if (!hasMoveTypeChangeAbility($pokeInfo.find(".ability").val())) {
+		return null;
+	}
+
+	var $selectedToggle = $pokeInfo.find(".move-type-toggle:checked").first();
+	if (!$selectedToggle.length) {
+		return null;
+	}
+
+	var moveType = $selectedToggle.closest(".move1, .move2, .move3, .move4").find(".move-type").val();
+	if (!moveType) {
+		return null;
+	}
+
+	return [moveType, ""];
+}
+
+function getDefensiveMoveTypeOverridePokemon(pokemon, pokeInfo) {
+	var moveTypeOverride = getMoveTypeOverride(pokeInfo);
+	if (!moveTypeOverride) {
+		return pokemon;
+	}
+
+	var overrideTypes = moveTypeOverride.filter(Boolean);
+	if (!overrideTypes.length) {
+		return pokemon;
+	}
+
+	var overriddenPokemon = pokemon.clone();
+	overriddenPokemon.types = overrideTypes;
+	overriddenPokemon.species.types = overrideTypes;
+	return overriddenPokemon;
 }
 
 function shouldHideAllEvColumns() {
@@ -653,7 +726,7 @@ $(".current-hp, .percent-hp").on("input keyup change blur", function () {
 });
 
 
-function showAbilityExtras(abilityObj) {
+function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 	var pokeObj = $(abilityObj).closest(".poke-info");
 	updateImportedAbilitySlotDisplay(pokeObj);
 	pokeObj.find(".move-group").each(function () {
@@ -692,6 +765,7 @@ function showAbilityExtras(abilityObj) {
 		$(abilityObj).closest(".poke-info").find(".alliesFainted").hide();
 
 	}
+	syncMoveTypeToggleState(pokeObj, !!resetMoveTypeToggle);
 	// detectAutoWeather(abilityObj)
 }
 
@@ -1077,6 +1151,14 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 // auto-update move details on select
 $(".move-selector").change(function () {
 	showMoveExtras(this)
+});
+
+$(".move-type-toggle").change(function () {
+	var pokeObj = $(this).closest(".poke-info");
+	if ($(this).prop("checked")) {
+		pokeObj.find(".move-type-toggle").not(this).prop("checked", false);
+	}
+	updateMoveTypeSelectStyles(pokeObj);
 });
 
 
@@ -1997,7 +2079,7 @@ $(".set-selector").change(function () {
 		
 		calcHP(pokeObj);
 		calcStats(pokeObj);
-		showAbilityExtras(abilityObj);
+		showAbilityExtras(abilityObj, true);
 		abilityObj.trigger('recalc')
 		if (pokemon.gender === "N") {
 			pokeObj.find(".gender").parent().hide();
