@@ -1036,6 +1036,94 @@ input[type="file"] {
     min-width: max-content;
 }
 
+.dev-data-controls {
+    display: none;
+    align-items: center;
+    gap: 4px;
+    flex: 0 0 auto;
+    min-width: max-content;
+}
+
+.dev-data-controls[hidden] {
+    display: none !important;
+}
+
+.dev-config-dialog {
+    width: min(960px, calc(100vw - 20px));
+    max-height: calc(100vh - 20px);
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.dev-config-content {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.dev-config-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.dev-config-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+}
+
+.dev-config-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px;
+    border: 1px solid rgba(118, 118, 118, 0.55);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.dev-config-field label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: rgba(241, 241, 241, 0.92);
+}
+
+.dev-config-field input[type="number"],
+.dev-config-field input[type="text"],
+.dev-config-field select {
+    width: calc(100% - 30px);
+    min-height: 42px;
+    padding: 10px 12px;
+    border: 1px solid rgba(118, 118, 118, 0.72);
+    border-radius: 10px;
+    background: rgba(24, 24, 24, 0.92);
+    color: #f1f1f1;
+    font: inherit;
+}
+
+.dev-config-field input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+.dev-config-checkbox {
+    align-items: flex-start;
+}
+
+.dev-config-help {
+    font-size: 12px;
+    line-height: 1.4;
+    color: rgba(241, 241, 241, 0.62);
+}
+
+.dev-config-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
 #main-view-tabs.main-view-tabs-hidden {
     visibility: hidden;
     pointer-events: none;
@@ -4051,6 +4139,24 @@ table.field {
     width: 100%;
     justify-content: flex-start;
     margin-left: 0;
+  }
+
+  .dev-data-controls {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .dev-config-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .dev-config-actions {
+    flex-direction: column-reverse;
+  }
+
+  .dev-config-actions .box-filter-colors-secondary,
+  .dev-config-actions .box-filter-colors-primary {
+    width: 100%;
   }
 
   .header-settings.app-header-shell .calc-select {

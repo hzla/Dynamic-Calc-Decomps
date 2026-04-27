@@ -127,6 +127,54 @@ function findTrainerSwitchTargets(win) {
   }
 }
 
+function setupPartnerUiRememberTargets(win) {
+  const [primaryLead, primarySecond, partnerLead, partnerSecond] = Object.keys(win.setdex || {})
+  const trainerSetName = 'Lvl 63 Cypress Partner Remember'
+  const primaryTrainerId = 991201
+  const partnerTrainerId = 991202
+  const primaryLeadSetId = `${primaryLead} (${trainerSetName})`
+  const partnerLeadSetId = `${partnerLead} (${trainerSetName})`
+  const primaryLeadBase = Object.values(win.setdex[primaryLead])[0]
+  const primarySecondBase = Object.values(win.setdex[primarySecond])[0]
+  const partnerLeadBase = Object.values(win.setdex[partnerLead])[0]
+  const partnerSecondBase = Object.values(win.setdex[partnerSecond])[0]
+
+  ;[
+    [primaryLead, primaryLeadBase, 0, primaryTrainerId],
+    [primarySecond, primarySecondBase, 1, primaryTrainerId],
+    [partnerLead, partnerLeadBase, 0, partnerTrainerId],
+    [partnerSecond, partnerSecondBase, 1, partnerTrainerId]
+  ].forEach(([speciesName, sourceSet, subIndex, trainerId]) => {
+    win.setdex[speciesName][trainerSetName] = {
+      ...sourceSet,
+      item: '-',
+      level: 63,
+      sub_index: subIndex,
+      tr_id: trainerId,
+      moves: ['Protect', 'Tackle', 'Tailwind', 'Helping Hand']
+    }
+  })
+
+  win.__partnerRememberOriginalGetNextIn = win.get_next_in
+  win.get_next_in = () => ([
+    [`${primaryLead} (${trainerSetName})[0]`, 0, '', 0, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0],
+    [`${primarySecond} (${trainerSetName})[1]`, 0, '', 1, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0],
+    [`${partnerLead} (${trainerSetName})[0]`, 0, '', 0, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0],
+    [`${partnerSecond} (${trainerSetName})[1]`, 0, '', 1, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0]
+  ])
+
+  win.partnerName = null
+  win.lastOpposingTrainerIdentity = null
+  win.$('.opposing.set-selector').first().val(primaryLeadSetId).change()
+  win.$('.opposing .select2-chosen').text(primaryLeadSetId)
+  win.refresh_next_in()
+
+  return {
+    primaryLeadSetId,
+    partnerLeadSetId
+  }
+}
+
 const statusImportText = [
   'Eevee',
   'Ability: Run Away',
@@ -478,6 +526,52 @@ for (let calc of calcs) {
         const maxHp = String(parseInt(win.$('#p1 .max-hp').text(), 10))
         expect(win.$('#p1 .current-hp').val()).to.eq(maxHp)
       })
+    })
+
+    it('preserves remembered opposing hp and status across both trainers in partner ui mode', () => {
+      cy.window().then((win) => {
+        enableRememberHpStatus(win)
+        win.__partnerRememberTargets = setupPartnerUiRememberTargets(win)
+      })
+
+      cy.get('.opposing.trainer-pok-list').should('have.class', 'dual-trainer-preview')
+      cy.get('.trainer-preview-partner .trainer-pok').its('length').should('be.gte', 1)
+
+      cy.get('#statusR1').select('Poisoned')
+      cy.get('#p2 .current-hp').clear().type('12').blur()
+
+      cy.get('.trainer-preview-partner .trainer-pok').first().click({ force: true })
+      cy.window().then((win) => {
+        expect(win.$('.opposing.set-selector').first().val()).to.eq(win.__partnerRememberTargets.partnerLeadSetId)
+      })
+
+      cy.get('#statusR1').select('Burned')
+      cy.get('#p2 .current-hp').clear().type('21').blur()
+
+      cy.get('.trainer-preview-primary .trainer-pok').first().click({ force: true })
+      cy.window().then((win) => {
+        expect(win.$('.opposing.set-selector').first().val()).to.eq(win.__partnerRememberTargets.primaryLeadSetId)
+      })
+      cy.get('#statusR1').should('have.value', 'Poisoned')
+      cy.get('#p2 .current-hp').should('have.value', '12')
+
+      cy.get('.trainer-preview-partner .trainer-pok').first().click({ force: true })
+      cy.window().then((win) => {
+        expect(win.$('.opposing.set-selector').first().val()).to.eq(win.__partnerRememberTargets.partnerLeadSetId)
+        expect(JSON.parse(win.localStorage.rememberedEnemyHpStatus || '{}')).to.deep.equal({
+          [win.__partnerRememberTargets.primaryLeadSetId]: {
+            status: 'Poisoned',
+            currentHp: 12
+          },
+          [win.__partnerRememberTargets.partnerLeadSetId]: {
+            status: 'Burned',
+            currentHp: 21
+          }
+        })
+        win.get_next_in = win.__partnerRememberOriginalGetNextIn
+      })
+      cy.get('#statusR1').should('have.value', 'Burned')
+      cy.get('#p2 .current-hp').should('have.value', '21')
     })
 
     it('colors status dropdowns based on the selected status', () => {

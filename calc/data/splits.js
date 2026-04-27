@@ -84,7 +84,7 @@ splitData = {
 		"titles": ["Roark", "Gardenia", "Fantina", "Maylene", "Wake", "Byron", "Candice", "Volkner", "Elite 4"],
 		"types": ["rock", "grass", "ghost", "fighting", "water", "steel", "ice", "electric"]
 	},
-	"Rising Ruby/Sinking Saphire": {
+	"Rising Ruby": {
 		"lvls": [16, 19, 28, 38, 42, 50, 62, 67, 79],
 		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Wallace", "Elite 4"],
 		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]

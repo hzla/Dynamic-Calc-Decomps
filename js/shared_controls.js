@@ -462,15 +462,63 @@ function getNormalizedSetStatus(setData) {
 	return normalizeStoredStatus(setData && setData.status);
 }
 
-function getOpposingTrainerIdentity(setId) {
-	var trainerId = getTrainerPreviewTrainerIdFromSet(setId);
-	if (trainerId) {
-		return 'id:' + trainerId;
+function pushUniqueTrainerIdentityValue(values, nextValue) {
+	if (!nextValue || values.includes(nextValue)) {
+		return;
 	}
 
-	var trainerName = getTrainerPreviewName(setId);
-	if (trainerName) {
-		return 'name:' + trainerName.toLowerCase();
+	values.push(nextValue);
+}
+
+function getOpposingTrainerIdentity(setId, trainerSetIds) {
+	var candidateSetIds = [];
+	var addCandidateSetId = function(nextSetId) {
+		if (typeof nextSetId !== 'string' || !nextSetId) {
+			return;
+		}
+
+		var normalizedSetId = nextSetId.split('[')[0];
+		if (!candidateSetIds.includes(normalizedSetId)) {
+			candidateSetIds.push(normalizedSetId);
+		}
+	};
+
+	if (Array.isArray(trainerSetIds)) {
+		for (var i = 0; i < trainerSetIds.length; i++) {
+			addCandidateSetId(trainerSetIds[i]);
+		}
+	}
+	addCandidateSetId(setId);
+
+	var trainerIds = [];
+	var trainerNames = [];
+	for (var candidateIndex = 0; candidateIndex < candidateSetIds.length; candidateIndex++) {
+		var candidateSetId = candidateSetIds[candidateIndex];
+		var trainerId = getTrainerPreviewTrainerIdFromSet(candidateSetId);
+		if (trainerId) {
+			pushUniqueTrainerIdentityValue(trainerIds, String(trainerId));
+		}
+
+		var trainerName = getTrainerPreviewName(candidateSetId);
+		if (trainerName) {
+			pushUniqueTrainerIdentityValue(trainerNames, trainerName.toLowerCase());
+		}
+	}
+
+	trainerIds.sort();
+	trainerNames.sort();
+
+	if (trainerIds.length > 1) {
+		return 'group:id:' + trainerIds.join('|');
+	}
+	if (trainerNames.length > 1) {
+		return 'group:name:' + trainerNames.join('|');
+	}
+	if (trainerIds.length === 1) {
+		return 'id:' + trainerIds[0];
+	}
+	if (trainerNames.length === 1) {
+		return 'name:' + trainerNames[0];
 	}
 
 	return '';
@@ -1726,7 +1774,7 @@ $(".set-selector").change(function () {
 	if ($(this).hasClass('opposing')) {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName, maybePartner)
 		localStorage["right"] = fullSetName
-		var currentOpposingTrainerIdentity = getOpposingTrainerIdentity(fullSetName)
+		var currentOpposingTrainerIdentity = getOpposingTrainerIdentity(fullSetName, CURRENT_TRAINER_POKS)
 		if (!initializing && lastOpposingTrainerIdentity && currentOpposingTrainerIdentity && lastOpposingTrainerIdentity !== currentOpposingTrainerIdentity) {
 			resetAllPlayerCustomSetStatusesToHealthy({
 				syncActiveUi: true

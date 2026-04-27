@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?42b85514" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?26800cc2" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?86d43b1a" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
@@ -17,7 +17,7 @@
     https://cdn.jsdelivr.net/npm/object-hash@3.0.0/dist/object_hash.min.js
     "></script>
     <script src="https://unpkg.com/pako@2.1.0/dist/pako.min.js"></script>
-    <script type="text/javascript" src="./js/romhack_catalog.js?85e5a8b4"></script>
+    <script type="text/javascript" src="./js/romhack_catalog.js?9e0c1259"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->    
     <script>
         params = new URLSearchParams(window.location.search)
@@ -245,6 +245,12 @@
                 <button type="button" class="main-view-tab" id="main-nav-battle-log" data-view="battle-log">Battle Log</button>
             </div>
             <div id="main-view-version-tabs" aria-label="Game versions"></div>
+            <div id="dev-data-controls" class="dev-data-controls" hidden>
+                <button type="button" class="main-view-tab" id="dev-upload-data">Upload Data</button>
+                <button type="button" class="main-view-tab" id="dev-open-configs">Calc Configs</button>
+                <button type="button" class="main-view-tab" id="dev-clear-data">Clear Data</button>
+                <input id="dev-data-upload" type="file" accept=".js,application/javascript,text/javascript" hidden>
+            </div>
         </div>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
@@ -358,6 +364,24 @@
                         <button type="button" id="close-box-filter-colors" class="box-filter-colors-primary" data-close-box-filter-colors>Close</button>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="dev-config-modal" class="romhack-browser-modal dev-config-modal" role="dialog" aria-modal="true" aria-labelledby="dev-config-title" hidden>
+        <div class="romhack-browser-backdrop" data-close-dev-config></div>
+        <div class="romhack-browser-dialog dev-config-dialog" role="document">
+            <div class="romhack-browser-header">
+                <h2 id="dev-config-title">Calc Configs</h2>
+                <button type="button" class="romhack-browser-close" aria-label="Close calc configs" data-close-dev-config>&times;</button>
+            </div>
+            <div class="romhack-browser-content dev-config-content">
+                <form id="dev-config-form" class="dev-config-form">
+                    <div id="dev-config-fields" class="dev-config-fields"></div>
+                    <div class="dev-config-actions">
+                        <button type="button" class="box-filter-colors-secondary" data-close-dev-config>Cancel</button>
+                        <button type="submit" class="box-filter-colors-primary">Save Config</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -2274,7 +2298,7 @@
     
 
 
-     <script type="text/javascript" src="./backups/title_to_backup_mappings.js?ea040d4e"></script>
+     <script type="text/javascript" src="./backups/title_to_backup_mappings.js?f326f95e"></script>
 
 
     <script type="text/javascript" src="./calc/util.js?8fa0c7f3"></script>
@@ -2304,11 +2328,12 @@
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
     <script type="text/javascript" src="./js/fragsheet/battle_log.js?876533dd"></script>
     <script type="text/javascript" src="./js/calc_ui/box_view.js"></script>
+    <script type="text/javascript" src="./js/calc_ui/dev_data_override.js"></script>
     <script type="text/javascript" src="./js/calc_ui/main_nav.js"></script>
     <script type="text/javascript" src="./js/romhack_modal.js?77b29801"></script>
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?d7f6799d"></script>
-    <script type="text/javascript" src="./js/initialize.js?161995ef"></script>
+    <script type="text/javascript" src="./js/initialize.js?e74e8ef4"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?b1aca27d"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
@@ -2350,7 +2375,7 @@
 
     <script type="text/javascript" src="./calc/data/types.js?b935c17e"></script>
     <script type="text/javascript" src="./calc/data/evos.js?b935c17e"></script>
-    <script type="text/javascript" src="./calc/data/splits.js?9faa21e8"></script>
+    <script type="text/javascript" src="./calc/data/splits.js?537c2069"></script>
     <script type="text/javascript" src="./calc/data/learnsets.js?b935c170"></script>
 
     <script type="text/javascript" src="./calc/data/natures.js?407b5243"></script>
@@ -2385,7 +2410,7 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?c567a939"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?6048f6b7"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?2bc29a3d"></script>
     <script type="text/javascript" src="./js/moveset_import.js?38396ea7"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>

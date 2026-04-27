@@ -442,14 +442,14 @@
         },
         "rising-ruby-sinking-sapphire": {
             id: "rising-ruby-sinking-sapphire",
-            title: "Rising Ruby/Sinking Sapphire",
+            title: "Rising Ruby",
             coverImage: "",
             description: "",
-            sourceTitle: "Rising Ruby/Sinking Sapphire",
+            sourceTitle: "Rising Ruby",
             variants: [
                 {
-                    label: "Rising Ruby/Sinking Sapphire",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=f109940e5639c3702e6d&dmgGen=6&gen=6&types=6",
+                    label: "Rising Ruby",
+                    source: "https://hzla.github.io/Dynamic-Calc/?data=rrss",
                     coverImage: "",
                     description: ""
                 }

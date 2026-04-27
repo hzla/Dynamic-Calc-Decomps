@@ -29,6 +29,41 @@ const settings = {
     showDex: false
 };
 
+const BLANK_DEV_TITLE = "Blank Slate Dev Calc";
+const isBlankDevMode = settings.devMode && !params.get('data');
+
+function getBlankDevConfigDefaults() {
+    return {
+        gen: settings.gen,
+        damageGen: settings.damageGen,
+        typeChart: settings.typeChart,
+        switchIn: settings.switchIn,
+        gameSwitchIn: settings.switchIn,
+        critGen: settings.critGen,
+        sourceType: "full",
+        hasEvs: settings.hasEvs,
+        customPoks: settings.customPoks,
+        challengeMode: settings.challengeMode,
+        noSwitch: settings.noSwitch,
+        customCascadeSwitchAI: settings.customCascadeSwitchAI,
+        readIncludes: false,
+        hasMastersheet: false,
+        showDex: false,
+        showAI: false,
+        saveExpansion: false,
+        mechanics: "vanilla",
+        baseGame: ""
+    };
+}
+
+function getStoredBlankDevConfig() {
+    if (!isBlankDevMode || !window.devDataOverrides || typeof window.devDataOverrides.getStoredDevConfig !== "function") {
+        return null;
+    }
+
+    return window.devDataOverrides.getStoredDevConfig();
+}
+
 // --- Global State -----------------------------------------------------------
 
 
@@ -69,6 +104,7 @@ let bestAiMoveAgainstCurrent     = "";
 let currentTypeMatchup           = 2;
 
 let dynamicTypeBugActive = true;
+let activeBlankDevConfig = null;
 
 const MOVE_NAME_ALIASES = {
     "Solar-Beam": "Solar Beam"
@@ -103,9 +139,96 @@ function updateHeaderShellState() {
   })
 }
 
+function applyBlankDevConfig(config) {
+  const defaults = getBlankDevConfigDefaults();
+  const mergedConfig = {
+    ...defaults,
+    ...(config || {})
+  };
+
+  activeBlankDevConfig = mergedConfig;
+
+  settings.gen = Number(mergedConfig.gen) || defaults.gen;
+  settings.damageGen = Number(mergedConfig.damageGen) || defaults.damageGen;
+  settings.typeChart = Number(mergedConfig.typeChart) || defaults.typeChart;
+  settings.switchIn = Number(mergedConfig.switchIn) || defaults.switchIn;
+  settings.gameSwitchIn = Number(mergedConfig.gameSwitchIn) || settings.switchIn;
+  settings.critGen = Number(mergedConfig.critGen) || defaults.critGen;
+  settings.sourceType = mergedConfig.sourceType === "onlyTrainers" ? "onlyTrainers" : "full";
+  settings.hasEvs = !!mergedConfig.hasEvs;
+  settings.customPoks = !!mergedConfig.customPoks;
+  settings.challengeMode = !!mergedConfig.challengeMode;
+  settings.noSwitch = !!mergedConfig.noSwitch;
+  settings.customCascadeSwitchAI = !!mergedConfig.customCascadeSwitchAI;
+  settings.readIncludes = !!mergedConfig.readIncludes;
+  settings.hasMastersheet = !!mergedConfig.hasMastersheet;
+
+  gameGen = settings.damageGen;
+  showDex = !!mergedConfig.showDex;
+  showAI = !!mergedConfig.showAI;
+  mechanics = mergedConfig.mechanics === "hge" ? "hge" : "vanilla";
+  save_expansion = !!mergedConfig.saveExpansion;
+  window.baseGame = mergedConfig.baseGame || "";
+
+  $('#ms-link').toggle(!!settings.hasMastersheet);
+  $('#redux-lvl').hide();
+  $('#sync-lua, #desmume-icon').hide();
+  $('label[for="fog"]').hide();
+  $('label[for="hail"]').hide();
+  $('label[for="snow"]').hide().removeClass('btn-mid').addClass('btn-right');
+  $('#open-dex, #main-nav-dex').toggle(showDex);
+  $('#dex-show').toggle(showDex);
+  $('#show-ai').toggle(showAI);
+
+  updateHeaderShellState();
+  toggleGen3SwitchGuide();
+}
+
+function buildBlankSlateData() {
+  const data = {
+    __blankSlate: true,
+    title: BLANK_DEV_TITLE,
+    order: {},
+    trainers: {}
+  };
+
+  if (settings.sourceType === "full") {
+    data.formatted_sets = {};
+    data.poks = {};
+    data.moves = {};
+    data.custom_moves = {};
+  }
+
+  if (settings.readIncludes) {
+    data.includes = {
+      poks: [],
+      moves: [],
+      items: [],
+      growths: [],
+      abilities: []
+    };
+  }
+
+  return data;
+}
+
+window.getCurrentDevBlankConfig = function() {
+  if (!isBlankDevMode) {
+    return null;
+  }
+
+  return {
+    ...(activeBlankDevConfig || getBlankDevConfigDefaults())
+  };
+};
+
 // --- Defaults ---------------------------------------------------------------
 
 setSettingsDefaults();
+
+if (isBlankDevMode) {
+  applyBlankDevConfig(getStoredBlankDevConfig());
+}
 
 // --- Gen Info ---------------------------------------------------------------
 
@@ -121,9 +244,133 @@ const genInfo = {
 
 SOURCES = window.romhackSourceTitles || {}
 
-$(document).ready(function() {
+function prepareDynamicCalcData(data, options = {}) {
+    const skipGameSettings = options.skipGameSettings === true
+    npoint_data = data
+    backup_data = data
+    TITLE = data.title || SOURCES[params.get("data")] || "Untitled"
+
+    if (!skipGameSettings) {
+        gameGen = settings.damageGen
+        settings.gameSwitchIn = gameGen
+        toggleGen3SwitchGuide();
+        setGameSettings(TITLE)
+        if (typeof applyAutoImportMegasVisibility === "function") {
+            applyAutoImportMegasVisibility()
+        }
+    }
+
+    document.title = TITLE + " Calculator"
+    setBaseGame(TITLE)
+    $('#rom-title').text(TITLE).show()
+    if (TITLE.includes("Cascade")) {
+        $('.cascade-effects .btn-small').show()
+    }
+}
+
+function getCurrentBackupFileName() {
+    const sourceId = params.get("data");
+    const mappedTitle = sourceId && SOURCES[sourceId] ? SOURCES[sourceId] : "";
+
+    if (mappedTitle && backupFiles[mappedTitle]) {
+        return backupFiles[mappedTitle];
+    }
+
+    if (backupFiles[TITLE]) {
+        return backupFiles[TITLE];
+    }
+
+    return null;
+}
+
+function applyUploadedDataTitle(data) {
+    TITLE = data && data.title ? data.title : "Untitled";
+    document.title = TITLE + " Calculator";
+    $('#rom-title').text(TITLE).show();
+
+    if (typeof window.updateMainPageTitle === "function") {
+        window.updateMainPageTitle(TITLE);
+    } else {
+        updateHeaderShellState();
+    }
+}
+
+async function loadTrainerOrderFallbackForCurrentTitle() {
+    const backupFileName = getCurrentBackupFileName();
+    if (!backupFileName) {
+        return;
+    }
+
+    await checkAndLoadScript(`./backups/trainer_orders/${backupFileName}.js`, {
+        onLoad: () => {
+            if (typeof backup_data.order === "undefined") {
+                backup_data.order = trainerOrders
+                npoint_data = backup_data
+                console.log("loaded harcoded trainer orders")
+            } else {
+                console.log("using preexisting trainer orders in calc data")
+            }
+        },
+        onNotFound: (src) => console.log(`Not found: ${src}`)
+    });
+}
+
+async function tryLoadStoredDevOverride() {
+    if (!settings.devMode || !window.devDataOverrides || typeof window.devDataOverrides.getStoredOverrideRecord !== "function") {
+        return false;
+    }
+
+    let overrideRecord = null;
+
+    try {
+        overrideRecord = await window.devDataOverrides.getStoredOverrideRecord();
+    } catch (error) {
+        console.error("[DevDataOverride] Failed to read stored override", error)
+        return false;
+    }
+
+    if (!overrideRecord || !overrideRecord.text) {
+        return false;
+    }
+
+    try {
+        const overrideData = window.devDataOverrides.parseBackupDataScript(overrideRecord.text)
+        if (!backupFiles[TITLE]) {
+            prepareDynamicCalcData(overrideData, { skipGameSettings: isBlankDevMode })
+        } else {
+            npoint_data = overrideData
+            backup_data = overrideData
+            applyUploadedDataTitle(overrideData)
+        }
+        loadDataSource(overrideData)
+        await loadTrainerOrderFallbackForCurrentTitle()
+        return true;
+    } catch (error) {
+        console.error("[DevDataOverride] Stored override was invalid, clearing it", error)
+        try {
+            await window.devDataOverrides.clearStoredOverrideRecord()
+        } catch (clearError) {
+            console.error("[DevDataOverride] Failed to clear invalid override", clearError)
+        }
+        if (typeof window.devDataOverrides.refreshControlState === "function") {
+            window.devDataOverrides.refreshControlState()
+        }
+        return false;
+    }
+}
+
+$(document).ready(async function() {
   $('.genSelection').hide()
   console.log(TITLE)
+  if (await tryLoadStoredDevOverride()) {
+    return
+  }
+  if (isBlankDevMode) {
+    const blankSlateData = buildBlankSlateData()
+    prepareDynamicCalcData(blankSlateData, { skipGameSettings: true })
+    loadDataSource(blankSlateData)
+    return
+  }
   if (backupFiles[TITLE]) {
     // Load hardcoded calc data if present
     checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
@@ -132,42 +379,13 @@ $(document).ready(function() {
                 loadDataSource(npoint_data)
 
                 // Load hardcoded trainer orders if present
-                checkAndLoadScript(`./backups/trainer_orders/${backupFiles[TITLE]}.js`, {
-                        onLoad: (src) => {
-                            if (typeof backup_data.order === "undefined") {
-                                backup_data.order = trainerOrders
-                                npoint_data = backup_data
-                                console.log("loaded harcoded trainer orders")
-                            } else {
-                                console.log("using preexisting trainer orders in calc data")
-                            }                     
-                        },
-                        onNotFound: (src) => console.log(`Not found: ${src}`)
-                });
+                loadTrainerOrderFallbackForCurrentTitle();
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
     });    
   } else {
 	    $.get(npoint, function(data){
-	        npoint_data = data
-	        backup_data = data
-	        gameGen = settings.damageGen
-	        settings.gameSwitchIn = gameGen
-	        toggleGen3SwitchGuide();
-	        TITLE = ""
-	        TITLE = npoint_data.title || SOURCES[params.get("data")] || "Untitled"
-        setGameSettings(TITLE)
-        if (typeof applyAutoImportMegasVisibility === "function") {
-            applyAutoImportMegasVisibility()
-        }
-        document.title = TITLE + " Calculator"
-        setBaseGame(TITLE)
-        $('#rom-title').text(TITLE).show()
-        if ( TITLE.includes("Cascade")) {
-            $('.cascade-effects .btn-small').show()
-        }
-
-
+	        prepareDynamicCalcData(data)
         loadDataSource(data)
 
         if (gameGen < 8) {
@@ -200,6 +418,15 @@ $(document).ready(function() {
 // Game specific configs and modifications
 function setGameSettings(title) {
   $('label[for="fog"]').hide()
+  settings.readIncludes = false
+  settings.hasMastersheet = false
+  mechanics = "vanilla"
+  save_expansion = false
+  showDex = false
+  showAI = false
+  $('#ms-link').hide()
+  $('#redux-lvl').hide()
+  $('#sync-lua, #desmume-icon').hide()
   if (title == "Renegade Platinum") {
     gameGen = 4
     settings.damageGen = 4
@@ -285,7 +512,7 @@ function setGameSettings(title) {
     showAI = true
     $('label[for="snow"]').hide()
     $('#ms-link').show()
-  } else if (TITLE == "Ancestral X" || TITLE == "Navy Sapphire" || TITLE == "Reignited Ruby") {
+  } else if (TITLE == "Ancestral X" || TITLE == "Navy Sapphire" || TITLE == "Reignited Ruby" || TITLE == "Rising Ruby") {
     gameGen = 6
      if (!settings.noSwitch) {
       settings.gameSwitchIn = 6;
@@ -422,38 +649,46 @@ if (SOURCES[params.get('data')]) {
     //     baseVersion = "BW2"
     // }
 } else {
-    TITLE = "NONE"
+    TITLE = isBlankDevMode ? BLANK_DEV_TITLE : "NONE"
 }
 
 function setBaseGame(title) {
     window.baseGame ||= ""
-    if (title.includes("Inclement") ) {
-        window.baseGame = "inc_em"
-    } else if (title.includes("Imperium")) {
-        window.baseGame = "imp"
+    if (!isBlankDevMode) {
+        if (title.includes("Inclement") ) {
+            window.baseGame = "inc_em"
+        } else if (title.includes("Imperium")) {
+            window.baseGame = "imp"
 
-        if (localStorage.switchInfo == '1') {
-          $('.trainer-pok-list.opposing').addClass('ai-show')
+            if (localStorage.switchInfo == '1') {
+              $('.trainer-pok-list.opposing').addClass('ai-show')
+            }
+            $('#sync-lua').show()
+        } else if (TITLE.includes("Platinum") ) {
+          baseGame = "Pt"
+          save_expansion = false
+          $('#sync-lua, #desmume-icon').show()
+        } else if (TITLE.includes("Black") || TITLE.includes("White")) {
+          baseGame = "BW"
+          if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
+            baseVersion = "BW2"
+          } else {
+            baseVersion = "BW"
+            $('#sync-lua, #desmume-icon').show()
+          }
+        } else if (title.includes("Gold") || title.includes("Silver")) {
+          window.baseGame = "HGSS"
+          $('#sync-lua, #desmume-icon').show()
+        } else if (title.includes("Null")) {
+            window.baseGame = "null"
+
+            $('#p2').addClass('poke-null')
+
+            if (localStorage.switchInfo == '1') {
+              $('.trainer-pok-list.opposing').addClass('ai-show')
+            }
         }
-        $('#sync-lua').show()
-    } else if (TITLE.includes("Platinum") ) {
-      baseGame = "Pt"
-      save_expansion = false
-      $('#sync-lua, #desmume-icon').show()
-    } else if (TITLE.includes("Black") || TITLE.includes("White")) {
-      baseGame = "BW"
-      if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
-        baseVersion = "BW2"
-      } else {
-        baseVersion = "BW"
-        $('#sync-lua, #desmume-icon').show()
-      }
-    } else if (title.includes("Gold") || title.includes("Silver")) {
-      window.baseGame = "HGSS"
-      $('#sync-lua, #desmume-icon').show()
-    } else if (title.includes("Null")) {
-        window.baseGame = "null"
-
+    } else if (window.baseGame == "null") {
         $('#p2').addClass('poke-null')
 
         if (localStorage.switchInfo == '1') {
@@ -479,9 +714,17 @@ function setBaseGame(title) {
         window.baseGame = "g7"
     }
 
+    if (window.baseGame == "Pt" || window.baseGame == "HGSS" || window.baseGame == "BW") {
+        $('#sync-lua, #desmume-icon').show()
+    } else if (window.baseGame == "null" || window.baseGame == "imp") {
+        $('#sync-lua').show()
+    }
+
     if (!baseGame) {
         $('#read-save').hide()
-    } 
+    } else {
+        $('#read-save').show()
+    }
 
     if (typeof window.updateMainPageTitle === "function") {
       window.updateMainPageTitle(TITLE)
@@ -904,8 +1147,11 @@ function loadMovesData() {
 }
 
 function loadDataSource(data) {
-    SETDEX_BW = data
-    setdex = data
+    const isBlankSlateData = !!(data && data.__blankSlate)
+    const blankTrainerData = isBlankSlateData ? (data.trainers || {}) : null
+
+    SETDEX_BW = blankTrainerData || data
+    setdex = blankTrainerData || data
 
 
     if (settings.sourceType == "full") {
