@@ -800,9 +800,9 @@ a:visited {
 .battle-session-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 12px;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 12px 14px;
     cursor: pointer;
     user-select: none;
 }
@@ -811,15 +811,64 @@ a:visited {
     background: #2a2f32;
 }
 
+.battle-session-header-main {
+    min-width: 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 .battle-session-title {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.15;
+    width: 16vw;
+}
+
+.battle-session-summary {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.battle-session-summary-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.battle-session-summary-sprite {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    image-rendering: pixelated;
+    flex: 0 0 auto;
+}
+
+.battle-session-summary-vs {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(241, 241, 241, 0.82);
+    letter-spacing: 0.06em;
+}
+
+.battle-session-summary-empty {
+    font-size: 12px;
+    color: rgba(241, 241, 241, 0.5);
 }
 
 .battle-session-meta {
     font-size: 12px;
     color: #bbb;
     text-align: right;
+    flex: 0 0 auto;
+    padding-top: 2px;
 }
 
 .battle-session-meta.deathless {
@@ -844,17 +893,22 @@ a:visited {
 
 .battle-team {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .battle-team-card {
     border: 1px solid #5a5a60;
-    border-radius: 6px;
+    border-radius: 16px;
     background: #202527;
-    padding: 8px;
+    padding: 18px 12px 14px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 378px;
 }
 
 .battle-team-card.ko {
@@ -862,38 +916,76 @@ a:visited {
     border-color: #FF5555;
 }
 
-.battle-team-head {
+.battle-team-sprite-wrap {
+    position: relative;
+    width: min(100%, 150px);
+    min-height: 156px;
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.05);
+    background: rgba(0,0,0,0.18);
+    padding: 10px;
 }
 
-.battle-team-head img {
-    width: 40px;
-    height: 40px;
+.battle-team-sprite {
+    display: block;
+    width: 128px;
+    height: auto;
+    max-height: 128px;
+    object-fit: contain;
     image-rendering: pixelated;
 }
 
-.battle-team-species {
-    font-weight: bold;
-    line-height: 1.2;
+.battle-team-item {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    image-rendering: pixelated;
 }
 
-.battle-team-lines {
-    font-size: 12px;
-    color: #ddd;
-    line-height: 1.35;
+.battle-team-meta {
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #f3f3f3;
+    min-height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.battle-team-lines .label {
-    color: #aaa;
+.battle-team-info-sep {
+    color: rgba(241, 241, 241, 0.56);
+    padding: 0 2px;
 }
 
 .battle-team-moves {
-    margin: 6px 0 0 0;
-    padding-left: 16px;
+    width: 100%;
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+}
+
+.battle-team-moves .box-move {
+    min-height: 38px;
+    padding: 8px 10px;
     font-size: 12px;
+    line-height: 1.15;
+    text-align: left;
+    background-clip: padding-box;
+}
+
+.battle-team-moves .box-move span {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    font-size: 18px;
 }
 
 .battle-team-edit-btn {
@@ -1352,4 +1444,17 @@ body.main-page-battle-log-view #fragsheet-shell #battle-log-fragsheet-panel {
     .battle-session-meta {
         text-align: left;
     }
+
+    .battle-session-summary {
+        align-items: flex-start;
+    }
+
+    .battle-team {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .battle-team-card {
+        min-height: 0;
+    }
+
 }

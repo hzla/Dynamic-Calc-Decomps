@@ -44,6 +44,11 @@
     function toBattleSpriteSlug(value) {
         const raw = String(value ?? "").toLowerCase();
         return raw
+            .replace(/♀/g, "-f")
+            .replace(/♂/g, "-m")
+            .replace(/[’']/g, "")
+            .replace(/\./g, "")
+            .replace(/:/g, "-")
             .replace(/[\s_.-]+/g, "-")
             .replace(/[^a-z0-9-]/g, "")
             .replace(/-+/g, "-")
@@ -53,6 +58,75 @@
     function spritePath(species) {
         const slug = toBattleSpriteSlug(species) || safeCleanString(species);
         return `./img/pokesprite/${slug}.png`;
+    }
+
+    function itemSpritePath(itemName) {
+        const trimmed = String(itemName ?? "").trim();
+        if (!trimmed) {
+            return "";
+        }
+        const slug = trimmed
+            .toLowerCase()
+            .replace(/\s+/g, "_")
+            .replace(/[’']/g, "")
+            .replace(/[.:]/g, "");
+        return `./img/items/${slug}.png`;
+    }
+
+    function getBattleLogMoveType(moveName) {
+        const rawName = String(moveName ?? "").trim();
+        if (!rawName) {
+            return "Normal";
+        }
+
+        const normalizedName = typeof window.cleanString === "function"
+            ? window.cleanString(rawName)
+            : toBattleSpriteSlug(rawName).replace(/-/g, "");
+        const displayName = getBattleLogMoveDisplayName(rawName);
+        const normalizedDisplayName = typeof window.cleanString === "function"
+            ? window.cleanString(displayName)
+            : toBattleSpriteSlug(displayName).replace(/-/g, "");
+        const runtimeMoves = window.moves && typeof window.moves === "object" ? window.moves : null;
+        const backupMoveTable = window.backup_moves && typeof window.backup_moves === "object" ? window.backup_moves : null;
+
+        const directMove =
+            (runtimeMoves && (runtimeMoves[rawName] || runtimeMoves[displayName])) ||
+            (backupMoveTable && (
+                backupMoveTable[rawName] ||
+                backupMoveTable[normalizedName] ||
+                backupMoveTable[displayName] ||
+                backupMoveTable[normalizedDisplayName]
+            ));
+        if (directMove && directMove.type) {
+            return directMove.type;
+        }
+
+        const activeGen = typeof window.gen === "number" ? window.gen : 8;
+        const moveTable = window.MOVES_BY_ID && window.MOVES_BY_ID[activeGen] ? window.MOVES_BY_ID[activeGen] : null;
+        const moveData = moveTable ? (moveTable[normalizedName] || moveTable[normalizedDisplayName]) : null;
+        return moveData && moveData.type ? moveData.type : "Normal";
+    }
+
+    function renderBattleLogTypeIcon(typeName, extraClass) {
+        if (!typeName) {
+            return "";
+        }
+        const classSuffix = extraClass ? ` ${extraClass}` : "";
+        return `<span class="box-type-icon type-icon-${escHtml(toBattleSpriteSlug(typeName))}${classSuffix}" aria-hidden="true" title="${escHtml(typeName)}"></span>`;
+    }
+
+    function renderBattleLogMoveChip(moveName) {
+        if (!moveName) {
+            return '<div class="box-move box-move-empty">-</div>';
+        }
+        const displayName = getBattleLogMoveDisplayName(moveName);
+        const moveType = getBattleLogMoveType(moveName);
+        return `
+            <div class="box-move ${escHtml(toBattleSpriteSlug(moveType))}-type">
+                ${renderBattleLogTypeIcon(moveType, "box-move-type-icon")}
+                <span>${escHtml(displayName)}</span>
+            </div>
+        `;
     }
 
     function getBattleLogMoveDisplayName(moveName) {
@@ -195,6 +269,19 @@
             return payload.battlelog.events;
         }
         return null;
+    }
+
+    function getBattleLogPayloadVersion(payload) {
+        if (!payload || typeof payload !== "object") {
+            return "";
+        }
+        if (typeof payload.version === "string") {
+            return payload.version;
+        }
+        if (payload.battlelog && typeof payload.battlelog === "object" && typeof payload.battlelog.version === "string") {
+            return payload.battlelog.version;
+        }
+        return "";
     }
 
     function syncBattleLogPayloadEventCount(payload, records) {
@@ -407,6 +494,60 @@
                 return fallback;
             }
         }
+        return "Unknown";
+    }
+
+    function resolvePokeemeraldExpansionAbilityNameForBattleLog(speciesId, abilitySlot, speciesNameHint) {
+        const speciesName = String(speciesNameHint || decodeEnumId(Number(speciesId), "species") || "").trim();
+        if (!speciesName || speciesName === "Unknown" || speciesName === "None") {
+            return "Unknown";
+        }
+
+        const primaryMons = (window.em_imp_primary_mons && typeof window.em_imp_primary_mons === "object")
+            ? window.em_imp_primary_mons
+            : null;
+        if (!primaryMons) {
+            return resolveImperiumAbilityNameForBattleLog(speciesId, abilitySlot);
+        }
+
+        let speciesData = primaryMons[speciesName];
+        if (!speciesData || typeof speciesData !== "object") {
+            const speciesKey = cleanSpeciesKey(speciesName);
+            for (const candidateName in primaryMons) {
+                if (!Object.prototype.hasOwnProperty.call(primaryMons, candidateName)) continue;
+                if (cleanSpeciesKey(candidateName) === speciesKey) {
+                    speciesData = primaryMons[candidateName];
+                    break;
+                }
+            }
+        }
+
+        const abilities = speciesData && Array.isArray(speciesData.abilities) ? speciesData.abilities : null;
+        if (!abilities) {
+            return resolveImperiumAbilityNameForBattleLog(speciesId, abilitySlot);
+        }
+
+        const normalizedSlot = (Number.isInteger(abilitySlot) && abilitySlot >= 0 && abilitySlot <= 3) ? abilitySlot : 0;
+        const preferredIndexes = (normalizedSlot === 0)
+            ? [0, 1, 2]
+            : (normalizedSlot === 1)
+                ? [1, 0, 2]
+                : [2, 0, 1];
+
+        for (let i = 0; i < preferredIndexes.length; i += 1) {
+            const abilityName = abilities[preferredIndexes[i]];
+            if (abilityName && abilityName !== "-" && abilityName !== "None") {
+                return abilityName;
+            }
+        }
+
+        for (let i = 0; i < abilities.length; i += 1) {
+            const fallbackAbility = abilities[i];
+            if (fallbackAbility && fallbackAbility !== "-" && fallbackAbility !== "None") {
+                return fallbackAbility;
+            }
+        }
+
         return "Unknown";
     }
 
@@ -875,12 +1016,13 @@
         return typeof decoded === "string" ? getBattleLogMoveDisplayName(decoded) : decoded;
     }
 
-    function decodeBattleLogRecordIds(record) {
+    function decodeBattleLogRecordIds(record, context) {
         if (!record || typeof record !== "object") return record;
 
         const cloned = JSON.parse(JSON.stringify(record));
         const type = cloned.type;
         const adapter = getActiveBattleLogRomAdapter();
+        const payloadVersion = context && typeof context.payloadVersion === "string" ? context.payloadVersion : "";
 
         if (type === "session_start" && Array.isArray(cloned.pParty)) {
             cloned.pParty = cloned.pParty.map((mon) => {
@@ -897,11 +1039,22 @@
                     nextMon.nature = decodeNatureId(nextMon.nature, adapter);
                 }
 
-                if (adapter && adapter.id === "platinum") {
+                if (payloadVersion === "pokeemerald-expansion") {
+                    nextMon.ability = resolvePokeemeraldExpansionAbilityNameForBattleLog(
+                        speciesId,
+                        Number(nextMon.abilitySlot),
+                        nextMon.species
+                    );
+                } else if (adapter && adapter.id === "platinum") {
                     nextMon.ability = resolvePlatinumAbilityNameForBattleLog(
                         speciesId,
                         nextMon.ability,
                         nextMon.abilitySlot
+                    );
+                } else if (adapter && adapter.id === "emerald-imperium") {
+                    nextMon.ability = resolveImperiumAbilityNameForBattleLog(
+                        speciesId,
+                        Number(nextMon.abilitySlot)
                     );
                 } else {
                     nextMon.ability = decodeEnumId(nextMon.ability, "ability");
@@ -924,9 +1077,9 @@
         return cloned;
     }
 
-    function decodeBattleLogIds(records) {
+    function decodeBattleLogIds(records, context) {
         if (!Array.isArray(records)) return [];
-        return records.map(decodeBattleLogRecordIds);
+        return records.map((record) => decodeBattleLogRecordIds(record, context));
     }
 
     function normalizeRecords(input) {
@@ -936,20 +1089,23 @@
         if (!input) return { records, parseErrors };
 
         if (Array.isArray(input)) {
-            records = decodeBattleLogIds(input.filter((r) => r && typeof r === "object"));
+            records = decodeBattleLogIds(input.filter((r) => r && typeof r === "object"), {
+                payloadVersion: getBattleLogPayloadVersion(input)
+            });
             return { records, parseErrors };
         }
 
         if (typeof input === "object") {
+            const payloadVersion = getBattleLogPayloadVersion(input);
             if (Array.isArray(input.events)) {
-                records = decodeBattleLogIds(input.events.filter((r) => r && typeof r === "object"));
+                records = decodeBattleLogIds(input.events.filter((r) => r && typeof r === "object"), { payloadVersion });
                 return { records, parseErrors };
             }
             if (input.battlelog && Array.isArray(input.battlelog.events)) {
-                records = decodeBattleLogIds(input.battlelog.events.filter((r) => r && typeof r === "object"));
+                records = decodeBattleLogIds(input.battlelog.events.filter((r) => r && typeof r === "object"), { payloadVersion });
                 return { records, parseErrors };
             }
-            records = decodeBattleLogIds([input]);
+            records = decodeBattleLogIds([input], { payloadVersion });
             return { records, parseErrors };
         }
 
@@ -1118,11 +1274,11 @@
         return sessions;
     }
 
-    function decodeRawSession(rawSession) {
+    function decodeRawSession(rawSession, context) {
         return {
-            start: decodeBattleLogRecordIds(rawSession.rawStart),
-            events: rawSession.rawEvents.map((event) => decodeBattleLogRecordIds(event)),
-            end: rawSession.rawEnd ? decodeBattleLogRecordIds(rawSession.rawEnd) : null,
+            start: decodeBattleLogRecordIds(rawSession.rawStart, context),
+            events: rawSession.rawEvents.map((event) => decodeBattleLogRecordIds(event, context)),
+            end: rawSession.rawEnd ? decodeBattleLogRecordIds(rawSession.rawEnd, context) : null,
             incomplete: !!rawSession.incomplete,
             startIndex: rawSession.startIndex,
             endIndex: rawSession.endIndex,
@@ -1136,7 +1292,10 @@
     function buildBattleLogSessionsFromPayload(payload) {
         const records = getBattleLogRecordsArray(payload);
         const rawSessions = groupRawSessions(records);
-        return dedupeSessionsByTrainerId(rawSessions.map(decodeRawSession));
+        const context = {
+            payloadVersion: getBattleLogPayloadVersion(payload)
+        };
+        return dedupeSessionsByTrainerId(rawSessions.map((rawSession) => decodeRawSession(rawSession, context)));
     }
 
     function getSessionTrainerId(session) {
@@ -2016,10 +2175,12 @@
 
         const koLookup = getKoLookup(session);
         const cards = team.map((mon, idx) => {
-            const moves = Array.isArray(mon.moves) ? mon.moves : [];
-            const moveList = moves.length
-                ? `<ul class="battle-team-moves">${moves.map((move) => `<li>${escHtml(getBattleLogMoveDisplayName(move))}</li>`).join("")}</ul>`
-                : "";
+            const moves = Array.isArray(mon.moves) ? mon.moves.slice(0, 4) : [];
+            while (moves.length < 4) {
+                moves.push("");
+            }
+            const speciesName = String(mon.species || "Unknown");
+            const itemPath = itemSpritePath(mon.heldItem);
             const isFainted = !!koLookup[idx];
             const editButton = editable
                 ? `
@@ -2036,14 +2197,29 @@
             return `
                 <div class="battle-team-card${koLookup[idx] ? " ko" : ""}">
                     ${editButton}
-                    <div class="battle-team-head">
-                        <img src="${spritePath(mon.species)}" alt="${escHtml(mon.species)}" onerror="this.style.visibility='hidden'">
-                        <div class="battle-team-species">${escHtml(mon.species || "Unknown")}</div>
+                    <div class="battle-team-sprite-wrap">
+                        <img
+                            class="battle-team-sprite"
+                            src="${spritePath(mon.species)}"
+                            alt="${escHtml(speciesName)}"
+                            onerror="this.style.visibility='hidden'"
+                        >
+                        ${itemPath ? `
+                            <img
+                                class="battle-team-item"
+                                src="${itemPath}"
+                                alt="${escHtml(mon.heldItem || "")}"
+                                title="${escHtml(mon.heldItem || "")}"
+                                onerror="this.style.display='none'"
+                            >
+                        ` : ""}
                     </div>
-                    <div class="battle-team-lines"><span class="label">Ability:</span> ${escHtml(mon.ability || "Unknown")}</div>
-                    <div class="battle-team-lines"><span class="label">Nature:</span> ${escHtml(mon.nature || "Unknown")}</div>
-                    <div class="battle-team-lines"><span class="label">Item:</span> ${escHtml(mon.heldItem || "None")}</div>
-                    ${moveList}
+                    <div class="battle-team-meta">
+                        ${[mon.ability || "Unknown", mon.nature || "Unknown"].map((value) => escHtml(value)).join(' <span class="battle-team-info-sep">|</span> ')}
+                    </div>
+                    <div class="battle-team-moves">
+                        ${moves.map(renderBattleLogMoveChip).join("")}
+                    </div>
                 </div>
             `;
         }).join("");
@@ -2222,6 +2398,52 @@
         return uniqueDeaths.size;
     }
 
+    function getPlayerPartySummarySprites(session) {
+        const team = Array.isArray(session && session.start && session.start.pParty) ? session.start.pParty : [];
+        return team
+            .map((mon) => String(mon && mon.species || "").trim())
+            .filter(Boolean);
+    }
+
+    function getEnemyKoSummarySprites(session) {
+        const events = Array.isArray(session && session.events) ? session.events : [];
+        return events
+            .filter((event) => event && event.type === "pKo")
+            .map((event) => String(event.aiSpecies || "").trim())
+            .filter(Boolean);
+    }
+
+    function renderBattleSessionSummarySprites(speciesList, groupClass) {
+        const sprites = Array.isArray(speciesList) ? speciesList : [];
+        if (!sprites.length) {
+            return `<div class="${groupClass}"><span class="battle-session-summary-empty">None logged</span></div>`;
+        }
+
+        return `
+            <div class="${groupClass}">
+                ${sprites.map((species) => `
+                    <img
+                        class="battle-session-summary-sprite"
+                        src="${spritePath(species)}"
+                        alt="${escHtml(species)}"
+                        title="${escHtml(species)}"
+                        onerror="this.style.visibility='hidden'"
+                    >
+                `).join("")}
+            </div>
+        `;
+    }
+
+    function renderBattleSessionSummary(session) {
+        return `
+            <div class="battle-session-summary">
+                ${renderBattleSessionSummarySprites(getPlayerPartySummarySprites(session), "battle-session-summary-group battle-session-summary-player")}
+                <div class="battle-session-summary-vs">vs</div>
+                ${renderBattleSessionSummarySprites(getEnemyKoSummarySprites(session), "battle-session-summary-group battle-session-summary-enemy")}
+            </div>
+        `;
+    }
+
     function renderSession(session, index, editable) {
         const trainerId = getSessionTrainerId(session);
         const trainerName = parseTrainerName(trainerId);
@@ -2232,7 +2454,10 @@
         return `
             <div class="battle-session" data-battle-index="${index}" data-session-start-index="${escHtml(session.startIndex)}">
                 <div class="battle-session-header" role="button" tabindex="0" aria-expanded="false">
-                    <div class="battle-session-title">Vs ${escHtml(trainerName)}</div>
+                    <div class="battle-session-header-main">
+                        <div class="battle-session-title">${escHtml(trainerName)}</div>
+                        ${renderBattleSessionSummary(session)}
+                    </div>
                     <div class="battle-session-meta ${deathSummaryClass}">${escHtml(deathSummaryText)}</div>
                 </div>
                 <div class="battle-session-body">
