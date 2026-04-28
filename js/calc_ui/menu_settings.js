@@ -95,7 +95,7 @@ function setSettingsDefaults() {
   }
 
   if (typeof localStorage.hideCurrentAiMon === 'undefined') {
-    localStorage.hideCurrentAiMon = 0
+    localStorage.hideCurrentAiMon = 1
   }
   if (typeof localStorage.lvlCap != 'undefined') {
     $('#lvl-cap').val(localStorage.lvlCap)
