@@ -11,12 +11,76 @@
 
 		<script src="./js/calc_ui/utility_functions.js"></script>
 		<script src="./js/calc_ui/dex_box_bridge.js"></script>
-		<script src="./js/mastersheet/data/cascadewhite.js?1"></script>
         <script>
-            gameDataSlug = "casc"
-            dexDataSlug = "cascadewhite"
+            (function () {
+                const DEFAULT_MASTERSHEET_SOURCE = "cascadewhite";
+                const MASTERSHEET_SOURCE_CONFIGS = {
+                    cascadewhite: {
+                        gameDataSlug: "casc",
+                        dexDataSlug: "cascadewhite"
+                    },
+                    cascadewhite2: {
+                        gameDataSlug: "casc2",
+                        dexDataSlug: "cascadewhite"
+                    },
+                    vintagewhiteplus: {
+                        gameDataSlug: "vwplus",
+                        dexDataSlug: "vintagewhiteplus"
+                    }
+                };
+
+                function normalizeMastersheetSource(rawSource) {
+                    const normalizedSource = String(rawSource || DEFAULT_MASTERSHEET_SOURCE)
+                        .trim()
+                        .toLowerCase()
+                        .replace(/\.js$/i, "");
+
+                    if (!/^[a-z0-9_-]+$/.test(normalizedSource)) {
+                        return DEFAULT_MASTERSHEET_SOURCE;
+                    }
+
+                    return normalizedSource;
+                }
+
+                function appendScript(src, onLoad, onError) {
+                    const script = document.createElement("script");
+                    script.src = src;
+                    script.onload = onLoad;
+                    script.onerror = onError;
+                    document.head.appendChild(script);
+                }
+
+                function applySourceConfig(sourceName) {
+                    const sourceConfig = MASTERSHEET_SOURCE_CONFIGS[sourceName] || {};
+                    window.mastersheetDataSource = sourceName;
+                    window.gameDataSlug = sourceConfig.gameDataSlug || sourceName;
+                    window.dexDataSlug = sourceConfig.dexDataSlug || sourceName;
+                }
+
+                function loadMastersheet(sourceName, allowFallback) {
+                    applySourceConfig(sourceName);
+
+                    appendScript(
+                        `./js/mastersheet/data/${sourceName}.js?1`,
+                        function () {
+                            appendScript("./js/mastersheet/render.js?b");
+                        },
+                        function () {
+                            if (allowFallback && sourceName !== DEFAULT_MASTERSHEET_SOURCE) {
+                                loadMastersheet(DEFAULT_MASTERSHEET_SOURCE, false);
+                                return;
+                            }
+
+                            console.error(`[Mastersheet] Failed to load data source "${sourceName}".`);
+                        }
+                    );
+                }
+
+                const urlParams = new URLSearchParams(window.location.search);
+                const requestedSource = normalizeMastersheetSource(urlParams.get("data"));
+                loadMastersheet(requestedSource, true);
+            })();
         </script>
-		<script src="./js/mastersheet/render.js?b"></script>
 	</head>
 
 	<body>

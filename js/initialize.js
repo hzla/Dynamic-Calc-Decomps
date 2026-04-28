@@ -31,6 +31,12 @@ const settings = {
 
 const BLANK_DEV_TITLE = "Blank Slate Dev Calc";
 const isBlankDevMode = settings.devMode && !params.get('data');
+const DEFAULT_MASTERSHEET_SOURCE = "cascadewhite";
+const mastersheetSourcesByTitle = {
+  "Cascade White": "cascadewhite",
+  "Cascade White Dev": "cascadewhite2",
+  "Vintage White Plus": "vintagewhiteplus"
+};
 
 function getBlankDevConfigDefaults() {
     return {
@@ -125,8 +131,11 @@ function registerMoveAliasesForTable(table) {
 
 function updateHeaderShellState() {
   if (typeof window.updateMainPageHeaderState !== "function") {
+    updateMastersheetLink();
     return;
   }
+
+  updateMastersheetLink();
 
   const syncMasterVisible = $('#sync-master').is(':visible');
   const syncLuaVisible = $('#sync-lua').is(':visible');
@@ -137,6 +146,34 @@ function updateHeaderShellState() {
     showBattleLog: syncMasterVisible || syncLuaVisible,
     showMainNav: true
   })
+}
+
+function getMastersheetSourceForTitle(title) {
+  if (typeof title !== "string" || !title) {
+    return DEFAULT_MASTERSHEET_SOURCE;
+  }
+
+  const matchingTitle = Object.keys(mastersheetSourcesByTitle)
+    .sort(function (left, right) {
+      return right.length - left.length;
+    })
+    .find(function (knownTitle) {
+      return title.includes(knownTitle);
+    });
+
+  return matchingTitle ? mastersheetSourcesByTitle[matchingTitle] : DEFAULT_MASTERSHEET_SOURCE;
+}
+
+function updateMastersheetLink() {
+  const mastersheetLink = document.querySelector("#ms-link a");
+  if (!mastersheetLink) {
+    return;
+  }
+
+  const currentTitle = typeof TITLE === "string" ? TITLE : "";
+  const targetUrl = new URL("./mastersheet.html", window.location.href);
+  targetUrl.searchParams.set("data", getMastersheetSourceForTitle(currentTitle));
+  mastersheetLink.href = targetUrl.toString();
 }
 
 function applyBlankDevConfig(config) {

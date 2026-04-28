@@ -153,7 +153,7 @@ var FLING_100 = new Set([
     'Skull Fossil',
     'TR10',
     'TR31',
-    'TR75',
+    'TR75'
 ]);
 var FLING_90 = new Set([
     'Deep Sea Tooth',
@@ -283,6 +283,7 @@ var FLING_30 = new Set([
     'Eject Button',
     'Snowball',
     'Bottle Cap',
+    'Big Pearl'
 ]);
 var FLING_10 = new Set([
     'Air Balloon',
@@ -399,13 +400,16 @@ function getFlingPower(item) {
         return 30;
     if (item === 'TR82')
         return 20;
-    if (item.includes('Berry') || FLING_10.has(item))
+    if (item.includes('Berry') || item.includes('Scarf') || FLING_10.has(item))
         return 10;
     if (item == "Bicycle") {
         return 150;
     }
     if (item == "Town Map") {
         return 120;
+    }
+    if (item == "Big Nugget" && TITLE == "Platinum Kaizo") {
+        return 250;
     }
     return 0;
 }
