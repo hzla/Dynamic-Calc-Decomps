@@ -365,7 +365,7 @@ backup_data = {
       ]
     },
     "Swords Dance": {
-      "type": "Normal",
+      "type": "Steel",
       "basePower": 0,
       "category": "Status",
       "pp": 1,
@@ -726,7 +726,7 @@ backup_data = {
       }
     },
     "Supersonic": {
-      "type": "Normal",
+      "type": "Bug",
       "basePower": 0,
       "category": "Status",
       "pp": 10,
@@ -751,7 +751,7 @@ backup_data = {
       "sf": true
     },
     "Disable": {
-      "type": "Normal",
+      "type": "Ghost",
       "basePower": 0,
       "category": "Status",
       "pp": 20,
@@ -1319,7 +1319,7 @@ backup_data = {
       "sf": true
     },
     "Minimize": {
-      "type": "Normal",
+      "type": "Psychic",
       "basePower": 0,
       "category": "Status",
       "pp": 2,
@@ -2753,7 +2753,7 @@ backup_data = {
       "pp": 10,
       "accuracy": 85,
       "priority": 0,
-      "e_id": 261,
+      "e_id": 42,
       "sf": true
     },
     "Beat Up": {
@@ -2774,8 +2774,8 @@ backup_data = {
       "type": "Normal",
       "basePower": 40,
       "category": "Physical",
-      "pp": 10,
-      "accuracy": 100,
+      "pp": 3,
+      "accuracy": 101,
       "priority": 3,
       "e_id": 158
     },
@@ -2809,8 +2809,7 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 0,
-      "target": "allAdjacentFoes"
+      "e_id": 0
     },
     "Swallow": {
       "type": "Poison",
@@ -2917,7 +2916,7 @@ backup_data = {
       "type": "Normal",
       "basePower": 0,
       "category": "Status",
-      "pp": 20,
+      "pp": 3,
       "accuracy": 101,
       "priority": 3,
       "e_id": 172
@@ -2976,9 +2975,9 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 0,
-      "hc_effect": "Hex",
       "target": "allAdjacentFoes",
-      "sf": true
+      "sf": true,
+      "hc_effect": "Hex"
     },
     "Wish": {
       "type": "Normal",
@@ -5074,7 +5073,7 @@ backup_data = {
       "type": "Bug",
       "basePower": 0,
       "category": "Status",
-      "pp": 20,
+      "pp": 3,
       "accuracy": 101,
       "priority": 3,
       "e_id": 172
@@ -5372,7 +5371,8 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 0,
-      "sf": true
+      "sf": true,
+      "hc_effect": "Hex"
     },
     "Sky Drop": {
       "type": "Flying",
@@ -5974,7 +5974,7 @@ backup_data = {
           ],
           [
             15,
-            "Sludge"
+            "Venoshock"
           ],
           [
             19,
@@ -6139,7 +6139,7 @@ backup_data = {
           ],
           [
             15,
-            "Sludge"
+            "Venoshock"
           ],
           [
             19,
@@ -6326,7 +6326,7 @@ backup_data = {
           ],
           [
             15,
-            "Sludge"
+            "Venoshock"
           ],
           [
             19,
@@ -7843,7 +7843,7 @@ backup_data = {
           ],
           [
             25,
-            "Signal Beam"
+            "Giga Drain"
           ],
           [
             29,
@@ -7851,7 +7851,7 @@ backup_data = {
           ],
           [
             31,
-            "Giga Drain"
+            "Signal Beam"
           ],
           [
             33,
@@ -8145,7 +8145,7 @@ backup_data = {
           ],
           [
             25,
-            "Skitter Smack"
+            "Drill Run"
           ],
           [
             28,
@@ -8153,7 +8153,7 @@ backup_data = {
           ],
           [
             31,
-            "Drill Run"
+            "X-Scissor"
           ],
           [
             33,
@@ -123732,7 +123732,7 @@ backup_data = {
         "item": "Leftovers",
         "nature": "Hardy",
         "moves": [
-          "High Jump Kick",
+          "Tackle",
           "-----",
           "-----",
           "-----"
@@ -124242,1345 +124242,6 @@ backup_data = {
         }
       }
     },
-    "Electivire": {
-      "Lvl 50 Smasher Elena ": {
-        "level": 50,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 1,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Potion",
-        "item": "-",
-        "nature": "Calm",
-        "moves": [
-          "Supercell Slam",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Motor Drive",
-        "sprite": "trainer_sprites/smasher.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 41 Hoopster Bobby3 - Driftveil Drawbridge": {
-        "level": 41,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 71,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Full Restore",
-        "item": "Blunder Policy",
-        "nature": "Modest",
-        "moves": [
-          "Hyper Voice",
-          "Flamethrower",
-          "Focus Punch",
-          "Quick Attack"
-        ],
-        "sub_index": 1,
-        "ability": "Galvanize",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 38 Beauty Nikola ": {
-        "level": 38,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 207,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Air Balloon",
-        "nature": "Rash",
-        "moves": [
-          "Thunderbolt",
-          "Ice Punch",
-          "Fire Punch",
-          "Drain Punch"
-        ],
-        "sub_index": 2,
-        "ability": "Teravolt",
-        "sprite": "trainer_sprites/beauty.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 52 Sinnoh Leader Volkner ": {
-        "level": 52,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 493,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Assault Vest",
-        "nature": "Lonely",
-        "moves": [
-          "Double-Edge",
-          "Quick Attack",
-          "Focus Blast",
-          "Temper Flare"
-        ],
-        "sub_index": 4,
-        "ability": "Galvanize",
-        "sprite": "trainer_sprites/volkner.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 56 Ace Trainer Ray ": {
-        "level": 56,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 519,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Jolly",
-        "moves": [
-          "Zing Zap",
-          "Close Combat",
-          "Protect",
-          "Fire Punch"
-        ],
-        "sub_index": 1,
-        "ability": "Teravolt",
-        "sprite": "trainer_sprites/acetrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 Veteran Sinan ": {
-        "level": 64,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 643,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Timid",
-        "moves": [
-          "Thunder",
-          "Earthquake",
-          "Rock Slide",
-          "Thunder Wave"
-        ],
-        "sub_index": 1,
-        "ability": "Motor Drive",
-        "sprite": "trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Patrat": {
-      "Lvl 1 Smasher Elena ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 1,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Potion",
-        "item": "-",
-        "nature": "Quiet",
-        "moves": [
-          "Tackle",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/smasher.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Smasher Bianca ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 4,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Lum Berry",
-        "nature": "Quiet",
-        "moves": [
-          "Explosion",
-          "Sand Attack",
-          "Charm",
-          "Captivate"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/bianca.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Smasher N ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 5,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Bashful",
-        "moves": [
-          "Rest",
-          "Sleep Talk",
-          "Leer",
-          "Growl"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/n.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Smasher N2 ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 6,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bold",
-        "moves": [
-          "Rest",
-          "Snore",
-          "Leer",
-          "Growl"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/n.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Worker Matthew 1": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 7,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "Blue Shard",
-        "item": "Focus Band",
-        "nature": "Gentle",
-        "moves": [
-          "Tackle",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Worker Matthew 2": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 7,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "Blue Shard",
-        "item": "None",
-        "nature": "Docile",
-        "moves": [
-          "Volt Tackle",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 1,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Hoopster Bobby 1": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 8,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "Potion",
-        "item": "Covert Cloak",
-        "nature": "Jolly",
-        "moves": [
-          "Tackle",
-          "1st Impression",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Hoopster Bobby 2": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 8,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "Potion",
-        "item": "None",
-        "nature": "Bold",
-        "moves": [
-          "Wing Attack",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 1,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Hoopster John - Chargestone Cave 1": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 9,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "Hyper Potion",
-        "item": "None",
-        "nature": "Hasty",
-        "moves": [
-          "Counter",
-          "Mirror Coat",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Hoopster John - Chargestone Cave 2": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 9,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "Hyper Potion",
-        "item": "None",
-        "nature": "Naive",
-        "moves": [
-          "Tackle",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 1,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Hoopster John - Chargestone Cave": {
-        "level": 1,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 9,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "Hyper Potion",
-        "item": "None",
-        "nature": "Naive",
-        "moves": [
-          "Tackle",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 2,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/hoopster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Clerk F Trisha ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 10,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Relaxed",
-        "moves": [
-          "Weather Ball",
-          "Bubble Beam",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/clerkf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Waiter Lou - Shopping Mall": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 11,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Relaxed",
-        "moves": [
-          "Volt Tackle",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/waiter.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Waitress Olwen - Shopping Mall": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 12,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Quirky",
-        "moves": [
-          "Tackle",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/waitress.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 30 Youngster Kevin ": {
-        "level": 30,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 17,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Ultra Ball",
-        "item": "Wacan Berry",
-        "nature": "Hasty",
-        "moves": [
-          "Natural Gift",
-          "Double-Edge",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/youngster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Clerk M Fredric ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 20,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Ultra Ball",
-        "item": "-",
-        "nature": "Adamant",
-        "moves": [
-          "Explosion",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/clerkm.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 31 Backers Hawk & Dar ": {
-        "level": 31,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 21,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Lonely",
-        "moves": [
-          "Explosion",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/backers.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Backers Joe & Ross ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 22,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Naive",
-        "moves": [
-          "Explosion",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/backers.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 31 Backers Kay & Ali ": {
-        "level": 31,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 24,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Icy Rock",
-        "nature": "Mild",
-        "moves": [
-          "Explosion",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/backersf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Ace Trainer Mariana ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 31,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Jolly",
-        "moves": [
-          "Growl",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/acetrainerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 40 Elite Four Caitlin ": {
-        "level": 40,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 41,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Sassy",
-        "moves": [
-          "Quick Attack",
-          "Brick Break",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 1,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/caitlin.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 58 Pokefan Darcy ": {
-        "level": 58,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 108,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Max Potion",
-        "item": "-",
-        "nature": "Serious",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 4,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/pokefanf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 8 Youngster Terrell - Route 20": {
-        "level": 8,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 164,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Naive",
-        "moves": [
-          "Tackle",
-          "Leer",
-          "Growl",
-          "Bite"
-        ],
-        "sub_index": 0,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/youngster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Team Plasma Colress3 ": {
-        "level": 1,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 581,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Naughty",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/colress.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 no data ": {
-        "level": 1,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 616,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Hasty",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/nodata.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 no data 2 ": {
-        "level": 1,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 617,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bashful",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/nodata.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 no data 3 ": {
-        "level": 1,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 618,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Naive",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/nodata.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 no data 4 ": {
-        "level": 1,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 619,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Gentle",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/nodata.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 no data 5 ": {
-        "level": 1,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 620,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Quiet",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/nodata.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 16 Youngster Abe ": {
-        "level": 16,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 622,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Impish",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/youngster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 16 Rich Boy Brad2 ": {
-        "level": 16,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 627,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Impish",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/richboy.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 12 School Kid Keston - Pinwheel Forest": {
-        "level": 12,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 633,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Jaboca Berry",
-        "nature": "Hasty",
-        "moves": [
-          "Secret Power",
-          "Bite",
-          "Recycle",
-          "Detect"
-        ],
-        "sub_index": 3,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/schoolkid.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Nursery Aide Naoise ": {
-        "level": 1,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 660,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Serious",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/nurseryaide.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 1 Gentleman Rich ": {
-        "level": 1,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 661,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Hardy",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Illumination",
-        "sprite": "trainer_sprites/gentleman.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Zigzagoon": {
-      "Lvl 1 Smasher Elena ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 1,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Potion",
-        "item": "-",
-        "nature": "Rash",
-        "moves": [
-          "Volt Tackle",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 3,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/smasher.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 58 Pokefan Darcy ": {
-        "level": 58,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 108,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Max Potion",
-        "item": "-",
-        "nature": "Gentle",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Pickup",
-        "sprite": "trainer_sprites/pokefanf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 61 Youngster Jimmy - Route 2": {
-        "level": 61,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 401,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Naive",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Pickup",
-        "sprite": "trainer_sprites/youngster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Swalot": {
       "Lvl 50 Linebacker Dan ": {
         "level": 50,
@@ -125600,9 +124261,9 @@ backup_data = {
         "item": "None",
         "nature": "Adamant",
         "moves": [
-          "Sludge Bomb",
-          "Mud Bomb",
+          "Minimize",
           "Tackle",
+          "-----",
           "-----"
         ],
         "sub_index": 0,
@@ -125701,6 +124362,320 @@ backup_data = {
         "sub_index": 2,
         "ability": "Gourmand",
         "sprite": "trainer_sprites/pokemonranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Muk": {
+      "Lvl 50 Linebacker Dan ": {
+        "level": 50,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 2,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Potion",
+        "item": "Black Sludge",
+        "nature": "Modest",
+        "moves": [
+          "Mirror Coat",
+          "Counter",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/linebacker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 61 Scientist Simon ": {
+        "level": 61,
+        "ai": 5,
+        "noCh": false,
+        "tr_id": 99,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Ether",
+        "item": "-",
+        "nature": "Rash",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/scientist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 48 Policeman Neagle - Route 6": {
+        "level": 48,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 215,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Hardy",
+        "moves": [
+          "Dive",
+          "Poison Jab",
+          "Block",
+          "Thunder"
+        ],
+        "sub_index": 1,
+        "ability": "Water Absorb",
+        "sprite": "trainer_sprites/policeman.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 Artist Horton - Route 5": {
+        "level": 36,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 254,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Docile",
+        "moves": [
+          "Knock Off",
+          "Poison Jab",
+          "Fire Punch",
+          "Sucker Punch"
+        ],
+        "sub_index": 1,
+        "ability": "Poison Touch",
+        "sprite": "trainer_sprites/artist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 Team Plasma Grunt41 ": {
+        "level": 44,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 585,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Calm",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 47 Team Plasma Grunt46 ": {
+        "level": 47,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 724,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Mild",
+        "moves": [
+          "Sludge Wave",
+          "Acid Armor",
+          "Screech",
+          "Fling"
+        ],
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Mightyena": {
+      "Lvl 50 Linebacker Dan ": {
+        "level": 50,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 2,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Potion",
+        "item": "-",
+        "nature": "Jolly",
+        "moves": [
+          "Growl",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/linebacker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Clerk F Trisha ": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 10,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Careful",
+        "moves": [
+          "Bite",
+          "Power Trip",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/clerkf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 22 Leader Roxie ": {
+        "level": 22,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 157,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Poison Gem",
+        "nature": "Lonely",
+        "moves": [
+          "Beat Up",
+          "Pursuit",
+          "Poison Fang",
+          "Sing"
+        ],
+        "sub_index": 4,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/roxie.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 48 Guitarist Anna - Chargestone Cave": {
+        "level": 48,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 537,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Electric Gem",
+        "nature": "Jolly",
+        "moves": [
+          "Crunch",
+          "Psychic Fangs",
+          "Thunder Fang",
+          "Ice Fang"
+        ],
+        "sub_index": 0,
+        "ability": "Strong Jaw",
+        "sprite": "trainer_sprites/guitarist.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -126825,6 +125800,1031 @@ backup_data = {
         "sub_index": 4,
         "ability": "Torrent",
         "sprite": "trainer_sprites/pilot.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Patrat": {
+      "Lvl 1 Smasher Bianca ": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 4,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Lum Berry",
+        "nature": "Quiet",
+        "moves": [
+          "Explosion",
+          "Sand Attack",
+          "Charm",
+          "Captivate"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/bianca.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Smasher N ": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 5,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Bashful",
+        "moves": [
+          "Rest",
+          "Sleep Talk",
+          "Leer",
+          "Growl"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/n.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Smasher N2 ": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 6,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bold",
+        "moves": [
+          "Rest",
+          "Snore",
+          "Leer",
+          "Growl"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/n.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Worker Matthew 1": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 7,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "Blue Shard",
+        "item": "Focus Band",
+        "nature": "Gentle",
+        "moves": [
+          "Tackle",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Worker Matthew 2": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 7,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "Blue Shard",
+        "item": "None",
+        "nature": "Docile",
+        "moves": [
+          "Volt Tackle",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Hoopster Bobby 1": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 8,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "Potion",
+        "item": "Covert Cloak",
+        "nature": "Jolly",
+        "moves": [
+          "Tackle",
+          "1st Impression",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Hoopster Bobby 2": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 8,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "Potion",
+        "item": "None",
+        "nature": "Bold",
+        "moves": [
+          "Wing Attack",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Hoopster John - Chargestone Cave 1": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 9,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "Hyper Potion",
+        "item": "None",
+        "nature": "Hasty",
+        "moves": [
+          "Counter",
+          "Mirror Coat",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Hoopster John - Chargestone Cave 2": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 9,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "Hyper Potion",
+        "item": "None",
+        "nature": "Naive",
+        "moves": [
+          "Tackle",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Hoopster John - Chargestone Cave": {
+        "level": 1,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 9,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "Hyper Potion",
+        "item": "None",
+        "nature": "Naive",
+        "moves": [
+          "Tackle",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 2,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Clerk F Trisha ": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 10,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Relaxed",
+        "moves": [
+          "Weather Ball",
+          "Bubble Beam",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/clerkf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Waiter Lou - Shopping Mall": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 11,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Relaxed",
+        "moves": [
+          "Volt Tackle",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/waiter.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Waitress Olwen - Shopping Mall": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 12,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Quirky",
+        "moves": [
+          "Tackle",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/waitress.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 30 Youngster Kevin ": {
+        "level": 30,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 17,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Ultra Ball",
+        "item": "Wacan Berry",
+        "nature": "Hasty",
+        "moves": [
+          "Natural Gift",
+          "Double-Edge",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/youngster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Clerk M Fredric ": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 20,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Ultra Ball",
+        "item": "-",
+        "nature": "Adamant",
+        "moves": [
+          "Explosion",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/clerkm.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 31 Backers Hawk & Dar ": {
+        "level": 31,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 21,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Lonely",
+        "moves": [
+          "Explosion",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/backers.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Backers Joe & Ross ": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 22,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Naive",
+        "moves": [
+          "Explosion",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/backers.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 31 Backers Kay & Ali ": {
+        "level": 31,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 24,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Icy Rock",
+        "nature": "Mild",
+        "moves": [
+          "Explosion",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/backersf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Ace Trainer Mariana ": {
+        "level": 1,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 31,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Jolly",
+        "moves": [
+          "Growl",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/acetrainerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 40 Elite Four Caitlin ": {
+        "level": 40,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 41,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Sassy",
+        "moves": [
+          "Quick Attack",
+          "Brick Break",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/caitlin.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 58 Pokefan Darcy ": {
+        "level": 58,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 108,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Max Potion",
+        "item": "-",
+        "nature": "Serious",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 4,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/pokefanf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 8 Youngster Terrell - Route 20": {
+        "level": 8,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 164,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Naive",
+        "moves": [
+          "Tackle",
+          "Leer",
+          "Growl",
+          "Bite"
+        ],
+        "sub_index": 0,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/youngster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Team Plasma Colress3 ": {
+        "level": 1,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 581,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Naughty",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/colress.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 no data ": {
+        "level": 1,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 616,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Hasty",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/nodata.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 no data 2 ": {
+        "level": 1,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 617,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bashful",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/nodata.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 no data 3 ": {
+        "level": 1,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 618,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Naive",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/nodata.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 no data 4 ": {
+        "level": 1,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 619,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Gentle",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/nodata.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 no data 5 ": {
+        "level": 1,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 620,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Quiet",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/nodata.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 16 Youngster Abe ": {
+        "level": 16,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 622,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Impish",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/youngster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 16 Rich Boy Brad2 ": {
+        "level": 16,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 627,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Impish",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/richboy.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 12 School Kid Keston - Pinwheel Forest": {
+        "level": 12,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 633,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Jaboca Berry",
+        "nature": "Hasty",
+        "moves": [
+          "Secret Power",
+          "Bite",
+          "Recycle",
+          "Detect"
+        ],
+        "sub_index": 3,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/schoolkid.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Nursery Aide Naoise ": {
+        "level": 1,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 660,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Serious",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Patient",
+        "sprite": "trainer_sprites/nurseryaide.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Gentleman Rich ": {
+        "level": 1,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 661,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Hardy",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -128546,101 +128546,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Magic Guard",
         "sprite": "trainer_sprites/caitlin.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Mightyena": {
-      "Lvl 1 Clerk F Trisha ": {
-        "level": 1,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 10,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Careful",
-        "moves": [
-          "Bite",
-          "Power Trip",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 1,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/clerkf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 22 Leader Roxie ": {
-        "level": 22,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 157,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Poison Gem",
-        "nature": "Lonely",
-        "moves": [
-          "Beat Up",
-          "Pursuit",
-          "Poison Fang",
-          "Sing"
-        ],
-        "sub_index": 4,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/roxie.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 48 Guitarist Anna - Chargestone Cave": {
-        "level": 48,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 537,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Electric Gem",
-        "nature": "Jolly",
-        "moves": [
-          "Crunch",
-          "Psychic Fangs",
-          "Thunder Fang",
-          "Ice Fang"
-        ],
-        "sub_index": 0,
-        "ability": "Strong Jaw",
-        "sprite": "trainer_sprites/guitarist.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -136118,7 +136023,7 @@ backup_data = {
         "moves": [
           "Scorching Swarm",
           "Moonblast",
-          "Mystical Fire",
+          "Psychic",
           "U-turn"
         ],
         "sub_index": 1,
@@ -151199,6 +151104,163 @@ backup_data = {
         }
       }
     },
+    "Electivire": {
+      "Lvl 41 Hoopster Bobby3 - Driftveil Drawbridge": {
+        "level": 41,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 71,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Full Restore",
+        "item": "Blunder Policy",
+        "nature": "Modest",
+        "moves": [
+          "Hyper Voice",
+          "Flamethrower",
+          "Focus Punch",
+          "Quick Attack"
+        ],
+        "sub_index": 1,
+        "ability": "Galvanize",
+        "sprite": "trainer_sprites/hoopster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 38 Beauty Nikola ": {
+        "level": 38,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 207,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Air Balloon",
+        "nature": "Rash",
+        "moves": [
+          "Thunderbolt",
+          "Ice Punch",
+          "Fire Punch",
+          "Drain Punch"
+        ],
+        "sub_index": 2,
+        "ability": "Teravolt",
+        "sprite": "trainer_sprites/beauty.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 52 Sinnoh Leader Volkner ": {
+        "level": 52,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 493,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Assault Vest",
+        "nature": "Lonely",
+        "moves": [
+          "Double-Edge",
+          "Quick Attack",
+          "Focus Blast",
+          "Temper Flare"
+        ],
+        "sub_index": 4,
+        "ability": "Galvanize",
+        "sprite": "trainer_sprites/volkner.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 56 Ace Trainer Ray ": {
+        "level": 56,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 519,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Jolly",
+        "moves": [
+          "Zing Zap",
+          "Close Combat",
+          "Protect",
+          "Fire Punch"
+        ],
+        "sub_index": 1,
+        "ability": "Teravolt",
+        "sprite": "trainer_sprites/acetrainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 Veteran Sinan ": {
+        "level": 64,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 643,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Timid",
+        "moves": [
+          "Thunder",
+          "Earthquake",
+          "Rock Slide",
+          "Thunder Wave"
+        ],
+        "sub_index": 1,
+        "ability": "Motor Drive",
+        "sprite": "trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Stoutland": {
       "Lvl 63 Hoopster John2 - Nimbasa City": {
         "level": 63,
@@ -160120,163 +160182,6 @@ backup_data = {
         }
       }
     },
-    "Muk": {
-      "Lvl 61 Scientist Simon ": {
-        "level": 61,
-        "ai": 5,
-        "noCh": false,
-        "tr_id": 99,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Ether",
-        "item": "-",
-        "nature": "Rash",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/scientist.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 48 Policeman Neagle - Route 6": {
-        "level": 48,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 215,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Hardy",
-        "moves": [
-          "Dive",
-          "Poison Jab",
-          "Block",
-          "Thunder"
-        ],
-        "sub_index": 1,
-        "ability": "Water Absorb",
-        "sprite": "trainer_sprites/policeman.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 Artist Horton - Route 5": {
-        "level": 36,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 254,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Docile",
-        "moves": [
-          "Knock Off",
-          "Poison Jab",
-          "Fire Punch",
-          "Sucker Punch"
-        ],
-        "sub_index": 1,
-        "ability": "Poison Touch",
-        "sprite": "trainer_sprites/artist.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 Team Plasma Grunt41 ": {
-        "level": 44,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 585,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Calm",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Team Plasma Grunt46 ": {
-        "level": 47,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 724,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Mild",
-        "moves": [
-          "Sludge Wave",
-          "Acid Armor",
-          "Screech",
-          "Fling"
-        ],
-        "sub_index": 1,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Gastrodon-East": {
       "Lvl 28 Scientist Blythe ": {
         "level": 28,
@@ -161629,6 +161534,70 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Run Away",
+        "sprite": "trainer_sprites/youngster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Zigzagoon": {
+      "Lvl 58 Pokefan Darcy ": {
+        "level": 58,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 108,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Max Potion",
+        "item": "-",
+        "nature": "Gentle",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Pickup",
+        "sprite": "trainer_sprites/pokefanf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 61 Youngster Jimmy - Route 2": {
+        "level": 61,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 401,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Naive",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Pickup",
         "sprite": "trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -173023,9 +172992,9 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Metronome",
-        "nature": "Rash",
+        "nature": "Impish",
         "moves": [
-          "Uproar",
+          "Hyper Voice",
           "-----",
           "-----",
           "-----"
@@ -173061,7 +173030,7 @@ backup_data = {
           "Hex",
           "Will-O-Wisp",
           "Thunder Wave",
-          "Electroweb"
+          "Shock Wave"
         ],
         "sub_index": 2,
         "ability": "Levitate",
@@ -173282,7 +173251,7 @@ backup_data = {
           "Twineedle",
           "Barb Barrage",
           "Rollout",
-          "Toxic Spikes"
+          "Heal Order"
         ],
         "sub_index": 5,
         "ability": "Tenacity",
@@ -193715,7 +193684,7 @@ backup_data = {
           "Knock Off",
           "Dark Pulse",
           "Sludge Bomb",
-          "Submission"
+          "Play Rough"
         ],
         "sub_index": 3,
         "ability": "Exploit",
