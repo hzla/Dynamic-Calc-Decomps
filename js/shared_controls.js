@@ -1342,12 +1342,7 @@ function getTrainerPreviewName(setId) {
 		return ""
 	}
 
-	var trainerName = setId.split(/Lvl [-+]?\d+ /)[1]
-	if (!trainerName) {
-		return ""
-	}
-
-	return trainerName.replace(/\)\[\d+\]$/, "").replace(/\s?\)$/, "").replace(/\s$/, "")
+	return getTrainerName(setId) || ""
 }
 
 function getTrainerPreviewPartnerNameFromSet(setId) {
@@ -1390,6 +1385,14 @@ function getTrainerPreviewPartnerIdFromSet(setId) {
 	}
 
 	return setdex[species][set_name].partner || false
+}
+
+function getTrainerPreviewDataId(setId) {
+	if (typeof setId !== "string" || !setId) {
+		return ""
+	}
+
+	return setId.split("[")[0]
 }
 
 function getTrainerPreviewTrainerIdFromSet(setId) {
@@ -1437,10 +1440,7 @@ function renderTrainerPreviewPok(next_pok) {
 		}
 	}
 
-	var dataID = next_pok[0].split("[")[0]
-	if (next_pok[0].includes($('input.opposing').val()) && settings.noSwitch != "1" && (settings.damageGen >= 3 && settings.damageGen <= 5)){
-		return ""
-	}
+	var dataID = getTrainerPreviewDataId(next_pok[0])
 
 	var isFainted = ""
 	if (fainted.includes(dataID)) {
@@ -1571,12 +1571,16 @@ function refresh_next_in() {
 	var renderedEntries = []
 	var subIndexCounts = {}
 	var selectedOpposingSet = $('input.opposing').val()
+	var selectedOpposingDataId = getTrainerPreviewDataId(selectedOpposingSet)
 	var primaryTrainerName = getTrainerPreviewName(selectedOpposingSet)
 	var primaryTrainerId = getTrainerPreviewTrainerIdFromSet(selectedOpposingSet)
 	var setPartnerId = getTrainerPreviewPartnerIdFromSet(selectedOpposingSet)
 	var resolvedPartnerName = getTrainerPreviewPartnerNameFromSet(selectedOpposingSet) || partnerName
 	var fallbackPartnerNames = []
 	var trainerIdCounts = {}
+	var hideCurrentAiMon = typeof canShowHideCurrentAiMonToggle === "function" &&
+		canShowHideCurrentAiMonToggle() &&
+		localStorage.hideCurrentAiMon == "1"
 
 	
 
@@ -1598,6 +1602,9 @@ function refresh_next_in() {
 		var setId = Array.isArray(nextPok) ? nextPok[0] : null
 		if (typeof setId !== "string" || !setId) {
 			console.warn("Skipping malformed trainer preview entry", nextPok)
+			continue
+		}
+		if (hideCurrentAiMon && selectedOpposingDataId && getTrainerPreviewDataId(setId) === selectedOpposingDataId) {
 			continue
 		}
 
@@ -1784,7 +1791,7 @@ $(".set-selector").change(function () {
 			lastOpposingTrainerIdentity = currentOpposingTrainerIdentity
 		}
 
-		var trName = setName.replace(/^Lvl\s+[+-]?\d+\s+/, "")
+		var trName = stripTrainerLevelPrefix(setName)
 		if (!prevTrainerName) {
 			prevTrainerName = trName
 		} else if (trName == prevTrainerName) {

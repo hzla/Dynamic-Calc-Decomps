@@ -86272,7 +86272,7 @@ backup_data = {
     {
         "Treecko":
         {
-            "Lvl 5 Pokémon Trainer Brendan":
+            "Lvl 5 Pokémon Trainer Brendan ":
             {
                 "evs":
                 {},
@@ -86299,7 +86299,7 @@ backup_data = {
                 "p_id": 252,
                 "nature": "Jolly"
             },
-            "Lvl 5 Pokémon Trainer May":
+            "Lvl 5 Pokémon Trainer May ":
             {
                 "evs":
                 {},
@@ -86443,7 +86443,7 @@ backup_data = {
         },
         "Zigzagoon":
         {
-            "Lvl 6 Youngster Calvin":
+            "Lvl 6 Youngster Calvin ":
             {
                 "evs":
                 {},
@@ -86471,7 +86471,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 144| |~ 51|":
+            "Lvl 5 |~ 144| |~ 51| ":
             {
                 "evs":
                 {},
@@ -86494,7 +86494,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quirky"
             },
-            "Lvl 5 |~ 144| |~ 52|":
+            "Lvl 5 |~ 144| |~ 52| ":
             {
                 "evs":
                 {},
@@ -86517,7 +86517,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quirky"
             },
-            "Lvl 9 Youngster Boom":
+            "Lvl 9 Youngster Boom ":
             {
                 "evs":
                 {},
@@ -86546,7 +86546,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naive"
             },
-            "Lvl 5 Rich Boy |~ 71|":
+            "Lvl 5 Rich Boy |~ 71| ":
             {
                 "evs":
                 {},
@@ -86569,7 +86569,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Pokémon Breeder |~ 72|":
+            "Lvl 5 Pokémon Breeder |~ 72| ":
             {
                 "evs":
                 {},
@@ -86592,7 +86592,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Pokémon Breeder |~ 73|":
+            "Lvl 5 Pokémon Breeder |~ 73| ":
             {
                 "evs":
                 {},
@@ -86615,7 +86615,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Beauty |~ 75|":
+            "Lvl 5 Beauty |~ 75| ":
             {
                 "evs":
                 {},
@@ -86638,7 +86638,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Lax"
             },
-            "Lvl 5 Kindler |~ 82|":
+            "Lvl 5 Kindler |~ 82| ":
             {
                 "evs":
                 {},
@@ -86661,7 +86661,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Kindler |~ 84|":
+            "Lvl 5 Kindler |~ 84| ":
             {
                 "evs":
                 {},
@@ -86684,7 +86684,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Pokémon Breeder |~ 88|":
+            "Lvl 5 Pokémon Breeder |~ 88| ":
             {
                 "evs":
                 {},
@@ -86707,7 +86707,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Picnicker |~ 93|":
+            "Lvl 5 Picnicker |~ 93| ":
             {
                 "evs":
                 {},
@@ -86730,7 +86730,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naive"
             },
-            "Lvl 5 Aroma Lady |~ 101|":
+            "Lvl 5 Aroma Lady |~ 101| ":
             {
                 "evs":
                 {},
@@ -86753,7 +86753,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naive"
             },
-            "Lvl 5 Bird Keeper |~ 116|":
+            "Lvl 5 Bird Keeper |~ 116| ":
             {
                 "evs":
                 {},
@@ -86776,7 +86776,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 Bird Keeper |~ 117|":
+            "Lvl 5 Bird Keeper |~ 117| ":
             {
                 "evs":
                 {},
@@ -86799,7 +86799,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 Ninja Boy |~ 121|":
+            "Lvl 5 Ninja Boy |~ 121| ":
             {
                 "evs":
                 {},
@@ -86822,7 +86822,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Gentle"
             },
-            "Lvl 5 Ninja Boy |~ 122|":
+            "Lvl 5 Ninja Boy |~ 122| ":
             {
                 "evs":
                 {},
@@ -86845,7 +86845,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Gentle"
             },
-            "Lvl 5 Pokémon Breeder |~ 127|":
+            "Lvl 5 Pokémon Breeder |~ 127| ":
             {
                 "evs":
                 {},
@@ -86868,7 +86868,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Poké Maniac |~ 128|":
+            "Lvl 5 Poké Maniac |~ 128| ":
             {
                 "evs":
                 {},
@@ -86891,7 +86891,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Relaxed"
             },
-            "Lvl 5 Psychic |~ 160|":
+            "Lvl 5 Psychic |~ 160| ":
             {
                 "evs":
                 {},
@@ -86914,7 +86914,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Psychic |~ 161|":
+            "Lvl 5 Psychic |~ 161| ":
             {
                 "evs":
                 {},
@@ -86937,7 +86937,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Psychic |~ 162|":
+            "Lvl 5 Psychic |~ 162| ":
             {
                 "evs":
                 {},
@@ -86960,7 +86960,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Triathlete |~ 164|":
+            "Lvl 5 Triathlete |~ 164| ":
             {
                 "evs":
                 {},
@@ -86983,7 +86983,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 Triathlete |~ 166|":
+            "Lvl 5 Triathlete |~ 166| ":
             {
                 "evs":
                 {},
@@ -87006,7 +87006,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 |~ 172| |~ 168|":
+            "Lvl 5 |~ 172| |~ 168| ":
             {
                 "evs":
                 {},
@@ -87029,7 +87029,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 172| |~ 169|":
+            "Lvl 5 |~ 172| |~ 169| ":
             {
                 "evs":
                 {},
@@ -87052,7 +87052,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 172| |~ 170|":
+            "Lvl 5 |~ 172| |~ 170| ":
             {
                 "evs":
                 {},
@@ -87075,7 +87075,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 172| |~ 171|":
+            "Lvl 5 |~ 172| |~ 171| ":
             {
                 "evs":
                 {},
@@ -87098,7 +87098,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 172| |~ 172|":
+            "Lvl 5 |~ 172| |~ 172| ":
             {
                 "evs":
                 {},
@@ -87121,7 +87121,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 Aqua Admin |~ 183|":
+            "Lvl 5 Aqua Admin |~ 183| ":
             {
                 "evs":
                 {},
@@ -87144,7 +87144,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Sassy"
             },
-            "Lvl 5 Team Aqua |~ 188|":
+            "Lvl 5 Team Aqua |~ 188| ":
             {
                 "evs":
                 {},
@@ -87167,7 +87167,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Relaxed"
             },
-            "Lvl 5 Poké Maniac |~ 192|":
+            "Lvl 5 Poké Maniac |~ 192| ":
             {
                 "evs":
                 {},
@@ -87248,7 +87248,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Battle Girl |~ 214|":
+            "Lvl 5 Battle Girl |~ 214| ":
             {
                 "evs":
                 {},
@@ -87271,7 +87271,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Schoolkid |~ 216|":
+            "Lvl 5 Schoolkid |~ 216| ":
             {
                 "evs":
                 {},
@@ -87294,7 +87294,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Gentle"
             },
-            "Lvl 5 Camper |~ 218|":
+            "Lvl 5 Camper |~ 218| ":
             {
                 "evs":
                 {},
@@ -87317,7 +87317,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Relaxed"
             },
-            "Lvl 5 Hiker |~ 220|":
+            "Lvl 5 Hiker |~ 220| ":
             {
                 "evs":
                 {},
@@ -87340,7 +87340,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Serious"
             },
-            "Lvl 5 Bird Keeper |~ 224|":
+            "Lvl 5 Bird Keeper |~ 224| ":
             {
                 "evs":
                 {},
@@ -87363,7 +87363,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 Ace Trainer |~ 229|":
+            "Lvl 5 Ace Trainer |~ 229| ":
             {
                 "evs":
                 {},
@@ -87386,7 +87386,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Ace Trainer |~ 230|":
+            "Lvl 5 Ace Trainer |~ 230| ":
             {
                 "evs":
                 {},
@@ -87409,7 +87409,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Team Magma |~ 245|":
+            "Lvl 5 Team Magma |~ 245| ":
             {
                 "evs":
                 {},
@@ -87432,7 +87432,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Bashful"
             },
-            "Lvl 5 Magma Admin |~ 246|":
+            "Lvl 5 Magma Admin |~ 246| ":
             {
                 "evs":
                 {},
@@ -87455,7 +87455,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Careful"
             },
-            "Lvl 5 Magma Admin |~ 260|":
+            "Lvl 5 Magma Admin |~ 260| ":
             {
                 "evs":
                 {},
@@ -87478,7 +87478,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Adamant"
             },
-            "Lvl 5 Magma Admin |~ 265|":
+            "Lvl 5 Magma Admin |~ 265| ":
             {
                 "evs":
                 {},
@@ -87547,7 +87547,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Hasty"
             },
-            "Lvl 5 Team Aqua |~ 277|":
+            "Lvl 5 Team Aqua |~ 277| ":
             {
                 "evs":
                 {},
@@ -87570,7 +87570,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Relaxed"
             },
-            "Lvl 5 Team Magma |~ 278|":
+            "Lvl 5 Team Magma |~ 278| ":
             {
                 "evs":
                 {},
@@ -87593,7 +87593,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Bashful"
             },
-            "Lvl 5 Twins |~ 282|":
+            "Lvl 5 Twins |~ 282| ":
             {
                 "evs":
                 {},
@@ -87616,7 +87616,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Timid"
             },
-            "Lvl 5 Camper |~ 303|":
+            "Lvl 5 Camper |~ 303| ":
             {
                 "evs":
                 {},
@@ -87639,7 +87639,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Relaxed"
             },
-            "Lvl 5 Picnicker |~ 304|":
+            "Lvl 5 Picnicker |~ 304| ":
             {
                 "evs":
                 {},
@@ -87662,7 +87662,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naive"
             },
-            "Lvl 5 Beauty |~ 313|":
+            "Lvl 5 Beauty |~ 313| ":
             {
                 "evs":
                 {},
@@ -87685,7 +87685,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Lax"
             },
-            "Lvl 5 Ace Trainer |~ 345|":
+            "Lvl 5 Ace Trainer |~ 345| ":
             {
                 "evs":
                 {},
@@ -87708,7 +87708,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Ace Trainer |~ 347|":
+            "Lvl 5 Ace Trainer |~ 347| ":
             {
                 "evs":
                 {},
@@ -87731,7 +87731,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Ace Trainer |~ 349|":
+            "Lvl 5 Ace Trainer |~ 349| ":
             {
                 "evs":
                 {},
@@ -87754,7 +87754,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Impish"
             },
-            "Lvl 5 Ace Trainer |~ 350|":
+            "Lvl 5 Ace Trainer |~ 350| ":
             {
                 "evs":
                 {},
@@ -87777,7 +87777,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Impish"
             },
-            "Lvl 5 Ace Trainer |~ 351|":
+            "Lvl 5 Ace Trainer |~ 351| ":
             {
                 "evs":
                 {},
@@ -87800,7 +87800,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Impish"
             },
-            "Lvl 5 |~ 144| |~ 381|":
+            "Lvl 5 |~ 144| |~ 381| ":
             {
                 "evs":
                 {},
@@ -87823,7 +87823,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quirky"
             },
-            "Lvl 5 |~ 144| |~ 382|":
+            "Lvl 5 |~ 144| |~ 382| ":
             {
                 "evs":
                 {},
@@ -87846,7 +87846,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quirky"
             },
-            "Lvl 5 |~ 144| |~ 383|":
+            "Lvl 5 |~ 144| |~ 383| ":
             {
                 "evs":
                 {},
@@ -87869,7 +87869,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quirky"
             },
-            "Lvl 5 |~ 144| |~ 384|":
+            "Lvl 5 |~ 144| |~ 384| ":
             {
                 "evs":
                 {},
@@ -87892,7 +87892,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quirky"
             },
-            "Lvl 5 Bird Keeper |~ 440|":
+            "Lvl 5 Bird Keeper |~ 440| ":
             {
                 "evs":
                 {},
@@ -87915,7 +87915,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 Psychic |~ 448|":
+            "Lvl 5 Psychic |~ 448| ":
             {
                 "evs":
                 {},
@@ -87938,7 +87938,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Careful"
             },
-            "Lvl 5 Psychic |~ 449|":
+            "Lvl 5 Psychic |~ 449| ":
             {
                 "evs":
                 {},
@@ -87961,7 +87961,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Psychic |~ 450|":
+            "Lvl 5 Psychic |~ 450| ":
             {
                 "evs":
                 {},
@@ -87984,7 +87984,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Psychic |~ 451|":
+            "Lvl 5 Psychic |~ 451| ":
             {
                 "evs":
                 {},
@@ -88007,7 +88007,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Psychic |~ 452|":
+            "Lvl 5 Psychic |~ 452| ":
             {
                 "evs":
                 {},
@@ -88030,7 +88030,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Sailor |~ 455|":
+            "Lvl 5 Sailor |~ 455| ":
             {
                 "evs":
                 {},
@@ -88053,7 +88053,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Relaxed"
             },
-            "Lvl 5 Sailor |~ 456|":
+            "Lvl 5 Sailor |~ 456| ":
             {
                 "evs":
                 {},
@@ -88076,7 +88076,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Relaxed"
             },
-            "Lvl 5 Hex Maniac |~ 464|":
+            "Lvl 5 Hex Maniac |~ 464| ":
             {
                 "evs":
                 {},
@@ -88099,7 +88099,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Dragon Tamer |~ 482|":
+            "Lvl 5 Dragon Tamer |~ 482| ":
             {
                 "evs":
                 {},
@@ -88122,7 +88122,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Dragon Tamer |~ 483|":
+            "Lvl 5 Dragon Tamer |~ 483| ":
             {
                 "evs":
                 {},
@@ -88145,7 +88145,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Triathlete |~ 487|":
+            "Lvl 5 Triathlete |~ 487| ":
             {
                 "evs":
                 {},
@@ -88168,7 +88168,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 |~ 172| |~ 488|":
+            "Lvl 5 |~ 172| |~ 488| ":
             {
                 "evs":
                 {},
@@ -88191,7 +88191,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 172| |~ 489|":
+            "Lvl 5 |~ 172| |~ 489| ":
             {
                 "evs":
                 {},
@@ -88214,7 +88214,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 172| |~ 490|":
+            "Lvl 5 |~ 172| |~ 490| ":
             {
                 "evs":
                 {},
@@ -88237,7 +88237,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 172| |~ 491|":
+            "Lvl 5 |~ 172| |~ 491| ":
             {
                 "evs":
                 {},
@@ -88260,7 +88260,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 |~ 191| |~ 493|":
+            "Lvl 5 |~ 191| |~ 493| ":
             {
                 "evs":
                 {},
@@ -88283,7 +88283,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 |~ 191| |~ 498|":
+            "Lvl 5 |~ 191| |~ 498| ":
             {
                 "evs":
                 {},
@@ -88306,7 +88306,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 |~ 191| |~ 499|":
+            "Lvl 5 |~ 191| |~ 499| ":
             {
                 "evs":
                 {},
@@ -88329,7 +88329,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 |~ 191| |~ 500|":
+            "Lvl 5 |~ 191| |~ 500| ":
             {
                 "evs":
                 {},
@@ -88352,7 +88352,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 |~ 191| |~ 501|":
+            "Lvl 5 |~ 191| |~ 501| ":
             {
                 "evs":
                 {},
@@ -88375,7 +88375,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 Swimmer  |~ 509|":
+            "Lvl 5 Swimmer  |~ 509| ":
             {
                 "evs":
                 {},
@@ -88398,7 +88398,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quirky"
             },
-            "Lvl 5 Swimmer  |~ 510|":
+            "Lvl 5 Swimmer  |~ 510| ":
             {
                 "evs":
                 {},
@@ -88537,7 +88537,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Docile"
             },
-            "Lvl 5 Ace Trainer |~ 536|":
+            "Lvl 5 Ace Trainer |~ 536| ":
             {
                 "evs":
                 {},
@@ -88560,7 +88560,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Impish"
             },
-            "Lvl 5 Ace Trainer |~ 537|":
+            "Lvl 5 Ace Trainer |~ 537| ":
             {
                 "evs":
                 {},
@@ -88583,7 +88583,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Twins |~ 543|":
+            "Lvl 5 Twins |~ 543| ":
             {
                 "evs":
                 {},
@@ -88606,7 +88606,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Timid"
             },
-            "Lvl 5 Sis & Bro |~ 549|":
+            "Lvl 5 Sis & Bro |~ 549| ":
             {
                 "evs":
                 {},
@@ -88629,7 +88629,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Modest"
             },
-            "Lvl 5 Psychic |~ 566|":
+            "Lvl 5 Psychic |~ 566| ":
             {
                 "evs":
                 {},
@@ -88652,7 +88652,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Mild"
             },
-            "Lvl 5 Twins |~ 586|":
+            "Lvl 5 Twins |~ 586| ":
             {
                 "evs":
                 {},
@@ -88675,7 +88675,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Timid"
             },
-            "Lvl 5 Lady |~ 587|":
+            "Lvl 5 Lady |~ 587| ":
             {
                 "evs":
                 {},
@@ -88698,7 +88698,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Bold"
             },
-            "Lvl 5 Lady |~ 588|":
+            "Lvl 5 Lady |~ 588| ":
             {
                 "evs":
                 {},
@@ -88721,7 +88721,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Bold"
             },
-            "Lvl 5 Hiker |~ 589|":
+            "Lvl 5 Hiker |~ 589| ":
             {
                 "evs":
                 {},
@@ -88744,7 +88744,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Serious"
             },
-            "Lvl 5 Hiker |~ 590|":
+            "Lvl 5 Hiker |~ 590| ":
             {
                 "evs":
                 {},
@@ -88767,7 +88767,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Serious"
             },
-            "Lvl 5 Gentleman |~ 612|":
+            "Lvl 5 Gentleman |~ 612| ":
             {
                 "evs":
                 {},
@@ -88790,7 +88790,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Beauty |~ 630|":
+            "Lvl 5 Beauty |~ 630| ":
             {
                 "evs":
                 {},
@@ -88813,7 +88813,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Lax"
             },
-            "Lvl 5 Old Couple |~ 636|":
+            "Lvl 5 Old Couple |~ 636| ":
             {
                 "evs":
                 {},
@@ -88836,7 +88836,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Serious"
             },
-            "Lvl 5 Old Couple |~ 637|":
+            "Lvl 5 Old Couple |~ 637| ":
             {
                 "evs":
                 {},
@@ -88859,7 +88859,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Serious"
             },
-            "Lvl 5 Old Couple |~ 638|":
+            "Lvl 5 Old Couple |~ 638| ":
             {
                 "evs":
                 {},
@@ -89027,7 +89027,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Rash"
             },
-            "Lvl 5 Bug Maniac |~ 665|":
+            "Lvl 5 Bug Maniac |~ 665| ":
             {
                 "evs":
                 {},
@@ -89050,7 +89050,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quiet"
             },
-            "Lvl 5 Dragon Tamer |~ 666|":
+            "Lvl 5 Dragon Tamer |~ 666| ":
             {
                 "evs":
                 {},
@@ -89073,7 +89073,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Proprietor Inver":
+            "Lvl 5 Proprietor Inver ":
             {
                 "evs":
                 {},
@@ -89096,7 +89096,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Sassy"
             },
-            "Lvl 5 Scuba Diver |~ 748|":
+            "Lvl 5 Scuba Diver |~ 748| ":
             {
                 "evs":
                 {},
@@ -89119,7 +89119,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Rash"
             },
-            "Lvl 5 Scuba Diver |~ 749|":
+            "Lvl 5 Scuba Diver |~ 749| ":
             {
                 "evs":
                 {},
@@ -89142,7 +89142,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Rash"
             },
-            "Lvl 5 Free Diver |~ 761|":
+            "Lvl 5 Free Diver |~ 761| ":
             {
                 "evs":
                 {},
@@ -89165,7 +89165,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Modest"
             },
-            "Lvl 5 Free Diver |~ 762|":
+            "Lvl 5 Free Diver |~ 762| ":
             {
                 "evs":
                 {},
@@ -89188,7 +89188,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Modest"
             },
-            "Lvl 5 Fairy Tale Girl |~ 773|":
+            "Lvl 5 Fairy Tale Girl |~ 773| ":
             {
                 "evs":
                 {},
@@ -89211,7 +89211,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Modest"
             },
-            "Lvl 5 Street Thug |~ 797|":
+            "Lvl 5 Street Thug |~ 797| ":
             {
                 "evs":
                 {},
@@ -89234,7 +89234,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Bold"
             },
-            "Lvl 5 Delinquent |~ 805|":
+            "Lvl 5 Delinquent |~ 805| ":
             {
                 "evs":
                 {},
@@ -89257,7 +89257,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Hasty"
             },
-            "Lvl 5 Swimmer  |~ 825|":
+            "Lvl 5 Swimmer  |~ 825| ":
             {
                 "evs":
                 {},
@@ -89280,7 +89280,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Naughty"
             },
-            "Lvl 5 Swimmer  |~ 826|":
+            "Lvl 5 Swimmer  |~ 826| ":
             {
                 "evs":
                 {},
@@ -89303,7 +89303,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Quirky"
             },
-            "Lvl 5 Ace Duo |~ 832|":
+            "Lvl 5 Ace Duo |~ 832| ":
             {
                 "evs":
                 {},
@@ -89326,7 +89326,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 Ace Duo |~ 833|":
+            "Lvl 5 Ace Duo |~ 833| ":
             {
                 "evs":
                 {},
@@ -89349,7 +89349,7 @@ backup_data = {
                 "p_id": 263,
                 "nature": "Calm"
             },
-            "Lvl 5 Ace Duo |~ 834|":
+            "Lvl 5 Ace Duo |~ 834| ":
             {
                 "evs":
                 {},
@@ -89467,7 +89467,7 @@ backup_data = {
         },
         "Wurmple":
         {
-            "Lvl 6 Bug Catcher Rick":
+            "Lvl 6 Bug Catcher Rick ":
             {
                 "evs":
                 {},
@@ -89555,7 +89555,7 @@ backup_data = {
         },
         "Silcoon":
         {
-            "Lvl 8 Bug Catcher Lyle":
+            "Lvl 8 Bug Catcher Lyle ":
             {
                 "evs":
                 {},
@@ -89586,7 +89586,7 @@ backup_data = {
         },
         "Venonat":
         {
-            "Lvl 8 Bug Catcher Lyle":
+            "Lvl 8 Bug Catcher Lyle ":
             {
                 "evs":
                 {},
@@ -89618,7 +89618,7 @@ backup_data = {
         },
         "Spewpa":
         {
-            "Lvl 8 Bug Catcher Lyle":
+            "Lvl 8 Bug Catcher Lyle ":
             {
                 "evs":
                 {},
@@ -89649,7 +89649,7 @@ backup_data = {
         },
         "Skitty":
         {
-            "Lvl 7 Lass Tiana":
+            "Lvl 7 Lass Tiana ":
             {
                 "evs":
                 {},
@@ -89678,7 +89678,7 @@ backup_data = {
                 "p_id": 300,
                 "nature": "Jolly"
             },
-            "Lvl 25 Pokémon Breeder Lydia":
+            "Lvl 25 Pokémon Breeder Lydia ":
             {
                 "evs":
                 {},
@@ -90029,7 +90029,7 @@ backup_data = {
         },
         "Gloom":
         {
-            "Lvl 24 Aroma Lady Daisy":
+            "Lvl 24 Aroma Lady Daisy ":
             {
                 "evs":
                 {},
@@ -90058,7 +90058,7 @@ backup_data = {
                 "p_id": 44,
                 "nature": "Bashful"
             },
-            "Lvl 28 Aroma Lady Shayla":
+            "Lvl 28 Aroma Lady Shayla ":
             {
                 "evs":
                 {},
@@ -90087,7 +90087,7 @@ backup_data = {
                 "p_id": 44,
                 "nature": "Brave"
             },
-            "Lvl 25 Aroma Lady Rose":
+            "Lvl 25 Aroma Lady Rose ":
             {
                 "evs":
                 {},
@@ -90235,7 +90235,7 @@ backup_data = {
         },
         "Roselia":
         {
-            "Lvl 24 Aroma Lady Daisy":
+            "Lvl 24 Aroma Lady Daisy ":
             {
                 "evs":
                 {},
@@ -90264,7 +90264,7 @@ backup_data = {
                 "p_id": 315,
                 "nature": "Naughty"
             },
-            "Lvl 28 Aroma Lady Shayla":
+            "Lvl 28 Aroma Lady Shayla ":
             {
                 "evs":
                 {},
@@ -90293,7 +90293,7 @@ backup_data = {
                 "p_id": 315,
                 "nature": "Jolly"
             },
-            "Lvl 17 Pokémon Ranger Sophia":
+            "Lvl 17 Pokémon Ranger Sophia ":
             {
                 "evs":
                 {},
@@ -90380,7 +90380,7 @@ backup_data = {
                 "p_id": 315,
                 "nature": "Lax"
             },
-            "Lvl 25 Aroma Lady Rose":
+            "Lvl 25 Aroma Lady Rose ":
             {
                 "evs":
                 {},
@@ -90467,7 +90467,7 @@ backup_data = {
                 "p_id": 315,
                 "nature": "Naughty"
             },
-            "Lvl 28 Pokémon Trainer Wally":
+            "Lvl 28 Pokémon Trainer Wally ":
             {
                 "evs":
                 {},
@@ -90499,7 +90499,7 @@ backup_data = {
         },
         "Plusle":
         {
-            "Lvl 24 Twins Amy & Liv":
+            "Lvl 24 Twins Amy & Liv ":
             {
                 "evs":
                 {},
@@ -90644,7 +90644,7 @@ backup_data = {
                 "p_id": 311,
                 "nature": "Modest"
             },
-            "Lvl 25 Poké Fan Isabel":
+            "Lvl 25 Poké Fan Isabel ":
             {
                 "evs":
                 {},
@@ -90821,7 +90821,7 @@ backup_data = {
         },
         "Minun":
         {
-            "Lvl 24 Twins Amy & Liv":
+            "Lvl 24 Twins Amy & Liv ":
             {
                 "evs":
                 {},
@@ -90966,7 +90966,7 @@ backup_data = {
                 "p_id": 312,
                 "nature": "Bold"
             },
-            "Lvl 25 Poké Fan Isabel":
+            "Lvl 25 Poké Fan Isabel ":
             {
                 "evs":
                 {},
@@ -91143,7 +91143,7 @@ backup_data = {
         },
         "Gyarados":
         {
-            "Lvl 25 Fisherman Andrew":
+            "Lvl 25 Fisherman Andrew ":
             {
                 "evs":
                 {},
@@ -91172,7 +91172,7 @@ backup_data = {
                 "p_id": 130,
                 "nature": "Careful"
             },
-            "Lvl 27 Swimmer  Douglas":
+            "Lvl 27 Swimmer  Douglas ":
             {
                 "evs":
                 {},
@@ -91230,7 +91230,7 @@ backup_data = {
                 "p_id": 130,
                 "nature": "Naive"
             },
-            "Lvl 48 Fisherman Barny":
+            "Lvl 48 Fisherman Barny ":
             {
                 "evs":
                 {},
@@ -91346,7 +91346,7 @@ backup_data = {
                 "p_id": 130,
                 "nature": "Bashful"
             },
-            "Lvl 55 Leader Winona":
+            "Lvl 55 Leader Winona ":
             {
                 "evs":
                 {},
@@ -91375,7 +91375,7 @@ backup_data = {
                 "p_id": 130,
                 "nature": "Lonely"
             },
-            "Lvl 48 Aqua Admin Matt":
+            "Lvl 48 Aqua Admin Matt ":
             {
                 "evs":
                 {},
@@ -91404,7 +91404,7 @@ backup_data = {
                 "p_id": 130,
                 "nature": "Naughty"
             },
-            "Lvl 74 Chef BoomXD":
+            "Lvl 74 Chef BoomXD ":
             {
                 "evs":
                 {},
@@ -91433,7 +91433,7 @@ backup_data = {
                 "p_id": 130,
                 "nature": "Hasty"
             },
-            "Lvl 58 Fisherman Finley":
+            "Lvl 58 Fisherman Finley ":
             {
                 "evs":
                 {},
@@ -91465,7 +91465,7 @@ backup_data = {
         },
         "Magikarp":
         {
-            "Lvl 11 Fisherman Ivan":
+            "Lvl 11 Fisherman Ivan ":
             {
                 "evs":
                 {},
@@ -91518,7 +91518,7 @@ backup_data = {
         },
         "Tentacool":
         {
-            "Lvl 11 Fisherman Ivan":
+            "Lvl 11 Fisherman Ivan ":
             {
                 "evs":
                 {},
@@ -91547,7 +91547,7 @@ backup_data = {
                 "p_id": 72,
                 "nature": "Calm"
             },
-            "Lvl 27 Swimmer  Tony":
+            "Lvl 27 Swimmer  Tony ":
             {
                 "evs":
                 {},
@@ -91637,7 +91637,7 @@ backup_data = {
         },
         "Buizel":
         {
-            "Lvl 11 Fisherman Ivan":
+            "Lvl 11 Fisherman Ivan ":
             {
                 "evs":
                 {},
@@ -91669,7 +91669,7 @@ backup_data = {
         },
         "Crawdaunt":
         {
-            "Lvl 37 Fisherman Claude":
+            "Lvl 37 Fisherman Claude ":
             {
                 "evs":
                 {},
@@ -91756,7 +91756,7 @@ backup_data = {
                 "p_id": 342,
                 "nature": "Modest"
             },
-            "Lvl 47 Tuber Charlie":
+            "Lvl 47 Tuber Charlie ":
             {
                 "evs":
                 {},
@@ -91872,7 +91872,7 @@ backup_data = {
                 "p_id": 342,
                 "nature": "Brave"
             },
-            "Lvl 57 Street Thug Hannibal":
+            "Lvl 57 Street Thug Hannibal ":
             {
                 "evs":
                 {},
@@ -91904,7 +91904,7 @@ backup_data = {
         },
         "Wailord":
         {
-            "Lvl 37 Fisherman Claude":
+            "Lvl 37 Fisherman Claude ":
             {
                 "evs":
                 {},
@@ -91933,7 +91933,7 @@ backup_data = {
                 "p_id": 321,
                 "nature": "Lonely"
             },
-            "Lvl 67 Triathlete Chase":
+            "Lvl 67 Triathlete Chase ":
             {
                 "evs":
                 {},
@@ -92078,7 +92078,7 @@ backup_data = {
                 "p_id": 321,
                 "nature": "Modest"
             },
-            "Lvl 48 Aqua Admin Matt":
+            "Lvl 48 Aqua Admin Matt ":
             {
                 "evs":
                 {},
@@ -92223,7 +92223,7 @@ backup_data = {
                 "p_id": 321,
                 "nature": "Modest"
             },
-            "Lvl 74 Chef BoomXD":
+            "Lvl 74 Chef BoomXD ":
             {
                 "evs":
                 {},
@@ -92255,7 +92255,7 @@ backup_data = {
         },
         "Seedot":
         {
-            "Lvl 8 Youngster Billy":
+            "Lvl 8 Youngster Billy ":
             {
                 "evs":
                 {},
@@ -92309,7 +92309,7 @@ backup_data = {
         },
         "Taillow":
         {
-            "Lvl 8 Youngster Billy":
+            "Lvl 8 Youngster Billy ":
             {
                 "evs":
                 {},
@@ -92338,7 +92338,7 @@ backup_data = {
                 "p_id": 276,
                 "nature": "Sassy"
             },
-            "Lvl 26 Pokémon Breeder Isaac":
+            "Lvl 26 Pokémon Breeder Isaac ":
             {
                 "evs":
                 {},
@@ -92512,7 +92512,7 @@ backup_data = {
                 "p_id": 276,
                 "nature": "Adamant"
             },
-            "Lvl 17 Youngster Ham":
+            "Lvl 17 Youngster Ham ":
             {
                 "evs":
                 {},
@@ -92588,7 +92588,7 @@ backup_data = {
         },
         "Patrat":
         {
-            "Lvl 10 Lass Haley":
+            "Lvl 10 Lass Haley ":
             {
                 "evs":
                 {},
@@ -92620,7 +92620,7 @@ backup_data = {
         },
         "Budew":
         {
-            "Lvl 10 Lass Haley":
+            "Lvl 10 Lass Haley ":
             {
                 "evs":
                 {},
@@ -92649,7 +92649,7 @@ backup_data = {
                 "p_id": 406,
                 "nature": "Impish"
             },
-            "Lvl 25 Pokémon Breeder Lydia":
+            "Lvl 25 Pokémon Breeder Lydia ":
             {
                 "evs":
                 {},
@@ -92912,7 +92912,7 @@ backup_data = {
         },
         "Ralts":
         {
-            "Lvl 17 Schoolkid Jerry":
+            "Lvl 17 Schoolkid Jerry ":
             {
                 "evs":
                 {},
@@ -92941,7 +92941,7 @@ backup_data = {
                 "p_id": 280,
                 "nature": "Serious"
             },
-            "Lvl 19 Schoolkid Ted":
+            "Lvl 19 Schoolkid Ted ":
             {
                 "evs":
                 {},
@@ -93071,7 +93071,7 @@ backup_data = {
         },
         "Togepi":
         {
-            "Lvl 17 Schoolkid Karen":
+            "Lvl 17 Schoolkid Karen ":
             {
                 "evs":
                 {},
@@ -93103,7 +93103,7 @@ backup_data = {
         },
         "Surskit":
         {
-            "Lvl 10 Team Aqua Grunt":
+            "Lvl 10 Team Aqua Grunt ":
             {
                 "evs":
                 {},
@@ -93132,7 +93132,7 @@ backup_data = {
                 "p_id": 283,
                 "nature": "Quiet"
             },
-            "Lvl 10 Bug Catcher James":
+            "Lvl 10 Bug Catcher James ":
             {
                 "evs":
                 {},
@@ -93244,7 +93244,7 @@ backup_data = {
         },
         "Poochyena":
         {
-            "Lvl 10 Team Aqua Grunt":
+            "Lvl 10 Team Aqua Grunt ":
             {
                 "evs":
                 {},
@@ -93331,7 +93331,7 @@ backup_data = {
                 "p_id": 261,
                 "nature": "Hardy"
             },
-            "Lvl 5 Youngster Allen":
+            "Lvl 5 Youngster Allen ":
             {
                 "evs":
                 {},
@@ -93475,7 +93475,7 @@ backup_data = {
                 "p_id": 261,
                 "nature": "Careful"
             },
-            "Lvl 14 Team Magma Grunts":
+            "Lvl 14 Team Magma Grunts ":
             {
                 "evs":
                 {},
@@ -93533,7 +93533,7 @@ backup_data = {
                 "p_id": 261,
                 "nature": "Hasty"
             },
-            "Lvl 14 Team Aqua Grunts":
+            "Lvl 14 Team Aqua Grunts ":
             {
                 "evs":
                 {},
@@ -93611,7 +93611,7 @@ backup_data = {
         },
         "Carvanha":
         {
-            "Lvl 10 Team Aqua Grunt":
+            "Lvl 10 Team Aqua Grunt ":
             {
                 "evs":
                 {},
@@ -93727,7 +93727,7 @@ backup_data = {
                 "p_id": 318,
                 "nature": "Careful"
             },
-            "Lvl 21 Ace Duo Pike & Shiel":
+            "Lvl 21 Ace Duo Pike & Shiel ":
             {
                 "evs":
                 {},
@@ -93805,7 +93805,7 @@ backup_data = {
         },
         "Deino":
         {
-            "Lvl 10 Team Aqua Grunt":
+            "Lvl 10 Team Aqua Grunt ":
             {
                 "evs":
                 {},
@@ -93866,7 +93866,7 @@ backup_data = {
                 "p_id": 62,
                 "nature": "Docile"
             },
-            "Lvl 46 Swimmer  Austin":
+            "Lvl 46 Swimmer  Austin ":
             {
                 "evs":
                 {},
@@ -93895,7 +93895,7 @@ backup_data = {
                 "p_id": 62,
                 "nature": "Hasty"
             },
-            "Lvl 62 Sailor Ernest":
+            "Lvl 62 Sailor Ernest ":
             {
                 "evs":
                 {},
@@ -93924,7 +93924,7 @@ backup_data = {
                 "p_id": 62,
                 "nature": "Timid"
             },
-            "Lvl 66 Fisherman Wayne":
+            "Lvl 66 Fisherman Wayne ":
             {
                 "evs":
                 {},
@@ -93956,7 +93956,7 @@ backup_data = {
         },
         "Archen":
         {
-            "Lvl 14 Youngster Tommy":
+            "Lvl 14 Youngster Tommy ":
             {
                 "evs":
                 {},
@@ -93988,7 +93988,7 @@ backup_data = {
         },
         "Rattata":
         {
-            "Lvl 11 Youngster Joey":
+            "Lvl 11 Youngster Joey ":
             {
                 "evs":
                 {},
@@ -94020,7 +94020,7 @@ backup_data = {
         },
         "Machop":
         {
-            "Lvl 11 Youngster Joey":
+            "Lvl 11 Youngster Joey ":
             {
                 "evs":
                 {},
@@ -94049,7 +94049,7 @@ backup_data = {
                 "p_id": 66,
                 "nature": "Sassy"
             },
-            "Lvl 18 Black Belt Yuji":
+            "Lvl 18 Black Belt Yuji ":
             {
                 "evs":
                 {},
@@ -94173,7 +94173,7 @@ backup_data = {
         },
         "Butterfree":
         {
-            "Lvl 11 Bug Catcher Jose":
+            "Lvl 11 Bug Catcher Jose ":
             {
                 "evs":
                 {},
@@ -94204,7 +94204,7 @@ backup_data = {
         },
         "Marill":
         {
-            "Lvl 12 Lass Janice":
+            "Lvl 12 Lass Janice ":
             {
                 "evs":
                 {},
@@ -94233,7 +94233,7 @@ backup_data = {
                 "p_id": 183,
                 "nature": "Modest"
             },
-            "Lvl 21 Tuber Lola":
+            "Lvl 21 Tuber Lola ":
             {
                 "evs":
                 {},
@@ -94262,7 +94262,7 @@ backup_data = {
                 "p_id": 183,
                 "nature": "Serious"
             },
-            "Lvl 25 Pokémon Breeder Lydia":
+            "Lvl 25 Pokémon Breeder Lydia ":
             {
                 "evs":
                 {},
@@ -94410,7 +94410,7 @@ backup_data = {
         },
         "Pelipper":
         {
-            "Lvl 45 Swimmer  Luis":
+            "Lvl 45 Swimmer  Luis ":
             {
                 "evs":
                 {},
@@ -94439,7 +94439,7 @@ backup_data = {
                 "p_id": 279,
                 "nature": "Hasty"
             },
-            "Lvl 27 Swimmer  Beth":
+            "Lvl 27 Swimmer  Beth ":
             {
                 "evs":
                 {},
@@ -94468,7 +94468,7 @@ backup_data = {
                 "p_id": 279,
                 "nature": "Jolly"
             },
-            "Lvl 49 Bird Keeper Perry":
+            "Lvl 49 Bird Keeper Perry ":
             {
                 "evs":
                 {},
@@ -94526,7 +94526,7 @@ backup_data = {
                 "p_id": 279,
                 "nature": "Quiet"
             },
-            "Lvl 70 Lass Andrea":
+            "Lvl 70 Lass Andrea ":
             {
                 "evs":
                 {},
@@ -94555,7 +94555,7 @@ backup_data = {
                 "p_id": 279,
                 "nature": "Gentle"
             },
-            "Lvl 49 Sailor Leonard":
+            "Lvl 49 Sailor Leonard ":
             {
                 "evs":
                 {},
@@ -94903,7 +94903,7 @@ backup_data = {
                 "p_id": 279,
                 "nature": "Docile"
             },
-            "Lvl 66 Free Diver Jillian":
+            "Lvl 66 Free Diver Jillian ":
             {
                 "evs":
                 {},
@@ -94935,7 +94935,7 @@ backup_data = {
         },
         "Tentacruel":
         {
-            "Lvl 45 Swimmer  Luis":
+            "Lvl 45 Swimmer  Luis ":
             {
                 "evs":
                 {},
@@ -94964,7 +94964,7 @@ backup_data = {
                 "p_id": 73,
                 "nature": "Brave"
             },
-            "Lvl 39 Swimmer  Thorn":
+            "Lvl 39 Swimmer  Thorn ":
             {
                 "evs":
                 {},
@@ -95254,7 +95254,7 @@ backup_data = {
                 "p_id": 73,
                 "nature": "Sassy"
             },
-            "Lvl 65 Fisherman Roger":
+            "Lvl 65 Fisherman Roger ":
             {
                 "evs":
                 {},
@@ -95283,7 +95283,7 @@ backup_data = {
                 "p_id": 73,
                 "nature": "Brave"
             },
-            "Lvl 75 Hex Maniac Anathema":
+            "Lvl 75 Hex Maniac Anathema ":
             {
                 "evs":
                 {},
@@ -95315,7 +95315,7 @@ backup_data = {
         },
         "Milotic":
         {
-            "Lvl 45 Swimmer  Beverly":
+            "Lvl 45 Swimmer  Beverly ":
             {
                 "evs":
                 {},
@@ -95344,7 +95344,7 @@ backup_data = {
                 "p_id": 350,
                 "nature": "Naughty"
             },
-            "Lvl 71 Team Aqua Sofas":
+            "Lvl 71 Team Aqua Sofas ":
             {
                 "evs":
                 {},
@@ -95373,7 +95373,7 @@ backup_data = {
                 "p_id": 350,
                 "nature": "Modest"
             },
-            "Lvl 56 Ace Trainer Jennifer":
+            "Lvl 56 Ace Trainer Jennifer ":
             {
                 "evs":
                 {},
@@ -95402,7 +95402,7 @@ backup_data = {
                 "p_id": 350,
                 "nature": "Modest"
             },
-            "Lvl 50 Fisherman Eugene":
+            "Lvl 50 Fisherman Eugene ":
             {
                 "evs":
                 {},
@@ -95431,7 +95431,7 @@ backup_data = {
                 "p_id": 350,
                 "nature": "Docile"
             },
-            "Lvl 66 Tuber Marlene":
+            "Lvl 66 Tuber Marlene ":
             {
                 "evs":
                 {},
@@ -95463,7 +95463,7 @@ backup_data = {
         },
         "Alomomola":
         {
-            "Lvl 45 Swimmer  Dawn":
+            "Lvl 45 Swimmer  Dawn ":
             {
                 "evs":
                 {},
@@ -95492,7 +95492,7 @@ backup_data = {
                 "p_id": 594,
                 "nature": "Naive"
             },
-            "Lvl 68 Swimmer  Kara":
+            "Lvl 68 Swimmer  Kara ":
             {
                 "evs":
                 {},
@@ -95550,7 +95550,7 @@ backup_data = {
                 "p_id": 594,
                 "nature": "Brave"
             },
-            "Lvl 65 Fisherman Henry":
+            "Lvl 65 Fisherman Henry ":
             {
                 "evs":
                 {},
@@ -95582,7 +95582,7 @@ backup_data = {
         },
         "Goldeen":
         {
-            "Lvl 27 Swimmer  Nicole":
+            "Lvl 27 Swimmer  Nicole ":
             {
                 "evs":
                 {},
@@ -95611,7 +95611,7 @@ backup_data = {
                 "p_id": 118,
                 "nature": "Hasty"
             },
-            "Lvl 25 Swimmer  Denise":
+            "Lvl 25 Swimmer  Denise ":
             {
                 "evs":
                 {},
@@ -95640,7 +95640,7 @@ backup_data = {
                 "p_id": 118,
                 "nature": "Quirky"
             },
-            "Lvl 18 Lass Robin":
+            "Lvl 18 Lass Robin ":
             {
                 "evs":
                 {},
@@ -95669,7 +95669,7 @@ backup_data = {
                 "p_id": 118,
                 "nature": "Modest"
             },
-            "Lvl 22 Beauty Johanna":
+            "Lvl 22 Beauty Johanna ":
             {
                 "evs":
                 {},
@@ -95814,7 +95814,7 @@ backup_data = {
                 "p_id": 118,
                 "nature": "Naive"
             },
-            "Lvl 27 Sis & Bro Lisa & Ray":
+            "Lvl 27 Sis & Bro Lisa & Ray ":
             {
                 "evs":
                 {},
@@ -95843,7 +95843,7 @@ backup_data = {
                 "p_id": 118,
                 "nature": "Modest"
             },
-            "Lvl 17 Schoolkid Meena":
+            "Lvl 17 Schoolkid Meena ":
             {
                 "evs":
                 {},
@@ -95931,7 +95931,7 @@ backup_data = {
         },
         "Tympole":
         {
-            "Lvl 18 Fisherman Elliot":
+            "Lvl 18 Fisherman Elliot ":
             {
                 "evs":
                 {},
@@ -95963,7 +95963,7 @@ backup_data = {
         },
         "Skrelp":
         {
-            "Lvl 18 Fisherman Elliot":
+            "Lvl 18 Fisherman Elliot ":
             {
                 "evs":
                 {},
@@ -95992,7 +95992,7 @@ backup_data = {
                 "p_id": 690,
                 "nature": "Modest"
             },
-            "Lvl 22 Sailor Dwayne":
+            "Lvl 22 Sailor Dwayne ":
             {
                 "evs":
                 {},
@@ -96053,7 +96053,7 @@ backup_data = {
         },
         "Wartortle":
         {
-            "Lvl 18 Fisherman Ned":
+            "Lvl 18 Fisherman Ned ":
             {
                 "evs":
                 {},
@@ -96111,7 +96111,7 @@ backup_data = {
                 "p_id": 8,
                 "nature": "Quiet"
             },
-            "Lvl 21 Tuber Ricky":
+            "Lvl 21 Tuber Ricky ":
             {
                 "evs":
                 {},
@@ -96143,7 +96143,7 @@ backup_data = {
         },
         "Slowpoke":
         {
-            "Lvl 18 Fisherman Ned":
+            "Lvl 18 Fisherman Ned ":
             {
                 "evs":
                 {},
@@ -96175,7 +96175,7 @@ backup_data = {
         },
         "Magneton":
         {
-            "Lvl 30 Guitarist Kirk":
+            "Lvl 30 Guitarist Kirk ":
             {
                 "evs":
                 {},
@@ -96204,7 +96204,7 @@ backup_data = {
                 "p_id": 82,
                 "nature": "Relaxed"
             },
-            "Lvl 32 Interviewers Gabby & Ty":
+            "Lvl 32 Interviewers Gabby & Ty ":
             {
                 "evs":
                 {},
@@ -96407,7 +96407,7 @@ backup_data = {
                 "p_id": 82,
                 "nature": "Adamant"
             },
-            "Lvl 31 Leader Wattson":
+            "Lvl 31 Leader Wattson ":
             {
                 "evs":
                 {},
@@ -96439,7 +96439,7 @@ backup_data = {
         },
         "Electrode":
         {
-            "Lvl 30 Guitarist Kirk":
+            "Lvl 30 Guitarist Kirk ":
             {
                 "evs":
                 {},
@@ -96555,7 +96555,7 @@ backup_data = {
                 "p_id": 101,
                 "nature": "Brave"
             },
-            "Lvl 74 Chef BoomXD":
+            "Lvl 74 Chef BoomXD ":
             {
                 "evs":
                 {},
@@ -96587,7 +96587,7 @@ backup_data = {
         },
         "Jolteon":
         {
-            "Lvl 31 Guitarist Shawn":
+            "Lvl 31 Guitarist Shawn ":
             {
                 "evs":
                 {},
@@ -96616,7 +96616,7 @@ backup_data = {
                 "p_id": 135,
                 "nature": "Brave"
             },
-            "Lvl 37 Camper Shane":
+            "Lvl 37 Camper Shane ":
             {
                 "evs":
                 {},
@@ -96645,7 +96645,7 @@ backup_data = {
                 "p_id": 135,
                 "nature": "Quiet"
             },
-            "Lvl 55 Rich Boy Filbert":
+            "Lvl 55 Rich Boy Filbert ":
             {
                 "evs":
                 {},
@@ -96675,7 +96675,7 @@ backup_data = {
         },
         "Lanturn":
         {
-            "Lvl 31 Guitarist Shawn":
+            "Lvl 31 Guitarist Shawn ":
             {
                 "evs":
                 {},
@@ -96704,7 +96704,7 @@ backup_data = {
                 "p_id": 171,
                 "nature": "Hasty"
             },
-            "Lvl 46 Swimmer  Jerome":
+            "Lvl 46 Swimmer  Jerome ":
             {
                 "evs":
                 {},
@@ -96733,7 +96733,7 @@ backup_data = {
                 "p_id": 171,
                 "nature": "Naive"
             },
-            "Lvl 39 Swimmer  Lynn":
+            "Lvl 39 Swimmer  Lynn ":
             {
                 "evs":
                 {},
@@ -96762,7 +96762,7 @@ backup_data = {
                 "p_id": 171,
                 "nature": "Gentle"
             },
-            "Lvl 62 Swimmer  Chad":
+            "Lvl 62 Swimmer  Chad ":
             {
                 "evs":
                 {},
@@ -96791,7 +96791,7 @@ backup_data = {
                 "p_id": 171,
                 "nature": "Bold"
             },
-            "Lvl 70 Lass Andrea":
+            "Lvl 70 Lass Andrea ":
             {
                 "evs":
                 {},
@@ -96820,7 +96820,7 @@ backup_data = {
                 "p_id": 171,
                 "nature": "Quiet"
             },
-            "Lvl 71 Ace Trainer Sunny":
+            "Lvl 71 Ace Trainer Sunny ":
             {
                 "evs":
                 {},
@@ -96849,7 +96849,7 @@ backup_data = {
                 "p_id": 171,
                 "nature": "Modest"
             },
-            "Lvl 31 Leader Wattson":
+            "Lvl 31 Leader Wattson ":
             {
                 "evs":
                 {},
@@ -96878,7 +96878,7 @@ backup_data = {
                 "p_id": 171,
                 "nature": "Modest"
             },
-            "Lvl 55 Rich Boy Filbert":
+            "Lvl 55 Rich Boy Filbert ":
             {
                 "evs":
                 {},
@@ -96908,7 +96908,7 @@ backup_data = {
         },
         "Barboach":
         {
-            "Lvl 27 Swimmer  Darrin":
+            "Lvl 27 Swimmer  Darrin ":
             {
                 "evs":
                 {},
@@ -96937,7 +96937,7 @@ backup_data = {
                 "p_id": 339,
                 "nature": "Modest"
             },
-            "Lvl 26 Fisherman Dale":
+            "Lvl 26 Fisherman Dale ":
             {
                 "evs":
                 {},
@@ -96992,7 +96992,7 @@ backup_data = {
         },
         "Wailmer":
         {
-            "Lvl 25 Swimmer  Denise":
+            "Lvl 25 Swimmer  Denise ":
             {
                 "evs":
                 {},
@@ -97021,7 +97021,7 @@ backup_data = {
                 "p_id": 320,
                 "nature": "Lax"
             },
-            "Lvl 27 Triathlete Caleb":
+            "Lvl 27 Triathlete Caleb ":
             {
                 "evs":
                 {},
@@ -97290,7 +97290,7 @@ backup_data = {
         },
         "Sharpedo":
         {
-            "Lvl 46 Swimmer  Jerome":
+            "Lvl 46 Swimmer  Jerome ":
             {
                 "evs":
                 {},
@@ -97319,7 +97319,7 @@ backup_data = {
                 "p_id": 319,
                 "nature": "Relaxed"
             },
-            "Lvl 71 Swimmer  Franklin":
+            "Lvl 71 Swimmer  Franklin ":
             {
                 "evs":
                 {},
@@ -97464,7 +97464,7 @@ backup_data = {
                 "p_id": 319,
                 "nature": "Jolly"
             },
-            "Lvl 72 Street Thug Mycel":
+            "Lvl 72 Street Thug Mycel ":
             {
                 "evs":
                 {},
@@ -97583,7 +97583,7 @@ backup_data = {
         },
         "Slowbro":
         {
-            "Lvl 47 Swimmer  Matthew":
+            "Lvl 47 Swimmer  Matthew ":
             {
                 "evs":
                 {},
@@ -97641,7 +97641,7 @@ backup_data = {
                 "p_id": 80,
                 "nature": "Lonely"
             },
-            "Lvl 69 Sis & Bro Rell & Ian":
+            "Lvl 69 Sis & Bro Rell & Ian ":
             {
                 "evs":
                 {},
@@ -97670,7 +97670,7 @@ backup_data = {
                 "p_id": 80,
                 "nature": "Modest"
             },
-            "Lvl 63 Free Diver Hollie":
+            "Lvl 63 Free Diver Hollie ":
             {
                 "evs":
                 {},
@@ -97702,7 +97702,7 @@ backup_data = {
         },
         "Vaporeon":
         {
-            "Lvl 46 Swimmer  Tara":
+            "Lvl 46 Swimmer  Tara ":
             {
                 "evs":
                 {},
@@ -97731,7 +97731,7 @@ backup_data = {
                 "p_id": 134,
                 "nature": "Adamant"
             },
-            "Lvl 68 Swimmer  Susie":
+            "Lvl 68 Swimmer  Susie ":
             {
                 "evs":
                 {},
@@ -97789,7 +97789,7 @@ backup_data = {
                 "p_id": 134,
                 "nature": "Brave"
             },
-            "Lvl 55 Lass Suzette":
+            "Lvl 55 Lass Suzette ":
             {
                 "evs":
                 {},
@@ -97819,7 +97819,7 @@ backup_data = {
         },
         "Golduck":
         {
-            "Lvl 46 Swimmer  Missy":
+            "Lvl 46 Swimmer  Missy ":
             {
                 "evs":
                 {},
@@ -97877,7 +97877,7 @@ backup_data = {
                 "p_id": 55,
                 "nature": "Quirky"
             },
-            "Lvl 66 Free Diver Mayu":
+            "Lvl 66 Free Diver Mayu ":
             {
                 "evs":
                 {},
@@ -97967,7 +97967,7 @@ backup_data = {
         },
         "Gastrodon":
         {
-            "Lvl 47 Swimmer  David":
+            "Lvl 47 Swimmer  David ":
             {
                 "evs":
                 {},
@@ -98025,7 +98025,7 @@ backup_data = {
                 "p_id": 423,
                 "nature": "Calm"
             },
-            "Lvl 70 Fisherman Ronald":
+            "Lvl 70 Fisherman Ronald ":
             {
                 "evs":
                 {},
@@ -98173,7 +98173,7 @@ backup_data = {
         },
         "Octillery":
         {
-            "Lvl 47 Swimmer  David":
+            "Lvl 47 Swimmer  David ":
             {
                 "evs":
                 {},
@@ -98202,7 +98202,7 @@ backup_data = {
                 "p_id": 224,
                 "nature": "Docile"
             },
-            "Lvl 65 Swimmer  Brenda":
+            "Lvl 65 Swimmer  Brenda ":
             {
                 "evs":
                 {},
@@ -98260,7 +98260,7 @@ backup_data = {
                 "p_id": 224,
                 "nature": "Modest"
             },
-            "Lvl 69 Beauty Connie":
+            "Lvl 69 Beauty Connie ":
             {
                 "evs":
                 {},
@@ -98350,7 +98350,7 @@ backup_data = {
         },
         "Cloyster":
         {
-            "Lvl 47 Swimmer  Alice":
+            "Lvl 47 Swimmer  Alice ":
             {
                 "evs":
                 {},
@@ -98379,7 +98379,7 @@ backup_data = {
                 "p_id": 91,
                 "nature": "Quiet"
             },
-            "Lvl 68 Swimmer  Herman":
+            "Lvl 68 Swimmer  Herman ":
             {
                 "evs":
                 {},
@@ -98408,7 +98408,7 @@ backup_data = {
                 "p_id": 91,
                 "nature": "Naughty"
             },
-            "Lvl 67 Swimmer  Reed":
+            "Lvl 67 Swimmer  Reed ":
             {
                 "evs":
                 {},
@@ -98437,7 +98437,7 @@ backup_data = {
                 "p_id": 91,
                 "nature": "Sassy"
             },
-            "Lvl 79 Backpacker Grayson":
+            "Lvl 79 Backpacker Grayson ":
             {
                 "evs":
                 {},
@@ -98527,7 +98527,7 @@ backup_data = {
         },
         "Machoke":
         {
-            "Lvl 21 Sailor Huey":
+            "Lvl 21 Sailor Huey ":
             {
                 "evs":
                 {},
@@ -98704,7 +98704,7 @@ backup_data = {
         },
         "Poliwhirl":
         {
-            "Lvl 21 Sailor Huey":
+            "Lvl 21 Sailor Huey ":
             {
                 "evs":
                 {},
@@ -98736,7 +98736,7 @@ backup_data = {
         },
         "Chinchou":
         {
-            "Lvl 21 Sailor Edmond":
+            "Lvl 21 Sailor Edmond ":
             {
                 "evs":
                 {},
@@ -98768,7 +98768,7 @@ backup_data = {
         },
         "Horsea":
         {
-            "Lvl 21 Sailor Edmond":
+            "Lvl 21 Sailor Edmond ":
             {
                 "evs":
                 {},
@@ -98800,7 +98800,7 @@ backup_data = {
         },
         "Corphish":
         {
-            "Lvl 21 Tuber Lola":
+            "Lvl 21 Tuber Lola ":
             {
                 "evs":
                 {},
@@ -98829,7 +98829,7 @@ backup_data = {
                 "p_id": 341,
                 "nature": "Bashful"
             },
-            "Lvl 26 Sis & Bro Lisa & Ray":
+            "Lvl 26 Sis & Bro Lisa & Ray ":
             {
                 "evs":
                 {},
@@ -98884,7 +98884,7 @@ backup_data = {
         },
         "Flaaffy":
         {
-            "Lvl 26 Triathlete Jacob":
+            "Lvl 26 Triathlete Jacob ":
             {
                 "evs":
                 {},
@@ -98916,7 +98916,7 @@ backup_data = {
         },
         "Magnemite":
         {
-            "Lvl 26 Triathlete Jacob":
+            "Lvl 26 Triathlete Jacob ":
             {
                 "evs":
                 {},
@@ -99003,7 +99003,7 @@ backup_data = {
                 "p_id": 81,
                 "nature": "Modest"
             },
-            "Lvl 29 Guitarist Dalton":
+            "Lvl 29 Guitarist Dalton ":
             {
                 "evs":
                 {},
@@ -99133,7 +99133,7 @@ backup_data = {
         },
         "Voltorb":
         {
-            "Lvl 26 Triathlete Anthony":
+            "Lvl 26 Triathlete Anthony ":
             {
                 "evs":
                 {},
@@ -99223,7 +99223,7 @@ backup_data = {
         },
         "Lombre":
         {
-            "Lvl 26 Collector Edwin":
+            "Lvl 26 Collector Edwin ":
             {
                 "evs":
                 {},
@@ -99339,7 +99339,7 @@ backup_data = {
                 "p_id": 271,
                 "nature": "Naughty"
             },
-            "Lvl 21 Tuber Ricky":
+            "Lvl 21 Tuber Ricky ":
             {
                 "evs":
                 {},
@@ -99371,7 +99371,7 @@ backup_data = {
         },
         "Nuzleaf":
         {
-            "Lvl 26 Collector Edwin":
+            "Lvl 26 Collector Edwin ":
             {
                 "evs":
                 {},
@@ -99432,7 +99432,7 @@ backup_data = {
         },
         "Quagsire":
         {
-            "Lvl 26 Fisherman Dale":
+            "Lvl 26 Fisherman Dale ":
             {
                 "evs":
                 {},
@@ -99461,7 +99461,7 @@ backup_data = {
                 "p_id": 195,
                 "nature": "Quiet"
             },
-            "Lvl 67 Swimmer  Tisha":
+            "Lvl 67 Swimmer  Tisha ":
             {
                 "evs":
                 {},
@@ -99493,7 +99493,7 @@ backup_data = {
         },
         "Croagunk":
         {
-            "Lvl 21 Black Belt Hideki":
+            "Lvl 21 Black Belt Hideki ":
             {
                 "evs":
                 {},
@@ -99522,7 +99522,7 @@ backup_data = {
                 "p_id": 453,
                 "nature": "Lax"
             },
-            "Lvl 22 Sailor Dwayne":
+            "Lvl 22 Sailor Dwayne ":
             {
                 "evs":
                 {},
@@ -99554,7 +99554,7 @@ backup_data = {
         },
         "Scraggy":
         {
-            "Lvl 21 Black Belt Hideki":
+            "Lvl 21 Black Belt Hideki ":
             {
                 "evs":
                 {},
@@ -99583,7 +99583,7 @@ backup_data = {
                 "p_id": 559,
                 "nature": "Lonely"
             },
-            "Lvl 22 Leader Brawly":
+            "Lvl 22 Leader Brawly ":
             {
                 "evs":
                 {},
@@ -99615,7 +99615,7 @@ backup_data = {
         },
         "Sawk":
         {
-            "Lvl 71 Black Belt Hitoshi":
+            "Lvl 71 Black Belt Hitoshi ":
             {
                 "evs":
                 {},
@@ -99647,7 +99647,7 @@ backup_data = {
         },
         "Hariyama":
         {
-            "Lvl 70 Black Belt Kiyo":
+            "Lvl 70 Black Belt Kiyo ":
             {
                 "evs":
                 {},
@@ -99676,7 +99676,7 @@ backup_data = {
                 "p_id": 297,
                 "nature": "Jolly"
             },
-            "Lvl 35 Ace Trainer Wilton":
+            "Lvl 35 Ace Trainer Wilton ":
             {
                 "evs":
                 {},
@@ -99705,7 +99705,7 @@ backup_data = {
                 "p_id": 297,
                 "nature": "Quiet"
             },
-            "Lvl 39 Expert Shelby":
+            "Lvl 39 Expert Shelby ":
             {
                 "evs":
                 {},
@@ -99966,7 +99966,7 @@ backup_data = {
                 "p_id": 297,
                 "nature": "Brave"
             },
-            "Lvl 23 Leader Brawly":
+            "Lvl 23 Leader Brawly ":
             {
                 "evs":
                 {},
@@ -100259,7 +100259,7 @@ backup_data = {
         },
         "Monferno":
         {
-            "Lvl 22 Battle Girl Tessa":
+            "Lvl 22 Battle Girl Tessa ":
             {
                 "evs":
                 {},
@@ -100317,7 +100317,7 @@ backup_data = {
                 "p_id": 391,
                 "nature": "Jolly"
             },
-            "Lvl 22 Leader Brawly":
+            "Lvl 22 Leader Brawly ":
             {
                 "evs":
                 {},
@@ -100349,7 +100349,7 @@ backup_data = {
         },
         "Meditite":
         {
-            "Lvl 20 Battle Girl Laura":
+            "Lvl 20 Battle Girl Laura ":
             {
                 "evs":
                 {},
@@ -100378,7 +100378,7 @@ backup_data = {
                 "p_id": 307,
                 "nature": "Brave"
             },
-            "Lvl 17 Battle Girl Cora":
+            "Lvl 17 Battle Girl Cora ":
             {
                 "evs":
                 {},
@@ -100494,7 +100494,7 @@ backup_data = {
                 "p_id": 307,
                 "nature": "Brave"
             },
-            "Lvl 22 Leader Brawly":
+            "Lvl 22 Leader Brawly ":
             {
                 "evs":
                 {},
@@ -100523,7 +100523,7 @@ backup_data = {
                 "p_id": 307,
                 "nature": "Hardy"
             },
-            "Lvl 31 Battle Girl Vivian":
+            "Lvl 31 Battle Girl Vivian ":
             {
                 "evs":
                 {},
@@ -100647,7 +100647,7 @@ backup_data = {
         },
         "Ferrothorn":
         {
-            "Lvl 71 Team Aqua Sofas":
+            "Lvl 71 Team Aqua Sofas ":
             {
                 "evs":
                 {},
@@ -100676,7 +100676,7 @@ backup_data = {
                 "p_id": 598,
                 "nature": "Impish"
             },
-            "Lvl 37 Camper Shane":
+            "Lvl 37 Camper Shane ":
             {
                 "evs":
                 {},
@@ -100705,7 +100705,7 @@ backup_data = {
                 "p_id": 598,
                 "nature": "Calm"
             },
-            "Lvl 70 Leader Wallace":
+            "Lvl 70 Leader Wallace ":
             {
                 "evs":
                 {},
@@ -100853,7 +100853,7 @@ backup_data = {
         },
         "Donphan":
         {
-            "Lvl 71 Team Aqua Sofas":
+            "Lvl 71 Team Aqua Sofas ":
             {
                 "evs":
                 {},
@@ -100882,7 +100882,7 @@ backup_data = {
                 "p_id": 232,
                 "nature": "Brave"
             },
-            "Lvl 44 Black Belt Daisuke":
+            "Lvl 44 Black Belt Daisuke ":
             {
                 "evs":
                 {},
@@ -100914,7 +100914,7 @@ backup_data = {
         },
         "Luxray":
         {
-            "Lvl 71 Team Aqua Sofas":
+            "Lvl 71 Team Aqua Sofas ":
             {
                 "evs":
                 {},
@@ -100943,7 +100943,7 @@ backup_data = {
                 "p_id": 405,
                 "nature": "Naughty"
             },
-            "Lvl 57 Pokémon Ranger Jenna":
+            "Lvl 57 Pokémon Ranger Jenna ":
             {
                 "evs":
                 {},
@@ -101207,7 +101207,7 @@ backup_data = {
         },
         "Golurk":
         {
-            "Lvl 72 Team Aqua Sofas":
+            "Lvl 72 Team Aqua Sofas ":
             {
                 "evs":
                 {},
@@ -101236,7 +101236,7 @@ backup_data = {
                 "p_id": 623,
                 "nature": "Adamant"
             },
-            "Lvl 78 Bird Keeper Byron":
+            "Lvl 78 Bird Keeper Byron ":
             {
                 "evs":
                 {},
@@ -101265,7 +101265,7 @@ backup_data = {
                 "p_id": 623,
                 "nature": "Naughty"
             },
-            "Lvl 65 Ace Trainer Leopold":
+            "Lvl 65 Ace Trainer Leopold ":
             {
                 "evs":
                 {},
@@ -101384,7 +101384,7 @@ backup_data = {
                 "p_id": 6,
                 "nature": "Mild"
             },
-            "Lvl 86 Pokémon Trainer Zinnia":
+            "Lvl 86 Pokémon Trainer Zinnia ":
             {
                 "evs":
                 {},
@@ -101445,7 +101445,7 @@ backup_data = {
         },
         "Charizard-Mega-Y":
         {
-            "Lvl 72 Team Aqua Sofas":
+            "Lvl 72 Team Aqua Sofas ":
             {
                 "evs":
                 {},
@@ -101477,7 +101477,7 @@ backup_data = {
         },
         "Swellow":
         {
-            "Lvl 45 Ace Trainer Randall":
+            "Lvl 45 Ace Trainer Randall ":
             {
                 "evs":
                 {},
@@ -101506,7 +101506,7 @@ backup_data = {
                 "p_id": 277,
                 "nature": "Brave"
             },
-            "Lvl 50 Ace Trainer Phil":
+            "Lvl 50 Ace Trainer Phil ":
             {
                 "evs":
                 {},
@@ -101767,7 +101767,7 @@ backup_data = {
                 "p_id": 277,
                 "nature": "Timid"
             },
-            "Lvl 71 Bird Keeper Alex":
+            "Lvl 71 Bird Keeper Alex ":
             {
                 "evs":
                 {},
@@ -101883,7 +101883,7 @@ backup_data = {
                 "p_id": 277,
                 "nature": "Modest"
             },
-            "Lvl 33 The Winstrates’ Victor":
+            "Lvl 33 The Winstrates’ Victor ":
             {
                 "evs":
                 {},
@@ -102002,7 +102002,7 @@ backup_data = {
         },
         "Tauros":
         {
-            "Lvl 45 Ace Trainer Randall":
+            "Lvl 45 Ace Trainer Randall ":
             {
                 "evs":
                 {},
@@ -102031,7 +102031,7 @@ backup_data = {
                 "p_id": 128,
                 "nature": "Careful"
             },
-            "Lvl 57 Young Couple Dez & Luke":
+            "Lvl 57 Young Couple Dez & Luke ":
             {
                 "evs":
                 {},
@@ -102060,7 +102060,7 @@ backup_data = {
                 "p_id": 128,
                 "nature": "Gentle"
             },
-            "Lvl 51 Young Couple Lea & Jed":
+            "Lvl 51 Young Couple Lea & Jed ":
             {
                 "evs":
                 {},
@@ -102092,7 +102092,7 @@ backup_data = {
         },
         "Delcatty":
         {
-            "Lvl 45 Ace Trainer Parker":
+            "Lvl 45 Ace Trainer Parker ":
             {
                 "evs":
                 {},
@@ -102121,7 +102121,7 @@ backup_data = {
                 "p_id": 301,
                 "nature": "Lonely"
             },
-            "Lvl 48 Poké Fan Colton":
+            "Lvl 48 Poké Fan Colton ":
             {
                 "evs":
                 {},
@@ -102150,7 +102150,7 @@ backup_data = {
                 "p_id": 301,
                 "nature": "Adamant"
             },
-            "Lvl 24 Poké Fan Miguel":
+            "Lvl 24 Poké Fan Miguel ":
             {
                 "evs":
                 {},
@@ -102208,7 +102208,7 @@ backup_data = {
                 "p_id": 301,
                 "nature": "Brave"
             },
-            "Lvl 37 Aqua Admin Shelly":
+            "Lvl 37 Aqua Admin Shelly ":
             {
                 "evs":
                 {},
@@ -102298,7 +102298,7 @@ backup_data = {
         },
         "Raticate":
         {
-            "Lvl 45 Ace Trainer Parker":
+            "Lvl 45 Ace Trainer Parker ":
             {
                 "evs":
                 {},
@@ -102330,7 +102330,7 @@ backup_data = {
         },
         "Blissey":
         {
-            "Lvl 46 Ace Trainer George":
+            "Lvl 46 Ace Trainer George ":
             {
                 "evs":
                 {},
@@ -102362,7 +102362,7 @@ backup_data = {
         },
         "Lickilicky":
         {
-            "Lvl 46 Ace Trainer George":
+            "Lvl 46 Ace Trainer George ":
             {
                 "evs":
                 {},
@@ -102391,7 +102391,7 @@ backup_data = {
                 "p_id": 463,
                 "nature": "Brave"
             },
-            "Lvl 50 Ace Trainer Belladona":
+            "Lvl 50 Ace Trainer Belladona ":
             {
                 "evs":
                 {},
@@ -102449,7 +102449,7 @@ backup_data = {
                 "p_id": 463,
                 "nature": "Calm"
             },
-            "Lvl 65 Street Thug Alfredo":
+            "Lvl 65 Street Thug Alfredo ":
             {
                 "evs":
                 {},
@@ -102478,7 +102478,7 @@ backup_data = {
         },
         "Slaking":
         {
-            "Lvl 46 Ace Trainer Berke":
+            "Lvl 46 Ace Trainer Berke ":
             {
                 "evs":
                 {},
@@ -102594,7 +102594,7 @@ backup_data = {
                 "p_id": 289,
                 "nature": "Bold"
             },
-            "Lvl 47 Leader Norman":
+            "Lvl 47 Leader Norman ":
             {
                 "evs":
                 {},
@@ -102655,7 +102655,7 @@ backup_data = {
         },
         "Linoone":
         {
-            "Lvl 46 Ace Trainer Berke":
+            "Lvl 46 Ace Trainer Berke ":
             {
                 "evs":
                 {},
@@ -102684,7 +102684,7 @@ backup_data = {
                 "p_id": 264,
                 "nature": "Adamant"
             },
-            "Lvl 26 Pokémon Breeder Isaac":
+            "Lvl 26 Pokémon Breeder Isaac ":
             {
                 "evs":
                 {},
@@ -102771,7 +102771,7 @@ backup_data = {
                 "p_id": 264,
                 "nature": "Naughty"
             },
-            "Lvl 49 Lady Cindy":
+            "Lvl 49 Lady Cindy ":
             {
                 "evs":
                 {},
@@ -102800,7 +102800,7 @@ backup_data = {
                 "p_id": 264,
                 "nature": "Mild"
             },
-            "Lvl 49 Rich Boy Winston":
+            "Lvl 49 Rich Boy Winston ":
             {
                 "evs":
                 {},
@@ -103119,7 +103119,7 @@ backup_data = {
                 "p_id": 264,
                 "nature": "Bold"
             },
-            "Lvl 35 Backpacker Deon":
+            "Lvl 35 Backpacker Deon ":
             {
                 "evs":
                 {},
@@ -103151,7 +103151,7 @@ backup_data = {
         },
         "Exploud":
         {
-            "Lvl 45 Ace Trainer Mary":
+            "Lvl 45 Ace Trainer Mary ":
             {
                 "evs":
                 {},
@@ -103296,7 +103296,7 @@ backup_data = {
                 "p_id": 295,
                 "nature": "Careful"
             },
-            "Lvl 46 Leader Norman":
+            "Lvl 46 Leader Norman ":
             {
                 "evs":
                 {},
@@ -103357,7 +103357,7 @@ backup_data = {
         },
         "Wigglytuff":
         {
-            "Lvl 46 Ace Trainer Lori":
+            "Lvl 46 Ace Trainer Lori ":
             {
                 "evs":
                 {},
@@ -103386,7 +103386,7 @@ backup_data = {
                 "p_id": 40,
                 "nature": "Quirky"
             },
-            "Lvl 72 Furisode Girl Waggy":
+            "Lvl 72 Furisode Girl Waggy ":
             {
                 "evs":
                 {},
@@ -103415,7 +103415,7 @@ backup_data = {
                 "p_id": 40,
                 "nature": "Bold"
             },
-            "Lvl 60 Fairy Tale Girl Josephine":
+            "Lvl 60 Fairy Tale Girl Josephine ":
             {
                 "evs":
                 {},
@@ -103444,7 +103444,7 @@ backup_data = {
                 "p_id": 40,
                 "nature": "Calm"
             },
-            "Lvl 57 Fairy Tale Girl Momo":
+            "Lvl 57 Fairy Tale Girl Momo ":
             {
                 "evs":
                 {},
@@ -103473,7 +103473,7 @@ backup_data = {
                 "p_id": 40,
                 "nature": "Relaxed"
             },
-            "Lvl 39 Fairy Tale Girl Nellie":
+            "Lvl 39 Fairy Tale Girl Nellie ":
             {
                 "evs":
                 {},
@@ -103679,7 +103679,7 @@ backup_data = {
         },
         "Porygon2":
         {
-            "Lvl 46 Ace Trainer Lori":
+            "Lvl 46 Ace Trainer Lori ":
             {
                 "evs":
                 {},
@@ -103708,7 +103708,7 @@ backup_data = {
                 "p_id": 233,
                 "nature": "Gentle"
             },
-            "Lvl 37 Poké Maniac Steve":
+            "Lvl 37 Poké Maniac Steve ":
             {
                 "evs":
                 {},
@@ -103737,7 +103737,7 @@ backup_data = {
                 "p_id": 233,
                 "nature": "Calm"
             },
-            "Lvl 31 Youngster Ben":
+            "Lvl 31 Youngster Ben ":
             {
                 "evs":
                 {},
@@ -103769,7 +103769,7 @@ backup_data = {
         },
         "Rapidash":
         {
-            "Lvl 46 Ace Trainer Jody":
+            "Lvl 46 Ace Trainer Jody ":
             {
                 "evs":
                 {},
@@ -103798,7 +103798,7 @@ backup_data = {
                 "p_id": 78,
                 "nature": "Calm"
             },
-            "Lvl 49 Gentleman Tucker":
+            "Lvl 49 Gentleman Tucker ":
             {
                 "evs":
                 {},
@@ -103830,7 +103830,7 @@ backup_data = {
         },
         "Zangoose":
         {
-            "Lvl 46 Ace Trainer Jody":
+            "Lvl 46 Ace Trainer Jody ":
             {
                 "evs":
                 {},
@@ -103859,7 +103859,7 @@ backup_data = {
                 "p_id": 335,
                 "nature": "Hasty"
             },
-            "Lvl 37 Poké Maniac Steve":
+            "Lvl 37 Poké Maniac Steve ":
             {
                 "evs":
                 {},
@@ -103888,7 +103888,7 @@ backup_data = {
                 "p_id": 335,
                 "nature": "Jolly"
             },
-            "Lvl 38 Collector Hector":
+            "Lvl 38 Collector Hector ":
             {
                 "evs":
                 {},
@@ -103917,7 +103917,7 @@ backup_data = {
                 "p_id": 335,
                 "nature": "Modest"
             },
-            "Lvl 46 Leader Norman":
+            "Lvl 46 Leader Norman ":
             {
                 "evs":
                 {},
@@ -103946,7 +103946,7 @@ backup_data = {
                 "p_id": 335,
                 "nature": "Naive"
             },
-            "Lvl 74 Chef BoomXD":
+            "Lvl 74 Chef BoomXD ":
             {
                 "evs":
                 {},
@@ -103975,7 +103975,7 @@ backup_data = {
                 "p_id": 335,
                 "nature": "Impish"
             },
-            "Lvl 47 Ace Trainer Neville":
+            "Lvl 47 Ace Trainer Neville ":
             {
                 "evs":
                 {},
@@ -104123,7 +104123,7 @@ backup_data = {
         },
         "Dragalge":
         {
-            "Lvl 75 Team Magma Rose":
+            "Lvl 75 Team Magma Rose ":
             {
                 "evs":
                 {},
@@ -104210,7 +104210,7 @@ backup_data = {
                 "p_id": 691,
                 "nature": "Docile"
             },
-            "Lvl 80 Elite Four Drake":
+            "Lvl 80 Elite Four Drake ":
             {
                 "evs":
                 {},
@@ -104239,7 +104239,7 @@ backup_data = {
                 "p_id": 691,
                 "nature": "Modest"
             },
-            "Lvl 48 Aqua Admin Matt":
+            "Lvl 48 Aqua Admin Matt ":
             {
                 "evs":
                 {},
@@ -104445,7 +104445,7 @@ backup_data = {
         },
         "Zoroark":
         {
-            "Lvl 75 Team Magma Rose":
+            "Lvl 75 Team Magma Rose ":
             {
                 "evs":
                 {},
@@ -104474,7 +104474,7 @@ backup_data = {
                 "p_id": 571,
                 "nature": "Timid"
             },
-            "Lvl 49 Delinquent Miley":
+            "Lvl 49 Delinquent Miley ":
             {
                 "evs":
                 {},
@@ -104506,7 +104506,7 @@ backup_data = {
         },
         "Blaziken":
         {
-            "Lvl 75 Team Magma Rose":
+            "Lvl 75 Team Magma Rose ":
             {
                 "evs":
                 {},
@@ -104593,7 +104593,7 @@ backup_data = {
                 "p_id": 257,
                 "nature": "Naughty"
             },
-            "Lvl 43 Leader Flannery":
+            "Lvl 43 Leader Flannery ":
             {
                 "evs":
                 {},
@@ -104683,7 +104683,7 @@ backup_data = {
         },
         "Hawlucha":
         {
-            "Lvl 75 Team Magma Rose":
+            "Lvl 75 Team Magma Rose ":
             {
                 "evs":
                 {},
@@ -104712,7 +104712,7 @@ backup_data = {
                 "p_id": 701,
                 "nature": "Lonely"
             },
-            "Lvl 49 Bird Keeper Chester":
+            "Lvl 49 Bird Keeper Chester ":
             {
                 "evs":
                 {},
@@ -104741,7 +104741,7 @@ backup_data = {
                 "p_id": 701,
                 "nature": "Modest"
             },
-            "Lvl 55 Leader Winona":
+            "Lvl 55 Leader Winona ":
             {
                 "evs":
                 {},
@@ -104802,7 +104802,7 @@ backup_data = {
         },
         "Serperior":
         {
-            "Lvl 76 Team Magma Rose":
+            "Lvl 76 Team Magma Rose ":
             {
                 "evs":
                 {},
@@ -104831,7 +104831,7 @@ backup_data = {
                 "p_id": 497,
                 "nature": "Mild"
             },
-            "Lvl 48 Expert Timothy":
+            "Lvl 48 Expert Timothy ":
             {
                 "evs":
                 {},
@@ -104863,7 +104863,7 @@ backup_data = {
         },
         "Scizor":
         {
-            "Lvl 49 Bug Maniac Taylor":
+            "Lvl 49 Bug Maniac Taylor ":
             {
                 "evs":
                 {},
@@ -104892,7 +104892,7 @@ backup_data = {
                 "p_id": 212,
                 "nature": "Serious"
             },
-            "Lvl 67 Aqua Leader Archie":
+            "Lvl 67 Aqua Leader Archie ":
             {
                 "evs":
                 {},
@@ -104921,7 +104921,7 @@ backup_data = {
                 "p_id": 212,
                 "nature": "Adamant"
             },
-            "Lvl 60 Bug Maniac Felix":
+            "Lvl 60 Bug Maniac Felix ":
             {
                 "evs":
                 {},
@@ -105040,7 +105040,7 @@ backup_data = {
         },
         "Scizor-Mega":
         {
-            "Lvl 76 Team Magma Rose":
+            "Lvl 76 Team Magma Rose ":
             {
                 "evs":
                 {},
@@ -105072,7 +105072,7 @@ backup_data = {
         },
         "Staryu":
         {
-            "Lvl 26 Beauty Melissa":
+            "Lvl 26 Beauty Melissa ":
             {
                 "evs":
                 {},
@@ -105133,7 +105133,7 @@ backup_data = {
         },
         "Azumarill":
         {
-            "Lvl 34 The Winstrates’ Vivi":
+            "Lvl 34 The Winstrates’ Vivi ":
             {
                 "evs":
                 {},
@@ -105162,7 +105162,7 @@ backup_data = {
                 "p_id": 184,
                 "nature": "Calm"
             },
-            "Lvl 61 Swimmer  Grace":
+            "Lvl 61 Swimmer  Grace ":
             {
                 "evs":
                 {},
@@ -105191,7 +105191,7 @@ backup_data = {
                 "p_id": 184,
                 "nature": "Careful"
             },
-            "Lvl 71 Swimmer  Debra":
+            "Lvl 71 Swimmer  Debra ":
             {
                 "evs":
                 {},
@@ -105220,7 +105220,7 @@ backup_data = {
                 "p_id": 184,
                 "nature": "Naughty"
             },
-            "Lvl 47 Tuber Gwen":
+            "Lvl 47 Tuber Gwen ":
             {
                 "evs":
                 {},
@@ -105278,7 +105278,7 @@ backup_data = {
                 "p_id": 184,
                 "nature": "Bold"
             },
-            "Lvl 28 Pokémon Trainer Wally":
+            "Lvl 28 Pokémon Trainer Wally ":
             {
                 "evs":
                 {},
@@ -105336,7 +105336,7 @@ backup_data = {
                 "p_id": 184,
                 "nature": "Brave"
             },
-            "Lvl 45 Triathlete Vin":
+            "Lvl 45 Triathlete Vin ":
             {
                 "evs":
                 {},
@@ -105365,7 +105365,7 @@ backup_data = {
                 "p_id": 184,
                 "nature": "Docile"
             },
-            "Lvl 58 Fisherman Timin":
+            "Lvl 58 Fisherman Timin ":
             {
                 "evs":
                 {},
@@ -105571,7 +105571,7 @@ backup_data = {
         },
         "Breloom":
         {
-            "Lvl 34 The Winstrates’ Vivi":
+            "Lvl 34 The Winstrates’ Vivi ":
             {
                 "evs":
                 {},
@@ -105600,7 +105600,7 @@ backup_data = {
                 "p_id": 286,
                 "nature": "Quiet"
             },
-            "Lvl 25 Pokémon Breeder Lydia":
+            "Lvl 25 Pokémon Breeder Lydia ":
             {
                 "evs":
                 {},
@@ -105629,7 +105629,7 @@ backup_data = {
                 "p_id": 286,
                 "nature": "Serious"
             },
-            "Lvl 48 Expert Timothy":
+            "Lvl 48 Expert Timothy ":
             {
                 "evs":
                 {},
@@ -105716,7 +105716,7 @@ backup_data = {
                 "p_id": 286,
                 "nature": "Impish"
             },
-            "Lvl 72 Ace Trainer Elaine":
+            "Lvl 72 Ace Trainer Elaine ":
             {
                 "evs":
                 {},
@@ -106067,7 +106067,7 @@ backup_data = {
         },
         "Steelix":
         {
-            "Lvl 34 Hiker Brice":
+            "Lvl 34 Hiker Brice ":
             {
                 "evs":
                 {},
@@ -106096,7 +106096,7 @@ backup_data = {
                 "p_id": 208,
                 "nature": "Rash"
             },
-            "Lvl 44 Ruin Maniac Drew":
+            "Lvl 44 Ruin Maniac Drew ":
             {
                 "evs":
                 {},
@@ -106128,7 +106128,7 @@ backup_data = {
         },
         "Excadrill":
         {
-            "Lvl 34 Hiker Brice":
+            "Lvl 34 Hiker Brice ":
             {
                 "evs":
                 {},
@@ -106186,7 +106186,7 @@ backup_data = {
                 "p_id": 530,
                 "nature": "Rash"
             },
-            "Lvl 83 Champion Steven":
+            "Lvl 83 Champion Steven ":
             {
                 "evs":
                 {},
@@ -106215,7 +106215,7 @@ backup_data = {
                 "p_id": 530,
                 "nature": "Naughty"
             },
-            "Lvl 52 Pokémon Trainer Steven":
+            "Lvl 52 Pokémon Trainer Steven ":
             {
                 "evs":
                 {},
@@ -106276,7 +106276,7 @@ backup_data = {
         },
         "Lairon":
         {
-            "Lvl 34 Hiker Trent":
+            "Lvl 34 Hiker Trent ":
             {
                 "evs":
                 {},
@@ -106305,7 +106305,7 @@ backup_data = {
                 "p_id": 305,
                 "nature": "Serious"
             },
-            "Lvl 25 Youngster Timmy":
+            "Lvl 25 Youngster Timmy ":
             {
                 "evs":
                 {},
@@ -106395,7 +106395,7 @@ backup_data = {
         },
         "Golett":
         {
-            "Lvl 34 Hiker Trent":
+            "Lvl 34 Hiker Trent ":
             {
                 "evs":
                 {},
@@ -106427,7 +106427,7 @@ backup_data = {
         },
         "Fraxure":
         {
-            "Lvl 34 Camper Larry":
+            "Lvl 34 Camper Larry ":
             {
                 "evs":
                 {},
@@ -106488,7 +106488,7 @@ backup_data = {
         },
         "Hitmonlee":
         {
-            "Lvl 34 Camper Larry":
+            "Lvl 34 Camper Larry ":
             {
                 "evs":
                 {},
@@ -106517,7 +106517,7 @@ backup_data = {
                 "p_id": 106,
                 "nature": "Quirky"
             },
-            "Lvl 78 Black Belt Koji":
+            "Lvl 78 Black Belt Koji ":
             {
                 "evs":
                 {},
@@ -106578,7 +106578,7 @@ backup_data = {
         },
         "Staraptor":
         {
-            "Lvl 34 Picnicker Carol":
+            "Lvl 34 Picnicker Carol ":
             {
                 "evs":
                 {},
@@ -106607,7 +106607,7 @@ backup_data = {
                 "p_id": 398,
                 "nature": "Hasty"
             },
-            "Lvl 74 Butler Riptide":
+            "Lvl 74 Butler Riptide ":
             {
                 "evs":
                 {},
@@ -106665,7 +106665,7 @@ backup_data = {
                 "p_id": 398,
                 "nature": "Modest"
             },
-            "Lvl 46 Leader Norman":
+            "Lvl 46 Leader Norman ":
             {
                 "evs":
                 {},
@@ -106697,7 +106697,7 @@ backup_data = {
         },
         "Ludicolo":
         {
-            "Lvl 34 Picnicker Carol":
+            "Lvl 34 Picnicker Carol ":
             {
                 "evs":
                 {},
@@ -106726,7 +106726,7 @@ backup_data = {
                 "p_id": 272,
                 "nature": "Quiet"
             },
-            "Lvl 63 Swimmer  Cody":
+            "Lvl 63 Swimmer  Cody ":
             {
                 "evs":
                 {},
@@ -106755,7 +106755,7 @@ backup_data = {
                 "p_id": 272,
                 "nature": "Modest"
             },
-            "Lvl 71 Swimmer  Laurel":
+            "Lvl 71 Swimmer  Laurel ":
             {
                 "evs":
                 {},
@@ -106900,7 +106900,7 @@ backup_data = {
                 "p_id": 272,
                 "nature": "Lonely"
             },
-            "Lvl 60 Aroma Lady Carnation":
+            "Lvl 60 Aroma Lady Carnation ":
             {
                 "evs":
                 {},
@@ -106929,7 +106929,7 @@ backup_data = {
                 "p_id": 272,
                 "nature": "Impish"
             },
-            "Lvl 68 Triathlete Karsen":
+            "Lvl 68 Triathlete Karsen ":
             {
                 "evs":
                 {},
@@ -106958,7 +106958,7 @@ backup_data = {
                 "p_id": 272,
                 "nature": "Sassy"
             },
-            "Lvl 73 Expert NPL":
+            "Lvl 73 Expert NPL ":
             {
                 "evs":
                 {},
@@ -107077,7 +107077,7 @@ backup_data = {
         },
         "Typhlosion":
         {
-            "Lvl 40 Kindler Cole":
+            "Lvl 40 Kindler Cole ":
             {
                 "evs":
                 {},
@@ -107164,7 +107164,7 @@ backup_data = {
                 "p_id": 157,
                 "nature": "Docile"
             },
-            "Lvl 44 Ruin Maniac Drew":
+            "Lvl 44 Ruin Maniac Drew ":
             {
                 "evs":
                 {},
@@ -107222,7 +107222,7 @@ backup_data = {
                 "p_id": 157,
                 "nature": "Modest"
             },
-            "Lvl 72 Lady Nora":
+            "Lvl 72 Lady Nora ":
             {
                 "evs":
                 {},
@@ -107283,7 +107283,7 @@ backup_data = {
         },
         "Magmar":
         {
-            "Lvl 40 Kindler Cole":
+            "Lvl 40 Kindler Cole ":
             {
                 "evs":
                 {},
@@ -107315,7 +107315,7 @@ backup_data = {
         },
         "Flareon":
         {
-            "Lvl 40 Kindler Axle":
+            "Lvl 40 Kindler Axle ":
             {
                 "evs":
                 {},
@@ -107344,7 +107344,7 @@ backup_data = {
                 "p_id": 136,
                 "nature": "Quiet"
             },
-            "Lvl 73 Street Thug Mycel":
+            "Lvl 73 Street Thug Mycel ":
             {
                 "evs":
                 {},
@@ -107373,7 +107373,7 @@ backup_data = {
                 "p_id": 136,
                 "nature": "Hasty"
             },
-            "Lvl 55 Ace Trainer Benedict":
+            "Lvl 55 Ace Trainer Benedict ":
             {
                 "evs":
                 {},
@@ -107403,7 +107403,7 @@ backup_data = {
         },
         "Chandelure":
         {
-            "Lvl 41 Kindler Andy":
+            "Lvl 41 Kindler Andy ":
             {
                 "evs":
                 {},
@@ -107432,7 +107432,7 @@ backup_data = {
                 "p_id": 609,
                 "nature": "Mild"
             },
-            "Lvl 72 Furisode Girl Waggy":
+            "Lvl 72 Furisode Girl Waggy ":
             {
                 "evs":
                 {},
@@ -107461,7 +107461,7 @@ backup_data = {
                 "p_id": 609,
                 "nature": "Calm"
             },
-            "Lvl 80 Elite Four Phoebe":
+            "Lvl 80 Elite Four Phoebe ":
             {
                 "evs":
                 {},
@@ -107551,7 +107551,7 @@ backup_data = {
         },
         "Talonflame":
         {
-            "Lvl 41 Kindler Andy":
+            "Lvl 41 Kindler Andy ":
             {
                 "evs":
                 {},
@@ -107641,7 +107641,7 @@ backup_data = {
         },
         "Vibrava":
         {
-            "Lvl 36 Youngster Neal":
+            "Lvl 36 Youngster Neal ":
             {
                 "evs":
                 {},
@@ -107673,7 +107673,7 @@ backup_data = {
         },
         "Sandslash":
         {
-            "Lvl 36 Youngster Neal":
+            "Lvl 36 Youngster Neal ":
             {
                 "evs":
                 {},
@@ -107702,7 +107702,7 @@ backup_data = {
                 "p_id": 28,
                 "nature": "Impish"
             },
-            "Lvl 43 Camper Cliff":
+            "Lvl 43 Camper Cliff ":
             {
                 "evs":
                 {},
@@ -107850,7 +107850,7 @@ backup_data = {
         },
         "Aggron":
         {
-            "Lvl 37 Youngster Dillion":
+            "Lvl 37 Youngster Dillion ":
             {
                 "evs":
                 {},
@@ -107879,7 +107879,7 @@ backup_data = {
                 "p_id": 306,
                 "nature": "Hardy"
             },
-            "Lvl 57 Poké Maniac Mark":
+            "Lvl 57 Poké Maniac Mark ":
             {
                 "evs":
                 {},
@@ -107908,7 +107908,7 @@ backup_data = {
                 "p_id": 306,
                 "nature": "Impish"
             },
-            "Lvl 74 Butler Riptide":
+            "Lvl 74 Butler Riptide ":
             {
                 "evs":
                 {},
@@ -107995,7 +107995,7 @@ backup_data = {
                 "p_id": 306,
                 "nature": "Sassy"
             },
-            "Lvl 65 Black Belt Banting":
+            "Lvl 65 Black Belt Banting ":
             {
                 "evs":
                 {},
@@ -108024,7 +108024,7 @@ backup_data = {
         },
         "Gurdurr":
         {
-            "Lvl 37 Youngster Dillion":
+            "Lvl 37 Youngster Dillion ":
             {
                 "evs":
                 {},
@@ -108053,7 +108053,7 @@ backup_data = {
                 "p_id": 533,
                 "nature": "Gentle"
             },
-            "Lvl 29 Hiker Mike":
+            "Lvl 29 Hiker Mike ":
             {
                 "evs":
                 {},
@@ -108114,7 +108114,7 @@ backup_data = {
         },
         "Wingull":
         {
-            "Lvl 25 Pokémon Breeder Lydia":
+            "Lvl 25 Pokémon Breeder Lydia ":
             {
                 "evs":
                 {},
@@ -108262,7 +108262,7 @@ backup_data = {
         },
         "Gliscor":
         {
-            "Lvl 38 Hiker Lenny":
+            "Lvl 38 Hiker Lenny ":
             {
                 "evs":
                 {},
@@ -108291,7 +108291,7 @@ backup_data = {
                 "p_id": 472,
                 "nature": "Timid"
             },
-            "Lvl 76 Hex Maniac Anathema":
+            "Lvl 76 Hex Maniac Anathema ":
             {
                 "evs":
                 {},
@@ -108323,7 +108323,7 @@ backup_data = {
         },
         "Carbink":
         {
-            "Lvl 38 Hiker Lucas":
+            "Lvl 38 Hiker Lucas ":
             {
                 "evs":
                 {},
@@ -108355,7 +108355,7 @@ backup_data = {
         },
         "Shuckle":
         {
-            "Lvl 38 Hiker Lucas":
+            "Lvl 38 Hiker Lucas ":
             {
                 "evs":
                 {},
@@ -108387,7 +108387,7 @@ backup_data = {
         },
         "Lickitung":
         {
-            "Lvl 37 Poké Maniac Steve":
+            "Lvl 37 Poké Maniac Steve ":
             {
                 "evs":
                 {},
@@ -108419,7 +108419,7 @@ backup_data = {
         },
         "Whimsicott":
         {
-            "Lvl 47 Expert Timothy":
+            "Lvl 47 Expert Timothy ":
             {
                 "evs":
                 {},
@@ -108477,7 +108477,7 @@ backup_data = {
                 "p_id": 547,
                 "nature": "Brave"
             },
-            "Lvl 49 Twins Miu & Yuki":
+            "Lvl 49 Twins Miu & Yuki ":
             {
                 "evs":
                 {},
@@ -108506,7 +108506,7 @@ backup_data = {
                 "p_id": 547,
                 "nature": "Lax"
             },
-            "Lvl 60 Fairy Tale Girl Josephine":
+            "Lvl 60 Fairy Tale Girl Josephine ":
             {
                 "evs":
                 {},
@@ -108535,7 +108535,7 @@ backup_data = {
                 "p_id": 547,
                 "nature": "Jolly"
             },
-            "Lvl 65 Street Thug Pitaha":
+            "Lvl 65 Street Thug Pitaha ":
             {
                 "evs":
                 {},
@@ -108652,7 +108652,7 @@ backup_data = {
         },
         "Sunflora":
         {
-            "Lvl 47 Expert Timothy":
+            "Lvl 47 Expert Timothy ":
             {
                 "evs":
                 {},
@@ -108681,7 +108681,7 @@ backup_data = {
                 "p_id": 192,
                 "nature": "Modest"
             },
-            "Lvl 52 Parasol Lady Clarissa":
+            "Lvl 52 Parasol Lady Clarissa ":
             {
                 "evs":
                 {},
@@ -108739,7 +108739,7 @@ backup_data = {
                 "p_id": 192,
                 "nature": "Rash"
             },
-            "Lvl 42 Leader Flannery":
+            "Lvl 42 Leader Flannery ":
             {
                 "evs":
                 {},
@@ -108771,7 +108771,7 @@ backup_data = {
         },
         "Rotom-Mow":
         {
-            "Lvl 47 Expert Timothy":
+            "Lvl 47 Expert Timothy ":
             {
                 "evs":
                 {},
@@ -108803,7 +108803,7 @@ backup_data = {
         },
         "Rotom-Heat":
         {
-            "Lvl 42 Leader Flannery":
+            "Lvl 42 Leader Flannery ":
             {
                 "evs":
                 {},
@@ -108832,7 +108832,7 @@ backup_data = {
                 "p_id": 479,
                 "nature": "Timid"
             },
-            "Lvl 41 Ace Trainer Zane":
+            "Lvl 41 Ace Trainer Zane ":
             {
                 "evs":
                 {},
@@ -108925,7 +108925,7 @@ backup_data = {
                 "p_id": 479,
                 "nature": "Timid"
             },
-            "Lvl 75 Hex Maniac Anathema":
+            "Lvl 75 Hex Maniac Anathema ":
             {
                 "evs":
                 {},
@@ -108957,7 +108957,7 @@ backup_data = {
         },
         "Lilligant":
         {
-            "Lvl 47 Expert Timothy":
+            "Lvl 47 Expert Timothy ":
             {
                 "evs":
                 {},
@@ -108986,7 +108986,7 @@ backup_data = {
                 "p_id": 549,
                 "nature": "Mild"
             },
-            "Lvl 49 Twins Miu & Yuki":
+            "Lvl 49 Twins Miu & Yuki ":
             {
                 "evs":
                 {},
@@ -109015,7 +109015,7 @@ backup_data = {
                 "p_id": 549,
                 "nature": "Calm"
             },
-            "Lvl 57 Ace Trainer Julie":
+            "Lvl 57 Ace Trainer Julie ":
             {
                 "evs":
                 {},
@@ -109044,7 +109044,7 @@ backup_data = {
                 "p_id": 549,
                 "nature": "Gentle"
             },
-            "Lvl 65 Street Thug Alfredo":
+            "Lvl 65 Street Thug Alfredo ":
             {
                 "evs":
                 {},
@@ -109073,7 +109073,7 @@ backup_data = {
         },
         "Scrafty":
         {
-            "Lvl 48 Black Belt Koichi":
+            "Lvl 48 Black Belt Koichi ":
             {
                 "evs":
                 {},
@@ -109102,7 +109102,7 @@ backup_data = {
                 "p_id": 560,
                 "nature": "Quiet"
             },
-            "Lvl 38 Black Belt Nob":
+            "Lvl 38 Black Belt Nob ":
             {
                 "evs":
                 {},
@@ -109131,7 +109131,7 @@ backup_data = {
                 "p_id": 560,
                 "nature": "Relaxed"
             },
-            "Lvl 34 Street Thug Jaylin":
+            "Lvl 34 Street Thug Jaylin ":
             {
                 "evs":
                 {},
@@ -109160,7 +109160,7 @@ backup_data = {
                 "p_id": 560,
                 "nature": "Quiet"
             },
-            "Lvl 65 Street Thug Wellington":
+            "Lvl 65 Street Thug Wellington ":
             {
                 "evs":
                 {},
@@ -109189,7 +109189,7 @@ backup_data = {
         },
         "Toxicroak":
         {
-            "Lvl 48 Black Belt Koichi":
+            "Lvl 48 Black Belt Koichi ":
             {
                 "evs":
                 {},
@@ -109218,7 +109218,7 @@ backup_data = {
                 "p_id": 454,
                 "nature": "Naive"
             },
-            "Lvl 57 Ninja Boy Keigo":
+            "Lvl 57 Ninja Boy Keigo ":
             {
                 "evs":
                 {},
@@ -109363,7 +109363,7 @@ backup_data = {
                 "p_id": 454,
                 "nature": "Lax"
             },
-            "Lvl 71 Battle Girl Tess":
+            "Lvl 71 Battle Girl Tess ":
             {
                 "evs":
                 {},
@@ -109424,7 +109424,7 @@ backup_data = {
         },
         "Machamp":
         {
-            "Lvl 38 Black Belt Nob":
+            "Lvl 38 Black Belt Nob ":
             {
                 "evs":
                 {},
@@ -109482,7 +109482,7 @@ backup_data = {
                 "p_id": 68,
                 "nature": "Hasty"
             },
-            "Lvl 50 Sailor Phillip":
+            "Lvl 50 Sailor Phillip ":
             {
                 "evs":
                 {},
@@ -109511,7 +109511,7 @@ backup_data = {
                 "p_id": 68,
                 "nature": "Hasty"
             },
-            "Lvl 47 Sailor Duncan":
+            "Lvl 47 Sailor Duncan ":
             {
                 "evs":
                 {},
@@ -109659,7 +109659,7 @@ backup_data = {
         },
         "Gallade":
         {
-            "Lvl 38 Battle Girl Cyndy":
+            "Lvl 38 Battle Girl Cyndy ":
             {
                 "evs":
                 {},
@@ -109688,7 +109688,7 @@ backup_data = {
                 "p_id": 475,
                 "nature": "Bold"
             },
-            "Lvl 57 Psychic William":
+            "Lvl 57 Psychic William ":
             {
                 "evs":
                 {},
@@ -109717,7 +109717,7 @@ backup_data = {
                 "p_id": 475,
                 "nature": "Naughty"
             },
-            "Lvl 65 Leaders Liza & Tate":
+            "Lvl 65 Leaders Liza & Tate ":
             {
                 "evs":
                 {},
@@ -109749,7 +109749,7 @@ backup_data = {
         },
         "Zweilous":
         {
-            "Lvl 38 Collector Hector":
+            "Lvl 38 Collector Hector ":
             {
                 "evs":
                 {},
@@ -109781,7 +109781,7 @@ backup_data = {
         },
         "Fearow":
         {
-            "Lvl 49 Bird Keeper Perry":
+            "Lvl 49 Bird Keeper Perry ":
             {
                 "evs":
                 {},
@@ -109871,7 +109871,7 @@ backup_data = {
         },
         "Yanmega":
         {
-            "Lvl 50 Bug Maniac Brent":
+            "Lvl 50 Bug Maniac Brent ":
             {
                 "evs":
                 {},
@@ -109900,7 +109900,7 @@ backup_data = {
                 "p_id": 469,
                 "nature": "Quirky"
             },
-            "Lvl 56 Bug Maniac Brandon":
+            "Lvl 56 Bug Maniac Brandon ":
             {
                 "evs":
                 {},
@@ -109929,7 +109929,7 @@ backup_data = {
                 "p_id": 469,
                 "nature": "Bashful"
             },
-            "Lvl 74 Butler Riptide":
+            "Lvl 74 Butler Riptide ":
             {
                 "evs":
                 {},
@@ -109958,7 +109958,7 @@ backup_data = {
                 "p_id": 469,
                 "nature": "Timid"
             },
-            "Lvl 91 Lorekeeper Zinnia":
+            "Lvl 91 Lorekeeper Zinnia ":
             {
                 "evs":
                 {},
@@ -109990,7 +109990,7 @@ backup_data = {
         },
         "Heracross":
         {
-            "Lvl 50 Bug Maniac Brent":
+            "Lvl 50 Bug Maniac Brent ":
             {
                 "evs":
                 {},
@@ -110019,7 +110019,7 @@ backup_data = {
                 "p_id": 214,
                 "nature": "Sassy"
             },
-            "Lvl 57 Black Belt Atsushi":
+            "Lvl 57 Black Belt Atsushi ":
             {
                 "evs":
                 {},
@@ -110048,7 +110048,7 @@ backup_data = {
                 "p_id": 214,
                 "nature": "Hasty"
             },
-            "Lvl 78 Bird Keeper Byron":
+            "Lvl 78 Bird Keeper Byron ":
             {
                 "evs":
                 {},
@@ -110077,7 +110077,7 @@ backup_data = {
                 "p_id": 214,
                 "nature": "Hasty"
             },
-            "Lvl 60 Bug Maniac Felix":
+            "Lvl 60 Bug Maniac Felix ":
             {
                 "evs":
                 {},
@@ -110196,7 +110196,7 @@ backup_data = {
         },
         "Pinsir":
         {
-            "Lvl 49 Bug Maniac Donald":
+            "Lvl 49 Bug Maniac Donald ":
             {
                 "evs":
                 {},
@@ -110225,7 +110225,7 @@ backup_data = {
                 "p_id": 127,
                 "nature": "Impish"
             },
-            "Lvl 29 Bug Maniac Derek":
+            "Lvl 29 Bug Maniac Derek ":
             {
                 "evs":
                 {},
@@ -110341,7 +110341,7 @@ backup_data = {
                 "p_id": 127,
                 "nature": "Timid"
             },
-            "Lvl 60 Bug Maniac Felix":
+            "Lvl 60 Bug Maniac Felix ":
             {
                 "evs":
                 {},
@@ -110460,7 +110460,7 @@ backup_data = {
         },
         "Scolipede":
         {
-            "Lvl 49 Bug Catcher Doug":
+            "Lvl 49 Bug Catcher Doug ":
             {
                 "evs":
                 {},
@@ -110666,7 +110666,7 @@ backup_data = {
         },
         "Leavanny":
         {
-            "Lvl 49 Bug Catcher Doug":
+            "Lvl 49 Bug Catcher Doug ":
             {
                 "evs":
                 {},
@@ -110695,7 +110695,7 @@ backup_data = {
                 "p_id": 542,
                 "nature": "Relaxed"
             },
-            "Lvl 73 Lady Nora":
+            "Lvl 73 Lady Nora ":
             {
                 "evs":
                 {},
@@ -110843,7 +110843,7 @@ backup_data = {
         },
         "Ariados":
         {
-            "Lvl 49 Bug Catcher Greg":
+            "Lvl 49 Bug Catcher Greg ":
             {
                 "evs":
                 {},
@@ -110904,7 +110904,7 @@ backup_data = {
         },
         "Dustox":
         {
-            "Lvl 49 Bug Catcher Kent":
+            "Lvl 49 Bug Catcher Kent ":
             {
                 "evs":
                 {},
@@ -110933,7 +110933,7 @@ backup_data = {
                 "p_id": 269,
                 "nature": "Sassy"
             },
-            "Lvl 48 Young Couple Mel & Paul":
+            "Lvl 48 Young Couple Mel & Paul ":
             {
                 "evs":
                 {},
@@ -110962,7 +110962,7 @@ backup_data = {
                 "p_id": 269,
                 "nature": "Modest"
             },
-            "Lvl 72 Street Thug Mycel":
+            "Lvl 72 Street Thug Mycel ":
             {
                 "evs":
                 {},
@@ -110994,7 +110994,7 @@ backup_data = {
         },
         "Tropius":
         {
-            "Lvl 50 Pokémon Ranger Jackson":
+            "Lvl 50 Pokémon Ranger Jackson ":
             {
                 "evs":
                 {},
@@ -111023,7 +111023,7 @@ backup_data = {
                 "p_id": 357,
                 "nature": "Lonely"
             },
-            "Lvl 65 Street Thug Soyer":
+            "Lvl 65 Street Thug Soyer ":
             {
                 "evs":
                 {},
@@ -111052,7 +111052,7 @@ backup_data = {
         },
         "Torterra":
         {
-            "Lvl 50 Pokémon Ranger Catherine":
+            "Lvl 50 Pokémon Ranger Catherine ":
             {
                 "evs":
                 {},
@@ -111110,7 +111110,7 @@ backup_data = {
                 "p_id": 389,
                 "nature": "Jolly"
             },
-            "Lvl 56 Ace Trainer Jennifer":
+            "Lvl 56 Ace Trainer Jennifer ":
             {
                 "evs":
                 {},
@@ -111200,7 +111200,7 @@ backup_data = {
         },
         "Garbodor":
         {
-            "Lvl 50 Ace Trainer Belladona":
+            "Lvl 50 Ace Trainer Belladona ":
             {
                 "evs":
                 {},
@@ -111229,7 +111229,7 @@ backup_data = {
                 "p_id": 569,
                 "nature": "Careful"
             },
-            "Lvl 57 Street Thug Hannibal":
+            "Lvl 57 Street Thug Hannibal ":
             {
                 "evs":
                 {},
@@ -111261,7 +111261,7 @@ backup_data = {
         },
         "Seviper":
         {
-            "Lvl 50 Ace Trainer Belladona":
+            "Lvl 50 Ace Trainer Belladona ":
             {
                 "evs":
                 {},
@@ -111464,7 +111464,7 @@ backup_data = {
                 "p_id": 336,
                 "nature": "Careful"
             },
-            "Lvl 57 Beauty Jessica":
+            "Lvl 57 Beauty Jessica ":
             {
                 "evs":
                 {},
@@ -111580,7 +111580,7 @@ backup_data = {
                 "p_id": 336,
                 "nature": "Hasty"
             },
-            "Lvl 47 Ace Trainer Constance":
+            "Lvl 47 Ace Trainer Constance ":
             {
                 "evs":
                 {},
@@ -111612,7 +111612,7 @@ backup_data = {
         },
         "Qwilfish":
         {
-            "Lvl 50 Ace Trainer Belladona":
+            "Lvl 50 Ace Trainer Belladona ":
             {
                 "evs":
                 {},
@@ -111641,7 +111641,7 @@ backup_data = {
                 "p_id": 211,
                 "nature": "Adamant"
             },
-            "Lvl 48 Sailor Phillip":
+            "Lvl 48 Sailor Phillip ":
             {
                 "evs":
                 {},
@@ -111670,7 +111670,7 @@ backup_data = {
                 "p_id": 211,
                 "nature": "Quirky"
             },
-            "Lvl 66 Triathlete Jaylon":
+            "Lvl 66 Triathlete Jaylon ":
             {
                 "evs":
                 {},
@@ -111699,7 +111699,7 @@ backup_data = {
                 "p_id": 211,
                 "nature": "Bold"
             },
-            "Lvl 65 Triathlete Denzel":
+            "Lvl 65 Triathlete Denzel ":
             {
                 "evs":
                 {},
@@ -111760,7 +111760,7 @@ backup_data = {
         },
         "Gengar":
         {
-            "Lvl 50 Ace Trainer Belladona":
+            "Lvl 50 Ace Trainer Belladona ":
             {
                 "evs":
                 {},
@@ -111789,7 +111789,7 @@ backup_data = {
                 "p_id": 94,
                 "nature": "Modest"
             },
-            "Lvl 57 Hex Maniac Tammy":
+            "Lvl 57 Hex Maniac Tammy ":
             {
                 "evs":
                 {},
@@ -111818,7 +111818,7 @@ backup_data = {
                 "p_id": 94,
                 "nature": "Relaxed"
             },
-            "Lvl 58 Mysterious Sisters Elle & Aya":
+            "Lvl 58 Mysterious Sisters Elle & Aya ":
             {
                 "evs":
                 {},
@@ -111850,7 +111850,7 @@ backup_data = {
         },
         "Venusaur":
         {
-            "Lvl 57 Pokémon Ranger Carlos":
+            "Lvl 57 Pokémon Ranger Carlos ":
             {
                 "evs":
                 {},
@@ -111969,7 +111969,7 @@ backup_data = {
         },
         "Venusaur-Mega":
         {
-            "Lvl 51 Ace Trainer Belladona":
+            "Lvl 51 Ace Trainer Belladona ":
             {
                 "evs":
                 {},
@@ -112001,7 +112001,7 @@ backup_data = {
         },
         "Dodrio":
         {
-            "Lvl 50 Ace Trainer Phil":
+            "Lvl 50 Ace Trainer Phil ":
             {
                 "evs":
                 {},
@@ -112112,7 +112112,7 @@ backup_data = {
                 "p_id": 85,
                 "nature": "Jolly"
             },
-            "Lvl 54 Picnicker Kylee":
+            "Lvl 54 Picnicker Kylee ":
             {
                 "evs":
                 {},
@@ -112141,7 +112141,7 @@ backup_data = {
                 "p_id": 85,
                 "nature": "Careful"
             },
-            "Lvl 44 Ruin Maniac Drew":
+            "Lvl 44 Ruin Maniac Drew ":
             {
                 "evs":
                 {},
@@ -112173,7 +112173,7 @@ backup_data = {
         },
         "Shedinja":
         {
-            "Lvl 53 Ninja Boy Yasu":
+            "Lvl 53 Ninja Boy Yasu ":
             {
                 "evs":
                 {},
@@ -112202,7 +112202,7 @@ backup_data = {
                 "p_id": 292,
                 "nature": "Mild"
             },
-            "Lvl 37 Ninja Boy Lung":
+            "Lvl 37 Ninja Boy Lung ":
             {
                 "evs":
                 {},
@@ -112231,7 +112231,7 @@ backup_data = {
                 "p_id": 292,
                 "nature": "Bashful"
             },
-            "Lvl 73 Expert NPL":
+            "Lvl 73 Expert NPL ":
             {
                 "evs":
                 {},
@@ -112260,7 +112260,7 @@ backup_data = {
                 "p_id": 292,
                 "nature": "Lonely"
             },
-            "Lvl 55 Ace Trainer Melba":
+            "Lvl 55 Ace Trainer Melba ":
             {
                 "evs":
                 {},
@@ -112290,7 +112290,7 @@ backup_data = {
         },
         "Accelgor":
         {
-            "Lvl 50 Ninja Boy Takashi":
+            "Lvl 50 Ninja Boy Takashi ":
             {
                 "evs":
                 {},
@@ -112319,7 +112319,7 @@ backup_data = {
                 "p_id": 617,
                 "nature": "Naive"
             },
-            "Lvl 80 Elite Four Sidney":
+            "Lvl 80 Elite Four Sidney ":
             {
                 "evs":
                 {},
@@ -112351,7 +112351,7 @@ backup_data = {
         },
         "Skarmory":
         {
-            "Lvl 54 Bird Keeper Jared":
+            "Lvl 54 Bird Keeper Jared ":
             {
                 "evs":
                 {},
@@ -112380,7 +112380,7 @@ backup_data = {
                 "p_id": 227,
                 "nature": "Hasty"
             },
-            "Lvl 74 Butler Riptide":
+            "Lvl 74 Butler Riptide ":
             {
                 "evs":
                 {},
@@ -112409,7 +112409,7 @@ backup_data = {
                 "p_id": 227,
                 "nature": "Careful"
             },
-            "Lvl 57 Ace Trainer Clyde":
+            "Lvl 57 Ace Trainer Clyde ":
             {
                 "evs":
                 {},
@@ -112441,7 +112441,7 @@ backup_data = {
         },
         "Honchkrow":
         {
-            "Lvl 55 Bird Keeper Will":
+            "Lvl 55 Bird Keeper Will ":
             {
                 "evs":
                 {},
@@ -112470,7 +112470,7 @@ backup_data = {
                 "p_id": 430,
                 "nature": "Serious"
             },
-            "Lvl 71 Bird Keeper Beck":
+            "Lvl 71 Bird Keeper Beck ":
             {
                 "evs":
                 {},
@@ -112560,7 +112560,7 @@ backup_data = {
         },
         "Togekiss":
         {
-            "Lvl 55 Bird Keeper Will":
+            "Lvl 55 Bird Keeper Will ":
             {
                 "evs":
                 {},
@@ -112589,7 +112589,7 @@ backup_data = {
                 "p_id": 468,
                 "nature": "Careful"
             },
-            "Lvl 72 Ace Trainer Elaine":
+            "Lvl 72 Ace Trainer Elaine ":
             {
                 "evs":
                 {},
@@ -112618,7 +112618,7 @@ backup_data = {
                 "p_id": 468,
                 "nature": "Careful"
             },
-            "Lvl 75 Fare Prince Trencherman":
+            "Lvl 75 Fare Prince Trencherman ":
             {
                 "evs":
                 {},
@@ -112647,7 +112647,7 @@ backup_data = {
         },
         "Mandibuzz":
         {
-            "Lvl 53 Bird Keeper Colin":
+            "Lvl 53 Bird Keeper Colin ":
             {
                 "evs":
                 {},
@@ -112676,7 +112676,7 @@ backup_data = {
                 "p_id": 630,
                 "nature": "Rash"
             },
-            "Lvl 80 Elite Four Sidney":
+            "Lvl 80 Elite Four Sidney ":
             {
                 "evs":
                 {},
@@ -112705,7 +112705,7 @@ backup_data = {
                 "p_id": 630,
                 "nature": "Impish"
             },
-            "Lvl 57 Delinquent Kylie":
+            "Lvl 57 Delinquent Kylie ":
             {
                 "evs":
                 {},
@@ -112737,7 +112737,7 @@ backup_data = {
         },
         "Braviary":
         {
-            "Lvl 53 Bird Keeper Robert":
+            "Lvl 53 Bird Keeper Robert ":
             {
                 "evs":
                 {},
@@ -112766,7 +112766,7 @@ backup_data = {
                 "p_id": 628,
                 "nature": "Naughty"
             },
-            "Lvl 51 Gentleman Thomas":
+            "Lvl 51 Gentleman Thomas ":
             {
                 "evs":
                 {},
@@ -112798,7 +112798,7 @@ backup_data = {
         },
         "Pyroar":
         {
-            "Lvl 57 Pokémon Ranger Carlos":
+            "Lvl 57 Pokémon Ranger Carlos ":
             {
                 "evs":
                 {},
@@ -112827,7 +112827,7 @@ backup_data = {
                 "p_id": 668,
                 "nature": "Relaxed"
             },
-            "Lvl 49 Lady Cindy":
+            "Lvl 49 Lady Cindy ":
             {
                 "evs":
                 {},
@@ -112856,7 +112856,7 @@ backup_data = {
                 "p_id": 668,
                 "nature": "Lax"
             },
-            "Lvl 49 Rich Boy Winston":
+            "Lvl 49 Rich Boy Winston ":
             {
                 "evs":
                 {},
@@ -112885,7 +112885,7 @@ backup_data = {
                 "p_id": 668,
                 "nature": "Mild"
             },
-            "Lvl 41 Ninja Boy Shoji":
+            "Lvl 41 Ninja Boy Shoji ":
             {
                 "evs":
                 {},
@@ -112917,7 +112917,7 @@ backup_data = {
         },
         "Empoleon":
         {
-            "Lvl 57 Pokémon Ranger Jenna":
+            "Lvl 57 Pokémon Ranger Jenna ":
             {
                 "evs":
                 {},
@@ -113004,7 +113004,7 @@ backup_data = {
                 "p_id": 395,
                 "nature": "Quiet"
             },
-            "Lvl 61 Sis & Bro Rita & Sam":
+            "Lvl 61 Sis & Bro Rita & Sam ":
             {
                 "evs":
                 {},
@@ -113152,7 +113152,7 @@ backup_data = {
         },
         "Mothim":
         {
-            "Lvl 56 Bug Maniac Brandon":
+            "Lvl 56 Bug Maniac Brandon ":
             {
                 "evs":
                 {},
@@ -113184,7 +113184,7 @@ backup_data = {
         },
         "Loudred":
         {
-            "Lvl 26 Pokémon Breeder Isaac":
+            "Lvl 26 Pokémon Breeder Isaac ":
             {
                 "evs":
                 {},
@@ -113213,7 +113213,7 @@ backup_data = {
                 "p_id": 294,
                 "nature": "Sassy"
             },
-            "Lvl 32 Interviewers Gabby & Ty":
+            "Lvl 32 Interviewers Gabby & Ty ":
             {
                 "evs":
                 {},
@@ -113448,7 +113448,7 @@ backup_data = {
         },
         "Aron":
         {
-            "Lvl 26 Pokémon Breeder Isaac":
+            "Lvl 26 Pokémon Breeder Isaac ":
             {
                 "evs":
                 {},
@@ -113477,7 +113477,7 @@ backup_data = {
                 "p_id": 304,
                 "nature": "Sassy"
             },
-            "Lvl 18 Pokémon Ranger Sebastian":
+            "Lvl 18 Pokémon Ranger Sebastian ":
             {
                 "evs":
                 {},
@@ -113622,7 +113622,7 @@ backup_data = {
                 "p_id": 304,
                 "nature": "Quirky"
             },
-            "Lvl 5 Secret Base Trainer Grunt":
+            "Lvl 5 Secret Base Trainer Grunt ":
             {
                 "evs":
                 {},
@@ -113671,7 +113671,7 @@ backup_data = {
         },
         "Mightyena":
         {
-            "Lvl 26 Pokémon Breeder Isaac":
+            "Lvl 26 Pokémon Breeder Isaac ":
             {
                 "evs":
                 {},
@@ -113700,7 +113700,7 @@ backup_data = {
                 "p_id": 262,
                 "nature": "Careful"
             },
-            "Lvl 41 Magma Leader Maxie":
+            "Lvl 41 Magma Leader Maxie ":
             {
                 "evs":
                 {},
@@ -114048,7 +114048,7 @@ backup_data = {
                 "p_id": 262,
                 "nature": "Rash"
             },
-            "Lvl 25 Youngster Timmy":
+            "Lvl 25 Youngster Timmy ":
             {
                 "evs":
                 {},
@@ -114134,7 +114134,7 @@ backup_data = {
                 "p_id": 262,
                 "nature": "Timid"
             },
-            "Lvl 23 Magma Admin Tabitha":
+            "Lvl 23 Magma Admin Tabitha ":
             {
                 "evs":
                 {},
@@ -114163,7 +114163,7 @@ backup_data = {
                 "p_id": 262,
                 "nature": "Timid"
             },
-            "Lvl 34 Street Thug Jaylin":
+            "Lvl 34 Street Thug Jaylin ":
             {
                 "evs":
                 {},
@@ -114192,7 +114192,7 @@ backup_data = {
                 "p_id": 262,
                 "nature": "Bold"
             },
-            "Lvl 49 Delinquent Miley":
+            "Lvl 49 Delinquent Miley ":
             {
                 "evs":
                 {},
@@ -114311,7 +114311,7 @@ backup_data = {
         },
         "Haxorus":
         {
-            "Lvl 71 Dragon Tamer Nicolas":
+            "Lvl 71 Dragon Tamer Nicolas ":
             {
                 "evs":
                 {},
@@ -114369,7 +114369,7 @@ backup_data = {
                 "p_id": 612,
                 "nature": "Serious"
             },
-            "Lvl 80 Elite Four Drake":
+            "Lvl 80 Elite Four Drake ":
             {
                 "evs":
                 {},
@@ -114398,7 +114398,7 @@ backup_data = {
                 "p_id": 612,
                 "nature": "Adamant"
             },
-            "Lvl 91 Lorekeeper Zinnia":
+            "Lvl 91 Lorekeeper Zinnia ":
             {
                 "evs":
                 {},
@@ -114459,7 +114459,7 @@ backup_data = {
         },
         "Dewgong":
         {
-            "Lvl 61 Swimmer  Spencer":
+            "Lvl 61 Swimmer  Spencer ":
             {
                 "evs":
                 {},
@@ -114488,7 +114488,7 @@ backup_data = {
                 "p_id": 87,
                 "nature": "Quiet"
             },
-            "Lvl 71 Swimmer  Sheryl":
+            "Lvl 71 Swimmer  Sheryl ":
             {
                 "evs":
                 {},
@@ -114549,7 +114549,7 @@ backup_data = {
         },
         "Kabutops":
         {
-            "Lvl 61 Swimmer  Roland":
+            "Lvl 61 Swimmer  Roland ":
             {
                 "evs":
                 {},
@@ -114578,7 +114578,7 @@ backup_data = {
                 "p_id": 141,
                 "nature": "Naive"
             },
-            "Lvl 65 Swimmer  Dean":
+            "Lvl 65 Swimmer  Dean ":
             {
                 "evs":
                 {},
@@ -114639,7 +114639,7 @@ backup_data = {
         },
         "Starmie":
         {
-            "Lvl 63 Swimmer  Cody":
+            "Lvl 63 Swimmer  Cody ":
             {
                 "evs":
                 {},
@@ -114668,7 +114668,7 @@ backup_data = {
                 "p_id": 121,
                 "nature": "Relaxed"
             },
-            "Lvl 63 Psychic Fritz":
+            "Lvl 63 Psychic Fritz ":
             {
                 "evs":
                 {},
@@ -114697,7 +114697,7 @@ backup_data = {
                 "p_id": 121,
                 "nature": "Jolly"
             },
-            "Lvl 57 Psychic William":
+            "Lvl 57 Psychic William ":
             {
                 "evs":
                 {},
@@ -114726,7 +114726,7 @@ backup_data = {
                 "p_id": 121,
                 "nature": "Hardy"
             },
-            "Lvl 72 Furisode Girl Waggy":
+            "Lvl 72 Furisode Girl Waggy ":
             {
                 "evs":
                 {},
@@ -114900,7 +114900,7 @@ backup_data = {
                 "p_id": 121,
                 "nature": "Bashful"
             },
-            "Lvl 66 Free Diver Kailyn":
+            "Lvl 66 Free Diver Kailyn ":
             {
                 "evs":
                 {},
@@ -114961,7 +114961,7 @@ backup_data = {
         },
         "Clawitzer":
         {
-            "Lvl 62 Swimmer  Stan":
+            "Lvl 62 Swimmer  Stan ":
             {
                 "evs":
                 {},
@@ -115048,7 +115048,7 @@ backup_data = {
                 "p_id": 693,
                 "nature": "Modest"
             },
-            "Lvl 69 Lass Crissy":
+            "Lvl 69 Lass Crissy ":
             {
                 "evs":
                 {},
@@ -115077,7 +115077,7 @@ backup_data = {
                 "p_id": 693,
                 "nature": "Hardy"
             },
-            "Lvl 45 Triathlete Vin":
+            "Lvl 45 Triathlete Vin ":
             {
                 "evs":
                 {},
@@ -115138,7 +115138,7 @@ backup_data = {
         },
         "Masquerain":
         {
-            "Lvl 65 Swimmer  Barry":
+            "Lvl 65 Swimmer  Barry ":
             {
                 "evs":
                 {},
@@ -115167,7 +115167,7 @@ backup_data = {
                 "p_id": 284,
                 "nature": "Naive"
             },
-            "Lvl 30 Bug Maniac Derek":
+            "Lvl 30 Bug Maniac Derek ":
             {
                 "evs":
                 {},
@@ -115196,7 +115196,7 @@ backup_data = {
                 "p_id": 284,
                 "nature": "Timid"
             },
-            "Lvl 69 Lass Crissy":
+            "Lvl 69 Lass Crissy ":
             {
                 "evs":
                 {},
@@ -115344,7 +115344,7 @@ backup_data = {
         },
         "Barbaracle":
         {
-            "Lvl 68 Swimmer  Rodney":
+            "Lvl 68 Swimmer  Rodney ":
             {
                 "evs":
                 {},
@@ -115373,7 +115373,7 @@ backup_data = {
                 "p_id": 689,
                 "nature": "Rash"
             },
-            "Lvl 68 Swimmer  Katie":
+            "Lvl 68 Swimmer  Katie ":
             {
                 "evs":
                 {},
@@ -115431,7 +115431,7 @@ backup_data = {
                 "p_id": 689,
                 "nature": "Rash"
             },
-            "Lvl 47 Sailor Duncan":
+            "Lvl 47 Sailor Duncan ":
             {
                 "evs":
                 {},
@@ -115460,7 +115460,7 @@ backup_data = {
                 "p_id": 689,
                 "nature": "Naive"
             },
-            "Lvl 62 Scuba Diver Dmitry":
+            "Lvl 62 Scuba Diver Dmitry ":
             {
                 "evs":
                 {},
@@ -115521,7 +115521,7 @@ backup_data = {
         },
         "Basculin":
         {
-            "Lvl 68 Swimmer  Richard":
+            "Lvl 68 Swimmer  Richard ":
             {
                 "evs":
                 {},
@@ -115582,7 +115582,7 @@ backup_data = {
         },
         "Huntail":
         {
-            "Lvl 70 Swimmer  Gilbert":
+            "Lvl 70 Swimmer  Gilbert ":
             {
                 "evs":
                 {},
@@ -115640,7 +115640,7 @@ backup_data = {
                 "p_id": 367,
                 "nature": "Hasty"
             },
-            "Lvl 48 Fisherman Barny":
+            "Lvl 48 Fisherman Barny ":
             {
                 "evs":
                 {},
@@ -115669,7 +115669,7 @@ backup_data = {
                 "p_id": 367,
                 "nature": "Naive"
             },
-            "Lvl 49 Aqua Admin Matt":
+            "Lvl 49 Aqua Admin Matt ":
             {
                 "evs":
                 {},
@@ -115788,7 +115788,7 @@ backup_data = {
         },
         "Relicanth":
         {
-            "Lvl 71 Swimmer  Jack":
+            "Lvl 71 Swimmer  Jack ":
             {
                 "evs":
                 {},
@@ -115817,7 +115817,7 @@ backup_data = {
                 "p_id": 369,
                 "nature": "Sassy"
             },
-            "Lvl 37 Fisherman Nolan":
+            "Lvl 37 Fisherman Nolan ":
             {
                 "evs":
                 {},
@@ -115846,7 +115846,7 @@ backup_data = {
                 "p_id": 369,
                 "nature": "Brave"
             },
-            "Lvl 45 Ruin Maniac Foster":
+            "Lvl 45 Ruin Maniac Foster ":
             {
                 "evs":
                 {},
@@ -115962,7 +115962,7 @@ backup_data = {
                 "p_id": 369,
                 "nature": "Brave"
             },
-            "Lvl 66 Scuba Diver Yutaka":
+            "Lvl 66 Scuba Diver Yutaka ":
             {
                 "evs":
                 {},
@@ -115994,7 +115994,7 @@ backup_data = {
         },
         "Luvdisc":
         {
-            "Lvl 61 Swimmer  Jenny":
+            "Lvl 61 Swimmer  Jenny ":
             {
                 "evs":
                 {},
@@ -116113,7 +116113,7 @@ backup_data = {
         },
         "Politoed":
         {
-            "Lvl 61 Swimmer  Grace":
+            "Lvl 61 Swimmer  Grace ":
             {
                 "evs":
                 {},
@@ -116142,7 +116142,7 @@ backup_data = {
                 "p_id": 186,
                 "nature": "Timid"
             },
-            "Lvl 66 Triathlete Isaiah":
+            "Lvl 66 Triathlete Isaiah ":
             {
                 "evs":
                 {},
@@ -116171,7 +116171,7 @@ backup_data = {
                 "p_id": 186,
                 "nature": "Mild"
             },
-            "Lvl 89 Sootopolitan Wallace":
+            "Lvl 89 Sootopolitan Wallace ":
             {
                 "evs":
                 {},
@@ -116203,7 +116203,7 @@ backup_data = {
         },
         "Gorebyss":
         {
-            "Lvl 62 Swimmer  Tanya":
+            "Lvl 62 Swimmer  Tanya ":
             {
                 "evs":
                 {},
@@ -116232,7 +116232,7 @@ backup_data = {
                 "p_id": 368,
                 "nature": "Serious"
             },
-            "Lvl 69 Beauty Bridget":
+            "Lvl 69 Beauty Bridget ":
             {
                 "evs":
                 {},
@@ -116261,7 +116261,7 @@ backup_data = {
                 "p_id": 368,
                 "nature": "Naughty"
             },
-            "Lvl 71 Leader Wallace":
+            "Lvl 71 Leader Wallace ":
             {
                 "evs":
                 {},
@@ -116348,7 +116348,7 @@ backup_data = {
                 "p_id": 368,
                 "nature": "Gentle"
             },
-            "Lvl 89 Sootopolitan Wallace":
+            "Lvl 89 Sootopolitan Wallace ":
             {
                 "evs":
                 {},
@@ -116380,7 +116380,7 @@ backup_data = {
         },
         "Floatzel":
         {
-            "Lvl 62 Swimmer  Tanya":
+            "Lvl 62 Swimmer  Tanya ":
             {
                 "evs":
                 {},
@@ -116409,7 +116409,7 @@ backup_data = {
                 "p_id": 419,
                 "nature": "Quiet"
             },
-            "Lvl 67 Aqua Leader Archie":
+            "Lvl 67 Aqua Leader Archie ":
             {
                 "evs":
                 {},
@@ -116467,7 +116467,7 @@ backup_data = {
                 "p_id": 419,
                 "nature": "Jolly"
             },
-            "Lvl 49 Sailor Leonard":
+            "Lvl 49 Sailor Leonard ":
             {
                 "evs":
                 {},
@@ -116496,7 +116496,7 @@ backup_data = {
                 "p_id": 419,
                 "nature": "Relaxed"
             },
-            "Lvl 47 Tuber Carmen":
+            "Lvl 47 Tuber Carmen ":
             {
                 "evs":
                 {},
@@ -116554,7 +116554,7 @@ backup_data = {
                 "p_id": 419,
                 "nature": "Quiet"
             },
-            "Lvl 65 Fisherman Jonah":
+            "Lvl 65 Fisherman Jonah ":
             {
                 "evs":
                 {},
@@ -116583,7 +116583,7 @@ backup_data = {
                 "p_id": 419,
                 "nature": "Naughty"
             },
-            "Lvl 50 Fisherman Eugene":
+            "Lvl 50 Fisherman Eugene ":
             {
                 "evs":
                 {},
@@ -116612,7 +116612,7 @@ backup_data = {
                 "p_id": 419,
                 "nature": "Bashful"
             },
-            "Lvl 69 Poké Fan Marissa":
+            "Lvl 69 Poké Fan Marissa ":
             {
                 "evs":
                 {},
@@ -116641,7 +116641,7 @@ backup_data = {
                 "p_id": 419,
                 "nature": "Careful"
             },
-            "Lvl 68 Scuba Diver Jason":
+            "Lvl 68 Scuba Diver Jason ":
             {
                 "evs":
                 {},
@@ -116673,7 +116673,7 @@ backup_data = {
         },
         "Seaking":
         {
-            "Lvl 62 Swimmer  Sharon":
+            "Lvl 62 Swimmer  Sharon ":
             {
                 "evs":
                 {},
@@ -116702,7 +116702,7 @@ backup_data = {
                 "p_id": 119,
                 "nature": "Bold"
             },
-            "Lvl 62 Scuba Diver Kylan":
+            "Lvl 62 Scuba Diver Kylan ":
             {
                 "evs":
                 {},
@@ -116731,7 +116731,7 @@ backup_data = {
                 "p_id": 119,
                 "nature": "Quiet"
             },
-            "Lvl 68 Scuba Diver Silas":
+            "Lvl 68 Scuba Diver Silas ":
             {
                 "evs":
                 {},
@@ -116792,7 +116792,7 @@ backup_data = {
         },
         "Swanna":
         {
-            "Lvl 65 Swimmer  Nikki":
+            "Lvl 65 Swimmer  Nikki ":
             {
                 "evs":
                 {},
@@ -116821,7 +116821,7 @@ backup_data = {
                 "p_id": 581,
                 "nature": "Rash"
             },
-            "Lvl 69 Beauty Olivia":
+            "Lvl 69 Beauty Olivia ":
             {
                 "evs":
                 {},
@@ -116850,7 +116850,7 @@ backup_data = {
                 "p_id": 581,
                 "nature": "Hardy"
             },
-            "Lvl 55 Bird Keeper Bran":
+            "Lvl 55 Bird Keeper Bran ":
             {
                 "evs":
                 {},
@@ -116882,7 +116882,7 @@ backup_data = {
         },
         "Lapras":
         {
-            "Lvl 71 Swimmer  Linda":
+            "Lvl 71 Swimmer  Linda ":
             {
                 "evs":
                 {},
@@ -116940,7 +116940,7 @@ backup_data = {
                 "p_id": 131,
                 "nature": "Modest"
             },
-            "Lvl 68 Free Diver Cordura":
+            "Lvl 68 Free Diver Cordura ":
             {
                 "evs":
                 {},
@@ -116972,7 +116972,7 @@ backup_data = {
         },
         "Alakazam":
         {
-            "Lvl 62 Psychic Preston":
+            "Lvl 62 Psychic Preston ":
             {
                 "evs":
                 {},
@@ -117088,7 +117088,7 @@ backup_data = {
                 "p_id": 65,
                 "nature": "Impish"
             },
-            "Lvl 50 Brains & Brawn Jael & Kael":
+            "Lvl 50 Brains & Brawn Jael & Kael ":
             {
                 "evs":
                 {},
@@ -117178,7 +117178,7 @@ backup_data = {
         },
         "Sigilyph":
         {
-            "Lvl 64 Psychic Virgil":
+            "Lvl 64 Psychic Virgil ":
             {
                 "evs":
                 {},
@@ -117207,7 +117207,7 @@ backup_data = {
                 "p_id": 561,
                 "nature": "Naughty"
             },
-            "Lvl 54 Camper Terrell":
+            "Lvl 54 Camper Terrell ":
             {
                 "evs":
                 {},
@@ -117236,7 +117236,7 @@ backup_data = {
                 "p_id": 561,
                 "nature": "Sassy"
             },
-            "Lvl 43 Ruin Maniac Dusty":
+            "Lvl 43 Ruin Maniac Dusty ":
             {
                 "evs":
                 {},
@@ -117265,7 +117265,7 @@ backup_data = {
                 "p_id": 561,
                 "nature": "Timid"
             },
-            "Lvl 79 Backpacker Grayson":
+            "Lvl 79 Backpacker Grayson ":
             {
                 "evs":
                 {},
@@ -117297,7 +117297,7 @@ backup_data = {
         },
         "Malamar":
         {
-            "Lvl 64 Psychic Virgil":
+            "Lvl 64 Psychic Virgil ":
             {
                 "evs":
                 {},
@@ -117326,7 +117326,7 @@ backup_data = {
                 "p_id": 687,
                 "nature": "Timid"
             },
-            "Lvl 57 Psychic Cameron":
+            "Lvl 57 Psychic Cameron ":
             {
                 "evs":
                 {},
@@ -117387,7 +117387,7 @@ backup_data = {
         },
         "Meowstic":
         {
-            "Lvl 63 Psychic Fritz":
+            "Lvl 63 Psychic Fritz ":
             {
                 "evs":
                 {},
@@ -117416,7 +117416,7 @@ backup_data = {
                 "p_id": 678,
                 "nature": "Bold"
             },
-            "Lvl 33 Picnicker Irene":
+            "Lvl 33 Picnicker Irene ":
             {
                 "evs":
                 {},
@@ -117448,7 +117448,7 @@ backup_data = {
         },
         "Beheeyem":
         {
-            "Lvl 63 Psychic Fritz":
+            "Lvl 63 Psychic Fritz ":
             {
                 "evs":
                 {},
@@ -117480,7 +117480,7 @@ backup_data = {
         },
         "Kyogre":
         {
-            "Lvl 70 Aqua Leader Archie":
+            "Lvl 70 Aqua Leader Archie ":
             {
                 "evs":
                 {},
@@ -117512,7 +117512,7 @@ backup_data = {
         },
         "Crobat":
         {
-            "Lvl 67 Aqua Leader Archie":
+            "Lvl 67 Aqua Leader Archie ":
             {
                 "evs":
                 {},
@@ -117599,7 +117599,7 @@ backup_data = {
                 "p_id": 169,
                 "nature": "Lonely"
             },
-            "Lvl 41 Magma Leader Maxie":
+            "Lvl 41 Magma Leader Maxie ":
             {
                 "evs":
                 {},
@@ -117715,7 +117715,7 @@ backup_data = {
                 "p_id": 169,
                 "nature": "Timid"
             },
-            "Lvl 60 Ace Trainer Antoin":
+            "Lvl 60 Ace Trainer Antoin ":
             {
                 "evs":
                 {},
@@ -117831,7 +117831,7 @@ backup_data = {
                 "p_id": 169,
                 "nature": "Quiet"
             },
-            "Lvl 55 Bird Keeper Bran":
+            "Lvl 55 Bird Keeper Bran ":
             {
                 "evs":
                 {},
@@ -117863,7 +117863,7 @@ backup_data = {
         },
         "Zapdos":
         {
-            "Lvl 67 Aqua Leader Archie":
+            "Lvl 67 Aqua Leader Archie ":
             {
                 "evs":
                 {},
@@ -117895,7 +117895,7 @@ backup_data = {
         },
         "Sharpedo-Mega":
         {
-            "Lvl 68 Aqua Leader Archie":
+            "Lvl 68 Aqua Leader Archie ":
             {
                 "evs":
                 {},
@@ -117985,7 +117985,7 @@ backup_data = {
                 "p_id": 89,
                 "nature": "Lonely"
             },
-            "Lvl 60 Ace Trainer Antoin":
+            "Lvl 60 Ace Trainer Antoin ":
             {
                 "evs":
                 {},
@@ -118281,7 +118281,7 @@ backup_data = {
                 "p_id": 226,
                 "nature": "Lax"
             },
-            "Lvl 29 Fisherman Wade":
+            "Lvl 29 Fisherman Wade ":
             {
                 "evs":
                 {},
@@ -118310,7 +118310,7 @@ backup_data = {
                 "p_id": 226,
                 "nature": "Adamant"
             },
-            "Lvl 70 Beauty Tiffany":
+            "Lvl 70 Beauty Tiffany ":
             {
                 "evs":
                 {},
@@ -118432,7 +118432,7 @@ backup_data = {
                 "p_id": 442,
                 "nature": "Calm"
             },
-            "Lvl 66 Ace Trainer Cornelius":
+            "Lvl 66 Ace Trainer Cornelius ":
             {
                 "evs":
                 {},
@@ -118522,7 +118522,7 @@ backup_data = {
                 "p_id": 534,
                 "nature": "Naive"
             },
-            "Lvl 71 Old Couple John & Jay":
+            "Lvl 71 Old Couple John & Jay ":
             {
                 "evs":
                 {},
@@ -118551,7 +118551,7 @@ backup_data = {
                 "p_id": 534,
                 "nature": "Adamant"
             },
-            "Lvl 50 Brains & Brawn Jael & Kael":
+            "Lvl 50 Brains & Brawn Jael & Kael ":
             {
                 "evs":
                 {},
@@ -118612,7 +118612,7 @@ backup_data = {
                 "p_id": 579,
                 "nature": "Quirky"
             },
-            "Lvl 63 Psychic Joshua":
+            "Lvl 63 Psychic Joshua ":
             {
                 "evs":
                 {},
@@ -118673,7 +118673,7 @@ backup_data = {
                 "p_id": 589,
                 "nature": "Brave"
             },
-            "Lvl 57 Ace Trainer Clyde":
+            "Lvl 57 Ace Trainer Clyde ":
             {
                 "evs":
                 {},
@@ -118734,7 +118734,7 @@ backup_data = {
                 "p_id": 181,
                 "nature": "Naughty"
             },
-            "Lvl 72 Dragon Tamer Dray":
+            "Lvl 72 Dragon Tamer Dray ":
             {
                 "evs":
                 {},
@@ -118798,7 +118798,7 @@ backup_data = {
         },
         "Kadabra":
         {
-            "Lvl 37 Psychic Kayla":
+            "Lvl 37 Psychic Kayla ":
             {
                 "evs":
                 {},
@@ -118827,7 +118827,7 @@ backup_data = {
                 "p_id": 64,
                 "nature": "Modest"
             },
-            "Lvl 40 Psychic Alexis":
+            "Lvl 40 Psychic Alexis ":
             {
                 "evs":
                 {},
@@ -118856,7 +118856,7 @@ backup_data = {
                 "p_id": 64,
                 "nature": "Modest"
             },
-            "Lvl 34 Psychic Jacki":
+            "Lvl 34 Psychic Jacki ":
             {
                 "evs":
                 {},
@@ -118946,7 +118946,7 @@ backup_data = {
         },
         "Rhyperior":
         {
-            "Lvl 57 Poké Maniac Mark":
+            "Lvl 57 Poké Maniac Mark ":
             {
                 "evs":
                 {},
@@ -119004,7 +119004,7 @@ backup_data = {
                 "p_id": 464,
                 "nature": "Gentle"
             },
-            "Lvl 60 Poké Maniac Kelvin":
+            "Lvl 60 Poké Maniac Kelvin ":
             {
                 "evs":
                 {},
@@ -119123,7 +119123,7 @@ backup_data = {
         },
         "Blastoise":
         {
-            "Lvl 62 Sailor Ernest":
+            "Lvl 62 Sailor Ernest ":
             {
                 "evs":
                 {},
@@ -119210,7 +119210,7 @@ backup_data = {
                 "p_id": 9,
                 "nature": "Timid"
             },
-            "Lvl 68 Scuba Diver Colten":
+            "Lvl 68 Scuba Diver Colten ":
             {
                 "evs":
                 {},
@@ -119384,7 +119384,7 @@ backup_data = {
                 "p_id": 285,
                 "nature": "Brave"
             },
-            "Lvl 16 Schoolkid Georgie":
+            "Lvl 16 Schoolkid Georgie ":
             {
                 "evs":
                 {},
@@ -119717,7 +119717,7 @@ backup_data = {
                 "p_id": 452,
                 "nature": "Impish"
             },
-            "Lvl 80 Elite Four Sidney":
+            "Lvl 80 Elite Four Sidney ":
             {
                 "evs":
                 {},
@@ -119746,7 +119746,7 @@ backup_data = {
                 "p_id": 452,
                 "nature": "Jolly"
             },
-            "Lvl 56 Ninja Boy Tsunao":
+            "Lvl 56 Ninja Boy Tsunao ":
             {
                 "evs":
                 {},
@@ -119775,7 +119775,7 @@ backup_data = {
                 "p_id": 452,
                 "nature": "Relaxed"
             },
-            "Lvl 60 Ace Trainer Antoin":
+            "Lvl 60 Ace Trainer Antoin ":
             {
                 "evs":
                 {},
@@ -119952,7 +119952,7 @@ backup_data = {
                 "p_id": 516,
                 "nature": "Hardy"
             },
-            "Lvl 42 Rotation Girl Circie":
+            "Lvl 42 Rotation Girl Circie ":
             {
                 "evs":
                 {},
@@ -119981,7 +119981,7 @@ backup_data = {
                 "p_id": 516,
                 "nature": "Hasty"
             },
-            "Lvl 67 Fisherman Fisk":
+            "Lvl 67 Fisherman Fisk ":
             {
                 "evs":
                 {},
@@ -120013,7 +120013,7 @@ backup_data = {
         },
         "Marshtomp":
         {
-            "Lvl 22 Tuber Simon":
+            "Lvl 22 Tuber Simon ":
             {
                 "evs":
                 {},
@@ -120103,7 +120103,7 @@ backup_data = {
         },
         "Nincada":
         {
-            "Lvl 14 Youngster Eddie":
+            "Lvl 14 Youngster Eddie ":
             {
                 "evs":
                 {},
@@ -120132,7 +120132,7 @@ backup_data = {
                 "p_id": 290,
                 "nature": "Rash"
             },
-            "Lvl 10 Bug Catcher James":
+            "Lvl 10 Bug Catcher James ":
             {
                 "evs":
                 {},
@@ -120216,7 +120216,7 @@ backup_data = {
         },
         "Geodude":
         {
-            "Lvl 14 Youngster Eddie":
+            "Lvl 14 Youngster Eddie ":
             {
                 "evs":
                 {},
@@ -120245,7 +120245,7 @@ backup_data = {
                 "p_id": 74,
                 "nature": "Jolly"
             },
-            "Lvl 12 Hiker Clark":
+            "Lvl 12 Hiker Clark ":
             {
                 "evs":
                 {},
@@ -120303,7 +120303,7 @@ backup_data = {
                 "p_id": 74,
                 "nature": "Mild"
             },
-            "Lvl 5 Secret Base Trainer Grunt":
+            "Lvl 5 Secret Base Trainer Grunt ":
             {
                 "evs":
                 {},
@@ -120329,7 +120329,7 @@ backup_data = {
         },
         "Gulpin":
         {
-            "Lvl 16 Lass Sally":
+            "Lvl 16 Lass Sally ":
             {
                 "evs":
                 {},
@@ -120384,7 +120384,7 @@ backup_data = {
         },
         "Oddish":
         {
-            "Lvl 16 Lass Robin":
+            "Lvl 16 Lass Robin ":
             {
                 "evs":
                 {},
@@ -120413,7 +120413,7 @@ backup_data = {
                 "p_id": 43,
                 "nature": "Careful"
             },
-            "Lvl 17 Schoolkid Nitzel":
+            "Lvl 17 Schoolkid Nitzel ":
             {
                 "evs":
                 {},
@@ -120489,7 +120489,7 @@ backup_data = {
         },
         "Beautifly":
         {
-            "Lvl 16 Schoolkid Georgie":
+            "Lvl 16 Schoolkid Georgie ":
             {
                 "evs":
                 {},
@@ -120518,7 +120518,7 @@ backup_data = {
                 "p_id": 267,
                 "nature": "Adamant"
             },
-            "Lvl 48 Young Couple Mel & Paul":
+            "Lvl 48 Young Couple Mel & Paul ":
             {
                 "evs":
                 {},
@@ -120550,7 +120550,7 @@ backup_data = {
         },
         "Leafeon":
         {
-            "Lvl 57 Picnicker Martha":
+            "Lvl 57 Picnicker Martha ":
             {
                 "evs":
                 {},
@@ -120579,7 +120579,7 @@ backup_data = {
                 "p_id": 470,
                 "nature": "Hardy"
             },
-            "Lvl 62 Teammates Kim & Iris":
+            "Lvl 62 Teammates Kim & Iris ":
             {
                 "evs":
                 {},
@@ -120611,7 +120611,7 @@ backup_data = {
         },
         "Drifblim":
         {
-            "Lvl 57 Picnicker Martha":
+            "Lvl 57 Picnicker Martha ":
             {
                 "evs":
                 {},
@@ -120640,7 +120640,7 @@ backup_data = {
                 "p_id": 426,
                 "nature": "Bold"
             },
-            "Lvl 54 Camper Terrell":
+            "Lvl 54 Camper Terrell ":
             {
                 "evs":
                 {},
@@ -120669,7 +120669,7 @@ backup_data = {
                 "p_id": 426,
                 "nature": "Bold"
             },
-            "Lvl 78 Black Belt Koji":
+            "Lvl 78 Black Belt Koji ":
             {
                 "evs":
                 {},
@@ -120698,7 +120698,7 @@ backup_data = {
                 "p_id": 426,
                 "nature": "Rash"
             },
-            "Lvl 47 Ace Trainer Constance":
+            "Lvl 47 Ace Trainer Constance ":
             {
                 "evs":
                 {},
@@ -120730,7 +120730,7 @@ backup_data = {
         },
         "Makuhita":
         {
-            "Lvl 16 Black Belt Yuji":
+            "Lvl 16 Black Belt Yuji ":
             {
                 "evs":
                 {},
@@ -120970,7 +120970,7 @@ backup_data = {
         },
         "Cacnea":
         {
-            "Lvl 16 Pokémon Ranger Sebastian":
+            "Lvl 16 Pokémon Ranger Sebastian ":
             {
                 "evs":
                 {},
@@ -121048,7 +121048,7 @@ backup_data = {
         },
         "Swablu":
         {
-            "Lvl 17 Pokémon Ranger Sophia":
+            "Lvl 17 Pokémon Ranger Sophia ":
             {
                 "evs":
                 {},
@@ -121167,7 +121167,7 @@ backup_data = {
         },
         "Jynx":
         {
-            "Lvl 63 Hex Maniac Patricia":
+            "Lvl 63 Hex Maniac Patricia ":
             {
                 "evs":
                 {},
@@ -121199,7 +121199,7 @@ backup_data = {
         },
         "Delphox":
         {
-            "Lvl 63 Hex Maniac Patricia":
+            "Lvl 63 Hex Maniac Patricia ":
             {
                 "evs":
                 {},
@@ -121347,7 +121347,7 @@ backup_data = {
         },
         "Mr. Mime":
         {
-            "Lvl 63 Psychic Joshua":
+            "Lvl 63 Psychic Joshua ":
             {
                 "evs":
                 {},
@@ -121379,7 +121379,7 @@ backup_data = {
         },
         "Kirlia":
         {
-            "Lvl 40 Psychic Alexis":
+            "Lvl 40 Psychic Alexis ":
             {
                 "evs":
                 {},
@@ -121466,7 +121466,7 @@ backup_data = {
                 "p_id": 281,
                 "nature": "Calm"
             },
-            "Lvl 29 Pokémon Trainer Wally":
+            "Lvl 29 Pokémon Trainer Wally ":
             {
                 "evs":
                 {},
@@ -121495,7 +121495,7 @@ backup_data = {
                 "p_id": 281,
                 "nature": "Modest"
             },
-            "Lvl 26 Psychic Edward":
+            "Lvl 26 Psychic Edward ":
             {
                 "evs":
                 {},
@@ -121527,7 +121527,7 @@ backup_data = {
         },
         "Xatu":
         {
-            "Lvl 40 Psychic Alexis":
+            "Lvl 40 Psychic Alexis ":
             {
                 "evs":
                 {},
@@ -121556,7 +121556,7 @@ backup_data = {
                 "p_id": 178,
                 "nature": "Rash"
             },
-            "Lvl 71 Bird Keeper Beck":
+            "Lvl 71 Bird Keeper Beck ":
             {
                 "evs":
                 {},
@@ -121617,7 +121617,7 @@ backup_data = {
                 "p_id": 604,
                 "nature": "Modest"
             },
-            "Lvl 66 Ace Trainer Cornelius":
+            "Lvl 66 Ace Trainer Cornelius ":
             {
                 "evs":
                 {},
@@ -122235,7 +122235,7 @@ backup_data = {
         },
         "Weezing":
         {
-            "Lvl 41 Magma Leader Maxie":
+            "Lvl 41 Magma Leader Maxie ":
             {
                 "evs":
                 {},
@@ -122322,7 +122322,7 @@ backup_data = {
                 "p_id": 110,
                 "nature": "Timid"
             },
-            "Lvl 36 Ninja Boy Lao":
+            "Lvl 36 Ninja Boy Lao ":
             {
                 "evs":
                 {},
@@ -122351,7 +122351,7 @@ backup_data = {
                 "p_id": 110,
                 "nature": "Lonely"
             },
-            "Lvl 60 Ace Trainer Antoin":
+            "Lvl 60 Ace Trainer Antoin ":
             {
                 "evs":
                 {},
@@ -122467,7 +122467,7 @@ backup_data = {
                 "p_id": 110,
                 "nature": "Modest"
             },
-            "Lvl 40 Ninja Boy Hiromichi":
+            "Lvl 40 Ninja Boy Hiromichi ":
             {
                 "evs":
                 {},
@@ -122815,7 +122815,7 @@ backup_data = {
                 "p_id": 323,
                 "nature": "Jolly"
             },
-            "Lvl 71 Ace Trainer Rifk":
+            "Lvl 71 Ace Trainer Rifk ":
             {
                 "evs":
                 {},
@@ -122931,7 +122931,7 @@ backup_data = {
                 "p_id": 323,
                 "nature": "Adamant"
             },
-            "Lvl 36 Parasol Lady Madeline":
+            "Lvl 36 Parasol Lady Madeline ":
             {
                 "evs":
                 {},
@@ -123047,7 +123047,7 @@ backup_data = {
                 "p_id": 323,
                 "nature": "Bashful"
             },
-            "Lvl 31 Magma Admin Courtney":
+            "Lvl 31 Magma Admin Courtney ":
             {
                 "evs":
                 {},
@@ -123195,7 +123195,7 @@ backup_data = {
         },
         "Camerupt-Mega":
         {
-            "Lvl 43 Magma Leader Maxie":
+            "Lvl 43 Magma Leader Maxie ":
             {
                 "evs":
                 {},
@@ -123256,7 +123256,7 @@ backup_data = {
         },
         "Koffing":
         {
-            "Lvl 35 Team Magma Grunt":
+            "Lvl 35 Team Magma Grunt ":
             {
                 "evs":
                 {},
@@ -123684,7 +123684,7 @@ backup_data = {
         },
         "Numel":
         {
-            "Lvl 35 Team Magma Grunt":
+            "Lvl 35 Team Magma Grunt ":
             {
                 "evs":
                 {},
@@ -124090,7 +124090,7 @@ backup_data = {
                 "p_id": 322,
                 "nature": "Hasty"
             },
-            "Lvl 23 Magma Admin Tabitha":
+            "Lvl 23 Magma Admin Tabitha ":
             {
                 "evs":
                 {},
@@ -124148,7 +124148,7 @@ backup_data = {
                 "p_id": 322,
                 "nature": "Careful"
             },
-            "Lvl 21 Ace Duo Pike & Shiel":
+            "Lvl 21 Ace Duo Pike & Shiel ":
             {
                 "evs":
                 {},
@@ -124302,7 +124302,7 @@ backup_data = {
         },
         "Timburr":
         {
-            "Lvl 12 Hiker Clark":
+            "Lvl 12 Hiker Clark ":
             {
                 "evs":
                 {},
@@ -124331,7 +124331,7 @@ backup_data = {
                 "p_id": 532,
                 "nature": "Hardy"
             },
-            "Lvl 19 Backpacker Graeme":
+            "Lvl 19 Backpacker Graeme ":
             {
                 "evs":
                 {},
@@ -124363,7 +124363,7 @@ backup_data = {
         },
         "Manectric":
         {
-            "Lvl 27 Triathlete Benjamin":
+            "Lvl 27 Triathlete Benjamin ":
             {
                 "evs":
                 {},
@@ -124537,7 +124537,7 @@ backup_data = {
                 "p_id": 310,
                 "nature": "Mild"
             },
-            "Lvl 32 Leader Wattson":
+            "Lvl 32 Leader Wattson ":
             {
                 "evs":
                 {},
@@ -124627,7 +124627,7 @@ backup_data = {
         },
         "Petilil":
         {
-            "Lvl 11 Twins Gina & Mia":
+            "Lvl 11 Twins Gina & Mia ":
             {
                 "evs":
                 {},
@@ -124659,7 +124659,7 @@ backup_data = {
         },
         "Cottonee":
         {
-            "Lvl 11 Twins Gina & Mia":
+            "Lvl 11 Twins Gina & Mia ":
             {
                 "evs":
                 {},
@@ -124691,7 +124691,7 @@ backup_data = {
         },
         "Forretress":
         {
-            "Lvl 39 Hiker Eric":
+            "Lvl 39 Hiker Eric ":
             {
                 "evs":
                 {},
@@ -124720,7 +124720,7 @@ backup_data = {
                 "p_id": 205,
                 "nature": "Brave"
             },
-            "Lvl 59 Gentleman Walter":
+            "Lvl 59 Gentleman Walter ":
             {
                 "evs":
                 {},
@@ -124752,7 +124752,7 @@ backup_data = {
         },
         "Swalot":
         {
-            "Lvl 39 Camper Ethan":
+            "Lvl 39 Camper Ethan ":
             {
                 "evs":
                 {},
@@ -124900,7 +124900,7 @@ backup_data = {
         },
         "Houndoom":
         {
-            "Lvl 39 Camper Ethan":
+            "Lvl 39 Camper Ethan ":
             {
                 "evs":
                 {},
@@ -124929,7 +124929,7 @@ backup_data = {
                 "p_id": 229,
                 "nature": "Hardy"
             },
-            "Lvl 57 Street Thug Gomez":
+            "Lvl 57 Street Thug Gomez ":
             {
                 "evs":
                 {},
@@ -124990,7 +124990,7 @@ backup_data = {
         },
         "Vileplume":
         {
-            "Lvl 40 Picnicker Diana":
+            "Lvl 40 Picnicker Diana ":
             {
                 "evs":
                 {},
@@ -125051,7 +125051,7 @@ backup_data = {
         },
         "Jumpluff":
         {
-            "Lvl 40 Picnicker Diana":
+            "Lvl 40 Picnicker Diana ":
             {
                 "evs":
                 {},
@@ -125080,7 +125080,7 @@ backup_data = {
                 "p_id": 189,
                 "nature": "Docile"
             },
-            "Lvl 60 Aroma Lady Carnation":
+            "Lvl 60 Aroma Lady Carnation ":
             {
                 "evs":
                 {},
@@ -125260,7 +125260,7 @@ backup_data = {
                 "p_id": 618,
                 "nature": "Rash"
             },
-            "Lvl 50 Fisherman Eugene":
+            "Lvl 50 Fisherman Eugene ":
             {
                 "evs":
                 {},
@@ -125626,7 +125626,7 @@ backup_data = {
                 "p_id": 404,
                 "nature": "Serious"
             },
-            "Lvl 29 Guitarist Dalton":
+            "Lvl 29 Guitarist Dalton ":
             {
                 "evs":
                 {},
@@ -126076,7 +126076,7 @@ backup_data = {
                 "p_id": 18,
                 "nature": "Docile"
             },
-            "Lvl 33 Backpacker Emory":
+            "Lvl 33 Backpacker Emory ":
             {
                 "evs":
                 {},
@@ -126166,7 +126166,7 @@ backup_data = {
                 "p_id": 392,
                 "nature": "Naive"
             },
-            "Lvl 40 Battle Girl Sadie":
+            "Lvl 40 Battle Girl Sadie ":
             {
                 "evs":
                 {},
@@ -126253,7 +126253,7 @@ backup_data = {
                 "p_id": 392,
                 "nature": "Adamant"
             },
-            "Lvl 67 Ace Trainer Honor":
+            "Lvl 67 Ace Trainer Honor ":
             {
                 "evs":
                 {},
@@ -126488,7 +126488,7 @@ backup_data = {
                 "p_id": 466,
                 "nature": "Brave"
             },
-            "Lvl 73 Ace Trainer Indigo":
+            "Lvl 73 Ace Trainer Indigo ":
             {
                 "evs":
                 {},
@@ -126607,7 +126607,7 @@ backup_data = {
                 "p_id": 658,
                 "nature": "Hasty"
             },
-            "Lvl 80 Elite Four Sidney":
+            "Lvl 80 Elite Four Sidney ":
             {
                 "evs":
                 {},
@@ -126636,7 +126636,7 @@ backup_data = {
                 "p_id": 658,
                 "nature": "Hardy"
             },
-            "Lvl 54 Ninja Boy Hideo":
+            "Lvl 54 Ninja Boy Hideo ":
             {
                 "evs":
                 {},
@@ -126987,7 +126987,7 @@ backup_data = {
                 "p_id": 34,
                 "nature": "Lonely"
             },
-            "Lvl 60 Poké Maniac Kelvin":
+            "Lvl 60 Poké Maniac Kelvin ":
             {
                 "evs":
                 {},
@@ -127016,7 +127016,7 @@ backup_data = {
                 "p_id": 34,
                 "nature": "Modest"
             },
-            "Lvl 65 Black Belt Banting":
+            "Lvl 65 Black Belt Banting ":
             {
                 "evs":
                 {},
@@ -127248,7 +127248,7 @@ backup_data = {
                 "p_id": 254,
                 "nature": "Docile"
             },
-            "Lvl 65 Ace Trainer Harriet":
+            "Lvl 65 Ace Trainer Harriet ":
             {
                 "evs":
                 {},
@@ -127602,7 +127602,7 @@ backup_data = {
                 "p_id": 462,
                 "nature": "Mild"
             },
-            "Lvl 52 Pokémon Trainer Steven":
+            "Lvl 52 Pokémon Trainer Steven ":
             {
                 "evs":
                 {},
@@ -127869,7 +127869,7 @@ backup_data = {
                 "p_id": 156,
                 "nature": "Timid"
             },
-            "Lvl 20 Backpacker Graeme":
+            "Lvl 20 Backpacker Graeme ":
             {
                 "evs":
                 {},
@@ -128496,7 +128496,7 @@ backup_data = {
                 "p_id": 160,
                 "nature": "Relaxed"
             },
-            "Lvl 48 Fisherman Carter":
+            "Lvl 48 Fisherman Carter ":
             {
                 "evs":
                 {},
@@ -128554,7 +128554,7 @@ backup_data = {
                 "p_id": 160,
                 "nature": "Jolly"
             },
-            "Lvl 80 Elite Four Drake":
+            "Lvl 80 Elite Four Drake ":
             {
                 "evs":
                 {},
@@ -128612,7 +128612,7 @@ backup_data = {
                 "p_id": 160,
                 "nature": "Hasty"
             },
-            "Lvl 71 Fisherman River":
+            "Lvl 71 Fisherman River ":
             {
                 "evs":
                 {},
@@ -128792,7 +128792,7 @@ backup_data = {
         },
         "Pidgey":
         {
-            "Lvl 6 Youngster Allen":
+            "Lvl 6 Youngster Allen ":
             {
                 "evs":
                 {},
@@ -128822,7 +128822,7 @@ backup_data = {
         },
         "Electrike":
         {
-            "Lvl 25 Youngster Timmy":
+            "Lvl 25 Youngster Timmy ":
             {
                 "evs":
                 {},
@@ -128946,7 +128946,7 @@ backup_data = {
         },
         "Ledian":
         {
-            "Lvl 29 Bug Maniac Derek":
+            "Lvl 29 Bug Maniac Derek ":
             {
                 "evs":
                 {},
@@ -129007,7 +129007,7 @@ backup_data = {
         },
         "Volbeat":
         {
-            "Lvl 29 Bug Maniac Derek":
+            "Lvl 29 Bug Maniac Derek ":
             {
                 "evs":
                 {},
@@ -129036,7 +129036,7 @@ backup_data = {
                 "p_id": 313,
                 "nature": "Timid"
             },
-            "Lvl 48 Young Couple Lois & Hal":
+            "Lvl 48 Young Couple Lois & Hal ":
             {
                 "evs":
                 {},
@@ -129207,7 +129207,7 @@ backup_data = {
         },
         "Ninjask":
         {
-            "Lvl 29 Bug Maniac Derek":
+            "Lvl 29 Bug Maniac Derek ":
             {
                 "evs":
                 {},
@@ -129236,7 +129236,7 @@ backup_data = {
                 "p_id": 291,
                 "nature": "Adamant"
             },
-            "Lvl 37 Ninja Boy Lung":
+            "Lvl 37 Ninja Boy Lung ":
             {
                 "evs":
                 {},
@@ -129323,7 +129323,7 @@ backup_data = {
                 "p_id": 291,
                 "nature": "Calm"
             },
-            "Lvl 36 Ninja Boy Lao":
+            "Lvl 36 Ninja Boy Lao ":
             {
                 "evs":
                 {},
@@ -129471,7 +129471,7 @@ backup_data = {
         },
         "Boldore":
         {
-            "Lvl 29 Hiker Mike":
+            "Lvl 29 Hiker Mike ":
             {
                 "evs":
                 {},
@@ -129503,7 +129503,7 @@ backup_data = {
         },
         "Illumise":
         {
-            "Lvl 33 Picnicker Irene":
+            "Lvl 33 Picnicker Irene ":
             {
                 "evs":
                 {},
@@ -129532,7 +129532,7 @@ backup_data = {
                 "p_id": 314,
                 "nature": "Serious"
             },
-            "Lvl 48 Young Couple Lois & Hal":
+            "Lvl 48 Young Couple Lois & Hal ":
             {
                 "evs":
                 {},
@@ -129703,7 +129703,7 @@ backup_data = {
         },
         "Trevenant":
         {
-            "Lvl 33 Camper Travis":
+            "Lvl 33 Camper Travis ":
             {
                 "evs":
                 {},
@@ -129732,7 +129732,7 @@ backup_data = {
                 "p_id": 709,
                 "nature": "Bold"
             },
-            "Lvl 78 Black Belt Koji":
+            "Lvl 78 Black Belt Koji ":
             {
                 "evs":
                 {},
@@ -129764,7 +129764,7 @@ backup_data = {
         },
         "Onix":
         {
-            "Lvl 33 Camper Travis":
+            "Lvl 33 Camper Travis ":
             {
                 "evs":
                 {},
@@ -129793,7 +129793,7 @@ backup_data = {
                 "p_id": 95,
                 "nature": "Quiet"
             },
-            "Lvl 14 Schoolkid Georgia":
+            "Lvl 14 Schoolkid Georgia ":
             {
                 "evs":
                 {},
@@ -129825,7 +129825,7 @@ backup_data = {
         },
         "Shelgon":
         {
-            "Lvl 35 Ace Trainer Wilton":
+            "Lvl 35 Ace Trainer Wilton ":
             {
                 "evs":
                 {},
@@ -129857,7 +129857,7 @@ backup_data = {
         },
         "Klefki":
         {
-            "Lvl 35 Ace Trainer Brooke":
+            "Lvl 35 Ace Trainer Brooke ":
             {
                 "evs":
                 {},
@@ -129886,7 +129886,7 @@ backup_data = {
                 "p_id": 707,
                 "nature": "Bold"
             },
-            "Lvl 52 Pokémon Trainer Steven":
+            "Lvl 52 Pokémon Trainer Steven ":
             {
                 "evs":
                 {},
@@ -129915,7 +129915,7 @@ backup_data = {
                 "p_id": 707,
                 "nature": "Impish"
             },
-            "Lvl 36 Fairy Tale Girl Franny":
+            "Lvl 36 Fairy Tale Girl Franny ":
             {
                 "evs":
                 {},
@@ -129976,7 +129976,7 @@ backup_data = {
         },
         "Ninetales":
         {
-            "Lvl 35 Ace Trainer Brooke":
+            "Lvl 35 Ace Trainer Brooke ":
             {
                 "evs":
                 {},
@@ -130005,7 +130005,7 @@ backup_data = {
                 "p_id": 38,
                 "nature": "Quiet"
             },
-            "Lvl 52 Parasol Lady Clarissa":
+            "Lvl 52 Parasol Lady Clarissa ":
             {
                 "evs":
                 {},
@@ -130037,7 +130037,7 @@ backup_data = {
         },
         "Mismagius":
         {
-            "Lvl 35 Ace Trainer Brooke":
+            "Lvl 35 Ace Trainer Brooke ":
             {
                 "evs":
                 {},
@@ -130066,7 +130066,7 @@ backup_data = {
                 "p_id": 429,
                 "nature": "Hasty"
             },
-            "Lvl 56 Ace Trainer Jennifer":
+            "Lvl 56 Ace Trainer Jennifer ":
             {
                 "evs":
                 {},
@@ -130124,7 +130124,7 @@ backup_data = {
                 "p_id": 429,
                 "nature": "Brave"
             },
-            "Lvl 80 Elite Four Phoebe":
+            "Lvl 80 Elite Four Phoebe ":
             {
                 "evs":
                 {},
@@ -130153,7 +130153,7 @@ backup_data = {
                 "p_id": 429,
                 "nature": "Rash"
             },
-            "Lvl 57 Mysterious Sisters Scall & Ion":
+            "Lvl 57 Mysterious Sisters Scall & Ion ":
             {
                 "evs":
                 {},
@@ -130182,7 +130182,7 @@ backup_data = {
                 "p_id": 429,
                 "nature": "Bold"
             },
-            "Lvl 55 Lady Dulcie":
+            "Lvl 55 Lady Dulcie ":
             {
                 "evs":
                 {},
@@ -130241,7 +130241,7 @@ backup_data = {
         },
         "Granbull":
         {
-            "Lvl 35 Ace Trainer Brooke":
+            "Lvl 35 Ace Trainer Brooke ":
             {
                 "evs":
                 {},
@@ -130270,7 +130270,7 @@ backup_data = {
                 "p_id": 210,
                 "nature": "Impish"
             },
-            "Lvl 57 Ace Trainer Julie":
+            "Lvl 57 Ace Trainer Julie ":
             {
                 "evs":
                 {},
@@ -130299,7 +130299,7 @@ backup_data = {
                 "p_id": 210,
                 "nature": "Sassy"
             },
-            "Lvl 59 Poké Fan Vanessa":
+            "Lvl 59 Poké Fan Vanessa ":
             {
                 "evs":
                 {},
@@ -130328,7 +130328,7 @@ backup_data = {
                 "p_id": 210,
                 "nature": "Docile"
             },
-            "Lvl 60 Fairy Tale Girl Josephine":
+            "Lvl 60 Fairy Tale Girl Josephine ":
             {
                 "evs":
                 {},
@@ -130447,7 +130447,7 @@ backup_data = {
         },
         "Gardevoir":
         {
-            "Lvl 36 Ace Trainer Brooke":
+            "Lvl 36 Ace Trainer Brooke ":
             {
                 "evs":
                 {},
@@ -130505,7 +130505,7 @@ backup_data = {
                 "p_id": 282,
                 "nature": "Bold"
             },
-            "Lvl 65 Leaders Liza & Tate":
+            "Lvl 65 Leaders Liza & Tate ":
             {
                 "evs":
                 {},
@@ -130534,7 +130534,7 @@ backup_data = {
                 "p_id": 282,
                 "nature": "Hasty"
             },
-            "Lvl 36 Fairy Tale Girl Franny":
+            "Lvl 36 Fairy Tale Girl Franny ":
             {
                 "evs":
                 {},
@@ -130563,7 +130563,7 @@ backup_data = {
                 "p_id": 282,
                 "nature": "Lonely"
             },
-            "Lvl 57 Mysterious Sisters Scall & Ion":
+            "Lvl 57 Mysterious Sisters Scall & Ion ":
             {
                 "evs":
                 {},
@@ -130711,7 +130711,7 @@ backup_data = {
         },
         "Emolga":
         {
-            "Lvl 49 Bird Keeper Chester":
+            "Lvl 49 Bird Keeper Chester ":
             {
                 "evs":
                 {},
@@ -130740,7 +130740,7 @@ backup_data = {
                 "p_id": 587,
                 "nature": "Careful"
             },
-            "Lvl 55 Leader Winona":
+            "Lvl 55 Leader Winona ":
             {
                 "evs":
                 {},
@@ -130772,7 +130772,7 @@ backup_data = {
         },
         "Bellossom":
         {
-            "Lvl 49 Aroma Lady Violet":
+            "Lvl 49 Aroma Lady Violet ":
             {
                 "evs":
                 {},
@@ -130862,7 +130862,7 @@ backup_data = {
         },
         "Wobbuffet":
         {
-            "Lvl 63 Hex Maniac Kindra":
+            "Lvl 63 Hex Maniac Kindra ":
             {
                 "evs":
                 {},
@@ -130894,7 +130894,7 @@ backup_data = {
         },
         "Musharna":
         {
-            "Lvl 57 Psychic Cameron":
+            "Lvl 57 Psychic Cameron ":
             {
                 "evs":
                 {},
@@ -130923,7 +130923,7 @@ backup_data = {
                 "p_id": 518,
                 "nature": "Hardy"
             },
-            "Lvl 64 Leaders Liza & Tate":
+            "Lvl 64 Leaders Liza & Tate ":
             {
                 "evs":
                 {},
@@ -130955,7 +130955,7 @@ backup_data = {
         },
         "Lunatone":
         {
-            "Lvl 36 Psychic Jacki":
+            "Lvl 36 Psychic Jacki ":
             {
                 "evs":
                 {},
@@ -130984,7 +130984,7 @@ backup_data = {
                 "p_id": 337,
                 "nature": "Mild"
             },
-            "Lvl 37 Teammates Tyra & Ivy":
+            "Lvl 37 Teammates Tyra & Ivy ":
             {
                 "evs":
                 {},
@@ -131016,7 +131016,7 @@ backup_data = {
         },
         "Castform":
         {
-            "Lvl 56 Parasol Lady Angelica":
+            "Lvl 56 Parasol Lady Angelica ":
             {
                 "evs":
                 {},
@@ -131045,7 +131045,7 @@ backup_data = {
                 "p_id": 351,
                 "nature": "Relaxed"
             },
-            "Lvl 80 Elite Four Glacia":
+            "Lvl 80 Elite Four Glacia ":
             {
                 "evs":
                 {},
@@ -131074,7 +131074,7 @@ backup_data = {
                 "p_id": 351,
                 "nature": "Mild"
             },
-            "Lvl 70 Leader Wallace":
+            "Lvl 70 Leader Wallace ":
             {
                 "evs":
                 {},
@@ -131132,7 +131132,7 @@ backup_data = {
                 "p_id": 351,
                 "nature": "Timid"
             },
-            "Lvl 89 Sootopolitan Wallace":
+            "Lvl 89 Sootopolitan Wallace ":
             {
                 "evs":
                 {},
@@ -131164,7 +131164,7 @@ backup_data = {
         },
         "Banette":
         {
-            "Lvl 57 Hex Maniac Tammy":
+            "Lvl 57 Hex Maniac Tammy ":
             {
                 "evs":
                 {},
@@ -131254,7 +131254,7 @@ backup_data = {
         },
         "Heatmor":
         {
-            "Lvl 59 Gentleman Walter":
+            "Lvl 59 Gentleman Walter ":
             {
                 "evs":
                 {},
@@ -131283,7 +131283,7 @@ backup_data = {
                 "p_id": 631,
                 "nature": "Hasty"
             },
-            "Lvl 33 Backpacker Emory":
+            "Lvl 33 Backpacker Emory ":
             {
                 "evs":
                 {},
@@ -131312,7 +131312,7 @@ backup_data = {
                 "p_id": 631,
                 "nature": "Careful"
             },
-            "Lvl 55 Ace Trainer Benedict":
+            "Lvl 55 Ace Trainer Benedict ":
             {
                 "evs":
                 {},
@@ -131342,7 +131342,7 @@ backup_data = {
         },
         "Durant":
         {
-            "Lvl 59 Gentleman Walter":
+            "Lvl 59 Gentleman Walter ":
             {
                 "evs":
                 {},
@@ -131374,7 +131374,7 @@ backup_data = {
         },
         "Lucario":
         {
-            "Lvl 59 Gentleman Walter":
+            "Lvl 59 Gentleman Walter ":
             {
                 "evs":
                 {},
@@ -131403,7 +131403,7 @@ backup_data = {
                 "p_id": 448,
                 "nature": "Lonely"
             },
-            "Lvl 39 Expert Shelby":
+            "Lvl 39 Expert Shelby ":
             {
                 "evs":
                 {},
@@ -131461,7 +131461,7 @@ backup_data = {
                 "p_id": 448,
                 "nature": "Bashful"
             },
-            "Lvl 71 Old Couple John & Jay":
+            "Lvl 71 Old Couple John & Jay ":
             {
                 "evs":
                 {},
@@ -131490,7 +131490,7 @@ backup_data = {
                 "p_id": 448,
                 "nature": "Docile"
             },
-            "Lvl 75 Fare Prince Trencherman":
+            "Lvl 75 Fare Prince Trencherman ":
             {
                 "evs":
                 {},
@@ -131519,7 +131519,7 @@ backup_data = {
         },
         "Cofagrigus":
         {
-            "Lvl 59 Gentleman Walter":
+            "Lvl 59 Gentleman Walter ":
             {
                 "evs":
                 {},
@@ -131548,7 +131548,7 @@ backup_data = {
                 "p_id": 563,
                 "nature": "Bold"
             },
-            "Lvl 58 Hex Maniac Tasha":
+            "Lvl 58 Hex Maniac Tasha ":
             {
                 "evs":
                 {},
@@ -131577,7 +131577,7 @@ backup_data = {
                 "p_id": 563,
                 "nature": "Modest"
             },
-            "Lvl 71 Ace Trainer Rifk":
+            "Lvl 71 Ace Trainer Rifk ":
             {
                 "evs":
                 {},
@@ -131638,7 +131638,7 @@ backup_data = {
         },
         "Aggron-Mega":
         {
-            "Lvl 60 Gentleman Walter":
+            "Lvl 60 Gentleman Walter ":
             {
                 "evs":
                 {},
@@ -131757,7 +131757,7 @@ backup_data = {
                 "p_id": 230,
                 "nature": "Quirky"
             },
-            "Lvl 65 Ace Trainer Harriet":
+            "Lvl 65 Ace Trainer Harriet ":
             {
                 "evs":
                 {},
@@ -131789,7 +131789,7 @@ backup_data = {
         },
         "Sableye":
         {
-            "Lvl 57 Hex Maniac Valerie":
+            "Lvl 57 Hex Maniac Valerie ":
             {
                 "evs":
                 {},
@@ -131905,7 +131905,7 @@ backup_data = {
                 "p_id": 302,
                 "nature": "Quiet"
             },
-            "Lvl 80 Elite Four Phoebe":
+            "Lvl 80 Elite Four Phoebe ":
             {
                 "evs":
                 {},
@@ -131934,7 +131934,7 @@ backup_data = {
                 "p_id": 302,
                 "nature": "Calm"
             },
-            "Lvl 22 Delinquent Destinee":
+            "Lvl 22 Delinquent Destinee ":
             {
                 "evs":
                 {},
@@ -131989,7 +131989,7 @@ backup_data = {
         },
         "Gothitelle":
         {
-            "Lvl 58 Hex Maniac Tasha":
+            "Lvl 58 Hex Maniac Tasha ":
             {
                 "evs":
                 {},
@@ -132021,7 +132021,7 @@ backup_data = {
         },
         "Miltank":
         {
-            "Lvl 57 Young Couple Dez & Luke":
+            "Lvl 57 Young Couple Dez & Luke ":
             {
                 "evs":
                 {},
@@ -132050,7 +132050,7 @@ backup_data = {
                 "p_id": 241,
                 "nature": "Modest"
             },
-            "Lvl 51 Young Couple Lea & Jed":
+            "Lvl 51 Young Couple Lea & Jed ":
             {
                 "evs":
                 {},
@@ -132114,7 +132114,7 @@ backup_data = {
         },
         "Shiftry":
         {
-            "Lvl 73 Furisode Girl Waggy":
+            "Lvl 73 Furisode Girl Waggy ":
             {
                 "evs":
                 {},
@@ -132233,7 +132233,7 @@ backup_data = {
         },
         "Aegislash-Shield":
         {
-            "Lvl 73 Furisode Girl Waggy":
+            "Lvl 73 Furisode Girl Waggy ":
             {
                 "evs":
                 {},
@@ -132262,7 +132262,7 @@ backup_data = {
                 "p_id": 681,
                 "nature": "Naughty"
             },
-            "Lvl 80 Elite Four Phoebe":
+            "Lvl 80 Elite Four Phoebe ":
             {
                 "evs":
                 {},
@@ -132291,7 +132291,7 @@ backup_data = {
                 "p_id": 681,
                 "nature": "Modest"
             },
-            "Lvl 66 Ace Trainer Hisato":
+            "Lvl 66 Ace Trainer Hisato ":
             {
                 "evs":
                 {},
@@ -132323,7 +132323,7 @@ backup_data = {
         },
         "Pinsir-Mega":
         {
-            "Lvl 73 Furisode Girl Waggy":
+            "Lvl 73 Furisode Girl Waggy ":
             {
                 "evs":
                 {},
@@ -132355,7 +132355,7 @@ backup_data = {
         },
         "Roserade":
         {
-            "Lvl 71 Ace Trainer Rifk":
+            "Lvl 71 Ace Trainer Rifk ":
             {
                 "evs":
                 {},
@@ -132471,7 +132471,7 @@ backup_data = {
                 "p_id": 407,
                 "nature": "Modest"
             },
-            "Lvl 57 Ace Trainer Wendy":
+            "Lvl 57 Ace Trainer Wendy ":
             {
                 "evs":
                 {},
@@ -132500,7 +132500,7 @@ backup_data = {
                 "p_id": 407,
                 "nature": "Jolly"
             },
-            "Lvl 33 The Winstrates’ Victoria":
+            "Lvl 33 The Winstrates’ Victoria ":
             {
                 "evs":
                 {},
@@ -132648,7 +132648,7 @@ backup_data = {
         },
         "Mienshao":
         {
-            "Lvl 71 Ace Trainer Rifk":
+            "Lvl 71 Ace Trainer Rifk ":
             {
                 "evs":
                 {},
@@ -132680,7 +132680,7 @@ backup_data = {
         },
         "Hydreigon":
         {
-            "Lvl 72 Ace Trainer Rifk":
+            "Lvl 72 Ace Trainer Rifk ":
             {
                 "evs":
                 {},
@@ -132709,7 +132709,7 @@ backup_data = {
                 "p_id": 635,
                 "nature": "Hasty"
             },
-            "Lvl 73 Ace Trainer Indigo":
+            "Lvl 73 Ace Trainer Indigo ":
             {
                 "evs":
                 {},
@@ -132741,7 +132741,7 @@ backup_data = {
         },
         "Diancie":
         {
-            "Lvl 83 Champion Steven":
+            "Lvl 83 Champion Steven ":
             {
                 "evs":
                 {},
@@ -132773,7 +132773,7 @@ backup_data = {
         },
         "Diancie-Mega":
         {
-            "Lvl 72 Ace Trainer Rifk":
+            "Lvl 72 Ace Trainer Rifk ":
             {
                 "evs":
                 {},
@@ -132805,7 +132805,7 @@ backup_data = {
         },
         "Snorlax":
         {
-            "Lvl 75 Butler Riptide":
+            "Lvl 75 Butler Riptide ":
             {
                 "evs":
                 {},
@@ -132837,7 +132837,7 @@ backup_data = {
         },
         "Slowbro-Mega":
         {
-            "Lvl 75 Butler Riptide":
+            "Lvl 75 Butler Riptide ":
             {
                 "evs":
                 {},
@@ -132869,7 +132869,7 @@ backup_data = {
         },
         "Umbreon":
         {
-            "Lvl 71 Ace Trainer Sunny":
+            "Lvl 71 Ace Trainer Sunny ":
             {
                 "evs":
                 {},
@@ -132898,7 +132898,7 @@ backup_data = {
                 "p_id": 197,
                 "nature": "Sassy"
             },
-            "Lvl 58 Teammates Kate & Joy":
+            "Lvl 58 Teammates Kate & Joy ":
             {
                 "evs":
                 {},
@@ -132959,7 +132959,7 @@ backup_data = {
         },
         "Glaceon":
         {
-            "Lvl 71 Ace Trainer Sunny":
+            "Lvl 71 Ace Trainer Sunny ":
             {
                 "evs":
                 {},
@@ -132988,7 +132988,7 @@ backup_data = {
                 "p_id": 471,
                 "nature": "Timid"
             },
-            "Lvl 62 Teammates Kim & Iris":
+            "Lvl 62 Teammates Kim & Iris ":
             {
                 "evs":
                 {},
@@ -133020,7 +133020,7 @@ backup_data = {
         },
         "Victini":
         {
-            "Lvl 71 Ace Trainer Sunny":
+            "Lvl 71 Ace Trainer Sunny ":
             {
                 "evs":
                 {},
@@ -133052,7 +133052,7 @@ backup_data = {
         },
         "Espeon":
         {
-            "Lvl 72 Ace Trainer Sunny":
+            "Lvl 72 Ace Trainer Sunny ":
             {
                 "evs":
                 {},
@@ -133081,7 +133081,7 @@ backup_data = {
                 "p_id": 196,
                 "nature": "Serious"
             },
-            "Lvl 58 Teammates Kate & Joy":
+            "Lvl 58 Teammates Kate & Joy ":
             {
                 "evs":
                 {},
@@ -133113,7 +133113,7 @@ backup_data = {
         },
         "Gardevoir-Mega":
         {
-            "Lvl 72 Ace Trainer Sunny":
+            "Lvl 72 Ace Trainer Sunny ":
             {
                 "evs":
                 {},
@@ -133145,7 +133145,7 @@ backup_data = {
         },
         "Zebstrika":
         {
-            "Lvl 49 Gentleman Tucker":
+            "Lvl 49 Gentleman Tucker ":
             {
                 "evs":
                 {},
@@ -133177,7 +133177,7 @@ backup_data = {
         },
         "Magcargo":
         {
-            "Lvl 37 Kindler Bernie":
+            "Lvl 37 Kindler Bernie ":
             {
                 "evs":
                 {},
@@ -133264,7 +133264,7 @@ backup_data = {
                 "p_id": 219,
                 "nature": "Relaxed"
             },
-            "Lvl 42 Leader Flannery":
+            "Lvl 42 Leader Flannery ":
             {
                 "evs":
                 {},
@@ -133293,7 +133293,7 @@ backup_data = {
                 "p_id": 219,
                 "nature": "Relaxed"
             },
-            "Lvl 79 Backpacker Grayson":
+            "Lvl 79 Backpacker Grayson ":
             {
                 "evs":
                 {},
@@ -133322,7 +133322,7 @@ backup_data = {
                 "p_id": 219,
                 "nature": "Modest"
             },
-            "Lvl 47 Ace Trainer Portia":
+            "Lvl 47 Ace Trainer Portia ":
             {
                 "evs":
                 {},
@@ -133470,7 +133470,7 @@ backup_data = {
         },
         "Simisear":
         {
-            "Lvl 37 Kindler Bernie":
+            "Lvl 37 Kindler Bernie ":
             {
                 "evs":
                 {},
@@ -133499,7 +133499,7 @@ backup_data = {
                 "p_id": 514,
                 "nature": "Quirky"
             },
-            "Lvl 42 Rotation Girl Circie":
+            "Lvl 42 Rotation Girl Circie ":
             {
                 "evs":
                 {},
@@ -133676,7 +133676,7 @@ backup_data = {
                 "p_id": 340,
                 "nature": "Adamant"
             },
-            "Lvl 66 Scuba Diver Tristan":
+            "Lvl 66 Scuba Diver Tristan ":
             {
                 "evs":
                 {},
@@ -133705,7 +133705,7 @@ backup_data = {
                 "p_id": 340,
                 "nature": "Relaxed"
             },
-            "Lvl 58 Fisherman Fisher":
+            "Lvl 58 Fisherman Fisher ":
             {
                 "evs":
                 {},
@@ -133798,7 +133798,7 @@ backup_data = {
                 "p_id": 601,
                 "nature": "Careful"
             },
-            "Lvl 78 Black Belt Koji":
+            "Lvl 78 Black Belt Koji ":
             {
                 "evs":
                 {},
@@ -133920,7 +133920,7 @@ backup_data = {
                 "p_id": 75,
                 "nature": "Lonely"
             },
-            "Lvl 25 Hiker Davian":
+            "Lvl 25 Hiker Davian ":
             {
                 "evs":
                 {},
@@ -134164,7 +134164,7 @@ backup_data = {
                 "p_id": 218,
                 "nature": "Careful"
             },
-            "Lvl 17 Youngster Cutler":
+            "Lvl 17 Youngster Cutler ":
             {
                 "evs":
                 {},
@@ -134443,7 +134443,7 @@ backup_data = {
                 "p_id": 308,
                 "nature": "Lax"
             },
-            "Lvl 34 The Winstrates’ Vicky":
+            "Lvl 34 The Winstrates’ Vicky ":
             {
                 "evs":
                 {},
@@ -134472,7 +134472,7 @@ backup_data = {
                 "p_id": 308,
                 "nature": "Relaxed"
             },
-            "Lvl 40 Battle Girl Sadie":
+            "Lvl 40 Battle Girl Sadie ":
             {
                 "evs":
                 {},
@@ -134594,7 +134594,7 @@ backup_data = {
                 "p_id": 625,
                 "nature": "Impish"
             },
-            "Lvl 80 Elite Four Sidney":
+            "Lvl 80 Elite Four Sidney ":
             {
                 "evs":
                 {},
@@ -134623,7 +134623,7 @@ backup_data = {
                 "p_id": 625,
                 "nature": "Brave"
             },
-            "Lvl 57 Delinquent Kylie":
+            "Lvl 57 Delinquent Kylie ":
             {
                 "evs":
                 {},
@@ -134652,7 +134652,7 @@ backup_data = {
                 "p_id": 625,
                 "nature": "Bold"
             },
-            "Lvl 67 Ace Trainer Honor":
+            "Lvl 67 Ace Trainer Honor ":
             {
                 "evs":
                 {},
@@ -134945,7 +134945,7 @@ backup_data = {
                 "p_id": 441,
                 "nature": "Rash"
             },
-            "Lvl 79 Ace Trainer Warren":
+            "Lvl 79 Ace Trainer Warren ":
             {
                 "evs":
                 {},
@@ -135093,7 +135093,7 @@ backup_data = {
                 "p_id": 521,
                 "nature": "Gentle"
             },
-            "Lvl 71 Bird Keeper Alex":
+            "Lvl 71 Bird Keeper Alex ":
             {
                 "evs":
                 {},
@@ -135122,7 +135122,7 @@ backup_data = {
                 "p_id": 521,
                 "nature": "Quiet"
             },
-            "Lvl 78 Bird Keeper Byron":
+            "Lvl 78 Bird Keeper Byron ":
             {
                 "evs":
                 {},
@@ -135183,7 +135183,7 @@ backup_data = {
                 "p_id": 25,
                 "nature": "Bold"
             },
-            "Lvl 26 Triathlete Sloan":
+            "Lvl 26 Triathlete Sloan ":
             {
                 "evs":
                 {},
@@ -135508,7 +135508,7 @@ backup_data = {
                 "p_id": 334,
                 "nature": "Serious"
             },
-            "Lvl 65 Street Thug Soyer":
+            "Lvl 65 Street Thug Soyer ":
             {
                 "evs":
                 {},
@@ -135688,7 +135688,7 @@ backup_data = {
                 "p_id": 338,
                 "nature": "Relaxed"
             },
-            "Lvl 37 Teammates Tyra & Ivy":
+            "Lvl 37 Teammates Tyra & Ivy ":
             {
                 "evs":
                 {},
@@ -135781,7 +135781,7 @@ backup_data = {
                 "p_id": 103,
                 "nature": "Rash"
             },
-            "Lvl 59 Poké Fan Vanessa":
+            "Lvl 59 Poké Fan Vanessa ":
             {
                 "evs":
                 {},
@@ -136022,7 +136022,7 @@ backup_data = {
                 "p_id": 435,
                 "nature": "Naive"
             },
-            "Lvl 34 Street Thug Jaylin":
+            "Lvl 34 Street Thug Jaylin ":
             {
                 "evs":
                 {},
@@ -136141,7 +136141,7 @@ backup_data = {
                 "p_id": 715,
                 "nature": "Sassy"
             },
-            "Lvl 66 Ace Trainer Cornelius":
+            "Lvl 66 Ace Trainer Cornelius ":
             {
                 "evs":
                 {},
@@ -136234,7 +136234,7 @@ backup_data = {
                 "p_id": 330,
                 "nature": "Brave"
             },
-            "Lvl 45 Ruin Maniac Drew":
+            "Lvl 45 Ruin Maniac Drew ":
             {
                 "evs":
                 {},
@@ -136263,7 +136263,7 @@ backup_data = {
                 "p_id": 330,
                 "nature": "Adamant"
             },
-            "Lvl 57 Ace Trainer Clyde":
+            "Lvl 57 Ace Trainer Clyde ":
             {
                 "evs":
                 {},
@@ -136292,7 +136292,7 @@ backup_data = {
                 "p_id": 330,
                 "nature": "Mild"
             },
-            "Lvl 74 Expert NPL":
+            "Lvl 74 Expert NPL ":
             {
                 "evs":
                 {},
@@ -136321,7 +136321,7 @@ backup_data = {
                 "p_id": 330,
                 "nature": "Naughty"
             },
-            "Lvl 65 Ace Trainer Leopold":
+            "Lvl 65 Ace Trainer Leopold ":
             {
                 "evs":
                 {},
@@ -136350,7 +136350,7 @@ backup_data = {
                 "p_id": 330,
                 "nature": "Lax"
             },
-            "Lvl 23 Secret Base Expert Aarune":
+            "Lvl 23 Secret Base Expert Aarune ":
             {
                 "evs":
                 {},
@@ -136411,7 +136411,7 @@ backup_data = {
         },
         "Doduo":
         {
-            "Lvl 28 Triathlete Dylan":
+            "Lvl 28 Triathlete Dylan ":
             {
                 "evs":
                 {},
@@ -136501,7 +136501,7 @@ backup_data = {
                 "p_id": 59,
                 "nature": "Brave"
             },
-            "Lvl 72 Street Thug Mycel":
+            "Lvl 72 Street Thug Mycel ":
             {
                 "evs":
                 {},
@@ -136530,7 +136530,7 @@ backup_data = {
                 "p_id": 59,
                 "nature": "Jolly"
             },
-            "Lvl 65 Street Thug Wellington":
+            "Lvl 65 Street Thug Wellington ":
             {
                 "evs":
                 {},
@@ -136559,7 +136559,7 @@ backup_data = {
         },
         "Pangoro":
         {
-            "Lvl 79 Ace Trainer Warren":
+            "Lvl 79 Ace Trainer Warren ":
             {
                 "evs":
                 {},
@@ -136588,7 +136588,7 @@ backup_data = {
                 "p_id": 675,
                 "nature": "Brave"
             },
-            "Lvl 59 Poké Fan Vanessa":
+            "Lvl 59 Poké Fan Vanessa ":
             {
                 "evs":
                 {},
@@ -136620,7 +136620,7 @@ backup_data = {
         },
         "Emboar":
         {
-            "Lvl 79 Ace Trainer Warren":
+            "Lvl 79 Ace Trainer Warren ":
             {
                 "evs":
                 {},
@@ -136652,7 +136652,7 @@ backup_data = {
         },
         "Rampardos":
         {
-            "Lvl 79 Ace Trainer Warren":
+            "Lvl 79 Ace Trainer Warren ":
             {
                 "evs":
                 {},
@@ -136681,7 +136681,7 @@ backup_data = {
                 "p_id": 409,
                 "nature": "Brave"
             },
-            "Lvl 65 Black Belt Banting":
+            "Lvl 65 Black Belt Banting ":
             {
                 "evs":
                 {},
@@ -136710,7 +136710,7 @@ backup_data = {
         },
         "Darmanitan":
         {
-            "Lvl 79 Ace Trainer Warren":
+            "Lvl 79 Ace Trainer Warren ":
             {
                 "evs":
                 {},
@@ -136739,7 +136739,7 @@ backup_data = {
                 "p_id": 555,
                 "nature": "Naughty"
             },
-            "Lvl 41 Ace Trainer Zane":
+            "Lvl 41 Ace Trainer Zane ":
             {
                 "evs":
                 {},
@@ -136771,7 +136771,7 @@ backup_data = {
         },
         "Darmanitan-Zen":
         {
-            "Lvl 64 Leaders Liza & Tate":
+            "Lvl 64 Leaders Liza & Tate ":
             {
                 "evs":
                 {},
@@ -136803,7 +136803,7 @@ backup_data = {
         },
         "Houndoom-Mega":
         {
-            "Lvl 79 Ace Trainer Warren":
+            "Lvl 79 Ace Trainer Warren ":
             {
                 "evs":
                 {},
@@ -136835,7 +136835,7 @@ backup_data = {
         },
         "Dragonite":
         {
-            "Lvl 71 Dragon Tamer Aaron":
+            "Lvl 71 Dragon Tamer Aaron ":
             {
                 "evs":
                 {},
@@ -136864,7 +136864,7 @@ backup_data = {
                 "p_id": 149,
                 "nature": "Mild"
             },
-            "Lvl 55 Leader Winona":
+            "Lvl 55 Leader Winona ":
             {
                 "evs":
                 {},
@@ -136893,7 +136893,7 @@ backup_data = {
                 "p_id": 149,
                 "nature": "Mild"
             },
-            "Lvl 91 Lorekeeper Zinnia":
+            "Lvl 91 Lorekeeper Zinnia ":
             {
                 "evs":
                 {},
@@ -136922,7 +136922,7 @@ backup_data = {
                 "p_id": 149,
                 "nature": "Timid"
             },
-            "Lvl 72 Lady Nora":
+            "Lvl 72 Lady Nora ":
             {
                 "evs":
                 {},
@@ -136951,7 +136951,7 @@ backup_data = {
                 "p_id": 149,
                 "nature": "Hasty"
             },
-            "Lvl 85 Pokémon Trainer Zinnia":
+            "Lvl 85 Pokémon Trainer Zinnia ":
             {
                 "evs":
                 {},
@@ -136983,7 +136983,7 @@ backup_data = {
         },
         "Clefairy":
         {
-            "Lvl 22 Beauty Johanna":
+            "Lvl 22 Beauty Johanna ":
             {
                 "evs":
                 {},
@@ -137012,7 +137012,7 @@ backup_data = {
                 "p_id": 35,
                 "nature": "Naive"
             },
-            "Lvl 57 Fairy Tale Girl Momo":
+            "Lvl 57 Fairy Tale Girl Momo ":
             {
                 "evs":
                 {},
@@ -137073,7 +137073,7 @@ backup_data = {
         },
         "Noctowl":
         {
-            "Lvl 54 Picnicker Kylee":
+            "Lvl 54 Picnicker Kylee ":
             {
                 "evs":
                 {},
@@ -137105,7 +137105,7 @@ backup_data = {
         },
         "Fletchinder":
         {
-            "Lvl 28 Pokémon Trainer Wally":
+            "Lvl 28 Pokémon Trainer Wally ":
             {
                 "evs":
                 {},
@@ -137137,7 +137137,7 @@ backup_data = {
         },
         "Gabite":
         {
-            "Lvl 28 Pokémon Trainer Wally":
+            "Lvl 28 Pokémon Trainer Wally ":
             {
                 "evs":
                 {},
@@ -137166,7 +137166,7 @@ backup_data = {
                 "p_id": 444,
                 "nature": "Naive"
             },
-            "Lvl 43 Picnicker Becky":
+            "Lvl 43 Picnicker Becky ":
             {
                 "evs":
                 {},
@@ -137700,7 +137700,7 @@ backup_data = {
                 "p_id": 260,
                 "nature": "Impish"
             },
-            "Lvl 71 Leader Wallace":
+            "Lvl 71 Leader Wallace ":
             {
                 "evs":
                 {},
@@ -137787,7 +137787,7 @@ backup_data = {
                 "p_id": 260,
                 "nature": "Adamant"
             },
-            "Lvl 90 Sootopolitan Wallace":
+            "Lvl 90 Sootopolitan Wallace ":
             {
                 "evs":
                 {},
@@ -137819,7 +137819,7 @@ backup_data = {
         },
         "Medicham-Mega":
         {
-            "Lvl 78 Black Belt Koji":
+            "Lvl 78 Black Belt Koji ":
             {
                 "evs":
                 {},
@@ -137851,7 +137851,7 @@ backup_data = {
         },
         "Venomoth":
         {
-            "Lvl 78 Bird Keeper Byron":
+            "Lvl 78 Bird Keeper Byron ":
             {
                 "evs":
                 {},
@@ -137880,7 +137880,7 @@ backup_data = {
                 "p_id": 49,
                 "nature": "Mild"
             },
-            "Lvl 57 Ace Trainer Wendy":
+            "Lvl 57 Ace Trainer Wendy ":
             {
                 "evs":
                 {},
@@ -137912,7 +137912,7 @@ backup_data = {
         },
         "Pidgeot-Mega":
         {
-            "Lvl 78 Bird Keeper Byron":
+            "Lvl 78 Bird Keeper Byron ":
             {
                 "evs":
                 {},
@@ -137944,7 +137944,7 @@ backup_data = {
         },
         "Slowking":
         {
-            "Lvl 69 Sis & Bro Rell & Ian":
+            "Lvl 69 Sis & Bro Rell & Ian ":
             {
                 "evs":
                 {},
@@ -137973,7 +137973,7 @@ backup_data = {
                 "p_id": 199,
                 "nature": "Modest"
             },
-            "Lvl 63 Free Diver Hollie":
+            "Lvl 63 Free Diver Hollie ":
             {
                 "evs":
                 {},
@@ -138005,7 +138005,7 @@ backup_data = {
         },
         "Samurott":
         {
-            "Lvl 61 Sis & Bro Rita & Sam":
+            "Lvl 61 Sis & Bro Rita & Sam ":
             {
                 "evs":
                 {},
@@ -138034,7 +138034,7 @@ backup_data = {
                 "p_id": 503,
                 "nature": "Timid"
             },
-            "Lvl 70 Leader Wallace":
+            "Lvl 70 Leader Wallace ":
             {
                 "evs":
                 {},
@@ -138063,7 +138063,7 @@ backup_data = {
                 "p_id": 503,
                 "nature": "Jolly"
             },
-            "Lvl 89 Sootopolitan Wallace":
+            "Lvl 89 Sootopolitan Wallace ":
             {
                 "evs":
                 {},
@@ -138095,7 +138095,7 @@ backup_data = {
         },
         "Hypno":
         {
-            "Lvl 64 Leaders Liza & Tate":
+            "Lvl 64 Leaders Liza & Tate ":
             {
                 "evs":
                 {},
@@ -138127,7 +138127,7 @@ backup_data = {
         },
         "Alakazam-Mega":
         {
-            "Lvl 65 Leaders Liza & Tate":
+            "Lvl 65 Leaders Liza & Tate ":
             {
                 "evs":
                 {},
@@ -138159,7 +138159,7 @@ backup_data = {
         },
         "Absol-Mega":
         {
-            "Lvl 81 Elite Four Sidney":
+            "Lvl 81 Elite Four Sidney ":
             {
                 "evs":
                 {},
@@ -138220,7 +138220,7 @@ backup_data = {
         },
         "Dusknoir":
         {
-            "Lvl 81 Elite Four Phoebe":
+            "Lvl 81 Elite Four Phoebe ":
             {
                 "evs":
                 {},
@@ -138281,7 +138281,7 @@ backup_data = {
         },
         "Banette-Mega":
         {
-            "Lvl 81 Elite Four Phoebe":
+            "Lvl 81 Elite Four Phoebe ":
             {
                 "evs":
                 {},
@@ -138313,7 +138313,7 @@ backup_data = {
         },
         "Articuno":
         {
-            "Lvl 80 Elite Four Glacia":
+            "Lvl 80 Elite Four Glacia ":
             {
                 "evs":
                 {},
@@ -138374,7 +138374,7 @@ backup_data = {
         },
         "Froslass":
         {
-            "Lvl 80 Elite Four Glacia":
+            "Lvl 80 Elite Four Glacia ":
             {
                 "evs":
                 {},
@@ -138403,7 +138403,7 @@ backup_data = {
                 "p_id": 478,
                 "nature": "Rash"
             },
-            "Lvl 47 Ace Trainer Portia":
+            "Lvl 47 Ace Trainer Portia ":
             {
                 "evs":
                 {},
@@ -138464,7 +138464,7 @@ backup_data = {
         },
         "Mamoswine":
         {
-            "Lvl 80 Elite Four Glacia":
+            "Lvl 80 Elite Four Glacia ":
             {
                 "evs":
                 {},
@@ -138493,7 +138493,7 @@ backup_data = {
                 "p_id": 473,
                 "nature": "Hasty"
             },
-            "Lvl 60 Poké Maniac Kelvin":
+            "Lvl 60 Poké Maniac Kelvin ":
             {
                 "evs":
                 {},
@@ -138522,7 +138522,7 @@ backup_data = {
                 "p_id": 473,
                 "nature": "Brave"
             },
-            "Lvl 72 Street Thug Mycel":
+            "Lvl 72 Street Thug Mycel ":
             {
                 "evs":
                 {},
@@ -138551,7 +138551,7 @@ backup_data = {
                 "p_id": 473,
                 "nature": "Naughty"
             },
-            "Lvl 66 Ace Trainer Hisato":
+            "Lvl 66 Ace Trainer Hisato ":
             {
                 "evs":
                 {},
@@ -138670,7 +138670,7 @@ backup_data = {
         },
         "Regice":
         {
-            "Lvl 81 Elite Four Glacia":
+            "Lvl 81 Elite Four Glacia ":
             {
                 "evs":
                 {},
@@ -138733,7 +138733,7 @@ backup_data = {
         {},
         "Glalie-Mega":
         {
-            "Lvl 81 Elite Four Glacia":
+            "Lvl 81 Elite Four Glacia ":
             {
                 "evs":
                 {},
@@ -138794,7 +138794,7 @@ backup_data = {
         },
         "Garchomp":
         {
-            "Lvl 80 Elite Four Drake":
+            "Lvl 80 Elite Four Drake ":
             {
                 "evs":
                 {},
@@ -138852,7 +138852,7 @@ backup_data = {
                 "p_id": 445,
                 "nature": "Adamant"
             },
-            "Lvl 86 Pokémon Trainer Zinnia":
+            "Lvl 86 Pokémon Trainer Zinnia ":
             {
                 "evs":
                 {},
@@ -139087,7 +139087,7 @@ backup_data = {
         },
         "Latios":
         {
-            "Lvl 80 Elite Four Drake":
+            "Lvl 80 Elite Four Drake ":
             {
                 "evs":
                 {},
@@ -139148,7 +139148,7 @@ backup_data = {
         },
         "Salamence":
         {
-            "Lvl 75 Hex Maniac Anathema":
+            "Lvl 75 Hex Maniac Anathema ":
             {
                 "evs":
                 {},
@@ -139180,7 +139180,7 @@ backup_data = {
         },
         "Salamence-Mega":
         {
-            "Lvl 81 Elite Four Drake":
+            "Lvl 81 Elite Four Drake ":
             {
                 "evs":
                 {},
@@ -139241,7 +139241,7 @@ backup_data = {
         },
         "Genesect":
         {
-            "Lvl 83 Champion Steven":
+            "Lvl 83 Champion Steven ":
             {
                 "evs":
                 {},
@@ -139331,7 +139331,7 @@ backup_data = {
         },
         "Landorus-Therian":
         {
-            "Lvl 83 Champion Steven":
+            "Lvl 83 Champion Steven ":
             {
                 "evs":
                 {},
@@ -139421,7 +139421,7 @@ backup_data = {
         },
         "Aerodactyl":
         {
-            "Lvl 83 Champion Steven":
+            "Lvl 83 Champion Steven ":
             {
                 "evs":
                 {},
@@ -139479,7 +139479,7 @@ backup_data = {
                 "p_id": 142,
                 "nature": "Hasty"
             },
-            "Lvl 53 Pokémon Trainer Steven":
+            "Lvl 53 Pokémon Trainer Steven ":
             {
                 "evs":
                 {},
@@ -139508,7 +139508,7 @@ backup_data = {
                 "p_id": 142,
                 "nature": "Jolly"
             },
-            "Lvl 48 Ruin Maniac Hayes":
+            "Lvl 48 Ruin Maniac Hayes ":
             {
                 "evs":
                 {},
@@ -139537,7 +139537,7 @@ backup_data = {
                 "p_id": 142,
                 "nature": "Relaxed"
             },
-            "Lvl 65 Street Thug Soyer":
+            "Lvl 65 Street Thug Soyer ":
             {
                 "evs":
                 {},
@@ -139595,7 +139595,7 @@ backup_data = {
         },
         "Metagross":
         {
-            "Lvl 54 Pokémon Trainer Steven":
+            "Lvl 54 Pokémon Trainer Steven ":
             {
                 "evs":
                 {},
@@ -139627,7 +139627,7 @@ backup_data = {
         },
         "Metagross-Mega":
         {
-            "Lvl 84 Champion Steven":
+            "Lvl 84 Champion Steven ":
             {
                 "evs":
                 {},
@@ -139717,7 +139717,7 @@ backup_data = {
         },
         "Tirtouga":
         {
-            "Lvl 15 Leader Roxanne":
+            "Lvl 15 Leader Roxanne ":
             {
                 "evs":
                 {},
@@ -139749,7 +139749,7 @@ backup_data = {
         },
         "Anorith":
         {
-            "Lvl 15 Leader Roxanne":
+            "Lvl 15 Leader Roxanne ":
             {
                 "evs":
                 {},
@@ -139810,7 +139810,7 @@ backup_data = {
         },
         "Lileep":
         {
-            "Lvl 15 Leader Roxanne":
+            "Lvl 15 Leader Roxanne ":
             {
                 "evs":
                 {},
@@ -139865,7 +139865,7 @@ backup_data = {
         },
         "Nosepass":
         {
-            "Lvl 16 Leader Roxanne":
+            "Lvl 16 Leader Roxanne ":
             {
                 "evs":
                 {},
@@ -139894,7 +139894,7 @@ backup_data = {
                 "p_id": 299,
                 "nature": "Bold"
             },
-            "Lvl 5 Secret Base Trainer Grunt":
+            "Lvl 5 Secret Base Trainer Grunt ":
             {
                 "evs":
                 {},
@@ -139920,7 +139920,7 @@ backup_data = {
         },
         "Kabuto":
         {
-            "Lvl 13 Youngster Josh":
+            "Lvl 13 Youngster Josh ":
             {
                 "evs":
                 {},
@@ -139952,7 +139952,7 @@ backup_data = {
         },
         "Omanyte":
         {
-            "Lvl 13 Youngster Josh":
+            "Lvl 13 Youngster Josh ":
             {
                 "evs":
                 {},
@@ -139984,7 +139984,7 @@ backup_data = {
         },
         "Galvantula":
         {
-            "Lvl 31 Leader Wattson":
+            "Lvl 31 Leader Wattson ":
             {
                 "evs":
                 {},
@@ -140013,7 +140013,7 @@ backup_data = {
                 "p_id": 596,
                 "nature": "Rash"
             },
-            "Lvl 60 Bug Maniac Felix":
+            "Lvl 60 Bug Maniac Felix ":
             {
                 "evs":
                 {},
@@ -140042,7 +140042,7 @@ backup_data = {
                 "p_id": 596,
                 "nature": "Quirky"
             },
-            "Lvl 75 Hex Maniac Anathema":
+            "Lvl 75 Hex Maniac Anathema ":
             {
                 "evs":
                 {},
@@ -140071,7 +140071,7 @@ backup_data = {
                 "p_id": 596,
                 "nature": "Modest"
             },
-            "Lvl 47 Ace Trainer Neville":
+            "Lvl 47 Ace Trainer Neville ":
             {
                 "evs":
                 {},
@@ -140190,7 +140190,7 @@ backup_data = {
         },
         "Electabuzz":
         {
-            "Lvl 31 Leader Wattson":
+            "Lvl 31 Leader Wattson ":
             {
                 "evs":
                 {},
@@ -140219,7 +140219,7 @@ backup_data = {
                 "p_id": 125,
                 "nature": "Adamant"
             },
-            "Lvl 31 Battle Girl Vivian":
+            "Lvl 31 Battle Girl Vivian ":
             {
                 "evs":
                 {},
@@ -140251,7 +140251,7 @@ backup_data = {
         },
         "Torkoal":
         {
-            "Lvl 42 Leader Flannery":
+            "Lvl 42 Leader Flannery ":
             {
                 "evs":
                 {},
@@ -140283,7 +140283,7 @@ backup_data = {
         },
         "Magmortar":
         {
-            "Lvl 42 Leader Flannery":
+            "Lvl 42 Leader Flannery ":
             {
                 "evs":
                 {},
@@ -140312,7 +140312,7 @@ backup_data = {
                 "p_id": 467,
                 "nature": "Timid"
             },
-            "Lvl 65 Ace Trainer Harriet":
+            "Lvl 65 Ace Trainer Harriet ":
             {
                 "evs":
                 {},
@@ -140344,7 +140344,7 @@ backup_data = {
         },
         "Audino":
         {
-            "Lvl 46 Leader Norman":
+            "Lvl 46 Leader Norman ":
             {
                 "evs":
                 {},
@@ -140376,7 +140376,7 @@ backup_data = {
         },
         "Cinccino":
         {
-            "Lvl 46 Leader Norman":
+            "Lvl 46 Leader Norman ":
             {
                 "evs":
                 {},
@@ -140408,7 +140408,7 @@ backup_data = {
         },
         "Archeops":
         {
-            "Lvl 55 Leader Winona":
+            "Lvl 55 Leader Winona ":
             {
                 "evs":
                 {},
@@ -140437,7 +140437,7 @@ backup_data = {
                 "p_id": 567,
                 "nature": "Lonely"
             },
-            "Lvl 48 Ruin Maniac Hayes":
+            "Lvl 48 Ruin Maniac Hayes ":
             {
                 "evs":
                 {},
@@ -140469,7 +140469,7 @@ backup_data = {
         },
         "Altaria-Mega":
         {
-            "Lvl 56 Leader Winona":
+            "Lvl 56 Leader Winona ":
             {
                 "evs":
                 {},
@@ -140501,7 +140501,7 @@ backup_data = {
         },
         "Goodra":
         {
-            "Lvl 70 Leader Wallace":
+            "Lvl 70 Leader Wallace ":
             {
                 "evs":
                 {},
@@ -140530,7 +140530,7 @@ backup_data = {
                 "p_id": 706,
                 "nature": "Bold"
             },
-            "Lvl 67 Fisherman Sheaffer":
+            "Lvl 67 Fisherman Sheaffer ":
             {
                 "evs":
                 {},
@@ -140559,7 +140559,7 @@ backup_data = {
                 "p_id": 706,
                 "nature": "Impish"
             },
-            "Lvl 55 Aroma Lady Thyme":
+            "Lvl 55 Aroma Lady Thyme ":
             {
                 "evs":
                 {},
@@ -140586,7 +140586,7 @@ backup_data = {
                 "p_id": 706,
                 "nature": "Mild"
             },
-            "Lvl 89 Sootopolitan Wallace":
+            "Lvl 89 Sootopolitan Wallace ":
             {
                 "evs":
                 {},
@@ -140618,7 +140618,7 @@ backup_data = {
         },
         "Krookodile":
         {
-            "Lvl 44 Ruin Maniac Drew":
+            "Lvl 44 Ruin Maniac Drew ":
             {
                 "evs":
                 {},
@@ -140647,7 +140647,7 @@ backup_data = {
                 "p_id": 553,
                 "nature": "Naive"
             },
-            "Lvl 57 Beauty Jessica":
+            "Lvl 57 Beauty Jessica ":
             {
                 "evs":
                 {},
@@ -140705,7 +140705,7 @@ backup_data = {
                 "p_id": 553,
                 "nature": "Docile"
             },
-            "Lvl 65 Street Thug Wellington":
+            "Lvl 65 Street Thug Wellington ":
             {
                 "evs":
                 {},
@@ -140734,7 +140734,7 @@ backup_data = {
         },
         "Maractus":
         {
-            "Lvl 44 Ruin Maniac Drew":
+            "Lvl 44 Ruin Maniac Drew ":
             {
                 "evs":
                 {},
@@ -140763,7 +140763,7 @@ backup_data = {
                 "p_id": 556,
                 "nature": "Rash"
             },
-            "Lvl 43 Picnicker Becky":
+            "Lvl 43 Picnicker Becky ":
             {
                 "evs":
                 {},
@@ -140792,7 +140792,7 @@ backup_data = {
                 "p_id": 556,
                 "nature": "Calm"
             },
-            "Lvl 55 Lass Suzette":
+            "Lvl 55 Lass Suzette ":
             {
                 "evs":
                 {},
@@ -140822,7 +140822,7 @@ backup_data = {
         },
         "Hippowdon":
         {
-            "Lvl 43 Picnicker Heidi":
+            "Lvl 43 Picnicker Heidi ":
             {
                 "evs":
                 {},
@@ -140851,7 +140851,7 @@ backup_data = {
                 "p_id": 450,
                 "nature": "Sassy"
             },
-            "Lvl 60 Poké Maniac Kelvin":
+            "Lvl 60 Poké Maniac Kelvin ":
             {
                 "evs":
                 {},
@@ -140970,7 +140970,7 @@ backup_data = {
         },
         "Claydol":
         {
-            "Lvl 43 Picnicker Heidi":
+            "Lvl 43 Picnicker Heidi ":
             {
                 "evs":
                 {},
@@ -140999,7 +140999,7 @@ backup_data = {
                 "p_id": 344,
                 "nature": "Adamant"
             },
-            "Lvl 57 Ruin Maniac Chip":
+            "Lvl 57 Ruin Maniac Chip ":
             {
                 "evs":
                 {},
@@ -141089,7 +141089,7 @@ backup_data = {
         },
         "Cacturne":
         {
-            "Lvl 43 Camper Cliff":
+            "Lvl 43 Camper Cliff ":
             {
                 "evs":
                 {},
@@ -141208,7 +141208,7 @@ backup_data = {
         },
         "Crustle":
         {
-            "Lvl 43 Ruin Maniac Dusty":
+            "Lvl 43 Ruin Maniac Dusty ":
             {
                 "evs":
                 {},
@@ -141356,7 +141356,7 @@ backup_data = {
         },
         "Mawile":
         {
-            "Lvl 57 Ace Trainer Wendy":
+            "Lvl 57 Ace Trainer Wendy ":
             {
                 "evs":
                 {},
@@ -141385,7 +141385,7 @@ backup_data = {
                 "p_id": 303,
                 "nature": "Impish"
             },
-            "Lvl 35 Fairy Tale Girl Cece":
+            "Lvl 35 Fairy Tale Girl Cece ":
             {
                 "evs":
                 {},
@@ -141657,7 +141657,7 @@ backup_data = {
         },
         "Sneasel":
         {
-            "Lvl 28 Teammates Anna & Meg":
+            "Lvl 28 Teammates Anna & Meg ":
             {
                 "evs":
                 {},
@@ -141718,7 +141718,7 @@ backup_data = {
         },
         "Swinub":
         {
-            "Lvl 28 Teammates Anna & Meg":
+            "Lvl 28 Teammates Anna & Meg ":
             {
                 "evs":
                 {},
@@ -141750,7 +141750,7 @@ backup_data = {
         },
         "Probopass":
         {
-            "Lvl 57 Ruin Maniac Chip":
+            "Lvl 57 Ruin Maniac Chip ":
             {
                 "evs":
                 {},
@@ -141779,7 +141779,7 @@ backup_data = {
                 "p_id": 476,
                 "nature": "Serious"
             },
-            "Lvl 66 Ace Trainer Claudia":
+            "Lvl 66 Ace Trainer Claudia ":
             {
                 "evs":
                 {},
@@ -141808,7 +141808,7 @@ backup_data = {
                 "p_id": 476,
                 "nature": "Gentle"
             },
-            "Lvl 72 Lady Nora":
+            "Lvl 72 Lady Nora ":
             {
                 "evs":
                 {},
@@ -141840,7 +141840,7 @@ backup_data = {
         },
         "Omastar":
         {
-            "Lvl 69 Beauty Olivia":
+            "Lvl 69 Beauty Olivia ":
             {
                 "evs":
                 {},
@@ -141901,7 +141901,7 @@ backup_data = {
         },
         "Corsola":
         {
-            "Lvl 45 Ruin Maniac Foster":
+            "Lvl 45 Ruin Maniac Foster ":
             {
                 "evs":
                 {},
@@ -141930,7 +141930,7 @@ backup_data = {
                 "p_id": 222,
                 "nature": "Impish"
             },
-            "Lvl 62 Free Diver Rischel":
+            "Lvl 62 Free Diver Rischel ":
             {
                 "evs":
                 {},
@@ -141959,7 +141959,7 @@ backup_data = {
                 "p_id": 222,
                 "nature": "Quirky"
             },
-            "Lvl 68 Free Diver Coral":
+            "Lvl 68 Free Diver Coral ":
             {
                 "evs":
                 {},
@@ -142081,7 +142081,7 @@ backup_data = {
                 "p_id": 697,
                 "nature": "Lax"
             },
-            "Lvl 85 Pokémon Trainer Zinnia":
+            "Lvl 85 Pokémon Trainer Zinnia ":
             {
                 "evs":
                 {},
@@ -142270,7 +142270,7 @@ backup_data = {
                 "p_id": 365,
                 "nature": "Jolly"
             },
-            "Lvl 66 Scuba Diver Javier":
+            "Lvl 66 Scuba Diver Javier ":
             {
                 "evs":
                 {},
@@ -142447,7 +142447,7 @@ backup_data = {
                 "p_id": 352,
                 "nature": "Serious"
             },
-            "Lvl 58 Backpacker Darnell":
+            "Lvl 58 Backpacker Darnell ":
             {
                 "evs":
                 {},
@@ -142595,7 +142595,7 @@ backup_data = {
         },
         "Bibarel":
         {
-            "Lvl 33 The Winstrates’ Victor":
+            "Lvl 33 The Winstrates’ Victor ":
             {
                 "evs":
                 {},
@@ -142659,7 +142659,7 @@ backup_data = {
         },
         "Carracosta":
         {
-            "Lvl 69 Lady Brianna":
+            "Lvl 69 Lady Brianna ":
             {
                 "evs":
                 {},
@@ -142688,7 +142688,7 @@ backup_data = {
                 "p_id": 565,
                 "nature": "Adamant"
             },
-            "Lvl 65 Ace Trainer Leopold":
+            "Lvl 65 Ace Trainer Leopold ":
             {
                 "evs":
                 {},
@@ -142720,7 +142720,7 @@ backup_data = {
         },
         "Persian":
         {
-            "Lvl 51 Lady Anette":
+            "Lvl 51 Lady Anette ":
             {
                 "evs":
                 {},
@@ -142752,7 +142752,7 @@ backup_data = {
         },
         "Furfrou":
         {
-            "Lvl 51 Rich Boy Garret":
+            "Lvl 51 Rich Boy Garret ":
             {
                 "evs":
                 {},
@@ -142784,7 +142784,7 @@ backup_data = {
         },
         "Cradily":
         {
-            "Lvl 52 Pokémon Trainer Steven":
+            "Lvl 52 Pokémon Trainer Steven ":
             {
                 "evs":
                 {},
@@ -142874,7 +142874,7 @@ backup_data = {
         },
         "Simisage":
         {
-            "Lvl 42 Rotation Girl Circie":
+            "Lvl 42 Rotation Girl Circie ":
             {
                 "evs":
                 {},
@@ -142906,7 +142906,7 @@ backup_data = {
         },
         "Heliolisk":
         {
-            "Lvl 48 Aqua Admin Matt":
+            "Lvl 48 Aqua Admin Matt ":
             {
                 "evs":
                 {},
@@ -142967,7 +142967,7 @@ backup_data = {
         },
         "Seismitoad":
         {
-            "Lvl 48 Aqua Admin Matt":
+            "Lvl 48 Aqua Admin Matt ":
             {
                 "evs":
                 {},
@@ -142996,7 +142996,7 @@ backup_data = {
                 "p_id": 537,
                 "nature": "Adamant"
             },
-            "Lvl 66 Tuber Delmar":
+            "Lvl 66 Tuber Delmar ":
             {
                 "evs":
                 {},
@@ -143240,7 +143240,7 @@ backup_data = {
         },
         "Vanilluxe":
         {
-            "Lvl 37 Aqua Admin Shelly":
+            "Lvl 37 Aqua Admin Shelly ":
             {
                 "evs":
                 {},
@@ -143359,7 +143359,7 @@ backup_data = {
         },
         "Weavile":
         {
-            "Lvl 38 Aqua Admin Shelly":
+            "Lvl 38 Aqua Admin Shelly ":
             {
                 "evs":
                 {},
@@ -143446,7 +143446,7 @@ backup_data = {
                 "p_id": 461,
                 "nature": "Adamant"
             },
-            "Lvl 57 Delinquent Sharlene":
+            "Lvl 57 Delinquent Sharlene ":
             {
                 "evs":
                 {},
@@ -143536,7 +143536,7 @@ backup_data = {
                 "p_id": 614,
                 "nature": "Lonely"
             },
-            "Lvl 66 Ace Trainer Claudia":
+            "Lvl 66 Ace Trainer Claudia ":
             {
                 "evs":
                 {},
@@ -143634,7 +143634,7 @@ backup_data = {
         },
         "Tangrowth":
         {
-            "Lvl 60 Aroma Lady Carnation":
+            "Lvl 60 Aroma Lady Carnation ":
             {
                 "evs":
                 {},
@@ -143753,7 +143753,7 @@ backup_data = {
         },
         "Victreebel":
         {
-            "Lvl 60 Aroma Lady Carnation":
+            "Lvl 60 Aroma Lady Carnation ":
             {
                 "evs":
                 {},
@@ -143872,7 +143872,7 @@ backup_data = {
         },
         "Slurpuff":
         {
-            "Lvl 60 Fairy Tale Girl Josephine":
+            "Lvl 60 Fairy Tale Girl Josephine ":
             {
                 "evs":
                 {},
@@ -143901,7 +143901,7 @@ backup_data = {
                 "p_id": 685,
                 "nature": "Brave"
             },
-            "Lvl 73 Ace Trainer Indigo":
+            "Lvl 73 Ace Trainer Indigo ":
             {
                 "evs":
                 {},
@@ -144020,7 +144020,7 @@ backup_data = {
         },
         "Dialga":
         {
-            "Lvl 91 Lorekeeper Zinnia":
+            "Lvl 91 Lorekeeper Zinnia ":
             {
                 "evs":
                 {},
@@ -144081,7 +144081,7 @@ backup_data = {
         },
         "Kyurem-Black":
         {
-            "Lvl 91 Lorekeeper Zinnia":
+            "Lvl 91 Lorekeeper Zinnia ":
             {
                 "evs":
                 {},
@@ -144145,7 +144145,7 @@ backup_data = {
         },
         "Charizard-Mega-X":
         {
-            "Lvl 92 Lorekeeper Zinnia":
+            "Lvl 92 Lorekeeper Zinnia ":
             {
                 "evs":
                 {},
@@ -144177,7 +144177,7 @@ backup_data = {
         },
         "Pachirisu":
         {
-            "Lvl 27 Triathlete Dolph":
+            "Lvl 27 Triathlete Dolph ":
             {
                 "evs":
                 {},
@@ -144209,7 +144209,7 @@ backup_data = {
         },
         "Ferroseed":
         {
-            "Lvl 19 Backpacker Graeme":
+            "Lvl 19 Backpacker Graeme ":
             {
                 "evs":
                 {},
@@ -144241,7 +144241,7 @@ backup_data = {
         },
         "Gligar":
         {
-            "Lvl 20 Backpacker Graeme":
+            "Lvl 20 Backpacker Graeme ":
             {
                 "evs":
                 {},
@@ -144273,7 +144273,7 @@ backup_data = {
         },
         "Dunsparce":
         {
-            "Lvl 35 Backpacker Deon":
+            "Lvl 35 Backpacker Deon ":
             {
                 "evs":
                 {},
@@ -144302,7 +144302,7 @@ backup_data = {
                 "p_id": 206,
                 "nature": "Mild"
             },
-            "Lvl 25 Ruin Maniac Omari":
+            "Lvl 25 Ruin Maniac Omari ":
             {
                 "evs":
                 {},
@@ -144334,7 +144334,7 @@ backup_data = {
         },
         "Girafarig":
         {
-            "Lvl 58 Backpacker Darnell":
+            "Lvl 58 Backpacker Darnell ":
             {
                 "evs":
                 {},
@@ -144366,7 +144366,7 @@ backup_data = {
         },
         "Floette":
         {
-            "Lvl 79 Backpacker Grayson":
+            "Lvl 79 Backpacker Grayson ":
             {
                 "evs":
                 {},
@@ -144398,7 +144398,7 @@ backup_data = {
         },
         "Diggersby":
         {
-            "Lvl 79 Backpacker Grayson":
+            "Lvl 79 Backpacker Grayson ":
             {
                 "evs":
                 {},
@@ -144430,7 +144430,7 @@ backup_data = {
         },
         "Aerodactyl-Mega":
         {
-            "Lvl 79 Backpacker Grayson":
+            "Lvl 79 Backpacker Grayson ":
             {
                 "evs":
                 {},
@@ -144494,7 +144494,7 @@ backup_data = {
         },
         "Audino-Mega":
         {
-            "Lvl 76 Hex Maniac Anathema":
+            "Lvl 76 Hex Maniac Anathema ":
             {
                 "evs":
                 {},
@@ -144526,7 +144526,7 @@ backup_data = {
         },
         "Kingler":
         {
-            "Lvl 58 Scuba Diver Keaton":
+            "Lvl 58 Scuba Diver Keaton ":
             {
                 "evs":
                 {},
@@ -144619,7 +144619,7 @@ backup_data = {
         },
         "Clamperl":
         {
-            "Lvl 39 Free Diver Arzu":
+            "Lvl 39 Free Diver Arzu ":
             {
                 "evs":
                 {},
@@ -144651,7 +144651,7 @@ backup_data = {
         },
         "Phione":
         {
-            "Lvl 66 Free Diver Aileen":
+            "Lvl 66 Free Diver Aileen ":
             {
                 "evs":
                 {},
@@ -144683,7 +144683,7 @@ backup_data = {
         },
         "Ursaring":
         {
-            "Lvl 75 Chef BoomXD":
+            "Lvl 75 Chef BoomXD ":
             {
                 "evs":
                 {},
@@ -144715,7 +144715,7 @@ backup_data = {
         },
         "Gengar-Mega":
         {
-            "Lvl 75 Chef BoomXD":
+            "Lvl 75 Chef BoomXD ":
             {
                 "evs":
                 {},
@@ -144776,7 +144776,7 @@ backup_data = {
         },
         "Clefable":
         {
-            "Lvl 73 Expert NPL":
+            "Lvl 73 Expert NPL ":
             {
                 "evs":
                 {},
@@ -144834,7 +144834,7 @@ backup_data = {
                 "p_id": 36,
                 "nature": "Lonely"
             },
-            "Lvl 65 Street Thug Bass":
+            "Lvl 65 Street Thug Bass ":
             {
                 "evs":
                 {},
@@ -144863,7 +144863,7 @@ backup_data = {
         },
         "Amoonguss":
         {
-            "Lvl 73 Expert NPL":
+            "Lvl 73 Expert NPL ":
             {
                 "evs":
                 {},
@@ -144895,7 +144895,7 @@ backup_data = {
         },
         "Steelix-Mega":
         {
-            "Lvl 74 Expert NPL":
+            "Lvl 74 Expert NPL ":
             {
                 "evs":
                 {},
@@ -144927,7 +144927,7 @@ backup_data = {
         },
         "Togetic":
         {
-            "Lvl 35 Fairy Tale Girl Cece":
+            "Lvl 35 Fairy Tale Girl Cece ":
             {
                 "evs":
                 {},
@@ -144959,7 +144959,7 @@ backup_data = {
         },
         "Florges":
         {
-            "Lvl 39 Fairy Tale Girl Nellie":
+            "Lvl 39 Fairy Tale Girl Nellie ":
             {
                 "evs":
                 {},
@@ -144988,7 +144988,7 @@ backup_data = {
                 "p_id": 671,
                 "nature": "Impish"
             },
-            "Lvl 58 Mysterious Sisters Elle & Aya":
+            "Lvl 58 Mysterious Sisters Elle & Aya ":
             {
                 "evs":
                 {},
@@ -145258,7 +145258,7 @@ backup_data = {
         },
         "Sandile":
         {
-            "Lvl 22 Street Thug Blair":
+            "Lvl 22 Street Thug Blair ":
             {
                 "evs":
                 {},
@@ -145290,7 +145290,7 @@ backup_data = {
         },
         "Heracross-Mega":
         {
-            "Lvl 73 Street Thug Mycel":
+            "Lvl 73 Street Thug Mycel ":
             {
                 "evs":
                 {},
@@ -145386,7 +145386,7 @@ backup_data = {
         },
         "Bastiodon":
         {
-            "Lvl 73 Ace Trainer Indigo":
+            "Lvl 73 Ace Trainer Indigo ":
             {
                 "evs":
                 {},
@@ -145418,7 +145418,7 @@ backup_data = {
         },
         "Hitmontop":
         {
-            "Lvl 74 Ace Trainer Indigo":
+            "Lvl 74 Ace Trainer Indigo ":
             {
                 "evs":
                 {},
@@ -145452,7 +145452,7 @@ backup_data = {
         {},
         "Lopunny-Mega":
         {
-            "Lvl 74 Ace Trainer Indigo":
+            "Lvl 74 Ace Trainer Indigo ":
             {
                 "evs":
                 {},
@@ -145484,7 +145484,7 @@ backup_data = {
         },
         "Sylveon":
         {
-            "Lvl 72 Lady Nora":
+            "Lvl 72 Lady Nora ":
             {
                 "evs":
                 {},
@@ -145518,7 +145518,7 @@ backup_data = {
         {},
         "Beedrill-Mega":
         {
-            "Lvl 73 Lady Nora":
+            "Lvl 73 Lady Nora ":
             {
                 "evs":
                 {},
@@ -145550,7 +145550,7 @@ backup_data = {
         },
         "Jigglypuff":
         {
-            "Lvl 17 Fairy Tale Girl Meggi":
+            "Lvl 17 Fairy Tale Girl Meggi ":
             {
                 "evs":
                 {},
@@ -145580,7 +145580,7 @@ backup_data = {
         },
         "Gogoat":
         {
-            "Lvl 55 Aroma Lady Thyme":
+            "Lvl 55 Aroma Lady Thyme ":
             {
                 "evs":
                 {},
@@ -145610,7 +145610,7 @@ backup_data = {
         },
         "Ditto":
         {
-            "Lvl 65 Street Thug Rice":
+            "Lvl 65 Street Thug Rice ":
             {
                 "evs":
                 {},
@@ -145639,7 +145639,7 @@ backup_data = {
         },
         "Swoobat":
         {
-            "Lvl 65 Street Thug Barley":
+            "Lvl 65 Street Thug Barley ":
             {
                 "evs":
                 {},
@@ -145669,7 +145669,7 @@ backup_data = {
         },
         "Carnivine":
         {
-            "Lvl 55 Lady Dulcie":
+            "Lvl 55 Lady Dulcie ":
             {
                 "evs":
                 {},

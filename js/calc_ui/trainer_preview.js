@@ -63,12 +63,7 @@ function get_trainer_name(set_name) {
         return null
     }
 
-    var trainer_name = set_name.split(/Lvl [-+]?\d+ /)[1]
-    if (!trainer_name) {
-        return null
-    }
-
-    return trainer_name.replace(/\)\[\d+\]$/, "").replace(/\s?\)$/, "").replace(/\s$/, "")
+    return getTrainerName(set_name)
 }
 
 function maybeRenderTeamVariations(tr_id) {
@@ -149,7 +144,7 @@ function get_trainer_poks(trainer_name, maybePartner=false)
         }
     }
 
-    trainer_name = trainer_name.replace("*", "")
+    trainer_name = stripTrainerLevelDuplicateMarkers(trainer_name)
     var og_trainer_name = get_trainer_name(trainer_name)
 
     let og_white_space = " "

@@ -291,9 +291,27 @@ function deepEqualJSON(a, b) {
   return JSON.stringify(a) === JSON.stringify(b);
 }
 
+function stripTrainerLevelDuplicateMarkers(str) {
+  if (typeof str !== "string") {
+    return str;
+  }
+  return str.replace(/(Lvl\s+[+-]?\d+)(?:\*+)(?=\s)/g, "$1");
+}
+
+function stripTrainerLevelPrefix(str) {
+  if (typeof str !== "string") {
+    return "";
+  }
+  return stripTrainerLevelDuplicateMarkers(str).replace(/^Lvl\s+[+-]?\d+\s+/, "");
+}
+
 function getTrainerName(str) {
-  const m = str.match(/\(Lvl\s+-?\d+\s+([^)]+)\)/);
-  return m ? m[1] : null;
+  if (typeof str !== "string") {
+    return null;
+  }
+  const normalized = stripTrainerLevelDuplicateMarkers(str);
+  const m = normalized.match(/\(Lvl\s+-?\d+\s+([^)]+)\)/);
+  return m ? m[1].trimEnd() : null;
 }
 
 function padArray(array, length, fill) {   return length > array.length ? array.concat(Array(length - array.length).fill(fill)) : array; }

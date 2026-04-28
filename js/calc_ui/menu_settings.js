@@ -93,6 +93,10 @@ function setSettingsDefaults() {
   if (typeof localStorage.dexSpeciesModalMode === 'undefined') {
     localStorage.dexSpeciesModalMode = 0
   }
+
+  if (typeof localStorage.hideCurrentAiMon === 'undefined') {
+    localStorage.hideCurrentAiMon = 0
+  }
   if (typeof localStorage.lvlCap != 'undefined') {
     $('#lvl-cap').val(localStorage.lvlCap)
   }
@@ -143,7 +147,7 @@ function setSettingsDefaults() {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -200,8 +204,13 @@ function setSettingsTogglesFromLocalStorage() {
         $('#toggle-dex-species-modal input').prop('checked', true)
     }
 
+    if (localStorage.hideCurrentAiMon == '1') {
+        $('#toggle-hide-current-ai-mon input').prop('checked', true)
+    }
+
     applySyncLuaVisibility()
     applyAutoImportMegasVisibility()
+    applyHideCurrentAiMonVisibility()
 }
 
 function isImperiumTitle() {
@@ -294,6 +303,14 @@ function applyAutoImportMegasVisibility() {
     $('#toggle-auto-import-megas-inline').toggle(isVisible)
 }
 
+function canShowHideCurrentAiMonToggle() {
+    return Boolean(settings && !settings.noSwitch && settings.damageGen >= 3 && settings.damageGen <= 8)
+}
+
+function applyHideCurrentAiMonVisibility() {
+    $('#toggle-hide-current-ai-mon').toggle(canShowHideCurrentAiMonToggle())
+}
+
 function syncAutoImportMegaToggles() {
     var enabled = localStorage.autoImportMegas == '1'
     $('#toggle-auto-import-megas input').prop('checked', enabled)
@@ -334,6 +351,11 @@ $('#toggle-hl-moves .slider').click(function(){
 
 $('#toggle-dex-species-modal .slider').click(function(){
     localStorage.dexSpeciesModalMode = (parseInt(localStorage.dexSpeciesModalMode) + 1) % 2
+})
+
+$('#toggle-hide-current-ai-mon .slider').click(function(){
+    localStorage.hideCurrentAiMon = (parseInt(localStorage.hideCurrentAiMon) + 1) % 2
+    refresh_next_in()
 })
 
 $('#toggle-auto-import-megas .slider').click(toggleAutoImportMegas)

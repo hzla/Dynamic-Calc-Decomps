@@ -179,6 +179,9 @@ function applyBlankDevConfig(config) {
   $('#open-dex, #main-nav-dex').toggle(showDex);
   $('#dex-show').toggle(showDex);
   $('#show-ai').toggle(showAI);
+  if (typeof applyHideCurrentAiMonVisibility === "function") {
+    applyHideCurrentAiMonVisibility()
+  }
 
   updateHeaderShellState();
   toggleGen3SwitchGuide();
@@ -257,6 +260,9 @@ function prepareDynamicCalcData(data, options = {}) {
         setGameSettings(TITLE)
         if (typeof applyAutoImportMegasVisibility === "function") {
             applyAutoImportMegasVisibility()
+        }
+        if (typeof applyHideCurrentAiMonVisibility === "function") {
+            applyHideCurrentAiMonVisibility()
         }
     }
 

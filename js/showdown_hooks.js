@@ -349,10 +349,7 @@ $(document).ready(function() {
             localStorage.removeItem("partnerName")
             console.log(localStorage.partnerName)
         } else {
-            partnerName = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
-            if (partnerName) {
-                partnerName = partnerName.replace(/\s?\)/, "").replace(/\s$/, "")
-            }
+            partnerName = getTrainerName($('.set-selector .select2-chosen')[1].innerHTML)
             $('#set-partner').text(`Partner: ${partnerName}`.slice(0,34))
 
             alert(`${partnerName} set as doubles partner for next trainer selected`)  

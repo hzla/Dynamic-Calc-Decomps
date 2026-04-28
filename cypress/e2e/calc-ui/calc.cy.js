@@ -365,6 +365,76 @@ for (let calc of calcs) {
       })
     })
 
+    it('can hide the currently selected AI mon from the trainer preview', () => {
+      cy.window().then((win) => {
+        const speciesKeys = Object.keys(win.setdex)
+        const [leadSpecies, secondSpecies, thirdSpecies] = speciesKeys.slice(0, 3)
+        const trainerSetName = 'Lvl 63 Cypress Hide Current AI Mon'
+        const selectedSetId = `${leadSpecies} (${trainerSetName})`
+        const previewMoves = ['Protect', 'Tackle', 'Tailwind', 'Helping Hand']
+
+        win.__hideCurrentAiMonOriginal = {
+          damageGen: win.settings.damageGen,
+          noSwitch: win.settings.noSwitch,
+          hideCurrentAiMon: win.localStorage.hideCurrentAiMon,
+          getNextIn: win.get_next_in
+        }
+        win.__hideCurrentAiMonSelectedSetId = selectedSetId
+
+        ;[leadSpecies, secondSpecies, thirdSpecies].forEach((speciesName, index) => {
+          const sourceSet = Object.values(win.setdex[speciesName])[0]
+          win.setdex[speciesName][trainerSetName] = {
+            ...sourceSet,
+            item: '-',
+            level: 63,
+            sub_index: index,
+            tr_id: 991301,
+            moves: previewMoves
+          }
+        })
+
+        win.settings.damageGen = 5
+        win.settings.noSwitch = false
+        win.localStorage.hideCurrentAiMon = '0'
+        win.$('#settings-menu').show()
+        win.$('input.opposing').val(selectedSetId)
+        win.$('.opposing.set-selector').first().val(selectedSetId)
+        win.$('.opposing .select2-chosen').text(selectedSetId)
+        win.get_next_in = () => ([
+          [`${leadSpecies} (${trainerSetName})[0]`, 0, '', 0, previewMoves, '', '', '', 0],
+          [`${secondSpecies} (${trainerSetName})[1]`, 0, '', 1, previewMoves, '', '', '', 0],
+          [`${thirdSpecies} (${trainerSetName})[2]`, 0, '', 2, previewMoves, '', '', '', 0]
+        ])
+
+        win.setSettingsTogglesFromLocalStorage()
+        win.refresh_next_in()
+      })
+
+      cy.window().then((win) => {
+        expect(win.$('#toggle-hide-current-ai-mon').is(':visible')).to.eq(true)
+      })
+      cy.get('.trainer-pok-list.opposing .trainer-pok-container').should('have.length', 3)
+
+      cy.window().then((win) => {
+        win.localStorage.hideCurrentAiMon = '1'
+        win.setSettingsTogglesFromLocalStorage()
+        win.refresh_next_in()
+      })
+
+      cy.get('.trainer-pok-list.opposing .trainer-pok-container').should('have.length', 2)
+      cy.window().then((win) => {
+        const visibleIds = win.$('.trainer-pok-list.opposing .trainer-pok').map((_, el) => win.$(el).attr('data-id')).get()
+        expect(visibleIds).to.not.include(win.__hideCurrentAiMonSelectedSetId)
+
+        const restored = win.__hideCurrentAiMonOriginal
+        win.settings.damageGen = restored.damageGen
+        win.settings.noSwitch = restored.noSwitch
+        win.localStorage.hideCurrentAiMon = restored.hideCurrentAiMon
+        win.get_next_in = restored.getNextIn
+        win.setSettingsTogglesFromLocalStorage()
+      })
+    })
+
     it('can import and navigate basic imported sets with no met location', () => {
       
       // Check that imports will show sprites in import box
