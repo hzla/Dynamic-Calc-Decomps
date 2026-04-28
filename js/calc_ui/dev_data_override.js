@@ -133,6 +133,12 @@
             help: "Use Cascade-specific switch preview BP adjustments."
         },
         {
+            name: "customCascadeSwitchAIG4",
+            label: "Cascade Switch AI G4",
+            type: "checkbox",
+            help: "Use the Cascade G4-hybrid switch preview ordering."
+        },
+        {
             name: "readIncludes",
             label: "Read Includes",
             type: "checkbox",

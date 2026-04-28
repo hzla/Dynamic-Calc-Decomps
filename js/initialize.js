@@ -26,6 +26,7 @@ const settings = {
     challengeMode: params.get('challengeMode') == 'true' || false,
     critGen: getNum('critGen', getNum('dmgGen', 8)),
     customCascadeSwitchAI: getBool('cascAI'),
+    customCascadeSwitchAIG4: getBool('cascAIG4'),
     showDex: false
 };
 
@@ -52,6 +53,7 @@ function getBlankDevConfigDefaults() {
         challengeMode: settings.challengeMode,
         noSwitch: settings.noSwitch,
         customCascadeSwitchAI: settings.customCascadeSwitchAI,
+        customCascadeSwitchAIG4: settings.customCascadeSwitchAIG4,
         readIncludes: false,
         hasMastersheet: false,
         showDex: false,
@@ -197,6 +199,7 @@ function applyBlankDevConfig(config) {
   settings.challengeMode = !!mergedConfig.challengeMode;
   settings.noSwitch = !!mergedConfig.noSwitch;
   settings.customCascadeSwitchAI = !!mergedConfig.customCascadeSwitchAI;
+  settings.customCascadeSwitchAIG4 = !!mergedConfig.customCascadeSwitchAIG4;
   settings.readIncludes = !!mergedConfig.readIncludes;
   settings.hasMastersheet = !!mergedConfig.hasMastersheet;
 
