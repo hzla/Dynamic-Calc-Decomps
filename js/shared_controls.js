@@ -304,12 +304,21 @@ function getImportedAbilitySlotDisplaySuffix(pokeObj) {
 	var setData = customSets &&
 		customSets[speciesName] &&
 		customSets[speciesName]['My Box'];
-	var abilitySlotId = Number(setData && setData.abilitySlotId);
-	if (!Number.isInteger(abilitySlotId) || abilitySlotId < 1) {
+
+	return getAbilitySlotDisplaySuffix(setData && setData.abilitySlotId);
+}
+
+function shouldShowAbilitySlotDisplay() {
+	return localStorage.showAbilitySlot == '1';
+}
+
+function getAbilitySlotDisplaySuffix(abilitySlotId) {
+	var numericAbilitySlotId = Number(abilitySlotId);
+	if (!shouldShowAbilitySlotDisplay() || !Number.isInteger(numericAbilitySlotId) || numericAbilitySlotId < 1) {
 		return '';
 	}
 
-	return ` (${abilitySlotId})`;
+	return ` (${numericAbilitySlotId})`;
 }
 
 function updateImportedAbilitySlotDisplay(pokeObj) {
@@ -2385,6 +2394,15 @@ function autosetQP(pokemon) {
 		} else {
 			pokemon.find(".boostedStat").val("");
 		}
+	}
+}
+
+function refreshAbilitySlotDisplays() {
+	updateImportedAbilitySlotDisplay($('#p1'));
+	updateImportedAbilitySlotDisplay($('#p2'));
+
+	if (typeof renderBoxView === 'function') {
+		renderBoxView(true);
 	}
 }
 

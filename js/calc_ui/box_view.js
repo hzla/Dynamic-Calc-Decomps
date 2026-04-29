@@ -119,7 +119,8 @@
             localStorage.getItem("customsets") || "",
             localStorage.getItem("encounters") || "",
             localStorage.getItem("battleLogs") || "",
-            localStorage.getItem("battleLogImportantTrainersOnly") || ""
+            localStorage.getItem("battleLogImportantTrainersOnly") || "",
+            localStorage.getItem("showAbilitySlot") || ""
         ].join("::");
     }
 
@@ -236,8 +237,11 @@
     function getAbilityDisplayText(setData) {
         const abilityName = String(setData && setData.ability || "Unknown").trim() || "Unknown";
         const abilitySlotId = Number(setData && setData.abilitySlotId);
-        if (gameGen == 4 && Number.isInteger(abilitySlotId) && abilitySlotId > 0) {
-            return `${abilityName} (${abilitySlotId})`;
+        const abilitySlotSuffix = typeof window.getAbilitySlotDisplaySuffix === "function"
+            ? window.getAbilitySlotDisplaySuffix(abilitySlotId)
+            : "";
+        if (gameGen == 4 && abilitySlotSuffix) {
+            return `${abilityName}${abilitySlotSuffix}`;
         }
         return abilityName;
     }
@@ -876,7 +880,7 @@
 
         window.addEventListener("storage", function (event) {
             if (
-                (event.key === "customsets" || event.key === "encounters" || event.key === "battleLogs" || event.key === "battleLogImportantTrainersOnly") &&
+                (event.key === "customsets" || event.key === "encounters" || event.key === "battleLogs" || event.key === "battleLogImportantTrainersOnly" || event.key === "showAbilitySlot") &&
                 document.body.classList.contains("main-page-box-view")
             ) {
                 renderBoxView(true);

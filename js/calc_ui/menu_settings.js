@@ -97,6 +97,10 @@ function setSettingsDefaults() {
   if (typeof localStorage.hideCurrentAiMon === 'undefined') {
     localStorage.hideCurrentAiMon = 1
   }
+
+  if (typeof localStorage.showAbilitySlot === 'undefined') {
+    localStorage.showAbilitySlot = 0
+  }
   if (typeof localStorage.lvlCap != 'undefined') {
     $('#lvl-cap').val(localStorage.lvlCap)
   }
@@ -147,7 +151,7 @@ function setSettingsDefaults() {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -202,6 +206,10 @@ function setSettingsTogglesFromLocalStorage() {
 
     if (localStorage.dexSpeciesModalMode == '1') {
         $('#toggle-dex-species-modal input').prop('checked', true)
+    }
+
+    if (localStorage.showAbilitySlot == '1') {
+        $('#toggle-show-ability-slot input').prop('checked', true)
     }
 
     if (localStorage.hideCurrentAiMon == '1') {
@@ -351,6 +359,13 @@ $('#toggle-hl-moves .slider').click(function(){
 
 $('#toggle-dex-species-modal .slider').click(function(){
     localStorage.dexSpeciesModalMode = (parseInt(localStorage.dexSpeciesModalMode) + 1) % 2
+})
+
+$('#toggle-show-ability-slot .slider').click(function(){
+    localStorage.showAbilitySlot = (parseInt(localStorage.showAbilitySlot) + 1) % 2
+    if (typeof refreshAbilitySlotDisplays === 'function') {
+        refreshAbilitySlotDisplays()
+    }
 })
 
 $('#toggle-hide-current-ai-mon .slider').click(function(){
