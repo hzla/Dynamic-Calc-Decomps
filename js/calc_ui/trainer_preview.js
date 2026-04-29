@@ -196,7 +196,7 @@ function get_trainer_poks(trainer_name, maybePartner=false)
 
 // Get the current selected trainer pokemon
 function get_current_in() {
-    var setInfo = $('.set-selector')[3].value
+    var setInfo = $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text()
     var pok_name = setInfo.split(" (")[0]
     var tr_name = setInfo.split(" (")[1].replace(")", "").split("[")[0]
 

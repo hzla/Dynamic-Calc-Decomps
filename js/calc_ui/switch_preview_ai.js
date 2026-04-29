@@ -33,9 +33,46 @@ function adjustSpeed(speed, ability, weather, terrain, item) {
     return speed
 }
 
+function getSwitchPreviewDamageValue(damage) {
+    if (!Array.isArray(damage) || damage.length == 0) {
+        return null
+    }
+
+    if (typeof damage[0] === "number") {
+        if (damage.length == 16 && typeof damage[8] === "number") {
+            return damage[8]
+        }
+        return typeof damage[0] === "number" ? damage[0] : null
+    }
+
+    if (Array.isArray(damage[0])) {
+        let totalDamage = 0
+
+        for (let hitRolls of damage) {
+            if (!Array.isArray(hitRolls) || hitRolls.length != 16 || typeof hitRolls[8] !== "number") {
+                return null
+            }
+            totalDamage += hitRolls[8]
+        }
+
+        return totalDamage
+    }
+
+    return null
+}
+
+function normalizeSwitchPreviewDamage(damage) {
+    let damageValue = getSwitchPreviewDamageValue(damage)
+    if (damageValue === null) {
+        return damage
+    }
+
+    return new Array(16).fill(damageValue)
+}
+
 
 // Attacker is Player, Defender is AI
-function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
+function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, isCurrent=false) {
     disableKOChanceCalcs = true
 
     let attacker = defenderVAttackerResults[0].defender
@@ -69,9 +106,6 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let isFaster = adjustedSpeed >= p1RawSpeed
     let movesFirst = false
 
-    let currentTrainerPok = $('.set-selector')[3].value.split(" (")[0]
-    let isCurrent = currentTrainerPok == defender.name
-
     // These variables are also referenced by the battle console
     if (isCurrent) {
         bestDmgAgainstCurrent = 0
@@ -98,11 +132,9 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             continue;
         }
 
-        damage = attackerVDefenderResults[moveIndex].damage
-        if (damage.length == 16) {
-            damage = damage.map(() => damage[8])
+        damage = normalizeSwitchPreviewDamage(attackerVDefenderResults[moveIndex].damage)
 
-
+        if (Array.isArray(damage) && damage.length == 16 && typeof damage[0] === "number") {
             if (isCurrent && damage[0] > bestDmgAgainstCurrent) {
                 bestDmgAgainstCurrent = damage[0]
                 bestMoveAgainstCurrent = move.name
@@ -119,16 +151,13 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             continue;
         }
 
-        if (defender.name == "Skarmory" && turnsToKill == 1) {
-            console.log("here")
-        }
 
         if (turnsToKill == 1 && (defender.item != 'Focus Sash') && defender.ability != "Sturdy") {
             isOhkod = true
         }
 
         // AI sees itself at 90% hp when it has life orb
-        if (turnsToKill == 2 && defender.item == "Life Orb" && damage[8] >= (defender.originalCurHP * 0.9)) {
+        if (turnsToKill == 2 && defender.item == "Life Orb" && damage[0] >= (defender.originalCurHP * 0.9)) {
             isOhkod = true
             turnsToKill = 1
         }
@@ -137,9 +166,6 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             attackerFastestKill = turnsToKill
             attackerBestMove = move.name
 
-            if (move.name == "Payback" && defender.name == "Naganadel") {
-                console.log(turnsToKill)
-            }
             if (!move.priority) {
                 attackerBestMoveHasPrio = false;
             }
@@ -177,7 +203,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         if (movePPs[currentlyCalcingAgainst] && parseInt(movePPs[currentlyCalcingAgainst][moveIndex]) == 0) {
             continue;
         }
-        damage = defenderVAttackerResults[moveIndex].damage
+        damage = normalizeSwitchPreviewDamage(defenderVAttackerResults[moveIndex].damage)
 
         if (move.category != "Status") {
            let effectiveness = typeChart[move.type][attacker.types[0]]
@@ -190,10 +216,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
            }
         }
 
-        if (damage.length == 16) {
-            damage = damage.map(() => damage[8])
-
-            if (isCurrent && damage[0] > bestAiDmgAgainstCurrent) {
+        if (Array.isArray(damage) && damage.length == 16 && typeof damage[0] === "number") {
+            if (isCurrent && (bestAiMoveAgainstCurrent == "" || damage[0] > bestAiDmgAgainstCurrent)) {
                 bestAiDmgAgainstCurrent = damage[0]
                 bestAiMoveAgainstCurrent = move.name
             }
@@ -316,6 +340,19 @@ function isBadOdds(p1, p2) {
     
     // TODO: account for player prio
     let aiIsFaster = false
+    let bestAiMovePriority = 0
+
+    if (bestAiMoveAgainstCurrent != "") {
+        let bestAiMoveData = moves[bestAiMoveAgainstCurrent]
+        if (!bestAiMoveData && typeof backup_moves !== "undefined") {
+            bestAiMoveData = backup_moves[bestAiMoveAgainstCurrent]
+        }
+
+        // Status-only or otherwise non-damaging current AI sets may never populate this lookup.
+        if (bestAiMoveData) {
+            bestAiMovePriority = parseInt(bestAiMoveData.priority) || 0
+        }
+    }
 
     const prioMoveKills = bestPrioMoveAgainstCurrent != "" && bestPrioDmgAgainstCurrent >= p2.originalCurHP
 
@@ -324,7 +361,7 @@ function isBadOdds(p1, p2) {
     
     // If prio move kills, check priority speed brackets, and only check against the prio move dmg
     if (prioMoveKills) {
-        if (moves[bestAiMoveAgainstCurrent].priority == '1') {
+        if (bestAiMovePriority == 1) {
             aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe
         } else {
             aiIsFaster = false
@@ -334,7 +371,7 @@ function isBadOdds(p1, p2) {
         if (bestMoveAgainstCurrent == "") {
             aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe
         } else if (bestMoveAgainstCurrent) {
-            aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || (bestAiMoveAgainstCurrent != "" && moves[bestAiMoveAgainstCurrent].priority == '1')
+            aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || bestAiMovePriority == 1
         }        
         // AI must have greater than 50% hp or 25% with regenerator
         if (p2.originalCurHP < aiHpThreshold) {
@@ -583,7 +620,7 @@ function get_next_in() {
 
         if (localStorage.switchInfo == '1') {
 
-            matchup = postKoMatchupData(player_results, results)
+            matchup = postKoMatchupData(player_results, results, isCurrent)
 
             matchup["type_matchup"] = type_matchup
 

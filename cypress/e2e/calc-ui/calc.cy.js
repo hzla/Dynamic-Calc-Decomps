@@ -664,6 +664,128 @@ for (let calc of calcs) {
       cy.get('#statusR1').select('Paralyzed').should('have.css', 'color', 'rgb(241, 250, 140)')
     })
 
+    it('supports multihit 2d damage arrays in switch preview damage checks', () => {
+      cy.window().then((win) => {
+        const flatRolls = Array.from({ length: 16 }, (_, index) => index + 1)
+        const multihitRolls = [
+          flatRolls,
+          flatRolls.map((value) => value + 10),
+          flatRolls.map((value) => value + 20)
+        ]
+
+        expect(win.getSwitchPreviewDamageValue(flatRolls)).to.eq(flatRolls[8])
+        expect(win.getSwitchPreviewDamageValue(multihitRolls)).to.eq(
+          flatRolls[8] + (flatRolls[8] + 10) + (flatRolls[8] + 20)
+        )
+        expect(win.normalizeSwitchPreviewDamage(multihitRolls)).to.deep.equal(
+          new Array(16).fill(flatRolls[8] + (flatRolls[8] + 10) + (flatRolls[8] + 20))
+        )
+      })
+    })
+
+    it('tracks the best AI move for the current opposing mon', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+      cy.get("[data-id='Eevee (My Box)']").click()
+
+      cy.window().then((win) => {
+        const nonGhostSpecies = Object.keys(win.setdex || {}).filter((speciesName) => {
+          const dexEntry = win.pokedex && win.pokedex[speciesName]
+          return dexEntry && !(dexEntry.types || []).includes('Ghost')
+        })
+        const [leadSpecies, benchSpecies] = nonGhostSpecies.slice(0, 2)
+        const trainerSetName = 'Lvl 63 Cypress Best AI Move'
+        const trainerId = 991400
+        const leadSetId = `${leadSpecies} (${trainerSetName})`
+        const benchSetId = `${benchSpecies} (${trainerSetName})`
+        const damagingMoves = ['Earthquake', 'Iron Head', 'Dragon Claw', 'Brave Bird']
+
+        expect(leadSpecies, 'damaging trainer lead').to.be.a('string')
+        expect(benchSpecies, 'damaging trainer bench').to.be.a('string')
+
+        ;[
+          [leadSpecies, 0],
+          [benchSpecies, 1]
+        ].forEach(([speciesName, subIndex]) => {
+          const sourceSet = Object.values(win.setdex[speciesName])[0]
+          win.setdex[speciesName][trainerSetName] = {
+            ...sourceSet,
+            item: '-',
+            level: 63,
+            tr_id: trainerId,
+            sub_index: subIndex,
+            moves: damagingMoves
+          }
+        })
+
+        win.localStorage.switchInfo = '0'
+        win.settings.gameSwitchIn = 8
+        win.settings.noSwitch = false
+        win.$('.opposing.set-selector').first().val(leadSetId).change()
+        win.$('.opposing .select2-chosen').text(leadSetId)
+        win.CURRENT_TRAINER_POKS = [
+          `${leadSetId}[0]`,
+          `${benchSetId}[1]`
+        ]
+        win.localStorage.switchInfo = '1'
+
+        expect(() => win.refresh_next_in()).to.not.throw()
+        expect(win.bestAiMoveAgainstCurrent).to.not.equal('')
+      })
+    })
+
+    it('does not crash bad odds when the current AI mon only has status moves', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+      cy.get("[data-id='Eevee (My Box)']").click()
+
+      cy.window().then((win) => {
+        const nonGhostSpecies = Object.keys(win.setdex || {}).filter((speciesName) => {
+          const dexEntry = win.pokedex && win.pokedex[speciesName]
+          return dexEntry && !(dexEntry.types || []).includes('Ghost')
+        })
+        const [leadSpecies, benchSpecies] = nonGhostSpecies.slice(0, 2)
+        const trainerSetName = 'Lvl 63 Cypress Status Only Bad Odds'
+        const trainerId = 991401
+        const leadSetId = `${leadSpecies} (${trainerSetName})`
+        const benchSetId = `${benchSpecies} (${trainerSetName})`
+        const statusMoves = ['Protect', 'Substitute', 'Toxic', 'Double Team']
+
+        expect(leadSpecies, 'status-only trainer lead').to.be.a('string')
+        expect(benchSpecies, 'status-only trainer bench').to.be.a('string')
+
+        ;[
+          [leadSpecies, 0],
+          [benchSpecies, 1]
+        ].forEach(([speciesName, subIndex]) => {
+          const sourceSet = Object.values(win.setdex[speciesName])[0]
+          win.setdex[speciesName][trainerSetName] = {
+            ...sourceSet,
+            item: '-',
+            level: 1,
+            tr_id: trainerId,
+            sub_index: subIndex,
+            moves: statusMoves
+          }
+        })
+
+        win.localStorage.switchInfo = '0'
+        win.settings.gameSwitchIn = 8
+        win.settings.noSwitch = false
+        win.$('.opposing.set-selector').first().val(leadSetId).change()
+        win.$('.opposing .select2-chosen').text(leadSetId)
+        win.CURRENT_TRAINER_POKS = [
+          `${leadSetId}[0]`,
+          `${benchSetId}[1]`
+        ]
+        win.$('#p2 .current-hp').val('1')
+        win.localStorage.switchInfo = '1'
+
+        expect(() => win.refresh_next_in()).to.not.throw()
+        expect(win.$('.bad-odds').text()).to.contain('Bad Odds')
+      })
+    })
+
     it('includes status in exports only when the status is not healthy', () => {
       cy.get('#clearSets').click()
       importSetText(statusImportText)
