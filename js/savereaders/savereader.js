@@ -6,6 +6,37 @@ function isEmptyOrInvalidDsSaveCounter(value) {
     return value === 0xFFFFFFFF || value === 0x00000000
 }
 
+function chooseDsPairedBlockOffset(preferredSaveCount, block1SaveCount, block2SaveCount, forceBlock2=false) {
+    const block1Invalid = isEmptyOrInvalidDsSaveCounter(block1SaveCount)
+    const block2Invalid = isEmptyOrInvalidDsSaveCounter(block2SaveCount)
+
+    if (forceBlock2) {
+        return 0x40000
+    }
+
+    if (!block1Invalid && block1SaveCount === preferredSaveCount) {
+        return 0
+    }
+
+    if (!block2Invalid && block2SaveCount === preferredSaveCount) {
+        return 0x40000
+    }
+
+    if (block1Invalid && !block2Invalid) {
+        return 0x40000
+    }
+
+    if (!block1Invalid && block2Invalid) {
+        return 0
+    }
+
+    if (!block1Invalid && !block2Invalid && block2SaveCount > block1SaveCount) {
+        return 0x40000
+    }
+
+    return 0
+}
+
 $(document).ready(function() {
     if (gameGen == 4 || gameGen == 5 || mechanics == "hge") {
         $('#save-upload').attr('id', 'save-upload-g45')
@@ -123,16 +154,16 @@ $(document).ready(function() {
                         var smallBlock2Invalid = isEmptyOrInvalidDsSaveCounter(smallBlock2SaveCount)
                         if (smallBlock1Invalid || forceBlock2 || (!smallBlock2Invalid && smallBlock2SaveCount > smallBlock1SaveCount)) {
                             partyCountOffset += 0x40000
-                            blockId = read32BitIntegerFromUint8Array(view,  smallBlockSize + 0x40000 - 20)
                             console.log("now reading party from block 2")
                             smallBlockStart = 0x40000
                         } else {
                             console.log("now reading party from block 1")
-                            blockId = read32BitIntegerFromUint8Array(view,  smallBlockSize - 20)       
                         }
-                        block1Id = read32BitIntegerFromUint8Array(view,  bigBlockStart + bigBlockSize - 20)
-                        var bigBlock1Invalid = isEmptyOrInvalidDsSaveCounter(block1Id)
-                        if (bigBlock1Invalid || block1Id != blockId || forceBlock2) {
+                        var selectedSmallBlockSaveCount = smallBlockStart === 0x40000 ? smallBlock2SaveCount : smallBlock1SaveCount
+                        var bigBlock1SaveCount = read32BitIntegerFromUint8Array(view,  bigBlockStart + bigBlockSize - 16)
+                        var bigBlock2SaveCount = read32BitIntegerFromUint8Array(view,  bigBlockStart + 0x40000 + bigBlockSize - 16)
+                        var bigBlockOffset = chooseDsPairedBlockOffset(selectedSmallBlockSaveCount, bigBlock1SaveCount, bigBlock2SaveCount, forceBlock2)
+                        if (bigBlockOffset === 0x40000) {
                             boxDataOffset += 0x40000
                             bigBlockStart += 0x40000
                             console.log("now reading box from block 2")
