@@ -365,6 +365,52 @@ for (let calc of calcs) {
       })
     })
 
+    it('does not group Radical Red Normal trainers across different splits', () => {
+      if (!calc.url.includes('ced457ba9aa55731616c')) {
+        return
+      }
+
+      cy.window().then((win) => {
+        const speciesKeys = Object.keys(win.setdex)
+        const [earlyLead, earlySecond, lateLead, lateSecond] = speciesKeys.slice(0, 4)
+        const earlySetName = 'Lvl 9 Rival - Route 22'
+        const lateSetName = 'Lvl 80 Rival - Route 22'
+        const baseSets = [
+          Object.values(win.setdex[earlyLead])[0],
+          Object.values(win.setdex[earlySecond])[0],
+          Object.values(win.setdex[lateLead])[0],
+          Object.values(win.setdex[lateSecond])[0]
+        ]
+
+        ;[
+          [earlyLead, earlySetName, baseSets[0], 0, 991401, 'Brock Split'],
+          [earlySecond, earlySetName, baseSets[1], 1, 991401, 'Brock Split'],
+          [lateLead, lateSetName, baseSets[2], 0, 991499, 'Pre-Victory Road Split:'],
+          [lateSecond, lateSetName, baseSets[3], 1, 991499, 'Pre-Victory Road Split:']
+        ].forEach(([speciesName, setName, sourceSet, subIndex, trainerId, split]) => {
+          win.setdex[speciesName][setName] = {
+            ...sourceSet,
+            item: '-',
+            level: subIndex === 0 && trainerId === 991401 ? 9 : sourceSet.level,
+            sub_index: subIndex,
+            tr_id: trainerId,
+            split,
+            moves: ['Protect', 'Tackle', 'Tailwind', 'Helping Hand']
+          }
+        })
+
+        win.TR_NAMES = win.get_trainer_names()
+        const earlySetId = `${earlyLead} (${earlySetName})`
+        const matches = win.get_trainer_poks(earlySetId)
+
+        expect(matches).to.have.length(2)
+        expect(matches).to.include(`${earlyLead} (${earlySetName})[0]`)
+        expect(matches).to.include(`${earlySecond} (${earlySetName})[1]`)
+        expect(matches).to.not.include(`${lateLead} (${lateSetName})[0]`)
+        expect(matches).to.not.include(`${lateSecond} (${lateSetName})[1]`)
+      })
+    })
+
     it('can hide the currently selected AI mon from the trainer preview', () => {
       cy.window().then((win) => {
         const speciesKeys = Object.keys(win.setdex)

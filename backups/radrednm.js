@@ -1,3 +1,4 @@
+console.log("old file being run")
 backup_data = {
   "Starly": {
     "Lvl 9 Rival Blue ": {

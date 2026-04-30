@@ -1,3 +1,4 @@
+console.log("hardcord file being run")
 backup_data = {
   "Snubbull": {
     "Lvl 15 *Rival Blue ": {

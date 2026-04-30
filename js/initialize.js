@@ -473,6 +473,8 @@ function setGameSettings(title) {
   $('#ms-link').hide()
   $('#redux-lvl').hide()
   $('#sync-lua, #desmume-icon').hide()
+  $('#maxL').next().remove()
+  $('#maxR').next().remove() 
   if (title == "Renegade Platinum") {
     gameGen = 4
     settings.damageGen = 4
@@ -528,8 +530,6 @@ function setGameSettings(title) {
     $('#sync-lua').show()
     $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
     $('label[for="hail"]').show()
-    $('#maxL').next().remove()
-    $('#maxR').next().remove() 
   } else if (title.includes("Sterling Silver") || title.includes("Sacred Gold")) {
     gameGen = 4
     settings.damageGen = 4

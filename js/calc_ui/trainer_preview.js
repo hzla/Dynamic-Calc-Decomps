@@ -126,6 +126,27 @@ function get_set_partner_name(set_id) {
 
     return get_partner_name_from_tr_id(setdex[pok_name][tr_name]["partner"])
 }
+
+function get_set_split(set_id) {
+    if (!set_id) {
+        return null
+    }
+
+    var pok_name = set_id.split(" (")[0]
+    var tr_name = set_id.split(" (")[1]
+
+    if (!pok_name || !tr_name) {
+        return null
+    }
+
+    tr_name = tr_name.replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
+
+    if (!setdex[pok_name] || !setdex[pok_name][tr_name]) {
+        return null
+    }
+
+    return setdex[pok_name][tr_name]["split"] || null
+}
     
 
 // Gets the trainers list of pokemon
@@ -155,6 +176,7 @@ function get_trainer_poks(trainer_name, maybePartner=false)
     }
 
     var maybePartnerName = get_partner_name_from_tr_id(maybePartner)
+    var selectedSplit = TITLE == "Radical Red 4.1 Normal" ? get_set_split(trainer_name) : null
 
     var tempPartnerName = maybePartnerName || partnerName
 
@@ -164,6 +186,9 @@ function get_trainer_poks(trainer_name, maybePartner=false)
 
 
     for (i in TR_NAMES) {
+        if (selectedSplit && get_set_split(TR_NAMES[i]) !== selectedSplit) {
+            continue
+        }
 
         if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(tempPartnerName + partner_white_space)))) {
             
@@ -183,6 +208,9 @@ function get_trainer_poks(trainer_name, maybePartner=false)
 
     if (matches.length == 0) {
         for (i in TR_NAMES) {
+            if (selectedSplit && get_set_split(TR_NAMES[i]) !== selectedSplit) {
+                continue
+            }
 
             if (TR_NAMES[i].includes(og_trainer_name)) {
                 if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {

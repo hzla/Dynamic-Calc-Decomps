@@ -1879,12 +1879,16 @@ $(".set-selector").change(function () {
 
 
 
-					if (next) {
+					if (next !== null && typeof next !== "undefined") {
 						$(".nav-tag.next").attr('data-next', next).show()
+					} else {
+						$(".nav-tag.next").hide().removeAttr('data-next')
 					}
 
-					if (prev) {
+					if (prev !== null && typeof prev !== "undefined") {
 						$(".nav-tag.prev").attr('data-next', prev).show()
+					} else {
+						$(".nav-tag.prev").hide().removeAttr('data-next')
 					}
 				}
 

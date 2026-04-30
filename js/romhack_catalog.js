@@ -391,20 +391,16 @@
             sourceTitle: "Radical Red 4.1",
             variants: [
                 {
-                    label: "Radical Red 4.1",
-                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=e91164d90d06a009e6cc&dmgGen=8&gen=8&types=6&noSwitch=1",
-                    coverImage: "",
-                    description: ""
-                },
-                {
                     label: "Radical Red 4.1 Hardcore",
                     source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=e91164d90d06a009e6cc&dmgGen=8&gen=8&types=6&noSwitch=1",
+                    sourceTitle: "Radical Red 4.1 Hardcore",
                     coverImage: "",
                     description: ""
                 },
                 {
                     label: "Radical Red 4.1 Normal",
                     source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=ced457ba9aa55731616c&dmgGen=8&gen=8&types=6&noSwitch=1",
+                    sourceTitle: "Radical Red 4.1 Normal",
                     coverImage: "",
                     description: ""
                 }
