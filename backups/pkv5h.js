@@ -6539,7 +6539,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -9456,7 +9456,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -10631,7 +10631,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -10753,7 +10753,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -14171,7 +14171,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -18373,7 +18373,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -18963,7 +18963,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -19692,7 +19692,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -22364,7 +22364,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -22793,7 +22793,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -23651,7 +23651,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -25679,7 +25679,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -26233,7 +26233,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -27286,7 +27286,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 24,
                     "at": 24,
@@ -30973,7 +30973,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 3,
                     "at": 3,
@@ -34519,7 +34519,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -34549,7 +34549,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -36534,7 +36534,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -36880,7 +36880,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -37471,7 +37471,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -38026,7 +38026,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -45239,7 +45239,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -45459,7 +45459,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -46628,7 +46628,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -49089,7 +49089,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -49951,7 +49951,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -50045,7 +50045,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -50109,7 +50109,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -52537,7 +52537,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -53221,7 +53221,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -53436,7 +53436,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -55338,7 +55338,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -56112,7 +56112,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -56173,7 +56173,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -56890,7 +56890,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -57195,7 +57195,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -58949,7 +58949,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -59661,7 +59661,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 3,
                     "at": 3,
@@ -60161,7 +60161,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -60315,7 +60315,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -61066,7 +61066,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -62520,7 +62520,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -65298,7 +65298,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -67163,7 +67163,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 0,
                     "at": 0,
@@ -70150,7 +70150,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -70181,7 +70181,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -71053,7 +71053,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -71178,7 +71178,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -71208,7 +71208,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -71333,7 +71333,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -76537,7 +76537,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -77350,7 +77350,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -79354,7 +79354,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -80335,7 +80335,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -80977,7 +80977,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -83573,7 +83573,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 24,
                     "at": 24,
@@ -83703,7 +83703,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -90328,7 +90328,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "4",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -91107,7 +91107,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "King’s Rock",
+                "item": "King's Rock",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
