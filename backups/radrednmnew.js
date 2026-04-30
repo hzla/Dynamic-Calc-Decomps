@@ -379,7 +379,7 @@ backup_data = {
       "level": 14,
       "moves": [
         "Calm Mind",
-        "Disarm Cry",
+        "Disarming Voice",
         "Psybeam",
         "Roost"
       ],
@@ -2977,7 +2977,7 @@ backup_data = {
       "tr_id": 29,
       "sub_index": 0,
       "split": "Surge Split",
-      "item": "Terrain Ext.",
+      "item": "Terrain Extender",
       "ivs": {
         "at": 30,
         "df": 30
@@ -3084,7 +3084,7 @@ backup_data = {
       "sub_index": 3,
       "split": "Koga Split: Gym Rematches",
       "sublevel": -2,
-      "item": "Punch Glove",
+      "item": "Punching Glove",
       "evs": {
         "at": 252,
         "sd": 4,
@@ -4195,7 +4195,7 @@ backup_data = {
       "tr_id": 35,
       "sub_index": 0,
       "split": "Erika Split",
-      "item": "Terrain Ext.",
+      "item": "Terrain Extender",
       "evs": {
         "at": 252,
         "df": 4,
@@ -7428,7 +7428,7 @@ backup_data = {
       "tr_id": 51,
       "sub_index": 1,
       "split": "Sabrina Split",
-      "item": "Terrain Ext.",
+      "item": "Terrain Extender",
       "ivs": {
         "at": 0,
         "sp": 0
@@ -7454,7 +7454,7 @@ backup_data = {
       "tr_id": 51,
       "sub_index": 2,
       "split": "Sabrina Split",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "ivs": {
         "sp": 0
       },
@@ -9885,7 +9885,7 @@ backup_data = {
       "tr_id": 91,
       "sub_index": 1,
       "split": "Claire Split: Cerulean Cave",
-      "item": "WeaknessPol.",
+      "item": "Weakness Policy",
       "evs": {
         "hp": 252,
         "at": 252,
@@ -10558,7 +10558,7 @@ backup_data = {
       "sub_index": 0,
       "split": "Koga Split: Gym Rematches",
       "sublevel": -2,
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "at": 252,
         "sd": 4,
@@ -10624,7 +10624,7 @@ backup_data = {
       "sub_index": 3,
       "split": "Koga Split: Gym Rematches",
       "sublevel": -2,
-      "item": "WeaknessPol.",
+      "item": "Weakness Policy",
       "evs": {
         "at": 252,
         "sd": 4,
@@ -10939,7 +10939,7 @@ backup_data = {
       "sub_index": 0,
       "split": "Koga Split: Gym Rematches",
       "sublevel": -2,
-      "item": "Corner. Mask",
+      "item": "Cornerstone Mask",
       "evs": {
         "at": 252,
         "sd": 4,
@@ -10960,7 +10960,7 @@ backup_data = {
       "sub_index": 2,
       "split": "Blaine Split",
       "sublevel": -2,
-      "item": "Corner. Mask",
+      "item": "Cornerstone Mask",
       "evs": {
         "at": 252,
         "df": 4,
@@ -11152,7 +11152,7 @@ backup_data = {
       "tr_id": 79,
       "sub_index": 4,
       "split": "Koga Split: Fuschia",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "at": 252,
         "df": 4,
@@ -11172,7 +11172,7 @@ backup_data = {
       "tr_id": 110,
       "sub_index": 3,
       "split": "Elite 4 & Champion",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "df": 4,
         "sa": 252,
@@ -11192,7 +11192,7 @@ backup_data = {
       "tr_id": 111,
       "sub_index": 2,
       "split": "Elite 4 & Champion",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "df": 4,
         "sa": 252,
@@ -12115,7 +12115,7 @@ backup_data = {
       }
     }
   },
-  "Aegislash": {
+  "Aegislash-Shield": {
     "Lvl -2 Dumbass Jojo Fan - Power Plant ": {
       "nature": "Quiet",
       "ability": "Stance Change",
@@ -12473,7 +12473,7 @@ backup_data = {
       "tr_id": 89,
       "sub_index": 3,
       "split": "Blaine Split: Gym",
-      "item": "HeavyDBoots",
+      "item": "Heavy-Duty Boots",
       "ivs": {
         "at": 30,
         "sa": 30
@@ -12499,7 +12499,7 @@ backup_data = {
       "tr_id": 89,
       "sub_index": 4,
       "split": "Blaine Split: Gym",
-      "item": "Hearth. Mask",
+      "item": "Hearthflame Mask",
       "evs": {
         "at": 252,
         "df": 4,
@@ -12606,7 +12606,7 @@ backup_data = {
       "tr_id": 93,
       "sub_index": 0,
       "split": "Claire Split: Cerulean Cave",
-      "item": "Terrain Ext.",
+      "item": "Terrain Extender",
       "evs": {
         "hp": 4,
         "sa": 252,
@@ -12861,7 +12861,7 @@ backup_data = {
       "tr_id": 96,
       "sub_index": 1,
       "split": "Clair Split",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "at": 252,
         "df": 4,
@@ -12881,7 +12881,7 @@ backup_data = {
       "tr_id": 113,
       "sub_index": 3,
       "split": "Elite 4 & Champion",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "at": 252,
         "df": 4,
@@ -12903,7 +12903,7 @@ backup_data = {
       "tr_id": 96,
       "sub_index": 2,
       "split": "Clair Split",
-      "item": "WeaknessPol.",
+      "item": "Weakness Policy",
       "evs": {
         "hp": 252,
         "df": 4,
@@ -12923,7 +12923,7 @@ backup_data = {
       "tr_id": 114,
       "sub_index": 3,
       "split": "Elite 4 & Champion",
-      "item": "WeaknessPol.",
+      "item": "Weakness Policy",
       "evs": {
         "at": 252,
         "df": 4,
@@ -12987,7 +12987,7 @@ backup_data = {
       "tr_id": 96,
       "sub_index": 4,
       "split": "Clair Split",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "at": 252,
         "sd": 4,
@@ -13032,7 +13032,7 @@ backup_data = {
       "sub_index": 3,
       "split": "Pre-Victory Road Split:",
       "sublevel": -3,
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "df": 4,
         "sa": 252,
@@ -13055,7 +13055,7 @@ backup_data = {
       "sub_index": 3,
       "split": "Pre-Victory Road Split:",
       "sublevel": -3,
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "df": 4,
         "sa": 252,
@@ -13098,7 +13098,7 @@ backup_data = {
       "sub_index": 2,
       "split": "Pre-Victory Road Split:",
       "sublevel": -2,
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "ivs": {
         "at": 30,
         "df": 30
@@ -14152,7 +14152,7 @@ backup_data = {
       "tr_id": 109,
       "sub_index": 1,
       "split": "Elite 4 & Champion",
-      "item": "Well. Mask",
+      "item": "Wellspring Mask",
       "evs": {
         "at": 252,
         "df": 4,
@@ -14240,7 +14240,7 @@ backup_data = {
       "tr_id": 110,
       "sub_index": 4,
       "split": "Elite 4 & Champion",
-      "item": "Rusty Sword",
+      "item": "Rusted Sword",
       "evs": {
         "at": 252,
         "df": 4,
@@ -14260,7 +14260,7 @@ backup_data = {
       "tr_id": 111,
       "sub_index": 4,
       "split": "Elite 4 & Champion",
-      "item": "Rusty Sword",
+      "item": "Rusted Sword",
       "evs": {
         "at": 252,
         "df": 4,
@@ -14388,7 +14388,7 @@ backup_data = {
       "tr_id": 112,
       "sub_index": 3,
       "split": "Elite 4 & Champion",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "df": 4,
         "sa": 252,
@@ -14460,7 +14460,7 @@ backup_data = {
       "tr_id": 114,
       "sub_index": 2,
       "split": "Elite 4 & Champion",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "df": 4,
         "sa": 252,
@@ -14480,7 +14480,7 @@ backup_data = {
       "tr_id": 115,
       "sub_index": 2,
       "split": "Elite 4 & Champion",
-      "item": "Boost Energy",
+      "item": "Booster Energy",
       "evs": {
         "df": 4,
         "sa": 252,
