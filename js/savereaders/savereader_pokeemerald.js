@@ -98,10 +98,12 @@ if (TITLE.includes("Imperium")) {
 
                     let showdownText = ""
                     let deadMons = []
+                    let importedMonsMetadata = []
                     try {
                         const deterministicResult = parseDeterministicPokeEmeraldSave(saveFile)
                         showdownText = deterministicResult.showdownText
                         deadMons = deterministicResult.deadMons || []
+                        importedMonsMetadata = deterministicResult.importedMonsMetadata || []
 
                         if (!isRawSaveState) {
                             applyDeterministicTmPocketResults(deterministicResult.tmPocketEntries, {
@@ -120,6 +122,7 @@ if (TITLE.includes("Imperium")) {
                         window.applyImportedSnapshot({
                             showdownImport: showdownText,
                             deadMons: deadMons,
+                            importedMonsMetadata: importedMonsMetadata,
                             source: 'save-file',
                             replaceDeadMons: true
                         })
@@ -206,6 +209,7 @@ function parseDeterministicPokeEmeraldSave(saveFile) {
 
     let showdownText = "";
     let parsedPartyCount = 0;
+    let importedMonsMetadata = [];
 
     for (let i = 0; i < partyCount; i++) {
         const mon = gen3ParseRawMonChunk(readDataViewChunk(saveBlock1, POKEEMERALD_PARTY_BASE_OFFSET + (i * POKEEMERALD_PARTY_MON_SIZE), POKEEMERALD_PARTY_MON_SIZE), true, i + 1);
@@ -215,6 +219,11 @@ function parseDeterministicPokeEmeraldSave(saveFile) {
         localStorage.lastTid = mon.trainerIdSecret;
         parsedPartyCount++;
         showdownText += gen3MonToShowdown(mon);
+        importedMonsMetadata.push({
+            speciesName: mon.speciesName,
+            abilityIndex: mon.abilityIndex,
+            trainerIdSecret: mon.trainerIdSecret,
+        });
     }
 
     if (partyCount > 0 && parsedPartyCount === 0) {
@@ -232,6 +241,11 @@ function parseDeterministicPokeEmeraldSave(saveFile) {
         localStorage.lastTid = mon.trainerIdSecret;
         if (i < liveBoxSlots) {
             showdownText += gen3MonToShowdown(mon);
+            importedMonsMetadata.push({
+                speciesName: mon.speciesName,
+                abilityIndex: mon.abilityIndex,
+                trainerIdSecret: mon.trainerIdSecret,
+            });
             continue;
         }
 
@@ -250,6 +264,7 @@ function parseDeterministicPokeEmeraldSave(saveFile) {
     return {
         showdownText,
         deadMons,
+        importedMonsMetadata,
         tmPocketEntries: extractDeterministicTmPocketEntries(saveBlock1),
     };
 }

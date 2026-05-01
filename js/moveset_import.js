@@ -1067,9 +1067,137 @@ function getMegaPrimaryAbility(megaSpeciesName, fallbackAbility) {
 		fallbackAbility;
 }
 
+function getImperiumAbilityList(speciesName) {
+	var primaryAbilities = (typeof window !== "undefined" && window.abilsPrimary) ? window.abilsPrimary : (typeof abilsPrimary !== "undefined" ? abilsPrimary : null);
+	if (primaryAbilities && Array.isArray(primaryAbilities[speciesName])) {
+		return primaryAbilities[speciesName];
+	}
+
+	var fallbackAbilities = (typeof window !== "undefined" && window.abils) ? window.abils : (typeof abils !== "undefined" ? abils : null);
+	if (fallbackAbilities && Array.isArray(fallbackAbilities[speciesName])) {
+		return fallbackAbilities[speciesName];
+	}
+
+	var primaryMons = (typeof window !== "undefined" && window.em_imp_primary_mons) ? window.em_imp_primary_mons : (typeof em_imp_primary_mons !== "undefined" ? em_imp_primary_mons : null);
+	if (primaryMons && primaryMons[speciesName] && Array.isArray(primaryMons[speciesName].abilities)) {
+		return primaryMons[speciesName].abilities;
+	}
+
+	return [];
+}
+
+function getImperiumSpeciesId(speciesName) {
+	var imperiumMons = (typeof window !== "undefined" && window.emImpMons) ? window.emImpMons : (typeof emImpMons !== "undefined" ? emImpMons : null);
+	if (Array.isArray(imperiumMons)) {
+		var imperiumSpeciesId = imperiumMons.indexOf(speciesName);
+		if (imperiumSpeciesId >= 0) {
+			return imperiumSpeciesId;
+		}
+	}
+
+	var expandedImperiumMons = (typeof window !== "undefined" && window.inc_em_mons) ? window.inc_em_mons : (typeof inc_em_mons !== "undefined" ? inc_em_mons : null);
+	if (Array.isArray(expandedImperiumMons)) {
+		var expandedSpeciesId = expandedImperiumMons.indexOf(speciesName);
+		if (expandedSpeciesId >= 0) {
+			return expandedSpeciesId;
+		}
+	}
+	return -1;
+}
+
+function resolveImperiumRandomizedAbility(speciesName, slotIndex, trainerIdSecret) {
+	var randomizedAbilityFn = (typeof window !== "undefined" && typeof window.randomizeAbility === "function")
+		? window.randomizeAbility
+		: (typeof randomizeAbility === "function" ? randomizeAbility : null);
+	var saveAbilities = (typeof window !== "undefined" && window.sav_abilities)
+		? window.sav_abilities
+		: (typeof sav_abilities !== "undefined" ? sav_abilities : null);
+	if (
+		!speciesName ||
+		!Number.isInteger(slotIndex) ||
+		typeof randomizedAbilityFn !== "function" ||
+		!saveAbilities
+	) {
+		return null;
+	}
+
+	var numericTrainerIdSecret = Number(trainerIdSecret);
+	var speciesId = getImperiumSpeciesId(speciesName);
+	if (!Number.isFinite(numericTrainerIdSecret) || speciesId < 0) {
+		return null;
+	}
+
+	var abilityList = getImperiumAbilityList(speciesName);
+	var randomizedSlotIndex = slotIndex;
+	if (abilityList[randomizedSlotIndex] === "None") {
+		randomizedSlotIndex = 0;
+	}
+
+	try {
+		return saveAbilities[randomizedAbilityFn(speciesId, randomizedSlotIndex, numericTrainerIdSecret)] || null;
+	} catch (_err) {
+		return null;
+	}
+}
+
+function inferImperiumRandomizedAbilitySlotIndex(baseSpeciesName, currentAbilityName, trainerIdSecret) {
+	if (!baseSpeciesName || !currentAbilityName) {
+		return null;
+	}
+
+	var normalizedCurrentAbilityName = String(currentAbilityName).trim();
+	if (!normalizedCurrentAbilityName) {
+		return null;
+	}
+
+	var abilityList = getImperiumAbilityList(baseSpeciesName);
+	if (!abilityList.length) {
+		return null;
+	}
+
+	for (var slotIndex = 0; slotIndex < abilityList.length; slotIndex++) {
+		var randomizedAbilityName = resolveImperiumRandomizedAbility(baseSpeciesName, slotIndex, trainerIdSecret);
+		if (randomizedAbilityName === normalizedCurrentAbilityName) {
+			return slotIndex;
+		}
+	}
+
+	return null;
+}
+
+function getDerivedMegaAbility(baseSetData, megaSpeciesName, baseSpeciesName) {
+	var fallbackAbility = getMegaPrimaryAbility(megaSpeciesName, baseSetData && baseSetData.ability);
+	if (
+		!baseSetData ||
+		!TITLE.includes("Imperium") ||
+		localStorage.randomized != "1"
+	) {
+		return fallbackAbility;
+	}
+
+	var trainerIdSecret = baseSetData.trainerIdSecret;
+	if (!Number.isFinite(Number(trainerIdSecret))) {
+		trainerIdSecret = localStorage.lastTid;
+	}
+
+	var rawAbilitySlotIndex = null;
+	if (Number.isInteger(baseSetData.abilityIndex)) {
+		rawAbilitySlotIndex = baseSetData.abilityIndex;
+	} else if (Number.isInteger(baseSetData.abilitySlotId) && baseSetData.abilitySlotId > 0) {
+		rawAbilitySlotIndex = baseSetData.abilitySlotId - 1;
+	} else {
+		rawAbilitySlotIndex = inferImperiumRandomizedAbilitySlotIndex(baseSpeciesName, baseSetData.ability, trainerIdSecret);
+	}
+	if (!Number.isInteger(rawAbilitySlotIndex)) {
+		return fallbackAbility;
+	}
+
+	return resolveImperiumRandomizedAbility(megaSpeciesName, rawAbilitySlotIndex, trainerIdSecret) || fallbackAbility;
+}
+
 function buildDerivedMegaSet(baseSetData, megaSpeciesName, baseSpeciesName) {
 	var megaSet = cloneImportedSetData(baseSetData);
-	megaSet.ability = getMegaPrimaryAbility(megaSpeciesName, megaSet.ability);
+	megaSet.ability = getDerivedMegaAbility(baseSetData, megaSpeciesName, baseSpeciesName);
 	megaSet.megaImportMode = "auto";
 	megaSet.megaBaseSpecies = baseSpeciesName;
 	return megaSet;
@@ -1227,6 +1355,12 @@ function buildDexObject(poke) {
 
 	if (Number.isInteger(poke.abilitySlotId)) {
 		dexObject.abilitySlotId = poke.abilitySlotId;
+	}
+	if (Number.isInteger(poke.abilityIndex)) {
+		dexObject.abilityIndex = poke.abilityIndex;
+	}
+	if (Number.isFinite(Number(poke.trainerIdSecret))) {
+		dexObject.trainerIdSecret = Number(poke.trainerIdSecret);
 	}
 
 	return {
@@ -1499,6 +1633,18 @@ function cloneDeadMonsList(deadMons) {
 	return JSON.parse(JSON.stringify(deadMons));
 }
 
+function cloneImportedMonsMetadata(importedMonsMetadata) {
+	if (!Array.isArray(importedMonsMetadata)) {
+		return [];
+	}
+
+	if (typeof structuredClone === "function") {
+		return structuredClone(importedMonsMetadata);
+	}
+
+	return JSON.parse(JSON.stringify(importedMonsMetadata));
+}
+
 function getStoredDeadMons() {
 	if (typeof localStorage === "undefined") {
 		return [];
@@ -1679,11 +1825,13 @@ function applyImportedSnapshot(snapshot) {
 	var payload = snapshot && typeof snapshot === "object" ? snapshot : {};
 	var showdownImport = String(payload.showdownImport || "");
 	var deadMons = cloneDeadMonsList(payload.deadMons);
+	var importedMonsMetadata = cloneImportedMonsMetadata(payload.importedMonsMetadata);
 	var source = String(payload.source || "import");
 	var replaceDeadMons = payload.replaceDeadMons !== false;
 
 	pendingImportedSnapshotMeta = {
 		deadMons: deadMons,
+		importedMonsMetadata: importedMonsMetadata,
 		source: source,
 		replaceDeadMons: replaceDeadMons,
 	};
@@ -1787,6 +1935,10 @@ function addSets(pokes, name) {
 	var currentPoke;
 	var addedpokes = 0;
 	var importedRows = [];
+	var importedMonsMetadata = pendingSnapshotMeta
+		? cloneImportedMonsMetadata(pendingSnapshotMeta.importedMonsMetadata)
+		: [];
+	var importedMonsMetadataIndex = 0;
 	var customsets = replaceDeadMons
 		? removeMyBoxEntries(getStoredCustomSets())
 		: getStoredCustomSets();
@@ -1838,7 +1990,32 @@ function addSets(pokes, name) {
 				
 				currentPoke = getStats(currentPoke, rows, i + 1);
 				currentPoke = getMoves(currentPoke, rows, i);
+				var importedMonMetadata = null;
+				if (importedMonsMetadataIndex < importedMonsMetadata.length) {
+					importedMonMetadata = importedMonsMetadata[importedMonsMetadataIndex];
+					if (importedMonMetadata && typeof importedMonMetadata === "object") {
+						if (Number.isInteger(importedMonMetadata.abilityIndex)) {
+							currentPoke.abilityIndex = importedMonMetadata.abilityIndex;
+						}
+						if (Number.isFinite(Number(importedMonMetadata.trainerIdSecret))) {
+							currentPoke.trainerIdSecret = Number(importedMonMetadata.trainerIdSecret);
+						}
+					}
+					importedMonsMetadataIndex++;
+				}
 				var importedSet = upsertImportedSet(customsets, currentPoke);
+				if (
+					importedMonMetadata &&
+					customsets[importedSet.speciesName] &&
+					customsets[importedSet.speciesName]["My Box"]
+				) {
+					if (Number.isInteger(importedMonMetadata.abilityIndex)) {
+						customsets[importedSet.speciesName]["My Box"].abilityIndex = importedMonMetadata.abilityIndex;
+					}
+					if (Number.isFinite(Number(importedMonMetadata.trainerIdSecret))) {
+						customsets[importedSet.speciesName]["My Box"].trainerIdSecret = Number(importedMonMetadata.trainerIdSecret);
+					}
+				}
 				importedRows.push({
 					speciesName: importedSet.speciesName
 				});

@@ -55,6 +55,19 @@ function importSetText(text) {
   cy.get('#import').click()
 }
 
+function buildCharizardImportWithAbility(abilityName, itemName = 'Charizardite X') {
+  return [
+    `Charizard @ ${itemName}`,
+    `Ability: ${abilityName}`,
+    'Level: 50',
+    'Timid Nature',
+    '- Flamethrower',
+    '- Air Slash',
+    '- Roost',
+    '- Dragon Pulse'
+  ].join('\n')
+}
+
 function enableRememberHpStatus(win) {
   win.localStorage.rememberHpStatus = '1'
   win.$('#toggle-remember-hp-status input').prop('checked', true)
@@ -1100,6 +1113,60 @@ for (let calc of calcs) {
         cy.get('.select2-chosen').first().should('have.text', 'Charizard-Mega-X (My Box)')
         cy.get('#search-box').clear().type('tough claws')
         cy.get(".player-megas [data-id='Charizard-Mega-X (My Box)']").should('have.class', 'active')
+      })
+
+      it('uses Emerald Imperium randomized abilities for auto-imported megas', () => {
+        cy.get('#clearSets').click()
+        cy.window().then((win) => {
+          const trainerIdSecret = 4094867257
+          const baseAbility = 'Rivalry'
+
+          win.localStorage.autoImportMegas = '0'
+          win.localStorage.randomized = '1'
+          win.localStorage.lastTid = String(trainerIdSecret)
+          win.$('#toggle-auto-import-megas input').prop('checked', false)
+
+          win.applyImportedSnapshot({
+            showdownImport: buildCharizardImportWithAbility(baseAbility, 'Charizardite X'),
+            importedMonsMetadata: [{
+              speciesName: 'Charizard',
+              abilityIndex: 2,
+              trainerIdSecret,
+            }],
+            source: 'save-file',
+            replaceDeadMons: true,
+          })
+        })
+        cy.get(".player-megas [data-id='Charizard-Mega-X (My Box)']").should('exist')
+        cy.window().then((win) => {
+          expect(win.customSets['Charizard-Mega-X']['My Box'].ability).to.eq('Hydration')
+        })
+
+        cy.get('#clearSets').click()
+        cy.window().then((win) => {
+          const trainerIdSecret = 4094867257
+          const baseAbility = 'Rivalry'
+
+          win.localStorage.autoImportMegas = '0'
+          win.localStorage.randomized = '1'
+          win.localStorage.lastTid = String(trainerIdSecret)
+          win.$('#toggle-auto-import-megas input').prop('checked', false)
+
+          win.applyImportedSnapshot({
+            showdownImport: buildCharizardImportWithAbility(baseAbility, 'Charizardite Y'),
+            importedMonsMetadata: [{
+              speciesName: 'Charizard',
+              abilityIndex: 2,
+              trainerIdSecret,
+            }],
+            source: 'save-file',
+            replaceDeadMons: true,
+          })
+        })
+        cy.get(".player-megas [data-id='Charizard-Mega-Y (My Box)']").should('exist')
+        cy.window().then((win) => {
+          expect(win.customSets['Charizard-Mega-Y']['My Box'].ability).to.eq('Chilling Neigh')
+        })
       })
     }
 
