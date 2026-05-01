@@ -5159,6 +5159,10 @@ var Move = (function () {
             this.flags.kick = 1;
         if (data.isBone)
             this.flags.bone = 1;
+        if (data.isTail)
+            this.flags.tail = 1;
+        if (data.isDrill)
+            this.flags.drill = 1;
         (0, util_1.assignWithout)(this, data, Move.FLAGS);
         this.basePower = data.bp;
         if (data.zp)
@@ -5181,6 +5185,8 @@ var Move = (function () {
         'isSword',
         'isKick',
         'isBone',
+        'isTail',
+        'isDrill',
         'zp',
         'maxPower',
         'isSlicing',

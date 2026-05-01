@@ -41,11 +41,15 @@ backupFiles = {
 	"Platinum Kaizo v4": "pk",
 	"Navy Sapphire": "navy",
 	"Rigorous Red": "rigred",
-	"Autumn Red": "autumn"
+	"Autumn Red": "autumn",
+	"Pokemon Unbound": "unbound",
+	"Unbound": "unbound",
+	"Unbound 2.1.1": "unbound"
 }
 
 sourceTitleAliases = {
-	"bb8579a3798fd63b429d": "Royal Sapphire"
+	"bb8579a3798fd63b429d": "Royal Sapphire",
+	"68bfb2ccba14b7f6b1f0": "Pokemon Unbound"
 }
 
 if (typeof window !== "undefined") {
@@ -94,6 +98,20 @@ gameVersions = {
 		{
 			url: "?data=null11",
 			id: "1.1"
+		}
+	],
+	"Pokemon Unbound": [
+		{
+			url: "?data=unbound&gen=8&dmgGen=8&noSwitch=1&types=6&critGen=6&m=difficult",
+			id: "Difficult"
+		},
+		{
+			url: "?data=unbound&gen=8&dmgGen=8&noSwitch=1&types=6&critGen=6&m=expert",
+			id: "Expert"
+		},
+		{
+			url: "?data=unbound&gen=8&dmgGen=8&noSwitch=1&types=6&critGen=6&m=insane",
+			id: "Insane"
 		}
 	]
 }

@@ -473,6 +473,7 @@ function setGameSettings(title) {
   $('#ms-link').hide()
   $('#redux-lvl').hide()
   $('#sync-lua, #desmume-icon').hide()
+  $('.unbound-effects').hide()
   $('#maxL').next().remove()
   $('#maxR').next().remove() 
   if (title == "Renegade Platinum") {
@@ -528,6 +529,19 @@ function setGameSettings(title) {
     showDex = true;
     showAI = false;
     $('#sync-lua').show()
+    $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
+    $('label[for="hail"]').show()
+  } else if (title.includes("Unbound")) {
+    gameGen = 8
+    settings.gameSwitchIn = 8
+    settings.damageGen = 8
+    settings.noSwitch = true
+    settings.sourceType = "full"
+    settings.typeChart = 6
+    settings.critGen = 6
+    showDex = false
+    showAI = false
+    $('.unbound-effects').show()
     $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
     $('label[for="hail"]').show()
   } else if (title.includes("Sterling Silver") || title.includes("Sacred Gold")) {
@@ -733,6 +747,8 @@ function setBaseGame(title) {
             if (localStorage.switchInfo == '1') {
               $('.trainer-pok-list.opposing').addClass('ai-show')
             }
+        } else if (title.includes("Unbound")) {
+            window.baseGame = "unbound"
         }
     } else if (window.baseGame == "null") {
         $('#p2').addClass('poke-null')
@@ -1060,12 +1076,29 @@ function loadMovesData() {
         }
     }
 
-    var optional_flag_params = ["makesContact", "isPunch", "isBite", "isBullet", "isSound", "isPulse", "isKick", "isSword", "isBone", "isWind"]  
+    var optional_flag_params = ["makesContact", "isPunch", "isBite", "isBullet", "isSound", "isPulse", "isKick", "isSword", "isBone", "isWind", "isTail", "isDrill"]  
+    var move_flag_aliases = {
+      makesContact: "contact",
+      isPunch: "punch",
+      isBite: "bite",
+      isBullet: "bullet",
+      isSound: "sound",
+      isPulse: "pulse",
+      isKick: "kick",
+      isSword: "sword",
+      isBone: "bone",
+      isWind: "wind",
+      isTail: "tail",
+      isDrill: "drill"
+    }
     for (n in optional_flag_params) {
         var param = optional_flag_params[n]
         if (jsonMove[param]) {
           moves[moveName][param] = jsonMove[param]
-          MOVES_BY_ID[g][moveId]["flags"][param] = jsonMove[param]  
+          MOVES_BY_ID[g][moveId]["flags"][param] = jsonMove[param]
+          if (move_flag_aliases[param]) {
+            MOVES_BY_ID[g][moveId]["flags"][move_flag_aliases[param]] = jsonMove[param]
+          }
         }
     }
 

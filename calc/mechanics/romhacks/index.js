@@ -4,11 +4,20 @@ exports.__esModule = true;
 var helpers_1 = require("./helpers");
 var cascade_white_1 = require("./profiles/cascade-white");
 var platinum_kaizo_1 = require("./profiles/platinum-kaizo");
+var unbound_1 = require("./profiles/unbound");
 
 var profiles = [
     cascade_white_1.cascadeWhiteProfile,
-    platinum_kaizo_1.platinumKaizoProfile
+    platinum_kaizo_1.platinumKaizoProfile,
+    unbound_1.unboundProfile
 ];
+
+function isValidProfile(profile) {
+    return !!(profile &&
+        Array.isArray(profile.gens) &&
+        Array.isArray(profile.titleMatchers) &&
+        profile.hooks);
+}
 
 function titleMatches(title, matcher) {
     title = String(title || "");
@@ -27,6 +36,9 @@ function titleMatches(title, matcher) {
 function getMechanicsProfile(title, genNum) {
     for (var i = 0; i < profiles.length; i++) {
         var profile = profiles[i];
+        if (!isValidProfile(profile)) {
+            continue;
+        }
         if (profile.gens.length && profile.gens.indexOf(genNum) === -1) {
             continue;
         }
@@ -39,5 +51,4 @@ function getMechanicsProfile(title, genNum) {
     return helpers_1.vanillaProfile;
 }
 exports.getMechanicsProfile = getMechanicsProfile;
-exports.romhackProfiles = profiles;
-
+exports.romhackProfiles = profiles.filter(isValidProfile);

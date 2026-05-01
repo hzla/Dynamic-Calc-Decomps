@@ -107,6 +107,9 @@ function g3ShouldHandleSaveUpload() {
     if (window.baseGame !== 'g3') {
         return false;
     }
+    if (typeof TITLE === 'string' && TITLE.includes('Unbound')) {
+        return false;
+    }
     if ((typeof TITLE === 'string' && TITLE.includes('Imperium')) || TITLE === 'Pokemon Null') {
         return false;
     }

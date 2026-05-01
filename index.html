@@ -1239,6 +1239,10 @@
                         <input class="visually-hidden calc-trigger" type="radio" name="cascade" value="Celestial" id="celestial" />
                         <label class="btn btn-small btn-right" for="celestial">Celestial</label>
                     </div>
+                    <div class="g8 unbound-effects" style="width: 11em; margin: 5px auto; display: none;" title="Pokemon Unbound weather effects.">
+                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Vicious Sandstorm" id="vicious-sandstorm" />
+                        <label class="btn btn-xxxxwide" for="vicious-sandstorm">Vicious Sandstorm</label>
+                    </div>
                     
                   </div>
                 <div aria-labelledby="selectGscWeatherInstruction" class="gen-specific g2 hide" role="radiogroup" style="width: 17.8em; margin: 0 auto 5px;" title="Select the current weather condition.">
@@ -1264,7 +1268,11 @@
                         <input aria-describedby="wonderRoomInstruction" class="visually-hidden calc-trigger" type="checkbox" id="wonderroom" />
                         <label class="btn btn-xxxwide btn-right" for="wonderroom">Wonder Room</label>
                         <input aria-describedby="inverseInstruction" class="visually-hidden calc-trigger" type="checkbox" id="inverse">
-                        <label class="btn btn-xxxwide" for="inverse">Inverse</label>
+                        <label class="btn btn-xxxwide" for="inverse">Inverse Battle</label>
+                    </div>
+                    <div class="gen-specific g8 unbound-effects" style="width: 11em; margin: 5px auto; display: none;">
+                        <input class="visually-hidden calc-trigger" type="checkbox" id="shadowy-veil">
+                        <label class="btn btn-xxxxwide" for="shadowy-veil">Shadowy Veil</label>
                     </div>
                   <div class="gen-specific g9 g8 ruin-group" style="width: 21em; margin: 5px auto;" title="Select the current active Ruin abilities.">
                         <input class="btn-input calc-trigger visually-hidden" type="checkbox" name="ruin" value="Tablets of Ruin" id="tablets-of-ruin"><label class="btn btn-xxxxwide btn-left" for="tablets-of-ruin">Tablets of Ruin <u>(-Atk)</u></label>
@@ -2351,6 +2359,7 @@
     <script type="text/javascript" src="./js/romhack_modal.js?77b29801"></script>
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?d7f6799d"></script>
+    <script type="text/javascript" src="./js/unbound_adapter.js?d7df7b17"></script>
     <script type="text/javascript" src="./js/initialize.js?4f1e8453"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?b1aca27d"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
@@ -2376,6 +2385,7 @@
     <script type="text/javascript" src="./js/savereaders/save_constants/em_imp_primary_abils.js?b510cddd"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/em_imp_primary_mons.js?7804d395"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/null_constants.js?0c8facef"></script>
+    <script type="text/javascript" src="./js/savereaders/save_constants/unbound_2_1_constants.js"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/g6_locations.js?25d473e7"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/g7_locations.js?4eaea746"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/g67_items.js?8c5b7e93"></script>
@@ -2388,6 +2398,7 @@
     <script type="text/javascript" src="./js/savereaders/savereader_g7.js?c2ccbb7e"></script>
     <script type="text/javascript" src="./js/savereaders/savereader_pokeemerald.js?cf117e92"></script>
     <script type="text/javascript" src="./js/savereaders/savereader_null.js?ac069d0c"></script>
+    <script type="text/javascript" src="./js/savereaders/savereader_unbound.js"></script>
     <script type="text/javascript" src="./js/randomizer/read.js?10014f"></script>
 
 

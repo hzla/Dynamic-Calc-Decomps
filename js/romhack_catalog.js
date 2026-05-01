@@ -513,14 +513,26 @@
         },
         "unbound": {
             id: "unbound",
-            title: "Unbound",
+            title: "Pokemon Unbound",
             coverImage: "",
             description: "",
-            sourceTitle: "Inclement Emerald",
+            sourceTitle: "Pokemon Unbound",
             variants: [
                 {
-                    label: "Unbound 2.1.1",
-                    source: "https://hzla.github.io/Dynamic-Calc-Unbound/?data=68bfb2ccba14b7f6b1f0&gen=8&types=6&dmgGen=8&switchIn=11&m=insane",
+                    label: "Pokemon Unbound Difficult",
+                    source: "?data=unbound&gen=8&dmgGen=8&noSwitch=1&types=6&critGen=6&m=difficult",
+                    coverImage: "",
+                    description: ""
+                },
+                {
+                    label: "Pokemon Unbound Expert",
+                    source: "?data=unbound&gen=8&dmgGen=8&noSwitch=1&types=6&critGen=6&m=expert",
+                    coverImage: "",
+                    description: ""
+                },
+                {
+                    label: "Pokemon Unbound Insane",
+                    source: "?data=unbound&gen=8&dmgGen=8&noSwitch=1&types=6&critGen=6&m=insane",
                     coverImage: "",
                     description: ""
                 }

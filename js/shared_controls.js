@@ -2662,6 +2662,7 @@ function createField() {
 	var isWonderRoom = $("#wonderroom").prop("checked");
 	var isGravity = $("#gravity").prop("checked");
 	var isInverse = $("#inverse").prop("checked");
+	var isShadowyVeil = $("#shadowy-veil").prop("checked");
 	var isTabletsOfRuin = $('#tablets-of-ruin').prop("checked");
 	var isBeadsOfRuin = $('#beads-of-ruin').prop("checked");
 	var isVesselOfRuin = $('#vessel-of-ruin').prop("checked");
@@ -2722,7 +2723,7 @@ function createField() {
 	// console.log(is10Buff)
 	return new calc.Field({
 		gameType: gameType, weather: weather, terrain: terrain, isMagicRoom: isMagicRoom, isWonderRoom: isWonderRoom, isGravity: isGravity,
-		isTabletsOfRuin: isTabletsOfRuin, isBeadsOfRuin: isBeadsOfRuin, isVesselOfRuin: isVesselOfRuin, isSwordOfRuin: isSwordOfRuin, isInverse: isInverse,
+		isTabletsOfRuin: isTabletsOfRuin, isBeadsOfRuin: isBeadsOfRuin, isVesselOfRuin: isVesselOfRuin, isSwordOfRuin: isSwordOfRuin, isInverse: isInverse, isShadowyVeil: isShadowyVeil,
 		attackerSide: createSide(0), defenderSide: createSide(1)
 	});
 }
