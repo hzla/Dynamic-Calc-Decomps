@@ -536,15 +536,12 @@ function get_next_in() {
 
 
     ranked_trainer_poks = []
-
-    let player_results_list = []
-    let ai_results_list = []
+    let trainerMatchups = []
+    let wallCandidate = null
 
     var expYield = 0
 
     for (let subIndex = 0; subIndex < trainer_poks.length; subIndex++) {
-        analysis = ""
-
         p2 = createPokemon(trainer_poks[subIndex].slice(0,-3))
         
         currentlyCalcingAgainst = trainer_poks[subIndex].slice(0,-3)
@@ -579,6 +576,7 @@ function get_next_in() {
         }
 
 
+        let matchup = {}
         if (localStorage.switchInfo == '1') {
             calcingForSwitchIns = true
             p1Name = p1.name
@@ -590,9 +588,7 @@ function get_next_in() {
             
             player_results = all_results[0]
             results = all_results[1]
-
-            player_results_list.push(player_results)
-            ai_results_list.push(results)
+            matchup = postKoMatchupData(player_results, results, isCurrent)
         } else {
             p1name = p1.name
         }
@@ -606,11 +602,52 @@ function get_next_in() {
         let types = pokedex[pok_name].types
         let type_matchup = getTypeMatchup([player_type1, player_type2], types)
 
+        if (localStorage.switchInfo == '1') {
+            matchup["type_matchup"] = type_matchup
+
+            matchup.move = matchup.move.replace("Hidden Power", "HP")
+            matchup.attackerBestMove = matchup.attackerBestMove.replace("Hidden Power", "HP")
+        }
+
+        // Only one mon should receive the defensive mid-turn wall bonus.
+        if (!isDoubles && localStorage.switchInfo == '1' && matchup.winsMidTurn1v1 && !matchup.isTrapper && type_matchup >= 2 && matchup.attackerFastestKill > 3) {
+            if (
+                wallCandidate === null ||
+                matchup.attackerFastestKill > wallCandidate.hits ||
+                (matchup.attackerFastestKill == wallCandidate.hits && sub_index < wallCandidate.sub_index)
+            ) {
+                wallCandidate = {
+                    hits: matchup.attackerFastestKill,
+                    sub_index: sub_index
+                }
+            }
+        }
+
+        trainerMatchups.push({
+            expYield: expYield,
+            isCurrent: isCurrent,
+            matchup: matchup,
+            pok_data: pok_data,
+            pok_name: pok_name,
+            sub_index: sub_index,
+            trainer_pok: trainer_poks[subIndex],
+            tr_name: tr_name,
+            type_matchup: type_matchup
+        })
+    }
+
+    for (let trainerMatchup of trainerMatchups) {
+        analysis = ""
+
+        let expYield = trainerMatchup.expYield
+        let isCurrent = trainerMatchup.isCurrent
+        let matchup = trainerMatchup.matchup
+        let pok_data = trainerMatchup.pok_data
+        let pok_name = trainerMatchup.pok_name
+        let sub_index = trainerMatchup.sub_index
+        let type_matchup = trainerMatchup.type_matchup
         let switchInScore = 0
 
-
-
-        matchup = {}
         if (localStorage.switchInfo == '1') analysis += "<div class='ai-infos'>"   
         analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>` 
 
@@ -619,13 +656,6 @@ function get_next_in() {
         }
 
         if (localStorage.switchInfo == '1') {
-
-            matchup = postKoMatchupData(player_results, results, isCurrent)
-
-            matchup["type_matchup"] = type_matchup
-
-            matchup.move = matchup.move.replace("Hidden Power", "HP")
-            matchup.attackerBestMove = matchup.attackerBestMove.replace("Hidden Power", "HP")
 
             
       
@@ -733,10 +763,10 @@ function get_next_in() {
                             midTurnScore += 8000
                         }
                     } 
-                    else if (matchup.attackerFastestKill > 3) {
+                    else if (wallCandidate && wallCandidate.sub_index == sub_index) {
                         midTurnScore += 300
                         midTurnScore += sub_index
-                        analysis += `<div class='bp-info switch-info'>Walls You</div>` 
+                        analysis += `<div class='bp-info switch-info'>Walls You (${wallCandidate.hits} hits)</div>` 
                     }
                     else {
                         midTurnScore += sub_index
@@ -754,7 +784,7 @@ function get_next_in() {
         }
 
 
-        ranked_trainer_poks.push([trainer_poks[subIndex], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup,null,expYield])
+        ranked_trainer_poks.push([trainerMatchup.trainer_pok, switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup,null,expYield])
     }
 
     
