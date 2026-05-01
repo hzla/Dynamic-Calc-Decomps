@@ -478,6 +478,13 @@ function g3ResolveAbilityName(speciesName, abilityBit) {
         return null;
     }
 
+    const normalizedAbilityBit = abilityBit === 1 ? 1 : 0;
+    const gameSpecificAbilityList = g3GetGameSpecificAbilityList(speciesName);
+    const gameSpecificAbilityName = g3ResolveAbilityNameFromList(gameSpecificAbilityList, normalizedAbilityBit);
+    if (gameSpecificAbilityName) {
+        return gameSpecificAbilityName;
+    }
+
     let abilityList = null;
     if (typeof abilsPrimary === 'object' && abilsPrimary) {
         abilityList = abilsPrimary[speciesName] || abilsPrimary[speciesName.replace(/'/g, '\u2019')] || abilsPrimary[speciesName.replace(/\u2019/g, "'")] || null;
@@ -485,10 +492,68 @@ function g3ResolveAbilityName(speciesName, abilityBit) {
     if (!abilityList && typeof abils === 'object' && abils) {
         abilityList = abils[speciesName] || abils[speciesName.replace(/'/g, '\u2019')] || abils[speciesName.replace(/\u2019/g, "'")] || null;
     }
-    if (!abilityList || !abilityList[abilityBit] || abilityList[abilityBit] === 'None') {
+    return g3ResolveAbilityNameFromList(abilityList, normalizedAbilityBit);
+}
+
+function g3GetGameSpecificAbilityList(speciesName) {
+    const candidates = [
+        speciesName,
+        speciesName.replace(/'/g, '\u2019'),
+        speciesName.replace(/\u2019/g, "'")
+    ];
+    const sources = [];
+
+    if (typeof window !== 'undefined') {
+        if (window.pokedex && typeof window.pokedex === 'object') {
+            sources.push(window.pokedex);
+        }
+        if (window.poksData && typeof window.poksData === 'object') {
+            sources.push(window.poksData);
+        }
+    }
+
+    if (typeof pokedex === 'object' && pokedex) {
+        sources.push(pokedex);
+    }
+    if (typeof poksData === 'object' && poksData) {
+        sources.push(poksData);
+    }
+
+    for (const source of sources) {
+        for (const candidate of candidates) {
+            const speciesEntry = source && source[candidate];
+            if (speciesEntry && typeof speciesEntry === 'object' && speciesEntry.abilities && typeof speciesEntry.abilities === 'object') {
+                return speciesEntry.abilities;
+            }
+        }
+    }
+
+    return null;
+}
+
+function g3ResolveAbilityNameFromList(abilityList, abilityBit) {
+    if (!abilityList || typeof abilityList !== 'object') {
         return null;
     }
-    return abilityList[abilityBit];
+
+    const preferredKeys = abilityBit === 1
+        ? [1, '1', 0, '0', 2, '2', 'H', 'h']
+        : [0, '0', 1, '1', 2, '2', 'H', 'h'];
+
+    for (const key of preferredKeys) {
+        const abilityName = abilityList[key];
+        if (abilityName && abilityName !== 'None' && abilityName !== '-') {
+            return abilityName;
+        }
+    }
+
+    for (const abilityName of Object.values(abilityList)) {
+        if (abilityName && abilityName !== 'None' && abilityName !== '-') {
+            return abilityName;
+        }
+    }
+
+    return null;
 }
 
 function g3MonToShowdown(mon) {
