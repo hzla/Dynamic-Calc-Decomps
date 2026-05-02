@@ -6,6 +6,14 @@ const npoint = `https://api.npoint.io/${params.get('data')}`
 // Helper for boolean flags
 const getBool = (key, truthy = "1") => params.get(key) === truthy;
 
+// Helper for persisted boolean settings with a fallback
+const getStoredBool = (key, fallback) => {
+    const storedValue = typeof localStorage !== "undefined" ? localStorage.getItem(key) : null;
+    if (storedValue === "1") return true;
+    if (storedValue === "0") return false;
+    return fallback;
+};
+
 // Helper for numbers with fallback
 const getNum = (key, fallback) => {
     const v = parseInt(params.get(key), 10);
@@ -21,7 +29,7 @@ const settings = {
     typeChart: getNum('types', 6),
     switchIn: getNum('switchIn', 9),
     noSwitch: getBool('noSwitch'),
-    hasEvs: !getBool('evs', '0'),
+    hasEvs: getStoredBool('calcHasEvs', !getBool('evs', '0')),
     customPoks: !getBool('customPoks', '0'),
     challengeMode: params.get('challengeMode') == 'true' || false,
     critGen: getNum('critGen', getNum('dmgGen', 8)),
@@ -505,7 +513,7 @@ function setGameSettings(title) {
     showAI = true;
     $('label[for="snow"]').hide()
     $('label[for="fog"]').show()
-  } else if (title == "Black/White" || title == "Black 2/White 2") {
+  } else if (title == "Black/White" || title == "Black 2/White 2" || title == "Blaze Black/Volt White") {
     gameGen = 5
     settings.damageGen = 5
     if (!settings.noSwitch) {
@@ -539,7 +547,7 @@ function setGameSettings(title) {
     settings.sourceType = "full"
     settings.typeChart = 6
     settings.critGen = 6
-    showDex = false
+    showDex = true
     showAI = false
     $('.unbound-effects').show()
     $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')

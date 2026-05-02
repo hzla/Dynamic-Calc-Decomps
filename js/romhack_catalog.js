@@ -24,7 +24,7 @@
             variants: [
                 {
                     label: "Blaze Black",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=9aa37533b7c000992d92&gen=5&types=5",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=9aa37533b7c000992d92&gen=5&types=5",
                     coverImage: "",
                     description: ""
                 }

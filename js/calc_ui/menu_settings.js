@@ -82,6 +82,10 @@ function setSettingsDefaults() {
     localStorage.autoImportMegas = 1
   }
 
+  if (typeof localStorage.calcHasEvs === 'undefined') {
+    localStorage.calcHasEvs = settings && settings.hasEvs ? 1 : 0
+  }
+
   if (typeof localStorage.dynamicTypeBug === 'undefined') {
     localStorage.dynamicTypeBug = 1
   }
@@ -100,6 +104,10 @@ function setSettingsDefaults() {
 
   if (typeof localStorage.showAbilitySlot === 'undefined') {
     localStorage.showAbilitySlot = 0
+  }
+
+  if (typeof settings !== 'undefined' && settings) {
+    settings.hasEvs = localStorage.calcHasEvs == '1'
   }
   if (typeof localStorage.lvlCap != 'undefined') {
     $('#lvl-cap').val(localStorage.lvlCap)
@@ -151,7 +159,7 @@ function setSettingsDefaults() {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -161,6 +169,9 @@ function setSettingsTogglesFromLocalStorage() {
   }
   if (localStorage.rememberHpStatus == "1") {
     $('#toggle-remember-hp-status input').prop('checked', true)
+  }
+  if (typeof settings !== 'undefined' && settings && settings.hasEvs) {
+    $('#toggle-use-evs input').prop('checked', true)
   }
   if (localStorage.syncLua == "1") {
     $('#toggle-sync-lua input').prop('checked', true)
@@ -281,6 +292,14 @@ function toggle_dynamic_type_bug() {
     location.reload()     
 }
 
+function toggleHasEvs() {
+    localStorage.calcHasEvs = (parseInt(localStorage.calcHasEvs, 10) + 1) % 2
+    if (typeof settings !== 'undefined' && settings) {
+        settings.hasEvs = localStorage.calcHasEvs == '1'
+    }
+    location.reload()
+}
+
 function toggle_analytics() {
     localStorage.enableAnalytics = (parseInt(localStorage.enableAnalytics) + 1) % 2   
 }
@@ -395,6 +414,8 @@ $('#save-toggle .slider').click(function(){
 $('#toggle-remember-hp-status .slider').click(function(){
     localStorage.rememberHpStatus = (parseInt(localStorage.rememberHpStatus) + 1) % 2;
 })
+
+$('#toggle-use-evs .slider').click(toggleHasEvs)
 
 $('#toggle-sync-lua .slider').click(function(){
     localStorage.syncLua = (parseInt(localStorage.syncLua) + 1) % 2;
