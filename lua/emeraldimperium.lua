@@ -2336,7 +2336,7 @@ local function readBattlerSnapshot(flagsAddr, battler, layout, monSize)
     local position = read8(positionAddr)
     local partyIndex = read16(partyIdxAddr)
 
-    if species == nil or battleLevel == nil or battleHp == nil or battleMaxHP == nil or position == nil or partyIndex == nil then
+    if species == nil or battleLevel == nil or position == nil or partyIndex == nil then
         return nil
     end
     if species == 0 or species > CONFIG.struct.max_species_id then
@@ -2362,8 +2362,33 @@ local function readBattlerSnapshot(flagsAddr, battler, layout, monSize)
     end
 
     local level = partyLevel or battleLevel
-    local hp = partyHp or battleHp
-    local maxHP = partyMaxHP or battleMaxHP
+
+    local function isUsableHpPair(hpValue, maxHpValue)
+        if hpValue == nil or maxHpValue == nil then
+            return false
+        end
+        if hpValue < 0 or maxHpValue < 0 then
+            return false
+        end
+        if maxHpValue > 3000 then
+            return false
+        end
+        if hpValue > maxHpValue and maxHpValue > 0 then
+            return false
+        end
+        return true
+    end
+
+    -- Prefer the live battle struct for KO detection; party memory can reshuffle
+    -- after a faint and would otherwise attribute HP to the wrong active mon.
+    local hp = battleHp
+    local maxHP = battleMaxHP
+    local hpSource = "battle"
+    if not isUsableHpPair(hp, maxHP) and isUsableHpPair(partyHp, partyMaxHP) then
+        hp = partyHp
+        maxHP = partyMaxHP
+        hpSource = "party"
+    end
 
     if level == nil or hp == nil or maxHP == nil then
         return nil
@@ -2371,10 +2396,7 @@ local function readBattlerSnapshot(flagsAddr, battler, layout, monSize)
     if level < 0 or level > 100 then
         return nil
     end
-    if maxHP > 3000 then
-        return nil
-    end
-    if hp > maxHP and maxHP > 0 then
+    if not isUsableHpPair(hp, maxHP) then
         return nil
     end
 
@@ -2394,6 +2416,11 @@ local function readBattlerSnapshot(flagsAddr, battler, layout, monSize)
         level = level,
         hp = hp,
         maxHP = maxHP,
+        battleHp = battleHp,
+        battleMaxHP = battleMaxHP,
+        partyHp = partyHp,
+        partyMaxHP = partyMaxHP,
+        hpSource = hpSource,
         moves = moves,
         pp = pps,
         position = position,
@@ -2925,7 +2952,10 @@ local function isSameTrackedMon(prevSnap, curSnap)
     if prevSnap.side ~= curSnap.side then
         return false
     end
-    return prevSnap.partyIndex == curSnap.partyIndex
+    if prevSnap.partyIndex ~= curSnap.partyIndex then
+        return false
+    end
+    return prevSnap.species == curSnap.species
 end
 
 local function emitKoEvent(snapshots, koSnap, hpBefore, hpAfter)
