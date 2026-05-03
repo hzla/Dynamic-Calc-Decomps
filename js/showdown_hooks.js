@@ -359,7 +359,23 @@ $(document).ready(function() {
 
     $(document).on('click', '#set-partner', setPartner)
 
+    function isCalculatorHotkeyContextActive() {
+        if (!document.getElementById('main-view-tabs')) {
+            return true
+        }
+
+        if (typeof window.getCurrentMainPageView === 'function') {
+            return window.getCurrentMainPageView() === 'calculator'
+        }
+
+        return document.body.classList.contains('main-page-calculator-view')
+    }
+
     $(document).keydown(async function (e) {
+        if (!isCalculatorHotkeyContextActive()) {
+            return
+        }
+
         if ($('.select2-drop-active:visible').length == 0 && 
             document.activeElement != $('textarea.import-team-text')[0] && 
             $('.pokemon-filter:visible').length === 0 && 

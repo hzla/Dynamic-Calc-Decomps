@@ -1563,6 +1563,17 @@
         return getBattleLogSplitIndexForLevel(getBattleLogSessionLevel(session));
     }
 
+    function getBattleLogSessionSplitLabel(session) {
+        const splitIndex = getBattleLogSessionSplitIndex(session);
+        const splitTabs = getBattleLogSplitTabsConfig();
+        if (splitIndex == null || !Array.isArray(splitTabs)) {
+            return "";
+        }
+
+        const matchedTab = splitTabs.find((tab) => Number(tab && tab.index) === Number(splitIndex));
+        return matchedTab ? String(matchedTab.label || "").trim() : "";
+    }
+
     function getBattleLogSplitTabsConfig() {
         if (typeof window.TITLE !== "string" || !window.TITLE) return null;
         if (!window.splitData || !window.splitData[window.TITLE]) return null;
@@ -2330,7 +2341,7 @@
             return renderEditableEvents(session);
         }
 
-        const pKos = session.events.filter((event) => event.type === "pKo");
+        const pKos = getDisplayedPlayerKoEvents(session);
 
         if (!pKos.length) {
             return `
@@ -2405,12 +2416,90 @@
             .filter(Boolean);
     }
 
-    function getEnemyKoSummarySprites(session) {
+    function getDisplayedPlayerKoEvents(session) {
         const events = Array.isArray(session && session.events) ? session.events : [];
-        return events
-            .filter((event) => event && event.type === "pKo")
+        const pKos = events.filter((event) => event && event.type === "pKo");
+        if (pKos.length <= 6) {
+            return pKos;
+        }
+
+        const seenEnemySpecies = {};
+        return pKos.filter((event) => {
+            const species = String(event && event.aiSpecies || "").trim();
+            const key = species.toLowerCase();
+            if (seenEnemySpecies[key]) {
+                return false;
+            }
+            seenEnemySpecies[key] = true;
+            return true;
+        });
+    }
+
+    function getEnemyKoSummarySprites(session) {
+        return getDisplayedPlayerKoEvents(session)
             .map((event) => String(event.aiSpecies || "").trim())
             .filter(Boolean);
+    }
+
+    function getBattleLogTrainerHighlightInfo(session, trainerName) {
+        const normalizedTrainerName = String(trainerName || "").trim();
+        const match = normalizedTrainerName.match(/\b(Leader|Rival|Elite Four)\s+([A-Za-z0-9'.-]+)/i);
+        if (!match) {
+            return {
+                isHighlighted: false,
+                spriteKey: "",
+                spritePath: "",
+                matchesSplitName: false
+            };
+        }
+
+        const spriteKey = String(match[2] || "").trim();
+        const splitLabel = getBattleLogSessionSplitLabel(session);
+        const normalizedSpriteKey = slugifyBattleLogSplitLabel(spriteKey);
+        const normalizedSplitLabel = slugifyBattleLogSplitLabel(splitLabel);
+
+        return {
+            isHighlighted: true,
+            spriteKey,
+            spritePath: spriteKey ? `./img/trainer_sprites/${toBattleSpriteSlug(spriteKey)}.png` : "",
+            matchesSplitName: Boolean(normalizedSpriteKey && normalizedSplitLabel && normalizedSplitLabel.includes(normalizedSpriteKey))
+        };
+    }
+
+    function renderBattleLogTrainerTitle(session, trainerName) {
+        const highlightInfo = getBattleLogTrainerHighlightInfo(session, trainerName);
+        const titleClasses = ["battle-session-title"];
+        if (highlightInfo.isHighlighted) {
+            titleClasses.push("battle-session-title-highlighted");
+        }
+        if (highlightInfo.matchesSplitName) {
+            titleClasses.push("battle-session-title-split-match");
+        }
+
+        const trainerSpriteHtml = highlightInfo.spritePath
+            ? `
+                <div class="battle-session-trainer-sprite-wrap">
+                    <img
+                        class="battle-session-trainer-sprite"
+                        src="${escHtml(highlightInfo.spritePath)}"
+                        alt="${escHtml(highlightInfo.spriteKey)}"
+                        title="${escHtml(highlightInfo.spriteKey)}"
+                        onerror="this.parentNode.style.display='none'"
+                    >
+                </div>
+            `
+            : "";
+
+        return {
+            isHighlighted: highlightInfo.isHighlighted,
+            matchesSplitName: highlightInfo.matchesSplitName,
+            html: `
+                <div class="${titleClasses.join(" ")}">
+                    ${trainerSpriteHtml}
+                    <span class="battle-session-title-text">${escHtml(trainerName)}</span>
+                </div>
+            `
+        };
     }
 
     function renderBattleSessionSummarySprites(speciesList, groupClass) {
@@ -2450,12 +2539,21 @@
         const deathCount = getPlayerDeathCount(session);
         const deathSummaryClass = deathCount > 0 ? "deaths" : "deathless";
         const deathSummaryText = deathCount > 0 ? `${deathCount} Deaths` : "Deathless";
+        const trainerTitle = renderBattleLogTrainerTitle(session, trainerName);
+        const sessionClasses = ["battle-session"];
+
+        if (trainerTitle.isHighlighted) {
+            sessionClasses.push("battle-session-highlighted");
+        }
+        if (trainerTitle.matchesSplitName) {
+            sessionClasses.push("battle-session-highlighted-split");
+        }
 
         return `
-            <div class="battle-session" data-battle-index="${index}" data-session-start-index="${escHtml(session.startIndex)}">
+            <div class="${sessionClasses.join(" ")}" data-battle-index="${index}" data-session-start-index="${escHtml(session.startIndex)}">
                 <div class="battle-session-header" role="button" tabindex="0" aria-expanded="false">
                     <div class="battle-session-header-main">
-                        <div class="battle-session-title">${escHtml(trainerName)}</div>
+                        ${trainerTitle.html}
                         ${renderBattleSessionSummary(session)}
                     </div>
                     <div class="battle-session-meta ${deathSummaryClass}">${escHtml(deathSummaryText)}</div>

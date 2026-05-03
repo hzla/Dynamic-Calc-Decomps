@@ -372,6 +372,9 @@
     }
 
     window.setMainPageView = setMainPageView;
+    window.getCurrentMainPageView = function () {
+        return currentMainPageView;
+    };
     window.updateMainPageHeaderState = updateMainPageHeaderState;
     window.updateMainPageTitle = updateMainPageTitle;
 

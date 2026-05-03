@@ -144,6 +144,9 @@ $(document).ready(function() {
                     partyExpTables = []
                     partyExpIndexes = []
                     partyMovesIndexes = []
+                    var importedTrainerId = null
+                    var importedSecretId = null
+                    var importedTrainerIdSecret = null
 
                     smallBlockStart = 0
 
@@ -174,9 +177,15 @@ $(document).ready(function() {
                         var trainerIdOffset = smallBlockStart + (baseGame == "HGSS" ? 0x74 : 0x78)
                         var tid = view[trainerIdOffset] | (view[trainerIdOffset + 1] << 8)
                         var sid = view[trainerIdOffset + 2] | (view[trainerIdOffset + 3] << 8)
-                        localStorage.lastTid = tid + (sid * 0x10000)
+                        importedTrainerId = tid
+                        importedSecretId = sid
+                        importedTrainerIdSecret = ((tid & 0xFFFF) | ((sid & 0xFFFF) << 16)) >>> 0
+                        localStorage.lastTid = importedTrainerIdSecret
                     } else if (baseGame == "BW") {
                             const tidSid =  read32BitIntegerFromUint8Array(view,  0x19414); // BW2
+                            importedTrainerId = tidSid & 0xFFFF
+                            importedSecretId = (tidSid >>> 16) & 0xFFFF
+                            importedTrainerIdSecret = tidSid >>> 0
                             localStorage.lastTid = tidSid;  
                     }
 
@@ -256,7 +265,10 @@ $(document).ready(function() {
                             showdownImport: showdownImport,
                             deadMons: deadMons,
                             source: 'save-file',
-                            replaceDeadMons: true
+                            replaceDeadMons: true,
+                            trainerId: importedTrainerId,
+                            secretId: importedSecretId,
+                            trainerIdSecret: importedTrainerIdSecret,
                         })
                     } else {
                         $('.import-team-text').val(showdownImport)
@@ -545,6 +557,12 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
     return {
         trainerId: dump.trainerId,
         secretId: dump.secretId,
+        trainerIdSecret: (Number.isFinite(Number(dump.trainerId)) && Number.isFinite(Number(dump.secretId)))
+            ? (((Number(dump.trainerId) & 0xFFFF) | ((Number(dump.secretId) & 0xFFFF) << 16)) >>> 0)
+            : null,
+        trainerKey: (dump.trainerId != null && dump.secretId != null)
+            ? `${dump.trainerId}:${dump.secretId}`
+            : null,
         partyCount: partyCountParsed,
         boxedPokemonCount: dump.boxedPokemonCount || 0,
         boxSlotsDumped: boxSlotsParsed,

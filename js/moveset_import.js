@@ -1584,6 +1584,10 @@ function importPolledMasterBoxPayload(boxPayload) {
 			deadMons: result.deadMons || [],
 			source: result.source || "desmume",
 			replaceDeadMons: true,
+			trainerId: result.trainerId,
+			secretId: result.secretId,
+			trainerKey: result.trainerKey,
+			trainerIdSecret: result.trainerIdSecret,
 		});
 	}
 	return result;
@@ -1620,6 +1624,113 @@ function syncFragsheetFromImportedBox() {
 }
 
 var pendingImportedSnapshotMeta = null;
+var FRAGSHEET_RUN_TRAINER_KEY_STORAGE = "fragsheetRunTrainerKey";
+
+function readTrainerIdentityFromShowdownText(showdownText) {
+	var text = String(showdownText || "");
+	var match = text.match(/^\s*TID:\s*(\d+):(\d+)\s*$/m);
+	if (!match) {
+		return null;
+	}
+
+	return {
+		trainerId: parseInt(match[1], 10),
+		secretId: parseInt(match[2], 10),
+	};
+}
+
+function normalizeIncomingTrainerIdentity(payload) {
+	var source = payload && typeof payload === "object" ? payload : {};
+	var trainerKey = "";
+	if (source.trainerKey !== undefined && source.trainerKey !== null) {
+		trainerKey = String(source.trainerKey).trim();
+	}
+
+	var combinedTrainerKey = null;
+	if (Number.isFinite(Number(source.trainerIdSecret))) {
+		combinedTrainerKey = Number(source.trainerIdSecret) >>> 0;
+	}
+
+	var trainerId = Number(source.trainerId);
+	if (!Number.isFinite(trainerId)) {
+		trainerId = null;
+	}
+
+	var secretId = Number(source.secretId);
+	if (!Number.isFinite(secretId)) {
+		secretId = null;
+	}
+
+	if ((trainerId === null || secretId === null) && source.showdownImport) {
+		var parsedFromText = readTrainerIdentityFromShowdownText(source.showdownImport);
+		if (parsedFromText) {
+			if (trainerId === null) {
+				trainerId = parsedFromText.trainerId;
+			}
+			if (secretId === null) {
+				secretId = parsedFromText.secretId;
+			}
+		}
+	}
+
+	if (combinedTrainerKey === null && trainerId !== null && secretId !== null) {
+		combinedTrainerKey = ((trainerId & 0xFFFF) | ((secretId & 0xFFFF) << 16)) >>> 0;
+	}
+
+	var compareKey = "";
+	if (combinedTrainerKey !== null) {
+		compareKey = "combined:" + String(combinedTrainerKey);
+	} else if (trainerKey) {
+		compareKey = "trainer-key:" + trainerKey;
+	} else if (trainerId !== null) {
+		compareKey = "tid:" + String(trainerId);
+	}
+
+	if (!compareKey) {
+		return null;
+	}
+
+	return {
+		trainerId: trainerId,
+		secretId: secretId,
+		trainerKey: trainerKey,
+		trainerIdSecret: combinedTrainerKey,
+		compareKey: compareKey,
+	};
+}
+
+function clearFragsheetEncounterStateForIncomingRun() {
+	if (typeof localStorage !== "undefined") {
+		localStorage.encounters = "";
+	}
+
+	window.encounters = {};
+	if (typeof encounters !== "undefined") {
+		encounters = {};
+	}
+}
+
+function handleIncomingTrainerIdentityForFragsheet(payload) {
+	if (typeof localStorage === "undefined") {
+		return null;
+	}
+
+	var identity = normalizeIncomingTrainerIdentity(payload);
+	if (!identity) {
+		return null;
+	}
+
+	var previousKey = String(localStorage.getItem(FRAGSHEET_RUN_TRAINER_KEY_STORAGE) || "").trim();
+	if (previousKey && previousKey !== identity.compareKey) {
+		var shouldResetFragsheet = confirm("New run detected, would you like to reset the fragsheet before loading the new data?");
+		if (shouldResetFragsheet) {
+			clearFragsheetEncounterStateForIncomingRun();
+		}
+	}
+
+	localStorage.setItem(FRAGSHEET_RUN_TRAINER_KEY_STORAGE, identity.compareKey);
+	return identity;
+}
 
 function cloneDeadMonsList(deadMons) {
 	if (!Array.isArray(deadMons)) {
@@ -1829,6 +1940,14 @@ function applyImportedSnapshot(snapshot) {
 	var source = String(payload.source || "import");
 	var replaceDeadMons = payload.replaceDeadMons !== false;
 
+	handleIncomingTrainerIdentityForFragsheet({
+		trainerId: payload.trainerId,
+		secretId: payload.secretId,
+		trainerKey: payload.trainerKey,
+		trainerIdSecret: payload.trainerIdSecret,
+		showdownImport: showdownImport,
+	});
+
 	pendingImportedSnapshotMeta = {
 		deadMons: deadMons,
 		importedMonsMetadata: importedMonsMetadata,
@@ -1896,6 +2015,13 @@ function addSets(pokes, name) {
 			if (!luaDumpResult || typeof luaDumpResult.showdownImport !== "string") {
 				throw new Error("Lua box dump import did not return showdown text");
 			}
+			handleIncomingTrainerIdentityForFragsheet({
+				trainerId: luaDumpResult.trainerId,
+				secretId: luaDumpResult.secretId,
+				trainerKey: luaDumpResult.trainerKey,
+				trainerIdSecret: luaDumpResult.trainerIdSecret,
+				showdownImport: luaDumpResult.showdownImport,
+			});
 			queuedDeadMons = cloneDeadMonsList(luaDumpResult.deadMons);
 			queuedSource = String(luaDumpResult.source || "desmume");
 			queuedReplaceDeadMons = true;

@@ -787,7 +787,7 @@ a:visited {
 }
 
 .battle-log-split-section-title {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.1;
     color: #f1f1f1;
@@ -798,13 +798,24 @@ a:visited {
 }
 
 .battle-session-header {
+    --battle-session-title-width: clamp(300px, 18vw, 360px);
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 14px;
     padding: 12px 14px;
     cursor: pointer;
     user-select: none;
+}
+
+.battle-session-highlighted .battle-session-header {
+    min-height: 94px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.battle-session-highlighted .battle-session-header-main {
+    align-items: center;
 }
 
 .battle-session-header:hover {
@@ -823,7 +834,51 @@ a:visited {
 .battle-session-title {
     font-size: 24px;
     line-height: 1.15;
-    width: 16vw;
+    width: var(--battle-session-title-width);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+}
+
+.battle-session-title-text {
+    min-width: 0;
+}
+
+.battle-session-title-highlighted .battle-session-title-text {
+    color: #f0cf63;
+}
+
+.battle-session-title-highlighted {
+    align-self: center;
+    min-height: 72px;
+    width: var(--battle-session-title-width);
+    font-size: 38px;
+    line-height: 1.05;
+}
+
+.battle-session-title-highlighted .battle-session-title-text {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.battle-session-trainer-sprite-wrap {
+    width: 58px;
+    height: 58px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.14);
+    overflow: hidden;
+}
+
+.battle-session-trainer-sprite {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    image-rendering: pixelated;
 }
 
 .battle-session-summary {
@@ -868,7 +923,7 @@ a:visited {
     color: #bbb;
     text-align: right;
     flex: 0 0 auto;
-    padding-top: 2px;
+    padding-top: 0;
 }
 
 .battle-session-meta.deathless {
@@ -1439,6 +1494,10 @@ body.main-page-battle-log-view #fragsheet-shell #battle-log-fragsheet-panel {
     .battle-session-header {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .battle-session-title {
+        width: 100%;
     }
 
     .battle-session-meta {

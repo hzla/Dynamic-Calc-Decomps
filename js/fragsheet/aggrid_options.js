@@ -997,8 +997,9 @@ function createRowData() {
             return fragEntry.value
         })
         encRow.fragCount = encRow.frags.length
+        let displaySpeciesAlive = !isSpeciesFamilyMarkedDead(displaySpecies, encounters)
 
-        if (encounterForDisplaySpecies.alive) {
+        if (displaySpeciesAlive) {
             encRow.status = "Alive"
             aliveCount++
         } else {
