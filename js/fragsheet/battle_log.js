@@ -2449,7 +2449,9 @@
                 isHighlighted: false,
                 spriteKey: "",
                 spritePath: "",
-                matchesSplitName: false
+                matchesSplitName: false,
+                titleLead: normalizedTrainerName,
+                titleSuffix: ""
             };
         }
 
@@ -2457,12 +2459,16 @@
         const splitLabel = getBattleLogSessionSplitLabel(session);
         const normalizedSpriteKey = slugifyBattleLogSplitLabel(spriteKey);
         const normalizedSplitLabel = slugifyBattleLogSplitLabel(splitLabel);
+        const titleLead = String(match[0] || "").trim();
+        const titleSuffix = normalizedTrainerName.slice(match.index + match[0].length).trim();
 
         return {
             isHighlighted: true,
             spriteKey,
             spritePath: spriteKey ? `./img/trainer_sprites/${toBattleSpriteSlug(spriteKey)}.png` : "",
-            matchesSplitName: Boolean(normalizedSpriteKey && normalizedSplitLabel && normalizedSplitLabel.includes(normalizedSpriteKey))
+            matchesSplitName: Boolean(normalizedSpriteKey && normalizedSplitLabel && normalizedSplitLabel.includes(normalizedSpriteKey)),
+            titleLead,
+            titleSuffix
         };
     }
 
@@ -2489,6 +2495,12 @@
                 </div>
             `
             : "";
+        const trainerTitleTextHtml = highlightInfo.isHighlighted
+            ? `
+                <span class="battle-session-title-text battle-session-title-text-primary">${escHtml(highlightInfo.titleLead || trainerName)}</span>
+                ${highlightInfo.titleSuffix ? `<span class="battle-session-title-text battle-session-title-text-suffix">${escHtml(highlightInfo.titleSuffix)}</span>` : ""}
+            `
+            : `<span class="battle-session-title-text">${escHtml(trainerName)}</span>`;
 
         return {
             isHighlighted: highlightInfo.isHighlighted,
@@ -2496,7 +2508,9 @@
             html: `
                 <div class="${titleClasses.join(" ")}">
                     ${trainerSpriteHtml}
-                    <span class="battle-session-title-text">${escHtml(trainerName)}</span>
+                    <span class="battle-session-title-text-wrap">
+                        ${trainerTitleTextHtml}
+                    </span>
                 </div>
             `
         };

@@ -236,9 +236,10 @@ function setOpposing(id) {
     var selectedTrainerSet = $('.set-selector .select2-chosen')[1] ? $('.set-selector .select2-chosen')[1].innerHTML : currentTrainerSet
     var setPartnerName = get_set_partner_name(selectedTrainerSet)
     var tempPartnerName = setPartnerName || partnerName
+    var clickedTrainerName = get_trainer_name(id)
 
     // if in multi battle mode and user selects pokemon from already set partner, switch partners
-    if (!setPartnerName && tempPartnerName && id.includes(tempPartnerName)) {
+    if (!setPartnerName && tempPartnerName && clickedTrainerName && clickedTrainerName === tempPartnerName) {
         partnerName = get_trainer_name(selectedTrainerSet)
         if (partnerName) {
             console.log(`Switching partners: ${partnerName}`)
