@@ -108,7 +108,7 @@ function applyTwentyPercentItemBoost(ctx, bpMods) {
 var littleEmeraldProfile = (0, helpers_1.makeProfile)({
     id: "little-emerald",
     gens: [7, 8, 9],
-    titleMatchers: [{ equals: "Little Emerald" }],
+    titleMatchers: [{ includes: "Little Emerald" }],
     hooks: {
         criticalHit: [
             function (ctx, isCritical) {

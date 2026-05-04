@@ -42,6 +42,8 @@ backupFiles = {
 	"Navy Sapphire": "navy",
 	"Rigorous Red": "rigred",
 	"Autumn Red": "autumn",
+	"Little Emerald - Normal Mode": "le_normal",
+	"Little Emerald - Hard Mode": "le_hard",
 	"Pokemon Unbound": "unbound",
 	"Unbound": "unbound",
 	"Unbound 2.1.1": "unbound"
@@ -98,6 +100,16 @@ gameVersions = {
 		{
 			url: "?data=null11",
 			id: "1.1"
+		}
+	],
+	"Little Emerald": [
+		{
+			url: "?data=le_normal&dmgGen=8&gen=8&types=6&noSwitch=1",
+			id: "Normal"
+		},
+		{
+			url: "?data=le_hard&dmgGen=8&gen=8&types=6&noSwitch=1",
+			id: "Hard"
 		}
 	],
 	"Pokemon Unbound": [

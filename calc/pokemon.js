@@ -322,7 +322,7 @@ var Pokemon = (function () {
         return stats_1.Stats.calcStat(gen, stat, this.species.baseStats[stat], this.ivs[stat], this.evs[stat], this.level, this.nature);
     };
     Pokemon.getForme = function (gen, speciesName, item, moveName) {
-        if (typeof TITLE === "string" && TITLE === "Little Emerald") {
+        if (typeof TITLE === "string" && TITLE.indexOf("Little Emerald") !== -1) {
             var littleEmeraldForme = getCalcLittleEmeraldItemForme(speciesName, item);
             if (littleEmeraldForme) {
                 return littleEmeraldForme;

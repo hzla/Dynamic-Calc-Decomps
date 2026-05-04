@@ -121,7 +121,7 @@ describe("Little Emerald gen789 mechanics", function () {
         var ctx = { gen: gen, calculate: calculate, Pokemon: Pokemon, Move: Move, Field: Field };
 
         test("routes Little Emerald calculations through vanilla gen789", function () {
-            withGlobals("Little Emerald", null, function () {
+            withGlobals("Little Emerald - Hard Mode", null, function () {
                 var original = vanilla_gen789_1.calculateSMSSSVVanilla;
                 var marker = { damage: 123 };
                 var called = false;

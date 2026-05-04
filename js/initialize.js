@@ -652,7 +652,18 @@ function setGameSettings(title) {
 
     $('label[for="hail"]').hide()
     $('label[for="snow"]').show()
-  }
+  } else if (TITLE.includes("Little Emerald")) {
+    gameGen = 8
+    settings.damageGen = 8
+    settings.noSwitch = 1
+    settings.sourceType = "full"
+    settings.typeChart = 6;
+    settings.critGen = 6;
+    showDex = false;
+    showAI = false;
+    $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
+    $('label[for="hail"]').show()
+ }
   else {
     gameGen = 8
     $('label[for="hail"]').hide()

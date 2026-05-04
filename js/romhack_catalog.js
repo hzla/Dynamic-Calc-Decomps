@@ -240,6 +240,29 @@
                 }
             ]
         },
+        "little-emerald": {
+            id: "little-emerald",
+            title: "Little Emerald",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Little Emerald",
+            variants: [
+                {
+                    label: "Normal Mode",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=le_normal&dmgGen=8&gen=8&types=6&noSwitch=1",
+                    sourceTitle: "Little Emerald - Normal Mode",
+                    coverImage: "",
+                    description: ""
+                },
+                {
+                    label: "Hard Mode",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=le_hard&dmgGen=8&gen=8&types=6&noSwitch=1",
+                    sourceTitle: "Little Emerald - Hard Mode",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "maximum-platinum": {
             id: "maximum-platinum",
             title: "Maximum Platinum",
@@ -650,6 +673,7 @@
                 "autumn-red",
                 "blinding-white-2",
                 "cascade-white",
+                "little-emerald",
                 "luminescent-platinum",
                 "maximum-platinum",
                 "navy-sapphire",

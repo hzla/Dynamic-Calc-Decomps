@@ -9,7 +9,7 @@ var index_1 = require("../index");
 describe("Little Emerald item formes", function () {
     test("Pokemon.getForme applies Little Emerald item-based forms", function () {
         var prevTitle = global.TITLE;
-        global.TITLE = "Little Emerald";
+        global.TITLE = "Little Emerald - Hard Mode";
         try {
             expect(index_1.Pokemon.getForme(8, "Charcadet", "Malicious Armor")).toBe("Charcadet-Ghost");
             expect(index_1.Pokemon.getForme(8, "Charcadet", "Auspicious Armor")).toBe("Charcadet-Psychic");

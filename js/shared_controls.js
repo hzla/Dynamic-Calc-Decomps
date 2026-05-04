@@ -1293,7 +1293,7 @@ function getControlsLittleEmeraldBaseSpeciesName(speciesName) {
 }
 
 function syncControlsLittleEmeraldItemForme(pokeObj) {
-	if (TITLE !== "Little Emerald") {
+	if (typeof TITLE !== "string" || TITLE.indexOf("Little Emerald") === -1) {
 		return;
 	}
 
