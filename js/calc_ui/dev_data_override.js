@@ -4,6 +4,10 @@
     const STORE_NAME = "calcDataOverrides";
     const BLANK_SOURCE_ID = "__blank_dev_calc__";
     const CONFIG_STORAGE_PREFIX = "calcDevConfig";
+    const DDEX_CALC_READY_MESSAGE_TYPE = "ddex:calc-ready";
+    const DDEX_CALC_SYNC_MESSAGE_TYPE = "ddex:calc-sync";
+    const DDEX_CALC_SYNC_STARTED_MESSAGE_TYPE = "ddex:calc-sync-started";
+    const DDEX_CALC_SYNC_ERROR_MESSAGE_TYPE = "ddex:calc-sync-error";
 
     const DEV_CONFIG_FIELDS = [
         {
@@ -160,6 +164,35 @@
 
     function getUrlParams() {
         return new URLSearchParams(window.location.search || "");
+    }
+
+    function getBridgeOrigin() {
+        const origin = String(getUrlParams().get("ddexBridgeOrigin") || "").trim();
+        return origin || "";
+    }
+
+    function hasBridgeOpener() {
+        return !!(window.opener && window.opener !== window && typeof window.opener.postMessage === "function");
+    }
+
+    function postBridgeMessage(message) {
+        const targetOrigin = getBridgeOrigin();
+        if (!targetOrigin || !hasBridgeOpener()) {
+            return;
+        }
+
+        window.opener.postMessage(message, targetOrigin);
+    }
+
+    function isTrustedBridgeMessage(event) {
+        const targetOrigin = getBridgeOrigin();
+        if (!targetOrigin || !hasBridgeOpener()) {
+            return false;
+        }
+        if (event.origin !== targetOrigin) {
+            return false;
+        }
+        return event.source === window.opener;
     }
 
     function isDevModeEnabled() {
@@ -323,6 +356,65 @@
         }
 
         return parsedData;
+    }
+
+    function buildBackupDataScriptText(payload) {
+        return "var backup_data = " + JSON.stringify(payload) + ";";
+    }
+
+    async function handleBridgeSyncMessage(event) {
+        if (!isTrustedBridgeMessage(event)) {
+            return;
+        }
+
+        const data = event.data || {};
+        if (data.type !== DDEX_CALC_SYNC_MESSAGE_TYPE) {
+            return;
+        }
+
+        try {
+            if (!isDevModeEnabled()) {
+                throw new Error("Calc sync is only available in dev mode.");
+            }
+
+            const scriptText =
+                typeof data.scriptText === "string" && data.scriptText.trim()
+                    ? data.scriptText
+                    : data.backupData && typeof data.backupData === "object"
+                        ? buildBackupDataScriptText(data.backupData)
+                        : "";
+
+            if (!scriptText) {
+                throw new Error("No calc data payload was provided.");
+            }
+
+            parseBackupDataScript(scriptText);
+
+            if (data.config && typeof data.config === "object") {
+                saveStoredDevConfig(data.config);
+            }
+
+            await saveStoredOverrideRecord({
+                key: getOverrideStorageKey(),
+                fileName: data.fileName || "backup_data.js",
+                sourceId: getCurrentSourceId(),
+                text: scriptText,
+                updatedAt: Date.now()
+            });
+
+            postBridgeMessage({
+                type: DDEX_CALC_SYNC_STARTED_MESSAGE_TYPE,
+                title: typeof data.title === "string" ? data.title : "",
+            });
+
+            window.location.reload();
+        } catch (error) {
+            console.error("[DevDataOverride] Bridge sync failed", error);
+            postBridgeMessage({
+                type: DDEX_CALC_SYNC_ERROR_MESSAGE_TYPE,
+                error: error && error.message ? error.message : "Failed to sync calc data.",
+            });
+        }
     }
 
     function readFileText(file) {
@@ -631,6 +723,15 @@
         parseBackupDataScript,
         refreshControlState
     };
+
+    window.addEventListener("message", function (event) {
+        handleBridgeSyncMessage(event);
+    });
+
+    postBridgeMessage({
+        type: DDEX_CALC_READY_MESSAGE_TYPE,
+        href: window.location.href,
+    });
 
     document.addEventListener("DOMContentLoaded", initializeControls);
 })();

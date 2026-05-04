@@ -722,7 +722,7 @@ backup_data = {
       "ability": "Trace",
       "level": -3,
       "moves": [
-        "Drain Kiss",
+        "Draining Kiss",
         "Magical Leaf",
         "Psybeam"
       ],
@@ -737,7 +737,7 @@ backup_data = {
       "ability": "Trace",
       "level": -3,
       "moves": [
-        "Drain Kiss",
+        "Draining Kiss",
         "Magical Leaf",
         "Psybeam"
       ],
@@ -752,7 +752,7 @@ backup_data = {
       "ability": "Trace",
       "level": -3,
       "moves": [
-        "Drain Kiss",
+        "Draining Kiss",
         "Magical Leaf",
         "Psybeam"
       ],
@@ -1008,7 +1008,7 @@ backup_data = {
       "level": -5,
       "moves": [
         "Air Cutter",
-        "Drain Kiss",
+        "Draining Kiss",
         "Electroweb",
         "Struggle Bug"
       ],
@@ -1103,7 +1103,7 @@ backup_data = {
       "ability": "Friend Guard",
       "level": -3,
       "moves": [
-        "Drain Kiss",
+        "Draining Kiss",
         "Icy Wind",
         "Incinerate",
         "Round"
@@ -1140,7 +1140,7 @@ backup_data = {
       "level": -4,
       "moves": [
         "Aqua Jet",
-        "Drain Kiss",
+        "Draining Kiss",
         "Icy Wind",
         "Round"
       ],
@@ -1314,7 +1314,7 @@ backup_data = {
       "level": -5,
       "moves": [
         "Air Slash",
-        "Drain Kiss",
+        "Draining Kiss",
         "Magical Leaf",
         "Thunder Wave"
       ],
@@ -2425,7 +2425,7 @@ backup_data = {
       "ability": "Sheer Force",
       "level": -4,
       "moves": [
-        "Drain Kiss",
+        "Draining Kiss",
         "Incinerate",
         "Round",
         "Shock Wave"
@@ -7353,7 +7353,7 @@ backup_data = {
       "ability": "Magic Bounce",
       "level": 57,
       "moves": [
-        "Drain Kiss",
+        "Draining Kiss",
         "Expanding Force",
         "Mystical Fire",
         "Trick Room"
@@ -7398,7 +7398,7 @@ backup_data = {
       "level": -4,
       "moves": [
         "Calm Mind",
-        "Drain Kiss",
+        "Draining Kiss",
         "Mystical Fire",
         "Psyshock"
       ],

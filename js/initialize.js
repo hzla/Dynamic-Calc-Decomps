@@ -40,6 +40,7 @@ const settings = {
 
 const BLANK_DEV_TITLE = "Blank Slate Dev Calc";
 const isBlankDevMode = settings.devMode && !params.get('data');
+const forceBlankConfig = getBool('forceBlankConfig');
 const DEFAULT_MASTERSHEET_SOURCE = "cascadewhite";
 const mastersheetSourcesByTitle = {
   "Cascade White": "cascadewhite",
@@ -73,6 +74,9 @@ function getBlankDevConfigDefaults() {
 }
 
 function getStoredBlankDevConfig() {
+    if (forceBlankConfig) {
+        return null;
+    }
     if (!isBlankDevMode || !window.devDataOverrides || typeof window.devDataOverrides.getStoredDevConfig !== "function") {
         return null;
     }
