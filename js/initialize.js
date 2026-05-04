@@ -956,117 +956,6 @@ function initPlatinum() {
     }  
 }
 
-const UI_INIT_LITTLE_EMERALD_ITEM_FORMES = {
-    "Charcadet": {
-        "Malicious Armor": "Charcadet-Ghost",
-        "Auspicious Armor": "Charcadet-Psychic",
-        "Auspiciuse Armor": "Charcadet-Psychic"
-    },
-    "Snorunt": {
-        "Dusk Stone": "Snorunt-Ghost"
-    },
-    "Ralts": {
-        "Dawn Stone": "Ralts-Fighting"
-    },
-    "Wurmple": {
-        "Toxic Plate": "Wurmple-Poison"
-    },
-    "Nincada": {
-        "Spooky Plate": "Nincada-Ghost"
-    },
-    "Exeggcute": {
-        "Draco Plate": "Exeggcute-Alola"
-    },
-    "Koffing": {
-        "Pixie Plate": "Koffing-Galar"
-    },
-    "Petilil": {
-        "Fist Plate": "Petilil-Hisui"
-    },
-    "Rufflet": {
-        "Mind Plate": "Rufflet-Hisui"
-    },
-    "Bergmite": {
-        "Stone Plate": "Bergmite-Hisui"
-    },
-    "Goomy": {
-        "Iron Plate": "Goomy-Hisui"
-    },
-    "Feebas": {
-        "Prism Scale": "Feebas-Fairy"
-    },
-    "Eevee": {
-        "Fire Stone": "Eevee-Fire",
-        "Water Stone": "Eevee-Water",
-        "Thunder Stone": "Eevee-Electric",
-        "Sun Stone": "Eevee-Psychic",
-        "Moon Stone": "Eevee-Dark",
-        "Ice Stone": "Eevee-Ice",
-        "Leaf Stone": "Eevee-Grass",
-        "Shiny Stone": "Eevee-Fairy"
-    }
-};
-
-function cloneInitLittleEmeraldDexEntry(source, name, baseSpecies, otherFormes) {
-    const entry = $.extend(true, {}, source || {});
-    if (!entry.bs && entry.baseStats) {
-        entry.bs = {
-            "at": entry.baseStats.atk,
-            "df": entry.baseStats.def,
-            "hp": entry.baseStats.hp,
-            "sa": entry.baseStats.spa,
-            "sd": entry.baseStats.spd,
-            "sp": entry.baseStats.spe
-        };
-    }
-    entry.name = name;
-    entry.baseSpecies = baseSpecies;
-    entry.otherFormes = otherFormes.slice();
-    return entry;
-}
-
-function initLittleEmeraldFormes() {
-    Object.keys(UI_INIT_LITTLE_EMERALD_ITEM_FORMES).forEach(function(baseSpecies) {
-        const baseEntry = pokedex[baseSpecies] || SPECIES_BY_ID[gen][cleanString(baseSpecies)];
-        if (!baseEntry) {
-            return;
-        }
-
-        const formes = Array.from(new Set(Object.keys(UI_INIT_LITTLE_EMERALD_ITEM_FORMES[baseSpecies]).map(function(item) {
-            return UI_INIT_LITTLE_EMERALD_ITEM_FORMES[baseSpecies][item];
-        })));
-
-        if (!pokedex[baseSpecies]) {
-            pokedex[baseSpecies] = cloneInitLittleEmeraldDexEntry(baseEntry, baseSpecies, baseSpecies, formes);
-        }
-        pokedex[baseSpecies].otherFormes = formes.slice();
-        if (SPECIES_BY_ID[gen][cleanString(baseSpecies)]) {
-            SPECIES_BY_ID[gen][cleanString(baseSpecies)].otherFormes = formes.slice();
-        }
-
-        formes.forEach(function(formeName) {
-            const formeId = cleanString(formeName);
-            const speciesEntry = SPECIES_BY_ID[gen][formeId];
-            const sourceEntry = speciesEntry || pokedex[formeName] || poksData[formeName] || baseEntry;
-            const dexEntry = cloneInitLittleEmeraldDexEntry(sourceEntry, formeName, baseSpecies, formes);
-            if (!pokedex[formeName]) {
-                pokedex[formeName] = dexEntry;
-            } else {
-                pokedex[formeName] = $.extend(true, {}, pokedex[formeName], dexEntry);
-            }
-
-            if (!SPECIES_BY_ID[gen][formeId]) {
-                SPECIES_BY_ID[gen][formeId] = cloneInitLittleEmeraldDexEntry(sourceEntry, formeName, baseSpecies, formes);
-                SPECIES_BY_ID[gen][formeId].id = formeId;
-                SPECIES_BY_ID[gen][formeId].kind = "Species";
-            } else {
-                SPECIES_BY_ID[gen][formeId].baseSpecies = baseSpecies;
-                SPECIES_BY_ID[gen][formeId].otherFormes = formes.slice();
-            }
-        });
-    });
-}
-
 function toImportedBaseStats(bs) {
     if (!bs) {
         return {};
@@ -1167,9 +1056,6 @@ function loadPoksData() {
         }
     }
 
-    if (TITLE === "Little Emerald") {
-        initLittleEmeraldFormes()
-    }
 }
 
 function loadMovesData() {
