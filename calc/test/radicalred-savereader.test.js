@@ -70,9 +70,70 @@ describe("Radical Red save reader helpers", function () {
     expect(parser.__test.resolveAbilityNameById(233)).toBe("Bone Zone");
   });
 
+  test("maps saved RR ability slots to the matching RR dex ability ids for the species", function () {
+    expect(parser.__test.resolveBaseAbilityId("Clodsire", 931, 1)).toBe(11);
+    expect(parser.__test.resolveBaseAbilityId("Tsareena", 980, 1)).toBe(221);
+    expect(parser.__test.resolveBaseAbilityId("Brute Bonnet", 1243, 0)).toBe(229);
+    expect(parser.__test.resolveBaseAbilityId("Dragalge", 799, 0)).toBe(209);
+    expect(parser.__test.resolveBaseAbilityId("Sandy Shocks", 1244, 0)).toBe(229);
+    expect(parser.__test.resolveBaseAbilityId("Dragapult", 1179, 0)).toBe(29);
+  });
+
   test("treats RR saves with randomized abilities enabled as randomized regardless of the UI toggle", function () {
     expect(parser.__test.randomizedAbilitiesEnabled({ randomizedAbilitiesEnabled: false }, { randomAbilities: true })).toBe(true);
     expect(parser.__test.randomizedAbilitiesEnabled({ randomizedAbilitiesEnabled: false }, { randomAbilities: false })).toBe(false);
+  });
+
+  test("reads party hidden ability from the IV word before PID parity fallback", function () {
+    var monStruct = new Uint8Array(100);
+    monStruct[0] = 0x01;
+    monStruct[72] = 0xFF;
+    monStruct[73] = 0xFF;
+    monStruct[74] = 0xFF;
+    monStruct[75] = 0xBF; // 0xBFFFFFFF -> hidden ability bit set
+
+    expect(parser.__test.resolvePartyAbilitySlot(monStruct)).toBe(2);
+  });
+
+  test("reads boxed hidden ability from the IV word before PID parity fallback", function () {
+    var monStruct = new Uint8Array(58);
+    monStruct[0] = 0x01;
+    monStruct[54] = 0xFF;
+    monStruct[55] = 0xFF;
+    monStruct[56] = 0xFF;
+    monStruct[57] = 0xBF; // 0xBFFFFFFF -> hidden ability bit set
+
+    expect(parser.__test.resolveBoxAbilitySlot(monStruct)).toBe(2);
+  });
+});
+
+describe("Radical Red checked-in randomized save", function () {
+  var repoSavePath = path.resolve(__dirname, "../../../radred.sav");
+  var maybeTest = fs.existsSync(repoSavePath) ? test : test.skip;
+
+  maybeTest("imports the expected randomized abilities from radred.sav", function () {
+    var save = fs.readFileSync(repoSavePath);
+    var parsed = parser.parseRadicalRedSaveFile(save, {
+      randomizedAbilitiesEnabled: false
+    });
+
+    expect(parsed.rrSaveInfo.randomAbilities).toBe(true);
+    expect(parsed.parsedParty.map(function (mon) { return mon.speciesName; })).toEqual([
+      "Clodsire",
+      "Tsareena",
+      "Brute Bonnet",
+      "Dragalge",
+      "Sandy Shocks"
+    ]);
+    expect(parsed.parsedParty.map(function (mon) { return mon.abilityName; })).toEqual([
+      "As One",
+      "Rivalry",
+      "Tinted Lens",
+      "Damp",
+      "Dry Skin"
+    ]);
+    expect(parsed.parsedBoxes[0].speciesName).toBe("Dragapult");
+    expect(parsed.parsedBoxes[0].abilityName).toBe("Download");
   });
 });
 
@@ -121,6 +182,12 @@ describe("Radical Red local save validation", function () {
       expect(randomized.rrSaveInfo.randomAbilities).toBe(true);
       expect(randomized.parsedParty[0].abilityName).toBe("Iron Fist");
       expect(randomized.parsedParty[1].abilityName).toBe("Bone Zone");
+      expect(randomized.parsedParty[5].speciesName).toBe("Dragapult");
+      expect(randomized.parsedParty[5].abilityName).toBe("Download");
+      expect(randomized.parsedBoxes[1].speciesName).toBe("Wobbuffet");
+      expect(randomized.parsedBoxes[1].abilityName).toBe("Delta Stream");
+      expect(randomized.parsedBoxes[9].speciesName).toBe("Leavanny");
+      expect(randomized.parsedBoxes[9].abilityName).toBe("Pickup");
     }
   });
 });

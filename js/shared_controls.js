@@ -2177,7 +2177,9 @@ $(".set-selector").change(function () {
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
 			var abilityFallback = (typeof pokemon.abilities !== "undefined") ? pokemon.abilities[0] : "";
 
-			setSelectValueIfValid(abilityObj, set.ability, abilityFallback);
+			setSelectValueIfValid(abilityObj, set.ability, abilityFallback, {
+				allowCustomValue: Boolean(set && set.isCustomSet)
+			});
 			setSelectValueIfValid(itemObj, set.item, "");
 			updateImportedAbilitySlotDisplay(pokeObj);
 
@@ -2394,8 +2396,41 @@ function showFormes(formeObj, pokemonName, pokemon, baseFormeName) {
 	formeObj.show();
 }
 
-function setSelectValueIfValid(select, value, fallback) {
-	select.val(!value ? fallback : select.children(`option[value="${value}"]`).length ? value : fallback);
+function selectHasOptionValue(select, value) {
+	if (!select || !select.length) {
+		return false;
+	}
+
+	var stringValue = String(value);
+	return select.find("option").filter(function () {
+		return String($(this).val()) === stringValue;
+	}).length > 0;
+}
+
+function appendCustomSelectOption(select, value) {
+	if (!select || !select.length || value == null || value === "") {
+		return;
+	}
+
+	if (selectHasOptionValue(select, value)) {
+		return;
+	}
+
+	select.append($("<option></option>")
+		.val(value)
+		.text(value)
+		.attr("data-custom-option", "1"));
+}
+
+function setSelectValueIfValid(select, value, fallback, options) {
+	var selectOptions = options || {};
+	if (selectOptions.allowCustomValue && value) {
+		appendCustomSelectOption(select, value);
+		select.val(value);
+		return;
+	}
+
+	select.val(!value ? fallback : selectHasOptionValue(select, value) ? value : fallback);
 }
 
 $(".forme").change(function () {
@@ -2418,7 +2453,9 @@ $(".forme").change(function () {
 	var isAltForme = $(this).val() !== pokemonName;
 	if (chosenSet) {
 		let abilityFallback = pokedex[pokemonName].abilities[0];
-		setSelectValueIfValid(container.find(".ability"), chosenSet.ability, abilityFallback);
+		setSelectValueIfValid(container.find(".ability"), chosenSet.ability, abilityFallback, {
+			allowCustomValue: Boolean(chosenSet && chosenSet.isCustomSet)
+		});
 	} else if (isAltForme && abilities.indexOf(altForme.abilities[0]) !== -1 && !greninjaSet) {
 		container.find(".ability").val(altForme.abilities[0]);
 	} else if (greninjaSet) {

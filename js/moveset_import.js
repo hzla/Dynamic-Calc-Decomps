@@ -738,6 +738,9 @@ function getStats(currentPoke, rows, offset) {
 	var natureIsSet = false
 	currentPoke.level = 100;
 	for (var x = offset; x < offset + 8; x++) {
+		if (isImportedSetBoundaryLine(rows, x, offset)) {
+			break;
+		}
 		var currentRow = rows[x] ? rows[x].split(/[/:]/) : '';
 		var evs = {};
 		var ivs = {};
@@ -862,6 +865,35 @@ function findImportedSpeciesNameFromHeader(headerLine) {
 	}
 
 	return eggCandidate;
+}
+
+function isImportedSetBoundaryLine(rows, rowIndex, firstDataRowIndex) {
+	if (!Array.isArray(rows) || rowIndex <= firstDataRowIndex || !rows[rowIndex]) {
+		return false;
+	}
+
+	var trimmed = String(rows[rowIndex] || "").trim();
+	if (!trimmed) {
+		return false;
+	}
+
+	if (
+		trimmed[0] == "-" ||
+		trimmed.indexOf("Level:") === 0 ||
+		trimmed.indexOf("Ability:") === 0 ||
+		trimmed.indexOf("Ability Slot:") === 0 ||
+		trimmed.indexOf("EVs:") === 0 ||
+		trimmed.indexOf("IVs:") === 0 ||
+		trimmed.indexOf("Status:") === 0 ||
+		trimmed.indexOf("Met:") === 0 ||
+		trimmed.indexOf("TID:") === 0 ||
+		trimmed.indexOf("Egg:") === 0 ||
+		/\sNature$/i.test(trimmed)
+	) {
+		return false;
+	}
+
+	return Boolean(findImportedSpeciesNameFromHeader(trimmed));
 }
 
 function getMoves(currentPoke, rows, offset) {

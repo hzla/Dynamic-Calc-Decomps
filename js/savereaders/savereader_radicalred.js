@@ -59,6 +59,41 @@
   var rrAbilityIdsBySpeciesId = dexAbilityConstants.abilityIdsBySpeciesId || [];
   var rrAbilityIdNameMapCache = null;
   var rrAbilityNameIdMapCache = null;
+  var RR_ABILITY_DISPLAY_NAME_ALIASES = {
+    "As One (Glastrier)": "As One",
+    "As One (Spectrier)": "As One"
+  };
+  var RR_ABILITY_NAME_ALIASES = {
+    airlock: "cloudnine",
+    asoneglastrier: "asone",
+    asonespectrier: "asone",
+    clearbody: "clearbody",
+    dazzling: "dazzling",
+    emergencyexit: "emergencyexit",
+    gooey: "gooey",
+    grimneigh: "moxie",
+    hugepower: "hugepower",
+    insomnia: "insomnia",
+    ironbarbs: "roughskin",
+    libero: "protean",
+    moldbreaker: "moldbreaker",
+    powerofalchemy: "receiver",
+    propellertail: "stalwart",
+    propellortail: "stalwart",
+    protean: "protean",
+    purepower: "hugepower",
+    queenlymajesty: "dazzling",
+    receiver: "receiver",
+    roughskin: "roughskin",
+    solidrock: "filter",
+    stalwart: "stalwart",
+    tanglinghair: "gooey",
+    teravolt: "moldbreaker",
+    turboblaze: "moldbreaker",
+    vitalspirit: "insomnia",
+    whitesmoke: "clearbody",
+    wimpout: "emergencyexit"
+  };
   var rrNatures = [
     "Hardy", "Lonely", "Brave", "Adamant", "Naughty",
     "Bold", "Docile", "Relaxed", "Impish", "Lax",
@@ -170,6 +205,18 @@
   function rrGetAbilityIdsForSpeciesId(speciesId) {
     var abilityIds = rrAbilityIdsBySpeciesId[speciesId];
     return Array.isArray(abilityIds) ? abilityIds : [];
+  }
+
+  function rrNormalizeAbilityNameKey(abilityName) {
+    if (!abilityName) {
+      return "";
+    }
+
+    var normalized = String(abilityName)
+      .replace(/[^a-zA-Z0-9]/g, "")
+      .toLowerCase();
+
+    return RR_ABILITY_NAME_ALIASES[normalized] || normalized;
   }
 
   function rrBuildAbilityNameMaps() {
@@ -304,7 +351,8 @@
       return null;
     }
     var maps = rrBuildAbilityNameMaps();
-    return maps.idToName[abilityId] || null;
+    var resolvedName = maps.idToName[abilityId] || null;
+    return RR_ABILITY_DISPLAY_NAME_ALIASES[resolvedName] || resolvedName;
   }
 
   function rrResolveAbilityIdByName(abilityName) {
@@ -312,7 +360,18 @@
       return -1;
     }
     var maps = rrBuildAbilityNameMaps();
-    return Number.isFinite(maps.nameToId[abilityName]) ? maps.nameToId[abilityName] : -1;
+    if (Number.isFinite(maps.nameToId[abilityName])) {
+      return maps.nameToId[abilityName];
+    }
+
+    var targetKey = rrNormalizeAbilityNameKey(abilityName);
+    var knownNames = Object.keys(maps.nameToId);
+    for (var i = 0; i < knownNames.length; i++) {
+      if (rrNormalizeAbilityNameKey(knownNames[i]) === targetKey) {
+        return maps.nameToId[knownNames[i]];
+      }
+    }
+    return -1;
   }
 
   function rrResolveBaseAbilityName(speciesName, abilitySlot) {
@@ -329,24 +388,60 @@
   }
 
   function rrResolveBaseAbilityId(speciesName, speciesId, abilitySlot) {
+    var baseAbilityName = rrResolveBaseAbilityName(speciesName, abilitySlot);
     var abilityIds = rrGetAbilityIdsForSpeciesId(speciesId);
     var slot = Number.isInteger(abilitySlot) ? abilitySlot : 0;
 
     if (abilityIds.length) {
+      var targetKey = rrNormalizeAbilityNameKey(baseAbilityName);
+      if (targetKey) {
+        for (var abilityIndex = 0; abilityIndex < abilityIds.length; abilityIndex++) {
+          var candidateAbilityId = abilityIds[abilityIndex] || 0;
+          if (!candidateAbilityId) {
+            continue;
+          }
+
+          if (rrNormalizeAbilityNameKey(rrResolveAbilityNameById(candidateAbilityId)) === targetKey) {
+            return candidateAbilityId;
+          }
+        }
+      }
+
       var slotAbilityId = abilityIds[slot] || 0;
       if (slotAbilityId) {
         return slotAbilityId;
       }
 
-      for (var abilityIndex = 0; abilityIndex < abilityIds.length; abilityIndex++) {
-        if (abilityIds[abilityIndex]) {
-          return abilityIds[abilityIndex];
+      for (var fallbackIndex = 0; fallbackIndex < abilityIds.length; fallbackIndex++) {
+        if (abilityIds[fallbackIndex]) {
+          return abilityIds[fallbackIndex];
         }
       }
     }
 
-    var baseAbilityName = rrResolveBaseAbilityName(speciesName, abilitySlot);
     return rrResolveAbilityIdByName(baseAbilityName);
+  }
+
+  function rrResolveFallbackAbilitySlot(monStruct, hiddenAbilityOffset) {
+    var abilitySlot = ((rrReadU32LE(monStruct, 0) & 0x1) === 0) ? 0 : 1;
+    if (rrReadU8(monStruct, hiddenAbilityOffset) === 191) {
+      abilitySlot = 2;
+    }
+    return abilitySlot;
+  }
+
+  function rrResolvePartyAbilitySlot(monStruct) {
+    if ((rrReadU32LE(monStruct, 72) & 0x80000000) !== 0) {
+      return 2;
+    }
+    return rrResolveFallbackAbilitySlot(monStruct, 74);
+  }
+
+  function rrResolveBoxAbilitySlot(monStruct) {
+    if ((rrReadU32LE(monStruct, 54) & 0x80000000) !== 0) {
+      return 2;
+    }
+    return rrResolveFallbackAbilitySlot(monStruct, 57);
   }
 
   function rrRandomizeAbilityId(trainerIdSecret, restricted, abilityId, speciesId) {
@@ -489,7 +584,16 @@
 
     var saveIndexA = rrReadU16LE(bytes, RR_SAVE_INDEX_A_OFFSET);
     var saveIndexB = rrReadU16LE(bytes, RR_SAVE_INDEX_B_OFFSET);
-    var blockOffset = (saveIndexB > saveIndexA && saveIndexB !== 65535) ? RR_SAVE_BLOCK_SIZE : 0;
+    var hasValidA = saveIndexA !== 65535;
+    var hasValidB = saveIndexB !== 65535;
+    var blockOffset = 0;
+
+    if (!hasValidA && hasValidB) {
+      blockOffset = RR_SAVE_BLOCK_SIZE;
+    } else if (hasValidA && hasValidB && saveIndexB > saveIndexA) {
+      blockOffset = RR_SAVE_BLOCK_SIZE;
+    }
+
     var activeSave = bytes.subarray(blockOffset, blockOffset + RR_ACTIVE_SLOT_SIZE);
 
     var saveIndex = Math.max(saveIndexA, saveIndexB);
@@ -596,10 +700,7 @@
     }
 
     var pid = rrReadU32LE(monStruct, 0);
-    var abilitySlot = (pid & 0x1) === 0 ? 0 : 1;
-    if (rrReadU8(monStruct, 74) === 191) {
-      abilitySlot = 2;
-    }
+    var abilitySlot = rrResolvePartyAbilitySlot(monStruct);
 
     var moveIds = [
       rrReadU16LE(monStruct, 44),
@@ -639,10 +740,7 @@
     }
 
     var pid = rrReadU32LE(monStruct, 0);
-    var abilitySlot = (pid & 0x1) === 0 ? 0 : 1;
-    if (rrReadU8(monStruct, 57) === 191) {
-      abilitySlot = 2;
-    }
+    var abilitySlot = rrResolveBoxAbilitySlot(monStruct);
 
     var moveIds = rrDecodePackedMoveIds(monStruct.subarray(39, 45));
     var moveNames = rrMapMoveIdsToNames(moveIds).filter(function (moveName) {
@@ -879,7 +977,9 @@
       resolveLevelFromExpTable: rrResolveLevelFromExpTable,
       resolveAbilityNameById: rrResolveAbilityNameById,
       resolveBaseAbilityId: rrResolveBaseAbilityId,
-      randomizedAbilitiesEnabled: rrRandomizedAbilitiesEnabled
+      randomizedAbilitiesEnabled: rrRandomizedAbilitiesEnabled,
+      resolvePartyAbilitySlot: rrResolvePartyAbilitySlot,
+      resolveBoxAbilitySlot: rrResolveBoxAbilitySlot
     }
   };
 });
