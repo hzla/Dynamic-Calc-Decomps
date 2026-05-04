@@ -4,6 +4,11 @@ splitData = {
 		"titles": ["Viola", "Grant", "Korrina", "Ramos", "Clemont", "Valerie", "Olympia", "Wulfric", "Elite 4"],
 		"types": ["bug", "rock", "fighting", "grass", "electric", "fairy", "psychic", "ice"]
 	},
+	"Autumn Red": {
+		"lvls": [15, 24, 31, 40, 49, 53, 62, 65, 100],
+		"titles": ["Brock", "Misty", "Lt. Surge", "Erika", "Koga", "Sabrina", "Blaine", "Giovanni", "Elite 4"],
+		"types": ["rock", "water", "electric", "grass", "poison", "psychic", "fire", "ground"]
+	},
 	"Blaze Black": {
 		"lvls": [14, 20, 30, 38, 44, 56, 63, 66, 73],
 		"titles": ["Cilan/Chili/Cress", "Lenora", "Burgh", "Elesa", "Clay", "Skyla", "Brycen", "Drayden", "Elite 4"],

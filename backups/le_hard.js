@@ -54088,7 +54088,7 @@ backup_data = {
                     "Recover",
                     "Light Screen"
                 ],
-                "item": "Never Melt Ice",
+                "item": "Never-Melt Ice",
                 "ability": "Technician",
                 "battle_type": "Doubles",
                 "sub_index": 5
@@ -59741,7 +59741,7 @@ backup_data = {
                     "Brine",
                     "Play Nice"
                 ],
-                "item": "Never Melt Ice",
+                "item": "Never-Melt Ice",
                 "ability": "Swift Swim",
                 "battle_type": "Singles",
                 "sub_index": 2
