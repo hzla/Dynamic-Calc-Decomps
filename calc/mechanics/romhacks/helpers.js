@@ -3,6 +3,8 @@ exports.__esModule = true;
 
 var HOOK_NAMES = [
     "beforeStats",
+    "criticalHit",
+    "turnOrder",
     "afterMoveType",
     "typeEffectiveness",
     "moveBasePower",
@@ -70,4 +72,3 @@ var vanillaProfile = makeProfile({
     hooks: {}
 });
 exports.vanillaProfile = vanillaProfile;
-

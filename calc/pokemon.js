@@ -27,6 +27,74 @@ var stats_1 = require("./stats");
 var util_1 = require("./util");
 var STATS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 var SPC = new Set(['spc']);
+var CALC_LITTLE_EMERALD_ITEM_FORMES = {
+    Charcadet: {
+        "Malicious Armor": "Charcadet-Ghost",
+        "Auspicious Armor": "Charcadet-Psychic",
+        "Auspiciuse Armor": "Charcadet-Psychic"
+    },
+    Snorunt: {
+        "Dusk Stone": "Snorunt-Ghost"
+    },
+    Ralts: {
+        "Dawn Stone": "Ralts-Fighting"
+    },
+    Wurmple: {
+        "Toxic Plate": "Wurmple-Poison"
+    },
+    Nincada: {
+        "Spooky Plate": "Nincada-Ghost"
+    },
+    Exeggcute: {
+        "Draco Plate": "Exeggcute-Alola"
+    },
+    Koffing: {
+        "Pixie Plate": "Koffing-Galar"
+    },
+    Petilil: {
+        "Fist Plate": "Petilil-Hisui"
+    },
+    Rufflet: {
+        "Mind Plate": "Rufflet-Hisui"
+    },
+    Bergmite: {
+        "Stone Plate": "Bergmite-Hisui"
+    },
+    Goomy: {
+        "Iron Plate": "Goomy-Hisui"
+    },
+    Feebas: {
+        "Prism Scale": "Feebas-Fairy"
+    },
+    Eevee: {
+        "Fire Stone": "Eevee-Fire",
+        "Water Stone": "Eevee-Water",
+        "Thunder Stone": "Eevee-Electric",
+        "Sun Stone": "Eevee-Psychic",
+        "Moon Stone": "Eevee-Dark",
+        "Ice Stone": "Eevee-Ice",
+        "Leaf Stone": "Eevee-Grass",
+        "Shiny Stone": "Eevee-Fairy"
+    }
+};
+var CALC_LITTLE_EMERALD_FORME_TO_BASE = Object.keys(CALC_LITTLE_EMERALD_ITEM_FORMES).reduce(function (acc, baseSpecies) {
+    var forms = CALC_LITTLE_EMERALD_ITEM_FORMES[baseSpecies];
+    for (var item in forms) {
+        acc[forms[item]] = baseSpecies;
+    }
+    return acc;
+}, {});
+function getCalcLittleEmeraldItemForme(speciesName, item) {
+    var baseSpecies = CALC_LITTLE_EMERALD_FORME_TO_BASE[speciesName] || speciesName;
+    var itemFormes = CALC_LITTLE_EMERALD_ITEM_FORMES[baseSpecies];
+    if (!itemFormes) {
+        return null;
+    }
+    if (!item) {
+        return baseSpecies;
+    }
+    return itemFormes[item] || baseSpecies;
+}
 var Pokemon = (function () {
     function Pokemon(gen, name, options) {
         var e_1, _a;
@@ -254,6 +322,12 @@ var Pokemon = (function () {
         return stats_1.Stats.calcStat(gen, stat, this.species.baseStats[stat], this.ivs[stat], this.evs[stat], this.level, this.nature);
     };
     Pokemon.getForme = function (gen, speciesName, item, moveName) {
+        if (typeof TITLE === "string" && TITLE === "Little Emerald") {
+            var littleEmeraldForme = getCalcLittleEmeraldItemForme(speciesName, item);
+            if (littleEmeraldForme) {
+                return littleEmeraldForme;
+            }
+        }
         var species = gen.species.get((0, util_1.toID)(speciesName));
         if (!(species === null || species === void 0 ? void 0 : species.otherFormes)) {
             return speciesName;

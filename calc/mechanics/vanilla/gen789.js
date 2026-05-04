@@ -1,13 +1,26 @@
 "use strict";
 exports.__esModule = true;
 
-if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
-    console.log("Loading Baseline Gen 789 mechanics")
-    var util_1 = require("../../util");
-    var items_1 = require("../../items");
-    var result_1 = require("../../result");
-    var util_2 = require("../util");
-    function calculateSMSSSV(gen, attacker, defender, move, field) {
+var util_1 = require("../../util");
+var items_1 = require("../../items");
+var result_1 = require("../../result");
+var util_2 = require("../util");
+var romhacks_1 = require("../romhacks");
+var romhack_helpers_1 = require("../romhacks/helpers");
+function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
+        var title = typeof TITLE === "string" ? TITLE : "";
+        var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
+        var ctx = {
+            gen: gen,
+            attacker: attacker,
+            defender: defender,
+            move: move,
+            field: field,
+            title: title,
+            desc: null,
+            util: util_2,
+            state: {}
+        };
         (0, util_2.checkAirLock)(attacker, field);
         (0, util_2.checkAirLock)(defender, field);
         (0, util_2.checkTeraformZero)(attacker, field);
@@ -20,6 +33,7 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
         (0, util_2.checkRawStatChanges)(defender, field.defenderSide.isPowerTrick, field.isWonderRoom);
         (0, util_2.checkSeedBoost)(attacker, field);
         (0, util_2.checkSeedBoost)(defender, field);
+        (0, romhack_helpers_1.runHooks)(profile, "beforeStats", ctx);
         (0, util_2.checkDauntlessShield)(attacker, gen);
         (0, util_2.checkDauntlessShield)(defender, gen);
         (0, util_2.checkEmbody)(attacker, gen);
@@ -47,6 +61,7 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             isDefenderDynamaxed: defender.isDynamaxed,
             isWonderRoom: field.isWonderRoom
         };
+        ctx.desc = desc;
         if (!attacker.name) {
             attacker.name = "Placeholder";
         }
@@ -84,6 +99,9 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
         var isCritical = !defender.hasAbility('Battle Armor', 'Shell Armor', 'Magma Armor', 'Leaf Guard') &&
             (move.isCrit || (attacker.hasAbility('Merciless') && defender.hasStatus('psn', 'tox'))) &&
             move.timesUsed === 1;
+        ctx.state.isCritical = isCritical;
+        isCritical = (0, romhack_helpers_1.applyValueHooks)(profile, "criticalHit", ctx, isCritical);
+        ctx.state.isCritical = isCritical;
         var type = move.type;
         if (move.named('Weather Ball')) {
             var holdingUmbrella = attacker.hasItem('Utility Umbrella');
@@ -195,6 +213,7 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             type = attacker.teraType;
         }
         move.type = type;
+        (0, romhack_helpers_1.runHooks)(profile, "afterMoveType", ctx);
         if ((attacker.hasAbility('Triage') && move.drain) ||
             (attacker.hasAbility('Gale Wings') &&
                 move.hasType('Flying') &&
@@ -205,9 +224,10 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
         var isGhostRevealed = attacker.hasAbility('Scrappy') || attacker.hasAbility('Mind\'s Eye') ||
             field.defenderSide.isForesight;
         var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
-        var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget);
+        var isCorrosion = attacker.hasAbility('Corrosion');
+        var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget, false, isCorrosion, false, profile, ctx);
         var type2Effectiveness = defender.types[1]
-            ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, isRingTarget)
+            ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, isRingTarget, false, isCorrosion, false, profile, ctx)
             : 1;
         if (field.isInverse) {
             if (type1Effectiveness === 0 || type1Effectiveness === 0.5)
@@ -223,7 +243,7 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
         var typeEffectiveness = type1Effectiveness * type2Effectiveness;
 
         if (defender.teraType && defender.teraType !== 'Stellar') {
-            typeEffectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.teraType, isGhostRevealed, field.isGravity, isRingTarget);
+            typeEffectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.teraType, isGhostRevealed, field.isGravity, isRingTarget, false, isCorrosion, false, profile, ctx);
         }
         if (typeEffectiveness === 0 && move.hasType('Ground') &&
             defender.hasItem('Iron Ball') && !defender.hasAbility('Klutz')) {
@@ -348,12 +368,12 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
         if (move.hits > 1) {
             desc.hits = move.hits;
         }
-        var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
-        var basePower = calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc);
+        var turnOrder = getTurnOrderSMSSSV(attacker, defender, profile, ctx);
+        var basePower = calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, 1, profile, ctx);
         if (basePower === 0) {
             return result;
         }
-        var attack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
+        var attack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical, profile, ctx);
         var attackSource = move.named('Foul Play') ? defender : attacker;
         if (move.named('Photon Geyser', 'Light That Burns The Sky') ||
             (move.named('Tera Blast') && attackSource.teraType)) {
@@ -367,7 +387,7 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
                 : move.category === 'Special'
                     ? 'spa'
                     : 'atk';
-        var defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
+        var defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical, profile, ctx);
         var hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' ||
             (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical');
         var defenseStat = hitsPhysical ? 'def' : 'spd';
@@ -463,7 +483,7 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             var child = attacker.clone();
             child.ability = 'Parental Bond (Child)';
             (0, util_2.checkMultihitBoost)(gen, child, defender, move, field, desc);
-            childDamage = calculateSMSSSV(gen, child, defender, move, field).damage;
+            childDamage = calculateSMSSSVVanilla(gen, child, defender, move, field).damage;
             desc.attackerAbility = attacker.ability;
         }
         var damage = [];
@@ -517,11 +537,11 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             var damageMatrix = [damage];
             for (var times = 1; times < move.hits; times++) {
                 usedItems = (0, util_2.checkMultihitBoost)(gen, attacker, defender, move, field, desc, usedItems[0], usedItems[1]);
-                var newAttack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
-                var newDefense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
+                var newAttack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical, profile, ctx);
+                var newDefense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical, profile, ctx);
                 hasAteAbilityTypeChange = hasAteAbilityTypeChange &&
                     attacker.hasAbility('Aerilate', 'Galvanize', 'Pixilate', 'Refrigerate', 'Normalize');
-                var newBasePower = calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, times + 1);
+                var newBasePower = calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, times + 1, profile, ctx);
                 var newBaseDamage = (0, util_2.getBaseDamage)(attacker.level, newBasePower, newAttack, newDefense);
                 if (isSpread) {
                     newBaseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(newBaseDamage * 3072) / 4096);
@@ -556,12 +576,23 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             desc.attackBoost = origAtkBoost;
         }
         return result;
-    }
-    exports.calculateSMSSSV = calculateSMSSSV;
-    function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, hit) {
+}
+exports.calculateSMSSSVVanilla = calculateSMSSSVVanilla;
+exports.calculateSMSSSVNullVanilla = calculateSMSSSVVanilla;
+function getTurnOrderSMSSSV(attacker, defender, profile, ctx) {
+        var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
+        if (!ctx) {
+            return turnOrder;
+        }
+        ctx.state.turnOrder = turnOrder;
+        turnOrder = (0, romhack_helpers_1.applyValueHooks)(profile, "turnOrder", ctx, turnOrder);
+        ctx.state.turnOrder = turnOrder;
+        return turnOrder;
+}
+function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, hit, profile, ctx) {
         var _a;
         if (hit === void 0) { hit = 1; }
-        var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
+        var turnOrder = getTurnOrderSMSSSV(attacker, defender, profile, ctx);
         var basePower;
         switch (move.name) {
             case 'Payback':
@@ -747,10 +778,18 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
         if (basePower === 0) {
             return 0;
         }
+        if (ctx) {
+            ctx.state.hitCount = hit - 1;
+            ctx.state.basePower = basePower;
+            basePower = (0, romhack_helpers_1.applyValueHooks)(profile, "moveBasePower", ctx, basePower);
+        }
+        if (basePower === 0) {
+            return 0;
+        }
         if (move.named('Breakneck Blitz', 'Bloom Doom', 'Inferno Overdrive', 'Hydro Vortex', 'Gigavolt Havoc', 'Subzero Slammer', 'Supersonic Skystrike', 'Savage Spin-Out', 'Acid Downpour', 'Tectonic Rage', 'Continental Crush', 'All-Out Pummeling', 'Shattered Psyche', 'Never-Ending Nightmare', 'Devastating Drake', 'Black Hole Eclipse', 'Corkscrew Crash', 'Twinkle Tackle')) {
             desc.moveBP = move.bp;
         }
-        var bpMods = calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder);
+        var bpMods = calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder, profile, ctx);
         basePower = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((basePower * (0, util_2.chainMods)(bpMods, 41, 2097152)) / 4096)));
         if (attacker.teraType && move.type === attacker.teraType &&
             attacker.hasType(attacker.teraType) && move.hits === 1 &&
@@ -762,7 +801,7 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
         return basePower;
     }
     exports.calculateBasePowerSMSSSV = calculateBasePowerSMSSSV;
-    function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder) {
+    function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder, profile, ctx) {
         var bpMods = [];
         var resistedKnockOffDamage = !defender.item ||
             (defender.named('Dialga-Origin') && defender.hasItem('Adamant Crystal')) ||
@@ -816,8 +855,9 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             var isGhostRevealed = attacker.hasAbility('Scrappy') || attacker.hasAbility('Mind\'s Eye') ||
                 field.defenderSide.isForesight;
             var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
-            var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget);
-            var type2Effectiveness = defender.types[1] ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget) : 1;
+            var isCorrosion = attacker.hasAbility('Corrosion');
+            var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget, false, isCorrosion, false, profile, ctx);
+            var type2Effectiveness = defender.types[1] ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget, false, isCorrosion, false, profile, ctx) : 1;
             if (type1Effectiveness * type2Effectiveness >= 2) {
                 bpMods.push(5461);
                 desc.moveBP = basePower * (5461 / 4096);
@@ -969,10 +1009,16 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             bpMods.push(4505);
             desc.attackerItem = attacker.item;
         }
+        if (ctx) {
+            ctx.state.basePower = basePower;
+            ctx.state.hasAteTypeChange = hasAteAbilityTypeChange;
+            ctx.state.turnOrder = turnOrder;
+            bpMods = (0, romhack_helpers_1.applyValueHooks)(profile, "basePowerMods", ctx, bpMods);
+        }
         return bpMods;
     }
     exports.calculateBPModsSMSSSV = calculateBPModsSMSSSV;
-    function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical) {
+    function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical, profile, ctx) {
         if (isCritical === void 0) { isCritical = false; }
         var attack;
         var attackSource = move.named('Foul Play') ? defender : attacker;
@@ -1006,13 +1052,12 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             attack = (0, util_2.pokeRound)((attack * 3) / 2);
             desc.attackerAbility = attacker.ability;
         }
-        var atMods = calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc);
+        var atMods = calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc, profile, ctx);
         attack = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((attack * (0, util_2.chainMods)(atMods, 410, 131072)) / 4096)));
-        console.log(`${attacker.name} ${attack}`)
         return attack;
     }
     exports.calculateAttackSMSSSV = calculateAttackSMSSSV;
-    function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
+    function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc, profile, ctx) {
         var atMods = [];
         if ((attacker.hasAbility('Slow Start') && attacker.abilityOn &&
             (move.category === 'Physical' || (move.category === 'Special' && move.isZ))) ||
@@ -1118,10 +1163,14 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             atMods.push(6144);
             desc.attackerItem = attacker.item;
         }
+        if (ctx) {
+            ctx.state.hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical';
+            atMods = (0, romhack_helpers_1.applyValueHooks)(profile, "attackMods", ctx, atMods);
+        }
         return atMods;
     }
     exports.calculateAtModsSMSSSV = calculateAtModsSMSSSV;
-    function calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical) {
+    function calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical, profile, ctx) {
         if (isCritical === void 0) { isCritical = false; }
         var defense;
         var hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' ||
@@ -1155,11 +1204,11 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             defense = (0, util_2.pokeRound)((defense * 3) / 2);
             desc.weather = field.weather;
         }
-        var dfMods = calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, hitsPhysical);
+        var dfMods = calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, hitsPhysical, profile, ctx);
         return (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((defense * (0, util_2.chainMods)(dfMods, 410, 131072)) / 4096)));
     }
     exports.calculateDefenseSMSSSV = calculateDefenseSMSSSV;
-    function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, hitsPhysical) {
+    function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, hitsPhysical, profile, ctx) {
         var _a;
         if (isCritical === void 0) { isCritical = false; }
         if (hitsPhysical === void 0) { hitsPhysical = false; }
@@ -1232,6 +1281,10 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
             (defender.hasItem('Deep Sea Scale') && defender.named('Clamperl') && !hitsPhysical)) {
             dfMods.push(8192);
             desc.defenderItem = defender.item;
+        }
+        if (ctx) {
+            ctx.state.hitsPhysical = hitsPhysical;
+            dfMods = (0, romhack_helpers_1.applyValueHooks)(profile, "defenseMods", ctx, dfMods);
         }
         return dfMods;
     }
@@ -1334,7 +1387,6 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
     function hasTerrainSeed(pokemon) {
         return pokemon.hasItem('Electric Seed', 'Misty Seed', 'Grassy Seed', 'Psychic Seed');
     }   
-}
 
 
 //# sourceMappingURL=gen789.js.map

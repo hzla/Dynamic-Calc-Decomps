@@ -1220,6 +1220,104 @@ $(".move-type-toggle").change(function () {
 
 
 var lastItem = {p1: "(none)", p2: "(none)"};
+var UI_CONTROLS_LITTLE_EMERALD_ITEM_FORMES = {
+	"Charcadet": {
+		"Malicious Armor": "Charcadet-Ghost",
+		"Auspicious Armor": "Charcadet-Psychic",
+		"Auspiciuse Armor": "Charcadet-Psychic"
+	},
+	"Snorunt": {
+		"Dusk Stone": "Snorunt-Ghost"
+	},
+	"Ralts": {
+		"Dawn Stone": "Ralts-Fighting"
+	},
+	"Wurmple": {
+		"Toxic Plate": "Wurmple-Poison"
+	},
+	"Nincada": {
+		"Spooky Plate": "Nincada-Ghost"
+	},
+	"Exeggcute": {
+		"Draco Plate": "Exeggcute-Alola"
+	},
+	"Koffing": {
+		"Pixie Plate": "Koffing-Galar"
+	},
+	"Petilil": {
+		"Fist Plate": "Petilil-Hisui"
+	},
+	"Rufflet": {
+		"Mind Plate": "Rufflet-Hisui"
+	},
+	"Bergmite": {
+		"Stone Plate": "Bergmite-Hisui"
+	},
+	"Goomy": {
+		"Iron Plate": "Goomy-Hisui"
+	},
+	"Feebas": {
+		"Prism Scale": "Feebas-Fairy"
+	},
+	"Eevee": {
+		"Fire Stone": "Eevee-Fire",
+		"Water Stone": "Eevee-Water",
+		"Thunder Stone": "Eevee-Electric",
+		"Sun Stone": "Eevee-Psychic",
+		"Moon Stone": "Eevee-Dark",
+		"Ice Stone": "Eevee-Ice",
+		"Leaf Stone": "Eevee-Grass",
+		"Shiny Stone": "Eevee-Fairy"
+	}
+};
+
+function getControlsLittleEmeraldSpeciesName(pokeObj) {
+	var setName = pokeObj.find("input.set-selector").val() || "";
+	var baseName = setName.indexOf(" (") === -1 ? setName : setName.substring(0, setName.indexOf(" ("));
+	var formeSelect = pokeObj.find(".forme");
+	if (formeSelect.length && formeSelect.is(":visible") && formeSelect.val()) {
+		return formeSelect.val();
+	}
+	return baseName;
+}
+
+function getControlsLittleEmeraldBaseSpeciesName(speciesName) {
+	if (UI_CONTROLS_LITTLE_EMERALD_ITEM_FORMES[speciesName]) {
+		return speciesName;
+	}
+	var dexEntry = pokedex && pokedex[speciesName];
+	if (dexEntry && dexEntry.baseSpecies && UI_CONTROLS_LITTLE_EMERALD_ITEM_FORMES[dexEntry.baseSpecies]) {
+		return dexEntry.baseSpecies;
+	}
+	return null;
+}
+
+function syncControlsLittleEmeraldItemForme(pokeObj) {
+	if (TITLE !== "Little Emerald") {
+		return;
+	}
+
+	var currentSpecies = getControlsLittleEmeraldSpeciesName(pokeObj);
+	var baseSpecies = getControlsLittleEmeraldBaseSpeciesName(currentSpecies);
+	if (!baseSpecies) {
+		return;
+	}
+
+	var formeSelect = pokeObj.find(".forme");
+	if (!formeSelect.length || !formeSelect.is(":visible")) {
+		return;
+	}
+
+	var itemName = pokeObj.find(".item").val();
+	var targetSpecies = UI_CONTROLS_LITTLE_EMERALD_ITEM_FORMES[baseSpecies][itemName] || baseSpecies;
+	if (!formeSelect.children('option[value="' + targetSpecies + '"]').length) {
+		return;
+	}
+
+	if (formeSelect.val() !== targetSpecies) {
+		formeSelect.val(targetSpecies).change();
+	}
+}
 
 function syncItemEffectToggle(pokeInfo, resetChecked) {
 	var $pokeInfo = $(pokeInfo);
@@ -1293,6 +1391,8 @@ function syncItemState(itemObj) {
 		pokeObj.find(".status").val("Healthy");
 		pokeObj.find(".status").change();
 	}
+
+	syncControlsLittleEmeraldItemForme(pokeObj);
 
 	for (var i = 1; i <= 4; i++) {
 		var moveSelector = ".move" + i;

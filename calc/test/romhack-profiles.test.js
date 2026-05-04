@@ -71,6 +71,8 @@ describe("romhack mechanics profiles", function () {
         expect((0, romhacks_1.getMechanicsProfile)("Super Cascade Hack", 6).id).toBe("cascade-white");
         expect((0, romhacks_1.getMechanicsProfile)("Platinum Kaizo", 4).id).toBe("platinum-kaizo");
         expect((0, romhacks_1.getMechanicsProfile)("Platinum Kaizo", 5).id).toBe("vanilla");
+        expect((0, romhacks_1.getMechanicsProfile)("Little Emerald", 8).id).toBe("little-emerald");
+        expect((0, romhacks_1.getMechanicsProfile)("Little Emerald", 6).id).toBe("vanilla");
         expect((0, romhacks_1.getMechanicsProfile)("Pokemon Unbound", 8).id).toBe("pokemon-unbound");
         expect((0, romhacks_1.getMechanicsProfile)("Unbound 2.1.1", 8).id).toBe("pokemon-unbound");
         expect((0, romhacks_1.getMechanicsProfile)("Pokemon Unbound", 7).id).toBe("vanilla");

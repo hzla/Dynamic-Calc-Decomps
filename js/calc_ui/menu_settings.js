@@ -236,12 +236,18 @@ function isImperiumTitle() {
     return typeof TITLE === "string" && TITLE.includes("Imperium")
 }
 
+function canShowRandomizedToggleForTitle() {
+    return typeof TITLE === "string" && (
+        TITLE.includes("Imperium") ||
+        TITLE.includes("Radical Red")
+    )
+}
+
 function applyImperiumOnlySettingsVisibility() {
     var imperiumOnlySettings = [
         { selector: '#toggle-switch-info', storageKey: 'switchInfo' },
         { selector: '#save-filter-toggle', storageKey: 'filterSaveFile' },
-        { selector: '#toggle-abil', storageKey: 'filterAbilities' },
-        { selector: '#toggle-rand', storageKey: 'randomized' }
+        { selector: '#toggle-abil', storageKey: 'filterAbilities' }
     ]
     var shouldShow = isImperiumTitle()
 
@@ -253,6 +259,13 @@ function applyImperiumOnlySettingsVisibility() {
             $(setting.selector + ' input').prop('checked', false)
         }
     })
+
+    var shouldShowRandomizedToggle = canShowRandomizedToggleForTitle()
+    $('#toggle-rand').toggle(shouldShowRandomizedToggle)
+    if (!shouldShowRandomizedToggle) {
+        localStorage.randomized = 0
+        $('#toggle-rand input').prop('checked', false)
+    }
 
     if (!shouldShow) {
         $('#dynamic-type-bug').hide()

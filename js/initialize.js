@@ -727,7 +727,9 @@ if (SOURCES[params.get('data')]) {
 function setBaseGame(title) {
     window.baseGame ||= ""
     if (!isBlankDevMode) {
-        if (title.includes("Inclement") ) {
+        if (title.includes("Radical Red")) {
+            window.baseGame = "rad_red"
+        } else if (title.includes("Inclement") ) {
             window.baseGame = "inc_em"
         } else if (title.includes("Imperium")) {
             window.baseGame = "imp"
@@ -954,6 +956,143 @@ function initPlatinum() {
     }  
 }
 
+const UI_INIT_LITTLE_EMERALD_ITEM_FORMES = {
+    "Charcadet": {
+        "Malicious Armor": "Charcadet-Ghost",
+        "Auspicious Armor": "Charcadet-Psychic",
+        "Auspiciuse Armor": "Charcadet-Psychic"
+    },
+    "Snorunt": {
+        "Dusk Stone": "Snorunt-Ghost"
+    },
+    "Ralts": {
+        "Dawn Stone": "Ralts-Fighting"
+    },
+    "Wurmple": {
+        "Toxic Plate": "Wurmple-Poison"
+    },
+    "Nincada": {
+        "Spooky Plate": "Nincada-Ghost"
+    },
+    "Exeggcute": {
+        "Draco Plate": "Exeggcute-Alola"
+    },
+    "Koffing": {
+        "Pixie Plate": "Koffing-Galar"
+    },
+    "Petilil": {
+        "Fist Plate": "Petilil-Hisui"
+    },
+    "Rufflet": {
+        "Mind Plate": "Rufflet-Hisui"
+    },
+    "Bergmite": {
+        "Stone Plate": "Bergmite-Hisui"
+    },
+    "Goomy": {
+        "Iron Plate": "Goomy-Hisui"
+    },
+    "Feebas": {
+        "Prism Scale": "Feebas-Fairy"
+    },
+    "Eevee": {
+        "Fire Stone": "Eevee-Fire",
+        "Water Stone": "Eevee-Water",
+        "Thunder Stone": "Eevee-Electric",
+        "Sun Stone": "Eevee-Psychic",
+        "Moon Stone": "Eevee-Dark",
+        "Ice Stone": "Eevee-Ice",
+        "Leaf Stone": "Eevee-Grass",
+        "Shiny Stone": "Eevee-Fairy"
+    }
+};
+
+function cloneInitLittleEmeraldDexEntry(source, name, baseSpecies, otherFormes) {
+    const entry = $.extend(true, {}, source || {});
+    if (!entry.bs && entry.baseStats) {
+        entry.bs = {
+            "at": entry.baseStats.atk,
+            "df": entry.baseStats.def,
+            "hp": entry.baseStats.hp,
+            "sa": entry.baseStats.spa,
+            "sd": entry.baseStats.spd,
+            "sp": entry.baseStats.spe
+        };
+    }
+    entry.name = name;
+    entry.baseSpecies = baseSpecies;
+    entry.otherFormes = otherFormes.slice();
+    return entry;
+}
+
+function initLittleEmeraldFormes() {
+    Object.keys(UI_INIT_LITTLE_EMERALD_ITEM_FORMES).forEach(function(baseSpecies) {
+        const baseEntry = pokedex[baseSpecies] || SPECIES_BY_ID[gen][cleanString(baseSpecies)];
+        if (!baseEntry) {
+            return;
+        }
+
+        const formes = Array.from(new Set(Object.keys(UI_INIT_LITTLE_EMERALD_ITEM_FORMES[baseSpecies]).map(function(item) {
+            return UI_INIT_LITTLE_EMERALD_ITEM_FORMES[baseSpecies][item];
+        })));
+
+        if (!pokedex[baseSpecies]) {
+            pokedex[baseSpecies] = cloneInitLittleEmeraldDexEntry(baseEntry, baseSpecies, baseSpecies, formes);
+        }
+        pokedex[baseSpecies].otherFormes = formes.slice();
+        if (SPECIES_BY_ID[gen][cleanString(baseSpecies)]) {
+            SPECIES_BY_ID[gen][cleanString(baseSpecies)].otherFormes = formes.slice();
+        }
+
+        formes.forEach(function(formeName) {
+            const formeId = cleanString(formeName);
+            const speciesEntry = SPECIES_BY_ID[gen][formeId];
+            const sourceEntry = speciesEntry || pokedex[formeName] || poksData[formeName] || baseEntry;
+            const dexEntry = cloneInitLittleEmeraldDexEntry(sourceEntry, formeName, baseSpecies, formes);
+            if (!pokedex[formeName]) {
+                pokedex[formeName] = dexEntry;
+            } else {
+                pokedex[formeName] = $.extend(true, {}, pokedex[formeName], dexEntry);
+            }
+
+            if (!SPECIES_BY_ID[gen][formeId]) {
+                SPECIES_BY_ID[gen][formeId] = cloneInitLittleEmeraldDexEntry(sourceEntry, formeName, baseSpecies, formes);
+                SPECIES_BY_ID[gen][formeId].id = formeId;
+                SPECIES_BY_ID[gen][formeId].kind = "Species";
+            } else {
+                SPECIES_BY_ID[gen][formeId].baseSpecies = baseSpecies;
+                SPECIES_BY_ID[gen][formeId].otherFormes = formes.slice();
+            }
+        });
+    });
+}
+
+function toImportedBaseStats(bs) {
+    if (!bs) {
+        return {};
+    }
+    return {
+        "atk": bs["at"],
+        "def": bs["df"],
+        "hp": bs["hp"],
+        "spa": bs["sa"],
+        "spd": bs["sd"],
+        "spe": bs["sp"],
+    };
+}
+
+function applyImportedSpeciesFormData(target, jsonPok) {
+    if (!target || !jsonPok) {
+        return;
+    }
+    if (jsonPok.hasOwnProperty("baseSpecies")) {
+        target["baseSpecies"] = jsonPok["baseSpecies"];
+    }
+    if (Array.isArray(jsonPok["otherFormes"])) {
+        target["otherFormes"] = jsonPok["otherFormes"].slice();
+    }
+}
+
 // Allows both explicit pokemon names "Rotom-Heat" or smogon ID style "rotomheat"
 function loadPoksData() {
     console.log("patching changed mons...")
@@ -988,24 +1127,20 @@ function loadPoksData() {
         }
 
         pokedex[pokName]["bs"] = jsonPok["bs"]
+        pokedex[pokName]["baseStats"] = toImportedBaseStats(jsonPok["bs"])
 
         if (jsonPok["types"]) {
             pokedex[pokName]["types"] = jsonPok["types"]
         }
+        applyImportedSpeciesFormData(pokedex[pokName], jsonPok)
         
         if (jsonPok.hasOwnProperty("abilities"))
             pokedex[pok]["abilities"] = jsonPok["abilities"]
         
 
         SPECIES_BY_ID[gen][pokId].types = jsonPok["types"]
-        SPECIES_BY_ID[gen][pokId].baseStats = {
-            "atk": jsonPok["bs"]["at"],
-            "def": jsonPok["bs"]["df"],
-            "hp": jsonPok["bs"]["hp"],
-            "spa": jsonPok["bs"]["sa"],
-            "spd": jsonPok["bs"]["sd"],
-            "spe": jsonPok["bs"]["sp"],
-        }
+        SPECIES_BY_ID[gen][pokId].baseStats = toImportedBaseStats(jsonPok["bs"])
+        applyImportedSpeciesFormData(SPECIES_BY_ID[gen][pokId], jsonPok)
     }
 
     if (settings.customPoks == 1) {
@@ -1021,13 +1156,19 @@ function loadPoksData() {
 
                 console.log(`Creating custom pok: ${pok}`)
 
-                poksData[pok]["baseStats"] = poksData[pok]["bs"]
+                poksData[pok]["baseStats"] = toImportedBaseStats(poksData[pok]["bs"])
                 poksData[pok]["id"] = pok_id
                 poksData[pok]["kind"] = "Species"
+                poksData[pok]["name"] = pok
+                applyImportedSpeciesFormData(poksData[pok], poksData[pok])
                 SPECIES_BY_ID[gen][pok_id] = poksData[pok]
                 pokedex[pok] = poksData[pok]
             }     
         }
+    }
+
+    if (TITLE === "Little Emerald") {
+        initLittleEmeraldFormes()
     }
 }
 

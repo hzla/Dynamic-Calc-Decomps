@@ -5,11 +5,19 @@ var util_1 = require("../util");
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_2 = require("./util");
+var vanilla_gen789_1 = require("./vanilla/gen789");
 var romhacks_1 = require("./romhacks");
 var romhack_helpers_1 = require("./romhacks/helpers");
+function shouldUseVanillaGen789(title) {
+    return title === "Pokemon Null" || title === "Pokemon Null 1.2" || title === "Little Emerald";
+}
 function calculateSMSSSV(gen, attacker, defender, move, field) {
     var _a;
     var title = typeof TITLE === "string" ? TITLE : "";
+    if (shouldUseVanillaGen789(title) &&
+        typeof vanilla_gen789_1.calculateSMSSSVVanilla === "function") {
+        return vanilla_gen789_1.calculateSMSSSVVanilla(gen, attacker, defender, move, field);
+    }
     var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
     var ctx = {
         gen: gen,
@@ -151,6 +159,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             (attacker.hasAbility('Merciless') && defender.hasStatus('psn', 'tox')) ||
             (attacker.hasAbility('Drill Beak') && move.flags.drill)) &&
         move.timesUsed === 1;
+    ctx.state.critStage = critStage;
+    ctx.state.isCritical = isCritical;
+    isCritical = (0, romhack_helpers_1.applyValueHooks)(profile, "criticalHit", ctx, isCritical);
+    ctx.state.isCritical = isCritical;
 
     var type = move.type;
     if (move.named('Weather Ball')) {
@@ -538,10 +550,20 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     return result;
 }
 exports.calculateSMSSSV = calculateSMSSSV;
+function getTurnOrderSMSSSV(attacker, defender, profile, ctx) {
+    var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
+    if (!ctx) {
+        return turnOrder;
+    }
+    ctx.state.turnOrder = turnOrder;
+    turnOrder = (0, romhack_helpers_1.applyValueHooks)(profile, "turnOrder", ctx, turnOrder);
+    ctx.state.turnOrder = turnOrder;
+    return turnOrder;
+}
 function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, hit, profile, ctx) {
     var _a;
     if (hit === void 0) { hit = 1; }
-    var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
+    var turnOrder = getTurnOrderSMSSSV(attacker, defender, profile, ctx);
     var basePower;
     switch (move.name) {
         case 'Payback':
