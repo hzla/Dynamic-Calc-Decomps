@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-
+(function () {
 var util_1 = require("../../util");
 var items_1 = require("../../items");
 var result_1 = require("../../result");
@@ -68,6 +68,7 @@ function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
         if (!defender.name) {
             defender.name = "Placeholder";
         }
+
         
         var result = new result_1.Result(gen, attacker, defender, move, field, 0, desc);
         if (move.category === 'Status' && !move.named('Nature Power')) {
@@ -590,6 +591,7 @@ function getTurnOrderSMSSSV(attacker, defender, profile, ctx) {
         return turnOrder;
 }
 function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, hit, profile, ctx) {
+        console.log('should not be visible')
         var _a;
         if (hit === void 0) { hit = 1; }
         var turnOrder = getTurnOrderSMSSSV(attacker, defender, profile, ctx);
@@ -1389,4 +1391,5 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
     }   
 
 
+})();
 //# sourceMappingURL=gen789.js.map

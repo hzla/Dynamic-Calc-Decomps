@@ -782,6 +782,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
     if (move.named('Breakneck Blitz', 'Bloom Doom', 'Inferno Overdrive', 'Hydro Vortex', 'Gigavolt Havoc', 'Subzero Slammer', 'Supersonic Skystrike', 'Savage Spin-Out', 'Acid Downpour', 'Tectonic Rage', 'Continental Crush', 'All-Out Pummeling', 'Shattered Psyche', 'Never-Ending Nightmare', 'Devastating Drake', 'Black Hole Eclipse', 'Corkscrew Crash', 'Twinkle Tackle')) {
         desc.moveBP = move.bp;
     }
+
     var bpMods = calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder, profile, ctx);
     basePower = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((basePower * (0, util_2.chainMods)(bpMods, 41, 2097152)) / 4096)));
     if (attacker.teraType && move.type === attacker.teraType &&
@@ -797,6 +798,8 @@ exports.calculateBasePowerSMSSSV = calculateBasePowerSMSSSV;
 function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder, profile, ctx) {
     var bpMods = [];
     var resistedKnockOffDamage = false;
+
+
 
 
     if (move.named('Knock Off')) {
@@ -920,6 +923,8 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
                 desc.defenderAbility = defender.ability;
         }
     }
+
+  
 
     if ((attacker.hasAbility('Sheer Force') &&
         (move.secondaries || move.named('Jet Punch', 'Order Up')) && !move.isMax) ||
