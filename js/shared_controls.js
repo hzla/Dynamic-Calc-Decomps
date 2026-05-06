@@ -1656,6 +1656,9 @@ function refresh_next_in() {
 
 	if (!Array.isArray(next_poks)) {
 		$('.opposing.trainer-pok-list').removeClass('dual-trainer-preview').html("")
+		if (typeof syncOpposingKoButton === "function") {
+			syncOpposingKoButton()
+		}
 		return
 	}
 
@@ -1819,6 +1822,9 @@ function refresh_next_in() {
 
 	if (localStorage.switchInfo == '1') {
 		simplifySwitchScores()
+	}
+	if (typeof syncOpposingKoButton === "function") {
+		syncOpposingKoButton()
 	}
 }
 

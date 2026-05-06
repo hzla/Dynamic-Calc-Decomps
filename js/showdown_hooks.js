@@ -1,5 +1,77 @@
 // Event bindings for calc ui
 
+function getCurrentOpposingPreviewSetId() {
+    return $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text() || currentTrainerSet || localStorage["right"] || ""
+}
+
+function syncOpposingKoButton() {
+    var button = $('#opposing-ko-toggle')
+    if (!button.length) {
+        return
+    }
+
+    var setId = getCurrentOpposingPreviewSetId()
+    var isFainted = Boolean(setId) && fainted.includes(setId)
+
+    button
+        .toggleClass('is-fainted', isFainted)
+        .text(isFainted ? "KO'd" : "KO")
+        .prop('disabled', !setId)
+        .attr('aria-pressed', isFainted ? 'true' : 'false')
+        .attr('title', isFainted ? 'Unmark enemy as fainted' : 'Mark enemy as fainted')
+}
+
+function toggleTrainerPreviewFaint(setId) {
+    var targetSet = setId || getCurrentOpposingPreviewSetId()
+    if (!targetSet) {
+        syncOpposingKoButton()
+        return
+    }
+
+    if (fainted.includes(targetSet)) {
+        fainted = fainted.filter(function(entry) { return entry !== targetSet })
+    } else {
+        fainted.push(targetSet)
+    }
+
+    refresh_next_in()
+    syncOpposingKoButton()
+}
+
+var MID_PANEL_LAYOUT_STORAGE_KEY = "midPanelBottomLayout"
+
+function isMidPanelLayoutToggleViewport() {
+    return window.innerWidth <= 1439 && window.innerWidth > 960
+}
+
+function applyMidPanelLayoutPreference() {
+    var shouldMoveToBottom = localStorage.getItem(MID_PANEL_LAYOUT_STORAGE_KEY) == "1"
+    $('.panel-wrapper').toggleClass('mid-panel-bottom-layout', shouldMoveToBottom)
+    syncMidPanelLayoutToggle()
+}
+
+function syncMidPanelLayoutToggle() {
+    var button = $('#mid-panel-layout-toggle')
+    if (!button.length) {
+        return
+    }
+
+    var isBottomLayout = $('.panel-wrapper').hasClass('mid-panel-bottom-layout')
+    var inViewportRange = isMidPanelLayoutToggleViewport()
+
+    button
+        .text(isBottomLayout ? '↑' : '↓')
+        .attr('aria-pressed', isBottomLayout ? 'true' : 'false')
+        .attr('aria-label', isBottomLayout ? 'Move field panel between side panels' : 'Move field panel below side panels')
+        .attr('title', isBottomLayout ? 'Move field panel between side panels' : 'Move field panel below side panels')
+        .prop('disabled', !inViewportRange)
+}
+
+function toggleMidPanelLayout() {
+    var nextIsBottom = !$('.panel-wrapper').hasClass('mid-panel-bottom-layout')
+    localStorage.setItem(MID_PANEL_LAYOUT_STORAGE_KEY, nextIsBottom ? "1" : "0")
+    applyMidPanelLayoutPreference()
+}
 
 $(document).ready(function() {
     function loadLeftSideSet(set) {
@@ -260,22 +332,23 @@ $(document).ready(function() {
 
     $(document).on('contextmenu', '.trainer-pok.right-side', function(e) {
         e.preventDefault()
-        $(this).toggleClass('fainted')
-
-        var set = $(this).attr('data-id')
-
-        if (fainted.includes(set)) {
-            fainted = fainted.filter(function(e) { return e !== set})
-        } else {
-            fainted.push(set)
-        }
-
-        refresh_next_in()
+        toggleTrainerPreviewFaint($(this).attr('data-id'))
     })
 
     $(document).on('click', '#add-party-pok', function() {
         var currentPok = $('.set-selector')[1].value
         $(`[data-id="${currentPok}"]`).trigger('contextmenu')
+    })
+
+    $(document).on('click', '#opposing-ko-toggle', function() {
+        toggleTrainerPreviewFaint()
+    })
+
+    $(document).on('click', '#mid-panel-layout-toggle', function() {
+        if (!isMidPanelLayoutToggleViewport()) {
+            return
+        }
+        toggleMidPanelLayout()
     })
 
    $(document).on('contextmenu', '.trainer-pok.left-side', function(e) {
@@ -519,6 +592,7 @@ $(document).ready(function() {
     })
 
     $(document).on('change', '.opposing.set-selector', function() {
+        syncOpposingKoButton()
         if (isDamageBoxSortKey(BOX_SORT_STATE.key) || $('#player-poks-filter:visible').length > 0) {
             refreshBoxDisplay()
         }
@@ -540,4 +614,8 @@ $(document).ready(function() {
         box_rolls()
         hideBoxDamageTooltip()
     })
+
+    applyMidPanelLayoutPreference()
+    $(window).on('resize.mid-panel-layout-toggle', syncMidPanelLayoutToggle)
+    syncOpposingKoButton()
 })

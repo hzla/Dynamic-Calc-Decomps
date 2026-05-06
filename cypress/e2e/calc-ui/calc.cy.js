@@ -1019,6 +1019,68 @@ for (let calc of calcs) {
         cy.get('.player-poks .trainer-pok.active, .player-megas .trainer-pok.active').its('length').should('be.gt', 0)
       })
 
+      it('handles box filters for boxed mons whose ids include apostrophes', () => {
+        cy.window().then((win) => {
+          const setId = "Farfetch'd (My Box)"
+          const species = "Farfetch'd"
+          const originalCustomSet = win.customSets[species]
+          const originalPokedexEntry = win.pokedex[species]
+          const originalGetBox = win.get_box
+          const originalGetBoxMatchupContextOptions = win.getBoxMatchupContextOptions
+          const originalGetBoxMatchupMetrics = win.getBoxMatchupMetrics
+          const originalSearchValue = win.$('#search-box').val()
+          const originalBoxrolls = win.localStorage.boxrolls
+          const targetMons = () => win.$('.player-poks .trainer-pok').filter((_, el) => win.$(el).attr('data-id') == setId)
+
+          win.customSets[species] = originalCustomSet || { "My Box": { ability: "Keen Eye", moves: ["Tackle"] } }
+          win.pokedex[species] = originalPokedexEntry || win.pokedex.Chikorita
+          win.$('.player-poks').append(`<img class="trainer-pok left-side" data-id="${setId}">`)
+          win.$('#search-box').val('farfetch')
+
+          win.filter_box()
+          expect(targetMons().hasClass('active')).to.equal(true)
+
+          win.get_box = () => [setId]
+          win.getBoxMatchupContextOptions = () => ({ opponent: { level: 50 } })
+          win.getBoxMatchupMetrics = () => ({
+            faster: true,
+            killer: true,
+            defender: true,
+            ohko: false,
+            mbOhko: false,
+            ohkod: false,
+            mbOhkod: false,
+            bestMinDealtMove: 'Slash',
+            worstMaxTakenMove: 'Tackle'
+          })
+          win.localStorage.boxrolls = '1'
+
+          win.box_rolls()
+          expect(targetMons().hasClass('faster')).to.equal(true)
+          expect(targetMons().hasClass('killer')).to.equal(true)
+          expect(targetMons().hasClass('defender')).to.equal(true)
+
+          targetMons().remove()
+          if (originalCustomSet) {
+            win.customSets[species] = originalCustomSet
+          } else {
+            delete win.customSets[species]
+          }
+          if (originalPokedexEntry) {
+            win.pokedex[species] = originalPokedexEntry
+          } else {
+            delete win.pokedex[species]
+          }
+          win.get_box = originalGetBox
+          win.getBoxMatchupContextOptions = originalGetBoxMatchupContextOptions
+          win.getBoxMatchupMetrics = originalGetBoxMatchupMetrics
+          win.localStorage.boxrolls = originalBoxrolls
+          win.$('#search-box').val(originalSearchValue)
+          win.$('.player-poks .trainer-pok, .player-party .trainer-pok').removeClass('killer defender ohko mb-ohko ohkod mb-ohkod faster active')
+          win.filter_box()
+        })
+      })
+
       if (calc.title.includes('Pokemon Null')) {
         it('sorts by species id using nullMons order', () => {
           cy.get('#box-sort-direction').then(($button) => {

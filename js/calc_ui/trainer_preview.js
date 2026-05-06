@@ -260,5 +260,8 @@ function setOpposing(id) {
     // }
     if ($('#player-poks-filter:visible').length > 0) {
        box_rolls() 
-    } 
+    }
+    if (typeof syncOpposingKoButton === "function") {
+        syncOpposingKoButton()
+    }
 }

@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?68d8c05b" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?88105ab2" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?76f537b9" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
@@ -1213,6 +1213,7 @@
         <div aria-label="Field information" role="region">
             <fieldset class="field-info">
                 <legend align="center">Field</legend>
+                <button type="button" id="mid-panel-layout-toggle" aria-label="Move field panel below side panels" title="Move field panel below side panels">↓</button>
                 <div aria-labelledby="selectBattleFormatInstruction" class="gen-specific g3 g4 g5 g6 g7 g8" role="radiogroup" style="width: 10.6em; margin: 0 auto 5px;" title="Select the battle format.">
                     <span class="visually-hidden" id="selectBattleFormatInstruction">Select the battle format.</span>
                     <input class="visually-hidden calc-trigger" type="radio" name="format" value="Singles" id="singles-format" checked="checked" />
@@ -2234,6 +2235,11 @@
                     <div class="trainer-pok-container">
                     </div>
                 </div>
+                <div class="trainer-preview-mobile-actions">
+                    <button type="button" id="opposing-ko-toggle" aria-pressed="false" title="Mark enemy as fainted">KO</button>
+                    <button type="button" class="nav-tag prev" title="Previous trainer">Prev</button>
+                    <button type="button" class="nav-tag next" title="Next trainer">Next</button>
+                </div>
                 <fieldset id="gen3-switch-guide" class="poke-info switchGuide hide">
                     <legend align="center">More Options</legend>
                     <div class="last-move-used" style="padding-left: 0.4rem;">
@@ -2397,7 +2403,7 @@
     <script type="text/javascript" src="./js/calc_ui/dex.js?d7f6799d"></script>
     <script type="text/javascript" src="./js/unbound_adapter.js?20260501a"></script>
     <script type="text/javascript" src="./js/initialize.js?21daa295"></script>
-    <script type="text/javascript" src="./js/calc_ui/player_box.js?b1aca27d"></script>
+    <script type="text/javascript" src="./js/calc_ui/player_box.js?135b3f51"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?c09cc313"></script>
@@ -2407,8 +2413,8 @@
 
     <script type="text/javascript" src="./js/calc_ui/ai_display.js?4c40ce6e"></script>
 
-    <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?ebdb5292"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?8a3c3cec"></script>
+    <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?b9013bb9"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?442883c2"></script>
 
 
 
@@ -2479,7 +2485,7 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?f1a7f1b6"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?72f1e3f9"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?2bc29a3d"></script>
     <script type="text/javascript" src="./js/moveset_import.js?d859898d"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>

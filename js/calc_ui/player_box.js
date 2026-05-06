@@ -63,8 +63,16 @@ function persistBoxSortState() {
 BOX_SORT_STATE.key = getSavedBoxSortKey()
 BOX_SORT_STATE.direction = getSavedBoxSortDirection()
 
-function escapeBoxSelectorValue(value) {
-    return String(value || "").replace(/\\/g, "\\\\").replace(/'/g, "\\'")
+function findBoxPokemonBySetId(root, setId) {
+    return $(root).find('.trainer-pok').filter(function() {
+        return $(this).attr('data-id') == setId
+    })
+}
+
+function findBoxSortCardsBySetId(root, setId) {
+    return $(root).find('.box-sort-card').filter(function() {
+        return $(this).attr('data-set-id') == setId
+    })
 }
 
 function normalizeBoxAbilityForCalc(pokemon) {
@@ -1150,7 +1158,7 @@ function filter_box() {
         for (set in customSets) {
             let set_id = `${set} (My Box)`
             if (typeof window.shouldHideImportedPrevo === "function" && window.shouldHideImportedPrevo(set, customSets)) {
-               containers.find(`.box-sort-card[data-set-id='${escapeBoxSelectorValue(set_id)}']`).hide()
+               findBoxSortCardsBySetId(containers, set_id).hide()
             }
         }
     }
@@ -1195,12 +1203,12 @@ function filter_box() {
 
         const lowerCasePokName = set.toLowerCase()
         if (setInfo.includes(search_string) || lowerCasePokName.includes(search_string) || pokedexInfo.includes(search_string) || backupDataInfo.includes(search_string)) {
-            containers.find(`[data-id='${set_id}']`).addClass('active')
+            findBoxPokemonBySetId(containers, set_id).addClass('active')
         }
 
         if (learnset) {
             if (learnset.includes(search_string)) {
-                containers.find(`[data-id='${set_id}']`).addClass('active')
+                findBoxPokemonBySetId(containers, set_id).addClass('active')
             }
         }
     }
@@ -1229,29 +1237,29 @@ function box_rolls() {
         var metrics = getBoxMatchupMetrics(box[m], contextOptions)
         if (metrics.faster) {
             faster.push({"set": box[m]})
-            $(`.trainer-pok[data-id='${box[m]}']`).addClass('faster')
+            findBoxPokemonBySetId(document, box[m]).addClass('faster')
         }
 
         if (metrics.killer) {
             killers.push({"set": box[m], "move": metrics.bestMinDealtMove})
-            $(`.trainer-pok[data-id='${box[m]}']`).addClass('killer')
+            findBoxPokemonBySetId(document, box[m]).addClass('killer')
         }
 
         if (metrics.ohko) {
-            $(`.trainer-pok[data-id='${box[m]}']`).addClass('ohko')
+            findBoxPokemonBySetId(document, box[m]).addClass('ohko')
         } else if (metrics.mbOhko) {
-            $(`.trainer-pok[data-id='${box[m]}']`).addClass('mb-ohko')
+            findBoxPokemonBySetId(document, box[m]).addClass('mb-ohko')
         }
 
         if (metrics.defender) {
             defenders.push({"set": box[m], "move": metrics.worstMaxTakenMove})
-            $(`.trainer-pok[data-id='${box[m]}']`).addClass('defender')
+            findBoxPokemonBySetId(document, box[m]).addClass('defender')
         }
 
         if (metrics.ohkod) {
-            $(`.trainer-pok[data-id='${box[m]}']`).addClass('ohkod')
+            findBoxPokemonBySetId(document, box[m]).addClass('ohkod')
         } else if (metrics.mbOhkod) {
-            $(`.trainer-pok[data-id='${box[m]}']`).addClass('mb-ohkod')
+            findBoxPokemonBySetId(document, box[m]).addClass('mb-ohkod')
         }
     }
     return {"killers": killers, "defenders": defenders, "faster": faster}  
