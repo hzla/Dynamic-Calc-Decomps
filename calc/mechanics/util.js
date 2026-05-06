@@ -171,7 +171,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
         speedMods.push(6144);
     }
     else if (pokemon.hasAbility('Quick Feet') && pokemon.status) {
-        if (TITlE.includes("Imperium") || TITLE.includes("Radical")) {
+        if (TITLE.includes("Imperium") || TITLE.includes("Radical")) {
             speedMods.push(8192);
         } else {
             speedMods.push(6144);
