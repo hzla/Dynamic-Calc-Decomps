@@ -1603,9 +1603,9 @@ function renderTrainerPreviewPok(next_pok) {
 		<div class="bp-info ${pps[2] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][2])}" >${next_pok[4][2].replace("Hidden Power", "HP")}</div>
 		<div class="bp-info bp-last ${pps[3] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][3])}" >${next_pok[4][3].replace("Hidden Power", "HP")}</div>`
 
-		if (TITLE == "Platinum Kaizo" && next_pok[9]) {
+		if (settings.damageGen == 4 && typeof shouldShowSwitchAiInfo === "function" && shouldShowSwitchAiInfo() && next_pok[9]) {
 			pok += `<div class="bp-info"><span class="type-mu">Type MU:</span> ${next_pok[9]}</div>`
-		} else if (TITLE == "Platinum Kaizo") {
+		} else if (settings.damageGen == 4 && typeof shouldShowSwitchAiInfo === "function" && shouldShowSwitchAiInfo()) {
 			pok += `<div class="bp-info"><span class="p2-dmg">P2 Dmg:</span> ${next_pok[5]}</div>`
 		}
 		pok += `</div>`
@@ -1617,7 +1617,9 @@ function renderTrainerPreviewPok(next_pok) {
 	}
 
 
-	if ((settings.damageGen <= 4 || settings.damageGen == 5) && typeof next_pok[8] !== "undefined") {
+	if ((settings.damageGen <= 4 || settings.damageGen == 5) &&
+		typeof next_pok[8] !== "undefined" &&
+		(typeof shouldShowTrainerPreviewExpBars !== "function" || shouldShowTrainerPreviewExpBars())) {
 		var expGain = Number(next_pok[8]) || 0
 		var expRatio = 0
 		if (typeof expNeededToLevelFully !== "undefined" && expNeededToLevelFully > 0) {

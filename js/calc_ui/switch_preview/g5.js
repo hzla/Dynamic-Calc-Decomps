@@ -548,7 +548,9 @@ function g5ApplyMegaSwitchPreviewOrdering(rankedTrainerPoks) {
 }
 
 function g5FinalizeRankedTrainerPoks(rankedTrainerPoks) {
-    if ((typeof noSwitch != "undefined" && noSwitch == "1") || partnerName) {
+    // Partner sections are split later during render, so partner battles should
+    // still respect the ranked switch preview order when the feature is enabled.
+    if (settings && settings.noSwitch) {
         rankedTrainerPoks = rankedTrainerPoks.sort(sort_subindex)
     } else {
         rankedTrainerPoks = rankedTrainerPoks.sort(sort_trpoks)
@@ -560,7 +562,7 @@ function g5FinalizeRankedTrainerPoks(rankedTrainerPoks) {
 function g5FinalizeCascadeHybridRankings(phase1Mons, phase2Mons) {
     var rankedTrainerPoks = phase1Mons.concat(phase2Mons)
 
-    if ((typeof noSwitch != "undefined" && noSwitch == "1") || partnerName) {
+    if (settings && settings.noSwitch) {
         rankedTrainerPoks = rankedTrainerPoks.sort(sort_subindex)
     } else {
         rankedTrainerPoks = phase1Mons.sort(sort_trpoks).concat(phase2Mons.sort(sort_trpoks))

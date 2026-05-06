@@ -50,6 +50,18 @@ function setSettingsDefaults() {
     localStorage.switchInfo = 0
   }
 
+  if (typeof localStorage.switchPreview === 'undefined') {
+    localStorage.switchPreview = 0
+  }
+
+  if (typeof localStorage.switchAiInfo === 'undefined') {
+    localStorage.switchAiInfo = 0
+  }
+
+  if (typeof localStorage.showTrainerPreviewExpBars === 'undefined') {
+    localStorage.showTrainerPreviewExpBars = 1
+  }
+
   if (typeof localStorage.hidePrevos === 'undefined') {
     localStorage.hidePrevos = 1
   }
@@ -159,7 +171,7 @@ function setSettingsDefaults() {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -203,6 +215,15 @@ function setSettingsTogglesFromLocalStorage() {
     } else {
         $('#dynamic-type-bug').hide()
     }
+    if (localStorage.switchPreview == '1') {
+        $('#toggle-switch-preview input').prop('checked', true)
+    }
+    if (localStorage.switchAiInfo == '1') {
+        $('#toggle-switch-ai-info input').prop('checked', true)
+    }
+    if (localStorage.showTrainerPreviewExpBars == '1') {
+        $('#toggle-exp-bars input').prop('checked', true)
+    }
     if (localStorage.highlightMoves == '1') {
         $('#toggle-hl-moves input').prop('checked', true)
     }
@@ -229,6 +250,9 @@ function setSettingsTogglesFromLocalStorage() {
 
     applySyncLuaVisibility()
     applyAutoImportMegasVisibility()
+    applySwitchPreviewVisibility()
+    applySwitchAiInfoVisibility()
+    applyTrainerPreviewExpBarVisibility()
     applyHideCurrentAiMonVisibility()
 }
 
@@ -343,6 +367,34 @@ function applyAutoImportMegasVisibility() {
     $('#toggle-auto-import-megas-inline').toggle(isVisible)
 }
 
+function canShowSwitchPreviewToggle() {
+    return Boolean(settings && settings.damageGen >= 3 && settings.damageGen <= 8)
+}
+
+function applySwitchPreviewVisibility() {
+    $('#toggle-switch-preview').toggle(canShowSwitchPreviewToggle())
+}
+
+function canShowSwitchAiInfoToggle() {
+    return Boolean(settings && settings.damageGen === 4)
+}
+
+function applySwitchAiInfoVisibility() {
+    $('#toggle-switch-ai-info').toggle(canShowSwitchAiInfoToggle())
+}
+
+function canShowTrainerPreviewExpBarToggle() {
+    return Boolean(settings && settings.damageGen >= 3 && settings.damageGen <= 5)
+}
+
+function applyTrainerPreviewExpBarVisibility() {
+    $('#toggle-exp-bars').toggle(canShowTrainerPreviewExpBarToggle())
+}
+
+function shouldShowTrainerPreviewExpBars() {
+    return localStorage.showTrainerPreviewExpBars == '1'
+}
+
 function canShowHideCurrentAiMonToggle() {
     return Boolean(settings && !settings.noSwitch && settings.damageGen >= 3 && settings.damageGen <= 8)
 }
@@ -402,6 +454,31 @@ $('#toggle-show-ability-slot .slider').click(function(){
 
 $('#toggle-hide-current-ai-mon .slider').click(function(){
     localStorage.hideCurrentAiMon = (parseInt(localStorage.hideCurrentAiMon) + 1) % 2
+    refresh_next_in()
+})
+
+$('#toggle-switch-preview .slider').click(function(){
+    var nextValue = localStorage.switchPreview != '1'
+    if (typeof setSwitchPreviewEnabled === "function") {
+        setSwitchPreviewEnabled(nextValue)
+    } else {
+        localStorage.switchPreview = nextValue ? '1' : '0'
+    }
+    location.reload()
+})
+
+$('#toggle-switch-ai-info .slider').click(function(){
+    var nextValue = localStorage.switchAiInfo != '1'
+    if (typeof setSwitchAiInfoEnabled === "function") {
+        setSwitchAiInfoEnabled(nextValue)
+    } else {
+        localStorage.switchAiInfo = nextValue ? '1' : '0'
+    }
+    refresh_next_in()
+})
+
+$('#toggle-exp-bars .slider').click(function(){
+    localStorage.showTrainerPreviewExpBars = (parseInt(localStorage.showTrainerPreviewExpBars, 10) + 1) % 2
     refresh_next_in()
 })
 

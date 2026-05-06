@@ -648,8 +648,10 @@ function get_next_in() {
         let type_matchup = trainerMatchup.type_matchup
         let switchInScore = 0
 
-        if (localStorage.switchInfo == '1') analysis += "<div class='ai-infos'>"   
-        analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>` 
+        if (localStorage.switchInfo == '1') analysis += "<div class='ai-infos'>"
+        if (settings.damageGen != 4 || typeof shouldShowSwitchAiInfo !== "function" || shouldShowSwitchAiInfo()) {
+            analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>`
+        }
 
         if (isCurrent) {
             currentTypeMatchup = type_matchup

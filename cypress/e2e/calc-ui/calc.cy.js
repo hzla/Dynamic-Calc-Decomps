@@ -228,6 +228,35 @@ for (let calc of calcs) {
       cy.get('#rom-title').should('have.text', calc.title)
     })
 
+    it('applies the switch preview defaults by game', () => {
+      cy.get('#open-menu').click()
+      cy.window().then((win) => {
+        const runtimeSettings = win.eval('settings')
+        const shouldShowToggle = runtimeSettings.damageGen >= 3 && runtimeSettings.damageGen <= 8
+        const shouldDefaultOn = calc.title !== 'Platinum Kaizo'
+
+        expect(win.$('#toggle-switch-preview').is(':visible')).to.eq(shouldShowToggle)
+        if (shouldShowToggle) {
+          expect(win.$('#toggle-switch-preview input').prop('checked')).to.eq(shouldDefaultOn)
+          expect(runtimeSettings.noSwitch).to.eq(!shouldDefaultOn)
+        }
+      })
+    })
+
+    it('applies the switch ai info defaults only for gen 4 games', () => {
+      cy.get('#open-menu').click()
+      cy.window().then((win) => {
+        const runtimeSettings = win.eval('settings')
+        const shouldShowToggle = runtimeSettings.damageGen === 4
+        const shouldDefaultOn = calc.title === 'Platinum Kaizo'
+
+        expect(win.$('#toggle-switch-ai-info').is(':visible')).to.eq(shouldShowToggle)
+        if (shouldShowToggle) {
+          expect(win.$('#toggle-switch-ai-info input').prop('checked')).to.eq(shouldDefaultOn)
+        }
+      })
+    })
+
     it('shows version links for multi-version games', () => {
       const versionConfig = (() => {
         if (calc.title.includes('Emerald Imperium')) {
@@ -375,6 +404,39 @@ for (let calc of calcs) {
         expect(partnerIds).to.deep.equal(win.__duplicateSubIndexExpected.partner)
 
         win.get_next_in = win.__duplicateSubIndexOriginalGetNextIn
+      })
+    })
+
+    it('keeps ranked gen 5 switch preview order even when a partner is present', () => {
+      cy.window().then((win) => {
+        const runtimeSettings = win.eval('settings')
+        const originalNoSwitch = runtimeSettings.noSwitch
+        const originalPartnerName = win.partnerName
+        const rankedTrainerPoks = [
+          ['Lead Trainer (Partner Test)[0]', 10, 'Move A', 0, []],
+          ['Bench Trainer (Partner Test)[1]', 25, 'Move B', 1, []]
+        ]
+
+        runtimeSettings.noSwitch = false
+        win.partnerName = 'Ally Partner'
+        const rankedOrder = win.g5FinalizeRankedTrainerPoks(rankedTrainerPoks.map((entry) => entry.slice()))
+          .map((entry) => entry[0])
+
+        runtimeSettings.noSwitch = true
+        const partyOrder = win.g5FinalizeRankedTrainerPoks(rankedTrainerPoks.map((entry) => entry.slice()))
+          .map((entry) => entry[0])
+
+        runtimeSettings.noSwitch = originalNoSwitch
+        win.partnerName = originalPartnerName
+
+        expect(rankedOrder).to.deep.equal([
+          'Bench Trainer (Partner Test)[1]',
+          'Lead Trainer (Partner Test)[0]'
+        ])
+        expect(partyOrder).to.deep.equal([
+          'Lead Trainer (Partner Test)[0]',
+          'Bench Trainer (Partner Test)[1]'
+        ])
       })
     })
 

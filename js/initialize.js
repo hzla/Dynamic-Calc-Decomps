@@ -42,11 +42,100 @@ const BLANK_DEV_TITLE = "Blank Slate Dev Calc";
 const isBlankDevMode = settings.devMode && !params.get('data');
 const forceBlankConfig = getBool('forceBlankConfig');
 const DEFAULT_MASTERSHEET_SOURCE = "cascadewhite";
+const SWITCH_PREVIEW_STORAGE_PREFIX = "calcSwitchPreview:";
+const SWITCH_AI_INFO_STORAGE_PREFIX = "calcSwitchAiInfo:";
 const mastersheetSourcesByTitle = {
   "Cascade White": "cascadewhite",
   "Cascade White Dev": "cascadewhite2",
   "Vintage White Plus": "vintagewhiteplus"
 };
+
+function getTitleScopedStorageKey(prefix, title) {
+    var resolvedTitle = typeof title === "string" && title ? title : BLANK_DEV_TITLE;
+    return `${prefix}${resolvedTitle}`;
+}
+
+function getTitleScopedStoredBool(prefix, title, fallback) {
+    if (typeof localStorage === "undefined") {
+        return fallback;
+    }
+
+    var storedValue = localStorage.getItem(getTitleScopedStorageKey(prefix, title));
+    if (storedValue === "1") return true;
+    if (storedValue === "0") return false;
+    return fallback;
+}
+
+function setTitleScopedStoredBool(prefix, title, enabled) {
+    if (typeof localStorage === "undefined") {
+        return;
+    }
+
+    localStorage.setItem(getTitleScopedStorageKey(prefix, title), enabled ? "1" : "0");
+}
+
+function getDefaultSwitchPreviewEnabled(title) {
+    return title !== "Platinum Kaizo";
+}
+
+function getDefaultSwitchAiInfoEnabled(title) {
+    return title === "Platinum Kaizo";
+}
+
+function getSwitchPreviewEnabled(title = TITLE) {
+    return getTitleScopedStoredBool(
+        SWITCH_PREVIEW_STORAGE_PREFIX,
+        title,
+        getDefaultSwitchPreviewEnabled(title)
+    );
+}
+
+function getSwitchAiInfoEnabled(title = TITLE) {
+    return getTitleScopedStoredBool(
+        SWITCH_AI_INFO_STORAGE_PREFIX,
+        title,
+        getDefaultSwitchAiInfoEnabled(title)
+    );
+}
+
+function syncSwitchPreviewUrlParam(enabled) {
+    var nextUrl = new URL(window.location.href);
+    if (enabled) {
+        nextUrl.searchParams.delete("noSwitch");
+    } else {
+        nextUrl.searchParams.set("noSwitch", "1");
+    }
+    window.history.replaceState({}, "", nextUrl.toString());
+}
+
+function syncGameScopedSwitchSettings(title = TITLE) {
+    var switchPreviewEnabled = getSwitchPreviewEnabled(title);
+    var switchAiInfoEnabled = getSwitchAiInfoEnabled(title);
+
+    if (typeof localStorage !== "undefined") {
+        localStorage.switchPreview = switchPreviewEnabled ? "1" : "0";
+        localStorage.switchAiInfo = switchAiInfoEnabled ? "1" : "0";
+    }
+
+    settings.noSwitch = !switchPreviewEnabled;
+    syncSwitchPreviewUrlParam(switchPreviewEnabled);
+}
+
+function setSwitchPreviewEnabled(enabled, title = TITLE) {
+    setTitleScopedStoredBool(SWITCH_PREVIEW_STORAGE_PREFIX, title, enabled);
+    syncGameScopedSwitchSettings(title);
+}
+
+function setSwitchAiInfoEnabled(enabled, title = TITLE) {
+    setTitleScopedStoredBool(SWITCH_AI_INFO_STORAGE_PREFIX, title, enabled);
+    if (typeof localStorage !== "undefined") {
+        localStorage.switchAiInfo = enabled ? "1" : "0";
+    }
+}
+
+function shouldShowSwitchAiInfo() {
+    return Boolean(settings && settings.damageGen === 4 && getSwitchAiInfoEnabled());
+}
 
 function getBlankDevConfigDefaults() {
     return {
@@ -304,6 +393,7 @@ function prepareDynamicCalcData(data, options = {}) {
     npoint_data = data
     backup_data = data
     TITLE = data.title || SOURCES[params.get("data")] || "Untitled"
+    syncGameScopedSwitchSettings(TITLE);
 
     if (!skipGameSettings) {
         gameGen = settings.damageGen
@@ -315,6 +405,9 @@ function prepareDynamicCalcData(data, options = {}) {
         }
         if (typeof applyHideCurrentAiMonVisibility === "function") {
             applyHideCurrentAiMonVisibility()
+        }
+        if (typeof setSettingsTogglesFromLocalStorage === "function") {
+            setSettingsTogglesFromLocalStorage()
         }
     }
 
@@ -547,7 +640,6 @@ function setGameSettings(title) {
     gameGen = 8
     settings.gameSwitchIn = 8
     settings.damageGen = 8
-    settings.noSwitch = true
     settings.sourceType = "full"
     settings.typeChart = 6
     settings.critGen = 6
@@ -652,10 +744,10 @@ function setGameSettings(title) {
 
     $('label[for="hail"]').hide()
     $('label[for="snow"]').show()
-  } else if (TITLE.includes("Little Emerald")) {
+ } else if (TITLE.includes("Little Emerald")) {
     gameGen = 8
+    settings.gameSwitchIn = 8
     settings.damageGen = 8
-    settings.noSwitch = 1
     settings.sourceType = "full"
     settings.typeChart = 6;
     settings.critGen = 6;
@@ -690,10 +782,14 @@ function toggleGen3SwitchGuide() {
 INC_EM = false
 if (SOURCES[params.get('data')]) {
     TITLE = SOURCES[params.get('data')] || "NONE"
+    syncGameScopedSwitchSettings(TITLE);
 
     setGameSettings(TITLE)
     if (typeof applyAutoImportMegasVisibility === "function") {
         applyAutoImportMegasVisibility()
+    }
+    if (typeof setSettingsTogglesFromLocalStorage === "function") {
+        setSettingsTogglesFromLocalStorage()
     }
     window.baseGame ||= ""
     setBaseGame(TITLE)
