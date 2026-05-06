@@ -261,6 +261,10 @@ input[type="file"] {
     color: #1abc9c;
 }
 
+.switch-ai-info {
+    margin-top: 10px;
+}
+
 .exp-bar {
     font-size: 12px;
     margin-top: 10px;

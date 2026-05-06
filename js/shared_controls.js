@@ -1590,12 +1590,23 @@ function renderTrainerPreviewPok(next_pok) {
 		pps = [1,1,1,1]
 	}
 
+	var showSwitchAiInfo = settings.damageGen == 4 &&
+		typeof shouldShowSwitchAiInfo === "function" &&
+		shouldShowSwitchAiInfo()
+	var hasSeMove = next_pok[2].trim().length > 0
+
 	if (settings.gameSwitchIn == 5 || settings.gameSwitchIn == 4) { 
 		pok +=`
 		<div class="bp-info${pps[0] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][0])}">${next_pok[4][0].replace("Hidden Power", "HP")}</div>
 		<div class="bp-info${pps[1] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][1])}">${next_pok[4][1].replace("Hidden Power", "HP")}</div>
 		<div class="bp-info${pps[2] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][2])}">${next_pok[4][2].replace("Hidden Power", "HP")}</div>
 		<div class="bp-info${pps[3] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][3])}">${next_pok[4][3].replace("Hidden Power", "HP")}</div>`
+		if (showSwitchAiInfo && hasSeMove && typeof next_pok[9] !== "undefined") {
+			pok += `<div class="bp-info switch-ai-info"><span class="type-mu">Type MU:</span> ${next_pok[9]}</div>`
+		}
+		if (showSwitchAiInfo && !hasSeMove && typeof next_pok[5] !== "undefined" && next_pok[5] !== "") {
+			pok += `<div class="bp-info switch-ai-info"><span class="p2-dmg">P2 Dmg:</span> ${next_pok[5]}</div>`
+		}
 	} else {
 		pok +=`<div class="bp-infos">
 		<div class="bp-info ${pps[0] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][0])}" >${next_pok[4][0].replace("Hidden Power", "HP")}</div>
@@ -1603,10 +1614,11 @@ function renderTrainerPreviewPok(next_pok) {
 		<div class="bp-info ${pps[2] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][2])}" >${next_pok[4][2].replace("Hidden Power", "HP")}</div>
 		<div class="bp-info bp-last ${pps[3] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][3])}" >${next_pok[4][3].replace("Hidden Power", "HP")}</div>`
 
-		if (settings.damageGen == 4 && typeof shouldShowSwitchAiInfo === "function" && shouldShowSwitchAiInfo() && next_pok[9]) {
-			pok += `<div class="bp-info"><span class="type-mu">Type MU:</span> ${next_pok[9]}</div>`
-		} else if (settings.damageGen == 4 && typeof shouldShowSwitchAiInfo === "function" && shouldShowSwitchAiInfo()) {
-			pok += `<div class="bp-info"><span class="p2-dmg">P2 Dmg:</span> ${next_pok[5]}</div>`
+		if (showSwitchAiInfo && hasSeMove && typeof next_pok[9] !== "undefined") {
+			pok += `<div class="bp-info switch-ai-info"><span class="type-mu">Type MU:</span> ${next_pok[9]}</div>`
+		}
+		if (showSwitchAiInfo && !hasSeMove && typeof next_pok[5] !== "undefined" && next_pok[5] !== "") {
+			pok += `<div class="bp-info switch-ai-info"><span class="p2-dmg">P2 Dmg:</span> ${next_pok[5]}</div>`
 		}
 		pok += `</div>`
 	}
