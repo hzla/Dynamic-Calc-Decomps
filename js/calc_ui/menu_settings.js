@@ -94,6 +94,10 @@ function setSettingsDefaults() {
     localStorage.autoImportMegas = 1
   }
 
+  if (typeof localStorage.importPartyPreview === 'undefined') {
+    localStorage.importPartyPreview = 1
+  }
+
   if (typeof localStorage.calcHasEvs === 'undefined') {
     localStorage.calcHasEvs = settings && settings.hasEvs ? 1 : 0
   }
@@ -168,10 +172,14 @@ function setSettingsDefaults() {
   setSettingsTogglesFromLocalStorage()
 }
 
+function shouldImportPartyPreview() {
+  return localStorage.importPartyPreview != '0'
+}
+
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -184,6 +192,9 @@ function setSettingsTogglesFromLocalStorage() {
   }
   if (typeof settings !== 'undefined' && settings && settings.hasEvs) {
     $('#toggle-use-evs input').prop('checked', true)
+  }
+  if (shouldImportPartyPreview()) {
+    $('#toggle-import-party-preview input').prop('checked', true)
   }
   if (localStorage.syncLua == "1") {
     $('#toggle-sync-lua input').prop('checked', true)
@@ -506,6 +517,10 @@ $('#toggle-remember-hp-status .slider').click(function(){
 })
 
 $('#toggle-use-evs .slider').click(toggleHasEvs)
+
+$('#toggle-import-party-preview .slider').click(function(){
+    localStorage.importPartyPreview = (parseInt(localStorage.importPartyPreview, 10) + 1) % 2
+})
 
 $('#toggle-sync-lua .slider').click(function(){
     localStorage.syncLua = (parseInt(localStorage.syncLua) + 1) % 2;

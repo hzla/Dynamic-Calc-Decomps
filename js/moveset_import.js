@@ -667,7 +667,7 @@ $('#save-pok').click(function () {
 	$('#import').click()
 	$(this).text("Saved!")
 
-	if (saveUploaded && ["HGSS", "BW", "Pt", "BW2"].includes(baseGame)) {
+	if (typeof hasWritableDsSaveForCurrentSelection === "function" && hasWritableDsSaveForCurrentSelection()) {
 		updatePartyPKMN()
 	}
 
@@ -1609,20 +1609,22 @@ function importLuaJsonDumpForCurrentTitle(pokes) {
 }
 
 function importPolledMasterBoxPayload(boxPayload) {
-	var result = importLuaJsonDumpForCurrentTitle(boxPayload);
-	if (result && typeof window.applyImportedSnapshot === "function") {
-		window.applyImportedSnapshot({
-			showdownImport: result.showdownImport || "",
-			deadMons: result.deadMons || [],
-			source: result.source || "desmume",
-			replaceDeadMons: true,
-			trainerId: result.trainerId,
-			secretId: result.secretId,
-			trainerKey: result.trainerKey,
-			trainerIdSecret: result.trainerIdSecret,
-		});
-	}
-	return result;
+	return runWithImportPartyPreviewPolicy(function() {
+		var result = importLuaJsonDumpForCurrentTitle(boxPayload);
+		if (result && typeof window.applyImportedSnapshot === "function") {
+			window.applyImportedSnapshot({
+				showdownImport: result.showdownImport || "",
+				deadMons: result.deadMons || [],
+				source: result.source || "desmume",
+				replaceDeadMons: true,
+				trainerId: result.trainerId,
+				secretId: result.secretId,
+				trainerKey: result.trainerKey,
+				trainerIdSecret: result.trainerIdSecret,
+			});
+		}
+		return result;
+	});
 }
 
 window.importPolledMasterBoxPayload = importPolledMasterBoxPayload;
@@ -1965,44 +1967,46 @@ function splitImportedShowdownText(showdownText, fallbackSource) {
 }
 
 function applyImportedSnapshot(snapshot) {
-	var payload = snapshot && typeof snapshot === "object" ? snapshot : {};
-	var showdownImport = String(payload.showdownImport || "");
-	var deadMons = cloneDeadMonsList(payload.deadMons);
-	var importedMonsMetadata = cloneImportedMonsMetadata(payload.importedMonsMetadata);
-	var source = String(payload.source || "import");
-	var replaceDeadMons = payload.replaceDeadMons !== false;
+	return runWithImportPartyPreviewPolicy(function() {
+		var payload = snapshot && typeof snapshot === "object" ? snapshot : {};
+		var showdownImport = String(payload.showdownImport || "");
+		var deadMons = cloneDeadMonsList(payload.deadMons);
+		var importedMonsMetadata = cloneImportedMonsMetadata(payload.importedMonsMetadata);
+		var source = String(payload.source || "import");
+		var replaceDeadMons = payload.replaceDeadMons !== false;
 
-	handleIncomingTrainerIdentityForFragsheet({
-		trainerId: payload.trainerId,
-		secretId: payload.secretId,
-		trainerKey: payload.trainerKey,
-		trainerIdSecret: payload.trainerIdSecret,
-		showdownImport: showdownImport,
+		handleIncomingTrainerIdentityForFragsheet({
+			trainerId: payload.trainerId,
+			secretId: payload.secretId,
+			trainerKey: payload.trainerKey,
+			trainerIdSecret: payload.trainerIdSecret,
+			showdownImport: showdownImport,
+		});
+
+		pendingImportedSnapshotMeta = {
+			deadMons: deadMons,
+			importedMonsMetadata: importedMonsMetadata,
+			source: source,
+			replaceDeadMons: replaceDeadMons,
+		};
+
+		if (showdownImport.trim()) {
+			importShowdownTextIntoImporter(showdownImport, false);
+			return;
+		}
+
+		var persistedDeadMons = persistDeadMons(deadMons, replaceDeadMons);
+		var customsets = replaceDeadMons
+			? removeMyBoxEntries(getStoredCustomSets())
+			: getStoredCustomSets();
+		applyImportedBoxPreview(customsets);
+		if (typeof window.syncImportedEncounterState === "function") {
+			window.syncImportedEncounterState(customsets, persistedDeadMons);
+		} else {
+			syncFragsheetFromImportedBox();
+		}
+		pendingImportedSnapshotMeta = null;
 	});
-
-	pendingImportedSnapshotMeta = {
-		deadMons: deadMons,
-		importedMonsMetadata: importedMonsMetadata,
-		source: source,
-		replaceDeadMons: replaceDeadMons,
-	};
-
-	if (showdownImport.trim()) {
-		importShowdownTextIntoImporter(showdownImport, false);
-		return;
-	}
-
-	var persistedDeadMons = persistDeadMons(deadMons, replaceDeadMons);
-	var customsets = replaceDeadMons
-		? removeMyBoxEntries(getStoredCustomSets())
-		: getStoredCustomSets();
-	applyImportedBoxPreview(customsets);
-	if (typeof window.syncImportedEncounterState === "function") {
-		window.syncImportedEncounterState(customsets, persistedDeadMons);
-	} else {
-		syncFragsheetFromImportedBox();
-	}
-	pendingImportedSnapshotMeta = null;
 }
 
 window.applyImportedSnapshot = applyImportedSnapshot;
@@ -2043,7 +2047,9 @@ function addSets(pokes, name) {
 
 	if (isValidJSON(pokes)) {
 		try {
-			const luaDumpResult = importLuaJsonDumpForCurrentTitle(pokes);
+			const luaDumpResult = runWithImportPartyPreviewPolicy(function() {
+				return importLuaJsonDumpForCurrentTitle(pokes);
+			});
 			if (!luaDumpResult || typeof luaDumpResult.showdownImport !== "string") {
 				throw new Error("Lua box dump import did not return showdown text");
 			}

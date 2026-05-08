@@ -37,6 +37,100 @@ var BOX_MATCHUP_METRICS_CACHE = {
     fingerprint: null,
     metricsBySetId: {}
 }
+var PARTY_PREVIEW_OVERRIDE_SLOTS = null
+var IMPORT_PARTY_PREVIEW_PRESERVATION_DEPTH = 0
+var IMPORT_PARTY_PREVIEW_SNAPSHOT = null
+
+function clonePartyPreviewSetData(setData) {
+    if (!setData || typeof setData !== "object") {
+        return null
+    }
+    if (typeof structuredClone === "function") {
+        return structuredClone(setData)
+    }
+    return JSON.parse(JSON.stringify(setData))
+}
+
+function clearPartyPreviewSlotOverrides() {
+    PARTY_PREVIEW_OVERRIDE_SLOTS = null
+}
+
+function getPartyPreviewSlotOverride(speciesName, slotIndex) {
+    if (!Array.isArray(PARTY_PREVIEW_OVERRIDE_SLOTS)) {
+        return null
+    }
+    var slotOverride = PARTY_PREVIEW_OVERRIDE_SLOTS[slotIndex]
+    if (!slotOverride || slotOverride.speciesName !== speciesName) {
+        return null
+    }
+    return slotOverride.setData || null
+}
+
+function capturePartyPreviewSnapshot() {
+    var speciesList = Array.isArray(currentParty) ? currentParty.slice() : []
+    var previewSlots = speciesList.map(function(speciesName, slotIndex) {
+        var setData = getPartyPreviewSlotOverride(speciesName, slotIndex)
+        if (!setData && setdex && setdex[speciesName] && setdex[speciesName]["My Box"]) {
+            setData = setdex[speciesName]["My Box"]
+        }
+        return {
+            speciesName: speciesName,
+            setData: clonePartyPreviewSetData(setData)
+        }
+    })
+    return {
+        speciesList: speciesList,
+        previewSlots: previewSlots
+    }
+}
+
+function restorePartyPreviewSnapshot(snapshot) {
+    if (!snapshot || !Array.isArray(snapshot.speciesList)) {
+        return
+    }
+    currentParty = snapshot.speciesList.slice()
+    localStorage.currentParty = currentParty.join(",")
+    PARTY_PREVIEW_OVERRIDE_SLOTS = Array.isArray(snapshot.previewSlots)
+        ? snapshot.previewSlots.map(function(slotOverride) {
+            return {
+                speciesName: slotOverride.speciesName,
+                setData: clonePartyPreviewSetData(slotOverride.setData)
+            }
+        })
+        : null
+    if (typeof displayParty === "function") {
+        displayParty()
+    }
+}
+
+function runWithImportPartyPreviewPolicy(operation) {
+    if (typeof operation !== "function") {
+        return
+    }
+    var shouldPreservePreview = typeof shouldImportPartyPreview === "function"
+        ? !shouldImportPartyPreview()
+        : false
+    if (!shouldPreservePreview) {
+        clearPartyPreviewSlotOverrides()
+        return operation()
+    }
+
+    var isOutermostImport = IMPORT_PARTY_PREVIEW_PRESERVATION_DEPTH === 0
+    if (isOutermostImport) {
+        IMPORT_PARTY_PREVIEW_SNAPSHOT = capturePartyPreviewSnapshot()
+    }
+    IMPORT_PARTY_PREVIEW_PRESERVATION_DEPTH += 1
+
+    try {
+        return operation()
+    } finally {
+        IMPORT_PARTY_PREVIEW_PRESERVATION_DEPTH -= 1
+        if (isOutermostImport) {
+            restorePartyPreviewSnapshot(IMPORT_PARTY_PREVIEW_SNAPSHOT)
+            IMPORT_PARTY_PREVIEW_SNAPSHOT = null
+        }
+    }
+}
 
 function isDamageBoxSortKey(sortKey) {
     return Boolean(BOX_DAMAGE_SORT_KEYS[sortKey])
@@ -1030,6 +1124,9 @@ function displayParty() {
     var destination = $('.player-party')
     $('.player-party').html("")
 
+    if (Array.isArray(PARTY_PREVIEW_OVERRIDE_SLOTS) && PARTY_PREVIEW_OVERRIDE_SLOTS.length !== currentParty.length) {
+        clearPartyPreviewSlotOverrides()
+    }
 
     if (currentParty.length > 0) {
         $('.player-party').css('display', 'flex')
@@ -1045,14 +1142,17 @@ function displayParty() {
             let pok = ""
             try {
                 species_name = currentParty[i]
-                if (!setdex[species_name]) {
+                var slotOverride = getPartyPreviewSlotOverride(species_name, Number(i))
+                if (!slotOverride && !setdex[species_name]) {
                     continue;
                 }
                 if (isImportedEggSpecies(species_name)) {
                     continue;
                 }
-                var sprite_name = species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
-                var set_data = setdex[species_name]["My Box"]
+                var set_data = slotOverride || (setdex[species_name] && setdex[species_name]["My Box"])
+                if (!set_data) {
+                    continue;
+                }
                 pok = generatePartyHTML(set_data, species_name)
             } catch {
                 $('.player-party').html("")

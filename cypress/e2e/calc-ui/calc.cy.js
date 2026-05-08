@@ -50,6 +50,17 @@ const charizardMegaYExplicitImport = [
   '- Focus Blast'
 ].join('\n')
 
+const bulbasaurImport = [
+  'Bulbasaur @ Eviolite',
+  'Ability: Overgrow',
+  'Level: 50',
+  'Bold Nature',
+  '- Giga Drain',
+  '- Sludge Bomb',
+  '- Sleep Powder',
+  '- Synthesis'
+].join('\n')
+
 function importSetText(text) {
   cy.get('.import-team-text').clear().invoke('val', text)
   cy.get('#import').click()
@@ -254,6 +265,14 @@ for (let calc of calcs) {
         if (shouldShowToggle) {
           expect(win.$('#toggle-switch-ai-info input').prop('checked')).to.eq(shouldDefaultOn)
         }
+      })
+    })
+
+    it('defaults import party preview to on', () => {
+      cy.get('#open-menu').click()
+      cy.window().then((win) => {
+        expect(win.$('#toggle-import-party-preview input').prop('checked')).to.eq(true)
+        expect(win.localStorage.importPartyPreview).to.eq('1')
       })
     })
 
@@ -1291,6 +1310,31 @@ for (let calc of calcs) {
         cy.window().then((win) => {
           expect(win.customSets['Charizard-Mega-Y']['My Box'].ability).to.eq('Chilling Neigh')
         })
+      })
+
+      it('preserves the current player party preview when import party preview is off', () => {
+        cy.get('#clearSets').click()
+        importSetText(bulbasaurImport)
+        cy.window().then((win) => {
+          win.currentParty = ['Bulbasaur']
+          win.localStorage.currentParty = 'Bulbasaur'
+          if (typeof win.clearPartyPreviewSlotOverrides === 'function') {
+            win.clearPartyPreviewSlotOverrides()
+          }
+          win.displayParty()
+          win.localStorage.importPartyPreview = '0'
+          win.$('#toggle-import-party-preview input').prop('checked', false)
+          win.applyImportedSnapshot({
+            showdownImport: charizardLeftoversImport,
+            deadMons: [],
+            source: 'save-file',
+            replaceDeadMons: true,
+          })
+        })
+
+        cy.get(".player-poks [data-id='Charizard (My Box)']").should('exist')
+        cy.get('.player-party .trainer-pok').should('have.length', 1)
+        cy.get('.player-party .trainer-pok').first().should('have.attr', 'data-id', 'Bulbasaur (My Box)')
       })
     }
 

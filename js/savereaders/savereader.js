@@ -283,34 +283,31 @@ $(document).ready(function() {
                 }
             }
 
-            // Try processing the save file
-            try {
-                processSaveFile(forceBlock2);
-            } catch (error) {
-                console.log('First attempt failed, retrying with forceBlock2=true');
-                
-                // Reset any modified offsets before retry
-                if (baseGame == "Pt") {
-                    partyCountOffset = 0x9C
-                    boxDataOffset = 0xCF30
-                    bigBlockStart = boxDataOffset - 4
-                } else if (baseGame == "HGSS") {
-                    partyCountOffset = 0x94
-                    boxDataOffset = 0x0f700
-                    bigBlockStart = boxDataOffset
-                } else if (baseGame == "BW") {
-                    partyCountOffset = 0x18e00 + 4
-                    boxDataOffset = 0x400
+            runWithImportPartyPreviewPolicy(function() {
+                // Try processing the save file
+                try {
+                    processSaveFile(forceBlock2);
+                } catch (error) {
+                    console.log('First attempt failed, retrying with forceBlock2=true');
+                    
+                    // Reset any modified offsets before retry
+                    if (baseGame == "Pt") {
+                        partyCountOffset = 0x9C
+                        boxDataOffset = 0xCF30
+                        bigBlockStart = boxDataOffset - 4
+                    } else if (baseGame == "HGSS") {
+                        partyCountOffset = 0x94
+                        boxDataOffset = 0x0f700
+                        bigBlockStart = boxDataOffset
+                    } else if (baseGame == "BW") {
+                        partyCountOffset = 0x18e00 + 4
+                        boxDataOffset = 0x400
+                    }
+                    
+                    processSaveFile(true); // Retry with forceBlock2=true
+                    console.log('Retry with forceBlock2=true succeeded');
                 }
-                
-                // try {
-                processSaveFile(true); // Retry with forceBlock2=true
-                console.log('Retry with forceBlock2=true succeeded');
-                // } catch (retryError) {
-                //     console.error('Both attempts failed:', retryError.message);
-                //     alert('Failed to load save file. The file may be corrupted or incompatible.');
-                // }
-            }
+            });
         };
 
         // Read file as binary string
@@ -1214,8 +1211,49 @@ function getPKMNCheckSum(array) {
     return sum & 0xFFFF; 
 }
 
-function updateBoxPKMN(edge=false) {
-    var selected = $('.set-selector')[0].value.split("(")[0].trim()
+function getSaveSyncSpeciesName(speciesNameOverride=false) {
+    if (speciesNameOverride) {
+        return speciesNameOverride;
+    }
+
+    if (!$('.set-selector')[0] || !$('.set-selector')[0].value) {
+        return "";
+    }
+
+    return $('.set-selector')[0].value.split("(")[0].trim();
+}
+
+function hasWritableDsSaveForCurrentSelection(speciesNameOverride=false) {
+    if (!saveUploaded || !["HGSS", "BW", "Pt", "BW2"].includes(baseGame)) {
+        return false;
+    }
+
+    if (typeof view === "undefined" || !view) {
+        return false;
+    }
+
+    var speciesName = getSaveSyncSpeciesName(speciesNameOverride);
+    if (!speciesName) {
+        return false;
+    }
+
+    var loadedPartyMons = (typeof partyMons !== "undefined" && partyMons && typeof partyMons === "object") ? partyMons : {};
+    var loadedBoxPokOffsets = (typeof boxPokOffsets !== "undefined" && boxPokOffsets && typeof boxPokOffsets === "object") ? boxPokOffsets : {};
+
+    return typeof loadedPartyMons[speciesName] !== "undefined" || !!loadedBoxPokOffsets[speciesName];
+}
+
+function updateBoxPKMN(edge=false, speciesNameOverride=false) {
+    var selected = getSaveSyncSpeciesName(speciesNameOverride)
+    if (!selected) {
+        return false
+    }
+
+    if (typeof boxPokOffsets === "undefined" || !boxPokOffsets || !boxPokOffsets[selected]) {
+        console.warn("Skipping box save sync because no loaded save box data exists for", selected)
+        return false
+    }
+
     var level = parseInt($('#levelL1').val())
  
     // edge = confirm("Would you like to edge exp to max as well? Clicking cancel will only update level/items/moves")
@@ -1236,6 +1274,7 @@ function updateBoxPKMN(edge=false) {
 
     changelog += `<p>${selected} updated</p>`
     $('#changelog').html(changelog) 
+    return true
 }
 
 function updatePKMNLevel(decryptedData, expIndex, expTable, level, edge=false) {
@@ -1337,19 +1376,27 @@ function updatePKMNProps(decryptedData, expIndex, movesIndex) {
 // updates the selected party pokemon with the battle stats displayed on showdown calc, and edges exp to max
 // speciesNameOverride is set when this function is called from running the batch edge function, otherwise will be false
 function updatePartyPKMN(edge=false, speciesNameOverride=false) {
-    var partyOffset = partyCountOffset + 4
-    speciesName = speciesNameOverride || $('.set-selector')[0].value.split("(")[0].trim()
+    var speciesName = getSaveSyncSpeciesName(speciesNameOverride)
+    if (!speciesName) {
+        return false
+    }
 
-    if (!partyIndex) {
-        var partyIndex = partyMons[speciesName]
-    } else {
-       
+    if (!hasWritableDsSaveForCurrentSelection(speciesName)) {
+        console.warn("Skipping party save sync because no loaded save data exists for", speciesName)
+        return false
+    }
+
+    var partyIndex
+    if (typeof partyMons !== "undefined" && partyMons && typeof partyMons === "object") {
+        partyIndex = partyMons[speciesName]
     }
     
     // search box if not in party
     if (typeof partyIndex === 'undefined') {
-        return updateBoxPKMN(edge)
+        return updateBoxPKMN(edge, speciesName)
     }
+
+    var partyOffset = partyCountOffset + 4
 
     const decryptedBattleStat = decryptedBattleStats[partyIndex]
     const updatedBattleStat = updateBattleStat(decryptedBattleStat, speciesName, speciesNameOverride != false)
@@ -1382,6 +1429,7 @@ function updatePartyPKMN(edge=false, speciesNameOverride=false) {
 
     setSmallBlockChecksum()   
     addSaveBtn()
+    return true
 }
 
 $('#edge').click(function() {

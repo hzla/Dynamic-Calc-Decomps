@@ -388,6 +388,9 @@ $(document).ready(function() {
                 $('#edge').hide()
             }
         }
+        if (typeof clearPartyPreviewSlotOverrides === 'function') {
+            clearPartyPreviewSlotOverrides()
+        }
         localStorage.currentParty = currentParty
    })
 
@@ -398,6 +401,9 @@ $(document).ready(function() {
         $('#edge').hide()
         currentParty = []
         localStorage.currentParty = ""
+        if (typeof clearPartyPreviewSlotOverrides === 'function') {
+            clearPartyPreviewSlotOverrides()
+        }
         refreshTagPartnerPreview()
    })
 
