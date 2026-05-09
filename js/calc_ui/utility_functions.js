@@ -336,6 +336,50 @@ function construct_type_chart() {
     return chart
 }
 
+function isInverseBattleActive(field) {
+    if (typeof settings !== "undefined" && settings && settings.invertTypes &&
+        settings.damageGen >= 3 && settings.damageGen <= 8) {
+        return true
+    }
+    if (field) {
+        return !!(field.isInverse || field.inverse || field.isInverseBattle)
+    }
+    return typeof $ !== "undefined" && $("#inverse").prop("checked")
+}
+
+function invertTypeEffectiveness(effectiveness) {
+    if (effectiveness === 0 || effectiveness === 0.5) {
+        return 2
+    }
+    if (effectiveness === 2) {
+        return 0.5
+    }
+    return effectiveness
+}
+
+function applyInverseTypeEffectiveness(effectiveness, field) {
+    return isInverseBattleActive(field) ? invertTypeEffectiveness(effectiveness) : effectiveness
+}
+
+function getTypeChartEffectiveness(attackingType, defendingType, field) {
+    if (!attackingType || !defendingType || !typeChart[attackingType]) {
+        return 1
+    }
+    var effectiveness = typeChart[attackingType][defendingType]
+    return applyInverseTypeEffectiveness(Number.isFinite(effectiveness) ? effectiveness : 1, field)
+}
+
+function getCombinedTypeChartEffectiveness(attackingType, defendingTypes, field) {
+    var effectiveness = 1
+    for (var i = 0; i < defendingTypes.length; i++) {
+        if (!defendingTypes[i] || defendingTypes[i] == "None") {
+            continue
+        }
+        effectiveness *= getTypeChartEffectiveness(attackingType, defendingTypes[i], field)
+    }
+    return effectiveness
+}
+
 function get_type_info(pok_types, modifier=false) {
     if (pok_types[1] == pok_types[0]) {
         pok_types[1] = "None"
@@ -429,7 +473,7 @@ function get_type_info(pok_types, modifier=false) {
 
 
     for (i in types) {    
-      result[type_name[i]] = (types[i][type1] * types[i][type2])  
+      result[type_name[i]] = (applyInverseTypeEffectiveness(types[i][type1]) * applyInverseTypeEffectiveness(types[i][type2]))
     }
     return result
 }

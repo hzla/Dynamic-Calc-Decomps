@@ -230,17 +230,6 @@ function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
         var type2Effectiveness = defender.types[1]
             ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, isRingTarget, false, isCorrosion, false, profile, ctx)
             : 1;
-        if (field.isInverse) {
-            if (type1Effectiveness === 0 || type1Effectiveness === 0.5)
-                type1Effectiveness = 2;
-            else if (type1Effectiveness === 2)
-                type1Effectiveness = 0.5;
-            
-            if (type2Effectiveness === 0 || type2Effectiveness === 0.5)
-                type2Effectiveness = 2;
-            else if (type2Effectiveness === 2)
-                type2Effectiveness = 0.5;
-        }
         var typeEffectiveness = type1Effectiveness * type2Effectiveness;
 
         if (defender.teraType && defender.teraType !== 'Stellar') {

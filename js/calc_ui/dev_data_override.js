@@ -113,6 +113,18 @@
             help: "Disable switch preview assumptions."
         },
         {
+            name: "physSpecSplit",
+            label: "Phys/Spec Split",
+            type: "checkbox",
+            help: "Use move-data categories instead of pre-split type categories."
+        },
+        {
+            name: "invertTypes",
+            label: "Invert Types",
+            type: "checkbox",
+            help: "Treat every calc as an inverse battle where supported."
+        },
+        {
             name: "hasEvs",
             label: "Use EVs",
             type: "checkbox",

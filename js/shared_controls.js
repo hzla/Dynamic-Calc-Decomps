@@ -1292,6 +1292,95 @@ function getControlsLittleEmeraldBaseSpeciesName(speciesName) {
 	return null;
 }
 
+function getUniqueSpeciesList(speciesNames) {
+	var uniqueSpeciesNames = [];
+	for (var i = 0; i < speciesNames.length; i++) {
+		var speciesName = speciesNames[i];
+		if (!speciesName || !pokedex[speciesName] || uniqueSpeciesNames.indexOf(speciesName) !== -1) {
+			continue;
+		}
+		uniqueSpeciesNames.push(speciesName);
+	}
+	return uniqueSpeciesNames;
+}
+
+function getCalcEvolutionLine(speciesName) {
+	if (!speciesName || typeof getEvolutionChain !== "function") {
+		return speciesName && pokedex[speciesName] ? [speciesName] : [];
+	}
+	return getUniqueSpeciesList(getEvolutionChain(speciesName));
+}
+
+function getPokemonAltFormes(pokemon, baseFormeName) {
+	var formes = [];
+	if (baseFormeName && pokedex[baseFormeName]) {
+		formes.push(baseFormeName);
+	}
+	if (pokemon && Array.isArray(pokemon.otherFormes)) {
+		formes = formes.concat(pokemon.otherFormes);
+	}
+	return getUniqueSpeciesList(formes);
+}
+
+function getLeftPanelFormeGroups(pokemonName, pokemon, baseFormeName) {
+	var altFormes = getPokemonAltFormes(pokemon, baseFormeName);
+	var evoLine = getCalcEvolutionLine(pokemonName);
+	var evoOnly = [];
+
+	for (var i = 0; i < evoLine.length; i++) {
+		if (altFormes.indexOf(evoLine[i]) === -1) {
+			evoOnly.push(evoLine[i]);
+		}
+	}
+
+	if (!altFormes.length && pokemonName && pokedex[pokemonName]) {
+		altFormes.push(pokemonName);
+	}
+
+	return {
+		altFormes: altFormes,
+		evoLine: evoOnly,
+		fullEvoLine: evoLine
+	};
+}
+
+function appendFormeOption(parent, speciesName, selectedSpeciesName) {
+	parent.append($("<option></option>")
+		.val(speciesName)
+		.text(speciesName)
+		.prop("selected", speciesName === selectedSpeciesName));
+}
+
+function renderGroupedFormeOptions(formeSelect, groups, selectedSpeciesName) {
+	formeSelect.empty();
+
+	var altGroup = $("<optgroup></optgroup>").attr("label", "Alt Forms");
+	for (var i = 0; i < groups.altFormes.length; i++) {
+		appendFormeOption(altGroup, groups.altFormes[i], selectedSpeciesName);
+	}
+	formeSelect.append(altGroup);
+
+	if (groups.evoLine.length) {
+		var evoGroup = $("<optgroup></optgroup>").attr("label", "Evo Line");
+		for (var j = 0; j < groups.evoLine.length; j++) {
+			appendFormeOption(evoGroup, groups.evoLine[j], selectedSpeciesName);
+		}
+		formeSelect.append(evoGroup);
+	}
+}
+
+function getLeftPokeSpriteName(pokemonName) {
+	return pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","");
+}
+
+function updateLeftPokeSprite(pokemonName) {
+	if (!pokemonName) {
+		return;
+	}
+	$('#p1 .poke-sprite').attr('src', `./img/${playerSprites}/${getLeftPokeSpriteName(pokemonName)}.${suffix}`);
+	$('#p1 .poke-sprite').addClass('no-flip');
+}
+
 function syncControlsLittleEmeraldItemForme(pokeObj) {
 	if (typeof TITLE !== "string" || TITLE.indexOf("Little Emerald") === -1) {
 		return;
@@ -2091,10 +2180,7 @@ $(".set-selector").change(function () {
 	    } 
 	} else {
 		if (setdex) {
-			var pokesprite = pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","")
-			
-			$('#p1 .poke-sprite').attr('src', `./img/${playerSprites}/${pokesprite}.${suffix}`)
-			$('#p1 .poke-sprite').addClass('no-flip')
+			updateLeftPokeSprite(pokemonName)
 
 			let abilities = abilsPrimary[pokemonName]
 			let uniqAbilities = []
@@ -2260,10 +2346,13 @@ $(".set-selector").change(function () {
 			baseForme = pokedex[pokemon.baseSpecies];
 		}
 		if (pokemon.otherFormes) {
-			showFormes(formeObj, pokemonName, pokemon, pokemonName);
+			showFormes(formeObj, pokemonName, pokemon, pokemonName, pokeObj);
 		} else if (baseForme && baseForme.otherFormes) {
-			showFormes(formeObj, pokemonName, baseForme, pokemon.baseSpecies);
+			showFormes(formeObj, pokemonName, baseForme, pokemon.baseSpecies, pokeObj);
+		} else if (isLeftPlayerPoke(pokeObj) && getCalcEvolutionLine(pokemonName).length > 1) {
+			showFormes(formeObj, pokemonName, pokemon, pokemonName, pokeObj);
 		} else {
+			formeObj.children("label").text("Form");
 			formeObj.hide();
 		}
 		
@@ -2404,15 +2493,21 @@ function selectMovesFromRandomOptions(moves) {
 	return selected;
 }
 
-function showFormes(formeObj, pokemonName, pokemon, baseFormeName) {
-	var formes = pokemon.otherFormes.slice();
-	formes.unshift(baseFormeName);
+function showFormes(formeObj, pokemonName, pokemon, baseFormeName, pokeObj) {
+	var formeSelect = formeObj.children("select");
+	if (isLeftPlayerPoke(pokeObj)) {
+		var groups = getLeftPanelFormeGroups(pokemonName, pokemon, baseFormeName);
+		renderGroupedFormeOptions(formeSelect, groups, pokemonName);
+		formeObj.children("label").text(groups.fullEvoLine.length > 1 ? "Form/Evo" : "Form");
+	} else {
+		var formes = getPokemonAltFormes(pokemon, baseFormeName);
+		var defaultForme = formes.indexOf(pokemonName);
+		if (defaultForme < 0) defaultForme = 0;
 
-	var defaultForme = formes.indexOf(pokemonName);
-	if (defaultForme < 0) defaultForme = 0;
-
-	var formeOptions = getSelectOptions(formes, false, defaultForme);
-	formeObj.children("select").find("option").remove().end().append(formeOptions)//.change();
+		var formeOptions = getSelectOptions(formes, false, defaultForme);
+		formeSelect.find("option").remove().end().append(formeOptions)//.change();
+		formeObj.children("label").text("Form");
+	}
 	formeObj.show();
 }
 
@@ -2459,6 +2554,14 @@ $(".forme").change(function () {
 		fullSetName = container.find(".select2-chosen").first().text(),
 		pokemonName = fullSetName.substring(0, fullSetName.indexOf(" (")),
 		setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
+	if (!altForme) {
+		return;
+	}
+
+	var pokeInfo = $(this).closest(".poke-info");
+	if (isLeftPlayerPoke(pokeInfo)) {
+		updateLeftPokeSprite($(this).val());
+	}
 
 	$(this).parent().siblings().find(".type1").val(altForme.types[0]);
 	$(this).parent().siblings().find(".type2").val(altForme.types[1] ? altForme.types[1] : "");
@@ -2669,7 +2772,9 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			var pokemonName = setName.substring(0, setName.indexOf(" (")).replace("n Z", "n-Z").replace("o o", "o-o");
 			
 			var species = pokedex[pokemonName];
-			name = (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName)) ? pokeInfo.find(".forme").val() : pokemonName;
+			var selectedForme = pokeInfo.find(".forme").is(":visible") ? pokeInfo.find(".forme").val() : null;
+			var shouldUseSelectedForme = (selectedForme && isLeftPlayerPoke(pokeInfo)) || (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName));
+			name = shouldUseSelectedForme ? (selectedForme || pokemonName) : pokemonName;
 			if (TITLE.includes("Lumi")) {
 				name = pokemonName
 			}
@@ -2818,7 +2923,7 @@ function createField() {
 	var isMagicRoom = $("#magicroom").prop("checked");
 	var isWonderRoom = $("#wonderroom").prop("checked");
 	var isGravity = $("#gravity").prop("checked");
-	var isInverse = $("#inverse").prop("checked");
+	var isInverse = $("#inverse").prop("checked") || Boolean(settings && settings.invertTypes && settings.damageGen >= 3 && settings.damageGen <= 8);
 	var isShadowyVeil = $("#shadowy-veil").prop("checked");
 	var isTabletsOfRuin = $('#tablets-of-ruin').prop("checked");
 	var isBeadsOfRuin = $('#beads-of-ruin').prop("checked");

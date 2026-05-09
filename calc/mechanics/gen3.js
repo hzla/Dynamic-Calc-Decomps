@@ -29,6 +29,27 @@ exports.__esModule = true;
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
+var ADV_SPECIAL_TYPES = ['Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark', 'Fairy'];
+function shouldUsePhysSpecSplitADV() {
+    if (typeof settings !== 'undefined' && settings && typeof settings.physSpecSplit !== 'undefined') {
+        return !!settings.physSpecSplit;
+    }
+    return typeof settings !== 'undefined' && settings && settings.damageGen >= 4;
+}
+function getTypeBasedCategoryADV(move) {
+    if (move.type === '???') {
+        return move.category || 'Physical';
+    }
+    return ADV_SPECIAL_TYPES.includes(move.type) ? 'Special' : 'Physical';
+}
+function applyMoveCategoryADV(move) {
+    if (move.category === 'Status') {
+        return;
+    }
+    if (!shouldUsePhysSpecSplitADV()) {
+        move.category = getTypeBasedCategoryADV(move);
+    }
+}
 function calculateADV(gen, attacker, defender, move, field) {
     var _a;
     (0, util_1.checkAirLock)(attacker, field);
@@ -102,9 +123,10 @@ function calculateADV(gen, attacker, defender, move, field) {
             _a = __read([secondDefenderType, firstDefenderType], 2), firstDefenderType = _a[0], secondDefenderType = _a[1];
         }
     }
-    var type1Effectiveness = (0, util_1.getMoveEffectiveness)(gen, move, firstDefenderType, field.defenderSide.isForesight);
+    var ctx = { field: field };
+    var type1Effectiveness = (0, util_1.getMoveEffectiveness)(gen, move, firstDefenderType, field.defenderSide.isForesight, false, false, false, false, false, null, ctx);
     var type2Effectiveness = secondDefenderType
-        ? (0, util_1.getMoveEffectiveness)(gen, move, secondDefenderType, field.defenderSide.isForesight)
+        ? (0, util_1.getMoveEffectiveness)(gen, move, secondDefenderType, field.defenderSide.isForesight, false, false, false, false, false, null, ctx)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
     if (typeEffectiveness === 0) {
@@ -239,31 +261,19 @@ function calculateBPModsADV(attacker, move, desc, basePower) {
 exports.calculateBPModsADV = calculateBPModsADV;
 function calculateAttackADV(gen, attacker, defender, move, desc, isCritical, field) {
     if (isCritical === void 0) { isCritical = false; }
+    applyMoveCategoryADV(move);
     var isPhysical = move.category === 'Physical';
-    if (settings.typeChart == 3 && TITLE != "Autumn Red") {
-        
-        if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
-            isPhysical = true
-            move.category = 'Physical'
-
-        } 
-        if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
-            isPhysical = false
-            move.category = "Special"
-
-        }
-    }   
     var attackStat = isPhysical ? 'atk' : 'spa';
     desc.attackEVs = (0, util_1.getStatDescriptionText)(gen, attacker, attackStat, attacker.nature);
     var at = attacker.rawStats[attackStat];
     if (field.attackerSide.isBadgeAtk) {
-        if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
+        if (isPhysical) {
             at = Math.floor(at * 1.1);
             desc.isBadgeAtk = true;
         }
     }
     if (field.attackerSide.isBadgeSpec) {
-        if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
+        if (!isPhysical) {
             at = Math.floor(at * 1.1);
             desc.isBadgeSpec = true;
         }

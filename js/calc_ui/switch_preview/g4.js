@@ -33,12 +33,25 @@ function get_next_in_g4() {
         var mul = TYPE_MULTI_BASE_DAMAGE
         var attackTable = typeChart[attackingType] || {}
 
+        function applyInverseTypeMulti(typeMulti) {
+            if (!isInverseBattleActive()) {
+                return typeMulti
+            }
+            if (typeMulti == TYPE_MULTI_IMMUNE || typeMulti == TYPE_MULTI_NOT_VERY_EFF) {
+                return TYPE_MULTI_SUPER_EFF
+            }
+            if (typeMulti == TYPE_MULTI_SUPER_EFF) {
+                return TYPE_MULTI_NOT_VERY_EFF
+            }
+            return typeMulti
+        }
+
         if (attackTable.hasOwnProperty(defendingType1)) {
-            mul = Math.floor(mul * attackTable[defendingType1] / 10)
+            mul = Math.floor(mul * applyInverseTypeMulti(attackTable[defendingType1]) / 10)
         }
 
         if (defendingType1 != defendingType2 && attackTable.hasOwnProperty(defendingType2)) {
-            mul = Math.floor(mul * attackTable[defendingType2] / 10)
+            mul = Math.floor(mul * applyInverseTypeMulti(attackTable[defendingType2]) / 10)
         }
 
         return mul

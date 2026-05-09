@@ -268,6 +268,34 @@ for (let calc of calcs) {
       })
     })
 
+    it('defaults phys/spec split by mechanics generation', () => {
+      cy.get('#open-menu').click()
+      cy.window().then((win) => {
+        const runtimeSettings = win.eval('settings')
+        const shouldDefaultOn = runtimeSettings.damageGen >= 4
+
+        expect(win.$('#toggle-phys-spec-split').is(':visible')).to.eq(true)
+        expect(win.$('#toggle-phys-spec-split input').prop('checked')).to.eq(shouldDefaultOn)
+        expect(win.$('#toggle-phys-spec-split').prevAll('.menu-section-header').first().text()).to.eq('Misc')
+        expect(runtimeSettings.physSpecSplit).to.eq(shouldDefaultOn)
+      })
+    })
+
+    it('defaults invert types off for supported games', () => {
+      cy.get('#open-menu').click()
+      cy.window().then((win) => {
+        const runtimeSettings = win.eval('settings')
+        const shouldShowToggle = runtimeSettings.damageGen >= 3 && runtimeSettings.damageGen <= 8
+
+        expect(win.$('#toggle-invert-types').is(':visible')).to.eq(shouldShowToggle)
+        if (shouldShowToggle) {
+          expect(win.$('#toggle-invert-types input').prop('checked')).to.eq(false)
+          expect(win.$('#toggle-invert-types').prevAll('.menu-section-header').first().text()).to.eq('Misc')
+          expect(runtimeSettings.invertTypes).to.eq(false)
+        }
+      })
+    })
+
     it('defaults import party preview to on', () => {
       cy.get('#open-menu').click()
       cy.window().then((win) => {
@@ -632,6 +660,32 @@ for (let calc of calcs) {
       cy.get("[data-id='Pikachu (My Box)']").click()
       cy.get("[data-id='Eevee (My Box)']").click()
       cy.get('#statusL1').should('have.value', 'Burned')
+    })
+
+    it('groups left-side forms with the evo line and updates the sprite', () => {
+      cy.get('#clearSets').click()
+
+      cy.window().then((win) => {
+        win.__charizardOtherFormesBefore = (win.pokedex.Charizard.otherFormes || []).slice()
+      })
+
+      importSetText(charizardLeftoversImport)
+      cy.get("[data-id='Charizard (My Box)']").click()
+
+      cy.get('#p1 .forme').should('be.visible')
+      cy.get('#p1 .forme').parent().find('label').should('have.text', 'Form/Evo')
+      cy.get('#p1 .forme optgroup').eq(0).should('have.attr', 'label', 'Alt Forms')
+      cy.get('#p1 .forme optgroup').eq(1).should('have.attr', 'label', 'Evo Line')
+      cy.get('#p1 .forme optgroup[label="Alt Forms"] option[value="Charizard-Mega-X"]').should('exist')
+      cy.get('#p1 .forme optgroup[label="Evo Line"] option[value="Charmeleon"]').should('exist')
+
+      cy.get('#p1 .forme').select('Charmeleon')
+      cy.get('#p1 .poke-sprite').should('have.attr', 'src').and('include', '/img/back/charmeleon.gif')
+
+      cy.window().then((win) => {
+        expect(win.createPokemon(win.$('#p1')).name).to.eq('Charmeleon')
+        expect(win.pokedex.Charizard.otherFormes).to.deep.equal(win.__charizardOtherFormesBefore)
+      })
     })
 
     it('treats legacy custom sets with missing status as healthy', () => {

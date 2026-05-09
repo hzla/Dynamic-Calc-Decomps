@@ -33,6 +33,8 @@ const settings = {
     customPoks: !getBool('customPoks', '0'),
     challengeMode: params.get('challengeMode') == 'true' || false,
     critGen: getNum('critGen', getNum('dmgGen', 8)),
+    physSpecSplit: getNum('dmgGen', 8) >= 4,
+    invertTypes: false,
     customCascadeSwitchAI: getBool('cascAI'),
     customCascadeSwitchAIG4: getBool('cascAIG4'),
     showDex: false
@@ -44,6 +46,8 @@ const forceBlankConfig = getBool('forceBlankConfig');
 const DEFAULT_MASTERSHEET_SOURCE = "cascadewhite";
 const SWITCH_PREVIEW_STORAGE_PREFIX = "calcSwitchPreview:";
 const SWITCH_AI_INFO_STORAGE_PREFIX = "calcSwitchAiInfo:";
+const PHYS_SPEC_SPLIT_STORAGE_PREFIX = "calcPhysSpecSplit:";
+const INVERT_TYPES_STORAGE_PREFIX = "calcInvertTypes:";
 const mastersheetSourcesByTitle = {
   "Cascade White": "cascadewhite",
   "Cascade White Dev": "cascadewhite2",
@@ -82,6 +86,14 @@ function getDefaultSwitchAiInfoEnabled(title) {
     return title === "Platinum Kaizo";
 }
 
+function getDefaultPhysSpecSplitEnabled() {
+    return Boolean(settings && settings.damageGen >= 4);
+}
+
+function canUseInvertTypesSetting() {
+    return Boolean(settings && settings.damageGen >= 3 && settings.damageGen <= 8);
+}
+
 function getSwitchPreviewEnabled(title = TITLE) {
     return getTitleScopedStoredBool(
         SWITCH_PREVIEW_STORAGE_PREFIX,
@@ -95,6 +107,22 @@ function getSwitchAiInfoEnabled(title = TITLE) {
         SWITCH_AI_INFO_STORAGE_PREFIX,
         title,
         getDefaultSwitchAiInfoEnabled(title)
+    );
+}
+
+function getPhysSpecSplitEnabled(title = TITLE) {
+    return getTitleScopedStoredBool(
+        PHYS_SPEC_SPLIT_STORAGE_PREFIX,
+        title,
+        getDefaultPhysSpecSplitEnabled()
+    );
+}
+
+function getInvertTypesEnabled(title = TITLE) {
+    return getTitleScopedStoredBool(
+        INVERT_TYPES_STORAGE_PREFIX,
+        title,
+        false
     );
 }
 
@@ -121,6 +149,26 @@ function syncGameScopedSwitchSettings(title = TITLE) {
     syncSwitchPreviewUrlParam(switchPreviewEnabled);
 }
 
+function syncGameScopedPhysSpecSplitSettings(title = TITLE) {
+    var physSpecSplitEnabled = getPhysSpecSplitEnabled(title);
+
+    if (typeof localStorage !== "undefined") {
+        localStorage.physSpecSplit = physSpecSplitEnabled ? "1" : "0";
+    }
+
+    settings.physSpecSplit = physSpecSplitEnabled;
+}
+
+function syncGameScopedInvertTypesSettings(title = TITLE) {
+    var invertTypesEnabled = canUseInvertTypesSetting() && getInvertTypesEnabled(title);
+
+    if (typeof localStorage !== "undefined") {
+        localStorage.invertTypes = invertTypesEnabled ? "1" : "0";
+    }
+
+    settings.invertTypes = invertTypesEnabled;
+}
+
 function setSwitchPreviewEnabled(enabled, title = TITLE) {
     setTitleScopedStoredBool(SWITCH_PREVIEW_STORAGE_PREFIX, title, enabled);
     syncGameScopedSwitchSettings(title);
@@ -131,6 +179,16 @@ function setSwitchAiInfoEnabled(enabled, title = TITLE) {
     if (typeof localStorage !== "undefined") {
         localStorage.switchAiInfo = enabled ? "1" : "0";
     }
+}
+
+function setPhysSpecSplitEnabled(enabled, title = TITLE) {
+    setTitleScopedStoredBool(PHYS_SPEC_SPLIT_STORAGE_PREFIX, title, enabled);
+    syncGameScopedPhysSpecSplitSettings(title);
+}
+
+function setInvertTypesEnabled(enabled, title = TITLE) {
+    setTitleScopedStoredBool(INVERT_TYPES_STORAGE_PREFIX, title, enabled);
+    syncGameScopedInvertTypesSettings(title);
 }
 
 function shouldShowSwitchAiInfo() {
@@ -150,6 +208,8 @@ function getBlankDevConfigDefaults() {
         customPoks: settings.customPoks,
         challengeMode: settings.challengeMode,
         noSwitch: settings.noSwitch,
+        physSpecSplit: settings.physSpecSplit,
+        invertTypes: settings.invertTypes,
         customCascadeSwitchAI: settings.customCascadeSwitchAI,
         customCascadeSwitchAIG4: settings.customCascadeSwitchAIG4,
         readIncludes: false,
@@ -299,6 +359,10 @@ function applyBlankDevConfig(config) {
   settings.customPoks = !!mergedConfig.customPoks;
   settings.challengeMode = !!mergedConfig.challengeMode;
   settings.noSwitch = !!mergedConfig.noSwitch;
+  settings.physSpecSplit = typeof mergedConfig.physSpecSplit === "undefined"
+    ? getDefaultPhysSpecSplitEnabled()
+    : !!mergedConfig.physSpecSplit;
+  settings.invertTypes = canUseInvertTypesSetting() && !!mergedConfig.invertTypes;
   settings.customCascadeSwitchAI = !!mergedConfig.customCascadeSwitchAI;
   settings.customCascadeSwitchAIG4 = !!mergedConfig.customCascadeSwitchAIG4;
   settings.readIncludes = !!mergedConfig.readIncludes;
@@ -768,6 +832,8 @@ function setGameSettings(title) {
   updateHeaderShellState()
 
   toggleGen3SwitchGuide();
+  syncGameScopedPhysSpecSplitSettings(title);
+  syncGameScopedInvertTypesSettings(title);
 }
 
 function toggleGen3SwitchGuide() {

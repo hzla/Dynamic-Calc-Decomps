@@ -36,20 +36,6 @@ var unboundProfile = (0, helpers_1.makeProfile)({
                 }
             }
         ],
-        typeEffectiveness: [
-            function (ctx, effectiveness) {
-                if (!ctx.field.isInverse) {
-                    return effectiveness;
-                }
-                if (effectiveness === 0 || effectiveness === 0.5) {
-                    return 2;
-                }
-                if (effectiveness === 2) {
-                    return 0.5;
-                }
-                return effectiveness;
-            }
-        ],
         basePowerMods: [
             function (ctx, bpMods) {
                 if (ctx.move.named("Solar Beam", "Solar Blade") && isUnboundSandstorm(ctx.field)) {

@@ -206,11 +206,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, i
         damage = normalizeSwitchPreviewDamage(defenderVAttackerResults[moveIndex].damage)
 
         if (move.category != "Status") {
-           let effectiveness = typeChart[move.type][attacker.types[0]]
-
-           if (attacker.types[1]) {
-               effectiveness = effectiveness * typeChart[move.type][attacker.types[1]]
-           }
+           let effectiveness = getCombinedTypeChartEffectiveness(move.type, attacker.types)
            if (effectiveness > 1) {
                aiHasSE = true;
            }
@@ -400,10 +396,7 @@ function isBadOdds(p1, p2) {
         for (let move of p2.moves) {
             let cat = move.category
             if (cat == "status") continue;
-            let effectiveness = typeChart[move.type][p1.types[0]]
-            if (p1.types[1]) {
-                effectiveness = effectiveness * typeChart[move.type][p1.types[1]]
-            }
+            let effectiveness = getCombinedTypeChartEffectiveness(move.type, p1.types)
 
             // Check for super effective moves
             if (effectiveness > 1) {
@@ -898,8 +891,8 @@ function getTypeMatchup(playerTypes, defenderTypes) {
     let defType1 = defenderTypes[0];
     let defType2 = defenderTypes[1] ?? defType1;
 
-    let att1_vs_def1 = handleTypeMatchupImmunityEI(typeChart[attType1][defType1]);
-    let att1_vs_def2 = (defType1 === defType2) ? 1.0 : handleTypeMatchupImmunityEI(typeChart[attType1][defType2]);
+    let att1_vs_def1 = handleTypeMatchupImmunityEI(getTypeChartEffectiveness(attType1, defType1));
+    let att1_vs_def2 = (defType1 === defType2) ? 1.0 : handleTypeMatchupImmunityEI(getTypeChartEffectiveness(attType1, defType2));
 
     let att2_vs_def1;
     let att2_vs_def2;
@@ -907,8 +900,8 @@ function getTypeMatchup(playerTypes, defenderTypes) {
         att2_vs_def1 = att1_vs_def1;
         att2_vs_def2 = att1_vs_def2;
     } else {
-        att2_vs_def1 = handleTypeMatchupImmunityEI(typeChart[attType2][defType1]);
-        att2_vs_def2 = (defType1 === defType2) ? 1.0 : handleTypeMatchupImmunityEI(typeChart[attType2][defType2]);
+        att2_vs_def1 = handleTypeMatchupImmunityEI(getTypeChartEffectiveness(attType2, defType1));
+        att2_vs_def2 = (defType1 === defType2) ? 1.0 : handleTypeMatchupImmunityEI(getTypeChartEffectiveness(attType2, defType2));
     }
     return parseFloat(((att1_vs_def1 * att1_vs_def2) + (att2_vs_def1 * att2_vs_def2)).toFixed(2));
 }

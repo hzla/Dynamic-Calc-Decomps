@@ -203,37 +203,57 @@ function getFinalSpeed(gen, pokemon, field, side) {
     return Math.max(0, speed);
 }
 exports.getFinalSpeed = getFinalSpeed;
-function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRingTarget, isBoneZone, isCorrosion, isDarkRevealed=false, profile, ctx) {
-    if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
-        return 1;
-    }
-    else if (isDarkRevealed) {
-        return 1;
-    }
-    else if ((isRingTarget || isGravity) && type === 'Flying' && move.hasType('Ground')) {
-        return 1;
-    }
-    else if ((isRingTarget) && type === 'Fairy' && move.hasType('Dragon')) {
-        return 1;
-    }
-    else if ((isRingTarget) && type === 'Ground' && move.hasType('Electric')) {
-        return 1;
-    }
-    else if ((isCorrosion || isRingTarget) && type === 'Steel' && move.hasType('Poison')) {
-        return 1;
-    }
-    else if (move.named('Freeze-Dry') && type === 'Water') {
+function invertTypeEffectiveness(effectiveness) {
+    if (effectiveness === 0 || effectiveness === 0.5) {
         return 2;
     }
+    if (effectiveness === 2) {
+        return 0.5;
+    }
+    return effectiveness;
+}
+exports.invertTypeEffectiveness = invertTypeEffectiveness;
+function shouldUseInverseEffectiveness(ctx) {
+    return !!(ctx && ctx.field && (ctx.field.isInverse || ctx.field.inverse || ctx.field.isInverseBattle));
+}
+exports.shouldUseInverseEffectiveness = shouldUseInverseEffectiveness;
+function applyInverseEffectiveness(effectiveness, ctx) {
+    return shouldUseInverseEffectiveness(ctx) ? invertTypeEffectiveness(effectiveness) : effectiveness;
+}
+exports.applyInverseEffectiveness = applyInverseEffectiveness;
+function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRingTarget, isBoneZone, isCorrosion, isDarkRevealed=false, profile, ctx) {
+    var effectiveness;
+    var skipProfileTypeEffectivenessHooks = false;
+    if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
+        effectiveness = 1;
+    }
+    else if (isDarkRevealed) {
+        effectiveness = 1;
+    }
+    else if ((isRingTarget || isGravity) && type === 'Flying' && move.hasType('Ground')) {
+        effectiveness = 1;
+    }
+    else if ((isRingTarget) && type === 'Fairy' && move.hasType('Dragon')) {
+        effectiveness = 1;
+    }
+    else if ((isRingTarget) && type === 'Ground' && move.hasType('Electric')) {
+        effectiveness = 1;
+    }
+    else if ((isCorrosion || isRingTarget) && type === 'Steel' && move.hasType('Poison')) {
+        effectiveness = 1;
+    }
+    else if (move.named('Freeze-Dry') && type === 'Water') {
+        effectiveness = 2;
+    }
     else if (move.named('Flying Press')) {
-        return (gen.types.get('fighting').effectiveness[type] *
+        effectiveness = (gen.types.get('fighting').effectiveness[type] *
             gen.types.get('flying').effectiveness[type]);
     }
     else if (move.named('Draco Barrage') && type === 'Fairy') {
-        return 1;
+        effectiveness = 1;
     }
     else {
-        var effectiveness = typeChart[move.type][type]
+        effectiveness = typeChart[move.type][type]
 
         // if (settings.damageGen != 4) {
         //     effectiveness = gen.types.get((0, util_1.toID)(move.type)).effectiveness[type];
@@ -241,7 +261,8 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
         
 
         if (effectiveness === 0 && isBoneZone && move.flags.bone) {
-            return 1;
+            effectiveness = 1;
+            skipProfileTypeEffectivenessHooks = true;
         }
         // if (invert) {
         //     var inverted_dmg = (1 / gen.types.get((0, util_1.toID)(move.type)).effectiveness[type])
@@ -250,7 +271,7 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
         //     }
         //     return inverted_dmg;
         // }
-        if (profile && profile.hooks && profile.hooks.typeEffectiveness && profile.hooks.typeEffectiveness.length) {
+        if (!skipProfileTypeEffectivenessHooks && profile && profile.hooks && profile.hooks.typeEffectiveness && profile.hooks.typeEffectiveness.length) {
             var hookCtx = ctx || {};
             hookCtx.gen = hookCtx.gen || gen;
             hookCtx.move = hookCtx.move || move;
@@ -263,9 +284,8 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
                 }
             }
         }
-        
-        return effectiveness;
     }
+    return applyInverseEffectiveness(effectiveness, ctx);
 }
 exports.getMoveEffectiveness = getMoveEffectiveness;
 function checkAirLock(pokemon, field) {
