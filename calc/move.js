@@ -2,7 +2,28 @@
 exports.__esModule = true;
 
 var util_1 = require("./util");
-var SPECIAL = ['Fire', 'Water', 'Grass', 'Electric', 'Ice', 'Psychic', 'Dark', 'Dragon'];
+var SPECIAL = ['Fire', 'Water', 'Grass', 'Electric', 'Ice', 'Psychic', 'Dark', 'Dragon', 'Fairy'];
+function shouldUsePhysSpecSplit(gen) {
+    if (typeof settings !== 'undefined' && settings && typeof settings.physSpecSplit !== 'undefined') {
+        return !!settings.physSpecSplit;
+    }
+    return gen.num >= 4;
+}
+function getTypeBasedCategory(type, fallbackCategory) {
+    if (type === '???') {
+        return fallbackCategory || 'Physical';
+    }
+    return SPECIAL.includes(type) ? 'Special' : 'Physical';
+}
+function getMoveCategory(gen, data, type) {
+    if (data.category === 'Status') {
+        return 'Status';
+    }
+    if (!shouldUsePhysSpecSplit(gen)) {
+        return getTypeBasedCategory(type, data.category);
+    }
+    return data.category || (gen.num < 4 ? getTypeBasedCategory(type, data.category) : 'Status');
+}
 var Move = (function () {
     function Move(gen, name, options) {
         if (options === void 0) { options = {}; }
@@ -66,8 +87,7 @@ var Move = (function () {
         var typelessDamage = (gen.num >= 2 && data.id === 'struggle') ||
             (gen.num <= 4 && ['futuresight', 'doomdesire'].includes(data.id));
         this.type = typelessDamage ? '???' : data.type;
-        this.category = data.category ||
-            (gen.num < 4 ? (SPECIAL.includes(data.type) ? 'Special' : 'Physical') : 'Status');
+        this.category = getMoveCategory(gen, data, this.type);
         var stat = this.category === 'Special' ? 'spa' : 'atk';
         if (((_b = data.self) === null || _b === void 0 ? void 0 : _b.boosts) && data.self.boosts[stat] && data.self.boosts[stat] < 0) {
             this.dropsStats = Math.abs(data.self.boosts[stat]);

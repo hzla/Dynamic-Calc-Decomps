@@ -296,6 +296,16 @@ for (let calc of calcs) {
       })
     })
 
+    it('shows the gravity field button for gen 4+ mechanics', () => {
+      cy.window().then((win) => {
+        const runtimeGameGen = win.eval('gameGen')
+        const shouldShowGravity = runtimeGameGen >= 4 && runtimeGameGen <= 8
+
+        expect(win.$('#gravity').length).to.eq(1)
+        expect(win.$('label[for="gravity"]').is(':visible')).to.eq(shouldShowGravity)
+      })
+    })
+
     it('defaults import party preview to on', () => {
       cy.get('#open-menu').click()
       cy.window().then((win) => {
