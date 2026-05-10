@@ -4151,6 +4151,24 @@ table.field {
     margin-top: 0px;
 }
 
+.bug-report-download {
+    appearance: none;
+    border: 1px solid rgba(139, 233, 253, 0.55);
+    border-radius: 6px;
+    background: rgba(139, 233, 253, 0.08);
+    color: #8be9fd;
+    cursor: pointer;
+    font: inherit;
+    padding: 8px 12px;
+}
+
+.bug-report-download:hover,
+.bug-report-download:focus-visible {
+    background: rgba(139, 233, 253, 0.16);
+    border-color: #8be9fd;
+    outline: none;
+}
+
 .save-editor-guide {
     color: #bb86fc;
     font-size: 18px;
