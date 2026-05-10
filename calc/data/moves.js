@@ -5094,6 +5094,11 @@ var RR_PATCH = {
         maxPower: 130
     }
 };
+
+if (!(TITLE.includes("Radical") || TITLE.includes("Imperium")) ) {
+    RR_PATCH = {}
+}
+
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, RR_PATCH);
 exports.MOVES = [{}, RBY, GSC, ADV, DPP, BW, XY, SV, SV, SV];
 var Moves = (function () {
