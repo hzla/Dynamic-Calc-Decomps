@@ -4,25 +4,38 @@ function getCurrentOpposingPreviewSetId() {
     return $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text() || currentTrainerSet || localStorage["right"] || ""
 }
 
-function syncOpposingKoButton() {
-    var button = $('#opposing-ko-toggle')
-    if (!button.length) {
-        return
+function getOpposingFaintDataId(setId) {
+    var targetSet = setId || getCurrentOpposingPreviewSetId()
+    if (!targetSet) {
+        return ""
     }
 
-    var setId = getCurrentOpposingPreviewSetId()
+    return typeof getTrainerPreviewDataId === "function" ? getTrainerPreviewDataId(targetSet) : targetSet
+}
+
+function syncOpposingKoButton() {
+    var button = $('#opposing-ko-toggle')
+
+    var setId = getOpposingFaintDataId()
     var isFainted = Boolean(setId) && fainted.includes(setId)
 
-    button
-        .toggleClass('is-fainted', isFainted)
-        .text(isFainted ? "KO'd" : "KO")
-        .prop('disabled', !setId)
-        .attr('aria-pressed', isFainted ? 'true' : 'false')
-        .attr('title', isFainted ? 'Unmark enemy as fainted' : 'Mark enemy as fainted')
+    $('#p2 .poke-sprite')
+        .toggleClass('fainted', isFainted)
+        .attr('data-id', setId)
+        .attr('title', isFainted ? 'Right click to unmark as fainted' : 'Right click to mark as fainted')
+
+    if (button.length) {
+        button
+            .toggleClass('is-fainted', isFainted)
+            .text(isFainted ? "KO'd" : "KO")
+            .prop('disabled', !setId)
+            .attr('aria-pressed', isFainted ? 'true' : 'false')
+            .attr('title', isFainted ? 'Unmark enemy as fainted' : 'Mark enemy as fainted')
+    }
 }
 
 function toggleTrainerPreviewFaint(setId) {
-    var targetSet = setId || getCurrentOpposingPreviewSetId()
+    var targetSet = getOpposingFaintDataId(setId)
     if (!targetSet) {
         syncOpposingKoButton()
         return
@@ -331,6 +344,11 @@ $(document).ready(function() {
     }
 
     $(document).on('contextmenu', '.trainer-pok.right-side', function(e) {
+        e.preventDefault()
+        toggleTrainerPreviewFaint($(this).attr('data-id'))
+    })
+
+    $(document).on('contextmenu', '#p2 .poke-sprite', function(e) {
         e.preventDefault()
         toggleTrainerPreviewFaint($(this).attr('data-id'))
     })

@@ -2213,6 +2213,10 @@ input {
     z-index:  12;
 }
 
+#p2 .poke-sprite.fainted {
+    background: rgb(255, 85, 85, 0.5);
+}
+
 #opposing-ko-toggle {
     display: none;
     position: static;
