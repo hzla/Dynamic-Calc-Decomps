@@ -489,6 +489,26 @@ $(document).ready(function() {
         }
     })
 
+    $(document).on('input change blur', '#mobile-box-shortcut-lvl-cap', function() {
+        var value = $(this).val()
+        $('#lvl-cap').val(value)
+        localStorage.lvlCap = value
+        $('#lvl-cap').trigger('change')
+    })
+
+    $(document).on('input change', '#lvl-cap', function() {
+        if (typeof syncMobileBoxShortcutLevelCap === "function") {
+            syncMobileBoxShortcutLevelCap()
+        }
+    })
+
+    $(document).on('contextmenu', '#mobile-box-shortcut-lvl-cap', function(e) {
+        e.preventDefault()
+        if (typeof setBoxToLevelCap === "function") {
+            setBoxToLevelCap()
+        }
+    })
+
     $(document).on('click', '#mobile-box-shortcut-clear-party', function() {
         if (typeof clearMobileBoxShortcutParty === "function") {
             clearMobileBoxShortcutParty()

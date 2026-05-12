@@ -1339,6 +1339,21 @@ function syncMobileBoxShortcutSortControls() {
         .attr('aria-label', `Toggle ${isAscending ? 'descending' : 'ascending'} sort`)
 }
 
+function syncMobileBoxShortcutLevelCap() {
+    var source = $('#lvl-cap')
+    var wrapper = $('.mobile-box-shortcut-level-cap')
+    var input = $('#mobile-box-shortcut-lvl-cap')
+    if (!source.length || !wrapper.length || !input.length) {
+        return
+    }
+
+    var shouldShow = source.css('display') !== 'none'
+    wrapper.prop('hidden', !shouldShow)
+    if (shouldShow) {
+        input.val(source.val())
+    }
+}
+
 function renderMobileBoxShortcutParty() {
     var destination = $('.mobile-box-shortcut-party')
     if (!destination.length) {
@@ -1506,6 +1521,7 @@ function renderMobileBoxShortcutModal() {
     }
 
     syncMobileBoxShortcutSortControls()
+    syncMobileBoxShortcutLevelCap()
     renderMobileBoxShortcutParty()
     get_box()
 

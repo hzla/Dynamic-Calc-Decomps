@@ -667,6 +667,39 @@ input[type="file"] {
     opacity: 0.45;
 }
 
+.mobile-box-shortcut-level-cap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border: 1px solid rgba(241, 241, 241, 0.24);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.mobile-box-shortcut-level-cap[hidden] {
+    display: none;
+}
+
+.mobile-box-shortcut-level-cap label {
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+#mobile-box-shortcut-lvl-cap {
+    box-sizing: border-box;
+    width: 96px;
+    height: 36px;
+    border: 1px solid rgba(241, 241, 241, 0.42);
+    border-radius: 7px;
+    background: #181818;
+    color: #f1f1f1;
+    font-size: 18px;
+    text-align: center;
+}
+
 .mobile-box-shortcut-party,
 .mobile-box-shortcut-poks,
 .mobile-box-shortcut-megas {
@@ -686,6 +719,22 @@ input[type="file"] {
 
 .mobile-box-shortcut-party {
     flex-wrap: nowrap;
+}
+
+.trainer-pok-list.mobile-box-shortcut-poks,
+.trainer-pok-list.mobile-box-shortcut-megas {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(82px, 1fr));
+    gap: 10px 4px;
+    justify-items: center;
+    align-items: start;
+    flex-wrap: initial;
+}
+
+.mobile-box-shortcut-poks .box-sort-card,
+.mobile-box-shortcut-megas .box-sort-card {
+    width: 100%;
+    justify-content: center;
 }
 
 .mobile-box-shortcut-party.can-drop {
@@ -4542,6 +4591,7 @@ table.field {
 
   .panel.third:not(.panel-mid) {
     min-width: 0px;
+    max-width: initial;
   }
 
   .poke-sprite {
@@ -4972,7 +5022,11 @@ table.field {
   }
 
   .results-right > div {
-    justify-content: normal;
+    justify-content: space-between;
+  }
+
+  #resultHeaderR, #resultHeaderL {
+    height: 24px;
   }
 
   .results-right > div > label {
@@ -5149,6 +5203,7 @@ table.field {
         padding: 0 12px;
         border: 1px solid rgba(241, 241, 241, 0.42);
         background: rgba(255, 255, 255, 0.04);
+        margin-right: 10px;
     }
 
     .mobile-calc-side-tab.active {
