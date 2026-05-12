@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?b280fc72" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?16018d77" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?76f537b9" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
@@ -342,6 +343,11 @@
                 <input id="dev-data-upload" type="file" accept=".js,application/javascript,text/javascript" hidden>
             </div>
         </div>
+        <button type="button" id="main-view-menu-toggle" class="main-view-menu-toggle" aria-label="Open view menu" aria-expanded="false" aria-controls="main-view-tabs">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="1" id="gen1" /><label class="btn btn-small btn-left" for="gen1">RBY</label>
@@ -414,7 +420,8 @@
                
         </select>
         <button type="button" class="btn btn-small romhack-modal-trigger" id="open-romhack-modal" aria-haspopup="dialog" aria-controls="romhack-browser-modal">
-            More Romhacks
+            <span class="romhack-modal-label-full">More Romhacks</span>
+            <span class="romhack-modal-label-short">More</span>
         </button>
     </div>
     <div id="romhack-browser-modal" class="romhack-browser-modal" role="dialog" aria-modal="true" aria-labelledby="romhack-browser-title" hidden>
@@ -475,6 +482,40 @@
             </div>
         </div>
     </div>
+    <div id="mobile-box-shortcut-modal" class="romhack-browser-modal mobile-box-shortcut-modal" role="dialog" aria-modal="true" aria-labelledby="mobile-box-shortcut-title" hidden>
+        <div class="romhack-browser-backdrop" data-close-mobile-box-shortcut></div>
+        <div class="romhack-browser-dialog mobile-box-shortcut-dialog" role="document">
+            <div class="romhack-browser-header">
+                <h2 id="mobile-box-shortcut-title">Player Box</h2>
+                <button type="button" class="romhack-browser-close" aria-label="Close player box shortcut" data-close-mobile-box-shortcut>&times;</button>
+            </div>
+            <div class="romhack-browser-content mobile-box-shortcut-content">
+                <section class="mobile-box-shortcut-section mobile-box-shortcut-party-section">
+                    <div class="mobile-box-shortcut-section-heading">
+                        <div class="mobile-box-shortcut-section-title">Party</div>
+                        <button type="button" id="mobile-box-shortcut-clear-party">Clear Party</button>
+                    </div>
+                    <div class="trainer-pok-list mobile-box-shortcut-party"></div>
+                </section>
+                <div class="mobile-box-shortcut-separator"></div>
+                <section class="mobile-box-shortcut-section mobile-box-shortcut-box-section">
+                    <div class="mobile-box-shortcut-section-title">Box</div>
+                    <div class="mobile-box-shortcut-controls">
+                        <input type="text" id="mobile-box-shortcut-search" placeholder="Search name, learnset, ability, etc.">
+                        <select id="mobile-box-shortcut-sort" aria-label="Sort shortcut box by"></select>
+                        <button type="button" id="mobile-box-shortcut-sort-direction" aria-label="Toggle ascending sort" title="Ascending">↑</button>
+                    </div>
+                    <div class="trainer-pok-list mobile-box-shortcut-poks"></div>
+                    <div class="player-megas-wrapper mobile-box-shortcut-megas-wrapper">
+                        <div class="trainer-poks-label mega-box-header">
+                            <span>Auto Import Megas</span>
+                        </div>
+                        <div class="trainer-pok-list mobile-box-shortcut-megas"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
     <div id="calculator-view" class="main-page-view">
     <hr />
 
@@ -485,6 +526,10 @@
     <div id="ai-container"></div>
     <div aria-label="Move selection" class="move-result-group" role="region" title="Click damage to toggle crit">
         <div  aria-labelledby="resultHeaderL" class="move-result-subgroup" role="radiogroup">
+            <div id="resultHeaderL" class="result-move-header">
+                <span class="result-move-header-label">Pok&eacute;mon 1 Moves</span>
+                <button type="button" class="result-crit-toggle" data-crit-side="L" aria-pressed="false">Crt</button>
+            </div>
             <div>
                 <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveL1" checked="checked" aria-describedby="resultDamageL1" />
                 <label class="btn btn-xxxwide btn-top" for="resultMoveL1">Loading...</label>
@@ -507,6 +552,10 @@
             </div>
         </div>
         <div aria-labelledby="resultHeaderR" class="move-result-subgroup results-right" role="radiogroup">
+            <div id="resultHeaderR" class="result-move-header">
+                <span class="result-move-header-label">Pok&eacute;mon 2 Moves</span>
+                <button type="button" class="result-crit-toggle" data-crit-side="R" aria-pressed="false">Crt</button>
+            </div>
             <div>
                 <span id="resultDamageR1" class="resultDamage">??? - ???%</span>
                 <input class="result-move visually-hidden" type="radio" name="resultMove" id="resultMoveR1" aria-describedby="resultDamageR1" />
@@ -548,8 +597,13 @@
     
     
 
-    <div class="panel-wrapper">
-    <div aria-label="Pok&eacute;mon 1" class="panel third" role="region">
+    <div class="panel-wrapper mobile-side-p1-active">
+    <div class="mobile-calc-side-tabs" role="tablist" aria-label="Calculator side panels">
+        <button type="button" class="mobile-calc-side-tab mobile-calc-box-tab" data-mobile-calc-side="box" role="tab" aria-controls="mobile-box-shortcut-modal" aria-selected="false">Box</button>
+        <button type="button" class="mobile-calc-side-tab active" data-mobile-calc-side="p1" role="tab" aria-controls="p1" aria-selected="true">Player</button>
+        <button type="button" class="mobile-calc-side-tab" data-mobile-calc-side="p2" role="tab" aria-controls="p2" aria-selected="false">AI</button>
+    </div>
+    <div aria-label="Pok&eacute;mon 1" class="panel third mobile-side-panel mobile-side-panel-p1" role="region">
         <div id="player-tags">
             <div id="tags-left">
               <div id="learnset-show">Dex</div>
@@ -1705,7 +1759,7 @@
             
         </div>
     </div>
-    <div aria-label="Pok&eacute;mon 2" role="region" class="panel third">
+    <div aria-label="Pok&eacute;mon 2" role="region" class="panel third mobile-side-panel mobile-side-panel-p2">
         <div id="mobile-tags">
           <div id="set-partner">Toggle as Partner</div>
         </div>
@@ -2434,13 +2488,13 @@
     <script type="text/javascript" src="./js/fragsheet/battle_log.js?fc013d26"></script>
     <script type="text/javascript" src="./js/calc_ui/box_view.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dev_data_override.js?31d5506a"></script>
-    <script type="text/javascript" src="./js/calc_ui/main_nav.js"></script>
+    <script type="text/javascript" src="./js/calc_ui/main_nav.js?82a24668"></script>
     <script type="text/javascript" src="./js/romhack_modal.js?77b29801"></script>
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?d7f6799d"></script>
     <script type="text/javascript" src="./js/unbound_adapter.js?20260501a"></script>
-    <script type="text/javascript" src="./js/initialize.js?2f7cf8d7"></script>
-    <script type="text/javascript" src="./js/calc_ui/player_box.js?2915d345"></script>
+    <script type="text/javascript" src="./js/initialize.js?c8d57961"></script>
+    <script type="text/javascript" src="./js/calc_ui/player_box.js?f940650e"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?aefe330f"></script>
@@ -2453,7 +2507,7 @@
     <script type="text/javascript" src="./js/calc_ui/ai_display.js?4c40ce6e"></script>
 
     <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?b9013bb9"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?1f7653a0"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?bb640f4a"></script>
 
 
 
@@ -2520,13 +2574,13 @@
     <script type="text/javascript" src="./calc/mechanics/gen3.js?71165526"></script>
     <script type="text/javascript" src="./calc/mechanics/gen12.js?468bc07c"></script>
     <script type="text/javascript" src="./calc/calc.js?d7fc4fbd"></script>
-    <script type="text/javascript" src="./calc/desc.js?0d17c5dd"></script>
+    <script type="text/javascript" src="./calc/desc.js?ef9dda21"></script>
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?3fa56135"></script>
-    <script type="text/javascript" src="./js/index_randoms_controls.js?0d547e25"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?9ad2d10c"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?5190a196"></script>
+    <script type="text/javascript" src="./js/index_randoms_controls.js?08c73a4b"></script>
+    <script type="text/javascript" src="./js/moveset_import.js?a1a0d2c6"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>
     <script type="text/javascript" src="./js/analytics/index.js?63b9ba20"></script>
     <script type="text/javascript" src="./js/bug_report.js?c5df082c"></script>

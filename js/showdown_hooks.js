@@ -52,6 +52,7 @@ function toggleTrainerPreviewFaint(setId) {
 }
 
 var MID_PANEL_LAYOUT_STORAGE_KEY = "midPanelBottomLayout"
+var MOBILE_SIDE_PANEL_STORAGE_KEY = "mobileCalcSidePanel"
 
 function isMidPanelLayoutToggleViewport() {
     return window.innerWidth <= 1439 && window.innerWidth > 960
@@ -86,7 +87,56 @@ function toggleMidPanelLayout() {
     applyMidPanelLayoutPreference()
 }
 
+function syncMobileSidePanelTabs() {
+    var wrapper = $('.panel-wrapper')
+    var tabs = $('.mobile-calc-side-tab')
+    if (!wrapper.length || !tabs.length) {
+        return
+    }
+
+    var activeSide = localStorage.getItem(MOBILE_SIDE_PANEL_STORAGE_KEY) == "p2" ? "p2" : "p1"
+    wrapper
+        .toggleClass('mobile-side-p1-active', activeSide == "p1")
+        .toggleClass('mobile-side-p2-active', activeSide == "p2")
+
+    tabs.each(function() {
+        var tabSide = $(this).attr('data-mobile-calc-side')
+        var isActive = tabSide != "box" && tabSide == activeSide
+        $(this)
+            .toggleClass('active', isActive)
+            .attr('aria-selected', isActive ? 'true' : 'false')
+    })
+}
+
+function setMobileSidePanel(activeSide) {
+    localStorage.setItem(MOBILE_SIDE_PANEL_STORAGE_KEY, activeSide == "p2" ? "p2" : "p1")
+    syncMobileSidePanelTabs()
+}
+
+function isMobileSidePanelViewport() {
+    return window.innerWidth <= 960
+}
+
+function syncMobileCalcStickyOffsets() {
+    var root = document.documentElement
+    if (!isMobileSidePanelViewport()) {
+        root.style.removeProperty('--mobile-move-result-sticky-height')
+        return
+    }
+
+    var moveResultGroup = $('.move-result-group')
+    if (!moveResultGroup.length) {
+        return
+    }
+
+    root.style.setProperty('--mobile-move-result-sticky-height', `${Math.ceil(moveResultGroup.outerHeight() || 0)}px`)
+}
+
 $(document).ready(function() {
+    var mobileSideSwipeStart = null
+    var mobileBoxShortcutPointerDrag = null
+    var mobileBoxShortcutSuppressClickUntil = 0
+
     function loadLeftSideSet(set) {
         localStorage["left"] = set
         $('.player').val(set)
@@ -369,6 +419,228 @@ $(document).ready(function() {
         toggleMidPanelLayout()
     })
 
+    $(document).on('click', '.mobile-calc-side-tab', function() {
+        var side = $(this).attr('data-mobile-calc-side')
+        if (side == "box") {
+            if (typeof openMobileBoxShortcutModal === "function") {
+                openMobileBoxShortcutModal()
+            }
+            return
+        }
+        setMobileSidePanel(side)
+    })
+
+    $(document).on('touchstart', '.panel-wrapper', function(e) {
+        if (!isMobileSidePanelViewport() || !e.originalEvent.touches || e.originalEvent.touches.length !== 1) {
+            mobileSideSwipeStart = null
+            return
+        }
+
+        var touch = e.originalEvent.touches[0]
+        mobileSideSwipeStart = {
+            x: touch.clientX,
+            y: touch.clientY,
+            time: Date.now()
+        }
+    })
+
+    $(document).on('touchend', '.panel-wrapper', function(e) {
+        if (!mobileSideSwipeStart || !isMobileSidePanelViewport() || !e.originalEvent.changedTouches || e.originalEvent.changedTouches.length !== 1) {
+            mobileSideSwipeStart = null
+            return
+        }
+
+        var touch = e.originalEvent.changedTouches[0]
+        var deltaX = touch.clientX - mobileSideSwipeStart.x
+        var deltaY = touch.clientY - mobileSideSwipeStart.y
+        var elapsed = Date.now() - mobileSideSwipeStart.time
+        mobileSideSwipeStart = null
+
+        if (elapsed > 700 || Math.abs(deltaX) < 55 || Math.abs(deltaX) < Math.abs(deltaY) * 1.35) {
+            return
+        }
+
+        setMobileSidePanel(deltaX < 0 ? 'p2' : 'p1')
+    })
+
+    $(document).on('click', '[data-close-mobile-box-shortcut]', function() {
+        if (typeof closeMobileBoxShortcutModal === "function") {
+            closeMobileBoxShortcutModal()
+        }
+    })
+
+    $(document).on('input keyup', '#mobile-box-shortcut-search', function() {
+        if (typeof filterMobileBoxShortcut === "function") {
+            filterMobileBoxShortcut()
+        }
+    })
+
+    $(document).on('change', '#mobile-box-shortcut-sort', function() {
+        setBoxSortState($(this).val(), null)
+        if (typeof renderMobileBoxShortcutModal === "function") {
+            renderMobileBoxShortcutModal()
+        }
+    })
+
+    $(document).on('click', '#mobile-box-shortcut-sort-direction', function() {
+        toggleBoxSortDirection()
+        if (typeof renderMobileBoxShortcutModal === "function") {
+            renderMobileBoxShortcutModal()
+        }
+    })
+
+    $(document).on('click', '#mobile-box-shortcut-clear-party', function() {
+        if (typeof clearMobileBoxShortcutParty === "function") {
+            clearMobileBoxShortcutParty()
+        }
+    })
+
+    $(document).on('dragstart', '#mobile-box-shortcut-modal .mobile-box-shortcut-poks .trainer-pok.left-side, #mobile-box-shortcut-modal .mobile-box-shortcut-megas .trainer-pok.left-side, #mobile-box-shortcut-modal .mobile-box-shortcut-party .trainer-pok.left-side', function(e) {
+        var setId = $(this).attr('data-id')
+        if (!setId || !e.originalEvent.dataTransfer) {
+            return
+        }
+        var source = $(this).closest('.mobile-box-shortcut-party').length ? 'party' : 'box'
+        e.originalEvent.dataTransfer.effectAllowed = 'copy'
+        e.originalEvent.dataTransfer.setData('text/plain', setId)
+        e.originalEvent.dataTransfer.setData('application/x-mobile-box-shortcut-source', source)
+        $('#mobile-box-shortcut-modal').attr('data-drag-source', source)
+        if (source == 'party') {
+            $('.mobile-box-shortcut-box-section').addClass('can-drop')
+        } else {
+            $('.mobile-box-shortcut-party').addClass('can-drop')
+        }
+    })
+
+    $(document).on('dragend', '#mobile-box-shortcut-modal .trainer-pok.left-side', function() {
+        $('.mobile-box-shortcut-party, .mobile-box-shortcut-box-section').removeClass('can-drop is-drag-over')
+        $('#mobile-box-shortcut-modal').removeAttr('data-drag-source')
+    })
+
+    $(document).on('dragenter dragover', '#mobile-box-shortcut-modal .mobile-box-shortcut-party', function(e) {
+        e.preventDefault()
+        if (e.originalEvent.dataTransfer) {
+            e.originalEvent.dataTransfer.dropEffect = 'copy'
+        }
+        $(this).addClass('is-drag-over')
+    })
+
+    $(document).on('dragleave', '#mobile-box-shortcut-modal .mobile-box-shortcut-party', function(e) {
+        if (!this.contains(e.relatedTarget)) {
+            $(this).removeClass('is-drag-over')
+        }
+    })
+
+    $(document).on('drop', '#mobile-box-shortcut-modal .mobile-box-shortcut-party', function(e) {
+        e.preventDefault()
+        var setId = e.originalEvent.dataTransfer ? e.originalEvent.dataTransfer.getData('text/plain') : ""
+        $('.mobile-box-shortcut-party').removeClass('can-drop is-drag-over')
+        $('#mobile-box-shortcut-modal').removeAttr('data-drag-source')
+        if (setId && typeof addMobileBoxShortcutSetToParty === "function") {
+            addMobileBoxShortcutSetToParty(setId)
+        }
+    })
+
+    $(document).on('dragenter dragover', '#mobile-box-shortcut-modal .mobile-box-shortcut-box-section', function(e) {
+        var source = $('#mobile-box-shortcut-modal').attr('data-drag-source')
+        if (source != 'party') {
+            return
+        }
+
+        e.preventDefault()
+        if (e.originalEvent.dataTransfer) {
+            e.originalEvent.dataTransfer.dropEffect = 'copy'
+        }
+        $(this).addClass('is-drag-over')
+    })
+
+    $(document).on('dragleave', '#mobile-box-shortcut-modal .mobile-box-shortcut-box-section', function(e) {
+        if (!this.contains(e.relatedTarget)) {
+            $(this).removeClass('is-drag-over')
+        }
+    })
+
+    $(document).on('drop', '#mobile-box-shortcut-modal .mobile-box-shortcut-box-section', function(e) {
+        e.preventDefault()
+        var setId = e.originalEvent.dataTransfer ? e.originalEvent.dataTransfer.getData('text/plain') : ""
+        $('.mobile-box-shortcut-party, .mobile-box-shortcut-box-section').removeClass('can-drop is-drag-over')
+        $('#mobile-box-shortcut-modal').removeAttr('data-drag-source')
+        if (setId && typeof removeMobileBoxShortcutSetFromParty === "function") {
+            removeMobileBoxShortcutSetFromParty(setId)
+        }
+    })
+
+    $(document).on('pointerdown', '#mobile-box-shortcut-modal .mobile-box-shortcut-poks .trainer-pok.left-side, #mobile-box-shortcut-modal .mobile-box-shortcut-megas .trainer-pok.left-side, #mobile-box-shortcut-modal .mobile-box-shortcut-party .trainer-pok.left-side', function(e) {
+        if (e.originalEvent.pointerType == "mouse") {
+            return
+        }
+
+        mobileBoxShortcutPointerDrag = {
+            setId: $(this).attr('data-id'),
+            source: $(this).closest('.mobile-box-shortcut-party').length ? 'party' : 'box',
+            startX: e.originalEvent.clientX,
+            startY: e.originalEvent.clientY,
+            dragging: false
+        }
+    })
+
+    $(document).on('pointermove', function(e) {
+        if (!mobileBoxShortcutPointerDrag) {
+            return
+        }
+
+        var deltaX = e.originalEvent.clientX - mobileBoxShortcutPointerDrag.startX
+        var deltaY = e.originalEvent.clientY - mobileBoxShortcutPointerDrag.startY
+        if (!mobileBoxShortcutPointerDrag.dragging && Math.hypot(deltaX, deltaY) < 10) {
+            return
+        }
+
+        mobileBoxShortcutPointerDrag.dragging = true
+        var activeDropSelector = mobileBoxShortcutPointerDrag.source == 'party'
+            ? '.mobile-box-shortcut-box-section'
+            : '.mobile-box-shortcut-party'
+        $(activeDropSelector).addClass('can-drop')
+
+        var dropTarget = $(document.elementFromPoint(e.originalEvent.clientX, e.originalEvent.clientY)).closest(activeDropSelector)
+        $('.mobile-box-shortcut-party, .mobile-box-shortcut-box-section').removeClass('is-drag-over')
+        $(activeDropSelector).toggleClass('is-drag-over', dropTarget.length > 0)
+        e.preventDefault()
+    })
+
+    $(document).on('pointerup pointercancel', function(e) {
+        if (!mobileBoxShortcutPointerDrag) {
+            return
+        }
+
+        var dragState = mobileBoxShortcutPointerDrag
+        mobileBoxShortcutPointerDrag = null
+        $('.mobile-box-shortcut-party, .mobile-box-shortcut-box-section').removeClass('can-drop is-drag-over')
+
+        if (!dragState.dragging) {
+            return
+        }
+
+        mobileBoxShortcutSuppressClickUntil = Date.now() + 400
+        var dropSelector = dragState.source == 'party'
+            ? '.mobile-box-shortcut-box-section'
+            : '.mobile-box-shortcut-party'
+        var dropTarget = $(document.elementFromPoint(e.originalEvent.clientX, e.originalEvent.clientY)).closest(dropSelector)
+        if (!dropTarget.length || !dragState.setId) {
+            return
+        }
+        if (dragState.source == 'party' && typeof removeMobileBoxShortcutSetFromParty === "function") {
+            removeMobileBoxShortcutSetFromParty(dragState.setId)
+        } else if (typeof addMobileBoxShortcutSetToParty === "function") {
+            addMobileBoxShortcutSetToParty(dragState.setId)
+        }
+    })
+
+    $(document).on('keydown', function(e) {
+        if (e.key == "Escape" && !$('#mobile-box-shortcut-modal').prop('hidden') && typeof closeMobileBoxShortcutModal === "function") {
+            closeMobileBoxShortcutModal()
+        }
+    })
+
    $(document).on('contextmenu', '.trainer-pok.left-side', function(e) {
         e.preventDefault()
         var parentBox = $(this).parent()
@@ -410,6 +682,9 @@ $(document).ready(function() {
             clearPartyPreviewSlotOverrides()
         }
         localStorage.currentParty = currentParty
+        if (!$('#mobile-box-shortcut-modal').prop('hidden') && typeof renderMobileBoxShortcutModal === "function") {
+            renderMobileBoxShortcutModal()
+        }
    })
 
    $(document).on('click', '#clear-party', function() {
@@ -423,12 +698,47 @@ $(document).ready(function() {
             clearPartyPreviewSlotOverrides()
         }
         refreshTagPartnerPreview()
+        if (!$('#mobile-box-shortcut-modal').prop('hidden') && typeof renderMobileBoxShortcutModal === "function") {
+            renderMobileBoxShortcutModal()
+        }
    })
 
    $(document).on('click', '.resultDamage', function() {
        const index = $(this).attr('id').slice(-2)
        $(`#crit${index}`).click()
        $(this).toggleClass('crit-text')
+       syncResultCritToggle(index.charAt(0))
+   })
+
+   function syncResultCritToggle(side) {
+        var allChecked = [1, 2, 3, 4].every(function(index) {
+            return $(`#crit${side}${index}`).prop('checked')
+        })
+        $(`.result-crit-toggle[data-crit-side="${side}"]`)
+            .toggleClass('active', allChecked)
+            .attr('aria-pressed', allChecked ? 'true' : 'false')
+   }
+
+   $(document).on('change', '.move-crit', function() {
+        var id = $(this).attr('id') || ''
+        var side = id.charAt(4)
+        if (side === 'L' || side === 'R') {
+            syncResultCritToggle(side)
+        }
+   })
+
+   $(document).on('click', '.result-crit-toggle', function() {
+        var side = $(this).data('crit-side')
+        var shouldEnable = [1, 2, 3, 4].some(function(index) {
+            return !$(`#crit${side}${index}`).prop('checked')
+        })
+        for (var index = 1; index <= 4; index++) {
+            var critInput = $(`#crit${side}${index}`)
+            if (critInput.prop('checked') !== shouldEnable) {
+                critInput.click()
+            }
+        }
+        syncResultCritToggle(side)
    })
 
    $(document).on('click', '.cascade-effects input', function() {
@@ -596,10 +906,19 @@ $(document).ready(function() {
             $('.forme').last().val("Castform").change()
             $('#p2 .poke-sprite').attr('src', sprite.replace(cast_regx, "castform"))
         }     
-   })
+    })
 
     $(document).on('click', '.trainer-pok.left-side', function() {
+        if ($(this).closest('#mobile-box-shortcut-modal').length && Date.now() < mobileBoxShortcutSuppressClickUntil) {
+            return
+        }
         loadLeftSideSet($(this).attr('data-id'))
+        if ($(this).closest('#mobile-box-shortcut-modal').length) {
+            if (typeof closeMobileBoxShortcutModal === "function") {
+                closeMobileBoxShortcutModal()
+            }
+            setMobileSidePanel('p1')
+        }
     })
 
     $(document).on('click', '.tag-partner-preview .tag-partner-pok', function() {
@@ -640,6 +959,20 @@ $(document).ready(function() {
     })
 
     applyMidPanelLayoutPreference()
+    syncMobileSidePanelTabs()
+    syncMobileCalcStickyOffsets()
     $(window).on('resize.mid-panel-layout-toggle', syncMidPanelLayoutToggle)
+    $(window).on('resize.mobile-calc-sticky-offset orientationchange.mobile-calc-sticky-offset', syncMobileCalcStickyOffsets)
+    if (window.ResizeObserver && $('.move-result-group').length) {
+        new ResizeObserver(syncMobileCalcStickyOffsets).observe($('.move-result-group')[0])
+    }
+    if (window.MutationObserver && $('.move-result-group').length) {
+        new MutationObserver(syncMobileCalcStickyOffsets).observe($('.move-result-group')[0], {
+            childList: true,
+            characterData: true,
+            subtree: true
+        })
+    }
+    setTimeout(syncMobileCalcStickyOffsets, 0)
     syncOpposingKoButton()
 })

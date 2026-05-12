@@ -173,6 +173,17 @@
         });
     }
 
+    function setMainViewMenuOpen(isOpen) {
+        const mainTabs = document.getElementById("main-view-tabs");
+        const menuToggle = document.getElementById("main-view-menu-toggle");
+        if (!mainTabs || !menuToggle) {
+            return;
+        }
+        mainTabs.classList.toggle("main-view-tabs-open", isOpen);
+        menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        menuToggle.setAttribute("aria-label", isOpen ? "Close view menu" : "Open view menu");
+    }
+
     function setViewVisibility(viewName) {
         const calculatorView = document.getElementById("calculator-view");
         const dexView = document.getElementById("dex-view");
@@ -355,7 +366,34 @@
         document.querySelectorAll(".main-view-tab[data-view]").forEach((tab) => {
             tab.addEventListener("click", function () {
                 setMainPageView(this.getAttribute("data-view"));
+                setMainViewMenuOpen(false);
             });
+        });
+
+        const menuToggle = document.getElementById("main-view-menu-toggle");
+        if (menuToggle) {
+            menuToggle.addEventListener("click", function (event) {
+                event.stopPropagation();
+                setMainViewMenuOpen(this.getAttribute("aria-expanded") !== "true");
+            });
+        }
+
+        document.addEventListener("click", function (event) {
+            const mainTabs = document.getElementById("main-view-tabs");
+            const menuToggle = document.getElementById("main-view-menu-toggle");
+            if (!mainTabs || !menuToggle || menuToggle.getAttribute("aria-expanded") !== "true") {
+                return;
+            }
+            if (mainTabs.contains(event.target) || menuToggle.contains(event.target)) {
+                return;
+            }
+            setMainViewMenuOpen(false);
+        });
+
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                setMainViewMenuOpen(false);
+            }
         });
 
         window.addEventListener("popstate", function (event) {

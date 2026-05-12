@@ -1987,35 +1987,52 @@ $(".set-selector").change(function () {
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 	var shouldAdjustWeather = false
+	var selectedSet = setdex && setdex[pokemonName] ? setdex[pokemonName][setName] : null
+	var isTemporaryOpponentSet = $(this).hasClass('opposing') && selectedSet && selectedSet.isTemporaryOpponentSet
+
+	if ($(this).hasClass('opposing') && !isTemporaryOpponentSet && typeof removeDdexTemporaryOpponentSet === "function") {
+		removeDdexTemporaryOpponentSet()
+	}
 
 
 
 	var maybePartner = false
-	if (setName != 'Blank Set' && setdex[pokemonName] && typeof setdex[pokemonName][setName] != undefined) {
-		currentSetLevel = setdex[pokemonName][setName]["level"]
-		maybePartner = setdex[pokemonName][setName].partner 
+	if (setName != 'Blank Set' && selectedSet) {
+		currentSetLevel = selectedSet["level"]
+		maybePartner = selectedSet.partner
 	}
 
 	if ($(this).hasClass('opposing')) {
-		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName, maybePartner)
-		localStorage["right"] = fullSetName
-		var currentOpposingTrainerIdentity = getOpposingTrainerIdentity(fullSetName, CURRENT_TRAINER_POKS)
-		if (!initializing && lastOpposingTrainerIdentity && currentOpposingTrainerIdentity && lastOpposingTrainerIdentity !== currentOpposingTrainerIdentity) {
-			resetAllPlayerCustomSetStatusesToHealthy({
-				syncActiveUi: true
-			});
-		}
-		if (currentOpposingTrainerIdentity) {
-			lastOpposingTrainerIdentity = currentOpposingTrainerIdentity
-		}
+		if (isTemporaryOpponentSet) {
+			CURRENT_TRAINER_POKS = []
+			$(".nav-tag.next, .nav-tag.prev, .nav-tag.partner").hide().removeAttr('data-next')
+			$('#ai-tags').html("")
+			$('.opposing.trainer-pok-list').empty().removeClass('dual-trainer-preview')
+			$('#trainer-sprite').hide()
+			for (var tempAiIndex = 1; tempAiIndex <= 12; tempAiIndex++) {
+				$(`#ai${tempAiIndex}`).hide()
+			}
+		} else {
+			CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName, maybePartner)
+			localStorage["right"] = fullSetName
+			var currentOpposingTrainerIdentity = getOpposingTrainerIdentity(fullSetName, CURRENT_TRAINER_POKS)
+			if (!initializing && lastOpposingTrainerIdentity && currentOpposingTrainerIdentity && lastOpposingTrainerIdentity !== currentOpposingTrainerIdentity) {
+				resetAllPlayerCustomSetStatusesToHealthy({
+					syncActiveUi: true
+				});
+			}
+			if (currentOpposingTrainerIdentity) {
+				lastOpposingTrainerIdentity = currentOpposingTrainerIdentity
+			}
 
-		var trName = stripTrainerLevelPrefix(setName)
-		if (!prevTrainerName) {
-			prevTrainerName = trName
-		} else if (trName == prevTrainerName) {
-		} else if (prevTrainerName && prevTrainerName != trName && !partnerName) {
-			shouldAdjustWeather = true
-			prevTrainerName = trName
+			var trName = stripTrainerLevelPrefix(setName)
+			if (!prevTrainerName) {
+				prevTrainerName = trName
+			} else if (trName == prevTrainerName) {
+			} else if (prevTrainerName && prevTrainerName != trName && !partnerName) {
+				shouldAdjustWeather = true
+				prevTrainerName = trName
+			}
 		}
 
 
@@ -2024,7 +2041,9 @@ $(".set-selector").change(function () {
 		$("#p2 .current-hp").val(right_max_hp)//.change()
 
 		movePPs[fullSetName] ||= [];
-		refreshTagPartnerPreview()
+		if (!isTemporaryOpponentSet) {
+			refreshTagPartnerPreview()
+		}
 
 
 	} else {
@@ -2040,7 +2059,21 @@ $(".set-selector").change(function () {
 
 
 	if ($(this).hasClass('opposing')) {
-		if (setdex && setdex[pokemonName]) {
+		if (isTemporaryOpponentSet) {
+			$(".nav-tag.next, .nav-tag.prev, .nav-tag.partner").hide().removeAttr('data-next')
+			$('#ai-tags').html("")
+			$('.opposing.trainer-pok-list').empty().removeClass('dual-trainer-preview')
+			$('#trainer-sprite').hide()
+			for (var tempHiddenAiIndex = 1; tempHiddenAiIndex <= 12; tempHiddenAiIndex++) {
+				$(`#ai${tempHiddenAiIndex}`).hide()
+			}
+			$('#filter-move').html(`<option value="All Moves">All Moves</option>`)
+			if (selectedSet && Array.isArray(selectedSet.moves)) {
+				for (move of selectedSet.moves) {
+					$('#filter-move').append(`<option value="${move}">${move}</option>`)
+				}
+			}
+		} else if (setdex && setdex[pokemonName]) {
 			if (setName != "Blank Set") {
 				// var sprite = setdex[pokemonName][setName]["sprite"]
 				
@@ -2405,7 +2438,7 @@ $(".set-selector").change(function () {
 
 
 
-	if ($(this).hasClass('opposing')) {
+	if ($(this).hasClass('opposing') && !isTemporaryOpponentSet) {
 		let trainerName = getTrainerName(fullSetName)
 		let currentPartyData = getPartyData()
 
@@ -2421,7 +2454,7 @@ $(".set-selector").change(function () {
 			}			
 		}
 	}
-	if (consecutiveSetChangesOnAiTrainer >= 4) {
+	if (!isTemporaryOpponentSet && consecutiveSetChangesOnAiTrainer >= 4) {
 		let newSnapshot = getSnapshot()
 		if (!deepEqualJSON(newSnapshot, lastSentSnapshot)) {
 			if (localStorage.enableAnalytics == '1' && localStorage.randomized != '1') {	

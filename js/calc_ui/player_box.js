@@ -788,18 +788,21 @@ function sort_box_by_dex(attr) {
     mons.detach().appendTo(box);
 }
 
-function abv(s, containerSelector = '.player-party') {
+function abv(s, containerSelector = '.player-party', maxLength = 13, force = false) {
     if (!s) {
         return ""
+    }
+    if (s === "(No Move)") {
+        return s
     }
 
     var container = $(containerSelector)
     var containerWidth = container.width() || container.parent().width() || $('.player-party').width() || $('.trainer-poks').first().width() || 0
-    if ((containerWidth / s.length <= 50)) {
+    if (force || (containerWidth / s.length <= 50)) {
         if (s.split(" ")[1]) {
-            return (s.split(" ")[0][0] + " " + s.split(" ")[1]).slice(0,13)
+            return (s.split(" ")[0][0] + " " + s.split(" ").slice(1).join(" ")).slice(0,maxLength)
         } else {
-            return s.slice(0,13)
+            return s.slice(0,maxLength)
         }
         
     } else {
@@ -1016,7 +1019,7 @@ function buildBoxSpriteHTML(setId, highlights) {
     </div>`
 }
 
-function generateCompactPreviewHTML({ setData, speciesName, dataId, interactiveClass = "", containerSelector = ".player-party", showItem = true, showNature = true, showAbility = true }) {
+function generateCompactPreviewHTML({ setData, speciesName, dataId, interactiveClass = "", containerSelector = ".player-party", showItem = true, showMoves = true, showNature = true, showAbility = true }) {
     var sprite_name = getPreviewSpriteName(speciesName)
     var imageClass = interactiveClass ? ` ${interactiveClass}` : ""
     var pok = `<div class="trainer-pok-container">
@@ -1027,12 +1030,14 @@ function generateCompactPreviewHTML({ setData, speciesName, dataId, interactiveC
         pok += `<img class="trainer-pok-item" src="./img/items/${item_name}.png">`
     }
 
-    var moves = setData['moves'] || []
-    for (var i = 0; i < 4; i++) {
-        if (moves[i]) {
-            pok += `<div class="bp-info">${abv(moves[i].replace("Hidden Power", "HP"), containerSelector)}</div>`
-        } else {
-            pok += `<div class="bp-info"> - </div>`
+    if (showMoves) {
+        var moves = setData['moves'] || []
+        for (var i = 0; i < 4; i++) {
+            if (moves[i]) {
+                pok += `<div class="bp-info">${abv(moves[i].replace("Hidden Power", "HP"), containerSelector)}</div>`
+            } else {
+                pok += `<div class="bp-info"> - </div>`
+            }
         }
     }
 
@@ -1311,6 +1316,218 @@ function filter_box() {
                 findBoxPokemonBySetId(containers, set_id).addClass('active')
             }
         }
+    }
+}
+
+function syncMobileBoxShortcutSortControls() {
+    var sort = $('#mobile-box-shortcut-sort')
+    if (!sort.length) {
+        return
+    }
+
+    if (!sort.children().length) {
+        sort.html($('#box-sort-select').html())
+    }
+
+    sort.val(BOX_SORT_STATE.key)
+
+    var isAscending = BOX_SORT_STATE.direction !== "desc"
+    $('#mobile-box-shortcut-sort-direction')
+        .text(isAscending ? '↑' : '↓')
+        .toggleClass('desc', !isAscending)
+        .attr('title', isAscending ? 'Ascending' : 'Descending')
+        .attr('aria-label', `Toggle ${isAscending ? 'descending' : 'ascending'} sort`)
+}
+
+function renderMobileBoxShortcutParty() {
+    var destination = $('.mobile-box-shortcut-party')
+    if (!destination.length) {
+        return
+    }
+
+    destination.html("")
+    $('#mobile-box-shortcut-clear-party').prop('disabled', !Array.isArray(currentParty) || currentParty.length === 0)
+
+    if (!Array.isArray(currentParty) || currentParty.length === 0) {
+        destination.append('<div class="mobile-box-shortcut-empty">No party Pokemon yet. Drag a box Pokemon here to add one.</div>')
+        return
+    }
+
+    for (var i = 0; i < currentParty.length; i++) {
+        var speciesName = currentParty[i]
+        var slotOverride = getPartyPreviewSlotOverride(speciesName, i)
+        var setData = slotOverride || (setdex[speciesName] && setdex[speciesName]["My Box"])
+        if (!setData || isImportedEggSpecies(speciesName)) {
+            continue
+        }
+
+        destination.append(generateCompactPreviewHTML({
+            setData: setData,
+            speciesName: speciesName,
+            dataId: speciesName + " (My Box)",
+            interactiveClass: "left-side mobile-box-shortcut-party-pok",
+            containerSelector: ".mobile-box-shortcut-party",
+            showItem: true,
+            showMoves: false,
+            showNature: false,
+            showAbility: false
+        }))
+    }
+
+    if (!destination.children().length) {
+        destination.append('<div class="mobile-box-shortcut-empty">No party Pokemon yet. Drag a box Pokemon here to add one.</div>')
+    } else {
+        destination.find('.trainer-pok.left-side')
+            .attr('draggable', 'true')
+            .attr('title', 'Drag to Box')
+    }
+}
+
+function syncMobileBoxShortcutPartyState() {
+    localStorage.currentParty = Array.isArray(currentParty) ? currentParty : []
+
+    if (typeof clearPartyPreviewSlotOverrides === 'function') {
+        clearPartyPreviewSlotOverrides()
+    }
+    if (!Array.isArray(currentParty) || currentParty.length === 0) {
+        $('.player-party').html("").hide()
+        $('#clear-party').hide()
+        $('#edge').hide()
+        if (typeof refreshTagPartnerPreview === "function") {
+            refreshTagPartnerPreview()
+        }
+    } else if (typeof displayParty === "function") {
+        displayParty()
+    }
+    if (typeof renderMobileBoxShortcutModal === "function") {
+        renderMobileBoxShortcutModal()
+    }
+}
+
+function addMobileBoxShortcutSetToParty(setId) {
+    var speciesName = getBoxSpeciesNameFromSetId(setId)
+    if (!speciesName) {
+        return false
+    }
+
+    var setData = customSets && customSets[speciesName] && customSets[speciesName]["My Box"]
+        ? customSets[speciesName]["My Box"]
+        : setdex && setdex[speciesName] && setdex[speciesName]["My Box"]
+
+    if (!setData || isImportedEggSpecies(speciesName)) {
+        return false
+    }
+
+    if (!Array.isArray(currentParty)) {
+        currentParty = []
+    }
+
+    currentParty.push(speciesName)
+    currentParty = [...new Set(currentParty)]
+    syncMobileBoxShortcutPartyState()
+
+    return true
+}
+
+function removeMobileBoxShortcutSetFromParty(setId) {
+    var speciesName = getBoxSpeciesNameFromSetId(setId)
+    if (!speciesName || !Array.isArray(currentParty)) {
+        return false
+    }
+
+    var originalLength = currentParty.length
+    currentParty = currentParty.filter(function(entry) {
+        return entry !== speciesName
+    })
+    if (currentParty.length === originalLength) {
+        return false
+    }
+
+    syncMobileBoxShortcutPartyState()
+
+    return true
+}
+
+function clearMobileBoxShortcutParty() {
+    currentParty = []
+    syncMobileBoxShortcutPartyState()
+}
+
+function mobileBoxShortcutCardMatchesSearch(card, searchString) {
+    if (!searchString || searchString.length < 2) {
+        return true
+    }
+
+    var setId = $(card).attr('data-set-id') || $(card).find('.trainer-pok').attr('data-id') || ""
+    var speciesName = getBoxSpeciesNameFromSetId(setId)
+    var baseSpeciesName = speciesName
+
+    if (baseSpeciesName.includes("-Mega")) {
+        baseSpeciesName = baseSpeciesName.replace("-Mega-X", "").replace("-Mega-Y", "").replace("-Mega-D", "").replace("-Mega-O", "").replace("-Mega", "")
+    }
+
+    var chunks = [
+        setId,
+        speciesName,
+        customSets && customSets[speciesName] ? JSON.stringify(customSets[speciesName]) : "",
+        pokedex && pokedex[speciesName] ? JSON.stringify(pokedex[speciesName]) : "",
+        backup_data && backup_data.poks && backup_data.poks[speciesName] ? JSON.stringify(backup_data.poks[speciesName]) : ""
+    ]
+
+    try {
+        if (TITLE.includes("Imperium") && learnsets && learnsets[baseSpeciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]) {
+            chunks.push(JSON.stringify(learnsets[baseSpeciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]))
+        }
+    } catch {
+
+    }
+
+    return chunks.join(" ").toLowerCase().includes(searchString)
+}
+
+function filterMobileBoxShortcut() {
+    var searchString = ($('#mobile-box-shortcut-search').val() || "").toLowerCase()
+
+    $('.mobile-box-shortcut-poks .box-sort-card, .mobile-box-shortcut-megas .box-sort-card').each(function() {
+        var setId = $(this).attr('data-set-id') || ""
+        var speciesName = getBoxSpeciesNameFromSetId(setId)
+        var shouldHidePrevo = localStorage.hidePrevos == '1'
+            && typeof window.shouldHideImportedPrevo === "function"
+            && window.shouldHideImportedPrevo(speciesName, customSets)
+
+        $(this).toggle(!shouldHidePrevo && mobileBoxShortcutCardMatchesSearch(this, searchString))
+    })
+}
+
+function renderMobileBoxShortcutModal() {
+    var modal = $('#mobile-box-shortcut-modal')
+    if (!modal.length) {
+        return
+    }
+
+    syncMobileBoxShortcutSortControls()
+    renderMobileBoxShortcutParty()
+    get_box()
+
+    $('.mobile-box-shortcut-poks').html($('.player-poks .box-sort-card').clone())
+    $('.mobile-box-shortcut-megas').html($('.player-megas .box-sort-card').clone())
+    $('.mobile-box-shortcut-poks .trainer-pok.left-side, .mobile-box-shortcut-megas .trainer-pok.left-side')
+        .attr('draggable', 'true')
+        .attr('title', 'Drag to Party')
+    $('.mobile-box-shortcut-megas-wrapper').toggle($('.mobile-box-shortcut-megas .box-sort-card').length > 0)
+    filterMobileBoxShortcut()
+}
+
+function openMobileBoxShortcutModal() {
+    renderMobileBoxShortcutModal()
+    $('#mobile-box-shortcut-modal').prop('hidden', false)
+    $('body').addClass('romhack-browser-open')
+}
+
+function closeMobileBoxShortcutModal() {
+    $('#mobile-box-shortcut-modal').prop('hidden', true)
+    if ($('.romhack-browser-modal:not([hidden])').length === 0) {
+        $('body').removeClass('romhack-browser-open')
     }
 }
 

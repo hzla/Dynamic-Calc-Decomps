@@ -19,6 +19,53 @@ for (var i = 0; i < 4; i++) {
 
 var damageResults;
 
+function isMobileDamageDisplayViewport() {
+	return typeof window !== "undefined" && window.innerWidth <= 960;
+}
+
+function formatMobileDamagePercentNumber(value) {
+	var numberValue = Number(value);
+	if (!Number.isFinite(numberValue)) return value;
+	if (numberValue === 0) return "0";
+
+	var absoluteValue = Math.abs(numberValue);
+	var decimals = 0;
+	if (absoluteValue < 10) {
+		decimals = absoluteValue >= 1 ? 1 : Math.ceil(-Math.log10(absoluteValue)) + 1;
+	}
+
+	return numberValue.toFixed(Math.max(0, decimals)).replace(/\.?0+$/, "");
+}
+
+function formatMobileDamageDisplayText(text) {
+	if (!isMobileDamageDisplayViewport() || typeof text !== "string") return text;
+
+	return text
+		.replace(/(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)(%)/g, function (_match, min, max, percentSign) {
+			return formatMobileDamagePercentNumber(min) + " - " + formatMobileDamagePercentNumber(max) + percentSign;
+		})
+		.replace(/(\d+(?:\.\d+)?)(%)/g, function (_match, value, percentSign) {
+			return formatMobileDamagePercentNumber(value) + percentSign;
+		});
+}
+
+function setDamageResultText(selector, text) {
+	$(selector)
+		.attr("data-full-damage-text", text)
+		.text(formatMobileDamageDisplayText(text));
+}
+
+function refreshDamageResultTextForViewport() {
+	$(".resultDamage").each(function () {
+		var fullDamageText = $(this).attr("data-full-damage-text");
+		if (fullDamageText) {
+			$(this).text(formatMobileDamageDisplayText(fullDamageText));
+		}
+	});
+}
+
+$(window).on("resize.mobile-damage-display orientationchange.mobile-damage-display", refreshDamageResultTextForViewport);
+
 function isAirborne(mon) {
 	return (mon.hasItem("Air Balloon") || mon.hasAbility("Levitate") || mon.hasType("Flying")) ? true : false;
 }
@@ -119,18 +166,24 @@ function performCalculations() {
 		p1.maxDamages.sort(function (firstMove, secondMove) {
 			return secondMove.maxDamage - firstMove.maxDamage;
 		});
-		var p1MoveLabel = (p1.moves[i].originalName || p1.moves[i].name).replace("Hidden Power", "HP");
+		var p1MoveName = p1.moves[i].originalName || p1.moves[i].name;
+		var shouldAbbreviateMoveResults = isMobileDamageDisplayViewport();
+		var p1MoveLabel = shouldAbbreviateMoveResults && typeof abv === "function" ?
+			abv(p1MoveName.replace("Hidden Power", "HP"), ".move-result-group", 10, true) :
+			p1MoveName.replace("Hidden Power", "HP");
 		$(resultLocations[0][i].move + " + label").text(p1MoveLabel);
+		$(resultLocations[0][i].move + " + label").attr("title", p1MoveName);
 		
 
-		$(resultLocations[0][i].damage).text(result.moveDesc(notation));
+		var p1DamageText = result.moveDesc(notation);
 		var doublePowerMoves = ["Avalanche", "Payback", "Assurance", "Revenge", "Retaliate", "Stomping Tantrum"]
 		if (TITLE.includes("Cascade")) {
 			doublePowerMoves = doublePowerMoves.concat(["Thrash", "Temper Flare", "Seething Cold", "Uproar"])
 		}
 		if (doublePowerMoves.indexOf(p1.moves[i].name) != -1) {
-			$(resultLocations[0][i].damage).text(result.moveDesc(notation) + " (can double power)");
+			p1DamageText += " (can double power)";
 		}
+		setDamageResultText(resultLocations[0][i].damage, p1DamageText);
 
 		// P2
 		result = damageResults[1][i];
@@ -143,19 +196,22 @@ function performCalculations() {
 		p2.maxDamages.sort(function (firstMove, secondMove) {
 			return secondMove.maxDamage - firstMove.maxDamage;
 		});
-		var p2MoveLabel = (p2.moves[i].originalName || p2.moves[i].name).replace("Hidden Power", "HP");
+		var p2MoveName = p2.moves[i].originalName || p2.moves[i].name;
+		var p2MoveLabel = shouldAbbreviateMoveResults && typeof abv === "function" ?
+			abv(p2MoveName.replace("Hidden Power", "HP"), ".move-result-group", 10, true) :
+			p2MoveName.replace("Hidden Power", "HP");
 		$(resultLocations[1][i].move + " + label").text(p2MoveLabel);
-		$(resultLocations[1][i].damage).text(result.moveDesc(notation));
-
-		var dmgInfo = $(resultLocations[1][i].damage).text()
+		$(resultLocations[1][i].move + " + label").attr("title", p2MoveName);
+		var p2DamageText = result.moveDesc(notation);
 
 		if (doublePowerMoves.indexOf(p2.moves[i].name) != -1) {
-			$(resultLocations[1][i].damage).text($(resultLocations[1][i].damage).text()+ " (can double power)");
+			p2DamageText += " (can double power)";
 		}
 
 		if (["Counter", "Mirror Coat", "Destiny Bond"].indexOf(p2.moves[i].name) != -1) {
-			$(resultLocations[1][i].damage).text($(resultLocations[1][i].damage).text()+ " (variable dmg)");
+			p2DamageText += " (variable dmg)";
 		}
+		setDamageResultText(resultLocations[1][i].damage, p2DamageText);
 
 		// BOTH
 		var bestMove;
@@ -177,8 +233,8 @@ function performCalculations() {
 	}
 	bestResult.prop("checked", true);
 	bestResult.change();
-	$("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
-	$("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
+	$("#resultHeaderL .result-move-header-label").text(p1.name + "'s Moves");
+	$("#resultHeaderR .result-move-header-label").text(p2.name + "'s Moves");
 	highlightMoves()
 	if (typeof PlatinumMoveAiPreviewUI !== "undefined" && PlatinumMoveAiPreviewUI.refresh) {
 		PlatinumMoveAiPreviewUI.refresh();
@@ -202,7 +258,7 @@ $(".result-move").change(function () {
 				rest = summary.substring(newLine + 1);
 				summary = summary.substring(0, newLine);
 			}
-			$("#firstDmgValues").html("Possible damage amounts: (" + summary + ")");
+			$("#firstDmgValues").html("Rolls: (" + summary + ")");
 			if (rest !== "") $("#restDmgValues").html("(" + rest + ")");
 
 			if (rest.trim() === "") {

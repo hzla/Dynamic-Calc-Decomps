@@ -1522,6 +1522,179 @@ function isDsPackedBoxTitle(title) {
 	);
 }
 
+var DDEX_TEMP_OPPONENT_MARKER = "### DDEX_TEMP_OPPONENT v1";
+var ddexTemporaryOpponentSetRef = null;
+
+function isDdexTemporaryOpponentImportText(text) {
+	return typeof text === "string" && text.indexOf(DDEX_TEMP_OPPONENT_MARKER) !== -1;
+}
+
+function getDdexTemporaryOpponentBlock(text) {
+	var markerIndex = String(text || "").indexOf(DDEX_TEMP_OPPONENT_MARKER);
+	if (markerIndex < 0) {
+		return [];
+	}
+
+	var lines = String(text || "")
+		.slice(markerIndex + DDEX_TEMP_OPPONENT_MARKER.length)
+		.split(/\r?\n/);
+	var block = [];
+	var foundHeader = false;
+
+	for (var i = 0; i < lines.length; i++) {
+		var line = String(lines[i] || "").trim();
+		if (line === DDEX_TEMP_OPPONENT_MARKER) {
+			break;
+		}
+		if (!line) {
+			if (foundHeader) break;
+			continue;
+		}
+
+		foundHeader = true;
+		block.push(line);
+	}
+
+	return block;
+}
+
+function parseDdexTemporaryOpponentImport(text) {
+	var block = getDdexTemporaryOpponentBlock(text);
+	if (!block.length) {
+		return null;
+	}
+
+	var speciesName = findImportedSpeciesNameFromHeader(block[0]);
+	if (!speciesName || !pokedex[speciesName]) {
+		return null;
+	}
+
+	var parsed = {
+		speciesName: speciesName,
+		level: 100,
+		ability: "",
+		moves: [],
+	};
+
+	for (var i = 1; i < block.length; i++) {
+		var line = block[i];
+		var labelParts = line.split(":");
+		var label = labelParts[0] ? labelParts[0].trim() : "";
+		var value = labelParts.slice(1).join(":").trim();
+
+		if (label === "Level") {
+			var level = parseInt(value, 10);
+			if (Number.isFinite(level) && level > 0) {
+				parsed.level = level;
+			}
+			continue;
+		}
+
+		if (label === "Ability") {
+			parsed.ability = value;
+			if (abilityChanges[TITLE] && (abilityChanges[TITLE][cleanString(parsed.ability)] || abilityChanges[TITLE][parsed.ability])) {
+				parsed.ability = abilityChanges[TITLE][parsed.ability] || ABILITIES_BY_ID[gen][abilityChanges[TITLE][cleanString(parsed.ability)]].name;
+			}
+			continue;
+		}
+
+		if (line[0] === "-" && parsed.moves.length < 4) {
+			var move = line.substr(1).trim().replace("[", "").replace("]", "").replace("  ", " ");
+			if (!move) continue;
+			if (moveChanges[TITLE] && moveChanges[TITLE][move]) {
+				move = moveChanges[TITLE][move];
+			}
+			if (backup_data["move_replacements"]) {
+				var moveId = cleanString(move);
+				if (backup_data["move_replacements"][moveId] && MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]]) {
+					move = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]].name;
+				}
+			}
+			if (!TITLE.includes("Sterling") && !TITLE.includes("Maximum") && !TITLE.includes("Ancestral")) {
+				move = move.replace("HP ", "Hidden Power");
+			}
+			parsed.moves.push(move);
+		}
+	}
+
+	return parsed;
+}
+
+function removeDdexTemporaryOpponentSet() {
+	if (!ddexTemporaryOpponentSetRef || !setdex) {
+		return;
+	}
+
+	var speciesName = ddexTemporaryOpponentSetRef.speciesName;
+	var setName = ddexTemporaryOpponentSetRef.setName;
+	if (setdex[speciesName] && setdex[speciesName][setName] && setdex[speciesName][setName].isTemporaryOpponentSet) {
+		delete setdex[speciesName][setName];
+		if (Object.keys(setdex[speciesName]).length === 0) {
+			delete setdex[speciesName];
+		}
+	}
+
+	ddexTemporaryOpponentSetRef = null;
+}
+
+function buildDdexTemporaryOpponentSet(parsed) {
+	var zeroEvs = { hp: 0, at: 0, df: 0, sa: 0, sd: 0, sp: 0, sl: 0 };
+	var perfectIvs = { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31, sl: 31 };
+
+	return {
+		level: parsed.level,
+		ability: parsed.ability || (pokedex[parsed.speciesName].abilities && pokedex[parsed.speciesName].abilities[0]) || "",
+		moves: parsed.moves.slice(0, 4),
+		nature: "Hardy",
+		item: "",
+		evs: zeroEvs,
+		ivs: perfectIvs,
+		status: "Healthy",
+		isCustomSet: true,
+		isTemporaryOpponentSet: true,
+	};
+}
+
+function selectDdexTemporaryOpponent(speciesName, setName) {
+	var fullSetName = speciesName + " (" + setName + ")";
+	var selector = $("#p2 .set-selector");
+
+	selector.val(fullSetName);
+	if (typeof selector.select2 === "function") {
+		selector.select2("data", {
+			id: fullSetName,
+			text: fullSetName,
+			pokemon: speciesName,
+			set: setName,
+			isTemporaryOpponentSet: true,
+		});
+	}
+	selector.change();
+	$("#p2 .set-selector").prev(".select2-container").find(".select2-chosen").text(fullSetName);
+}
+
+function importDdexTemporaryOpponent(text) {
+	var parsed = parseDdexTemporaryOpponentImport(text);
+	if (!parsed) {
+		alert("No temporary ddex opponent imported, please check your syntax and try again");
+		return false;
+	}
+
+	var setName = "DDEX Wild Lv " + parsed.level;
+	removeDdexTemporaryOpponentSet();
+	if (!setdex[parsed.speciesName]) {
+		setdex[parsed.speciesName] = {};
+	}
+	setdex[parsed.speciesName][setName] = buildDdexTemporaryOpponentSet(parsed);
+	ddexTemporaryOpponentSetRef = {
+		speciesName: parsed.speciesName,
+		setName: setName,
+	};
+
+	selectDdexTemporaryOpponent(parsed.speciesName, setName);
+	return true;
+}
+
 function looksLikeImportableShowdownText(text) {
 	if (typeof text !== "string" || !text.trim() || isValidJSON(text)) {
 		return false;
@@ -2041,6 +2214,11 @@ function persistTrainerIdFromImportedText(rows) {
 }
 
 function addSets(pokes, name) {
+	if (isDdexTemporaryOpponentImportText(pokes)) {
+		importDdexTemporaryOpponent(pokes);
+		return;
+	}
+
 	var queuedDeadMons = [];
 	var queuedSource = "import";
 	var queuedReplaceDeadMons = false;
