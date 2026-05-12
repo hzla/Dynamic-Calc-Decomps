@@ -51,6 +51,31 @@ function initConsole() {
         poks.removeClass('faster')
         monHighlights = {"killers": [], "defenders": [], "faster": [], "baiters": []} 
       },
+      moveai: function(value) {
+        if (typeof window.moveAiPreview !== "function") {
+          this.echo("Move AI Preview is unavailable.")
+          return
+        }
+
+        var mode = typeof value === "undefined" ? "toggle" : String(value).toLowerCase()
+        var next
+        if (["on", "enable", "enabled", "true", "1"].includes(mode)) {
+          next = true
+        } else if (["off", "disable", "disabled", "false", "0"].includes(mode)) {
+          next = false
+        } else {
+          next = "toggle"
+        }
+
+        var isEnabled = window.moveAiPreview(next)
+        this.echo("Move AI Preview " + (isEnabled ? "enabled" : "disabled") + ".")
+        if (isEnabled && typeof window.moveAiPreviewStatus === "function") {
+          var status = window.moveAiPreviewStatus()
+          if (!status.panelVisible) {
+            this.echo("Hidden: " + status.reason + ".")
+          }
+        }
+      },
       // show mons that live all rolls of specified move or current most dmg move of current pokemon
       // matches first move that contains search string ignoring capitalization
       // first argument can be an integer which determines how many times the move will hit
@@ -293,8 +318,6 @@ function getHitByMoveFromArgs(args) {
     }
   }
 }
-
-
 
 
 

@@ -180,6 +180,9 @@ function performCalculations() {
 	$("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
 	$("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
 	highlightMoves()
+	if (typeof PlatinumMoveAiPreviewUI !== "undefined" && PlatinumMoveAiPreviewUI.refresh) {
+		PlatinumMoveAiPreviewUI.refresh();
+	}
 
 }
 

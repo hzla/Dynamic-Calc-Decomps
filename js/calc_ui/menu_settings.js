@@ -186,10 +186,30 @@ function shouldImportPartyPreview() {
   return localStorage.importPartyPreview != '0'
 }
 
+function getMoveAiPreviewStorageKey(title) {
+    return "calcMoveAiPreview:" + (title || "NONE")
+}
+
+function getMoveAiPreviewSettingEnabled() {
+    if (typeof MoveAiPreviewSettings !== "undefined" && MoveAiPreviewSettings.getEnabled) {
+        return MoveAiPreviewSettings.getEnabled()
+    }
+    var title = typeof TITLE === "string" ? TITLE : "NONE"
+    return localStorage.getItem(getMoveAiPreviewStorageKey(title)) === "1"
+}
+
+function setMoveAiPreviewSettingEnabled(enabled) {
+    if (typeof MoveAiPreviewSettings !== "undefined" && MoveAiPreviewSettings.setEnabled) {
+        return MoveAiPreviewSettings.setEnabled(enabled)
+    }
+    var title = typeof TITLE === "string" ? TITLE : "NONE"
+    localStorage.setItem(getMoveAiPreviewStorageKey(title), enabled ? "1" : "0")
+    return enabled
+}
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -248,6 +268,9 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.switchAiInfo == '1') {
         $('#toggle-switch-ai-info input').prop('checked', true)
     }
+    if (getMoveAiPreviewSettingEnabled()) {
+        $('#toggle-move-ai-preview input').prop('checked', true)
+    }
     if (localStorage.showTrainerPreviewExpBars == '1') {
         $('#toggle-exp-bars input').prop('checked', true)
     }
@@ -279,6 +302,10 @@ function setSettingsTogglesFromLocalStorage() {
     applyAutoImportMegasVisibility()
     applySwitchPreviewVisibility()
     applySwitchAiInfoVisibility()
+    applyMoveAiPreviewVisibility()
+    if (typeof MoveAiPreviewSettings !== "undefined" && MoveAiPreviewSettings.syncToggle) {
+        MoveAiPreviewSettings.syncToggle()
+    }
     applyInvertTypesVisibility()
     applyTrainerPreviewExpBarVisibility()
     applyHideCurrentAiMonVisibility()
@@ -437,6 +464,21 @@ function applySwitchAiInfoVisibility() {
     $('#toggle-switch-ai-info').toggle(canShowSwitchAiInfoToggle())
 }
 
+function canShowMoveAiPreviewToggle() {
+    return Boolean(typeof TITLE === "string" && TITLE !== "Platinum Kaizo" && settings && settings.damageGen === 4)
+}
+
+function applyMoveAiPreviewVisibility() {
+    var isVisible = canShowMoveAiPreviewToggle()
+    $('#toggle-move-ai-preview').toggle(isVisible)
+    if (!isVisible) {
+        $('#toggle-move-ai-preview input').prop('checked', false)
+        if (typeof TITLE === "string" && TITLE === "Platinum Kaizo") {
+            setMoveAiPreviewSettingEnabled(false)
+        }
+    }
+}
+
 function canShowInvertTypesToggle() {
     if (typeof canUseInvertTypesSetting === "function") {
         return canUseInvertTypesSetting()
@@ -544,6 +586,21 @@ $('#toggle-switch-ai-info .slider').click(function(){
         localStorage.switchAiInfo = nextValue ? '1' : '0'
     }
     refresh_next_in()
+})
+
+$('#toggle-move-ai-preview input').on('change', function(){
+    if (!canShowMoveAiPreviewToggle()) {
+        $('#toggle-move-ai-preview input').prop('checked', false)
+        if (typeof TITLE === "string" && TITLE === "Platinum Kaizo") {
+            setMoveAiPreviewSettingEnabled(false)
+        }
+        return
+    }
+    var isEnabled = setMoveAiPreviewSettingEnabled($(this).prop('checked'))
+    $('#toggle-move-ai-preview input').prop('checked', isEnabled)
+    if (typeof PlatinumMoveAiPreviewUI !== "undefined" && PlatinumMoveAiPreviewUI.refresh) {
+        PlatinumMoveAiPreviewUI.refresh()
+    }
 })
 
 $('#toggle-exp-bars .slider').click(function(){

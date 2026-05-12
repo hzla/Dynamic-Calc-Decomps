@@ -1264,7 +1264,7 @@ function updateBoxPKMN(edge=false, speciesNameOverride=false) {
 
     // edge exp
 
-    decryptedData = updatePKMNLevel(decryptedData, boxPokData["exp_index"], expTable, level, edge)
+    decryptedData = updatePKMNLevel(decryptedData, boxPokData["exp_index"], expTable, level, edge, selected)
     decryptedData = updatePKMNProps(decryptedData, boxPokData["exp_index"], boxPokData["moves_index"])
 
     setPKMNCheckSum(decryptedData, boxPokData["offset"])
@@ -1277,7 +1277,7 @@ function updateBoxPKMN(edge=false, speciesNameOverride=false) {
     return true
 }
 
-function updatePKMNLevel(decryptedData, expIndex, expTable, level, edge=false) {
+function updatePKMNLevel(decryptedData, expIndex, expTable, level, edge=false, speciesName=false) {
     
     if (edge) {
         // get target exp from exp tables
@@ -1287,7 +1287,8 @@ function updatePKMNLevel(decryptedData, expIndex, expTable, level, edge=false) {
         decryptedData[expIndex] = desiredExp & 0xFFFF
         decryptedData[expIndex + 1] = (desiredExp >>> 16) & 0xFFFF  
         
-        changelog += `<p>${speciesName} edged to level ${level + 1}</p>`    
+        var selected = speciesName || getSaveSyncSpeciesName()
+        changelog += `<p>${selected} edged to level ${level + 1}</p>`    
     } else {
         level = level - 1
         var desiredExp = expTable[level]
@@ -1408,7 +1409,7 @@ function updatePartyPKMN(edge=false, speciesNameOverride=false) {
     }
 
 
-    savParty[partyIndex] = updatePKMNLevel(savParty[partyIndex], partyExpIndexes[partyIndex], expTables[partyExpTables[partyIndex]], level, edge)
+    savParty[partyIndex] = updatePKMNLevel(savParty[partyIndex], partyExpIndexes[partyIndex], expTables[partyExpTables[partyIndex]], level, edge, speciesName)
     
     decryptedData = savParty[partyIndex]
     

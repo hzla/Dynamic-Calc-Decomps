@@ -57,6 +57,7 @@
     var BUG_REPORT_STORAGE_PREFIXES = [
         "calcSwitchPreview:",
         "calcSwitchAiInfo:",
+        "calcMoveAiPreview:",
         "calcPhysSpecSplit:",
         "calcInvertTypes:",
         "calcDevConfig:"
