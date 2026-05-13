@@ -2031,6 +2031,7 @@ $(".set-selector").change(function () {
 			} else if (trName == prevTrainerName) {
 			} else if (prevTrainerName && prevTrainerName != trName && !partnerName) {
 				shouldAdjustWeather = true
+				clearField({ preserveFormat: true, preserveWeather: true });
 				prevTrainerName = trName
 			}
 		}
@@ -3180,15 +3181,26 @@ $(".notation").change(function () {
 	notation = $(this).val();
 });
 
-function clearField() {
-	$("#singles-format").prop("checked", true);
-	$("#doubles-format").prop("checked", false);
-	$("#clear").prop("checked", true);
-	$("#clear-cascade").prop("checked", true);
-	$("#gscClear").prop("checked", true);
+function clearField(options) {
+	options = options || {};
+	if (!options.preserveFormat) {
+		$("#singles-format").prop("checked", true);
+		$("#doubles-format").prop("checked", false);
+	}
+	if (!options.preserveWeather) {
+		$("#clear").prop("checked", true);
+		$("#clear-cascade").prop("checked", true);
+		$("#gscClear").prop("checked", true);
+	}
 	$("#magicroom").prop("checked", false);
 	$("#wonderroom").prop("checked", false);
 	$("#gravity").prop("checked", false);
+	$("#inverse").prop("checked", false);
+	$("#shadowy-veil").prop("checked", false);
+	$("#tablets-of-ruin").prop("checked", false);
+	$("#vessel-of-ruin").prop("checked", false);
+	$("#sword-of-ruin").prop("checked", false);
+	$("#beads-of-ruin").prop("checked", false);
 	$("#srL").prop("checked", false);
 	$("#srR").prop("checked", false);
 	$("#spikesL0").prop("checked", true);
@@ -3237,6 +3249,14 @@ function clearField() {
 	$("#powerSpotR").prop("checked", false);
 	$("#switchingL").prop("checked", false);
 	$("#switchingR").prop("checked", false);
+	$("#AtkL").prop("checked", false);
+	$("#AtkR").prop("checked", false);
+	$("#DefL").prop("checked", false);
+	$("#DefR").prop("checked", false);
+	$("#SpeL").prop("checked", false);
+	$("#SpeR").prop("checked", false);
+	$("#SpecL").prop("checked", false);
+	$("#SpecR").prop("checked", false);
 	$("input:checkbox[name='terrain']").prop("checked", false);
 }
 

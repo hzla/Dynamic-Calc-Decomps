@@ -5488,6 +5488,17 @@ table.field {
 }
 
 @media (min-width: 961px) and (max-width: 1439px) {
+    .header-settings.app-header-shell .title-text {
+        display: flex;
+        align-items: center;
+        flex: 0 0 auto;
+        order: 1;
+    }
+
+    .header-settings.app-header-shell #lvl-cap {
+        flex: 0 0 auto;
+    }
+
     #mid-panel-layout-toggle {
         display: block;
     }
