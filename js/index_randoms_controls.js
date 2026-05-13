@@ -136,6 +136,9 @@ function performCalculations() {
 	if (p1.stats.spe > p2.stats.spe) {
 		p1info.find(".sp .totalMod").css('color', '#8be9fd')
 		p2info.find(".sp .totalMod").css('color', '#ff5555')
+	} else if (p1.stats.spe === p2.stats.spe) {
+		p1info.find(".sp .totalMod").css('color', '#f0cf63')
+		p2info.find(".sp .totalMod").css('color', '#f0cf63')
 	} else {
 		p2info.find(".sp .totalMod").css('color', '#8be9fd')
 		p1info.find(".sp .totalMod").css('color', '#ff5555')
