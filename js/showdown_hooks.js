@@ -489,7 +489,7 @@ $(document).ready(function() {
         }
     })
 
-    $(document).on('input change blur', '#mobile-box-shortcut-lvl-cap', function() {
+    $(document).on('input change blur', '#mobile-box-shortcut-lvl-cap, #box-lvl-cap, #panel-lvl-cap', function() {
         var value = $(this).val()
         $('#lvl-cap').val(value)
         localStorage.lvlCap = value
@@ -502,7 +502,7 @@ $(document).ready(function() {
         }
     })
 
-    $(document).on('contextmenu', '#mobile-box-shortcut-lvl-cap', function(e) {
+    $(document).on('contextmenu', '#mobile-box-shortcut-lvl-cap, #box-lvl-cap, #panel-lvl-cap', function(e) {
         e.preventDefault()
         if (typeof setBoxToLevelCap === "function") {
             setBoxToLevelCap()
@@ -981,6 +981,15 @@ $(document).ready(function() {
     applyMidPanelLayoutPreference()
     syncMobileSidePanelTabs()
     syncMobileCalcStickyOffsets()
+    if (typeof syncMobileBoxShortcutLevelCap === "function") {
+        syncMobileBoxShortcutLevelCap()
+        if (window.MutationObserver && $('#lvl-cap').length) {
+            new MutationObserver(syncMobileBoxShortcutLevelCap).observe($('#lvl-cap')[0], {
+                attributes: true,
+                attributeFilter: ['style', 'class', 'hidden']
+            })
+        }
+    }
     $(window).on('resize.mid-panel-layout-toggle', syncMidPanelLayoutToggle)
     $(window).on('resize.mobile-calc-sticky-offset orientationchange.mobile-calc-sticky-offset', syncMobileCalcStickyOffsets)
     if (window.ResizeObserver && $('.move-result-group').length) {

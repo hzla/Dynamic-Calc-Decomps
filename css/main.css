@@ -484,13 +484,39 @@ input[type="file"] {
 
 .header-settings.app-header-shell .title-text {
     position: static;
-    display: flex;
+    display: none !important;
     align-items: center;
     gap: 8px;
     margin: 0;
     height: auto;
     order: 1;
     padding-right: 0;
+}
+
+.level-cap-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: nowrap;
+}
+
+.level-cap-row #levelL1,
+#panel-lvl-cap {
+    box-sizing: border-box;
+    width: 3em;
+    height: auto;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 2px;
+    background: rgba(24, 24, 24, 0.8);
+    color: #f1f1f1;
+    font-size: 18px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+#panel-lvl-cap[hidden] {
+    display: none;
 }
 
 .header-settings.app-header-shell #rom-title {
@@ -3148,6 +3174,23 @@ table td {
     padding-left: 10px;
 }
 
+#box-lvl-cap {
+    box-sizing: border-box;
+    flex: 0 0 58px;
+    width: 58px;
+    height: 26px;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 2px;
+    background: rgba(24, 24, 24, 0.8);
+    color: #f1f1f1;
+    font-size: 16px;
+    text-align: center;
+}
+
+#box-lvl-cap[hidden] {
+    display: none;
+}
+
 #box-sort-select,
 #box-sort-direction {
     box-sizing: border-box;
@@ -3214,9 +3257,13 @@ table td {
     }
 
     #search-box {
-        flex: 1 1 100%;
+        flex: 1 1 calc(100% - 68px);
         min-width: 0;
         max-width: none;
+    }
+
+    #box-lvl-cap {
+        flex: 0 0 58px;
     }
 
     #box-sort-select {
@@ -4872,6 +4919,79 @@ table.field {
 
 }
 
+@media (min-width: 1440px) and (max-width: 1540px) {
+    .main-view-menu-toggle {
+        display: none !important;
+    }
+
+    .romhack-modal-label-full {
+        display: inline;
+    }
+
+    .romhack-modal-label-short {
+        display: none;
+    }
+
+    #main-view-tabs {
+        position: static;
+        top: auto;
+        right: auto;
+        z-index: auto;
+        display: flex;
+        width: 100%;
+        min-width: 0;
+        max-height: none;
+        overflow: visible;
+        flex: 1 1 520px;
+        flex-direction: row;
+        align-items: center;
+        gap: 4px;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    #main-view-tabs.main-view-tabs-hidden {
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    #main-view-tabs.main-view-tabs-open {
+        display: flex;
+    }
+
+    .main-view-tabs-primary,
+    #main-view-version-tabs,
+    .dev-data-controls {
+        width: auto;
+        min-width: 0;
+        flex-direction: row;
+        align-items: center;
+        gap: 4px;
+    }
+
+    #main-view-version-tabs {
+        margin-left: auto;
+    }
+
+    .main-view-tab,
+    .main-view-version-link {
+        width: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header-settings.app-header-shell .title-text {
+        display: flex;
+        align-items: center;
+        flex: 0 0 auto;
+        order: 1;
+    }
+
+    .header-settings.app-header-shell #lvl-cap {
+        flex: 0 0 auto;
+    }
+}
+
 @media (width <= 960px) {
   .move-result-group {
     --mobile-move-result-column: 48%;
@@ -5488,6 +5608,66 @@ table.field {
 }
 
 @media (min-width: 961px) and (max-width: 1439px) {
+    .main-view-menu-toggle {
+        display: none !important;
+    }
+
+    .romhack-modal-label-full {
+        display: inline;
+    }
+
+    .romhack-modal-label-short {
+        display: none;
+    }
+
+    #main-view-tabs {
+        position: static;
+        top: auto;
+        right: auto;
+        z-index: auto;
+        display: flex;
+        width: 100%;
+        min-width: 0;
+        max-height: none;
+        overflow: visible;
+        flex: 1 1 520px;
+        flex-direction: row;
+        align-items: center;
+        gap: 4px;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    #main-view-tabs.main-view-tabs-hidden {
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    #main-view-tabs.main-view-tabs-open {
+        display: flex;
+    }
+
+    .main-view-tabs-primary,
+    #main-view-version-tabs,
+    .dev-data-controls {
+        width: auto;
+        min-width: 0;
+        flex-direction: row;
+        align-items: center;
+        gap: 4px;
+    }
+
+    #main-view-version-tabs {
+        margin-left: auto;
+    }
+
+    .main-view-tab,
+    .main-view-version-link {
+        width: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
     .header-settings.app-header-shell .title-text {
         display: flex;
         align-items: center;
@@ -5545,5 +5725,96 @@ table.field {
     .panel-wrapper.mid-panel-bottom-layout .field-info,
     .panel-wrapper.mid-panel-bottom-layout .poke-import {
         max-width: 100%;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1540px) {
+    .header-settings.app-header-shell {
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header-settings.app-header-shell #rom-title {
+        order: 0;
+        flex: 1 1 260px;
+        width: auto;
+        min-width: 180px;
+        max-width: 34vw;
+        margin-left: 0;
+        font-size: clamp(24px, 2vw, 32px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .header-settings.app-header-shell .title-text {
+        order: 1;
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center;
+    }
+
+    .header-settings.app-header-shell .romhack-modal-trigger {
+        order: 2;
+        flex: 0 0 auto;
+        min-height: 40px;
+        padding: 0 14px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    #main-view-tabs {
+        order: 3;
+        position: static;
+        display: flex;
+        flex: 0 1 auto;
+        width: auto;
+        min-width: 0;
+        max-height: none;
+        overflow: visible;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 4px;
+        margin-left: 0;
+        white-space: nowrap;
+    }
+
+    .main-view-tabs-primary,
+    #main-view-version-tabs,
+    .dev-data-controls {
+        width: auto;
+        min-width: 0;
+        flex: 0 0 auto;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 4px;
+    }
+
+    #main-view-version-tabs {
+        margin-left: 8px;
+    }
+
+    .main-view-tab,
+    .main-view-version-link {
+        width: auto;
+        flex: 0 0 auto;
+        padding: 10px 14px;
+        font-size: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main-view-menu-toggle {
+        display: none !important;
+    }
+
+    .header-settings.app-header-shell #open-menu {
+        order: 99;
+        flex: 0 0 auto;
+        width: 40px;
+        height: 40px;
+        margin-left: auto;
     }
 }

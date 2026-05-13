@@ -220,6 +220,9 @@ function syncBoxSortControls() {
         .toggleClass('desc', !isAscending)
         .attr('title', isAscending ? 'Ascending' : 'Descending')
         .attr('aria-label', `Toggle ${isAscending ? 'descending' : 'ascending'} sort`)
+    if (typeof syncMobileBoxShortcutLevelCap === "function") {
+        syncMobileBoxShortcutLevelCap()
+    }
 }
 
 function setBoxSortState(nextKey, nextDirection) {
@@ -1342,15 +1345,23 @@ function syncMobileBoxShortcutSortControls() {
 function syncMobileBoxShortcutLevelCap() {
     var source = $('#lvl-cap')
     var wrapper = $('.mobile-box-shortcut-level-cap')
-    var input = $('#mobile-box-shortcut-lvl-cap')
-    if (!source.length || !wrapper.length || !input.length) {
+    var mobileInput = $('#mobile-box-shortcut-lvl-cap')
+    var boxInput = $('#box-lvl-cap')
+    var panelInput = $('#panel-lvl-cap')
+    var levelLabel = $('#levelL1Label')
+    if (!source.length) {
         return
     }
 
     var shouldShow = source.css('display') !== 'none'
     wrapper.prop('hidden', !shouldShow)
+    boxInput.prop('hidden', !shouldShow)
+    panelInput.prop('hidden', !shouldShow)
+    levelLabel.text(shouldShow ? 'Level/Cap' : 'Level')
     if (shouldShow) {
-        input.val(source.val())
+        mobileInput.val(source.val())
+        boxInput.val(source.val())
+        panelInput.val(source.val())
     }
 }
 
