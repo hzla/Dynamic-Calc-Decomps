@@ -77205,7 +77205,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naughty",
                 "moves": [
                     "Fake Out",
                     "U-turn",
@@ -77737,7 +77737,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Timid",
                 "moves": [
                     "Counter",
                     "Mirror Coat",
@@ -77799,7 +77799,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Bold",
                 "moves": [
                     "Bug Bite",
                     "Poison Fang",
@@ -77861,7 +77861,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Quirky",
                 "moves": [
                     "Brine",
                     "Recover",
