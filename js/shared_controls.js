@@ -2759,8 +2759,8 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		var pokemonMoves = [];
 		for (var i = 0; i < 4; i++) {
 
-			moveName = set.moves[i];
-			var pokmove = new calc.Move(gen, moves[moveName] ? moveName : "(No Move)", {ability: ability, item: item})
+			var moveName = set.moves[i];
+			var pokmove = new calc.Move(gen, normalizeMoveNameForCalc(moveName), {ability: ability, item: item})
 			pokemonMoves.push(pokmove);
 		}
 
@@ -2909,12 +2909,26 @@ function getGender(gender) {
 	return 'F';
 }
 
+function normalizeMoveNameForCalc(moveName) {
+	if (!moveName || moveName === "-" || moveName === "(No Move)") {
+		return "(No Move)";
+	}
+
+	if (typeof moves !== "undefined" && moves && !moves[moveName]) {
+		return "(No Move)";
+	}
+
+	return moveName;
+}
+
 function getMoveDetails(moveInfo, species, ability, item, useMax, moveName=false) {
 	if (moveName) {
 
 	} else {
 		var moveName = moveInfo.find("select.move-selector").val();
 	}
+
+	moveName = normalizeMoveNameForCalc(moveName);
 
 	
 	var isZMove = gen > 6 && moveInfo.find("input.move-z").prop("checked");

@@ -489,9 +489,15 @@ function calculate_probabilities(results) {
 function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=true) {
 	var results = [[], []];
 	for (var i = 0; i < 4; i++) {
-		if (p2.moves[i] == "(No Move)" || p2.moves[i].name == "Smokescreen") {
+		var p2MoveName = p2.moves[i] && p2.moves[i].name;
+		var p2OriginalMoveName = p2.moves[i] && p2.moves[i].originalName;
+		var isEmptyMove = !p2.moves[i] || p2MoveName == "(No Move)" || p2OriginalMoveName == "(No Move)";
+		var isUnknownMove = !isEmptyMove && !moves[p2OriginalMoveName] && !moves[p2MoveName];
+
+		if (isEmptyMove || isUnknownMove || p2MoveName == "Smokescreen") {
 			p2.moves[i].name = "Growl"
 			p2.moves[i].category = "Status"
+			p2.moves[i].type = p2.moves[i].type || "Normal"
 		} else {
 			try {
 				p2.moves[i].category = moves[p2.moves[i].originalName]["category"]
