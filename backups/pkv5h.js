@@ -153700,7 +153700,7 @@ backup_data = {
             "basePower": 0,
             "pp": 3,
             "acc": 0,
-            "type": "Fairy",
+            "type": "???",
             "category": "Status",
             "priority": 0,
             "e_id": 109
@@ -154699,7 +154699,7 @@ backup_data = {
             "basePower": 1,
             "pp": 5,
             "acc": 100,
-            "type": "Fairy",
+            "type": "???",
             "category": "Physical",
             "priority": 0,
             "e_id": 189
@@ -155940,7 +155940,7 @@ backup_data = {
             "basePower": 0,
             "pp": 1,
             "acc": 0,
-            "type": "Fairy",
+            "type": "???",
             "category": "Status",
             "priority": 0,
             "e_id": 53
