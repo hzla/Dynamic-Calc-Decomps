@@ -84,7 +84,7 @@ moveChanges = {
 		"Swallow": "Hidden Power Fighting"
 	},
 
-	'Blaze Black 2/Volt White 2 Redux 1.4':
+	'Blaze Black 2/Volt White 2 Redux':
 
 		{"Sand Tomb": "Accelerock",
 		"Horn Drill": "Boomburst",

@@ -5,9 +5,24 @@ const dexBridgeSlots = {
 	modal: { ready: false, pendingFragment: '', pendingReason: '' }
 };
 let dexBridgeRequestCounter = 0;
+const dexGameIdsByTitle = {
+	'Blaze Black 2/Volt White 2 Redux': 'blazeblack2redux'
+};
+
+function getDexGameIdForTitle(title) {
+	if (typeof title !== 'string' || !title) {
+		return '';
+	}
+
+	if (dexGameIdsByTitle[title]) {
+		return dexGameIdsByTitle[title];
+	}
+
+	return cleanString(title);
+}
 
 function getDexGameQuery() {
-	const gameId = cleanString(TITLE);
+	const gameId = getDexGameIdForTitle(TITLE);
 	return gameId ? `game=${gameId}` : '';
 }
 
@@ -21,7 +36,7 @@ function withDexGameContext(path, options) {
 	const routeParts = route.split('?');
 	const routePath = routeParts.shift() || '';
 	const params = new URLSearchParams(routeParts.join('?'));
-	let gameId = cleanString(TITLE);
+	let gameId = getDexGameIdForTitle(TITLE);
 
 	if (gameId.includes('pokemonnull')) {
 		gameId = 'pokemonnull';

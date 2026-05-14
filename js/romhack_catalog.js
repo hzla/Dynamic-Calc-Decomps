@@ -32,10 +32,10 @@
         },
         "blaze-black-2": {
             id: "blaze-black-2",
-            title: "Blaze Black 2",
+            title: "Blaze Black 2 Redux",
             coverImage: "./img/boxart/blazeblack2redux.webp",
             description: "",
-            sourceTitle: "Blaze Black 2/Volt White 2",
+            sourceTitle: "Blaze Black 2/Volt White 2 Redux",
             variants: [
                 {
                     label: "Original",
@@ -45,13 +45,13 @@
                 },
                 {
                     label: "Redux",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=945a33720dbd6bc04488&gen=8&types=6",
+                    source: "https://hzla.github.io/Dynamic-Calc/?data=bb2redux&gen=8&types=6",
                     coverImage: "",
                     description: ""
                 },
                 {
                     label: "Redux CM",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=945a33720dbd6bc04488&gen=8&challengeMode=true&types=6",
+                    source: "https://hzla.github.io/Dynamic-Calc/?data=bb2redux&gen=8&challengeMode=true&types=6",
                     coverImage: "",
                     description: ""
                 }

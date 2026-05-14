@@ -1,6 +1,7 @@
 backupFiles = {
 	"Blaze Black/Volt White": "bb",
 	"Blaze Black 2/Volt White 2 Original": "bb2",
+	"Blaze Black 2/Volt White 2 Redux": "bb2redux1-4",
 	"Vintage White": "vw",
 	"Renegade Platinum": "rp",
 	"Sacred Gold/Storm Silver": "sgss",
@@ -50,6 +51,7 @@ backupFiles = {
 }
 
 sourceTitleAliases = {
+	"bb2redux": "Blaze Black 2/Volt White 2 Redux",
 	"bb8579a3798fd63b429d": "Royal Sapphire",
 	"68bfb2ccba14b7f6b1f0": "Pokemon Unbound"
 }

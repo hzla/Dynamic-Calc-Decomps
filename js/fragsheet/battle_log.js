@@ -565,6 +565,10 @@
     }
 
     function isPlatinumStyleBattleLogTitle(title) {
+        if (typeof title === "string" && (title.includes("Black 2") || title.includes("White 2"))) {
+            return false;
+        }
+
         return typeof title === "string" && (
             title.includes("Platinum") ||
             title.includes("Black") ||

@@ -302,11 +302,12 @@ function updateHeaderShellState() {
 
   const syncMasterVisible = $('#sync-master').is(':visible');
   const syncLuaVisible = $('#sync-lua').is(':visible');
+  const battleLogEnabled = typeof window.isBattleLogEnabledForTitle !== "function" || window.isBattleLogEnabledForTitle();
 
   window.updateMainPageHeaderState({
     title: typeof TITLE === "string" ? TITLE : "",
     showDex,
-    showBattleLog: syncMasterVisible || syncLuaVisible,
+    showBattleLog: (syncMasterVisible || syncLuaVisible) && battleLogEnabled,
     showMainNav: true
   })
 }
@@ -674,6 +675,25 @@ function setGameSettings(title) {
     showAI = true;
     $('label[for="snow"]').hide()
     $('label[for="fog"]').show()
+  } else if (title == "Blaze Black 2/Volt White 2 Redux") {
+    gameGen = 8
+    settings.damageGen = 8
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 8;
+    }
+    settings.sourceType = "full"
+    settings.typeChart = 6;
+    settings.critGen = 8;
+    save_expansion = false
+    showDex = true;
+    showAI = true;
+    if (settings.challengeMode) {
+      $('#redux-lvl').css('display', 'inline-block');
+      $('#redux-lvl').click(function() {
+        alert("There is a bug in BW2 Challenge mode where the stats of a pokemon do not match it's displayed level. The calc will adjust the level to show it's true stats. However, the damage formula in this game uses Pokemon level as one of the inputs and this formula uses the incorrect displayed level. So the true power level of a pokemon is somewhere between the bugged displayed level, and the non challenge mode level. The challenge mode version of this calc takes into account this bug and adjusts the calculations accordingly.")
+      })
+    }
+    $('label[for="snow"]').hide()
   } else if (title == "Black/White" || title == "Black 2/White 2" || title == "Blaze Black/Volt White") {
     gameGen = 5
     settings.damageGen = 5
@@ -899,6 +919,7 @@ if (SOURCES[params.get('data')]) {
 
 function setBaseGame(title) {
     window.baseGame ||= ""
+    baseVersion = ""
     if (!isBlankDevMode) {
         if (title.includes("Radical Red")) {
             window.baseGame = "rad_red"
@@ -963,8 +984,13 @@ function setBaseGame(title) {
         window.baseGame = "g7"
     }
 
-    if (window.baseGame == "Pt" || window.baseGame == "HGSS" || window.baseGame == "BW") {
+    if (window.baseGame == "Pt" || window.baseGame == "HGSS") {
         $('#sync-lua, #desmume-icon').show()
+    } else if (window.baseGame == "BW") {
+        $('#sync-lua').show()
+        if (baseVersion != "BW2") {
+            $('#desmume-icon').show()
+        }
     } else if (window.baseGame == "null" || window.baseGame == "imp") {
         $('#sync-lua').show()
     }

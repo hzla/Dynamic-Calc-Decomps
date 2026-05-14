@@ -6,6 +6,13 @@ function isEmptyOrInvalidDsSaveCounter(value) {
     return value === 0xFFFFFFFF || value === 0x00000000
 }
 
+function getDsSaveLocationGameKey() {
+    if (baseGame == "BW" && baseVersion == "BW2") {
+        return "BW2"
+    }
+    return baseGame
+}
+
 function chooseDsPairedBlockOffset(preferredSaveCount, block1SaveCount, block2SaveCount, forceBlock2=false) {
     const block1Invalid = isEmptyOrInvalidDsSaveCounter(block1SaveCount)
     const block2Invalid = isEmptyOrInvalidDsSaveCounter(block2SaveCount)
@@ -1010,10 +1017,11 @@ function parsePKM(chunk, is_party=false, offset=0) {
     ivs = getIVs(iv_value) 
     let met_location
 
+    const locationGameKey = getDsSaveLocationGameKey()
     if (baseGame == "Pt" || baseGame == "HGSS") {
         met_location = locations[baseGame][decryptedData[move_data_offset + 15]] 
     } else {
-        met_location = locations[baseGame][decryptedData[met_data_offset + 12]] 
+        met_location = locations[locationGameKey][decryptedData[met_data_offset + 12]] 
     }
     
 
