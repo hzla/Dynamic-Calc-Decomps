@@ -846,25 +846,65 @@ function extractGenderFromImportHeader(headerLine) {
 	return result;
 }
 
-function findImportedSpeciesNameFromHeader(headerLine) {
+function getImportedSpeciesMatchesFromHeader(headerLine) {
 	var headerInfo = extractGenderFromImportHeader(headerLine);
 	var currentRow = headerInfo.header.split(/[()@]/);
-	var eggCandidate = null;
+	var speciesParts = headerInfo.header.split("@")[0].split(/[()]/);
+	var matches = [];
 
-	for (var i = 0; i < currentRow.length; i++) {
-		var candidate = checkExeptions(currentRow[i].trim());
+	for (var i = 0; i < speciesParts.length; i++) {
+		var candidate = checkExeptions(speciesParts[i].trim());
 		if (calc.SPECIES[8][candidate] !== undefined) {
-			if (candidate === "Egg" || candidate === "Bad Egg") {
-				if (!eggCandidate) {
-					eggCandidate = candidate;
-				}
-				continue;
-			}
-			return candidate;
+			matches.push({
+				index: i,
+				speciesName: candidate,
+				rawName: speciesParts[i].trim()
+			});
 		}
 	}
 
-	return eggCandidate;
+	return {
+		headerInfo: headerInfo,
+		parts: currentRow,
+		matches: matches
+	};
+}
+
+function findImportedSpeciesMatchFromHeader(headerLine) {
+	var parsedHeader = getImportedSpeciesMatchesFromHeader(headerLine);
+	var eggCandidate = null;
+	var firstNonEggCandidate = null;
+
+	for (var i = 0; i < parsedHeader.matches.length; i++) {
+		var match = parsedHeader.matches[i];
+		if (match.speciesName === "Egg" || match.speciesName === "Bad Egg") {
+			if (!eggCandidate) {
+				eggCandidate = match;
+			}
+			continue;
+		}
+		if (!firstNonEggCandidate) {
+			firstNonEggCandidate = match;
+		}
+		if (match.index > 0) {
+			return {
+				headerInfo: parsedHeader.headerInfo,
+				parts: parsedHeader.parts,
+				match: match
+			};
+		}
+	}
+
+	return {
+		headerInfo: parsedHeader.headerInfo,
+		parts: parsedHeader.parts,
+		match: firstNonEggCandidate || eggCandidate
+	};
+}
+
+function findImportedSpeciesNameFromHeader(headerLine) {
+	var speciesMatch = findImportedSpeciesMatchFromHeader(headerLine);
+	return speciesMatch.match ? speciesMatch.match.speciesName : null;
 }
 
 function isImportedSetBoundaryLine(rows, rowIndex, firstDataRowIndex) {
@@ -2018,17 +2058,17 @@ function removeMyBoxEntries(customsets) {
 }
 
 function getNicknameFromImportHeader(headerLine, speciesName) {
-	var headerInfo = extractGenderFromImportHeader(headerLine);
-	var currentRow = headerInfo.header.split(/[()@]/);
+	var speciesMatch = findImportedSpeciesMatchFromHeader(headerLine);
+	if (!speciesMatch.match) {
+		return "";
+	}
 
-	for (var i = 0; i < currentRow.length; i++) {
-		currentRow[i] = checkExeptions(currentRow[i].trim());
-		if (calc.SPECIES[8][currentRow[i]] !== undefined) {
-			if (i === 1 && currentRow[0].trim()) {
-				return currentRow[0].trim();
-			}
-			return "";
-		}
+	if (speciesName && speciesMatch.match.speciesName !== speciesName) {
+		return "";
+	}
+
+	if (speciesMatch.match.index > 0 && speciesMatch.parts[0].trim()) {
+		return speciesMatch.parts[0].trim();
 	}
 
 	return "";
@@ -2296,8 +2336,12 @@ function addSets(pokes, name) {
 		// 	currentParty.push(rows[i])
 		// }
 
-		var headerInfo = extractGenderFromImportHeader(rows[i]);
-		currentRow = headerInfo.header.split(/[()@]/);
+		var speciesMatch = findImportedSpeciesMatchFromHeader(rows[i]);
+		var headerInfo = speciesMatch.headerInfo;
+		var importedSpeciesName = speciesMatch.match ? speciesMatch.match.speciesName : null;
+		var importedSpeciesIndex = speciesMatch.match ? speciesMatch.match.index : -1;
+		var importedHeaderProcessed = false;
+		currentRow = speciesMatch.parts;
 		
 		if (item) {
 			currentRow.push(item)
@@ -2310,17 +2354,22 @@ function addSets(pokes, name) {
 
 
 				if (calc.SPECIES[8][currentRow[j].trim()] !== undefined) {
+					if (!importedSpeciesName || currentRow[j].trim() !== importedSpeciesName || importedHeaderProcessed) {
+						continue;
+					}
+					importedHeaderProcessed = true;
 
 					currentPoke = calc.SPECIES[8][currentRow[j].trim()];
 					currentPoke.name = currentRow[j].trim();
 					currentPoke.boxImportBatchId = importBatchId;
 					currentPoke.gender = headerInfo.gender;
 					currentPoke.item = getItem(currentRow, j + 1);
-				if (j === 1 && currentRow[0].trim()) {
+				if (j === importedSpeciesIndex && j > 0 && currentRow[0].trim()) {
 					currentPoke.nameProp = "My Box";
 					currentPoke.nn = currentRow[0].trim()
 				} else {
 					currentPoke.nameProp = "My Box";
+					currentPoke.nn = undefined;
 				}
 				currentPoke.isCustomSet = true;
 
