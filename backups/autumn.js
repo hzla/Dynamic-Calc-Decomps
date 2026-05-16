@@ -86,7 +86,7 @@ var backup_data = {
   },
   "formatted_sets": {
     "Hypno": {
-      "Lvl 47 Biker Billiam | Right 3 | R17": {
+      "Lvl 47 Billiam | Right 3 | R17": {
         "level": 47,
         "tr_id": 1,
         "ai": 773,
@@ -120,7 +120,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Super Nerd Aidan | Op: TM35 | R8": {
+      "Lvl 36 Aidan | Op: TM35 | R8": {
         "level": 36,
         "tr_id": 171,
         "ai": 773,
@@ -136,7 +136,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Headbutt",
           "Poison Gas",
@@ -154,7 +154,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Psychic Johan | Bottom | Saffron Gym": {
+      "Lvl 51 Johan | Bottom | Saffron Gym": {
         "level": 51,
         "tr_id": 280,
         "ai": 773,
@@ -188,7 +188,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Tamer Edgar | First Path | Fuchsia Gym": {
+      "Lvl 46 Edgar | Middle | Fuchsia Gym": {
         "level": 46,
         "tr_id": 295,
         "ai": 845,
@@ -204,7 +204,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Shadow Ball",
           "Psychic",
@@ -222,7 +222,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 2 | Elevator | Rocket Hideout": {
+      "Lvl 37 Grunt 2 | Elevator | Rocket Hideout F1": {
         "level": 37,
         "tr_id": 358,
         "ai": 789,
@@ -256,7 +256,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Jennifer | Pokemon Tower F6": {
+      "Lvl 41 Jennifer | Pkmn Tower F6": {
         "level": 41,
         "tr_id": 453,
         "ai": 773,
@@ -292,7 +292,7 @@ var backup_data = {
       }
     },
     "Banette": {
-      "Lvl 47 Biker Billiam | Right 3 | R17": {
+      "Lvl 47 Billiam | Right 3 | R17": {
         "level": 47,
         "tr_id": 1,
         "ai": 773,
@@ -326,7 +326,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Boss Giovanni | Rocket Hideout": {
+      "Lvl 37 Giovanni | Rocket Hideout F4": {
         "level": 37,
         "tr_id": 348,
         "ai": 823,
@@ -360,7 +360,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 6 | Op: TM41 | Silph Co. F4": {
+      "Lvl 49 Grunt 6 | Op: TM41 | Silph Co. F4": {
         "level": 49,
         "tr_id": 377,
         "ai": 789,
@@ -394,7 +394,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 71 Elite Four Agatha | Pokemon League": {
+      "Lvl 71 Agatha | Pkmn League": {
         "level": 71,
         "tr_id": 412,
         "ai": 815,
@@ -410,7 +410,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Docile",
         "moves": [
           "Shadow Sneak",
           "Curse",
@@ -428,7 +428,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Ruth | Pokemon Tower F5": {
+      "Lvl 41 Ruth | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 448,
         "ai": 773,
@@ -462,7 +462,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Janae | Pokemon Tower F5": {
+      "Lvl 41 Janae | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 450,
         "ai": 773,
@@ -496,7 +496,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Emilia | Pokemon Tower F6": {
+      "Lvl 41 Emilia | Pkmn Tower F6": {
         "level": 41,
         "tr_id": 452,
         "ai": 773,
@@ -530,7 +530,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Channeler Amanda | Top | Saffron Gym": {
+      "Lvl 51 Amanda | Top | Saffron Gym": {
         "level": 51,
         "tr_id": 462,
         "ai": 773,
@@ -564,7 +564,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Youngster Johnson | Pokemon Mansion F1": {
+      "Lvl 59 Johnson | Pkmn Mansion F1": {
         "level": 59,
         "tr_id": 534,
         "ai": 773,
@@ -600,7 +600,7 @@ var backup_data = {
       }
     },
     "Milotic": {
-      "Lvl 47 Biker Billiam | Right 3 | R17": {
+      "Lvl 47 Billiam | Right 3 | R17": {
         "level": 47,
         "tr_id": 1,
         "ai": 773,
@@ -634,7 +634,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerF Nora | R20": {
+      "Lvl 56 Nora | R20": {
         "level": 56,
         "tr_id": 271,
         "ai": 773,
@@ -668,7 +668,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Grass | Sylph Co. F7": {
+      "Lvl 49 Rival | Grass | Silph Co. F7": {
         "level": 49,
         "tr_id": 433,
         "ai": 815,
@@ -702,7 +702,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Rival | Fire | Sylph Co. F7": {
+      "Lvl 50 Rival | Fire | Silph Co. F7": {
         "level": 50,
         "tr_id": 434,
         "ai": 815,
@@ -804,7 +804,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Twins Eli Anne | Op: Water Encounter | R8": {
+      "Lvl 36 Eli Anne | Op: Water | R8": {
         "level": 36,
         "tr_id": 484,
         "ai": 773,
@@ -820,7 +820,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Bashful",
         "moves": [
           "Wrap",
           "Dragon Breath",
@@ -840,7 +840,7 @@ var backup_data = {
       }
     },
     "Forretress": {
-      "Lvl 46 Biker Bjergsen | Right 2 | R17": {
+      "Lvl 46 Bjergsen | Right 2 | R17": {
         "level": 46,
         "tr_id": 2,
         "ai": 773,
@@ -874,7 +874,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 67 Cooltrainer Mike | Victory Road F2": {
+      "Lvl 67 Mike | Victory Road F2": {
         "level": 67,
         "tr_id": 14,
         "ai": 831,
@@ -890,7 +890,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Spikes",
           "Reflect",
@@ -908,7 +908,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Pokemaniac Ashton | Rock Tunnel F1": {
+      "Lvl 34 Ashton | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 168,
         "ai": 773,
@@ -924,7 +924,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Sassy",
         "moves": [
           "Self-Destruct",
           "Spikes",
@@ -942,7 +942,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Hiker Dudley | Op: TM37 | Rock Tunnel F2": {
+      "Lvl 36 Dudley | Op: TM37 | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 189,
         "ai": 773,
@@ -958,7 +958,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Sandstorm",
           "Take Down",
@@ -976,7 +976,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Malik | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Malik | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 196,
         "ai": 773,
@@ -1010,7 +1010,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 3 | Elevator | Rocket Hideout": {
+      "Lvl 37 Grunt 3 | Elevator | Rocket Hideout F1": {
         "level": 37,
         "tr_id": 362,
         "ai": 789,
@@ -1044,7 +1044,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 4 | Op: Elevator | Silph Co. F2": {
+      "Lvl 49 Grunt 4 | Op: Elevator | Silph Co. F2": {
         "level": 49,
         "tr_id": 374,
         "ai": 789,
@@ -1078,7 +1078,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl* 49 Team Rocket Grunt 4 | Op: Elevator | Silph Co. F2": {
+      "Lvl* 49 Grunt 4 | Op: Elevator | Silph Co. F2": {
         "level": 49,
         "tr_id": 374,
         "ai": 789,
@@ -1112,7 +1112,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl** 49 Team Rocket Grunt 4 | Op: Elevator | Silph Co. F2": {
+      "Lvl** 49 Grunt 4 | Op: Elevator | Silph Co. F2": {
         "level": 49,
         "tr_id": 374,
         "ai": 789,
@@ -1146,7 +1146,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl*** 49 Team Rocket Grunt 4 | Op: Elevator | Silph Co. F2": {
+      "Lvl*** 49 Grunt 4 | Op: Elevator | Silph Co. F2": {
         "level": 49,
         "tr_id": 374,
         "ai": 789,
@@ -1180,7 +1180,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Picnicker Missy | Op: White Herb | R20": {
+      "Lvl 58 Missy | Op: White Herb | R20": {
         "level": 58,
         "tr_id": 472,
         "ai": 773,
@@ -1196,7 +1196,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Signal Beam",
           "Iron Head",
@@ -1216,7 +1216,7 @@ var backup_data = {
       }
     },
     "Armaldo": {
-      "Lvl 46 Biker Bjergsen | Right 2 | R17": {
+      "Lvl 46 Bjergsen | Right 2 | R17": {
         "level": 46,
         "tr_id": 2,
         "ai": 773,
@@ -1250,7 +1250,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Biker Jared | R13": {
+      "Lvl 44 Jared | R13": {
         "level": 44,
         "tr_id": 195,
         "ai": 773,
@@ -1284,7 +1284,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 17 | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
+      "Lvl 49 Grunt 17 | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
         "level": 49,
         "tr_id": 389,
         "ai": 789,
@@ -1318,7 +1318,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 3 | Silph Co. F11": {
+      "Lvl 49 Grunt 3 | Silph Co. F11": {
         "level": 49,
         "tr_id": 391,
         "ai": 789,
@@ -1352,7 +1352,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 70 Elite Four Bruno | Pokemon League": {
+      "Lvl 70 Bruno | Pkmn League": {
         "level": 70,
         "tr_id": 411,
         "ai": 815,
@@ -1388,7 +1388,7 @@ var backup_data = {
       }
     },
     "Shuckle": {
-      "Lvl 46 Biker Bjergsen | Right 2 | R17": {
+      "Lvl 46 Bjergsen | Right 2 | R17": {
         "level": 46,
         "tr_id": 2,
         "ai": 773,
@@ -1422,7 +1422,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 16 Bug Catcher James | R3": {
+      "Lvl 16 James | R3": {
         "level": 16,
         "tr_id": 107,
         "ai": 773,
@@ -1458,7 +1458,7 @@ var backup_data = {
       }
     },
     "Shelgon": {
-      "Lvl 48 Cooltrainer Carter | Op: TM02 | R14": {
+      "Lvl 48 Carter | Op: TM02 | R14": {
         "level": 48,
         "tr_id": 3,
         "ai": 773,
@@ -1474,7 +1474,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Iron Head",
           "Crunch",
@@ -1494,7 +1494,7 @@ var backup_data = {
       }
     },
     "Altaria": {
-      "Lvl 48 Cooltrainer Carter | Op: TM02 | R14": {
+      "Lvl 48 Carter | Op: TM02 | R14": {
         "level": 48,
         "tr_id": 3,
         "ai": 773,
@@ -1510,7 +1510,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Body Slam",
           "Refresh",
@@ -1528,7 +1528,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Bird Keeper Sebastian | R13": {
+      "Lvl 43 Sebastian | R13": {
         "level": 43,
         "tr_id": 300,
         "ai": 773,
@@ -1544,7 +1544,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Feather Dance",
           "Air Slash",
@@ -1562,7 +1562,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Bird Keeper Chester | South, Double | R15": {
+      "Lvl 48 Chester | South, B2B | R15": {
         "level": 48,
         "tr_id": 306,
         "ai": 773,
@@ -1578,7 +1578,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Air Slash",
           "Refresh",
@@ -1596,7 +1596,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Bird Keeper Roger | Op: Apicot Berry | R20": {
+      "Lvl 58 Roger | Op: Apicot Berry | R20": {
         "level": 58,
         "tr_id": 310,
         "ai": 773,
@@ -1612,7 +1612,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Morning Sun",
           "Dragon Claw",
@@ -1630,7 +1630,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Taylor | Op: TM11, TM18 | Silph Co. F6": {
+      "Lvl 49 Taylor | Op: TMs 11, 18 | Silph Co. F6": {
         "level": 49,
         "tr_id": 341,
         "ai": 773,
@@ -1646,7 +1646,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Dragon Claw",
           "Air Slash",
@@ -1666,7 +1666,7 @@ var backup_data = {
       }
     },
     "Charizard": {
-      "Lvl 48 Cooltrainer Carter | Op: TM02 | R14": {
+      "Lvl 48 Carter | Op: TM02 | R14": {
         "level": 48,
         "tr_id": 3,
         "ai": 773,
@@ -1682,7 +1682,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Crunch",
           "Fly",
@@ -1700,7 +1700,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Super Nerd Derek | Op: Question 2 | Cinnabar Gym": {
+      "Lvl 60 Derek | Q2 | Cinnabar Gym": {
         "level": 60,
         "tr_id": 179,
         "ai": 773,
@@ -1716,7 +1716,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Iron Tail",
           "Dragon Claw",
@@ -1734,7 +1734,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Burglar Arnie | Pokemon Mansion F2": {
+      "Lvl 59 Arnie | Pkmn Mansion F2": {
         "level": 59,
         "tr_id": 216,
         "ai": 773,
@@ -1750,7 +1750,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Sunny Day",
           "Rock Slide",
@@ -1768,7 +1768,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Bird Keeper Wilton | R18": {
+      "Lvl 48 Wilton | R18": {
         "level": 48,
         "tr_id": 307,
         "ai": 773,
@@ -1784,7 +1784,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Brick Break",
           "Fly",
@@ -1802,7 +1802,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Rival | Fire | Pokemon Tower F2": {
+      "Lvl 42 Rival | Fire | Pkmn Tower F2": {
         "level": 42,
         "tr_id": 431,
         "ai": 807,
@@ -1836,7 +1836,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Rival | Fire | Sylph Co. F7": {
+      "Lvl 51 Rival | Fire | Silph Co. F7": {
         "level": 51,
         "tr_id": 434,
         "ai": 815,
@@ -1904,7 +1904,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 75 Champion Rival | Fire | Pokemon League": {
+      "Lvl 75 Rival | Fire | Pkmn League Champion": {
         "level": 75,
         "tr_id": 440,
         "ai": 815,
@@ -1938,7 +1938,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Yazmin | South | R15": {
+      "Lvl 47 Yazmin | South | R15": {
         "level": 47,
         "tr_id": 478,
         "ai": 773,
@@ -1954,7 +1954,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Mild",
         "moves": [
           "Brick Break",
           "Wing Attack",
@@ -1974,7 +1974,7 @@ var backup_data = {
       }
     },
     "Aerodactyl": {
-      "Lvl 48 Cooltrainer Carter | Op: TM02 | R14": {
+      "Lvl 48 Carter | Op: TM02 | R14": {
         "level": 48,
         "tr_id": 3,
         "ai": 773,
@@ -1990,7 +1990,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Rock Slide",
           "Dragon Claw",
@@ -2008,7 +2008,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 72 Elite Four Lance | Pokemon League": {
+      "Lvl 72 Lance | Pkmn League": {
         "level": 72,
         "tr_id": 413,
         "ai": 815,
@@ -2044,7 +2044,7 @@ var backup_data = {
       }
     },
     "Kabutops": {
-      "Lvl 47 Biker Jenson | Left 4 | R17": {
+      "Lvl 47 Jenson | Left 4 | R17": {
         "level": 47,
         "tr_id": 4,
         "ai": 773,
@@ -2078,7 +2078,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Fisherman Elliot | R12": {
+      "Lvl 43 Elliot | R12": {
         "level": 43,
         "tr_id": 228,
         "ai": 773,
@@ -2094,7 +2094,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Night Slash",
           "Giga Drain",
@@ -2112,7 +2112,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 55 SwimmerM Richard | Op: Salac Berry | R19": {
+      "Lvl 55 Richard | Op: Salac Berry | R19": {
         "level": 55,
         "tr_id": 235,
         "ai": 773,
@@ -2146,7 +2146,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Roland | R21": {
+      "Lvl 56 Roland | R21": {
         "level": 56,
         "tr_id": 248,
         "ai": 773,
@@ -2180,7 +2180,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Beau | Silph Co. F5": {
+      "Lvl 49 Beau | Silph Co. F5": {
         "level": 49,
         "tr_id": 340,
         "ai": 773,
@@ -2196,7 +2196,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Night Slash",
           "Rock Slide",
@@ -2216,7 +2216,7 @@ var backup_data = {
       }
     },
     "Magmar": {
-      "Lvl 47 Biker Jenson | Left 4 | R17": {
+      "Lvl 47 Jenson | Left 4 | R17": {
         "level": 47,
         "tr_id": 4,
         "ai": 773,
@@ -2250,7 +2250,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 67 Cooltrainer Jonathan | Victory Road F1": {
+      "Lvl 67 Jonathan | Victory Road F1": {
         "level": 67,
         "tr_id": 6,
         "ai": 815,
@@ -2266,7 +2266,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Thunder Punch",
           "Poison Gas",
@@ -2284,7 +2284,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Picnicker Caitlin | R9": {
+      "Lvl 33 Caitlin | R9": {
         "level": 33,
         "tr_id": 155,
         "ai": 773,
@@ -2300,7 +2300,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Mega Punch",
           "Smokescreen",
@@ -2318,7 +2318,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Burglar Dusty | Cinnabar Gym": {
+      "Lvl 60 Dusty | Cinnabar Gym": {
         "level": 60,
         "tr_id": 215,
         "ai": 781,
@@ -2334,7 +2334,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Thunder Punch",
           "Sunny Day",
@@ -2352,7 +2352,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Tamer Phil | Second Path | Fuchsia Gym": {
+      "Lvl 46 Phil | Left | Fuchsia Gym": {
         "level": 46,
         "tr_id": 294,
         "ai": 773,
@@ -2368,7 +2368,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Brick Break",
           "Flamethrower",
@@ -2386,7 +2386,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Twins Eli Anne | Op: Water Encounter | R8": {
+      "Lvl 36 Eli Anne | Op: Water | R8": {
         "level": 36,
         "tr_id": 484,
         "ai": 773,
@@ -2402,7 +2402,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Brave",
         "moves": [
           "Smokescreen",
           "Fire Punch",
@@ -2420,7 +2420,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Camper Bryce | Op: TM15 | Kindle Road": {
+      "Lvl 64 Bryce | Op: TM15 | Kindle Road": {
         "level": 64,
         "tr_id": 555,
         "ai": 773,
@@ -2456,7 +2456,7 @@ var backup_data = {
       }
     },
     "Flygon": {
-      "Lvl 47 Biker Jenson | Left 4 | R17": {
+      "Lvl 47 Jenson | Left 4 | R17": {
         "level": 47,
         "tr_id": 4,
         "ai": 773,
@@ -2490,7 +2490,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Leader Giovanni | Viridian Gym": {
+      "Lvl 64 Giovanni | Viridian Gym": {
         "level": 64,
         "tr_id": 350,
         "ai": 831,
@@ -2524,7 +2524,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Picnicker Valerie | Op: Grass Encounter | R13": {
+      "Lvl 45 Valerie | Op: Grass | R13": {
         "level": 45,
         "tr_id": 468,
         "ai": 773,
@@ -2540,7 +2540,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Quirky",
         "moves": [
           "Air Cutter",
           "Stone Edge",
@@ -2560,7 +2560,7 @@ var backup_data = {
       }
     },
     "Omastar": {
-      "Lvl 47 Biker Benson | Right 4 | R17": {
+      "Lvl 47 Benson | Right 4 | R17": {
         "level": 47,
         "tr_id": 5,
         "ai": 773,
@@ -2594,7 +2594,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Fisherman Elliot | R12": {
+      "Lvl 43 Elliot | R12": {
         "level": 43,
         "tr_id": 228,
         "ai": 773,
@@ -2610,7 +2610,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Surf",
           "Tickle",
@@ -2628,7 +2628,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 55 SwimmerM Richard | Op: Salac Berry | R19": {
+      "Lvl 55 Richard | Op: Salac Berry | R19": {
         "level": 55,
         "tr_id": 235,
         "ai": 773,
@@ -2662,7 +2662,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Roland | R21": {
+      "Lvl 56 Roland | R21": {
         "level": 56,
         "tr_id": 248,
         "ai": 773,
@@ -2696,7 +2696,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 2 | Silph Co. F3": {
+      "Lvl 49 Grunt 2 | Silph Co. F3": {
         "level": 49,
         "tr_id": 375,
         "ai": 789,
@@ -2732,7 +2732,7 @@ var backup_data = {
       }
     },
     "Electabuzz": {
-      "Lvl 47 Biker Benson | Right 4 | R17": {
+      "Lvl 47 Benson | Right 4 | R17": {
         "level": 47,
         "tr_id": 5,
         "ai": 773,
@@ -2766,7 +2766,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Burglar Dusty | Cinnabar Gym": {
+      "Lvl 60 Dusty | Cinnabar Gym": {
         "level": 60,
         "tr_id": 215,
         "ai": 781,
@@ -2782,7 +2782,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Fire Punch",
           "Light Screen",
@@ -2800,7 +2800,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Cue Ball Camron | R16": {
+      "Lvl 43 Camron | R16": {
         "level": 43,
         "tr_id": 251,
         "ai": 773,
@@ -2834,7 +2834,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Rocker Luca | Op: TM24 | R12": {
+      "Lvl 45 Luca | Op: TM24 | R12": {
         "level": 45,
         "tr_id": 285,
         "ai": 773,
@@ -2868,7 +2868,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 29 Leader Lt. Surge | Vermilion Gym": {
+      "Lvl 29 Lt. Surge | Vermilion Gym": {
         "level": 29,
         "tr_id": 416,
         "ai": 815,
@@ -2902,7 +2902,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Twins Eli Anne | Op: Water Encounter | R8": {
+      "Lvl 36 Eli Anne | Op: Water | R8": {
         "level": 36,
         "tr_id": 484,
         "ai": 773,
@@ -2918,7 +2918,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Gentle",
         "moves": [
           "Light Screen",
           "Thunder Punch",
@@ -2936,7 +2936,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Camper Bryce | Op: TM15 | Kindle Road": {
+      "Lvl 64 Bryce | Op: TM15 | Kindle Road": {
         "level": 64,
         "tr_id": 555,
         "ai": 773,
@@ -2972,7 +2972,7 @@ var backup_data = {
       }
     },
     "Kingdra": {
-      "Lvl 47 Biker Benson | Right 4 | R17": {
+      "Lvl 47 Benson | Right 4 | R17": {
         "level": 47,
         "tr_id": 5,
         "ai": 773,
@@ -3006,7 +3006,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Gamer Benny | Op: King's Rock | R14": {
+      "Lvl 48 Benny | Op: King's Rock | R14": {
         "level": 48,
         "tr_id": 12,
         "ai": 773,
@@ -3040,7 +3040,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 80 Team Rocket Archer | Cerulean Cave": {
+      "Lvl 80 Archer | Cerulean Cave": {
         "level": 80,
         "tr_id": 15,
         "ai": 0,
@@ -3074,7 +3074,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 SwimmerM Jerome | R21": {
+      "Lvl 58 Jerome | R21": {
         "level": 58,
         "tr_id": 247,
         "ai": 773,
@@ -3108,7 +3108,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 73 Elite Four Lance | Pokemon League": {
+      "Lvl 73 Lance | Pkmn League": {
         "level": 73,
         "tr_id": 413,
         "ai": 815,
@@ -3142,7 +3142,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Amara | Op: Grass Encounter | Treasure Beach": {
+      "Lvl 62 Amara | Op: Grass | Treasure Beach": {
         "level": 62,
         "tr_id": 546,
         "ai": 773,
@@ -3176,7 +3176,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 SwimmerM Garrett | Op: Leppa Berry | Kindle Road": {
+      "Lvl 64 Garrett | Op: Leppa Berry | Kindle Road": {
         "level": 64,
         "tr_id": 550,
         "ai": 773,
@@ -3212,7 +3212,7 @@ var backup_data = {
       }
     },
     "Skarmory": {
-      "Lvl 66 Cooltrainer Jonathan | Victory Road F1": {
+      "Lvl 66 Jonathan | Victory Road F1": {
         "level": 66,
         "tr_id": 6,
         "ai": 815,
@@ -3228,7 +3228,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Iron Head",
           "Spikes",
@@ -3246,7 +3246,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Bird Keeper Perry | Top | R13": {
+      "Lvl 44 Perry | Top | R13": {
         "level": 44,
         "tr_id": 301,
         "ai": 773,
@@ -3262,7 +3262,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Rock Slide",
           "Slash",
@@ -3280,7 +3280,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Bird Keeper Edwin | South, Double | R15": {
+      "Lvl 48 Edwin | South, B2B | R15": {
         "level": 48,
         "tr_id": 305,
         "ai": 773,
@@ -3296,7 +3296,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Protect",
           "Iron Head",
@@ -3314,7 +3314,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Bird Keeper Roger | Op: Apicot Berry | R20": {
+      "Lvl 58 Roger | Op: Apicot Berry | R20": {
         "level": 58,
         "tr_id": 310,
         "ai": 773,
@@ -3330,7 +3330,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Rock Slide",
           "Iron Head",
@@ -3348,7 +3348,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 4 | Op: TM32 | Rocket Hideout": {
+      "Lvl 38 Grunt 4 | Op: TM32 | Rocket Hideout F1": {
         "level": 38,
         "tr_id": 360,
         "ai": 789,
@@ -3382,7 +3382,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 13 | Op: F8 Access | Silph Co. F8": {
+      "Lvl 49 Grunt 13 | Op: F8 Access | Silph Co. F8": {
         "level": 49,
         "tr_id": 382,
         "ai": 789,
@@ -3416,7 +3416,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Jeremy | Op: TM40 | R9": {
+      "Lvl 33 Jeremy | Op: TM40 | R9": {
         "level": 33,
         "tr_id": 465,
         "ai": 773,
@@ -3432,7 +3432,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Whirlwind",
           "Aerial Ace",
@@ -3452,7 +3452,7 @@ var backup_data = {
       }
     },
     "Gengar": {
-      "Lvl 67 Cooltrainer Jonathan | Victory Road F1": {
+      "Lvl 67 Jonathan | Victory Road F1": {
         "level": 67,
         "tr_id": 6,
         "ai": 815,
@@ -3468,7 +3468,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Sludge Bomb",
           "Shadow Ball",
@@ -3486,7 +3486,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 61 Burglar Simon | Op: Lansat Berry | Pokemon Mansion F3": {
+      "Lvl 61 Simon | Op: Lansat Berry | Pkmn Mansion F3": {
         "level": 61,
         "tr_id": 218,
         "ai": 773,
@@ -3502,7 +3502,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Sludge Bomb",
           "Shadow Ball",
@@ -3520,7 +3520,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Zeek | Right 2 | R17": {
+      "Lvl 46 Zeek | Right 2 | R17": {
         "level": 46,
         "tr_id": 254,
         "ai": 773,
@@ -3554,7 +3554,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Boss Giovanni | Silph Co. F11": {
+      "Lvl 49 Giovanni | Silph Co. F11": {
         "level": 49,
         "tr_id": 349,
         "ai": 823,
@@ -3588,7 +3588,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 72 Elite Four Agatha | Pokemon League": {
+      "Lvl 72 Agatha | Pkmn League": {
         "level": 72,
         "tr_id": 412,
         "ai": 815,
@@ -3604,7 +3604,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Jolly",
         "moves": [
           "Confuse Ray",
           "Giga Drain",
@@ -3622,7 +3622,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Channeler Emilia | Pokemon Tower F6": {
+      "Lvl 42 Emilia | Pkmn Tower F6": {
         "level": 42,
         "tr_id": 452,
         "ai": 773,
@@ -3656,7 +3656,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Channeler Stacy | Top | Saffron Gym": {
+      "Lvl 52 Stacy | Top | Saffron Gym": {
         "level": 52,
         "tr_id": 463,
         "ai": 773,
@@ -3692,7 +3692,7 @@ var backup_data = {
       }
     },
     "Blastoise": {
-      "Lvl 68 Cooltrainer Jonathan | Victory Road F1": {
+      "Lvl 68 Jonathan | Victory Road F1": {
         "level": 68,
         "tr_id": 6,
         "ai": 815,
@@ -3708,7 +3708,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Scald",
           "Earthquake",
@@ -3726,7 +3726,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 SwimmerF Melissa | R20": {
+      "Lvl 58 Melissa | R20": {
         "level": 58,
         "tr_id": 272,
         "ai": 773,
@@ -3760,7 +3760,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Rival | Water | Pokemon Tower F2": {
+      "Lvl 42 Rival | Water | Pkmn Tower F2": {
         "level": 42,
         "tr_id": 429,
         "ai": 807,
@@ -3794,7 +3794,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Rival | Water | Sylph Co. F7": {
+      "Lvl 51 Rival | Water | Silph Co. F7": {
         "level": 51,
         "tr_id": 432,
         "ai": 783,
@@ -3862,7 +3862,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 75 Champion Rival | Water | Pokemon League": {
+      "Lvl 75 Rival | Water | Pkmn League Champion": {
         "level": 75,
         "tr_id": 438,
         "ai": 815,
@@ -3896,7 +3896,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Celia | North | R15": {
+      "Lvl 47 Celia | North | R15": {
         "level": 47,
         "tr_id": 481,
         "ai": 773,
@@ -3912,7 +3912,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Hasty",
         "moves": [
           "Aqua Jet",
           "Aqua Tail",
@@ -3930,7 +3930,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Ranger Logan | Mt. Ember": {
+      "Lvl 63 Logan | Mt. Ember": {
         "level": 63,
         "tr_id": 595,
         "ai": 775,
@@ -3946,7 +3946,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Ice Punch",
           "Iron Tail",
@@ -3966,7 +3966,7 @@ var backup_data = {
       }
     },
     "Ninetales": {
-      "Lvl 47 Beauty Keiko | R18": {
+      "Lvl 47 Keiko | R18": {
         "level": 47,
         "tr_id": 7,
         "ai": 773,
@@ -4000,7 +4000,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Super Nerd Avery | Cinnabar Gym": {
+      "Lvl 59 Avery | Cinnabar Gym": {
         "level": 59,
         "tr_id": 178,
         "ai": 781,
@@ -4016,7 +4016,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Confuse Ray",
           "Will-O-Wisp",
@@ -4034,7 +4034,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Scientist Ivan | Pokemon Mansion BF1": {
+      "Lvl 60 Ivan | Pkmn Mansion BF1": {
         "level": 60,
         "tr_id": 347,
         "ai": 773,
@@ -4050,7 +4050,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Sunny Day",
           "Hypnosis",
@@ -4068,7 +4068,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Leader Blaine | Cinnabar Gym": {
+      "Lvl 60 Blaine | Cinnabar Gym": {
         "level": 60,
         "tr_id": 419,
         "ai": 815,
@@ -4102,7 +4102,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Young Couple Lea Jed | Fly | Route 16": {
+      "Lvl 38 Lea Jed | Fly | R16": {
         "level": 38,
         "tr_id": 489,
         "ai": 773,
@@ -4118,7 +4118,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Naughty",
         "moves": [
           "Confuse Ray",
           "Will-O-Wisp",
@@ -4136,7 +4136,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Ranger Logan | Mt. Ember": {
+      "Lvl 63 Logan | Mt. Ember": {
         "level": 63,
         "tr_id": 595,
         "ai": 775,
@@ -4152,7 +4152,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Confuse Ray",
           "Extrasensory",
@@ -4172,7 +4172,7 @@ var backup_data = {
       }
     },
     "Jumpluff": {
-      "Lvl 47 Beauty Keiko | R18": {
+      "Lvl 47 Keiko | R18": {
         "level": 47,
         "tr_id": 7,
         "ai": 773,
@@ -4206,7 +4206,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Marlon | R14": {
+      "Lvl 46 Marlon | R14": {
         "level": 46,
         "tr_id": 316,
         "ai": 773,
@@ -4222,7 +4222,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Sleep Powder",
           "Giga Drain",
@@ -4240,7 +4240,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Cooltrainer Mary | Celadon Gym": {
+      "Lvl 38 Mary | Celadon Gym": {
         "level": 38,
         "tr_id": 402,
         "ai": 781,
@@ -4274,7 +4274,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Aroma Lady Violet | Bond Bridge": {
+      "Lvl 63 Violet | Bond Bridge": {
         "level": 63,
         "tr_id": 558,
         "ai": 773,
@@ -4310,7 +4310,7 @@ var backup_data = {
       }
     },
     "Flareon": {
-      "Lvl 47 Beauty Keiko | R18": {
+      "Lvl 47 Keiko | R18": {
         "level": 47,
         "tr_id": 7,
         "ai": 773,
@@ -4344,7 +4344,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 67 Cooltrainer Juan | Victory Road F3": {
+      "Lvl 67 Juan | Victory Road F3": {
         "level": 67,
         "tr_id": 16,
         "ai": 815,
@@ -4360,7 +4360,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Wish",
           "Iron Tail",
@@ -4378,7 +4378,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Burglar Quinn | Op: Question 1 | Cinnabar Gym": {
+      "Lvl 60 Quinn | Q1 | Cinnabar Gym": {
         "level": 60,
         "tr_id": 213,
         "ai": 781,
@@ -4394,7 +4394,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Quick Attack",
           "Will-O-Wisp",
@@ -4412,7 +4412,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Gamer Rich | Op: Water Encounter | R8": {
+      "Lvl 36 Rich | Op: Water | R8": {
         "level": 36,
         "tr_id": 264,
         "ai": 773,
@@ -4446,7 +4446,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Young Couple Gia Jes | Op: Mago Berry | R12": {
+      "Lvl 45 Gia Jes | Op: Mago Berry | R12": {
         "level": 45,
         "tr_id": 486,
         "ai": 773,
@@ -4462,7 +4462,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Serious",
         "moves": [
           "Helping Hand",
           "Will-O-Wisp",
@@ -4482,7 +4482,7 @@ var backup_data = {
       }
     },
     "Politoed": {
-      "Lvl 47 Beauty Yukina | R18": {
+      "Lvl 47 Yukina | R18": {
         "level": 47,
         "tr_id": 8,
         "ai": 773,
@@ -4516,7 +4516,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Gamer Donald | Op: Battle Rock | R14": {
+      "Lvl 48 Donald | Op: Battle Rock | R14": {
         "level": 48,
         "tr_id": 9,
         "ai": 773,
@@ -4550,7 +4550,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Gamer Benny | Op: King's Rock | R14": {
+      "Lvl 48 Benny | Op: King's Rock | R14": {
         "level": 48,
         "tr_id": 12,
         "ai": 773,
@@ -4584,7 +4584,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Fisherman Andrew | Op: Aguave Berry | R12": {
+      "Lvl 45 Andrew | Op: Aguave Berry | R12": {
         "level": 45,
         "tr_id": 233,
         "ai": 773,
@@ -4600,7 +4600,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Hypnosis",
           "Muddy Water",
@@ -4618,7 +4618,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 SwimmerF Melissa | R20": {
+      "Lvl 58 Melissa | R20": {
         "level": 58,
         "tr_id": 272,
         "ai": 773,
@@ -4652,7 +4652,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 SwimmerM Garrett | Op: Leppa Berry | Kindle Road": {
+      "Lvl 64 Garrett | Op: Leppa Berry | Kindle Road": {
         "level": 64,
         "tr_id": 550,
         "ai": 773,
@@ -4688,7 +4688,7 @@ var backup_data = {
       }
     },
     "Ludicolo": {
-      "Lvl 47 Beauty Yukina | R18": {
+      "Lvl 47 Yukina | R18": {
         "level": 47,
         "tr_id": 8,
         "ai": 773,
@@ -4722,7 +4722,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Gamer Benny | Op: King's Rock | R14": {
+      "Lvl 48 Benny | Op: King's Rock | R14": {
         "level": 48,
         "tr_id": 12,
         "ai": 773,
@@ -4756,7 +4756,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 53 SwimmerM Matthew | R19": {
+      "Lvl 53 Matthew | R19": {
         "level": 53,
         "tr_id": 237,
         "ai": 773,
@@ -4790,7 +4790,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 SwimmerM Jerome | R21": {
+      "Lvl 58 Jerome | R21": {
         "level": 58,
         "tr_id": 247,
         "ai": 773,
@@ -4824,7 +4824,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Beauty Sheila | R13": {
+      "Lvl 44 Sheila | R13": {
         "level": 44,
         "tr_id": 269,
         "ai": 773,
@@ -4858,7 +4858,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 17 | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
+      "Lvl 49 Grunt 17 | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
         "level": 49,
         "tr_id": 389,
         "ai": 789,
@@ -4892,7 +4892,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 39 Leader Erika | Celadon City": {
+      "Lvl 39 Erika | Celadon City": {
         "level": 39,
         "tr_id": 417,
         "ai": 815,
@@ -4928,7 +4928,7 @@ var backup_data = {
       }
     },
     "Vaporeon": {
-      "Lvl 47 Beauty Yukina | R18": {
+      "Lvl 47 Yukina | R18": {
         "level": 47,
         "tr_id": 8,
         "ai": 773,
@@ -4962,7 +4962,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Gentleman Chet | Op: Petaya Berry | R21": {
+      "Lvl 58 Chet | Op: Petaya Berry | R21": {
         "level": 58,
         "tr_id": 19,
         "ai": 0,
@@ -4978,7 +4978,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Ice Beam",
           "Wish",
@@ -4996,7 +4996,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Burglar Quinn | Op: Question 1 | Cinnabar Gym": {
+      "Lvl 60 Quinn | Q1 | Cinnabar Gym": {
         "level": 60,
         "tr_id": 213,
         "ai": 781,
@@ -5012,7 +5012,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Charm",
           "Yawn",
@@ -5030,7 +5030,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Gamer Rich | Op: Water Encounter | R8": {
+      "Lvl 36 Rich | Op: Water | R8": {
         "level": 36,
         "tr_id": 264,
         "ai": 773,
@@ -5064,7 +5064,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 67 Cooltrainer Caroline | Victory Road F3": {
+      "Lvl 67 Caroline | Victory Road F3": {
         "level": 67,
         "tr_id": 403,
         "ai": 815,
@@ -5098,7 +5098,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Young Couple Gia Jes | Op: Mago Berry | R12": {
+      "Lvl 45 Gia Jes | Op: Mago Berry | R12": {
         "level": 45,
         "tr_id": 486,
         "ai": 773,
@@ -5114,7 +5114,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Careful",
         "moves": [
           "Swift",
           "Ice Beam",
@@ -5134,7 +5134,7 @@ var backup_data = {
       }
     },
     "Manectric": {
-      "Lvl 48 Gamer Donald | Op: Battle Rock | R14": {
+      "Lvl 48 Donald | Op: Battle Rock | R14": {
         "level": 48,
         "tr_id": 9,
         "ai": 773,
@@ -5168,7 +5168,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Nikolas | Middle 2 | R17": {
+      "Lvl 46 Nikolas | Middle 2 | R17": {
         "level": 46,
         "tr_id": 204,
         "ai": 773,
@@ -5202,7 +5202,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 30 Leader Lt. Surge | Vermilion Gym": {
+      "Lvl 30 Lt. Surge | Vermilion Gym": {
         "level": 30,
         "tr_id": 416,
         "ai": 815,
@@ -5338,7 +5338,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Rival | Water | Pokemon Tower F2": {
+      "Lvl 41 Rival | Water | Pkmn Tower F2": {
         "level": 41,
         "tr_id": 429,
         "ai": 807,
@@ -5372,7 +5372,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Rival | Grass | Pokemon Tower F2": {
+      "Lvl 41 Rival | Grass | Pkmn Tower F2": {
         "level": 41,
         "tr_id": 430,
         "ai": 807,
@@ -5406,7 +5406,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Rival | Fire | Pokemon Tower F2": {
+      "Lvl 41 Rival | Fire | Pkmn Tower F2": {
         "level": 41,
         "tr_id": 431,
         "ai": 807,
@@ -5442,7 +5442,7 @@ var backup_data = {
       }
     },
     "Sceptile": {
-      "Lvl 48 Gamer Donald | Op: Battle Rock | R14": {
+      "Lvl 48 Donald | Op: Battle Rock | R14": {
         "level": 48,
         "tr_id": 9,
         "ai": 773,
@@ -5476,7 +5476,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 68 Cooltrainer Mike | Victory Road F2": {
+      "Lvl 68 Mike | Victory Road F2": {
         "level": 68,
         "tr_id": 14,
         "ai": 831,
@@ -5492,7 +5492,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Swords Dance",
           "Brick Break",
@@ -5510,7 +5510,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Lass Lisa | Right | Celadon Gym": {
+      "Lvl 37 Lisa | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 133,
         "ai": 773,
@@ -5544,7 +5544,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 72 Elite Four Lance | Pokemon League": {
+      "Lvl 72 Lance | Pkmn League": {
         "level": 72,
         "tr_id": 413,
         "ai": 815,
@@ -5580,7 +5580,7 @@ var backup_data = {
       }
     },
     "Slowking": {
-      "Lvl 48 Gamer Donald | Op: Battle Rock | R14": {
+      "Lvl 48 Donald | Op: Battle Rock | R14": {
         "level": 48,
         "tr_id": 9,
         "ai": 773,
@@ -5614,7 +5614,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Gamer Benny | Op: King's Rock | R14": {
+      "Lvl 48 Benny | Op: King's Rock | R14": {
         "level": 48,
         "tr_id": 12,
         "ai": 773,
@@ -5648,7 +5648,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Fisherman Andrew | Op: Aguave Berry | R12": {
+      "Lvl 45 Andrew | Op: Aguave Berry | R12": {
         "level": 45,
         "tr_id": 233,
         "ai": 773,
@@ -5664,7 +5664,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Yawn",
           "Ice Beam",
@@ -5682,7 +5682,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Dean | R20": {
+      "Lvl 56 Dean | R20": {
         "level": 56,
         "tr_id": 243,
         "ai": 773,
@@ -5716,7 +5716,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Psychic Johan | Bottom | Saffron Gym": {
+      "Lvl 52 Johan | Bottom | Saffron Gym": {
         "level": 52,
         "tr_id": 280,
         "ai": 773,
@@ -5750,7 +5750,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Jose | Op: TM35 | Silph Co. F3": {
+      "Lvl 49 Jose | Op: TM35 | Silph Co. F3": {
         "level": 49,
         "tr_id": 338,
         "ai": 773,
@@ -5766,7 +5766,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Flamethrower",
           "Scald",
@@ -5784,7 +5784,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Sis And Bro Lil Ian | R21": {
+      "Lvl 56 Lil Ian | R21": {
         "level": 56,
         "tr_id": 491,
         "ai": 773,
@@ -5800,7 +5800,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Rash",
         "moves": [
           "Yawn",
           "Slack Off",
@@ -5820,7 +5820,7 @@ var backup_data = {
       }
     },
     "Xatu": {
-      "Lvl 46 Biker Al | Left 1 | R17": {
+      "Lvl 46 Al | Left 1 | R17": {
         "level": 46,
         "tr_id": 10,
         "ai": 773,
@@ -5854,7 +5854,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Lass Dawn | S.S. Anne F2": {
+      "Lvl 27 Dawn | S.S. Anne F2": {
         "level": 27,
         "tr_id": 127,
         "ai": 773,
@@ -5888,7 +5888,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Lass Megan | Op: TM47 | R8": {
+      "Lvl 36 Megan | Op: TM47 | R8": {
         "level": 36,
         "tr_id": 130,
         "ai": 773,
@@ -5922,7 +5922,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Psychic Tyron | Bottom | Saffron Gym": {
+      "Lvl 51 Tyron | Bottom | Saffron Gym": {
         "level": 51,
         "tr_id": 281,
         "ai": 773,
@@ -5956,7 +5956,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Bird Keeper Sebastian | R13": {
+      "Lvl 43 Sebastian | R13": {
         "level": 43,
         "tr_id": 300,
         "ai": 773,
@@ -5972,7 +5972,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Thunder Wave",
           "Psychic",
@@ -5990,7 +5990,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Beck | R14": {
+      "Lvl 46 Beck | R14": {
         "level": 46,
         "tr_id": 315,
         "ai": 773,
@@ -6006,7 +6006,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Psychic",
           "Air Cutter",
@@ -6026,7 +6026,7 @@ var backup_data = {
       }
     },
     "Magneton": {
-      "Lvl 46 Biker Al | Left 1 | R17": {
+      "Lvl 46 Al | Left 1 | R17": {
         "level": 46,
         "tr_id": 10,
         "ai": 773,
@@ -6060,7 +6060,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Super Nerd Aidan | Op: TM35 | R8": {
+      "Lvl 36 Aidan | Op: TM35 | R8": {
         "level": 36,
         "tr_id": 171,
         "ai": 773,
@@ -6076,7 +6076,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Metal Sound",
           "Wild Charge",
@@ -6094,7 +6094,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Clark | Op: Sitrus Berry | R10": {
+      "Lvl 33 Clark | Op: Sitrus Berry | R10": {
         "level": 33,
         "tr_id": 187,
         "ai": 773,
@@ -6110,7 +6110,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Supersonic",
           "Thunder Wave",
@@ -6128,7 +6128,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Beau | Silph Co. F5": {
+      "Lvl 49 Beau | Silph Co. F5": {
         "level": 49,
         "tr_id": 340,
         "ai": 773,
@@ -6144,7 +6144,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Thunder Wave",
           "Flash Cannon",
@@ -6162,7 +6162,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Scientist Braydon | Pokemon Mansion F3": {
+      "Lvl 59 Braydon | Pkmn Mansion F3": {
         "level": 59,
         "tr_id": 346,
         "ai": 773,
@@ -6178,7 +6178,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Flash Cannon",
           "Signal Beam",
@@ -6196,7 +6196,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 30 Leader Lt. Surge | Vermilion Gym": {
+      "Lvl 30 Lt. Surge | Vermilion Gym": {
         "level": 30,
         "tr_id": 416,
         "ai": 815,
@@ -6230,7 +6230,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Tammy | Pokemon Tower F5": {
+      "Lvl 41 Tammy | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 447,
         "ai": 773,
@@ -6266,7 +6266,7 @@ var backup_data = {
       }
     },
     "Claydol": {
-      "Lvl 46 Biker Al | Left 1 | R17": {
+      "Lvl 46 Al | Left 1 | R17": {
         "level": 46,
         "tr_id": 10,
         "ai": 773,
@@ -6300,7 +6300,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Psychic Preston | Bottom | Saffron Gym": {
+      "Lvl 51 Preston | Bottom | Saffron Gym": {
         "level": 51,
         "tr_id": 283,
         "ai": 773,
@@ -6334,7 +6334,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Tamer Cole | Left Path | Viridian Gym": {
+      "Lvl 64 Cole | Left Path | Viridian Gym": {
         "level": 64,
         "tr_id": 297,
         "ai": 781,
@@ -6350,7 +6350,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Ice Beam",
           "Psychic",
@@ -6368,7 +6368,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Leader Giovanni | Viridian Gym": {
+      "Lvl 64 Giovanni | Viridian Gym": {
         "level": 64,
         "tr_id": 350,
         "ai": 831,
@@ -6404,7 +6404,7 @@ var backup_data = {
       }
     },
     "Noctowl": {
-      "Lvl 46 Biker Stone | Right 1 | R17": {
+      "Lvl 46 Stone | Right 1 | R17": {
         "level": 46,
         "tr_id": 11,
         "ai": 773,
@@ -6438,7 +6438,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Lass Megan | Op: TM47 | R8": {
+      "Lvl 36 Megan | Op: TM47 | R8": {
         "level": 36,
         "tr_id": 130,
         "ai": 773,
@@ -6472,7 +6472,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 24 Picnicker Isabelle | R6": {
+      "Lvl 24 Isabelle | R6": {
         "level": 24,
         "tr_id": 152,
         "ai": 773,
@@ -6488,7 +6488,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Serious",
         "moves": [
           "Facade",
           "Hypnosis",
@@ -6506,7 +6506,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Bird Keeper Robert | Bottom | R13": {
+      "Lvl 44 Robert | Bottom | R13": {
         "level": 44,
         "tr_id": 302,
         "ai": 773,
@@ -6522,7 +6522,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Extrasensory",
           "Air Cutter",
@@ -6540,7 +6540,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Bird Keeper Ramiro | R18": {
+      "Lvl 47 Ramiro | R18": {
         "level": 47,
         "tr_id": 308,
         "ai": 773,
@@ -6556,7 +6556,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Hypnosis",
           "Feather Dance",
@@ -6574,7 +6574,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 23 Camper Flint | Op: TM43 | R25": {
+      "Lvl 23 Flint | Op: TM43 | R25": {
         "level": 23,
         "tr_id": 471,
         "ai": 773,
@@ -6608,7 +6608,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Picnicker Leah | Rock Tunnel F1": {
+      "Lvl 34 Leah | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 476,
         "ai": 773,
@@ -6624,7 +6624,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Naive",
         "moves": [
           "Hypnosis",
           "Extrasensory",
@@ -6644,7 +6644,7 @@ var backup_data = {
       }
     },
     "Ampharos": {
-      "Lvl 46 Biker Stone | Right 1 | R17": {
+      "Lvl 46 Stone | Right 1 | R17": {
         "level": 46,
         "tr_id": 11,
         "ai": 773,
@@ -6678,7 +6678,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 67 Cooltrainer Mike | Victory Road F2": {
+      "Lvl 67 Mike | Victory Road F2": {
         "level": 67,
         "tr_id": 14,
         "ai": 831,
@@ -6694,7 +6694,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Thunder Wave",
           "Cotton Spore",
@@ -6712,7 +6712,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 29 Gentleman Tucker | Vermilion Gym": {
+      "Lvl 29 Tucker | Vermilion Gym": {
         "level": 29,
         "tr_id": 423,
         "ai": 813,
@@ -6728,7 +6728,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Thunder Wave",
           "Light Screen",
@@ -6746,7 +6746,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Picnicker Susie | R13": {
+      "Lvl 43 Susie | R13": {
         "level": 43,
         "tr_id": 467,
         "ai": 773,
@@ -6762,7 +6762,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Brave",
         "moves": [
           "Fire Punch",
           "Flatter",
@@ -6782,7 +6782,7 @@ var backup_data = {
       }
     },
     "Donphan": {
-      "Lvl 46 Biker Stone | Right 1 | R17": {
+      "Lvl 46 Stone | Right 1 | R17": {
         "level": 46,
         "tr_id": 11,
         "ai": 773,
@@ -6816,7 +6816,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Tamer Jason | Middle Path | Viridian Gym": {
+      "Lvl 64 Jason | Middle Path | Viridian Gym": {
         "level": 64,
         "tr_id": 296,
         "ai": 781,
@@ -6832,7 +6832,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Ice Shard",
           "Flail",
@@ -6850,7 +6850,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Team Rocket Grunt 3 | Pokemon Tower F7": {
+      "Lvl 42 Grunt 3 | Pkmn Tower F7": {
         "level": 42,
         "tr_id": 371,
         "ai": 789,
@@ -6884,7 +6884,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 1 | Card Key | Silph Co. F5": {
+      "Lvl 49 Grunt 1 | Card Key | Silph Co. F5": {
         "level": 49,
         "tr_id": 378,
         "ai": 789,
@@ -6918,7 +6918,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Picnicker Valerie | Op: Grass Encounter | R13": {
+      "Lvl 45 Valerie | Op: Grass | R13": {
         "level": 45,
         "tr_id": 468,
         "ai": 773,
@@ -6934,7 +6934,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Impish",
         "moves": [
           "Ice Shard",
           "Body Slam",
@@ -6954,7 +6954,7 @@ var backup_data = {
       }
     },
     "Smeargle": {
-      "Lvl 66 Cooltrainer Shawn | Victory Road F1": {
+      "Lvl 66 Shawn | Victory Road F1": {
         "level": 66,
         "tr_id": 13,
         "ai": 815,
@@ -6970,7 +6970,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Skull Bash",
           "Infestation",
@@ -6988,7 +6988,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Pokemaniac Winston | Rock Tunnel F2": {
+      "Lvl 34 Winston | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 166,
         "ai": 773,
@@ -7004,7 +7004,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Fake Out",
           "Comet Punch",
@@ -7022,7 +7022,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl* 34 Pokemaniac Winston | Rock Tunnel F2": {
+      "Lvl* 34 Winston | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 166,
         "ai": 773,
@@ -7038,7 +7038,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Fake Out",
           "Comet Punch",
@@ -7056,7 +7056,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl** 34 Pokemaniac Winston | Rock Tunnel F2": {
+      "Lvl** 34 Winston | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 166,
         "ai": 773,
@@ -7072,7 +7072,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Fake Out",
           "Comet Punch",
@@ -7092,7 +7092,7 @@ var backup_data = {
       }
     },
     "Starmie": {
-      "Lvl 67 Cooltrainer Shawn | Victory Road F1": {
+      "Lvl 67 Shawn | Victory Road F1": {
         "level": 67,
         "tr_id": 13,
         "ai": 815,
@@ -7108,7 +7108,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Light Screen",
           "Reflect",
@@ -7126,7 +7126,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 53 SwimmerM Tony | R19": {
+      "Lvl 53 Tony | R19": {
         "level": 53,
         "tr_id": 240,
         "ai": 773,
@@ -7160,7 +7160,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerF Nora | R20": {
+      "Lvl 56 Nora | R20": {
         "level": 56,
         "tr_id": 271,
         "ai": 773,
@@ -7194,7 +7194,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 SwimmerF Anya | Right | R19": {
+      "Lvl 54 Anya | Right | R19": {
         "level": 54,
         "tr_id": 276,
         "ai": 773,
@@ -7228,7 +7228,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 24 Leader Misty | Cerulean Gym": {
+      "Lvl 24 Misty | Cerulean Gym": {
         "level": 24,
         "tr_id": 415,
         "ai": 807,
@@ -7262,7 +7262,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Jody | Pokemon Tower F4": {
+      "Lvl 40 Jody | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 446,
         "ai": 773,
@@ -7296,7 +7296,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Channeler Stacy | Top | Saffron Gym": {
+      "Lvl 51 Stacy | Top | Saffron Gym": {
         "level": 51,
         "tr_id": 463,
         "ai": 773,
@@ -7330,7 +7330,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Kindra | South | R15": {
+      "Lvl 47 Kindra | South | R15": {
         "level": 47,
         "tr_id": 479,
         "ai": 773,
@@ -7346,7 +7346,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Rash",
         "moves": [
           "Recover",
           "Light Screen",
@@ -7364,7 +7364,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Abigail | Op: Salac Berry | Kindle Road": {
+      "Lvl 62 Abigail | Op: Salac Berry | Kindle Road": {
         "level": 62,
         "tr_id": 548,
         "ai": 773,
@@ -7400,7 +7400,7 @@ var backup_data = {
       }
     },
     "Salamence": {
-      "Lvl 67 Cooltrainer Shawn | Victory Road F1": {
+      "Lvl 67 Shawn | Victory Road F1": {
         "level": 67,
         "tr_id": 13,
         "ai": 815,
@@ -7416,7 +7416,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Draco Meteor",
           "Razor Wind",
@@ -7436,7 +7436,7 @@ var backup_data = {
       }
     },
     "Blaziken": {
-      "Lvl 68 Cooltrainer Shawn | Victory Road F1": {
+      "Lvl 68 Shawn | Victory Road F1": {
         "level": 68,
         "tr_id": 13,
         "ai": 815,
@@ -7452,7 +7452,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Blaze Kick",
           "Sky Uppercut",
@@ -7470,7 +7470,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Cue Ball Raul | Op: Grass Encounter | R17": {
+      "Lvl 45 Raul | Op: Grass | R17": {
         "level": 45,
         "tr_id": 252,
         "ai": 773,
@@ -7504,7 +7504,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Black Belt Koichi | Op: Choice Band | Fighting Dojo": {
+      "Lvl 52 Koichi | Op: Choice Band | Fighting Dojo": {
         "level": 52,
         "tr_id": 317,
         "ai": 775,
@@ -7538,7 +7538,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Mike | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Mike | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 318,
         "ai": 773,
@@ -7572,7 +7572,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 70 Elite Four Bruno | Pokemon League": {
+      "Lvl 70 Bruno | Pkmn League": {
         "level": 70,
         "tr_id": 411,
         "ai": 815,
@@ -7606,7 +7606,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 61 Leader Blaine | Cinnabar Gym": {
+      "Lvl 61 Blaine | Cinnabar Gym": {
         "level": 61,
         "tr_id": 419,
         "ai": 815,
@@ -7640,7 +7640,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Yazmin | South | R15": {
+      "Lvl 47 Yazmin | South | R15": {
         "level": 47,
         "tr_id": 478,
         "ai": 773,
@@ -7656,7 +7656,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Hardy",
         "moves": [
           "Bounce",
           "Sky Uppercut",
@@ -7676,7 +7676,7 @@ var backup_data = {
       }
     },
     "Crobat": {
-      "Lvl 66 Cooltrainer Mike | Victory Road F2": {
+      "Lvl 66 Mike | Victory Road F2": {
         "level": 66,
         "tr_id": 14,
         "ai": 831,
@@ -7692,7 +7692,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Confuse Ray",
           "Hypnosis",
@@ -7710,7 +7710,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 80 Team Rocket Archer | Cerulean Cave": {
+      "Lvl 80 Archer | Cerulean Cave": {
         "level": 80,
         "tr_id": 15,
         "ai": 0,
@@ -7744,7 +7744,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Zeek | Right 2 | R17": {
+      "Lvl 46 Zeek | Right 2 | R17": {
         "level": 46,
         "tr_id": 254,
         "ai": 773,
@@ -7778,7 +7778,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Bird Keeper Wilton | R18": {
+      "Lvl 48 Wilton | R18": {
         "level": 48,
         "tr_id": 307,
         "ai": 773,
@@ -7794,7 +7794,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Poison Fang",
           "Air Cutter",
@@ -7812,7 +7812,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Marlon | R14": {
+      "Lvl 46 Marlon | R14": {
         "level": 46,
         "tr_id": 316,
         "ai": 773,
@@ -7828,7 +7828,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Confuse Ray",
           "Air Cutter",
@@ -7846,7 +7846,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Boss Giovanni | Silph Co. F11": {
+      "Lvl 49 Giovanni | Silph Co. F11": {
         "level": 49,
         "tr_id": 349,
         "ai": 823,
@@ -7880,7 +7880,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Team Rocket Grunt 3 | Pokemon Tower F7": {
+      "Lvl 42 Grunt 3 | Pkmn Tower F7": {
         "level": 42,
         "tr_id": 371,
         "ai": 789,
@@ -7914,7 +7914,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Leader Koga | Fuchsia Gym": {
+      "Lvl 48 Koga | Fuchsia Gym": {
         "level": 48,
         "tr_id": 418,
         "ai": 823,
@@ -7950,7 +7950,7 @@ var backup_data = {
       }
     },
     "Scizor": {
-      "Lvl 80 Team Rocket Archer | Cerulean Cave": {
+      "Lvl 80 Archer | Cerulean Cave": {
         "level": 80,
         "tr_id": 15,
         "ai": 0,
@@ -7984,7 +7984,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Pokemaniac Herman | Op: Metal Coat | R10": {
+      "Lvl 33 Herman | Op: Metal Coat | R10": {
         "level": 33,
         "tr_id": 163,
         "ai": 773,
@@ -8000,7 +8000,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Wing Attack",
           "Slash",
@@ -8018,7 +8018,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Lukas | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Lukas | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 207,
         "ai": 773,
@@ -8054,7 +8054,7 @@ var backup_data = {
       }
     },
     "Porygon2": {
-      "Lvl 80 Team Rocket Archer | Cerulean Cave": {
+      "Lvl 80 Archer | Cerulean Cave": {
         "level": 80,
         "tr_id": 15,
         "ai": 0,
@@ -8088,7 +8088,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Team Rocket Grunt 3 | Pokemon Tower F7": {
+      "Lvl 42 Grunt 3 | Pkmn Tower F7": {
         "level": 42,
         "tr_id": 371,
         "ai": 789,
@@ -8122,7 +8122,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 7 | Op: TM24, TM30, TM13 | Silph Co. F4": {
+      "Lvl 49 Grunt 7 | Op: TMs 24, 30, 13 | Silph Co. F4": {
         "level": 49,
         "tr_id": 376,
         "ai": 789,
@@ -8156,7 +8156,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 66 Cooltrainer Caroline | Victory Road F3": {
+      "Lvl 66 Caroline | Victory Road F3": {
         "level": 66,
         "tr_id": 403,
         "ai": 815,
@@ -8190,7 +8190,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Camper Bryce | Op: TM15 | Kindle Road": {
+      "Lvl 64 Bryce | Op: TM15 | Kindle Road": {
         "level": 64,
         "tr_id": 555,
         "ai": 773,
@@ -8226,7 +8226,7 @@ var backup_data = {
       }
     },
     "Tyranitar": {
-      "Lvl 80 Team Rocket Archer | Cerulean Cave": {
+      "Lvl 80 Archer | Cerulean Cave": {
         "level": 80,
         "tr_id": 15,
         "ai": 0,
@@ -8260,7 +8260,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 71 Elite Four Bruno | Pokemon League": {
+      "Lvl 71 Bruno | Pkmn League": {
         "level": 71,
         "tr_id": 411,
         "ai": 815,
@@ -8296,7 +8296,7 @@ var backup_data = {
       }
     },
     "Houndoom": {
-      "Lvl 80 Team Rocket Archer | Cerulean Cave": {
+      "Lvl 80 Archer | Cerulean Cave": {
         "level": 80,
         "tr_id": 15,
         "ai": 0,
@@ -8330,7 +8330,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Super Nerd Avery | Cinnabar Gym": {
+      "Lvl 59 Avery | Cinnabar Gym": {
         "level": 59,
         "tr_id": 178,
         "ai": 781,
@@ -8346,7 +8346,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Flamethrower",
           "Morning Sun",
@@ -8364,7 +8364,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Jaxon | Left 2 | R17": {
+      "Lvl 46 Jaxon | Left 2 | R17": {
         "level": 46,
         "tr_id": 205,
         "ai": 773,
@@ -8398,7 +8398,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Lukas | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Lukas | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 207,
         "ai": 773,
@@ -8432,7 +8432,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Boss Giovanni | Silph Co. F11": {
+      "Lvl 50 Giovanni | Silph Co. F11": {
         "level": 50,
         "tr_id": 349,
         "ai": 823,
@@ -8466,7 +8466,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Angelica | Pokemon Tower F6": {
+      "Lvl 41 Angelica | Pkmn Tower F6": {
         "level": 41,
         "tr_id": 451,
         "ai": 773,
@@ -8500,7 +8500,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Picnicker Valerie | Op: Grass Encounter | R13": {
+      "Lvl 45 Valerie | Op: Grass | R13": {
         "level": 45,
         "tr_id": 468,
         "ai": 773,
@@ -8516,7 +8516,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Timid",
         "moves": [
           "Crunch",
           "Flamethrower",
@@ -8534,7 +8534,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 3 | Three Island": {
+      "Lvl 63 Goon 3 | B2B | Three Island": {
         "level": 63,
         "tr_id": 529,
         "ai": 781,
@@ -8570,7 +8570,7 @@ var backup_data = {
       }
     },
     "Tauros": {
-      "Lvl 67 Cooltrainer Juan | Victory Road F3": {
+      "Lvl 67 Juan | Victory Road F3": {
         "level": 67,
         "tr_id": 16,
         "ai": 815,
@@ -8586,7 +8586,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Iron Head",
           "Rock Slide",
@@ -8604,7 +8604,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Biker Hideo | R16": {
+      "Lvl 43 Hideo | R16": {
         "level": 43,
         "tr_id": 201,
         "ai": 773,
@@ -8638,7 +8638,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 10 | Rocket Hideout": {
+      "Lvl 38 Grunt 10 | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 367,
         "ai": 789,
@@ -8672,7 +8672,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 9 | South | Op: TM45 | Silph Co. F6": {
+      "Lvl 49 Grunt 9 | South | Op: TM45 | Silph Co. F6": {
         "level": 49,
         "tr_id": 381,
         "ai": 789,
@@ -8706,7 +8706,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Ruth | Pokemon Tower F5": {
+      "Lvl 41 Ruth | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 448,
         "ai": 773,
@@ -8740,7 +8740,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 35 Picnicker Dana | Rock Tunnel F1": {
+      "Lvl 35 Dana | Rock Tunnel F1": {
         "level": 35,
         "tr_id": 474,
         "ai": 773,
@@ -8756,7 +8756,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Modest",
         "moves": [
           "Pursuit",
           "Take Down",
@@ -8774,7 +8774,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Twins Kiri Jan | R14": {
+      "Lvl 46 Kiri Jan | R14": {
         "level": 46,
         "tr_id": 487,
         "ai": 773,
@@ -8790,7 +8790,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Timid",
         "moves": [
           "Scary Face",
           "Iron Head",
@@ -8808,7 +8808,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cue Ball Paxton | Three Island": {
+      "Lvl 64 Paxton | B2B | Three Island": {
         "level": 64,
         "tr_id": 742,
         "ai": 845,
@@ -8844,7 +8844,7 @@ var backup_data = {
       }
     },
     "Gardevoir": {
-      "Lvl 67 Cooltrainer Juan | Victory Road F3": {
+      "Lvl 67 Juan | Victory Road F3": {
         "level": 67,
         "tr_id": 16,
         "ai": 815,
@@ -8860,7 +8860,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Psychic",
           "Thunderbolt",
@@ -8878,7 +8878,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Juggler Dalton | Op: TM29 | Silph Co. F5": {
+      "Lvl 49 Dalton | Op: TM29 | Silph Co. F5": {
         "level": 49,
         "tr_id": 286,
         "ai": 773,
@@ -8894,7 +8894,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Magical Leaf",
           "Shadow Sneak",
@@ -8912,7 +8912,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Leader Sabrina | Saffron Gym": {
+      "Lvl 52 Sabrina | Saffron Gym": {
         "level": 52,
         "tr_id": 420,
         "ai": 815,
@@ -8946,7 +8946,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Youngster Johnson | Pokemon Mansion F1": {
+      "Lvl 59 Johnson | Pkmn Mansion F1": {
         "level": 59,
         "tr_id": 534,
         "ai": 773,
@@ -8982,7 +8982,7 @@ var backup_data = {
       }
     },
     "Meganium": {
-      "Lvl 68 Cooltrainer Juan | Victory Road F3": {
+      "Lvl 68 Juan | Victory Road F3": {
         "level": 68,
         "tr_id": 16,
         "ai": 815,
@@ -8998,7 +8998,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Synthesis",
           "Leaf Storm",
@@ -9016,7 +9016,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 39 Leader Erika | Celadon City": {
+      "Lvl 39 Erika | Celadon City": {
         "level": 39,
         "tr_id": 417,
         "ai": 815,
@@ -9050,7 +9050,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Aroma Lady Violet | Bond Bridge": {
+      "Lvl 63 Violet | Bond Bridge": {
         "level": 63,
         "tr_id": 558,
         "ai": 773,
@@ -9086,7 +9086,7 @@ var backup_data = {
       }
     },
     "Slowbro": {
-      "Lvl 66 Cooltrainer David | Victory Road F2": {
+      "Lvl 66 David | Victory Road F2": {
         "level": 66,
         "tr_id": 17,
         "ai": 0,
@@ -9102,7 +9102,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Yawn",
           "Slack Off",
@@ -9120,7 +9120,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Fisherman Andrew | Op: Aguave Berry | R12": {
+      "Lvl 45 Andrew | Op: Aguave Berry | R12": {
         "level": 45,
         "tr_id": 233,
         "ai": 773,
@@ -9136,7 +9136,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Yawn",
           "Flamethrower",
@@ -9154,7 +9154,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Leader Sabrina | Saffron Gym": {
+      "Lvl 52 Sabrina | Saffron Gym": {
         "level": 52,
         "tr_id": 420,
         "ai": 815,
@@ -9188,7 +9188,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Sis And Bro Lil Ian | R21": {
+      "Lvl 56 Lil Ian | R21": {
         "level": 56,
         "tr_id": 491,
         "ai": 773,
@@ -9204,7 +9204,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Careful",
         "moves": [
           "Flamethrower",
           "Psychic",
@@ -9224,7 +9224,7 @@ var backup_data = {
       }
     },
     "Snorlax": {
-      "Lvl 67 Cooltrainer David | Victory Road F2": {
+      "Lvl 67 David | Victory Road F2": {
         "level": 67,
         "tr_id": 17,
         "ai": 0,
@@ -9240,7 +9240,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Crunch",
           "Recycle",
@@ -9258,7 +9258,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 16 | Warp | Op: Lax Incense | Silph Co. F9": {
+      "Lvl 49 Grunt 16 | Warp | Op: Lax Incense | Silph Co. F9": {
         "level": 49,
         "tr_id": 387,
         "ai": 789,
@@ -9292,7 +9292,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 15 | Gate | Op: Lax Incense | Silph Co. F9": {
+      "Lvl 49 Grunt 15 | Gate | Op: Lax Incense | Silph Co. F9": {
         "level": 49,
         "tr_id": 388,
         "ai": 789,
@@ -9326,7 +9326,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Camper Justin | Op: Iapapa Berry | R12": {
+      "Lvl 45 Justin | Op: Iapapa Berry | R12": {
         "level": 45,
         "tr_id": 477,
         "ai": 773,
@@ -9362,7 +9362,7 @@ var backup_data = {
       }
     },
     "Venusaur": {
-      "Lvl 67 Cooltrainer David | Victory Road F2": {
+      "Lvl 67 David | Victory Road F2": {
         "level": 67,
         "tr_id": 17,
         "ai": 0,
@@ -9378,7 +9378,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Leech Seed",
           "Ingrain",
@@ -9396,7 +9396,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Beauty Lori | Left | Celadon Gym": {
+      "Lvl 37 Lori | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 267,
         "ai": 773,
@@ -9430,7 +9430,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Juggler Kirk | Fuchsia Gym": {
+      "Lvl 48 Kirk | Fuchsia Gym": {
         "level": 48,
         "tr_id": 288,
         "ai": 781,
@@ -9446,7 +9446,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Leech Seed",
           "Petal Dance",
@@ -9464,7 +9464,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Rival | Grass | Pokemon Tower F2": {
+      "Lvl 42 Rival | Grass | Pkmn Tower F2": {
         "level": 42,
         "tr_id": 430,
         "ai": 807,
@@ -9498,7 +9498,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Rival | Grass | Sylph Co. F7": {
+      "Lvl 51 Rival | Grass | Silph Co. F7": {
         "level": 51,
         "tr_id": 433,
         "ai": 815,
@@ -9566,7 +9566,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 75 Champion Rival | Grass | Pokemon League": {
+      "Lvl 75 Rival | Grass | Pkmn League Champion": {
         "level": 75,
         "tr_id": 439,
         "ai": 815,
@@ -9602,7 +9602,7 @@ var backup_data = {
       }
     },
     "Arcanine": {
-      "Lvl 68 Cooltrainer David | Victory Road F2": {
+      "Lvl 68 David | Victory Road F2": {
         "level": 68,
         "tr_id": 17,
         "ai": 0,
@@ -9618,7 +9618,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Crunch",
           "Howl",
@@ -9636,7 +9636,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Gentleman Chet | Op: Petaya Berry | R21": {
+      "Lvl 58 Chet | Op: Petaya Berry | R21": {
         "level": 58,
         "tr_id": 19,
         "ai": 0,
@@ -9652,7 +9652,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Double-Edge",
           "Wild Charge",
@@ -9670,7 +9670,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Burglar Lewis | Pokemon Mansion BF1": {
+      "Lvl 60 Lewis | Pkmn Mansion BF1": {
         "level": 60,
         "tr_id": 219,
         "ai": 773,
@@ -9686,7 +9686,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Protect",
           "Howl",
@@ -9704,7 +9704,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Leader Blaine | Cinnabar Gym": {
+      "Lvl 62 Blaine | Cinnabar Gym": {
         "level": 62,
         "tr_id": 419,
         "ai": 815,
@@ -9738,7 +9738,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Water | Sylph Co. F7": {
+      "Lvl 49 Rival | Water | Silph Co. F7": {
         "level": 49,
         "tr_id": 432,
         "ai": 783,
@@ -9772,7 +9772,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Rival | Grass | Sylph Co. F7": {
+      "Lvl 50 Rival | Grass | Silph Co. F7": {
         "level": 50,
         "tr_id": 433,
         "ai": 815,
@@ -9874,7 +9874,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Young Couple Lea Jed | Fly | Route 16": {
+      "Lvl 38 Lea Jed | Fly | R16": {
         "level": 38,
         "tr_id": 489,
         "ai": 773,
@@ -9890,7 +9890,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Timid",
         "moves": [
           "Dig",
           "Body Slam",
@@ -9910,7 +9910,7 @@ var backup_data = {
       }
     },
     "Raichu": {
-      "Lvl 66 Trainer Keanu | Victory Road F3": {
+      "Lvl 66 Keanu | Victory Road F3": {
         "level": 66,
         "tr_id": 18,
         "ai": 783,
@@ -9944,7 +9944,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Nikolas | Middle 2 | R17": {
+      "Lvl 46 Nikolas | Middle 2 | R17": {
         "level": 46,
         "tr_id": 204,
         "ai": 773,
@@ -9978,7 +9978,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 25 Engineer Braxton | Op: Magnet | R11": {
+      "Lvl 25 Braxton | Op: Magnet | R11": {
         "level": 25,
         "tr_id": 221,
         "ai": 773,
@@ -10012,7 +10012,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Rocker Luca | Op: TM24 | R12": {
+      "Lvl 45 Luca | Op: TM24 | R12": {
         "level": 45,
         "tr_id": 285,
         "ai": 773,
@@ -10046,7 +10046,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Jerry | Direct | Op: Mental Herb | Silph Co. F2": {
+      "Lvl 49 Jerry | Direct | Op: Mental Herb | Silph Co. F2": {
         "level": 49,
         "tr_id": 337,
         "ai": 845,
@@ -10062,7 +10062,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Charge",
           "Thunderbolt",
@@ -10080,7 +10080,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Leader Lt. Surge | Vermilion Gym": {
+      "Lvl 31 Lt. Surge | Vermilion Gym": {
         "level": 31,
         "tr_id": 416,
         "ai": 815,
@@ -10114,7 +10114,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Gentleman Brooks | Op: Light Ball | S.S. Anne F2": {
+      "Lvl 27 Brooks | Op: Light Ball | S.S. Anne F2": {
         "level": 27,
         "tr_id": 482,
         "ai": 773,
@@ -10130,7 +10130,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Quick Attack",
           "Thunder Wave",
@@ -10150,7 +10150,7 @@ var backup_data = {
       }
     },
     "Shiftry": {
-      "Lvl 66 Trainer Keanu | Victory Road F3": {
+      "Lvl 66 Keanu | Victory Road F3": {
         "level": 66,
         "tr_id": 18,
         "ai": 783,
@@ -10184,7 +10184,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Jaxon | Left 2 | R17": {
+      "Lvl 46 Jaxon | Left 2 | R17": {
         "level": 46,
         "tr_id": 205,
         "ai": 773,
@@ -10218,7 +10218,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Isaac | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Isaac | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 208,
         "ai": 773,
@@ -10252,7 +10252,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 17 | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
+      "Lvl 49 Grunt 17 | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
         "level": 49,
         "tr_id": 389,
         "ai": 789,
@@ -10286,7 +10286,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Leader Erika | Celadon City": {
+      "Lvl 38 Erika | Celadon City": {
         "level": 38,
         "tr_id": 417,
         "ai": 815,
@@ -10320,7 +10320,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Channeler Angelica | Pokemon Tower F6": {
+      "Lvl 42 Angelica | Pkmn Tower F6": {
         "level": 42,
         "tr_id": 451,
         "ai": 773,
@@ -10356,7 +10356,7 @@ var backup_data = {
       }
     },
     "Jolteon": {
-      "Lvl 67 Trainer Keanu | Victory Road F3": {
+      "Lvl 67 Keanu | Victory Road F3": {
         "level": 67,
         "tr_id": 18,
         "ai": 783,
@@ -10390,7 +10390,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Nikolas | Middle 2 | R17": {
+      "Lvl 46 Nikolas | Middle 2 | R17": {
         "level": 46,
         "tr_id": 204,
         "ai": 773,
@@ -10424,7 +10424,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Burglar Quinn | Op: Question 1 | Cinnabar Gym": {
+      "Lvl 60 Quinn | Q1 | Cinnabar Gym": {
         "level": 60,
         "tr_id": 213,
         "ai": 781,
@@ -10440,7 +10440,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Sunny Day",
           "Thunder Wave",
@@ -10458,7 +10458,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Gamer Rich | Op: Water Encounter | R8": {
+      "Lvl 36 Rich | Op: Water | R8": {
         "level": 36,
         "tr_id": 264,
         "ai": 773,
@@ -10492,7 +10492,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Rocker Luca | Op: TM24 | R12": {
+      "Lvl 45 Luca | Op: TM24 | R12": {
         "level": 45,
         "tr_id": 285,
         "ai": 773,
@@ -10526,7 +10526,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 29 Gentleman Tucker | Vermilion Gym": {
+      "Lvl 29 Tucker | Vermilion Gym": {
         "level": 29,
         "tr_id": 423,
         "ai": 813,
@@ -10542,7 +10542,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Sand Attack",
           "Double Kick",
@@ -10560,7 +10560,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Water | Sylph Co. F7": {
+      "Lvl 49 Rival | Water | Silph Co. F7": {
         "level": 49,
         "tr_id": 432,
         "ai": 783,
@@ -10594,7 +10594,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Grass | Sylph Co. F7": {
+      "Lvl 49 Rival | Grass | Silph Co. F7": {
         "level": 49,
         "tr_id": 433,
         "ai": 815,
@@ -10628,7 +10628,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Fire | Sylph Co. F7": {
+      "Lvl 49 Rival | Fire | Silph Co. F7": {
         "level": 49,
         "tr_id": 434,
         "ai": 815,
@@ -10766,7 +10766,7 @@ var backup_data = {
       }
     },
     "Feraligatr": {
-      "Lvl 68 Trainer Keanu | Victory Road F3": {
+      "Lvl 68 Keanu | Victory Road F3": {
         "level": 68,
         "tr_id": 18,
         "ai": 783,
@@ -10800,7 +10800,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 SwimmerM Axle | Right | R19": {
+      "Lvl 54 Axle | Right | R19": {
         "level": 54,
         "tr_id": 241,
         "ai": 773,
@@ -10834,7 +10834,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 SwimmerM Jerome | R21": {
+      "Lvl 58 Jerome | R21": {
         "level": 58,
         "tr_id": 247,
         "ai": 773,
@@ -10868,7 +10868,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Celia | North | R15": {
+      "Lvl 47 Celia | North | R15": {
         "level": 47,
         "tr_id": 481,
         "ai": 773,
@@ -10884,7 +10884,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Jolly",
         "moves": [
           "Ancient Power",
           "Muddy Water",
@@ -10902,7 +10902,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Tuber Amira | Bond Bridge": {
+      "Lvl 63 Amira | Bond Bridge": {
         "level": 63,
         "tr_id": 519,
         "ai": 773,
@@ -10938,7 +10938,7 @@ var backup_data = {
       }
     },
     "Mightyena": {
-      "Lvl 58 Gentleman Chet | Op: Petaya Berry | R21": {
+      "Lvl 58 Chet | Op: Petaya Berry | R21": {
         "level": 58,
         "tr_id": 19,
         "ai": 0,
@@ -10954,7 +10954,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Sassy",
         "moves": [
           "Double-Edge",
           "Crunch",
@@ -10972,7 +10972,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Camper Chris | Op: Grass Encounter | R9": {
+      "Lvl 32 Chris | Op: Grass | R9": {
         "level": 32,
         "tr_id": 148,
         "ai": 773,
@@ -11006,7 +11006,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Pokemaniac Steve | Rock Tunnel F2": {
+      "Lvl 34 Steve | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 165,
         "ai": 773,
@@ -11022,7 +11022,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Roar",
           "Crunch",
@@ -11040,7 +11040,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Biker Jared | R13": {
+      "Lvl 44 Jared | R13": {
         "level": 44,
         "tr_id": 195,
         "ai": 773,
@@ -11074,7 +11074,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 20 Team Rocket Grunt 2 | Op: TM46 | Mt. Moon F3": {
+      "Lvl 20 Grunt 2 | Op: TM46 | Mt. Moon F3": {
         "level": 20,
         "tr_id": 353,
         "ai": 789,
@@ -11108,7 +11108,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 2 | Elevator | Rocket Hideout": {
+      "Lvl 37 Grunt 2 | Elevator | Rocket Hideout F1": {
         "level": 37,
         "tr_id": 358,
         "ai": 789,
@@ -11142,7 +11142,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 1 | Op: King's Rock | Rocket Hideout": {
+      "Lvl 38 Grunt 1 | Op: King's Rock | Rocket Hideout F1": {
         "level": 38,
         "tr_id": 359,
         "ai": 789,
@@ -11176,7 +11176,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Laurel | Pokemon Tower F4": {
+      "Lvl 40 Laurel | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 445,
         "ai": 773,
@@ -11210,7 +11210,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 3 | Three Island": {
+      "Lvl 63 Goon 3 | B2B | Three Island": {
         "level": 63,
         "tr_id": 529,
         "ai": 781,
@@ -11246,7 +11246,7 @@ var backup_data = {
       }
     },
     "Granbull": {
-      "Lvl 58 Gentleman Chet | Op: Petaya Berry | R21": {
+      "Lvl 58 Chet | Op: Petaya Berry | R21": {
         "level": 58,
         "tr_id": 19,
         "ai": 0,
@@ -11262,7 +11262,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Crunch",
           "Scary Face",
@@ -11280,7 +11280,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Beauty Grace | South | R15": {
+      "Lvl 47 Grace | South | R15": {
         "level": 47,
         "tr_id": 273,
         "ai": 773,
@@ -11314,7 +11314,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 11 | South | Op: TM08 | Silph Co. F7": {
+      "Lvl 49 Grunt 11 | South | Op: TM08 | Silph Co. F7": {
         "level": 49,
         "tr_id": 384,
         "ai": 797,
@@ -11348,7 +11348,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Picnicker Ariana | Op: White Herb | Rock Tunnel F1": {
+      "Lvl 36 Ariana | Op: White Herb | Rock Tunnel F1": {
         "level": 36,
         "tr_id": 475,
         "ai": 773,
@@ -11364,7 +11364,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Impish",
         "moves": [
           "Dig",
           "Crunch",
@@ -11382,7 +11382,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Gentleman Lamar | S.S. Anne F2": {
+      "Lvl 27 Lamar | S.S. Anne F2": {
         "level": 27,
         "tr_id": 483,
         "ai": 773,
@@ -11398,7 +11398,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Charm",
           "Dig",
@@ -11416,7 +11416,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Youngster Johnson | Pokemon Mansion F1": {
+      "Lvl 59 Johnson | Pkmn Mansion F1": {
         "level": 59,
         "tr_id": 534,
         "ai": 773,
@@ -11452,7 +11452,7 @@ var backup_data = {
       }
     },
     "Ekans": {
-      "Lvl 20 Team Rocket Grunt 2 | Op: TM46 | Mt. Moon F3": {
+      "Lvl 20 Grunt 2 | Op: TM46 | Mt. Moon F3": {
         "level": 20,
         "tr_id": 353,
         "ai": 789,
@@ -11488,7 +11488,7 @@ var backup_data = {
       }
     },
     "Rattata": {
-      "Lvl 15 Youngster Ben | R3": {
+      "Lvl 15 Ben | R3": {
         "level": 15,
         "tr_id": 89,
         "ai": 773,
@@ -11524,7 +11524,7 @@ var backup_data = {
       }
     },
     "Spearow": {
-      "Lvl 15 Youngster Ben | R3": {
+      "Lvl 15 Ben | R3": {
         "level": 15,
         "tr_id": 89,
         "ai": 773,
@@ -11558,7 +11558,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 9 Rival | Water | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Water | Op: Water | R22": {
         "level": 9,
         "tr_id": 329,
         "ai": 775,
@@ -11591,7 +11591,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 9 Rival | Grass | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Grass | Op: Water | R22": {
         "level": 9,
         "tr_id": 330,
         "ai": 775,
@@ -11624,7 +11624,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 9 Rival | Fire | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Fire | Op: Water | R22": {
         "level": 9,
         "tr_id": 331,
         "ai": 775,
@@ -11659,7 +11659,7 @@ var backup_data = {
       }
     },
     "Nidorino": {
-      "Lvl 15 Youngster Ben | R3": {
+      "Lvl 15 Ben | R3": {
         "level": 15,
         "tr_id": 89,
         "ai": 773,
@@ -11693,7 +11693,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Youngster Tyler | S.S. Anne F1": {
+      "Lvl 27 Tyler | S.S. Anne F1": {
         "level": 27,
         "tr_id": 96,
         "ai": 197,
@@ -11727,7 +11727,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 25 Youngster Dave | Op: TM16 | R11": {
+      "Lvl 25 Dave | Op: TM16 | R11": {
         "level": 25,
         "tr_id": 100,
         "ai": 773,
@@ -11761,7 +11761,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Picnicker Kelsey | R25": {
+      "Lvl 22 Kelsey | R25": {
         "level": 22,
         "tr_id": 153,
         "ai": 773,
@@ -11777,7 +11777,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Rash",
         "moves": [
           "Shock Wave",
           "Bite",
@@ -11795,7 +11795,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 20 Team Rocket Grunt 1 | Op: Starf Berry | Mt. Moon F3": {
+      "Lvl 20 Grunt 1 | Op: Starf Berry | Mt. Moon F3": {
         "level": 20,
         "tr_id": 352,
         "ai": 789,
@@ -11831,7 +11831,7 @@ var backup_data = {
       }
     },
     "Nosepass": {
-      "Lvl 17 Youngster Calvin | Op: Sitrus Berry | R3": {
+      "Lvl 17 Calvin | Op: Sitrus Berry | R3": {
         "level": 17,
         "tr_id": 90,
         "ai": 783,
@@ -11865,7 +11865,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 28 Engineer Baily | Vermilion Gym": {
+      "Lvl 28 Baily | Vermilion Gym": {
         "level": 28,
         "tr_id": 220,
         "ai": 773,
@@ -11899,7 +11899,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 13 | Op: F8 Access | Silph Co. F8": {
+      "Lvl 49 Grunt 13 | Op: F8 Access | Silph Co. F8": {
         "level": 49,
         "tr_id": 382,
         "ai": 789,
@@ -11935,7 +11935,7 @@ var backup_data = {
       }
     },
     "Luvdisc": {
-      "Lvl 17 Youngster Calvin | Op: Sitrus Berry | R3": {
+      "Lvl 17 Calvin | Op: Sitrus Berry | R3": {
         "level": 17,
         "tr_id": 90,
         "ai": 783,
@@ -11969,7 +11969,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Picnicker Diana | Cerulean Gym": {
+      "Lvl 22 Diana | Cerulean Gym": {
         "level": 22,
         "tr_id": 150,
         "ai": 783,
@@ -11985,7 +11985,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Rash",
         "moves": [
           "Charm",
           "Aqua Jet",
@@ -12005,7 +12005,7 @@ var backup_data = {
       }
     },
     "Farfetch'd": {
-      "Lvl 17 Youngster Calvin | Op: Sitrus Berry | R3": {
+      "Lvl 17 Calvin | Op: Sitrus Berry | R3": {
         "level": 17,
         "tr_id": 90,
         "ai": 783,
@@ -12039,7 +12039,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Lass Dawn | S.S. Anne F2": {
+      "Lvl 27 Dawn | S.S. Anne F2": {
         "level": 27,
         "tr_id": 127,
         "ai": 773,
@@ -12073,7 +12073,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Beauty Sheila | R13": {
+      "Lvl 44 Sheila | R13": {
         "level": 44,
         "tr_id": 269,
         "ai": 773,
@@ -12107,7 +12107,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Team Rocket Grunt 1 | Mt. Ember": {
+      "Lvl 62 Grunt 1 | Mt. Ember": {
         "level": 62,
         "tr_id": 537,
         "ai": 789,
@@ -12143,7 +12143,7 @@ var backup_data = {
       }
     },
     "Snubbull": {
-      "Lvl 18 Youngster Josh | Mt. Moon F1": {
+      "Lvl 18 Josh | Mt. Moon F1": {
         "level": 18,
         "tr_id": 91,
         "ai": 773,
@@ -12179,7 +12179,7 @@ var backup_data = {
       }
     },
     "Geodude": {
-      "Lvl 18 Youngster Josh | Mt. Moon F1": {
+      "Lvl 18 Josh | Mt. Moon F1": {
         "level": 18,
         "tr_id": 91,
         "ai": 773,
@@ -12213,7 +12213,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 13 Camper Liam | Pewter Gym": {
+      "Lvl 13 Liam | Pewter Gym": {
         "level": 13,
         "tr_id": 142,
         "ai": 773,
@@ -12249,7 +12249,7 @@ var backup_data = {
       }
     },
     "Zubat": {
-      "Lvl 19 Youngster Josh | Mt. Moon F1": {
+      "Lvl 19 Josh | Mt. Moon F1": {
         "level": 19,
         "tr_id": 91,
         "ai": 773,
@@ -12285,7 +12285,7 @@ var backup_data = {
       }
     },
     "Gligar": {
-      "Lvl 21 Youngster Timmy | Nugget Bridge": {
+      "Lvl 21 Timmy | Nugget Bridge": {
         "level": 21,
         "tr_id": 92,
         "ai": 773,
@@ -12319,7 +12319,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 18 Hiker Marcos | Mt. Moon F1": {
+      "Lvl 18 Marcos | Mt. Moon F1": {
         "level": 18,
         "tr_id": 181,
         "ai": 773,
@@ -12335,7 +12335,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Faint Attack",
           "Quick Attack",
@@ -12353,7 +12353,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Hiker Oliver | Left | Rock Tunnel F1": {
+      "Lvl 34 Oliver | Left | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 193,
         "ai": 773,
@@ -12369,7 +12369,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "X-Scissor",
           "Drill Run",
@@ -12387,7 +12387,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Cue Ball Luke | R16": {
+      "Lvl 43 Luke | R16": {
         "level": 43,
         "tr_id": 250,
         "ai": 773,
@@ -12421,7 +12421,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Tamer Phil | Second Path | Fuchsia Gym": {
+      "Lvl 46 Phil | Left | Fuchsia Gym": {
         "level": 46,
         "tr_id": 294,
         "ai": 773,
@@ -12437,7 +12437,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Swords Dance",
           "Aerial Ace",
@@ -12455,7 +12455,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Bird Keeper Perry | Top | R13": {
+      "Lvl 44 Perry | Top | R13": {
         "level": 44,
         "tr_id": 301,
         "ai": 773,
@@ -12471,7 +12471,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "X-Scissor",
           "Rock Slide",
@@ -12489,7 +12489,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cooltrainer Warren | Right Path | Viridian Gym": {
+      "Lvl 64 Warren | Right Path | Viridian Gym": {
         "level": 64,
         "tr_id": 401,
         "ai": 775,
@@ -12505,7 +12505,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Calm",
         "moves": [
           "Poison Tail",
           "Earthquake",
@@ -12525,7 +12525,7 @@ var backup_data = {
       }
     },
     "Cubone": {
-      "Lvl 22 Youngster Joseph | R25": {
+      "Lvl 22 Joseph | R25": {
         "level": 22,
         "tr_id": 93,
         "ai": 197,
@@ -12559,7 +12559,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 19 Hiker Marcos | Mt. Moon F1": {
+      "Lvl 19 Marcos | Mt. Moon F1": {
         "level": 19,
         "tr_id": 181,
         "ai": 773,
@@ -12575,7 +12575,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Bone Club",
           "Rock Throw",
@@ -12593,7 +12593,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Hiker Allen | Op: Thuck Club | Rock Tunnel F2": {
+      "Lvl 36 Allen | Op: Thuck Club | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 190,
         "ai": 773,
@@ -12609,7 +12609,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Headbutt",
           "Rock Tomb",
@@ -12629,7 +12629,7 @@ var backup_data = {
       }
     },
     "Slowpoke": {
-      "Lvl 22 Youngster Joseph | R25": {
+      "Lvl 22 Joseph | R25": {
         "level": 22,
         "tr_id": 93,
         "ai": 197,
@@ -12665,7 +12665,7 @@ var backup_data = {
       }
     },
     "Dunsparce": {
-      "Lvl 22 Youngster Dan | R25": {
+      "Lvl 22 Dan | R25": {
         "level": 22,
         "tr_id": 94,
         "ai": 197,
@@ -12701,7 +12701,7 @@ var backup_data = {
       }
     },
     "Azumarill": {
-      "Lvl 22 Youngster Dan | R25": {
+      "Lvl 22 Dan | R25": {
         "level": 22,
         "tr_id": 94,
         "ai": 197,
@@ -12735,7 +12735,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Picnicker Heidi | R10": {
+      "Lvl 32 Heidi | R10": {
         "level": 32,
         "tr_id": 156,
         "ai": 773,
@@ -12751,7 +12751,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Docile",
         "moves": [
           "Aqua Jet",
           "Bounce",
@@ -12769,7 +12769,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Hiker Allen | Op: Thuck Club | Rock Tunnel F2": {
+      "Lvl 36 Allen | Op: Thuck Club | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 190,
         "ai": 773,
@@ -12785,7 +12785,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Charm",
           "Aqua Jet",
@@ -12803,7 +12803,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 53 SwimmerM Reece | R19": {
+      "Lvl 53 Reece | R19": {
         "level": 53,
         "tr_id": 236,
         "ai": 773,
@@ -12837,7 +12837,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerF Nora | R20": {
+      "Lvl 56 Nora | R20": {
         "level": 56,
         "tr_id": 271,
         "ai": 773,
@@ -12871,7 +12871,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Tuber Amira | Bond Bridge": {
+      "Lvl 63 Amira | Bond Bridge": {
         "level": 63,
         "tr_id": 519,
         "ai": 773,
@@ -12907,7 +12907,7 @@ var backup_data = {
       }
     },
     "Larvitar": {
-      "Lvl 22 Youngster Chad | R25": {
+      "Lvl 22 Chad | R25": {
         "level": 22,
         "tr_id": 95,
         "ai": 197,
@@ -12943,7 +12943,7 @@ var backup_data = {
       }
     },
     "Sandslash": {
-      "Lvl 22 Youngster Chad | R25": {
+      "Lvl 22 Chad | R25": {
         "level": 22,
         "tr_id": 95,
         "ai": 197,
@@ -12977,7 +12977,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 25 Youngster Dillon | Op: TM16 | R11": {
+      "Lvl 25 Dillon | Op: TM16 | R11": {
         "level": 25,
         "tr_id": 98,
         "ai": 773,
@@ -13011,7 +13011,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Pokemaniac Ashton | Rock Tunnel F1": {
+      "Lvl 34 Ashton | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 168,
         "ai": 773,
@@ -13027,7 +13027,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Calm",
         "moves": [
           "Slash",
           "Rock Slide",
@@ -13045,7 +13045,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Hiker Dudley | Op: TM37 | Rock Tunnel F2": {
+      "Lvl 36 Dudley | Op: TM37 | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 189,
         "ai": 773,
@@ -13061,7 +13061,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Rock Slide",
           "Drill Run",
@@ -13079,7 +13079,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Tamer Jason | Middle Path | Viridian Gym": {
+      "Lvl 64 Jason | Middle Path | Viridian Gym": {
         "level": 64,
         "tr_id": 296,
         "ai": 781,
@@ -13095,7 +13095,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Brick Break",
           "Spikes",
@@ -13113,7 +13113,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Leader Giovanni | Viridian Gym": {
+      "Lvl 63 Giovanni | Viridian Gym": {
         "level": 63,
         "tr_id": 350,
         "ai": 831,
@@ -13147,7 +13147,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 9 | Rocket Hideout": {
+      "Lvl 38 Grunt 9 | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 366,
         "ai": 789,
@@ -13181,7 +13181,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 18 | Op: TM37 | Silph Co. F11": {
+      "Lvl 49 Grunt 18 | Op: TM37 | Silph Co. F11": {
         "level": 49,
         "tr_id": 390,
         "ai": 789,
@@ -13215,7 +13215,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Cooltrainer Yuji | Middle Path | Viridian Gym": {
+      "Lvl 63 Yuji | Middle Path | Viridian Gym": {
         "level": 63,
         "tr_id": 400,
         "ai": 783,
@@ -13231,7 +13231,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Swords Dance",
           "Iron Tail",
@@ -13249,7 +13249,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Team Rocket Grunt 2 | Mt. Ember": {
+      "Lvl 62 Grunt 2 | Mt. Ember": {
         "level": 62,
         "tr_id": 538,
         "ai": 789,
@@ -13285,7 +13285,7 @@ var backup_data = {
       }
     },
     "Dustox": {
-      "Lvl 27 Youngster Tyler | S.S. Anne F1": {
+      "Lvl 27 Tyler | S.S. Anne F1": {
         "level": 27,
         "tr_id": 96,
         "ai": 197,
@@ -13319,7 +13319,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 15 Bug Catcher Greg | R3": {
+      "Lvl 15 Greg | R3": {
         "level": 15,
         "tr_id": 106,
         "ai": 1,
@@ -13353,7 +13353,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Juggler Kayden | Fuschia Gym": {
+      "Lvl 46 Kayden | Fuschia Gym": {
         "level": 46,
         "tr_id": 292,
         "ai": 773,
@@ -13369,7 +13369,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Protect",
           "Moonlight",
@@ -13387,7 +13387,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 19 Team Rocket Grunt 4 | Mt. Moon F3": {
+      "Lvl 19 Grunt 4 | Mt. Moon F3": {
         "level": 19,
         "tr_id": 351,
         "ai": 789,
@@ -13421,7 +13421,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 15 | Gate | Op: Lax Incense | Silph Co. F9": {
+      "Lvl 49 Grunt 15 | Gate | Op: Lax Incense | Silph Co. F9": {
         "level": 49,
         "tr_id": 388,
         "ai": 789,
@@ -13457,7 +13457,7 @@ var backup_data = {
       }
     },
     "Plusle": {
-      "Lvl 27 Youngster Tyler | S.S. Anne F1": {
+      "Lvl 27 Tyler | S.S. Anne F1": {
         "level": 27,
         "tr_id": 96,
         "ai": 197,
@@ -13491,7 +13491,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 28 Sailor Dwayne | Vermilion Gym": {
+      "Lvl 28 Dwayne | Vermilion Gym": {
         "level": 28,
         "tr_id": 141,
         "ai": 911,
@@ -13525,7 +13525,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Jerry | Direct | Op: Mental Herb | Silph Co. F2": {
+      "Lvl 49 Jerry | Direct | Op: Mental Herb | Silph Co. F2": {
         "level": 49,
         "tr_id": 337,
         "ai": 845,
@@ -13541,7 +13541,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Nuzzle",
           "Seismic Toss",
@@ -13561,7 +13561,7 @@ var backup_data = {
       }
     },
     "Arbok": {
-      "Lvl 26 Youngster Eddie | R11": {
+      "Lvl 26 Eddie | R11": {
         "level": 26,
         "tr_id": 97,
         "ai": 197,
@@ -13595,7 +13595,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Camper Chris | Op: Grass Encounter | R9": {
+      "Lvl 32 Chris | Op: Grass | R9": {
         "level": 32,
         "tr_id": 148,
         "ai": 773,
@@ -13629,7 +13629,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Pokemaniac Steve | Rock Tunnel F2": {
+      "Lvl 34 Steve | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 165,
         "ai": 773,
@@ -13645,7 +13645,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Glare",
           "Crunch",
@@ -13663,7 +13663,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Biker Lao | R16": {
+      "Lvl 43 Lao | R16": {
         "level": 43,
         "tr_id": 199,
         "ai": 773,
@@ -13697,7 +13697,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 61 Burglar Simon | Op: Lansat Berry | Pokemon Mansion F3": {
+      "Lvl 61 Simon | Op: Lansat Berry | Pkmn Mansion F3": {
         "level": 61,
         "tr_id": 218,
         "ai": 773,
@@ -13713,7 +13713,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Glare",
           "Crunch",
@@ -13731,7 +13731,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 10 | Rocket Hideout": {
+      "Lvl 38 Grunt 10 | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 367,
         "ai": 789,
@@ -13765,7 +13765,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Leader Koga | Fuchsia Gym": {
+      "Lvl 47 Koga | Fuchsia Gym": {
         "level": 47,
         "tr_id": 418,
         "ai": 823,
@@ -13799,7 +13799,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 2 | Three Island": {
+      "Lvl 63 Goon 2 | B2B | Three Island": {
         "level": 63,
         "tr_id": 528,
         "ai": 773,
@@ -13833,7 +13833,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Biker Ricardo | R8": {
+      "Lvl 36 Ricardo | R8": {
         "level": 36,
         "tr_id": 535,
         "ai": 773,
@@ -13869,7 +13869,7 @@ var backup_data = {
       }
     },
     "Golbat": {
-      "Lvl 25 Youngster Dillon | Op: TM16 | R11": {
+      "Lvl 25 Dillon | Op: TM16 | R11": {
         "level": 25,
         "tr_id": 98,
         "ai": 773,
@@ -13903,7 +13903,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 39 Boss Giovanni | Rocket Hideout": {
+      "Lvl 39 Giovanni | Rocket Hideout F4": {
         "level": 39,
         "tr_id": 348,
         "ai": 823,
@@ -13937,7 +13937,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Team Rocket Grunt | Nugget Bridge": {
+      "Lvl 22 Grunt | Nugget Bridge": {
         "level": 22,
         "tr_id": 356,
         "ai": 789,
@@ -13971,7 +13971,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 4 | Op: TM32 | Rocket Hideout": {
+      "Lvl 38 Grunt 4 | Op: TM32 | Rocket Hideout F1": {
         "level": 38,
         "tr_id": 360,
         "ai": 789,
@@ -14005,7 +14005,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Jeremy | Op: TM40 | R9": {
+      "Lvl 33 Jeremy | Op: TM40 | R9": {
         "level": 33,
         "tr_id": 465,
         "ai": 773,
@@ -14021,7 +14021,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Hypnosis",
           "Aerial Ace",
@@ -14041,7 +14041,7 @@ var backup_data = {
       }
     },
     "Zangoose": {
-      "Lvl 26 Youngster Yasu | Op: Salac Berry | R11": {
+      "Lvl 26 Yasu | Op: Salac Berry | R11": {
         "level": 26,
         "tr_id": 99,
         "ai": 773,
@@ -14075,7 +14075,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Cue Ball Raul | Op: Grass Encounter | R17": {
+      "Lvl 45 Raul | Op: Grass | R17": {
         "level": 45,
         "tr_id": 252,
         "ai": 773,
@@ -14109,7 +14109,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Beauty Lola | R13": {
+      "Lvl 44 Lola | R13": {
         "level": 44,
         "tr_id": 268,
         "ai": 773,
@@ -14143,7 +14143,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 7 | Rocket Hideout": {
+      "Lvl 37 Grunt 7 | Rocket Hideout F3": {
         "level": 37,
         "tr_id": 364,
         "ai": 789,
@@ -14177,7 +14177,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Team Rocket Grunt 2 | Pokemon Tower F7": {
+      "Lvl 41 Grunt 2 | Pkmn Tower F7": {
         "level": 41,
         "tr_id": 370,
         "ai": 789,
@@ -14211,7 +14211,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 17 | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
+      "Lvl 49 Grunt 17 | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
         "level": 49,
         "tr_id": 389,
         "ai": 789,
@@ -14245,7 +14245,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Picnicker Ariana | Op: White Herb | Rock Tunnel F1": {
+      "Lvl 36 Ariana | Op: White Herb | Rock Tunnel F1": {
         "level": 36,
         "tr_id": 475,
         "ai": 773,
@@ -14261,7 +14261,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Impish",
         "moves": [
           "Leer",
           "Slash",
@@ -14281,7 +14281,7 @@ var backup_data = {
       }
     },
     "Seviper": {
-      "Lvl 26 Youngster Yasu | Op: Salac Berry | R11": {
+      "Lvl 26 Yasu | Op: Salac Berry | R11": {
         "level": 26,
         "tr_id": 99,
         "ai": 773,
@@ -14315,7 +14315,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Cue Ball Raul | Op: Grass Encounter | R17": {
+      "Lvl 45 Raul | Op: Grass | R17": {
         "level": 45,
         "tr_id": 252,
         "ai": 773,
@@ -14349,7 +14349,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Jose | Op: TM35 | Silph Co. F3": {
+      "Lvl 49 Jose | Op: TM35 | Silph Co. F3": {
         "level": 49,
         "tr_id": 338,
         "ai": 773,
@@ -14365,7 +14365,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Flamethrower",
           "Glare",
@@ -14383,7 +14383,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Travis | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
+      "Lvl 49 Travis | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
         "level": 49,
         "tr_id": 345,
         "ai": 773,
@@ -14399,7 +14399,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Crunch",
           "Body Slam",
@@ -14417,7 +14417,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 8 | Lift Key | Rocket Hideout": {
+      "Lvl 37 Grunt 8 | Lift Key | Rocket Hideout F4": {
         "level": 37,
         "tr_id": 368,
         "ai": 789,
@@ -14451,7 +14451,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Team Rocket Grunt 1 | Pokemon Tower F7": {
+      "Lvl 41 Grunt 1 | Pkmn Tower F7": {
         "level": 41,
         "tr_id": 369,
         "ai": 789,
@@ -14485,7 +14485,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Leader Koga | Fuchsia Gym": {
+      "Lvl 47 Koga | Fuchsia Gym": {
         "level": 47,
         "tr_id": 418,
         "ai": 823,
@@ -14519,7 +14519,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Biker Ricardo | R8": {
+      "Lvl 36 Ricardo | R8": {
         "level": 36,
         "tr_id": 535,
         "ai": 773,
@@ -14555,7 +14555,7 @@ var backup_data = {
       }
     },
     "Swalot": {
-      "Lvl 25 Youngster Dave | Op: TM16 | R11": {
+      "Lvl 25 Dave | Op: TM16 | R11": {
         "level": 25,
         "tr_id": 100,
         "ai": 773,
@@ -14589,7 +14589,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Isaiah | Middle 2 | R17": {
+      "Lvl 46 Isaiah | Middle 2 | R17": {
         "level": 46,
         "tr_id": 253,
         "ai": 773,
@@ -14623,7 +14623,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Juggler Sean | Second Path | Fuchsia Gym": {
+      "Lvl 47 Sean | Left | Fuchsia Gym": {
         "level": 47,
         "tr_id": 289,
         "ai": 773,
@@ -14639,7 +14639,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Yawn",
           "Acid",
@@ -14657,7 +14657,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 28 Gentleman Arthur | Op: Timer Ball | S.S. Anne F1": {
+      "Lvl 28 Arthur | Op: Timer Ball | S.S. Anne F1": {
         "level": 28,
         "tr_id": 422,
         "ai": 773,
@@ -14673,7 +14673,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Yawn",
           "Amnesia",
@@ -14691,7 +14691,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Karina | Pokemon Tower F5": {
+      "Lvl 41 Karina | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 449,
         "ai": 773,
@@ -14725,7 +14725,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 2 | Three Island": {
+      "Lvl 63 Goon 2 | B2B | Three Island": {
         "level": 63,
         "tr_id": 528,
         "ai": 773,
@@ -14759,7 +14759,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Biker Ricardo | R8": {
+      "Lvl 36 Ricardo | R8": {
         "level": 36,
         "tr_id": 535,
         "ai": 773,
@@ -14795,7 +14795,7 @@ var backup_data = {
       }
     },
     "Metapod": {
-      "Lvl 8 Bug Catcher Rick | Viridian Forest": {
+      "Lvl 8 Rick | Viridian Forest": {
         "level": 8,
         "tr_id": 102,
         "ai": 773,
@@ -14830,7 +14830,7 @@ var backup_data = {
       }
     },
     "Kakuna": {
-      "Lvl 8 Bug Catcher Rick | Viridian Forest": {
+      "Lvl 8 Rick | Viridian Forest": {
         "level": 8,
         "tr_id": 102,
         "ai": 773,
@@ -14865,7 +14865,7 @@ var backup_data = {
       }
     },
     "Yanma": {
-      "Lvl 9 Bug Catcher Doug | Viridian Forest": {
+      "Lvl 9 Doug | Viridian Forest": {
         "level": 9,
         "tr_id": 103,
         "ai": 773,
@@ -14900,7 +14900,7 @@ var backup_data = {
       }
     },
     "Surskit": {
-      "Lvl 9 Bug Catcher Doug | Viridian Forest": {
+      "Lvl 9 Doug | Viridian Forest": {
         "level": 9,
         "tr_id": 103,
         "ai": 773,
@@ -14934,7 +14934,7 @@ var backup_data = {
       }
     },
     "Volbeat": {
-      "Lvl 12 Bug Catcher Sammy | Viridian Forest": {
+      "Lvl 12 Sammy | Viridian Forest": {
         "level": 12,
         "tr_id": 104,
         "ai": 773,
@@ -14968,7 +14968,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 9 | South | Op: TM45 | Silph Co. F6": {
+      "Lvl 49 Grunt 9 | South | Op: TM45 | Silph Co. F6": {
         "level": 49,
         "tr_id": 381,
         "ai": 789,
@@ -15004,7 +15004,7 @@ var backup_data = {
       }
     },
     "Illumise": {
-      "Lvl 12 Bug Catcher Sammy | Viridian Forest": {
+      "Lvl 12 Sammy | Viridian Forest": {
         "level": 12,
         "tr_id": 104,
         "ai": 773,
@@ -15038,7 +15038,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 8 | North | Op: TM45 | Silph Co. F6": {
+      "Lvl 49 Grunt 8 | North | Op: TM45 | Silph Co. F6": {
         "level": 49,
         "tr_id": 380,
         "ai": 789,
@@ -15074,7 +15074,7 @@ var backup_data = {
       }
     },
     "Butterfree": {
-      "Lvl 15 Bug Catcher Colt | R3": {
+      "Lvl 15 Colt | R3": {
         "level": 15,
         "tr_id": 105,
         "ai": 773,
@@ -15108,7 +15108,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 18 Bug Catcher Robby | Mt. Moon F1": {
+      "Lvl 18 Robby | Mt. Moon F1": {
         "level": 18,
         "tr_id": 109,
         "ai": 773,
@@ -15142,7 +15142,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Bug Catcher Conner | R9": {
+      "Lvl 31 Conner | R9": {
         "level": 31,
         "tr_id": 115,
         "ai": 773,
@@ -15178,7 +15178,7 @@ var backup_data = {
       }
     },
     "Beedrill": {
-      "Lvl 15 Bug Catcher Colt | R3": {
+      "Lvl 15 Colt | R3": {
         "level": 15,
         "tr_id": 105,
         "ai": 773,
@@ -15212,7 +15212,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Bug Catcher Brent | R9": {
+      "Lvl 31 Brent | R9": {
         "level": 31,
         "tr_id": 114,
         "ai": 773,
@@ -15246,7 +15246,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Lass Andrea | Op: Leichi Berry | R8": {
+      "Lvl 36 Andrea | Op: Leichi Berry | R8": {
         "level": 36,
         "tr_id": 129,
         "ai": 773,
@@ -15280,7 +15280,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Juggler Kayden | Fuschia Gym": {
+      "Lvl 46 Kayden | Fuschia Gym": {
         "level": 46,
         "tr_id": 292,
         "ai": 773,
@@ -15288,6 +15288,40 @@ var backup_data = {
         "reward_item": "",
         "form": "",
         "item": "Bright Powder",
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "nature": "Sassy",
+        "moves": [
+          "X-Scissor",
+          "Drill Run",
+          "Agility",
+          "Gunk Shot"
+        ],
+        "sub_index": 0,
+        "ability": "Swarm",
+        "evs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        }
+      },
+      "Lvl 49 Joshua | Op: Focus Band | Silph Co. F7": {
+        "level": 49,
+        "tr_id": 342,
+        "ai": 773,
+        "battle_type": "Singles",
+        "reward_item": "",
+        "form": "",
+        "item": "Focus Band",
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -15313,44 +15347,10 @@ var backup_data = {
           "sd": 0,
           "sp": 0
         }
-      },
-      "Lvl 49 Scientist Joshua | Op: Focus Band | Silph Co. F7": {
-        "level": 49,
-        "tr_id": 342,
-        "ai": 773,
-        "battle_type": "Singles",
-        "reward_item": "",
-        "form": "",
-        "item": "Focus Band",
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "nature": "Modest",
-        "moves": [
-          "X-Scissor",
-          "Drill Run",
-          "Agility",
-          "Gunk Shot"
-        ],
-        "sub_index": 0,
-        "ability": "Swarm",
-        "evs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        }
       }
     },
     "Beautifly": {
-      "Lvl 15 Bug Catcher Greg | R3": {
+      "Lvl 15 Greg | R3": {
         "level": 15,
         "tr_id": 106,
         "ai": 1,
@@ -15384,7 +15384,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 18 Bug Catcher Robby | Mt. Moon F1": {
+      "Lvl 18 Robby | Mt. Moon F1": {
         "level": 18,
         "tr_id": 109,
         "ai": 773,
@@ -15417,7 +15417,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Lass Ann | S.S. Anne F1": {
+      "Lvl 27 Ann | S.S. Anne F1": {
         "level": 27,
         "tr_id": 126,
         "ai": 773,
@@ -15451,7 +15451,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 16 | Warp | Op: Lax Incense | Silph Co. F9": {
+      "Lvl 49 Grunt 16 | Warp | Op: Lax Incense | Silph Co. F9": {
         "level": 49,
         "tr_id": 387,
         "ai": 789,
@@ -15487,7 +15487,7 @@ var backup_data = {
       }
     },
     "Paras": {
-      "Lvl 20 Bug Catcher Kent | Op: TM09 | Mt. Moon F1": {
+      "Lvl 20 Kent | Op: TM09 | Mt. Moon F1": {
         "level": 20,
         "tr_id": 108,
         "ai": 783,
@@ -15521,7 +15521,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Picnicker Tina | Right | Celadon Gym": {
+      "Lvl 37 Tina | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 160,
         "ai": 773,
@@ -15537,7 +15537,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Impish",
         "moves": [
           "Stun Spore",
           "Fury Cutter",
@@ -15557,7 +15557,7 @@ var backup_data = {
       }
     },
     "Anorith": {
-      "Lvl 20 Bug Catcher Kent | Op: TM09 | Mt. Moon F1": {
+      "Lvl 20 Kent | Op: TM09 | Mt. Moon F1": {
         "level": 20,
         "tr_id": 108,
         "ai": 783,
@@ -15591,7 +15591,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 13 Camper Liam | Pewter Gym": {
+      "Lvl 13 Liam | Pewter Gym": {
         "level": 13,
         "tr_id": 142,
         "ai": 773,
@@ -15627,7 +15627,7 @@ var backup_data = {
       }
     },
     "Ariados": {
-      "Lvl 20 Bug Catcher Kent | Op: TM09 | Mt. Moon F1": {
+      "Lvl 20 Kent | Op: TM09 | Mt. Moon F1": {
         "level": 20,
         "tr_id": 108,
         "ai": 783,
@@ -15661,7 +15661,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Bug Catcher Brent | R9": {
+      "Lvl 31 Brent | R9": {
         "level": 31,
         "tr_id": 114,
         "ai": 773,
@@ -15695,7 +15695,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Lass Andrea | Op: Leichi Berry | R8": {
+      "Lvl 36 Andrea | Op: Leichi Berry | R8": {
         "level": 36,
         "tr_id": 129,
         "ai": 773,
@@ -15729,7 +15729,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Cue Ball Raul | Op: Grass Encounter | R17": {
+      "Lvl 45 Raul | Op: Grass | R17": {
         "level": 45,
         "tr_id": 252,
         "ai": 773,
@@ -15763,7 +15763,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Juggler Kayden | Fuschia Gym": {
+      "Lvl 46 Kayden | Fuschia Gym": {
         "level": 46,
         "tr_id": 292,
         "ai": 773,
@@ -15779,7 +15779,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Toxic",
           "Spider Web",
@@ -15799,7 +15799,7 @@ var backup_data = {
       }
     },
     "Ledian": {
-      "Lvl 21 Bug Catcher Cale | Nugget Bridge": {
+      "Lvl 21 Cale | Nugget Bridge": {
         "level": 21,
         "tr_id": 110,
         "ai": 773,
@@ -15833,7 +15833,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Bug Catcher Conner | R9": {
+      "Lvl 31 Conner | R9": {
         "level": 31,
         "tr_id": 115,
         "ai": 773,
@@ -15867,7 +15867,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Gerald | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Gerald | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 209,
         "ai": 773,
@@ -15903,7 +15903,7 @@ var backup_data = {
       }
     },
     "Venomoth": {
-      "Lvl 24 Bug Catcher Keigo | R6": {
+      "Lvl 24 Keigo | R6": {
         "level": 24,
         "tr_id": 111,
         "ai": 773,
@@ -15937,7 +15937,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Bug Catcher Brent | R9": {
+      "Lvl 31 Brent | R9": {
         "level": 31,
         "tr_id": 114,
         "ai": 773,
@@ -15971,7 +15971,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Biker Ruben | R16": {
+      "Lvl 43 Ruben | R16": {
         "level": 43,
         "tr_id": 202,
         "ai": 773,
@@ -16005,7 +16005,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Juggler Sean | Second Path | Fuchsia Gym": {
+      "Lvl 47 Sean | Left | Fuchsia Gym": {
         "level": 47,
         "tr_id": 289,
         "ai": 773,
@@ -16021,7 +16021,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Stun Spore",
           "Signal Beam",
@@ -16041,7 +16041,7 @@ var backup_data = {
       }
     },
     "Masquerain": {
-      "Lvl 24 Bug Catcher Keigo | R6": {
+      "Lvl 24 Keigo | R6": {
         "level": 24,
         "tr_id": 111,
         "ai": 773,
@@ -16075,7 +16075,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Bug Catcher Conner | R9": {
+      "Lvl 31 Conner | R9": {
         "level": 31,
         "tr_id": 115,
         "ai": 773,
@@ -16109,7 +16109,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Mitch | R14": {
+      "Lvl 46 Mitch | R14": {
         "level": 46,
         "tr_id": 314,
         "ai": 773,
@@ -16125,7 +16125,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Signal Beam",
           "Scald",
@@ -16143,7 +16143,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 10 | Rocket Hideout": {
+      "Lvl 38 Grunt 10 | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 367,
         "ai": 789,
@@ -16179,7 +16179,7 @@ var backup_data = {
       }
     },
     "Pineco": {
-      "Lvl 24 Bug Catcher Elijah | R6": {
+      "Lvl 24 Elijah | R6": {
         "level": 24,
         "tr_id": 112,
         "ai": 773,
@@ -16215,7 +16215,7 @@ var backup_data = {
       }
     },
     "Ninjask": {
-      "Lvl 24 Bug Catcher Elijah | R6": {
+      "Lvl 24 Elijah | R6": {
         "level": 24,
         "tr_id": 112,
         "ai": 773,
@@ -16249,7 +16249,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Cue Ball Luke | R16": {
+      "Lvl 43 Luke | R16": {
         "level": 43,
         "tr_id": 250,
         "ai": 773,
@@ -16283,7 +16283,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Tamer Edgar | First Path | Fuchsia Gym": {
+      "Lvl 46 Edgar | Middle | Fuchsia Gym": {
         "level": 46,
         "tr_id": 295,
         "ai": 845,
@@ -16299,7 +16299,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Protect",
           "X-Scissor",
@@ -16317,7 +16317,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Mitch | R14": {
+      "Lvl 46 Mitch | R14": {
         "level": 46,
         "tr_id": 314,
         "ai": 773,
@@ -16333,7 +16333,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Aerial Ace",
           "X-Scissor",
@@ -16351,7 +16351,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Joshua | Op: Focus Band | Silph Co. F7": {
+      "Lvl 49 Joshua | Op: Focus Band | Silph Co. F7": {
         "level": 49,
         "tr_id": 342,
         "ai": 773,
@@ -16367,7 +16367,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Giga Drain",
           "Aerial Ace",
@@ -16385,7 +16385,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Paula | Pokemon Tower F4": {
+      "Lvl 40 Paula | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 444,
         "ai": 773,
@@ -16419,7 +16419,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cue Ball Paxton | Three Island": {
+      "Lvl 64 Paxton | B2B | Three Island": {
         "level": 64,
         "tr_id": 742,
         "ai": 845,
@@ -16455,7 +16455,7 @@ var backup_data = {
       }
     },
     "Venonat": {
-      "Lvl 10 Bug Catcher Tank | Viridian Forest": {
+      "Lvl 10 Tank | Viridian Forest": {
         "level": 10,
         "tr_id": 531,
         "ai": 773,
@@ -16491,7 +16491,7 @@ var backup_data = {
       }
     },
     "Poochyena": {
-      "Lvl 15 Lass Janice | R3": {
+      "Lvl 15 Janice | R3": {
         "level": 15,
         "tr_id": 116,
         "ai": 773,
@@ -16527,7 +16527,7 @@ var backup_data = {
       }
     },
     "Hoothoot": {
-      "Lvl 15 Lass Janice | R3": {
+      "Lvl 15 Janice | R3": {
         "level": 15,
         "tr_id": 116,
         "ai": 773,
@@ -16563,7 +16563,7 @@ var backup_data = {
       }
     },
     "Swablu": {
-      "Lvl 15 Lass Janice | R3": {
+      "Lvl 15 Janice | R3": {
         "level": 15,
         "tr_id": 116,
         "ai": 773,
@@ -16597,7 +16597,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Lass Dawn | S.S. Anne F2": {
+      "Lvl 27 Dawn | S.S. Anne F2": {
         "level": 27,
         "tr_id": 127,
         "ai": 773,
@@ -16633,7 +16633,7 @@ var backup_data = {
       }
     },
     "Jigglypuff": {
-      "Lvl 16 Lass Sally | R3": {
+      "Lvl 16 Sally | R3": {
         "level": 16,
         "tr_id": 117,
         "ai": 773,
@@ -16668,7 +16668,7 @@ var backup_data = {
       }
     },
     "Marill": {
-      "Lvl 16 Lass Sally | R3": {
+      "Lvl 16 Sally | R3": {
         "level": 16,
         "tr_id": 117,
         "ai": 773,
@@ -16704,7 +16704,7 @@ var backup_data = {
       }
     },
     "Nidorina": {
-      "Lvl 16 Lass Sally | R3": {
+      "Lvl 16 Sally | R3": {
         "level": 16,
         "tr_id": 117,
         "ai": 773,
@@ -16738,7 +16738,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Lass Ann | S.S. Anne F1": {
+      "Lvl 27 Ann | S.S. Anne F1": {
         "level": 27,
         "tr_id": 126,
         "ai": 773,
@@ -16772,7 +16772,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Lass Paige | Op: Petaya Berry | R8": {
+      "Lvl 36 Paige | Op: Petaya Berry | R8": {
         "level": 36,
         "tr_id": 128,
         "ai": 773,
@@ -16806,7 +16806,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Picnicker Kelsey | R25": {
+      "Lvl 22 Kelsey | R25": {
         "level": 22,
         "tr_id": 153,
         "ai": 773,
@@ -16822,7 +16822,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Lax",
         "moves": [
           "Water Pulse",
           "Bite",
@@ -16842,7 +16842,7 @@ var backup_data = {
       }
     },
     "Pikachu": {
-      "Lvl 17 Lass Robin | R3": {
+      "Lvl 17 Robin | R3": {
         "level": 17,
         "tr_id": 118,
         "ai": 783,
@@ -16876,7 +16876,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Picnicker Heidi | R10": {
+      "Lvl 32 Heidi | R10": {
         "level": 32,
         "tr_id": 156,
         "ai": 773,
@@ -16892,7 +16892,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Hasty",
         "moves": [
           "Seismic Toss",
           "Light Screen",
@@ -16910,7 +16910,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 30 Gentleman Tucker | Vermilion Gym": {
+      "Lvl 30 Tucker | Vermilion Gym": {
         "level": 30,
         "tr_id": 423,
         "ai": 813,
@@ -16926,7 +16926,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Thunder Wave",
           "Seismic Toss",
@@ -16944,7 +16944,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 28 Gentleman Brooks | Op: Light Ball | S.S. Anne F2": {
+      "Lvl 28 Brooks | Op: Light Ball | S.S. Anne F2": {
         "level": 28,
         "tr_id": 482,
         "ai": 773,
@@ -16960,7 +16960,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Quick Attack",
           "Thunder Wave",
@@ -16980,7 +16980,7 @@ var backup_data = {
       }
     },
     "Skiploom": {
-      "Lvl 17 Lass Robin | R3": {
+      "Lvl 17 Robin | R3": {
         "level": 17,
         "tr_id": 118,
         "ai": 783,
@@ -17016,7 +17016,7 @@ var backup_data = {
       }
     },
     "Aipom": {
-      "Lvl 17 Lass Robin | R3": {
+      "Lvl 17 Robin | R3": {
         "level": 17,
         "tr_id": 118,
         "ai": 783,
@@ -17050,7 +17050,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 26 Gamer Dirk | R11": {
+      "Lvl 26 Dirk | R11": {
         "level": 26,
         "tr_id": 260,
         "ai": 773,
@@ -17086,7 +17086,7 @@ var backup_data = {
       }
     },
     "Parasect": {
-      "Lvl 37 Picnicker Tina | Right | Celadon Gym": {
+      "Lvl 37 Tina | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 160,
         "ai": 773,
@@ -17102,7 +17102,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Serious",
         "moves": [
           "Metal Claw",
           "Slash",
@@ -17120,7 +17120,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Beauty Tamia | Left | Celadon Gym": {
+      "Lvl 37 Tamia | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 266,
         "ai": 773,
@@ -17154,7 +17154,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Beauty Olivia | North | R15": {
+      "Lvl 47 Olivia | North | R15": {
         "level": 47,
         "tr_id": 274,
         "ai": 773,
@@ -17190,7 +17190,7 @@ var backup_data = {
       }
     },
     "Oddish": {
-      "Lvl 18 Lass Miriam | Mt. Moon F1": {
+      "Lvl 18 Miriam | Mt. Moon F1": {
         "level": 18,
         "tr_id": 120,
         "ai": 773,
@@ -17226,7 +17226,7 @@ var backup_data = {
       }
     },
     "Bellsprout": {
-      "Lvl 18 Lass Miriam | Mt. Moon F1": {
+      "Lvl 18 Miriam | Mt. Moon F1": {
         "level": 18,
         "tr_id": 120,
         "ai": 773,
@@ -17262,7 +17262,7 @@ var backup_data = {
       }
     },
     "Ivysaur": {
-      "Lvl 18 Lass Miriam | Mt. Moon F1": {
+      "Lvl 18 Miriam | Mt. Moon F1": {
         "level": 18,
         "tr_id": 120,
         "ai": 773,
@@ -17296,7 +17296,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Pokemaniac Cooper | Rock Tunnel F2": {
+      "Lvl 34 Cooper | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 164,
         "ai": 773,
@@ -17312,7 +17312,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Sleep Powder",
           "Magical Leaf",
@@ -17400,7 +17400,7 @@ var backup_data = {
       }
     },
     "Whismur": {
-      "Lvl 18 Lass Iris | Mt. Moon F1": {
+      "Lvl 18 Iris | Mt. Moon F1": {
         "level": 18,
         "tr_id": 121,
         "ai": 773,
@@ -17436,7 +17436,7 @@ var backup_data = {
       }
     },
     "Clefairy": {
-      "Lvl 18 Lass Iris | Mt. Moon F1": {
+      "Lvl 18 Iris | Mt. Moon F1": {
         "level": 18,
         "tr_id": 121,
         "ai": 773,
@@ -17470,7 +17470,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Picnicker Heidi | R10": {
+      "Lvl 32 Heidi | R10": {
         "level": 32,
         "tr_id": 156,
         "ai": 773,
@@ -17486,7 +17486,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Sweet Kiss",
           "Reflect",
@@ -17506,7 +17506,7 @@ var backup_data = {
       }
     },
     "Skitty": {
-      "Lvl 18 Lass Iris | Mt. Moon F1": {
+      "Lvl 18 Iris | Mt. Moon F1": {
         "level": 18,
         "tr_id": 121,
         "ai": 773,
@@ -17542,7 +17542,7 @@ var backup_data = {
       }
     },
     "Roselia": {
-      "Lvl 21 Lass Reli | Nugget Bridge": {
+      "Lvl 21 Reli | Nugget Bridge": {
         "level": 21,
         "tr_id": 122,
         "ai": 773,
@@ -17576,7 +17576,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Lass Lisa | Right | Celadon Gym": {
+      "Lvl 37 Lisa | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 133,
         "ai": 773,
@@ -17610,7 +17610,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Picnicker Alicia | R9": {
+      "Lvl 31 Alicia | R9": {
         "level": 31,
         "tr_id": 154,
         "ai": 773,
@@ -17626,7 +17626,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Naughty",
         "moves": [
           "Mega Drain",
           "Sweet Scent",
@@ -17644,7 +17644,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Picnicker Martha | Rock Tunnel F2": {
+      "Lvl 34 Martha | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 159,
         "ai": 773,
@@ -17660,7 +17660,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Bashful",
         "moves": [
           "Leech Seed",
           "Sludge",
@@ -17678,7 +17678,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Beauty Lori | Left | Celadon Gym": {
+      "Lvl 37 Lori | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 267,
         "ai": 773,
@@ -17712,7 +17712,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Juggler Nate | First Path | Fuchsia Gym": {
+      "Lvl 47 Nate | Middle | Fuchsia Gym": {
         "level": 47,
         "tr_id": 293,
         "ai": 773,
@@ -17728,7 +17728,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Grass Whistle",
           "Sludge Bomb",
@@ -17748,7 +17748,7 @@ var backup_data = {
       }
     },
     "Grovyle": {
-      "Lvl 21 Lass Ali | Nugget Bridge": {
+      "Lvl 21 Ali | Nugget Bridge": {
         "level": 21,
         "tr_id": 123,
         "ai": 773,
@@ -17784,7 +17784,7 @@ var backup_data = {
       }
     },
     "Magby": {
-      "Lvl 23 Lass Haley | R25": {
+      "Lvl 23 Haley | R25": {
         "level": 23,
         "tr_id": 125,
         "ai": 773,
@@ -17818,7 +17818,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Gentleman Thomas | Op: B1 Access | S.S. Anne F1": {
+      "Lvl 27 Thomas | Op: B1 Access | S.S. Anne F1": {
         "level": 27,
         "tr_id": 421,
         "ai": 773,
@@ -17834,7 +17834,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Mach Punch",
           "Flame Wheel",
@@ -17854,7 +17854,7 @@ var backup_data = {
       }
     },
     "Wailmer": {
-      "Lvl 23 Lass Haley | R25": {
+      "Lvl 23 Haley | R25": {
         "level": 23,
         "tr_id": 125,
         "ai": 773,
@@ -17888,7 +17888,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Swimmerm Luis | Cerulean Gym": {
+      "Lvl 22 Luis | Cerulean Gym": {
         "level": 22,
         "tr_id": 234,
         "ai": 815,
@@ -17924,7 +17924,7 @@ var backup_data = {
       }
     },
     "Tangela": {
-      "Lvl 23 Lass Haley | R25": {
+      "Lvl 23 Haley | R25": {
         "level": 23,
         "tr_id": 125,
         "ai": 773,
@@ -17958,7 +17958,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 2 | Silph Co. F3": {
+      "Lvl 49 Grunt 2 | Silph Co. F3": {
         "level": 49,
         "tr_id": 375,
         "ai": 789,
@@ -17992,7 +17992,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Cooltrainer Mary | Celadon Gym": {
+      "Lvl 38 Mary | Celadon Gym": {
         "level": 38,
         "tr_id": 402,
         "ai": 781,
@@ -18028,7 +18028,7 @@ var backup_data = {
       }
     },
     "Minun": {
-      "Lvl 27 Lass Ann | S.S. Anne F1": {
+      "Lvl 27 Ann | S.S. Anne F1": {
         "level": 27,
         "tr_id": 126,
         "ai": 773,
@@ -18062,7 +18062,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 28 Sailor Dwayne | Vermilion Gym": {
+      "Lvl 28 Dwayne | Vermilion Gym": {
         "level": 28,
         "tr_id": 141,
         "ai": 911,
@@ -18096,7 +18096,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Jerry | Direct | Op: Mental Herb | Silph Co. F2": {
+      "Lvl 49 Jerry | Direct | Op: Mental Herb | Silph Co. F2": {
         "level": 49,
         "tr_id": 337,
         "ai": 845,
@@ -18112,7 +18112,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Charm",
           "Mega Kick",
@@ -18132,7 +18132,7 @@ var backup_data = {
       }
     },
     "Wigglytuff": {
-      "Lvl 36 Lass Paige | Op: Petaya Berry | R8": {
+      "Lvl 36 Paige | Op: Petaya Berry | R8": {
         "level": 36,
         "tr_id": 128,
         "ai": 773,
@@ -18166,7 +18166,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Picnicker Heidi | R10": {
+      "Lvl 32 Heidi | R10": {
         "level": 32,
         "tr_id": 156,
         "ai": 773,
@@ -18182,7 +18182,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Rash",
         "moves": [
           "Sing",
           "Body Slam",
@@ -18200,7 +18200,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Jose | Op: TM35 | Silph Co. F3": {
+      "Lvl 49 Jose | Op: TM35 | Silph Co. F3": {
         "level": 49,
         "tr_id": 338,
         "ai": 773,
@@ -18216,7 +18216,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Flamethrower",
           "Thunder Punch",
@@ -18234,7 +18234,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Scientist Ivan | Pokemon Mansion BF1": {
+      "Lvl 60 Ivan | Pkmn Mansion BF1": {
         "level": 60,
         "tr_id": 347,
         "ai": 773,
@@ -18250,7 +18250,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Rest",
           "Sleep Talk",
@@ -18268,7 +18268,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Kindra | South | R15": {
+      "Lvl 47 Kindra | South | R15": {
         "level": 47,
         "tr_id": 479,
         "ai": 773,
@@ -18284,7 +18284,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Lax",
         "moves": [
           "Psychic",
           "Thunder Punch",
@@ -18304,7 +18304,7 @@ var backup_data = {
       }
     },
     "Loudred": {
-      "Lvl 36 Lass Paige | Op: Petaya Berry | R8": {
+      "Lvl 36 Paige | Op: Petaya Berry | R8": {
         "level": 36,
         "tr_id": 128,
         "ai": 773,
@@ -18338,7 +18338,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 28 Sailor Edmond | Op: TM20 | S.S. Anne Deck": {
+      "Lvl 28 Edmond | Op: TM20 | S.S. Anne Deck": {
         "level": 28,
         "tr_id": 134,
         "ai": 773,
@@ -18374,7 +18374,7 @@ var backup_data = {
       }
     },
     "Nidoqueen": {
-      "Lvl 36 Lass Paige | Op: Petaya Berry | R8": {
+      "Lvl 36 Paige | Op: Petaya Berry | R8": {
         "level": 36,
         "tr_id": 128,
         "ai": 773,
@@ -18408,7 +18408,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Juggler Sean | Second Path | Fuchsia Gym": {
+      "Lvl 47 Sean | Left | Fuchsia Gym": {
         "level": 47,
         "tr_id": 289,
         "ai": 773,
@@ -18424,7 +18424,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Drill Run",
           "Ice Beam",
@@ -18442,7 +18442,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Boss Giovanni | Silph Co. F11": {
+      "Lvl 51 Giovanni | Silph Co. F11": {
         "level": 51,
         "tr_id": 349,
         "ai": 823,
@@ -18476,7 +18476,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 8 | North | Op: TM45 | Silph Co. F6": {
+      "Lvl 49 Grunt 8 | North | Op: TM45 | Silph Co. F6": {
         "level": 49,
         "tr_id": 380,
         "ai": 789,
@@ -18510,7 +18510,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cooltrainer Warren | Right Path | Viridian Gym": {
+      "Lvl 64 Warren | Right Path | Viridian Gym": {
         "level": 64,
         "tr_id": 401,
         "ai": 775,
@@ -18526,7 +18526,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Sludge Bomb",
           "Thunder",
@@ -18544,7 +18544,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Virgil | Left 2 | R17": {
+      "Lvl 46 Virgil | Left 2 | R17": {
         "level": 46,
         "tr_id": 470,
         "ai": 773,
@@ -18580,7 +18580,7 @@ var backup_data = {
       }
     },
     "Persian": {
-      "Lvl 36 Lass Andrea | Op: Leichi Berry | R8": {
+      "Lvl 36 Andrea | Op: Leichi Berry | R8": {
         "level": 36,
         "tr_id": 129,
         "ai": 773,
@@ -18614,7 +18614,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 25 Camper Jeff | R6": {
+      "Lvl 25 Jeff | R6": {
         "level": 25,
         "tr_id": 146,
         "ai": 773,
@@ -18648,7 +18648,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Picnicker Caitlin | R9": {
+      "Lvl 33 Caitlin | R9": {
         "level": 33,
         "tr_id": 155,
         "ai": 773,
@@ -18664,7 +18664,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Rash",
         "moves": [
           "Faint Attack",
           "Fake Out",
@@ -18682,7 +18682,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Cue Ball Luke | R16": {
+      "Lvl 43 Luke | R16": {
         "level": 43,
         "tr_id": 250,
         "ai": 773,
@@ -18716,7 +18716,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Tom | Warp | Op: Mental Herb | Silph Co. F8": {
+      "Lvl 49 Tom | Warp | Op: Mental Herb | Silph Co. F8": {
         "level": 49,
         "tr_id": 343,
         "ai": 773,
@@ -18732,7 +18732,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Fake Out",
           "Snatch",
@@ -18750,7 +18750,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Boss Giovanni | Rocket Hideout": {
+      "Lvl 38 Giovanni | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 348,
         "ai": 823,
@@ -18784,7 +18784,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Boss Giovanni | Silph Co. F11": {
+      "Lvl 50 Giovanni | Silph Co. F11": {
         "level": 50,
         "tr_id": 349,
         "ai": 823,
@@ -18818,7 +18818,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Picnicker Claire | Kindle Road": {
+      "Lvl 62 Claire | Kindle Road": {
         "level": 62,
         "tr_id": 556,
         "ai": 773,
@@ -18834,7 +18834,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Impish",
         "moves": [
           "Fake Out",
           "Night Slash",
@@ -18854,7 +18854,7 @@ var backup_data = {
       }
     },
     "Ursaring": {
-      "Lvl 36 Lass Andrea | Op: Leichi Berry | R8": {
+      "Lvl 36 Andrea | Op: Leichi Berry | R8": {
         "level": 36,
         "tr_id": 129,
         "ai": 773,
@@ -18888,7 +18888,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 6 | Op: TM21 | Rocket Hideout": {
+      "Lvl 38 Grunt 6 | Op: TM21 | Rocket Hideout F3": {
         "level": 38,
         "tr_id": 365,
         "ai": 789,
@@ -18922,7 +18922,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 6 | Op: TM41 | Silph Co. F4": {
+      "Lvl 49 Grunt 6 | Op: TM41 | Silph Co. F4": {
         "level": 49,
         "tr_id": 377,
         "ai": 789,
@@ -18956,7 +18956,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 10 | North | Op: TM08 | Silph Co. F7": {
+      "Lvl 49 Grunt 10 | North | Op: TM08 | Silph Co. F7": {
         "level": 49,
         "tr_id": 383,
         "ai": 797,
@@ -18990,7 +18990,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Camper Justin | Op: Iapapa Berry | R12": {
+      "Lvl 45 Justin | Op: Iapapa Berry | R12": {
         "level": 45,
         "tr_id": 477,
         "ai": 773,
@@ -19026,7 +19026,7 @@ var backup_data = {
       }
     },
     "Fearow": {
-      "Lvl 36 Lass Megan | Op: TM47 | R8": {
+      "Lvl 36 Megan | Op: TM47 | R8": {
         "level": 36,
         "tr_id": 130,
         "ai": 773,
@@ -19060,7 +19060,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 25 Camper Jeff | R6": {
+      "Lvl 25 Jeff | R6": {
         "level": 25,
         "tr_id": 146,
         "ai": 773,
@@ -19094,7 +19094,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Picnicker Carol | R10": {
+      "Lvl 32 Carol | R10": {
         "level": 32,
         "tr_id": 157,
         "ai": 773,
@@ -19110,7 +19110,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Relaxed",
         "moves": [
           "Steel Wing",
           "Secret Power",
@@ -19128,7 +19128,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Bird Keeper Sebastian | R13": {
+      "Lvl 43 Sebastian | R13": {
         "level": 43,
         "tr_id": 300,
         "ai": 773,
@@ -19144,7 +19144,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Impish",
+        "nature": "Quirky",
         "moves": [
           "Steel Wing",
           "Mean Look",
@@ -19162,7 +19162,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Bird Keeper Robert | Bottom | R13": {
+      "Lvl 44 Robert | Bottom | R13": {
         "level": 44,
         "tr_id": 302,
         "ai": 773,
@@ -19178,7 +19178,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Steel Wing",
           "Facade",
@@ -19196,7 +19196,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Bird Keeper Edwin | South, Double | R15": {
+      "Lvl 48 Edwin | South, B2B | R15": {
         "level": 48,
         "tr_id": 305,
         "ai": 773,
@@ -19212,7 +19212,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Pursuit",
           "Drill Peck",
@@ -19230,7 +19230,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Bird Keeper Jacob | R18": {
+      "Lvl 47 Jacob | R18": {
         "level": 47,
         "tr_id": 309,
         "ai": 773,
@@ -19246,7 +19246,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Steel Wing",
           "Drill Peck",
@@ -19470,7 +19470,7 @@ var backup_data = {
       }
     },
     "Dodrio": {
-      "Lvl 36 Lass Megan | Op: TM47 | R8": {
+      "Lvl 36 Megan | Op: TM47 | R8": {
         "level": 36,
         "tr_id": 130,
         "ai": 773,
@@ -19504,7 +19504,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Picnicker Carol | R10": {
+      "Lvl 32 Carol | R10": {
         "level": 32,
         "tr_id": 157,
         "ai": 773,
@@ -19520,7 +19520,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Impish",
+        "nature": "Quiet",
         "moves": [
           "Quick Attack",
           "Double Kick",
@@ -19538,7 +19538,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Biker Hideo | R16": {
+      "Lvl 43 Hideo | R16": {
         "level": 43,
         "tr_id": 201,
         "ai": 773,
@@ -19572,7 +19572,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Bird Keeper Ramiro | R18": {
+      "Lvl 47 Ramiro | R18": {
         "level": 47,
         "tr_id": 308,
         "ai": 773,
@@ -19588,7 +19588,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Steel Wing",
           "Drill Peck",
@@ -19606,7 +19606,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Beck | R14": {
+      "Lvl 46 Beck | R14": {
         "level": 46,
         "tr_id": 315,
         "ai": 773,
@@ -19622,7 +19622,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Steel Wing",
           "Drill Peck",
@@ -19640,7 +19640,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Scientist Braydon | Pokemon Mansion F3": {
+      "Lvl 59 Braydon | Pkmn Mansion F3": {
         "level": 59,
         "tr_id": 346,
         "ai": 773,
@@ -19656,7 +19656,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Taunt",
           "Steel Wing",
@@ -19676,7 +19676,7 @@ var backup_data = {
       }
     },
     "Seaking": {
-      "Lvl 35 Lass Julia | R8": {
+      "Lvl 35 Julia | R8": {
         "level": 35,
         "tr_id": 131,
         "ai": 773,
@@ -19710,7 +19710,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Fisherman Dale | S.S. Anne F2": {
+      "Lvl 27 Dale | S.S. Anne F2": {
         "level": 27,
         "tr_id": 223,
         "ai": 773,
@@ -19726,7 +19726,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Peck",
           "Water Pulse",
@@ -19744,7 +19744,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Fisherman Hank | R12": {
+      "Lvl 43 Hank | R12": {
         "level": 43,
         "tr_id": 227,
         "ai": 773,
@@ -19760,7 +19760,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Return",
           "Drill Run",
@@ -19778,7 +19778,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Fisherman Wade | Op: Salac Berry | R21": {
+      "Lvl 58 Wade | Op: Salac Berry | R21": {
         "level": 58,
         "tr_id": 231,
         "ai": 773,
@@ -19794,7 +19794,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Flail",
           "Drill Run",
@@ -19812,7 +19812,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 23 Leader Misty | Cerulean Gym": {
+      "Lvl 23 Misty | Cerulean Gym": {
         "level": 23,
         "tr_id": 415,
         "ai": 807,
@@ -19846,7 +19846,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Maria | Kindle Road": {
+      "Lvl 62 Maria | Kindle Road": {
         "level": 62,
         "tr_id": 547,
         "ai": 773,
@@ -19882,7 +19882,7 @@ var backup_data = {
       }
     },
     "Chimecho": {
-      "Lvl 35 Lass Julia | R8": {
+      "Lvl 35 Julia | R8": {
         "level": 35,
         "tr_id": 131,
         "ai": 773,
@@ -19916,7 +19916,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Psychic Cameron | Saffron Gym": {
+      "Lvl 50 Cameron | Saffron Gym": {
         "level": 50,
         "tr_id": 282,
         "ai": 773,
@@ -19950,7 +19950,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Juggler Dalton | Op: TM29 | Silph Co. F5": {
+      "Lvl 49 Dalton | Op: TM29 | Silph Co. F5": {
         "level": 49,
         "tr_id": 286,
         "ai": 773,
@@ -19966,7 +19966,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Wish",
           "Heal Bell",
@@ -19986,7 +19986,7 @@ var backup_data = {
       }
     },
     "Clefable": {
-      "Lvl 35 Lass Julia | R8": {
+      "Lvl 35 Julia | R8": {
         "level": 35,
         "tr_id": 131,
         "ai": 773,
@@ -20020,7 +20020,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Burglar Lewis | Pokemon Mansion BF1": {
+      "Lvl 60 Lewis | Pkmn Mansion BF1": {
         "level": 60,
         "tr_id": 219,
         "ai": 773,
@@ -20036,7 +20036,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Cosmic Power",
           "Moonlight",
@@ -20054,7 +20054,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 7 | Op: TM24, TM30, TM13 | Silph Co. F4": {
+      "Lvl 49 Grunt 7 | Op: TMs 24, 30, 13 | Silph Co. F4": {
         "level": 49,
         "tr_id": 376,
         "ai": 789,
@@ -20088,7 +20088,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Picnicker Leah | Rock Tunnel F1": {
+      "Lvl 34 Leah | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 476,
         "ai": 773,
@@ -20104,7 +20104,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Careful",
         "moves": [
           "Sweet Kiss",
           "Magical Leaf",
@@ -20122,7 +20122,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Becky | North | R15": {
+      "Lvl 47 Becky | North | R15": {
         "level": 47,
         "tr_id": 480,
         "ai": 773,
@@ -20138,7 +20138,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Bold",
         "moves": [
           "Body Slam",
           "Cosmic Power",
@@ -20158,7 +20158,7 @@ var backup_data = {
       }
     },
     "Sunkern": {
-      "Lvl 37 Lass Kay | Left | Celadon Gym": {
+      "Lvl 37 Kay | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 132,
         "ai": 773,
@@ -20194,7 +20194,7 @@ var backup_data = {
       }
     },
     "Sunflora": {
-      "Lvl 37 Lass Kay | Left | Celadon Gym": {
+      "Lvl 37 Kay | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 132,
         "ai": 773,
@@ -20228,7 +20228,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Beauty Bridget | Right | Celadon Gym": {
+      "Lvl 37 Bridget | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 265,
         "ai": 773,
@@ -20262,7 +20262,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Aroma Lady Violet | Bond Bridge": {
+      "Lvl 63 Violet | Bond Bridge": {
         "level": 63,
         "tr_id": 558,
         "ai": 773,
@@ -20298,7 +20298,7 @@ var backup_data = {
       }
     },
     "Exeggutor": {
-      "Lvl 37 Lass Kay | Left | Celadon Gym": {
+      "Lvl 37 Kay | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 132,
         "ai": 773,
@@ -20332,7 +20332,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Beauty Bridget | Right | Celadon Gym": {
+      "Lvl 37 Bridget | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 265,
         "ai": 773,
@@ -20366,7 +20366,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Leader Sabrina | Saffron Gym": {
+      "Lvl 52 Sabrina | Saffron Gym": {
         "level": 52,
         "tr_id": 420,
         "ai": 815,
@@ -20400,7 +20400,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Rival | Water | Sylph Co. F7": {
+      "Lvl 50 Rival | Water | Silph Co. F7": {
         "level": 50,
         "tr_id": 432,
         "ai": 783,
@@ -20434,7 +20434,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Fire | Sylph Co. F7": {
+      "Lvl 49 Rival | Fire | Silph Co. F7": {
         "level": 49,
         "tr_id": 434,
         "ai": 815,
@@ -20536,7 +20536,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Picnicker Alma | R13": {
+      "Lvl 43 Alma | R13": {
         "level": 43,
         "tr_id": 466,
         "ai": 773,
@@ -20552,7 +20552,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Sassy",
         "moves": [
           "Reflect",
           "Extrasensory",
@@ -20570,7 +20570,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Ranger Logan | Mt. Ember": {
+      "Lvl 63 Logan | Mt. Ember": {
         "level": 63,
         "tr_id": 595,
         "ai": 775,
@@ -20586,7 +20586,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Hypnosis",
           "Extrasensory",
@@ -20606,7 +20606,7 @@ var backup_data = {
       }
     },
     "Weepinbell": {
-      "Lvl 37 Lass Lisa | Right | Celadon Gym": {
+      "Lvl 37 Lisa | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 133,
         "ai": 773,
@@ -20640,7 +20640,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Picnicker Alicia | R9": {
+      "Lvl 31 Alicia | R9": {
         "level": 31,
         "tr_id": 154,
         "ai": 773,
@@ -20656,7 +20656,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Serious",
         "moves": [
           "Toxic",
           "Sludge",
@@ -20674,7 +20674,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Hiker Nob | R25": {
+      "Lvl 22 Nob | R25": {
         "level": 22,
         "tr_id": 183,
         "ai": 773,
@@ -20690,7 +20690,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Toxic",
           "Razor Leaf",
@@ -20710,7 +20710,7 @@ var backup_data = {
       }
     },
     "Hariyama": {
-      "Lvl 28 Sailor Edmond | Op: TM20 | S.S. Anne Deck": {
+      "Lvl 28 Edmond | Op: TM20 | S.S. Anne Deck": {
         "level": 28,
         "tr_id": 134,
         "ai": 773,
@@ -20744,7 +20744,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Hiker Lucas | Right | Rock Tunnel F1": {
+      "Lvl 34 Lucas | Right | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 194,
         "ai": 773,
@@ -20760,7 +20760,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Fake Out",
           "Force Palm",
@@ -20778,7 +20778,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Jamal | Left 2 | R17": {
+      "Lvl 46 Jamal | Left 2 | R17": {
         "level": 46,
         "tr_id": 255,
         "ai": 773,
@@ -20812,7 +20812,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Black Belt Hideki | Op: Choice Band | Fighting Dojo": {
+      "Lvl 51 Hideki | Op: Choice Band | Fighting Dojo": {
         "level": 51,
         "tr_id": 319,
         "ai": 773,
@@ -20846,7 +20846,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 6 | Op: TM21 | Rocket Hideout": {
+      "Lvl 38 Grunt 6 | Op: TM21 | Rocket Hideout F3": {
         "level": 38,
         "tr_id": 365,
         "ai": 789,
@@ -20880,7 +20880,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 10 | North | Op: TM08 | Silph Co. F7": {
+      "Lvl 49 Grunt 10 | North | Op: TM08 | Silph Co. F7": {
         "level": 49,
         "tr_id": 383,
         "ai": 797,
@@ -20914,7 +20914,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Crush Kin Ron Mya | R15": {
+      "Lvl 48 Ron Mya | R15": {
         "level": 48,
         "tr_id": 488,
         "ai": 773,
@@ -20930,7 +20930,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Bashful",
         "moves": [
           "Fake Out",
           "Knock Off",
@@ -20948,7 +20948,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Crush Kin Mik Kia | Kindle Road": {
+      "Lvl 64 Mik Kia | Kindle Road": {
         "level": 64,
         "tr_id": 557,
         "ai": 773,
@@ -20964,7 +20964,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Docile",
         "moves": [
           "Fake Out",
           "Rock Tomb",
@@ -20984,7 +20984,7 @@ var backup_data = {
       }
     },
     "Seel": {
-      "Lvl 28 Sailor Edmond | Op: TM20 | S.S. Anne Deck": {
+      "Lvl 28 Edmond | Op: TM20 | S.S. Anne Deck": {
         "level": 28,
         "tr_id": 134,
         "ai": 773,
@@ -21018,7 +21018,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 29 Sailor Duncan | Op: NeverMeltIce | S.S. Anne BF1": {
+      "Lvl 29 Duncan | Op: NeverMeltIce | S.S. Anne BF1": {
         "level": 29,
         "tr_id": 137,
         "ai": 773,
@@ -21054,7 +21054,7 @@ var backup_data = {
       }
     },
     "Machoke": {
-      "Lvl 28 Sailor Trevor | Op: TM20 | S.S. Anne Deck": {
+      "Lvl 28 Trevor | Op: TM20 | S.S. Anne Deck": {
         "level": 28,
         "tr_id": 135,
         "ai": 773,
@@ -21088,7 +21088,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Super Nerd Glenn | Op: Water Encounter | R8": {
+      "Lvl 36 Glenn | Op: Water | R8": {
         "level": 36,
         "tr_id": 172,
         "ai": 773,
@@ -21104,7 +21104,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Rock Throw",
           "Revenge",
@@ -21122,7 +21122,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 23 Hiker Franklin | Op: Grass Encounter, Silk Scarf | R25": {
+      "Lvl 23 Franklin | Op: Grass, Silk Scarf | R25": {
         "level": 23,
         "tr_id": 182,
         "ai": 773,
@@ -21138,7 +21138,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Karate Chop",
           "Seismic Toss",
@@ -21156,7 +21156,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Hiker Eric | Rock Tunnel F2": {
+      "Lvl 34 Eric | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 191,
         "ai": 773,
@@ -21172,7 +21172,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Rock Throw",
           "Revenge",
@@ -21190,7 +21190,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Team Rocket Grunt | Cerulean City": {
+      "Lvl 22 Grunt | Cerulean City": {
         "level": 22,
         "tr_id": 355,
         "ai": 789,
@@ -21226,7 +21226,7 @@ var backup_data = {
       }
     },
     "Qwilfish": {
-      "Lvl 28 Sailor Trevor | Op: TM20 | S.S. Anne Deck": {
+      "Lvl 28 Trevor | Op: TM20 | S.S. Anne Deck": {
         "level": 28,
         "tr_id": 135,
         "ai": 773,
@@ -21260,7 +21260,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Picnicker Diana | Cerulean Gym": {
+      "Lvl 22 Diana | Cerulean Gym": {
         "level": 22,
         "tr_id": 150,
         "ai": 783,
@@ -21276,7 +21276,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Rash",
         "moves": [
           "Thunder Wave",
           "Water Pulse",
@@ -21294,7 +21294,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Picnicker Martha | Rock Tunnel F2": {
+      "Lvl 34 Martha | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 159,
         "ai": 773,
@@ -21310,7 +21310,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Lonely",
         "moves": [
           "Minimize",
           "Bubble Beam",
@@ -21328,7 +21328,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Fisherman Hank | R12": {
+      "Lvl 43 Hank | R12": {
         "level": 43,
         "tr_id": 227,
         "ai": 773,
@@ -21344,7 +21344,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Pin Missile",
           "Return",
@@ -21362,7 +21362,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 SwimmerM David | R19": {
+      "Lvl 54 David | R19": {
         "level": 54,
         "tr_id": 239,
         "ai": 773,
@@ -21396,7 +21396,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Juggler Nate | First Path | Fuchsia Gym": {
+      "Lvl 47 Nate | Middle | Fuchsia Gym": {
         "level": 47,
         "tr_id": 293,
         "ai": 773,
@@ -21412,7 +21412,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Minimize",
           "Toxic",
@@ -21430,7 +21430,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Virgil | Left 2 | R17": {
+      "Lvl 46 Virgil | Left 2 | R17": {
         "level": 46,
         "tr_id": 470,
         "ai": 773,
@@ -21466,7 +21466,7 @@ var backup_data = {
       }
     },
     "Vigoroth": {
-      "Lvl 28 Sailor Trevor | Op: TM20 | S.S. Anne Deck": {
+      "Lvl 28 Trevor | Op: TM20 | S.S. Anne Deck": {
         "level": 28,
         "tr_id": 135,
         "ai": 773,
@@ -21500,7 +21500,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Picnicker Sofia | Op: Rock Slide Tutor | Rock Tunnel F2": {
+      "Lvl 36 Sofia | Op: Rock Slide Tutor | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 158,
         "ai": 773,
@@ -21516,7 +21516,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Serious",
         "moves": [
           "Yawn",
           "Slack Off",
@@ -21536,7 +21536,7 @@ var backup_data = {
       }
     },
     "Cloyster": {
-      "Lvl 29 Sailor Leonard | Op: NeverMeltIce | S.S. Anne BF1": {
+      "Lvl 29 Leonard | Op: NeverMeltIce | S.S. Anne BF1": {
         "level": 29,
         "tr_id": 136,
         "ai": 773,
@@ -21570,7 +21570,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 12 | Op: TM07 | Silph Co. F7": {
+      "Lvl 49 Grunt 12 | Op: TM07 | Silph Co. F7": {
         "level": 49,
         "tr_id": 385,
         "ai": 789,
@@ -21604,7 +21604,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 69 Elite Four Lorelei | Pokemon League": {
+      "Lvl 69 Lorelei | Pkmn League": {
         "level": 69,
         "tr_id": 410,
         "ai": 831,
@@ -21620,7 +21620,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Bashful",
         "moves": [
           "Spikes",
           "Icicle Spear",
@@ -21638,7 +21638,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Picnicker Alma | R13": {
+      "Lvl 43 Alma | R13": {
         "level": 43,
         "tr_id": 466,
         "ai": 773,
@@ -21654,7 +21654,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Ice Shard",
           "Icicle Spear",
@@ -21672,7 +21672,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Becky | North | R15": {
+      "Lvl 47 Becky | North | R15": {
         "level": 47,
         "tr_id": 480,
         "ai": 773,
@@ -21688,7 +21688,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Mild",
         "moves": [
           "Icicle Spear",
           "Rock Blast",
@@ -21706,7 +21706,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Maria | Kindle Road": {
+      "Lvl 62 Maria | Kindle Road": {
         "level": 62,
         "tr_id": 547,
         "ai": 773,
@@ -21742,7 +21742,7 @@ var backup_data = {
       }
     },
     "Sealeo": {
-      "Lvl 29 Sailor Duncan | Op: NeverMeltIce | S.S. Anne BF1": {
+      "Lvl 29 Duncan | Op: NeverMeltIce | S.S. Anne BF1": {
         "level": 29,
         "tr_id": 137,
         "ai": 773,
@@ -21776,7 +21776,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Leader Misty | Cerulean Gym": {
+      "Lvl 22 Misty | Cerulean Gym": {
         "level": 22,
         "tr_id": 415,
         "ai": 807,
@@ -21812,7 +21812,7 @@ var backup_data = {
       }
     },
     "Lickitung": {
-      "Lvl 29 Sailor Huey | Op: TM44 | S.S. Anne BF1": {
+      "Lvl 29 Huey | Op: TM44 | S.S. Anne BF1": {
         "level": 29,
         "tr_id": 138,
         "ai": 773,
@@ -21846,7 +21846,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Cue Ball Camron | R16": {
+      "Lvl 43 Camron | R16": {
         "level": 43,
         "tr_id": 251,
         "ai": 773,
@@ -21880,7 +21880,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Taylor | Op: TM11, TM18 | Silph Co. F6": {
+      "Lvl 49 Taylor | Op: TMs 11, 18 | Silph Co. F6": {
         "level": 49,
         "tr_id": 341,
         "ai": 773,
@@ -21896,7 +21896,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Knock Off",
           "Body Slam",
@@ -21914,7 +21914,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 7 | Op: TM24, TM30, TM13 | Silph Co. F4": {
+      "Lvl 49 Grunt 7 | Op: TMs 24, 30, 13 | Silph Co. F4": {
         "level": 49,
         "tr_id": 376,
         "ai": 789,
@@ -21950,7 +21950,7 @@ var backup_data = {
       }
     },
     "Poliwrath": {
-      "Lvl 29 Sailor Dylan | Op: Water Stone | S.S. Anne BF1": {
+      "Lvl 29 Dylan | Op: Water Stone | S.S. Anne BF1": {
         "level": 29,
         "tr_id": 139,
         "ai": 773,
@@ -21984,7 +21984,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Billy | Middle 2 | R17": {
+      "Lvl 46 Billy | Middle 2 | R17": {
         "level": 46,
         "tr_id": 203,
         "ai": 773,
@@ -22018,7 +22018,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Fisherman Andrew | Op: Aguave Berry | R12": {
+      "Lvl 45 Andrew | Op: Aguave Berry | R12": {
         "level": 45,
         "tr_id": 233,
         "ai": 773,
@@ -22034,7 +22034,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Hypnosis",
           "Waterfall",
@@ -22052,7 +22052,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 SwimmerF Melissa | R20": {
+      "Lvl 58 Melissa | R20": {
         "level": 58,
         "tr_id": 272,
         "ai": 773,
@@ -22086,7 +22086,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Black Belt Koichi | Op: Choice Band | Fighting Dojo": {
+      "Lvl 52 Koichi | Op: Choice Band | Fighting Dojo": {
         "level": 52,
         "tr_id": 317,
         "ai": 775,
@@ -22120,7 +22120,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Aaron | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Aaron | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 320,
         "ai": 773,
@@ -22154,7 +22154,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 11 | South | Op: TM08 | Silph Co. F7": {
+      "Lvl 49 Grunt 11 | South | Op: TM08 | Silph Co. F7": {
         "level": 49,
         "tr_id": 384,
         "ai": 797,
@@ -22188,7 +22188,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 70 Elite Four Bruno | Pokemon League": {
+      "Lvl 70 Bruno | Pkmn League": {
         "level": 70,
         "tr_id": 411,
         "ai": 815,
@@ -22224,7 +22224,7 @@ var backup_data = {
       }
     },
     "Breloom": {
-      "Lvl 29 Sailor Phillip | Op: TM42 | S.S. Anne BF1": {
+      "Lvl 29 Phillip | Op: TM42 | S.S. Anne BF1": {
         "level": 29,
         "tr_id": 140,
         "ai": 773,
@@ -22258,7 +22258,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Picnicker Caitlin | R9": {
+      "Lvl 33 Caitlin | R9": {
         "level": 33,
         "tr_id": 155,
         "ai": 773,
@@ -22274,7 +22274,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Stun Spore",
           "Leech Seed",
@@ -22292,7 +22292,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Picnicker Tina | Right | Celadon Gym": {
+      "Lvl 37 Tina | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 160,
         "ai": 773,
@@ -22308,7 +22308,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Relaxed",
         "moves": [
           "Swords Dance",
           "Rock Tomb",
@@ -22326,7 +22326,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Hiker Lenny | Rock Tunnel F1": {
+      "Lvl 34 Lenny | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 192,
         "ai": 773,
@@ -22342,7 +22342,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Mach Punch",
           "Seed Bomb",
@@ -22360,7 +22360,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Billy | Middle 2 | R17": {
+      "Lvl 46 Billy | Middle 2 | R17": {
         "level": 46,
         "tr_id": 203,
         "ai": 773,
@@ -22394,7 +22394,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Beauty Tamia | Left | Celadon Gym": {
+      "Lvl 37 Tamia | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 266,
         "ai": 773,
@@ -22428,7 +22428,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Beauty Grace | South | R15": {
+      "Lvl 47 Grace | South | R15": {
         "level": 47,
         "tr_id": 273,
         "ai": 773,
@@ -22462,7 +22462,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Aaron | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Aaron | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 320,
         "ai": 773,
@@ -22496,7 +22496,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 5 | Rocket Hideout": {
+      "Lvl 37 Grunt 5 | Rocket Hideout F2": {
         "level": 37,
         "tr_id": 363,
         "ai": 789,
@@ -22530,7 +22530,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 10 | North | Op: TM08 | Silph Co. F7": {
+      "Lvl 49 Grunt 10 | North | Op: TM08 | Silph Co. F7": {
         "level": 49,
         "tr_id": 383,
         "ai": 797,
@@ -22564,7 +22564,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Rival | Water | Pokemon Tower F2": {
+      "Lvl 41 Rival | Water | Pkmn Tower F2": {
         "level": 41,
         "tr_id": 429,
         "ai": 807,
@@ -22598,7 +22598,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Rival | Fire | Pokemon Tower F2": {
+      "Lvl 41 Rival | Fire | Pkmn Tower F2": {
         "level": 41,
         "tr_id": 431,
         "ai": 807,
@@ -22634,7 +22634,7 @@ var backup_data = {
       }
     },
     "Furret": {
-      "Lvl 28 Sailor Dwayne | Vermilion Gym": {
+      "Lvl 28 Dwayne | Vermilion Gym": {
         "level": 28,
         "tr_id": 141,
         "ai": 911,
@@ -22668,7 +22668,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 19 Team Rocket Grunt 3 | Mt. Moon F3": {
+      "Lvl 19 Grunt 3 | Mt. Moon F3": {
         "level": 19,
         "tr_id": 354,
         "ai": 789,
@@ -22702,7 +22702,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt | Celadon Game Corner": {
+      "Lvl 37 Grunt | Celadon Game Corner": {
         "level": 37,
         "tr_id": 357,
         "ai": 917,
@@ -22736,7 +22736,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 1 | Op: King's Rock | Rocket Hideout": {
+      "Lvl 38 Grunt 1 | Op: King's Rock | Rocket Hideout F1": {
         "level": 38,
         "tr_id": 359,
         "ai": 789,
@@ -22770,7 +22770,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 1 | Three Island": {
+      "Lvl 63 Goon 1 | B2B | Three Island": {
         "level": 63,
         "tr_id": 527,
         "ai": 773,
@@ -22806,7 +22806,7 @@ var backup_data = {
       }
     },
     "Omanyte": {
-      "Lvl 13 Camper Liam | Pewter Gym": {
+      "Lvl 13 Liam | Pewter Gym": {
         "level": 13,
         "tr_id": 142,
         "ai": 773,
@@ -22842,7 +22842,7 @@ var backup_data = {
       }
     },
     "Exeggcute": {
-      "Lvl 23 Camper Shane | Op: TM45 | R24": {
+      "Lvl 23 Shane | Op: TM45 | R24": {
         "level": 23,
         "tr_id": 143,
         "ai": 773,
@@ -22876,7 +22876,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Beauty Bridget | Right | Celadon Gym": {
+      "Lvl 37 Bridget | Right | Celadon Gym": {
         "level": 37,
         "tr_id": 265,
         "ai": 773,
@@ -22912,7 +22912,7 @@ var backup_data = {
       }
     },
     "Bayleef": {
-      "Lvl 23 Camper Shane | Op: TM45 | R24": {
+      "Lvl 23 Shane | Op: TM45 | R24": {
         "level": 23,
         "tr_id": 143,
         "ai": 773,
@@ -22948,7 +22948,7 @@ var backup_data = {
       }
     },
     "Girafarig": {
-      "Lvl 23 Camper Shane | Op: TM45 | R24": {
+      "Lvl 23 Shane | Op: TM45 | R24": {
         "level": 23,
         "tr_id": 143,
         "ai": 773,
@@ -22982,7 +22982,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Psychic Cameron | Saffron Gym": {
+      "Lvl 50 Cameron | Saffron Gym": {
         "level": 50,
         "tr_id": 282,
         "ai": 773,
@@ -23016,7 +23016,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Jody | Pokemon Tower F4": {
+      "Lvl 40 Jody | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 446,
         "ai": 773,
@@ -23050,7 +23050,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 35 Picnicker Dana | Rock Tunnel F1": {
+      "Lvl 35 Dana | Rock Tunnel F1": {
         "level": 35,
         "tr_id": 474,
         "ai": 773,
@@ -23066,7 +23066,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Calm",
         "moves": [
           "Wish",
           "Body Slam",
@@ -23086,7 +23086,7 @@ var backup_data = {
       }
     },
     "Combusken": {
-      "Lvl 21 Camper Ethan | Nugget Bridge": {
+      "Lvl 21 Ethan | Nugget Bridge": {
         "level": 21,
         "tr_id": 144,
         "ai": 773,
@@ -23120,7 +23120,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Pokemaniac Cooper | Rock Tunnel F2": {
+      "Lvl 34 Cooper | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 164,
         "ai": 773,
@@ -23136,7 +23136,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Aerial Ace",
           "Fire Punch",
@@ -23156,7 +23156,7 @@ var backup_data = {
       }
     },
     "Lombre": {
-      "Lvl 24 Camper Ricky | R6": {
+      "Lvl 24 Ricky | R6": {
         "level": 24,
         "tr_id": 145,
         "ai": 773,
@@ -23190,7 +23190,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Swimmerm Luis | Cerulean Gym": {
+      "Lvl 22 Luis | Cerulean Gym": {
         "level": 22,
         "tr_id": 234,
         "ai": 815,
@@ -23226,7 +23226,7 @@ var backup_data = {
       }
     },
     "Psyduck": {
-      "Lvl 24 Camper Ricky | R6": {
+      "Lvl 24 Ricky | R6": {
         "level": 24,
         "tr_id": 145,
         "ai": 773,
@@ -23262,7 +23262,7 @@ var backup_data = {
       }
     },
     "Wartortle": {
-      "Lvl 24 Camper Ricky | R6": {
+      "Lvl 24 Ricky | R6": {
         "level": 24,
         "tr_id": 145,
         "ai": 773,
@@ -23366,7 +23366,7 @@ var backup_data = {
       }
     },
     "Charmeleon": {
-      "Lvl 32 Camper Chris | Op: Grass Encounter | R9": {
+      "Lvl 32 Chris | Op: Grass | R9": {
         "level": 32,
         "tr_id": 148,
         "ai": 773,
@@ -23400,7 +23400,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Burglar Arnie | Pokemon Mansion F2": {
+      "Lvl 60 Arnie | Pkmn Mansion F2": {
         "level": 60,
         "tr_id": 216,
         "ai": 773,
@@ -23416,7 +23416,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Sunny Day",
           "Crunch",
@@ -23504,7 +23504,7 @@ var backup_data = {
       }
     },
     "Whiscash": {
-      "Lvl 32 Camper Drew | Op: Water Encounter | R9": {
+      "Lvl 32 Drew | Op: Water | R9": {
         "level": 32,
         "tr_id": 149,
         "ai": 773,
@@ -23538,7 +23538,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Pokemaniac Ashton | Rock Tunnel F1": {
+      "Lvl 34 Ashton | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 168,
         "ai": 773,
@@ -23554,7 +23554,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Rest",
           "Snore",
@@ -23572,7 +23572,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Fisherman Wade | Op: Salac Berry | R21": {
+      "Lvl 58 Wade | Op: Salac Berry | R21": {
         "level": 58,
         "tr_id": 231,
         "ai": 773,
@@ -23588,7 +23588,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Mud Shot",
           "Ice Beam",
@@ -23606,7 +23606,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 53 SwimmerM Matthew | R19": {
+      "Lvl 53 Matthew | R19": {
         "level": 53,
         "tr_id": 237,
         "ai": 773,
@@ -23640,7 +23640,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Tamer Cole | Left Path | Viridian Gym": {
+      "Lvl 64 Cole | Left Path | Viridian Gym": {
         "level": 64,
         "tr_id": 297,
         "ai": 781,
@@ -23656,7 +23656,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Rest",
           "Snore",
@@ -23674,7 +23674,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 9 | Rocket Hideout": {
+      "Lvl 38 Grunt 9 | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 366,
         "ai": 789,
@@ -23710,7 +23710,7 @@ var backup_data = {
       }
     },
     "Crawdaunt": {
-      "Lvl 32 Camper Drew | Op: Water Encounter | R9": {
+      "Lvl 32 Drew | Op: Water | R9": {
         "level": 32,
         "tr_id": 149,
         "ai": 773,
@@ -23744,7 +23744,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Malik | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Malik | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 196,
         "ai": 773,
@@ -23778,7 +23778,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Jaxon | Left 2 | R17": {
+      "Lvl 46 Jaxon | Left 2 | R17": {
         "level": 46,
         "tr_id": 205,
         "ai": 773,
@@ -23812,7 +23812,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Fisherman Elliot | R12": {
+      "Lvl 43 Elliot | R12": {
         "level": 43,
         "tr_id": 228,
         "ai": 773,
@@ -23828,7 +23828,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "X-Scissor",
           "Crabhammer",
@@ -23846,7 +23846,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 55 SwimmerM Richard | Op: Salac Berry | R19": {
+      "Lvl 55 Richard | Op: Salac Berry | R19": {
         "level": 55,
         "tr_id": 235,
         "ai": 773,
@@ -23880,7 +23880,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 53 SwimmerM Matthew | R19": {
+      "Lvl 53 Matthew | R19": {
         "level": 53,
         "tr_id": 237,
         "ai": 773,
@@ -23914,7 +23914,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Jack | R21": {
+      "Lvl 56 Jack | R21": {
         "level": 56,
         "tr_id": 246,
         "ai": 773,
@@ -23950,7 +23950,7 @@ var backup_data = {
       }
     },
     "Sharpedo": {
-      "Lvl 32 Camper Drew | Op: Water Encounter | R9": {
+      "Lvl 32 Drew | Op: Water | R9": {
         "level": 32,
         "tr_id": 149,
         "ai": 773,
@@ -23984,7 +23984,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Ernest | South | R15": {
+      "Lvl 47 Ernest | South | R15": {
         "level": 47,
         "tr_id": 197,
         "ai": 773,
@@ -24018,7 +24018,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Fisherman Hank | R12": {
+      "Lvl 43 Hank | R12": {
         "level": 43,
         "tr_id": 227,
         "ai": 773,
@@ -24034,7 +24034,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Return",
           "Crunch",
@@ -24052,7 +24052,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 SwimmerM Axle | Right | R19": {
+      "Lvl 54 Axle | Right | R19": {
         "level": 54,
         "tr_id": 241,
         "ai": 773,
@@ -24086,7 +24086,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Jack | R21": {
+      "Lvl 56 Jack | R21": {
         "level": 56,
         "tr_id": 246,
         "ai": 773,
@@ -24120,7 +24120,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Joshua | Op: Focus Band | Silph Co. F7": {
+      "Lvl 49 Joshua | Op: Focus Band | Silph Co. F7": {
         "level": 49,
         "tr_id": 342,
         "ai": 773,
@@ -24136,7 +24136,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Waterfall",
           "Poison Fang",
@@ -24154,7 +24154,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Travis | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
+      "Lvl 49 Travis | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
         "level": 49,
         "tr_id": 345,
         "ai": 773,
@@ -24170,7 +24170,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Crunch",
           "Poison Fang",
@@ -24188,7 +24188,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 5 | Rocket Hideout": {
+      "Lvl 37 Grunt 5 | Rocket Hideout F2": {
         "level": 37,
         "tr_id": 363,
         "ai": 789,
@@ -24222,7 +24222,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Rival | Grass | Pokemon Tower F2": {
+      "Lvl 40 Rival | Grass | Pkmn Tower F2": {
         "level": 40,
         "tr_id": 430,
         "ai": 807,
@@ -24256,7 +24256,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Rival | Fire | Pokemon Tower F2": {
+      "Lvl 41 Rival | Fire | Pkmn Tower F2": {
         "level": 41,
         "tr_id": 431,
         "ai": 807,
@@ -24290,7 +24290,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Angelica | Pokemon Tower F6": {
+      "Lvl 41 Angelica | Pkmn Tower F6": {
         "level": 41,
         "tr_id": 451,
         "ai": 773,
@@ -24324,7 +24324,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Abigail | Op: Salac Berry | Kindle Road": {
+      "Lvl 62 Abigail | Op: Salac Berry | Kindle Road": {
         "level": 62,
         "tr_id": 548,
         "ai": 773,
@@ -24360,7 +24360,7 @@ var backup_data = {
       }
     },
     "Chinchou": {
-      "Lvl 22 Picnicker Diana | Cerulean Gym": {
+      "Lvl 22 Diana | Cerulean Gym": {
         "level": 22,
         "tr_id": 150,
         "ai": 783,
@@ -24376,7 +24376,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Jolly",
         "moves": [
           "Thunder Wave",
           "Spark",
@@ -24396,7 +24396,7 @@ var backup_data = {
       }
     },
     "Ponyta": {
-      "Lvl 24 Picnicker Nancy | R6": {
+      "Lvl 24 Nancy | R6": {
         "level": 24,
         "tr_id": 151,
         "ai": 773,
@@ -24412,7 +24412,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Lax",
         "moves": [
           "Stomp",
           "Flame Wheel",
@@ -24432,7 +24432,7 @@ var backup_data = {
       }
     },
     "Numel": {
-      "Lvl 24 Picnicker Nancy | R6": {
+      "Lvl 24 Nancy | R6": {
         "level": 24,
         "tr_id": 151,
         "ai": 773,
@@ -24448,7 +24448,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Lonely",
         "moves": [
           "Ember",
           "Magnitude",
@@ -24466,7 +24466,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 19 Team Rocket Grunt 4 | Mt. Moon F3": {
+      "Lvl 19 Grunt 4 | Mt. Moon F3": {
         "level": 19,
         "tr_id": 351,
         "ai": 789,
@@ -24502,7 +24502,7 @@ var backup_data = {
       }
     },
     "Quilava": {
-      "Lvl 24 Picnicker Nancy | R6": {
+      "Lvl 24 Nancy | R6": {
         "level": 24,
         "tr_id": 151,
         "ai": 773,
@@ -24518,7 +24518,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Impish",
         "moves": [
           "Flame Wheel",
           "Dig",
@@ -24538,7 +24538,7 @@ var backup_data = {
       }
     },
     "Swellow": {
-      "Lvl 24 Picnicker Isabelle | R6": {
+      "Lvl 24 Isabelle | R6": {
         "level": 24,
         "tr_id": 152,
         "ai": 773,
@@ -24554,7 +24554,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Gentle",
         "moves": [
           "Quick Attack",
           "Facade",
@@ -24572,7 +24572,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Bird Keeper Robert | Bottom | R13": {
+      "Lvl 44 Robert | Bottom | R13": {
         "level": 44,
         "tr_id": 302,
         "ai": 773,
@@ -24588,7 +24588,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Sassy",
         "moves": [
           "Fly",
           "Facade",
@@ -24606,7 +24606,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Bird Keeper Chester | South, Double | R15": {
+      "Lvl 48 Chester | South, B2B | R15": {
         "level": 48,
         "tr_id": 306,
         "ai": 773,
@@ -24622,7 +24622,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Quick Attack",
           "Endeavor",
@@ -24640,7 +24640,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Bird Keeper Jacob | R18": {
+      "Lvl 47 Jacob | R18": {
         "level": 47,
         "tr_id": 309,
         "ai": 773,
@@ -24656,7 +24656,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Sassy",
         "moves": [
           "Quick Attack",
           "Endeavor",
@@ -24674,7 +24674,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 6 | Op: TM21 | Rocket Hideout": {
+      "Lvl 38 Grunt 6 | Op: TM21 | Rocket Hideout F3": {
         "level": 38,
         "tr_id": 365,
         "ai": 789,
@@ -24708,7 +24708,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 14 | Op: TM42 | Silph Co. F8": {
+      "Lvl 49 Grunt 14 | Op: TM42 | Silph Co. F8": {
         "level": 49,
         "tr_id": 386,
         "ai": 789,
@@ -24742,7 +24742,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Picnicker Claire | Kindle Road": {
+      "Lvl 62 Claire | Kindle Road": {
         "level": 62,
         "tr_id": 556,
         "ai": 773,
@@ -24758,7 +24758,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Impish",
         "moves": [
           "Quick Attack",
           "Steel Wing",
@@ -24778,7 +24778,7 @@ var backup_data = {
       }
     },
     "Gloom": {
-      "Lvl 31 Picnicker Alicia | R9": {
+      "Lvl 31 Alicia | R9": {
         "level": 31,
         "tr_id": 154,
         "ai": 773,
@@ -24794,7 +24794,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Stun Spore",
           "Sleep Powder",
@@ -24812,7 +24812,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Beauty Lori | Left | Celadon Gym": {
+      "Lvl 37 Lori | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 267,
         "ai": 773,
@@ -24848,7 +24848,7 @@ var backup_data = {
       }
     },
     "Kingler": {
-      "Lvl 33 Picnicker Caitlin | R9": {
+      "Lvl 33 Caitlin | R9": {
         "level": 33,
         "tr_id": 155,
         "ai": 773,
@@ -24864,7 +24864,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Mild",
         "moves": [
           "Metal Claw",
           "Mud Shot",
@@ -24882,7 +24882,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Fisherman Elliot | R12": {
+      "Lvl 43 Elliot | R12": {
         "level": 43,
         "tr_id": 228,
         "ai": 773,
@@ -24898,7 +24898,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Ancient Power",
           "Crabhammer",
@@ -24916,7 +24916,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 55 SwimmerM Richard | Op: Salac Berry | R19": {
+      "Lvl 55 Richard | Op: Salac Berry | R19": {
         "level": 55,
         "tr_id": 235,
         "ai": 773,
@@ -24950,7 +24950,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Jack | R21": {
+      "Lvl 56 Jack | R21": {
         "level": 56,
         "tr_id": 246,
         "ai": 773,
@@ -24984,7 +24984,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 14 | Op: TM42 | Silph Co. F8": {
+      "Lvl 49 Grunt 14 | Op: TM42 | Silph Co. F8": {
         "level": 49,
         "tr_id": 386,
         "ai": 789,
@@ -25020,7 +25020,7 @@ var backup_data = {
       }
     },
     "Pidgeotto": {
-      "Lvl 32 Picnicker Carol | R10": {
+      "Lvl 32 Carol | R10": {
         "level": 32,
         "tr_id": 157,
         "ai": 773,
@@ -25036,7 +25036,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Naughty",
         "moves": [
           "Quick Attack",
           "Steel Wing",
@@ -25054,7 +25054,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Alan | Op: Sharp Beak | R9": {
+      "Lvl 33 Alan | Op: Sharp Beak | R9": {
         "level": 33,
         "tr_id": 185,
         "ai": 773,
@@ -25070,7 +25070,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Quick Attack",
           "Steel Wing",
@@ -25090,7 +25090,7 @@ var backup_data = {
       }
     },
     "Pinsir": {
-      "Lvl 36 Picnicker Sofia | Op: Rock Slide Tutor | Rock Tunnel F2": {
+      "Lvl 36 Sofia | Op: Rock Slide Tutor | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 158,
         "ai": 773,
@@ -25106,7 +25106,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Careful",
         "moves": [
           "Rock Slide",
           "X-Scissor",
@@ -25124,7 +25124,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Alan | Op: Sharp Beak | R9": {
+      "Lvl 33 Alan | Op: Sharp Beak | R9": {
         "level": 33,
         "tr_id": 185,
         "ai": 773,
@@ -25140,7 +25140,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Impish",
+        "nature": "Quirky",
         "moves": [
           "Aerial Ace",
           "Rock Slide",
@@ -25158,7 +25158,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Team Rocket Grunt 2 | Pokemon Tower F7": {
+      "Lvl 41 Grunt 2 | Pkmn Tower F7": {
         "level": 41,
         "tr_id": 370,
         "ai": 789,
@@ -25192,7 +25192,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 11 | South | Op: TM08 | Silph Co. F7": {
+      "Lvl 49 Grunt 11 | South | Op: TM08 | Silph Co. F7": {
         "level": 49,
         "tr_id": 384,
         "ai": 797,
@@ -25228,7 +25228,7 @@ var backup_data = {
       }
     },
     "Spinda": {
-      "Lvl 36 Picnicker Sofia | Op: Rock Slide Tutor | Rock Tunnel F2": {
+      "Lvl 36 Sofia | Op: Rock Slide Tutor | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 158,
         "ai": 773,
@@ -25244,7 +25244,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Brave",
         "moves": [
           "Fake Out",
           "Body Slam",
@@ -25264,7 +25264,7 @@ var backup_data = {
       }
     },
     "Mantine": {
-      "Lvl 36 Picnicker Sofia | Op: Rock Slide Tutor | Rock Tunnel F2": {
+      "Lvl 36 Sofia | Op: Rock Slide Tutor | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 158,
         "ai": 773,
@@ -25280,7 +25280,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Hardy",
         "moves": [
           "Bubble Beam",
           "Icy Wind",
@@ -25298,7 +25298,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Super Nerd Leslie | Op: Battle Rock | R8": {
+      "Lvl 36 Leslie | Op: Battle Rock | R8": {
         "level": 36,
         "tr_id": 173,
         "ai": 773,
@@ -25314,7 +25314,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Bubble Beam",
           "Bullet Seed",
@@ -25332,7 +25332,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 29 Fisherman Barny | Op: TM42 | S.S. Anne BF1": {
+      "Lvl 29 Barny | Op: TM42 | S.S. Anne BF1": {
         "level": 29,
         "tr_id": 224,
         "ai": 773,
@@ -25348,7 +25348,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Facade",
           "Bubble Beam",
@@ -25366,7 +25366,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Spencer | R21": {
+      "Lvl 56 Spencer | R21": {
         "level": 56,
         "tr_id": 245,
         "ai": 773,
@@ -25400,7 +25400,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 55 SwimmerF Connie | R19": {
+      "Lvl 55 Connie | R19": {
         "level": 55,
         "tr_id": 278,
         "ai": 773,
@@ -25434,7 +25434,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Bird Keeper Wilton | R18": {
+      "Lvl 48 Wilton | R18": {
         "level": 48,
         "tr_id": 307,
         "ai": 773,
@@ -25450,7 +25450,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Ice Beam",
           "Scald",
@@ -25468,7 +25468,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Marlon | R14": {
+      "Lvl 46 Marlon | R14": {
         "level": 46,
         "tr_id": 316,
         "ai": 773,
@@ -25484,7 +25484,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Bullet Seed",
           "Bounce",
@@ -25502,7 +25502,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Team Rocket Grunt 2 | Pokemon Tower F7": {
+      "Lvl 41 Grunt 2 | Pkmn Tower F7": {
         "level": 41,
         "tr_id": 370,
         "ai": 789,
@@ -25536,7 +25536,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Amara | Op: Grass Encounter | Treasure Beach": {
+      "Lvl 62 Amara | Op: Grass | Treasure Beach": {
         "level": 62,
         "tr_id": 546,
         "ai": 773,
@@ -25572,7 +25572,7 @@ var backup_data = {
       }
     },
     "Murkrow": {
-      "Lvl 34 Picnicker Martha | Rock Tunnel F2": {
+      "Lvl 34 Martha | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 159,
         "ai": 773,
@@ -25588,7 +25588,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Naive",
         "moves": [
           "Ominous Wind",
           "Faint Attack",
@@ -25606,7 +25606,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Alan | Op: Sharp Beak | R9": {
+      "Lvl 33 Alan | Op: Sharp Beak | R9": {
         "level": 33,
         "tr_id": 185,
         "ai": 773,
@@ -25622,7 +25622,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Ominous Wind",
           "Drill Peck",
@@ -25640,7 +25640,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Bird Keeper Perry | Top | R13": {
+      "Lvl 44 Perry | Top | R13": {
         "level": 44,
         "tr_id": 301,
         "ai": 773,
@@ -25656,7 +25656,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Taunt",
           "Snatch",
@@ -25674,7 +25674,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Bird Keeper Chester | South, Double | R15": {
+      "Lvl 48 Chester | South, B2B | R15": {
         "level": 48,
         "tr_id": 306,
         "ai": 773,
@@ -25690,7 +25690,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Ominous Wind",
           "Dark Pulse",
@@ -25708,7 +25708,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 6 | Op: TM41 | Silph Co. F4": {
+      "Lvl 49 Grunt 6 | Op: TM41 | Silph Co. F4": {
         "level": 49,
         "tr_id": 377,
         "ai": 789,
@@ -25742,7 +25742,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Laurel | Pokemon Tower F4": {
+      "Lvl 40 Laurel | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 445,
         "ai": 773,
@@ -25778,7 +25778,7 @@ var backup_data = {
       }
     },
     "Meowth": {
-      "Lvl 49 Scientist Tom | Warp | Op: Mental Herb | Silph Co. F8": {
+      "Lvl 49 Tom | Warp | Op: Mental Herb | Silph Co. F8": {
         "level": 49,
         "tr_id": 343,
         "ai": 773,
@@ -25794,7 +25794,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Sassy",
         "moves": [
           "Fake Out",
           "Torment",
@@ -25814,7 +25814,7 @@ var backup_data = {
       }
     },
     "Rhyhorn": {
-      "Lvl 22 Hiker Wyle | R25": {
+      "Lvl 22 Wyle | R25": {
         "level": 22,
         "tr_id": 184,
         "ai": 773,
@@ -25830,7 +25830,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Tackle",
           "Horn Attack",
@@ -25848,7 +25848,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 31 Hiker Brice | R9": {
+      "Lvl 31 Brice | R9": {
         "level": 31,
         "tr_id": 186,
         "ai": 773,
@@ -25864,7 +25864,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Horn Attack",
           "Rock Blast",
@@ -25884,7 +25884,7 @@ var backup_data = {
       }
     },
     "Steelix": {
-      "Lvl 33 Pokemaniac Herman | Op: Metal Coat | R10": {
+      "Lvl 33 Herman | Op: Metal Coat | R10": {
         "level": 33,
         "tr_id": 163,
         "ai": 773,
@@ -25900,7 +25900,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Rock Tomb",
           "Dragon Breath",
@@ -25918,7 +25918,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Boss Giovanni | Rocket Hideout": {
+      "Lvl 38 Giovanni | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 348,
         "ai": 823,
@@ -25952,7 +25952,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Team Rocket Grunt 3 | Silph Co. F11": {
+      "Lvl 50 Grunt 3 | Silph Co. F11": {
         "level": 50,
         "tr_id": 391,
         "ai": 789,
@@ -25986,7 +25986,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cooltrainer Warren | Right Path | Viridian Gym": {
+      "Lvl 64 Warren | Right Path | Viridian Gym": {
         "level": 64,
         "tr_id": 401,
         "ai": 775,
@@ -26002,7 +26002,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Iron Tail",
           "Earthquake",
@@ -26020,7 +26020,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 70 Elite Four Bruno | Pokemon League": {
+      "Lvl 70 Bruno | Pkmn League": {
         "level": 70,
         "tr_id": 411,
         "ai": 815,
@@ -26054,7 +26054,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Team Rocket Grunt 2 | Mt. Ember": {
+      "Lvl 62 Grunt 2 | Mt. Ember": {
         "level": 62,
         "tr_id": 538,
         "ai": 789,
@@ -26090,7 +26090,7 @@ var backup_data = {
       }
     },
     "Croconaw": {
-      "Lvl 34 Pokemaniac Cooper | Rock Tunnel F2": {
+      "Lvl 34 Cooper | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 164,
         "ai": 773,
@@ -26106,7 +26106,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Impish",
+        "nature": "Quirky",
         "moves": [
           "Ice Punch",
           "Crunch",
@@ -26126,7 +26126,7 @@ var backup_data = {
       }
     },
     "Mawile": {
-      "Lvl 34 Pokemaniac Steve | Rock Tunnel F2": {
+      "Lvl 34 Steve | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 165,
         "ai": 773,
@@ -26142,7 +26142,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Brick Break",
           "Faint Attack",
@@ -26160,7 +26160,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Hiker Wyle | R25": {
+      "Lvl 22 Wyle | R25": {
         "level": 22,
         "tr_id": 184,
         "ai": 773,
@@ -26176,7 +26176,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Astonish",
           "Bite",
@@ -26194,7 +26194,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 7 | Rocket Hideout": {
+      "Lvl 37 Grunt 7 | Rocket Hideout F3": {
         "level": 37,
         "tr_id": 364,
         "ai": 789,
@@ -26228,7 +26228,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 10 | Rocket Hideout": {
+      "Lvl 38 Grunt 10 | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 367,
         "ai": 789,
@@ -26264,7 +26264,7 @@ var backup_data = {
       }
     },
     "Lapras": {
-      "Lvl 45 Fisherman Chip | Op: Wiki Berry | R12": {
+      "Lvl 45 Chip | Op: Wiki Berry | R12": {
         "level": 45,
         "tr_id": 226,
         "ai": 773,
@@ -26280,7 +26280,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Sing",
           "Surf",
@@ -26298,7 +26298,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 55 SwimmerF Connie | R19": {
+      "Lvl 55 Connie | R19": {
         "level": 55,
         "tr_id": 278,
         "ai": 773,
@@ -26332,7 +26332,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 70 Elite Four Lorelei | Pokemon League": {
+      "Lvl 70 Lorelei | Pkmn League": {
         "level": 70,
         "tr_id": 410,
         "ai": 831,
@@ -26348,7 +26348,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Serious",
         "moves": [
           "Rest",
           "Ancient Power",
@@ -26368,7 +26368,7 @@ var backup_data = {
       }
     },
     "Elekid": {
-      "Lvl 20 Super Nerd Jovan | Op: Moon Stone | Mt. Moon F1": {
+      "Lvl 20 Jovan | Op: Moon Stone | Mt. Moon F1": {
         "level": 20,
         "tr_id": 169,
         "ai": 783,
@@ -26384,7 +26384,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Quick Attack",
           "Swift",
@@ -26402,7 +26402,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Gentleman Thomas | Op: B1 Access | S.S. Anne F1": {
+      "Lvl 27 Thomas | Op: B1 Access | S.S. Anne F1": {
         "level": 27,
         "tr_id": 421,
         "ai": 773,
@@ -26418,7 +26418,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Quick Attack",
           "Swift",
@@ -26438,7 +26438,7 @@ var backup_data = {
       }
     },
     "Voltorb": {
-      "Lvl 20 Super Nerd Jovan | Op: Moon Stone | Mt. Moon F1": {
+      "Lvl 20 Jovan | Op: Moon Stone | Mt. Moon F1": {
         "level": 20,
         "tr_id": 169,
         "ai": 783,
@@ -26454,7 +26454,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Rollout",
           "Sonic Boom",
@@ -26472,7 +26472,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 26 Engineer Braxton | Op: Magnet | R11": {
+      "Lvl 26 Braxton | Op: Magnet | R11": {
         "level": 26,
         "tr_id": 221,
         "ai": 773,
@@ -26508,7 +26508,7 @@ var backup_data = {
       }
     },
     "Magnemite": {
-      "Lvl 20 Super Nerd Jovan | Op: Moon Stone | Mt. Moon F1": {
+      "Lvl 20 Jovan | Op: Moon Stone | Mt. Moon F1": {
         "level": 20,
         "tr_id": 169,
         "ai": 783,
@@ -26524,7 +26524,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Shock Wave",
           "Supersonic",
@@ -26541,7 +26541,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 26 Engineer Braxton | Op: Magnet | R11": {
+      "Lvl 26 Braxton | Op: Magnet | R11": {
         "level": 26,
         "tr_id": 221,
         "ai": 773,
@@ -26575,7 +26575,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 26 Engineer Bernie | Op: TM16 | R11": {
+      "Lvl 26 Bernie | Op: TM16 | R11": {
         "level": 26,
         "tr_id": 222,
         "ai": 773,
@@ -26611,7 +26611,7 @@ var backup_data = {
       }
     },
     "Grimer": {
-      "Lvl 20 Super Nerd Miguel | Mt. Moon F3": {
+      "Lvl 20 Miguel | Mt. Moon F3": {
         "level": 20,
         "tr_id": 170,
         "ai": 781,
@@ -26627,7 +26627,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Mud-Slap",
           "Disable",
@@ -26645,7 +26645,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 35 Biker Jaren | R8": {
+      "Lvl 35 Jaren | R8": {
         "level": 35,
         "tr_id": 536,
         "ai": 2309,
@@ -26681,7 +26681,7 @@ var backup_data = {
       }
     },
     "Slugma": {
-      "Lvl 20 Super Nerd Miguel | Mt. Moon F3": {
+      "Lvl 20 Miguel | Mt. Moon F3": {
         "level": 20,
         "tr_id": 170,
         "ai": 781,
@@ -26697,7 +26697,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Smog",
           "Yawn",
@@ -26717,7 +26717,7 @@ var backup_data = {
       }
     },
     "Gulpin": {
-      "Lvl 20 Super Nerd Miguel | Mt. Moon F3": {
+      "Lvl 20 Miguel | Mt. Moon F3": {
         "level": 20,
         "tr_id": 170,
         "ai": 781,
@@ -26733,7 +26733,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Mud-Slap",
           "Poison Gas",
@@ -26753,7 +26753,7 @@ var backup_data = {
       }
     },
     "Electrode": {
-      "Lvl 36 Super Nerd Aidan | Op: TM35 | R8": {
+      "Lvl 36 Aidan | Op: TM35 | R8": {
         "level": 36,
         "tr_id": 171,
         "ai": 773,
@@ -26769,7 +26769,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Thunder Wave",
           "Self-Destruct",
@@ -26787,7 +26787,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Rocker Luca | Op: TM24 | R12": {
+      "Lvl 45 Luca | Op: TM24 | R12": {
         "level": 45,
         "tr_id": 285,
         "ai": 773,
@@ -26821,7 +26821,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 3 | Elevator | Rocket Hideout": {
+      "Lvl 37 Grunt 3 | Elevator | Rocket Hideout F1": {
         "level": 37,
         "tr_id": 362,
         "ai": 789,
@@ -26855,7 +26855,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 5 | Op: Thunder Wave Tutor | Silph Co. F2": {
+      "Lvl 49 Grunt 5 | Op: Thunder Wave Tutor | Silph Co. F2": {
         "level": 49,
         "tr_id": 373,
         "ai": 789,
@@ -26889,7 +26889,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl* 49 Team Rocket Grunt 5 | Op: Thunder Wave Tutor | Silph Co. F2": {
+      "Lvl* 49 Grunt 5 | Op: Thunder Wave Tutor | Silph Co. F2": {
         "level": 49,
         "tr_id": 373,
         "ai": 789,
@@ -26923,7 +26923,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl** 49 Team Rocket Grunt 5 | Op: Thunder Wave Tutor | Silph Co. F2": {
+      "Lvl** 49 Grunt 5 | Op: Thunder Wave Tutor | Silph Co. F2": {
         "level": 49,
         "tr_id": 373,
         "ai": 789,
@@ -26957,7 +26957,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl*** 49 Team Rocket Grunt 5 | Op: Thunder Wave Tutor | Silph Co. F2": {
+      "Lvl*** 49 Grunt 5 | Op: Thunder Wave Tutor | Silph Co. F2": {
         "level": 49,
         "tr_id": 373,
         "ai": 789,
@@ -26991,7 +26991,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 30 Leader Lt. Surge | Vermilion Gym": {
+      "Lvl 30 Lt. Surge | Vermilion Gym": {
         "level": 30,
         "tr_id": 416,
         "ai": 815,
@@ -27025,7 +27025,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Picnicker Missy | Op: White Herb | R20": {
+      "Lvl 58 Missy | Op: White Herb | R20": {
         "level": 58,
         "tr_id": 472,
         "ai": 773,
@@ -27041,7 +27041,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Lax",
         "moves": [
           "Thunder Wave",
           "Wild Charge",
@@ -27061,7 +27061,7 @@ var backup_data = {
       }
     },
     "Metang": {
-      "Lvl 36 Super Nerd Aidan | Op: TM35 | R8": {
+      "Lvl 36 Aidan | Op: TM35 | R8": {
         "level": 36,
         "tr_id": 171,
         "ai": 773,
@@ -27077,7 +27077,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Take Down",
           "Bullet Punch",
@@ -27095,7 +27095,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Alan | Op: Sharp Beak | R9": {
+      "Lvl 33 Alan | Op: Sharp Beak | R9": {
         "level": 33,
         "tr_id": 185,
         "ai": 773,
@@ -27111,7 +27111,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Take Down",
           "Aerial Ace",
@@ -27129,7 +27129,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Channeler Tasha | Top | Saffron Gym": {
+      "Lvl 51 Tasha | Top | Saffron Gym": {
         "level": 51,
         "tr_id": 464,
         "ai": 773,
@@ -27165,7 +27165,7 @@ var backup_data = {
       }
     },
     "Graveler": {
-      "Lvl 36 Super Nerd Glenn | Op: Water Encounter | R8": {
+      "Lvl 36 Glenn | Op: Water | R8": {
         "level": 36,
         "tr_id": 172,
         "ai": 773,
@@ -27181,7 +27181,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Magnitude",
           "Body Slam",
@@ -27199,7 +27199,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 23 Hiker Franklin | Op: Grass Encounter, Silk Scarf | R25": {
+      "Lvl 23 Franklin | Op: Grass, Silk Scarf | R25": {
         "level": 23,
         "tr_id": 182,
         "ai": 773,
@@ -27215,7 +27215,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Jolly",
+        "nature": "Naughty",
         "moves": [
           "Rock Throw",
           "Magnitude",
@@ -27233,7 +27233,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 32 Hiker Trent | R10": {
+      "Lvl 32 Trent | R10": {
         "level": 32,
         "tr_id": 188,
         "ai": 773,
@@ -27249,7 +27249,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Magnitude",
           "Self-Destruct",
@@ -27269,7 +27269,7 @@ var backup_data = {
       }
     },
     "Kadabra": {
-      "Lvl 36 Super Nerd Glenn | Op: Water Encounter | R8": {
+      "Lvl 36 Glenn | Op: Water | R8": {
         "level": 36,
         "tr_id": 172,
         "ai": 773,
@@ -27285,7 +27285,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Kinesis",
           "Shadow Ball",
@@ -27507,7 +27507,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Carly | Pokemon Tower F3": {
+      "Lvl 40 Carly | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 442,
         "ai": 773,
@@ -27543,7 +27543,7 @@ var backup_data = {
       }
     },
     "Haunter": {
-      "Lvl 36 Super Nerd Glenn | Op: Water Encounter | R8": {
+      "Lvl 36 Glenn | Op: Water | R8": {
         "level": 36,
         "tr_id": 172,
         "ai": 773,
@@ -27559,7 +27559,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Shadow Sneak",
           "Curse",
@@ -27577,7 +27577,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Hope | Pokemon Tower F3": {
+      "Lvl 40 Hope | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 443,
         "ai": 773,
@@ -27613,7 +27613,7 @@ var backup_data = {
       }
     },
     "Raticate": {
-      "Lvl 36 Super Nerd Leslie | Op: Battle Rock | R8": {
+      "Lvl 36 Leslie | Op: Battle Rock | R8": {
         "level": 36,
         "tr_id": 173,
         "ai": 773,
@@ -27629,7 +27629,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Quick Attack",
           "Dig",
@@ -27647,7 +27647,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Biker Lao | R16": {
+      "Lvl 43 Lao | R16": {
         "level": 43,
         "tr_id": 199,
         "ai": 773,
@@ -27681,7 +27681,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 61 Burglar Simon | Op: Lansat Berry | Pokemon Mansion F3": {
+      "Lvl 61 Simon | Op: Lansat Berry | Pkmn Mansion F3": {
         "level": 61,
         "tr_id": 218,
         "ai": 773,
@@ -27697,7 +27697,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Quick Attack",
           "Hyper Fang",
@@ -27817,7 +27817,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Jerry | Direct | Op: Mental Herb | Silph Co. F2": {
+      "Lvl 49 Jerry | Direct | Op: Mental Herb | Silph Co. F2": {
         "level": 49,
         "tr_id": 337,
         "ai": 845,
@@ -27833,7 +27833,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Hyper Fang",
           "Crunch",
@@ -27851,7 +27851,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 1 | Op: King's Rock | Rocket Hideout": {
+      "Lvl 38 Grunt 1 | Op: King's Rock | Rocket Hideout F1": {
         "level": 38,
         "tr_id": 359,
         "ai": 789,
@@ -27987,7 +27987,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 1 | Three Island": {
+      "Lvl 63 Goon 1 | B2B | Three Island": {
         "level": 63,
         "tr_id": 527,
         "ai": 773,
@@ -28023,7 +28023,7 @@ var backup_data = {
       }
     },
     "Octillery": {
-      "Lvl 36 Super Nerd Leslie | Op: Battle Rock | R8": {
+      "Lvl 36 Leslie | Op: Battle Rock | R8": {
         "level": 36,
         "tr_id": 173,
         "ai": 773,
@@ -28039,7 +28039,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Calm",
         "moves": [
           "Bubble Beam",
           "Aurora Beam",
@@ -28057,7 +28057,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 53 SwimmerM Tony | R19": {
+      "Lvl 53 Tony | R19": {
         "level": 53,
         "tr_id": 240,
         "ai": 773,
@@ -28091,7 +28091,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 26 Gamer Hugo | Op: Sitrus Berry | R11": {
+      "Lvl 26 Hugo | Op: Sitrus Berry | R11": {
         "level": 26,
         "tr_id": 258,
         "ai": 773,
@@ -28125,7 +28125,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Team Rocket Grunt 3 | Pokemon Tower F7": {
+      "Lvl 42 Grunt 3 | Pkmn Tower F7": {
         "level": 42,
         "tr_id": 371,
         "ai": 789,
@@ -28159,7 +28159,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 2 | Silph Co. F3": {
+      "Lvl 49 Grunt 2 | Silph Co. F3": {
         "level": 49,
         "tr_id": 375,
         "ai": 789,
@@ -28193,7 +28193,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Amara | Op: Grass Encounter | Treasure Beach": {
+      "Lvl 62 Amara | Op: Grass | Treasure Beach": {
         "level": 62,
         "tr_id": 546,
         "ai": 773,
@@ -28229,7 +28229,7 @@ var backup_data = {
       }
     },
     "Kangaskhan": {
-      "Lvl 36 Super Nerd Leslie | Op: Battle Rock | R8": {
+      "Lvl 36 Leslie | Op: Battle Rock | R8": {
         "level": 36,
         "tr_id": 173,
         "ai": 773,
@@ -28245,7 +28245,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Fake Out",
           "Dizzy Punch",
@@ -28263,7 +28263,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 39 Boss Giovanni | Rocket Hideout": {
+      "Lvl 39 Giovanni | Rocket Hideout F4": {
         "level": 39,
         "tr_id": 348,
         "ai": 823,
@@ -28297,7 +28297,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Twins Kiri Jan | R14": {
+      "Lvl 46 Kiri Jan | R14": {
         "level": 46,
         "tr_id": 487,
         "ai": 773,
@@ -28313,7 +28313,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Docile",
         "moves": [
           "Fake Out",
           "Dizzy Punch",
@@ -28333,7 +28333,7 @@ var backup_data = {
       }
     },
     "Koffing": {
-      "Lvl 19 Team Rocket Grunt 3 | Mt. Moon F3": {
+      "Lvl 19 Grunt 3 | Mt. Moon F3": {
         "level": 19,
         "tr_id": 354,
         "ai": 789,
@@ -28367,7 +28367,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 28 Gentleman Arthur | Op: Timer Ball | S.S. Anne F1": {
+      "Lvl 28 Arthur | Op: Timer Ball | S.S. Anne F1": {
         "level": 28,
         "tr_id": 422,
         "ai": 773,
@@ -28383,7 +28383,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Smokescreen",
           "Poison Gas",
@@ -28401,7 +28401,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 35 Biker Jaren | R8": {
+      "Lvl 35 Jaren | R8": {
         "level": 35,
         "tr_id": 536,
         "ai": 2309,
@@ -28437,7 +28437,7 @@ var backup_data = {
       }
     },
     "Weezing": {
-      "Lvl 47 Biker Malik | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Malik | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 196,
         "ai": 773,
@@ -28471,7 +28471,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Zeek | Right 2 | R17": {
+      "Lvl 46 Zeek | Right 2 | R17": {
         "level": 46,
         "tr_id": 254,
         "ai": 773,
@@ -28505,7 +28505,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Connor | Op: None | Silph Co. F2": {
+      "Lvl 49 Connor | Op: None | Silph Co. F2": {
         "level": 49,
         "tr_id": 336,
         "ai": 773,
@@ -28521,7 +28521,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Poison Gas",
           "Destiny Bond",
@@ -28539,7 +28539,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl* 49 Scientist Connor | Op: None | Silph Co. F2": {
+      "Lvl* 49 Connor | Op: None | Silph Co. F2": {
         "level": 49,
         "tr_id": 336,
         "ai": 773,
@@ -28555,7 +28555,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Poison Gas",
           "Sludge Bomb",
@@ -28573,7 +28573,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl** 49 Scientist Connor | Op: None | Silph Co. F2": {
+      "Lvl** 49 Connor | Op: None | Silph Co. F2": {
         "level": 49,
         "tr_id": 336,
         "ai": 773,
@@ -28589,7 +28589,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Poison Gas",
           "Sludge Bomb",
@@ -28607,7 +28607,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl*** 49 Scientist Connor | Op: None | Silph Co. F2": {
+      "Lvl*** 49 Connor | Op: None | Silph Co. F2": {
         "level": 49,
         "tr_id": 336,
         "ai": 773,
@@ -28623,7 +28623,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Poison Gas",
           "Fire Blast",
@@ -28641,7 +28641,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Scientist Braydon | Pokemon Mansion F3": {
+      "Lvl 59 Braydon | Pkmn Mansion F3": {
         "level": 59,
         "tr_id": 346,
         "ai": 773,
@@ -28657,7 +28657,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Explosion",
           "Heat Wave",
@@ -28675,7 +28675,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt | Celadon Game Corner": {
+      "Lvl 37 Grunt | Celadon Game Corner": {
         "level": 37,
         "tr_id": 357,
         "ai": 917,
@@ -28709,7 +28709,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 3 | Elevator | Rocket Hideout": {
+      "Lvl 37 Grunt 3 | Elevator | Rocket Hideout F1": {
         "level": 37,
         "tr_id": 362,
         "ai": 789,
@@ -28743,7 +28743,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Leader Koga | Fuchsia Gym": {
+      "Lvl 49 Koga | Fuchsia Gym": {
         "level": 49,
         "tr_id": 418,
         "ai": 823,
@@ -28777,7 +28777,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 2 | Three Island": {
+      "Lvl 63 Goon 2 | B2B | Three Island": {
         "level": 63,
         "tr_id": 528,
         "ai": 773,
@@ -28811,7 +28811,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 35 Biker Jaren | R8": {
+      "Lvl 35 Jaren | R8": {
         "level": 35,
         "tr_id": 536,
         "ai": 2309,
@@ -28847,7 +28847,7 @@ var backup_data = {
       }
     },
     "Torkoal": {
-      "Lvl 59 Super Nerd Erik | Cinnabar Gym": {
+      "Lvl 59 Erik | Cinnabar Gym": {
         "level": 59,
         "tr_id": 177,
         "ai": 773,
@@ -28863,7 +28863,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Sassy",
         "moves": [
           "Earth Power",
           "Solar Beam",
@@ -28881,7 +28881,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Alex | North | R15": {
+      "Lvl 47 Alex | North | R15": {
         "level": 47,
         "tr_id": 198,
         "ai": 773,
@@ -28915,7 +28915,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 26 Gamer Darian | Op: Leaf Stone | R11": {
+      "Lvl 26 Darian | Op: Leaf Stone | R11": {
         "level": 26,
         "tr_id": 261,
         "ai": 773,
@@ -28949,7 +28949,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Gamer Stan | Op: TM35 | R8": {
+      "Lvl 36 Stan | Op: TM35 | R8": {
         "level": 36,
         "tr_id": 262,
         "ai": 773,
@@ -28983,7 +28983,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Taylor | Op: TM11, TM18 | Silph Co. F6": {
+      "Lvl 49 Taylor | Op: TMs 11, 18 | Silph Co. F6": {
         "level": 49,
         "tr_id": 341,
         "ai": 773,
@@ -28999,7 +28999,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Yawn",
           "Iron Defense",
@@ -29017,7 +29017,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Leader Blaine | Cinnabar Gym": {
+      "Lvl 60 Blaine | Cinnabar Gym": {
         "level": 60,
         "tr_id": 419,
         "ai": 815,
@@ -29053,7 +29053,7 @@ var backup_data = {
       }
     },
     "Magcargo": {
-      "Lvl 59 Super Nerd Erik | Cinnabar Gym": {
+      "Lvl 59 Erik | Cinnabar Gym": {
         "level": 59,
         "tr_id": 177,
         "ai": 773,
@@ -29069,7 +29069,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Yawn",
           "Ancient Power",
@@ -29087,7 +29087,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Hiker Eric | Rock Tunnel F2": {
+      "Lvl 34 Eric | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 191,
         "ai": 773,
@@ -29103,7 +29103,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Flame Wheel",
           "Recover",
@@ -29121,7 +29121,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Gamer Stan | Op: TM35 | R8": {
+      "Lvl 36 Stan | Op: TM35 | R8": {
         "level": 36,
         "tr_id": 262,
         "ai": 773,
@@ -29155,7 +29155,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 9 | Rocket Hideout": {
+      "Lvl 38 Grunt 9 | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 366,
         "ai": 789,
@@ -29189,7 +29189,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Picnicker Gwen | Op: Lax Incense | R13": {
+      "Lvl 45 Gwen | Op: Lax Incense | R13": {
         "level": 45,
         "tr_id": 469,
         "ai": 773,
@@ -29205,7 +29205,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Gentle",
         "moves": [
           "Recover",
           "Ancient Power",
@@ -29223,7 +29223,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Ranger Beth | Mt. Ember": {
+      "Lvl 62 Beth | Mt. Ember": {
         "level": 62,
         "tr_id": 597,
         "ai": 775,
@@ -29259,7 +29259,7 @@ var backup_data = {
       }
     },
     "Castform": {
-      "Lvl 59 Super Nerd Erik | Cinnabar Gym": {
+      "Lvl 59 Erik | Cinnabar Gym": {
         "level": 59,
         "tr_id": 177,
         "ai": 773,
@@ -29275,7 +29275,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Weather Ball",
           "Thunder",
@@ -29293,7 +29293,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Super Nerd Avery | Cinnabar Gym": {
+      "Lvl 59 Avery | Cinnabar Gym": {
         "level": 59,
         "tr_id": 178,
         "ai": 781,
@@ -29309,7 +29309,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Weather Ball",
           "Blizzard",
@@ -29327,7 +29327,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 7 | Op: TM24, TM30, TM13 | Silph Co. F4": {
+      "Lvl 49 Grunt 7 | Op: TMs 24, 30, 13 | Silph Co. F4": {
         "level": 49,
         "tr_id": 376,
         "ai": 789,
@@ -29363,7 +29363,7 @@ var backup_data = {
       }
     },
     "Camerupt": {
-      "Lvl 60 Super Nerd Derek | Op: Question 2 | Cinnabar Gym": {
+      "Lvl 60 Derek | Q2 | Cinnabar Gym": {
         "level": 60,
         "tr_id": 179,
         "ai": 773,
@@ -29379,7 +29379,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Earth Power",
           "Heat Wave",
@@ -29397,7 +29397,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Clark | Op: Sitrus Berry | R10": {
+      "Lvl 33 Clark | Op: Sitrus Berry | R10": {
         "level": 33,
         "tr_id": 187,
         "ai": 773,
@@ -29413,7 +29413,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Yawn",
           "Rock Slide",
@@ -29431,7 +29431,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Alex | North | R15": {
+      "Lvl 47 Alex | North | R15": {
         "level": 47,
         "tr_id": 198,
         "ai": 773,
@@ -29465,7 +29465,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Travis | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
+      "Lvl 49 Travis | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
         "level": 49,
         "tr_id": 345,
         "ai": 773,
@@ -29481,7 +29481,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Earth Power",
           "Heat Wave",
@@ -29499,7 +29499,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 5 | Rocket Hideout": {
+      "Lvl 37 Grunt 5 | Rocket Hideout F2": {
         "level": 37,
         "tr_id": 363,
         "ai": 789,
@@ -29533,7 +29533,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Cooltrainer Samuel | Left Path | Viridian Gym": {
+      "Lvl 63 Samuel | Left Path | Viridian Gym": {
         "level": 63,
         "tr_id": 392,
         "ai": 783,
@@ -29549,7 +29549,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Focus Energy",
           "Rock Tomb",
@@ -29567,7 +29567,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 61 Leader Blaine | Cinnabar Gym": {
+      "Lvl 61 Blaine | Cinnabar Gym": {
         "level": 61,
         "tr_id": 419,
         "ai": 815,
@@ -29601,7 +29601,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Rival | Water | Pokemon Tower F2": {
+      "Lvl 40 Rival | Water | Pkmn Tower F2": {
         "level": 40,
         "tr_id": 429,
         "ai": 807,
@@ -29635,7 +29635,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Rival | Grass | Pokemon Tower F2": {
+      "Lvl 41 Rival | Grass | Pkmn Tower F2": {
         "level": 41,
         "tr_id": 430,
         "ai": 807,
@@ -29669,7 +29669,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Ranger Beth | Mt. Ember": {
+      "Lvl 62 Beth | Mt. Ember": {
         "level": 62,
         "tr_id": 597,
         "ai": 775,
@@ -29705,7 +29705,7 @@ var backup_data = {
       }
     },
     "Exploud": {
-      "Lvl 60 Super Nerd Derek | Op: Question 2 | Cinnabar Gym": {
+      "Lvl 60 Derek | Q2 | Cinnabar Gym": {
         "level": 60,
         "tr_id": 179,
         "ai": 773,
@@ -29721,7 +29721,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Ice Beam",
           "Flamethrower",
@@ -29739,7 +29739,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Twins Kiri Jan | R14": {
+      "Lvl 46 Kiri Jan | R14": {
         "level": 46,
         "tr_id": 487,
         "ai": 773,
@@ -29755,7 +29755,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Hasty",
         "moves": [
           "Ice Beam",
           "Flamethrower",
@@ -29775,7 +29775,7 @@ var backup_data = {
       }
     },
     "Solrock": {
-      "Lvl 60 Super Nerd Zac | Op: Question 3 | Cinnabar Gym": {
+      "Lvl 60 Zac | Q3 | Cinnabar Gym": {
         "level": 60,
         "tr_id": 180,
         "ai": 781,
@@ -29791,7 +29791,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Rock Polish",
           "Psychic",
@@ -29809,7 +29809,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Hiker Dudley | Op: TM37 | Rock Tunnel F2": {
+      "Lvl 36 Dudley | Op: TM37 | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 189,
         "ai": 773,
@@ -29825,7 +29825,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Rock Slide",
           "Sandstorm",
@@ -29843,7 +29843,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Psychic Preston | Bottom | Saffron Gym": {
+      "Lvl 51 Preston | Bottom | Saffron Gym": {
         "level": 51,
         "tr_id": 283,
         "ai": 773,
@@ -29877,7 +29877,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Juggler Dalton | Op: TM29 | Silph Co. F5": {
+      "Lvl 49 Dalton | Op: TM29 | Silph Co. F5": {
         "level": 49,
         "tr_id": 286,
         "ai": 773,
@@ -29893,7 +29893,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Morning Sun",
           "Psychic",
@@ -29911,7 +29911,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Jose | Op: TM35 | Silph Co. F3": {
+      "Lvl 49 Jose | Op: TM35 | Silph Co. F3": {
         "level": 49,
         "tr_id": 338,
         "ai": 773,
@@ -29927,7 +29927,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Flamethrower",
           "Psychic",
@@ -29947,7 +29947,7 @@ var backup_data = {
       }
     },
     "Rapidash": {
-      "Lvl 60 Super Nerd Zac | Op: Question 3 | Cinnabar Gym": {
+      "Lvl 60 Zac | Q3 | Cinnabar Gym": {
         "level": 60,
         "tr_id": 180,
         "ai": 781,
@@ -29963,7 +29963,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Swagger",
           "Attract",
@@ -29981,7 +29981,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Gamer Stan | Op: TM35 | R8": {
+      "Lvl 36 Stan | Op: TM35 | R8": {
         "level": 36,
         "tr_id": 262,
         "ai": 773,
@@ -30015,7 +30015,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 1 | Card Key | Silph Co. F5": {
+      "Lvl 49 Grunt 1 | Card Key | Silph Co. F5": {
         "level": 49,
         "tr_id": 378,
         "ai": 789,
@@ -30049,7 +30049,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 61 Leader Blaine | Cinnabar Gym": {
+      "Lvl 61 Blaine | Cinnabar Gym": {
         "level": 61,
         "tr_id": 419,
         "ai": 815,
@@ -30083,7 +30083,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Picnicker Alma | R13": {
+      "Lvl 43 Alma | R13": {
         "level": 43,
         "tr_id": 466,
         "ai": 773,
@@ -30099,7 +30099,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Jolly",
         "moves": [
           "Wild Charge",
           "Blaze Kick",
@@ -30119,7 +30119,7 @@ var backup_data = {
       }
     },
     "Typhlosion": {
-      "Lvl 61 Super Nerd Zac | Op: Question 3 | Cinnabar Gym": {
+      "Lvl 61 Zac | Q3 | Cinnabar Gym": {
         "level": 61,
         "tr_id": 180,
         "ai": 781,
@@ -30135,7 +30135,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Double Team",
           "Wild Charge",
@@ -30153,7 +30153,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Gamer Stan | Op: TM35 | R8": {
+      "Lvl 36 Stan | Op: TM35 | R8": {
         "level": 36,
         "tr_id": 262,
         "ai": 773,
@@ -30187,7 +30187,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Beauty Lola | R13": {
+      "Lvl 44 Lola | R13": {
         "level": 44,
         "tr_id": 268,
         "ai": 773,
@@ -30221,7 +30221,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 68 Cooltrainer Caroline | Victory Road F3": {
+      "Lvl 68 Caroline | Victory Road F3": {
         "level": 68,
         "tr_id": 403,
         "ai": 815,
@@ -30255,7 +30255,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Yazmin | South | R15": {
+      "Lvl 47 Yazmin | South | R15": {
         "level": 47,
         "tr_id": 478,
         "ai": 773,
@@ -30271,7 +30271,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Bashful",
         "moves": [
           "Body Slam",
           "Flamethrower",
@@ -30291,7 +30291,7 @@ var backup_data = {
       }
     },
     "Onix": {
-      "Lvl 19 Hiker Marcos | Mt. Moon F1": {
+      "Lvl 19 Marcos | Mt. Moon F1": {
         "level": 19,
         "tr_id": 181,
         "ai": 773,
@@ -30307,7 +30307,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Magnitude",
           "Sand Tomb",
@@ -30325,7 +30325,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cooltrainer Warren | Right Path | Viridian Gym": {
+      "Lvl 64 Warren | Right Path | Viridian Gym": {
         "level": 64,
         "tr_id": 401,
         "ai": 775,
@@ -30341,7 +30341,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Taunt",
           "Earthquake",
@@ -30359,7 +30359,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 15 Leader Brock | Pewter Gym": {
+      "Lvl 15 Brock | Pewter Gym": {
         "level": 15,
         "tr_id": 414,
         "ai": 815,
@@ -30395,7 +30395,7 @@ var backup_data = {
       }
     },
     "Togetic": {
-      "Lvl 23 Hiker Franklin | Op: Grass Encounter, Silk Scarf | R25": {
+      "Lvl 23 Franklin | Op: Grass, Silk Scarf | R25": {
         "level": 23,
         "tr_id": 182,
         "ai": 773,
@@ -30411,7 +30411,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Charm",
           "Sweet Kiss",
@@ -30429,7 +30429,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Bird Keeper Ramiro | R18": {
+      "Lvl 47 Ramiro | R18": {
         "level": 47,
         "tr_id": 308,
         "ai": 773,
@@ -30445,7 +30445,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Charm",
           "Yawn",
@@ -30463,7 +30463,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Camper Bryce | Op: TM15 | Kindle Road": {
+      "Lvl 64 Bryce | Op: TM15 | Kindle Road": {
         "level": 64,
         "tr_id": 555,
         "ai": 773,
@@ -30499,7 +30499,7 @@ var backup_data = {
       }
     },
     "Sudowoodo": {
-      "Lvl 22 Hiker Nob | R25": {
+      "Lvl 22 Nob | R25": {
         "level": 22,
         "tr_id": 183,
         "ai": 773,
@@ -30515,7 +30515,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Mimic",
           "Rock Tomb",
@@ -30533,7 +30533,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Hiker Lucas | Right | Rock Tunnel F1": {
+      "Lvl 34 Lucas | Right | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 194,
         "ai": 773,
@@ -30549,7 +30549,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Slam",
           "Rock Slide",
@@ -30567,7 +30567,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 13 | Op: F8 Access | Silph Co. F8": {
+      "Lvl 49 Grunt 13 | Op: F8 Access | Silph Co. F8": {
         "level": 49,
         "tr_id": 382,
         "ai": 789,
@@ -30601,7 +30601,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 13 Leader Brock | Pewter Gym": {
+      "Lvl 13 Brock | Pewter Gym": {
         "level": 13,
         "tr_id": 414,
         "ai": 815,
@@ -30637,7 +30637,7 @@ var backup_data = {
       }
     },
     "Primeape": {
-      "Lvl 31 Hiker Brice | R9": {
+      "Lvl 31 Brice | R9": {
         "level": 31,
         "tr_id": 186,
         "ai": 773,
@@ -30653,7 +30653,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Low Kick",
           "Fury Swipes",
@@ -30671,7 +30671,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Hiker Lenny | Rock Tunnel F1": {
+      "Lvl 34 Lenny | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 192,
         "ai": 773,
@@ -30687,7 +30687,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Revenge",
           "Seismic Toss",
@@ -30705,7 +30705,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Cue Ball Camron | R16": {
+      "Lvl 43 Camron | R16": {
         "level": 43,
         "tr_id": 251,
         "ai": 773,
@@ -30739,7 +30739,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Hitoshi | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Hitoshi | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 321,
         "ai": 773,
@@ -30773,7 +30773,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Joshua | Op: Focus Band | Silph Co. F7": {
+      "Lvl 49 Joshua | Op: Focus Band | Silph Co. F7": {
         "level": 49,
         "tr_id": 342,
         "ai": 773,
@@ -30789,7 +30789,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Earthquake",
           "Frustration",
@@ -30807,7 +30807,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 2 | Elevator | Rocket Hideout": {
+      "Lvl 37 Grunt 2 | Elevator | Rocket Hideout F1": {
         "level": 37,
         "tr_id": 358,
         "ai": 789,
@@ -30843,7 +30843,7 @@ var backup_data = {
       }
     },
     "Hitmontop": {
-      "Lvl 31 Hiker Brice | R9": {
+      "Lvl 31 Brice | R9": {
         "level": 31,
         "tr_id": 186,
         "ai": 773,
@@ -30859,7 +30859,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Pursuit",
           "Rolling Kick",
@@ -30877,7 +30877,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Corey | Right 2 | R17": {
+      "Lvl 46 Corey | Right 2 | R17": {
         "level": 46,
         "tr_id": 256,
         "ai": 773,
@@ -30911,7 +30911,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Hitoshi | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Hitoshi | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 321,
         "ai": 773,
@@ -30945,7 +30945,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 8 | Lift Key | Rocket Hideout": {
+      "Lvl 37 Grunt 8 | Lift Key | Rocket Hideout F4": {
         "level": 37,
         "tr_id": 368,
         "ai": 789,
@@ -30979,7 +30979,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Tammy | Pokemon Tower F5": {
+      "Lvl 41 Tammy | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 447,
         "ai": 773,
@@ -31013,7 +31013,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Crush Kin Ron Mya | R15": {
+      "Lvl 48 Ron Mya | R15": {
         "level": 48,
         "tr_id": 488,
         "ai": 773,
@@ -31029,7 +31029,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Lax",
         "moves": [
           "Fake Out",
           "Brick Break",
@@ -31047,7 +31047,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Crush Girl Tanya | Op: TM08 | Kindle Road": {
+      "Lvl 64 Tanya | Op: TM08 | Kindle Road": {
         "level": 64,
         "tr_id": 552,
         "ai": 781,
@@ -31083,7 +31083,7 @@ var backup_data = {
       }
     },
     "Relicanth": {
-      "Lvl 33 Hiker Clark | Op: Sitrus Berry | R10": {
+      "Lvl 33 Clark | Op: Sitrus Berry | R10": {
         "level": 33,
         "tr_id": 187,
         "ai": 773,
@@ -31099,7 +31099,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Yawn",
           "Mud Shot",
@@ -31117,7 +31117,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Fisherman Ned | Op: Figy Berry | R12": {
+      "Lvl 45 Ned | Op: Figy Berry | R12": {
         "level": 45,
         "tr_id": 225,
         "ai": 773,
@@ -31133,7 +31133,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Yawn",
           "Aqua Tail",
@@ -31151,7 +31151,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 SwimmerM David | R19": {
+      "Lvl 54 David | R19": {
         "level": 54,
         "tr_id": 239,
         "ai": 773,
@@ -31185,7 +31185,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Dean | R20": {
+      "Lvl 56 Dean | R20": {
         "level": 56,
         "tr_id": 243,
         "ai": 773,
@@ -31219,7 +31219,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Roland | R21": {
+      "Lvl 56 Roland | R21": {
         "level": 56,
         "tr_id": 248,
         "ai": 773,
@@ -31253,7 +31253,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 4 | Op: TM32 | Rocket Hideout": {
+      "Lvl 38 Grunt 4 | Op: TM32 | Rocket Hideout F1": {
         "level": 38,
         "tr_id": 360,
         "ai": 789,
@@ -31287,7 +31287,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 18 | Op: TM37 | Silph Co. F11": {
+      "Lvl 49 Grunt 18 | Op: TM37 | Silph Co. F11": {
         "level": 49,
         "tr_id": 390,
         "ai": 789,
@@ -31323,7 +31323,7 @@ var backup_data = {
       }
     },
     "Pupitar": {
-      "Lvl 32 Hiker Trent | R10": {
+      "Lvl 32 Trent | R10": {
         "level": 32,
         "tr_id": 188,
         "ai": 773,
@@ -31339,7 +31339,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Magnitude",
           "Rock Tomb",
@@ -31357,7 +31357,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Hiker Eric | Rock Tunnel F2": {
+      "Lvl 34 Eric | Rock Tunnel F2": {
         "level": 34,
         "tr_id": 191,
         "ai": 773,
@@ -31373,7 +31373,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Magnitude",
           "Sandstorm",
@@ -31391,7 +31391,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cooltrainer Warren | Right Path | Viridian Gym": {
+      "Lvl 64 Warren | Right Path | Viridian Gym": {
         "level": 64,
         "tr_id": 401,
         "ai": 775,
@@ -31407,7 +31407,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Earthquake",
           "Stone Edge",
@@ -31427,7 +31427,7 @@ var backup_data = {
       }
     },
     "Lairon": {
-      "Lvl 32 Hiker Trent | R10": {
+      "Lvl 32 Trent | R10": {
         "level": 32,
         "tr_id": 188,
         "ai": 773,
@@ -31443,7 +31443,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Roar",
           "Take Down",
@@ -31461,7 +31461,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Jeremy | Op: TM40 | R9": {
+      "Lvl 33 Jeremy | Op: TM40 | R9": {
         "level": 33,
         "tr_id": 465,
         "ai": 773,
@@ -31477,7 +31477,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Calm",
         "moves": [
           "Aerial Ace",
           "Roar",
@@ -31497,7 +31497,7 @@ var backup_data = {
       }
     },
     "Cacturne": {
-      "Lvl 36 Hiker Dudley | Op: TM37 | Rock Tunnel F2": {
+      "Lvl 36 Dudley | Op: TM37 | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 189,
         "ai": 773,
@@ -31513,7 +31513,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Faint Attack",
           "Needle Arm",
@@ -31531,7 +31531,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 9 | Rocket Hideout": {
+      "Lvl 38 Grunt 9 | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 366,
         "ai": 789,
@@ -31565,7 +31565,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 18 | Op: TM37 | Silph Co. F11": {
+      "Lvl 49 Grunt 18 | Op: TM37 | Silph Co. F11": {
         "level": 49,
         "tr_id": 390,
         "ai": 789,
@@ -31601,7 +31601,7 @@ var backup_data = {
       }
     },
     "Medicham": {
-      "Lvl 36 Hiker Allen | Op: Thuck Club | Rock Tunnel F2": {
+      "Lvl 36 Allen | Op: Thuck Club | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 190,
         "ai": 773,
@@ -31617,7 +31617,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Barrage",
           "Jump Kick",
@@ -31635,7 +31635,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Jamal | Left 2 | R17": {
+      "Lvl 46 Jamal | Left 2 | R17": {
         "level": 46,
         "tr_id": 255,
         "ai": 773,
@@ -31669,7 +31669,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Psychic Cameron | Saffron Gym": {
+      "Lvl 50 Cameron | Saffron Gym": {
         "level": 50,
         "tr_id": 282,
         "ai": 773,
@@ -31703,7 +31703,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Mike | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Mike | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 318,
         "ai": 773,
@@ -31737,7 +31737,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 4 | Op: TM32 | Rocket Hideout": {
+      "Lvl 38 Grunt 4 | Op: TM32 | Rocket Hideout F1": {
         "level": 38,
         "tr_id": 360,
         "ai": 789,
@@ -31771,7 +31771,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 11 | South | Op: TM08 | Silph Co. F7": {
+      "Lvl 49 Grunt 11 | South | Op: TM08 | Silph Co. F7": {
         "level": 49,
         "tr_id": 384,
         "ai": 797,
@@ -31805,7 +31805,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Crush Kin Ron Mya | R15": {
+      "Lvl 48 Ron Mya | R15": {
         "level": 48,
         "tr_id": 488,
         "ai": 773,
@@ -31821,7 +31821,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Brave",
         "moves": [
           "Mind Reader",
           "Psycho Cut",
@@ -31839,7 +31839,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Crush Kin Mik Kia | Kindle Road": {
+      "Lvl 64 Mik Kia | Kindle Road": {
         "level": 64,
         "tr_id": 557,
         "ai": 773,
@@ -31855,7 +31855,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Relaxed",
         "moves": [
           "Psycho Cut",
           "Brick Break",
@@ -31875,7 +31875,7 @@ var backup_data = {
       }
     },
     "Marowak": {
-      "Lvl 36 Hiker Allen | Op: Thuck Club | Rock Tunnel F2": {
+      "Lvl 36 Allen | Op: Thuck Club | Rock Tunnel F2": {
         "level": 36,
         "tr_id": 190,
         "ai": 773,
@@ -31891,7 +31891,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Rock Tomb",
           "Aerial Ace",
@@ -31909,7 +31909,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Biker Ruben | R16": {
+      "Lvl 43 Ruben | R16": {
         "level": 43,
         "tr_id": 202,
         "ai": 773,
@@ -31943,7 +31943,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Cooltrainer Yuji | Middle Path | Viridian Gym": {
+      "Lvl 63 Yuji | Middle Path | Viridian Gym": {
         "level": 63,
         "tr_id": 400,
         "ai": 783,
@@ -31959,7 +31959,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Impish",
+        "nature": "Quirky",
         "moves": [
           "Rock Tomb",
           "Iron Head",
@@ -31977,7 +31977,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Team Rocket Grunt 1 | Mt. Ember": {
+      "Lvl 62 Grunt 1 | Mt. Ember": {
         "level": 62,
         "tr_id": 537,
         "ai": 789,
@@ -32013,7 +32013,7 @@ var backup_data = {
       }
     },
     "Quagsire": {
-      "Lvl 34 Hiker Lenny | Rock Tunnel F1": {
+      "Lvl 34 Lenny | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 192,
         "ai": 773,
@@ -32029,7 +32029,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "Icy Wind",
           "Body Slam",
@@ -32047,7 +32047,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Biker Lao | R16": {
+      "Lvl 43 Lao | R16": {
         "level": 43,
         "tr_id": 199,
         "ai": 773,
@@ -32081,7 +32081,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Swimmerm Luis | Cerulean Gym": {
+      "Lvl 22 Luis | Cerulean Gym": {
         "level": 22,
         "tr_id": 234,
         "ai": 815,
@@ -32115,7 +32115,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 53 SwimmerM Reece | R19": {
+      "Lvl 53 Reece | R19": {
         "level": 53,
         "tr_id": 236,
         "ai": 773,
@@ -32149,7 +32149,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Cooltrainer Samuel | Left Path | Viridian Gym": {
+      "Lvl 63 Samuel | Left Path | Viridian Gym": {
         "level": 63,
         "tr_id": 392,
         "ai": 783,
@@ -32165,7 +32165,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Yawn",
           "Muddy Water",
@@ -32185,7 +32185,7 @@ var backup_data = {
       }
     },
     "Hitmonlee": {
-      "Lvl 34 Hiker Oliver | Left | Rock Tunnel F1": {
+      "Lvl 34 Oliver | Left | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 193,
         "ai": 773,
@@ -32201,7 +32201,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Calm",
         "moves": [
           "Rolling Kick",
           "Blaze Kick",
@@ -32219,7 +32219,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Cue Ball Koji | R16": {
+      "Lvl 43 Koji | R16": {
         "level": 43,
         "tr_id": 249,
         "ai": 773,
@@ -32253,7 +32253,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Corey | Right 2 | R17": {
+      "Lvl 46 Corey | Right 2 | R17": {
         "level": 46,
         "tr_id": 256,
         "ai": 773,
@@ -32287,7 +32287,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Mike | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Mike | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 318,
         "ai": 773,
@@ -32321,7 +32321,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Crush Girl Tanya | Op: TM08 | Kindle Road": {
+      "Lvl 64 Tanya | Op: TM08 | Kindle Road": {
         "level": 64,
         "tr_id": 552,
         "ai": 781,
@@ -32357,7 +32357,7 @@ var backup_data = {
       }
     },
     "Dugtrio": {
-      "Lvl 34 Hiker Oliver | Left | Rock Tunnel F1": {
+      "Lvl 34 Oliver | Left | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 193,
         "ai": 773,
@@ -32373,7 +32373,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Slash",
           "Rock Slide",
@@ -32391,7 +32391,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Tamer Jason | Middle Path | Viridian Gym": {
+      "Lvl 64 Jason | Middle Path | Viridian Gym": {
         "level": 64,
         "tr_id": 296,
         "ai": 781,
@@ -32407,7 +32407,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Facade",
           "Rock Slide",
@@ -32425,7 +32425,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 18 | Op: TM37 | Silph Co. F11": {
+      "Lvl 49 Grunt 18 | Op: TM37 | Silph Co. F11": {
         "level": 49,
         "tr_id": 390,
         "ai": 789,
@@ -32461,7 +32461,7 @@ var backup_data = {
       }
     },
     "Rhydon": {
-      "Lvl 34 Hiker Lucas | Right | Rock Tunnel F1": {
+      "Lvl 34 Lucas | Right | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 194,
         "ai": 773,
@@ -32477,7 +32477,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Careful",
         "moves": [
           "Horn Attack",
           "Scary Face",
@@ -32495,7 +32495,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Boss Giovanni | Rocket Hideout": {
+      "Lvl 38 Giovanni | Rocket Hideout F4": {
         "level": 38,
         "tr_id": 348,
         "ai": 823,
@@ -32529,7 +32529,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Leader Giovanni | Viridian Gym": {
+      "Lvl 63 Giovanni | Viridian Gym": {
         "level": 63,
         "tr_id": 350,
         "ai": 831,
@@ -32563,7 +32563,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Cooltrainer Samuel | Left Path | Viridian Gym": {
+      "Lvl 63 Samuel | Left Path | Viridian Gym": {
         "level": 63,
         "tr_id": 392,
         "ai": 783,
@@ -32579,7 +32579,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Sassy",
         "moves": [
           "Swords Dance",
           "Earthquake",
@@ -32597,7 +32597,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Ranger Beth | Mt. Ember": {
+      "Lvl 62 Beth | Mt. Ember": {
         "level": 62,
         "tr_id": 597,
         "ai": 775,
@@ -32633,7 +32633,7 @@ var backup_data = {
       }
     },
     "Victreebel": {
-      "Lvl 44 Biker Jared | R13": {
+      "Lvl 44 Jared | R13": {
         "level": 44,
         "tr_id": 195,
         "ai": 773,
@@ -32667,7 +32667,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Ernest | South | R15": {
+      "Lvl 47 Ernest | South | R15": {
         "level": 47,
         "tr_id": 197,
         "ai": 773,
@@ -32701,7 +32701,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Juggler Kirk | Fuchsia Gym": {
+      "Lvl 48 Kirk | Fuchsia Gym": {
         "level": 48,
         "tr_id": 288,
         "ai": 781,
@@ -32717,7 +32717,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Toxic",
           "Synthesis",
@@ -32735,7 +32735,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 14 | Op: TM42 | Silph Co. F8": {
+      "Lvl 49 Grunt 14 | Op: TM42 | Silph Co. F8": {
         "level": 49,
         "tr_id": 386,
         "ai": 789,
@@ -32769,7 +32769,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Leader Erika | Celadon City": {
+      "Lvl 38 Erika | Celadon City": {
         "level": 38,
         "tr_id": 417,
         "ai": 815,
@@ -32805,7 +32805,7 @@ var backup_data = {
       }
     },
     "Pelipper": {
-      "Lvl 47 Biker Ernest | South | R15": {
+      "Lvl 47 Ernest | South | R15": {
         "level": 47,
         "tr_id": 197,
         "ai": 773,
@@ -32839,7 +32839,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Spencer | R21": {
+      "Lvl 56 Spencer | R21": {
         "level": 56,
         "tr_id": 245,
         "ai": 773,
@@ -32873,7 +32873,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 SwimmerM Jerome | R21": {
+      "Lvl 58 Jerome | R21": {
         "level": 58,
         "tr_id": 247,
         "ai": 773,
@@ -32907,7 +32907,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Beck | R14": {
+      "Lvl 46 Beck | R14": {
         "level": 46,
         "tr_id": 315,
         "ai": 773,
@@ -32923,7 +32923,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Shock Wave",
           "Icy Wind",
@@ -32941,7 +32941,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Taylor | Op: TM11, TM18 | Silph Co. F6": {
+      "Lvl 49 Taylor | Op: TMs 11, 18 | Silph Co. F6": {
         "level": 49,
         "tr_id": 341,
         "ai": 773,
@@ -32957,7 +32957,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Stockpile",
           "Swallow",
@@ -32975,7 +32975,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 Sis And Bro Lia Luc | Left | R19": {
+      "Lvl 54 Lia Luc | Left | R19": {
         "level": 54,
         "tr_id": 490,
         "ai": 773,
@@ -32991,7 +32991,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Brave",
         "moves": [
           "Shock Wave",
           "Icy Wind",
@@ -33011,7 +33011,7 @@ var backup_data = {
       }
     },
     "Vileplume": {
-      "Lvl 47 Biker Alex | North | R15": {
+      "Lvl 47 Alex | North | R15": {
         "level": 47,
         "tr_id": 198,
         "ai": 773,
@@ -33045,7 +33045,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Juggler Kirk | Fuchsia Gym": {
+      "Lvl 48 Kirk | Fuchsia Gym": {
         "level": 48,
         "tr_id": 288,
         "ai": 781,
@@ -33061,7 +33061,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Toxic",
           "Moonlight",
@@ -33079,7 +33079,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 15 | Gate | Op: Lax Incense | Silph Co. F9": {
+      "Lvl 49 Grunt 15 | Gate | Op: Lax Incense | Silph Co. F9": {
         "level": 49,
         "tr_id": 388,
         "ai": 789,
@@ -33113,7 +33113,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Leader Erika | Celadon City": {
+      "Lvl 40 Erika | Celadon City": {
         "level": 40,
         "tr_id": 417,
         "ai": 815,
@@ -33147,7 +33147,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Young Couple Lea Jed | Fly | Route 16": {
+      "Lvl 38 Lea Jed | Fly | R16": {
         "level": 38,
         "tr_id": 489,
         "ai": 773,
@@ -33163,7 +33163,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Hasty",
         "moves": [
           "Sleep Powder",
           "Giga Drain",
@@ -33183,7 +33183,7 @@ var backup_data = {
       }
     },
     "Scyther": {
-      "Lvl 43 Biker Hideo | R16": {
+      "Lvl 43 Hideo | R16": {
         "level": 43,
         "tr_id": 201,
         "ai": 773,
@@ -33217,7 +33217,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Bird Keeper Mitch | R14": {
+      "Lvl 46 Mitch | R14": {
         "level": 46,
         "tr_id": 314,
         "ai": 773,
@@ -33233,7 +33233,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Aerial Ace",
           "X-Scissor",
@@ -33251,7 +33251,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Team Rocket Grunt 1 | Pokemon Tower F7": {
+      "Lvl 41 Grunt 1 | Pkmn Tower F7": {
         "level": 41,
         "tr_id": 369,
         "ai": 789,
@@ -33287,7 +33287,7 @@ var backup_data = {
       }
     },
     "Stantler": {
-      "Lvl 43 Biker Ruben | R16": {
+      "Lvl 43 Ruben | R16": {
         "level": 43,
         "tr_id": 202,
         "ai": 773,
@@ -33321,7 +33321,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Janae | Pokemon Tower F5": {
+      "Lvl 41 Janae | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 450,
         "ai": 773,
@@ -33355,7 +33355,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 35 Picnicker Dana | Rock Tunnel F1": {
+      "Lvl 35 Dana | Rock Tunnel F1": {
         "level": 35,
         "tr_id": 474,
         "ai": 773,
@@ -33371,7 +33371,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Hasty",
         "moves": [
           "Headbutt",
           "Shadow Ball",
@@ -33389,7 +33389,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Camper Justin | Op: Iapapa Berry | R12": {
+      "Lvl 45 Justin | Op: Iapapa Berry | R12": {
         "level": 45,
         "tr_id": 477,
         "ai": 773,
@@ -33423,7 +33423,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 27 Gentleman Lamar | S.S. Anne F2": {
+      "Lvl 27 Lamar | S.S. Anne F2": {
         "level": 27,
         "tr_id": 483,
         "ai": 773,
@@ -33439,7 +33439,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Hypnosis",
           "Stomp",
@@ -33459,7 +33459,7 @@ var backup_data = {
       }
     },
     "Heracross": {
-      "Lvl 46 Biker Billy | Middle 2 | R17": {
+      "Lvl 46 Billy | Middle 2 | R17": {
         "level": 46,
         "tr_id": 203,
         "ai": 773,
@@ -33493,7 +33493,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Biker Isaac | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Isaac | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 208,
         "ai": 773,
@@ -33527,7 +33527,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Black Belt Koichi | Op: Choice Band | Fighting Dojo": {
+      "Lvl 52 Koichi | Op: Choice Band | Fighting Dojo": {
         "level": 52,
         "tr_id": 317,
         "ai": 775,
@@ -33561,7 +33561,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Hitoshi | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Hitoshi | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 321,
         "ai": 773,
@@ -33595,7 +33595,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 6 | Op: TM21 | Rocket Hideout": {
+      "Lvl 38 Grunt 6 | Op: TM21 | Rocket Hideout F3": {
         "level": 38,
         "tr_id": 365,
         "ai": 789,
@@ -33629,7 +33629,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 10 | North | Op: TM08 | Silph Co. F7": {
+      "Lvl 49 Grunt 10 | North | Op: TM08 | Silph Co. F7": {
         "level": 49,
         "tr_id": 383,
         "ai": 797,
@@ -33663,7 +33663,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 33 Hiker Jeremy | Op: TM40 | R9": {
+      "Lvl 33 Jeremy | Op: TM40 | R9": {
         "level": 33,
         "tr_id": 465,
         "ai": 773,
@@ -33679,7 +33679,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Aerial Ace",
           "Brick Break",
@@ -33697,7 +33697,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Picnicker Gwen | Op: Lax Incense | R13": {
+      "Lvl 45 Gwen | Op: Lax Incense | R13": {
         "level": 45,
         "tr_id": 469,
         "ai": 773,
@@ -33713,7 +33713,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Lax",
         "moves": [
           "Aerial Ace",
           "Body Slam",
@@ -33731,7 +33731,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Crush Kin Mik Kia | Kindle Road": {
+      "Lvl 64 Mik Kia | Kindle Road": {
         "level": 64,
         "tr_id": 557,
         "ai": 773,
@@ -33747,7 +33747,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Lonely",
         "moves": [
           "Swords Dance",
           "Stone Edge",
@@ -33767,7 +33767,7 @@ var backup_data = {
       }
     },
     "Grumpig": {
-      "Lvl 47 Biker William | Left 3 | R17": {
+      "Lvl 47 William | Left 3 | R17": {
         "level": 47,
         "tr_id": 206,
         "ai": 773,
@@ -33801,7 +33801,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Psychic Johan | Bottom | Saffron Gym": {
+      "Lvl 51 Johan | Bottom | Saffron Gym": {
         "level": 51,
         "tr_id": 280,
         "ai": 773,
@@ -33835,7 +33835,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Beau | Silph Co. F5": {
+      "Lvl 49 Beau | Silph Co. F5": {
         "level": 49,
         "tr_id": 340,
         "ai": 773,
@@ -33851,7 +33851,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Bounce",
           "Teeter Dance",
@@ -33869,7 +33869,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Jennifer | Pokemon Tower F6": {
+      "Lvl 41 Jennifer | Pkmn Tower F6": {
         "level": 41,
         "tr_id": 453,
         "ai": 773,
@@ -33903,7 +33903,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Picnicker Gwen | Op: Lax Incense | R13": {
+      "Lvl 45 Gwen | Op: Lax Incense | R13": {
         "level": 45,
         "tr_id": 469,
         "ai": 773,
@@ -33919,7 +33919,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Hardy",
         "moves": [
           "Extrasensory",
           "Rest",
@@ -33939,7 +33939,7 @@ var backup_data = {
       }
     },
     "Dusclops": {
-      "Lvl 47 Biker William | Left 3 | R17": {
+      "Lvl 47 William | Left 3 | R17": {
         "level": 47,
         "tr_id": 206,
         "ai": 773,
@@ -33973,7 +33973,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Scientist Ted | Pokemon Mansion F1": {
+      "Lvl 59 Ted | Pkmn Mansion F1": {
         "level": 59,
         "tr_id": 335,
         "ai": 773,
@@ -33989,7 +33989,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Will-O-Wisp",
           "Pain Split",
@@ -34007,7 +34007,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 3 | Silph Co. F11": {
+      "Lvl 49 Grunt 3 | Silph Co. F11": {
         "level": 49,
         "tr_id": 391,
         "ai": 789,
@@ -34041,7 +34041,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 71 Elite Four Agatha | Pokemon League": {
+      "Lvl 71 Agatha | Pkmn League": {
         "level": 71,
         "tr_id": 412,
         "ai": 815,
@@ -34057,7 +34057,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Lonely",
         "moves": [
           "Shadow Sneak",
           "Brick Break",
@@ -34075,7 +34075,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Tammy | Pokemon Tower F5": {
+      "Lvl 41 Tammy | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 447,
         "ai": 773,
@@ -34109,7 +34109,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Karina | Pokemon Tower F5": {
+      "Lvl 41 Karina | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 449,
         "ai": 773,
@@ -34143,7 +34143,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Emilia | Pokemon Tower F6": {
+      "Lvl 41 Emilia | Pkmn Tower F6": {
         "level": 41,
         "tr_id": 452,
         "ai": 773,
@@ -34177,7 +34177,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Channeler Tasha | Top | Saffron Gym": {
+      "Lvl 51 Tasha | Top | Saffron Gym": {
         "level": 51,
         "tr_id": 464,
         "ai": 773,
@@ -34213,7 +34213,7 @@ var backup_data = {
       }
     },
     "Gyarados": {
-      "Lvl 47 Biker William | Left 3 | R17": {
+      "Lvl 47 William | Left 3 | R17": {
         "level": 47,
         "tr_id": 206,
         "ai": 773,
@@ -34247,7 +34247,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Fisherman Chip | Op: Wiki Berry | R12": {
+      "Lvl 45 Chip | Op: Wiki Berry | R12": {
         "level": 45,
         "tr_id": 226,
         "ai": 773,
@@ -34263,7 +34263,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Thunder Wave",
           "Aqua Tail",
@@ -34281,7 +34281,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Fisherman Wade | Op: Salac Berry | R21": {
+      "Lvl 58 Wade | Op: Salac Berry | R21": {
         "level": 58,
         "tr_id": 231,
         "ai": 773,
@@ -34297,7 +34297,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Relaxed",
         "moves": [
           "Bounce",
           "Waterfall",
@@ -34315,7 +34315,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 SwimmerM David | R19": {
+      "Lvl 54 David | R19": {
         "level": 54,
         "tr_id": 239,
         "ai": 773,
@@ -34349,7 +34349,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Spencer | R21": {
+      "Lvl 56 Spencer | R21": {
         "level": 56,
         "tr_id": 245,
         "ai": 773,
@@ -34383,7 +34383,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 3 | Silph Co. F11": {
+      "Lvl 49 Grunt 3 | Silph Co. F11": {
         "level": 49,
         "tr_id": 391,
         "ai": 789,
@@ -34417,7 +34417,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 72 Elite Four Lance | Pokemon League": {
+      "Lvl 72 Lance | Pkmn League": {
         "level": 72,
         "tr_id": 413,
         "ai": 815,
@@ -34451,7 +34451,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Maria | Kindle Road": {
+      "Lvl 62 Maria | Kindle Road": {
         "level": 62,
         "tr_id": 547,
         "ai": 773,
@@ -34487,7 +34487,7 @@ var backup_data = {
       }
     },
     "Nidoking": {
-      "Lvl 47 Biker Lukas | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Lukas | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 207,
         "ai": 773,
@@ -34521,7 +34521,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Isaiah | Middle 2 | R17": {
+      "Lvl 46 Isaiah | Middle 2 | R17": {
         "level": 46,
         "tr_id": 253,
         "ai": 773,
@@ -34555,7 +34555,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Juggler Nate | First Path | Fuchsia Gym": {
+      "Lvl 47 Nate | Middle | Fuchsia Gym": {
         "level": 47,
         "tr_id": 293,
         "ai": 773,
@@ -34571,7 +34571,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Drill Run",
           "Flamethrower",
@@ -34589,7 +34589,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 65 Leader Giovanni | Viridian Gym": {
+      "Lvl 65 Giovanni | Viridian Gym": {
         "level": 65,
         "tr_id": 350,
         "ai": 831,
@@ -34623,7 +34623,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 9 | South | Op: TM45 | Silph Co. F6": {
+      "Lvl 49 Grunt 9 | South | Op: TM45 | Silph Co. F6": {
         "level": 49,
         "tr_id": 381,
         "ai": 789,
@@ -34659,7 +34659,7 @@ var backup_data = {
       }
     },
     "Muk": {
-      "Lvl 47 Biker Isaac | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Isaac | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 208,
         "ai": 773,
@@ -34693,7 +34693,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Cue Ball Isaiah | Middle 2 | R17": {
+      "Lvl 46 Isaiah | Middle 2 | R17": {
         "level": 46,
         "tr_id": 253,
         "ai": 773,
@@ -34727,7 +34727,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 59 Scientist Ted | Pokemon Mansion F1": {
+      "Lvl 59 Ted | Pkmn Mansion F1": {
         "level": 59,
         "tr_id": 335,
         "ai": 773,
@@ -34743,7 +34743,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Timid",
+        "nature": "Lonely",
         "moves": [
           "Haze",
           "Poison Gas",
@@ -34761,7 +34761,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Leader Koga | Fuchsia Gym": {
+      "Lvl 48 Koga | Fuchsia Gym": {
         "level": 48,
         "tr_id": 418,
         "ai": 823,
@@ -34795,7 +34795,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Biker Ricardo | R8": {
+      "Lvl 36 Ricardo | R8": {
         "level": 36,
         "tr_id": 535,
         "ai": 773,
@@ -34829,7 +34829,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cue Ball Paxton | Three Island": {
+      "Lvl 64 Paxton | B2B | Three Island": {
         "level": 64,
         "tr_id": 742,
         "ai": 845,
@@ -34865,7 +34865,7 @@ var backup_data = {
       }
     },
     "Sneasel": {
-      "Lvl 47 Biker Gerald | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Gerald | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 209,
         "ai": 773,
@@ -34899,7 +34899,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 8 | Lift Key | Rocket Hideout": {
+      "Lvl 37 Grunt 8 | Lift Key | Rocket Hideout F4": {
         "level": 37,
         "tr_id": 368,
         "ai": 789,
@@ -34933,7 +34933,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 12 | Op: TM07 | Silph Co. F7": {
+      "Lvl 49 Grunt 12 | Op: TM07 | Silph Co. F7": {
         "level": 49,
         "tr_id": 385,
         "ai": 789,
@@ -34967,7 +34967,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Picnicker Irene | R20": {
+      "Lvl 56 Irene | R20": {
         "level": 56,
         "tr_id": 473,
         "ai": 773,
@@ -34983,7 +34983,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Bashful",
         "moves": [
           "Taunt",
           "Fake Out",
@@ -35003,7 +35003,7 @@ var backup_data = {
       }
     },
     "Tentacruel": {
-      "Lvl 47 Biker Gerald | Op: Grass Encounter, Poison Barb | R14": {
+      "Lvl 47 Gerald | Op: Grass, Poison Barb | R14": {
         "level": 47,
         "tr_id": 209,
         "ai": 773,
@@ -35037,7 +35037,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Fisherman Chip | Op: Wiki Berry | R12": {
+      "Lvl 45 Chip | Op: Wiki Berry | R12": {
         "level": 45,
         "tr_id": 226,
         "ai": 773,
@@ -35053,7 +35053,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Toxic",
           "Sludge Bomb",
@@ -35071,7 +35071,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 SwimmerM Axle | Right | R19": {
+      "Lvl 54 Axle | Right | R19": {
         "level": 54,
         "tr_id": 241,
         "ai": 773,
@@ -35105,7 +35105,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 55 SwimmerF Connie | R19": {
+      "Lvl 55 Connie | R19": {
         "level": 55,
         "tr_id": 278,
         "ai": 773,
@@ -35139,7 +35139,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Leader Koga | Fuchsia Gym": {
+      "Lvl 48 Koga | Fuchsia Gym": {
         "level": 48,
         "tr_id": 418,
         "ai": 823,
@@ -35173,7 +35173,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Biker Virgil | Left 2 | R17": {
+      "Lvl 46 Virgil | Left 2 | R17": {
         "level": 46,
         "tr_id": 470,
         "ai": 773,
@@ -35207,7 +35207,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Abigail | Op: Salac Berry | Kindle Road": {
+      "Lvl 62 Abigail | Op: Salac Berry | Kindle Road": {
         "level": 62,
         "tr_id": 548,
         "ai": 773,
@@ -35243,7 +35243,7 @@ var backup_data = {
       }
     },
     "Charmander": {
-      "Lvl 61 Burglar Arnie | Pokemon Mansion F2": {
+      "Lvl 61 Arnie | Pkmn Mansion F2": {
         "level": 61,
         "tr_id": 216,
         "ai": 773,
@@ -35259,7 +35259,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Sunny Day",
           "Iron Tail",
@@ -35309,7 +35309,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 9 Rival | Fire | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Fire | Op: Water | R22": {
         "level": 9,
         "tr_id": 331,
         "ai": 775,
@@ -35344,7 +35344,7 @@ var backup_data = {
       }
     },
     "Jynx": {
-      "Lvl 60 Burglar Dusty | Cinnabar Gym": {
+      "Lvl 60 Dusty | Cinnabar Gym": {
         "level": 60,
         "tr_id": 215,
         "ai": 781,
@@ -35360,7 +35360,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Psychic",
           "Reflect",
@@ -35378,7 +35378,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Psychic Tyron | Bottom | Saffron Gym": {
+      "Lvl 51 Tyron | Bottom | Saffron Gym": {
         "level": 51,
         "tr_id": 281,
         "ai": 773,
@@ -35412,7 +35412,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 8 | North | Op: TM45 | Silph Co. F6": {
+      "Lvl 49 Grunt 8 | North | Op: TM45 | Silph Co. F6": {
         "level": 49,
         "tr_id": 380,
         "ai": 789,
@@ -35446,7 +35446,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 69 Elite Four Lorelei | Pokemon League": {
+      "Lvl 69 Lorelei | Pkmn League": {
         "level": 69,
         "tr_id": 410,
         "ai": 831,
@@ -35462,7 +35462,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Gentle",
         "moves": [
           "Lovely Kiss",
           "Ice Beam",
@@ -35480,7 +35480,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Picnicker Irene | R20": {
+      "Lvl 56 Irene | R20": {
         "level": 56,
         "tr_id": 473,
         "ai": 773,
@@ -35496,7 +35496,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Docile",
         "moves": [
           "Lovely Kiss",
           "Psychic",
@@ -35514,7 +35514,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Twins Eli Anne | Op: Water Encounter | R8": {
+      "Lvl 36 Eli Anne | Op: Water | R8": {
         "level": 36,
         "tr_id": 484,
         "ai": 773,
@@ -35530,7 +35530,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Gentle",
         "moves": [
           "Psybeam",
           "Ice Punch",
@@ -35550,7 +35550,7 @@ var backup_data = {
       }
     },
     "Kecleon": {
-      "Lvl 61 Burglar Simon | Op: Lansat Berry | Pokemon Mansion F3": {
+      "Lvl 61 Simon | Op: Lansat Berry | Pkmn Mansion F3": {
         "level": 61,
         "tr_id": 218,
         "ai": 773,
@@ -35566,7 +35566,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Fake Out",
           "Slash",
@@ -35584,7 +35584,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Tamer Edgar | First Path | Fuchsia Gym": {
+      "Lvl 46 Edgar | Middle | Fuchsia Gym": {
         "level": 46,
         "tr_id": 295,
         "ai": 845,
@@ -35600,7 +35600,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Body Slam",
           "Shadow Claw",
@@ -35618,7 +35618,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Team Rocket Grunt 1 | Pokemon Tower F7": {
+      "Lvl 41 Grunt 1 | Pkmn Tower F7": {
         "level": 41,
         "tr_id": 369,
         "ai": 789,
@@ -35654,7 +35654,7 @@ var backup_data = {
       }
     },
     "Ditto": {
-      "Lvl 60 Burglar Lewis | Pokemon Mansion BF1": {
+      "Lvl 60 Lewis | Pkmn Mansion BF1": {
         "level": 60,
         "tr_id": 219,
         "ai": 773,
@@ -35670,7 +35670,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Transform"
         ],
@@ -35685,7 +35685,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 60 Scientist Ivan | Pokemon Mansion BF1": {
+      "Lvl 60 Ivan | Pkmn Mansion BF1": {
         "level": 60,
         "tr_id": 347,
         "ai": 773,
@@ -35701,7 +35701,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Naive",
         "moves": [
           "Transform"
         ],
@@ -35716,7 +35716,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Team Rocket Grunt 1 | Mt. Ember": {
+      "Lvl 62 Grunt 1 | Mt. Ember": {
         "level": 62,
         "tr_id": 537,
         "ai": 789,
@@ -35749,7 +35749,7 @@ var backup_data = {
       }
     },
     "Porygon": {
-      "Lvl 28 Engineer Baily | Vermilion Gym": {
+      "Lvl 28 Baily | Vermilion Gym": {
         "level": 28,
         "tr_id": 220,
         "ai": 773,
@@ -35785,7 +35785,7 @@ var backup_data = {
       }
     },
     "Dragonair": {
-      "Lvl 29 Engineer Baily | Vermilion Gym": {
+      "Lvl 29 Baily | Vermilion Gym": {
         "level": 29,
         "tr_id": 220,
         "ai": 773,
@@ -35821,7 +35821,7 @@ var backup_data = {
       }
     },
     "Flaaffy": {
-      "Lvl 26 Engineer Bernie | Op: TM16 | R11": {
+      "Lvl 26 Bernie | Op: TM16 | R11": {
         "level": 26,
         "tr_id": 222,
         "ai": 773,
@@ -35857,7 +35857,7 @@ var backup_data = {
       }
     },
     "Lanturn": {
-      "Lvl 25 Engineer Bernie | Op: TM16 | R11": {
+      "Lvl 25 Bernie | Op: TM16 | R11": {
         "level": 25,
         "tr_id": 222,
         "ai": 773,
@@ -35891,7 +35891,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Fisherman Ned | Op: Figy Berry | R12": {
+      "Lvl 45 Ned | Op: Figy Berry | R12": {
         "level": 45,
         "tr_id": 225,
         "ai": 773,
@@ -35907,7 +35907,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Thunder Wave",
           "Thunderbolt",
@@ -35925,7 +35925,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Cue Ball Koji | R16": {
+      "Lvl 43 Koji | R16": {
         "level": 43,
         "tr_id": 249,
         "ai": 773,
@@ -35959,7 +35959,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 SwimmerF Anya | Right | R19": {
+      "Lvl 54 Anya | Right | R19": {
         "level": 54,
         "tr_id": 276,
         "ai": 773,
@@ -35993,7 +35993,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 29 Leader Lt. Surge | Vermilion Gym": {
+      "Lvl 29 Lt. Surge | Vermilion Gym": {
         "level": 29,
         "tr_id": 416,
         "ai": 815,
@@ -36027,7 +36027,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 SwimmerF Abigail | Op: Salac Berry | Kindle Road": {
+      "Lvl 62 Abigail | Op: Salac Berry | Kindle Road": {
         "level": 62,
         "tr_id": 548,
         "ai": 773,
@@ -36063,7 +36063,7 @@ var backup_data = {
       }
     },
     "Poliwhirl": {
-      "Lvl 27 Fisherman Dale | S.S. Anne F2": {
+      "Lvl 27 Dale | S.S. Anne F2": {
         "level": 27,
         "tr_id": 223,
         "ai": 773,
@@ -36079,7 +36079,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Mud Shot",
           "Bubble Beam",
@@ -36097,7 +36097,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 26 Gamer Hugo | Op: Sitrus Berry | R11": {
+      "Lvl 26 Hugo | Op: Sitrus Berry | R11": {
         "level": 26,
         "tr_id": 258,
         "ai": 773,
@@ -36133,7 +36133,7 @@ var backup_data = {
       }
     },
     "Tentacool": {
-      "Lvl 27 Fisherman Dale | S.S. Anne F2": {
+      "Lvl 27 Dale | S.S. Anne F2": {
         "level": 27,
         "tr_id": 223,
         "ai": 773,
@@ -36149,7 +36149,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Water Pulse",
           "Knock Off",
@@ -36167,7 +36167,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 20 Team Rocket Grunt 2 | Op: TM46 | Mt. Moon F3": {
+      "Lvl 20 Grunt 2 | Op: TM46 | Mt. Moon F3": {
         "level": 20,
         "tr_id": 353,
         "ai": 789,
@@ -36203,7 +36203,7 @@ var backup_data = {
       }
     },
     "Huntail": {
-      "Lvl 45 Fisherman Ned | Op: Figy Berry | R12": {
+      "Lvl 45 Ned | Op: Figy Berry | R12": {
         "level": 45,
         "tr_id": 225,
         "ai": 773,
@@ -36219,7 +36219,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Rash",
         "moves": [
           "Crunch",
           "Scary Face",
@@ -36237,7 +36237,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 15 | Gate | Op: Lax Incense | Silph Co. F9": {
+      "Lvl 49 Grunt 15 | Gate | Op: Lax Incense | Silph Co. F9": {
         "level": 49,
         "tr_id": 388,
         "ai": 789,
@@ -36271,7 +36271,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Janae | Pokemon Tower F5": {
+      "Lvl 41 Janae | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 450,
         "ai": 773,
@@ -36305,7 +36305,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 Sis And Bro Lia Luc | Left | R19": {
+      "Lvl 54 Lia Luc | Left | R19": {
         "level": 54,
         "tr_id": 490,
         "ai": 773,
@@ -36321,7 +36321,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Naughty",
         "moves": [
           "Ice Beam",
           "Body Slam",
@@ -36339,7 +36339,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Sis And Bro Lil Ian | R21": {
+      "Lvl 56 Lil Ian | R21": {
         "level": 56,
         "tr_id": 491,
         "ai": 773,
@@ -36355,7 +36355,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Naughty",
         "moves": [
           "Rain Dance",
           "Scary Face",
@@ -36373,7 +36373,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 SwimmerM Garrett | Op: Leppa Berry | Kindle Road": {
+      "Lvl 64 Garrett | Op: Leppa Berry | Kindle Road": {
         "level": 64,
         "tr_id": 550,
         "ai": 773,
@@ -36409,7 +36409,7 @@ var backup_data = {
       }
     },
     "Gorebyss": {
-      "Lvl 45 Fisherman Ned | Op: Figy Berry | R12": {
+      "Lvl 45 Ned | Op: Figy Berry | R12": {
         "level": 45,
         "tr_id": 225,
         "ai": 773,
@@ -36425,7 +36425,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Bashful",
         "moves": [
           "Ice Beam",
           "Psychic",
@@ -36443,7 +36443,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 16 | Warp | Op: Lax Incense | Silph Co. F9": {
+      "Lvl 49 Grunt 16 | Warp | Op: Lax Incense | Silph Co. F9": {
         "level": 49,
         "tr_id": 387,
         "ai": 789,
@@ -36477,7 +36477,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 Sis And Bro Lia Luc | Left | R19": {
+      "Lvl 54 Lia Luc | Left | R19": {
         "level": 54,
         "tr_id": 490,
         "ai": 773,
@@ -36493,7 +36493,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Impish",
+        "nature": "Bashful",
         "moves": [
           "Ice Beam",
           "Shadow Ball",
@@ -36511,7 +36511,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Sis And Bro Lil Ian | R21": {
+      "Lvl 56 Lil Ian | R21": {
         "level": 56,
         "tr_id": 491,
         "ai": 773,
@@ -36527,7 +36527,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Quirky",
         "moves": [
           "Rain Dance",
           "Attract",
@@ -36545,7 +36545,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 SwimmerM Garrett | Op: Leppa Berry | Kindle Road": {
+      "Lvl 64 Garrett | Op: Leppa Berry | Kindle Road": {
         "level": 64,
         "tr_id": 550,
         "ai": 773,
@@ -36581,7 +36581,7 @@ var backup_data = {
       }
     },
     "Wailord": {
-      "Lvl 45 Fisherman Chip | Op: Wiki Berry | R12": {
+      "Lvl 45 Chip | Op: Wiki Berry | R12": {
         "level": 45,
         "tr_id": 226,
         "ai": 773,
@@ -36597,7 +36597,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Hardy",
         "moves": [
           "Attract",
           "Bounce",
@@ -36615,7 +36615,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Fisherman Wade | Op: Salac Berry | R21": {
+      "Lvl 58 Wade | Op: Salac Berry | R21": {
         "level": 58,
         "tr_id": 231,
         "ai": 773,
@@ -36631,7 +36631,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Rock Tomb",
           "Ice Beam",
@@ -36649,7 +36649,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 SwimmerM Dean | R20": {
+      "Lvl 56 Dean | R20": {
         "level": 56,
         "tr_id": 243,
         "ai": 773,
@@ -36683,7 +36683,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 55 SwimmerF Connie | R19": {
+      "Lvl 55 Connie | R19": {
         "level": 55,
         "tr_id": 278,
         "ai": 773,
@@ -36719,7 +36719,7 @@ var backup_data = {
       }
     },
     "Swampert": {
-      "Lvl 53 SwimmerM Reece | R19": {
+      "Lvl 53 Reece | R19": {
         "level": 53,
         "tr_id": 236,
         "ai": 773,
@@ -36753,7 +36753,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Leader Giovanni | Viridian Gym": {
+      "Lvl 64 Giovanni | Viridian Gym": {
         "level": 64,
         "tr_id": 350,
         "ai": 831,
@@ -36787,7 +36787,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Celia | North | R15": {
+      "Lvl 47 Celia | North | R15": {
         "level": 47,
         "tr_id": 481,
         "ai": 773,
@@ -36803,7 +36803,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Mild",
         "moves": [
           "Yawn",
           "Rock Slide",
@@ -36823,7 +36823,7 @@ var backup_data = {
       }
     },
     "Horsea": {
-      "Lvl 26 Gamer Hugo | Op: Sitrus Berry | R11": {
+      "Lvl 26 Hugo | Op: Sitrus Berry | R11": {
         "level": 26,
         "tr_id": 258,
         "ai": 773,
@@ -36859,7 +36859,7 @@ var backup_data = {
       }
     },
     "Corsola": {
-      "Lvl 53 SwimmerM Tony | R19": {
+      "Lvl 53 Tony | R19": {
         "level": 53,
         "tr_id": 240,
         "ai": 773,
@@ -36893,7 +36893,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 23 Leader Misty | Cerulean Gym": {
+      "Lvl 23 Misty | Cerulean Gym": {
         "level": 23,
         "tr_id": 415,
         "ai": 807,
@@ -36927,7 +36927,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Tuber Amira | Bond Bridge": {
+      "Lvl 63 Amira | Bond Bridge": {
         "level": 63,
         "tr_id": 519,
         "ai": 773,
@@ -36963,7 +36963,7 @@ var backup_data = {
       }
     },
     "Seadra": {
-      "Lvl 54 SwimmerF Anya | Right | R19": {
+      "Lvl 54 Anya | Right | R19": {
         "level": 54,
         "tr_id": 276,
         "ai": 773,
@@ -36997,7 +36997,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 22 Leader Misty | Cerulean Gym": {
+      "Lvl 22 Misty | Cerulean Gym": {
         "level": 22,
         "tr_id": 415,
         "ai": 807,
@@ -37033,7 +37033,7 @@ var backup_data = {
       }
     },
     "Linoone": {
-      "Lvl 43 Cue Ball Koji | R16": {
+      "Lvl 43 Koji | R16": {
         "level": 43,
         "tr_id": 249,
         "ai": 773,
@@ -37067,7 +37067,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 44 Beauty Lola | R13": {
+      "Lvl 44 Lola | R13": {
         "level": 44,
         "tr_id": 268,
         "ai": 773,
@@ -37101,7 +37101,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 20 Team Rocket Grunt 1 | Op: Starf Berry | Mt. Moon F3": {
+      "Lvl 20 Grunt 1 | Op: Starf Berry | Mt. Moon F3": {
         "level": 20,
         "tr_id": 352,
         "ai": 789,
@@ -37135,7 +37135,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Team Rocket Grunt 1 | Op: King's Rock | Rocket Hideout": {
+      "Lvl 38 Grunt 1 | Op: King's Rock | Rocket Hideout F1": {
         "level": 38,
         "tr_id": 359,
         "ai": 789,
@@ -37169,7 +37169,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Laurel | Pokemon Tower F4": {
+      "Lvl 40 Laurel | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 445,
         "ai": 773,
@@ -37203,7 +37203,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 1 | Three Island": {
+      "Lvl 63 Goon 1 | B2B | Three Island": {
         "level": 63,
         "tr_id": 527,
         "ai": 773,
@@ -37239,7 +37239,7 @@ var backup_data = {
       }
     },
     "Machamp": {
-      "Lvl 46 Cue Ball Jamal | Left 2 | R17": {
+      "Lvl 46 Jamal | Left 2 | R17": {
         "level": 46,
         "tr_id": 255,
         "ai": 773,
@@ -37273,7 +37273,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 52 Black Belt Koichi | Op: Choice Band | Fighting Dojo": {
+      "Lvl 52 Koichi | Op: Choice Band | Fighting Dojo": {
         "level": 52,
         "tr_id": 317,
         "ai": 775,
@@ -37307,7 +37307,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Black Belt Hideki | Op: Choice Band | Fighting Dojo": {
+      "Lvl 51 Hideki | Op: Choice Band | Fighting Dojo": {
         "level": 51,
         "tr_id": 319,
         "ai": 773,
@@ -37341,7 +37341,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 14 | Op: TM42 | Silph Co. F8": {
+      "Lvl 49 Grunt 14 | Op: TM42 | Silph Co. F8": {
         "level": 49,
         "tr_id": 386,
         "ai": 789,
@@ -37375,7 +37375,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 67 Cooltrainer Caroline | Victory Road F3": {
+      "Lvl 67 Caroline | Victory Road F3": {
         "level": 67,
         "tr_id": 403,
         "ai": 815,
@@ -37409,7 +37409,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 71 Elite Four Bruno | Pokemon League": {
+      "Lvl 71 Bruno | Pkmn League": {
         "level": 71,
         "tr_id": 411,
         "ai": 815,
@@ -37443,7 +37443,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Kindra | South | R15": {
+      "Lvl 47 Kindra | South | R15": {
         "level": 47,
         "tr_id": 479,
         "ai": 773,
@@ -37459,7 +37459,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Quirky",
         "moves": [
           "Rock Slide",
           "Submission",
@@ -37477,7 +37477,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Crush Kin Mik Kia | Kindle Road": {
+      "Lvl 64 Mik Kia | Kindle Road": {
         "level": 64,
         "tr_id": 557,
         "ai": 773,
@@ -37493,7 +37493,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Adamant",
+        "nature": "Impish",
         "moves": [
           "Focus Punch",
           "Strength",
@@ -37513,7 +37513,7 @@ var backup_data = {
       }
     },
     "Hitmonchan": {
-      "Lvl 46 Cue Ball Corey | Right 2 | R17": {
+      "Lvl 46 Corey | Right 2 | R17": {
         "level": 46,
         "tr_id": 256,
         "ai": 773,
@@ -37547,7 +37547,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Black Belt Aaron | Op: Choice Band | Fighting Dojo": {
+      "Lvl 50 Aaron | Op: Choice Band | Fighting Dojo": {
         "level": 50,
         "tr_id": 320,
         "ai": 773,
@@ -37581,7 +37581,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 9 | South | Op: TM45 | Silph Co. F6": {
+      "Lvl 49 Grunt 9 | South | Op: TM45 | Silph Co. F6": {
         "level": 49,
         "tr_id": 381,
         "ai": 789,
@@ -37615,7 +37615,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Crush Kin Ron Mya | R15": {
+      "Lvl 48 Ron Mya | R15": {
         "level": 48,
         "tr_id": 488,
         "ai": 773,
@@ -37631,7 +37631,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Mild",
+        "nature": "Docile",
         "moves": [
           "Sky Uppercut",
           "Thunder Punch",
@@ -37649,7 +37649,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Crush Girl Tanya | Op: TM08 | Kindle Road": {
+      "Lvl 64 Tanya | Op: TM08 | Kindle Road": {
         "level": 64,
         "tr_id": 552,
         "ai": 781,
@@ -37685,7 +37685,7 @@ var backup_data = {
       }
     },
     "Drowzee": {
-      "Lvl 26 Gamer Jasper | R11": {
+      "Lvl 26 Jasper | R11": {
         "level": 26,
         "tr_id": 259,
         "ai": 773,
@@ -37719,7 +37719,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 23 Team Rocket Grunt | Cerulean City": {
+      "Lvl 23 Grunt | Cerulean City": {
         "level": 23,
         "tr_id": 355,
         "ai": 789,
@@ -37753,7 +37753,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Carly | Pokemon Tower F3": {
+      "Lvl 40 Carly | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 442,
         "ai": 773,
@@ -37789,7 +37789,7 @@ var backup_data = {
       }
     },
     "Spoink": {
-      "Lvl 26 Gamer Jasper | R11": {
+      "Lvl 26 Jasper | R11": {
         "level": 26,
         "tr_id": 259,
         "ai": 773,
@@ -37823,7 +37823,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Carly | Pokemon Tower F3": {
+      "Lvl 40 Carly | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 442,
         "ai": 773,
@@ -37859,7 +37859,7 @@ var backup_data = {
       }
     },
     "Delcatty": {
-      "Lvl 26 Gamer Dirk | R11": {
+      "Lvl 26 Dirk | R11": {
         "level": 26,
         "tr_id": 260,
         "ai": 773,
@@ -37893,7 +37893,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Beauty Olivia | North | R15": {
+      "Lvl 47 Olivia | North | R15": {
         "level": 47,
         "tr_id": 274,
         "ai": 773,
@@ -37927,7 +37927,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Tom | Warp | Op: Mental Herb | Silph Co. F8": {
+      "Lvl 49 Tom | Warp | Op: Mental Herb | Silph Co. F8": {
         "level": 49,
         "tr_id": 343,
         "ai": 773,
@@ -37943,7 +37943,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Fake Out",
           "Charm",
@@ -37961,7 +37961,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Picnicker Ariana | Op: White Herb | Rock Tunnel F1": {
+      "Lvl 36 Ariana | Op: White Herb | Rock Tunnel F1": {
         "level": 36,
         "tr_id": 475,
         "ai": 773,
@@ -37977,7 +37977,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Careful",
         "moves": [
           "Charm",
           "Sing",
@@ -37997,7 +37997,7 @@ var backup_data = {
       }
     },
     "Eevee": {
-      "Lvl 36 Gamer Rich | Op: Water Encounter | R8": {
+      "Lvl 36 Rich | Op: Water | R8": {
         "level": 36,
         "tr_id": 264,
         "ai": 773,
@@ -38033,7 +38033,7 @@ var backup_data = {
       }
     },
     "Shroomish": {
-      "Lvl 37 Beauty Tamia | Left | Celadon Gym": {
+      "Lvl 37 Tamia | Left | Celadon Gym": {
         "level": 37,
         "tr_id": 266,
         "ai": 773,
@@ -38069,7 +38069,7 @@ var backup_data = {
       }
     },
     "Golduck": {
-      "Lvl 44 Beauty Sheila | R13": {
+      "Lvl 44 Sheila | R13": {
         "level": 44,
         "tr_id": 269,
         "ai": 773,
@@ -38103,7 +38103,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 1 | Card Key | Silph Co. F5": {
+      "Lvl 49 Grunt 1 | Card Key | Silph Co. F5": {
         "level": 49,
         "tr_id": 378,
         "ai": 789,
@@ -38137,7 +38137,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Jody | Pokemon Tower F4": {
+      "Lvl 40 Jody | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 446,
         "ai": 773,
@@ -38171,7 +38171,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 Sis And Bro Lia Luc | Left | R19": {
+      "Lvl 54 Lia Luc | Left | R19": {
         "level": 54,
         "tr_id": 490,
         "ai": 773,
@@ -38187,7 +38187,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Mild",
         "moves": [
           "Ice Beam",
           "Extrasensory",
@@ -38207,7 +38207,7 @@ var backup_data = {
       }
     },
     "Dewgong": {
-      "Lvl 49 Team Rocket Grunt 12 | Op: TM07 | Silph Co. F7": {
+      "Lvl 49 Grunt 12 | Op: TM07 | Silph Co. F7": {
         "level": 49,
         "tr_id": 385,
         "ai": 789,
@@ -38241,7 +38241,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Picnicker Susie | R13": {
+      "Lvl 43 Susie | R13": {
         "level": 43,
         "tr_id": 467,
         "ai": 773,
@@ -38257,7 +38257,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Timid",
         "moves": [
           "Fake Out",
           "Surf",
@@ -38277,7 +38277,7 @@ var backup_data = {
       }
     },
     "Walrein": {
-      "Lvl 58 SwimmerF Melissa | R20": {
+      "Lvl 58 Melissa | R20": {
         "level": 58,
         "tr_id": 272,
         "ai": 773,
@@ -38313,7 +38313,7 @@ var backup_data = {
       }
     },
     "Espeon": {
-      "Lvl 47 Beauty Grace | South | R15": {
+      "Lvl 47 Grace | South | R15": {
         "level": 47,
         "tr_id": 273,
         "ai": 773,
@@ -38347,7 +38347,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Tom | Warp | Op: Mental Herb | Silph Co. F8": {
+      "Lvl 49 Tom | Warp | Op: Mental Herb | Silph Co. F8": {
         "level": 49,
         "tr_id": 343,
         "ai": 773,
@@ -38363,7 +38363,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
           "Shadow Ball",
           "Morning Sun",
@@ -38381,7 +38381,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Leader Sabrina | Saffron Gym": {
+      "Lvl 51 Sabrina | Saffron Gym": {
         "level": 51,
         "tr_id": 420,
         "ai": 815,
@@ -38415,7 +38415,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Young Couple Gia Jes | Op: Mago Berry | R12": {
+      "Lvl 45 Gia Jes | Op: Mago Berry | R12": {
         "level": 45,
         "tr_id": 486,
         "ai": 773,
@@ -38431,7 +38431,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Modest",
         "moves": [
           "Swift",
           "Shadow Ball",
@@ -38451,7 +38451,7 @@ var backup_data = {
       }
     },
     "Umbreon": {
-      "Lvl 47 Beauty Olivia | North | R15": {
+      "Lvl 47 Olivia | North | R15": {
         "level": 47,
         "tr_id": 274,
         "ai": 773,
@@ -38485,7 +38485,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Young Couple Gia Jes | Op: Mago Berry | R12": {
+      "Lvl 45 Gia Jes | Op: Mago Berry | R12": {
         "level": 45,
         "tr_id": 486,
         "ai": 773,
@@ -38501,7 +38501,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Brave",
         "moves": [
           "Helping Hand",
           "Wish",
@@ -38519,7 +38519,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Biker Goon 3 | Three Island": {
+      "Lvl 63 Goon 3 | B2B | Three Island": {
         "level": 63,
         "tr_id": 529,
         "ai": 781,
@@ -38555,7 +38555,7 @@ var backup_data = {
       }
     },
     "Lunatone": {
-      "Lvl 51 Psychic Tyron | Bottom | Saffron Gym": {
+      "Lvl 51 Tyron | Bottom | Saffron Gym": {
         "level": 51,
         "tr_id": 281,
         "ai": 773,
@@ -38589,7 +38589,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Juggler Dalton | Op: TM29 | Silph Co. F5": {
+      "Lvl 49 Dalton | Op: TM29 | Silph Co. F5": {
         "level": 49,
         "tr_id": 286,
         "ai": 773,
@@ -38605,7 +38605,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Docile",
+        "nature": "Sassy",
         "moves": [
           "Moonlight",
           "Psychic",
@@ -38623,7 +38623,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 34 Picnicker Leah | Rock Tunnel F1": {
+      "Lvl 34 Leah | Rock Tunnel F1": {
         "level": 34,
         "tr_id": 476,
         "ai": 773,
@@ -38639,7 +38639,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Quirky",
         "moves": [
           "Hypnosis",
           "Rock Slide",
@@ -38659,7 +38659,7 @@ var backup_data = {
       }
     },
     "Unown": {
-      "Lvl 51 Psychic Preston | Bottom | Saffron Gym": {
+      "Lvl 51 Preston | Bottom | Saffron Gym": {
         "level": 51,
         "tr_id": 283,
         "ai": 773,
@@ -38690,7 +38690,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Channeler Amanda | Top | Saffron Gym": {
+      "Lvl 51 Amanda | Top | Saffron Gym": {
         "level": 51,
         "tr_id": 462,
         "ai": 773,
@@ -38723,7 +38723,7 @@ var backup_data = {
       }
     },
     "Mr. Mime": {
-      "Lvl 51 Leader Sabrina | Saffron Gym": {
+      "Lvl 51 Sabrina | Saffron Gym": {
         "level": 51,
         "tr_id": 420,
         "ai": 815,
@@ -38757,7 +38757,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 41 Channeler Ruth | Pokemon Tower F5": {
+      "Lvl 41 Ruth | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 448,
         "ai": 773,
@@ -38793,7 +38793,7 @@ var backup_data = {
       }
     },
     "Cradily": {
-      "Lvl 46 Tamer Phil | Second Path | Fuchsia Gym": {
+      "Lvl 46 Phil | Left | Fuchsia Gym": {
         "level": 46,
         "tr_id": 294,
         "ai": 773,
@@ -38809,7 +38809,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hardy",
+        "nature": "Mild",
         "moves": [
           "Toxic",
           "Ancient Power",
@@ -38827,7 +38827,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Scientist Travis | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
+      "Lvl 49 Travis | Op: Leichi, Petaya, Lansat | Silph Co. F10": {
         "level": 49,
         "tr_id": 345,
         "ai": 773,
@@ -38843,7 +38843,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naive",
+        "nature": "Bold",
         "moves": [
           "Body Slam",
           "Sludge Bomb",
@@ -38861,7 +38861,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 39 Leader Erika | Celadon City": {
+      "Lvl 39 Erika | Celadon City": {
         "level": 39,
         "tr_id": 417,
         "ai": 815,
@@ -38897,7 +38897,7 @@ var backup_data = {
       }
     },
     "Piloswine": {
-      "Lvl 64 Tamer Cole | Left Path | Viridian Gym": {
+      "Lvl 64 Cole | Left Path | Viridian Gym": {
         "level": 64,
         "tr_id": 297,
         "ai": 781,
@@ -38913,7 +38913,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Adamant",
         "moves": [
           "Ice Shard",
           "Icicle Crash",
@@ -38931,7 +38931,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Team Rocket Grunt 12 | Op: TM07 | Silph Co. F7": {
+      "Lvl 49 Grunt 12 | Op: TM07 | Silph Co. F7": {
         "level": 49,
         "tr_id": 385,
         "ai": 789,
@@ -38965,7 +38965,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 69 Elite Four Lorelei | Pokemon League": {
+      "Lvl 69 Lorelei | Pkmn League": {
         "level": 69,
         "tr_id": 410,
         "ai": 831,
@@ -38981,7 +38981,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Lonely",
         "moves": [
           "Ice Shard",
           "Rock Tomb",
@@ -38999,7 +38999,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Picnicker Irene | R20": {
+      "Lvl 56 Irene | R20": {
         "level": 56,
         "tr_id": 473,
         "ai": 773,
@@ -39015,7 +39015,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Bashful",
         "moves": [
           "Ice Shard",
           "Icicle Crash",
@@ -39035,7 +39035,7 @@ var backup_data = {
       }
     },
     "Pidgeot": {
-      "Lvl 48 Bird Keeper Edwin | South, Double | R15": {
+      "Lvl 48 Edwin | South, B2B | R15": {
         "level": 48,
         "tr_id": 305,
         "ai": 773,
@@ -39051,7 +39051,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Calm",
+        "nature": "Hasty",
         "moves": [
           "Double-Edge",
           "Feather Dance",
@@ -39069,7 +39069,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Bird Keeper Jacob | R18": {
+      "Lvl 47 Jacob | R18": {
         "level": 47,
         "tr_id": 309,
         "ai": 773,
@@ -39085,7 +39085,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Modest",
         "moves": [
           "Mud-Slap",
           "Feather Dance",
@@ -39103,7 +39103,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Bird Keeper Roger | Op: Apicot Berry | R20": {
+      "Lvl 58 Roger | Op: Apicot Berry | R20": {
         "level": 58,
         "tr_id": 310,
         "ai": 773,
@@ -39119,7 +39119,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Timid",
         "moves": [
           "Quick Attack",
           "Feather Dance",
@@ -39137,7 +39137,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Rival | Water | Pokemon Tower F2": {
+      "Lvl 40 Rival | Water | Pkmn Tower F2": {
         "level": 40,
         "tr_id": 429,
         "ai": 807,
@@ -39171,7 +39171,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Rival | Grass | Pokemon Tower F2": {
+      "Lvl 40 Rival | Grass | Pkmn Tower F2": {
         "level": 40,
         "tr_id": 430,
         "ai": 807,
@@ -39205,7 +39205,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Rival | Fire | Pokemon Tower F2": {
+      "Lvl 40 Rival | Fire | Pkmn Tower F2": {
         "level": 40,
         "tr_id": 431,
         "ai": 807,
@@ -39239,7 +39239,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Water | Sylph Co. F7": {
+      "Lvl 49 Rival | Water | Silph Co. F7": {
         "level": 49,
         "tr_id": 432,
         "ai": 783,
@@ -39273,7 +39273,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Grass | Sylph Co. F7": {
+      "Lvl 49 Rival | Grass | Silph Co. F7": {
         "level": 49,
         "tr_id": 433,
         "ai": 815,
@@ -39307,7 +39307,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 49 Rival | Fire | Sylph Co. F7": {
+      "Lvl 49 Rival | Fire | Silph Co. F7": {
         "level": 49,
         "tr_id": 434,
         "ai": 815,
@@ -39443,7 +39443,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Picnicker Gwen | Op: Lax Incense | R13": {
+      "Lvl 45 Gwen | Op: Lax Incense | R13": {
         "level": 45,
         "tr_id": 469,
         "ai": 773,
@@ -39459,7 +39459,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Lonely",
         "moves": [
           "Return",
           "Steel Wing",
@@ -39477,7 +39477,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Picnicker Ariana | Op: White Herb | Rock Tunnel F1": {
+      "Lvl 36 Ariana | Op: White Herb | Rock Tunnel F1": {
         "level": 36,
         "tr_id": 475,
         "ai": 773,
@@ -39493,7 +39493,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Brave",
+        "nature": "Hasty",
         "moves": [
           "Steel Wing",
           "Air Slash",
@@ -39513,7 +39513,7 @@ var backup_data = {
       }
     },
     "Tropius": {
-      "Lvl 48 Bird Keeper Wilton | R18": {
+      "Lvl 48 Wilton | R18": {
         "level": 48,
         "tr_id": 307,
         "ai": 773,
@@ -39529,7 +39529,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Serious",
         "moves": [
           "Air Slash",
           "Leaf Blade",
@@ -39547,7 +39547,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Bird Keeper Roger | Op: Apicot Berry | R20": {
+      "Lvl 58 Roger | Op: Apicot Berry | R20": {
         "level": 58,
         "tr_id": 310,
         "ai": 773,
@@ -39563,7 +39563,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Earthquake",
           "Synthesis",
@@ -39615,7 +39615,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 9 Rival | Water | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Water | Op: Water | R22": {
         "level": 9,
         "tr_id": 329,
         "ai": 775,
@@ -39682,7 +39682,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 9 Rival | Grass | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Grass | Op: Water | R22": {
         "level": 9,
         "tr_id": 330,
         "ai": 775,
@@ -39718,7 +39718,7 @@ var backup_data = {
       }
     },
     "Meditite": {
-      "Lvl 9 Rival | Water | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Water | Op: Water | R22": {
         "level": 9,
         "tr_id": 329,
         "ai": 775,
@@ -39752,7 +39752,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 9 Rival | Grass | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Grass | Op: Water | R22": {
         "level": 9,
         "tr_id": 330,
         "ai": 775,
@@ -39786,7 +39786,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 9 Rival | Fire | Op: Water Encounter | R22": {
+      "Lvl 9 Rival | Fire | Op: Water | R22": {
         "level": 9,
         "tr_id": 331,
         "ai": 775,
@@ -39822,7 +39822,7 @@ var backup_data = {
       }
     },
     "Blissey": {
-      "Lvl 59 Scientist Ted | Pokemon Mansion F1": {
+      "Lvl 59 Ted | Pkmn Mansion F1": {
         "level": 59,
         "tr_id": 335,
         "ai": 773,
@@ -39838,7 +39838,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Charm",
           "Sweet Kiss",
@@ -39858,7 +39858,7 @@ var backup_data = {
       }
     },
     "Aggron": {
-      "Lvl 50 Boss Giovanni | Silph Co. F11": {
+      "Lvl 50 Giovanni | Silph Co. F11": {
         "level": 50,
         "tr_id": 349,
         "ai": 823,
@@ -39892,7 +39892,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Picnicker Claire | Kindle Road": {
+      "Lvl 62 Claire | Kindle Road": {
         "level": 62,
         "tr_id": 556,
         "ai": 773,
@@ -39908,7 +39908,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lonely",
+        "nature": "Timid",
         "moves": [
           "Thunder Wave",
           "Iron Tail",
@@ -39928,7 +39928,7 @@ var backup_data = {
       }
     },
     "Carvanha": {
-      "Lvl 19 Team Rocket Grunt 4 | Mt. Moon F3": {
+      "Lvl 19 Grunt 4 | Mt. Moon F3": {
         "level": 19,
         "tr_id": 351,
         "ai": 789,
@@ -39962,7 +39962,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Patricia | Pokemon Tower F3": {
+      "Lvl 40 Patricia | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 441,
         "ai": 773,
@@ -39998,7 +39998,7 @@ var backup_data = {
       }
     },
     "Nuzleaf": {
-      "Lvl 20 Team Rocket Grunt 1 | Op: Starf Berry | Mt. Moon F3": {
+      "Lvl 20 Grunt 1 | Op: Starf Berry | Mt. Moon F3": {
         "level": 20,
         "tr_id": 352,
         "ai": 789,
@@ -40032,7 +40032,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Patricia | Pokemon Tower F3": {
+      "Lvl 40 Patricia | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 441,
         "ai": 773,
@@ -40068,7 +40068,7 @@ var backup_data = {
       }
     },
     "Sandshrew": {
-      "Lvl 19 Team Rocket Grunt 3 | Mt. Moon F3": {
+      "Lvl 19 Grunt 3 | Mt. Moon F3": {
         "level": 19,
         "tr_id": 354,
         "ai": 789,
@@ -40104,7 +40104,7 @@ var backup_data = {
       }
     },
     "Sableye": {
-      "Lvl 23 Team Rocket Grunt | Cerulean City": {
+      "Lvl 23 Grunt | Cerulean City": {
         "level": 23,
         "tr_id": 355,
         "ai": 789,
@@ -40138,7 +40138,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt | Celadon Game Corner": {
+      "Lvl 37 Grunt | Celadon Game Corner": {
         "level": 37,
         "tr_id": 357,
         "ai": 917,
@@ -40172,7 +40172,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 37 Team Rocket Grunt 7 | Rocket Hideout": {
+      "Lvl 37 Grunt 7 | Rocket Hideout F3": {
         "level": 37,
         "tr_id": 364,
         "ai": 789,
@@ -40206,7 +40206,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 71 Elite Four Agatha | Pokemon League": {
+      "Lvl 71 Agatha | Pkmn League": {
         "level": 71,
         "tr_id": 412,
         "ai": 815,
@@ -40222,7 +40222,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Calm",
         "moves": [
           "Fake Out",
           "Confuse Ray",
@@ -40240,7 +40240,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Paula | Pokemon Tower F4": {
+      "Lvl 40 Paula | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 444,
         "ai": 773,
@@ -40274,7 +40274,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Channeler Stacy | Top | Saffron Gym": {
+      "Lvl 51 Stacy | Top | Saffron Gym": {
         "level": 51,
         "tr_id": 463,
         "ai": 773,
@@ -40310,7 +40310,7 @@ var backup_data = {
       }
     },
     "Houndour": {
-      "Lvl 21 Team Rocket Grunt | Nugget Bridge": {
+      "Lvl 21 Grunt | Nugget Bridge": {
         "level": 21,
         "tr_id": 356,
         "ai": 789,
@@ -40344,7 +40344,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Patricia | Pokemon Tower F3": {
+      "Lvl 40 Patricia | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 441,
         "ai": 773,
@@ -40380,7 +40380,7 @@ var backup_data = {
       }
     },
     "Cacnea": {
-      "Lvl 21 Team Rocket Grunt | Nugget Bridge": {
+      "Lvl 21 Grunt | Nugget Bridge": {
         "level": 21,
         "tr_id": 356,
         "ai": 789,
@@ -40416,7 +40416,7 @@ var backup_data = {
       }
     },
     "Glalie": {
-      "Lvl 49 Team Rocket Grunt 6 | Op: TM41 | Silph Co. F4": {
+      "Lvl 49 Grunt 6 | Op: TM41 | Silph Co. F4": {
         "level": 49,
         "tr_id": 377,
         "ai": 789,
@@ -40450,7 +40450,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 69 Elite Four Lorelei | Pokemon League": {
+      "Lvl 69 Lorelei | Pkmn League": {
         "level": 69,
         "tr_id": 410,
         "ai": 831,
@@ -40466,7 +40466,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quirky",
+        "nature": "Impish",
         "moves": [
           "Crunch",
           "Icicle Crash",
@@ -40484,7 +40484,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Picnicker Missy | Op: White Herb | R20": {
+      "Lvl 58 Missy | Op: White Herb | R20": {
         "level": 58,
         "tr_id": 472,
         "ai": 773,
@@ -40500,7 +40500,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Crunch",
           "Icicle Crash",
@@ -40520,7 +40520,7 @@ var backup_data = {
       }
     },
     "Golem": {
-      "Lvl 49 Team Rocket Grunt 13 | Op: F8 Access | Silph Co. F8": {
+      "Lvl 49 Grunt 13 | Op: F8 Access | Silph Co. F8": {
         "level": 49,
         "tr_id": 382,
         "ai": 789,
@@ -40554,7 +40554,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 63 Cooltrainer Yuji | Middle Path | Viridian Gym": {
+      "Lvl 63 Yuji | Middle Path | Viridian Gym": {
         "level": 63,
         "tr_id": 400,
         "ai": 783,
@@ -40570,7 +40570,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Calm",
         "moves": [
           "Thunder Wave",
           "Earthquake",
@@ -40588,7 +40588,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 43 Picnicker Susie | R13": {
+      "Lvl 43 Susie | R13": {
         "level": 43,
         "tr_id": 467,
         "ai": 773,
@@ -40604,7 +40604,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Gentle",
+        "nature": "Bold",
         "moves": [
           "Rock Slide",
           "Body Slam",
@@ -40622,7 +40622,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 58 Picnicker Missy | Op: White Herb | R20": {
+      "Lvl 58 Missy | Op: White Herb | R20": {
         "level": 58,
         "tr_id": 472,
         "ai": 773,
@@ -40638,7 +40638,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Mild",
         "moves": [
           "Earthquake",
           "Stone Edge",
@@ -40656,7 +40656,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 47 Picnicker Becky | North | R15": {
+      "Lvl 47 Becky | North | R15": {
         "level": 47,
         "tr_id": 480,
         "ai": 773,
@@ -40672,7 +40672,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bold",
+        "nature": "Naive",
         "moves": [
           "Brick Break",
           "Explosion",
@@ -40690,7 +40690,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 62 Team Rocket Grunt 2 | Mt. Ember": {
+      "Lvl 62 Grunt 2 | Mt. Ember": {
         "level": 62,
         "tr_id": 538,
         "ai": 789,
@@ -40726,7 +40726,7 @@ var backup_data = {
       }
     },
     "Miltank": {
-      "Lvl 49 Team Rocket Grunt 8 | North | Op: TM45 | Silph Co. F6": {
+      "Lvl 49 Grunt 8 | North | Op: TM45 | Silph Co. F6": {
         "level": 49,
         "tr_id": 380,
         "ai": 789,
@@ -40760,7 +40760,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 35 Picnicker Dana | Rock Tunnel F1": {
+      "Lvl 35 Dana | Rock Tunnel F1": {
         "level": 35,
         "tr_id": 474,
         "ai": 773,
@@ -40776,7 +40776,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Gentle",
         "moves": [
           "Milk Drink",
           "Iron Head",
@@ -40794,7 +40794,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Twins Kiri Jan | R14": {
+      "Lvl 46 Kiri Jan | R14": {
         "level": 46,
         "tr_id": 487,
         "ai": 773,
@@ -40810,7 +40810,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Relaxed",
+        "nature": "Serious",
         "moves": [
           "Iron Head",
           "Dizzy Punch",
@@ -40830,7 +40830,7 @@ var backup_data = {
       }
     },
     "Bellossom": {
-      "Lvl 49 Team Rocket Grunt 16 | Warp | Op: Lax Incense | Silph Co. F9": {
+      "Lvl 49 Grunt 16 | Warp | Op: Lax Incense | Silph Co. F9": {
         "level": 49,
         "tr_id": 387,
         "ai": 789,
@@ -40864,7 +40864,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Cooltrainer Mary | Celadon Gym": {
+      "Lvl 38 Mary | Celadon Gym": {
         "level": 38,
         "tr_id": 402,
         "ai": 781,
@@ -40898,7 +40898,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Young Couple Lea Jed | Fly | Route 16": {
+      "Lvl 38 Lea Jed | Fly | R16": {
         "level": 38,
         "tr_id": 489,
         "ai": 773,
@@ -40914,7 +40914,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Naughty",
+        "nature": "Naive",
         "moves": [
           "Sweet Scent",
           "Sleep Powder",
@@ -40934,7 +40934,7 @@ var backup_data = {
       }
     },
     "Chansey": {
-      "Lvl 41 Channeler Karina | Pokemon Tower F5": {
+      "Lvl 41 Karina | Pkmn Tower F5": {
         "level": 41,
         "tr_id": 449,
         "ai": 773,
@@ -40970,7 +40970,7 @@ var backup_data = {
       }
     },
     "Delibird": {
-      "Lvl 70 Elite Four Lorelei | Pokemon League": {
+      "Lvl 70 Lorelei | Pkmn League": {
         "level": 70,
         "tr_id": 410,
         "ai": 831,
@@ -40986,7 +40986,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Careful",
+        "nature": "Relaxed",
         "moves": [
           "Ice Shard",
           "Water Pulse",
@@ -41006,7 +41006,7 @@ var backup_data = {
       }
     },
     "Misdreavus": {
-      "Lvl 72 Elite Four Agatha | Pokemon League": {
+      "Lvl 72 Agatha | Pkmn League": {
         "level": 72,
         "tr_id": 412,
         "ai": 815,
@@ -41022,7 +41022,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Serious",
+        "nature": "Gentle",
         "moves": [
           "Thunderbolt",
           "Shadow Ball",
@@ -41042,7 +41042,7 @@ var backup_data = {
       }
     },
     "Shedinja": {
-      "Lvl 71 Elite Four Agatha | Pokemon League": {
+      "Lvl 71 Agatha | Pkmn League": {
         "level": 71,
         "tr_id": 412,
         "ai": 815,
@@ -41058,7 +41058,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Lax",
+        "nature": "Bashful",
         "moves": [
           "Frustration",
           "X-Scissor",
@@ -41076,7 +41076,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 40 Channeler Paula | Pokemon Tower F4": {
+      "Lvl 40 Paula | Pkmn Tower F4": {
         "level": 40,
         "tr_id": 444,
         "ai": 773,
@@ -41110,7 +41110,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 51 Channeler Amanda | Top | Saffron Gym": {
+      "Lvl 51 Amanda | Top | Saffron Gym": {
         "level": 51,
         "tr_id": 462,
         "ai": 773,
@@ -41146,7 +41146,7 @@ var backup_data = {
       }
     },
     "Latias": {
-      "Lvl 72 Elite Four Lance | Pokemon League": {
+      "Lvl 72 Lance | Pkmn League": {
         "level": 72,
         "tr_id": 413,
         "ai": 815,
@@ -41182,7 +41182,7 @@ var backup_data = {
       }
     },
     "Dragonite": {
-      "Lvl 73 Elite Four Lance | Pokemon League": {
+      "Lvl 73 Lance | Pkmn League": {
         "level": 73,
         "tr_id": 413,
         "ai": 815,
@@ -41218,7 +41218,7 @@ var backup_data = {
       }
     },
     "Kabuto": {
-      "Lvl 14 Leader Brock | Pewter Gym": {
+      "Lvl 14 Brock | Pewter Gym": {
         "level": 14,
         "tr_id": 414,
         "ai": 815,
@@ -41254,7 +41254,7 @@ var backup_data = {
       }
     },
     "Lileep": {
-      "Lvl 14 Leader Brock | Pewter Gym": {
+      "Lvl 14 Brock | Pewter Gym": {
         "level": 14,
         "tr_id": 414,
         "ai": 815,
@@ -41290,7 +41290,7 @@ var backup_data = {
       }
     },
     "Alakazam": {
-      "Lvl 53 Leader Sabrina | Saffron Gym": {
+      "Lvl 53 Sabrina | Saffron Gym": {
         "level": 53,
         "tr_id": 420,
         "ai": 815,
@@ -41324,7 +41324,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Rival | Water | Pokemon Tower F2": {
+      "Lvl 42 Rival | Water | Pkmn Tower F2": {
         "level": 42,
         "tr_id": 429,
         "ai": 807,
@@ -41358,7 +41358,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Rival | Grass | Pokemon Tower F2": {
+      "Lvl 42 Rival | Grass | Pkmn Tower F2": {
         "level": 42,
         "tr_id": 430,
         "ai": 807,
@@ -41392,7 +41392,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Rival | Fire | Pokemon Tower F2": {
+      "Lvl 42 Rival | Fire | Pkmn Tower F2": {
         "level": 42,
         "tr_id": 431,
         "ai": 807,
@@ -41426,7 +41426,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Rival | Water | Sylph Co. F7": {
+      "Lvl 50 Rival | Water | Silph Co. F7": {
         "level": 50,
         "tr_id": 432,
         "ai": 783,
@@ -41460,7 +41460,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Rival | Grass | Sylph Co. F7": {
+      "Lvl 50 Rival | Grass | Silph Co. F7": {
         "level": 50,
         "tr_id": 433,
         "ai": 815,
@@ -41494,7 +41494,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 50 Rival | Fire | Sylph Co. F7": {
+      "Lvl 50 Rival | Fire | Silph Co. F7": {
         "level": 50,
         "tr_id": 434,
         "ai": 815,
@@ -41630,7 +41630,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 42 Channeler Jennifer | Pokemon Tower F6": {
+      "Lvl 42 Jennifer | Pkmn Tower F6": {
         "level": 42,
         "tr_id": 453,
         "ai": 773,
@@ -41666,7 +41666,7 @@ var backup_data = {
       }
     },
     "Smoochum": {
-      "Lvl 27 Gentleman Thomas | Op: B1 Access | S.S. Anne F1": {
+      "Lvl 27 Thomas | Op: B1 Access | S.S. Anne F1": {
         "level": 27,
         "tr_id": 421,
         "ai": 773,
@@ -41682,7 +41682,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Quiet",
+        "nature": "Impish",
         "moves": [
           "Aurora Beam",
           "Double Slap",
@@ -41702,7 +41702,7 @@ var backup_data = {
       }
     },
     "Absol": {
-      "Lvl 74 Champion Rival | Water | Pokemon League": {
+      "Lvl 74 Rival | Water | Pkmn League Champion": {
         "level": 74,
         "tr_id": 438,
         "ai": 815,
@@ -41736,7 +41736,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 74 Champion Rival | Grass | Pokemon League": {
+      "Lvl 74 Rival | Grass | Pkmn League Champion": {
         "level": 74,
         "tr_id": 439,
         "ai": 815,
@@ -41770,7 +41770,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 74 Champion Rival | Fire | Pokemon League": {
+      "Lvl 74 Rival | Fire | Pkmn League Champion": {
         "level": 74,
         "tr_id": 440,
         "ai": 815,
@@ -41804,7 +41804,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Cue Ball Paxton | Three Island": {
+      "Lvl 64 Paxton | B2B | Three Island": {
         "level": 64,
         "tr_id": 742,
         "ai": 845,
@@ -41840,7 +41840,7 @@ var backup_data = {
       }
     },
     "Zapdos": {
-      "Lvl 74 Champion Rival | Water | Pokemon League": {
+      "Lvl 74 Rival | Water | Pkmn League Champion": {
         "level": 74,
         "tr_id": 438,
         "ai": 815,
@@ -41874,7 +41874,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 74 Champion Rival | Grass | Pokemon League": {
+      "Lvl 74 Rival | Grass | Pkmn League Champion": {
         "level": 74,
         "tr_id": 439,
         "ai": 815,
@@ -41908,7 +41908,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 74 Champion Rival | Fire | Pokemon League": {
+      "Lvl 74 Rival | Fire | Pkmn League Champion": {
         "level": 74,
         "tr_id": 440,
         "ai": 815,
@@ -41944,7 +41944,7 @@ var backup_data = {
       }
     },
     "Metagross": {
-      "Lvl 75 Champion Rival | Water | Pokemon League": {
+      "Lvl 75 Rival | Water | Pkmn League Champion": {
         "level": 75,
         "tr_id": 438,
         "ai": 815,
@@ -41978,7 +41978,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 75 Champion Rival | Grass | Pokemon League": {
+      "Lvl 75 Rival | Grass | Pkmn League Champion": {
         "level": 75,
         "tr_id": 439,
         "ai": 815,
@@ -42012,7 +42012,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 75 Champion Rival | Fire | Pokemon League": {
+      "Lvl 75 Rival | Fire | Pkmn League Champion": {
         "level": 75,
         "tr_id": 440,
         "ai": 815,
@@ -42048,7 +42048,7 @@ var backup_data = {
       }
     },
     "Celebi": {
-      "Lvl 74 Champion Rival | Water | Pokemon League": {
+      "Lvl 74 Rival | Water | Pkmn League Champion": {
         "level": 74,
         "tr_id": 438,
         "ai": 815,
@@ -42082,7 +42082,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 74 Champion Rival | Fire | Pokemon League": {
+      "Lvl 74 Rival | Fire | Pkmn League Champion": {
         "level": 74,
         "tr_id": 440,
         "ai": 815,
@@ -42118,7 +42118,7 @@ var backup_data = {
       }
     },
     "Entei": {
-      "Lvl 74 Champion Rival | Water | Pokemon League": {
+      "Lvl 74 Rival | Water | Pkmn League Champion": {
         "level": 74,
         "tr_id": 438,
         "ai": 815,
@@ -42152,7 +42152,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 74 Champion Rival | Grass | Pokemon League": {
+      "Lvl 74 Rival | Grass | Pkmn League Champion": {
         "level": 74,
         "tr_id": 439,
         "ai": 815,
@@ -42188,7 +42188,7 @@ var backup_data = {
       }
     },
     "Suicune": {
-      "Lvl 74 Champion Rival | Grass | Pokemon League": {
+      "Lvl 74 Rival | Grass | Pkmn League Champion": {
         "level": 74,
         "tr_id": 439,
         "ai": 815,
@@ -42222,7 +42222,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 74 Champion Rival | Fire | Pokemon League": {
+      "Lvl 74 Rival | Fire | Pkmn League Champion": {
         "level": 74,
         "tr_id": 440,
         "ai": 815,
@@ -42258,7 +42258,7 @@ var backup_data = {
       }
     },
     "Shuppet": {
-      "Lvl 40 Channeler Hope | Pokemon Tower F3": {
+      "Lvl 40 Hope | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 443,
         "ai": 773,
@@ -42294,7 +42294,7 @@ var backup_data = {
       }
     },
     "Duskull": {
-      "Lvl 40 Channeler Hope | Pokemon Tower F3": {
+      "Lvl 40 Hope | Pkmn Tower F3": {
         "level": 40,
         "tr_id": 443,
         "ai": 773,
@@ -42330,7 +42330,7 @@ var backup_data = {
       }
     },
     "Wobbuffet": {
-      "Lvl 51 Channeler Tasha | Top | Saffron Gym": {
+      "Lvl 51 Tasha | Top | Saffron Gym": {
         "level": 51,
         "tr_id": 464,
         "ai": 773,
@@ -42366,7 +42366,7 @@ var backup_data = {
       }
     },
     "Marshtomp": {
-      "Lvl 23 Camper Flint | Op: TM43 | R25": {
+      "Lvl 23 Flint | Op: TM43 | R25": {
         "level": 23,
         "tr_id": 471,
         "ai": 773,
@@ -42402,7 +42402,7 @@ var backup_data = {
       }
     },
     "Kirlia": {
-      "Lvl 23 Camper Flint | Op: TM43 | R25": {
+      "Lvl 23 Flint | Op: TM43 | R25": {
         "level": 23,
         "tr_id": 471,
         "ai": 773,
@@ -42438,7 +42438,7 @@ var backup_data = {
       }
     },
     "Slaking": {
-      "Lvl 45 Camper Justin | Op: Iapapa Berry | R12": {
+      "Lvl 45 Justin | Op: Iapapa Berry | R12": {
         "level": 45,
         "tr_id": 477,
         "ai": 773,
@@ -42474,7 +42474,7 @@ var backup_data = {
       }
     },
     "Pichu": {
-      "Lvl 29 Gentleman Brooks | Op: Light Ball | S.S. Anne F2": {
+      "Lvl 29 Brooks | Op: Light Ball | S.S. Anne F2": {
         "level": 29,
         "tr_id": 482,
         "ai": 773,
@@ -42490,7 +42490,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Bashful",
+        "nature": "Lax",
         "moves": [
           "Charm",
           "Quick Attack",
@@ -42510,7 +42510,7 @@ var backup_data = {
       }
     },
     "Doduo": {
-      "Lvl 27 Gentleman Lamar | S.S. Anne F2": {
+      "Lvl 27 Lamar | S.S. Anne F2": {
         "level": 27,
         "tr_id": 483,
         "ai": 773,
@@ -42526,7 +42526,7 @@ var backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "nature": "Hasty",
+        "nature": "Brave",
         "moves": [
           "Quick Attack",
           "Double Kick",
@@ -42546,7 +42546,7 @@ var backup_data = {
       }
     },
     "Nincada": {
-      "Lvl 10 Bug Catcher Tank | Viridian Forest": {
+      "Lvl 10 Tank | Viridian Forest": {
         "level": 10,
         "tr_id": 531,
         "ai": 773,
@@ -42582,7 +42582,7 @@ var backup_data = {
       }
     },
     "Spinarak": {
-      "Lvl 11 Bug Catcher Barry | Viridian Forest": {
+      "Lvl 11 Barry | Viridian Forest": {
         "level": 11,
         "tr_id": 532,
         "ai": 773,
@@ -42618,7 +42618,7 @@ var backup_data = {
       }
     },
     "Ledyba": {
-      "Lvl 11 Bug Catcher Barry | Viridian Forest": {
+      "Lvl 11 Barry | Viridian Forest": {
         "level": 11,
         "tr_id": 532,
         "ai": 773,
@@ -42653,7 +42653,7 @@ var backup_data = {
       }
     },
     "Tyrogue": {
-      "Lvl 64 Crush Girl Tanya | Op: TM08 | Kindle Road": {
+      "Lvl 64 Tanya | Op: TM08 | Kindle Road": {
         "level": 64,
         "tr_id": 552,
         "ai": 781,
