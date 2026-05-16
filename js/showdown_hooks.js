@@ -1,7 +1,8 @@
 // Event bindings for calc ui
 
 function getCurrentOpposingPreviewSetId() {
-    return $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text() || currentTrainerSet || localStorage["right"] || ""
+    var selectedTrainerSet = typeof currentTrainerSet !== "undefined" ? currentTrainerSet : ""
+    return $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text() || selectedTrainerSet || localStorage["right"] || ""
 }
 
 function getOpposingFaintDataId(setId) {
@@ -53,6 +54,7 @@ function toggleTrainerPreviewFaint(setId) {
 
 var MID_PANEL_LAYOUT_STORAGE_KEY = "midPanelBottomLayout"
 var MOBILE_SIDE_PANEL_STORAGE_KEY = "mobileCalcSidePanel"
+var MOBILE_DUAL_PANEL_STORAGE_KEY = "mobileDualPanelLayout"
 
 function isMidPanelLayoutToggleViewport() {
     return window.innerWidth <= 1439 && window.innerWidth > 960
@@ -62,6 +64,22 @@ function applyMidPanelLayoutPreference() {
     var shouldMoveToBottom = localStorage.getItem(MID_PANEL_LAYOUT_STORAGE_KEY) == "1"
     $('.panel-wrapper').toggleClass('mid-panel-bottom-layout', shouldMoveToBottom)
     syncMidPanelLayoutToggle()
+}
+
+function isMobileDualPanelLayoutEnabled() {
+    var savedPreference = localStorage.getItem(MOBILE_DUAL_PANEL_STORAGE_KEY)
+    if (savedPreference !== null) {
+        return savedPreference == "1"
+    }
+    return isMobileSidePanelViewport()
+}
+
+function applyMobileDualPanelPreference() {
+    var enabled = isMobileDualPanelLayoutEnabled()
+    $('.panel-wrapper').toggleClass('mobile-dual-panel-layout', enabled)
+    $('#toggle-mobile-dual-panel input').prop('checked', enabled)
+    syncMobileSidePanelTabs()
+    syncMobileCalcStickyOffsets()
 }
 
 function syncMidPanelLayoutToggle() {
@@ -119,7 +137,7 @@ function isMobileSidePanelViewport() {
 
 function syncMobileCalcStickyOffsets() {
     var root = document.documentElement
-    if (!isMobileSidePanelViewport()) {
+    if (!isMobileSidePanelViewport() || isMobileDualPanelLayoutEnabled()) {
         root.style.removeProperty('--mobile-move-result-sticky-height')
         return
     }
@@ -431,7 +449,7 @@ $(document).ready(function() {
     })
 
     $(document).on('touchstart', '.panel-wrapper', function(e) {
-        if (!isMobileSidePanelViewport() || !e.originalEvent.touches || e.originalEvent.touches.length !== 1) {
+        if (!isMobileSidePanelViewport() || isMobileDualPanelLayoutEnabled() || !e.originalEvent.touches || e.originalEvent.touches.length !== 1) {
             mobileSideSwipeStart = null
             return
         }
@@ -445,7 +463,7 @@ $(document).ready(function() {
     })
 
     $(document).on('touchend', '.panel-wrapper', function(e) {
-        if (!mobileSideSwipeStart || !isMobileSidePanelViewport() || !e.originalEvent.changedTouches || e.originalEvent.changedTouches.length !== 1) {
+        if (!mobileSideSwipeStart || !isMobileSidePanelViewport() || isMobileDualPanelLayoutEnabled() || !e.originalEvent.changedTouches || e.originalEvent.changedTouches.length !== 1) {
             mobileSideSwipeStart = null
             return
         }
@@ -979,6 +997,7 @@ $(document).ready(function() {
     })
 
     applyMidPanelLayoutPreference()
+    applyMobileDualPanelPreference()
     syncMobileSidePanelTabs()
     syncMobileCalcStickyOffsets()
     if (typeof syncMobileBoxShortcutLevelCap === "function") {
@@ -991,6 +1010,7 @@ $(document).ready(function() {
         }
     }
     $(window).on('resize.mid-panel-layout-toggle', syncMidPanelLayoutToggle)
+    $(window).on('resize.mobile-dual-panel-layout orientationchange.mobile-dual-panel-layout', applyMobileDualPanelPreference)
     $(window).on('resize.mobile-calc-sticky-offset orientationchange.mobile-calc-sticky-offset', syncMobileCalcStickyOffsets)
     if (window.ResizeObserver && $('.move-result-group').length) {
         new ResizeObserver(syncMobileCalcStickyOffsets).observe($('.move-result-group')[0])

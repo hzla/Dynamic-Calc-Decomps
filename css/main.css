@@ -5353,6 +5353,33 @@ table.field {
         display: none !important;
     }
 
+    .panel-wrapper.mobile-dual-panel-layout .mobile-calc-side-tabs {
+        display: none;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .mobile-side-panel {
+        display: flex;
+        flex: 1 1 calc(50% - 5px);
+        order: 1;
+        width: calc(50% - 5px);
+        max-width: none;
+        min-width: 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .mobile-side-panel-p1,
+    .panel-wrapper.mobile-dual-panel-layout .mobile-side-panel-p2 {
+        display: flex;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p1 > .trainer-poks,
+    .panel-wrapper.mobile-dual-panel-layout #p1 > .player-megas-wrapper {
+        display: block !important;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p1 > #search-row {
+        display: flex !important;
+    }
+
     .panel.panel-mid {
         order: 2;
         width: 100%;
@@ -5569,6 +5596,529 @@ table.field {
         top: 112px;
     }
 
+    .panel-wrapper.mobile-dual-panel-layout {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 6px;
+        align-items: flex-start;
+        overflow-x: clip;
+        overflow-y: visible;
+        padding-bottom: 8px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .mobile-side-panel {
+        box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
+        max-width: none;
+        overflow-x: clip;
+        overflow-y: visible;
+        font-size: 12px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .panel.panel-mid {
+        grid-column: 1 / -1;
+        order: 2;
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .field-info,
+    .panel-wrapper.mobile-dual-panel-layout .poke-import {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .poke-info {
+        box-sizing: border-box;
+        overflow-x: clip;
+        overflow-y: visible;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #player-tags,
+    .panel-wrapper.mobile-dual-panel-layout #mobile-tags {
+        position: absolute;
+        display: flex;
+        top: 52px;
+        left: 8px;
+        right: 8px;
+        width: auto;
+        margin: 0;
+        gap: 4px;
+        flex-wrap: wrap;
+        align-items: center;
+        cursor: pointer;
+        z-index: 14;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #tags-left,
+    .panel-wrapper.mobile-dual-panel-layout #tags-right,
+    .panel-wrapper.mobile-dual-panel-layout #mobile-tags {
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #player-tags div,
+    .panel-wrapper.mobile-dual-panel-layout #mobile-tags div,
+    .panel-wrapper.mobile-dual-panel-layout #learnset-show,
+    .panel-wrapper.mobile-dual-panel-layout #box-remove,
+    .panel-wrapper.mobile-dual-panel-layout #save-pok,
+    .panel-wrapper.mobile-dual-panel-layout #add-party-pok,
+    .panel-wrapper.mobile-dual-panel-layout #dex-show {
+        box-sizing: border-box;
+        max-width: 100%;
+        height: 28px;
+        line-height: 26px;
+        margin-right: 0;
+        padding: 0 7px;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #mobile-tags #partner {
+        flex: 1 1 100%;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .player .select2-chosen,
+    .panel-wrapper.mobile-dual-panel-layout .opposing .select2-chosen,
+    .panel-wrapper.mobile-dual-panel-layout .select2-container .select2-choice,
+    .panel-wrapper.mobile-dual-panel-layout .set-selector {
+        box-sizing: border-box;
+        max-width: 100%;
+        height: 44px;
+        line-height: 42px;
+        font-size: 18px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .select2-container,
+    .panel-wrapper.mobile-dual-panel-layout .select2-choice,
+    .panel-wrapper.mobile-dual-panel-layout .select2-container .select2-choice {
+        box-sizing: border-box;
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .player .select2-chosen,
+    .panel-wrapper.mobile-dual-panel-layout .opposing .select2-chosen {
+        padding-left: 8px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p2 .select2-chosen {
+        width: calc(100% - 28px);
+        max-width: calc(100% - 28px);
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .select2-drop,
+    .panel-wrapper.mobile-dual-panel-layout .select2-dropdown-open {
+        box-sizing: border-box;
+        max-width: min(360px, calc(100vw - 24px)) !important;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .select2-results li {
+        box-sizing: border-box;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .poke-sprite {
+        top: 104px;
+        right: 6px;
+        height: 54px;
+        max-width: 72px;
+        padding: 4px;
+        border-radius: 10px;
+        z-index: 2;
+        display: none;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group,
+    .panel-wrapper.mobile-dual-panel-layout .move1,
+    .panel-wrapper.mobile-dual-panel-layout .move2,
+    .panel-wrapper.mobile-dual-panel-layout .move3,
+    .panel-wrapper.mobile-dual-panel-layout .move4 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top.opp {
+        min-height: 96px;
+        margin-top: 42px;
+        font-size: 13px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .top label,
+    .panel-wrapper.mobile-dual-panel-layout .info-selectors label {
+        width: 42px;
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top select,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top input {
+        box-sizing: border-box;
+        height: 28px;
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top select {
+        max-width: calc(100% - 52px);
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top .type1,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top .type2 {
+        max-width: calc((100% - 58px) / 2);
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top .level {
+        width: 54px;
+        text-align: center;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table {
+        margin-top: 0;
+        overflow: visible;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table table,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table table {
+        width: 180px;
+        table-layout: fixed;
+        border-collapse: separate;
+        border-spacing: 0 1px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table th,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table th {
+        width: 28px;
+        padding: 0;
+        font-size: 11px;
+        line-height: 16px;
+        white-space: nowrap;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table th label,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table th label {
+        width: auto;
+        font-size: 0;
+        line-height: 16px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table tr.hp th label::after,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table tr.hp th label::after {
+        content: "HP";
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table tr.at th label::after,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table tr.at th label::after {
+        content: "Atk";
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table tr.df th label::after,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table tr.df th label::after {
+        content: "Def";
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table tr.sa th label::after,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table tr.sa th label::after {
+        content: "SpA";
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table tr.sd th label::after,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table tr.sd th label::after {
+        content: "SpD";
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table tr.sp th label::after,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table tr.sp th label::after {
+        content: "Spe";
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table th label::after,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table th label::after {
+        font-size: 11px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table td,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table td {
+        padding: 0 1px;
+        vertical-align: middle;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table input,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table input {
+        box-sizing: border-box;
+        width: 32px;
+        height: 22px;
+        margin: 0;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table .total,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table .total {
+        display: inline-block;
+        min-width: 26px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.left-table .boost,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.right-table .boost {
+        width: 32px;
+        height: 22px;
+        margin-left: 2px;
+        font-size: 11px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors {
+        max-width: none;
+        margin-top: 10px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors > div {
+        display: flex;
+        margin-bottom: 6px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors .inline-toggle-field {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors select {
+        box-sizing: border-box;
+        width: 100%;
+        height: 28px;
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors .inline-toggle-field select {
+        flex: 1 1 auto;
+        width: calc(100% - 34px);
+        min-width: 0;
+        padding-right: 18px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors .inline-toggle-field .abilityToggle,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.info-selectors .inline-toggle-field .itemToggle {
+        position: static;
+        flex: 0 0 22px;
+        width: 22px;
+        height: 22px;
+        transform: none;
+        margin: 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.hp-cntrl {
+        display: flex;
+        height: auto;
+        min-height: 0;
+        margin: 8px 0;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4px;
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.hp-cntrl label {
+        width: auto;
+        margin-right: 4px;
+        font-size: 13px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.hp-cntrl input {
+        box-sizing: border-box;
+        width: 46px;
+        height: 26px;
+        margin: 0;
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.hp-cntrl br {
+        display: none;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .move1,
+    .panel-wrapper.mobile-dual-panel-layout .move2,
+    .panel-wrapper.mobile-dual-panel-layout .move3,
+    .panel-wrapper.mobile-dual-panel-layout .move4 {
+        display: grid;
+        grid-template-columns: minmax(84px, 1fr) 34px minmax(58px, 72px);
+        gap: 4px;
+        align-items: center;
+        margin: 5px 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .move-selector,
+    .panel-wrapper.mobile-dual-panel-layout .small-select.select2-container .select2-choice,
+    .panel-wrapper.mobile-dual-panel-layout .move1 input,
+    .panel-wrapper.mobile-dual-panel-layout .move1 label,
+    .panel-wrapper.mobile-dual-panel-layout .move1 select,
+    .panel-wrapper.mobile-dual-panel-layout .move2 input,
+    .panel-wrapper.mobile-dual-panel-layout .move2 label,
+    .panel-wrapper.mobile-dual-panel-layout .move2 select,
+    .panel-wrapper.mobile-dual-panel-layout .move3 input,
+    .panel-wrapper.mobile-dual-panel-layout .move3 label,
+    .panel-wrapper.mobile-dual-panel-layout .move3 select,
+    .panel-wrapper.mobile-dual-panel-layout .move4 input,
+    .panel-wrapper.mobile-dual-panel-layout .move4 label,
+    .panel-wrapper.mobile-dual-panel-layout .move4 select {
+        box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
+        height: 28px;
+        margin: 0;
+        padding: 0 4px;
+        font-size: 12px;
+        line-height: 26px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .move-selector .select2-choice > .select2-chosen {
+        padding-left: 6px;
+        font-size: 12px;
+        line-height: 26px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .move-crit,
+    .panel-wrapper.mobile-dual-panel-layout .move-z,
+    .panel-wrapper.mobile-dual-panel-layout .move-type-toggle {
+        display: none !important;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .move-acc,
+    .panel-wrapper.mobile-dual-panel-layout .crit-btn,
+    .panel-wrapper.mobile-dual-panel-layout .move-pp,
+    .panel-wrapper.mobile-dual-panel-layout .z-btn,
+    .panel-wrapper.mobile-dual-panel-layout .move-type-toggle-btn,
+    .panel-wrapper.mobile-dual-panel-layout .move-hits,
+    .panel-wrapper.mobile-dual-panel-layout .stat-drops,
+    .panel-wrapper.mobile-dual-panel-layout .metronome {
+        display: none !important;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-pok-list.opposing,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-section {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 6px;
+        margin-top: 10px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-pok-container,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .ai-show .trainer-pok-container,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .no-switch-1.trainer-pok-container {
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-pok.right-side {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        height: auto;
+        margin: 0;
+    }
+
+    .trainer-pok-item {
+        width: 16px;
+        top: 2px;
+    }
+
+    .poke-sprite {
+        display: none;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p2 .bp-info,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .bp-infos,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .ai-infos,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .switch-infos,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-label,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-separator,
+    .panel-wrapper.mobile-dual-panel-layout #p2 .trainer-preview-warning {
+        display: none !important;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p1 .trainer-pok-list.player-poks {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px 6px;
+        margin: 10px 8px 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p1 .trainer-pok-list.player-poks .box-sort-card {
+        box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
+        justify-content: center;
+        padding-top: 14px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p1 .trainer-pok-list.player-poks .box-sort-card .trainer-pok.left-side,
+    .panel-wrapper.mobile-dual-panel-layout #p1 .trainer-pok-list.player-poks .box-sort-card .pokesprite.left-side {
+        width: 64px;
+        height: 50px;
+        margin: 0 auto;
+        background-position-x: -24px;
+        background-position-y: -26px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p1 .trainer-pok-list.player-poks .box-sort-card.featured .box-sort-metric {
+        top: 0;
+        width: 52px;
+        padding: 1px 3px;
+        font-size: 10px;
+        line-height: 1.1;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #search-row {
+        min-height: 0;
+        margin-top: 8px;
+        padding: 0 8px;
+        gap: 4px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #search-box,
+    .panel-wrapper.mobile-dual-panel-layout #box-sort-select,
+    .panel-wrapper.mobile-dual-panel-layout #box-sort-direction {
+        height: 28px;
+        font-size: 14px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #search-box {
+        flex: 1 1 100%;
+        min-width: 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #box-sort-select {
+        flex: 1 1 calc(100% - 42px);
+        min-width: 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #box-sort-direction {
+        flex: 0 0 36px;
+        width: 36px;
+    }
+
 /*    select {
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -5681,26 +6231,6 @@ table.field {
 
     #mid-panel-layout-toggle {
         display: block;
-    }
-
-    #p2 .info-group.info-selectors {
-        max-width: calc(100% - 156px);
-    }
-
-    #p2 .info-group.info-selectors > div {
-        margin-bottom: 10px;
-    }
-
-    #p2 .info-group.info-selectors select,
-    #p2 .info-group.info-selectors label {
-        height: 40px;
-        font-size: 18px;
-        line-height: 40px;
-    }
-
-    #p2 .info-group.info-selectors .inline-toggle-field .abilityToggle,
-    #p2 .info-group.info-selectors .inline-toggle-field .itemToggle {
-        right: 10px;
     }
 
     .panel-wrapper.mid-panel-bottom-layout {

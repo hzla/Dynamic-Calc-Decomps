@@ -209,7 +209,7 @@ function setMoveAiPreviewSettingEnabled(enabled) {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -240,6 +240,10 @@ function setSettingsTogglesFromLocalStorage() {
     }
     if (localStorage.themeIndex == '1') {
         $('#theme-toggle input').prop('checked', true)
+    }
+    var savedMobileDualPanelLayout = localStorage.getItem('mobileDualPanelLayout')
+    if (savedMobileDualPanelLayout == '1' || (savedMobileDualPanelLayout === null && window.innerWidth <= 960)) {
+        $('#toggle-mobile-dual-panel input').prop('checked', true)
     }
     if (localStorage.boxrolls == '1') {
         $('#toggle-boxroll input').prop('checked', true)
@@ -532,6 +536,13 @@ $('#theme-toggle .slider').click(toggleThemes)
 $('#dynamic-type-bug .slider').click(toggle_dynamic_type_bug)
 
 $('#toggle-analytics .slider').click(toggle_analytics)
+
+$('#toggle-mobile-dual-panel input').on('change', function(){
+    localStorage.mobileDualPanelLayout = $(this).prop('checked') ? '1' : '0'
+    if (typeof applyMobileDualPanelPreference === "function") {
+        applyMobileDualPanelPreference()
+    }
+})
 
 $('#toggle-boxroll .slider').click(function(){
     toggle_box_rolls()
