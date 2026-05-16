@@ -804,7 +804,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Eli Anne | Op: Water | R8": {
+      "Lvl 36 Eli & Anne | Op: Water | R8": {
         "level": 36,
         "tr_id": 484,
         "ai": 773,
@@ -2386,7 +2386,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Eli Anne | Op: Water | R8": {
+      "Lvl 36 Eli & Anne | Op: Water | R8": {
         "level": 36,
         "tr_id": 484,
         "ai": 773,
@@ -2902,7 +2902,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Eli Anne | Op: Water | R8": {
+      "Lvl 36 Eli & Anne | Op: Water | R8": {
         "level": 36,
         "tr_id": 484,
         "ai": 773,
@@ -4102,7 +4102,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Lea Jed | Fly | R16": {
+      "Lvl 38 Lea & Jed | Fly | R16": {
         "level": 38,
         "tr_id": 489,
         "ai": 773,
@@ -4446,7 +4446,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Gia Jes | Op: Mago Berry | R12": {
+      "Lvl 45 Gia & Jes | Op: Mago Berry | R12": {
         "level": 45,
         "tr_id": 486,
         "ai": 773,
@@ -5098,7 +5098,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Gia Jes | Op: Mago Berry | R12": {
+      "Lvl 45 Gia & Jes | Op: Mago Berry | R12": {
         "level": 45,
         "tr_id": 486,
         "ai": 773,
@@ -5784,7 +5784,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Lil Ian | R21": {
+      "Lvl 56 Lil & Ian | R21": {
         "level": 56,
         "tr_id": 491,
         "ai": 773,
@@ -8774,7 +8774,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Kiri Jan | R14": {
+      "Lvl 46 Kiri & Jan | R14": {
         "level": 46,
         "tr_id": 487,
         "ai": 773,
@@ -9188,7 +9188,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Lil Ian | R21": {
+      "Lvl 56 Lil & Ian | R21": {
         "level": 56,
         "tr_id": 491,
         "ai": 773,
@@ -9874,7 +9874,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Lea Jed | Fly | R16": {
+      "Lvl 38 Lea & Jed | Fly | R16": {
         "level": 38,
         "tr_id": 489,
         "ai": 773,
@@ -20914,7 +20914,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Ron Mya | R15": {
+      "Lvl 48 Ron & Mya | R15": {
         "level": 48,
         "tr_id": 488,
         "ai": 773,
@@ -20948,7 +20948,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Mik Kia | Kindle Road": {
+      "Lvl 64 Mik & Kia | Kindle Road": {
         "level": 64,
         "tr_id": 557,
         "ai": 773,
@@ -28297,7 +28297,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Kiri Jan | R14": {
+      "Lvl 46 Kiri & Jan | R14": {
         "level": 46,
         "tr_id": 487,
         "ai": 773,
@@ -29739,7 +29739,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Kiri Jan | R14": {
+      "Lvl 46 Kiri & Jan | R14": {
         "level": 46,
         "tr_id": 487,
         "ai": 773,
@@ -31013,7 +31013,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Ron Mya | R15": {
+      "Lvl 48 Ron & Mya | R15": {
         "level": 48,
         "tr_id": 488,
         "ai": 773,
@@ -31805,7 +31805,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Ron Mya | R15": {
+      "Lvl 48 Ron & Mya | R15": {
         "level": 48,
         "tr_id": 488,
         "ai": 773,
@@ -31839,7 +31839,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Mik Kia | Kindle Road": {
+      "Lvl 64 Mik & Kia | Kindle Road": {
         "level": 64,
         "tr_id": 557,
         "ai": 773,
@@ -32975,7 +32975,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 Lia Luc | Left | R19": {
+      "Lvl 54 Lia & Luc | Left | R19": {
         "level": 54,
         "tr_id": 490,
         "ai": 773,
@@ -33147,7 +33147,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Lea Jed | Fly | R16": {
+      "Lvl 38 Lea & Jed | Fly | R16": {
         "level": 38,
         "tr_id": 489,
         "ai": 773,
@@ -33731,7 +33731,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Mik Kia | Kindle Road": {
+      "Lvl 64 Mik & Kia | Kindle Road": {
         "level": 64,
         "tr_id": 557,
         "ai": 773,
@@ -35514,7 +35514,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 36 Eli Anne | Op: Water | R8": {
+      "Lvl 36 Eli & Anne | Op: Water | R8": {
         "level": 36,
         "tr_id": 484,
         "ai": 773,
@@ -36305,7 +36305,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 Lia Luc | Left | R19": {
+      "Lvl 54 Lia & Luc | Left | R19": {
         "level": 54,
         "tr_id": 490,
         "ai": 773,
@@ -36339,7 +36339,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Lil Ian | R21": {
+      "Lvl 56 Lil & Ian | R21": {
         "level": 56,
         "tr_id": 491,
         "ai": 773,
@@ -36477,7 +36477,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 Lia Luc | Left | R19": {
+      "Lvl 54 Lia & Luc | Left | R19": {
         "level": 54,
         "tr_id": 490,
         "ai": 773,
@@ -36511,7 +36511,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 56 Lil Ian | R21": {
+      "Lvl 56 Lil & Ian | R21": {
         "level": 56,
         "tr_id": 491,
         "ai": 773,
@@ -37477,7 +37477,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 64 Mik Kia | Kindle Road": {
+      "Lvl 64 Mik & Kia | Kindle Road": {
         "level": 64,
         "tr_id": 557,
         "ai": 773,
@@ -37615,7 +37615,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 48 Ron Mya | R15": {
+      "Lvl 48 Ron & Mya | R15": {
         "level": 48,
         "tr_id": 488,
         "ai": 773,
@@ -38171,7 +38171,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 54 Lia Luc | Left | R19": {
+      "Lvl 54 Lia & Luc | Left | R19": {
         "level": 54,
         "tr_id": 490,
         "ai": 773,
@@ -38415,7 +38415,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Gia Jes | Op: Mago Berry | R12": {
+      "Lvl 45 Gia & Jes | Op: Mago Berry | R12": {
         "level": 45,
         "tr_id": 486,
         "ai": 773,
@@ -38485,7 +38485,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 45 Gia Jes | Op: Mago Berry | R12": {
+      "Lvl 45 Gia & Jes | Op: Mago Berry | R12": {
         "level": 45,
         "tr_id": 486,
         "ai": 773,
@@ -40794,7 +40794,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 46 Kiri Jan | R14": {
+      "Lvl 46 Kiri & Jan | R14": {
         "level": 46,
         "tr_id": 487,
         "ai": 773,
@@ -40898,7 +40898,7 @@ var backup_data = {
           "sp": 0
         }
       },
-      "Lvl 38 Lea Jed | Fly | R16": {
+      "Lvl 38 Lea & Jed | Fly | R16": {
         "level": 38,
         "tr_id": 489,
         "ai": 773,
