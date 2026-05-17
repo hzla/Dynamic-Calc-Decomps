@@ -44,7 +44,7 @@ const G3_VARIANT_FRLG = {
 };
 
 $(document).ready(function () {
-    if (typeof settings === 'undefined' || settings.damageGen != 3) {
+    if (window.baseGame !== 'g3' && (typeof settings === 'undefined' || settings.damageGen != 3)) {
         return;
     }
 
@@ -101,9 +101,6 @@ $(document).ready(function () {
 });
 
 function g3ShouldHandleSaveUpload() {
-    if (typeof settings === 'undefined' || settings.damageGen != 3) {
-        return false;
-    }
     if (window.baseGame !== 'g3') {
         return false;
     }

@@ -66,7 +66,7 @@ const G6_VARIANTS = {
 };
 
 $(document).ready(function () {
-    if (typeof settings === 'undefined' || settings.damageGen != 6) {
+    if (window.baseGame !== 'g6' && (typeof settings === 'undefined' || settings.damageGen != 6)) {
         return;
     }
 
@@ -128,9 +128,6 @@ function parseGen6Save(arrayBuffer) {
 }
 
 function g67ShouldHandleSaveUpload(expectedDamageGen, expectedBaseGame) {
-    if (typeof settings === 'undefined' || settings.damageGen != expectedDamageGen) {
-        return false;
-    }
     if (window.baseGame !== expectedBaseGame) {
         return false;
     }

@@ -45,14 +45,26 @@ function chooseDsPairedBlockOffset(preferredSaveCount, block1SaveCount, block2Sa
 }
 
 $(document).ready(function() {
-    if (gameGen == 4 || gameGen == 5 || mechanics == "hge") {
-        $('#save-upload').attr('id', 'save-upload-g45')
-         
-         $('#read-save').show()
-         $('#read-save').attr('for', 'save-upload-g45')
+    const hasConfiguredBaseGame = typeof window.baseGame === "string" && window.baseGame;
+    const shouldUseDsSaveReader = (
+        window.baseGame == "Pt" ||
+        window.baseGame == "HGSS" ||
+        window.baseGame == "BW" ||
+        (!hasConfiguredBaseGame && (gameGen == 4 || gameGen == 5 || mechanics == "hge"))
+    );
 
-        $('#read-save').click(function(){
-            $('#save-upload-g45')[0].value = null
+    if (shouldUseDsSaveReader) {
+        const saveUpload = document.getElementById('save-upload-g45') || document.getElementById('save-upload');
+        if (saveUpload) {
+            saveUpload.id = 'save-upload-g45';
+        }
+        $('#read-save').show()
+        $('#read-save').attr('for', 'save-upload-g45')
+
+        $('#read-save').off('click.g45save').on('click.g45save', function(){
+            if ($('#save-upload-g45').length > 0) {
+                $('#save-upload-g45')[0].value = null
+            }
         })
     }
 
@@ -1358,9 +1370,10 @@ function updatePKMNProps(decryptedData, expIndex, movesIndex) {
      // write moves
     // swap move replacements
 
-    if (typeof moveChanges[TITLE] != "undefined") {
+    var titleMoveChanges = typeof getMoveChangesForTitle === "function" ? getMoveChangesForTitle(TITLE) : (moveChanges[TITLE] || {})
+    if (Object.keys(titleMoveChanges).length) {
         var reverseMoveChanges = Object.fromEntries(
-        Object.entries(moveChanges[TITLE]).map(([key, value]) => [value, key])
+        Object.entries(titleMoveChanges).map(([key, value]) => [value, key])
     );
     } else {
         var reverseMoveChanges = {}

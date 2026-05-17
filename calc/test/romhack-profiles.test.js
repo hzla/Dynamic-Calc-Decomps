@@ -3,6 +3,9 @@
 if (typeof global.settings === "undefined") {
     global.settings = { type_chart: 6, typeChart: 6 };
 }
+if (typeof global.TITLE === "undefined") {
+    global.TITLE = "";
+}
 
 var helper_1 = require("./helper");
 var types_1 = require("../data/types");
@@ -71,6 +74,10 @@ describe("romhack mechanics profiles", function () {
         expect((0, romhacks_1.getMechanicsProfile)("Super Cascade Hack", 6).id).toBe("cascade-white");
         expect((0, romhacks_1.getMechanicsProfile)("Platinum Kaizo", 4).id).toBe("platinum-kaizo");
         expect((0, romhacks_1.getMechanicsProfile)("Platinum Kaizo", 5).id).toBe("vanilla");
+        expect((0, romhacks_1.getMechanicsProfile)("Platinum Redux", 4).id).toBe("platinum-redux");
+        expect((0, romhacks_1.getMechanicsProfile)("Platinum Redux 2.6", 4).id).toBe("platinum-redux");
+        expect((0, romhacks_1.getMechanicsProfile)("Platinum Redux 3.0", 4).id).toBe("platinum-redux");
+        expect((0, romhacks_1.getMechanicsProfile)("Platinum Redux 2.6", 5).id).toBe("vanilla");
         expect((0, romhacks_1.getMechanicsProfile)("Little Emerald", 8).id).toBe("little-emerald");
         expect((0, romhacks_1.getMechanicsProfile)("Little Emerald - Hard Mode", 8).id).toBe("little-emerald");
         expect((0, romhacks_1.getMechanicsProfile)("Little Emerald", 6).id).toBe("vanilla");
@@ -132,6 +139,39 @@ describe("romhack mechanics profiles", function () {
             var kaizoRatio = calcResult(ctx, "Platinum Kaizo", withPlate).range()[0] / calcResult(ctx, "Platinum Kaizo", noPlate).range()[0];
             expect(vanillaRatio).toBeLessThan(1.35);
             expect(kaizoRatio).toBeGreaterThan(1.4);
+        });
+
+        test("Platinum Redux item modifiers are profile-driven", function () {
+            var profile = (0, romhacks_1.getMechanicsProfile)("Platinum Redux 2.6", 4);
+            var state = { modifierId: "muscleWiseBoost" };
+            expect((0, romhack_helpers_1.applyValueHooks)(profile, "basePowerMods", { state: state }, [])).toEqual([1.15]);
+            state.modifierId = "choiceBoost";
+            expect((0, romhack_helpers_1.applyValueHooks)(profile, "attackMods", { state: state }, [])).toEqual([1.25]);
+            state.modifierId = "expertBelt";
+            expect((0, romhack_helpers_1.applyValueHooks)(profile, "finalMods", { state: state }, [])).toEqual([1.25]);
+            state.modifierId = "lifeOrb";
+            state.profileModifierApplied = false;
+            expect((0, romhack_helpers_1.applyValueHooks)(profile, "baseDamage", { state: state }, 100)).toBe(125);
+            expect(state.profileModifierApplied).toBe(true);
+        });
+
+        test("Platinum Redux type chart contains the documented overrides", function () {
+            var reduxChart = types_1.TYPE_CHART[9];
+            expect(reduxChart.Dark.Steel).toBe(1);
+            expect(reduxChart.Ghost.Steel).toBe(1);
+            expect(reduxChart.Psychic.Steel).toBe(1);
+            expect(reduxChart.Grass.Steel).toBe(1);
+            expect(reduxChart.Bug.Ghost).toBe(1);
+            expect(reduxChart.Dragon.Ice).toBe(0.5);
+            expect(reduxChart.Dragon.Normal).toBe(2);
+            expect(reduxChart.Poison.Dragon).toBe(2);
+            expect(reduxChart.Normal.Dark).toBe(2);
+            expect(reduxChart.Dark.Normal).toBe(0.5);
+            expect(reduxChart.Ghost.Ghost).toBe(1);
+            expect(reduxChart.Ghost.Fighting).toBe(2);
+            expect(reduxChart.Psychic.Ghost).toBe(2);
+            expect(reduxChart.Flying.Grass).toBe(1);
+            expect(reduxChart.Ground.Rock).toBe(1);
         });
     });
 

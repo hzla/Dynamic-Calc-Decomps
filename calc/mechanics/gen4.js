@@ -331,12 +331,10 @@ function calculateDPP(gen, attacker, defender, move, field) {
         var isPhysical = move.category === 'Physical';
         if ((attacker.hasItem('Muscle Band') && isPhysical) ||
             (attacker.hasItem('Wise Glasses') && !isPhysical)) {
-            if (TITLE == "Platinum Redux 2.6") {
-                basePower = Math.floor(basePower * 1.15);
-            }
-            else {
-                basePower = Math.floor(basePower * 1.1);
-            }
+            ctx.state.modifierId = "muscleWiseBoost";
+            var muscleWiseMods = (0, romhack_helpers_1.applyValueHooks)(profile, "basePowerMods", ctx, []);
+            ctx.state.modifierId = undefined;
+            basePower = Math.floor(basePower * (muscleWiseMods[0] || 1.1));
             desc.attackerItem = attacker.item;
         }
         else if (move.hasType((0, items_1.getItemBoostType)(attacker.item)) ||
@@ -441,12 +439,13 @@ function calculateDPP(gen, attacker, defender, move, field) {
         }
         if ((isPhysical ? attacker.hasItem('Choice Band') : attacker.hasItem('Choice Specs')) ||
             (!isPhysical && attacker.hasItem('Soul Dew') && attacker.named('Latios', 'Latias'))) {
-            if (TITLE == "Platinum Redux 2.6" && !attacker.hasItem('Soul Dew')) {
-                attack = Math.floor(attack * 1.25);
+            var choiceMods = [];
+            if (!attacker.hasItem('Soul Dew')) {
+                ctx.state.modifierId = "choiceBoost";
+                choiceMods = (0, romhack_helpers_1.applyValueHooks)(profile, "attackMods", ctx, []);
+                ctx.state.modifierId = undefined;
             }
-            else {
-                attack = Math.floor(attack * 1.5);
-            }
+            attack = Math.floor(attack * (choiceMods[0] || 1.5));
             desc.attackerItem = attacker.item;
         }
         else if (isPhysical && attacker.hasItem('Berserk Gene')) {
@@ -558,12 +557,14 @@ function calculateDPP(gen, attacker, defender, move, field) {
             desc.isCritical = isCritical;
         }
         if (attacker.hasItem('Life Orb') && !move.named('Future Sight') && !move.named('Doom Desire')) {
-            if (TITLE == "Platinum Redux 2.6") {
-                baseDamage = Math.floor(baseDamage * 1.25);
-            }
-            else {
+            ctx.state.modifierId = "lifeOrb";
+            ctx.state.profileModifierApplied = false;
+            baseDamage = (0, romhack_helpers_1.applyValueHooks)(profile, "baseDamage", ctx, baseDamage);
+            ctx.state.modifierId = undefined;
+            if (!ctx.state.profileModifierApplied) {
                 baseDamage = Math.floor(baseDamage * 1.3);
             }
+            ctx.state.profileModifierApplied = undefined;
             desc.attackerItem = attacker.item;
         }
         if (move.named('Pursuit') && field.defenderSide.isSwitching) {
@@ -587,12 +588,10 @@ function calculateDPP(gen, attacker, defender, move, field) {
         }
         var ebeltMod = 1;
         if (attacker.hasItem('Expert Belt') && typeEffectiveness > 1) {
-            if (TITLE == "Platinum Redux 2.6") {
-                ebeltMod = 1.25;
-            }
-            else {
-                ebeltMod = 1.2;
-            }
+            ctx.state.modifierId = "expertBelt";
+            var expertBeltMods = (0, romhack_helpers_1.applyValueHooks)(profile, "finalMods", ctx, []);
+            ctx.state.modifierId = undefined;
+            ebeltMod = expertBeltMods[0] || 1.2;
             desc.attackerItem = attacker.item;
         }
         var tintedMod = 1;

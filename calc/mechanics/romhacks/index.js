@@ -5,12 +5,14 @@ var helpers_1 = require("./helpers");
 var cascade_white_1 = require("./profiles/cascade-white");
 var little_emerald_1 = require("./profiles/little-emerald");
 var platinum_kaizo_1 = require("./profiles/platinum-kaizo");
+var platinum_redux_1 = require("./profiles/platinum-redux");
 var unbound_1 = require("./profiles/unbound");
 
 var profiles = [
     cascade_white_1.cascadeWhiteProfile,
     little_emerald_1.littleEmeraldProfile,
     platinum_kaizo_1.platinumKaizoProfile,
+    platinum_redux_1.platinumReduxProfile,
     unbound_1.unboundProfile
 ];
 

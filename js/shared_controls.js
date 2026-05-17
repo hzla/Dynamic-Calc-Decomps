@@ -3557,7 +3557,7 @@ $(document).ready(function () {
 		settings.damageGen = Math.min(parseInt(g),5)
 	} 
 
-	if (settings.damageGen <= 5 && settings.switchIn < 10 && TITLE != "Platinum Redux 2.6" || TITLE.includes("Lumi")) {
+		if ((settings.damageGen <= 5 && settings.switchIn < 10 && !(typeof TITLE === "string" && TITLE.includes("Platinum Redux"))) || TITLE.includes("Lumi")) {
 		trainerSprites = "front"
 		playerSprites = "back"
 		suffix = "gif"

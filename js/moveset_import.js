@@ -237,7 +237,7 @@ moveChanges = {
         "Rollout": "Accelerock",
         "Fissure": "Headlong Rush"
     },
-    "Platinum Redux 2.6": 
+	    "Platinum Redux":
     {
 	    "Mega Punch": "Scrap Steal",
 	    "Vice Grip": "Draconic Slam",
@@ -469,9 +469,26 @@ itemChanges = {
 
 
 if(typeof CHANGES === 'undefined') {
-	
+
 } else {
 	moveChanges["NONE"] = CHANGES
+}
+
+function resolveTitleChangeMap(changeMap, title) {
+	if (!changeMap) {
+		return null
+	}
+	if (changeMap[title]) {
+		return changeMap[title]
+	}
+	if (typeof title === "string" && title.includes("Platinum Redux")) {
+		return changeMap["Platinum Redux"] || changeMap["Platinum Redux 2.6"] || null
+	}
+	return null
+}
+
+function getMoveChangesForTitle(title) {
+	return resolveTitleChangeMap(moveChanges, title || TITLE) || {}
 }
 
 
@@ -943,16 +960,15 @@ function getMoves(currentPoke, rows, offset) {
 		if (rows[x]) {
 			if (rows[x][0] == "-") {
 				movesFound = true;
-				var move = rows[x].substr(2, rows[x].length - 2).replace("[", "").replace("]", "").replace("  ", "");
+					var move = rows[x].substr(2, rows[x].length - 2).replace("[", "").replace("]", "").replace("  ", "");
 
-				if (move) {
-					if (moveChanges[TITLE]) {
-						if (moveChanges[TITLE][move]) {
-							move = moveChanges[TITLE][move]
+					if (move) {
+						var titleMoveChanges = getMoveChangesForTitle(TITLE)
+						if (titleMoveChanges[move]) {
+							move = titleMoveChanges[move]
 						}
-					}
 
-					if (backup_data["move_replacements"]) {
+						if (backup_data["move_replacements"]) {
 						let moveId = cleanString(move)
 						if (backup_data["move_replacements"][moveId]) {
 							let defaultMoveData = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]]
@@ -1639,11 +1655,12 @@ function parseDdexTemporaryOpponentImport(text) {
 		}
 
 		if (line[0] === "-" && parsed.moves.length < 4) {
-			var move = line.substr(1).trim().replace("[", "").replace("]", "").replace("  ", " ");
-			if (!move) continue;
-			if (moveChanges[TITLE] && moveChanges[TITLE][move]) {
-				move = moveChanges[TITLE][move];
-			}
+				var move = line.substr(1).trim().replace("[", "").replace("]", "").replace("  ", " ");
+				if (!move) continue;
+				var titleMoveChanges = getMoveChangesForTitle(TITLE);
+				if (titleMoveChanges[move]) {
+					move = titleMoveChanges[move];
+				}
 			if (backup_data["move_replacements"]) {
 				var moveId = cleanString(move);
 				if (backup_data["move_replacements"][moveId] && MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]]) {

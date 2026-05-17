@@ -32,7 +32,7 @@ const G7_VARIANTS = {
 };
 
 $(document).ready(function () {
-    if (typeof settings === 'undefined' || settings.damageGen != 7) {
+    if (window.baseGame !== 'g7' && (typeof settings === 'undefined' || settings.damageGen != 7)) {
         return;
     }
 

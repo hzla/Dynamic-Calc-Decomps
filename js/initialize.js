@@ -19,6 +19,7 @@ const getNum = (key, fallback) => {
     const v = parseInt(params.get(key), 10);
     return Number.isFinite(v) ? v : fallback;
 };
+const requestedTypeChart = getNum('types', 6);
 
 // --- Settings ---------------------------------------------------------------
 
@@ -26,7 +27,9 @@ const settings = {
     devMode: getBool('dev'),
     gen: getNum('gen', 8),
     damageGen: getNum('dmgGen', 8),
-    typeChart: getNum('types', 6),
+    typeChart: requestedTypeChart,
+    type_chart: requestedTypeChart,
+    defaultTypeChart: requestedTypeChart,
     switchIn: getNum('switchIn', 9),
     noSwitch: getBool('noSwitch'),
     hasEvs: getStoredBool('calcHasEvs', !getBool('evs', '0')),
@@ -53,6 +56,33 @@ const mastersheetSourcesByTitle = {
   "Cascade White Dev": "cascadewhite2",
   "Vintage White Plus": "vintagewhiteplus"
 };
+const PLATINUM_REDUX_TYPE_CHART = 9;
+const PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY = "platinumReduxTypeChart";
+
+function isPlatinumReduxTitle(title = TITLE) {
+    return typeof title === "string" && title.includes("Platinum Redux");
+}
+
+function isPlatinumReduxTypeChartEnabled() {
+    if (typeof localStorage === "undefined") {
+        return true;
+    }
+    return localStorage.getItem(PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY) !== "0";
+}
+
+function applyPlatinumReduxTypeChartSetting(title = TITLE) {
+    if (!settings) {
+        return;
+    }
+
+    if (isPlatinumReduxTitle(title) && isPlatinumReduxTypeChartEnabled()) {
+        settings.typeChart = PLATINUM_REDUX_TYPE_CHART;
+    } else if (settings.typeChart === PLATINUM_REDUX_TYPE_CHART) {
+        settings.typeChart = settings.defaultTypeChart || requestedTypeChart;
+    }
+
+    settings.type_chart = settings.typeChart;
+}
 
 function getTitleScopedStorageKey(prefix, title) {
     var resolvedTitle = typeof title === "string" && title ? title : BLANK_DEV_TITLE;
@@ -218,19 +248,22 @@ function getBlankDevConfigDefaults() {
         showAI: false,
         saveExpansion: false,
         mechanics: "vanilla",
-        baseGame: ""
+        baseGame: "",
+        titleOverride: ""
     };
 }
 
 function getStoredBlankDevConfig() {
-    if (forceBlankConfig) {
-        return null;
-    }
     if (!isBlankDevMode || !window.devDataOverrides || typeof window.devDataOverrides.getStoredDevConfig !== "function") {
         return null;
     }
 
-    return window.devDataOverrides.getStoredDevConfig();
+    const storedConfig = window.devDataOverrides.getStoredDevConfig();
+    if (storedConfig) {
+        return storedConfig;
+    }
+
+    return forceBlankConfig ? null : storedConfig;
 }
 
 // --- Global State -----------------------------------------------------------
@@ -274,6 +307,62 @@ let currentTypeMatchup           = 2;
 
 let dynamicTypeBugActive = true;
 let activeBlankDevConfig = null;
+
+function getBlankDevTitleOverride() {
+    if (!isBlankDevMode || !activeBlankDevConfig) {
+        return "";
+    }
+
+    return String(activeBlankDevConfig.titleOverride || "").trim();
+}
+
+function getBlankDevResolvedTitle(fallback = BLANK_DEV_TITLE) {
+    return getBlankDevTitleOverride() || fallback || BLANK_DEV_TITLE;
+}
+
+function getDynamicCalcTitle(data) {
+    const fallbackTitle = data && data.title ? data.title : (SOURCES[params.get("data")] || "Untitled");
+    return isBlankDevMode ? getBlankDevResolvedTitle(fallbackTitle) : fallbackTitle;
+}
+
+function isDsSaveReaderBaseGame(baseGameValue = window.baseGame) {
+    return baseGameValue == "Pt" || baseGameValue == "HGSS" || baseGameValue == "BW";
+}
+
+function syncSaveReaderControls() {
+    const hasSaveReader = !!window.baseGame;
+    const saveInputId = isDsSaveReaderBaseGame() ? "save-upload-g45" : "save-upload";
+    $('#read-save')
+        .toggle(hasSaveReader)
+        .attr('for', saveInputId);
+}
+
+function normalizeBaseGameValue(baseGameValue) {
+    const normalizedValue = String(baseGameValue || "").trim();
+    const baseGameAliases = {
+        pt: "Pt",
+        platinum: "Pt",
+        hgss: "HGSS",
+        bw: "BW",
+        blackwhite: "BW",
+        blackwhite2: "BW",
+        null: "null",
+        imp: "imp",
+        incem: "inc_em",
+        inc_em: "inc_em",
+        g3: "g3",
+        gen3: "g3",
+        g6: "g6",
+        gen6: "g6",
+        g7: "g7",
+        gen7: "g7",
+        radred: "rad_red",
+        rad_red: "rad_red",
+        unbound: "unbound"
+    };
+    const aliasKey = normalizedValue.toLowerCase().replace(/[^a-z0-9_]/g, "");
+    return baseGameAliases[aliasKey] || normalizedValue;
+}
 
 const MOVE_NAME_ALIASES = {
     "Solar-Beam": "Solar Beam"
@@ -352,6 +441,8 @@ function applyBlankDevConfig(config) {
   settings.gen = Number(mergedConfig.gen) || defaults.gen;
   settings.damageGen = Number(mergedConfig.damageGen) || defaults.damageGen;
   settings.typeChart = Number(mergedConfig.typeChart) || defaults.typeChart;
+  settings.type_chart = settings.typeChart;
+  settings.defaultTypeChart = settings.typeChart;
   settings.switchIn = Number(mergedConfig.switchIn) || defaults.switchIn;
   settings.gameSwitchIn = Number(mergedConfig.gameSwitchIn) || settings.switchIn;
   settings.critGen = Number(mergedConfig.critGen) || defaults.critGen;
@@ -374,7 +465,9 @@ function applyBlankDevConfig(config) {
   showAI = !!mergedConfig.showAI;
   mechanics = mergedConfig.mechanics === "hge" ? "hge" : "vanilla";
   save_expansion = !!mergedConfig.saveExpansion;
-  window.baseGame = mergedConfig.baseGame || "";
+  window.baseGame = normalizeBaseGameValue(mergedConfig.baseGame);
+  mergedConfig.baseGame = window.baseGame;
+  mergedConfig.titleOverride = String(mergedConfig.titleOverride || "").trim();
 
   $('#ms-link').toggle(!!settings.hasMastersheet);
   $('#redux-lvl').hide();
@@ -391,12 +484,13 @@ function applyBlankDevConfig(config) {
 
   updateHeaderShellState();
   toggleGen3SwitchGuide();
+  syncSaveReaderControls();
 }
 
 function buildBlankSlateData() {
   const data = {
     __blankSlate: true,
-    title: BLANK_DEV_TITLE,
+    title: getBlankDevResolvedTitle(),
     order: {},
     trainers: {}
   };
@@ -457,7 +551,7 @@ function prepareDynamicCalcData(data, options = {}) {
     const skipGameSettings = options.skipGameSettings === true
     npoint_data = data
     backup_data = data
-    TITLE = data.title || SOURCES[params.get("data")] || "Untitled"
+    TITLE = getDynamicCalcTitle(data)
     syncGameScopedSwitchSettings(TITLE);
 
     if (!skipGameSettings) {
@@ -474,6 +568,8 @@ function prepareDynamicCalcData(data, options = {}) {
         if (typeof setSettingsTogglesFromLocalStorage === "function") {
             setSettingsTogglesFromLocalStorage()
         }
+    } else {
+        applyPlatinumReduxTypeChartSetting(TITLE)
     }
 
     document.title = TITLE + " Calculator"
@@ -500,7 +596,7 @@ function getCurrentBackupFileName() {
 }
 
 function applyUploadedDataTitle(data) {
-    TITLE = data && data.title ? data.title : "Untitled";
+    TITLE = getDynamicCalcTitle(data);
     document.title = TITLE + " Calculator";
     $('#rom-title').text(TITLE).show();
 
@@ -660,6 +756,22 @@ function setGameSettings(title) {
     showDex = true;
     showAI = true;
     $('label[for="snow"]').hide()
+  } else if (title.includes("Platinum Redux")) {
+    gameGen = 4
+    settings.damageGen = 4
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 4;
+      settings.switchIn = 4;
+    }
+    settings.sourceType = "full"
+    settings.typeChart = settings.defaultTypeChart || requestedTypeChart;
+    settings.type_chart = settings.typeChart;
+    settings.critGen = 5;
+    save_expansion = false
+    showDex = true;
+    showAI = true;
+    $('label[for="snow"]').hide()
+    $('label[for="fog"]').show()
   } else if (title == "Platinum Kaizo" || title == "Platinum") {
     gameGen = 4
     settings.damageGen = 4
@@ -866,6 +978,7 @@ function setGameSettings(title) {
   updateHeaderShellState()
 
   toggleGen3SwitchGuide();
+  applyPlatinumReduxTypeChartSetting(title);
   syncGameScopedPhysSpecSplitSettings(title);
   syncGameScopedInvertTypesSettings(title);
 }
@@ -928,7 +1041,7 @@ if (SOURCES[params.get('data')]) {
     //     baseVersion = "BW2"
     // }
 } else {
-    TITLE = isBlankDevMode ? BLANK_DEV_TITLE : "NONE"
+    TITLE = isBlankDevMode ? getBlankDevResolvedTitle() : "NONE"
 }
 
 function setBaseGame(title) {
@@ -990,11 +1103,11 @@ function setBaseGame(title) {
         baseVersion = "BW2"
     }
 
-    if (!baseGame && settings.damageGen == 3) {
+    if (!window.baseGame && settings.damageGen == 3) {
         window.baseGame = "g3"
-    } else if (!baseGame && settings.damageGen == 6) {
+    } else if (!window.baseGame && settings.damageGen == 6) {
         window.baseGame = "g6"
-    } else if (!baseGame && settings.damageGen == 7) {
+    } else if (!window.baseGame && settings.damageGen == 7) {
         window.baseGame = "g7"
     }
 
@@ -1009,11 +1122,7 @@ function setBaseGame(title) {
         $('#sync-lua').show()
     }
 
-    if (!baseGame) {
-        $('#read-save').hide()
-    } else {
-        $('#read-save').show()
-    }
+    syncSaveReaderControls()
 
     if (typeof window.updateMainPageTitle === "function") {
       window.updateMainPageTitle(TITLE)

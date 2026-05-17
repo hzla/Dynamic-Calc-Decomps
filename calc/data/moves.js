@@ -5095,7 +5095,8 @@ var RR_PATCH = {
     }
 };
 
-if (!(TITLE.includes("Radical") || TITLE.includes("Imperium")) ) {
+var currentTitle = typeof TITLE === "string" ? TITLE : "";
+if (!(currentTitle.includes("Radical") || currentTitle.includes("Imperium")) ) {
     RR_PATCH = {}
 }
 

@@ -85,6 +85,12 @@
             help: "Save reader family and Lua sync behavior."
         },
         {
+            name: "titleOverride",
+            label: "TITLE Override",
+            type: "text",
+            help: "Optional exact window.TITLE value for title-keyed mechanics."
+        },
+        {
             name: "mechanics",
             label: "Mechanics",
             type: "select",
@@ -228,8 +234,26 @@
         return `${CONFIG_STORAGE_PREFIX}:${window.location.pathname}:${getCurrentSourceId()}`;
     }
 
+    function getStableConfigStorageKey() {
+        return `${CONFIG_STORAGE_PREFIX}:${getCurrentSourceId()}`;
+    }
+
+    function getConfigStorageKeys() {
+        const keys = [getConfigStorageKey(), getStableConfigStorageKey()];
+        return keys.filter(function (key, index) {
+            return keys.indexOf(key) === index;
+        });
+    }
+
     function getStoredDevConfig() {
-        const raw = window.localStorage.getItem(getConfigStorageKey());
+        let raw = null;
+        const keys = getConfigStorageKeys();
+        for (let i = 0; i < keys.length; i++) {
+            raw = window.localStorage.getItem(keys[i]);
+            if (raw) {
+                break;
+            }
+        }
         if (!raw) {
             return null;
         }
@@ -243,11 +267,16 @@
     }
 
     function saveStoredDevConfig(config) {
-        window.localStorage.setItem(getConfigStorageKey(), JSON.stringify(config || {}));
+        const serializedConfig = JSON.stringify(config || {});
+        getConfigStorageKeys().forEach(function (key) {
+            window.localStorage.setItem(key, serializedConfig);
+        });
     }
 
     function clearStoredDevConfig() {
-        window.localStorage.removeItem(getConfigStorageKey());
+        getConfigStorageKeys().forEach(function (key) {
+            window.localStorage.removeItem(key);
+        });
     }
 
     function openOverrideDb() {
@@ -518,10 +547,14 @@
     }
 
     function getCurrentBlankConfigValues() {
+        const storedConfig = getStoredDevConfig();
+        if (storedConfig) {
+            return storedConfig;
+        }
         if (typeof window.getCurrentDevBlankConfig === "function") {
             return window.getCurrentDevBlankConfig();
         }
-        return getStoredDevConfig() || {};
+        return {};
     }
 
     function createFieldNode(field, value) {
@@ -726,6 +759,7 @@
         isBlankDevMode,
         getCurrentSourceId,
         getOverrideStorageKey,
+        getConfigStorageKey,
         getStoredOverrideRecord,
         saveStoredOverrideRecord,
         clearStoredOverrideRecord,
