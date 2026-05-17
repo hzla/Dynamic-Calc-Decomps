@@ -40,10 +40,13 @@ function syncResultCritState(side) {
         return
     }
 
-    var allChecked = [1, 2, 3, 4].every(function(index) {
+    var allChecked = true
+    ;[1, 2, 3, 4].forEach(function(index) {
         var isEffectiveCrit = $(`#crit${side}${index}`).prop('checked') || isResultMoveAutoCrit(side, index)
         $(`#resultDamage${side}${index}`).toggleClass('crit-text', isEffectiveCrit)
-        return isEffectiveCrit
+        if (!isEffectiveCrit) {
+            allChecked = false
+        }
     })
 
     $(`.result-crit-toggle[data-crit-side="${side}"]`)
