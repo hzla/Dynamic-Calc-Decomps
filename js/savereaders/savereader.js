@@ -1,5 +1,9 @@
 // SAVEREADERS FOR GEN 4/5 AND HG-ENGINE
 
+const DS_SAVE_SLOTS_PER_BOX = 30
+const GEN5_BOXES_TO_IMPORT = 7
+const GEN5_BOX_SLOT_COUNT = GEN5_BOXES_TO_IMPORT * DS_SAVE_SLOTS_PER_BOX
+
 var invalidSavSpeciesDebugCount = 0
 
 function isEmptyOrInvalidDsSaveCounter(value) {
@@ -241,11 +245,11 @@ $(document).ready(function() {
                     if (save_expansion) {
                        liveBoxSlotCount = 870 
                        totalBoxSlotCount = 870
-                    } 
+                    }
 
                     if (baseGame == "BW") {
-                        liveBoxSlotCount = 210
-                        totalBoxSlotCount = 210
+                        liveBoxSlotCount = GEN5_BOX_SLOT_COUNT
+                        totalBoxSlotCount = GEN5_BOX_SLOT_COUNT
                     } else if (baseGame == "Pt" || baseGame == "HGSS") {
                         totalBoxSlotCount = 540
                     }
@@ -258,11 +262,11 @@ $(document).ready(function() {
                         // Extract the chunk of 236 bytes from the binary data
 
                        if (baseGame == "HGSS") {
-                         if (i > 0 && i % 30 == 0) {
+                         if (i > 0 && i % DS_SAVE_SLOTS_PER_BOX == 0) {
                             offset += 16
                          } 
                        } else if (baseGame == "BW") {
-                         if (i > 0 && i % 30 == 0) {
+                         if (i > 0 && i % DS_SAVE_SLOTS_PER_BOX == 0) {
                             offset += 16
                          } 
                        }
@@ -272,7 +276,7 @@ $(document).ready(function() {
                        if (i < liveBoxSlotCount) {
                            showdownImport += showdownBlock
                        } else {
-                           const deadMon = buildDsSaveDeadMonFromShowdown(showdownBlock, Math.floor(i / 30) + 1, (i % 30) + 1)
+                           const deadMon = buildDsSaveDeadMonFromShowdown(showdownBlock, Math.floor(i / DS_SAVE_SLOTS_PER_BOX) + 1, (i % DS_SAVE_SLOTS_PER_BOX) + 1)
                            if (deadMon) {
                                deadMons.push(deadMon)
                            }
@@ -1349,20 +1353,20 @@ function updatePKMNProps(decryptedData, expIndex, movesIndex) {
     }
 
 
-    // write EVs      
-    var hp_ev  = parseInt($('#p1').find('.hp .evs').val())
-    var df_ev = parseInt($('#p1').find('.df .evs').val())
-    var sa_ev = parseInt($('#p1').find('.sa .evs').val())
-    var at_ev = parseInt($('#p1').find('.at .evs').val()) 
-    var sp_ev = parseInt($('#p1').find('.sp .evs').val()) 
-    var spd_ev = parseInt($('#p1').find('.spd .evs').val()) 
+    // write EVs
+    var hp_ev = getSaveEditorEvValue('.hp')
+    var at_ev = getSaveEditorEvValue('.at')
+    var df_ev = getSaveEditorEvValue('.df')
+    var sp_ev = getSaveEditorEvValue('.sp')
+    var sa_ev = getSaveEditorEvValue('.sa')
+    var sd_ev = getSaveEditorEvValue('.sd')
 
     decryptedData[expIndex + 4] = (decryptedData[expIndex + 4] & 0xFF00) | hp_ev
     decryptedData[expIndex + 5] = (decryptedData[expIndex + 5] & 0xFF00) | df_ev
     decryptedData[expIndex + 6] = (decryptedData[expIndex + 6] & 0xFF00) | sa_ev
     decryptedData[expIndex + 4] = (decryptedData[expIndex + 4] & 0xFF) | (at_ev << 8)
     decryptedData[expIndex + 5] = (decryptedData[expIndex + 5] & 0xFF) | (sp_ev << 8)
-    decryptedData[expIndex + 6] = (decryptedData[expIndex + 6] & 0xFF) | (spd_ev << 8)
+    decryptedData[expIndex + 6] = (decryptedData[expIndex + 6] & 0xFF) | (sd_ev << 8)
 
     // max friendship
     decryptedData[expIndex + 2] = ( decryptedData[expIndex + 2] & 0xFF00) | 255
@@ -1393,6 +1397,15 @@ function updatePKMNProps(decryptedData, expIndex, movesIndex) {
         }
     }
     return decryptedData
+}
+
+function getSaveEditorEvValue(statSelector) {
+    var rawValue = $('#p1').find(statSelector + ' .evs').val()
+    var value = parseInt(rawValue, 10)
+    if (!Number.isFinite(value)) {
+        return 0
+    }
+    return Math.max(0, Math.min(255, value)) & 0xFF
 }
 
 // updates the selected party pokemon with the battle stats displayed on showdown calc, and edges exp to max

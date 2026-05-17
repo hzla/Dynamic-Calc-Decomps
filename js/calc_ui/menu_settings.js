@@ -113,6 +113,10 @@ function setSettingsDefaults() {
   if (typeof localStorage.platinumReduxTypeChart === 'undefined') {
     localStorage.platinumReduxTypeChart = 1
   }
+  var devBlankConfig = typeof window.getCurrentDevBlankConfig === "function" ? window.getCurrentDevBlankConfig() : null
+  if (devBlankConfig && Object.prototype.hasOwnProperty.call(devBlankConfig, "platinumReduxTypeChart")) {
+    localStorage.platinumReduxTypeChart = devBlankConfig.platinumReduxTypeChart ? '1' : '0'
+  }
 
   if (typeof localStorage.dynamicTypeBug === 'undefined') {
     localStorage.dynamicTypeBug = 1

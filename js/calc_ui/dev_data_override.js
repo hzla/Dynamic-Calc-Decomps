@@ -91,6 +91,12 @@
             help: "Optional exact window.TITLE value for title-keyed mechanics."
         },
         {
+            name: "platinumReduxTypeChart",
+            label: "Redux Type Chart",
+            type: "checkbox",
+            help: "Use Platinum Redux type chart changes when TITLE matches Platinum Redux."
+        },
+        {
             name: "mechanics",
             label: "Mechanics",
             type: "select",

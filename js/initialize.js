@@ -64,6 +64,13 @@ function isPlatinumReduxTitle(title = TITLE) {
 }
 
 function isPlatinumReduxTypeChartEnabled() {
+    if (
+        isBlankDevMode &&
+        activeBlankDevConfig &&
+        Object.prototype.hasOwnProperty.call(activeBlankDevConfig, "platinumReduxTypeChart")
+    ) {
+        return !!activeBlankDevConfig.platinumReduxTypeChart;
+    }
     if (typeof localStorage === "undefined") {
         return true;
     }
@@ -249,7 +256,8 @@ function getBlankDevConfigDefaults() {
         saveExpansion: false,
         mechanics: "vanilla",
         baseGame: "",
-        titleOverride: ""
+        titleOverride: "",
+        platinumReduxTypeChart: isPlatinumReduxTypeChartEnabled()
     };
 }
 
@@ -468,6 +476,9 @@ function applyBlankDevConfig(config) {
   window.baseGame = normalizeBaseGameValue(mergedConfig.baseGame);
   mergedConfig.baseGame = window.baseGame;
   mergedConfig.titleOverride = String(mergedConfig.titleOverride || "").trim();
+  mergedConfig.platinumReduxTypeChart = typeof mergedConfig.platinumReduxTypeChart === "undefined"
+    ? true
+    : !!mergedConfig.platinumReduxTypeChart;
 
   $('#ms-link').toggle(!!settings.hasMastersheet);
   $('#redux-lvl').hide();
