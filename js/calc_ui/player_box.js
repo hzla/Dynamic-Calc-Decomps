@@ -814,7 +814,8 @@ function abv(s, containerSelector = '.player-party', maxLength = 13, force = fal
 }
 
 function getPreviewSpriteName(species_name) {
-    return species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
+    var spriteSpeciesName = typeof getSpriteSpeciesName === "function" ? getSpriteSpeciesName(species_name) : String(species_name || "").replace(/-Totem$/i, "")
+    return spriteSpeciesName.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
 }
 
 function isImportedEggSpecies(speciesName) {
@@ -1014,7 +1015,9 @@ function toggleMegaBoxVisibility(hasMegas) {
 }
 
 function buildBoxSpriteHTML(setId, highlights) {
-    var pok_name = setId.split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
+    var speciesName = setId.split(" (")[0]
+    var spriteSpeciesName = typeof getSpriteSpeciesName === "function" ? getSpriteSpeciesName(speciesName) : String(speciesName || "").replace(/-Totem$/i, "")
+    var pok_name = spriteSpeciesName.toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
     var highlightClasses = highlights ? ` ${highlights.trim()}` : ""
     return `<div class="box-sort-card${highlightClasses}" data-set-id="${setId}">
         <div class="box-sort-metric"></div>

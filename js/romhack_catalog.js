@@ -45,13 +45,13 @@
                 },
                 {
                     label: "Redux",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=bb2redux&gen=8&types=6",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=bb2redux&gen=8&types=6",
                     coverImage: "",
                     description: ""
                 },
                 {
                     label: "Redux CM",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=bb2redux&gen=8&challengeMode=true&types=6",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=bb2redux&gen=8&challengeMode=true&types=6",
                     coverImage: "",
                     description: ""
                 }
@@ -317,7 +317,7 @@
             variants: [
                 {
                     label: "Photonic Sun/Prismatic Moon",
-                    source: "https://hzla.github.io/Dynamic-Calc/index.html?data=ee9b421600cd6487e4e3&dmgGen=7&gen=7",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=pspm&dmgGen=7&gen=7&types=6",
                     coverImage: "",
                     description: ""
                 }

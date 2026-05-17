@@ -294,7 +294,7 @@ var Pokemon = (function () {
         return names.includes(this.name);
     };
     Pokemon.prototype.clone = function () {
-        return new Pokemon(this.gen, this.name, {
+        var cloned = new Pokemon(this.gen, this.name, {
             level: this.level,
             ability: this.ability,
             abilityOn: this.abilityOn,
@@ -317,6 +317,13 @@ var Pokemon = (function () {
             moves: this.moves.slice(),
             overrides: this.species
         });
+        if (this.preserveTransformedStatsOnClone) {
+            cloned.rawStats = (0, util_1.extend)(true, {}, this.rawStats);
+            cloned.stats = (0, util_1.extend)(true, {}, this.stats);
+            cloned.imposterTarget = this.imposterTarget;
+            cloned.preserveTransformedStatsOnClone = true;
+        }
+        return cloned;
     };
     Pokemon.prototype.calcStat = function (gen, stat) {
         return stats_1.Stats.calcStat(gen, stat, this.species.baseStats[stat], this.ivs[stat], this.evs[stat], this.level, this.nature);

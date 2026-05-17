@@ -35,6 +35,34 @@ function syncOpposingKoButton() {
     }
 }
 
+function syncResultCritState(side) {
+    if (side !== 'L' && side !== 'R') {
+        return
+    }
+
+    var allChecked = [1, 2, 3, 4].every(function(index) {
+        var isEffectiveCrit = $(`#crit${side}${index}`).prop('checked') || isResultMoveAutoCrit(side, index)
+        $(`#resultDamage${side}${index}`).toggleClass('crit-text', isEffectiveCrit)
+        return isEffectiveCrit
+    })
+
+    $(`.result-crit-toggle[data-crit-side="${side}"]`)
+        .toggleClass('active', allChecked)
+        .attr('aria-pressed', allChecked ? 'true' : 'false')
+}
+
+function syncAllResultCritStates() {
+    syncResultCritState('L')
+    syncResultCritState('R')
+}
+
+function isResultMoveAutoCrit(side, index) {
+    var pokeSelector = side === 'L' ? '#p1' : '#p2'
+    var moveName = $(`${pokeSelector} .move${index} select.move-selector`).val()
+    var move = typeof moves !== "undefined" && moves ? moves[moveName] : null
+    return Boolean(move && move.willCrit === true)
+}
+
 function toggleTrainerPreviewFaint(setId) {
     var targetSet = getOpposingFaintDataId(setId)
     if (!targetSet) {
@@ -744,24 +772,14 @@ $(document).ready(function() {
    $(document).on('click', '.resultDamage', function() {
        const index = $(this).attr('id').slice(-2)
        $(`#crit${index}`).click()
-       $(this).toggleClass('crit-text')
-       syncResultCritToggle(index.charAt(0))
+       syncResultCritState(index.charAt(0))
    })
-
-   function syncResultCritToggle(side) {
-        var allChecked = [1, 2, 3, 4].every(function(index) {
-            return $(`#crit${side}${index}`).prop('checked')
-        })
-        $(`.result-crit-toggle[data-crit-side="${side}"]`)
-            .toggleClass('active', allChecked)
-            .attr('aria-pressed', allChecked ? 'true' : 'false')
-   }
 
    $(document).on('change', '.move-crit', function() {
         var id = $(this).attr('id') || ''
         var side = id.charAt(4)
         if (side === 'L' || side === 'R') {
-            syncResultCritToggle(side)
+            syncResultCritState(side)
         }
    })
 
@@ -776,7 +794,7 @@ $(document).ready(function() {
                 critInput.click()
             }
         }
-        syncResultCritToggle(side)
+        syncResultCritState(side)
    })
 
    $(document).on('click', '.cascade-effects input', function() {
@@ -842,8 +860,8 @@ $(document).ready(function() {
                 $("#critR2")[0].checked = !$("#critR2")[0].checked
                 $("#critR3")[0].checked = !$("#critR3")[0].checked
                 $("#critR4")[0].checked = !$("#critR4")[0].checked
-                $('#resultDamageR1, #resultDamageR2, #resultDamageR3, #resultDamageR4').toggleClass('crit-text')
                 $('.move-crit').last().change()
+                syncResultCritState('R')
             } else if (e.altKey && e.key == "s" || e.key == "ß") {
                 toggleBoxSpriteStyle()
             } else if (e.altKey && e.key == "p" || e.key == "π") {

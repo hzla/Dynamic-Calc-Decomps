@@ -112,7 +112,7 @@ function setColumnDefs() {
             width: 80,
             cellRenderer: (params) => {
               if (params.data.species) {
-                return `<span class="fragsheet-grid-sprite"><img src="./img/pokesprite/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.’]/g, '')}.png" alt="" /></span>`;
+                return `<span class="fragsheet-grid-sprite"><img src="./img/pokesprite/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.’]/g, '').replace(/-totem$/g, '')}.png" alt="" /></span>`;
               }
               return '';
             },
@@ -323,7 +323,7 @@ function displayFragHistory(rowData) {
             let wasMegaEvolved = isMegaFragSourceForDisplay(sourceSpeciesName, rowData.species)
 
             let pokName = extractPokemonName(frag)
-            let spritePath = `./img/pokesprite/${pokName.toLowerCase().replace(/[ :'.-]+/g, '-').replace(/^-|-glitched$|-$/g, '')}.png`
+            let spritePath = `./img/pokesprite/${pokName.toLowerCase().replace(/[ :'.-]+/g, '-').replace(/-totem$/g, '').replace(/^-|-glitched$|-$/g, '')}.png`
             let fragMonHtml = `<img src="${spritePath}" alt="${pokName}">`
 
             if (!hasRenderedSplitHeader) {

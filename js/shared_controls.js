@@ -794,17 +794,24 @@ function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 
 	var ability = pokeObj.find(".ability").val();
 
-	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download'];
+	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download', 'Imposter'];
 
 	if (TITLE.includes(" Null")) {
 		TOGGLE_ABILITIES.push("Illuminate")
 		TOGGLE_ABILITIES.push("Protean")
 	}
 
+	var abilityToggle = $(abilityObj).closest(".poke-info").find(".abilityToggle");
+	var previousToggleAbility = abilityToggle.attr("data-ability") || "";
 	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
-		$(abilityObj).closest(".poke-info").find(".abilityToggle").show();
+		if (ability === "Imposter" && (resetMoveTypeToggle || previousToggleAbility !== ability)) {
+			abilityToggle.prop("checked", true);
+		}
+		abilityToggle.attr("data-ability", ability);
+		abilityToggle.show();
 	} else {
-		$(abilityObj).closest(".poke-info").find(".abilityToggle").hide();
+		abilityToggle.attr("data-ability", ability);
+		abilityToggle.hide();
 	}
 	var boostedStat = $(abilityObj).closest(".poke-info").find(".boostedStat");
 
@@ -1143,13 +1150,17 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	moveGroupObj.children(".move-cat").val(move.category);
 
 	let isCrit = false
-	if (typeof backup_moves != "undefined" && typeof backup_moves[moveName] != 'undefined') {
-		isCrit = (backup_moves[moveName].crit_stage >= 2 && pokemon.item == "Scope Lens") || move.willCrit === true;
+	if (typeof backup_moves != "undefined" && (typeof backup_moves[moveName] != 'undefined' || typeof backup_moves[cleanString(moveName)] != 'undefined')) {
+		var backupCritMove = backup_moves[moveName] || backup_moves[cleanString(moveName)];
+		isCrit = (backupCritMove.crit_stage >= 2 && pokemon.item == "Scope Lens") || move.willCrit === true;
 	} else {
 		isCrit = move.willCrit === true;
 	}
 
 	moveGroupObj.children(".move-crit").prop("checked", isCrit);
+	if (typeof syncResultCritState === "function") {
+		syncResultCritState(isPlayer ? 'L' : 'R');
+	}
 
 	var stat = move.category === 'Special' ? 'spa' : 'atk';
 	var dropsStats =
@@ -1370,7 +1381,7 @@ function renderGroupedFormeOptions(formeSelect, groups, selectedSpeciesName) {
 }
 
 function getLeftPokeSpriteName(pokemonName) {
-	return pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","");
+	return getSpriteSpeciesName(pokemonName).toLowerCase().replace(" ", "").replace(".","").replace("’","");
 }
 
 function updateLeftPokeSprite(pokemonName) {
@@ -1379,6 +1390,79 @@ function updateLeftPokeSprite(pokemonName) {
 	}
 	$('#p1 .poke-sprite').attr('src', `./img/${playerSprites}/${getLeftPokeSpriteName(pokemonName)}.${suffix}`);
 	$('#p1 .poke-sprite').addClass('no-flip');
+}
+
+function getSpriteSpeciesName(pokemonName) {
+	return String(pokemonName || "").replace(/-Totem$/i, "");
+}
+
+function getPspmTotemBoostKey(pokemonName) {
+	if (typeof TITLE !== "string" || TITLE !== "Photonic Sun/Prismatic Moon") {
+		return "";
+	}
+
+	var baseName = String(pokemonName || "");
+	if (!/-Totem$/i.test(baseName)) {
+		return "";
+	}
+
+	var normalizedName = baseName
+		.replace(/-Totem$/i, "")
+		.replace(/-(Alola|Galar|Hisui)$/i, "")
+		.toLowerCase()
+		.replace(/[^a-z0-9]/g, "");
+
+	var knownTotems = ["raticate", "gumshoos", "araquanid", "marowak", "lurantis", "togedemaru", "mimikyu", "kommoo", "ribombee"];
+	for (var i = 0; i < knownTotems.length; i++) {
+		if (normalizedName.indexOf(knownTotems[i]) !== -1) {
+			return knownTotems[i];
+		}
+	}
+
+	return "";
+}
+
+function getPspmTotemBoosts(pokemonName) {
+	var boostKey = getPspmTotemBoostKey(pokemonName);
+	var omniBoostStats = ["at", "df", "sa", "sd", "sp"];
+
+	if (boostKey === "raticate" || boostKey === "gumshoos") {
+		return { df: 1 };
+	}
+	if (boostKey === "araquanid") {
+		return { sp: 2 };
+	}
+	if (boostKey === "marowak" || boostKey === "lurantis") {
+		return omniBoostStats.reduce(function(boosts, stat) {
+			boosts[stat] = 1;
+			return boosts;
+		}, {});
+	}
+	if (boostKey === "togedemaru" || boostKey === "mimikyu" || boostKey === "kommoo") {
+		return omniBoostStats.reduce(function(boosts, stat) {
+			boosts[stat] = 2;
+			return boosts;
+		}, {});
+	}
+	if (boostKey === "ribombee") {
+		return omniBoostStats.reduce(function(boosts, stat) {
+			boosts[stat] = 3;
+			return boosts;
+		}, {});
+	}
+
+	return null;
+}
+
+function applyPspmTotemBoosts(pokeObj, pokemonName) {
+	var boosts = getPspmTotemBoosts(pokemonName);
+	if (!boosts) {
+		return;
+	}
+
+	Object.keys(boosts).forEach(function(stat) {
+		pokeObj.find("." + stat + " .boost").val(boosts[stat]);
+	});
 }
 
 function syncControlsLittleEmeraldItemForme(pokeObj) {
@@ -1631,7 +1715,7 @@ function renderTrainerPreviewPok(next_pok) {
 		next_pok[5] = String(next_pok[5])
 	}
 
-	var pok_name = next_pok[0].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
+	var pok_name = getSpriteSpeciesName(next_pok[0].split(" (")[0]).toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
 	for (let n = 0; n < 4; n++) {
 		if (!next_pok[4][n]) {
 			next_pok[4][n] = ""
@@ -2193,7 +2277,7 @@ $(".set-selector").change(function () {
 		} else {
 			$('#trainer-sprite').hide()
 		}
-		var pokesprite = pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","").replace(":","-").replace(/-s$/, "")
+		var pokesprite = getSpriteSpeciesName(pokemonName).toLowerCase().replace(" ", "").replace(".","").replace("’","").replace(":","-").replace(/-s$/, "")
 
 		if (pokesprite.includes("galarian-")) {
 			pokesprite = pokesprite.split("galarian-")[1] +  "-galar"
@@ -2391,6 +2475,7 @@ $(".set-selector").change(function () {
 		}
 		
 		calcHP(pokeObj);
+		applyPspmTotemBoosts(pokeObj, pokemonName);
 		calcStats(pokeObj);
 		showAbilityExtras(abilityObj, true);
 		abilityObj.trigger('recalc')
@@ -2902,6 +2987,53 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			}
 		});
 	}
+}
+
+function isActiveImposterPokemon(pokemon) {
+	return Boolean(pokemon && pokemon.ability === "Imposter" && pokemon.abilityOn);
+}
+
+function cloneMoveForImposter(move) {
+	return move && typeof move.clone === "function" ? move.clone() : move;
+}
+
+function applyImposterTransform(pokemon, target) {
+	if (!isActiveImposterPokemon(pokemon) || !target) {
+		return pokemon;
+	}
+
+	var transformedStats = ["atk", "def", "spa", "spd", "spe"];
+	pokemon.moves = (target.moves || []).map(cloneMoveForImposter);
+
+	if (pokemon.species && pokemon.species.baseStats && target.species && target.species.baseStats) {
+		for (var i = 0; i < transformedStats.length; i++) {
+			var stat = transformedStats[i];
+			pokemon.species.baseStats[stat] = target.species.baseStats[stat];
+		}
+	}
+
+	for (var j = 0; j < transformedStats.length; j++) {
+		var stat = transformedStats[j];
+		if (pokemon.ivs && target.ivs) pokemon.ivs[stat] = target.ivs[stat];
+		if (pokemon.evs && target.evs) pokemon.evs[stat] = target.evs[stat];
+		if (pokemon.boosts && target.boosts) pokemon.boosts[stat] = target.boosts[stat];
+		if (pokemon.rawStats && target.rawStats) pokemon.rawStats[stat] = target.rawStats[stat];
+		if (pokemon.stats && target.stats) pokemon.stats[stat] = target.stats[stat];
+	}
+
+	pokemon.imposterTarget = target.name;
+	pokemon.preserveTransformedStatsOnClone = true;
+	return pokemon;
+}
+
+function applyActiveImposterTransforms(p1, p2) {
+	var p1Target = isActiveImposterPokemon(p1) && p2 && typeof p2.clone === "function" ? p2.clone() : p2;
+	var p2Target = isActiveImposterPokemon(p2) && p1 && typeof p1.clone === "function" ? p1.clone() : p1;
+
+	applyImposterTransform(p1, p1Target);
+	applyImposterTransform(p2, p2Target);
+
+	return [p1, p2];
 }
 
 function getGender(gender) {

@@ -239,6 +239,9 @@ function performCalculations() {
 	$("#resultHeaderL .result-move-header-label").text(p1.name + "'s Moves");
 	$("#resultHeaderR .result-move-header-label").text(p2.name + "'s Moves");
 	highlightMoves()
+	if (typeof syncAllResultCritStates === "function") {
+		syncAllResultCritStates();
+	}
 	if (typeof PlatinumMoveAiPreviewUI !== "undefined" && PlatinumMoveAiPreviewUI.refresh) {
 		PlatinumMoveAiPreviewUI.refresh();
 	}
@@ -490,6 +493,12 @@ function calculate_probabilities(results) {
 
 
 function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=true) {
+	if (typeof applyActiveImposterTransforms === "function") {
+		var transformedPokemon = applyActiveImposterTransforms(p1, p2);
+		p1 = transformedPokemon[0];
+		p2 = transformedPokemon[1];
+	}
+
 	var results = [[], []];
 	for (var i = 0; i < 4; i++) {
 		var p2MoveName = p2.moves[i] && p2.moves[i].name;

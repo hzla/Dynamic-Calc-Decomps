@@ -5703,6 +5703,40 @@ table.field {
         max-width: 100%;
     }
 
+    .panel-wrapper.mobile-dual-panel-layout .select2-container.set-selector {
+        display: block;
+        width: 100% !important;
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .select2-container.set-selector .select2-choice {
+        display: block;
+        width: 100% !important;
+        max-width: 100%;
+        padding: 0 28px 0 0;
+        border: 1px solid #bb86fc;
+        border-radius: 5px;
+        background: rgba(24,24,24,0.8);
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .select2-container.set-selector .select2-choice > .select2-chosen {
+        width: auto;
+        max-width: none;
+        margin-right: 0;
+        padding-left: 8px;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        font-size: 15px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .select2-container.set-selector .select2-choice .select2-arrow {
+        right: 4px;
+        border-left: 0;
+        background: transparent;
+    }
+
     .panel-wrapper.mobile-dual-panel-layout .player .select2-chosen,
     .panel-wrapper.mobile-dual-panel-layout .opposing .select2-chosen {
         padding-left: 8px;
@@ -5714,6 +5748,11 @@ table.field {
     .panel-wrapper.mobile-dual-panel-layout #p2 .select2-chosen {
         width: calc(100% - 28px);
         max-width: calc(100% - 28px);
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #p2 .select2-container.set-selector .select2-choice > .select2-chosen {
+        width: auto;
+        max-width: none;
     }
 
     .panel-wrapper.mobile-dual-panel-layout .select2-drop,

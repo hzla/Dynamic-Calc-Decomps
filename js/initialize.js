@@ -694,6 +694,20 @@ function setGameSettings(title) {
       })
     }
     $('label[for="snow"]').hide()
+  } else if (title == "Photonic Sun/Prismatic Moon") {
+    gameGen = 7
+    settings.gen = 7
+    settings.damageGen = 7
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 7;
+    }
+    settings.sourceType = "full"
+    settings.typeChart = 6;
+    settings.critGen = 7;
+    save_expansion = false
+    showDex = false;
+    showAI = false;
+    $('label[for="snow"]').hide()
   } else if (title == "Black/White" || title == "Black 2/White 2" || title == "Blaze Black/Volt White") {
     gameGen = 5
     settings.damageGen = 5
