@@ -3257,13 +3257,13 @@ table td {
     }
 
     #search-box {
-        flex: 1 1 calc(100% - 68px);
+        flex: 1 1 100%;
         min-width: 0;
         max-width: none;
     }
 
     #box-lvl-cap {
-        flex: 0 0 58px;
+        display: none !important;
     }
 
     #box-sort-select {
@@ -4171,12 +4171,18 @@ th {
 }
 
 
+
 /* pokemon info */
 .poke-info label {
     display: inline-block;
     width: 6em;
     text-align: left;
 }
+
+.poke-info .hp-cntrl label {
+    width: auto;
+}
+
 .top label, .info-selectors label {
     display: inline-block;
     width: 5em;
@@ -5177,6 +5183,10 @@ table.field {
     padding: 12px;
   }
 
+  .mobile-box-shortcut-level-cap {
+    display: none !important;
+  }
+
   .mobile-box-shortcut-section-title {
     font-size: 16px;
   }
@@ -5249,6 +5259,71 @@ table.field {
 
   .box-placeholder-card h2 {
     margin-bottom: 12px;
+  }
+
+  .trainer-pok-list.player-party:not(:empty) {
+    box-sizing: border-box;
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px 6px;
+    justify-content: initial;
+    align-items: start;
+    min-width: 0;
+    width: 100%;
+    overflow: visible;
+  }
+
+  .player-party .trainer-pok-container,
+  .player-party .trainer-pok-container:first-child {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .player-party .trainer-pok.left-side {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+
+  .player-party .trainer-pok-item {
+    top: 6px;
+    left: 6px;
+    width: 18px;
+  }
+
+  .player-party .nature-info,
+  .player-party .extra-info {
+    display: none !important;
+  }
+
+  .player-party .bp-info:not(.nature-info):not(.extra-info) {
+    display: none;
+  }
+
+  body.mobile-show-party-moves .player-party .bp-info:not(.nature-info):not(.extra-info) {
+    display: block;
+    overflow: hidden;
+    min-height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  body.mobile-hide-move-ui .panel-wrapper .move-bp,
+  body.mobile-hide-move-ui .panel-wrapper .move-type.calc-trigger {
+    display: none !important;
+  }
+
+  body.mobile-hide-move-ui .panel-wrapper .move-selector,
+  body.mobile-hide-move-ui .panel-wrapper .small-select.select2-container .select2-choice {
+    width: 100%;
   }
 }
 
@@ -5809,6 +5884,31 @@ table.field {
         line-height: 28px;
     }
 
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top label:has(+ .forme),
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top label:has(+ .gender),
+    .panel-wrapper.mobile-dual-panel-layout #levelL1Label {
+        font-size: 0;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top label:has(+ .forme)::after,
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top label:has(+ .gender)::after,
+    .panel-wrapper.mobile-dual-panel-layout #levelL1Label::after {
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top label:has(+ .forme)::after {
+        content: "Form";
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout .info-group.top label:has(+ .gender)::after {
+        content: "Gend";
+    }
+
+    .panel-wrapper.mobile-dual-panel-layout #levelL1Label::after {
+        content: attr(data-mobile-label);
+    }
+
     .panel-wrapper.mobile-dual-panel-layout .info-group.top select,
     .panel-wrapper.mobile-dual-panel-layout .info-group.top input {
         box-sizing: border-box;
@@ -5989,7 +6089,7 @@ table.field {
 
     .panel-wrapper.mobile-dual-panel-layout .info-group.hp-cntrl input {
         box-sizing: border-box;
-        width: 46px;
+        width: 32px;
         height: 26px;
         margin: 0;
         font-size: 13px;
@@ -6009,6 +6109,13 @@ table.field {
         gap: 4px;
         align-items: center;
         margin: 5px 0;
+    }
+
+    body.mobile-hide-move-ui .panel-wrapper.mobile-dual-panel-layout .move1,
+    body.mobile-hide-move-ui .panel-wrapper.mobile-dual-panel-layout .move2,
+    body.mobile-hide-move-ui .panel-wrapper.mobile-dual-panel-layout .move3,
+    body.mobile-hide-move-ui .panel-wrapper.mobile-dual-panel-layout .move4 {
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .panel-wrapper.mobile-dual-panel-layout .move-selector,

@@ -1532,7 +1532,16 @@ function setBigBlockCheckSum() {
 
 function addSaveBtn() {
     $('#download-sav').remove()
-    $('#read-save').after(`<button id="download-sav" class="bs-btn bs-btn-default" onClick='downloadSave()'>Download .sav</button>`)
+    var downloadButton = `<button type="button" id="download-sav" class="bs-btn bs-btn-default" onClick='downloadSave()'>Download .sav</button>`
+    var insertTarget = $('#read-save')
+    if (!insertTarget.length || !insertTarget.is(':visible')) {
+        insertTarget = $('#save-pok')
+    }
+    if (insertTarget.length) {
+        insertTarget.after(downloadButton)
+    } else {
+        $('#import-1_wrapper').append(downloadButton)
+    }
 }
 
 function encryptData(decryptedData, checksum, wordCount=64) {

@@ -7,10 +7,10 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?6bf15795" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?647e1dce" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?76f537b9" />
-    <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
+    <link type="text/css" rel="stylesheet" href="./css/encounters.css?2b1e290b" />
     <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?15f070fe" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?1" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/jquery.terminal-2.43.0.min.css?1" />
@@ -173,15 +173,6 @@
                 <span class="slider round"></span>
               </label>
             </div>
-            <div id="toggle-mobile-dual-panel" class="menu-item">
-              <div class="menu-label">
-                Mobile Dual Panel
-              </div>
-              <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-              </label>
-            </div>
             <div id="toggle-dex-species-modal" class="menu-item">
               <div class="menu-label">
                 Dex Overlay Mode
@@ -203,6 +194,35 @@
             <div id="toggle-hide-current-ai-mon" class="menu-item">
               <div class="menu-label">
                 Hide Current AI Mon
+              </div>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+
+            <div class="menu-section-header">Mobile Display</div>
+            <div id="toggle-mobile-dual-panel" class="menu-item">
+              <div class="menu-label">
+                Mobile Dual Panel
+              </div>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div id="toggle-mobile-party-moves" class="menu-item">
+              <div class="menu-label">
+                Show Party Moves
+              </div>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div id="toggle-mobile-move-ui" class="menu-item">
+              <div class="menu-label">
+                Show Move UI
               </div>
               <label class="switch">
                 <input type="checkbox">
@@ -678,7 +698,7 @@
                     <select class="gender calc-trigger"><option></option><option selected="selected">Male</option><option>Female</option></select>
                 </div>
                 <div class="level-cap-row">
-                    <label for="levelL1" id="levelL1Label">Level</label>
+                    <label for="levelL1" id="levelL1Label" data-mobile-label="Level">Level</label>
                     <input class="level calc-trigger" id="levelL1" value="100" type="number" />
                     <input type="number" id="panel-lvl-cap" class="panel-lvl-cap" inputmode="numeric" placeholder="Cap" aria-label="Level cap" hidden>
                 </div>
@@ -1026,7 +1046,7 @@
                 </div>
             </div>
             <div class="info-group hp-cntrl">
-                <label for="currentHpL1">Current HP</label>
+                <label for="currentHpL1">HP</label>
                 <input class="current-hp calc-trigger" id="currentHpL1" value="341" />/<span class="max-hp">341</span> (
                 <input class="percent-hp calc-trigger" value="100" />%)
                      <input class="visually-hidden max calc-trigger btn-input" type="checkbox" id="maxL" />
@@ -2176,7 +2196,7 @@
                 </div>
             </div>
             <div class="info-group hp-cntrl">
-                <label for="currentHpL1">Current HP</label>
+                <label for="currentHpL1">HP</label>
                 <input class="current-hp calc-trigger" id="currentHpL1" value="341" />/<span class="max-hp">341</span> (
                 <input class="percent-hp calc-trigger" value="100" />%)
                      <input class="visually-hidden max calc-trigger btn-input" type="checkbox" id="maxR" />
@@ -2504,7 +2524,7 @@
     
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?5d768378"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
-    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?f54a0813"></script>
+    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?46236be8"></script>
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?80043b43"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
@@ -2517,7 +2537,7 @@
     <script type="text/javascript" src="./js/calc_ui/dex.js?1ca7f334"></script>
     <script type="text/javascript" src="./js/unbound_adapter.js?20260501a"></script>
     <script type="text/javascript" src="./js/initialize.js?7ff96caf"></script>
-    <script type="text/javascript" src="./js/calc_ui/player_box.js?ad235364"></script>
+    <script type="text/javascript" src="./js/calc_ui/player_box.js?e9b817fd"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?aefe330f"></script>
@@ -2553,7 +2573,7 @@
     <script type="text/javascript" src="./js/savereaders/save_constants/g67_growths.js?f44de0d0"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/g67_pkhex_names.js?d195ce2f"></script>
     <script type="text/javascript" src="./js/savereaders/save_constants/orders.js?1007"></script>
-    <script type="text/javascript" src="./js/savereaders/savereader.js?b8f19acf"></script>
+    <script type="text/javascript" src="./js/savereaders/savereader.js?b0bd1678"></script>
     <script type="text/javascript" src="./js/savereaders/savereader_g3.js?26685c4c"></script>
     <script type="text/javascript" src="./js/savereaders/savereader_g6.js?5520713d"></script>
     <script type="text/javascript" src="./js/savereaders/savereader_g7.js?8eaeb732"></script>
@@ -2604,7 +2624,7 @@
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
     <script type="text/javascript" src="./js/shared_controls.js?30bfbe36"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?fb2f2fe6"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?9d62015a"></script>
+    <script type="text/javascript" src="./js/moveset_import.js?f4c08bea"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>
     <script type="text/javascript" src="./js/analytics/index.js?63b9ba20"></script>
     <script type="text/javascript" src="./js/bug_report.js?c5df082c"></script>
@@ -2641,7 +2661,7 @@
 
 <script>
   if (localStorage.switchInfo == '1' && !localStorage.alerted) {
-    alert("READ CAREFULLY!!!!!!!!! Switch in matchup info is an experimental feature and may be wrong. Rely on at your own risk! Make sure that your current HP matches your hp in game. Info assumes ai party pokemon are at full HP for calcing whether or not you win 1v1")
+    alert("READ CAREFULLY!!!!!!!!! Switch in matchup info is an experimental feature and may be wrong. Rely on at your own risk! Make sure that your HP matches your hp in game. Info assumes ai party pokemon are at full HP for calcing whether or not you win 1v1")
     localStorage.alerted = 1
   }
   

@@ -217,7 +217,7 @@ function setMoveAiPreviewSettingEnabled(enabled) {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-mobile-party-moves input, #toggle-mobile-move-ui input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -255,6 +255,12 @@ function setSettingsTogglesFromLocalStorage() {
     var savedMobileDualPanelLayout = localStorage.getItem('mobileDualPanelLayout')
     if (savedMobileDualPanelLayout == '1' || (savedMobileDualPanelLayout === null && window.innerWidth <= 960)) {
         $('#toggle-mobile-dual-panel input').prop('checked', true)
+    }
+    if (localStorage.mobileShowPartyMoves == '1') {
+        $('#toggle-mobile-party-moves input').prop('checked', true)
+    }
+    if (shouldShowMobileMoveUi()) {
+        $('#toggle-mobile-move-ui input').prop('checked', true)
     }
     if (localStorage.boxrolls == '1') {
         $('#toggle-boxroll input').prop('checked', true)
@@ -325,6 +331,8 @@ function setSettingsTogglesFromLocalStorage() {
     applyPlatinumReduxTypeChartVisibility()
     applyTrainerPreviewExpBarVisibility()
     applyHideCurrentAiMonVisibility()
+    applyMobilePartyMovesPreference()
+    applyMobileMoveUiPreference()
 }
 
 function isImperiumTitle() {
@@ -550,6 +558,22 @@ function applyHideCurrentAiMonVisibility() {
     $('#toggle-hide-current-ai-mon').toggle(canShowHideCurrentAiMonToggle())
 }
 
+function shouldShowMobilePartyMoves() {
+    return localStorage.mobileShowPartyMoves == '1'
+}
+
+function applyMobilePartyMovesPreference() {
+    $('body').toggleClass('mobile-show-party-moves', shouldShowMobilePartyMoves())
+}
+
+function shouldShowMobileMoveUi() {
+    return localStorage.mobileShowMoveUi !== '0'
+}
+
+function applyMobileMoveUiPreference() {
+    $('body').toggleClass('mobile-hide-move-ui', !shouldShowMobileMoveUi())
+}
+
 function syncAutoImportMegaToggles() {
     var enabled = localStorage.autoImportMegas == '1'
     $('#toggle-auto-import-megas input').prop('checked', enabled)
@@ -574,6 +598,16 @@ $('#toggle-mobile-dual-panel input').on('change', function(){
     if (typeof applyMobileDualPanelPreference === "function") {
         applyMobileDualPanelPreference()
     }
+})
+
+$('#toggle-mobile-party-moves input').on('change', function(){
+    localStorage.mobileShowPartyMoves = $(this).prop('checked') ? '1' : '0'
+    applyMobilePartyMovesPreference()
+})
+
+$('#toggle-mobile-move-ui input').on('change', function(){
+    localStorage.mobileShowMoveUi = $(this).prop('checked') ? '1' : '0'
+    applyMobileMoveUiPreference()
 })
 
 $('#toggle-boxroll .slider').click(function(){

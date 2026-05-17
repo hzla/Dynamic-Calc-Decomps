@@ -680,12 +680,17 @@ $("#exportL").click(function () {
 });
 
 $('#save-pok').click(function () {
+	var updatedWritableSave = false;
+	if (typeof hasWritableDsSaveForCurrentSelection === "function" && hasWritableDsSaveForCurrentSelection()) {
+		updatedWritableSave = updatePartyPKMN() === true;
+	}
+
 	ExportPokemon($("#p1"));
 	$('#import').click()
 	$(this).text("Saved!")
 
-	if (typeof hasWritableDsSaveForCurrentSelection === "function" && hasWritableDsSaveForCurrentSelection()) {
-		updatePartyPKMN()
+	if (updatedWritableSave && typeof addSaveBtn === "function") {
+		addSaveBtn()
 	}
 
 

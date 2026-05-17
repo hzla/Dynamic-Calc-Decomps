@@ -78,5 +78,59 @@ html.old, body.old {
     margin-left: 20px;
 }
 
+@media (width <= 960px) {
+    .old .wrapper {
+        box-sizing: border-box;
+        width: 100vw;
+        max-width: 100vw;
+        min-width: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+    .old .panel-wrapper {
+        box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
+    }
 
+    .old .panel-wrapper.mobile-dual-panel-layout .mobile-side-panel,
+    .old .panel-wrapper.mobile-dual-panel-layout .panel:not(.panel-mid) {
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+    }
+
+    .old .panel-wrapper:not(.mobile-dual-panel-layout) .mobile-side-panel {
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+    }
+
+    .old .panel-wrapper .panel.panel-mid {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .old .panel-wrapper .poke-info {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .old #footer {
+        max-width: 100vw;
+        margin-left: 0;
+    }
+}

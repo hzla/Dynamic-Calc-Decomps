@@ -1360,7 +1360,9 @@ function syncMobileBoxShortcutLevelCap() {
     wrapper.prop('hidden', !shouldShow)
     boxInput.prop('hidden', !shouldShow)
     panelInput.prop('hidden', !shouldShow)
-    levelLabel.text(shouldShow ? 'Level/Cap' : 'Level')
+    levelLabel
+        .text(shouldShow ? 'Level/Cap' : 'Level')
+        .attr('data-mobile-label', shouldShow ? 'Lvl/Cp' : 'Level')
     if (shouldShow) {
         mobileInput.val(source.val())
         boxInput.val(source.val())
