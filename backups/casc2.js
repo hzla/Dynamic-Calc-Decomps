@@ -261,10 +261,10 @@ backup_data = {
       "type": "Fighting",
       "basePower": 80,
       "category": "Physical",
-      "pp": 5,
+      "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 276,
+      "e_id": 140,
       "sf": true,
       "flags": {
         "punch": true
@@ -2991,7 +2991,7 @@ backup_data = {
     "Supercell Slam": {
       "type": "Electric",
       "basePower": 130,
-      "category": "physical",
+      "category": "Physical",
       "pp": 10,
       "accuracy": 90,
       "priority": 0,
@@ -4811,7 +4811,7 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 276,
+      "e_id": 140,
       "sf": true
     },
     "Wood Hammer": {
@@ -5839,7 +5839,7 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 276,
+      "e_id": 140,
       "sf": true
     },
     "Meteor Beam": {
@@ -9136,7 +9136,7 @@ backup_data = {
           ],
           [
             1,
-            "Peck"
+            "Chip Away"
           ],
           [
             5,
@@ -9152,7 +9152,7 @@ backup_data = {
           ],
           [
             13,
-            "Chip Away"
+            "Brutal Swing"
           ],
           [
             17,
@@ -9180,7 +9180,7 @@ backup_data = {
           ],
           [
             37,
-            "Hone Claws"
+            "U-turn"
           ],
           [
             40,
@@ -9323,7 +9323,7 @@ backup_data = {
           ],
           [
             13,
-            "Chip Away"
+            "Brutal Swing"
           ],
           [
             17,
@@ -9351,7 +9351,7 @@ backup_data = {
           ],
           [
             37,
-            "Hone Claws"
+            "U-turn"
           ],
           [
             40,
@@ -56507,11 +56507,11 @@ backup_data = {
           ],
           [
             17,
-            "Chatter"
+            "Swift"
           ],
           [
             20,
-            "Stompin Tantrum"
+            "Chatter"
           ],
           [
             22,
@@ -56678,11 +56678,11 @@ backup_data = {
           ],
           [
             17,
-            "Chatter"
+            "Swift"
           ],
           [
             20,
-            "Stompin Tantrum"
+            "Chatter"
           ],
           [
             22,
@@ -56871,11 +56871,11 @@ backup_data = {
           ],
           [
             17,
-            "Chatter"
+            "Swift"
           ],
           [
             20,
-            "Stompin Tantrum"
+            "Chatter"
           ],
           [
             22,
@@ -62555,12 +62555,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 95,
-        "at": 95,
-        "df": 95,
-        "sa": 95,
-        "sd": 95,
-        "sp": 95
+        "hp": 90,
+        "at": 90,
+        "df": 90,
+        "sa": 90,
+        "sd": 90,
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -62618,7 +62618,7 @@ backup_data = {
           ],
           [
             34,
-            "Teeter Dance"
+            "U-turn"
           ],
           [
             37,
@@ -62634,7 +62634,7 @@ backup_data = {
           ],
           [
             42,
-            "Crush Claw"
+            "Teeter Dance"
           ],
           [
             45,
@@ -75302,7 +75302,7 @@ backup_data = {
           ],
           [
             25,
-            "Lunge"
+            "U-turn"
           ],
           [
             27,
@@ -91483,7 +91483,7 @@ backup_data = {
           ],
           [
             1,
-            "Ember"
+            "Flame Charge"
           ],
           [
             7,
@@ -124245,7 +124245,7 @@ backup_data = {
     "Swalot": {
       "Lvl 50 Linebacker Dan ": {
         "level": 50,
-        "ai": 143,
+        "ai": 15,
         "noCh": false,
         "tr_id": 2,
         "ivs": {
@@ -124371,7 +124371,7 @@ backup_data = {
     "Muk": {
       "Lvl 50 Linebacker Dan ": {
         "level": 50,
-        "ai": 143,
+        "ai": 15,
         "noCh": false,
         "tr_id": 2,
         "ivs": {
@@ -124389,8 +124389,8 @@ backup_data = {
         "moves": [
           "Mirror Coat",
           "Counter",
-          "",
-          ""
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
         "ability": "Strong Body",
@@ -124402,7 +124402,7 @@ backup_data = {
       },
       "Lvl 61 Scientist Simon ": {
         "level": 61,
-        "ai": 5,
+        "ai": 15,
         "noCh": false,
         "tr_id": 99,
         "ivs": {
@@ -124559,7 +124559,7 @@ backup_data = {
     "Mightyena": {
       "Lvl 50 Linebacker Dan ": {
         "level": 50,
-        "ai": 143,
+        "ai": 15,
         "noCh": false,
         "tr_id": 2,
         "ivs": {
@@ -124572,13 +124572,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Potion",
-        "item": "-",
+        "item": "None",
         "nature": "Jolly",
         "moves": [
           "Growl",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Intimidate",
@@ -124640,7 +124640,7 @@ backup_data = {
           "Beat Up",
           "Pursuit",
           "Poison Fang",
-          "Sing"
+          "Glare"
         ],
         "sub_index": 4,
         "ability": "Intimidate",
@@ -125181,7 +125181,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Johto Leader Morty ": {
+      "Lvl 53 Johto Leader Morty - Celestial Tower": {
         "level": 53,
         "ai": 143,
         "noCh": false,
@@ -132076,9 +132076,9 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Relic Song",
-          "",
-          "",
-          ""
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 2,
         "ability": "Pixilate",
@@ -137241,8 +137241,8 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Shell Bell",
-        "nature": "Docile",
+        "item": "Oran Berry",
+        "nature": "Bold",
         "moves": [
           "Secret Power",
           "Covet",
@@ -143263,7 +143263,7 @@ backup_data = {
           "Circle Throw",
           "Thrash",
           "Rolling Kick",
-          ""
+          "-----"
         ],
         "sub_index": 3,
         "ability": "Patient",
@@ -147965,37 +147965,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Scientist Marie - Route 15": {
-        "level": 60,
-        "ai": 5,
-        "noCh": false,
-        "tr_id": 654,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Adamant",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Weak Armor",
-        "sprite": "trainer_sprites/scientistf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 39 Team Plasma Grunt45 ": {
         "level": 39,
         "ai": 129,
@@ -148985,7 +148954,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Red Card",
-        "nature": "Lonely",
+        "nature": "Serious",
         "moves": [
           "Dragon Tail",
           "Shadow Punch",
@@ -149252,7 +149221,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Johto Leader Morty ": {
+      "Lvl 52 Johto Leader Morty - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -149278,6 +149247,37 @@ backup_data = {
         "sub_index": 0,
         "ability": "Shadow Tag",
         "sprite": "trainer_sprites/johtoleader.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Scientist Hughes - Route 15": {
+        "level": 51,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 654,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Leftovers",
+        "nature": "Docile",
+        "moves": [
+          "Ominous Wind",
+          "Aura Sphere",
+          "Mean Look",
+          "Rest"
+        ],
+        "sub_index": 3,
+        "ability": "Shed Skin",
+        "sprite": "trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -149378,7 +149378,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Johto Leader Morty ": {
+      "Lvl 52 Johto Leader Morty - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -158400,6 +158400,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 13 Rival Benga2 - Starter 3": {
+        "level": 13,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 202,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Gentle",
+        "moves": [
+          "Breaking Swipe",
+          "Stomp",
+          "Secret Power",
+          "Incinerate"
+        ],
+        "sub_index": 3,
+        "ability": "Rough Skin",
+        "sprite": "trainer_sprites/benga.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 59 Preschooler Samantha ": {
         "level": 59,
         "ai": 0,
@@ -158433,7 +158464,7 @@ backup_data = {
       },
       "Lvl 13 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 13,
-        "ai": 143,
+        "ai": 0,
         "noCh": true,
         "tr_id": 772,
         "ivs": {
@@ -160121,7 +160152,7 @@ backup_data = {
     "Stunky": {
       "Lvl 61 Scientist Simon ": {
         "level": 61,
-        "ai": 5,
+        "ai": 15,
         "noCh": false,
         "tr_id": 99,
         "ivs": {
@@ -166704,6 +166735,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 13 Rival Benga2 - Starter 3": {
+        "level": 13,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 202,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Timid",
+        "moves": [
+          "Flame Charge",
+          "Struggle Bug",
+          "Mega Drain",
+          "Electroweb"
+        ],
+        "sub_index": 2,
+        "ability": "Flame Body",
+        "sprite": "trainer_sprites/benga.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 39 PkMn Ranger Dianne - Route 13": {
         "level": 39,
         "ai": 135,
@@ -166737,7 +166799,7 @@ backup_data = {
       },
       "Lvl 13 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 13,
-        "ai": 143,
+        "ai": 0,
         "noCh": true,
         "tr_id": 772,
         "ivs": {
@@ -169206,6 +169268,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 51 Scientist Hughes - Route 15": {
+        "level": 51,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 654,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Light Clay",
+        "nature": "Hardy",
+        "moves": [
+          "Extrasensory",
+          "Me First",
+          "Reflect",
+          "Light Screen"
+        ],
+        "sub_index": 0,
+        "ability": "Magic Guard",
+        "sprite": "trainer_sprites/scientist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 41 Doctor Heath - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
@@ -169582,9 +169675,9 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Scientist Marie - Route 15": {
-        "level": 60,
-        "ai": 5,
+      "Lvl 51 Scientist Hughes - Route 15": {
+        "level": 51,
+        "ai": 15,
         "noCh": false,
         "tr_id": 654,
         "ivs": {
@@ -169595,19 +169688,19 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Singles",
+        "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "-",
-        "nature": "Lax",
+        "item": "Scope Lens",
+        "nature": "Quiet",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Charge Beam",
+          "Magnet Bomb",
+          "Uproar",
+          "Signal Beam"
         ],
-        "sub_index": 2,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/scientistf.png",
+        "sub_index": 1,
+        "ability": "Levitate",
+        "sprite": "trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -172427,12 +172520,12 @@ backup_data = {
         "nature": "Lonely",
         "moves": [
           "Surf",
-          "Work Up",
-          "Rock Smash",
-          "Secret Power"
+          "Aqua Jet",
+          "Slash",
+          "Mirror Coat"
         ],
         "sub_index": 1,
-        "ability": "Defiant",
+        "ability": "Drizzle",
         "sprite": "trainer_sprites/cheren.png",
         "form": 0,
         "evs": {
@@ -172519,15 +172612,15 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Occa Berry",
-        "nature": "Relaxed",
+        "nature": "Naughty",
         "moves": [
           "Leaf Blade",
-          "Secret Power",
+          "Acrobatics",
           "Shock Wave",
-          "Work Up"
+          "Glare"
         ],
         "sub_index": 2,
-        "ability": "Adaptability",
+        "ability": "Anticipation",
         "sprite": "trainer_sprites/cheren.png",
         "form": 0,
         "evs": {
@@ -172616,13 +172709,13 @@ backup_data = {
         "item": "Passho Berry",
         "nature": "Quiet",
         "moves": [
-          "Secret Power",
+          "Flame Charge",
           "Flamethrower",
-          "Bite",
+          "Take Down",
           "Work Up"
         ],
         "sub_index": 3,
-        "ability": "Sheer Force",
+        "ability": "Drought",
         "sprite": "trainer_sprites/cheren.png",
         "form": 0,
         "evs": {
@@ -173029,8 +173122,8 @@ backup_data = {
         "moves": [
           "Hex",
           "Will-O-Wisp",
-          "Thunder Wave",
-          "Shock Wave"
+          "Toxic",
+          "Electroweb"
         ],
         "sub_index": 2,
         "ability": "Levitate",
@@ -173151,12 +173244,12 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Modest",
+        "nature": "Docile",
         "moves": [
           "Infernal Parade",
           "Smog",
           "Explosion",
-          "Toxic Spikes"
+          "Sing"
         ],
         "sub_index": 3,
         "ability": "Levitate",
@@ -174415,6 +174508,37 @@ backup_data = {
         "sub_index": 1,
         "ability": "Solid Rock",
         "sprite": "trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Scientist Hughes - Route 15": {
+        "level": 51,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 654,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Weakness Policy",
+        "nature": "Mild",
+        "moves": [
+          "Rock Slide",
+          "Waterfall",
+          "Crunch",
+          "Bulk Up"
+        ],
+        "sub_index": 2,
+        "ability": "Solid Rock",
+        "sprite": "trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -180843,37 +180967,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 80 Rival Benga2 - Starter 3": {
-        "level": 80,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 202,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Lax",
-        "moves": [
-          "Fire Blast",
-          "Bug Buzz",
-          "Psychic",
-          "Quiver Dance"
-        ],
-        "sub_index": 2,
-        "ability": "Blaze",
-        "sprite": "trainer_sprites/benga.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 59 PkMn Trainer Alder ": {
         "level": 59,
         "ai": 143,
@@ -180906,10 +180999,10 @@ backup_data = {
         }
       }
     },
-    "Latios": {
-      "Lvl 80 Rival Benga2 - Starter 3": {
-        "level": 80,
-        "ai": 7,
+    "Bronzor": {
+      "Lvl 12 Rival Benga2 - Starter 3": {
+        "level": 12,
+        "ai": 143,
         "noCh": false,
         "tr_id": 202,
         "ivs": {
@@ -180920,15 +181013,15 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Singles",
+        "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "White Herb",
-        "nature": "Lonely",
+        "item": "None",
+        "nature": "Relaxed",
         "moves": [
-          "Draco Meteor",
-          "Psychic",
-          "Icy Wind",
-          "Thunderbolt"
+          "Telekinesis",
+          "Water Pulse",
+          "Metal Sound",
+          "Confuse Ray"
         ],
         "sub_index": 0,
         "ability": "Levitate",
@@ -180938,11 +181031,11 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 80 Boss Trainer Janna ": {
-        "level": 80,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 505,
+      "Lvl 12 Rival Benga5 - Floccesy Ranch - Starter 3": {
+        "level": 12,
+        "ai": 0,
+        "noCh": true,
+        "tr_id": 772,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -180951,29 +181044,29 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Singles",
+        "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "White Herb",
-        "nature": "Hardy",
+        "item": "-",
+        "nature": "Relaxed",
         "moves": [
-          "Draco Meteor",
-          "Psychic",
-          "Icy Wind",
-          "Thunderbolt"
+          "Metal Sound",
+          "Confuse Ray",
+          "Telekinesis",
+          "Water Pulse"
         ],
-        "sub_index": 2,
-        "ability": " ",
-        "sprite": "trainer_sprites/bosstrainer.png",
+        "sub_index": 0,
+        "ability": "Levitate",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       }
     },
-    "Garchomp": {
-      "Lvl 80 Rival Benga2 - Starter 3": {
-        "level": 80,
-        "ai": 7,
+    "Seedot": {
+      "Lvl 12 Rival Benga2 - Starter 3": {
+        "level": 12,
+        "ai": 143,
         "noCh": false,
         "tr_id": 202,
         "ivs": {
@@ -180984,91 +181077,29 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Singles",
+        "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Careful",
+        "item": "None",
+        "nature": "Docile",
         "moves": [
-          "Outrage",
-          "Earthquake",
-          "Fire Blast",
-          "Stone Edge"
+          "Fake Out",
+          "Bullet Seed",
+          "Foul Play",
+          "Sweet Scent"
         ],
         "sub_index": 1,
-        "ability": "Strong Body",
+        "ability": "Shell Armor",
         "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 58 Rival Benga3 - Starter 3": {
-        "level": 58,
-        "ai": 143,
+      "Lvl 60 Backpacker Talon - Route 15": {
+        "level": 60,
+        "ai": 1,
         "noCh": false,
-        "tr_id": 234,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Lax",
-        "moves": [
-          "Dual Chop",
-          "Iron Tail",
-          "Rock Slide",
-          "Fire Blast"
-        ],
-        "sub_index": 0,
-        "ability": "Mold Breaker",
-        "sprite": "trainer_sprites/benga.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 58 Rival Benga4 - Starter 3": {
-        "level": 58,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 237,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Potion",
-        "item": "Sitrus Berry",
-        "nature": "Modest",
-        "moves": [
-          "Dual Chop",
-          "Iron Tail",
-          "Rock Slide",
-          "Fire Blast"
-        ],
-        "sub_index": 0,
-        "ability": "Mold Breaker",
-        "sprite": "trainer_sprites/benga.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 78 PkMn Trainer Cynthia ": {
-        "level": 78,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 456,
+        "tr_id": 655,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -181080,16 +181111,47 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Bashful",
+        "nature": "Naive",
         "moves": [
-          "Dragon Rush",
-          "Earthquake",
-          "Stone Edge",
-          "Fire Blast"
+          "",
+          "",
+          "",
+          ""
         ],
-        "sub_index": 5,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/cynthia.png",
+        "sub_index": 0,
+        "ability": "Shell Armor",
+        "sprite": "trainer_sprites/backpacker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 12 Rival Benga5 - Floccesy Ranch - Starter 3": {
+        "level": 12,
+        "ai": 0,
+        "noCh": true,
+        "tr_id": 772,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Quirky",
+        "moves": [
+          "Fake Out",
+          "Bullet Seed",
+          "Foul Play",
+          "Sweet Scent"
+        ],
+        "sub_index": 1,
+        "ability": "Shell Armor",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -185103,41 +185165,10 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 51 Ace Trainer Geoff - Mistralton Cave": {
-        "level": 51,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 682,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Tera Leftovers",
-        "nature": "Quiet",
-        "moves": [
-          "Earth Power",
-          "Flash Cannon",
-          "Ancient Power",
-          "Zap Cannon"
-        ],
-        "sub_index": 3,
-        "ability": "Sand Force",
-        "sprite": "trainer_sprites/acetrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Dustox": {
-      "Lvl 52 Johto Leader Morty ": {
+      "Lvl 52 Johto Leader Morty - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -185232,7 +185263,7 @@ backup_data = {
       }
     },
     "Stantler": {
-      "Lvl 52 Johto Leader Morty ": {
+      "Lvl 52 Johto Leader Morty - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -186206,6 +186237,101 @@ backup_data = {
         }
       }
     },
+    "Garchomp": {
+      "Lvl 58 Rival Benga3 - Starter 3": {
+        "level": 58,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 234,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Lax",
+        "moves": [
+          "Dual Chop",
+          "Iron Tail",
+          "Rock Slide",
+          "Fire Blast"
+        ],
+        "sub_index": 0,
+        "ability": "Mold Breaker",
+        "sprite": "trainer_sprites/benga.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 58 Rival Benga4 - Starter 3": {
+        "level": 58,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 237,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Potion",
+        "item": "Sitrus Berry",
+        "nature": "Modest",
+        "moves": [
+          "Dual Chop",
+          "Iron Tail",
+          "Rock Slide",
+          "Fire Blast"
+        ],
+        "sub_index": 0,
+        "ability": "Mold Breaker",
+        "sprite": "trainer_sprites/benga.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 78 PkMn Trainer Cynthia ": {
+        "level": 78,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 456,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bashful",
+        "moves": [
+          "Dragon Rush",
+          "Earthquake",
+          "Stone Edge",
+          "Fire Blast"
+        ],
+        "sub_index": 5,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/cynthia.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Venusaur": {
       "Lvl 57 Rival Benga3 - Starter 3": {
         "level": 57,
@@ -186540,7 +186666,7 @@ backup_data = {
           "Heat Wave",
           "Thunder",
           "Body Press",
-          "Sludge Wave"
+          "Smog"
         ],
         "sub_index": 3,
         "ability": "Levitate",
@@ -188313,6 +188439,37 @@ backup_data = {
         "sub_index": 3,
         "ability": "Sand Rush",
         "sprite": "trainer_sprites/pokemonranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Ace Trainer Geoff - Mistralton Cave": {
+        "level": 51,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 682,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Tera Leftovers",
+        "nature": "Quiet",
+        "moves": [
+          "Hyper Voice",
+          "Scorching Sands",
+          "Weather Ball",
+          "Petal Dance"
+        ],
+        "sub_index": 3,
+        "ability": "Sand Rush",
+        "sprite": "trainer_sprites/acetrainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -191015,9 +191172,9 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 15 Preschooler Buster - Route 3": {
+      "Lvl 15 Preschooler Buster - Route 20": {
         "level": 15,
-        "ai": 0,
+        "ai": 15,
         "noCh": false,
         "tr_id": 396,
         "ivs": {
@@ -191757,16 +191914,16 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Smooth Rock",
-        "nature": "Mild",
+        "item": "Safety Goggles",
+        "nature": "Jolly",
         "moves": [
-          "Leaf Storm",
+          "Bullet Seed",
           "Phantom Strike",
           "Weather Crash",
           "Spikes"
         ],
         "sub_index": 0,
-        "ability": "Sand Rush",
+        "ability": "Technician",
         "sprite": "trainer_sprites/acetrainer.png",
         "form": 0,
         "evs": {
@@ -195536,9 +195693,9 @@ backup_data = {
       }
     },
     "Horsea": {
-      "Lvl 15 Preschooler Buster - Route 3": {
+      "Lvl 15 Preschooler Buster - Route 20": {
         "level": 15,
-        "ai": 0,
+        "ai": 15,
         "noCh": false,
         "tr_id": 396,
         "ivs": {
@@ -195569,9 +195726,9 @@ backup_data = {
       }
     },
     "Kabuto": {
-      "Lvl 15 Preschooler Buster - Route 3": {
+      "Lvl 15 Preschooler Buster - Route 20": {
         "level": 15,
-        "ai": 0,
+        "ai": 15,
         "noCh": false,
         "tr_id": 396,
         "ivs": {
@@ -195633,9 +195790,9 @@ backup_data = {
       }
     },
     "Grotle": {
-      "Lvl 16 Preschooler Buster - Route 3": {
+      "Lvl 16 Preschooler Buster - Route 20": {
         "level": 16,
-        "ai": 0,
+        "ai": 15,
         "noCh": false,
         "tr_id": 396,
         "ivs": {
@@ -198091,6 +198248,39 @@ backup_data = {
         }
       }
     },
+    "Latios": {
+      "Lvl 80 Boss Trainer Janna ": {
+        "level": 80,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 505,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "White Herb",
+        "nature": "Hardy",
+        "moves": [
+          "Draco Meteor",
+          "Psychic",
+          "Icy Wind",
+          "Thunderbolt"
+        ],
+        "sub_index": 2,
+        "ability": " ",
+        "sprite": "trainer_sprites/bosstrainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Victini": {
       "Lvl 59 Alder's partner Victini - Clay Tunnel": {
         "level": 59,
@@ -200246,103 +200436,6 @@ backup_data = {
         }
       }
     },
-    "Gulpin": {
-      "Lvl 60 Scientist Marie - Route 15": {
-        "level": 60,
-        "ai": 5,
-        "noCh": false,
-        "tr_id": 654,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Docile",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Gourmand",
-        "sprite": "trainer_sprites/scientistf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Seedot": {
-      "Lvl 60 Backpacker Talon - Route 15": {
-        "level": 60,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 655,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Naive",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Shell Armor",
-        "sprite": "trainer_sprites/backpacker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 12 Rival Benga5 - Floccesy Ranch - Starter 3": {
-        "level": 12,
-        "ai": 143,
-        "noCh": true,
-        "tr_id": 772,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Quirky",
-        "moves": [
-          "Fake Out",
-          "Bullet Seed",
-          "Foul Play",
-          "Sweet Scent"
-        ],
-        "sub_index": 1,
-        "ability": "Shell Armor",
-        "sprite": "trainer_sprites/benga.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Cacnea": {
       "Lvl 60 Backpacker Talon - Route 15": {
         "level": 60,
@@ -201123,39 +201216,6 @@ backup_data = {
         }
       }
     },
-    "Bronzor": {
-      "Lvl 12 Rival Benga5 - Floccesy Ranch - Starter 3": {
-        "level": 12,
-        "ai": 143,
-        "noCh": true,
-        "tr_id": 772,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Relaxed",
-        "moves": [
-          "Metal Sound",
-          "Confuse Ray",
-          "Telekinesis",
-          "Water Pulse"
-        ],
-        "sub_index": 0,
-        "ability": "Levitate",
-        "sprite": "trainer_sprites/benga.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Cascoon": {
       "Lvl 60 Youngster Henley ": {
         "level": 60,
@@ -201397,15 +201457,10 @@ backup_data = {
       "next": 176,
       "prev": 173
     },
-    "396": {
-      "id": 396,
-      "next": 176,
-      "prev": 174
-    },
      "176": {
       "id": 176,
       "next": 175,
-      "prev": 396
+      "prev": 174
     },
      "175": {
       "id": 175,
@@ -202159,13 +202214,18 @@ backup_data = {
     },
      "570": {
       "id": 570,
-      "next": 634,
+      "next": 654,
       "prev": 569
+    },
+    "654": {
+      "id": 654,
+      "next": 634,
+      "prev": 570
     },
      "634": {
       "id": 634,
       "next": 372,
-      "prev": 570
+      "prev": 654
     },
      "372": {
       "id": 372,
@@ -202272,15 +202332,21 @@ backup_data = {
       "next": 680,
       "prev": 489
     },
-        "680": {
+    "680": {
       "id": 680,
-      "next": 227,
+      "next": 682,
       "prev": 681
     },
-        "227": {
+    "682": {
+      "id": 682,
+      "next": 227,
+      "prev": 680
+    },
+
+    "227": {
       "id": 227,
       "next": 683,
-      "prev": 680
+      "prev": 682
     },
         "683": {
       "id": 683,
