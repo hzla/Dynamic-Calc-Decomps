@@ -821,15 +821,15 @@ function setGameSettings(title) {
     $('label[for="snow"]').hide()
     $('label[for="fog"]').show()
   } else if (title == "Blaze Black 2/Volt White 2 Redux") {
-    gameGen = 8
-    settings.damageGen = 8
+    gameGen = 5
+    settings.damageGen = 5
     if (!settings.noSwitch) {
       settings.gameSwitchIn = 5;
       settings.switchIn = 5;
     }
     settings.sourceType = "full"
     settings.typeChart = 6;
-    settings.critGen = 8;
+    settings.critGen = 5;
     save_expansion = false
     showDex = true;
     showAI = true;
