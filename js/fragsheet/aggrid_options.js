@@ -2,16 +2,50 @@ params = new URLSearchParams(window.location.search);
 let fragsheetGridInitialized = false;
 let globalSeenTrainers = {};
 SOURCES = window.romhackSourceTitles || {}
+const DEFAULT_FRAGSHEET_SPLIT_DATA = {
+    "lvls": [Number.POSITIVE_INFINITY],
+    "titles": ["All"],
+    "types": []
+}
+let hasDetailedSplitData = true;
 
-function initializeSplits() {
-    TITLE = SOURCES[params.get('data')]
-    $('#sheet-title').text(`${TITLE} Sheet`)
-    splitTitles = splitData[TITLE]["titles"]
-    for (title in splitTitles) {
-        $(`#split-${parseInt(title)}-tab`).text(`${splitTitles[title]}`)
+function getFragsheetSplitData(title) {
+    if (typeof splitData !== "object" || !splitData) {
+        return DEFAULT_FRAGSHEET_SPLIT_DATA;
     }
 
-    lvlcaps = splitData[TITLE]["lvls"]
+    if (splitData[title]) {
+        return splitData[title];
+    }
+
+    const matchingTitle = Object.keys(splitData)
+        .sort((left, right) => right.length - left.length)
+        .find((knownTitle) => typeof title === "string" && title.includes(knownTitle));
+
+    return matchingTitle ? splitData[matchingTitle] : DEFAULT_FRAGSHEET_SPLIT_DATA;
+}
+
+function syncSplitTabVisibility(splitConfig) {
+    const splitTitles = Array.isArray(splitConfig && splitConfig["titles"]) ? splitConfig["titles"] : [];
+    hasDetailedSplitData = splitConfig !== DEFAULT_FRAGSHEET_SPLIT_DATA;
+
+    $('#all-tab').toggle(hasDetailedSplitData);
+    for (let splitIndex = 0; splitIndex < 9; splitIndex++) {
+        const hasSplit = hasDetailedSplitData && typeof splitTitles[splitIndex] !== "undefined";
+        $(`#split-${splitIndex}-tab`)
+            .toggle(hasSplit)
+            .text(hasSplit ? `${splitTitles[splitIndex]}` : "");
+    }
+}
+
+function initializeSplits() {
+    TITLE = SOURCES[params.get('data')] || TITLE
+    $('#sheet-title').text(`${TITLE} Sheet`)
+    const splitConfig = getFragsheetSplitData(TITLE)
+    splitTitles = splitConfig["titles"]
+    syncSplitTabVisibility(splitConfig)
+
+    lvlcaps = splitConfig["lvls"]
     if (typeof localStorage.encounters != "undefined" && localStorage.encounters != "") {
 
         encounters = JSON.parse(localStorage.encounters)
@@ -1183,7 +1217,7 @@ function ensureFragsheetGridInitialized() {
         return null;
     }
 
-    if (typeof TITLE !== "string" || !splitData[TITLE]) {
+    if (typeof TITLE !== "string") {
         return null;
     }
 
