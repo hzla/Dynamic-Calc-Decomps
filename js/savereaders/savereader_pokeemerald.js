@@ -1,4 +1,4 @@
-if (TITLE.includes("Imperium")) {
+if (typeof TITLE === "string" && TITLE.includes("Imperium")) {
     let fileHandle = null;
     let lastContents = null;
     let file = null

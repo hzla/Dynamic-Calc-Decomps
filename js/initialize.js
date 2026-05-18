@@ -59,6 +59,10 @@ const mastersheetSourcesByTitle = {
 const PLATINUM_REDUX_TYPE_CHART = 9;
 const PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY = "platinumReduxTypeChart";
 
+function getRuntimeTitle(fallback = BLANK_DEV_TITLE) {
+    return typeof TITLE === "string" && TITLE ? TITLE : fallback;
+}
+
 function setCascadeFieldEffectsEnabled(enabled) {
     $('.cascade-effects')
         .toggleClass('cascade-effects-enabled', Boolean(enabled))
@@ -66,8 +70,9 @@ function setCascadeFieldEffectsEnabled(enabled) {
         .css('display', '')
 }
 
-function isPlatinumReduxTitle(title = TITLE) {
-    return typeof title === "string" && title.includes("Platinum Redux");
+function isPlatinumReduxTitle(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle("");
+    return resolvedTitle.includes("Platinum Redux");
 }
 
 function isPlatinumReduxTypeChartEnabled() {
@@ -84,12 +89,13 @@ function isPlatinumReduxTypeChartEnabled() {
     return localStorage.getItem(PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY) !== "0";
 }
 
-function applyPlatinumReduxTypeChartSetting(title = TITLE) {
+function applyPlatinumReduxTypeChartSetting(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle("");
     if (!settings) {
         return;
     }
 
-    if (isPlatinumReduxTitle(title) && isPlatinumReduxTypeChartEnabled()) {
+    if (isPlatinumReduxTitle(resolvedTitle) && isPlatinumReduxTypeChartEnabled()) {
         settings.typeChart = PLATINUM_REDUX_TYPE_CHART;
     } else if (settings.typeChart === PLATINUM_REDUX_TYPE_CHART) {
         settings.typeChart = settings.defaultTypeChart || requestedTypeChart;
@@ -138,34 +144,38 @@ function canUseInvertTypesSetting() {
     return Boolean(settings && settings.damageGen >= 3 && settings.damageGen <= 8);
 }
 
-function getSwitchPreviewEnabled(title = TITLE) {
+function getSwitchPreviewEnabled(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     return getTitleScopedStoredBool(
         SWITCH_PREVIEW_STORAGE_PREFIX,
-        title,
-        getDefaultSwitchPreviewEnabled(title)
+        resolvedTitle,
+        getDefaultSwitchPreviewEnabled(resolvedTitle)
     );
 }
 
-function getSwitchAiInfoEnabled(title = TITLE) {
+function getSwitchAiInfoEnabled(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     return getTitleScopedStoredBool(
         SWITCH_AI_INFO_STORAGE_PREFIX,
-        title,
-        getDefaultSwitchAiInfoEnabled(title)
+        resolvedTitle,
+        getDefaultSwitchAiInfoEnabled(resolvedTitle)
     );
 }
 
-function getPhysSpecSplitEnabled(title = TITLE) {
+function getPhysSpecSplitEnabled(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     return getTitleScopedStoredBool(
         PHYS_SPEC_SPLIT_STORAGE_PREFIX,
-        title,
+        resolvedTitle,
         getDefaultPhysSpecSplitEnabled()
     );
 }
 
-function getInvertTypesEnabled(title = TITLE) {
+function getInvertTypesEnabled(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     return getTitleScopedStoredBool(
         INVERT_TYPES_STORAGE_PREFIX,
-        title,
+        resolvedTitle,
         false
     );
 }
@@ -180,9 +190,10 @@ function syncSwitchPreviewUrlParam(enabled) {
     window.history.replaceState({}, "", nextUrl.toString());
 }
 
-function syncGameScopedSwitchSettings(title = TITLE) {
-    var switchPreviewEnabled = getSwitchPreviewEnabled(title);
-    var switchAiInfoEnabled = getSwitchAiInfoEnabled(title);
+function syncGameScopedSwitchSettings(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    var switchPreviewEnabled = getSwitchPreviewEnabled(resolvedTitle);
+    var switchAiInfoEnabled = getSwitchAiInfoEnabled(resolvedTitle);
 
     if (typeof localStorage !== "undefined") {
         localStorage.switchPreview = switchPreviewEnabled ? "1" : "0";
@@ -193,8 +204,9 @@ function syncGameScopedSwitchSettings(title = TITLE) {
     syncSwitchPreviewUrlParam(switchPreviewEnabled);
 }
 
-function syncGameScopedPhysSpecSplitSettings(title = TITLE) {
-    var physSpecSplitEnabled = getPhysSpecSplitEnabled(title);
+function syncGameScopedPhysSpecSplitSettings(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    var physSpecSplitEnabled = getPhysSpecSplitEnabled(resolvedTitle);
 
     if (typeof localStorage !== "undefined") {
         localStorage.physSpecSplit = physSpecSplitEnabled ? "1" : "0";
@@ -203,8 +215,9 @@ function syncGameScopedPhysSpecSplitSettings(title = TITLE) {
     settings.physSpecSplit = physSpecSplitEnabled;
 }
 
-function syncGameScopedInvertTypesSettings(title = TITLE) {
-    var invertTypesEnabled = canUseInvertTypesSetting() && getInvertTypesEnabled(title);
+function syncGameScopedInvertTypesSettings(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    var invertTypesEnabled = canUseInvertTypesSetting() && getInvertTypesEnabled(resolvedTitle);
 
     if (typeof localStorage !== "undefined") {
         localStorage.invertTypes = invertTypesEnabled ? "1" : "0";
@@ -213,26 +226,30 @@ function syncGameScopedInvertTypesSettings(title = TITLE) {
     settings.invertTypes = invertTypesEnabled;
 }
 
-function setSwitchPreviewEnabled(enabled, title = TITLE) {
-    setTitleScopedStoredBool(SWITCH_PREVIEW_STORAGE_PREFIX, title, enabled);
-    syncGameScopedSwitchSettings(title);
+function setSwitchPreviewEnabled(enabled, title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    setTitleScopedStoredBool(SWITCH_PREVIEW_STORAGE_PREFIX, resolvedTitle, enabled);
+    syncGameScopedSwitchSettings(resolvedTitle);
 }
 
-function setSwitchAiInfoEnabled(enabled, title = TITLE) {
-    setTitleScopedStoredBool(SWITCH_AI_INFO_STORAGE_PREFIX, title, enabled);
+function setSwitchAiInfoEnabled(enabled, title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    setTitleScopedStoredBool(SWITCH_AI_INFO_STORAGE_PREFIX, resolvedTitle, enabled);
     if (typeof localStorage !== "undefined") {
         localStorage.switchAiInfo = enabled ? "1" : "0";
     }
 }
 
-function setPhysSpecSplitEnabled(enabled, title = TITLE) {
-    setTitleScopedStoredBool(PHYS_SPEC_SPLIT_STORAGE_PREFIX, title, enabled);
-    syncGameScopedPhysSpecSplitSettings(title);
+function setPhysSpecSplitEnabled(enabled, title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    setTitleScopedStoredBool(PHYS_SPEC_SPLIT_STORAGE_PREFIX, resolvedTitle, enabled);
+    syncGameScopedPhysSpecSplitSettings(resolvedTitle);
 }
 
-function setInvertTypesEnabled(enabled, title = TITLE) {
-    setTitleScopedStoredBool(INVERT_TYPES_STORAGE_PREFIX, title, enabled);
-    syncGameScopedInvertTypesSettings(title);
+function setInvertTypesEnabled(enabled, title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    setTitleScopedStoredBool(INVERT_TYPES_STORAGE_PREFIX, resolvedTitle, enabled);
+    syncGameScopedInvertTypesSettings(resolvedTitle);
 }
 
 function shouldShowSwitchAiInfo() {
@@ -1338,7 +1355,11 @@ function loadPoksData() {
         }
 
         const pokId = cleanString(pok)
-        const pokName = SPECIES_BY_ID[gen][pokId].name
+        const speciesEntry = SPECIES_BY_ID[gen] && SPECIES_BY_ID[gen][pokId]
+        if (!speciesEntry) {
+            continue
+        }
+        const pokName = speciesEntry.name
 
         // Allow import of Farfetch'd w/ unicode standard apostrophe
         if (pokName == "Farfetch’d" && !poksData["Farfetch’d"]) {
@@ -1368,9 +1389,9 @@ function loadPoksData() {
             pokedex[pok]["abilities"] = jsonPok["abilities"]
         
 
-        SPECIES_BY_ID[gen][pokId].types = jsonPok["types"]
-        SPECIES_BY_ID[gen][pokId].baseStats = toImportedBaseStats(jsonPok["bs"])
-        applyImportedSpeciesFormData(SPECIES_BY_ID[gen][pokId], jsonPok)
+        speciesEntry.types = jsonPok["types"]
+        speciesEntry.baseStats = toImportedBaseStats(jsonPok["bs"])
+        applyImportedSpeciesFormData(speciesEntry, jsonPok)
     }
 
     if (settings.customPoks == 1) {
