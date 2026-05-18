@@ -40,6 +40,8 @@ backupFiles = {
 	"Pokemon Null 1.1": "null",
 	"Platinum Kaizo": "pkv5h",
 	"Platinum Kaizo v4": "pk",
+	"Platinum Redux": "platredux",
+	"Platinum Redux HC": "platreduxhc",
 	"Navy Sapphire": "navy",
 	"Rigorous Red": "rigred",
 	"Autumn Red": "autumn",
@@ -53,6 +55,8 @@ backupFiles = {
 sourceTitleAliases = {
 	"bb2redux": "Blaze Black 2/Volt White 2 Redux",
 	"bb8579a3798fd63b429d": "Royal Sapphire",
+	"platredux": "Platinum Redux",
+	"platreduxhc": "Platinum Redux HC",
 	"68bfb2ccba14b7f6b1f0": "Pokemon Unbound"
 }
 
@@ -112,6 +116,16 @@ gameVersions = {
 		{
 			url: "?data=le_hard&dmgGen=8&gen=8&types=6&noSwitch=1",
 			id: "Hard"
+		}
+	],
+	"Platinum Redux": [
+		{
+			url: "?data=platredux&gen=8&dmgGen=4&types=6&critGen=5&switchIn=4",
+			id: "Normal"
+		},
+		{
+			url: "?data=platreduxhc&gen=8&dmgGen=4&types=6&critGen=5&switchIn=4",
+			id: "HC"
 		}
 	],
 	"Pokemon Unbound": [

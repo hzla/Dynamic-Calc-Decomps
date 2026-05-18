@@ -59,6 +59,13 @@ const mastersheetSourcesByTitle = {
 const PLATINUM_REDUX_TYPE_CHART = 9;
 const PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY = "platinumReduxTypeChart";
 
+function setCascadeFieldEffectsEnabled(enabled) {
+    $('.cascade-effects')
+        .toggleClass('cascade-effects-enabled', Boolean(enabled))
+        .find('.btn-small')
+        .css('display', '')
+}
+
 function isPlatinumReduxTitle(title = TITLE) {
     return typeof title === "string" && title.includes("Platinum Redux");
 }
@@ -586,9 +593,7 @@ function prepareDynamicCalcData(data, options = {}) {
     document.title = TITLE + " Calculator"
     setBaseGame(TITLE)
     $('#rom-title').text(TITLE).show()
-    if (TITLE.includes("Cascade")) {
-        $('.cascade-effects .btn-small').show()
-    }
+    setCascadeFieldEffectsEnabled(TITLE.includes("Cascade"))
 }
 
 function getCurrentBackupFileName() {
@@ -802,7 +807,8 @@ function setGameSettings(title) {
     gameGen = 8
     settings.damageGen = 8
     if (!settings.noSwitch) {
-      settings.gameSwitchIn = 8;
+      settings.gameSwitchIn = 5;
+      settings.switchIn = 5;
     }
     settings.sourceType = "full"
     settings.typeChart = 6;
@@ -1110,8 +1116,10 @@ function setBaseGame(title) {
     $('#rom-title').text(TITLE).show()
 
     if ( title.includes("Cascade")) {
-        $('.cascade-effects .btn-small').show()
+        setCascadeFieldEffectsEnabled(true)
         baseVersion = "BW2"
+    } else {
+        setCascadeFieldEffectsEnabled(false)
     }
 
     if (!window.baseGame && settings.damageGen == 3) {

@@ -2,15 +2,16 @@
     let currentMainPageView = "calculator";
     let mainNavInitialized = false;
     const MAIN_PAGE_VIEW_QUERY_PARAM = "view";
+    const usageStatsBaseUrl = window.USAGE_STATS_BASE_URL || "https://hzla.github.io/romhack-usage-statistics";
     const dashboardRoutes = {
-        "Emerald Imperium 1.3": "./dashboards/emeraldimperium.html",
-        "Renegade Platinum": "./dashboards/renegadeplatinum.html",
-        "Platinum Kaizo": "./dashboards/platinumkaizo.html",
-        "Pokemon Null 1.2": "./dashboards/pokemonnull12.html",
-        "Pokemon Null 1.1": "./dashboards/pokemonnull.html",
-        "Pokemon Null": "./dashboards/pokemonnull12.html",
-        "Cascade White": "./dashboards/cascadewhite.html",
-        "Vintage White Plus": "./dashboards/vintagewhiteplus.html",
+        "Emerald Imperium 1.3": "dashboards/emeraldimperium.html",
+        "Renegade Platinum": "dashboards/renegadeplatinum.html",
+        "Platinum Kaizo": "dashboards/platinumkaizo.html",
+        "Pokemon Null 1.2": "dashboards/pokemonnull12.html",
+        "Pokemon Null 1.1": "dashboards/pokemonnull.html",
+        "Pokemon Null": "dashboards/pokemonnull12.html",
+        "Cascade White": "dashboards/cascadewhite.html",
+        "Vintage White Plus": "dashboards/vintagewhiteplus.html",
     };
 
     function hasMainNavShell() {
@@ -73,7 +74,7 @@
             return;
         }
 
-        link.href = new URL(dashboardRoutes[routeKey], window.location.href).toString();
+        link.href = new URL(dashboardRoutes[routeKey], `${usageStatsBaseUrl.replace(/\/+$/, "")}/`).toString();
         link.style.display = "inline-flex";
     }
 

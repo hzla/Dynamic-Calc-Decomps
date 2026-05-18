@@ -373,11 +373,19 @@
             title: "Platinum Redux",
             coverImage: "",
             description: "",
-            sourceTitle: "Platinum Redux 2.6",
+            sourceTitle: "Platinum Redux",
             variants: [
                 {
-                    label: "Platinum Redux 2.6",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=5b789b0056c18c5c668b&gen=8&switchIn=4&types=6&dmgGen=4&type_mod=plat_redux",
+                    label: "Normal",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=platredux&gen=8&dmgGen=4&types=6&critGen=5&switchIn=4",
+                    sourceTitle: "Platinum Redux",
+                    coverImage: "",
+                    description: ""
+                },
+                {
+                    label: "HC",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=platreduxhc&gen=8&dmgGen=4&types=6&critGen=5&switchIn=4",
+                    sourceTitle: "Platinum Redux HC",
                     coverImage: "",
                     description: ""
                 }

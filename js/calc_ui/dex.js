@@ -6,7 +6,9 @@ const dexBridgeSlots = {
 };
 let dexBridgeRequestCounter = 0;
 const dexGameIdsByTitle = {
-	'Blaze Black 2/Volt White 2 Redux': 'blazeblack2redux'
+	'Blaze Black 2/Volt White 2 Redux': 'blazeblack2redux',
+	'Platinum Redux': 'platinumredux',
+	'Platinum Redux HC': 'platinumredux'
 };
 
 function getDexGameIdForTitle(title) {
