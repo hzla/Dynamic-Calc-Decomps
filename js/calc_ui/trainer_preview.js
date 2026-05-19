@@ -147,7 +147,6 @@ function get_set_split(set_id) {
 
     return setdex[pok_name][tr_name]["split"] || null
 }
-    
 
 // Gets the trainers list of pokemon
 // maybePartner is tr_id of possible partner
@@ -157,16 +156,36 @@ function get_trainer_poks(trainer_name, maybePartner=false)
         return []
     }
 
-    var all_poks = setdex
     var matches = []
+    var primaryMatches = []
+    var partnerMatches = []
     function push_match(match) {
         if (!matches.includes(match)) {
             matches.push(match)
         }
     }
+    function push_primary_match(match) {
+        if (!primaryMatches.includes(match)) {
+            primaryMatches.push(match)
+        }
+    }
+    function push_partner_match(match) {
+        if (!partnerMatches.includes(match)) {
+            partnerMatches.push(match)
+        }
+    }
+    function matches_trainer_name(set_id, target_name, white_space) {
+        if (!target_name || !set_id.includes(target_name + white_space)) {
+            return false
+        }
+
+        return target_name.split(" ").at(-1) == set_id.split(" ").at(-2) ||
+            target_name.split(" ").at(-2) == set_id.split(" ").at(-2)
+    }
 
     trainer_name = stripTrainerLevelDuplicateMarkers(trainer_name)
     var og_trainer_name = get_trainer_name(trainer_name)
+    var selected_team_label = og_trainer_name || ""
 
     let og_white_space = " "
     let partner_white_space = " "
@@ -190,23 +209,16 @@ function get_trainer_poks(trainer_name, maybePartner=false)
             continue
         }
 
-        if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(tempPartnerName + partner_white_space)))) {
-            
-
-            // To avoid cases where grunt1 matches grunt11, we check the last word in the set string to make sure it's  an actual match
-            if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-               push_match(TR_NAMES[i])
-
-            }
-            if (tempPartnerName) {
-                if (tempPartnerName.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (tempPartnerName.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-                   push_match(TR_NAMES[i])
-                }  
-            }    
+        // To avoid cases where grunt1 matches grunt11, check the last word in the set string.
+        if (matches_trainer_name(TR_NAMES[i], og_trainer_name, og_white_space)) {
+            push_primary_match(TR_NAMES[i])
+        }
+        if (tempPartnerName && matches_trainer_name(TR_NAMES[i], tempPartnerName, partner_white_space)) {
+            push_partner_match(TR_NAMES[i])
         }
     }
 
-    if (matches.length == 0) {
+    if (primaryMatches.length == 0 && partnerMatches.length == 0) {
         for (i in TR_NAMES) {
             if (selectedSplit && get_set_split(TR_NAMES[i]) !== selectedSplit) {
                 continue
@@ -214,11 +226,37 @@ function get_trainer_poks(trainer_name, maybePartner=false)
 
             if (TR_NAMES[i].includes(og_trainer_name)) {
                 if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-                   push_match(TR_NAMES[i])
+                   push_primary_match(TR_NAMES[i])
                 }    
             }
         }
     }
+
+    if (selected_team_label && primaryMatches.length > 0) {
+        var labels = []
+        var exactPrimaryMatches = []
+        for (var i = 0; i < primaryMatches.length; i++) {
+            var matchLabel = get_trainer_name(primaryMatches[i]) || ""
+            if (!labels.includes(matchLabel)) {
+                labels.push(matchLabel)
+            }
+            if (matchLabel == selected_team_label) {
+                exactPrimaryMatches.push(primaryMatches[i])
+            }
+        }
+
+        if (labels.length > 1 && exactPrimaryMatches.length > 0) {
+            primaryMatches = exactPrimaryMatches
+        }
+    }
+
+    for (var i = 0; i < primaryMatches.length; i++) {
+        push_match(primaryMatches[i])
+    }
+    for (var i = 0; i < partnerMatches.length; i++) {
+        push_match(partnerMatches[i])
+    }
+
     return matches
 }
 
