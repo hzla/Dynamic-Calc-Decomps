@@ -358,7 +358,8 @@ function getDynamicCalcTitle(data) {
 }
 
 function isDsSaveReaderBaseGame(baseGameValue = window.baseGame) {
-    return baseGameValue == "Pt" || baseGameValue == "HGSS" || baseGameValue == "BW";
+    const normalizedBaseGame = normalizeBaseGameValue(baseGameValue);
+    return normalizedBaseGame == "Pt" || normalizedBaseGame == "HGSS" || normalizedBaseGame == "BW";
 }
 
 function syncSaveReaderControls() {
@@ -376,6 +377,8 @@ function normalizeBaseGameValue(baseGameValue) {
         platinum: "Pt",
         hgss: "HGSS",
         bw: "BW",
+        bw2: "BW",
+        black2white2: "BW",
         blackwhite: "BW",
         blackwhite2: "BW",
         null: "null",
@@ -394,6 +397,26 @@ function normalizeBaseGameValue(baseGameValue) {
     };
     const aliasKey = normalizedValue.toLowerCase().replace(/[^a-z0-9_]/g, "");
     return baseGameAliases[aliasKey] || normalizedValue;
+}
+
+function getBaseVersionForBaseGameValue(baseGameValue) {
+    const aliasKey = String(baseGameValue || "").trim().toLowerCase().replace(/[^a-z0-9_]/g, "");
+    if (aliasKey == "bw2" || aliasKey == "black2white2" || aliasKey == "blackwhite2") {
+        return "BW2";
+    }
+    if (aliasKey == "bw" || aliasKey == "blackwhite") {
+        return "BW";
+    }
+    return "";
+}
+
+function getConfigDisplayBaseGameValue(baseGameValue) {
+    const normalizedBaseGame = normalizeBaseGameValue(baseGameValue);
+    const normalizedBaseVersion = getBaseVersionForBaseGameValue(baseGameValue);
+    if (normalizedBaseGame == "BW" && normalizedBaseVersion == "BW2") {
+        return "BW2";
+    }
+    return normalizedBaseGame;
 }
 
 const MOVE_NAME_ALIASES = {
@@ -498,7 +521,8 @@ function applyBlankDevConfig(config) {
   mechanics = mergedConfig.mechanics === "hge" ? "hge" : "vanilla";
   save_expansion = !!mergedConfig.saveExpansion;
   window.baseGame = normalizeBaseGameValue(mergedConfig.baseGame);
-  mergedConfig.baseGame = window.baseGame;
+  baseVersion = getBaseVersionForBaseGameValue(mergedConfig.baseGame);
+  mergedConfig.baseGame = getConfigDisplayBaseGameValue(mergedConfig.baseGame);
   mergedConfig.titleOverride = String(mergedConfig.titleOverride || "").trim();
   mergedConfig.platinumReduxTypeChart = typeof mergedConfig.platinumReduxTypeChart === "undefined"
     ? true
@@ -1080,7 +1104,9 @@ if (SOURCES[params.get('data')]) {
 
 function setBaseGame(title) {
     window.baseGame ||= ""
-    baseVersion = ""
+    baseVersion = isBlankDevMode && activeBlankDevConfig
+        ? getBaseVersionForBaseGameValue(activeBlankDevConfig.baseGame)
+        : ""
     if (!isBlankDevMode) {
         if (title.includes("Radical Red")) {
             window.baseGame = "rad_red"
@@ -1125,6 +1151,8 @@ function setBaseGame(title) {
         if (localStorage.switchInfo == '1') {
           $('.trainer-pok-list.opposing').addClass('ai-show')
         }
+    } else if (window.baseGame == "BW" && !baseVersion) {
+        baseVersion = "BW"
     }
 
     if (title.includes("Radical Red") || title.includes("Emerald Imperium")) {

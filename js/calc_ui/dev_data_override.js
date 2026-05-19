@@ -75,6 +75,7 @@
                 { value: "Pt", label: "Pt" },
                 { value: "HGSS", label: "HGSS" },
                 { value: "BW", label: "BW" },
+                { value: "BW2", label: "BW2" },
                 { value: "null", label: "null" },
                 { value: "imp", label: "imp" },
                 { value: "inc_em", label: "inc_em" },
@@ -82,7 +83,7 @@
                 { value: "g6", label: "g6" },
                 { value: "g7", label: "g7" }
             ],
-            help: "Save reader family and Lua sync behavior."
+            help: "Save reader family, version-specific offsets, and Lua sync behavior."
         },
         {
             name: "titleOverride",

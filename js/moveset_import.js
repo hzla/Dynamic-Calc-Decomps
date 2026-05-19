@@ -491,6 +491,60 @@ function getMoveChangesForTitle(title) {
 	return resolveTitleChangeMap(moveChanges, title || TITLE) || {}
 }
 
+var pendingShowdownImportOptions = null;
+
+function looksLikeSaveReaderShowdownText(showdownText) {
+	var text = String(showdownText || "");
+	return /^Met:\s*/mi.test(text) || /^Egg:\s*Yes\s*$/mi.test(text) || /^Ability Slot:\s*/mi.test(text);
+}
+
+function getShowdownImportOptions(showdownText, explicitOptions) {
+	var options = {};
+	if (pendingShowdownImportOptions && typeof pendingShowdownImportOptions === "object") {
+		options = Object.assign(options, pendingShowdownImportOptions);
+		pendingShowdownImportOptions = null;
+	}
+	if (explicitOptions && typeof explicitOptions === "object") {
+		options = Object.assign(options, explicitOptions);
+	}
+	if (typeof options.applyRomReplacements === "undefined") {
+		options.applyRomReplacements = looksLikeSaveReaderShowdownText(showdownText);
+	}
+	return options;
+}
+
+function shouldApplyImportRomReplacements(importOptions) {
+	if (typeof importOptions === "undefined" || importOptions === null) {
+		return true;
+	}
+	return !!importOptions.applyRomReplacements;
+}
+
+function normalizeImportedMoveName(move, importOptions) {
+	if (shouldApplyImportRomReplacements(importOptions)) {
+		var titleMoveChanges = getMoveChangesForTitle(TITLE)
+		if (titleMoveChanges[move]) {
+			move = titleMoveChanges[move]
+		}
+
+		if (backup_data["move_replacements"]) {
+			let moveId = cleanString(move)
+			if (backup_data["move_replacements"][moveId]) {
+				let defaultMoveData = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]]
+				if (defaultMoveData) {
+					move = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]].name
+				}
+			}
+		}
+	}
+
+	if (!TITLE.includes("Sterling") && !TITLE.includes("Maximum") && !TITLE.includes("Ancestral")) {
+		move = move.replace("HP ", "Hidden Power")
+	}
+
+	return move;
+}
+
 
 
 
@@ -501,7 +555,7 @@ function placeBsBtn() {
 	$("#import.bs-btn").click(function () {
 		var pokes = document.getElementsByClassName("import-team-text")[0].value;
 		var name = document.getElementsByClassName("import-name-text")[0].value.trim() === "" ? "Custom Set" : document.getElementsByClassName("import-name-text")[0].value;
-		addSets(pokes, name);
+		addSets(pokes, name, getShowdownImportOptions(pokes));
 	});
 }
 
@@ -750,7 +804,7 @@ function statToLegacyStat(stat) {
 	}
 }
 
-function getStats(currentPoke, rows, offset) {
+function getStats(currentPoke, rows, offset, importOptions) {
 	currentPoke.nature = "Serious";
 	currentPoke.status = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(currentPoke.status) : "Healthy";
 	var currentEV;
@@ -760,7 +814,7 @@ function getStats(currentPoke, rows, offset) {
 	var natureIsSet = false
 	currentPoke.level = 100;
 	for (var x = offset; x < offset + 8; x++) {
-		if (isImportedSetBoundaryLine(rows, x, offset)) {
+		if (isImportedSetBoundaryLine(rows, x, offset, importOptions)) {
 			break;
 		}
 		var currentRow = rows[x] ? rows[x].split(/[/:]/) : '';
@@ -868,14 +922,14 @@ function extractGenderFromImportHeader(headerLine) {
 	return result;
 }
 
-function getImportedSpeciesMatchesFromHeader(headerLine) {
+function getImportedSpeciesMatchesFromHeader(headerLine, importOptions) {
 	var headerInfo = extractGenderFromImportHeader(headerLine);
 	var currentRow = headerInfo.header.split(/[()@]/);
 	var speciesParts = headerInfo.header.split("@")[0].split(/[()]/);
 	var matches = [];
 
 	for (var i = 0; i < speciesParts.length; i++) {
-		var candidate = checkExeptions(speciesParts[i].trim());
+		var candidate = checkExeptions(speciesParts[i].trim(), importOptions);
 		if (calc.SPECIES[8][candidate] !== undefined) {
 			matches.push({
 				index: i,
@@ -892,8 +946,8 @@ function getImportedSpeciesMatchesFromHeader(headerLine) {
 	};
 }
 
-function findImportedSpeciesMatchFromHeader(headerLine) {
-	var parsedHeader = getImportedSpeciesMatchesFromHeader(headerLine);
+function findImportedSpeciesMatchFromHeader(headerLine, importOptions) {
+	var parsedHeader = getImportedSpeciesMatchesFromHeader(headerLine, importOptions);
 	var eggCandidate = null;
 	var firstNonEggCandidate = null;
 
@@ -924,12 +978,12 @@ function findImportedSpeciesMatchFromHeader(headerLine) {
 	};
 }
 
-function findImportedSpeciesNameFromHeader(headerLine) {
-	var speciesMatch = findImportedSpeciesMatchFromHeader(headerLine);
+function findImportedSpeciesNameFromHeader(headerLine, importOptions) {
+	var speciesMatch = findImportedSpeciesMatchFromHeader(headerLine, importOptions);
 	return speciesMatch.match ? speciesMatch.match.speciesName : null;
 }
 
-function isImportedSetBoundaryLine(rows, rowIndex, firstDataRowIndex) {
+function isImportedSetBoundaryLine(rows, rowIndex, firstDataRowIndex, importOptions) {
 	if (!Array.isArray(rows) || rowIndex <= firstDataRowIndex || !rows[rowIndex]) {
 		return false;
 	}
@@ -955,10 +1009,10 @@ function isImportedSetBoundaryLine(rows, rowIndex, firstDataRowIndex) {
 		return false;
 	}
 
-	return Boolean(findImportedSpeciesNameFromHeader(trimmed));
+	return Boolean(findImportedSpeciesNameFromHeader(trimmed, importOptions));
 }
 
-function getMoves(currentPoke, rows, offset) {
+function getMoves(currentPoke, rows, offset, importOptions) {
 	var movesFound = false;
 	var moves = [];
 	for (var x = offset; x < offset + 12; x++) {
@@ -968,27 +1022,7 @@ function getMoves(currentPoke, rows, offset) {
 					var move = rows[x].substr(2, rows[x].length - 2).replace("[", "").replace("]", "").replace("  ", "");
 
 					if (move) {
-						var titleMoveChanges = getMoveChangesForTitle(TITLE)
-						if (titleMoveChanges[move]) {
-							move = titleMoveChanges[move]
-						}
-
-						if (backup_data["move_replacements"]) {
-						let moveId = cleanString(move)
-						if (backup_data["move_replacements"][moveId]) {
-							let defaultMoveData = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]]
-							if (defaultMoveData) {
-								move = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]].name
-							} else {
-							}
-							
-						}
-					}
-
-					// ignore hacks with predefined hidden power
-					if (!TITLE.includes("Sterling") && !TITLE.includes("Maximum") && !TITLE.includes("Ancestral")) {
-						move = move.replace("HP ", "Hidden Power")
-					}
+						move = normalizeImportedMoveName(move, importOptions)
 
 				}
 
@@ -1385,11 +1419,11 @@ function reconcileMegaImports(importedRows, customsets) {
 	return customsets;
 }
 
-function buildDexObject(poke) {
+function buildDexObject(poke, importOptions) {
 	var dexObject = {};
 	var speciesName = poke.name;
 
-	if (typeof npoint_data.poks_replacements != "undefined") {
+	if (shouldApplyImportRomReplacements(importOptions) && typeof npoint_data.poks_replacements != "undefined") {
 		if (typeof pokChanges === "undefined") {
 			pokChanges = {};
 		}
@@ -1462,8 +1496,8 @@ function buildDexObject(poke) {
 	};
 }
 
-function upsertImportedSet(customsets, poke) {
-	var importedSet = buildDexObject(poke);
+function upsertImportedSet(customsets, poke, importOptions) {
+	var importedSet = buildDexObject(poke, importOptions);
 	if (poke && poke.isEgg) {
 		console.log("[egg-debug][import] upserting egg set", {
 			inputSpeciesName: poke.name,
@@ -1786,7 +1820,8 @@ function looksLikeImportableShowdownText(text) {
 	return false;
 }
 
-function importShowdownTextIntoImporter(showdownText, clearAfterImport) {
+function importShowdownTextIntoImporter(showdownText, clearAfterImport, importOptions) {
+	pendingShowdownImportOptions = importOptions && typeof importOptions === "object" ? importOptions : null;
 	$('.import-team-text').val(showdownText);
 	$('#import').click();
 	if (clearAfterImport) {
@@ -2079,8 +2114,8 @@ function removeMyBoxEntries(customsets) {
 	return nextCustomsets;
 }
 
-function getNicknameFromImportHeader(headerLine, speciesName) {
-	var speciesMatch = findImportedSpeciesMatchFromHeader(headerLine);
+function getNicknameFromImportHeader(headerLine, speciesName, importOptions) {
+	var speciesMatch = findImportedSpeciesMatchFromHeader(headerLine, importOptions);
 	if (!speciesMatch.match) {
 		return "";
 	}
@@ -2096,16 +2131,16 @@ function getNicknameFromImportHeader(headerLine, speciesName) {
 	return "";
 }
 
-function normalizeImportedDeadMon(deadMon, fallbackSource) {
+function normalizeImportedDeadMon(deadMon, fallbackSource, importOptions) {
 	if (!deadMon || typeof deadMon !== "object") {
 		return null;
 	}
 
 	var speciesName = deadMon.speciesName || deadMon.species;
 	if (!speciesName && deadMon.headerLine) {
-		speciesName = findImportedSpeciesNameFromHeader(deadMon.headerLine);
+		speciesName = findImportedSpeciesNameFromHeader(deadMon.headerLine, importOptions);
 	}
-	speciesName = checkExeptions(String(speciesName || "").trim());
+	speciesName = checkExeptions(String(speciesName || "").trim(), importOptions);
 	if (!speciesName) {
 		return null;
 	}
@@ -2133,7 +2168,7 @@ function normalizeImportedDeadMon(deadMon, fallbackSource) {
 	return normalized;
 }
 
-function splitImportedShowdownText(showdownText, fallbackSource) {
+function splitImportedShowdownText(showdownText, fallbackSource, importOptions) {
 	var source = fallbackSource || "import";
 	var text = String(showdownText || "").replace(/\r/g, "");
 	var lines = text.split("\n");
@@ -2170,7 +2205,7 @@ function splitImportedShowdownText(showdownText, fallbackSource) {
 			continue;
 		}
 
-		var speciesName = findImportedSpeciesNameFromHeader(headerLine);
+		var speciesName = findImportedSpeciesNameFromHeader(headerLine, importOptions);
 		if (!speciesName) {
 			continue;
 		}
@@ -2186,10 +2221,10 @@ function splitImportedShowdownText(showdownText, fallbackSource) {
 		var deadMon = normalizeImportedDeadMon({
 			headerLine: headerLine,
 			speciesName: speciesName,
-			nickname: getNicknameFromImportHeader(headerLine, speciesName),
+			nickname: getNicknameFromImportHeader(headerLine, speciesName, importOptions),
 			met: met,
 			source: source,
-		}, source);
+		}, source, importOptions);
 		if (deadMon) {
 			deadMons.push(deadMon);
 		}
@@ -2275,11 +2310,13 @@ function persistTrainerIdFromImportedText(rows) {
 	}
 }
 
-function addSets(pokes, name) {
+function addSets(pokes, name, importOptions) {
 	if (isDdexTemporaryOpponentImportText(pokes)) {
 		importDdexTemporaryOpponent(pokes);
 		return;
 	}
+
+	importOptions = getShowdownImportOptions(pokes, importOptions);
 
 	var queuedDeadMons = [];
 	var queuedSource = "import";
@@ -2303,6 +2340,7 @@ function addSets(pokes, name) {
 			queuedDeadMons = cloneDeadMonsList(luaDumpResult.deadMons);
 			queuedSource = String(luaDumpResult.source || "desmume");
 			queuedReplaceDeadMons = true;
+			importOptions.applyRomReplacements = true;
 			pokes = luaDumpResult.showdownImport;
 		} catch (error) {
 			console.error("Failed to import Lua box dump JSON", error);
@@ -2316,7 +2354,8 @@ function addSets(pokes, name) {
 
 	var splitImport = splitImportedShowdownText(
 		pokes,
-		pendingSnapshotMeta ? pendingSnapshotMeta.source : queuedSource
+		pendingSnapshotMeta ? pendingSnapshotMeta.source : queuedSource,
+		importOptions
 	);
 	var parsedDeadMons = cloneDeadMonsList(splitImport.deadMons);
 	if (pendingSnapshotMeta && Array.isArray(pendingSnapshotMeta.deadMons) && pendingSnapshotMeta.deadMons.length) {
@@ -2358,7 +2397,7 @@ function addSets(pokes, name) {
 		// 	currentParty.push(rows[i])
 		// }
 
-		var speciesMatch = findImportedSpeciesMatchFromHeader(rows[i]);
+		var speciesMatch = findImportedSpeciesMatchFromHeader(rows[i], importOptions);
 		var headerInfo = speciesMatch.headerInfo;
 		var importedSpeciesName = speciesMatch.match ? speciesMatch.match.speciesName : null;
 		var importedSpeciesIndex = speciesMatch.match ? speciesMatch.match.index : -1;
@@ -2371,7 +2410,7 @@ function addSets(pokes, name) {
 		
 		
 		for (var j = 0; j < currentRow.length; j++) {
-			currentRow[j] = checkExeptions(currentRow[j].trim());
+			currentRow[j] = checkExeptions(currentRow[j].trim(), importOptions);
 			
 
 
@@ -2401,8 +2440,8 @@ function addSets(pokes, name) {
 					currentPoke.ability = getAbility(rows[i + 1].split(":"));
 				}
 				
-				currentPoke = getStats(currentPoke, rows, i + 1);
-				currentPoke = getMoves(currentPoke, rows, i);
+				currentPoke = getStats(currentPoke, rows, i + 1, importOptions);
+				currentPoke = getMoves(currentPoke, rows, i, importOptions);
 				var importedMonMetadata = null;
 				if (importedMonsMetadataIndex < importedMonsMetadata.length) {
 					importedMonMetadata = importedMonsMetadata[importedMonsMetadataIndex];
@@ -2416,7 +2455,7 @@ function addSets(pokes, name) {
 					}
 					importedMonsMetadataIndex++;
 				}
-				var importedSet = upsertImportedSet(customsets, currentPoke);
+				var importedSet = upsertImportedSet(customsets, currentPoke, importOptions);
 				if (
 					importedMonMetadata &&
 					customsets[importedSet.speciesName] &&
@@ -2475,7 +2514,7 @@ function addSets(pokes, name) {
 	 $(".trainer-pok.left-side" ).attr("draggable", "true")
 }
 
-function checkExeptions(poke) {
+function checkExeptions(poke, importOptions) {
 	switch (poke) {
 	case 'Aegislash':
 		poke = "Aegislash-Shield";
@@ -2529,7 +2568,7 @@ function checkExeptions(poke) {
 	}
 
 	try {
-		if (poke != "" && backup_data["pok_replacements"] && backup_data["pok_replacements"][cleanString(poke)]) {
+		if (shouldApplyImportRomReplacements(importOptions) && poke != "" && backup_data["pok_replacements"] && backup_data["pok_replacements"][cleanString(poke)]) {
 			poke = SPECIES_BY_ID[gen][backup_data["pok_replacements"][cleanString(poke)]].name
 		}
 	} catch {
