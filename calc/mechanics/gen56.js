@@ -855,7 +855,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }
         var delta = 0;
         // Check if challenge mode, if calculating trainer pok, and if trainer pok is in challenge mode exception list
-        if (settings.challengeMode && (get_current_in(false) && !(settings.challengeExceptionListPresent && get_current_in(false)["noCh"])) && $('.set-selector')[3].value.includes(attacker.name) && $('.set-selector')[3].value.includes(attacker.level)) {
+        var currentTrainerMon = settings.challengeMode && typeof get_current_in === "function" ? get_current_in(false) : null;
+        if (settings.challengeMode && currentTrainerMon && !(settings.challengeExceptionListPresent && currentTrainerMon["noCh"]) && $('.set-selector')[3].value.includes(attacker.name) && $('.set-selector')[3].value.includes(attacker.level)) {
             delta = 4;
             for (n in settings.levelCaps) {
                 if (attacker.level <= settings.levelCaps[n][0]) {

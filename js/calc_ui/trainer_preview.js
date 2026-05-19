@@ -223,13 +223,22 @@ function get_trainer_poks(trainer_name, maybePartner=false)
 }
 
 // Get the current selected trainer pokemon
-function get_current_in() {
+function get_current_in(refreshBoxRolls = true) {
     var setInfo = $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text()
+    if (!setInfo || !setInfo.includes(" (")) {
+        return null
+    }
     var pok_name = setInfo.split(" (")[0]
-    var tr_name = setInfo.split(" (")[1].replace(")", "").split("[")[0]
+    var setNamePart = setInfo.split(" (")[1]
+    if (!setNamePart) {
+        return null
+    }
+    var tr_name = setNamePart.replace(")", "").split("[")[0]
 
-    box_rolls()
-    return setdex[pok_name][tr_name]
+    if (refreshBoxRolls) {
+        box_rolls()
+    }
+    return setdex && setdex[pok_name] ? setdex[pok_name][tr_name] : null
 }
 
 function setOpposing(id) {
