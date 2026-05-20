@@ -423,7 +423,7 @@ function get_next_in_g3() {
         ranked_trainer_poks.push([trainer_poks[i], score, bestMove, sub_index, setdex[pok_name][tr_name]["moves"], reason, phase1Score, bestDamage, expYield]);
     }
 
-    ranked_trainer_poks = ranked_trainer_poks.sort(sort_trpoks_g3);
+    ranked_trainer_poks = ranked_trainer_poks.sort(settings && settings.noSwitch ? sort_subindex : sort_trpoks_g3);
     console.log(ranked_trainer_poks)
     // console.log(ranked_trainer_poks.map((entry, idx) => ({
     //     order: idx + 1,

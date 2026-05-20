@@ -3082,6 +3082,15 @@ table td {
     line-height: 1.35;
 }
 
+.trainer-preview-exp-total {
+    width: calc(100% - 20px);
+    margin: 18px 10px 0 auto;
+    color: #f8f8f2;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: right;
+}
+
 .tag-partner-label {
     margin-top: 0px;
 }

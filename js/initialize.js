@@ -144,8 +144,13 @@ function canUseInvertTypesSetting() {
     return Boolean(settings && settings.damageGen >= 3 && settings.damageGen <= 8);
 }
 
-function getSwitchPreviewEnabled(title) {
+function getSwitchPreviewEnabled(title, options) {
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    var respectUrlNoSwitch = !options || options.respectUrlNoSwitch !== false;
+    if (respectUrlNoSwitch && params.get("noSwitch") === "1") {
+        return false;
+    }
+
     return getTitleScopedStoredBool(
         SWITCH_PREVIEW_STORAGE_PREFIX,
         resolvedTitle,
@@ -190,9 +195,9 @@ function syncSwitchPreviewUrlParam(enabled) {
     window.history.replaceState({}, "", nextUrl.toString());
 }
 
-function syncGameScopedSwitchSettings(title) {
+function syncGameScopedSwitchSettings(title, options) {
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
-    var switchPreviewEnabled = getSwitchPreviewEnabled(resolvedTitle);
+    var switchPreviewEnabled = getSwitchPreviewEnabled(resolvedTitle, options);
     var switchAiInfoEnabled = getSwitchAiInfoEnabled(resolvedTitle);
 
     if (typeof localStorage !== "undefined") {
@@ -229,7 +234,7 @@ function syncGameScopedInvertTypesSettings(title) {
 function setSwitchPreviewEnabled(enabled, title) {
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     setTitleScopedStoredBool(SWITCH_PREVIEW_STORAGE_PREFIX, resolvedTitle, enabled);
-    syncGameScopedSwitchSettings(resolvedTitle);
+    syncGameScopedSwitchSettings(resolvedTitle, { respectUrlNoSwitch: false });
 }
 
 function setSwitchAiInfoEnabled(enabled, title) {

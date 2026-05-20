@@ -1824,6 +1824,30 @@ function renderTrainerPreviewPok(next_pok) {
 	return pok
 }
 
+function getTrainerPreviewExpTotal(nextPoks) {
+	if (!Array.isArray(nextPoks)) {
+		return null
+	}
+
+	var totalExp = 0
+	var hasExpValue = false
+	for (var i = 0; i < nextPoks.length; i++) {
+		if (!Array.isArray(nextPoks[i]) || typeof nextPoks[i][8] === "undefined") {
+			continue
+		}
+
+		var expGain = Number(nextPoks[i][8])
+		if (!Number.isFinite(expGain)) {
+			continue
+		}
+
+		totalExp += expGain
+		hasExpValue = true
+	}
+
+	return hasExpValue ? Math.round(totalExp) : null
+}
+
 function refresh_next_in() {
 	var next_poks = get_next_in()
 
@@ -1877,6 +1901,9 @@ function refresh_next_in() {
 	var resolvedPartnerName = getTrainerPreviewPartnerNameFromSet(selectedOpposingSet) || partnerName
 	var fallbackPartnerNames = []
 	var trainerIdCounts = {}
+	var expTotal = typeof shouldShowTrainerPreviewExpBars === "function" && shouldShowTrainerPreviewExpBars()
+		? getTrainerPreviewExpTotal(next_poks)
+		: null
 	var hideCurrentAiMon = typeof canShowHideCurrentAiMonToggle === "function" &&
 		canShowHideCurrentAiMonToggle() &&
 		localStorage.hideCurrentAiMon == "1"
@@ -1988,6 +2015,9 @@ function refresh_next_in() {
 
 	if (shouldShowGen4Phase2AccuracyWarning()) {
 		trpok_html += `<div class="trainer-preview-warning">Please mark fainted pokemon for fully accurate phase 2 dmg simulations for this trainer</div>`
+	}
+	if (expTotal !== null) {
+		trpok_html += `<div class="trainer-preview-exp-total">Total: ${expTotal} EXP</div>`
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
 
