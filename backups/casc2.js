@@ -3820,7 +3820,7 @@ backup_data = {
       "sf": true
     },
     "Doom Desire": {
-      "type": "Steel",
+      "type": "Dark",
       "basePower": 160,
       "category": "Special",
       "pp": 5,
@@ -132645,7 +132645,7 @@ backup_data = {
           "Weather Ball"
         ],
         "sub_index": 2,
-        "ability": "Reckless",
+        "ability": "Technician",
         "sprite": "trainer_sprites/swimmerf.png",
         "form": 0,
         "evs": {
@@ -137597,7 +137597,7 @@ backup_data = {
           "Fire Punch"
         ],
         "sub_index": 0,
-        "ability": "Sheer Force",
+        "ability": "Berserk",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -142759,7 +142759,7 @@ backup_data = {
           "Meteor Beam",
           "Diamond Storm",
           "Heat Wave",
-          "Reflect"
+          "Solar Beam"
         ],
         "sub_index": 1,
         "ability": "Chlorophyll",
@@ -145483,7 +145483,7 @@ backup_data = {
         "moves": [
           "Psychic",
           "Esper Wing",
-          "Mystical Fire",
+          "Weather Ball",
           "Solar Beam"
         ],
         "sub_index": 3,
@@ -172525,7 +172525,7 @@ backup_data = {
           "Mirror Coat"
         ],
         "sub_index": 1,
-        "ability": "Drizzle",
+        "ability": "Torrent",
         "sprite": "trainer_sprites/cheren.png",
         "form": 0,
         "evs": {
@@ -172620,7 +172620,7 @@ backup_data = {
           "Glare"
         ],
         "sub_index": 2,
-        "ability": "Anticipation",
+        "ability": "Overgrow",
         "sprite": "trainer_sprites/cheren.png",
         "form": 0,
         "evs": {
@@ -172715,7 +172715,7 @@ backup_data = {
           "Work Up"
         ],
         "sub_index": 3,
-        "ability": "Drought",
+        "ability": "Blaze",
         "sprite": "trainer_sprites/cheren.png",
         "form": 0,
         "evs": {
@@ -190308,7 +190308,7 @@ backup_data = {
         "moves": [
           "Flare Blitz",
           "Play Rough",
-          "Extreme Speed",
+          "High Horsepower",
           "Hypnosis"
         ],
         "sub_index": 2,
@@ -192108,9 +192108,9 @@ backup_data = {
         "nature": "Mild",
         "moves": [
           "Eruption",
-          "-----",
-          "-----",
-          "-----"
+          "Fire Spin",
+          "U-turn",
+          "Switcheroo"
         ],
         "sub_index": 4,
         "ability": "Turboblaze",
