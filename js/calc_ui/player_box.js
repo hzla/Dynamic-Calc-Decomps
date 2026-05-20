@@ -298,7 +298,39 @@ function getBoxMatchupContextOptions() {
     }
 }
 
-function expandBoxDamageRolls(damage, moveName, attacker, requireSkillLink) {
+function getMinimumBoxMoveHits(moveData, attacker) {
+    if (!moveData || !moveData.multihit) {
+        return 1
+    }
+    if (typeof moveData.multihit === "number") {
+        return moveData.multihit
+    }
+    if (!Array.isArray(moveData.multihit)) {
+        return 1
+    }
+    if (attacker && attacker.ability == "Skill Link") {
+        return moveData.multihit[1]
+    }
+    if (attacker && attacker.item == "Loaded Dice") {
+        return Math.min(moveData.multihit[1], 4)
+    }
+    return moveData.multihit[0]
+}
+
+function getMaximumBoxMoveHits(moveData) {
+    if (!moveData || !moveData.multihit) {
+        return 1
+    }
+    if (typeof moveData.multihit === "number") {
+        return moveData.multihit
+    }
+    if (!Array.isArray(moveData.multihit)) {
+        return 1
+    }
+    return moveData.multihit[moveData.multihit.length - 1]
+}
+
+function expandBoxDamageRolls(damage, moveName, attacker, requireSkillLink, useMinimumHits) {
     if (!Array.isArray(damage)) {
         return []
     }
@@ -312,13 +344,18 @@ function expandBoxDamageRolls(damage, moveName, attacker, requireSkillLink) {
     }
 
     if (requireSkillLink && (!attacker || attacker.ability != "Skill Link")) {
+        if (useMinimumHits) {
+            expanded = expanded.slice(0, getMinimumBoxMoveHits(moveData, attacker))
+        }
         return normalize_damage(expanded)
     }
 
-    var hitCounts = moveData.multihit
-    var targetHits = hitCounts[hitCounts.length - 1]
+    var targetHits = useMinimumHits ? getMinimumBoxMoveHits(moveData, attacker) : getMaximumBoxMoveHits(moveData)
     while (expanded.length < targetHits) {
         expanded.push(Array.isArray(expanded[0]) ? expanded[0].slice() : expanded[0])
+    }
+    if (useMinimumHits && expanded.length > targetHits) {
+        expanded = expanded.slice(0, targetHits)
     }
     return normalize_damage(expanded)
 }
@@ -542,7 +579,7 @@ function getBoxMatchupMetrics(setId, options) {
     for (var j = 0; j < 4; j++) {
         if (playerResults[j]) {
             var playerMoveName = playerResults[j].move.originalName || playerResults[j].move.name
-            var playerDamage = expandBoxDamageRolls(playerResults[j].damage, playerResults[j].move.name, playerResults[j].attacker, true)
+            var playerDamage = expandBoxDamageRolls(playerResults[j].damage, playerResults[j].move.name, playerResults[j].attacker, true, true)
             if (playerDamage.length) {
                 var minDealtPercent = options.opponentCurrentHp > 0 ? (playerDamage[0] / options.opponentCurrentHp) * 100 : null
                 if (!Number.isFinite(metrics.bestMinDealtPercent) || minDealtPercent > metrics.bestMinDealtPercent) {

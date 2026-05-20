@@ -1164,6 +1164,30 @@ for (let calc of calcs) {
         })
       })
 
+      it('uses minimum possible hits for box min-dealt multihit damage', () => {
+        cy.window().then((win) => {
+          const moveName = 'Codex Multihit Test'
+          const originalMove = win.moves[moveName]
+          const damage = [
+            [10, 20],
+            [10, 20],
+            [10, 20],
+          ]
+
+          win.moves[moveName] = { multihit: [2, 5] }
+
+          expect(win.expandBoxDamageRolls(damage, moveName, { ability: 'Overgrow' }, true, true)).to.deep.equal([20, 40])
+          expect(win.expandBoxDamageRolls(damage, moveName, { ability: 'Skill Link' }, true, true)).to.deep.equal([50, 100])
+          expect(win.expandBoxDamageRolls(damage, moveName, { ability: 'Overgrow' }, false, false)).to.deep.equal([50, 100])
+
+          if (originalMove) {
+            win.moves[moveName] = originalMove
+          } else {
+            delete win.moves[moveName]
+          }
+        })
+      })
+
       if (calc.title.includes('Pokemon Null')) {
         it('sorts by species id using nullMons order', () => {
           cy.get('#box-sort-direction').then(($button) => {
