@@ -481,6 +481,9 @@ function applySwitchPreviewVisibility() {
 }
 
 function canShowSwitchAiInfoToggle() {
+    if (typeof canUseSwitchAiInfoForTitle === "function") {
+        return canUseSwitchAiInfoForTitle()
+    }
     return Boolean(settings && settings.damageGen === 4)
 }
 

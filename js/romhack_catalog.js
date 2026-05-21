@@ -15,6 +15,21 @@
                 }
             ]
         },
+        "aether-white-2": {
+            id: "aether-white-2",
+            title: "Aether White 2",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Aether White 2",
+            variants: [
+                {
+                    label: "White 2 Base Rom",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=aetherwhite&gen=8&types=5",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "blaze-black": {
             id: "blaze-black",
             title: "Blaze Black",
@@ -677,6 +692,7 @@
             title: "More Hacks",
             sortGames: "alphabetical",
             gameIds: [
+                "aether-white-2",
                 "ancestral-x",
                 "autumn-red",
                 "blinding-white-2",

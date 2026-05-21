@@ -58,6 +58,7 @@ const mastersheetSourcesByTitle = {
 };
 const PLATINUM_REDUX_TYPE_CHART = 9;
 const PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY = "platinumReduxTypeChart";
+const AETHER_WHITE_2_TITLE = "Aether White 2";
 
 function getRuntimeTitle(fallback = BLANK_DEV_TITLE) {
     return typeof TITLE === "string" && TITLE ? TITLE : fallback;
@@ -132,8 +133,17 @@ function getDefaultSwitchPreviewEnabled(title) {
     return title !== "Platinum Kaizo";
 }
 
+function isAetherWhite2Title(title) {
+    return title === AETHER_WHITE_2_TITLE;
+}
+
+function canUseSwitchAiInfoForTitle(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    return Boolean((settings && settings.damageGen === 4) || isAetherWhite2Title(resolvedTitle));
+}
+
 function getDefaultSwitchAiInfoEnabled(title) {
-    return title === "Platinum Kaizo";
+    return title === "Platinum Kaizo" || isAetherWhite2Title(title);
 }
 
 function getDefaultPhysSpecSplitEnabled() {
@@ -258,7 +268,7 @@ function setInvertTypesEnabled(enabled, title) {
 }
 
 function shouldShowSwitchAiInfo() {
-    return Boolean(settings && settings.damageGen === 4 && getSwitchAiInfoEnabled());
+    return Boolean(canUseSwitchAiInfoForTitle() && getSwitchAiInfoEnabled());
 }
 
 function getBlankDevConfigDefaults() {
@@ -868,6 +878,20 @@ function setGameSettings(title) {
         alert("There is a bug in BW2 Challenge mode where the stats of a pokemon do not match it's displayed level. The calc will adjust the level to show it's true stats. However, the damage formula in this game uses Pokemon level as one of the inputs and this formula uses the incorrect displayed level. So the true power level of a pokemon is somewhere between the bugged displayed level, and the non challenge mode level. The challenge mode version of this calc takes into account this bug and adjusts the calculations accordingly.")
       })
     }
+    $('label[for="snow"]').hide()
+  } else if (title == "Aether White 2") {
+    gameGen = 5
+    settings.damageGen = 5
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 5;
+      settings.switchIn = 5;
+    }
+    settings.sourceType = "full"
+    settings.typeChart = 5;
+    settings.critGen = 5;
+    save_expansion = false
+    showDex = false;
+    showAI = true;
     $('label[for="snow"]').hide()
   } else if (title == "Photonic Sun/Prismatic Moon") {
     gameGen = 7

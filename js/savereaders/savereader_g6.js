@@ -191,9 +191,12 @@ function g67ParseSaveFile(arrayBuffer, variants) {
 }
 
 function g67DetectVariant(bytes, variants) {
-    const matched = Object.values(variants).find((variant) => bytes.length === variant.saveSize);
+    const requested = typeof window.requestedBaseGame === 'string' ? window.requestedBaseGame : '';
+    const candidates = requested && variants[requested] ? [variants[requested]] : Object.values(variants);
+    const matched = candidates.find((variant) => bytes.length === variant.saveSize);
     if (!matched) {
-        throw new Error(`Unsupported save size: 0x${bytes.length.toString(16)}`);
+        const suffix = requested && variants[requested] ? ` for ${requested}` : '';
+        throw new Error(`Unsupported save size${suffix}: 0x${bytes.length.toString(16)}`);
     }
     if (!g67HasBEEFFooter(bytes)) {
         throw new Error('Missing BEEF footer.');

@@ -35,6 +35,13 @@ const G3_VARIANT_EMERALD = {
     securityKeyOffset: 0x0AC,
     largeMoneyOffset: 0x0490
 };
+const G3_VARIANT_RS = {
+    key: 'RS',
+    partyCountOffset: 0x234,
+    partyBaseOffset: 0x238,
+    securityKeyOffset: null,
+    largeMoneyOffset: 0x0490
+};
 const G3_VARIANT_FRLG = {
     key: 'FRLG',
     partyCountOffset: 0x034,
@@ -273,7 +280,13 @@ function g3RebuildLogicalBuffers(bytes, slotInfo) {
 }
 
 function g3DetectGameVariant(buffers) {
-    const variants = [G3_VARIANT_EMERALD, G3_VARIANT_FRLG];
+    const requested = typeof window.requestedBaseGame === 'string' ? window.requestedBaseGame : '';
+    const requestedVariants = {
+        RS: G3_VARIANT_RS,
+        E: G3_VARIANT_EMERALD,
+        FRLG: G3_VARIANT_FRLG
+    };
+    const variants = requestedVariants[requested] ? [requestedVariants[requested]] : [G3_VARIANT_EMERALD, G3_VARIANT_RS, G3_VARIANT_FRLG];
     let best = null;
 
     for (const variant of variants) {
@@ -283,7 +296,7 @@ function g3DetectGameVariant(buffers) {
         }
 
         let score = 1;
-        const securityKey = g3ReadU32LE(buffers.smallBuffer, variant.securityKeyOffset) >>> 0;
+        const securityKey = variant.securityKeyOffset === null ? 0 : g3ReadU32LE(buffers.smallBuffer, variant.securityKeyOffset) >>> 0;
         const money = (g3ReadU32LE(buffers.largeBuffer, variant.largeMoneyOffset) ^ securityKey) >>> 0;
         if (money <= 999999) {
             score += 1;

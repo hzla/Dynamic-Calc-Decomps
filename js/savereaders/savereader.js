@@ -51,6 +51,7 @@ function chooseDsPairedBlockOffset(preferredSaveCount, block1SaveCount, block2Sa
 $(document).ready(function() {
     const hasConfiguredBaseGame = typeof window.baseGame === "string" && window.baseGame;
     const shouldUseDsSaveReader = (
+        window.baseGame == "DP" ||
         window.baseGame == "Pt" ||
         window.baseGame == "HGSS" ||
         window.baseGame == "BW" ||
@@ -98,7 +99,15 @@ $(document).ready(function() {
         savExt = saveFileName.slice(-3)
         currentParty = []
 
-        if (baseGame == "Pt") {
+        if (baseGame == "DP") {
+            partyCountOffset = 0x94
+            smallBlockSize = 0xC100
+            boxDataOffset = 0xC104
+            bigBlockStart = boxDataOffset - 4
+            bigBlockSize = 0x121E0
+            footerSize = 20
+            partyPokSize = 236
+        } else if (baseGame == "Pt") {
             partyCountOffset = 0x9C
             smallBlockSize = 0xCF2C
             boxDataOffset = 0xCF30
@@ -173,7 +182,7 @@ $(document).ready(function() {
 
                     smallBlockStart = 0
 
-                    if (baseGame == "Pt" || baseGame == "HGSS") {
+                    if (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS") {
                         smallBlock1SaveCount = read32BitIntegerFromUint8Array(view,  smallBlockSize - 16)
                         smallBlock2SaveCount = read32BitIntegerFromUint8Array(view,  smallBlockSize + 0x40000 - 16)
                         var smallBlock1Invalid = isEmptyOrInvalidDsSaveCounter(smallBlock1SaveCount)
@@ -250,7 +259,7 @@ $(document).ready(function() {
                     if (baseGame == "BW") {
                         liveBoxSlotCount = GEN5_BOX_SLOT_COUNT
                         totalBoxSlotCount = GEN5_BOX_SLOT_COUNT
-                    } else if (baseGame == "Pt" || baseGame == "HGSS") {
+                    } else if (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS") {
                         totalBoxSlotCount = 540
                     }
 
@@ -314,7 +323,11 @@ $(document).ready(function() {
                     console.log('First attempt failed, retrying with forceBlock2=true');
                     
                     // Reset any modified offsets before retry
-                    if (baseGame == "Pt") {
+                    if (baseGame == "DP") {
+                        partyCountOffset = 0x94
+                        boxDataOffset = 0xC104
+                        bigBlockStart = boxDataOffset - 4
+                    } else if (baseGame == "Pt") {
                         partyCountOffset = 0x9C
                         boxDataOffset = 0xCF30
                         bigBlockStart = boxDataOffset - 4
@@ -493,7 +506,7 @@ function tryParseLuaRawPartySlot0WithFallback(chunk, offset=0) {
 // Parse a DS PokeLua/DeSmuME Box-<tid>.json dump where `party` and `boxes` contain raw bytes.
 // Reuses parsePKM() so offsets/decryption stay aligned with the main Gen 4/5 save parser.
 function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
-    if (!(baseGame == "Pt" || baseGame == "HGSS" || baseGame == "BW")) {
+    if (!(baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS" || baseGame == "BW")) {
         throw new Error("parsePokeLuaGen4RawBoxDump only supports DS Pt/HGSS/BW");
     }
 
@@ -518,7 +531,7 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
         throw new Error(`Unexpected box struct size for DS dump (box=${boxStruct})`);
     }
 
-    if ((baseGame == "Pt" || baseGame == "HGSS") && partyStruct !== 236) {
+    if ((baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS") && partyStruct !== 236) {
         throw new Error(`Unexpected party struct size for Gen 4 dump (party=${partyStruct})`);
     }
 
@@ -539,7 +552,7 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
     for (let i = 0; i < partyCountParsed; i++) {
         const start = i * partyStruct;
         const chunk = partyBytes.slice(start, start + partyStruct);
-        if (i === 0 && (baseGame == "Pt" || baseGame == "HGSS")) {
+        if (i === 0 && (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS")) {
             showdownImport += tryParseLuaRawPartySlot0WithFallback(chunk, start);
         } else {
             showdownImport += parsePKM(chunk, true, start);
@@ -1008,7 +1021,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
     
     for (let i = 0;i < 10;i++) {
-        if (baseGame == "Pt" || baseGame == "HGSS") {
+        if (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS") {
             let letter = textTable[decryptedData[nn_data_offset + i]] || ""
             nn += letter
         } else {
@@ -1034,7 +1047,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
     let met_location
 
     const locationGameKey = getDsSaveLocationGameKey()
-    if (baseGame == "Pt" || baseGame == "HGSS") {
+    if (baseGame == "DP" || baseGame == "Pt" || baseGame == "HGSS") {
         met_location = locations[baseGame][decryptedData[move_data_offset + 15]] 
     } else {
         met_location = locations[locationGameKey][decryptedData[met_data_offset + 12]] 
