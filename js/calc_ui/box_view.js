@@ -34,10 +34,16 @@
     };
     const OFFENSIVE_IV_KEYS = ["at", "sa", "sp"];
     const DEFENSIVE_IV_KEYS = ["hp", "df", "sd"];
+    const BOX_CARD_STAT_VIEW_STORAGE_KEY = "boxCardStatView";
+    const BOX_CARD_STAT_VIEWS = {
+        "ivs": true,
+        "base-stats": true
+    };
     const boxViewState = {
         search: "",
         sortKey: "frags",
-        activeTypeSlugs: new Set()
+        activeTypeSlugs: new Set(),
+        statView: getSavedBoxCardStatView()
     };
     const OFFENSIVE_IV_DISTRIBUTION = buildIvSumDistribution(OFFENSIVE_IV_KEYS.length);
     const DEFENSIVE_IV_DISTRIBUTION = buildIvSumDistribution(DEFENSIVE_IV_KEYS.length);
@@ -85,6 +91,67 @@
         }
     }
 
+    function normalizeBoxCardStatView(viewName) {
+        return BOX_CARD_STAT_VIEWS[viewName] ? viewName : "ivs";
+    }
+
+    function getSavedBoxCardStatView() {
+        try {
+            return normalizeBoxCardStatView(localStorage.getItem(BOX_CARD_STAT_VIEW_STORAGE_KEY));
+        } catch (_err) {
+            return "ivs";
+        }
+    }
+
+    function persistBoxCardStatView() {
+        try {
+            localStorage.setItem(BOX_CARD_STAT_VIEW_STORAGE_KEY, boxViewState.statView);
+        } catch (_err) {
+        }
+    }
+
+    function syncBoxCardStatViewUi(root) {
+        const activeView = normalizeBoxCardStatView(boxViewState.statView);
+        const scope = root ? $(root) : $(document);
+
+        scope.find(".box-stat-view-option[data-box-card-stat-view]").each(function () {
+            const isActive = $(this).attr("data-box-card-stat-view") === activeView;
+            $(this).toggleClass("active", isActive).attr("aria-pressed", isActive ? "true" : "false");
+        });
+
+        scope.find(".box-radar-tab[data-radar-view]").each(function () {
+            const isActive = $(this).attr("data-radar-view") === activeView;
+            $(this).toggleClass("active", isActive).attr("aria-selected", isActive ? "true" : "false");
+        });
+
+        scope.find(".box-card-radar-panel").each(function () {
+            $(this).toggleClass("active", $(this).attr("data-radar-panel") === activeView);
+        });
+    }
+
+    function setBoxCardStatView(nextView) {
+        boxViewState.statView = normalizeBoxCardStatView(nextView);
+        persistBoxCardStatView();
+        syncBoxCardStatViewUi();
+        lastRenderedFingerprint = null;
+    }
+
+    function setSingleBoxCardStatView(radarWrap, nextView) {
+        const activeView = normalizeBoxCardStatView(nextView);
+        if (!radarWrap || !radarWrap.length) {
+            return;
+        }
+
+        radarWrap.find(".box-radar-tab[data-radar-view]").each(function () {
+            const isActive = $(this).attr("data-radar-view") === activeView;
+            $(this).toggleClass("active", isActive).attr("aria-selected", isActive ? "true" : "false");
+        });
+
+        radarWrap.find(".box-card-radar-panel").each(function () {
+            $(this).toggleClass("active", $(this).attr("data-radar-panel") === activeView);
+        });
+    }
+
     function escapeHtml(value) {
         return String(value ?? "")
             .replace(/&/g, "&amp;")
@@ -120,7 +187,8 @@
             localStorage.getItem("encounters") || "",
             localStorage.getItem("battleLogs") || "",
             localStorage.getItem("battleLogImportantTrainersOnly") || "",
-            localStorage.getItem("showAbilitySlot") || ""
+            localStorage.getItem("showAbilitySlot") || "",
+            boxViewState.statView
         ].join("::");
     }
 
@@ -456,18 +524,19 @@
     }
 
     function getRadarTabsMarkup(entry) {
+        const activeView = normalizeBoxCardStatView(boxViewState.statView);
         return `
             <div class="box-card-radar-panels">
-                <div class="box-card-radar-panel active" data-radar-panel="ivs">
+                <div class="box-card-radar-panel${activeView === "ivs" ? " active" : ""}" data-radar-panel="ivs">
                     ${getIvRadarMarkup(entry.setData)}
                 </div>
-                <div class="box-card-radar-panel box-card-radar-panel-stats" data-radar-panel="base-stats">
+                <div class="box-card-radar-panel box-card-radar-panel-stats${activeView === "base-stats" ? " active" : ""}" data-radar-panel="base-stats">
                     ${getBaseStatPanelMarkup(entry.baseStats)}
                 </div>
             </div>
             <div class="box-card-radar-tabs" role="tablist" aria-label="Radar chart view">
-                <button type="button" role="tab" class="box-radar-tab active" data-radar-view="ivs" aria-selected="true">IVs</button>
-                <button type="button" role="tab" class="box-radar-tab" data-radar-view="base-stats" aria-selected="false">Base Stats</button>
+                <button type="button" role="tab" class="box-radar-tab${activeView === "ivs" ? " active" : ""}" data-radar-view="ivs" aria-selected="${activeView === "ivs" ? "true" : "false"}">IVs</button>
+                <button type="button" role="tab" class="box-radar-tab${activeView === "base-stats" ? " active" : ""}" data-radar-view="base-stats" aria-selected="${activeView === "base-stats" ? "true" : "false"}">Base Stats</button>
             </div>
         `;
     }
@@ -765,6 +834,7 @@
         boxControlsInitialized = true;
         renderBoxControlsUi();
         syncBoxControlsUi();
+        syncBoxCardStatViewUi("#box-controls");
 
         $(document).on("input", "#box-search-input", function () {
             boxViewState.search = String($(this).val() || "");
@@ -776,6 +846,10 @@
             boxViewState.sortKey = "frags";
             boxViewState.activeTypeSlugs.clear();
             renderBoxView(true);
+        });
+
+        $(document).on("click", ".box-stat-view-option[data-box-card-stat-view]", function () {
+            setBoxCardStatView($(this).attr("data-box-card-stat-view"));
         });
 
         $(document).on("click", ".box-filter-btn[data-box-sort]", function () {
@@ -806,15 +880,7 @@
             if (!nextView || !radarWrap.length) {
                 return;
             }
-
-            radarWrap.find(".box-radar-tab").each(function () {
-                const isActive = $(this).attr("data-radar-view") === nextView;
-                $(this).toggleClass("active", isActive).attr("aria-selected", isActive ? "true" : "false");
-            });
-
-            radarWrap.find(".box-card-radar-panel").each(function () {
-                $(this).toggleClass("active", $(this).attr("data-radar-panel") === nextView);
-            });
+            setSingleBoxCardStatView(radarWrap, nextView);
         });
     }
 
@@ -837,6 +903,7 @@
 
         renderBoxControlsUi(typeCounts);
         syncBoxControlsUi();
+        syncBoxCardStatViewUi("#box-controls");
 
         if (!allEntries.length) {
             cardGrid.innerHTML = "";
@@ -869,6 +936,7 @@
 
         emptyState.style.display = "none";
         cardGrid.innerHTML = filteredEntries.map(renderBoxCard).join("");
+        syncBoxCardStatViewUi("#box-view");
         lastRenderedFingerprint = fingerprint;
     }
 

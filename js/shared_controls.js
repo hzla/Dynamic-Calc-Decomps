@@ -972,12 +972,18 @@ function autosetTerrain(ability, i) {
 	}
 }
 
-function shouldInferPlatinumHiddenPower(moveName) {
-	return typeof TITLE === "string" && TITLE.includes("Platinum") && moveName === "Hidden Power";
+function shouldInferHiddenPowerFromIVs(moveName) {
+	if (moveName !== "Hidden Power") {
+		return false;
+	}
+	if (typeof settings !== "undefined" && settings && settings.damageGen === 3) {
+		return true;
+	}
+	return typeof TITLE === "string" && TITLE.includes("Platinum");
 }
 
 function getHiddenPowerDetailsFromIVs(pokeObj, moveName) {
-	if (!shouldInferPlatinumHiddenPower(moveName)) {
+	if (!shouldInferHiddenPowerFromIVs(moveName)) {
 		return null;
 	}
 
@@ -994,7 +1000,7 @@ function getHiddenPowerDetailsFromIVs(pokeObj, moveName) {
 }
 
 function refreshInferredHiddenPower(pokeObj) {
-	if (typeof TITLE !== "string" || !TITLE.includes("Platinum")) {
+	if (!shouldInferHiddenPowerFromIVs("Hidden Power")) {
 		return;
 	}
 

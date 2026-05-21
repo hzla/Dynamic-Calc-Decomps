@@ -1556,6 +1556,7 @@ input[type="file"] {
 
 .box-controls-search-row {
     display: flex;
+    align-items: center;
     gap: 12px;
     margin-bottom: 12px;
 }
@@ -1585,9 +1586,40 @@ input[type="file"] {
 
 #box-clear-filters {
     flex: 0 0 auto;
+    height: 44px;
     min-width: 110px;
     padding: 0 16px;
     font-size: 16px;
+}
+
+.box-stat-view-toggle {
+    box-sizing: border-box;
+    display: inline-grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    flex: 0 0 210px;
+    height: 44px;
+    overflow: hidden;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 12px;
+    background: rgba(24, 24, 24, 0.85);
+}
+
+.box-stat-view-option {
+    min-width: 0;
+    padding: 0 12px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: rgba(248, 248, 242, 0.72);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.box-stat-view-option + .box-stat-view-option {
+    border-left: 1px solid rgba(118, 118, 118, 0.65);
 }
 
 #box-sort-buttons {
@@ -1622,16 +1654,19 @@ input[type="file"] {
 }
 
 #box-clear-filters:hover,
+.box-stat-view-option:hover,
 .box-filter-btn:hover,
 .box-type-filter:hover,
 .box-card-sprite-wrap:hover {
     background: rgba(255,255,255,0.08);
 }
 
+.box-stat-view-option.active,
 .box-filter-btn.active,
 .box-type-filter.active {
     border-color: #bb86fc;
     background: rgba(187, 134, 252, 0.18);
+    color: #f8f8f2;
 }
 
 .box-type-filter-icon {
@@ -5236,7 +5271,13 @@ table.field {
   }
 
   .box-controls-search-row {
+    align-items: stretch;
     flex-direction: column;
+  }
+
+  .box-stat-view-toggle {
+    width: 100%;
+    flex-basis: auto;
   }
 
   #box-clear-filters {
