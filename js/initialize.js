@@ -328,6 +328,7 @@ let learnsetClosable = false;
 let movePPs = {};
 
 let calcingForSwitchIns = false;
+let p1Name              = "";
 let changingSets        = false;
 var initializing        = false;
 let terminalStarted     = false;

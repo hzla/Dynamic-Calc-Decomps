@@ -12,6 +12,15 @@ function shouldUseVanillaGen789(title) {
     return title === "Pokemon Null" || title === "Pokemon Null 1.2" ||
         (typeof title === "string" && title.indexOf("Little Emerald") !== -1);
 }
+function isCalcingForSwitchInsActive() {
+    return typeof calcingForSwitchIns !== "undefined" && calcingForSwitchIns;
+}
+function getSwitchInPlayerName() {
+    return typeof p1Name !== "undefined" ? p1Name : "";
+}
+function isLocalStorageFlagEnabled(flagName) {
+    return typeof localStorage !== "undefined" && localStorage && localStorage[flagName] == '1';
+}
 function calculateSMSSSV(gen, attacker, defender, move, field) {
     var _a;
     var title = typeof TITLE === "string" ? TITLE : "";
@@ -77,9 +86,14 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         isWonderRoom: field.isWonderRoom
     };
     ctx.desc = desc;
-    dynamicTypeBugActive = (calcingForSwitchIns && attacker.name != p1Name && localStorage.dynamicTypeBug == '1')
+    var playerName = getSwitchInPlayerName();
+    var isSwitchInCalc = isCalcingForSwitchInsActive();
+    var isDynamicTypeBugActive = (isSwitchInCalc && attacker.name != playerName && isLocalStorageFlagEnabled('dynamicTypeBug'));
+    if (typeof dynamicTypeBugActive !== "undefined") {
+        dynamicTypeBugActive = isDynamicTypeBugActive;
+    }
     
-    if (calcingForSwitchIns) {
+    if (isSwitchInCalc) {
         if (typeof field.weather == 'undefined') {
             field.weather = $("input:radio[name='weather']:checked").val();
         }
@@ -149,7 +163,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         if (critStage == 3) {
             move.isCrit = true;
         // AI sees crit stage 2 as crit damage when calcing for switch ins    
-        } else if (calcingForSwitchIns && attacker.name != p1Name && critStage >= 2) {
+        } else if (isSwitchInCalc && attacker.name != playerName && critStage >= 2) {
             move.isCrit = true;
         }
 
@@ -233,7 +247,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         field.defenderSide.isReflect = false;
         field.defenderSide.isLightScreen = false;
         field.defenderSide.isAuroraVeil = false;
-    } else if (move.named('Ivy Cudgel') && attacker.name != p1Name) {
+    } else if (move.named('Ivy Cudgel') && attacker.name != playerName) {
         if (attacker.name.includes('Ogerpon-Cornerstone')) {
             type = 'Rock';
         }
@@ -244,7 +258,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             type = 'Water';
         }
     }
-    if (move.name.includes("Hidden Power") && dynamicTypeBugActive) {
+    if (move.name.includes("Hidden Power") && isDynamicTypeBugActive) {
         type = 'Dark';
     }
 
@@ -256,7 +270,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var isLiquidVoice = false;
     var isNormalize = false;
     var noTypeChange = move.named('Revelation Dance', 'Judgment', 'Nature Power', 'Techno Blast', 'Multi-Attack', 'Natural Gift', 'Weather Ball', 'Terrain Pulse', 'Raging Bull', 'Struggle') || (move.named('Tera Blast') && attacker.teraType);
-    if (!move.isZ && !noTypeChange && !dynamicTypeBugActive) {
+    if (!move.isZ && !noTypeChange && !isDynamicTypeBugActive) {
         var normal = move.hasType('Normal');
         if ((isAerilate = attacker.hasAbility('Aerilate') && normal)) {
             type = 'Flying';
@@ -1439,7 +1453,7 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         desc.attackerItem = attacker.item;
     }
     // ignore resist berries when calcing for switch ins
-    if (!calcingForSwitchIns && move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
+    if (!isCalcingForSwitchInsActive() && move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
         (typeEffectiveness > 1 || move.hasType('Normal')) &&
         hitCount === 0 &&
         !attacker.hasAbility('Unnerve', 'As One (Glastrier)', 'As One (Spectrier)')) {

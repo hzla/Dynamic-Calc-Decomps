@@ -96,6 +96,7 @@ function get_next_in_g4() {
     var p2info = $("#p2");
     var p1 = createPokemon(p1info);
     var p2 = createPokemon(p2info);
+    p1Name = p1.name
     var p1field = createField();
     var p2field = p1field.clone().swap();
 
