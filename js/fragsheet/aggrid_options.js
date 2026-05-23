@@ -509,6 +509,43 @@ function getSpeciesFamilyMembers(speciesName) {
     return speciesName ? [speciesName] : []
 }
 
+const WORMADAM_FORM_SPECIES = {
+    "Wormadam": true,
+    "Wormadam-Sandy": true,
+    "Wormadam-Trash": true
+}
+
+function isWormadamFormSpecies(speciesName) {
+    return Boolean(WORMADAM_FORM_SPECIES[speciesName])
+}
+
+function areInterchangeableWormadamForms(speciesName, otherSpeciesName) {
+    return isWormadamFormSpecies(speciesName) && isWormadamFormSpecies(otherSpeciesName)
+}
+
+function speciesHasDeadEncounter(speciesName, encounterMap) {
+    return Boolean(encounterMap && encounterMap[speciesName] && encounterMap[speciesName].alive === false)
+}
+
+function hasLiveWormadamFormEncounter(speciesName, encounterMap) {
+    if (!isWormadamFormSpecies(speciesName) || !encounterMap || typeof encounterMap !== "object") {
+        return false
+    }
+
+    let currentBoxSets = safeParseStoredObject(localStorage.customsets)
+    for (let formSpeciesName in WORMADAM_FORM_SPECIES) {
+        if (encounterMap[formSpeciesName] && encounterMap[formSpeciesName].alive !== false) {
+            return true
+        }
+
+        if (speciesExistsInCustomSets(formSpeciesName, currentBoxSets) && !speciesHasDeadEncounter(formSpeciesName, encounterMap)) {
+            return true
+        }
+    }
+
+    return false
+}
+
 function getFragEntryValue(fragEntry) {
     if (fragEntry && typeof fragEntry === "object") {
         return String(fragEntry.value || "")
@@ -681,6 +718,11 @@ function speciesExistsInBoxOrEncounters(speciesName, encounters, boxSets) {
 }
 
 function getFragsheetDisplaySpecies(speciesName, encounters, boxSets) {
+    let latestImportedWormadamForm = findLatestImportedWormadamForm(boxSets)
+    if (latestImportedWormadamForm && isWormadamFormSpecies(speciesName)) {
+        return latestImportedWormadamForm
+    }
+
     let resolved = resolveEvoEntry(speciesName)
     if (!resolved) {
         return speciesName
@@ -832,9 +874,13 @@ function isSpeciesFamilyMarkedDead(speciesName, encounterMap) {
         : safeParseStoredObject(localStorage.encounters)
 
     let familyMembers = getSpeciesFamilyMembers(speciesName)
+    let hasLiveEquivalentWormadamForm = hasLiveWormadamFormEncounter(speciesName, encountersMap)
     for (let i = 0; i < familyMembers.length; i++) {
         let familySpecies = familyMembers[i]
         if (encountersMap[familySpecies] && encountersMap[familySpecies].alive === false) {
+            if (hasLiveEquivalentWormadamForm && areInterchangeableWormadamForms(speciesName, familySpecies)) {
+                continue
+            }
             return true
         }
     }
@@ -865,6 +911,21 @@ function getImportBatchIdForSpeciesEntry(entry) {
     return ""
 }
 
+function findLatestImportedWormadamForm(sourceData) {
+    let latestBatchId = getLatestBoxImportBatchId()
+    if (!latestBatchId || !sourceData || typeof sourceData !== "object") {
+        return null
+    }
+
+    for (let formSpeciesName in WORMADAM_FORM_SPECIES) {
+        if (getImportBatchIdForSpeciesEntry(sourceData[formSpeciesName]) === latestBatchId) {
+            return formSpeciesName
+        }
+    }
+
+    return null
+}
+
 function findLatestImportedLaterEvolution(speciesName, sourceData) {
     let latestBatchId = getLatestBoxImportBatchId()
     if (!latestBatchId || !sourceData || typeof sourceData !== "object") {
@@ -873,6 +934,11 @@ function findLatestImportedLaterEvolution(speciesName, sourceData) {
 
     if (getImportBatchIdForSpeciesEntry(sourceData[speciesName]) === latestBatchId) {
         return null
+    }
+
+    let latestImportedWormadamForm = findLatestImportedWormadamForm(sourceData)
+    if (latestImportedWormadamForm && isWormadamFormSpecies(speciesName)) {
+        return latestImportedWormadamForm
     }
 
     let resolved = resolveEvoEntry(speciesName)
