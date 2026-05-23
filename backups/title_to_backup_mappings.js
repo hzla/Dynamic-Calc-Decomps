@@ -6,6 +6,7 @@ backupFiles = {
 	"Renegade Platinum": "rp",
 	"Sacred Gold/Storm Silver": "sgss",
 	"Aether White 2": "aetherwhite",
+	"Wishy Washy White 2": "wishywashy",
 	"Ancestral X": "ax",
 	"Rising Ruby/Sinking Saphire": "rrss",
 	"Emerald Kaizo": "ek",
@@ -55,6 +56,7 @@ backupFiles = {
 
 sourceTitleAliases = {
 	"aetherwhite": "Aether White 2",
+	"wishywashy": "Wishy Washy White 2",
 	"bb2redux": "Blaze Black 2/Volt White 2 Redux",
 	"bb8579a3798fd63b429d": "Royal Sapphire",
 	"platredux": "Platinum Redux",

@@ -94,8 +94,12 @@ $(document).ready(function () {
                         replaceDeadMons: true
                     });
                 } else {
-                    $('.import-team-text').val(result.showdownImport);
-                    $('#import').click();
+                    if (typeof importShowdownTextIntoImporter === 'function') {
+                        importShowdownTextIntoImporter(result.showdownImport, false, { applyRomReplacements: true });
+                    } else {
+                        $('.import-team-text').val(result.showdownImport);
+                        $('#import').click();
+                    }
                 }
             } catch (err) {
                 console.error('Failed to parse vanilla Gen 3 save file.', err);

@@ -520,20 +520,60 @@ function shouldApplyImportRomReplacements(importOptions) {
 	return !!importOptions.applyRomReplacements;
 }
 
+function getNamedReplacement(replacements, name) {
+	if (!replacements || typeof replacements !== "object" || !name) {
+		return null
+	}
+
+	if (Object.prototype.hasOwnProperty.call(replacements, name)) {
+		return replacements[name]
+	}
+
+	var nameId = cleanString(name)
+	if (Object.prototype.hasOwnProperty.call(replacements, nameId)) {
+		return replacements[nameId]
+	}
+
+	for (var replacementKey in replacements) {
+		if (cleanString(replacementKey) === nameId) {
+			return replacements[replacementKey]
+		}
+	}
+
+	return null
+}
+
+function canonicalizeImportedMoveReplacement(move) {
+	if (!move) {
+		return move
+	}
+
+	var moveName = String(move).trim()
+	var moveId = cleanString(moveName)
+	var genMovesById = (typeof MOVES_BY_ID !== "undefined" && MOVES_BY_ID && MOVES_BY_ID[gen]) ? MOVES_BY_ID[gen] : {}
+
+	if (genMovesById[moveName] && genMovesById[moveName].name) {
+		return genMovesById[moveName].name
+	}
+	if (genMovesById[moveId] && genMovesById[moveId].name) {
+		return genMovesById[moveId].name
+	}
+
+	return moveName
+}
+
 function normalizeImportedMoveName(move, importOptions) {
 	if (shouldApplyImportRomReplacements(importOptions)) {
 		var titleMoveChanges = getMoveChangesForTitle(TITLE)
-		if (titleMoveChanges[move]) {
-			move = titleMoveChanges[move]
+		var titleReplacement = getNamedReplacement(titleMoveChanges, move)
+		if (titleReplacement) {
+			move = canonicalizeImportedMoveReplacement(titleReplacement)
 		}
 
 		if (backup_data["move_replacements"]) {
-			let moveId = cleanString(move)
-			if (backup_data["move_replacements"][moveId]) {
-				let defaultMoveData = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]]
-				if (defaultMoveData) {
-					move = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]].name
-				}
+			let backupReplacement = getNamedReplacement(backup_data["move_replacements"], move)
+			if (backupReplacement) {
+				move = canonicalizeImportedMoveReplacement(backupReplacement)
 			}
 		}
 	}
@@ -1694,21 +1734,9 @@ function parseDdexTemporaryOpponentImport(text) {
 		}
 
 		if (line[0] === "-" && parsed.moves.length < 4) {
-				var move = line.substr(1).trim().replace("[", "").replace("]", "").replace("  ", " ");
-				if (!move) continue;
-				var titleMoveChanges = getMoveChangesForTitle(TITLE);
-				if (titleMoveChanges[move]) {
-					move = titleMoveChanges[move];
-				}
-			if (backup_data["move_replacements"]) {
-				var moveId = cleanString(move);
-				if (backup_data["move_replacements"][moveId] && MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]]) {
-					move = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]].name;
-				}
-			}
-			if (!TITLE.includes("Sterling") && !TITLE.includes("Maximum") && !TITLE.includes("Ancestral")) {
-				move = move.replace("HP ", "Hidden Power");
-			}
+			var move = line.substr(1).trim().replace("[", "").replace("]", "").replace("  ", " ");
+			if (!move) continue;
+			move = normalizeImportedMoveName(move, { applyRomReplacements: true });
 			parsed.moves.push(move);
 		}
 	}
@@ -2261,7 +2289,7 @@ function applyImportedSnapshot(snapshot) {
 		};
 
 		if (showdownImport.trim()) {
-			importShowdownTextIntoImporter(showdownImport, false);
+			importShowdownTextIntoImporter(showdownImport, false, { applyRomReplacements: true });
 			return;
 		}
 

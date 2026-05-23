@@ -628,6 +628,21 @@
                     description: ""
                 }
             ]
+        },
+        "wishy-washy-white-2": {
+            id: "wishy-washy-white-2",
+            title: "Wishy Washy White 2",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Wishy Washy White 2",
+            variants: [
+                {
+                    label: "White 2 Base Rom",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=wishywashy&gen=8&types=5",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
         }
     };
 
@@ -709,6 +724,7 @@
                 "sterling-silver",
                 "unbound",
                 "vintage-white-plus",
+                "wishy-washy-white-2",
                 "rigorous-red"
             ]
         }
