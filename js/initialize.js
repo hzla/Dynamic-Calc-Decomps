@@ -59,6 +59,7 @@ const mastersheetSourcesByTitle = {
 const PLATINUM_REDUX_TYPE_CHART = 9;
 const PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY = "platinumReduxTypeChart";
 const AETHER_WHITE_2_TITLE = "Aether White 2";
+const WISHY_WASHY_WHITE_2_TITLE = "Wishy Washy White 2";
 
 function getRuntimeTitle(fallback = BLANK_DEV_TITLE) {
     return typeof TITLE === "string" && TITLE ? TITLE : fallback;
@@ -133,17 +134,17 @@ function getDefaultSwitchPreviewEnabled(title) {
     return title !== "Platinum Kaizo";
 }
 
-function isAetherWhite2Title(title) {
-    return title === AETHER_WHITE_2_TITLE;
+function isWhite2BaseRomTitle(title) {
+    return title === AETHER_WHITE_2_TITLE || title === WISHY_WASHY_WHITE_2_TITLE;
 }
 
 function canUseSwitchAiInfoForTitle(title) {
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
-    return Boolean((settings && settings.damageGen === 4) || isAetherWhite2Title(resolvedTitle));
+    return Boolean((settings && settings.damageGen === 4) || isWhite2BaseRomTitle(resolvedTitle));
 }
 
 function getDefaultSwitchAiInfoEnabled(title) {
-    return title === "Platinum Kaizo" || isAetherWhite2Title(title);
+    return title === "Platinum Kaizo" || isWhite2BaseRomTitle(title);
 }
 
 function getDefaultPhysSpecSplitEnabled() {
@@ -880,7 +881,7 @@ function setGameSettings(title) {
       })
     }
     $('label[for="snow"]').hide()
-  } else if (title == "Aether White 2") {
+  } else if (isWhite2BaseRomTitle(title)) {
     gameGen = 5
     settings.damageGen = 5
     if (!settings.noSwitch) {
