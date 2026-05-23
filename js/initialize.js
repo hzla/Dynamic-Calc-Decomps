@@ -150,6 +150,42 @@ function isPokemonColorsTitle(title) {
     return title === POKEMON_COLORS_NORMAL_TITLE || title === POKEMON_COLORS_CLASSIC_TITLE;
 }
 
+function getDefaultMoveCategoryForName(moveName) {
+    if (typeof MOVES_BY_ID === "undefined" || !MOVES_BY_ID) {
+        return null;
+    }
+
+    var moveId = cleanString(moveName);
+    var defaultCategoryGenerations = [9, 8, 7, 6, 5, 4];
+    for (var i = 0; i < defaultCategoryGenerations.length; i++) {
+        var categoryGen = defaultCategoryGenerations[i];
+        var defaultMoveData = MOVES_BY_ID[categoryGen] && MOVES_BY_ID[categoryGen][moveId];
+        if (defaultMoveData && defaultMoveData.category) {
+            return defaultMoveData.category;
+        }
+    }
+
+    return null;
+}
+
+function applyPokemonColorsDefaultMoveCategories(data) {
+    if (!isPokemonColorsTitle(getRuntimeTitle("")) || !data || !data.moves) {
+        return;
+    }
+
+    for (var moveName in data.moves) {
+        var importedMoveData = data.moves[moveName];
+        if (!importedMoveData || importedMoveData.category) {
+            continue;
+        }
+
+        var defaultCategory = getDefaultMoveCategoryForName(moveName);
+        if (defaultCategory) {
+            importedMoveData.category = defaultCategory;
+        }
+    }
+}
+
 function canUseSwitchAiInfoForTitle(title) {
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     return Boolean((settings && settings.damageGen === 4) || isWhite2BaseRomTitle(resolvedTitle));
@@ -159,8 +195,9 @@ function getDefaultSwitchAiInfoEnabled(title) {
     return title === "Platinum Kaizo" || isWhite2BaseRomTitle(title);
 }
 
-function getDefaultPhysSpecSplitEnabled() {
-    return Boolean(settings && settings.damageGen >= 4);
+function getDefaultPhysSpecSplitEnabled(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle("");
+    return Boolean(isPokemonColorsTitle(resolvedTitle) || (settings && settings.damageGen >= 4));
 }
 
 function canUseInvertTypesSetting() {
@@ -200,7 +237,7 @@ function getPhysSpecSplitEnabled(title) {
     return getTitleScopedStoredBool(
         PHYS_SPEC_SPLIT_STORAGE_PREFIX,
         resolvedTitle,
-        getDefaultPhysSpecSplitEnabled()
+        getDefaultPhysSpecSplitEnabled(resolvedTitle)
     );
 }
 
@@ -1786,6 +1823,7 @@ function loadDataSource(data) {
 
 
     
+    applyPokemonColorsDefaultMoveCategories(data)
     jsonMoves = data["moves"]
     customMoves = data["custom_moves"]
     var jsonMove

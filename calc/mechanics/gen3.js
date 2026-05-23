@@ -283,7 +283,7 @@ function calculateAttackADV(gen, attacker, defender, move, desc, isCritical, fie
         desc.attackerAbility = attacker.ability;
     }
     if (!attacker.hasItem('Sea Incense') && move.hasType((0, items_1.getItemBoostType)(attacker.item))) {
-        if (TITLE == "Autumn Red") {
+        if (TITLE == "Autumn Red" || TITLE.includes("Colors")) {
            at = Math.floor(at * 1.2);
         } else {
            at = Math.floor(at * 1.1); 
@@ -353,7 +353,7 @@ function calculateDefenseADV(gen, defender, move, desc, isCritical, field) {
         df = Math.floor(df * 1.5);
         desc.defenderAbility = defender.ability;
     }
-    if (move.named('Explosion', 'Self-Destruct')) {
+    if (move.named('Explosion', 'Self-Destruct', 'Misty Explosion')  && !TITLE.includes("Pokemon Colors") ) {
         df = Math.floor(df / 2);
     }
     var defenseBoost = defender.boosts[defenseStat];

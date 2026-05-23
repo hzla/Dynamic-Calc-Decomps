@@ -845,7 +845,7 @@ function handleFixedDamageMoves(attacker, move, defender=null) {
     if (move.named('Seismic Toss', 'Night Shade')) {
         return attacker.level;
     }
-    else if (move.named('Dragon Rage') && !TITLE.includes("Cascade")) {
+    else if (move.named('Dragon Rage') && !TITLE.includes("Cascade") && !TITLE.includes("Pokemon Colors")) {
         return 40;
     }
     else if (move.named('Sonic Boom')) {

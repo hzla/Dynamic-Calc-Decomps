@@ -26,8 +26,14 @@ describe('Pokemon Colors calc configuration', () => {
           expect(runtimeSettings.typeChart).to.eq(3)
           expect(runtimeSettings.critGen).to.eq(5)
           expect(runtimeSettings.sourceType).to.eq('full')
+          expect(runtimeSettings.physSpecSplit).to.eq(true)
           expect(win.baseGame).to.eq('g3')
           expect(win.$('#read-save').attr('for')).to.eq('save-upload')
+
+          expect(win.backup_data.moves['Hyper Beam'].category).to.eq('Special')
+          expect(win.backup_data.moves.Pound.category).to.eq('Physical')
+          expect(win.MOVES_BY_ID[8].hyperbeam.category).to.eq('Special')
+          expect(win.MOVES_BY_ID[8].pound.category).to.eq('Physical')
 
           expect(win.$('#open-dex').is(':visible')).to.eq(false)
           expect(win.$('#main-nav-dex').is(':visible')).to.eq(false)
