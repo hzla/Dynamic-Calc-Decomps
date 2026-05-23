@@ -155,6 +155,36 @@ describe('Cascade gen56 damage modifiers', function () {
             expectNonZero(cascRes);
         });
 
+        test('Gen 5 Challenge Mode uses loaded set level diff for damage level', function () {
+            var spec = {
+                attacker: function (c) { return P(c, 'Mew', { level: 20, evs: { atk: 0 } }); },
+                defender: function (c) { return P(c, 'Mew', { level: 20, evs: { hp: 0, def: 0 } }); },
+                move: function (c) { return M(c, 'Tackle'); }
+            };
+            var baseRes = calcResult(ctx, 'Aether White 2', spec);
+            var challengeRes = calcResult(ctx, 'Aether White 2', spec, {
+                settings: { challengeMode: true },
+                get_current_in: function () { return { level: 20, diff: 5, noCh: false }; },
+                $: function () { return [{}, {}, {}, { value: 'Mew (Lvl 20 Trainer)' }]; }
+            });
+            expect(challengeRes.range()[0]).toBeGreaterThan(baseRes.range()[0]);
+        });
+
+        test('Gen 5 Challenge Mode accepts zero loaded set level diff', function () {
+            var spec = {
+                attacker: function (c) { return P(c, 'Mew', { level: 20, evs: { atk: 0 } }); },
+                defender: function (c) { return P(c, 'Mew', { level: 20, evs: { hp: 0, def: 0 } }); },
+                move: function (c) { return M(c, 'Tackle'); }
+            };
+            var baseRes = calcResult(ctx, 'Wishy Washy White 2', spec);
+            var challengeRes = calcResult(ctx, 'Wishy Washy White 2', spec, {
+                settings: { challengeMode: true },
+                get_current_in: function () { return { level: 20, diff: 0, noCh: false }; },
+                $: function () { return [{}, {}, {}, { value: 'Mew (Lvl 20 Trainer)' }]; }
+            });
+            expect(challengeRes.damage).toEqual(baseRes.damage);
+        });
+
         test('Chip Away neutralizes -ate type immunities', function () {
             var spec = {
                 attacker: function (c) { return P(c, 'Mew', { ability: 'Galvanize' }); },

@@ -51,6 +51,7 @@ const SWITCH_PREVIEW_STORAGE_PREFIX = "calcSwitchPreview:";
 const SWITCH_AI_INFO_STORAGE_PREFIX = "calcSwitchAiInfo:";
 const PHYS_SPEC_SPLIT_STORAGE_PREFIX = "calcPhysSpecSplit:";
 const INVERT_TYPES_STORAGE_PREFIX = "calcInvertTypes:";
+const CHALLENGE_MODE_STORAGE_PREFIX = "calcChallengeMode:";
 const mastersheetSourcesByTitle = {
   "Cascade White": "cascadewhite",
   "Cascade White Dev": "cascadewhite2",
@@ -140,6 +141,11 @@ function isWhite2BaseRomTitle(title) {
     return title === AETHER_WHITE_2_TITLE || title === WISHY_WASHY_WHITE_2_TITLE;
 }
 
+function isBlazeBlack2ReduxTitle(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle("");
+    return resolvedTitle === "Blaze Black 2/Volt White 2 Redux" || resolvedTitle === "Blaze Black 2 Redux";
+}
+
 function isPokemonColorsTitle(title) {
     return title === POKEMON_COLORS_NORMAL_TITLE || title === POKEMON_COLORS_CLASSIC_TITLE;
 }
@@ -159,6 +165,11 @@ function getDefaultPhysSpecSplitEnabled() {
 
 function canUseInvertTypesSetting() {
     return Boolean(settings && settings.damageGen >= 3 && settings.damageGen <= 8);
+}
+
+function canUseChallengeModeSetting(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    return Boolean(settings && settings.damageGen === 5 && !isBlazeBlack2ReduxTitle(resolvedTitle));
 }
 
 function getSwitchPreviewEnabled(title, options) {
@@ -272,6 +283,35 @@ function setInvertTypesEnabled(enabled, title) {
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
     setTitleScopedStoredBool(INVERT_TYPES_STORAGE_PREFIX, resolvedTitle, enabled);
     syncGameScopedInvertTypesSettings(resolvedTitle);
+}
+
+function getChallengeModeEnabled(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    if (typeof localStorage !== "undefined") {
+        var storedValue = localStorage.getItem(getTitleScopedStorageKey(CHALLENGE_MODE_STORAGE_PREFIX, resolvedTitle));
+        if (storedValue === "1") return true;
+        if (storedValue === "0") return false;
+    }
+
+    if (params.get("challengeMode") === "true") {
+        return true;
+    }
+    if (params.get("challengeMode") === "false") {
+        return false;
+    }
+
+    return !!(settings && settings.challengeMode);
+}
+
+function syncGameScopedChallengeModeSettings(title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    settings.challengeMode = getChallengeModeEnabled(resolvedTitle);
+}
+
+function setChallengeModeEnabled(enabled, title) {
+    var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    setTitleScopedStoredBool(CHALLENGE_MODE_STORAGE_PREFIX, resolvedTitle, enabled);
+    syncGameScopedChallengeModeSettings(resolvedTitle);
 }
 
 function shouldShowSwitchAiInfo() {
@@ -1077,6 +1117,7 @@ function setGameSettings(title) {
 
   toggleGen3SwitchGuide();
   applyPlatinumReduxTypeChartSetting(title);
+  syncGameScopedChallengeModeSettings(title);
   syncGameScopedPhysSpecSplitSettings(title);
   syncGameScopedInvertTypesSettings(title);
 }

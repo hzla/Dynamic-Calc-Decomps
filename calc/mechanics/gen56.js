@@ -856,12 +856,46 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         var delta = 0;
         // Check if challenge mode, if calculating trainer pok, and if trainer pok is in challenge mode exception list
         var currentTrainerMon = settings.challengeMode && typeof get_current_in === "function" ? get_current_in(false) : null;
-        if (settings.challengeMode && currentTrainerMon && !(settings.challengeExceptionListPresent && currentTrainerMon["noCh"]) && $('.set-selector')[3].value.includes(attacker.name) && $('.set-selector')[3].value.includes(attacker.level)) {
-            delta = 4;
-            for (n in settings.levelCaps) {
-                if (attacker.level <= settings.levelCaps[n][0]) {
-                    delta = settings.levelCaps[n][1];
+        var isTrainerAttacker = false;
+        if (currentTrainerMon) {
+            if (typeof $ === "function") {
+                var setSelectors = $('.set-selector');
+                var rightSetSelector = setSelectors && setSelectors[3];
+                var rightSetValue = rightSetSelector && rightSetSelector.value ? String(rightSetSelector.value) : "";
+                isTrainerAttacker = rightSetValue.includes(attacker.name) && rightSetValue.includes(attacker.level);
+            }
+            else {
+                isTrainerAttacker = Number(currentTrainerMon.level) === Number(attacker.level);
+            }
+        }
+        if (settings.challengeMode && currentTrainerMon && !(settings.challengeExceptionListPresent && currentTrainerMon["noCh"]) && isTrainerAttacker) {
+            var levelDeltaKeys = [
+                "challengeLevelAdjustment",
+                "challengeLevelDelta",
+                "challengeModeLevelAdjustment",
+                "challengeModeLevelDelta",
+                "levelAdjustment",
+                "levelDelta",
+                "diff"
+            ];
+            var hasDirectLevelDelta = false;
+            for (var keyIndex = 0; keyIndex < levelDeltaKeys.length; keyIndex++) {
+                var levelDelta = Number(currentTrainerMon[levelDeltaKeys[keyIndex]]);
+                if (Number.isFinite(levelDelta)) {
+                    delta = levelDelta;
+                    hasDirectLevelDelta = true;
                     break;
+                }
+            }
+            if (!hasDirectLevelDelta) {
+                delta = 4;
+                if (Array.isArray(settings.levelCaps)) {
+                    for (var n in settings.levelCaps) {
+                        if (attacker.level <= settings.levelCaps[n][0]) {
+                            delta = settings.levelCaps[n][1];
+                            break;
+                        }
+                    }
                 }
             }
         }

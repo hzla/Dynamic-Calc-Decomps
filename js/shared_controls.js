@@ -2074,11 +2074,11 @@ $('#gen3-switch-guide .last-move-used .bait-trigger').on('change input', functio
 	refresh_next_in();
 });
 
-$('#p2 .move-selector, #p2 .set-selector').change(function() {
+$('#p1 .move-selector, #p1 .set-selector, #p2 .move-selector, #p2 .set-selector').change(function() {
 	updateGen3BaitMoves();
 });
 
-$('#p2 .move-bp, #p2 .move-type').on('change input', function() {
+$('#p1 .move-bp, #p1 .move-type, #p2 .move-bp, #p2 .move-type').on('change input', function() {
 	updateGen3BaitMoves();
 });
 

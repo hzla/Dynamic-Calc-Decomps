@@ -217,7 +217,7 @@ function setMoveAiPreviewSettingEnabled(enabled) {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-mobile-party-moves input, #toggle-mobile-move-ui input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-challenge-mode input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-mobile-party-moves input, #toggle-mobile-move-ui input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -239,6 +239,9 @@ function setSettingsTogglesFromLocalStorage() {
   }
   if (localStorage.platinumReduxTypeChart != '0') {
     $('#toggle-platinum-redux-type-chart input').prop('checked', true)
+  }
+  if (typeof settings !== 'undefined' && settings && settings.challengeMode) {
+    $('#toggle-challenge-mode input').prop('checked', true)
   }
   if (shouldImportPartyPreview()) {
     $('#toggle-import-party-preview input').prop('checked', true)
@@ -329,6 +332,7 @@ function setSettingsTogglesFromLocalStorage() {
     }
     applyInvertTypesVisibility()
     applyPlatinumReduxTypeChartVisibility()
+    applyChallengeModeVisibility()
     applyTrainerPreviewExpBarVisibility()
     applyHideCurrentAiMonVisibility()
     applyMobilePartyMovesPreference()
@@ -541,6 +545,34 @@ function togglePlatinumReduxTypeChart() {
     location.reload()
 }
 
+function canShowChallengeModeToggle() {
+    if (typeof canUseChallengeModeSetting === "function") {
+        return canUseChallengeModeSetting()
+    }
+    return Boolean(settings && settings.damageGen === 5)
+}
+
+function applyChallengeModeVisibility() {
+    var isVisible = canShowChallengeModeToggle()
+    $('#toggle-challenge-mode').toggle(isVisible)
+    if (!isVisible) {
+        $('#toggle-challenge-mode input').prop('checked', false)
+    }
+}
+
+function toggleChallengeMode() {
+    var nextValue = !(settings && settings.challengeMode)
+    if (typeof setChallengeModeEnabled === "function") {
+        setChallengeModeEnabled(nextValue)
+    } else if (typeof settings !== "undefined" && settings) {
+        settings.challengeMode = nextValue
+    }
+    $('#toggle-challenge-mode input').prop('checked', nextValue)
+    if (typeof performCalculations === "function") {
+        performCalculations()
+    }
+}
+
 function canShowTrainerPreviewExpBarToggle() {
     return Boolean(settings && settings.damageGen >= 3 && settings.damageGen <= 5)
 }
@@ -715,6 +747,7 @@ $('#toggle-use-evs .slider').click(toggleHasEvs)
 $('#toggle-phys-spec-split .slider').click(togglePhysSpecSplit)
 $('#toggle-invert-types .slider').click(toggleInvertTypes)
 $('#toggle-platinum-redux-type-chart .slider').click(togglePlatinumReduxTypeChart)
+$('#toggle-challenge-mode .slider').click(toggleChallengeMode)
 
 $('#toggle-import-party-preview .slider').click(function(){
     localStorage.importPartyPreview = (parseInt(localStorage.importPartyPreview, 10) + 1) % 2

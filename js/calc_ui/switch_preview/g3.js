@@ -132,14 +132,14 @@ function gen3Phase1Score(attackerTypes, defenderTypes) {
     return score;
 }
 
-function applyGen3TypeCalcDamage(moveType, attackerTypes, defenderTypes, damage) {
+function applyGen3TypeCalcDamage(moveType, attackerTypes, defenderTypes, damage, defenderAbility) {
     var dmg = damage;
     // Apply STAB first (integer math like TypeCalc)
     if (attackerTypes.includes(moveType)) {
         dmg = Math.floor((dmg * 15) / 10);
     }
-    // Levitate special-case: TypeCalc skips type chart entirely (neutral damage)
-    if (p1.ability == "Levitate" && moveType == "Ground") {
+    // Levitate special-case: TypeCalc skips type chart entirely, leaving base damage intact.
+    if (defenderAbility == "Levitate" && moveType == "Ground") {
         return dmg;
     }
     for (var matchup in GEN3_PHASE1_TYPE_MATCHUPS) {
@@ -155,7 +155,92 @@ function applyGen3TypeCalcDamage(moveType, attackerTypes, defenderTypes, damage)
     return dmg;
 }
 
-function vanillaDamageCalcEmerald(attacker, defender, move, field) {
+var GEN3_PHYSICAL_TYPES = ["Normal", "Fighting", "Flying", "Ground", "Rock", "Bug", "Ghost", "Poison", "Steel"];
+var GEN3_EMERALD_POWER_ONE_MOVES = {
+    "Guillotine": true,
+    "Horn Drill": true,
+    "Sonic Boom": true,
+    "Low Kick": true,
+    "Counter": true,
+    "Seismic Toss": true,
+    "Dragon Rage": true,
+    "Fissure": true,
+    "Night Shade": true,
+    "Bide": true,
+    "Psywave": true,
+    "Super Fang": true,
+    "Flail": true,
+    "Reversal": true,
+    "Return": true,
+    "Present": true,
+    "Frustration": true,
+    "Magnitude": true,
+    "Hidden Power": true,
+    "Mirror Coat": true,
+    "Endeavor": true,
+    "Sheer Cold": true
+};
+
+function getGen3TypeBasedCategory(type) {
+    return GEN3_PHYSICAL_TYPES.includes(type) ? "Physical" : "Special";
+}
+
+function shouldUseGen3IndexedHiddenPowerMoves() {
+    return typeof TITLE === "string" && TITLE == "Emerald Kaizo";
+}
+
+function getGen3EmeraldMoveTableName(moveName) {
+    if (!moveName) {
+        return moveName;
+    }
+    if (/^HP\s+\w+$/.test(moveName)) {
+        return shouldUseGen3IndexedHiddenPowerMoves() ? moveName.replace(/^HP\s+/, "Hidden Power ") : "Hidden Power";
+    }
+    if (/^Hidden Power\s+\w+$/.test(moveName)) {
+        return shouldUseGen3IndexedHiddenPowerMoves() ? moveName : "Hidden Power";
+    }
+    if (moveName == "Hidden Power" || moveName == "HP") {
+        return "Hidden Power";
+    }
+    if (moveName == "Sonicboom") {
+        return "Sonic Boom";
+    }
+    return moveName;
+}
+
+function isGen3EmeraldPowerOneMove(moveName) {
+    return !!GEN3_EMERALD_POWER_ONE_MOVES[getGen3EmeraldMoveTableName(moveName)];
+}
+
+function getGen3EmeraldMoveTableMove(moveName) {
+    var tableName = getGen3EmeraldMoveTableName(moveName);
+    var move = new calc.Move(GENERATION, tableName);
+
+    if (isGen3EmeraldPowerOneMove(moveName)) {
+        move.bp = 1;
+    }
+
+    // TypeCalc and AI_CalcDmg use the raw battle move table, not battle-script
+    // dynamic type overrides or calc-only display variants.
+    if (tableName == "Hidden Power") {
+        move.type = "Normal";
+    } else if (tableName == "Weather Ball") {
+        move.bp = 50;
+        move.type = "Normal";
+    } else if (tableName == "Future Sight") {
+        move.type = "Psychic";
+    } else if (tableName == "Doom Desire") {
+        move.type = "Steel";
+    }
+
+    if (move.type && move.type != "???") {
+        move.category = getGen3TypeBasedCategory(move.type);
+    }
+
+    return move;
+}
+
+function vanillaDamageCalcEmerald(attacker, defender, move, field, skipTypeCalc) {
     var attack = attacker.stats.atk;
     var defense = defender.stats.def;
     var spAttack = attacker.stats.spa;
@@ -263,6 +348,8 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
         }
     }
     damage += 2;
+    if (skipTypeCalc) return damage;
+
     if (attacker.types.includes(move.type)) damage = Math.floor(damage * 1.5);
 
     if (attacker.ability == "Levitate" && move.type == "Ground") return 0;
@@ -353,53 +440,35 @@ function get_next_in_g3() {
 
 
 
-            var moveCopy = new calc.Move(GENERATION, move.name);
-            if (moveCopy.name == "Weather Ball") {
-                if (field.weather == "Sun") moveCopy.type = "Fire";
-                else if (field.weather == "Rain") moveCopy.type = "Water";
-                else if (field.weather == "Hail") moveCopy.type = "Ice";
-            }
+            var moveCopy = getGen3EmeraldMoveTableMove(move.name);
 
             if (typeof moveCopy.type === "undefined") {
                 continue;
             }
 
-            var typeEffectiveness1 = GENERATION.types.get(toID(moveCopy.type)).effectiveness[defenderTypes[0]];
-            var typeEffectiveness2 = GENERATION.types.get(toID(moveCopy.type)).effectiveness[defenderTypes[1]];
+            var typeData = GENERATION.types.get(toID(moveCopy.type));
+            var typeEffectiveness1 = typeData && typeof typeData.effectiveness[defenderTypes[0]] !== "undefined" ? typeData.effectiveness[defenderTypes[0]] : 1;
+            var typeEffectiveness2 = typeData && typeof typeData.effectiveness[defenderTypes[1]] !== "undefined" ? typeData.effectiveness[defenderTypes[1]] : 1;
             var typeEffectiveness = p1.types[1] ? typeEffectiveness1 * typeEffectiveness2 : typeEffectiveness1;
             if (p1.ability == "Levitate" && moveCopy.type == "Ground") typeEffectiveness = 0;
 
-            if (typeEffectiveness > 1 && move.category != "Status") {
+            if (moveCopy.bp && typeEffectiveness > 1) {
                 hasSE = true;
                 seMoves.push(move.name);
             }
 
-            if (moveCopy.named(
-                "Fissure", "Horn Drill", "Guilotine", "Sheer Cold",
-                "Flail", "Frustration", "Low Kick", "Magnitude", "Present", "Return", "Reversal",
-                "Counter", "Mirror Coat",
-                "Dragon Rage", "Endeavor", "Night Shade", "Psywave", "Seismic Toss", "Sonic Boom", "Sonicboom", "Super Fang",
-                "Bide", "Hidden Power"
-            )) continue;
+            if (isGen3EmeraldPowerOneMove(move.name)) continue;
 
-            var lastMove = new calc.Move(GENERATION, lastMoveName || moveCopy.name, {
-                overrides: {
-                    type: moveCopy.type,
-                    category: new calc.Move(GENERATION, lastMoveName || moveCopy.name).hasType(
-                        'Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'
-                    ) ? "Physical" : "Special"
-                }
-            });
-            if (lastMove.category == "Status") {
-                lastMove.bp = 3;
-            }
-            if (!isNaN(lastMoveBp)) {
+            var lastMoveTableName = lastMoveName || moveCopy.name;
+            var lastMove = getGen3EmeraldMoveTableMove(lastMoveTableName);
+            if (!isGen3EmeraldPowerOneMove(lastMoveTableName) && !isNaN(lastMoveBp)) {
                 lastMove.bp = lastMoveBp;
             }
 
 
 
-            var dmg = vanillaDamageCalcEmerald(dead, p1, lastMove, field);
+            var baseDmg = vanillaDamageCalcEmerald(dead, p1, lastMove, field, true);
+            var dmg = applyGen3TypeCalcDamage(moveCopy.type, dead.types, defenderTypes, baseDmg, p1.ability);
             phase2Damages.push({
                 damage: dmg,
                 move: move.name
