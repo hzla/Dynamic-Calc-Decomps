@@ -40,6 +40,8 @@ backupFiles = {
 	"Royal Sapphire": "roysaph",
 	"Pokemon Null 1.2": "null12",
 	"Pokemon Null 1.1": "null",
+	"Pokemon Colors Normal": "colorsnormal",
+	"Pokemon Colors Classic": "colorsclassic",
 	"Platinum Kaizo": "pkv5h",
 	"Platinum Kaizo v4": "pk",
 	"Platinum Redux": "platredux",
@@ -57,6 +59,8 @@ backupFiles = {
 sourceTitleAliases = {
 	"aetherwhite": "Aether White 2",
 	"wishywashy": "Wishy Washy White 2",
+	"colorsnormal": "Pokemon Colors Normal",
+	"colorsclassic": "Pokemon Colors Classic",
 	"bb2redux": "Blaze Black 2/Volt White 2 Redux",
 	"bb8579a3798fd63b429d": "Royal Sapphire",
 	"platredux": "Platinum Redux",

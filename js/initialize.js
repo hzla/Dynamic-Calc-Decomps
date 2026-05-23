@@ -60,6 +60,8 @@ const PLATINUM_REDUX_TYPE_CHART = 9;
 const PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY = "platinumReduxTypeChart";
 const AETHER_WHITE_2_TITLE = "Aether White 2";
 const WISHY_WASHY_WHITE_2_TITLE = "Wishy Washy White 2";
+const POKEMON_COLORS_NORMAL_TITLE = "Pokemon Colors Normal";
+const POKEMON_COLORS_CLASSIC_TITLE = "Pokemon Colors Classic";
 
 function getRuntimeTitle(fallback = BLANK_DEV_TITLE) {
     return typeof TITLE === "string" && TITLE ? TITLE : fallback;
@@ -136,6 +138,10 @@ function getDefaultSwitchPreviewEnabled(title) {
 
 function isWhite2BaseRomTitle(title) {
     return title === AETHER_WHITE_2_TITLE || title === WISHY_WASHY_WHITE_2_TITLE;
+}
+
+function isPokemonColorsTitle(title) {
+    return title === POKEMON_COLORS_NORMAL_TITLE || title === POKEMON_COLORS_CLASSIC_TITLE;
 }
 
 function canUseSwitchAiInfoForTitle(title) {
@@ -404,6 +410,9 @@ function normalizeBaseGameValue(baseGameValue) {
         inc_em: "inc_em",
         g3: "g3",
         gen3: "g3",
+        leafgreen: "g3",
+        leaf_green: "g3",
+        lg: "g3",
         g6: "g6",
         gen6: "g6",
         g7: "g7",
@@ -987,7 +996,7 @@ function setGameSettings(title) {
     showDex = false
     showAI = false
     $('label[for="snow"]').hide()
-  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire" || TITLE == "Rigorous Red" || TITLE == "Autumn Red") {
+  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire" || TITLE == "Rigorous Red" || TITLE == "Autumn Red" || isPokemonColorsTitle(TITLE)) {
     gameGen = 3
     settings.gameSwitchIn = 3; 
     settings.switchIn = 3
@@ -1175,6 +1184,8 @@ function setBaseGame(title) {
             }
         } else if (title.includes("Unbound")) {
             window.baseGame = "unbound"
+        } else if (isPokemonColorsTitle(title)) {
+            window.baseGame = "g3"
         }
     } else if (window.baseGame == "null") {
         $('#p2').addClass('poke-null')

@@ -368,6 +368,29 @@
                 }
             ]
         },
+        "pokemon-colors": {
+            id: "pokemon-colors",
+            title: "Pokemon Colors",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Pokemon Colors",
+            variants: [
+                {
+                    label: "Normal",
+                    sourceTitle: "Pokemon Colors Normal",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=colorsnormal&dmgGen=3&gen=8&switchIn=3&types=3",
+                    coverImage: "",
+                    description: ""
+                },
+                {
+                    label: "Classic",
+                    sourceTitle: "Pokemon Colors Classic",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=colorsclassic&dmgGen=3&gen=8&switchIn=3&types=3",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "platinum-kaizo": {
             id: "platinum-kaizo",
             title: "Platinum Kaizo",
@@ -717,6 +740,7 @@
                 "maximum-platinum",
                 "navy-sapphire",
                 "pitch-black-2",
+                "pokemon-colors",
                 "platinum-redux",
                 "radical-red",
                 "royal-sapphire",
