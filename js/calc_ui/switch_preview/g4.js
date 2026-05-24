@@ -289,6 +289,7 @@ function get_next_in_g4() {
     for (var i = 0; i < trainer_poks.length; i++) {
         var pok_name = trainer_poks[i].split(" (")[0]
         var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
+        console.log(pok_name)
         var type1 = pokedex[pok_name]["types"][0]
         var type2 = pokedex[pok_name]["types"][1] || type1
         var pok_data = SETDEX_BW[pok_name][tr_name]

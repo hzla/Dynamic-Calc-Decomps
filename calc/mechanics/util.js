@@ -239,7 +239,7 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
     else if ((isRingTarget) && type === 'Ground' && move.hasType('Electric')) {
         effectiveness = 1;
     }
-    else if ((isCorrosion || isRingTarget) && type === 'Steel' && move.hasType('Poison')) {
+    else if ((isCorrosion || isRingTarget) && type === 'Steel' && move.hasType('Poison') && (TITLE.includes("Imperium") || TITLE.includes("Radical"))) {
         effectiveness = 1;
     }
     else if (move.named('Freeze-Dry') && type === 'Water') {

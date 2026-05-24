@@ -353,7 +353,7 @@ function calculateDefenseADV(gen, defender, move, desc, isCritical, field) {
         df = Math.floor(df * 1.5);
         desc.defenderAbility = defender.ability;
     }
-    if (move.named('Explosion', 'Self-Destruct', 'Misty Explosion')  && !TITLE.includes("Pokemon Colors") ) {
+    if (move.named('Explosion', 'Self-Destruct', 'Misty Explosion')) {
         df = Math.floor(df / 2);
     }
     var defenseBoost = defender.boosts[defenseStat];

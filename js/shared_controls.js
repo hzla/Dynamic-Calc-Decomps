@@ -1910,6 +1910,7 @@ function refresh_next_in() {
 	var expTotal = typeof shouldShowTrainerPreviewExpBars === "function" && shouldShowTrainerPreviewExpBars()
 		? getTrainerPreviewExpTotal(next_poks)
 		: null
+	var hasRenderedExpBar = false
 	var hideCurrentAiMon = typeof canShowHideCurrentAiMonToggle === "function" &&
 		canShowHideCurrentAiMonToggle() &&
 		localStorage.hideCurrentAiMon == "1"
@@ -1952,6 +1953,9 @@ function refresh_next_in() {
 		var pok = renderTrainerPreviewPok(nextPok)
 		if (!pok) {
 			continue
+		}
+		if (pok.includes('class="exp-bar"')) {
+			hasRenderedExpBar = true
 		}
 
 		renderedEntries.push({
@@ -2022,7 +2026,7 @@ function refresh_next_in() {
 	if (shouldShowGen4Phase2AccuracyWarning()) {
 		trpok_html += `<div class="trainer-preview-warning">Please mark fainted pokemon for fully accurate phase 2 dmg simulations for this trainer</div>`
 	}
-	if (expTotal !== null) {
+	if (hasRenderedExpBar && expTotal !== null) {
 		trpok_html += `<div class="trainer-preview-exp-total">Total: ${expTotal} EXP</div>`
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
