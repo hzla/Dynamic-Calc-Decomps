@@ -34204,7 +34204,7 @@ backup_data = {
         {
             "Lvl 23 Breeder Isaac ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 23,
                 "item": "Thick Club",
                 "moves":
@@ -43071,7 +43071,7 @@ backup_data = {
         {
             "Lvl 36 |Route 114| Magma Grunt #2 ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 36,
                 "item": "Lum Berry",
                 "moves":
@@ -43085,7 +43085,7 @@ backup_data = {
             },
             "Lvl 37 Expert Shelby ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 37,
                 "item": "Thick Club",
                 "moves":
@@ -43099,7 +43099,7 @@ backup_data = {
             },
             "Lvl 42 Cooltrainer Jody ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 42,
                 "item": "Thick Club",
                 "moves":
@@ -43113,7 +43113,7 @@ backup_data = {
             },
             "Lvl 66 Ruin Maniac Andres ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 66,
                 "item": "Thick Club",
                 "moves":
@@ -43127,7 +43127,7 @@ backup_data = {
             },
             "Lvl 60 |Magma Hideout| Magma Grunt #10 ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 60,
                 "item": "Thick Club",
                 "moves":
@@ -43141,7 +43141,7 @@ backup_data = {
             },
             "Lvl 66 Sr And Jr Kim & Iris ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 66,
                 "item": "Thick Club",
                 "moves":
@@ -43155,7 +43155,7 @@ backup_data = {
             },
             "Lvl 100 Gentleman Franklin ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 100,
                 "item": "Thick Club",
                 "moves":
@@ -43169,7 +43169,7 @@ backup_data = {
             },
             "Lvl 75 Cooltrainer Braxton ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 75,
                 "item": " Thick Club",
                 "moves":
@@ -43183,7 +43183,7 @@ backup_data = {
             },
             "Lvl 81 Cooltrainer Albert ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 81,
                 "item": "Thick Club",
                 "moves":
@@ -46530,7 +46530,7 @@ backup_data = {
         {
             "Lvl 9 |1| Trainer Red ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 9,
                 "item": "Sitrus Berry",
                 "moves":
@@ -46544,7 +46544,7 @@ backup_data = {
             },
             "Lvl 17 Pokéfan Kaleb ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 17,
                 "item": "Sitrus Berry",
                 "moves":
@@ -46558,7 +46558,7 @@ backup_data = {
             },
             "Lvl 27 Lady Vivian ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 27,
                 "item": "Light Ball",
                 "moves":
@@ -46572,7 +46572,7 @@ backup_data = {
             },
             "Lvl 37 |2| Trainer Red ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 37,
                 "item": "Light Ball",
                 "moves":
@@ -46586,7 +46586,7 @@ backup_data = {
             },
             "Lvl 52 Battle Girl Tara ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 52,
                 "item": "Light Ball",
                 "moves":
@@ -46597,7 +46597,7 @@ backup_data = {
             },
             "Lvl 65 Sis And Bro Lila & Roy ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 65,
                 "item": "Light Ball",
                 "moves":
@@ -47843,7 +47843,7 @@ backup_data = {
         {
             "Lvl 28 Leader Wattson ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 28,
                 "item": "Lum Berry",
                 "moves":
@@ -47857,7 +47857,7 @@ backup_data = {
             },
             "Lvl 42 Pokéfan Parker ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 42,
                 "item": "Leftovers",
                 "moves":
@@ -47871,7 +47871,7 @@ backup_data = {
             },
             "Lvl 43 Swimmerm Pete ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 43,
                 "item": "Silverpowder",
                 "moves":
@@ -47969,7 +47969,7 @@ backup_data = {
             },
             "Lvl 50 Ranger Ashley ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 50,
                 "item": "Lum Berry",
                 "moves":
@@ -47983,7 +47983,7 @@ backup_data = {
             },
             "Lvl 53 Pokéfan Vanessa ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 53,
                 "item": "Red Scarf",
                 "moves":
@@ -47997,7 +47997,7 @@ backup_data = {
             },
             "Lvl 64 |Aqua Hideout| Aqua Grunt #5 ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 64,
                 "item": "Bright Powder",
                 "moves":
@@ -48011,7 +48011,7 @@ backup_data = {
             },
             "Lvl 72 Aqua Admin Shelly2 ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 72,
                 "item": "Lum Berry",
                 "moves":
@@ -48025,7 +48025,7 @@ backup_data = {
             },
             "Lvl 74 Cooltrainer Olivia ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 74,
                 "item": "Lum Berry",
                 "moves":
@@ -48039,7 +48039,7 @@ backup_data = {
             },
             "Lvl 75 Cooltrainer Braxton ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 75,
                 "item": "Quick Claw",
                 "moves":
@@ -48052,7 +48052,7 @@ backup_data = {
             },
             "Lvl 85 Trainer Wally ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 85,
                 "item": "Lum Berry",
                 "moves":
@@ -48066,7 +48066,7 @@ backup_data = {
             },
             "Lvl 88 Cooltrainer Katelynn ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 88,
                 "item": "Lum Berry",
                 "moves":
@@ -48082,7 +48082,7 @@ backup_data = {
         {
             "Lvl 75 Aqua Leader Archie ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 75,
                 "item": "Lum Berry",
                 "moves":
@@ -48448,7 +48448,7 @@ backup_data = {
         {
             "Lvl 36 Pokémaniac Steve ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 36,
                 "item": "Focus Band",
                 "moves":
@@ -48462,7 +48462,7 @@ backup_data = {
             },
             "Lvl 66 Ruin Maniac Andres ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 66,
                 "item": "Quick Claw",
                 "moves":
@@ -48476,7 +48476,7 @@ backup_data = {
             },
             "Lvl 77 Cooltrainer Braxton ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 77,
                 "item": "Quick Claw",
                 "moves":
@@ -48492,7 +48492,7 @@ backup_data = {
         {
             "Lvl 15 School Kid Tammy ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 15,
                 "item": "Lum Berry",
                 "moves":
@@ -48506,7 +48506,7 @@ backup_data = {
             },
             "Lvl 25 Triathlete Jasmine ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 25,
                 "moves":
                 [
@@ -48518,7 +48518,7 @@ backup_data = {
             },
             "Lvl 24 Triathlete Maria ":
             {
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "level": 24,
                 "item": "Salac Berry",
                 "moves":

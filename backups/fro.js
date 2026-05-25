@@ -9061,7 +9061,7 @@ backup_data = {
             ]
         },
         "Rhyhorn": {
-            "ab": "Lightningrod",
+            "ab": "Lightning Rod",
             "learnset_info": {
                 "learnset": [
                     [
@@ -9155,7 +9155,7 @@ backup_data = {
             ]
         },
         "Rhydon": {
-            "ab": "Lightningrod",
+            "ab": "Lightning Rod",
             "learnset_info": {
                 "learnset": [
                     [
@@ -56751,7 +56751,7 @@ backup_data = {
                     "Fury Attack",
                     "Scary Face"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Serious",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -56776,7 +56776,7 @@ backup_data = {
                     "Rock Blast",
                     "Horn Drill"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Bold",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -56801,7 +56801,7 @@ backup_data = {
                     "Megahorn",
                     "-"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Impish",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -56826,7 +56826,7 @@ backup_data = {
                     "Stomp",
                     "Tail Whip"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Adamant",
                 "sub_index": 4,
                 "battle_type": "Singles"
@@ -56851,7 +56851,7 @@ backup_data = {
                     "Scary Face",
                     "Stomp"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Modest",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -56876,7 +56876,7 @@ backup_data = {
                     "Tail Whip",
                     "Flamethrower"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Jolly",
                 "sub_index": 4,
                 "battle_type": "Singles"
@@ -69566,7 +69566,7 @@ backup_data = {
                     "Megahorn",
                     "Brick Break"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Quiet",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -69591,7 +69591,7 @@ backup_data = {
                     "Substitute",
                     "Megahorn"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Naughty",
                 "sub_index": 1,
                 "battle_type": "Singles"
@@ -69616,7 +69616,7 @@ backup_data = {
                     "Earthquake",
                     "Megahorn"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Gentle",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -69641,7 +69641,7 @@ backup_data = {
                     "Rock Blast",
                     "Scary Face"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Mild",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -69666,7 +69666,7 @@ backup_data = {
                     "Earthquake",
                     "Megahorn"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Gentle",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -69691,7 +69691,7 @@ backup_data = {
                     "Rock Slide",
                     "Scary Face"
                 ],
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "nature": "Mild",
                 "sub_index": 0,
                 "battle_type": "Singles"

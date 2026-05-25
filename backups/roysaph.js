@@ -6532,7 +6532,7 @@ backup_data = {
       }
     },
     "Rhyhorn": {
-      "ab": "Lightningrod",
+      "ab": "Lightning Rod",
       "types": [
         "Ground",
         "Rock"
@@ -6592,7 +6592,7 @@ backup_data = {
       }
     },
     "Rhydon": {
-      "ab": "Lightningrod",
+      "ab": "Lightning Rod",
       "types": [
         "Ground",
         "Rock"
@@ -43454,7 +43454,7 @@ backup_data = {
           "Horn Attack",
           "-"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Bold",
         "sub_index": 1,
         "battle_type": "Singles"
@@ -43479,7 +43479,7 @@ backup_data = {
           "Rock Blast",
           "Drill Run"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Docile",
         "sub_index": 1,
         "battle_type": "Singles"
@@ -43504,7 +43504,7 @@ backup_data = {
           "Drill Run",
           "Submission"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Docile",
         "sub_index": 1,
         "battle_type": "Singles"
@@ -43529,7 +43529,7 @@ backup_data = {
           "Scary Face",
           "Rock Smash"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Docile",
         "sub_index": 0,
         "battle_type": "Singles"
@@ -47173,7 +47173,7 @@ backup_data = {
           "Rock Slide",
           "Ancient Power"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Calm",
         "sub_index": 0,
         "battle_type": "Singles"
@@ -47198,7 +47198,7 @@ backup_data = {
           "Mega Punch",
           "Surf"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Lonely",
         "sub_index": 0,
         "battle_type": "Singles"
@@ -47223,7 +47223,7 @@ backup_data = {
           "Brick Break",
           "Double-Edge"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Lax",
         "sub_index": 3,
         "battle_type": "Singles"
@@ -47248,7 +47248,7 @@ backup_data = {
           "Submission",
           "Ancient Power"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Mild",
         "sub_index": 1,
         "battle_type": "Singles"
@@ -47273,7 +47273,7 @@ backup_data = {
           "Mega Punch",
           "Seismic Toss"
         ],
-        "ability": "Lightningrod",
+        "ability": "Lightning Rod",
         "nature": "Lonely",
         "sub_index": 2,
         "battle_type": "Singles"

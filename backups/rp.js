@@ -97299,7 +97299,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -97429,7 +97429,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -107775,7 +107775,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Rock Head",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -107918,7 +107918,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Rock Head",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -117134,7 +117134,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -135267,7 +135267,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -135401,7 +135401,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -135538,7 +135538,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Plus",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {

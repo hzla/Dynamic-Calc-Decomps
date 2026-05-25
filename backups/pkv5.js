@@ -7329,7 +7329,7 @@ backup_data = {
                     "Protect"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Route 205",
                 "spriteId": 6,
@@ -7359,7 +7359,7 @@ backup_data = {
                     "Endeavor"
                 ],
                 "sub_index": 5,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Galactic HQ",
                 "spriteId": 104,
@@ -29543,7 +29543,7 @@ backup_data = {
                     "Sleep Talk"
                 ],
                 "sub_index": 3,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "Route 209",
                 "spriteId": 40,
@@ -29573,7 +29573,7 @@ backup_data = {
                     "Belly Drum"
                 ],
                 "sub_index": 5,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Clamberclaw Cliffs",
                 "spriteId": 103,
@@ -29604,7 +29604,7 @@ backup_data = {
                     "Aerial Ace"
                 ],
                 "sub_index": 5,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -29635,7 +29635,7 @@ backup_data = {
                     "-"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Sunyshore City",
                 "spriteId": 57,
@@ -29665,7 +29665,7 @@ backup_data = {
                     "Icy Wind"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -29696,7 +29696,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -29728,7 +29728,7 @@ backup_data = {
                     "Endeavor"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "Lake Valor",
                 "spriteId": 104,
@@ -29758,7 +29758,7 @@ backup_data = {
                     "Screech"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "Lake Verity",
                 "spriteId": 103,
@@ -29791,7 +29791,7 @@ backup_data = {
                     "Earthquake"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -29821,7 +29821,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61019,7 +61019,7 @@ backup_data = {
                     "Petal Dance"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "Route 213",
                 "spriteId": 47,
@@ -61050,7 +61050,7 @@ backup_data = {
                     "Focus Blast"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Route 214",
                 "spriteId": 68,
@@ -61081,7 +61081,7 @@ backup_data = {
                     "Grass Knot"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "Route 215",
                 "spriteId": 43,
@@ -61112,7 +61112,7 @@ backup_data = {
                     "Fake Out"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61143,7 +61143,7 @@ backup_data = {
                     "Brick Break"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61173,7 +61173,7 @@ backup_data = {
                     "HP Ice"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61204,7 +61204,7 @@ backup_data = {
                     "HP Ice"
                 ],
                 "sub_index": 4,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Pastoria City",
                 "spriteId": 46,
@@ -61235,7 +61235,7 @@ backup_data = {
                     "Discharge"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "Stark Mountain",
                 "spriteId": 13,
@@ -61265,7 +61265,7 @@ backup_data = {
                     "Encore"
                 ],
                 "sub_index": 5,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61298,7 +61298,7 @@ backup_data = {
                     "Discharge"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61328,7 +61328,7 @@ backup_data = {
                     "Sleep Talk"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61359,7 +61359,7 @@ backup_data = {
                     "Discharge"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61389,7 +61389,7 @@ backup_data = {
                     "Light Screen"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61419,7 +61419,7 @@ backup_data = {
                     "Discharge"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -61449,7 +61449,7 @@ backup_data = {
                     "Discharge"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -64540,7 +64540,7 @@ backup_data = {
                     "Reflect"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Route 215",
                 "spriteId": 49,
@@ -64571,7 +64571,7 @@ backup_data = {
                     "Thunder Wave"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -64603,7 +64603,7 @@ backup_data = {
                     "Reflect"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -64634,7 +64634,7 @@ backup_data = {
                     "HP Grass"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -64665,7 +64665,7 @@ backup_data = {
                     "Safeguard"
                 ],
                 "sub_index": 4,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -76766,7 +76766,7 @@ backup_data = {
                     "Rock Polish"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Oreburgh Mine",
                 "spriteId": 38,
@@ -76796,7 +76796,7 @@ backup_data = {
                     "Drill Run"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Eterna Forest",
                 "spriteId": 104,
@@ -78722,7 +78722,7 @@ backup_data = {
                     "Take Down"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "Victory Road",
                 "spriteId": 49,
@@ -78752,7 +78752,7 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -78785,7 +78785,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 "sub_index": 3,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "T.G. Eterna Bldg",
                 "spriteId": 103,
@@ -78815,7 +78815,7 @@ backup_data = {
                     "Sleep Talk"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "Route 222",
                 "spriteId": 12,
@@ -78846,7 +78846,7 @@ backup_data = {
                     "Rock Polish"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -90959,7 +90959,7 @@ backup_data = {
                     "Thunder Wave"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -90989,7 +90989,7 @@ backup_data = {
                     "-"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -97258,7 +97258,7 @@ backup_data = {
                 "Electric"
             ],
             "abilities": {
-                "0": "Lightningrod"
+                "0": "Lightning Rod"
             },
             "learnset_info": {
                 "learnset": [
@@ -106112,7 +106112,7 @@ backup_data = {
                 "Ground"
             ],
             "abilities": {
-                "0": "Lightningrod",
+                "0": "Lightning Rod",
                 "1": "Rock Head"
             },
             "learnset_info": {
@@ -106229,7 +106229,7 @@ backup_data = {
                 "Ground"
             ],
             "abilities": {
-                "0": "Lightningrod",
+                "0": "Lightning Rod",
                 "1": "Rock Head"
             },
             "learnset_info": {
@@ -106958,7 +106958,7 @@ backup_data = {
                 "Rock"
             ],
             "abilities": {
-                "0": "Lightningrod",
+                "0": "Lightning Rod",
                 "1": "Rock Head"
             },
             "learnset_info": {
@@ -107073,7 +107073,7 @@ backup_data = {
                 "Rock"
             ],
             "abilities": {
-                "0": "Lightningrod",
+                "0": "Lightning Rod",
                 "1": "Rock Head"
             },
             "learnset_info": {
@@ -129365,8 +129365,8 @@ backup_data = {
                 "Electric"
             ],
             "abilities": {
-                "0": "Lightningrod",
-                "1": "Lightningrod"
+                "0": "Lightning Rod",
+                "1": "Lightning Rod"
             },
             "learnset_info": {
                 "learnset": [
@@ -129465,8 +129465,8 @@ backup_data = {
                 "Electric"
             ],
             "abilities": {
-                "0": "Lightningrod",
-                "1": "Lightningrod"
+                "0": "Lightning Rod",
+                "1": "Lightning Rod"
             },
             "learnset_info": {
                 "learnset": [

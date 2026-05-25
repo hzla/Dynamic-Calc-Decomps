@@ -13645,7 +13645,7 @@ backup_data = {
                     "-"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "Route 32",
                 "spriteId": 141,
                 "orientation": 1
@@ -13805,7 +13805,7 @@ backup_data = {
                     "Outrage"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "Route 13",
                 "spriteId": 131,
                 "orientation": 3
@@ -21273,7 +21273,7 @@ backup_data = {
                     "Crunch"
                 ],
                 "sub_index": 4,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -21497,7 +21497,7 @@ backup_data = {
                     "Superpower"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -21529,7 +21529,7 @@ backup_data = {
                     "Iron Tail"
                 ],
                 "sub_index": 5,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -52984,7 +52984,7 @@ backup_data = {
                     "Earth Power"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -53144,7 +53144,7 @@ backup_data = {
                     "Extreme Speed"
                 ],
                 "sub_index": 4,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -53604,7 +53604,7 @@ backup_data = {
                     "Bulldoze"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "Route 43",
                 "spriteId": 184,
                 "orientation": 3
@@ -53700,7 +53700,7 @@ backup_data = {
                     "Avalanche"
                 ],
                 "sub_index": 0,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "Cianwood City",
                 "spriteId": 140,
                 "orientation": 3
@@ -53796,7 +53796,7 @@ backup_data = {
                     "Hammer Arm"
                 ],
                 "sub_index": 1,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "Route 3",
                 "spriteId": 140,
                 "orientation": 3
@@ -54413,7 +54413,7 @@ backup_data = {
                     "Superpower"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "location": "Route 15",
                 "spriteId": 67,
                 "orientation": 2
@@ -74999,7 +74999,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Mold Breaker",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -83090,7 +83090,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Rock Head",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -85089,7 +85089,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Lightningrod",
+                "0": "Lightning Rod",
                 "1": "Rock Head"
             },
             "learnset_info":
@@ -85218,7 +85218,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Lightningrod",
+                "0": "Lightning Rod",
                 "1": "Rock Head"
             },
             "learnset_info":
@@ -96759,7 +96759,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Rock Head",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {

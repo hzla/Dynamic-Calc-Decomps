@@ -21543,7 +21543,7 @@ backup_data = {
                     "Nasty Plot"
                 ],
                 "sub_index": 5,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -21774,7 +21774,7 @@ backup_data = {
                     "Grass Knot"
                 ],
                 "sub_index": 5,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -66703,7 +66703,7 @@ backup_data = {
                     "Signal Beam"
                 ],
                 "sub_index": 2,
-                "ability": "Lightningrod",
+                "ability": "Lightning Rod",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -72748,7 +72748,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -72870,7 +72870,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -87767,7 +87767,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Pressure",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -91382,7 +91382,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -108278,7 +108278,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
@@ -108389,7 +108389,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Static",
-                "1": "Lightningrod"
+                "1": "Lightning Rod"
             },
             "learnset_info":
             {
