@@ -1025,7 +1025,7 @@ backup_data = {
         },
         "Butterfree":
         {
-            "ab": "Compoundeyes",
+            "ab": "Compound Eyes",
             "types":
             [
                 "Ghost",
@@ -4596,7 +4596,7 @@ backup_data = {
         },
         "Venonat":
         {
-            "ab": "Compoundeyes",
+            "ab": "Compound Eyes",
             "types":
             [
                 "Psychic",
@@ -27784,7 +27784,7 @@ backup_data = {
         },
         "Nincada":
         {
-            "ab": "Compoundeyes",
+            "ab": "Compound Eyes",
             "types":
             [
                 "Normal",
@@ -48123,7 +48123,7 @@ backup_data = {
                     "Sleep Powder",
                     "Hex"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Bold",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -48152,7 +48152,7 @@ backup_data = {
                     "Air Cutter",
                     "Psybeam"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Naughty",
                 "sub_index": 1,
                 "battle_type": "Singles"
@@ -48181,7 +48181,7 @@ backup_data = {
                     "Shadow Ball",
                     "Air Slash"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Relaxed",
                 "sub_index": 3,
                 "battle_type": "Singles"
@@ -48210,7 +48210,7 @@ backup_data = {
                     "Gust",
                     "Supersonic"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Quirky",
                 "sub_index": 1,
                 "battle_type": "Singles"
@@ -48239,7 +48239,7 @@ backup_data = {
                     "Shadow Ball",
                     "Air Slash"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Hasty",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -48268,7 +48268,7 @@ backup_data = {
                     "Shadow Ball",
                     "Air Slash"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Lonely",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -48297,7 +48297,7 @@ backup_data = {
                     "Air Cutter",
                     "Curse"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Docile",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -48326,7 +48326,7 @@ backup_data = {
                     "Safeguard",
                     "Psychic"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Hasty",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -49101,7 +49101,7 @@ backup_data = {
                     "Confusion",
                     "Sludge"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Docile",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -49130,7 +49130,7 @@ backup_data = {
                     "Leech Life",
                     "Disable"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Brave",
                 "sub_index": 3,
                 "battle_type": "Singles"
@@ -49159,7 +49159,7 @@ backup_data = {
                     "Psychic",
                     "Will-O-Wisp"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Rash",
                 "sub_index": 0,
                 "battle_type": "Singles"

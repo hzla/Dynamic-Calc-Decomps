@@ -5992,7 +5992,7 @@ backup_data = {
                     "Sleep Talk"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Route 204",
                 "spriteId": 11,
@@ -6024,7 +6024,7 @@ backup_data = {
                     "Psybeam"
                 ],
                 "sub_index": 3,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Route 204",
                 "spriteId": 11,
@@ -8856,7 +8856,7 @@ backup_data = {
                     "Gust"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "Route 205",
                 "spriteId": 52,
@@ -8886,7 +8886,7 @@ backup_data = {
                     "Sleep Powder"
                 ],
                 "sub_index": 3,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
@@ -8917,7 +8917,7 @@ backup_data = {
                     "Supersonic"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "Wayward Cave",
                 "spriteId": 4,
@@ -8949,7 +8949,7 @@ backup_data = {
                     "Bug Buzz"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -25601,7 +25601,7 @@ backup_data = {
                     "Giga Drain"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Route 208",
                 "spriteId": 11,
@@ -25631,7 +25631,7 @@ backup_data = {
                     "Silver Wind"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "Victory Road",
                 "spriteId": 19,
@@ -25661,7 +25661,7 @@ backup_data = {
                     "Ancient Power"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -25693,7 +25693,7 @@ backup_data = {
                     "Bug Buzz"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "Wayward Cave",
                 "spriteId": 4,
@@ -95843,7 +95843,7 @@ backup_data = {
                 "Flying"
             ],
             "abilities": {
-                "0": "Compoundeyes"
+                "0": "Compound Eyes"
             },
             "learnset_info": {
                 "learnset": [
@@ -99637,7 +99637,7 @@ backup_data = {
                 "Poison"
             ],
             "abilities": {
-                "0": "Compoundeyes",
+                "0": "Compound Eyes",
                 "1": "Tinted Lens"
             },
             "learnset_info": {
@@ -116366,8 +116366,8 @@ backup_data = {
                 "Flying"
             ],
             "abilities": {
-                "0": "Compoundeyes",
-                "1": "Compoundeyes"
+                "0": "Compound Eyes",
+                "1": "Compound Eyes"
             },
             "learnset_info": {
                 "learnset": [
@@ -127123,7 +127123,7 @@ backup_data = {
                 "Ground"
             ],
             "abilities": {
-                "0": "Compoundeyes"
+                "0": "Compound Eyes"
             },
             "learnset_info": {
                 "learnset": [

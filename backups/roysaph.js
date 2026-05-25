@@ -713,7 +713,7 @@ backup_data = {
       }
     },
     "Butterfree": {
-      "ab": "Compoundeyes",
+      "ab": "Compound Eyes",
       "types": [
         "Bug",
         "Flying"
@@ -2678,7 +2678,7 @@ backup_data = {
       }
     },
     "Venonat": {
-      "ab": "Compoundeyes",
+      "ab": "Compound Eyes",
       "types": [
         "Bug",
         "Poison"
@@ -15776,7 +15776,7 @@ backup_data = {
       }
     },
     "Beautifly": {
-      "ab": "Compoundeyes",
+      "ab": "Compound Eyes",
       "types": [
         "Bug",
         "Flying"
@@ -16210,7 +16210,7 @@ backup_data = {
       }
     },
     "Nincada": {
-      "ab": "Compoundeyes",
+      "ab": "Compound Eyes",
       "types": [
         "Bug",
         "Ground"
@@ -47046,7 +47046,7 @@ backup_data = {
           "Psychic",
           "Wing Attack"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Lax",
         "sub_index": 1,
         "battle_type": "Doubles"
@@ -47071,7 +47071,7 @@ backup_data = {
           "Sleep Powder",
           "Giga Drain"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Brave",
         "sub_index": 0,
         "battle_type": "Singles"
@@ -47096,7 +47096,7 @@ backup_data = {
           "Signal Beam",
           "Air Slash"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Modest",
         "sub_index": 3,
         "battle_type": "Singles"
@@ -47121,7 +47121,7 @@ backup_data = {
           "Silver Wind",
           "Wing Attack"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Quiet",
         "sub_index": 2,
         "battle_type": "Singles"
@@ -47146,7 +47146,7 @@ backup_data = {
           "Bug Buzz",
           "Dual Wingbeat"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Jolly",
         "sub_index": 1,
         "battle_type": "Doubles"
@@ -65035,7 +65035,7 @@ backup_data = {
           "Mud-Slap",
           "Fury Swipes"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Serious",
         "sub_index": 0,
         "battle_type": "Singles"
@@ -65060,7 +65060,7 @@ backup_data = {
           "Leech Life",
           "Mud-Slap"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Naughty",
         "sub_index": 1,
         "battle_type": "Singles"
@@ -65085,7 +65085,7 @@ backup_data = {
           "Fury Swipes",
           "Mind Reader"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Serious",
         "sub_index": 0,
         "battle_type": "Singles"
@@ -65110,7 +65110,7 @@ backup_data = {
           "Mind Reader",
           "Dig"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Timid",
         "sub_index": 0,
         "battle_type": "Singles"
@@ -65314,7 +65314,7 @@ backup_data = {
           "Gust",
           "Stun Spore"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Brave",
         "sub_index": 2,
         "battle_type": "Singles"
@@ -65339,7 +65339,7 @@ backup_data = {
           "Signal Beam",
           "Giga Drain"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Gentle",
         "sub_index": 4,
         "battle_type": "Singles"
@@ -65364,7 +65364,7 @@ backup_data = {
           "Absorb",
           "Morning Sun"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Naughty",
         "sub_index": 0,
         "battle_type": "Singles"
@@ -65389,7 +65389,7 @@ backup_data = {
           "Air Slash",
           "Stun Spore"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Bashful",
         "sub_index": 0,
         "battle_type": "Doubles"
@@ -65414,7 +65414,7 @@ backup_data = {
           "Wing Attack",
           "-"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Hasty",
         "sub_index": 2,
         "battle_type": "Doubles"
@@ -65439,7 +65439,7 @@ backup_data = {
           "Attract",
           "Stun Spore"
         ],
-        "ability": "Compoundeyes",
+        "ability": "Compound Eyes",
         "nature": "Lonely",
         "sub_index": 1,
         "battle_type": "Doubles"

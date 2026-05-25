@@ -32258,7 +32258,7 @@ backup_data = {
         {
             "Lvl 10 Bug Maniac Jose ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 10,
                 "item": "Cheri Berry",
                 "moves":
@@ -32281,7 +32281,7 @@ backup_data = {
             },
             "Lvl 16 Aroma Lady Daisy ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 16,
                 "moves":
                 [
@@ -32293,7 +32293,7 @@ backup_data = {
             },
             "Lvl 25 Aroma Lady Celina ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 25,
                 "moves":
                 [
@@ -45424,7 +45424,7 @@ backup_data = {
         {
             "Lvl 9 Bug Catcher James ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 9,
                 "item": "Miracle Seed",
                 "moves":
@@ -53480,7 +53480,7 @@ backup_data = {
         {
             "Lvl 27 |Route 112| Magma Grunt #5 ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 27,
                 "item": "Lum Berry",
                 "moves":
@@ -53494,7 +53494,7 @@ backup_data = {
             },
             "Lvl 33 Ninja Boy Lung ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 33,
                 "item": "Lum Berry",
                 "moves":
@@ -53508,7 +53508,7 @@ backup_data = {
             },
             "Lvl 43 Cooltrainer Berke ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 43,
                 "item": "Lum Berry",
                 "moves":
@@ -53522,7 +53522,7 @@ backup_data = {
             },
             "Lvl 52 Ninja Boy Edwardo ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 52,
                 "item": "Lum Berry",
                 "moves":
@@ -53536,7 +53536,7 @@ backup_data = {
             },
             "Lvl 51 Bug Maniac Jeffrey ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 51,
                 "item": "Lum Berry",
                 "moves":
@@ -53550,7 +53550,7 @@ backup_data = {
             },
             "Lvl 74 Aroma Lady Violet ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 74,
                 "item": "Quick Claw",
                 "moves":
@@ -53564,7 +53564,7 @@ backup_data = {
             },
             "Lvl 85 Expert Shannon ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 85,
                 "item": "Lum Berry",
                 "moves":
@@ -53581,7 +53581,7 @@ backup_data = {
         {
             "Lvl 8 Bug Maniac Lyle ":
             {
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "level": 8,
                 "moves":
                 [

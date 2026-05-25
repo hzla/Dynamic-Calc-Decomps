@@ -1573,7 +1573,7 @@ backup_data = {
                     "Leech Life"
                 ],
                 "sub_index": 3,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Goldenrod City",
                 "spriteId": 124,
@@ -1606,7 +1606,7 @@ backup_data = {
                     "Fury Swipes"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Azalea Town",
                 "spriteId": 116,
@@ -9241,7 +9241,7 @@ backup_data = {
                     "Air Cutter"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "Goldenrod City",
                 "spriteId": 117,
@@ -9274,7 +9274,7 @@ backup_data = {
                     "Protect"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "Route 27",
                 "spriteId": 125,
@@ -9307,7 +9307,7 @@ backup_data = {
                     "Bug Buzz"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -9340,7 +9340,7 @@ backup_data = {
                     "Bug Buzz"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "S.S. Aqua",
                 "spriteId": 67,
@@ -9373,7 +9373,7 @@ backup_data = {
                     "Protect"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -9406,7 +9406,7 @@ backup_data = {
                     "Protect"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -9439,7 +9439,7 @@ backup_data = {
                     "Protect"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -9472,7 +9472,7 @@ backup_data = {
                     "Captivate"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Route 47",
                 "spriteId": 122,
@@ -9910,7 +9910,7 @@ backup_data = {
                     "Ancient Power"
                 ],
                 "sub_index": 3,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Female",
                 "location": "Goldenrod City",
                 "spriteId": 117,
@@ -31544,7 +31544,7 @@ backup_data = {
                     "Signal Beam"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "S.S. Aqua",
                 "spriteId": 116,
@@ -71262,7 +71262,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Compoundeyes",
+                "0": "Compound Eyes",
                 "1": "Tinted Lens"
             },
             "learnset_info":
@@ -75461,7 +75461,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Compoundeyes",
+                "0": "Compound Eyes",
                 "1": "Tinted Lens"
             },
             "learnset_info":
@@ -93905,7 +93905,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Speed Boost",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -103310,7 +103310,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Shield Dust",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -105857,7 +105857,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Compoundeyes"
+                "0": "Compound Eyes"
             },
             "learnset_info":
             {

@@ -28659,7 +28659,7 @@ backup_data = {
                     "Earthquake"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Route 210",
                 "spriteId": 13,
@@ -28692,7 +28692,7 @@ backup_data = {
                     "Hyper Beam"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -28725,7 +28725,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -60389,7 +60389,7 @@ backup_data = {
                     "Leech Life"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Eterna Forest",
                 "spriteId": 5,
@@ -60422,7 +60422,7 @@ backup_data = {
                     "Dig"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -66791,7 +66791,7 @@ backup_data = {
                     "Hurricane"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Canalave City",
                 "spriteId": 49,
@@ -66824,7 +66824,7 @@ backup_data = {
                     "Dragon Rush"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Route 226",
                 "spriteId": 10,
@@ -66857,7 +66857,7 @@ backup_data = {
                     "Dragon Rush"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "Route 225",
                 "spriteId": 10,
@@ -66890,7 +66890,7 @@ backup_data = {
                     "Dragon Rush"
                 ],
                 "sub_index": 2,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -66923,7 +66923,7 @@ backup_data = {
                     "Earth Power"
                 ],
                 "sub_index": 4,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -66956,7 +66956,7 @@ backup_data = {
                     "Fire Blast"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -95739,7 +95739,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Tinted Lens",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -100249,7 +100249,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Tinted Lens",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -119875,7 +119875,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Speed Boost",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -130024,7 +130024,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Shield Dust",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -132680,7 +132680,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Compoundeyes"
+                "0": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -138027,7 +138027,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Compoundeyes",
+                "0": "Compound Eyes",
                 "1": "Levitate"
             },
             "learnset_info":
@@ -138164,7 +138164,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Compoundeyes",
+                "0": "Compound Eyes",
                 "1": "Levitate"
             },
             "learnset_info":

@@ -923,7 +923,7 @@ backup_data = {
             ]
         },
         "Butterfree": {
-            "ab": "Compoundeyes",
+            "ab": "Compound Eyes",
             "learnset_info": {
                 "learnset": [
                     [
@@ -3670,7 +3670,7 @@ backup_data = {
             ]
         },
         "Venonat": {
-            "ab": "Compoundeyes",
+            "ab": "Compound Eyes",
             "learnset_info": {
                 "learnset": [
                     [
@@ -22976,7 +22976,7 @@ backup_data = {
             ]
         },
         "Nincada": {
-            "ab": "Compoundeyes",
+            "ab": "Compound Eyes",
             "learnset_info": {
                 "learnset": [
                     [
@@ -37231,7 +37231,7 @@ backup_data = {
                     "Psychic",
                     "Substitute"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Sassy",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -37253,7 +37253,7 @@ backup_data = {
                 "moves": [
                     "Confusion"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Relaxed",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -37275,7 +37275,7 @@ backup_data = {
                 "moves": [
                     "Confusion"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Bashful",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -37300,7 +37300,7 @@ backup_data = {
                     "Gust",
                     "Supersonic"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Quirky",
                 "sub_index": 1,
                 "battle_type": "Singles"
@@ -37325,7 +37325,7 @@ backup_data = {
                     "Supersonic",
                     "Whirlwind"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Docile",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -37350,7 +37350,7 @@ backup_data = {
                     "Safeguard",
                     "Silver Wind"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Hasty",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -50245,7 +50245,7 @@ backup_data = {
                     "Leech Life",
                     "Sand Attack"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Quirky",
                 "sub_index": 1,
                 "battle_type": "Singles"
@@ -50270,7 +50270,7 @@ backup_data = {
                     "Leech Life",
                     "Sand Attack"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Naive",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -50294,7 +50294,7 @@ backup_data = {
                     "Harden",
                     "Leech Life"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Modest",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -50760,7 +50760,7 @@ backup_data = {
                     "Confusion",
                     "Poison Powder"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Hardy",
                 "sub_index": 2,
                 "battle_type": "Singles"
@@ -50785,7 +50785,7 @@ backup_data = {
                     "Psybeam",
                     "Sleep Powder"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Calm",
                 "sub_index": 1,
                 "battle_type": "Singles"
@@ -50810,7 +50810,7 @@ backup_data = {
                     "Leech Life",
                     "Disable"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Brave",
                 "sub_index": 3,
                 "battle_type": "Singles"
@@ -50834,7 +50834,7 @@ backup_data = {
                     "Disable",
                     "Foresight"
                 ],
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "nature": "Quiet",
                 "sub_index": 0,
                 "battle_type": "Singles"

@@ -32253,7 +32253,7 @@ backup_data = {
                     "-"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -32285,7 +32285,7 @@ backup_data = {
                     "Leech Life"
                 ],
                 "sub_index": 0,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -35824,7 +35824,7 @@ backup_data = {
                     "Icy Wind"
                 ],
                 "sub_index": 3,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -63053,7 +63053,7 @@ backup_data = {
                     "Leech Life"
                 ],
                 "sub_index": 1,
-                "ability": "Compoundeyes",
+                "ability": "Compound Eyes",
                 "location": "Whirl Islands",
                 "spriteId": 9,
                 "orientation": 2
@@ -73489,7 +73489,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Tinted Lens",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -77494,7 +77494,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Tinted Lens",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -77617,7 +77617,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Tinted Lens",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -94956,7 +94956,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Speed Boost",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -104058,7 +104058,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Tinted Lens",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -106695,7 +106695,7 @@ backup_data = {
             ],
             "abilities":
             {
-                "0": "Compoundeyes"
+                "0": "Compound Eyes"
             },
             "learnset_info":
             {
@@ -121606,7 +121606,7 @@ backup_data = {
             "abilities":
             {
                 "0": "Tinted Lens",
-                "1": "Compoundeyes"
+                "1": "Compound Eyes"
             },
             "learnset_info":
             {
