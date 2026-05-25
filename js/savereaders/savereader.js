@@ -229,6 +229,7 @@ $(document).ready(function() {
                     decryptedChunks = [];
                     decryptedBattleStats = []
                     partyMons = {}
+                    partySlotMetadata = []
                     partyPIDs = []
 
 
@@ -434,6 +435,7 @@ function resetParsedPokemonGlobalsForGen4Import() {
     decryptedChunks = [];
     decryptedBattleStats = [];
     partyMons = {};
+    partySlotMetadata = [];
     partyPIDs = [];
     currentParty = [];
     partyExpTables = [];
@@ -442,6 +444,104 @@ function resetParsedPokemonGlobalsForGen4Import() {
     savParty = [];
     boxPokOffsets = {};
     savBox = [];
+}
+
+function recordDsPartySlotMetadata(options) {
+    if (!options || !Number.isInteger(options.slotIndex) || options.slotIndex < 0) {
+        return;
+    }
+
+    const slotIndex = options.slotIndex;
+    const rawSpeciesId = Number(options.rawSpeciesId) || 0;
+    const speciesName = String(options.speciesName || "").trim();
+    const isEgg = !!options.isEgg;
+
+    if (typeof partySlotMetadata === "undefined" || !Array.isArray(partySlotMetadata)) {
+        partySlotMetadata = [];
+    }
+
+    partySlotMetadata[slotIndex] = {
+        speciesName: speciesName,
+        rawSpeciesId: rawSpeciesId,
+        valid: options.valid !== false,
+        isEgg: isEgg,
+    };
+
+    partyPIDs[slotIndex] = options.pv;
+    partyExpTables[slotIndex] = (typeof sav_pok_growths !== "undefined" && sav_pok_growths)
+        ? sav_pok_growths[rawSpeciesId]
+        : undefined;
+    partyExpIndexes[slotIndex] = options.monDataOffset + 4;
+    partyMovesIndexes[slotIndex] = options.moveDataOffset;
+    savParty[slotIndex] = options.decryptedData;
+
+    if (speciesName && !isEgg && options.valid !== false) {
+        partyMons[speciesName] = slotIndex;
+        currentParty.push(speciesName);
+    }
+}
+
+function isWritableDsPartySlot(partyIndex, speciesName) {
+    if (!Number.isInteger(partyIndex) || partyIndex < 0) {
+        return false;
+    }
+
+    const metadata = (typeof partySlotMetadata !== "undefined" && partySlotMetadata)
+        ? partySlotMetadata[partyIndex]
+        : null;
+
+    if (metadata && (metadata.valid === false || metadata.isEgg)) {
+        console.warn("Skipping party save sync for an egg or unrecognized party slot", {
+            speciesName: speciesName,
+            partyIndex: partyIndex,
+            metadata: metadata,
+        });
+        alert("This party slot cannot be safely edited because the save reader sees it as an egg or an unrecognized species. The save was not changed.");
+        return false;
+    }
+
+    if (typeof savParty === "undefined" || !savParty || !savParty[partyIndex] || !Array.isArray(savParty[partyIndex])) {
+        console.warn("Skipping party save sync because party core data is missing", {
+            speciesName: speciesName,
+            partyIndex: partyIndex,
+            metadata: metadata,
+        });
+        alert("This party slot could not be matched back to the loaded save. The save was not changed.");
+        return false;
+    }
+
+    const expTableIndex = (typeof partyExpTables !== "undefined" && partyExpTables) ? partyExpTables[partyIndex] : undefined;
+    if (!Number.isInteger(expTableIndex) || typeof expTables === "undefined" || !expTables || !Array.isArray(expTables[expTableIndex])) {
+        console.warn("Skipping party save sync because the EXP table is unknown", {
+            speciesName: speciesName,
+            partyIndex: partyIndex,
+            expTableIndex: expTableIndex,
+            metadata: metadata,
+        });
+        alert("This species has no known EXP table for save editing. The save was not changed.");
+        return false;
+    }
+
+    if (typeof decryptedBattleStats === "undefined" || !decryptedBattleStats || !Array.isArray(decryptedBattleStats[partyIndex])) {
+        console.warn("Skipping party save sync because battle-stat data is missing", {
+            speciesName: speciesName,
+            partyIndex: partyIndex,
+            metadata: metadata,
+        });
+        alert("This party slot is missing battle-stat data. The save was not changed.");
+        return false;
+    }
+
+    return true;
+}
+
+function getSaveEditorTargetLevel() {
+    var level = parseInt($('#levelL1').val(), 10);
+    if (!Number.isInteger(level) || level < 1 || level > 100) {
+        alert("Please choose a level from 1 to 100 before writing to the save.");
+        return null;
+    }
+    return level;
 }
 
 function wordsFromUint8LE(byteArray, byteOffset, byteLength) {
@@ -967,6 +1067,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
     var rawSpeciesId = decryptedData[mon_data_offset]
     var mon_name = sav_pok_names[rawSpeciesId]
+    var partySlotIndex = is_party ? decryptedBattleStats.length - 1 : -1
 
     try {
        mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name 
@@ -987,6 +1088,19 @@ function parsePKM(chunk, is_party=false, offset=0) {
                 moveDataOffset: move_data_offset,
                 firstWords: decryptedData.slice(0, 16),
             })
+        }
+        if (is_party) {
+            recordDsPartySlotMetadata({
+                slotIndex: partySlotIndex,
+                speciesName: "",
+                rawSpeciesId: rawSpeciesId,
+                pv: pv,
+                decryptedData: decryptedData,
+                monDataOffset: mon_data_offset,
+                moveDataOffset: move_data_offset,
+                valid: false,
+                isEgg: false,
+            });
         }
         return ""
    }
@@ -1095,13 +1209,17 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
 
     if (is_party) {
-        partyMons[mon_name] = decryptedBattleStats.length - 1
-        partyPIDs.push(pv)
-        currentParty.push(mon_name)
-        partyExpTables.push(sav_pok_growths[decryptedData[mon_data_offset]])
-        partyExpIndexes.push(mon_data_offset + 4)
-        partyMovesIndexes.push(move_data_offset)
-        savParty.push(decryptedData)
+        recordDsPartySlotMetadata({
+            slotIndex: partySlotIndex,
+            speciesName: mon_name,
+            rawSpeciesId: rawSpeciesId,
+            pv: pv,
+            decryptedData: decryptedData,
+            monDataOffset: mon_data_offset,
+            moveDataOffset: move_data_offset,
+            valid: true,
+            isEgg: isEgg,
+        });
     } else {
         boxPokOffsets[mon_name] = {}
         boxPokOffsets[mon_name]["offset"] = offset
@@ -1291,7 +1409,10 @@ function updateBoxPKMN(edge=false, speciesNameOverride=false) {
         return false
     }
 
-    var level = parseInt($('#levelL1').val())
+    var level = getSaveEditorTargetLevel()
+    if (level === null) {
+        return false
+    }
  
     // edge = confirm("Would you like to edge exp to max as well? Clicking cancel will only update level/items/moves")
     var boxPokData = boxPokOffsets[selected]
@@ -1315,11 +1436,25 @@ function updateBoxPKMN(edge=false, speciesNameOverride=false) {
 }
 
 function updatePKMNLevel(decryptedData, expIndex, expTable, level, edge=false, speciesName=false) {
+    if (!Array.isArray(decryptedData) || !Number.isInteger(expIndex) || expIndex < 0) {
+        throw new Error("Cannot update Pokemon level: missing decrypted Pokemon data.");
+    }
+
+    if (!Array.isArray(expTable)) {
+        throw new Error("Cannot update Pokemon level: missing EXP table.");
+    }
+
+    if (!Number.isInteger(level) || level < 1 || level > 100) {
+        throw new Error("Cannot update Pokemon level: level must be 1-100.");
+    }
     
     if (edge) {
         // get target exp from exp tables
         
         var desiredExp = expTable[level] - 1   
+        if (!Number.isFinite(desiredExp)) {
+            throw new Error("Cannot update Pokemon level: target EXP is unavailable.");
+        }
         
         decryptedData[expIndex] = desiredExp & 0xFFFF
         decryptedData[expIndex + 1] = (desiredExp >>> 16) & 0xFFFF  
@@ -1329,6 +1464,9 @@ function updatePKMNLevel(decryptedData, expIndex, expTable, level, edge=false, s
     } else {
         level = level - 1
         var desiredExp = expTable[level]
+        if (!Number.isFinite(desiredExp)) {
+            throw new Error("Cannot update Pokemon level: target EXP is unavailable.");
+        }
         if (parseInt($('#levelL1').val()) != currentLvl) {
             console.log("updating level to " + $('#levelL1').val())
             decryptedData[expIndex] = desiredExp & 0xFFFF
@@ -1444,6 +1582,10 @@ function updatePartyPKMN(edge=false, speciesNameOverride=false) {
         return updateBoxPKMN(edge, speciesName)
     }
 
+    if (!isWritableDsPartySlot(partyIndex, speciesName)) {
+        return false
+    }
+
     var partyOffset = partyCountOffset + 4
 
     const decryptedBattleStat = decryptedBattleStats[partyIndex]
@@ -1488,6 +1630,10 @@ function edgeSelected(maxIVs=false) {
     var selected = getSelectedPoks()
 
     desiredLevel = parseInt(prompt("Edge selection to level: "))
+    if (!Number.isInteger(desiredLevel) || desiredLevel < 2 || desiredLevel > 100) {
+        alert("Please choose a target edge level from 2 to 100.");
+        return
+    }
 
     if (selected.length == 0) {
         alert("Nothing selected")
@@ -1504,7 +1650,15 @@ function edgeSelected(maxIVs=false) {
 
         var boxPokData = boxPokOffsets[selected[i]]
         var expTable = expTables[boxPokData["exp_table"]]
+        if (!Array.isArray(expTable)) {
+            console.warn("Skipping edge update because the EXP table is unknown", selected[i], boxPokData)
+            continue
+        }
         var desiredExp = expTable[desiredLevel - 1] - 1
+        if (!Number.isFinite(desiredExp)) {
+            console.warn("Skipping edge update because target EXP is unavailable", selected[i], desiredLevel)
+            continue
+        }
 
         var decryptedData = boxPokData["decryptedData"]
         decryptedData[boxPokData["exp_index"]] = desiredExp & 0xFFFF
@@ -1642,9 +1796,15 @@ function bedtime() {
 
 function updateBattleStat(battleStat, speciesName, batch=false) {
     if (!batch) {
-        level = parseInt($('#levelL1').val())     
+        level = getSaveEditorTargetLevel()
+        if (level === null) {
+            throw new Error("Cannot update battle stats: invalid target level.");
+        }
     } else {
         level = desiredLevel - 1
+        if (!Number.isInteger(level) || level < 1 || level > 100) {
+            throw new Error("Cannot update battle stats: invalid batch target level.");
+        }
     }
 
 
@@ -1773,3 +1933,11 @@ function getStat(mods, stat, base, iv, ev, level) {
         return Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) * n);
     }
 };
+
+if (typeof module !== "undefined" && module.exports) {
+    module.exports.__test = {
+        resetParsedPokemonGlobalsForGen4Import,
+        recordDsPartySlotMetadata,
+        isWritableDsPartySlot,
+    };
+}

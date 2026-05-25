@@ -298,6 +298,22 @@ function getBoxMatchupContextOptions() {
     }
 }
 
+function getBoxMatchupSpeed(pokemon, resultPokemon, side) {
+    var speed = Number(resultPokemon && resultPokemon.stats && resultPokemon.stats.spe)
+    if (!Number.isFinite(speed)) {
+        speed = Number(pokemon && pokemon.stats && pokemon.stats.spe)
+    }
+    if (!Number.isFinite(speed)) {
+        speed = Number(pokemon && pokemon.rawStats && pokemon.rawStats.spe) || 0
+    }
+
+    if (settings && settings.damageGen == 3 && side && side.isBadgeSpeed) {
+        speed = Math.floor(speed * 1.1)
+    }
+
+    return speed
+}
+
 function getMinimumBoxMoveHits(moveData, attacker) {
     if (!moveData || !moveData.multihit) {
         return 1
@@ -549,14 +565,14 @@ function getBoxMatchupMetrics(setId, options) {
         return fallbackMetrics
     }
 
-    var monSpeed = Number(mon.rawStats && mon.rawStats.spe) || 0
     var monHp = Number(mon.originalCurHP) || 0
     var dealtMinRoll = options.dealtMinRoll === "" ? 10000 : Number(options.dealtMinRoll)
     var takenMaxRoll = options.takenMaxRoll === "" ? -1 : Number(options.takenMaxRoll)
     var useDefaultColors = dealtMinRoll == 10000 && takenMaxRoll == -1 && options.advBoxrollsEnabled
-    var results = calculateAllMoves(settings.damageGen, options.opponent, options.p1field, mon, options.p2field, false)
+    var results = calculateAllMoves(settings.damageGen, options.opponent, options.p2field, mon, options.p1field, false)
     var opposingResults = results[0] || []
     var playerResults = results[1] || []
+    var monSpeed = getBoxMatchupSpeed(mon, playerResults[0] && playerResults[0].attacker, options.p1field && options.p1field.attackerSide)
     var matchingMoveCount = 0
     var hasUnsafeTakenMove = false
     var metrics = {

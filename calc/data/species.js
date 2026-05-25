@@ -9016,6 +9016,12 @@ var RR_PATCH = {
     'Illumise': { types: ['Bug', 'Fairy'], bs: { hp: 85, at: 90, sa: 47, sp: 100 } },
     'Infernape': { bs: { at: 110, sa: 110, sp: 113 } },
     'Jellicent': { bs: { df: 80, sa: 75 } },
+    'Jellicent-F': {
+        types: ['Water', 'Ghost'],
+        bs: { hp: 100, at: 60, df: 70, sa: 85, sd: 105, sp: 60 },
+        weightkg: 135,
+        abilities: { 0: 'Water Absorb' }
+    },
     'Jumpluff': { bs: { at: 85, sa: 35 } },
     'Jynx': { bs: { df: 50, sp: 100 } },
     'Kecleon': { bs: { hp: 85, at: 100 } },

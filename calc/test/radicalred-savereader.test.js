@@ -105,6 +105,12 @@ describe("Radical Red save reader helpers", function () {
 
     expect(parser.__test.resolveBoxAbilitySlot(monStruct)).toBe(2);
   });
+
+  test("maps female Radical Red Jellicent saves to the female calc forme", function () {
+    expect(parser.__test.resolveGenderedSpeciesName("Jellicent", 646, 0)).toBe("Jellicent-F");
+    expect(parser.__test.resolveGenderedSpeciesName("Jellicent", 646, 255)).toBe("Jellicent");
+    expect(parser.__test.resolveGenderedSpeciesName("Jellicent", 705, 255)).toBe("Jellicent-F");
+  });
 });
 
 describe("Radical Red checked-in randomized save", function () {

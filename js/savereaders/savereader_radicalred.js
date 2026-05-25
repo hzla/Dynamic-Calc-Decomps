@@ -568,6 +568,20 @@
     return Boolean(speciesName && speciesName !== "-----" && speciesName !== "None");
   }
 
+  function rrResolveJellicentGender(speciesId, pid) {
+    if (speciesId === 705) {
+      return "F";
+    }
+    return ((pid >>> 0) & 0xFF) < 127 ? "F" : "M";
+  }
+
+  function rrResolveGenderedSpeciesName(speciesName, speciesId, pid) {
+    if (speciesName === "Jellicent" && rrResolveJellicentGender(speciesId, pid) === "F") {
+      return "Jellicent-F";
+    }
+    return speciesName;
+  }
+
   function rrWrappedSlice(bytes, start, length) {
     var out = new Uint8Array(length);
     for (var i = 0; i < length; i++) {
@@ -700,6 +714,7 @@
     }
 
     var pid = rrReadU32LE(monStruct, 0);
+    speciesName = rrResolveGenderedSpeciesName(speciesName, speciesId, pid);
     var abilitySlot = rrResolvePartyAbilitySlot(monStruct);
 
     var moveIds = [
@@ -718,6 +733,7 @@
       pid: pid >>> 0,
       speciesId: speciesId >>> 0,
       speciesName: speciesName,
+      gender: speciesName === "Jellicent-F" ? "F" : undefined,
       exp: rrReadU32LE(monStruct, 36) >>> 0,
       level: rrResolveLevel(speciesName, rrReadU32LE(monStruct, 36) >>> 0, rrReadU8(monStruct, 84), options),
       natureName: rrNatures[pid % 25] || "Hardy",
@@ -740,6 +756,7 @@
     }
 
     var pid = rrReadU32LE(monStruct, 0);
+    speciesName = rrResolveGenderedSpeciesName(speciesName, speciesId, pid);
     var abilitySlot = rrResolveBoxAbilitySlot(monStruct);
 
     var moveIds = rrDecodePackedMoveIds(monStruct.subarray(39, 45));
@@ -753,6 +770,7 @@
       pid: pid >>> 0,
       speciesId: speciesId >>> 0,
       speciesName: speciesName,
+      gender: speciesName === "Jellicent-F" ? "F" : undefined,
       exp: rrReadU32LE(monStruct, 32) >>> 0,
       level: rrResolveLevel(speciesName, rrReadU32LE(monStruct, 32) >>> 0, null, options),
       natureName: rrNatures[pid % 25] || "Hardy",
@@ -769,7 +787,7 @@
     }
 
     var output = [];
-    output.push(mon.speciesName);
+    output.push(mon.speciesName + (mon.gender ? " (" + mon.gender + ")" : ""));
     output.push("Level: " + mon.level);
     output.push(mon.natureName + " Nature");
     output.push("Ability: " + mon.abilityName);
@@ -977,6 +995,7 @@
       resolveLevelFromExpTable: rrResolveLevelFromExpTable,
       resolveAbilityNameById: rrResolveAbilityNameById,
       resolveBaseAbilityId: rrResolveBaseAbilityId,
+      resolveGenderedSpeciesName: rrResolveGenderedSpeciesName,
       randomizedAbilitiesEnabled: rrRandomizedAbilitiesEnabled,
       resolvePartyAbilitySlot: rrResolvePartyAbilitySlot,
       resolveBoxAbilitySlot: rrResolveBoxAbilitySlot

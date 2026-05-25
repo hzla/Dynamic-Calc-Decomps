@@ -962,6 +962,35 @@ function extractGenderFromImportHeader(headerLine) {
 	return result;
 }
 
+function isRadicalRedImportContext(importOptions) {
+	if (typeof TITLE !== "undefined" && /radical\s*red/i.test(String(TITLE))) {
+		return true;
+	}
+	if (importOptions && /radical\s*red/i.test(String(importOptions.title || importOptions.gameTitle || importOptions.romTitle || ""))) {
+		return true;
+	}
+	return false;
+}
+
+function resolveRadicalRedGenderedSpeciesName(speciesName, gender, importOptions) {
+	if (!isRadicalRedImportContext(importOptions)) {
+		return speciesName;
+	}
+
+	if (
+		speciesName === "Jellicent" &&
+		String(gender || "").toUpperCase() === "F" &&
+		typeof calc !== "undefined" &&
+		calc.SPECIES &&
+		calc.SPECIES[8] &&
+		calc.SPECIES[8]["Jellicent-F"] !== undefined
+	) {
+		return "Jellicent-F";
+	}
+
+	return speciesName;
+}
+
 function getImportedSpeciesMatchesFromHeader(headerLine, importOptions) {
 	var headerInfo = extractGenderFromImportHeader(headerLine);
 	var currentRow = headerInfo.header.split(/[()@]/);
@@ -970,6 +999,7 @@ function getImportedSpeciesMatchesFromHeader(headerLine, importOptions) {
 
 	for (var i = 0; i < speciesParts.length; i++) {
 		var candidate = checkExeptions(speciesParts[i].trim(), importOptions);
+		candidate = resolveRadicalRedGenderedSpeciesName(candidate, headerInfo.gender, importOptions);
 		if (calc.SPECIES[8][candidate] !== undefined) {
 			matches.push({
 				index: i,
@@ -2439,17 +2469,21 @@ function addSets(pokes, name, importOptions) {
 		
 		for (var j = 0; j < currentRow.length; j++) {
 			currentRow[j] = checkExeptions(currentRow[j].trim(), importOptions);
+			var currentSpeciesCandidate = currentRow[j].trim();
+			if (j === importedSpeciesIndex && importedSpeciesName) {
+				currentSpeciesCandidate = importedSpeciesName;
+			}
 			
 
 
-				if (calc.SPECIES[8][currentRow[j].trim()] !== undefined) {
-					if (!importedSpeciesName || currentRow[j].trim() !== importedSpeciesName || importedHeaderProcessed) {
+				if (calc.SPECIES[8][currentSpeciesCandidate] !== undefined) {
+					if (!importedSpeciesName || currentSpeciesCandidate !== importedSpeciesName || importedHeaderProcessed) {
 						continue;
 					}
 					importedHeaderProcessed = true;
 
-					currentPoke = calc.SPECIES[8][currentRow[j].trim()];
-					currentPoke.name = currentRow[j].trim();
+					currentPoke = calc.SPECIES[8][currentSpeciesCandidate];
+					currentPoke.name = currentSpeciesCandidate;
 					currentPoke.boxImportBatchId = importBatchId;
 					currentPoke.gender = headerInfo.gender;
 					currentPoke.item = getItem(currentRow, j + 1);
