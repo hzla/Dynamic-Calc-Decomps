@@ -329,9 +329,13 @@ function get_next_in_g4() {
         }
 
         // because the game only counts multihits moves as 1
-        calcingForSwitchIns = true
-        var results = calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field, false)[1]
-        calcingForSwitchIns = false
+        var results = []
+        try {
+            calcingForSwitchIns = true
+            results = calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field, false)[1]
+        } finally {
+            calcingForSwitchIns = false
+        }
 
         var highestDamage = 0
         var highestDamageName = ""

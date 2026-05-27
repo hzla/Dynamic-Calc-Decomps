@@ -69,6 +69,9 @@ function calculateDPP(gen, attacker, defender, move, field) {
         moveName: move.name,
         defenderName: defender.name
     };
+    var scoresFutureSightAsSwitchMove = typeof calcingForSwitchIns !== "undefined" &&
+        calcingForSwitchIns &&
+        move.named('Future Sight', 'Doom Desire');
     ctx.desc = desc;
     var result = new result_1.Result(gen, attacker, defender, move, field, 0, desc);
     if (move.category === 'Status' && !move.named('Nature Power')) {
@@ -125,6 +128,10 @@ function calculateDPP(gen, attacker, defender, move, field) {
         desc.moveBP = move.bp;
         desc.moveType = move.type;
     }
+    if (scoresFutureSightAsSwitchMove) {
+        move.type = move.named('Doom Desire') ? 'Steel' : 'Psychic';
+        desc.moveType = move.type;
+    }
     if (attacker.hasAbility('Normalize')) {
         move.type = 'Normal';
         desc.attackerAbility = attacker.ability;
@@ -145,7 +152,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         typeEffectiveness = type1Effectiveness * type2Effectiveness;
     }
 
-    if (move.named('Future Sight') || move.named('Doom Desire')) {
+    if (!scoresFutureSightAsSwitchMove && (move.named('Future Sight') || move.named('Doom Desire'))) {
         type1Effectiveness = 1;
         type2Effectiveness = 1;
         typeEffectiveness = 1;
@@ -154,7 +161,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
     if (typeEffectiveness === 0) {
         return result;
     }
-    var ignoresWonderGuard = move.hasType('???') || move.named('Fire Fang') || move.named('Doom Desire') || move.named('Future Sight');
+    var ignoresWonderGuard = move.hasType('???') || move.named('Fire Fang') || (!scoresFutureSightAsSwitchMove && (move.named('Doom Desire') || move.named('Future Sight')));
     
 
     if ((!ignoresWonderGuard && defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
@@ -572,7 +579,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
             desc.isSwitching = 'out';
         }
         var stabMod = 1;
-        if (move.hasType.apply(move, __spreadArray([], __read(attacker.types), false)) && !move.named('Future Sight') && !move.named('Doom Desire')) {
+        if (move.hasType.apply(move, __spreadArray([], __read(attacker.types), false)) &&
+            (scoresFutureSightAsSwitchMove || (!move.named('Future Sight') && !move.named('Doom Desire')))) {
             if (attacker.hasAbility('Adaptability')) {
                 stabMod = 2;
                 desc.attackerAbility = attacker.ability;
