@@ -40,6 +40,31 @@ var BOX_MATCHUP_METRICS_CACHE = {
 var PARTY_PREVIEW_OVERRIDE_SLOTS = null
 var IMPORT_PARTY_PREVIEW_PRESERVATION_DEPTH = 0
 var IMPORT_PARTY_PREVIEW_SNAPSHOT = null
+var BOX_FILTER_TOGGLE_ABILITY_ON_WHITELIST = [
+    'Slow Start',
+    'Bull Rush',
+    'Quill Rush',
+    'Dauntless Shield',
+    'Intrepid Sword',
+    'Download'
+]
+var BOX_FILTER_TOGGLE_ABILITIES = [
+    'Flash Fire',
+    'Intimidate',
+    'Minus',
+    'Plus',
+    'Slow Start',
+    'Unburden',
+    'Stakeout',
+    'Teraform Zero',
+    'Bull Rush',
+    'Quill Rush',
+    'Illusion',
+    'Dauntless Shield',
+    'Intrepid Sword',
+    'Download',
+    'Imposter'
+]
 
 function clonePartyPreviewSetData(setData) {
     if (!setData || typeof setData !== "object") {
@@ -169,9 +194,25 @@ function findBoxSortCardsBySetId(root, setId) {
     })
 }
 
+function getBoxFilterToggleAbilities() {
+    var toggleAbilities = BOX_FILTER_TOGGLE_ABILITIES.slice()
+    if (typeof TITLE === "string" && TITLE.includes(" Null")) {
+        toggleAbilities.push("Illuminate")
+        toggleAbilities.push("Protean")
+    }
+    return toggleAbilities
+}
+
+function shouldBoxFilterAbilityStartOn(ability) {
+    if (!ability || getBoxFilterToggleAbilities().indexOf(ability) < 0) {
+        return true
+    }
+    return BOX_FILTER_TOGGLE_ABILITY_ON_WHITELIST.indexOf(ability) >= 0
+}
+
 function normalizeBoxAbilityForCalc(pokemon) {
-    if (pokemon && pokemon.ability == "Intimidate") {
-        pokemon.ability = "Honey Gather"
+    if (pokemon && !shouldBoxFilterAbilityStartOn(pokemon.ability)) {
+        pokemon.abilityOn = false
     }
     return pokemon
 }

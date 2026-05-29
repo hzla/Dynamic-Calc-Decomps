@@ -150,6 +150,10 @@ function isPokemonColorsTitle(title) {
     return title === POKEMON_COLORS_NORMAL_TITLE || title === POKEMON_COLORS_CLASSIC_TITLE;
 }
 
+function requiresPhysSpecSplit(title) {
+    return title === "Renegade Platinum";
+}
+
 function getDefaultMoveCategoryForName(moveName) {
     if (typeof MOVES_BY_ID === "undefined" || !MOVES_BY_ID) {
         return null;
@@ -234,6 +238,9 @@ function getSwitchAiInfoEnabled(title) {
 
 function getPhysSpecSplitEnabled(title) {
     var resolvedTitle = typeof title === "string" ? title : getRuntimeTitle();
+    if (requiresPhysSpecSplit(resolvedTitle)) {
+        return true;
+    }
     return getTitleScopedStoredBool(
         PHYS_SPEC_SPLIT_STORAGE_PREFIX,
         resolvedTitle,
@@ -280,6 +287,9 @@ function syncGameScopedPhysSpecSplitSettings(title) {
 
     if (typeof localStorage !== "undefined") {
         localStorage.physSpecSplit = physSpecSplitEnabled ? "1" : "0";
+        if (requiresPhysSpecSplit(resolvedTitle)) {
+            localStorage.setItem(getTitleScopedStorageKey(PHYS_SPEC_SPLIT_STORAGE_PREFIX, resolvedTitle), "1");
+        }
     }
 
     settings.physSpecSplit = physSpecSplitEnabled;

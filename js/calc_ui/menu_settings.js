@@ -330,6 +330,7 @@ function setSettingsTogglesFromLocalStorage() {
     if (typeof MoveAiPreviewSettings !== "undefined" && MoveAiPreviewSettings.syncToggle) {
         MoveAiPreviewSettings.syncToggle()
     }
+    applyPhysSpecSplitVisibility()
     applyInvertTypesVisibility()
     applyPlatinumReduxTypeChartVisibility()
     applyChallengeModeVisibility()
@@ -421,6 +422,10 @@ function toggleHasEvs() {
 }
 
 function togglePhysSpecSplit() {
+    if (!canShowPhysSpecSplitToggle()) {
+        $('#toggle-phys-spec-split').hide()
+        return
+    }
     var nextValue = localStorage.physSpecSplit != '1'
     if (typeof setPhysSpecSplitEnabled === "function") {
         setPhysSpecSplitEnabled(nextValue)
@@ -508,6 +513,14 @@ function applyMoveAiPreviewVisibility() {
             setMoveAiPreviewSettingEnabled(false)
         }
     }
+}
+
+function canShowPhysSpecSplitToggle() {
+    return Boolean(settings && settings.damageGen === 3)
+}
+
+function applyPhysSpecSplitVisibility() {
+    $('#toggle-phys-spec-split').toggle(canShowPhysSpecSplitToggle())
 }
 
 function canShowInvertTypesToggle() {

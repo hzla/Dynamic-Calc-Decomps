@@ -1230,13 +1230,24 @@ function getItemMatchedMegaFormes(baseSpeciesName, heldItem) {
 	});
 }
 
+function hasBackupDataSpecies(speciesName) {
+	if (typeof backup_data === "undefined" || !backup_data || !speciesName) {
+		return false;
+	}
+
+	return Boolean(
+		(backup_data.poks && backup_data.poks[speciesName]) ||
+		(backup_data.formatted_sets && backup_data.formatted_sets[speciesName])
+	);
+}
+
 function shouldAutoImportMegaForme(megaSpeciesName) {
 	if (!megaSpeciesName) {
 		return false;
 	}
 
-	if (backup_data && backup_data.poks) {
-		return Boolean(backup_data.poks[megaSpeciesName]);
+	if (typeof backup_data !== "undefined" && backup_data && (backup_data.poks || backup_data.formatted_sets)) {
+		return hasBackupDataSpecies(megaSpeciesName);
 	}
 
 	if (typeof ZA_PATCH !== "undefined" && ZA_PATCH && ZA_PATCH[megaSpeciesName]) {
