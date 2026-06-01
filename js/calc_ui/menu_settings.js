@@ -754,6 +754,11 @@ $('#save-toggle .slider').click(function(){
 
 $('#toggle-remember-hp-status .slider').click(function(){
     localStorage.rememberHpStatus = (parseInt(localStorage.rememberHpStatus) + 1) % 2;
+    if (localStorage.rememberHpStatus == "0" && typeof resetAllPlayerCustomSetStatusesToHealthy === "function") {
+        resetAllPlayerCustomSetStatusesToHealthy({
+            syncActiveUi: true
+        });
+    }
 })
 
 $('#toggle-use-evs .slider').click(toggleHasEvs)

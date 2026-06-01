@@ -599,9 +599,11 @@ function placeBsBtn() {
 	});
 }
 
-function ExportPokemon(pokeInfo) {
+function ExportPokemon(pokeInfo, exportOptions) {
+	exportOptions = exportOptions || {};
 	var pokemon = createPokemon(pokeInfo);
 	var canonicalStatus = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(pokeInfo.find(".status").val()) : "Healthy";
+	var shouldIncludeStatus = exportOptions.includeStatus !== false;
 	var EV_counter = 0;
 	var finalText = "";
 	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
@@ -637,7 +639,7 @@ function ExportPokemon(pokeInfo) {
 		finalText += serialize(IVs_Array, " / ");
 		finalText += "\n";
 	}
-	if (canonicalStatus !== "Healthy") {
+	if (shouldIncludeStatus && canonicalStatus !== "Healthy") {
 		finalText += "Status: " + canonicalStatus + "\n";
 	}
 
@@ -779,7 +781,7 @@ $('#save-pok').click(function () {
 		updatedWritableSave = updatePartyPKMN() === true;
 	}
 
-	ExportPokemon($("#p1"));
+	ExportPokemon($("#p1"), { includeStatus: typeof rememberHpStatusEnabled === "function" ? rememberHpStatusEnabled() : true });
 	$('#import').click()
 	$(this).text("Saved!")
 
@@ -846,7 +848,7 @@ function statToLegacyStat(stat) {
 
 function getStats(currentPoke, rows, offset, importOptions) {
 	currentPoke.nature = "Serious";
-	currentPoke.status = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(currentPoke.status) : "Healthy";
+	currentPoke.status = "Healthy";
 	var currentEV;
 	var currentIV;
 	var currentAbility;
@@ -3455,5 +3457,10 @@ $(document).ready(function () {
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 	} else {
 		loadDefaultLists();
+	}
+	if (typeof rememberHpStatusEnabled === "function" && !rememberHpStatusEnabled() && typeof resetAllPlayerCustomSetStatusesToHealthy === "function") {
+		resetAllPlayerCustomSetStatusesToHealthy({
+			syncActiveUi: true
+		});
 	}
 });

@@ -84,6 +84,11 @@ function enableRememberHpStatus(win) {
   win.$('#toggle-remember-hp-status input').prop('checked', true)
 }
 
+function disableRememberHpStatus(win) {
+  win.localStorage.rememberHpStatus = '0'
+  win.$('#toggle-remember-hp-status input').prop('checked', false)
+}
+
 function installConsoleCapture(win) {
   if (!win.__codexConsoleCaptureInstalled) {
     const originalLog = win.console.log.bind(win.console)
@@ -655,9 +660,13 @@ for (let calc of calcs) {
       cy.get('#statusL1').should('have.value', 'Healthy')
     })
 
-    it('persists status through the save button export-import roundtrip', () => {
+    it('persists status through the save button export-import roundtrip when remembering is enabled', () => {
       cy.get('#clearSets').click()
       importSetText(statusImportText)
+
+      cy.window().then((win) => {
+        enableRememberHpStatus(win)
+      })
 
       cy.get("[data-id='Eevee (My Box)']").click()
       cy.get('#statusL1').select('Burned')
@@ -670,6 +679,52 @@ for (let calc of calcs) {
       cy.get("[data-id='Pikachu (My Box)']").click()
       cy.get("[data-id='Eevee (My Box)']").click()
       cy.get('#statusL1').should('have.value', 'Burned')
+    })
+
+    it('does not persist status through the save button when remembering is disabled', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+
+      cy.window().then((win) => {
+        disableRememberHpStatus(win)
+      })
+
+      cy.get("[data-id='Eevee (My Box)']").click()
+      cy.get('#statusL1').select('Poisoned')
+      cy.get('#save-pok').click()
+
+      cy.window().then((win) => {
+        expect(win.customSets.Eevee['My Box'].status).to.eq('Healthy')
+      })
+
+      cy.get("[data-id='Pikachu (My Box)']").click()
+      cy.get("[data-id='Eevee (My Box)']").click()
+      cy.get('#statusL1').should('have.value', 'Healthy')
+    })
+
+    it('clears remembered hp and status when remembering is turned off', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+
+      cy.window().then((win) => {
+        enableRememberHpStatus(win)
+        win.customSets.Eevee['My Box'].status = 'Burned'
+        win.customSets.Eevee['My Box'].currentHp = 41
+        win.updateDex(win.customSets)
+        win.localStorage.rememberedEnemyHpStatus = JSON.stringify({
+          'Examplemon (Trainer)': {
+            status: 'Poisoned',
+            currentHp: 12
+          }
+        })
+
+        win.$('#toggle-remember-hp-status .slider').click()
+
+        expect(win.localStorage.rememberHpStatus).to.eq('0')
+        expect(win.customSets.Eevee['My Box'].status).to.eq('Healthy')
+        expect(win.customSets.Eevee['My Box']).to.not.have.property('currentHp')
+        expect(JSON.parse(win.localStorage.rememberedEnemyHpStatus || '{}')).to.deep.equal({})
+      })
     })
 
     it('groups left-side forms with the evo line and updates the sprite', () => {
