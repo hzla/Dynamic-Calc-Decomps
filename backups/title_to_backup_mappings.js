@@ -59,6 +59,7 @@ backupFiles = {
 sourceTitleAliases = {
 	"aetherwhite": "Aether White 2",
 	"wishywashy": "Wishy Washy White 2",
+	"ax": "Ancestral X",
 	"colorsnormal": "Pokemon Colors Normal",
 	"colorsclassic": "Pokemon Colors Classic",
 	"bb2redux": "Blaze Black 2/Volt White 2 Redux",

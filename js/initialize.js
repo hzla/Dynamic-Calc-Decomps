@@ -1075,6 +1075,7 @@ function setGameSettings(title) {
     gameGen = 6
      if (!settings.noSwitch) {
       settings.gameSwitchIn = 6;
+      settings.switchIn = 6;
     }
     settings.damageGen = 6;
     settings.sourceType = "full"

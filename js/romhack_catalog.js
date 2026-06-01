@@ -8,8 +8,8 @@
             sourceTitle: "Ancestral X",
             variants: [
                 {
-                    label: "Ancestral X",
-                    source: "https://hzla.github.io/Dynamic-Calc/?data=7a1ed35468b22ea01103&dmgGen=6&gen=6",
+                    label: "Pokemon X Base Rom",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=ax&dmgGen=6&gen=6",
                     coverImage: "",
                     description: ""
                 }
