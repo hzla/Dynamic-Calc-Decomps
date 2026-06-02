@@ -603,6 +603,10 @@ function tryParseLuaRawPartySlot0WithFallback(chunk, offset=0) {
     return parsePKM(normalizedChunk, true, offset);
 }
 
+function isDsSaveEggPokemon(monName, ivValue) {
+    return monName === "Egg" || monName === "Bad Egg" || ((ivValue >>> 30) & 0x1) === 1;
+}
+
 // Parse a DS PokeLua/DeSmuME Box-<tid>.json dump where `party` and `boxes` contain raw bytes.
 // Reuses parsePKM() so offsets/decryption stay aligned with the main Gen 4/5 save parser.
 function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
@@ -1187,7 +1191,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
 
     var exp = (decryptedData[mon_data_offset + 5] << 16) | (decryptedData[mon_data_offset + 4]  & 0xFFFF)
-    var isEgg = mon_name === "Egg" || mon_name === "Bad Egg" || ((iv_value >>> 30) & 0x1) === 1 || exp === 0
+    var isEgg = isDsSaveEggPokemon(mon_name, iv_value)
     var abilitySlotId = null
     if (gameGen == 4) {
         abilitySlotId = (pv & 0x1) + 1
@@ -1939,5 +1943,8 @@ if (typeof module !== "undefined" && module.exports) {
         resetParsedPokemonGlobalsForGen4Import,
         recordDsPartySlotMetadata,
         isWritableDsPartySlot,
+        isDsSaveEggPokemon,
+        parsePKM,
+        encryptData,
     };
 }

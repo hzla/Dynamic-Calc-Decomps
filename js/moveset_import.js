@@ -31,6 +31,7 @@ moveChanges = {
 	  "Scratch": "Breaking Swipe",
 	  "Fairy Wind": "Spirit Break",
 	  "Vice Grip": "Tussle",
+	  "Vise Grip": "Tussle",
 	  "Wing Attack": "Dual Wingbeat",
 	  "Needle Arm": "Trailblaze",
 	  "Vine Whip": "Trop Kick",

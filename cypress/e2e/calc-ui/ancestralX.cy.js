@@ -33,4 +33,30 @@ describe('Ancestral X calc configuration', () => {
       expect(win.$('#show-ai').is(':visible')).to.eq(false)
     })
   })
+
+  it('registers the Ancestral X move replacement aliases for imports', () => {
+    cy.window().then((win) => {
+      expect(win.moveChanges['Ancestral X']).to.deep.include({
+        'Fury Attack': 'Scorching Swarm',
+        Scratch: 'Breaking Swipe',
+        'Fairy Wind': 'Spirit Break',
+        'Vice Grip': 'Tussle',
+        'Vise Grip': 'Tussle',
+        'Wing Attack': 'Dual Wingbeat',
+        'Needle Arm': 'Trailblaze',
+        'Vine Whip': 'Trop Kick',
+        Stomp: 'Ground Pound',
+        'Horn Attack': 'Headlong Rush',
+        'Powder Snow': 'Ice Hammer',
+        Bind: 'Esper Wing',
+        'Rolling Kick': "Fate's Flourish",
+        'Rock Throw': 'Accelerock',
+        'Crush Claw': 'Smart Strike',
+        'Double Slap': 'Steel Beam',
+        Lick: 'Aqua Step',
+        'Water Gun': 'Chilling Water',
+        Pound: 'Wave Crash'
+      })
+    })
+  })
 })

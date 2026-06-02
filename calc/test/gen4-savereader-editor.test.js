@@ -120,4 +120,71 @@ describe("Gen 4 save editor party slot bookkeeping", function () {
     expect(reader.isWritableDsPartySlot(0, "Delcatty")).toBe(true);
     expect(global.alert).not.toHaveBeenCalled();
   });
+
+  test("does not treat a zero-exp hatched Gen 4 Pokemon as an egg", function () {
+    global.baseGame = "HGSS";
+    global.gameGen = 4;
+    global.gen = 4;
+    global.mechanics = "";
+    global.settings = { devMode: false };
+    global.blockOrders = [[0, 1, 2, 3]];
+    global.mon_forms = {};
+    global.pokedex = {};
+    global.sav_pok_names = [];
+    global.sav_pok_names[175] = "Togepi";
+    global.sav_item_names = ["None"];
+    global.sav_move_names = ["-----", "Growl", "Charm"];
+    global.sav_abilities = [];
+    global.sav_abilities[1] = "Hustle";
+    global.sav_pok_growths[175] = 3;
+    global.locations = { HGSS: ["Mystery Zone"] };
+    global.natures = ["Hardy"];
+    global.textTable = {
+      1: "T",
+      2: "o",
+      3: "g",
+      4: "e",
+      5: "p",
+      6: "i",
+    };
+    global.SPECIES_BY_ID = [];
+    global.SPECIES_BY_ID[4] = { togepi: { name: "Togepi" } };
+    global.cleanString = function (value) {
+      return String(value || "").replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+    };
+    global.resolveSavLevelFromExperience = function () {
+      return 1;
+    };
+
+    var decrypted = Array(64).fill(0);
+    decrypted[0] = 175;
+    decrypted[6] = 1 << 8;
+    decrypted[16] = 1;
+    decrypted[17] = 2;
+    decrypted[32] = 1;
+    decrypted[33] = 2;
+    decrypted[34] = 3;
+    decrypted[35] = 4;
+    decrypted[36] = 5;
+    decrypted[37] = 6;
+
+    var checksum = 0x1234;
+    var encrypted = reader.encryptData(decrypted, checksum);
+    var chunk = new Uint8Array(136);
+    chunk[6] = checksum & 0xFF;
+    chunk[7] = (checksum >>> 8) & 0xFF;
+    for (var i = 0; i < encrypted.length; i++) {
+      chunk[8 + (i * 2)] = encrypted[i] & 0xFF;
+      chunk[9 + (i * 2)] = (encrypted[i] >>> 8) & 0xFF;
+    }
+
+    var result = reader.parsePKM(chunk, false, 0);
+
+    expect(reader.isDsSaveEggPokemon("Togepi", 0)).toBe(false);
+    expect(result).toContain("Togepi");
+    expect(result).toContain("@ None");
+    expect(result).toContain("Level: 1");
+    expect(result).not.toContain("(Egg)");
+    expect(result).not.toContain("Egg: Yes");
+  });
 });
