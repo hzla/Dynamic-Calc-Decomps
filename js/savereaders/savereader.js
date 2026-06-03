@@ -1277,7 +1277,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
 
     showdownString += `EVs: ${hp_ev} HP / ${atk_ev} Atk / ${def_ev} Def / ${spa_ev} SpA / ${spd_ev} SpD / ${spe_ev} Spe\n`
-    showdownString += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[4]} SpA / ${ivs[5]} SpD / ${ivs[3]} Spe\n`
+    showdownString += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[3]} SpA / ${ivs[4]} SpD / ${ivs[5]} Spe\n`
 
     for (let i = 0; i < 4; i++) {
         var move_name = sav_move_names[decryptedData[move_data_offset + i]]
