@@ -858,6 +858,7 @@ function statToLegacyStat(stat) {
 function getStats(currentPoke, rows, offset, importOptions) {
 	currentPoke.nature = "Serious";
 	currentPoke.status = "Healthy";
+	currentPoke.isEgg = false;
 	var currentEV;
 	var currentIV;
 	var currentAbility;

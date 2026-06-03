@@ -12,6 +12,12 @@ function loadImportNormalizer(overrides) {
     overrides = overrides || {};
     var source = fs.readFileSync(path.resolve(__dirname, "../../js/moveset_import.js"), "utf8");
     var normalizerSource = source.slice(0, source.indexOf("function placeBsBtn()"));
+    if (overrides.includeStatsParser) {
+        normalizerSource += source.slice(
+            source.indexOf("function statToLegacyStat"),
+            source.indexOf("function isInt")
+        );
+    }
     if (overrides.includeImportParser) {
         normalizerSource += source.slice(
             source.indexOf("function extractGenderFromImportHeader"),
@@ -50,6 +56,9 @@ function loadImportNormalizer(overrides) {
             move_replacements: {
                 "Gravity": "Drill Run"
             }
+        },
+        isImportedSetBoundaryLine: function () {
+            return false;
         }
     }, overrides);
 
@@ -106,5 +115,52 @@ describe("Radical Red gendered species imports", function () {
 
         expect(parsed.match.speciesName).toBe("Jellicent");
         expect(parsed.headerInfo.gender).toBe("F");
+    });
+});
+
+describe("imported egg state", function () {
+    test("clears stale egg state when the next import block has no Egg line", function () {
+        var context = loadImportNormalizer({
+            includeStatsParser: true,
+            calc: {
+                SPECIES: {
+                    8: {
+                        Chimchar: { name: "Chimchar" }
+                    }
+                }
+            }
+        });
+        var stalePokemon = { name: "Chimchar", isEgg: true };
+
+        var parsed = context.getStats(stalePokemon, [
+            "Chimchar (M) @ None",
+            "Level: 12",
+            "Naughty Nature",
+            "- Scratch"
+        ], 1, {});
+
+        expect(parsed.isEgg).toBe(false);
+    });
+
+    test("keeps egg state when the import block explicitly says Egg: Yes", function () {
+        var context = loadImportNormalizer({
+            includeStatsParser: true,
+            calc: {
+                SPECIES: {
+                    8: {
+                        Chimchar: { name: "Chimchar" }
+                    }
+                }
+            }
+        });
+
+        var parsed = context.getStats({ name: "Chimchar" }, [
+            "Chimchar (Egg) @ None",
+            "Level: 1",
+            "Egg: Yes",
+            "Naughty Nature"
+        ], 1, {});
+
+        expect(parsed.isEgg).toBe(true);
     });
 });
