@@ -509,9 +509,17 @@ function getShowdownImportOptions(showdownText, explicitOptions) {
 		options = Object.assign(options, explicitOptions);
 	}
 	if (typeof options.applyRomReplacements === "undefined") {
-		options.applyRomReplacements = looksLikeSaveReaderShowdownText(showdownText);
+		options.applyRomReplacements = looksLikeSaveReaderShowdownText(showdownText) || hasLoadedMoveReplacements();
 	}
 	return options;
+}
+
+function hasLoadedMoveReplacements() {
+	if (typeof backup_data === "undefined" || !backup_data || !backup_data.move_replacements) {
+		return false;
+	}
+
+	return Object.keys(backup_data.move_replacements).length > 0;
 }
 
 function shouldApplyImportRomReplacements(importOptions) {

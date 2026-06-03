@@ -9,7 +9,7 @@
             variants: [
                 {
                     label: "Pokemon X Base Rom",
-                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=ax&dmgGen=6&gen=6",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=ax&dmgGen=6&gen=8&view=calculator",
                     coverImage: "",
                     description: ""
                 }
