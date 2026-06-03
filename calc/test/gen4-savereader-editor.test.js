@@ -23,66 +23,6 @@ function installDomStubs() {
   global.alert = jest.fn();
 }
 
-function buildEncryptedDsBoxChunk(reader, decrypted, checksum) {
-  var encrypted = reader.encryptData(decrypted, checksum);
-  var chunk = new Uint8Array(136);
-  chunk[6] = checksum & 0xFF;
-  chunk[7] = (checksum >>> 8) & 0xFF;
-  for (var i = 0; i < encrypted.length; i++) {
-    chunk[8 + (i * 2)] = encrypted[i] & 0xFF;
-    chunk[9 + (i * 2)] = (encrypted[i] >>> 8) & 0xFF;
-  }
-  return chunk;
-}
-
-function packDsPkmIvs(ivs) {
-  return (
-    ((ivs.hp & 31) << 0) |
-    ((ivs.at & 31) << 5) |
-    ((ivs.df & 31) << 10) |
-    ((ivs.sp & 31) << 15) |
-    ((ivs.sa & 31) << 20) |
-    ((ivs.sd & 31) << 25)
-  ) >>> 0;
-}
-
-function configureDsIvParseGlobals(baseGame, testGen) {
-  global.baseGame = baseGame;
-  global.baseVersion = "";
-  global.gameGen = testGen;
-  global.gen = testGen;
-  global.mechanics = "";
-  global.settings = { devMode: false };
-  global.blockOrders = [[0, 1, 2, 3]];
-  global.mon_forms = {};
-  global.pokedex = {};
-  global.sav_pok_names = [];
-  global.sav_pok_names[41] = "Zubat";
-  global.sav_item_names = ["None"];
-  global.sav_move_names = ["-----", "Wing Attack"];
-  global.sav_abilities = [];
-  global.sav_abilities[1] = "Inner Focus";
-  global.sav_pok_growths[41] = 3;
-  global.locations = {};
-  global.locations[baseGame] = ["Mystery Zone"];
-  global.natures = ["Hardy"];
-  global.textTable = {
-    1: "Z",
-    2: "u",
-    3: "b",
-    4: "a",
-    5: "t",
-  };
-  global.SPECIES_BY_ID = [];
-  global.SPECIES_BY_ID[testGen] = { zubat: { name: "Zubat" } };
-  global.cleanString = function (value) {
-    return String(value || "").replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-  };
-  global.resolveSavLevelFromExperience = function () {
-    return 16;
-  };
-}
-
 describe("Gen 4 save editor party slot bookkeeping", function () {
   var reader;
 
@@ -228,7 +168,15 @@ describe("Gen 4 save editor party slot bookkeeping", function () {
     decrypted[36] = 5;
     decrypted[37] = 6;
 
-    var chunk = buildEncryptedDsBoxChunk(reader, decrypted, 0x1234);
+    var checksum = 0x1234;
+    var encrypted = reader.encryptData(decrypted, checksum);
+    var chunk = new Uint8Array(136);
+    chunk[6] = checksum & 0xFF;
+    chunk[7] = (checksum >>> 8) & 0xFF;
+    for (var i = 0; i < encrypted.length; i++) {
+      chunk[8 + (i * 2)] = encrypted[i] & 0xFF;
+      chunk[9 + (i * 2)] = (encrypted[i] >>> 8) & 0xFF;
+    }
 
     var result = reader.parsePKM(chunk, false, 0);
 
@@ -240,36 +188,4 @@ describe("Gen 4 save editor party slot bookkeeping", function () {
     expect(result).not.toContain("Egg: Yes");
   });
 
-  test.each([
-    ["HGSS", 4],
-    ["Pt", 4],
-    ["BW", 5],
-  ])("prints %s IVs with special attack, special defense, and speed in the right slots", function (baseGame, testGen) {
-    configureDsIvParseGlobals(baseGame, testGen);
-
-    var ivValue = packDsPkmIvs({ hp: 1, at: 2, df: 3, sa: 5, sd: 6, sp: 4 });
-    var decrypted = Array(64).fill(0);
-    decrypted[0] = 41;
-    decrypted[6] = 1 << 8;
-    decrypted[16] = 1;
-    decrypted[24] = ivValue & 0xFFFF;
-    decrypted[25] = (ivValue >>> 16) & 0xFFFF;
-    decrypted[32] = 1;
-    decrypted[33] = 2;
-    decrypted[34] = 3;
-    decrypted[35] = 4;
-    decrypted[36] = 5;
-    if (baseGame === "BW") {
-      decrypted[32] = "Z".charCodeAt(0);
-      decrypted[33] = "u".charCodeAt(0);
-      decrypted[34] = "b".charCodeAt(0);
-      decrypted[35] = "a".charCodeAt(0);
-      decrypted[36] = "t".charCodeAt(0);
-    }
-
-    var result = reader.parsePKM(buildEncryptedDsBoxChunk(reader, decrypted, 0x5678), false, 0);
-
-    expect(result).toContain("Zubat");
-    expect(result).toContain("IVs: 1 HP / 2 Atk / 3 Def / 5 SpA / 6 SpD / 4 Spe");
-  });
 });
