@@ -547,7 +547,7 @@ backup_data = {
       "basePower": 100,
       "category": "Physical",
       "pp": 5,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -576,7 +576,7 @@ backup_data = {
       "basePower": 100,
       "category": "Physical",
       "pp": 5,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -879,7 +879,7 @@ backup_data = {
     },
     "Hyper Beam": {
       "type": "Normal",
-      "basePower": 150,
+      "basePower": 180,
       "category": "Special",
       "pp": 2,
       "accuracy": 100,
@@ -983,7 +983,7 @@ backup_data = {
       "basePower": 0,
       "category": "Status",
       "pp": 10,
-      "accuracy": 95,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 84,
       "sf": true
@@ -1083,7 +1083,7 @@ backup_data = {
       "basePower": 100,
       "category": "Special",
       "pp": 5,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -1152,7 +1152,7 @@ backup_data = {
       "basePower": 120,
       "category": "Physical",
       "pp": 5,
-      "accuracy": 85,
+      "accuracy": 80,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -1451,8 +1451,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 7,
-      "target": "allAdjacent",
-      "willCrit": true
+      "target": "allAdjacent"
     },
     "Egg Bomb": {
       "type": "Grass",
@@ -1527,7 +1526,7 @@ backup_data = {
       "basePower": 100,
       "category": "Physical",
       "pp": 5,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -1569,7 +1568,7 @@ backup_data = {
       "basePower": 100,
       "category": "Special",
       "pp": 5,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -1785,8 +1784,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 7,
-      "target": "allAdjacent",
-      "willCrit": true
+      "target": "allAdjacent"
     },
     "Fury Swipes": {
       "type": "Dark",
@@ -1951,15 +1949,14 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 0,
-      "sf": true,
-      "hc_effect": "Hex"
+      "sf": true
     },
     "Snap Trap": {
       "type": "Grass",
       "basePower": 100,
       "category": "Physical",
       "pp": 10,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -1969,7 +1966,7 @@ backup_data = {
       "basePower": 100,
       "category": "Special",
       "pp": 10,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -2695,8 +2692,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 0,
-      "sf": true,
-      "hc_effect": "Hex"
+      "sf": true
     },
     "Extreme Speed": {
       "type": "Normal",
@@ -2751,7 +2747,7 @@ backup_data = {
       "basePower": 100,
       "category": "Special",
       "pp": 10,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -2765,7 +2761,6 @@ backup_data = {
       "priority": 0,
       "e_id": 0,
       "sf": true,
-      "hc_effect": "Hex",
       "flags": {
         "punch": true
       }
@@ -2976,8 +2971,7 @@ backup_data = {
       "priority": 0,
       "e_id": 0,
       "target": "allAdjacentFoes",
-      "sf": true,
-      "hc_effect": "Hex"
+      "sf": true
     },
     "Wish": {
       "type": "Normal",
@@ -3111,7 +3105,7 @@ backup_data = {
       "basePower": 100,
       "category": "Special",
       "pp": 5,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -3331,7 +3325,7 @@ backup_data = {
       "e_id": 198,
       "target": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -3345,7 +3339,7 @@ backup_data = {
       "e_id": 198,
       "target": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -3557,7 +3551,7 @@ backup_data = {
       "basePower": 100,
       "category": "Special",
       "pp": 5,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -3665,7 +3659,7 @@ backup_data = {
       "e_id": 198,
       "target": "allAdjacentFoes",
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -3837,7 +3831,7 @@ backup_data = {
       "priority": 0,
       "e_id": 269,
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -4056,7 +4050,7 @@ backup_data = {
       "basePower": 100,
       "category": "Special",
       "pp": 10,
-      "accuracy": 85,
+      "accuracy": 90,
       "priority": 0,
       "e_id": 42,
       "sf": true,
@@ -4455,7 +4449,7 @@ backup_data = {
     },
     "Giga Impact": {
       "type": "Normal",
-      "basePower": 150,
+      "basePower": 180,
       "category": "Physical",
       "pp": 2,
       "accuracy": 100,
@@ -5371,8 +5365,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 0,
-      "sf": true,
-      "hc_effect": "Hex"
+      "sf": true
     },
     "Sky Drop": {
       "type": "Flying",
@@ -5696,9 +5689,9 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 269,
+      "e_id": 198,
       "recoil": [
-        50,
+        33,
         100
       ]
     },
@@ -8944,8 +8937,8 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 65,
-        "at": 101,
+        "hp": 55,
+        "at": 96,
         "df": 60,
         "sa": 50,
         "sd": 70,
@@ -9288,9 +9281,9 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 65,
         "at": 101,
-        "df": 70,
+        "df": 65,
         "sa": 61,
         "sd": 61,
         "sp": 100
@@ -9625,7 +9618,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 80,
+        "hp": 70,
         "at": 105,
         "df": 79,
         "sa": 65,
@@ -10184,12 +10177,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 60,
         "at": 75,
         "df": 90,
         "sa": 20,
-        "sd": 35,
-        "sp": 80
+        "sd": 30,
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -10349,9 +10342,9 @@ backup_data = {
         "hp": 75,
         "at": 100,
         "df": 110,
-        "sa": 25,
+        "sa": 45,
         "sd": 55,
-        "sp": 105
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -13589,7 +13582,7 @@ backup_data = {
       "bs": {
         "hp": 75,
         "at": 80,
-        "df": 95,
+        "df": 85,
         "sa": 110,
         "sd": 100,
         "sp": 70
@@ -14301,10 +14294,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 55,
-        "df": 70,
-        "sa": 110,
-        "sd": 110,
+        "at": 65,
+        "df": 60,
+        "sa": 100,
+        "sd": 100,
         "sp": 90
       },
       "learnset_info": {
@@ -14490,7 +14483,7 @@ backup_data = {
         "df": 25,
         "sa": 35,
         "sd": 45,
-        "sp": 125
+        "sp": 105
       },
       "learnset_info": {
         "learnset": [
@@ -14638,7 +14631,7 @@ backup_data = {
         "df": 50,
         "sa": 50,
         "sd": 70,
-        "sp": 150
+        "sp": 130
       },
       "learnset_info": {
         "learnset": [
@@ -14977,9 +14970,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 105,
+        "at": 100,
         "df": 60,
-        "sa": 100,
+        "sa": 95,
         "sd": 65,
         "sp": 115
       },
@@ -15380,9 +15373,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 80,
-        "at": 102,
+        "at": 97,
         "df": 78,
-        "sa": 105,
+        "sa": 100,
         "sd": 80,
         "sp": 85
       },
@@ -15764,7 +15757,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 65,
         "at": 105,
         "df": 60,
         "sa": 60,
@@ -17641,7 +17634,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 90,
-        "at": 145,
+        "at": 130,
         "df": 80,
         "sa": 65,
         "sd": 85,
@@ -18170,8 +18163,8 @@ backup_data = {
         "hp": 80,
         "at": 120,
         "df": 65,
-        "sa": 90,
-        "sd": 60,
+        "sa": 80,
+        "sd": 70,
         "sp": 105
       },
       "learnset_info": {
@@ -19053,7 +19046,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 105,
+        "hp": 90,
         "at": 120,
         "df": 130,
         "sa": 55,
@@ -19412,7 +19405,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 120,
+        "at": 110,
         "df": 70,
         "sa": 80,
         "sd": 80,
@@ -20656,8 +20649,8 @@ backup_data = {
       },
       "abs": [
         "Run Away",
-        "Tough Claws",
-        "Sand Rush"
+        "Sand Rush",
+        "Tough Claws"
       ],
       "evos": [
         "Dodrio"
@@ -20835,8 +20828,8 @@ backup_data = {
       },
       "abs": [
         "Run Away",
-        "Tough Claws",
-        "Sand Rush"
+        "Sand Rush",
+        "Tough Claws"
       ],
       "evoType": "level",
       "evoLevel": 31
@@ -21216,7 +21209,7 @@ backup_data = {
         "at": 90,
         "df": 50,
         "sa": 40,
-        "sd": 90,
+        "sd": 80,
         "sp": 25
       },
       "learnset_info": {
@@ -21394,7 +21387,7 @@ backup_data = {
         "at": 120,
         "df": 75,
         "sa": 65,
-        "sd": 120,
+        "sd": 105,
         "sp": 50
       },
       "learnset_info": {
@@ -22264,13 +22257,16 @@ backup_data = {
       "evoType": "level",
       "evoLevel": 22,
       "evos": [
+        "Gengar",
         "Gengar"
       ],
       "evoMethods": [
-        "level"
+        "level",
+        "useItem"
       ],
       "evoParams": [
-        42
+        50,
+        "Dusk Stone"
       ]
     },
     "Gengar": {
@@ -22456,8 +22452,9 @@ backup_data = {
         "Unnerve",
         "Neutralizing Gas"
       ],
-      "evoType": "level",
-      "evoLevel": 42
+      "evoType": "useItem",
+      "evoLevel": 50,
+      "evoItem": "Dusk Stone"
     },
     "Onix": {
       "name": "Onix",
@@ -22474,9 +22471,9 @@ backup_data = {
       "bs": {
         "hp": 60,
         "at": 105,
-        "df": 140,
+        "df": 160,
         "sa": 30,
-        "sd": 65,
+        "sd": 80,
         "sp": 110
       },
       "learnset_info": {
@@ -22849,7 +22846,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 85,
-        "at": 60,
+        "at": 73,
         "df": 70,
         "sa": 103,
         "sd": 115,
@@ -23887,8 +23884,8 @@ backup_data = {
       },
       "abs": [
         "Gourmand",
-        "Unaware",
-        "Chlorophyll"
+        "Chlorophyll",
+        "Berserk"
       ],
       "evos": [
         "Exeggutor",
@@ -24091,8 +24088,8 @@ backup_data = {
       },
       "abs": [
         "Gourmand",
-        "Berserk",
-        "Chlorophyll"
+        "Chlorophyll",
+        "Berserk"
       ],
       "evoType": "level",
       "evoItem": "Leaf Stone",
@@ -24292,7 +24289,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 90,
+        "at": 80,
         "df": 110,
         "sa": 50,
         "sd": 90,
@@ -24484,7 +24481,7 @@ backup_data = {
         "at": 120,
         "df": 53,
         "sa": 35,
-        "sd": 150,
+        "sd": 140,
         "sp": 87
       },
       "learnset_info": {
@@ -24658,7 +24655,7 @@ backup_data = {
         "df": 79,
         "sa": 35,
         "sd": 110,
-        "sp": 116
+        "sp": 106
       },
       "learnset_info": {
         "learnset": [
@@ -25193,7 +25190,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 60,
+        "at": 90,
         "df": 120,
         "sa": 100,
         "sd": 85,
@@ -26635,7 +26632,7 @@ backup_data = {
         "df": 60,
         "sa": 35,
         "sd": 50,
-        "sp": 88
+        "sp": 73
       },
       "learnset_info": {
         "learnset": [
@@ -26796,9 +26793,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 80,
-        "at": 112,
+        "at": 102,
         "df": 65,
-        "sa": 40,
+        "sa": 65,
         "sd": 80,
         "sp": 93
       },
@@ -30465,10 +30462,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 60,
-        "at": 140,
+        "at": 125,
         "df": 105,
         "sa": 65,
-        "sd": 70,
+        "sd": 85,
         "sp": 80
       },
       "learnset_info": {
@@ -32365,12 +32362,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 47,
-        "at": 67,
+        "hp": 45,
+        "at": 66,
         "df": 65,
-        "sa": 38,
+        "sa": 49,
         "sd": 65,
-        "sp": 50
+        "sp": 45
       },
       "learnset_info": {
         "learnset": [
@@ -32531,10 +32528,10 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 65,
-        "at": 87,
+        "hp": 60,
+        "at": 82,
         "df": 80,
-        "sa": 53,
+        "sa": 63,
         "sd": 80,
         "sp": 60
       },
@@ -32719,7 +32716,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 90,
+        "hp": 80,
         "at": 102,
         "df": 100,
         "sa": 83,
@@ -33806,11 +33803,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 85,
-        "at": 115,
+        "at": 120,
         "df": 100,
-        "sa": 74,
+        "sa": 79,
         "sd": 83,
-        "sp": 88
+        "sp": 78
       },
       "learnset_info": {
         "learnset": [
@@ -33995,7 +33992,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 60,
+        "at": 55,
         "df": 65,
         "sa": 35,
         "sd": 65,
@@ -34166,7 +34163,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 85,
+        "at": 80,
         "df": 95,
         "sa": 45,
         "sd": 95,
@@ -35211,7 +35208,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 75,
+        "hp": 70,
         "at": 100,
         "df": 105,
         "sa": 60,
@@ -35717,9 +35714,9 @@ backup_data = {
       "bs": {
         "hp": 125,
         "at": 58,
-        "df": 78,
+        "df": 73,
         "sa": 91,
-        "sd": 106,
+        "sd": 86,
         "sp": 67
       },
       "learnset_info": {
@@ -36736,7 +36733,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 55,
-        "at": 45,
+        "at": 50,
         "df": 90,
         "sa": 80,
         "sd": 70,
@@ -36919,10 +36916,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 70,
+        "at": 75,
         "df": 115,
-        "sa": 100,
-        "sd": 95,
+        "sa": 95,
+        "sd": 90,
         "sp": 50
       },
       "learnset_info": {
@@ -37454,7 +37451,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 90,
-        "at": 105,
+        "at": 100,
         "df": 85,
         "sa": 115,
         "sd": 100,
@@ -37648,7 +37645,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 75,
-        "at": 115,
+        "at": 105,
         "df": 85,
         "sa": 80,
         "sd": 80,
@@ -38231,7 +38228,7 @@ backup_data = {
       "bs": {
         "hp": 80,
         "at": 100,
-        "df": 125,
+        "df": 115,
         "sa": 30,
         "sd": 75,
         "sp": 70
@@ -38782,7 +38779,7 @@ backup_data = {
         "at": 75,
         "df": 50,
         "sa": 45,
-        "sd": 65,
+        "sd": 75,
         "sp": 100
       },
       "learnset_info": {
@@ -38954,7 +38951,7 @@ backup_data = {
         "at": 95,
         "df": 70,
         "sa": 55,
-        "sd": 85,
+        "sd": 95,
         "sp": 110
       },
       "learnset_info": {
@@ -39125,11 +39122,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 75,
+        "at": 70,
         "df": 55,
         "sa": 40,
         "sd": 55,
-        "sp": 105
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -39452,7 +39449,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 80,
+        "hp": 75,
         "at": 75,
         "df": 65,
         "sa": 105,
@@ -39949,8 +39946,8 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 105,
-        "df": 105,
+        "at": 100,
+        "df": 100,
         "sa": 65,
         "sd": 65,
         "sp": 35
@@ -41206,9 +41203,9 @@ backup_data = {
       "bs": {
         "hp": 240,
         "at": 33,
-        "df": 48,
+        "df": 58,
         "sa": 33,
-        "sd": 48,
+        "sd": 58,
         "sp": 33
       },
       "learnset_info": {
@@ -41273,8 +41270,8 @@ backup_data = {
         "hp": 70,
         "at": 100,
         "df": 75,
-        "sa": 110,
-        "sd": 105,
+        "sa": 105,
+        "sd": 95,
         "sp": 85
       },
       "learnset_info": {
@@ -42194,9 +42191,9 @@ backup_data = {
         "hp": 75,
         "at": 105,
         "df": 200,
-        "sa": 30,
+        "sa": 55,
         "sd": 80,
-        "sp": 20
+        "sp": 30
       },
       "learnset_info": {
         "learnset": [
@@ -42758,11 +42755,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 115,
+        "at": 110,
         "df": 95,
         "sa": 65,
         "sd": 55,
-        "sp": 100
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -43448,9 +43445,9 @@ backup_data = {
       "bs": {
         "hp": 55,
         "at": 95,
-        "df": 45,
+        "df": 55,
         "sa": 90,
-        "sd": 65,
+        "sd": 75,
         "sp": 115
       },
       "learnset_info": {
@@ -45246,9 +45243,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 45,
-        "at": 100,
+        "at": 95,
         "df": 70,
-        "sa": 95,
+        "sa": 90,
         "sd": 70,
         "sp": 115
       },
@@ -45416,12 +45413,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 65,
+        "hp": 85,
         "at": 40,
         "df": 70,
-        "sa": 105,
+        "sa": 100,
         "sd": 140,
-        "sp": 95
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -45575,7 +45572,7 @@ backup_data = {
       "bs": {
         "hp": 65,
         "at": 100,
-        "df": 130,
+        "df": 140,
         "sa": 40,
         "sd": 70,
         "sp": 110
@@ -45892,7 +45889,7 @@ backup_data = {
       "bs": {
         "hp": 75,
         "at": 105,
-        "df": 60,
+        "df": 50,
         "sa": 110,
         "sd": 80,
         "sp": 105
@@ -46070,7 +46067,7 @@ backup_data = {
         "df": 105,
         "sa": 105,
         "sd": 95,
-        "sp": 105
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -47359,7 +47356,7 @@ backup_data = {
       "bs": {
         "hp": 50,
         "at": 95,
-        "df": 135,
+        "df": 125,
         "sa": 35,
         "sd": 110,
         "sp": 70
@@ -52963,7 +52960,7 @@ backup_data = {
         "at": 70,
         "df": 70,
         "sa": 105,
-        "sd": 120,
+        "sd": 110,
         "sp": 85
       },
       "learnset_info": {
@@ -53805,7 +53802,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 60,
-        "at": 100,
+        "at": 95,
         "df": 60,
         "sa": 75,
         "sd": 50,
@@ -55818,7 +55815,7 @@ backup_data = {
         "useItem"
       ],
       "evoParams": [
-        50,
+        60,
         "Dawn Stone"
       ]
     },
@@ -56003,7 +56000,7 @@ backup_data = {
         "Truant"
       ],
       "evoType": "useItem",
-      "evoLevel": 50,
+      "evoLevel": 60,
       "evoItem": "Dawn Stone"
     },
     "Nincada": {
@@ -56315,7 +56312,7 @@ backup_data = {
         "df": 70,
         "sa": 119,
         "sd": 70,
-        "sp": 108
+        "sp": 105
       },
       "learnset_info": {
         "learnset": [
@@ -57648,7 +57645,7 @@ backup_data = {
         "df": 65,
         "sa": 65,
         "sd": 65,
-        "sp": 65
+        "sp": 60
       },
       "learnset_info": {
         "learnset": [
@@ -58405,8 +58402,8 @@ backup_data = {
         "hp": 50,
         "at": 70,
         "df": 100,
-        "sa": 50,
-        "sd": 50,
+        "sa": 60,
+        "sd": 40,
         "sp": 30
       },
       "learnset_info": {
@@ -58794,8 +58791,8 @@ backup_data = {
       "bs": {
         "hp": 70,
         "at": 110,
-        "df": 140,
-        "sa": 110,
+        "df": 145,
+        "sa": 105,
         "sd": 90,
         "sp": 80
       },
@@ -59000,7 +58997,7 @@ backup_data = {
         "hp": 30,
         "at": 55,
         "df": 55,
-        "sa": 85,
+        "sa": 90,
         "sd": 55,
         "sp": 65
       },
@@ -59171,7 +59168,7 @@ backup_data = {
         "hp": 60,
         "at": 75,
         "df": 75,
-        "sa": 115,
+        "sa": 120,
         "sd": 75,
         "sp": 90
       },
@@ -59360,10 +59357,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 50,
-        "at": 80,
+        "at": 75,
         "df": 75,
         "sa": 55,
-        "sd": 50,
+        "sd": 40,
         "sp": 75
       },
       "learnset_info": {
@@ -59524,10 +59521,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 115,
+        "at": 105,
         "df": 105,
         "sa": 75,
-        "sd": 70,
+        "sd": 60,
         "sp": 105
       },
       "learnset_info": {
@@ -60441,7 +60438,7 @@ backup_data = {
         "hp": 50,
         "at": 60,
         "df": 45,
-        "sa": 120,
+        "sa": 110,
         "sd": 80,
         "sp": 85
       },
@@ -60602,7 +60599,7 @@ backup_data = {
         "at": 53,
         "df": 78,
         "sa": 53,
-        "sd": 73,
+        "sd": 63,
         "sp": 40
       },
       "learnset_info": {
@@ -62011,9 +62008,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 95,
+        "at": 105,
         "df": 180,
-        "sa": 95,
+        "sa": 85,
         "sd": 100,
         "sp": 20
       },
@@ -63475,7 +63472,7 @@ backup_data = {
       "num": 332,
       "types": [
         "Grass",
-        "Dark"
+        "Ghost"
       ],
       "items": [
         "None",
@@ -64639,10 +64636,10 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 70,
+        "hp": 90,
         "at": 55,
-        "df": 95,
-        "sa": 145,
+        "df": 85,
+        "sa": 135,
         "sd": 65,
         "sp": 80
       },
@@ -65553,8 +65550,8 @@ backup_data = {
       "bs": {
         "hp": 40,
         "at": 40,
-        "df": 65,
-        "sa": 85,
+        "df": 75,
+        "sa": 75,
         "sd": 90,
         "sp": 55
       },
@@ -65734,7 +65731,7 @@ backup_data = {
         "hp": 60,
         "at": 70,
         "df": 105,
-        "sa": 115,
+        "sa": 105,
         "sd": 120,
         "sp": 75
       },
@@ -66070,8 +66067,8 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 136,
-        "at": 51,
+        "hp": 116,
+        "at": 61,
         "df": 97,
         "sa": 96,
         "sd": 107,
@@ -66614,7 +66611,7 @@ backup_data = {
         "df": 20,
         "sa": 10,
         "sd": 55,
-        "sp": 88
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -69098,8 +69095,8 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 100,
-        "at": 100,
+        "hp": 110,
+        "at": 110,
         "df": 70,
         "sa": 75,
         "sd": 70,
@@ -70474,7 +70471,7 @@ backup_data = {
         "hp": 65,
         "at": 105,
         "df": 100,
-        "sa": 60,
+        "sa": 80,
         "sd": 80,
         "sp": 50
       },
@@ -70956,9 +70953,9 @@ backup_data = {
       "bs": {
         "hp": 60,
         "at": 115,
-        "df": 100,
+        "df": 110,
         "sa": 55,
-        "sd": 80,
+        "sd": 90,
         "sp": 50
       },
       "learnset_info": {
@@ -72779,11 +72776,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 55,
-        "at": 70,
+        "at": 68,
         "df": 76,
         "sa": 45,
         "sd": 65,
-        "sp": 31
+        "sp": 36
       },
       "learnset_info": {
         "learnset": [
@@ -73098,9 +73095,9 @@ backup_data = {
       "bs": {
         "hp": 95,
         "at": 109,
-        "df": 120,
+        "df": 115,
         "sa": 75,
-        "sd": 85,
+        "sd": 95,
         "sp": 56
       },
       "learnset_info": {
@@ -73273,9 +73270,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 44,
-        "at": 61,
+        "at": 58,
         "df": 44,
-        "sa": 61,
+        "sa": 58,
         "sd": 44,
         "sp": 77
       },
@@ -73444,11 +73441,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 64,
-        "at": 85,
+        "at": 83,
         "df": 52,
-        "sa": 85,
+        "sa": 83,
         "sd": 52,
-        "sp": 96
+        "sp": 91
       },
       "learnset_info": {
         "learnset": [
@@ -73638,9 +73635,9 @@ backup_data = {
       "bs": {
         "hp": 76,
         "at": 104,
-        "df": 74,
+        "df": 71,
         "sa": 104,
-        "sd": 74,
+        "sd": 71,
         "sp": 119
       },
       "learnset_info": {
@@ -73994,7 +73991,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 64,
-        "at": 56,
+        "at": 66,
         "df": 68,
         "sa": 81,
         "sd": 76,
@@ -74175,11 +74172,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 84,
-        "at": 76,
+        "at": 86,
         "df": 88,
         "sa": 111,
         "sd": 101,
-        "sp": 85
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
@@ -75783,7 +75780,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Sucker Punch"
+            "Leer"
           ],
           [
             1,
@@ -77251,11 +77248,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 134,
+        "at": 124,
         "df": 50,
-        "sa": 74,
+        "sa": 94,
         "sd": 50,
-        "sp": 106
+        "sp": 96
       },
       "learnset_info": {
         "learnset": [
@@ -77741,8 +77738,8 @@ backup_data = {
         "hp": 70,
         "at": 45,
         "df": 80,
-        "sa": 105,
-        "sd": 100,
+        "sa": 100,
+        "sd": 90,
         "sp": 95
       },
       "learnset_info": {
@@ -79625,7 +79622,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 101,
+        "at": 96,
         "df": 84,
         "sa": 54,
         "sd": 116,
@@ -80818,7 +80815,7 @@ backup_data = {
         "at": 82,
         "df": 77,
         "sa": 111,
-        "sd": 71,
+        "sd": 61,
         "sp": 84
       },
       "learnset_info": {
@@ -83865,7 +83862,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 58,
+        "hp": 63,
         "at": 61,
         "df": 50,
         "sa": 61,
@@ -85109,7 +85106,7 @@ backup_data = {
         "level"
       ],
       "evoParams": [
-        40
+        50
       ]
     },
     "Abomasnow": {
@@ -85291,7 +85288,7 @@ backup_data = {
         "Filter"
       ],
       "evoType": "level",
-      "evoLevel": 40
+      "evoLevel": 50
     },
     "Weavile": {
       "name": "Weavile",
@@ -85307,9 +85304,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 110,
-        "df": 55,
-        "sa": 105,
+        "at": 105,
+        "df": 65,
+        "sa": 100,
         "sd": 85,
         "sp": 125
       },
@@ -87487,7 +87484,7 @@ backup_data = {
         "df": 80,
         "sa": 110,
         "sd": 60,
-        "sp": 90
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -92642,7 +92639,7 @@ backup_data = {
       "bs": {
         "hp": 65,
         "at": 70,
-        "df": 59,
+        "df": 54,
         "sa": 35,
         "sd": 79,
         "sp": 42
@@ -93434,7 +93431,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 50,
+        "hp": 41,
         "at": 62,
         "df": 37,
         "sa": 62,
@@ -95282,7 +95279,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 60,
+        "hp": 50,
         "at": 65,
         "df": 50,
         "sa": 36,
@@ -96636,11 +96633,11 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 55,
+        "hp": 65,
         "at": 65,
-        "df": 48,
+        "df": 43,
         "sa": 55,
-        "sd": 48,
+        "sd": 43,
         "sp": 92
       },
       "learnset_info": {
@@ -97338,9 +97335,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 103,
-        "at": 85,
+        "at": 75,
         "df": 86,
-        "sa": 85,
+        "sa": 75,
         "sd": 86,
         "sp": 50
       },
@@ -98208,7 +98205,7 @@ backup_data = {
         "hp": 85,
         "at": 75,
         "df": 55,
-        "sa": 75,
+        "sa": 65,
         "sd": 55,
         "sp": 69
       },
@@ -98585,11 +98582,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 130,
-        "at": 115,
+        "at": 110,
         "df": 95,
         "sa": 30,
         "sd": 95,
-        "sp": 40
+        "sp": 45
       },
       "learnset_info": {
         "learnset": [
@@ -99196,7 +99193,7 @@ backup_data = {
         "useItem"
       ],
       "evoParams": [
-        36,
+        42,
         "Leaf Stone"
       ]
     },
@@ -99385,7 +99382,7 @@ backup_data = {
         "Savant"
       ],
       "evoType": "useItem",
-      "evoLevel": 36,
+      "evoLevel": 42,
       "evoItem": "Leaf Stone"
     },
     "Venipede": {
@@ -101734,9 +101731,9 @@ backup_data = {
       "bs": {
         "hp": 75,
         "at": 86,
-        "df": 63,
+        "df": 67,
         "sa": 116,
-        "sd": 101,
+        "sd": 97,
         "sp": 84
       },
       "learnset_info": {
@@ -102832,7 +102829,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 48,
+        "hp": 38,
         "at": 30,
         "df": 102,
         "sa": 65,
@@ -103006,7 +103003,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 68,
+        "hp": 58,
         "at": 50,
         "df": 145,
         "sa": 95,
@@ -105143,8 +105140,8 @@ backup_data = {
       "bs": {
         "hp": 60,
         "at": 45,
-        "df": 110,
-        "sa": 95,
+        "df": 105,
+        "sa": 90,
         "sd": 85,
         "sp": 55
       },
@@ -108449,7 +108446,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 165,
-        "at": 100,
+        "at": 90,
         "df": 80,
         "sa": 40,
         "sd": 55,
@@ -108616,7 +108613,7 @@ backup_data = {
         "hp": 50,
         "at": 47,
         "df": 50,
-        "sa": 87,
+        "sa": 82,
         "sd": 50,
         "sp": 98
       },
@@ -109117,7 +109114,7 @@ backup_data = {
         "df": 131,
         "sa": 94,
         "sd": 116,
-        "sp": 10
+        "sp": 20
       },
       "learnset_info": {
         "learnset": [
@@ -110259,7 +110256,7 @@ backup_data = {
       "bs": {
         "hp": 55,
         "at": 55,
-        "df": 85,
+        "df": 75,
         "sa": 85,
         "sd": 65,
         "sp": 30
@@ -111236,7 +111233,7 @@ backup_data = {
         "at": 117,
         "df": 90,
         "sa": 40,
-        "sd": 70,
+        "sd": 80,
         "sp": 87
       },
       "learnset_info": {
@@ -111418,10 +111415,10 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 86,
+        "hp": 76,
         "at": 147,
-        "df": 110,
-        "sa": 60,
+        "df": 100,
+        "sa": 80,
         "sd": 90,
         "sp": 107
       },
@@ -113355,13 +113352,16 @@ backup_data = {
         "Well Baked Body"
       ],
       "evos": [
+        "Golurk",
         "Golurk"
       ],
       "evoMethods": [
-        "level"
+        "level",
+        "useItem"
       ],
       "evoParams": [
-        43
+        50,
+        "Dusk Stone"
       ]
     },
     "Golurk": {
@@ -113549,8 +113549,9 @@ backup_data = {
         "No Guard",
         "Well Baked Body"
       ],
-      "evoType": "level",
-      "evoLevel": 43
+      "evoType": "useItem",
+      "evoLevel": 50,
+      "evoItem": "Dusk Stone"
     },
     "Pawniard": {
       "name": "Pawniard",
@@ -113707,7 +113708,7 @@ backup_data = {
         "level"
       ],
       "evoParams": [
-        40
+        50
       ]
     },
     "Bisharp": {
@@ -113875,7 +113876,7 @@ backup_data = {
         "Heavy Metal"
       ],
       "evoType": "level",
-      "evoLevel": 40
+      "evoLevel": 50
     },
     "Bouffalant": {
       "name": "Bouffalant",
@@ -115212,7 +115213,7 @@ backup_data = {
         "hp": 72,
         "at": 105,
         "df": 70,
-        "sa": 65,
+        "sa": 75,
         "sd": 70,
         "sp": 88
       },
@@ -115593,7 +115594,7 @@ backup_data = {
         "hp": 55,
         "at": 85,
         "df": 55,
-        "sa": 70,
+        "sa": 60,
         "sd": 55,
         "sp": 60
       },
@@ -121355,7 +121356,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 50,
+        "at": 65,
         "df": 107,
         "sa": 105,
         "sd": 107,
@@ -124770,7 +124771,7 @@ backup_data = {
           "Focus Blast",
           "Hurricane",
           "Ominous Wind",
-          "Acupressure"
+          "Focus Energy"
         ],
         "sub_index": 2,
         "ability": "Keen Senses",
@@ -127055,8 +127056,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Leader Skyla ": {
-        "level": 54,
+      "Lvl 55 Leader Skyla ": {
+        "level": 55,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -128539,12 +128540,12 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Focus Sash",
         "nature": "Gentle",
         "moves": [
           "Overheat",
           "Close Combat",
-          "Blaze Kick",
+          "Stone Edge",
           "Fake Out"
         ],
         "sub_index": 3,
@@ -130730,7 +130731,7 @@ backup_data = {
         "item": "Tera W Policy",
         "nature": "Sassy",
         "moves": [
-          "Overheat",
+          "Magma Storm",
           "Diamond Storm",
           "Heat Wave",
           "Stealth Rock"
@@ -131671,7 +131672,7 @@ backup_data = {
         "nature": "Jolly",
         "moves": [
           "Phantom Strike",
-          "Slam",
+          "Double-Edge",
           "Pursuit",
           "Play Rough"
         ],
@@ -131904,8 +131905,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Leader Skyla ": {
-        "level": 54,
+      "Lvl 55 Leader Skyla ": {
+        "level": 55,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -131924,7 +131925,7 @@ backup_data = {
         "moves": [
           "Brave Bird",
           "Overheat",
-          "Close Combat",
+          "Superpower",
           "Earthquake"
         ],
         "sub_index": 4,
@@ -141137,7 +141138,7 @@ backup_data = {
         "nature": "Jolly",
         "moves": [
           "Earthquake",
-          "Sky Drop",
+          "Dual Wingbeat",
           "Rock Slide",
           "Protect"
         ],
@@ -146281,8 +146282,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Leader Skyla ": {
-        "level": 54,
+      "Lvl 55 Leader Skyla ": {
+        "level": 55,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -146299,10 +146300,10 @@ backup_data = {
         "item": "Assault Vest",
         "nature": "Brave",
         "moves": [
-          "Steel Wing",
+          "Muddy Water",
           "Dragon Rush",
           "Fairy Wind",
-          "Temper Flare"
+          "Heat Wave"
         ],
         "sub_index": 3,
         "ability": "Levitate",
@@ -156469,9 +156470,9 @@ backup_data = {
         "nature": "Lax",
         "moves": [
           "Stone Edge",
-          "Dual Wingbeat",
+          "Brave Bird",
           "U-turn",
-          "Aqua Tail"
+          "Earthquake"
         ],
         "sub_index": 4,
         "ability": "Intimidate",
@@ -156934,7 +156935,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Normal Gem",
+        "item": "Life Orb",
         "nature": "Quiet",
         "moves": [
           "Solar Beam",
@@ -157202,8 +157203,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Leader Skyla ": {
-        "level": 54,
+      "Lvl 55 Leader Skyla ": {
+        "level": 55,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -162928,37 +162929,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt8 ": {
-        "level": 48,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 375,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Proto Accelerator",
-        "nature": "Impish",
-        "moves": [
-          "Rage",
-          "Thrash",
-          "Dragon Claw",
-          "Obstruct"
-        ],
-        "sub_index": 3,
-        "ability": "Toxic Boost",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 46 Team Plasma Grunt24 ": {
         "level": 46,
         "ai": 1,
@@ -164526,7 +164496,7 @@ backup_data = {
           ""
         ],
         "sub_index": 0,
-        "ability": "Unaware",
+        "ability": "Chlorophyll",
         "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -169913,7 +169883,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "None",
+        "item": "Charti Berry",
         "nature": "Sassy",
         "moves": [
           "Bug Buzz",
@@ -170461,37 +170431,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 48 Team Plasma Grunt9 ": {
-        "level": 48,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 376,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Proto Armor",
-        "nature": "Adamant",
-        "moves": [
-          "Liquidation",
-          "Stored Power",
-          "Ice Beam",
-          "Aqua Jet"
-        ],
-        "sub_index": 3,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Rotom-Frost": {
@@ -170621,8 +170560,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Leader Skyla ": {
-        "level": 54,
+      "Lvl 55 Leader Skyla ": {
+        "level": 55,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -170642,7 +170581,7 @@ backup_data = {
           "Muddy Water",
           "Blizzard",
           "Flash Cannon",
-          "Spiky Shield"
+          "Swift"
         ],
         "sub_index": 0,
         "ability": "Lightning Rod",
@@ -170735,9 +170674,9 @@ backup_data = {
         "nature": "Relaxed",
         "moves": [
           "Ancient Power",
-          "Moonblast",
+          "Fairy Wind",
           "Stored Power",
-          "Mystical Fire"
+          "Earth Power"
         ],
         "sub_index": 1,
         "ability": "Levitate",
@@ -171549,7 +171488,7 @@ backup_data = {
           "Flare Blitz",
           "Dragon Rush",
           "Acrobatics",
-          "Earthquake"
+          "Swords Dance"
         ],
         "sub_index": 2,
         "ability": "Levitate",
@@ -171608,7 +171547,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
-        "nature": "Sassy",
+        "nature": "Jolly",
         "moves": [
           "Dynamic Punch",
           "Stone Edge",
@@ -171800,8 +171739,8 @@ backup_data = {
         "moves": [
           "Crush Claw",
           "Fly",
-          "Rock Slide",
-          "Strength"
+          "Strength",
+          "Roost"
         ],
         "sub_index": 4,
         "ability": "Hustle",
@@ -175357,7 +175296,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Quirky",
+        "nature": "Timid",
         "moves": [
           "Vacuum Wave",
           "Water Gun",
@@ -186587,37 +186526,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt10 ": {
-        "level": 48,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 377,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Proto Booster",
-        "nature": "Serious",
-        "moves": [
-          "Gunk Shot",
-          "Fire Spin",
-          "Gyro Ball",
-          "Uproar"
-        ],
-        "sub_index": 3,
-        "ability": "Levitate",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 47 Team Plasma Grunt13 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
@@ -190944,7 +190852,7 @@ backup_data = {
           "Solar Beam"
         ],
         "sub_index": 0,
-        "ability": "Gourmand",
+        "ability": "Chlorophyll",
         "sprite": "trainer_sprites/swimmerf.png",
         "form": 0,
         "evs": {
@@ -194924,132 +194832,6 @@ backup_data = {
         }
       }
     },
-    "Linoone": {
-      "Lvl 48 Team Plasma Grunt7 ": {
-        "level": 48,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 374,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Proto Booster",
-        "nature": "Timid",
-        "moves": [
-          "Crush Claw",
-          "Play Rough",
-          "Shadow Claw",
-          "Detect"
-        ],
-        "sub_index": 3,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 55 Cyclist Jeremiah ": {
-        "level": 55,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 468,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Silk Scarf",
-        "nature": "Naughty",
-        "moves": [
-          "Extreme Speed",
-          "Double-Edge",
-          "Aqua Tail",
-          "Metronome"
-        ],
-        "sub_index": 2,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/cyclist.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 Ace Trainer Kathrine - Pinwheel Forest": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 636,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Lonely",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/acetrainerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 24 Team Plasma Grunt44 ": {
-        "level": 24,
-        "ai": 15,
-        "noCh": true,
-        "tr_id": 690,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Lum Berry",
-        "nature": "Gentle",
-        "moves": [
-          "Headbutt",
-          "Fury Swipes",
-          "Covet",
-          "Sand Attack"
-        ],
-        "sub_index": 2,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Axew": {
       "Lvl 44 Veteran Ron ": {
         "level": 44,
@@ -195340,8 +195122,8 @@ backup_data = {
       }
     },
     "Silcoon": {
-      "Lvl 10 Youngster Petey - Route 20": {
-        "level": 10,
+      "Lvl 9 Youngster Petey - Route 20": {
+        "level": 9,
         "ai": 15,
         "noCh": false,
         "tr_id": 392,
@@ -195356,9 +195138,9 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Rash",
+        "nature": "Brave",
         "moves": [
-          "Struggle Bug",
+          "Bug Bite",
           "Disarming Voice",
           "Iron Defense",
           "Mirror Coat"
@@ -197641,6 +197423,101 @@ backup_data = {
         }
       }
     },
+    "Linoone": {
+      "Lvl 55 Cyclist Jeremiah ": {
+        "level": 55,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 468,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Silk Scarf",
+        "nature": "Naughty",
+        "moves": [
+          "Extreme Speed",
+          "Double-Edge",
+          "Aqua Tail",
+          "Metronome"
+        ],
+        "sub_index": 2,
+        "ability": "Tough Claws",
+        "sprite": "trainer_sprites/cyclist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 Ace Trainer Kathrine - Pinwheel Forest": {
+        "level": 63,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 636,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Lonely",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Tough Claws",
+        "sprite": "trainer_sprites/acetrainerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 24 Team Plasma Grunt44 ": {
+        "level": 24,
+        "ai": 15,
+        "noCh": true,
+        "tr_id": 690,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Lum Berry",
+        "nature": "Gentle",
+        "moves": [
+          "Headbutt",
+          "Fury Swipes",
+          "Covet",
+          "Sand Attack"
+        ],
+        "sub_index": 2,
+        "ability": "Tough Claws",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Blastoise": {
       "Lvl 49 PkMn Trainer Rival15 - Clay Tunnel - Starter 3": {
         "level": 49,
@@ -197789,7 +197666,7 @@ backup_data = {
           "Overheat",
           "High Horsepower",
           "Growth",
-          "Slack Off"
+          "Solar Beam"
         ],
         "sub_index": 2,
         "ability": "Solid Rock",
