@@ -136479,7 +136479,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Alder's partner Benga - Clay Tunnel": {
+      "Lvl 58 Alder's partner Victini - Clay Tunnel": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -136504,7 +136504,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
-        "sprite": "trainer_sprites/benga.png",
+        "sprite": "trainer_sprites/alder'spartner.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -155288,7 +155288,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Trainer Benga ": {
+      "Lvl 58 PkMn Trainer Alder ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -155313,7 +155313,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Guts",
-        "sprite": "trainer_sprites/benga.png",
+        "sprite": "trainer_sprites/alder.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -170120,7 +170120,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Trainer Benga ": {
+      "Lvl 58 PkMn Trainer Alder ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -170145,7 +170145,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Refrigerate",
-        "sprite": "trainer_sprites/benga.png",
+        "sprite": "trainer_sprites/alder.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -171310,7 +171310,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Alder's partner Benga - Clay Tunnel": {
+      "Lvl 58 Alder's partner Victini - Clay Tunnel": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -171335,7 +171335,7 @@ backup_data = {
         ],
         "sub_index": 1,
         "ability": "Friend Guard",
-        "sprite": "trainer_sprites/benga.png",
+        "sprite": "trainer_sprites/alder'spartner.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -179363,7 +179363,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Trainer Benga ": {
+      "Lvl 58 PkMn Trainer Alder ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -179388,7 +179388,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
-        "sprite": "trainer_sprites/benga.png",
+        "sprite": "trainer_sprites/alder.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -180910,7 +180910,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Benga ": {
+      "Lvl 59 PkMn Trainer Alder ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -180935,7 +180935,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Blaze",
-        "sprite": "trainer_sprites/benga.png",
+        "sprite": "trainer_sprites/alder.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -181994,7 +181994,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Alder's partner Benga - Clay Tunnel": {
+      "Lvl 58 Alder's partner Victini - Clay Tunnel": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -182019,7 +182019,7 @@ backup_data = {
         ],
         "sub_index": 2,
         "ability": "Mold Breaker",
-        "sprite": "trainer_sprites/benga.png",
+        "sprite": "trainer_sprites/alder'spartner.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -186199,13 +186199,13 @@ backup_data = {
         "item": "Sitrus Berry",
         "nature": "Lax",
         "moves": [
-          "Dual Chop",
+          "Dragon Claw",
           "Fire Blast",
-          "Rock Slide",
+          "Drill Run",
           "Iron Tail"
         ],
         "sub_index": 0,
-        "ability": "Strong Body",
+        "ability": "Mold Breaker",
         "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
@@ -198194,7 +198194,7 @@ backup_data = {
       }
     },
     "Victini": {
-      "Lvl 59 Alder's partner Benga - Clay Tunnel": {
+      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -198219,7 +198219,7 @@ backup_data = {
         ],
         "sub_index": 3,
         "ability": "Illumination",
-        "sprite": "trainer_sprites/benga.png",
+        "sprite": "trainer_sprites/alder'spartner.png",
         "form": 0,
         "evs": {
           "df": 0
