@@ -136479,8 +136479,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Alder's partner Victini - Clay Tunnel": {
-        "level": 56,
+      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
+        "level": 59,
         "ai": 143,
         "noCh": false,
         "tr_id": 506,
@@ -136494,8 +136494,8 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Chople Berry",
-        "nature": "Quirky",
+        "item": "Focus Sash",
+        "nature": "Naive",
         "moves": [
           "Spike Cannon",
           "Arm Thrust",
@@ -150513,37 +150513,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 PkMn Trainer Alder ": {
-        "level": 56,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 582,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Lum Berry",
-        "nature": "Impish",
-        "moves": [
-          "Rock Slide",
-          "Drain Punch",
-          "Ice Punch",
-          "Slack Off"
-        ],
-        "sub_index": 1,
-        "ability": "Determined",
-        "sprite": "trainer_sprites/alder.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 62 Black Belt 2 - Wellspring Cave": {
         "level": 62,
         "ai": 3,
@@ -155319,8 +155288,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Trainer Alder ": {
-        "level": 58,
+      "Lvl 59 PkMn Trainer Alder ": {
+        "level": 59,
         "ai": 143,
         "noCh": false,
         "tr_id": 582,
@@ -155342,7 +155311,7 @@ backup_data = {
           "Lunge",
           "Cotton Spore"
         ],
-        "sub_index": 3,
+        "sub_index": 2,
         "ability": "Reckless",
         "sprite": "trainer_sprites/alder.png",
         "form": 0,
@@ -167399,37 +167368,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Alder's partner Victini - Clay Tunnel": {
-        "level": 58,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 506,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "White Herb",
-        "nature": "Careful",
-        "moves": [
-          "Headlong Rush",
-          "Shadow Punch",
-          "Heavy Slam",
-          "Helping Hand"
-        ],
-        "sub_index": 3,
-        "ability": "Well Baked Body",
-        "sprite": "trainer_sprites/alder'spartner.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 55 Ace Trainer Billy - Victory Road": {
         "level": 55,
         "ai": 7,
@@ -170213,8 +170151,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 PkMn Trainer Alder ": {
-        "level": 57,
+      "Lvl 59 PkMn Trainer Alder ": {
+        "level": 59,
         "ai": 143,
         "noCh": false,
         "tr_id": 582,
@@ -170229,14 +170167,14 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Petaya Berry",
-        "nature": "Rash",
+        "nature": "Hasty",
         "moves": [
           "Hyper Voice",
           "Protect",
           "Spit Up",
           "Sludge Bomb"
         ],
-        "sub_index": 2,
+        "sub_index": 1,
         "ability": "Refrigerate",
         "sprite": "trainer_sprites/alder.png",
         "form": 0,
@@ -171403,8 +171341,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Alder's partner Victini - Clay Tunnel": {
-        "level": 56,
+      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
+        "level": 59,
         "ai": 143,
         "noCh": false,
         "tr_id": 506,
@@ -171419,12 +171357,12 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Covert Cloak",
-        "nature": "Hasty",
+        "nature": "Rash",
         "moves": [
           "Moonblast",
-          "Air Cutter",
-          "Extrasensory",
-          "Safeguard"
+          "Hurricane",
+          "Heat Wave",
+          "Tailwind"
         ],
         "sub_index": 1,
         "ability": "Friend Guard",
@@ -179456,8 +179394,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 PkMn Trainer Alder ": {
-        "level": 56,
+      "Lvl 59 PkMn Trainer Alder ": {
+        "level": 59,
         "ai": 143,
         "noCh": false,
         "tr_id": 582,
@@ -179471,13 +179409,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Sitrus Berry",
+        "item": "Scope Lens",
         "nature": "Serious",
         "moves": [
-          "Muddy Water",
+          "Hydro Pump",
           "Shadow Ball",
           "Blizzard",
-          "Rock Wrecker"
+          "Stone Edge"
         ],
         "sub_index": 0,
         "ability": "Adaptability",
@@ -181019,15 +180957,15 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Tera Sash",
-        "nature": "Jolly",
+        "nature": "Bold",
         "moves": [
           "Heat Wave",
           "Silver Wind",
           "Energy Ball",
           "Protect"
         ],
-        "sub_index": 4,
-        "ability": "Swarm",
+        "sub_index": 3,
+        "ability": "Blaze",
         "sprite": "trainer_sprites/alder.png",
         "form": 0,
         "evs": {
@@ -182087,8 +182025,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Alder's partner Victini - Clay Tunnel": {
-        "level": 57,
+      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
+        "level": 59,
         "ai": 143,
         "noCh": false,
         "tr_id": 506,
@@ -182102,13 +182040,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Shuca Berry",
-        "nature": "Bold",
+        "item": "Quick Claw",
+        "nature": "Docile",
         "moves": [
           "Thunderbolt",
-          "Dragon Pulse",
+          "Dragon Rush",
           "Cotton Guard",
-          "Thunder Wave"
+          "Body Press"
         ],
         "sub_index": 2,
         "ability": "Mold Breaker",
@@ -198310,7 +198248,7 @@ backup_data = {
           "Hyper Beam",
           "Thunder"
         ],
-        "sub_index": 4,
+        "sub_index": 3,
         "ability": "Illumination",
         "sprite": "trainer_sprites/alder'spartner.png",
         "form": 0,
