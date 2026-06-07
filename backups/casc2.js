@@ -136479,8 +136479,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
-        "level": 59,
+      "Lvl 58 Alder's partner Benga - Clay Tunnel": {
+        "level": 58,
         "ai": 143,
         "noCh": false,
         "tr_id": 506,
@@ -136495,7 +136495,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
-        "nature": "Naive",
+        "nature": "Hardy",
         "moves": [
           "Spike Cannon",
           "Arm Thrust",
@@ -136504,7 +136504,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Skill Link",
-        "sprite": "trainer_sprites/alder'spartner.png",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -155288,8 +155288,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Alder ": {
-        "level": 59,
+      "Lvl 58 PkMn Trainer Benga ": {
+        "level": 58,
         "ai": 143,
         "noCh": false,
         "tr_id": 582,
@@ -155308,12 +155308,12 @@ backup_data = {
         "moves": [
           "Double-Edge",
           "Drill Run",
-          "Lunge",
+          "Megahorn",
           "Cotton Spore"
         ],
         "sub_index": 2,
-        "ability": "Reckless",
-        "sprite": "trainer_sprites/alder.png",
+        "ability": "Guts",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -160689,37 +160689,6 @@ backup_data = {
         "sub_index": 3,
         "ability": "Inner Focus",
         "sprite": "trainer_sprites/gentleman.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 57 Rival Benga3 - Starter 3": {
-        "level": 57,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 234,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Brave",
-        "moves": [
-          "Ancient Power",
-          "Extrasensory",
-          "Reflect",
-          "Light Screen"
-        ],
-        "sub_index": 4,
-        "ability": "Sheer Force",
-        "sprite": "trainer_sprites/benga.png",
         "form": 1,
         "evs": {
           "df": 0
@@ -170151,8 +170120,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Alder ": {
-        "level": 59,
+      "Lvl 58 PkMn Trainer Benga ": {
+        "level": 58,
         "ai": 143,
         "noCh": false,
         "tr_id": 582,
@@ -170170,13 +170139,13 @@ backup_data = {
         "nature": "Hasty",
         "moves": [
           "Hyper Voice",
-          "Protect",
           "Spit Up",
-          "Sludge Bomb"
+          "Muddy Water",
+          "Sludge Wave"
         ],
         "sub_index": 1,
         "ability": "Refrigerate",
-        "sprite": "trainer_sprites/alder.png",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -171341,8 +171310,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
-        "level": 59,
+      "Lvl 58 Alder's partner Benga - Clay Tunnel": {
+        "level": 58,
         "ai": 143,
         "noCh": false,
         "tr_id": 506,
@@ -171361,12 +171330,12 @@ backup_data = {
         "moves": [
           "Moonblast",
           "Hurricane",
-          "Heat Wave",
+          "Fire Blast",
           "Tailwind"
         ],
         "sub_index": 1,
         "ability": "Friend Guard",
-        "sprite": "trainer_sprites/alder'spartner.png",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -179394,8 +179363,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Alder ": {
-        "level": 59,
+      "Lvl 58 PkMn Trainer Benga ": {
+        "level": 58,
         "ai": 143,
         "noCh": false,
         "tr_id": 582,
@@ -179409,8 +179378,8 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Scope Lens",
-        "nature": "Serious",
+        "item": "Salac Berry",
+        "nature": "Mild",
         "moves": [
           "Hydro Pump",
           "Shadow Ball",
@@ -179419,7 +179388,7 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Adaptability",
-        "sprite": "trainer_sprites/alder.png",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -180941,7 +180910,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Alder ": {
+      "Lvl 59 PkMn Trainer Benga ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -180961,12 +180930,12 @@ backup_data = {
         "moves": [
           "Heat Wave",
           "Silver Wind",
-          "Energy Ball",
-          "Protect"
+          "Protect",
+          "Energy Ball"
         ],
         "sub_index": 3,
         "ability": "Blaze",
-        "sprite": "trainer_sprites/alder.png",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -182025,8 +181994,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
-        "level": 59,
+      "Lvl 58 Alder's partner Benga - Clay Tunnel": {
+        "level": 58,
         "ai": 143,
         "noCh": false,
         "tr_id": 506,
@@ -182041,16 +182010,16 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Quick Claw",
-        "nature": "Docile",
+        "nature": "Serious",
         "moves": [
-          "Thunderbolt",
           "Dragon Rush",
+          "Thunder",
           "Cotton Guard",
           "Body Press"
         ],
         "sub_index": 2,
         "ability": "Mold Breaker",
-        "sprite": "trainer_sprites/alder'spartner.png",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -186231,12 +186200,12 @@ backup_data = {
         "nature": "Lax",
         "moves": [
           "Dual Chop",
-          "Iron Tail",
+          "Fire Blast",
           "Rock Slide",
-          "Fire Blast"
+          "Iron Tail"
         ],
         "sub_index": 0,
-        "ability": "Mold Breaker",
+        "ability": "Strong Body",
         "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
@@ -198225,7 +198194,7 @@ backup_data = {
       }
     },
     "Victini": {
-      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
+      "Lvl 59 Alder's partner Benga - Clay Tunnel": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -198240,17 +198209,17 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Lum Berry",
+        "item": "White Herb",
         "nature": "Serious",
         "moves": [
-          "Heat Wave",
+          "V-create",
+          "Thunder",
           "Psychic",
-          "Hyper Beam",
-          "Thunder"
+          "Hyper Beam"
         ],
         "sub_index": 3,
         "ability": "Illumination",
-        "sprite": "trainer_sprites/alder'spartner.png",
+        "sprite": "trainer_sprites/benga.png",
         "form": 0,
         "evs": {
           "df": 0
