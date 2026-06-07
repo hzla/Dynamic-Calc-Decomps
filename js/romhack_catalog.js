@@ -93,6 +93,21 @@
                 }
             ]
         },
+        "brutal-black": {
+            id: "brutal-black",
+            title: "Brutal Black",
+            coverImage: "",
+            description: "",
+            sourceTitle: "Brutal Black",
+            variants: [
+                {
+                    label: "Black Base Rom",
+                    source: "https://hzla.github.io/Dynamic-Calc-Decomps/?data=brutalblack&dmgGen=5&gen=5&types=5",
+                    coverImage: "",
+                    description: ""
+                }
+            ]
+        },
         "cascade-white": {
             id: "cascade-white",
             title: "Cascade White",
@@ -734,6 +749,7 @@
                 "ancestral-x",
                 "autumn-red",
                 "blinding-white-2",
+                "brutal-black",
                 "cascade-white",
                 "little-emerald",
                 "luminescent-platinum",

@@ -1005,7 +1005,7 @@ function setGameSettings(title) {
     showDex = false;
     showAI = false;
     $('label[for="snow"]').hide()
-  } else if (title == "Black/White" || title == "Black 2/White 2" || title == "Blaze Black/Volt White") {
+  } else if (title == "Black/White" || title == "Black 2/White 2" || title == "Blaze Black/Volt White" || title == "Brutal Black") {
     gameGen = 5
     settings.damageGen = 5
     if (!settings.noSwitch) {
@@ -1016,7 +1016,7 @@ function setGameSettings(title) {
     settings.typeChart = 5;
     settings.critGen = 5;
     save_expansion = false
-    showDex = false;
+    showDex = title == "Brutal Black";
     showAI = true;
     $('label[for="snow"]').hide()
   } else if (TITLE.includes(" Null")) {

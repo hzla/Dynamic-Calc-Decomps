@@ -14,6 +14,11 @@ splitData = {
 		"titles": ["Cilan/Chili/Cress", "Lenora", "Burgh", "Elesa", "Clay", "Skyla", "Brycen", "Drayden", "Elite 4"],
 		"types": ["fire", "normal", "bug", "electric", "ground", "flying", "ice", "dragon"]
 	},
+	"Brutal Black": {
+		"lvls": [16, 27, 35, 44, 50, 62, 67, 76, 82],
+		"titles": ["Cilan/Chili/Cress", "Lenora", "Burgh", "Elesa", "Clay", "Skyla", "Brycen", "Drayden", "Elite 4"],
+		"types": ["fire", "normal", "bug", "electric", "ground", "flying", "ice", "dragon"]
+	},
 	"Black/White": {
 		"lvls": [14, 20, 23, 27, 31, 35, 39, 43, 50],
 		"titles": ["Cilan/Chili/Cress", "Lenora", "Burgh", "Elesa", "Clay", "Skyla", "Brycen", "Drayden", "Elite 4"],

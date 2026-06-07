@@ -426,7 +426,7 @@ function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
         }
 
         if (attacker.hasAbility('Protean') && !attacker.teraType) {
-            if (TITLE.includes(" Null") && attacker.abilityOn) {
+            if (TITLE.includes(" Null") && attacker.abilityOn && !attacker.hasOriginalType(move.type)) {
                 stabMod += 2048;
             } else if (TITLE.includes(" Null")) {
             } else {

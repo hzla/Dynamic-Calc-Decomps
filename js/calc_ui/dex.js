@@ -7,6 +7,7 @@ const dexBridgeSlots = {
 let dexBridgeRequestCounter = 0;
 const dexGameIdsByTitle = {
 	'Blaze Black 2/Volt White 2 Redux': 'blazeblack2redux',
+	'Brutal Black': 'brutalblack',
 	'Platinum Redux': 'platinumredux',
 	'Platinum Redux HC': 'platinumredux'
 };

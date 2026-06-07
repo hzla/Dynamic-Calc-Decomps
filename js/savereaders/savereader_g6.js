@@ -3,6 +3,64 @@ const G67_PK_PARTY_SIZE = 0x104;
 const G67_PARTY_SLOTS = 6;
 const G67_BOX_SLOTS = 30;
 const G67_BEEF_FOOTER_OFFSET = 0x1F0;
+const G67_ANCESTRAL_X_FAST_GROWTH = 4;
+const G67_ANCESTRAL_X_SLOW_GROWTH = 5;
+const G67_ANCESTRAL_X_FAST_EXP_SPECIES = new Set([
+    'Articuno',
+    'Zapdos',
+    'Moltres',
+    'Raikou',
+    'Entei',
+    'Suicune',
+    'Regirock',
+    'Regice',
+    'Registeel',
+    'Latias',
+    'Latios',
+    'Uxie',
+    'Mesprit',
+    'Azelf',
+    'Heatran',
+    'Regigigas',
+    'Cresselia',
+    'Cobalion',
+    'Terrakion',
+    'Virizion',
+    'Tornadus',
+    'Thundurus',
+    'Landorus',
+    'Mewtwo',
+    'Mew',
+    'Lugia',
+    'Ho-Oh',
+    'Celebi',
+    'Kyogre',
+    'Groudon',
+    'Rayquaza',
+    'Jirachi',
+    'Deoxys',
+    'Dialga',
+    'Palkia',
+    'Giratina',
+    'Phione',
+    'Manaphy',
+    'Darkrai',
+    'Shaymin',
+    'Arceus',
+    'Victini',
+    'Reshiram',
+    'Zekrom',
+    'Kyurem',
+    'Keldeo',
+    'Meloetta',
+    'Genesect',
+    'Xerneas',
+    'Yveltal',
+    'Zygarde',
+    'Diancie',
+    'Hoopa',
+    'Volcanion'
+].map((speciesName) => g67ToID(speciesName)));
 const G67_BLOCK_POSITIONS = [
     0, 1, 2, 3, 0, 1, 3, 2, 0, 2, 1, 3, 0, 3, 1, 2,
     0, 2, 3, 1, 0, 3, 2, 1, 1, 0, 2, 3, 1, 0, 3, 2,
@@ -279,7 +337,7 @@ function g67ParseMonChunk(chunk, variant, isParty, slot) {
     }
 
     const nickname = g67DecodeString(decrypted.subarray(0x40, 0x5A), variant.generation);
-    const level = g67ResolveLevel(decrypted, speciesId, speciesName, variant.generation, isParty);
+    const level = g67ResolveLevel(decrypted, speciesId, speciesName, variant.generation, isParty, variant.detectedGame);
     const natureName = (typeof natures !== 'undefined' && natures[g67ReadU8(decrypted, 0x1C)]) ? natures[g67ReadU8(decrypted, 0x1C)] : '';
     const metLocationId = g67ReadU16LE(decrypted, 0xDA);
 
@@ -449,14 +507,14 @@ function g67GetSpeciesNameCache(generation) {
     return cache;
 }
 
-function g67ResolveLevel(decrypted, speciesId, speciesName, generation, isParty) {
+function g67ResolveLevel(decrypted, speciesId, speciesName, generation, isParty, detectedGame) {
     if (isParty) {
         const level = g67ReadU8(decrypted, 0xEC);
         if (level >= 1 && level <= 100) {
             return level;
         }
     }
-    const growthRate = g67ResolveGrowthRate(speciesId, speciesName, generation);
+    const growthRate = g67ResolveGrowthRate(speciesId, speciesName, generation, detectedGame);
     if (!Number.isFinite(growthRate) || typeof expTables === 'undefined' || !expTables[growthRate] || typeof get_level !== 'function') {
         return null;
     }
@@ -467,7 +525,12 @@ function g67ResolveLevel(decrypted, speciesId, speciesName, generation, isParty)
     }
 }
 
-function g67ResolveGrowthRate(speciesId, speciesName, generation) {
+function g67ResolveGrowthRate(speciesId, speciesName, generation, detectedGame) {
+    const ancestralXGrowthRate = g67ResolveAncestralXGrowthRate(speciesName, generation, detectedGame);
+    if (Number.isFinite(ancestralXGrowthRate)) {
+        return ancestralXGrowthRate;
+    }
+
     const dex = g67GetSpeciesDex(generation);
     const entry = dex[speciesName];
     if (entry && Number.isFinite(entry.gr)) {
@@ -484,6 +547,38 @@ function g67ResolveGrowthRate(speciesId, speciesName, generation) {
         }
     }
     return null;
+}
+
+function g67ResolveAncestralXGrowthRate(speciesName, generation, detectedGame) {
+    if (!g67ShouldUseAncestralXExpTables(generation, detectedGame)) {
+        return null;
+    }
+    return g67IsAncestralXFastExpSpecies(speciesName, generation)
+        ? G67_ANCESTRAL_X_FAST_GROWTH
+        : G67_ANCESTRAL_X_SLOW_GROWTH;
+}
+
+function g67ShouldUseAncestralXExpTables(generation, detectedGame) {
+    return generation === 6
+        && detectedGame === 'XY'
+        && typeof TITLE === 'string'
+        && TITLE === 'Ancestral X';
+}
+
+function g67IsAncestralXFastExpSpecies(speciesName, generation) {
+    const dex = g67GetSpeciesDex(generation);
+    let currentSpeciesName = speciesName;
+    for (let depth = 0; currentSpeciesName && depth < 4; depth++) {
+        if (G67_ANCESTRAL_X_FAST_EXP_SPECIES.has(g67ToID(currentSpeciesName))) {
+            return true;
+        }
+        const entry = dex[currentSpeciesName];
+        if (!entry || !entry.baseSpecies || entry.baseSpecies === currentSpeciesName) {
+            break;
+        }
+        currentSpeciesName = entry.baseSpecies;
+    }
+    return false;
 }
 
 function g67ResolveAbilityName(abilityId) {
@@ -715,4 +810,18 @@ function g67ReadU32LE(bytes, offset) {
         (bytes[offset + 2] << 16) |
         (bytes[offset + 3] << 24)
     ) >>> 0;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        __test: {
+            G67_ANCESTRAL_X_FAST_GROWTH,
+            G67_ANCESTRAL_X_SLOW_GROWTH,
+            g67ResolveAncestralXGrowthRate,
+            g67ResolveGrowthRate,
+            g67ResolveLevel,
+            g67ShouldUseAncestralXExpTables,
+            g67IsAncestralXFastExpSpecies
+        }
+    };
 }
