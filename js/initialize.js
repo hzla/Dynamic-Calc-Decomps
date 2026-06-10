@@ -58,11 +58,33 @@ const mastersheetSourcesByTitle = {
   "Vintage White Plus": "vintagewhiteplus"
 };
 const PLATINUM_REDUX_TYPE_CHART = 9;
+const BACKUP_DATA_TYPE_CHART = 13;
 const PLATINUM_REDUX_TYPE_CHART_STORAGE_KEY = "platinumReduxTypeChart";
 const AETHER_WHITE_2_TITLE = "Aether White 2";
 const WISHY_WASHY_WHITE_2_TITLE = "Wishy Washy White 2";
 const POKEMON_COLORS_NORMAL_TITLE = "Pokemon Colors Normal";
 const POKEMON_COLORS_CLASSIC_TITLE = "Pokemon Colors Classic";
+const BACKUP_TYPE_CHART_FINAL_TYPES = [
+    "Normal",
+    "Fire",
+    "Water",
+    "Electric",
+    "Grass",
+    "Ice",
+    "Fighting",
+    "Poison",
+    "Ground",
+    "Flying",
+    "Psychic",
+    "Bug",
+    "Rock",
+    "Ghost",
+    "Dragon",
+    "Dark",
+    "Steel",
+    "Fairy",
+    "None"
+];
 
 function getRuntimeTitle(fallback = BLANK_DEV_TITLE) {
     return typeof TITLE === "string" && TITLE ? TITLE : fallback;
@@ -467,6 +489,178 @@ function getDynamicCalcTitle(data) {
     return isBlankDevMode ? getBlankDevResolvedTitle(fallbackTitle) : fallbackTitle;
 }
 
+function getBackupDataTypeChart(data) {
+    if (!data || typeof data !== "object") {
+        return null;
+    }
+
+    const candidate =
+        data.type_chart ||
+        data.custom_type_chart ||
+        data.typeChartData ||
+        (data.typeChart && typeof data.typeChart === "object" ? data.typeChart : null);
+
+    return normalizeBackupDataTypeChart(candidate);
+}
+
+function normalizeBackupDataTypeChart(candidate) {
+    if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) {
+        return null;
+    }
+
+    const chart = {};
+    for (const attackType in candidate) {
+        const sourceRow = candidate[attackType];
+        if (!sourceRow || typeof sourceRow !== "object" || Array.isArray(sourceRow)) {
+            continue;
+        }
+
+        const row = {};
+        for (const defendType in sourceRow) {
+            const value = normalizeBackupTypeChartValue(sourceRow[defendType]);
+            if (value !== null) {
+                row[defendType] = value;
+            }
+        }
+
+        if (Object.keys(row).length) {
+            chart[attackType] = row;
+        }
+    }
+
+    return Object.keys(chart).length ? completeBackupDataTypeChart(chart) : null;
+}
+
+function normalizeBackupTypeChartValue(value) {
+    const numberValue = Number(value);
+    if (numberValue === 0 || numberValue === 0.5 || numberValue === 1 || numberValue === 2) {
+        return numberValue;
+    }
+    return null;
+}
+
+function completeBackupDataTypeChart(chart) {
+    const typeNames = [];
+    const addTypeName = function(typeName) {
+        if (typeNames.indexOf(typeName) < 0) {
+            typeNames.push(typeName);
+        }
+    };
+
+    for (const attackType in chart) {
+        addTypeName(attackType);
+        for (const defendType in chart[attackType]) {
+            addTypeName(defendType);
+        }
+    }
+
+    const completeChart = {};
+    for (let i = 0; i < typeNames.length; i++) {
+        const attackType = typeNames[i];
+        const sourceRow = chart[attackType] || {};
+        const row = {};
+        for (let j = 0; j < typeNames.length; j++) {
+            const defendType = typeNames[j];
+            row[defendType] = typeof sourceRow[defendType] === "number" ? sourceRow[defendType] : 1;
+        }
+        completeChart[attackType] = row;
+    }
+
+    return completeChart;
+}
+
+function clearBackupDataTypeChartOverride(restoreBase) {
+    if (restoreBase && settings.backupDataTypeChartActive && typeof settings.backupDataTypeChartBase === "number") {
+        settings.typeChart = settings.backupDataTypeChartBase;
+        settings.type_chart = settings.typeChart;
+    }
+
+    settings.backupDataTypeChartActive = false;
+    settings.backupDataTypeChartBase = null;
+
+    if (typeof globalThis !== "undefined" && typeof globalThis.final_type_chart !== "undefined") {
+        delete globalThis.final_type_chart;
+    }
+}
+
+function buildBackupDataFinalTypeChart(chart) {
+    const matrix = [];
+    for (let i = 0; i < BACKUP_TYPE_CHART_FINAL_TYPES.length; i++) {
+        const attackType = BACKUP_TYPE_CHART_FINAL_TYPES[i];
+        const row = [];
+        for (let j = 0; j < BACKUP_TYPE_CHART_FINAL_TYPES.length; j++) {
+            const defendType = BACKUP_TYPE_CHART_FINAL_TYPES[j];
+            const value = chart[attackType] && typeof chart[attackType][defendType] === "number"
+                ? chart[attackType][defendType]
+                : 1;
+            row.push(value);
+        }
+        matrix.push(row);
+    }
+    return matrix;
+}
+
+function backupTypeChartId(typeName) {
+    if (typeof cleanString === "function") {
+        return cleanString(typeName);
+    }
+    return String(typeName || "").replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+}
+
+function syncGlobalBackupTypesById(chartId, chart) {
+    if (typeof TYPES_BY_ID === "undefined") {
+        return;
+    }
+
+    const map = {};
+    for (const typeName in chart) {
+        map[backupTypeChartId(typeName)] = {
+            kind: "Type",
+            id: backupTypeChartId(typeName),
+            name: typeName,
+            effectiveness: { ...chart[typeName] }
+        };
+    }
+    TYPES_BY_ID[chartId] = map;
+}
+
+function applyBackupDataTypeChart(data) {
+    const customTypeChart = getBackupDataTypeChart(data);
+    if (!customTypeChart) {
+        clearBackupDataTypeChartOverride(true);
+        return false;
+    }
+
+    if (!settings.backupDataTypeChartActive) {
+        settings.backupDataTypeChartBase = settings.typeChart;
+    }
+
+    let chartId = BACKUP_DATA_TYPE_CHART;
+    if (typeof calc !== "undefined" && calc && typeof calc.registerCustomTypeChart === "function") {
+        chartId = calc.registerCustomTypeChart(customTypeChart, BACKUP_DATA_TYPE_CHART);
+    } else if (typeof calc !== "undefined" && calc && calc.TYPE_CHART) {
+        calc.TYPE_CHART[chartId] = customTypeChart;
+    }
+    syncGlobalBackupTypesById(chartId, customTypeChart);
+
+    settings.typeChart = chartId;
+    settings.type_chart = chartId;
+    settings.backupDataTypeChartActive = true;
+
+    if (typeof typeChart !== "undefined") {
+        typeChart = customTypeChart;
+    }
+    if (typeof globalThis !== "undefined") {
+        globalThis.typeChart = customTypeChart;
+        globalThis.final_type_chart = buildBackupDataFinalTypeChart(customTypeChart);
+    }
+    if (typeof gen !== "undefined" && gen && gen.types) {
+        gen.types.gen = chartId;
+    }
+
+    return true;
+}
+
 function isDsSaveReaderBaseGame(baseGameValue = window.baseGame) {
     const normalizedBaseGame = normalizeBaseGameValue(baseGameValue);
     return normalizedBaseGame == "Pt" || normalizedBaseGame == "HGSS" || normalizedBaseGame == "BW";
@@ -743,6 +937,7 @@ function prepareDynamicCalcData(data, options = {}) {
     } else {
         applyPlatinumReduxTypeChartSetting(TITLE)
     }
+    applyBackupDataTypeChart(data)
 
     document.title = TITLE + " Calculator"
     setBaseGame(TITLE)
@@ -899,6 +1094,7 @@ $(document).ready(async function() {
 
 // Game specific configs and modifications
 function setGameSettings(title) {
+  clearBackupDataTypeChartOverride(true);
   $('label[for="fog"]').hide()
   settings.readIncludes = false
   settings.hasMastersheet = false
@@ -1786,6 +1982,7 @@ function loadMovesData() {
 }
 
 function loadDataSource(data) {
+    applyBackupDataTypeChart(data)
     const isBlankSlateData = !!(data && data.__blankSlate)
     const blankTrainerData = isBlankSlateData ? (data.trainers || {}) : null
 

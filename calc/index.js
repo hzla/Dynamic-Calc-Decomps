@@ -93,6 +93,7 @@ var natures_1 = require("./data/natures");
 __createBinding(exports, natures_1, "NATURES");
 var types_1 = require("./data/types");
 __createBinding(exports, types_1, "TYPE_CHART");
+__createBinding(exports, types_1, "registerCustomTypeChart");
 var stats_1 = require("./stats");
 __createBinding(exports, stats_1, "STATS");
 __createBinding(exports, stats_1, "Stats");

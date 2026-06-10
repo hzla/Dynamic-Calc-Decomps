@@ -655,6 +655,21 @@ var Type = (function () {
     return Type;
 }());
 var TYPES_BY_ID = [];
+function buildTypesById(typeChart) {
+    var map = {};
+    for (var type in typeChart) {
+        var t = new Type(type, __assign({}, typeChart[type]));
+        map[t.id] = t;
+    }
+    return map;
+}
+function registerCustomTypeChart(typeChart, chartId) {
+    var resolvedChartId = typeof chartId === "number" && chartId >= 0 ? chartId : exports.TYPE_CHART.length;
+    exports.TYPE_CHART[resolvedChartId] = typeChart;
+    TYPES_BY_ID[resolvedChartId] = buildTypesById(typeChart);
+    return resolvedChartId;
+}
+exports.registerCustomTypeChart = registerCustomTypeChart;
 
 // if (type_chart >= 6) {
 //     exports.TYPE_CHART[3].Dark.Steel = 1
@@ -681,12 +696,7 @@ var TYPES_BY_ID = [];
 try {
     for (var TYPE_CHART_1 = __values(exports.TYPE_CHART), TYPE_CHART_1_1 = TYPE_CHART_1.next(); !TYPE_CHART_1_1.done; TYPE_CHART_1_1 = TYPE_CHART_1.next()) {
         var typeChart = TYPE_CHART_1_1.value;
-        var map = {};
-        for (var type in typeChart) {
-            var t = new Type(type, __assign({}, typeChart[type]));
-            map[t.id] = t;
-        }
-        TYPES_BY_ID.push(map);
+        TYPES_BY_ID.push(buildTypesById(typeChart));
     }
 }
 catch (e_1_1) { e_1 = { error: e_1_1 }; }

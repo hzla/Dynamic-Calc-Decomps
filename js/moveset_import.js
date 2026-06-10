@@ -757,9 +757,7 @@ function buildShowdownExportText(speciesName, setData) {
 }
 
 function exportAllCustomSets() {
-	var customsets = (pendingSnapshotMeta || queuedReplaceDeadMons)
-		? removeMyBoxEntries(getStoredCustomSets())
-		: getStoredCustomSets();
+	var customsets = getStoredCustomSets();
 	var speciesNames = Object.keys(customsets || {}).sort();
 	var exportedSets = [];
 
