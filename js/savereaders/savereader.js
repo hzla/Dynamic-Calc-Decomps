@@ -1152,14 +1152,6 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
     nn = nn.replaceAll('\u0000', '');
     
-    // dev functions, ignore
-    if (settings.devMode) {
-        decryptedData[move_data_offset + 8] = 65535  
-        decryptedData[move_data_offset + 9] = 16383          
-    }
-
-
-
     var iv_value = (decryptedData[move_data_offset + 9] << 16) | (decryptedData[move_data_offset + 8]  & 0xFFFF)
     ivs = getIVs(iv_value) 
     let met_location

@@ -53,7 +53,11 @@ const NULL_MON_LAYOUT_BOX_SAVE = {
     levelOffset: null,
 };
 
-if (typeof TITLE === "string" && TITLE.includes(" Null")) {
+function shouldUseNullSaveReader() {
+    return window.baseGame === "null";
+}
+
+if (shouldUseNullSaveReader()) {
     let fileHandle = null;
     let lastContents = null;
     let watchIntervalId = null;
@@ -77,6 +81,10 @@ if (typeof TITLE === "string" && TITLE.includes(" Null")) {
         console.warn("Pokemon Null save reader could not find save input element.");
     } else {
         openTarget.addEventListener(saveOpenEvent, function (event) {
+            if (!shouldUseNullSaveReader()) {
+                return;
+            }
+
             (async () => {
                 let file = null;
 
