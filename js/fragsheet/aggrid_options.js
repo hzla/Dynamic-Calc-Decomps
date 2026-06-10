@@ -556,19 +556,21 @@ function getFragEntryValue(fragEntry) {
 
 function parseFragLevelMetadata(fragEntry) {
     let fragValue = getFragEntryValue(fragEntry)
+    let splitIndex = getFragEntrySplitIndex(fragEntry)
+    let splitKey = splitIndex == null ? "" : `|split:${splitIndex}`
     let match = fragValue.match(/Lvl (\d+)(\*)?/)
     if (!match) {
         return {
             level: Number.POSITIVE_INFINITY,
             hasAsterisk: false,
-            dedupeKey: fragValue
+            dedupeKey: `${fragValue}${splitKey}`
         }
     }
 
     return {
         level: parseInt(match[1], 10),
         hasAsterisk: Boolean(match[2]),
-        dedupeKey: fragValue.replace(/Lvl \d+(\*)?/, `Lvl #${match[2] ? "*" : ""}`)
+        dedupeKey: `${fragValue.replace(/Lvl \d+(\*)?/, `Lvl #${match[2] ? "*" : ""}`)}${splitKey}`
     }
 }
 
@@ -578,6 +580,52 @@ function getFragEntrySourceSpecies(fragEntry) {
     }
 
     return String(fragEntry.sourceSpecies || "")
+}
+
+function normalizeFragSplitIndex(splitIndex) {
+    if (splitIndex === null || typeof splitIndex === "undefined" || splitIndex === "") {
+        return null
+    }
+
+    const parsed = Number(splitIndex)
+    if (!Number.isFinite(parsed) || parsed < 0 || parsed > 8) {
+        return null
+    }
+
+    return Math.floor(parsed)
+}
+
+function getFragEntrySplitIndex(fragEntry) {
+    if (!fragEntry || typeof fragEntry !== "object") {
+        return null
+    }
+
+    return normalizeFragSplitIndex(fragEntry.splitIndex)
+}
+
+function getEncounterFragSplitIndex(encounter, fragValue) {
+    if (!encounter || !encounter.fragSplitIndexes || typeof encounter.fragSplitIndexes !== "object") {
+        return null
+    }
+
+    return normalizeFragSplitIndex(encounter.fragSplitIndexes[fragValue])
+}
+
+function activeSplitMatchesFragSplit(splitIndex) {
+    return activeSplit == "all" || activeSplit == "all-simple" || Number(activeSplit) === Number(splitIndex)
+}
+
+function addFragEntryToRowSplit(encRow, splitIndex, fragEntry) {
+    const normalizedSplitIndex = normalizeFragSplitIndex(splitIndex)
+    if (normalizedSplitIndex == null || !activeSplitMatchesFragSplit(normalizedSplitIndex)) {
+        return false
+    }
+
+    encRow[`split${normalizedSplitIndex}`] += 1
+    encRow[`split${normalizedSplitIndex}FragInfo`].push(fragEntry)
+    encRow.totalKo += 1
+    allKos += 1
+    return true
 }
 
 function escapeFragHistoryHtml(value) {
@@ -795,23 +843,31 @@ function mergeFragsForDisplaySpecies(displaySpecies, sourceSpeciesList, encounte
         }
 
         for (let fragIndex = 0; fragIndex < encounter.frags.length; fragIndex++) {
-            let fragValue = encounter.frags[fragIndex]
-            if (typeof fragValue === "undefined") {
+            let rawFragEntry = encounter.frags[fragIndex]
+            let fragValue = getFragEntryValue(rawFragEntry)
+            if (typeof rawFragEntry === "undefined" || !fragValue) {
                 continue
             }
 
-            if (typeof fragSourceMap[fragValue] === "undefined") {
-                fragSourceMap[fragValue] = {
+            let splitIndex = getFragEntrySplitIndex(rawFragEntry)
+            if (splitIndex == null) {
+                splitIndex = getEncounterFragSplitIndex(encounter, fragValue)
+            }
+
+            let fragKey = `${fragValue}::${splitIndex == null ? "" : splitIndex}`
+            if (typeof fragSourceMap[fragKey] === "undefined") {
+                fragSourceMap[fragKey] = {
                     value: fragValue,
-                    sourceSpecies: sourceSpecies
+                    sourceSpecies: sourceSpecies,
+                    splitIndex: splitIndex
                 }
-                mergedFrags.push(fragValue)
+                mergedFrags.push(fragKey)
             }
         }
     }
 
-    return mergedFrags.map(function(fragValue) {
-        return fragSourceMap[fragValue]
+    return mergedFrags.map(function(fragKey) {
+        return fragSourceMap[fragKey]
     })
 }
 
@@ -822,8 +878,7 @@ function dedupeDisplayedFragEntriesByLevel(fragEntries) {
 
     for (let i = 0; i < fragEntries.length; i++) {
         let fragEntry = fragEntries[i]
-        let fragValue = getFragEntryValue(fragEntry)
-        let levelMetadata = parseFragLevelMetadata(fragValue)
+        let levelMetadata = parseFragLevelMetadata(fragEntry)
         let existingEntry = bestEntryByKey[levelMetadata.dedupeKey]
 
         if (!existingEntry) {
@@ -1147,9 +1202,15 @@ function createRowData() {
             let frag = getFragEntryValue(fragEntry)
             let level = extractLevel(frag)
             let trName = extractTrainerName(frag)
+            let splitIndex = getFragEntrySplitIndex(fragEntry)
 
             globalSeenTrainers[trName] ||= true
             seenTrainers[trName] ||= true
+
+            if (splitIndex != null) {
+                addFragEntryToRowSplit(encRow, splitIndex, fragEntry)
+                continue
+            }
 
             for (index in lvlcaps) {
                 let minCap = 0
@@ -1159,17 +1220,11 @@ function createRowData() {
                 }
 
                 if (level <= lvlcaps[index] && level > minCap && (activeSplit == "all" || activeSplit == "all-simple" || activeSplit == index)) {
-                    encRow[`split${index}`] += 1
-                    encRow[`split${index}FragInfo`].push(fragEntry)
-                    encRow.totalKo += 1
-                    allKos += 1
+                    addFragEntryToRowSplit(encRow, index, fragEntry)
                     break
                 }
                 if (index == 8 && level > minCap && (activeSplit == "all" || activeSplit == "all-simple" || activeSplit == 8)) {
-                    encRow[`split8`] += 1
-                    encRow[`split${index}FragInfo`].push(fragEntry)
-                    encRow.totalKo += 1
-                    allKos += 1
+                    addFragEntryToRowSplit(encRow, 8, fragEntry)
                 }
             }
         }
