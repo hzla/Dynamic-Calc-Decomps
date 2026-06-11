@@ -1,5 +1,5 @@
 backup_data = {
-  "title": "Brutal Black",
+  "title": "brutalblackfinal",
   "pok_replacements": {},
   "move_replacements": {},
   "ability_replacements": {},
