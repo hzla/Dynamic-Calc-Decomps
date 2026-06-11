@@ -1888,7 +1888,10 @@ function refresh_next_in() {
 			}
 
 			var firstMoveName = setdex[species][set_name].moves[0]
-			if (firstMoveName && moves[firstMoveName] && moves[firstMoveName].bp == 1) {
+			var isIgnoredPhase2Move = typeof isGen4Phase2IgnoredMove === "function"
+				? isGen4Phase2IgnoredMove(firstMoveName)
+				: firstMoveName && moves[firstMoveName] && (moves[firstMoveName].bp == 1 || moves[firstMoveName].basePower == 1)
+			if (firstMoveName && isIgnoredPhase2Move) {
 				return true
 			}
 		}

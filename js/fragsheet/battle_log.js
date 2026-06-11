@@ -1826,6 +1826,7 @@
             const enc = window.encounters[species];
             if (!enc) continue;
             enc.frags = [];
+            enc.fragSplitIndexes = {};
             enc.fragCount = 0;
             enc.prevoFragCount = 0;
             enc.alive = true;
@@ -1836,6 +1837,7 @@
             const trainerNameWithSpace = buildFragTrainerNamePreserveTrailingSpace(trainerId);
             const sessionLevel = getBattleLogSessionLevel(session);
             const trainerLeadLevel = Number.isFinite(sessionLevel) ? sessionLevel : 10;
+            const sessionSplitIndex = getBattleLogSessionSplitIndex(session);
             const party = Array.isArray(session && session.start && session.start.pParty) ? session.start.pParty : [];
             const events = Array.isArray(session && session.events) ? session.events : [];
 
@@ -1864,10 +1866,19 @@
 
                 const fragEntry = `${aiSpecies} (Lvl ${trainerLeadLevel} ${trainerNameWithSpace})`;
                 const fragList = Array.isArray(window.encounters[pSpecies].frags) ? window.encounters[pSpecies].frags : [];
+                const fragSplitIndexes = (
+                    window.encounters[pSpecies].fragSplitIndexes &&
+                    typeof window.encounters[pSpecies].fragSplitIndexes === "object" &&
+                    !Array.isArray(window.encounters[pSpecies].fragSplitIndexes)
+                ) ? window.encounters[pSpecies].fragSplitIndexes : {};
                 if (fragList.indexOf(fragEntry) === -1) {
                     fragList.push(fragEntry);
                     window.encounters[pSpecies].frags = fragList;
                     window.encounters[pSpecies].fragCount = fragList.length;
+                }
+                if (sessionSplitIndex != null) {
+                    fragSplitIndexes[fragEntry] = sessionSplitIndex;
+                    window.encounters[pSpecies].fragSplitIndexes = fragSplitIndexes;
                 }
             });
         });

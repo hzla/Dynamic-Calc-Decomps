@@ -1,3 +1,168 @@
+function getGen4Phase2MoveTableName(moveName) {
+    if (!moveName) {
+        return moveName
+    }
+    if (/^HP\s+\w+$/.test(moveName) || /^Hidden Power\s+\w+$/.test(moveName)) {
+        return "Hidden Power"
+    }
+    if (moveName == "HP") {
+        return "Hidden Power"
+    }
+    if (moveName == "Sonicboom") {
+        return "Sonic Boom"
+    }
+    return moveName
+}
+
+function getGen4Phase2MoveSources() {
+    var sources = []
+    if (typeof jsonMoves !== "undefined" && jsonMoves) {
+        sources.push(jsonMoves)
+    }
+    if (typeof backup_moves !== "undefined" && backup_moves) {
+        sources.push(backup_moves)
+    }
+    if (typeof moves !== "undefined" && moves) {
+        sources.push(moves)
+    }
+
+    return sources
+}
+
+function getGen4Phase2MoveData(moveName) {
+    var tableName = getGen4Phase2MoveTableName(moveName)
+    var sources = getGen4Phase2MoveSources()
+
+    for (var i = 0; i < sources.length; i++) {
+        var source = sources[i]
+        if (source[tableName]) {
+            return source[tableName]
+        }
+        if (source[moveName]) {
+            return source[moveName]
+        }
+    }
+
+    return null
+}
+
+function getGen4Phase2MovePower(moveName) {
+    var move = getGen4Phase2MoveData(moveName)
+    if (!move) {
+        return NaN
+    }
+    if (typeof move.bp !== "undefined") {
+        return Number(move.bp)
+    }
+    if (typeof move.basePower !== "undefined") {
+        return Number(move.basePower)
+    }
+    if (typeof move.power !== "undefined") {
+        return Number(move.power)
+    }
+    return NaN
+}
+
+var GEN4_PHASE2_SOURCE_POWER_ONE_MOVES = [
+    "Bide",
+    "Counter",
+    "Crush Grip",
+    "Dragon Rage",
+    "Endeavor",
+    "Fissure",
+    "Flail",
+    "Fling",
+    "Frustration",
+    "Grass Knot",
+    "Guillotine",
+    "Gyro Ball",
+    "Hidden Power",
+    "Horn Drill",
+    "Low Kick",
+    "Magnitude",
+    "Metal Burst",
+    "Mirror Coat",
+    "Natural Gift",
+    "Night Shade",
+    "Present",
+    "Psywave",
+    "Punishment",
+    "Return",
+    "Reversal",
+    "Seismic Toss",
+    "Sheer Cold",
+    "SonicBoom",
+    "Sonic Boom",
+    "Spit Up",
+    "Super Fang",
+    "Trump Card",
+    "Wring Out"
+]
+
+function isGen4Phase2IgnoredMove(moveName) {
+    var tableName = getGen4Phase2MoveTableName(moveName)
+    return getGen4Phase2MovePower(moveName) == 1 ||
+        GEN4_PHASE2_SOURCE_POWER_ONE_MOVES.includes(tableName)
+}
+
+function getGen4TrainerPreviewDataId(setId) {
+    if (typeof getTrainerPreviewDataId === "function") {
+        return getTrainerPreviewDataId(setId)
+    }
+    return typeof setId === "string" ? setId.split("[")[0] : ""
+}
+
+function getGen4CurrentOpposingDataId() {
+    if (typeof getOpposingFaintDataId === "function") {
+        return getOpposingFaintDataId()
+    }
+
+    var currentSet = ""
+    var opposingSelector = $(".set-selector.opposing")
+    if (opposingSelector.length) {
+        currentSet = opposingSelector.last().val()
+    }
+    currentSet = currentSet || $("input.opposing").val() || ""
+    return getGen4TrainerPreviewDataId(currentSet)
+}
+
+function isGen4TrainerPreviewFainted(setId, dataId) {
+    if (typeof fainted === "undefined" || !Array.isArray(fainted)) {
+        return false
+    }
+    return fainted.includes(dataId) || fainted.includes(setId)
+}
+
+function getGen4TrainerPreviewPartyIndex(setId, fallbackIndex) {
+    if (typeof setId !== "string") {
+        return fallbackIndex
+    }
+
+    var match = setId.match(/\[(\d+)\]\s*$/)
+    if (!match) {
+        return fallbackIndex
+    }
+
+    return parseInt(match[1])
+}
+
+function getGen4TrainerPoksInPartyOrder(trainerPoks) {
+    return trainerPoks.map(function(setId, originalIndex) {
+        return {
+            setId: setId,
+            originalIndex: originalIndex,
+            partyIndex: getGen4TrainerPreviewPartyIndex(setId, originalIndex)
+        }
+    }).sort(function(a, b) {
+        if (a.partyIndex === b.partyIndex) {
+            return a.originalIndex - b.originalIndex
+        }
+        return a.partyIndex - b.partyIndex
+    }).map(function(entry) {
+        return entry.setId
+    })
+}
+
 function get_next_in_g4() {
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
         return
@@ -64,15 +229,12 @@ function get_next_in_g4() {
 
     var ranked_trainer_poks = []
     var trainer_poks = CURRENT_TRAINER_POKS
+    var trainer_poks_source_order = getGen4TrainerPoksInPartyOrder(trainer_poks)
     var trainer_poks_copy = JSON.parse(JSON.stringify(trainer_poks))
-    var current_opposing_set = $('.set-selector.opposing')[1].value
+    var current_opposing_data_id = getGen4CurrentOpposingDataId()
     var player_type1 = $('.type1').first().val()
     var player_type2 = $('.type2').first().val()
     var player_pok = $('.set-selector.player')[1].value.substring(0, $('.set-selector.player')[1].value.indexOf(" ("))
-
-    function get_trainer_preview_data_id(trainerPok) {
-        return trainerPok.split("[")[0]
-    }
 
     if (player_type2 == "") {
         player_type2 = player_type1
@@ -85,12 +247,7 @@ function get_next_in_g4() {
     var se_mons = []
     var se_mon_ids = []
 
-    // Exact internal stale score source for the Gen 4 bug:
-    // among mons that fail Phase 1, keep the lowest exact 40-based Phase 1 score,
-    // with later party slot winning ties.
-    var lowest_phase1_score_40 = Infinity
-    var lowest_phase1_sub_index = -1
-    var lowest_phase1_mon = ""
+    var phase1_records = []
 
     var p1info = $("#p1");
     var p2info = $("#p2");
@@ -106,9 +263,10 @@ function get_next_in_g4() {
         p1.ability = "Pressure"
     }
 
-    for (var i = 0; i < trainer_poks.length; i++) {
-        var pok_name = trainer_poks[i].split(" (")[0]
-        var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
+    for (var i = 0; i < trainer_poks_source_order.length; i++) {
+        var trainer_pok = trainer_poks_source_order[i]
+        var pok_name = trainer_pok.split(" (")[0]
+        var tr_name = trainer_pok.split(" (")[1].replace(")", "").split("[")[0]
         if (!pokedex[pok_name]) {
             continue
         }
@@ -122,7 +280,10 @@ function get_next_in_g4() {
         var type2 = pokedex[pok_name]["types"][1] || type1
 
         var pok_data = SETDEX_BW[pok_name][tr_name]
-        var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
+        var sub_index = getGen4TrainerPreviewPartyIndex(trainer_pok, i)
+        var trainer_preview_data_id = getGen4TrainerPreviewDataId(trainer_pok)
+        var is_fainted = isGen4TrainerPreviewFainted(trainer_pok, trainer_preview_data_id)
+        var is_current_mon = trainer_preview_data_id && trainer_preview_data_id == current_opposing_data_id
 
         var expYield = Math.floor(Math.floor(expYields[cleanString(pok_name)] * pok_data.level / 7) * 1.5);
 
@@ -258,25 +419,60 @@ function get_next_in_g4() {
             }
 
             if (isSE && !full_immune) {
-                se_mons.push([trainer_poks[i], 0, mov_name, sub_index, pok_data["moves"], effectiveness, '', '', expYield, exact_phase1_score_40])
-                se_mon_ids.push(trainer_poks[i])
+                se_mons.push([trainer_pok, 0, mov_name, sub_index, pok_data["moves"], effectiveness, '', '', expYield, exact_phase1_score_40])
+                se_mon_ids.push(trainer_pok)
                 added_to_se_bucket = true
                 break
             }
         }
 
-        // Track the exact internal stale-score source from mons that fail Phase 1.
-        if (!added_to_se_bucket) {
-            if (
-                exact_phase1_score_40 < lowest_phase1_score_40 ||
-                (exact_phase1_score_40 == lowest_phase1_score_40 && sub_index > lowest_phase1_sub_index)
-            ) {
-                lowest_phase1_score_40 = exact_phase1_score_40
-                lowest_phase1_sub_index = sub_index
-                lowest_phase1_mon = trainer_poks[i]
+        phase1_records.push({
+            partyIndex: sub_index,
+            eligible: !is_fainted && !is_current_mon,
+            hasSuperEffectiveMove: isSE,
+            score: exact_phase1_score_40
+        })
+    }
+
+    function get_g4_phase1_stale_score_40() {
+        var battlersDisregarded = 0
+        var lastScore = null
+
+        while (battlersDisregarded != 0x3F) {
+            var maxScore = 0
+            var pickedRecord = null
+
+            for (var i = 0; i < phase1_records.length; i++) {
+                var record = phase1_records[i]
+
+                if (
+                    record.eligible &&
+                    (battlersDisregarded & (1 << record.partyIndex)) == false
+                ) {
+                    lastScore = record.score
+
+                    if (maxScore < record.score) {
+                        maxScore = record.score
+                        pickedRecord = record
+                    }
+                } else {
+                    battlersDisregarded |= (1 << record.partyIndex)
+                }
+            }
+
+            if (!pickedRecord) {
+                battlersDisregarded = 0x3F
+            } else if (pickedRecord.hasSuperEffectiveMove) {
+                return null
+            } else {
+                battlersDisregarded |= (1 << pickedRecord.partyIndex)
             }
         }
+
+        return lastScore
     }
+
+    var phase1_stale_score_40 = get_g4_phase1_stale_score_40()
 
     // Phase 2: sort rest of mons by using other mons moves with current mon stats
     var other_mons = []
@@ -286,26 +482,26 @@ function get_next_in_g4() {
     // The bug only affects the first Phase 2 mon checked.
     var checked_first_phase2_mon = false
 
-    for (var i = 0; i < trainer_poks.length; i++) {
-        var pok_name = trainer_poks[i].split(" (")[0]
-        var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
-        console.log(pok_name)
+    for (var i = 0; i < trainer_poks_source_order.length; i++) {
+        var trainer_pok = trainer_poks_source_order[i]
+        var pok_name = trainer_pok.split(" (")[0]
+        var tr_name = trainer_pok.split(" (")[1].replace(")", "").split("[")[0]
         var type1 = pokedex[pok_name]["types"][0]
         var type2 = pokedex[pok_name]["types"][1] || type1
         var pok_data = SETDEX_BW[pok_name][tr_name]
-        var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
+        var sub_index = getGen4TrainerPreviewPartyIndex(trainer_pok, i)
 
         expYield = Math.floor(Math.floor(expYields[cleanString(pok_name)] * pok_data.level / 7) * 1.5);
 
 
 
-        if (se_mon_ids.includes(trainer_poks[i])) {
+        if (se_mon_ids.includes(trainer_pok)) {
             continue
         }
 
-        var trainer_preview_data_id = get_trainer_preview_data_id(trainer_poks[i])
-        var is_fainted = fainted.includes(trainer_preview_data_id)
-        var is_current_mon = trainer_poks[i] == current_opposing_set
+        var trainer_preview_data_id = getGen4TrainerPreviewDataId(trainer_pok)
+        var is_fainted = isGen4TrainerPreviewFainted(trainer_pok, trainer_preview_data_id)
+        var is_current_mon = trainer_preview_data_id && trainer_preview_data_id == current_opposing_data_id
         var can_consume_first_phase2_check = !is_fainted && !is_current_mon
 
         var is_first_phase2_mon = can_consume_first_phase2_check && !checked_first_phase2_mon
@@ -337,22 +533,33 @@ function get_next_in_g4() {
             calcingForSwitchIns = false
         }
 
-        var highestDamage = 0
-        var highestDamageName = ""
+        var firstMoveName = pok_data["moves"][0]
+        var firstMoveIgnored = isGen4Phase2IgnoredMove(firstMoveName)
+        var useBuggedFirstMoveDamage = is_first_phase2_mon &&
+            firstMoveIgnored &&
+            phase1_stale_score_40 !== null
+
+        var highestDamage = useBuggedFirstMoveDamage ? phase1_stale_score_40 : 0
+        var highestDamageName = useBuggedFirstMoveDamage ? firstMoveName : ""
 
         for (n in results) {
             var dmg = 0
             var moveName = results[n].move.name
-            var isIgnoredPhase2Move = moves[moveName].bp == 1
+            var rawMoveName = pok_data["moves"][parseInt(n)] || moveName
+            var isIgnoredPhase2Move = isGen4Phase2IgnoredMove(rawMoveName)
             var useBuggedPhase2Damage = false
+
+            if (useBuggedFirstMoveDamage && parseInt(n) === 0) {
+                continue
+            }
 
             if (
                 is_first_phase2_mon &&
                 parseInt(n) === 0 &&
                 isIgnoredPhase2Move &&
-                lowest_phase1_score_40 !== Infinity
+                phase1_stale_score_40 !== null
             ) {
-                dmg = lowest_phase1_score_40
+                dmg = phase1_stale_score_40
                 useBuggedPhase2Damage = true
             } else {
                 if (isIgnoredPhase2Move) {
@@ -374,7 +581,6 @@ function get_next_in_g4() {
                     dmg = Math.floor(dmg / 3)
                 }
             }
-            // console.log(`${p2.name} ${moveName} ${dmg}`)
 
             if (dmg > highestDamage) {
                 highestDamage = dmg
@@ -385,7 +591,7 @@ function get_next_in_g4() {
                 }
             }
         }
-        other_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], highestDamage, highestDamageName, '', expYield, null])
+        other_mons.push([trainer_pok, 0, "", sub_index, pok_data["moves"], highestDamage, highestDamageName, '', expYield, null])
     }
 
     orderedMons = []
@@ -396,7 +602,6 @@ function get_next_in_g4() {
         orderedMons = se_mons.sort(sort_trpoks_g4).concat(other_mons.sort(sort_trpoks_g4))
     }
 
-    console.log(orderedMons)
     return (orderedMons)
 }
 
