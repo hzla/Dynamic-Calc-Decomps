@@ -5124,7 +5124,7 @@ backup_data = {
     },
     "Struggle Bug": {
       "type": "Bug",
-      "basePower": 30,
+      "basePower": 50,
       "category": "Special",
       "pp": 20,
       "accuracy": 100,
@@ -5524,7 +5524,7 @@ backup_data = {
         "Poison"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -5821,7 +5821,7 @@ backup_data = {
         "at": 72,
         "df": 93,
         "sa": 115,
-        "sd": 10,
+        "sd": 100,
         "sp": 80
       },
       "learnset_info": {
@@ -5951,7 +5951,7 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Rawst Berry",
+        "None",
         "None",
         "None"
       ],
@@ -6373,7 +6373,7 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Aspear Berry",
+        "None",
         "None",
         "None"
       ],
@@ -7325,7 +7325,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        15
+        16
       ]
     },
     "Pidgeotto": {
@@ -11735,6 +11735,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Baton Pass",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -15696,7 +15697,7 @@ backup_data = {
         "at": 85,
         "df": 55,
         "sa": 35,
-        "sd": 5,
+        "sd": 55,
         "sp": 75
       },
       "learnset_info": {
@@ -17723,7 +17724,7 @@ backup_data = {
         "Steel"
       ],
       "items": [
-        "None",
+        "Lum Berry",
         "None",
         "None"
       ],
@@ -18357,6 +18358,7 @@ backup_data = {
           "Sunny Day",
           "Baton Pass",
           "Rain Dance",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Brick Break",
@@ -25019,14 +25021,18 @@ backup_data = {
           ],
           [
             15,
+            "Headbutt"
+          ],
+          [
+            18,
             "Body Slam"
           ],
           [
-            20,
+            22,
             "Submission"
           ],
           [
-            25,
+            26,
             "Shadow Claw"
           ],
           [
@@ -25139,14 +25145,18 @@ backup_data = {
           ],
           [
             15,
+            "Headbutt"
+          ],
+          [
+            18,
             "Body Slam"
           ],
           [
-            20,
+            22,
             "Submission"
           ],
           [
-            25,
+            26,
             "Shadow Claw"
           ],
           [
@@ -27548,7 +27558,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "None",
+        "Pecha Berry",
         "None",
         "None"
       ],
@@ -30004,7 +30014,7 @@ backup_data = {
         "Steel"
       ],
       "items": [
-        "None",
+        "Sitrus Berry",
         "None",
         "None"
       ],
@@ -31152,7 +31162,7 @@ backup_data = {
         "Fighting"
       ],
       "items": [
-        "Lum Berry",
+        "None",
         "None",
         "None"
       ],
@@ -33735,14 +33745,14 @@ backup_data = {
         "Hitmontop"
       ],
       "evoMethods": [
-        "Level Requirement + Atk Stat Less Than Def",
-        "Level Requirement + Atk Stat Greater Than Def",
-        "Level Requirement + Atk Stat Equal To Def"
+        "Item Use",
+        "Item Use",
+        "Item Use"
       ],
       "evoParams": [
-        20,
-        20,
-        20
+        "Dawn Stone",
+        "Dusk Stone",
+        "Shiny Stone"
       ]
     },
     "Hitmontop": {
@@ -35971,7 +35981,8 @@ backup_data = {
       "name": "Sceptile",
       "num": 254,
       "types": [
-        "Grass"
+        "Grass",
+        "Dragon"
       ],
       "items": [
         "None",
@@ -36785,6 +36796,7 @@ backup_data = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -36928,6 +36940,7 @@ backup_data = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -39194,12 +39207,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 38,
+        "hp": 58,
         "at": 35,
-        "df": 35,
-        "sa": 65,
-        "sd": 55,
-        "sp": 50
+        "df": 55,
+        "sa": 95,
+        "sd": 75,
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -39925,7 +39938,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "None",
+        "Aspear Berry",
         "None",
         "None"
       ],
@@ -40513,6 +40526,7 @@ backup_data = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Cut",
           "Fly"
         ]
@@ -41418,7 +41432,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "None",
+        "Chesto Berry",
         "None",
         "None"
       ],
@@ -44306,6 +44320,7 @@ backup_data = {
           "Baton Pass",
           "Earth Power",
           "Solar Beam",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -46361,6 +46376,7 @@ backup_data = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Double Team",
@@ -53774,7 +53790,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metronome",
+        "None",
         "None"
       ],
       "bs": {
@@ -53866,7 +53882,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metronome",
+        "None",
         "None"
       ],
       "bs": {
@@ -55678,7 +55694,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "None",
+        "Rawst Berry",
         "None",
         "None"
       ],
@@ -58743,7 +58759,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Haban Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -58823,6 +58839,7 @@ backup_data = {
           "Baton Pass",
           "Rain Dance",
           "Dark Pulse",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -58952,6 +58969,7 @@ backup_data = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -59082,6 +59100,7 @@ backup_data = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -59595,6 +59614,7 @@ backup_data = {
           "Hidden Power",
           "Sunny Day",
           "Baton Pass",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -59709,6 +59729,7 @@ backup_data = {
           "Sunny Day",
           "Hyper Beam",
           "Baton Pass",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -62550,6 +62571,7 @@ backup_data = {
           "Baton Pass",
           "Rain Dance",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -66069,6 +66091,7 @@ backup_data = {
           "Blizzard",
           "Baton Pass",
           "Rain Dance",
+          "Smack Down",
           "Return",
           "Dig",
           "Double Team",
@@ -66209,6 +66232,7 @@ backup_data = {
           "Blizzard",
           "Baton Pass",
           "Rain Dance",
+          "Smack Down",
           "Return",
           "Dig",
           "Double Team",
@@ -66350,6 +66374,7 @@ backup_data = {
           "Hyper Beam",
           "Baton Pass",
           "Rain Dance",
+          "Smack Down",
           "Return",
           "Dig",
           "Double Team",
@@ -69544,6 +69569,7 @@ backup_data = {
           "Hidden Power",
           "Baton Pass",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -69672,6 +69698,7 @@ backup_data = {
           "Hyper Beam",
           "Baton Pass",
           "Earth Power",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Dig",
@@ -80997,6 +81024,7 @@ backup_data = {
           "Rain Dance",
           "Earth Power",
           "Safeguard",
+          "Smack Down",
           "Earthquake",
           "Return",
           "Psychic",
@@ -81135,6 +81163,7 @@ backup_data = {
           "Earth Power",
           "Safeguard",
           "Solar Beam",
+          "Smack Down",
           "Thunderbolt",
           "Earthquake",
           "Return",
@@ -81558,7 +81587,7 @@ backup_data = {
       "name": "Rufflet",
       "num": 627,
       "types": [
-        "Fighting",
+        "Normal",
         "Flying"
       ],
       "items": [
@@ -81582,7 +81611,7 @@ backup_data = {
           ],
           [
             6,
-            "Karate Chop"
+            "Tackle"
           ],
           [
             11,
@@ -81590,7 +81619,7 @@ backup_data = {
           ],
           [
             18,
-            "Double Kick"
+            "Roost"
           ],
           [
             22,
@@ -81598,7 +81627,7 @@ backup_data = {
           ],
           [
             27,
-            "Brick Break"
+            "Headbutt"
           ],
           [
             32,
@@ -81606,7 +81635,7 @@ backup_data = {
           ],
           [
             38,
-            "Submission"
+            "Take Down"
           ],
           [
             42,
@@ -81618,19 +81647,19 @@ backup_data = {
           ],
           [
             50,
-            "Crunch"
-          ],
-          [
-            52,
             "Tailwind"
           ],
           [
+            52,
+            "Superpower"
+          ],
+          [
             57,
-            "Brave Bird"
+            "Double-Edge"
           ],
           [
             62,
-            "Close Combat"
+            "Brave Bird"
           ]
         ],
         "tms": [
@@ -81666,8 +81695,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Defiant",
-        "Sheer Force",
+        "Rock Head",
+        "Reckless",
         "Hustle"
       ],
       "evos": [
@@ -81684,7 +81713,7 @@ backup_data = {
       "name": "Braviary",
       "num": 628,
       "types": [
-        "Fighting",
+        "Normal",
         "Flying"
       ],
       "items": [
@@ -81698,7 +81727,7 @@ backup_data = {
         "df": 90,
         "sa": 57,
         "sd": 75,
-        "sp": 90
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -81708,7 +81737,7 @@ backup_data = {
           ],
           [
             6,
-            "Karate Chop"
+            "Tackle"
           ],
           [
             11,
@@ -81716,7 +81745,7 @@ backup_data = {
           ],
           [
             18,
-            "Double Kick"
+            "Roost"
           ],
           [
             22,
@@ -81724,7 +81753,7 @@ backup_data = {
           ],
           [
             27,
-            "Brick Break"
+            "Headbutt"
           ],
           [
             32,
@@ -81732,7 +81761,7 @@ backup_data = {
           ],
           [
             38,
-            "Submission"
+            "Take Down"
           ],
           [
             42,
@@ -81744,19 +81773,19 @@ backup_data = {
           ],
           [
             50,
-            "Crunch"
-          ],
-          [
-            52,
             "Tailwind"
           ],
           [
+            52,
+            "Superpower"
+          ],
+          [
             57,
-            "Brave Bird"
+            "Double-Edge"
           ],
           [
             62,
-            "Close Combat"
+            "Brave Bird"
           ]
         ],
         "tms": [
@@ -81794,8 +81823,8 @@ backup_data = {
         ]
       },
       "abs": [
-        "Defiant",
-        "Sheer Force",
+        "Rock Head",
+        "Reckless",
         "Hustle"
       ]
     },
@@ -81937,7 +81966,7 @@ backup_data = {
       "bs": {
         "hp": 110,
         "at": 45,
-        "df": 115,
+        "df": 105,
         "sa": 90,
         "sd": 95,
         "sp": 80
@@ -85081,8 +85110,8 @@ backup_data = {
       }
     },
     "Venonat": {
-      "Lvl 1 Lass Mali - Route 2": {
-        "level": 1,
+      "Lvl 12 Lass Mali - Route 2": {
+        "level": 12,
         "ai": 7,
         "noCh": false,
         "tr_id": 2,
@@ -85098,7 +85127,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Modest",
+        "nature": "Bashful",
         "moves": [
           "Acid Spray",
           "",
@@ -87751,7 +87780,7 @@ backup_data = {
       },
       "Lvl 20 PkMn Trainer Cheren5 - Wellspring Cave": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 57,
         "diff": 0,
@@ -88141,7 +88170,7 @@ backup_data = {
       },
       "Lvl 20 PkMn Trainer Cheren4": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 56,
         "diff": 0,
@@ -88563,7 +88592,7 @@ backup_data = {
       },
       "Lvl 20 PkMn Trainer Cheren6 - Route 3": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 58,
         "diff": 0,
@@ -89134,7 +89163,7 @@ backup_data = {
         "moves": [
           "Shadow Ball",
           "Sludge Bomb",
-          "Weather Ball",
+          "Heat Wave",
           "Hypnosis"
         ],
         "sub_index": 4,
@@ -101077,8 +101106,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 Team Plasma Grunt18 - Dragonspiral Tower": {
-        "level": 68,
+      "Lvl 80 Team Plasma Grunt18 - Dragonspiral Tower": {
+        "level": 80,
         "ai": 7,
         "noCh": false,
         "tr_id": 303,
@@ -101094,7 +101123,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
-        "nature": "Mild",
+        "nature": "Hardy",
         "moves": [
           "Shell Smash",
           "Baton Pass",
@@ -101977,7 +102006,7 @@ backup_data = {
     "Pidgeotto": {
       "Lvl 20 PkMn Trainer Cheren4": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 56,
         "diff": 0,
@@ -102009,7 +102038,7 @@ backup_data = {
       },
       "Lvl 20 PkMn Trainer Cheren5 - Wellspring Cave": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 57,
         "diff": 0,
@@ -102041,7 +102070,7 @@ backup_data = {
       },
       "Lvl 20 PkMn Trainer Cheren6 - Route 3": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 58,
         "diff": 0,
@@ -102107,7 +102136,7 @@ backup_data = {
     "Vigoroth": {
       "Lvl 20 PkMn Trainer Cheren4": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 56,
         "diff": 0,
@@ -102139,7 +102168,7 @@ backup_data = {
       },
       "Lvl 20 PkMn Trainer Cheren5 - Wellspring Cave": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 57,
         "diff": 0,
@@ -102171,7 +102200,7 @@ backup_data = {
       },
       "Lvl 20 PkMn Trainer Cheren6 - Route 3": {
         "level": 20,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 58,
         "diff": 0,
@@ -102205,7 +102234,7 @@ backup_data = {
     "Pignite": {
       "Lvl 21 PkMn Trainer Cheren4": {
         "level": 21,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 56,
         "diff": 0,
@@ -102239,7 +102268,7 @@ backup_data = {
     "Dewott": {
       "Lvl 21 PkMn Trainer Cheren5 - Wellspring Cave": {
         "level": 21,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 57,
         "diff": 0,
@@ -102273,7 +102302,7 @@ backup_data = {
     "Servine": {
       "Lvl 21 PkMn Trainer Cheren6 - Route 3": {
         "level": 21,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
         "tr_id": 58,
         "diff": 0,
@@ -104756,6 +104785,200 @@ backup_data = {
         }
       }
     },
+    "Breloom": {
+      "Lvl 24 PkMn Trainer N2 - Nacrene City": {
+        "level": 24,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 65,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Toxic Orb",
+        "nature": "Timid",
+        "moves": [
+          "Giga Drain",
+          "Rock Smash",
+          "Headbutt",
+          "Stun Spore"
+        ],
+        "sub_index": 3,
+        "ability": "Poison Heal",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren8": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 91,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Coba Berry",
+        "nature": "Modest",
+        "moves": [
+          "Drain Punch",
+          "Seed Bomb",
+          "Rock Tomb",
+          "Spore"
+        ],
+        "sub_index": 3,
+        "ability": "Technician",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 77 Veteran Chester - Route 10": {
+        "level": 77,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 178,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Coba Berry",
+        "nature": "Adamant",
+        "moves": [
+          "Seed Bomb",
+          "Thunder Punch",
+          "Spore",
+          "Close Combat"
+        ],
+        "sub_index": 1,
+        "ability": "Technician",
+        "sprite": "./images/trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 72 Biker Phillip - Route 9": {
+        "level": 72,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 180,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Rowap Berry",
+        "nature": "Quiet",
+        "moves": [
+          "Arm Thrust",
+          "Bullet Seed",
+          "Spore",
+          "Rock Blast"
+        ],
+        "sub_index": 4,
+        "ability": "Technician",
+        "sprite": "./images/trainer_sprites/biker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 PkMn Trainer Cheren14 - Route 4": {
+        "level": 36,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 404,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Coba Berry",
+        "nature": "Careful",
+        "moves": [
+          "Force Palm",
+          "Rock Tomb",
+          "Bullet Seed",
+          "Spore"
+        ],
+        "sub_index": 3,
+        "ability": "Technician",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 71 Elite Four Marshal2 - Pokemon League": {
+        "level": 71,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 564,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Bold",
+        "moves": [
+          "Mach Punch",
+          "Spore",
+          "Grass Knot",
+          "Sky Uppercut"
+        ],
+        "sub_index": 0,
+        "ability": "Technician",
+        "sprite": "./images/trainer_sprites/elite_four.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Mienfoo": {
       "Lvl 24 PkMn Trainer N2 - Nacrene City": {
         "level": 24,
@@ -104781,7 +105004,7 @@ backup_data = {
           "Fake Out",
           "Vacuum Wave"
         ],
-        "sub_index": 3,
+        "sub_index": 4,
         "ability": "Inner Focus",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
@@ -104879,7 +105102,7 @@ backup_data = {
           "Flash Cannon",
           "Tri Attack"
         ],
-        "sub_index": 4,
+        "sub_index": 5,
         "ability": "Sturdy",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
@@ -111236,13 +111459,13 @@ backup_data = {
         "item": "Choice Scarf",
         "nature": "Adamant",
         "moves": [
-          "Close Combat",
+          "Head Charge",
           "Brave Bird",
-          "",
+          "Superpower",
           ""
         ],
         "sub_index": 4,
-        "ability": "Defiant",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -111268,13 +111491,13 @@ backup_data = {
         "item": "None",
         "nature": "Hardy",
         "moves": [
-          "Close Combat",
           "Brave Bird",
-          "Tailwind",
-          "Crunch"
+          "Double-Edge",
+          "Superpower",
+          "Tailwind"
         ],
         "sub_index": 4,
-        "ability": "Defiant",
+        "ability": "Rock Head",
         "sprite": "./images/trainer_sprites/seven_sage.png",
         "form": 0,
         "evs": {
@@ -111306,7 +111529,7 @@ backup_data = {
           "Retaliate"
         ],
         "sub_index": 3,
-        "ability": "Defiant",
+        "ability": "Rock Head",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -114782,168 +115005,6 @@ backup_data = {
         "sub_index": 5,
         "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Breloom": {
-      "Lvl 44 PkMn Trainer Cheren8": {
-        "level": 44,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 91,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Coba Berry",
-        "nature": "Modest",
-        "moves": [
-          "Drain Punch",
-          "Seed Bomb",
-          "Rock Tomb",
-          "Spore"
-        ],
-        "sub_index": 3,
-        "ability": "Technician",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 77 Veteran Chester - Route 10": {
-        "level": 77,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 178,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Coba Berry",
-        "nature": "Adamant",
-        "moves": [
-          "Seed Bomb",
-          "Thunder Punch",
-          "Spore",
-          "Close Combat"
-        ],
-        "sub_index": 1,
-        "ability": "Technician",
-        "sprite": "./images/trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 72 Biker Phillip - Route 9": {
-        "level": 72,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 180,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Rowap Berry",
-        "nature": "Quiet",
-        "moves": [
-          "Arm Thrust",
-          "Bullet Seed",
-          "Spore",
-          "Rock Blast"
-        ],
-        "sub_index": 4,
-        "ability": "Technician",
-        "sprite": "./images/trainer_sprites/biker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 PkMn Trainer Cheren14 - Route 4": {
-        "level": 36,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 404,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Coba Berry",
-        "nature": "Careful",
-        "moves": [
-          "Force Palm",
-          "Rock Tomb",
-          "Bullet Seed",
-          "Spore"
-        ],
-        "sub_index": 3,
-        "ability": "Technician",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 71 Elite Four Marshal2 - Pokemon League": {
-        "level": 71,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 564,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Bold",
-        "moves": [
-          "Mach Punch",
-          "Spore",
-          "Grass Knot",
-          "Sky Uppercut"
-        ],
-        "sub_index": 0,
-        "ability": "Technician",
-        "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -119853,7 +119914,7 @@ backup_data = {
           "Zen Headbutt"
         ],
         "sub_index": 2,
-        "ability": "Sheer Force",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -119879,13 +119940,13 @@ backup_data = {
         "item": "Choice Band",
         "nature": "Hasty",
         "moves": [
-          "Close Combat",
-          "Sky Attack",
+          "Double-Edge",
+          "Brave Bird",
           "",
           ""
         ],
         "sub_index": 3,
-        "ability": "Defiant",
+        "ability": "Rock Head",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
