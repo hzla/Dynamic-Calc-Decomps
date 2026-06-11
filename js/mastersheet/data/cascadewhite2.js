@@ -391,24 +391,6 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "When determining BP for Switch AI, the AI will apply up to +-50% modifier depending on the defensive matchup into the target.",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "When determining BP for Switch AI, the AI will apply up to +-50% modifier depending on the defensive matchup into the target."
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
-  },
-  {
     "content": "When simulating damage for moves, the AI can now see the correct damage for moves with variable BP (Hex, Electro Ball, Flail, etc.)",
     "content_parts": [
       {
@@ -450,6 +432,24 @@ masterData =
       {
         "type": "text",
         "text": "The AI now has a high chance to switch out mid-turn if it is locked into a move that deals low damage via Encore or Choice Items."
+      }
+    ],
+    "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "The AI has the same mid-turn switch AI triggers as Gen 4 (can switch into a Pokémon that resists that last move received and has a super effective move IF they moved before the target last turn)",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "The AI has the same mid-turn switch AI triggers as Gen 4 (can switch into a Pokémon that resists that last move received and has a super effective move IF they moved before the target last turn)"
       }
     ],
     "tag": "li"
@@ -2188,11 +2188,11 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Rival Fight (Rewards 20x Green Shards)",
+    "content": "Rival Fight (Rewards 10x Green Shards)",
     "content_parts": [
       {
         "type": "text",
-        "text": "Rival Fight (Rewards 20x Green Shards)"
+        "text": "Rival Fight (Rewards 10x Green Shards)"
       }
     ],
     "tag": "h3"
@@ -3530,6 +3530,58 @@ masterData =
       null,
       null
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Virbank Preschool",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Virbank Preschool"
+      }
+    ],
+    "tag": "h2"
+  },
+  {
+    "tag": "notif",
+    "notificationTitle": "NEW ENCOUNTER",
+    "text": "Virbank Preschool is a new met location distinct from the Virbank Complex. Simply interact with the shelves in the back of the room!",
+    "fontColor": "#469e62"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 29,
+    "tag": "encounter"
   },
   {
     "content": "",
@@ -10324,7 +10376,7 @@ masterData =
   {
     "tag": "notif",
     "notificationTitle": "WARNING",
-    "text": "The Strange Statue's Pokemon have 0 Speed IVs.",
+    "text": "The Strange Statue's Pokémon have 0 Speed IVs.",
     "fontColor": "#f26253"
   },
   {
@@ -10770,47 +10822,8 @@ masterData =
   {
     "class": "mand",
     "id": 292,
-    "notes": [
-      "Choose",
-      "One",
-      "(Left",
-      "Path)"
-    ],
-    "notes_parts": [
-      {
-        "type": "text",
-        "text": "Choose One (Left Path)"
-      }
-    ],
+    "notes": [],
     "tag": "trainer"
-  },
-  {
-    "class": "mand",
-    "id": 410,
-    "notes": [
-      "Choose",
-      "One",
-      "(Right",
-      "Path,",
-      "through",
-      "doubles",
-      "grass)"
-    ],
-    "notes_parts": [
-      {
-        "type": "text",
-        "text": "Choose One (Right Path, through doubles grass)"
-      }
-    ],
-    "tag": "trainer"
-  },
-  {
-    "content": "",
-    "content_parts": {
-      "type": "text",
-      "text": ""
-    },
-    "tag": "p"
   },
   {
     "content": "",
@@ -12680,7 +12693,7 @@ masterData =
       "covert cloak"
     ],
     "itemDescriptions": [
-      "2x IV Enhancers",
+      "1x IV Enhancers",
       "1x Rash Mint",
       "1x Careful Mint",
       "Covert Cloak"
@@ -14608,7 +14621,7 @@ masterData =
     ],
     "itemDescriptions": [
       "Ability Drill",
-      "x2 IV Enhancer",
+      "x1 IV Enhancer",
       "x1 Lonely Mint",
       "x1 Impish Mint"
     ]
@@ -16037,7 +16050,7 @@ encountersById =
       "Swablu",
       "Qwilfish",
       "Sharpedo",
-      "Wailmer",
+      "Crawdaunt",
       "Swellow",
       "Gulpin",
       "Grimer",
@@ -16218,7 +16231,7 @@ encountersById =
       "Abra",
       "Meditite"
     ],
-    "name": "Floccesy Town"
+    "name": "Lentimas Town"
   },
   {
     "wilds": [
@@ -16239,11 +16252,11 @@ encountersById =
       "Delibird",
       "Tyrogue",
       "Glameow",
-      "Pichu",
-      "Drifloon",
+      "Smeargle",
+      "Lickitung",
       "Rotom",
       "Riolu",
-      "Shuppet"
+      "Ditto"
     ],
     "name": "Pokestar Studios"
   },
@@ -16396,14 +16409,14 @@ encountersById =
   {
     "wilds": [
       "Wurmple",
-      "Spinarak",
-      "Bellsprout",
       "Ledyba",
-      "Seedot",
-      "Paras",
+      "Bellsprout",
+      "Spinarak",
+      "Budew",
+      "Venonat",
       "Krabby",
       "Surskit",
-      "Budew",
+      "Paras",
       "Kakuna",
       "Yanma"
     ],
@@ -16461,11 +16474,17 @@ encountersById =
   },
   {
     "wilds": [
-      "Golurk",
-      "Mienshao",
-      "Druddigon"
+      "Snubbull",
+      "Lillipup",
+      "Igglybuff",
+      "Skitty",
+      "Minccino",
+      "Buneary",
+      "Bonsly",
+      "Drifloon",
+      "Shuppet"
     ],
-    "name": "Dragonspiral Tower"
+    "name": "Virbank Preschool"
   },
   {
     "wilds": [
@@ -18460,26 +18479,26 @@ trainersById =
     "type": "Singles"
   },
   {
-    "ivs_0": 255,
+    "ivs_0": 249,
     "ability_0": 1,
     "level_0": 50,
     "padding_0": 0,
-    "species_id_0": "MEW",
+    "species_id_0": "VOLCARONA",
     "form_0": 0,
-    "item_id_0": "Leftovers",
-    "move_1_0": "PROTECT",
-    "move_2_0": "INGRAIN",
+    "item_id_0": "Tera Sash",
+    "move_1_0": "HEAT WAVE",
+    "move_2_0": "-----",
     "move_3_0": "-----",
     "move_4_0": "-----",
     "count": 1,
     "gender_0": "Default",
     "template": 3,
-    "nature_0": "Docile",
-    "ability_name_0": "Synchronize",
+    "nature_0": "Naive",
+    "ability_name_0": "Blaze",
     "tr_sprite": "trainer_sprites/smasher.png",
     "name": "Elena",
     "raw": null,
-    "raw_species_id_0": 151,
+    "raw_species_id_0": 637,
     "raw_species_id_1": null,
     "raw_species_id_2": null,
     "raw_species_id_3": null,
@@ -18621,7 +18640,7 @@ trainersById =
     "nature_3": "Lax",
     "ability_name_3": "-",
     "nature_4": "Sassy",
-    "ability_name_4": "-",
+    "ability_name_4": "Pickup",
     "raw": null,
     "raw_species_id_0": 620,
     "raw_species_id_1": 128,
@@ -18870,11 +18889,11 @@ trainersById =
     "nature_1": "Hasty",
     "ability_name_1": "Illusion",
     "nature_2": "Gentle",
-    "ability_name_2": "-",
+    "ability_name_2": "Intimidate",
     "nature_3": "Careful",
-    "ability_name_3": "-",
+    "ability_name_3": "Sniper",
     "nature_4": "Quiet",
-    "ability_name_4": "-",
+    "ability_name_4": "Sheer Force",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": 97,
@@ -18954,13 +18973,13 @@ trainersById =
     "tr_sprite": "trainer_sprites/worker.png",
     "name": "Matthew",
     "nature_1": "Docile",
-    "ability_name_1": "Patient",
+    "ability_name_1": "Illumination",
     "nature_2": "Serious",
     "ability_name_2": "Sturdy",
     "nature_3": "Gentle",
     "ability_name_3": "Iron Fist",
     "nature_4": "Docile",
-    "ability_name_4": "Reckless",
+    "ability_name_4": "Unburden",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": 504,
@@ -19042,7 +19061,7 @@ trainersById =
     "nature_1": "Bold",
     "ability_name_1": "Illumination",
     "nature_2": "Bashful",
-    "ability_name_2": "Sturdy",
+    "ability_name_2": "Quick Feet",
     "nature_3": "Docile",
     "ability_name_3": "Iron Fist",
     "nature_4": "Hardy",
@@ -19140,11 +19159,11 @@ trainersById =
     "nature_1": "Naive",
     "ability_name_1": "Illumination",
     "nature_2": "Naive",
-    "ability_name_2": "Illumination",
+    "ability_name_2": "Patient",
     "nature_3": "Mild",
-    "ability_name_3": "Sturdy",
+    "ability_name_3": "Quick Feet",
     "nature_4": "Careful",
-    "ability_name_4": "Magic Guard",
+    "ability_name_4": "Trace",
     "nature_5": "Modest",
     "ability_name_5": "Iron Fist",
     "raw": null,
@@ -19324,9 +19343,9 @@ trainersById =
     "nature_3": "Impish",
     "ability_name_3": "Determined",
     "nature_4": "Adamant",
-    "ability_name_4": "Ice Body",
+    "ability_name_4": "-",
     "nature_5": "Quirky",
-    "ability_name_5": "Hustle",
+    "ability_name_5": "Scrappy",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": 76,
@@ -19911,7 +19930,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/clerkm.png",
     "name": "Fredric",
     "nature_1": "Brave",
-    "ability_name_1": "Reckless",
+    "ability_name_1": "Quick Feet",
     "nature_2": "Docile",
     "ability_name_2": "Iron Fist",
     "nature_3": "Bold",
@@ -19968,11 +19987,11 @@ trainersById =
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Lonely",
-    "ability_name_0": "Illumination",
+    "ability_name_0": "Forewarn",
     "tr_sprite": "trainer_sprites/backers.png",
     "name": "Hawk & Dar",
     "nature_1": "Sassy",
-    "ability_name_1": "Levitate",
+    "ability_name_1": "Unnerve",
     "nature_2": "Naive",
     "ability_name_2": "Levitate",
     "raw": null,
@@ -20045,7 +20064,7 @@ trainersById =
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Naive",
-    "ability_name_0": "Illumination",
+    "ability_name_0": "Forewarn",
     "tr_sprite": "trainer_sprites/backers.png",
     "name": "Joe & Ross",
     "nature_1": "Naughty",
@@ -20312,9 +20331,9 @@ trainersById =
     "tr_sprite": "trainer_sprites/pokemonranger.png",
     "name": "Alain",
     "nature_1": "Sassy",
-    "ability_name_1": "Levitate",
+    "ability_name_1": "Patient",
     "nature_2": "Naive",
-    "ability_name_2": "Sturdy",
+    "ability_name_2": "Heatproof",
     "raw": null,
     "raw_species_id_0": 169,
     "raw_species_id_1": 455,
@@ -20369,7 +20388,7 @@ trainersById =
     "nature_1": "Serious",
     "ability_name_1": "Flare Boost",
     "nature_2": "Gentle",
-    "ability_name_2": "Patient",
+    "ability_name_2": "-",
     "raw": null,
     "raw_species_id_0": 151,
     "raw_species_id_1": 426,
@@ -20724,11 +20743,11 @@ trainersById =
     "gender_1": "Default",
     "template": 0,
     "nature_0": "Mild",
-    "ability_name_0": "Pickup",
+    "ability_name_0": "Exploit",
     "tr_sprite": "trainer_sprites/socialite.png",
     "name": "Cassandra",
     "nature_1": "Adamant",
-    "ability_name_1": "Intimidate",
+    "ability_name_1": "Sheer Force",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": 24,
@@ -21106,13 +21125,13 @@ trainersById =
     "nature_1": "Quiet",
     "ability_name_1": "Mold Breaker",
     "nature_2": "Impish",
-    "ability_name_2": "Strong Body",
+    "ability_name_2": "Infiltrator",
     "nature_3": "Calm",
     "ability_name_3": "Sheer Force",
     "nature_4": "Quiet",
     "ability_name_4": "Sturdy",
     "nature_5": "Modest",
-    "ability_name_5": "Thick Fat",
+    "ability_name_5": "Scrappy",
     "raw": null,
     "raw_species_id_0": 286,
     "raw_species_id_1": 530,
@@ -21318,7 +21337,7 @@ trainersById =
     "gender_0": "Default",
     "template": 0,
     "nature_0": "Adamant",
-    "ability_name_0": "Rivalry",
+    "ability_name_0": "Unburden",
     "tr_sprite": "trainer_sprites/richboy.png",
     "name": "Martin",
     "raw": null,
@@ -22733,7 +22752,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/backers.png",
     "name": "Joe & Ross",
     "nature_1": "Timid",
-    "ability_name_1": "Sap Sipper",
+    "ability_name_1": "Reckless",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": 523,
@@ -22767,7 +22786,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/backers.png",
     "name": "Joe & Ross",
     "nature_1": "Naughty",
-    "ability_name_1": "Sap Sipper",
+    "ability_name_1": "Reckless",
     "raw": null,
     "raw_species_id_0": 593,
     "raw_species_id_1": 523,
@@ -22899,11 +22918,11 @@ trainersById =
     "gender_1": "Default",
     "template": 0,
     "nature_0": "Gentle",
-    "ability_name_0": "Overgrow",
+    "ability_name_0": "Unburden",
     "tr_sprite": "trainer_sprites/backers.png",
     "name": "Alf & Fred",
     "nature_1": "Adamant",
-    "ability_name_1": "Defiant",
+    "ability_name_1": "Heavy Metal",
     "raw": null,
     "raw_species_id_0": 512,
     "raw_species_id_1": 625,
@@ -23073,7 +23092,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/backersf.png",
     "name": "Cam & Abby",
     "nature_1": "Gentle",
-    "ability_name_1": "Patient",
+    "ability_name_1": "Rivalry",
     "raw": null,
     "raw_species_id_0": 539,
     "raw_species_id_1": 538,
@@ -23227,7 +23246,7 @@ trainersById =
     "nature_1": "Naughty",
     "ability_name_1": "Shell Armor",
     "nature_2": "Docile",
-    "ability_name_2": "Marvel Scale",
+    "ability_name_2": "Resilient",
     "raw": null,
     "raw_species_id_0": 117,
     "raw_species_id_1": 372,
@@ -23313,7 +23332,7 @@ trainersById =
     "nature_1": "Naive",
     "ability_name_1": "Storm Drain",
     "nature_2": "Impish",
-    "ability_name_2": "Intimidate",
+    "ability_name_2": "Unnerve",
     "raw": null,
     "raw_species_id_0": 124,
     "raw_species_id_1": 134,
@@ -23350,11 +23369,11 @@ trainersById =
     "gender_2": "Default",
     "template": 0,
     "nature_0": "Hasty",
-    "ability_name_0": "Keen Senses",
+    "ability_name_0": "Technician",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Charlie",
     "nature_1": "Hasty",
-    "ability_name_1": "Overgrow",
+    "ability_name_1": "Chlorophyll",
     "nature_2": "Gentle",
     "ability_name_2": "Thick Fat",
     "raw": null,
@@ -23416,7 +23435,7 @@ trainersById =
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Lonely",
-    "ability_name_0": "Lightningrod",
+    "ability_name_0": "Galvanize",
     "tr_sprite": "trainer_sprites/veteran.png",
     "name": "Arlen",
     "nature_1": "Adamant",
@@ -23488,9 +23507,9 @@ trainersById =
     "tr_sprite": "trainer_sprites/veteranf.png",
     "name": "Sayuri",
     "nature_1": "Naughty",
-    "ability_name_1": "Gooey",
+    "ability_name_1": "Solid Rock",
     "nature_2": "Docile",
-    "ability_name_2": "Permafrost",
+    "ability_name_2": "Majestic Ward",
     "nature_3": "Bold",
     "ability_name_3": "Marvel Scale",
     "raw": null,
@@ -24146,9 +24165,9 @@ trainersById =
     "nature_2": "Gentle",
     "ability_name_2": "Tough Claws",
     "nature_3": "Docile",
-    "ability_name_3": "Huge Power",
+    "ability_name_3": "-",
     "nature_4": "Serious",
-    "ability_name_4": "Illumination",
+    "ability_name_4": "-",
     "raw": null,
     "raw_species_id_0": 19,
     "raw_species_id_1": 161,
@@ -24836,7 +24855,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/policeman.png",
     "name": "Jeff",
     "nature_1": "Bold",
-    "ability_name_1": "Reckless",
+    "ability_name_1": "Regenerator",
     "raw": null,
     "raw_species_id_0": 59,
     "raw_species_id_1": 620,
@@ -25290,11 +25309,11 @@ trainersById =
     "nature_2": "Adamant",
     "ability_name_2": "Blaze",
     "nature_3": "Modest",
-    "ability_name_3": "Overgrow",
+    "ability_name_3": "Sap Sipper",
     "nature_4": "Naive",
-    "ability_name_4": "Keen Senses",
+    "ability_name_4": "-",
     "nature_5": "Adamant",
-    "ability_name_5": "Sap Sipper",
+    "ability_name_5": "-",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": 516,
@@ -25324,7 +25343,7 @@ trainersById =
     "gender_1": "Default",
     "template": 0,
     "nature_0": "Naughty",
-    "ability_name_0": "No Guard",
+    "ability_name_0": "Motor Drive",
     "tr_sprite": "trainer_sprites/maid.png",
     "name": "Tanya",
     "nature_1": "Impish",
@@ -26939,7 +26958,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/drayden.png",
     "name": "Drayden",
     "nature_1": "Lax",
-    "ability_name_1": "Keen Senses",
+    "ability_name_1": "Sand Rush",
     "nature_2": "Lonely",
     "ability_name_2": "Rivalry",
     "raw": null,
@@ -27386,8 +27405,8 @@ trainersById =
     "move_2_0": "PLUCK",
     "move_3_0": "SCREECH",
     "move_4_0": "QUICK ATTACK",
-    "ivs_1": 238,
-    "ability_1": 2,
+    "ivs_1": 255,
+    "ability_1": 3,
     "level_1": 10,
     "padding_1": 0,
     "species_id_1": "BUIZEL",
@@ -27426,8 +27445,8 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/rival.png",
     "name": "Rival",
-    "nature_1": "Timid",
-    "ability_name_1": "Technician",
+    "nature_1": "Quirky",
+    "ability_name_1": "Swift Swim",
     "nature_2": "Naive",
     "ability_name_2": "Flame Body",
     "nature_3": "Serious",
@@ -28143,7 +28162,7 @@ trainersById =
     "move_2_1": "DISARMING VOICE",
     "move_3_1": "MEGA DRAIN",
     "move_4_1": "POISON GAS",
-    "ivs_2": 255,
+    "ivs_2": 211,
     "ability_2": 2,
     "level_2": 20,
     "padding_2": 0,
@@ -28189,7 +28208,7 @@ trainersById =
     "name": "Billy Jo",
     "nature_1": "Serious",
     "ability_name_1": "Solar Power",
-    "nature_2": "Quiet",
+    "nature_2": "Sassy",
     "ability_name_2": "Strong Body",
     "nature_3": "Bold",
     "ability_name_3": "Unnerve",
@@ -28802,7 +28821,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/bosstrainer.png",
     "name": "Daneil",
     "nature_1": "Quiet",
-    "ability_name_1": "Poison Heal",
+    "ability_name_1": "Toxic Boost",
     "nature_2": "Modest",
     "ability_name_2": "Tough Claws",
     "raw": null,
@@ -29320,13 +29339,13 @@ trainersById =
     "gender_2": "Default",
     "template": 3,
     "nature_0": "Quirky",
-    "ability_name_0": "Iron Fist",
+    "ability_name_0": "Exploit",
     "tr_sprite": "trainer_sprites/bosstrainer.png",
     "name": "Harmony",
     "nature_1": "Modest",
     "ability_name_1": "Unnerve",
     "nature_2": "Quirky",
-    "ability_name_2": "Prankster",
+    "ability_name_2": "-",
     "raw": null,
     "raw_species_id_0": 392,
     "raw_species_id_1": 567,
@@ -29382,7 +29401,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/bosstrainer.png",
     "name": "Iria",
     "nature_1": "Timid",
-    "ability_name_1": "Turboblaze",
+    "ability_name_1": " -",
     "nature_2": "Mild",
     "ability_name_2": "Majestic Ward",
     "raw": null,
@@ -29494,11 +29513,11 @@ trainersById =
     "gender_2": "Default",
     "template": 3,
     "nature_0": "Hasty",
-    "ability_name_0": "Levitate",
+    "ability_name_0": " -",
     "tr_sprite": "trainer_sprites/benga.png",
     "name": "Benga",
     "nature_1": "Serious",
-    "ability_name_1": "Marvel Scale",
+    "ability_name_1": "Majestic Ward",
     "nature_2": "Relaxed",
     "ability_name_2": "Blaze",
     "raw": null,
@@ -29746,7 +29765,7 @@ trainersById =
     "padding_1": 0,
     "species_id_1": "COMBUSKEN",
     "form_1": 0,
-    "item_id_1": "Eviolite",
+    "item_id_1": "Charti Berry",
     "move_1_1": "FLAME WHEEL",
     "move_2_1": "DOUBLE KICK",
     "move_3_1": "PLUCK",
@@ -30626,7 +30645,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/hooligans.png",
     "name": "Rob & Sal",
     "nature_1": "Modest",
-    "ability_name_1": "Chlorophyll",
+    "ability_name_1": "Overgrow",
     "raw": null,
     "raw_species_id_0": 546,
     "raw_species_id_1": 548,
@@ -31201,7 +31220,7 @@ trainersById =
     "gender_0": "Default",
     "template": 0,
     "nature_0": "Modest",
-    "ability_name_0": "Shed Skin",
+    "ability_name_0": "-",
     "tr_sprite": "trainer_sprites/linebacker.png",
     "name": "Jonah",
     "raw": null,
@@ -31711,7 +31730,7 @@ trainersById =
     "gender_0": "Default",
     "template": 0,
     "nature_0": "Bashful",
-    "ability_name_0": "Sturdy",
+    "ability_name_0": "Chlorophyll",
     "tr_sprite": "trainer_sprites/striker.png",
     "name": "Marco",
     "raw": null,
@@ -37595,7 +37614,7 @@ trainersById =
     "nature_2": "Adamant",
     "ability_name_2": "Sheer Force",
     "nature_3": "Timid",
-    "ability_name_3": "Exploit",
+    "ability_name_3": "Trace",
     "nature_4": "Bold",
     "ability_name_4": "Shadow Tag",
     "raw": null,
@@ -37782,13 +37801,13 @@ trainersById =
     "ability_3": 5,
     "level_3": 60,
     "padding_3": 0,
-    "species_id_3": "WORMADAM",
-    "form_3": 0,
-    "item_id_3": "Tera W-Policy",
+    "species_id_3": "WORMADAM-TRASH",
+    "form_3": 2,
+    "item_id_3": "Absorb Bulb",
     "move_1_3": "FAIRY WIND",
     "move_2_3": "STORED POWER",
     "move_3_3": "SILVER WIND",
-    "move_4_3": "DEFEND ORDER",
+    "move_4_3": "QUIVER DANCE",
     "ivs_4": 255,
     "ability_4": 3,
     "level_4": 60,
@@ -37807,17 +37826,17 @@ trainersById =
     "gender_3": "Default",
     "gender_4": "Default",
     "template": 3,
-    "nature_0": "Rash",
+    "nature_0": "Gentle",
     "ability_name_0": "Wind Rider",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "tr_sprite": "trainer_sprites/fisherman.png",
     "name": "Doyle",
-    "nature_1": "Gentle",
+    "nature_1": "Careful",
     "ability_name_1": "Torrent",
     "nature_2": "Hasty",
     "ability_name_2": "Adaptability",
-    "nature_3": "Bold",
+    "nature_3": "Docile",
     "ability_name_3": "Sturdy",
-    "nature_4": "Calm",
+    "nature_4": "Relaxed",
     "ability_name_4": "Huge Power",
     "raw": null,
     "raw_species_id_0": 547,
@@ -37827,7 +37846,7 @@ trainersById =
     "raw_species_id_4": 121,
     "raw_species_id_5": null,
     "index": 350,
-    "class": "Ace Trainer",
+    "class": "Fisherman",
     "type": "Doubles"
   },
   {
@@ -37870,9 +37889,9 @@ trainersById =
     "padding_3": 0,
     "species_id_3": "CRAWDAUNT",
     "form_3": 0,
-    "item_id_3": "Tera Orb",
-    "move_1_3": "AQUA JET",
-    "move_2_3": "CRABHAMMER",
+    "item_id_3": "Quick Claw",
+    "move_1_3": "CLAMP",
+    "move_2_3": "GUILLOTINE",
     "move_3_3": "KNOCK OFF",
     "move_4_3": "DRAGON DANCE",
     "ivs_4": 255,
@@ -37893,17 +37912,17 @@ trainersById =
     "gender_3": "Default",
     "gender_4": "Default",
     "template": 3,
-    "nature_0": "Naive",
+    "nature_0": "Sassy",
     "ability_name_0": "Intimidate",
-    "tr_sprite": "trainer_sprites/acetrainerf.png",
+    "tr_sprite": "trainer_sprites/parasollady.png",
     "name": "Melina",
-    "nature_1": "Hasty",
+    "nature_1": "Bashful",
     "ability_name_1": "Swift Swim",
-    "nature_2": "Quiet",
+    "nature_2": "Docile",
     "ability_name_2": "Levitate",
-    "nature_3": "Serious",
+    "nature_3": "Jolly",
     "ability_name_3": "Adaptability",
-    "nature_4": "Timid",
+    "nature_4": "Bashful",
     "ability_name_4": "Skill Link",
     "raw": null,
     "raw_species_id_0": 284,
@@ -37913,7 +37932,7 @@ trainersById =
     "raw_species_id_4": 141,
     "raw_species_id_5": null,
     "index": 351,
-    "class": "Ace Trainer",
+    "class": "Parasol Lady",
     "type": "Singles"
   },
   {
@@ -38097,7 +38116,7 @@ trainersById =
     "form_0": 0,
     "item_id_0": "Focus Sash",
     "move_1_0": "SCALD",
-    "move_2_0": "STEALTH ROCK",
+    "move_2_0": "ANCIENTPOWER",
     "move_3_0": "SPIKES",
     "move_4_0": "BANEFUL BUNKER",
     "ivs_1": 255,
@@ -38128,7 +38147,7 @@ trainersById =
     "padding_3": 0,
     "species_id_3": "SIMIPOUR",
     "form_3": 0,
-    "item_id_3": "Tera Powder",
+    "item_id_3": "BrightPowder",
     "move_1_3": "WATER SPOUT",
     "move_2_3": "BOOMBURST",
     "move_3_3": "SCALD",
@@ -38151,17 +38170,17 @@ trainersById =
     "gender_3": "Default",
     "gender_4": "Default",
     "template": 3,
-    "nature_0": "Sassy",
+    "nature_0": "Gentle",
     "ability_name_0": "Swift Swim",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "tr_sprite": "trainer_sprites/fisherman.png",
     "name": "Santino",
-    "nature_1": "Bashful",
+    "nature_1": "Naughty",
     "ability_name_1": "Swift Swim",
     "nature_2": "Hasty",
     "ability_name_2": "Illumination",
-    "nature_3": "Sassy",
+    "nature_3": "Quirky",
     "ability_name_3": "Torrent",
-    "nature_4": "Sassy",
+    "nature_4": "Gentle",
     "ability_name_4": "Huge Power",
     "raw": null,
     "raw_species_id_0": 139,
@@ -38171,7 +38190,7 @@ trainersById =
     "raw_species_id_4": 184,
     "raw_species_id_5": null,
     "index": 354,
-    "class": "Ace Trainer",
+    "class": "Fisherman",
     "type": "Singles"
   },
   {
@@ -62282,6 +62301,7 @@ trainersById =
     "type": "Singles"
   }
 ]
+
 highlights =
 {
   "new": {
