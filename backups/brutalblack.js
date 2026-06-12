@@ -1,5 +1,5 @@
 backup_data = {
-  "title": "brutalblackfinal",
+  "title": "Brutal Black",
   "pok_replacements": {},
   "move_replacements": {},
   "ability_replacements": {},
@@ -55700,10 +55700,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 55,
-        "at": 65,
-        "df": 35,
-        "sa": 60,
-        "sd": 30,
+        "at": 75,
+        "df": 45,
+        "sa": 70,
+        "sd": 40,
         "sp": 85
       },
       "learnset_info": {
@@ -55722,7 +55722,7 @@ backup_data = {
           ],
           [
             10,
-            "Headbutt"
+            "Quick Attack"
           ],
           [
             15,
@@ -55851,7 +55851,7 @@ backup_data = {
           ],
           [
             10,
-            "Headbutt"
+            "Quick Attack"
           ],
           [
             15,
@@ -68526,8 +68526,8 @@ backup_data = {
         ]
       },
       "abs": [
+        "Big Pecks",
         "Unburden",
-        "Super Luck",
         "Rivalry"
       ],
       "evos": [
@@ -84780,8 +84780,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Youngster Joey - Dreamyard": {
-        "level": 16,
+      "Lvl 14 Youngster Joey - Dreamyard": {
+        "level": 14,
         "ai": 7,
         "noCh": false,
         "tr_id": 7,
@@ -84797,7 +84797,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Jolly",
+        "nature": "Docile",
         "moves": [
           "Headbutt",
           "Flame Wheel",
@@ -86599,8 +86599,8 @@ backup_data = {
         "item": "None",
         "nature": "Bold",
         "moves": [
-          "Brine",
-          "Aurora Beam",
+          "Water Gun",
+          "Powder Snow",
           "Rest",
           "Hail"
         ],
@@ -87117,10 +87117,10 @@ backup_data = {
         "item": "Occa Berry",
         "nature": "Impish",
         "moves": [
-          "Icy Wind",
+          "Powder Snow",
           "Snarl",
           "Mega Drain",
-          "Bubble Beam"
+          "Water Gun"
         ],
         "sub_index": 0,
         "ability": "Weak Armor",
@@ -87149,10 +87149,10 @@ backup_data = {
         "item": "Occa Berry",
         "nature": "Careful",
         "moves": [
-          "Icy Wind",
+          "Powder Snow",
           "Snarl",
           "Mega Drain",
-          "Bubble Beam"
+          "Water Gun"
         ],
         "sub_index": 0,
         "ability": "Weak Armor",
@@ -87181,10 +87181,10 @@ backup_data = {
         "item": "Occa Berry",
         "nature": "Quiet",
         "moves": [
-          "Icy Wind",
+          "Powder Snow",
           "Snarl",
           "Mega Drain",
-          "Bubble Beam"
+          "Water Gun"
         ],
         "sub_index": 0,
         "ability": "Weak Armor",
@@ -87226,8 +87226,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Youngster Keita - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 23 Youngster Keita - Not Pinwheel Forest": {
+        "level": 23,
         "ai": 7,
         "noCh": false,
         "tr_id": 145,
@@ -87241,9 +87241,9 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "None",
+        "reward_item": "Shell Bell",
         "item": "Wide Lens",
-        "nature": "Hasty",
+        "nature": "Quirky",
         "moves": [
           "Blizzard",
           "Dark Pulse",
@@ -87648,8 +87648,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Youngster Keita - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 23 Youngster Keita - Not Pinwheel Forest": {
+        "level": 23,
         "ai": 7,
         "noCh": false,
         "tr_id": 145,
@@ -87663,9 +87663,9 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "None",
+        "reward_item": "Shell Bell",
         "item": "Wide Lens",
-        "nature": "Lax",
+        "nature": "Sassy",
         "moves": [
           "Fire Blast",
           "Sucker Punch",
@@ -87992,7 +87992,7 @@ backup_data = {
         "nature": "Quirky",
         "moves": [
           "Mega Drain",
-          "Psybeam",
+          "Confusion",
           "Sleep Powder",
           "Sunny Day"
         ],
@@ -88382,7 +88382,7 @@ backup_data = {
         "nature": "Hasty",
         "moves": [
           "Bubble Beam",
-          "Psybeam",
+          "Confusion",
           "Yawn",
           "Withdraw"
         ],
@@ -88450,7 +88450,7 @@ backup_data = {
           "Bubble Beam",
           "Mega Drain",
           "Psybeam",
-          "Flame Burst"
+          "Ember"
         ],
         "sub_index": 4,
         "ability": "Storm Drain",
@@ -91554,7 +91554,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Eviolite",
+        "item": "Lum Berry",
         "nature": "Modest",
         "moves": [
           "Swift",
@@ -91996,8 +91996,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Youngster Zachary - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 23 Youngster Zachary - Not Pinwheel Forest": {
+        "level": 23,
         "ai": 7,
         "noCh": false,
         "tr_id": 144,
@@ -92011,9 +92011,9 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Shell Bell",
+        "reward_item": "Eviolite",
         "item": "Expert Belt",
-        "nature": "Quirky",
+        "nature": "Serious",
         "moves": [
           "Blizzard",
           "Hydro Pump",
@@ -92438,7 +92438,7 @@ backup_data = {
         "nature": "Sassy",
         "moves": [
           "Discharge",
-          "Chatter",
+          "Air Slash",
           "Roost",
           "Torment"
         ],
@@ -111983,7 +111983,7 @@ backup_data = {
           "U-turn"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "Big Pecks",
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -112015,7 +112015,7 @@ backup_data = {
           "Taunt"
         ],
         "sub_index": 0,
-        "ability": "Unburden",
+        "ability": "Big Pecks",
         "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
@@ -112275,7 +112275,7 @@ backup_data = {
         "item": "None",
         "nature": "Lonely",
         "moves": [
-          "Pursuit",
+          "Bite",
           "Peck",
           "Featherdance",
           "Steel Wing"
@@ -116862,8 +116862,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Youngster Keita - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 23 Youngster Keita - Not Pinwheel Forest": {
+        "level": 23,
         "ai": 7,
         "noCh": false,
         "tr_id": 145,
@@ -116877,9 +116877,9 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "None",
+        "reward_item": "Shell Bell",
         "item": "Wide Lens",
-        "nature": "Lax",
+        "nature": "Sassy",
         "moves": [
           "Hydro Pump",
           "Psybeam",
@@ -123497,8 +123497,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Youngster Zachary - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 23 Youngster Zachary - Not Pinwheel Forest": {
+        "level": 23,
         "ai": 7,
         "noCh": false,
         "tr_id": 144,
@@ -123512,9 +123512,9 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Shell Bell",
+        "reward_item": "Eviolite",
         "item": "Life Orb",
-        "nature": "Rash",
+        "nature": "Relaxed",
         "moves": [
           "Thunder",
           "Bug Buzz",
@@ -124179,8 +124179,8 @@ backup_data = {
       }
     },
     "Butterfree": {
-      "Lvl 32 Youngster Zachary - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 23 Youngster Zachary - Not Pinwheel Forest": {
+        "level": 23,
         "ai": 7,
         "noCh": false,
         "tr_id": 144,
@@ -124194,9 +124194,9 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Shell Bell",
+        "reward_item": "Eviolite",
         "item": "Wise Glasses",
-        "nature": "Mild",
+        "nature": "Naughty",
         "moves": [
           "Sleep Powder",
           "Bug Buzz",
@@ -124277,8 +124277,8 @@ backup_data = {
       }
     },
     "Noctowl": {
-      "Lvl 32 Youngster Zachary - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 23 Youngster Zachary - Not Pinwheel Forest": {
+        "level": 23,
         "ai": 7,
         "noCh": false,
         "tr_id": 144,
@@ -124292,9 +124292,9 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Shell Bell",
+        "reward_item": "Eviolite",
         "item": "Leftovers",
-        "nature": "Naughty",
+        "nature": "Mild",
         "moves": [
           "Hurricane",
           "Hypnosis",
@@ -124343,8 +124343,8 @@ backup_data = {
       }
     },
     "Drifloon": {
-      "Lvl 32 Youngster Keita - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 23 Youngster Keita - Not Pinwheel Forest": {
+        "level": 23,
         "ai": 7,
         "noCh": false,
         "tr_id": 145,
@@ -124358,9 +124358,9 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "None",
+        "reward_item": "Shell Bell",
         "item": "Wide Lens",
-        "nature": "Gentle",
+        "nature": "Lax",
         "moves": [
           "Hurricane",
           "Thunder",
@@ -127718,7 +127718,7 @@ backup_data = {
         "item": "Life Orb",
         "nature": "Impish",
         "moves": [
-          "Seed Flare",
+          "Grass Pledge",
           "Power Gem",
           "Crunch",
           "Brave Bird"
