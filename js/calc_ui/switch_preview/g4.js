@@ -163,6 +163,78 @@ function getGen4TrainerPoksInPartyOrder(trainerPoks) {
     })
 }
 
+function gen4AiU8(value) {
+    return Number(value) & 0xFF
+}
+
+function gen4AiDivide(dividend, divisor) {
+    if (dividend == 0) {
+        return dividend
+    }
+
+    var signedFloor = dividend < 0 ? -1 : 1
+    var quotient = dividend < 0 ? Math.ceil(dividend / divisor) : Math.floor(dividend / divisor)
+    return quotient == 0 ? signedFloor : quotient
+}
+
+function gen4AiApplyEffectiveness(score, effectiveness) {
+    if (effectiveness == 0) {
+        return 0
+    }
+    if (effectiveness == 0.5) {
+        return gen4AiDivide(score * 5, 10)
+    }
+    if (effectiveness == 2) {
+        return gen4AiDivide(score * 20, 10)
+    }
+    return score
+}
+
+function hasGen4Phase2BaseDamage(result) {
+    var desc = result && result.rawDesc ? result.rawDesc : null
+    return Boolean(desc && Number.isFinite(desc.g4Phase2BaseDamage))
+}
+
+function getGen4Phase2DamageScore(result) {
+    var desc = result && result.rawDesc ? result.rawDesc : null
+
+    if (hasGen4Phase2BaseDamage(result)) {
+        var score = gen4AiU8(desc.g4Phase2BaseDamage)
+
+        if (desc.g4Phase2StabMod == 2) {
+            score *= 2
+        } else if (desc.g4Phase2StabMod == 1.5) {
+            score = Math.floor(score * 15 / 10)
+        }
+
+        score = gen4AiApplyEffectiveness(score, desc.g4Phase2Type1Effectiveness)
+        score = gen4AiApplyEffectiveness(score, desc.g4Phase2Type2Effectiveness)
+
+        if (desc.g4Phase2FilterMod == 0.75) {
+            score = gen4AiDivide(score * 3, 4)
+        }
+        if (desc.g4Phase2ExpertBeltMod && desc.g4Phase2ExpertBeltMod != 1) {
+            score = Math.floor(score * desc.g4Phase2ExpertBeltMod)
+        }
+        if (desc.g4Phase2TintedMod && desc.g4Phase2TintedMod != 1) {
+            score = Math.floor(score * desc.g4Phase2TintedMod)
+        }
+        if (desc.g4Phase2BerryMod && desc.g4Phase2BerryMod != 1) {
+            score = Math.floor(score * desc.g4Phase2BerryMod)
+        }
+
+        return gen4AiU8(score)
+    }
+
+    if (!result) {
+        return 0
+    }
+    if (typeof result.damage === 'number') {
+        return gen4AiU8(result.damage)
+    }
+    return gen4AiU8(result.damage[result.damage.length - 1])
+}
+
 function get_next_in_g4() {
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
         return
@@ -566,18 +638,14 @@ function get_next_in_g4() {
                     continue
                 }
 
-                if (typeof results[n].damage === 'number') {
-                    dmg = results[n].damage % 255
-                } else {
-                    dmg = results[n].damage[results[n].damage.length - 1] % 255
-                }
+                dmg = getGen4Phase2DamageScore(results[n])
 
                 // correct for doubling dmg when slower moves
                 if (["Avalanche", "Payback", "Assurance"].includes(moveName) && results[n].attacker.rawStats.spe < results[n].defender.rawStats.spe) {
                     dmg = dmg / 2
                 }
 
-                if (moves[moveName] && moves[moveName]['multihit']) {
+                if (!hasGen4Phase2BaseDamage(results[n]) && moves[moveName] && moves[moveName]['multihit']) {
                     dmg = Math.floor(dmg / 3)
                 }
             }

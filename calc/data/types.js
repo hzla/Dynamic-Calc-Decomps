@@ -601,12 +601,6 @@ var parallelEm = (0, util_1.extend)(true, {}, GSC, {
 var SM = XY;
 var SS = SM;
 
-if (settings.type_chart >= 6) {
-    BW = XY
-    DPP = XY
-    ADV = XY
-}
-
 exports.TYPE_CHART = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, platRedux, parallelEm, blinding];
 var Types = (function () {
     function Types(gen) {

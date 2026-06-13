@@ -613,6 +613,14 @@ function calculateDPP(gen, attacker, defender, move, field) {
             berryMod = 0.5;
             desc.defenderItem = defender.item;
         }
+        desc.g4Phase2BaseDamage = baseDamage;
+        desc.g4Phase2StabMod = stabMod;
+        desc.g4Phase2Type1Effectiveness = type1Effectiveness;
+        desc.g4Phase2Type2Effectiveness = type2Effectiveness;
+        desc.g4Phase2FilterMod = filterMod;
+        desc.g4Phase2ExpertBeltMod = ebeltMod;
+        desc.g4Phase2TintedMod = tintedMod;
+        desc.g4Phase2BerryMod = berryMod;
         var damage = [];
         for (var i = 0; i < 16; i++) {
             damage[i] = Math.floor((baseDamage * (85 + i)) / 100);
