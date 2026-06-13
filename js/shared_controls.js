@@ -1773,13 +1773,43 @@ function renderTrainerPreviewPok(next_pok) {
 		typeof shouldShowSwitchAiInfo === "function" &&
 		shouldShowSwitchAiInfo()
 	var hasSeMove = next_pok[2].trim().length > 0
+	var p2SourceMoveName = showSwitchAiInfo && !hasSeMove && next_pok[5] !== ""
+		? String(next_pok[6] || "")
+		: ""
+
+	function getTrainerPreviewDisplayMoveName(moveName) {
+		return String(moveName || "").replace("Hidden Power", "HP")
+	}
+
+	function isTrainerPreviewP2SourceMove(moveName) {
+		return p2SourceMoveName !== "" &&
+			getTrainerPreviewDisplayMoveName(moveName) == getTrainerPreviewDisplayMoveName(p2SourceMoveName)
+	}
+
+	function renderTrainerPreviewMove(moveIndex, extraClass, strongOnlyForPlatinumKaizo) {
+		var moveName = next_pok[4][moveIndex]
+		var classes = ["bp-info"]
+		if (extraClass) {
+			classes.push(extraClass)
+		}
+		if (pps[moveIndex] == "0") {
+			classes.push("nopp")
+		}
+		if (isTrainerPreviewP2SourceMove(moveName)) {
+			classes.push("p2-source-move")
+		}
+
+		var isStrong = moveName != "" &&
+			next_pok[2].includes(moveName) &&
+			(!strongOnlyForPlatinumKaizo || TITLE == "Platinum Kaizo")
+		return `<div class="${classes.join(" ")}" data-strong="${isStrong}">${getTrainerPreviewDisplayMoveName(moveName)}</div>`
+	}
 
 	if (settings.gameSwitchIn == 5 || settings.gameSwitchIn == 4) { 
-		pok +=`
-		<div class="bp-info${pps[0] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][0])}">${next_pok[4][0].replace("Hidden Power", "HP")}</div>
-		<div class="bp-info${pps[1] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][1])}">${next_pok[4][1].replace("Hidden Power", "HP")}</div>
-		<div class="bp-info${pps[2] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][2])}">${next_pok[4][2].replace("Hidden Power", "HP")}</div>
-		<div class="bp-info${pps[3] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][3])}">${next_pok[4][3].replace("Hidden Power", "HP")}</div>`
+		pok += renderTrainerPreviewMove(0) +
+			renderTrainerPreviewMove(1) +
+			renderTrainerPreviewMove(2) +
+			renderTrainerPreviewMove(3)
 		if (showSwitchAiInfo && hasSeMove && typeof next_pok[9] !== "undefined") {
 			pok += `<div class="bp-info switch-ai-info"><span class="type-mu">Type MU:</span> ${next_pok[9]}</div>`
 		}
@@ -1787,11 +1817,11 @@ function renderTrainerPreviewPok(next_pok) {
 			pok += `<div class="bp-info switch-ai-info"><span class="p2-dmg">P2 Dmg:</span> ${next_pok[5]}</div>`
 		}
 	} else {
-		pok +=`<div class="bp-infos">
-		<div class="bp-info ${pps[0] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][0])}" >${next_pok[4][0].replace("Hidden Power", "HP")}</div>
-		<div class="bp-info ${pps[1] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][1])}" >${next_pok[4][1].replace("Hidden Power", "HP")}</div>
-		<div class="bp-info ${pps[2] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][2])}" >${next_pok[4][2].replace("Hidden Power", "HP")}</div>
-		<div class="bp-info bp-last ${pps[3] == '0' ? 'nopp' : ''}" data-strong="${TITLE == "Platinum Kaizo" && next_pok[2].includes(next_pok[4][3])}" >${next_pok[4][3].replace("Hidden Power", "HP")}</div>`
+		pok += `<div class="bp-infos">` +
+			renderTrainerPreviewMove(0, "", true) +
+			renderTrainerPreviewMove(1, "", true) +
+			renderTrainerPreviewMove(2, "", true) +
+			renderTrainerPreviewMove(3, "bp-last", true)
 
 		if (showSwitchAiInfo && hasSeMove && typeof next_pok[9] !== "undefined") {
 			pok += `<div class="bp-info switch-ai-info"><span class="type-mu">Type MU:</span> ${next_pok[9]}</div>`

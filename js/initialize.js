@@ -1531,7 +1531,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?ad21cba9';
+  script.src= './js/shared_controls.js?cd8b888a';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
