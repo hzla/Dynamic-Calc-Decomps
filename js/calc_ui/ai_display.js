@@ -86,11 +86,59 @@ function getAiHeaderLinkHtml() {
     return `<a class="ai-header-link" href="https://gist.github.com/hzla/2af68d802a571d6f1ba5e061981a36cc" target="_blank" rel="noopener noreferrer">Click Here to see detailed PK AI changes</a>`
 }
 
-$(document).on('click', '#show-ai', function() {
+const PLATINUM_KAIZO_MOVE_AI_BASE_URL = "https://bparkpk.github.io/PKMoveScoring/"
+
+function formatPlatinumKaizoMoveAiPageName(moveName) {
+    let normalizedMoveName = String(moveName || "").trim()
+    if (typeof normalizedMoveName.normalize === "function") {
+        normalizedMoveName = normalizedMoveName.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+    }
+
+    return normalizedMoveName
+        .replace(/['\u2019]/g, "")
+        .split(/[^a-zA-Z0-9]+/)
+        .filter(Boolean)
+        .map(function(part) {
+            return part.charAt(0).toUpperCase() + part.slice(1)
+        })
+        .join("")
+}
+
+function getPlatinumKaizoMoveAiUrl(moveName) {
+    let pageName = formatPlatinumKaizoMoveAiPageName(moveName)
+    return pageName ? PLATINUM_KAIZO_MOVE_AI_BASE_URL + "move" + pageName + ".html" : ""
+}
+
+function openPlatinumKaizoMoveAiPage(moveName) {
+    let url = getPlatinumKaizoMoveAiUrl(moveName)
+    if (!url) {
+        return false
+    }
+
+    let openedWindow = window.open(url, "_blank", "noopener,noreferrer")
+    if (openedWindow) {
+        openedWindow.opener = null
+    }
+    return true
+}
+
+if (typeof window !== "undefined") {
+    window.getPlatinumKaizoMoveAiUrl = getPlatinumKaizoMoveAiUrl
+}
+
+$(document).on('click', '#show-ai', function(event) {
         
         let selectedMoveBtn = $(".results-right .visually-hidden:checked + .btn")
         if (selectedMoveBtn.length === 0) {
             alert("Select an AI trainer move first to view its AI logic.")
+            return
+        }
+
+        let move = selectedMoveBtn.text().trim()
+        if (TITLE === "Platinum Kaizo") {
+            event.preventDefault()
+            $("#ai-container").hide().empty()
+            openPlatinumKaizoMoveAiPage(move)
             return
         }
 
@@ -100,7 +148,6 @@ $(document).on('click', '#show-ai', function() {
                 return
             }
 
-            let move = selectedMoveBtn.text()
             if (!move) {
                 return
             }
@@ -160,15 +207,15 @@ $(document).on('click', '#show-ai', function() {
         $("#ai-container").toggle()
 
         if ($('#ai-container:visible').length > 0) {
-             var move = $(".results-right .visually-hidden:checked + .btn").text()
-            if (move == "") {
+             var gen5Move = $(".results-right .visually-hidden:checked + .btn").text()
+            if (gen5Move == "") {
                 return
             }
-            var effect_code = backup_data.moves[move]["e_id"]
+            var effect_code = backup_data.moves[gen5Move]["e_id"]
             var ai_content = g5Effects[effect_code]
 
             ai_html = ""
-            ai_html += `<div class="ai-header"><h2>${move} AI</h2>${getAiHeaderLinkHtml()}</div><br>`
+            ai_html += `<div class="ai-header"><h2>${gen5Move} AI</h2>${getAiHeaderLinkHtml()}</div><br>`
 
             for (n in ai_content) {
                 ai_html += ai_content[n].replace("\t", "&ensp;")

@@ -6913,7 +6913,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "SilverPowder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -13673,7 +13673,7 @@ backup_data = {
           ],
           [
             28,
-            "Ice Beam"
+            "Ice Punch"
           ],
           [
             32,
@@ -13763,7 +13763,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "TwistedSpoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -13846,7 +13846,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "TwistedSpoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -13989,7 +13989,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "TwistedSpoon",
+        "Twisted Spoon",
         "None"
       ],
       "bs": {
@@ -24983,7 +24983,7 @@ backup_data = {
       "abs": [
         "Pressure",
         "",
-        "Lightning Rod"
+        "Static"
       ]
     },
     "Moltres": {
@@ -35877,7 +35877,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None"
       ],
       "bs": {
@@ -43674,7 +43674,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "SilverPowder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -60878,7 +60878,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "SilverPowder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -60990,7 +60990,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "SilverPowder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -66662,7 +66662,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None"
       ],
       "bs": {
@@ -66775,7 +66775,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None"
       ],
       "bs": {
@@ -87112,7 +87112,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "NeverMeltIce",
+        "Never-Melt Ice",
         "None"
       ],
       "bs": {
@@ -90066,8 +90066,8 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "SilverPowder",
-        "SilverPowder",
+        "Silver Powder",
+        "Silver Powder",
         "None"
       ],
       "bs": {
@@ -101078,9 +101078,9 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Zap Cannon",
-          "Flash Cannon",
           "Energy Ball",
-          "Earth Power"
+          "Focus Blast",
+          "Bug Buzz"
         ],
         "sub_index": 2,
         "ability": "Lightning Rod",
@@ -102461,10 +102461,10 @@ backup_data = {
         "item": "Life Orb",
         "nature": "Hasty",
         "moves": [
-          "Zap Cannon",
-          "Flash Cannon",
-          "Energy Ball",
-          "Earth Power"
+          "Earthquake",
+          "Close Combat",
+          "Stone Edge",
+          "Ice Shard"
         ],
         "sub_index": 3,
         "ability": "Arena Trap",
@@ -110108,7 +110108,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "BrightPowder",
+        "item": "Bright Powder",
         "nature": "Quiet",
         "moves": [
           "Gunk Shot",
@@ -118370,7 +118370,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "BrightPowder",
+        "item": "Bright Powder",
         "nature": "Serious",
         "moves": [
           "Mist Ball",
@@ -120747,38 +120747,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 100 Team Plasma N3": {
-        "level": 100,
-        "ai": 263,
-        "noCh": false,
-        "tr_id": 586,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Flame Orb",
-        "nature": "Hasty",
-        "moves": [
-          "Draco Meteor",
-          "Hurricane",
-          "Roost",
-          "Surf"
-        ],
-        "sub_index": 5,
-        "ability": "Marvel Scale",
-        "sprite": "./images/trainer_sprites/team_plasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Salamence": {
@@ -121602,7 +121570,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "BrightPowder",
+        "item": "Bright Powder",
         "nature": "Careful",
         "moves": [
           "Protect",
@@ -121988,13 +121956,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Flame Orb",
+        "item": "Rindo Berry",
         "nature": "Hasty",
         "moves": [
-          "Earthquake",
+          "Drill Run",
           "Icicle Crash",
           "Superpower",
-          "Megahorn"
+          "Ice Shard"
         ],
         "sub_index": 1,
         "ability": "Thick Fat",
@@ -123159,6 +123127,38 @@ backup_data = {
         "sub_index": 4,
         "ability": "Swift Swim",
         "sprite": "./images/trainer_sprites/swimmer_f.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 100 Team Plasma N3": {
+        "level": 100,
+        "ai": 263,
+        "noCh": false,
+        "tr_id": 586,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Mystic Water",
+        "nature": "Naive",
+        "moves": [
+          "Hydro Pump",
+          "Leaf Storm",
+          "Blizzard",
+          "Earth Power"
+        ],
+        "sub_index": 5,
+        "ability": "Swift Swim",
+        "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -127885,7 +127885,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
-        "nature": "Serious",
+        "nature": "Hasty",
         "moves": [
           "Seed Flare",
           "Hurricane",
@@ -127893,7 +127893,7 @@ backup_data = {
           "Earth Power"
         ],
         "sub_index": 4,
-        "ability": "Infiltrator",
+        "ability": "Prankster",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -131902,7 +131902,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "BrightPowder",
+        "item": "Bright Powder",
         "nature": "Quirky",
         "moves": [
           "X-Scissor",
@@ -136633,17 +136633,17 @@ backup_data = {
         "tr_id": 586,
         "diff": 0,
         "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
         },
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Mystic Water",
-        "nature": "Bold",
+        "nature": "Timid",
         "moves": [
           "Hydro Pump",
           "Thunder",
@@ -142076,7 +142076,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "BrightPowder",
+        "item": "Bright Powder",
         "nature": "Gentle",
         "moves": [
           "Crunch",
@@ -144391,38 +144391,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Pressure",
         "sprite": "./images/trainer_sprites/battle_girl.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 100 Team Plasma N3": {
-        "level": 100,
-        "ai": 263,
-        "noCh": false,
-        "tr_id": 586,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Light Clay",
-        "nature": "Bashful",
-        "moves": [
-          "Thunder",
-          "Energy Ball",
-          "Light Screen",
-          "Scald"
-        ],
-        "sub_index": 1,
-        "ability": "Volt Absorb",
-        "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -153079,8 +153047,8 @@ backup_data = {
         "moves": [
           "Octazooka",
           "Gunk Shot",
-          "Psychic",
-          "Energy Ball"
+          "Focus Blast",
+          "Ice Beam"
         ],
         "sub_index": 3,
         "ability": "Swift Swim",
@@ -153108,7 +153076,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "BrightPowder",
+        "item": "Bright Powder",
         "nature": "Impish",
         "moves": [
           "Meteor Mash",
@@ -159903,6 +159871,38 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 100 Team Plasma N3": {
+        "level": 100,
+        "ai": 263,
+        "noCh": false,
+        "tr_id": 586,
+        "diff": 0,
+        "ivs": {
+          "hp": 29,
+          "at": 29,
+          "df": 29,
+          "sa": 29,
+          "sd": 29,
+          "sp": 29
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Light Clay",
+        "nature": "Timid",
+        "moves": [
+          "Thunder",
+          "Hurricane",
+          "Reflect",
+          "Scald"
+        ],
+        "sub_index": 1,
+        "ability": "Static",
+        "sprite": "./images/trainer_sprites/team_plasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 47 Motorcyclist Charles2 - Driftveil City": {
         "level": 47,
         "ai": 391,
@@ -160918,17 +160918,17 @@ backup_data = {
         "tr_id": 586,
         "diff": 0,
         "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
+          "hp": 29,
+          "at": 29,
+          "df": 29,
+          "sa": 29,
+          "sd": 29,
+          "sp": 29
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Wacan Berry",
-        "nature": "Gentle",
+        "item": "Rindo Berry",
+        "nature": "Modest",
         "moves": [
           "Muddy Water",
           "Thunder",
