@@ -848,15 +848,16 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         if ((move.named('Explosion') || move.named('Self-Destruct')) && settings.switchIn == 11) {
             defense = Math.floor(defense * 0.5);
         }
-        if (TITLE == "Blinding White 2") {
-            // Roxie, Elesa, Skyla lvlcaps
-            settings.levelCaps = [[19, 1], [36, 2], [50, 3]];
-            settings.challengeExceptionListPresent = false;
+        var challengeLevelCaps = null;
+        if (TITLE == "Blaze Black 2/Volt White 2 Redux") {
+            // Roxie, Elesa, Skyla level caps
+            challengeLevelCaps = [[19, 1], [36, 2], [50, 3]];
         }
         var delta = 0;
-        // Check if challenge mode, if calculating trainer pok, and if trainer pok is in challenge mode exception list
+        // Apply challenge-mode formula levels only to trainer attackers that are not marked noCh.
         var currentTrainerMon = settings.challengeMode && typeof get_current_in === "function" ? get_current_in(false) : null;
         var isTrainerAttacker = false;
+        var suppressChallengeLevelAdjustment = currentTrainerMon && (currentTrainerMon["noCh"] === true || currentTrainerMon["noCh"] === "true");
         if (currentTrainerMon) {
             if (typeof $ === "function") {
                 var setSelectors = $('.set-selector');
@@ -868,7 +869,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 isTrainerAttacker = Number(currentTrainerMon.level) === Number(attacker.level);
             }
         }
-        if (settings.challengeMode && currentTrainerMon && !(settings.challengeExceptionListPresent && currentTrainerMon["noCh"]) && isTrainerAttacker) {
+        if (settings.challengeMode && currentTrainerMon && !suppressChallengeLevelAdjustment && isTrainerAttacker) {
             var levelDeltaKeys = [
                 "challengeLevelAdjustment",
                 "challengeLevelDelta",
@@ -888,11 +889,11 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 }
             }
             if (!hasDirectLevelDelta) {
-                delta = 4;
-                if (Array.isArray(settings.levelCaps)) {
-                    for (var n in settings.levelCaps) {
-                        if (attacker.level <= settings.levelCaps[n][0]) {
-                            delta = settings.levelCaps[n][1];
+                if (Array.isArray(challengeLevelCaps)) {
+                    delta = 4;
+                    for (var n in challengeLevelCaps) {
+                        if (attacker.level <= challengeLevelCaps[n][0]) {
+                            delta = challengeLevelCaps[n][1];
                             break;
                         }
                     }

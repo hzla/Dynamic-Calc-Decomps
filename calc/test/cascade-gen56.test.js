@@ -1057,3 +1057,48 @@ describe('Cascade gen56 damage modifiers', function () {
         });
     });
 });
+
+describe('Redux Challenge Mode level fallback', function () {
+    (0, helper_1.inGen)(5, function (_a) {
+        var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
+        var ctx = { gen: gen, calculate: calculate, Pokemon: Pokemon, Move: Move, Field: Field };
+
+        test('level 12 Cheren Aipom uses +1 formula level instead of generic +4', function () {
+            var spec = {
+                attacker: function (c) { return P(c, 'Aipom', { level: 12, item: 'Water Gem', evs: { spa: 0 }, ivs: { spa: 31 } }); },
+                defender: function (c) { return P(c, 'Magby', { level: 15, evs: { hp: 0, spd: 0 }, ivs: { hp: 4, spd: 15 } }); },
+                move: function (c) { return M(c, 'Water Pulse'); }
+            };
+            var reduxFallbackRes = calcResult(ctx, 'Blaze Black 2/Volt White 2 Redux', spec, {
+                settings: { challengeMode: true },
+                get_current_in: function () { return { level: 12, noCh: false }; },
+                $: function () { return [{}, {}, {}, { value: 'Aipom (Lvl 12 Leader Cheren2)' }]; }
+            });
+            var explicitDeltaRes = calcResult(ctx, 'Blaze Black 2/Volt White 2 Redux', spec, {
+                settings: { challengeMode: true },
+                get_current_in: function () { return { level: 12, diff: 1, noCh: false }; },
+                $: function () { return [{}, {}, {}, { value: 'Aipom (Lvl 12 Leader Cheren2)' }]; }
+            });
+            var nonReduxNoDiffRes = calcResult(ctx, 'Aether White 2', spec, {
+                settings: { challengeMode: true },
+                get_current_in: function () { return { level: 12, noCh: false }; },
+                $: function () { return [{}, {}, {}, { value: 'Aipom (Lvl 12 Leader Cheren2)' }]; }
+            });
+            var noChallengeRes = calcResult(ctx, 'Blaze Black 2/Volt White 2 Redux', spec, {
+                settings: { challengeMode: true },
+                get_current_in: function () { return { level: 12, diff: 4, noCh: true }; },
+                $: function () { return [{}, {}, {}, { value: 'Aipom (Lvl 12 Leader Cheren2)' }]; }
+            });
+            var disabledRes = calcResult(ctx, 'Blaze Black 2/Volt White 2 Redux', spec, {
+                settings: { challengeMode: false },
+                get_current_in: function () { return { level: 12, noCh: false }; },
+                $: function () { return [{}, {}, {}, { value: 'Aipom (Lvl 12 Leader Cheren2)' }]; }
+            });
+            expect(reduxFallbackRes.damage).toEqual(explicitDeltaRes.damage);
+            expect(reduxFallbackRes.range()).toEqual([18, 22]);
+            expect(disabledRes.range()).toEqual([16, 20]);
+            expect(nonReduxNoDiffRes.range()).toEqual(disabledRes.range());
+            expect(noChallengeRes.range()).toEqual(disabledRes.range());
+        });
+    });
+});
