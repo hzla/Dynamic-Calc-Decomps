@@ -1,5 +1,5 @@
 backup_data = {
-    "title":"Cascade White",
+  "title":"Cascade White", 
   "pok_replacements": {
     "": "badegg"
   },
@@ -203,6 +203,8 @@ backup_data = {
     "floatstone": "ejectpack",
     "ringtarget": "covertcloak",
     "bindingband": "teraplate",
+    "relicband": "sunkencrown",
+    "relicstatue": "desertcrown",
     "ovalcharm": "pokehelper"
   },
   "moves": {
@@ -123718,7 +123720,7 @@ backup_data = {
     }
   },
   "formatted_sets": {
-    "Volcarona": {
+    "Raichu": {
       "Lvl 50 Smasher Elena ": {
         "level": 50,
         "ai": 15,
@@ -123734,27 +123736,27 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Potion",
-        "item": "Tera Sash",
-        "nature": "Naive",
+        "item": "Leftovers",
+        "nature": "Bashful",
         "moves": [
-          "Heat Wave",
-          "-----",
+          "Fake Out",
+          "Thunderbolt",
           "-----",
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Blaze",
+        "ability": "Teravolt",
         "sprite": "trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 80 Rival Benga3 - Starter 3": {
-        "level": 80,
-        "ai": 7,
+      "Lvl 61 Maid Tanya ": {
+        "level": 61,
+        "ai": 1,
         "noCh": false,
-        "tr_id": 201,
+        "tr_id": 141,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -123765,27 +123767,58 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Relaxed",
+        "item": "-",
+        "nature": "Impish",
         "moves": [
-          "Fire Blast",
-          "Bug Buzz",
-          "Psychic",
-          "Quiver Dance"
+          "",
+          "",
+          "",
+          ""
         ],
-        "sub_index": 2,
-        "ability": "Swarm",
-        "sprite": "trainer_sprites/benga.png",
+        "sub_index": 1,
+        "ability": "Teravolt",
+        "sprite": "trainer_sprites/maid.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 59 PkMn Trainer Alder2 ": {
-        "level": 59,
+      "Lvl 38 Lady Colette ": {
+        "level": 38,
         "ai": 143,
         "noCh": false,
-        "tr_id": 582,
+        "tr_id": 148,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Electric Gem",
+        "nature": "Relaxed",
+        "moves": [
+          "Discharge",
+          "Scorching Sands",
+          "Focus Punch",
+          "Attract"
+        ],
+        "sub_index": 3,
+        "ability": "Sheer Force",
+        "sprite": "trainer_sprites/lady.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 31 Kanto Leader Lt. Surge - Liberty Garden": {
+        "level": 31,
+        "ai": 15,
+        "noCh": true,
+        "tr_id": 766,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -123796,17 +123829,17 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Tera Sash",
-        "nature": "Bold",
+        "item": "Life Orb",
+        "nature": "Timid",
         "moves": [
-          "Heat Wave",
-          "Silver Wind",
-          "Protect",
-          "Energy Ball"
+          "Discharge",
+          "Mud Bomb",
+          "Sludge Bomb",
+          "Surf"
         ],
-        "sub_index": 3,
-        "ability": "Blaze",
-        "sprite": "trainer_sprites/alder.png",
+        "sub_index": 5,
+        "ability": "Teravolt",
+        "sprite": "trainer_sprites/kantoleader.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -123845,7 +123878,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Team Plasma Shadow7 ": {
+      "Lvl 56 Team Plasma Shadow3 ": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -123907,7 +123940,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt49 ": {
+      "Lvl 47 Team Plasma Grunt8 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -123938,7 +123971,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Elaine2 - Moor of Icirrus": {
+      "Lvl 62 PkMn Ranger Elaine - Moor of Icirrus": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -124033,7 +124066,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Policeman Neagle2 - Route 6": {
+      "Lvl 48 Policeman Neagle - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -124064,7 +124097,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Artist Horton2 - Route 5": {
+      "Lvl 36 Artist Horton - Route 5": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -124095,7 +124128,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt89 ": {
+      "Lvl 44 Team Plasma Grunt41 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -124126,7 +124159,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt105 ": {
+      "Lvl 47 Team Plasma Grunt46 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -124252,7 +124285,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt47 ": {
+      "Lvl 47 Team Plasma Grunt7 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -124273,7 +124306,7 @@ backup_data = {
           "Crunch",
           "Pursuit",
           "Psychic Fangs",
-          "Howl"
+          "Screech"
         ],
         "sub_index": 2,
         "ability": "Intimidate",
@@ -124283,7 +124316,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Guitarist Anna2 - Chargestone Cave": {
+      "Lvl 48 Guitarist Anna - Chargestone Cave": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -124471,7 +124504,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Smasher Aspen2 - Driftveil Drawbridge": {
+      "Lvl 41 Smasher Aspen - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -124502,7 +124535,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Battle Girl Tiffany2 - Route 23": {
+      "Lvl 53 Battle Girl Tiffany - Route 23": {
         "level": 53,
         "ai": 3,
         "noCh": false,
@@ -124533,7 +124566,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Black Belt Corey2 - Reversal Mountain": {
+      "Lvl 56 Black Belt Corey - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -124564,7 +124597,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 PkMn Trainer Bianca5 - Dreamyard": {
+      "Lvl 51 PkMn Trainer Bianca - Dreamyard": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -124595,7 +124628,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Battle Girl Kyurem2 - Wellspring Cave": {
+      "Lvl 62 Battle Girl Kyurem - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -124626,7 +124659,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca6 ": {
+      "Lvl 63 PkMn Trainer Bianca2 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -124657,7 +124690,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca7 ": {
+      "Lvl 63 PkMn Trainer Bianca3 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -124688,7 +124721,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca8 ": {
+      "Lvl 63 PkMn Trainer Bianca4 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -124719,7 +124752,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina2 - Celestial Tower": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Tower": {
         "level": 53,
         "ai": 15,
         "noCh": false,
@@ -124750,7 +124783,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Rival Benga14 - Starter 3": {
+      "Lvl 56 Rival Benga7 - Starter 3": {
         "level": 56,
         "ai": 7,
         "noCh": true,
@@ -124781,7 +124814,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Marshal4 ": {
+      "Lvl 73 Elite Four Marshal3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -125124,7 +125157,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Rood2 ": {
+      "Lvl 43 PkMn Trainer Rood ": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -125155,7 +125188,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Carter2 - Twist Mountain": {
+      "Lvl 64 Veteran Carter - Twist Mountain": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -125281,7 +125314,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Shadow6 ": {
+      "Lvl 57 Team Plasma Shadow2 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -125312,8 +125345,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Johto Leader Morty2 - Celestial Tower": {
-        "level": 53,
+      "Lvl 54 Johto Leader Morty - Celestial Tower": {
+        "level": 54,
         "ai": 143,
         "noCh": false,
         "tr_id": 229,
@@ -125328,7 +125361,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "TM30",
         "item": "Tera Gem",
-        "nature": "Jolly",
+        "nature": "Modest",
         "moves": [
           "Dazzling Gleam",
           "Shadow Ball",
@@ -125343,7 +125376,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Cosplayer Miriam2 - Join Avenue": {
+      "Lvl 37 Cosplayer Miriam - Join Avenue": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -125374,7 +125407,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ghostly Gent 2 - Route 3": {
+      "Lvl 56 Ghostly Gent - Route 3": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -125405,7 +125438,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Vicki2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Vicki - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -125436,7 +125469,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Red Red2 ": {
+      "Lvl 73 Red Red ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -125562,7 +125595,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Maynard2 - Driftveil City": {
+      "Lvl 43 Worker Maynard - Driftveil City": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -125593,7 +125626,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Youngster Karl2 - Village Bridge": {
+      "Lvl 42 Youngster Karl - Village Bridge": {
         "level": 42,
         "ai": 1,
         "noCh": false,
@@ -125624,7 +125657,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Cyclist Jeremiah2 ": {
+      "Lvl 55 Cyclist Jeremiah ": {
         "level": 55,
         "ai": 15,
         "noCh": false,
@@ -125655,7 +125688,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Otto2 - Chargestone Cave": {
+      "Lvl 48 Hiker Otto - Chargestone Cave": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -125686,7 +125719,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Ace Trainer Corky2 ": {
+      "Lvl 33 Ace Trainer Corky ": {
         "level": 33,
         "ai": 135,
         "noCh": false,
@@ -125717,7 +125750,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk M Gilligan2 - Castelia City": {
+      "Lvl 28 Clerk M Gilligan - Castelia City": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -125748,7 +125781,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Lass Diana4 ": {
+      "Lvl 63 Lass Diana2 ": {
         "level": 63,
         "ai": 1,
         "noCh": false,
@@ -125843,7 +125876,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Backpacker Rachel2 - Route 4": {
+      "Lvl 35 Backpacker Rachel - Route 4": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -125874,7 +125907,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Ace Trainer Summer2 ": {
+      "Lvl 40 Ace Trainer Summer ": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -125905,7 +125938,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Pilot Elron2 - Mistralton City": {
+      "Lvl 52 Pilot Elron - Mistralton City": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -126620,7 +126653,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 Team Plasma Colress7 ": {
+      "Lvl 1 Team Plasma Colress3 ": {
         "level": 1,
         "ai": 7,
         "noCh": false,
@@ -126651,7 +126684,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 no data 6 ": {
+      "Lvl 1 no data ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -126682,7 +126715,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 no data 7 ": {
+      "Lvl 1 no data 2 ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -126713,7 +126746,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 no data 8 ": {
+      "Lvl 1 no data 3 ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -126744,7 +126777,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 no data 9 ": {
+      "Lvl 1 no data 4 ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -126775,7 +126808,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 no data 10 ": {
+      "Lvl 1 no data 5 ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -126806,7 +126839,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Youngster Abe2 ": {
+      "Lvl 16 Youngster Abe ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -126837,7 +126870,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Rich Boy Brad3 ": {
+      "Lvl 16 Rich Boy Brad2 ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -126868,7 +126901,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Keston2 - Pinwheel Forest": {
+      "Lvl 12 School Kid Keston - Pinwheel Forest": {
         "level": 12,
         "ai": 143,
         "noCh": false,
@@ -126899,7 +126932,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 Nursery Aide Naoise2 ": {
+      "Lvl 1 Nursery Aide Naoise ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -126930,7 +126963,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 Gentleman Rich2 ": {
+      "Lvl 1 Gentleman Rich ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -127056,7 +127089,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 Veteran Chester2 - Route 18": {
+      "Lvl 68 Veteran Chester - Route 18": {
         "level": 68,
         "ai": 7,
         "noCh": false,
@@ -127087,7 +127120,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Rich Boy Rolan2 ": {
+      "Lvl 37 Rich Boy Rolan ": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -127182,7 +127215,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer F Desiree2 ": {
+      "Lvl 59 Swimmer F Desiree ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -127213,7 +127246,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Sinnoh Leader Volkner2 ": {
+      "Lvl 50 Sinnoh Leader Volkner ": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -127244,7 +127277,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Kanto Leader Lt. Surge2 - Liberty Garden": {
+      "Lvl 29 Kanto Leader Lt. Surge - Liberty Garden": {
         "level": 29,
         "ai": 15,
         "noCh": true,
@@ -127401,7 +127434,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow13 ": {
+      "Lvl 58 Team Plasma Shadow8 ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -127432,7 +127465,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Dua2 - Relic Castle": {
+      "Lvl 35 Psychic Dua - Relic Castle": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -127463,7 +127496,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina2 - Celestial Tower": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Tower": {
         "level": 53,
         "ai": 15,
         "noCh": false,
@@ -127744,7 +127777,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Battle Girl Wendy2 - Route 18": {
+      "Lvl 65 Battle Girl Wendy - Route 18": {
         "level": 65,
         "ai": 3,
         "noCh": false,
@@ -127775,7 +127808,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Black Belt Luke2 - Route 23": {
+      "Lvl 53 Black Belt Luke - Route 23": {
         "level": 53,
         "ai": 3,
         "noCh": false,
@@ -127806,7 +127839,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Guardian of Unova Cobalion2 ": {
+      "Lvl 52 Guardian of Unova Cobalion ": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -127837,7 +127870,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Portia2 - Victory Road": {
+      "Lvl 54 Veteran Portia - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -127868,7 +127901,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Battle Girl Chalina2 - Victory Road": {
+      "Lvl 54 Battle Girl Chalina - Victory Road": {
         "level": 54,
         "ai": 3,
         "noCh": false,
@@ -127899,7 +127932,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Black Belt 4 - Wellspring Cave": {
+      "Lvl 62 Black Belt 2 - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -127930,7 +127963,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Rival Benga14 - Starter 3": {
+      "Lvl 56 Rival Benga7 - Starter 3": {
         "level": 56,
         "ai": 7,
         "noCh": true,
@@ -127961,7 +127994,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Marshal4 ": {
+      "Lvl 73 Elite Four Marshal3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -128118,7 +128151,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Black Belt Jay2 - Route 14": {
+      "Lvl 56 Black Belt Jay - Route 14": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -128149,7 +128182,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Roughneck Chance2 - Route 9": {
+      "Lvl 29 Roughneck Chance - Route 9": {
         "level": 29,
         "ai": 143,
         "noCh": false,
@@ -128180,7 +128213,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Battle Girl 2 - Wellspring Cave": {
+      "Lvl 62 Battle Girl - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -128275,7 +128308,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Striker Marco4 - Driftveil Drawbridge": {
+      "Lvl 40 Striker Marco - Driftveil Drawbridge": {
         "level": 40,
         "ai": 143,
         "noCh": false,
@@ -128306,7 +128339,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Battle Girl Glinda2 - Route 14": {
+      "Lvl 56 Battle Girl Glinda - Route 14": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -128337,7 +128370,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Battle Girl Kyurem2 - Wellspring Cave": {
+      "Lvl 62 Battle Girl Kyurem - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -128494,7 +128527,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Hoenn Leader Flannery2 ": {
+      "Lvl 57 Hoenn Leader Flannery ": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -128589,7 +128622,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Battle Girl Glinda2 - Route 14": {
+      "Lvl 56 Battle Girl Glinda - Route 14": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -128620,7 +128653,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Kanto Leader Sabrina2 - Celestial Tower": {
+      "Lvl 54 Kanto Leader Sabrina - Celestial Tower": {
         "level": 54,
         "ai": 15,
         "noCh": false,
@@ -128651,7 +128684,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Caitlin4 ": {
+      "Lvl 73 Elite Four Caitlin3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -128715,7 +128748,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Scientist Marissa2 - Route 6": {
+      "Lvl 47 Scientist Marissa - Route 6": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -128746,7 +128779,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Roughneck Chance2 - Route 9": {
+      "Lvl 29 Roughneck Chance - Route 9": {
         "level": 29,
         "ai": 143,
         "noCh": false,
@@ -128777,7 +128810,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Ghetsis2 ": {
+      "Lvl 50 Team Plasma Ghetsis ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -128808,7 +128841,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Veteran Zach2 - Twist Mountain": {
+      "Lvl 63 Veteran Zach - Twist Mountain": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -128839,7 +128872,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Ace Trainer Kathrine2 - Pinwheel Forest": {
+      "Lvl 63 Ace Trainer Kathrine - Pinwheel Forest": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -128870,7 +128903,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt106 ": {
+      "Lvl 40 Team Plasma Grunt47 ": {
         "level": 40,
         "ai": 15,
         "noCh": false,
@@ -129089,7 +129122,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Depot Agent Hank2 - Route 16": {
+      "Lvl 37 Depot Agent Hank - Route 16": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -129120,7 +129153,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 PkMn Ranger Leaf2 - Route 20": {
+      "Lvl 32 PkMn Ranger Leaf - Route 20": {
         "level": 32,
         "ai": 7,
         "noCh": false,
@@ -129151,7 +129184,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Mikey2 - Route 2": {
+      "Lvl 61 Youngster Mikey - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -129182,7 +129215,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt66 ": {
+      "Lvl 47 Team Plasma Grunt23 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -129213,7 +129246,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt81 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt38 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -129244,7 +129277,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Ace Trainer Miki2 - Route 23": {
+      "Lvl 54 Ace Trainer Miki - Route 23": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -129275,7 +129308,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Youngster Henley2 ": {
+      "Lvl 60 Youngster Henley ": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -129306,7 +129339,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt108 ": {
+      "Lvl 45 Team Plasma Grunt49 ": {
         "level": 45,
         "ai": 129,
         "noCh": false,
@@ -129401,7 +129434,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Tibor2 - Driftveil City": {
+      "Lvl 42 Worker Tibor - Driftveil City": {
         "level": 42,
         "ai": 143,
         "noCh": true,
@@ -129432,7 +129465,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Hiker Keith2 - Relic Passage": {
+      "Lvl 47 Hiker Keith - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -129527,7 +129560,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Ranger Forrest2 - Lostlorn Forest": {
+      "Lvl 37 PkMn Ranger Forrest - Lostlorn Forest": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -129558,7 +129591,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Backpacker Kumiko2 ": {
+      "Lvl 56 Backpacker Kumiko ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -129684,7 +129717,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Rich Boy Keenan2 - Route 4": {
+      "Lvl 34 Rich Boy Keenan - Route 4": {
         "level": 34,
         "ai": 15,
         "noCh": false,
@@ -129715,7 +129748,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 PkMn Ranger Malory2 - Route 20": {
+      "Lvl 33 PkMn Ranger Malory - Route 20": {
         "level": 33,
         "ai": 7,
         "noCh": false,
@@ -129746,7 +129779,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Waitress Jan2 ": {
+      "Lvl 60 Waitress Jan ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -129777,7 +129810,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Ace Trainer Miki2 - Route 23": {
+      "Lvl 54 Ace Trainer Miki - Route 23": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -129808,7 +129841,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 PkMn Ranger Lewis4 ": {
+      "Lvl 56 PkMn Ranger Lewis2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -129839,7 +129872,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Ranger Eliza4 ": {
+      "Lvl 38 PkMn Ranger Eliza2 ": {
         "level": 38,
         "ai": 143,
         "noCh": false,
@@ -129870,7 +129903,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Kanto Leader Blaine2 - Abundant Shrine": {
+      "Lvl 62 Kanto Leader Blaine - Abundant Shrine": {
         "level": 62,
         "ai": 15,
         "noCh": true,
@@ -129901,7 +129934,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N6 ": {
+      "Lvl 75 PkMn Trainer N2 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -129996,7 +130029,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Zinzolin3 1": {
+      "Lvl 48 Team Plasma Zinzolin 1": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -130027,7 +130060,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Zinzolin3 2": {
+      "Lvl 48 Team Plasma Zinzolin 2": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -130058,7 +130091,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Zinzolin5 1": {
+      "Lvl 49 Team Plasma Zinzolin2 1": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -130089,7 +130122,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Zinzolin5 2": {
+      "Lvl 49 Team Plasma Zinzolin2 2": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -130120,7 +130153,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Scientist Ronald2 - Chargestone Cave": {
+      "Lvl 50 Scientist Ronald - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -130151,7 +130184,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Zinzolin7 1": {
+      "Lvl 46 Team Plasma Zinzolin3 1": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -130182,7 +130215,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Zinzolin7 2": {
+      "Lvl 46 Team Plasma Zinzolin3 2": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -130213,7 +130246,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Team Plasma Zinzolin8 ": {
+      "Lvl 42 Team Plasma Zinzolin4 ": {
         "level": 42,
         "ai": 135,
         "noCh": false,
@@ -130401,7 +130434,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Backers Ava & Aya2 - Driftveil City": {
+      "Lvl 41 Backers Ava & Aya - Driftveil City": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -130432,7 +130465,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Socialite Marian2 ": {
+      "Lvl 58 Socialite Marian ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -130463,7 +130496,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Nursery Aide Ilse2 ": {
+      "Lvl 62 Nursery Aide Ilse ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -130494,7 +130527,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Belle2 - Mistralton Cave": {
+      "Lvl 50 Ace Trainer Belle - Mistralton Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -130589,7 +130622,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Swimmer F Kaoru2 - Route 21": {
+      "Lvl 58 Swimmer F Kaoru - Route 21": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -130620,7 +130653,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Noel2 ": {
+      "Lvl 42 Worker Noel ": {
         "level": 42,
         "ai": 15,
         "noCh": true,
@@ -130651,7 +130684,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Veteran Oriana2 - Route 2": {
+      "Lvl 66 Veteran Oriana - Route 2": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -130682,7 +130715,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Hoenn Leader Flannery2 ": {
+      "Lvl 57 Hoenn Leader Flannery ": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -130777,7 +130810,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Worker Maynard2 - Driftveil City": {
+      "Lvl 45 Worker Maynard - Driftveil City": {
         "level": 45,
         "ai": 143,
         "noCh": true,
@@ -130808,7 +130841,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Hiker Jared2 - Reversal Mountain": {
+      "Lvl 56 Hiker Jared - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -130872,7 +130905,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Ranger Serenity2 - Lostlorn Forest": {
+      "Lvl 37 PkMn Ranger Serenity - Lostlorn Forest": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -130903,7 +130936,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Fisherman Kenzo2 - Route 21": {
+      "Lvl 58 Fisherman Kenzo - Route 21": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -130934,7 +130967,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Steve2 - Route 23": {
+      "Lvl 52 PkMn Ranger Steve - Route 23": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -130965,7 +130998,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Shaye2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Shaye - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -130996,7 +131029,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Ryder2 - Route 8": {
+      "Lvl 60 Fisherman Ryder - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -131027,7 +131060,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Eustace2 - Moor of Icirrus": {
+      "Lvl 60 Fisherman Eustace - Moor of Icirrus": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -131122,7 +131155,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Swimmer M Harold2 - Route 21": {
+      "Lvl 58 Swimmer M Harold - Route 21": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -131153,7 +131186,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Champion Iris3 ": {
+      "Lvl 57 Champion Iris ": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -131184,7 +131217,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Ace Trainer Jeanne2 - Humilau City": {
+      "Lvl 60 Ace Trainer Jeanne - Humilau City": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -131215,7 +131248,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Lydon2 - Route 17": {
+      "Lvl 50 Ace Trainer Lydon - Route 17": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -131246,7 +131279,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Fisherman Bucky2 - Route 17": {
+      "Lvl 56 Fisherman Bucky - Route 17": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -131277,7 +131310,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 Champion Iris4 ": {
+      "Lvl 76 Champion Iris2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -131308,7 +131341,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga16 - Starter 3": {
+      "Lvl 57 Rival Benga9 - Starter 3": {
         "level": 57,
         "ai": 7,
         "noCh": true,
@@ -131339,7 +131372,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 Champion Iris6 ": {
+      "Lvl 77 Champion Iris3 ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -131434,7 +131467,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Twins Sola & Ana2 - Route 7": {
+      "Lvl 50 Twins Sola & Ana - Route 7": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -131465,7 +131498,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Veteran Oriana2 - Route 2": {
+      "Lvl 66 Veteran Oriana - Route 2": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -131529,7 +131562,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Team Plasma Shadow23 ": {
+      "Lvl 51 Team Plasma Shadow11 ": {
         "level": 51,
         "ai": 7,
         "noCh": false,
@@ -131560,7 +131593,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Psychic Joyce2 - Celestial Tower": {
+      "Lvl 52 Psychic Joyce - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -131591,7 +131624,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 Team Plasma Shadow28 ": {
+      "Lvl 67 Team Plasma Shadow16 ": {
         "level": 67,
         "ai": 135,
         "noCh": false,
@@ -131622,7 +131655,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina2 - Celestial Tower": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Tower": {
         "level": 53,
         "ai": 15,
         "noCh": false,
@@ -131748,7 +131781,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Cyclist Hector2 - Route 16": {
+      "Lvl 36 Cyclist Hector - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -131779,7 +131812,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Ranger Dianne2 - Route 13": {
+      "Lvl 39 PkMn Ranger Dianne - Route 13": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -131810,7 +131843,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Jameson2 - Chargestone Cave": {
+      "Lvl 48 Hiker Jameson - Chargestone Cave": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -131905,7 +131938,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Backpacker Kiyo4 ": {
+      "Lvl 56 Backpacker Kiyo2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -132062,7 +132095,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Team Plasma Shadow12 ": {
+      "Lvl 52 Team Plasma Shadow7 ": {
         "level": 52,
         "ai": 79,
         "noCh": false,
@@ -132093,7 +132126,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pilot Elron2 - Mistralton City": {
+      "Lvl 51 Pilot Elron - Mistralton City": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -132124,7 +132157,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 30 Kanto Leader Lt. Surge2 - Liberty Garden": {
+      "Lvl 30 Kanto Leader Lt. Surge - Liberty Garden": {
         "level": 30,
         "ai": 15,
         "noCh": true,
@@ -132188,7 +132221,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Shadow8 ": {
+      "Lvl 57 Team Plasma Shadow4 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -132250,7 +132283,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Musician Ray2 ": {
+      "Lvl 58 Musician Ray ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -132281,7 +132314,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Beryl2 ": {
+      "Lvl 55 Veteran Beryl ": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -132312,7 +132345,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Mara2 - Route 6": {
+      "Lvl 49 School Kid Mara - Route 6": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -132343,7 +132376,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Psychic Dua2 - Relic Castle": {
+      "Lvl 36 Psychic Dua - Relic Castle": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -132438,7 +132471,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Lass Henrietta2 - Route 2": {
+      "Lvl 61 Lass Henrietta - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -132469,7 +132502,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Vicki2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Vicki - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -132500,7 +132533,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Harlequin Gary2 - Castelia City": {
+      "Lvl 29 Harlequin Gary - Castelia City": {
         "level": 29,
         "ai": 143,
         "noCh": false,
@@ -132595,7 +132628,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Colress3 ": {
+      "Lvl 50 Team Plasma Colress ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -132626,7 +132659,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Psychic Ena2 - Relic Passage": {
+      "Lvl 48 Psychic Ena - Relic Passage": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -132657,7 +132690,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Psychic Al2 - Victory Road": {
+      "Lvl 54 Psychic Al - Victory Road": {
         "level": 54,
         "ai": 5,
         "noCh": false,
@@ -132721,7 +132754,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Sinclair2 - Route 4": {
+      "Lvl 49 School Kid Sinclair - Route 4": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -132752,7 +132785,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer F Desiree2 ": {
+      "Lvl 59 Swimmer F Desiree ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -132783,7 +132816,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Ranger Lena2 - Route 23": {
+      "Lvl 53 PkMn Ranger Lena - Route 23": {
         "level": 53,
         "ai": 7,
         "noCh": false,
@@ -132878,7 +132911,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Rich Boy Keenan2 - Route 4": {
+      "Lvl 34 Rich Boy Keenan - Route 4": {
         "level": 34,
         "ai": 15,
         "noCh": false,
@@ -132909,7 +132942,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Socialite Marian2 ": {
+      "Lvl 58 Socialite Marian ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -132940,7 +132973,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Sinclair2 - Route 4": {
+      "Lvl 49 School Kid Sinclair - Route 4": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -132971,7 +133004,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Fisherman Doyle2 - Humilau City": {
+      "Lvl 59 Fisherman Doyle - Humilau City": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -133002,7 +133035,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Ryder2 - Route 8": {
+      "Lvl 60 Fisherman Ryder - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -133033,7 +133066,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Arnold2 - Moor of Icirrus": {
+      "Lvl 60 Fisherman Arnold - Moor of Icirrus": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -133128,7 +133161,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Sinclair2 - Route 4": {
+      "Lvl 49 School Kid Sinclair - Route 4": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -133159,7 +133192,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Preschooler Eva2 - Route 3": {
+      "Lvl 61 Preschooler Eva - Route 3": {
         "level": 61,
         "ai": 0,
         "noCh": false,
@@ -133190,7 +133223,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 School Kid Neil2 ": {
+      "Lvl 29 School Kid Neil ": {
         "level": 29,
         "ai": 143,
         "noCh": false,
@@ -133254,7 +133287,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Beauty Ampre2 ": {
+      "Lvl 39 Beauty Ampre ": {
         "level": 39,
         "ai": 15,
         "noCh": false,
@@ -133285,7 +133318,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Pokefan Norbert2 - Route 4": {
+      "Lvl 25 Pokefan Norbert - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -133316,7 +133349,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 School Kid Sinclair2 - Route 4": {
+      "Lvl 50 School Kid Sinclair - Route 4": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -133347,7 +133380,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Santino2 - Humilau City": {
+      "Lvl 60 Fisherman Santino - Humilau City": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -133378,7 +133411,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N5 ": {
+      "Lvl 75 PkMn Trainer N ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -133535,7 +133568,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Backpacker Roland2 - Route 4": {
+      "Lvl 35 Backpacker Roland - Route 4": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -133566,7 +133599,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Gentleman Sheldon2 ": {
+      "Lvl 58 Gentleman Sheldon ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -133597,7 +133630,38 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Black Belt 4 - Wellspring Cave": {
+      "Lvl 61 Sinnoh Leader Gardenia2 ": {
+        "level": 61,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 538,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Hasty",
+        "moves": [
+          "Close Combat",
+          "Stone Edge",
+          "Facade",
+          "Spore"
+        ],
+        "sub_index": 1,
+        "ability": "Overgrow",
+        "sprite": "trainer_sprites/sinnohleader.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 62 Black Belt 2 - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -133723,7 +133787,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Cyclist Hector2 - Route 16": {
+      "Lvl 36 Cyclist Hector - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -133754,7 +133818,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Fisherman Leroy2 - Route 13": {
+      "Lvl 40 Fisherman Leroy - Route 13": {
         "level": 40,
         "ai": 1,
         "noCh": false,
@@ -133785,7 +133849,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Ace Trainer Sable2 - Humilau City": {
+      "Lvl 61 Ace Trainer Sable - Humilau City": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -133816,7 +133880,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Youngster Astor2 - Route 8": {
+      "Lvl 60 Youngster Astor - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -133911,7 +133975,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Parasol Lady Melina2 - Humilau City": {
+      "Lvl 61 Parasol Lady Melina - Humilau City": {
         "level": 61,
         "ai": 15,
         "noCh": false,
@@ -133942,7 +134006,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Hiker Shelby2 - Mistralton Cave": {
+      "Lvl 50 Hiker Shelby - Mistralton Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -133973,7 +134037,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N5 ": {
+      "Lvl 75 PkMn Trainer N ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -134068,7 +134132,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Dwayne2 ": {
+      "Lvl 62 PkMn Ranger Dwayne ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -134163,7 +134227,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Ranger Richard2 - Route 6": {
+      "Lvl 48 PkMn Ranger Richard - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -134194,7 +134258,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 PkMn Ranger Rick2 - Route 1": {
+      "Lvl 64 PkMn Ranger Rick - Route 1": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -134225,7 +134289,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Backpacker Kumiko2 ": {
+      "Lvl 56 Backpacker Kumiko ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -134256,7 +134320,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Kanto Leader Erika2 - Lostlorn Forest": {
+      "Lvl 39 Kanto Leader Erika - Lostlorn Forest": {
         "level": 39,
         "ai": 15,
         "noCh": false,
@@ -134351,7 +134415,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Ranger Serenity2 - Lostlorn Forest": {
+      "Lvl 37 PkMn Ranger Serenity - Lostlorn Forest": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -134382,7 +134446,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival34 - Starter 2": {
+      "Lvl 49 PkMn Trainer Rival14 - Starter 2": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -134413,7 +134477,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Backpacker Randall2 - Relic Passage": {
+      "Lvl 48 Backpacker Randall - Relic Passage": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -134444,7 +134508,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Chandra2 - Victory Road": {
+      "Lvl 55 Ace Trainer Chandra - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -134475,7 +134539,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Veteran Ernest2 ": {
+      "Lvl 60 Veteran Ernest ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -134539,7 +134603,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Fisherman Andrew2 - Route 4": {
+      "Lvl 26 Fisherman Andrew - Route 4": {
         "level": 26,
         "ai": 15,
         "noCh": false,
@@ -134570,7 +134634,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Parasol Lady Nicole2 - Route 6": {
+      "Lvl 43 Parasol Lady Nicole - Route 6": {
         "level": 43,
         "ai": 143,
         "noCh": false,
@@ -134601,7 +134665,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Ace Trainer Enzio2 - Humilau City": {
+      "Lvl 59 Ace Trainer Enzio - Humilau City": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -134632,7 +134696,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Fisherman Bucky2 - Route 17": {
+      "Lvl 56 Fisherman Bucky - Route 17": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -134760,7 +134824,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Beauty Nikola2 ": {
+      "Lvl 37 Beauty Nikola ": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -134791,7 +134855,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Colress8 - Dreamyard": {
+      "Lvl 47 Team Plasma Colress4 - Dreamyard": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -135041,7 +135105,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Striker Roberto3 ": {
+      "Lvl 34 Striker Roberto2 ": {
         "level": 34,
         "ai": 7,
         "noCh": false,
@@ -135072,7 +135136,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 PkMn Breeder Galen2 ": {
+      "Lvl 24 PkMn Breeder Galen ": {
         "level": 24,
         "ai": 5,
         "noCh": false,
@@ -135103,7 +135167,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt42 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt2 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -135134,7 +135198,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt68 ": {
+      "Lvl 46 Team Plasma Grunt25 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -135165,7 +135229,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Pokefan Lydia2 - Route 15": {
+      "Lvl 60 Pokefan Lydia - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -135196,7 +135260,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt103 ": {
+      "Lvl 24 Team Plasma Grunt44 ": {
         "level": 24,
         "ai": 15,
         "noCh": true,
@@ -135227,7 +135291,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren8 ": {
+      "Lvl 65 PkMn Trainer Cheren3 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -135258,7 +135322,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren9 ": {
+      "Lvl 65 PkMn Trainer Cheren4 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -135289,7 +135353,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren10 ": {
+      "Lvl 65 PkMn Trainer Cheren5 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -135320,7 +135384,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Guitarist Tina2 ": {
+      "Lvl 33 Guitarist Tina ": {
         "level": 33,
         "ai": 1,
         "noCh": true,
@@ -135351,7 +135415,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt108 ": {
+      "Lvl 45 Team Plasma Grunt49 ": {
         "level": 45,
         "ai": 129,
         "noCh": false,
@@ -135415,7 +135479,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Hooligans Jim & Cas2 - Route 9": {
+      "Lvl 42 Hooligans Jim & Cas - Route 9": {
         "level": 42,
         "ai": 129,
         "noCh": false,
@@ -135446,7 +135510,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Ghetsis2 ": {
+      "Lvl 50 Team Plasma Ghetsis ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -135477,7 +135541,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt63 ": {
+      "Lvl 47 Team Plasma Grunt20 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -135508,7 +135572,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt78 ": {
+      "Lvl 47 Team Plasma Grunt35 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -135539,7 +135603,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Veteran Julia2 - Twist Mountain": {
+      "Lvl 63 Veteran Julia - Twist Mountain": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -135570,7 +135634,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Kanto Leader Janine2 - Driftveil City": {
+      "Lvl 44 Kanto Leader Janine - Driftveil City": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -135601,7 +135665,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt109 ": {
+      "Lvl 46 Team Plasma Grunt50 ": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -135632,7 +135696,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt112 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt53 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -135696,7 +135760,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Team Plasma Shadow12 ": {
+      "Lvl 52 Team Plasma Shadow7 ": {
         "level": 52,
         "ai": 79,
         "noCh": false,
@@ -135727,7 +135791,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Janitor Brady2 - Castelia Sewers": {
+      "Lvl 28 Janitor Brady - Castelia Sewers": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -135758,7 +135822,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Parker2 - Moor of Icirrus": {
+      "Lvl 62 PkMn Ranger Parker - Moor of Icirrus": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -135915,7 +135979,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Cosplayer Miriam2 - Join Avenue": {
+      "Lvl 37 Cosplayer Miriam - Join Avenue": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -135946,7 +136010,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Ace Trainer Cheyenne2 - Route 1": {
+      "Lvl 66 Ace Trainer Cheyenne - Route 1": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -135977,7 +136041,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Scientist Lumi2 - Chargestone Cave": {
+      "Lvl 50 Scientist Lumi - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -136041,7 +136105,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer F Kaoru2 - Route 21": {
+      "Lvl 59 Swimmer F Kaoru - Route 21": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -136072,7 +136136,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Lass Henrietta2 - Route 2": {
+      "Lvl 61 Lass Henrietta - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -136103,7 +136167,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Harlequin Clarence2 - Castelia City": {
+      "Lvl 29 Harlequin Clarence - Castelia City": {
         "level": 29,
         "ai": 143,
         "noCh": false,
@@ -136134,7 +136198,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Kanto Leader Erika2 - Lostlorn Forest": {
+      "Lvl 39 Kanto Leader Erika - Lostlorn Forest": {
         "level": 39,
         "ai": 15,
         "noCh": false,
@@ -136198,7 +136262,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Clarence2 - Castelia City": {
+      "Lvl 28 Harlequin Clarence - Castelia City": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -136355,7 +136419,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Black Belt Jay2 - Route 14": {
+      "Lvl 56 Black Belt Jay - Route 14": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -136386,7 +136450,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cynthia2 ": {
+      "Lvl 76 PkMn Trainer Cynthia ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -136417,7 +136481,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 PkMn Ranger Lena2 - Route 23": {
+      "Lvl 53 PkMn Ranger Lena - Route 23": {
         "level": 53,
         "ai": 7,
         "noCh": false,
@@ -136448,7 +136512,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Alder's partner Victini2 - Clay Tunnel": {
+      "Lvl 58 Alder's partner Victini - Clay Tunnel": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -136479,7 +136543,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Psychic Future2 - Desert Resort": {
+      "Lvl 37 Psychic Future - Desert Resort": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -136510,7 +136574,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Ace Trainer Belle2 - Mistralton Cave": {
+      "Lvl 51 Ace Trainer Belle - Mistralton Cave": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -136541,7 +136605,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Rival Benga14 - Starter 3": {
+      "Lvl 56 Rival Benga7 - Starter 3": {
         "level": 56,
         "ai": 7,
         "noCh": true,
@@ -136572,7 +136636,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Marshal4 ": {
+      "Lvl 73 Elite Four Marshal3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -136636,7 +136700,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 19 Scientist Bryce2 - Virbank City": {
+      "Lvl 19 Scientist Bryce - Virbank City": {
         "level": 19,
         "ai": 15,
         "noCh": false,
@@ -136793,7 +136857,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Ranger Richard2 - Route 6": {
+      "Lvl 48 PkMn Ranger Richard - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -136824,7 +136888,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 PkMn Ranger Naoko2 - Route 20": {
+      "Lvl 32 PkMn Ranger Naoko - Route 20": {
         "level": 32,
         "ai": 7,
         "noCh": false,
@@ -136855,7 +136919,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Lass Henrietta2 - Route 2": {
+      "Lvl 61 Lass Henrietta - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -136886,7 +136950,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Nurse Mariah2 - Driftveil Drawbridge": {
+      "Lvl 41 Nurse Mariah - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -136917,7 +136981,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Nurse Dixie2 - Celestial Tower": {
+      "Lvl 35 Nurse Dixie - Celestial Tower": {
         "level": 35,
         "ai": 7,
         "noCh": false,
@@ -136948,7 +137012,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Doctor Julius2 - Plasma Frigate": {
+      "Lvl 49 Doctor Julius - Plasma Frigate": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -137169,7 +137233,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Pokefan Sachiko2 - Route 4": {
+      "Lvl 34 Pokefan Sachiko - Route 4": {
         "level": 34,
         "ai": 15,
         "noCh": false,
@@ -137200,7 +137264,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Backpacker Blossom2 - Route 14": {
+      "Lvl 55 Backpacker Blossom - Route 14": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -137231,7 +137295,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Lady Myra2 ": {
+      "Lvl 59 Lady Myra ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -137262,7 +137326,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pokefan Georgia2 - Celestial Tower": {
+      "Lvl 51 Pokefan Georgia - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -137293,7 +137357,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk F Britney2 - Castelia City": {
+      "Lvl 27 Clerk F Britney - Castelia City": {
         "level": 27,
         "ai": 7,
         "noCh": false,
@@ -137452,7 +137516,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Pokefan Norbert2 - Route 4": {
+      "Lvl 25 Pokefan Norbert - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -137483,7 +137547,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Twins Sola & Ana2 - Route 7": {
+      "Lvl 50 Twins Sola & Ana - Route 7": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -137514,7 +137578,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Team Plasma Grunt44 ": {
+      "Lvl 41 Team Plasma Grunt4 ": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -137545,7 +137609,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Dancer Kidd2 - Chargestone Cave": {
+      "Lvl 48 Dancer Kidd - Chargestone Cave": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -137640,7 +137704,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 GAME FREAK Morimoto3 ": {
+      "Lvl 14 GAME FREAK Morimoto2 ": {
         "level": 14,
         "ai": 7,
         "noCh": false,
@@ -137671,7 +137735,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Seymour5 ": {
+      "Lvl 12 School Kid Seymour3 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -137704,7 +137768,7 @@ backup_data = {
       }
     },
     "Tyranitar": {
-      "Lvl 59 Team Plasma Shadow4 ": {
+      "Lvl 59 Team Plasma Shadow1 ": {
         "level": 59,
         "ai": 15,
         "noCh": false,
@@ -137766,7 +137830,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Veteran Beryl2 ": {
+      "Lvl 57 Veteran Beryl ": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -137797,7 +137861,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 70 Veteran Vincent2 - Route 18": {
+      "Lvl 70 Veteran Vincent - Route 18": {
         "level": 70,
         "ai": 7,
         "noCh": false,
@@ -137828,7 +137892,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Blue Blue2 ": {
+      "Lvl 73 Blue Blue ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -137954,7 +138018,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow13 ": {
+      "Lvl 58 Team Plasma Shadow8 ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -137985,7 +138049,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 PkMn Ranger Eliza3 - Reversal Mountain": {
+      "Lvl 56 PkMn Ranger Eliza - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -138016,7 +138080,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Carter2 - Twist Mountain": {
+      "Lvl 64 Veteran Carter - Twist Mountain": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -138047,7 +138111,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Cathy2 - Victory Road": {
+      "Lvl 55 Veteran Cathy - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -138078,7 +138142,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Rosaline2 ": {
+      "Lvl 64 Veteran Rosaline ": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -138109,7 +138173,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Kanto Leader Janine2 - Driftveil City": {
+      "Lvl 45 Kanto Leader Janine - Driftveil City": {
         "level": 45,
         "ai": 143,
         "noCh": true,
@@ -138173,7 +138237,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Parasol Lady Nicole2 - Route 6": {
+      "Lvl 42 Parasol Lady Nicole - Route 6": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -138204,7 +138268,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Cyclist Adelaide2 ": {
+      "Lvl 55 Cyclist Adelaide ": {
         "level": 55,
         "ai": 15,
         "noCh": false,
@@ -138235,7 +138299,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Keldeo2 - Clay Tunnel": {
+      "Lvl 62 PkMn Ranger Keldeo - Clay Tunnel": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -138266,7 +138330,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Sinnoh Leader Gardenia4 ": {
+      "Lvl 61 Sinnoh Leader Gardenia2 ": {
         "level": 61,
         "ai": 15,
         "noCh": false,
@@ -138282,14 +138346,14 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Tera Powder",
-        "nature": "Lax",
+        "nature": "Mild",
         "moves": [
           "Supercell Slam",
           "Snap Trap",
           "U-turn",
           "Spikes"
         ],
-        "sub_index": 1,
+        "sub_index": 0,
         "ability": "Levitate",
         "sprite": "trainer_sprites/sinnohleader.png",
         "form": 0,
@@ -138297,7 +138361,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Parker2 - Moor of Icirrus": {
+      "Lvl 62 PkMn Ranger Parker - Moor of Icirrus": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -138361,7 +138425,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Tavarius2 - Driftveil City": {
+      "Lvl 43 Worker Tavarius - Driftveil City": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -138392,7 +138456,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Hiker Justin2 ": {
+      "Lvl 45 Hiker Justin ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -138423,7 +138487,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Maid Tammy2 ": {
+      "Lvl 66 Maid Tammy ": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -138454,7 +138518,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Gus2 - Twist Mountain": {
+      "Lvl 60 Worker Gus - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -138485,7 +138549,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Backpacker Annie2 - Relic Passage": {
+      "Lvl 47 Backpacker Annie - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -138706,7 +138770,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Psychic Lynette2 ": {
+      "Lvl 36 Psychic Lynette ": {
         "level": 36,
         "ai": 5,
         "noCh": false,
@@ -138737,7 +138801,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ace Trainer Ray2 ": {
+      "Lvl 56 Ace Trainer Ray ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -138768,7 +138832,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Ace Trainer Cora2 - Reversal Mountain": {
+      "Lvl 39 Ace Trainer Cora - Reversal Mountain": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -138799,7 +138863,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pokefan Georgia2 - Celestial Tower": {
+      "Lvl 51 Pokefan Georgia - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -138830,7 +138894,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Jamie2 - Victory Road": {
+      "Lvl 55 Ace Trainer Jamie - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -138861,7 +138925,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Red Red2 ": {
+      "Lvl 73 Red Red ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -138956,7 +139020,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Cyclist Krissa2 - Route 16": {
+      "Lvl 36 Cyclist Krissa - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -138987,7 +139051,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Ace Trainer Cheyenne2 - Route 1": {
+      "Lvl 66 Ace Trainer Cheyenne - Route 1": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -139018,7 +139082,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pokefan Jude2 - Celestial Tower": {
+      "Lvl 51 Pokefan Jude - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -139113,7 +139177,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Beauty Ampre2 ": {
+      "Lvl 39 Beauty Ampre ": {
         "level": 39,
         "ai": 15,
         "noCh": false,
@@ -139144,7 +139208,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Cyclist Hector2 - Route 16": {
+      "Lvl 36 Cyclist Hector - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -139175,7 +139239,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Ranger Daryl2 - Route 13": {
+      "Lvl 39 PkMn Ranger Daryl - Route 13": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -139206,7 +139270,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Sinnoh Leader Volkner2 ": {
+      "Lvl 51 Sinnoh Leader Volkner ": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -139237,7 +139301,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Tyra2 - Route 8": {
+      "Lvl 60 Parasol Lady Tyra - Route 8": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -139425,7 +139489,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Backpacker Ivan2 ": {
+      "Lvl 25 Backpacker Ivan ": {
         "level": 25,
         "ai": 1,
         "noCh": false,
@@ -139456,7 +139520,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Jimmy2 - Route 2": {
+      "Lvl 61 Youngster Jimmy - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -139487,7 +139551,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt54 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt11 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -139518,7 +139582,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt69 ": {
+      "Lvl 46 Team Plasma Grunt26 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -139549,7 +139613,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Policeman Jeff3 ": {
+      "Lvl 27 Policeman Jeff2 ": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -139580,7 +139644,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt85 ": {
+      "Lvl 46 Team Plasma Grunt40 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -139611,7 +139675,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Ranger Lewis3 - Reversal Mountain": {
+      "Lvl 38 PkMn Ranger Lewis - Reversal Mountain": {
         "level": 38,
         "ai": 7,
         "noCh": false,
@@ -139642,7 +139706,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt89 ": {
+      "Lvl 44 Team Plasma Grunt41 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -139673,7 +139737,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren7 ": {
+      "Lvl 65 PkMn Trainer Cheren2 ": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -139704,7 +139768,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Leader Lenora2 ": {
+      "Lvl 37 Leader Lenora ": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -139735,7 +139799,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt108 ": {
+      "Lvl 45 Team Plasma Grunt49 ": {
         "level": 45,
         "ai": 129,
         "noCh": false,
@@ -139766,7 +139830,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt117 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt58 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -139830,7 +139894,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Depot Agent Hank2 - Route 16": {
+      "Lvl 37 Depot Agent Hank - Route 16": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -139861,7 +139925,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 Veteran Gina2 - Route 18": {
+      "Lvl 68 Veteran Gina - Route 18": {
         "level": 68,
         "ai": 135,
         "noCh": false,
@@ -139892,7 +139956,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Backpacker Kendall2 - Relic Passage": {
+      "Lvl 28 Backpacker Kendall - Relic Passage": {
         "level": 28,
         "ai": 7,
         "noCh": false,
@@ -139923,7 +139987,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Backpacker Annie2 - Relic Passage": {
+      "Lvl 47 Backpacker Annie - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -139987,7 +140051,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Lass Henrietta2 - Route 2": {
+      "Lvl 61 Lass Henrietta - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -140115,7 +140179,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Pokefan Lydia2 - Route 15": {
+      "Lvl 60 Pokefan Lydia - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -140179,7 +140243,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 Kanto Leader Brock2 - Pledge Grove": {
+      "Lvl 13 Kanto Leader Brock - Pledge Grove": {
         "level": 13,
         "ai": 15,
         "noCh": false,
@@ -140274,7 +140338,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 School Kid Neil2 ": {
+      "Lvl 29 School Kid Neil ": {
         "level": 29,
         "ai": 143,
         "noCh": false,
@@ -140305,7 +140369,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Lady Elizandra3 ": {
+      "Lvl 16 Lady Elizandra2 ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -140369,7 +140433,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Motorcyclist Charles6 ": {
+      "Lvl 42 Motorcyclist Charles2 ": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -140400,7 +140464,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Motorcyclist Charles7 ": {
+      "Lvl 43 Motorcyclist Charles3 ": {
         "level": 43,
         "ai": 135,
         "noCh": true,
@@ -140431,7 +140495,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt46 ": {
+      "Lvl 47 Team Plasma Grunt6 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -140462,7 +140526,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt107 ": {
+      "Lvl 24 Team Plasma Grunt48 ": {
         "level": 24,
         "ai": 143,
         "noCh": false,
@@ -140526,7 +140590,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Team Plasma Grunt44 ": {
+      "Lvl 41 Team Plasma Grunt4 ": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -140557,7 +140621,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Dwayne2 ": {
+      "Lvl 62 PkMn Ranger Dwayne ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -140588,7 +140652,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ace Trainer Cora4 ": {
+      "Lvl 56 Ace Trainer Cora2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -140807,7 +140871,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Rood2 ": {
+      "Lvl 43 PkMn Trainer Rood ": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -140838,7 +140902,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Chili2 ": {
+      "Lvl 65 PkMn Trainer Chili ": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -140869,7 +140933,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Hiker Jared2 - Reversal Mountain": {
+      "Lvl 56 Hiker Jared - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -140900,7 +140964,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Chandra2 - Victory Road": {
+      "Lvl 55 Ace Trainer Chandra - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -140931,7 +140995,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Backpacker Kumiko4 - Reversal Mountain": {
+      "Lvl 37 Backpacker Kumiko2 - Reversal Mountain": {
         "level": 37,
         "ai": 129,
         "noCh": false,
@@ -140995,7 +141059,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Swimmer F Kylie2 - Route 21": {
+      "Lvl 58 Swimmer F Kylie - Route 21": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -141026,7 +141090,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt47 ": {
+      "Lvl 47 Team Plasma Grunt7 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -141045,9 +141109,9 @@ backup_data = {
         "nature": "Careful",
         "moves": [
           "Waterfall",
-          "Screech",
-          "Helping Hand",
-          "Megahorn"
+          "Ice Fang",
+          "Megahorn",
+          "Helping Hand"
         ],
         "sub_index": 1,
         "ability": "Motor Drive",
@@ -141057,7 +141121,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Fisherman Bruce2 - Route 3": {
+      "Lvl 61 Fisherman Bruce - Route 3": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -141088,7 +141152,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Team Plasma Grunt103 ": {
+      "Lvl 25 Team Plasma Grunt44 ": {
         "level": 25,
         "ai": 15,
         "noCh": true,
@@ -141247,7 +141311,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Shadow8 ": {
+      "Lvl 57 Team Plasma Shadow4 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -141278,7 +141342,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Lass Henrietta2 - Route 2": {
+      "Lvl 61 Lass Henrietta - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -141309,7 +141373,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Ranger Audra2 - Route 1": {
+      "Lvl 48 PkMn Ranger Audra - Route 1": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -141340,7 +141404,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Scientist Caroline2 ": {
+      "Lvl 26 Scientist Caroline ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -141435,7 +141499,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Rich Boy Lowell2 ": {
+      "Lvl 59 Rich Boy Lowell ": {
         "level": 59,
         "ai": 15,
         "noCh": false,
@@ -141466,7 +141530,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt46 ": {
+      "Lvl 47 Team Plasma Grunt6 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -141497,7 +141561,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Waitress Jan2 ": {
+      "Lvl 60 Waitress Jan ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -141528,7 +141592,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Socialite Grace2 - Celestial Tower": {
+      "Lvl 51 Socialite Grace - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -141559,7 +141623,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca6 ": {
+      "Lvl 63 PkMn Trainer Bianca2 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -141590,7 +141654,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca7 ": {
+      "Lvl 63 PkMn Trainer Bianca3 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -141621,7 +141685,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca8 ": {
+      "Lvl 63 PkMn Trainer Bianca4 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -141652,7 +141716,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Subway Boss Emmet2 ": {
+      "Lvl 40 Subway Boss Emmet ": {
         "level": 40,
         "ai": 143,
         "noCh": false,
@@ -141683,7 +141747,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 Red Red2 ": {
+      "Lvl 75 Red Red ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -141747,7 +141811,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Lass Mali2 - Route 2": {
+      "Lvl 61 Lass Mali - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -141873,7 +141937,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Hiker Markus2 - Reversal Mountain": {
+      "Lvl 56 Hiker Markus - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -141904,7 +141968,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Cairn2 - Twist Mountain": {
+      "Lvl 60 Worker Cairn - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -141935,7 +141999,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 Lass Diana3 ": {
+      "Lvl 1 Lass Diana ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -141966,7 +142030,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Ace Trainer Jacqueline2 ": {
+      "Lvl 40 Ace Trainer Jacqueline ": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -141997,7 +142061,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Janice2 - Chargestone Cave": {
+      "Lvl 49 School Kid Janice - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -142061,7 +142125,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Linebacker Jonah4 - Driftveil Drawbridge": {
+      "Lvl 41 Linebacker Jonah - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -142123,7 +142187,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow11 ": {
+      "Lvl 58 Team Plasma Shadow6 ": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -142154,7 +142218,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Champion Iris3 ": {
+      "Lvl 57 Champion Iris ": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -142185,7 +142249,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Veteran Jerry2 ": {
+      "Lvl 45 Veteran Jerry ": {
         "level": 45,
         "ai": 7,
         "noCh": true,
@@ -142216,7 +142280,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Veteran Rhona2 ": {
+      "Lvl 45 Veteran Rhona ": {
         "level": 45,
         "ai": 7,
         "noCh": true,
@@ -142247,7 +142311,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Veteran Ron2 ": {
+      "Lvl 44 Veteran Ron ": {
         "level": 44,
         "ai": 135,
         "noCh": true,
@@ -142278,7 +142342,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Veteran Denae2 ": {
+      "Lvl 44 Veteran Denae ": {
         "level": 44,
         "ai": 7,
         "noCh": true,
@@ -142309,7 +142373,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 Champion Iris4 ": {
+      "Lvl 76 Champion Iris2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -142340,7 +142404,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Mary2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Mary - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -142371,7 +142435,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Backpacker Randall2 - Relic Passage": {
+      "Lvl 48 Backpacker Randall - Relic Passage": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -142402,7 +142466,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Rival Benga13 - Route 4 - Starter 3": {
+      "Lvl 36 Rival Benga6 - Route 4 - Starter 3": {
         "level": 36,
         "ai": 143,
         "noCh": true,
@@ -142433,7 +142497,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga16 - Starter 3": {
+      "Lvl 57 Rival Benga9 - Starter 3": {
         "level": 57,
         "ai": 7,
         "noCh": true,
@@ -142497,7 +142561,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Hoopster John4 - Nimbasa City": {
+      "Lvl 63 Hoopster John2 - Nimbasa City": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -142590,7 +142654,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Tavarius2 - Driftveil City": {
+      "Lvl 42 Worker Tavarius - Driftveil City": {
         "level": 42,
         "ai": 143,
         "noCh": true,
@@ -142621,7 +142685,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Hiker Markus2 - Reversal Mountain": {
+      "Lvl 56 Hiker Markus - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -142652,7 +142716,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Otto2 - Chargestone Cave": {
+      "Lvl 48 Hiker Otto - Chargestone Cave": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -142683,7 +142747,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Abraham2 - Victory Road": {
+      "Lvl 55 Veteran Abraham - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -142714,7 +142778,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren8 ": {
+      "Lvl 65 PkMn Trainer Cheren3 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -142745,7 +142809,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren9 ": {
+      "Lvl 65 PkMn Trainer Cheren4 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -142776,7 +142840,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren10 ": {
+      "Lvl 65 PkMn Trainer Cheren5 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -142807,7 +142871,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Veteran Crispin2 ": {
+      "Lvl 60 Veteran Crispin ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -142838,7 +142902,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Kanto Leader Blaine2 - Abundant Shrine": {
+      "Lvl 61 Kanto Leader Blaine - Abundant Shrine": {
         "level": 61,
         "ai": 15,
         "noCh": true,
@@ -142902,7 +142966,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 78 GAME FREAK Nishino4 ": {
+      "Lvl 78 GAME FREAK Nishino2 ": {
         "level": 78,
         "ai": 7,
         "noCh": false,
@@ -142933,7 +142997,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Leader Lenora2 ": {
+      "Lvl 36 Leader Lenora ": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -142997,7 +143061,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 9 PkMn Trainer Rival5 - Starter 1": {
+      "Lvl 9 PkMn Trainer Rival4 - Starter 1": {
         "level": 9,
         "ai": 15,
         "noCh": false,
@@ -143092,7 +143156,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Tibor2 - Driftveil City": {
+      "Lvl 42 Worker Tibor - Driftveil City": {
         "level": 42,
         "ai": 143,
         "noCh": true,
@@ -143123,7 +143187,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 PkMn Trainer Cheren2 ": {
+      "Lvl 47 PkMn Trainer Cheren ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -143154,7 +143218,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 PkMn Ranger Anja2 - Desert Resort": {
+      "Lvl 35 PkMn Ranger Anja - Desert Resort": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -143342,7 +143406,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow11 ": {
+      "Lvl 58 Team Plasma Shadow6 ": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -143373,7 +143437,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Black Belt Zachary2 - Route 18": {
+      "Lvl 65 Black Belt Zachary - Route 18": {
         "level": 65,
         "ai": 3,
         "noCh": false,
@@ -143404,7 +143468,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Battle Girl Brenda2 - Route 23": {
+      "Lvl 53 Battle Girl Brenda - Route 23": {
         "level": 53,
         "ai": 3,
         "noCh": false,
@@ -143435,7 +143499,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Sterling2 - Victory Road": {
+      "Lvl 54 Veteran Sterling - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -143466,7 +143530,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Battle Girl Chalina2 - Victory Road": {
+      "Lvl 54 Battle Girl Chalina - Victory Road": {
         "level": 54,
         "ai": 3,
         "noCh": false,
@@ -143497,7 +143561,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Black Belt 3 - Wellspring Cave": {
+      "Lvl 62 Black Belt - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -143528,7 +143592,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Rival Benga14 - Starter 3": {
+      "Lvl 56 Rival Benga7 - Starter 3": {
         "level": 56,
         "ai": 7,
         "noCh": true,
@@ -143559,7 +143623,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Marshal4 ": {
+      "Lvl 73 Elite Four Marshal3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -143623,38 +143687,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Hoenn Leader Roxanne2 - Clay Tunnel": {
-        "level": 52,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 227,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "TM28",
-        "item": "Power Herb",
-        "nature": "Lonely",
-        "moves": [
-          "Rock Slide",
-          "Dig",
-          "Skull Bash",
-          "Substitute"
-        ],
-        "sub_index": 3,
-        "ability": "Sand Rush",
-        "sprite": "trainer_sprites/hoennleader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 38 Depot Agent Hank2 - Route 16": {
+      "Lvl 38 Depot Agent Hank - Route 16": {
         "level": 38,
         "ai": 15,
         "noCh": false,
@@ -143685,7 +143718,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 PkMn Ranger Johan2 - Seaside Cave": {
+      "Lvl 46 PkMn Ranger Johan - Seaside Cave": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -143716,7 +143749,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Black Belt Corey2 - Reversal Mountain": {
+      "Lvl 56 Black Belt Corey - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -143747,7 +143780,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Hiker Jeremy2 ": {
+      "Lvl 32 Hiker Jeremy ": {
         "level": 32,
         "ai": 1,
         "noCh": false,
@@ -143811,7 +143844,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt65 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt22 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -143842,7 +143875,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt80 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt37 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -143873,7 +143906,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Zinzolin8 ": {
+      "Lvl 44 Team Plasma Zinzolin4 ": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -143904,7 +143937,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt107 ": {
+      "Lvl 24 Team Plasma Grunt48 ": {
         "level": 24,
         "ai": 143,
         "noCh": false,
@@ -143968,7 +144001,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Melina2 - Humilau City": {
+      "Lvl 60 Parasol Lady Melina - Humilau City": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -143999,7 +144032,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Backpacker Annie2 - Relic Passage": {
+      "Lvl 47 Backpacker Annie - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -144030,7 +144063,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Gary2 - Castelia City": {
+      "Lvl 28 Harlequin Gary - Castelia City": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -144094,7 +144127,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 PkMn Breeder Galen2 ": {
+      "Lvl 24 PkMn Breeder Galen ": {
         "level": 24,
         "ai": 5,
         "noCh": false,
@@ -144125,7 +144158,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 PkMn Breeder Marcus2 ": {
+      "Lvl 34 PkMn Breeder Marcus ": {
         "level": 34,
         "ai": 5,
         "noCh": false,
@@ -144156,7 +144189,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 PkMn Trainer Rival43 - Starter 1": {
+      "Lvl 17 PkMn Trainer Rival16 - Starter 1": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -144187,7 +144220,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 PkMn Trainer Rival44 - Starter 2": {
+      "Lvl 17 PkMn Trainer Rival17 - Starter 2": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -144218,7 +144251,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 PkMn Trainer Rival45 - Starter 3": {
+      "Lvl 17 PkMn Trainer Rival18 - Starter 3": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -144249,7 +144282,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Clerk M Augustin2 ": {
+      "Lvl 24 Clerk M Augustin ": {
         "level": 24,
         "ai": 1,
         "noCh": false,
@@ -144313,7 +144346,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Backers Stu & Art2 - Route 16": {
+      "Lvl 36 Backers Stu & Art - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -144344,7 +144377,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Backpacker Reece2 - Route 14": {
+      "Lvl 55 Backpacker Reece - Route 14": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -144375,7 +144408,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Rich Boy Lowell2 ": {
+      "Lvl 59 Rich Boy Lowell ": {
         "level": 59,
         "ai": 15,
         "noCh": false,
@@ -144470,7 +144503,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Veteran Ruby2 ": {
+      "Lvl 56 Veteran Ruby ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -144501,7 +144534,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Nate6 ": {
+      "Lvl 38 PkMn Trainer Nate3 ": {
         "level": 38,
         "ai": 135,
         "noCh": false,
@@ -144532,7 +144565,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Rosa6 ": {
+      "Lvl 38 PkMn Trainer Rosa3 ": {
         "level": 38,
         "ai": 135,
         "noCh": false,
@@ -144563,7 +144596,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival19 - Starter 1": {
+      "Lvl 50 PkMn Trainer Rival7 - Starter 1": {
         "level": 50,
         "ai": 135,
         "noCh": false,
@@ -144594,7 +144627,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival23 - Starter 1": {
+      "Lvl 41 PkMn Trainer Rival10 - Starter 1": {
         "level": 41,
         "ai": 7,
         "noCh": false,
@@ -144625,7 +144658,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 PkMn Trainer Rival32 - Clay Tunnel - Starter 1": {
+      "Lvl 51 PkMn Trainer Rival13 - Clay Tunnel - Starter 1": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -144656,7 +144689,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Trainer Bianca5 - Dreamyard": {
+      "Lvl 52 PkMn Trainer Bianca - Dreamyard": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -144687,7 +144720,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 PkMn Trainer Rival52 - Starter 1": {
+      "Lvl 57 PkMn Trainer Rival22 - Starter 1": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -144718,7 +144751,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 PkMn Trainer Rival55 - Starter 1": {
+      "Lvl 64 PkMn Trainer Rival25 - Starter 1": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -144749,7 +144782,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Rival58 - Starter 1": {
+      "Lvl 67 PkMn Trainer Rival28 - Starter 1": {
         "level": 67,
         "ai": 7,
         "noCh": false,
@@ -144780,7 +144813,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Rival61 - Starter 1": {
+      "Lvl 43 PkMn Trainer Rival31 - Starter 1": {
         "level": 43,
         "ai": 135,
         "noCh": false,
@@ -144811,7 +144844,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Bianca8 ": {
+      "Lvl 65 PkMn Trainer Bianca4 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -144842,7 +144875,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Cheren8 ": {
+      "Lvl 67 PkMn Trainer Cheren3 ": {
         "level": 67,
         "ai": 7,
         "noCh": false,
@@ -144873,7 +144906,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival64 - Starter 1": {
+      "Lvl 50 PkMn Trainer Rival34 - Starter 1": {
         "level": 50,
         "ai": 135,
         "noCh": false,
@@ -144937,7 +144970,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Sinnoh Leader Volkner2 ": {
+      "Lvl 50 Sinnoh Leader Volkner ": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -145001,7 +145034,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Shadow6 ": {
+      "Lvl 57 Team Plasma Shadow2 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -145063,7 +145096,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Zinzolin3 ": {
+      "Lvl 50 Team Plasma Zinzolin ": {
         "level": 50,
         "ai": 135,
         "noCh": false,
@@ -145094,7 +145127,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt46 ": {
+      "Lvl 47 Team Plasma Grunt6 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -145125,7 +145158,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Team Plasma Zinzolin5 ": {
+      "Lvl 51 Team Plasma Zinzolin2 ": {
         "level": 51,
         "ai": 7,
         "noCh": false,
@@ -145156,7 +145189,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ace Trainer Ray2 ": {
+      "Lvl 56 Ace Trainer Ray ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -145187,7 +145220,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Veteran Zach2 - Twist Mountain": {
+      "Lvl 63 Veteran Zach - Twist Mountain": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -145218,7 +145251,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Zinzolin7 ": {
+      "Lvl 48 Team Plasma Zinzolin3 ": {
         "level": 48,
         "ai": 7,
         "noCh": false,
@@ -145344,7 +145377,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Policeman Neagle2 - Route 6": {
+      "Lvl 48 Policeman Neagle - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -145375,7 +145408,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Ralph2 ": {
+      "Lvl 62 PkMn Ranger Ralph ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -145406,7 +145439,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Youngster Keita2 - Virbank Complex": {
+      "Lvl 18 Youngster Keita - Virbank Complex": {
         "level": 18,
         "ai": 15,
         "noCh": false,
@@ -145470,7 +145503,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Cyclist Krissa2 - Route 16": {
+      "Lvl 36 Cyclist Krissa - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -145501,7 +145534,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Ace Trainer Sean2 - Route 1": {
+      "Lvl 66 Ace Trainer Sean - Route 1": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -145532,7 +145565,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Scientist Lumi2 - Chargestone Cave": {
+      "Lvl 50 Scientist Lumi - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -145563,7 +145596,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Kanto Leader Blaine2 - Abundant Shrine": {
+      "Lvl 61 Kanto Leader Blaine - Abundant Shrine": {
         "level": 61,
         "ai": 15,
         "noCh": true,
@@ -145689,7 +145722,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Cyclist Krissa2 - Route 16": {
+      "Lvl 36 Cyclist Krissa - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -145720,7 +145753,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cynthia2 ": {
+      "Lvl 76 PkMn Trainer Cynthia ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -145751,7 +145784,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Veteran Julia2 - Twist Mountain": {
+      "Lvl 63 Veteran Julia - Twist Mountain": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -145782,7 +145815,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Scientist Ronald2 - Chargestone Cave": {
+      "Lvl 50 Scientist Ronald - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -145813,7 +145846,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N8 ": {
+      "Lvl 75 PkMn Trainer N4 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -145908,7 +145941,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Pokefan Sachiko2 - Route 4": {
+      "Lvl 34 Pokefan Sachiko - Route 4": {
         "level": 34,
         "ai": 15,
         "noCh": false,
@@ -145939,7 +145972,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Sinnoh Leader Gardenia4 ": {
+      "Lvl 61 Sinnoh Leader Gardenia2 ": {
         "level": 61,
         "ai": 15,
         "noCh": false,
@@ -145958,9 +145991,9 @@ backup_data = {
         "nature": "Jolly",
         "moves": [
           "Frenzy Plant",
-          "-----",
-          "-----",
-          "-----"
+          "Double-Edge",
+          "Psyblade",
+          "U-turn"
         ],
         "sub_index": 3,
         "ability": "Tenacity",
@@ -145970,7 +146003,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Rosaline2 ": {
+      "Lvl 64 Veteran Rosaline ": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -146001,7 +146034,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N6 ": {
+      "Lvl 75 PkMn Trainer N2 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -146065,7 +146098,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Pasqual2 - Driftveil City": {
+      "Lvl 43 Worker Pasqual - Driftveil City": {
         "level": 43,
         "ai": 15,
         "noCh": true,
@@ -146096,7 +146129,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Guardian of Unova Cobalion2 ": {
+      "Lvl 52 Guardian of Unova Cobalion ": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -146127,7 +146160,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Ranger Briana2 - Chargestone Cave": {
+      "Lvl 49 PkMn Ranger Briana - Chargestone Cave": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -146158,7 +146191,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Kanto Leader Erika2 - Lostlorn Forest": {
+      "Lvl 39 Kanto Leader Erika - Lostlorn Forest": {
         "level": 39,
         "ai": 15,
         "noCh": false,
@@ -146189,7 +146222,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Lass Helia2 ": {
+      "Lvl 60 Lass Helia ": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -146346,7 +146379,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Mara2 - Route 6": {
+      "Lvl 49 School Kid Mara - Route 6": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -146377,7 +146410,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Breeder Magnolia2 - Route 11": {
+      "Lvl 41 PkMn Breeder Magnolia - Route 11": {
         "level": 41,
         "ai": 5,
         "noCh": false,
@@ -146408,7 +146441,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Ace Trainer Sable2 - Humilau City": {
+      "Lvl 61 Ace Trainer Sable - Humilau City": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -146472,7 +146505,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Linebacker Jonah4 - Driftveil Drawbridge": {
+      "Lvl 41 Linebacker Jonah - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -146503,7 +146536,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Nate4 ": {
+      "Lvl 38 PkMn Trainer Nate ": {
         "level": 38,
         "ai": 135,
         "noCh": false,
@@ -146534,7 +146567,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Rosa4 ": {
+      "Lvl 38 PkMn Trainer Rosa ": {
         "level": 38,
         "ai": 135,
         "noCh": false,
@@ -146565,7 +146598,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival20 - Starter 2": {
+      "Lvl 50 PkMn Trainer Rival8 - Starter 2": {
         "level": 50,
         "ai": 135,
         "noCh": false,
@@ -146596,7 +146629,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival25 - Starter 2": {
+      "Lvl 41 PkMn Trainer Rival11 - Starter 2": {
         "level": 41,
         "ai": 7,
         "noCh": false,
@@ -146627,7 +146660,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 PkMn Trainer Rival34 - Starter 2": {
+      "Lvl 51 PkMn Trainer Rival14 - Starter 2": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -146658,7 +146691,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 PkMn Trainer Rival53 - Starter 2": {
+      "Lvl 57 PkMn Trainer Rival23 - Starter 2": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -146689,7 +146722,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 PkMn Trainer Rival56 - Starter 2": {
+      "Lvl 64 PkMn Trainer Rival26 - Starter 2": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -146720,7 +146753,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Rival59 - Starter 2": {
+      "Lvl 67 PkMn Trainer Rival29 - Starter 2": {
         "level": 67,
         "ai": 7,
         "noCh": false,
@@ -146751,7 +146784,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Rival62 - Starter 2": {
+      "Lvl 43 PkMn Trainer Rival32 - Starter 2": {
         "level": 43,
         "ai": 135,
         "noCh": false,
@@ -146782,7 +146815,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Bianca6 ": {
+      "Lvl 65 PkMn Trainer Bianca2 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -146813,7 +146846,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Cheren9 ": {
+      "Lvl 67 PkMn Trainer Cheren4 ": {
         "level": 67,
         "ai": 7,
         "noCh": false,
@@ -146844,7 +146877,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Kanto Leader Janine2 - Driftveil City": {
+      "Lvl 44 Kanto Leader Janine - Driftveil City": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -146875,7 +146908,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival65 - Starter 2": {
+      "Lvl 50 PkMn Trainer Rival35 - Starter 2": {
         "level": 50,
         "ai": 135,
         "noCh": false,
@@ -146970,7 +147003,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Maid Tammy2 ": {
+      "Lvl 66 Maid Tammy ": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -147001,7 +147034,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Colress8 - Dreamyard": {
+      "Lvl 47 Team Plasma Colress4 - Dreamyard": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -147032,7 +147065,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Rival Benga15 - Starter 3": {
+      "Lvl 58 Rival Benga8 - Starter 3": {
         "level": 58,
         "ai": 7,
         "noCh": true,
@@ -147063,7 +147096,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 Elite Four Caitlin4 ": {
+      "Lvl 75 Elite Four Caitlin3 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -147094,7 +147127,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 72 PkMn Trainer Colress2 ": {
+      "Lvl 72 PkMn Trainer Colress ": {
         "level": 72,
         "ai": 7,
         "noCh": false,
@@ -147158,7 +147191,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Team Plasma Grunt41 ": {
+      "Lvl 27 Team Plasma Grunt1 ": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -147189,7 +147222,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt51 ": {
+      "Lvl 47 Team Plasma Grunt9 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -147205,7 +147238,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Muscle Band",
-        "nature": "Jolly",
+        "nature": "Modest",
         "moves": [
           "Brave Bird",
           "Feint Attack",
@@ -147220,7 +147253,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 School Kid Edgar2 - Route 3": {
+      "Lvl 61 School Kid Edgar - Route 3": {
         "level": 61,
         "ai": 133,
         "noCh": false,
@@ -147251,7 +147284,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Youngster Nicholas2 ": {
+      "Lvl 60 Youngster Nicholas ": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -147377,7 +147410,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Lass Mali2 - Route 2": {
+      "Lvl 61 Lass Mali - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -147441,7 +147474,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pilot Elron2 - Mistralton City": {
+      "Lvl 51 Pilot Elron - Mistralton City": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -147472,7 +147505,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Trainer Nate4 ": {
+      "Lvl 37 PkMn Trainer Nate ": {
         "level": 37,
         "ai": 135,
         "noCh": false,
@@ -147503,7 +147536,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Trainer Nate5 ": {
+      "Lvl 37 PkMn Trainer Nate2 ": {
         "level": 37,
         "ai": 135,
         "noCh": false,
@@ -147534,7 +147567,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Trainer Nate6 ": {
+      "Lvl 37 PkMn Trainer Nate3 ": {
         "level": 37,
         "ai": 135,
         "noCh": false,
@@ -147565,7 +147598,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Trainer Rosa4 ": {
+      "Lvl 37 PkMn Trainer Rosa ": {
         "level": 37,
         "ai": 135,
         "noCh": false,
@@ -147596,7 +147629,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Trainer Rosa5 ": {
+      "Lvl 37 PkMn Trainer Rosa2 ": {
         "level": 37,
         "ai": 135,
         "noCh": false,
@@ -147627,7 +147660,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Trainer Rosa6 ": {
+      "Lvl 37 PkMn Trainer Rosa3 ": {
         "level": 37,
         "ai": 135,
         "noCh": false,
@@ -147658,7 +147691,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Beauty Stella2 - Chargestone Cave": {
+      "Lvl 49 Beauty Stella - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -147753,7 +147786,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Team Plasma Grunt43 ": {
+      "Lvl 26 Team Plasma Grunt3 ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -147784,7 +147817,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt48 ": {
+      "Lvl 47 Team Plasma Grunt8 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -147799,13 +147832,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Normal Gem",
+        "item": "Poison Gem",
         "nature": "Gentle",
         "moves": [
-          "Heat Wave",
           "Torment",
-          "Energy Ball",
-          "Hyper Voice"
+          "Heat Wave",
+          "Smokescreen",
+          "Energy Ball"
         ],
         "sub_index": 0,
         "ability": "Unnerve",
@@ -147815,7 +147848,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Guitarist Anna2 - Chargestone Cave": {
+      "Lvl 48 Guitarist Anna - Chargestone Cave": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -147846,7 +147879,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Blue Blue2 ": {
+      "Lvl 73 Blue Blue ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -147910,7 +147943,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Roughneck Silvester2 - Route 16": {
+      "Lvl 36 Roughneck Silvester - Route 16": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -147941,7 +147974,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt55 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt12 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -147972,7 +148005,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt70 ": {
+      "Lvl 47 Team Plasma Grunt27 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -148003,7 +148036,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt85 ": {
+      "Lvl 46 Team Plasma Grunt40 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -148034,7 +148067,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt91 ": {
+      "Lvl 44 Team Plasma Grunt43 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -148065,7 +148098,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Team Plasma Grunt104 ": {
+      "Lvl 39 Team Plasma Grunt45 ": {
         "level": 39,
         "ai": 129,
         "noCh": false,
@@ -148096,7 +148129,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt110 ": {
+      "Lvl 46 Team Plasma Grunt51 ": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -148127,7 +148160,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt114 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt55 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -148191,7 +148224,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Team Plasma Shadow12 ": {
+      "Lvl 52 Team Plasma Shadow7 ": {
         "level": 52,
         "ai": 79,
         "noCh": false,
@@ -148222,7 +148255,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Terrakion2 - Clay Tunnel": {
+      "Lvl 62 PkMn Ranger Terrakion - Clay Tunnel": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -148253,7 +148286,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Ranger Louis2 - Chargestone Cave": {
+      "Lvl 49 PkMn Ranger Louis - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -148284,7 +148317,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Hiker Tobias2 - Relic Passage": {
+      "Lvl 47 Hiker Tobias - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -148315,7 +148348,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Sinan2 ": {
+      "Lvl 64 Veteran Sinan ": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -148346,7 +148379,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Kanto Leader Lt. Surge2 - Liberty Garden": {
+      "Lvl 29 Kanto Leader Lt. Surge - Liberty Garden": {
         "level": 29,
         "ai": 15,
         "noCh": true,
@@ -148410,7 +148443,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Psychic Ena2 - Relic Passage": {
+      "Lvl 49 Psychic Ena - Relic Passage": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -148441,7 +148474,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Psychic Future2 - Desert Resort": {
+      "Lvl 36 Psychic Future - Desert Resort": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -148472,7 +148505,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Hiker Kyurem2 - Wellspring Cave": {
+      "Lvl 61 Hiker Kyurem - Wellspring Cave": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -148503,7 +148536,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina2 - Celestial Tower": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Tower": {
         "level": 53,
         "ai": 15,
         "noCh": false,
@@ -148536,7 +148569,7 @@ backup_data = {
       }
     },
     "Sceptile": {
-      "Lvl 41 Striker Marco4 - Driftveil Drawbridge": {
+      "Lvl 41 Striker Marco - Driftveil Drawbridge": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -148567,7 +148600,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Shadow10 ": {
+      "Lvl 57 Team Plasma Shadow5 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -148598,7 +148631,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer F Kylie2 - Route 21": {
+      "Lvl 59 Swimmer F Kylie - Route 21": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -148629,7 +148662,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Ranger Briana2 - Chargestone Cave": {
+      "Lvl 49 PkMn Ranger Briana - Chargestone Cave": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -148819,7 +148852,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Battle Girl Glinda2 - Route 14": {
+      "Lvl 56 Battle Girl Glinda - Route 14": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -148850,7 +148883,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Jack2 ": {
+      "Lvl 28 Harlequin Jack ": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -148914,7 +148947,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Artist Horton2 - Route 5": {
+      "Lvl 36 Artist Horton - Route 5": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -148945,7 +148978,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 PkMn Trainer Cheren2 ": {
+      "Lvl 47 PkMn Trainer Cheren ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -148976,7 +149009,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Vicki2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Vicki - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -149007,7 +149040,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Elaine2 - Moor of Icirrus": {
+      "Lvl 62 PkMn Ranger Elaine - Moor of Icirrus": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -149038,7 +149071,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Kanto Leader Janine2 - Driftveil City": {
+      "Lvl 44 Kanto Leader Janine - Driftveil City": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -149069,7 +149102,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Backpacker Kiyo4 ": {
+      "Lvl 56 Backpacker Kiyo2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -149133,7 +149166,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Shadow7 ": {
+      "Lvl 57 Team Plasma Shadow3 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -149164,7 +149197,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Dancer Brian2 - Driftveil City": {
+      "Lvl 42 Dancer Brian - Driftveil City": {
         "level": 42,
         "ai": 15,
         "noCh": false,
@@ -149195,7 +149228,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Scientist Caroline2 ": {
+      "Lvl 27 Scientist Caroline ": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -149226,7 +149259,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pokefan Jude2 - Celestial Tower": {
+      "Lvl 51 Pokefan Jude - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -149321,7 +149354,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Johto Leader Morty2 - Celestial Tower": {
+      "Lvl 52 Johto Leader Morty - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -149339,20 +149372,20 @@ backup_data = {
         "item": "Eviolite",
         "nature": "Bold",
         "moves": [
-          "Hex",
+          "Ominous Wind",
           "Curse",
           "Protect",
           "Night Shade"
         ],
         "sub_index": 0,
-        "ability": "Shadow Tag",
+        "ability": "Cursed Body",
         "sprite": "trainer_sprites/johtoleader.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 51 Scientist Hughes2 - Route 15": {
+      "Lvl 51 Scientist Hughes - Route 15": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -149383,7 +149416,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Rival Benga13 - Route 4 - Starter 3": {
+      "Lvl 36 Rival Benga6 - Route 4 - Starter 3": {
         "level": 36,
         "ai": 143,
         "noCh": true,
@@ -149478,7 +149511,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Johto Leader Morty2 - Celestial Tower": {
+      "Lvl 52 Johto Leader Morty - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -149498,7 +149531,7 @@ backup_data = {
         "moves": [
           "Fury Swipes",
           "Shadow Claw",
-          "Thunder Wave",
+          "Final Gambit",
           "Pursuit"
         ],
         "sub_index": 2,
@@ -149509,7 +149542,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Team Plasma Grunt106 ": {
+      "Lvl 41 Team Plasma Grunt47 ": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -149542,7 +149575,7 @@ backup_data = {
       }
     },
     "Nidoking": {
-      "Lvl 41 Linebacker Jonah4 - Driftveil Drawbridge": {
+      "Lvl 41 Linebacker Jonah - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -149573,7 +149606,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt45 ": {
+      "Lvl 48 Team Plasma Grunt5 ": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -149668,7 +149701,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer Rival9 - Starter 3": {
+      "Lvl 10 PkMn Trainer Rival6 - Starter 3": {
         "level": 10,
         "ai": 15,
         "noCh": false,
@@ -149699,7 +149732,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Dancer Jean-Paul2 ": {
+      "Lvl 32 Dancer Jean-Paul ": {
         "level": 32,
         "ai": 1,
         "noCh": true,
@@ -149763,7 +149796,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Battle Girl Azra2 - Route 12": {
+      "Lvl 41 Battle Girl Azra - Route 12": {
         "level": 41,
         "ai": 3,
         "noCh": true,
@@ -149794,7 +149827,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Worker Scott2 - Relic Passage": {
+      "Lvl 27 Worker Scott - Relic Passage": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -149825,7 +149858,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Black Belt Rich2 - Seaside Cave": {
+      "Lvl 47 Black Belt Rich - Seaside Cave": {
         "level": 47,
         "ai": 3,
         "noCh": false,
@@ -149856,7 +149889,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Black Belt Benjamin2 - Route 23": {
+      "Lvl 53 Black Belt Benjamin - Route 23": {
         "level": 53,
         "ai": 3,
         "noCh": false,
@@ -149887,7 +149920,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Battle Girl Tiffany2 - Route 23": {
+      "Lvl 53 Battle Girl Tiffany - Route 23": {
         "level": 53,
         "ai": 3,
         "noCh": false,
@@ -149918,7 +149951,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Black Belt Wesley2 - Route 13": {
+      "Lvl 41 Black Belt Wesley - Route 13": {
         "level": 41,
         "ai": 3,
         "noCh": false,
@@ -149982,7 +150015,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Hiker Don2 - Route 23": {
+      "Lvl 51 Hiker Don - Route 23": {
         "level": 51,
         "ai": 1,
         "noCh": false,
@@ -150013,7 +150046,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk F Britney2 - Castelia City": {
+      "Lvl 28 Clerk F Britney - Castelia City": {
         "level": 28,
         "ai": 7,
         "noCh": false,
@@ -150108,7 +150141,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Policeman Neagle2 - Route 6": {
+      "Lvl 48 Policeman Neagle - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -150139,7 +150172,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Black Belt Jay2 - Route 14": {
+      "Lvl 56 Black Belt Jay - Route 14": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -150170,7 +150203,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Black Belt Zachary2 - Route 18": {
+      "Lvl 65 Black Belt Zachary - Route 18": {
         "level": 65,
         "ai": 3,
         "noCh": false,
@@ -150201,7 +150234,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Backpacker Kendall2 - Relic Passage": {
+      "Lvl 29 Backpacker Kendall - Relic Passage": {
         "level": 29,
         "ai": 7,
         "noCh": false,
@@ -150327,7 +150360,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Nursery Aide Autumn2 - Route 3": {
+      "Lvl 61 Nursery Aide Autumn - Route 3": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -150358,7 +150391,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 Youngster Masahiro2 - Virbank Complex": {
+      "Lvl 17 Youngster Masahiro - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -150515,7 +150548,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Harlequin Ian2 - Route 7": {
+      "Lvl 50 Harlequin Ian - Route 7": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -150546,7 +150579,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Black Belt 4 - Wellspring Cave": {
+      "Lvl 62 Black Belt 2 - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -150577,7 +150610,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Veteran Joseph2 ": {
+      "Lvl 60 Veteran Joseph ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -150608,7 +150641,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Rival Benga14 - Starter 3": {
+      "Lvl 58 Rival Benga7 - Starter 3": {
         "level": 58,
         "ai": 7,
         "noCh": true,
@@ -150639,7 +150672,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 Elite Four Marshal4 ": {
+      "Lvl 75 Elite Four Marshal3 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -150703,7 +150736,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Shadow6 ": {
+      "Lvl 57 Team Plasma Shadow2 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -150765,7 +150798,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt45 ": {
+      "Lvl 47 Team Plasma Grunt5 ": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -150796,7 +150829,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Battle Girl 2 - Wellspring Cave": {
+      "Lvl 62 Battle Girl - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -150829,7 +150862,7 @@ backup_data = {
       }
     },
     "Dunsparce": {
-      "Lvl 57 Team Plasma Shadow6 ": {
+      "Lvl 57 Team Plasma Shadow2 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -150860,7 +150893,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Pokefan Norbert2 - Route 4": {
+      "Lvl 26 Pokefan Norbert - Route 4": {
         "level": 26,
         "ai": 15,
         "noCh": false,
@@ -150891,7 +150924,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt51 ": {
+      "Lvl 47 Team Plasma Grunt9 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -150906,13 +150939,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Leftovers",
-        "nature": "Bashful",
+        "item": "Lum Berry",
+        "nature": "Lonely",
         "moves": [
           "Mud Bomb",
           "Moonblast",
-          "Slam",
-          "Helping Hand"
+          "Helping Hand",
+          "Slam"
         ],
         "sub_index": 2,
         "ability": "Serene Grace",
@@ -150924,7 +150957,7 @@ backup_data = {
       }
     },
     "Seviper": {
-      "Lvl 57 Team Plasma Shadow6 ": {
+      "Lvl 57 Team Plasma Shadow2 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -150986,7 +151019,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Team Plasma Grunt41 ": {
+      "Lvl 28 Team Plasma Grunt1 ": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -151017,7 +151050,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt50 ": {
+      "Lvl 47 Team Plasma Grunt9 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -151033,22 +151066,22 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
-        "nature": "Mild",
+        "nature": "Timid",
         "moves": [
           "Poison Fang",
-          "Ice Fang",
           "Fire Fang",
-          "Dark Pulse"
+          "Ice Fang",
+          "Thunder Fang"
         ],
         "sub_index": 0,
-        "ability": "Strong Jaw",
+        "ability": "Exploit",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt62 ": {
+      "Lvl 46 Team Plasma Grunt19 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -151079,7 +151112,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt77 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt34 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -151110,7 +151143,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Battle Girl Chan2 - Reversal Mountain": {
+      "Lvl 56 Battle Girl Chan - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -151141,7 +151174,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt90 ": {
+      "Lvl 44 Team Plasma Grunt42 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -151172,7 +151205,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt110 ": {
+      "Lvl 46 Team Plasma Grunt51 ": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -151236,7 +151269,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 Beauty Nikola2 ": {
+      "Lvl 38 Beauty Nikola ": {
         "level": 38,
         "ai": 143,
         "noCh": false,
@@ -151267,7 +151300,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Sinnoh Leader Volkner2 ": {
+      "Lvl 52 Sinnoh Leader Volkner ": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -151298,7 +151331,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ace Trainer Ray2 ": {
+      "Lvl 56 Ace Trainer Ray ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -151329,7 +151362,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Sinan2 ": {
+      "Lvl 64 Veteran Sinan ": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -151362,7 +151395,7 @@ backup_data = {
       }
     },
     "Stoutland": {
-      "Lvl 63 Hoopster John4 - Nimbasa City": {
+      "Lvl 63 Hoopster John2 - Nimbasa City": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -151455,7 +151488,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Policeman Dell2 - Route 4": {
+      "Lvl 34 Policeman Dell - Route 4": {
         "level": 34,
         "ai": 143,
         "noCh": false,
@@ -151486,7 +151519,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Hoopster John6 ": {
+      "Lvl 33 Hoopster John4 ": {
         "level": 33,
         "ai": 7,
         "noCh": false,
@@ -151517,7 +151550,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Youngster Cody2 - Route 7": {
+      "Lvl 33 Youngster Cody - Route 7": {
         "level": 33,
         "ai": 1,
         "noCh": false,
@@ -151548,7 +151581,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Trainer Cheren2 ": {
+      "Lvl 48 PkMn Trainer Cheren ": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -151579,7 +151612,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 PkMn Ranger Bret2 ": {
+      "Lvl 33 PkMn Ranger Bret ": {
         "level": 33,
         "ai": 7,
         "noCh": false,
@@ -151610,7 +151643,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Cheren7 ": {
+      "Lvl 67 PkMn Trainer Cheren2 ": {
         "level": 67,
         "ai": 135,
         "noCh": false,
@@ -151641,7 +151674,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Pokefan Elliot2 - Route 15": {
+      "Lvl 60 Pokefan Elliot - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -151672,7 +151705,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Lass Diana4 ": {
+      "Lvl 63 Lass Diana2 ": {
         "level": 63,
         "ai": 1,
         "noCh": false,
@@ -151703,7 +151736,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca6 ": {
+      "Lvl 63 PkMn Trainer Bianca2 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -151734,7 +151767,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca7 ": {
+      "Lvl 63 PkMn Trainer Bianca3 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -151765,7 +151798,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca8 ": {
+      "Lvl 63 PkMn Trainer Bianca4 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -151796,7 +151829,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Veteran Donnaven2 ": {
+      "Lvl 60 Veteran Donnaven ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -151984,7 +152017,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Ace Trainer Kipp2 ": {
+      "Lvl 39 Ace Trainer Kipp ": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -152015,7 +152048,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Cyclist Adelaide2 ": {
+      "Lvl 55 Cyclist Adelaide ": {
         "level": 55,
         "ai": 15,
         "noCh": false,
@@ -152046,7 +152079,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Shaye2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Shaye - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -152077,7 +152110,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Portia2 - Victory Road": {
+      "Lvl 54 Veteran Portia - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -152108,7 +152141,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Melita2 ": {
+      "Lvl 62 PkMn Ranger Melita ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -152234,7 +152267,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Twins Tara & Val2 - Route 4": {
+      "Lvl 33 Twins Tara & Val - Route 4": {
         "level": 33,
         "ai": 143,
         "noCh": false,
@@ -152265,7 +152298,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Fisherman Sid2 ": {
+      "Lvl 56 Fisherman Sid ": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -152296,7 +152329,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Ace Trainer Grant2 - Route 23": {
+      "Lvl 53 Ace Trainer Grant - Route 23": {
         "level": 53,
         "ai": 7,
         "noCh": false,
@@ -152327,7 +152360,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Kanto Leader Giovanni2 ": {
+      "Lvl 51 Kanto Leader Giovanni ": {
         "level": 51,
         "ai": 7,
         "noCh": false,
@@ -152453,7 +152486,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Striker Marco6 ": {
+      "Lvl 34 Striker Marco3 ": {
         "level": 34,
         "ai": 7,
         "noCh": false,
@@ -152484,7 +152517,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Striker Marco7 1": {
+      "Lvl 47 Striker Marco4 1": {
         "level": 47,
         "ai": 7,
         "noCh": false,
@@ -152515,7 +152548,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Striker Marco7 2": {
+      "Lvl 47 Striker Marco4 2": {
         "level": 47,
         "ai": 7,
         "noCh": false,
@@ -152546,7 +152579,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Hoopster John6 ": {
+      "Lvl 33 Hoopster John4 ": {
         "level": 33,
         "ai": 7,
         "noCh": false,
@@ -152577,7 +152610,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Team Plasma Colress4 ": {
+      "Lvl 34 Team Plasma Colress2 ": {
         "level": 34,
         "ai": 15,
         "noCh": false,
@@ -152608,7 +152641,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Hiker Doug2 - Route 23": {
+      "Lvl 53 Hiker Doug - Route 23": {
         "level": 53,
         "ai": 1,
         "noCh": false,
@@ -152639,7 +152672,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk M Clemens2 ": {
+      "Lvl 27 Clerk M Clemens ": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -152670,7 +152703,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Gus2 - Twist Mountain": {
+      "Lvl 60 Worker Gus - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -152701,7 +152734,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Hiker Jeremy2 ": {
+      "Lvl 32 Hiker Jeremy ": {
         "level": 32,
         "ai": 1,
         "noCh": false,
@@ -152796,7 +152829,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Thalia2 - Route 11": {
+      "Lvl 52 PkMn Ranger Thalia - Route 11": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -152827,7 +152860,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Swimmer M Harold2 - Route 21": {
+      "Lvl 58 Swimmer M Harold - Route 21": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -152858,7 +152891,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Trainer Rival25 - Starter 2": {
+      "Lvl 39 PkMn Trainer Rival11 - Starter 2": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -152889,7 +152922,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Cilan2 ": {
+      "Lvl 67 PkMn Trainer Cilan ": {
         "level": 67,
         "ai": 135,
         "noCh": false,
@@ -152920,7 +152953,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 School Kid Neil2 ": {
+      "Lvl 28 School Kid Neil ": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -152951,7 +152984,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival53 - Starter 2": {
+      "Lvl 55 PkMn Trainer Rival23 - Starter 2": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -152982,7 +153015,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival56 - Starter 2": {
+      "Lvl 62 PkMn Trainer Rival26 - Starter 2": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -153013,7 +153046,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival59 - Starter 2": {
+      "Lvl 65 PkMn Trainer Rival29 - Starter 2": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -153044,7 +153077,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival62 - Starter 2": {
+      "Lvl 41 PkMn Trainer Rival32 - Starter 2": {
         "level": 41,
         "ai": 135,
         "noCh": false,
@@ -153075,7 +153108,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca8 ": {
+      "Lvl 63 PkMn Trainer Bianca4 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -153106,7 +153139,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren9 ": {
+      "Lvl 65 PkMn Trainer Cheren4 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -153137,7 +153170,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Trainer Rival65 - Starter 2": {
+      "Lvl 48 PkMn Trainer Rival35 - Starter 2": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -153232,7 +153265,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Team Plasma Shadow10 ": {
+      "Lvl 57 Team Plasma Shadow5 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -153263,7 +153296,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Maid Tammy2 ": {
+      "Lvl 66 Maid Tammy ": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -153294,7 +153327,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Team Plasma Shadow26 1": {
+      "Lvl 65 Team Plasma Shadow14 1": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -153325,7 +153358,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Team Plasma Shadow26 2": {
+      "Lvl 65 Team Plasma Shadow14 2": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -153356,7 +153389,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Team Plasma Shadow27 1": {
+      "Lvl 65 Team Plasma Shadow15 1": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -153387,7 +153420,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Team Plasma Shadow27 2": {
+      "Lvl 65 Team Plasma Shadow15 2": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -153418,7 +153451,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Team Plasma Shadow28 1": {
+      "Lvl 65 Team Plasma Shadow16 1": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -153449,7 +153482,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Team Plasma Shadow28 2": {
+      "Lvl 65 Team Plasma Shadow16 2": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -153480,7 +153513,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 Blue Blue2 ": {
+      "Lvl 75 Blue Blue ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -153730,7 +153763,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Socialite Marian2 ": {
+      "Lvl 58 Socialite Marian ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -153761,7 +153794,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Ace Trainer Enzio2 - Humilau City": {
+      "Lvl 60 Ace Trainer Enzio - Humilau City": {
         "level": 60,
         "ai": 143,
         "noCh": false,
@@ -153792,7 +153825,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Ace Trainer Juliet2 - Route 23": {
+      "Lvl 53 Ace Trainer Juliet - Route 23": {
         "level": 53,
         "ai": 7,
         "noCh": false,
@@ -153823,7 +153856,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Backpacker Kiyo2 - Reversal Mountain": {
+      "Lvl 37 Backpacker Kiyo - Reversal Mountain": {
         "level": 37,
         "ai": 129,
         "noCh": false,
@@ -153854,7 +153887,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Pierce2 - Victory Road": {
+      "Lvl 55 Ace Trainer Pierce - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -153885,7 +153918,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Ace Trainer Trish2 ": {
+      "Lvl 40 Ace Trainer Trish ": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -154011,7 +154044,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Thalia2 - Route 11": {
+      "Lvl 52 PkMn Ranger Thalia - Route 11": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -154042,7 +154075,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Santino2 - Humilau City": {
+      "Lvl 60 Fisherman Santino - Humilau City": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -154073,7 +154106,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Trainer Rival23 - Starter 1": {
+      "Lvl 39 PkMn Trainer Rival10 - Starter 1": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -154104,7 +154137,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Cress2 ": {
+      "Lvl 67 PkMn Trainer Cress ": {
         "level": 67,
         "ai": 135,
         "noCh": false,
@@ -154135,7 +154168,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 School Kid Neil2 ": {
+      "Lvl 28 School Kid Neil ": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -154166,7 +154199,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival52 - Starter 1": {
+      "Lvl 55 PkMn Trainer Rival22 - Starter 1": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -154197,7 +154230,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival55 - Starter 1": {
+      "Lvl 62 PkMn Trainer Rival25 - Starter 1": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -154228,7 +154261,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival58 - Starter 1": {
+      "Lvl 65 PkMn Trainer Rival28 - Starter 1": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -154259,7 +154292,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival61 - Starter 1": {
+      "Lvl 41 PkMn Trainer Rival31 - Starter 1": {
         "level": 41,
         "ai": 135,
         "noCh": false,
@@ -154290,7 +154323,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca7 ": {
+      "Lvl 63 PkMn Trainer Bianca3 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -154321,7 +154354,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren8 ": {
+      "Lvl 65 PkMn Trainer Cheren3 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -154352,7 +154385,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Trainer Rival64 - Starter 1": {
+      "Lvl 48 PkMn Trainer Rival34 - Starter 1": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -154478,7 +154511,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Baker Jenn2 - Route 5": {
+      "Lvl 37 Baker Jenn - Route 5": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -154509,7 +154542,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Thalia2 - Route 11": {
+      "Lvl 52 PkMn Ranger Thalia - Route 11": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -154540,7 +154573,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Trainer Rival27 - Starter 3": {
+      "Lvl 39 PkMn Trainer Rival12 - Starter 3": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -154571,7 +154604,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Chili2 ": {
+      "Lvl 67 PkMn Trainer Chili ": {
         "level": 67,
         "ai": 135,
         "noCh": false,
@@ -154602,7 +154635,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 School Kid Neil2 ": {
+      "Lvl 28 School Kid Neil ": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -154633,7 +154666,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival54 - Starter 3": {
+      "Lvl 55 PkMn Trainer Rival24 - Starter 3": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -154664,7 +154697,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival57 - Starter 3": {
+      "Lvl 62 PkMn Trainer Rival27 - Starter 3": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -154695,7 +154728,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival60 - Starter 3": {
+      "Lvl 65 PkMn Trainer Rival30 - Starter 3": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -154726,7 +154759,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival63 - Starter 3": {
+      "Lvl 41 PkMn Trainer Rival33 - Starter 3": {
         "level": 41,
         "ai": 135,
         "noCh": false,
@@ -154757,7 +154790,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca6 ": {
+      "Lvl 63 PkMn Trainer Bianca2 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -154788,7 +154821,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren10 ": {
+      "Lvl 65 PkMn Trainer Cheren5 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -154819,7 +154852,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Trainer Rival66 - Starter 3": {
+      "Lvl 48 PkMn Trainer Rival36 - Starter 3": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -154883,7 +154916,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Fisherman Doyle2 - Humilau City": {
+      "Lvl 59 Fisherman Doyle - Humilau City": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -154914,7 +154947,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Guardian of Unova Virizion2 - Clay Tunnel": {
+      "Lvl 60 Guardian of Unova Virizion - Clay Tunnel": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -154945,7 +154978,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Beckett2 - Victory Road": {
+      "Lvl 55 Ace Trainer Beckett - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -154976,7 +155009,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Smasher Lizzy2 - Village Bridge": {
+      "Lvl 44 Smasher Lizzy - Village Bridge": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -155040,7 +155073,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Ace Trainer Junko2 ": {
+      "Lvl 39 Ace Trainer Junko ": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -155071,7 +155104,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Swimmer F Kaoru2 - Route 21": {
+      "Lvl 58 Swimmer F Kaoru - Route 21": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -155102,7 +155135,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Socialite Grace2 - Celestial Tower": {
+      "Lvl 51 Socialite Grace - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -155133,7 +155166,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Shelly2 - Victory Road": {
+      "Lvl 55 Ace Trainer Shelly - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -155164,7 +155197,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Smasher Amy2 - Village Bridge": {
+      "Lvl 44 Smasher Amy - Village Bridge": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -155195,7 +155228,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Clarence2 - Castelia City": {
+      "Lvl 28 Harlequin Clarence - Castelia City": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -155290,7 +155323,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Nursery Aide Ilse2 ": {
+      "Lvl 62 Nursery Aide Ilse ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -155321,7 +155354,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Trainer Alder2 ": {
+      "Lvl 58 PkMn Trainer Alder ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -155352,7 +155385,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival52 - Starter 1": {
+      "Lvl 55 PkMn Trainer Rival22 - Starter 1": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -155383,7 +155416,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival53 - Starter 2": {
+      "Lvl 55 PkMn Trainer Rival23 - Starter 2": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -155414,7 +155447,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival54 - Starter 3": {
+      "Lvl 55 PkMn Trainer Rival24 - Starter 3": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -155445,7 +155478,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival55 - Starter 1": {
+      "Lvl 62 PkMn Trainer Rival25 - Starter 1": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -155476,7 +155509,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival56 - Starter 2": {
+      "Lvl 62 PkMn Trainer Rival26 - Starter 2": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -155507,7 +155540,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival57 - Starter 3": {
+      "Lvl 62 PkMn Trainer Rival27 - Starter 3": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -155538,7 +155571,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival58 - Starter 1": {
+      "Lvl 65 PkMn Trainer Rival28 - Starter 1": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -155569,7 +155602,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival59 - Starter 2": {
+      "Lvl 65 PkMn Trainer Rival29 - Starter 2": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -155600,7 +155633,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival60 - Starter 3": {
+      "Lvl 65 PkMn Trainer Rival30 - Starter 3": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -155631,7 +155664,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Rival Benga13 - Route 4 - Starter 3": {
+      "Lvl 37 Rival Benga6 - Route 4 - Starter 3": {
         "level": 37,
         "ai": 143,
         "noCh": true,
@@ -155759,7 +155792,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Beauty Ampre2 ": {
+      "Lvl 39 Beauty Ampre ": {
         "level": 39,
         "ai": 15,
         "noCh": false,
@@ -155790,7 +155823,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Twins Tara & Val2 - Route 4": {
+      "Lvl 33 Twins Tara & Val - Route 4": {
         "level": 33,
         "ai": 143,
         "noCh": false,
@@ -155821,7 +155854,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Beauty Monika2 - Chargestone Cave": {
+      "Lvl 50 Beauty Monika - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -155852,7 +155885,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Backers May & Mal2 - Route 3": {
+      "Lvl 62 Backers May & Mal - Route 3": {
         "level": 62,
         "ai": 129,
         "noCh": false,
@@ -155916,7 +155949,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Parasol Lady Tihana2 - Route 6": {
+      "Lvl 48 Parasol Lady Tihana - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -155947,7 +155980,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk M Warren2 ": {
+      "Lvl 27 Clerk M Warren ": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -156042,7 +156075,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Ranger Jaden2 - Desert Resort": {
+      "Lvl 36 PkMn Ranger Jaden - Desert Resort": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -156106,7 +156139,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Alvin2 - Route 6": {
+      "Lvl 49 School Kid Alvin - Route 6": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -156137,7 +156170,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Veteran Rayne2 - Route 2": {
+      "Lvl 66 Veteran Rayne - Route 2": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -156232,7 +156265,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Parasol Lady Nicole2 - Route 6": {
+      "Lvl 42 Parasol Lady Nicole - Route 6": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -156263,7 +156296,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Backpacker Reece2 - Route 14": {
+      "Lvl 55 Backpacker Reece - Route 14": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -156294,7 +156327,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Doctor Logan2 - Victory Road": {
+      "Lvl 26 Doctor Logan - Victory Road": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -156358,7 +156391,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 Beauty Nikola2 ": {
+      "Lvl 38 Beauty Nikola ": {
         "level": 38,
         "ai": 143,
         "noCh": false,
@@ -156389,7 +156422,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Scientist Ronald2 - Chargestone Cave": {
+      "Lvl 50 Scientist Ronald - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -156484,7 +156517,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Noel2 ": {
+      "Lvl 43 Worker Noel ": {
         "level": 43,
         "ai": 15,
         "noCh": true,
@@ -156515,7 +156548,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Hiker Jared2 - Reversal Mountain": {
+      "Lvl 56 Hiker Jared - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -156546,7 +156579,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Team Plasma Shadow25 ": {
+      "Lvl 60 Team Plasma Shadow13 ": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -156577,7 +156610,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Rival Benga13 - Route 4 - Starter 3": {
+      "Lvl 36 Rival Benga6 - Route 4 - Starter 3": {
         "level": 36,
         "ai": 143,
         "noCh": true,
@@ -156672,7 +156705,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Smasher Aspen2 - Driftveil Drawbridge": {
+      "Lvl 41 Smasher Aspen - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -156703,7 +156736,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Ranger Daryl2 - Route 13": {
+      "Lvl 39 PkMn Ranger Daryl - Route 13": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -156734,7 +156767,38 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Ace Trainer Juliet2 - Route 23": {
+      "Lvl 61 Johto Leader Bugsy ": {
+        "level": 61,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 326,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Choice Specs",
+        "nature": "Timid",
+        "moves": [
+          "Electro Ball",
+          "Scorching Swarm",
+          "Energy Ball",
+          "Mud Bomb"
+        ],
+        "sub_index": 2,
+        "ability": "Arena Trap",
+        "sprite": "trainer_sprites/johtoleader.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 53 Ace Trainer Juliet - Route 23": {
         "level": 53,
         "ai": 7,
         "noCh": false,
@@ -156765,7 +156829,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Ranger Louis2 - Chargestone Cave": {
+      "Lvl 49 PkMn Ranger Louis - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -156796,7 +156860,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Shanta2 - Victory Road": {
+      "Lvl 55 Ace Trainer Shanta - Victory Road": {
         "level": 55,
         "ai": 135,
         "noCh": false,
@@ -156827,7 +156891,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Ace Trainer Nina2 ": {
+      "Lvl 40 Ace Trainer Nina ": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -156891,7 +156955,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Baker Jenn2 - Route 5": {
+      "Lvl 37 Baker Jenn - Route 5": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -156922,7 +156986,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Hoenn Leader Flannery2 ": {
+      "Lvl 57 Hoenn Leader Flannery ": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -157017,7 +157081,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Worker Maynard2 - Driftveil City": {
+      "Lvl 44 Worker Maynard - Driftveil City": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -157048,7 +157112,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Ace Trainer Tom2 - Route 23": {
+      "Lvl 54 Ace Trainer Tom - Route 23": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -157079,7 +157143,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Hiker Wade2 - Twist Mountain": {
+      "Lvl 61 Hiker Wade - Twist Mountain": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -157110,7 +157174,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Shaye2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Shaye - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -157141,7 +157205,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N8 ": {
+      "Lvl 75 PkMn Trainer N4 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -157236,7 +157300,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Ace Trainer Kipp2 ": {
+      "Lvl 39 Ace Trainer Kipp ": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -157267,7 +157331,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Pasqual2 - Driftveil City": {
+      "Lvl 43 Worker Pasqual - Driftveil City": {
         "level": 43,
         "ai": 15,
         "noCh": true,
@@ -157298,7 +157362,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 Veteran Gina2 - Route 18": {
+      "Lvl 68 Veteran Gina - Route 18": {
         "level": 68,
         "ai": 135,
         "noCh": false,
@@ -157329,7 +157393,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Maid Tammy2 ": {
+      "Lvl 66 Maid Tammy ": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -157360,7 +157424,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Guardian of Unova Cobalion2 ": {
+      "Lvl 52 Guardian of Unova Cobalion ": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -157391,7 +157455,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Abraham2 - Victory Road": {
+      "Lvl 55 Veteran Abraham - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -157422,7 +157486,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Hiker Jebediah2 - Mistralton Cave": {
+      "Lvl 50 Hiker Jebediah - Mistralton Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -157453,7 +157517,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Subway Boss Ingo2 ": {
+      "Lvl 40 Subway Boss Ingo ": {
         "level": 40,
         "ai": 143,
         "noCh": false,
@@ -157517,7 +157581,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer F Kylie2 - Route 21": {
+      "Lvl 59 Swimmer F Kylie - Route 21": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -157548,7 +157612,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Melina2 - Humilau City": {
+      "Lvl 60 Parasol Lady Melina - Humilau City": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -157579,7 +157643,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt53 ": {
+      "Lvl 47 Team Plasma Grunt10 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -157610,7 +157674,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 Veteran Chester2 - Route 18": {
+      "Lvl 68 Veteran Chester - Route 18": {
         "level": 68,
         "ai": 7,
         "noCh": false,
@@ -157641,7 +157705,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Dua2 - Relic Castle": {
+      "Lvl 35 Psychic Dua - Relic Castle": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -157736,7 +157800,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 80 Rival Benga3 - Starter 3": {
+      "Lvl 80 Rival Benga - Starter 3": {
         "level": 80,
         "ai": 7,
         "noCh": false,
@@ -157831,7 +157895,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 Kanto Leader Brock2 - Pledge Grove": {
+      "Lvl 14 Kanto Leader Brock - Pledge Grove": {
         "level": 14,
         "ai": 15,
         "noCh": false,
@@ -157895,7 +157959,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Preschooler Jojo2 ": {
+      "Lvl 60 Preschooler Jojo ": {
         "level": 60,
         "ai": 0,
         "noCh": false,
@@ -157990,7 +158054,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Scientist Lumina2 - Relic Passage": {
+      "Lvl 28 Scientist Lumina - Relic Passage": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -158021,7 +158085,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Melita2 ": {
+      "Lvl 62 PkMn Ranger Melita ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -158182,7 +158246,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Psychic Lynette2 ": {
+      "Lvl 36 Psychic Lynette ": {
         "level": 36,
         "ai": 5,
         "noCh": false,
@@ -158213,7 +158277,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 Youngster Waylon2 - Virbank Complex": {
+      "Lvl 17 Youngster Waylon - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -158310,7 +158374,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Eustace2 - Moor of Icirrus": {
+      "Lvl 60 Fisherman Eustace - Moor of Icirrus": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -158405,7 +158469,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Nursery Aide Hollie2 - Route 7": {
+      "Lvl 48 Nursery Aide Hollie - Route 7": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -158436,7 +158500,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Lady Myra2 ": {
+      "Lvl 59 Lady Myra ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -158500,7 +158564,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 Rival Benga4 - Starter 3": {
+      "Lvl 13 Rival Benga2 - Starter 3": {
         "level": 13,
         "ai": 143,
         "noCh": false,
@@ -158531,7 +158595,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Preschooler Samantha2 ": {
+      "Lvl 59 Preschooler Samantha ": {
         "level": 59,
         "ai": 0,
         "noCh": false,
@@ -158562,7 +158626,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 Rival Benga12 - Floccesy Ranch - Starter 3": {
+      "Lvl 13 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 13,
         "ai": 0,
         "noCh": true,
@@ -158657,7 +158721,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Nursery Aide Hollie2 - Route 7": {
+      "Lvl 48 Nursery Aide Hollie - Route 7": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -158721,7 +158785,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Hiker Hunter2 - Twist Mountain": {
+      "Lvl 61 Hiker Hunter - Twist Mountain": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -158785,7 +158849,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Fisherman Hubert2 - Route 4": {
+      "Lvl 25 Fisherman Hubert - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -158816,7 +158880,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Fisherman Andrew2 - Route 4": {
+      "Lvl 25 Fisherman Andrew - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -158847,7 +158911,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Swimmer F Ruth2 - Route 17": {
+      "Lvl 65 Swimmer F Ruth - Route 17": {
         "level": 65,
         "ai": 1,
         "noCh": false,
@@ -158878,7 +158942,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 PkMn Trainer Rival44 - Starter 2": {
+      "Lvl 17 PkMn Trainer Rival17 - Starter 2": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -158942,7 +159006,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Marsha2 - Route 3": {
+      "Lvl 12 School Kid Marsha - Route 3": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -158973,7 +159037,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Alberta2 ": {
+      "Lvl 12 School Kid Alberta ": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -159004,7 +159068,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Pokefan Lydia2 - Route 15": {
+      "Lvl 60 Pokefan Lydia - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -159161,7 +159225,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Lass Flo2 - Route 7": {
+      "Lvl 33 Lass Flo - Route 7": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -159192,7 +159256,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Ranger Lois2 - Route 5": {
+      "Lvl 36 PkMn Ranger Lois - Route 5": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -159223,7 +159287,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival19 - Starter 1": {
+      "Lvl 49 PkMn Trainer Rival7 - Starter 1": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -159254,7 +159318,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival20 - Starter 2": {
+      "Lvl 49 PkMn Trainer Rival8 - Starter 2": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -159285,7 +159349,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival21 - Starter 3": {
+      "Lvl 49 PkMn Trainer Rival9 - Starter 3": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -159316,7 +159380,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Trainer Rival23 - Starter 1": {
+      "Lvl 39 PkMn Trainer Rival10 - Starter 1": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -159347,7 +159411,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Trainer Rival25 - Starter 2": {
+      "Lvl 39 PkMn Trainer Rival11 - Starter 2": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -159378,7 +159442,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Trainer Rival26 - Starter 3": {
+      "Lvl 39 PkMn Trainer Rival12 - Starter 3": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -159409,7 +159473,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Lass Mali2 - Route 2": {
+      "Lvl 61 Lass Mali - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -159440,7 +159504,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Cyclist Adelaide2 ": {
+      "Lvl 55 Cyclist Adelaide ": {
         "level": 55,
         "ai": 15,
         "noCh": false,
@@ -159471,7 +159535,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival32 - Clay Tunnel - Starter 1": {
+      "Lvl 50 PkMn Trainer Rival13 - Clay Tunnel - Starter 1": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -159502,7 +159566,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival34 - Starter 2": {
+      "Lvl 50 PkMn Trainer Rival14 - Starter 2": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -159533,7 +159597,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival36 - Clay Tunnel - Starter 3": {
+      "Lvl 50 PkMn Trainer Rival15 - Clay Tunnel - Starter 3": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -159564,7 +159628,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Ace Trainer Corky2 ": {
+      "Lvl 33 Ace Trainer Corky ": {
         "level": 33,
         "ai": 135,
         "noCh": false,
@@ -159595,7 +159659,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Beckett2 - Victory Road": {
+      "Lvl 55 Ace Trainer Beckett - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -159626,7 +159690,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival52 - Starter 1": {
+      "Lvl 55 PkMn Trainer Rival22 - Starter 1": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -159657,7 +159721,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival53 - Starter 2": {
+      "Lvl 55 PkMn Trainer Rival23 - Starter 2": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -159688,7 +159752,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 PkMn Trainer Rival54 - Starter 3": {
+      "Lvl 55 PkMn Trainer Rival24 - Starter 3": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -159719,7 +159783,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival55 - Starter 1": {
+      "Lvl 62 PkMn Trainer Rival25 - Starter 1": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -159750,7 +159814,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival56 - Starter 2": {
+      "Lvl 62 PkMn Trainer Rival26 - Starter 2": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -159781,7 +159845,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival57 - Starter 3": {
+      "Lvl 62 PkMn Trainer Rival27 - Starter 3": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -159812,7 +159876,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival58 - Starter 1": {
+      "Lvl 65 PkMn Trainer Rival28 - Starter 1": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -159843,7 +159907,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival59 - Starter 2": {
+      "Lvl 65 PkMn Trainer Rival29 - Starter 2": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -159874,7 +159938,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival60 - Starter 3": {
+      "Lvl 65 PkMn Trainer Rival30 - Starter 3": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -159905,7 +159969,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival61 - Starter 1": {
+      "Lvl 41 PkMn Trainer Rival31 - Starter 1": {
         "level": 41,
         "ai": 135,
         "noCh": false,
@@ -159936,7 +160000,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival62 - Starter 2": {
+      "Lvl 41 PkMn Trainer Rival32 - Starter 2": {
         "level": 41,
         "ai": 135,
         "noCh": false,
@@ -159967,7 +160031,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival63 - Starter 3": {
+      "Lvl 41 PkMn Trainer Rival33 - Starter 3": {
         "level": 41,
         "ai": 135,
         "noCh": false,
@@ -159998,7 +160062,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren8 ": {
+      "Lvl 65 PkMn Trainer Cheren3 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -160029,7 +160093,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren9 ": {
+      "Lvl 65 PkMn Trainer Cheren4 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -160060,7 +160124,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren10 ": {
+      "Lvl 65 PkMn Trainer Cheren5 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -160091,7 +160155,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Trainer Rival64 - Starter 1": {
+      "Lvl 48 PkMn Trainer Rival34 - Starter 1": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -160122,7 +160186,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Trainer Rival65 - Starter 2": {
+      "Lvl 48 PkMn Trainer Rival35 - Starter 2": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -160153,7 +160217,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Trainer Rival66 - Starter 3": {
+      "Lvl 48 PkMn Trainer Rival36 - Starter 3": {
         "level": 48,
         "ai": 135,
         "noCh": false,
@@ -160217,7 +160281,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 20 Kanto Leader Misty2 - Virbank City": {
+      "Lvl 20 Kanto Leader Misty - Virbank City": {
         "level": 20,
         "ai": 143,
         "noCh": true,
@@ -160378,7 +160442,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Mikey2 - Route 2": {
+      "Lvl 61 Youngster Mikey - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -160409,7 +160473,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Ranger Audra2 - Route 1": {
+      "Lvl 49 PkMn Ranger Audra - Route 1": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -160440,7 +160504,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Rich Boy Rolan2 ": {
+      "Lvl 37 Rich Boy Rolan ": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -160471,7 +160535,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Gary2 - Castelia City": {
+      "Lvl 28 Harlequin Gary - Castelia City": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -160535,7 +160599,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Old Statue 2 - Pinwheel Forest": {
+      "Lvl 52 Old Statue - Pinwheel Forest": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -160599,7 +160663,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Old Statue 2 - Pinwheel Forest": {
+      "Lvl 52 Old Statue - Pinwheel Forest": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -160663,7 +160727,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Old Statue 2 - Pinwheel Forest": {
+      "Lvl 52 Old Statue - Pinwheel Forest": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -160727,7 +160791,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga6 - Starter 3": {
+      "Lvl 57 Rival Benga4 - Starter 3": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -160758,7 +160822,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Tibor2 - Driftveil City": {
+      "Lvl 42 Worker Tibor - Driftveil City": {
         "level": 42,
         "ai": 143,
         "noCh": true,
@@ -160789,7 +160853,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Old Statue 2 - Pinwheel Forest": {
+      "Lvl 53 Old Statue - Pinwheel Forest": {
         "level": 53,
         "ai": 15,
         "noCh": false,
@@ -160884,7 +160948,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga5 - Starter 3": {
+      "Lvl 57 Rival Benga3 - Starter 3": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -160915,7 +160979,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga6 - Starter 3": {
+      "Lvl 57 Rival Benga4 - Starter 3": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -160946,7 +161010,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Trainer Rood2 ": {
+      "Lvl 44 PkMn Trainer Rood ": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -160977,7 +161041,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Gentleman Daniel2 - Celestial Tower": {
+      "Lvl 51 Gentleman Daniel - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -161041,7 +161105,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 9 Youngster Petey2 - Route 20": {
+      "Lvl 9 Youngster Petey - Route 20": {
         "level": 9,
         "ai": 15,
         "noCh": false,
@@ -161167,7 +161231,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Backers Stu & Art2 - Route 16": {
+      "Lvl 36 Backers Stu & Art - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -161198,7 +161262,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Black Belt Jeriel2 - Route 12": {
+      "Lvl 42 Black Belt Jeriel - Route 12": {
         "level": 42,
         "ai": 3,
         "noCh": true,
@@ -161229,7 +161293,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Johto Leader Bugsy2 ": {
+      "Lvl 61 Johto Leader Bugsy ": {
         "level": 61,
         "ai": 15,
         "noCh": false,
@@ -161244,23 +161308,23 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Tera Scarf",
+        "item": "Quick Claw",
         "nature": "Lax",
         "moves": [
-          "Steamroller",
+          "Megahorn",
           "High Jump Kick",
           "Stone Edge",
           "U-turn"
         ],
         "sub_index": 3,
-        "ability": "Guts",
+        "ability": "Moxie",
         "sprite": "trainer_sprites/johtoleader.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 47 Battle Girl Tia2 - Seaside Cave": {
+      "Lvl 47 Battle Girl Tia - Seaside Cave": {
         "level": 47,
         "ai": 3,
         "noCh": false,
@@ -161291,7 +161355,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Black Belt Martell2 - Victory Road": {
+      "Lvl 54 Black Belt Martell - Victory Road": {
         "level": 54,
         "ai": 3,
         "noCh": false,
@@ -161355,7 +161419,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Fisherman Bruce2 - Route 3": {
+      "Lvl 61 Fisherman Bruce - Route 3": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -161419,7 +161483,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Veteran Rayne2 - Route 2": {
+      "Lvl 66 Veteran Rayne - Route 2": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -161450,7 +161514,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival32 - Clay Tunnel - Starter 1": {
+      "Lvl 49 PkMn Trainer Rival13 - Clay Tunnel - Starter 1": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -161514,7 +161578,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Jimmy2 - Route 2": {
+      "Lvl 61 Youngster Jimmy - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -161609,7 +161673,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Jimmy2 - Route 2": {
+      "Lvl 61 Youngster Jimmy - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -161673,7 +161737,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Jimmy2 - Route 2": {
+      "Lvl 61 Youngster Jimmy - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -161737,7 +161801,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Jimmy2 - Route 2": {
+      "Lvl 61 Youngster Jimmy - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -161801,7 +161865,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Black Belt Corey2 - Reversal Mountain": {
+      "Lvl 56 Black Belt Corey - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -161832,7 +161896,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Backpacker Kendall2 - Relic Passage": {
+      "Lvl 28 Backpacker Kendall - Relic Passage": {
         "level": 28,
         "ai": 7,
         "noCh": false,
@@ -161863,7 +161927,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Beauty Stella2 - Chargestone Cave": {
+      "Lvl 49 Beauty Stella - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -161958,7 +162022,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Ace Trainer Mariana3 ": {
+      "Lvl 18 Ace Trainer Mariana2 ": {
         "level": 18,
         "ai": 7,
         "noCh": false,
@@ -162022,7 +162086,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Hoenn Leader Flannery2 ": {
+      "Lvl 58 Hoenn Leader Flannery ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -162053,7 +162117,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Scientist Lumina2 - Relic Passage": {
+      "Lvl 28 Scientist Lumina - Relic Passage": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -162084,7 +162148,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Backpacker Corin2 - Route 15": {
+      "Lvl 60 Backpacker Corin - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -162148,7 +162212,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Nurse Ratchet2 ": {
+      "Lvl 56 Nurse Ratchet ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -162179,7 +162243,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Nursery Aide Hollie2 - Route 7": {
+      "Lvl 52 Nursery Aide Hollie - Route 7": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -162210,7 +162274,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Nursery Aide Ilse2 ": {
+      "Lvl 62 Nursery Aide Ilse ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -162241,7 +162305,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Doctor Logan2 - Victory Road": {
+      "Lvl 26 Doctor Logan - Victory Road": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -162272,7 +162336,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Nursery Aide Ethel2 ": {
+      "Lvl 61 Nursery Aide Ethel ": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -162303,7 +162367,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Doctor Heath2 - Driftveil Drawbridge": {
+      "Lvl 42 Doctor Heath - Driftveil Drawbridge": {
         "level": 42,
         "ai": 15,
         "noCh": false,
@@ -162367,7 +162431,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 GAME FREAK Nishino2 ": {
+      "Lvl 16 GAME FREAK Nishino ": {
         "level": 16,
         "ai": 7,
         "noCh": false,
@@ -162431,7 +162495,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Cosplayer Amy2 - Join Avenue": {
+      "Lvl 36 Cosplayer Amy - Join Avenue": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -162462,7 +162526,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 PkMn Trainer Cheren2 ": {
+      "Lvl 47 PkMn Trainer Cheren ": {
         "level": 47,
         "ai": 135,
         "noCh": false,
@@ -162493,7 +162557,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pokefan Georgia2 - Celestial Tower": {
+      "Lvl 51 Pokefan Georgia - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -162524,7 +162588,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 GAME FREAK Nishino4 ": {
+      "Lvl 76 GAME FREAK Nishino2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -162555,7 +162619,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Backpacker Tami2 - Desert Resort": {
+      "Lvl 35 Backpacker Tami - Desert Resort": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -162586,7 +162650,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Backpacker Clara2 ": {
+      "Lvl 35 Backpacker Clara ": {
         "level": 35,
         "ai": 135,
         "noCh": false,
@@ -162617,7 +162681,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Beauty Monika2 - Chargestone Cave": {
+      "Lvl 49 Beauty Monika - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -162650,7 +162714,7 @@ backup_data = {
       }
     },
     "Amoonguss": {
-      "Lvl 57 Team Plasma Shadow8 ": {
+      "Lvl 57 Team Plasma Shadow4 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -162681,7 +162745,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt61 ": {
+      "Lvl 46 Team Plasma Grunt18 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -162712,7 +162776,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt76 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt33 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -162743,7 +162807,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 PkMn Ranger Steve2 - Route 23": {
+      "Lvl 52 PkMn Ranger Steve - Route 23": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -162774,7 +162838,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Scientist Lumina2 - Relic Passage": {
+      "Lvl 28 Scientist Lumina - Relic Passage": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -162869,7 +162933,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Team Plasma Grunt43 ": {
+      "Lvl 28 Team Plasma Grunt3 ": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -162900,7 +162964,38 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt67 ": {
+      "Lvl 48 Team Plasma Grunt8 ": {
+        "level": 48,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 375,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Proto Accelerator",
+        "nature": "Impish",
+        "moves": [
+          "Rage",
+          "Thrash",
+          "Dragon Claw",
+          "Obstruct"
+        ],
+        "sub_index": 3,
+        "ability": "Poison Heal",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 46 Team Plasma Grunt24 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -162931,7 +163026,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt82 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt39 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -162962,7 +163057,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Backpacker Kiyo4 ": {
+      "Lvl 56 Backpacker Kiyo2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -163026,7 +163121,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Nurse Mariah2 - Driftveil Drawbridge": {
+      "Lvl 42 Nurse Mariah - Driftveil Drawbridge": {
         "level": 42,
         "ai": 15,
         "noCh": false,
@@ -163154,7 +163249,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Doctor Kit2 - Chargestone Cave": {
+      "Lvl 50 Doctor Kit - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -163218,7 +163313,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Backpacker Blossom2 - Route 14": {
+      "Lvl 55 Backpacker Blossom - Route 14": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -163249,7 +163344,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Dua2 - Relic Castle": {
+      "Lvl 35 Psychic Dua - Relic Castle": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -163344,7 +163439,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Worker Friedrich2 - Driftveil City": {
+      "Lvl 45 Worker Friedrich - Driftveil City": {
         "level": 45,
         "ai": 143,
         "noCh": true,
@@ -163375,7 +163470,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Motorcyclist Charles5 ": {
+      "Lvl 26 Motorcyclist Charles ": {
         "level": 26,
         "ai": 7,
         "noCh": false,
@@ -163406,7 +163501,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Motorcyclist Charles8 ": {
+      "Lvl 26 Motorcyclist Charles4 ": {
         "level": 26,
         "ai": 7,
         "noCh": false,
@@ -163437,7 +163532,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Backpacker Boone2 ": {
+      "Lvl 36 Backpacker Boone ": {
         "level": 36,
         "ai": 1,
         "noCh": false,
@@ -163468,7 +163563,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Billy2 - Victory Road": {
+      "Lvl 55 Ace Trainer Billy - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -163499,7 +163594,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Cathy2 - Victory Road": {
+      "Lvl 55 Veteran Cathy - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -163530,7 +163625,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Tommy2 - Desert Resort": {
+      "Lvl 35 Psychic Tommy - Desert Resort": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -163561,7 +163656,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Rival Benga15 - Starter 3": {
+      "Lvl 56 Rival Benga8 - Starter 3": {
         "level": 56,
         "ai": 7,
         "noCh": true,
@@ -163687,7 +163782,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Hoenn Leader Roxanne2 - Clay Tunnel": {
+      "Lvl 52 Hoenn Leader Roxanne - Clay Tunnel": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -163718,7 +163813,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ghostly Man 2 ": {
+      "Lvl 56 Ghostly Man ": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -163749,7 +163844,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Psychic Perry2 - Relic Castle": {
+      "Lvl 36 Psychic Perry - Relic Castle": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -163780,7 +163875,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Ryan2 - Twist Mountain": {
+      "Lvl 60 Worker Ryan - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -163811,7 +163906,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Psychic Ena2 - Relic Passage": {
+      "Lvl 49 Psychic Ena - Relic Passage": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -163842,7 +163937,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Jamie2 - Victory Road": {
+      "Lvl 55 Ace Trainer Jamie - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -163937,7 +164032,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Cosplayer Miriam2 - Join Avenue": {
+      "Lvl 37 Cosplayer Miriam - Join Avenue": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -163968,7 +164063,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ghostly Gent 2 - Route 3": {
+      "Lvl 56 Ghostly Gent - Route 3": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -163999,7 +164094,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Psychic Joyce2 - Celestial Tower": {
+      "Lvl 51 Psychic Joyce - Celestial Tower": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -164030,7 +164125,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Doctor Derek2 - Reversal Mountain": {
+      "Lvl 56 Doctor Derek - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -164061,7 +164156,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Rival Benga15 - Starter 3": {
+      "Lvl 56 Rival Benga8 - Starter 3": {
         "level": 56,
         "ai": 7,
         "noCh": true,
@@ -164092,7 +164187,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Caitlin4 ": {
+      "Lvl 73 Elite Four Caitlin3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -164156,7 +164251,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Worker Herman2 ": {
+      "Lvl 61 Worker Herman ": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -164284,7 +164379,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Musician Preston2 - Driftveil City": {
+      "Lvl 41 Musician Preston - Driftveil City": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -164315,7 +164410,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Lady Myra2 ": {
+      "Lvl 59 Lady Myra ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -164379,7 +164474,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 GAME FREAK Nishino4 ": {
+      "Lvl 76 GAME FREAK Nishino2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -164410,7 +164505,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Leader Lenora2 ": {
+      "Lvl 37 Leader Lenora ": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -164474,7 +164569,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Nursery Aide Ethel2 ": {
+      "Lvl 61 Nursery Aide Ethel ": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -164538,7 +164633,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Artist Horton2 - Route 5": {
+      "Lvl 36 Artist Horton - Route 5": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -164569,7 +164664,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Harlequin Pat2 - Route 7": {
+      "Lvl 50 Harlequin Pat - Route 7": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -164600,7 +164695,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Gentleman Sheldon2 ": {
+      "Lvl 58 Gentleman Sheldon ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -164631,7 +164726,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Harlequin Anders2 - Castelia City": {
+      "Lvl 29 Harlequin Anders - Castelia City": {
         "level": 29,
         "ai": 15,
         "noCh": false,
@@ -164695,7 +164790,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 PkMn Trainer Rival8 - Starter 2": {
+      "Lvl 10 PkMn Trainer Rival5 - Starter 2": {
         "level": 10,
         "ai": 15,
         "noCh": false,
@@ -164726,7 +164821,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Policeman Braven2 - Route 4": {
+      "Lvl 16 Policeman Braven - Route 4": {
         "level": 16,
         "ai": 7,
         "noCh": false,
@@ -164757,7 +164852,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Pokefan Elliot2 - Route 15": {
+      "Lvl 60 Pokefan Elliot - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -164852,7 +164947,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Janitor Brady2 - Castelia Sewers": {
+      "Lvl 27 Janitor Brady - Castelia Sewers": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -164883,7 +164978,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Bianca5 - Dreamyard": {
+      "Lvl 50 PkMn Trainer Bianca - Dreamyard": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -164914,7 +165009,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren7 ": {
+      "Lvl 65 PkMn Trainer Cheren2 ": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -165009,7 +165104,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Parasol Lady Nicole2 - Route 6": {
+      "Lvl 42 Parasol Lady Nicole - Route 6": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -165040,7 +165135,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Parasol Lady Laura2 - Route 13": {
+      "Lvl 40 Parasol Lady Laura - Route 13": {
         "level": 40,
         "ai": 1,
         "noCh": false,
@@ -165071,7 +165166,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Swimmer M Harold2 - Route 21": {
+      "Lvl 58 Swimmer M Harold - Route 21": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -165102,7 +165197,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Ace Trainer Jeanne2 - Humilau City": {
+      "Lvl 60 Ace Trainer Jeanne - Humilau City": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -165133,7 +165228,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Ingrid2 - Route 8 1": {
+      "Lvl 60 Parasol Lady Ingrid - Route 8 1": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -165164,7 +165259,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Ingrid2 - Route 8 2": {
+      "Lvl 60 Parasol Lady Ingrid - Route 8 2": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -165195,7 +165290,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Ingrid2 - Route 8": {
+      "Lvl 60 Parasol Lady Ingrid - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -165226,7 +165321,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Tyra2 - Route 8": {
+      "Lvl 60 Parasol Lady Tyra - Route 8": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -165290,7 +165385,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Gus2 - Twist Mountain": {
+      "Lvl 60 Worker Gus - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -165321,7 +165416,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 Kanto Leader Brock2 - Pledge Grove": {
+      "Lvl 14 Kanto Leader Brock - Pledge Grove": {
         "level": 14,
         "ai": 15,
         "noCh": false,
@@ -165416,7 +165511,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Cairn2 - Twist Mountain": {
+      "Lvl 60 Worker Cairn - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -165511,7 +165606,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Breeder Addison2 - Route 22": {
+      "Lvl 58 PkMn Breeder Addison - Route 22": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -165542,7 +165637,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Ryan2 - Twist Mountain": {
+      "Lvl 60 Worker Ryan - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -165637,7 +165732,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Harlequin Pat2 - Route 7": {
+      "Lvl 49 Harlequin Pat - Route 7": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -165701,7 +165796,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Psychic Alia2 - Victory Road": {
+      "Lvl 54 Psychic Alia - Victory Road": {
         "level": 54,
         "ai": 5,
         "noCh": false,
@@ -165732,7 +165827,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Team Plasma Grunt107 ": {
+      "Lvl 25 Team Plasma Grunt48 ": {
         "level": 25,
         "ai": 143,
         "noCh": false,
@@ -165858,7 +165953,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival46 - Starter 1": {
+      "Lvl 27 PkMn Trainer Rival19 - Starter 1": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -165889,7 +165984,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival47 - Starter 2": {
+      "Lvl 27 PkMn Trainer Rival20 - Starter 2": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -165920,7 +166015,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival49 - Starter 3": {
+      "Lvl 27 PkMn Trainer Rival21 - Starter 3": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -166015,7 +166110,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Ace Trainer Corky2 ": {
+      "Lvl 33 Ace Trainer Corky ": {
         "level": 33,
         "ai": 135,
         "noCh": false,
@@ -166079,7 +166174,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Depot Agent Hank2 - Route 16": {
+      "Lvl 37 Depot Agent Hank - Route 16": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -166110,7 +166205,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Worker Cliff2 - Twist Mountain": {
+      "Lvl 26 Worker Cliff - Twist Mountain": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -166207,7 +166302,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Nursery Aide June2 ": {
+      "Lvl 24 Nursery Aide June ": {
         "level": 24,
         "ai": 1,
         "noCh": false,
@@ -166302,7 +166397,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Nurse Ratchet2 ": {
+      "Lvl 56 Nurse Ratchet ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -166333,7 +166428,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Rood2 ": {
+      "Lvl 43 PkMn Trainer Rood ": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -166364,7 +166459,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Worker Scott2 - Relic Passage": {
+      "Lvl 27 Worker Scott - Relic Passage": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -166395,7 +166490,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Shelly2 - Victory Road": {
+      "Lvl 55 Ace Trainer Shelly - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -166490,7 +166585,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Beauty Ampre2 ": {
+      "Lvl 40 Beauty Ampre ": {
         "level": 40,
         "ai": 15,
         "noCh": false,
@@ -166521,7 +166616,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Breeder Magnolia2 - Route 11": {
+      "Lvl 41 PkMn Breeder Magnolia - Route 11": {
         "level": 41,
         "ai": 5,
         "noCh": false,
@@ -166552,7 +166647,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Ace Trainer Grant2 - Route 23": {
+      "Lvl 53 Ace Trainer Grant - Route 23": {
         "level": 53,
         "ai": 7,
         "noCh": false,
@@ -166583,7 +166678,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Beauty Stella2 - Chargestone Cave": {
+      "Lvl 50 Beauty Stella - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -166614,7 +166709,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Backers May & Mal2 - Route 3": {
+      "Lvl 62 Backers May & Mal - Route 3": {
         "level": 62,
         "ai": 129,
         "noCh": false,
@@ -166640,101 +166735,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "No Guard",
         "sprite": "trainer_sprites/backersf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Raichu": {
-      "Lvl 61 Maid Tanya ": {
-        "level": 61,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 141,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Impish",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Teravolt",
-        "sprite": "trainer_sprites/maid.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 38 Lady Colette ": {
-        "level": 38,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 148,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Electric Gem",
-        "nature": "Relaxed",
-        "moves": [
-          "Discharge",
-          "Scorching Sands",
-          "Focus Punch",
-          "Attract"
-        ],
-        "sub_index": 3,
-        "ability": "Sheer Force",
-        "sprite": "trainer_sprites/lady.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 31 Kanto Leader Lt. Surge2 - Liberty Garden": {
-        "level": 31,
-        "ai": 15,
-        "noCh": true,
-        "tr_id": 766,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Timid",
-        "moves": [
-          "Discharge",
-          "Mud Bomb",
-          "Sludge Bomb",
-          "Surf"
-        ],
-        "sub_index": 5,
-        "ability": "Teravolt",
-        "sprite": "trainer_sprites/kantoleader.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -166773,7 +166773,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 Rival Benga4 - Starter 3": {
+      "Lvl 13 Rival Benga2 - Starter 3": {
         "level": 13,
         "ai": 143,
         "noCh": false,
@@ -166804,7 +166804,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Ranger Dianne2 - Route 13": {
+      "Lvl 39 PkMn Ranger Dianne - Route 13": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -166835,7 +166835,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 Rival Benga12 - Floccesy Ranch - Starter 3": {
+      "Lvl 13 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 13,
         "ai": 0,
         "noCh": true,
@@ -166899,7 +166899,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Black Belt Martell2 - Victory Road": {
+      "Lvl 54 Black Belt Martell - Victory Road": {
         "level": 54,
         "ai": 3,
         "noCh": false,
@@ -166930,7 +166930,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Subway Boss Emmet2 ": {
+      "Lvl 39 Subway Boss Emmet ": {
         "level": 39,
         "ai": 143,
         "noCh": false,
@@ -166961,7 +166961,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Harlequin Jack2 ": {
+      "Lvl 29 Harlequin Jack ": {
         "level": 29,
         "ai": 143,
         "noCh": false,
@@ -167025,7 +167025,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Tibor2 - Driftveil City": {
+      "Lvl 43 Worker Tibor - Driftveil City": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -167056,7 +167056,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Ghetsis2 ": {
+      "Lvl 50 Team Plasma Ghetsis ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -167087,7 +167087,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Psychic Al2 - Victory Road": {
+      "Lvl 54 Psychic Al - Victory Road": {
         "level": 54,
         "ai": 5,
         "noCh": false,
@@ -167118,7 +167118,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Old Statue 2 - Pinwheel Forest": {
+      "Lvl 52 Old Statue - Pinwheel Forest": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -167149,7 +167149,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Ace Trainer Layla2 ": {
+      "Lvl 40 Ace Trainer Layla ": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -167180,7 +167180,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Red Red2 ": {
+      "Lvl 73 Red Red ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -167244,7 +167244,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Red Red2 ": {
+      "Lvl 73 Red Red ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -167275,7 +167275,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N8 ": {
+      "Lvl 75 PkMn Trainer N4 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -167370,7 +167370,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Billy2 - Victory Road": {
+      "Lvl 55 Ace Trainer Billy - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -167401,7 +167401,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Sterling2 - Victory Road": {
+      "Lvl 54 Veteran Sterling - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -167432,7 +167432,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Tommy2 - Desert Resort": {
+      "Lvl 35 Psychic Tommy - Desert Resort": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -167463,7 +167463,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Jameson2 - Chargestone Cave": {
+      "Lvl 48 Hiker Jameson - Chargestone Cave": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -167494,7 +167494,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Red Red2 ": {
+      "Lvl 73 Red Red ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -167558,7 +167558,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Battle Girl Wendy2 - Route 18": {
+      "Lvl 65 Battle Girl Wendy - Route 18": {
         "level": 65,
         "ai": 3,
         "noCh": false,
@@ -167589,7 +167589,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Low2 - Relic Castle": {
+      "Lvl 35 Psychic Low - Relic Castle": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -167620,7 +167620,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Battle Girl Chan2 - Reversal Mountain": {
+      "Lvl 56 Battle Girl Chan - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -167651,7 +167651,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Battle Girl Kyurem2 - Wellspring Cave": {
+      "Lvl 62 Battle Girl Kyurem - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -167715,7 +167715,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow11 ": {
+      "Lvl 58 Team Plasma Shadow6 ": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -167746,7 +167746,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Gentleman Sheldon2 ": {
+      "Lvl 58 Gentleman Sheldon ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -167777,7 +167777,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Ace Trainer Sean2 - Route 1": {
+      "Lvl 66 Ace Trainer Sean - Route 1": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -167808,7 +167808,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Blue Blue2 ": {
+      "Lvl 73 Blue Blue ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -167903,7 +167903,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Roughneck Silvester2 - Route 16": {
+      "Lvl 36 Roughneck Silvester - Route 16": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -167934,7 +167934,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Roughneck Chance2 - Route 9": {
+      "Lvl 28 Roughneck Chance - Route 9": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -167965,7 +167965,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt60 ": {
+      "Lvl 47 Team Plasma Grunt17 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -167996,7 +167996,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt75 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt32 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -168027,7 +168027,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Black Belt Drago2 - Seaside Cave": {
+      "Lvl 47 Black Belt Drago - Seaside Cave": {
         "level": 47,
         "ai": 3,
         "noCh": false,
@@ -168058,7 +168058,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Black Belt Benjamin2 - Route 23": {
+      "Lvl 53 Black Belt Benjamin - Route 23": {
         "level": 53,
         "ai": 3,
         "noCh": false,
@@ -168089,7 +168089,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Black Belt Kentaro2 - Pinwheel Forest": {
+      "Lvl 61 Black Belt Kentaro - Pinwheel Forest": {
         "level": 61,
         "ai": 3,
         "noCh": false,
@@ -168120,7 +168120,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Battle Girl 2 - Wellspring Cave": {
+      "Lvl 62 Battle Girl - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -168151,7 +168151,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Battle Girl Alize2 - Route 13": {
+      "Lvl 41 Battle Girl Alize - Route 13": {
         "level": 41,
         "ai": 3,
         "noCh": false,
@@ -168182,7 +168182,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Dancer Kidd2 - Chargestone Cave": {
+      "Lvl 48 Dancer Kidd - Chargestone Cave": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -168213,7 +168213,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Blue Blue2 ": {
+      "Lvl 73 Blue Blue ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -168244,7 +168244,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt113 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt54 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -168275,7 +168275,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt116 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt57 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -168339,7 +168339,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Hooligans Jim & Cas2 - Route 9": {
+      "Lvl 42 Hooligans Jim & Cas - Route 9": {
         "level": 42,
         "ai": 129,
         "noCh": false,
@@ -168370,7 +168370,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Motorcyclist Charles6 ": {
+      "Lvl 41 Motorcyclist Charles2 ": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -168401,7 +168401,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Motorcyclist Charles7 ": {
+      "Lvl 42 Motorcyclist Charles3 ": {
         "level": 42,
         "ai": 135,
         "noCh": true,
@@ -168432,7 +168432,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 Veteran Chester2 - Route 18": {
+      "Lvl 68 Veteran Chester - Route 18": {
         "level": 68,
         "ai": 7,
         "noCh": false,
@@ -168463,7 +168463,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt59 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt16 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -168494,7 +168494,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt74 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt31 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -168525,7 +168525,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 PkMn Ranger Lewis4 ": {
+      "Lvl 56 PkMn Ranger Lewis2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -168556,7 +168556,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Shaye2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Shaye - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -168587,7 +168587,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Kanto Leader Lt. Surge2 - Liberty Garden": {
+      "Lvl 29 Kanto Leader Lt. Surge - Liberty Garden": {
         "level": 29,
         "ai": 15,
         "noCh": true,
@@ -168618,7 +168618,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Blue Blue2 ": {
+      "Lvl 73 Blue Blue ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -168649,7 +168649,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt111 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt52 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -168680,7 +168680,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt115 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt56 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -168744,7 +168744,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Perry2 - Relic Castle": {
+      "Lvl 35 Psychic Perry - Relic Castle": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -168775,7 +168775,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 PkMn Trainer Bianca5 - Dreamyard": {
+      "Lvl 51 PkMn Trainer Bianca - Dreamyard": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -168806,7 +168806,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Psychic Alia2 - Victory Road": {
+      "Lvl 54 Psychic Alia - Victory Road": {
         "level": 54,
         "ai": 5,
         "noCh": false,
@@ -168837,7 +168837,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca6 ": {
+      "Lvl 63 PkMn Trainer Bianca2 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -168868,7 +168868,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca7 ": {
+      "Lvl 63 PkMn Trainer Bianca3 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -168899,7 +168899,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 PkMn Trainer Bianca8 ": {
+      "Lvl 63 PkMn Trainer Bianca4 ": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -168930,7 +168930,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Kanto Leader Sabrina2 - Celestial Tower": {
+      "Lvl 53 Kanto Leader Sabrina - Celestial Tower": {
         "level": 53,
         "ai": 15,
         "noCh": false,
@@ -168961,7 +168961,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Rival Benga15 - Starter 3": {
+      "Lvl 56 Rival Benga8 - Starter 3": {
         "level": 56,
         "ai": 7,
         "noCh": true,
@@ -168992,7 +168992,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Caitlin4 ": {
+      "Lvl 73 Elite Four Caitlin3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -169056,7 +169056,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Policeman Dell2 - Route 4": {
+      "Lvl 34 Policeman Dell - Route 4": {
         "level": 34,
         "ai": 143,
         "noCh": false,
@@ -169087,7 +169087,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Battle Girl Glinda2 - Route 14": {
+      "Lvl 56 Battle Girl Glinda - Route 14": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -169118,7 +169118,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Beauty Monika2 - Chargestone Cave": {
+      "Lvl 49 Beauty Monika - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -169149,7 +169149,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Caitlin4 ": {
+      "Lvl 73 Elite Four Caitlin3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -169213,7 +169213,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Scientist Jacques2 - Route 6": {
+      "Lvl 47 Scientist Jacques - Route 6": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -169244,7 +169244,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pokefan Georgia2 - Celestial Tower": {
+      "Lvl 51 Pokefan Georgia - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -169275,7 +169275,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Scientist Hughes2 - Route 15": {
+      "Lvl 51 Scientist Hughes - Route 15": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -169306,7 +169306,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Doctor Heath2 - Driftveil Drawbridge": {
+      "Lvl 41 Doctor Heath - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -169337,7 +169337,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Rival Benga15 - Starter 3": {
+      "Lvl 56 Rival Benga8 - Starter 3": {
         "level": 56,
         "ai": 7,
         "noCh": true,
@@ -169368,7 +169368,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Caitlin4 ": {
+      "Lvl 73 Elite Four Caitlin3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -169463,7 +169463,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Twins Ally & Amy2 ": {
+      "Lvl 60 Twins Ally & Amy ": {
         "level": 60,
         "ai": 128,
         "noCh": false,
@@ -169527,7 +169527,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Beauty Fleming2 ": {
+      "Lvl 37 Beauty Fleming ": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -169558,7 +169558,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Worker Friedrich2 - Driftveil City": {
+      "Lvl 44 Worker Friedrich - Driftveil City": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -169589,7 +169589,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Colress3 ": {
+      "Lvl 50 Team Plasma Colress ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -169620,7 +169620,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Veteran Rayne2 - Route 2": {
+      "Lvl 66 Veteran Rayne - Route 2": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -169651,7 +169651,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Scientist Ronald2 - Chargestone Cave": {
+      "Lvl 50 Scientist Ronald - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -169682,7 +169682,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Scientist Hughes2 - Route 15": {
+      "Lvl 51 Scientist Hughes - Route 15": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -169713,7 +169713,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Colress8 - Dreamyard": {
+      "Lvl 47 Team Plasma Colress4 - Dreamyard": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -169744,7 +169744,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 72 PkMn Trainer Colress2 ": {
+      "Lvl 72 PkMn Trainer Colress ": {
         "level": 72,
         "ai": 7,
         "noCh": false,
@@ -169808,7 +169808,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Beryl2 ": {
+      "Lvl 55 Veteran Beryl ": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -169839,7 +169839,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Motorcyclist Charles6 ": {
+      "Lvl 41 Motorcyclist Charles2 ": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -169870,7 +169870,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Motorcyclist Charles7 ": {
+      "Lvl 42 Motorcyclist Charles3 ": {
         "level": 42,
         "ai": 135,
         "noCh": true,
@@ -169901,7 +169901,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Harlequin Anders2 - Castelia City": {
+      "Lvl 29 Harlequin Anders - Castelia City": {
         "level": 29,
         "ai": 15,
         "noCh": false,
@@ -169965,7 +169965,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Team Plasma Colress3 ": {
+      "Lvl 52 Team Plasma Colress ": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -169996,7 +169996,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Colress8 - Dreamyard": {
+      "Lvl 47 Team Plasma Colress4 - Dreamyard": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -170027,7 +170027,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 74 PkMn Trainer Colress2 ": {
+      "Lvl 74 PkMn Trainer Colress ": {
         "level": 74,
         "ai": 7,
         "noCh": false,
@@ -170091,7 +170091,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Backers Stu & Art2 - Route 16": {
+      "Lvl 36 Backers Stu & Art - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -170122,7 +170122,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer F Kaoru2 - Route 21": {
+      "Lvl 59 Swimmer F Kaoru - Route 21": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -170153,7 +170153,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Trainer Alder2 ": {
+      "Lvl 58 PkMn Trainer Alder ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -170184,7 +170184,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Caroll2 - Victory Road": {
+      "Lvl 55 Ace Trainer Caroll - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -170215,7 +170215,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N8 ": {
+      "Lvl 75 PkMn Trainer N4 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -170279,7 +170279,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Scientist Jacques2 - Route 6": {
+      "Lvl 47 Scientist Jacques - Route 6": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -170310,7 +170310,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Fisherman Vince2 - Route 13": {
+      "Lvl 40 Fisherman Vince - Route 13": {
         "level": 40,
         "ai": 1,
         "noCh": false,
@@ -170341,7 +170341,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Team Plasma Grunt41 ": {
+      "Lvl 26 Team Plasma Grunt1 ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -170366,6 +170366,37 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Determined",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 48 Team Plasma Grunt9 ": {
+        "level": 48,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 376,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Proto Armor",
+        "nature": "Timid",
+        "moves": [
+          "Liquidation",
+          "Stored Power",
+          "Ice Beam",
+          "Aqua Jet"
+        ],
+        "sub_index": 3,
+        "ability": "Tough Claws",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -170405,7 +170436,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Victor2 - Route 6": {
+      "Lvl 42 Worker Victor - Route 6": {
         "level": 42,
         "ai": 15,
         "noCh": false,
@@ -170436,7 +170467,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Doctor Derek2 - Reversal Mountain": {
+      "Lvl 56 Doctor Derek - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -170531,7 +170562,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Fisherman Doyle2 - Humilau City": {
+      "Lvl 59 Fisherman Doyle - Humilau City": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -170562,7 +170593,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Guardian of Unova Cobalion2 ": {
+      "Lvl 52 Guardian of Unova Cobalion ": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -170626,7 +170657,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Pasqual2 - Driftveil City": {
+      "Lvl 43 Worker Pasqual - Driftveil City": {
         "level": 43,
         "ai": 15,
         "noCh": true,
@@ -170657,7 +170688,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Psychic Future2 - Desert Resort": {
+      "Lvl 37 Psychic Future - Desert Resort": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -170752,7 +170783,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Musician Ray2 ": {
+      "Lvl 58 Musician Ray ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -170783,7 +170814,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival19 - Starter 1": {
+      "Lvl 49 PkMn Trainer Rival7 - Starter 1": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -170814,7 +170845,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival20 - Starter 2": {
+      "Lvl 49 PkMn Trainer Rival8 - Starter 2": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -170845,7 +170876,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival21 - Starter 3": {
+      "Lvl 49 PkMn Trainer Rival9 - Starter 3": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -170876,7 +170907,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival32 - Clay Tunnel - Starter 1": {
+      "Lvl 50 PkMn Trainer Rival13 - Clay Tunnel - Starter 1": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -170907,7 +170938,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival34 - Starter 2": {
+      "Lvl 50 PkMn Trainer Rival14 - Starter 2": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -170938,7 +170969,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival36 - Clay Tunnel - Starter 3": {
+      "Lvl 50 PkMn Trainer Rival15 - Clay Tunnel - Starter 3": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -170969,7 +171000,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Ace Trainer Ray2 ": {
+      "Lvl 57 Ace Trainer Ray ": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -171000,7 +171031,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Hugo2 - Victory Road": {
+      "Lvl 54 Veteran Hugo - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -171031,7 +171062,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival55 - Starter 1": {
+      "Lvl 62 PkMn Trainer Rival25 - Starter 1": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -171062,7 +171093,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival56 - Starter 2": {
+      "Lvl 62 PkMn Trainer Rival26 - Starter 2": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -171093,7 +171124,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival57 - Starter 3": {
+      "Lvl 62 PkMn Trainer Rival27 - Starter 3": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -171124,7 +171155,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival58 - Starter 1": {
+      "Lvl 65 PkMn Trainer Rival28 - Starter 1": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -171155,7 +171186,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival59 - Starter 2": {
+      "Lvl 65 PkMn Trainer Rival29 - Starter 2": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -171186,7 +171217,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival60 - Starter 3": {
+      "Lvl 65 PkMn Trainer Rival30 - Starter 3": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -171281,7 +171312,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Backers Ava & Aya2 - Driftveil City": {
+      "Lvl 42 Backers Ava & Aya - Driftveil City": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -171312,7 +171343,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cynthia2 ": {
+      "Lvl 76 PkMn Trainer Cynthia ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -171343,7 +171374,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Alder's partner Victini2 - Clay Tunnel": {
+      "Lvl 58 Alder's partner Victini - Clay Tunnel": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -171374,7 +171405,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Beauty Monika2 - Chargestone Cave": {
+      "Lvl 49 Beauty Monika - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -171438,7 +171469,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival34 - Starter 2": {
+      "Lvl 49 PkMn Trainer Rival14 - Starter 2": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -171502,7 +171533,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Motorcyclist Charles6 ": {
+      "Lvl 42 Motorcyclist Charles2 ": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -171533,7 +171564,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Motorcyclist Charles7 ": {
+      "Lvl 43 Motorcyclist Charles3 ": {
         "level": 43,
         "ai": 135,
         "noCh": true,
@@ -171564,7 +171595,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Worker Herman2 ": {
+      "Lvl 61 Worker Herman ": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -171595,7 +171626,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Black Belt 3 - Wellspring Cave": {
+      "Lvl 62 Black Belt - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -171626,7 +171657,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 73 Elite Four Marshal4 ": {
+      "Lvl 73 Elite Four Marshal3 ": {
         "level": 73,
         "ai": 7,
         "noCh": false,
@@ -171690,7 +171721,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Backers Ava & Aya2 - Driftveil City": {
+      "Lvl 41 Backers Ava & Aya - Driftveil City": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -171721,7 +171752,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Claude2 - Victory Road": {
+      "Lvl 55 Veteran Claude - Victory Road": {
         "level": 55,
         "ai": 135,
         "noCh": false,
@@ -171752,7 +171783,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Ace Trainer Kelsey2 - Pinwheel Forest": {
+      "Lvl 63 Ace Trainer Kelsey - Pinwheel Forest": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -171816,7 +171847,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Rich Boy Rolan2 ": {
+      "Lvl 37 Rich Boy Rolan ": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -171847,7 +171878,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Twins Ally & Amy2 ": {
+      "Lvl 60 Twins Ally & Amy ": {
         "level": 60,
         "ai": 128,
         "noCh": false,
@@ -171878,7 +171909,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Dancer Kidd2 - Chargestone Cave": {
+      "Lvl 48 Dancer Kidd - Chargestone Cave": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -171973,7 +172004,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 School Kid Mara2 - Route 6": {
+      "Lvl 50 School Kid Mara - Route 6": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -172004,7 +172035,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cynthia2 ": {
+      "Lvl 76 PkMn Trainer Cynthia ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -172035,7 +172066,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Guardian of Unova Virizion2 - Clay Tunnel": {
+      "Lvl 60 Guardian of Unova Virizion - Clay Tunnel": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -172099,7 +172130,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer M Harold2 - Route 21": {
+      "Lvl 59 Swimmer M Harold - Route 21": {
         "level": 59,
         "ai": 15,
         "noCh": false,
@@ -172130,7 +172161,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt53 ": {
+      "Lvl 47 Team Plasma Grunt10 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -172154,14 +172185,14 @@ backup_data = {
           "Protect"
         ],
         "sub_index": 0,
-        "ability": "Sheer Force",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 47 PkMn Ranger Audra2 - Route 1": {
+      "Lvl 47 PkMn Ranger Audra - Route 1": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -172192,7 +172223,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Hiker Markus2 - Reversal Mountain": {
+      "Lvl 56 Hiker Markus - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -172256,7 +172287,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Maid Tammy2 ": {
+      "Lvl 66 Maid Tammy ": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -172287,7 +172318,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Parker2 - Moor of Icirrus": {
+      "Lvl 62 PkMn Ranger Parker - Moor of Icirrus": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -172318,7 +172349,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Bianca5 - Dreamyard": {
+      "Lvl 50 PkMn Trainer Bianca - Dreamyard": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -172413,7 +172444,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Santino2 - Humilau City": {
+      "Lvl 60 Fisherman Santino - Humilau City": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -172444,7 +172475,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N5 ": {
+      "Lvl 75 PkMn Trainer N ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -172539,7 +172570,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 11 PkMn Trainer Rival8 - Starter 2": {
+      "Lvl 11 PkMn Trainer Rival5 - Starter 2": {
         "level": 11,
         "ai": 15,
         "noCh": false,
@@ -172634,7 +172665,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 11 PkMn Trainer Rival9 - Starter 3": {
+      "Lvl 11 PkMn Trainer Rival6 - Starter 3": {
         "level": 11,
         "ai": 15,
         "noCh": false,
@@ -172729,7 +172760,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 11 PkMn Trainer Rival6 - Starter 1": {
+      "Lvl 11 PkMn Trainer Rival4 - Starter 1": {
         "level": 11,
         "ai": 15,
         "noCh": false,
@@ -172793,7 +172824,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Policeman Braven2 - Route 4": {
+      "Lvl 16 Policeman Braven - Route 4": {
         "level": 16,
         "ai": 7,
         "noCh": false,
@@ -172824,7 +172855,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Backpacker Clifford2 ": {
+      "Lvl 16 Backpacker Clifford ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -172855,7 +172886,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Hoopster John5 ": {
+      "Lvl 25 Hoopster John3 ": {
         "level": 25,
         "ai": 7,
         "noCh": false,
@@ -172886,7 +172917,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Ace Trainer Henry3 ": {
+      "Lvl 18 Ace Trainer Henry2 ": {
         "level": 18,
         "ai": 7,
         "noCh": false,
@@ -172950,7 +172981,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Scientist Marissa2 - Route 6": {
+      "Lvl 48 Scientist Marissa - Route 6": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -172981,7 +173012,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Santino2 - Humilau City": {
+      "Lvl 60 Fisherman Santino - Humilau City": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -173012,7 +173043,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt44 ": {
+      "Lvl 40 Team Plasma Grunt4 ": {
         "level": 40,
         "ai": 143,
         "noCh": false,
@@ -173109,7 +173140,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ghostly Man 2 ": {
+      "Lvl 56 Ghostly Man ": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -173140,7 +173171,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Fisherman Kenzo2 - Route 21": {
+      "Lvl 59 Fisherman Kenzo - Route 21": {
         "level": 59,
         "ai": 15,
         "noCh": false,
@@ -173171,7 +173202,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Vicki2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Vicki - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -173235,7 +173266,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt61 ": {
+      "Lvl 46 Team Plasma Grunt18 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -173266,7 +173297,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt76 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt33 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -173361,7 +173392,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt54 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt11 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -173392,7 +173423,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt69 ": {
+      "Lvl 46 Team Plasma Grunt26 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -173423,7 +173454,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Guitarist January2 ": {
+      "Lvl 24 Guitarist January ": {
         "level": 24,
         "ai": 1,
         "noCh": false,
@@ -173454,7 +173485,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt116 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt57 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -173549,7 +173580,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 PkMn Ranger Audra2 - Route 1": {
+      "Lvl 47 PkMn Ranger Audra - Route 1": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -173580,7 +173611,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Terrakion2 - Clay Tunnel": {
+      "Lvl 62 PkMn Ranger Terrakion - Clay Tunnel": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -173611,7 +173642,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 PkMn Ranger Anja2 - Desert Resort": {
+      "Lvl 35 PkMn Ranger Anja - Desert Resort": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -173642,7 +173673,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Hiker Shelby2 - Mistralton Cave": {
+      "Lvl 51 Hiker Shelby - Mistralton Cave": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -173673,7 +173704,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Clarence2 - Castelia City": {
+      "Lvl 28 Harlequin Clarence - Castelia City": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -173704,7 +173735,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N7 ": {
+      "Lvl 75 PkMn Trainer N3 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -173768,7 +173799,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Worker Scott2 - Relic Passage": {
+      "Lvl 28 Worker Scott - Relic Passage": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -173799,7 +173830,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Hiker Kyurem2 - Wellspring Cave": {
+      "Lvl 61 Hiker Kyurem - Wellspring Cave": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -173863,7 +173894,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Champion Iris3 ": {
+      "Lvl 59 Champion Iris ": {
         "level": 59,
         "ai": 7,
         "noCh": false,
@@ -173894,7 +173925,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 78 Champion Iris4 ": {
+      "Lvl 78 Champion Iris2 ": {
         "level": 78,
         "ai": 7,
         "noCh": false,
@@ -173925,7 +173956,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren8 ": {
+      "Lvl 65 PkMn Trainer Cheren3 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -173956,7 +173987,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren9 ": {
+      "Lvl 65 PkMn Trainer Cheren4 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -173987,7 +174018,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren10 ": {
+      "Lvl 65 PkMn Trainer Cheren5 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -174018,7 +174049,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Rival Benga16 - Starter 3": {
+      "Lvl 59 Rival Benga9 - Starter 3": {
         "level": 59,
         "ai": 7,
         "noCh": true,
@@ -174049,7 +174080,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 79 Champion Iris6 ": {
+      "Lvl 79 Champion Iris3 ": {
         "level": 79,
         "ai": 7,
         "noCh": false,
@@ -174144,7 +174175,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga5 - Starter 3": {
+      "Lvl 57 Rival Benga3 - Starter 3": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -174175,7 +174206,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga6 - Starter 3": {
+      "Lvl 57 Rival Benga4 - Starter 3": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -174206,7 +174237,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Chloris2 - Twist Mountain": {
+      "Lvl 64 Veteran Chloris - Twist Mountain": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -174270,7 +174301,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Parasol Lady Tihana2 - Route 6": {
+      "Lvl 48 Parasol Lady Tihana - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -174301,7 +174332,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Kanto Leader Giovanni2 ": {
+      "Lvl 49 Kanto Leader Giovanni ": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -174365,7 +174396,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Backpacker Shane2 - Route 1": {
+      "Lvl 62 Backpacker Shane - Route 1": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -174396,7 +174427,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Carter2 - Twist Mountain": {
+      "Lvl 64 Veteran Carter - Twist Mountain": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -174427,7 +174458,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Otto2 - Chargestone Cave": {
+      "Lvl 48 Hiker Otto - Chargestone Cave": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -174458,7 +174489,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Claude2 - Victory Road": {
+      "Lvl 55 Veteran Claude - Victory Road": {
         "level": 55,
         "ai": 135,
         "noCh": false,
@@ -174489,7 +174520,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Scientist Hughes2 - Route 15": {
+      "Lvl 51 Scientist Hughes - Route 15": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -174520,7 +174551,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 PkMn Ranger Jaden2 - Desert Resort": {
+      "Lvl 35 PkMn Ranger Jaden - Desert Resort": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -174551,7 +174582,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Kanto Leader Giovanni2 ": {
+      "Lvl 49 Kanto Leader Giovanni ": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -174615,7 +174646,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Youngster Abe2 ": {
+      "Lvl 16 Youngster Abe ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -174679,7 +174710,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Lady Elizandra3 ": {
+      "Lvl 16 Lady Elizandra2 ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -174710,7 +174741,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 Socialite Cassandra3 ": {
+      "Lvl 17 Socialite Cassandra2 ": {
         "level": 17,
         "ai": 1,
         "noCh": false,
@@ -174774,7 +174805,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 PkMn Breeder Irene2 - Route 4": {
+      "Lvl 16 PkMn Breeder Irene - Route 4": {
         "level": 16,
         "ai": 5,
         "noCh": false,
@@ -174805,7 +174836,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Ace Trainer Henry3 ": {
+      "Lvl 18 Ace Trainer Henry2 ": {
         "level": 18,
         "ai": 7,
         "noCh": false,
@@ -174838,7 +174869,7 @@ backup_data = {
       }
     },
     "Deerling": {
-      "Lvl 10 PkMn Trainer Rival6 - Starter 1": {
+      "Lvl 10 PkMn Trainer Rival4 - Starter 1": {
         "level": 10,
         "ai": 15,
         "noCh": false,
@@ -174869,7 +174900,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Youngster Cody2 - Route 7 1": {
+      "Lvl 33 Youngster Cody - Route 7 1": {
         "level": 33,
         "ai": 1,
         "noCh": false,
@@ -174900,7 +174931,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Youngster Cody2 - Route 7 2": {
+      "Lvl 33 Youngster Cody - Route 7 2": {
         "level": 33,
         "ai": 1,
         "noCh": false,
@@ -174931,7 +174962,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 PkMn Ranger Leaf2 - Route 20": {
+      "Lvl 32 PkMn Ranger Leaf - Route 20": {
         "level": 32,
         "ai": 7,
         "noCh": false,
@@ -174962,7 +174993,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Breeder April2 ": {
+      "Lvl 27 PkMn Breeder April ": {
         "level": 27,
         "ai": 5,
         "noCh": false,
@@ -174995,7 +175026,7 @@ backup_data = {
       }
     },
     "Corphish": {
-      "Lvl 10 PkMn Trainer Rival6 - Starter 1": {
+      "Lvl 10 PkMn Trainer Rival4 - Starter 1": {
         "level": 10,
         "ai": 15,
         "noCh": false,
@@ -175026,7 +175057,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Eustace2 - Moor of Icirrus": {
+      "Lvl 60 Fisherman Eustace - Moor of Icirrus": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -175059,7 +175090,7 @@ backup_data = {
       }
     },
     "Doduo": {
-      "Lvl 9 PkMn Trainer Rival7 - Starter 2": {
+      "Lvl 9 PkMn Trainer Rival5 - Starter 2": {
         "level": 9,
         "ai": 15,
         "noCh": false,
@@ -175090,7 +175121,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Youngster Nicholas2 ": {
+      "Lvl 60 Youngster Nicholas ": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -175123,7 +175154,7 @@ backup_data = {
       }
     },
     "Petilil": {
-      "Lvl 10 PkMn Trainer Rival8 - Starter 2": {
+      "Lvl 10 PkMn Trainer Rival5 - Starter 2": {
         "level": 10,
         "ai": 15,
         "noCh": false,
@@ -175154,7 +175185,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 21 Hooligans Rob & Sal2 - Route 4": {
+      "Lvl 21 Hooligans Rob & Sal - Route 4": {
         "level": 21,
         "ai": 129,
         "noCh": false,
@@ -175187,7 +175218,7 @@ backup_data = {
       }
     },
     "Spearow": {
-      "Lvl 9 PkMn Trainer Rival9 - Starter 3": {
+      "Lvl 9 PkMn Trainer Rival6 - Starter 3": {
         "level": 9,
         "ai": 15,
         "noCh": false,
@@ -175220,7 +175251,7 @@ backup_data = {
       }
     },
     "Buizel": {
-      "Lvl 10 PkMn Trainer Rival9 - Starter 3": {
+      "Lvl 10 PkMn Trainer Rival6 - Starter 3": {
         "level": 10,
         "ai": 15,
         "noCh": false,
@@ -175284,7 +175315,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Cassie4 ": {
+      "Lvl 12 School Kid Cassie2 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -175348,7 +175379,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Ryder2 - Route 8": {
+      "Lvl 60 Fisherman Ryder - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -175379,7 +175410,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Cassie4 ": {
+      "Lvl 12 School Kid Cassie2 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -175443,7 +175474,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 GAME FREAK Morimoto3 ": {
+      "Lvl 14 GAME FREAK Morimoto2 ": {
         "level": 14,
         "ai": 7,
         "noCh": false,
@@ -175474,7 +175505,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Cassie4 ": {
+      "Lvl 12 School Kid Cassie2 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -175538,7 +175569,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Preschooler Chrissy2 - Route 7": {
+      "Lvl 49 Preschooler Chrissy - Route 7": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -175569,7 +175600,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Seymour5 ": {
+      "Lvl 12 School Kid Seymour3 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -175633,7 +175664,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Pokefan Elliot2 - Route 15": {
+      "Lvl 60 Pokefan Elliot - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -175664,7 +175695,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Seymour5 ": {
+      "Lvl 12 School Kid Seymour3 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -175728,7 +175759,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Youngster Nicholas2 ": {
+      "Lvl 60 Youngster Nicholas ": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -176056,7 +176087,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Lass Mai2 - Route 8": {
+      "Lvl 60 Lass Mai - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -176153,7 +176184,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Striker Marco5 ": {
+      "Lvl 26 Striker Marco2 ": {
         "level": 26,
         "ai": 7,
         "noCh": false,
@@ -176184,7 +176215,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Hoopster John5 ": {
+      "Lvl 25 Hoopster John3 ": {
         "level": 25,
         "ai": 7,
         "noCh": false,
@@ -176215,7 +176246,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Cairn2 - Twist Mountain": {
+      "Lvl 60 Worker Cairn - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -176246,7 +176277,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Black Belt Rocky2 1": {
+      "Lvl 44 Black Belt Rocky 1": {
         "level": 44,
         "ai": 3,
         "noCh": false,
@@ -176277,7 +176308,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Black Belt Rocky2 2": {
+      "Lvl 44 Black Belt Rocky 2": {
         "level": 44,
         "ai": 3,
         "noCh": false,
@@ -176308,7 +176339,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Black Belt Rocky2 2 3": {
+      "Lvl 44 Black Belt Rocky 2 3": {
         "level": 44,
         "ai": 3,
         "noCh": false,
@@ -176471,7 +176502,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Preschooler Samantha2 ": {
+      "Lvl 59 Preschooler Samantha ": {
         "level": 59,
         "ai": 0,
         "noCh": false,
@@ -176566,7 +176597,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Ace Trainer Sean2 - Route 1": {
+      "Lvl 66 Ace Trainer Sean - Route 1": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -176597,7 +176628,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Webster2 - Victory Road": {
+      "Lvl 55 Ace Trainer Webster - Victory Road": {
         "level": 55,
         "ai": 135,
         "noCh": false,
@@ -176628,7 +176659,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Hiker Jebediah2 - Mistralton Cave": {
+      "Lvl 51 Hiker Jebediah - Mistralton Cave": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -176659,7 +176690,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 30 Harlequin Anders2 - Castelia City": {
+      "Lvl 30 Harlequin Anders - Castelia City": {
         "level": 30,
         "ai": 15,
         "noCh": false,
@@ -176756,7 +176787,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Backpacker Rachel2 - Route 4": {
+      "Lvl 34 Backpacker Rachel - Route 4": {
         "level": 34,
         "ai": 143,
         "noCh": false,
@@ -176787,7 +176818,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Roughneck Chance2 - Route 9": {
+      "Lvl 28 Roughneck Chance - Route 9": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -176818,7 +176849,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Mikey2 - Route 2": {
+      "Lvl 61 Youngster Mikey - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -176882,7 +176913,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Roughneck Reese2 - Route 9": {
+      "Lvl 43 Roughneck Reese - Route 9": {
         "level": 43,
         "ai": 1,
         "noCh": false,
@@ -176913,7 +176944,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt57 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt14 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -176944,7 +176975,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt72 ": {
+      "Lvl 46 Team Plasma Grunt29 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -176975,7 +177006,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Ranger Eliza4 ": {
+      "Lvl 38 PkMn Ranger Eliza2 ": {
         "level": 38,
         "ai": 143,
         "noCh": false,
@@ -177006,7 +177037,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Guitarist Tina2 ": {
+      "Lvl 33 Guitarist Tina ": {
         "level": 33,
         "ai": 1,
         "noCh": true,
@@ -177037,7 +177068,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt115 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt56 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -177068,7 +177099,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt118 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt59 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -177132,7 +177163,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Hillary2 ": {
+      "Lvl 62 PkMn Ranger Hillary ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -177196,7 +177227,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 PkMn Ranger Rick2 - Route 1": {
+      "Lvl 64 PkMn Ranger Rick - Route 1": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -177293,7 +177324,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Scientist Marissa2 - Route 6": {
+      "Lvl 47 Scientist Marissa - Route 6": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -177324,7 +177355,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt58 ": {
+      "Lvl 45 Team Plasma Grunt15 ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -177355,7 +177386,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt73 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt30 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -177386,7 +177417,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Janitor Brady2 - Castelia Sewers": {
+      "Lvl 27 Janitor Brady - Castelia Sewers": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -177417,7 +177448,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Backpacker Kiyo2 - Reversal Mountain": {
+      "Lvl 37 Backpacker Kiyo - Reversal Mountain": {
         "level": 37,
         "ai": 129,
         "noCh": false,
@@ -177448,7 +177479,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt91 ": {
+      "Lvl 44 Team Plasma Grunt43 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -177479,7 +177510,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Team Plasma Grunt104 ": {
+      "Lvl 39 Team Plasma Grunt45 ": {
         "level": 39,
         "ai": 129,
         "noCh": false,
@@ -177510,7 +177541,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Backpacker Kumiko4 - Reversal Mountain": {
+      "Lvl 37 Backpacker Kumiko2 - Reversal Mountain": {
         "level": 37,
         "ai": 129,
         "noCh": false,
@@ -177541,7 +177572,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt109 ": {
+      "Lvl 46 Team Plasma Grunt50 ": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -177572,7 +177603,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt114 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt55 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -177603,7 +177634,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt118 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt59 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -177667,7 +177698,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Breeder Addison2 - Route 22": {
+      "Lvl 58 PkMn Breeder Addison - Route 22": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -177698,7 +177729,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 Maid Tanya3 ": {
+      "Lvl 17 Maid Tanya2 ": {
         "level": 17,
         "ai": 1,
         "noCh": false,
@@ -177729,7 +177760,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Hoopster Derrick2 - Village Bridge 1": {
+      "Lvl 42 Hoopster Derrick - Village Bridge 1": {
         "level": 42,
         "ai": 135,
         "noCh": false,
@@ -177760,7 +177791,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Hoopster Derrick2 - Village Bridge 2": {
+      "Lvl 42 Hoopster Derrick - Village Bridge 2": {
         "level": 42,
         "ai": 135,
         "noCh": false,
@@ -177824,7 +177855,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Preschooler Samantha2 ": {
+      "Lvl 59 Preschooler Samantha ": {
         "level": 59,
         "ai": 0,
         "noCh": false,
@@ -177888,7 +177919,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Preschooler Greg2 - Route 7": {
+      "Lvl 49 Preschooler Greg - Route 7": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -178018,7 +178049,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Lass Sibyl3 ": {
+      "Lvl 16 Lass Sibyl2 ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -178082,7 +178113,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt67 ": {
+      "Lvl 46 Team Plasma Grunt24 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -178113,7 +178144,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt82 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt39 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -178144,7 +178175,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt114 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt55 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -178208,7 +178239,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Breeder April2 ": {
+      "Lvl 27 PkMn Breeder April ": {
         "level": 27,
         "ai": 5,
         "noCh": false,
@@ -178272,7 +178303,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt42 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt2 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -178303,7 +178334,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt68 ": {
+      "Lvl 46 Team Plasma Grunt25 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -178334,7 +178365,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 15 Black Belt Gordon2 ": {
+      "Lvl 15 Black Belt Gordon ": {
         "level": 15,
         "ai": 3,
         "noCh": false,
@@ -178365,7 +178396,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 15 Black Belt Donny2 ": {
+      "Lvl 15 Black Belt Donny ": {
         "level": 15,
         "ai": 3,
         "noCh": false,
@@ -178396,7 +178427,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Roughneck Ricky2 ": {
+      "Lvl 32 Roughneck Ricky ": {
         "level": 32,
         "ai": 1,
         "noCh": true,
@@ -178427,7 +178458,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt116 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt57 - Plasma Frigate": {
         "level": 46,
         "ai": 129,
         "noCh": false,
@@ -178458,7 +178489,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt118 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt59 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -178522,7 +178553,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt62 ": {
+      "Lvl 46 Team Plasma Grunt19 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -178553,7 +178584,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt77 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt34 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -178617,7 +178648,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Hiker Wade2 - Twist Mountain": {
+      "Lvl 61 Hiker Wade - Twist Mountain": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -178681,7 +178712,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Biker Zeke2 - Route 9": {
+      "Lvl 43 Biker Zeke - Route 9": {
         "level": 43,
         "ai": 1,
         "noCh": false,
@@ -178712,7 +178743,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow16 1": {
+      "Lvl 49 Team Plasma Shadow9 1": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -178743,7 +178774,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow16 2": {
+      "Lvl 49 Team Plasma Shadow9 2": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -178774,7 +178805,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt64 - Plasma Frigate 1": {
+      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate 1": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -178805,7 +178836,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt64 - Plasma Frigate 2": {
+      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate 2": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -178836,7 +178867,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt64 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -178867,7 +178898,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt79 1": {
+      "Lvl 45 Team Plasma Grunt36 1": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -178898,7 +178929,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt79 2": {
+      "Lvl 45 Team Plasma Grunt36 2": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -178929,7 +178960,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt79 ": {
+      "Lvl 45 Team Plasma Grunt36 ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -178960,7 +178991,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow22 1": {
+      "Lvl 49 Team Plasma Shadow10 1": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -178991,7 +179022,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow22 2": {
+      "Lvl 49 Team Plasma Shadow10 2": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -179022,7 +179053,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow23 1": {
+      "Lvl 49 Team Plasma Shadow11 1": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -179053,7 +179084,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow23 2": {
+      "Lvl 49 Team Plasma Shadow11 2": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -179084,7 +179115,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Shadow24 1": {
+      "Lvl 46 Team Plasma Shadow12 1": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -179115,7 +179146,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Shadow24 2": {
+      "Lvl 46 Team Plasma Shadow12 2": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -179179,7 +179210,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Ace Trainer Junko2 ": {
+      "Lvl 39 Ace Trainer Junko ": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -179210,7 +179241,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Fisherman Damon2 - Route 13": {
+      "Lvl 39 Fisherman Damon - Route 13": {
         "level": 39,
         "ai": 1,
         "noCh": false,
@@ -179241,7 +179272,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Swimmer M Bart2 - Undella Bay": {
+      "Lvl 39 Swimmer M Bart - Undella Bay": {
         "level": 39,
         "ai": 1,
         "noCh": false,
@@ -179272,7 +179303,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Motorcyclist Charles6 ": {
+      "Lvl 41 Motorcyclist Charles2 ": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -179303,7 +179334,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Fisherman Dean2 - Village Bridge": {
+      "Lvl 42 Fisherman Dean - Village Bridge": {
         "level": 42,
         "ai": 1,
         "noCh": false,
@@ -179334,7 +179365,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Motorcyclist Charles7 ": {
+      "Lvl 42 Motorcyclist Charles3 ": {
         "level": 42,
         "ai": 135,
         "noCh": true,
@@ -179365,7 +179396,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cress2 ": {
+      "Lvl 65 PkMn Trainer Cress ": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -179396,7 +179427,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Trainer Alder2 ": {
+      "Lvl 58 PkMn Trainer Alder ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -179427,7 +179458,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Ace Trainer Mariana3 ": {
+      "Lvl 18 Ace Trainer Mariana2 ": {
         "level": 18,
         "ai": 7,
         "noCh": false,
@@ -179491,7 +179522,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Baker Chris2 ": {
+      "Lvl 42 Baker Chris ": {
         "level": 42,
         "ai": 1,
         "noCh": false,
@@ -179522,7 +179553,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Ace Trainer Cheyenne2 - Route 1": {
+      "Lvl 66 Ace Trainer Cheyenne - Route 1": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -179553,7 +179584,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Chili2 ": {
+      "Lvl 65 PkMn Trainer Chili ": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -179584,7 +179615,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Shanta2 - Victory Road": {
+      "Lvl 55 Ace Trainer Shanta - Victory Road": {
         "level": 55,
         "ai": 135,
         "noCh": false,
@@ -179615,7 +179646,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Belle2 - Mistralton Cave": {
+      "Lvl 50 Ace Trainer Belle - Mistralton Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -179646,7 +179677,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt106 ": {
+      "Lvl 40 Team Plasma Grunt47 ": {
         "level": 40,
         "ai": 15,
         "noCh": false,
@@ -179710,7 +179741,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Scientist Jacques2 - Route 6": {
+      "Lvl 48 Scientist Jacques - Route 6": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -179741,7 +179772,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Psychic Micki2 - Celestial Tower": {
+      "Lvl 52 Psychic Micki - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -179772,7 +179803,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Hiker Tobias2 - Relic Passage": {
+      "Lvl 47 Hiker Tobias - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -179803,7 +179834,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Rival Benga13 - Route 4 - Starter 3": {
+      "Lvl 36 Rival Benga6 - Route 4 - Starter 3": {
         "level": 36,
         "ai": 143,
         "noCh": true,
@@ -179867,7 +179898,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt44 ": {
+      "Lvl 40 Team Plasma Grunt4 ": {
         "level": 40,
         "ai": 143,
         "noCh": false,
@@ -179898,7 +179929,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Veteran Zach2 - Twist Mountain": {
+      "Lvl 63 Veteran Zach - Twist Mountain": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -179929,7 +179960,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Geoff2 - Mistralton Cave": {
+      "Lvl 50 Ace Trainer Geoff - Mistralton Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -179993,7 +180024,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Ruby2 ": {
+      "Lvl 55 Veteran Ruby ": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -180024,7 +180055,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 Rich Boy Rolan2 ": {
+      "Lvl 38 Rich Boy Rolan ": {
         "level": 38,
         "ai": 15,
         "noCh": false,
@@ -180055,7 +180086,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Colress8 - Dreamyard": {
+      "Lvl 48 Team Plasma Colress4 - Dreamyard": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -180152,7 +180183,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Friedrich2 - Driftveil City": {
+      "Lvl 43 Worker Friedrich - Driftveil City": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -180183,7 +180214,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Champion Iris3 ": {
+      "Lvl 57 Champion Iris ": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -180214,7 +180245,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Backpacker Jill2 - Route 1": {
+      "Lvl 62 Backpacker Jill - Route 1": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -180245,7 +180276,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Chloris2 - Twist Mountain": {
+      "Lvl 64 Veteran Chloris - Twist Mountain": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -180276,7 +180307,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 Champion Iris4 ": {
+      "Lvl 76 Champion Iris2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -180307,7 +180338,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Cecile2 - Victory Road": {
+      "Lvl 55 Veteran Cecile - Victory Road": {
         "level": 55,
         "ai": 135,
         "noCh": false,
@@ -180338,7 +180369,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga16 - Starter 3": {
+      "Lvl 57 Rival Benga9 - Starter 3": {
         "level": 57,
         "ai": 7,
         "noCh": true,
@@ -180369,7 +180400,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 Champion Iris6 ": {
+      "Lvl 77 Champion Iris3 ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -180466,7 +180497,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Veteran Ruby2 ": {
+      "Lvl 57 Veteran Ruby ": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -180497,7 +180528,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 70 Veteran Maya2 - Route 18": {
+      "Lvl 70 Veteran Maya - Route 18": {
         "level": 70,
         "ai": 7,
         "noCh": false,
@@ -180528,7 +180559,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 Champion Iris6 ": {
+      "Lvl 77 Champion Iris3 ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -180625,7 +180656,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Champion Iris3 ": {
+      "Lvl 57 Champion Iris ": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -180656,7 +180687,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Team Plasma Ghetsis2 ": {
+      "Lvl 52 Team Plasma Ghetsis ": {
         "level": 52,
         "ai": 7,
         "noCh": false,
@@ -180687,7 +180718,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 Champion Iris4 ": {
+      "Lvl 76 Champion Iris2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -180718,7 +180749,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga16 - Starter 3": {
+      "Lvl 57 Rival Benga9 - Starter 3": {
         "level": 57,
         "ai": 7,
         "noCh": true,
@@ -180749,7 +180780,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 Champion Iris6 ": {
+      "Lvl 77 Champion Iris3 ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -180848,7 +180879,7 @@ backup_data = {
       }
     },
     "Latias": {
-      "Lvl 80 Rival Benga3 - Starter 3": {
+      "Lvl 80 Rival Benga - Starter 3": {
         "level": 80,
         "ai": 7,
         "noCh": false,
@@ -180879,7 +180910,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 80 Boss Trainer Jariel2 ": {
+      "Lvl 80 Boss Trainer Jariel ": {
         "level": 80,
         "ai": 7,
         "noCh": false,
@@ -180911,8 +180942,72 @@ backup_data = {
         }
       }
     },
+    "Volcarona": {
+      "Lvl 80 Rival Benga - Starter 3": {
+        "level": 80,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 201,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Relaxed",
+        "moves": [
+          "Fire Blast",
+          "Bug Buzz",
+          "Psychic",
+          "Quiver Dance"
+        ],
+        "sub_index": 2,
+        "ability": "Swarm",
+        "sprite": "trainer_sprites/benga.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 59 PkMn Trainer Alder ": {
+        "level": 59,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 582,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Tera Sash",
+        "nature": "Bold",
+        "moves": [
+          "Heat Wave",
+          "Silver Wind",
+          "Protect",
+          "Energy Ball"
+        ],
+        "sub_index": 3,
+        "ability": "Blaze",
+        "sprite": "trainer_sprites/alder.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Bronzor": {
-      "Lvl 12 Rival Benga4 - Starter 3": {
+      "Lvl 12 Rival Benga2 - Starter 3": {
         "level": 12,
         "ai": 143,
         "noCh": false,
@@ -180943,7 +181038,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 Rival Benga12 - Floccesy Ranch - Starter 3": {
+      "Lvl 12 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 12,
         "ai": 0,
         "noCh": true,
@@ -180976,7 +181071,7 @@ backup_data = {
       }
     },
     "Seedot": {
-      "Lvl 12 Rival Benga4 - Starter 3": {
+      "Lvl 12 Rival Benga2 - Starter 3": {
         "level": 12,
         "ai": 143,
         "noCh": false,
@@ -181007,7 +181102,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Backpacker Talon2 - Route 15": {
+      "Lvl 60 Backpacker Talon - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -181038,7 +181133,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 Rival Benga12 - Floccesy Ranch - Starter 3": {
+      "Lvl 12 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 12,
         "ai": 0,
         "noCh": true,
@@ -181102,7 +181197,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 PkMn Breeder Addison2 - Route 22": {
+      "Lvl 58 PkMn Breeder Addison - Route 22": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -181133,7 +181228,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Hoopster Nicolas2 - Village Bridge 1": {
+      "Lvl 42 Hoopster Nicolas - Village Bridge 1": {
         "level": 42,
         "ai": 135,
         "noCh": false,
@@ -181164,7 +181259,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Hoopster Nicolas2 - Village Bridge 2": {
+      "Lvl 42 Hoopster Nicolas - Village Bridge 2": {
         "level": 42,
         "ai": 135,
         "noCh": false,
@@ -181228,7 +181323,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 21 Biker Stanley2 - Route 4": {
+      "Lvl 21 Biker Stanley - Route 4": {
         "level": 21,
         "ai": 1,
         "noCh": false,
@@ -181259,7 +181354,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 15 Black Belt Andrey2 ": {
+      "Lvl 15 Black Belt Andrey ": {
         "level": 15,
         "ai": 3,
         "noCh": false,
@@ -181290,7 +181385,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 15 Black Belt Mathis2 ": {
+      "Lvl 15 Black Belt Mathis ": {
         "level": 15,
         "ai": 3,
         "noCh": false,
@@ -181354,7 +181449,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Backpacker Shane2 - Route 1": {
+      "Lvl 62 Backpacker Shane - Route 1": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -181418,7 +181513,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk M Gilligan2 - Castelia City": {
+      "Lvl 27 Clerk M Gilligan - Castelia City": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -181515,7 +181610,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Motorcyclist Charles5 ": {
+      "Lvl 26 Motorcyclist Charles ": {
         "level": 26,
         "ai": 7,
         "noCh": false,
@@ -181546,7 +181641,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Motorcyclist Charles8 ": {
+      "Lvl 26 Motorcyclist Charles4 ": {
         "level": 26,
         "ai": 7,
         "noCh": false,
@@ -181643,7 +181738,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Preschooler Tyrone2 - Route 3": {
+      "Lvl 61 Preschooler Tyrone - Route 3": {
         "level": 61,
         "ai": 0,
         "noCh": false,
@@ -181707,8 +181802,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Hoenn Leader Roxanne2 - Clay Tunnel": {
-        "level": 53,
+      "Lvl 54 Hoenn Leader Roxanne - Clay Tunnel": {
+        "level": 54,
         "ai": 143,
         "noCh": false,
         "tr_id": 227,
@@ -181738,7 +181833,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 PkMn Ranger Daryl2 - Route 13": {
+      "Lvl 39 PkMn Ranger Daryl - Route 13": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -181769,7 +181864,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Hiker Justin2 ": {
+      "Lvl 45 Hiker Justin ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -181868,7 +181963,7 @@ backup_data = {
       }
     },
     "Roserade": {
-      "Lvl 37 Beauty Nikola2 ": {
+      "Lvl 37 Beauty Nikola ": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -181899,7 +181994,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Sinnoh Leader Gardenia4 ": {
+      "Lvl 62 Sinnoh Leader Gardenia2 ": {
         "level": 62,
         "ai": 15,
         "noCh": false,
@@ -181915,7 +182010,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Red Card",
-        "nature": "Timid",
+        "nature": "Rash",
         "moves": [
           "Seed Flare",
           "Focus Blast",
@@ -181932,7 +182027,7 @@ backup_data = {
       }
     },
     "Ampharos": {
-      "Lvl 37 Beauty Fleming2 ": {
+      "Lvl 37 Beauty Fleming ": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -181963,7 +182058,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Alder's partner Victini2 - Clay Tunnel": {
+      "Lvl 58 Alder's partner Victini - Clay Tunnel": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -181994,7 +182089,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Pierce2 - Victory Road": {
+      "Lvl 55 Ace Trainer Pierce - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -182025,7 +182120,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Veteran Eli2 ": {
+      "Lvl 60 Veteran Eli ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -182058,7 +182153,7 @@ backup_data = {
       }
     },
     "Dewgong": {
-      "Lvl 37 Beauty Fleming2 ": {
+      "Lvl 37 Beauty Fleming ": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -182089,7 +182184,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Parasol Lady Tihana2 - Route 6": {
+      "Lvl 48 Parasol Lady Tihana - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -182120,7 +182215,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Ace Trainer Jeanne2 - Humilau City": {
+      "Lvl 60 Ace Trainer Jeanne - Humilau City": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -182151,7 +182246,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Lydon2 - Route 17": {
+      "Lvl 50 Ace Trainer Lydon - Route 17": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -182184,7 +182279,7 @@ backup_data = {
       }
     },
     "Serperior": {
-      "Lvl 38 Beauty Fleming2 ": {
+      "Lvl 38 Beauty Fleming ": {
         "level": 38,
         "ai": 143,
         "noCh": false,
@@ -182215,7 +182310,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Veteran Beryl2 ": {
+      "Lvl 56 Veteran Beryl ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -182246,7 +182341,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Nate5 ": {
+      "Lvl 38 PkMn Trainer Nate2 ": {
         "level": 38,
         "ai": 135,
         "noCh": false,
@@ -182277,7 +182372,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Trainer Rosa5 ": {
+      "Lvl 38 PkMn Trainer Rosa2 ": {
         "level": 38,
         "ai": 135,
         "noCh": false,
@@ -182308,7 +182403,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival21 - Starter 3": {
+      "Lvl 50 PkMn Trainer Rival9 - Starter 3": {
         "level": 50,
         "ai": 135,
         "noCh": false,
@@ -182339,7 +182434,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 PkMn Trainer Rival27 - Starter 3": {
+      "Lvl 41 PkMn Trainer Rival12 - Starter 3": {
         "level": 41,
         "ai": 7,
         "noCh": false,
@@ -182370,7 +182465,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 PkMn Trainer Rival36 - Clay Tunnel - Starter 3": {
+      "Lvl 51 PkMn Trainer Rival15 - Clay Tunnel - Starter 3": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -182401,7 +182496,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Guardian of Unova Virizion2 - Clay Tunnel": {
+      "Lvl 60 Guardian of Unova Virizion - Clay Tunnel": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -182432,7 +182527,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Ranger Briana2 - Chargestone Cave": {
+      "Lvl 49 PkMn Ranger Briana - Chargestone Cave": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -182463,7 +182558,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 PkMn Trainer Rival54 - Starter 3": {
+      "Lvl 57 PkMn Trainer Rival24 - Starter 3": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -182494,7 +182589,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 PkMn Trainer Rival57 - Starter 3": {
+      "Lvl 64 PkMn Trainer Rival27 - Starter 3": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -182525,7 +182620,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Rival60 - Starter 3": {
+      "Lvl 67 PkMn Trainer Rival30 - Starter 3": {
         "level": 67,
         "ai": 7,
         "noCh": false,
@@ -182556,7 +182651,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 PkMn Trainer Rival63 - Starter 3": {
+      "Lvl 43 PkMn Trainer Rival33 - Starter 3": {
         "level": 43,
         "ai": 135,
         "noCh": false,
@@ -182587,7 +182682,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Bianca7 ": {
+      "Lvl 65 PkMn Trainer Bianca3 ": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -182618,7 +182713,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 PkMn Trainer Cheren10 ": {
+      "Lvl 67 PkMn Trainer Cheren5 ": {
         "level": 67,
         "ai": 7,
         "noCh": false,
@@ -182649,7 +182744,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival66 - Starter 3": {
+      "Lvl 50 PkMn Trainer Rival36 - Starter 3": {
         "level": 50,
         "ai": 135,
         "noCh": false,
@@ -182682,7 +182777,7 @@ backup_data = {
       }
     },
     "Gorebyss": {
-      "Lvl 39 Beauty Ampre2 ": {
+      "Lvl 39 Beauty Ampre ": {
         "level": 39,
         "ai": 15,
         "noCh": false,
@@ -182713,7 +182808,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 School Kid Alvin2 - Route 6": {
+      "Lvl 50 School Kid Alvin - Route 6": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -182744,7 +182839,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Fisherman Sid2 ": {
+      "Lvl 56 Fisherman Sid ": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -182775,7 +182870,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Ace Trainer Sable2 - Humilau City": {
+      "Lvl 61 Ace Trainer Sable - Humilau City": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -182806,7 +182901,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Swimmer F Dara2 - Route 17": {
+      "Lvl 65 Swimmer F Dara - Route 17": {
         "level": 65,
         "ai": 1,
         "noCh": false,
@@ -182839,7 +182934,7 @@ backup_data = {
       }
     },
     "Wormadam-Sandy": {
-      "Lvl 25 Fisherman Hubert2 - Route 4": {
+      "Lvl 25 Fisherman Hubert - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -182870,7 +182965,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Veteran Oriana2 - Route 2": {
+      "Lvl 66 Veteran Oriana - Route 2": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -182901,7 +182996,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Psychic Tully2 - Relic Passage": {
+      "Lvl 48 Psychic Tully - Relic Passage": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -182934,7 +183029,7 @@ backup_data = {
       }
     },
     "Corsola": {
-      "Lvl 25 Fisherman Hubert2 - Route 4": {
+      "Lvl 25 Fisherman Hubert - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -182965,7 +183060,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Fisherman Sid2 ": {
+      "Lvl 56 Fisherman Sid ": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -182996,7 +183091,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 22 Kanto Leader Misty2 - Virbank City": {
+      "Lvl 22 Kanto Leader Misty - Virbank City": {
         "level": 22,
         "ai": 143,
         "noCh": true,
@@ -183029,7 +183124,7 @@ backup_data = {
       }
     },
     "Mantine": {
-      "Lvl 26 Fisherman Hubert2 - Route 4": {
+      "Lvl 26 Fisherman Hubert - Route 4": {
         "level": 26,
         "ai": 15,
         "noCh": false,
@@ -183060,7 +183155,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Ace Trainer Enzio2 - Humilau City": {
+      "Lvl 59 Ace Trainer Enzio - Humilau City": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -183091,7 +183186,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Kanto Leader Giovanni2 ": {
+      "Lvl 49 Kanto Leader Giovanni ": {
         "level": 49,
         "ai": 7,
         "noCh": false,
@@ -183124,7 +183219,7 @@ backup_data = {
       }
     },
     "Dwebble": {
-      "Lvl 25 Fisherman Andrew2 - Route 4": {
+      "Lvl 25 Fisherman Andrew - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -183155,7 +183250,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Linebacker Jonah5 ": {
+      "Lvl 26 Linebacker Jonah2 ": {
         "level": 26,
         "ai": 7,
         "noCh": false,
@@ -183186,7 +183281,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Linebacker Jonah6 ": {
+      "Lvl 34 Linebacker Jonah3 ": {
         "level": 34,
         "ai": 7,
         "noCh": false,
@@ -183219,7 +183314,7 @@ backup_data = {
       }
     },
     "Carvanha": {
-      "Lvl 25 Fisherman Andrew2 - Route 4": {
+      "Lvl 25 Fisherman Andrew - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -183250,7 +183345,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Swimmer M Wright2 - Route 17": {
+      "Lvl 65 Swimmer M Wright - Route 17": {
         "level": 65,
         "ai": 1,
         "noCh": false,
@@ -183283,7 +183378,7 @@ backup_data = {
       }
     },
     "Sandile": {
-      "Lvl 16 Backpacker Clifford2 ": {
+      "Lvl 16 Backpacker Clifford ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -183314,7 +183409,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 21 Roughneck Joey2 - Route 4": {
+      "Lvl 21 Roughneck Joey - Route 4": {
         "level": 21,
         "ai": 1,
         "noCh": false,
@@ -183345,7 +183440,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 22 Backpacker Walt2 ": {
+      "Lvl 22 Backpacker Walt ": {
         "level": 22,
         "ai": 1,
         "noCh": false,
@@ -183378,7 +183473,7 @@ backup_data = {
       }
     },
     "Noctowl": {
-      "Lvl 34 Policeman Dell2 - Route 4": {
+      "Lvl 34 Policeman Dell - Route 4": {
         "level": 34,
         "ai": 143,
         "noCh": false,
@@ -183409,7 +183504,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Pokefan Norbert2 - Route 4": {
+      "Lvl 25 Pokefan Norbert - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -183440,7 +183535,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Backpacker Reece2 - Route 14": {
+      "Lvl 55 Backpacker Reece - Route 14": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -183471,7 +183566,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Lydon2 - Route 17": {
+      "Lvl 50 Ace Trainer Lydon - Route 17": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -183504,7 +183599,7 @@ backup_data = {
       }
     },
     "Poliwrath": {
-      "Lvl 48 Policeman Neagle2 - Route 6": {
+      "Lvl 48 Policeman Neagle - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -183535,7 +183630,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 PkMn Ranger Serenity2 - Lostlorn Forest": {
+      "Lvl 38 PkMn Ranger Serenity - Lostlorn Forest": {
         "level": 38,
         "ai": 15,
         "noCh": false,
@@ -183566,7 +183661,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Battle Girl Wendy2 - Route 18": {
+      "Lvl 65 Battle Girl Wendy - Route 18": {
         "level": 65,
         "ai": 3,
         "noCh": false,
@@ -183597,7 +183692,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Battle Girl Lee2 - Pinwheel Forest": {
+      "Lvl 61 Battle Girl Lee - Pinwheel Forest": {
         "level": 61,
         "ai": 3,
         "noCh": false,
@@ -183630,7 +183725,7 @@ backup_data = {
       }
     },
     "Venipede": {
-      "Lvl 21 Roughneck Joey2 - Route 4": {
+      "Lvl 21 Roughneck Joey - Route 4": {
         "level": 21,
         "ai": 1,
         "noCh": false,
@@ -183663,7 +183758,7 @@ backup_data = {
       }
     },
     "Cloyster": {
-      "Lvl 36 Roughneck Silvester2 - Route 16": {
+      "Lvl 36 Roughneck Silvester - Route 16": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -183694,7 +183789,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N8 ": {
+      "Lvl 75 PkMn Trainer N4 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -183727,7 +183822,7 @@ backup_data = {
       }
     },
     "Zubat": {
-      "Lvl 21 Biker Stanley2 - Route 4": {
+      "Lvl 21 Biker Stanley - Route 4": {
         "level": 21,
         "ai": 1,
         "noCh": false,
@@ -183758,7 +183853,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 16 Rich Boy Brad3 ": {
+      "Lvl 16 Rich Boy Brad2 ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -183791,7 +183886,7 @@ backup_data = {
       }
     },
     "Cottonee": {
-      "Lvl 21 Hooligans Rob & Sal2 - Route 4": {
+      "Lvl 21 Hooligans Rob & Sal - Route 4": {
         "level": 21,
         "ai": 129,
         "noCh": false,
@@ -183824,7 +183919,7 @@ backup_data = {
       }
     },
     "Luxray": {
-      "Lvl 35 Rich Boy Keenan2 - Route 4": {
+      "Lvl 35 Rich Boy Keenan - Route 4": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -183855,7 +183950,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Sinnoh Leader Volkner2 ": {
+      "Lvl 51 Sinnoh Leader Volkner ": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -183886,7 +183981,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 PkMn Ranger Eliza3 - Reversal Mountain": {
+      "Lvl 56 PkMn Ranger Eliza - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -183917,7 +184012,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Guitarist Anna2 - Chargestone Cave": {
+      "Lvl 48 Guitarist Anna - Chargestone Cave": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -183948,7 +184043,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Dwayne2 ": {
+      "Lvl 62 PkMn Ranger Dwayne ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -183981,7 +184076,7 @@ backup_data = {
       }
     },
     "Hippowdon": {
-      "Lvl 34 Backpacker Roland2 - Route 4": {
+      "Lvl 34 Backpacker Roland - Route 4": {
         "level": 34,
         "ai": 143,
         "noCh": false,
@@ -184012,7 +184107,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Hiker Stephen2 - Route 18": {
+      "Lvl 64 Hiker Stephen - Route 18": {
         "level": 64,
         "ai": 1,
         "noCh": false,
@@ -184043,7 +184138,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Hiker Kyurem2 - Wellspring Cave": {
+      "Lvl 61 Hiker Kyurem - Wellspring Cave": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -184074,7 +184169,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 1 Lass Diana4 ": {
+      "Lvl 1 Lass Diana2 ": {
         "level": 1,
         "ai": 1,
         "noCh": false,
@@ -184105,7 +184200,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 PkMn Trainer N7 ": {
+      "Lvl 77 PkMn Trainer N3 ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -184138,7 +184233,7 @@ backup_data = {
       }
     },
     "Furret": {
-      "Lvl 25 Pokefan Norbert2 - Route 4": {
+      "Lvl 25 Pokefan Norbert - Route 4": {
         "level": 25,
         "ai": 15,
         "noCh": false,
@@ -184169,7 +184264,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Ace Trainer Kelsey2 - Pinwheel Forest": {
+      "Lvl 63 Ace Trainer Kelsey - Pinwheel Forest": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -184202,7 +184297,7 @@ backup_data = {
       }
     },
     "Starmie": {
-      "Lvl 35 Pokefan Sachiko2 - Route 4": {
+      "Lvl 35 Pokefan Sachiko - Route 4": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -184233,7 +184328,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Cosplayer Amy2 - Join Avenue": {
+      "Lvl 37 Cosplayer Amy - Join Avenue": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -184264,7 +184359,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Ace Trainer Summer2 ": {
+      "Lvl 40 Ace Trainer Summer ": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -184295,7 +184390,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Doyle2 - Humilau City": {
+      "Lvl 60 Fisherman Doyle - Humilau City": {
         "level": 60,
         "ai": 143,
         "noCh": false,
@@ -184326,7 +184421,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Socialite Grace2 - Celestial Tower": {
+      "Lvl 51 Socialite Grace - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -184357,7 +184452,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Portia2 - Victory Road": {
+      "Lvl 54 Veteran Portia - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -184388,7 +184483,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N5 ": {
+      "Lvl 75 PkMn Trainer N ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -184421,7 +184516,7 @@ backup_data = {
       }
     },
     "Delibird": {
-      "Lvl 34 Twins Tara & Val2 - Route 4": {
+      "Lvl 34 Twins Tara & Val - Route 4": {
         "level": 34,
         "ai": 143,
         "noCh": false,
@@ -184452,7 +184547,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Twins Sola & Ana2 - Route 7": {
+      "Lvl 51 Twins Sola & Ana - Route 7": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -184485,7 +184580,7 @@ backup_data = {
       }
     },
     "Kangaskhan": {
-      "Lvl 34 Twins Tara & Val2 - Route 4": {
+      "Lvl 34 Twins Tara & Val - Route 4": {
         "level": 34,
         "ai": 143,
         "noCh": false,
@@ -184516,7 +184611,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Nursery Aide Ilse2 ": {
+      "Lvl 62 Nursery Aide Ilse ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -184547,7 +184642,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Chloris2 - Twist Mountain": {
+      "Lvl 64 Veteran Chloris - Twist Mountain": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -184578,7 +184673,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Doctor Kit2 - Chargestone Cave": {
+      "Lvl 49 Doctor Kit - Chargestone Cave": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -184609,7 +184704,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Doctor Derek2 - Reversal Mountain": {
+      "Lvl 56 Doctor Derek - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -184642,7 +184737,7 @@ backup_data = {
       }
     },
     "Cradily": {
-      "Lvl 52 Hoenn Leader Roxanne2 - Clay Tunnel": {
+      "Lvl 52 Hoenn Leader Roxanne - Clay Tunnel": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -184673,7 +184768,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Noel2 ": {
+      "Lvl 42 Worker Noel ": {
         "level": 42,
         "ai": 15,
         "noCh": true,
@@ -184704,7 +184799,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Ace Trainer Enzio2 - Humilau City": {
+      "Lvl 59 Ace Trainer Enzio - Humilau City": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -184735,7 +184830,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Keldeo2 - Clay Tunnel": {
+      "Lvl 62 PkMn Ranger Keldeo - Clay Tunnel": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -184766,7 +184861,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Hiker Tobias2 - Relic Passage": {
+      "Lvl 47 Hiker Tobias - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -184797,7 +184892,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Harlequin Anders2 - Castelia City": {
+      "Lvl 29 Harlequin Anders - Castelia City": {
         "level": 29,
         "ai": 15,
         "noCh": false,
@@ -184828,7 +184923,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N7 ": {
+      "Lvl 75 PkMn Trainer N3 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -184861,8 +184956,8 @@ backup_data = {
       }
     },
     "Probopass": {
-      "Lvl 52 Hoenn Leader Roxanne2 - Clay Tunnel": {
-        "level": 52,
+      "Lvl 53 Hoenn Leader Roxanne - Clay Tunnel": {
+        "level": 53,
         "ai": 143,
         "noCh": false,
         "tr_id": 227,
@@ -184892,7 +184987,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Hiker Don2 - Route 23": {
+      "Lvl 51 Hiker Don - Route 23": {
         "level": 51,
         "ai": 1,
         "noCh": false,
@@ -184923,7 +185018,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 PkMn Ranger Eliza3 - Reversal Mountain": {
+      "Lvl 56 PkMn Ranger Eliza - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -184954,7 +185049,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Hiker Hunter2 - Twist Mountain": {
+      "Lvl 61 Hiker Hunter - Twist Mountain": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -184985,7 +185080,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Otto2 - Chargestone Cave": {
+      "Lvl 48 Hiker Otto - Chargestone Cave": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -185016,7 +185111,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Scientist Terrance2 - Relic Passage": {
+      "Lvl 28 Scientist Terrance - Relic Passage": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -185047,7 +185142,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 PkMn Ranger Eddie2 - Victory Road": {
+      "Lvl 54 PkMn Ranger Eddie - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -185079,8 +185174,134 @@ backup_data = {
         }
       }
     },
+    "Shuckle": {
+      "Lvl 53 Hoenn Leader Roxanne - Clay Tunnel": {
+        "level": 53,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 227,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "TM28",
+        "item": "Power Herb",
+        "nature": "Rash",
+        "moves": [
+          "Meteor Beam",
+          "Infestation",
+          "Reflect",
+          "Light Screen"
+        ],
+        "sub_index": 3,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/hoennleader.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 58 Gentleman Sheldon ": {
+        "level": 58,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 277,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Kee Berry",
+        "nature": "Hardy",
+        "moves": [
+          "Infestation",
+          "Swallow",
+          "Protect",
+          "Sandstorm"
+        ],
+        "sub_index": 1,
+        "ability": "Gourmand",
+        "sprite": "trainer_sprites/gentleman.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 Backpacker Tami - Desert Resort": {
+        "level": 36,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 664,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bashful",
+        "moves": [
+          "Scorching Sands",
+          "Weather Ball",
+          "Signal Beam",
+          "Toxic"
+        ],
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/backpackerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 Backpacker Clara ": {
+        "level": 36,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 665,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bashful",
+        "moves": [
+          "Sand Attack",
+          "Weather Ball",
+          "Signal Beam",
+          "Toxic"
+        ],
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/backpackerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Dustox": {
-      "Lvl 52 Johto Leader Morty2 - Celestial Tower": {
+      "Lvl 52 Johto Leader Morty - Celestial Tower": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -185098,7 +185319,7 @@ backup_data = {
         "item": "Focus Band",
         "nature": "Calm",
         "moves": [
-          "Infestation",
+          "Silver Wind",
           "Ominous Wind",
           "Poison Gas",
           "Moonlight"
@@ -185111,7 +185332,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Mikey2 - Route 2": {
+      "Lvl 61 Youngster Mikey - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -185142,7 +185363,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Youngster Masahiro2 - Virbank Complex": {
+      "Lvl 18 Youngster Masahiro - Virbank Complex": {
         "level": 18,
         "ai": 15,
         "noCh": false,
@@ -185175,8 +185396,8 @@ backup_data = {
       }
     },
     "Stantler": {
-      "Lvl 52 Johto Leader Morty2 - Celestial Tower": {
-        "level": 52,
+      "Lvl 53 Johto Leader Morty - Celestial Tower": {
+        "level": 53,
         "ai": 143,
         "noCh": false,
         "tr_id": 229,
@@ -185190,23 +185411,23 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "TM30",
-        "item": "Power Herb",
-        "nature": "Adamant",
+        "item": "Colbur Berry",
+        "nature": "Quiet",
         "moves": [
-          "Double-Edge",
+          "Head Charge",
           "Hypnosis",
-          "Shadow Force",
+          "Phantom Strike",
           "Megahorn"
         ],
         "sub_index": 3,
-        "ability": "Unnerve",
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/johtoleader.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 55 Backpacker Blossom2 - Route 14": {
+      "Lvl 55 Backpacker Blossom - Route 14": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -185237,7 +185458,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 PkMn Ranger Rick2 - Route 1": {
+      "Lvl 64 PkMn Ranger Rick - Route 1": {
         "level": 64,
         "ai": 7,
         "noCh": false,
@@ -185268,7 +185489,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Perry2 - Relic Castle": {
+      "Lvl 35 Psychic Perry - Relic Castle": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -185299,7 +185520,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pokefan Jude2 - Celestial Tower": {
+      "Lvl 51 Pokefan Jude - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -185332,7 +185553,7 @@ backup_data = {
       }
     },
     "Crustle": {
-      "Lvl 48 Linebacker Jonah7 ": {
+      "Lvl 48 Linebacker Jonah4 ": {
         "level": 48,
         "ai": 7,
         "noCh": false,
@@ -185363,7 +185584,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer F Desiree2 ": {
+      "Lvl 59 Swimmer F Desiree ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -185394,7 +185615,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Hiker Stephen2 - Route 18": {
+      "Lvl 64 Hiker Stephen - Route 18": {
         "level": 64,
         "ai": 1,
         "noCh": false,
@@ -185425,7 +185646,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Terrakion2 - Clay Tunnel": {
+      "Lvl 62 PkMn Ranger Terrakion - Clay Tunnel": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -185456,7 +185677,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Hiker Keith2 - Relic Passage": {
+      "Lvl 47 Hiker Keith - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -185487,7 +185708,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk M Gilligan2 - Castelia City": {
+      "Lvl 27 Clerk M Gilligan - Castelia City": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -185520,7 +185741,7 @@ backup_data = {
       }
     },
     "Exploud": {
-      "Lvl 58 Musician Ray2 ": {
+      "Lvl 58 Musician Ray ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -185551,7 +185772,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Team Plasma Shadow11 ": {
+      "Lvl 58 Team Plasma Shadow6 ": {
         "level": 58,
         "ai": 7,
         "noCh": false,
@@ -185582,7 +185803,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Backers Ava & Aya2 - Driftveil City": {
+      "Lvl 42 Backers Ava & Aya - Driftveil City": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -185613,7 +185834,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Veteran Oriana2 - Route 2": {
+      "Lvl 66 Veteran Oriana - Route 2": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -185644,7 +185865,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Guitarist Anna2 - Chargestone Cave": {
+      "Lvl 48 Guitarist Anna - Chargestone Cave": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -185677,7 +185898,7 @@ backup_data = {
       }
     },
     "Kricketune": {
-      "Lvl 58 Musician Ray2 ": {
+      "Lvl 58 Musician Ray ": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -185708,7 +185929,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Musician Preston2 - Driftveil City": {
+      "Lvl 42 Musician Preston - Driftveil City": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -185739,7 +185960,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Backpacker Reece2 - Route 14": {
+      "Lvl 55 Backpacker Reece - Route 14": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -185770,7 +185991,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Melita2 ": {
+      "Lvl 62 PkMn Ranger Melita ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -185801,7 +186022,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 Youngster Waylon2 - Virbank Complex": {
+      "Lvl 17 Youngster Waylon - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -185834,7 +186055,7 @@ backup_data = {
       }
     },
     "Ninjask": {
-      "Lvl 57 Team Plasma Shadow10 ": {
+      "Lvl 57 Team Plasma Shadow5 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -185865,7 +186086,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Belle2 - Mistralton Cave": {
+      "Lvl 50 Ace Trainer Belle - Mistralton Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -185896,7 +186117,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Team Plasma Grunt106 ": {
+      "Lvl 40 Team Plasma Grunt47 ": {
         "level": 40,
         "ai": 15,
         "noCh": false,
@@ -185927,7 +186148,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N6 ": {
+      "Lvl 75 PkMn Trainer N2 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -185960,7 +186181,7 @@ backup_data = {
       }
     },
     "Blissey": {
-      "Lvl 57 Team Plasma Shadow10 ": {
+      "Lvl 57 Team Plasma Shadow5 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -185991,7 +186212,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Doctor Kit2 - Chargestone Cave": {
+      "Lvl 49 Doctor Kit - Chargestone Cave": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -186022,7 +186243,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Nurse Carol2 - Twist Mountain": {
+      "Lvl 62 Nurse Carol - Twist Mountain": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -186055,7 +186276,7 @@ backup_data = {
       }
     },
     "Tentacruel": {
-      "Lvl 57 Team Plasma Shadow10 ": {
+      "Lvl 57 Team Plasma Shadow5 ": {
         "level": 57,
         "ai": 15,
         "noCh": false,
@@ -186086,7 +186307,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Fisherman Sid2 ": {
+      "Lvl 56 Fisherman Sid ": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -186117,7 +186338,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N5 ": {
+      "Lvl 75 PkMn Trainer N ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -186150,7 +186371,7 @@ backup_data = {
       }
     },
     "Garchomp": {
-      "Lvl 58 Rival Benga5 - Starter 3": {
+      "Lvl 58 Rival Benga3 - Starter 3": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -186181,7 +186402,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Rival Benga6 - Starter 3": {
+      "Lvl 58 Rival Benga4 - Starter 3": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -186212,7 +186433,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 78 PkMn Trainer Cynthia2 ": {
+      "Lvl 78 PkMn Trainer Cynthia ": {
         "level": 78,
         "ai": 7,
         "noCh": false,
@@ -186245,7 +186466,7 @@ backup_data = {
       }
     },
     "Venusaur": {
-      "Lvl 57 Rival Benga5 - Starter 3": {
+      "Lvl 57 Rival Benga3 - Starter 3": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -186276,7 +186497,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga6 - Starter 3": {
+      "Lvl 57 Rival Benga4 - Starter 3": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -186307,7 +186528,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Ranger Lois2 - Route 5": {
+      "Lvl 36 PkMn Ranger Lois - Route 5": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -186338,7 +186559,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival32 - Clay Tunnel - Starter 1": {
+      "Lvl 49 PkMn Trainer Rival13 - Clay Tunnel - Starter 1": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -186371,7 +186592,7 @@ backup_data = {
       }
     },
     "Weezing": {
-      "Lvl 60 Team Plasma Shadow12 ": {
+      "Lvl 60 Team Plasma Shadow7 ": {
         "level": 60,
         "ai": 79,
         "noCh": false,
@@ -186402,7 +186623,38 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt56 - Plasma Frigate": {
+      "Lvl 48 Team Plasma Grunt10 ": {
+        "level": 48,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 377,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Proto Booster",
+        "nature": "Serious",
+        "moves": [
+          "Gunk Shot",
+          "Fire Spin",
+          "Gyro Ball",
+          "Poison Gas"
+        ],
+        "sub_index": 3,
+        "ability": "Levitate",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 47 Team Plasma Grunt13 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -186433,7 +186685,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt71 ": {
+      "Lvl 47 Team Plasma Grunt28 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -186464,7 +186716,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Team Plasma Grunt90 ": {
+      "Lvl 44 Team Plasma Grunt42 ": {
         "level": 44,
         "ai": 1,
         "noCh": false,
@@ -186495,7 +186747,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt105 ": {
+      "Lvl 47 Team Plasma Grunt46 ": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -186526,7 +186778,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Kanto Leader Janine2 - Driftveil City": {
+      "Lvl 44 Kanto Leader Janine - Driftveil City": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -186559,7 +186811,7 @@ backup_data = {
       }
     },
     "Alomomola": {
-      "Lvl 56 Nurse Ratchet2 ": {
+      "Lvl 56 Nurse Ratchet ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -186590,7 +186842,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Fisherman Jones2 - Route 13": {
+      "Lvl 40 Fisherman Jones - Route 13": {
         "level": 40,
         "ai": 1,
         "noCh": false,
@@ -186621,7 +186873,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Swimmer F Arissa2 - Abyssal Ruins": {
+      "Lvl 39 Swimmer F Arissa - Abyssal Ruins": {
         "level": 39,
         "ai": 1,
         "noCh": false,
@@ -186652,7 +186904,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Sinnoh Leader Gardenia3 ": {
+      "Lvl 46 Sinnoh Leader Gardenia ": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -186683,7 +186935,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 GAME FREAK Nishino4 ": {
+      "Lvl 76 GAME FREAK Nishino2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -186714,7 +186966,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Doctor Heath2 - Driftveil Drawbridge": {
+      "Lvl 41 Doctor Heath - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -186747,7 +186999,7 @@ backup_data = {
       }
     },
     "Politoed": {
-      "Lvl 56 Veteran Beryl2 ": {
+      "Lvl 56 Veteran Beryl ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -186778,7 +187030,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Fisherman Arnold2 - Moor of Icirrus": {
+      "Lvl 60 Fisherman Arnold - Moor of Icirrus": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -186809,7 +187061,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 PkMn Trainer N5 ": {
+      "Lvl 77 PkMn Trainer N ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -186842,7 +187094,7 @@ backup_data = {
       }
     },
     "Vileplume": {
-      "Lvl 55 Veteran Ruby2 ": {
+      "Lvl 55 Veteran Ruby ": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -186873,7 +187125,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Socialite Marian2 ": {
+      "Lvl 58 Socialite Marian ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -186904,7 +187156,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Kanto Leader Erika2 - Lostlorn Forest": {
+      "Lvl 40 Kanto Leader Erika - Lostlorn Forest": {
         "level": 40,
         "ai": 15,
         "noCh": false,
@@ -186937,7 +187189,7 @@ backup_data = {
       }
     },
     "Scizor": {
-      "Lvl 56 Veteran Ruby2 ": {
+      "Lvl 56 Veteran Ruby ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -186968,7 +187220,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Dancer Brian2 - Driftveil City": {
+      "Lvl 42 Dancer Brian - Driftveil City": {
         "level": 42,
         "ai": 15,
         "noCh": false,
@@ -186999,7 +187251,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 PkMn Ranger Audra2 - Route 1": {
+      "Lvl 48 PkMn Ranger Audra - Route 1": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -187030,7 +187282,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 School Kid Janice2 - Chargestone Cave": {
+      "Lvl 50 School Kid Janice - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -187061,7 +187313,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N7 ": {
+      "Lvl 75 PkMn Trainer N3 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -187094,7 +187346,7 @@ backup_data = {
       }
     },
     "Parasect": {
-      "Lvl 56 Ghostly Man 2 ": {
+      "Lvl 56 Ghostly Man ": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -187125,7 +187377,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk M Warren2 ": {
+      "Lvl 28 Clerk M Warren ": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -187156,7 +187408,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Hiker Keith2 - Relic Passage": {
+      "Lvl 47 Hiker Keith - Relic Passage": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -187189,7 +187441,7 @@ backup_data = {
       }
     },
     "Solrock": {
-      "Lvl 36 Cosplayer Amy2 - Join Avenue": {
+      "Lvl 36 Cosplayer Amy - Join Avenue": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -187220,7 +187472,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Keith2 - Relic Passage": {
+      "Lvl 48 Hiker Keith - Relic Passage": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -187253,7 +187505,7 @@ backup_data = {
       }
     },
     "Shiftry": {
-      "Lvl 41 Smasher Aspen2 - Driftveil Drawbridge": {
+      "Lvl 41 Smasher Aspen - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -187284,7 +187536,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt45 ": {
+      "Lvl 47 Team Plasma Grunt5 ": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -187315,7 +187567,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N6 ": {
+      "Lvl 75 PkMn Trainer N2 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -187348,7 +187600,7 @@ backup_data = {
       }
     },
     "Wobbuffet": {
-      "Lvl 58 Team Plasma Shadow13 ": {
+      "Lvl 58 Team Plasma Shadow8 ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -187381,7 +187633,7 @@ backup_data = {
       }
     },
     "Ariados": {
-      "Lvl 58 Team Plasma Shadow13 ": {
+      "Lvl 58 Team Plasma Shadow8 ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -187412,7 +187664,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Grunt46 ": {
+      "Lvl 48 Team Plasma Grunt6 ": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -187443,7 +187695,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Backpacker Kumiko2 ": {
+      "Lvl 56 Backpacker Kumiko ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -187474,7 +187726,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 25 Team Plasma Grunt107 ": {
+      "Lvl 25 Team Plasma Grunt48 ": {
         "level": 25,
         "ai": 143,
         "noCh": false,
@@ -187507,7 +187759,7 @@ backup_data = {
       }
     },
     "Absol": {
-      "Lvl 58 Team Plasma Shadow13 ": {
+      "Lvl 58 Team Plasma Shadow8 ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -187538,7 +187790,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Team Plasma Shadow16 ": {
+      "Lvl 51 Team Plasma Shadow9 ": {
         "level": 51,
         "ai": 7,
         "noCh": false,
@@ -187569,7 +187821,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Gentleman Daniel2 - Celestial Tower": {
+      "Lvl 51 Gentleman Daniel - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -187600,7 +187852,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Team Plasma Shadow24 ": {
+      "Lvl 48 Team Plasma Shadow12 ": {
         "level": 48,
         "ai": 7,
         "noCh": false,
@@ -187631,7 +187883,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 Team Plasma Shadow26 ": {
+      "Lvl 67 Team Plasma Shadow14 ": {
         "level": 67,
         "ai": 7,
         "noCh": false,
@@ -187664,7 +187916,7 @@ backup_data = {
       }
     },
     "Masquerain": {
-      "Lvl 37 Cosplayer Miriam2 - Join Avenue": {
+      "Lvl 37 Cosplayer Miriam - Join Avenue": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -187695,7 +187947,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Parasol Lady Tihana2 - Route 6": {
+      "Lvl 48 Parasol Lady Tihana - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -187726,7 +187978,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Melina2 - Humilau City": {
+      "Lvl 60 Parasol Lady Melina - Humilau City": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -187757,7 +188009,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 66 Veteran Rayne2 - Route 2": {
+      "Lvl 66 Veteran Rayne - Route 2": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -187788,7 +188040,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Jack2 ": {
+      "Lvl 28 Harlequin Jack ": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -187821,7 +188073,7 @@ backup_data = {
       }
     },
     "Lickilicky": {
-      "Lvl 37 Baker Jenn2 - Route 5": {
+      "Lvl 37 Baker Jenn - Route 5": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -187852,7 +188104,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Fisherman Kenzo2 - Route 21": {
+      "Lvl 58 Fisherman Kenzo - Route 21": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -187883,7 +188135,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 GAME FREAK Nishino4 ": {
+      "Lvl 76 GAME FREAK Nishino2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -187916,7 +188168,7 @@ backup_data = {
       }
     },
     "Rotom-Heat": {
-      "Lvl 38 Baker Jenn2 - Route 5": {
+      "Lvl 38 Baker Jenn - Route 5": {
         "level": 38,
         "ai": 15,
         "noCh": false,
@@ -187949,7 +188201,7 @@ backup_data = {
       }
     },
     "Bellossom": {
-      "Lvl 42 Dancer Brian2 - Driftveil City": {
+      "Lvl 42 Dancer Brian - Driftveil City": {
         "level": 42,
         "ai": 15,
         "noCh": false,
@@ -187980,7 +188232,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Swimmer F Kylie2 - Route 21": {
+      "Lvl 58 Swimmer F Kylie - Route 21": {
         "level": 58,
         "ai": 143,
         "noCh": false,
@@ -188011,7 +188263,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Doctor Kit2 - Chargestone Cave": {
+      "Lvl 49 Doctor Kit - Chargestone Cave": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -188044,7 +188296,7 @@ backup_data = {
       }
     },
     "Hitmontop": {
-      "Lvl 43 Dancer Brian2 - Driftveil City": {
+      "Lvl 43 Dancer Brian - Driftveil City": {
         "level": 43,
         "ai": 15,
         "noCh": false,
@@ -188075,7 +188327,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Black Belt Zachary2 - Route 18": {
+      "Lvl 65 Black Belt Zachary - Route 18": {
         "level": 65,
         "ai": 3,
         "noCh": false,
@@ -188106,7 +188358,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Scientist Terrance2 - Relic Passage": {
+      "Lvl 28 Scientist Terrance - Relic Passage": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -188137,7 +188389,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Black Belt 3 - Wellspring Cave": {
+      "Lvl 62 Black Belt - Wellspring Cave": {
         "level": 62,
         "ai": 3,
         "noCh": false,
@@ -188168,7 +188420,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Dancer Kidd2 - Chargestone Cave": {
+      "Lvl 48 Dancer Kidd - Chargestone Cave": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -188201,7 +188453,7 @@ backup_data = {
       }
     },
     "Maractus": {
-      "Lvl 41 Musician Preston2 - Driftveil City": {
+      "Lvl 41 Musician Preston - Driftveil City": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -188232,7 +188484,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cilan2 ": {
+      "Lvl 65 PkMn Trainer Cilan ": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -188263,7 +188515,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Backpacker Annie2 - Relic Passage": {
+      "Lvl 48 Backpacker Annie - Relic Passage": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -188294,7 +188546,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 PkMn Ranger Jaden2 - Desert Resort": {
+      "Lvl 37 PkMn Ranger Jaden - Desert Resort": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -188325,7 +188577,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Ace Trainer Geoff2 - Mistralton Cave": {
+      "Lvl 51 Ace Trainer Geoff - Mistralton Cave": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -188358,7 +188610,7 @@ backup_data = {
       }
     },
     "Feraligatr": {
-      "Lvl 41 Musician Preston2 - Driftveil City": {
+      "Lvl 41 Musician Preston - Driftveil City": {
         "level": 41,
         "ai": 143,
         "noCh": false,
@@ -188389,7 +188641,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Alvin2 - Route 6": {
+      "Lvl 49 School Kid Alvin - Route 6": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -188422,7 +188674,7 @@ backup_data = {
       }
     },
     "Rotom-Fan": {
-      "Lvl 36 Backers Stu & Art2 - Route 16": {
+      "Lvl 36 Backers Stu & Art - Route 16": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -188453,7 +188705,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Swimmer F Desiree2 ": {
+      "Lvl 60 Swimmer F Desiree ": {
         "level": 60,
         "ai": 143,
         "noCh": false,
@@ -188484,7 +188736,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Colress8 - Dreamyard": {
+      "Lvl 47 Team Plasma Colress4 - Dreamyard": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -188517,7 +188769,7 @@ backup_data = {
       }
     },
     "Meganium": {
-      "Lvl 55 Backpacker Blossom2 - Route 14": {
+      "Lvl 55 Backpacker Blossom - Route 14": {
         "level": 55,
         "ai": 143,
         "noCh": false,
@@ -188550,7 +188802,7 @@ backup_data = {
       }
     },
     "Seismitoad": {
-      "Lvl 42 Parasol Lady Nicole2 - Route 6": {
+      "Lvl 42 Parasol Lady Nicole - Route 6": {
         "level": 42,
         "ai": 143,
         "noCh": false,
@@ -188581,7 +188833,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Team Plasma Ghetsis2 ": {
+      "Lvl 50 Team Plasma Ghetsis ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -188612,7 +188864,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Ace Trainer Kelsey2 - Pinwheel Forest": {
+      "Lvl 63 Ace Trainer Kelsey - Pinwheel Forest": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -188645,7 +188897,7 @@ backup_data = {
       }
     },
     "Ducklett": {
-      "Lvl 33 Lass Flo2 - Route 7 1": {
+      "Lvl 33 Lass Flo - Route 7 1": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -188676,7 +188928,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Lass Flo2 - Route 7 2": {
+      "Lvl 33 Lass Flo - Route 7 2": {
         "level": 33,
         "ai": 129,
         "noCh": false,
@@ -188707,7 +188959,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 PkMn Breeder Marcus2 ": {
+      "Lvl 34 PkMn Breeder Marcus ": {
         "level": 34,
         "ai": 5,
         "noCh": false,
@@ -188740,7 +188992,7 @@ backup_data = {
       }
     },
     "Pichu": {
-      "Lvl 48 Nursery Aide Hollie2 - Route 7": {
+      "Lvl 48 Nursery Aide Hollie - Route 7": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -188771,7 +189023,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 Youngster Petey2 - Route 20": {
+      "Lvl 10 Youngster Petey - Route 20": {
         "level": 10,
         "ai": 15,
         "noCh": false,
@@ -188804,7 +189056,7 @@ backup_data = {
       }
     },
     "Chimchar": {
-      "Lvl 49 Preschooler Greg2 - Route 7": {
+      "Lvl 49 Preschooler Greg - Route 7": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -188837,7 +189089,7 @@ backup_data = {
       }
     },
     "Bulbasaur": {
-      "Lvl 49 Preschooler Greg2 - Route 7": {
+      "Lvl 49 Preschooler Greg - Route 7": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -188870,7 +189122,7 @@ backup_data = {
       }
     },
     "Treecko": {
-      "Lvl 49 Preschooler Chrissy2 - Route 7": {
+      "Lvl 49 Preschooler Chrissy - Route 7": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -188903,7 +189155,7 @@ backup_data = {
       }
     },
     "Piplup": {
-      "Lvl 49 Preschooler Chrissy2 - Route 7": {
+      "Lvl 49 Preschooler Chrissy - Route 7": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -188936,7 +189188,7 @@ backup_data = {
       }
     },
     "Mawile": {
-      "Lvl 50 Twins Sola & Ana2 - Route 7": {
+      "Lvl 50 Twins Sola & Ana - Route 7": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -188967,7 +189219,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Niel2 - Driftveil City": {
+      "Lvl 42 Worker Niel - Driftveil City": {
         "level": 42,
         "ai": 143,
         "noCh": true,
@@ -188998,7 +189250,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Psychic Low2 - Relic Castle": {
+      "Lvl 36 Psychic Low - Relic Castle": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -189031,7 +189283,7 @@ backup_data = {
       }
     },
     "Azumarill": {
-      "Lvl 51 Twins Sola & Ana2 - Route 7": {
+      "Lvl 51 Twins Sola & Ana - Route 7": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -189062,7 +189314,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Fisherman Santino2 - Humilau City": {
+      "Lvl 61 Fisherman Santino - Humilau City": {
         "level": 61,
         "ai": 7,
         "noCh": false,
@@ -189093,7 +189345,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 GAME FREAK Nishino4 ": {
+      "Lvl 76 GAME FREAK Nishino2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -189124,7 +189376,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 21 Kanto Leader Misty2 - Virbank City": {
+      "Lvl 21 Kanto Leader Misty - Virbank City": {
         "level": 21,
         "ai": 143,
         "noCh": true,
@@ -189155,7 +189407,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ace Trainer Cora4 ": {
+      "Lvl 56 Ace Trainer Cora2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -189188,7 +189440,7 @@ backup_data = {
       }
     },
     "Spheal": {
-      "Lvl 49 Harlequin Ian2 - Route 7": {
+      "Lvl 49 Harlequin Ian - Route 7": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -189219,7 +189471,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 Swimmer F Mitzi2 - Abyssal Ruins": {
+      "Lvl 38 Swimmer F Mitzi - Abyssal Ruins": {
         "level": 38,
         "ai": 1,
         "noCh": false,
@@ -189251,103 +189503,8 @@ backup_data = {
         }
       }
     },
-    "Shuckle": {
-      "Lvl 58 Gentleman Sheldon2 ": {
-        "level": 58,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 277,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Kee Berry",
-        "nature": "Hardy",
-        "moves": [
-          "Infestation",
-          "Swallow",
-          "Protect",
-          "Sandstorm"
-        ],
-        "sub_index": 1,
-        "ability": "Gourmand",
-        "sprite": "trainer_sprites/gentleman.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 Backpacker Tami2 - Desert Resort": {
-        "level": 36,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 664,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bashful",
-        "moves": [
-          "Scorching Sands",
-          "Weather Ball",
-          "Signal Beam",
-          "Toxic"
-        ],
-        "sub_index": 1,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/backpackerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 Backpacker Clara2 ": {
-        "level": 36,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 665,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bashful",
-        "moves": [
-          "Sand Attack",
-          "Weather Ball",
-          "Signal Beam",
-          "Toxic"
-        ],
-        "sub_index": 1,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/backpackerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Tangela": {
-      "Lvl 39 Ace Trainer Kipp2 ": {
+      "Lvl 39 Ace Trainer Kipp ": {
         "level": 39,
         "ai": 7,
         "noCh": false,
@@ -189378,7 +189535,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 PkMn Trainer Rival45 - Starter 3": {
+      "Lvl 17 PkMn Trainer Rival18 - Starter 3": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -189411,7 +189568,7 @@ backup_data = {
       }
     },
     "Gligar": {
-      "Lvl 39 Ace Trainer Junko2 ": {
+      "Lvl 39 Ace Trainer Junko ": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -189442,7 +189599,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 PkMn Ranger Mikiko2 - Seaside Cave": {
+      "Lvl 46 PkMn Ranger Mikiko - Seaside Cave": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -189473,7 +189630,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival46 - Starter 1": {
+      "Lvl 27 PkMn Trainer Rival19 - Starter 1": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -189504,7 +189661,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival47 - Starter 2": {
+      "Lvl 27 PkMn Trainer Rival20 - Starter 2": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -189535,7 +189692,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival50 - Starter 3": {
+      "Lvl 27 PkMn Trainer Rival21 - Starter 3": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -189566,7 +189723,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Youngster Waylon2 - Virbank Complex": {
+      "Lvl 18 Youngster Waylon - Virbank Complex": {
         "level": 18,
         "ai": 15,
         "noCh": false,
@@ -189599,7 +189756,7 @@ backup_data = {
       }
     },
     "Bastiodon": {
-      "Lvl 56 Black Belt Jay2 - Route 14": {
+      "Lvl 56 Black Belt Jay - Route 14": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -189630,7 +189787,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Guardian of Unova Cobalion2 ": {
+      "Lvl 52 Guardian of Unova Cobalion ": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -189661,7 +189818,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Veteran Julia2 - Twist Mountain": {
+      "Lvl 63 Veteran Julia - Twist Mountain": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -189692,7 +189849,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 37 Leader Lenora2 ": {
+      "Lvl 37 Leader Lenora ": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -189725,7 +189882,7 @@ backup_data = {
       }
     },
     "Staryu": {
-      "Lvl 39 Fisherman Damon2 - Route 13": {
+      "Lvl 39 Fisherman Damon - Route 13": {
         "level": 39,
         "ai": 1,
         "noCh": false,
@@ -189758,7 +189915,7 @@ backup_data = {
       }
     },
     "Roselia": {
-      "Lvl 40 Backers Cleo & Rio2 - Route 12 1": {
+      "Lvl 40 Backers Cleo & Rio - Route 12 1": {
         "level": 40,
         "ai": 129,
         "noCh": true,
@@ -189789,7 +189946,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Backers Cleo & Rio2 - Route 12 2": {
+      "Lvl 40 Backers Cleo & Rio - Route 12 2": {
         "level": 40,
         "ai": 129,
         "noCh": true,
@@ -189822,7 +189979,7 @@ backup_data = {
       }
     },
     "Sawsbuck-Winter": {
-      "Lvl 48 PkMn Ranger Richard2 - Route 6": {
+      "Lvl 48 PkMn Ranger Richard - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -189855,7 +190012,7 @@ backup_data = {
       }
     },
     "Rotom-Mow": {
-      "Lvl 48 PkMn Ranger Richard2 - Route 6": {
+      "Lvl 48 PkMn Ranger Richard - Route 6": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -189886,7 +190043,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Janitor Brady2 - Castelia Sewers": {
+      "Lvl 27 Janitor Brady - Castelia Sewers": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -189919,7 +190076,7 @@ backup_data = {
       }
     },
     "Ludicolo": {
-      "Lvl 49 PkMn Ranger Richard2 - Route 6": {
+      "Lvl 49 PkMn Ranger Richard - Route 6": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -189950,7 +190107,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk M Warren2 ": {
+      "Lvl 27 Clerk M Warren ": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -189981,7 +190138,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Tyra2 - Route 8": {
+      "Lvl 60 Parasol Lady Tyra - Route 8": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -190012,7 +190169,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Sinan2 ": {
+      "Lvl 64 Veteran Sinan ": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -190045,7 +190202,7 @@ backup_data = {
       }
     },
     "Rapidash": {
-      "Lvl 36 PkMn Ranger Lois2 - Route 5": {
+      "Lvl 36 PkMn Ranger Lois - Route 5": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -190076,7 +190233,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Cyclist Jeremiah2 ": {
+      "Lvl 55 Cyclist Jeremiah ": {
         "level": 55,
         "ai": 15,
         "noCh": false,
@@ -190107,7 +190264,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Mary2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Mary - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -190138,7 +190295,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Ralph2 ": {
+      "Lvl 62 PkMn Ranger Ralph ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -190169,7 +190326,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Kanto Leader Blaine2 - Abundant Shrine": {
+      "Lvl 61 Kanto Leader Blaine - Abundant Shrine": {
         "level": 61,
         "ai": 15,
         "noCh": true,
@@ -190200,7 +190357,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N6 ": {
+      "Lvl 75 PkMn Trainer N2 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -190233,7 +190390,7 @@ backup_data = {
       }
     },
     "Vibrava": {
-      "Lvl 39 PkMn Ranger Dianne2 - Route 13": {
+      "Lvl 39 PkMn Ranger Dianne - Route 13": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -190264,7 +190421,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 PkMn Ranger Mikiko2 - Seaside Cave": {
+      "Lvl 46 PkMn Ranger Mikiko - Seaside Cave": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -190295,7 +190452,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 PkMn Trainer Rival43 - Starter 1": {
+      "Lvl 18 PkMn Trainer Rival16 - Starter 1": {
         "level": 18,
         "ai": 15,
         "noCh": false,
@@ -190326,7 +190483,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 PkMn Trainer Rival44 - Starter 2": {
+      "Lvl 18 PkMn Trainer Rival17 - Starter 2": {
         "level": 18,
         "ai": 15,
         "noCh": false,
@@ -190357,7 +190514,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 PkMn Trainer Rival45 - Starter 3": {
+      "Lvl 18 PkMn Trainer Rival18 - Starter 3": {
         "level": 18,
         "ai": 15,
         "noCh": false,
@@ -190388,7 +190545,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival46 - Starter 1": {
+      "Lvl 27 PkMn Trainer Rival19 - Starter 1": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -190419,7 +190576,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival47 - Starter 2": {
+      "Lvl 27 PkMn Trainer Rival20 - Starter 2": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -190450,7 +190607,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 PkMn Trainer Rival49 - Starter 3": {
+      "Lvl 27 PkMn Trainer Rival21 - Starter 3": {
         "level": 27,
         "ai": 135,
         "noCh": false,
@@ -190481,7 +190638,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Ace Trainer Ray4 - Reversal Mountain": {
+      "Lvl 39 Ace Trainer Ray2 - Reversal Mountain": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -190514,7 +190671,7 @@ backup_data = {
       }
     },
     "Drilbur": {
-      "Lvl 16 PkMn Breeder Irene2 - Route 4": {
+      "Lvl 16 PkMn Breeder Irene - Route 4": {
         "level": 16,
         "ai": 5,
         "noCh": false,
@@ -190547,7 +190704,7 @@ backup_data = {
       }
     },
     "Huntail": {
-      "Lvl 37 PkMn Ranger Serenity2 - Lostlorn Forest": {
+      "Lvl 37 PkMn Ranger Serenity - Lostlorn Forest": {
         "level": 37,
         "ai": 15,
         "noCh": false,
@@ -190578,7 +190735,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Ace Trainer Sable2 - Humilau City": {
+      "Lvl 61 Ace Trainer Sable - Humilau City": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -190609,7 +190766,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Swimmer M Jeffery2 - Route 17": {
+      "Lvl 65 Swimmer M Jeffery - Route 17": {
         "level": 65,
         "ai": 1,
         "noCh": false,
@@ -190640,7 +190797,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Ranger Louis2 - Chargestone Cave": {
+      "Lvl 49 PkMn Ranger Louis - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -190673,7 +190830,7 @@ backup_data = {
       }
     },
     "Exeggutor": {
-      "Lvl 37 PkMn Ranger Forrest2 - Lostlorn Forest": {
+      "Lvl 37 PkMn Ranger Forrest - Lostlorn Forest": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -190704,7 +190861,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Swimmer F Desiree2 ": {
+      "Lvl 59 Swimmer F Desiree ": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -190735,7 +190892,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Backpacker Kendall2 - Relic Passage": {
+      "Lvl 28 Backpacker Kendall - Relic Passage": {
         "level": 28,
         "ai": 7,
         "noCh": false,
@@ -190768,7 +190925,7 @@ backup_data = {
       }
     },
     "Mothim": {
-      "Lvl 37 PkMn Ranger Forrest2 - Lostlorn Forest": {
+      "Lvl 37 PkMn Ranger Forrest - Lostlorn Forest": {
         "level": 37,
         "ai": 143,
         "noCh": false,
@@ -190799,7 +190956,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt47 ": {
+      "Lvl 47 Team Plasma Grunt7 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -190830,7 +190987,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Youngster Mikey2 - Route 2": {
+      "Lvl 61 Youngster Mikey - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -190861,7 +191018,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt103 ": {
+      "Lvl 24 Team Plasma Grunt44 ": {
         "level": 24,
         "ai": 15,
         "noCh": true,
@@ -190894,7 +191051,7 @@ backup_data = {
       }
     },
     "Mienfoo": {
-      "Lvl 41 Battle Girl Azra2 - Route 12": {
+      "Lvl 41 Battle Girl Azra - Route 12": {
         "level": 41,
         "ai": 3,
         "noCh": true,
@@ -190925,7 +191082,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Battle Girl Maki2 - Seaside Cave": {
+      "Lvl 47 Battle Girl Maki - Seaside Cave": {
         "level": 47,
         "ai": 3,
         "noCh": false,
@@ -190958,7 +191115,7 @@ backup_data = {
       }
     },
     "Tympole": {
-      "Lvl 42 PkMn Ranger Crofton2 - Route 11": {
+      "Lvl 42 PkMn Ranger Crofton - Route 11": {
         "level": 42,
         "ai": 7,
         "noCh": false,
@@ -190989,7 +191146,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Preschooler Jojo2 ": {
+      "Lvl 60 Preschooler Jojo ": {
         "level": 60,
         "ai": 0,
         "noCh": false,
@@ -191022,7 +191179,7 @@ backup_data = {
       }
     },
     "Palpitoad": {
-      "Lvl 42 PkMn Ranger Crofton2 - Route 11": {
+      "Lvl 42 PkMn Ranger Crofton - Route 11": {
         "level": 42,
         "ai": 7,
         "noCh": false,
@@ -191053,7 +191210,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 15 Preschooler Buster2 - Route 20": {
+      "Lvl 15 Preschooler Buster - Route 20": {
         "level": 15,
         "ai": 15,
         "noCh": false,
@@ -191084,7 +191241,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Youngster Astor2 - Route 8": {
+      "Lvl 60 Youngster Astor - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -191117,7 +191274,7 @@ backup_data = {
       }
     },
     "Chimecho": {
-      "Lvl 59 Rich Boy Lowell2 ": {
+      "Lvl 59 Rich Boy Lowell ": {
         "level": 59,
         "ai": 15,
         "noCh": false,
@@ -191148,7 +191305,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Socialite Grace2 - Celestial Tower": {
+      "Lvl 51 Socialite Grace - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -191179,7 +191336,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Tommy2 - Desert Resort": {
+      "Lvl 35 Psychic Tommy - Desert Resort": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -191210,7 +191367,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 41 Nurse Mariah2 - Driftveil Drawbridge": {
+      "Lvl 41 Nurse Mariah - Driftveil Drawbridge": {
         "level": 41,
         "ai": 15,
         "noCh": false,
@@ -191243,7 +191400,7 @@ backup_data = {
       }
     },
     "Sealeo": {
-      "Lvl 59 Fisherman Kenzo2 - Route 21": {
+      "Lvl 59 Fisherman Kenzo - Route 21": {
         "level": 59,
         "ai": 15,
         "noCh": false,
@@ -191274,7 +191431,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Swimmer M Tim2 - Abyssal Ruins": {
+      "Lvl 39 Swimmer M Tim - Abyssal Ruins": {
         "level": 39,
         "ai": 1,
         "noCh": false,
@@ -191305,7 +191462,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Worker Victor2 - Route 6": {
+      "Lvl 42 Worker Victor - Route 6": {
         "level": 42,
         "ai": 15,
         "noCh": false,
@@ -191336,7 +191493,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk F Britney2 - Castelia City": {
+      "Lvl 27 Clerk F Britney - Castelia City": {
         "level": 27,
         "ai": 7,
         "noCh": false,
@@ -191369,7 +191526,7 @@ backup_data = {
       }
     },
     "Mantyke": {
-      "Lvl 39 Swimmer M Matt2 - Abyssal Ruins": {
+      "Lvl 39 Swimmer M Matt - Abyssal Ruins": {
         "level": 39,
         "ai": 1,
         "noCh": false,
@@ -191402,7 +191559,7 @@ backup_data = {
       }
     },
     "Wailmer": {
-      "Lvl 38 Swimmer F Mitzi2 - Abyssal Ruins": {
+      "Lvl 38 Swimmer F Mitzi - Abyssal Ruins": {
         "level": 38,
         "ai": 1,
         "noCh": false,
@@ -191433,7 +191590,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Ace Trainer Enzio2 - Humilau City": {
+      "Lvl 60 Ace Trainer Enzio - Humilau City": {
         "level": 60,
         "ai": 143,
         "noCh": false,
@@ -191464,7 +191621,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Fisherman Bucky2 - Route 17": {
+      "Lvl 56 Fisherman Bucky - Route 17": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -191495,7 +191652,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk M Warren2 ": {
+      "Lvl 27 Clerk M Warren ": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -191528,7 +191685,7 @@ backup_data = {
       }
     },
     "Sudowoodo": {
-      "Lvl 43 Worker Pasqual2 - Driftveil City": {
+      "Lvl 43 Worker Pasqual - Driftveil City": {
         "level": 43,
         "ai": 15,
         "noCh": true,
@@ -191559,38 +191716,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Johto Leader Bugsy2 ": {
-        "level": 61,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 326,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Tanga Berry",
-        "nature": "Impish",
-        "moves": [
-          "Rock Wrecker",
-          "Wood Hammer",
-          "Stealth Rock",
-          "Parting Shot"
-        ],
-        "sub_index": 2,
-        "ability": "Prankster",
-        "sprite": "trainer_sprites/johtoleader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 PkMn Ranger Hillary2 ": {
+      "Lvl 62 PkMn Ranger Hillary ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -191621,7 +191747,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 PkMn Ranger Anja2 - Desert Resort": {
+      "Lvl 35 PkMn Ranger Anja - Desert Resort": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -191654,7 +191780,7 @@ backup_data = {
       }
     },
     "Gabite": {
-      "Lvl 44 Worker Pasqual2 - Driftveil City": {
+      "Lvl 44 Worker Pasqual - Driftveil City": {
         "level": 44,
         "ai": 15,
         "noCh": true,
@@ -191685,7 +191811,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Worker Zack2 ": {
+      "Lvl 26 Worker Zack ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -191718,7 +191844,7 @@ backup_data = {
       }
     },
     "Cacturne": {
-      "Lvl 43 Worker Niel2 - Driftveil City": {
+      "Lvl 43 Worker Niel - Driftveil City": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -191749,7 +191875,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Backpacker Sam2 - Desert Resort": {
+      "Lvl 36 Backpacker Sam - Desert Resort": {
         "level": 36,
         "ai": 143,
         "noCh": false,
@@ -191780,7 +191906,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Geoff2 - Mistralton Cave": {
+      "Lvl 50 Ace Trainer Geoff - Mistralton Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -191813,7 +191939,7 @@ backup_data = {
       }
     },
     "Lairon": {
-      "Lvl 42 Worker Noel2 ": {
+      "Lvl 42 Worker Noel ": {
         "level": 42,
         "ai": 15,
         "noCh": true,
@@ -191844,7 +191970,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Janitor Brady2 - Castelia Sewers": {
+      "Lvl 27 Janitor Brady - Castelia Sewers": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -191875,7 +192001,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 PkMn Ranger Johan2 - Seaside Cave": {
+      "Lvl 46 PkMn Ranger Johan - Seaside Cave": {
         "level": 46,
         "ai": 7,
         "noCh": false,
@@ -191908,7 +192034,7 @@ backup_data = {
       }
     },
     "Typhlosion": {
-      "Lvl 42 Worker Noel2 ": {
+      "Lvl 42 Worker Noel ": {
         "level": 42,
         "ai": 15,
         "noCh": true,
@@ -191939,7 +192065,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Geoff2 - Mistralton Cave": {
+      "Lvl 50 Ace Trainer Geoff - Mistralton Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -191970,7 +192096,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Kanto Leader Blaine2 - Abundant Shrine": {
+      "Lvl 61 Kanto Leader Blaine - Abundant Shrine": {
         "level": 61,
         "ai": 15,
         "noCh": true,
@@ -192003,7 +192129,7 @@ backup_data = {
       }
     },
     "Metapod": {
-      "Lvl 61 Johto Leader Bugsy2 ": {
+      "Lvl 61 Johto Leader Bugsy ": {
         "level": 61,
         "ai": 15,
         "noCh": false,
@@ -192022,9 +192148,9 @@ backup_data = {
         "nature": "Modest",
         "moves": [
           "Infestation",
-          "Heal Order",
-          "Ancient Power",
-          "U-turn"
+          "Psychic",
+          "Power Gem",
+          "Sticky Web"
         ],
         "sub_index": 0,
         "ability": "Filter",
@@ -192036,7 +192162,7 @@ backup_data = {
       }
     },
     "Kakuna": {
-      "Lvl 61 Johto Leader Bugsy2 ": {
+      "Lvl 61 Johto Leader Bugsy ": {
         "level": 61,
         "ai": 15,
         "noCh": false,
@@ -192069,7 +192195,7 @@ backup_data = {
       }
     },
     "Scyther": {
-      "Lvl 62 Johto Leader Bugsy2 ": {
+      "Lvl 62 Johto Leader Bugsy ": {
         "level": 62,
         "ai": 15,
         "noCh": false,
@@ -192084,12 +192210,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Bright Powder",
+        "item": "Tera Eviolite",
         "nature": "Naughty",
         "moves": [
+          "Quick Attack",
           "Razor Winds",
           "Rolling Kick",
-          "Quick Attack",
           "Swords Dance"
         ],
         "sub_index": 4,
@@ -192100,7 +192226,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Battle Girl Chan2 - Reversal Mountain": {
+      "Lvl 56 Battle Girl Chan - Reversal Mountain": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -192131,7 +192257,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 59 Preschooler Jose2 ": {
+      "Lvl 59 Preschooler Jose ": {
         "level": 59,
         "ai": 0,
         "noCh": false,
@@ -192162,7 +192288,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Gary2 - Castelia City": {
+      "Lvl 28 Harlequin Gary - Castelia City": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -192195,7 +192321,7 @@ backup_data = {
       }
     },
     "Skorupi": {
-      "Lvl 43 Biker Phillip2 - Route 9": {
+      "Lvl 43 Biker Phillip - Route 9": {
         "level": 43,
         "ai": 1,
         "noCh": false,
@@ -192226,7 +192352,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt58 ": {
+      "Lvl 45 Team Plasma Grunt15 ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -192257,7 +192383,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt73 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt30 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -192290,7 +192416,7 @@ backup_data = {
       }
     },
     "Mandibuzz": {
-      "Lvl 51 Pilot Elron2 - Mistralton City": {
+      "Lvl 51 Pilot Elron - Mistralton City": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -192321,7 +192447,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Veteran Cecile2 - Victory Road": {
+      "Lvl 55 Veteran Cecile - Victory Road": {
         "level": 55,
         "ai": 135,
         "noCh": false,
@@ -192352,7 +192478,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Ace Trainer Kathrine2 - Pinwheel Forest": {
+      "Lvl 63 Ace Trainer Kathrine - Pinwheel Forest": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -192383,7 +192509,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 PkMn Ranger Jaden2 - Desert Resort": {
+      "Lvl 35 PkMn Ranger Jaden - Desert Resort": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -192416,7 +192542,7 @@ backup_data = {
       }
     },
     "Glalie": {
-      "Lvl 52 Pilot Elron2 - Mistralton City": {
+      "Lvl 52 Pilot Elron - Mistralton City": {
         "level": 52,
         "ai": 143,
         "noCh": false,
@@ -192447,7 +192573,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Kanto Leader Janine2 - Driftveil City": {
+      "Lvl 44 Kanto Leader Janine - Driftveil City": {
         "level": 44,
         "ai": 143,
         "noCh": true,
@@ -192480,7 +192606,7 @@ backup_data = {
       }
     },
     "Sunflora": {
-      "Lvl 42 Artist Gough2 - Village Bridge": {
+      "Lvl 42 Artist Gough - Village Bridge": {
         "level": 42,
         "ai": 1,
         "noCh": false,
@@ -192511,7 +192637,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Clerk M Clemens2 ": {
+      "Lvl 28 Clerk M Clemens ": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -192542,7 +192668,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Ace Trainer Mary2 - Chargestone Cave": {
+      "Lvl 50 Ace Trainer Mary - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -192575,7 +192701,7 @@ backup_data = {
       }
     },
     "Tirtouga": {
-      "Lvl 26 Motorcyclist Charles5 ": {
+      "Lvl 26 Motorcyclist Charles ": {
         "level": 26,
         "ai": 7,
         "noCh": false,
@@ -192606,7 +192732,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Motorcyclist Charles8 ": {
+      "Lvl 26 Motorcyclist Charles4 ": {
         "level": 26,
         "ai": 7,
         "noCh": false,
@@ -192637,7 +192763,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 Youngster Keita2 - Virbank Complex": {
+      "Lvl 17 Youngster Keita - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -192670,7 +192796,7 @@ backup_data = {
       }
     },
     "Aggron": {
-      "Lvl 57 Champion Iris3 ": {
+      "Lvl 57 Champion Iris ": {
         "level": 57,
         "ai": 7,
         "noCh": false,
@@ -192701,7 +192827,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Hiker Doug2 - Route 23": {
+      "Lvl 53 Hiker Doug - Route 23": {
         "level": 53,
         "ai": 1,
         "noCh": false,
@@ -192732,7 +192858,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Veteran Zach2 - Twist Mountain": {
+      "Lvl 63 Veteran Zach - Twist Mountain": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -192763,7 +192889,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 Champion Iris4 ": {
+      "Lvl 76 Champion Iris2 ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -192794,7 +192920,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Veteran Wain2 ": {
+      "Lvl 60 Veteran Wain ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -192825,7 +192951,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Rival Benga16 - Starter 3": {
+      "Lvl 57 Rival Benga9 - Starter 3": {
         "level": 57,
         "ai": 7,
         "noCh": true,
@@ -192856,7 +192982,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 Champion Iris6 ": {
+      "Lvl 77 Champion Iris3 ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -192889,7 +193015,7 @@ backup_data = {
       }
     },
     "Magneton": {
-      "Lvl 50 Team Plasma Colress3 ": {
+      "Lvl 50 Team Plasma Colress ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -192920,7 +193046,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Team Plasma Colress4 ": {
+      "Lvl 34 Team Plasma Colress2 ": {
         "level": 34,
         "ai": 15,
         "noCh": false,
@@ -192951,7 +193077,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Scientist Clarke2 ": {
+      "Lvl 27 Scientist Clarke ": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -192982,7 +193108,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 72 PkMn Trainer Colress2 ": {
+      "Lvl 72 PkMn Trainer Colress ": {
         "level": 72,
         "ai": 7,
         "noCh": false,
@@ -193015,7 +193141,7 @@ backup_data = {
       }
     },
     "Beheeyem": {
-      "Lvl 50 Team Plasma Colress3 ": {
+      "Lvl 50 Team Plasma Colress ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -193046,7 +193172,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Team Plasma Colress4 ": {
+      "Lvl 34 Team Plasma Colress2 ": {
         "level": 34,
         "ai": 15,
         "noCh": false,
@@ -193077,7 +193203,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Scientist Lumi2 - Chargestone Cave": {
+      "Lvl 50 Scientist Lumi - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -193108,7 +193234,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Psychic Tully2 - Relic Passage": {
+      "Lvl 49 Psychic Tully - Relic Passage": {
         "level": 49,
         "ai": 143,
         "noCh": false,
@@ -193139,7 +193265,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 72 PkMn Trainer Colress2 ": {
+      "Lvl 72 PkMn Trainer Colress ": {
         "level": 72,
         "ai": 7,
         "noCh": false,
@@ -193172,7 +193298,7 @@ backup_data = {
       }
     },
     "Eelektross": {
-      "Lvl 50 Team Plasma Ghetsis2 ": {
+      "Lvl 50 Team Plasma Ghetsis ": {
         "level": 50,
         "ai": 7,
         "noCh": false,
@@ -193203,7 +193329,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Parasol Lady Melina2 - Humilau City": {
+      "Lvl 60 Parasol Lady Melina - Humilau City": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -193234,7 +193360,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival19 - Starter 1": {
+      "Lvl 49 PkMn Trainer Rival7 - Starter 1": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -193265,7 +193391,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival20 - Starter 2": {
+      "Lvl 49 PkMn Trainer Rival8 - Starter 2": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -193296,7 +193422,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 PkMn Trainer Rival21 - Starter 3": {
+      "Lvl 49 PkMn Trainer Rival9 - Starter 3": {
         "level": 49,
         "ai": 135,
         "noCh": false,
@@ -193327,7 +193453,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival32 - Clay Tunnel - Starter 1": {
+      "Lvl 50 PkMn Trainer Rival13 - Clay Tunnel - Starter 1": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -193358,7 +193484,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival34 - Starter 2": {
+      "Lvl 50 PkMn Trainer Rival14 - Starter 2": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -193389,7 +193515,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Trainer Rival36 - Clay Tunnel - Starter 3": {
+      "Lvl 50 PkMn Trainer Rival15 - Clay Tunnel - Starter 3": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -193420,7 +193546,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Elmer2 - Victory Road": {
+      "Lvl 55 Ace Trainer Elmer - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -193451,7 +193577,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival55 - Starter 1": {
+      "Lvl 62 PkMn Trainer Rival25 - Starter 1": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -193482,7 +193608,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival56 - Starter 2": {
+      "Lvl 62 PkMn Trainer Rival26 - Starter 2": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -193513,7 +193639,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Rival57 - Starter 3": {
+      "Lvl 62 PkMn Trainer Rival27 - Starter 3": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -193544,7 +193670,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival58 - Starter 1": {
+      "Lvl 65 PkMn Trainer Rival28 - Starter 1": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -193575,7 +193701,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival59 - Starter 2": {
+      "Lvl 65 PkMn Trainer Rival29 - Starter 2": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -193606,7 +193732,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Rival60 - Starter 3": {
+      "Lvl 65 PkMn Trainer Rival30 - Starter 3": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -193637,7 +193763,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Subway Boss Ingo2 ": {
+      "Lvl 39 Subway Boss Ingo ": {
         "level": 39,
         "ai": 143,
         "noCh": false,
@@ -193668,7 +193794,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Janice2 - Chargestone Cave": {
+      "Lvl 49 School Kid Janice - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -193701,7 +193827,7 @@ backup_data = {
       }
     },
     "Zoroark": {
-      "Lvl 43 PkMn Trainer Rood2 ": {
+      "Lvl 43 PkMn Trainer Rood ": {
         "level": 43,
         "ai": 143,
         "noCh": true,
@@ -193734,7 +193860,7 @@ backup_data = {
       }
     },
     "Wormadam-Trash": {
-      "Lvl 60 Fisherman Doyle2 - Humilau City": {
+      "Lvl 60 Fisherman Doyle - Humilau City": {
         "level": 60,
         "ai": 143,
         "noCh": false,
@@ -193765,7 +193891,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Janitor Felix2 ": {
+      "Lvl 26 Janitor Felix ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -193798,7 +193924,7 @@ backup_data = {
       }
     },
     "Beartic": {
-      "Lvl 60 Ace Trainer Jeanne2 - Humilau City": {
+      "Lvl 60 Ace Trainer Jeanne - Humilau City": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -193829,7 +193955,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt53 ": {
+      "Lvl 47 Team Plasma Grunt10 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -193849,8 +193975,8 @@ backup_data = {
         "moves": [
           "Blizzard",
           "Focus Blast",
-          "Scald",
-          "Crunch"
+          "Hydro Pump",
+          "Thrash"
         ],
         "sub_index": 2,
         "ability": "Sheer Force",
@@ -193860,7 +193986,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Ace Trainer Lydon2 - Route 17": {
+      "Lvl 51 Ace Trainer Lydon - Route 17": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -193891,7 +194017,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 PkMn Ranger Lewis4 ": {
+      "Lvl 56 PkMn Ranger Lewis2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -193922,7 +194048,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Worker Victor2 - Route 6": {
+      "Lvl 45 Worker Victor - Route 6": {
         "level": 45,
         "ai": 15,
         "noCh": false,
@@ -193953,7 +194079,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Sterling2 - Victory Road": {
+      "Lvl 54 Veteran Sterling - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -193984,7 +194110,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Hillary2 ": {
+      "Lvl 62 PkMn Ranger Hillary ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -194015,7 +194141,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Ace Trainer Natasha2 ": {
+      "Lvl 40 Ace Trainer Natasha ": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -194048,7 +194174,7 @@ backup_data = {
       }
     },
     "Walrein": {
-      "Lvl 61 Ace Trainer Jeanne2 - Humilau City": {
+      "Lvl 61 Ace Trainer Jeanne - Humilau City": {
         "level": 61,
         "ai": 15,
         "noCh": false,
@@ -194079,7 +194205,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Backpacker Eileen2 - Relic Passage": {
+      "Lvl 48 Backpacker Eileen - Relic Passage": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -194112,7 +194238,7 @@ backup_data = {
       }
     },
     "Kingdra": {
-      "Lvl 61 Ace Trainer Sable2 - Humilau City": {
+      "Lvl 61 Ace Trainer Sable - Humilau City": {
         "level": 61,
         "ai": 143,
         "noCh": false,
@@ -194143,7 +194269,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 68 Veteran Gina2 - Route 18": {
+      "Lvl 68 Veteran Gina - Route 18": {
         "level": 68,
         "ai": 135,
         "noCh": false,
@@ -194174,7 +194300,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Beauty Stella2 - Chargestone Cave": {
+      "Lvl 49 Beauty Stella - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -194207,7 +194333,7 @@ backup_data = {
       }
     },
     "Fraxure": {
-      "Lvl 27 Team Plasma Grunt43 ": {
+      "Lvl 27 Team Plasma Grunt3 ": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -194238,7 +194364,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt49 ": {
+      "Lvl 47 Team Plasma Grunt8 ": {
         "level": 47,
         "ai": 143,
         "noCh": false,
@@ -194257,7 +194383,7 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Dragon Rush",
-          "1st Impression",
+          "Metal Claw",
           "Cross Chop",
           "Dragon Dance"
         ],
@@ -194269,7 +194395,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Veteran Lucius2 ": {
+      "Lvl 46 Veteran Lucius ": {
         "level": 46,
         "ai": 7,
         "noCh": true,
@@ -194300,7 +194426,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Veteran Jerry2 ": {
+      "Lvl 45 Veteran Jerry ": {
         "level": 45,
         "ai": 7,
         "noCh": true,
@@ -194331,7 +194457,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Veteran Rhona2 ": {
+      "Lvl 45 Veteran Rhona ": {
         "level": 45,
         "ai": 7,
         "noCh": true,
@@ -194362,7 +194488,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Veteran Ron2 ": {
+      "Lvl 44 Veteran Ron ": {
         "level": 44,
         "ai": 135,
         "noCh": true,
@@ -194393,7 +194519,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Veteran Denae2 ": {
+      "Lvl 44 Veteran Denae ": {
         "level": 44,
         "ai": 7,
         "noCh": true,
@@ -194424,7 +194550,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Caroll2 - Victory Road": {
+      "Lvl 55 Ace Trainer Caroll - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -194455,7 +194581,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Hugo2 - Victory Road": {
+      "Lvl 54 Veteran Hugo - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -194488,7 +194614,7 @@ backup_data = {
       }
     },
     "Rotom-Wash": {
-      "Lvl 34 Team Plasma Colress4 ": {
+      "Lvl 34 Team Plasma Colress2 ": {
         "level": 34,
         "ai": 15,
         "noCh": false,
@@ -194519,7 +194645,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 72 PkMn Trainer Colress2 ": {
+      "Lvl 72 PkMn Trainer Colress ": {
         "level": 72,
         "ai": 7,
         "noCh": false,
@@ -194552,7 +194678,7 @@ backup_data = {
       }
     },
     "Porygon2": {
-      "Lvl 35 Team Plasma Colress4 ": {
+      "Lvl 35 Team Plasma Colress2 ": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -194583,7 +194709,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Scientist Terrance2 - Relic Passage": {
+      "Lvl 28 Scientist Terrance - Relic Passage": {
         "level": 28,
         "ai": 15,
         "noCh": false,
@@ -194616,7 +194742,7 @@ backup_data = {
       }
     },
     "Raticate": {
-      "Lvl 47 Team Plasma Grunt45 ": {
+      "Lvl 47 Team Plasma Grunt5 ": {
         "level": 47,
         "ai": 15,
         "noCh": false,
@@ -194647,7 +194773,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt57 - Plasma Frigate": {
+      "Lvl 46 Team Plasma Grunt14 - Plasma Frigate": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -194678,7 +194804,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 46 Team Plasma Grunt72 ": {
+      "Lvl 46 Team Plasma Grunt29 ": {
         "level": 46,
         "ai": 1,
         "noCh": false,
@@ -194709,7 +194835,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Janitor Felix2 ": {
+      "Lvl 26 Janitor Felix ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -194740,7 +194866,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 47 Team Plasma Grunt117 - Plasma Frigate": {
+      "Lvl 47 Team Plasma Grunt58 - Plasma Frigate": {
         "level": 47,
         "ai": 1,
         "noCh": false,
@@ -194772,8 +194898,134 @@ backup_data = {
         }
       }
     },
+    "Linoone": {
+      "Lvl 48 Team Plasma Grunt7 ": {
+        "level": 48,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 374,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Proto Booster",
+        "nature": "Timid",
+        "moves": [
+          "Take Down",
+          "Play Rough",
+          "Shadow Claw",
+          "Detect"
+        ],
+        "sub_index": 3,
+        "ability": "Tough Claws",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 55 Cyclist Jeremiah ": {
+        "level": 55,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 468,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Silk Scarf",
+        "nature": "Naughty",
+        "moves": [
+          "Extreme Speed",
+          "Double-Edge",
+          "Aqua Tail",
+          "Metronome"
+        ],
+        "sub_index": 2,
+        "ability": "Tough Claws",
+        "sprite": "trainer_sprites/cyclist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 Ace Trainer Kathrine - Pinwheel Forest": {
+        "level": 63,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 636,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Lonely",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Tough Claws",
+        "sprite": "trainer_sprites/acetrainerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 24 Team Plasma Grunt44 ": {
+        "level": 24,
+        "ai": 15,
+        "noCh": true,
+        "tr_id": 690,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Lum Berry",
+        "nature": "Gentle",
+        "moves": [
+          "Headbutt",
+          "Fury Swipes",
+          "Covet",
+          "Sand Attack"
+        ],
+        "sub_index": 2,
+        "ability": "Tough Claws",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Axew": {
-      "Lvl 44 Veteran Ron2 ": {
+      "Lvl 44 Veteran Ron ": {
         "level": 44,
         "ai": 135,
         "noCh": true,
@@ -194804,7 +195056,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 Veteran Denae2 ": {
+      "Lvl 44 Veteran Denae ": {
         "level": 44,
         "ai": 7,
         "noCh": true,
@@ -194837,7 +195089,7 @@ backup_data = {
       }
     },
     "Foongus": {
-      "Lvl 32 PkMn Ranger Naoko2 - Route 20": {
+      "Lvl 32 PkMn Ranger Naoko - Route 20": {
         "level": 32,
         "ai": 7,
         "noCh": false,
@@ -194868,7 +195120,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt58 ": {
+      "Lvl 45 Team Plasma Grunt15 ": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -194899,7 +195151,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt73 - Plasma Frigate": {
+      "Lvl 45 Team Plasma Grunt30 - Plasma Frigate": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -194932,7 +195184,7 @@ backup_data = {
       }
     },
     "Numel": {
-      "Lvl 36 Backpacker Boone2 ": {
+      "Lvl 36 Backpacker Boone ": {
         "level": 36,
         "ai": 1,
         "noCh": false,
@@ -194965,7 +195217,7 @@ backup_data = {
       }
     },
     "Drifloon": {
-      "Lvl 36 Psychic Lynette2 ": {
+      "Lvl 36 Psychic Lynette ": {
         "level": 36,
         "ai": 5,
         "noCh": false,
@@ -194996,7 +195248,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 19 Scientist Bryce2 - Virbank City": {
+      "Lvl 19 Scientist Bryce - Virbank City": {
         "level": 19,
         "ai": 15,
         "noCh": false,
@@ -195029,7 +195281,7 @@ backup_data = {
       }
     },
     "Teddiursa": {
-      "Lvl 9 Youngster Petey2 - Route 20": {
+      "Lvl 9 Youngster Petey - Route 20": {
         "level": 9,
         "ai": 15,
         "noCh": false,
@@ -195062,7 +195314,7 @@ backup_data = {
       }
     },
     "Silcoon": {
-      "Lvl 9 Youngster Petey2 - Route 20": {
+      "Lvl 9 Youngster Petey - Route 20": {
         "level": 9,
         "ai": 15,
         "noCh": false,
@@ -195093,7 +195345,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Youngster Henley2 ": {
+      "Lvl 60 Youngster Henley ": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -195126,7 +195378,7 @@ backup_data = {
       }
     },
     "Natu": {
-      "Lvl 61 School Kid Edgar2 - Route 3": {
+      "Lvl 61 School Kid Edgar - Route 3": {
         "level": 61,
         "ai": 133,
         "noCh": false,
@@ -195159,7 +195411,7 @@ backup_data = {
       }
     },
     "Xatu": {
-      "Lvl 61 School Kid Edgar2 - Route 3": {
+      "Lvl 61 School Kid Edgar - Route 3": {
         "level": 61,
         "ai": 133,
         "noCh": false,
@@ -195190,7 +195442,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Psychic Low2 - Relic Castle": {
+      "Lvl 35 Psychic Low - Relic Castle": {
         "level": 35,
         "ai": 15,
         "noCh": false,
@@ -195221,7 +195473,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Psychic Tully2 - Relic Passage": {
+      "Lvl 48 Psychic Tully - Relic Passage": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -195254,7 +195506,7 @@ backup_data = {
       }
     },
     "Ralts": {
-      "Lvl 12 School Kid Marsha2 - Route 3": {
+      "Lvl 12 School Kid Marsha - Route 3": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -195285,7 +195537,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Alberta2 ": {
+      "Lvl 12 School Kid Alberta ": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -195318,7 +195570,7 @@ backup_data = {
       }
     },
     "Ledyba": {
-      "Lvl 12 School Kid Marsha2 - Route 3": {
+      "Lvl 12 School Kid Marsha - Route 3": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -195349,7 +195601,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Alberta2 ": {
+      "Lvl 12 School Kid Alberta ": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -195382,7 +195634,7 @@ backup_data = {
       }
     },
     "Rufflet": {
-      "Lvl 12 School Kid Marsha2 - Route 3": {
+      "Lvl 12 School Kid Marsha - Route 3": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -195413,7 +195665,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Alberta2 ": {
+      "Lvl 12 School Kid Alberta ": {
         "level": 12,
         "ai": 5,
         "noCh": false,
@@ -195446,7 +195698,7 @@ backup_data = {
       }
     },
     "Jigglypuff": {
-      "Lvl 61 Nursery Aide Autumn2 - Route 3": {
+      "Lvl 61 Nursery Aide Autumn - Route 3": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -195479,7 +195731,7 @@ backup_data = {
       }
     },
     "Purugly": {
-      "Lvl 61 Nursery Aide Autumn2 - Route 3": {
+      "Lvl 61 Nursery Aide Autumn - Route 3": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -195510,7 +195762,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Pokefan Jude2 - Celestial Tower": {
+      "Lvl 51 Pokefan Jude - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -195543,7 +195795,7 @@ backup_data = {
       }
     },
     "Horsea": {
-      "Lvl 15 Preschooler Buster2 - Route 20": {
+      "Lvl 15 Preschooler Buster - Route 20": {
         "level": 15,
         "ai": 15,
         "noCh": false,
@@ -195576,7 +195828,7 @@ backup_data = {
       }
     },
     "Kabuto": {
-      "Lvl 15 Preschooler Buster2 - Route 20": {
+      "Lvl 15 Preschooler Buster - Route 20": {
         "level": 15,
         "ai": 15,
         "noCh": false,
@@ -195607,7 +195859,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Backpacker Shane2 - Route 1": {
+      "Lvl 62 Backpacker Shane - Route 1": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -195640,7 +195892,7 @@ backup_data = {
       }
     },
     "Grotle": {
-      "Lvl 16 Preschooler Buster2 - Route 20": {
+      "Lvl 16 Preschooler Buster - Route 20": {
         "level": 16,
         "ai": 15,
         "noCh": false,
@@ -195673,7 +195925,7 @@ backup_data = {
       }
     },
     "Kirlia": {
-      "Lvl 61 Preschooler Eva2 - Route 3": {
+      "Lvl 61 Preschooler Eva - Route 3": {
         "level": 61,
         "ai": 0,
         "noCh": false,
@@ -195704,7 +195956,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 29 Scientist Terrance2 - Relic Passage": {
+      "Lvl 29 Scientist Terrance - Relic Passage": {
         "level": 29,
         "ai": 15,
         "noCh": false,
@@ -195737,7 +195989,7 @@ backup_data = {
       }
     },
     "Deino": {
-      "Lvl 61 Preschooler Tyrone2 - Route 3": {
+      "Lvl 61 Preschooler Tyrone - Route 3": {
         "level": 61,
         "ai": 0,
         "noCh": false,
@@ -195768,7 +196020,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt65 - Plasma Frigate 1": {
+      "Lvl 45 Team Plasma Grunt22 - Plasma Frigate 1": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -195799,7 +196051,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt65 - Plasma Frigate 2": {
+      "Lvl 45 Team Plasma Grunt22 - Plasma Frigate 2": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -195830,7 +196082,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt80 - Plasma Frigate 1": {
+      "Lvl 45 Team Plasma Grunt37 - Plasma Frigate 1": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -195861,7 +196113,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 45 Team Plasma Grunt80 - Plasma Frigate 2": {
+      "Lvl 45 Team Plasma Grunt37 - Plasma Frigate 2": {
         "level": 45,
         "ai": 1,
         "noCh": false,
@@ -195894,7 +196146,7 @@ backup_data = {
       }
     },
     "Goldeen": {
-      "Lvl 61 Fisherman Bruce2 - Route 3": {
+      "Lvl 61 Fisherman Bruce - Route 3": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -195927,7 +196179,7 @@ backup_data = {
       }
     },
     "Magikarp": {
-      "Lvl 58 Fisherman Mack2 - Route 3 1": {
+      "Lvl 58 Fisherman Mack - Route 3 1": {
         "level": 58,
         "ai": 1,
         "noCh": false,
@@ -195958,7 +196210,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Fisherman Mack2 - Route 3 2": {
+      "Lvl 58 Fisherman Mack - Route 3 2": {
         "level": 58,
         "ai": 1,
         "noCh": false,
@@ -195989,7 +196241,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Fisherman Mack2 - Route 3 2 3": {
+      "Lvl 58 Fisherman Mack - Route 3 2 3": {
         "level": 58,
         "ai": 1,
         "noCh": false,
@@ -196020,7 +196272,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 58 Fisherman Mack2 - Route 3 2 3 4": {
+      "Lvl 58 Fisherman Mack - Route 3 2 3 4": {
         "level": 58,
         "ai": 1,
         "noCh": false,
@@ -196053,7 +196305,7 @@ backup_data = {
       }
     },
     "Pidgey": {
-      "Lvl 61 Lass Mali2 - Route 2": {
+      "Lvl 61 Lass Mali - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -196086,7 +196338,7 @@ backup_data = {
       }
     },
     "Starly": {
-      "Lvl 61 Lass Mali2 - Route 2": {
+      "Lvl 61 Lass Mali - Route 2": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -196119,7 +196371,7 @@ backup_data = {
       }
     },
     "Lileep": {
-      "Lvl 62 Backpacker Shane2 - Route 1": {
+      "Lvl 62 Backpacker Shane - Route 1": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -196150,7 +196402,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Seymour4 ": {
+      "Lvl 12 School Kid Seymour2 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -196181,7 +196433,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Cassie5 ": {
+      "Lvl 12 School Kid Cassie3 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -196214,7 +196466,7 @@ backup_data = {
       }
     },
     "Omanyte": {
-      "Lvl 62 Backpacker Jill2 - Route 1": {
+      "Lvl 62 Backpacker Jill - Route 1": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -196247,7 +196499,7 @@ backup_data = {
       }
     },
     "Anorith": {
-      "Lvl 62 Backpacker Jill2 - Route 1": {
+      "Lvl 62 Backpacker Jill - Route 1": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -196280,7 +196532,7 @@ backup_data = {
       }
     },
     "Shieldon": {
-      "Lvl 62 Backpacker Jill2 - Route 1": {
+      "Lvl 62 Backpacker Jill - Route 1": {
         "level": 62,
         "ai": 1,
         "noCh": false,
@@ -196313,7 +196565,7 @@ backup_data = {
       }
     },
     "Sharpedo": {
-      "Lvl 56 Fisherman Bucky2 - Route 17": {
+      "Lvl 56 Fisherman Bucky - Route 17": {
         "level": 56,
         "ai": 15,
         "noCh": false,
@@ -196344,7 +196596,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Swimmer M Wright2 - Route 17": {
+      "Lvl 65 Swimmer M Wright - Route 17": {
         "level": 65,
         "ai": 1,
         "noCh": false,
@@ -196377,7 +196629,7 @@ backup_data = {
       }
     },
     "Tentacool": {
-      "Lvl 65 Swimmer M Jeffery2 - Route 17": {
+      "Lvl 65 Swimmer M Jeffery - Route 17": {
         "level": 65,
         "ai": 1,
         "noCh": false,
@@ -196410,7 +196662,7 @@ backup_data = {
       }
     },
     "Shellder": {
-      "Lvl 65 Swimmer F Ruth2 - Route 17": {
+      "Lvl 65 Swimmer F Ruth - Route 17": {
         "level": 65,
         "ai": 1,
         "noCh": false,
@@ -196443,7 +196695,7 @@ backup_data = {
       }
     },
     "Chinchou": {
-      "Lvl 65 Swimmer F Dara2 - Route 17": {
+      "Lvl 65 Swimmer F Dara - Route 17": {
         "level": 65,
         "ai": 1,
         "noCh": false,
@@ -196476,7 +196728,7 @@ backup_data = {
       }
     },
     "Hippopotas": {
-      "Lvl 64 Hiker Stephen2 - Route 18": {
+      "Lvl 64 Hiker Stephen - Route 18": {
         "level": 64,
         "ai": 1,
         "noCh": false,
@@ -196509,7 +196761,7 @@ backup_data = {
       }
     },
     "Spiritomb": {
-      "Lvl 76 PkMn Trainer Cynthia2 ": {
+      "Lvl 76 PkMn Trainer Cynthia ": {
         "level": 76,
         "ai": 7,
         "noCh": false,
@@ -196542,7 +196794,7 @@ backup_data = {
       }
     },
     "Magmortar": {
-      "Lvl 60 Waitress Jan2 ": {
+      "Lvl 60 Waitress Jan ": {
         "level": 60,
         "ai": 7,
         "noCh": false,
@@ -196573,7 +196825,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Ace Trainer Mary2 - Chargestone Cave": {
+      "Lvl 51 Ace Trainer Mary - Chargestone Cave": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -196604,7 +196856,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 64 Veteran Rosaline2 ": {
+      "Lvl 64 Veteran Rosaline ": {
         "level": 64,
         "ai": 135,
         "noCh": false,
@@ -196635,7 +196887,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Kanto Leader Blaine2 - Abundant Shrine": {
+      "Lvl 61 Kanto Leader Blaine - Abundant Shrine": {
         "level": 61,
         "ai": 15,
         "noCh": true,
@@ -196666,7 +196918,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Ace Trainer Cora4 ": {
+      "Lvl 56 Ace Trainer Cora2 ": {
         "level": 56,
         "ai": 143,
         "noCh": false,
@@ -196699,7 +196951,7 @@ backup_data = {
       }
     },
     "Machoke": {
-      "Lvl 26 Policeman Jeff3 ": {
+      "Lvl 26 Policeman Jeff2 ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -196730,7 +196982,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Worker Patton2 - Twist Mountain": {
+      "Lvl 61 Worker Patton - Twist Mountain": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -196763,7 +197015,7 @@ backup_data = {
       }
     },
     "Ferrothorn": {
-      "Lvl 66 Maid Tammy2 ": {
+      "Lvl 66 Maid Tammy ": {
         "level": 66,
         "ai": 7,
         "noCh": false,
@@ -196794,7 +197046,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cilan2 ": {
+      "Lvl 65 PkMn Trainer Cilan ": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -196825,7 +197077,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Keldeo2 - Clay Tunnel": {
+      "Lvl 62 PkMn Ranger Keldeo - Clay Tunnel": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -196856,7 +197108,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Webster2 - Victory Road": {
+      "Lvl 55 Ace Trainer Webster - Victory Road": {
         "level": 55,
         "ai": 135,
         "noCh": false,
@@ -196887,7 +197139,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 School Kid Janice2 - Chargestone Cave": {
+      "Lvl 49 School Kid Janice - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -196918,7 +197170,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Preschooler Ike2 ": {
+      "Lvl 60 Preschooler Ike ": {
         "level": 60,
         "ai": 128,
         "noCh": false,
@@ -196951,7 +197203,7 @@ backup_data = {
       }
     },
     "Kadabra": {
-      "Lvl 26 Scientist Clarke2 ": {
+      "Lvl 26 Scientist Clarke ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -196982,7 +197234,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Ryan2 - Twist Mountain": {
+      "Lvl 60 Worker Ryan - Twist Mountain": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -197013,7 +197265,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 19 Scientist Bryce2 - Virbank City": {
+      "Lvl 19 Scientist Bryce - Virbank City": {
         "level": 19,
         "ai": 15,
         "noCh": false,
@@ -197046,7 +197298,7 @@ backup_data = {
       }
     },
     "Haunter": {
-      "Lvl 26 Worker Zack2 ": {
+      "Lvl 26 Worker Zack ": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -197079,7 +197331,7 @@ backup_data = {
       }
     },
     "Magmar": {
-      "Lvl 27 Worker Scott2 - Relic Passage": {
+      "Lvl 27 Worker Scott - Relic Passage": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -197110,7 +197362,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Ace Trainer Tom2 - Route 23": {
+      "Lvl 54 Ace Trainer Tom - Route 23": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -197141,7 +197393,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 PkMn Ranger Elle2 - Victory Road": {
+      "Lvl 54 PkMn Ranger Elle - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -197172,7 +197424,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Hoopster Nicolas2 - Village Bridge": {
+      "Lvl 42 Hoopster Nicolas - Village Bridge": {
         "level": 42,
         "ai": 135,
         "noCh": false,
@@ -197203,7 +197455,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Hiker Jameson2 - Chargestone Cave": {
+      "Lvl 49 Hiker Jameson - Chargestone Cave": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -197236,7 +197488,7 @@ backup_data = {
       }
     },
     "Zweilous": {
-      "Lvl 27 Worker Scott2 - Relic Passage": {
+      "Lvl 27 Worker Scott - Relic Passage": {
         "level": 27,
         "ai": 143,
         "noCh": false,
@@ -197267,7 +197519,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Ace Trainer Elmer2 - Victory Road": {
+      "Lvl 55 Ace Trainer Elmer - Victory Road": {
         "level": 55,
         "ai": 7,
         "noCh": false,
@@ -197298,7 +197550,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Veteran Hugo2 - Victory Road": {
+      "Lvl 54 Veteran Hugo - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -197330,103 +197582,8 @@ backup_data = {
         }
       }
     },
-    "Linoone": {
-      "Lvl 55 Cyclist Jeremiah2 ": {
-        "level": 55,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 468,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Silk Scarf",
-        "nature": "Naughty",
-        "moves": [
-          "Extreme Speed",
-          "Double-Edge",
-          "Aqua Tail",
-          "Metronome"
-        ],
-        "sub_index": 2,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/cyclist.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 Ace Trainer Kathrine2 - Pinwheel Forest": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 636,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Lonely",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/acetrainerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 24 Team Plasma Grunt103 ": {
-        "level": 24,
-        "ai": 15,
-        "noCh": true,
-        "tr_id": 690,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Lum Berry",
-        "nature": "Gentle",
-        "moves": [
-          "Headbutt",
-          "Fury Swipes",
-          "Covet",
-          "Sand Attack"
-        ],
-        "sub_index": 2,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Blastoise": {
-      "Lvl 49 PkMn Trainer Rival36 - Clay Tunnel - Starter 3": {
+      "Lvl 49 PkMn Trainer Rival15 - Clay Tunnel - Starter 3": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -197457,7 +197614,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Tobias2 - Relic Passage": {
+      "Lvl 48 Hiker Tobias - Relic Passage": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -197490,7 +197647,7 @@ backup_data = {
       }
     },
     "Camerupt": {
-      "Lvl 49 PkMn Trainer Rival36 - Clay Tunnel - Starter 3": {
+      "Lvl 49 PkMn Trainer Rival15 - Clay Tunnel - Starter 3": {
         "level": 49,
         "ai": 15,
         "noCh": false,
@@ -197521,7 +197678,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk M Clemens2 ": {
+      "Lvl 27 Clerk M Clemens ": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -197552,7 +197709,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Hoenn Leader Flannery2 ": {
+      "Lvl 57 Hoenn Leader Flannery ": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -197583,7 +197740,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Backpacker Eileen2 - Relic Passage": {
+      "Lvl 48 Backpacker Eileen - Relic Passage": {
         "level": 48,
         "ai": 143,
         "noCh": false,
@@ -197614,7 +197771,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 PkMn Ranger Elle2 - Victory Road": {
+      "Lvl 54 PkMn Ranger Elle - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -197645,7 +197802,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 35 Backpacker Sam2 - Desert Resort": {
+      "Lvl 35 Backpacker Sam - Desert Resort": {
         "level": 35,
         "ai": 143,
         "noCh": false,
@@ -197676,7 +197833,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Jameson2 - Chargestone Cave": {
+      "Lvl 48 Hiker Jameson - Chargestone Cave": {
         "level": 48,
         "ai": 15,
         "noCh": false,
@@ -197707,7 +197864,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Ace Trainer Ray4 - Reversal Mountain": {
+      "Lvl 39 Ace Trainer Ray2 - Reversal Mountain": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -197740,7 +197897,7 @@ backup_data = {
       }
     },
     "Cobalion": {
-      "Lvl 58 Guardian of Unova Cobalion2 ": {
+      "Lvl 58 Guardian of Unova Cobalion ": {
         "level": 58,
         "ai": 15,
         "noCh": false,
@@ -197773,7 +197930,7 @@ backup_data = {
       }
     },
     "Bibarel": {
-      "Lvl 26 Worker Cliff2 - Twist Mountain": {
+      "Lvl 26 Worker Cliff - Twist Mountain": {
         "level": 26,
         "ai": 143,
         "noCh": false,
@@ -197806,7 +197963,7 @@ backup_data = {
       }
     },
     "Slowking": {
-      "Lvl 65 PkMn Trainer Cress2 ": {
+      "Lvl 65 PkMn Trainer Cress ": {
         "level": 65,
         "ai": 135,
         "noCh": false,
@@ -197837,7 +197994,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Psychic Low2 - Relic Castle": {
+      "Lvl 36 Psychic Low - Relic Castle": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -197870,7 +198027,7 @@ backup_data = {
       }
     },
     "Accelgor": {
-      "Lvl 51 Team Plasma Shadow22 ": {
+      "Lvl 51 Team Plasma Shadow10 ": {
         "level": 51,
         "ai": 7,
         "noCh": false,
@@ -197901,7 +198058,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Elaine2 - Moor of Icirrus": {
+      "Lvl 62 PkMn Ranger Elaine - Moor of Icirrus": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -197932,7 +198089,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 67 Team Plasma Shadow27 ": {
+      "Lvl 67 Team Plasma Shadow15 ": {
         "level": 67,
         "ai": 135,
         "noCh": false,
@@ -197965,7 +198122,7 @@ backup_data = {
       }
     },
     "Charmeleon": {
-      "Lvl 27 Clerk M Clemens2 ": {
+      "Lvl 27 Clerk M Clemens ": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -197996,7 +198153,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 PkMn Trainer Rival45 - Starter 3": {
+      "Lvl 17 PkMn Trainer Rival18 - Starter 3": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -198029,7 +198186,7 @@ backup_data = {
       }
     },
     "Zapdos": {
-      "Lvl 80 Boss Trainer Jariel2 ": {
+      "Lvl 80 Boss Trainer Jariel ": {
         "level": 80,
         "ai": 7,
         "noCh": false,
@@ -198062,7 +198219,7 @@ backup_data = {
       }
     },
     "Cresselia": {
-      "Lvl 80 Boss Trainer Jariel2 ": {
+      "Lvl 80 Boss Trainer Jariel ": {
         "level": 80,
         "ai": 7,
         "noCh": false,
@@ -198095,7 +198252,7 @@ backup_data = {
       }
     },
     "Suicune": {
-      "Lvl 80 Boss Trainer Janna2 ": {
+      "Lvl 80 Boss Trainer Janna ": {
         "level": 80,
         "ai": 7,
         "noCh": false,
@@ -198128,7 +198285,7 @@ backup_data = {
       }
     },
     "Heatran": {
-      "Lvl 80 Boss Trainer Janna2 ": {
+      "Lvl 80 Boss Trainer Janna ": {
         "level": 80,
         "ai": 7,
         "noCh": false,
@@ -198161,7 +198318,7 @@ backup_data = {
       }
     },
     "Latios": {
-      "Lvl 80 Boss Trainer Janna2 ": {
+      "Lvl 80 Boss Trainer Janna ": {
         "level": 80,
         "ai": 7,
         "noCh": false,
@@ -198194,7 +198351,7 @@ backup_data = {
       }
     },
     "Victini": {
-      "Lvl 59 Alder's partner Victini2 - Clay Tunnel": {
+      "Lvl 59 Alder's partner Victini - Clay Tunnel": {
         "level": 59,
         "ai": 143,
         "noCh": false,
@@ -198227,7 +198384,7 @@ backup_data = {
       }
     },
     "Vespiquen": {
-      "Lvl 60 Guardian of Unova Virizion2 - Clay Tunnel": {
+      "Lvl 60 Guardian of Unova Virizion - Clay Tunnel": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -198258,7 +198415,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 PkMn Ranger Louis2 - Chargestone Cave": {
+      "Lvl 50 PkMn Ranger Louis - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -198289,7 +198446,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 Harlequin Jack2 ": {
+      "Lvl 28 Harlequin Jack ": {
         "level": 28,
         "ai": 143,
         "noCh": false,
@@ -198322,7 +198479,7 @@ backup_data = {
       }
     },
     "Shaymin": {
-      "Lvl 60 Guardian of Unova Virizion2 - Clay Tunnel": {
+      "Lvl 60 Guardian of Unova Virizion - Clay Tunnel": {
         "level": 60,
         "ai": 15,
         "noCh": false,
@@ -198355,7 +198512,7 @@ backup_data = {
       }
     },
     "Virizion": {
-      "Lvl 66 Guardian of Unova Virizion2 - Clay Tunnel": {
+      "Lvl 66 Guardian of Unova Virizion - Clay Tunnel": {
         "level": 66,
         "ai": 15,
         "noCh": false,
@@ -198388,7 +198545,7 @@ backup_data = {
       }
     },
     "Grumpig": {
-      "Lvl 38 PkMn Ranger Lewis3 - Reversal Mountain": {
+      "Lvl 38 PkMn Ranger Lewis - Reversal Mountain": {
         "level": 38,
         "ai": 7,
         "noCh": false,
@@ -198419,7 +198576,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Ace Trainer Cora2 - Reversal Mountain": {
+      "Lvl 39 Ace Trainer Cora - Reversal Mountain": {
         "level": 39,
         "ai": 135,
         "noCh": false,
@@ -198450,7 +198607,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Scientist Lumi2 - Chargestone Cave": {
+      "Lvl 50 Scientist Lumi - Chargestone Cave": {
         "level": 50,
         "ai": 15,
         "noCh": false,
@@ -198481,7 +198638,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Gentleman Daniel2 - Celestial Tower": {
+      "Lvl 51 Gentleman Daniel - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -198512,7 +198669,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Psychic Future2 - Desert Resort": {
+      "Lvl 36 Psychic Future - Desert Resort": {
         "level": 36,
         "ai": 15,
         "noCh": false,
@@ -198543,7 +198700,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 57 Ace Trainer Cora4 ": {
+      "Lvl 57 Ace Trainer Cora2 ": {
         "level": 57,
         "ai": 143,
         "noCh": false,
@@ -198576,7 +198733,7 @@ backup_data = {
       }
     },
     "Abomasnow": {
-      "Lvl 42 Worker Victor2 - Route 6": {
+      "Lvl 42 Worker Victor - Route 6": {
         "level": 42,
         "ai": 15,
         "noCh": false,
@@ -198607,7 +198764,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Worker Patton2 - Twist Mountain": {
+      "Lvl 61 Worker Patton - Twist Mountain": {
         "level": 61,
         "ai": 1,
         "noCh": false,
@@ -198638,7 +198795,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 PkMn Trainer N8 ": {
+      "Lvl 77 PkMn Trainer N4 ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -198671,7 +198828,7 @@ backup_data = {
       }
     },
     "Rhyperior": {
-      "Lvl 63 Veteran Julia2 - Twist Mountain": {
+      "Lvl 63 Veteran Julia - Twist Mountain": {
         "level": 63,
         "ai": 7,
         "noCh": false,
@@ -198702,7 +198859,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N7 ": {
+      "Lvl 75 PkMn Trainer N3 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -198734,72 +198891,8 @@ backup_data = {
         }
       }
     },
-    "Cherrim": {
-      "Lvl 61 Sinnoh Leader Gardenia4 ": {
-        "level": 61,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 538,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Quirky",
-        "moves": [
-          "Solar Blade",
-          "Weather Crash",
-          "Giga Impact",
-          "Growth"
-        ],
-        "sub_index": 0,
-        "ability": "Flower Gift",
-        "sprite": "trainer_sprites/sinnohleader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 39 Kanto Leader Erika2 - Lostlorn Forest": {
-        "level": 39,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 767,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Coba Berry",
-        "nature": "Bold",
-        "moves": [
-          "Seed Bomb",
-          "Blaze Kick",
-          "Slam",
-          "Quick Attack"
-        ],
-        "sub_index": 2,
-        "ability": "Flower Gift",
-        "sprite": "trainer_sprites/erika.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Turtwig": {
-      "Lvl 61 Sinnoh Leader Gardenia4 ": {
+      "Lvl 61 Sinnoh Leader Gardenia2 ": {
         "level": 61,
         "ai": 15,
         "noCh": false,
@@ -198818,8 +198911,8 @@ backup_data = {
         "nature": "Adamant",
         "moves": [
           "Giga Impact",
-          "Stone Edge",
-          "Earthquake",
+          "Rock Slide",
+          "High Horsepower",
           "Shell Smash"
         ],
         "sub_index": 2,
@@ -198832,7 +198925,7 @@ backup_data = {
       }
     },
     "Sawsbuck": {
-      "Lvl 50 PkMn Ranger Briana2 - Chargestone Cave": {
+      "Lvl 50 PkMn Ranger Briana - Chargestone Cave": {
         "level": 50,
         "ai": 143,
         "noCh": false,
@@ -198863,7 +198956,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 54 Backpacker Mae2 - Victory Road": {
+      "Lvl 54 Backpacker Mae - Victory Road": {
         "level": 54,
         "ai": 1,
         "noCh": false,
@@ -198894,7 +198987,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 40 Ace Trainer Eve2 ": {
+      "Lvl 40 Ace Trainer Eve ": {
         "level": 40,
         "ai": 7,
         "noCh": false,
@@ -198927,7 +199020,7 @@ backup_data = {
       }
     },
     "Shedinja": {
-      "Lvl 51 Gentleman Daniel2 - Celestial Tower": {
+      "Lvl 51 Gentleman Daniel - Celestial Tower": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -198960,7 +199053,7 @@ backup_data = {
       }
     },
     "Persian": {
-      "Lvl 52 Socialite Grace2 - Celestial Tower": {
+      "Lvl 52 Socialite Grace - Celestial Tower": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -198993,7 +199086,7 @@ backup_data = {
       }
     },
     "Ninetales": {
-      "Lvl 51 Psychic Micki2 - Celestial Tower": {
+      "Lvl 51 Psychic Micki - Celestial Tower": {
         "level": 51,
         "ai": 143,
         "noCh": false,
@@ -199024,7 +199117,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 39 Kanto Leader Erika2 - Lostlorn Forest": {
+      "Lvl 39 Kanto Leader Erika - Lostlorn Forest": {
         "level": 39,
         "ai": 15,
         "noCh": false,
@@ -199055,7 +199148,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 77 PkMn Trainer N6 ": {
+      "Lvl 77 PkMn Trainer N2 ": {
         "level": 77,
         "ai": 7,
         "noCh": false,
@@ -199088,7 +199181,7 @@ backup_data = {
       }
     },
     "Porygon": {
-      "Lvl 19 Scientist Bryce2 - Virbank City": {
+      "Lvl 19 Scientist Bryce - Virbank City": {
         "level": 19,
         "ai": 15,
         "noCh": false,
@@ -199121,7 +199214,7 @@ backup_data = {
       }
     },
     "Wartortle": {
-      "Lvl 17 PkMn Trainer Rival43 - Starter 1": {
+      "Lvl 17 PkMn Trainer Rival16 - Starter 1": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -199154,7 +199247,7 @@ backup_data = {
       }
     },
     "Ponyta": {
-      "Lvl 17 PkMn Trainer Rival43 - Starter 1": {
+      "Lvl 17 PkMn Trainer Rival16 - Starter 1": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -199187,7 +199280,7 @@ backup_data = {
       }
     },
     "Servine": {
-      "Lvl 19 PkMn Trainer Rival43 - Starter 1": {
+      "Lvl 19 PkMn Trainer Rival16 - Starter 1": {
         "level": 19,
         "ai": 15,
         "noCh": false,
@@ -199218,7 +199311,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 PkMn Trainer Rival49 - Starter 3": {
+      "Lvl 28 PkMn Trainer Rival21 - Starter 3": {
         "level": 28,
         "ai": 135,
         "noCh": false,
@@ -199251,7 +199344,7 @@ backup_data = {
       }
     },
     "Ivysaur": {
-      "Lvl 17 PkMn Trainer Rival44 - Starter 2": {
+      "Lvl 17 PkMn Trainer Rival17 - Starter 2": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -199284,7 +199377,7 @@ backup_data = {
       }
     },
     "Pignite": {
-      "Lvl 19 PkMn Trainer Rival44 - Starter 2": {
+      "Lvl 19 PkMn Trainer Rival17 - Starter 2": {
         "level": 19,
         "ai": 15,
         "noCh": false,
@@ -199315,7 +199408,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 PkMn Trainer Rival46 - Starter 1": {
+      "Lvl 28 PkMn Trainer Rival19 - Starter 1": {
         "level": 28,
         "ai": 135,
         "noCh": false,
@@ -199348,7 +199441,7 @@ backup_data = {
       }
     },
     "Dewott": {
-      "Lvl 19 PkMn Trainer Rival45 - Starter 3": {
+      "Lvl 19 PkMn Trainer Rival18 - Starter 3": {
         "level": 19,
         "ai": 15,
         "noCh": false,
@@ -199379,7 +199472,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 28 PkMn Trainer Rival47 - Starter 2": {
+      "Lvl 28 PkMn Trainer Rival20 - Starter 2": {
         "level": 28,
         "ai": 135,
         "noCh": false,
@@ -199412,7 +199505,7 @@ backup_data = {
       }
     },
     "Swablu": {
-      "Lvl 38 Twins Rae & Ula2 1": {
+      "Lvl 38 Twins Rae & Ula 1": {
         "level": 38,
         "ai": 128,
         "noCh": false,
@@ -199443,7 +199536,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 Twins Rae & Ula2 2": {
+      "Lvl 38 Twins Rae & Ula 2": {
         "level": 38,
         "ai": 128,
         "noCh": false,
@@ -199476,7 +199569,7 @@ backup_data = {
       }
     },
     "Quagsire": {
-      "Lvl 29 Scientist Lumina2 - Relic Passage": {
+      "Lvl 29 Scientist Lumina - Relic Passage": {
         "level": 29,
         "ai": 15,
         "noCh": false,
@@ -199509,7 +199602,7 @@ backup_data = {
       }
     },
     "Croagunk": {
-      "Lvl 60 Youngster Astor2 - Route 8": {
+      "Lvl 60 Youngster Astor - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -199540,7 +199633,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Backpacker Talon2 - Route 15": {
+      "Lvl 60 Backpacker Talon - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -199571,7 +199664,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 Kanto Leader Brock2 - Pledge Grove": {
+      "Lvl 13 Kanto Leader Brock - Pledge Grove": {
         "level": 13,
         "ai": 15,
         "noCh": false,
@@ -199604,7 +199697,7 @@ backup_data = {
       }
     },
     "Shelmet": {
-      "Lvl 60 Lass Mai2 - Route 8": {
+      "Lvl 60 Lass Mai - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -199637,7 +199730,7 @@ backup_data = {
       }
     },
     "Gastrodon": {
-      "Lvl 60 Lass Mai2 - Route 8": {
+      "Lvl 60 Lass Mai - Route 8": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -199668,7 +199761,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 75 PkMn Trainer N7 ": {
+      "Lvl 75 PkMn Trainer N3 ": {
         "level": 75,
         "ai": 7,
         "noCh": false,
@@ -199701,7 +199794,7 @@ backup_data = {
       }
     },
     "Poliwhirl": {
-      "Lvl 60 Fisherman Arnold2 - Moor of Icirrus": {
+      "Lvl 60 Fisherman Arnold - Moor of Icirrus": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -199732,7 +199825,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 20 Kanto Leader Misty2 - Virbank City": {
+      "Lvl 20 Kanto Leader Misty - Virbank City": {
         "level": 20,
         "ai": 143,
         "noCh": true,
@@ -199765,7 +199858,7 @@ backup_data = {
       }
     },
     "Pansage": {
-      "Lvl 14 GAME FREAK Morimoto3 ": {
+      "Lvl 14 GAME FREAK Morimoto2 ": {
         "level": 14,
         "ai": 7,
         "noCh": false,
@@ -199796,7 +199889,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Seymour4 ": {
+      "Lvl 12 School Kid Seymour2 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -199827,7 +199920,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Cassie5 ": {
+      "Lvl 12 School Kid Cassie3 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -199860,7 +199953,7 @@ backup_data = {
       }
     },
     "Sewaddle": {
-      "Lvl 16 Lass Sibyl3 ": {
+      "Lvl 16 Lass Sibyl2 ": {
         "level": 16,
         "ai": 1,
         "noCh": false,
@@ -199893,7 +199986,7 @@ backup_data = {
       }
     },
     "Lillipup": {
-      "Lvl 17 Gentleman Robert3 ": {
+      "Lvl 17 Gentleman Robert2 ": {
         "level": 17,
         "ai": 1,
         "noCh": false,
@@ -199926,7 +200019,7 @@ backup_data = {
       }
     },
     "Shuppet": {
-      "Lvl 11 School Kid Keston2 - Pinwheel Forest": {
+      "Lvl 11 School Kid Keston - Pinwheel Forest": {
         "level": 11,
         "ai": 143,
         "noCh": false,
@@ -199959,7 +200052,7 @@ backup_data = {
       }
     },
     "Pineco": {
-      "Lvl 11 School Kid Keston2 - Pinwheel Forest": {
+      "Lvl 11 School Kid Keston - Pinwheel Forest": {
         "level": 11,
         "ai": 143,
         "noCh": false,
@@ -199990,7 +200083,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Preschooler Ike2 ": {
+      "Lvl 60 Preschooler Ike ": {
         "level": 60,
         "ai": 128,
         "noCh": false,
@@ -200023,7 +200116,7 @@ backup_data = {
       }
     },
     "Electrike": {
-      "Lvl 12 School Kid Keston2 - Pinwheel Forest": {
+      "Lvl 12 School Kid Keston - Pinwheel Forest": {
         "level": 12,
         "ai": 143,
         "noCh": false,
@@ -200054,7 +200147,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Ranger Ralph2 ": {
+      "Lvl 62 PkMn Ranger Ralph ": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -200087,7 +200180,7 @@ backup_data = {
       }
     },
     "Tyrogue": {
-      "Lvl 61 Black Belt Kentaro2 - Pinwheel Forest": {
+      "Lvl 61 Black Belt Kentaro - Pinwheel Forest": {
         "level": 61,
         "ai": 3,
         "noCh": false,
@@ -200118,7 +200211,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 61 Battle Girl Lee2 - Pinwheel Forest": {
+      "Lvl 61 Battle Girl Lee - Pinwheel Forest": {
         "level": 61,
         "ai": 3,
         "noCh": false,
@@ -200151,7 +200244,7 @@ backup_data = {
       }
     },
     "Makuhita": {
-      "Lvl 61 Black Belt Kentaro2 - Pinwheel Forest": {
+      "Lvl 61 Black Belt Kentaro - Pinwheel Forest": {
         "level": 61,
         "ai": 3,
         "noCh": false,
@@ -200184,7 +200277,7 @@ backup_data = {
       }
     },
     "Machop": {
-      "Lvl 61 Battle Girl Lee2 - Pinwheel Forest": {
+      "Lvl 61 Battle Girl Lee - Pinwheel Forest": {
         "level": 61,
         "ai": 3,
         "noCh": false,
@@ -200217,7 +200310,7 @@ backup_data = {
       }
     },
     "Aron": {
-      "Lvl 17 Youngster Keita2 - Virbank Complex": {
+      "Lvl 17 Youngster Keita - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -200250,7 +200343,7 @@ backup_data = {
       }
     },
     "Trapinch": {
-      "Lvl 17 Youngster Keita2 - Virbank Complex": {
+      "Lvl 17 Youngster Keita - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -200283,7 +200376,7 @@ backup_data = {
       }
     },
     "Burmy": {
-      "Lvl 59 Preschooler Jose2 ": {
+      "Lvl 59 Preschooler Jose ": {
         "level": 59,
         "ai": 0,
         "noCh": false,
@@ -200316,7 +200409,7 @@ backup_data = {
       }
     },
     "Paras": {
-      "Lvl 59 Preschooler Jose2 ": {
+      "Lvl 59 Preschooler Jose ": {
         "level": 59,
         "ai": 0,
         "noCh": false,
@@ -200349,7 +200442,7 @@ backup_data = {
       }
     },
     "Cacnea": {
-      "Lvl 60 Backpacker Talon2 - Route 15": {
+      "Lvl 60 Backpacker Talon - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -200380,7 +200473,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 27 Clerk M Gilligan2 - Castelia City": {
+      "Lvl 27 Clerk M Gilligan - Castelia City": {
         "level": 27,
         "ai": 15,
         "noCh": false,
@@ -200413,7 +200506,7 @@ backup_data = {
       }
     },
     "Poochyena": {
-      "Lvl 60 Backpacker Corin2 - Route 15": {
+      "Lvl 60 Backpacker Corin - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -200446,7 +200539,7 @@ backup_data = {
       }
     },
     "Cubone": {
-      "Lvl 60 Backpacker Corin2 - Route 15": {
+      "Lvl 60 Backpacker Corin - Route 15": {
         "level": 60,
         "ai": 1,
         "noCh": false,
@@ -200479,7 +200572,7 @@ backup_data = {
       }
     },
     "Electabuzz": {
-      "Lvl 54 PkMn Ranger Eddie2 - Victory Road": {
+      "Lvl 54 PkMn Ranger Eddie - Victory Road": {
         "level": 54,
         "ai": 7,
         "noCh": false,
@@ -200510,7 +200603,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Hoopster Derrick2 - Village Bridge": {
+      "Lvl 42 Hoopster Derrick - Village Bridge": {
         "level": 42,
         "ai": 135,
         "noCh": false,
@@ -200541,7 +200634,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 30 Kanto Leader Lt. Surge2 - Liberty Garden": {
+      "Lvl 30 Kanto Leader Lt. Surge - Liberty Garden": {
         "level": 30,
         "ai": 15,
         "noCh": true,
@@ -200574,7 +200667,7 @@ backup_data = {
       }
     },
     "Vanillish": {
-      "Lvl 27 Clerk F Britney2 - Castelia City": {
+      "Lvl 27 Clerk F Britney - Castelia City": {
         "level": 27,
         "ai": 7,
         "noCh": false,
@@ -200607,7 +200700,7 @@ backup_data = {
       }
     },
     "Riolu": {
-      "Lvl 15 Black Belt Rodrigo2 ": {
+      "Lvl 15 Black Belt Rodrigo ": {
         "level": 15,
         "ai": 3,
         "noCh": false,
@@ -200638,7 +200731,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 15 Black Belt Grigor2 ": {
+      "Lvl 15 Black Belt Grigor ": {
         "level": 15,
         "ai": 3,
         "noCh": false,
@@ -200671,7 +200764,7 @@ backup_data = {
       }
     },
     "Ledian": {
-      "Lvl 29 Harlequin Anders2 - Castelia City": {
+      "Lvl 29 Harlequin Anders - Castelia City": {
         "level": 29,
         "ai": 15,
         "noCh": false,
@@ -200704,7 +200797,7 @@ backup_data = {
       }
     },
     "Pidgeotto": {
-      "Lvl 18 Lass Daya2 - Virbank Complex": {
+      "Lvl 18 Lass Daya - Virbank Complex": {
         "level": 18,
         "ai": 143,
         "noCh": false,
@@ -200737,7 +200830,7 @@ backup_data = {
       }
     },
     "Bayleef": {
-      "Lvl 18 Lass Daya2 - Virbank Complex": {
+      "Lvl 18 Lass Daya - Virbank Complex": {
         "level": 18,
         "ai": 143,
         "noCh": false,
@@ -200770,7 +200863,7 @@ backup_data = {
       }
     },
     "Nidorina": {
-      "Lvl 18 Lass Daya2 - Virbank Complex": {
+      "Lvl 18 Lass Daya - Virbank Complex": {
         "level": 18,
         "ai": 143,
         "noCh": false,
@@ -200803,7 +200896,7 @@ backup_data = {
       }
     },
     "Flaaffy": {
-      "Lvl 19 Lass Daya2 - Virbank Complex": {
+      "Lvl 19 Lass Daya - Virbank Complex": {
         "level": 19,
         "ai": 143,
         "noCh": false,
@@ -200834,7 +200927,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Beauty December2 ": {
+      "Lvl 24 Beauty December ": {
         "level": 24,
         "ai": 1,
         "noCh": false,
@@ -200867,7 +200960,7 @@ backup_data = {
       }
     },
     "Gothorita": {
-      "Lvl 19 Lass Daya2 - Virbank Complex": {
+      "Lvl 19 Lass Daya - Virbank Complex": {
         "level": 19,
         "ai": 143,
         "noCh": false,
@@ -200900,7 +200993,7 @@ backup_data = {
       }
     },
     "Grovyle": {
-      "Lvl 17 Youngster Masahiro2 - Virbank Complex": {
+      "Lvl 17 Youngster Masahiro - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -200933,7 +201026,7 @@ backup_data = {
       }
     },
     "Luxio": {
-      "Lvl 17 Youngster Masahiro2 - Virbank Complex": {
+      "Lvl 17 Youngster Masahiro - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -200966,7 +201059,7 @@ backup_data = {
       }
     },
     "Monferno": {
-      "Lvl 17 Youngster Waylon2 - Virbank Complex": {
+      "Lvl 17 Youngster Waylon - Virbank Complex": {
         "level": 17,
         "ai": 15,
         "noCh": false,
@@ -200999,7 +201092,7 @@ backup_data = {
       }
     },
     "Shellos-East": {
-      "Lvl 12 School Kid Seymour4 ": {
+      "Lvl 12 School Kid Seymour2 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -201030,7 +201123,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 12 School Kid Cassie5 ": {
+      "Lvl 12 School Kid Cassie3 ": {
         "level": 12,
         "ai": 15,
         "noCh": false,
@@ -201063,7 +201156,7 @@ backup_data = {
       }
     },
     "Happiny": {
-      "Lvl 13 Kanto Leader Brock2 - Pledge Grove": {
+      "Lvl 13 Kanto Leader Brock - Pledge Grove": {
         "level": 13,
         "ai": 15,
         "noCh": false,
@@ -201096,7 +201189,7 @@ backup_data = {
       }
     },
     "Togetic": {
-      "Lvl 20 Kanto Leader Misty2 - Virbank City": {
+      "Lvl 20 Kanto Leader Misty - Virbank City": {
         "level": 20,
         "ai": 143,
         "noCh": true,
@@ -201128,8 +201221,41 @@ backup_data = {
         }
       }
     },
+    "Cherrim": {
+      "Lvl 39 Kanto Leader Erika - Lostlorn Forest": {
+        "level": 39,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 767,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Coba Berry",
+        "nature": "Bold",
+        "moves": [
+          "Seed Bomb",
+          "Blaze Kick",
+          "Slam",
+          "Quick Attack"
+        ],
+        "sub_index": 2,
+        "ability": "Flower Gift",
+        "sprite": "trainer_sprites/erika.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Cascoon": {
-      "Lvl 60 Youngster Henley2 ": {
+      "Lvl 60 Youngster Henley ": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -201162,7 +201288,7 @@ backup_data = {
       }
     },
     "Nidoran F": {
-      "Lvl 60 Lass Helia2 ": {
+      "Lvl 60 Lass Helia ": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -201195,7 +201321,7 @@ backup_data = {
       }
     },
     "Nidoran M": {
-      "Lvl 60 Lass Helia2 ": {
+      "Lvl 60 Lass Helia ": {
         "level": 60,
         "ai": 129,
         "noCh": false,
@@ -201228,7 +201354,7 @@ backup_data = {
       }
     }
   },
-    "order": {
+  "order": {
     "162": {
       "id": 162,
       "next": 163,
