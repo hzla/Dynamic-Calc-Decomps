@@ -331,6 +331,20 @@ function checkItem(pokemon, magicRoomActive) {
     }
 }
 exports.checkItem = checkItem;
+function canNeutralizingGasSuppress(pokemon) {
+    return !!(pokemon && pokemon.ability && !pokemon.hasAbility('Neutralizing Gas'));
+}
+function checkNeutralizingGas(attacker, defender) {
+    var attackerGasActive = attacker.hasAbility('Neutralizing Gas');
+    var defenderGasActive = defender.hasAbility('Neutralizing Gas');
+    if (attackerGasActive && canNeutralizingGasSuppress(defender)) {
+        defender.ability = '';
+    }
+    if (defenderGasActive && canNeutralizingGasSuppress(attacker)) {
+        attacker.ability = '';
+    }
+}
+exports.checkNeutralizingGas = checkNeutralizingGas;
 function checkWonderRoom(pokemon, wonderRoomActive) {
     var _a;
     if (wonderRoomActive) {

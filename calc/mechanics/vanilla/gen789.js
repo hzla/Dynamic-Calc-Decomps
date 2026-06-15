@@ -21,6 +21,7 @@ function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
             util: util_2,
             state: {}
         };
+        (0, util_2.checkNeutralizingGas)(attacker, defender);
         (0, util_2.checkAirLock)(attacker, field);
         (0, util_2.checkAirLock)(defender, field);
         (0, util_2.checkTeraformZero)(attacker, field);
