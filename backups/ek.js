@@ -55610,3 +55610,2207 @@ backup_data = {
         }
     }
 }
+
+// BEGIN EK PARTY ORDER SUB_INDEX PATCH
+// Generated from pokemon-damage-calc/src/js/data/party_order/hacks/ek.js.
+// Adds in-game party slots to the Emerald Kaizo backup data for switch-in preview tie-breaks.
+;(function applyEmeraldKaizoPartyOrderSubIndexes() {
+    var subIndexes = {
+    "Sentret": {
+        "Lvl 6 Youngster Calvin ": 0
+    },
+    "Poochyena": {
+        "Lvl 6 Youngster Calvin ": 1
+    },
+    "Zigzagoon": {
+        "Lvl 6 Youngster Calvin ": 2
+    },
+    "Caterpie": {
+        "Lvl 5 Bug Catcher Rick ": 0
+    },
+    "Wurmple": {
+        "Lvl 5 Bug Catcher Rick ": 1,
+        "Lvl 7 Bug Catcher Allen ": 1,
+        "Lvl 100 Bug Maniac Brent ": 0
+    },
+    "Kakuna": {
+        "Lvl 5 Bug Catcher Rick ": 2,
+        "Lvl 100 Bug Catcher Doug ": 0
+    },
+    "Cascoon": {
+        "Lvl 5 Bug Catcher Rick ": 3,
+        "Lvl 100 Bug Maniac Donald ": 0
+    },
+    "Igglybuff": {
+        "Lvl 6 Lass Tiana ": 0
+    },
+    "Sunkern": {
+        "Lvl 6 Lass Tiana ": 1
+    },
+    "Togepi": {
+        "Lvl 5 Lass Tiana ": 2
+    },
+    "Weedle": {
+        "Lvl 7 Bug Catcher Allen ": 0,
+        "Lvl 100 Bug Catcher Kent ": 0
+    },
+    "Metapod": {
+        "Lvl 7 Bug Catcher Allen ": 2,
+        "Lvl 100 Bug Catcher Greg ": 0
+    },
+    "Silcoon": {
+        "Lvl 7 Bug Catcher Allen ": 3,
+        "Lvl 100 Bug Maniac Taylor ": 0
+    },
+    "Pidgey": {
+        "Lvl 7 Bird Keeper Billy ": 0
+    },
+    "Wingull": {
+        "Lvl 7 Bird Keeper Billy ": 1
+    },
+    "Taillow": {
+        "Lvl 7 Bird Keeper Billy ": 2
+    },
+    "Magikarp": {
+        "Lvl 9 Fisherman Darian ": 0,
+        "Lvl 100 Fisherman Chris ": 0
+    },
+    "Feebas": {
+        "Lvl 8 Fisherman Darian ": 1,
+        "Lvl 100 Fisherman Chris ": 2
+    },
+    "Goldeen": {
+        "Lvl 7 Fisherman Darian ": 2
+    },
+    "Luvdisc": {
+        "Lvl 7 Fisherman Darian ": 3,
+        "Lvl 16 Tuber Simon ": 0,
+        "Lvl 24 Fisherman Dale ": 0,
+        "Lvl 100 Swimmerm Declan ": 0,
+        "Lvl 100 Swimmerf Katie ": 0,
+        "Lvl 100 Swimmerf Laurel ": 0
+    },
+    "Cleffa": {
+        "Lvl 8 Lady Cindy ": 0
+    },
+    "Pichu": {
+        "Lvl 8 Lady Cindy ": 1
+    },
+    "Azurill": {
+        "Lvl 7 Lady Cindy ": 2,
+        "Lvl 16 Tuber Hailey ": 0
+    },
+    "Spinarak": {
+        "Lvl 8 Bug Maniac Lyle ": 0
+    },
+    "Ledyba": {
+        "Lvl 8 Bug Maniac Lyle ": 1
+    },
+    "Venonat": {
+        "Lvl 8 Bug Maniac Lyle ": 2
+    },
+    "Paras": {
+        "Lvl 9 Bug Catcher James ": 0
+    },
+    "Surskit": {
+        "Lvl 8 Bug Catcher James ": 1
+    },
+    "Nincada": {
+        "Lvl 9 Bug Catcher James ": 2
+    },
+    "Magnemite": {
+        "Lvl 8 |Petalburg Woods| Magma Grunt ": 0,
+        "Lvl 20 Triathlete Alyssa ": 1,
+        "Lvl 24 Triathlete Benjamin ": 0,
+        "Lvl 21 Triathlete Dylan ": 2
+    },
+    "Koffing": {
+        "Lvl 8 |Petalburg Woods| Magma Grunt ": 1,
+        "Lvl 27 Collector Shawn ": 0,
+        "Lvl 34 Ninja Boy Lung ": 1
+    },
+    "Houndour": {
+        "Lvl 9 |Petalburg Woods| Magma Grunt ": 2
+    },
+    "Duskull": {
+        "Lvl 8 |Petalburg Woods| Magma Grunt ": 3,
+        "Lvl 30 Ruin Maniac Bryan ": 2
+    },
+    "Bagon": {
+        "Lvl 8 |Petalburg Woods| Magma Grunt ": 4,
+        "Lvl 17 Dragon Tamer Rhett ": 0
+    },
+    "Snubbull": {
+        "Lvl 8 Rich Boy Winston ": 0
+    },
+    "Growlithe": {
+        "Lvl 8 Rich Boy Winston ": 1,
+        "Lvl 15 Sailor Huey ": 3
+    },
+    "Electrike": {
+        "Lvl 8 Rich Boy Winston ": 2,
+        "Lvl 15 Sailor Huey ": 1
+    },
+    "Skitty": {
+        "Lvl 9 Lass Haley ": 0
+    },
+    "Oddish": {
+        "Lvl 9 Lass Haley ": 1
+    },
+    "Vulpix": {
+        "Lvl 9 Lass Haley ": 2
+    },
+    "Smeargle": {
+        "Lvl 8 |1| Twins Gina & Mia ": 0,
+        "Lvl 8 |2| Twins Gina & Mia ": 1,
+        "Lvl 30 |Route 112| Magma Grunt #4 ": 3,
+        "Lvl 35 |1| Twins Tori & Tia ": 0,
+        "Lvl 35 |2| Twins Tori & Tia ": 1,
+        "Lvl 36 |Route 114| Magma Grunt #7 ": 0,
+        "Lvl 36 |Route 114| Magma Grunt #9 ": 3,
+        "Lvl 44 Cooltrainer Berke ": 0,
+        "Lvl 57 |Magma Hideout| Magma Grunt #1 ": 0,
+        "Lvl 59 |Magma Hideout| Magma Grunt #5 ": 0,
+        "Lvl 60 |Magma Hideout| Magma Grunt #8 ": 0,
+        "Lvl 61 |Magma Hideout| Magma Grunt #11 ": 0,
+        "Lvl 63 |Magma Hideout| Magma Grunt #14 ": 0,
+        "Lvl 83 Cooltrainer Hope ": 0
+    },
+    "Geodude": {
+        "Lvl 15 School Kid Josh ": 0,
+        "Lvl 10 Hiker Devan ": 0
+    },
+    "Zubat": {
+        "Lvl 11 School Kid Josh ": 1
+    },
+    "Sudowoodo": {
+        "Lvl 12 School Kid Josh ": 2,
+        "Lvl 35 |Route 114| Magma Grunt #6 ": 1,
+        "Lvl 45 Ninja Boy Yasu ": 2,
+        "Lvl 53 Pokéfan Vanessa ": 3,
+        "Lvl 63 |Magma Hideout| Magma Grunt #14 ": 1,
+        "Lvl 59 |Magma Hideout| Magma Grunt #15 ": 0,
+        "Lvl 66 Swimmerm Kevin ": 0
+    },
+    "Omanyte": {
+        "Lvl 14 School Kid Josh ": 3,
+        "Lvl 19 Collector Edwin ": 2,
+        "Lvl 30 Ruin Maniac Bryan ": 0
+    },
+    "Aron": {
+        "Lvl 13 School Kid Tammy ": 0
+    },
+    "Corsola": {
+        "Lvl 13 School Kid Tammy ": 1,
+        "Lvl 43 Fisherman Barny ": 0
+    },
+    "Rhyhorn": {
+        "Lvl 15 School Kid Tammy ": 2,
+        "Lvl 25 Triathlete Jasmine ": 2,
+        "Lvl 24 Triathlete Maria ": 0
+    },
+    "Yanma": {
+        "Lvl 11 School Kid Tammy ": 3
+    },
+    "Larvitar": {
+        "Lvl 15 School Kid Tammy ": 4
+    },
+    "Onix": {
+        "Lvl 15 Hiker Marc ": 0,
+        "Lvl 29 Hiker Trent ": 3
+    },
+    "Cacnea": {
+        "Lvl 12 Hiker Marc ": 1
+    },
+    "Kabuto": {
+        "Lvl 14 Hiker Marc ": 2
+    },
+    "Baltoy": {
+        "Lvl 12 Hiker Marc ": 3,
+        "Lvl 24 Triathlete Anthony ": 0,
+        "Lvl 22 Sr And Jr Anna & Meg ": 3
+    },
+    "Nosepass": {
+        "Lvl 15 Leader Roxanne ": 0,
+        "Lvl 36 Picnicker Diana ": 1
+    },
+    "Lileep": {
+        "Lvl 14 Leader Roxanne ": 1,
+        "Lvl 30 Ruin Maniac Bryan ": 1
+    },
+    "Anorith": {
+        "Lvl 14 Leader Roxanne ": 2
+    },
+    "Relicanth": {
+        "Lvl 14 Leader Roxanne ": 3,
+        "Lvl 40 Ruin Maniac Dusty ": 0,
+        "Lvl 44 Ruin Maniac Foster ": 0,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #4 ": 2,
+        "Lvl 55 |Mt. Pyre| Aqua Grunt #9 ": 5,
+        "Lvl 65 |Aqua Hideout| Aqua Grunt #4 ": 5
+    },
+    "Shuckle": {
+        "Lvl 14 Leader Roxanne ": 4,
+        "Lvl 33 Ninja Boy Lao ": 1,
+        "Lvl 42 Pokéfan Alexia ": 1,
+        "Lvl 70 Cooltrainer Athena ": 0,
+        "Lvl 87 Expert Quincy ": 1
+    },
+    "Lunatone": {
+        "Lvl 15 Leader Roxanne ": 5,
+        "Lvl 35 |Route 114| Magma Grunt #9 ": 2,
+        "Lvl 45 Ninja Boy Takashi ": 1,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #5 ": 0,
+        "Lvl 66 Triathlete Allison ": 2,
+        "Lvl 66 Psychic Maura ": 0,
+        "Lvl 74 Cooltrainer Ruben ": 5,
+        "Lvl 84 Expert Samuel ": 4
+    },
+    "Diglett": {
+        "Lvl 9 Hiker Devan ": 1,
+        "Lvl 15 Tuber Gwen ": 2
+    },
+    "Trapinch": {
+        "Lvl 9 Hiker Devan ": 2
+    },
+    "Hoothoot": {
+        "Lvl 9 Bird Keeper Johnson ": 0,
+        "Lvl 15 Tuber Austina ": 1
+    },
+    "Swablu": {
+        "Lvl 9 Bird Keeper Johnson ": 1,
+        "Lvl 16 Tuber Lola ": 2
+    },
+    "Natu": {
+        "Lvl 9 Bird Keeper Johnson ": 2
+    },
+    "Totodile": {
+        "Lvl 9 School Kid Karen ": 0
+    },
+    "Cyndaquil": {
+        "Lvl 9 School Kid Karen ": 1
+    },
+    "Chikorita": {
+        "Lvl 9 School Kid Karen ": 2
+    },
+    "Nidoran-M": {
+        "Lvl 10 School Kid Jerry ": 0
+    },
+    "Shuppet": {
+        "Lvl 9 School Kid Jerry ": 1,
+        "Lvl 19 Psychic Jaclyn ": 1,
+        "Lvl 26 Lady Vivian ": 2
+    },
+    "Phanpy": {
+        "Lvl 10 School Kid Jerry ": 2
+    },
+    "Spoink": {
+        "Lvl 10 Lady Sarah ": 0,
+        "Lvl 16 Tuber Chandler ": 2,
+        "Lvl 17 Pokéfan Miguel ": 2
+    },
+    "Meowth": {
+        "Lvl 10 Lady Sarah ": 1,
+        "Lvl 22 Battle Girl Aisha ": 0
+    },
+    "Bellsprout": {
+        "Lvl 10 Lady Sarah ": 2
+    },
+    "Swinub": {
+        "Lvl 10 Rich Boy Dawson ": 0
+    },
+    "Mareep": {
+        "Lvl 10 Rich Boy Dawson ": 1
+    },
+    "Aipom": {
+        "Lvl 9 Rich Boy Dawson ": 2,
+        "Lvl 16 Tuber Simon ": 2
+    },
+    "Rattata": {
+        "Lvl 10 Youngster Joey ": 0
+    },
+    "Ekans": {
+        "Lvl 10 Youngster Joey ": 1
+    },
+    "Sandshrew": {
+        "Lvl 10 Youngster Joey ": 2,
+        "Lvl 16 Tuber Ricky ": 1
+    },
+    "Slakoth": {
+        "Lvl 10 Youngster Joey ": 3
+    },
+    "Slugma": {
+        "Lvl 10 Hiker Clark ": 0
+    },
+    "Teddiursa": {
+        "Lvl 10 Hiker Clark ": 1
+    },
+    "Gulpin": {
+        "Lvl 10 Hiker Clark ": 2,
+        "Lvl 16 Sailor Edmond ": 1
+    },
+    "Jigglypuff": {
+        "Lvl 10 Lass Janice ": 0,
+        "Lvl 16 Tuber Hailey ": 2
+    },
+    "Nidoran-F": {
+        "Lvl 10 Lass Janice ": 1
+    },
+    "Marill": {
+        "Lvl 9 Lass Janice ": 2,
+        "Lvl 16 Tuber Lola ": 1
+    },
+    "Dustox": {
+        "Lvl 10 Bug Maniac Jose ": 0
+    },
+    "Beautifly": {
+        "Lvl 10 Bug Maniac Jose ": 1
+    },
+    "Beedrill": {
+        "Lvl 10 Bug Maniac Jose ": 2
+    },
+    "Butterfree": {
+        "Lvl 10 Bug Maniac Jose ": 3,
+        "Lvl 16 Aroma Lady Daisy ": 0,
+        "Lvl 25 Aroma Lady Celina ": 1
+    },
+    "Dratini": {
+        "Lvl 14 |Rusturf Tunnel| Aqua Grunt ": 0,
+        "Lvl 18 |Slateport City| Aqua Grunt #2 ": 4,
+        "Lvl 17 Dragon Tamer Rhett ": 1
+    },
+    "Tentacool": {
+        "Lvl 14 |Rusturf Tunnel| Aqua Grunt ": 1
+    },
+    "Voltorb": {
+        "Lvl 13 |Rusturf Tunnel| Aqua Grunt ": 2,
+        "Lvl 17 Guitarist Marcos ": 0,
+        "Lvl 25 Triathlete Jacob ": 0,
+        "Lvl 27 Guitarist Kirk ": 0
+    },
+    "Barboach": {
+        "Lvl 14 |Rusturf Tunnel| Aqua Grunt ": 3,
+        "Lvl 16 Fisherman Carter ": 2
+    },
+    "Snorunt": {
+        "Lvl 13 |Rusturf Tunnel| Aqua Grunt ": 4
+    },
+    "Carvanha": {
+        "Lvl 15 |Rusturf Tunnel| Aqua Grunt ": 5
+    },
+    "Makuhita": {
+        "Lvl 16 Battle Girl Laura ": 0,
+        "Lvl 16 Black Belt Cristian ": 1
+    },
+    "Machop": {
+        "Lvl 16 Battle Girl Laura ": 1,
+        "Lvl 16 Sailor Dwayne ": 3,
+        "Lvl 55 Black Belt Koichi ": 0
+    },
+    "Meditite": {
+        "Lvl 16 Battle Girl Laura ": 2,
+        "Lvl 16 Battle Girl Jocelyn ": 2,
+        "Lvl 19 Leader Brawly ": 3,
+        "Lvl 24 Triathlete Jasmine ": 0,
+        "Lvl 22 Battle Girl Aisha ": 1,
+        "Lvl 27 Winstrate Vicky ": 1
+    },
+    "Tyrogue": {
+        "Lvl 16 Black Belt Takao ": 0
+    },
+    "Mankey": {
+        "Lvl 16 Black Belt Takao ": 1,
+        "Lvl 16 Black Belt Cristian ": 3
+    },
+    "Vigoroth": {
+        "Lvl 16 Black Belt Takao ": 2,
+        "Lvl 18 |Slateport City| Aqua Grunt #1 ": 5,
+        "Lvl 24 Triathlete Jasmine ": 1,
+        "Lvl 26 Camper Travis ": 0
+    },
+    "Wynaut": {
+        "Lvl 15 Battle Girl Lilith ": 0,
+        "Lvl 17 |Slateport City| Aqua Grunt #2 ": 0,
+        "Lvl 100 Expert Macey ": 2,
+        "Lvl 7 Collector Ed ": 0
+    },
+    "Shroomish": {
+        "Lvl 16 Battle Girl Lilith ": 1
+    },
+    "Combusken": {
+        "Lvl 16 Battle Girl Lilith ": 2,
+        "Lvl 35 Collector Hector ": 1
+    },
+    "Magby": {
+        "Lvl 15 Black Belt Cristian ": 0
+    },
+    "Elekid": {
+        "Lvl 15 Black Belt Cristian ": 2,
+        "Lvl 20 Guitarist Joseph ": 0,
+        "Lvl 27 Guitarist Kirk ": 2
+    },
+    "Breloom": {
+        "Lvl 16 Sailor Brenden ": 0,
+        "Lvl 34 |Route 114| Magma Grunt #5 ": 1,
+        "Lvl 43 Cooltrainer Berke ": 4,
+        "Lvl 44 Aroma Lady Rose ": 0,
+        "Lvl 52 Cooltrainer Marcel ": 3,
+        "Lvl 66 |Mossdeep Space Center| Magma Grunt #6 ": 0
+    },
+    "Poliwhirl": {
+        "Lvl 16 Sailor Brenden ": 1,
+        "Lvl 16 Sailor Dwayne ": 0,
+        "Lvl 24 Triathlete Benjamin ": 1,
+        "Lvl 27 Camper Tyron ": 0
+    },
+    "Machoke": {
+        "Lvl 16 Sailor Brenden ": 2,
+        "Lvl 28 Hiker Trent ": 2
+    },
+    "Heracross": {
+        "Lvl 16 Battle Girl Jocelyn ": 0,
+        "Lvl 51 Cooltrainer Jerome ": 0,
+        "Lvl 67 Black Belt Hitoshi ": 0,
+        "Lvl 74 Bug Maniac Davis ": 0,
+        "Lvl 76 Expert Frederick ": 1,
+        "Lvl 87 Expert Edgar ": 0
+    },
+    "Wobbuffet": {
+        "Lvl 15 Battle Girl Jocelyn ": 1,
+        "Lvl 34 |Route 114| Magma Grunt #3 ": 0,
+        "Lvl 44 Battle Girl Helene ": 0,
+        "Lvl 45 |Weather Institute| Aqua Grunt #3 ": 4,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #8 ": 0,
+        "Lvl 58 |Magma Hideout| Magma Grunt #7 ": 0,
+        "Lvl 61 |Magma Hideout| Magma Grunt #12 ": 3,
+        "Lvl 62 |Magma Hideout| Magma Grunt #16 ": 3,
+        "Lvl 69 Expert Macey ": 0,
+        "Lvl 66 |Mossdeep Space Center| Magma Grunt #4 ": 1,
+        "Lvl 68 Expert Makayla ": 0,
+        "Lvl 74 Collector Ed ": 2,
+        "Lvl 86 Expert Edgar ": 4
+    },
+    "Hitmontop": {
+        "Lvl 17 Leader Brawly ": 0,
+        "Lvl 20 Triathlete Dylan ": 0,
+        "Lvl 29 Black Belt Daisuke ": 0,
+        "Lvl 43 Sailor Cory ": 1,
+        "Lvl 52 Beauty Jessica ": 0,
+        "Lvl 66 Cooltrainer Hannah ": 1,
+        "Lvl 67 Sailor Kelvin ": 0
+    },
+    "Hitmonlee": {
+        "Lvl 17 Leader Brawly ": 1,
+        "Lvl 29 Black Belt Daisuke ": 2,
+        "Lvl 66 Cooltrainer Virgil ": 1,
+        "Lvl 67 Black Belt Koji ": 0
+    },
+    "Hitmonchan": {
+        "Lvl 17 Leader Brawly ": 2,
+        "Lvl 29 Black Belt Daisuke ": 1,
+        "Lvl 43 Black Belt Koichi ": 1,
+        "Lvl 65 Sailor Ernest ": 1,
+        "Lvl 67 Expert Nicholas ": 1,
+        "Lvl 88 Cooltrainer Katelynn ": 1
+    },
+    "Poliwrath": {
+        "Lvl 17 Leader Brawly ": 4,
+        "Lvl 35 Black Belt Nob ": 2,
+        "Lvl 47 |Weather Institute| Aqua Grunt #4 ": 2,
+        "Lvl 54 |Mt. Pyre| Aqua Grunt #7 ": 1,
+        "Lvl 65 |Aqua Hideout| Aqua Grunt #5 ": 5,
+        "Lvl 66 Triathlete Pablo ": 1,
+        "Lvl 70 |Seafloor Cavern| Aqua Grunt #3 ": 1,
+        "Lvl 74 Battle Girl Crissy ": 5
+    },
+    "Hariyama": {
+        "Lvl 19 Leader Brawly ": 5,
+        "Lvl 27 |Route 112| Magma Grunt #4 ": 2,
+        "Lvl 35 Black Belt Nob ": 0,
+        "Lvl 38 Expert Keegan ": 2,
+        "Lvl 44 Battle Girl Helene ": 1,
+        "Lvl 67 Battle Girl Reyna ": 1,
+        "Lvl 74 Cooltrainer Alexa ": 1
+    },
+    "Gastly": {
+        "Lvl 14 |Route 106| Aqua Grunt ": 0,
+        "Lvl 22 Sr And Jr Anna & Meg ": 1
+    },
+    "Porygon": {
+        "Lvl 14 |Route 106| Aqua Grunt ": 1,
+        "Lvl 19 Collector Edwin ": 1,
+        "Lvl 24 Triathlete Anthony ": 2,
+        "Lvl 27 Collector Shawn ": 2
+    },
+    "Marshtomp": {
+        "Lvl 16 |Route 106| Aqua Grunt ": 2,
+        "Lvl 35 Collector Hector ": 0
+    },
+    "Drowzee": {
+        "Lvl 14 |Route 106| Aqua Grunt ": 3,
+        "Lvl 34 Picnicker Sophie ": 1
+    },
+    "Sneasel": {
+        "Lvl 13 |Route 106| Aqua Grunt ": 4
+    },
+    "Clamperl": {
+        "Lvl 15 |Route 106| Aqua Grunt ": 5,
+        "Lvl 20 |Slateport City| Aqua Grunt #2 ": 5,
+        "Lvl 36 Beauty Sheila ": 0,
+        "Lvl 52 Battle Girl Tara ": 2,
+        "Lvl 55 |Mt. Pyre| Aqua Grunt #5 ": 4
+    },
+    "Poliwag": {
+        "Lvl 15 Fisherman Elliot ": 0
+    },
+    "Wooper": {
+        "Lvl 15 Fisherman Elliot ": 1
+    },
+    "Remoraid": {
+        "Lvl 15 Fisherman Elliot ": 2
+    },
+    "Horsea": {
+        "Lvl 15 Fisherman Elliot ": 3
+    },
+    "Seel": {
+        "Lvl 16 Sailor Huey ": 0,
+        "Lvl 24 Triathlete Maria ": 1
+    },
+    "Spheal": {
+        "Lvl 16 Sailor Huey ": 2,
+        "Lvl 15 Tuber Gwen ": 0,
+        "Lvl 17 Pokéfan Miguel ": 0
+    },
+    "Treecko": {
+        "Lvl 15 Tuber Gwen ": 1
+    },
+    "Lotad": {
+        "Lvl 15 Tuber Austina ": 0
+    },
+    "Mudkip": {
+        "Lvl 15 Tuber Austina ": 2
+    },
+    "Psyduck": {
+        "Lvl 15 Bird Keeper Elijah ": 0
+    },
+    "Delibird": {
+        "Lvl 15 Bird Keeper Elijah ": 1
+    },
+    "Torchic": {
+        "Lvl 15 Bird Keeper Elijah ": 2
+    },
+    "Doduo": {
+        "Lvl 15 Bird Keeper Elijah ": 3,
+        "Lvl 20 Triathlete Alyssa ": 2
+    },
+    "Slowpoke": {
+        "Lvl 15 Fisherman Carter ": 0,
+        "Lvl 18 Psychic Edward ": 0,
+        "Lvl 24 Fisherman Dale ": 1,
+        "Lvl 25 Triathlete Jacob ": 2
+    },
+    "Shellder": {
+        "Lvl 15 Fisherman Carter ": 1,
+        "Lvl 17 |Slateport City| Aqua Grunt #1 ": 0
+    },
+    "Seedot": {
+        "Lvl 16 Tuber Ricky ": 0
+    },
+    "Farfetch’d": {
+        "Lvl 16 Tuber Ricky ": 2
+    },
+    "Numel": {
+        "Lvl 16 Tuber Hailey ": 1,
+        "Lvl 36 Parasol Lady Madeline ": 0
+    },
+    "Krabby": {
+        "Lvl 16 Sailor Edmond ": 0
+    },
+    "Exeggcute": {
+        "Lvl 15 Sailor Edmond ": 2,
+        "Lvl 18 Psychic Edward ": 1
+    },
+    "Hoppip": {
+        "Lvl 16 Tuber Lola ": 0
+    },
+    "Corphish": {
+        "Lvl 16 Tuber Chandler ": 0
+    },
+    "Spearow": {
+        "Lvl 16 Tuber Chandler ": 1
+    },
+    "Sunflora": {
+        "Lvl 16 Tuber Simon ": 1,
+        "Lvl 17 Aroma Lady Daisy ": 4
+    },
+    "Ponyta": {
+        "Lvl 16 Beauty Johanna ": 0,
+        "Lvl 21 Triathlete Melina ": 0
+    },
+    "Murkrow": {
+        "Lvl 16 Beauty Johanna ": 1
+    },
+    "Delcatty": {
+        "Lvl 16 Beauty Johanna ": 2,
+        "Lvl 16 Pokéfan Isabel ": 2,
+        "Lvl 22 Battle Girl Aisha ": 2,
+        "Lvl 55 Young Couple Dez & Luke ": 0
+    },
+    "Spinda": {
+        "Lvl 16 Sailor Dwayne ": 1,
+        "Lvl 34 Youngster Dillon ": 1
+    },
+    "Quilava": {
+        "Lvl 16 Sailor Dwayne ": 2,
+        "Lvl 25 Picnicker Irene ": 1
+    },
+    "Croconaw": {
+        "Lvl 18 |Slateport City| Aqua Grunt #1 ": 1,
+        "Lvl 25 Picnicker Irene ": 2
+    },
+    "Grimer": {
+        "Lvl 17 |Slateport City| Aqua Grunt #1 ": 2
+    },
+    "Lombre": {
+        "Lvl 18 |Slateport City| Aqua Grunt #1 ": 3,
+        "Lvl 18 Guitarist Joseph ": 1,
+        "Lvl 16 Aroma Lady Daisy ": 3,
+        "Lvl 16 Guitarist Marcos ": 1
+    },
+    "Staryu": {
+        "Lvl 19 |Slateport City| Aqua Grunt #1 ": 4,
+        "Lvl 20 Triathlete Alyssa ": 0,
+        "Lvl 27 Fisherman Ben ": 0
+    },
+    "Chinchou": {
+        "Lvl 19 |Slateport City| Aqua Grunt #2 ": 1,
+        "Lvl 27 Fisherman Ben ": 1
+    },
+    "Smoochum": {
+        "Lvl 19 |Slateport City| Aqua Grunt #2 ": 2
+    },
+    "Wailmer": {
+        "Lvl 18 |Slateport City| Aqua Grunt #2 ": 3,
+        "Lvl 16 Pokéfan Isabel ": 0,
+        "Lvl 43 Fisherman Wade ": 3,
+        "Lvl 67 Fisherman Roger ": 0
+    },
+    "Nidorina": {
+        "Lvl 16 Pokéfan Isabel ": 1
+    },
+    "Pikachu": {
+        "Lvl 17 Pokéfan Kaleb ": 0,
+        "Lvl 27 Lady Vivian ": 1,
+        "Lvl 52 Battle Girl Tara ": 0,
+        "Lvl 65 Sis And Bro Lila & Roy ": 1
+    },
+    "Nidorino": {
+        "Lvl 16 Pokéfan Kaleb ": 1
+    },
+    "Mawile": {
+        "Lvl 16 Pokéfan Kaleb ": 2,
+        "Lvl 46 Parasol Lady Missy ": 1,
+        "Lvl 71 Beauty Connie ": 5
+    },
+    "Abra": {
+        "Lvl 18 Psychic Edward ": 2
+    },
+    "Unown": {
+        "Lvl 19 Psychic Jaclyn ": 0,
+        "Lvl 23 Psychic Brandi ": 0
+    },
+    "Kirlia": {
+        "Lvl 19 Psychic Jaclyn ": 2,
+        "Lvl 23 Psychic Brandi ": 1
+    },
+    "Kecleon": {
+        "Lvl 19 Youngster Timmy ": 0,
+        "Lvl 32 Ninja Boy Lung ": 2,
+        "Lvl 36 Beauty Melissa ": 2,
+        "Lvl 50 Ninja Boy Hideo ": 0,
+        "Lvl 51 Ninja Boy Riley ": 2
+    },
+    "Nuzleaf": {
+        "Lvl 19 Youngster Timmy ": 1
+    },
+    "Lickitung": {
+        "Lvl 19 Youngster Timmy ": 2,
+        "Lvl 32 Pokémaniac Wyatt ": 2
+    },
+    "Chimecho": {
+        "Lvl 19 Collector Edwin ": 0,
+        "Lvl 22 Psychic Brandi ": 2,
+        "Lvl 36 |Route 114| Magma Grunt #8 ": 3,
+        "Lvl 36 Beauty Shirley ": 2,
+        "Lvl 52 Hex Maniac Tammy ": 0,
+        "Lvl 66 Psychic Maura ": 2
+    },
+    "Wigglytuff": {
+        "Lvl 19 Guitarist Joseph ": 2,
+        "Lvl 17 Pokéfan Miguel ": 3,
+        "Lvl 25 Lady Vivian ": 0,
+        "Lvl 26 Winstrate Vivi ": 1,
+        "Lvl 36 Beauty Shirley ": 1,
+        "Lvl 48 Guitarist Beth ": 0,
+        "Lvl 53 Pokéfan Vanessa ": 2,
+        "Lvl 69 Hex Maniac Sylvia ": 2,
+        "Lvl 67 Swimmerf Susie ": 0
+    },
+    "Roselia": {
+        "Lvl 16 Aroma Lady Daisy ": 1,
+        "Lvl 24 Triathlete Abigail ": 2,
+        "Lvl 26 Winstrate Victoria ": 0
+    },
+    "Skiploom": {
+        "Lvl 16 Aroma Lady Daisy ": 2,
+        "Lvl 25 Aroma Lady Celina ": 0
+    },
+    "Charmeleon": {
+        "Lvl 17 Dragon Tamer Rhett ": 2,
+        "Lvl 25 Kindler Hayden ": 0
+    },
+    "Whismur": {
+        "Lvl 17 Guitarist Marcos ": 2
+    },
+    "Volbeat": {
+        "Lvl 17 Twins Amy & Liv ": 0,
+        "Lvl 27 Bug Maniac Angelo ": 2
+    },
+    "Illumise": {
+        "Lvl 17 Twins Amy & Liv ": 1,
+        "Lvl 27 Bug Maniac Angelo ": 3
+    },
+    "Plusle": {
+        "Lvl 17 Twins Amy & Liv ": 2,
+        "Lvl 27 Bug Maniac Angelo ": 0,
+        "Lvl 36 Picnicker Diana ": 2
+    },
+    "Minun": {
+        "Lvl 17 Twins Amy & Liv ": 3,
+        "Lvl 27 Bug Maniac Angelo ": 1
+    },
+    "Flaaffy": {
+        "Lvl 17 Pokéfan Miguel ": 1,
+        "Lvl 21 Triathlete Melina ": 2,
+        "Lvl 27 Lady Vivian ": 4
+    },
+    "Gyarados": {
+        "Lvl 20 Fisherman Andrew ": 0,
+        "Lvl 30 Cooltrainer Wilton ": 1,
+        "Lvl 53 Dragon Tamer Sora ": 2,
+        "Lvl 52 Cooltrainer Marcel ": 0,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #6 ": 5,
+        "Lvl 63 |Aqua Hideout| Aqua Grunt #7 ": 0,
+        "Lvl 66 Sis And Bro Lila & Roy ": 0,
+        "Lvl 66 Swimmerf Tisha ": 2,
+        "Lvl 64 Fisherman Roger ": 2,
+        "Lvl 66 Fisherman Ronald ": 0,
+        "Lvl 75 Cooltrainer Wendy ": 2,
+        "Lvl 87 Expert Mitchell ": 3
+    },
+    "Linoone": {
+        "Lvl 24 Triathlete Abigail ": 0,
+        "Lvl 22 Triathlete Maria ": 2,
+        "Lvl 25 Winstrate Victor ": 0,
+        "Lvl 35 Sr And Jr Tyra & Ivy ": 1,
+        "Lvl 42 Triathlete Randall ": 5,
+        "Lvl 89 Expert Felix ": 3,
+        "Lvl 89 Cooltrainer Katelynn ": 3
+    },
+    "Seadra": {
+        "Lvl 24 Triathlete Abigail ": 1,
+        "Lvl 43 Fisherman Wade ": 2
+    },
+    "Beldum": {
+        "Lvl 25 Triathlete Anthony ": 1
+    },
+    "Stantler": {
+        "Lvl 23 Triathlete Benjamin ": 2,
+        "Lvl 35 Camper Ethan ": 2,
+        "Lvl 36 Hiker Sawyer ": 1,
+        "Lvl 43 Pokéfan Parker ": 5
+    },
+    "Ivysaur": {
+        "Lvl 25 Triathlete Jacob ": 1,
+        "Lvl 24 Picnicker Bianca ": 0
+    },
+    "Girafarig": {
+        "Lvl 20 Triathlete Melina ": 1,
+        "Lvl 42 Triathlete Randall ": 2,
+        "Lvl 43 Triathlete Kyra ": 1,
+        "Lvl 66 Psychic Preston ": 1
+    },
+    "Mantine": {
+        "Lvl 20 Triathlete Dylan ": 1,
+        "Lvl 42 Fisherman Barny ": 2,
+        "Lvl 47 |Weather Institute| Aqua Grunt #5 ": 3,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #1 ": 1,
+        "Lvl 67 Triathlete Allison ": 0,
+        "Lvl 65 Fisherman Henry ": 0,
+        "Lvl 75 Cooltrainer Wendy ": 0
+    },
+    "Gligar": {
+        "Lvl 21 Sr And Jr Anna & Meg ": 0,
+        "Lvl 52 Bug Maniac Ali ": 1,
+        "Lvl 62 |Magma Hideout| Magma Grunt #7 ": 3,
+        "Lvl 85 Expert Shannon ": 3
+    },
+    "Noctowl": {
+        "Lvl 20 Sr And Jr Anna & Meg ": 2,
+        "Lvl 34 Bird Keeper Coby ": 1,
+        "Lvl 42 Bird Keeper Perry ": 0,
+        "Lvl 67 Bird Keeper Alex ": 1
+    },
+    "Pineco": {
+        "Lvl 23 Bug Maniac Derek ": 0
+    },
+    "Masquerain": {
+        "Lvl 23 Bug Maniac Derek ": 1,
+        "Lvl 45 Bug Maniac Darrin ": 0,
+        "Lvl 52 Bug Maniac Jeffrey ": 2,
+        "Lvl 72 Beauty Connie ": 4,
+        "Lvl 74 Bug Maniac Davis ": 1
+    },
+    "Ariados": {
+        "Lvl 23 Bug Maniac Derek ": 2,
+        "Lvl 28 |Route 112| Magma Grunt #4 ": 1
+    },
+    "Togetic": {
+        "Lvl 25 Lady Vivian ": 3,
+        "Lvl 43 Bird Keeper Perry ": 2,
+        "Lvl 44 Bird Keeper Chester ": 0,
+        "Lvl 54 Sr And Jr Kate And Joy ": 0,
+        "Lvl 100 Sr And Jr Kim & Iris ": 0,
+        "Lvl 100 Cooltrainer Debra ": 1
+    },
+    "Loudred": {
+        "Lvl 26 Guitarist Kirk ": 1
+    },
+    "Golbat": {
+        "Lvl 26 Guitarist Kirk ": 3,
+        "Lvl 23 Hiker Mike ": 0,
+        "Lvl 27 |Route 112| Magma Grunt #3 ": 0,
+        "Lvl 34 Ninja Boy Lao ": 2,
+        "Lvl 36 Hiker Sawyer ": 0
+    },
+    "Ludicolo": {
+        "Lvl 25 Guitarist Kirk ": 4,
+        "Lvl 41 Guitarist Dalton ": 3,
+        "Lvl 46 |Weather Institute| Aqua Grunt #4 ": 4,
+        "Lvl 50 Cooltrainer Jennifer ": 1,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #5 ": 1,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #8 ": 2,
+        "Lvl 60 |Magma Hideout| Magma Grunt #9 ": 2,
+        "Lvl 63 |Aqua Hideout| Aqua Grunt #2 ": 1,
+        "Lvl 61 |Aqua Hideout| Aqua Grunt #5 ": 2,
+        "Lvl 64 |Route 124| Aqua Grunt #1 ": 0,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #2 ": 1,
+        "Lvl 76 Leader #1 Wallace ": 2,
+        "Lvl 76 Leader #2 Juan ": 4,
+        "Lvl 74 Guitarist Fernando ": 2,
+        "Lvl 100 Elite Four Phoebe ": 1
+    },
+    "Dragonair": {
+        "Lvl 26 Fisherman Ben ": 2,
+        "Lvl 32 Dragon Tamer Lawrence ": 2,
+        "Lvl 45 |Weather Institute| Aqua Grunt #1 ": 3,
+        "Lvl 46 |Weather Institute| Aqua Grunt #5 ": 1,
+        "Lvl 52 Battle Girl Tara ": 1,
+        "Lvl 66 Fisherman Jonah ": 2
+    },
+    "Qwilfish": {
+        "Lvl 26 Fisherman Ben ": 3,
+        "Lvl 43 Swimmerf Isabelle ": 0,
+        "Lvl 46 |Weather Institute| Aqua Grunt #5 ": 0,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #1 ": 4,
+        "Lvl 63 |Aqua Hideout| Aqua Grunt #1 ": 1,
+        "Lvl 65 |Route 124| Aqua Grunt #1 ": 1,
+        "Lvl 70 |Seafloor Cavern| Aqua Grunt #4 ": 2,
+        "Lvl 75 Aqua Leader Archie ": 4,
+        "Lvl 67 Swimmerm Richard ": 0,
+        "Lvl 70 Beauty Connie ": 0,
+        "Lvl 74 Parasol Lady Kayley ": 2
+    },
+    "Octillery": {
+        "Lvl 26 Fisherman Ben ": 4,
+        "Lvl 36 |Mt. Chimney| Magma Grunt #2 ": 4,
+        "Lvl 38 Expert Keegan ": 1,
+        "Lvl 40 Picnicker Celia ": 1,
+        "Lvl 46 |Weather Institute| Aqua Grunt #2 ": 1,
+        "Lvl 48 Ninja Boy Hideo ": 1,
+        "Lvl 60 |Magma Hideout| Magma Grunt #9 ": 0,
+        "Lvl 74 Triathlete Brianna ": 1
+    },
+    "Dunsparce": {
+        "Lvl 26 Bug Maniac Angelo ": 4,
+        "Lvl 27 |Route 112| Magma Grunt #5 ": 3
+    },
+    "Electrode": {
+        "Lvl 27 Collector Shawn ": 1,
+        "Lvl 35 |Jagged Pass| Magma Grunt #1 ": 0,
+        "Lvl 44 Guitarist Dalton ": 0,
+        "Lvl 45 |Weather Institute| Aqua Grunt #2 ": 0,
+        "Lvl 50 Ninja Boy Keigo ": 0,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #9 ": 0,
+        "Lvl 67 Expert Clifford ": 0,
+        "Lvl 70 Triathlete Brianna ": 0,
+        "Lvl 74 Guitarist Fernando ": 0,
+        "Lvl 86 Expert Julie ": 0
+    },
+    "Kadabra": {
+        "Lvl 26 Collector Shawn ": 3,
+        "Lvl 26 Winstrate Vicky ": 0,
+        "Lvl 26 |Route 112| Magma Grunt #1 ": 2
+    },
+    "Magneton": {
+        "Lvl 27 Collector Shawn ": 4,
+        "Lvl 26 |Route 112| Magma Grunt #2 ": 1,
+        "Lvl 36 |Route 114| Magma Grunt #1 ": 1,
+        "Lvl 52 Cooltrainer Jerome ": 2,
+        "Lvl 67 Triathlete Chase ": 1,
+        "Lvl 65 Triathlete Isaiah ": 0,
+        "Lvl 72 Triathlete Brianna ": 4
+    },
+    "Jolteon": {
+        "Lvl 28 Leader Wattson ": 0,
+        "Lvl 40 Triathlete Randall ": 3,
+        "Lvl 52 Gentleman Walter ": 3,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #1 ": 4,
+        "Lvl 66 |Seafloor Cavern| Aqua Grunt #1 ": 4,
+        "Lvl 70 Pokéfan Bethany ": 0,
+        "Lvl 81 Cooltrainer Hope ": 3,
+        "Lvl 87 Expert Felix ": 5,
+        "Lvl 100 Elite Four Sidney ": 1
+    },
+    "Lanturn": {
+        "Lvl 28 Leader Wattson ": 1,
+        "Lvl 46 |Weather Institute| Aqua Grunt #5 ": 4,
+        "Lvl 50 Ninja Boy Edwardo ": 4,
+        "Lvl 50 Cooltrainer Jennifer ": 2,
+        "Lvl 54 |Mt. Pyre| Aqua Grunt #10 ": 4,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #8 ": 3,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #3 ": 4,
+        "Lvl 77 Leader #2 Juan ": 3,
+        "Lvl 66 Fisherman Ronald ": 5,
+        "Lvl 84 Expert Samuel ": 5
+    },
+    "Ampharos": {
+        "Lvl 29 Leader Wattson ": 2,
+        "Lvl 35 |Mt. Chimney| Magma Grunt #1 ": 2,
+        "Lvl 46 Expert Timothy ": 2,
+        "Lvl 58 |Magma Hideout| Magma Grunt #6 ": 4,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #4 ": 3,
+        "Lvl 66 Swimmerm Santiago ": 0,
+        "Lvl 71 Parasol Lady Daphne ": 5,
+        "Lvl 81 Cooltrainer Albert ": 3,
+        "Lvl 86 Expert Dianne ": 4,
+        "Lvl 88 Cooltrainer Caroline ": 2
+    },
+    "Raichu": {
+        "Lvl 28 Leader Wattson ": 3,
+        "Lvl 42 Pokéfan Parker ": 0,
+        "Lvl 43 Swimmerm Pete ": 0,
+        "Lvl 53 Pokéfan Vanessa ": 4,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #5 ": 0,
+        "Lvl 74 Cooltrainer Olivia ": 4,
+        "Lvl 75 Cooltrainer Braxton ": 0,
+        "Lvl 88 Cooltrainer Katelynn ": 4
+    },
+    "Electabuzz": {
+        "Lvl 28 Leader Wattson ": 4,
+        "Lvl 37 Expert Keegan ": 0,
+        "Lvl 49 Guitarist Beth ": 3,
+        "Lvl 51 Cooltrainer Marcel ": 2,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #5 ": 3,
+        "Lvl 68 |Seafloor Cavern| Aqua Grunt #2 ": 2,
+        "Lvl 72 Battle Girl Crissy ": 2,
+        "Lvl 88 Expert Edgar ": 2
+    },
+    "Manectric": {
+        "Lvl 29 Leader Wattson ": 5,
+        "Lvl 35 |Route 114| Magma Grunt #7 ": 1,
+        "Lvl 38 Beauty Danielle ": 2,
+        "Lvl 57 |Magma Hideout| Magma Grunt #2 ": 3,
+        "Lvl 58 |Magma Hideout| Magma Grunt #3 ": 2,
+        "Lvl 60 |Magma Hideout| Magma Grunt #10 ": 3,
+        "Lvl 63 |Magma Hideout| Magma Grunt #14 ": 3,
+        "Lvl 70 Beauty Connie ": 2,
+        "Lvl 74 Cooltrainer Alexa ": 2,
+        "Lvl 84 Expert Shannon ": 2
+    },
+    "Graveler": {
+        "Lvl 25 Hiker Mike ": 1,
+        "Lvl 28 Hiker Trent ": 0
+    },
+    "Clefairy": {
+        "Lvl 24 Hiker Mike ": 2
+    },
+    "Swellow": {
+        "Lvl 25 Winstrate Victoria ": 1,
+        "Lvl 35 Sr And Jr Tyra & Ivy ": 0,
+        "Lvl 48 Leader Norman ": 3,
+        "Lvl 42 Bird Keeper Chester ": 1,
+        "Lvl 44 Bird Keeper Hugh ": 3,
+        "Lvl 50 Bird Keeper Robert ": 2,
+        "Lvl 51 Bird Keeper Jared ": 0,
+        "Lvl 67 Expert Nicholas ": 2,
+        "Lvl 67 Bird Keeper Beck ": 0,
+        "Lvl 74 Bird Keeper Alberto ": 2,
+        "Lvl 76 Cooltrainer Jazmyn ": 0,
+        "Lvl 86 Cooltrainer Owen ": 0
+    },
+    "Azumarill": {
+        "Lvl 26 Winstrate Vivi ": 0,
+        "Lvl 31 Youngster Dillon ": 2,
+        "Lvl 43 Cooltrainer Berke ": 2,
+        "Lvl 47 Guitarist Beth ": 2,
+        "Lvl 50 Ninja Boy Riley ": 1,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #4 ": 4,
+        "Lvl 64 Swimmerf Jenny ": 0,
+        "Lvl 65 Sis And Bro Reli & Ian ": 0,
+        "Lvl 74 Battle Girl Crissy ": 1,
+        "Lvl 34 Swimmerf Dana ": 0
+    },
+    "Camerupt": {
+        "Lvl 27 Winstrate Vicky ": 2,
+        "Lvl 36 |Route 114| Magma Grunt #3 ": 1,
+        "Lvl 36 |Mt. Chimney| Magma Grunt #2 ": 0,
+        "Lvl 36 Beauty Melissa ": 0,
+        "Lvl 37 Kindler Jeff ": 2,
+        "Lvl 39 Ruin Maniac Eli ": 3,
+        "Lvl 59 |Magma Hideout| Magma Grunt #2 ": 1,
+        "Lvl 69 |Mossdeep Space Center| Magma Grunt #5 ": 0
+    },
+    "Wartortle": {
+        "Lvl 24 Picnicker Bianca ": 1
+    },
+    "Gloom": {
+        "Lvl 26 Aroma Lady Celina ": 2
+    },
+    "Bayleef": {
+        "Lvl 25 Picnicker Irene ": 0
+    },
+    "Haunter": {
+        "Lvl 26 |Route 112| Magma Grunt #1 ": 0
+    },
+    "Flareon": {
+        "Lvl 27 |Route 112| Magma Grunt #1 ": 1,
+        "Lvl 35 Kindler Bernie ": 1,
+        "Lvl 39 Beauty Danielle ": 3,
+        "Lvl 42 Cooltrainer Jody ": 3,
+        "Lvl 53 Gentleman Walter ": 1,
+        "Lvl 63 |Magma Hideout| Magma Grunt #13 ": 5
+    },
+    "Cacturne": {
+        "Lvl 27 |Route 112| Magma Grunt #1 ": 3,
+        "Lvl 40 Picnicker Heidi ": 0,
+        "Lvl 43 Camper Branden ": 1,
+        "Lvl 48 Ninja Boy Hideo ": 2
+    },
+    "Dugtrio": {
+        "Lvl 26 |Route 112| Magma Grunt #2 ": 0,
+        "Lvl 37 Triathlete Jace ": 0,
+        "Lvl 52 Cooltrainer Jerome ": 4,
+        "Lvl 60 |Magma Hideout| Magma Grunt #5 ": 2,
+        "Lvl 66 Triathlete Chase ": 0,
+        "Lvl 69 Expert Macey ": 1,
+        "Lvl 66 Triathlete Katelyn ": 0,
+        "Lvl 74 Collector Ed ": 1,
+        "Lvl 89 Expert Felix ": 1
+    },
+    "Absol": {
+        "Lvl 27 |Route 112| Magma Grunt #2 ": 2,
+        "Lvl 45 Ninja Boy Yasu ": 0,
+        "Lvl 52 Hex Maniac Tammy ": 1,
+        "Lvl 52 Hex Maniac Leah ": 1,
+        "Lvl 57 |Magma Hideout| Magma Grunt #1 ": 4,
+        "Lvl 74 Cooltrainer Ruben ": 4
+    },
+    "Ninetales": {
+        "Lvl 27 |Route 112| Magma Grunt #2 ": 3,
+        "Lvl 36 |Jagged Pass| Magma Grunt #3 ": 3,
+        "Lvl 36 Beauty Sheila ": 1,
+        "Lvl 37 Kindler Jeff ": 1,
+        "Lvl 41 Leader Flannery ": 0,
+        "Lvl 53 Hex Maniac Valerie ": 0,
+        "Lvl 57 |Magma Hideout| Magma Grunt #1 ": 3,
+        "Lvl 64 |Magma Hideout| Magma Grunt #15 ": 5
+    },
+    "Furret": {
+        "Lvl 26 Hiker Trent ": 1,
+        "Lvl 51 Parasol Lady Angelica ": 1,
+        "Lvl 67 Swimmerm Reed ": 3,
+        "Lvl 65 Sis And Bro Reli & Ian ": 1
+    },
+    "Shelgon": {
+        "Lvl 27 |Route 112| Magma Grunt #3 ": 1,
+        "Lvl 32 Dragon Tamer Lawrence ": 1,
+        "Lvl 36 |Route 114| Magma Grunt #5 ": 3
+    },
+    "Mightyena": {
+        "Lvl 27 |Route 112| Magma Grunt #3 ": 2,
+        "Lvl 65 Sailor Ernest ": 0
+    },
+    "Metang": {
+        "Lvl 27 |Route 112| Magma Grunt #3 ": 3,
+        "Lvl 35 |Route 114| Magma Grunt #4 ": 3
+    },
+    "Pupitar": {
+        "Lvl 29 |Route 112| Magma Grunt #3 ": 4
+    },
+    "Magmar": {
+        "Lvl 29 |Route 112| Magma Grunt #4 ": 0,
+        "Lvl 36 |Mt. Chimney| Magma Grunt #1 ": 3,
+        "Lvl 36 Kindler Jeff ": 0,
+        "Lvl 39 Triathlete Geraldine ": 3,
+        "Lvl 50 Bird Keeper Jared ": 4,
+        "Lvl 61 |Magma Hideout| Magma Grunt #7 ": 1,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #6 ": 1,
+        "Lvl 65 Swimmerm Rodney ": 0
+    },
+    "Venomoth": {
+        "Lvl 27 |Route 112| Magma Grunt #5 ": 0,
+        "Lvl 33 Ninja Boy Lung ": 3,
+        "Lvl 43 Cooltrainer Berke ": 1,
+        "Lvl 52 Ninja Boy Edwardo ": 2,
+        "Lvl 51 Bug Maniac Jeffrey ": 0,
+        "Lvl 74 Aroma Lady Violet ": 0,
+        "Lvl 85 Expert Shannon ": 4
+    },
+    "Magcargo": {
+        "Lvl 30 |Route 112| Magma Grunt #5 ": 1
+    },
+    "Vibrava": {
+        "Lvl 29 |Route 112| Magma Grunt #5 ": 2,
+        "Lvl 32 Dragon Tamer Lawrence ": 0,
+        "Lvl 34 |Route 114| Magma Grunt #4 ": 0,
+        "Lvl 44 Bug Maniac Darrin ": 2
+    },
+    "Arbok": {
+        "Lvl 27 |Route 112| Magma Grunt #5 ": 4,
+        "Lvl 43 Youngster Deandre ": 1
+    },
+    "Forretress": {
+        "Lvl 31 Cooltrainer Wilton ": 0,
+        "Lvl 54 Ninja Boy Edwardo ": 0,
+        "Lvl 88 Cooltrainer Caroline ": 0
+    },
+    "Porygon2": {
+        "Lvl 30 Cooltrainer Wilton ": 2,
+        "Lvl 51 Cooltrainer Jennifer ": 4,
+        "Lvl 70 Parasol Lady Daphne ": 0,
+        "Lvl 85 Expert Dianne ": 1
+    },
+    "Skarmory": {
+        "Lvl 30 Cooltrainer Brooke ": 0,
+        "Lvl 45 Bird Keeper Hugh ": 2,
+        "Lvl 53 Bird Keeper Jared ": 1,
+        "Lvl 50 Bird Keeper Colin ": 0,
+        "Lvl 68 |Mossdeep Space Center| Magma Grunt #3 ": 3,
+        "Lvl 64 Bird Keeper Aidan ": 1,
+        "Lvl 74 Bird Keeper Alberto ": 0,
+        "Lvl 74 Cooltrainer Ruben ": 0
+    },
+    "Miltank": {
+        "Lvl 30 Cooltrainer Brooke ": 1,
+        "Lvl 46 Expert Timothy ": 1,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #8 ": 4,
+        "Lvl 88 Cooltrainer Caroline ": 5
+    },
+    "Quagsire": {
+        "Lvl 30 Cooltrainer Brooke ": 2,
+        "Lvl 46 |Weather Institute| Aqua Grunt #1 ": 2,
+        "Lvl 54 |Mt. Pyre| Aqua Grunt #6 ": 3,
+        "Lvl 60 |Magma Hideout| Magma Grunt #9 ": 4,
+        "Lvl 65 |Aqua Hideout| Aqua Grunt #3 ": 4,
+        "Lvl 65 Swimmerm Harrison ": 0,
+        "Lvl 73 Pokéfan Bethany ": 5,
+        "Lvl 66 Fisherman Ronald ": 3,
+        "Lvl 88 Cooltrainer Caroline ": 1
+    },
+    "Lairon": {
+        "Lvl 32 Pokémaniac Wyatt ": 0,
+        "Lvl 35 Black Belt Nob ": 1
+    },
+    "Grovyle": {
+        "Lvl 33 Pokémaniac Wyatt ": 1,
+        "Lvl 35 Collector Hector ": 2
+    },
+    "Ninjask": {
+        "Lvl 32 Ninja Boy Lung ": 0,
+        "Lvl 34 |Route 114| Magma Grunt #4 ": 1,
+        "Lvl 40 Triathlete Randall ": 0,
+        "Lvl 45 Ninja Boy Yasu ": 3,
+        "Lvl 51 Ninja Boy Riley ": 0,
+        "Lvl 100 Gentleman Franklin ": 0,
+        "Lvl 75 Old Couple Miu & Yuki ": 4,
+        "Lvl 82 Cooltrainer Albert ": 0
+    },
+    "Raticate": {
+        "Lvl 33 Youngster Dillon ": 0,
+        "Lvl 43 Sailor Cory ": 2,
+        "Lvl 43 Youngster Deandre ": 0
+    },
+    "Slaking": {
+        "Lvl 36 Picnicker Sophie ": 0,
+        "Lvl 48 Leader Norman ": 0,
+        "Lvl 51 Cooltrainer Cristin ": 1,
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #7 ": 2,
+        "Lvl 67 Expert Nicholas ": 0,
+        "Lvl 70 |Seafloor Cavern| Aqua Grunt #4 ": 1,
+        "Lvl 75 Old Couple Miu & Yuki ": 0,
+        "Lvl 74 Cooltrainer Alexa ": 3,
+        "Lvl 95 Winstrate Vito ": 1
+    },
+    "Parasect": {
+        "Lvl 35 Picnicker Sophie ": 2,
+        "Lvl 50 Parasol Lady Clarissa ": 0
+    },
+    "Fearow": {
+        "Lvl 33 Bird Keeper Coby ": 0,
+        "Lvl 36 |Route 114| Magma Grunt #8 ": 2,
+        "Lvl 42 Triathlete Mary ": 1,
+        "Lvl 66 Bird Keeper Josue ": 0,
+        "Lvl 42 Bird Keeper Perry ": 3,
+        "Lvl 45 Bird Keeper Phil ": 0,
+        "Lvl 51 Bird Keeper Colin ": 2
+    },
+    "Pidgeot": {
+        "Lvl 34 Bird Keeper Coby ": 2,
+        "Lvl 42 Camper Branden ": 0,
+        "Lvl 42 Bird Keeper Perry ": 1,
+        "Lvl 65 Bird Keeper Aidan ": 0
+    },
+    "Shedinja": {
+        "Lvl 36 Ninja Boy Lao ": 0,
+        "Lvl 51 Ninja Boy Riley ": 3,
+        "Lvl 50 Dragon Tamer Sora ": 4,
+        "Lvl 77 Ninja Boy Jonas ": 0
+    },
+    "Seaking": {
+        "Lvl 34 Parasol Lady Madeline ": 1,
+        "Lvl 45 Sailor Cory ": 0,
+        "Lvl 42 Fisherman Barny ": 1,
+        "Lvl 51 Parasol Lady Angelica ": 2,
+        "Lvl 35 Swimmerf Carlee ": 0,
+        "Lvl 74 Beauty Connie ": 1
+    },
+    "Tropius": {
+        "Lvl 33 Parasol Lady Madeline ": 2,
+        "Lvl 38 Pokémaniac Axle ": 1,
+        "Lvl 52 Bird Keeper Jared ": 3,
+        "Lvl 64 Bird Keeper Presley ": 0
+    },
+    "Rhydon": {
+        "Lvl 36 Pokémaniac Steve ": 0,
+        "Lvl 66 Ruin Maniac Andres ": 0,
+        "Lvl 77 Cooltrainer Braxton ": 2
+    },
+    "Kangaskhan": {
+        "Lvl 34 Pokémaniac Steve ": 1,
+        "Lvl 35 |Mt. Chimney| Magma Grunt #1 ": 4,
+        "Lvl 48 Leader Norman ": 2,
+        "Lvl 45 Cooltrainer Carolina ": 0,
+        "Lvl 66 |Mossdeep Space Center| Magma Grunt #6 ": 2,
+        "Lvl 87 Expert Edgar ": 1
+    },
+    "Nidoqueen": {
+        "Lvl 35 Pokémaniac Steve ": 2,
+        "Lvl 37 Triathlete Geraldine ": 2,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #5 ": 5,
+        "Lvl 63 |Aqua Hideout| Aqua Grunt #4 ": 2
+    },
+    "Shiftry": {
+        "Lvl 33 Kindler Bernie ": 0,
+        "Lvl 35 |Mt. Chimney| Magma Grunt #2 ": 1,
+        "Lvl 56 |Magma Hideout| Magma Grunt #2 ": 2,
+        "Lvl 60 |Magma Hideout| Magma Grunt #7 ": 2,
+        "Lvl 57 |Magma Hideout| Magma Grunt #10 ": 1
+    },
+    "Pelipper": {
+        "Lvl 34 Kindler Bernie ": 2,
+        "Lvl 52 Bird Keeper Jared ": 2,
+        "Lvl 64 Bird Keeper Presley ": 1,
+        "Lvl 74 Bird Keeper Alberto ": 1
+    },
+    "Weezing": {
+        "Lvl 35 |Route 114| Magma Grunt #1 ": 0,
+        "Lvl 37 Ruin Maniac Eli ": 2,
+        "Lvl 45 Ninja Boy Takashi ": 0,
+        "Lvl 50 Ninja Boy Keigo ": 1,
+        "Lvl 62 |Magma Hideout| Magma Grunt #13 ": 0,
+        "Lvl 63 |Magma Hideout| Magma Grunt #16 ": 2,
+        "Lvl 66 |Mossdeep Space Center| Magma Grunt #5 ": 1,
+        "Lvl 74 Ninja Boy Jonas ": 1,
+        "Lvl 88 Cooltrainer Caroline ": 3
+    },
+    "Rapidash": {
+        "Lvl 36 |Route 114| Magma Grunt #1 ": 2,
+        "Lvl 36 Beauty Melissa ": 1,
+        "Lvl 39 Aroma Lady Colette ": 3,
+        "Lvl 39 Triathlete Jace ": 3,
+        "Lvl 41 Triathlete Mary ": 4,
+        "Lvl 43 Triathlete Kyra ": 0,
+        "Lvl 64 |Magma Hideout| Magma Grunt #14 ": 5,
+        "Lvl 65 Triathlete Pablo ": 0
+    },
+    "Bellossom": {
+        "Lvl 35 |Route 114| Magma Grunt #1 ": 3,
+        "Lvl 38 Aroma Lady Colette ": 0,
+        "Lvl 59 |Magma Hideout| Magma Grunt #3 ": 3,
+        "Lvl 66 Swimmerm Santiago ": 1
+    },
+    "Exploud": {
+        "Lvl 35 |Route 114| Magma Grunt #2 ": 0,
+        "Lvl 37 Ruin Maniac Eli ": 0,
+        "Lvl 43 Pokéfan Parker ": 3,
+        "Lvl 43 Guitarist Dalton ": 1,
+        "Lvl 59 |Magma Hideout| Magma Grunt #7 ": 5,
+        "Lvl 62 |Magma Hideout| Magma Grunt #12 ": 4,
+        "Lvl 74 Guitarist Fernando ": 1
+    },
+    "Marowak": {
+        "Lvl 36 |Route 114| Magma Grunt #2 ": 1,
+        "Lvl 37 Expert Shelby ": 2,
+        "Lvl 42 Cooltrainer Jody ": 1,
+        "Lvl 66 Ruin Maniac Andres ": 1,
+        "Lvl 60 |Magma Hideout| Magma Grunt #10 ": 0,
+        "Lvl 66 Sr And Jr Kim & Iris ": 1,
+        "Lvl 100 Gentleman Franklin ": 1,
+        "Lvl 75 Cooltrainer Braxton ": 1,
+        "Lvl 81 Cooltrainer Albert ": 1
+    },
+    "Altaria": {
+        "Lvl 35 |Route 114| Magma Grunt #2 ": 2,
+        "Lvl 35 |Jagged Pass| Magma Grunt #2 ": 1,
+        "Lvl 37 Triathlete Geraldine ": 1,
+        "Lvl 40 Triathlete Randall ": 4,
+        "Lvl 44 Bird Keeper Hugh ": 1,
+        "Lvl 50 Bird Keeper Robert ": 1,
+        "Lvl 53 Bird Keeper Jared ": 5,
+        "Lvl 60 |Magma Hideout| Magma Grunt #8 ": 4,
+        "Lvl 63 |Magma Hideout| Magma Grunt #15 ": 3,
+        "Lvl 66 Triathlete Allison ": 1,
+        "Lvl 66 |Mossdeep Space Center| Magma Grunt #5 ": 2,
+        "Lvl 67 Bird Keeper Alex ": 0,
+        "Lvl 74 Cooltrainer Alexa ": 4
+    },
+    "Vileplume": {
+        "Lvl 35 |Route 114| Magma Grunt #2 ": 3,
+        "Lvl 38 Aroma Lady Colette ": 2,
+        "Lvl 45 Cooltrainer Carolina ": 2,
+        "Lvl 56 |Magma Hideout| Magma Grunt #1 ": 1,
+        "Lvl 61 |Magma Hideout| Magma Grunt #8 ": 5,
+        "Lvl 74 Aroma Lady Violet ": 2
+    },
+    "Venusaur": {
+        "Lvl 34 |Route 114| Magma Grunt #3 ": 2,
+        "Lvl 58 |Magma Hideout| Magma Grunt #5 ": 3,
+        "Lvl 59 |Magma Hideout| Magma Grunt #11 ": 2,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #2 ": 1,
+        "Lvl 87 Expert Halle ": 1
+    },
+    "Dodrio": {
+        "Lvl 34 |Route 114| Magma Grunt #3 ": 3,
+        "Lvl 37 Triathlete Jace ": 2,
+        "Lvl 43 Cooltrainer Jody ": 0,
+        "Lvl 44 Bird Keeper Hugh ": 0,
+        "Lvl 50 Bird Keeper Robert ": 0,
+        "Lvl 60 |Magma Hideout| Magma Grunt #5 ": 4,
+        "Lvl 61 |Magma Hideout| Magma Grunt #10 ": 4,
+        "Lvl 66 Triathlete Chase ": 2,
+        "Lvl 66 |Mossdeep Space Center| Magma Grunt #4 ": 0,
+        "Lvl 75 Cooltrainer Wendy ": 1,
+        "Lvl 88 Expert Edgar ": 5
+    },
+    "Torkoal": {
+        "Lvl 35 |Route 114| Magma Grunt #4 ": 2,
+        "Lvl 38 Kindler Jeff ": 3,
+        "Lvl 39 Pokémaniac Axle ": 0,
+        "Lvl 45 Cooltrainer Carolina ": 1,
+        "Lvl 60 |Magma Hideout| Magma Grunt #6 ": 1,
+        "Lvl 63 |Magma Hideout| Magma Grunt #11 ": 5
+    },
+    "Golem": {
+        "Lvl 36 |Route 114| Magma Grunt #4 ": 4,
+        "Lvl 36 |Mt. Chimney| Magma Grunt #1 ": 1,
+        "Lvl 63 |Magma Hideout| Magma Grunt #7 ": 4
+    },
+    "Sandslash": {
+        "Lvl 35 |Route 114| Magma Grunt #5 ": 0,
+        "Lvl 40 Picnicker Becky ": 0,
+        "Lvl 40 Picnicker Celia ": 0,
+        "Lvl 42 Youngster Deandre ": 2,
+        "Lvl 60 |Magma Hideout| Magma Grunt #6 ": 5
+    },
+    "Zangoose": {
+        "Lvl 35 |Route 114| Magma Grunt #5 ": 2,
+        "Lvl 43 Cooltrainer Jody ": 5,
+        "Lvl 87 Cooltrainer Owen ": 4
+    },
+    "Jumpluff": {
+        "Lvl 35 |Route 114| Magma Grunt #6 ": 0,
+        "Lvl 36 Beauty Sheila ": 2,
+        "Lvl 50 Parasol Lady Angelica ": 0,
+        "Lvl 59 |Magma Hideout| Magma Grunt #6 ": 3,
+        "Lvl 63 |Magma Hideout| Magma Grunt #13 ": 2,
+        "Lvl 99 Cooltrainer Debra ": 2,
+        "Lvl 75 Ninja Boy Jonas ": 2
+    },
+    "Xatu": {
+        "Lvl 34 |Route 114| Magma Grunt #6 ": 2,
+        "Lvl 66 Bird Keeper Josue ": 1,
+        "Lvl 45 Bird Keeper Phil ": 1,
+        "Lvl 58 |Magma Hideout| Magma Grunt #3 ": 1,
+        "Lvl 66 Psychic Maura ": 1
+    },
+    "Chansey": {
+        "Lvl 34 |Route 114| Magma Grunt #6 ": 3
+    },
+    "Arcanine": {
+        "Lvl 35 |Route 114| Magma Grunt #7 ": 2,
+        "Lvl 41 Leader Flannery ": 3,
+        "Lvl 52 Pokéfan Vanessa ": 1,
+        "Lvl 59 |Magma Hideout| Magma Grunt #3 ": 4,
+        "Lvl 62 |Magma Hideout| Magma Grunt #12 ": 5,
+        "Lvl 88 Cooltrainer Katelynn ": 5
+    },
+    "Granbull": {
+        "Lvl 35 |Route 114| Magma Grunt #7 ": 3,
+        "Lvl 35 |Mt. Chimney| Magma Grunt #2 ": 2,
+        "Lvl 41 Triathlete Randall ": 1,
+        "Lvl 44 Parasol Lady Missy ": 0,
+        "Lvl 57 |Magma Hideout| Magma Grunt #4 ": 0,
+        "Lvl 61 |Magma Hideout| Magma Grunt #11 ": 3,
+        "Lvl 62 |Magma Hideout| Magma Grunt #13 ": 1,
+        "Lvl 66 Cooltrainer Hannah ": 0,
+        "Lvl 67 Battle Girl Reyna ": 0,
+        "Lvl 87 Expert Halle ": 0
+    },
+    "Steelix": {
+        "Lvl 36 |Route 114| Magma Grunt #8 ": 0,
+        "Lvl 54 Cooltrainer Cristin ": 0,
+        "Lvl 69 |Mossdeep Space Center| Magma Grunt #4 ": 2
+    },
+    "Misdreavus": {
+        "Lvl 36 |Route 114| Magma Grunt #8 ": 1,
+        "Lvl 46 Ninja Boy Takashi ": 2,
+        "Lvl 52 Pokéfan Vanessa ": 0,
+        "Lvl 52 Hex Maniac Leah ": 0,
+        "Lvl 60 |Magma Hideout| Magma Grunt #6 ": 0,
+        "Lvl 63 |Magma Hideout| Magma Grunt #15 ": 2,
+        "Lvl 69 Hex Maniac Sylvia ": 1,
+        "Lvl 69 Hex Maniac Kathleen ": 2,
+        "Lvl 65 Triathlete Talia ": 0,
+        "Lvl 74 Hex Maniac Kindra ": 0,
+        "Lvl 84 Expert Dianne ": 0
+    },
+    "Nidoking": {
+        "Lvl 35 |Route 114| Magma Grunt #9 ": 0,
+        "Lvl 38 Pokémaniac Axle ": 3,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #3 ": 2,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #9 ": 2,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #3 ": 2,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #7 ": 3,
+        "Lvl 65 Triathlete Isabella ": 0,
+        "Lvl 84 Expert Samuel ": 0
+    },
+    "Scizor": {
+        "Lvl 35 |Route 114| Magma Grunt #9 ": 1,
+        "Lvl 51 Ninja Boy Keigo ": 2,
+        "Lvl 73 Battle Girl Crissy ": 4,
+        "Lvl 74 Bug Maniac Davis ": 2
+    },
+    "Grumpig": {
+        "Lvl 35 Psychic Marlene ": 0,
+        "Lvl 42 Pokéfan Parker ": 4,
+        "Lvl 43 Psychic Alix ": 0,
+        "Lvl 52 Hex Maniac Leah ": 2,
+        "Lvl 66 Swimmerm Clarence ": 1,
+        "Lvl 66 Psychic Blake ": 0,
+        "Lvl 74 Psychic Cameron ": 0,
+        "Lvl 81 Cooltrainer Albert ": 4,
+        "Lvl 87 Expert Quincy ": 5
+    },
+    "Medicham": {
+        "Lvl 35 Psychic Marlene ": 1,
+        "Lvl 37 Expert Shelby ": 1,
+        "Lvl 42 Cooltrainer Jody ": 2,
+        "Lvl 46 Battle Girl Cyndy ": 0,
+        "Lvl 53 Sr And Jr Kate And Joy ": 1,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #6 ": 5,
+        "Lvl 70 Gym Leaders Tate&liza ": 3,
+        "Lvl 65 Swimmerf Kara ": 0,
+        "Lvl 70 Battle Girl Crissy ": 0,
+        "Lvl 67 Black Belt Kiyo ": 0,
+        "Lvl 100 Gentleman Franklin ": 2,
+        "Lvl 81 Cooltrainer Albert ": 5
+    },
+    "Hypno": {
+        "Lvl 35 Psychic Marlene ": 2,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #9 ": 4,
+        "Lvl 61 |Aqua Hideout| Aqua Grunt #2 ": 4,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #3 ": 5,
+        "Lvl 66 Psychic Blake ": 2,
+        "Lvl 74 Psychic Cameron ": 2,
+        "Lvl 86 Expert Dianne ": 5
+    },
+    "Banette": {
+        "Lvl 35 |Mt. Chimney| Magma Grunt #1 ": 0,
+        "Lvl 44 Ninja Boy Yasu ": 1,
+        "Lvl 52 Hex Maniac Tammy ": 2,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #2 ": 2,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #10 ": 3,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #3 ": 1,
+        "Lvl 64 Swimmerf Katie ": 1,
+        "Lvl 73 Cooltrainer Ruben ": 3,
+        "Lvl 88 Cooltrainer Katelynn ": 2
+    },
+    "Gengar": {
+        "Lvl 36 |Mt. Chimney| Magma Grunt #2 ": 3,
+        "Lvl 36 |Jagged Pass| Magma Grunt #2 ": 0,
+        "Lvl 50 Cooltrainer Jerome ": 3,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #7 ": 4,
+        "Lvl 56 |Magma Hideout| Magma Grunt #2 ": 0,
+        "Lvl 58 |Magma Hideout| Magma Grunt #8 ": 1,
+        "Lvl 59 |Magma Hideout| Magma Grunt #12 ": 0,
+        "Lvl 68 Hex Maniac Kathleen ": 0,
+        "Lvl 69 |Seafloor Cavern| Aqua Grunt #5 ": 3,
+        "Lvl 74 Expert Annika ": 0,
+        "Lvl 70 Cooltrainer Marley ": 0,
+        "Lvl 74 Hex Maniac Kindra ": 1,
+        "Lvl 75 Old Couple Miu & Yuki ": 1,
+        "Lvl 87 Expert Mitchell ": 5,
+        "Lvl 100 Elite Four Phoebe ": 0
+    },
+    "Donphan": {
+        "Lvl 36 |Jagged Pass| Magma Grunt #1 ": 1,
+        "Lvl 40 Camper Drew ": 0,
+        "Lvl 57 |Magma Hideout| Magma Grunt #1 ": 2
+    },
+    "Solrock": {
+        "Lvl 35 |Jagged Pass| Magma Grunt #1 ": 2,
+        "Lvl 37 Ruin Maniac Eli ": 1,
+        "Lvl 58 |Magma Hideout| Magma Grunt #2 ": 4,
+        "Lvl 60 |Magma Hideout| Magma Grunt #10 ": 2,
+        "Lvl 63 |Magma Hideout| Magma Grunt #16 ": 0,
+        "Lvl 66 Psychic Preston ": 0,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #3 ": 0,
+        "Lvl 74 Psychic Cameron ": 1,
+        "Lvl 74 Cooltrainer Alexa ": 0,
+        "Lvl 81 Cooltrainer Hope ": 5
+    },
+    "Scyther": {
+        "Lvl 35 |Jagged Pass| Magma Grunt #2 ": 2,
+        "Lvl 53 Ninja Boy Edwardo ": 5,
+        "Lvl 70 Expert Conor ": 0
+    },
+    "Mr. Mime": {
+        "Lvl 35 |Jagged Pass| Magma Grunt #3 ": 0,
+        "Lvl 43 Cooltrainer Berke ": 3,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #2 ": 4
+    },
+    "Clefable": {
+        "Lvl 36 |Jagged Pass| Magma Grunt #3 ": 1,
+        "Lvl 38 Beauty Danielle ": 1,
+        "Lvl 42 Pokéfan Alexia ": 5,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #6 ": 4,
+        "Lvl 63 |Magma Hideout| Magma Grunt #15 ": 4,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #2 ": 3,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #4 ": 4,
+        "Lvl 67 Cooltrainer Virgil ": 0,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #1 ": 0,
+        "Lvl 71 Pokéfan Bethany ": 2,
+        "Lvl 99 Cooltrainer Debra ": 0
+    },
+    "Meganium": {
+        "Lvl 35 |Jagged Pass| Magma Grunt #3 ": 2,
+        "Lvl 43 Aroma Lady Rose ": 1,
+        "Lvl 63 |Magma Hideout| Magma Grunt #15 ": 1,
+        "Lvl 71 Pokéfan Bethany ": 3,
+        "Lvl 74 Aroma Lady Violet ": 1
+    },
+    "Kingler": {
+        "Lvl 35 Camper Ethan ": 0,
+        "Lvl 43 Fisherman Wade ": 0,
+        "Lvl 67 Swimmerm Reed ": 1,
+        "Lvl 69 Fisherman Ronald ": 4
+    },
+    "Pinsir": {
+        "Lvl 35 Camper Ethan ": 1,
+        "Lvl 45 Bug Maniac Darrin ": 1,
+        "Lvl 52 Bug Maniac Ali ": 2,
+        "Lvl 87 Cooltrainer Owen ": 5
+    },
+    "Tangela": {
+        "Lvl 36 Picnicker Diana ": 0,
+        "Lvl 38 Triathlete Geraldine ": 0,
+        "Lvl 66 Swimmerm Reed ": 0
+    },
+    "Persian": {
+        "Lvl 36 Triathlete Julio ": 0,
+        "Lvl 44 Cooltrainer Berke ": 5,
+        "Lvl 52 Beauty Jessica ": 2,
+        "Lvl 51 Hex Maniac Valerie ": 1
+    },
+    "Swalot": {
+        "Lvl 35 Triathlete Julio ": 1,
+        "Lvl 43 Ninja Boy Jaiden ": 1,
+        "Lvl 48 Guitarist Beth ": 1,
+        "Lvl 66 Swimmerf Tisha ": 1
+    },
+    "Sealeo": {
+        "Lvl 37 Triathlete Julio ": 2
+    },
+    "Ledian": {
+        "Lvl 37 Beauty Shirley ": 0,
+        "Lvl 53 Bug Maniac Ali ": 0
+    },
+    "Cloyster": {
+        "Lvl 37 Expert Shelby ": 0,
+        "Lvl 46 |Weather Institute| Aqua Grunt #3 ": 0,
+        "Lvl 51 Cooltrainer Jerome ": 1,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #5 ": 2,
+        "Lvl 63 |Aqua Hideout| Aqua Grunt #2 ": 0,
+        "Lvl 85 Expert Julie ": 1
+    },
+    "Ursaring": {
+        "Lvl 37 Expert Shelby ": 3,
+        "Lvl 42 Triathlete Mary ": 5,
+        "Lvl 45 |Weather Institute| Aqua Grunt #4 ": 3,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #2 ": 3,
+        "Lvl 76 Expert Frederick ": 0,
+        "Lvl 81 Cooltrainer Albert ": 2
+    },
+    "Primeape": {
+        "Lvl 36 Hiker Sawyer ": 2,
+        "Lvl 40 Triathlete Mary ": 0
+    },
+    "Blissey": {
+        "Lvl 37 Aroma Lady Colette ": 1,
+        "Lvl 42 Pokéfan Alexia ": 3,
+        "Lvl 52 Cooltrainer Cristin ": 4,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #6 ": 4,
+        "Lvl 69 |Seafloor Cavern| Aqua Grunt #5 ": 2
+    },
+    "Seviper": {
+        "Lvl 38 Triathlete Jace ": 1,
+        "Lvl 45 |Weather Institute| Aqua Grunt #1 ": 4,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #2 ": 0
+    },
+    "Slowbro": {
+        "Lvl 38 Beauty Danielle ": 0,
+        "Lvl 46 |Weather Institute| Aqua Grunt #1 ": 5,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #7 ": 3,
+        "Lvl 66 Psychic Samantha ": 1,
+        "Lvl 67 Swimmerm Jack ": 0,
+        "Lvl 87 Expert Dianne ": 3
+    },
+    "Slowking": {
+        "Lvl 38 Pokémaniac Axle ": 2,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #3 ": 4,
+        "Lvl 65 |Aqua Hideout| Aqua Grunt #3 ": 3,
+        "Lvl 66 Psychic Blake ": 1,
+        "Lvl 87 Expert Halle ": 3
+    },
+    "Victreebel": {
+        "Lvl 38 Expert Keegan ": 3,
+        "Lvl 59 |Magma Hideout| Magma Grunt #4 ": 1,
+        "Lvl 64 |Magma Hideout| Magma Grunt #14 ": 2,
+        "Lvl 63 |Aqua Hideout| Aqua Grunt #8 ": 4,
+        "Lvl 66 Swimmerm Clarence ": 2,
+        "Lvl 68 |Seafloor Cavern| Aqua Grunt #1 ": 3,
+        "Lvl 71 Parasol Lady Daphne ": 2
+    },
+    "Houndoom": {
+        "Lvl 39 Expert Keegan ": 4,
+        "Lvl 51 Cooltrainer Marcel ": 4,
+        "Lvl 60 |Magma Hideout| Magma Grunt #16 ": 4,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #2 ": 2,
+        "Lvl 100 Elite Four Sidney ": 5
+    },
+    "Charizard": {
+        "Lvl 42 Leader Flannery ": 1,
+        "Lvl 53 Dragon Tamer Sora ": 0,
+        "Lvl 59 |Magma Hideout| Magma Grunt #4 ": 3,
+        "Lvl 60 |Magma Hideout| Magma Grunt #9 ": 5,
+        "Lvl 65 Swimmerm Reed ": 2
+    },
+    "Blaziken": {
+        "Lvl 42 Leader Flannery ": 2,
+        "Lvl 61 |Magma Hideout| Magma Grunt #10 ": 5,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #3 ": 5,
+        "Lvl 85 Cooltrainer Owen ": 1
+    },
+    "Typhlosion": {
+        "Lvl 42 Leader Flannery ": 4,
+        "Lvl 60 |Magma Hideout| Magma Grunt #8 ": 2,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #2 ": 0,
+        "Lvl 99 Pokémaniac Gilbert ": 1,
+        "Lvl 87 Expert Halle ": 2
+    },
+    "Castform": {
+        "Lvl 40 Camper Beau ": 0,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #8 ": 5,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #1 ": 2,
+        "Lvl 74 Parasol Lady Kayley ": 0,
+        "Lvl 70 Fisherman Wayne ": 3
+    },
+    "Sceptile": {
+        "Lvl 40 Triathlete Mary ": 2,
+        "Lvl 50 Dragon Tamer Sora ": 1,
+        "Lvl 71 Triathlete Brianna ": 2,
+        "Lvl 99 Pokémaniac Gilbert ": 0,
+        "Lvl 69 Cooltrainer Jonathan ": 0,
+        "Lvl 87 Expert Felix ": 2
+    },
+    "Crawdaunt": {
+        "Lvl 41 Triathlete Mary ": 3,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #3 ": 1
+    },
+    "Umbreon": {
+        "Lvl 42 Pokéfan Parker ": 1,
+        "Lvl 45 |Weather Institute| Aqua Grunt #3 ": 2,
+        "Lvl 52 Gentleman Walter ": 5,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #6 ": 0,
+        "Lvl 61 |Magma Hideout| Magma Grunt #13 ": 4,
+        "Lvl 81 Cooltrainer Hope ": 2,
+        "Lvl 85 Expert Quincy ": 3
+    },
+    "Tentacruel": {
+        "Lvl 41 Pokéfan Parker ": 2,
+        "Lvl 40 Fisherman Chris ": 1,
+        "Lvl 46 |Weather Institute| Aqua Grunt #4 ": 5,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #6 ": 1,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #2 ": 2,
+        "Lvl 64 Fisherman Henry ": 1,
+        "Lvl 66 Fisherman Ronald ": 2,
+        "Lvl 85 Cooltrainer Owen ": 3
+    },
+    "Glalie": {
+        "Lvl 41 Pokéfan Alexia ": 0,
+        "Lvl 43 Ruin Maniac Foster ": 1,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #7 ": 0,
+        "Lvl 60 |Magma Hideout| Magma Grunt #9 ": 1,
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #3 ": 0,
+        "Lvl 70 |Seafloor Cavern| Aqua Grunt #4 ": 4,
+        "Lvl 86 Expert Quincy ": 0,
+        "Lvl 100 Elite Four Glacia ": 0
+    },
+    "Dusclops": {
+        "Lvl 42 Pokéfan Alexia ": 2,
+        "Lvl 50 Ninja Boy Edwardo ": 1,
+        "Lvl 66 Hex Maniac Kathleen ": 1,
+        "Lvl 66 Cooltrainer Athena ": 1,
+        "Lvl 85 Expert Quincy ": 2,
+        "Lvl 90 Winstrate Vito ": 0,
+        "Lvl 100 Elite Four Phoebe ": 5
+    },
+    "Claydol": {
+        "Lvl 42 Pokéfan Alexia ": 4,
+        "Lvl 51 Ninja Boy Edwardo ": 3,
+        "Lvl 51 Ruin Maniac Chip ": 1,
+        "Lvl 59 |Magma Hideout| Magma Grunt #4 ": 2,
+        "Lvl 58 |Magma Hideout| Magma Grunt #12 ": 1,
+        "Lvl 63 |Magma Hideout| Magma Grunt #14 ": 4,
+        "Lvl 66 Psychic Preston ": 2,
+        "Lvl 67 Gentleman Nate ": 2,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #3 ": 4,
+        "Lvl 74 Psychic Jacki ": 2,
+        "Lvl 85 Expert Julie ": 2,
+        "Lvl 88 Expert Mitchell ": 4
+    },
+    "Vaporeon": {
+        "Lvl 42 Cooltrainer Jody ": 4,
+        "Lvl 51 Gentleman Walter ": 2,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #8 ": 3,
+        "Lvl 73 Expert Annika ": 3,
+        "Lvl 77 Leader #2 Juan ": 5,
+        "Lvl 81 Cooltrainer Hope ": 4
+    },
+    "Espeon": {
+        "Lvl 48 Leader Norman ": 1,
+        "Lvl 52 Gentleman Walter ": 4,
+        "Lvl 61 |Magma Hideout| Magma Grunt #13 ": 3,
+        "Lvl 67 Gentleman Nate ": 0,
+        "Lvl 81 Cooltrainer Hope ": 1
+    },
+    "Tauros": {
+        "Lvl 48 Leader Norman ": 4,
+        "Lvl 75 Old Couple John & Jay ": 1,
+        "Lvl 100 Elite Four Sidney ": 2
+    },
+    "Snorlax": {
+        "Lvl 48 Leader Norman ": 5,
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #1 ": 5,
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #7 ": 4,
+        "Lvl 66 Expert Clifford ": 1,
+        "Lvl 68 |Seafloor Cavern| Aqua Grunt #2 ": 4,
+        "Lvl 73 Cooltrainer Olivia ": 1,
+        "Lvl 69 Cooltrainer Darcy ": 0,
+        "Lvl 76 Expert Frederick ": 2,
+        "Lvl 84 Expert Julie ": 5
+    },
+    "Starmie": {
+        "Lvl 43 Ninja Boy Jaiden ": 0,
+        "Lvl 45 |Route 108| Aqua Grunt ": 0,
+        "Lvl 46 |Weather Institute| Aqua Grunt #2 ": 3,
+        "Lvl 54 |Mt. Pyre| Aqua Grunt #8 ": 5,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #5 ": 1,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #7 ": 5,
+        "Lvl 70 Gym Leaders Tate&liza ": 4,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #1 ": 0,
+        "Lvl 70 Triathlete Brianna ": 5,
+        "Lvl 74 Psychic Jacki ": 0,
+        "Lvl 75 Old Couple Miu & Yuki ": 2,
+        "Lvl 88 Expert Felix ": 0,
+        "Lvl 100 Champion Steven ": 1
+    },
+    "Exeggutor": {
+        "Lvl 43 Psychic Alix ": 1,
+        "Lvl 45 |Weather Institute| Aqua Grunt #1 ": 1,
+        "Lvl 52 Cooltrainer Cristin ": 3,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #3 ": 0,
+        "Lvl 59 |Magma Hideout| Magma Grunt #12 ": 2,
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #1 ": 0,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #6 ": 3,
+        "Lvl 66 Psychic Samantha ": 2,
+        "Lvl 67 |Mossdeep Space Center| Magma Grunt #1 ": 1,
+        "Lvl 69 |Seafloor Cavern| Aqua Grunt #5 ": 1,
+        "Lvl 71 Fisherman Wayne ": 4,
+        "Lvl 85 Cooltrainer Owen ": 2
+    },
+    "Kingdra": {
+        "Lvl 46 Expert Timothy ": 0,
+        "Lvl 50 Dragon Tamer Sora ": 3,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #2 ": 5,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #8 ": 1,
+        "Lvl 66 |Seafloor Cavern| Aqua Grunt #4 ": 5,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #5 ": 5,
+        "Lvl 75 Aqua Leader Archie ": 5,
+        "Lvl 76 Leader #1 Wallace ": 0,
+        "Lvl 77 Leader #2 Juan ": 0,
+        "Lvl 74 Hex Maniac Kindra ": 2,
+        "Lvl 85 Cooltrainer Caroline ": 4,
+        "Lvl 100 Elite Four Drake ": 3
+    },
+    "Whiscash": {
+        "Lvl 42 Fisherman Wade ": 1,
+        "Lvl 46 |Weather Institute| Aqua Grunt #3 ": 1,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #1 ": 3,
+        "Lvl 65 |Route 124| Aqua Grunt #2 ": 2,
+        "Lvl 66 Swimmerf Tisha ": 0,
+        "Lvl 65 Swimmerm Herman ": 1,
+        "Lvl 73 Beauty Connie ": 3,
+        "Lvl 74 Parasol Lady Daphne ": 3,
+        "Lvl 74 Parasol Lady Kayley ": 1,
+        "Lvl 71 Fisherman Wayne ": 1
+    },
+    "Huntail": {
+        "Lvl 42 Fisherman Barny ": 3,
+        "Lvl 47 |Weather Institute| Aqua Grunt #5 ": 2,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #1 ": 2,
+        "Lvl 65 Swimmerm Herman ": 0
+    },
+    "Jynx": {
+        "Lvl 42 Guitarist Dalton ": 2,
+        "Lvl 50 Parasol Lady Clarissa ": 2,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #4 ": 1,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #10 ": 0,
+        "Lvl 65 |Aqua Hideout| Aqua Grunt #4 ": 0,
+        "Lvl 66 Psychic Samantha ": 0,
+        "Lvl 84 Expert Samuel ": 2
+    },
+    "Sharpedo": {
+        "Lvl 44 Fisherman Chris ": 3,
+        "Lvl 46 |Weather Institute| Aqua Grunt #1 ": 0,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #2 ": 1,
+        "Lvl 66 Swimmerm Clarence ": 0
+    },
+    "Cradily": {
+        "Lvl 45 |Weather Institute| Aqua Grunt #2 ": 2,
+        "Lvl 51 Ruin Maniac Chip ": 2,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #10 ": 2,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #7 ": 1,
+        "Lvl 84 Expert Samuel ": 1,
+        "Lvl 87 Expert Halle ": 5
+    },
+    "Muk": {
+        "Lvl 45 |Weather Institute| Aqua Grunt #2 ": 4,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #4 ": 0,
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #6 ": 1,
+        "Lvl 87 Expert Julie ": 3
+    },
+    "Walrein": {
+        "Lvl 46 |Weather Institute| Aqua Grunt #2 ": 5,
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #1 ": 0,
+        "Lvl 54 |Mt. Pyre| Aqua Grunt #9 ": 3,
+        "Lvl 60 |Magma Hideout| Magma Grunt #9 ": 3,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #1 ": 3,
+        "Lvl 73 Parasol Lady Daphne ": 4,
+        "Lvl 67 Sailor Hudson ": 0,
+        "Lvl 72 Cooltrainer Ruben ": 2,
+        "Lvl 88 Cooltrainer Katelynn ": 0
+    },
+    "Omastar": {
+        "Lvl 46 |Weather Institute| Aqua Grunt #3 ": 3,
+        "Lvl 54 |Mt. Pyre| Aqua Grunt #7 ": 5,
+        "Lvl 65 |Aqua Hideout| Aqua Grunt #5 ": 3,
+        "Lvl 65 |Route 124| Aqua Grunt #1 ": 2,
+        "Lvl 70 |Seafloor Cavern| Aqua Grunt #5 ": 0,
+        "Lvl 75 Expert Annika ": 1
+    },
+    "Gorebyss": {
+        "Lvl 46 |Weather Institute| Aqua Grunt #3 ": 5,
+        "Lvl 50 Cooltrainer Jennifer ": 0,
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #6 ": 2,
+        "Lvl 65 |Aqua Hideout| Aqua Grunt #8 ": 2,
+        "Lvl 64 |Route 124| Aqua Grunt #2 ": 1,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #3 ": 0,
+        "Lvl 75 Cooltrainer Olivia ": 0,
+        "Lvl 70 Fisherman Wayne ": 0
+    },
+    "Armaldo": {
+        "Lvl 46 |Weather Institute| Aqua Grunt #4 ": 0,
+        "Lvl 51 Bug Maniac Jeffrey ": 3,
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #7 ": 2,
+        "Lvl 62 |Magma Hideout| Magma Grunt #11 ": 1,
+        "Lvl 66 Cooltrainer Virgil ": 2,
+        "Lvl 63 Fisherman Roger ": 1,
+        "Lvl 88 Expert Edgar ": 3
+    },
+    "Kabutops": {
+        "Lvl 47 |Weather Institute| Aqua Grunt #4 ": 1,
+        "Lvl 52 Ruin Maniac Chip ": 3,
+        "Lvl 51 |Mt. Pyre| Aqua Grunt #1 ": 5,
+        "Lvl 70 |Seafloor Cavern| Aqua Grunt #2 ": 0,
+        "Lvl 76 Cooltrainer Olivia ": 2
+    },
+    "Dewgong": {
+        "Lvl 46 |Weather Institute| Aqua Grunt #5 ": 5,
+        "Lvl 51 Beauty Jessica ": 1,
+        "Lvl 55 |Mt. Pyre| Aqua Grunt #8 ": 1,
+        "Lvl 65 |Route 124| Aqua Grunt #2 ": 0,
+        "Lvl 69 |Seafloor Cavern| Aqua Grunt #1 ": 2,
+        "Lvl 73 Pokéfan Bethany ": 4,
+        "Lvl 67 Sailor Kelvin ": 1,
+        "Lvl 100 Elite Four Glacia ": 3
+    },
+    "Ditto": {
+        "Lvl 50 Ninja Boy Hideo ": 3,
+        "Lvl 70 Cooltrainer Warren ": 0,
+        "Lvl 87 Expert Shannon ": 0
+    },
+    "Politoed": {
+        "Lvl 50 Parasol Lady Clarissa ": 1,
+        "Lvl 70 |Seafloor Cavern| Aqua Grunt #5 ": 4,
+        "Lvl 72 Parasol Lady Daphne ": 1,
+        "Lvl 74 Pokéfan Bethany ": 1
+    },
+    "Salamence": {
+        "Lvl 53 Dragon Tamer Sora ": 5,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #2 ": 5,
+        "Lvl 73 Cooltrainer Olivia ": 3,
+        "Lvl 76 Dragon Tamer Nicolas ": 0,
+        "Lvl 70 Dragon Tamer Aaron ": 0,
+        "Lvl 76 Cooltrainer Jazmyn ": 2,
+        "Lvl 86 Expert Mitchell ": 0,
+        "Lvl 90 Winstrate Vito ": 2,
+        "Lvl 100 Elite Four Drake ": 2
+    },
+    "Aerodactyl": {
+        "Lvl 54 Leader Winona ": 0,
+        "Lvl 75 Old Couple John & Jay ": 0,
+        "Lvl 86 Expert Mitchell ": 2,
+        "Lvl 100 Champion Steven ": 4
+    },
+    "Zapdos": {
+        "Lvl 55 Leader Winona ": 1
+    },
+    "Crobat": {
+        "Lvl 54 Leader Winona ": 2,
+        "Lvl 52 Cooltrainer Cristin ": 2,
+        "Lvl 56 |Magma Hideout| Magma Grunt #5 ": 1,
+        "Lvl 76 Cooltrainer Jazmyn ": 1,
+        "Lvl 70 Fisherman Wayne ": 2,
+        "Lvl 87 Expert Felix ": 4,
+        "Lvl 100 Elite Four Phoebe ": 2
+    },
+    "Articuno": {
+        "Lvl 55 Leader Winona ": 3
+    },
+    "Flygon": {
+        "Lvl 55 Leader Winona ": 4,
+        "Lvl 50 Bug Maniac Jeffrey ": 1,
+        "Lvl 51 Cooltrainer Marcel ": 1,
+        "Lvl 56 |Magma Hideout| Magma Grunt #3 ": 0,
+        "Lvl 58 |Magma Hideout| Magma Grunt #11 ": 4,
+        "Lvl 67 Expert Auron ": 0,
+        "Lvl 75 Old Couple Miu & Yuki ": 3,
+        "Lvl 71 Cooltrainer Ruben ": 1,
+        "Lvl 86 Expert Halle ": 4,
+        "Lvl 86 Expert Mitchell ": 1
+    },
+    "Moltres": {
+        "Lvl 55 Leader Winona ": 5
+    },
+    "Golduck": {
+        "Lvl 50 Bird Keeper Colin ": 1,
+        "Lvl 50 Hex Maniac Leah ": 3,
+        "Lvl 68 |Seafloor Cavern| Aqua Grunt #2 ": 3,
+        "Lvl 73 Triathlete Brianna ": 3,
+        "Lvl 75 Expert Annika ": 5
+    },
+    "Aggron": {
+        "Lvl 52 Ruin Maniac Chip ": 0,
+        "Lvl 60 |Magma Hideout| Magma Grunt #4 ": 4,
+        "Lvl 61 |Magma Hideout| Magma Grunt #6 ": 2,
+        "Lvl 64 |Magma Hideout| Magma Grunt #16 ": 1
+    },
+    "Eevee": {
+        "Lvl 55 Gentleman Walter ": 0
+    },
+    "Machamp": {
+        "Lvl 50 Young Couple Dez & Luke ": 1,
+        "Lvl 67 Expert Auron ": 1,
+        "Lvl 100 Elite Four Sidney ": 4
+    },
+    "Feraligatr": {
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #2 ": 5,
+        "Lvl 54 |Mt. Pyre| Aqua Grunt #9 ": 1,
+        "Lvl 74 Battle Girl Crissy ": 3,
+        "Lvl 85 Expert Samuel ": 3
+    },
+    "Blastoise": {
+        "Lvl 50 |Mt. Pyre| Aqua Grunt #3 ": 3,
+        "Lvl 55 |Mt. Pyre| Aqua Grunt #10 ": 5,
+        "Lvl 99 Pokémaniac Gilbert ": 2,
+        "Lvl 68 Black Belt Hitoshi ": 1,
+        "Lvl 84 Expert Shannon ": 1
+    },
+    "Dragonite": {
+        "Lvl 55 |Mt. Pyre| Aqua Grunt #3 ": 5,
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #5 ": 4,
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #6 ": 0,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #1 ": 5,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #3 ": 2,
+        "Lvl 75 Aqua Leader Archie ": 3,
+        "Lvl 73 Expert Annika ": 2,
+        "Lvl 66 Fisherman Ronald ": 1,
+        "Lvl 84 Expert Dianne ": 2,
+        "Lvl 100 Elite Four Drake ": 4
+    },
+    "Sableye": {
+        "Lvl 48 |Mt. Pyre| Aqua Grunt #4 ": 3,
+        "Lvl 100 Elite Four Sidney ": 0,
+        "Lvl 100 Elite Four Phoebe ": 4
+    },
+    "Swampert": {
+        "Lvl 53 |Mt. Pyre| Aqua Grunt #4 ": 5,
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #1 ": 2,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #1 ": 1,
+        "Lvl 77 Leader #1 Wallace ": 3,
+        "Lvl 100 Elite Four Glacia ": 4
+    },
+    "Alakazam": {
+        "Lvl 52 Hex Maniac Valerie ": 2,
+        "Lvl 57 |Magma Hideout| Magma Grunt #8 ": 3,
+        "Lvl 66 Gentleman Nate ": 1,
+        "Lvl 66 Expert Paxton ": 0,
+        "Lvl 75 Old Couple Miu & Yuki ": 5,
+        "Lvl 95 Winstrate Vito ": 5,
+        "Lvl 100 Elite Four Sidney ": 3
+    },
+    "Milotic": {
+        "Lvl 52 |Mt. Pyre| Aqua Grunt #10 ": 1,
+        "Lvl 62 |Aqua Hideout| Aqua Grunt #4 ": 3,
+        "Lvl 63 Fisherman Jonah ": 0,
+        "Lvl 67 |Seafloor Cavern| Aqua Grunt #3 ": 3,
+        "Lvl 77 Leader #1 Wallace ": 5,
+        "Lvl 70 Cooltrainer Alexa ": 5,
+        "Lvl 95 Winstrate Vito ": 4
+    },
+    "Wailord": {
+        "Lvl 60 |Aqua Hideout| Aqua Grunt #3 ": 1,
+        "Lvl 59 |Aqua Hideout| Aqua Grunt #4 ": 1,
+        "Lvl 62 Fisherman Jonah ": 1,
+        "Lvl 70 |Seafloor Cavern| Aqua Grunt #4 ": 0,
+        "Lvl 75 Cooltrainer Olivia ": 5,
+        "Lvl 85 Expert Quincy ": 4,
+        "Lvl 100 Elite Four Glacia ": 1
+    },
+    "Lapras": {
+        "Lvl 64 |Aqua Hideout| Aqua Grunt #6 ": 2,
+        "Lvl 63 |Aqua Hideout| Aqua Grunt #8 ": 0,
+        "Lvl 69 Hex Maniac Sylvia ": 0,
+        "Lvl 76 Leader #1 Wallace ": 4,
+        "Lvl 76 Leader #2 Juan ": 1,
+        "Lvl 67 Expert Makayla ": 1,
+        "Lvl 100 Elite Four Glacia ": 5
+    },
+    "Tyranitar": {
+        "Lvl 66 Cooltrainer Hannah ": 2,
+        "Lvl 66 |Mossdeep Space Center| Magma Grunt #3 ": 2,
+        "Lvl 84 Expert Shannon ": 5,
+        "Lvl 100 Elite Four Drake ": 1
+    },
+    "Metagross": {
+        "Lvl 66 Expert Clifford ": 2,
+        "Lvl 75 Aqua Leader Archie ": 2,
+        "Lvl 73 Expert Annika ": 4,
+        "Lvl 74 Psychic Jacki ": 1,
+        "Lvl 84 Expert Julie ": 4,
+        "Lvl 90 Winstrate Vito ": 3,
+        "Lvl 100 Champion Steven ": 0
+    },
+    "Latias": {
+        "Lvl 70 Gym Leaders Tate&liza ": 0,
+        "Lvl 100 Elite Four Drake ": 5
+    },
+    "Latios": {
+        "Lvl 70 Gym Leaders Tate&liza ": 1,
+        "Lvl 100 Elite Four Drake ": 0
+    },
+    "Gardevoir": {
+        "Lvl 70 Gym Leaders Tate&liza ": 2,
+        "Lvl 68 Expert Mollie ": 0,
+        "Lvl 100 Elite Four Phoebe ": 3
+    },
+    "Jirachi": {
+        "Lvl 70 Gym Leaders Tate&liza ": 5,
+        "Lvl 100 Champion Steven ": 2
+    },
+    "Raikou": {
+        "Lvl 75 Aqua Leader Archie ": 0
+    },
+    "Suicune": {
+        "Lvl 75 Aqua Leader Archie ": 1
+    },
+    "Piloswine": {
+        "Lvl 70 Cooltrainer Warren ": 1
+    },
+    "Regice": {
+        "Lvl 100 Elite Four Glacia ": 2
+    },
+    "Mewtwo": {
+        "Lvl 100 Champion Steven ": 3
+    },
+    "Deoxys-Attack": {
+        "Lvl 100 Champion Steven ": 5
+    }
+};
+    if (typeof backup_data === "undefined" || !backup_data.formatted_sets) {
+        return;
+    }
+    Object.keys(subIndexes).forEach(function(species) {
+        if (!backup_data.formatted_sets[species]) {
+            return;
+        }
+        Object.keys(subIndexes[species]).forEach(function(setName) {
+            if (backup_data.formatted_sets[species][setName]) {
+                backup_data.formatted_sets[species][setName].sub_index = subIndexes[species][setName];
+            }
+        });
+    });
+})();
+// END EK PARTY ORDER SUB_INDEX PATCH

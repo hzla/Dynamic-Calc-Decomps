@@ -155,6 +155,40 @@ function applyGen3TypeCalcDamage(moveType, attackerTypes, defenderTypes, damage,
     return dmg;
 }
 
+function getGen3TypeEffectiveness(moveType, defenderType) {
+    if (!moveType || !defenderType) {
+        return 1;
+    }
+
+    var matchup = `${moveType}-${defenderType}`;
+    return matchup in GEN3_PHASE1_TYPE_MATCHUPS ? GEN3_PHASE1_TYPE_MATCHUPS[matchup] : 1;
+}
+
+function getGen3EmeraldPhase2MoveScore(attackerTypes, defenderTypes, defenderAbility, move) {
+    if (!move || !move.type) {
+        return 0;
+    }
+
+    var score = 1;
+    if (attackerTypes.includes(move.type)) {
+        score *= 1.5;
+    }
+
+    if (!(defenderAbility == "Levitate" && move.type == "Ground")) {
+        var scoredTypes = {};
+        for (var i = 0; i < defenderTypes.length; i++) {
+            var defenderType = defenderTypes[i];
+            if (!defenderType || scoredTypes[defenderType]) {
+                continue;
+            }
+            score *= getGen3TypeEffectiveness(move.type, defenderType);
+            scoredTypes[defenderType] = true;
+        }
+    }
+
+    return score;
+}
+
 var GEN3_PHYSICAL_TYPES = ["Normal", "Fighting", "Flying", "Ground", "Rock", "Bug", "Ghost", "Poison", "Steel"];
 var GEN3_EMERALD_POWER_ONE_MOVES = {
     "Guillotine": true,
@@ -187,6 +221,10 @@ function getGen3TypeBasedCategory(type) {
 
 function shouldUseGen3IndexedHiddenPowerMoves() {
     return typeof TITLE === "string" && TITLE == "Emerald Kaizo";
+}
+
+function shouldUseGen3EmeraldPhase2Scores() {
+    return typeof TITLE === "string" && (TITLE == "Emerald Kaizo" || TITLE == "Emerald Kaizo 1.1");
 }
 
 function getGen3EmeraldMoveTableName(moveName) {
@@ -380,6 +418,7 @@ function get_next_in_g3() {
     var lastMoveName = $("#gen3-switch-guide .last-move-used > select.move-selector").val();
     var lastMoveBp = moves[lastMoveName] ? moves[lastMoveName].bp : NaN;
     var currentOpposingDataId = getGen3CurrentOpposingDataId();
+    var useEmeraldPhase2Scores = shouldUseGen3EmeraldPhase2Scores();
 
 
     if (p1.species && p1.species.name === "Castform") {
@@ -400,6 +439,7 @@ function get_next_in_g3() {
     }
 
     var defenderTypes = p1.types.slice();
+    var rawDefenderTypes = p1.types.slice();
     if (!defenderTypes[1]) defenderTypes[1] = defenderTypes[0];
 
     var dead = createPokemon($("#p2"));
@@ -434,6 +474,7 @@ function get_next_in_g3() {
         var bestMove = "";
         var seMoves = [];
         var phase2Damages = [];
+        var phase2Scores = [];
 
         for (var j = 0; j < enemy.moves.length; j++) {
             var move = enemy.moves[j];
@@ -458,6 +499,13 @@ function get_next_in_g3() {
             }
 
             if (isGen3EmeraldPowerOneMove(move.name)) continue;
+
+            if (useEmeraldPhase2Scores) {
+                phase2Scores.push({
+                    score: getGen3EmeraldPhase2MoveScore(dead.types, rawDefenderTypes, p1.ability, moveCopy),
+                    move: move.name
+                });
+            }
 
             var lastMoveTableName = lastMoveName || moveCopy.name;
             var lastMove = getGen3EmeraldMoveTableMove(lastMoveTableName);
@@ -501,7 +549,8 @@ function get_next_in_g3() {
             hasPhase1Match: hasSE && phase1Score > 0,
             isUnavailable: isUnavailable,
             phase1Score: phase1Score,
-            phase2Damages: phase2Damages
+            phase2Damages: phase2Damages,
+            phase2Scores: phase2Scores
         };
         ranked_trainer_poks.push(entry);
     }
@@ -543,56 +592,123 @@ function getGen3CurrentOpposingDataId() {
 }
 
 function order_trpoks_g3(rankedTrainerPoks) {
-    var phase1Order = 0;
-    rankedTrainerPoks
+    var remaining = rankedTrainerPoks
         .filter(function(entry) {
-            return entry.gen3Switch && !entry.gen3Switch.isUnavailable && entry.gen3Switch.hasPhase1Match;
-        })
-        .sort(function(a, b) {
-            if (a.gen3Switch.phase1Score === b.gen3Switch.phase1Score) {
-                return a[3] - b[3];
-            }
-            return b.gen3Switch.phase1Score - a.gen3Switch.phase1Score;
-        })
-        .forEach(function(entry) {
-            entry.gen3Switch.phase = 1;
-            entry.gen3Switch.order = phase1Order++;
-        });
-
-    var phase2Entries = rankedTrainerPoks
-        .filter(function(entry) {
-            return entry.gen3Switch && !entry.gen3Switch.isUnavailable && !entry.gen3Switch.hasPhase1Match;
+            return entry.gen3Switch && !entry.gen3Switch.isUnavailable;
         })
         .sort(sort_subindex);
+    var order = 0;
 
-    var remaining = phase2Entries.slice();
-    var phase2Order = 0;
     while (remaining.length) {
-        var bestEntry = null;
-        var bestDamage = 0;
-
-        for (var i = 0; i < remaining.length; i++) {
-            var damages = remaining[i].gen3Switch.phase2Damages || [];
-            for (var j = 0; j < damages.length; j++) {
-                if (bestDamage < damages[j].damage) {
-                    bestDamage = damages[j].damage % 256;
-                    bestEntry = remaining[i];
-                }
-            }
+        var choice = chooseGen3PostKoSwitchEntry(remaining);
+        if (!choice || !choice.entry) {
+            break;
         }
 
-        if (!bestEntry) {
-            bestEntry = remaining[0];
-        }
-
-        bestEntry.gen3Switch.phase = 2;
-        bestEntry.gen3Switch.order = phase2Order++;
+        choice.entry.gen3Switch.phase = choice.phase;
+        choice.entry.gen3Switch.order = order++;
         remaining = remaining.filter(function(entry) {
-            return entry !== bestEntry;
+            return entry !== choice.entry;
         });
     }
 
     return rankedTrainerPoks.sort(sort_trpoks_g3);
+}
+
+function chooseGen3PostKoSwitchEntry(entries) {
+    var phase1Entry = chooseGen3Phase1SwitchEntry(entries);
+    if (phase1Entry) {
+        return {
+            entry: phase1Entry,
+            phase: 1
+        };
+    }
+
+    var phase2Entry = chooseGen3Phase2SwitchEntry(entries);
+    if (phase2Entry) {
+        return {
+            entry: phase2Entry,
+            phase: 2
+        };
+    }
+
+    var fallbackEntry = chooseGen3FallbackSwitchEntry(entries);
+    if (fallbackEntry) {
+        return {
+            entry: fallbackEntry,
+            phase: 3
+        };
+    }
+
+    return null;
+}
+
+function chooseGen3Phase1SwitchEntry(entries) {
+    var invalidEntries = [];
+
+    while (invalidEntries.length < entries.length) {
+        var bestEntry = null;
+        var bestScore = 0;
+
+        for (var i = 0; i < entries.length; i++) {
+            var entry = entries[i];
+            if (invalidEntries.includes(entry)) {
+                continue;
+            }
+
+            var score = entry.gen3Switch && Number.isFinite(entry.gen3Switch.phase1Score)
+                ? entry.gen3Switch.phase1Score
+                : 0;
+            if (bestScore < score) {
+                bestScore = score;
+                bestEntry = entry;
+            }
+        }
+
+        if (!bestEntry) {
+            return null;
+        }
+        if (bestEntry.gen3Switch.hasPhase1Match) {
+            return bestEntry;
+        }
+
+        invalidEntries.push(bestEntry);
+    }
+
+    return null;
+}
+
+function chooseGen3Phase2SwitchEntry(entries) {
+    var bestEntry = null;
+    var bestScore = 0;
+
+    for (var i = 0; i < entries.length; i++) {
+        var scores = entries[i].gen3Switch.phase2Scores || [];
+        for (var j = 0; j < scores.length; j++) {
+            if (bestScore < scores[j].score) {
+                bestScore = scores[j].score;
+                bestEntry = entries[i];
+            }
+        }
+
+        if (scores.length) {
+            continue;
+        }
+
+        var damages = entries[i].gen3Switch.phase2Damages || [];
+        for (var k = 0; k < damages.length; k++) {
+            if (bestScore < damages[k].damage) {
+                bestScore = damages[k].damage % 256;
+                bestEntry = entries[i];
+            }
+        }
+    }
+
+    return bestEntry;
+}
+
+function chooseGen3FallbackSwitchEntry(entries) {
+    return entries.length ? entries[0] : null;
 }
 
 function sort_trpoks_g3(a, b) {

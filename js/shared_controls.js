@@ -1704,6 +1704,19 @@ function getTrainerPreviewTrainerIdFromSet(setId) {
 	return Number(setdex[species][set_name].tr_id) || false
 }
 
+function getTrainerPreviewBattleType(setData) {
+	if (typeof battle_type !== "undefined" && battle_type) {
+		return battle_type
+	}
+	if (setData && setData.battle_type) {
+		return setData.battle_type
+	}
+	if ($('#doubles-format').is(":checked")) {
+		return "Doubles"
+	}
+	return "Singles"
+}
+
 function renderTrainerPreviewPok(next_pok) {
 	if (!Array.isArray(next_pok) || typeof next_pok[0] !== "string" || !next_pok[0]) {
 		return ""
@@ -1729,6 +1742,13 @@ function renderTrainerPreviewPok(next_pok) {
 	}
 
 	var dataID = getTrainerPreviewDataId(next_pok[0])
+	var species = next_pok[0].split(" (")[0]
+	var set_name = next_pok[0].split(" (")[1].split(")")[0]
+	if (!setdex[species] || !setdex[species][set_name]) {
+		return ""
+	}
+	var setData = setdex[species][set_name]
+	var previewBattleType = getTrainerPreviewBattleType(setData)
 
 	var isFainted = ""
 	if (fainted.includes(dataID)) {
@@ -1740,22 +1760,17 @@ function renderTrainerPreviewPok(next_pok) {
 	if (next_pok[0].includes("[0]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 7)) {
 		isLead = "lead"
 	}
-	if (next_pok[0].includes("[1]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 5) && battle_type != "Singles" && TITLE != "Platinum Kaizo") {
+	if (next_pok[0].includes("[1]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 5) && previewBattleType != "Singles" && TITLE != "Platinum Kaizo") {
 		isLead = "lead"
 	}
-	if (next_pok[0].includes("[2]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 7) && battle_type == "Triples") {
+	if (next_pok[0].includes("[2]") && (settings.gameSwitchIn >= 3 && settings.gameSwitchIn <= 7) && previewBattleType == "Triples") {
 		isLead = "lead"
 	}
 
 	var pok = `<div class="trainer-pok-container">
 	<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
 
-	var species = next_pok[0].split(" (")[0]
-	var set_name = next_pok[0].split(" (")[1].split(")")[0]
-	if (!setdex[species] || !setdex[species][set_name]) {
-		return ""
-	}
-	var item = setdex[species][set_name]["item"]
+	var item = setData["item"]
 
 	if (item && item != "-" && !item.toLowerCase().includes("none")) {
 		item_name = item.toLowerCase().replace(" ", "_").replace("'","") 

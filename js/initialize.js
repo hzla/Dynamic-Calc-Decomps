@@ -960,6 +960,15 @@ function getCurrentBackupFileName() {
     return null;
 }
 
+const backupFileCacheKeys = {
+    ek: "cf296d42"
+};
+
+function getBackupScriptSrc(backupFileName) {
+    const cacheKey = backupFileCacheKeys[backupFileName];
+    return `./backups/${backupFileName}.js${cacheKey ? `?${cacheKey}` : ""}`;
+}
+
 function applyUploadedDataTitle(data) {
     TITLE = getDynamicCalcTitle(data);
     document.title = TITLE + " Calculator";
@@ -1050,7 +1059,7 @@ $(document).ready(async function() {
   }
   if (backupFiles[TITLE]) {
     // Load hardcoded calc data if present
-    checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
+    checkAndLoadScript(getBackupScriptSrc(backupFiles[TITLE]), {
             onLoad: (src) => {
                 npoint_data = backup_data
                 loadDataSource(npoint_data)
@@ -1531,7 +1540,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?cd8b888a';
+  script.src= './js/shared_controls.js?384faf7b';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
