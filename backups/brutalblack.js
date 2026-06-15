@@ -1388,7 +1388,7 @@ backup_data = {
       "basePower": 0,
       "category": "Status",
       "pp": 40,
-      "accuracy": 80,
+      "accuracy": 100,
       "priority": 0,
       "e_id": 66,
       "target": "allAdjacentFoes",
@@ -19796,6 +19796,7 @@ backup_data = {
           "Scald",
           "Poison Jab",
           "Swagger",
+          "Pluck",
           "Natural Gift",
           "Surf",
           "Waterfall",
@@ -19899,6 +19900,7 @@ backup_data = {
           "Giga Impact",
           "Poison Jab",
           "Swagger",
+          "Pluck",
           "Natural Gift",
           "Surf",
           "Waterfall",
@@ -21562,13 +21564,13 @@ backup_data = {
         "Item Use"
       ],
       "evoParams": [
-        "Leaf Stone",
-        "Shiny Stone",
-        "Thunderstone",
-        "Water Stone",
-        "Fire Stone",
-        "Sun Stone",
-        "Moon Stone"
+        "Miracle Seed",
+        "NeverMeltIce",
+        "Magnet",
+        "Mystic Water",
+        "Charcoal",
+        "TwistedSpoon",
+        "BlackGlasses"
       ]
     },
     "Vaporeon": {
@@ -39564,7 +39566,7 @@ backup_data = {
       "num": 284,
       "types": [
         "Bug",
-        "Flying"
+        "Water"
       ],
       "items": [
         "None",
@@ -45467,9 +45469,9 @@ backup_data = {
         "hp": 65,
         "at": 40,
         "df": 60,
-        "sa": 70,
+        "sa": 80,
         "sd": 85,
-        "sp": 50
+        "sp": 70
       },
       "learnset_info": {
         "learnset": [
@@ -45494,11 +45496,11 @@ backup_data = {
             "Swift"
           ],
           [
-            22,
+            21,
             "Dragon Breath"
           ],
           [
-            29,
+            26,
             "Air Slash"
           ],
           [
@@ -45506,16 +45508,16 @@ backup_data = {
             "Dragon Pulse"
           ],
           [
-            40,
+            38,
             "Roost"
           ],
           [
-            44,
-            "Tailwind"
+            42,
+            "Aeroblast"
           ],
           [
-            50,
-            "Aeroblast"
+            48,
+            "Tailwind"
           ],
           [
             55,
@@ -45614,11 +45616,11 @@ backup_data = {
             "Swift"
           ],
           [
-            22,
+            21,
             "Dragon Breath"
           ],
           [
-            29,
+            26,
             "Air Slash"
           ],
           [
@@ -45626,16 +45628,16 @@ backup_data = {
             "Dragon Pulse"
           ],
           [
-            40,
+            38,
             "Roost"
           ],
           [
-            44,
-            "Tailwind"
+            42,
+            "Aeroblast"
           ],
           [
-            50,
-            "Aeroblast"
+            48,
+            "Tailwind"
           ],
           [
             55,
@@ -47469,7 +47471,7 @@ backup_data = {
           ],
           [
             35,
-            "Mirror Coat"
+            "Recover"
           ],
           [
             40,
@@ -47481,7 +47483,7 @@ backup_data = {
           ],
           [
             50,
-            "Psychic"
+            "Mirror Coat"
           ],
           [
             55,
@@ -47572,7 +47574,7 @@ backup_data = {
           ],
           [
             35,
-            "Mirror Coat"
+            "Recover"
           ],
           [
             40,
@@ -47584,7 +47586,7 @@ backup_data = {
           ],
           [
             50,
-            "Psychic"
+            "Mirror Coat"
           ],
           [
             55,
@@ -55791,6 +55793,7 @@ backup_data = {
           "Echoed Voice",
           "Scald",
           "Retaliate",
+          "Bulldoze",
           "Swagger",
           "Natural Gift",
           "Rock Smash",
@@ -55927,6 +55930,7 @@ backup_data = {
           "Payback",
           "Retaliate",
           "Giga Impact",
+          "Bulldoze",
           "Swagger",
           "Natural Gift",
           "Rock Smash",
@@ -69119,11 +69123,11 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 85,
+        "hp": 95,
         "at": 60,
-        "df": 130,
+        "df": 135,
         "sa": 135,
-        "sd": 70,
+        "sd": 80,
         "sp": 25
       },
       "learnset_info": {
@@ -70135,7 +70139,7 @@ backup_data = {
         "hp": 105,
         "at": 140,
         "df": 105,
-        "sa": 55,
+        "sa": 65,
         "sd": 65,
         "sp": 45
       },
@@ -80800,7 +80804,7 @@ backup_data = {
         "Fighting"
       ],
       "items": [
-        "None",
+        "Berry Juice",
         "None",
         "None"
       ],
@@ -86530,11 +86534,11 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Chesto Berry",
-        "item": "Charcoal",
+        "item": "Focus Sash",
         "nature": "Bold",
         "moves": [
           "Blaze Kick",
-          "Wild Charge",
+          "Drill Run",
           "Megahorn",
           "Flame Charge"
         ],
@@ -86872,8 +86876,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Battle Girl Lee - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 31 Battle Girl Lee - Not Pinwheel Forest": {
+        "level": 31,
         "ai": 7,
         "noCh": false,
         "tr_id": 160,
@@ -86889,7 +86893,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Zoom Lens",
         "item": "Life Orb",
-        "nature": "Timid",
+        "nature": "Relaxed",
         "moves": [
           "Hydro Pump",
           "Hurricane",
@@ -90010,7 +90014,7 @@ backup_data = {
           "Giga Drain",
           "Acrobatics",
           "Crunch",
-          "Focus Blast"
+          "Low Kick"
         ],
         "sub_index": 4,
         "ability": "Overgrow",
@@ -90524,7 +90528,7 @@ backup_data = {
           "Lava Plume",
           "Acrobatics",
           "Grass Knot",
-          "Focus Blast"
+          "Low Kick"
         ],
         "sub_index": 4,
         "ability": "Blaze",
@@ -91038,7 +91042,7 @@ backup_data = {
           "Scald",
           "Acrobatics",
           "Grass Knot",
-          "Focus Blast"
+          "Low Kick"
         ],
         "sub_index": 4,
         "ability": "Torrent",
@@ -92017,7 +92021,7 @@ backup_data = {
         "moves": [
           "Blizzard",
           "Hydro Pump",
-          "Hurricane",
+          "Mud Shot",
           "Roost"
         ],
         "sub_index": 3,
@@ -96099,7 +96103,7 @@ backup_data = {
           "Shadow Ball"
         ],
         "sub_index": 0,
-        "ability": "Contrary",
+        "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -96222,7 +96226,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Chesto Berry",
-        "item": "Life Orb",
+        "item": "Choice Scarf",
         "nature": "Serious",
         "moves": [
           "Double-Edge",
@@ -102100,8 +102104,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 32 Battle Girl Lee - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 31 Battle Girl Lee - Not Pinwheel Forest": {
+        "level": 31,
         "ai": 7,
         "noCh": false,
         "tr_id": 160,
@@ -102117,7 +102121,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Zoom Lens",
         "item": "Expert Belt",
-        "nature": "Careful",
+        "nature": "Calm",
         "moves": [
           "Focus Blast",
           "Hurricane",
@@ -105097,13 +105101,13 @@ backup_data = {
         "item": "Eviolite",
         "nature": "Brave",
         "moves": [
-          "Ancient Power",
+          "Rock Throw",
           "Mud Bomb",
           "Flash Cannon",
-          "Tri Attack"
+          "Swift"
         ],
         "sub_index": 5,
-        "ability": "Sturdy",
+        "ability": "Solid Rock",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -107298,16 +107302,16 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Muscle Band",
+        "item": "Flame Orb",
         "nature": "Bold",
         "moves": [
-          "Pin Missile",
-          "Arm Thrust",
-          "Rock Blast",
-          "Bullet Seed"
+          "Leech Life",
+          "Drain Punch",
+          "Aerial Ace",
+          "Knock Off"
         ],
         "sub_index": 2,
-        "ability": "Skill Link",
+        "ability": "Guts",
         "sprite": "./images/trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -108281,6 +108285,38 @@ backup_data = {
         "sub_index": 2,
         "ability": "Levitate",
         "sprite": "./images/trainer_sprites/psychic.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 37 Parasol Lady April - Route 4": {
+        "level": 37,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 505,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Soft Sand",
+        "nature": "Hardy",
+        "moves": [
+          "Trick Room",
+          "Psychic",
+          "Earth Power",
+          "Shadow Ball"
+        ],
+        "sub_index": 0,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -115064,7 +115100,7 @@ backup_data = {
         "nature": "Jolly",
         "moves": [
           "Waterfall",
-          "Sacred Sword",
+          "Submission",
           "Rock Climb",
           "Drill Run"
         ],
@@ -115548,7 +115584,7 @@ backup_data = {
         "nature": "Sassy",
         "moves": [
           "Energy Ball",
-          "Dragon Pulse",
+          "Thunderbolt",
           "Leech Seed",
           "Substitute"
         ],
@@ -115644,7 +115680,7 @@ backup_data = {
         "nature": "Modest",
         "moves": [
           "Giga Drain",
-          "Dragon Pulse",
+          "Dragon Breath",
           "Glare",
           "Leech Seed"
         ],
@@ -118004,8 +118040,8 @@ backup_data = {
       }
     },
     "Druddigon": {
-      "Lvl 32 Black Belt Kentaro - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 31 Black Belt Kentaro - Not Pinwheel Forest": {
+        "level": 31,
         "ai": 7,
         "noCh": false,
         "tr_id": 111,
@@ -118166,8 +118202,8 @@ backup_data = {
       }
     },
     "Lairon": {
-      "Lvl 32 Black Belt Kentaro - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 31 Black Belt Kentaro - Not Pinwheel Forest": {
+        "level": 31,
         "ai": 7,
         "noCh": false,
         "tr_id": 111,
@@ -118200,8 +118236,8 @@ backup_data = {
       }
     },
     "Gurdurr": {
-      "Lvl 32 Black Belt Kentaro - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 31 Black Belt Kentaro - Not Pinwheel Forest": {
+        "level": 31,
         "ai": 7,
         "noCh": false,
         "tr_id": 111,
@@ -118217,7 +118253,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Wide Lens",
         "item": "Zoom Lens",
-        "nature": "Impish",
+        "nature": "Relaxed",
         "moves": [
           "Cross Chop",
           "Stone Edge",
@@ -118458,8 +118494,8 @@ backup_data = {
       }
     },
     "Duosion": {
-      "Lvl 32 Black Belt Kentaro - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 31 Black Belt Kentaro - Not Pinwheel Forest": {
+        "level": 31,
         "ai": 7,
         "noCh": false,
         "tr_id": 111,
@@ -118475,7 +118511,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Wide Lens",
         "item": "Zoom Lens",
-        "nature": "Relaxed",
+        "nature": "Docile",
         "moves": [
           "Focus Blast",
           "Psyshock",
@@ -124296,7 +124332,7 @@ backup_data = {
         "item": "Leftovers",
         "nature": "Mild",
         "moves": [
-          "Hurricane",
+          "Air Slash",
           "Hypnosis",
           "Psyshock",
           "Night Shade"
@@ -126035,8 +126071,8 @@ backup_data = {
       }
     },
     "Machoke": {
-      "Lvl 32 Battle Girl Lee - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 31 Battle Girl Lee - Not Pinwheel Forest": {
+        "level": 31,
         "ai": 7,
         "noCh": false,
         "tr_id": 160,
@@ -126052,7 +126088,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Zoom Lens",
         "item": "Eviolite",
-        "nature": "Naughty",
+        "nature": "Serious",
         "moves": [
           "Cross Chop",
           "Stone Edge",
@@ -126069,8 +126105,8 @@ backup_data = {
       }
     },
     "Monferno": {
-      "Lvl 32 Battle Girl Lee - Not Pinwheel Forest": {
-        "level": 32,
+      "Lvl 31 Battle Girl Lee - Not Pinwheel Forest": {
+        "level": 31,
         "ai": 7,
         "noCh": false,
         "tr_id": 160,
@@ -126086,7 +126122,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Zoom Lens",
         "item": "Wise Glasses",
-        "nature": "Naive",
+        "nature": "Hasty",
         "moves": [
           "Fire Blast",
           "Focus Blast",
@@ -128532,7 +128568,7 @@ backup_data = {
         "moves": [
           "Signal Beam",
           "Dragon Pulse",
-          "Signal Beam",
+          "Giga Drain",
           "Roost"
         ],
         "sub_index": 3,
@@ -131052,6 +131088,38 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 37 Parasol Lady April - Route 4": {
+        "level": 37,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 505,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Expert Belt",
+        "nature": "Relaxed",
+        "moves": [
+          "Charge Beam",
+          "Icy Wind",
+          "Psyshock",
+          "Water Pulse"
+        ],
+        "sub_index": 3,
+        "ability": "Magic Guard",
+        "sprite": "./images/trainer_sprites/parasol_lady.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Lunatone": {
@@ -131178,6 +131246,38 @@ backup_data = {
         "sub_index": 1,
         "ability": "Levitate",
         "sprite": "./images/trainer_sprites/hiker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 37 Parasol Lady April - Route 4": {
+        "level": 37,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 505,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Leftovers",
+        "nature": "Timid",
+        "moves": [
+          "Power Gem",
+          "Shadow Ball",
+          "Psychic",
+          "Charge Beam"
+        ],
+        "sub_index": 2,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -137932,6 +138032,38 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 37 Parasol Lady April - Route 4": {
+        "level": 37,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 505,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Hasty",
+        "moves": [
+          "Dig",
+          "Dual Chop",
+          "Rock Slide",
+          "Iron Head"
+        ],
+        "sub_index": 1,
+        "ability": "Sand Force",
+        "sprite": "./images/trainer_sprites/parasol_lady.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Dratini": {
@@ -138153,7 +138285,7 @@ backup_data = {
           "Draco Meteor",
           "Will-O-Wisp",
           "Perish Song",
-          "Aeroblast"
+          "Tailwind"
         ],
         "sub_index": 0,
         "ability": "Filter",
@@ -138179,7 +138311,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Charti Berry",
+        "item": "Lum Berry",
         "nature": "Careful",
         "moves": [
           "Dragon Pulse",
@@ -138211,7 +138343,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Charti Berry",
+        "item": "Lum Berry",
         "nature": "Naughty",
         "moves": [
           "Dragon Pulse",
@@ -138243,7 +138375,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Charti Berry",
+        "item": "Lum Berry",
         "nature": "Timid",
         "moves": [
           "Dragon Pulse",
@@ -143360,8 +143492,8 @@ backup_data = {
         "moves": [
           "Will-O-Wisp",
           "Perish Song",
-          "Aeroblast",
-          "Tailwind"
+          "Tailwind",
+          "Aeroblast"
         ],
         "sub_index": 1,
         "ability": "Cloud Nine",
@@ -143885,7 +144017,7 @@ backup_data = {
         "nature": "Adamant",
         "moves": [
           "Rest",
-          "Psychic",
+          "Mirror Coat",
           "Muddy Water",
           "Ice Beam"
         ],
@@ -144858,72 +144990,6 @@ backup_data = {
         "sub_index": 3,
         "ability": "Thick Fat",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Tympole": {
-      "Lvl 18 Parasol Lady April - Route 4": {
-        "level": 18,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 505,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Docile",
-        "moves": [
-          "Sludge",
-          "Bubble Beam",
-          "Mud Shot",
-          "Growl"
-        ],
-        "sub_index": 0,
-        "ability": "Swift Swim",
-        "sprite": "./images/trainer_sprites/parasol_lady.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 18 Parasol Lady April - Route 4 2": {
-        "level": 18,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 505,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Docile",
-        "moves": [
-          "Sludge",
-          "Bubble Beam",
-          "Mud Shot",
-          "Growl"
-        ],
-        "sub_index": 1,
-        "ability": "Swift Swim",
-        "sprite": "./images/trainer_sprites/parasol_lady.png",
         "form": 0,
         "evs": {
           "df": 0
