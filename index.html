@@ -7,7 +7,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?2da607d8" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?d6abb74b" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?76f537b9" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2b1e290b" />
@@ -1040,6 +1040,7 @@
                         <option value="Paralyzed">Paralyzed</option>
                         <option value="Asleep">Asleep</option>
                         <option value="Frozen">Frozen</option>
+                        <option value="Confused">Confused</option>
                     </select>
                     <select aria-label="Toxic counter" class="toxic-counter calc-trigger hide">
                         <option value="1">1/16</option>
@@ -1064,6 +1065,7 @@
                 <label for="currentHpL1">HP</label>
                 <input class="current-hp calc-trigger" id="currentHpL1" value="341" />/<span class="max-hp">341</span> (
                 <input class="percent-hp calc-trigger" value="100" />%)
+                <span class="chip-damage-list" aria-live="polite"></span>
                      <input class="visually-hidden max calc-trigger btn-input" type="checkbox" id="maxL" />
                      <label class="btn btn-xwide gen-specific g8 hide" for="maxL"
                      title="Use the corresponding Max Move?">Dynamax</label>
@@ -1085,7 +1087,10 @@
                 <div class="tag-partner-preview-wrapper">
                     <div class="trainer-preview-separator tag-partner-header">
                         <span class="tag-partner-label">Tag Partner</span>
-                        <button type="button" class="tag-partner-change">Change</button>
+                        <span class="tag-partner-actions">
+                            <button type="button" class="tag-partner-change">Change</button>
+                            <button type="button" class="tag-partner-clear">Clear</button>
+                        </span>
                     </div>
                     <div class="trainer-pok-list tag-partner-preview"></div>
                 </div>
@@ -2190,6 +2195,7 @@
                         <option value="Paralyzed">Paralyzed</option>
                         <option value="Asleep">Asleep</option>
                         <option value="Frozen">Frozen</option>
+                        <option value="Confused">Confused</option>
                     </select>
                     <select aria-label="Toxic counter" class="toxic-counter calc-trigger hide">
                         <option value="1">1/16</option>
@@ -2214,6 +2220,7 @@
                 <label for="currentHpL1">HP</label>
                 <input class="current-hp calc-trigger" id="currentHpL1" value="341" />/<span class="max-hp">341</span> (
                 <input class="percent-hp calc-trigger" value="100" />%)
+                <span class="chip-damage-list" aria-live="polite"></span>
                      <input class="visually-hidden max calc-trigger btn-input" type="checkbox" id="maxR" />
                      <label class="btn btn-xwide gen-specific g8 hide" for="maxR"
                      title="Use the corresponding Max Move?">Dynamax</label>
@@ -2555,8 +2562,8 @@
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?ce19e527"></script>
     <script type="text/javascript" src="./js/unbound_adapter.js?20260501a"></script>
-    <script type="text/javascript" src="./js/initialize.js?d928d9b9"></script>
-    <script type="text/javascript" src="./js/calc_ui/player_box.js?2c3f9b01"></script>
+    <script type="text/javascript" src="./js/initialize.js?f28aa3db"></script>
+    <script type="text/javascript" src="./js/calc_ui/player_box.js?f33a6fa4"></script>
     <script type="text/javascript" src="./js/calc_ui/box_filter_colors.js"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?aefe330f"></script>
@@ -2569,7 +2576,7 @@
     <script type="text/javascript" src="./js/calc_ui/ai_display.js?f2e13a7b"></script>
 
     <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?8512123d"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?b8d89bea"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?c82ad0cf"></script>
 
 
 
@@ -2641,8 +2648,8 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?4025a2a4"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?384faf7b"></script>
-    <script type="text/javascript" src="./js/index_randoms_controls.js?fb2f2fe6"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?1a044c49"></script>
+    <script type="text/javascript" src="./js/index_randoms_controls.js?6c59b8b5"></script>
     <script type="text/javascript" src="./js/moveset_import.js?29e0b7ad"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>
     <script type="text/javascript" src="./js/analytics/index.js?63b9ba20"></script>
@@ -2668,6 +2675,8 @@
     <div class="shortcut-info">
         <h3 class="footer-title">Shortcuts</h3>
         alt + p: Set current trainer as an opposing doubles "P"artner (for multibattles)
+        <br><br>
+        alt + t: Select a "T"ag Partner
         <br><br><br>
         Right click box icon to add to party view.
         <br><br>

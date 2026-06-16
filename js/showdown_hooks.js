@@ -869,6 +869,9 @@ $(document).ready(function() {
                 toggleBoxSpriteStyle()
             } else if (e.altKey && e.key == "p" || e.key == "π") {
                 setPartner()       
+            } else if ((e.altKey || e.metaKey) && (e.key == "t" || e.key == "†")) {
+                e.preventDefault()
+                beginManualTagPartnerSelection()
             }
         }
     })
@@ -987,6 +990,11 @@ $(document).ready(function() {
     $(document).on('click', '.tag-partner-change', function(e) {
         e.preventDefault()
         beginManualTagPartnerSelection()
+    })
+
+    $(document).on('click', '.tag-partner-clear', function(e) {
+        e.preventDefault()
+        clearDisplayedTagPartner()
     })
 
     $(document).on('contextmenu', '.tag-partner-preview .tag-partner-pok', function(e) {

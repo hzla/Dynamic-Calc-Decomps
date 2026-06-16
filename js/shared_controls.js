@@ -47,10 +47,31 @@ function isLeftPlayerPoke(pokeObj) {
 }
 
 var MOVE_TYPE_CHANGE_ABILITIES = ['Protean', 'Libero'];
+var FIXED_SEQUENCE_MULTI_HIT_MOVES = ['Triple Kick', 'Triple Axel'];
+
+function isRangedMultiHitMove(move) {
+	return !!(move && Array.isArray(move.multihit) &&
+		FIXED_SEQUENCE_MULTI_HIT_MOVES.indexOf(move.name) === -1);
+}
+
+function ensureSingleHitOption(moveHitsSelect) {
+	var select = $(moveHitsSelect);
+	if (!select.children('option[value="1"]').length) {
+		select.prepend('<option value="1">1 hit</option>');
+	}
+}
+
+function setDefaultMoveHitsForMoveGroup(pokeObj, moveGroupObj, move) {
+	var moveHits = $(moveGroupObj).children(".move-hits");
+	if (isRangedMultiHitMove(move)) {
+		ensureSingleHitOption(moveHits);
+	}
+	moveHits.val(getDefaultMoveHitsForPoke(pokeObj, move));
+}
 
 function getDefaultMoveHitsForPoke(pokeObj, move) {
 	var pokemon = $(pokeObj);
-	if (!move || !Array.isArray(move.multihit)) {
+	if (!isRangedMultiHitMove(move)) {
 		return 3;
 	}
 
@@ -195,7 +216,8 @@ var CALC_STATUS = {
 	'Badly Poisoned': 'tox',
 	'Burned': 'brn',
 	'Asleep': 'slp',
-	'Frozen': 'frz'
+	'Frozen': 'frz',
+	'Confused': ''
 };
 
 var STATUS_COLOR_MAP = {
@@ -203,7 +225,13 @@ var STATUS_COLOR_MAP = {
 	'Paralyzed': '#f1fa8c',
 	'Poisoned': '#ff79c6',
 	'Badly Poisoned': '#ff79c6',
-	'Frozen': '#8be9fd'
+	'Frozen': '#8be9fd',
+	'Confused': '#bd93f9'
+};
+
+var CHIP_DAMAGE_WEATHER_CLASS = {
+	'Sand': 'sand',
+	'Hail': 'hail'
 };
 
 var STATUS_ALIAS_MAP = {
@@ -228,7 +256,10 @@ var STATUS_ALIAS_MAP = {
 	'frz': 'Frozen',
 	'sleep': 'Asleep',
 	'asleep': 'Asleep',
-	'slp': 'Asleep'
+	'slp': 'Asleep',
+	'confuse': 'Confused',
+	'confused': 'Confused',
+	'confusion': 'Confused'
 };
 
 var lastOpposingTrainerIdentity = null;
@@ -465,10 +496,291 @@ function syncStatusSelectUi(statusSelect) {
 	}
 
 	applyStatusSelectColor(select);
+	renderPokeChipDamage(select.closest(".poke-info"));
 }
 
 function getNormalizedSetStatus(setData) {
 	return normalizeStoredStatus(setData && setData.status);
+}
+
+function getChipDamageGenNum() {
+	return Number(gen || (settings && settings.damageGen) || 8);
+}
+
+function getChipDamageWeather() {
+	if (getChipDamageGenNum() === 2) {
+		return $("input:radio[name='gscWeather']:checked").val() || "";
+	}
+
+	return $("input:radio[name='weather']:checked").val() || "";
+}
+
+function getPokeInfoMaxHp(poke) {
+	return parseInt($(poke).find(".max-hp").text(), 10) || 0;
+}
+
+function getPokeInfoAbility(poke) {
+	return $(poke).find(".ability").val() || "";
+}
+
+function isPokeInfoItemActive(poke) {
+	var itemToggle = $(poke).find(".itemToggle");
+	return !itemToggle.is(":visible") || itemToggle.is(":checked");
+}
+
+function getPokeInfoItem(poke) {
+	return isPokeInfoItemActive(poke) ? ($(poke).find(".item").val() || "") : "";
+}
+
+function pokeInfoHasAbility(poke) {
+	var ability = getPokeInfoAbility(poke);
+	for (var i = 1; i < arguments.length; i++) {
+		if (ability === arguments[i]) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+function pokeInfoHasItem(poke) {
+	var item = getPokeInfoItem(poke);
+	for (var i = 1; i < arguments.length; i++) {
+		if (item === arguments[i]) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+function pokeInfoHasType(poke) {
+	var types = [$(poke).find(".type1").val(), $(poke).find(".type2").val()];
+	for (var i = 1; i < arguments.length; i++) {
+		if (types.includes(arguments[i])) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+function isWeatherSuppressedByActivePokemon() {
+	return pokeInfoHasAbility($("#p1"), "Air Lock", "Cloud Nine") ||
+		pokeInfoHasAbility($("#p2"), "Air Lock", "Cloud Nine") ||
+		(getPokeInfoAbility($("#p1")) === "Teraform Zero" && $("#p1 .abilityToggle").is(":checked")) ||
+		(getPokeInfoAbility($("#p2")) === "Teraform Zero" && $("#p2 .abilityToggle").is(":checked"));
+}
+
+function createChipDamageEntry(kind, label, damage) {
+	if (!Number.isFinite(damage) || damage < 1) {
+		return null;
+	}
+
+	return {
+		kind: kind,
+		label: label,
+		damage: damage
+	};
+}
+
+function createChipHealingEntry(healing, sources) {
+	if (!Number.isFinite(healing) || healing < 1) {
+		return null;
+	}
+
+	return {
+		kind: "healing",
+		label: sources.length ? sources.join(", ") : "Recovery",
+		damage: healing,
+		sign: "+"
+	};
+}
+
+function getPokeInfoModifiedStat(poke, statClass) {
+	var pokeObj = $(poke);
+	var rawStat = parseInt(pokeObj.find("." + statClass + " .total").text(), 10) || 0;
+	var boost = ~~pokeObj.find("." + statClass + " .boost").val();
+
+	if (!rawStat) {
+		return 0;
+	}
+
+	if (getChipDamageGenNum() < 3) {
+		var pastGenBoostTable = [1, 1.5, 2, 2.5, 3, 3.5, 4];
+		var pastGenDropTable = [100, 66, 50, 40, 33, 28, 25];
+		return boost >= 0
+			? Math.floor(rawStat * pastGenBoostTable[boost])
+			: Math.floor(rawStat * pastGenDropTable[-boost] / 100);
+	}
+
+	return boost >= 0
+		? Math.floor(rawStat * (2 + boost) / 2)
+		: Math.floor(rawStat * 2 / (2 - boost));
+}
+
+function getConfusionChipDamage(poke) {
+	if (normalizeStoredStatus($(poke).find(".status").val()) !== "Confused") {
+		return null;
+	}
+
+	var level = ~~$(poke).find(".level").val() || 1;
+	var attack = getPokeInfoModifiedStat(poke, "at");
+	var defense = getPokeInfoModifiedStat(poke, "df");
+
+	if (!attack || !defense) {
+		return null;
+	}
+
+	var levelFactor = Math.floor(2 * level / 5) + 2;
+	var baseDamage = Math.floor(Math.floor(levelFactor * 40 * attack / defense) / 50) + 2;
+	var minDamage = Math.max(1, Math.floor(baseDamage * 85 / 100));
+	var maxDamage = Math.max(1, baseDamage);
+	var damageText = minDamage === maxDamage ? String(maxDamage) : minDamage + "-" + maxDamage;
+
+	return {
+		kind: "confusion",
+		label: "Confusion self damage",
+		text: "-" + damageText
+	};
+}
+
+function getStatusChipDamage(poke, maxHp) {
+	var status = normalizeStoredStatus($(poke).find(".status").val());
+	var genNum = getChipDamageGenNum();
+
+	if (!maxHp || pokeInfoHasAbility(poke, "Magic Guard")) {
+		return null;
+	}
+
+	if (status === "Poisoned") {
+		if (pokeInfoHasAbility(poke, "Poison Heal")) {
+			return null;
+		}
+
+		return createChipDamageEntry("poison", "Poison damage", Math.floor(maxHp / (genNum === 1 ? 16 : 8)));
+	}
+
+	if (status === "Badly Poisoned") {
+		if (pokeInfoHasAbility(poke, "Poison Heal")) {
+			return null;
+		}
+
+		var toxicCounter = Math.max(1, ~~$(poke).find(".toxic-counter").val() || 1);
+		return createChipDamageEntry("toxic", "Toxic damage", Math.floor(toxicCounter * maxHp / 16));
+	}
+
+	if (status === "Burned") {
+		var divisor = genNum === 1 || genNum > 6 ? 16 : 8;
+		if (pokeInfoHasAbility(poke, "Heatproof")) {
+			divisor = genNum > 6 ? 32 : 16;
+		}
+
+		return createChipDamageEntry("burn", "Burn damage", Math.floor(maxHp / divisor));
+	}
+
+	return null;
+}
+
+function getWeatherChipDamage(poke, maxHp) {
+	var weather = getChipDamageWeather();
+	var genNum = getChipDamageGenNum();
+
+	if (!maxHp || !CHIP_DAMAGE_WEATHER_CLASS[weather] || isWeatherSuppressedByActivePokemon()) {
+		return null;
+	}
+
+	if (weather === "Sand") {
+		if (pokeInfoHasType(poke, "Rock", "Ground", "Steel") ||
+			pokeInfoHasAbility(poke, "Magic Guard", "Overcoat", "Sand Force", "Sand Rush", "Sand Veil") ||
+			pokeInfoHasItem(poke, "Safety Goggles")) {
+			return null;
+		}
+
+		return createChipDamageEntry("sand", "Sand damage", Math.floor(maxHp / (genNum === 2 ? 8 : 16)));
+	}
+
+	if (weather === "Hail") {
+		if (pokeInfoHasType(poke, "Ice") ||
+			pokeInfoHasAbility(poke, "Magic Guard", "Overcoat", "Snow Cloak") ||
+			pokeInfoHasItem(poke, "Safety Goggles")) {
+			return null;
+		}
+
+		return createChipDamageEntry("hail", "Hail damage", Math.floor(maxHp / 16));
+	}
+
+	return null;
+}
+
+function getHealingChipDamage(poke, maxHp) {
+	var weather = isWeatherSuppressedByActivePokemon() ? "" : getChipDamageWeather();
+	var status = normalizeStoredStatus($(poke).find(".status").val());
+	var healing = 0;
+	var sources = [];
+
+	if (!maxHp) {
+		return null;
+	}
+
+	if (weather === "Rain" || weather === "Heavy Rain") {
+		if (pokeInfoHasAbility(poke, "Dry Skin")) {
+			healing += Math.floor(maxHp / 8);
+			sources.push("Dry Skin");
+		} else if (pokeInfoHasAbility(poke, "Rain Dish")) {
+			healing += Math.floor(maxHp / 16);
+			sources.push("Rain Dish");
+		}
+	} else if ((weather === "Hail" || weather === "Snow") && pokeInfoHasAbility(poke, "Ice Body") && pokeInfoHasType(poke, "Ice")) {
+		healing += Math.floor(maxHp / 16);
+		sources.push("Ice Body");
+	}
+
+	if (pokeInfoHasItem(poke, "Leftovers")) {
+		healing += Math.floor(maxHp / 16);
+		sources.push("Leftovers");
+	} else if (pokeInfoHasItem(poke, "Black Sludge") && pokeInfoHasType(poke, "Poison")) {
+		healing += Math.floor(maxHp / 16);
+		sources.push("Black Sludge");
+	}
+
+	if ((status === "Poisoned" || status === "Badly Poisoned") && pokeInfoHasAbility(poke, "Poison Heal")) {
+		healing += Math.floor(maxHp / 8);
+		sources.push("Poison Heal");
+	}
+
+	return createChipHealingEntry(healing, sources);
+}
+
+function getChipDamageEntries(poke) {
+	var maxHp = getPokeInfoMaxHp(poke);
+	return [
+		getStatusChipDamage(poke, maxHp),
+		getWeatherChipDamage(poke, maxHp),
+		getHealingChipDamage(poke, maxHp),
+		getConfusionChipDamage(poke)
+	].filter(Boolean);
+}
+
+function renderPokeChipDamage(poke) {
+	var pokeObj = $(poke);
+	var chipList = pokeObj.find(".chip-damage-list");
+	if (!chipList.length) {
+		return;
+	}
+
+	chipList.empty();
+	getChipDamageEntries(pokeObj).forEach(function (chip) {
+		$("<span />", {
+			"class": "chip-damage chip-damage--" + chip.kind,
+			"title": chip.label
+		}).text(chip.text || ((chip.sign || "-") + chip.damage + " per turn")).appendTo(chipList);
+	});
+}
+
+function refreshChipDamageDisplays() {
+	renderPokeChipDamage($("#p1"));
+	renderPokeChipDamage($("#p2"));
 }
 
 function pushUniqueTrainerIdentityValue(values, nextValue) {
@@ -789,7 +1101,7 @@ function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 	pokeObj.find(".move-group").each(function () {
 		var moveName = $(this).find(".select2-chosen").text();
 		var move = moves[moveName] || moves['(No Move)'];
-		$(this).children(".move-hits").val(getDefaultMoveHitsForPoke(pokeObj, move));
+		setDefaultMoveHitsForMoveGroup(pokeObj, this, move);
 	});
 
 	var ability = pokeObj.find(".ability").val();
@@ -830,6 +1142,7 @@ function showAbilityExtras(abilityObj, resetMoveTypeToggle) {
 
 	}
 	syncMoveTypeToggleState(pokeObj, !!resetMoveTypeToggle);
+	refreshChipDamageDisplays();
 	// detectAutoWeather(abilityObj)
 }
 
@@ -869,6 +1182,7 @@ function detectAutoWeather() {
       	resultsCache = new Map();
 	}
 	autosetTerrain($(this).val(), 0);
+	refreshChipDamageDisplays();
 }
 
 $("#p1 .ability, #p2 .ability").bind("keyup change recalc", detectAutoWeather);
@@ -1016,6 +1330,22 @@ $(".status").bind("keyup change", function (e) {
 	if (e && e.type === 'change') {
 		persistRememberedHpStatusForPoke($(this).closest(".poke-info"));
 	}
+});
+
+$(".toxic-counter").bind("keyup change", function () {
+	renderPokeChipDamage($(this).closest(".poke-info"));
+});
+
+$("input:radio[name='weather'], input:radio[name='gscWeather']").bind("change click", function () {
+	refreshChipDamageDisplays();
+});
+
+$(".type1, .type2, .boost, .itemToggle").bind("change keyup", function () {
+	renderPokeChipDamage($(this).closest(".poke-info"));
+});
+
+$(".abilityToggle").bind("change keyup", function () {
+	refreshChipDamageDisplays();
 });
 
 var lockerMove = "";
@@ -1171,11 +1501,11 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	var stat = move.category === 'Special' ? 'spa' : 'atk';
 	var dropsStats =
 		move.self && move.self.boosts && move.self.boosts[stat] && move.self.boosts[stat] < 0;
-	if (Array.isArray(move.multihit)) {
+	if (isRangedMultiHitMove(move)) {
 		moveGroupObj.children(".stat-drops").hide();
 		moveGroupObj.children(".move-hits").show();
 		var pokemon = $(moveObj).closest(".poke-info");
-		moveGroupObj.children(".move-hits").val(getDefaultMoveHitsForPoke(pokemon, move));
+		setDefaultMoveHitsForMoveGroup(pokemon, moveGroupObj, move);
 	} else if (dropsStats) {
 		moveGroupObj.children(".move-hits").hide();
 		moveGroupObj.children(".stat-drops").show();
@@ -1581,12 +1911,13 @@ function syncItemState(itemObj) {
 			pokeObj.find(moveSelector).find(".move-hits").val(move.multihit);
 			continue;
 		}
-		pokeObj.find(moveSelector).find(".move-hits").val(getDefaultMoveHitsForPoke(pokeObj, move));
+		setDefaultMoveHitsForMoveGroup(pokeObj, pokeObj.find(moveSelector), move);
 	}
 
 	autosetQP(pokeObj);
 	syncItemEffectToggle(pokeObj, true);
 	lastItem[pokeObj.attr('id')] = itemName;
+	renderPokeChipDamage(pokeObj);
 }
 
 $(".item").change(function () {
@@ -3279,6 +3610,7 @@ function calcHP(poke) {
 	calcPercentHP(poke, total, newCurrentHP);
 
 	$currentHP.attr('data-set', true);
+	renderPokeChipDamage(poke);
 }
 
 function calcStat(poke, StatID) {

@@ -925,6 +925,15 @@ function isImportedEggSpecies(speciesName) {
 var manualTagPartnerSelectionPending = false
 var manualTagPartnerTrainerId = false
 var manualTagPartnerLockedTrainerIds = []
+var clearedTagPartnerLockedTrainerIds = []
+
+function normalizeTagPartnerSetId(setId) {
+    if (typeof setId !== "string" || !setId) {
+        return ""
+    }
+
+    return setId.split("[")[0]
+}
 
 function getSelectedTagPartnerSourceSetId() {
     return $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text() || ""
@@ -947,7 +956,7 @@ function getSetDataBySetId(setId) {
 }
 
 function getTrainerIdFromSet(setId) {
-    var setData = getSetDataBySetId(setId)
+    var setData = getSetDataBySetId(normalizeTagPartnerSetId(setId))
     if (!setData || !setData.tr_id) {
         return false
     }
@@ -1004,6 +1013,11 @@ function getTagPartnerTrainerName(trainerId) {
         return get_trainer_name(customLeads[trainerId]) || "Tag Partner"
     }
 
+    var trainerSets = getTrainerSetsById(trainerId)
+    if (trainerSets.length) {
+        return get_trainer_name(trainerSets[0].setId) || "Tag Partner"
+    }
+
     return "Tag Partner"
 }
 
@@ -1028,6 +1042,13 @@ function isManualTagPartnerSelectionPending() {
 function clearManualTagPartnerOverride() {
     manualTagPartnerTrainerId = false
     manualTagPartnerLockedTrainerIds = []
+}
+
+function clearDisplayedTagPartner() {
+    clearManualTagPartnerSelectionPending()
+    clearManualTagPartnerOverride()
+    clearedTagPartnerLockedTrainerIds = getCurrentTrainerPreviewIds()
+    refreshTagPartnerPreview()
 }
 
 function getCurrentTrainerPreviewIds() {
@@ -1061,6 +1082,7 @@ function setManualTagPartnerFromSet(setId) {
 
     manualTagPartnerTrainerId = trainerId
     manualTagPartnerLockedTrainerIds = getCurrentTrainerPreviewIds()
+    clearedTagPartnerLockedTrainerIds = []
     refreshTagPartnerPreview()
     return true
 }
@@ -1071,11 +1093,41 @@ function maybeClearManualTagPartnerOverride(selectedSetId) {
     }
 
     var currentTrainerId = getTrainerIdFromSet(selectedSetId)
-    if (!currentTrainerId || manualTagPartnerLockedTrainerIds.includes(currentTrainerId)) {
+    if (!currentTrainerId) {
+        clearManualTagPartnerOverride()
+        return
+    }
+    if (manualTagPartnerLockedTrainerIds.includes(currentTrainerId)) {
         return
     }
 
     clearManualTagPartnerOverride()
+}
+
+function maybeClearTagPartnerClearedState(selectedSetId) {
+    if (!clearedTagPartnerLockedTrainerIds.length) {
+        return
+    }
+
+    var currentTrainerId = getTrainerIdFromSet(selectedSetId)
+    if (!currentTrainerId) {
+        clearedTagPartnerLockedTrainerIds = []
+        return
+    }
+    if (clearedTagPartnerLockedTrainerIds.includes(currentTrainerId)) {
+        return
+    }
+
+    clearedTagPartnerLockedTrainerIds = []
+}
+
+function isTagPartnerClearedForSelectedTrainer(selectedSetId) {
+    if (!clearedTagPartnerLockedTrainerIds.length) {
+        return false
+    }
+
+    var currentTrainerId = getTrainerIdFromSet(selectedSetId)
+    return currentTrainerId && clearedTagPartnerLockedTrainerIds.includes(currentTrainerId)
 }
 
 function sort_box_by_name(aToZ = true, selector = '.player-poks') {
@@ -1171,7 +1223,8 @@ function refreshTagPartnerPreview() {
     var destination = $('.tag-partner-preview')
     var selectedSetId = getSelectedTagPartnerSourceSetId()
     maybeClearManualTagPartnerOverride(selectedSetId)
-    var tagPartnerId = manualTagPartnerTrainerId || getTagPartnerIdFromSet(selectedSetId)
+    maybeClearTagPartnerClearedState(selectedSetId)
+    var tagPartnerId = manualTagPartnerTrainerId || (isTagPartnerClearedForSelectedTrainer(selectedSetId) ? false : getTagPartnerIdFromSet(selectedSetId))
 
     destination.html("")
 

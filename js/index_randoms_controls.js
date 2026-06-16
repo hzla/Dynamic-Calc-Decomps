@@ -82,6 +82,7 @@ function performCalculations() {
 	var p2field = p1field.clone().swap();
 
 
+	refreshChipDamageDisplays();
 	damageResults = calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field);
 
 	p1 = damageResults[0][0].attacker;
