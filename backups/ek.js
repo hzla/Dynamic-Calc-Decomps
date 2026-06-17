@@ -493,7 +493,7 @@ backup_data = {
             "basePower": 120,
             "type": "Grass"
         },
-        "Sonicboom":
+        "Sonic Boom":
         {
             "basePower": 0,
             "type": "Normal"
@@ -35715,7 +35715,7 @@ backup_data = {
                 "moves":
                 [
                     "Thunder Wave",
-                    "Sonicboom",
+                    "Sonic Boom",
                     "Wild Charge",
                     "Self-Destruct"
                 ]
@@ -42548,7 +42548,7 @@ backup_data = {
                 [
                     "Agility",
                     "Wild Charge",
-                    "Sonicboom",
+                    "Sonic Boom",
                     "Flash Cannon"
                 ],
                 "nature": "Quiet"
@@ -42564,7 +42564,7 @@ backup_data = {
                 "moves":
                 [
                     "Thunder Wave",
-                    "Sonicboom",
+                    "Sonic Boom",
                     "Flash Cannon",
                     "Wild Charge"
                 ],
@@ -54150,7 +54150,7 @@ backup_data = {
                 "moves":
                 [
                     "Thunder Wave",
-                    "Sonicboom",
+                    "Sonic Boom",
                     "Shock Wave",
                     "Self-Destruct"
                 ],
@@ -54166,7 +54166,7 @@ backup_data = {
                     "Shock Wave",
                     "Thunder Wave",
                     "Return",
-                    "Sonicboom"
+                    "Sonic Boom"
                 ],
                 "nature": "Relaxed"
             },
@@ -54178,7 +54178,7 @@ backup_data = {
                 [
                     "Thunderbolt",
                     "Self-Destruct",
-                    "Sonicboom"
+                    "Sonic Boom"
                 ],
                 "nature": "Jolly",
                 "ivs":
@@ -54201,7 +54201,7 @@ backup_data = {
                     "Thunder Wave",
                     "Thunderbolt",
                     "Explosion",
-                    "Sonicboom"
+                    "Sonic Boom"
                 ],
                 "nature": "Bold"
             }
