@@ -1070,8 +1070,24 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
 
     var rawSpeciesId = decryptedData[mon_data_offset]
-    var mon_name = sav_pok_names[rawSpeciesId]
     var partySlotIndex = is_party ? decryptedBattleStats.length - 1 : -1
+    if (!Number.isInteger(rawSpeciesId) || rawSpeciesId <= 0) {
+        if (is_party) {
+            recordDsPartySlotMetadata({
+                slotIndex: partySlotIndex,
+                speciesName: "",
+                rawSpeciesId: rawSpeciesId || 0,
+                pv: pv,
+                decryptedData: decryptedData,
+                monDataOffset: mon_data_offset,
+                moveDataOffset: move_data_offset,
+                valid: false,
+                isEgg: false,
+            });
+        }
+        return ""
+    }
+    var mon_name = sav_pok_names[rawSpeciesId]
 
     try {
        mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name 

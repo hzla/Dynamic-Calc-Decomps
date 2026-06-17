@@ -1030,6 +1030,7 @@ function findImportedSpeciesMatchFromHeader(headerLine, importOptions) {
 	var parsedHeader = getImportedSpeciesMatchesFromHeader(headerLine, importOptions);
 	var eggCandidate = null;
 	var firstNonEggCandidate = null;
+	var lastParenthesizedNonEggCandidate = null;
 
 	for (var i = 0; i < parsedHeader.matches.length; i++) {
 		var match = parsedHeader.matches[i];
@@ -1043,18 +1044,14 @@ function findImportedSpeciesMatchFromHeader(headerLine, importOptions) {
 			firstNonEggCandidate = match;
 		}
 		if (match.index > 0) {
-			return {
-				headerInfo: parsedHeader.headerInfo,
-				parts: parsedHeader.parts,
-				match: match
-			};
+			lastParenthesizedNonEggCandidate = match;
 		}
 	}
 
 	return {
 		headerInfo: parsedHeader.headerInfo,
 		parts: parsedHeader.parts,
-		match: firstNonEggCandidate || eggCandidate
+		match: lastParenthesizedNonEggCandidate || firstNonEggCandidate || eggCandidate
 	};
 }
 

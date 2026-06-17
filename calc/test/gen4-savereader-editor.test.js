@@ -188,4 +188,22 @@ describe("Gen 4 save editor party slot bookkeeping", function () {
     expect(result).not.toContain("Egg: Yes");
   });
 
+  test("skips encrypted-empty Gen 5 box slots with species id zero", function () {
+    global.baseGame = "BW";
+    global.gameGen = 5;
+    global.gen = 5;
+    global.blockOrders = [[0, 1, 2, 3]];
+
+    var decrypted = Array(64).fill(0);
+    var encrypted = reader.encryptData(decrypted, 0);
+    var chunk = new Uint8Array(136);
+    for (var i = 0; i < encrypted.length; i++) {
+      chunk[8 + (i * 2)] = encrypted[i] & 0xFF;
+      chunk[9 + (i * 2)] = (encrypted[i] >>> 8) & 0xFF;
+    }
+
+    expect(Array.from(chunk).some(function (byte) { return byte !== 0; })).toBe(true);
+    expect(reader.parsePKM(chunk, false, 0x510)).toBe("");
+  });
+
 });

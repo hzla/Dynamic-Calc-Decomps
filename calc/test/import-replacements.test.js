@@ -118,6 +118,31 @@ describe("Radical Red gendered species imports", function () {
     });
 });
 
+describe("imported species header parsing", function () {
+    test("prefers the final parenthesized species over nickname punctuation", function () {
+        var context = loadImportNormalizer({
+            includeImportParser: true,
+            calc: {
+                SPECIES: {
+                    8: {
+                        "?": { name: "?" },
+                        Crawdaunt: { name: "Crawdaunt" }
+                    }
+                }
+            },
+            pokedex: {
+                "?": {},
+                Crawdaunt: {}
+            }
+        });
+
+        var parsed = context.findImportedSpeciesMatchFromHeader("Larry(?) (Crawdaunt) @ Life Orb", {});
+
+        expect(parsed.match.speciesName).toBe("Crawdaunt");
+        expect(parsed.match.rawName).toBe("Crawdaunt");
+    });
+});
+
 describe("imported egg state", function () {
     test("clears stale egg state when the next import block has no Egg line", function () {
         var context = loadImportNormalizer({
