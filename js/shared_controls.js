@@ -504,7 +504,7 @@ function getNormalizedSetStatus(setData) {
 }
 
 function getChipDamageGenNum() {
-	return Number(gen || (settings && settings.damageGen) || 8);
+	return Number((settings && settings.damageGen) || gen || 8);
 }
 
 function getChipDamageWeather() {
