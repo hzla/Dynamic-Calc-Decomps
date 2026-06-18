@@ -273,8 +273,8 @@ function get_current_in(refreshBoxRolls = true) {
     }
     var tr_name = setNamePart.replace(")", "").split("[")[0]
 
-    if (refreshBoxRolls) {
-        box_rolls()
+    if (refreshBoxRolls && typeof queueBoxMatchupRefresh === "function") {
+        queueBoxMatchupRefresh()
     }
     return setdex && setdex[pok_name] ? setdex[pok_name][tr_name] : null
 }
@@ -305,8 +305,8 @@ function setOpposing(id) {
     // if ($('.info-group.opp > * > .forme').is(':visible')) {
     //     $('.info-group.opp > * > .forme').change()
     // }
-    if ($('#player-poks-filter:visible').length > 0) {
-       box_rolls() 
+    if ($('#player-poks-filter:visible').length > 0 && typeof queueBoxMatchupRefresh === "function") {
+       queueBoxMatchupRefresh()
     }
     if (typeof syncOpposingKoButton === "function") {
         syncOpposingKoButton()

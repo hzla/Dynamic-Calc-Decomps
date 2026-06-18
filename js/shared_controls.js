@@ -2712,8 +2712,8 @@ $(".set-selector").change(function () {
 
 		$('#p2 .poke-sprite').attr('src', `./img/${trainerSprites}/${pokesprite.replace("-glitched", "").replace(/-s$/, "")}.${suffix}`)
 
-		if ($('#player-poks-filter:visible').length > 0) {
-	       box_rolls() 
+		if ($('#player-poks-filter:visible').length > 0 && typeof queueBoxMatchupRefresh === "function") {
+	       queueBoxMatchupRefresh()
 	    } 
 	} else {
 		if (setdex) {
@@ -2787,8 +2787,7 @@ $(".set-selector").change(function () {
 			
 
 			if (set.level < 1) {
-				let lvlCap = parseInt($('#lvl-cap').text()) || parseInt(localStorage.lvlCap)
-				pokeObj.find(".level").val(lvlCap + parseInt(set.level));
+				pokeObj.find(".level").val(resolveRelativeSetLevel(set, $('#levelR1').val()));
 			} else {
 				pokeObj.find(".level").val(set.level);
 			}
@@ -3208,6 +3207,52 @@ function refreshAbilitySlotDisplays() {
 	}
 }
 
+function getActiveLevelCap(fallbackLevel) {
+	var candidates = [];
+
+	if (typeof lvlCap !== "undefined") {
+		candidates.push(lvlCap);
+	}
+
+	if (typeof $ === "function") {
+		var levelCapInput = $('#lvl-cap');
+		if (levelCapInput.length) {
+			candidates.push(levelCapInput.val());
+			candidates.push(levelCapInput.text());
+		}
+	}
+
+	if (typeof localStorage !== "undefined") {
+		candidates.push(localStorage.lvlCap);
+	}
+
+	candidates.push(fallbackLevel);
+
+	for (var i = 0; i < candidates.length; i++) {
+		var candidate = parseInt(candidates[i], 10);
+		if (Number.isFinite(candidate)) {
+			return candidate;
+		}
+	}
+
+	return null;
+}
+
+function resolveRelativeSetLevel(set, fallbackLevel) {
+	var baseLevel = getActiveLevelCap(fallbackLevel);
+	var relativeLevel = typeof set.sublevel !== "undefined" ? set.sublevel : set.level;
+	var levelOffset = parseInt(relativeLevel, 10);
+
+	if (!Number.isFinite(levelOffset)) {
+		levelOffset = 0;
+	}
+	if (!Number.isFinite(baseLevel)) {
+		return levelOffset;
+	}
+
+	return baseLevel + levelOffset;
+}
+
 
 
 function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
@@ -3272,11 +3317,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		let tmpLvl = set.level
 
 		if ((parseInt(set.level) < 1 || typeof set.sublevel != "undefined")) {
-			if (lvlCap != "") {
-				tmpLvl = lvlCap + set.sublevel
-			} else {
-				tmpLvl = parseInt($('#levelR1').val()) + set.sublevel
-			}
+			tmpLvl = resolveRelativeSetLevel(set, $('#levelR1').val())
 			set.level = tmpLvl	
 			// console.log(`adjusting ${name} to level ${tmpLvl} for pokemon creation`)
 		}

@@ -218,7 +218,7 @@ $(document).ready(function() {
         $('.player .select2-chosen').text(set)
 
         get_box()
-        box_rolls()
+        refreshBoxDisplaySafely()
 
         currentLvl = parseInt($('#levelL1').val())
     }
@@ -368,12 +368,12 @@ $(document).ready(function() {
 
    $(document).on('change', '#box-sort-select', function() {
         setBoxSortState($(this).val(), null)
-        refreshBoxDisplay()
+        refreshBoxDisplaySafely()
    })
 
    $(document).on('click', '#box-sort-direction', function() {
         toggleBoxSortDirection()
-        refreshBoxDisplay()
+        refreshBoxDisplaySafely()
    })
 
    $(document).on('mouseenter', '.trainer-pok.left-side', maybeShowBoxDamageTooltip)
@@ -1004,7 +1004,7 @@ $(document).ready(function() {
     $(document).on('change', '.opposing.set-selector', function() {
         syncOpposingKoButton()
         if (isDamageBoxSortKey(BOX_SORT_STATE.key) || $('#player-poks-filter:visible').length > 0) {
-            refreshBoxDisplay()
+            queueBoxMatchupRefresh()
         }
     })
 
@@ -1014,14 +1014,14 @@ $(document).ready(function() {
         }
     })
 
-    $(document).on('blur', '#max-taken, #min-dealt', box_rolls)
-    $(document).on('change', '#filter-move', box_rolls)
-    $(document).on('change', '#adv-boxrolls', box_rolls)
+    $(document).on('blur', '#max-taken, #min-dealt', refreshBoxDisplaySafely)
+    $(document).on('change', '#filter-move', refreshBoxDisplaySafely)
+    $(document).on('change', '#adv-boxrolls', refreshBoxDisplaySafely)
 
     $(document).on('click', '#clear-filters', function(){
         $('#max-taken').val("")
         $('#min-dealt').val("")
-        box_rolls()
+        refreshBoxDisplaySafely()
         hideBoxDamageTooltip()
     })
 

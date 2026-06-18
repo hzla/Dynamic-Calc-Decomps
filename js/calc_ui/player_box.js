@@ -446,7 +446,7 @@ function getBoxSortMetricValue(sortKey, setId) {
     }
 
     if (isDamageBoxSortKey(sortKey)) {
-        var metrics = getBoxMatchupMetrics(setId)
+        var metrics = getSafeBoxMatchupMetrics(setId)
         if (sortKey == "damage_dealt") {
             return Number.isFinite(metrics.bestMinDealtPercent) ? metrics.bestMinDealtPercent : null
         }
@@ -467,7 +467,7 @@ function buildBoxSortValueMap(setIds, sortKey, contextOptions) {
     if (isDamageBoxSortKey(sortKey)) {
         for (var i = 0; i < safeSetIds.length; i++) {
             var damageSetId = safeSetIds[i]
-            var metrics = getBoxMatchupMetrics(damageSetId, contextOptions)
+            var metrics = getSafeBoxMatchupMetrics(damageSetId, contextOptions)
             valueMap[damageSetId] = sortKey == "damage_dealt"
                 ? (Number.isFinite(metrics.bestMinDealtPercent) ? metrics.bestMinDealtPercent : null)
                 : (Number.isFinite(metrics.worstMaxTakenPercent) ? metrics.worstMaxTakenPercent : null)
@@ -545,6 +545,25 @@ function formatFeaturedSortValue(sortKey, value) {
     return `${Math.round(Number(value))}`
 }
 
+function createFallbackBoxMatchupMetrics(setId) {
+    return {
+        setId: setId,
+        speciesName: getBoxSpeciesNameFromSetId(setId),
+        speed: 0,
+        bestMinDealtPercent: null,
+        bestMinDealtMove: "",
+        worstMaxTakenPercent: null,
+        worstMaxTakenMove: "",
+        faster: false,
+        killer: false,
+        defender: false,
+        ohko: false,
+        mbOhko: false,
+        ohkod: false,
+        mbOhkod: false
+    }
+}
+
 function updateFeaturedBoxResults(selector, sortValueMap) {
     var container = $(selector)
     var cards = container.children('.box-sort-card')
@@ -570,22 +589,7 @@ function updateFeaturedBoxResults(selector, sortValueMap) {
 function getBoxMatchupMetrics(setId, options) {
     options = options || getBoxMatchupContextOptions()
     var speciesName = getBoxSpeciesNameFromSetId(setId)
-    var fallbackMetrics = {
-        setId: setId,
-        speciesName: speciesName,
-        speed: 0,
-        bestMinDealtPercent: null,
-        bestMinDealtMove: "",
-        worstMaxTakenPercent: null,
-        worstMaxTakenMove: "",
-        faster: false,
-        killer: false,
-        defender: false,
-        ohko: false,
-        mbOhko: false,
-        ohkod: false,
-        mbOhkod: false
-    }
+    var fallbackMetrics = createFallbackBoxMatchupMetrics(setId)
 
     if (!options) {
         return fallbackMetrics
@@ -699,6 +703,18 @@ function getBoxMatchupMetrics(setId, options) {
     return metrics
 }
 
+function getSafeBoxMatchupMetrics(setId, options) {
+    try {
+        return getBoxMatchupMetrics(setId, options)
+    } catch (error) {
+        console.warn("Skipping box matchup metrics after calculation error", {
+            setId: setId,
+            error: error
+        })
+        return createFallbackBoxMatchupMetrics(setId)
+    }
+}
+
 function hideBoxDamageTooltip() {
     $('#box-damage-tooltip').hide().html("")
 }
@@ -709,7 +725,7 @@ function getBoxDamageTooltipLines(setId) {
         return []
     }
 
-    var metrics = getBoxMatchupMetrics(setId, context)
+    var metrics = getSafeBoxMatchupMetrics(setId, context)
     var showThresholdTooltip = $('#player-poks-filter:visible').length > 0
     var hasMinDealt = showThresholdTooltip && $("#min-dealt").val() !== ""
     var hasMaxTaken = showThresholdTooltip && $("#max-taken").val() !== ""
@@ -808,6 +824,28 @@ function refreshBoxDisplay() {
         return
     }
     get_box()
+}
+
+var BOX_MATCHUP_REFRESH_TIMEOUT = null
+
+function refreshBoxDisplaySafely() {
+    try {
+        refreshBoxDisplay()
+    } catch (error) {
+        console.warn("Box matchup refresh failed", error)
+        hideBoxDamageTooltip()
+    }
+}
+
+function queueBoxMatchupRefresh() {
+    if (BOX_MATCHUP_REFRESH_TIMEOUT !== null) {
+        clearTimeout(BOX_MATCHUP_REFRESH_TIMEOUT)
+    }
+
+    BOX_MATCHUP_REFRESH_TIMEOUT = setTimeout(function() {
+        BOX_MATCHUP_REFRESH_TIMEOUT = null
+        refreshBoxDisplaySafely()
+    }, 0)
 }
 
 function sort_box_by_set(attr) {
@@ -1730,7 +1768,7 @@ function box_rolls() {
         if (contextOptions.opponent.level < 1) {
             break;
         }
-        var metrics = getBoxMatchupMetrics(box[m], contextOptions)
+        var metrics = getSafeBoxMatchupMetrics(box[m], contextOptions)
         if (metrics.faster) {
             faster.push({"set": box[m]})
             findBoxPokemonBySetId(document, box[m]).addClass('faster')

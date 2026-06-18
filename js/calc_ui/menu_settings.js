@@ -662,7 +662,7 @@ $('#toggle-boxroll .slider').click(function(){
     toggle_box_rolls()
     $('#player-poks-filter').toggle()
     if ($('#player-poks-filter:visible').length > 0) {
-        box_rolls()
+        refreshBoxDisplaySafely()
     } else {
         $('.faster, .killer, .defender').removeClass('faster killer defender')
     }
