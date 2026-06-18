@@ -119,6 +119,38 @@ describe("Radical Red gendered species imports", function () {
 });
 
 describe("imported species header parsing", function () {
+    test("matches nicknamed gendered save-reader headers", function () {
+        var context = loadImportNormalizer({
+            includeImportParser: true,
+            calc: {
+                SPECIES: {
+                    8: {
+                        "": { name: "" },
+                        F: { name: "F" },
+                        M: { name: "M" },
+                        Treecko: { name: "Treecko" },
+                        Sentret: { name: "Sentret" }
+                    }
+                }
+            },
+            pokedex: {
+                "": {},
+                F: {},
+                M: {},
+                Treecko: {},
+                Sentret: {}
+            }
+        });
+
+        var male = context.findImportedSpeciesMatchFromHeader("Nonchalant (Treecko) (M) @ None", {});
+        var female = context.findImportedSpeciesMatchFromHeader("HEAVYHITTT (Sentret) (F) @ None", {});
+
+        expect(male.match.speciesName).toBe("Treecko");
+        expect(male.headerInfo.gender).toBe("M");
+        expect(female.match.speciesName).toBe("Sentret");
+        expect(female.headerInfo.gender).toBe("F");
+    });
+
     test("prefers the final parenthesized species over nickname punctuation", function () {
         var context = loadImportNormalizer({
             includeImportParser: true,

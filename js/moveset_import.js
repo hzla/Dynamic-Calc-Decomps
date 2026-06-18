@@ -965,8 +965,8 @@ function extractGenderFromImportHeader(headerLine) {
 		return result;
 	}
 
-	result.header = headerLine.replace(/\s+\(([MFN])\)(?=\s*@|$)/, function(match, gender) {
-		result.gender = gender;
+	result.header = headerLine.replace(/[\s\u00A0]+\(([MFN])\)(?=[\s\u00A0]*(?:@|$))/i, function(match, gender) {
+		result.gender = String(gender || "").toUpperCase();
 		return "";
 	});
 	return result;
@@ -1008,13 +1008,20 @@ function getImportedSpeciesMatchesFromHeader(headerLine, importOptions) {
 	var matches = [];
 
 	for (var i = 0; i < speciesParts.length; i++) {
-		var candidate = checkExeptions(speciesParts[i].trim(), importOptions);
+		var rawCandidate = speciesParts[i].trim();
+		if (!rawCandidate) {
+			continue;
+		}
+		if (i > 0 && /^[MFN]$/i.test(rawCandidate)) {
+			continue;
+		}
+		var candidate = checkExeptions(rawCandidate, importOptions);
 		candidate = resolveRadicalRedGenderedSpeciesName(candidate, headerInfo.gender, importOptions);
 		if (calc.SPECIES[8][candidate] !== undefined) {
 			matches.push({
 				index: i,
 				speciesName: candidate,
-				rawName: speciesParts[i].trim()
+				rawName: rawCandidate
 			});
 		}
 	}
