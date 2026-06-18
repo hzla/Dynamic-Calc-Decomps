@@ -32751,7 +32751,7 @@ backup_data = {
         },
         "Charizard":
         {
-            "Lvl 36 Trainer Red ":
+            "Lvl 36 |2| Trainer Red ":
             {
                 "ability": "Blaze",
                 "level": 36,

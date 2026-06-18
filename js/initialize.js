@@ -1540,7 +1540,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?0877e564';
+  script.src= './js/shared_controls.js?21b2865f';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);

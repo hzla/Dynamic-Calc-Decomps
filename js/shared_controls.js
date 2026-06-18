@@ -671,9 +671,9 @@ function getStatusChipDamage(poke, maxHp) {
 	}
 
 	if (status === "Burned") {
-		var divisor = genNum === 1 || genNum > 6 ? 16 : 8;
+		var divisor = genNum < 7 ? 8 : 16;
 		if (pokeInfoHasAbility(poke, "Heatproof")) {
-			divisor = genNum > 6 ? 32 : 16;
+			divisor *= 2;
 		}
 
 		return createChipDamageEntry("burn", "Burn damage", Math.floor(maxHp / divisor));
