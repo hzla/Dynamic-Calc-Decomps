@@ -17693,6 +17693,7 @@ backup_data = {
           "Charge Beam",
           "Explosion",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Gyro Ball",
           "Self-Destruct",
@@ -17801,6 +17802,7 @@ backup_data = {
           "Explosion",
           "Giga Impact",
           "Flash",
+          "Volt Switch",
           "Thunder Wave",
           "Gyro Ball",
           "Self-Destruct",
@@ -43141,6 +43143,10 @@ backup_data = {
           [
             48,
             "Wild Charge"
+          ],
+          [
+            50,
+            "U-turn"
           ],
           [
             55,
@@ -74492,7 +74498,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 80,
+        "hp": 90,
         "at": 105,
         "df": 92,
         "sa": 60,
@@ -87632,6 +87638,38 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 41 Lady Magnolia - Nimbasa City": {
+        "level": 41,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 68,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Bold",
+        "moves": [
+          "Volt Switch",
+          "Sludge Bomb",
+          "Scald",
+          "Giga Drain"
+        ],
+        "sub_index": 2,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/lady.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Houndour": {
@@ -92881,7 +92919,7 @@ backup_data = {
           "Aura Sphere",
           "Air Slash",
           "Thunder Wave",
-          "Follow Me"
+          "Safeguard"
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
@@ -93010,7 +93048,7 @@ backup_data = {
         "moves": [
           "Thunderbolt",
           "Psyshock",
-          "Grass Knot",
+          "Thunder Wave",
           "Helping Hand"
         ],
         "sub_index": 1,
@@ -93236,10 +93274,10 @@ backup_data = {
         "item": "Mystic Water",
         "nature": "Adamant",
         "moves": [
-          "Thunderbolt",
-          "Muddy Water",
-          "Icy Wind",
-          "Soak"
+          "Shock Wave",
+          "Scald",
+          "Aurora Beam",
+          "Roost"
         ],
         "sub_index": 3,
         "ability": "Water Absorb",
@@ -94018,6 +94056,38 @@ backup_data = {
         "sub_index": 0,
         "ability": "Solid Rock",
         "sprite": "./images/trainer_sprites/leader.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 41 Lady Magnolia - Nimbasa City": {
+        "level": 41,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 68,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Leftovers",
+        "nature": "Lonely",
+        "moves": [
+          "Volt Switch",
+          "Power Gem",
+          "Mud Bomb",
+          "Flash Cannon"
+        ],
+        "sub_index": 1,
+        "ability": "Sturdy",
+        "sprite": "./images/trainer_sprites/lady.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -95123,8 +95193,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 42 Rich Boy Rolan - Nimbasa City": {
-        "level": 42,
+      "Lvl 41 Rich Boy Rolan - Nimbasa City": {
+        "level": 41,
         "ai": 135,
         "noCh": false,
         "tr_id": 67,
@@ -95140,12 +95210,12 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Flying Gem",
-        "nature": "Docile",
+        "nature": "Naive",
         "moves": [
           "Discharge",
-          "Acrobatics",
+          "Aerial Ace",
           "Roost",
-          "Energy Ball"
+          "Taunt"
         ],
         "sub_index": 4,
         "ability": "Motor Drive",
@@ -98206,38 +98276,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Volt Absorb",
         "sprite": "./images/trainer_sprites/lass.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 42 Rich Boy Rolan - Nimbasa City": {
-        "level": 42,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 67,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Shuca Berry",
-        "nature": "Timid",
-        "moves": [
-          "Discharge",
-          "Muddy Water",
-          "Ice Beam",
-          "Soak"
-        ],
-        "sub_index": 3,
-        "ability": "Volt Absorb",
-        "sprite": "./images/trainer_sprites/rich_boy.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -101638,38 +101676,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Magic Guard",
         "sprite": "./images/trainer_sprites/psychic.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Worker Ryan - Cold Storage": {
-        "level": 45,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 75,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Fire Gem",
-        "nature": "Relaxed",
-        "moves": [
-          "Psychic",
-          "Hurricane",
-          "Heat Wave",
-          "Magic Room"
-        ],
-        "sub_index": 0,
-        "ability": "Magic Guard",
-        "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -106165,8 +106171,8 @@ backup_data = {
       }
     },
     "Minun": {
-      "Lvl 42 Rich Boy Rolan - Nimbasa City": {
-        "level": 42,
+      "Lvl 41 Rich Boy Rolan - Nimbasa City": {
+        "level": 41,
         "ai": 135,
         "noCh": false,
         "tr_id": 67,
@@ -106182,7 +106188,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Sitrus Berry",
-        "nature": "Quirky",
+        "nature": "Docile",
         "moves": [
           "Discharge",
           "Rain Dance",
@@ -106263,8 +106269,8 @@ backup_data = {
       }
     },
     "Plusle": {
-      "Lvl 42 Rich Boy Rolan - Nimbasa City": {
-        "level": 42,
+      "Lvl 41 Rich Boy Rolan - Nimbasa City": {
+        "level": 41,
         "ai": 135,
         "noCh": false,
         "tr_id": 67,
@@ -106279,13 +106285,13 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Electric Gem",
-        "nature": "Docile",
+        "item": "Choice Specs",
+        "nature": "Naive",
         "moves": [
           "Discharge",
-          "Grass Knot",
-          "Aurora Beam",
-          "Aura Sphere"
+          "",
+          "",
+          ""
         ],
         "sub_index": 1,
         "ability": "Motor Drive",
@@ -106457,8 +106463,8 @@ backup_data = {
       }
     },
     "Seaking": {
-      "Lvl 42 Rich Boy Rolan - Nimbasa City": {
-        "level": 42,
+      "Lvl 41 Rich Boy Rolan - Nimbasa City": {
+        "level": 41,
         "ai": 135,
         "noCh": false,
         "tr_id": 67,
@@ -106474,12 +106480,12 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Mystic Water",
-        "nature": "Serious",
+        "nature": "Calm",
         "moves": [
           "Waterfall",
           "Hydro Pump",
           "Ice Beam",
-          "Megahorn"
+          "Poison Jab"
         ],
         "sub_index": 2,
         "ability": "Lightning Rod",
@@ -106554,12 +106560,12 @@ backup_data = {
         }
       }
     },
-    "Raichu": {
-      "Lvl 41 Lady Magnolia - Nimbasa City": {
+    "Volbeat": {
+      "Lvl 41 Rich Boy Rolan - Nimbasa City": {
         "level": 41,
         "ai": 135,
         "noCh": false,
-        "tr_id": 68,
+        "tr_id": 67,
         "diff": 0,
         "ivs": {
           "hp": 31,
@@ -106571,12 +106577,110 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
+        "item": "Muscle Band",
+        "nature": "Quirky",
+        "moves": [
+          "X-Scissor",
+          "Blaze Kick",
+          "Seed Bomb",
+          "Sweet Kiss"
+        ],
+        "sub_index": 3,
+        "ability": "Volt Absorb",
+        "sprite": "./images/trainer_sprites/rich_boy.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 Rich Boy Anthony": {
+        "level": 64,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 368,
+        "diff": 0,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Naughty",
+        "moves": [
+          "Flare Blitz",
+          "U-turn",
+          "Wild Charge",
+          "Earthquake"
+        ],
+        "sub_index": 0,
+        "ability": "Volt Absorb",
+        "sprite": "./images/trainer_sprites/rich_boy.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 50 PkMn Trainer Bianca5": {
+        "level": 50,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 492,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Fire Gem",
+        "nature": "Lonely",
+        "moves": [
+          "Flame Charge",
+          "Flare Blitz",
+          "Earthquake",
+          "Megahorn"
+        ],
+        "sub_index": 3,
+        "ability": "Volt Absorb",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Raichu": {
+      "Lvl 41 Lady Magnolia - Nimbasa City": {
+        "level": 41,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 68,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
         "item": "Electric Gem",
         "nature": "Adamant",
         "moves": [
-          "Discharge",
+          "Volt Switch",
           "Earth Power",
-          "Grass Knot",
+          "Encore",
           "Aura Sphere"
         ],
         "sub_index": 0,
@@ -106684,270 +106788,10 @@ backup_data = {
         }
       }
     },
-    "Volbeat": {
-      "Lvl 41 Lady Magnolia - Nimbasa City": {
-        "level": 41,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 68,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Muscle Band",
-        "nature": "Careful",
-        "moves": [
-          "X-Scissor",
-          "Blaze Kick",
-          "Seed Bomb",
-          "Sweet Kiss"
-        ],
-        "sub_index": 1,
-        "ability": "Volt Absorb",
-        "sprite": "./images/trainer_sprites/lady.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 Rich Boy Anthony": {
-        "level": 64,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 368,
-        "diff": 0,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Naughty",
-        "moves": [
-          "Flare Blitz",
-          "Wild Charge",
-          "Earthquake",
-          "Blaze Kick"
-        ],
-        "sub_index": 0,
-        "ability": "Volt Absorb",
-        "sprite": "./images/trainer_sprites/rich_boy.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 PkMn Trainer Bianca5": {
-        "level": 50,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 492,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Fire Gem",
-        "nature": "Lonely",
-        "moves": [
-          "Flame Charge",
-          "Flare Blitz",
-          "Earthquake",
-          "Megahorn"
-        ],
-        "sub_index": 3,
-        "ability": "Volt Absorb",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Stunfisk": {
-      "Lvl 41 Lady Magnolia - Nimbasa City": {
-        "level": 41,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 68,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Naive",
-        "moves": [
-          "Earth Power",
-          "Discharge",
-          "Muddy Water",
-          "Soak"
-        ],
-        "sub_index": 2,
-        "ability": "Water Absorb",
-        "sprite": "./images/trainer_sprites/lady.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 40 Backpacker Elaine - Desert Resort": {
-        "level": 40,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 239,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "White Herb",
-        "item": "White Herb",
-        "nature": "Docile",
-        "moves": [
-          "Zap Cannon",
-          "Earth Power",
-          "Scald",
-          "Mud Shot"
-        ],
-        "sub_index": 2,
-        "ability": "Water Absorb",
-        "sprite": "./images/trainer_sprites/backpacker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 37 Backpacker Keane - Route 4": {
-        "level": 37,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 290,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Leftovers",
-        "nature": "Jolly",
-        "moves": [
-          "Earth Power",
-          "Thunderbolt",
-          "Power Gem",
-          "Muddy Water"
-        ],
-        "sub_index": 3,
-        "ability": "Water Absorb",
-        "sprite": "./images/trainer_sprites/backpacker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 Swimmer  M Wright - Route 17": {
-        "level": 64,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 389,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "Chill Drive",
-        "item": "Leftovers",
-        "nature": "Naughty",
-        "moves": [
-          "Earth Power",
-          "Thunder",
-          "Surf",
-          "Pain Split"
-        ],
-        "sub_index": 2,
-        "ability": "Water Absorb",
-        "sprite": "./images/trainer_sprites/swimmer_m.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 34 Fisherman Damon": {
-        "level": 34,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 584,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Relaxed",
-        "moves": [
-          "Electroweb",
-          "Discharge",
-          "Mud Bomb",
-          "Bubble Beam"
-        ],
-        "sub_index": 1,
-        "ability": "Water Absorb",
-        "sprite": "./images/trainer_sprites/fisherman.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Manectric": {
       "Lvl 41 Lady Magnolia - Nimbasa City": {
         "level": 41,
-        "ai": 135,
+        "ai": 7,
         "noCh": false,
         "tr_id": 68,
         "diff": 0,
@@ -106959,15 +106803,15 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Doubles",
+        "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Expert Belt",
         "nature": "Hasty",
         "moves": [
-          "Discharge",
+          "Volt Switch",
           "Fire Fang",
           "Ice Fang",
-          "Snarl"
+          "Crunch"
         ],
         "sub_index": 3,
         "ability": "Intimidate",
@@ -107126,8 +106970,8 @@ backup_data = {
         "item": "Life Orb",
         "nature": "Naive",
         "moves": [
-          "Hurricane",
-          "Thunder",
+          "Aeroblast",
+          "Shock Wave",
           "Nasty Plot",
           "Will-O-Wisp"
         ],
@@ -107187,7 +107031,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Ice Gem",
+        "item": "Wise Glasses",
         "nature": "Naive",
         "moves": [
           "Ice Beam",
@@ -109068,8 +108912,8 @@ backup_data = {
         "item": "Life Orb",
         "nature": "Brave",
         "moves": [
-          "Hyper Voice",
-          "Blizzard",
+          "Swift",
+          "Ice Beam",
           "Shadow Ball",
           "Extrasensory"
         ],
@@ -109781,7 +109625,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Sash",
+        "item": "Lum Berry",
         "nature": "Bold",
         "moves": [
           "Lovely Kiss",
@@ -110602,6 +110446,104 @@ backup_data = {
         "sub_index": 3,
         "ability": "Thick Fat",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Noctowl": {
+      "Lvl 45 Worker Ryan - Cold Storage": {
+        "level": 45,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 75,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Ice Gem",
+        "nature": "Relaxed",
+        "moves": [
+          "Psychic",
+          "Hurricane",
+          "Blizzard",
+          "Magic Room"
+        ],
+        "sub_index": 0,
+        "ability": "Compound Eyes",
+        "sprite": "./images/trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 23 Youngster Zachary - Not Pinwheel Forest": {
+        "level": 23,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 144,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Eviolite",
+        "item": "Leftovers",
+        "nature": "Mild",
+        "moves": [
+          "Air Slash",
+          "Hypnosis",
+          "Psyshock",
+          "Night Shade"
+        ],
+        "sub_index": 1,
+        "ability": "Compound Eyes",
+        "sprite": "./images/trainer_sprites/youngster.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 Gentleman Robert": {
+        "level": 63,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 211,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Bashful",
+        "moves": [
+          "Psych Up",
+          "Hurricane",
+          "Imprison",
+          "Aeroblast"
+        ],
+        "sub_index": 1,
+        "ability": "Compound Eyes",
+        "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -114433,7 +114375,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Sash",
+        "item": "Sitrus Berry",
         "nature": "Naive",
         "moves": [
           "Shadow Claw",
@@ -114465,7 +114407,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Sash",
+        "item": "Sitrus Berry",
         "nature": "Hasty",
         "moves": [
           "Shadow Claw",
@@ -114497,7 +114439,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Sash",
+        "item": "Sitrus Berry",
         "nature": "Bashful",
         "moves": [
           "Shadow Claw",
@@ -114792,7 +114734,7 @@ backup_data = {
         "moves": [
           "Psychic",
           "Thunderbolt",
-          "Focus Blast",
+          "Aura Sphere",
           "Energy Ball"
         ],
         "sub_index": 1,
@@ -114824,7 +114766,7 @@ backup_data = {
         "moves": [
           "Psychic",
           "Thunderbolt",
-          "Focus Blast",
+          "Aura Sphere",
           "Energy Ball"
         ],
         "sub_index": 1,
@@ -114856,7 +114798,7 @@ backup_data = {
         "moves": [
           "Psychic",
           "Thunderbolt",
-          "Focus Blast",
+          "Aura Sphere",
           "Energy Ball"
         ],
         "sub_index": 1,
@@ -115276,7 +115218,7 @@ backup_data = {
         "item": "Charcoal",
         "nature": "Sassy",
         "moves": [
-          "Flare Blitz",
+          "Blaze Kick",
           "Crunch",
           "Earthquake",
           "Wild Charge"
@@ -116052,7 +115994,7 @@ backup_data = {
         "moves": [
           "Energy Ball",
           "Dragon Pulse",
-          "Earth Power",
+          "Dark Pulse",
           "Glare"
         ],
         "sub_index": 5,
@@ -124351,72 +124293,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Compound Eyes",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Noctowl": {
-      "Lvl 23 Youngster Zachary - Not Pinwheel Forest": {
-        "level": 23,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 144,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Eviolite",
-        "item": "Leftovers",
-        "nature": "Mild",
-        "moves": [
-          "Air Slash",
-          "Hypnosis",
-          "Psyshock",
-          "Night Shade"
-        ],
-        "sub_index": 1,
-        "ability": "Compound Eyes",
-        "sprite": "./images/trainer_sprites/youngster.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 Gentleman Robert": {
-        "level": 63,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 211,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Bashful",
-        "moves": [
-          "Psych Up",
-          "Hurricane",
-          "Imprison",
-          "Aeroblast"
-        ],
-        "sub_index": 1,
-        "ability": "Compound Eyes",
-        "sprite": "./images/trainer_sprites/gentleman.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -136507,6 +136383,136 @@ backup_data = {
         }
       }
     },
+    "Stunfisk": {
+      "Lvl 40 Backpacker Elaine - Desert Resort": {
+        "level": 40,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 239,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "White Herb",
+        "item": "White Herb",
+        "nature": "Docile",
+        "moves": [
+          "Zap Cannon",
+          "Earth Power",
+          "Scald",
+          "Mud Shot"
+        ],
+        "sub_index": 2,
+        "ability": "Water Absorb",
+        "sprite": "./images/trainer_sprites/backpacker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 37 Backpacker Keane - Route 4": {
+        "level": 37,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 290,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Leftovers",
+        "nature": "Jolly",
+        "moves": [
+          "Earth Power",
+          "Thunderbolt",
+          "Power Gem",
+          "Muddy Water"
+        ],
+        "sub_index": 3,
+        "ability": "Water Absorb",
+        "sprite": "./images/trainer_sprites/backpacker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 Swimmer  M Wright - Route 17": {
+        "level": 64,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 389,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "Chill Drive",
+        "item": "Leftovers",
+        "nature": "Naughty",
+        "moves": [
+          "Earth Power",
+          "Thunder",
+          "Surf",
+          "Pain Split"
+        ],
+        "sub_index": 2,
+        "ability": "Water Absorb",
+        "sprite": "./images/trainer_sprites/swimmer_m.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 34 Fisherman Damon": {
+        "level": 34,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 584,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Relaxed",
+        "moves": [
+          "Electroweb",
+          "Discharge",
+          "Mud Bomb",
+          "Bubble Beam"
+        ],
+        "sub_index": 1,
+        "ability": "Water Absorb",
+        "sprite": "./images/trainer_sprites/fisherman.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Flareon": {
       "Lvl 40 Backpacker Elaine - Desert Resort": {
         "level": 40,
@@ -136819,8 +136825,8 @@ backup_data = {
         "item": "Expert Belt",
         "nature": "Impish",
         "moves": [
-          "Gunk Shot",
-          "Payback",
+          "Poison Jab",
+          "Feint Attack",
           "Ice Punch",
           "Drain Punch"
         ],
