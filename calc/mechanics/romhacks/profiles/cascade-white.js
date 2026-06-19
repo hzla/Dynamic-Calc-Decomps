@@ -137,11 +137,6 @@ var cascadeWhiteProfile = (0, helpers_1.makeProfile)({
                     bpMods.push(5529);
                     return bpMods;
                 }
-                if (state.modifierId === "knockOff" && move.named("Knock Off") && !state.hitResistedKnockOffDamage) {
-                    bpMods.push(6144);
-                    desc.moveBP = state.basePower * 1.5;
-                    return bpMods;
-                }
                 if (state.modifierId === "helpingHand") {
                     bpMods.push(8192);
                     return bpMods;

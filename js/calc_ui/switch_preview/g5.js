@@ -415,8 +415,6 @@ function g5BuildCascadePhase2Rankings(trainerPoks, player, cascadeContext, apply
             } else if (move.named("Flail", "Reversal")) {
                 var p = Math.floor((48 * opposing.curHP()) / opposing.maxHP())
                 moveBp = p <= 1 ? 200 : p <= 4 ? 150 : p <= 9 ? 100 : p <= 16 ? 80 : p <= 32 ? 40 : 20
-            } else if (move.named("Knock Off") && player.hasItem()) {
-                moveBp *= 1.5
             } else if (move.named("Acrobatics") && (info.pokData["item"] == "-" || info.pokData["item"] == "Flying Gem")) {
                 moveBp *= 2
             } else if (move.named("Gyro Ball", "Avalanche", "Payback", "Revenge") && !isFaster) {
