@@ -195,9 +195,6 @@ var cascadeWhiteProfile = (0, helpers_1.makeProfile)({
                 else if (defender.hasAbility("Strawberry") && move.hasType("Fairy")) {
                     bpMods.push(2048);
                 }
-                else if (defender.hasAbility("Teravolt") && move.hasType("Dragon")) {
-                    bpMods.push(2048);
-                }
                 if (attacker.hasAbility("Normalize") || state.hasAteTypeChange) {
                     bpMods.push(4915);
                 }
