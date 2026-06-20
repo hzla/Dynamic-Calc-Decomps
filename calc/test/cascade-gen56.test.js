@@ -27,9 +27,11 @@ function withGlobals(title, overrides, fn) {
         FIELD_EFFECTS: global.FIELD_EFFECTS,
         pokedex: global.pokedex,
         get_current_in: global.get_current_in,
-        $: global.$
+        $: global.$,
+        params: global.params
     };
     var settings = Object.assign({}, DEFAULT_SETTINGS, (overrides && overrides.settings) || {});
+    var hasParamsOverride = overrides && Object.prototype.hasOwnProperty.call(overrides, 'params');
     global.TITLE = title;
     global.settings = settings;
     global.gameGen = settings.damageGen || 6;
@@ -38,6 +40,7 @@ function withGlobals(title, overrides, fn) {
     global.pokedex = (overrides && overrides.pokedex) || {};
     global.get_current_in = (overrides && overrides.get_current_in) || function () { return null; };
     global.$ = (overrides && overrides.$) || function () { return ({ value: "" }); };
+    global.params = hasParamsOverride ? overrides.params : undefined;
     try {
         return fn();
     }
@@ -50,6 +53,12 @@ function withGlobals(title, overrides, fn) {
         global.pokedex = prev.pokedex;
         global.get_current_in = prev.get_current_in;
         global.$ = prev.$;
+        if (typeof prev.params === "undefined") {
+            delete global.params;
+        }
+        else {
+            global.params = prev.params;
+        }
     }
 }
 
@@ -890,6 +899,23 @@ describe('Cascade gen56 damage modifiers', function () {
             var baseRes = calcResult(ctx, 'NONE', spec, { settings: { critGen: 6 } });
             var cascRes = calcResult(ctx, 'Cascade', spec, { settings: { critGen: 6 } });
             expectRatio(cascRes, baseRes, 1.5);
+        });
+
+        test('Final Gambit halves defense for casc2 data', function () {
+            var casc2Params = { get: function (key) { return key === 'data' ? 'casc2' : null; } };
+            var spec = {
+                attacker: function (c) { return P(c, 'Mew'); },
+                defender: function (c) { return P(c, 'Mew'); },
+                move: function (c) { return M(c, 'Final Gambit', { basePower: 250, overrides: { type: 'Dark', category: 'Physical' } }); }
+            };
+            var control = {
+                attacker: spec.attacker,
+                defender: spec.defender,
+                move: function (c) { return M(c, 'Tackle', { basePower: 250, overrides: { type: 'Dark', category: 'Physical' } }); }
+            };
+            var baseRes = calcResult(ctx, 'Cascade White', control, { params: casc2Params });
+            var cascRes = calcResult(ctx, 'Cascade White', spec, { params: casc2Params });
+            expectRatio(cascRes, baseRes, 2, 0.11);
         });
 
         test('Forewarn reduces crit damage in Cascade', function () {

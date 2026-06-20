@@ -40,6 +40,11 @@ function g5CalcTrainerPreviewExpYield(player, opposingName, opposingLevel) {
     return expYield
 }
 
+function g5IsCascadeWhiteDevSource() {
+    var sourceId = typeof params !== "undefined" && params && typeof params.get === "function" ? params.get("data") : ""
+    return (typeof TITLE === "string" && TITLE.includes("Cascade White Dev")) || sourceId === "casc2"
+}
+
 function g5GetMatchupTypes(type1, type2) {
     var matchupTypes = []
 
@@ -132,6 +137,14 @@ function g5GetCascadeTrainerPreviewInfo(trainerPok, player) {
     var types = pokedex[pokName].types
     var pokData = SETDEX_BW[pokName][trName]
     var opposing = createPokemon(pokName + " (" + trName + ")")
+    var expYield = g5CalcTrainerPreviewExpYield(player, pokName, opposing.level)
+
+    if (pokName == "Ditto" && g5IsCascadeWhiteDevSource()) {
+        var transformedInfo = g5BuildCascadeDittoPreviewInfo(player, opposing, types, pokData)
+        opposing = transformedInfo.opposing
+        types = transformedInfo.types
+        pokData = transformedInfo.pokData
+    }
 
     return {
         trainerPok: trainerPok,
@@ -141,7 +154,57 @@ function g5GetCascadeTrainerPreviewInfo(trainerPok, player) {
         types: types,
         pokData: pokData,
         opposing: opposing,
-        expYield: g5CalcTrainerPreviewExpYield(player, pokName, opposing.level)
+        expYield: expYield
+    }
+}
+
+function g5GetCascadePokemonTypes(pokemon, fallbackTypes) {
+    if (!pokemon || !pokemon.types || !pokemon.types.length) {
+        return fallbackTypes
+    }
+
+    var types = pokemon.types.filter(function(type) { return !!type && type !== "None" })
+    if (!types.length) {
+        return fallbackTypes
+    }
+
+    return [types[0], types[1] || types[0]]
+}
+
+function g5GetCascadePokemonMoveNames(pokemon, fallbackMoves) {
+    if (!pokemon || !pokemon.moves || !pokemon.moves.length) {
+        return fallbackMoves
+    }
+
+    var moveNames = pokemon.moves
+        .map(function(move) { return move && move.name ? move.name : "" })
+        .filter(function(moveName) { return !!moveName && moveName !== "(No Move)" })
+
+    return moveNames.length ? moveNames : fallbackMoves
+}
+
+function g5BuildCascadeDittoPreviewInfo(player, opposing, fallbackTypes, pokData) {
+    var transformed = player && typeof player.clone === "function" ? player.clone() : null
+    if (!transformed) {
+        return {
+            opposing: opposing,
+            types: fallbackTypes,
+            pokData: pokData
+        }
+    }
+
+    if (opposing) {
+        transformed.item = opposing.item
+        transformed.itemOn = opposing.itemOn
+    }
+
+    return {
+        opposing: transformed,
+        types: g5GetCascadePokemonTypes(player, fallbackTypes),
+        pokData: Object.assign({}, pokData, {
+            ability: transformed.ability,
+            moves: g5GetCascadePokemonMoveNames(transformed, pokData.moves)
+        })
     }
 }
 

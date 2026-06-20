@@ -11,6 +11,11 @@ function commonTypes(attacker, defender) {
     return attacker.types.some(function (type) { return defender.types.includes(type); });
 }
 
+function isCascadeWhiteDev(ctx) {
+    var sourceId = typeof params !== "undefined" && params && typeof params.get === "function" ? params.get("data") : "";
+    return (ctx.title && ctx.title.includes("Cascade White Dev")) || sourceId === "casc2";
+}
+
 var cascadeWhiteProfile = (0, helpers_1.makeProfile)({
     id: "cascade-white",
     gens: [5, 6],
@@ -199,7 +204,7 @@ var cascadeWhiteProfile = (0, helpers_1.makeProfile)({
                 else if (attacker.hasAbility("Moisturize") && state.isMoisturize) {
                     bpMods.push(4915);
                 }
-                else if (attacker.hasAbility("Reckless") && move.named("Explosion", "Self-Destruct")) {
+                else if (attacker.hasAbility("Reckless") && (move.named("Explosion", "Self-Destruct") || (move.named("Final Gambit") && isCascadeWhiteDev(ctx)))) {
                     bpMods.push(4915);
                 }
                 else if (attacker.hasAbility("Mold Breaker", "Turboblaze", "Teravolt")) {

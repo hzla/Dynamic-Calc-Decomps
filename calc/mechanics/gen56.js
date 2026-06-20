@@ -13,6 +13,7 @@ var romhack_helpers_1 = require("./romhacks/helpers");
 function calculateBWXY(gen, attacker, defender, move, field) {
     var _a;
     var title = typeof TITLE === "string" ? TITLE : "";
+    var sourceId = typeof params !== "undefined" && params && typeof params.get === "function" ? params.get("data") : "";
     var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
     var ctx = {
         gen: gen,
@@ -172,6 +173,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
     var isCascadeProfile = profile.id === "cascade-white";
+    var isCascadeWhiteDev = title.includes("Cascade White Dev") || sourceId === "casc2";
     var isDarkRevealed = attacker.hasAbility('Inner Focus') && isCascadeProfile
     var isForceNeutral = (move.named("Chip Away") || attacker.hasAbility("Normalize")) && isCascadeProfile
     gen.types.gen = settings.typeChart
@@ -283,7 +285,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }
         return result;
     }
-    if (move.named('Final Gambit')) {
+    if (move.named('Final Gambit') && !isCascadeWhiteDev) {
         result.damage = attacker.curHP();
         return result;
     }
@@ -845,7 +847,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.defenderAbility = defender.ability;
         }
         defense = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((defense * (0, util_2.chainMods)(dfMods, 410, 131072)) / 4096)));
-        if ((move.named('Explosion') || move.named('Self-Destruct')) && settings.switchIn == 11) {
+        if (((move.named('Explosion') || move.named('Self-Destruct')) && settings.switchIn == 11) ||
+            (move.named('Final Gambit') && isCascadeWhiteDev)) {
             defense = Math.floor(defense * 0.5);
         }
         var challengeLevelCaps = null;
