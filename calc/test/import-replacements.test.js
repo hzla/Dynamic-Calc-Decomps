@@ -28,6 +28,12 @@ function loadImportNormalizer(overrides) {
             source.indexOf("$(\"#clearSets\").click")
         );
     }
+    if (overrides.includeMoveParser) {
+        normalizerSource += source.slice(
+            source.indexOf("function getMoves"),
+            source.indexOf("function cloneImportedSetData")
+        );
+    }
     var context = Object.assign({
         console: console,
         TITLE: "Autumn Red",
@@ -49,6 +55,7 @@ function loadImportNormalizer(overrides) {
             3: {
                 drillrun: { name: "Drill Run" },
                 faintattack: { name: "Faint Attack" },
+                gravity: { name: "Gravity" },
                 hiddenpowergrass: { name: "Hidden Power Grass" }
             }
         },
@@ -90,6 +97,47 @@ describe("import move replacements", function () {
         var context = loadImportNormalizer();
 
         expect(context.normalizeImportedMoveName("Gravity", { applyRomReplacements: false })).toBe("Gravity");
+    });
+
+    test("canonicalizes directly imported move names by normalized id", function () {
+        var context = loadImportNormalizer({
+            backup_data: {
+                move_replacements: {}
+            },
+            MOVES_BY_ID: {
+                3: {
+                    ancientpower: { name: "Ancient Power" },
+                    xscissor: { name: "X-Scissor" }
+                }
+            }
+        });
+
+        expect(context.normalizeImportedMoveName("AncientPower", { applyRomReplacements: false })).toBe("Ancient Power");
+        expect(context.normalizeImportedMoveName("X-Scissor", { applyRomReplacements: false })).toBe("X-Scissor");
+    });
+
+    test("drops moves that cannot be resolved by display or normalized name", function () {
+        var context = loadImportNormalizer({
+            includeMoveParser: true,
+            backup_data: {
+                move_replacements: {}
+            },
+            MOVES_BY_ID: {
+                3: {
+                    ancientpower: { name: "Ancient Power" },
+                    xscissor: { name: "X-Scissor" }
+                }
+            }
+        });
+
+        var parsed = context.getMoves({}, [
+            "Treecko @ None",
+            "- AncientPower",
+            "- Definitely Fake Move",
+            "- X-Scissor"
+        ], 0, { applyRomReplacements: false });
+
+        expect(parsed.moves).toEqual(["Ancient Power", "X-Scissor"]);
     });
 });
 

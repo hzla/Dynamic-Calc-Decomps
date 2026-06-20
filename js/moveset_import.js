@@ -558,17 +558,40 @@ function canonicalizeImportedMoveReplacement(move) {
 	}
 
 	var moveName = String(move).trim()
-	var moveId = cleanString(moveName)
-	var genMovesById = (typeof MOVES_BY_ID !== "undefined" && MOVES_BY_ID && MOVES_BY_ID[gen]) ? MOVES_BY_ID[gen] : {}
+	var resolvedMoveName = resolveImportedMoveNameFromDex(moveName)
+
+	if (resolvedMoveName) {
+		return resolvedMoveName
+	}
+
+	return moveName
+}
+
+function resolveImportedMoveNameFromDex(move) {
+	if (!move) {
+		return null
+	}
+
+	var moveName = String(move).trim()
+	if (!moveName) {
+		return null
+	}
+
+	var genMovesById = (typeof MOVES_BY_ID !== "undefined" && MOVES_BY_ID && MOVES_BY_ID[gen]) ? MOVES_BY_ID[gen] : null
+	if (!genMovesById) {
+		return moveName
+	}
 
 	if (genMovesById[moveName] && genMovesById[moveName].name) {
 		return genMovesById[moveName].name
 	}
-	if (genMovesById[moveId] && genMovesById[moveId].name) {
+
+	var moveId = cleanString(moveName)
+	if (moveId && genMovesById[moveId] && genMovesById[moveId].name) {
 		return genMovesById[moveId].name
 	}
 
-	return moveName
+	return null
 }
 
 function normalizeImportedMoveName(move, importOptions) {
@@ -591,7 +614,7 @@ function normalizeImportedMoveName(move, importOptions) {
 		move = move.replace("HP ", "Hidden Power")
 	}
 
-	return move;
+	return resolveImportedMoveNameFromDex(move);
 }
 
 
@@ -1116,7 +1139,9 @@ function getMoves(currentPoke, rows, offset, importOptions) {
 					currentPoke.met = rows[x + 1].substr(5, rows[x + 1].length)
 				}
 
-				moves.push(move);
+				if (move) {
+					moves.push(move);
+				}
 			} else {
 				if (movesFound == true) {
 					break;

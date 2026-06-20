@@ -961,12 +961,22 @@ function getCurrentBackupFileName() {
 }
 
 const backupFileCacheKeys = {
-    ek: "cf296d42"
+    ek: "cf296d42",
+    ek2: "508955ac"
+};
+
+const trainerOrderFileCacheKeys = {
+    ek2: "ff68841b"
 };
 
 function getBackupScriptSrc(backupFileName) {
     const cacheKey = backupFileCacheKeys[backupFileName];
     return `./backups/${backupFileName}.js${cacheKey ? `?${cacheKey}` : ""}`;
+}
+
+function getTrainerOrderScriptSrc(backupFileName) {
+    const cacheKey = trainerOrderFileCacheKeys[backupFileName];
+    return `./backups/trainer_orders/${backupFileName}.js${cacheKey ? `?${cacheKey}` : ""}`;
 }
 
 function applyUploadedDataTitle(data) {
@@ -987,7 +997,7 @@ async function loadTrainerOrderFallbackForCurrentTitle() {
         return;
     }
 
-    await checkAndLoadScript(`./backups/trainer_orders/${backupFileName}.js`, {
+    await checkAndLoadScript(getTrainerOrderScriptSrc(backupFileName), {
         onLoad: () => {
             if (typeof backup_data.order === "undefined") {
                 backup_data.order = trainerOrders

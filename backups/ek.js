@@ -32861,7 +32861,7 @@ backup_data = {
                     "Earthquake"
                 ]
             },
-            "Lvl 71 Magma Admin Tabitha ":
+            "Lvl 71 Magma Admin Tabitha2 ":
             {
                 "ability": "Blaze",
                 "level": 71,
@@ -37371,7 +37371,7 @@ backup_data = {
                     "Brick Break"
                 ]
             },
-            "Lvl 70 Magma Admin Tabitha ":
+            "Lvl 70 Magma Admin Tabitha2 ":
             {
                 "ability": "Levitate",
                 "level": 70,
@@ -48645,7 +48645,7 @@ backup_data = {
                 ],
                 "nature": "Gentle"
             },
-            "Lvl 70 Magma Admin Tabitha ":
+            "Lvl 70 Magma Admin Tabitha2 ":
             {
                 "ability": "Intimidate",
                 "level": 70,
