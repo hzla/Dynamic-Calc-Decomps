@@ -208,6 +208,7 @@ var LEGACY_STATS_RBY = ["hp", "at", "df", "sl", "sp"];
 var LEGACY_STATS_GSC = ["hp", "at", "df", "sa", "sd", "sp"];
 var LEGACY_STATS = [[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC];
 var HIDDEN_POWER_REGEX = /Hidden Power(\w*)/;
+var TYPED_HIDDEN_POWER_REGEX = /^(?:Hidden Power|HP)\s+\w+$/;
 
 var CALC_STATUS = {
 	'Healthy': '',
@@ -1296,6 +1297,12 @@ function shouldInferHiddenPowerFromIVs(moveName) {
 	return typeof TITLE === "string" && TITLE.includes("Platinum");
 }
 
+function shouldUseEmeraldKaizoTypedHiddenPowerMove(moveName) {
+	return typeof TITLE === "string" &&
+		TITLE === "Emerald Kaizo" &&
+		TYPED_HIDDEN_POWER_REGEX.test(moveName || "");
+}
+
 function getHiddenPowerDetailsFromIVs(pokeObj, moveName) {
 	if (!shouldInferHiddenPowerFromIVs(moveName)) {
 		return null;
@@ -1427,7 +1434,8 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 				
 	var m = moveName.match(HIDDEN_POWER_REGEX);
 	var pokeObj = $(moveObj).closest(".poke-info");
-	var inferredHiddenPower = getHiddenPowerDetailsFromIVs(pokeObj, moveName);
+	var useMoveTableHiddenPower = shouldUseEmeraldKaizoTypedHiddenPowerMove(moveName);
+	var inferredHiddenPower = useMoveTableHiddenPower ? null : getHiddenPowerDetailsFromIVs(pokeObj, moveName);
 	var pokemon = createPokemon(pokeObj);
 
 	if (inferredHiddenPower) {
@@ -1435,7 +1443,9 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	}
 
 	if (changingSets) {
-		if (m && !inferredHiddenPower) {
+		var previousMoveName = $(moveObj).attr('data-prev');
+		var previousUseMoveTableHiddenPower = shouldUseEmeraldKaizoTypedHiddenPowerMove(previousMoveName);
+		if (m && !inferredHiddenPower && !useMoveTableHiddenPower) {
 			
 
 
@@ -1471,7 +1481,7 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 			} else {
 				moveGroupObj.children(".move-bp").val(actual.power);
 			}
-		} else if (gen >= 2 && gen <= 6 && HIDDEN_POWER_REGEX.test($(moveObj).attr('data-prev'))) {
+		} else if (!useMoveTableHiddenPower && !previousUseMoveTableHiddenPower && gen >= 2 && gen <= 6 && HIDDEN_POWER_REGEX.test(previousMoveName)) {
 			// If moveObj selector was previously Hidden Power but now isn't, reset all IVs/DVs to max.
 			var pokeObj = $(moveObj).closest(".poke-info");
 			for (var i = 0; i < LEGACY_STATS[gen].length; i++) {

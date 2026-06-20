@@ -1550,7 +1550,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?e54d76c0';
+  script.src= './js/shared_controls.js?f8e6cc88';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
