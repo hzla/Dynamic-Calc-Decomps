@@ -5,6 +5,7 @@ var path = require("path");
 var vm = require("vm");
 
 var parser = require("../../js/savereaders/savereader_radicalred.js");
+var rrConstants = require("../../js/savereaders/save_constants/radical_red_constants.js");
 
 function loadGlobalScript(relativePath) {
   var absolutePath = path.resolve(__dirname, relativePath);
@@ -16,6 +17,18 @@ function ensureLevelDependenciesLoaded() {
   if (typeof global.expTables === "undefined" || typeof global.get_level !== "function") {
     loadGlobalScript("../../js/savereaders/enums.js");
   }
+}
+
+function writeU16LE(bytes, offset, value) {
+  bytes[offset] = value & 0xFF;
+  bytes[offset + 1] = (value >>> 8) & 0xFF;
+}
+
+function writeU32LE(bytes, offset, value) {
+  bytes[offset] = value & 0xFF;
+  bytes[offset + 1] = (value >>> 8) & 0xFF;
+  bytes[offset + 2] = (value >>> 16) & 0xFF;
+  bytes[offset + 3] = (value >>> 24) & 0xFF;
 }
 
 describe("Radical Red save reader helpers", function () {
@@ -77,6 +90,96 @@ describe("Radical Red save reader helpers", function () {
     expect(parser.__test.resolveBaseAbilityId("Dragalge", 799, 0)).toBe(209);
     expect(parser.__test.resolveBaseAbilityId("Sandy Shocks", 1244, 0)).toBe(229);
     expect(parser.__test.resolveBaseAbilityId("Dragapult", 1179, 0)).toBe(29);
+  });
+
+  test("resolves Radical Red held item names by item id", function () {
+    expect(parser.__test.resolveItemName(0)).toBe(null);
+    expect(parser.__test.resolveItemName(140)).toBe("Persim Berry");
+    expect(parser.__test.resolveItemName(208)).toBe("Magnet");
+    expect(parser.__test.resolveItemName(675)).toBe("Wise Glasses");
+    expect(parser.__test.resolveItemName(747)).toBe("Punching Glove");
+    expect(parser.__test.resolveItemName(749)).toBe(null);
+  });
+
+  test("reads held items from Radical Red party and boxed structs", function () {
+    var boltundId = rrConstants.mons.indexOf("Boltund");
+    var rabscaId = rrConstants.mons.indexOf("Rabsca");
+    expect(boltundId).toBeGreaterThan(0);
+    expect(rabscaId).toBeGreaterThan(0);
+
+    var partyMon = new Uint8Array(100);
+    writeU32LE(partyMon, 0, 2);
+    writeU16LE(partyMon, 32, boltundId);
+    writeU16LE(partyMon, 34, 208);
+    writeU32LE(partyMon, 36, 1);
+    partyMon[84] = 27;
+
+    var parsedPartyMon = parser.__test.parsePartyMon(partyMon, 1, { randomAbilities: false }, {});
+    expect(parsedPartyMon.itemId).toBe(208);
+    expect(parsedPartyMon.itemName).toBe("Magnet");
+    expect(parser.__test.monToShowdown(parsedPartyMon).split("\n")[0]).toBe("Boltund @ Magnet");
+
+    var boxedMon = new Uint8Array(58);
+    writeU32LE(boxedMon, 0, 2);
+    writeU16LE(boxedMon, 28, rabscaId);
+    writeU16LE(boxedMon, 30, 675);
+    writeU32LE(boxedMon, 32, 1);
+
+    var parsedBoxedMon = parser.__test.parseBoxMon(boxedMon, 1, { randomAbilities: false }, {});
+    expect(parsedBoxedMon.itemId).toBe(675);
+    expect(parsedBoxedMon.itemName).toBe("Wise Glasses");
+    expect(parser.__test.monToShowdown(parsedBoxedMon).split("\n")[0]).toBe("Rabsca @ Wise Glasses");
+  });
+
+  test("uses the active level cap instead of deriving Radical Red levels from EXP", function () {
+    var boltundId = rrConstants.mons.indexOf("Boltund");
+    var rabscaId = rrConstants.mons.indexOf("Rabsca");
+    expect(boltundId).toBeGreaterThan(0);
+    expect(rabscaId).toBeGreaterThan(0);
+
+    var partyMon = new Uint8Array(100);
+    writeU32LE(partyMon, 0, 2);
+    writeU16LE(partyMon, 32, boltundId);
+    writeU32LE(partyMon, 36, 1);
+    partyMon[84] = 27;
+
+    var parsedPartyMon = parser.__test.parsePartyMon(partyMon, 1, { randomAbilities: false }, {
+      levelCap: 44,
+      learnsets: { boltund: { gr: 4 } },
+      expTables: [[0], [0], [0], [0], [0, 1]],
+      getLevelFn: function () { return 2; }
+    });
+    expect(parsedPartyMon.exp).toBe(1);
+    expect(parsedPartyMon.level).toBe(44);
+
+    var boxedMon = new Uint8Array(58);
+    writeU32LE(boxedMon, 0, 2);
+    writeU16LE(boxedMon, 28, rabscaId);
+    writeU32LE(boxedMon, 32, 1);
+
+    var parsedBoxedMon = parser.__test.parseBoxMon(boxedMon, 1, { randomAbilities: false }, {
+      levelCap: 44,
+      learnsets: { rabsca: { gr: 4 } },
+      expTables: [[0], [0], [0], [0], [0, 1]],
+      getLevelFn: function () { return 2; }
+    });
+    expect(parsedBoxedMon.exp).toBe(1);
+    expect(parsedBoxedMon.level).toBe(44);
+  });
+
+  test("reads the current app level cap when no explicit Radical Red level cap is supplied", function () {
+    var previousGetActiveLevelCap = global.getActiveLevelCap;
+    global.getActiveLevelCap = function () { return "36"; };
+
+    try {
+      expect(parser.__test.resolveLevelCap(27, {})).toBe(36);
+    } finally {
+      if (typeof previousGetActiveLevelCap === "undefined") {
+        delete global.getActiveLevelCap;
+      } else {
+        global.getActiveLevelCap = previousGetActiveLevelCap;
+      }
+    }
   });
 
   test("treats RR saves with randomized abilities enabled as randomized regardless of the UI toggle", function () {
@@ -147,7 +250,7 @@ describe("Radical Red local save validation", function () {
   var savePath = process.env.RADICAL_RED_SAVE_PATH;
   var maybeTest = savePath ? test : test.skip;
 
-  maybeTest("parses a local Radical Red save with EXP-derived levels and randomized abilities", function () {
+  maybeTest("parses a local Radical Red save with level-cap levels and randomized abilities", function () {
     ensureLevelDependenciesLoaded();
 
     var save = fs.readFileSync(savePath);
@@ -164,6 +267,7 @@ describe("Radical Red local save validation", function () {
     };
     var randomized = parser.parseRadicalRedSaveFile(save, {
       randomizedAbilitiesEnabled: false,
+      levelCap: 85,
       learnsets: sampledLearnsets,
       expTables: global.expTables,
       getLevelFn: global.get_level,
@@ -182,7 +286,7 @@ describe("Radical Red local save validation", function () {
         "Lopunny",
         "Tapu Fini",
       ]);
-      expect(randomized.parsedParty.slice(0, 6).map(function (mon) { return mon.level; })).toEqual([85, 78, 85, 85, 85, 85]);
+      expect(randomized.parsedParty.slice(0, 6).map(function (mon) { return mon.level; })).toEqual([85, 85, 85, 85, 85, 85]);
       expect(randomized.parsedBoxes[0].speciesName).toBe("Samurott-Hisui");
       expect(randomized.parsedBoxes[0].level).toBe(85);
       expect(randomized.rrSaveInfo.randomAbilities).toBe(true);

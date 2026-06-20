@@ -3,7 +3,8 @@
     module.exports = factory(
       require("./save_constants/radical_red_constants.js"),
       require("./save_constants/radical_red_randomizer_constants.js"),
-      require("./save_constants/radical_red_dex_ability_constants.js")
+      require("./save_constants/radical_red_dex_ability_constants.js"),
+      require("./save_constants/radical_red_item_constants.js")
     );
     return;
   }
@@ -11,11 +12,12 @@
   var api = factory(
     root.radicalRedSaveConstants || null,
     root.radicalRedRandomizerConstants || null,
-    root.radicalRedDexAbilityConstants || null
+    root.radicalRedDexAbilityConstants || null,
+    root.radicalRedItemConstants || null
   );
   root.radicalRedSaveReader = api;
   root.parseRadicalRedSaveFile = api.parseRadicalRedSaveFile;
-})(typeof globalThis !== "undefined" ? globalThis : this, function (constants, randomizerConstants, dexAbilityConstants) {
+})(typeof globalThis !== "undefined" ? globalThis : this, function (constants, randomizerConstants, dexAbilityConstants, itemConstants) {
   "use strict";
 
   if (!constants) {
@@ -26,6 +28,9 @@
   }
   if (!dexAbilityConstants) {
     throw new Error("Radical Red dex ability constants are required.");
+  }
+  if (!itemConstants) {
+    throw new Error("Radical Red item constants are required.");
   }
 
   var RR_SAVE_BLOCK_SIZE = 0xE000;
@@ -57,6 +62,7 @@
   var rrNormalAbilityPool = randomizerConstants.normalAbilityPool || [];
   var rrRestrictedAbilityPool = randomizerConstants.restrictedAbilityPool || [];
   var rrAbilityIdsBySpeciesId = dexAbilityConstants.abilityIdsBySpeciesId || [];
+  var rrItems = itemConstants.items || [];
   var rrAbilityIdNameMapCache = null;
   var rrAbilityNameIdMapCache = null;
   var RR_ABILITY_DISPLAY_NAME_ALIASES = {
@@ -120,6 +126,9 @@
   function rrGetGlobalValue(name) {
     if (typeof globalThis !== "undefined" && typeof globalThis[name] !== "undefined") {
       return globalThis[name];
+    }
+    if (typeof window !== "undefined" && typeof window[name] !== "undefined") {
+      return window[name];
     }
     return undefined;
   }
@@ -521,22 +530,56 @@
     }
   }
 
-  function rrResolveLevel(speciesName, exp, fallbackLevel, options) {
-    var growthRate = rrResolveGrowthRate(speciesName, options);
-    var expTables = rrGetExpTables(options);
-    var getLevelFn = rrGetLevelFunction(options);
+  function rrNormalizeLevel(level) {
+    var normalized = parseInt(level, 10);
+    return (Number.isFinite(normalized) && normalized >= 1 && normalized <= RR_MAX_LEVEL)
+      ? normalized
+      : null;
+  }
 
-    if (Number.isFinite(growthRate) && expTables && expTables[growthRate]) {
-      var resolvedLevel = rrResolveLevelFromExpTable(expTables[growthRate], exp, getLevelFn);
-      if (resolvedLevel) {
-        return resolvedLevel;
+  function rrResolveLevelCap(fallbackLevel, options) {
+    if (options && typeof options.levelCap !== "undefined") {
+      var optionCap = rrNormalizeLevel(options.levelCap);
+      if (optionCap) {
+        return optionCap;
       }
     }
 
-    if (Number.isFinite(fallbackLevel) && fallbackLevel >= 1 && fallbackLevel <= RR_MAX_LEVEL) {
-      return fallbackLevel;
+    var getActiveLevelCap = rrGetGlobalValue("getActiveLevelCap");
+    if (typeof getActiveLevelCap === "function") {
+      var activeCap = rrNormalizeLevel(getActiveLevelCap(fallbackLevel));
+      if (activeCap) {
+        return activeCap;
+      }
     }
-    return RR_MAX_LEVEL;
+
+    var globalCap = rrNormalizeLevel(rrGetGlobalValue("lvlCap"));
+    if (globalCap) {
+      return globalCap;
+    }
+
+    if (typeof document !== "undefined") {
+      var levelCapInput = document.getElementById("lvl-cap");
+      if (levelCapInput) {
+        var inputCap = rrNormalizeLevel(levelCapInput.value);
+        if (inputCap) {
+          return inputCap;
+        }
+      }
+    }
+
+    if (typeof localStorage !== "undefined") {
+      var storageCap = rrNormalizeLevel(localStorage.lvlCap);
+      if (storageCap) {
+        return storageCap;
+      }
+    }
+
+    return rrNormalizeLevel(fallbackLevel);
+  }
+
+  function rrResolveLevel(speciesName, exp, fallbackLevel, options) {
+    return rrResolveLevelCap(fallbackLevel, options) || RR_MAX_LEVEL;
   }
 
   function rrDecodePackedMoveIds(packedBytes) {
@@ -562,6 +605,24 @@
     return moveIds.map(function (moveId) {
       return rrMoves[moveId] || null;
     });
+  }
+
+  function rrResolveItemName(itemId) {
+    if (!itemId) {
+      return null;
+    }
+
+    var itemName = rrItems[itemId];
+    if (!itemName) {
+      return null;
+    }
+
+    itemName = String(itemName).trim();
+    if (!itemName || itemName === "None" || /^Free Space/i.test(itemName)) {
+      return null;
+    }
+
+    return itemName;
   }
 
   function rrIsValidSpeciesName(speciesName) {
@@ -716,6 +777,7 @@
     var pid = rrReadU32LE(monStruct, 0);
     speciesName = rrResolveGenderedSpeciesName(speciesName, speciesId, pid);
     var abilitySlot = rrResolvePartyAbilitySlot(monStruct);
+    var itemId = rrReadU16LE(monStruct, 34);
 
     var moveIds = [
       rrReadU16LE(monStruct, 44),
@@ -739,6 +801,8 @@
       natureName: rrNatures[pid % 25] || "Hardy",
       abilitySlot: abilitySlot,
       abilityName: rrResolveAbilityName(speciesName, speciesId, abilitySlot, saveInfo, options),
+      itemId: itemId >>> 0,
+      itemName: rrResolveItemName(itemId),
       moveIds: moveIds,
       moveNames: moveNames
     };
@@ -758,6 +822,7 @@
     var pid = rrReadU32LE(monStruct, 0);
     speciesName = rrResolveGenderedSpeciesName(speciesName, speciesId, pid);
     var abilitySlot = rrResolveBoxAbilitySlot(monStruct);
+    var itemId = rrReadU16LE(monStruct, 30);
 
     var moveIds = rrDecodePackedMoveIds(monStruct.subarray(39, 45));
     var moveNames = rrMapMoveIdsToNames(moveIds).filter(function (moveName) {
@@ -776,6 +841,8 @@
       natureName: rrNatures[pid % 25] || "Hardy",
       abilitySlot: abilitySlot,
       abilityName: rrResolveAbilityName(speciesName, speciesId, abilitySlot, saveInfo, options),
+      itemId: itemId >>> 0,
+      itemName: rrResolveItemName(itemId),
       moveIds: moveIds,
       moveNames: moveNames
     };
@@ -787,7 +854,11 @@
     }
 
     var output = [];
-    output.push(mon.speciesName + (mon.gender ? " (" + mon.gender + ")" : ""));
+    var header = mon.speciesName + (mon.gender ? " (" + mon.gender + ")" : "");
+    if (mon.itemName) {
+      header += " @ " + mon.itemName;
+    }
+    output.push(header);
     output.push("Level: " + mon.level);
     output.push(mon.natureName + " Nature");
     output.push("Ability: " + mon.abilityName);
@@ -993,12 +1064,17 @@
       readRandomizerSaveInfo: rrReadRandomizerSaveInfo,
       resolveActiveLayout: rrResolveActiveLayout,
       resolveLevelFromExpTable: rrResolveLevelFromExpTable,
+      resolveLevelCap: rrResolveLevelCap,
       resolveAbilityNameById: rrResolveAbilityNameById,
       resolveBaseAbilityId: rrResolveBaseAbilityId,
       resolveGenderedSpeciesName: rrResolveGenderedSpeciesName,
+      resolveItemName: rrResolveItemName,
       randomizedAbilitiesEnabled: rrRandomizedAbilitiesEnabled,
       resolvePartyAbilitySlot: rrResolvePartyAbilitySlot,
-      resolveBoxAbilitySlot: rrResolveBoxAbilitySlot
+      resolveBoxAbilitySlot: rrResolveBoxAbilitySlot,
+      parsePartyMon: rrParsePartyMon,
+      parseBoxMon: rrParseBoxMon,
+      monToShowdown: rrMonToShowdown
     }
   };
 });
