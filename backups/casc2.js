@@ -1,5 +1,5 @@
 backup_data = {
-    "title":"Cascade White", 
+    "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
@@ -134743,7 +134743,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Careful",
+        "nature": "Modest",
         "moves": [
           "Fake Out",
           "Tail Slap",
@@ -148754,6 +148754,37 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 28 Scientist Blythe ": {
+        "level": 28,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 100,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Enigma Berry",
+        "nature": "Docile",
+        "moves": [
+          "Baton Pass",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 2,
+        "ability": "Imposter",
+        "sprite": "trainer_sprites/scientistf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Mr. Mime": {
@@ -149376,7 +149407,7 @@ backup_data = {
           "Recycle"
         ],
         "sub_index": 0,
-        "ability": "Cursed Body",
+        "ability": "Shed Skin",
         "sprite": "trainer_sprites/scientistf.png",
         "form": 0,
         "evs": {
@@ -150323,37 +150354,6 @@ backup_data = {
         "ability": "Regenerator",
         "sprite": "trainer_sprites/schoolkidf.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 28 Scientist Blythe ": {
-        "level": 28,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 100,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Enigma Berry",
-        "nature": "Bashful",
-        "moves": [
-          "Slam",
-          "Pursuit",
-          "Counter",
-          "Protect"
-        ],
-        "sub_index": 2,
-        "ability": " ",
-        "sprite": "trainer_sprites/scientistf.png",
-        "form": 1,
         "evs": {
           "df": 0
         }
@@ -160411,7 +160411,7 @@ backup_data = {
       }
     },
     "Regirock": {
-      "Lvl 66 Sunken Statue - Abyssal Ruins ": {
+      "Lvl 66 Old Statue Renaud ": {
         "level": 66,
         "ai": 143,
         "noCh": false,
@@ -160422,7 +160422,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Triples",
         "reward_item": "None",
@@ -160442,7 +160442,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Strange Statue - Relic Sanctum": {
+      "Lvl 51 Old Statue - Pinwheel Forest": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -160453,7 +160453,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Singles",
         "reward_item": "None",
@@ -160475,7 +160475,7 @@ backup_data = {
       }
     },
     "Regice": {
-      "Lvl 66 Sunken Statue - Abyssal Ruins ": {
+      "Lvl 66 Old Statue Renaud ": {
         "level": 66,
         "ai": 143,
         "noCh": false,
@@ -160486,7 +160486,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Triples",
         "reward_item": "None",
@@ -160506,7 +160506,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Strange Statue - Relic Sanctum": {
+      "Lvl 51 Old Statue - Pinwheel Forest": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -160517,7 +160517,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Singles",
         "reward_item": "None",
@@ -160539,7 +160539,7 @@ backup_data = {
       }
     },
     "Registeel": {
-      "Lvl 66 Sunken Statue - Abyssal Ruins ": {
+      "Lvl 66 Old Statue Renaud ": {
         "level": 66,
         "ai": 143,
         "noCh": false,
@@ -160550,7 +160550,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Triples",
         "reward_item": "None",
@@ -160570,7 +160570,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Strange Statue - Relic Sanctum": {
+      "Lvl 51 Old Statue - Pinwheel Forest": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -160581,7 +160581,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Singles",
         "reward_item": "None",
@@ -160603,7 +160603,7 @@ backup_data = {
       }
     },
     "Darmanitan-Zen": {
-      "Lvl 66 Sunken Statue - Abyssal Ruins ": {
+      "Lvl 66 Old Statue Renaud ": {
         "level": 66,
         "ai": 143,
         "noCh": false,
@@ -160614,7 +160614,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Triples",
         "reward_item": "None",
@@ -160696,7 +160696,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Strange Statue - Relic Sanctum": {
+      "Lvl 52 Old Statue - Pinwheel Forest": {
         "level": 52,
         "ai": 15,
         "noCh": false,
@@ -160707,7 +160707,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Singles",
         "reward_item": "None",
@@ -160729,7 +160729,7 @@ backup_data = {
       }
     },
     "Dusknoir": {
-      "Lvl 66 Sunken Statue - Abyssal Ruins ": {
+      "Lvl 66 Old Statue Renaud ": {
         "level": 66,
         "ai": 143,
         "noCh": false,
@@ -160740,7 +160740,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Triples",
         "reward_item": "None",
@@ -163201,8 +163201,8 @@ backup_data = {
         "item": "Eviolite",
         "nature": "Modest",
         "moves": [
-          "Psyshock",
-          "Shadow Ball",
+          "Psybeam",
+          "Water Pulse",
           "Signal Beam",
           "Calm Mind"
         ],
@@ -166029,7 +166029,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Calm",
+        "nature": "Quirky",
         "moves": [
           "Thunderbolt",
           "Sludge Bomb",
@@ -166060,7 +166060,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Impish",
+        "nature": "Quirky",
         "moves": [
           "Thunderbolt",
           "Sludge Bomb",
@@ -166091,7 +166091,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Relaxed",
+        "nature": "Quirky",
         "moves": [
           "Thunderbolt",
           "Sludge Bomb",
@@ -167178,7 +167178,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 51 Strange Statue - Relic Sanctum": {
+      "Lvl 51 Old Statue - Pinwheel Forest": {
         "level": 51,
         "ai": 15,
         "noCh": false,
@@ -167189,7 +167189,7 @@ backup_data = {
           "df": 31,
           "sa": 31,
           "sd": 31,
-          "sp": 0
+          "sp": 31
         },
         "battle_type": "Singles",
         "reward_item": "None",
@@ -184852,9 +184852,9 @@ backup_data = {
           "Stealth Rock"
         ],
         "sub_index": 1,
-        "ability": " ",
+        "ability": "Storm Drain",
         "sprite": "trainer_sprites/acetrainer.png",
-        "form": 1,
+        "form": 0,
         "evs": {
           "df": 0
         }
@@ -189613,7 +189613,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Calm",
+        "nature": "Adamant",
         "moves": [
           "Drill Run",
           "Dual Wingbeat",
@@ -189644,7 +189644,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Drill Run",
           "Dual Wingbeat",
@@ -189675,7 +189675,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Bashful",
+        "nature": "Adamant",
         "moves": [
           "Drill Run",
           "Dual Wingbeat",
@@ -190528,7 +190528,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Bold",
+        "nature": "Docile",
         "moves": [
           "Bug Buzz",
           "Twister",
@@ -190559,7 +190559,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Naughty",
+        "nature": "Docile",
         "moves": [
           "Bug Buzz",
           "Twister",
@@ -190590,7 +190590,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Adamant",
+        "nature": "Docile",
         "moves": [
           "Bug Buzz",
           "Twister",
@@ -199298,7 +199298,7 @@ backup_data = {
         "moves": [
           "Giga Drain",
           "Shock Wave",
-          "Leaf Tornado",
+          "Flamethrower",
           "Dragon Pulse"
         ],
         "sub_index": 0,
