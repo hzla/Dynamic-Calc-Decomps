@@ -8789,8 +8789,8 @@ backup_data = {
         "Sand Force"
       ]
     },
-    "Nidoran F": {
-      "name": "Nidoran F",
+    "Nidoran-F": {
+      "name": "Nidoran-F",
       "num": 29,
       "types": [
         "Poison"
@@ -9191,8 +9191,8 @@ backup_data = {
         "Multiscale"
       ]
     },
-    "Nidoran M": {
-      "name": "Nidoran M",
+    "Nidoran-M": {
+      "name": "Nidoran-M",
       "num": 32,
       "types": [
         "Poison"
@@ -47655,9 +47655,9 @@ backup_data = {
         "hp": 70,
         "at": 70,
         "df": 70,
-        "sa": 120,
+        "sa": 110,
         "sd": 70,
-        "sp": 120
+        "sp": 110
       },
       "learnset_info": {
         "learnset": [
@@ -47695,11 +47695,7 @@ backup_data = {
           ],
           [
             40,
-            "Flamethrower"
-          ],
-          [
-            40,
-            "Ice Beam"
+            "Thunderbolt"
           ],
           [
             40,
@@ -47707,7 +47703,15 @@ backup_data = {
           ],
           [
             40,
-            "Thunderbolt"
+            "Flamethrower"
+          ],
+          [
+            40,
+            "Ice Beam"
+          ],
+          [
+            50,
+            "Hydro Pump"
           ],
           [
             50,
@@ -47720,10 +47724,6 @@ backup_data = {
           [
             50,
             "Blizzard"
-          ],
-          [
-            50,
-            "Hydro Pump"
           ],
           [
             50,
@@ -84543,8 +84543,145 @@ backup_data = {
         ""
       ]
     },
-    "": {
-      "name": "",
+    "Deoxys-Attack": {
+      "name": "Deoxys-Attack",
+      "num": 650,
+      "types": [
+        "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 180,
+        "df": 20,
+        "sa": 180,
+        "sd": 20,
+        "sp": 150
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Wrap"
+          ],
+          [
+            9,
+            "Night Shade"
+          ],
+          [
+            17,
+            "Teleport"
+          ],
+          [
+            25,
+            "Taunt"
+          ],
+          [
+            33,
+            "Pursuit"
+          ],
+          [
+            41,
+            "Psychic"
+          ],
+          [
+            49,
+            "Superpower"
+          ],
+          [
+            57,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "Zen Headbutt"
+          ],
+          [
+            73,
+            "Cosmic Power"
+          ],
+          [
+            81,
+            "Zap Cannon"
+          ],
+          [
+            89,
+            "Psycho Boost"
+          ],
+          [
+            97,
+            "Hyper Beam"
+          ]
+        ],
+        "tms": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Water Pulse",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Natural Gift",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash",
+          "Cut",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Deoxys-Defense": {
+      "name": "Deoxys-Defense",
       "num": 651,
       "types": [
         "Psychic"
@@ -84684,6 +84821,1791 @@ backup_data = {
       },
       "abs": [
         "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Deoxys-Speed": {
+      "name": "Deoxys-Speed",
+      "num": 652,
+      "types": [
+        "Psychic"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 50,
+        "at": 95,
+        "df": 90,
+        "sa": 95,
+        "sd": 90,
+        "sp": 180
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Wrap"
+          ],
+          [
+            9,
+            "Night Shade"
+          ],
+          [
+            17,
+            "Double Team"
+          ],
+          [
+            25,
+            "Knock Off"
+          ],
+          [
+            33,
+            "Pursuit"
+          ],
+          [
+            41,
+            "Psychic"
+          ],
+          [
+            49,
+            "Swift"
+          ],
+          [
+            57,
+            "Psycho Shift"
+          ],
+          [
+            65,
+            "Zen Headbutt"
+          ],
+          [
+            73,
+            "Agility"
+          ],
+          [
+            81,
+            "Recover"
+          ],
+          [
+            89,
+            "Psycho Boost"
+          ],
+          [
+            97,
+            "Extreme Speed"
+          ]
+        ],
+        "tms": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Water Pulse",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Natural Gift",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash",
+          "Cut",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Pressure",
+        "",
+        ""
+      ]
+    },
+    "Wormadam-Sandy": {
+      "name": "Wormadam-Sandy",
+      "num": 653,
+      "types": [
+        "Bug",
+        "Ground"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 109,
+        "df": 105,
+        "sa": 59,
+        "sd": 105,
+        "sp": 36
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Bug Bite"
+          ],
+          [
+            1,
+            "Protect"
+          ],
+          [
+            1,
+            "String Shot"
+          ],
+          [
+            20,
+            "Bulldoze"
+          ],
+          [
+            23,
+            "Fury Cutter"
+          ],
+          [
+            28,
+            "Leech Life"
+          ],
+          [
+            33,
+            "Dig"
+          ],
+          [
+            36,
+            "X-Scissor"
+          ],
+          [
+            40,
+            "Earthquake"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Magical Leaf",
+          "Bulldoze",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Adaptability",
+        "",
+        "Overcoat"
+      ]
+    },
+    "Wormadam-Trash": {
+      "name": "Wormadam-Trash",
+      "num": 654,
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 89,
+        "df": 95,
+        "sa": 99,
+        "sd": 95,
+        "sp": 36
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Bug Bite"
+          ],
+          [
+            1,
+            "Protect"
+          ],
+          [
+            1,
+            "String Shot"
+          ],
+          [
+            20,
+            "Mirror Shot"
+          ],
+          [
+            23,
+            "Silver Wind"
+          ],
+          [
+            28,
+            "Signal Beam"
+          ],
+          [
+            33,
+            "Magnet Bomb"
+          ],
+          [
+            36,
+            "Bug Buzz"
+          ],
+          [
+            40,
+            "Flash Cannon"
+          ],
+          [
+            50,
+            "Metal Burst"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Safeguard",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift",
+          "Flash Cannon"
+        ]
+      },
+      "abs": [
+        "Overcoat",
+        "",
+        "Overcoat"
+      ]
+    },
+    "Shaymin-Sky": {
+      "name": "Shaymin-Sky",
+      "num": 655,
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "items": [
+        "Lum Berry",
+        "Lum Berry",
+        "None"
+      ],
+      "bs": {
+        "hp": 100,
+        "at": 103,
+        "df": 75,
+        "sa": 120,
+        "sd": 75,
+        "sp": 127
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Growth"
+          ],
+          [
+            10,
+            "Magical Leaf"
+          ],
+          [
+            19,
+            "Leech Seed"
+          ],
+          [
+            28,
+            "Quick Attack"
+          ],
+          [
+            37,
+            "Sweet Scent"
+          ],
+          [
+            46,
+            "Natural Gift"
+          ],
+          [
+            55,
+            "Worry Seed"
+          ],
+          [
+            64,
+            "Air Slash"
+          ],
+          [
+            73,
+            "Energy Ball"
+          ],
+          [
+            82,
+            "Sweet Kiss"
+          ],
+          [
+            91,
+            "Leaf Storm"
+          ],
+          [
+            100,
+            "Seed Flare"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Safeguard",
+          "Dark Pulse",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Magical Leaf",
+          "Grass Knot",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Serene Grace",
+        "",
+        ""
+      ]
+    },
+    "Giratina-Origin": {
+      "name": "Giratina-Origin",
+      "num": 656,
+      "types": [
+        "Ghost",
+        "Dragon"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 150,
+        "at": 120,
+        "df": 100,
+        "sa": 120,
+        "sd": 100,
+        "sp": 90
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Dragon Breath"
+          ],
+          [
+            1,
+            "Scary Face"
+          ],
+          [
+            6,
+            "Ominous Wind"
+          ],
+          [
+            10,
+            "Ancient Power"
+          ],
+          [
+            15,
+            "Slash"
+          ],
+          [
+            19,
+            "Shadow Sneak"
+          ],
+          [
+            24,
+            "Destiny Bond"
+          ],
+          [
+            28,
+            "Dragon Claw"
+          ],
+          [
+            33,
+            "Earth Power"
+          ],
+          [
+            37,
+            "Aura Sphere"
+          ],
+          [
+            42,
+            "Shadow Claw"
+          ],
+          [
+            46,
+            "Shadow Force"
+          ],
+          [
+            50,
+            "Hex"
+          ]
+        ],
+        "tms": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Bulldoze",
+          "Dragon Tail",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift",
+          "Rock Smash",
+          "Cut",
+          "Fly",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        "Levitate"
+      ]
+    },
+    "Rotom-Heat": {
+      "name": "Rotom-Heat",
+      "num": 657,
+      "types": [
+        "Electric",
+        "Fire"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 107,
+        "sa": 105,
+        "sd": 107,
+        "sp": 86
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Wash": {
+      "name": "Rotom-Wash",
+      "num": 658,
+      "types": [
+        "Electric",
+        "Water"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 122,
+        "sa": 105,
+        "sd": 122,
+        "sp": 56
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        "Drizzle"
+      ]
+    },
+    "Rotom-Frost": {
+      "name": "Rotom-Frost",
+      "num": 659,
+      "types": [
+        "Electric",
+        "Ice"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 97,
+        "sa": 105,
+        "sd": 97,
+        "sp": 106
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Fan": {
+      "name": "Rotom-Fan",
+      "num": 660,
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 82,
+        "sa": 105,
+        "sd": 82,
+        "sp": 136
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Motor Drive",
+        "",
+        ""
+      ]
+    },
+    "Rotom-Mow": {
+      "name": "Rotom-Mow",
+      "num": 661,
+      "types": [
+        "Electric",
+        "Grass"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 80,
+        "at": 65,
+        "df": 97,
+        "sa": 105,
+        "sd": 97,
+        "sp": 106
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Thunder Shock"
+          ],
+          [
+            1,
+            "Pain Split"
+          ],
+          [
+            8,
+            "Charge"
+          ],
+          [
+            15,
+            "Ominous Wind"
+          ],
+          [
+            22,
+            "Electro Ball"
+          ],
+          [
+            29,
+            "Thunder Wave"
+          ],
+          [
+            34,
+            "Discharge"
+          ],
+          [
+            39,
+            "Shadow Ball"
+          ],
+          [
+            43,
+            "Thunderbolt"
+          ],
+          [
+            60,
+            "Will-O-Wisp"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Dream Eater",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Levitate",
+        "",
+        ""
+      ]
+    },
+    "Castform-Sunny": {
+      "name": "Castform-Sunny",
+      "num": 662,
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 10
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Castform-Rainy": {
+      "name": "Castform-Rainy",
+      "num": 663,
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 110
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        "Drizzle"
+      ]
+    },
+    "Castform-Snowy": {
+      "name": "Castform-Snowy",
+      "num": 664,
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "items": [
+        "Mystic Water",
+        "Mystic Water",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 70,
+        "df": 70,
+        "sa": 110,
+        "sd": 70,
+        "sp": 110
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            10,
+            "Water Gun"
+          ],
+          [
+            10,
+            "Ember"
+          ],
+          [
+            10,
+            "Powder Snow"
+          ],
+          [
+            20,
+            "Headbutt"
+          ],
+          [
+            30,
+            "Rain Dance"
+          ],
+          [
+            30,
+            "Sunny Day"
+          ],
+          [
+            30,
+            "Hail"
+          ],
+          [
+            40,
+            "Weather Ball"
+          ],
+          [
+            50,
+            "Hydro Pump"
+          ],
+          [
+            50,
+            "Fire Blast"
+          ],
+          [
+            50,
+            "Blizzard"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Swagger",
+          "Natural Gift"
+        ]
+      },
+      "abs": [
+        "Forecast",
+        "",
+        ""
+      ]
+    },
+    "Basculin-Blue-Striped": {
+      "name": "Basculin-Blue-Striped",
+      "num": 665,
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "items": [
+        "None",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 70,
+        "at": 80,
+        "df": 70,
+        "sa": 112,
+        "sd": 70,
+        "sp": 98
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            1,
+            "Leer"
+          ],
+          [
+            1,
+            "Water Gun"
+          ],
+          [
+            7,
+            "Bite"
+          ],
+          [
+            13,
+            "Scary Face"
+          ],
+          [
+            21,
+            "Snarl"
+          ],
+          [
+            25,
+            "Aurora Beam"
+          ],
+          [
+            30,
+            "Scald"
+          ],
+          [
+            36,
+            "Dark Pulse"
+          ],
+          [
+            40,
+            "Surf"
+          ],
+          [
+            60,
+            "Night Daze"
+          ],
+          [
+            70,
+            "Hydro Cannon"
+          ]
+        ],
+        "tms": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Baton Pass",
+          "Rain Dance",
+          "Dark Pulse",
+          "Return",
+          "Double Team",
+          "Water Pulse",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Natural Gift",
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Dive"
+        ]
+      },
+      "abs": [
+        "Mold Breaker",
+        "Adaptability",
+        "Drizzle"
+      ]
+    },
+    "Darmanitan-Zen": {
+      "name": "Darmanitan-Zen",
+      "num": 666,
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "items": [
+        "Rawst Berry",
+        "None",
+        "None"
+      ],
+      "bs": {
+        "hp": 105,
+        "at": 30,
+        "df": 105,
+        "sa": 140,
+        "sd": 105,
+        "sp": 55
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Tackle"
+          ],
+          [
+            1,
+            "Rollout"
+          ],
+          [
+            1,
+            "Incinerate"
+          ],
+          [
+            1,
+            "Rage"
+          ],
+          [
+            3,
+            "Rollout"
+          ],
+          [
+            6,
+            "Incinerate"
+          ],
+          [
+            9,
+            "Rage"
+          ],
+          [
+            11,
+            "Fire Fang"
+          ],
+          [
+            14,
+            "Headbutt"
+          ],
+          [
+            17,
+            "Swagger"
+          ],
+          [
+            19,
+            "Facade"
+          ],
+          [
+            22,
+            "Fire Punch"
+          ],
+          [
+            25,
+            "Work Up"
+          ],
+          [
+            27,
+            "Thrash"
+          ],
+          [
+            30,
+            "Belly Drum"
+          ],
+          [
+            33,
+            "Flare Blitz"
+          ],
+          [
+            35,
+            "Hammer Arm"
+          ],
+          [
+            39,
+            "Taunt"
+          ],
+          [
+            47,
+            "Superpower"
+          ],
+          [
+            54,
+            "Overheat"
+          ]
+        ],
+        "tms": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Baton Pass",
+          "Dark Pulse",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Self-Destruct",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Natural Gift",
+          "Rock Smash",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Sheer Force",
+        "",
+        "Zen Mode"
+      ]
+    },
+    "Meloetta-Pirouette": {
+      "name": "Meloetta-Pirouette",
+      "num": 667,
+      "types": [
+        "Normal",
+        "Fighting"
+      ],
+      "items": [
+        "Star Piece",
+        "Star Piece",
+        "None"
+      ],
+      "bs": {
+        "hp": 100,
+        "at": 128,
+        "df": 90,
+        "sa": 77,
+        "sd": 77,
+        "sp": 128
+      },
+      "learnset_info": {
+        "learnset": [
+          [
+            1,
+            "Round"
+          ],
+          [
+            6,
+            "Quick Attack"
+          ],
+          [
+            11,
+            "Confusion"
+          ],
+          [
+            16,
+            "Sing"
+          ],
+          [
+            21,
+            "Teeter Dance"
+          ],
+          [
+            26,
+            "Acrobatics"
+          ],
+          [
+            31,
+            "Psybeam"
+          ],
+          [
+            36,
+            "Echoed Voice"
+          ],
+          [
+            43,
+            "U-turn"
+          ],
+          [
+            50,
+            "Wake-Up Slap"
+          ],
+          [
+            57,
+            "Psychic"
+          ],
+          [
+            64,
+            "Hyper Voice"
+          ],
+          [
+            71,
+            "Role Play"
+          ],
+          [
+            78,
+            "Close Combat"
+          ],
+          [
+            85,
+            "Perish Song"
+          ]
+        ],
+        "tms": [
+          "Hone Claws",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Shock Wave",
+          "Baton Pass",
+          "Rain Dance",
+          "Earth Power",
+          "Safeguard",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Magical Leaf",
+          "Self-Destruct",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Natural Gift",
+          "Trick Room",
+          "Rock Smash",
+          "Strength"
+        ]
+      },
+      "abs": [
+        "Serene Grace",
         "",
         ""
       ]
@@ -99417,38 +101339,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 81 Elite Four Caitlin - Pokemon League": {
-        "level": 81,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 231,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Bashful",
-        "moves": [
-          "Psychic",
-          "Fire Blast",
-          "Focus Blast",
-          "Grass Knot"
-        ],
-        "sub_index": 1,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/elite_four.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 40 Linebacker Dan3": {
         "level": 40,
         "ai": 7,
@@ -99642,7 +101532,7 @@ backup_data = {
         }
       }
     },
-    "Basculin": {
+    "Basculin-Blue-Striped": {
       "Lvl 18 Fisherman Hubert": {
         "level": 18,
         "ai": 1,
@@ -99668,14 +101558,240 @@ backup_data = {
           "Leer"
         ],
         "sub_index": 0,
-        "ability": "Rock Head",
+        "ability": "Mold Breaker",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 1,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 18 Fisherman Hubert 2": {
+      "Lvl 16 Fisherman Andrew - Icirrus City": {
+        "level": 16,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 42,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Hardy",
+        "moves": [
+          "Screech",
+          "Bite",
+          "Aqua Jet",
+          "Leer"
+        ],
+        "sub_index": 1,
+        "ability": "Mold Breaker",
+        "sprite": "./images/trainer_sprites/fisherman.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 16 Fisherman Andrew - Icirrus City 2": {
+        "level": 16,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 42,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Hardy",
+        "moves": [
+          "Screech",
+          "Bite",
+          "Aqua Jet",
+          "Leer"
+        ],
+        "sub_index": 3,
+        "ability": "Mold Breaker",
+        "sprite": "./images/trainer_sprites/fisherman.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 34 Fisherman Bruce": {
+        "level": 34,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 148,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Brave",
+        "moves": [
+          "Scald",
+          "Ice Fang",
+          "Feint Attack",
+          "Screech"
+        ],
+        "sub_index": 1,
+        "ability": "Mold Breaker",
+        "sprite": "./images/trainer_sprites/fisherman.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 17 Clerk  M Warren": {
+        "level": 17,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 166,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Calm",
+        "moves": [
+          "Screech",
+          "Bite",
+          "Aqua Jet",
+          "Leer"
+        ],
+        "sub_index": 1,
+        "ability": "Mold Breaker",
+        "sprite": "./images/trainer_sprites/clerk_m.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 Swimmer  F Joyce - Route 17": {
+        "level": 64,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 390,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Shock Drive",
+        "item": "Life Orb",
+        "nature": "Lax",
+        "moves": [
+          "Hydro Pump",
+          "Night Daze",
+          "Ice Beam",
+          "Soak"
+        ],
+        "sub_index": 0,
+        "ability": "Drizzle",
+        "sprite": "./images/trainer_sprites/swimmer_f.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 34 Fisherman Damon": {
+        "level": 34,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 584,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Quiet",
+        "moves": [
+          "Scald",
+          "Ice Fang",
+          "Feint Attack",
+          "Screech"
+        ],
+        "sub_index": 0,
+        "ability": "Mold Breaker",
+        "sprite": "./images/trainer_sprites/fisherman.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 27 Motorcyclist Charles2 - Driftveil City": {
+        "level": 27,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 603,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Rotation",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Docile",
+        "moves": [
+          "Ice Fang",
+          "Feint Attack",
+          "Screech",
+          "Bite"
+        ],
+        "sub_index": 1,
+        "ability": "Mold Breaker",
+        "sprite": "./images/trainer_sprites/motorcyclist.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Basculin": {
+      "Lvl 18 Fisherman Hubert": {
         "level": 18,
         "ai": 1,
         "noCh": false,
@@ -99763,74 +101879,10 @@ backup_data = {
           "Aqua Jet",
           "Leer"
         ],
-        "sub_index": 1,
-        "ability": "Rock Head",
-        "sprite": "./images/trainer_sprites/fisherman.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 16 Fisherman Andrew - Icirrus City 3": {
-        "level": 16,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 42,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Hardy",
-        "moves": [
-          "Screech",
-          "Bite",
-          "Aqua Jet",
-          "Leer"
-        ],
         "sub_index": 2,
         "ability": "Rock Head",
         "sprite": "./images/trainer_sprites/fisherman.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 16 Fisherman Andrew - Icirrus City 4": {
-        "level": 16,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 42,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Hardy",
-        "moves": [
-          "Screech",
-          "Bite",
-          "Aqua Jet",
-          "Leer"
-        ],
-        "sub_index": 3,
-        "ability": "Rock Head",
-        "sprite": "./images/trainer_sprites/fisherman.png",
-        "form": 1,
         "evs": {
           "df": 0
         }
@@ -99899,38 +101951,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 34 Fisherman Bruce 2": {
-        "level": 34,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 148,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Brave",
-        "moves": [
-          "Scald",
-          "Ice Fang",
-          "Feint Attack",
-          "Screech"
-        ],
-        "sub_index": 1,
-        "ability": "Rock Head",
-        "sprite": "./images/trainer_sprites/fisherman.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 17 Clerk  M Warren": {
         "level": 17,
         "ai": 1,
@@ -99987,74 +102007,10 @@ backup_data = {
           "Aqua Jet",
           "Leer"
         ],
-        "sub_index": 1,
-        "ability": "Rock Head",
-        "sprite": "./images/trainer_sprites/clerk_m.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 17 Clerk  M Warren 3": {
-        "level": 17,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 166,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Calm",
-        "moves": [
-          "Screech",
-          "Bite",
-          "Aqua Jet",
-          "Leer"
-        ],
         "sub_index": 2,
         "ability": "Rock Head",
         "sprite": "./images/trainer_sprites/clerk_m.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 Swimmer  F Joyce - Route 17": {
-        "level": 64,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 390,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Shock Drive",
-        "item": "Life Orb",
-        "nature": "Lax",
-        "moves": [
-          "Hydro Pump",
-          "Night Daze",
-          "Ice Beam",
-          "Soak"
-        ],
-        "sub_index": 0,
-        "ability": "Mold Breaker",
-        "sprite": "./images/trainer_sprites/swimmer_f.png",
-        "form": 1,
         "evs": {
           "df": 0
         }
@@ -100087,70 +102043,6 @@ backup_data = {
         "ability": "Rock Head",
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 34 Fisherman Damon": {
-        "level": 34,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 584,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Quiet",
-        "moves": [
-          "Scald",
-          "Ice Fang",
-          "Feint Attack",
-          "Screech"
-        ],
-        "sub_index": 0,
-        "ability": "Rock Head",
-        "sprite": "./images/trainer_sprites/fisherman.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 27 Motorcyclist Charles2 - Driftveil City": {
-        "level": 27,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 603,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Rotation",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Docile",
-        "moves": [
-          "Ice Fang",
-          "Feint Attack",
-          "Screech",
-          "Bite"
-        ],
-        "sub_index": 1,
-        "ability": "Rock Head",
-        "sprite": "./images/trainer_sprites/motorcyclist.png",
-        "form": 1,
         "evs": {
           "df": 0
         }
@@ -106950,7 +108842,7 @@ backup_data = {
         }
       }
     },
-    "Rotom": {
+    "Rotom-Fan": {
       "Lvl 42 Lady Colette - Nimbasa City": {
         "level": 42,
         "ai": 7,
@@ -106976,169 +108868,9 @@ backup_data = {
           "Will-O-Wisp"
         ],
         "sub_index": 0,
-        "ability": "Levitate",
+        "ability": "Motor Drive",
         "sprite": "./images/trainer_sprites/lady.png",
         "form": 4,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 42 Lady Colette - Nimbasa City 2": {
-        "level": 42,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 69,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Rindo Berry",
-        "nature": "Naive",
-        "moves": [
-          "Hydro Pump",
-          "Discharge",
-          "Shadow Ball",
-          "Confuse Ray"
-        ],
-        "sub_index": 1,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/lady.png",
-        "form": 2,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 42 Lady Colette - Nimbasa City 3": {
-        "level": 42,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 69,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Wise Glasses",
-        "nature": "Naive",
-        "moves": [
-          "Ice Beam",
-          "Thunderbolt",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/lady.png",
-        "form": 3,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 42 Lady Colette - Nimbasa City 4": {
-        "level": 42,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 69,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "White Herb",
-        "nature": "Naive",
-        "moves": [
-          "Overheat",
-          "Thunderbolt",
-          "Charge Beam",
-          "Substitute"
-        ],
-        "sub_index": 3,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/lady.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 42 Lady Colette - Nimbasa City 5": {
-        "level": 42,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 69,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Leftovers",
-        "nature": "Naive",
-        "moves": [
-          "Giga Drain",
-          "Discharge",
-          "Thunder Wave",
-          "Charge"
-        ],
-        "sub_index": 4,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/lady.png",
-        "form": 5,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 59 Worker Brady - Mistralton City": {
-        "level": 59,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 127,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "White Herb",
-        "nature": "Hasty",
-        "moves": [
-          "Thunder",
-          "Overheat",
-          "Will-O-Wisp",
-          "Hex"
-        ],
-        "sub_index": 2,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/worker.png",
-        "form": 1,
         "evs": {
           "df": 0
         }
@@ -107168,9 +108900,43 @@ backup_data = {
           "Hex"
         ],
         "sub_index": 3,
-        "ability": "Levitate",
+        "ability": "Motor Drive",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 4,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Wash": {
+      "Lvl 42 Lady Colette - Nimbasa City": {
+        "level": 42,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 69,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Rindo Berry",
+        "nature": "Naive",
+        "moves": [
+          "Hydro Pump",
+          "Discharge",
+          "Shadow Ball",
+          "Confuse Ray"
+        ],
+        "sub_index": 1,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/lady.png",
+        "form": 2,
         "evs": {
           "df": 0
         }
@@ -107207,38 +108973,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 Ace Trainer Mariana": {
-        "level": 65,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 205,
-        "diff": 0,
-        "ivs": {
-          "hp": 18,
-          "at": 18,
-          "df": 18,
-          "sa": 18,
-          "sd": 18,
-          "sp": 18
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Lax",
-        "moves": [
-          "Will-O-Wisp",
-          "Thunderbolt",
-          "Shadow Ball",
-          "Discharge"
-        ],
-        "sub_index": 0,
-        "ability": "Levitate",
-        "sprite": "./images/trainer_sprites/ace_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 40 Veteran Chrille - Route 16": {
         "level": 40,
         "ai": 135,
@@ -107267,6 +109001,140 @@ backup_data = {
         "ability": "Levitate",
         "sprite": "./images/trainer_sprites/veteran.png",
         "form": 2,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Frost": {
+      "Lvl 42 Lady Colette - Nimbasa City": {
+        "level": 42,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 69,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Wise Glasses",
+        "nature": "Naive",
+        "moves": [
+          "Ice Beam",
+          "Thunderbolt",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/lady.png",
+        "form": 3,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Heat": {
+      "Lvl 42 Lady Colette - Nimbasa City": {
+        "level": 42,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 69,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "White Herb",
+        "nature": "Naive",
+        "moves": [
+          "Overheat",
+          "Thunderbolt",
+          "Charge Beam",
+          "Substitute"
+        ],
+        "sub_index": 3,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/lady.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 59 Worker Brady - Mistralton City": {
+        "level": 59,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 127,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "White Herb",
+        "nature": "Hasty",
+        "moves": [
+          "Thunder",
+          "Overheat",
+          "Will-O-Wisp",
+          "Hex"
+        ],
+        "sub_index": 2,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/worker.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom-Mow": {
+      "Lvl 42 Lady Colette - Nimbasa City": {
+        "level": 42,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 69,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Leftovers",
+        "nature": "Naive",
+        "moves": [
+          "Giga Drain",
+          "Discharge",
+          "Thunder Wave",
+          "Charge"
+        ],
+        "sub_index": 4,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/lady.png",
+        "form": 5,
         "evs": {
           "df": 0
         }
@@ -109539,38 +111407,6 @@ backup_data = {
         "ability": "Forecast",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 PkMn Ranger Annie - Route 8": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 188,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Pecha Berry",
-        "item": "Expert Belt",
-        "nature": "Gentle",
-        "moves": [
-          "Surf",
-          "Thunder",
-          "Hurricane",
-          "Ice Beam"
-        ],
-        "sub_index": 0,
-        "ability": "",
-        "sprite": "./images/trainer_sprites/pokemon_ranger.png",
-        "form": 2,
         "evs": {
           "df": 0
         }
@@ -114971,8 +116807,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 PkMn Trainer Cheren8": {
-        "level": 24,
+      "Lvl 44 PkMn Trainer Cheren8": {
+        "level": 44,
         "ai": 135,
         "noCh": false,
         "tr_id": 91,
@@ -114988,7 +116824,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
-        "nature": "Gentle",
+        "nature": "Jolly",
         "moves": [
           "Sludge Bomb",
           "Earth Power",
@@ -129547,6 +131383,40 @@ backup_data = {
         }
       }
     },
+    "Castform-Rainy": {
+      "Lvl 63 PkMn Ranger Annie - Route 8": {
+        "level": 63,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 188,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Pecha Berry",
+        "item": "Expert Belt",
+        "nature": "Gentle",
+        "moves": [
+          "Surf",
+          "Thunder",
+          "Hurricane",
+          "Ice Beam"
+        ],
+        "sub_index": 0,
+        "ability": "",
+        "sprite": "./images/trainer_sprites/pokemon_ranger.png",
+        "form": 2,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Wormadam": {
       "Lvl 63 PkMn Ranger Annie - Route 8": {
         "level": 63,
@@ -129580,38 +131450,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 33 Harlequin Jack - Castelia City": {
-        "level": 33,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 196,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Occa Berry",
-        "nature": "Sassy",
-        "moves": [
-          "Bug Buzz",
-          "Flash Cannon",
-          "Protect",
-          "Metal Burst"
-        ],
-        "sub_index": 3,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/harlequin.png",
-        "form": 2,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 64 Lass Sibyl": {
         "level": 64,
         "ai": 0,
@@ -129640,102 +131478,6 @@ backup_data = {
         "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/lass.png",
         "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 Veteran Julia - Challenger's Cave": {
-        "level": 64,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 260,
-        "diff": 0,
-        "ivs": {
-          "hp": 24,
-          "at": 24,
-          "df": 24,
-          "sa": 24,
-          "sd": 24,
-          "sp": 24
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Timid",
-        "moves": [
-          "Iron Head",
-          "Psychic",
-          "Struggle Bug",
-          "Shadow Ball"
-        ],
-        "sub_index": 0,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/veteran.png",
-        "form": 2,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 School Kid Ann - Route 12": {
-        "level": 64,
-        "ai": 5,
-        "noCh": false,
-        "tr_id": 428,
-        "diff": 0,
-        "ivs": {
-          "hp": 6,
-          "at": 6,
-          "df": 6,
-          "sa": 6,
-          "sd": 6,
-          "sp": 6
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Quirky",
-        "moves": [
-          "Leaf Storm",
-          "Energy Ball",
-          "Bug Buzz",
-          "Giga Drain"
-        ],
-        "sub_index": 1,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/school_kid.png",
-        "form": 1,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 Hiker Jeremiah - Route 18": {
-        "level": 64,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 460,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Chill Drive",
-        "item": "Coba Berry",
-        "nature": "Calm",
-        "moves": [
-          "Earthquake",
-          "X-Scissor",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/hiker.png",
-        "form": 1,
         "evs": {
           "df": 0
         }
@@ -130680,6 +132422,72 @@ backup_data = {
         "ability": "Adaptability",
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Wormadam-Trash": {
+      "Lvl 33 Harlequin Jack - Castelia City": {
+        "level": 33,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 196,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Occa Berry",
+        "nature": "Sassy",
+        "moves": [
+          "Bug Buzz",
+          "Flash Cannon",
+          "Protect",
+          "Metal Burst"
+        ],
+        "sub_index": 3,
+        "ability": "Overcoat",
+        "sprite": "./images/trainer_sprites/harlequin.png",
+        "form": 2,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 Veteran Julia - Challenger's Cave": {
+        "level": 64,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 260,
+        "diff": 0,
+        "ivs": {
+          "hp": 24,
+          "at": 24,
+          "df": 24,
+          "sa": 24,
+          "sd": 24,
+          "sp": 24
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Timid",
+        "moves": [
+          "Iron Head",
+          "Psychic",
+          "Struggle Bug",
+          "Shadow Ball"
+        ],
+        "sub_index": 0,
+        "ability": "Overcoat",
+        "sprite": "./images/trainer_sprites/veteran.png",
+        "form": 2,
         "evs": {
           "df": 0
         }
@@ -132433,6 +134241,40 @@ backup_data = {
         "sub_index": 0,
         "ability": "Quick Feet",
         "sprite": "./images/trainer_sprites/seven_sage.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Rotom": {
+      "Lvl 65 Ace Trainer Mariana": {
+        "level": 65,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 205,
+        "diff": 0,
+        "ivs": {
+          "hp": 18,
+          "at": 18,
+          "df": 18,
+          "sa": 18,
+          "sd": 18,
+          "sp": 18
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Lax",
+        "moves": [
+          "Will-O-Wisp",
+          "Thunderbolt",
+          "Shadow Ball",
+          "Discharge"
+        ],
+        "sub_index": 0,
+        "ability": "Levitate",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -135695,6 +137537,40 @@ backup_data = {
         }
       }
     },
+    "Darmanitan-Zen": {
+      "Lvl 81 Elite Four Caitlin - Pokemon League": {
+        "level": 81,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 231,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Bashful",
+        "moves": [
+          "Psychic",
+          "Fire Blast",
+          "Focus Blast",
+          "Grass Knot"
+        ],
+        "sub_index": 1,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/elite_four.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Eelektross": {
       "Lvl 85 Team Plasma Ghetsis": {
         "level": 85,
@@ -137001,7 +138877,7 @@ backup_data = {
         }
       }
     },
-    "Giratina": {
+    "Giratina-Origin": {
       "Lvl 79 Ace Trainer Benjamin - Victory Road": {
         "level": 79,
         "ai": 7,
@@ -137027,7 +138903,7 @@ backup_data = {
           "Weather Ball"
         ],
         "sub_index": 1,
-        "ability": "Pressure",
+        "ability": "Levitate",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 1,
         "evs": {
@@ -143264,6 +145140,72 @@ backup_data = {
         "ability": "Dry Skin",
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Wormadam-Sandy": {
+      "Lvl 64 School Kid Ann - Route 12": {
+        "level": 64,
+        "ai": 5,
+        "noCh": false,
+        "tr_id": 428,
+        "diff": 0,
+        "ivs": {
+          "hp": 6,
+          "at": 6,
+          "df": 6,
+          "sa": 6,
+          "sd": 6,
+          "sp": 6
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Quirky",
+        "moves": [
+          "Leaf Storm",
+          "Energy Ball",
+          "Bug Buzz",
+          "Giga Drain"
+        ],
+        "sub_index": 1,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/school_kid.png",
+        "form": 1,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 Hiker Jeremiah - Route 18": {
+        "level": 64,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 460,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Chill Drive",
+        "item": "Coba Berry",
+        "nature": "Calm",
+        "moves": [
+          "Earthquake",
+          "X-Scissor",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/hiker.png",
+        "form": 1,
         "evs": {
           "df": 0
         }
