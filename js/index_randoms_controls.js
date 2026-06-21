@@ -256,6 +256,7 @@ $(".result-move").change(function () {
 
 		if (result) {
 			var desc = result.fullDesc(notation, false);
+			desc = correctImpossibleMultihitOHKOText(result, desc);
 			if (desc.indexOf('--') === -1) desc += ' -- possibly the worst move ever';
 			$("#mainResult").text(desc);
 			var summary = displayDamageHits(normalizeDamageForDisplay(result));
@@ -329,6 +330,71 @@ function normalizeDamageForDisplay(result) {
 		return squashMultihitDisplay(damage, hits);
 	}
 	return damage;
+}
+
+function correctImpossibleMultihitOHKOText(result, desc) {
+	if (!result || !result.move || !desc || desc.indexOf("-- guaranteed OHKO") === -1) return desc;
+	if ((result.move.hits || 1) <= 1) return desc;
+
+	var damage = combineSelectedHitDamage(normalizeDamageForDisplay(result));
+	var range = getDisplayDamageRange(damage);
+	var currentHP = result.defender && typeof result.defender.curHP === "function"
+		? result.defender.curHP()
+		: result.defender && typeof result.defender.maxHP === "function" ? result.defender.maxHP() : undefined;
+	if (!range || currentHP === undefined || range[0] >= currentHP) return desc;
+
+	var getChance = typeof getKOChance === "function"
+		? getKOChance
+		: typeof calc !== "undefined" && calc && typeof calc.getKOChance === "function" ? calc.getKOChance : undefined;
+	if (!getChance) return desc;
+
+	var move = typeof result.move.clone === "function" ? result.move.clone() : Object.assign({}, result.move);
+	move.hits = 1;
+	var koText = getChance(result.gen, result.attacker, result.defender, move, result.field, damage, false, true).text;
+	if (!koText || koText === "guaranteed OHKO") return desc;
+	return desc.replace("-- guaranteed OHKO", "-- " + koText);
+}
+
+function combineSelectedHitDamage(damage) {
+	if (!Array.isArray(damage) || damage.length !== 2) return damage;
+	var first = damage[0];
+	var second = damage[1];
+	if (Array.isArray(first) && Array.isArray(second) &&
+		typeof first[0] === "number" && typeof second[0] === "number") {
+		var combined = [];
+		var len = Math.min(first.length, second.length);
+		for (var i = 0; i < len; i++) {
+			combined[i] = first[i] + second[i];
+		}
+		return combined;
+	}
+	if (Array.isArray(first) && typeof first[0] === "number" && typeof second === "number") {
+		return first.map(function (value) { return value + second; });
+	}
+	if (Array.isArray(second) && typeof second[0] === "number" && typeof first === "number") {
+		return second.map(function (value) { return value + first; });
+	}
+	return damage;
+}
+
+function getDisplayDamageRange(damage) {
+	if (typeof damage === "number") return [damage, damage];
+	if (!Array.isArray(damage) || damage.length === 0) return undefined;
+	if (typeof damage[0] === "number") {
+		return [Math.min.apply(Math, damage), Math.max.apply(Math, damage)];
+	}
+	if (Array.isArray(damage[0])) {
+		var minSum = 0;
+		var maxSum = 0;
+		for (var i = 0; i < damage.length; i++) {
+			var dist = damage[i];
+			if (!Array.isArray(dist) || dist.length === 0) continue;
+			minSum += Math.min.apply(Math, dist);
+			maxSum += Math.max.apply(Math, dist);
+		}
+		return [minSum, maxSum];
+	}
+	return undefined;
 }
 
 function squashMultihitDisplay(d, hits) {

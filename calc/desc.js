@@ -58,7 +58,7 @@ function display(gen, attacker, defender, move, field, damage, rawDesc, notation
     var damageText = "".concat(min, "-").concat(max, " (").concat(minDisplay, " - ").concat(maxDisplay).concat(notation, ")");
     if (move.category === 'Status' && !move.named('Nature Power'))
         return "".concat(desc, ": ").concat(damageText);
-    var koChanceText = getKOChance(gen, attacker, defender, move, field, damage, err).text;
+    var koChanceText = getKOChance(gen, attacker, defender, move, field, damage, err, true).text;
     return koChanceText ? "".concat(desc, ": ").concat(damageText, " -- ").concat(koChanceText) : "".concat(desc, ": ").concat(damageText);
 }
 exports.display = display;
@@ -237,9 +237,11 @@ function getRecoil(gen, attacker, defender, move, damage, notation) {
     return { recoil: recoil, text: text };
 }
 exports.getRecoil = getRecoil;
-function getKOChance(gen, attacker, defender, move, field, damageObj, err) {
+function getKOChance(gen, attacker, defender, move, field, damageObj, err, normalized) {
     if (err === void 0) { err = true; }
-    damageObj = normalizeMultihitDamage(gen, move, damageObj, err);
+    if (normalized === void 0) { normalized = false; }
+    if (!normalized)
+        damageObj = normalizeMultihitDamage(gen, move, damageObj, err);
     var _a = __read(combine(damageObj), 2), damage = _a[0], approximate = _a[1];
     if (isNaN(damage[0])) {
         (0, util_1.error)(err, 'damage[0] must be a number.');
