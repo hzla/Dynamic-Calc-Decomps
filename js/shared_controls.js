@@ -3544,7 +3544,7 @@ function getMoveDetails(moveInfo, species, ability, item, useMax, moveName=false
 	var hits = +moveInfo.find(".move-hits").val();
 	}
 	var timesUsed = +moveInfo.find(".stat-drops").val();
-	var timesUsedWithMetronome = moveInfo.find(".metronome").is(':visible') ? +moveInfo.find(".metronome").val() : 1;
+	var timesUsedWithMetronome = item === "Metronome" ? +moveInfo.find(".metronome").val() : 0;
 	var inferredHiddenPower = getHiddenPowerDetailsFromIVs(moveInfo.closest(".poke-info"), moveName);
 	
 	if (inferredHiddenPower) {

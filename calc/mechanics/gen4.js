@@ -602,6 +602,12 @@ function calculateDPP(gen, attacker, defender, move, field) {
             ebeltMod = expertBeltMods[0] || 1.2;
             desc.attackerItem = attacker.item;
         }
+        var metronomeMod = 1;
+        if (attacker.hasItem('Metronome') && move.timesUsedWithMetronome >= 1) {
+            var timesUsedWithMetronome = Math.floor(move.timesUsedWithMetronome);
+            metronomeMod = timesUsedWithMetronome <= 9 ? 1 + timesUsedWithMetronome * 0.1 : 2;
+            desc.attackerItem = attacker.item;
+        }
         var tintedMod = 1;
         if (attacker.hasAbility('Tinted Lens') && typeEffectiveness < 1) {
             tintedMod = 2;
@@ -619,6 +625,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         desc.g4Phase2Type2Effectiveness = type2Effectiveness;
         desc.g4Phase2FilterMod = filterMod;
         desc.g4Phase2ExpertBeltMod = ebeltMod;
+        desc.g4Phase2MetronomeMod = metronomeMod;
         desc.g4Phase2TintedMod = tintedMod;
         desc.g4Phase2BerryMod = berryMod;
         var damage = [];
@@ -629,6 +636,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
             damage[i] = Math.floor(damage[i] * type2Effectiveness);
             damage[i] = Math.floor(damage[i] * filterMod);
             damage[i] = Math.floor(damage[i] * ebeltMod);
+            damage[i] = Math.floor(damage[i] * metronomeMod);
             damage[i] = Math.floor(damage[i] * tintedMod);
             damage[i] = Math.floor(damage[i] * berryMod);
             damage[i] = Math.max(1, damage[i]);
