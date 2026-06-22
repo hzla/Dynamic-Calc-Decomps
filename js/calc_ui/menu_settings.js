@@ -661,10 +661,16 @@ $('#toggle-mobile-move-ui input').on('change', function(){
 $('#toggle-boxroll .slider').click(function(){
     toggle_box_rolls()
     $('#player-poks-filter').toggle()
+    if (typeof syncEnemyPreviewBoxFilterToggle === "function") {
+        syncEnemyPreviewBoxFilterToggle()
+    }
     if ($('#player-poks-filter:visible').length > 0) {
         refreshBoxDisplaySafely()
     } else {
-        $('.faster, .killer, .defender').removeClass('faster killer defender')
+        $('.faster, .killer, .defender, .ohko, .mb-ohko, .ohkod, .mb-ohkod').removeClass('faster killer defender ohko mb-ohko ohkod mb-ohkod')
+        if (typeof clearEnemyPreviewBoxHighlights === "function") {
+            clearEnemyPreviewBoxHighlights()
+        }
     }
 })
 

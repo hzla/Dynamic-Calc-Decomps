@@ -2108,7 +2108,7 @@ function renderTrainerPreviewPok(next_pok) {
 		isLead = "lead"
 	}
 
-	var pok = `<div class="trainer-pok-container">
+	var pok = `<div class="trainer-pok-container ${isFainted}">
 	<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
 
 	var item = setData["item"]
@@ -2419,6 +2419,9 @@ function refresh_next_in() {
 		trpok_html += `<div class="trainer-preview-exp-total">Total: ${expTotal} EXP</div>`
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
+	if (typeof refreshEnemyPreviewBoxFiltersSafely === "function") {
+		refreshEnemyPreviewBoxFiltersSafely()
+	}
 
 	// console.log(get_current_in().tr_id)
 

@@ -18,6 +18,7 @@
         "deadMons",
         "dexSpeciesModalMode",
         "dynamicTypeBug",
+        "enemyPreviewBoxrolls",
         "enableAnalytics",
         "encounters",
         "filterAbilities",

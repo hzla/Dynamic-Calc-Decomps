@@ -37,6 +37,8 @@ var BOX_MATCHUP_METRICS_CACHE = {
     fingerprint: null,
     metricsBySetId: {}
 }
+var BOX_MATCHUP_HIGHLIGHT_CLASSES = 'faster killer defender ohko mb-ohko ohkod mb-ohkod'
+var ENEMY_PREVIEW_BOX_FILTER_STORAGE_KEY = 'enemyPreviewBoxrolls'
 var PARTY_PREVIEW_OVERRIDE_SLOTS = null
 var IMPORT_PARTY_PREVIEW_PRESERVATION_DEPTH = 0
 var IMPORT_PARTY_PREVIEW_SNAPSHOT = null
@@ -107,6 +109,10 @@ function capturePartyPreviewSnapshot() {
         speciesList: speciesList,
         previewSlots: previewSlots
     }
+}
+
+if (typeof localStorage !== "undefined" && typeof localStorage[ENEMY_PREVIEW_BOX_FILTER_STORAGE_KEY] === "undefined") {
+    localStorage[ENEMY_PREVIEW_BOX_FILTER_STORAGE_KEY] = '0'
 }
 
 function restorePartyPreviewSnapshot(snapshot) {
@@ -336,6 +342,157 @@ function getBoxMatchupContextOptions() {
         advBoxrollsEnabled: $('#adv-boxrolls').prop('checked'),
         dealtMinRoll: $("#min-dealt").val(),
         takenMaxRoll: $("#max-taken").val()
+    }
+}
+
+function getSelectedFilterMoveIndexForPokemon(pokemon) {
+    var selectedMove = $('#filter-move').val()
+    if (!selectedMove || selectedMove == "All Moves" || !pokemon || !Array.isArray(pokemon.moves)) {
+        return 0
+    }
+
+    for (var i = 0; i < pokemon.moves.length; i++) {
+        var move = pokemon.moves[i]
+        if (!move) {
+            continue
+        }
+        if (move.name == selectedMove || move.originalName == selectedMove) {
+            return i + 1
+        }
+    }
+
+    return 0
+}
+
+function getEnemyPreviewBoxMatchupContextOptions() {
+    var playerInfo = $("#p1")
+    if (!playerInfo.length) {
+        return null
+    }
+
+    var player = normalizeBoxAbilityForCalc(createPokemon(playerInfo))
+    if (!player || !Array.isArray(player.types) || !player.types[0]) {
+        return null
+    }
+
+    var playerField = createField()
+    var enemyField = playerField.clone().swap()
+    var playerCurrentHp = Number(playerInfo.find('#currentHpL1').val())
+    if (!playerCurrentHp) {
+        playerCurrentHp = Number(player.originalCurHP) || 0
+    }
+
+    var totalStats = $('.total.totalMod')
+    var playerSpeed = parseInt(totalStats[0] && totalStats[0].innerHTML, 10)
+    if (!Number.isFinite(playerSpeed)) {
+        playerSpeed = Number(player.rawStats && player.rawStats.spe) || 0
+    }
+
+    return {
+        fingerprint: [
+            "enemy-preview",
+            localStorage.customsets || "",
+            $('.player.set-selector').first().val() || "",
+            String(settings && settings.damageGen),
+            String($('#filter-move').val() || ""),
+            String($('#adv-boxrolls').prop('checked')),
+            getBoxInputFingerprint('#p1'),
+            getBoxInputFingerprint('#p2'),
+            getBoxInputFingerprint('.field-info')
+        ].join("::"),
+        opponent: player,
+        p1field: enemyField,
+        p2field: playerField,
+        opponentCurrentHp: playerCurrentHp,
+        opponentSpeed: playerSpeed,
+        selectedMoveIndex: getSelectedFilterMoveIndexForPokemon(player),
+        advBoxrollsEnabled: $('#adv-boxrolls').prop('checked'),
+        dealtMinRoll: $("#min-dealt").val(),
+        takenMaxRoll: $("#max-taken").val()
+    }
+}
+
+function isBoxFilterVisible() {
+    return $('#player-poks-filter:visible').length > 0
+}
+
+function isEnemyPreviewBoxFilterEnabled() {
+    return isBoxFilterVisible() && localStorage[ENEMY_PREVIEW_BOX_FILTER_STORAGE_KEY] == '1'
+}
+
+function clearEnemyPreviewBoxHighlights() {
+    $('.opposing.trainer-pok-list .trainer-pok.right-side').removeClass(BOX_MATCHUP_HIGHLIGHT_CLASSES)
+}
+
+function applyBoxMatchupHighlightClasses(target, metrics) {
+    var element = $(target)
+    if (!metrics) {
+        return
+    }
+
+    if (metrics.faster) {
+        element.addClass('faster')
+    }
+    if (metrics.killer) {
+        element.addClass('killer')
+    }
+    if (metrics.ohko) {
+        element.addClass('ohko')
+    } else if (metrics.mbOhko) {
+        element.addClass('mb-ohko')
+    }
+    if (metrics.defender) {
+        element.addClass('defender')
+    }
+    if (metrics.ohkod) {
+        element.addClass('ohkod')
+    } else if (metrics.mbOhkod) {
+        element.addClass('mb-ohkod')
+    }
+}
+
+function syncEnemyPreviewBoxFilterToggle() {
+    var showToggle = isBoxFilterVisible()
+    var row = $('#enemy-preview-boxroll-row')
+    var toggle = $('#enemy-preview-boxrolls')
+
+    row.css('display', showToggle ? 'flex' : 'none')
+    toggle.prop('checked', localStorage[ENEMY_PREVIEW_BOX_FILTER_STORAGE_KEY] == '1')
+
+    if (!showToggle) {
+        clearEnemyPreviewBoxHighlights()
+    }
+}
+
+function refreshEnemyPreviewBoxFilters() {
+    syncEnemyPreviewBoxFilterToggle()
+    clearEnemyPreviewBoxHighlights()
+
+    if (!isEnemyPreviewBoxFilterEnabled()) {
+        return
+    }
+
+    var contextOptions = getEnemyPreviewBoxMatchupContextOptions()
+    if (!contextOptions) {
+        return
+    }
+
+    $('.opposing.trainer-pok-list .trainer-pok.right-side').each(function() {
+        var setId = $(this).attr('data-id')
+        if (!setId) {
+            return
+        }
+        var metrics = getSafeBoxMatchupMetrics(setId, contextOptions)
+        applyBoxMatchupHighlightClasses(this, metrics)
+    })
+}
+
+function refreshEnemyPreviewBoxFiltersSafely() {
+    try {
+        refreshEnemyPreviewBoxFilters()
+    } catch (error) {
+        console.warn("Enemy preview matchup refresh failed", error)
+        clearEnemyPreviewBoxHighlights()
     }
 }
 
@@ -821,8 +978,10 @@ function refreshBoxDisplay() {
     hideBoxDamageTooltip()
     if ($('#player-poks-filter:visible').length > 0) {
         box_rolls()
+        refreshEnemyPreviewBoxFiltersSafely()
         return
     }
+    refreshEnemyPreviewBoxFiltersSafely()
     get_box()
 }
 
@@ -847,6 +1006,13 @@ function queueBoxMatchupRefresh() {
         refreshBoxDisplaySafely()
     }, 0)
 }
+
+$(document).on('change', '#enemy-preview-boxrolls', function() {
+    localStorage[ENEMY_PREVIEW_BOX_FILTER_STORAGE_KEY] = $(this).prop('checked') ? '1' : '0'
+    refreshEnemyPreviewBoxFiltersSafely()
+})
+
+syncEnemyPreviewBoxFilterToggle()
 
 function sort_box_by_set(attr) {
     var box = $('.player-poks'),
