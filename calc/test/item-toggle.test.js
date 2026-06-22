@@ -2,6 +2,7 @@
 
 var helper_1 = require("./helper");
 var types_1 = require("../data/types");
+var desc_1 = require("../desc");
 
 function expectRatio(result, baseline, expected, tol) {
     if (tol === void 0) { tol = 0.02; }
@@ -50,7 +51,7 @@ describe('Item toggle handling', function () {
     });
 
     (0, helper_1.inGen)(4, function (_a) {
-        var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
+        var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
 
         test('Berserk Gene boosts physical damage by 1.5x', function () {
             var field = Field({});
@@ -105,6 +106,25 @@ describe('Item toggle handling', function () {
                 field
             );
             expectRatio(boosted, baseline, 1.3, 0.08);
+        });
+
+        test('zero Metronome use count does not force not-a-KO text', function () {
+            var field = Field({});
+            var defender = Pokemon('Blastoise', { item: '' });
+            defender.rawStats.hp = 300;
+            defender.originalCurHP = 300;
+            var koChance = (0, desc_1.getKOChance)(
+                gen,
+                Pokemon('Mew', { item: '' }),
+                defender,
+                Move('Return', { timesUsedWithMetronome: 0 }),
+                field,
+                new Array(16).fill(76),
+                false,
+                true
+            );
+
+            expect(koChance).toMatchObject({ chance: 1, n: 4, text: 'guaranteed 4HKO' });
         });
     });
 });

@@ -6567,6 +6567,19 @@ table.field {
         display: none !important;
     }
 
+    #ai-tags,
+    #ai-tags div {
+        display: none !important;
+    }
+
+    #mobile-tags {
+        display: flex;
+    }
+
+    #mobile-tags div {
+        display: block !important;
+    }
+
     .romhack-modal-label-full {
         display: inline;
     }

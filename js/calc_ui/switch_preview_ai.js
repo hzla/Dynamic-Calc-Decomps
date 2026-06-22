@@ -70,6 +70,14 @@ function normalizeSwitchPreviewDamage(damage) {
     return new Array(16).fill(damageValue)
 }
 
+function getSwitchPreviewTurnsToKill(koData) {
+    if (!koData || koData.chance === 0 || koData.text === "not a KO") {
+        return 0
+    }
+
+    return koData.n
+}
+
 
 // Attacker is Player, Defender is AI
 function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, isCurrent=false) {
@@ -143,8 +151,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, i
         }
 
         // count how many turns to kill including status/hazards and recovery items
-        let koData = getKOChance(genInfo, attacker, defender, move, attackerField, damage, false)
-        let turnsToKill = koData.n
+        let koData = getKOChance(genInfo, attacker, defender, move, attackerField, damage, false, true)
+        let turnsToKill = getSwitchPreviewTurnsToKill(koData)
 
         // 0 means too insignificant to matter
         if (turnsToKill == 0) {
@@ -227,8 +235,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, i
 
         // TODO: AI doesn't see status on player, or weather damage effects
         // count how many turns to kill including status/hazards and recovery items
-        let koData = getKOChance(genInfo, defender, attacker, move, defenderField, damage, false)
-        let turnsToKill = koData.n
+        let koData = getKOChance(genInfo, defender, attacker, move, defenderField, damage, false, true)
+        let turnsToKill = getSwitchPreviewTurnsToKill(koData)
 
 
         // 0 means too insignificant to matter

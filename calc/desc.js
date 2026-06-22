@@ -318,7 +318,7 @@ function getKOChance(gen, attacker, defender, move, field, damageObj, err, norma
         }
         return { chance: chance, n: n, text: text };
     }
-    if ((move.timesUsed === 1 && move.timesUsedWithMetronome === 1) || move.isZ) {
+    if ((move.timesUsed === 1 && move.timesUsedWithMetronome <= 1) || move.isZ) {
         var chance = computeKOChance(damage, defender.curHP() - hazards.damage, 0, 1, 1, defender.maxHP(), 0);
         var chanceWithEot = computeKOChance(damage, defender.curHP() - hazards.damage, eot.damage, 1, 1, defender.maxHP(), toxicCounter);
         if (chance + chanceWithEot > 0)
