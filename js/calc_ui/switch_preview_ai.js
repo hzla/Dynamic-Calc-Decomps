@@ -78,6 +78,34 @@ function getSwitchPreviewTurnsToKill(koData) {
     return koData.n
 }
 
+function summarizeSwitchPreviewDebugDamage(damage) {
+    if (!Array.isArray(damage)) {
+        return damage
+    }
+
+    if (damage.length == 0) {
+        return []
+    }
+
+    if (typeof damage[0] === "number") {
+        return {
+            min: damage[0],
+            max: damage[damage.length - 1],
+            rolls: damage.slice()
+        }
+    }
+
+    if (Array.isArray(damage[0])) {
+        return {
+            hits: damage.map(summarizeSwitchPreviewDebugDamage),
+            totalMin: damage.reduce((total, hitRolls) => total + (Array.isArray(hitRolls) ? hitRolls[0] : 0), 0),
+            totalMax: damage.reduce((total, hitRolls) => total + (Array.isArray(hitRolls) ? hitRolls[hitRolls.length - 1] : 0), 0)
+        }
+    }
+
+    return damage
+}
+
 
 // Attacker is Player, Defender is AI
 function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, isCurrent=false) {
@@ -109,6 +137,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, i
     let winsMidTurn1v1 = false
     let aiHasSE = false
     let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather, defenderField.terrain, defender.item)
+    let playerDamageDebug = []
 
 
     let isFaster = adjustedSpeed >= p1RawSpeed
@@ -140,7 +169,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, i
             continue;
         }
 
-        damage = normalizeSwitchPreviewDamage(attackerVDefenderResults[moveIndex].damage)
+        let rawDamage = attackerVDefenderResults[moveIndex].damage
+        damage = normalizeSwitchPreviewDamage(rawDamage)
 
         if (Array.isArray(damage) && damage.length == 16 && typeof damage[0] === "number") {
             if (isCurrent && damage[0] > bestDmgAgainstCurrent) {
@@ -153,6 +183,14 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, i
         // count how many turns to kill including status/hazards and recovery items
         let koData = getKOChance(genInfo, attacker, defender, move, attackerField, damage, false, true)
         let turnsToKill = getSwitchPreviewTurnsToKill(koData)
+        playerDamageDebug.push({
+            move: move.name,
+            rawDamage: summarizeSwitchPreviewDebugDamage(rawDamage),
+            previewDamage: summarizeSwitchPreviewDebugDamage(damage),
+            koChance: koData.chance,
+            koText: koData.text,
+            turnsToKill: turnsToKill
+        })
 
         // 0 means too insignificant to matter
         if (turnsToKill == 0) {
@@ -331,6 +369,18 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults, i
 
     let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst, winsMidTurn1v1: winsMidTurn1v1}
     let matchupData = {aiHasSE: aiHasSE, defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
+    console.log("[switch-preview player damage]", {
+        attacker: attacker.name,
+        defender: defender.name,
+        defenderHp: defender.originalCurHP,
+        defenderMaxHp: typeof defender.maxHP === "function" ? defender.maxHP() : defender.rawStats && defender.rawStats.hp,
+        bestPlayerMove: attackerBestMove,
+        playerFastestKill: attackerFastestKill,
+        isOhkod: isOhkod,
+        decision: debug,
+        matchup: matchupData,
+        moves: playerDamageDebug
+    })
 
     disableKOChanceCalcs = false
     matchupCache.set(currentKey, matchupData)

@@ -2433,6 +2433,18 @@ function refresh_next_in() {
 	}
 }
 
+var queuedRefreshNextIn = null;
+function queueRefreshNextIn() {
+	if (queuedRefreshNextIn) {
+		clearTimeout(queuedRefreshNextIn);
+	}
+
+	queuedRefreshNextIn = setTimeout(function() {
+		queuedRefreshNextIn = null;
+		refresh_next_in();
+	}, 0);
+}
+
 function updateGen3BaitMoves() {
 	if (typeof settings === "undefined" || settings.gameSwitchIn != 3) return;
 	var p1 = createPokemon($('#p1'));
@@ -2467,7 +2479,7 @@ function updateGen3BaitMoves() {
 
 $('#gen3-switch-guide .last-move-used .bait-trigger').on('change input', function() {
 	if (typeof settings === "undefined" || settings.gameSwitchIn != 3) return;
-	refresh_next_in();
+	queueRefreshNextIn();
 });
 
 $('#p1 .move-selector, #p1 .set-selector, #p2 .move-selector, #p2 .set-selector').change(function() {
@@ -2480,7 +2492,7 @@ $('#p1 .move-bp, #p1 .move-type, #p2 .move-bp, #p2 .move-type').on('change input
 
 
 $('#p1 .boost, #statusL1, #p1 .percent-hp').blur(function() {
-	refresh_next_in()	
+	queueRefreshNextIn()
 })
 
 
@@ -2947,7 +2959,7 @@ $(".set-selector").change(function () {
 	// don't get new switch ins if set was the same
 	
 	if (fullSetName != lastSetName) {
-		refresh_next_in()
+		queueRefreshNextIn()
 	} else {
 		return
 	}

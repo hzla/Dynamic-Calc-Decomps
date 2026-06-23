@@ -688,7 +688,11 @@ $(document).ready(function () {
 	$(".calc-trigger").on("change keyup", function () {
 		setTimeout(performCalculations, 0);
 		if (settings.switchIn == 10) {
-			setTimeout(refresh_next_in(), 0);
+			if (typeof queueRefreshNextIn === "function") {
+				queueRefreshNextIn();
+			} else {
+				setTimeout(refresh_next_in, 0);
+			}
 		}
 	});
 	performCalculations();
