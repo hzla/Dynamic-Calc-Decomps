@@ -23,7 +23,7 @@ var platinumKaizoProfile = (0, helpers_1.makeProfile)({
                     return basePower;
                 }
                 if (move.named("Wring Out")) {
-                    basePower = move.bp;
+                    basePower = move.bp || 75;
                     if (ctx.defender.curHP() <= ctx.defender.maxHP() / 2 && !isCalcingForSwitchIns()) {
                         basePower *= 2;
                     }

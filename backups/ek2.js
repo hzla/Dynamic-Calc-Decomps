@@ -25211,7 +25211,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 191
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Blaziken| ": {
         "ability": "Static",
         "item": "Lum Berry",
         "level": 59,
@@ -25225,7 +25225,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 201
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Sceptile| ": {
         "ability": "Static",
         "item": "Lum Berry",
         "level": 59,
@@ -25239,7 +25239,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 203
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Swampert| ": {
         "ability": "Static",
         "item": "Lum Berry",
         "level": 59,
@@ -25253,7 +25253,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 202
       },
-      "Lvl 59 Pokémon Trainer May #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Blaziken| ": {
         "ability": "Static",
         "item": "Lum Berry",
         "level": 59,
@@ -25267,7 +25267,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 198
       },
-      "Lvl 59 Pokémon Trainer May #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Sceptile| ": {
         "ability": "Static",
         "item": "Lum Berry",
         "level": 59,
@@ -25281,7 +25281,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 200
       },
-      "Lvl 59 Pokémon Trainer May #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Swampert| ": {
         "ability": "Static",
         "item": "Lum Berry",
         "level": 59,
@@ -26165,7 +26165,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 85
       },
-      "Lvl 24 Pokémon Trainer Brendan #2 [Combusken] ": {
+      "Lvl 24 Pokémon Trainer Brendan #2 |Combusken| ": {
         "ability": "Overgrow",
         "level": 24,
         "moves": [
@@ -26178,7 +26178,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 61
       },
-      "Lvl 24 Pokémon Trainer May #2 [Combusken] ": {
+      "Lvl 24 Pokémon Trainer May #2 |Combusken| ": {
         "ability": "Overgrow",
         "level": 24,
         "moves": [
@@ -26401,7 +26401,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 287
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Blaziken| ": {
         "ability": "Torrent",
         "item": "Lum Berry",
         "level": 50,
@@ -26415,7 +26415,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 163
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Blaziken| ": {
         "ability": "Torrent",
         "item": "Lum Berry",
         "level": 59,
@@ -26429,7 +26429,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 201
       },
-      "Lvl 50 Pokémon Trainer May #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Blaziken| ": {
         "ability": "Torrent",
         "item": "Lum Berry",
         "level": 50,
@@ -26443,7 +26443,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 160
       },
-      "Lvl 59 Pokémon Trainer May #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Blaziken| ": {
         "ability": "Torrent",
         "item": "Lum Berry",
         "level": 59,
@@ -26529,7 +26529,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 134
       },
-      "Lvl 60 Pokémon Trainer Brendan #4 [Blaziken] ": {
+      "Lvl 60 Pokémon Trainer Brendan #4 |Blaziken| ": {
         "ability": "Blaze",
         "item": "Lum Berry",
         "level": 60,
@@ -26543,7 +26543,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 201
       },
-      "Lvl 60 Pokémon Trainer May #4 [Blaziken] ": {
+      "Lvl 60 Pokémon Trainer May #4 |Blaziken| ": {
         "ability": "Blaze",
         "item": "Lum Berry",
         "level": 60,
@@ -26808,7 +26808,7 @@ backup_data = {
       }
     },
     "Bulbasaur": {
-      "Lvl 15 Pokémon Trainer Brendan #1.5 [Marshtomp] ": {
+      "Lvl 15 Pokémon Trainer Brendan #1.5 |Marshtomp| ": {
         "ability": "Overgrow",
         "item": "Miracle Seed",
         "level": 15,
@@ -26822,7 +26822,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 338
       },
-      "Lvl 15 Pokémon Trainer May #1.5 [Marshtomp] ": {
+      "Lvl 15 Pokémon Trainer May #1.5 |Marshtomp| ": {
         "ability": "Overgrow",
         "item": "Sitrus Berry",
         "level": 15,
@@ -27401,7 +27401,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 273
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Sceptile| ": {
         "ability": "Blaze",
         "item": "Salac Berry",
         "level": 59,
@@ -27415,7 +27415,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 203
       },
-      "Lvl 59 Pokémon Trainer May #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Sceptile| ": {
         "ability": "Blaze",
         "item": "Lum Berry",
         "level": 59,
@@ -27487,7 +27487,7 @@ backup_data = {
       }
     },
     "Charmander": {
-      "Lvl 15 Pokémon Trainer Brendan #1.5 [Grovyle] ": {
+      "Lvl 15 Pokémon Trainer Brendan #1.5 |Grovyle| ": {
         "ability": "Blaze",
         "item": "Charcoal",
         "level": 15,
@@ -27501,7 +27501,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 339
       },
-      "Lvl 15 Pokémon Trainer May #1.5 [Grovyle] ": {
+      "Lvl 15 Pokémon Trainer May #1.5 |Grovyle| ": {
         "ability": "Blaze",
         "item": "Charcoal",
         "level": 15,
@@ -27553,7 +27553,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 344
       },
-      "Lvl 25 Pokémon Trainer Brendan #2 [Grovyle] ": {
+      "Lvl 25 Pokémon Trainer Brendan #2 |Grovyle| ": {
         "ability": "Blaze",
         "level": 25,
         "moves": [
@@ -27566,7 +27566,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 63
       },
-      "Lvl 25 Pokémon Trainer May #2 [Grovyle] ": {
+      "Lvl 25 Pokémon Trainer May #2 |Grovyle| ": {
         "ability": "Blaze",
         "level": 25,
         "moves": [
@@ -27595,7 +27595,7 @@ backup_data = {
       }
     },
     "Chikorita": {
-      "Lvl 15 Pokémon Trainer Brendan #1.5 [Combusken] ": {
+      "Lvl 15 Pokémon Trainer Brendan #1.5 |Combusken| ": {
         "ability": "Overgrow",
         "item": "Miracle Seed",
         "level": 15,
@@ -27609,7 +27609,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 337
       },
-      "Lvl 15 Pokémon Trainer May #1.5 [Combusken] ": {
+      "Lvl 15 Pokémon Trainer May #1.5 |Combusken| ": {
         "ability": "Overgrow",
         "item": "Sitrus Berry",
         "level": 15,
@@ -28096,7 +28096,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 284
       },
-      "Lvl 50 Pokémon Trainer May #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Blaziken| ": {
         "ability": "Cute Charm",
         "item": "Lum Berry",
         "level": 50,
@@ -28110,7 +28110,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 160
       },
-      "Lvl 50 Pokémon Trainer May #3 [Sceptile] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Sceptile| ": {
         "ability": "Cute Charm",
         "item": "Lum Berry",
         "level": 50,
@@ -28124,7 +28124,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 162
       },
-      "Lvl 50 Pokémon Trainer May #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Swampert| ": {
         "ability": "Cute Charm",
         "item": "Lum Berry",
         "level": 50,
@@ -28380,7 +28380,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 364
       },
-      "Lvl 16 Pokémon Trainer Brendan #1.5 [Combusken] ": {
+      "Lvl 16 Pokémon Trainer Brendan #1.5 |Combusken| ": {
         "ability": "Blaze",
         "item": "Charcoal",
         "level": 16,
@@ -28394,7 +28394,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 337
       },
-      "Lvl 26 Pokémon Trainer Brendan #2 [Combusken] ": {
+      "Lvl 26 Pokémon Trainer Brendan #2 |Combusken| ": {
         "ability": "Blaze",
         "level": 26,
         "moves": [
@@ -28407,7 +28407,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 61
       },
-      "Lvl 16 Pokémon Trainer May #1.5 [Combusken] ": {
+      "Lvl 16 Pokémon Trainer May #1.5 |Combusken| ": {
         "ability": "Blaze",
         "item": "Charcoal",
         "level": 16,
@@ -28421,7 +28421,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 334
       },
-      "Lvl 26 Pokémon Trainer May #2 [Combusken] ": {
+      "Lvl 26 Pokémon Trainer May #2 |Combusken| ": {
         "ability": "Blaze",
         "level": 26,
         "moves": [
@@ -28760,7 +28760,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 85
       },
-      "Lvl 25 Pokémon Trainer Brendan #2 [Grovyle] ": {
+      "Lvl 25 Pokémon Trainer Brendan #2 |Grovyle| ": {
         "ability": "Torrent",
         "level": 25,
         "moves": [
@@ -28773,7 +28773,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 63
       },
-      "Lvl 25 Pokémon Trainer May #2 [Grovyle] ": {
+      "Lvl 25 Pokémon Trainer May #2 |Grovyle| ": {
         "ability": "Torrent",
         "level": 25,
         "moves": [
@@ -30949,7 +30949,7 @@ backup_data = {
       }
     },
     "Farfetch’d": {
-      "Lvl 14 Pokémon Trainer Brendan #1.5 [Combusken] ": {
+      "Lvl 14 Pokémon Trainer Brendan #1.5 |Combusken| ": {
         "ability": "Keen Eye",
         "item": "Stick",
         "level": 14,
@@ -30963,7 +30963,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 337
       },
-      "Lvl 14 Pokémon Trainer Brendan #1.5 [Grovyle] ": {
+      "Lvl 14 Pokémon Trainer Brendan #1.5 |Grovyle| ": {
         "ability": "Keen Eye",
         "item": "Stick",
         "level": 14,
@@ -30977,7 +30977,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 339
       },
-      "Lvl 14 Pokémon Trainer Brendan #1.5 [Marshtomp] ": {
+      "Lvl 14 Pokémon Trainer Brendan #1.5 |Marshtomp| ": {
         "ability": "Keen Eye",
         "item": "Stick",
         "level": 14,
@@ -30991,7 +30991,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 338
       },
-      "Lvl 14 Pokémon Trainer May #1.5 [Combusken] ": {
+      "Lvl 14 Pokémon Trainer May #1.5 |Combusken| ": {
         "ability": "Keen Eye",
         "item": "Stick",
         "level": 14,
@@ -31005,7 +31005,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 334
       },
-      "Lvl 14 Pokémon Trainer May #1.5 [Grovyle] ": {
+      "Lvl 14 Pokémon Trainer May #1.5 |Grovyle| ": {
         "ability": "Keen Eye",
         "item": "Stick",
         "level": 14,
@@ -31019,7 +31019,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 336
       },
-      "Lvl 14 Pokémon Trainer May #1.5 [Marshtomp] ": {
+      "Lvl 14 Pokémon Trainer May #1.5 |Marshtomp| ": {
         "ability": "Keen Eye",
         "item": "Stick",
         "level": 14,
@@ -31205,7 +31205,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 315
       },
-      "Lvl 49 Pokémon Trainer Brendan #3 [Sceptile] ": {
+      "Lvl 49 Pokémon Trainer Brendan #3 |Sceptile| ": {
         "ability": "Battle Armor",
         "item": "Lum Berry",
         "level": 49,
@@ -31219,7 +31219,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 165
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Sceptile| ": {
         "ability": "Battle Armor",
         "item": "Lum Berry",
         "level": 59,
@@ -31233,7 +31233,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 203
       },
-      "Lvl 50 Pokémon Trainer May #3 [Sceptile] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Sceptile| ": {
         "ability": "Battle Armor",
         "item": "Lum Berry",
         "level": 50,
@@ -31247,7 +31247,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 162
       },
-      "Lvl 59 Pokémon Trainer May #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Sceptile| ": {
         "ability": "Battle Armor",
         "item": "Lum Berry",
         "level": 59,
@@ -32990,7 +32990,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 95
       },
-      "Lvl 16 Pokémon Trainer Brendan #1.5 [Grovyle] ": {
+      "Lvl 16 Pokémon Trainer Brendan #1.5 |Grovyle| ": {
         "ability": "Overgrow",
         "item": "Miracle Seed",
         "level": 16,
@@ -33004,7 +33004,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 339
       },
-      "Lvl 26 Pokémon Trainer Brendan #2 [Grovyle] ": {
+      "Lvl 26 Pokémon Trainer Brendan #2 |Grovyle| ": {
         "ability": "Overgrow",
         "level": 26,
         "moves": [
@@ -33017,7 +33017,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 63
       },
-      "Lvl 16 Pokémon Trainer May #1.5 [Grovyle] ": {
+      "Lvl 16 Pokémon Trainer May #1.5 |Grovyle| ": {
         "ability": "Overgrow",
         "item": "Miracle Seed",
         "level": 16,
@@ -33031,7 +33031,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 336
       },
-      "Lvl 26 Pokémon Trainer May #2 [Grovyle] ": {
+      "Lvl 26 Pokémon Trainer May #2 |Grovyle| ": {
         "ability": "Overgrow",
         "level": 26,
         "moves": [
@@ -34410,7 +34410,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 81
       },
-      "Lvl 25 Pokémon Trainer Brendan #2 [Marshtomp] ": {
+      "Lvl 25 Pokémon Trainer Brendan #2 |Marshtomp| ": {
         "ability": "Overgrow",
         "level": 25,
         "moves": [
@@ -34423,7 +34423,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 62
       },
-      "Lvl 25 Pokémon Trainer May #2 [Marshtomp] ": {
+      "Lvl 25 Pokémon Trainer May #2 |Marshtomp| ": {
         "ability": "Overgrow",
         "level": 25,
         "moves": [
@@ -37846,7 +37846,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 364
       },
-      "Lvl 16 Pokémon Trainer Brendan #1.5 [Marshtomp] ": {
+      "Lvl 16 Pokémon Trainer Brendan #1.5 |Marshtomp| ": {
         "ability": "Torrent",
         "item": "Mystic Water",
         "level": 16,
@@ -37860,7 +37860,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 338
       },
-      "Lvl 26 Pokémon Trainer Brendan #2 [Marshtomp] ": {
+      "Lvl 26 Pokémon Trainer Brendan #2 |Marshtomp| ": {
         "ability": "Torrent",
         "level": 26,
         "moves": [
@@ -37873,7 +37873,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 62
       },
-      "Lvl 16 Pokémon Trainer May #1.5 [Marshtomp] ": {
+      "Lvl 16 Pokémon Trainer May #1.5 |Marshtomp| ": {
         "ability": "Torrent",
         "item": "Mystic Water",
         "level": 16,
@@ -37887,7 +37887,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 335
       },
-      "Lvl 26 Pokémon Trainer May #2 [Marshtomp] ": {
+      "Lvl 26 Pokémon Trainer May #2 |Marshtomp| ": {
         "ability": "Torrent",
         "level": 26,
         "moves": [
@@ -38388,7 +38388,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 139
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Blaziken| ": {
         "ability": "Thick Fat",
         "item": "Lum Berry",
         "level": 50,
@@ -38402,7 +38402,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 163
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Blaziken| ": {
         "ability": "Thick Fat",
         "item": "Lum Berry",
         "level": 59,
@@ -38416,7 +38416,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 201
       },
-      "Lvl 50 Pokémon Trainer May #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Blaziken| ": {
         "ability": "Thick Fat",
         "item": "Lum Berry",
         "level": 50,
@@ -38430,7 +38430,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 160
       },
-      "Lvl 59 Pokémon Trainer May #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Blaziken| ": {
         "ability": "Thick Fat",
         "item": "Lum Berry",
         "level": 59,
@@ -38940,7 +38940,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 139
       },
-      "Lvl 59 Pokémon Trainer May #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Blaziken| ": {
         "ability": "Thick Fat",
         "item": "Lum Berry",
         "level": 59,
@@ -38954,7 +38954,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 198
       },
-      "Lvl 59 Pokémon Trainer May #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Sceptile| ": {
         "ability": "Thick Fat",
         "item": "Lum Berry",
         "level": 59,
@@ -38968,7 +38968,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 200
       },
-      "Lvl 59 Pokémon Trainer May #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Swampert| ": {
         "ability": "Thick Fat",
         "item": "Lum Berry",
         "level": 59,
@@ -39012,7 +39012,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 78
       },
-      "Lvl 14 Pokémon Trainer May #1.5 [Combusken] ": {
+      "Lvl 14 Pokémon Trainer May #1.5 |Combusken| ": {
         "ability": "Minus",
         "item": "Berry Juice",
         "level": 14,
@@ -39026,7 +39026,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 334
       },
-      "Lvl 14 Pokémon Trainer May #1.5 [Grovyle] ": {
+      "Lvl 14 Pokémon Trainer May #1.5 |Grovyle| ": {
         "ability": "Minus",
         "item": "Berry Juice",
         "level": 14,
@@ -39040,7 +39040,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 336
       },
-      "Lvl 14 Pokémon Trainer May #1.5 [Marshtomp] ": {
+      "Lvl 14 Pokémon Trainer May #1.5 |Marshtomp| ": {
         "ability": "Minus",
         "item": "Magnet",
         "level": 14,
@@ -39054,7 +39054,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 335
       },
-      "Lvl 22 Pokémon Trainer May #2 [Combusken] ": {
+      "Lvl 22 Pokémon Trainer May #2 |Combusken| ": {
         "ability": "Minus",
         "level": 22,
         "moves": [
@@ -39067,7 +39067,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 58
       },
-      "Lvl 22 Pokémon Trainer May #2 [Grovyle] ": {
+      "Lvl 22 Pokémon Trainer May #2 |Grovyle| ": {
         "ability": "Minus",
         "level": 22,
         "moves": [
@@ -39080,7 +39080,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 60
       },
-      "Lvl 22 Pokémon Trainer May #2 [Marshtomp] ": {
+      "Lvl 22 Pokémon Trainer May #2 |Marshtomp| ": {
         "ability": "Minus",
         "level": 22,
         "moves": [
@@ -39488,7 +39488,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 132
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Blaziken| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 50,
@@ -39502,7 +39502,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 163
       },
-      "Lvl 49 Pokémon Trainer Brendan #3 [Sceptile] ": {
+      "Lvl 49 Pokémon Trainer Brendan #3 |Sceptile| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 49,
@@ -39516,7 +39516,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 165
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Swampert| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 50,
@@ -39530,7 +39530,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 164
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Blaziken| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 59,
@@ -39544,7 +39544,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 201
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Sceptile| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 59,
@@ -39558,7 +39558,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 203
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Swampert| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 59,
@@ -39671,7 +39671,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 105
       },
-      "Lvl 50 Pokémon Trainer May #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Blaziken| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 50,
@@ -39685,7 +39685,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 160
       },
-      "Lvl 50 Pokémon Trainer May #3 [Sceptile] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Sceptile| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 50,
@@ -39699,7 +39699,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 162
       },
-      "Lvl 50 Pokémon Trainer May #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Swampert| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 50,
@@ -39713,7 +39713,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 161
       },
-      "Lvl 59 Pokémon Trainer May #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Blaziken| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 59,
@@ -39727,7 +39727,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 198
       },
-      "Lvl 59 Pokémon Trainer May #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Sceptile| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 59,
@@ -39741,7 +39741,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 200
       },
-      "Lvl 59 Pokémon Trainer May #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Swampert| ": {
         "ability": "Poison Point",
         "item": "Lum Berry",
         "level": 59,
@@ -39857,7 +39857,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 51
       },
-      "Lvl 16 Pokémon Trainer May #1.5 [Combusken] ": {
+      "Lvl 16 Pokémon Trainer May #1.5 |Combusken| ": {
         "ability": "Poison Point",
         "item": "Silk Scarf",
         "ivs": {
@@ -39879,7 +39879,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 334
       },
-      "Lvl 16 Pokémon Trainer May #1.5 [Grovyle] ": {
+      "Lvl 16 Pokémon Trainer May #1.5 |Grovyle| ": {
         "ability": "Poison Point",
         "item": "Silk Scarf",
         "ivs": {
@@ -39901,7 +39901,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 336
       },
-      "Lvl 16 Pokémon Trainer May #1.5 [Marshtomp] ": {
+      "Lvl 16 Pokémon Trainer May #1.5 |Marshtomp| ": {
         "ability": "Poison Point",
         "item": "Silk Scarf",
         "ivs": {
@@ -39923,7 +39923,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 335
       },
-      "Lvl 24 Pokémon Trainer May #2 [Combusken] ": {
+      "Lvl 24 Pokémon Trainer May #2 |Combusken| ": {
         "ability": "Poison Point",
         "level": 24,
         "moves": [
@@ -39936,7 +39936,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 58
       },
-      "Lvl 24 Pokémon Trainer May #2 [Grovyle] ": {
+      "Lvl 24 Pokémon Trainer May #2 |Grovyle| ": {
         "ability": "Poison Point",
         "level": 24,
         "moves": [
@@ -39949,7 +39949,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 60
       },
-      "Lvl 24 Pokémon Trainer May #2 [Marshtomp] ": {
+      "Lvl 24 Pokémon Trainer May #2 |Marshtomp| ": {
         "ability": "Poison Point",
         "level": 24,
         "moves": [
@@ -39978,7 +39978,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 52
       },
-      "Lvl 16 Pokémon Trainer Brendan #1.5 [Combusken] ": {
+      "Lvl 16 Pokémon Trainer Brendan #1.5 |Combusken| ": {
         "ability": "Poison Point",
         "item": "Silk Scarf",
         "ivs": {
@@ -40000,7 +40000,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 337
       },
-      "Lvl 16 Pokémon Trainer Brendan #1.5 [Grovyle] ": {
+      "Lvl 16 Pokémon Trainer Brendan #1.5 |Grovyle| ": {
         "ability": "Poison Point",
         "item": "Silk Scarf",
         "ivs": {
@@ -40022,7 +40022,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 339
       },
-      "Lvl 16 Pokémon Trainer Brendan #1.5 [Marshtomp] ": {
+      "Lvl 16 Pokémon Trainer Brendan #1.5 |Marshtomp| ": {
         "ability": "Poison Point",
         "item": "Silk Scarf",
         "ivs": {
@@ -40044,7 +40044,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 338
       },
-      "Lvl 24 Pokémon Trainer Brendan #2 [Combusken] ": {
+      "Lvl 24 Pokémon Trainer Brendan #2 |Combusken| ": {
         "ability": "Poison Point",
         "level": 24,
         "moves": [
@@ -40057,7 +40057,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 61
       },
-      "Lvl 24 Pokémon Trainer Brendan #2 [Grovyle] ": {
+      "Lvl 24 Pokémon Trainer Brendan #2 |Grovyle| ": {
         "ability": "Poison Point",
         "level": 24,
         "moves": [
@@ -40070,7 +40070,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 63
       },
-      "Lvl 24 Pokémon Trainer Brendan #2 [Marshtomp] ": {
+      "Lvl 24 Pokémon Trainer Brendan #2 |Marshtomp| ": {
         "ability": "Poison Point",
         "level": 24,
         "moves": [
@@ -41081,7 +41081,7 @@ backup_data = {
       }
     },
     "Pidgeotto": {
-      "Lvl 24 Pokémon Trainer Brendan #2 [Combusken] ": {
+      "Lvl 24 Pokémon Trainer Brendan #2 |Combusken| ": {
         "ability": "Keen Eye",
         "level": 24,
         "moves": [
@@ -41094,7 +41094,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 61
       },
-      "Lvl 24 Pokémon Trainer Brendan #2 [Grovyle] ": {
+      "Lvl 24 Pokémon Trainer Brendan #2 |Grovyle| ": {
         "ability": "Keen Eye",
         "level": 24,
         "moves": [
@@ -41107,7 +41107,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 63
       },
-      "Lvl 24 Pokémon Trainer Brendan #2 [Marshtomp] ": {
+      "Lvl 24 Pokémon Trainer Brendan #2 |Marshtomp| ": {
         "ability": "Keen Eye",
         "level": 24,
         "moves": [
@@ -41120,7 +41120,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 62
       },
-      "Lvl 24 Pokémon Trainer May #2 [Combusken] ": {
+      "Lvl 24 Pokémon Trainer May #2 |Combusken| ": {
         "ability": "Keen Eye",
         "level": 24,
         "moves": [
@@ -41133,7 +41133,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 58
       },
-      "Lvl 24 Pokémon Trainer May #2 [Grovyle] ": {
+      "Lvl 24 Pokémon Trainer May #2 |Grovyle| ": {
         "ability": "Keen Eye",
         "level": 24,
         "moves": [
@@ -41146,7 +41146,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 60
       },
-      "Lvl 24 Pokémon Trainer May #2 [Marshtomp] ": {
+      "Lvl 24 Pokémon Trainer May #2 |Marshtomp| ": {
         "ability": "Keen Eye",
         "level": 24,
         "moves": [
@@ -41415,7 +41415,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 124
       },
-      "Lvl 14 Pokémon Trainer Brendan #1.5 [Combusken] ": {
+      "Lvl 14 Pokémon Trainer Brendan #1.5 |Combusken| ": {
         "ability": "Plus",
         "item": "Magnet",
         "level": 14,
@@ -41429,7 +41429,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 337
       },
-      "Lvl 14 Pokémon Trainer Brendan #1.5 [Grovyle] ": {
+      "Lvl 14 Pokémon Trainer Brendan #1.5 |Grovyle| ": {
         "ability": "Plus",
         "item": "Magnet",
         "level": 14,
@@ -41443,7 +41443,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 339
       },
-      "Lvl 15 Pokémon Trainer Brendan #1.5 [Marshtomp] ": {
+      "Lvl 15 Pokémon Trainer Brendan #1.5 |Marshtomp| ": {
         "ability": "Plus",
         "item": "Berry Juice",
         "level": 15,
@@ -41457,7 +41457,7 @@ backup_data = {
         "sub_index": 2,
         "tr_id": 338
       },
-      "Lvl 22 Pokémon Trainer Brendan #2 [Combusken] ": {
+      "Lvl 22 Pokémon Trainer Brendan #2 |Combusken| ": {
         "ability": "Plus",
         "level": 22,
         "moves": [
@@ -41470,7 +41470,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 61
       },
-      "Lvl 22 Pokémon Trainer Brendan #2 [Grovyle] ": {
+      "Lvl 22 Pokémon Trainer Brendan #2 |Grovyle| ": {
         "ability": "Plus",
         "level": 22,
         "moves": [
@@ -41483,7 +41483,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 63
       },
-      "Lvl 22 Pokémon Trainer Brendan #2 [Marshtomp] ": {
+      "Lvl 22 Pokémon Trainer Brendan #2 |Marshtomp| ": {
         "ability": "Plus",
         "level": 22,
         "moves": [
@@ -41993,7 +41993,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 175
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Blaziken| ": {
         "ability": "Trace",
         "item": "Lum Berry",
         "level": 50,
@@ -42007,7 +42007,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 163
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Sceptile] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Sceptile| ": {
         "ability": "Trace",
         "item": "Lum Berry",
         "level": 50,
@@ -42021,7 +42021,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 165
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Swampert| ": {
         "ability": "Trace",
         "item": "Lum Berry",
         "level": 50,
@@ -42270,7 +42270,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 85
       },
-      "Lvl 14 Pokémon Trainer Brendan #1.5 [Marshtomp] ": {
+      "Lvl 14 Pokémon Trainer Brendan #1.5 |Marshtomp| ": {
         "ability": "Blaze",
         "item": "Charcoal",
         "level": 14,
@@ -42284,7 +42284,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 338
       },
-      "Lvl 24 Pokémon Trainer Brendan #2 [Marshtomp] ": {
+      "Lvl 24 Pokémon Trainer Brendan #2 |Marshtomp| ": {
         "ability": "Blaze",
         "level": 24,
         "moves": [
@@ -42297,7 +42297,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 62
       },
-      "Lvl 15 Pokémon Trainer May #1.5 [Marshtomp] ": {
+      "Lvl 15 Pokémon Trainer May #1.5 |Marshtomp| ": {
         "ability": "Blaze",
         "item": "Charcoal",
         "level": 15,
@@ -42311,7 +42311,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 335
       },
-      "Lvl 24 Pokémon Trainer May #2 [Marshtomp] ": {
+      "Lvl 24 Pokémon Trainer May #2 |Marshtomp| ": {
         "ability": "Blaze",
         "level": 24,
         "moves": [
@@ -42587,7 +42587,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 193
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Blaziken| ": {
         "ability": "Lightning Rod",
         "item": "Lum Berry",
         "level": 50,
@@ -42601,7 +42601,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 163
       },
-      "Lvl 49 Pokémon Trainer Brendan #3 [Sceptile] ": {
+      "Lvl 49 Pokémon Trainer Brendan #3 |Sceptile| ": {
         "ability": "Lightning Rod",
         "item": "Lum Berry",
         "level": 49,
@@ -42615,7 +42615,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 165
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Swampert| ": {
         "ability": "Lightning Rod",
         "item": "Lum Berry",
         "level": 50,
@@ -42629,7 +42629,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 164
       },
-      "Lvl 50 Pokémon Trainer May #3 [Blaziken] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Blaziken| ": {
         "ability": "Lightning Rod",
         "item": "Lum Berry",
         "level": 50,
@@ -42643,7 +42643,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 160
       },
-      "Lvl 50 Pokémon Trainer May #3 [Sceptile] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Sceptile| ": {
         "ability": "Lightning Rod",
         "item": "Lum Berry",
         "level": 50,
@@ -42657,7 +42657,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 162
       },
-      "Lvl 50 Pokémon Trainer May #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Swampert| ": {
         "ability": "Lightning Rod",
         "item": "Lum Berry",
         "level": 50,
@@ -43601,7 +43601,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 438
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Sceptile] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Sceptile| ": {
         "ability": "Overgrow",
         "item": "Lum Berry",
         "level": 50,
@@ -43615,7 +43615,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 165
       },
-      "Lvl 60 Pokémon Trainer Brendan #4 [Sceptile] ": {
+      "Lvl 60 Pokémon Trainer Brendan #4 |Sceptile| ": {
         "ability": "Overgrow",
         "item": "Lum Berry",
         "level": 60,
@@ -43629,7 +43629,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 203
       },
-      "Lvl 50 Pokémon Trainer May #3 [Sceptile] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Sceptile| ": {
         "ability": "Overgrow",
         "item": "Lum Berry",
         "level": 50,
@@ -43643,7 +43643,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 162
       },
-      "Lvl 60 Pokémon Trainer May #4 [Sceptile] ": {
+      "Lvl 60 Pokémon Trainer May #4 |Sceptile| ": {
         "ability": "Overgrow",
         "item": "Lum Berry",
         "level": 60,
@@ -45784,7 +45784,7 @@ backup_data = {
       }
     },
     "Squirtle": {
-      "Lvl 15 Pokémon Trainer Brendan #1.5 [Combusken] ": {
+      "Lvl 15 Pokémon Trainer Brendan #1.5 |Combusken| ": {
         "ability": "Torrent",
         "item": "Mystic Water",
         "level": 15,
@@ -45798,7 +45798,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 337
       },
-      "Lvl 15 Pokémon Trainer May #1.5 [Combusken] ": {
+      "Lvl 15 Pokémon Trainer May #1.5 |Combusken| ": {
         "ability": "Torrent",
         "item": "Mystic Water",
         "level": 15,
@@ -46530,7 +46530,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 290
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Swampert| ": {
         "ability": "Swift Swim",
         "item": "Lum Berry",
         "level": 50,
@@ -46544,7 +46544,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 164
       },
-      "Lvl 60 Pokémon Trainer Brendan #4 [Swampert] ": {
+      "Lvl 60 Pokémon Trainer Brendan #4 |Swampert| ": {
         "ability": "Swift Swim",
         "item": "Lum Berry",
         "level": 60,
@@ -46558,7 +46558,7 @@ backup_data = {
         "sub_index": 5,
         "tr_id": 202
       },
-      "Lvl 50 Pokémon Trainer May #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Swampert| ": {
         "ability": "Swift Swim",
         "item": "Lum Berry",
         "level": 50,
@@ -46572,7 +46572,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 161
       },
-      "Lvl 60 Pokémon Trainer May #4 [Swampert] ": {
+      "Lvl 60 Pokémon Trainer May #4 |Swampert| ": {
         "ability": "Swift Swim",
         "item": "Lum Berry",
         "level": 60,
@@ -46971,7 +46971,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 437
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Blaziken] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Blaziken| ": {
         "ability": "Intimidate",
         "item": "Lum Berry",
         "level": 59,
@@ -46985,7 +46985,7 @@ backup_data = {
         "sub_index": 0,
         "tr_id": 201
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Sceptile] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Sceptile| ": {
         "ability": "Intimidate",
         "item": "Liechi Berry",
         "level": 59,
@@ -46999,7 +46999,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 203
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Swampert| ": {
         "ability": "Intimidate",
         "item": "Lum Berry",
         "level": 59,
@@ -47403,7 +47403,7 @@ backup_data = {
       }
     },
     "Totodile": {
-      "Lvl 15 Pokémon Trainer Brendan #1.5 [Grovyle] ": {
+      "Lvl 15 Pokémon Trainer Brendan #1.5 |Grovyle| ": {
         "ability": "Torrent",
         "item": "Mystic Water",
         "level": 15,
@@ -47417,7 +47417,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 339
       },
-      "Lvl 15 Pokémon Trainer May #1.5 [Grovyle] ": {
+      "Lvl 15 Pokémon Trainer May #1.5 |Grovyle| ": {
         "ability": "Torrent",
         "item": "Mystic Water",
         "level": 15,
@@ -47588,7 +47588,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 438
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Swampert| ": {
         "ability": "Blaze",
         "item": "Lum Berry",
         "level": 59,
@@ -47602,7 +47602,7 @@ backup_data = {
         "sub_index": 3,
         "tr_id": 202
       },
-      "Lvl 59 Pokémon Trainer May #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Swampert| ": {
         "ability": "Blaze",
         "item": "Lum Berry",
         "level": 59,
@@ -48253,7 +48253,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 234
       },
-      "Lvl 50 Pokémon Trainer Brendan #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer Brendan #3 |Swampert| ": {
         "ability": "Chlorophyll",
         "item": "Lum Berry",
         "level": 50,
@@ -48267,7 +48267,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 164
       },
-      "Lvl 59 Pokémon Trainer Brendan #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer Brendan #4 |Swampert| ": {
         "ability": "Chlorophyll",
         "item": "Lum Berry",
         "level": 59,
@@ -48281,7 +48281,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 202
       },
-      "Lvl 50 Pokémon Trainer May #3 [Swampert] ": {
+      "Lvl 50 Pokémon Trainer May #3 |Swampert| ": {
         "ability": "Chlorophyll",
         "item": "Lum Berry",
         "level": 50,
@@ -48295,7 +48295,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 161
       },
-      "Lvl 59 Pokémon Trainer May #4 [Swampert] ": {
+      "Lvl 59 Pokémon Trainer May #4 |Swampert| ": {
         "ability": "Chlorophyll",
         "item": "Lum Berry",
         "level": 59,
@@ -49166,7 +49166,7 @@ backup_data = {
         "sub_index": 1,
         "tr_id": 81
       },
-      "Lvl 25 Pokémon Trainer Brendan #2 [Combusken] ": {
+      "Lvl 25 Pokémon Trainer Brendan #2 |Combusken| ": {
         "ability": "Torrent",
         "level": 25,
         "moves": [
@@ -49179,7 +49179,7 @@ backup_data = {
         "sub_index": 4,
         "tr_id": 61
       },
-      "Lvl 25 Pokémon Trainer May #2 [Combusken] ": {
+      "Lvl 25 Pokémon Trainer May #2 |Combusken| ": {
         "ability": "Torrent",
         "level": 25,
         "moves": [
