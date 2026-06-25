@@ -4554,7 +4554,7 @@ backup_data = {
   "Weezing-Galar": {
     "Lvl -4 Team Rocket Grunt - Double Battle - Rocket Hideout B4F ": {
       "nature": "Bold",
-      "ability": "Neutralize Gas",
+      "ability": "Neutralizing Gas",
       "level": -4,
       "moves": [
         "Flamethrower",
@@ -4595,7 +4595,7 @@ backup_data = {
     },
     "Lvl 34 Biker Ricardo ": {
       "nature": "Rash",
-      "ability": "Neutralize Gas",
+      "ability": "Neutralizing Gas",
       "level": 34,
       "moves": [
         "Explosion",
@@ -18516,7 +18516,7 @@ backup_data = {
   "Koffing": {
     "Lvl 35 Super Nerd Aidan ": {
       "nature": "Hardy",
-      "ability": "Neutralize Gas",
+      "ability": "Neutralizing Gas",
       "level": 35,
       "moves": [
         "Self-Destruct",
@@ -21624,7 +21624,7 @@ backup_data = {
     },
     "Lvl 57 Biker Lukas ": {
       "nature": "Naughty",
-      "ability": "Neutralize Gas",
+      "ability": "Neutralizing Gas",
       "level": 57,
       "moves": [
         "Explosion",

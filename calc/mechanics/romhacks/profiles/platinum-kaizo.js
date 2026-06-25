@@ -3,6 +3,10 @@ exports.__esModule = true;
 
 var helpers_1 = require("../helpers");
 
+function isCalcingForSwitchIns() {
+    return typeof calcingForSwitchIns !== "undefined" && calcingForSwitchIns;
+}
+
 var platinumKaizoProfile = (0, helpers_1.makeProfile)({
     id: "platinum-kaizo",
     gens: [4],
@@ -15,6 +19,14 @@ var platinumKaizoProfile = (0, helpers_1.makeProfile)({
                 var hitCount = ctx.state.hitCount || 0;
                 if (move.named("Eruption")) {
                     basePower = ctx.state.originalBasePower || basePower;
+                    desc.moveBP = basePower;
+                    return basePower;
+                }
+                if (move.named("Wring Out")) {
+                    basePower = move.bp;
+                    if (ctx.defender.curHP() <= ctx.defender.maxHP() / 2 && !isCalcingForSwitchIns()) {
+                        basePower *= 2;
+                    }
                     desc.moveBP = basePower;
                     return basePower;
                 }

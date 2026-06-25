@@ -102,6 +102,32 @@ describe("romhack mechanics profiles", function () {
             expect(kaizo.rawDesc.moveBP || kaizo.move.bp).toBe(150);
         });
 
+        test("Platinum Kaizo Wring Out uses Brine-style half HP boost", function () {
+            var fullHpSpec = {
+                attacker: function (c) { return P(c, "Mew"); },
+                defender: function (c) { return P(c, "Blissey"); },
+                move: function (c) { return M(c, "Wring Out", { basePower: 75 }); }
+            };
+            var halfHpSpec = {
+                attacker: function (c) { return P(c, "Mew"); },
+                defender: function (c) { return P(c, "Blissey", { curHP: 1 }); },
+                move: function (c) { return M(c, "Wring Out", { basePower: 75 }); }
+            };
+            var fullHp = calcResult(ctx, "Platinum Kaizo", fullHpSpec);
+            var halfHp = calcResult(ctx, "Platinum Kaizo", halfHpSpec);
+            var vanillaHalfHp = calcResult(ctx, "NONE", halfHpSpec);
+            var switchInHalfHp = withGlobals("Platinum Kaizo", ctx.gen, function () {
+                global.calcingForSwitchIns = true;
+                return calculate(P(ctx, "Mew"), P(ctx, "Blissey", { curHP: 1 }), M(ctx, "Wring Out", { basePower: 75 }), Field({}));
+            });
+
+            expect(fullHp.rawDesc.moveBP).toBe(75);
+            expect(halfHp.rawDesc.moveBP).toBe(150);
+            expect(halfHp.range()[0]).toBeGreaterThan(fullHp.range()[0]);
+            expect(vanillaHalfHp.rawDesc.moveBP).not.toBe(150);
+            expect(switchInHalfHp.rawDesc.moveBP).toBe(75);
+        });
+
         test("Platinum Kaizo per-hit base power overrides are profile-driven", function () {
             var tripleKick = {
                 attacker: function (c) { return P(c, "Hitmonlee"); },
