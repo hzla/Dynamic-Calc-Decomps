@@ -851,13 +851,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             (move.named('Final Gambit') && isCascadeWhiteDev)) {
             defense = Math.floor(defense * 0.5);
         }
-        var challengeLevelCaps = null;
-        if (TITLE == "Blaze Black 2/Volt White 2 Redux") {
-            // Roxie, Elesa, Skyla level caps
-            challengeLevelCaps = [[19, 1], [36, 2], [50, 3]];
-        }
         var delta = 0;
-        // Apply challenge-mode formula levels only to trainer attackers that are not marked noCh.
+        // Apply loaded challenge-mode formula level diffs only to trainer attackers that are not marked noCh.
         var currentTrainerMon = settings.challengeMode && typeof get_current_in === "function" ? get_current_in(false) : null;
         var isTrainerAttacker = false;
         var suppressChallengeLevelAdjustment = currentTrainerMon && (currentTrainerMon["noCh"] === true || currentTrainerMon["noCh"] === "true");
@@ -882,24 +877,11 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 "levelDelta",
                 "diff"
             ];
-            var hasDirectLevelDelta = false;
             for (var keyIndex = 0; keyIndex < levelDeltaKeys.length; keyIndex++) {
                 var levelDelta = Number(currentTrainerMon[levelDeltaKeys[keyIndex]]);
                 if (Number.isFinite(levelDelta)) {
                     delta = levelDelta;
-                    hasDirectLevelDelta = true;
                     break;
-                }
-            }
-            if (!hasDirectLevelDelta) {
-                if (Array.isArray(challengeLevelCaps)) {
-                    delta = 4;
-                    for (var n in challengeLevelCaps) {
-                        if (attacker.level <= challengeLevelCaps[n][0]) {
-                            delta = challengeLevelCaps[n][1];
-                            break;
-                        }
-                    }
                 }
             }
         }
