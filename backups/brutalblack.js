@@ -1276,10 +1276,10 @@ backup_data = {
     },
     "Clamp": {
       "type": "Water",
-      "basePower": 35,
+      "basePower": 50,
       "category": "Physical",
       "pp": 15,
-      "accuracy": 85,
+      "accuracy": 100,
       "priority": 0,
       "e_id": 42,
       "sf": true
@@ -4322,7 +4322,7 @@ backup_data = {
       "basePower": 120,
       "category": "Physical",
       "pp": 10,
-      "accuracy": 85,
+      "accuracy": 95,
       "priority": 0,
       "e_id": 0
     },
@@ -10949,7 +10949,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 50,
+        "at": 60,
         "df": 125,
         "sa": 110,
         "sd": 80,
@@ -11356,19 +11356,19 @@ backup_data = {
             "Psychic"
           ],
           [
+            33,
+            "U-turn"
+          ],
+          [
             35,
             "Bug Buzz"
           ],
           [
             44,
-            "U-turn"
-          ],
-          [
-            50,
             "Psycho Boost"
           ],
           [
-            60,
+            50,
             "Tailwind"
           ]
         ],
@@ -11470,19 +11470,19 @@ backup_data = {
             "Psychic"
           ],
           [
+            33,
+            "U-turn"
+          ],
+          [
             35,
             "Bug Buzz"
           ],
           [
             44,
-            "U-turn"
-          ],
-          [
-            50,
             "Psycho Boost"
           ],
           [
-            60,
+            50,
             "Tailwind"
           ]
         ],
@@ -14146,7 +14146,7 @@ backup_data = {
         "df": 80,
         "sa": 70,
         "sd": 80,
-        "sp": 85
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -27442,7 +27442,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 50,
+        "at": 60,
         "df": 80,
         "sa": 110,
         "sd": 125,
@@ -28088,6 +28088,10 @@ backup_data = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -28100,14 +28104,6 @@ backup_data = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -28116,6 +28112,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Baton Pass",
           "Solar Beam",
           "Return",
@@ -28222,6 +28219,10 @@ backup_data = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -28234,14 +28235,6 @@ backup_data = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -28250,6 +28243,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Baton Pass",
           "Solar Beam",
           "Return",
@@ -28356,6 +28350,10 @@ backup_data = {
             "Air Slash"
           ],
           [
+            37,
+            "U-turn"
+          ],
+          [
             40,
             "Knock Off"
           ],
@@ -28368,14 +28366,6 @@ backup_data = {
             "Aeroblast"
           ],
           [
-            52,
-            "U-turn"
-          ],
-          [
-            55,
-            "Encore"
-          ],
-          [
             65,
             "Leaf Storm"
           ]
@@ -28384,6 +28374,7 @@ backup_data = {
           "Toxic",
           "Hidden Power",
           "Sunny Day",
+          "Taunt",
           "Hyper Beam",
           "Baton Pass",
           "Solar Beam",
@@ -37784,7 +37775,7 @@ backup_data = {
           ],
           [
             27,
-            "Signal Beam"
+            "U-turn"
           ],
           [
             32,
@@ -37800,7 +37791,7 @@ backup_data = {
           ],
           [
             44,
-            "U-turn"
+            "Sludge Wave"
           ]
         ],
         "tms": [
@@ -41060,7 +41051,7 @@ backup_data = {
           ],
           [
             40,
-            "Shadow Ball"
+            "Shadow Punch"
           ],
           [
             44,
@@ -41182,7 +41173,7 @@ backup_data = {
           ],
           [
             40,
-            "Shadow Ball"
+            "Shadow Punch"
           ],
           [
             44,
@@ -49599,6 +49590,10 @@ backup_data = {
             "Baton Pass"
           ],
           [
+            50,
+            "Protect"
+          ],
+          [
             55,
             "Sucker Punch"
           ]
@@ -49693,6 +49688,10 @@ backup_data = {
           [
             44,
             "Baton Pass"
+          ],
+          [
+            50,
+            "Protect"
           ],
           [
             55,
@@ -57415,7 +57414,7 @@ backup_data = {
         "hp": 81,
         "at": 102,
         "df": 84,
-        "sa": 44,
+        "sa": 52,
         "sd": 79,
         "sp": 112
       },
@@ -57810,9 +57809,9 @@ backup_data = {
       "bs": {
         "hp": 103,
         "at": 71,
-        "df": 67,
+        "df": 70,
         "sa": 103,
-        "sd": 61,
+        "sd": 66,
         "sp": 97
       },
       "learnset_info": {
@@ -58759,7 +58758,7 @@ backup_data = {
       },
       "abs": [
         "Unnerve",
-        "",
+        "Magic Bounce",
         "Wonder Guard"
       ]
     },
@@ -60492,16 +60491,16 @@ backup_data = {
             "Muddy Water"
           ],
           [
+            47,
+            "U-turn"
+          ],
+          [
             50,
             "Tailwind"
           ],
           [
             55,
             "Thunder"
-          ],
-          [
-            60,
-            "U-turn"
           ]
         ],
         "tms": [
@@ -60615,16 +60614,16 @@ backup_data = {
             "Muddy Water"
           ],
           [
+            47,
+            "U-turn"
+          ],
+          [
             50,
             "Tailwind"
           ],
           [
             55,
             "Thunder"
-          ],
-          [
-            60,
-            "U-turn"
           ]
         ],
         "tms": [
@@ -60914,7 +60913,7 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "None",
+        "Lum Berry",
         "None",
         "None"
       ],
@@ -74660,6 +74659,10 @@ backup_data = {
             "Dark Pulse"
           ],
           [
+            50,
+            "Aura Sphere"
+          ],
+          [
             60,
             "Night Daze"
           ],
@@ -74778,6 +74781,10 @@ backup_data = {
             "Dark Pulse"
           ],
           [
+            50,
+            "Aura Sphere"
+          ],
+          [
             60,
             "Night Daze"
           ],
@@ -74801,6 +74808,7 @@ backup_data = {
           "Return",
           "Dig",
           "Shadow Ball",
+          "Brick Break",
           "Double Team",
           "Flamethrower",
           "Aerial Ace",
@@ -78177,12 +78185,12 @@ backup_data = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -78291,12 +78299,12 @@ backup_data = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -78405,12 +78413,12 @@ backup_data = {
             "Gear Grind"
           ],
           [
-            60,
-            "Earthquake"
+            55,
+            "Volt Switch"
           ],
           [
-            65,
-            "Volt Switch"
+            60,
+            "Earthquake"
           ]
         ],
         "tms": [
@@ -80180,6 +80188,10 @@ backup_data = {
           [
             42,
             "Flash Cannon"
+          ],
+          [
+            48,
+            "Magnet Bomb"
           ],
           [
             60,
@@ -87110,8 +87122,8 @@ backup_data = {
         "moves": [
           "Tailwind",
           "Psycho Boost",
-          "U-turn",
-          "Bug Buzz"
+          "Bug Buzz",
+          "U-turn"
         ],
         "sub_index": 0,
         "ability": "Shield Dust",
@@ -88295,7 +88307,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 23 Psychic Dua - Relic Castle": {
+      "Lvl 23 Psychic Dua": {
         "level": 23,
         "ai": 5,
         "noCh": false,
@@ -91236,8 +91248,8 @@ backup_data = {
         "item": "Lum Berry",
         "nature": "Bold",
         "moves": [
-          "Energy Ball",
-          "Sludge Bomb",
+          "Thunderbolt",
+          "Shadow Ball",
           "Spite",
           "Perish Song"
         ],
@@ -93574,7 +93586,7 @@ backup_data = {
           "Conversion"
         ],
         "sub_index": 3,
-        "ability": "Download",
+        "ability": "Analytic",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -94981,8 +94993,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 100 Scientist William - Route 6": {
-        "level": 100,
+      "Lvl 45 Scientist William - Route 6": {
+        "level": 45,
         "ai": 7,
         "noCh": false,
         "tr_id": 112,
@@ -94998,7 +95010,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Grass Gem",
-        "nature": "Modest",
+        "nature": "Gentle",
         "moves": [
           "Grass Knot",
           "Thunderbolt",
@@ -95228,9 +95240,9 @@ backup_data = {
         "item": "None",
         "nature": "Naive",
         "moves": [
-          "U-turn",
           "Thunder",
           "Tailwind",
+          "U-turn",
           "Muddy Water"
         ],
         "sub_index": 3,
@@ -103541,7 +103553,7 @@ backup_data = {
       }
     },
     "Sigilyph": {
-      "Lvl 24 Psychic Perry - Relic Castle": {
+      "Lvl 24 Psychic Perry": {
         "level": 24,
         "ai": 5,
         "noCh": false,
@@ -103735,7 +103747,7 @@ backup_data = {
       }
     },
     "Woobat": {
-      "Lvl 23 Psychic Dua - Relic Castle": {
+      "Lvl 23 Psychic Dua": {
         "level": 23,
         "ai": 5,
         "noCh": false,
@@ -104688,7 +104700,7 @@ backup_data = {
         "item": "None",
         "nature": "Quiet",
         "moves": [
-          "U-turn",
+          "Sludge Wave",
           "Toxic",
           "Sludge Bomb",
           "Bug Buzz"
@@ -110589,7 +110601,7 @@ backup_data = {
           "Fake Out",
           "Icy Wind",
           "Air Cutter",
-          "Rock Smash"
+          "Seed Bomb"
         ],
         "sub_index": 0,
         "ability": "Technician",
@@ -110910,7 +110922,7 @@ backup_data = {
         "item": "Lum Berry",
         "nature": "Impish",
         "moves": [
-          "Blizzard",
+          "Ice Beam",
           "Dark Pulse",
           "Energy Ball",
           "Flash Cannon"
@@ -111297,7 +111309,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Wise Glasses",
         "nature": "Jolly",
         "moves": [
           "Psychic",
@@ -111398,7 +111410,7 @@ backup_data = {
         "item": "Expert Belt",
         "nature": "Rash",
         "moves": [
-          "Blizzard",
+          "Ice Beam",
           "Flamethrower",
           "Thunderbolt",
           "Air Slash"
@@ -111756,7 +111768,7 @@ backup_data = {
         "moves": [
           "Thunderbolt",
           "Bug Buzz",
-          "Ice Beam",
+          "Aurora Beam",
           "Energy Ball"
         ],
         "sub_index": 3,
@@ -118507,12 +118519,12 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Rindo Berry",
+        "item": "Choice Band",
         "nature": "Lax",
         "moves": [
-          "Swords Dance",
-          "Waterfall",
-          "Strength",
+          "X-Scissor",
+          "Aqua Tail",
+          "Rock Climb",
           "Sacred Sword"
         ],
         "sub_index": 3,
@@ -118605,7 +118617,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Shell Bell",
         "nature": "Naive",
         "moves": [
           "Rock Climb",
@@ -118674,7 +118686,7 @@ backup_data = {
         "moves": [
           "Dragon Claw",
           "Rock Slide",
-          "Zen Headbutt",
+          "Scary Face",
           "Earthquake"
         ],
         "sub_index": 3,
@@ -119585,7 +119597,7 @@ backup_data = {
           "Superpower",
           "Focus Punch",
           "Close Combat",
-          "Shadow Ball"
+          "Shadow Punch"
         ],
         "sub_index": 2,
         "ability": "Thick Fat",
@@ -121442,9 +121454,9 @@ backup_data = {
         "nature": "Impish",
         "moves": [
           "Knock Off",
+          "U-turn",
           "Air Slash",
-          "Giga Drain",
-          "Cotton Spore"
+          "Giga Drain"
         ],
         "sub_index": 0,
         "ability": "Prankster",
@@ -126223,8 +126235,8 @@ backup_data = {
         "moves": [
           "Tailwind",
           "Psycho Boost",
-          "U-turn",
-          "Bug Buzz"
+          "Bug Buzz",
+          "U-turn"
         ],
         "sub_index": 2,
         "ability": "Shield Dust",
@@ -126255,9 +126267,9 @@ backup_data = {
         "item": "None",
         "nature": "Brave",
         "moves": [
-          "U-turn",
           "Thunder",
           "Tailwind",
+          "U-turn",
           "Muddy Water"
         ],
         "sub_index": 0,
@@ -126290,9 +126302,9 @@ backup_data = {
         "nature": "Timid",
         "moves": [
           "Sludge Wave",
+          "Protect",
           "Baton Pass",
-          "Muddy Water",
-          "Sludge Bomb"
+          "Muddy Water"
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
@@ -126388,9 +126400,9 @@ backup_data = {
         "nature": "Careful",
         "moves": [
           "Sucker Punch",
+          "Protect",
           "Baton Pass",
-          "Aqua Tail",
-          "Crunch"
+          "Aqua Tail"
         ],
         "sub_index": 2,
         "ability": "Shell Armor",
@@ -128436,7 +128448,7 @@ backup_data = {
         "nature": "Timid",
         "moves": [
           "Surf",
-          "Aeroblast",
+          "Hurricane",
           "Roost",
           "Tailwind"
         ],
@@ -131665,7 +131677,7 @@ backup_data = {
         "item": "Flying Gem",
         "nature": "Mild",
         "moves": [
-          "Hurricane",
+          "Aeroblast",
           "Ice Beam",
           "Will-O-Wisp",
           "Hex"
@@ -133620,7 +133632,7 @@ backup_data = {
           "Trick Room",
           "Psystrike",
           "Focus Blast",
-          "Shadow Ball"
+          "Thunder"
         ],
         "sub_index": 4,
         "ability": "Magic Guard",
@@ -133875,8 +133887,8 @@ backup_data = {
         "item": "None",
         "nature": "Careful",
         "moves": [
-          "Volt Switch",
           "Earthquake",
+          "Volt Switch",
           "Gear Grind",
           "Payback"
         ],
@@ -133907,8 +133919,8 @@ backup_data = {
         "item": "None",
         "nature": "Naive",
         "moves": [
-          "Volt Switch",
           "Earthquake",
+          "Volt Switch",
           "Gear Grind",
           "Payback"
         ],
@@ -134989,7 +135001,7 @@ backup_data = {
         "moves": [
           "Megahorn",
           "Iron Head",
-          "Drill Run",
+          "Iron Defense",
           "Razor Shell"
         ],
         "sub_index": 3,
@@ -136457,7 +136469,7 @@ backup_data = {
           "Magnet Rise"
         ],
         "sub_index": 0,
-        "ability": "Levitate",
+        "ability": "Heatproof",
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -136909,7 +136921,7 @@ backup_data = {
         "moves": [
           "Inferno",
           "Flash Cannon",
-          "Thunderbolt",
+          "Focus Blast",
           "Solar Beam"
         ],
         "sub_index": 2,
@@ -137401,7 +137413,7 @@ backup_data = {
           "Disable"
         ],
         "sub_index": 0,
-        "ability": "Unnerve",
+        "ability": "Magic Bounce",
         "sprite": "./images/trainer_sprites/elite_four.png",
         "form": 0,
         "evs": {
@@ -137560,7 +137572,7 @@ backup_data = {
           "Psychic",
           "Fire Blast",
           "Focus Blast",
-          "Grass Knot"
+          "Yawn"
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
@@ -144598,7 +144610,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Black Belt",
+        "item": "Silk Scarf",
         "nature": "Lax",
         "moves": [
           "Aura Sphere",
@@ -144696,7 +144708,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Choice Band",
+        "item": "Silk Scarf",
         "nature": "Brave",
         "moves": [
           "Crush Claw",
@@ -144728,7 +144740,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Choice Band",
+        "item": "Silk Scarf",
         "nature": "Careful",
         "moves": [
           "Crush Claw",
@@ -146422,7 +146434,7 @@ backup_data = {
           "Superpower",
           "Focus Punch",
           "Close Combat",
-          "Shadow Ball"
+          "Shadow Punch"
         ],
         "sub_index": 0,
         "ability": "Thick Fat",
