@@ -134491,6 +134491,288 @@ backup_data = {
                 ]
             }
         },
+        "Castform-Snowy": {
+            "bs": {
+                "hp": 70,
+                "at": 70,
+                "df": 75,
+                "sa": 110,
+                "sd": 75,
+                "sp": 100
+            },
+            "types": [
+                "Normal"
+            ],
+            "abilities": {
+                "0": "Forecast"
+            },
+            "learnset_info": {
+                "learnset": [
+                    [
+                        1,
+                        "Nature Power"
+                    ],
+                    [
+                        10,
+                        "Water Gun"
+                    ],
+                    [
+                        10,
+                        "Ember"
+                    ],
+                    [
+                        10,
+                        "Powder Snow"
+                    ],
+                    [
+                        20,
+                        "Hydro Pump"
+                    ],
+                    [
+                        20,
+                        "Flamethrower"
+                    ],
+                    [
+                        20,
+                        "Ice Beam"
+                    ],
+                    [
+                        30,
+                        "Weather Ball"
+                    ],
+                    [
+                        70,
+                        "Hurricane"
+                    ]
+                ],
+                "tms": [
+                    "Water Pulse",
+                    "Toxic",
+                    "Aurora Beam",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Ice Beam",
+                    "Blizzard",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Solar Beam",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Shadow Ball",
+                    "Double Team",
+                    "Shock Wave",
+                    "Flamethrower",
+                    "Sandstorm",
+                    "Fire Blast",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Attract",
+                    "Thief",
+                    "Energy Ball",
+                    "Endure",
+                    "Flash",
+                    "Avalanche",
+                    "Thunder Wave",
+                    "Psych Up",
+                    "Captivate",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Swagger",
+                    "Substitute"
+                ]
+            }
+        },
+        "Castform-Sunny": {
+            "bs": {
+                "hp": 70,
+                "at": 70,
+                "df": 75,
+                "sa": 110,
+                "sd": 75,
+                "sp": 100
+            },
+            "types": [
+                "Normal"
+            ],
+            "abilities": {
+                "0": "Forecast"
+            },
+            "learnset_info": {
+                "learnset": [
+                    [
+                        1,
+                        "Nature Power"
+                    ],
+                    [
+                        10,
+                        "Water Gun"
+                    ],
+                    [
+                        10,
+                        "Ember"
+                    ],
+                    [
+                        10,
+                        "Powder Snow"
+                    ],
+                    [
+                        20,
+                        "Hydro Pump"
+                    ],
+                    [
+                        20,
+                        "Flamethrower"
+                    ],
+                    [
+                        20,
+                        "Ice Beam"
+                    ],
+                    [
+                        30,
+                        "Weather Ball"
+                    ],
+                    [
+                        70,
+                        "Hurricane"
+                    ]
+                ],
+                "tms": [
+                    "Water Pulse",
+                    "Toxic",
+                    "Aurora Beam",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Ice Beam",
+                    "Blizzard",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Solar Beam",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Shadow Ball",
+                    "Double Team",
+                    "Shock Wave",
+                    "Flamethrower",
+                    "Sandstorm",
+                    "Fire Blast",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Attract",
+                    "Thief",
+                    "Energy Ball",
+                    "Endure",
+                    "Flash",
+                    "Avalanche",
+                    "Thunder Wave",
+                    "Psych Up",
+                    "Captivate",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Swagger",
+                    "Substitute"
+                ]
+            }
+        },
+        "Castform-Rainy": {
+            "bs": {
+                "hp": 70,
+                "at": 70,
+                "df": 75,
+                "sa": 110,
+                "sd": 75,
+                "sp": 100
+            },
+            "types": [
+                "Normal"
+            ],
+            "abilities": {
+                "0": "Forecast"
+            },
+            "learnset_info": {
+                "learnset": [
+                    [
+                        1,
+                        "Nature Power"
+                    ],
+                    [
+                        10,
+                        "Water Gun"
+                    ],
+                    [
+                        10,
+                        "Ember"
+                    ],
+                    [
+                        10,
+                        "Powder Snow"
+                    ],
+                    [
+                        20,
+                        "Hydro Pump"
+                    ],
+                    [
+                        20,
+                        "Flamethrower"
+                    ],
+                    [
+                        20,
+                        "Ice Beam"
+                    ],
+                    [
+                        30,
+                        "Weather Ball"
+                    ],
+                    [
+                        70,
+                        "Hurricane"
+                    ]
+                ],
+                "tms": [
+                    "Water Pulse",
+                    "Toxic",
+                    "Aurora Beam",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Ice Beam",
+                    "Blizzard",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Solar Beam",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Shadow Ball",
+                    "Double Team",
+                    "Shock Wave",
+                    "Flamethrower",
+                    "Sandstorm",
+                    "Fire Blast",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Attract",
+                    "Thief",
+                    "Energy Ball",
+                    "Endure",
+                    "Flash",
+                    "Avalanche",
+                    "Thunder Wave",
+                    "Psych Up",
+                    "Captivate",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Swagger",
+                    "Substitute"
+                ]
+            }
+        },
         "Kecleon": {
             "bs": {
                 "hp": 65,
@@ -156473,7 +156755,8 @@ backup_data = {
         "Water Sport": "Scald",
         "Healing Wish": "HP Electric",
         "Heal Block": "Aqua Cutter",
-        "Switcheroo": "HP Flying"
+        "Switcheroo": "HP Flying",
+        "Vice Grip": "Vise Grip"
     },
     "title": "pknightfinal"
 };

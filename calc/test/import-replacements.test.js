@@ -34,6 +34,12 @@ function loadImportNormalizer(overrides) {
             source.indexOf("function cloneImportedSetData")
         );
     }
+    if (overrides.includeImportPreviewHelpers) {
+        normalizerSource += source.slice(
+            source.indexOf("function applyImportedBoxPreview"),
+            source.indexOf("var pendingImportedSnapshotMeta")
+        );
+    }
     var context = Object.assign({
         console: console,
         TITLE: "Autumn Red",
@@ -267,5 +273,87 @@ describe("imported egg state", function () {
         ], 1, {});
 
         expect(parsed.isEgg).toBe(true);
+    });
+});
+
+describe("imported box preview refresh", function () {
+    test("refreshes the rendered box after imported encounter state syncs", function () {
+        var syncImportedEncounterState = jest.fn();
+        var refreshBoxDisplaySafely = jest.fn();
+        var context = loadImportNormalizer({
+            includeImportPreviewHelpers: true,
+            window: {
+                syncImportedEncounterState: syncImportedEncounterState
+            },
+            refreshBoxDisplaySafely: refreshBoxDisplaySafely
+        });
+        var customsets = {
+            Numel: {
+                "My Box": {
+                    nn: "Nomu"
+                }
+            }
+        };
+        var deadMons = [
+            {
+                speciesName: "Ledian",
+                nickname: "Nomu"
+            }
+        ];
+
+        context.syncImportedEncounterStateAfterBoxImport(customsets, deadMons);
+
+        expect(syncImportedEncounterState).toHaveBeenCalledWith(customsets, deadMons);
+        expect(refreshBoxDisplaySafely).toHaveBeenCalledTimes(1);
+    });
+
+    test("updates global customSets before rendering imported box preview", function () {
+        var renderSawCustomSets = null;
+        var context = loadImportNormalizer({
+            includeImportPreviewHelpers: true,
+            localStorage: {
+                customsets: ""
+            },
+            updateDex: function (sets) {
+                context.localStorage.customsets = JSON.stringify(sets);
+            },
+            SETDEX_SS: {},
+            SETDEX_SM: {},
+            SETDEX_XY: {},
+            SETDEX_BW: {},
+            SETDEX_DPP: {},
+            SETDEX_ADV: {},
+            SETDEX_GSC: {},
+            SETDEX_RBY: {},
+            customSets: {},
+            get_box: function () {
+                renderSawCustomSets = context.customSets;
+            },
+            displayParty: jest.fn(),
+            allPokemon: function () {
+                return "#importedSetsOptions";
+            },
+            setTimeout: function (callback) {
+                callback();
+            },
+            $: function () {
+                return {
+                    addClass: function () { return this; },
+                    removeClass: function () { return this; },
+                    css: function () { return this; }
+                };
+            }
+        });
+        var customsets = {
+            Numel: {
+                "My Box": {
+                    nn: "Nomu"
+                }
+            }
+        };
+
+        context.applyImportedBoxPreview(customsets);
+
+        expect(renderSawCustomSets).toEqual(customsets);
     });
 });

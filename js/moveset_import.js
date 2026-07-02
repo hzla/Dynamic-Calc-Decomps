@@ -2009,14 +2009,35 @@ window.importPolledMasterBoxPayload = importPolledMasterBoxPayload;
 
 function applyImportedBoxPreview(customsets) {
 	updateDex(customsets);
+	customSets = JSON.parse(localStorage.customsets);
 	get_box();
 	$('.player-poks, .player-megas').addClass('shake');
-	customSets = JSON.parse(localStorage.customsets);
 	setTimeout(function(){
 		$('.player-poks, .player-megas').removeClass('shake');
 	}, 500);
 	$(allPokemon("#importedSetsOptions")).css("display", "inline");
 	displayParty();
+}
+
+function refreshImportedBoxPreviewAfterEncounterSync() {
+	if (typeof refreshBoxDisplaySafely === "function") {
+		refreshBoxDisplaySafely();
+		return;
+	}
+
+	if (typeof get_box === "function") {
+		get_box();
+	}
+}
+
+function syncImportedEncounterStateAfterBoxImport(customsets, deadMons) {
+	if (typeof window.syncImportedEncounterState === "function") {
+		window.syncImportedEncounterState(customsets, deadMons);
+	} else {
+		syncFragsheetFromImportedBox();
+	}
+
+	refreshImportedBoxPreviewAfterEncounterSync();
 }
 
 function syncFragsheetFromImportedBox() {
@@ -2378,11 +2399,7 @@ function applyImportedSnapshot(snapshot) {
 			? removeMyBoxEntries(getStoredCustomSets())
 			: getStoredCustomSets();
 		applyImportedBoxPreview(customsets);
-		if (typeof window.syncImportedEncounterState === "function") {
-			window.syncImportedEncounterState(customsets, persistedDeadMons);
-		} else {
-			syncFragsheetFromImportedBox();
-		}
+		syncImportedEncounterStateAfterBoxImport(customsets, persistedDeadMons);
 		pendingImportedSnapshotMeta = null;
 	});
 }
@@ -2608,18 +2625,10 @@ function addSets(pokes, name, importOptions) {
 			eggSpeciesCount: eggSpeciesNames.length,
 			eggSpeciesNames: eggSpeciesNames.slice(0, 30),
 		});
-		if (typeof window.syncImportedEncounterState === "function") {
-			window.syncImportedEncounterState(customsets, persistedDeadMons || getStoredDeadMons());
-		} else {
-			syncFragsheetFromImportedBox();
-		}
+		syncImportedEncounterStateAfterBoxImport(customsets, persistedDeadMons || getStoredDeadMons());
 	} else if (replaceDeadMons || parsedDeadMons.length > 0) {
 		applyImportedBoxPreview(customsets);
-		if (typeof window.syncImportedEncounterState === "function") {
-			window.syncImportedEncounterState(customsets, persistedDeadMons || getStoredDeadMons());
-		} else {
-			syncFragsheetFromImportedBox();
-		}
+		syncImportedEncounterStateAfterBoxImport(customsets, persistedDeadMons || getStoredDeadMons());
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}
