@@ -2,7 +2,7 @@
 // ROM data is authoritative; community dumps are only used for validation/mode tagging.
 backup_data = {
   "-----": {
-    "Lvl 1 Pokemon Trainer 1": {
+    "Lvl 1 Pokemon Trainer 1 #2 ": {
       "nature": "Timid",
       "level": 1,
       "moves": [],
@@ -23,7 +23,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #9.3": {
+    "Lvl -1 Bug Maniac Coach Set2 ": {
       "nature": "Timid",
       "level": -1,
       "sublevel": -1,
@@ -36,7 +36,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #9.4": {
+    "Lvl -1 Bug Maniac Coach Set3 ": {
       "nature": "Naive",
       "level": -1,
       "sublevel": -1,
@@ -48,7 +48,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #9.5": {
+    "Lvl -1 Bug Maniac Coach Set4 ": {
       "nature": "Lax",
       "level": -1,
       "sublevel": -1,
@@ -60,7 +60,7 @@ backup_data = {
       "trainerClass": 20,
       "rawIvOrSpreadValue": 262
     },
-    "Lvl -1 Bug Maniac Coach #10.2": {
+    "Lvl -1 Bug Maniac Coach #2 ": {
       "nature": "Naive",
       "level": -1,
       "sublevel": -1,
@@ -73,7 +73,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #10.3": {
+    "Lvl -1 Bug Maniac Coach #2 Set2 ": {
       "nature": "Brave",
       "level": -1,
       "sublevel": -1,
@@ -86,7 +86,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #10.4": {
+    "Lvl -1 Bug Maniac Coach #2 Set3 ": {
       "nature": "Docile",
       "level": -1,
       "sublevel": -1,
@@ -98,7 +98,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #10.5": {
+    "Lvl -1 Bug Maniac Coach #2 Set4 ": {
       "nature": "Lonely",
       "level": -1,
       "sublevel": -1,
@@ -110,7 +110,7 @@ backup_data = {
       "trainerClass": 20,
       "rawIvOrSpreadValue": 262
     },
-    "Lvl -1 Bug Maniac Coach #11.2": {
+    "Lvl -1 Bug Maniac Coach #3 ": {
       "nature": "Modest",
       "level": -1,
       "sublevel": -1,
@@ -122,7 +122,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #11.3": {
+    "Lvl -1 Bug Maniac Coach #3 Set2 ": {
       "nature": "Adamant",
       "level": -1,
       "sublevel": -1,
@@ -134,7 +134,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #11.4": {
+    "Lvl -1 Bug Maniac Coach #3 Set3 ": {
       "nature": "Relaxed",
       "level": -1,
       "sublevel": -1,
@@ -145,7 +145,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #11.5": {
+    "Lvl -1 Bug Maniac Coach #3 Set4 ": {
       "nature": "Brave",
       "level": -1,
       "sublevel": -1,
@@ -157,7 +157,7 @@ backup_data = {
       "trainerClass": 20,
       "rawIvOrSpreadValue": 262
     },
-    "Lvl -1 Bug Maniac Coach #12.2": {
+    "Lvl -1 Bug Maniac Coach #4 ": {
       "nature": "Naive",
       "level": -1,
       "sublevel": -1,
@@ -170,7 +170,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #12.3": {
+    "Lvl -1 Bug Maniac Coach #4 Set2 ": {
       "nature": "Brave",
       "level": -1,
       "sublevel": -1,
@@ -183,7 +183,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #12.4": {
+    "Lvl -1 Bug Maniac Coach #4 Set3 ": {
       "nature": "Docile",
       "level": -1,
       "sublevel": -1,
@@ -195,7 +195,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #12.5": {
+    "Lvl -1 Bug Maniac Coach #4 Set4 ": {
       "nature": "Lonely",
       "level": -1,
       "sublevel": -1,
@@ -207,7 +207,7 @@ backup_data = {
       "trainerClass": 20,
       "rawIvOrSpreadValue": 262
     },
-    "Lvl -1 Bug Maniac Coach #13.2": {
+    "Lvl -1 Bug Maniac Coach #5 ": {
       "nature": "Adamant",
       "level": -1,
       "sublevel": -1,
@@ -220,7 +220,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #13.3": {
+    "Lvl -1 Bug Maniac Coach #5 Set2 ": {
       "nature": "Mild",
       "level": -1,
       "sublevel": -1,
@@ -233,7 +233,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #13.4": {
+    "Lvl -1 Bug Maniac Coach #5 Set3 ": {
       "nature": "Calm",
       "level": -1,
       "sublevel": -1,
@@ -245,7 +245,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #13.5": {
+    "Lvl -1 Bug Maniac Coach #5 Set4 ": {
       "nature": "Modest",
       "level": -1,
       "sublevel": -1,
@@ -420,7 +420,7 @@ backup_data = {
       "trainerClass": 77,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -89 Boss Giovanni": {
+    "Lvl -89 Boss Giovanni #4 ": {
       "nature": "Mild",
       "level": -89,
       "sublevel": -89,
@@ -435,7 +435,7 @@ backup_data = {
       "trainerClass": 84,
       "rawIvOrSpreadValue": 89
     },
-    "Lvl 0 Boss Giovanni": {
+    "Lvl 0 Boss Giovanni #4 ": {
       "nature": "Bashful",
       "level": 0,
       "sublevel": 0,
@@ -567,7 +567,7 @@ backup_data = {
       "trainerClass": 104,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 0 Bird Keeper Jacob - Route 18": {
+    "Lvl 0 Bird Keeper Jacob #4 ": {
       "nature": "Timid",
       "level": 0,
       "sublevel": 0,
@@ -597,7 +597,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Gian - Saffron City Dumass": {
+    "Lvl 100 Sheet Frontier Gian": {
       "nature": "Calm",
       "level": 100,
       "moves": [
@@ -745,7 +745,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 27
     },
-    "Lvl 5 Pokefan AgathaRe #34.0": {
+    "Lvl 5 Pokefan AgathaRe #2 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 5,
@@ -784,7 +784,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 10
     },
-    "Lvl 5 Hex Maniac LanceRe #37.0": {
+    "Lvl 5 Hex Maniac LanceRe #2 ": {
       "nature": "Sassy",
       "ability": "Shed Skin",
       "level": 5,
@@ -810,7 +810,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 8
     },
-    "Lvl 5 Leader Pryce": {
+    "Lvl 5 Leader Pryce #4 ": {
       "nature": "Hasty",
       "ability": "Shed Skin",
       "level": 5,
@@ -862,7 +862,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 9
     },
-    "Lvl 17 Youngster Ben": {
+    "Lvl 17 Youngster Ben #2 ": {
       "nature": "Careful",
       "ability": "Shed Skin",
       "level": 17,
@@ -929,7 +929,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 5 Bug Catcher #493.0": {
+    "Lvl 5 Bug Catcher #2 ": {
       "nature": "Mild",
       "ability": "Intimidate",
       "level": 5,
@@ -942,7 +942,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 5 Bug Catcher #494.0": {
+    "Lvl 5 Bug Catcher #3 ": {
       "nature": "Mild",
       "ability": "Intimidate",
       "level": 5,
@@ -955,7 +955,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 5 Bug Catcher #495.0": {
+    "Lvl 5 Bug Catcher #4 ": {
       "nature": "Mild",
       "ability": "Intimidate",
       "level": 5,
@@ -968,7 +968,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 5 Bug Catcher #496.0": {
+    "Lvl 5 Bug Catcher #5 ": {
       "nature": "Mild",
       "ability": "Intimidate",
       "level": 5,
@@ -981,7 +981,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 5 Bug Catcher #497.0": {
+    "Lvl 5 Bug Catcher #6 ": {
       "nature": "Mild",
       "ability": "Intimidate",
       "level": 5,
@@ -994,7 +994,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 28 Youngster Ben": {
+    "Lvl 28 Youngster Ben #3 ": {
       "nature": "Modest",
       "ability": "Shed Skin",
       "level": 28,
@@ -1009,7 +1009,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 20 Youngster Chad": {
+    "Lvl 20 Youngster Chad #2 ": {
       "nature": "Careful",
       "ability": "Intimidate",
       "level": 20,
@@ -1024,7 +1024,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 19 Youngster Timmy": {
+    "Lvl 19 Youngster Timmy #2 ": {
       "nature": "Jolly",
       "ability": "Shed Skin",
       "level": 19,
@@ -1039,7 +1039,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 27 Youngster Timmy": {
+    "Lvl 27 Youngster Timmy #3 ": {
       "nature": "Jolly",
       "ability": "Shed Skin",
       "level": 27,
@@ -1132,7 +1132,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 66
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #53 ": {
       "nature": "Naive",
       "ability": "Shed Skin",
       "level": 48,
@@ -1250,7 +1250,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 0 Leader Misty": {
+    "Lvl 0 Leader Misty #3 ": {
       "nature": "Hardy",
       "ability": "Natural Cure",
       "level": 0,
@@ -1295,7 +1295,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 96
     },
-    "Lvl 50 Swimmer M Jack": {
+    "Lvl 50 Swimmer M Jack #2 ": {
       "nature": "Rash",
       "ability": "Illuminate",
       "level": 50,
@@ -1310,7 +1310,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 50 Sis And Bro Lil Ian": {
+    "Lvl 50 Sis And Bro Lil Ian #2 ": {
       "nature": "Impish",
       "ability": "Natural Cure",
       "level": 50,
@@ -1325,7 +1325,7 @@ backup_data = {
       "trainerClass": 96,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 55 Sis And Bro Lil Ian": {
+    "Lvl 55 Sis And Bro Lil Ian #3 ": {
       "nature": "Impish",
       "ability": "Natural Cure",
       "level": 55,
@@ -1340,7 +1340,7 @@ backup_data = {
       "trainerClass": 96,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 50 Swimmer M Finn": {
+    "Lvl 50 Swimmer M Finn #2 ": {
       "nature": "Brave",
       "ability": "Illuminate",
       "level": 50,
@@ -1355,7 +1355,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 0 Leader Misty #rrhc-sheet-Kanto-Leaders-30-0x11336d8.4": {
+    "Lvl 0 Leader Misty #7 ": {
       "nature": "Modest",
       "ability": "Analytic",
       "level": 0,
@@ -1385,7 +1385,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker William - Route 18": {
+    "Lvl -2 Biker William": {
       "nature": "Timid",
       "ability": "Analytic",
       "level": -2,
@@ -1415,7 +1415,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier George - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier George": {
       "nature": "Timid",
       "ability": "Natural Cure",
       "level": 85,
@@ -1444,7 +1444,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Sheet Frontier Haley - Route 15 Ace Trainer": {
+    "Lvl 68 Sheet Frontier Haley": {
       "nature": "Timid",
       "ability": "Natural Cure",
       "level": 68,
@@ -1473,7 +1473,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Sheet Frontier Maria - Kindle Road Swimmer": {
+    "Lvl -1 Sheet Frontier Maria": {
       "nature": "Timid",
       "ability": "Natural Cure",
       "level": -1,
@@ -1534,7 +1534,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #16 ": {
       "nature": "Jolly",
       "ability": "Leaf Guard",
       "level": 0,
@@ -1551,7 +1551,7 @@ backup_data = {
       "item": "Sharp Beak",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 0 Rival Terry #434.1": {
+    "Lvl 0 Rival Terry #18 ": {
       "nature": "Timid",
       "ability": "Leaf Guard",
       "level": 0,
@@ -1598,7 +1598,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #7 ": {
       "nature": "Jolly",
       "ability": "Aerilate",
       "level": 56,
@@ -1627,7 +1627,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-226-0x11319c0.1": {
+    "Lvl 56 Rival #8 ": {
       "nature": "Jolly",
       "ability": "Aerilate",
       "level": 56,
@@ -1656,7 +1656,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Sheet Frontier May - Cinnabar Isl.": {
+    "Lvl 73 Sheet Frontier May": {
       "nature": "Jolly",
       "ability": "Aerilate",
       "level": 73,
@@ -1700,7 +1700,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #10.1": {
+    "Lvl -1 Bug Maniac Coach #2 ": {
       "nature": "Rash",
       "ability": "Overgrow",
       "level": -1,
@@ -1713,7 +1713,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #11.1": {
+    "Lvl -1 Bug Maniac Coach #3 ": {
       "nature": "Calm",
       "ability": "Overgrow",
       "level": -1,
@@ -1725,7 +1725,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #12.1": {
+    "Lvl -1 Bug Maniac Coach #4 ": {
       "nature": "Rash",
       "ability": "Overgrow",
       "level": -1,
@@ -1738,7 +1738,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl -1 Bug Maniac Coach #13.1": {
+    "Lvl -1 Bug Maniac Coach #5 ": {
       "nature": "Impish",
       "ability": "Overgrow",
       "level": -1,
@@ -1751,7 +1751,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl 5 Rival Terry": {
+    "Lvl 5 Rival Terry #2 ": {
       "nature": "Gentle",
       "ability": "Overgrow",
       "level": 5,
@@ -1763,7 +1763,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 81
     },
-    "Lvl 9 Rival Terry": {
+    "Lvl 9 Rival Terry #5 ": {
       "nature": "Relaxed",
       "ability": "Overgrow",
       "level": 9,
@@ -1791,7 +1791,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 103
     },
-    "Lvl 0 Rival - Route 22 #1": {
+    "Lvl 0 Rival #3 ": {
       "nature": "Timid",
       "ability": "Overgrow",
       "level": 0,
@@ -1823,7 +1823,7 @@ backup_data = {
     }
   },
   "Stoutland": {
-    "Lvl 0 Bug Maniac Coach": {
+    "Lvl 0 Bug Maniac Coach #2 ": {
       "nature": "Lax",
       "ability": "Sand Rush",
       "level": 0,
@@ -1836,7 +1836,7 @@ backup_data = {
       "trainerClass": 20,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #30 ": {
       "nature": "Serious",
       "ability": "Sand Rush",
       "level": 0,
@@ -1853,7 +1853,7 @@ backup_data = {
     }
   },
   "Coalossal": {
-    "Lvl 0 Bug Maniac Coach": {
+    "Lvl 0 Bug Maniac Coach #3 ": {
       "nature": "Timid",
       "ability": "Flame Body",
       "level": 0,
@@ -1865,7 +1865,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 20
     },
-    "Lvl 0 Sheet Frontier Mary - Celadon Gym Ace Trainer": {
+    "Lvl 0 Sheet Frontier Mary": {
       "nature": "Hasty",
       "ability": "Steam Engine",
       "level": 0,
@@ -1897,7 +1897,7 @@ backup_data = {
     }
   },
   "Beautifly": {
-    "Lvl 0 Bug Maniac Coach": {
+    "Lvl 0 Bug Maniac Coach #4 ": {
       "nature": "Lax",
       "ability": "Swarm",
       "level": 0,
@@ -1911,7 +1911,7 @@ backup_data = {
     }
   },
   "Dustox": {
-    "Lvl 0 Bug Maniac Coach": {
+    "Lvl 0 Bug Maniac Coach #5 ": {
       "nature": "Careful",
       "ability": "Shield Dust",
       "level": 0,
@@ -1936,7 +1936,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl -2 Bug Catcher Sammy - Virid. Forest": {
+    "Lvl -2 Bug Catcher Sammy #2 ": {
       "nature": "Bold",
       "ability": "Shield Dust",
       "level": -2,
@@ -1984,7 +1984,7 @@ backup_data = {
       "item": "Air Balloon",
       "rawIvOrSpreadValue": 64
     },
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #2 ": {
       "nature": "Calm",
       "ability": "Sturdy",
       "level": -5,
@@ -2001,7 +2001,7 @@ backup_data = {
       "item": "Magnet",
       "rawIvOrSpreadValue": 33
     },
-    "Lvl 0 Leader Jasmine": {
+    "Lvl 0 Leader Jasmine #3 ": {
       "nature": "Sassy",
       "ability": "Sturdy",
       "level": 0,
@@ -2018,7 +2018,7 @@ backup_data = {
       "item": "Magnet",
       "rawIvOrSpreadValue": 33
     },
-    "Lvl 100 Leader Bugsy": {
+    "Lvl 100 Leader Bugsy #4 ": {
       "nature": "Timid",
       "ability": "Magnet Pull",
       "level": 100,
@@ -2048,7 +2048,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy #frontier-community-0x112f420.3": {
+    "Lvl 100 Leader Bugsy #5 ": {
       "nature": "Timid",
       "ability": "Magnet Pull",
       "level": 100,
@@ -2078,7 +2078,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Jasmine": {
+    "Lvl 73 Leader Jasmine #5 ": {
       "nature": "Modest",
       "ability": "Sturdy",
       "level": 73,
@@ -2108,7 +2108,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Jasmine - Cinnabar Lab": {
+    "Lvl 73 Leader Jasmine #6 ": {
       "nature": "Modest",
       "ability": "Sturdy",
       "level": 73,
@@ -2137,7 +2137,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier 3 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 3": {
       "nature": "Timid",
       "ability": "Magnet Pull",
       "level": 0,
@@ -2167,7 +2167,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -3 Biker William - Route 18": {
+    "Lvl -3 Biker William": {
       "nature": "Naive",
       "ability": "Sturdy",
       "level": -3,
@@ -2197,7 +2197,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Camper Bryce - Kindle Road": {
+    "Lvl 0 Camper Bryce #2 ": {
       "nature": "Jolly",
       "ability": "Magnet Pull",
       "level": 0,
@@ -2227,7 +2227,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy - Kindle Road": {
+    "Lvl 100 Leader Bugsy #8 ": {
       "nature": "Timid",
       "ability": "Magnet Pull",
       "level": 100,
@@ -2291,7 +2291,7 @@ backup_data = {
       "item": "Grassy Seed",
       "rawIvOrSpreadValue": 61
     },
-    "Lvl 68 Leader Erika": {
+    "Lvl 68 Leader Erika #3 ": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 68,
@@ -2321,7 +2321,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Erika": {
+    "Lvl 44 Leader Erika #4 ": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 44,
@@ -2351,7 +2351,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Erika #rrhc-sheet-Kanto-Leaders-80-0x1132ab4.1": {
+    "Lvl 44 Leader Erika #5 ": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 44,
@@ -2380,7 +2380,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Erika #rrhc-sheet-Kanto-Rematch-79-0x1130db8.2": {
+    "Lvl 68 Leader Erika #6 ": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 68,
@@ -2409,7 +2409,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Sheet Frontier Haley - Route 15 Ace Trainer": {
+    "Lvl 68 Sheet Frontier Haley": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 68,
@@ -2438,7 +2438,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #6 ": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 100,
@@ -2467,7 +2467,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Boss - Three Island": {
+    "Lvl 100 Boss": {
       "nature": "Jolly",
       "ability": "Unburden",
       "level": 100,
@@ -2542,7 +2542,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 48
     },
-    "Lvl 0 Picnicker Dana - Rock Tunnel": {
+    "Lvl 0 Picnicker Dana #2 ": {
       "nature": "Timid",
       "ability": "Mega Launcher",
       "level": 0,
@@ -2572,7 +2572,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup #2 ": {
       "nature": "Modest",
       "ability": "Mega Launcher",
       "level": 81,
@@ -2619,7 +2619,7 @@ backup_data = {
       "item": "Power Herb",
       "rawIvOrSpreadValue": 64
     },
-    "Lvl 68 Sheet Frontier Haley - Route 15 Ace Trainer": {
+    "Lvl 68 Sheet Frontier Haley": {
       "nature": "Timid",
       "ability": "Unburden",
       "level": 68,
@@ -2666,7 +2666,7 @@ backup_data = {
       "item": "Sandacondite",
       "rawIvOrSpreadValue": 74
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #39 ": {
       "nature": "Hardy",
       "ability": "Shed Skin",
       "level": 0,
@@ -2774,7 +2774,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 28 Leader Whitney": {
+    "Lvl 28 Leader Whitney #3 ": {
       "nature": "Timid",
       "ability": "Soul-Heart",
       "level": 28,
@@ -2804,7 +2804,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Whitney - Route 11": {
+    "Lvl 28 Leader Whitney #4 ": {
       "nature": "Timid",
       "ability": "Soul-Heart",
       "level": 28,
@@ -2940,7 +2940,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl 48 Youngster Cordell #615.1": {
+    "Lvl 48 Youngster Cordell Set2 ": {
       "nature": "Lonely",
       "ability": "Inner Focus",
       "level": 48,
@@ -2954,7 +2954,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl 0 Gentleman Tucker - Vermillion Gym": {
+    "Lvl 0 Gentleman Tucker #2 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 0,
@@ -3046,7 +3046,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 48 Bird Keeper Marlon": {
+    "Lvl 48 Bird Keeper Marlon #3 ": {
       "nature": "Timid",
       "ability": "Rock Head",
       "level": 48,
@@ -3061,7 +3061,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 30 Bird Keeper Chester": {
+    "Lvl 30 Bird Keeper Chester #2 ": {
       "nature": "Naughty",
       "ability": "Early Bird",
       "level": 30,
@@ -3076,7 +3076,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 30 Bird Keeper Chester #667.1": {
+    "Lvl 30 Bird Keeper Chester #2 Set2 ": {
       "nature": "Docile",
       "ability": "Early Bird",
       "level": 30,
@@ -3091,7 +3091,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 48 Bird Keeper Chester": {
+    "Lvl 48 Bird Keeper Chester #3 ": {
       "nature": "Naughty",
       "ability": "Early Bird",
       "level": 48,
@@ -3106,7 +3106,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 48 Bird Keeper Chester #668.1": {
+    "Lvl 48 Bird Keeper Chester #3 Set2 ": {
       "nature": "Docile",
       "ability": "Early Bird",
       "level": 48,
@@ -3121,7 +3121,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 48 Bird Keeper Chester #668.2": {
+    "Lvl 48 Bird Keeper Chester #3 Set3 ": {
       "nature": "Quirky",
       "ability": "Early Bird",
       "level": 48,
@@ -3136,7 +3136,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 59 Beauty Shelly - Celadon Hotel": {
+    "Lvl 59 Beauty Shelly": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 59,
@@ -3200,7 +3200,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 100
     },
-    "Lvl -1 Camper Jeff - Route 6": {
+    "Lvl -1 Camper Jeff #5 ": {
       "nature": "Adamant",
       "ability": "Intimidate",
       "level": -1,
@@ -3230,7 +3230,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Twins Joy & Meg - Bond Bridge": {
+    "Lvl -1 Twins Joy & Meg": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": -1,
@@ -3329,7 +3329,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl 100 Leader Falkner": {
+    "Lvl 100 Leader Falkner #3 ": {
       "nature": "Timid",
       "ability": "Tinted Lens",
       "level": 100,
@@ -3359,7 +3359,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Rocker Luca - Route 12": {
+    "Lvl -2 Rocker Luca #3 ": {
       "nature": "Timid",
       "ability": "Tinted Lens",
       "level": -2,
@@ -3389,7 +3389,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Falkner - Rock Tunnel": {
+    "Lvl 100 Leader Falkner #5 ": {
       "nature": "Timid",
       "ability": "Tinted Lens",
       "level": 100,
@@ -3418,7 +3418,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Logan - Mt. Ember Gatekeeper": {
+    "Lvl 0 Sheet Frontier Logan": {
       "nature": "Timid",
       "ability": "Tinted Lens",
       "level": 0,
@@ -3466,7 +3466,7 @@ backup_data = {
       "item": "Shuca Berry",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 82 Sheet Frontier Brendan - Route 23": {
+    "Lvl 82 Sheet Frontier Brendan #4 ": {
       "nature": "Adamant",
       "ability": "Rock Head",
       "level": 82,
@@ -3495,7 +3495,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Black Belt Hugh - Kindle Road": {
+    "Lvl 100 Black Belt Hugh #4 ": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 100,
@@ -3556,7 +3556,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 66
     },
-    "Lvl 47 Sheet Frontier Guard - Rocket Hide. Left": {
+    "Lvl 47 Sheet Frontier Guard #2 ": {
       "nature": "Bold",
       "ability": "Neutralizing Gas",
       "level": 47,
@@ -3603,7 +3603,7 @@ backup_data = {
       "item": "Rocky Helmet",
       "rawIvOrSpreadValue": 22
     },
-    "Lvl 60 Ruin Maniac Jojo Fan": {
+    "Lvl 60 Ruin Maniac Jojo Fan #2 ": {
       "nature": "Lonely",
       "ability": "Iron Barbs",
       "level": 60,
@@ -3636,7 +3636,7 @@ backup_data = {
       "item": "Rocky Helmet",
       "rawIvOrSpreadValue": 14
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #10 ": {
       "nature": "Relaxed",
       "ability": "Iron Barbs",
       "level": 82,
@@ -3665,7 +3665,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Co.le - Route 8 Ace Trainer": {
+    "Lvl 59 Sheet Frontier Co.le": {
       "nature": "Relaxed",
       "ability": "Iron Barbs",
       "level": 59,
@@ -3694,7 +3694,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Janny - Berry Forest Gauntlet 4 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Janny": {
       "nature": "Impish",
       "ability": "Iron Barbs",
       "level": 100,
@@ -3773,7 +3773,7 @@ backup_data = {
       "item": "Centiskite",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #4 ": {
       "nature": "Bashful",
       "ability": "White Smoke",
       "level": 0,
@@ -3788,7 +3788,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Team Rocket Grunt": {
+    "Lvl -2 Team Rocket Grunt #14 ": {
       "nature": "Naughty",
       "ability": "White Smoke",
       "level": -2,
@@ -3925,7 +3925,7 @@ backup_data = {
       "item": "White Herb",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl -3 Elite Four Lorelei": {
+    "Lvl -3 Elite Four Lorelei #3 ": {
       "nature": "Brave",
       "ability": "Skill Link",
       "level": -3,
@@ -3956,7 +3956,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 28 Fisherman Elliot": {
+    "Lvl 28 Fisherman Elliot #2 ": {
       "nature": "Lonely",
       "ability": "Shell Armor",
       "level": 28,
@@ -3971,7 +3971,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl -3 Elite Four Lorelei #735.1": {
+    "Lvl -3 Elite Four Lorelei #4 ": {
       "nature": "Brave",
       "ability": "Skill Link",
       "level": -3,
@@ -4045,7 +4045,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #5 ": {
       "nature": "Jolly",
       "ability": "Skill Link",
       "level": 73,
@@ -4074,7 +4074,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-206-0x1130e60.1": {
+    "Lvl 73 Leader Pryce #7 ": {
       "nature": "Jolly",
       "ability": "Skill Link",
       "level": 73,
@@ -4103,7 +4103,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup": {
       "nature": "Jolly",
       "ability": "Skill Link",
       "level": 81,
@@ -4132,7 +4132,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Sheet Frontier Finn - Kindle Road Swimmer": {
+    "Lvl -1 Sheet Frontier Finn": {
       "nature": "Jolly",
       "ability": "Skill Link",
       "level": -1,
@@ -4180,7 +4180,7 @@ backup_data = {
       "item": "Choice Specs",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl -1 Leader Morty": {
+    "Lvl -1 Leader Morty #2 ": {
       "nature": "Docile",
       "ability": "Flame Body",
       "level": -1,
@@ -4197,7 +4197,7 @@ backup_data = {
       "item": "Charcoal",
       "rawIvOrSpreadValue": 34
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #12 ": {
       "nature": "Timid",
       "ability": "Shadow Tag",
       "level": 82,
@@ -4226,7 +4226,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Picnicker Alma - Route 13": {
+    "Lvl -2 Picnicker Alma #2 ": {
       "nature": "Timid",
       "ability": "Shadow Tag",
       "level": -2,
@@ -4256,7 +4256,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Aroma Lady Violet - Bond Bridge": {
+    "Lvl 0 Aroma Lady Violet #2 ": {
       "nature": "Timid",
       "ability": "Shadow Tag",
       "level": 0,
@@ -4354,7 +4354,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 73 Leader Jasmine": {
+    "Lvl 73 Leader Jasmine #5 ": {
       "nature": "Jolly",
       "ability": "Grassy Surge",
       "level": 73,
@@ -4384,7 +4384,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Jasmine - Cinnabar Lab": {
+    "Lvl 73 Leader Jasmine #6 ": {
       "nature": "Jolly",
       "ability": "Grassy Surge",
       "level": 73,
@@ -4431,7 +4431,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 60 Pokemon Trainer 2 Ketchup #20.4": {
+    "Lvl 60 Pokemon Trainer 2 Ketchup #2 ": {
       "nature": "Naive",
       "ability": "Unseen Fist",
       "level": 60,
@@ -4480,7 +4480,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 100 Leader Morty": {
+    "Lvl 100 Leader Morty #3 ": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 100,
@@ -4510,7 +4510,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty #frontier-community-0x1132f68.3": {
+    "Lvl 100 Leader Morty #5 ": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 100,
@@ -4540,7 +4540,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 81,
@@ -4569,7 +4569,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave #rrhc-sheet-Optional-Bosses-181-0x1130530.5": {
+    "Lvl 81 Black Belt Ketchup #2 ": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 81,
@@ -4598,7 +4598,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #6 ": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 100,
@@ -4627,7 +4627,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty - PKMN Tower Gauntlet Boss": {
+    "Lvl 100 Leader Morty #7 ": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 100,
@@ -4674,7 +4674,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 60 Pokemon Trainer 2 Ketchup #20.5": {
+    "Lvl 60 Pokemon Trainer 2 Ketchup #2 ": {
       "nature": "Hardy",
       "ability": "Unseen Fist",
       "level": 60,
@@ -4690,7 +4690,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Elite Four Bruno": {
+    "Lvl -1 Elite Four Bruno #2 ": {
       "nature": "Quiet",
       "ability": "Unseen Fist",
       "level": -1,
@@ -4707,7 +4707,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 68 Sheet Frontier Brendan - Fuchsia City": {
+    "Lvl 68 Sheet Frontier Brendan #3 ": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 68,
@@ -4736,7 +4736,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 81,
@@ -4765,7 +4765,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave #rrhc-sheet-Optional-Bosses-181-0x1130530.4": {
+    "Lvl 81 Black Belt Ketchup #2 ": {
       "nature": "Jolly",
       "ability": "Unseen Fist",
       "level": 81,
@@ -4796,7 +4796,7 @@ backup_data = {
     }
   },
   "Azumarill": {
-    "Lvl 60 Pokemon Trainer 2 Ketchup": {
+    "Lvl 60 Pokemon Trainer 2 Ketchup #2 ": {
       "nature": "Lonely",
       "ability": "Huge Power",
       "level": 60,
@@ -4812,7 +4812,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 65
     },
-    "Lvl 85 Leader Whitney": {
+    "Lvl 85 Leader Whitney #2 ": {
       "nature": "Mild",
       "ability": "Huge Power",
       "level": 85,
@@ -4860,7 +4860,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #17 ": {
       "nature": "Modest",
       "ability": "Huge Power",
       "level": 0,
@@ -4877,7 +4877,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 61
     },
-    "Lvl 0 Rival Terry #434.2": {
+    "Lvl 0 Rival Terry #18 ": {
       "nature": "Bashful",
       "ability": "Huge Power",
       "level": 0,
@@ -4894,7 +4894,7 @@ backup_data = {
       "item": "Mystic Water",
       "rawIvOrSpreadValue": 61
     },
-    "Lvl 0 Rival Terry #436.2": {
+    "Lvl 0 Rival Terry #20 ": {
       "nature": "Bashful",
       "ability": "Huge Power",
       "level": 0,
@@ -4911,7 +4911,7 @@ backup_data = {
       "item": "Mystic Water",
       "rawIvOrSpreadValue": 61
     },
-    "Lvl 0 Sheet Frontier Abigail - Treasure Bea. Swimmer": {
+    "Lvl 0 Sheet Frontier Abigail": {
       "nature": "Adamant",
       "ability": "Huge Power",
       "level": 0,
@@ -4943,7 +4943,7 @@ backup_data = {
     }
   },
   "Gliscor": {
-    "Lvl 60 Pokemon Trainer 2 Ketchup": {
+    "Lvl 60 Pokemon Trainer 2 Ketchup #2 ": {
       "nature": "Jolly",
       "ability": "Sand Veil",
       "level": 60,
@@ -4959,7 +4959,7 @@ backup_data = {
       "item": "Toxic Orb",
       "rawIvOrSpreadValue": 95
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #35 ": {
       "nature": "Brave",
       "ability": "Sand Veil",
       "level": -1,
@@ -4974,7 +4974,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 73 Leader Jasmine": {
+    "Lvl 73 Leader Jasmine #5 ": {
       "nature": "Jolly",
       "ability": "Poison Heal",
       "level": 73,
@@ -5004,7 +5004,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Jasmine - Cinnabar Lab": {
+    "Lvl 73 Leader Jasmine #6 ": {
       "nature": "Jolly",
       "ability": "Poison Heal",
       "level": 73,
@@ -5033,7 +5033,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #11 ": {
       "nature": "Jolly",
       "ability": "Poison Heal",
       "level": 82,
@@ -5062,7 +5062,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Lucy - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Lucy": {
       "nature": "Jolly",
       "ability": "Hyper Cutter",
       "level": 76,
@@ -5093,7 +5093,7 @@ backup_data = {
     }
   },
   "Dracozolt": {
-    "Lvl 60 Pokemon Trainer 2 Ketchup": {
+    "Lvl 60 Pokemon Trainer 2 Ketchup #2 ": {
       "nature": "Lax",
       "ability": "Hustle",
       "level": 60,
@@ -5126,7 +5126,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 61
     },
-    "Lvl 85 Elite Four Lance": {
+    "Lvl 85 Elite Four Lance #2 ": {
       "nature": "Brave",
       "ability": "Hustle",
       "level": 85,
@@ -5142,7 +5142,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl -2 Cue Ball Koji - Route 16": {
+    "Lvl -2 Cue Ball Koji #2 ": {
       "nature": "Jolly",
       "ability": "Sand Rush",
       "level": -2,
@@ -5174,7 +5174,7 @@ backup_data = {
     }
   },
   "Aggron": {
-    "Lvl 60 Pokemon Trainer 2 Ketchup": {
+    "Lvl 60 Pokemon Trainer 2 Ketchup #2 ": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 60,
@@ -5206,7 +5206,7 @@ backup_data = {
       "item": "Aggronite",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #2 ": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": -5,
@@ -5223,7 +5223,7 @@ backup_data = {
       "item": "Aggronite",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl -5 Leader Jasmine #63.5": {
+    "Lvl -5 Leader Jasmine #3 ": {
       "nature": "Modest",
       "ability": "Rock Head",
       "level": -5,
@@ -5240,7 +5240,7 @@ backup_data = {
       "item": "Aggronite",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl -5 Leader Jasmine #64.5": {
+    "Lvl -5 Leader Jasmine #4 ": {
       "nature": "Bashful",
       "ability": "Rock Head",
       "level": -5,
@@ -5257,7 +5257,7 @@ backup_data = {
       "item": "Aggronite",
       "rawIvOrSpreadValue": 65
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #38 ": {
       "nature": "Serious",
       "ability": "Rock Head",
       "level": 0,
@@ -5272,7 +5272,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 73 Sheet Frontier May - Cinnabar Isl.": {
+    "Lvl 73 Sheet Frontier May": {
       "nature": "Adamant",
       "ability": "Sturdy",
       "level": 73,
@@ -5400,7 +5400,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 94
     },
-    "Lvl 44 Leader Erika": {
+    "Lvl 44 Leader Erika #4 ": {
       "nature": "Timid",
       "ability": "Punk Rock",
       "level": 44,
@@ -5430,7 +5430,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Erika #rrhc-sheet-Kanto-Leaders-80-0x1132ab4.3": {
+    "Lvl 44 Leader Erika #5 ": {
       "nature": "Timid",
       "ability": "Punk Rock",
       "level": 44,
@@ -5493,7 +5493,7 @@ backup_data = {
       "item": "Salamencite",
       "rawIvOrSpreadValue": 32
     },
-    "Lvl 85 Elite Four Lance": {
+    "Lvl 85 Elite Four Lance #2 ": {
       "nature": "Modest",
       "ability": "Intimidate",
       "level": 85,
@@ -5509,7 +5509,7 @@ backup_data = {
       "item": "Salamencite",
       "rawIvOrSpreadValue": 32
     },
-    "Lvl 85 Elite Four Lance #87.5": {
+    "Lvl 85 Elite Four Lance #3 ": {
       "nature": "Calm",
       "ability": "Intimidate",
       "level": 85,
@@ -5525,7 +5525,7 @@ backup_data = {
       "item": "Salamencite",
       "rawIvOrSpreadValue": 32
     },
-    "Lvl -2 Biker William - Route 18": {
+    "Lvl -2 Biker William": {
       "nature": "Naive",
       "ability": "Intimidate",
       "level": -2,
@@ -5608,7 +5608,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 79 Sheet Frontier Archer - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Archer #3 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 79,
@@ -5637,7 +5637,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Bird Keeper Sebastian - Route 13": {
+    "Lvl -2 Bird Keeper Sebastian #2 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": -2,
@@ -5667,7 +5667,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Co.le - Route 8 Ace Trainer": {
+    "Lvl 59 Sheet Frontier Co.le": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 59,
@@ -5696,7 +5696,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #6 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 100,
@@ -5725,7 +5725,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Barry - Berry Forest Gauntlet 1 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Barry": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 100,
@@ -5790,7 +5790,7 @@ backup_data = {
       "item": "Medichamite",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Pokemon Trainer 2 Brendan": {
+    "Lvl -1 Pokemon Trainer 2 Brendan #5 ": {
       "nature": "Naughty",
       "ability": "Pure Power",
       "level": -1,
@@ -5839,7 +5839,7 @@ backup_data = {
       "item": "Smooth Rock",
       "rawIvOrSpreadValue": 65
     },
-    "Lvl -2 Biker Ruben - Route 16": {
+    "Lvl -2 Biker Ruben #3 ": {
       "nature": "Careful",
       "ability": "Sand Force",
       "level": -2,
@@ -5884,7 +5884,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 100 Ruin Maniac Creator #24.2": {
+    "Lvl 100 Ruin Maniac Creator Set2 ": {
       "nature": "Naive",
       "ability": "Wonder Guard",
       "level": 100,
@@ -5897,7 +5897,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 100 Ruin Maniac Creator #24.3": {
+    "Lvl 100 Ruin Maniac Creator Set3 ": {
       "nature": "Quirky",
       "ability": "Wonder Guard",
       "level": 100,
@@ -5910,7 +5910,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 100 Ruin Maniac Creator #24.4": {
+    "Lvl 100 Ruin Maniac Creator Set4 ": {
       "nature": "Hardy",
       "ability": "Wonder Guard",
       "level": 100,
@@ -5923,7 +5923,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 100 Ruin Maniac Creator #24.5": {
+    "Lvl 100 Ruin Maniac Creator Set5 ": {
       "nature": "Quiet",
       "ability": "Wonder Guard",
       "level": 100,
@@ -5936,7 +5936,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #43 ": {
       "nature": "Relaxed",
       "ability": "Wonder Guard",
       "level": -1,
@@ -5983,7 +5983,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 85 Sheet Frontier Naomi - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Naomi": {
       "nature": "Adamant",
       "ability": "Wonder Guard",
       "level": 85,
@@ -6030,7 +6030,7 @@ backup_data = {
       "item": "Rindo Berry",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 54 Ruin Maniac Kid #25.5": {
+    "Lvl 54 Ruin Maniac Kid Set2 ": {
       "nature": "Modest",
       "ability": "Torrent",
       "level": 54,
@@ -6046,7 +6046,7 @@ backup_data = {
       "item": "Swampertite",
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 0 Elite Four Lorelei": {
+    "Lvl 0 Elite Four Lorelei #2 ": {
       "nature": "Adamant",
       "ability": "Torrent",
       "level": 0,
@@ -6077,7 +6077,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl -3 Cue Ball Camron - Route 16": {
+    "Lvl -3 Cue Ball Camron #3 ": {
       "nature": "Sassy",
       "ability": "Damp",
       "level": -3,
@@ -6170,7 +6170,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -1 Sheet Frontier 1 - PKMN Tower Grunt": {
+    "Lvl -1 Sheet Frontier 1": {
       "nature": "Modest",
       "ability": "Drizzle",
       "level": -1,
@@ -6200,7 +6200,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Tisha - Bond Bridge Swimmer": {
+    "Lvl 100 Sheet Frontier Tisha": {
       "nature": "Bold",
       "ability": "Drizzle",
       "level": 100,
@@ -6229,7 +6229,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Janny - Berry Forest Gauntlet 4 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Janny": {
       "nature": "Calm",
       "ability": "Drizzle",
       "level": 100,
@@ -6276,7 +6276,7 @@ backup_data = {
       "item": "Metal Coat",
       "rawIvOrSpreadValue": 65
     },
-    "Lvl 0 Leader Bugsy": {
+    "Lvl 0 Leader Bugsy #2 ": {
       "nature": "Impish",
       "ability": "Technician",
       "level": 0,
@@ -6293,7 +6293,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 126
     },
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #3 ": {
       "nature": "Relaxed",
       "ability": "Technician",
       "level": -5,
@@ -6310,7 +6310,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 61
     },
-    "Lvl 85 Leader Bugsy": {
+    "Lvl 85 Leader Bugsy #3 ": {
       "nature": "Hardy",
       "ability": "Technician",
       "level": 85,
@@ -6326,7 +6326,7 @@ backup_data = {
       "item": "Metal Coat",
       "rawIvOrSpreadValue": 65
     },
-    "Lvl 0 Elite Four Bruno": {
+    "Lvl 0 Elite Four Bruno #2 ": {
       "nature": "Brave",
       "ability": "Technician",
       "level": 0,
@@ -6372,7 +6372,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Bugsy - Route 25": {
+    "Lvl 28 Leader Bugsy #6 ": {
       "nature": "Careful",
       "ability": "Technician",
       "level": 28,
@@ -6401,7 +6401,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Kid - Saffron City Dumass": {
+    "Lvl 59 Sheet Frontier Kid": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": 59,
@@ -6430,7 +6430,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Beth - Mt. Ember Ranger": {
+    "Lvl 0 Sheet Frontier Beth": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": 0,
@@ -6494,7 +6494,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 93
     },
-    "Lvl 59 Sheet Frontier Kid - Saffron City Dumass": {
+    "Lvl 59 Sheet Frontier Kid": {
       "nature": "Timid",
       "ability": "Ice Scales",
       "level": 59,
@@ -6627,7 +6627,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 69
     },
-    "Lvl 28 Fisherman Elliot": {
+    "Lvl 28 Fisherman Elliot #2 ": {
       "nature": "Relaxed",
       "ability": "Lightning Rod",
       "level": 28,
@@ -6642,7 +6642,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 49 Swimmer F Alice": {
+    "Lvl 49 Swimmer F Alice #2 ": {
       "nature": "Quiet",
       "ability": "Water Veil",
       "level": 49,
@@ -6657,7 +6657,7 @@ backup_data = {
       "trainerClass": 74,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Swimmer F Alice #682.1": {
+    "Lvl 49 Swimmer F Alice #2 Set2 ": {
       "nature": "Lax",
       "ability": "Water Veil",
       "level": 49,
@@ -6672,7 +6672,7 @@ backup_data = {
       "trainerClass": 74,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Picnicker Missy": {
+    "Lvl 49 Picnicker Missy #2 ": {
       "nature": "Sassy",
       "ability": "Water Veil",
       "level": 49,
@@ -6687,7 +6687,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Picnicker Missy #684.1": {
+    "Lvl 49 Picnicker Missy #2 Set2 ": {
       "nature": "Rash",
       "ability": "Water Veil",
       "level": 49,
@@ -6702,7 +6702,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 54 Picnicker Missy": {
+    "Lvl 54 Picnicker Missy #3 ": {
       "nature": "Sassy",
       "ability": "Water Veil",
       "level": 54,
@@ -6717,7 +6717,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 54 Picnicker Missy #685.1": {
+    "Lvl 54 Picnicker Missy #3 Set2 ": {
       "nature": "Rash",
       "ability": "Water Veil",
       "level": 54,
@@ -6732,7 +6732,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 49 Swimmer F Melissa": {
+    "Lvl 49 Swimmer F Melissa #2 ": {
       "nature": "Bashful",
       "ability": "Water Veil",
       "level": 49,
@@ -6766,7 +6766,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 68 Sheet Frontier Brendan - Fuchsia City": {
+    "Lvl 68 Sheet Frontier Brendan #3 ": {
       "nature": "Naive",
       "ability": "Pressure",
       "level": 68,
@@ -6849,7 +6849,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl 68 Leader Brock": {
+    "Lvl 68 Leader Brock #3 ": {
       "nature": "Naive",
       "ability": "Sand Force",
       "level": 68,
@@ -6879,7 +6879,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Brock #rrhc-sheet-Kanto-Rematch-5-0x11315d0.1": {
+    "Lvl 68 Leader Brock #5 ": {
       "nature": "Naive",
       "ability": "Sand Force",
       "level": 68,
@@ -6908,7 +6908,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Sheet Frontier Brendan - Route 23": {
+    "Lvl 82 Sheet Frontier Brendan #4 ": {
       "nature": "Rash",
       "ability": "Sheer Force",
       "level": 82,
@@ -6956,7 +6956,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 76 Sheet Frontier Derek - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Derek": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": 76,
@@ -7034,7 +7034,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl 100 Crush Girl Jocelyn - Mt. Ember": {
+    "Lvl 100 Crush Girl Jocelyn #2 ": {
       "nature": "Naughty",
       "ability": "Intimidate",
       "level": 100,
@@ -7082,7 +7082,7 @@ backup_data = {
       "item": "Sceptilite",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 55 Pokemon Trainer 2 Brendan": {
+    "Lvl 55 Pokemon Trainer 2 Brendan #4 ": {
       "nature": "Bold",
       "ability": "Overgrow",
       "level": 55,
@@ -7098,7 +7098,7 @@ backup_data = {
       "item": "Sceptilite",
       "rawIvOrSpreadValue": 137
     },
-    "Lvl 0 Pokemon Trainer 2 Brendan #57.5": {
+    "Lvl 0 Pokemon Trainer 2 Brendan #5 ": {
       "nature": "Sassy",
       "ability": "Overgrow",
       "level": 0,
@@ -7115,7 +7115,7 @@ backup_data = {
       "item": "Sceptilite",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 28 Sheet Frontier Brendan - S.S. Anne": {
+    "Lvl 28 Sheet Frontier Brendan #2 ": {
       "nature": "Jolly",
       "ability": "Overgrow",
       "level": 28,
@@ -7146,7 +7146,7 @@ backup_data = {
     }
   },
   "Audino": {
-    "Lvl 1 Bug Maniac Coach": {
+    "Lvl 1 Bug Maniac Coach #6 ": {
       "nature": "Naive",
       "ability": "Regenerator",
       "level": 1,
@@ -7159,7 +7159,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 1 Bug Maniac Coach #27.1": {
+    "Lvl 1 Bug Maniac Coach #6 Set2 ": {
       "nature": "Adamant",
       "ability": "Regenerator",
       "level": 1,
@@ -7172,7 +7172,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 1 Bug Maniac Coach #27.2": {
+    "Lvl 1 Bug Maniac Coach #6 Set3 ": {
       "nature": "Impish",
       "ability": "Regenerator",
       "level": 1,
@@ -7185,7 +7185,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 1 Bug Maniac Coach #27.3": {
+    "Lvl 1 Bug Maniac Coach #6 Set4 ": {
       "nature": "Docile",
       "ability": "Regenerator",
       "level": 1,
@@ -7198,7 +7198,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 1 Bug Maniac Coach #27.4": {
+    "Lvl 1 Bug Maniac Coach #6 Set5 ": {
       "nature": "Calm",
       "ability": "Regenerator",
       "level": 1,
@@ -7211,7 +7211,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 1 Bug Maniac Coach #27.5": {
+    "Lvl 1 Bug Maniac Coach #6 Set6 ": {
       "nature": "Hardy",
       "ability": "Regenerator",
       "level": 1,
@@ -7289,7 +7289,7 @@ backup_data = {
       "item": "Ghostium Z",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -2 Leader Morty": {
+    "Lvl -2 Leader Morty #2 ": {
       "nature": "Bashful",
       "ability": "Disguise",
       "level": -2,
@@ -7306,7 +7306,7 @@ backup_data = {
       "item": "Lum Berry",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 0 Aqua Leader Archer": {
+    "Lvl 0 Aqua Leader Archer #4 ": {
       "nature": "Docile",
       "ability": "Disguise",
       "level": 0,
@@ -7367,7 +7367,7 @@ backup_data = {
       "item": "Spell Tag",
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 100 Leader Morty": {
+    "Lvl 100 Leader Morty #3 ": {
       "nature": "Jolly",
       "ability": "Disguise",
       "level": 100,
@@ -7397,7 +7397,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty #frontier-community-0x1132f68.0": {
+    "Lvl 100 Leader Morty #5 ": {
       "nature": "Jolly",
       "ability": "Disguise",
       "level": 100,
@@ -7427,7 +7427,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty - PKMN Tower Gauntlet Boss": {
+    "Lvl 100 Leader Morty #7 ": {
       "nature": "Jolly",
       "ability": "Disguise",
       "level": 100,
@@ -7490,7 +7490,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 145
     },
-    "Lvl 0 Elite Four Agatha #84.3": {
+    "Lvl 0 Elite Four Agatha #2 ": {
       "nature": "Brave",
       "ability": "Grim Neigh",
       "level": 0,
@@ -7507,7 +7507,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 145
     },
-    "Lvl 0 Burglar Lewis - Mansion": {
+    "Lvl 0 Burglar Lewis #2 ": {
       "nature": "Timid",
       "ability": "Grim Neigh",
       "level": 0,
@@ -7555,7 +7555,7 @@ backup_data = {
       "item": "Gengarite",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 0 Leader Morty": {
+    "Lvl 0 Leader Morty #2 ": {
       "nature": "Careful",
       "ability": "Levitate",
       "level": 0,
@@ -7589,7 +7589,7 @@ backup_data = {
       "item": "Gengarite",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 0 Elite Four Agatha #84.5": {
+    "Lvl 0 Elite Four Agatha #2 ": {
       "nature": "Impish",
       "ability": "Levitate",
       "level": 0,
@@ -7606,7 +7606,7 @@ backup_data = {
       "item": "Gengarite",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl -4 Elite Four Agatha": {
+    "Lvl -4 Elite Four Agatha #3 ": {
       "nature": "Naughty",
       "ability": "Levitate",
       "level": -4,
@@ -7622,7 +7622,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 0 Elite Four Agatha #412.4": {
+    "Lvl 0 Elite Four Agatha #3 ": {
       "nature": "Serious",
       "ability": "Levitate",
       "level": 0,
@@ -7654,7 +7654,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl -4 Elite Four Agatha #737.0": {
+    "Lvl -4 Elite Four Agatha #4 ": {
       "nature": "Naughty",
       "ability": "Levitate",
       "level": -4,
@@ -7670,7 +7670,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 0 Elite Four Agatha #737.4": {
+    "Lvl 0 Elite Four Agatha #4 ": {
       "nature": "Hasty",
       "ability": "Levitate",
       "level": 0,
@@ -7687,7 +7687,7 @@ backup_data = {
       "item": "Chesto Berry",
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 68 Sheet Frontier Brendan - Fuchsia City": {
+    "Lvl 68 Sheet Frontier Brendan #3 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 68,
@@ -7716,7 +7716,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Camper Justin - Route 12": {
+    "Lvl -2 Camper Justin #2 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": -2,
@@ -7797,7 +7797,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 14
     },
-    "Lvl -3 Rival Terry": {
+    "Lvl -3 Rival Terry #25 ": {
       "nature": "Bold",
       "ability": "Sand Stream",
       "level": -3,
@@ -7813,7 +7813,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -3 Rival Terry #740.2": {
+    "Lvl -3 Rival Terry #26 ": {
       "nature": "Bold",
       "ability": "Sand Stream",
       "level": -3,
@@ -7829,7 +7829,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -3 Rival Terry #741.2": {
+    "Lvl -3 Rival Terry #27 ": {
       "nature": "Bold",
       "ability": "Sand Stream",
       "level": -3,
@@ -7845,7 +7845,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 100 Sheet Frontier Samantha - PKMN Tower Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Samantha": {
       "nature": "Brave",
       "ability": "Unnerve",
       "level": 100,
@@ -7874,7 +7874,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Channeler Rachel - Cape Brink": {
+    "Lvl 100 Channeler Rachel #2 ": {
       "nature": "Jolly",
       "ability": "Unnerve",
       "level": 100,
@@ -7937,7 +7937,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 104
     },
-    "Lvl 0 Leader Jasmine": {
+    "Lvl 0 Leader Jasmine #3 ": {
       "nature": "Calm",
       "ability": "Sand Force",
       "level": 0,
@@ -7970,7 +7970,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 31
     },
-    "Lvl -1 Boss Giovanni": {
+    "Lvl -1 Boss Giovanni #3 ": {
       "nature": "Gentle",
       "ability": "Sand Rush",
       "level": -1,
@@ -7987,7 +7987,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 31
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #19 ": {
       "nature": "Adamant",
       "ability": "Sand Force",
       "level": 0,
@@ -8002,7 +8002,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 57 Boss Giovanni": {
+    "Lvl 57 Boss Giovanni #6 ": {
       "nature": "Jolly",
       "ability": "Sand Rush",
       "level": 57,
@@ -8032,7 +8032,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 57 Sheet Frontier Giovanni - Silph Co.": {
+    "Lvl 57 Sheet Frontier Giovanni #2 ": {
       "nature": "Jolly",
       "ability": "Sand Rush",
       "level": 57,
@@ -8061,7 +8061,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker Ruben - Route 16": {
+    "Lvl -2 Biker Ruben #3 ": {
       "nature": "Adamant",
       "ability": "Sand Rush",
       "level": -2,
@@ -8091,7 +8091,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Zac - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Zac": {
       "nature": "Adamant",
       "ability": "Mold Breaker",
       "level": 76,
@@ -8120,7 +8120,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Aroma Lady Violet - Bond Bridge": {
+    "Lvl 0 Aroma Lady Violet #2 ": {
       "nature": "Jolly",
       "ability": "Mold Breaker",
       "level": 0,
@@ -8168,7 +8168,7 @@ backup_data = {
       "item": "Steelium Z",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 0 Leader Clair": {
+    "Lvl 0 Leader Clair #2 ": {
       "nature": "Timid",
       "ability": "Soul-Heart",
       "level": 0,
@@ -8185,7 +8185,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 3
     },
-    "Lvl 81 Leader Clair": {
+    "Lvl 81 Leader Clair #5 ": {
       "nature": "Modest",
       "ability": "Soul-Heart",
       "level": 81,
@@ -8215,7 +8215,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Erika": {
+    "Lvl 68 Leader Erika #3 ": {
       "nature": "Bold",
       "ability": "Soul-Heart",
       "level": 68,
@@ -8245,7 +8245,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Leader Sabrina": {
+    "Lvl 59 Leader Sabrina #2 ": {
       "nature": "Quiet",
       "ability": "Soul-Heart",
       "level": 59,
@@ -8275,7 +8275,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Leader Sabrina #rrhc-sheet-Kanto-Leaders-105-0x1131720.3": {
+    "Lvl 59 Leader Sabrina #3 ": {
       "nature": "Quiet",
       "ability": "Soul-Heart",
       "level": 59,
@@ -8304,7 +8304,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Leader Clair #rrhc-sheet-Kanto-Leaders-179-0x11303e0.2": {
+    "Lvl 81 Leader Clair #6 ": {
       "nature": "Modest",
       "ability": "Soul-Heart",
       "level": 81,
@@ -8333,7 +8333,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Erika #rrhc-sheet-Kanto-Rematch-79-0x1130db8.4": {
+    "Lvl 68 Leader Erika #6 ": {
       "nature": "Bold",
       "ability": "Soul-Heart",
       "level": 68,
@@ -8426,7 +8426,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Picnicker Susie - Route 13": {
+    "Lvl -2 Picnicker Susie #5 ": {
       "nature": "Timid",
       "ability": "Flash Fire",
       "level": -2,
@@ -8456,7 +8456,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Archer - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Archer #4 ": {
       "nature": "Timid",
       "ability": "Flash Fire",
       "level": 100,
@@ -8536,7 +8536,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 28 Leader Whitney": {
+    "Lvl 28 Leader Whitney #3 ": {
       "nature": "Timid",
       "ability": "Serene Grace",
       "level": 28,
@@ -8566,7 +8566,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Whitney - Route 11": {
+    "Lvl 28 Leader Whitney #4 ": {
       "nature": "Timid",
       "ability": "Serene Grace",
       "level": 28,
@@ -8595,7 +8595,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Bird Keeper Sebastian - Route 13": {
+    "Lvl -2 Bird Keeper Sebastian #2 ": {
       "nature": "Timid",
       "ability": "Super Luck",
       "level": -2,
@@ -8625,7 +8625,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Crush Girl Jocelyn - Mt. Ember": {
+    "Lvl 100 Crush Girl Jocelyn #2 ": {
       "nature": "Jolly",
       "ability": "Serene Grace",
       "level": 100,
@@ -8688,7 +8688,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #42 ": {
       "nature": "Brave",
       "ability": "Heavy Metal",
       "level": -1,
@@ -8703,7 +8703,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Sheet Frontier Mary - Celadon Gym Ace Trainer": {
+    "Lvl 0 Sheet Frontier Mary": {
       "nature": "Adamant",
       "ability": "Heavy Metal",
       "level": 0,
@@ -8752,7 +8752,7 @@ backup_data = {
       "item": "Light Clay",
       "rawIvOrSpreadValue": 32
     },
-    "Lvl 0 Elite Four Agatha": {
+    "Lvl 0 Elite Four Agatha #2 ": {
       "nature": "Careful",
       "ability": "Clear Body",
       "level": 0,
@@ -8800,7 +8800,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 64
     },
-    "Lvl 100 Leader Clair": {
+    "Lvl 100 Leader Clair #3 ": {
       "nature": "Hasty",
       "ability": "Clear Body",
       "level": 100,
@@ -8830,7 +8830,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair #frontier-community-0x112f228.0": {
+    "Lvl 100 Leader Clair #4 ": {
       "nature": "Hasty",
       "ability": "Clear Body",
       "level": 100,
@@ -8890,7 +8890,7 @@ backup_data = {
         "sd": 68
       }
     },
-    "Lvl -2 Bird Keeper Perry - Route 13": {
+    "Lvl -2 Bird Keeper Perry #2 ": {
       "nature": "Timid",
       "ability": "Cursed Body",
       "level": -2,
@@ -8920,7 +8920,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Sheet Frontier Wilton - Route 18 Ace Trainer": {
+    "Lvl -2 Sheet Frontier Wilton": {
       "nature": "Timid",
       "ability": "Cursed Body",
       "level": -2,
@@ -8950,7 +8950,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup": {
       "nature": "Jolly",
       "ability": "Clear Body",
       "level": 81,
@@ -8979,7 +8979,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair #rrhc-sheet-Postgame-57-0x112f228.0": {
+    "Lvl 100 Leader Clair #7 ": {
       "nature": "Hasty",
       "ability": "Clear Body",
       "level": 100,
@@ -9027,7 +9027,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 8
     },
-    "Lvl 85 Elite Four Lance": {
+    "Lvl 85 Elite Four Lance #2 ": {
       "nature": "Adamant",
       "ability": "Pressure",
       "level": 85,
@@ -9043,7 +9043,7 @@ backup_data = {
       "item": "Adamant Orb",
       "rawIvOrSpreadValue": 11
     },
-    "Lvl 85 Elite Four Lance #87.4": {
+    "Lvl 85 Elite Four Lance #3 ": {
       "nature": "Impish",
       "ability": "Pressure",
       "level": 85,
@@ -9089,7 +9089,7 @@ backup_data = {
         "sd": 216
       }
     },
-    "Lvl 100 Elite Four Lance": {
+    "Lvl 100 Elite Four Lance #6 ": {
       "nature": "Calm",
       "ability": "Pressure",
       "level": 100,
@@ -9119,7 +9119,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lance #rrhc-sheet-Indigo-League-201-0x112f768.4": {
+    "Lvl 100 Elite Four Lance #7 ": {
       "nature": "Bold",
       "ability": "Pressure",
       "level": 100,
@@ -9149,7 +9149,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair": {
+    "Lvl 100 Leader Clair #7 ": {
       "nature": "Timid",
       "ability": "Pressure",
       "level": 100,
@@ -9214,7 +9214,7 @@ backup_data = {
       "item": "Magnet",
       "rawIvOrSpreadValue": 34
     },
-    "Lvl 85 Sheet Frontier Naomi - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Naomi": {
       "nature": "Timid",
       "ability": "Compound Eyes",
       "level": 85,
@@ -9243,7 +9243,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup": {
       "nature": "Timid",
       "ability": "Compound Eyes",
       "level": 81,
@@ -9290,7 +9290,7 @@ backup_data = {
       "item": "Garchompite",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 85 Elite Four Lance": {
+    "Lvl 85 Elite Four Lance #2 ": {
       "nature": "Adamant",
       "ability": "Sand Veil",
       "level": 85,
@@ -9306,7 +9306,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 0 Boss Giovanni": {
+    "Lvl 0 Boss Giovanni #3 ": {
       "nature": "Quirky",
       "ability": "Sand Veil",
       "level": 0,
@@ -9323,7 +9323,7 @@ backup_data = {
       "item": "Yache Berry",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #11 ": {
       "nature": "Jolly",
       "ability": "Rough Skin",
       "level": 82,
@@ -9352,7 +9352,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Cue Ball Camron - Route 16": {
+    "Lvl -2 Cue Ball Camron #3 ": {
       "nature": "Jolly",
       "ability": "Sand Veil",
       "level": -2,
@@ -9400,7 +9400,7 @@ backup_data = {
       "item": "Weakness Policy",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 73 Leader Jasmine": {
+    "Lvl 73 Leader Jasmine #5 ": {
       "nature": "Jolly",
       "ability": "Prism Armor",
       "level": 73,
@@ -9430,7 +9430,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Leader Clair": {
+    "Lvl 81 Leader Clair #6 ": {
       "nature": "Adamant",
       "ability": "Prism Armor",
       "level": 81,
@@ -9460,7 +9460,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Jasmine - Cinnabar Lab": {
+    "Lvl 73 Leader Jasmine #6 ": {
       "nature": "Jolly",
       "ability": "Prism Armor",
       "level": 73,
@@ -9489,7 +9489,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #5 ": {
       "nature": "Adamant",
       "ability": "Prism Armor",
       "level": 100,
@@ -9518,7 +9518,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Bruno #rrhc-sheet-Indigo-League-92-0x112fa08.3": {
+    "Lvl 100 Elite Four Bruno #6 ": {
       "nature": "Adamant",
       "ability": "Prism Armor",
       "level": 100,
@@ -9547,7 +9547,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Gian - Saffron City Dumass": {
+    "Lvl 100 Sheet Frontier Gian": {
       "nature": "Adamant",
       "ability": "Prism Armor",
       "level": 100,
@@ -9594,7 +9594,7 @@ backup_data = {
       "item": "Machampite",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 60 Ruin Maniac Jojo Fan": {
+    "Lvl 60 Ruin Maniac Jojo Fan #2 ": {
       "nature": "Calm",
       "ability": "Guts",
       "level": 60,
@@ -9610,7 +9610,7 @@ backup_data = {
       "item": "Machampite",
       "rawIvOrSpreadValue": 31
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #29 ": {
       "nature": "Lonely",
       "ability": "No Guard",
       "level": 0,
@@ -9625,7 +9625,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 47 Team Rocket Grunt": {
+    "Lvl 47 Team Rocket Grunt #41 ": {
       "nature": "Lonely",
       "ability": "No Guard",
       "level": 47,
@@ -9639,7 +9639,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Elite Four Bruno": {
+    "Lvl 0 Elite Four Bruno #3 ": {
       "nature": "Quirky",
       "ability": "No Guard",
       "level": 0,
@@ -9656,7 +9656,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 49 Cue Ball Isaiah": {
+    "Lvl 49 Cue Ball Isaiah #2 ": {
       "nature": "Careful",
       "ability": "Guts",
       "level": 49,
@@ -9671,7 +9671,7 @@ backup_data = {
       "trainerClass": 71,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Cue Ball Corey": {
+    "Lvl 49 Cue Ball Corey #2 ": {
       "nature": "Bashful",
       "ability": "No Guard",
       "level": 49,
@@ -9686,7 +9686,7 @@ backup_data = {
       "trainerClass": 71,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 55 Black Belt Shea": {
+    "Lvl 55 Black Belt Shea #3 ": {
       "nature": "Modest",
       "ability": "Guts",
       "level": 55,
@@ -9702,7 +9702,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 220
     },
-    "Lvl 55 Black Belt Hugh": {
+    "Lvl 55 Black Belt Hugh #3 ": {
       "nature": "Sassy",
       "ability": "Guts",
       "level": 55,
@@ -9718,7 +9718,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 220
     },
-    "Lvl 56 Crush Kin Mik Kia": {
+    "Lvl 56 Crush Kin Mik Kia #3 ": {
       "nature": "Rash",
       "ability": "No Guard",
       "level": 56,
@@ -9734,7 +9734,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl 54 Hiker Earl": {
+    "Lvl 54 Hiker Earl #2 ": {
       "nature": "Naive",
       "ability": "Guts",
       "level": 54,
@@ -9749,7 +9749,7 @@ backup_data = {
       "trainerClass": 65,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 54 Crush Girl Cyndy": {
+    "Lvl 54 Crush Girl Cyndy #2 ": {
       "nature": "Careful",
       "ability": "No Guard",
       "level": 54,
@@ -9765,7 +9765,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl 0 Elite Four Bruno #736.4": {
+    "Lvl 0 Elite Four Bruno #4 ": {
       "nature": "Naughty",
       "ability": "No Guard",
       "level": 0,
@@ -9782,7 +9782,7 @@ backup_data = {
       "item": "Persim Berry",
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak #2 ": {
       "nature": "Adamant",
       "ability": "No Guard",
       "level": 100,
@@ -9829,7 +9829,7 @@ backup_data = {
       "item": "Fightinium Z",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 60 Ruin Maniac Jojo Fan": {
+    "Lvl 60 Ruin Maniac Jojo Fan #2 ": {
       "nature": "Lax",
       "ability": "Magician",
       "level": 60,
@@ -9845,7 +9845,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 68 Leader Koga": {
+    "Lvl 68 Leader Koga #2 ": {
       "nature": "Modest",
       "ability": "Magician",
       "level": 68,
@@ -9875,7 +9875,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Koga #rrhc-sheet-Kanto-Leaders-129-0x1131058.1": {
+    "Lvl 68 Leader Koga #3 ": {
       "nature": "Modest",
       "ability": "Magician",
       "level": 68,
@@ -9904,7 +9904,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Sheet Frontier Fan - Power Plant Dumass Jojo": {
+    "Lvl 68 Sheet Frontier Fan": {
       "nature": "Jolly",
       "ability": "Magician",
       "level": 68,
@@ -9968,7 +9968,7 @@ backup_data = {
       "item": "Silk Scarf",
       "rawIvOrSpreadValue": 32
     },
-    "Lvl -1 Camper Jeff - Route 6": {
+    "Lvl -1 Camper Jeff #5 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": -1,
@@ -10016,7 +10016,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 0 Leader Morty": {
+    "Lvl 0 Leader Morty #2 ": {
       "nature": "Sassy",
       "ability": "Pressure",
       "level": 0,
@@ -10033,7 +10033,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl -5 Leader Pryce": {
+    "Lvl -5 Leader Pryce #3 ": {
       "nature": "Hardy",
       "ability": "Pressure",
       "level": -5,
@@ -10050,7 +10050,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 75 Team Rocket Grunt": {
+    "Lvl 75 Team Rocket Grunt #2 ": {
       "nature": "Impish",
       "ability": "Pressure",
       "level": 75,
@@ -10079,7 +10079,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #29 ": {
       "nature": "Lax",
       "ability": "Pressure",
       "level": -1,
@@ -10094,7 +10094,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 36 Leader Morty": {
+    "Lvl 36 Leader Morty #4 ": {
       "nature": "Jolly",
       "ability": "Infiltrator",
       "level": 36,
@@ -10124,7 +10124,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Morty - Lavender Town": {
+    "Lvl 36 Leader Morty #6 ": {
       "nature": "Jolly",
       "ability": "Infiltrator",
       "level": 36,
@@ -10153,7 +10153,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Sheet Frontier Mary - Celadon Gym Ace Trainer": {
+    "Lvl -1 Sheet Frontier Mary": {
       "nature": "Jolly",
       "ability": "Infiltrator",
       "level": -1,
@@ -10201,7 +10201,7 @@ backup_data = {
       "item": "Normalium Z",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 85 Leader Whitney": {
+    "Lvl 85 Leader Whitney #2 ": {
       "nature": "Docile",
       "ability": "Victory Star",
       "level": 85,
@@ -10217,7 +10217,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 85 Elite Four Agatha": {
+    "Lvl 85 Elite Four Agatha #5 ": {
       "nature": "Hasty",
       "ability": "Victory Star",
       "level": 85,
@@ -10247,7 +10247,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Elite Four Agatha #frontier-community-0x112f960.4": {
+    "Lvl 85 Elite Four Agatha #6 ": {
       "nature": "Hasty",
       "ability": "Victory Star",
       "level": 85,
@@ -10277,7 +10277,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha": {
+    "Lvl 100 Elite Four Agatha #7 ": {
       "nature": "Hasty",
       "ability": "Victory Star",
       "level": 100,
@@ -10306,7 +10306,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha #rrhc-sheet-Indigo-League-147-0x112f8b8.4": {
+    "Lvl 100 Elite Four Agatha #8 ": {
       "nature": "Hasty",
       "ability": "Victory Star",
       "level": 100,
@@ -10335,7 +10335,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Runan - PKMN Tower Gauntlet 1 Tester": {
+    "Lvl 100 Sheet Frontier Runan": {
       "nature": "Hasty",
       "ability": "Victory Star",
       "level": 100,
@@ -10382,7 +10382,7 @@ backup_data = {
       "item": "Black Sludge",
       "rawIvOrSpreadValue": 101
     },
-    "Lvl 100 Aroma Lady Nikki - Bond Bridge": {
+    "Lvl 100 Aroma Lady Nikki #2 ": {
       "nature": "Impish",
       "ability": "Regenerator",
       "level": 100,
@@ -10429,7 +10429,7 @@ backup_data = {
       "item": "Mawilite",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 0 Aqua Leader Ariana": {
+    "Lvl 0 Aqua Leader Ariana #2 ": {
       "nature": "Naughty",
       "ability": "Hyper Cutter",
       "level": 0,
@@ -10446,7 +10446,7 @@ backup_data = {
       "item": "Mawilite",
       "rawIvOrSpreadValue": 65
     },
-    "Lvl 0 Aqua Leader Ariana #68.3": {
+    "Lvl 0 Aqua Leader Ariana #3 ": {
       "nature": "Mild",
       "ability": "Hyper Cutter",
       "level": 0,
@@ -10477,7 +10477,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -2 Lass Sally - Route 3": {
+    "Lvl -2 Lass Sally #2 ": {
       "nature": "Impish",
       "ability": "Intimidate",
       "level": -2,
@@ -10555,7 +10555,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival": {
+    "Lvl 100 Champion Rival #2 ": {
       "nature": "Timid",
       "ability": "Fairy Aura",
       "level": 100,
@@ -10584,7 +10584,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival #rrhc-sheet-Indigo-League-276-0x112f618.4": {
+    "Lvl 100 Champion Rival #3 ": {
       "nature": "Timid",
       "ability": "Fairy Aura",
       "level": 100,
@@ -10613,7 +10613,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Ariana - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Ariana #2 ": {
       "nature": "Jolly",
       "ability": "Fairy Aura",
       "level": 100,
@@ -10677,7 +10677,7 @@ backup_data = {
       "item": "Aerodactlite",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl -1 Leader Clair": {
+    "Lvl -1 Leader Clair #2 ": {
       "nature": "Gentle",
       "ability": "Pressure",
       "level": -1,
@@ -10694,7 +10694,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 85 Elite Four Lance": {
+    "Lvl 85 Elite Four Lance #3 ": {
       "nature": "Careful",
       "ability": "Pressure",
       "level": 85,
@@ -10710,7 +10710,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -2 Elite Four Lance": {
+    "Lvl -2 Elite Four Lance #4 ": {
       "nature": "Modest",
       "ability": "Pressure",
       "level": -2,
@@ -10726,7 +10726,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl -2 Elite Four Lance #738.3": {
+    "Lvl -2 Elite Four Lance #5 ": {
       "nature": "Docile",
       "ability": "Pressure",
       "level": -2,
@@ -10772,7 +10772,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Sheet Frontier Guard - Game Co.rner": {
+    "Lvl -1 Sheet Frontier Guard": {
       "nature": "Jolly",
       "ability": "Unnerve",
       "level": -1,
@@ -10802,7 +10802,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Cue Ball Camron - Route 16": {
+    "Lvl -2 Cue Ball Camron #3 ": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": -2,
@@ -10832,7 +10832,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Archer - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Archer #4 ": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 100,
@@ -10926,7 +10926,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker Lao - Route 16": {
+    "Lvl -2 Biker Lao #2 ": {
       "nature": "Timid",
       "ability": "Sand Veil",
       "level": -2,
@@ -10956,7 +10956,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Archer - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Archer #4 ": {
       "nature": "Timid",
       "ability": "Solar Power",
       "level": 100,
@@ -11003,7 +11003,7 @@ backup_data = {
       "item": "Latiasite",
       "rawIvOrSpreadValue": 55
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #11 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 82,
@@ -11032,7 +11032,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Dragon Tamer Ramiro - Route 18": {
+    "Lvl -2 Dragon Tamer Ramiro #2 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": -2,
@@ -11062,7 +11062,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Caroline - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Caroline": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 85,
@@ -11091,7 +11091,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Barry - Berry Forest Gauntlet 1 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Barry": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 100,
@@ -11138,7 +11138,7 @@ backup_data = {
       "item": "Houndoomnite",
       "rawIvOrSpreadValue": 64
     },
-    "Lvl 0 Aqua Leader Archer": {
+    "Lvl 0 Aqua Leader Archer #3 ": {
       "nature": "Lax",
       "ability": "Early Bird",
       "level": 0,
@@ -11155,7 +11155,7 @@ backup_data = {
       "item": "Houndoomnite",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl 0 Aqua Leader Archer #67.3": {
+    "Lvl 0 Aqua Leader Archer #4 ": {
       "nature": "Quirky",
       "ability": "Early Bird",
       "level": 0,
@@ -11205,7 +11205,7 @@ backup_data = {
       "item": "Ghostium Z",
       "rawIvOrSpreadValue": 34
     },
-    "Lvl 36 Leader Morty": {
+    "Lvl 36 Leader Morty #4 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 36,
@@ -11235,7 +11235,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Morty - Lavender Town": {
+    "Lvl 36 Leader Morty #6 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 36,
@@ -11264,7 +11264,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Co.lby - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Co.lby": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 85,
@@ -11359,7 +11359,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 50
     },
-    "Lvl -2 Bird Keeper Sebastian - Route 13": {
+    "Lvl -2 Bird Keeper Sebastian #2 ": {
       "nature": "Adamant",
       "ability": "Speed Boost",
       "level": -2,
@@ -11407,7 +11407,7 @@ backup_data = {
       "item": "Flyinium Z",
       "rawIvOrSpreadValue": 135
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #10 ": {
       "nature": "Timid",
       "ability": "Static",
       "level": 82,
@@ -11436,7 +11436,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Kid - Saffron City Dumass": {
+    "Lvl 59 Sheet Frontier Kid": {
       "nature": "Timid",
       "ability": "Static",
       "level": 59,
@@ -11465,7 +11465,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak #2 ": {
       "nature": "Hasty",
       "ability": "Pressure",
       "level": 100,
@@ -11541,7 +11541,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 0 Picnicker Isabelle": {
+    "Lvl 0 Picnicker Isabelle #4 ": {
       "nature": "Bold",
       "ability": "Frisk",
       "level": 0,
@@ -11557,7 +11557,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl -2 Lass Megan": {
+    "Lvl -2 Lass Megan #3 ": {
       "nature": "Serious",
       "ability": "Frisk",
       "level": -2,
@@ -11573,7 +11573,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Bird Keeper Robert": {
+    "Lvl 47 Bird Keeper Robert #3 ": {
       "nature": "Naughty",
       "ability": "Frisk",
       "level": 47,
@@ -11588,7 +11588,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Bird Keeper Robert #657.1": {
+    "Lvl 47 Bird Keeper Robert #3 Set2 ": {
       "nature": "Mild",
       "ability": "Frisk",
       "level": 47,
@@ -11603,7 +11603,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 52 Picnicker Susie": {
+    "Lvl 52 Picnicker Susie #4 ": {
       "nature": "Timid",
       "ability": "Frisk",
       "level": 52,
@@ -11618,7 +11618,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 49 Beauty Grace": {
+    "Lvl 49 Beauty Grace #2 ": {
       "nature": "Lonely",
       "ability": "Frisk",
       "level": 49,
@@ -11633,7 +11633,7 @@ backup_data = {
       "trainerClass": 73,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 53 Youngster Destin": {
+    "Lvl 53 Youngster Destin #2 ": {
       "nature": "Naughty",
       "ability": "Frisk",
       "level": 53,
@@ -11648,7 +11648,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 0 Bird Keeper Milo": {
+    "Lvl 0 Bird Keeper Milo #2 ": {
       "nature": "Calm",
       "ability": "Frisk",
       "level": 0,
@@ -11666,7 +11666,7 @@ backup_data = {
     }
   },
   "Corphish": {
-    "Lvl -1 Pokemon Trainer 2 Brendan": {
+    "Lvl -1 Pokemon Trainer 2 Brendan #2 ": {
       "nature": "Brave",
       "ability": "Shell Armor",
       "level": -1,
@@ -11681,7 +11681,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 1
     },
-    "Lvl -1 Sheet Frontier Brendan - Virid. Forest": {
+    "Lvl -1 Sheet Frontier Brendan": {
       "nature": "Adamant",
       "ability": "Adaptability",
       "level": -1,
@@ -11713,7 +11713,7 @@ backup_data = {
     }
   },
   "Treecko": {
-    "Lvl 0 Pokemon Trainer 2 Brendan": {
+    "Lvl 0 Pokemon Trainer 2 Brendan #2 ": {
       "nature": "Sassy",
       "ability": "Overgrow",
       "level": 0,
@@ -11727,7 +11727,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 1
     },
-    "Lvl 0 Sheet Frontier Brendan - Virid. Forest": {
+    "Lvl 0 Sheet Frontier Brendan": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 0,
@@ -11759,7 +11759,7 @@ backup_data = {
     }
   },
   "Rufflet": {
-    "Lvl -1 Leader Falkner": {
+    "Lvl -1 Leader Falkner #2 ": {
       "nature": "Quiet",
       "ability": "Sheer Force",
       "level": -1,
@@ -11778,7 +11778,7 @@ backup_data = {
     }
   },
   "Emolga": {
-    "Lvl -1 Leader Falkner": {
+    "Lvl -1 Leader Falkner #2 ": {
       "nature": "Docile",
       "ability": "Motor Drive",
       "level": -1,
@@ -11812,7 +11812,7 @@ backup_data = {
     }
   },
   "Corvisquire": {
-    "Lvl 0 Leader Falkner": {
+    "Lvl 0 Leader Falkner #2 ": {
       "nature": "Lax",
       "ability": "Unnerve",
       "level": 0,
@@ -11831,7 +11831,7 @@ backup_data = {
     }
   },
   "Impidimp": {
-    "Lvl -3 Aqua Leader Archer": {
+    "Lvl -3 Aqua Leader Archer #2 ": {
       "nature": "Careful",
       "ability": "Prankster",
       "level": -3,
@@ -11850,7 +11850,7 @@ backup_data = {
     }
   },
   "Houndour": {
-    "Lvl -2 Aqua Leader Archer": {
+    "Lvl -2 Aqua Leader Archer #2 ": {
       "nature": "Mild",
       "ability": "Early Bird",
       "level": -2,
@@ -11881,7 +11881,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 72
     },
-    "Lvl 49 Team Rocket Grunt": {
+    "Lvl 49 Team Rocket Grunt #44 ": {
       "nature": "Impish",
       "ability": "Flash Fire",
       "level": 49,
@@ -11895,7 +11895,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 49 Team Rocket Grunt #516.1": {
+    "Lvl 49 Team Rocket Grunt #44 Set2 ": {
       "nature": "Mild",
       "ability": "Flash Fire",
       "level": 49,
@@ -11909,7 +11909,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Sheet Frontier Archer - Mt. Moon": {
+    "Lvl 0 Sheet Frontier Archer": {
       "nature": "Timid",
       "ability": "Flash Fire",
       "level": 0,
@@ -11941,7 +11941,7 @@ backup_data = {
     }
   },
   "Mightyena": {
-    "Lvl 0 Aqua Leader Archer": {
+    "Lvl 0 Aqua Leader Archer #2 ": {
       "nature": "Hardy",
       "ability": "Intimidate",
       "level": 0,
@@ -11974,7 +11974,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #15 ": {
       "nature": "Hasty",
       "ability": "Strong Jaw",
       "level": 0,
@@ -11989,7 +11989,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Sheet Frontier Archer - Mt. Moon": {
+    "Lvl -2 Sheet Frontier Archer": {
       "nature": "Bashful",
       "ability": "Strong Jaw",
       "level": -2,
@@ -12021,7 +12021,7 @@ backup_data = {
     }
   },
   "Ariados": {
-    "Lvl -2 Leader Bugsy": {
+    "Lvl -2 Leader Bugsy #2 ": {
       "nature": "Serious",
       "ability": "No Guard",
       "level": -2,
@@ -12053,7 +12053,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 77
     },
-    "Lvl -2 Team Rocket Grunt": {
+    "Lvl -2 Team Rocket Grunt #14 ": {
       "nature": "Careful",
       "ability": "No Guard",
       "level": -2,
@@ -12070,7 +12070,7 @@ backup_data = {
     }
   },
   "Ledian": {
-    "Lvl -1 Leader Bugsy": {
+    "Lvl -1 Leader Bugsy #2 ": {
       "nature": "Lonely",
       "ability": "Iron Fist",
       "level": -1,
@@ -12104,7 +12104,7 @@ backup_data = {
     }
   },
   "Scyther": {
-    "Lvl 0 Leader Bugsy": {
+    "Lvl 0 Leader Bugsy #2 ": {
       "nature": "Modest",
       "ability": "Technician",
       "level": 0,
@@ -12151,7 +12151,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy Set2 #frontier-community-0x1133780.2": {
+    "Lvl 44 Leader Bugsy Set2 #2 ": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": 44,
@@ -12211,7 +12211,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Bugsy - Route 25": {
+    "Lvl 28 Leader Bugsy #6 ": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": 28,
@@ -12240,7 +12240,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy - Route 25": {
+    "Lvl 44 Leader Bugsy #7 ": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": 44,
@@ -12271,7 +12271,7 @@ backup_data = {
     }
   },
   "Politoed": {
-    "Lvl 54 Leader Misty": {
+    "Lvl 54 Leader Misty #2 ": {
       "nature": "Quirky",
       "ability": "Damp",
       "level": 54,
@@ -12287,7 +12287,7 @@ backup_data = {
       "item": "Damp Rock",
       "rawIvOrSpreadValue": 98
     },
-    "Lvl -1 Elite Four Lorelei": {
+    "Lvl -1 Elite Four Lorelei #2 ": {
       "nature": "Timid",
       "ability": "Damp",
       "level": -1,
@@ -12319,7 +12319,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl -1 Leader Misty": {
+    "Lvl -1 Leader Misty #7 ": {
       "nature": "Sassy",
       "ability": "Drizzle",
       "level": -1,
@@ -12351,7 +12351,7 @@ backup_data = {
     }
   },
   "Greninja": {
-    "Lvl 54 Leader Misty": {
+    "Lvl 54 Leader Misty #2 ": {
       "nature": "Modest",
       "ability": "Battle Bond",
       "level": 54,
@@ -12414,7 +12414,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker Hideo - Route 16": {
+    "Lvl -2 Biker Hideo #2 ": {
       "nature": "Naive",
       "ability": "Protean",
       "level": -2,
@@ -12444,7 +12444,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Ariana - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Ariana #2 ": {
       "nature": "Naive",
       "ability": "Protean",
       "level": 100,
@@ -12473,7 +12473,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Andrew - Joyful Game Co.rner Ace Trainer": {
+    "Lvl 100 Sheet Frontier Andrew": {
       "nature": "Careful",
       "ability": "Protean",
       "level": 100,
@@ -12504,7 +12504,7 @@ backup_data = {
     }
   },
   "Gorebyss": {
-    "Lvl 54 Leader Misty": {
+    "Lvl 54 Leader Misty #2 ": {
       "nature": "Naive",
       "ability": "Dazzling",
       "level": 54,
@@ -12579,7 +12579,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #8 ": {
       "nature": "Timid",
       "ability": "Dazzling",
       "level": 56,
@@ -12608,7 +12608,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-250-0x1131a68.3": {
+    "Lvl 56 Rival #9 ": {
       "nature": "Timid",
       "ability": "Dazzling",
       "level": 56,
@@ -12639,7 +12639,7 @@ backup_data = {
     }
   },
   "Kingdra": {
-    "Lvl 54 Leader Misty": {
+    "Lvl 54 Leader Misty #2 ": {
       "nature": "Naive",
       "ability": "Sniper",
       "level": 54,
@@ -12655,7 +12655,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 33
     },
-    "Lvl 0 Elite Four Lorelei": {
+    "Lvl 0 Elite Four Lorelei #2 ": {
       "nature": "Serious",
       "ability": "Sniper",
       "level": 0,
@@ -12701,7 +12701,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl -6 Elite Four Lance": {
+    "Lvl -6 Elite Four Lance #5 ": {
       "nature": "Quirky",
       "ability": "Sniper",
       "level": -6,
@@ -12717,7 +12717,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 100 Leader Misty": {
+    "Lvl 100 Leader Misty #4 ": {
       "nature": "Timid",
       "ability": "Swift Swim",
       "level": 100,
@@ -12746,7 +12746,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #frontier-community-0x112f2d0.3": {
+    "Lvl 100 Leader Misty #5 ": {
       "nature": "Timid",
       "ability": "Swift Swim",
       "level": 100,
@@ -12775,7 +12775,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Misty": {
+    "Lvl 68 Leader Misty #6 ": {
       "nature": "Modest",
       "ability": "Swift Swim",
       "level": 68,
@@ -12804,7 +12804,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Misty #rrhc-sheet-Kanto-Rematch-30-0x1131528.2": {
+    "Lvl 68 Leader Misty #8 ": {
       "nature": "Modest",
       "ability": "Swift Swim",
       "level": 68,
@@ -12833,7 +12833,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #rrhc-sheet-Postgame-81-0x112f2d0.3": {
+    "Lvl 100 Leader Misty #9 ": {
       "nature": "Timid",
       "ability": "Swift Swim",
       "level": 100,
@@ -12864,7 +12864,7 @@ backup_data = {
     }
   },
   "Inteleon": {
-    "Lvl 54 Leader Misty": {
+    "Lvl 54 Leader Misty #2 ": {
       "nature": "Lonely",
       "ability": "Torrent",
       "level": 54,
@@ -12924,7 +12924,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl -1 Sheet Frontier Guard - Game Co.rner": {
+    "Lvl -1 Sheet Frontier Guard": {
       "nature": "Timid",
       "ability": "Sniper",
       "level": -1,
@@ -12954,7 +12954,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Maria - Kindle Road Swimmer": {
+    "Lvl 0 Sheet Frontier Maria": {
       "nature": "Timid",
       "ability": "Sniper",
       "level": 0,
@@ -12984,7 +12984,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Andrew - Joyful Game Co.rner Ace Trainer": {
+    "Lvl 100 Sheet Frontier Andrew": {
       "nature": "Timid",
       "ability": "Sniper",
       "level": 100,
@@ -13015,7 +13015,7 @@ backup_data = {
     }
   },
   "Gyarados": {
-    "Lvl 54 Leader Misty": {
+    "Lvl 54 Leader Misty #2 ": {
       "nature": "Bold",
       "ability": "Intimidate",
       "level": 54,
@@ -13076,7 +13076,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl -4 Elite Four Lance": {
+    "Lvl -4 Elite Four Lance #4 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": -4,
@@ -13092,7 +13092,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #14 ": {
       "nature": "Bashful",
       "ability": "Intimidate",
       "level": -2,
@@ -13108,7 +13108,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl -3 Rival Terry": {
+    "Lvl -3 Rival Terry #15 ": {
       "nature": "Bold",
       "ability": "Intimidate",
       "level": -3,
@@ -13138,7 +13138,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 55 Swimmer M Samir": {
+    "Lvl 55 Swimmer M Samir #2 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": 55,
@@ -13153,7 +13153,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -4 Elite Four Lance #738.0": {
+    "Lvl -4 Elite Four Lance #5 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": -4,
@@ -13169,7 +13169,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Rival Terry #740.3": {
+    "Lvl -2 Rival Terry #26 ": {
       "nature": "Brave",
       "ability": "Intimidate",
       "level": -2,
@@ -13185,7 +13185,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Rival Terry #741.4": {
+    "Lvl -2 Rival Terry #27 ": {
       "nature": "Careful",
       "ability": "Intimidate",
       "level": -2,
@@ -13201,7 +13201,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 100 Leader Falkner": {
+    "Lvl 100 Leader Falkner #3 ": {
       "nature": "Jolly",
       "ability": "Moxie",
       "level": 100,
@@ -13231,7 +13231,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 57 Boss Giovanni": {
+    "Lvl 57 Boss Giovanni #6 ": {
       "nature": "Jolly",
       "ability": "Moxie",
       "level": 57,
@@ -13260,7 +13260,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Boss Giovanni": {
+    "Lvl 47 Boss Giovanni #7 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 47,
@@ -13289,7 +13289,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Sheet Frontier Giovanni - Rocket Hide.": {
+    "Lvl 47 Sheet Frontier Giovanni": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 47,
@@ -13318,7 +13318,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 57 Sheet Frontier Giovanni - Silph Co.": {
+    "Lvl 57 Sheet Frontier Giovanni #2 ": {
       "nature": "Jolly",
       "ability": "Moxie",
       "level": 57,
@@ -13347,7 +13347,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak": {
       "nature": "Jolly",
       "ability": "Moxie",
       "level": 100,
@@ -13376,7 +13376,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Falkner - Rock Tunnel": {
+    "Lvl 100 Leader Falkner #5 ": {
       "nature": "Jolly",
       "ability": "Moxie",
       "level": 100,
@@ -13405,7 +13405,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Fisherman Tommy - Kindle Road": {
+    "Lvl -2 Fisherman Tommy #2 ": {
       "nature": "Jolly",
       "ability": "Moxie",
       "level": -2,
@@ -13485,7 +13485,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 121
     },
-    "Lvl 49 Beauty Grace": {
+    "Lvl 49 Beauty Grace #2 ": {
       "nature": "Timid",
       "ability": "Competitive",
       "level": 49,
@@ -13500,7 +13500,7 @@ backup_data = {
       "trainerClass": 73,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 28 Gentleman Brooks - S.S. Anne Lass Ann &": {
+    "Lvl 28 Gentleman Brooks #2 ": {
       "nature": "Modest",
       "ability": "Sheer Force",
       "level": 28,
@@ -13602,7 +13602,7 @@ backup_data = {
       "item": "Twisted Spoon",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl -2 Picnicker Claire - Kindle Road": {
+    "Lvl -2 Picnicker Claire #2 ": {
       "nature": "Timid",
       "ability": "Psychic Surge",
       "level": -2,
@@ -13653,7 +13653,7 @@ backup_data = {
     }
   },
   "Loudred": {
-    "Lvl -1 Pokemon Trainer 2 Brendan": {
+    "Lvl -1 Pokemon Trainer 2 Brendan #3 ": {
       "nature": "Lax",
       "ability": "Oblivious",
       "level": -1,
@@ -13686,7 +13686,7 @@ backup_data = {
     }
   },
   "Lunatone": {
-    "Lvl -1 Pokemon Trainer 2 Brendan": {
+    "Lvl -1 Pokemon Trainer 2 Brendan #3 ": {
       "nature": "Calm",
       "ability": "Levitate",
       "level": -1,
@@ -13703,7 +13703,7 @@ backup_data = {
       "item": "Colbur Berry",
       "rawIvOrSpreadValue": 124
     },
-    "Lvl -2 Leader Brock": {
+    "Lvl -2 Leader Brock #4 ": {
       "nature": "Bashful",
       "ability": "Levitate",
       "level": -2,
@@ -13735,7 +13735,7 @@ backup_data = {
     }
   },
   "Crawdaunt": {
-    "Lvl 0 Pokemon Trainer 2 Brendan": {
+    "Lvl 0 Pokemon Trainer 2 Brendan #3 ": {
       "nature": "Docile",
       "ability": "Shell Armor",
       "level": 0,
@@ -13752,7 +13752,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 127
     },
-    "Lvl -1 Pokemon Trainer 2 Brendan": {
+    "Lvl -1 Pokemon Trainer 2 Brendan #5 ": {
       "nature": "Modest",
       "ability": "Shell Armor",
       "level": -1,
@@ -13801,7 +13801,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 96
     },
-    "Lvl 28 Sheet Frontier Brendan - S.S. Anne": {
+    "Lvl 28 Sheet Frontier Brendan #2 ": {
       "nature": "Adamant",
       "ability": "Adaptability",
       "level": 28,
@@ -13830,7 +13830,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Tuber Amira - Bond Bridge": {
+    "Lvl 100 Tuber Amira #3 ": {
       "nature": "Jolly",
       "ability": "Adaptability",
       "level": 100,
@@ -13861,7 +13861,7 @@ backup_data = {
     }
   },
   "Grovyle": {
-    "Lvl 0 Pokemon Trainer 2 Brendan": {
+    "Lvl 0 Pokemon Trainer 2 Brendan #3 ": {
       "nature": "Sassy",
       "ability": "Overgrow",
       "level": 0,
@@ -13933,7 +13933,7 @@ backup_data = {
       "item": "Wiki Berry",
       "rawIvOrSpreadValue": 25
     },
-    "Lvl 47 Sheet Frontier Guard - Rocket Hide. Right": {
+    "Lvl 47 Sheet Frontier Guard #3 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 47,
@@ -14036,7 +14036,7 @@ backup_data = {
       "item": "Choice Specs",
       "rawIvOrSpreadValue": 64
     },
-    "Lvl 0 Leader Lt. Surge": {
+    "Lvl 0 Leader Lt. Surge #2 ": {
       "nature": "Quiet",
       "ability": "Lightning Rod",
       "level": 0,
@@ -14055,7 +14055,7 @@ backup_data = {
     }
   },
   "Drifblim": {
-    "Lvl -1 Leader Morty": {
+    "Lvl -1 Leader Morty #2 ": {
       "nature": "Lax",
       "ability": "Unburden",
       "level": -1,
@@ -14072,7 +14072,7 @@ backup_data = {
       "item": "Flame Orb",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl 0 Channeler Ruth - PKMN Tower": {
+    "Lvl 0 Channeler Ruth #2 ": {
       "nature": "Modest",
       "ability": "Unburden",
       "level": 0,
@@ -14104,7 +14104,7 @@ backup_data = {
     }
   },
   "Gothitelle": {
-    "Lvl -1 Aqua Leader Archer": {
+    "Lvl -1 Aqua Leader Archer #3 ": {
       "nature": "Quirky",
       "ability": "Frisk",
       "level": -1,
@@ -14138,7 +14138,7 @@ backup_data = {
     }
   },
   "Aegislash": {
-    "Lvl 0 Aqua Leader Archer": {
+    "Lvl 0 Aqua Leader Archer #3 ": {
       "nature": "Careful",
       "ability": "Stance Change",
       "level": 0,
@@ -14155,7 +14155,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #4 ": {
       "nature": "Timid",
       "ability": "Stance Change",
       "level": -5,
@@ -14172,7 +14172,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 18
     },
-    "Lvl 60 Ruin Maniac Jojo Fan": {
+    "Lvl 60 Ruin Maniac Jojo Fan #2 ": {
       "nature": "Lonely",
       "ability": "Stance Change",
       "level": 60,
@@ -14205,7 +14205,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 23
     },
-    "Lvl 68 Sheet Frontier Fan - Power Plant Dumass Jojo": {
+    "Lvl 68 Sheet Frontier Fan": {
       "nature": "Quiet",
       "ability": "Stance Change",
       "level": 68,
@@ -14234,7 +14234,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Runan - PKMN Tower Gauntlet 1 Tester": {
+    "Lvl 100 Sheet Frontier Runan": {
       "nature": "Quiet",
       "ability": "Stance Change",
       "level": 100,
@@ -14265,7 +14265,7 @@ backup_data = {
     }
   },
   "Incineroar": {
-    "Lvl -1 Aqua Leader Ariana": {
+    "Lvl -1 Aqua Leader Ariana #2 ": {
       "nature": "Adamant",
       "ability": "Blaze",
       "level": -1,
@@ -14312,7 +14312,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 77
     },
-    "Lvl -1 Sheet Frontier Archer - Silph Co. Ariana &": {
+    "Lvl -1 Sheet Frontier Archer #2 ": {
       "nature": "Careful",
       "ability": "Intimidate",
       "level": -1,
@@ -14344,7 +14344,7 @@ backup_data = {
     }
   },
   "Primarina": {
-    "Lvl 0 Aqua Leader Ariana": {
+    "Lvl 0 Aqua Leader Ariana #2 ": {
       "nature": "Docile",
       "ability": "Torrent",
       "level": 0,
@@ -14361,7 +14361,7 @@ backup_data = {
       "item": "Throat Spray",
       "rawIvOrSpreadValue": 93
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #12 ": {
       "nature": "Modest",
       "ability": "Liquid Voice",
       "level": 82,
@@ -14390,7 +14390,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier 3 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 3": {
       "nature": "Timid",
       "ability": "Liquid Voice",
       "level": 0,
@@ -14420,7 +14420,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Sheet Frontier Archer - Silph Co. Ariana &": {
+    "Lvl -1 Sheet Frontier Archer #2 ": {
       "nature": "Modest",
       "ability": "Liquid Voice",
       "level": -1,
@@ -14450,7 +14450,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Aroma Lady Violet - Bond Bridge": {
+    "Lvl 0 Aroma Lady Violet #2 ": {
       "nature": "Bold",
       "ability": "Liquid Voice",
       "level": 0,
@@ -14482,7 +14482,7 @@ backup_data = {
     }
   },
   "Masquerain": {
-    "Lvl 55 Pokemon Trainer 2 Brendan": {
+    "Lvl 55 Pokemon Trainer 2 Brendan #4 ": {
       "nature": "Mild",
       "ability": "Intimidate",
       "level": 55,
@@ -14512,7 +14512,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 0 Sailor Trevor - S.S. Anne Sailor Edmond &": {
+    "Lvl 0 Sailor Trevor #2 ": {
       "nature": "Timid",
       "ability": "Intimidate",
       "level": 0,
@@ -14544,7 +14544,7 @@ backup_data = {
     }
   },
   "Exploud": {
-    "Lvl 55 Pokemon Trainer 2 Brendan": {
+    "Lvl 55 Pokemon Trainer 2 Brendan #4 ": {
       "nature": "Docile",
       "ability": "Scrappy",
       "level": 55,
@@ -14560,7 +14560,7 @@ backup_data = {
       "item": "Silk Scarf",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl 0 Pokemon Trainer 2 Brendan": {
+    "Lvl 0 Pokemon Trainer 2 Brendan #5 ": {
       "nature": "Naive",
       "ability": "Scrappy",
       "level": 0,
@@ -14610,7 +14610,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 82
     },
-    "Lvl -2 Sheet Frontier Wilton - Route 18 Ace Trainer": {
+    "Lvl -2 Sheet Frontier Wilton": {
       "nature": "Modest",
       "ability": "Swift Swim",
       "level": -2,
@@ -14659,7 +14659,7 @@ backup_data = {
       "item": "Soft Sand",
       "rawIvOrSpreadValue": 91
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #19 ": {
       "nature": "Timid",
       "ability": "Sand Veil",
       "level": -1,
@@ -14674,7 +14674,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #20 ": {
       "nature": "Calm",
       "ability": "Sand Veil",
       "level": 0,
@@ -14689,7 +14689,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #384.0": {
+    "Lvl -1 Team Rocket Grunt #36 ": {
       "nature": "Timid",
       "ability": "Sand Veil",
       "level": -1,
@@ -14704,7 +14704,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 48 Youngster Chad": {
+    "Lvl 48 Youngster Chad #4 ": {
       "nature": "Lax",
       "ability": "Sand Veil",
       "level": 48,
@@ -14719,7 +14719,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 35 Team Rocket Grunt": {
+    "Lvl 35 Team Rocket Grunt #46 ": {
       "nature": "Timid",
       "ability": "Sand Veil",
       "level": 35,
@@ -14778,7 +14778,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 104
     },
-    "Lvl 48 Ruin Maniac Layton #620.2": {
+    "Lvl 48 Ruin Maniac Layton Set2 ": {
       "nature": "Impish",
       "ability": "Sand Veil",
       "level": 48,
@@ -14792,7 +14792,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 104
     },
-    "Lvl -3 Tamer Evan": {
+    "Lvl -3 Tamer Evan #2 ": {
       "nature": "Hardy",
       "ability": "Sand Veil",
       "level": -3,
@@ -14827,7 +14827,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #10 ": {
       "nature": "Lonely",
       "ability": "Tough Claws",
       "level": -2,
@@ -14843,7 +14843,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl -2 Rival Terry #427.1": {
+    "Lvl -2 Rival Terry #11 ": {
       "nature": "Impish",
       "ability": "Tough Claws",
       "level": -2,
@@ -14859,7 +14859,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl -2 Rival Terry #428.1": {
+    "Lvl -2 Rival Terry #12 ": {
       "nature": "Impish",
       "ability": "Tough Claws",
       "level": -2,
@@ -14875,7 +14875,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 0 Crush Kin Mik & Kia - Kindle Road": {
+    "Lvl 0 Crush Kin Mik & Kia": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": 0,
@@ -14907,7 +14907,7 @@ backup_data = {
     }
   },
   "Metagross": {
-    "Lvl -2 Pokemon Trainer 2 Brendan": {
+    "Lvl -2 Pokemon Trainer 2 Brendan #5 ": {
       "nature": "Rash",
       "ability": "Clear Body",
       "level": -2,
@@ -14924,7 +14924,7 @@ backup_data = {
       "item": "Air Balloon",
       "rawIvOrSpreadValue": 32
     },
-    "Lvl 0 Leader Jasmine": {
+    "Lvl 0 Leader Jasmine #2 ": {
       "nature": "Bashful",
       "ability": "Clear Body",
       "level": 0,
@@ -14941,7 +14941,7 @@ backup_data = {
       "item": "Air Balloon",
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 85 Rival Terry": {
+    "Lvl 85 Rival Terry #22 ": {
       "nature": "Modest",
       "ability": "Clear Body",
       "level": 85,
@@ -14957,7 +14957,7 @@ backup_data = {
       "item": "Metagrossite",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 85 Rival Terry #439.1": {
+    "Lvl 85 Rival Terry #23 ": {
       "nature": "Modest",
       "ability": "Clear Body",
       "level": 85,
@@ -14973,7 +14973,7 @@ backup_data = {
       "item": "Metagrossite",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 85 Rival Terry #440.1": {
+    "Lvl 85 Rival Terry #24 ": {
       "nature": "Modest",
       "ability": "Clear Body",
       "level": 85,
@@ -14989,7 +14989,7 @@ backup_data = {
       "item": "Metagrossite",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 85 Sheet Frontier George - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier George": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": 85,
@@ -15020,7 +15020,7 @@ backup_data = {
     }
   },
   "Gardevoir": {
-    "Lvl 0 Pokemon Trainer 2 Brendan": {
+    "Lvl 0 Pokemon Trainer 2 Brendan #5 ": {
       "nature": "Careful",
       "ability": "Trace",
       "level": 0,
@@ -15069,7 +15069,7 @@ backup_data = {
       "item": "Gardevoirite",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 28 Sheet Frontier Brendan - S.S. Anne": {
+    "Lvl 28 Sheet Frontier Brendan #2 ": {
       "nature": "Timid",
       "ability": "Trace",
       "level": 28,
@@ -15147,7 +15147,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 67
     },
-    "Lvl -1 Sheet Frontier 1 - PKMN Tower Grunt": {
+    "Lvl -1 Sheet Frontier 1": {
       "nature": "Timid",
       "ability": "Serene Grace",
       "level": -1,
@@ -15253,7 +15253,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #5 ": {
       "nature": "Lonely",
       "ability": "Slush Rush",
       "level": 73,
@@ -15282,7 +15282,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-206-0x1130e60.4": {
+    "Lvl 73 Leader Pryce #7 ": {
       "nature": "Lonely",
       "ability": "Slush Rush",
       "level": 73,
@@ -15358,7 +15358,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #6 ": {
       "nature": "Adamant",
       "ability": "Slush Rush",
       "level": 73,
@@ -15405,7 +15405,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl 59 Sheet Frontier Kid - Saffron City Dumass": {
+    "Lvl 59 Sheet Frontier Kid": {
       "nature": "Jolly",
       "ability": "Swift Swim",
       "level": 59,
@@ -15452,7 +15452,7 @@ backup_data = {
       "item": "Glalitite",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl 0 Leader Pryce": {
+    "Lvl 0 Leader Pryce #2 ": {
       "nature": "Calm",
       "ability": "Ice Body",
       "level": 0,
@@ -15469,7 +15469,7 @@ backup_data = {
       "item": "Glalitite",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl 0 Leader Pryce #60.5": {
+    "Lvl 0 Leader Pryce #3 ": {
       "nature": "Calm",
       "ability": "Ice Body",
       "level": 0,
@@ -15488,7 +15488,7 @@ backup_data = {
     }
   },
   "Jynx": {
-    "Lvl -2 Leader Pryce": {
+    "Lvl -2 Leader Pryce #2 ": {
       "nature": "Impish",
       "ability": "Forewarn",
       "level": -2,
@@ -15520,7 +15520,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 73
     },
-    "Lvl 0 Elite Four Lorelei": {
+    "Lvl 0 Elite Four Lorelei #3 ": {
       "nature": "Careful",
       "ability": "Forewarn",
       "level": 0,
@@ -15536,7 +15536,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 0 Elite Four Lorelei #735.3": {
+    "Lvl 0 Elite Four Lorelei #4 ": {
       "nature": "Jolly",
       "ability": "Forewarn",
       "level": 0,
@@ -15610,7 +15610,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #5 ": {
       "nature": "Timid",
       "ability": "Dry Skin",
       "level": 73,
@@ -15639,7 +15639,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-206-0x1130e60.0": {
+    "Lvl 73 Leader Pryce #7 ": {
       "nature": "Timid",
       "ability": "Dry Skin",
       "level": 73,
@@ -15670,7 +15670,7 @@ backup_data = {
     }
   },
   "Mamoswine": {
-    "Lvl 0 Leader Pryce": {
+    "Lvl 0 Leader Pryce #2 ": {
       "nature": "Bold",
       "ability": "Snow Cloak",
       "level": 0,
@@ -15687,7 +15687,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 91
     },
-    "Lvl -2 Aqua Leader Archer": {
+    "Lvl -2 Aqua Leader Archer #4 ": {
       "nature": "Brave",
       "ability": "Oblivious",
       "level": -2,
@@ -15704,7 +15704,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 57 Boss Giovanni": {
+    "Lvl 57 Boss Giovanni #6 ": {
       "nature": "Jolly",
       "ability": "Thick Fat",
       "level": 57,
@@ -15734,7 +15734,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 57 Sheet Frontier Giovanni - Silph Co.": {
+    "Lvl 57 Sheet Frontier Giovanni #2 ": {
       "nature": "Jolly",
       "ability": "Thick Fat",
       "level": 57,
@@ -15763,7 +15763,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker Jared - Route 13": {
+    "Lvl -2 Biker Jared #2 ": {
       "nature": "Jolly",
       "ability": "Thick Fat",
       "level": -2,
@@ -15795,7 +15795,7 @@ backup_data = {
     }
   },
   "Walrein": {
-    "Lvl -5 Leader Pryce": {
+    "Lvl -5 Leader Pryce #2 ": {
       "nature": "Docile",
       "ability": "Ice Body",
       "level": -5,
@@ -15844,7 +15844,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl -2 Rocker Luca - Route 12": {
+    "Lvl -2 Rocker Luca #3 ": {
       "nature": "Bold",
       "ability": "Ice Body",
       "level": -2,
@@ -15876,7 +15876,7 @@ backup_data = {
     }
   },
   "Arctovish": {
-    "Lvl -5 Leader Pryce": {
+    "Lvl -5 Leader Pryce #2 ": {
       "nature": "Bold",
       "ability": "Ice Body",
       "level": -5,
@@ -15893,7 +15893,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 31
     },
-    "Lvl 0 Leader Pryce": {
+    "Lvl 0 Leader Pryce #3 ": {
       "nature": "Impish",
       "ability": "Ice Body",
       "level": 0,
@@ -15939,7 +15939,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #6 ": {
       "nature": "Adamant",
       "ability": "Slush Rush",
       "level": 73,
@@ -15968,7 +15968,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier 1 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 1": {
       "nature": "Jolly",
       "ability": "Water Absorb",
       "level": 0,
@@ -16000,7 +16000,7 @@ backup_data = {
     }
   },
   "Mr. Rime": {
-    "Lvl -5 Leader Pryce": {
+    "Lvl -5 Leader Pryce #2 ": {
       "nature": "Lonely",
       "ability": "Screen Cleaner",
       "level": -5,
@@ -16017,7 +16017,7 @@ backup_data = {
       "item": "Choice Specs",
       "rawIvOrSpreadValue": 34
     },
-    "Lvl 0 Sheet Frontier 1 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 1": {
       "nature": "Modest",
       "ability": "Ice Body",
       "level": 0,
@@ -16049,7 +16049,7 @@ backup_data = {
     }
   },
   "Vanilluxe": {
-    "Lvl -5 Leader Pryce": {
+    "Lvl -5 Leader Pryce #3 ": {
       "nature": "Calm",
       "ability": "Snow Warning",
       "level": -5,
@@ -16068,7 +16068,7 @@ backup_data = {
     }
   },
   "Dewgong": {
-    "Lvl -1 Leader Pryce": {
+    "Lvl -1 Leader Pryce #3 ": {
       "nature": "Lax",
       "ability": "Ice Scales",
       "level": -1,
@@ -16100,7 +16100,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl -2 Elite Four Lorelei": {
+    "Lvl -2 Elite Four Lorelei #3 ": {
       "nature": "Bashful",
       "ability": "Ice Scales",
       "level": -2,
@@ -16146,7 +16146,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl -2 Elite Four Lorelei #735.0": {
+    "Lvl -2 Elite Four Lorelei #4 ": {
       "nature": "Bashful",
       "ability": "Ice Scales",
       "level": -2,
@@ -16162,7 +16162,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 0 Sheet Frontier Amara - Treasure Bea. Swimmer": {
+    "Lvl 0 Sheet Frontier Amara": {
       "nature": "Calm",
       "ability": "Ice Scales",
       "level": 0,
@@ -16194,7 +16194,7 @@ backup_data = {
     }
   },
   "Crabominable": {
-    "Lvl 0 Leader Pryce": {
+    "Lvl 0 Leader Pryce #3 ": {
       "nature": "Lonely",
       "ability": "Iron Fist",
       "level": 0,
@@ -16381,7 +16381,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 109
     },
-    "Lvl 0 Scientist Ted - Pkm Mansion": {
+    "Lvl 0 Scientist Ted #2 ": {
       "nature": "Naive",
       "ability": "Tinted Lens",
       "level": 0,
@@ -16411,7 +16411,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Rolando - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Rolando": {
       "nature": "Jolly",
       "ability": "Levitate",
       "level": 85,
@@ -16440,7 +16440,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Goon 2 - Three Island": {
+    "Lvl 0 Goon 2": {
       "nature": "Jolly",
       "ability": "Tinted Lens",
       "level": 0,
@@ -16472,7 +16472,7 @@ backup_data = {
     }
   },
   "Forretress": {
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #2 ": {
       "nature": "Rash",
       "ability": "Sturdy",
       "level": -5,
@@ -16489,7 +16489,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 42
     },
-    "Lvl 85 Leader Bugsy": {
+    "Lvl 85 Leader Bugsy #3 ": {
       "nature": "Mild",
       "ability": "Sturdy",
       "level": 85,
@@ -16507,7 +16507,7 @@ backup_data = {
     }
   },
   "Melmetal": {
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #2 ": {
       "nature": "Relaxed",
       "ability": "Iron Fist",
       "level": -5,
@@ -16524,7 +16524,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl -5 Leader Jasmine #63.1": {
+    "Lvl -5 Leader Jasmine #3 ": {
       "nature": "Impish",
       "ability": "Iron Fist",
       "level": -5,
@@ -16541,7 +16541,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl -5 Leader Jasmine #64.1": {
+    "Lvl -5 Leader Jasmine #4 ": {
       "nature": "Modest",
       "ability": "Iron Fist",
       "level": -5,
@@ -16558,7 +16558,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 85 Elite Four Lance": {
+    "Lvl 85 Elite Four Lance #2 ": {
       "nature": "Naive",
       "ability": "Iron Fist",
       "level": 85,
@@ -16574,7 +16574,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 85 Elite Four Lance #87.2": {
+    "Lvl 85 Elite Four Lance #3 ": {
       "nature": "Rash",
       "ability": "Iron Fist",
       "level": 85,
@@ -16590,7 +16590,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 100 Elite Four Lance": {
+    "Lvl 100 Elite Four Lance #6 ": {
       "nature": "Careful",
       "ability": "Iron Fist",
       "level": 100,
@@ -16619,7 +16619,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lance #rrhc-sheet-Indigo-League-201-0x112f768.1": {
+    "Lvl 100 Elite Four Lance #7 ": {
       "nature": "Careful",
       "ability": "Iron Fist",
       "level": 100,
@@ -16650,7 +16650,7 @@ backup_data = {
     }
   },
   "Lucario": {
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #2 ": {
       "nature": "Bold",
       "ability": "Inner Focus",
       "level": -5,
@@ -16684,7 +16684,7 @@ backup_data = {
       "item": "Lucarionite",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl 0 Elite Four Bruno #81.5": {
+    "Lvl 0 Elite Four Bruno #2 ": {
       "nature": "Naive",
       "ability": "Inner Focus",
       "level": 0,
@@ -16718,7 +16718,7 @@ backup_data = {
       "item": "Shuca Berry",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 0 Picnicker Claire - Kindle Road": {
+    "Lvl 0 Picnicker Claire #2 ": {
       "nature": "Jolly",
       "ability": "Justified",
       "level": 0,
@@ -16750,7 +16750,7 @@ backup_data = {
     }
   },
   "Bronzong": {
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #3 ": {
       "nature": "Calm",
       "ability": "Heatproof",
       "level": -5,
@@ -16799,7 +16799,7 @@ backup_data = {
     }
   },
   "Steelix": {
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #4 ": {
       "nature": "Brave",
       "ability": "Sturdy",
       "level": -5,
@@ -16816,7 +16816,7 @@ backup_data = {
       "item": "Chople Berry",
       "rawIvOrSpreadValue": 65
     },
-    "Lvl -3 Elite Four Bruno": {
+    "Lvl -3 Elite Four Bruno #4 ": {
       "nature": "Hardy",
       "ability": "Sturdy",
       "level": -3,
@@ -16832,7 +16832,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Elite Four Bruno": {
+    "Lvl -2 Elite Four Bruno #4 ": {
       "nature": "Jolly",
       "ability": "Sturdy",
       "level": -2,
@@ -16850,7 +16850,7 @@ backup_data = {
     }
   },
   "Duraludon": {
-    "Lvl -5 Leader Jasmine": {
+    "Lvl -5 Leader Jasmine #4 ": {
       "nature": "Lax",
       "ability": "Heavy Metal",
       "level": -5,
@@ -16867,7 +16867,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 8
     },
-    "Lvl 0 Leader Clair": {
+    "Lvl 0 Leader Clair #2 ": {
       "nature": "Brave",
       "ability": "Heavy Metal",
       "level": 0,
@@ -16886,7 +16886,7 @@ backup_data = {
     }
   },
   "Durant": {
-    "Lvl 0 Leader Jasmine": {
+    "Lvl 0 Leader Jasmine #4 ": {
       "nature": "Docile",
       "ability": "Hustle",
       "level": 0,
@@ -16903,7 +16903,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl -1 Aqua Leader Archer": {
+    "Lvl -1 Aqua Leader Archer #4 ": {
       "nature": "Timid",
       "ability": "Swarm",
       "level": -1,
@@ -16939,7 +16939,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 91
     },
-    "Lvl -1 Super Nerd Aidan - Route 8": {
+    "Lvl -1 Super Nerd Aidan": {
       "nature": "Adamant",
       "ability": "Queenly Majesty",
       "level": -1,
@@ -17019,7 +17019,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 103
     },
-    "Lvl 50 Aroma Lady Miah #588.1": {
+    "Lvl 50 Aroma Lady Miah Set2 ": {
       "nature": "Impish",
       "ability": "Chlorophyll",
       "level": 50,
@@ -17033,7 +17033,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 103
     },
-    "Lvl 85 Sheet Frontier Caroline - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Caroline": {
       "nature": "Timid",
       "ability": "Chlorophyll",
       "level": 85,
@@ -17081,7 +17081,7 @@ backup_data = {
       "item": "Grassy Seed",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl -1 Leader Erika": {
+    "Lvl -1 Leader Erika #2 ": {
       "nature": "Rash",
       "ability": "Overgrow",
       "level": -1,
@@ -17098,7 +17098,7 @@ backup_data = {
       "item": "Terrain Extender",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl -1 Burglar Lewis - Mansion": {
+    "Lvl -1 Burglar Lewis #2 ": {
       "nature": "Adamant",
       "ability": "Grassy Surge",
       "level": -1,
@@ -17128,7 +17128,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Symes - PKMN Tower Gauntlet 3 Tester": {
+    "Lvl 100 Sheet Frontier Symes": {
       "nature": "Jolly",
       "ability": "Grassy Surge",
       "level": 100,
@@ -17176,7 +17176,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl -1 Leader Erika": {
+    "Lvl -1 Leader Erika #2 ": {
       "nature": "Rash",
       "ability": "Overgrow",
       "level": -1,
@@ -17193,7 +17193,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 137
     },
-    "Lvl 68 Leader Erika": {
+    "Lvl 68 Leader Erika #3 ": {
       "nature": "Timid",
       "ability": "Contrary",
       "level": 68,
@@ -17223,7 +17223,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Erika #rrhc-sheet-Kanto-Rematch-79-0x1130db8.1": {
+    "Lvl 68 Leader Erika #6 ": {
       "nature": "Timid",
       "ability": "Contrary",
       "level": 68,
@@ -17252,7 +17252,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Sharon - Berry Forest Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Sharon": {
       "nature": "Timid",
       "ability": "Contrary",
       "level": 100,
@@ -17330,7 +17330,7 @@ backup_data = {
       "item": "X Attack",
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 0 Leader Erika #417.3": {
+    "Lvl 0 Leader Erika #2 ": {
       "nature": "Timid",
       "ability": "Overgrow",
       "level": 0,
@@ -17347,7 +17347,7 @@ backup_data = {
       "item": "Venusaurite",
       "rawIvOrSpreadValue": 98
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #17 ": {
       "nature": "Lonely",
       "ability": "Overgrow",
       "level": 0,
@@ -17364,7 +17364,7 @@ backup_data = {
       "item": "Venusaurite",
       "rawIvOrSpreadValue": 8
     },
-    "Lvl 0 Rival Terry #436.5": {
+    "Lvl 0 Rival Terry #20 ": {
       "nature": "Calm",
       "ability": "Overgrow",
       "level": 0,
@@ -17381,7 +17381,7 @@ backup_data = {
       "item": "Venusaurite",
       "rawIvOrSpreadValue": 8
     },
-    "Lvl 0 Rival Terry #740.5": {
+    "Lvl 0 Rival Terry #26 ": {
       "nature": "Bold",
       "ability": "Overgrow",
       "level": 0,
@@ -17398,7 +17398,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 76 Leader Blaine": {
+    "Lvl 76 Leader Blaine #2 ": {
       "nature": "Modest",
       "ability": "Chlorophyll",
       "level": 76,
@@ -17428,7 +17428,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Leader Blaine #rrhc-sheet-Kanto-Leaders-154-0x11308cc.3": {
+    "Lvl 76 Leader Blaine #3 ": {
       "nature": "Modest",
       "ability": "Chlorophyll",
       "level": 76,
@@ -17457,7 +17457,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Beauty Sheila - Route 13 Beauty Lola &": {
+    "Lvl -2 Beauty Sheila #3 ": {
       "nature": "Naive",
       "ability": "Chlorophyll",
       "level": -2,
@@ -17489,7 +17489,7 @@ backup_data = {
     }
   },
   "Simisear": {
-    "Lvl 60 Ruin Maniac Jojo Fan": {
+    "Lvl 60 Ruin Maniac Jojo Fan #2 ": {
       "nature": "Naive",
       "ability": "Gluttony",
       "level": 60,
@@ -17505,7 +17505,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 139
     },
-    "Lvl -1 Rival - Cerulean City": {
+    "Lvl -1 Rival #4 ": {
       "nature": "Timid",
       "ability": "Sage Power",
       "level": -1,
@@ -17535,7 +17535,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Gentleman Brooks - S.S. Anne Lass Ann &": {
+    "Lvl 28 Gentleman Brooks #2 ": {
       "nature": "Timid",
       "ability": "Sage Power",
       "level": 28,
@@ -17564,7 +17564,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Caroline - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Caroline": {
       "nature": "Modest",
       "ability": "Sage Power",
       "level": 85,
@@ -17593,7 +17593,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Sheet Frontier Fan - Power Plant Dumass Jojo": {
+    "Lvl 68 Sheet Frontier Fan": {
       "nature": "Timid",
       "ability": "Sage Power",
       "level": 68,
@@ -17624,7 +17624,7 @@ backup_data = {
     }
   },
   "Celebi": {
-    "Lvl 60 Ruin Maniac Jojo Fan": {
+    "Lvl 60 Ruin Maniac Jojo Fan #2 ": {
       "nature": "Timid",
       "ability": "Natural Cure",
       "level": 60,
@@ -17640,7 +17640,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 68 Sheet Frontier Fan - Power Plant Dumass Jojo": {
+    "Lvl 68 Sheet Frontier Fan": {
       "nature": "Timid",
       "ability": "Natural Cure",
       "level": 68,
@@ -17671,7 +17671,7 @@ backup_data = {
     }
   },
   "Hatterene": {
-    "Lvl -2 Aqua Leader Ariana": {
+    "Lvl -2 Aqua Leader Ariana #3 ": {
       "nature": "Brave",
       "ability": "Magic Bounce",
       "level": -2,
@@ -17705,7 +17705,7 @@ backup_data = {
       "item": "Psychic Seed",
       "rawIvOrSpreadValue": 133
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #19 ": {
       "nature": "Hardy",
       "ability": "Magic Bounce",
       "level": 0,
@@ -17722,7 +17722,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 98
     },
-    "Lvl 0 Rival Terry #437.4": {
+    "Lvl 0 Rival Terry #21 ": {
       "nature": "Hasty",
       "ability": "Magic Bounce",
       "level": 0,
@@ -17739,7 +17739,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 98
     },
-    "Lvl 68 Juggler Kayden - Fuchsia Gym": {
+    "Lvl 68 Juggler Kayden #2 ": {
       "nature": "Bold",
       "ability": "Magic Bounce",
       "level": 68,
@@ -17768,7 +17768,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Rolando - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Rolando": {
       "nature": "Modest",
       "ability": "Magic Bounce",
       "level": 85,
@@ -17799,7 +17799,7 @@ backup_data = {
     }
   },
   "Rhyperior": {
-    "Lvl -1 Aqua Leader Ariana": {
+    "Lvl -1 Aqua Leader Ariana #3 ": {
       "nature": "Adamant",
       "ability": "Lightning Rod",
       "level": -1,
@@ -17832,7 +17832,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl -2 Bird Keeper Perry - Route 13": {
+    "Lvl -2 Bird Keeper Perry #2 ": {
       "nature": "Careful",
       "ability": "Solid Rock",
       "level": -2,
@@ -17862,7 +17862,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Derek - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Derek": {
       "nature": "Jolly",
       "ability": "Solid Rock",
       "level": 76,
@@ -17893,7 +17893,7 @@ backup_data = {
     }
   },
   "Honchkrow": {
-    "Lvl -1 Aqua Leader Ariana": {
+    "Lvl -1 Aqua Leader Ariana #3 ": {
       "nature": "Hasty",
       "ability": "Insomnia",
       "level": -1,
@@ -17924,7 +17924,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -1 Boss Giovanni": {
+    "Lvl -1 Boss Giovanni #2 ": {
       "nature": "Calm",
       "ability": "Insomnia",
       "level": -1,
@@ -17941,7 +17941,7 @@ backup_data = {
       "item": "Scope Lens",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl 0 Sheet Frontier 2 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 2": {
       "nature": "Naive",
       "ability": "Super Luck",
       "level": 0,
@@ -18003,7 +18003,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 85 Cool Couple Ray & Tyra - Victory Road": {
+    "Lvl 85 Cool Couple Ray & Tyra": {
       "nature": "Brave",
       "ability": "Intimidate",
       "level": 85,
@@ -18050,7 +18050,7 @@ backup_data = {
       "item": "Terrain Extender",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 68 Leader Koga": {
+    "Lvl 68 Leader Koga #2 ": {
       "nature": "Modest",
       "ability": "Psychic Surge",
       "level": 68,
@@ -18080,7 +18080,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Koga #rrhc-sheet-Kanto-Leaders-129-0x1131058.0": {
+    "Lvl 68 Leader Koga #3 ": {
       "nature": "Modest",
       "ability": "Psychic Surge",
       "level": 68,
@@ -18156,7 +18156,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #7 ": {
       "nature": "Modest",
       "ability": "Beast Boost",
       "level": 56,
@@ -18185,7 +18185,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-226-0x11319c0.2": {
+    "Lvl 56 Rival #8 ": {
       "nature": "Modest",
       "ability": "Beast Boost",
       "level": 56,
@@ -18214,7 +18214,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-250-0x1131a68.1": {
+    "Lvl 56 Rival #9 ": {
       "nature": "Modest",
       "ability": "Beast Boost",
       "level": 56,
@@ -18243,7 +18243,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #10 ": {
       "nature": "Naive",
       "ability": "Beast Boost",
       "level": 82,
@@ -18272,7 +18272,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup": {
       "nature": "Timid",
       "ability": "Beast Boost",
       "level": 81,
@@ -18318,7 +18318,7 @@ backup_data = {
       "trainerClass": 3,
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 80 Sheet Frontier Giovanni - Cerulea. Cave": {
+    "Lvl 80 Sheet Frontier Giovanni #3 ": {
       "nature": "Timid",
       "ability": "Unnerve",
       "level": 80,
@@ -18364,7 +18364,7 @@ backup_data = {
       "partyFlags": 2,
       "trainerClass": 85
     },
-    "Lvl -89 Boss Giovanni": {
+    "Lvl -89 Boss Giovanni #4 ": {
       "nature": "Gentle",
       "ability": "Infiltrator",
       "level": -89,
@@ -18379,7 +18379,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 84
     },
-    "Lvl 0 Team Rocket Grunt #356.1": {
+    "Lvl 0 Team Rocket Grunt #10 ": {
       "nature": "Jolly",
       "ability": "Sniper",
       "level": 0,
@@ -18396,7 +18396,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 1
     },
-    "Lvl -40 Team Rocket Grunt": {
+    "Lvl -40 Team Rocket Grunt #16 ": {
       "nature": "Rash",
       "ability": "Sniper",
       "level": -40,
@@ -18411,7 +18411,7 @@ backup_data = {
       "trainerClass": 85,
       "rawIvOrSpreadValue": 188
     },
-    "Lvl 42 Team Rocket Grunt": {
+    "Lvl 42 Team Rocket Grunt #22 ": {
       "nature": "Sassy",
       "ability": "Sniper",
       "level": 42,
@@ -18425,7 +18425,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #27 ": {
       "nature": "Sassy",
       "ability": "Sniper",
       "level": -1,
@@ -18440,7 +18440,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #381.1": {
+    "Lvl -1 Team Rocket Grunt #34 ": {
       "nature": "Careful",
       "ability": "Sniper",
       "level": -1,
@@ -18455,7 +18455,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #385.1": {
+    "Lvl -1 Team Rocket Grunt #37 ": {
       "nature": "Naive",
       "ability": "Sniper",
       "level": -1,
@@ -18470,7 +18470,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Team Rocket Grunt": {
+    "Lvl -2 Team Rocket Grunt #40 ": {
       "nature": "Sassy",
       "ability": "Sniper",
       "level": -2,
@@ -18500,7 +18500,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 86
     },
-    "Lvl -4 Elite Four Agatha": {
+    "Lvl -4 Elite Four Agatha #3 ": {
       "nature": "Gentle",
       "ability": "Infiltrator",
       "level": -4,
@@ -18516,7 +18516,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 27 Youngster Timmy": {
+    "Lvl 27 Youngster Timmy #3 ": {
       "nature": "Lonely",
       "ability": "Sniper",
       "level": 27,
@@ -18531,7 +18531,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 52 Youngster Timmy": {
+    "Lvl 52 Youngster Timmy #4 ": {
       "nature": "Impish",
       "ability": "Sniper",
       "level": 52,
@@ -18546,7 +18546,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 38 Team Rocket Grunt": {
+    "Lvl 38 Team Rocket Grunt #47 ": {
       "nature": "Docile",
       "ability": "Sniper",
       "level": 38,
@@ -18560,7 +18560,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #48 ": {
       "nature": "Quirky",
       "ability": "Sniper",
       "level": 48,
@@ -18606,7 +18606,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 0 Sheet Frontier 1 - Cerulea. Cave Grunt": {
+    "Lvl 0 Sheet Frontier 1 #2 ": {
       "nature": "Careful",
       "ability": "Overcoat",
       "level": 0,
@@ -18653,7 +18653,7 @@ backup_data = {
       "partyFlags": 2,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #18 ": {
       "nature": "Quirky",
       "ability": "Tough Claws",
       "level": -1,
@@ -18668,7 +18668,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #385.0": {
+    "Lvl -1 Team Rocket Grunt #37 ": {
       "nature": "Quiet",
       "ability": "Tough Claws",
       "level": -1,
@@ -18698,7 +18698,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 0 Camper Jeff - Route 6": {
+    "Lvl 0 Camper Jeff #5 ": {
       "nature": "Adamant",
       "ability": "Tough Claws",
       "level": 0,
@@ -18730,7 +18730,7 @@ backup_data = {
     }
   },
   "Obstagoon": {
-    "Lvl 75 Team Rocket Grunt": {
+    "Lvl 75 Team Rocket Grunt #2 ": {
       "nature": "Lax",
       "ability": "Guts",
       "level": 75,
@@ -18759,7 +18759,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #17 ": {
       "nature": "Naive",
       "ability": "Guts",
       "level": 0,
@@ -18790,7 +18790,7 @@ backup_data = {
       "trainerClass": 46,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 0 Sheet Frontier 2 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 2": {
       "nature": "Jolly",
       "ability": "Guts",
       "level": 0,
@@ -18822,7 +18822,7 @@ backup_data = {
     }
   },
   "Ursaring": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #3 ": {
       "nature": "Naughty",
       "ability": "Quick Feet",
       "level": 0,
@@ -18868,7 +18868,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 0 Tamer Evan #723.2": {
+    "Lvl 0 Tamer Evan #2 ": {
       "nature": "Brave",
       "ability": "Guts",
       "level": 0,
@@ -18884,7 +18884,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 160
     },
-    "Lvl 79 Sheet Frontier 2 - Cerulea. Cave Grunt": {
+    "Lvl 79 Sheet Frontier 2 #2 ": {
       "nature": "Adamant",
       "ability": "Guts",
       "level": 79,
@@ -18915,7 +18915,7 @@ backup_data = {
     }
   },
   "Garbodor": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #3 ": {
       "nature": "Gentle",
       "ability": "Weak Armor",
       "level": -1,
@@ -18976,7 +18976,7 @@ backup_data = {
     }
   },
   "Hydreigon": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #3 ": {
       "nature": "Calm",
       "ability": "Levitate",
       "level": 0,
@@ -18991,7 +18991,7 @@ backup_data = {
       "partyFlags": 2,
       "trainerClass": 85
     },
-    "Lvl 0 Elite Four Agatha": {
+    "Lvl 0 Elite Four Agatha #2 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 0,
@@ -19008,7 +19008,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #12 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 82,
@@ -19037,7 +19037,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier 3 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 3": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 0,
@@ -19067,7 +19067,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Channeler Rachel - Cape Brink": {
+    "Lvl 100 Channeler Rachel #2 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 100,
@@ -19096,7 +19096,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Tuber Alexis - Bond Bridge": {
+    "Lvl 100 Tuber Alexis #2 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 100,
@@ -19127,7 +19127,7 @@ backup_data = {
     }
   },
   "Absol": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #4 ": {
       "nature": "Impish",
       "ability": "Super Luck",
       "level": -1,
@@ -19161,7 +19161,7 @@ backup_data = {
     }
   },
   "Dracovish": {
-    "Lvl -1 Leader Clair": {
+    "Lvl -1 Leader Clair #2 ": {
       "nature": "Gentle",
       "ability": "Strong Jaw",
       "level": -1,
@@ -19178,7 +19178,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 61
     },
-    "Lvl 0 Elite Four Lorelei": {
+    "Lvl 0 Elite Four Lorelei #2 ": {
       "nature": "Docile",
       "ability": "Strong Jaw",
       "level": 0,
@@ -19195,7 +19195,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl 85 Elite Four Lance": {
+    "Lvl 85 Elite Four Lance #3 ": {
       "nature": "Hardy",
       "ability": "Strong Jaw",
       "level": 85,
@@ -19211,7 +19211,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 61
     },
-    "Lvl 57 Boss Giovanni": {
+    "Lvl 57 Boss Giovanni #6 ": {
       "nature": "Adamant",
       "ability": "Sand Rush",
       "level": 57,
@@ -19241,7 +19241,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 57 Sheet Frontier Giovanni - Silph Co.": {
+    "Lvl 57 Sheet Frontier Giovanni #2 ": {
       "nature": "Adamant",
       "ability": "Sand Rush",
       "level": 57,
@@ -19270,7 +19270,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker Hideo - Route 16": {
+    "Lvl -2 Biker Hideo #2 ": {
       "nature": "Jolly",
       "ability": "Sand Rush",
       "level": -2,
@@ -19302,7 +19302,7 @@ backup_data = {
     }
   },
   "Dragonite": {
-    "Lvl -1 Leader Clair": {
+    "Lvl -1 Leader Clair #2 ": {
       "nature": "Lonely",
       "ability": "Inner Focus",
       "level": -1,
@@ -19319,7 +19319,7 @@ backup_data = {
       "item": "Weakness Policy",
       "rawIvOrSpreadValue": 91
     },
-    "Lvl 85 Elite Four Lance": {
+    "Lvl 85 Elite Four Lance #2 ": {
       "nature": "Rash",
       "ability": "Inner Focus",
       "level": 85,
@@ -19335,7 +19335,7 @@ backup_data = {
       "item": "Lum Berry",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 85 Elite Four Lance #87.3": {
+    "Lvl 85 Elite Four Lance #3 ": {
       "nature": "Rash",
       "ability": "Inner Focus",
       "level": 85,
@@ -19351,7 +19351,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 0 Elite Four Lance": {
+    "Lvl 0 Elite Four Lance #4 ": {
       "nature": "Docile",
       "ability": "Inner Focus",
       "level": 0,
@@ -19368,7 +19368,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 250
     },
-    "Lvl -6 Elite Four Lance": {
+    "Lvl -6 Elite Four Lance #5 ": {
       "nature": "Careful",
       "ability": "Inner Focus",
       "level": -6,
@@ -19384,7 +19384,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 0 Elite Four Lance #738.4": {
+    "Lvl 0 Elite Four Lance #5 ": {
       "nature": "Sassy",
       "ability": "Inner Focus",
       "level": 0,
@@ -19401,7 +19401,7 @@ backup_data = {
       "item": "Persim Berry",
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 100 Leader Clair": {
+    "Lvl 100 Leader Clair #3 ": {
       "nature": "Lonely",
       "ability": "Multiscale",
       "level": 100,
@@ -19461,7 +19461,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair #frontier-community-0x112f228.2": {
+    "Lvl 100 Leader Clair #4 ": {
       "nature": "Lonely",
       "ability": "Multiscale",
       "level": 100,
@@ -19491,7 +19491,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Dragon Tamer Ramiro - Route 18": {
+    "Lvl -2 Dragon Tamer Ramiro #2 ": {
       "nature": "Modest",
       "ability": "Multiscale",
       "level": -2,
@@ -19521,7 +19521,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #5 ": {
       "nature": "Mild",
       "ability": "Multiscale",
       "level": 100,
@@ -19550,7 +19550,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lance": {
+    "Lvl 100 Elite Four Lance #6 ": {
       "nature": "Adamant",
       "ability": "Multiscale",
       "level": 100,
@@ -19579,7 +19579,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lance #rrhc-sheet-Indigo-League-201-0x112f768.3": {
+    "Lvl 100 Elite Four Lance #7 ": {
       "nature": "Adamant",
       "ability": "Multiscale",
       "level": 100,
@@ -19608,7 +19608,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair #rrhc-sheet-Postgame-57-0x112f228.2": {
+    "Lvl 100 Leader Clair #7 ": {
       "nature": "Lonely",
       "ability": "Multiscale",
       "level": 100,
@@ -19637,7 +19637,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Symes - PKMN Tower Gauntlet 3 Tester": {
+    "Lvl 100 Sheet Frontier Symes": {
       "nature": "Jolly",
       "ability": "Multiscale",
       "level": 100,
@@ -19666,7 +19666,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Ariana - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Ariana #2 ": {
       "nature": "Jolly",
       "ability": "Multiscale",
       "level": 100,
@@ -19697,7 +19697,7 @@ backup_data = {
     }
   },
   "Naganadel": {
-    "Lvl 0 Leader Clair": {
+    "Lvl 0 Leader Clair #2 ": {
       "nature": "Calm",
       "ability": "Beast Boost",
       "level": 0,
@@ -19716,7 +19716,7 @@ backup_data = {
     }
   },
   "Crustle": {
-    "Lvl 85 Leader Bugsy": {
+    "Lvl 85 Leader Bugsy #3 ": {
       "nature": "Naive",
       "ability": "Shell Armor",
       "level": 85,
@@ -19732,7 +19732,7 @@ backup_data = {
       "item": "Buginium Z",
       "rawIvOrSpreadValue": 32
     },
-    "Lvl -2 Biker Jared - Route 13": {
+    "Lvl -2 Biker Jared #2 ": {
       "nature": "Adamant",
       "ability": "Sturdy",
       "level": -2,
@@ -19764,7 +19764,7 @@ backup_data = {
     }
   },
   "Pheromosa": {
-    "Lvl 85 Leader Bugsy": {
+    "Lvl 85 Leader Bugsy #3 ": {
       "nature": "Hardy",
       "ability": "Beast Boost",
       "level": 85,
@@ -19780,7 +19780,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 85 Rival Terry": {
+    "Lvl 85 Rival Terry #22 ": {
       "nature": "Quirky",
       "ability": "Beast Boost",
       "level": 85,
@@ -19796,7 +19796,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 85 Rival Terry #439.0": {
+    "Lvl 85 Rival Terry #23 ": {
       "nature": "Quirky",
       "ability": "Beast Boost",
       "level": 85,
@@ -19812,7 +19812,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 85 Rival Terry #440.0": {
+    "Lvl 85 Rival Terry #24 ": {
       "nature": "Quirky",
       "ability": "Beast Boost",
       "level": 85,
@@ -19828,7 +19828,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 100 Leader Bugsy": {
+    "Lvl 100 Leader Bugsy #4 ": {
       "nature": "Hasty",
       "ability": "Beast Boost",
       "level": 100,
@@ -19858,7 +19858,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy #frontier-community-0x112f420.0": {
+    "Lvl 100 Leader Bugsy #5 ": {
       "nature": "Hasty",
       "ability": "Beast Boost",
       "level": 100,
@@ -19888,7 +19888,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy - Kindle Road": {
+    "Lvl 100 Leader Bugsy #8 ": {
       "nature": "Hasty",
       "ability": "Beast Boost",
       "level": 100,
@@ -19919,7 +19919,7 @@ backup_data = {
     }
   },
   "Tapu Fini": {
-    "Lvl 85 Leader Bugsy": {
+    "Lvl 85 Leader Bugsy #3 ": {
       "nature": "Brave",
       "ability": "Misty Surge",
       "level": 85,
@@ -19935,7 +19935,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 11
     },
-    "Lvl 59 Leader Sabrina": {
+    "Lvl 59 Leader Sabrina #2 ": {
       "nature": "Quiet",
       "ability": "Misty Surge",
       "level": 59,
@@ -19965,7 +19965,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Leader Sabrina #rrhc-sheet-Kanto-Leaders-105-0x1131720.0": {
+    "Lvl 59 Leader Sabrina #3 ": {
       "nature": "Quiet",
       "ability": "Misty Surge",
       "level": 59,
@@ -19994,7 +19994,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Co.le - Route 8 Ace Trainer": {
+    "Lvl 59 Sheet Frontier Co.le": {
       "nature": "Bold",
       "ability": "Misty Surge",
       "level": 59,
@@ -20023,7 +20023,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #6 ": {
       "nature": "Modest",
       "ability": "Misty Surge",
       "level": 100,
@@ -20054,7 +20054,7 @@ backup_data = {
     }
   },
   "Pinsir": {
-    "Lvl 85 Leader Bugsy": {
+    "Lvl 85 Leader Bugsy #3 ": {
       "nature": "Sassy",
       "ability": "Mold Breaker",
       "level": 85,
@@ -20104,7 +20104,7 @@ backup_data = {
     }
   },
   "Kangaskhan": {
-    "Lvl 85 Leader Whitney": {
+    "Lvl 85 Leader Whitney #2 ": {
       "nature": "Docile",
       "ability": "Scrappy",
       "level": 85,
@@ -20120,7 +20120,7 @@ backup_data = {
       "item": "Kangaskanite",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 0 Boss Giovanni": {
+    "Lvl 0 Boss Giovanni #2 ": {
       "nature": "Docile",
       "ability": "Early Bird",
       "level": 0,
@@ -20137,7 +20137,7 @@ backup_data = {
       "item": "Kangaskanite",
       "rawIvOrSpreadValue": 91
     },
-    "Lvl 0 Boss Giovanni #349.2": {
+    "Lvl 0 Boss Giovanni #3 ": {
       "nature": "Adamant",
       "ability": "Early Bird",
       "level": 0,
@@ -20169,7 +20169,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 55 Pokemaniac Hector": {
+    "Lvl 55 Pokemaniac Hector #2 ": {
       "nature": "Naughty",
       "ability": "Early Bird",
       "level": 55,
@@ -20186,7 +20186,7 @@ backup_data = {
     }
   },
   "Clefable": {
-    "Lvl 85 Leader Whitney": {
+    "Lvl 85 Leader Whitney #2 ": {
       "nature": "Lonely",
       "ability": "Magic Guard",
       "level": 85,
@@ -20365,7 +20365,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #5 ": {
       "nature": "Modest",
       "ability": "Magic Guard",
       "level": 73,
@@ -20394,7 +20394,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-180-0x1130f08.2": {
+    "Lvl 73 Leader Pryce #6 ": {
       "nature": "Modest",
       "ability": "Magic Guard",
       "level": 73,
@@ -20423,7 +20423,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-206-0x1130e60.2": {
+    "Lvl 73 Leader Pryce #7 ": {
       "nature": "Modest",
       "ability": "Magic Guard",
       "level": 73,
@@ -20452,7 +20452,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Rival - Cerulean City": {
+    "Lvl -1 Rival #4 ": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": -1,
@@ -20482,7 +20482,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Rival - Cerulean City #rrhc-sheet-Rivals-128-0x1133ae4.1": {
+    "Lvl -1 Rival #5 ": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": -1,
@@ -20512,7 +20512,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Rival - Cerulean City #rrhc-sheet-Rivals-153-0x1133b8c.1": {
+    "Lvl -1 Rival #6 ": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": -1,
@@ -20542,7 +20542,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Alexa - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Alexa": {
       "nature": "Modest",
       "ability": "Magic Guard",
       "level": 85,
@@ -20573,7 +20573,7 @@ backup_data = {
     }
   },
   "Tapu Koko": {
-    "Lvl 85 Leader Whitney": {
+    "Lvl 85 Leader Whitney #2 ": {
       "nature": "Hasty",
       "ability": "Electric Surge",
       "level": 85,
@@ -20589,7 +20589,7 @@ backup_data = {
       "item": "Choice Specs",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 68 Sheet Frontier Brendan - Fuchsia City": {
+    "Lvl 68 Sheet Frontier Brendan #3 ": {
       "nature": "Naive",
       "ability": "Electric Surge",
       "level": 68,
@@ -20618,7 +20618,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Beauty Sam - Celadon Hotel": {
+    "Lvl 59 Beauty Sam": {
       "nature": "Naive",
       "ability": "Electric Surge",
       "level": 59,
@@ -20649,7 +20649,7 @@ backup_data = {
     }
   },
   "Snorlax": {
-    "Lvl 85 Leader Whitney": {
+    "Lvl 85 Leader Whitney #2 ": {
       "nature": "Naughty",
       "ability": "Thick Fat",
       "level": 85,
@@ -20665,7 +20665,7 @@ backup_data = {
       "item": "Snorlaxite",
       "rawIvOrSpreadValue": 65
     },
-    "Lvl 73 Sheet Frontier May - Cinnabar Isl.": {
+    "Lvl 73 Sheet Frontier May": {
       "nature": "Careful",
       "ability": "Thick Fat",
       "level": 73,
@@ -20713,7 +20713,7 @@ backup_data = {
       "item": "Choice Specs",
       "rawIvOrSpreadValue": 146
     },
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #6 ": {
       "nature": "Modest",
       "ability": "Slush Rush",
       "level": 100,
@@ -20761,7 +20761,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 100 Leader Pryce - Seafoam Isl. Secret Room": {
+    "Lvl 100 Leader Pryce #8 ": {
       "nature": "Brave",
       "ability": "As One (Glastrier)",
       "level": 100,
@@ -20792,7 +20792,7 @@ backup_data = {
     }
   },
   "Poliwrath": {
-    "Lvl -1 Elite Four Lorelei": {
+    "Lvl -1 Elite Four Lorelei #2 ": {
       "nature": "Modest",
       "ability": "Damp",
       "level": -1,
@@ -20872,7 +20872,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 49 Swimmer M Matthew": {
+    "Lvl 49 Swimmer M Matthew #2 ": {
       "nature": "Bold",
       "ability": "Damp",
       "level": 49,
@@ -20889,7 +20889,7 @@ backup_data = {
     }
   },
   "Kyogre": {
-    "Lvl 0 Elite Four Lorelei": {
+    "Lvl 0 Elite Four Lorelei #2 ": {
       "nature": "Careful",
       "ability": "Drizzle",
       "level": 0,
@@ -20906,7 +20906,7 @@ backup_data = {
       "item": "Blue Orb",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 100 Leader Misty": {
+    "Lvl 100 Leader Misty #4 ": {
       "nature": "Timid",
       "ability": "Drizzle",
       "level": 100,
@@ -20967,7 +20967,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival #rrhc-sheet-Indigo-League-276-0x112f618.0": {
+    "Lvl 100 Champion Rival #3 ": {
       "nature": "Timid",
       "ability": "Drizzle",
       "level": 100,
@@ -20997,7 +20997,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #rrhc-sheet-Postgame-81-0x112f2d0.1": {
+    "Lvl 100 Leader Misty #9 ": {
       "nature": "Hasty",
       "ability": "Drizzle",
       "level": 100,
@@ -21046,7 +21046,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Boss Giovanni": {
+    "Lvl -1 Boss Giovanni #2 ": {
       "nature": "Quiet",
       "ability": "Blaze",
       "level": -1,
@@ -21063,7 +21063,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 47 Boss Giovanni": {
+    "Lvl 47 Boss Giovanni #7 ": {
       "nature": "Jolly",
       "ability": "Blaze",
       "level": 47,
@@ -21093,7 +21093,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Sheet Frontier Giovanni - Rocket Hide.": {
+    "Lvl 47 Sheet Frontier Giovanni": {
       "nature": "Jolly",
       "ability": "Blaze",
       "level": 47,
@@ -21122,7 +21122,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Alexa - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Alexa": {
       "nature": "Timid",
       "ability": "Blaze",
       "level": 85,
@@ -21151,7 +21151,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #5 ": {
       "nature": "Jolly",
       "ability": "Blaze",
       "level": 100,
@@ -21180,7 +21180,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Crush Kin Mik & Kia - Kindle Road": {
+    "Lvl 0 Crush Kin Mik & Kia": {
       "nature": "Jolly",
       "ability": "Blaze",
       "level": 0,
@@ -21210,7 +21210,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Andrew - Joyful Game Co.rner Ace Trainer": {
+    "Lvl 100 Sheet Frontier Andrew": {
       "nature": "Jolly",
       "ability": "Blaze",
       "level": 100,
@@ -21258,7 +21258,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 104
     },
-    "Lvl 0 Elite Four Bruno #81.3": {
+    "Lvl 0 Elite Four Bruno #2 ": {
       "nature": "Gentle",
       "ability": "Sheer Force",
       "level": 0,
@@ -21307,7 +21307,7 @@ backup_data = {
       "trainerClass": 80,
       "item": "Black Belt"
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #33 ": {
       "nature": "Calm",
       "ability": "Sheer Force",
       "level": 0,
@@ -21355,7 +21355,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 50
     },
-    "Lvl -2 Camper Justin - Route 12": {
+    "Lvl -2 Camper Justin #2 ": {
       "nature": "Careful",
       "ability": "Iron Fist",
       "level": -2,
@@ -21385,7 +21385,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Black Belt Shea - Kindle Road": {
+    "Lvl 100 Black Belt Shea #4 ": {
       "nature": "Adamant",
       "ability": "Guts",
       "level": 100,
@@ -21433,7 +21433,7 @@ backup_data = {
       "item": "Throat Spray",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl 36 Leader Chuck": {
+    "Lvl 36 Leader Chuck #2 ": {
       "nature": "Naive",
       "ability": "Overcoat",
       "level": 36,
@@ -21463,7 +21463,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Chuck - Saffron Dojo": {
+    "Lvl 36 Leader Chuck #3 ": {
       "nature": "Naive",
       "ability": "Overcoat",
       "level": 36,
@@ -21492,7 +21492,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Barry - Berry Forest Gauntlet 1 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Barry": {
       "nature": "Naive",
       "ability": "Soundproof",
       "level": 100,
@@ -21540,7 +21540,7 @@ backup_data = {
       "item": "Rusty Sword",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 0 Elite Four Bruno #81.4": {
+    "Lvl 0 Elite Four Bruno #2 ": {
       "nature": "Jolly",
       "ability": "Intrepid Sword",
       "level": 0,
@@ -21559,7 +21559,7 @@ backup_data = {
     }
   },
   "Terrakion": {
-    "Lvl 0 Elite Four Bruno": {
+    "Lvl 0 Elite Four Bruno #2 ": {
       "nature": "Brave",
       "ability": "Justified",
       "level": 0,
@@ -21610,7 +21610,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 73
     },
-    "Lvl 100 Sheet Frontier Sharon - Berry Forest Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Sharon": {
       "nature": "Timid",
       "ability": "Illusion",
       "level": 100,
@@ -21658,7 +21658,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 0 Elite Four Agatha #84.4": {
+    "Lvl 0 Elite Four Agatha #2 ": {
       "nature": "Serious",
       "ability": "Technician",
       "level": 0,
@@ -21675,7 +21675,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 100 Leader Morty": {
+    "Lvl 100 Leader Morty #3 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 100,
@@ -21705,7 +21705,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty #frontier-community-0x1132f68.1": {
+    "Lvl 100 Leader Morty #5 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 100,
@@ -21735,7 +21735,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty - PKMN Tower Gauntlet Boss": {
+    "Lvl 100 Leader Morty #7 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 100,
@@ -21766,7 +21766,7 @@ backup_data = {
     }
   },
   "Grimmsnarl": {
-    "Lvl -1 Elite Four Agatha": {
+    "Lvl -1 Elite Four Agatha #2 ": {
       "nature": "Hardy",
       "ability": "Prankster",
       "level": -1,
@@ -21797,7 +21797,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl 79 Sheet Frontier 2 - Cerulea. Cave Grunt": {
+    "Lvl 79 Sheet Frontier 2 #2 ": {
       "nature": "Careful",
       "ability": "Prankster",
       "level": 79,
@@ -21826,7 +21826,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Channeler Ruth - PKMN Tower": {
+    "Lvl 0 Channeler Ruth #2 ": {
       "nature": "Careful",
       "ability": "Prankster",
       "level": 0,
@@ -21856,7 +21856,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Goon 2 - Three Island": {
+    "Lvl -2 Goon 2": {
       "nature": "Impish",
       "ability": "Prankster",
       "level": -2,
@@ -21918,7 +21918,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl 17 Youngster Ben": {
+    "Lvl 17 Youngster Ben #2 ": {
       "nature": "Relaxed",
       "ability": "Guts",
       "level": 17,
@@ -21947,7 +21947,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 15 Team Rocket Grunt": {
+    "Lvl 15 Team Rocket Grunt #5 ": {
       "nature": "Relaxed",
       "ability": "Guts",
       "level": 15,
@@ -21961,7 +21961,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 35 Team Rocket Grunt": {
+    "Lvl 35 Team Rocket Grunt #46 ": {
       "nature": "Relaxed",
       "ability": "Guts",
       "level": 35,
@@ -21975,7 +21975,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #51 ": {
       "nature": "Relaxed",
       "ability": "Guts",
       "level": 48,
@@ -21989,7 +21989,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 22 Youngster Yasu": {
+    "Lvl 22 Youngster Yasu #2 ": {
       "nature": "Mild",
       "ability": "Run Away",
       "level": 22,
@@ -22071,7 +22071,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -1 Rival Terry": {
+    "Lvl -1 Rival Terry #7 ": {
       "nature": "Sassy",
       "ability": "Vital Spirit",
       "level": -1,
@@ -22086,7 +22086,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 121
     },
-    "Lvl -1 Rival Terry #333.2": {
+    "Lvl -1 Rival Terry #8 ": {
       "nature": "Sassy",
       "ability": "Vital Spirit",
       "level": -1,
@@ -22101,7 +22101,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 121
     },
-    "Lvl -1 Rival Terry #334.2": {
+    "Lvl -1 Rival Terry #9 ": {
       "nature": "Sassy",
       "ability": "Vital Spirit",
       "level": -1,
@@ -22164,7 +22164,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 61
     },
-    "Lvl 28 Burglar": {
+    "Lvl 28 Burglar #2 ": {
       "nature": "Brave",
       "ability": "Run Away",
       "level": 28,
@@ -22238,7 +22238,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl 40 Team Rocket Grunt": {
+    "Lvl 40 Team Rocket Grunt #13 ": {
       "nature": "Quirky",
       "ability": "Guts",
       "level": 40,
@@ -22252,7 +22252,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 28 Youngster Ben": {
+    "Lvl 28 Youngster Ben #3 ": {
       "nature": "Quirky",
       "ability": "Guts",
       "level": 28,
@@ -22267,7 +22267,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 48 Youngster Ben": {
+    "Lvl 48 Youngster Ben #4 ": {
       "nature": "Quirky",
       "ability": "Guts",
       "level": 48,
@@ -22282,7 +22282,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 19 Youngster Timmy": {
+    "Lvl 19 Youngster Timmy #2 ": {
       "nature": "Quirky",
       "ability": "Guts",
       "level": 19,
@@ -22297,7 +22297,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 27 Youngster Timmy": {
+    "Lvl 27 Youngster Timmy #3 ": {
       "nature": "Quirky",
       "ability": "Guts",
       "level": 27,
@@ -22312,7 +22312,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 52 Youngster Timmy": {
+    "Lvl 52 Youngster Timmy #4 ": {
       "nature": "Quirky",
       "ability": "Guts",
       "level": 52,
@@ -22327,7 +22327,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 35 Team Rocket Grunt": {
+    "Lvl 35 Team Rocket Grunt #46 ": {
       "nature": "Docile",
       "ability": "Guts",
       "level": 35,
@@ -22341,7 +22341,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #48 ": {
       "nature": "Naive",
       "ability": "Guts",
       "level": 48,
@@ -22384,7 +22384,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl 21 Camper Jeff": {
+    "Lvl 21 Camper Jeff #2 ": {
       "nature": "Serious",
       "ability": "Run Away",
       "level": 21,
@@ -22399,7 +22399,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 29 Camper Jeff": {
+    "Lvl 29 Camper Jeff #3 ": {
       "nature": "Sassy",
       "ability": "Run Away",
       "level": 29,
@@ -22414,7 +22414,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 54 Camper Jeff": {
+    "Lvl 54 Camper Jeff #4 ": {
       "nature": "Sassy",
       "ability": "Run Away",
       "level": 54,
@@ -22429,7 +22429,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 22 Youngster Yasu": {
+    "Lvl 22 Youngster Yasu #2 ": {
       "nature": "Lax",
       "ability": "Run Away",
       "level": 22,
@@ -22444,7 +22444,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 22 Youngster Yasu #633.2": {
+    "Lvl 22 Youngster Yasu #2 Set2 ": {
       "nature": "Hasty",
       "ability": "Run Away",
       "level": 22,
@@ -22459,7 +22459,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 47 Youngster Yasu": {
+    "Lvl 47 Youngster Yasu #3 ": {
       "nature": "Impish",
       "ability": "Run Away",
       "level": 47,
@@ -22474,7 +22474,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Youngster Yasu #634.1": {
+    "Lvl 47 Youngster Yasu #3 Set2 ": {
       "nature": "Lonely",
       "ability": "Run Away",
       "level": 47,
@@ -22489,7 +22489,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Youngster Yasu #634.2": {
+    "Lvl 47 Youngster Yasu #3 Set3 ": {
       "nature": "Adamant",
       "ability": "Run Away",
       "level": 47,
@@ -22504,7 +22504,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl -1 Lass Megan": {
+    "Lvl -1 Lass Megan #2 ": {
       "nature": "Jolly",
       "ability": "Guts",
       "level": -1,
@@ -22520,7 +22520,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl -1 Lass Megan #649.1": {
+    "Lvl -1 Lass Megan #3 ": {
       "nature": "Gentle",
       "ability": "Guts",
       "level": -1,
@@ -22536,7 +22536,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 27 Picnicker Susie": {
+    "Lvl 27 Picnicker Susie #2 ": {
       "nature": "Quiet",
       "ability": "Guts",
       "level": 27,
@@ -22551,7 +22551,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 47 Picnicker Susie": {
+    "Lvl 47 Picnicker Susie #3 ": {
       "nature": "Gentle",
       "ability": "Guts",
       "level": 47,
@@ -22566,7 +22566,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 52 Picnicker Susie": {
+    "Lvl 52 Picnicker Susie #4 ": {
       "nature": "Naughty",
       "ability": "Guts",
       "level": 52,
@@ -22581,7 +22581,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 53 Youngster Destin": {
+    "Lvl 53 Youngster Destin #2 ": {
       "nature": "Lax",
       "ability": "Run Away",
       "level": 53,
@@ -22596,7 +22596,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -1 Sheet Frontier Grunt - Dig House": {
+    "Lvl -1 Sheet Frontier Grunt #2 ": {
       "nature": "Jolly",
       "ability": "Guts",
       "level": -1,
@@ -22657,7 +22657,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #11 ": {
       "nature": "Rash",
       "ability": "Hustle",
       "level": -1,
@@ -22672,7 +22672,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 40 Team Rocket Grunt": {
+    "Lvl 40 Team Rocket Grunt #13 ": {
       "nature": "Bashful",
       "ability": "Hustle",
       "level": 40,
@@ -22686,7 +22686,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Team Rocket Grunt": {
+    "Lvl -2 Team Rocket Grunt #37 ": {
       "nature": "Hasty",
       "ability": "Hustle",
       "level": -2,
@@ -22701,7 +22701,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #43 ": {
       "nature": "Docile",
       "ability": "Hustle",
       "level": 0,
@@ -22732,7 +22732,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -1 Rival - Route 22 #1": {
+    "Lvl -1 Rival #2 ": {
       "nature": "Bold",
       "ability": "Regenerator",
       "level": -1,
@@ -22762,7 +22762,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Rival - Route 22 #1 #rrhc-sheet-Rivals-54-0x1134040.1": {
+    "Lvl -1 Rival #3 ": {
       "nature": "Bold",
       "ability": "Regenerator",
       "level": -1,
@@ -22809,7 +22809,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -3 Bug Catcher Sammy - Virid. Forest": {
+    "Lvl -3 Bug Catcher Sammy #2 ": {
       "nature": "Bashful",
       "ability": "Prankster",
       "level": -3,
@@ -22839,7 +22839,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Twins Joy & Meg - Bond Bridge": {
+    "Lvl 0 Twins Joy & Meg": {
       "nature": "Timid",
       "ability": "Illuminate",
       "level": 0,
@@ -22964,7 +22964,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #19 ": {
       "nature": "Docile",
       "ability": "Shed Skin",
       "level": 0,
@@ -22979,7 +22979,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Team Rocket Grunt #390.4": {
+    "Lvl 0 Team Rocket Grunt #42 ": {
       "nature": "Relaxed",
       "ability": "Shed Skin",
       "level": 0,
@@ -22994,7 +22994,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Elite Four Agatha": {
+    "Lvl -2 Elite Four Agatha #3 ": {
       "nature": "Hardy",
       "ability": "Intimidate",
       "level": -2,
@@ -23010,7 +23010,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 48 Youngster Ben": {
+    "Lvl 48 Youngster Ben #4 ": {
       "nature": "Sassy",
       "ability": "Shed Skin",
       "level": 48,
@@ -23025,7 +23025,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 52 Youngster Timmy": {
+    "Lvl 52 Youngster Timmy #4 ": {
       "nature": "Calm",
       "ability": "Shed Skin",
       "level": 52,
@@ -23040,7 +23040,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 28 Youngster Chad": {
+    "Lvl 28 Youngster Chad #3 ": {
       "nature": "Bold",
       "ability": "Intimidate",
       "level": 28,
@@ -23055,7 +23055,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 48 Youngster Chad": {
+    "Lvl 48 Youngster Chad #4 ": {
       "nature": "Bold",
       "ability": "Intimidate",
       "level": 48,
@@ -23084,7 +23084,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -2 Elite Four Agatha #737.3": {
+    "Lvl -2 Elite Four Agatha #4 ": {
       "nature": "Quirky",
       "ability": "Intimidate",
       "level": -2,
@@ -23100,7 +23100,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 0 Rival - Cerulean City": {
+    "Lvl 0 Rival #4 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 0,
@@ -23130,7 +23130,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Rival - Cerulean City #rrhc-sheet-Rivals-128-0x1133ae4.3": {
+    "Lvl 0 Rival #5 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 0,
@@ -23160,7 +23160,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Rival - Cerulean City #rrhc-sheet-Rivals-153-0x1133b8c.3": {
+    "Lvl 0 Rival #6 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 0,
@@ -23256,7 +23256,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -2 Lass Reli - Nugg. Bridge": {
+    "Lvl -2 Lass Reli #4 ": {
       "nature": "Bashful",
       "ability": "Cheek Pouch",
       "level": -2,
@@ -23317,7 +23317,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 29 Picnicker Kelsey": {
+    "Lvl 29 Picnicker Kelsey #3 ": {
       "nature": "Gentle",
       "ability": "Poison Touch",
       "level": 29,
@@ -23332,7 +23332,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 49 Picnicker Kelsey": {
+    "Lvl 49 Picnicker Kelsey #4 ": {
       "nature": "Gentle",
       "ability": "Poison Touch",
       "level": 49,
@@ -23347,7 +23347,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl -1 Lass Megan": {
+    "Lvl -1 Lass Megan #3 ": {
       "nature": "Sassy",
       "ability": "Rivalry",
       "level": -1,
@@ -23363,7 +23363,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 30 Young Couple Gia Jes": {
+    "Lvl 30 Young Couple Gia Jes #2 ": {
       "nature": "Adamant",
       "ability": "Rivalry",
       "level": 30,
@@ -23467,7 +23467,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 27 Bug Catcher Colton": {
+    "Lvl 27 Bug Catcher Colton #3 ": {
       "nature": "Sassy",
       "ability": "Shed Skin",
       "level": 27,
@@ -23727,7 +23727,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 19 Bug Catcher Colton": {
+    "Lvl 19 Bug Catcher Colton #2 ": {
       "nature": "Bashful",
       "ability": "Shield Dust",
       "level": 19,
@@ -23773,7 +23773,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl -3 Bug Catcher Sammy - Virid. Forest": {
+    "Lvl -3 Bug Catcher Sammy #2 ": {
       "nature": "Bashful",
       "ability": "Technician",
       "level": -3,
@@ -23852,7 +23852,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 61
     },
-    "Lvl 27 Bug Catcher Colton": {
+    "Lvl 27 Bug Catcher Colton #3 ": {
       "nature": "Sassy",
       "ability": "Compound Eyes",
       "level": 27,
@@ -23867,7 +23867,7 @@ backup_data = {
       "trainerClass": 58,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 27 Bug Catcher Colton #730.2": {
+    "Lvl 27 Bug Catcher Colton #3 Set2 ": {
       "nature": "Hasty",
       "ability": "Compound Eyes",
       "level": 27,
@@ -23882,7 +23882,7 @@ backup_data = {
       "trainerClass": 58,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl -3 Bug Catcher Colton": {
+    "Lvl -3 Bug Catcher Colton #4 ": {
       "nature": "Sassy",
       "ability": "Compound Eyes",
       "level": -3,
@@ -23898,7 +23898,7 @@ backup_data = {
       "trainerClass": 58,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -3 Bug Catcher Colton #731.2": {
+    "Lvl -3 Bug Catcher Colton #4 Set2 ": {
       "nature": "Mild",
       "ability": "Compound Eyes",
       "level": -3,
@@ -23914,7 +23914,7 @@ backup_data = {
       "trainerClass": 58,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -2 Bug Catcher Cale - Nugg. Bridge": {
+    "Lvl -2 Bug Catcher Cale #2 ": {
       "nature": "Timid",
       "ability": "Compound Eyes",
       "level": -2,
@@ -24022,7 +24022,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 19 Bug Catcher Colton": {
+    "Lvl 19 Bug Catcher Colton #2 ": {
       "nature": "Careful",
       "ability": "Shed Skin",
       "level": 19,
@@ -24036,7 +24036,7 @@ backup_data = {
       "trainerClass": 58,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 19 Bug Catcher Colton #729.2": {
+    "Lvl 19 Bug Catcher Colton #2 Set2 ": {
       "nature": "Impish",
       "ability": "Shed Skin",
       "level": 19,
@@ -24189,7 +24189,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl -3 Bug Catcher Cale - Nugg. Bridge": {
+    "Lvl -3 Bug Catcher Cale #2 ": {
       "nature": "Bashful",
       "ability": "Friend Guard",
       "level": -3,
@@ -24265,7 +24265,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 61
     },
-    "Lvl -3 Rival Terry": {
+    "Lvl -3 Rival Terry #25 ": {
       "nature": "Hardy",
       "ability": "Guts",
       "level": -3,
@@ -24281,7 +24281,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -3 Rival Terry #740.0": {
+    "Lvl -3 Rival Terry #26 ": {
       "nature": "Hardy",
       "ability": "Guts",
       "level": -3,
@@ -24297,7 +24297,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -3 Rival Terry #741.0": {
+    "Lvl -3 Rival Terry #27 ": {
       "nature": "Hardy",
       "ability": "Guts",
       "level": -3,
@@ -24313,7 +24313,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 100 Black Belt Hugh - Kindle Road": {
+    "Lvl 100 Black Belt Hugh #4 ": {
       "nature": "Jolly",
       "ability": "Moxie",
       "level": 100,
@@ -24437,7 +24437,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 59
     },
-    "Lvl 20 Lass Reli": {
+    "Lvl 20 Lass Reli #2 ": {
       "nature": "Adamant",
       "ability": "Poison Touch",
       "level": 20,
@@ -24452,7 +24452,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 21 Picnicker Kelsey": {
+    "Lvl 21 Picnicker Kelsey #2 ": {
       "nature": "Calm",
       "ability": "Poison Touch",
       "level": 21,
@@ -24721,7 +24721,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl -2 Biker Jared - Route 13": {
+    "Lvl -2 Biker Jared #2 ": {
       "nature": "Adamant",
       "ability": "Chlorophyll",
       "level": -2,
@@ -24847,7 +24847,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 59
     },
-    "Lvl -1 Rival - Route 22 #1": {
+    "Lvl -1 Rival": {
       "nature": "Adamant",
       "ability": "Intimidate",
       "level": -1,
@@ -24877,7 +24877,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Rival - Route 22 #1 #rrhc-sheet-Rivals-30-0x1133fec.0": {
+    "Lvl -1 Rival #2 ": {
       "nature": "Adamant",
       "ability": "Intimidate",
       "level": -1,
@@ -24907,7 +24907,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Rival - Route 22 #1 #rrhc-sheet-Rivals-54-0x1134040.0": {
+    "Lvl -1 Rival #3 ": {
       "nature": "Adamant",
       "ability": "Intimidate",
       "level": -1,
@@ -25017,7 +25017,7 @@ backup_data = {
       "trainerClass": 65,
       "rawIvOrSpreadValue": 37
     },
-    "Lvl 21 Picnicker Kelsey": {
+    "Lvl 21 Picnicker Kelsey #2 ": {
       "nature": "Adamant",
       "ability": "Poison Touch",
       "level": 21,
@@ -25032,7 +25032,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 0 Lass Megan": {
+    "Lvl 0 Lass Megan #2 ": {
       "nature": "Gentle",
       "ability": "Rivalry",
       "level": 0,
@@ -25065,7 +25065,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 59
     },
-    "Lvl 0 Twins Joy & Meg - Bond Bridge": {
+    "Lvl 0 Twins Joy & Meg": {
       "nature": "Jolly",
       "ability": "Tinted Lens",
       "level": 0,
@@ -25176,7 +25176,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 59
     },
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #7 ": {
       "nature": "Lonely",
       "ability": "Trace",
       "level": -2,
@@ -25191,7 +25191,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 121
     },
-    "Lvl -3 Rival Terry": {
+    "Lvl -3 Rival Terry #8 ": {
       "nature": "Lonely",
       "ability": "Trace",
       "level": -3,
@@ -25206,7 +25206,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 121
     },
-    "Lvl -3 Rival Terry #334.0": {
+    "Lvl -3 Rival Terry #9 ": {
       "nature": "Lonely",
       "ability": "Trace",
       "level": -3,
@@ -25221,7 +25221,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 121
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #10 ": {
       "nature": "Bashful",
       "ability": "Trace",
       "level": 0,
@@ -25237,7 +25237,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 3
     },
-    "Lvl 0 Rival Terry #427.0": {
+    "Lvl 0 Rival Terry #11 ": {
       "nature": "Lonely",
       "ability": "Trace",
       "level": 0,
@@ -25253,7 +25253,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 3
     },
-    "Lvl 0 Rival Terry #428.0": {
+    "Lvl 0 Rival Terry #12 ": {
       "nature": "Lonely",
       "ability": "Trace",
       "level": 0,
@@ -25286,7 +25286,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 59
     },
-    "Lvl 85 Sheet Frontier Caroline - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Caroline": {
       "nature": "Jolly",
       "ability": "Hunger Switch",
       "level": 85,
@@ -25346,7 +25346,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 24 Picnicker Hannah #161.4": {
+    "Lvl 24 Picnicker Hannah Set2 ": {
       "nature": "Bashful",
       "ability": "Pickup",
       "level": 24,
@@ -25375,7 +25375,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 93
     },
-    "Lvl 25 Picnicker Alicia": {
+    "Lvl 25 Picnicker Alicia #2 ": {
       "nature": "Adamant",
       "ability": "Pickup",
       "level": 25,
@@ -25390,7 +25390,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl -2 Lass Megan": {
+    "Lvl -2 Lass Megan #2 ": {
       "nature": "Quirky",
       "ability": "Technician",
       "level": -2,
@@ -25406,7 +25406,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 27 Picnicker Susie": {
+    "Lvl 27 Picnicker Susie #2 ": {
       "nature": "Rash",
       "ability": "Technician",
       "level": 27,
@@ -25421,7 +25421,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 27 Picnicker Susie #658.4": {
+    "Lvl 27 Picnicker Susie #2 Set2 ": {
       "nature": "Hasty",
       "ability": "Technician",
       "level": 27,
@@ -25584,7 +25584,7 @@ backup_data = {
       "trainerClass": 101,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 28 Twins Eli Anne": {
+    "Lvl 28 Twins Eli Anne #2 ": {
       "nature": "Naughty",
       "ability": "Cute Charm",
       "level": 28,
@@ -25613,7 +25613,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 92
     },
-    "Lvl 37 Twins Joy Meg #560.1": {
+    "Lvl 37 Twins Joy Meg Set2 ": {
       "nature": "Sassy",
       "ability": "Magic Guard",
       "level": 37,
@@ -25642,7 +25642,7 @@ backup_data = {
       "trainerClass": 101,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 48 Pokemon Breeder Allison #610.1": {
+    "Lvl 48 Pokemon Breeder Allison Set2 ": {
       "nature": "Hasty",
       "ability": "Magic Guard",
       "level": 48,
@@ -25657,7 +25657,7 @@ backup_data = {
       "trainerClass": 101,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 49 Beauty Sheila": {
+    "Lvl 49 Beauty Sheila #2 ": {
       "nature": "Rash",
       "ability": "Cute Charm",
       "level": 49,
@@ -25672,7 +25672,7 @@ backup_data = {
       "trainerClass": 73,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Twins Joy Meg": {
+    "Lvl 49 Twins Joy Meg #2 ": {
       "nature": "Bold",
       "ability": "Magic Guard",
       "level": 49,
@@ -25687,7 +25687,7 @@ backup_data = {
       "trainerClass": 92,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Twins Joy Meg #702.1": {
+    "Lvl 49 Twins Joy Meg #2 Set2 ": {
       "nature": "Sassy",
       "ability": "Magic Guard",
       "level": 49,
@@ -25702,7 +25702,7 @@ backup_data = {
       "trainerClass": 92,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 53 Pokemon Breeder Alize": {
+    "Lvl 53 Pokemon Breeder Alize #2 ": {
       "nature": "Sassy",
       "ability": "Magic Guard",
       "level": 53,
@@ -25862,7 +25862,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl 25 Team Rocket Grunt": {
+    "Lvl 25 Team Rocket Grunt #9 ": {
       "nature": "Jolly",
       "ability": "Sheer Force",
       "level": 25,
@@ -25877,7 +25877,7 @@ backup_data = {
       "trainerClass": 85,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #12 ": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": 0,
@@ -26081,7 +26081,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl -1 Rival - Cerulean City": {
+    "Lvl -1 Rival #6 ": {
       "nature": "Timid",
       "ability": "Sage Power",
       "level": -1,
@@ -26209,7 +26209,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 69
     },
-    "Lvl -2 Lass Reli - Nugg. Bridge": {
+    "Lvl -2 Lass Reli #4 ": {
       "nature": "Modest",
       "ability": "Shell Armor",
       "level": -2,
@@ -26272,7 +26272,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 60
     },
-    "Lvl -2 Sheet Frontier Brendan - Virid. Forest": {
+    "Lvl -2 Sheet Frontier Brendan": {
       "nature": "Adamant",
       "ability": "Pure Power",
       "level": -2,
@@ -26318,7 +26318,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 60
     },
-    "Lvl 28 Sheet Frontier Brendan - S.S. Anne": {
+    "Lvl 28 Sheet Frontier Brendan #2 ": {
       "nature": "Timid",
       "ability": "Transistor",
       "level": 28,
@@ -26347,7 +26347,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Youngster Timmy - Nugg. Bridge": {
+    "Lvl -2 Youngster Timmy #5 ": {
       "nature": "Timid",
       "ability": "Plus",
       "level": -2,
@@ -26377,7 +26377,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Twins Joy & Meg - Bond Bridge": {
+    "Lvl 0 Twins Joy & Meg": {
       "nature": "Timid",
       "ability": "Transistor",
       "level": 0,
@@ -26423,7 +26423,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 60
     },
-    "Lvl 0 Twins Joy & Meg - Bond Bridge": {
+    "Lvl 0 Twins Joy & Meg": {
       "nature": "Jolly",
       "ability": "Galvanize",
       "level": 0,
@@ -26579,7 +26579,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 30 Bird Keeper Marlon": {
+    "Lvl 30 Bird Keeper Marlon #2 ": {
       "nature": "Impish",
       "ability": "Run Away",
       "level": 30,
@@ -26594,7 +26594,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 30 Bird Keeper Chester": {
+    "Lvl 30 Bird Keeper Chester #2 ": {
       "nature": "Sassy",
       "ability": "Early Bird",
       "level": 30,
@@ -26640,7 +26640,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 72
     },
-    "Lvl -2 Youngster Timmy - Nugg. Bridge": {
+    "Lvl -2 Youngster Timmy #5 ": {
       "nature": "Timid",
       "ability": "Minus",
       "level": -2,
@@ -26719,7 +26719,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl -2 Sheet Frontier Grunt - Dig House": {
+    "Lvl -2 Sheet Frontier Grunt #2 ": {
       "nature": "Timid",
       "ability": "Feline Prowess",
       "level": -2,
@@ -26766,7 +26766,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 61
     },
-    "Lvl 14 Team Rocket Grunt": {
+    "Lvl 14 Team Rocket Grunt #7 ": {
       "nature": "Modest",
       "ability": "Aftermath",
       "level": 14,
@@ -26780,7 +26780,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #15 ": {
       "nature": "Modest",
       "ability": "Aftermath",
       "level": 0,
@@ -27109,7 +27109,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 92
     },
-    "Lvl 50 Twins Miu Mia #580.1": {
+    "Lvl 50 Twins Miu Mia Set2 ": {
       "nature": "Serious",
       "ability": "Static",
       "level": 50,
@@ -27123,7 +27123,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 92
     },
-    "Lvl -1 Lass Megan": {
+    "Lvl -1 Lass Megan #2 ": {
       "nature": "Rash",
       "ability": "Static",
       "level": -1,
@@ -27139,7 +27139,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 27 Picnicker Susie": {
+    "Lvl 27 Picnicker Susie #2 ": {
       "nature": "Rash",
       "ability": "Static",
       "level": 27,
@@ -27154,7 +27154,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 47 Picnicker Susie": {
+    "Lvl 47 Picnicker Susie #3 ": {
       "nature": "Careful",
       "ability": "Static",
       "level": 47,
@@ -27169,7 +27169,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 32 Picnicker Becky": {
+    "Lvl 32 Picnicker Becky #2 ": {
       "nature": "Docile",
       "ability": "Static",
       "level": 32,
@@ -27184,7 +27184,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 49 Picnicker Becky": {
+    "Lvl 49 Picnicker Becky #3 ": {
       "nature": "Docile",
       "ability": "Static",
       "level": 49,
@@ -27199,7 +27199,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 53 Pokemon Breeder Alize": {
+    "Lvl 53 Pokemon Breeder Alize #2 ": {
       "nature": "Careful",
       "ability": "Static",
       "level": 53,
@@ -27345,7 +27345,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl -3 Lass Reli - Nugg. Bridge": {
+    "Lvl -3 Lass Reli #4 ": {
       "nature": "Bashful",
       "ability": "Serene Grace",
       "level": -3,
@@ -27392,7 +27392,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #8 ": {
       "nature": "Adamant",
       "ability": "Overgrow",
       "level": 0,
@@ -27424,7 +27424,7 @@ backup_data = {
       "item": "X Attack",
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 0 Rival Terry #427.3": {
+    "Lvl 0 Rival Terry #11 ": {
       "nature": "Quirky",
       "ability": "Overgrow",
       "level": 0,
@@ -27440,7 +27440,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 0 Rival Terry #430.4": {
+    "Lvl 0 Rival Terry #14 ": {
       "nature": "Mild",
       "ability": "Overgrow",
       "level": 0,
@@ -27470,7 +27470,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 103
     },
-    "Lvl 36 Aroma Lady Violet #558.2": {
+    "Lvl 36 Aroma Lady Violet Set2 ": {
       "nature": "Adamant",
       "ability": "Overgrow",
       "level": 36,
@@ -27484,7 +27484,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 103
     },
-    "Lvl 0 Rival - Cerulean City": {
+    "Lvl 0 Rival #6 ": {
       "nature": "Timid",
       "ability": "Overgrow",
       "level": 0,
@@ -27561,7 +27561,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 20 Lass Reli": {
+    "Lvl 20 Lass Reli #2 ": {
       "nature": "Adamant",
       "ability": "Frisk",
       "level": 20,
@@ -27591,7 +27591,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -3 Picnicker Isabelle": {
+    "Lvl -3 Picnicker Isabelle #2 ": {
       "nature": "Naughty",
       "ability": "Frisk",
       "level": -3,
@@ -27689,7 +27689,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 33 Pokemaniac Mark": {
+    "Lvl 33 Pokemaniac Mark #2 ": {
       "nature": "Careful",
       "ability": "Own Tempo",
       "level": 33,
@@ -27704,7 +27704,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 90
     },
-    "Lvl 54 Pokemaniac Mark": {
+    "Lvl 54 Pokemaniac Mark #3 ": {
       "nature": "Hardy",
       "ability": "Own Tempo",
       "level": 54,
@@ -27719,7 +27719,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 150
     },
-    "Lvl -3 Tamer Evan": {
+    "Lvl -3 Tamer Evan #2 ": {
       "nature": "Naive",
       "ability": "Own Tempo",
       "level": -3,
@@ -27787,7 +27787,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 0 Picnicker Alicia - Route 9": {
+    "Lvl 0 Picnicker Alicia #5 ": {
       "nature": "Jolly",
       "ability": "Toxic Boost",
       "level": 0,
@@ -27817,7 +27817,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak #2 ": {
       "nature": "Jolly",
       "ability": "Toxic Boost",
       "level": 100,
@@ -27915,7 +27915,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 37 Team Rocket Grunt": {
+    "Lvl 37 Team Rocket Grunt #45 ": {
       "nature": "Modest",
       "ability": "Battle Armor",
       "level": 37,
@@ -27976,7 +27976,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 82
     },
-    "Lvl 28 Engineer Bernie": {
+    "Lvl 28 Engineer Bernie #2 ": {
       "nature": "Careful",
       "ability": "Magnet Pull",
       "level": 28,
@@ -27991,7 +27991,7 @@ backup_data = {
       "trainerClass": 68,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Engineer Bernie #635.1": {
+    "Lvl 28 Engineer Bernie #2 Set2 ": {
       "nature": "Naughty",
       "ability": "Magnet Pull",
       "level": 28,
@@ -28006,7 +28006,7 @@ backup_data = {
       "trainerClass": 68,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Engineer Bernie #635.2": {
+    "Lvl 28 Engineer Bernie #2 Set3 ": {
       "nature": "Rash",
       "ability": "Magnet Pull",
       "level": 28,
@@ -28053,7 +28053,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl 0 Elite Four Lorelei": {
+    "Lvl 0 Elite Four Lorelei #3 ": {
       "nature": "Hardy",
       "ability": "Hydration",
       "level": 0,
@@ -28084,7 +28084,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl 0 Elite Four Lorelei #735.4": {
+    "Lvl 0 Elite Four Lorelei #4 ": {
       "nature": "Modest",
       "ability": "Hydration",
       "level": 0,
@@ -28165,7 +28165,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 61
     },
-    "Lvl -2 Leader Falkner - Pewter Museum": {
+    "Lvl -2 Leader Falkner #4 ": {
       "nature": "Bashful",
       "ability": "Scrappy",
       "level": -2,
@@ -28241,7 +28241,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 9
     },
-    "Lvl 20 Cooltrainer Janny #175.1": {
+    "Lvl 20 Cooltrainer Janny Set2 ": {
       "nature": "Impish",
       "ability": "Sturdy",
       "level": 20,
@@ -28255,7 +28255,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 9
     },
-    "Lvl 20 Cooltrainer Janny #175.3": {
+    "Lvl 20 Cooltrainer Janny Set3 ": {
       "nature": "Calm",
       "ability": "Sturdy",
       "level": 20,
@@ -28359,7 +28359,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 64
     },
-    "Lvl 38 Biker Goon": {
+    "Lvl 38 Biker Goon #3 ": {
       "nature": "Rash",
       "ability": "Stench",
       "level": 38,
@@ -28373,7 +28373,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 66
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #51 ": {
       "nature": "Relaxed",
       "ability": "Sticky Hold",
       "level": 48,
@@ -28453,7 +28453,7 @@ backup_data = {
       "trainerClass": 82,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #16 ": {
       "nature": "Sassy",
       "ability": "Gluttony",
       "level": 0,
@@ -28484,7 +28484,7 @@ backup_data = {
       "trainerClass": 46,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 85 Sheet Frontier Co.lby - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Co.lby": {
       "nature": "Adamant",
       "ability": "Poison Touch",
       "level": 85,
@@ -28572,7 +28572,7 @@ backup_data = {
       "item": "Stardust",
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #14 ": {
       "nature": "Adamant",
       "ability": "Neutralizing Gas",
       "level": 0,
@@ -28587,7 +28587,7 @@ backup_data = {
       "partyFlags": 3,
       "trainerClass": 85
     },
-    "Lvl 38 Team Rocket Grunt": {
+    "Lvl 38 Team Rocket Grunt #21 ": {
       "nature": "Bold",
       "ability": "Neutralizing Gas",
       "level": 38,
@@ -28616,7 +28616,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 66
     },
-    "Lvl 47 Biker Lukas": {
+    "Lvl 47 Biker Lukas #2 ": {
       "nature": "Docile",
       "ability": "Neutralizing Gas",
       "level": 47,
@@ -28631,7 +28631,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 48 Biker Ruben": {
+    "Lvl 48 Biker Ruben #2 ": {
       "nature": "Timid",
       "ability": "Neutralizing Gas",
       "level": 48,
@@ -28646,7 +28646,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 48 Biker Ruben #675.1": {
+    "Lvl 48 Biker Ruben #2 Set2 ": {
       "nature": "Calm",
       "ability": "Neutralizing Gas",
       "level": 48,
@@ -28661,7 +28661,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 48 Biker Ruben #675.2": {
+    "Lvl 48 Biker Ruben #2 Set3 ": {
       "nature": "Gentle",
       "ability": "Neutralizing Gas",
       "level": 48,
@@ -28676,7 +28676,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Biker Jaxon": {
+    "Lvl 49 Biker Jaxon #2 ": {
       "nature": "Lax",
       "ability": "Neutralizing Gas",
       "level": 49,
@@ -28736,7 +28736,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 9
     },
-    "Lvl 26 Team Rocket Grunt": {
+    "Lvl 26 Team Rocket Grunt #25 ": {
       "nature": "Lonely",
       "ability": "Neutralizing Gas",
       "level": 26,
@@ -28765,7 +28765,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 66
     },
-    "Lvl 38 Biker Goon": {
+    "Lvl 38 Biker Goon #2 ": {
       "nature": "Careful",
       "ability": "Levitate",
       "level": 38,
@@ -28779,7 +28779,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 66
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #52 ": {
       "nature": "Naughty",
       "ability": "Neutralizing Gas",
       "level": 0,
@@ -28794,7 +28794,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 85
     },
-    "Lvl 47 Biker Lukas": {
+    "Lvl 47 Biker Lukas #2 ": {
       "nature": "Impish",
       "ability": "Neutralizing Gas",
       "level": 47,
@@ -28809,7 +28809,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Biker Lukas #661.1": {
+    "Lvl 47 Biker Lukas #2 Set2 ": {
       "nature": "Mild",
       "ability": "Neutralizing Gas",
       "level": 47,
@@ -28884,7 +28884,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 76
     },
-    "Lvl 20 Rocker Randall #284.2": {
+    "Lvl 20 Rocker Randall Set2 ": {
       "nature": "Mild",
       "ability": "Static",
       "level": 20,
@@ -29053,7 +29053,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 94
     },
-    "Lvl 79 Sheet Frontier Archer - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Archer #3 ": {
       "nature": "Timid",
       "ability": "Drought",
       "level": 79,
@@ -29082,7 +29082,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Sheet Frontier Herman - Route 10 Poke Maniac": {
+    "Lvl -2 Sheet Frontier Herman": {
       "nature": "Timid",
       "ability": "Drought",
       "level": -2,
@@ -29187,7 +29187,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 94
     },
-    "Lvl -2 Bird Keeper Perry - Route 13": {
+    "Lvl -2 Bird Keeper Perry #2 ": {
       "nature": "Jolly",
       "ability": "Blazing Soul",
       "level": -2,
@@ -29279,7 +29279,7 @@ backup_data = {
       "trainerClass": 82,
       "rawIvOrSpreadValue": 17
     },
-    "Lvl 54 Camper Chris": {
+    "Lvl 54 Camper Chris #4 ": {
       "nature": "Naive",
       "ability": "Flash Fire",
       "level": 54,
@@ -29294,7 +29294,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #25 ": {
       "nature": "Brave",
       "ability": "Flash Fire",
       "level": -2,
@@ -29310,7 +29310,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Rival Terry #740.4": {
+    "Lvl -2 Rival Terry #26 ": {
       "nature": "Modest",
       "ability": "Flash Fire",
       "level": -2,
@@ -29326,7 +29326,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Sheet Frontier Grunt - Nugg. Bridge": {
+    "Lvl -2 Sheet Frontier Grunt": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": -2,
@@ -29356,7 +29356,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Burglar Lewis - Mansion": {
+    "Lvl -2 Burglar Lewis #2 ": {
       "nature": "Adamant",
       "ability": "Intimidate",
       "level": -2,
@@ -29386,7 +29386,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Co.lby - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Co.lby": {
       "nature": "Adamant",
       "ability": "Intimidate",
       "level": 85,
@@ -29481,7 +29481,7 @@ backup_data = {
       "item": "Charzardite Y",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #18 ": {
       "nature": "Sassy",
       "ability": "Blaze",
       "level": 0,
@@ -29498,7 +29498,7 @@ backup_data = {
       "item": "Charzardite Y",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 0 Rival Terry #437.5": {
+    "Lvl 0 Rival Terry #21 ": {
       "nature": "Rash",
       "ability": "Blaze",
       "level": 0,
@@ -29515,7 +29515,7 @@ backup_data = {
       "item": "Charzardite X",
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 0 Rival Terry #741.5": {
+    "Lvl 0 Rival Terry #27 ": {
       "nature": "Docile",
       "ability": "Blaze",
       "level": 0,
@@ -29532,7 +29532,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 76 Leader Blaine": {
+    "Lvl 76 Leader Blaine #3 ": {
       "nature": "Jolly",
       "ability": "Solar Power",
       "level": 76,
@@ -29562,7 +29562,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #8 ": {
       "nature": "Jolly",
       "ability": "Solar Power",
       "level": 56,
@@ -29592,7 +29592,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #11 ": {
       "nature": "Timid",
       "ability": "Blaze",
       "level": 82,
@@ -29622,7 +29622,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Bird Keeper Sebastian - Route 13": {
+    "Lvl -2 Bird Keeper Sebastian #2 ": {
       "nature": "Jolly",
       "ability": "Blaze",
       "level": -2,
@@ -29653,7 +29653,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Lucy - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Lucy": {
       "nature": "Timid",
       "ability": "Solar Power",
       "level": 76,
@@ -29682,7 +29682,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak": {
       "nature": "Jolly",
       "ability": "Blaze",
       "level": 100,
@@ -29712,7 +29712,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Samantha - PKMN Tower Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Samantha": {
       "nature": "Timid",
       "ability": "Solar Power",
       "level": 100,
@@ -29773,7 +29773,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 47 Sheet Frontier Guard - Rocket Hide. Right": {
+    "Lvl 47 Sheet Frontier Guard #3 ": {
       "nature": "Timid",
       "ability": "Gale Wings",
       "level": 47,
@@ -29919,7 +29919,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 65
     },
-    "Lvl -1 Leader Brock": {
+    "Lvl -1 Leader Brock #2 ": {
       "nature": "Gentle",
       "ability": "Sturdy",
       "level": -1,
@@ -30000,7 +30000,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 65
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #49 ": {
       "nature": "Mild",
       "ability": "No Guard",
       "level": 48,
@@ -30014,7 +30014,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 48 Team Rocket Grunt #541.1": {
+    "Lvl 48 Team Rocket Grunt #49 Set2 ": {
       "nature": "Relaxed",
       "ability": "No Guard",
       "level": 48,
@@ -30174,7 +30174,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl -44 Boss Giovanni": {
+    "Lvl -44 Boss Giovanni #4 ": {
       "nature": "Quiet",
       "ability": "Lightning Rod",
       "level": -44,
@@ -30204,7 +30204,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 33 Pokemaniac Mark": {
+    "Lvl 33 Pokemaniac Mark #2 ": {
       "nature": "Adamant",
       "ability": "Lightning Rod",
       "level": 33,
@@ -30316,7 +30316,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl -1 Boss Giovanni": {
+    "Lvl -1 Boss Giovanni #2 ": {
       "nature": "Calm",
       "ability": "Poison Touch",
       "level": -1,
@@ -30378,7 +30378,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 61
     },
-    "Lvl 55 Young Couple Gia Jes": {
+    "Lvl 55 Young Couple Gia Jes #3 ": {
       "nature": "Timid",
       "ability": "Rivalry",
       "level": 55,
@@ -30393,7 +30393,7 @@ backup_data = {
       "trainerClass": 94,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 68 Leader Koga": {
+    "Lvl 68 Leader Koga #2 ": {
       "nature": "Rash",
       "ability": "Sheer Force",
       "level": 68,
@@ -30423,7 +30423,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Boss Giovanni": {
+    "Lvl 47 Boss Giovanni #7 ": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": 47,
@@ -30453,7 +30453,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Koga #rrhc-sheet-Kanto-Leaders-129-0x1131058.4": {
+    "Lvl 68 Leader Koga #3 ": {
       "nature": "Rash",
       "ability": "Sheer Force",
       "level": 68,
@@ -30482,7 +30482,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Sheet Frontier Giovanni - Rocket Hide.": {
+    "Lvl 47 Sheet Frontier Giovanni": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": 47,
@@ -30511,7 +30511,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak #2 ": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": 100,
@@ -30540,7 +30540,7 @@ backup_data = {
         "sd": 4
       }
     },
-    "Lvl 100 Crush Girl Sharon - Kindle Road": {
+    "Lvl 100 Crush Girl Sharon #4 ": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": 100,
@@ -30679,7 +30679,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 65
     },
-    "Lvl 0 Leader Brock": {
+    "Lvl 0 Leader Brock #4 ": {
       "nature": "Bold",
       "ability": "Storm Drain",
       "level": 0,
@@ -30760,7 +30760,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 65
     },
-    "Lvl -3 Sheet Frontier Archer - Mt. Moon": {
+    "Lvl -3 Sheet Frontier Archer": {
       "nature": "Bashful",
       "ability": "Toxic Debris",
       "level": -3,
@@ -30807,7 +30807,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 65
     },
-    "Lvl 81 Leader Clair": {
+    "Lvl 81 Leader Clair #5 ": {
       "nature": "Impish",
       "ability": "Solid Rock",
       "level": 81,
@@ -30837,7 +30837,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Leader Clair #rrhc-sheet-Kanto-Leaders-179-0x11303e0.0": {
+    "Lvl 81 Leader Clair #6 ": {
       "nature": "Impish",
       "ability": "Solid Rock",
       "level": 81,
@@ -30930,7 +30930,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 77
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #20 ": {
       "nature": "Naive",
       "ability": "Aftermath",
       "level": -1,
@@ -30945,7 +30945,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #30 ": {
       "nature": "Adamant",
       "ability": "Aftermath",
       "level": 0,
@@ -30960,7 +30960,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #386.2": {
+    "Lvl -1 Team Rocket Grunt #38 ": {
       "nature": "Docile",
       "ability": "Aftermath",
       "level": -1,
@@ -30992,7 +30992,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 66
     },
-    "Lvl 50 Crush Girl Sharon": {
+    "Lvl 50 Crush Girl Sharon #2 ": {
       "nature": "Adamant",
       "ability": "Vital Spirit",
       "level": 50,
@@ -31055,7 +31055,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #20 ": {
       "nature": "Timid",
       "ability": "Shed Skin",
       "level": 0,
@@ -31070,7 +31070,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #24 ": {
       "nature": "Timid",
       "ability": "Shed Skin",
       "level": -1,
@@ -31085,7 +31085,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Team Rocket Grunt": {
+    "Lvl -2 Team Rocket Grunt #38 ": {
       "nature": "Timid",
       "ability": "Shed Skin",
       "level": -2,
@@ -31100,7 +31100,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Sheet Frontier Archer - Mt. Moon": {
+    "Lvl -2 Sheet Frontier Archer": {
       "nature": "Bashful",
       "ability": "Fatal Precision",
       "level": -2,
@@ -31283,7 +31283,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 49 Cue Ball Camron": {
+    "Lvl 49 Cue Ball Camron #2 ": {
       "nature": "Adamant",
       "ability": "Vital Spirit",
       "level": 49,
@@ -31298,7 +31298,7 @@ backup_data = {
       "trainerClass": 71,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Cue Ball Corey": {
+    "Lvl 49 Cue Ball Corey #2 ": {
       "nature": "Lonely",
       "ability": "Anger Point",
       "level": 49,
@@ -31313,7 +31313,7 @@ backup_data = {
       "trainerClass": 71,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 50 Crush Girl Sharon": {
+    "Lvl 50 Crush Girl Sharon #2 ": {
       "nature": "Bold",
       "ability": "Vital Spirit",
       "level": 50,
@@ -31329,7 +31329,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 130
     },
-    "Lvl 55 Crush Girl Sharon": {
+    "Lvl 55 Crush Girl Sharon #3 ": {
       "nature": "Rash",
       "ability": "Vital Spirit",
       "level": 55,
@@ -31345,7 +31345,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl 55 Crush Girl Sharon #692.1": {
+    "Lvl 55 Crush Girl Sharon #3 Set2 ": {
       "nature": "Gentle",
       "ability": "Vital Spirit",
       "level": 55,
@@ -31361,7 +31361,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl 51 Crush Kin Mik Kia": {
+    "Lvl 51 Crush Kin Mik Kia #2 ": {
       "nature": "Modest",
       "ability": "Anger Point",
       "level": 51,
@@ -31377,7 +31377,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 130
     },
-    "Lvl 56 Crush Kin Mik Kia": {
+    "Lvl 56 Crush Kin Mik Kia #3 ": {
       "nature": "Lax",
       "ability": "Anger Point",
       "level": 56,
@@ -31393,7 +31393,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl 54 Crush Girl Cyndy": {
+    "Lvl 54 Crush Girl Cyndy #2 ": {
       "nature": "Docile",
       "ability": "Anger Point",
       "level": 54,
@@ -31471,7 +31471,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 61
     },
-    "Lvl -1 Burglar Lewis - Mansion": {
+    "Lvl -1 Burglar Lewis #2 ": {
       "nature": "Jolly",
       "ability": "Sniper",
       "level": -1,
@@ -31501,7 +31501,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Aroma Lady Nikki - Bond Bridge": {
+    "Lvl 100 Aroma Lady Nikki #2 ": {
       "nature": "Jolly",
       "ability": "Sniper",
       "level": 100,
@@ -31592,7 +31592,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 66
     },
-    "Lvl -4 Team Rocket Grunt": {
+    "Lvl -4 Team Rocket Grunt #15 ": {
       "nature": "Mild",
       "ability": "Strong Jaw",
       "level": -4,
@@ -31607,7 +31607,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #24 ": {
       "nature": "Quirky",
       "ability": "Strong Jaw",
       "level": -1,
@@ -31728,7 +31728,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 82
     },
-    "Lvl 33 Rocker Luca": {
+    "Lvl 33 Rocker Luca #2 ": {
       "nature": "Timid",
       "ability": "Soundproof",
       "level": 33,
@@ -31743,7 +31743,7 @@ backup_data = {
       "trainerClass": 76,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 33 Rocker Luca #654.1": {
+    "Lvl 33 Rocker Luca #2 Set2 ": {
       "nature": "Bold",
       "ability": "Soundproof",
       "level": 33,
@@ -31758,7 +31758,7 @@ backup_data = {
       "trainerClass": 76,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 52 Juggler Mason": {
+    "Lvl 52 Juggler Mason #2 ": {
       "nature": "Quiet",
       "ability": "Static",
       "level": 52,
@@ -31773,7 +31773,7 @@ backup_data = {
       "trainerClass": 77,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 52 Juggler Mason #719.2": {
+    "Lvl 52 Juggler Mason #2 Set2 ": {
       "nature": "Rash",
       "ability": "Static",
       "level": 52,
@@ -31788,7 +31788,7 @@ backup_data = {
       "trainerClass": 77,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 68 Juggler Kayden - Fuchsia Gym": {
+    "Lvl 68 Juggler Kayden #2 ": {
       "nature": "Naive",
       "ability": "Galvanize",
       "level": 68,
@@ -31908,7 +31908,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 88
     },
-    "Lvl 100 Sheet Frontier Tisha - Bond Bridge Swimmer": {
+    "Lvl 100 Sheet Frontier Tisha": {
       "nature": "Timid",
       "ability": "Swift Swim",
       "level": 100,
@@ -31970,7 +31970,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 66
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #33 ": {
       "nature": "Rash",
       "ability": "Dry Skin",
       "level": -1,
@@ -31985,7 +31985,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Leader Misty": {
+    "Lvl -1 Leader Misty #7 ": {
       "nature": "Jolly",
       "ability": "Dry Skin",
       "level": -1,
@@ -32017,7 +32017,7 @@ backup_data = {
     }
   },
   "Growlithe": {
-    "Lvl 29 Triathlete Oak": {
+    "Lvl 29 Triathlete Oak #2 ": {
       "nature": "Mild",
       "ability": "Flash Fire",
       "level": 29,
@@ -32087,7 +32087,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 88
     },
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #13 ": {
       "nature": "Gentle",
       "ability": "Flash Fire",
       "level": -2,
@@ -32103,7 +32103,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl -3 Rival Terry": {
+    "Lvl -3 Rival Terry #14 ": {
       "nature": "Hardy",
       "ability": "Flash Fire",
       "level": -3,
@@ -32119,7 +32119,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 29 Gambler Darian": {
+    "Lvl 29 Gambler Darian #2 ": {
       "nature": "Gentle",
       "ability": "Intimidate",
       "level": 29,
@@ -32134,7 +32134,7 @@ backup_data = {
       "trainerClass": 72,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 24 Camper Chris": {
+    "Lvl 24 Camper Chris #2 ": {
       "nature": "Quiet",
       "ability": "Flash Fire",
       "level": 24,
@@ -32149,7 +32149,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 29 Camper Chris": {
+    "Lvl 29 Camper Chris #3 ": {
       "nature": "Quiet",
       "ability": "Flash Fire",
       "level": 29,
@@ -32164,7 +32164,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 30 Gambler Rich": {
+    "Lvl 30 Gambler Rich #2 ": {
       "nature": "Gentle",
       "ability": "Intimidate",
       "level": 30,
@@ -32181,7 +32181,7 @@ backup_data = {
     }
   },
   "Vulpix": {
-    "Lvl 29 Triathlete Oak": {
+    "Lvl 29 Triathlete Oak #2 ": {
       "nature": "Impish",
       "ability": "Flash Fire",
       "level": 29,
@@ -32195,7 +32195,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 32
     },
-    "Lvl 28 Burglar": {
+    "Lvl 28 Burglar #2 ": {
       "nature": "Docile",
       "ability": "Flash Fire",
       "level": 28,
@@ -32209,7 +32209,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 67
     },
-    "Lvl 0 Leader Brock": {
+    "Lvl 0 Leader Brock #2 ": {
       "nature": "Naive",
       "ability": "Flash Fire",
       "level": 0,
@@ -32241,7 +32241,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 66
     },
-    "Lvl 29 Gambler Darian": {
+    "Lvl 29 Gambler Darian #2 ": {
       "nature": "Quirky",
       "ability": "Flash Fire",
       "level": 29,
@@ -32256,7 +32256,7 @@ backup_data = {
       "trainerClass": 72,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 30 Gambler Rich": {
+    "Lvl 30 Gambler Rich #2 ": {
       "nature": "Lonely",
       "ability": "Flash Fire",
       "level": 30,
@@ -32273,7 +32273,7 @@ backup_data = {
     }
   },
   "Charmander": {
-    "Lvl 28 Burglar": {
+    "Lvl 28 Burglar #2 ": {
       "nature": "Lonely",
       "ability": "Blaze",
       "level": 28,
@@ -32287,7 +32287,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 67
     },
-    "Lvl 34 Burglar": {
+    "Lvl 34 Burglar #3 ": {
       "nature": "Docile",
       "ability": "Blaze",
       "level": 34,
@@ -32301,7 +32301,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 67
     },
-    "Lvl 5 Rival Terry": {
+    "Lvl 5 Rival Terry #3 ": {
       "nature": "Modest",
       "ability": "Blaze",
       "level": 5,
@@ -32314,7 +32314,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 81
     },
-    "Lvl 9 Rival Terry": {
+    "Lvl 9 Rival Terry #6 ": {
       "nature": "Lonely",
       "ability": "Blaze",
       "level": 9,
@@ -32328,7 +32328,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 81
     },
-    "Lvl 24 Camper Chris": {
+    "Lvl 24 Camper Chris #2 ": {
       "nature": "Impish",
       "ability": "Blaze",
       "level": 24,
@@ -32343,7 +32343,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 0 Rival - Route 22 #1": {
+    "Lvl 0 Rival #2 ": {
       "nature": "Jolly",
       "ability": "Solar Power",
       "level": 0,
@@ -32435,7 +32435,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 80 Boss Giovanni": {
+    "Lvl 80 Boss Giovanni #5 ": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": 80,
@@ -32465,7 +32465,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 80 Sheet Frontier Giovanni - Cerulea. Cave": {
+    "Lvl 80 Sheet Frontier Giovanni #3 ": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": 80,
@@ -32494,7 +32494,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Derek - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Derek": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": 76,
@@ -32523,7 +32523,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Camper Bryce - Kindle Road": {
+    "Lvl -1 Camper Bryce #2 ": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": -1,
@@ -32553,7 +32553,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Ariana - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Ariana #2 ": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": 100,
@@ -32599,7 +32599,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 67
     },
-    "Lvl -2 Bird Keeper Robert - Route 13": {
+    "Lvl -2 Bird Keeper Robert #4 ": {
       "nature": "Naive",
       "ability": "Bull Rush",
       "level": -2,
@@ -32629,7 +32629,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Scientist Ted - Pkm Mansion": {
+    "Lvl 0 Scientist Ted #2 ": {
       "nature": "Naive",
       "ability": "Bull Rush",
       "level": 0,
@@ -32659,7 +32659,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Boss - Three Island": {
+    "Lvl 100 Boss": {
       "nature": "Jolly",
       "ability": "Bull Rush",
       "level": 100,
@@ -32735,7 +32735,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 9
     },
-    "Lvl 28 Leader Whitney": {
+    "Lvl 28 Leader Whitney #3 ": {
       "nature": "Timid",
       "ability": "Adaptability",
       "level": 28,
@@ -32765,7 +32765,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Whitney - Route 11": {
+    "Lvl 28 Leader Whitney #4 ": {
       "nature": "Timid",
       "ability": "Adaptability",
       "level": 28,
@@ -32796,7 +32796,7 @@ backup_data = {
     }
   },
   "Charmeleon": {
-    "Lvl 34 Burglar": {
+    "Lvl 34 Burglar #3 ": {
       "nature": "Bold",
       "ability": "Blaze",
       "level": 34,
@@ -32810,7 +32810,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 67
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #9 ": {
       "nature": "Hardy",
       "ability": "Blaze",
       "level": 0,
@@ -32825,7 +32825,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 125
     },
-    "Lvl 0 Rival Terry #428.3": {
+    "Lvl 0 Rival Terry #12 ": {
       "nature": "Gentle",
       "ability": "Blaze",
       "level": 0,
@@ -32841,7 +32841,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 3
     },
-    "Lvl 0 Rival Terry #431.4": {
+    "Lvl 0 Rival Terry #15 ": {
       "nature": "Bashful",
       "ability": "Blaze",
       "level": 0,
@@ -32857,7 +32857,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 29 Camper Chris": {
+    "Lvl 29 Camper Chris #3 ": {
       "nature": "Serious",
       "ability": "Blaze",
       "level": 29,
@@ -32872,7 +32872,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 54 Camper Chris": {
+    "Lvl 54 Camper Chris #4 ": {
       "nature": "Lax",
       "ability": "Blaze",
       "level": 54,
@@ -32887,7 +32887,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 0 Rival - Cerulean City": {
+    "Lvl 0 Rival #5 ": {
       "nature": "Jolly",
       "ability": "Blaze",
       "level": 0,
@@ -33040,7 +33040,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl 31 Cue Ball Chase #257.1": {
+    "Lvl 31 Cue Ball Chase Set2 ": {
       "nature": "Jolly",
       "ability": "Liquid Ooze",
       "level": 31,
@@ -33312,7 +33312,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 96
     },
-    "Lvl 28 Fisherman Elliot": {
+    "Lvl 28 Fisherman Elliot #2 ": {
       "nature": "Relaxed",
       "ability": "Water Absorb",
       "level": 28,
@@ -33327,7 +33327,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 47 Tuber Amira": {
+    "Lvl 47 Tuber Amira #2 ": {
       "nature": "Relaxed",
       "ability": "Damp",
       "level": 47,
@@ -33342,7 +33342,7 @@ backup_data = {
       "trainerClass": 100,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Tuber Amira #701.1": {
+    "Lvl 47 Tuber Amira #2 Set2 ": {
       "nature": "Naive",
       "ability": "Damp",
       "level": 47,
@@ -33357,7 +33357,7 @@ backup_data = {
       "trainerClass": 100,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Tuber Amira #701.2": {
+    "Lvl 47 Tuber Amira #2 Set3 ": {
       "nature": "Serious",
       "ability": "Damp",
       "level": 47,
@@ -33372,7 +33372,7 @@ backup_data = {
       "trainerClass": 100,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Swimmer M Matthew": {
+    "Lvl 49 Swimmer M Matthew #2 ": {
       "nature": "Mild",
       "ability": "Damp",
       "level": 49,
@@ -33387,7 +33387,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Swimmer F Melissa": {
+    "Lvl 49 Swimmer F Melissa #2 ": {
       "nature": "Rash",
       "ability": "Damp",
       "level": 49,
@@ -33567,7 +33567,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl -2 Sheet Frontier Finn - Kindle Road Swimmer": {
+    "Lvl -2 Sheet Frontier Finn": {
       "nature": "Jolly",
       "ability": "Swift Swim",
       "level": -2,
@@ -33597,7 +33597,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Janny - Berry Forest Gauntlet 4 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Janny": {
       "nature": "Adamant",
       "ability": "Swift Swim",
       "level": 100,
@@ -33657,7 +33657,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl -3 Sheet Frontier Grunt - Dig House": {
+    "Lvl -3 Sheet Frontier Grunt #2 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": -3,
@@ -33687,7 +33687,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Naomi - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Naomi": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 85,
@@ -33733,7 +33733,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 69
     },
-    "Lvl -2 Biker William - Route 18": {
+    "Lvl -2 Biker William": {
       "nature": "Jolly",
       "ability": "Cash Splash",
       "level": -2,
@@ -33763,7 +33763,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Tuber Amira - Bond Bridge": {
+    "Lvl 100 Tuber Amira #3 ": {
       "nature": "Jolly",
       "ability": "Cash Splash",
       "level": 100,
@@ -33824,7 +33824,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 85 Sheet Frontier Alexa - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Alexa": {
       "nature": "Careful",
       "ability": "Unaware",
       "level": 85,
@@ -33944,7 +33944,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 28 Fisherman Elliot": {
+    "Lvl 28 Fisherman Elliot #2 ": {
       "nature": "Gentle",
       "ability": "Poison Touch",
       "level": 28,
@@ -33959,7 +33959,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 52 Swimmer M Darrin": {
+    "Lvl 52 Swimmer M Darrin #2 ": {
       "nature": "Hasty",
       "ability": "Poison Touch",
       "level": 52,
@@ -33974,7 +33974,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 52 Swimmer M Darrin #683.1": {
+    "Lvl 52 Swimmer M Darrin #2 Set2 ": {
       "nature": "Bold",
       "ability": "Poison Touch",
       "level": 52,
@@ -33989,7 +33989,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 52 Swimmer M Darrin #683.2": {
+    "Lvl 52 Swimmer M Darrin #2 Set3 ": {
       "nature": "Impish",
       "ability": "Poison Touch",
       "level": 52,
@@ -34004,7 +34004,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 52 Swimmer M Darrin #683.3": {
+    "Lvl 52 Swimmer M Darrin #2 Set4 ": {
       "nature": "Bashful",
       "ability": "Poison Touch",
       "level": 52,
@@ -34019,7 +34019,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 50 Sis And Bro Lil Ian": {
+    "Lvl 50 Sis And Bro Lil Ian #2 ": {
       "nature": "Naughty",
       "ability": "Sniper",
       "level": 50,
@@ -34034,7 +34034,7 @@ backup_data = {
       "trainerClass": 96,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 55 Sis And Bro Lil Ian": {
+    "Lvl 55 Sis And Bro Lil Ian #3 ": {
       "nature": "Naughty",
       "ability": "Sniper",
       "level": 55,
@@ -34049,7 +34049,7 @@ backup_data = {
       "trainerClass": 96,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 49 Swimmer M Tony": {
+    "Lvl 49 Swimmer M Tony #2 ": {
       "nature": "Hardy",
       "ability": "Poison Touch",
       "level": 49,
@@ -34064,7 +34064,7 @@ backup_data = {
       "trainerClass": 70,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Swimmer M Tony #733.1": {
+    "Lvl 49 Swimmer M Tony #2 Set2 ": {
       "nature": "Timid",
       "ability": "Poison Touch",
       "level": 49,
@@ -34109,7 +34109,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #40 ": {
       "nature": "Hardy",
       "ability": "Rough Skin",
       "level": 0,
@@ -34250,7 +34250,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 69
     },
-    "Lvl 47 Fisherman Wade": {
+    "Lvl 47 Fisherman Wade #2 ": {
       "nature": "Naughty",
       "ability": "Swift Swim",
       "level": 47,
@@ -34264,7 +34264,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Fisherman Wade #686.1": {
+    "Lvl 47 Fisherman Wade #2 Set2 ": {
       "nature": "Bashful",
       "ability": "Swift Swim",
       "level": 47,
@@ -34278,7 +34278,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Fisherman Wade #686.2": {
+    "Lvl 47 Fisherman Wade #2 Set3 ": {
       "nature": "Mild",
       "ability": "Swift Swim",
       "level": 47,
@@ -34292,7 +34292,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Fisherman Wade #686.3": {
+    "Lvl 47 Fisherman Wade #2 Set4 ": {
       "nature": "Gentle",
       "ability": "Swift Swim",
       "level": 47,
@@ -34306,7 +34306,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Fisherman Wade #686.4": {
+    "Lvl 47 Fisherman Wade #2 Set5 ": {
       "nature": "Timid",
       "ability": "Swift Swim",
       "level": 47,
@@ -34320,7 +34320,7 @@ backup_data = {
       "trainerClass": 69,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Fisherman Wade #686.5": {
+    "Lvl 47 Fisherman Wade #2 Set6 ": {
       "nature": "Impish",
       "ability": "Swift Swim",
       "level": 47,
@@ -34382,7 +34382,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 69
     },
-    "Lvl -2 Dragon Tamer Ramiro - Route 18": {
+    "Lvl -2 Dragon Tamer Ramiro #2 ": {
       "nature": "Modest",
       "ability": "Competitive",
       "level": -2,
@@ -34412,7 +34412,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Amara - Treasure Bea. Swimmer": {
+    "Lvl 0 Sheet Frontier Amara": {
       "nature": "Modest",
       "ability": "Competitive",
       "level": 0,
@@ -34536,7 +34536,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -1 Sailor Trevor - S.S. Anne Sailor Edmond &": {
+    "Lvl -1 Sailor Trevor #2 ": {
       "nature": "Timid",
       "ability": "Gulp Missile",
       "level": -1,
@@ -34583,7 +34583,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 69
     },
-    "Lvl -1 Sailor Trevor - S.S. Anne Sailor Edmond &": {
+    "Lvl -1 Sailor Trevor #2 ": {
       "nature": "Calm",
       "ability": "Storm Drain",
       "level": -1,
@@ -34662,7 +34662,7 @@ backup_data = {
       "trainerClass": 75,
       "rawIvOrSpreadValue": 50
     },
-    "Lvl -2 Elite Four Lorelei": {
+    "Lvl -2 Elite Four Lorelei #3 ": {
       "nature": "Impish",
       "ability": "Own Tempo",
       "level": -2,
@@ -34678,7 +34678,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 29 Pokemaniac Herman": {
+    "Lvl 29 Pokemaniac Herman #2 ": {
       "nature": "Quiet",
       "ability": "Oblivious",
       "level": 29,
@@ -34693,7 +34693,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 90
     },
-    "Lvl 54 Pokemaniac Herman": {
+    "Lvl 54 Pokemaniac Herman #3 ": {
       "nature": "Quiet",
       "ability": "Oblivious",
       "level": 54,
@@ -34708,7 +34708,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 150
     },
-    "Lvl 73 Sheet Frontier May - Cinnabar Isl.": {
+    "Lvl 73 Sheet Frontier May": {
       "nature": "Bold",
       "ability": "Regenerator",
       "level": 73,
@@ -34737,7 +34737,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier 1 - Cerulea. Cave Grunt": {
+    "Lvl 0 Sheet Frontier 1 #2 ": {
       "nature": "Bold",
       "ability": "Regenerator",
       "level": 0,
@@ -34801,7 +34801,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 0 Sailor Trevor - S.S. Anne Sailor Edmond &": {
+    "Lvl 0 Sailor Trevor #2 ": {
       "nature": "Timid",
       "ability": "Storm Drain",
       "level": 0,
@@ -34848,7 +34848,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl -2 Leader Misty": {
+    "Lvl -2 Leader Misty #3 ": {
       "nature": "Mild",
       "ability": "Illuminate",
       "level": -2,
@@ -34879,7 +34879,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl 100 Tuber Alexis - Bond Bridge": {
+    "Lvl 100 Tuber Alexis #2 ": {
       "nature": "Modest",
       "ability": "Illuminate",
       "level": 100,
@@ -34925,7 +34925,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 28 Gentleman Brooks - S.S. Anne Lass Ann &": {
+    "Lvl 28 Gentleman Brooks #2 ": {
       "nature": "Bashful",
       "ability": "Shell Armor",
       "level": 28,
@@ -34971,7 +34971,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #16 ": {
       "nature": "Naive",
       "ability": "Torrent",
       "level": 0,
@@ -34988,7 +34988,7 @@ backup_data = {
       "item": "Blastoisnite",
       "rawIvOrSpreadValue": 3
     },
-    "Lvl 0 Rival Terry #435.5": {
+    "Lvl 0 Rival Terry #19 ": {
       "nature": "Calm",
       "ability": "Torrent",
       "level": 0,
@@ -35005,7 +35005,7 @@ backup_data = {
       "item": "Blastoisnite",
       "rawIvOrSpreadValue": 3
     },
-    "Lvl 0 Rival Terry #739.5": {
+    "Lvl 0 Rival Terry #25 ": {
       "nature": "Modest",
       "ability": "Torrent",
       "level": 0,
@@ -35039,7 +35039,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 0 Leader Misty": {
+    "Lvl 0 Leader Misty #7 ": {
       "nature": "Mild",
       "ability": "Swift Swim",
       "level": 0,
@@ -35069,7 +35069,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #5 ": {
       "nature": "Modest",
       "ability": "Swift Swim",
       "level": 100,
@@ -35115,7 +35115,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 100 Sheet Frontier Janny - Berry Forest Gauntlet 4 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Janny": {
       "nature": "Modest",
       "ability": "Swift Swim",
       "level": 100,
@@ -35209,7 +35209,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 38 Black Belt Takashi #324.2": {
+    "Lvl 38 Black Belt Takashi Set2 ": {
       "nature": "Relaxed",
       "ability": "No Guard",
       "level": 38,
@@ -35241,7 +35241,7 @@ backup_data = {
       "trainerClass": 80,
       "item": "Black Belt"
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #18 ": {
       "nature": "Relaxed",
       "ability": "No Guard",
       "level": 0,
@@ -35256,7 +35256,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #39 ": {
       "nature": "Lax",
       "ability": "No Guard",
       "level": -1,
@@ -35271,7 +35271,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 25 Hiker Franklin": {
+    "Lvl 25 Hiker Franklin #2 ": {
       "nature": "Docile",
       "ability": "Guts",
       "level": 25,
@@ -35286,7 +35286,7 @@ backup_data = {
       "trainerClass": 65,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #49 ": {
       "nature": "Bold",
       "ability": "No Guard",
       "level": 48,
@@ -35328,7 +35328,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 104
     },
-    "Lvl 49 Ruin Maniac Larry #583.1": {
+    "Lvl 49 Ruin Maniac Larry Set2 ": {
       "nature": "Quiet",
       "ability": "No Guard",
       "level": 49,
@@ -35358,7 +35358,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 0 Hiker Jeremy": {
+    "Lvl 0 Hiker Jeremy #2 ": {
       "nature": "Sassy",
       "ability": "Guts",
       "level": 0,
@@ -35374,7 +35374,7 @@ backup_data = {
       "trainerClass": 65,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 49 Cue Ball Camron": {
+    "Lvl 49 Cue Ball Camron #2 ": {
       "nature": "Hasty",
       "ability": "Guts",
       "level": 49,
@@ -35389,7 +35389,7 @@ backup_data = {
       "trainerClass": 71,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Cue Ball Isaiah": {
+    "Lvl 49 Cue Ball Isaiah #2 ": {
       "nature": "Careful",
       "ability": "Guts",
       "level": 49,
@@ -35404,7 +35404,7 @@ backup_data = {
       "trainerClass": 71,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 50 Black Belt Shea": {
+    "Lvl 50 Black Belt Shea #2 ": {
       "nature": "Bashful",
       "ability": "Guts",
       "level": 50,
@@ -35420,7 +35420,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 180
     },
-    "Lvl 50 Black Belt Shea #695.1": {
+    "Lvl 50 Black Belt Shea #2 Set2 ": {
       "nature": "Gentle",
       "ability": "Guts",
       "level": 50,
@@ -35436,7 +35436,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 180
     },
-    "Lvl 55 Black Belt Shea": {
+    "Lvl 55 Black Belt Shea #3 ": {
       "nature": "Bashful",
       "ability": "Guts",
       "level": 55,
@@ -35452,7 +35452,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 220
     },
-    "Lvl 50 Black Belt Hugh": {
+    "Lvl 50 Black Belt Hugh #2 ": {
       "nature": "Lax",
       "ability": "Guts",
       "level": 50,
@@ -35468,7 +35468,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 180
     },
-    "Lvl 50 Black Belt Hugh #697.1": {
+    "Lvl 50 Black Belt Hugh #2 Set2 ": {
       "nature": "Adamant",
       "ability": "Guts",
       "level": 50,
@@ -35484,7 +35484,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 180
     },
-    "Lvl 55 Black Belt Hugh": {
+    "Lvl 55 Black Belt Hugh #3 ": {
       "nature": "Lax",
       "ability": "Guts",
       "level": 55,
@@ -35500,7 +35500,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 220
     },
-    "Lvl 51 Crush Kin Mik Kia": {
+    "Lvl 51 Crush Kin Mik Kia #2 ": {
       "nature": "Hardy",
       "ability": "No Guard",
       "level": 51,
@@ -35516,7 +35516,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 130
     },
-    "Lvl 54 Ruin Maniac Larry": {
+    "Lvl 54 Ruin Maniac Larry #2 ": {
       "nature": "Gentle",
       "ability": "No Guard",
       "level": 54,
@@ -35531,7 +35531,7 @@ backup_data = {
       "trainerClass": 104,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 54 Ruin Maniac Larry #715.1": {
+    "Lvl 54 Ruin Maniac Larry #2 Set2 ": {
       "nature": "Quiet",
       "ability": "No Guard",
       "level": 54,
@@ -35563,7 +35563,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl 85 Sheet Frontier George - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier George": {
       "nature": "Adamant",
       "ability": "Iron Fist",
       "level": 85,
@@ -35592,7 +35592,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Crush Girl Tanya - Kindle Road": {
+    "Lvl 100 Crush Girl Tanya #4 ": {
       "nature": "Adamant",
       "ability": "Scrappy",
       "level": 100,
@@ -35637,7 +35637,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl -1 Sheet Frontier Beth - Mt. Ember Ranger": {
+    "Lvl -1 Sheet Frontier Beth": {
       "nature": "Jolly",
       "ability": "Mold Breaker",
       "level": -1,
@@ -35717,7 +35717,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl 85 Sheet Frontier Rolando - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Rolando": {
       "nature": "Jolly",
       "ability": "Regenerator",
       "level": 85,
@@ -35793,7 +35793,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 71
     },
-    "Lvl -3 Elite Four Bruno": {
+    "Lvl -3 Elite Four Bruno #3 ": {
       "nature": "Quirky",
       "ability": "Iron Fist",
       "level": -3,
@@ -35809,7 +35809,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 33 Crush Kin Ron Mya": {
+    "Lvl 33 Crush Kin Ron Mya #2 ": {
       "nature": "Lax",
       "ability": "Iron Fist",
       "level": 33,
@@ -35825,7 +35825,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 110
     },
-    "Lvl 51 Crush Kin Ron Mya": {
+    "Lvl 51 Crush Kin Ron Mya #3 ": {
       "nature": "Lax",
       "ability": "Iron Fist",
       "level": 51,
@@ -35841,7 +35841,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 130
     },
-    "Lvl 56 Crush Kin Ron Mya": {
+    "Lvl 56 Crush Kin Ron Mya #4 ": {
       "nature": "Lax",
       "ability": "Iron Fist",
       "level": 56,
@@ -35857,7 +35857,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl 50 Crush Girl Tanya": {
+    "Lvl 50 Crush Girl Tanya #2 ": {
       "nature": "Bold",
       "ability": "Iron Fist",
       "level": 50,
@@ -35873,7 +35873,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 130
     },
-    "Lvl 55 Crush Girl Tanya": {
+    "Lvl 55 Crush Girl Tanya #3 ": {
       "nature": "Bold",
       "ability": "Iron Fist",
       "level": 55,
@@ -35889,7 +35889,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl -3 Elite Four Bruno #736.1": {
+    "Lvl -3 Elite Four Bruno #4 ": {
       "nature": "Naive",
       "ability": "Iron Fist",
       "level": -3,
@@ -35905,7 +35905,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -1 Rival - Cerulean City": {
+    "Lvl -1 Rival #6 ": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": -1,
@@ -35969,7 +35969,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 0 Sheet Frontier Logan - Mt. Ember Gatekeeper": {
+    "Lvl 0 Sheet Frontier Logan": {
       "nature": "Jolly",
       "ability": "Sheer Force",
       "level": 0,
@@ -36047,7 +36047,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 73
     },
-    "Lvl 33 Beauty Lauren #275.2": {
+    "Lvl 33 Beauty Lauren Set2 ": {
       "nature": "Jolly",
       "ability": "Chlorophyll",
       "level": 33,
@@ -36136,7 +36136,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -2 Youngster Nash #614.1": {
+    "Lvl -2 Youngster Nash Set2 ": {
       "nature": "Naive",
       "ability": "Chlorophyll",
       "level": -2,
@@ -36201,7 +36201,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 72
     },
-    "Lvl -1 Leader Brock": {
+    "Lvl -1 Leader Brock #4 ": {
       "nature": "Careful",
       "ability": "Slow Start",
       "level": -1,
@@ -36248,7 +36248,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 72
     },
-    "Lvl -1 Sheet Frontier Brendan - Virid. Forest": {
+    "Lvl -1 Sheet Frontier Brendan": {
       "nature": "Lonely",
       "ability": "Simple",
       "level": -1,
@@ -36308,7 +36308,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 88
     },
-    "Lvl -1 Rival - Route 22 #1": {
+    "Lvl -1 Rival": {
       "nature": "Timid",
       "ability": "Rivalry",
       "level": -1,
@@ -36545,7 +36545,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 100 Tuber Alexis - Bond Bridge": {
+    "Lvl 100 Tuber Alexis #2 ": {
       "nature": "Jolly",
       "ability": "Sheer Force",
       "level": 100,
@@ -36623,7 +36623,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 73
     },
-    "Lvl 47 Boss Giovanni": {
+    "Lvl 47 Boss Giovanni #7 ": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 47,
@@ -36653,7 +36653,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Sheet Frontier Giovanni - Rocket Hide.": {
+    "Lvl 47 Sheet Frontier Giovanni": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 47,
@@ -36682,7 +36682,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Andrew - Joyful Game Co.rner Ace Trainer": {
+    "Lvl 100 Sheet Frontier Andrew": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 100,
@@ -36742,7 +36742,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 59 Leader Sabrina": {
+    "Lvl 59 Leader Sabrina #2 ": {
       "nature": "Quiet",
       "ability": "Water Bubble",
       "level": 59,
@@ -36772,7 +36772,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Leader Sabrina #rrhc-sheet-Kanto-Leaders-105-0x1131720.5": {
+    "Lvl 59 Leader Sabrina #3 ": {
       "nature": "Quiet",
       "ability": "Water Bubble",
       "level": 59,
@@ -36818,7 +36818,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl 0 Sheet Frontier Abigail - Treasure Bea. Swimmer": {
+    "Lvl 0 Sheet Frontier Abigail": {
       "nature": "Modest",
       "ability": "Schooling",
       "level": 0,
@@ -36881,7 +36881,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl 0 Swimmer F Connie #278.2": {
+    "Lvl 0 Swimmer F Connie Set2 ": {
       "nature": "Naive",
       "ability": "Water Veil",
       "level": 0,
@@ -36896,7 +36896,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl -2 Leader Misty": {
+    "Lvl -2 Leader Misty #3 ": {
       "nature": "Quiet",
       "ability": "Water Veil",
       "level": -2,
@@ -36913,7 +36913,7 @@ backup_data = {
       "item": "Mystic Water",
       "rawIvOrSpreadValue": 141
     },
-    "Lvl 100 Leader Misty": {
+    "Lvl 100 Leader Misty #4 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 100,
@@ -36943,7 +36943,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #frontier-community-0x112f2d0.5": {
+    "Lvl 100 Leader Misty #5 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 100,
@@ -36973,7 +36973,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #rrhc-sheet-Postgame-81-0x112f2d0.5": {
+    "Lvl 100 Leader Misty #9 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 100,
@@ -37002,7 +37002,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Camper Bryce - Kindle Road": {
+    "Lvl -2 Camper Bryce #2 ": {
       "nature": "Naive",
       "ability": "Technician",
       "level": -2,
@@ -37083,7 +37083,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 77
     },
-    "Lvl 25 Team Rocket Grunt": {
+    "Lvl 25 Team Rocket Grunt #9 ": {
       "nature": "Quiet",
       "ability": "Feline Prowess",
       "level": 25,
@@ -37098,7 +37098,7 @@ backup_data = {
       "trainerClass": 85,
       "rawIvOrSpreadValue": 3
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #24 ": {
       "nature": "Lax",
       "ability": "Feline Prowess",
       "level": 0,
@@ -37166,7 +37166,7 @@ backup_data = {
       "trainerClass": 75,
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 79 Sheet Frontier Ariana - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Ariana": {
       "nature": "Timid",
       "ability": "Magic Bounce",
       "level": 79,
@@ -37195,7 +37195,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier George - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier George": {
       "nature": "Timid",
       "ability": "Magic Bounce",
       "level": 85,
@@ -37269,7 +37269,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 77
     },
-    "Lvl 68 Juggler Kayden - Fuchsia Gym": {
+    "Lvl 68 Juggler Kayden #2 ": {
       "nature": "Timid",
       "ability": "Misty Surge",
       "level": 68,
@@ -37330,7 +37330,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 77
     },
-    "Lvl -5 Rival Terry": {
+    "Lvl -5 Rival Terry #13 ": {
       "nature": "Brave",
       "ability": "Inner Focus",
       "level": -5,
@@ -37346,7 +37346,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl -5 Rival Terry #430.3": {
+    "Lvl -5 Rival Terry #14 ": {
       "nature": "Rash",
       "ability": "Inner Focus",
       "level": -5,
@@ -37362,7 +37362,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl -5 Rival Terry #431.3": {
+    "Lvl -5 Rival Terry #15 ": {
       "nature": "Quirky",
       "ability": "Inner Focus",
       "level": -5,
@@ -37396,7 +37396,7 @@ backup_data = {
       "trainerClass": 75,
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 79 Sheet Frontier 2 - Cerulea. Cave Grunt": {
+    "Lvl 79 Sheet Frontier 2 #2 ": {
       "nature": "Modest",
       "ability": "Frisk",
       "level": 79,
@@ -37442,7 +37442,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 76
     },
-    "Lvl -1 Beauty Sheila - Route 13 Beauty Lola &": {
+    "Lvl -1 Beauty Sheila #3 ": {
       "nature": "Jolly",
       "ability": "Sap Sipper",
       "level": -1,
@@ -37504,7 +37504,7 @@ backup_data = {
       "trainerClass": 82,
       "rawIvOrSpreadValue": 3
     },
-    "Lvl -2 Biker Jared - Route 13": {
+    "Lvl -2 Biker Jared #2 ": {
       "nature": "Calm",
       "ability": "Levitate",
       "level": -2,
@@ -37565,7 +37565,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 77
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #23 ": {
       "nature": "Mild",
       "ability": "Forewarn",
       "level": 0,
@@ -37580,7 +37580,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #28 ": {
       "nature": "Naughty",
       "ability": "Forewarn",
       "level": -1,
@@ -37595,7 +37595,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #32 ": {
       "nature": "Relaxed",
       "ability": "Forewarn",
       "level": 48,
@@ -37609,7 +37609,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #388.2": {
+    "Lvl -1 Team Rocket Grunt #40 ": {
       "nature": "Careful",
       "ability": "Forewarn",
       "level": -1,
@@ -37624,7 +37624,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 49 Team Rocket Grunt": {
+    "Lvl 49 Team Rocket Grunt #50 ": {
       "nature": "Relaxed",
       "ability": "Forewarn",
       "level": 49,
@@ -37638,7 +37638,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 49 Team Rocket Grunt #542.1": {
+    "Lvl 49 Team Rocket Grunt #50 Set2 ": {
       "nature": "Naive",
       "ability": "Forewarn",
       "level": 49,
@@ -37652,7 +37652,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Sheet Frontier Guard - Game Co.rner": {
+    "Lvl 0 Sheet Frontier Guard": {
       "nature": "Calm",
       "ability": "Forewarn",
       "level": 0,
@@ -37729,7 +37729,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl -1 Picnicker Marcy #619.1": {
+    "Lvl -1 Picnicker Marcy Set2 ": {
       "nature": "Careful",
       "ability": "Dry Skin",
       "level": -1,
@@ -37762,7 +37762,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 100 Crush Girl Tanya - Kindle Road": {
+    "Lvl 100 Crush Girl Tanya #4 ": {
       "nature": "Adamant",
       "ability": "Fluffy",
       "level": 100,
@@ -37823,7 +37823,7 @@ backup_data = {
       "trainerClass": 78,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 85 Sheet Frontier George - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier George": {
       "nature": "Naive",
       "ability": "Sheer Force",
       "level": 85,
@@ -37852,7 +37852,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak": {
       "nature": "Jolly",
       "ability": "Sheer Force",
       "level": 100,
@@ -37881,7 +37881,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Crush Girl Tanya - Kindle Road": {
+    "Lvl 100 Crush Girl Tanya #4 ": {
       "nature": "Jolly",
       "ability": "Sheer Force",
       "level": 100,
@@ -37987,7 +37987,7 @@ backup_data = {
       "trainerClass": 105,
       "item": "Nugget"
     },
-    "Lvl 49 Lady Selphy #606.1": {
+    "Lvl 49 Lady Selphy Set2 ": {
       "nature": "Sassy",
       "ability": "Limber",
       "level": 49,
@@ -38002,7 +38002,7 @@ backup_data = {
       "trainerClass": 105,
       "item": "Nugget"
     },
-    "Lvl 30 Picnicker Alicia": {
+    "Lvl 30 Picnicker Alicia #3 ": {
       "nature": "Relaxed",
       "ability": "Limber",
       "level": 30,
@@ -38017,7 +38017,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 55 Picnicker Alicia": {
+    "Lvl 55 Picnicker Alicia #4 ": {
       "nature": "Relaxed",
       "ability": "Limber",
       "level": 55,
@@ -38032,7 +38032,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -1 Lass Megan": {
+    "Lvl -1 Lass Megan #3 ": {
       "nature": "Naughty",
       "ability": "Technician",
       "level": -1,
@@ -38048,7 +38048,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Beauty Sheila": {
+    "Lvl 49 Beauty Sheila #2 ": {
       "nature": "Careful",
       "ability": "Limber",
       "level": 49,
@@ -38063,7 +38063,7 @@ backup_data = {
       "trainerClass": 73,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Picnicker Susie": {
+    "Lvl 47 Picnicker Susie #3 ": {
       "nature": "Careful",
       "ability": "Technician",
       "level": 47,
@@ -38078,7 +38078,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Picnicker Susie #659.4": {
+    "Lvl 47 Picnicker Susie #3 Set2 ": {
       "nature": "Rash",
       "ability": "Technician",
       "level": 47,
@@ -38093,7 +38093,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 52 Picnicker Susie": {
+    "Lvl 52 Picnicker Susie #4 ": {
       "nature": "Docile",
       "ability": "Technician",
       "level": 52,
@@ -38108,7 +38108,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 52 Picnicker Susie #660.4": {
+    "Lvl 52 Picnicker Susie #4 Set2 ": {
       "nature": "Relaxed",
       "ability": "Technician",
       "level": 52,
@@ -38123,7 +38123,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -2 Burglar Anson - Mansion F4": {
+    "Lvl -2 Burglar Anson #2 ": {
       "nature": "Timid",
       "ability": "Feline Prowess",
       "level": -2,
@@ -38287,7 +38287,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -2 Team Rocket Grunt": {
+    "Lvl -2 Team Rocket Grunt #17 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": -2,
@@ -38317,7 +38317,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 29 Camper Jeff": {
+    "Lvl 29 Camper Jeff #3 ": {
       "nature": "Jolly",
       "ability": "Frisk",
       "level": 29,
@@ -38332,7 +38332,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 54 Camper Jeff": {
+    "Lvl 54 Camper Jeff #4 ": {
       "nature": "Jolly",
       "ability": "Frisk",
       "level": 54,
@@ -38347,7 +38347,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 28 Bird Keeper Robert": {
+    "Lvl 28 Bird Keeper Robert #2 ": {
       "nature": "Relaxed",
       "ability": "Frisk",
       "level": 28,
@@ -38362,7 +38362,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Bird Keeper Robert #656.3": {
+    "Lvl 28 Bird Keeper Robert #2 Set2 ": {
       "nature": "Gentle",
       "ability": "Frisk",
       "level": 28,
@@ -38377,7 +38377,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 47 Bird Keeper Robert": {
+    "Lvl 47 Bird Keeper Robert #3 ": {
       "nature": "Careful",
       "ability": "Frisk",
       "level": 47,
@@ -38392,7 +38392,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Bird Keeper Robert #657.3": {
+    "Lvl 47 Bird Keeper Robert #3 Set2 ": {
       "nature": "Serious",
       "ability": "Frisk",
       "level": 47,
@@ -38407,7 +38407,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 32 Bird Keeper Benny": {
+    "Lvl 32 Bird Keeper Benny #2 ": {
       "nature": "Bashful",
       "ability": "Technician",
       "level": 32,
@@ -38422,7 +38422,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 32 Bird Keeper Benny #662.1": {
+    "Lvl 32 Bird Keeper Benny #2 Set2 ": {
       "nature": "Hasty",
       "ability": "Technician",
       "level": 32,
@@ -38437,7 +38437,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 49 Bird Keeper Benny": {
+    "Lvl 49 Bird Keeper Benny #3 ": {
       "nature": "Bashful",
       "ability": "Technician",
       "level": 49,
@@ -38452,7 +38452,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Bird Keeper Benny #663.1": {
+    "Lvl 49 Bird Keeper Benny #3 Set2 ": {
       "nature": "Hasty",
       "ability": "Technician",
       "level": 49,
@@ -38467,7 +38467,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 30 Bird Keeper Marlon": {
+    "Lvl 30 Bird Keeper Marlon #2 ": {
       "nature": "Timid",
       "ability": "Frisk",
       "level": 30,
@@ -38482,7 +38482,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 30 Bird Keeper Marlon #664.2": {
+    "Lvl 30 Bird Keeper Marlon #2 Set2 ": {
       "nature": "Timid",
       "ability": "Frisk",
       "level": 30,
@@ -38497,7 +38497,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 48 Bird Keeper Marlon": {
+    "Lvl 48 Bird Keeper Marlon #3 ": {
       "nature": "Timid",
       "ability": "Frisk",
       "level": 48,
@@ -38512,7 +38512,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 48 Bird Keeper Marlon #665.2": {
+    "Lvl 48 Bird Keeper Marlon #3 Set2 ": {
       "nature": "Serious",
       "ability": "Frisk",
       "level": 48,
@@ -38527,7 +38527,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 28 Bird Keeper Jacob": {
+    "Lvl 28 Bird Keeper Jacob #2 ": {
       "nature": "Rash",
       "ability": "Technician",
       "level": 28,
@@ -38542,7 +38542,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Bird Keeper Jacob #680.2": {
+    "Lvl 28 Bird Keeper Jacob #2 Set2 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 28,
@@ -38557,7 +38557,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 47 Bird Keeper Jacob": {
+    "Lvl 47 Bird Keeper Jacob #3 ": {
       "nature": "Rash",
       "ability": "Technician",
       "level": 47,
@@ -38572,7 +38572,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Bird Keeper Jacob #681.1": {
+    "Lvl 47 Bird Keeper Jacob #3 Set2 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 47,
@@ -38587,7 +38587,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Bird Keeper Jacob #681.2": {
+    "Lvl 47 Bird Keeper Jacob #3 Set3 ": {
       "nature": "Careful",
       "ability": "Technician",
       "level": 47,
@@ -38602,7 +38602,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 47 Bird Keeper Jacob #681.3": {
+    "Lvl 47 Bird Keeper Jacob #3 Set4 ": {
       "nature": "Lonely",
       "ability": "Technician",
       "level": 47,
@@ -38617,7 +38617,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl -2 Bird Keeper Chaz": {
+    "Lvl -2 Bird Keeper Chaz #2 ": {
       "nature": "Naughty",
       "ability": "Frisk",
       "level": -2,
@@ -38633,7 +38633,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 0 Bird Keeper Chaz #709.1": {
+    "Lvl 0 Bird Keeper Chaz #2 ": {
       "nature": "Bashful",
       "ability": "Frisk",
       "level": 0,
@@ -38649,7 +38649,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -3 Sheet Frontier Archer - Mt. Moon": {
+    "Lvl -3 Sheet Frontier Archer": {
       "nature": "Bashful",
       "ability": "Technician",
       "level": -3,
@@ -38740,7 +38740,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -2 Bird Keeper Harold": {
+    "Lvl -2 Bird Keeper Harold #2 ": {
       "nature": "Modest",
       "ability": "Tinted Lens",
       "level": -2,
@@ -38756,7 +38756,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 0 Bird Keeper Harold #710.1": {
+    "Lvl 0 Bird Keeper Harold #2 ": {
       "nature": "Jolly",
       "ability": "Tinted Lens",
       "level": 0,
@@ -38821,7 +38821,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #34 ": {
       "nature": "Lonely",
       "ability": "Unnerve",
       "level": 0,
@@ -38836,7 +38836,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 100 Sheet Frontier Barry - Berry Forest Gauntlet 1 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Barry": {
       "nature": "Impish",
       "ability": "Pressure",
       "level": 100,
@@ -38897,7 +38897,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 0 Sheet Frontier 2 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 2": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": 0,
@@ -38960,7 +38960,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 101
     },
-    "Lvl 82 Sheet Frontier Brendan - Route 23": {
+    "Lvl 82 Sheet Frontier Brendan #4 ": {
       "nature": "Bold",
       "ability": "Competitive",
       "level": 82,
@@ -38989,7 +38989,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Twins Joy & Meg - Bond Bridge": {
+    "Lvl 0 Twins Joy & Meg": {
       "nature": "Timid",
       "ability": "Competitive",
       "level": 0,
@@ -39065,7 +39065,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 39 Bird Keeper Reed #311.1": {
+    "Lvl 39 Bird Keeper Reed Set2 ": {
       "nature": "Impish",
       "ability": "Frisk",
       "level": 39,
@@ -39079,7 +39079,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 39 Bird Keeper Reed #311.3": {
+    "Lvl 39 Bird Keeper Reed Set3 ": {
       "nature": "Impish",
       "ability": "Frisk",
       "level": 39,
@@ -39109,7 +39109,7 @@ backup_data = {
       "trainerClass": 86,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #13 ": {
       "nature": "Bold",
       "ability": "Frisk",
       "level": 0,
@@ -39125,7 +39125,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 0 Rival Terry #430.0": {
+    "Lvl 0 Rival Terry #14 ": {
       "nature": "Bold",
       "ability": "Frisk",
       "level": 0,
@@ -39141,7 +39141,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 0 Rival Terry #431.0": {
+    "Lvl 0 Rival Terry #15 ": {
       "nature": "Bold",
       "ability": "Frisk",
       "level": 0,
@@ -39172,7 +39172,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 28 Lass Reli": {
+    "Lvl 28 Lass Reli #3 ": {
       "nature": "Gentle",
       "ability": "Frisk",
       "level": 28,
@@ -39187,7 +39187,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 20 Lass Janice": {
+    "Lvl 20 Lass Janice #2 ": {
       "nature": "Bold",
       "ability": "Frisk",
       "level": 20,
@@ -39202,7 +39202,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 20 Lass Janice #507.1": {
+    "Lvl 20 Lass Janice #2 Set2 ": {
       "nature": "Bashful",
       "ability": "Frisk",
       "level": 20,
@@ -39217,7 +39217,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 28 Lass Janice": {
+    "Lvl 28 Lass Janice #3 ": {
       "nature": "Bold",
       "ability": "Frisk",
       "level": 28,
@@ -39232,7 +39232,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Lass Janice #508.1": {
+    "Lvl 28 Lass Janice #3 Set2 ": {
       "nature": "Bashful",
       "ability": "Frisk",
       "level": 28,
@@ -39276,7 +39276,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 0 Picnicker Isabelle": {
+    "Lvl 0 Picnicker Isabelle #2 ": {
       "nature": "Careful",
       "ability": "Frisk",
       "level": 0,
@@ -39292,7 +39292,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 0 Picnicker Isabelle #630.1": {
+    "Lvl 0 Picnicker Isabelle #2 Set2 ": {
       "nature": "Bashful",
       "ability": "Frisk",
       "level": 0,
@@ -39308,7 +39308,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 0 Picnicker Isabelle #631.0": {
+    "Lvl 0 Picnicker Isabelle #3 ": {
       "nature": "Careful",
       "ability": "Frisk",
       "level": 0,
@@ -39324,7 +39324,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 0 Picnicker Isabelle #631.1": {
+    "Lvl 0 Picnicker Isabelle #3 Set2 ": {
       "nature": "Bashful",
       "ability": "Frisk",
       "level": 0,
@@ -39340,7 +39340,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl -3 Picnicker Isabelle": {
+    "Lvl -3 Picnicker Isabelle #3 ": {
       "nature": "Sassy",
       "ability": "Frisk",
       "level": -3,
@@ -39356,7 +39356,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl -3 Picnicker Isabelle #632.0": {
+    "Lvl -3 Picnicker Isabelle #4 ": {
       "nature": "Careful",
       "ability": "Frisk",
       "level": -3,
@@ -39372,7 +39372,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl -3 Picnicker Isabelle #632.1": {
+    "Lvl -3 Picnicker Isabelle #4 Set2 ": {
       "nature": "Bashful",
       "ability": "Frisk",
       "level": -3,
@@ -39388,7 +39388,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl -1 Lass Megan": {
+    "Lvl -1 Lass Megan #2 ": {
       "nature": "Naughty",
       "ability": "Frisk",
       "level": -1,
@@ -39404,7 +39404,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 40
     },
-    "Lvl 28 Bird Keeper Robert": {
+    "Lvl 28 Bird Keeper Robert #2 ": {
       "nature": "Gentle",
       "ability": "Frisk",
       "level": 28,
@@ -39419,7 +39419,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Bird Keeper Robert #656.1": {
+    "Lvl 28 Bird Keeper Robert #2 Set2 ": {
       "nature": "Hardy",
       "ability": "Frisk",
       "level": 28,
@@ -39434,7 +39434,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 27 Picnicker Susie": {
+    "Lvl 27 Picnicker Susie #2 ": {
       "nature": "Brave",
       "ability": "Frisk",
       "level": 27,
@@ -39449,7 +39449,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 47 Picnicker Susie": {
+    "Lvl 47 Picnicker Susie #3 ": {
       "nature": "Brave",
       "ability": "Frisk",
       "level": 47,
@@ -39464,7 +39464,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl -2 Bird Keeper Milo": {
+    "Lvl -2 Bird Keeper Milo #2 ": {
       "nature": "Lonely",
       "ability": "Frisk",
       "level": -2,
@@ -39497,7 +39497,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #42 ": {
       "nature": "Bashful",
       "ability": "Unaware",
       "level": -1,
@@ -39512,7 +39512,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Super Nerd Miguel - Mt. Moon": {
+    "Lvl -1 Super Nerd Miguel #2 ": {
       "nature": "Timid",
       "ability": "Simple",
       "level": -1,
@@ -39573,7 +39573,7 @@ backup_data = {
       "item": "Choice Specs",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl 28 Leader Whitney": {
+    "Lvl 28 Leader Whitney #3 ": {
       "nature": "Jolly",
       "ability": "Guts",
       "level": 28,
@@ -39603,7 +39603,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Whitney - Route 11": {
+    "Lvl 28 Leader Whitney #4 ": {
       "nature": "Jolly",
       "ability": "Guts",
       "level": 28,
@@ -39681,7 +39681,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -2 Sheet Frontier Wilton - Route 18 Ace Trainer": {
+    "Lvl -2 Sheet Frontier Wilton": {
       "nature": "Timid",
       "ability": "Volt Absorb",
       "level": -2,
@@ -39762,7 +39762,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #7 ": {
       "nature": "Calm",
       "ability": "Intimidate",
       "level": -2,
@@ -39776,7 +39776,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 121
     },
-    "Lvl -2 Rival Terry #333.1": {
+    "Lvl -2 Rival Terry #8 ": {
       "nature": "Calm",
       "ability": "Intimidate",
       "level": -2,
@@ -39790,7 +39790,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 121
     },
-    "Lvl -2 Rival Terry #334.1": {
+    "Lvl -2 Rival Terry #9 ": {
       "nature": "Calm",
       "ability": "Intimidate",
       "level": -2,
@@ -39804,7 +39804,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 121
     },
-    "Lvl -2 Rival Terry #426.0": {
+    "Lvl -2 Rival Terry #10 ": {
       "nature": "Rash",
       "ability": "Intimidate",
       "level": -2,
@@ -39820,7 +39820,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl -2 Rival Terry #427.2": {
+    "Lvl -2 Rival Terry #11 ": {
       "nature": "Bashful",
       "ability": "Intimidate",
       "level": -2,
@@ -39836,7 +39836,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl -2 Rival Terry #428.2": {
+    "Lvl -2 Rival Terry #12 ": {
       "nature": "Bashful",
       "ability": "Intimidate",
       "level": -2,
@@ -39903,7 +39903,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 54 Crush Girl Cyndy": {
+    "Lvl 54 Crush Girl Cyndy #2 ": {
       "nature": "Timid",
       "ability": "Technician",
       "level": 54,
@@ -39919,7 +39919,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl -1 Rival - Cerulean City": {
+    "Lvl -1 Rival #5 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": -1,
@@ -39968,7 +39968,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 28 Sheet Frontier Brendan - S.S. Anne": {
+    "Lvl 28 Sheet Frontier Brendan #2 ": {
       "nature": "Adamant",
       "ability": "Guts",
       "level": 28,
@@ -39997,7 +39997,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Cue Ball Luke - Route 16": {
+    "Lvl -1 Cue Ball Luke #2 ": {
       "nature": "Careful",
       "ability": "Thick Fat",
       "level": -1,
@@ -40099,7 +40099,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 36 Leader Chuck": {
+    "Lvl 36 Leader Chuck #2 ": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": 36,
@@ -40129,7 +40129,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Chuck - Saffron Dojo": {
+    "Lvl 36 Leader Chuck #3 ": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": 36,
@@ -40158,7 +40158,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 79 Sheet Frontier 2 - Cerulea. Cave Grunt": {
+    "Lvl 79 Sheet Frontier 2 #2 ": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": 79,
@@ -40254,7 +40254,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 81
     },
-    "Lvl 9 Rival Terry": {
+    "Lvl 9 Rival Terry #4 ": {
       "nature": "Timid",
       "ability": "Torrent",
       "level": 9,
@@ -40268,7 +40268,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 81
     },
-    "Lvl 22 Camper Ricky": {
+    "Lvl 22 Camper Ricky #2 ": {
       "nature": "Naughty",
       "ability": "Torrent",
       "level": 22,
@@ -40283,7 +40283,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 0 Rival - Route 22 #1": {
+    "Lvl 0 Rival": {
       "nature": "Adamant",
       "ability": "Torrent",
       "level": 0,
@@ -40315,7 +40315,7 @@ backup_data = {
     }
   },
   "Starly": {
-    "Lvl 9 Rival Terry": {
+    "Lvl 9 Rival Terry #4 ": {
       "nature": "Hasty",
       "ability": "Frisk",
       "level": 9,
@@ -40329,7 +40329,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 81
     },
-    "Lvl 9 Rival Terry #330.0": {
+    "Lvl 9 Rival Terry #5 ": {
       "nature": "Hasty",
       "ability": "Frisk",
       "level": 9,
@@ -40343,7 +40343,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 81
     },
-    "Lvl 9 Rival Terry #331.0": {
+    "Lvl 9 Rival Terry #6 ": {
       "nature": "Hasty",
       "ability": "Frisk",
       "level": 9,
@@ -40359,7 +40359,7 @@ backup_data = {
     }
   },
   "Wartortle": {
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #7 ": {
       "nature": "Serious",
       "ability": "Torrent",
       "level": 0,
@@ -40374,7 +40374,7 @@ backup_data = {
       "item": "Sitrus Berry",
       "rawIvOrSpreadValue": 124
     },
-    "Lvl 0 Rival Terry #426.3": {
+    "Lvl 0 Rival Terry #10 ": {
       "nature": "Impish",
       "ability": "Torrent",
       "level": 0,
@@ -40390,7 +40390,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 8
     },
-    "Lvl 0 Rival Terry #429.4": {
+    "Lvl 0 Rival Terry #13 ": {
       "nature": "Impish",
       "ability": "Torrent",
       "level": 0,
@@ -40420,7 +40420,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 70
     },
-    "Lvl 30 Camper Ricky": {
+    "Lvl 30 Camper Ricky #3 ": {
       "nature": "Hasty",
       "ability": "Torrent",
       "level": 30,
@@ -40435,7 +40435,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 55 Camper Ricky": {
+    "Lvl 55 Camper Ricky #4 ": {
       "nature": "Hasty",
       "ability": "Torrent",
       "level": 55,
@@ -40450,7 +40450,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 0 Rival - Cerulean City": {
+    "Lvl 0 Rival #4 ": {
       "nature": "Modest",
       "ability": "Torrent",
       "level": 0,
@@ -40514,7 +40514,7 @@ backup_data = {
       "item": "Eviolite",
       "rawIvOrSpreadValue": 132
     },
-    "Lvl -2 Bird Keeper Jacob - Route 18": {
+    "Lvl -2 Bird Keeper Jacob #4 ": {
       "nature": "Bold",
       "ability": "Trace",
       "level": -2,
@@ -40576,7 +40576,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 66
     },
-    "Lvl 59 Beauty Shelly - Celadon Hotel": {
+    "Lvl 59 Beauty Shelly": {
       "nature": "Adamant",
       "ability": "Steely Spirit",
       "level": 59,
@@ -40651,7 +40651,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl -1 Super Nerd Aidan - Route 8": {
+    "Lvl -1 Super Nerd Aidan": {
       "nature": "Modest",
       "ability": "Weak Armor",
       "level": -1,
@@ -40733,7 +40733,7 @@ backup_data = {
       "item": "Prism Scale",
       "rawIvOrSpreadValue": 91
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #24 ": {
       "nature": "Gentle",
       "ability": "Swarm",
       "level": -1,
@@ -40765,7 +40765,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 82
     },
-    "Lvl -49 Boss Giovanni": {
+    "Lvl -49 Boss Giovanni #4 ": {
       "nature": "Brave",
       "ability": "Regenerator",
       "level": -49,
@@ -40793,7 +40793,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 66
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #48 ": {
       "nature": "Brave",
       "ability": "Sticky Hold",
       "level": 48,
@@ -40807,7 +40807,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 48 Team Rocket Grunt #567.2": {
+    "Lvl 48 Team Rocket Grunt #51 ": {
       "nature": "Hardy",
       "ability": "Sticky Hold",
       "level": 48,
@@ -40821,7 +40821,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 28 Super Nerd Glenn": {
+    "Lvl 28 Super Nerd Glenn #2 ": {
       "nature": "Lax",
       "ability": "Sticky Hold",
       "level": 28,
@@ -40836,7 +40836,7 @@ backup_data = {
       "trainerClass": 64,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Super Nerd Glenn #650.1": {
+    "Lvl 28 Super Nerd Glenn #2 Set2 ": {
       "nature": "Bashful",
       "ability": "Sticky Hold",
       "level": 28,
@@ -40851,7 +40851,7 @@ backup_data = {
       "trainerClass": 64,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Super Nerd Glenn #650.2": {
+    "Lvl 28 Super Nerd Glenn #2 Set3 ": {
       "nature": "Bashful",
       "ability": "Sticky Hold",
       "level": 28,
@@ -40866,7 +40866,7 @@ backup_data = {
       "trainerClass": 64,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl -2 Biker Jaren": {
+    "Lvl -2 Biker Jaren #2 ": {
       "nature": "Timid",
       "ability": "Sticky Hold",
       "level": -2,
@@ -40882,7 +40882,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 0 Biker Jaren": {
+    "Lvl 0 Biker Jaren #2 ": {
       "nature": "Calm",
       "ability": "Sticky Hold",
       "level": 0,
@@ -40898,7 +40898,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 47 Biker Lukas": {
+    "Lvl 47 Biker Lukas #2 ": {
       "nature": "Jolly",
       "ability": "Sticky Hold",
       "level": 47,
@@ -40913,7 +40913,7 @@ backup_data = {
       "trainerClass": 66,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 49 Biker Jaxon": {
+    "Lvl 49 Biker Jaxon #2 ": {
       "nature": "Modest",
       "ability": "Sticky Hold",
       "level": 49,
@@ -40978,7 +40978,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl -3 Biker Ruben - Route 16": {
+    "Lvl -3 Biker Ruben #3 ": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": -3,
@@ -41026,7 +41026,7 @@ backup_data = {
       "trainerClass": 82,
       "rawIvOrSpreadValue": 1
     },
-    "Lvl -2 Bird Keeper Robert - Route 13": {
+    "Lvl -2 Bird Keeper Robert #4 ": {
       "nature": "Jolly",
       "ability": "Defeatist",
       "level": -2,
@@ -41056,7 +41056,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Crush Girl Jocelyn - Mt. Ember": {
+    "Lvl 100 Crush Girl Jocelyn #2 ": {
       "nature": "Jolly",
       "ability": "Defeatist",
       "level": 100,
@@ -41101,7 +41101,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 82
     },
-    "Lvl -2 Sheet Frontier Wilton - Route 18 Ace Trainer": {
+    "Lvl -2 Sheet Frontier Wilton": {
       "nature": "Adamant",
       "ability": "Swift Swim",
       "level": -2,
@@ -41148,7 +41148,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 82
     },
-    "Lvl 100 Black Belt Shea - Kindle Road": {
+    "Lvl 100 Black Belt Shea #4 ": {
       "nature": "Bold",
       "ability": "Levitate",
       "level": 100,
@@ -41196,7 +41196,7 @@ backup_data = {
     }
   },
   "Rotom": {
-    "Lvl 0 Boss Giovanni": {
+    "Lvl 0 Boss Giovanni #2 ": {
       "nature": "Jolly",
       "ability": "Levitate",
       "level": 0,
@@ -41215,7 +41215,7 @@ backup_data = {
     }
   },
   "Hippowdon": {
-    "Lvl -2 Boss Giovanni": {
+    "Lvl -2 Boss Giovanni #3 ": {
       "nature": "Impish",
       "ability": "Sand Stream",
       "level": -2,
@@ -41234,7 +41234,7 @@ backup_data = {
     }
   },
   "Polteageist": {
-    "Lvl -1 Boss Giovanni": {
+    "Lvl -1 Boss Giovanni #3 ": {
       "nature": "Modest",
       "ability": "Weak Armor",
       "level": -1,
@@ -41251,7 +41251,7 @@ backup_data = {
       "item": "White Herb",
       "rawIvOrSpreadValue": 3
     },
-    "Lvl 0 Channeler Ruth - PKMN Tower": {
+    "Lvl 0 Channeler Ruth #2 ": {
       "nature": "Timid",
       "ability": "Cursed Body",
       "level": 0,
@@ -41283,7 +41283,7 @@ backup_data = {
     }
   },
   "Zubat": {
-    "Lvl 15 Team Rocket Grunt": {
+    "Lvl 15 Team Rocket Grunt #5 ": {
       "nature": "Mild",
       "ability": "Sniper",
       "level": 15,
@@ -41297,7 +41297,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #6 ": {
       "nature": "Modest",
       "ability": "Sniper",
       "level": 0,
@@ -41312,7 +41312,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 19 Youngster Timmy": {
+    "Lvl 19 Youngster Timmy #2 ": {
       "nature": "Jolly",
       "ability": "Sniper",
       "level": 19,
@@ -41327,7 +41327,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 38 Team Rocket Grunt": {
+    "Lvl 38 Team Rocket Grunt #47 ": {
       "nature": "Lax",
       "ability": "Sniper",
       "level": 38,
@@ -41341,7 +41341,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 38 Team Rocket Grunt #539.1": {
+    "Lvl 38 Team Rocket Grunt #47 Set2 ": {
       "nature": "Bashful",
       "ability": "Sniper",
       "level": 38,
@@ -41357,7 +41357,7 @@ backup_data = {
     }
   },
   "Shroodle": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #6 ": {
       "nature": "Jolly",
       "ability": "Pickpocket",
       "level": -1,
@@ -41374,7 +41374,7 @@ backup_data = {
     }
   },
   "Rattata-Alola": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #6 ": {
       "nature": "Modest",
       "ability": "Hustle",
       "level": -1,
@@ -41389,7 +41389,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #354.0": {
+    "Lvl -1 Team Rocket Grunt #8 ": {
       "nature": "Brave",
       "ability": "Hustle",
       "level": -1,
@@ -41406,7 +41406,7 @@ backup_data = {
     }
   },
   "Nickit": {
-    "Lvl 14 Team Rocket Grunt": {
+    "Lvl 14 Team Rocket Grunt #7 ": {
       "nature": "Mild",
       "ability": "Unburden",
       "level": 14,
@@ -41422,7 +41422,7 @@ backup_data = {
     }
   },
   "Capsakid": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #8 ": {
       "nature": "Careful",
       "ability": "Insomnia",
       "level": 0,
@@ -41439,7 +41439,7 @@ backup_data = {
     }
   },
   "Axew": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #10 ": {
       "nature": "Mild",
       "ability": "Mold Breaker",
       "level": -1,
@@ -41458,7 +41458,7 @@ backup_data = {
     }
   },
   "Liepard": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #11 ": {
       "nature": "Bold",
       "ability": "Unburden",
       "level": 0,
@@ -41473,7 +41473,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #39 ": {
       "nature": "Hasty",
       "ability": "Unburden",
       "level": -1,
@@ -41490,7 +41490,7 @@ backup_data = {
     }
   },
   "Drowzee": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #12 ": {
       "nature": "Sassy",
       "ability": "Forewarn",
       "level": -1,
@@ -41505,7 +41505,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 26 Team Rocket Grunt": {
+    "Lvl 26 Team Rocket Grunt #25 ": {
       "nature": "Sassy",
       "ability": "Forewarn",
       "level": 26,
@@ -41521,7 +41521,7 @@ backup_data = {
     }
   },
   "Krokorok": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #15 ": {
       "nature": "Gentle",
       "ability": "Moxie",
       "level": -1,
@@ -41538,7 +41538,7 @@ backup_data = {
     }
   },
   "Runerigus": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #17 ": {
       "nature": "Hardy",
       "ability": "Wandering Spirit",
       "level": -1,
@@ -41553,7 +41553,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 85 Cool Couple Ray & Tyra - Victory Road": {
+    "Lvl 85 Cool Couple Ray & Tyra": {
       "nature": "Relaxed",
       "ability": "Shadow Shield",
       "level": 85,
@@ -41584,7 +41584,7 @@ backup_data = {
     }
   },
   "Ninjask": {
-    "Lvl 38 Team Rocket Grunt": {
+    "Lvl 38 Team Rocket Grunt #21 ": {
       "nature": "Rash",
       "ability": "Speed Boost",
       "level": 38,
@@ -41598,7 +41598,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #43 ": {
       "nature": "Gentle",
       "ability": "Speed Boost",
       "level": -1,
@@ -41615,7 +41615,7 @@ backup_data = {
     }
   },
   "Shiftry": {
-    "Lvl 42 Team Rocket Grunt": {
+    "Lvl 42 Team Rocket Grunt #22 ": {
       "nature": "Careful",
       "ability": "Wind Rider",
       "level": 42,
@@ -41629,7 +41629,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 47 Sheet Frontier Guard - Rocket Hide. Right": {
+    "Lvl 47 Sheet Frontier Guard #3 ": {
       "nature": "Jolly",
       "ability": "Wind Rider",
       "level": 47,
@@ -41658,7 +41658,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Picnicker Susie - Route 13": {
+    "Lvl -2 Picnicker Susie #5 ": {
       "nature": "Adamant",
       "ability": "Chlorophyll",
       "level": -2,
@@ -41688,7 +41688,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Burglar Anson - Mansion F4": {
+    "Lvl -2 Burglar Anson #2 ": {
       "nature": "Jolly",
       "ability": "Wind Rider",
       "level": -2,
@@ -41720,7 +41720,7 @@ backup_data = {
     }
   },
   "Luxray": {
-    "Lvl 42 Team Rocket Grunt": {
+    "Lvl 42 Team Rocket Grunt #22 ": {
       "nature": "Hardy",
       "ability": "Intimidate",
       "level": 42,
@@ -41736,7 +41736,7 @@ backup_data = {
     }
   },
   "Rhydon": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #23 ": {
       "nature": "Lax",
       "ability": "Rock Head",
       "level": -1,
@@ -41751,7 +41751,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 54 Pokemaniac Mark": {
+    "Lvl 54 Pokemaniac Mark #3 ": {
       "nature": "Bold",
       "ability": "Lightning Rod",
       "level": 54,
@@ -41766,7 +41766,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 150
     },
-    "Lvl 55 Pokemaniac Hector": {
+    "Lvl 55 Pokemaniac Hector #2 ": {
       "nature": "Relaxed",
       "ability": "Lightning Rod",
       "level": 55,
@@ -41783,7 +41783,7 @@ backup_data = {
     }
   },
   "Marowak": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #26 ": {
       "nature": "Jolly",
       "ability": "Battle Armor",
       "level": -1,
@@ -41798,7 +41798,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 37 Team Rocket Grunt": {
+    "Lvl 37 Team Rocket Grunt #45 ": {
       "nature": "Adamant",
       "ability": "Battle Armor",
       "level": 37,
@@ -41857,7 +41857,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 104
     },
-    "Lvl 29 Pokemaniac Herman": {
+    "Lvl 29 Pokemaniac Herman #2 ": {
       "nature": "Lonely",
       "ability": "Rock Head",
       "level": 29,
@@ -41872,7 +41872,7 @@ backup_data = {
       "trainerClass": 63,
       "rawIvOrSpreadValue": 90
     },
-    "Lvl 54 Pokemaniac Herman": {
+    "Lvl 54 Pokemaniac Herman #3 ": {
       "nature": "Lonely",
       "ability": "Rock Head",
       "level": 54,
@@ -41889,7 +41889,7 @@ backup_data = {
     }
   },
   "Grapploct": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #26 ": {
       "nature": "Naive",
       "ability": "Limber",
       "level": 0,
@@ -41937,7 +41937,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 85 Sheet Frontier Co.lby - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Co.lby": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": 85,
@@ -41966,7 +41966,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Crush Kin Mik & Kia - Kindle Road": {
+    "Lvl -2 Crush Kin Mik & Kia": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": -2,
@@ -41996,7 +41996,7 @@ backup_data = {
         "sd": 4
       }
     },
-    "Lvl 100 Crush Girl Sharon - Kindle Road": {
+    "Lvl 100 Crush Girl Sharon #4 ": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": 100,
@@ -42027,7 +42027,7 @@ backup_data = {
     }
   },
   "Purugly": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #27 ": {
       "nature": "Jolly",
       "ability": "Own Tempo",
       "level": -1,
@@ -42042,7 +42042,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #390.2": {
+    "Lvl -1 Team Rocket Grunt #42 ": {
       "nature": "Hardy",
       "ability": "Own Tempo",
       "level": -1,
@@ -42074,7 +42074,7 @@ backup_data = {
     }
   },
   "Grafaiai": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #27 ": {
       "nature": "Adamant",
       "ability": "Poison Touch",
       "level": -1,
@@ -42091,7 +42091,7 @@ backup_data = {
     }
   },
   "Stonjourner": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #27 ": {
       "nature": "Hasty",
       "ability": "Rocky Payload",
       "level": -1,
@@ -42108,7 +42108,7 @@ backup_data = {
     }
   },
   "Bruxish": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #27 ": {
       "nature": "Jolly",
       "ability": "Strong Jaw",
       "level": 0,
@@ -42140,7 +42140,7 @@ backup_data = {
       "item": "Mystic Water",
       "rawIvOrSpreadValue": 62
     },
-    "Lvl -1 Picnicker Alicia - Route 9": {
+    "Lvl -1 Picnicker Alicia #5 ": {
       "nature": "Jolly",
       "ability": "Strong Jaw",
       "level": -1,
@@ -42172,7 +42172,7 @@ backup_data = {
     }
   },
   "Cacturne": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #28 ": {
       "nature": "Sassy",
       "ability": "Water Absorb",
       "level": 0,
@@ -42187,7 +42187,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Cue Ball Camron - Route 16": {
+    "Lvl -2 Cue Ball Camron #3 ": {
       "nature": "Jolly",
       "ability": "Sand Rush",
       "level": -2,
@@ -42219,7 +42219,7 @@ backup_data = {
     }
   },
   "Bisharp": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #28 ": {
       "nature": "Naughty",
       "ability": "Inner Focus",
       "level": -1,
@@ -42234,7 +42234,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -2 Biker William - Route 18": {
+    "Lvl -2 Biker William": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": -2,
@@ -42264,7 +42264,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Camper Bryce - Kindle Road": {
+    "Lvl -1 Camper Bryce #2 ": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": -1,
@@ -42296,7 +42296,7 @@ backup_data = {
     }
   },
   "Crobat": {
-    "Lvl -1 Team Rocket Grunt": {
+    "Lvl -1 Team Rocket Grunt #30 ": {
       "nature": "Serious",
       "ability": "Sniper",
       "level": -1,
@@ -42311,7 +42311,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -1 Team Rocket Grunt #381.2": {
+    "Lvl -1 Team Rocket Grunt #34 ": {
       "nature": "Careful",
       "ability": "Sniper",
       "level": -1,
@@ -42326,7 +42326,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl -4 Elite Four Agatha": {
+    "Lvl -4 Elite Four Agatha #4 ": {
       "nature": "Impish",
       "ability": "Infiltrator",
       "level": -4,
@@ -42342,7 +42342,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Sheet Frontier Grunt - Dig House": {
+    "Lvl -2 Sheet Frontier Grunt #2 ": {
       "nature": "Naive",
       "ability": "Sniper",
       "level": -2,
@@ -42372,7 +42372,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Rolando - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Rolando": {
       "nature": "Timid",
       "ability": "Sniper",
       "level": 85,
@@ -42403,7 +42403,7 @@ backup_data = {
     }
   },
   "Houndstone": {
-    "Lvl 47 Team Rocket Grunt": {
+    "Lvl 47 Team Rocket Grunt #31 ": {
       "nature": "Naughty",
       "ability": "Sand Rush",
       "level": 47,
@@ -42433,7 +42433,7 @@ backup_data = {
     }
   },
   "Marowak-Alola": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #35 ": {
       "nature": "Impish",
       "ability": "Rock Head",
       "level": 0,
@@ -42448,7 +42448,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 85
     },
-    "Lvl 82 Sheet Frontier Brendan - Route 23": {
+    "Lvl 82 Sheet Frontier Brendan #4 ": {
       "nature": "Adamant",
       "ability": "Bone Zone",
       "level": 82,
@@ -42477,7 +42477,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 58 Sheet Frontier Ghost - PKMN Tower": {
+    "Lvl 58 Sheet Frontier Ghost": {
       "nature": "Adamant",
       "ability": "Bone Zone",
       "level": 58,
@@ -42508,7 +42508,7 @@ backup_data = {
     }
   },
   "Donphan": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #36 ": {
       "nature": "Jolly",
       "ability": "Sturdy",
       "level": 0,
@@ -42540,7 +42540,7 @@ backup_data = {
       "item": "Leftovers",
       "rawIvOrSpreadValue": 95
     },
-    "Lvl 100 Leader Pryce - Seafoam Isl. Secret Room": {
+    "Lvl 100 Leader Pryce #8 ": {
       "nature": "Brave",
       "ability": "Technician",
       "level": 100,
@@ -42571,7 +42571,7 @@ backup_data = {
     }
   },
   "Thievul": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #37 ": {
       "nature": "Impish",
       "ability": "Unburden",
       "level": 0,
@@ -42588,7 +42588,7 @@ backup_data = {
     }
   },
   "Nidoqueen": {
-    "Lvl 0 Team Rocket Grunt": {
+    "Lvl 0 Team Rocket Grunt #42 ": {
       "nature": "Hasty",
       "ability": "Rivalry",
       "level": 0,
@@ -42619,7 +42619,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 98
     },
-    "Lvl 55 Young Couple Gia Jes": {
+    "Lvl 55 Young Couple Gia Jes #3 ": {
       "nature": "Quirky",
       "ability": "Rivalry",
       "level": 55,
@@ -42634,7 +42634,7 @@ backup_data = {
       "trainerClass": 94,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl -1 Sailor Trevor - S.S. Anne Sailor Edmond &": {
+    "Lvl -1 Sailor Trevor #2 ": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": -1,
@@ -42664,7 +42664,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Rocker Luca - Route 12": {
+    "Lvl -2 Rocker Luca #3 ": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": -2,
@@ -42694,7 +42694,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Bird Keeper Jacob - Route 18": {
+    "Lvl -2 Bird Keeper Jacob #4 ": {
       "nature": "Timid",
       "ability": "Sheer Force",
       "level": -2,
@@ -42760,7 +42760,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 100
     },
-    "Lvl -3 Biker Lao - Route 16": {
+    "Lvl -3 Biker Lao #2 ": {
       "nature": "Jolly",
       "ability": "Inner Focus",
       "level": -3,
@@ -42790,7 +42790,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Alexa - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Alexa": {
       "nature": "Jolly",
       "ability": "Regenerator",
       "level": 85,
@@ -42852,7 +42852,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl -1 Gentleman Tucker - Vermillion Gym": {
+    "Lvl -1 Gentleman Tucker #2 ": {
       "nature": "Timid",
       "ability": "No Guard",
       "level": -1,
@@ -42882,7 +42882,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Tuber Amira - Bond Bridge": {
+    "Lvl 100 Tuber Amira #3 ": {
       "nature": "Naive",
       "ability": "No Guard",
       "level": 100,
@@ -42949,7 +42949,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 34
     },
-    "Lvl 0 Picnicker Dana - Rock Tunnel": {
+    "Lvl 0 Picnicker Dana #2 ": {
       "nature": "Timid",
       "ability": "Mega Launcher",
       "level": 0,
@@ -43015,7 +43015,7 @@ backup_data = {
       "trainerClass": 86,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 25 Hiker Franklin": {
+    "Lvl 25 Hiker Franklin #2 ": {
       "nature": "Quiet",
       "ability": "Rock Head",
       "level": 25,
@@ -43044,7 +43044,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 104
     },
-    "Lvl 48 Ruin Maniac Stanly #524.2": {
+    "Lvl 48 Ruin Maniac Stanly Set2 ": {
       "nature": "Modest",
       "ability": "Rock Head",
       "level": 48,
@@ -43073,7 +43073,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 104
     },
-    "Lvl 31 Hiker Trent": {
+    "Lvl 31 Hiker Trent #2 ": {
       "nature": "Quirky",
       "ability": "Sturdy",
       "level": 31,
@@ -43155,7 +43155,7 @@ backup_data = {
       "trainerClass": 101,
       "rawIvOrSpreadValue": 30
     },
-    "Lvl 56 Pokemon Ranger Katelyn": {
+    "Lvl 56 Pokemon Ranger Katelyn #2 ": {
       "nature": "Modest",
       "ability": "Serene Grace",
       "level": 56,
@@ -43170,7 +43170,7 @@ backup_data = {
       "trainerClass": 102,
       "rawIvOrSpreadValue": 220
     },
-    "Lvl -2 Picnicker Alma - Route 13": {
+    "Lvl -2 Picnicker Alma #2 ": {
       "nature": "Bold",
       "ability": "Natural Cure",
       "level": -2,
@@ -43219,7 +43219,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 5
     },
-    "Lvl 0 Sheet Frontier Grunt - Nugg. Bridge": {
+    "Lvl 0 Sheet Frontier Grunt": {
       "nature": "Adamant",
       "ability": "Comatose",
       "level": 0,
@@ -43297,7 +43297,7 @@ backup_data = {
       "trainerClass": 102,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 48 Team Rocket Grunt": {
+    "Lvl 48 Team Rocket Grunt #53 ": {
       "nature": "Hardy",
       "ability": "Chlorophyll",
       "level": 48,
@@ -43312,7 +43312,7 @@ backup_data = {
       "trainerClass": 85,
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 48 Team Rocket Grunt #569.2": {
+    "Lvl 48 Team Rocket Grunt #53 Set2 ": {
       "nature": "Brave",
       "ability": "Chlorophyll",
       "level": 48,
@@ -43329,7 +43329,7 @@ backup_data = {
     }
   },
   "Onix": {
-    "Lvl -5 Elite Four Bruno": {
+    "Lvl -5 Elite Four Bruno #3 ": {
       "nature": "Timid",
       "ability": "Sturdy",
       "level": -5,
@@ -43345,7 +43345,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl -2 Elite Four Bruno": {
+    "Lvl -2 Elite Four Bruno #3 ": {
       "nature": "Impish",
       "ability": "Sturdy",
       "level": -2,
@@ -43361,7 +43361,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 0 Leader Brock": {
+    "Lvl 0 Leader Brock #2 ": {
       "nature": "Naive",
       "ability": "Sturdy",
       "level": 0,
@@ -43448,7 +43448,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 104
     },
-    "Lvl -2 Hiker Jeremy": {
+    "Lvl -2 Hiker Jeremy #2 ": {
       "nature": "Modest",
       "ability": "Rock Head",
       "level": -2,
@@ -43464,7 +43464,7 @@ backup_data = {
       "trainerClass": 65,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 31 Hiker Trent": {
+    "Lvl 31 Hiker Trent #2 ": {
       "nature": "Brave",
       "ability": "Sturdy",
       "level": 31,
@@ -43479,7 +43479,7 @@ backup_data = {
       "trainerClass": 65,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 54 Hiker Earl": {
+    "Lvl 54 Hiker Earl #2 ": {
       "nature": "Quirky",
       "ability": "Rock Head",
       "level": 54,
@@ -43496,7 +43496,7 @@ backup_data = {
     }
   },
   "Hitmonlee": {
-    "Lvl -3 Elite Four Bruno": {
+    "Lvl -3 Elite Four Bruno #3 ": {
       "nature": "Naive",
       "ability": "Reckless",
       "level": -3,
@@ -43512,7 +43512,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl 33 Crush Kin Ron Mya": {
+    "Lvl 33 Crush Kin Ron Mya #2 ": {
       "nature": "Modest",
       "ability": "Reckless",
       "level": 33,
@@ -43528,7 +43528,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 110
     },
-    "Lvl 51 Crush Kin Ron Mya": {
+    "Lvl 51 Crush Kin Ron Mya #3 ": {
       "nature": "Modest",
       "ability": "Reckless",
       "level": 51,
@@ -43544,7 +43544,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 130
     },
-    "Lvl 56 Crush Kin Ron Mya": {
+    "Lvl 56 Crush Kin Ron Mya #4 ": {
       "nature": "Modest",
       "ability": "Reckless",
       "level": 56,
@@ -43560,7 +43560,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl 50 Crush Girl Tanya": {
+    "Lvl 50 Crush Girl Tanya #2 ": {
       "nature": "Calm",
       "ability": "Reckless",
       "level": 50,
@@ -43576,7 +43576,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 130
     },
-    "Lvl 55 Crush Girl Tanya": {
+    "Lvl 55 Crush Girl Tanya #3 ": {
       "nature": "Calm",
       "ability": "Reckless",
       "level": 55,
@@ -43592,7 +43592,7 @@ backup_data = {
       "item": "Black Belt",
       "rawIvOrSpreadValue": 170
     },
-    "Lvl -3 Elite Four Bruno #736.2": {
+    "Lvl -3 Elite Four Bruno #4 ": {
       "nature": "Naughty",
       "ability": "Reckless",
       "level": -3,
@@ -43608,7 +43608,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 36 Leader Lt. Surge": {
+    "Lvl 36 Leader Lt. Surge #4 ": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 36,
@@ -43638,7 +43638,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Leader Lt. Surge": {
+    "Lvl 0 Leader Lt. Surge #5 ": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 0,
@@ -43668,7 +43668,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Rival - Cerulean City": {
+    "Lvl -1 Rival #4 ": {
       "nature": "Jolly",
       "ability": "Striker",
       "level": -1,
@@ -43698,7 +43698,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Beauty Sam - Celadon Hotel": {
+    "Lvl 59 Beauty Sam": {
       "nature": "Adamant",
       "ability": "Unburden",
       "level": 59,
@@ -43729,7 +43729,7 @@ backup_data = {
     }
   },
   "Haunter": {
-    "Lvl -5 Elite Four Agatha": {
+    "Lvl -5 Elite Four Agatha #3 ": {
       "nature": "Bashful",
       "ability": "Levitate",
       "level": -5,
@@ -43803,7 +43803,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 67
     },
-    "Lvl 22 Channeler": {
+    "Lvl 22 Channeler #3 ": {
       "nature": "Calm",
       "ability": "Levitate",
       "level": 22,
@@ -43819,7 +43819,7 @@ backup_data = {
     }
   },
   "Dragonair": {
-    "Lvl -6 Elite Four Lance": {
+    "Lvl -6 Elite Four Lance #4 ": {
       "nature": "Serious",
       "ability": "Shed Skin",
       "level": -6,
@@ -43835,7 +43835,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 250
     },
-    "Lvl -6 Elite Four Lance #413.2": {
+    "Lvl -6 Elite Four Lance #4 Set2 ": {
       "nature": "Impish",
       "ability": "Shed Skin",
       "level": -6,
@@ -43853,7 +43853,7 @@ backup_data = {
     }
   },
   "Archen": {
-    "Lvl -2 Leader Brock": {
+    "Lvl -2 Leader Brock #2 ": {
       "nature": "Hasty",
       "ability": "Defeatist",
       "level": -2,
@@ -43870,7 +43870,7 @@ backup_data = {
       "item": "Oran Berry",
       "rawIvOrSpreadValue": 123
     },
-    "Lvl -2 Leader Brock #rrhc-sheet-Kanto-Leaders-5-0x1133e64.4": {
+    "Lvl -2 Leader Brock #4 ": {
       "nature": "Bashful",
       "ability": "Defeatist",
       "level": -2,
@@ -43902,7 +43902,7 @@ backup_data = {
     }
   },
   "Frogadier": {
-    "Lvl -1 Leader Misty": {
+    "Lvl -1 Leader Misty #3 ": {
       "nature": "Serious",
       "ability": "Torrent",
       "level": -1,
@@ -43921,7 +43921,7 @@ backup_data = {
     }
   },
   "Pincurchin": {
-    "Lvl -2 Leader Lt. Surge": {
+    "Lvl -2 Leader Lt. Surge #2 ": {
       "nature": "Bold",
       "ability": "Lightning Rod",
       "level": -2,
@@ -43938,7 +43938,7 @@ backup_data = {
       "item": "Electric Seed",
       "rawIvOrSpreadValue": 136
     },
-    "Lvl -1 Channeler Ruth - PKMN Tower": {
+    "Lvl -1 Channeler Ruth #2 ": {
       "nature": "Modest",
       "ability": "Electric Surge",
       "level": -1,
@@ -43970,7 +43970,7 @@ backup_data = {
     }
   },
   "Raichu-Alola": {
-    "Lvl -1 Leader Lt. Surge": {
+    "Lvl -1 Leader Lt. Surge #2 ": {
       "nature": "Careful",
       "ability": "Surge Surfer",
       "level": -1,
@@ -44002,7 +44002,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 36 Leader Lt. Surge": {
+    "Lvl 36 Leader Lt. Surge #4 ": {
       "nature": "Modest",
       "ability": "Surge Surfer",
       "level": 36,
@@ -44032,7 +44032,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Leader Lt. Surge": {
+    "Lvl 0 Leader Lt. Surge #5 ": {
       "nature": "Modest",
       "ability": "Surge Surfer",
       "level": 0,
@@ -44064,7 +44064,7 @@ backup_data = {
     }
   },
   "Vikavolt": {
-    "Lvl -1 Leader Lt. Surge": {
+    "Lvl -1 Leader Lt. Surge #2 ": {
       "nature": "Docile",
       "ability": "Levitate",
       "level": -1,
@@ -44111,7 +44111,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy Set2 #frontier-community-0x1133780.5": {
+    "Lvl 44 Leader Bugsy Set2 #2 ": {
       "nature": "Modest",
       "ability": "Levitate",
       "level": 44,
@@ -44171,7 +44171,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Bugsy - Route 25": {
+    "Lvl 28 Leader Bugsy #6 ": {
       "nature": "Modest",
       "ability": "Levitate",
       "level": 28,
@@ -44200,7 +44200,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy - Route 25": {
+    "Lvl 44 Leader Bugsy #7 ": {
       "nature": "Modest",
       "ability": "Levitate",
       "level": 44,
@@ -44229,7 +44229,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Cool Couple Ray & Tyra - Victory Road": {
+    "Lvl 85 Cool Couple Ray & Tyra": {
       "nature": "Quiet",
       "ability": "Levitate",
       "level": 85,
@@ -44260,7 +44260,7 @@ backup_data = {
     }
   },
   "Boltund": {
-    "Lvl -1 Leader Lt. Surge": {
+    "Lvl -1 Leader Lt. Surge #2 ": {
       "nature": "Quirky",
       "ability": "Strong Jaw",
       "level": -1,
@@ -44277,7 +44277,7 @@ backup_data = {
       "item": "Expert Belt",
       "rawIvOrSpreadValue": 153
     },
-    "Lvl -1 Camper Jeff - Route 6": {
+    "Lvl -1 Camper Jeff #5 ": {
       "nature": "Jolly",
       "ability": "Strong Jaw",
       "level": -1,
@@ -44309,7 +44309,7 @@ backup_data = {
     }
   },
   "Meganium": {
-    "Lvl -1 Leader Erika": {
+    "Lvl -1 Leader Erika #2 ": {
       "nature": "Naughty",
       "ability": "Overgrow",
       "level": -1,
@@ -44328,7 +44328,7 @@ backup_data = {
     }
   },
   "Sudowoodo": {
-    "Lvl 0 Leader Erika": {
+    "Lvl 0 Leader Erika #2 ": {
       "nature": "Impish",
       "ability": "Rock Head",
       "level": 0,
@@ -44378,7 +44378,7 @@ backup_data = {
       "item": "Heat Rock",
       "rawIvOrSpreadValue": 130
     },
-    "Lvl 100 Sheet Frontier Samantha - PKMN Tower Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Samantha": {
       "nature": "Relaxed",
       "ability": "Drought",
       "level": 100,
@@ -44440,7 +44440,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 92
     },
-    "Lvl 76 Sheet Frontier Zac - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Zac": {
       "nature": "Jolly",
       "ability": "Libero",
       "level": 76,
@@ -44469,7 +44469,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Beauty Shelly - Celadon Hotel": {
+    "Lvl 59 Beauty Shelly": {
       "nature": "Jolly",
       "ability": "Libero",
       "level": 59,
@@ -44517,7 +44517,7 @@ backup_data = {
       "item": "Focus Sash",
       "rawIvOrSpreadValue": 94
     },
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #25 ": {
       "nature": "Careful",
       "ability": "Chlorophyll",
       "level": -2,
@@ -44533,7 +44533,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Rival Terry #741.3": {
+    "Lvl -2 Rival Terry #27 ": {
       "nature": "Timid",
       "ability": "Chlorophyll",
       "level": -2,
@@ -44549,7 +44549,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl 79 Sheet Frontier Archer - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Archer #3 ": {
       "nature": "Timid",
       "ability": "Chlorophyll",
       "level": 79,
@@ -44578,7 +44578,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Bird Keeper Robert - Route 13": {
+    "Lvl -2 Bird Keeper Robert #4 ": {
       "nature": "Timid",
       "ability": "Chlorophyll",
       "level": -2,
@@ -44608,7 +44608,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak": {
       "nature": "Modest",
       "ability": "Harvest",
       "level": 100,
@@ -44689,7 +44689,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 103
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #11 ": {
       "nature": "Timid",
       "ability": "Chlorophyll",
       "level": 82,
@@ -44718,7 +44718,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 79 Sheet Frontier Archer - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Archer #3 ": {
       "nature": "Timid",
       "ability": "Chlorophyll",
       "level": 79,
@@ -44747,7 +44747,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Bird Keeper Perry - Route 13": {
+    "Lvl -2 Bird Keeper Perry #2 ": {
       "nature": "Calm",
       "ability": "Solar Power",
       "level": -2,
@@ -44813,7 +44813,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 88
     },
-    "Lvl -2 Camper Ethan - Nugg. Bridge": {
+    "Lvl -2 Camper Ethan #2 ": {
       "nature": "Bashful",
       "ability": "Intimidate",
       "level": -2,
@@ -44845,7 +44845,7 @@ backup_data = {
     }
   },
   "Exeggcute": {
-    "Lvl -3 Rival Terry": {
+    "Lvl -3 Rival Terry #13 ": {
       "nature": "Impish",
       "ability": "Chlorophyll",
       "level": -3,
@@ -44861,7 +44861,7 @@ backup_data = {
       "trainerClass": 89,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #15 ": {
       "nature": "Lonely",
       "ability": "Chlorophyll",
       "level": -2,
@@ -44879,7 +44879,7 @@ backup_data = {
     }
   },
   "Staraptor": {
-    "Lvl -1 Rival Terry": {
+    "Lvl -1 Rival Terry #16 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": -1,
@@ -44896,7 +44896,7 @@ backup_data = {
       "item": "Sharp Beak",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Rival Terry #433.0": {
+    "Lvl -1 Rival Terry #17 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": -1,
@@ -44913,7 +44913,7 @@ backup_data = {
       "item": "Sharp Beak",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Rival Terry #434.0": {
+    "Lvl -1 Rival Terry #18 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": -1,
@@ -44930,7 +44930,7 @@ backup_data = {
       "item": "Sharp Beak",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Rival Terry #435.0": {
+    "Lvl -1 Rival Terry #19 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": -1,
@@ -44947,7 +44947,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Rival Terry #436.0": {
+    "Lvl -1 Rival Terry #20 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": -1,
@@ -44964,7 +44964,7 @@ backup_data = {
       "item": "Choice Band",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl -1 Rival Terry #437.0": {
+    "Lvl -1 Rival Terry #21 ": {
       "nature": "Relaxed",
       "ability": "Intimidate",
       "level": -1,
@@ -44983,7 +44983,7 @@ backup_data = {
     }
   },
   "Electivire": {
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #16 ": {
       "nature": "Timid",
       "ability": "Vital Spirit",
       "level": 0,
@@ -45000,7 +45000,7 @@ backup_data = {
       "item": "Expert Belt",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 0 Rival Terry #433.3": {
+    "Lvl 0 Rival Terry #17 ": {
       "nature": "Brave",
       "ability": "Vital Spirit",
       "level": 0,
@@ -45017,7 +45017,7 @@ backup_data = {
       "item": "Expert Belt",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl 0 Rival Terry #434.3": {
+    "Lvl 0 Rival Terry #18 ": {
       "nature": "Bold",
       "ability": "Vital Spirit",
       "level": 0,
@@ -45034,7 +45034,7 @@ backup_data = {
       "item": "Expert Belt",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl -1 Rival Terry": {
+    "Lvl -1 Rival Terry #19 ": {
       "nature": "Timid",
       "ability": "Vital Spirit",
       "level": -1,
@@ -45051,7 +45051,7 @@ backup_data = {
       "item": "Expert Belt",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl -1 Rival Terry #436.1": {
+    "Lvl -1 Rival Terry #20 ": {
       "nature": "Timid",
       "ability": "Vital Spirit",
       "level": -1,
@@ -45068,7 +45068,7 @@ backup_data = {
       "item": "Expert Belt",
       "rawIvOrSpreadValue": 92
     },
-    "Lvl -1 Rival Terry #437.1": {
+    "Lvl -1 Rival Terry #21 ": {
       "nature": "Timid",
       "ability": "Vital Spirit",
       "level": -1,
@@ -45132,7 +45132,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #7 ": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": 56,
@@ -45161,7 +45161,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-226-0x11319c0.3": {
+    "Lvl 56 Rival #8 ": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": 56,
@@ -45190,7 +45190,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-250-0x1131a68.2": {
+    "Lvl 56 Rival #9 ": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": 56,
@@ -45221,7 +45221,7 @@ backup_data = {
     }
   },
   "Darmanitan": {
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #16 ": {
       "nature": "Lonely",
       "ability": "Sheer Force",
       "level": 0,
@@ -45238,7 +45238,7 @@ backup_data = {
       "item": "Charcoal",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 0 Rival Terry #433.1": {
+    "Lvl 0 Rival Terry #17 ": {
       "nature": "Relaxed",
       "ability": "Sheer Force",
       "level": 0,
@@ -45255,7 +45255,7 @@ backup_data = {
       "item": "Charcoal",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 0 Rival Terry #435.2": {
+    "Lvl 0 Rival Terry #19 ": {
       "nature": "Lonely",
       "ability": "Sheer Force",
       "level": 0,
@@ -45272,7 +45272,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 0 Rival Terry #436.3": {
+    "Lvl 0 Rival Terry #20 ": {
       "nature": "Brave",
       "ability": "Sheer Force",
       "level": 0,
@@ -45289,7 +45289,7 @@ backup_data = {
       "item": "Life Orb",
       "rawIvOrSpreadValue": 2
     },
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #7 ": {
       "nature": "Jolly",
       "ability": "Sheer Force",
       "level": 56,
@@ -45318,7 +45318,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-250-0x1131a68.4": {
+    "Lvl 56 Rival #9 ": {
       "nature": "Jolly",
       "ability": "Sheer Force",
       "level": 56,
@@ -45347,7 +45347,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Lucy - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Lucy": {
       "nature": "Jolly",
       "ability": "Sheer Force",
       "level": 76,
@@ -45376,7 +45376,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Cool Couple Ray & Tyra - Victory Road": {
+    "Lvl 85 Cool Couple Ray & Tyra": {
       "nature": "Quiet",
       "ability": "Zen Mode",
       "level": 85,
@@ -45408,7 +45408,7 @@ backup_data = {
     }
   },
   "Kartana": {
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #19 ": {
       "nature": "Adamant",
       "ability": "Beast Boost",
       "level": 0,
@@ -45425,7 +45425,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 0 Rival Terry #436.4": {
+    "Lvl 0 Rival Terry #20 ": {
       "nature": "Bold",
       "ability": "Beast Boost",
       "level": 0,
@@ -45442,7 +45442,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 0 Rival Terry #437.2": {
+    "Lvl 0 Rival Terry #21 ": {
       "nature": "Naughty",
       "ability": "Beast Boost",
       "level": 0,
@@ -45459,7 +45459,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 1
     },
-    "Lvl 68 Leader Erika": {
+    "Lvl 68 Leader Erika #3 ": {
       "nature": "Jolly",
       "ability": "Beast Boost",
       "level": 68,
@@ -45489,7 +45489,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Erika": {
+    "Lvl 44 Leader Erika #4 ": {
       "nature": "Jolly",
       "ability": "Beast Boost",
       "level": 44,
@@ -45519,7 +45519,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Erika #rrhc-sheet-Kanto-Leaders-80-0x1132ab4.5": {
+    "Lvl 44 Leader Erika #5 ": {
       "nature": "Jolly",
       "ability": "Beast Boost",
       "level": 44,
@@ -45548,7 +45548,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Erika #rrhc-sheet-Kanto-Rematch-79-0x1130db8.3": {
+    "Lvl 68 Leader Erika #6 ": {
       "nature": "Jolly",
       "ability": "Beast Boost",
       "level": 68,
@@ -45579,7 +45579,7 @@ backup_data = {
     }
   },
   "Barbaracle": {
-    "Lvl 0 Rival Terry": {
+    "Lvl 0 Rival Terry #21 ": {
       "nature": "Gentle",
       "ability": "Sniper",
       "level": 0,
@@ -45596,7 +45596,7 @@ backup_data = {
       "item": "White Herb",
       "rawIvOrSpreadValue": 31
     },
-    "Lvl -2 Fisherman Andrew - Route 12": {
+    "Lvl -2 Fisherman Andrew #2 ": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": -2,
@@ -45628,7 +45628,7 @@ backup_data = {
     }
   },
   "Groudon": {
-    "Lvl 85 Rival Terry": {
+    "Lvl 85 Rival Terry #22 ": {
       "nature": "Brave",
       "ability": "Drought",
       "level": 85,
@@ -45644,7 +45644,7 @@ backup_data = {
       "item": "Red Orb",
       "rawIvOrSpreadValue": 14
     },
-    "Lvl 85 Rival Terry #439.2": {
+    "Lvl 85 Rival Terry #23 ": {
       "nature": "Brave",
       "ability": "Drought",
       "level": 85,
@@ -45660,7 +45660,7 @@ backup_data = {
       "item": "Red Orb",
       "rawIvOrSpreadValue": 14
     },
-    "Lvl 85 Rival Terry #440.2": {
+    "Lvl 85 Rival Terry #24 ": {
       "nature": "Brave",
       "ability": "Drought",
       "level": 85,
@@ -45676,7 +45676,7 @@ backup_data = {
       "item": "Red Orb",
       "rawIvOrSpreadValue": 14
     },
-    "Lvl 100 Champion Rival": {
+    "Lvl 100 Champion Rival #2 ": {
       "nature": "Jolly",
       "ability": "Drought",
       "level": 100,
@@ -45708,7 +45708,7 @@ backup_data = {
     }
   },
   "Yveltal": {
-    "Lvl 85 Rival Terry": {
+    "Lvl 85 Rival Terry #22 ": {
       "nature": "Hardy",
       "ability": "Dark Aura",
       "level": 85,
@@ -45724,7 +45724,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 8
     },
-    "Lvl 85 Rival Terry #439.3": {
+    "Lvl 85 Rival Terry #23 ": {
       "nature": "Hardy",
       "ability": "Dark Aura",
       "level": 85,
@@ -45740,7 +45740,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 8
     },
-    "Lvl 85 Rival Terry #440.3": {
+    "Lvl 85 Rival Terry #24 ": {
       "nature": "Hardy",
       "ability": "Dark Aura",
       "level": 85,
@@ -45756,7 +45756,7 @@ backup_data = {
       "item": "Assault Vest",
       "rawIvOrSpreadValue": 8
     },
-    "Lvl 85 Elite Four Agatha": {
+    "Lvl 85 Elite Four Agatha #5 ": {
       "nature": "Timid",
       "ability": "Dark Aura",
       "level": 85,
@@ -45786,7 +45786,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Elite Four Agatha #frontier-community-0x112f960.2": {
+    "Lvl 85 Elite Four Agatha #6 ": {
       "nature": "Timid",
       "ability": "Dark Aura",
       "level": 85,
@@ -45816,7 +45816,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha": {
+    "Lvl 100 Elite Four Agatha #7 ": {
       "nature": "Timid",
       "ability": "Dark Aura",
       "level": 100,
@@ -45845,7 +45845,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha #rrhc-sheet-Indigo-League-147-0x112f8b8.3": {
+    "Lvl 100 Elite Four Agatha #8 ": {
       "nature": "Timid",
       "ability": "Dark Aura",
       "level": 100,
@@ -45876,7 +45876,7 @@ backup_data = {
     }
   },
   "Eternatus": {
-    "Lvl 85 Rival Terry": {
+    "Lvl 85 Rival Terry #22 ": {
       "nature": "Brave",
       "ability": "Pressure",
       "level": 85,
@@ -45892,7 +45892,7 @@ backup_data = {
       "item": "Power Herb",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 85 Rival Terry #439.4": {
+    "Lvl 85 Rival Terry #23 ": {
       "nature": "Brave",
       "ability": "Pressure",
       "level": 85,
@@ -45908,7 +45908,7 @@ backup_data = {
       "item": "Power Herb",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 85 Rival Terry #440.4": {
+    "Lvl 85 Rival Terry #24 ": {
       "nature": "Brave",
       "ability": "Pressure",
       "level": 85,
@@ -45924,7 +45924,7 @@ backup_data = {
       "item": "Power Herb",
       "rawIvOrSpreadValue": 4
     },
-    "Lvl 81 Leader Clair": {
+    "Lvl 81 Leader Clair #5 ": {
       "nature": "Timid",
       "ability": "Pressure",
       "level": 81,
@@ -45954,7 +45954,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Leader Clair #rrhc-sheet-Kanto-Leaders-179-0x11303e0.4": {
+    "Lvl 81 Leader Clair #6 ": {
       "nature": "Timid",
       "ability": "Pressure",
       "level": 81,
@@ -46013,7 +46013,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival #rrhc-sheet-Indigo-League-251-0x112f570.5": {
+    "Lvl 100 Champion Rival #2 ": {
       "nature": "Timid",
       "ability": "Pressure",
       "level": 100,
@@ -46043,7 +46043,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival #rrhc-sheet-Indigo-League-276-0x112f618.3": {
+    "Lvl 100 Champion Rival #3 ": {
       "nature": "Timid",
       "ability": "Pressure",
       "level": 100,
@@ -46075,7 +46075,7 @@ backup_data = {
     }
   },
   "Ditto": {
-    "Lvl 85 Rival Terry": {
+    "Lvl 85 Rival Terry #22 ": {
       "nature": "Lonely",
       "ability": "Limber",
       "level": 85,
@@ -46088,7 +46088,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 116
     },
-    "Lvl 85 Rival Terry #439.5": {
+    "Lvl 85 Rival Terry #23 ": {
       "nature": "Lonely",
       "ability": "Limber",
       "level": 85,
@@ -46101,7 +46101,7 @@ backup_data = {
       "item": "Choice Scarf",
       "rawIvOrSpreadValue": 116
     },
-    "Lvl 85 Rival Terry #440.5": {
+    "Lvl 85 Rival Terry #24 ": {
       "nature": "Lonely",
       "ability": "Limber",
       "level": 85,
@@ -46130,7 +46130,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 36 Leader Morty": {
+    "Lvl 36 Leader Morty #4 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 36,
@@ -46160,7 +46160,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Morty - Lavender Town": {
+    "Lvl 36 Leader Morty #6 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 36,
@@ -46238,7 +46238,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl -5 Elite Four Agatha": {
+    "Lvl -5 Elite Four Agatha #4 ": {
       "nature": "Quiet",
       "ability": "Levitate",
       "level": -5,
@@ -46254,7 +46254,7 @@ backup_data = {
       "trainerClass": 87,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Camper Ethan - Nugg. Bridge": {
+    "Lvl -2 Camper Ethan #2 ": {
       "nature": "Bashful",
       "ability": "Levitate",
       "level": -2,
@@ -46394,7 +46394,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 24 Channeler": {
+    "Lvl 24 Channeler #2 ": {
       "nature": "Hasty",
       "ability": "Levitate",
       "level": 24,
@@ -46408,7 +46408,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 22 Channeler #459.0": {
+    "Lvl 22 Channeler #4 ": {
       "nature": "Hasty",
       "ability": "Levitate",
       "level": 22,
@@ -46422,7 +46422,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 22 Channeler #459.1": {
+    "Lvl 22 Channeler #4 Set2 ": {
       "nature": "Hasty",
       "ability": "Levitate",
       "level": 22,
@@ -46436,7 +46436,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 22 Channeler #459.2": {
+    "Lvl 22 Channeler #4 Set3 ": {
       "nature": "Calm",
       "ability": "Levitate",
       "level": 22,
@@ -46450,7 +46450,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 24 Channeler #460.0": {
+    "Lvl 24 Channeler #5 ": {
       "nature": "Hasty",
       "ability": "Levitate",
       "level": 24,
@@ -46464,7 +46464,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl 24 Channeler #461.0": {
+    "Lvl 24 Channeler #6 ": {
       "nature": "Hasty",
       "ability": "Levitate",
       "level": 24,
@@ -46512,7 +46512,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 91
     },
-    "Lvl -2 Fisherman Andrew - Route 12": {
+    "Lvl -2 Fisherman Andrew #2 ": {
       "nature": "Timid",
       "ability": "Snow Cloak",
       "level": -2,
@@ -46542,7 +46542,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Scientist Ted - Pkm Mansion": {
+    "Lvl -2 Scientist Ted #2 ": {
       "nature": "Jolly",
       "ability": "Cursed Body",
       "level": -2,
@@ -46588,7 +46588,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 65
     },
-    "Lvl -3 Biker Hideo - Route 16": {
+    "Lvl -3 Biker Hideo #2 ": {
       "nature": "Calm",
       "ability": "Sand Veil",
       "level": -3,
@@ -46650,7 +46650,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 0 Lass Megan": {
+    "Lvl 0 Lass Megan #3 ": {
       "nature": "Naughty",
       "ability": "Static",
       "level": 0,
@@ -46666,7 +46666,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 52 Picnicker Susie": {
+    "Lvl 52 Picnicker Susie #4 ": {
       "nature": "Hasty",
       "ability": "Static",
       "level": 52,
@@ -46681,7 +46681,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 32 Picnicker Becky": {
+    "Lvl 32 Picnicker Becky #2 ": {
       "nature": "Quiet",
       "ability": "Static",
       "level": 32,
@@ -46696,7 +46696,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 49 Picnicker Becky": {
+    "Lvl 49 Picnicker Becky #3 ": {
       "nature": "Quiet",
       "ability": "Static",
       "level": 49,
@@ -46711,7 +46711,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 54 Picnicker Becky": {
+    "Lvl 54 Picnicker Becky #4 ": {
       "nature": "Hasty",
       "ability": "Static",
       "level": 54,
@@ -46726,7 +46726,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 54 Picnicker Becky #671.1": {
+    "Lvl 54 Picnicker Becky #4 Set2 ": {
       "nature": "Sassy",
       "ability": "Static",
       "level": 54,
@@ -46774,7 +46774,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 28 Lass Reli": {
+    "Lvl 28 Lass Reli #3 ": {
       "nature": "Quirky",
       "ability": "Poison Touch",
       "level": 28,
@@ -46789,7 +46789,7 @@ backup_data = {
       "trainerClass": 59,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 29 Picnicker Kelsey": {
+    "Lvl 29 Picnicker Kelsey #3 ": {
       "nature": "Mild",
       "ability": "Poison Touch",
       "level": 29,
@@ -46804,7 +46804,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 49 Picnicker Kelsey": {
+    "Lvl 49 Picnicker Kelsey #4 ": {
       "nature": "Mild",
       "ability": "Poison Touch",
       "level": 49,
@@ -46819,7 +46819,7 @@ backup_data = {
       "trainerClass": 62,
       "rawIvOrSpreadValue": 80
     },
-    "Lvl 30 Young Couple Gia Jes": {
+    "Lvl 30 Young Couple Gia Jes #2 ": {
       "nature": "Mild",
       "ability": "Rivalry",
       "level": 30,
@@ -46850,7 +46850,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl -2 Rival - Cerulean City": {
+    "Lvl -2 Rival #4 ": {
       "nature": "Rash",
       "ability": "Adaptability",
       "level": -2,
@@ -46880,7 +46880,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Rival - Cerulean City #rrhc-sheet-Rivals-128-0x1133ae4.4": {
+    "Lvl -2 Rival #5 ": {
       "nature": "Lonely",
       "ability": "Adaptability",
       "level": -2,
@@ -46910,7 +46910,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Rival - Cerulean City #rrhc-sheet-Rivals-153-0x1133b8c.4": {
+    "Lvl -2 Rival #6 ": {
       "nature": "Lonely",
       "ability": "Adaptability",
       "level": -2,
@@ -47005,7 +47005,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 0 Leader Misty": {
+    "Lvl 0 Leader Misty #7 ": {
       "nature": "Careful",
       "ability": "Water Absorb",
       "level": 0,
@@ -47069,7 +47069,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 62
     },
-    "Lvl 0 Picnicker Alicia - Route 9": {
+    "Lvl 0 Picnicker Alicia #5 ": {
       "nature": "Timid",
       "ability": "Frisk",
       "level": 0,
@@ -47198,7 +47198,7 @@ backup_data = {
       "trainerClass": 82,
       "rawIvOrSpreadValue": 209
     },
-    "Lvl -49 Team Rocket Grunt": {
+    "Lvl -49 Team Rocket Grunt #52 ": {
       "nature": "Jolly",
       "ability": "Tinted Lens",
       "level": -49,
@@ -47324,7 +47324,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 96
     },
-    "Lvl 59 Beauty Sam - Celadon Hotel": {
+    "Lvl 59 Beauty Sam": {
       "nature": "Timid",
       "ability": "Water Absorb",
       "level": 59,
@@ -47353,7 +47353,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Tisha - Bond Bridge Swimmer": {
+    "Lvl 100 Sheet Frontier Tisha": {
       "nature": "Modest",
       "ability": "Hydration",
       "level": 100,
@@ -47398,7 +47398,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 96
     },
-    "Lvl -1 Leader Misty": {
+    "Lvl -1 Leader Misty #7 ": {
       "nature": "Modest",
       "ability": "Swift Swim",
       "level": -1,
@@ -47430,7 +47430,7 @@ backup_data = {
     }
   },
   "Sandshrew": {
-    "Lvl 20 Youngster Chad": {
+    "Lvl 20 Youngster Chad #2 ": {
       "nature": "Hasty",
       "ability": "Sand Veil",
       "level": 20,
@@ -47445,7 +47445,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 28 Youngster Chad": {
+    "Lvl 28 Youngster Chad #3 ": {
       "nature": "Bashful",
       "ability": "Sand Veil",
       "level": 28,
@@ -47460,7 +47460,7 @@ backup_data = {
       "trainerClass": 57,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 35 Team Rocket Grunt": {
+    "Lvl 35 Team Rocket Grunt #46 ": {
       "nature": "Mild",
       "ability": "Sand Veil",
       "level": 35,
@@ -47524,7 +47524,7 @@ backup_data = {
       "trainerClass": 75,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl -1 Psychic Laura #608.1": {
+    "Lvl -1 Psychic Laura Set2 ": {
       "nature": "Rash",
       "ability": "Early Bird",
       "level": -1,
@@ -47557,7 +47557,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 100
     },
-    "Lvl -1 Tuber Amira #519.2": {
+    "Lvl -1 Tuber Amira Set2 ": {
       "nature": "Bold",
       "ability": "Damp",
       "level": -1,
@@ -47603,7 +47603,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 74
     },
-    "Lvl 53 Pokemon Breeder Alize": {
+    "Lvl 53 Pokemon Breeder Alize #2 ": {
       "nature": "Gentle",
       "ability": "Huge Power",
       "level": 53,
@@ -47618,7 +47618,7 @@ backup_data = {
       "trainerClass": 101,
       "rawIvOrSpreadValue": 150
     },
-    "Lvl 54 Swimmer F Nicole": {
+    "Lvl 54 Swimmer F Nicole #2 ": {
       "nature": "Brave",
       "ability": "Thick Fat",
       "level": 54,
@@ -47665,7 +47665,7 @@ backup_data = {
       "partyFlags": 1,
       "trainerClass": 102
     },
-    "Lvl 0 Gentleman Tucker - Vermillion Gym": {
+    "Lvl 0 Gentleman Tucker #2 ": {
       "nature": "Jolly",
       "ability": "Arena Trap",
       "level": 0,
@@ -47695,7 +47695,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Picnicker Claire - Kindle Road": {
+    "Lvl 0 Picnicker Claire #2 ": {
       "nature": "Jolly",
       "ability": "Arena Trap",
       "level": 0,
@@ -47725,7 +47725,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Sharon - Berry Forest Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Sharon": {
       "nature": "Jolly",
       "ability": "Arena Trap",
       "level": 100,
@@ -47912,7 +47912,7 @@ backup_data = {
       "trainerClass": 106,
       "rawIvOrSpreadValue": 50
     },
-    "Lvl 54 Painter Rayna": {
+    "Lvl 54 Painter Rayna #2 ": {
       "nature": "Mild",
       "ability": "Technician",
       "level": 54,
@@ -47961,7 +47961,7 @@ backup_data = {
     }
   },
   "Jigglypuff": {
-    "Lvl 28 Twins Eli Anne": {
+    "Lvl 28 Twins Eli Anne #2 ": {
       "nature": "Hardy",
       "ability": "Cute Charm",
       "level": 28,
@@ -47976,7 +47976,7 @@ backup_data = {
       "trainerClass": 92,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl -1 Lass Ali - Nugg. Bridge": {
+    "Lvl -1 Lass Ali #2 ": {
       "nature": "Bold",
       "ability": "Friend Guard",
       "level": -1,
@@ -48040,7 +48040,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 69
     },
-    "Lvl -1 Sheet Frontier Abigail - Treasure Bea. Swimmer": {
+    "Lvl -1 Sheet Frontier Abigail": {
       "nature": "Modest",
       "ability": "Mega Launcher",
       "level": -1,
@@ -48105,7 +48105,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 100
     },
-    "Lvl 34 Tuber Alexis #559.1": {
+    "Lvl 34 Tuber Alexis Set2 ": {
       "nature": "Quirky",
       "ability": "Illuminate",
       "level": 34,
@@ -48135,7 +48135,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 100
     },
-    "Lvl 34 Tuber Alexis #559.3": {
+    "Lvl 34 Tuber Alexis Set2 ": {
       "nature": "Mild",
       "ability": "Hyper Cutter",
       "level": 34,
@@ -48200,7 +48200,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 79
     },
-    "Lvl 21 Camper Jeff": {
+    "Lvl 21 Camper Jeff #2 ": {
       "nature": "Adamant",
       "ability": "Frisk",
       "level": 21,
@@ -48215,7 +48215,7 @@ backup_data = {
       "trainerClass": 61,
       "rawIvOrSpreadValue": 20
     },
-    "Lvl 28 Bird Keeper Jacob": {
+    "Lvl 28 Bird Keeper Jacob #2 ": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": 28,
@@ -48230,7 +48230,7 @@ backup_data = {
       "trainerClass": 79,
       "rawIvOrSpreadValue": 60
     },
-    "Lvl 28 Bird Keeper Jacob #680.3": {
+    "Lvl 28 Bird Keeper Jacob #2 Set2 ": {
       "nature": "Docile",
       "ability": "Technician",
       "level": 28,
@@ -48278,7 +48278,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 69
     },
-    "Lvl 49 Fisherman Tylor #573.1": {
+    "Lvl 49 Fisherman Tylor Set2 ": {
       "nature": "Bold",
       "ability": "Swift Swim",
       "level": 49,
@@ -48340,7 +48340,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 104
     },
-    "Lvl -2 Cue Ball Luke - Route 16": {
+    "Lvl -2 Cue Ball Luke #2 ": {
       "nature": "Adamant",
       "ability": "Sand Veil",
       "level": -2,
@@ -48370,7 +48370,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Sheet Frontier Beth - Mt. Ember Ranger": {
+    "Lvl -1 Sheet Frontier Beth": {
       "nature": "Adamant",
       "ability": "Sturdy",
       "level": -1,
@@ -48417,7 +48417,7 @@ backup_data = {
       "trainerClass": 75,
       "rawIvOrSpreadValue": 100
     },
-    "Lvl 56 Psychic Dario": {
+    "Lvl 56 Psychic Dario #2 ": {
       "nature": "Hasty",
       "ability": "Early Bird",
       "level": 56,
@@ -48482,7 +48482,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl -3 Leader Falkner - Pewter Museum": {
+    "Lvl -3 Leader Falkner #4 ": {
       "nature": "Bashful",
       "ability": "Speed Boost",
       "level": -3,
@@ -48544,7 +48544,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 58
     },
-    "Lvl 0 Bug Catcher Colton": {
+    "Lvl 0 Bug Catcher Colton #4 ": {
       "nature": "Brave",
       "ability": "Swarm",
       "level": 0,
@@ -48577,7 +48577,7 @@ backup_data = {
       "partyFlags": 0,
       "trainerClass": 57
     },
-    "Lvl -1 Sheet Frontier Herman - Route 10 Poke Maniac": {
+    "Lvl -1 Sheet Frontier Herman": {
       "nature": "Rash",
       "ability": "Chlorophyll",
       "level": -1,
@@ -48609,7 +48609,7 @@ backup_data = {
     }
   },
   "Pineco": {
-    "Lvl 52 Juggler Mason": {
+    "Lvl 52 Juggler Mason #2 ": {
       "nature": "Hasty",
       "ability": "Sturdy",
       "level": 52,
@@ -48624,7 +48624,7 @@ backup_data = {
       "trainerClass": 77,
       "rawIvOrSpreadValue": 120
     },
-    "Lvl 52 Juggler Mason #719.3": {
+    "Lvl 52 Juggler Mason #2 Set2 ": {
       "nature": "Sassy",
       "ability": "Sturdy",
       "level": 52,
@@ -48641,7 +48641,7 @@ backup_data = {
     }
   },
   "Piloswine": {
-    "Lvl -3 Elite Four Lorelei": {
+    "Lvl -3 Elite Four Lorelei #4 ": {
       "nature": "Careful",
       "ability": "Snow Cloak",
       "level": -3,
@@ -48659,7 +48659,7 @@ backup_data = {
     }
   },
   "Alakazam": {
-    "Lvl -2 Rival Terry": {
+    "Lvl -2 Rival Terry #25 ": {
       "nature": "Rash",
       "ability": "Inner Focus",
       "level": -2,
@@ -48675,7 +48675,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Rival Terry #740.1": {
+    "Lvl -2 Rival Terry #26 ": {
       "nature": "Rash",
       "ability": "Inner Focus",
       "level": -2,
@@ -48691,7 +48691,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Rival Terry #741.1": {
+    "Lvl -2 Rival Terry #27 ": {
       "nature": "Rash",
       "ability": "Inner Focus",
       "level": -2,
@@ -48707,7 +48707,7 @@ backup_data = {
       "trainerClass": 90,
       "rawIvOrSpreadValue": 255
     },
-    "Lvl -2 Gentleman Tucker - Vermillion Gym": {
+    "Lvl -2 Gentleman Tucker #2 ": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": -2,
@@ -48737,7 +48737,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Barry - Berry Forest Gauntlet 1 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Barry": {
       "nature": "Timid",
       "ability": "Magic Guard",
       "level": 100,
@@ -48855,7 +48855,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair": {
+    "Lvl 100 Leader Clair #3 ": {
       "nature": "Jolly",
       "ability": "Teravolt",
       "level": 100,
@@ -48885,7 +48885,7 @@ backup_data = {
         "sd": 4
       }
     },
-    "Lvl 100 Leader Clair #frontier-community-0x112f228.4": {
+    "Lvl 100 Leader Clair #4 ": {
       "nature": "Jolly",
       "ability": "Teravolt",
       "level": 100,
@@ -48915,7 +48915,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #5 ": {
       "nature": "Jolly",
       "ability": "Teravolt",
       "level": 73,
@@ -48944,7 +48944,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-180-0x1130f08.3": {
+    "Lvl 73 Leader Pryce #6 ": {
       "nature": "Jolly",
       "ability": "Teravolt",
       "level": 73,
@@ -48973,7 +48973,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-206-0x1130e60.3": {
+    "Lvl 73 Leader Pryce #7 ": {
       "nature": "Jolly",
       "ability": "Teravolt",
       "level": 73,
@@ -49002,7 +49002,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair #rrhc-sheet-Postgame-57-0x112f228.4": {
+    "Lvl 100 Leader Clair #7 ": {
       "nature": "Jolly",
       "ability": "Teravolt",
       "level": 100,
@@ -49123,7 +49123,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #5 ": {
       "nature": "Jolly",
       "ability": "Refrigerate",
       "level": 73,
@@ -49153,7 +49153,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-180-0x1130f08.5": {
+    "Lvl 73 Leader Pryce #6 ": {
       "nature": "Jolly",
       "ability": "Refrigerate",
       "level": 73,
@@ -49183,7 +49183,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl. #rrhc-sheet-Johto-Leaders-206-0x1130e60.5": {
+    "Lvl 73 Leader Pryce #7 ": {
       "nature": "Jolly",
       "ability": "Refrigerate",
       "level": 73,
@@ -49244,7 +49244,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Pryce - Seafoam Isl.": {
+    "Lvl 73 Leader Pryce #6 ": {
       "nature": "Bold",
       "ability": "Regenerator",
       "level": 73,
@@ -49273,7 +49273,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Aroma Lady Nikki - Bond Bridge": {
+    "Lvl 100 Aroma Lady Nikki #2 ": {
       "nature": "Modest",
       "ability": "Regenerator",
       "level": 100,
@@ -49304,7 +49304,7 @@ backup_data = {
     }
   },
   "Pikachu-Flying": {
-    "Lvl 100 Leader Misty": {
+    "Lvl 100 Leader Misty #4 ": {
       "nature": "Timid",
       "ability": "Lightning Rod",
       "level": 100,
@@ -49334,7 +49334,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #frontier-community-0x112f2d0.0": {
+    "Lvl 100 Leader Misty #5 ": {
       "nature": "Timid",
       "ability": "Lightning Rod",
       "level": 100,
@@ -49364,7 +49364,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Lass Sally - Route 3": {
+    "Lvl -2 Lass Sally #2 ": {
       "nature": "Naive",
       "ability": "Lightning Rod",
       "level": -2,
@@ -49394,7 +49394,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #rrhc-sheet-Postgame-81-0x112f2d0.0": {
+    "Lvl 100 Leader Misty #9 ": {
       "nature": "Timid",
       "ability": "Lightning Rod",
       "level": 100,
@@ -49425,7 +49425,7 @@ backup_data = {
     }
   },
   "Goodra-Hisui": {
-    "Lvl 100 Leader Misty": {
+    "Lvl 100 Leader Misty #4 ": {
       "nature": "Bold",
       "ability": "Gooey",
       "level": 100,
@@ -49455,7 +49455,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #frontier-community-0x112f2d0.2": {
+    "Lvl 100 Leader Misty #5 ": {
       "nature": "Bold",
       "ability": "Gooey",
       "level": 100,
@@ -49485,7 +49485,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #rrhc-sheet-Postgame-81-0x112f2d0.2": {
+    "Lvl 100 Leader Misty #9 ": {
       "nature": "Bold",
       "ability": "Gooey",
       "level": 100,
@@ -49514,7 +49514,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Boss - Three Island": {
+    "Lvl 100 Boss": {
       "nature": "Modest",
       "ability": "Sap Sipper",
       "level": 100,
@@ -49545,7 +49545,7 @@ backup_data = {
     }
   },
   "Drednaw-Mega": {
-    "Lvl 100 Leader Misty": {
+    "Lvl 100 Leader Misty #4 ": {
       "nature": "Jolly",
       "ability": "Strong Jaw",
       "level": 100,
@@ -49576,7 +49576,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #frontier-community-0x112f2d0.4": {
+    "Lvl 100 Leader Misty #5 ": {
       "nature": "Jolly",
       "ability": "Strong Jaw",
       "level": 100,
@@ -49607,7 +49607,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Misty #rrhc-sheet-Postgame-81-0x112f2d0.4": {
+    "Lvl 100 Leader Misty #9 ": {
       "nature": "Jolly",
       "ability": "Strong Jaw",
       "level": 100,
@@ -49637,7 +49637,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Finn - Kindle Road Swimmer": {
+    "Lvl 0 Sheet Frontier Finn": {
       "nature": "Adamant",
       "ability": "Strong Jaw",
       "level": 0,
@@ -49700,7 +49700,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy Set2 #frontier-community-0x1133780.0": {
+    "Lvl 44 Leader Bugsy Set2 #2 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 44,
@@ -49760,7 +49760,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Bugsy - Route 25": {
+    "Lvl 28 Leader Bugsy #6 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 28,
@@ -49789,7 +49789,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy - Route 25": {
+    "Lvl 44 Leader Bugsy #7 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 44,
@@ -49818,7 +49818,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Goon 2 - Three Island": {
+    "Lvl -1 Goon 2": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": -1,
@@ -49880,7 +49880,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy Set2 #frontier-community-0x1133780.1": {
+    "Lvl 44 Leader Bugsy Set2 #2 ": {
       "nature": "Careful",
       "ability": "Technician",
       "level": 44,
@@ -49910,7 +49910,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy - Route 25": {
+    "Lvl 44 Leader Bugsy #7 ": {
       "nature": "Careful",
       "ability": "Technician",
       "level": 44,
@@ -49940,7 +49940,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Cue Ball Camron - Route 16": {
+    "Lvl -2 Cue Ball Camron #3 ": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": -2,
@@ -50003,7 +50003,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy Set2 #frontier-community-0x1133780.3": {
+    "Lvl 44 Leader Bugsy Set2 #2 ": {
       "nature": "Jolly",
       "ability": "Swarm",
       "level": 44,
@@ -50063,7 +50063,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Bugsy - Route 25": {
+    "Lvl 28 Leader Bugsy #6 ": {
       "nature": "Jolly",
       "ability": "Swarm",
       "level": 28,
@@ -50092,7 +50092,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy - Route 25": {
+    "Lvl 44 Leader Bugsy #7 ": {
       "nature": "Jolly",
       "ability": "Swarm",
       "level": 44,
@@ -50153,7 +50153,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy Set2 #frontier-community-0x1133780.4": {
+    "Lvl 44 Leader Bugsy Set2 #2 ": {
       "nature": "Impish",
       "ability": "Water Bubble",
       "level": 44,
@@ -50213,7 +50213,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Bugsy - Route 25": {
+    "Lvl 28 Leader Bugsy #6 ": {
       "nature": "Impish",
       "ability": "Water Bubble",
       "level": 28,
@@ -50242,7 +50242,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Bugsy - Route 25": {
+    "Lvl 44 Leader Bugsy #7 ": {
       "nature": "Impish",
       "ability": "Water Bubble",
       "level": 44,
@@ -50273,7 +50273,7 @@ backup_data = {
     }
   },
   "Dialga-Primal": {
-    "Lvl 100 Leader Clair": {
+    "Lvl 100 Leader Clair #3 ": {
       "nature": "Modest",
       "ability": "Primal Armor",
       "level": 100,
@@ -50304,7 +50304,7 @@ backup_data = {
         "sd": 4
       }
     },
-    "Lvl 100 Leader Clair #frontier-community-0x112f228.1": {
+    "Lvl 100 Leader Clair #4 ": {
       "nature": "Timid",
       "ability": "Primal Armor",
       "level": 100,
@@ -50337,7 +50337,7 @@ backup_data = {
     }
   },
   "Flapple-Mega": {
-    "Lvl 100 Leader Clair": {
+    "Lvl 100 Leader Clair #3 ": {
       "nature": "Naive",
       "ability": "Dragon's Maw",
       "level": 100,
@@ -50368,7 +50368,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair #frontier-community-0x112f228.3": {
+    "Lvl 100 Leader Clair #4 ": {
       "nature": "Naive",
       "ability": "Dragon's Maw",
       "level": 100,
@@ -50399,7 +50399,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Beauty Sam - Celadon Hotel": {
+    "Lvl 59 Beauty Sam": {
       "nature": "Naive",
       "ability": "Dragon's Maw",
       "level": 59,
@@ -50429,7 +50429,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair #rrhc-sheet-Postgame-57-0x112f228.3": {
+    "Lvl 100 Leader Clair #7 ": {
       "nature": "Naive",
       "ability": "Dragon's Maw",
       "level": 100,
@@ -50459,7 +50459,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Aroma Lady Violet - Bond Bridge": {
+    "Lvl 0 Aroma Lady Violet #2 ": {
       "nature": "Naive",
       "ability": "Dragon's Maw",
       "level": 0,
@@ -50492,7 +50492,7 @@ backup_data = {
     }
   },
   "Clawitzer-Sevii": {
-    "Lvl 100 Leader Bugsy": {
+    "Lvl 100 Leader Bugsy #4 ": {
       "nature": "Modest",
       "ability": "Mega Launcher",
       "level": 100,
@@ -50522,7 +50522,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy #frontier-community-0x112f420.1": {
+    "Lvl 100 Leader Bugsy #5 ": {
       "nature": "Modest",
       "ability": "Mega Launcher",
       "level": 100,
@@ -50552,7 +50552,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy - Kindle Road": {
+    "Lvl 100 Leader Bugsy #8 ": {
       "nature": "Modest",
       "ability": "Mega Launcher",
       "level": 100,
@@ -50583,7 +50583,7 @@ backup_data = {
     }
   },
   "Genesect": {
-    "Lvl 100 Leader Bugsy": {
+    "Lvl 100 Leader Bugsy #4 ": {
       "nature": "Naive",
       "ability": "Download",
       "level": 100,
@@ -50613,7 +50613,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair": {
+    "Lvl 100 Leader Clair #4 ": {
       "nature": "Hasty",
       "ability": "Download",
       "level": 100,
@@ -50643,7 +50643,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy #frontier-community-0x112f420.2": {
+    "Lvl 100 Leader Bugsy #5 ": {
       "nature": "Naive",
       "ability": "Download",
       "level": 100,
@@ -50673,7 +50673,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 80 Boss Giovanni": {
+    "Lvl 80 Boss Giovanni #5 ": {
       "nature": "Hasty",
       "ability": "Download",
       "level": 80,
@@ -50703,7 +50703,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Jasmine": {
+    "Lvl 73 Leader Jasmine #5 ": {
       "nature": "Naive",
       "ability": "Download",
       "level": 73,
@@ -50733,7 +50733,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Jasmine - Cinnabar Lab": {
+    "Lvl 73 Leader Jasmine #6 ": {
       "nature": "Naive",
       "ability": "Download",
       "level": 73,
@@ -50762,7 +50762,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 80 Sheet Frontier Giovanni - Cerulea. Cave": {
+    "Lvl 80 Sheet Frontier Giovanni #3 ": {
       "nature": "Hasty",
       "ability": "Download",
       "level": 80,
@@ -50791,7 +50791,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #5 ": {
       "nature": "Hasty",
       "ability": "Download",
       "level": 100,
@@ -50820,7 +50820,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Clair #rrhc-sheet-Postgame-57-0x112f228.5": {
+    "Lvl 100 Leader Clair #7 ": {
       "nature": "Hasty",
       "ability": "Download",
       "level": 100,
@@ -50849,7 +50849,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy - Kindle Road": {
+    "Lvl 100 Leader Bugsy #8 ": {
       "nature": "Naive",
       "ability": "Download",
       "level": 100,
@@ -50880,7 +50880,7 @@ backup_data = {
     }
   },
   "Arceus-Bug": {
-    "Lvl 100 Leader Bugsy": {
+    "Lvl 100 Leader Bugsy #4 ": {
       "nature": "Jolly",
       "ability": "Multitype",
       "level": 100,
@@ -50911,7 +50911,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy #frontier-community-0x112f420.4": {
+    "Lvl 100 Leader Bugsy #5 ": {
       "nature": "Jolly",
       "ability": "Multitype",
       "level": 100,
@@ -50942,7 +50942,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy - Kindle Road": {
+    "Lvl 100 Leader Bugsy #8 ": {
       "nature": "Jolly",
       "ability": "Multitype",
       "level": 100,
@@ -50974,7 +50974,7 @@ backup_data = {
     }
   },
   "Pinsir-Mega": {
-    "Lvl 100 Leader Bugsy": {
+    "Lvl 100 Leader Bugsy #4 ": {
       "nature": "Jolly",
       "ability": "Aerilate",
       "level": 100,
@@ -51005,7 +51005,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy #frontier-community-0x112f420.5": {
+    "Lvl 100 Leader Bugsy #5 ": {
       "nature": "Jolly",
       "ability": "Aerilate",
       "level": 100,
@@ -51036,7 +51036,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Sheet Frontier Wilton - Route 18 Ace Trainer": {
+    "Lvl -2 Sheet Frontier Wilton": {
       "nature": "Jolly",
       "ability": "Aerilate",
       "level": -2,
@@ -51067,7 +51067,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier George - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier George": {
       "nature": "Jolly",
       "ability": "Aerilate",
       "level": 85,
@@ -51097,7 +51097,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Bugsy - Kindle Road": {
+    "Lvl 100 Leader Bugsy #8 ": {
       "nature": "Jolly",
       "ability": "Aerilate",
       "level": 100,
@@ -51129,7 +51129,7 @@ backup_data = {
     }
   },
   "Silvally-Fairy": {
-    "Lvl 100 Leader Morty": {
+    "Lvl 100 Leader Morty #3 ": {
       "nature": "Timid",
       "ability": "Battle Armor",
       "level": 100,
@@ -51160,7 +51160,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 80 Boss Giovanni": {
+    "Lvl 80 Boss Giovanni #5 ": {
       "nature": "Jolly",
       "ability": "Battle Armor",
       "level": 80,
@@ -51191,7 +51191,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty #frontier-community-0x1132f68.2": {
+    "Lvl 100 Leader Morty #5 ": {
       "nature": "Timid",
       "ability": "Battle Armor",
       "level": 100,
@@ -51222,7 +51222,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 80 Sheet Frontier Giovanni - Cerulea. Cave": {
+    "Lvl 80 Sheet Frontier Giovanni #3 ": {
       "nature": "Jolly",
       "ability": "Battle Armor",
       "level": 80,
@@ -51252,7 +51252,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Sheet Frontier Haley - Route 15 Ace Trainer": {
+    "Lvl 68 Sheet Frontier Haley": {
       "nature": "Jolly",
       "ability": "Battle Armor",
       "level": 68,
@@ -51282,7 +51282,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty - PKMN Tower Gauntlet Boss": {
+    "Lvl 100 Leader Morty #7 ": {
       "nature": "Timid",
       "ability": "Battle Armor",
       "level": 100,
@@ -51314,7 +51314,7 @@ backup_data = {
     }
   },
   "Gengar-Mega": {
-    "Lvl 100 Leader Morty": {
+    "Lvl 100 Leader Morty #3 ": {
       "nature": "Timid",
       "ability": "Shadow Tag",
       "level": 100,
@@ -51344,7 +51344,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Morty": {
+    "Lvl 36 Leader Morty #4 ": {
       "nature": "Timid",
       "ability": "Shadow Tag",
       "level": 36,
@@ -51374,7 +51374,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty #frontier-community-0x1132f68.4": {
+    "Lvl 100 Leader Morty #5 ": {
       "nature": "Timid",
       "ability": "Shadow Tag",
       "level": 100,
@@ -51404,7 +51404,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Morty - Lavender Town": {
+    "Lvl 36 Leader Morty #6 ": {
       "nature": "Timid",
       "ability": "Shadow Tag",
       "level": 36,
@@ -51434,7 +51434,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty - PKMN Tower Gauntlet Boss": {
+    "Lvl 100 Leader Morty #7 ": {
       "nature": "Timid",
       "ability": "Shadow Tag",
       "level": 100,
@@ -51466,7 +51466,7 @@ backup_data = {
     }
   },
   "Zarude": {
-    "Lvl 100 Leader Morty": {
+    "Lvl 100 Leader Morty #3 ": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": 100,
@@ -51496,7 +51496,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty #frontier-community-0x1132f68.5": {
+    "Lvl 100 Leader Morty #5 ": {
       "nature": "Jolly",
       "ability": "Leaf Guard",
       "level": 100,
@@ -51526,7 +51526,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Morty - PKMN Tower Gauntlet Boss": {
+    "Lvl 100 Leader Morty #7 ": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": 100,
@@ -51587,7 +51587,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Brock": {
+    "Lvl 68 Leader Brock #3 ": {
       "nature": "Careful",
       "ability": "Power Construct",
       "level": 68,
@@ -51617,7 +51617,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Brock #rrhc-sheet-Kanto-Rematch-5-0x11315d0.2": {
+    "Lvl 68 Leader Brock #5 ": {
       "nature": "Careful",
       "ability": "Power Construct",
       "level": 68,
@@ -51647,7 +51647,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Archer - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Archer #4 ": {
       "nature": "Impish",
       "ability": "Power Construct",
       "level": 100,
@@ -51741,7 +51741,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Zac - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Zac": {
       "nature": "Naive",
       "ability": "Aerilate",
       "level": 76,
@@ -51771,7 +51771,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Runan - PKMN Tower Gauntlet 1 Tester": {
+    "Lvl 100 Sheet Frontier Runan": {
       "nature": "Naive",
       "ability": "Aerilate",
       "level": 100,
@@ -51801,7 +51801,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Archer - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Archer #4 ": {
       "nature": "Naive",
       "ability": "Aerilate",
       "level": 100,
@@ -51863,7 +51863,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Archer - Silph Co. Ariana &": {
+    "Lvl 0 Sheet Frontier Archer #2 ": {
       "nature": "Naive",
       "ability": "Dark Aura",
       "level": 0,
@@ -51894,7 +51894,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 79 Sheet Frontier Archer - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Archer #3 ": {
       "nature": "Naive",
       "ability": "Solar Power",
       "level": 79,
@@ -51924,7 +51924,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Archer - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Archer #4 ": {
       "nature": "Timid",
       "ability": "Solar Power",
       "level": 100,
@@ -51987,7 +51987,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker Ruben - Route 16": {
+    "Lvl -2 Biker Ruben #3 ": {
       "nature": "Jolly",
       "ability": "Scrappy",
       "level": -2,
@@ -52018,7 +52018,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Burglar Lewis - Mansion": {
+    "Lvl 0 Burglar Lewis #2 ": {
       "nature": "Jolly",
       "ability": "Scrappy",
       "level": 0,
@@ -52049,7 +52049,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Caroline - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Caroline": {
       "nature": "Jolly",
       "ability": "Scrappy",
       "level": 85,
@@ -52079,7 +52079,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Ariana - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Ariana #2 ": {
       "nature": "Jolly",
       "ability": "Scrappy",
       "level": 100,
@@ -52141,7 +52141,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Archer - Silph Co. Ariana &": {
+    "Lvl 0 Sheet Frontier Archer #2 ": {
       "nature": "Adamant",
       "ability": "Huge Power",
       "level": 0,
@@ -52172,7 +52172,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 79 Sheet Frontier Ariana - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Ariana": {
       "nature": "Adamant",
       "ability": "Huge Power",
       "level": 79,
@@ -52202,7 +52202,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Ariana - Mt. Ember": {
+    "Lvl 100 Sheet Frontier Ariana #2 ": {
       "nature": "Adamant",
       "ability": "Huge Power",
       "level": 100,
@@ -52234,7 +52234,7 @@ backup_data = {
     }
   },
   "Pidgeot-Mega": {
-    "Lvl 100 Leader Falkner": {
+    "Lvl 100 Leader Falkner #3 ": {
       "nature": "Timid",
       "ability": "No Guard",
       "level": 100,
@@ -52265,7 +52265,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Scientist Ted - Pkm Mansion": {
+    "Lvl 0 Scientist Ted #2 ": {
       "nature": "Timid",
       "ability": "No Guard",
       "level": 0,
@@ -52296,7 +52296,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak #2 ": {
       "nature": "Timid",
       "ability": "No Guard",
       "level": 100,
@@ -52326,7 +52326,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Falkner - Rock Tunnel": {
+    "Lvl 100 Leader Falkner #5 ": {
       "nature": "Timid",
       "ability": "No Guard",
       "level": 100,
@@ -52358,7 +52358,7 @@ backup_data = {
     }
   },
   "Shaymin-Sky": {
-    "Lvl 100 Leader Falkner": {
+    "Lvl 100 Leader Falkner #3 ": {
       "nature": "Timid",
       "ability": "Serene Grace",
       "level": 100,
@@ -52388,7 +52388,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Falkner - Rock Tunnel": {
+    "Lvl 100 Leader Falkner #5 ": {
       "nature": "Timid",
       "ability": "Serene Grace",
       "level": 100,
@@ -52417,7 +52417,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Gian - Saffron City Dumass": {
+    "Lvl 100 Sheet Frontier Gian": {
       "nature": "Timid",
       "ability": "Serene Grace",
       "level": 100,
@@ -52448,7 +52448,7 @@ backup_data = {
     }
   },
   "Enamorus": {
-    "Lvl 100 Leader Falkner": {
+    "Lvl 100 Leader Falkner #3 ": {
       "nature": "Jolly",
       "ability": "Contrary",
       "level": 100,
@@ -52478,7 +52478,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Falkner - Rock Tunnel": {
+    "Lvl 100 Leader Falkner #5 ": {
       "nature": "Jolly",
       "ability": "Contrary",
       "level": 100,
@@ -52507,7 +52507,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Runan - PKMN Tower Gauntlet 1 Tester": {
+    "Lvl 100 Sheet Frontier Runan": {
       "nature": "Hasty",
       "ability": "Contrary",
       "level": 100,
@@ -52538,7 +52538,7 @@ backup_data = {
     }
   },
   "Ho-Oh": {
-    "Lvl 100 Leader Falkner": {
+    "Lvl 100 Leader Falkner #3 ": {
       "nature": "Jolly",
       "ability": "Pheonix Down",
       "level": 100,
@@ -52568,7 +52568,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Leader Blaine": {
+    "Lvl 76 Leader Blaine #2 ": {
       "nature": "Jolly",
       "ability": "Pheonix Down",
       "level": 76,
@@ -52598,7 +52598,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Leader Blaine #rrhc-sheet-Kanto-Leaders-154-0x11308cc.4": {
+    "Lvl 76 Leader Blaine #3 ": {
       "nature": "Jolly",
       "ability": "Pheonix Down",
       "level": 76,
@@ -52627,7 +52627,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Falkner - Rock Tunnel": {
+    "Lvl 100 Leader Falkner #5 ": {
       "nature": "Jolly",
       "ability": "Pheonix Down",
       "level": 100,
@@ -52658,7 +52658,7 @@ backup_data = {
     }
   },
   "Kyogre-Primal": {
-    "Lvl 100 Leader Misty": {
+    "Lvl 100 Leader Misty #5 ": {
       "nature": "Hasty",
       "ability": "Primordial Sea",
       "level": 100,
@@ -52691,7 +52691,7 @@ backup_data = {
     }
   },
   "Krookodile": {
-    "Lvl 85 Elite Four Agatha": {
+    "Lvl 85 Elite Four Agatha #5 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 85,
@@ -52721,7 +52721,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Elite Four Agatha #frontier-community-0x112f960.0": {
+    "Lvl 85 Elite Four Agatha #6 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 85,
@@ -52751,7 +52751,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Koga": {
+    "Lvl 68 Leader Koga #2 ": {
       "nature": "Adamant",
       "ability": "Moxie",
       "level": 68,
@@ -52781,7 +52781,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Morty": {
+    "Lvl 36 Leader Morty #4 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 36,
@@ -52811,7 +52811,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Koga #rrhc-sheet-Kanto-Leaders-129-0x1131058.2": {
+    "Lvl 68 Leader Koga #3 ": {
       "nature": "Adamant",
       "ability": "Moxie",
       "level": 68,
@@ -52840,7 +52840,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Morty - Lavender Town": {
+    "Lvl 36 Leader Morty #6 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 36,
@@ -52869,7 +52869,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Picnicker Alma - Route 13": {
+    "Lvl -2 Picnicker Alma #2 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": -2,
@@ -52899,7 +52899,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha": {
+    "Lvl 100 Elite Four Agatha #7 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 100,
@@ -52928,7 +52928,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha #rrhc-sheet-Indigo-League-147-0x112f8b8.0": {
+    "Lvl 100 Elite Four Agatha #8 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 100,
@@ -52957,7 +52957,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Runan - PKMN Tower Gauntlet 1 Tester": {
+    "Lvl 100 Sheet Frontier Runan": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 100,
@@ -52988,7 +52988,7 @@ backup_data = {
     }
   },
   "Flutter Mane": {
-    "Lvl 85 Elite Four Agatha": {
+    "Lvl 85 Elite Four Agatha #5 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 85,
@@ -53018,7 +53018,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Elite Four Agatha #frontier-community-0x112f960.3": {
+    "Lvl 85 Elite Four Agatha #6 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 85,
@@ -53048,7 +53048,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha": {
+    "Lvl 100 Elite Four Agatha #7 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 100,
@@ -53077,7 +53077,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha #rrhc-sheet-Indigo-League-147-0x112f8b8.1": {
+    "Lvl 100 Elite Four Agatha #8 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 100,
@@ -53108,7 +53108,7 @@ backup_data = {
     }
   },
   "Mewtwo-Mega-X": {
-    "Lvl 85 Elite Four Agatha": {
+    "Lvl 85 Elite Four Agatha #5 ": {
       "nature": "Naive",
       "ability": "Steadfast",
       "level": 85,
@@ -53139,7 +53139,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Elite Four Agatha #frontier-community-0x112f960.1": {
+    "Lvl 85 Elite Four Agatha #6 ": {
       "nature": "Naive",
       "ability": "Steadfast",
       "level": 85,
@@ -53170,7 +53170,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha": {
+    "Lvl 100 Elite Four Agatha #7 ": {
       "nature": "Naive",
       "ability": "Steadfast",
       "level": 100,
@@ -53200,7 +53200,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha #rrhc-sheet-Indigo-League-147-0x112f8b8.2": {
+    "Lvl 100 Elite Four Agatha #8 ": {
       "nature": "Naive",
       "ability": "Steadfast",
       "level": 100,
@@ -53232,7 +53232,7 @@ backup_data = {
     }
   },
   "Calyrex-Shadow": {
-    "Lvl 85 Elite Four Agatha": {
+    "Lvl 85 Elite Four Agatha #5 ": {
       "nature": "Timid",
       "ability": "As One (Spectrier)",
       "level": 85,
@@ -53262,7 +53262,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Elite Four Agatha #frontier-community-0x112f960.5": {
+    "Lvl 85 Elite Four Agatha #6 ": {
       "nature": "Timid",
       "ability": "As One (Spectrier)",
       "level": 85,
@@ -53292,7 +53292,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha": {
+    "Lvl 100 Elite Four Agatha #7 ": {
       "nature": "Timid",
       "ability": "As One (Spectrier)",
       "level": 100,
@@ -53321,7 +53321,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Agatha #rrhc-sheet-Indigo-League-147-0x112f8b8.5": {
+    "Lvl 100 Elite Four Agatha #8 ": {
       "nature": "Timid",
       "ability": "As One (Spectrier)",
       "level": 100,
@@ -53352,7 +53352,7 @@ backup_data = {
     }
   },
   "Roaring Moon": {
-    "Lvl 81 Leader Clair": {
+    "Lvl 81 Leader Clair #5 ": {
       "nature": "Jolly",
       "ability": "Protosynthesis",
       "level": 81,
@@ -53382,7 +53382,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Leader Clair #rrhc-sheet-Kanto-Leaders-179-0x11303e0.1": {
+    "Lvl 81 Leader Clair #6 ": {
       "nature": "Jolly",
       "ability": "Protosynthesis",
       "level": 81,
@@ -53413,7 +53413,7 @@ backup_data = {
     }
   },
   "Necrozma-Ultra": {
-    "Lvl 81 Leader Clair": {
+    "Lvl 81 Leader Clair #5 ": {
       "nature": "Adamant",
       "ability": "Neuroforce",
       "level": 81,
@@ -53446,7 +53446,7 @@ backup_data = {
     }
   },
   "Archaludon": {
-    "Lvl 81 Leader Clair": {
+    "Lvl 81 Leader Clair #5 ": {
       "nature": "Timid",
       "ability": "Stalwart",
       "level": 81,
@@ -53476,7 +53476,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Misty": {
+    "Lvl 68 Leader Misty #6 ": {
       "nature": "Calm",
       "ability": "Sturdy",
       "level": 68,
@@ -53506,7 +53506,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Leader Clair #rrhc-sheet-Kanto-Leaders-179-0x11303e0.5": {
+    "Lvl 81 Leader Clair #6 ": {
       "nature": "Timid",
       "ability": "Stalwart",
       "level": 81,
@@ -53535,7 +53535,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Misty #rrhc-sheet-Kanto-Rematch-30-0x1131528.3": {
+    "Lvl 68 Leader Misty #8 ": {
       "nature": "Calm",
       "ability": "Sturdy",
       "level": 68,
@@ -53566,7 +53566,7 @@ backup_data = {
     }
   },
   "Spiritomb": {
-    "Lvl 80 Boss Giovanni": {
+    "Lvl 80 Boss Giovanni #5 ": {
       "nature": "Sassy",
       "ability": "Intimidate",
       "level": 80,
@@ -53596,7 +53596,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 80 Sheet Frontier Giovanni - Cerulea. Cave": {
+    "Lvl 80 Sheet Frontier Giovanni #3 ": {
       "nature": "Sassy",
       "ability": "Intimidate",
       "level": 80,
@@ -53627,7 +53627,7 @@ backup_data = {
     }
   },
   "Moltres-Galar": {
-    "Lvl 80 Boss Giovanni": {
+    "Lvl 80 Boss Giovanni #5 ": {
       "nature": "Timid",
       "ability": "Berserk",
       "level": 80,
@@ -53657,7 +53657,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 80 Sheet Frontier Giovanni - Cerulea. Cave": {
+    "Lvl 80 Sheet Frontier Giovanni #3 ": {
       "nature": "Timid",
       "ability": "Berserk",
       "level": 80,
@@ -53686,7 +53686,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Co.le - Route 8 Ace Trainer": {
+    "Lvl 59 Sheet Frontier Co.le": {
       "nature": "Timid",
       "ability": "Berserk",
       "level": 59,
@@ -53717,7 +53717,7 @@ backup_data = {
     }
   },
   "Mewtwo-Mega-Y": {
-    "Lvl 80 Boss Giovanni": {
+    "Lvl 80 Boss Giovanni #5 ": {
       "nature": "Timid",
       "ability": "Insomnia",
       "level": 80,
@@ -53749,7 +53749,7 @@ backup_data = {
     }
   },
   "Sandy Shocks": {
-    "Lvl 76 Leader Blaine": {
+    "Lvl 76 Leader Blaine #2 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 76,
@@ -53779,7 +53779,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Leader Blaine #rrhc-sheet-Kanto-Leaders-154-0x11308cc.0": {
+    "Lvl 76 Leader Blaine #3 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 76,
@@ -53810,7 +53810,7 @@ backup_data = {
     }
   },
   "Great Tusk": {
-    "Lvl 76 Leader Blaine": {
+    "Lvl 76 Leader Blaine #2 ": {
       "nature": "Jolly",
       "ability": "Protosynthesis",
       "level": 76,
@@ -53840,7 +53840,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Leader Blaine #rrhc-sheet-Kanto-Leaders-154-0x11308cc.1": {
+    "Lvl 76 Leader Blaine #3 ": {
       "nature": "Jolly",
       "ability": "Protosynthesis",
       "level": 76,
@@ -53871,7 +53871,7 @@ backup_data = {
     }
   },
   "Walking Wake": {
-    "Lvl 76 Leader Blaine": {
+    "Lvl 76 Leader Blaine #2 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 76,
@@ -53901,7 +53901,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Leader Blaine #rrhc-sheet-Kanto-Leaders-154-0x11308cc.2": {
+    "Lvl 76 Leader Blaine #3 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 76,
@@ -53959,7 +53959,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival #rrhc-sheet-Indigo-League-276-0x112f618.2": {
+    "Lvl 100 Champion Rival #3 ": {
       "nature": "Timid",
       "ability": "Protosynthesis",
       "level": 100,
@@ -53990,7 +53990,7 @@ backup_data = {
     }
   },
   "Charizard-Mega-X": {
-    "Lvl 76 Leader Blaine": {
+    "Lvl 76 Leader Blaine #2 ": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": 76,
@@ -54054,7 +54054,7 @@ backup_data = {
     }
   },
   "Aggron-Mega": {
-    "Lvl 73 Leader Jasmine": {
+    "Lvl 73 Leader Jasmine #5 ": {
       "nature": "Careful",
       "ability": "Filter",
       "level": 73,
@@ -54085,7 +54085,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 73 Leader Jasmine - Cinnabar Lab": {
+    "Lvl 73 Leader Jasmine #6 ": {
       "nature": "Careful",
       "ability": "Filter",
       "level": 73,
@@ -54117,7 +54117,7 @@ backup_data = {
     }
   },
   "Meowscarada": {
-    "Lvl 68 Leader Erika": {
+    "Lvl 68 Leader Erika #3 ": {
       "nature": "Jolly",
       "ability": "Protean",
       "level": 68,
@@ -54147,7 +54147,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Erika #rrhc-sheet-Kanto-Rematch-79-0x1130db8.0": {
+    "Lvl 68 Leader Erika #6 ": {
       "nature": "Jolly",
       "ability": "Protean",
       "level": 68,
@@ -54178,7 +54178,7 @@ backup_data = {
     }
   },
   "Ampharos-Mega": {
-    "Lvl 68 Leader Erika": {
+    "Lvl 68 Leader Erika #3 ": {
       "nature": "Modest",
       "ability": "Thick Fat",
       "level": 68,
@@ -54209,7 +54209,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Lt. Surge": {
+    "Lvl 36 Leader Lt. Surge #4 ": {
       "nature": "Modest",
       "ability": "Mold Breaker",
       "level": 36,
@@ -54240,7 +54240,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Leader Lt. Surge": {
+    "Lvl 0 Leader Lt. Surge #5 ": {
       "nature": "Modest",
       "ability": "Mold Breaker",
       "level": 0,
@@ -54271,7 +54271,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Erika #rrhc-sheet-Kanto-Rematch-79-0x1130db8.5": {
+    "Lvl 68 Leader Erika #6 ": {
       "nature": "Modest",
       "ability": "Thick Fat",
       "level": 68,
@@ -54303,7 +54303,7 @@ backup_data = {
     }
   },
   "Chi-Yu": {
-    "Lvl 68 Leader Koga": {
+    "Lvl 68 Leader Koga #2 ": {
       "nature": "Modest",
       "ability": "Beads of Ruin",
       "level": 68,
@@ -54333,7 +54333,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Koga #rrhc-sheet-Kanto-Leaders-129-0x1131058.3": {
+    "Lvl 68 Leader Koga #3 ": {
       "nature": "Modest",
       "ability": "Beads of Ruin",
       "level": 68,
@@ -54364,7 +54364,7 @@ backup_data = {
     }
   },
   "Toxtricity-Mega": {
-    "Lvl 68 Leader Koga": {
+    "Lvl 68 Leader Koga #2 ": {
       "nature": "Rash",
       "ability": "Punk Rock",
       "level": 68,
@@ -54395,7 +54395,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Koga #rrhc-sheet-Kanto-Leaders-129-0x1131058.5": {
+    "Lvl 68 Leader Koga #3 ": {
       "nature": "Rash",
       "ability": "Punk Rock",
       "level": 68,
@@ -54425,7 +54425,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Barry - Berry Forest Gauntlet 1 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Barry": {
       "nature": "Timid",
       "ability": "Punk Rock",
       "level": 100,
@@ -54457,7 +54457,7 @@ backup_data = {
     }
   },
   "Pawmot": {
-    "Lvl 68 Leader Lt. Surge": {
+    "Lvl 68 Leader Lt. Surge #3 ": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": 68,
@@ -54487,7 +54487,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Lt. Surge": {
+    "Lvl 36 Leader Lt. Surge #4 ": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": 36,
@@ -54517,7 +54517,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Leader Lt. Surge": {
+    "Lvl 0 Leader Lt. Surge #5 ": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": 0,
@@ -54547,7 +54547,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Lt. Surge #rrhc-sheet-Kanto-Rematch-55-0x1131480.0": {
+    "Lvl 68 Leader Lt. Surge #6 ": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": 68,
@@ -54578,7 +54578,7 @@ backup_data = {
     }
   },
   "Iron Thorns": {
-    "Lvl 68 Leader Lt. Surge": {
+    "Lvl 68 Leader Lt. Surge #3 ": {
       "nature": "Jolly",
       "ability": "Quark Drive",
       "level": 68,
@@ -54608,7 +54608,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Lt. Surge #rrhc-sheet-Kanto-Rematch-55-0x1131480.1": {
+    "Lvl 68 Leader Lt. Surge #6 ": {
       "nature": "Jolly",
       "ability": "Quark Drive",
       "level": 68,
@@ -54639,7 +54639,7 @@ backup_data = {
     }
   },
   "Iron Moth": {
-    "Lvl 68 Leader Lt. Surge": {
+    "Lvl 68 Leader Lt. Surge #3 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 68,
@@ -54669,7 +54669,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Lt. Surge #rrhc-sheet-Kanto-Rematch-55-0x1131480.2": {
+    "Lvl 68 Leader Lt. Surge #6 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 68,
@@ -54700,7 +54700,7 @@ backup_data = {
     }
   },
   "Iron Hands": {
-    "Lvl 68 Leader Lt. Surge": {
+    "Lvl 68 Leader Lt. Surge #3 ": {
       "nature": "Careful",
       "ability": "Quark Drive",
       "level": 68,
@@ -54730,7 +54730,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Leader Sabrina": {
+    "Lvl 59 Leader Sabrina #2 ": {
       "nature": "Brave",
       "ability": "Quark Drive",
       "level": 59,
@@ -54760,7 +54760,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Leader Sabrina #rrhc-sheet-Kanto-Leaders-105-0x1131720.4": {
+    "Lvl 59 Leader Sabrina #3 ": {
       "nature": "Brave",
       "ability": "Quark Drive",
       "level": 59,
@@ -54789,7 +54789,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Lt. Surge #rrhc-sheet-Kanto-Rematch-55-0x1131480.3": {
+    "Lvl 68 Leader Lt. Surge #6 ": {
       "nature": "Careful",
       "ability": "Quark Drive",
       "level": 68,
@@ -54818,7 +54818,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #12 ": {
       "nature": "Jolly",
       "ability": "Quark Drive",
       "level": 82,
@@ -54849,7 +54849,7 @@ backup_data = {
     }
   },
   "Miraidon": {
-    "Lvl 68 Leader Lt. Surge": {
+    "Lvl 68 Leader Lt. Surge #3 ": {
       "nature": "Timid",
       "ability": "Hadron Engine",
       "level": 68,
@@ -54879,7 +54879,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Lt. Surge #rrhc-sheet-Kanto-Rematch-55-0x1131480.4": {
+    "Lvl 68 Leader Lt. Surge #6 ": {
       "nature": "Timid",
       "ability": "Hadron Engine",
       "level": 68,
@@ -54910,7 +54910,7 @@ backup_data = {
     }
   },
   "Manectric-Mega": {
-    "Lvl 68 Leader Lt. Surge": {
+    "Lvl 68 Leader Lt. Surge #3 ": {
       "nature": "Timid",
       "ability": "Intimidate",
       "level": 68,
@@ -54941,7 +54941,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Lt. Surge #rrhc-sheet-Kanto-Rematch-55-0x1131480.5": {
+    "Lvl 68 Leader Lt. Surge #6 ": {
       "nature": "Timid",
       "ability": "Intimidate",
       "level": 68,
@@ -54971,7 +54971,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Beth - Mt. Ember Ranger": {
+    "Lvl 0 Sheet Frontier Beth": {
       "nature": "Timid",
       "ability": "Intimidate",
       "level": 0,
@@ -55004,7 +55004,7 @@ backup_data = {
     }
   },
   "Iron Bundle": {
-    "Lvl 68 Leader Misty": {
+    "Lvl 68 Leader Misty #6 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 68,
@@ -55034,7 +55034,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Misty #rrhc-sheet-Kanto-Rematch-30-0x1131528.0": {
+    "Lvl 68 Leader Misty #8 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 68,
@@ -55063,7 +55063,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #5 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 100,
@@ -55094,7 +55094,7 @@ backup_data = {
     }
   },
   "Palafin-Hero": {
-    "Lvl 68 Leader Misty": {
+    "Lvl 68 Leader Misty #6 ": {
       "nature": "Jolly",
       "ability": "Zero to Hero",
       "level": 68,
@@ -55124,7 +55124,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Misty #rrhc-sheet-Kanto-Rematch-30-0x1131528.1": {
+    "Lvl 68 Leader Misty #8 ": {
       "nature": "Jolly",
       "ability": "Zero to Hero",
       "level": 68,
@@ -55155,7 +55155,7 @@ backup_data = {
     }
   },
   "Thundurus-Therian": {
-    "Lvl 68 Leader Misty": {
+    "Lvl 68 Leader Misty #6 ": {
       "nature": "Timid",
       "ability": "Volt Absorb",
       "level": 68,
@@ -55185,7 +55185,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Misty #rrhc-sheet-Kanto-Rematch-30-0x1131528.4": {
+    "Lvl 68 Leader Misty #8 ": {
       "nature": "Timid",
       "ability": "Volt Absorb",
       "level": 68,
@@ -55214,7 +55214,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup #2 ": {
       "nature": "Modest",
       "ability": "Volt Absorb",
       "level": 81,
@@ -55245,7 +55245,7 @@ backup_data = {
     }
   },
   "Gyarados-Mega": {
-    "Lvl 68 Leader Misty": {
+    "Lvl 68 Leader Misty #6 ": {
       "nature": "Jolly",
       "ability": "Mold Breaker",
       "level": 68,
@@ -55276,7 +55276,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Misty #rrhc-sheet-Kanto-Rematch-30-0x1131528.5": {
+    "Lvl 68 Leader Misty #8 ": {
       "nature": "Jolly",
       "ability": "Mold Breaker",
       "level": 68,
@@ -55308,7 +55308,7 @@ backup_data = {
     }
   },
   "Iron Boulder": {
-    "Lvl 68 Leader Brock": {
+    "Lvl 68 Leader Brock #3 ": {
       "nature": "Jolly",
       "ability": "Quark Drive",
       "level": 68,
@@ -55338,7 +55338,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Brock #rrhc-sheet-Kanto-Rematch-5-0x11315d0.0": {
+    "Lvl 68 Leader Brock #5 ": {
       "nature": "Jolly",
       "ability": "Quark Drive",
       "level": 68,
@@ -55369,7 +55369,7 @@ backup_data = {
     }
   },
   "Iron Treads": {
-    "Lvl 68 Leader Brock": {
+    "Lvl 68 Leader Brock #3 ": {
       "nature": "Jolly",
       "ability": "Quark Drive",
       "level": 68,
@@ -55399,7 +55399,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Brock #rrhc-sheet-Kanto-Rematch-5-0x11315d0.3": {
+    "Lvl 68 Leader Brock #5 ": {
       "nature": "Jolly",
       "ability": "Quark Drive",
       "level": 68,
@@ -55428,7 +55428,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Alexa - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Alexa": {
       "nature": "Jolly",
       "ability": "Quark Drive",
       "level": 85,
@@ -55459,7 +55459,7 @@ backup_data = {
     }
   },
   "Ursaluna-Bloodmoon": {
-    "Lvl 68 Leader Brock": {
+    "Lvl 68 Leader Brock #3 ": {
       "nature": "Modest",
       "level": 68,
       "moves": [
@@ -55488,7 +55488,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Brock #rrhc-sheet-Kanto-Rematch-5-0x11315d0.4": {
+    "Lvl 68 Leader Brock #5 ": {
       "nature": "Modest",
       "level": 68,
       "moves": [
@@ -55516,7 +55516,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Sheet Frontier Brendan - Route 23": {
+    "Lvl 82 Sheet Frontier Brendan #4 ": {
       "nature": "Timid",
       "level": 82,
       "moves": [
@@ -55546,7 +55546,7 @@ backup_data = {
     }
   },
   "Aerodactyl-Mega": {
-    "Lvl 68 Leader Brock": {
+    "Lvl 68 Leader Brock #3 ": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": 68,
@@ -55577,7 +55577,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Leader Brock #rrhc-sheet-Kanto-Rematch-5-0x11315d0.5": {
+    "Lvl 68 Leader Brock #5 ": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": 68,
@@ -55609,7 +55609,7 @@ backup_data = {
     }
   },
   "Camerupt-Mega": {
-    "Lvl 59 Leader Sabrina": {
+    "Lvl 59 Leader Sabrina #2 ": {
       "nature": "Quiet",
       "ability": "Sheer Force",
       "level": 59,
@@ -55640,7 +55640,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Leader Sabrina #rrhc-sheet-Kanto-Leaders-105-0x1131720.1": {
+    "Lvl 59 Leader Sabrina #3 ": {
       "nature": "Quiet",
       "ability": "Sheer Force",
       "level": 59,
@@ -55670,7 +55670,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker Jared - Route 13": {
+    "Lvl -2 Biker Jared #2 ": {
       "nature": "Modest",
       "ability": "Sheer Force",
       "level": -2,
@@ -55703,7 +55703,7 @@ backup_data = {
     }
   },
   "Glastrier": {
-    "Lvl 59 Leader Sabrina": {
+    "Lvl 59 Leader Sabrina #2 ": {
       "nature": "Brave",
       "ability": "Chilling Neigh",
       "level": 59,
@@ -55733,7 +55733,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Leader Sabrina #rrhc-sheet-Kanto-Leaders-105-0x1131720.2": {
+    "Lvl 59 Leader Sabrina #3 ": {
       "nature": "Brave",
       "ability": "Chilling Neigh",
       "level": 59,
@@ -55764,7 +55764,7 @@ backup_data = {
     }
   },
   "Iron Crown": {
-    "Lvl 36 Leader Chuck": {
+    "Lvl 36 Leader Chuck #2 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 36,
@@ -55794,7 +55794,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Chuck - Saffron Dojo": {
+    "Lvl 36 Leader Chuck #3 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 36,
@@ -55825,7 +55825,7 @@ backup_data = {
     }
   },
   "Sneasler": {
-    "Lvl 36 Leader Chuck": {
+    "Lvl 36 Leader Chuck #2 ": {
       "nature": "Jolly",
       "ability": "Unburden",
       "level": 36,
@@ -55855,7 +55855,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Chuck - Saffron Dojo": {
+    "Lvl 36 Leader Chuck #3 ": {
       "nature": "Jolly",
       "ability": "Unburden",
       "level": 36,
@@ -55884,7 +55884,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Channeler Rachel - Cape Brink": {
+    "Lvl 100 Channeler Rachel #2 ": {
       "nature": "Jolly",
       "ability": "Poison Touch",
       "level": 100,
@@ -55915,7 +55915,7 @@ backup_data = {
     }
   },
   "Zamazenta-Crowned": {
-    "Lvl 36 Leader Chuck": {
+    "Lvl 36 Leader Chuck #2 ": {
       "nature": "Jolly",
       "ability": "Dauntless Shield",
       "level": 36,
@@ -55948,7 +55948,7 @@ backup_data = {
     }
   },
   "Gallade-Mega": {
-    "Lvl 36 Leader Chuck": {
+    "Lvl 36 Leader Chuck #2 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 36,
@@ -55979,7 +55979,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Chuck - Saffron Dojo": {
+    "Lvl 36 Leader Chuck #3 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 36,
@@ -56009,7 +56009,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Crush Girl Sharon - Kindle Road": {
+    "Lvl 100 Crush Girl Sharon #4 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 100,
@@ -56041,7 +56041,7 @@ backup_data = {
     }
   },
   "Garganacl": {
-    "Lvl 57 Boss Giovanni": {
+    "Lvl 57 Boss Giovanni #6 ": {
       "nature": "Careful",
       "ability": "Sturdy",
       "level": 57,
@@ -56071,7 +56071,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 57 Sheet Frontier Giovanni - Silph Co.": {
+    "Lvl 57 Sheet Frontier Giovanni #2 ": {
       "nature": "Careful",
       "ability": "Sturdy",
       "level": 57,
@@ -56102,7 +56102,7 @@ backup_data = {
     }
   },
   "Garchomp-Mega": {
-    "Lvl 57 Boss Giovanni": {
+    "Lvl 57 Boss Giovanni #6 ": {
       "nature": "Jolly",
       "ability": "Sand Force",
       "level": 57,
@@ -56133,7 +56133,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 57 Sheet Frontier Giovanni - Silph Co.": {
+    "Lvl 57 Sheet Frontier Giovanni #2 ": {
       "nature": "Jolly",
       "ability": "Sand Force",
       "level": 57,
@@ -56163,7 +56163,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Samantha - PKMN Tower Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Samantha": {
       "nature": "Timid",
       "ability": "Sand Force",
       "level": 100,
@@ -56225,7 +56225,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #7 ": {
       "nature": "Naive",
       "ability": "Levitate",
       "level": 56,
@@ -56254,7 +56254,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-226-0x11319c0.0": {
+    "Lvl 56 Rival #8 ": {
       "nature": "Naive",
       "ability": "Levitate",
       "level": 56,
@@ -56283,7 +56283,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 56 Rival - Silph Co. #rrhc-sheet-Rivals-250-0x1131a68.0": {
+    "Lvl 56 Rival #9 ": {
       "nature": "Naive",
       "ability": "Levitate",
       "level": 56,
@@ -56314,7 +56314,7 @@ backup_data = {
     }
   },
   "Orthworm": {
-    "Lvl 47 Boss Giovanni": {
+    "Lvl 47 Boss Giovanni #7 ": {
       "nature": "Impish",
       "ability": "Earth Eater",
       "level": 47,
@@ -56344,7 +56344,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Sheet Frontier Giovanni - Rocket Hide.": {
+    "Lvl 47 Sheet Frontier Giovanni": {
       "nature": "Impish",
       "ability": "Earth Eater",
       "level": 47,
@@ -56375,7 +56375,7 @@ backup_data = {
     }
   },
   "Kangaskhan-Mega": {
-    "Lvl 47 Boss Giovanni": {
+    "Lvl 47 Boss Giovanni #7 ": {
       "nature": "Jolly",
       "ability": "Parental Bond",
       "level": 47,
@@ -56406,7 +56406,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Sheet Frontier Giovanni - Rocket Hide.": {
+    "Lvl 47 Sheet Frontier Giovanni": {
       "nature": "Jolly",
       "ability": "Parental Bond",
       "level": 47,
@@ -56438,7 +56438,7 @@ backup_data = {
     }
   },
   "Dusknoir": {
-    "Lvl 36 Leader Morty": {
+    "Lvl 36 Leader Morty #4 ": {
       "nature": "Adamant",
       "ability": "Hustle",
       "level": 36,
@@ -56468,7 +56468,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 36 Leader Morty - Lavender Town": {
+    "Lvl 36 Leader Morty #6 ": {
       "nature": "Adamant",
       "ability": "Hustle",
       "level": 36,
@@ -56497,7 +56497,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Goon 1 - Three Island": {
+    "Lvl 0 Goon 1": {
       "nature": "Adamant",
       "ability": "Pressure",
       "level": 0,
@@ -56529,7 +56529,7 @@ backup_data = {
     }
   },
   "Ogerpon-Cornerstone": {
-    "Lvl 44 Leader Erika": {
+    "Lvl 44 Leader Erika #4 ": {
       "nature": "Jolly",
       "level": 44,
       "moves": [
@@ -56558,7 +56558,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Erika #rrhc-sheet-Kanto-Leaders-80-0x1132ab4.0": {
+    "Lvl 44 Leader Erika #5 ": {
       "nature": "Jolly",
       "level": 44,
       "moves": [
@@ -56586,7 +56586,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Sheet Frontier Fan - Power Plant Dumass Jojo": {
+    "Lvl 68 Sheet Frontier Fan": {
       "nature": "Jolly",
       "level": 68,
       "moves": [
@@ -56616,7 +56616,7 @@ backup_data = {
     }
   },
   "Sceptile-Mega": {
-    "Lvl 44 Leader Erika": {
+    "Lvl 44 Leader Erika #4 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 44,
@@ -56647,7 +56647,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Erika #rrhc-sheet-Kanto-Leaders-80-0x1132ab4.2": {
+    "Lvl 44 Leader Erika #5 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 44,
@@ -56677,7 +56677,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 68 Sheet Frontier Brendan - Fuchsia City": {
+    "Lvl 68 Sheet Frontier Brendan #3 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 68,
@@ -56707,7 +56707,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Sheet Frontier Brendan - Route 23": {
+    "Lvl 82 Sheet Frontier Brendan #4 ": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 82,
@@ -56737,7 +56737,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Andrew - Joyful Game Co.rner Ace Trainer": {
+    "Lvl 100 Sheet Frontier Andrew": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 100,
@@ -56769,7 +56769,7 @@ backup_data = {
     }
   },
   "Slowbro-Galar": {
-    "Lvl 44 Leader Erika": {
+    "Lvl 44 Leader Erika #4 ": {
       "nature": "Bold",
       "ability": "Regenerator",
       "level": 44,
@@ -56799,7 +56799,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 44 Leader Erika #rrhc-sheet-Kanto-Leaders-80-0x1132ab4.4": {
+    "Lvl 44 Leader Erika #5 ": {
       "nature": "Bold",
       "ability": "Regenerator",
       "level": 44,
@@ -56828,7 +56828,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Fisherman Tommy - Kindle Road": {
+    "Lvl 0 Fisherman Tommy #2 ": {
       "nature": "Modest",
       "ability": "Regenerator",
       "level": 0,
@@ -56860,7 +56860,7 @@ backup_data = {
     }
   },
   "Rotom-Frost": {
-    "Lvl 36 Leader Lt. Surge": {
+    "Lvl 36 Leader Lt. Surge #4 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 36,
@@ -56889,7 +56889,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Leader Lt. Surge": {
+    "Lvl -1 Leader Lt. Surge #5 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": -1,
@@ -56919,7 +56919,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Sheet Frontier Guard - Rocket Hide. Left": {
+    "Lvl 47 Sheet Frontier Guard #2 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 47,
@@ -56948,7 +56948,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Rocker Luca - Route 12": {
+    "Lvl -2 Rocker Luca #3 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": -2,
@@ -56980,7 +56980,7 @@ backup_data = {
     }
   },
   "Electrode-Hisui": {
-    "Lvl 36 Leader Lt. Surge": {
+    "Lvl 36 Leader Lt. Surge #4 ": {
       "nature": "Naive",
       "ability": "Reckless",
       "level": 36,
@@ -57010,7 +57010,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Leader Lt. Surge": {
+    "Lvl 0 Leader Lt. Surge #5 ": {
       "nature": "Naive",
       "ability": "Reckless",
       "level": 0,
@@ -57042,7 +57042,7 @@ backup_data = {
     }
   },
   "Farigiraf": {
-    "Lvl 28 Leader Whitney": {
+    "Lvl 28 Leader Whitney #3 ": {
       "nature": "Timid",
       "ability": "Parental Bond",
       "level": 28,
@@ -57072,7 +57072,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Whitney - Route 11": {
+    "Lvl 28 Leader Whitney #4 ": {
       "nature": "Timid",
       "ability": "Parental Bond",
       "level": 28,
@@ -57103,7 +57103,7 @@ backup_data = {
     }
   },
   "Altaria-Mega": {
-    "Lvl 28 Leader Whitney": {
+    "Lvl 28 Leader Whitney #3 ": {
       "nature": "Timid",
       "ability": "Pixilate",
       "level": 28,
@@ -57134,7 +57134,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Leader Whitney - Route 11": {
+    "Lvl 28 Leader Whitney #4 ": {
       "nature": "Timid",
       "ability": "Pixilate",
       "level": 28,
@@ -57164,7 +57164,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Picnicker Alma - Route 13": {
+    "Lvl -2 Picnicker Alma #2 ": {
       "nature": "Bold",
       "ability": "Pixilate",
       "level": -2,
@@ -57195,7 +57195,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Logan - Mt. Ember Gatekeeper": {
+    "Lvl 0 Sheet Frontier Logan": {
       "nature": "Jolly",
       "ability": "Pixilate",
       "level": 0,
@@ -57228,7 +57228,7 @@ backup_data = {
     }
   },
   "Hippopotas": {
-    "Lvl -3 Leader Brock": {
+    "Lvl -3 Leader Brock #4 ": {
       "nature": "Careful",
       "ability": "Sand Stream",
       "level": -3,
@@ -57260,7 +57260,7 @@ backup_data = {
     }
   },
   "Cacnea": {
-    "Lvl -1 Leader Brock": {
+    "Lvl -1 Leader Brock #4 ": {
       "nature": "Bashful",
       "ability": "Sand Rush",
       "level": -1,
@@ -57292,7 +57292,7 @@ backup_data = {
     }
   },
   "Trumbeak": {
-    "Lvl -2 Leader Falkner - Pewter Museum": {
+    "Lvl -2 Leader Falkner #4 ": {
       "nature": "Bashful",
       "ability": "Skill Link",
       "level": -2,
@@ -57324,7 +57324,7 @@ backup_data = {
     }
   },
   "Wattrel": {
-    "Lvl 0 Leader Falkner - Pewter Museum": {
+    "Lvl 0 Leader Falkner #4 ": {
       "nature": "Modest",
       "ability": "Volt Absorb",
       "level": 0,
@@ -57356,7 +57356,7 @@ backup_data = {
     }
   },
   "Squawkabilly": {
-    "Lvl -2 Leader Falkner - Pewter Museum": {
+    "Lvl -2 Leader Falkner #4 ": {
       "nature": "Bashful",
       "ability": "Hustle",
       "level": -2,
@@ -57388,7 +57388,7 @@ backup_data = {
     }
   },
   "Zamazenta": {
-    "Lvl 36 Leader Chuck - Saffron Dojo": {
+    "Lvl 36 Leader Chuck #3 ": {
       "nature": "Jolly",
       "ability": "Dauntless Shield",
       "level": 36,
@@ -57418,7 +57418,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #11 ": {
       "nature": "Jolly",
       "ability": "Dauntless Shield",
       "level": 82,
@@ -57450,7 +57450,7 @@ backup_data = {
     }
   },
   "Simisage": {
-    "Lvl -1 Rival - Cerulean City": {
+    "Lvl -1 Rival #5 ": {
       "nature": "Timid",
       "ability": "Sage Power",
       "level": -1,
@@ -57480,7 +57480,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 28 Gentleman Brooks - S.S. Anne Lass Ann &": {
+    "Lvl 28 Gentleman Brooks #2 ": {
       "nature": "Timid",
       "ability": "Sage Power",
       "level": 28,
@@ -57511,7 +57511,7 @@ backup_data = {
     }
   },
   "Slaking": {
-    "Lvl 28 Sheet Frontier Brendan - S.S. Anne": {
+    "Lvl 28 Sheet Frontier Brendan #2 ": {
       "nature": "Jolly",
       "ability": "Truant",
       "level": 28,
@@ -57540,7 +57540,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 47 Sheet Frontier Guard - Rocket Hide. Left": {
+    "Lvl 47 Sheet Frontier Guard #2 ": {
       "nature": "Jolly",
       "ability": "Truant",
       "level": 47,
@@ -57571,7 +57571,7 @@ backup_data = {
     }
   },
   "Blastoise-Mega": {
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #7 ": {
       "nature": "Modest",
       "ability": "Mega Launcher",
       "level": 56,
@@ -57601,7 +57601,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #10 ": {
       "nature": "Timid",
       "ability": "Mega Launcher",
       "level": 82,
@@ -57631,7 +57631,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Rocker Luca - Route 12": {
+    "Lvl -2 Rocker Luca #3 ": {
       "nature": "Timid",
       "ability": "Mega Launcher",
       "level": -2,
@@ -57662,7 +57662,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak #2 ": {
       "nature": "Timid",
       "ability": "Mega Launcher",
       "level": 100,
@@ -57694,7 +57694,7 @@ backup_data = {
     }
   },
   "Venusaur-Mega": {
-    "Lvl 56 Rival - Silph Co.": {
+    "Lvl 56 Rival #9 ": {
       "nature": "Timid",
       "ability": "Thick Fat",
       "level": 56,
@@ -57724,7 +57724,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #12 ": {
       "nature": "Timid",
       "ability": "Thick Fat",
       "level": 82,
@@ -57756,7 +57756,7 @@ backup_data = {
     }
   },
   "Nihilego": {
-    "Lvl 68 Sheet Frontier Brendan - Fuchsia City": {
+    "Lvl 68 Sheet Frontier Brendan #3 ": {
       "nature": "Timid",
       "ability": "Beast Boost",
       "level": 68,
@@ -57787,7 +57787,7 @@ backup_data = {
     }
   },
   "Regieleki": {
-    "Lvl 73 Sheet Frontier May - Cinnabar Isl.": {
+    "Lvl 73 Sheet Frontier May": {
       "nature": "Naive",
       "ability": "Transistor",
       "level": 73,
@@ -57818,7 +57818,7 @@ backup_data = {
     }
   },
   "Blaziken-Mega": {
-    "Lvl 73 Sheet Frontier May - Cinnabar Isl.": {
+    "Lvl 73 Sheet Frontier May": {
       "nature": "Jolly",
       "ability": "Speed Boost",
       "level": 73,
@@ -57848,7 +57848,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Andrew - Joyful Game Co.rner Ace Trainer": {
+    "Lvl 100 Sheet Frontier Andrew": {
       "nature": "Jolly",
       "ability": "Speed Boost",
       "level": 100,
@@ -57880,7 +57880,7 @@ backup_data = {
     }
   },
   "Basculegion": {
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #10 ": {
       "nature": "Jolly",
       "ability": "Swift Swim",
       "level": 82,
@@ -57909,7 +57909,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Fisherman Tommy - Kindle Road": {
+    "Lvl 0 Fisherman Tommy #2 ": {
       "nature": "Jolly",
       "ability": "Adaptability",
       "level": 0,
@@ -57941,7 +57941,7 @@ backup_data = {
     }
   },
   "Goodra": {
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #10 ": {
       "nature": "Modest",
       "ability": "Hydration",
       "level": 82,
@@ -57970,7 +57970,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Picnicker Susie - Route 13": {
+    "Lvl -2 Picnicker Susie #5 ": {
       "nature": "Modest",
       "ability": "Sap Sipper",
       "level": -2,
@@ -58000,7 +58000,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Beauty Sheila - Route 13 Beauty Lola &": {
+    "Lvl -2 Beauty Sheila #3 ": {
       "nature": "Adamant",
       "ability": "Sap Sipper",
       "level": -2,
@@ -58030,7 +58030,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Kid - Saffron City Dumass": {
+    "Lvl 59 Sheet Frontier Kid": {
       "nature": "Impish",
       "ability": "Hydration",
       "level": 59,
@@ -58061,7 +58061,7 @@ backup_data = {
     }
   },
   "Kingambit": {
-    "Lvl 82 Rival - Route 22 #2": {
+    "Lvl 82 Rival #12 ": {
       "nature": "Adamant",
       "ability": "Supreme Overlord",
       "level": 82,
@@ -58090,7 +58090,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 79 Sheet Frontier 2 - Cerulea. Cave Grunt": {
+    "Lvl 79 Sheet Frontier 2 #2 ": {
       "nature": "Jolly",
       "ability": "Supreme Overlord",
       "level": 79,
@@ -58121,7 +58121,7 @@ backup_data = {
     }
   },
   "Druddigon": {
-    "Lvl 0 Sheet Frontier Grunt - Nugg. Bridge": {
+    "Lvl 0 Sheet Frontier Grunt": {
       "nature": "Impish",
       "ability": "Rough Skin",
       "level": 0,
@@ -58151,7 +58151,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Bird Keeper Robert - Route 13": {
+    "Lvl -2 Bird Keeper Robert #4 ": {
       "nature": "Careful",
       "ability": "Rough Skin",
       "level": -2,
@@ -58181,7 +58181,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Co.le - Route 8 Ace Trainer": {
+    "Lvl 59 Sheet Frontier Co.le": {
       "nature": "Impish",
       "ability": "Rough Skin",
       "level": 59,
@@ -58212,7 +58212,7 @@ backup_data = {
     }
   },
   "Togedemaru": {
-    "Lvl -1 Sheet Frontier Grunt - Nugg. Bridge": {
+    "Lvl -1 Sheet Frontier Grunt": {
       "nature": "Careful",
       "ability": "Iron Barbs",
       "level": -1,
@@ -58244,7 +58244,7 @@ backup_data = {
     }
   },
   "Tinkaton": {
-    "Lvl -1 Sheet Frontier Guard - Game Co.rner": {
+    "Lvl -1 Sheet Frontier Guard": {
       "nature": "Jolly",
       "ability": "Own Tempo",
       "level": -1,
@@ -58276,7 +58276,7 @@ backup_data = {
     }
   },
   "Lilligant-Hisui": {
-    "Lvl 47 Sheet Frontier Guard - Rocket Hide. Left": {
+    "Lvl 47 Sheet Frontier Guard #2 ": {
       "nature": "Jolly",
       "ability": "Hustle",
       "level": 47,
@@ -58307,7 +58307,7 @@ backup_data = {
     }
   },
   "Okidogi": {
-    "Lvl 47 Sheet Frontier Guard - Rocket Hide. Right": {
+    "Lvl 47 Sheet Frontier Guard #3 ": {
       "nature": "Jolly",
       "ability": "Toxic Chain",
       "level": 47,
@@ -58336,7 +58336,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Burglar Anson - Mansion F4": {
+    "Lvl -2 Burglar Anson #2 ": {
       "nature": "Jolly",
       "ability": "Guard Dog",
       "level": -2,
@@ -58368,7 +58368,7 @@ backup_data = {
     }
   },
   "Overqwil": {
-    "Lvl 0 Sheet Frontier 1 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 1": {
       "nature": "Adamant",
       "ability": "Swift Swim",
       "level": 0,
@@ -58398,7 +58398,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Finn - Kindle Road Swimmer": {
+    "Lvl 0 Sheet Frontier Finn": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": 0,
@@ -58428,7 +58428,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Goon 1 - Three Island": {
+    "Lvl -1 Goon 1": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": -1,
@@ -58460,7 +58460,7 @@ backup_data = {
     }
   },
   "Klefki": {
-    "Lvl -1 Sheet Frontier 2 - PKMN Tower Grunt": {
+    "Lvl -1 Sheet Frontier 2": {
       "nature": "Careful",
       "ability": "Prankster",
       "level": -1,
@@ -58492,7 +58492,7 @@ backup_data = {
     }
   },
   "Dragalge": {
-    "Lvl 0 Sheet Frontier 2 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 2": {
       "nature": "Modest",
       "ability": "Adaptability",
       "level": 0,
@@ -58522,7 +58522,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Cool Couple Ray & Tyra - Victory Road": {
+    "Lvl 85 Cool Couple Ray & Tyra": {
       "nature": "Quiet",
       "ability": "Adaptability",
       "level": 85,
@@ -58551,7 +58551,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Sheet Frontier Maria - Kindle Road Swimmer": {
+    "Lvl -1 Sheet Frontier Maria": {
       "nature": "Modest",
       "ability": "Adaptability",
       "level": -1,
@@ -58583,7 +58583,7 @@ backup_data = {
     }
   },
   "Slurpuff": {
-    "Lvl -1 Sheet Frontier 3 - PKMN Tower Grunt": {
+    "Lvl -1 Sheet Frontier 3": {
       "nature": "Timid",
       "ability": "Unburden",
       "level": -1,
@@ -58615,7 +58615,7 @@ backup_data = {
     }
   },
   "Golurk": {
-    "Lvl 0 Sheet Frontier 3 - PKMN Tower Grunt": {
+    "Lvl 0 Sheet Frontier 3": {
       "nature": "Jolly",
       "ability": "Iron Fist",
       "level": 0,
@@ -58647,7 +58647,7 @@ backup_data = {
     }
   },
   "Articuno-Galar": {
-    "Lvl -1 Sheet Frontier Archer - Silph Co. Ariana &": {
+    "Lvl -1 Sheet Frontier Archer #2 ": {
       "nature": "Timid",
       "ability": "Competitive",
       "level": -1,
@@ -58677,7 +58677,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Burglar Lewis - Mansion": {
+    "Lvl 0 Burglar Lewis #2 ": {
       "nature": "Timid",
       "ability": "Competitive",
       "level": 0,
@@ -58707,7 +58707,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Janny - Berry Forest Gauntlet 4 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Janny": {
       "nature": "Timid",
       "ability": "Competitive",
       "level": 100,
@@ -58738,7 +58738,7 @@ backup_data = {
     }
   },
   "Gholdengo": {
-    "Lvl -1 Sheet Frontier Archer - Silph Co. Ariana &": {
+    "Lvl -1 Sheet Frontier Archer #2 ": {
       "nature": "Timid",
       "ability": "Good as Gold",
       "level": -1,
@@ -58770,7 +58770,7 @@ backup_data = {
     }
   },
   "Glimmora": {
-    "Lvl -2 Sheet Frontier 1 - Cerulea. Cave Grunt": {
+    "Lvl -2 Sheet Frontier 1 #2 ": {
       "nature": "Timid",
       "ability": "Toxic Debris",
       "level": -2,
@@ -58800,7 +58800,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lance": {
+    "Lvl 100 Elite Four Lance #6 ": {
       "nature": "Timid",
       "ability": "Toxic Debris",
       "level": 100,
@@ -58829,7 +58829,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lance #rrhc-sheet-Indigo-League-201-0x112f768.0": {
+    "Lvl 100 Elite Four Lance #7 ": {
       "nature": "Timid",
       "ability": "Toxic Debris",
       "level": 100,
@@ -58860,7 +58860,7 @@ backup_data = {
     }
   },
   "Blissey": {
-    "Lvl 0 Sheet Frontier 1 - Cerulea. Cave Grunt": {
+    "Lvl 0 Sheet Frontier 1 #2 ": {
       "nature": "Bold",
       "ability": "Natural Cure",
       "level": 0,
@@ -58890,7 +58890,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Aroma Lady Nikki - Bond Bridge": {
+    "Lvl 100 Aroma Lady Nikki #2 ": {
       "nature": "Bold",
       "ability": "Natural Cure",
       "level": 100,
@@ -58921,7 +58921,7 @@ backup_data = {
     }
   },
   "Tangrowth": {
-    "Lvl 0 Sheet Frontier 1 - Cerulea. Cave Grunt": {
+    "Lvl 0 Sheet Frontier 1 #2 ": {
       "nature": "Sassy",
       "ability": "Regenerator",
       "level": 0,
@@ -58951,7 +58951,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Picnicker Alma - Route 13": {
+    "Lvl -2 Picnicker Alma #2 ": {
       "nature": "Timid",
       "ability": "Chlorophyll",
       "level": -2,
@@ -58981,7 +58981,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Aroma Lady Nikki - Bond Bridge": {
+    "Lvl 100 Aroma Lady Nikki #2 ": {
       "nature": "Timid",
       "ability": "Regenerator",
       "level": 100,
@@ -59012,7 +59012,7 @@ backup_data = {
     }
   },
   "Garbodor-Mega": {
-    "Lvl 0 Sheet Frontier 1 - Cerulea. Cave Grunt": {
+    "Lvl 0 Sheet Frontier 1 #2 ": {
       "nature": "Adamant",
       "ability": "Parasitic Waste",
       "level": 0,
@@ -59045,7 +59045,7 @@ backup_data = {
     }
   },
   "Sharpedo-Mega": {
-    "Lvl 79 Sheet Frontier 2 - Cerulea. Cave Grunt": {
+    "Lvl 79 Sheet Frontier 2 #2 ": {
       "nature": "Jolly",
       "ability": "Strong Jaw",
       "level": 79,
@@ -59075,7 +59075,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Goon 3 - Three Island": {
+    "Lvl 0 Goon 3": {
       "nature": "Jolly",
       "ability": "Strong Jaw",
       "level": 0,
@@ -59108,7 +59108,7 @@ backup_data = {
     }
   },
   "Wailord": {
-    "Lvl 79 Sheet Frontier Ariana - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Ariana": {
       "nature": "Modest",
       "ability": "Blubber Defense",
       "level": 79,
@@ -59139,7 +59139,7 @@ backup_data = {
     }
   },
   "Buzzwole": {
-    "Lvl 79 Sheet Frontier Ariana - Cerulea. Cave": {
+    "Lvl 79 Sheet Frontier Ariana": {
       "nature": "Jolly",
       "ability": "Beast Boost",
       "level": 79,
@@ -59170,7 +59170,7 @@ backup_data = {
     }
   },
   "Charcadet": {
-    "Lvl -1 Sheet Frontier Nelle - Virid. Forest Ace Trainer": {
+    "Lvl -1 Sheet Frontier Nelle": {
       "nature": "Bashful",
       "ability": "Flame Body",
       "level": -1,
@@ -59202,7 +59202,7 @@ backup_data = {
     }
   },
   "Gulpin": {
-    "Lvl -1 Sheet Frontier Nelle - Virid. Forest Ace Trainer": {
+    "Lvl -1 Sheet Frontier Nelle": {
       "nature": "Bashful",
       "ability": "Gluttony",
       "level": -1,
@@ -59234,7 +59234,7 @@ backup_data = {
     }
   },
   "Oricorio-Sensu": {
-    "Lvl -1 Lass Sally - Route 3": {
+    "Lvl -1 Lass Sally #2 ": {
       "nature": "Timid",
       "ability": "Dancer",
       "level": -1,
@@ -59266,7 +59266,7 @@ backup_data = {
     }
   },
   "Whimsicott": {
-    "Lvl -1 Lass Sally - Route 3": {
+    "Lvl -1 Lass Sally #2 ": {
       "nature": "Modest",
       "ability": "Prankster",
       "level": -1,
@@ -59298,7 +59298,7 @@ backup_data = {
     }
   },
   "Thwackey": {
-    "Lvl -2 Super Nerd Miguel - Mt. Moon": {
+    "Lvl -2 Super Nerd Miguel #2 ": {
       "nature": "Adamant",
       "ability": "Grassy Surge",
       "level": -2,
@@ -59330,7 +59330,7 @@ backup_data = {
     }
   },
   "Voltorb-Hisui": {
-    "Lvl -1 Super Nerd Miguel - Mt. Moon": {
+    "Lvl -1 Super Nerd Miguel #2 ": {
       "nature": "Naive",
       "ability": "Reckless",
       "level": -1,
@@ -59362,7 +59362,7 @@ backup_data = {
     }
   },
   "Skiddo": {
-    "Lvl -1 Super Nerd Miguel - Mt. Moon": {
+    "Lvl -1 Super Nerd Miguel #2 ": {
       "nature": "Impish",
       "ability": "Grass Pelt",
       "level": -1,
@@ -59394,7 +59394,7 @@ backup_data = {
     }
   },
   "Sableye": {
-    "Lvl -1 Super Nerd Miguel - Mt. Moon": {
+    "Lvl -1 Super Nerd Miguel #2 ": {
       "nature": "Careful",
       "ability": "Prankster",
       "level": -1,
@@ -59426,7 +59426,7 @@ backup_data = {
     }
   },
   "Wormadam-Sandy": {
-    "Lvl -2 Bug Catcher Cale - Nugg. Bridge": {
+    "Lvl -2 Bug Catcher Cale #2 ": {
       "nature": "Careful",
       "ability": "Overcoat",
       "level": -2,
@@ -59458,7 +59458,7 @@ backup_data = {
     }
   },
   "Amaura": {
-    "Lvl -2 Lass Ali - Nugg. Bridge": {
+    "Lvl -2 Lass Ali #2 ": {
       "nature": "Modest",
       "ability": "Refrigerate",
       "level": -2,
@@ -59490,7 +59490,7 @@ backup_data = {
     }
   },
   "Brionne": {
-    "Lvl -2 Lass Ali - Nugg. Bridge": {
+    "Lvl -2 Lass Ali #2 ": {
       "nature": "Bashful",
       "ability": "Liquid Voice",
       "level": -2,
@@ -59522,7 +59522,7 @@ backup_data = {
     }
   },
   "Snover": {
-    "Lvl -2 Youngster Timmy - Nugg. Bridge": {
+    "Lvl -2 Youngster Timmy #5 ": {
       "nature": "Bashful",
       "ability": "Soundproof",
       "level": -2,
@@ -59554,7 +59554,7 @@ backup_data = {
     }
   },
   "Salandit": {
-    "Lvl -2 Camper Ethan - Nugg. Bridge": {
+    "Lvl -2 Camper Ethan #2 ": {
       "nature": "Timid",
       "ability": "Corrosion",
       "level": -2,
@@ -59586,7 +59586,7 @@ backup_data = {
     }
   },
   "Mr. Mime-Galar": {
-    "Lvl -1 Camper Jeff - Route 6": {
+    "Lvl -1 Camper Jeff #5 ": {
       "nature": "Timid",
       "ability": "Ice Body",
       "level": -1,
@@ -59618,7 +59618,7 @@ backup_data = {
     }
   },
   "Decidueye": {
-    "Lvl 28 Gentleman Brooks - S.S. Anne Lass Ann &": {
+    "Lvl 28 Gentleman Brooks #2 ": {
       "nature": "Bashful",
       "ability": "Tinted Lens",
       "level": 28,
@@ -59649,7 +59649,7 @@ backup_data = {
     }
   },
   "Cradily": {
-    "Lvl -2 Sailor Trevor - S.S. Anne Sailor Edmond &": {
+    "Lvl -2 Sailor Trevor #2 ": {
       "nature": "Modest",
       "ability": "Storm Drain",
       "level": -2,
@@ -59681,7 +59681,7 @@ backup_data = {
     }
   },
   "Pikachu-Surfing": {
-    "Lvl -1 Gentleman Tucker - Vermillion Gym": {
+    "Lvl -1 Gentleman Tucker #2 ": {
       "nature": "Naive",
       "ability": "Lightning Rod",
       "level": -1,
@@ -59713,7 +59713,7 @@ backup_data = {
     }
   },
   "Roserade": {
-    "Lvl -2 Picnicker Alicia - Route 9": {
+    "Lvl -2 Picnicker Alicia #5 ": {
       "nature": "Timid",
       "ability": "Technician",
       "level": -2,
@@ -59743,7 +59743,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Biker Ruben - Route 16": {
+    "Lvl -2 Biker Ruben #3 ": {
       "nature": "Timid",
       "ability": "Technician",
       "level": -2,
@@ -59775,7 +59775,7 @@ backup_data = {
     }
   },
   "Ribombee": {
-    "Lvl -2 Picnicker Dana - Rock Tunnel": {
+    "Lvl -2 Picnicker Dana #2 ": {
       "nature": "Naive",
       "ability": "Shield Dust",
       "level": -2,
@@ -59807,7 +59807,7 @@ backup_data = {
     }
   },
   "Bouffalant": {
-    "Lvl -1 Picnicker Dana - Rock Tunnel": {
+    "Lvl -1 Picnicker Dana #2 ": {
       "nature": "Jolly",
       "ability": "Bull Rush",
       "level": -1,
@@ -59837,7 +59837,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Beauty Sheila - Route 13 Beauty Lola &": {
+    "Lvl -2 Beauty Sheila #3 ": {
       "nature": "Adamant",
       "ability": "Sap Sipper",
       "level": -2,
@@ -59869,7 +59869,7 @@ backup_data = {
     }
   },
   "Rampardos": {
-    "Lvl 0 Picnicker Dana - Rock Tunnel": {
+    "Lvl 0 Picnicker Dana #2 ": {
       "nature": "Jolly",
       "ability": "Mold Breaker",
       "level": 0,
@@ -59901,7 +59901,7 @@ backup_data = {
     }
   },
   "Cherrim": {
-    "Lvl 0 Sheet Frontier Herman - Route 10 Poke Maniac": {
+    "Lvl 0 Sheet Frontier Herman": {
       "nature": "Lonely",
       "ability": "Flower Gift",
       "level": 0,
@@ -59931,7 +59931,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Beauty Sheila - Route 13 Beauty Lola &": {
+    "Lvl -2 Beauty Sheila #3 ": {
       "nature": "Jolly",
       "ability": "Flower Gift",
       "level": -2,
@@ -59963,7 +59963,7 @@ backup_data = {
     }
   },
   "Sylveon": {
-    "Lvl 0 Sheet Frontier Herman - Route 10 Poke Maniac": {
+    "Lvl 0 Sheet Frontier Herman": {
       "nature": "Modest",
       "ability": "Pixilate",
       "level": 0,
@@ -59993,7 +59993,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -2 Picnicker Susie - Route 13": {
+    "Lvl -2 Picnicker Susie #5 ": {
       "nature": "Timid",
       "ability": "Pixilate",
       "level": -2,
@@ -60025,7 +60025,7 @@ backup_data = {
     }
   },
   "Arcanine-Hisui": {
-    "Lvl -1 Super Nerd Aidan - Route 8": {
+    "Lvl -1 Super Nerd Aidan": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": -1,
@@ -60055,7 +60055,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Derek - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Derek": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 76,
@@ -60084,7 +60084,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Sheet Frontier Logan - Mt. Ember Gatekeeper": {
+    "Lvl -1 Sheet Frontier Logan": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": -1,
@@ -60114,7 +60114,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Aroma Lady Violet - Bond Bridge": {
+    "Lvl -1 Aroma Lady Violet #2 ": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": -1,
@@ -60146,7 +60146,7 @@ backup_data = {
     }
   },
   "Basculegion-F": {
-    "Lvl 0 Super Nerd Aidan - Route 8": {
+    "Lvl 0 Super Nerd Aidan": {
       "nature": "Naive",
       "ability": "Adaptability",
       "level": 0,
@@ -60176,7 +60176,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 0 Sheet Frontier Maria - Kindle Road Swimmer": {
+    "Lvl 0 Sheet Frontier Maria": {
       "nature": "Timid",
       "ability": "Adaptability",
       "level": 0,
@@ -60208,7 +60208,7 @@ backup_data = {
     }
   },
   "Braviary-Hisui": {
-    "Lvl 0 Super Nerd Aidan - Route 8": {
+    "Lvl 0 Super Nerd Aidan": {
       "nature": "Modest",
       "ability": "Sheer Force",
       "level": 0,
@@ -60238,7 +60238,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 76 Sheet Frontier Zac - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Zac": {
       "nature": "Timid",
       "ability": "Tinted Lens",
       "level": 76,
@@ -60267,7 +60267,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl -1 Goon 3 - Three Island": {
+    "Lvl -1 Goon 3": {
       "nature": "Modest",
       "ability": "Sheer Force",
       "level": -1,
@@ -60299,7 +60299,7 @@ backup_data = {
     }
   },
   "Maractus": {
-    "Lvl -1 Sheet Frontier Mary - Celadon Gym Ace Trainer": {
+    "Lvl -1 Sheet Frontier Mary": {
       "nature": "Adamant",
       "ability": "Grassy Surge",
       "level": -1,
@@ -60331,7 +60331,7 @@ backup_data = {
     }
   },
   "Cresselia": {
-    "Lvl 0 Channeler Ruth - PKMN Tower": {
+    "Lvl 0 Channeler Ruth #2 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": 0,
@@ -60363,7 +60363,7 @@ backup_data = {
     }
   },
   "Tornadus": {
-    "Lvl -2 Rocker Luca - Route 12": {
+    "Lvl -2 Rocker Luca #3 ": {
       "nature": "Jolly",
       "ability": "Defiant",
       "level": -2,
@@ -60395,7 +60395,7 @@ backup_data = {
     }
   },
   "Darmanitan-Galar": {
-    "Lvl -2 Camper Justin - Route 12": {
+    "Lvl -2 Camper Justin #2 ": {
       "nature": "Jolly",
       "ability": "Zen Mode",
       "level": -2,
@@ -60426,7 +60426,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Crush Girl Sharon - Kindle Road": {
+    "Lvl 100 Crush Girl Sharon #4 ": {
       "nature": "Jolly",
       "ability": "Zen Mode",
       "level": 100,
@@ -60458,7 +60458,7 @@ backup_data = {
     }
   },
   "Cetitan": {
-    "Lvl -2 Camper Justin - Route 12": {
+    "Lvl -2 Camper Justin #2 ": {
       "nature": "Jolly",
       "ability": "Slush Rush",
       "level": -2,
@@ -60490,7 +60490,7 @@ backup_data = {
     }
   },
   "Baxcalibur": {
-    "Lvl -2 Fisherman Andrew - Route 12": {
+    "Lvl -2 Fisherman Andrew #2 ": {
       "nature": "Jolly",
       "ability": "Thermal Exchange",
       "level": -2,
@@ -60522,7 +60522,7 @@ backup_data = {
     }
   },
   "Tropius": {
-    "Lvl -2 Bird Keeper Sebastian - Route 13": {
+    "Lvl -2 Bird Keeper Sebastian #2 ": {
       "nature": "Adamant",
       "ability": "Chlorophyll",
       "level": -2,
@@ -60554,7 +60554,7 @@ backup_data = {
     }
   },
   "Alcremie-Mega": {
-    "Lvl -2 Picnicker Susie - Route 13": {
+    "Lvl -2 Picnicker Susie #5 ": {
       "nature": "Bold",
       "ability": "Self Sufficient",
       "level": -2,
@@ -60585,7 +60585,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Symes - PKMN Tower Gauntlet 3 Tester": {
+    "Lvl 100 Sheet Frontier Symes": {
       "nature": "Bold",
       "ability": "Self Sufficient",
       "level": 100,
@@ -60617,7 +60617,7 @@ backup_data = {
     }
   },
   "Florges": {
-    "Lvl -2 Beauty Sheila - Route 13 Beauty Lola &": {
+    "Lvl -2 Beauty Sheila #3 ": {
       "nature": "Calm",
       "ability": "Natural Cure",
       "level": -2,
@@ -60649,7 +60649,7 @@ backup_data = {
     }
   },
   "Ogerpon-Hearthflame": {
-    "Lvl -2 Bird Keeper Perry - Route 13": {
+    "Lvl -2 Bird Keeper Perry #2 ": {
       "nature": "Jolly",
       "level": -2,
       "sublevel": -2,
@@ -60680,7 +60680,7 @@ backup_data = {
     }
   },
   "Jolteon": {
-    "Lvl -2 Bird Keeper Robert - Route 13": {
+    "Lvl -2 Bird Keeper Robert #4 ": {
       "nature": "Timid",
       "ability": "Volt Absorb",
       "level": -2,
@@ -60710,7 +60710,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak": {
       "nature": "Timid",
       "ability": "Volt Absorb",
       "level": 100,
@@ -60739,7 +60739,7 @@ backup_data = {
         "sd": 4
       }
     },
-    "Lvl 100 Sheet Frontier Tisha - Bond Bridge Swimmer": {
+    "Lvl 100 Sheet Frontier Tisha": {
       "nature": "Timid",
       "ability": "Volt Absorb",
       "level": 100,
@@ -60770,7 +60770,7 @@ backup_data = {
     }
   },
   "Dugtrio-Alola": {
-    "Lvl -2 Biker Lao - Route 16": {
+    "Lvl -2 Biker Lao #2 ": {
       "nature": "Naive",
       "ability": "Sand Force",
       "level": -2,
@@ -60802,7 +60802,7 @@ backup_data = {
     }
   },
   "Kingler-Mega": {
-    "Lvl -2 Cue Ball Koji - Route 16": {
+    "Lvl -2 Cue Ball Koji #2 ": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": -2,
@@ -60833,7 +60833,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Rolando - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Rolando": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": 85,
@@ -60863,7 +60863,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Owen - Berry Forest Gatekeeper": {
+    "Lvl 100 Sheet Frontier Owen": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": 100,
@@ -60895,7 +60895,7 @@ backup_data = {
     }
   },
   "Zygarde-10%": {
-    "Lvl -2 Cue Ball Luke - Route 16": {
+    "Lvl -2 Cue Ball Luke #2 ": {
       "nature": "Jolly",
       "ability": "Inner Focus",
       "level": -2,
@@ -60927,7 +60927,7 @@ backup_data = {
     }
   },
   "Beedrill-Mega": {
-    "Lvl -2 Biker Hideo - Route 16": {
+    "Lvl -2 Biker Hideo #2 ": {
       "nature": "Jolly",
       "ability": "Adaptability",
       "level": -2,
@@ -60960,7 +60960,7 @@ backup_data = {
     }
   },
   "Rotom-Heat": {
-    "Lvl -2 Biker Hideo - Route 16": {
+    "Lvl -2 Biker Hideo #2 ": {
       "nature": "Timid",
       "ability": "Levitate",
       "level": -2,
@@ -60992,7 +60992,7 @@ backup_data = {
     }
   },
   "Ogerpon-Wellspring": {
-    "Lvl -2 Bird Keeper Jacob - Route 18": {
+    "Lvl -2 Bird Keeper Jacob #4 ": {
       "nature": "Jolly",
       "level": -2,
       "sublevel": -2,
@@ -61023,7 +61023,7 @@ backup_data = {
     }
   },
   "Raikou": {
-    "Lvl -2 Bird Keeper Jacob - Route 18": {
+    "Lvl -2 Bird Keeper Jacob #4 ": {
       "nature": "Timid",
       "ability": "Inner Focus",
       "level": -2,
@@ -61053,7 +61053,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Janny - Berry Forest Gauntlet 4 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Janny": {
       "nature": "Timid",
       "ability": "Inner Focus",
       "level": 100,
@@ -61084,7 +61084,7 @@ backup_data = {
     }
   },
   "Regice": {
-    "Lvl -2 Dragon Tamer Ramiro - Route 18": {
+    "Lvl -2 Dragon Tamer Ramiro #2 ": {
       "nature": "Bold",
       "ability": "Filter",
       "level": -2,
@@ -61116,7 +61116,7 @@ backup_data = {
     }
   },
   "Lapras-Mega": {
-    "Lvl -2 Dragon Tamer Ramiro - Route 18": {
+    "Lvl -2 Dragon Tamer Ramiro #2 ": {
       "nature": "Modest",
       "ability": "Liquid Voice",
       "level": -2,
@@ -61149,7 +61149,7 @@ backup_data = {
     }
   },
   "Turtonator": {
-    "Lvl 68 Juggler Kayden - Fuchsia Gym": {
+    "Lvl 68 Juggler Kayden #2 ": {
       "nature": "Brave",
       "ability": "Shell Armor",
       "level": 68,
@@ -61180,7 +61180,7 @@ backup_data = {
     }
   },
   "Silvally": {
-    "Lvl 68 Juggler Kayden - Fuchsia Gym": {
+    "Lvl 68 Juggler Kayden #2 ": {
       "nature": "Jolly",
       "ability": "Battle Armor",
       "level": 68,
@@ -61211,7 +61211,7 @@ backup_data = {
     }
   },
   "Volcanion": {
-    "Lvl 68 Juggler Kayden - Fuchsia Gym": {
+    "Lvl 68 Juggler Kayden #2 ": {
       "nature": "Naive",
       "ability": "Water Absorb",
       "level": 68,
@@ -61240,7 +61240,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 85 Sheet Frontier Rolando - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Rolando": {
       "nature": "Timid",
       "ability": "Water Absorb",
       "level": 85,
@@ -61269,7 +61269,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Samantha - PKMN Tower Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Samantha": {
       "nature": "Modest",
       "ability": "Water Absorb",
       "level": 100,
@@ -61300,7 +61300,7 @@ backup_data = {
     }
   },
   "Samurott-Hisui": {
-    "Lvl -1 Scientist Ted - Pkm Mansion": {
+    "Lvl -1 Scientist Ted #2 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": -1,
@@ -61330,7 +61330,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Symes - PKMN Tower Gauntlet 3 Tester": {
+    "Lvl 100 Sheet Frontier Symes": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 100,
@@ -61361,7 +61361,7 @@ backup_data = {
     }
   },
   "Leafeon": {
-    "Lvl 0 Scientist Ted - Pkm Mansion": {
+    "Lvl 0 Scientist Ted #2 ": {
       "nature": "Jolly",
       "ability": "Sap Sipper",
       "level": 0,
@@ -61393,7 +61393,7 @@ backup_data = {
     }
   },
   "Centiskorch-Mega": {
-    "Lvl 76 Sheet Frontier Derek - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Derek": {
       "nature": "Jolly",
       "ability": "Mountaineer",
       "level": 76,
@@ -61423,7 +61423,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 59 Sheet Frontier Co.le - Route 8 Ace Trainer": {
+    "Lvl 59 Sheet Frontier Co.le": {
       "nature": "Jolly",
       "ability": "Mountaineer",
       "level": 59,
@@ -61455,7 +61455,7 @@ backup_data = {
     }
   },
   "Lycanroc": {
-    "Lvl 76 Sheet Frontier Lucy - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Lucy": {
       "nature": "Jolly",
       "ability": "Steadfast",
       "level": 76,
@@ -61486,7 +61486,7 @@ backup_data = {
     }
   },
   "Raging Bolt": {
-    "Lvl 76 Sheet Frontier Lucy - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Lucy": {
       "nature": "Modest",
       "ability": "Protosynthesis",
       "level": 76,
@@ -61517,7 +61517,7 @@ backup_data = {
     }
   },
   "Volcarona": {
-    "Lvl 76 Sheet Frontier Zac - Cinnabar Gym Ace Trainer": {
+    "Lvl 76 Sheet Frontier Zac": {
       "nature": "Timid",
       "ability": "Flame Body",
       "level": 76,
@@ -61546,7 +61546,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Sharon - Berry Forest Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Sharon": {
       "nature": "Timid",
       "ability": "Flame Body",
       "level": 100,
@@ -61577,7 +61577,7 @@ backup_data = {
     }
   },
   "Maushold": {
-    "Lvl 85 Sheet Frontier Naomi - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Naomi": {
       "nature": "Jolly",
       "ability": "Technician",
       "level": 85,
@@ -61608,7 +61608,7 @@ backup_data = {
     }
   },
   "Absol-Mega": {
-    "Lvl 85 Sheet Frontier Naomi - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Naomi": {
       "nature": "Naive",
       "ability": "Sharpness",
       "level": 85,
@@ -61638,7 +61638,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Channeler Rachel - Cape Brink": {
+    "Lvl 100 Channeler Rachel #2 ": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 100,
@@ -61668,7 +61668,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Sharon - Berry Forest Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Sharon": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 100,
@@ -61700,7 +61700,7 @@ backup_data = {
     }
   },
   "Blacephalon": {
-    "Lvl 85 Sheet Frontier Naomi - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Naomi": {
       "nature": "Timid",
       "ability": "Beast Boost",
       "level": 85,
@@ -61731,7 +61731,7 @@ backup_data = {
     }
   },
   "Stakataka": {
-    "Lvl 85 Sheet Frontier Caroline - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Caroline": {
       "nature": "Sassy",
       "ability": "Beast Boost",
       "level": 85,
@@ -61762,7 +61762,7 @@ backup_data = {
     }
   },
   "Diancie-Mega": {
-    "Lvl 85 Sheet Frontier Co.lby - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Co.lby": {
       "nature": "Timid",
       "ability": "Magic Bounce",
       "level": 85,
@@ -61794,7 +61794,7 @@ backup_data = {
     }
   },
   "Iron Leaves": {
-    "Lvl 85 Sheet Frontier Co.lby - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Co.lby": {
       "nature": "Jolly",
       "ability": "Sharpness",
       "level": 85,
@@ -61825,7 +61825,7 @@ backup_data = {
     }
   },
   "Mew": {
-    "Lvl 85 Sheet Frontier Alexa - Victory Road Ace Trainer": {
+    "Lvl 85 Sheet Frontier Alexa": {
       "nature": "Jolly",
       "ability": "Synchronize",
       "level": 85,
@@ -61854,7 +61854,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Oak - Oak's Lab Professor": {
+    "Lvl 100 Sheet Frontier Oak": {
       "nature": "Timid",
       "ability": "Synchronize",
       "level": 100,
@@ -61883,7 +61883,7 @@ backup_data = {
         "sd": 4
       }
     },
-    "Lvl 100 Sheet Frontier Owen - Berry Forest Gatekeeper": {
+    "Lvl 100 Sheet Frontier Owen": {
       "nature": "Timid",
       "ability": "Synchronize",
       "level": 100,
@@ -61914,7 +61914,7 @@ backup_data = {
     }
   },
   "Copperajah-Mega": {
-    "Lvl 85 Cool Couple Ray & Tyra - Victory Road": {
+    "Lvl 85 Cool Couple Ray & Tyra": {
       "nature": "Brave",
       "ability": "Sheer Force",
       "level": 85,
@@ -61946,7 +61946,7 @@ backup_data = {
     }
   },
   "Swampert-Mega": {
-    "Lvl 59 Sheet Frontier Kid - Saffron City Dumass": {
+    "Lvl 59 Sheet Frontier Kid": {
       "nature": "Adamant",
       "ability": "Swift Swim",
       "level": 59,
@@ -61976,7 +61976,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #5 ": {
       "nature": "Adamant",
       "ability": "Swift Swim",
       "level": 100,
@@ -62036,7 +62036,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival #rrhc-sheet-Indigo-League-276-0x112f618.1": {
+    "Lvl 100 Champion Rival #3 ": {
       "nature": "Adamant",
       "ability": "Swift Swim",
       "level": 100,
@@ -62066,7 +62066,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Gian - Saffron City Dumass": {
+    "Lvl 100 Sheet Frontier Gian": {
       "nature": "Jolly",
       "ability": "Swift Swim",
       "level": 100,
@@ -62098,7 +62098,7 @@ backup_data = {
     }
   },
   "Appletun-Mega": {
-    "Lvl 59 Beauty Shelly - Celadon Hotel": {
+    "Lvl 59 Beauty Shelly": {
       "nature": "Modest",
       "ability": "Contrary",
       "level": 59,
@@ -62130,7 +62130,7 @@ backup_data = {
     }
   },
   "Escavalier": {
-    "Lvl 68 Sheet Frontier Haley - Route 15 Ace Trainer": {
+    "Lvl 68 Sheet Frontier Haley": {
       "nature": "Adamant",
       "ability": "Overcoat",
       "level": 68,
@@ -62161,7 +62161,7 @@ backup_data = {
     }
   },
   "Sandaconda-Mega": {
-    "Lvl 68 Sheet Frontier Haley - Route 15 Ace Trainer": {
+    "Lvl 68 Sheet Frontier Haley": {
       "nature": "Adamant",
       "ability": "Aerilate",
       "level": 68,
@@ -62193,7 +62193,7 @@ backup_data = {
     }
   },
   "Machamp-Mega": {
-    "Lvl 68 Sheet Frontier Fan - Power Plant Dumass Jojo": {
+    "Lvl 68 Sheet Frontier Fan": {
       "nature": "Adamant",
       "ability": "ORAORAORAORA",
       "level": 68,
@@ -62225,7 +62225,7 @@ backup_data = {
     }
   },
   "Necrozma": {
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup #2 ": {
       "nature": "Modest",
       "ability": "Prism Armor",
       "level": 81,
@@ -62256,7 +62256,7 @@ backup_data = {
     }
   },
   "Banette-Mega": {
-    "Lvl 81 Black Belt Ketchup - Cerulea. Cave": {
+    "Lvl 81 Black Belt Ketchup #2 ": {
       "nature": "Adamant",
       "ability": "Prankster",
       "level": 81,
@@ -62288,7 +62288,7 @@ backup_data = {
     }
   },
   "Qwilfish-Hisui": {
-    "Lvl -2 Burglar Max - Mansion F4": {
+    "Lvl -2 Burglar Max #2 ": {
       "nature": "Jolly",
       "ability": "Intimidate",
       "level": -2,
@@ -62320,7 +62320,7 @@ backup_data = {
     }
   },
   "Wugtrio": {
-    "Lvl -2 Burglar Max - Mansion F4": {
+    "Lvl -2 Burglar Max #2 ": {
       "nature": "Jolly",
       "ability": "Arena Trap",
       "level": -2,
@@ -62352,7 +62352,7 @@ backup_data = {
     }
   },
   "Magcargo": {
-    "Lvl -2 Burglar Max - Mansion F4": {
+    "Lvl -2 Burglar Max #2 ": {
       "nature": "Timid",
       "ability": "Simple",
       "level": -2,
@@ -62384,7 +62384,7 @@ backup_data = {
     }
   },
   "Hydrapple": {
-    "Lvl -2 Burglar Max - Mansion F4": {
+    "Lvl -2 Burglar Max #2 ": {
       "nature": "Modest",
       "ability": "Regenerator",
       "level": -2,
@@ -62416,7 +62416,7 @@ backup_data = {
     }
   },
   "Fezandipiti": {
-    "Lvl -2 Burglar Max - Mansion F4": {
+    "Lvl -2 Burglar Max #2 ": {
       "nature": "Timid",
       "ability": "Technician",
       "level": -2,
@@ -62448,7 +62448,7 @@ backup_data = {
     }
   },
   "Munkidori": {
-    "Lvl -2 Burglar Anson - Mansion F4": {
+    "Lvl -2 Burglar Anson #2 ": {
       "nature": "Timid",
       "ability": "Frisk",
       "level": -2,
@@ -62480,7 +62480,7 @@ backup_data = {
     }
   },
   "Scream Tail": {
-    "Lvl -2 Burglar Anson - Mansion F4": {
+    "Lvl -2 Burglar Anson #2 ": {
       "nature": "Bold",
       "ability": "Protosynthesis",
       "level": -2,
@@ -62512,7 +62512,7 @@ backup_data = {
     }
   },
   "Palkia-Origin": {
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #5 ": {
       "nature": "Timid",
       "ability": "Pressure",
       "level": 100,
@@ -62541,7 +62541,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Gian - Saffron City Dumass": {
+    "Lvl 100 Sheet Frontier Gian": {
       "nature": "Timid",
       "ability": "Pressure",
       "level": 100,
@@ -62572,7 +62572,7 @@ backup_data = {
     }
   },
   "Chien-Pao": {
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #6 ": {
       "nature": "Jolly",
       "ability": "Sword of Ruin",
       "level": 100,
@@ -62603,7 +62603,7 @@ backup_data = {
     }
   },
   "Kyurem-White": {
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #6 ": {
       "nature": "Timid",
       "ability": "Turboblaze",
       "level": 100,
@@ -62634,7 +62634,7 @@ backup_data = {
     }
   },
   "Abomasnow-Mega": {
-    "Lvl 100 Elite Four Lorelei": {
+    "Lvl 100 Elite Four Lorelei #6 ": {
       "nature": "Naive",
       "ability": "Slush Rush",
       "level": 100,
@@ -62664,7 +62664,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Leader Pryce - Seafoam Isl. Secret Room": {
+    "Lvl 100 Leader Pryce #8 ": {
       "nature": "Quiet",
       "ability": "Slush Rush",
       "level": 100,
@@ -62696,7 +62696,7 @@ backup_data = {
     }
   },
   "Zeraora": {
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #5 ": {
       "nature": "Jolly",
       "ability": "Volt Absorb",
       "level": 100,
@@ -62727,7 +62727,7 @@ backup_data = {
     }
   },
   "Iron Valiant": {
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #5 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 100,
@@ -62756,7 +62756,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Bruno #rrhc-sheet-Indigo-League-92-0x112fa08.2": {
+    "Lvl 100 Elite Four Bruno #6 ": {
       "nature": "Timid",
       "ability": "Quark Drive",
       "level": 100,
@@ -62787,7 +62787,7 @@ backup_data = {
     }
   },
   "Zacian": {
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #5 ": {
       "nature": "Jolly",
       "ability": "Intrepid Sword",
       "level": 100,
@@ -62817,7 +62817,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Bruno #rrhc-sheet-Indigo-League-92-0x112fa08.4": {
+    "Lvl 100 Elite Four Bruno #6 ": {
       "nature": "Jolly",
       "ability": "Intrepid Sword",
       "level": 100,
@@ -62849,7 +62849,7 @@ backup_data = {
     }
   },
   "Lucario-Mega": {
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #5 ": {
       "nature": "Jolly",
       "ability": "Adaptability",
       "level": 100,
@@ -62881,7 +62881,7 @@ backup_data = {
     }
   },
   "Medicham-Mega": {
-    "Lvl 100 Elite Four Bruno": {
+    "Lvl 100 Elite Four Bruno #6 ": {
       "nature": "Jolly",
       "ability": "Pure Power",
       "level": 100,
@@ -62911,7 +62911,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Black Belt Hugh - Kindle Road": {
+    "Lvl 100 Black Belt Hugh #4 ": {
       "nature": "Jolly",
       "ability": "Pure Power",
       "level": 100,
@@ -62943,7 +62943,7 @@ backup_data = {
     }
   },
   "Arceus": {
-    "Lvl 100 Elite Four Lance": {
+    "Lvl 100 Elite Four Lance #6 ": {
       "nature": "Timid",
       "ability": "Multitype",
       "level": 100,
@@ -62973,7 +62973,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lance #rrhc-sheet-Indigo-League-201-0x112f768.2": {
+    "Lvl 100 Elite Four Lance #7 ": {
       "nature": "Timid",
       "ability": "Multitype",
       "level": 100,
@@ -63032,7 +63032,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival #rrhc-sheet-Indigo-League-251-0x112f570.3": {
+    "Lvl 100 Champion Rival #2 ": {
       "nature": "Timid",
       "ability": "Multitype",
       "level": 100,
@@ -63062,7 +63062,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Champion Rival #rrhc-sheet-Indigo-League-276-0x112f618.5": {
+    "Lvl 100 Champion Rival #3 ": {
       "nature": "Jolly",
       "ability": "Multitype",
       "level": 100,
@@ -63094,7 +63094,7 @@ backup_data = {
     }
   },
   "Rayquaza": {
-    "Lvl 100 Elite Four Lance": {
+    "Lvl 100 Elite Four Lance #6 ": {
       "nature": "Naive",
       "ability": "Air Lock",
       "level": 100,
@@ -63124,7 +63124,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Elite Four Lance #rrhc-sheet-Indigo-League-201-0x112f768.5": {
+    "Lvl 100 Elite Four Lance #7 ": {
       "nature": "Naive",
       "ability": "Air Lock",
       "level": 100,
@@ -63188,7 +63188,7 @@ backup_data = {
     }
   },
   "Gouging Fire": {
-    "Lvl 100 Champion Rival": {
+    "Lvl 100 Champion Rival #2 ": {
       "nature": "Jolly",
       "ability": "Protosynthesis",
       "level": 100,
@@ -63219,7 +63219,7 @@ backup_data = {
     }
   },
   "Koraidon": {
-    "Lvl 100 Champion Rival": {
+    "Lvl 100 Champion Rival #2 ": {
       "nature": "Jolly",
       "ability": "Orichalcum Pulse",
       "level": 100,
@@ -63250,7 +63250,7 @@ backup_data = {
     }
   },
   "Greninja-Ash": {
-    "Lvl 100 Sheet Frontier Gian - Saffron City Dumass": {
+    "Lvl 100 Sheet Frontier Gian": {
       "nature": "Timid",
       "ability": "Battle Bond",
       "level": 100,
@@ -63281,7 +63281,7 @@ backup_data = {
     }
   },
   "Kyurem": {
-    "Lvl 100 Leader Pryce - Seafoam Isl. Secret Room": {
+    "Lvl 100 Leader Pryce #8 ": {
       "nature": "Quiet",
       "ability": "Pressure",
       "level": 100,
@@ -63313,7 +63313,7 @@ backup_data = {
     }
   },
   "Wishiwashi-Sevii": {
-    "Lvl 100 Leader Pryce - Seafoam Isl. Secret Room": {
+    "Lvl 100 Leader Pryce #8 ": {
       "nature": "Quiet",
       "ability": "Schooling",
       "level": 100,
@@ -63345,7 +63345,7 @@ backup_data = {
     }
   },
   "Heracross-Mega": {
-    "Lvl 100 Leader Pryce - Seafoam Isl. Secret Room": {
+    "Lvl 100 Leader Pryce #8 ": {
       "nature": "Brave",
       "ability": "Skill Link",
       "level": 100,
@@ -63377,7 +63377,7 @@ backup_data = {
     }
   },
   "Keldeo": {
-    "Lvl 100 Sheet Frontier Runan - PKMN Tower Gauntlet 1 Tester": {
+    "Lvl 100 Sheet Frontier Runan": {
       "nature": "Timid",
       "ability": "Sharpness",
       "level": 100,
@@ -63408,7 +63408,7 @@ backup_data = {
     }
   },
   "Dodrio-Sevii": {
-    "Lvl 100 Sheet Frontier Samantha - PKMN Tower Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Samantha": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 100,
@@ -63437,7 +63437,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Black Belt Shea - Kindle Road": {
+    "Lvl 100 Black Belt Shea #4 ": {
       "nature": "Jolly",
       "ability": "Rock Head",
       "level": 100,
@@ -63468,7 +63468,7 @@ backup_data = {
     }
   },
   "Zebstrika-Sevii": {
-    "Lvl 100 Sheet Frontier Symes - PKMN Tower Gauntlet 3 Tester": {
+    "Lvl 100 Sheet Frontier Symes": {
       "nature": "Timid",
       "ability": "Illuminate",
       "level": 100,
@@ -63497,7 +63497,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Sheet Frontier Owen - Berry Forest Gatekeeper": {
+    "Lvl 100 Sheet Frontier Owen": {
       "nature": "Timid",
       "ability": "Illuminate",
       "level": 100,
@@ -63528,7 +63528,7 @@ backup_data = {
     }
   },
   "Decidueye-Hisui": {
-    "Lvl 100 Sheet Frontier Symes - PKMN Tower Gauntlet 3 Tester": {
+    "Lvl 100 Sheet Frontier Symes": {
       "nature": "Adamant",
       "ability": "Quill Rush",
       "level": 100,
@@ -63557,7 +63557,7 @@ backup_data = {
         "sd": 0
       }
     },
-    "Lvl 100 Black Belt Shea - Kindle Road": {
+    "Lvl 100 Black Belt Shea #4 ": {
       "nature": "Jolly",
       "ability": "Quill Rush",
       "level": 100,
@@ -63588,7 +63588,7 @@ backup_data = {
     }
   },
   "Milotic-Sevii": {
-    "Lvl -1 Sheet Frontier Amara - Treasure Bea. Swimmer": {
+    "Lvl -1 Sheet Frontier Amara": {
       "nature": "Modest",
       "ability": "Serene Grace",
       "level": -1,
@@ -63620,7 +63620,7 @@ backup_data = {
     }
   },
   "Golisopod": {
-    "Lvl 0 Sheet Frontier Abigail - Treasure Bea. Swimmer": {
+    "Lvl 0 Sheet Frontier Abigail": {
       "nature": "Adamant",
       "ability": "Emergency Exit",
       "level": 0,
@@ -63652,7 +63652,7 @@ backup_data = {
     }
   },
   "Alakazam-Mega": {
-    "Lvl -1 Picnicker Claire - Kindle Road": {
+    "Lvl -1 Picnicker Claire #2 ": {
       "nature": "Timid",
       "ability": "Trace",
       "level": -1,
@@ -63685,7 +63685,7 @@ backup_data = {
     }
   },
   "Ursaring-Sevii": {
-    "Lvl 100 Crush Girl Tanya - Kindle Road": {
+    "Lvl 100 Crush Girl Tanya #4 ": {
       "nature": "Adamant",
       "ability": "Guts",
       "level": 100,
@@ -63716,7 +63716,7 @@ backup_data = {
     }
   },
   "Butterfree-Mega": {
-    "Lvl 0 Camper Bryce - Kindle Road": {
+    "Lvl 0 Camper Bryce #2 ": {
       "nature": "Timid",
       "ability": "Compound Eyes",
       "level": 0,
@@ -63749,7 +63749,7 @@ backup_data = {
     }
   },
   "Metagross-Mega": {
-    "Lvl -1 Crush Kin Mik & Kia - Kindle Road": {
+    "Lvl -1 Crush Kin Mik & Kia": {
       "nature": "Jolly",
       "ability": "Tough Claws",
       "level": -1,
@@ -63782,7 +63782,7 @@ backup_data = {
     }
   },
   "Slowbro-Mega": {
-    "Lvl 0 Fisherman Tommy - Kindle Road": {
+    "Lvl 0 Fisherman Tommy #2 ": {
       "nature": "Bold",
       "ability": "Shell Armor",
       "level": 0,
@@ -63813,7 +63813,7 @@ backup_data = {
         "sd": 4
       }
     },
-    "Lvl 100 Tuber Alexis - Bond Bridge": {
+    "Lvl 100 Tuber Alexis #2 ": {
       "nature": "Bold",
       "ability": "Shell Armor",
       "level": 100,
@@ -63845,7 +63845,7 @@ backup_data = {
     }
   },
   "Dudunsparce": {
-    "Lvl 100 Crush Girl Jocelyn - Mt. Ember": {
+    "Lvl 100 Crush Girl Jocelyn #2 ": {
       "nature": "Adamant",
       "ability": "Serene Grace",
       "level": 100,
@@ -63876,7 +63876,7 @@ backup_data = {
     }
   },
   "Darkrai": {
-    "Lvl 100 Channeler Rachel - Cape Brink": {
+    "Lvl 100 Channeler Rachel #2 ": {
       "nature": "Timid",
       "ability": "Bad Dreams",
       "level": 100,
@@ -63907,7 +63907,7 @@ backup_data = {
     }
   },
   "Zoroark-Hisui": {
-    "Lvl 100 Channeler Rachel - Cape Brink": {
+    "Lvl 100 Channeler Rachel #2 ": {
       "nature": "Naive",
       "ability": "Illusion",
       "level": 100,
@@ -63938,7 +63938,7 @@ backup_data = {
     }
   },
   "Avalugg-Hisui": {
-    "Lvl -2 Goon 3 - Three Island": {
+    "Lvl -2 Goon 3": {
       "nature": "Adamant",
       "ability": "Technician",
       "level": -2,
@@ -63970,7 +63970,7 @@ backup_data = {
     }
   },
   "Centiskorch-Sevii-Mega": {
-    "Lvl 100 Boss - Three Island": {
+    "Lvl 100 Boss": {
       "nature": "Jolly",
       "ability": "Sand Force",
       "level": 100,
@@ -64002,7 +64002,7 @@ backup_data = {
     }
   },
   "Carracosta": {
-    "Lvl 100 Tuber Alexis - Bond Bridge": {
+    "Lvl 100 Tuber Alexis #2 ": {
       "nature": "Jolly",
       "ability": "Sturdy",
       "level": 100,
@@ -64033,7 +64033,7 @@ backup_data = {
     }
   },
   "Noivern": {
-    "Lvl 100 Sheet Frontier Tisha - Bond Bridge Swimmer": {
+    "Lvl 100 Sheet Frontier Tisha": {
       "nature": "Timid",
       "ability": "Infiltrator",
       "level": 100,
@@ -64064,7 +64064,7 @@ backup_data = {
     }
   },
   "Palossand": {
-    "Lvl 100 Tuber Amira - Bond Bridge": {
+    "Lvl 100 Tuber Amira #3 ": {
       "nature": "Bold",
       "ability": "Water Compaction",
       "level": 100,
@@ -64095,7 +64095,7 @@ backup_data = {
     }
   },
   "Mantine-Sevii": {
-    "Lvl 100 Tuber Amira - Bond Bridge": {
+    "Lvl 100 Tuber Amira #3 ": {
       "nature": "Timid",
       "ability": "Hydration",
       "level": 100,
@@ -64124,7 +64124,7 @@ backup_data = {
         "sd": 4
       }
     },
-    "Lvl 100 Sheet Frontier Sharon - Berry Forest Gauntlet 2 Ace Trainer": {
+    "Lvl 100 Sheet Frontier Sharon": {
       "nature": "Timid",
       "ability": "Storm Drain",
       "level": 100,
@@ -64155,7 +64155,7 @@ backup_data = {
     }
   },
   "Sableye-Mega": {
-    "Lvl 100 Aroma Lady Nikki - Bond Bridge": {
+    "Lvl 100 Aroma Lady Nikki #2 ": {
       "nature": "Calm",
       "ability": "Magic Bounce",
       "level": 100,
@@ -64187,7 +64187,7 @@ backup_data = {
     }
   },
   "Meloetta-Pirouette": {
-    "Lvl 100 Sheet Frontier Owen - Berry Forest Gatekeeper": {
+    "Lvl 100 Sheet Frontier Owen": {
       "nature": "Jolly",
       "ability": "Serene Grace",
       "level": 100,
@@ -64218,7 +64218,7 @@ backup_data = {
     }
   },
   "Giratina-Origin": {
-    "Lvl 100 Sheet Frontier Owen - Berry Forest Gatekeeper": {
+    "Lvl 100 Sheet Frontier Owen": {
       "nature": "Quiet",
       "ability": "Levitate",
       "level": 100,
@@ -64249,7 +64249,7 @@ backup_data = {
     }
   },
   "Enamorus-Therian": {
-    "Lvl 100 Sheet Frontier Owen - Berry Forest Gatekeeper": {
+    "Lvl 100 Sheet Frontier Owen": {
       "nature": "Modest",
       "ability": "Overcoat",
       "level": 100,
