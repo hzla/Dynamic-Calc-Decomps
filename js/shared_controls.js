@@ -2518,6 +2518,10 @@ $(".set-selector").change(function () {
 	var selectedSet = setdex && setdex[pokemonName] ? setdex[pokemonName][setName] : null
 	var isTemporaryOpponentSet = $(this).hasClass('opposing') && selectedSet && selectedSet.isTemporaryOpponentSet
 
+	if ($(this).hasClass('opposing') && typeof refreshChallengeModeLevelBadge === "function") {
+		refreshChallengeModeLevelBadge(selectedSet)
+	}
+
 	if ($(this).hasClass('opposing') && !isTemporaryOpponentSet && typeof removeDdexTemporaryOpponentSet === "function") {
 		removeDdexTemporaryOpponentSet()
 	}

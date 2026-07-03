@@ -581,6 +581,11 @@ function toggleChallengeMode() {
         settings.challengeMode = nextValue
     }
     $('#toggle-challenge-mode input').prop('checked', nextValue)
+    if (nextValue && typeof setupChallengeModeLevelBadge === "function") {
+        setupChallengeModeLevelBadge()
+    } else if (typeof refreshChallengeModeLevelBadge === "function") {
+        refreshChallengeModeLevelBadge(null)
+    }
     if (typeof performCalculations === "function") {
         performCalculations()
     }

@@ -64,6 +64,16 @@ const AETHER_WHITE_2_TITLE = "Aether White 2";
 const WISHY_WASHY_WHITE_2_TITLE = "Wishy Washy White 2";
 const POKEMON_COLORS_NORMAL_TITLE = "Pokemon Colors Normal";
 const POKEMON_COLORS_CLASSIC_TITLE = "Pokemon Colors Classic";
+const CHALLENGE_MODE_LEVEL_POPUP = "There is a bug in BW2 Challenge mode where the stats of a pokemon do not match it's displayed level. The calc will adjust the level to show it's true stats. However, the damage formula in this game uses Pokemon level as one of the inputs and this formula uses the incorrect displayed level. So the true power level of a pokemon is somewhere between the bugged displayed level, and the non challenge mode level. The challenge mode version of this calc takes into account this bug and adjusts the calculations accordingly.";
+const CHALLENGE_MODE_LEVEL_DIFF_KEYS = [
+    "challengeLevelAdjustment",
+    "challengeLevelDelta",
+    "challengeModeLevelAdjustment",
+    "challengeModeLevelDelta",
+    "levelAdjustment",
+    "levelDelta",
+    "diff"
+];
 const BACKUP_TYPE_CHART_FINAL_TYPES = [
     "Normal",
     "Fire",
@@ -88,6 +98,60 @@ const BACKUP_TYPE_CHART_FINAL_TYPES = [
 
 function getRuntimeTitle(fallback = BLANK_DEV_TITLE) {
     return typeof TITLE === "string" && TITLE ? TITLE : fallback;
+}
+
+function getChallengeModeLevelDiff(setData) {
+    if (!setData || setData["noCh"] === true || setData["noCh"] === "true") {
+        return 0;
+    }
+
+    for (var i = 0; i < CHALLENGE_MODE_LEVEL_DIFF_KEYS.length; i++) {
+        var diff = Number(setData[CHALLENGE_MODE_LEVEL_DIFF_KEYS[i]]);
+        if (Number.isFinite(diff)) {
+            return diff;
+        }
+    }
+
+    return 0;
+}
+
+function formatChallengeModeLevelDiff(diff) {
+    var numericDiff = Number(diff);
+    if (!Number.isFinite(numericDiff)) {
+        numericDiff = 0;
+    }
+
+    var diffText = String(numericDiff);
+    if (numericDiff >= 0) {
+        diffText = "+" + diffText;
+    }
+
+    return "(" + diffText + ")";
+}
+
+function refreshChallengeModeLevelBadge(setData) {
+    var badge = $('#redux-lvl');
+    if (!badge.length) {
+        return;
+    }
+
+    if (!(settings && settings.challengeMode)) {
+        badge.hide();
+        return;
+    }
+
+    badge.text(formatChallengeModeLevelDiff(getChallengeModeLevelDiff(setData)));
+    badge.css('display', 'inline-block');
+}
+
+function setupChallengeModeLevelBadge() {
+    $('#redux-lvl')
+        .off('click.challengeModeLevel')
+        .on('click.challengeModeLevel', function() {
+            alert(CHALLENGE_MODE_LEVEL_POPUP);
+        });
+
+    refreshChallengeModeLevelBadge(typeof get_current_in === "function" ? get_current_in(false) : null);
 }
 
 function setCascadeFieldEffectsEnabled(enabled) {
@@ -836,7 +900,11 @@ function applyBlankDevConfig(config) {
     : !!mergedConfig.platinumReduxTypeChart;
 
   $('#ms-link').toggle(!!settings.hasMastersheet);
-  $('#redux-lvl').hide();
+  if (settings.challengeMode) {
+    setupChallengeModeLevelBadge();
+  } else {
+    $('#redux-lvl').hide();
+  }
   $('#sync-lua, #desmume-icon').hide();
   $('label[for="fog"]').hide();
   $('label[for="hail"]').hide();
@@ -1186,10 +1254,7 @@ function setGameSettings(title) {
     showDex = true;
     showAI = true;
     if (settings.challengeMode) {
-      $('#redux-lvl').css('display', 'inline-block');
-      $('#redux-lvl').click(function() {
-        alert("There is a bug in BW2 Challenge mode where the stats of a pokemon do not match it's displayed level. The calc will adjust the level to show it's true stats. However, the damage formula in this game uses Pokemon level as one of the inputs and this formula uses the incorrect displayed level. So the true power level of a pokemon is somewhere between the bugged displayed level, and the non challenge mode level. The challenge mode version of this calc takes into account this bug and adjusts the calculations accordingly.")
-      })
+      setupChallengeModeLevelBadge();
     }
     $('label[for="snow"]').hide()
   } else if (isWhite2BaseRomTitle(title)) {
@@ -1326,10 +1391,7 @@ function setGameSettings(title) {
     save_expansion = false,
     showDex = true
     if (settings.challengeMode) {
-      $('#redux-lvl').css('display', 'inline-block');
-      $('#redux-lvl').click(function() {
-        alert("There is a bug in BW2 Challenge mode where the stats of a pokemon do not match it's displayed level. The calc will adjust the level to show it's true stats. However, the damage formula in this game uses Pokemon level as one of the inputs and this formula uses the incorrect displayed level. So the true power level of a pokemon is somewhere between the bugged displayed level, and the non challenge mode level. The challenge mode version of this calc takes into account this bug and adjusts the calculations accordingly.")
-      })
+      setupChallengeModeLevelBadge();
     }
     $('label[for="snow"]').hide()
   } else if (title == "Vintage White Plus") {
