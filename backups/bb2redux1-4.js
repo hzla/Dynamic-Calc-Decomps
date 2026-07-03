@@ -1,5 +1,5 @@
 backup_data = {
-  "title": "bb2redex14",
+  "title": "vw2qol",
   "pok_replacements": {},
   "move_replacements": {
     "cometpunch": "poweruppunch",
@@ -7096,7 +7096,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Silver Powder",
+        "None",
         "None"
       ],
       "bs": {
@@ -7335,7 +7335,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -8375,7 +8375,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Sharp Beak",
+        "None",
         "None"
       ],
       "bs": {
@@ -8841,7 +8841,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Light Ball",
+        "None",
         "None"
       ],
       "bs": {
@@ -9115,7 +9115,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Quick Claw",
+        "None",
         "None"
       ],
       "bs": {
@@ -9275,7 +9275,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Quick Claw",
+        "None",
         "None"
       ],
       "bs": {
@@ -10306,9 +10306,9 @@ backup_data = {
         "Fairy"
       ],
       "items": [
-        "Leppa Berry",
-        "Moon Stone",
-        "Comet Shard"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -10484,9 +10484,9 @@ backup_data = {
         "Fairy"
       ],
       "items": [
-        "Leppa Berry",
-        "Moon Stone",
-        "Comet Shard"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 95,
@@ -10588,8 +10588,8 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Rawst Berry",
-        "Rawst Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -10737,8 +10737,8 @@ backup_data = {
         "Fairy"
       ],
       "items": [
-        "Rawst Berry",
-        "Rawst Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -11852,9 +11852,9 @@ backup_data = {
         "Grass"
       ],
       "items": [
-        "Tiny Mushroom",
-        "Big Mushroom",
-        "Balm Mushroom"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 35,
@@ -12013,9 +12013,9 @@ backup_data = {
         "Grass"
       ],
       "items": [
-        "Tiny Mushroom",
-        "Big Mushroom",
-        "Balm Mushroom"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -12322,7 +12322,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Shed Shell",
+        "None",
         "None"
       ],
       "bs": {
@@ -12473,7 +12473,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Soft Sand",
+        "None",
         "None"
       ],
       "bs": {
@@ -12624,7 +12624,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Soft Sand",
+        "None",
         "None"
       ],
       "bs": {
@@ -12779,7 +12779,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Quick Claw",
+        "None",
         "None"
       ],
       "bs": {
@@ -12934,7 +12934,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Quick Claw",
+        "None",
         "None"
       ],
       "bs": {
@@ -13426,7 +13426,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Payapa Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -13594,7 +13594,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Payapa Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -13763,7 +13763,7 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Rawst Berry",
+        "None",
         "None",
         "None"
       ],
@@ -13924,7 +13924,7 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Rawst Berry",
+        "None",
         "None",
         "None"
       ],
@@ -14137,7 +14137,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "King's Rock",
+        "None",
         "None"
       ],
       "bs": {
@@ -14262,17 +14262,14 @@ backup_data = {
       ],
       "evos": [
         "Poliwrath",
-        "Politoed",
         "Politoed"
       ],
       "evoMethods": [
         "Item Use",
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
         "Water Stone",
-        "King's Rock",
         "King's Rock"
       ]
     },
@@ -14285,7 +14282,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "King's Rock",
+        "None",
         "None"
       ],
       "bs": {
@@ -14399,7 +14396,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Twisted Spoon",
+        "None",
         "None"
       ],
       "bs": {
@@ -14478,7 +14475,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Twisted Spoon",
+        "None",
         "None"
       ],
       "bs": {
@@ -14621,7 +14618,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Twisted Spoon",
+        "None",
         "None"
       ],
       "bs": {
@@ -15313,7 +15310,7 @@ backup_data = {
           ],
           [
             12,
-            "Magical Leaf"
+            "Clear Smog"
           ],
           [
             14,
@@ -15337,7 +15334,7 @@ backup_data = {
           ],
           [
             30,
-            "Clear Smog"
+            "Knock Off"
           ],
           [
             34,
@@ -15459,7 +15456,7 @@ backup_data = {
           ],
           [
             12,
-            "Magical Leaf"
+            "Clear Smog"
           ],
           [
             14,
@@ -15487,7 +15484,7 @@ backup_data = {
           ],
           [
             33,
-            "Clear Smog"
+            "Knock Off"
           ],
           [
             36,
@@ -15665,7 +15662,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -15812,7 +15809,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -15956,7 +15953,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Everstone",
+        "None",
         "None"
       ],
       "bs": {
@@ -16106,7 +16103,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Everstone",
+        "None",
         "None"
       ],
       "bs": {
@@ -16276,7 +16273,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Everstone",
+        "None",
         "None"
       ],
       "bs": {
@@ -16441,7 +16438,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Shuca Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -16596,7 +16593,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Shuca Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -16749,7 +16746,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Lagging Tail",
+        "None",
         "None"
       ],
       "bs": {
@@ -16893,17 +16890,14 @@ backup_data = {
       ],
       "evos": [
         "Slowbro",
-        "Slowking",
         "Slowking"
       ],
       "evoMethods": [
         "Level Requirement",
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
         33,
-        "King's Rock",
         "King's Rock"
       ]
     },
@@ -16916,7 +16910,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "King's Rock",
+        "None",
         "None"
       ],
       "bs": {
@@ -17079,7 +17073,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -17228,7 +17222,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -17375,7 +17369,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Stick",
+        "None",
         "None"
       ],
       "bs": {
@@ -17529,7 +17523,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Sharp Beak",
+        "None",
         "None"
       ],
       "bs": {
@@ -17675,7 +17669,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Sharp Beak",
+        "None",
         "None"
       ],
       "bs": {
@@ -18111,7 +18105,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Black Sludge",
+        "None",
         "None"
       ],
       "bs": {
@@ -18264,9 +18258,9 @@ backup_data = {
         "Poison"
       ],
       "items": [
-        "Black Sludge",
         "None",
-        "Toxic Orb"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 105,
@@ -18431,8 +18425,8 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "Pearl",
-        "Big Pearl",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -18580,8 +18574,8 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "Pearl",
-        "Big Pearl",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -19333,15 +19327,12 @@ backup_data = {
         "Rock Head"
       ],
       "evos": [
-        "Steelix",
         "Steelix"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Metal Coat",
         "Metal Coat"
       ]
     },
@@ -20659,7 +20650,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Thick Club",
+        "None",
         "None"
       ],
       "bs": {
@@ -21138,7 +21129,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Lagging Tail",
+        "None",
         "None"
       ],
       "bs": {
@@ -21311,7 +21302,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Smoke Ball",
+        "None",
         "None"
       ],
       "bs": {
@@ -21456,7 +21447,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Smoke Ball",
+        "None",
         "None"
       ],
       "bs": {
@@ -21925,15 +21916,12 @@ backup_data = {
         "Reckless"
       ],
       "evos": [
-        "Rhyperior",
         "Rhyperior"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Protector",
         "Protector"
       ]
     },
@@ -21944,8 +21932,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Lucky Punch",
-        "Lucky Egg",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -22462,7 +22450,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -22599,7 +22587,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -22729,15 +22717,12 @@ backup_data = {
         "Damp"
       ],
       "evos": [
-        "Kingdra",
         "Kingdra"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Dragon Scale",
         "Dragon Scale"
       ]
     },
@@ -23045,8 +23030,8 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Stardust",
-        "Star Piece",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -23215,8 +23200,8 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Stardust",
-        "Star Piece",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -23624,15 +23609,12 @@ backup_data = {
         "Steadfast"
       ],
       "evos": [
-        "Scizor",
         "Scizor"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Metal Coat",
         "Metal Coat"
       ]
     },
@@ -23644,8 +23626,8 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Aspear Berry",
-        "Aspear Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -23955,15 +23937,12 @@ backup_data = {
         "Vital Spirit"
       ],
       "evos": [
-        "Electivire",
         "Electivire"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Electirizer",
         "Electirizer"
       ]
     },
@@ -24124,15 +24103,12 @@ backup_data = {
         "Vital Spirit"
       ],
       "evos": [
-        "Magmortar",
         "Magmortar"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Magmarizer",
         "Magmarizer"
       ]
     },
@@ -24781,8 +24757,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Quick Powder",
-        "Metal Powder",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -24835,15 +24811,7 @@ backup_data = {
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
-            "Synchronoise"
-          ],
-          [
-            1,
-            "Fake Tears"
+            "Sing"
           ],
           [
             1,
@@ -24851,19 +24819,27 @@ backup_data = {
           ],
           [
             1,
-            "Captivate"
+            "Fake Tears"
+          ],
+          [
+            1,
+            "Stored Power"
           ],
           [
             1,
             "Tickle"
           ],
           [
-            5,
+            3,
             "Sand Attack"
           ],
           [
+            5,
+            "Captivate"
+          ],
+          [
             7,
-            "Detect"
+            "Helping Hand"
           ],
           [
             10,
@@ -24871,15 +24847,15 @@ backup_data = {
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            16,
             "Bite"
           ],
           [
+            16,
+            "Swift"
+          ],
+          [
             19,
-            "Endure"
+            "Double Kick"
           ],
           [
             22,
@@ -24887,19 +24863,19 @@ backup_data = {
           ],
           [
             25,
-            "Swift"
+            "Mimic"
           ],
           [
             28,
-            "Take Down"
+            "Yawn"
           ],
           [
             31,
-            "Wish"
+            "Take Down"
           ],
           [
             34,
-            "Baton Pass"
+            "Synchronoise"
           ],
           [
             38,
@@ -24907,22 +24883,26 @@ backup_data = {
           ],
           [
             42,
-            "Heal Bell"
+            "Wish"
           ],
           [
             46,
-            "Stored Power"
+            "Double-Edge"
           ],
           [
             50,
-            "Hyper Voice"
+            "Heal Bell"
           ],
           [
             54,
-            "Trump Card"
+            "Baton Pass"
           ],
           [
             58,
+            "Trump Card"
+          ],
+          [
+            62,
             "Last Resort"
           ]
         ],
@@ -25005,19 +24985,15 @@ backup_data = {
         "learnset": [
           [
             1,
+            "Water Spout"
+          ],
+          [
+            1,
             "Growth"
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
-            "Synchronoise"
-          ],
-          [
-            1,
-            "Fake Tears"
+            "Sing"
           ],
           [
             1,
@@ -25025,19 +25001,27 @@ backup_data = {
           ],
           [
             1,
-            "Tickle"
+            "Extrasensory"
           ],
           [
             1,
-            "Captivate"
+            "Fake Tears"
+          ],
+          [
+            1,
+            "Stored Power"
+          ],
+          [
+            1,
+            "Tickle"
           ],
           [
             5,
-            "Sand Attack"
+            "Captivate"
           ],
           [
             7,
-            "Detect"
+            "Helping Hand"
           ],
           [
             10,
@@ -25045,15 +25029,15 @@ backup_data = {
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            16,
             "Bite"
           ],
           [
+            16,
+            "Swift"
+          ],
+          [
             19,
-            "Endure"
+            "Double Kick"
           ],
           [
             22,
@@ -25061,42 +25045,42 @@ backup_data = {
           ],
           [
             24,
-            "Water Pulse"
+            "Brine"
           ],
           [
             28,
             "Aurora Beam"
           ],
           [
-            31,
+            32,
+            "Bubble Beam"
+          ],
+          [
+            36,
             "Aqua Ring"
           ],
           [
-            34,
-            "Scald"
-          ],
-          [
-            38,
-            "Extrasensory"
-          ],
-          [
-            42,
-            "Acid Armor"
-          ],
-          [
-            46,
+            40,
             "Muddy Water"
           ],
           [
+            45,
+            "Acid Armor"
+          ],
+          [
             50,
+            "Synchronoise"
+          ],
+          [
+            55,
             "Wish"
           ],
           [
-            54,
+            60,
             "Hydro Pump"
           ],
           [
-            58,
+            65,
             "Last Resort"
           ]
         ],
@@ -25162,19 +25146,15 @@ backup_data = {
         "learnset": [
           [
             1,
+            "Zap Cannon"
+          ],
+          [
+            1,
             "Growth"
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
-            "Synchronoise"
-          ],
-          [
-            1,
-            "Fake Tears"
+            "Sing"
           ],
           [
             1,
@@ -25182,19 +25162,27 @@ backup_data = {
           ],
           [
             1,
-            "Tickle"
+            "Extrasensory"
           ],
           [
             1,
-            "Captivate"
+            "Fake Tears"
+          ],
+          [
+            1,
+            "Stored Power"
+          ],
+          [
+            1,
+            "Tickle"
           ],
           [
             5,
-            "Sand Attack"
+            "Captivate"
           ],
           [
             7,
-            "Detect"
+            "Helping Hand"
           ],
           [
             10,
@@ -25202,15 +25190,15 @@ backup_data = {
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            16,
             "Bite"
           ],
           [
+            16,
+            "Swift"
+          ],
+          [
             19,
-            "Endure"
+            "Double Kick"
           ],
           [
             22,
@@ -25222,38 +25210,38 @@ backup_data = {
           ],
           [
             28,
-            "Nuzzle"
-          ],
-          [
-            31,
             "Pin Missile"
           ],
           [
-            34,
+            32,
+            "Nuzzle"
+          ],
+          [
+            36,
             "Electro Ball"
           ],
           [
-            38,
-            "Agility"
-          ],
-          [
-            42,
-            "Extrasensory"
-          ],
-          [
-            46,
+            40,
             "Discharge"
           ],
           [
-            50,
-            "Hyper Voice"
+            45,
+            "Agility"
           ],
           [
-            54,
+            50,
+            "Synchronoise"
+          ],
+          [
+            55,
+            "Wish"
+          ],
+          [
+            60,
             "Thunder"
           ],
           [
-            58,
+            65,
             "Last Resort"
           ]
         ],
@@ -25320,19 +25308,15 @@ backup_data = {
         "learnset": [
           [
             1,
+            "Raging Fury"
+          ],
+          [
+            1,
             "Growth"
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
-            "Synchronoise"
-          ],
-          [
-            1,
-            "Fake Tears"
+            "Sing"
           ],
           [
             1,
@@ -25340,19 +25324,27 @@ backup_data = {
           ],
           [
             1,
-            "Tickle"
+            "Extrasensory"
           ],
           [
             1,
-            "Captivate"
+            "Fake Tears"
+          ],
+          [
+            1,
+            "Stored Power"
+          ],
+          [
+            1,
+            "Tickle"
           ],
           [
             5,
-            "Sand Attack"
+            "Captivate"
           ],
           [
             7,
-            "Detect"
+            "Helping Hand"
           ],
           [
             10,
@@ -25360,15 +25352,15 @@ backup_data = {
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            16,
             "Bite"
           ],
           [
+            16,
+            "Swift"
+          ],
+          [
             19,
-            "Endure"
+            "Double Kick"
           ],
           [
             22,
@@ -25380,18 +25372,14 @@ backup_data = {
           ],
           [
             28,
-            "Smog"
-          ],
-          [
-            31,
-            "Flame Wheel"
-          ],
-          [
-            34,
             "Scorching Sands"
           ],
           [
-            37,
+            32,
+            "Flame Wheel"
+          ],
+          [
+            36,
             "Lava Plume"
           ],
           [
@@ -25399,19 +25387,23 @@ backup_data = {
             "Blaze Kick"
           ],
           [
-            43,
+            45,
             "Play Rough"
           ],
           [
-            46,
-            "Raging Fury"
+            50,
+            "Synchronoise"
           ],
           [
-            49,
+            55,
+            "Wish"
+          ],
+          [
+            60,
             "Flare Blitz"
           ],
           [
-            52,
+            65,
             "Last Resort"
           ]
         ],
@@ -25613,15 +25605,12 @@ backup_data = {
         "Analytic"
       ],
       "evos": [
-        "Porygon2",
         "Porygon2"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Upgrade",
         "Upgrade"
       ]
     },
@@ -26845,7 +26834,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -26990,7 +26979,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -27144,7 +27133,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -27491,8 +27480,8 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Lum Berry",
-        "Lum Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -27739,11 +27728,7 @@ backup_data = {
           ],
           [
             17,
-            "Reflect"
-          ],
-          [
-            17,
-            "Light Screen"
+            "Ingrain"
           ],
           [
             20,
@@ -27881,11 +27866,7 @@ backup_data = {
           ],
           [
             17,
-            "Reflect"
-          ],
-          [
-            17,
-            "Light Screen"
+            "Ingrain"
           ],
           [
             20,
@@ -28033,11 +28014,7 @@ backup_data = {
           ],
           [
             17,
-            "Reflect"
-          ],
-          [
-            17,
-            "Light Screen"
+            "Ingrain"
           ],
           [
             20,
@@ -28198,7 +28175,7 @@ backup_data = {
           ],
           [
             22,
-            "Raging Fury"
+            "Flame Burst"
           ],
           [
             25,
@@ -28334,7 +28311,7 @@ backup_data = {
           ],
           [
             22,
-            "Raging Fury"
+            "Flame Burst"
           ],
           [
             25,
@@ -28482,7 +28459,7 @@ backup_data = {
           ],
           [
             22,
-            "Raging Fury"
+            "Flame Burst"
           ],
           [
             25,
@@ -29074,7 +29051,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Oran Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -29231,8 +29208,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Oran Berry",
-        "Sitrus Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -30353,7 +30330,7 @@ backup_data = {
           ],
           [
             1,
-            "Absorb"
+            "Dual Wingbeat"
           ],
           [
             1,
@@ -30486,7 +30463,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -30635,7 +30612,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -30896,9 +30873,9 @@ backup_data = {
         "Fairy"
       ],
       "items": [
-        "Leppa Berry",
-        "Moon Stone",
-        "Comet Shard"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -32791,7 +32768,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "King's Rock",
+        "None",
         "None"
       ],
       "bs": {
@@ -33823,7 +33800,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Wide Lens",
+        "None",
         "None"
       ],
       "bs": {
@@ -34300,19 +34277,15 @@ backup_data = {
         "learnset": [
           [
             1,
+            "Aura Sphere"
+          ],
+          [
+            1,
             "Growth"
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
-            "Synchronoise"
-          ],
-          [
-            1,
-            "Fake Tears"
+            "Sing"
           ],
           [
             1,
@@ -34320,19 +34293,27 @@ backup_data = {
           ],
           [
             1,
-            "Tickle"
+            "Power Swap"
           ],
           [
             1,
-            "Captivate"
+            "Fake Tears"
+          ],
+          [
+            1,
+            "Stored Power"
+          ],
+          [
+            1,
+            "Tickle"
           ],
           [
             5,
-            "Sand Attack"
+            "Captivate"
           ],
           [
             7,
-            "Detect"
+            "Helping Hand"
           ],
           [
             10,
@@ -34340,15 +34321,15 @@ backup_data = {
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            16,
             "Bite"
           ],
           [
+            16,
+            "Swift"
+          ],
+          [
             19,
-            "Endure"
+            "Double Kick"
           ],
           [
             22,
@@ -34360,38 +34341,38 @@ backup_data = {
           ],
           [
             28,
-            "Power Swap"
+            "Magical Leaf"
           ],
           [
-            31,
-            "Morning Sun"
+            32,
+            "Psychic Fangs"
           ],
           [
-            34,
+            36,
+            "Draining Kiss"
+          ],
+          [
+            40,
             "Extrasensory"
           ],
           [
-            38,
-            "Yawn"
-          ],
-          [
-            42,
-            "Future Sight"
-          ],
-          [
-            46,
-            "Stored Power"
+            45,
+            "Morning Sun"
           ],
           [
             50,
-            "Aura Sphere"
+            "Synchronoise"
           ],
           [
-            54,
-            "Psychic"
+            55,
+            "Wish"
           ],
           [
-            58,
+            60,
+            "Future Sight"
+          ],
+          [
+            65,
             "Last Resort"
           ]
         ],
@@ -34461,19 +34442,15 @@ backup_data = {
         "learnset": [
           [
             1,
+            "Night Daze"
+          ],
+          [
+            1,
             "Growth"
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
-            "Synchronoise"
-          ],
-          [
-            1,
-            "Fake Tears"
+            "Sing"
           ],
           [
             1,
@@ -34481,19 +34458,27 @@ backup_data = {
           ],
           [
             1,
-            "Tickle"
+            "Extrasensory"
           ],
           [
             1,
-            "Captivate"
+            "Fake Tears"
+          ],
+          [
+            1,
+            "Stored Power"
+          ],
+          [
+            1,
+            "Tickle"
           ],
           [
             5,
-            "Sand Attack"
+            "Captivate"
           ],
           [
             7,
-            "Detect"
+            "Helping Hand"
           ],
           [
             10,
@@ -34501,15 +34486,15 @@ backup_data = {
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            16,
             "Bite"
           ],
           [
+            16,
+            "Swift"
+          ],
+          [
             19,
-            "Endure"
+            "Double Kick"
           ],
           [
             22,
@@ -34517,42 +34502,42 @@ backup_data = {
           ],
           [
             24,
-            "Assurance"
-          ],
-          [
-            28,
             "Snarl"
           ],
           [
-            31,
-            "Moonlight"
-          ],
-          [
-            34,
+            28,
             "Assurance"
           ],
           [
-            38,
-            "Play Rough"
+            32,
+            "Confuse Ray"
           ],
           [
-            42,
-            "Guard Swap"
+            36,
+            "Payback"
           ],
           [
-            46,
-            "Sucker Punch"
-          ],
-          [
-            50,
-            "Wish"
-          ],
-          [
-            54,
+            40,
             "Foul Play"
           ],
           [
-            58,
+            45,
+            "Moonlight"
+          ],
+          [
+            50,
+            "Synchronoise"
+          ],
+          [
+            55,
+            "Wish"
+          ],
+          [
+            60,
+            "Sucker Punch"
+          ],
+          [
+            65,
             "Last Resort"
           ]
         ],
@@ -34748,7 +34733,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "King's Rock",
+        "None",
         "None"
       ],
       "bs": {
@@ -35179,7 +35164,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Persim Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -35952,15 +35937,12 @@ backup_data = {
         "Immunity"
       ],
       "evos": [
-        "Gliscor",
         "Gliscor"
       ],
       "evoMethods": [
-        "Level with Item + Night",
         "Item Use"
       ],
       "evoParams": [
-        "Razor Fang",
         "Razor Fang"
       ]
     },
@@ -35973,7 +35955,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -36477,7 +36459,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -36790,8 +36772,8 @@ backup_data = {
         "Rock"
       ],
       "items": [
-        "Berry Juice",
-        "Berry Juice",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -37095,8 +37077,8 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "Grip Claw",
-        "Quick Claw",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -37242,15 +37224,12 @@ backup_data = {
         "Pickpocket"
       ],
       "evos": [
-        "Weavile",
         "Weavile"
       ],
       "evoMethods": [
-        "Level with Item + Night",
         "Item Use"
       ],
       "evoParams": [
-        "Razor Claw",
         "Razor Claw"
       ]
     },
@@ -38234,7 +38213,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Hard Stone",
+        "None",
         "None"
       ],
       "bs": {
@@ -39426,7 +39405,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -39574,7 +39553,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Passho Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -39721,7 +39700,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Passho Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -40024,15 +40003,12 @@ backup_data = {
         "Analytic"
       ],
       "evos": [
-        "Porygon-Z",
         "Porygon-Z"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Dubious Disc",
         "Dubious Disc"
       ]
     },
@@ -40654,8 +40630,8 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Aspear Berry",
-        "Aspear Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -41094,8 +41070,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Moomoo Milk",
-        "Moomoo Milk",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -41258,8 +41234,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Lucky Egg",
-        "Lucky Egg",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -41436,8 +41412,8 @@ backup_data = {
         "Electric"
       ],
       "items": [
-        "Micle Berry",
-        "Micle Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -41568,8 +41544,8 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Custap Berry",
-        "Custap Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -41704,8 +41680,8 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Rowap Berry",
-        "Rowap Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -42422,8 +42398,8 @@ backup_data = {
         "Flying"
       ],
       "items": [
-        "Sacred Ash",
-        "Sacred Ash",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -42558,8 +42534,8 @@ backup_data = {
         "Grass"
       ],
       "items": [
-        "Jaboca Berry",
-        "Jaboca Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -43206,7 +43182,7 @@ backup_data = {
           ],
           [
             25,
-            "Detect"
+            "U-turn"
           ],
           [
             28,
@@ -43354,7 +43330,7 @@ backup_data = {
           ],
           [
             25,
-            "Detect"
+            "U-turn"
           ],
           [
             28,
@@ -43512,7 +43488,7 @@ backup_data = {
           ],
           [
             25,
-            "Detect"
+            "U-turn"
           ],
           [
             28,
@@ -44087,7 +44063,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Pecha Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -44242,7 +44218,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Pecha Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -44392,7 +44368,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Oran Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -44534,8 +44510,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Oran Berry",
-        "Sitrus Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -44798,7 +44774,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Shed Shell",
+        "None",
         "None"
       ],
       "bs": {
@@ -44966,7 +44942,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Shed Shell",
+        "None",
         "None"
       ],
       "bs": {
@@ -45940,7 +45916,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Charti Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -46082,7 +46058,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Charti Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -47139,7 +47115,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Silver Powder",
+        "None",
         "None"
       ],
       "bs": {
@@ -47301,7 +47277,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Kebia Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -47328,11 +47304,11 @@ backup_data = {
           ],
           [
             4,
-            "Helping Hand"
+            "Leech Seed"
           ],
           [
-            7,
-            "Leech Seed"
+            8,
+            "Grass Whistle"
           ],
           [
             10,
@@ -47348,19 +47324,15 @@ backup_data = {
           ],
           [
             16,
-            "Fake Tears"
+            "Helping Hand"
           ],
           [
-            18,
-            "Synthesis"
-          ],
-          [
-            20,
-            "Wake-Up Slap"
+            19,
+            "Counter"
           ],
           [
             22,
-            "Growth"
+            "Wake-Up Slap"
           ],
           [
             25,
@@ -47368,47 +47340,47 @@ backup_data = {
           ],
           [
             25,
-            "Stun Spore"
+            "Sleep Powder"
           ],
           [
             25,
-            "Spore"
+            "Stun Spore"
           ],
           [
             28,
-            "Energy Ball"
-          ],
-          [
-            31,
             "Counter"
           ],
           [
+            31,
+            "Fake Tears"
+          ],
+          [
             34,
-            "Worry Seed"
+            "Take Down"
           ],
           [
-            37,
-            "Solar Beam"
+            38,
+            "Safeguard"
           ],
           [
-            40,
-            "Force Palm"
-          ],
-          [
-            43,
-            "Drain Punch"
+            42,
+            "Giga Drain"
           ],
           [
             46,
-            "Mach Punch"
+            "Zen Headbutt"
           ],
           [
-            49,
-            "Natural Gift"
+            50,
+            "Lunge"
           ],
           [
-            52,
-            "Focus Punch"
+            54,
+            "Spore"
+          ],
+          [
+            58,
+            "Leaf Storm"
           ]
         ],
         "tms": [
@@ -47444,7 +47416,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        23
+        21
       ]
     },
     "Breloom": {
@@ -47456,7 +47428,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Kebia Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -47471,7 +47443,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Absorb"
+            "Dynamic Punch"
           ],
           [
             1,
@@ -47483,11 +47455,11 @@ backup_data = {
           ],
           [
             4,
-            "Helping Hand"
+            "Leech Seed"
           ],
           [
-            7,
-            "Leech Seed"
+            8,
+            "Grass Whistle"
           ],
           [
             10,
@@ -47503,31 +47475,31 @@ backup_data = {
           ],
           [
             16,
-            "Fake Tears"
+            "Helping Hand"
           ],
           [
-            18,
-            "Synthesis"
+            19,
+            "Counter"
           ],
           [
-            20,
+            21,
             "Wake-Up Slap"
           ],
           [
-            22,
-            "Growth"
+            24,
+            "Body Slam"
           ],
           [
-            26,
+            27,
             "Poison Powder"
           ],
           [
-            26,
-            "Stun Spore"
+            27,
+            "Sleep Powder"
           ],
           [
-            26,
-            "Spore"
+            27,
+            "Stun Spore"
           ],
           [
             30,
@@ -47535,35 +47507,39 @@ backup_data = {
           ],
           [
             34,
-            "Counter"
+            "Fake Tears"
           ],
           [
             38,
-            "Energy Ball"
-          ],
-          [
-            42,
             "Bullet Seed"
           ],
           [
-            46,
-            "Force Palm"
-          ],
-          [
-            50,
-            "Drain Punch"
-          ],
-          [
-            54,
+            42,
             "Mach Punch"
           ],
           [
+            46,
+            "Zen Headbutt"
+          ],
+          [
+            50,
+            "Force Palm"
+          ],
+          [
+            54,
+            "Spore"
+          ],
+          [
             58,
-            "Lunge"
+            "Focus Punch"
           ],
           [
             62,
-            "Focus Punch"
+            "Lunge"
+          ],
+          [
+            66,
+            "Close Combat"
           ]
         ],
         "tms": [
@@ -48575,7 +48551,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Chesto Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -48705,7 +48681,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Chesto Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -48850,7 +48826,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Chesto Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -49163,7 +49139,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "King's Rock",
+        "None",
         "None"
       ],
       "bs": {
@@ -49412,7 +49388,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Hard Stone",
+        "None",
         "None"
       ],
       "bs": {
@@ -49554,7 +49530,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -49723,7 +49699,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -50000,7 +49976,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Occa Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -50169,7 +50145,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Hard Stone",
+        "None",
         "None"
       ],
       "bs": {
@@ -50314,7 +50290,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Hard Stone",
+        "None",
         "None"
       ],
       "bs": {
@@ -50464,7 +50440,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Hard Stone",
+        "None",
         "None"
       ],
       "bs": {
@@ -50703,7 +50679,7 @@ backup_data = {
           ],
           [
             25,
-            "Drain Punch"
+            "Reversal"
           ],
           [
             28,
@@ -50731,7 +50707,7 @@ backup_data = {
           ],
           [
             48,
-            "Reversal"
+            "Drain Punch"
           ],
           [
             52,
@@ -50809,9 +50785,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 60,
-        "at": 80,
+        "at": 65,
         "df": 80,
-        "sa": 60,
+        "sa": 75,
         "sd": 80,
         "sp": 90
       },
@@ -50863,7 +50839,7 @@ backup_data = {
           ],
           [
             25,
-            "Drain Punch"
+            "Reversal"
           ],
           [
             28,
@@ -50891,7 +50867,7 @@ backup_data = {
           ],
           [
             50,
-            "Reversal"
+            "Drain Punch"
           ],
           [
             54,
@@ -51823,8 +51799,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
-        "Absorb Bulb"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -51967,7 +51943,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Big Pearl",
+        "None",
         "None"
       ],
       "bs": {
@@ -52121,7 +52097,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Big Pearl",
+        "None",
         "None"
       ],
       "bs": {
@@ -52272,7 +52248,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Tooth",
+        "None",
         "None"
       ],
       "bs": {
@@ -52291,11 +52267,11 @@ backup_data = {
           ],
           [
             1,
-            "Focus Energy"
+            "Endure"
           ],
           [
             1,
-            "Leer"
+            "Focus Energy"
           ],
           [
             4,
@@ -52409,7 +52385,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        30
+        26
       ]
     },
     "Sharpedo": {
@@ -52421,7 +52397,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Tooth",
+        "None",
         "None"
       ],
       "bs": {
@@ -52436,11 +52412,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Wave Crash"
+            "Bite"
           ],
           [
             1,
-            "Bite"
+            "Endure"
           ],
           [
             1,
@@ -52878,8 +52854,8 @@ backup_data = {
         "Ground"
       ],
       "items": [
-        "Rawst Berry",
-        "Rawst Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -53040,8 +53016,8 @@ backup_data = {
         "Ground"
       ],
       "items": [
-        "Rawst Berry",
-        "Rawst Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -53350,7 +53326,7 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Persim Berry",
+        "None",
         "None",
         "None"
       ],
@@ -53490,7 +53466,7 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Persim Berry",
+        "None",
         "None",
         "None"
       ],
@@ -53638,7 +53614,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Chesto Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -53780,7 +53756,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Soft Sand",
+        "None",
         "None"
       ],
       "bs": {
@@ -54257,7 +54233,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Sticky Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -54416,7 +54392,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Sticky Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -54887,7 +54863,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Quick Claw",
+        "None",
         "None"
       ],
       "bs": {
@@ -55198,8 +55174,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Moon Stone",
-        "Comet Shard"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -55348,8 +55324,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Sun Stone",
-        "Comet Shard"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 90,
@@ -56436,7 +56412,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Big Root",
+        "None",
         "None"
       ],
       "bs": {
@@ -56575,7 +56551,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Big Root",
+        "None",
         "None"
       ],
       "bs": {
@@ -57062,17 +57038,14 @@ backup_data = {
       ],
       "evos": [
         "Milotic",
-        "Milotic",
         "Milotic"
       ],
       "evoMethods": [
-        "Max Beauty",
-        "Trade with Held Item",
+        "None",
         "Item Use"
       ],
       "evoParams": [
         170,
-        "Prism Scale",
         "Prism Scale"
       ]
     },
@@ -57230,8 +57203,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Mystic Water",
-        "Mystic Water",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -57385,7 +57358,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Persim Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -57543,7 +57516,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Spell Tag",
+        "None",
         "None"
       ],
       "bs": {
@@ -57680,7 +57653,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Spell Tag",
+        "None",
         "None"
       ],
       "bs": {
@@ -57822,7 +57795,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Kasib Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -57972,7 +57945,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Kasib Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -58120,15 +58093,12 @@ backup_data = {
         "Frisk"
       ],
       "evos": [
-        "Dusknoir",
         "Dusknoir"
       ],
       "evoMethods": [
-        "Trade with Held Item",
         "Item Use"
       ],
       "evoParams": [
-        "Reaper Cloth",
         "Reaper Cloth"
       ]
     },
@@ -58287,7 +58257,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Colbur Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -58678,7 +58648,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Babiri Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -58811,7 +58781,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Babiri Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -59088,7 +59058,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        21
+        16
       ]
     },
     "Sealeo": {
@@ -59414,7 +59384,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Big Pearl",
+        "None",
         "None"
       ],
       "bs": {
@@ -59486,19 +59456,13 @@ backup_data = {
       ],
       "evos": [
         "Huntail",
-        "Gorebyss",
-        "Huntail",
         "Gorebyss"
       ],
       "evoMethods": [
-        "Trade with Held Item",
-        "Trade with Held Item",
         "Item Use",
         "Item Use"
       ],
       "evoParams": [
-        "Deep Sea Tooth",
-        "Deep Sea Scale",
         "Deep Sea Tooth",
         "Deep Sea Scale"
       ]
@@ -59511,7 +59475,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Tooth",
+        "None",
         "None"
       ],
       "bs": {
@@ -59644,7 +59608,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -59779,7 +59743,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -59924,8 +59888,8 @@ backup_data = {
         "Fairy"
       ],
       "items": [
-        "Heart Scale",
-        "Heart Scale",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -60057,7 +60021,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Fang",
+        "None",
         "None"
       ],
       "bs": {
@@ -60210,7 +60174,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Fang",
+        "None",
         "None"
       ],
       "bs": {
@@ -60368,7 +60332,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Fang",
+        "None",
         "None"
       ],
       "bs": {
@@ -60534,7 +60498,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -60594,7 +60558,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -60748,7 +60712,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -61295,9 +61259,9 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Soul Dew",
-        "Soul Dew",
-        "Soul Dew"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -61457,9 +61421,9 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Soul Dew",
-        "Soul Dew",
-        "Soul Dew"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 80,
@@ -62000,8 +61964,8 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Star Piece",
-        "Star Piece",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -62586,11 +62550,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Sandstorm"
           ],
           [
             1,
-            "Withdraw"
+            "Sunny Day"
           ],
           [
             5,
@@ -62801,7 +62765,7 @@ backup_data = {
           ],
           [
             37,
-            "Work Up"
+            "Cross Chop"
           ],
           [
             40,
@@ -62951,7 +62915,7 @@ backup_data = {
           ],
           [
             37,
-            "Focus Punch"
+            "Cross Chop"
           ],
           [
             40,
@@ -63062,7 +63026,7 @@ backup_data = {
           ],
           [
             1,
-            "Scratch"
+            "Focus Punch"
           ],
           [
             5,
@@ -63118,7 +63082,7 @@ backup_data = {
           ],
           [
             37,
-            "Focus Punch"
+            "Cross Chop"
           ],
           [
             40,
@@ -63687,7 +63651,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Yache Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -63750,14 +63714,14 @@ backup_data = {
           ],
           [
             26,
-            "Uproar"
+            "Retaliate"
           ],
           [
             29,
             "Steel Wing"
           ],
           [
-            1,
+            32,
             "Take Down"
           ],
           [
@@ -63817,7 +63781,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Yache Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -63880,7 +63844,7 @@ backup_data = {
           ],
           [
             26,
-            "Agility"
+            "Retaliate"
           ],
           [
             29,
@@ -63888,11 +63852,11 @@ backup_data = {
           ],
           [
             32,
-            "Detect"
+            "Take Down"
           ],
           [
             36,
-            "Take Down"
+            "Agility"
           ],
           [
             40,
@@ -63960,7 +63924,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Yache Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -64027,7 +63991,7 @@ backup_data = {
           ],
           [
             26,
-            "Uproar"
+            "Retaliate"
           ],
           [
             29,
@@ -64040,6 +64004,10 @@ backup_data = {
           [
             34,
             "Final Gambit"
+          ],
+          [
+            34,
+            "Sky Uppercut"
           ],
           [
             38,
@@ -64257,8 +64225,8 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Oran Berry",
-        "Sitrus Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -64425,7 +64393,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metronome",
+        "None",
         "None"
       ],
       "bs": {
@@ -64488,7 +64456,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metronome",
+        "None",
         "None"
       ],
       "bs": {
@@ -65106,7 +65074,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -65205,8 +65173,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
-        "Absorb Bulb"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 60,
@@ -65965,7 +65933,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Silver Powder",
+        "None",
         "None"
       ],
       "bs": {
@@ -66100,7 +66068,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Silver Powder",
+        "None",
         "None"
       ],
       "bs": {
@@ -66234,7 +66202,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Honey",
+        "None",
         "None"
       ],
       "bs": {
@@ -66296,7 +66264,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -66876,7 +66844,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Miracle Seed",
+        "None",
         "None"
       ],
       "bs": {
@@ -66891,83 +66859,91 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Defense Curl"
+            "Absorb"
           ],
           [
             1,
             "Tackle"
           ],
           [
-            1,
+            3,
             "Tickle"
           ],
           [
-            4,
+            5,
+            "Defense Curl"
+          ],
+          [
+            8,
             "Leech Seed"
           ],
           [
-            7,
-            "Razor Leaf"
-          ],
-          [
             10,
-            "Helping Hand"
+            "Stun Spore"
           ],
           [
-            13,
-            "Worry Seed"
-          ],
-          [
-            16,
+            12,
             "Magical Leaf"
           ],
           [
-            19,
-            "Morning Sun"
+            14,
+            "Nature Power"
           ],
           [
-            22,
-            "Sunny Day"
-          ],
-          [
-            25,
-            "Growth"
-          ],
-          [
-            28,
-            "Rollout"
-          ],
-          [
-            31,
-            "Take Down"
-          ],
-          [
-            34,
-            "Heal Pulse"
-          ],
-          [
-            38,
-            "Energy Ball"
-          ],
-          [
-            42,
-            "Grass Whistle"
-          ],
-          [
-            46,
+            16,
             "Draining Kiss"
           ],
           [
-            50,
+            18,
+            "Sunny Day"
+          ],
+          [
+            21,
             "Aromatherapy"
           ],
           [
-            54,
-            "Solar Beam"
+            24,
+            "Mega Drain"
           ],
           [
-            58,
+            27,
+            "Take Down"
+          ],
+          [
+            30,
+            "Leaf Tornado"
+          ],
+          [
+            34,
+            "Magic Coat"
+          ],
+          [
+            38,
+            "Grass Whistle"
+          ],
+          [
+            42,
+            "Heal Pulse"
+          ],
+          [
+            46,
+            "Rollout"
+          ],
+          [
+            50,
+            "Play Rough"
+          ],
+          [
+            55,
             "Healing Wish"
+          ],
+          [
+            60,
+            "Double-Edge"
+          ],
+          [
+            65,
+            "Leaf Storm"
           ]
         ],
         "tms": [
@@ -67002,7 +66978,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        25
+        18
       ]
     },
     "Cherrim": {
@@ -67013,7 +66989,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Miracle Seed",
+        "None",
         "None"
       ],
       "bs": {
@@ -67028,87 +67004,99 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Defense Curl"
+            "Absorb"
           ],
           [
             1,
             "Tackle"
           ],
           [
-            1,
+            3,
             "Tickle"
           ],
           [
-            4,
+            5,
+            "Defense Curl"
+          ],
+          [
+            8,
             "Leech Seed"
           ],
           [
-            7,
-            "Razor Leaf"
-          ],
-          [
             10,
-            "Helping Hand"
+            "Stun Spore"
           ],
           [
-            13,
-            "Worry Seed"
-          ],
-          [
-            16,
+            12,
             "Magical Leaf"
           ],
           [
-            19,
-            "Morning Sun"
+            14,
+            "Nature Power"
           ],
           [
-            22,
-            "Sunny Day"
-          ],
-          [
-            25,
-            "Growth"
-          ],
-          [
-            25,
-            "Petal Dance"
-          ],
-          [
-            29,
-            "Rollout"
-          ],
-          [
-            32,
-            "Take Down"
-          ],
-          [
-            36,
-            "Heal Pulse"
-          ],
-          [
-            40,
-            "Energy Ball"
-          ],
-          [
-            44,
-            "Grass Whistle"
-          ],
-          [
-            48,
+            16,
             "Draining Kiss"
           ],
           [
-            52,
+            18,
+            "Sunny Day"
+          ],
+          [
+            18,
+            "Petal Dance"
+          ],
+          [
+            20,
+            "Growth"
+          ],
+          [
+            22,
             "Aromatherapy"
           ],
           [
-            56,
-            "Solar Beam"
+            25,
+            "Mega Drain"
           ],
           [
-            60,
+            28,
+            "Take Down"
+          ],
+          [
+            31,
+            "Leaf Tornado"
+          ],
+          [
+            35,
+            "Magic Coat"
+          ],
+          [
+            39,
+            "Grass Whistle"
+          ],
+          [
+            43,
+            "Heal Pulse"
+          ],
+          [
+            47,
+            "Rollout"
+          ],
+          [
+            51,
+            "Play Rough"
+          ],
+          [
+            56,
             "Healing Wish"
+          ],
+          [
+            62,
+            "Double-Edge"
+          ],
+          [
+            67,
+            "Leaf Storm"
           ]
         ],
         "tms": [
@@ -67760,7 +67748,7 @@ backup_data = {
       "items": [
         "None",
         "None",
-        "Air Balloon"
+        "None"
       ],
       "bs": {
         "hp": 150,
@@ -67908,7 +67896,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -68045,7 +68033,7 @@ backup_data = {
         "Fighting"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -68420,7 +68408,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Cheri Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -68558,7 +68546,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        27
+        26
       ]
     },
     "Purugly": {
@@ -68569,7 +68557,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Cheri Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -68729,7 +68717,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Colbur Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -68852,7 +68840,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Pecha Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -68992,7 +68980,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        27
+        26
       ]
     },
     "Skuntank": {
@@ -69004,7 +68992,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Pecha Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -69159,7 +69147,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -69298,7 +69286,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -69751,8 +69739,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Lucky Egg",
-        "Lucky Egg",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -69869,7 +69857,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metronome",
+        "None",
         "None"
       ],
       "bs": {
@@ -70156,7 +70144,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Haban Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -70295,7 +70283,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Haban Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -70438,7 +70426,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Haban Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -71337,7 +71325,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -71475,7 +71463,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -71634,7 +71622,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Black Sludge",
+        "None",
         "None"
       ],
       "bs": {
@@ -71787,7 +71775,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Black Sludge",
+        "None",
         "None"
       ],
       "bs": {
@@ -72079,7 +72067,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Rindo Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -72218,7 +72206,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Rindo Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -72518,7 +72506,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Never-Melt Ice",
+        "None",
         "None"
       ],
       "bs": {
@@ -72667,7 +72655,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Never-Melt Ice",
+        "None",
         "None"
       ],
       "bs": {
@@ -72833,8 +72821,8 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "Grip Claw",
-        "Quick Claw",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -73001,7 +72989,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Metal Coat",
+        "None",
         "None"
       ],
       "bs": {
@@ -73155,7 +73143,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Lagging Tail",
+        "None",
         "None"
       ],
       "bs": {
@@ -73666,7 +73654,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Electirizer",
+        "None",
         "None"
       ],
       "bs": {
@@ -73832,7 +73820,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Magmarizer",
+        "None",
         "None"
       ],
       "bs": {
@@ -74121,7 +74109,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Wide Lens",
+        "None",
         "None"
       ],
       "bs": {
@@ -74273,19 +74261,15 @@ backup_data = {
         "learnset": [
           [
             1,
+            "Wood Hammer"
+          ],
+          [
+            1,
             "Growth"
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
-            "Synchronoise"
-          ],
-          [
-            1,
-            "Fake Tears"
+            "Sing"
           ],
           [
             1,
@@ -74293,19 +74277,27 @@ backup_data = {
           ],
           [
             1,
-            "Tickle"
+            "Extrasensory"
           ],
           [
             1,
-            "Captivate"
+            "Fake Tears"
+          ],
+          [
+            1,
+            "Stored Power"
+          ],
+          [
+            1,
+            "Tickle"
           ],
           [
             5,
-            "Sand Attack"
+            "Captivate"
           ],
           [
             7,
-            "Detect"
+            "Helping Hand"
           ],
           [
             10,
@@ -74313,15 +74305,15 @@ backup_data = {
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            16,
             "Bite"
           ],
           [
+            16,
+            "Swift"
+          ],
+          [
             19,
-            "Endure"
+            "Double Kick"
           ],
           [
             22,
@@ -74333,38 +74325,38 @@ backup_data = {
           ],
           [
             28,
-            "Body Slam"
+            "Aerial Ace"
           ],
           [
-            31,
+            32,
             "Focus Energy"
           ],
           [
-            34,
-            "Seed Bomb"
-          ],
-          [
-            38,
-            "X-Scissor"
-          ],
-          [
-            42,
+            36,
             "Night Slash"
           ],
           [
-            46,
+            40,
+            "Psycho Cut"
+          ],
+          [
+            45,
             "Leaf Blade"
           ],
           [
             50,
-            "Psycho Cut"
+            "Synchronoise"
           ],
           [
-            54,
+            55,
+            "Wish"
+          ],
+          [
+            60,
             "Power Whip"
           ],
           [
-            58,
+            65,
             "Last Resort"
           ]
         ],
@@ -74432,19 +74424,15 @@ backup_data = {
         "learnset": [
           [
             1,
+            "Earth Power"
+          ],
+          [
+            1,
             "Growth"
           ],
           [
             1,
-            "Helping Hand"
-          ],
-          [
-            1,
-            "Synchronoise"
-          ],
-          [
-            1,
-            "Fake Tears"
+            "Sing"
           ],
           [
             1,
@@ -74452,19 +74440,27 @@ backup_data = {
           ],
           [
             1,
-            "Tickle"
+            "Extrasensory"
           ],
           [
             1,
-            "Captivate"
+            "Fake Tears"
+          ],
+          [
+            1,
+            "Stored Power"
+          ],
+          [
+            1,
+            "Tickle"
           ],
           [
             5,
-            "Sand Attack"
+            "Captivate"
           ],
           [
             7,
-            "Detect"
+            "Helping Hand"
           ],
           [
             10,
@@ -74472,15 +74468,15 @@ backup_data = {
           ],
           [
             13,
-            "Double Kick"
-          ],
-          [
-            16,
             "Bite"
           ],
           [
+            16,
+            "Swift"
+          ],
+          [
             19,
-            "Endure"
+            "Double Kick"
           ],
           [
             22,
@@ -74488,42 +74484,42 @@ backup_data = {
           ],
           [
             24,
-            "Triple Axel"
-          ],
-          [
-            28,
             "Powder Snow"
           ],
           [
-            31,
-            "Ice Shard"
+            28,
+            "Water Pulse"
           ],
           [
-            34,
+            32,
+            "Haze"
+          ],
+          [
+            36,
             "Aurora Beam"
           ],
           [
-            38,
-            "Barrier"
-          ],
-          [
-            42,
-            "Extrasensory"
-          ],
-          [
-            46,
+            40,
             "Mirror Coat"
           ],
           [
+            45,
+            "Ice Shard"
+          ],
+          [
             50,
-            "Ice Beam"
+            "Synchronoise"
           ],
           [
-            54,
-            "Earth Power"
+            55,
+            "Wish"
           ],
           [
-            58,
+            60,
+            "Glaciate"
+          ],
+          [
+            65,
             "Last Resort"
           ]
         ],
@@ -75237,7 +75233,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Hard Stone",
+        "None",
         "None"
       ],
       "bs": {
@@ -75384,7 +75380,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Kasib Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -75549,7 +75545,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Babiri Berry",
+        "None",
         "None"
       ],
       "bs": {
@@ -76717,9 +76713,9 @@ backup_data = {
         "Dragon"
       ],
       "items": [
-        "Griseous Orb",
-        "Griseous Orb",
-        "Griseous Orb"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 150,
@@ -77067,8 +77063,8 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Lansat Berry",
-        "Lansat Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -77330,8 +77326,8 @@ backup_data = {
         "Grass"
       ],
       "items": [
-        "Starf Berry",
-        "Starf Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -77437,8 +77433,8 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Enigma Berry",
-        "Enigma Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -77789,8 +77785,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Xtransceiver",
-        "Xtransceiver"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 45,
@@ -77836,7 +77832,7 @@ backup_data = {
           ],
           [
             22,
-            "Detect"
+            "Glare"
           ],
           [
             25,
@@ -77848,7 +77844,7 @@ backup_data = {
           ],
           [
             31,
-            "Body Slam"
+            "Heart Stamp"
           ],
           [
             34,
@@ -77868,7 +77864,7 @@ backup_data = {
           ],
           [
             46,
-            "Glare"
+            "Psycho Cut"
           ],
           [
             49,
@@ -77975,7 +77971,7 @@ backup_data = {
           ],
           [
             22,
-            "Detect"
+            "Glare"
           ],
           [
             25,
@@ -77987,7 +77983,7 @@ backup_data = {
           ],
           [
             31,
-            "Mean Look"
+            "Heart Stamp"
           ],
           [
             34,
@@ -78011,7 +78007,7 @@ backup_data = {
           ],
           [
             49,
-            "Glare"
+            "Psycho Cut"
           ],
           [
             52,
@@ -78126,7 +78122,7 @@ backup_data = {
           ],
           [
             22,
-            "Detect"
+            "Glare"
           ],
           [
             25,
@@ -78138,7 +78134,7 @@ backup_data = {
           ],
           [
             31,
-            "Mean Look"
+            "Heart Stamp"
           ],
           [
             34,
@@ -78166,7 +78162,7 @@ backup_data = {
           ],
           [
             50,
-            "Glare"
+            "Psycho Cut"
           ],
           [
             54,
@@ -78230,9 +78226,9 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Oran Berry",
-        "Oran Berry",
-        "Oran Berry"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 65,
@@ -78294,7 +78290,7 @@ backup_data = {
           ],
           [
             34,
-            "Take Down"
+            "Slack Off"
           ],
           [
             37,
@@ -78437,7 +78433,7 @@ backup_data = {
           ],
           [
             34,
-            "Take Down"
+            "Slack Off"
           ],
           [
             37,
@@ -78597,7 +78593,7 @@ backup_data = {
           ],
           [
             34,
-            "Take Down"
+            "Slack Off"
           ],
           [
             36,
@@ -78702,9 +78698,9 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Oran Berry",
-        "Oran Berry",
-        "Oran Berry"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 55,
@@ -80261,8 +80257,8 @@ backup_data = {
         "Grass"
       ],
       "items": [
-        "Oran Berry",
-        "Occa Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -80428,8 +80424,8 @@ backup_data = {
         "Grass"
       ],
       "items": [
-        "Oran Berry",
-        "Occa Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -80551,8 +80547,8 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Oran Berry",
-        "Passho Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -80722,8 +80718,8 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Oran Berry",
-        "Passho Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -80845,8 +80841,8 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Oran Berry",
-        "Rindo Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -81015,8 +81011,8 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Oran Berry",
-        "Rindo Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -81849,7 +81845,7 @@ backup_data = {
         "Electric"
       ],
       "items": [
-        "Cheri Berry",
+        "None",
         "None",
         "None"
       ],
@@ -81992,7 +81988,7 @@ backup_data = {
         "Electric"
       ],
       "items": [
-        "Cheri Berry",
+        "None",
         "None",
         "None"
       ],
@@ -82139,8 +82135,8 @@ backup_data = {
         "Rock"
       ],
       "items": [
-        "Everstone",
-        "Hard Stone",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -82273,8 +82269,8 @@ backup_data = {
         "Rock"
       ],
       "items": [
-        "Everstone",
-        "Hard Stone",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -82416,8 +82412,8 @@ backup_data = {
         "Rock"
       ],
       "items": [
-        "Everstone",
-        "Hard Stone",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -83788,7 +83784,7 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -83922,7 +83918,7 @@ backup_data = {
         "Ground"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -84058,7 +84054,7 @@ backup_data = {
         "Ground"
       ],
       "items": [
-        "Pecha Berry",
+        "None",
         "None",
         "None"
       ],
@@ -84203,8 +84199,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Black Belt",
-        "Expert Belt"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 120,
@@ -84352,8 +84348,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Black Belt",
-        "Expert Belt"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 75,
@@ -84501,7 +84497,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Mental Herb",
+        "None",
         "None"
       ],
       "bs": {
@@ -84614,7 +84610,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Mental Herb",
+        "None",
         "None"
       ],
       "bs": {
@@ -84698,7 +84694,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Mental Herb",
+        "None",
         "None"
       ],
       "bs": {
@@ -84857,7 +84853,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -84992,7 +84988,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -85135,7 +85131,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Poison Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -85771,7 +85767,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Tooth",
+        "None",
         "None"
       ],
       "bs": {
@@ -86386,7 +86382,7 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Rawst Berry",
+        "None",
         "None",
         "None"
       ],
@@ -86527,7 +86523,7 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Rawst Berry",
+        "None",
         "None",
         "None"
       ],
@@ -86679,7 +86675,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Miracle Seed",
+        "None",
         "None"
       ],
       "bs": {
@@ -86816,8 +86812,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Hard Stone",
-        "Rare Bone"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -86957,8 +86953,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Hard Stone",
-        "Rare Bone"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 70,
@@ -87103,7 +87099,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Shed Shell",
+        "None",
         "None"
       ],
       "bs": {
@@ -87262,7 +87258,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Shed Shell",
+        "None",
         "None"
       ],
       "bs": {
@@ -87577,7 +87573,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Spell Tag",
+        "None",
         "None"
       ],
       "bs": {
@@ -87732,7 +87728,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Spell Tag",
+        "None",
         "None"
       ],
       "bs": {
@@ -88479,8 +88475,8 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Black Sludge",
-        "Nugget"
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 50,
@@ -88622,9 +88618,9 @@ backup_data = {
         "Poison"
       ],
       "items": [
-        "Black Sludge",
-        "Nugget",
-        "Big Nugget"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -89089,7 +89085,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Chesto Berry",
+        "None",
         "None",
         "None"
       ],
@@ -89236,7 +89232,7 @@ backup_data = {
         "Normal"
       ],
       "items": [
-        "Chesto Berry",
+        "None",
         "None",
         "None"
       ],
@@ -89333,7 +89329,7 @@ backup_data = {
         "Dark"
       ],
       "items": [
-        "Persim Berry",
+        "None",
         "None",
         "None"
       ],
@@ -89477,7 +89473,7 @@ backup_data = {
         "Dark"
       ],
       "items": [
-        "Persim Berry",
+        "None",
         "None",
         "None"
       ],
@@ -89625,7 +89621,7 @@ backup_data = {
         "Dark"
       ],
       "items": [
-        "Persim Berry",
+        "None",
         "None",
         "None"
       ],
@@ -89781,7 +89777,7 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Persim Berry",
+        "None",
         "None",
         "None"
       ],
@@ -89924,7 +89920,7 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Persim Berry",
+        "None",
         "None",
         "None"
       ],
@@ -90071,7 +90067,7 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Persim Berry",
+        "None",
         "None",
         "None"
       ],
@@ -90544,7 +90540,7 @@ backup_data = {
           ],
           [
             1,
-            "Mist"
+            "Hail"
           ],
           [
             4,
@@ -90681,7 +90677,7 @@ backup_data = {
           ],
           [
             1,
-            "Mist"
+            "Hail"
           ],
           [
             4,
@@ -90829,7 +90825,7 @@ backup_data = {
           ],
           [
             1,
-            "Mist"
+            "Hail"
           ],
           [
             4,
@@ -91250,8 +91246,8 @@ backup_data = {
         "Flying"
       ],
       "items": [
-        "Cheri Berry",
-        "Cheri Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -91520,12 +91516,12 @@ backup_data = {
         "Escavalier"
       ],
       "evoMethods": [
-        "Item Use",
-        "Level With Party Member"
+        "Level With Party Member",
+        "Item Use"
       ],
       "evoParams": [
-        "Metal Coat",
-        "Shelmet"
+        "Shelmet",
+        "Metal Coat"
       ]
     },
     "Escavalier": {
@@ -91693,9 +91689,9 @@ backup_data = {
         "Poison"
       ],
       "items": [
-        "Tiny Mushroom",
-        "Big Mushroom",
-        "Balm Mushroom"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 69,
@@ -91835,9 +91831,9 @@ backup_data = {
         "Poison"
       ],
       "items": [
-        "Tiny Mushroom",
-        "Big Mushroom",
-        "Balm Mushroom"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 114,
@@ -92710,7 +92706,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Sticky Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -92854,7 +92850,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Sticky Barb",
+        "None",
         "None"
       ],
       "bs": {
@@ -94959,7 +94955,7 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "Aspear Berry",
+        "None",
         "None",
         "None"
       ],
@@ -95114,7 +95110,7 @@ backup_data = {
         "Fighting"
       ],
       "items": [
-        "Aspear Berry",
+        "None",
         "None",
         "None"
       ],
@@ -95288,7 +95284,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Never-Melt Ice",
+        "None",
         "None"
       ],
       "bs": {
@@ -95534,12 +95530,12 @@ backup_data = {
         "Accelgor"
       ],
       "evoMethods": [
-        "Item Use",
-        "Level With Party Member"
+        "Level With Party Member",
+        "Item Use"
       ],
       "evoParams": [
-        "Reaper Cloth",
-        "Karrablast"
+        "Karrablast",
+        "Reaper Cloth"
       ]
     },
     "Accelgor": {
@@ -95703,7 +95699,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Soft Sand",
+        "None",
         "None"
       ],
       "bs": {
@@ -95987,7 +95983,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        42
       ]
     },
     "Mienshao": {
@@ -96159,7 +96155,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Dragon Fang",
+        "None",
         "None"
       ],
       "bs": {
@@ -96321,7 +96317,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Light Clay",
+        "None",
         "None"
       ],
       "bs": {
@@ -96464,7 +96460,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Light Clay",
+        "None",
         "None"
       ],
       "bs": {
@@ -97705,7 +97701,7 @@ backup_data = {
       "items": [
         "None",
         "None",
-        "Flame Orb"
+        "None"
       ],
       "bs": {
         "hp": 85,
@@ -98575,7 +98571,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        59
+        44
       ]
     },
     "Volcarona": {
@@ -98586,8 +98582,8 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Silver Powder",
-        "Silver Powder",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -100114,8 +100110,8 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Star Piece",
-        "Star Piece",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -101051,9 +101047,9 @@ backup_data = {
         "Electric"
       ],
       "items": [
-        "Nest Ball",
-        "Burn Heal",
-        "Lure Ball"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 100,
@@ -102097,7 +102093,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Silver Powder",
+        "None",
         "None"
       ],
       "bs": {
@@ -102233,7 +102229,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Silver Powder",
+        "None",
         "None"
       ],
       "bs": {
@@ -102365,8 +102361,8 @@ backup_data = {
         "Flying"
       ],
       "items": [
-        "Lum Berry",
-        "Lum Berry",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -102473,9 +102469,9 @@ backup_data = {
         "Dragon"
       ],
       "items": [
-        "Griseous Orb",
-        "Griseous Orb",
-        "Griseous Orb"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 150,
@@ -103305,8 +103301,8 @@ backup_data = {
         "Fire"
       ],
       "items": [
-        "Mystic Water",
-        "Mystic Water",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -103419,8 +103415,8 @@ backup_data = {
         "Water"
       ],
       "items": [
-        "Mystic Water",
-        "Mystic Water",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -103533,8 +103529,8 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "Mystic Water",
-        "Mystic Water",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -103648,7 +103644,7 @@ backup_data = {
       ],
       "items": [
         "None",
-        "Deep Sea Scale",
+        "None",
         "None"
       ],
       "bs": {
@@ -103774,7 +103770,7 @@ backup_data = {
         "Psychic"
       ],
       "items": [
-        "Rawst Berry",
+        "None",
         "None",
         "None"
       ],
@@ -103926,8 +103922,8 @@ backup_data = {
         "Fighting"
       ],
       "items": [
-        "Star Piece",
-        "Star Piece",
+        "None",
+        "None",
         "None"
       ],
       "bs": {
@@ -104072,9 +104068,9 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "Power Herb",
-        "Power Herb",
-        "Power Herb"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 125,
@@ -104226,9 +104222,9 @@ backup_data = {
         "Ice"
       ],
       "items": [
-        "Power Herb",
-        "Power Herb",
-        "Power Herb"
+        "None",
+        "None",
+        "None"
       ],
       "bs": {
         "hp": 125,
@@ -106994,7 +106990,7 @@ backup_data = {
       },
       "Lvl 27 Veteran ???": {
         "level": 27,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 844,
         "diff": 0,
@@ -108254,7 +108250,7 @@ backup_data = {
       },
       "Lvl 40 Team Plasma Grunt6 - Plasma Frigate": {
         "level": 40,
-        "ai": 1,
+        "ai": 55,
         "noCh": false,
         "tr_id": 373,
         "diff": 3,
@@ -109731,38 +109727,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Cloud Nine",
         "sprite": "/images/trainer_sprites/clerk_f.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 Linebacker Dan4 - Nimbasa City": {
-        "level": 62,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 66,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Protein",
-        "item": "None",
-        "nature": "Mild",
-        "moves": [
-          "Belly Drum",
-          "Double-Edge",
-          "Power Whip",
-          "Hammer Arm"
-        ],
-        "sub_index": 0,
-        "ability": "Cloud Nine",
-        "sprite": "/images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -111447,6 +111411,38 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 28 Leader Burgh2": {
+        "level": 28,
+        "ai": 183,
+        "noCh": false,
+        "tr_id": 766,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Metronome",
+        "nature": "Docile",
+        "moves": [
+          "Bug Buzz",
+          "Electroweb",
+          "Air Cutter",
+          "Psybeam"
+        ],
+        "sub_index": 0,
+        "ability": "Tinted Lens",
+        "sprite": "/images/trainer_sprites/leader.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Liepard": {
@@ -111932,7 +111928,7 @@ backup_data = {
       },
       "Lvl 40 Team Plasma Grunt6 - Plasma Frigate": {
         "level": 40,
-        "ai": 1,
+        "ai": 55,
         "noCh": false,
         "tr_id": 373,
         "diff": 3,
@@ -112190,7 +112186,7 @@ backup_data = {
       },
       "Lvl 40 Team Plasma Grunt10 - Plasma Frigate": {
         "level": 40,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 377,
         "diff": 3,
@@ -113226,9 +113222,9 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt1 - Castelia Sewers": {
-        "level": 24,
-        "ai": 129,
+      "Lvl 23 Team Plasma Grunt1 - Castelia Sewers": {
+        "level": 23,
+        "ai": 135,
         "noCh": false,
         "tr_id": 342,
         "diff": 2,
@@ -113243,7 +113239,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Adamant",
+        "nature": "Calm",
         "moves": [
           "Hyper Fang",
           "Sucker Punch",
@@ -114166,9 +114162,9 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt3 - Castelia Sewers": {
-        "level": 24,
-        "ai": 129,
+      "Lvl 23 Team Plasma Grunt3 - Castelia Sewers": {
+        "level": 23,
+        "ai": 135,
         "noCh": false,
         "tr_id": 356,
         "diff": 2,
@@ -114183,10 +114179,10 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Mild",
+        "nature": "Careful",
         "moves": [
-          "Leech Life",
-          "Cross Poison",
+          "Twineedle",
+          "Poison Fang",
           "Shadow Sneak",
           "Sucker Punch"
         ],
@@ -114967,38 +114963,6 @@ backup_data = {
           "Discharge"
         ],
         "sub_index": 0,
-        "ability": "Motor Drive",
-        "sprite": "/images/trainer_sprites/smasher.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 Smasher Elena4 - Nimbasa City": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 51,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Zinc",
-        "item": "None",
-        "nature": "Jolly",
-        "moves": [
-          "Double-Edge",
-          "Lunge",
-          "High Horsepower",
-          "Agility"
-        ],
-        "sub_index": 1,
         "ability": "Motor Drive",
         "sprite": "/images/trainer_sprites/smasher.png",
         "form": 0,
@@ -117509,10 +117473,10 @@ backup_data = {
         "item": "None",
         "nature": "Gentle",
         "moves": [
-          "Last Resort",
-          "Foul Play",
+          "Sucker Punch",
           "Wish",
-          "Sucker Punch"
+          "Synchronoise",
+          "Moonlight"
         ],
         "sub_index": 2,
         "ability": "Synchronize",
@@ -117880,7 +117844,7 @@ backup_data = {
       },
       "Lvl 40 Team Plasma Grunt9 - Plasma Frigate": {
         "level": 40,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 376,
         "diff": 3,
@@ -118300,7 +118264,7 @@ backup_data = {
       },
       "Lvl 40 Team Plasma Grunt6 - Plasma Frigate": {
         "level": 40,
-        "ai": 1,
+        "ai": 55,
         "noCh": false,
         "tr_id": 373,
         "diff": 3,
@@ -119553,10 +119517,10 @@ backup_data = {
         "item": "None",
         "nature": "Timid",
         "moves": [
-          "Last Resort",
           "Trump Card",
-          "Hyper Voice",
-          "Stored Power"
+          "Baton Pass",
+          "Heal Bell",
+          "Double-Edge"
         ],
         "sub_index": 2,
         "ability": "Adaptability",
@@ -119617,10 +119581,10 @@ backup_data = {
         "item": "None",
         "nature": "Calm",
         "moves": [
+          "Swift",
           "Bite",
-          "Double Kick",
           "Quick Attack",
-          "Detect"
+          "Helping Hand"
         ],
         "sub_index": 1,
         "ability": "Adaptability",
@@ -122042,7 +122006,7 @@ backup_data = {
           "High Jump Kick",
           "Recover",
           "Psycho Cut",
-          "Reversal"
+          "Drain Punch"
         ],
         "sub_index": 1,
         "ability": "Pure Power",
@@ -122106,7 +122070,7 @@ backup_data = {
           "High Jump Kick",
           "Recover",
           "Psycho Cut",
-          "Reversal"
+          "Drain Punch"
         ],
         "sub_index": 0,
         "ability": "Pure Power",
@@ -122177,38 +122141,6 @@ backup_data = {
         "sub_index": 5,
         "ability": "Sheer Force",
         "sprite": "/images/trainer_sprites/elite_four.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 Linebacker Dan4 - Nimbasa City": {
-        "level": 62,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 66,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Protein",
-        "item": "None",
-        "nature": "Adamant",
-        "moves": [
-          "Mach Punch",
-          "Wide Guard",
-          "Drain Punch",
-          "Hammer Arm"
-        ],
-        "sub_index": 2,
-        "ability": "Guts",
-        "sprite": "/images/trainer_sprites/linebacker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -128377,10 +128309,10 @@ backup_data = {
         "item": "None",
         "nature": "Naive",
         "moves": [
-          "Last Resort",
           "Hydro Pump",
           "Wish",
-          "Muddy Water"
+          "Synchronoise",
+          "Acid Armor"
         ],
         "sub_index": 1,
         "ability": "Water Absorb",
@@ -128765,9 +128697,9 @@ backup_data = {
         "item": "None",
         "nature": "Bashful",
         "moves": [
-          "Last Resort",
           "Flare Blitz",
-          "Raging Fury",
+          "Wish",
+          "Synchronoise",
           "Play Rough"
         ],
         "sub_index": 0,
@@ -129167,9 +129099,9 @@ backup_data = {
         }
       }
     },
-    "Baltoy": {
-      "Lvl 63 Smasher Elena4 - Nimbasa City": {
-        "level": 63,
+    "Shedinja": {
+      "Lvl 1 Scientist Elena - Nimbasa City": {
+        "level": 1,
         "ai": 7,
         "noCh": false,
         "tr_id": 51,
@@ -129184,28 +129116,188 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Zinc",
-        "item": "None",
-        "nature": "Naive",
+        "item": "Toxic Orb",
+        "nature": "Bold",
         "moves": [
-          "Explosion",
-          "Trick Room",
-          "Imprison",
-          "Sandstorm"
+          "Fling",
+          "Memento",
+          "-----",
+          "-----"
         ],
         "sub_index": 0,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/smasher.png",
+        "ability": "Wonder Guard",
+        "sprite": "/images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 40 Worker Noel - Driftveil City": {
-        "level": 40,
+      "Lvl 1 Scientist Alex - Nimbasa City": {
+        "level": 1,
         "ai": 7,
         "noCh": false,
-        "tr_id": 324,
-        "diff": 0,
+        "tr_id": 56,
+        "diff": 2,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "Iron",
+        "item": "Light Ball",
+        "nature": "Gentle",
+        "moves": [
+          "Fling",
+          "Memento",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Wonder Guard",
+        "sprite": "/images/trainer_sprites/scientist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Scientist Tony - Nimbasa City": {
+        "level": 1,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 61,
+        "diff": 2,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Flame Orb",
+        "nature": "Naughty",
+        "moves": [
+          "Spore",
+          "Memento",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Wonder Guard",
+        "sprite": "/images/trainer_sprites/scientist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 1 Scientist Dan - Nimbasa City": {
+        "level": 1,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 66,
+        "diff": 2,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "Protein",
+        "item": "Flame Orb",
+        "nature": "Lax",
+        "moves": [
+          "Fling",
+          "Memento",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Wonder Guard",
+        "sprite": "/images/trainer_sprites/scientist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 55 Roughneck Reese - Route 9": {
+        "level": 55,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 330,
+        "diff": 4,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Hasty",
+        "moves": [
+          "Swords Dance",
+          "Sucker Punch",
+          "Lunge",
+          "Shadow Claw"
+        ],
+        "sub_index": 2,
+        "ability": "Wonder Guard",
+        "sprite": "/images/trainer_sprites/roughneck.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 69 Ace Trainer Jamie - Victory Road": {
+        "level": 69,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 596,
+        "diff": 4,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Impish",
+        "moves": [
+          "Swords Dance",
+          "Lunge",
+          "Shadow Sneak",
+          "Protect"
+        ],
+        "sub_index": 1,
+        "ability": "Wonder Guard",
+        "sprite": "/images/trainer_sprites/ace_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 Team Plasma Grunt54 - Plasma Frigate": {
+        "level": 63,
+        "ai": 55,
+        "noCh": false,
+        "tr_id": 802,
+        "diff": 4,
         "ivs": {
           "hp": 24,
           "at": 24,
@@ -129217,48 +129309,48 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Adamant",
+        "nature": "Hardy",
         "moves": [
-          "Extrasensory",
-          "Stealth Rock",
-          "Bulldoze",
-          "Grass Knot"
+          "Swords Dance",
+          "Lunge",
+          "Shadow Sneak",
+          "Night Slash"
         ],
         "sub_index": 0,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/worker.png",
+        "ability": "Wonder Guard",
+        "sprite": "/images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 27 Psychic Future - Desert Resort": {
+      "Lvl 27 Veteran ???": {
         "level": 27,
-        "ai": 7,
+        "ai": 135,
         "noCh": false,
-        "tr_id": 669,
-        "diff": 2,
+        "tr_id": 844,
+        "diff": 0,
         "ivs": {
-          "hp": 6,
-          "at": 6,
-          "df": 6,
-          "sa": 6,
-          "sd": 6,
-          "sp": 6
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
         },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Hasty",
+        "battle_type": "Doubles",
+        "reward_item": "Potion",
+        "item": "Focus Sash",
+        "nature": "Adamant",
         "moves": [
-          "Psybeam",
-          "Scorching Sands",
-          "Ancient Power",
-          "Psyshield Bash"
+          "Shadow Sneak",
+          "Ally Switch",
+          "Will-O-Wisp",
+          "Aerial Ace"
         ],
-        "sub_index": 1,
-        "ability": "Levitate",
-        "sprite": "/images/trainer_sprites/psychic.png",
+        "sub_index": 3,
+        "ability": "Wonder Guard",
+        "sprite": "/images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -129387,38 +129479,6 @@ backup_data = {
           "Future Sight",
           "Wring Out",
           "Water Pledge"
-        ],
-        "sub_index": 0,
-        "ability": "Gluttony",
-        "sprite": "/images/trainer_sprites/infielder.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 Infielder Alex4 - Nimbasa City": {
-        "level": 62,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 56,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Iron",
-        "item": "None",
-        "nature": "Adamant",
-        "moves": [
-          "Slack Off",
-          "Hydro Pump",
-          "Glare",
-          "Acrobatics"
         ],
         "sub_index": 0,
         "ability": "Gluttony",
@@ -129878,38 +129938,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 Infielder Alex4 - Nimbasa City": {
-        "level": 62,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 56,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Iron",
-        "item": "None",
-        "nature": "Quiet",
-        "moves": [
-          "Slack Off",
-          "Power Whip",
-          "Boomburst",
-          "Acrobatics"
-        ],
-        "sub_index": 1,
-        "ability": "Gluttony",
-        "sprite": "/images/trainer_sprites/infielder.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 61 Backers Alf & Fred - Nimbasa City": {
         "level": 61,
         "ai": 129,
@@ -130255,38 +130283,6 @@ backup_data = {
           "Blaze Kick",
           "Wring Out",
           "Tickle"
-        ],
-        "sub_index": 2,
-        "ability": "Gluttony",
-        "sprite": "/images/trainer_sprites/infielder.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 Infielder Alex4 - Nimbasa City": {
-        "level": 62,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 56,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Iron",
-        "item": "None",
-        "nature": "Timid",
-        "moves": [
-          "Slack Off",
-          "Fire Lash",
-          "Lava Plume",
-          "Acrobatics"
         ],
         "sub_index": 2,
         "ability": "Gluttony",
@@ -131006,38 +131002,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Striker Tony4 - Nimbasa City": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 61,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Carbos",
-        "item": "None",
-        "nature": "Brave",
-        "moves": [
-          "Hydro Pump",
-          "Brave Bird",
-          "Tailwind",
-          "Air Slash"
-        ],
-        "sub_index": 0,
-        "ability": "Friend Guard",
-        "sprite": "/images/trainer_sprites/striker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 45 Backers Kay & Ali2": {
         "level": 45,
         "ai": 129,
@@ -131289,72 +131253,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Friend Guard",
         "sprite": "/images/trainer_sprites/leader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Kecleon": {
-      "Lvl 63 Striker Tony4 - Nimbasa City": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 61,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Carbos",
-        "item": "None",
-        "nature": "Timid",
-        "moves": [
-          "Foul Play",
-          "Double-Edge",
-          "Substitute",
-          "Recover"
-        ],
-        "sub_index": 1,
-        "ability": "Color Change",
-        "sprite": "/images/trainer_sprites/striker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 77 PkMn Ranger Elaine - Moor of Icirrus": {
-        "level": 77,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 579,
-        "diff": 5,
-        "ivs": {
-          "hp": 6,
-          "at": 6,
-          "df": 6,
-          "sa": 6,
-          "sd": 6,
-          "sp": 6
-        },
-        "battle_type": "Singles",
-        "reward_item": "Lum Berry",
-        "item": "None",
-        "nature": "Rash",
-        "moves": [
-          "Foul Play",
-          "Double-Edge",
-          "Substitute",
-          "Recover"
-        ],
-        "sub_index": 1,
-        "ability": "Color Change",
-        "sprite": "/images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -131807,38 +131705,6 @@ backup_data = {
           "Lunge",
           "Zen Headbutt",
           "Hammer Arm"
-        ],
-        "sub_index": 1,
-        "ability": "Sheer Force",
-        "sprite": "/images/trainer_sprites/linebacker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 Linebacker Dan4 - Nimbasa City": {
-        "level": 62,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 66,
-        "diff": 2,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Protein",
-        "item": "None",
-        "nature": "Lonely",
-        "moves": [
-          "Focus Punch",
-          "Flare Blitz",
-          "Rollout",
-          "Lunge"
         ],
         "sub_index": 1,
         "ability": "Sheer Force",
@@ -132479,10 +132345,10 @@ backup_data = {
         "item": "Charti Berry",
         "nature": "Adamant",
         "moves": [
-          "Signal Beam",
-          "Bubble Beam",
-          "Ominous Wind",
-          "Giga Drain"
+          "Struggle Bug",
+          "Psybeam",
+          "Mud Shot",
+          "Air Cutter"
         ],
         "sub_index": 2,
         "ability": "Intimidate",
@@ -132572,13 +132438,13 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Absorb Bulb",
+        "item": "Bug Gem",
         "nature": "Modest",
         "moves": [
-          "Signal Beam",
+          "Soak",
           "Bubble Beam",
-          "Icy Wind",
-          "Twister"
+          "Struggle Bug",
+          "Mud Shot"
         ],
         "sub_index": 1,
         "ability": "Intimidate",
@@ -132816,7 +132682,7 @@ backup_data = {
       },
       "Lvl 27 Veteran ???": {
         "level": 27,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 844,
         "diff": 0,
@@ -133726,9 +133592,9 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt3 - Castelia Sewers": {
-        "level": 24,
-        "ai": 129,
+      "Lvl 23 Team Plasma Grunt3 - Castelia Sewers": {
+        "level": 23,
+        "ai": 135,
         "noCh": false,
         "tr_id": 356,
         "diff": 2,
@@ -133743,11 +133609,11 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Bold",
+        "nature": "Hasty",
         "moves": [
-          "Acrobatics",
-          "Knock Off",
+          "Slash",
           "Night Slash",
+          "Aerial Ace",
           "Revenge"
         ],
         "sub_index": 2,
@@ -137993,10 +137859,10 @@ backup_data = {
         "item": "None",
         "nature": "Serious",
         "moves": [
+          "Leaf Storm",
+          "Double-Edge",
           "Healing Wish",
-          "Solar Beam",
-          "Aromatherapy",
-          "Draining Kiss"
+          "Play Rough"
         ],
         "sub_index": 1,
         "ability": "Flower Gift",
@@ -138026,9 +137892,9 @@ backup_data = {
         "nature": "Hardy",
         "moves": [
           "Healing Wish",
-          "Solar Beam",
-          "Aromatherapy",
-          "Draining Kiss"
+          "Play Rough",
+          "Rollout",
+          "Heal Pulse"
         ],
         "sub_index": 2,
         "ability": "Flower Gift",
@@ -138718,9 +138584,9 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt1 - Castelia Sewers": {
-        "level": 24,
-        "ai": 129,
+      "Lvl 23 Team Plasma Grunt1 - Castelia Sewers": {
+        "level": 23,
+        "ai": 135,
         "noCh": false,
         "tr_id": 342,
         "diff": 2,
@@ -138735,7 +138601,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Hardy",
+        "nature": "Docile",
         "moves": [
           "X-Scissor",
           "Acupressure",
@@ -139717,6 +139583,38 @@ backup_data = {
         "sub_index": 2,
         "ability": "Skill Link",
         "sprite": "/images/trainer_sprites/black_belt.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 28 Leader Burgh2": {
+        "level": 28,
+        "ai": 183,
+        "noCh": false,
+        "tr_id": 766,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Cell Battery",
+        "nature": "Adamant",
+        "moves": [
+          "Brick Break",
+          "Fury Cutter",
+          "Helping Hand",
+          "Rock Tomb"
+        ],
+        "sub_index": 4,
+        "ability": "Moxie",
+        "sprite": "/images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -143033,10 +142931,10 @@ backup_data = {
         "item": "None",
         "nature": "Docile",
         "moves": [
+          "Double-Edge",
           "Healing Wish",
-          "Solar Beam",
-          "Aromatherapy",
-          "Draining Kiss"
+          "Play Rough",
+          "Rollout"
         ],
         "sub_index": 0,
         "ability": "Chlorophyll",
@@ -143228,9 +143126,9 @@ backup_data = {
         "nature": "Bashful",
         "moves": [
           "Venoshock",
-          "Toxic",
-          "Thunderbolt",
-          "Flamethrower"
+          "Poison Gas",
+          "Psybeam",
+          "Lava Plume"
         ],
         "sub_index": 1,
         "ability": "Levitate",
@@ -143308,7 +143206,7 @@ backup_data = {
       },
       "Lvl 40 Team Plasma Grunt10 - Plasma Frigate": {
         "level": 40,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 377,
         "diff": 3,
@@ -147325,7 +147223,7 @@ backup_data = {
         "item": "None",
         "nature": "Timid",
         "moves": [
-          "Incinerate",
+          "Ember",
           "Snarl",
           "Helping Hand",
           "Morning Sun"
@@ -148101,10 +147999,10 @@ backup_data = {
         "item": "Focus Sash",
         "nature": "Calm",
         "moves": [
-          "Frost Breath",
-          "Psybeam",
+          "Powder Snow",
+          "Confusion",
           "Nasty Plot",
-          "Grass Knot"
+          "Fake Out"
         ],
         "sub_index": 2,
         "ability": "Dry Skin",
@@ -148392,7 +148290,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Wacan Berry",
+        "item": "Lum Berry",
         "nature": "Sassy",
         "moves": [
           "Attack Order",
@@ -149872,6 +149770,198 @@ backup_data = {
         "reward_item": "",
         "item": "Toxic Orb",
         "nature": "Lonely",
+        "moves": [
+          "Healing Wish",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 5,
+        "ability": "Natural Cure",
+        "sprite": "/images/trainer_sprites/striker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 70 Striker T6": {
+        "level": 70,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 891,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "",
+        "item": "Toxic Orb",
+        "nature": "Naive",
+        "moves": [
+          "Healing Wish",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 0,
+        "ability": "Natural Cure",
+        "sprite": "/images/trainer_sprites/striker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 70 Striker T6 2": {
+        "level": 70,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 891,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "",
+        "item": "Toxic Orb",
+        "nature": "Naive",
+        "moves": [
+          "Healing Wish",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Natural Cure",
+        "sprite": "/images/trainer_sprites/striker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 70 Striker T6 3": {
+        "level": 70,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 891,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "",
+        "item": "Toxic Orb",
+        "nature": "Naive",
+        "moves": [
+          "Healing Wish",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 2,
+        "ability": "Natural Cure",
+        "sprite": "/images/trainer_sprites/striker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 70 Striker T6 4": {
+        "level": 70,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 891,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "",
+        "item": "Toxic Orb",
+        "nature": "Naive",
+        "moves": [
+          "Healing Wish",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 3,
+        "ability": "Natural Cure",
+        "sprite": "/images/trainer_sprites/striker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 70 Striker T6 5": {
+        "level": 70,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 891,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "",
+        "item": "Toxic Orb",
+        "nature": "Naive",
+        "moves": [
+          "Healing Wish",
+          "-----",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 4,
+        "ability": "Natural Cure",
+        "sprite": "/images/trainer_sprites/striker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 70 Striker T6 6": {
+        "level": 70,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 891,
+        "diff": 0,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "",
+        "item": "Toxic Orb",
+        "nature": "Naive",
         "moves": [
           "Healing Wish",
           "-----",
@@ -152281,38 +152371,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Speed Boost",
         "sprite": "/images/trainer_sprites/school_kid.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 28 Leader Burgh2": {
-        "level": 28,
-        "ai": 183,
-        "noCh": false,
-        "tr_id": 766,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Bug Gem",
-        "nature": "Lax",
-        "moves": [
-          "Detect",
-          "Giga Drain",
-          "Bug Buzz",
-          "Air Cutter"
-        ],
-        "sub_index": 0,
-        "ability": "Tinted Lens",
-        "sprite": "/images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -163177,10 +163235,10 @@ backup_data = {
         "item": "None",
         "nature": "Quirky",
         "moves": [
-          "Focus Punch",
+          "Close Combat",
           "Lunge",
-          "Mach Punch",
-          "Drain Punch"
+          "Focus Punch",
+          "Spore"
         ],
         "sub_index": 1,
         "ability": "Technician",
@@ -163520,7 +163578,7 @@ backup_data = {
       },
       "Lvl 40 Team Plasma Grunt9 - Plasma Frigate": {
         "level": 40,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 376,
         "diff": 3,
@@ -165769,38 +165827,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 28 Leader Burgh2": {
-        "level": 28,
-        "ai": 183,
-        "noCh": false,
-        "tr_id": 766,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Muscle Band",
-        "nature": "Docile",
-        "moves": [
-          "Rock Slide",
-          "Lunge",
-          "Low Sweep",
-          "Iron Head"
-        ],
-        "sub_index": 4,
-        "ability": "Heatproof",
-        "sprite": "/images/trainer_sprites/leader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Slaking": {
@@ -167038,7 +167064,7 @@ backup_data = {
       },
       "Lvl 40 Team Plasma Grunt9 - Plasma Frigate": {
         "level": 40,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 376,
         "diff": 3,
@@ -173025,8 +173051,8 @@ backup_data = {
         "moves": [
           "Twineedle",
           "Venoshock",
-          "Drill Run",
-          "Protect"
+          "Fury Attack",
+          "Assurance"
         ],
         "sub_index": 3,
         "ability": "Sniper",
@@ -173564,7 +173590,7 @@ backup_data = {
       },
       "Lvl 27 Veteran ???": {
         "level": 27,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 844,
         "diff": 0,
@@ -174658,9 +174684,9 @@ backup_data = {
         "nature": "Lax",
         "moves": [
           "Work Up",
-          "Aerial Ace",
+          "Peck",
           "Quick Attack",
-          "Double Hit"
+          "Rage"
         ],
         "sub_index": 2,
         "ability": "Early Bird",
@@ -175363,10 +175389,10 @@ backup_data = {
         "item": "None",
         "nature": "Lax",
         "moves": [
-          "Nuzzle",
-          "Electroweb",
+          "Shock Wave",
+          "Screech",
           "Struggle Bug",
-          "Mega Drain"
+          "Spider Web"
         ],
         "sub_index": 3,
         "ability": "Compound Eyes",
@@ -176023,6 +176049,38 @@ backup_data = {
         "sub_index": 2,
         "ability": " -",
         "sprite": "/images/trainer_sprites/team_plasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 23 PkMn Trainer Brycen - Virbank City": {
+        "level": 23,
+        "ai": 55,
+        "noCh": false,
+        "tr_id": 847,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "",
+        "item": "Never-Melt Ice",
+        "nature": "Lonely",
+        "moves": [
+          "Avalanche",
+          "Confuse Ray",
+          "Night Slash",
+          "Scary Face"
+        ],
+        "sub_index": 1,
+        "ability": "Levitate",
+        "sprite": "/images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -176772,9 +176830,9 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 24 Team Plasma Grunt1 - Castelia Sewers": {
-        "level": 24,
-        "ai": 129,
+      "Lvl 23 Team Plasma Grunt1 - Castelia Sewers": {
+        "level": 23,
+        "ai": 135,
         "noCh": false,
         "tr_id": 342,
         "diff": 2,
@@ -176789,12 +176847,12 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Rash",
+        "nature": "Hasty",
         "moves": [
-          "Play Rough",
+          "Covet",
           "Bulk Up",
-          "Rock Slide",
-          "Fire Punch"
+          "Payback",
+          "Double Kick"
         ],
         "sub_index": 2,
         "ability": "Intimidate",
@@ -177212,7 +177270,7 @@ backup_data = {
         "nature": "Calm",
         "moves": [
           "Steel Wing",
-          "Agility",
+          "Retaliate",
           "Revenge",
           "Aerial Ace"
         ],
@@ -178480,7 +178538,7 @@ backup_data = {
           "Venoshock",
           "Aqua Jet",
           "Reversal",
-          "Explosion"
+          "Pin Missile"
         ],
         "sub_index": 3,
         "ability": "Intimidate",
@@ -181210,6 +181268,38 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 28 Leader Burgh2": {
+        "level": 28,
+        "ai": 183,
+        "noCh": false,
+        "tr_id": 766,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Occa Berry",
+        "nature": "Sassy",
+        "moves": [
+          "Twineedle",
+          "Razor Shell",
+          "Metal Burst",
+          "Endure"
+        ],
+        "sub_index": 2,
+        "ability": "Shell Armor",
+        "sprite": "/images/trainer_sprites/leader.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 64 Team Plasma Grunt55 - Plasma Frigate": {
         "level": 64,
         "ai": 183,
@@ -181335,38 +181425,6 @@ backup_data = {
         "sub_index": 2,
         "ability": "Technician",
         "sprite": "/images/trainer_sprites/team_plasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 28 Leader Burgh2": {
-        "level": 28,
-        "ai": 183,
-        "noCh": false,
-        "tr_id": 766,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Lum Berry",
-        "nature": "Naive",
-        "moves": [
-          "Bug Bite",
-          "Wing Attack",
-          "Rock Smash",
-          "Quick Attack"
-        ],
-        "sub_index": 2,
-        "ability": "Technician",
-        "sprite": "/images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -183303,7 +183361,7 @@ backup_data = {
         "moves": [
           "Fake Out",
           "Payback",
-          "Low Sweep",
+          "Vital Throw",
           "Grass Knot"
         ],
         "sub_index": 1,
@@ -183664,7 +183722,7 @@ backup_data = {
           "Venoshock",
           "Leech Seed",
           "Protect",
-          "Giga Drain"
+          "Mega Drain"
         ],
         "sub_index": 2,
         "ability": "Solar Power",
@@ -185979,6 +186037,72 @@ backup_data = {
         }
       }
     },
+    "Baltoy": {
+      "Lvl 40 Worker Noel - Driftveil City": {
+        "level": 40,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 324,
+        "diff": 0,
+        "ivs": {
+          "hp": 24,
+          "at": 24,
+          "df": 24,
+          "sa": 24,
+          "sd": 24,
+          "sp": 24
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Adamant",
+        "moves": [
+          "Extrasensory",
+          "Stealth Rock",
+          "Bulldoze",
+          "Grass Knot"
+        ],
+        "sub_index": 0,
+        "ability": "Levitate",
+        "sprite": "/images/trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 27 Psychic Future - Desert Resort": {
+        "level": 27,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 669,
+        "diff": 2,
+        "ivs": {
+          "hp": 6,
+          "at": 6,
+          "df": 6,
+          "sa": 6,
+          "sd": 6,
+          "sp": 6
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Hasty",
+        "moves": [
+          "Psybeam",
+          "Scorching Sands",
+          "Ancient Power",
+          "Psyshield Bash"
+        ],
+        "sub_index": 1,
+        "ability": "Levitate",
+        "sprite": "/images/trainer_sprites/psychic.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Geodude": {
       "Lvl 40 Worker Noel - Driftveil City": {
         "level": 40,
@@ -186915,136 +187039,6 @@ backup_data = {
         "sub_index": 2,
         "ability": "Cursed Body",
         "sprite": "/images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Shedinja": {
-      "Lvl 55 Roughneck Reese - Route 9": {
-        "level": 55,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 330,
-        "diff": 4,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Hasty",
-        "moves": [
-          "Swords Dance",
-          "Sucker Punch",
-          "Lunge",
-          "Shadow Claw"
-        ],
-        "sub_index": 2,
-        "ability": "Wonder Guard",
-        "sprite": "/images/trainer_sprites/roughneck.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 69 Ace Trainer Jamie - Victory Road": {
-        "level": 69,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 596,
-        "diff": 4,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Impish",
-        "moves": [
-          "Swords Dance",
-          "Lunge",
-          "Shadow Sneak",
-          "Protect"
-        ],
-        "sub_index": 1,
-        "ability": "Wonder Guard",
-        "sprite": "/images/trainer_sprites/ace_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 Team Plasma Grunt54 - Plasma Frigate": {
-        "level": 63,
-        "ai": 55,
-        "noCh": false,
-        "tr_id": 802,
-        "diff": 4,
-        "ivs": {
-          "hp": 24,
-          "at": 24,
-          "df": 24,
-          "sa": 24,
-          "sd": 24,
-          "sp": 24
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Hardy",
-        "moves": [
-          "Swords Dance",
-          "Lunge",
-          "Shadow Sneak",
-          "Night Slash"
-        ],
-        "sub_index": 0,
-        "ability": "Wonder Guard",
-        "sprite": "/images/trainer_sprites/team_plasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 27 Veteran ???": {
-        "level": 27,
-        "ai": 129,
-        "noCh": false,
-        "tr_id": 844,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "Potion",
-        "item": "Focus Sash",
-        "nature": "Adamant",
-        "moves": [
-          "Shadow Sneak",
-          "Ally Switch",
-          "Will-O-Wisp",
-          "Aerial Ace"
-        ],
-        "sub_index": 3,
-        "ability": "Wonder Guard",
-        "sprite": "/images/trainer_sprites/veteran.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -190314,9 +190308,9 @@ backup_data = {
       }
     },
     "Golbat": {
-      "Lvl 24 Team Plasma Grunt3 - Castelia Sewers": {
-        "level": 24,
-        "ai": 129,
+      "Lvl 23 Team Plasma Grunt3 - Castelia Sewers": {
+        "level": 23,
+        "ai": 135,
         "noCh": false,
         "tr_id": 356,
         "diff": 2,
@@ -190331,12 +190325,12 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Hasty",
+        "nature": "Adamant",
         "moves": [
-          "Air Slash",
-          "Nasty Plot",
-          "Giga Drain",
-          "Heat Wave"
+          "Confuse Ray",
+          "Bite",
+          "Air Cutter",
+          "Leech Life"
         ],
         "sub_index": 1,
         "ability": "Inner Focus",
@@ -192062,7 +192056,7 @@ backup_data = {
     "Bastiodon": {
       "Lvl 40 Team Plasma Grunt6 - Plasma Frigate": {
         "level": 40,
-        "ai": 1,
+        "ai": 55,
         "noCh": false,
         "tr_id": 373,
         "diff": 3,
@@ -192160,7 +192154,7 @@ backup_data = {
     "Garbodor": {
       "Lvl 40 Team Plasma Grunt10 - Plasma Frigate": {
         "level": 40,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 377,
         "diff": 3,
@@ -197759,8 +197753,8 @@ backup_data = {
         "moves": [
           "Venoshock",
           "Hex",
-          "Giga Drain",
-          "Icy Wind"
+          "Mega Drain",
+          "Torment"
         ],
         "sub_index": 4,
         "ability": "Levitate",
@@ -198795,6 +198789,40 @@ backup_data = {
         }
       }
     },
+    "Kecleon": {
+      "Lvl 77 PkMn Ranger Elaine - Moor of Icirrus": {
+        "level": 77,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 579,
+        "diff": 5,
+        "ivs": {
+          "hp": 6,
+          "at": 6,
+          "df": 6,
+          "sa": 6,
+          "sd": 6,
+          "sp": 6
+        },
+        "battle_type": "Singles",
+        "reward_item": "Lum Berry",
+        "item": "None",
+        "nature": "Rash",
+        "moves": [
+          "Foul Play",
+          "Double-Edge",
+          "Substitute",
+          "Recover"
+        ],
+        "sub_index": 1,
+        "ability": "Color Change",
+        "sprite": "/images/trainer_sprites/pokemon_ranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Rotom-Mow": {
       "Lvl 69 Ace Trainer Billy - Victory Road": {
         "level": 69,
@@ -199753,38 +199781,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 23 PkMn Trainer Brycen - Virbank City": {
-        "level": 23,
-        "ai": 55,
-        "noCh": false,
-        "tr_id": 847,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "",
-        "item": "Charti Berry",
-        "nature": "Quirky",
-        "moves": [
-          "Peck",
-          "Icy Wind",
-          "Fake Out",
-          "Water Pulse"
-        ],
-        "sub_index": 1,
-        "ability": "Insomnia",
-        "sprite": "/images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Phanpy": {
@@ -200105,9 +200101,9 @@ backup_data = {
         "item": "None",
         "nature": "Mild",
         "moves": [
-          "Breaking Swipe",
+          "Taunt",
           "Rock Tomb",
-          "Aerial Ace",
+          "Endure",
           "Payback"
         ],
         "sub_index": 2,
@@ -200543,7 +200539,7 @@ backup_data = {
         "moves": [
           "Work Up",
           "Double Kick",
-          "Headbutt",
+          "Tackle",
           "Leech Seed"
         ],
         "sub_index": 4,
@@ -200856,7 +200852,7 @@ backup_data = {
     "Loudred": {
       "Lvl 27 Veteran ???": {
         "level": 27,
-        "ai": 129,
+        "ai": 135,
         "noCh": false,
         "tr_id": 844,
         "diff": 0,
