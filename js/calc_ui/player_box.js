@@ -115,6 +115,10 @@ if (typeof localStorage !== "undefined" && typeof localStorage[ENEMY_PREVIEW_BOX
     localStorage[ENEMY_PREVIEW_BOX_FILTER_STORAGE_KEY] = '0'
 }
 
+function shouldHidePrevosDead() {
+    return typeof localStorage !== "undefined" && localStorage.hidePrevos == '1'
+}
+
 function restorePartyPreviewSnapshot(snapshot) {
     if (!snapshot || !Array.isArray(snapshot.speciesList)) {
         return
@@ -1546,10 +1550,13 @@ function get_box() {
         if (names[i].includes("My Box")) {
             var setId = names[i].split("[")[0]
             var speciesName = setId.split(" (")[0]
+            var hidePrevosDead = shouldHidePrevosDead()
 
             if (
-                (typeof window.isSpeciesFamilyMarkedDead === "function" && window.isSpeciesFamilyMarkedDead(speciesName, encounters)) ||
-                (encounters && encounters[speciesName] && !encounters[speciesName].alive) ||
+                (hidePrevosDead && (
+                    (typeof window.isSpeciesFamilyMarkedDead === "function" && window.isSpeciesFamilyMarkedDead(speciesName, encounters)) ||
+                    (encounters && encounters[speciesName] && !encounters[speciesName].alive)
+                )) ||
                 isImportedEggSpecies(speciesName)
             ) {
                 continue
@@ -1614,8 +1621,8 @@ function filter_box() {
     let search_string = $('#search-box').val().toLowerCase()
     let containers = $('.trainer-pok-list.player-poks, .trainer-pok-list.player-megas')
 
-    // Hide Prevos
-    if (localStorage.hidePrevos == '1' && typeof customSets != 'undefined') {
+    // Hide pre-evolutions when the preview suppression setting is enabled.
+    if (shouldHidePrevosDead() && typeof customSets != 'undefined') {
         containers.find('.box-sort-card').show()
         for (set in customSets) {
             let set_id = `${set} (My Box)`
@@ -1873,7 +1880,7 @@ function filterMobileBoxShortcut() {
     $('.mobile-box-shortcut-poks .box-sort-card, .mobile-box-shortcut-megas .box-sort-card').each(function() {
         var setId = $(this).attr('data-set-id') || ""
         var speciesName = getBoxSpeciesNameFromSetId(setId)
-        var shouldHidePrevo = localStorage.hidePrevos == '1'
+        var shouldHidePrevo = shouldHidePrevosDead()
             && typeof window.shouldHideImportedPrevo === "function"
             && window.shouldHideImportedPrevo(speciesName, customSets)
 

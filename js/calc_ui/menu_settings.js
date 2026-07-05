@@ -62,8 +62,11 @@ function setSettingsDefaults() {
     localStorage.showTrainerPreviewExpBars = 1
   }
 
-  if (typeof localStorage.hidePrevos === 'undefined') {
-    localStorage.hidePrevos = 1
+  if (typeof localStorage.hidePrevosDeadSettingInitialized === 'undefined') {
+    localStorage.hidePrevos = 0
+    localStorage.hidePrevosDeadSettingInitialized = 1
+  } else if (typeof localStorage.hidePrevos === 'undefined') {
+    localStorage.hidePrevos = 0
   }
 
   if (typeof localStorage.watchSaveFile === 'undefined') {
@@ -217,7 +220,7 @@ function setMoveAiPreviewSettingEnabled(enabled) {
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
-    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-challenge-mode input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-mobile-party-moves input, #toggle-mobile-move-ui input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-use-evs input, #toggle-phys-spec-split input, #toggle-invert-types input, #toggle-platinum-redux-type-chart input, #toggle-challenge-mode input, #toggle-import-party-preview input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-mobile-dual-panel input, #toggle-mobile-party-moves input, #toggle-mobile-move-ui input, #toggle-boxroll input, #toggle-hide-prevos-dead input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-switch-preview input, #toggle-switch-ai-info input, #toggle-move-ai-preview input, #toggle-exp-bars input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input, #toggle-dex-species-modal input, #toggle-show-ability-slot input, #toggle-hide-current-ai-mon input').prop('checked', false)
 
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
@@ -267,6 +270,9 @@ function setSettingsTogglesFromLocalStorage() {
     }
     if (localStorage.boxrolls == '1') {
         $('#toggle-boxroll input').prop('checked', true)
+    }
+    if (localStorage.hidePrevos == '1') {
+        $('#toggle-hide-prevos-dead input').prop('checked', true)
     }
     if (localStorage.battlenotes == '1') {
         $('#toggle-battle-notes input').prop('checked', true)
@@ -676,6 +682,16 @@ $('#toggle-boxroll .slider').click(function(){
         if (typeof clearEnemyPreviewBoxHighlights === "function") {
             clearEnemyPreviewBoxHighlights()
         }
+    }
+})
+
+$('#toggle-hide-prevos-dead input').on('change', function(){
+    localStorage.hidePrevos = $(this).prop('checked') ? '1' : '0'
+    if (typeof refreshBoxDisplaySafely === "function") {
+        refreshBoxDisplaySafely()
+    }
+    if (!$('#mobile-box-shortcut-modal').prop('hidden') && typeof renderMobileBoxShortcutModal === "function") {
+        renderMobileBoxShortcutModal()
     }
 })
 
