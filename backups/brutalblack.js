@@ -7596,7 +7596,11 @@ backup_data = {
             "Poison Fang"
           ],
           [
-            13,
+            15,
+            "Headbutt"
+          ],
+          [
+            18,
             "Hyper Fang"
           ],
           [
@@ -7620,15 +7624,15 @@ backup_data = {
             "Poison Jab"
           ],
           [
-            32,
+            36,
             "Take Down"
           ],
           [
-            36,
+            44,
             "Double-Edge"
           ],
           [
-            44,
+            50,
             "Gunk Shot"
           ],
           [
@@ -7725,7 +7729,11 @@ backup_data = {
             "Poison Fang"
           ],
           [
-            13,
+            15,
+            "Headbutt"
+          ],
+          [
+            18,
             "Hyper Fang"
           ],
           [
@@ -7749,15 +7757,15 @@ backup_data = {
             "Poison Jab"
           ],
           [
-            32,
+            36,
             "Take Down"
           ],
           [
-            36,
+            44,
             "Double-Edge"
           ],
           [
-            44,
+            50,
             "Gunk Shot"
           ],
           [
@@ -11170,7 +11178,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Dry Skin",
+        "Water Absorb",
         "",
         "Damp"
       ],
@@ -11292,7 +11300,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Dry Skin",
+        "Water Absorb",
         "",
         "Damp"
       ]
@@ -11888,6 +11896,7 @@ backup_data = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Cut"
         ]
       },
@@ -12027,6 +12036,7 @@ backup_data = {
           "Swagger",
           "U-turn",
           "Natural Gift",
+          "Rock Smash",
           "Cut"
         ]
       },
@@ -20534,7 +20544,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Dry Skin",
+        "Water Absorb",
         "Trace",
         "Dry Skin"
       ]
@@ -23341,7 +23351,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Dragonite": {
@@ -26791,10 +26801,10 @@ backup_data = {
         "Togekiss"
       ],
       "evoMethods": [
-        "Item Use"
+        "Level Requirement"
       ],
       "evoParams": [
-        "Shiny Stone"
+        55
       ]
     },
     "Natu": {
@@ -27897,7 +27907,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Solid Rock",
         "Rock Head",
         "Rattled"
       ]
@@ -33477,7 +33487,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        55
       ]
     },
     "Stantler": {
@@ -33598,7 +33608,7 @@ backup_data = {
       },
       "abs": [
         "Intimidate",
-        "Sap Sipper",
+        "",
         "Sap Sipper"
       ]
     },
@@ -33972,7 +33982,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Dry Skin",
+        "Water Absorb",
         "Trace",
         "Hydration"
       ],
@@ -35027,7 +35037,7 @@ backup_data = {
         "hp": 90,
         "at": 94,
         "df": 90,
-        "sa": 65,
+        "sa": 55,
         "sd": 70,
         "sp": 51
       },
@@ -35137,7 +35147,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Tyranitar": {
@@ -45083,7 +45093,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Flygon": {
@@ -48421,7 +48431,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        55
       ]
     },
     "Tropius": {
@@ -50208,7 +50218,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Salamence": {
@@ -50541,7 +50551,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Metagross": {
@@ -52241,7 +52251,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 95,
-        "at": 109,
+        "at": 119,
         "df": 110,
         "sa": 85,
         "sd": 85,
@@ -58281,7 +58291,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Solid Rock",
         "Rock Head",
         "Rattled"
       ],
@@ -59019,7 +59029,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Garchomp": {
@@ -60172,7 +60182,7 @@ backup_data = {
       },
       "abs": [
         "Poison Touch",
-        "Dry Skin",
+        "Water Absorb",
         "Poison Touch"
       ],
       "evos": [
@@ -60314,7 +60324,7 @@ backup_data = {
       },
       "abs": [
         "Poison Touch",
-        "Dry Skin",
+        "Water Absorb",
         "Swift Swim"
       ]
     },
@@ -66071,7 +66081,7 @@ backup_data = {
           ],
           [
             26,
-            "Icy Wind"
+            "Vital Throw"
           ],
           [
             29,
@@ -66212,7 +66222,7 @@ backup_data = {
           ],
           [
             26,
-            "Icy Wind"
+            "Vital Throw"
           ],
           [
             29,
@@ -66353,7 +66363,7 @@ backup_data = {
           ],
           [
             26,
-            "Icy Wind"
+            "Vital Throw"
           ],
           [
             29,
@@ -68773,7 +68783,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Reckless",
         "Motor Drive",
         "Sap Sipper"
       ],
@@ -68896,7 +68906,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Reckless",
         "Motor Drive",
         "Sap Sipper"
       ]
@@ -79342,7 +79352,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        55
       ]
     },
     "Chandelure": {
@@ -79735,7 +79745,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        55
+        65
       ]
     },
     "Haxorus": {
@@ -80705,7 +80715,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        50
+        35
       ]
     },
     "Mienshao": {
@@ -81616,7 +81626,7 @@ backup_data = {
       },
       "abs": [
         "Rock Head",
-        "Sap Sipper",
+        "",
         "Soundproof"
       ]
     },
@@ -82577,7 +82587,7 @@ backup_data = {
         "Level Requirement"
       ],
       "evoParams": [
-        64
+        65
       ]
     },
     "Hydreigon": {
@@ -87167,8 +87177,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 49 Leader Clay": {
-        "level": 49,
+      "Lvl 50 Leader Clay": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 24,
@@ -87184,7 +87194,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Rock Gem",
-        "nature": "Docile",
+        "nature": "Modest",
         "moves": [
           "Rock Climb",
           "Earthquake",
@@ -87748,7 +87758,7 @@ backup_data = {
           "Pursuit"
         ],
         "sub_index": 0,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -87780,7 +87790,7 @@ backup_data = {
           "Quick Attack"
         ],
         "sub_index": 0,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -89737,39 +89747,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 Preschooler Wendy": {
-        "level": 10,
-        "ai": 0,
-        "noCh": false,
-        "tr_id": 15,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Bashful",
-        "moves": [
-          "Bite",
-          "Ember",
-          "Leer",
-          "Tackle"
-        ],
-        "sub_index": 0,
-        "ability": "Blaze",
-        "sprite": "./images/trainer_sprites/preschooler.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 20 PkMn Trainer Cheren5 - Wellspring Cave": {
+      "Lvl 20 PkMn Trainer Cheren8 - Wellspring Cave": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -90127,39 +90105,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 Preschooler Tully - Marvelous Bridge": {
-        "level": 10,
-        "ai": 0,
-        "noCh": false,
-        "tr_id": 17,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Relaxed",
-        "moves": [
-          "Bite",
-          "Vine Whip",
-          "Leer",
-          "Tackle"
-        ],
-        "sub_index": 0,
-        "ability": "Overgrow",
-        "sprite": "./images/trainer_sprites/preschooler.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 20 PkMn Trainer Cheren4": {
+      "Lvl 20 PkMn Trainer Cheren7": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -90517,38 +90463,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 Preschooler Doyle": {
-        "level": 10,
-        "ai": 0,
-        "noCh": false,
-        "tr_id": 16,
-        "diff": 0,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Quirky",
-        "moves": [
-          "Bite",
-          "Water Gun",
-          "Leer",
-          "Tackle"
-        ],
-        "sub_index": 0,
-        "ability": "Torrent",
-        "sprite": "./images/trainer_sprites/preschooler.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 18 PkMn Ranger Irene": {
         "level": 18,
         "ai": 7,
@@ -90581,7 +90495,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 20 PkMn Trainer Cheren6 - Route 3": {
+      "Lvl 20 PkMn Trainer Cheren9 - Route 3": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -91586,6 +91500,1712 @@ backup_data = {
         }
       }
     },
+    "Unfezant": {
+      "Lvl 44 PkMn Trainer Cheren - Route 5": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 15,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Careful",
+        "moves": [
+          "Shadow Claw",
+          "Drill Peck",
+          "Blaze Kick",
+          "Drill Run"
+        ],
+        "sub_index": 0,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren2": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 16,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Rash",
+        "moves": [
+          "Shadow Claw",
+          "Drill Peck",
+          "Blaze Kick",
+          "Drill Run"
+        ],
+        "sub_index": 0,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren3 - Marvelous Bridge": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 17,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Brave",
+        "moves": [
+          "Shadow Claw",
+          "Drill Peck",
+          "Blaze Kick",
+          "Drill Run"
+        ],
+        "sub_index": 0,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren10 - Route 5": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 90,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Naive",
+        "moves": [
+          "Shadow Claw",
+          "Drill Peck",
+          "Blaze Kick",
+          "Drill Run"
+        ],
+        "sub_index": 0,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren11": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 91,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Hasty",
+        "moves": [
+          "Shadow Claw",
+          "Drill Peck",
+          "Blaze Kick",
+          "Drill Run"
+        ],
+        "sub_index": 0,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren12": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 92,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Bashful",
+        "moves": [
+          "Shadow Claw",
+          "Drill Peck",
+          "Blaze Kick",
+          "Drill Run"
+        ],
+        "sub_index": 0,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 40 Infielder Connor": {
+        "level": 40,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 192,
+        "diff": 0,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Quirky",
+        "moves": [
+          "Blaze Kick",
+          "Shadow Claw",
+          "Drill Run",
+          "Drill Peck"
+        ],
+        "sub_index": 1,
+        "ability": "Big Pecks",
+        "sprite": "./images/trainer_sprites/infielder.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 67 Infielder Connor2 - Nimbasa City": {
+        "level": 67,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 323,
+        "diff": 0,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Gentle",
+        "moves": [
+          "Brave Bird",
+          "Shadow Sneak",
+          "Blaze Kick",
+          "Shadow Claw"
+        ],
+        "sub_index": 0,
+        "ability": "Big Pecks",
+        "sprite": "./images/trainer_sprites/infielder.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 Waiter Clint - Nimbasa City": {
+        "level": 63,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 363,
+        "diff": 0,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "Fresh Water",
+        "item": "None",
+        "nature": "Relaxed",
+        "moves": [
+          "Brave Bird",
+          "Shadow Sneak",
+          "Blaze Kick",
+          "Shadow Claw"
+        ],
+        "sub_index": 2,
+        "ability": "Big Pecks",
+        "sprite": "./images/trainer_sprites/waiter.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 Pilot Leonard": {
+        "level": 63,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 375,
+        "diff": 0,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Impish",
+        "moves": [
+          "Brave Bird",
+          "Shadow Sneak",
+          "Blaze Kick",
+          "Shadow Claw"
+        ],
+        "sub_index": 2,
+        "ability": "Big Pecks",
+        "sprite": "./images/trainer_sprites/pilot.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 65 PkMn Trainer Cheren25 - Victory Road": {
+        "level": 65,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 591,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Scope Lens",
+        "nature": "Hardy",
+        "moves": [
+          "Air Slash",
+          "Quick Attack",
+          "Facade",
+          "U-turn"
+        ],
+        "sub_index": 2,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 65 PkMn Trainer Cheren26 - Victory Road": {
+        "level": 65,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 592,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Scope Lens",
+        "nature": "Sassy",
+        "moves": [
+          "Air Slash",
+          "Quick Attack",
+          "Facade",
+          "U-turn"
+        ],
+        "sub_index": 2,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 65 PkMn Trainer Cheren27 - Victory Road": {
+        "level": 65,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 593,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Scope Lens",
+        "nature": "Bold",
+        "moves": [
+          "Air Slash",
+          "Quick Attack",
+          "Facade",
+          "U-turn"
+        ],
+        "sub_index": 2,
+        "ability": "Unburden",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 57 Ace Trainer Elmer2 - Route 7": {
+        "level": 57,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 607,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Lansat Berry",
+        "nature": "Docile",
+        "moves": [
+          "Shadow Claw",
+          "Drill Peck",
+          "Blaze Kick",
+          "Endure"
+        ],
+        "sub_index": 4,
+        "ability": "Super Luck",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Nidoking": {
+      "Lvl 44 PkMn Trainer Cheren - Route 5": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 15,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Naive",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Thunderbolt",
+          "Ice Beam"
+        ],
+        "sub_index": 1,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren2": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 16,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Gentle",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Thunderbolt",
+          "Ice Beam"
+        ],
+        "sub_index": 1,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren3 - Marvelous Bridge": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 17,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Bashful",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Thunderbolt",
+          "Ice Beam"
+        ],
+        "sub_index": 1,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren10 - Route 5": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 90,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Bold",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Thunderbolt",
+          "Ice Beam"
+        ],
+        "sub_index": 2,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren11": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 91,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Jolly",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Thunderbolt",
+          "Ice Beam"
+        ],
+        "sub_index": 2,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 PkMn Trainer Cheren12": {
+        "level": 44,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 92,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Timid",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Thunderbolt",
+          "Ice Beam"
+        ],
+        "sub_index": 2,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 67 Veteran Ken": {
+        "level": 67,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 483,
+        "diff": 0,
+        "ivs": {
+          "hp": 24,
+          "at": 24,
+          "df": 24,
+          "sa": 24,
+          "sd": 24,
+          "sp": 24
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Impish",
+        "moves": [
+          "Sludge Wave",
+          "Gunk Shot",
+          "Earthquake",
+          "Earth Power"
+        ],
+        "sub_index": 0,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Emboar": {
+      "Lvl 45 PkMn Trainer Cheren - Route 5": {
+        "level": 45,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 15,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Charcoal",
+        "nature": "Bold",
+        "moves": [
+          "Blaze Kick",
+          "Crunch",
+          "Earthquake",
+          "Wild Charge"
+        ],
+        "sub_index": 2,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 PkMn Trainer Cheren10 - Route 5": {
+        "level": 45,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 90,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Charcoal",
+        "nature": "Sassy",
+        "moves": [
+          "Blaze Kick",
+          "Crunch",
+          "Earthquake",
+          "Wild Charge"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 78 Veteran TFG - Victory Road": {
+        "level": 78,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 248,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Black Glasses",
+        "nature": "Timid",
+        "moves": [
+          "V-create",
+          "Sucker Punch",
+          "Knock Off",
+          "Stone Edge"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 37 PkMn Trainer Cheren16": {
+        "level": 37,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 403,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Charcoal",
+        "nature": "Bold",
+        "moves": [
+          "Heat Crash",
+          "Knock Off",
+          "Drain Punch",
+          "Thunder Punch"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 PkMn Trainer Bianca6 - Driftveil City": {
+        "level": 51,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 493,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Fire Gem",
+        "nature": "Impish",
+        "moves": [
+          "Blaze Kick",
+          "Night Slash",
+          "Earthquake",
+          "Wild Charge"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 72 PkMn Trainer Bianca9": {
+        "level": 72,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 496,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Fire Gem",
+        "nature": "Sassy",
+        "moves": [
+          "Flare Blitz",
+          "Crunch",
+          "Wild Charge",
+          "Close Combat"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 PkMn Trainer Bianca15 - Castelia Gate": {
+        "level": 36,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 509,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Naive",
+        "moves": [
+          "Fire Punch",
+          "Night Slash",
+          "Drain Punch",
+          "Thunder Punch"
+        ],
+        "sub_index": 4,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 PkMn Trainer Cheren19": {
+        "level": 63,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 539,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Leftovers",
+        "nature": "Naive",
+        "moves": [
+          "Fire Punch",
+          "Sucker Punch",
+          "Bulk Up",
+          "Wild Charge"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 77 PkMn Trainer Cheren22": {
+        "level": 77,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 588,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Bold",
+        "moves": [
+          "Swords Dance",
+          "Sucker Punch",
+          "Heat Crash",
+          "Wild Charge"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 67 PkMn Trainer Cheren25 - Victory Road": {
+        "level": 67,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 591,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Mild",
+        "moves": [
+          "Flare Blitz",
+          "Head Smash",
+          "Brick Break",
+          "Wild Charge"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 65 PkMn Trainer Bianca18": {
+        "level": 65,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 596,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Bashful",
+        "moves": [
+          "Return",
+          "Flare Blitz",
+          "Brick Break",
+          "Wild Charge"
+        ],
+        "sub_index": 5,
+        "ability": "Adaptability",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Samurott": {
+      "Lvl 45 PkMn Trainer Cheren2": {
+        "level": 45,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 16,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Mystic Water",
+        "nature": "Naive",
+        "moves": [
+          "Sacred Sword",
+          "Aqua Tail",
+          "Wild Charge",
+          "Icicle Crash"
+        ],
+        "sub_index": 2,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 PkMn Trainer Cheren11": {
+        "level": 45,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 91,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Mystic Water",
+        "nature": "Docile",
+        "moves": [
+          "Sacred Sword",
+          "Aqua Tail",
+          "Wild Charge",
+          "Icicle Crash"
+        ],
+        "sub_index": 5,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 37 PkMn Trainer Cheren17 - Route 4": {
+        "level": 37,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 404,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Mystic Water",
+        "nature": "Jolly",
+        "moves": [
+          "Waterfall",
+          "Submission",
+          "Rock Climb",
+          "Drill Run"
+        ],
+        "sub_index": 5,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 PkMn Trainer Bianca4": {
+        "level": 51,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 491,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Water Gem",
+        "nature": "Naive",
+        "moves": [
+          "Waterfall",
+          "Sacred Sword",
+          "Wild Charge",
+          "X-Scissor"
+        ],
+        "sub_index": 5,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 72 PkMn Trainer Bianca7 - Route 8": {
+        "level": 72,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 494,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "White Herb",
+        "nature": "Adamant",
+        "moves": [
+          "Shell Smash",
+          "Sacred Sword",
+          "Waterfall",
+          "Icicle Crash"
+        ],
+        "sub_index": 5,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 PkMn Trainer Bianca13 - Castelia Gate": {
+        "level": 36,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 507,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Rash",
+        "moves": [
+          "Sky Uppercut",
+          "Waterfall",
+          "X-Scissor",
+          "Drill Run"
+        ],
+        "sub_index": 4,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 PkMn Trainer Cheren20": {
+        "level": 63,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 540,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Leftovers",
+        "nature": "Sassy",
+        "moves": [
+          "Waterfall",
+          "Sacred Sword",
+          "X-Scissor",
+          "Shell Smash"
+        ],
+        "sub_index": 5,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 77 PkMn Trainer Cheren23": {
+        "level": 77,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 589,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Naive",
+        "moves": [
+          "Waterfall",
+          "Shell Smash",
+          "Sacred Sword",
+          "X-Scissor"
+        ],
+        "sub_index": 5,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 67 PkMn Trainer Cheren26 - Victory Road": {
+        "level": 67,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 592,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Jolly",
+        "moves": [
+          "Hydro Pump",
+          "Aqua Jet",
+          "Blizzard",
+          "X-Scissor"
+        ],
+        "sub_index": 5,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 65 PkMn Trainer Bianca16 - Nuvema Town": {
+        "level": 65,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 594,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Quirky",
+        "moves": [
+          "Return",
+          "Aqua Tail",
+          "X-Scissor",
+          "Aerial Ace"
+        ],
+        "sub_index": 5,
+        "ability": "Shell Armor",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Serperior": {
+      "Lvl 45 PkMn Trainer Cheren3 - Marvelous Bridge": {
+        "level": 45,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 17,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Miracle Seed",
+        "nature": "Lax",
+        "moves": [
+          "Energy Ball",
+          "Dragon Pulse",
+          "Dark Pulse",
+          "Glare"
+        ],
+        "sub_index": 2,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 PkMn Trainer Cheren12": {
+        "level": 45,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 92,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Miracle Seed",
+        "nature": "Hardy",
+        "moves": [
+          "Energy Ball",
+          "Dragon Pulse",
+          "Dark Pulse",
+          "Glare"
+        ],
+        "sub_index": 5,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 73 Ace Trainer Olwen - Opelucid City": {
+        "level": 73,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 265,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Electric Gem",
+        "nature": "Lonely",
+        "moves": [
+          "Dragon Pulse",
+          "Energy Ball",
+          "Thunderbolt",
+          "Substitute"
+        ],
+        "sub_index": 4,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/ace_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 37 PkMn Trainer Cheren18": {
+        "level": 37,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 405,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Miracle Seed",
+        "nature": "Sassy",
+        "moves": [
+          "Energy Ball",
+          "Thunderbolt",
+          "Leech Seed",
+          "Substitute"
+        ],
+        "sub_index": 5,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 PkMn Trainer Bianca5": {
+        "level": 51,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 492,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Grass Gem",
+        "nature": "Timid",
+        "moves": [
+          "Energy Ball",
+          "Dragon Pulse",
+          "Earth Power",
+          "Glare"
+        ],
+        "sub_index": 5,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 72 PkMn Trainer Bianca8": {
+        "level": 72,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 495,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Quirky",
+        "moves": [
+          "Energy Ball",
+          "Dragon Pulse",
+          "Earth Power",
+          "Nasty Plot"
+        ],
+        "sub_index": 5,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 PkMn Trainer Bianca14": {
+        "level": 36,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 508,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Modest",
+        "moves": [
+          "Giga Drain",
+          "Dragon Breath",
+          "Glare",
+          "Leech Seed"
+        ],
+        "sub_index": 4,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 PkMn Trainer Cheren21 - Twist Mountain": {
+        "level": 63,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 541,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Leftovers",
+        "nature": "Docile",
+        "moves": [
+          "Energy Ball",
+          "Dragon Pulse",
+          "Earth Power",
+          "Leech Seed"
+        ],
+        "sub_index": 5,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 77 PkMn Trainer Cheren24 - Route 10": {
+        "level": 77,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 590,
+        "diff": 0,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Lax",
+        "moves": [
+          "Energy Ball",
+          "Dragon Pulse",
+          "Dark Pulse",
+          "Thunderbolt"
+        ],
+        "sub_index": 5,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 67 PkMn Trainer Cheren27 - Victory Road": {
+        "level": 67,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 593,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Impish",
+        "moves": [
+          "Leaf Storm",
+          "Coil",
+          "Dragon Tail",
+          "Leaf Blade"
+        ],
+        "sub_index": 5,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 65 PkMn Trainer Bianca17": {
+        "level": 65,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 595,
+        "diff": 0,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Calm",
+        "moves": [
+          "Return",
+          "Leaf Storm",
+          "Dragon Tail",
+          "Coil"
+        ],
+        "sub_index": 5,
+        "ability": "Sheer Force",
+        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Cleffa": {
       "Lvl 27 Twins Kumi & Amy - Route 3": {
         "level": 27,
@@ -91819,7 +93439,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Trainer Cheren7 - Route 5": {
+      "Lvl 44 PkMn Trainer Cheren10 - Route 5": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -91979,7 +93599,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren13": {
+      "Lvl 36 PkMn Trainer Cheren16": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -92139,7 +93759,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren16": {
+      "Lvl 62 PkMn Trainer Cheren19": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -92203,7 +93823,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren25 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -92301,7 +93921,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Trainer Cheren8": {
+      "Lvl 44 PkMn Trainer Cheren11": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -92493,7 +94113,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 36 PkMn Trainer Cheren17 - Route 4": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -92685,7 +94305,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren17": {
+      "Lvl 62 PkMn Trainer Cheren20": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -92749,7 +94369,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren26 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -92847,7 +94467,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Trainer Cheren9": {
+      "Lvl 44 PkMn Trainer Cheren12": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -93007,7 +94627,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren15": {
+      "Lvl 36 PkMn Trainer Cheren18": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -93199,7 +94819,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 62 PkMn Trainer Cheren21 - Twist Mountain": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -93263,7 +94883,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren27 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -93422,7 +95042,7 @@ backup_data = {
           "Lovely Kiss"
         ],
         "sub_index": 2,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -93454,7 +95074,7 @@ backup_data = {
           "Perish Song"
         ],
         "sub_index": 0,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/preschooler.png",
         "form": 0,
         "evs": {
@@ -95474,7 +97094,7 @@ backup_data = {
           "Submission"
         ],
         "sub_index": 5,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/leader.png",
         "form": 0,
         "evs": {
@@ -95506,7 +97126,7 @@ backup_data = {
           "Double Kick"
         ],
         "sub_index": 1,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -95570,7 +97190,7 @@ backup_data = {
           "Double Kick"
         ],
         "sub_index": 0,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -95602,7 +97222,7 @@ backup_data = {
           "Double Kick"
         ],
         "sub_index": 1,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -95666,7 +97286,7 @@ backup_data = {
           "Spark"
         ],
         "sub_index": 0,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -95698,7 +97318,7 @@ backup_data = {
           "Discharge"
         ],
         "sub_index": 0,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -95730,7 +97350,7 @@ backup_data = {
           "Overheat"
         ],
         "sub_index": 1,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -95762,7 +97382,7 @@ backup_data = {
           "Flame Charge"
         ],
         "sub_index": 0,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -95794,7 +97414,7 @@ backup_data = {
           "Flame Charge"
         ],
         "sub_index": 1,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -95826,7 +97446,7 @@ backup_data = {
           "Overheat"
         ],
         "sub_index": 1,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/backers.png",
         "form": 0,
         "evs": {
@@ -95858,7 +97478,7 @@ backup_data = {
           "Double Kick"
         ],
         "sub_index": 2,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -95890,7 +97510,7 @@ backup_data = {
           "Flame Charge"
         ],
         "sub_index": 1,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/pokemon_ranger.png",
         "form": 0,
         "evs": {
@@ -95922,7 +97542,7 @@ backup_data = {
           "Flame Charge"
         ],
         "sub_index": 5,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/game_freak.png",
         "form": 0,
         "evs": {
@@ -95954,7 +97574,7 @@ backup_data = {
           "Double Kick"
         ],
         "sub_index": 2,
-        "ability": "Sap Sipper",
+        "ability": "Reckless",
         "sprite": "./images/trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -95963,8 +97583,8 @@ backup_data = {
       }
     },
     "Gigalith": {
-      "Lvl 49 Leader Clay": {
-        "level": 49,
+      "Lvl 50 Leader Clay": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 24,
@@ -95980,7 +97600,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Leftovers",
-        "nature": "Careful",
+        "nature": "Relaxed",
         "moves": [
           "Power Gem",
           "Earth Power",
@@ -96155,7 +97775,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren25 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -96187,7 +97807,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren26 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -96219,7 +97839,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren27 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -96253,8 +97873,8 @@ backup_data = {
       }
     },
     "Dugtrio": {
-      "Lvl 49 Leader Clay": {
-        "level": 49,
+      "Lvl 50 Leader Clay": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 24,
@@ -96270,7 +97890,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Muscle Band",
-        "nature": "Relaxed",
+        "nature": "Mild",
         "moves": [
           "Earthquake",
           "Close Combat",
@@ -96415,8 +98035,8 @@ backup_data = {
       }
     },
     "Seismitoad": {
-      "Lvl 49 Leader Clay": {
-        "level": 49,
+      "Lvl 50 Leader Clay": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 24,
@@ -96432,7 +98052,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Black Sludge",
-        "nature": "Rash",
+        "nature": "Adamant",
         "moves": [
           "Earth Power",
           "Sludge Bomb",
@@ -96513,8 +98133,8 @@ backup_data = {
       }
     },
     "Aggron": {
-      "Lvl 49 Leader Clay": {
-        "level": 49,
+      "Lvl 50 Leader Clay": {
+        "level": 50,
         "ai": 7,
         "noCh": false,
         "tr_id": 24,
@@ -96530,7 +98150,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Air Balloon",
-        "nature": "Bashful",
+        "nature": "Quiet",
         "moves": [
           "Head Smash",
           "Iron Tail",
@@ -96643,8 +98263,8 @@ backup_data = {
       }
     },
     "Excadrill": {
-      "Lvl 50 Leader Clay": {
-        "level": 50,
+      "Lvl 51 Leader Clay": {
+        "level": 51,
         "ai": 7,
         "noCh": false,
         "tr_id": 24,
@@ -96660,7 +98280,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Sash",
-        "nature": "Lax",
+        "nature": "Relaxed",
         "moves": [
           "Earthquake",
           "X-Scissor",
@@ -96965,7 +98585,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 85 Team Plasma Ghetsis": {
+      "Lvl 85 Team Plasma Ghetsis - N's Castle": {
         "level": 85,
         "ai": 7,
         "noCh": false,
@@ -100436,7 +102056,7 @@ backup_data = {
           "Sucker Punch"
         ],
         "sub_index": 1,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/swimmer_m.png",
         "form": 0,
         "evs": {
@@ -101052,7 +102672,7 @@ backup_data = {
           ""
         ],
         "sub_index": 2,
-        "ability": "Sap Sipper",
+        "ability": "Solid Rock",
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -101084,7 +102704,7 @@ backup_data = {
           "Stone Edge"
         ],
         "sub_index": 2,
-        "ability": "Sap Sipper",
+        "ability": "Solid Rock",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -103909,7 +105529,7 @@ backup_data = {
       }
     },
     "Tepig": {
-      "Lvl 5 PkMn Trainer Cheren - Driftveil City": {
+      "Lvl 5 PkMn Trainer Cheren4 - Driftveil City": {
         "level": 5,
         "ai": 16,
         "noCh": false,
@@ -103969,7 +105589,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren10": {
+      "Lvl 14 PkMn Trainer Cheren13": {
         "level": 14,
         "ai": 7,
         "noCh": false,
@@ -104035,7 +105655,7 @@ backup_data = {
       }
     },
     "Oshawott": {
-      "Lvl 5 PkMn Trainer Cheren2": {
+      "Lvl 5 PkMn Trainer Cheren5": {
         "level": 5,
         "ai": 16,
         "noCh": false,
@@ -104095,7 +105715,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren11 - Striaton City": {
+      "Lvl 14 PkMn Trainer Cheren14 - Striaton City": {
         "level": 14,
         "ai": 7,
         "noCh": false,
@@ -104161,7 +105781,7 @@ backup_data = {
       }
     },
     "Snivy": {
-      "Lvl 5 PkMn Trainer Cheren3": {
+      "Lvl 5 PkMn Trainer Cheren6": {
         "level": 5,
         "ai": 16,
         "noCh": false,
@@ -104221,7 +105841,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 14 PkMn Trainer Cheren12": {
+      "Lvl 14 PkMn Trainer Cheren15": {
         "level": 14,
         "ai": 7,
         "noCh": false,
@@ -104287,7 +105907,7 @@ backup_data = {
       }
     },
     "Pidgeotto": {
-      "Lvl 20 PkMn Trainer Cheren4": {
+      "Lvl 20 PkMn Trainer Cheren7": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -104319,7 +105939,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 20 PkMn Trainer Cheren5 - Wellspring Cave": {
+      "Lvl 20 PkMn Trainer Cheren8 - Wellspring Cave": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -104351,7 +105971,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 20 PkMn Trainer Cheren6 - Route 3": {
+      "Lvl 20 PkMn Trainer Cheren9 - Route 3": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -104417,7 +106037,7 @@ backup_data = {
       }
     },
     "Vigoroth": {
-      "Lvl 20 PkMn Trainer Cheren4": {
+      "Lvl 20 PkMn Trainer Cheren7": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -104449,7 +106069,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 20 PkMn Trainer Cheren5 - Wellspring Cave": {
+      "Lvl 20 PkMn Trainer Cheren8 - Wellspring Cave": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -104481,7 +106101,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 20 PkMn Trainer Cheren6 - Route 3": {
+      "Lvl 20 PkMn Trainer Cheren9 - Route 3": {
         "level": 20,
         "ai": 135,
         "noCh": false,
@@ -104515,7 +106135,7 @@ backup_data = {
       }
     },
     "Pignite": {
-      "Lvl 21 PkMn Trainer Cheren4": {
+      "Lvl 21 PkMn Trainer Cheren7": {
         "level": 21,
         "ai": 135,
         "noCh": false,
@@ -104549,7 +106169,7 @@ backup_data = {
       }
     },
     "Dewott": {
-      "Lvl 21 PkMn Trainer Cheren5 - Wellspring Cave": {
+      "Lvl 21 PkMn Trainer Cheren8 - Wellspring Cave": {
         "level": 21,
         "ai": 135,
         "noCh": false,
@@ -104583,7 +106203,7 @@ backup_data = {
       }
     },
     "Servine": {
-      "Lvl 21 PkMn Trainer Cheren6 - Route 3": {
+      "Lvl 21 PkMn Trainer Cheren9 - Route 3": {
         "level": 21,
         "ai": 135,
         "noCh": false,
@@ -106713,7 +108333,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren25 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -106745,7 +108365,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren26 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -106777,7 +108397,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren27 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -107101,7 +108721,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Trainer Cheren8": {
+      "Lvl 44 PkMn Trainer Cheren11": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -107197,7 +108817,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 36 PkMn Trainer Cheren17 - Route 4": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -108097,7 +109717,7 @@ backup_data = {
           "Discharge",
           "Rain Dance",
           "Thunder Wave",
-          "Scald"
+          "Water Pulse"
         ],
         "sub_index": 0,
         "ability": "Volt Absorb",
@@ -108269,7 +109889,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren16": {
+      "Lvl 62 PkMn Trainer Cheren19": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -108301,7 +109921,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren17": {
+      "Lvl 62 PkMn Trainer Cheren20": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -108333,7 +109953,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 62 PkMn Trainer Cheren21 - Twist Mountain": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -108486,7 +110106,7 @@ backup_data = {
         "moves": [
           "X-Scissor",
           "Blaze Kick",
-          "Seed Bomb",
+          "Wild Charge",
           "Sweet Kiss"
         ],
         "sub_index": 3,
@@ -110123,7 +111743,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 76 PkMn Trainer Cheren24 - Route 10": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -110253,7 +111873,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 85 Team Plasma Ghetsis": {
+      "Lvl 85 Team Plasma Ghetsis - N's Castle": {
         "level": 85,
         "ai": 7,
         "noCh": false,
@@ -110285,7 +111905,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 76 PkMn Trainer Cheren24 - Route 10": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -111482,7 +113102,7 @@ backup_data = {
           "Aura Sphere"
         ],
         "sub_index": 2,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -111514,7 +113134,7 @@ backup_data = {
           "Psychic"
         ],
         "sub_index": 0,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/battle_girl.png",
         "form": 0,
         "evs": {
@@ -111546,7 +113166,7 @@ backup_data = {
           "Perish Song"
         ],
         "sub_index": 0,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/ace_trainer.png",
         "form": 0,
         "evs": {
@@ -111578,7 +113198,7 @@ backup_data = {
           "Lovely Kiss"
         ],
         "sub_index": 1,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -111610,7 +113230,7 @@ backup_data = {
           "Lovely Kiss"
         ],
         "sub_index": 1,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -111642,7 +113262,7 @@ backup_data = {
           "Lovely Kiss"
         ],
         "sub_index": 1,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -111674,7 +113294,7 @@ backup_data = {
           "Lovely Kiss"
         ],
         "sub_index": 1,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -111706,7 +113326,7 @@ backup_data = {
           "Lovely Kiss"
         ],
         "sub_index": 1,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -111738,7 +113358,7 @@ backup_data = {
           "Lovely Kiss"
         ],
         "sub_index": 1,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
@@ -115621,7 +117241,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren16": {
+      "Lvl 62 PkMn Trainer Cheren19": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -116070,7 +117690,7 @@ backup_data = {
           "Shadow Sneak"
         ],
         "sub_index": 5,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -116102,7 +117722,7 @@ backup_data = {
           "Shadow Claw"
         ],
         "sub_index": 1,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/psychic.png",
         "form": 0,
         "evs": {
@@ -116134,7 +117754,7 @@ backup_data = {
           "Spikes"
         ],
         "sub_index": 2,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -116166,7 +117786,7 @@ backup_data = {
           "Moonlight"
         ],
         "sub_index": 3,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
@@ -116198,7 +117818,7 @@ backup_data = {
           "Spikes"
         ],
         "sub_index": 2,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -116206,362 +117826,8 @@ backup_data = {
         }
       }
     },
-    "Unfezant": {
-      "Lvl 44 PkMn Trainer Cheren7 - Route 5": {
-        "level": 44,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 90,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Naive",
-        "moves": [
-          "Shadow Claw",
-          "Drill Peck",
-          "Blaze Kick",
-          "Drill Run"
-        ],
-        "sub_index": 0,
-        "ability": "Unburden",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 PkMn Trainer Cheren8": {
-        "level": 44,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 91,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Hasty",
-        "moves": [
-          "Shadow Claw",
-          "Drill Peck",
-          "Blaze Kick",
-          "Drill Run"
-        ],
-        "sub_index": 0,
-        "ability": "Unburden",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 PkMn Trainer Cheren9": {
-        "level": 44,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 92,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Bashful",
-        "moves": [
-          "Shadow Claw",
-          "Drill Peck",
-          "Blaze Kick",
-          "Drill Run"
-        ],
-        "sub_index": 0,
-        "ability": "Unburden",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 40 Infielder Connor": {
-        "level": 40,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 192,
-        "diff": 0,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Quirky",
-        "moves": [
-          "Blaze Kick",
-          "Shadow Claw",
-          "Drill Run",
-          "Drill Peck"
-        ],
-        "sub_index": 1,
-        "ability": "Big Pecks",
-        "sprite": "./images/trainer_sprites/infielder.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 67 Infielder Connor2 - Nimbasa City": {
-        "level": 67,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 323,
-        "diff": 0,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Gentle",
-        "moves": [
-          "Brave Bird",
-          "Shadow Sneak",
-          "Blaze Kick",
-          "Shadow Claw"
-        ],
-        "sub_index": 0,
-        "ability": "Big Pecks",
-        "sprite": "./images/trainer_sprites/infielder.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 Waiter Clint - Nimbasa City": {
-        "level": 63,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 363,
-        "diff": 0,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "Fresh Water",
-        "item": "None",
-        "nature": "Relaxed",
-        "moves": [
-          "Brave Bird",
-          "Shadow Sneak",
-          "Blaze Kick",
-          "Shadow Claw"
-        ],
-        "sub_index": 2,
-        "ability": "Big Pecks",
-        "sprite": "./images/trainer_sprites/waiter.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 Pilot Leonard": {
-        "level": 63,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 375,
-        "diff": 0,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Impish",
-        "moves": [
-          "Brave Bird",
-          "Shadow Sneak",
-          "Blaze Kick",
-          "Shadow Claw"
-        ],
-        "sub_index": 2,
-        "ability": "Big Pecks",
-        "sprite": "./images/trainer_sprites/pilot.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 65 PkMn Trainer Cheren22 - Victory Road": {
-        "level": 65,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 591,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Scope Lens",
-        "nature": "Hardy",
-        "moves": [
-          "Air Slash",
-          "Quick Attack",
-          "Facade",
-          "U-turn"
-        ],
-        "sub_index": 2,
-        "ability": "Unburden",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 65 PkMn Trainer Cheren23 - Victory Road": {
-        "level": 65,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 592,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Scope Lens",
-        "nature": "Sassy",
-        "moves": [
-          "Air Slash",
-          "Quick Attack",
-          "Facade",
-          "U-turn"
-        ],
-        "sub_index": 2,
-        "ability": "Unburden",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 65 PkMn Trainer Cheren24 - Victory Road": {
-        "level": 65,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 593,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Scope Lens",
-        "nature": "Bold",
-        "moves": [
-          "Air Slash",
-          "Quick Attack",
-          "Facade",
-          "U-turn"
-        ],
-        "sub_index": 2,
-        "ability": "Unburden",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 57 Ace Trainer Elmer2 - Route 7": {
-        "level": 57,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 607,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Lansat Berry",
-        "nature": "Docile",
-        "moves": [
-          "Shadow Claw",
-          "Drill Peck",
-          "Blaze Kick",
-          "Endure"
-        ],
-        "sub_index": 4,
-        "ability": "Super Luck",
-        "sprite": "./images/trainer_sprites/ace_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Beheeyem": {
-      "Lvl 44 PkMn Trainer Cheren7 - Route 5": {
+      "Lvl 44 PkMn Trainer Cheren10 - Route 5": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -116593,7 +117859,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Trainer Cheren8": {
+      "Lvl 44 PkMn Trainer Cheren11": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -116625,7 +117891,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 44 PkMn Trainer Cheren9": {
+      "Lvl 44 PkMn Trainer Cheren12": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -116786,138 +118052,8 @@ backup_data = {
         }
       }
     },
-    "Nidoking": {
-      "Lvl 44 PkMn Trainer Cheren7 - Route 5": {
-        "level": 44,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 90,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Bold",
-        "moves": [
-          "Sludge Bomb",
-          "Earth Power",
-          "Thunderbolt",
-          "Ice Beam"
-        ],
-        "sub_index": 2,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 PkMn Trainer Cheren8": {
-        "level": 44,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 91,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Jolly",
-        "moves": [
-          "Sludge Bomb",
-          "Earth Power",
-          "Thunderbolt",
-          "Ice Beam"
-        ],
-        "sub_index": 2,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 PkMn Trainer Cheren9": {
-        "level": 44,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 92,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Timid",
-        "moves": [
-          "Sludge Bomb",
-          "Earth Power",
-          "Thunderbolt",
-          "Ice Beam"
-        ],
-        "sub_index": 2,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 67 Veteran Ken": {
-        "level": 67,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 483,
-        "diff": 0,
-        "ivs": {
-          "hp": 24,
-          "at": 24,
-          "df": 24,
-          "sa": 24,
-          "sd": 24,
-          "sp": 24
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Impish",
-        "moves": [
-          "Sludge Wave",
-          "Gunk Shot",
-          "Earthquake",
-          "Earth Power"
-        ],
-        "sub_index": 0,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Whiscash": {
-      "Lvl 44 PkMn Trainer Cheren7 - Route 5": {
+      "Lvl 44 PkMn Trainer Cheren10 - Route 5": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -116949,7 +118085,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren13": {
+      "Lvl 36 PkMn Trainer Cheren16": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -117046,620 +118182,8 @@ backup_data = {
         }
       }
     },
-    "Emboar": {
-      "Lvl 45 PkMn Trainer Cheren7 - Route 5": {
-        "level": 45,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 90,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Charcoal",
-        "nature": "Sassy",
-        "moves": [
-          "Blaze Kick",
-          "Crunch",
-          "Earthquake",
-          "Wild Charge"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 78 Veteran TFG - Victory Road": {
-        "level": 78,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 248,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Black Glasses",
-        "nature": "Timid",
-        "moves": [
-          "V-create",
-          "Sucker Punch",
-          "Knock Off",
-          "Stone Edge"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 37 PkMn Trainer Cheren13": {
-        "level": 37,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 403,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Charcoal",
-        "nature": "Bold",
-        "moves": [
-          "Heat Crash",
-          "Knock Off",
-          "Drain Punch",
-          "Thunder Punch"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 PkMn Trainer Bianca6 - Driftveil City": {
-        "level": 51,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 493,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Fire Gem",
-        "nature": "Impish",
-        "moves": [
-          "Blaze Kick",
-          "Night Slash",
-          "Earthquake",
-          "Wild Charge"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 72 PkMn Trainer Bianca9": {
-        "level": 72,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 496,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Fire Gem",
-        "nature": "Sassy",
-        "moves": [
-          "Flare Blitz",
-          "Crunch",
-          "Wild Charge",
-          "Close Combat"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 PkMn Trainer Bianca15 - Castelia Gate": {
-        "level": 36,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 509,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Naive",
-        "moves": [
-          "Fire Punch",
-          "Night Slash",
-          "Drain Punch",
-          "Thunder Punch"
-        ],
-        "sub_index": 4,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 PkMn Trainer Cheren16": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 539,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Leftovers",
-        "nature": "Naive",
-        "moves": [
-          "Fire Punch",
-          "Sucker Punch",
-          "Bulk Up",
-          "Wild Charge"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 77 PkMn Trainer Cheren19": {
-        "level": 77,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 588,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Bold",
-        "moves": [
-          "Swords Dance",
-          "Sucker Punch",
-          "Heat Crash",
-          "Wild Charge"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 67 PkMn Trainer Cheren22 - Victory Road": {
-        "level": 67,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 591,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Mild",
-        "moves": [
-          "Flare Blitz",
-          "Head Smash",
-          "Brick Break",
-          "Wild Charge"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 65 PkMn Trainer Bianca18": {
-        "level": 65,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 596,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Bashful",
-        "moves": [
-          "Return",
-          "Flare Blitz",
-          "Brick Break",
-          "Wild Charge"
-        ],
-        "sub_index": 5,
-        "ability": "Adaptability",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Samurott": {
-      "Lvl 45 PkMn Trainer Cheren8": {
-        "level": 45,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 91,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Mystic Water",
-        "nature": "Docile",
-        "moves": [
-          "Sacred Sword",
-          "Aqua Tail",
-          "Wild Charge",
-          "Icicle Crash"
-        ],
-        "sub_index": 5,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 37 PkMn Trainer Cheren14 - Route 4": {
-        "level": 37,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 404,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Mystic Water",
-        "nature": "Jolly",
-        "moves": [
-          "Waterfall",
-          "Submission",
-          "Rock Climb",
-          "Drill Run"
-        ],
-        "sub_index": 5,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 PkMn Trainer Bianca4": {
-        "level": 51,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 491,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Water Gem",
-        "nature": "Naive",
-        "moves": [
-          "Waterfall",
-          "Sacred Sword",
-          "Wild Charge",
-          "X-Scissor"
-        ],
-        "sub_index": 5,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 72 PkMn Trainer Bianca7 - Route 8": {
-        "level": 72,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 494,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "White Herb",
-        "nature": "Adamant",
-        "moves": [
-          "Shell Smash",
-          "Sacred Sword",
-          "Waterfall",
-          "Icicle Crash"
-        ],
-        "sub_index": 5,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 PkMn Trainer Bianca13 - Castelia Gate": {
-        "level": 36,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 507,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Rash",
-        "moves": [
-          "Sky Uppercut",
-          "Waterfall",
-          "X-Scissor",
-          "Drill Run"
-        ],
-        "sub_index": 4,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 PkMn Trainer Cheren17": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 540,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Leftovers",
-        "nature": "Sassy",
-        "moves": [
-          "Waterfall",
-          "Sacred Sword",
-          "X-Scissor",
-          "Shell Smash"
-        ],
-        "sub_index": 5,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 77 PkMn Trainer Cheren20": {
-        "level": 77,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 589,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Naive",
-        "moves": [
-          "Waterfall",
-          "Shell Smash",
-          "Sacred Sword",
-          "X-Scissor"
-        ],
-        "sub_index": 5,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 67 PkMn Trainer Cheren23 - Victory Road": {
-        "level": 67,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 592,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Jolly",
-        "moves": [
-          "Hydro Pump",
-          "Aqua Jet",
-          "Blizzard",
-          "X-Scissor"
-        ],
-        "sub_index": 5,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 65 PkMn Trainer Bianca16 - Nuvema Town": {
-        "level": 65,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 594,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Quirky",
-        "moves": [
-          "Return",
-          "Aqua Tail",
-          "X-Scissor",
-          "Aerial Ace"
-        ],
-        "sub_index": 5,
-        "ability": "Shell Armor",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Camerupt": {
-      "Lvl 44 PkMn Trainer Cheren9": {
+      "Lvl 44 PkMn Trainer Cheren12": {
         "level": 44,
         "ai": 135,
         "noCh": false,
@@ -117723,7 +118247,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren15": {
+      "Lvl 36 PkMn Trainer Cheren18": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -117814,328 +118338,6 @@ backup_data = {
         "sub_index": 2,
         "ability": "Simple",
         "sprite": "./images/trainer_sprites/hiker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Serperior": {
-      "Lvl 45 PkMn Trainer Cheren9": {
-        "level": 45,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 92,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Miracle Seed",
-        "nature": "Hardy",
-        "moves": [
-          "Energy Ball",
-          "Dragon Pulse",
-          "Dark Pulse",
-          "Glare"
-        ],
-        "sub_index": 5,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 73 Ace Trainer Olwen - Opelucid City": {
-        "level": 73,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 265,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Electric Gem",
-        "nature": "Lonely",
-        "moves": [
-          "Dragon Pulse",
-          "Energy Ball",
-          "Thunderbolt",
-          "Substitute"
-        ],
-        "sub_index": 4,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/ace_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 37 PkMn Trainer Cheren15": {
-        "level": 37,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 405,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Miracle Seed",
-        "nature": "Sassy",
-        "moves": [
-          "Energy Ball",
-          "Thunderbolt",
-          "Leech Seed",
-          "Substitute"
-        ],
-        "sub_index": 5,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 PkMn Trainer Bianca5": {
-        "level": 51,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 492,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Grass Gem",
-        "nature": "Timid",
-        "moves": [
-          "Energy Ball",
-          "Dragon Pulse",
-          "Earth Power",
-          "Glare"
-        ],
-        "sub_index": 5,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 72 PkMn Trainer Bianca8": {
-        "level": 72,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 495,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Quirky",
-        "moves": [
-          "Energy Ball",
-          "Dragon Pulse",
-          "Earth Power",
-          "Nasty Plot"
-        ],
-        "sub_index": 5,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 PkMn Trainer Bianca14": {
-        "level": 36,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 508,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Modest",
-        "moves": [
-          "Giga Drain",
-          "Dragon Breath",
-          "Glare",
-          "Leech Seed"
-        ],
-        "sub_index": 4,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 PkMn Trainer Cheren18 - Twist Mountain": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 541,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Leftovers",
-        "nature": "Docile",
-        "moves": [
-          "Energy Ball",
-          "Dragon Pulse",
-          "Earth Power",
-          "Leech Seed"
-        ],
-        "sub_index": 5,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 77 PkMn Trainer Cheren21 - Route 10": {
-        "level": 77,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 590,
-        "diff": 0,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Lax",
-        "moves": [
-          "Energy Ball",
-          "Dragon Pulse",
-          "Dark Pulse",
-          "Thunderbolt"
-        ],
-        "sub_index": 5,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 67 PkMn Trainer Cheren24 - Victory Road": {
-        "level": 67,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 593,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Impish",
-        "moves": [
-          "Leaf Storm",
-          "Coil",
-          "Dragon Tail",
-          "Leaf Blade"
-        ],
-        "sub_index": 5,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 65 PkMn Trainer Bianca17": {
-        "level": 65,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 595,
-        "diff": 0,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Calm",
-        "moves": [
-          "Return",
-          "Leaf Storm",
-          "Dragon Tail",
-          "Coil"
-        ],
-        "sub_index": 5,
-        "ability": "Sheer Force",
-        "sprite": "./images/trainer_sprites/pokemon_trainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -119445,7 +119647,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 62 PkMn Trainer Cheren21 - Twist Mountain": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -122018,7 +122220,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren16": {
+      "Lvl 62 PkMn Trainer Cheren19": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -122050,7 +122252,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren17": {
+      "Lvl 62 PkMn Trainer Cheren20": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -122082,7 +122284,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 62 PkMn Trainer Cheren21 - Twist Mountain": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -122506,7 +122708,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren19": {
+      "Lvl 76 PkMn Trainer Cheren22": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -122538,7 +122740,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren20": {
+      "Lvl 76 PkMn Trainer Cheren23": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -122570,7 +122772,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 76 PkMn Trainer Cheren24 - Route 10": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -123418,7 +123620,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren22 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren25 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -123450,7 +123652,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren23 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren26 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -123482,7 +123684,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 65 PkMn Trainer Cheren24 - Victory Road": {
+      "Lvl 65 PkMn Trainer Cheren27 - Victory Road": {
         "level": 65,
         "ai": 7,
         "noCh": false,
@@ -123840,7 +124042,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren20": {
+      "Lvl 76 PkMn Trainer Cheren23": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -124353,14 +124555,14 @@ backup_data = {
           "Wild Charge"
         ],
         "sub_index": 1,
-        "ability": "Sap Sipper",
+        "ability": "",
         "sprite": "./images/trainer_sprites/team_plasma.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 85 Team Plasma Ghetsis": {
+      "Lvl 85 Team Plasma Ghetsis - N's Castle": {
         "level": 85,
         "ai": 7,
         "noCh": false,
@@ -125888,7 +126090,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren13": {
+      "Lvl 36 PkMn Trainer Cheren16": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -125920,7 +126122,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 36 PkMn Trainer Cheren17 - Route 4": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -125952,7 +126154,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren15": {
+      "Lvl 36 PkMn Trainer Cheren18": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -131264,7 +131466,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren19": {
+      "Lvl 76 PkMn Trainer Cheren22": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -136184,7 +136386,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren19": {
+      "Lvl 76 PkMn Trainer Cheren22": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -136216,7 +136418,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren20": {
+      "Lvl 76 PkMn Trainer Cheren23": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -136248,7 +136450,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 76 PkMn Trainer Cheren24 - Route 10": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -136606,7 +136808,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren19": {
+      "Lvl 76 PkMn Trainer Cheren22": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -137584,7 +137786,7 @@ backup_data = {
       }
     },
     "Eelektross": {
-      "Lvl 85 Team Plasma Ghetsis": {
+      "Lvl 85 Team Plasma Ghetsis - N's Castle": {
         "level": 85,
         "ai": 7,
         "noCh": false,
@@ -137682,7 +137884,7 @@ backup_data = {
       }
     },
     "Hydreigon": {
-      "Lvl 85 Team Plasma Ghetsis": {
+      "Lvl 85 Team Plasma Ghetsis - N's Castle": {
         "level": 85,
         "ai": 7,
         "noCh": false,
@@ -137812,7 +138014,7 @@ backup_data = {
       }
     },
     "Rayquaza": {
-      "Lvl 86 Team Plasma Ghetsis": {
+      "Lvl 86 Team Plasma Ghetsis - N's Castle": {
         "level": 86,
         "ai": 7,
         "noCh": false,
@@ -140396,7 +140598,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren20": {
+      "Lvl 76 PkMn Trainer Cheren23": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -140824,7 +141026,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren17": {
+      "Lvl 62 PkMn Trainer Cheren20": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -141184,7 +141386,7 @@ backup_data = {
       }
     },
     "Pidgey": {
-      "Lvl 13 PkMn Trainer Cheren10": {
+      "Lvl 13 PkMn Trainer Cheren13": {
         "level": 13,
         "ai": 7,
         "noCh": false,
@@ -141216,7 +141418,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 PkMn Trainer Cheren11 - Striaton City": {
+      "Lvl 13 PkMn Trainer Cheren14 - Striaton City": {
         "level": 13,
         "ai": 7,
         "noCh": false,
@@ -141248,7 +141450,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 PkMn Trainer Cheren12": {
+      "Lvl 13 PkMn Trainer Cheren15": {
         "level": 13,
         "ai": 7,
         "noCh": false,
@@ -141282,7 +141484,7 @@ backup_data = {
       }
     },
     "Slakoth": {
-      "Lvl 13 PkMn Trainer Cheren10": {
+      "Lvl 13 PkMn Trainer Cheren13": {
         "level": 13,
         "ai": 7,
         "noCh": false,
@@ -141314,7 +141516,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 PkMn Trainer Cheren11 - Striaton City": {
+      "Lvl 13 PkMn Trainer Cheren14 - Striaton City": {
         "level": 13,
         "ai": 7,
         "noCh": false,
@@ -141346,7 +141548,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 13 PkMn Trainer Cheren12": {
+      "Lvl 13 PkMn Trainer Cheren15": {
         "level": 13,
         "ai": 7,
         "noCh": false,
@@ -142502,7 +142704,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren19": {
+      "Lvl 76 PkMn Trainer Cheren22": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -142534,7 +142736,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren20": {
+      "Lvl 76 PkMn Trainer Cheren23": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -142566,7 +142768,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 76 PkMn Trainer Cheren21 - Route 10": {
+      "Lvl 76 PkMn Trainer Cheren24 - Route 10": {
         "level": 76,
         "ai": 135,
         "noCh": false,
@@ -143549,7 +143751,7 @@ backup_data = {
           "Stone Edge"
         ],
         "sub_index": 0,
-        "ability": "Sap Sipper",
+        "ability": "Solid Rock",
         "sprite": "./images/trainer_sprites/pokemon_breeder.png",
         "form": 0,
         "evs": {
@@ -144530,7 +144732,7 @@ backup_data = {
       }
     },
     "Pidgeot": {
-      "Lvl 36 PkMn Trainer Cheren13": {
+      "Lvl 36 PkMn Trainer Cheren16": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -144562,7 +144764,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 36 PkMn Trainer Cheren17 - Route 4": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -144594,7 +144796,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren15": {
+      "Lvl 36 PkMn Trainer Cheren18": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -144692,7 +144894,7 @@ backup_data = {
       }
     },
     "Slaking": {
-      "Lvl 36 PkMn Trainer Cheren13": {
+      "Lvl 36 PkMn Trainer Cheren16": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -144724,7 +144926,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren14 - Route 4": {
+      "Lvl 36 PkMn Trainer Cheren17 - Route 4": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -144756,7 +144958,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 PkMn Trainer Cheren15": {
+      "Lvl 36 PkMn Trainer Cheren18": {
         "level": 36,
         "ai": 7,
         "noCh": false,
@@ -145149,7 +145351,7 @@ backup_data = {
           "Spikes"
         ],
         "sub_index": 0,
-        "ability": "Dry Skin",
+        "ability": "Water Absorb",
         "sprite": "./images/trainer_sprites/school_kid.png",
         "form": 0,
         "evs": {
@@ -145986,7 +146188,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren16": {
+      "Lvl 62 PkMn Trainer Cheren19": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -146018,7 +146220,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren17": {
+      "Lvl 62 PkMn Trainer Cheren20": {
         "level": 62,
         "ai": 7,
         "noCh": false,
@@ -146050,7 +146252,7 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 62 PkMn Trainer Cheren18 - Twist Mountain": {
+      "Lvl 62 PkMn Trainer Cheren21 - Twist Mountain": {
         "level": 62,
         "ai": 7,
         "noCh": false,
