@@ -1911,10 +1911,10 @@ function loadMovesData() {
           moves[moveName][param] = jsonMove[param]
           MOVES_BY_ID[g][moveId][param] = jsonMove[param]  
 
-          if (jsonMove[param] && param == "sf") {
-            moves[moveName]["secondaries"] = true
-            MOVES_BY_ID[g][moveId]["secondaries"] = true
-          }
+          // if (jsonMove[param] && param == "sf") {
+          //   moves[moveName]["secondaries"] = true
+          //   MOVES_BY_ID[g][moveId]["secondaries"] = true
+          // }
         }
     }
 
