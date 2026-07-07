@@ -1904,12 +1904,17 @@ function loadMovesData() {
       MOVES_BY_ID[g][moveId].basePower = special_case_power_overrides[moveName]
     }
         
-    var optional_move_params = ["type", "category", "e_id", "multihit", "target", "recoil", "overrideBP", "secondaries", "drain", "priority", "willCrit"]  
+    var optional_move_params = ["type", "category", "e_id", "multihit", "target", "recoil", "overrideBP", "secondaries", "drain", "priority", "willCrit", "sf"]  
     for (n in optional_move_params) {
         var param = optional_move_params[n]
         if (jsonMove[param]) {
           moves[moveName][param] = jsonMove[param]
           MOVES_BY_ID[g][moveId][param] = jsonMove[param]  
+
+          if (jsonMove[param] && param == "sf") {
+            moves[moveName]["secondaries"] = true
+            MOVES_BY_ID[g][moveId]["secondaries"] = true
+          }
         }
     }
 

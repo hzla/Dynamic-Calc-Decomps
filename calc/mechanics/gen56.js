@@ -525,7 +525,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             }
             desc.defenderAbility = defender.ability;
         }
-        if (attacker.hasAbility('Sheer Force') && move.secondaries) {
+        console.log(move.name)
+        console.log(move)
+        if (attacker.hasAbility('Sheer Force') && (move.secondaries || move.sf)) {
             bpMods.push(5325);
             desc.attackerAbility = attacker.ability;
         }
