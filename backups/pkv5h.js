@@ -1584,7 +1584,7 @@ backup_data = {
             "priority": 0,
             "e_id": 88
         },
-        "Hp Water":
+        "HP Water":
         {
             "type": "Water",
             "basePower": 70,
@@ -1685,7 +1685,7 @@ backup_data = {
             "priority": 0,
             "e_id": 10
         },
-        "Hp Ice":
+        "HP Ice":
         {
             "type": "Ice",
             "basePower": 70,
@@ -1796,7 +1796,7 @@ backup_data = {
             "priority": 0,
             "e_id": 94
         },
-        "Hp Ghost":
+        "HP Ghost":
         {
             "type": "Ghost",
             "basePower": 70,
@@ -2390,7 +2390,7 @@ backup_data = {
             "priority": 0,
             "e_id": 128
         },
-        "Hp Fire":
+        "HP Fire":
         {
             "type": "Fire",
             "basePower": 70,
@@ -2652,7 +2652,7 @@ backup_data = {
             "priority": 0,
             "e_id": 206
         },
-        "Hp Rock":
+        "HP Rock":
         {
             "type": "Rock",
             "basePower": 70,
@@ -2793,7 +2793,7 @@ backup_data = {
             "priority": 0,
             "e_id": 174
         },
-        "Hp Dark":
+        "HP Dark":
         {
             "type": "Dark",
             "basePower": 70,
@@ -2813,7 +2813,7 @@ backup_data = {
             "priority": 5,
             "e_id": 176
         },
-        "Hp Psychic":
+        "HP Psychic":
         {
             "type": "Psychic",
             "basePower": 70,
@@ -3034,7 +3034,7 @@ backup_data = {
             "priority": 0,
             "e_id": 0
         },
-        "Hp Fighting":
+        "HP Fighting":
         {
             "type": "Fighting",
             "basePower": 70,
@@ -3114,7 +3114,7 @@ backup_data = {
             "priority": 0,
             "e_id": 200
         },
-        "Hp Ground":
+        "HP Ground":
         {
             "type": "Ground",
             "basePower": 70,
@@ -3569,7 +3569,7 @@ backup_data = {
             "priority": 0,
             "e_id": 209
         },
-        "Hp Grass":
+        "HP Grass":
         {
             "type": "Grass",
             "basePower": 70,
@@ -3749,7 +3749,7 @@ backup_data = {
             "priority": 0,
             "e_id": 219
         },
-        "Hp Electric":
+        "HP Electric":
         {
             "type": "Electric",
             "basePower": 70,
@@ -4299,7 +4299,7 @@ backup_data = {
             "priority": 0,
             "e_id": 72
         },
-        "Hp Flying":
+        "HP Flying":
         {
             "type": "Flying",
             "basePower": 70,
@@ -66905,6 +66905,621 @@ backup_data = {
                 " -"
             ]
         },
+        "Rotom-Frost":
+        {
+            "name": "Rotom",
+            "num": 479,
+            "types":
+            [
+                "Electric",
+                "Ghost"
+            ],
+            "items":
+            [
+                "None",
+                "None",
+                "None"
+            ],
+            "bs":
+            {
+                "hp": 50,
+                "at": 65,
+                "df": 107,
+                "sa": 105,
+                "sd": 107,
+                "sp": 91
+            },
+            "learnset_info":
+            {
+                "learnset":
+                [
+                    [
+                        1,
+                        "Thunder Shock"
+                    ],
+                    [
+                        1,
+                        "Uproar"
+                    ],
+                    [
+                        1,
+                        "Thunder Wave"
+                    ],
+                    [
+                        1,
+                        "Teleport"
+                    ],
+                    [
+                        1,
+                        "Shock Wave"
+                    ],
+                    [
+                        8,
+                        "Night Shade"
+                    ],
+                    [
+                        15,
+                        "Confuse Ray"
+                    ],
+                    [
+                        22,
+                        "Shadow Ball"
+                    ],
+                    [
+                        29,
+                        "Dark Pulse"
+                    ],
+                    [
+                        30,
+                        "Teleport"
+                    ],
+                    [
+                        36,
+                        "Signal Beam"
+                    ],
+                    [
+                        43,
+                        "Focus Blast"
+                    ],
+                    [
+                        50,
+                        "Discharge"
+                    ]
+                ],
+                "tms":
+                [
+                    "Toxic",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Light Screen",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Shadow Ball",
+                    "Double Team",
+                    "Reflect",
+                    "Shock Wave",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Thief",
+                    "Drill Run",
+                    "Charge Beam",
+                    "Endure",
+                    "Will-O-Wisp",
+                    "Flash",
+                    "Thunder Wave",
+                    "Psych Up",
+                    "Dark Pulse",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Dream Eater",
+                    "Swagger",
+                    "Substitute"
+                ]
+            },
+            "abs":
+            [
+                "Levitate",
+                " -",
+                " -"
+            ]
+        },
+        "Rotom-Fan":
+        {
+            "name": "Rotom",
+            "num": 479,
+            "types":
+            [
+                "Electric",
+                "Ghost"
+            ],
+            "items":
+            [
+                "None",
+                "None",
+                "None"
+            ],
+            "bs":
+            {
+                "hp": 50,
+                "at": 65,
+                "df": 107,
+                "sa": 105,
+                "sd": 107,
+                "sp": 91
+            },
+            "learnset_info":
+            {
+                "learnset":
+                [
+                    [
+                        1,
+                        "Thunder Shock"
+                    ],
+                    [
+                        1,
+                        "Uproar"
+                    ],
+                    [
+                        1,
+                        "Thunder Wave"
+                    ],
+                    [
+                        1,
+                        "Teleport"
+                    ],
+                    [
+                        1,
+                        "Shock Wave"
+                    ],
+                    [
+                        8,
+                        "Night Shade"
+                    ],
+                    [
+                        15,
+                        "Confuse Ray"
+                    ],
+                    [
+                        22,
+                        "Shadow Ball"
+                    ],
+                    [
+                        29,
+                        "Dark Pulse"
+                    ],
+                    [
+                        30,
+                        "Teleport"
+                    ],
+                    [
+                        36,
+                        "Signal Beam"
+                    ],
+                    [
+                        43,
+                        "Focus Blast"
+                    ],
+                    [
+                        50,
+                        "Discharge"
+                    ]
+                ],
+                "tms":
+                [
+                    "Toxic",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Light Screen",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Shadow Ball",
+                    "Double Team",
+                    "Reflect",
+                    "Shock Wave",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Thief",
+                    "Drill Run",
+                    "Charge Beam",
+                    "Endure",
+                    "Will-O-Wisp",
+                    "Flash",
+                    "Thunder Wave",
+                    "Psych Up",
+                    "Dark Pulse",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Dream Eater",
+                    "Swagger",
+                    "Substitute"
+                ]
+            },
+            "abs":
+            [
+                "Levitate",
+                " -",
+                " -"
+            ]
+        },
+        "Rotom-Mow":
+        {
+            "name": "Rotom",
+            "num": 479,
+            "types":
+            [
+                "Electric",
+                "Ghost"
+            ],
+            "items":
+            [
+                "None",
+                "None",
+                "None"
+            ],
+            "bs":
+            {
+                "hp": 50,
+                "at": 65,
+                "df": 107,
+                "sa": 105,
+                "sd": 107,
+                "sp": 91
+            },
+            "learnset_info":
+            {
+                "learnset":
+                [
+                    [
+                        1,
+                        "Thunder Shock"
+                    ],
+                    [
+                        1,
+                        "Uproar"
+                    ],
+                    [
+                        1,
+                        "Thunder Wave"
+                    ],
+                    [
+                        1,
+                        "Teleport"
+                    ],
+                    [
+                        1,
+                        "Shock Wave"
+                    ],
+                    [
+                        8,
+                        "Night Shade"
+                    ],
+                    [
+                        15,
+                        "Confuse Ray"
+                    ],
+                    [
+                        22,
+                        "Shadow Ball"
+                    ],
+                    [
+                        29,
+                        "Dark Pulse"
+                    ],
+                    [
+                        30,
+                        "Teleport"
+                    ],
+                    [
+                        36,
+                        "Signal Beam"
+                    ],
+                    [
+                        43,
+                        "Focus Blast"
+                    ],
+                    [
+                        50,
+                        "Discharge"
+                    ]
+                ],
+                "tms":
+                [
+                    "Toxic",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Light Screen",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Shadow Ball",
+                    "Double Team",
+                    "Reflect",
+                    "Shock Wave",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Thief",
+                    "Drill Run",
+                    "Charge Beam",
+                    "Endure",
+                    "Will-O-Wisp",
+                    "Flash",
+                    "Thunder Wave",
+                    "Psych Up",
+                    "Dark Pulse",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Dream Eater",
+                    "Swagger",
+                    "Substitute"
+                ]
+            },
+            "abs":
+            [
+                "Levitate",
+                " -",
+                " -"
+            ]
+        },
+        "Rotom-Heat":
+        {
+            "name": "Rotom",
+            "num": 479,
+            "types":
+            [
+                "Electric",
+                "Ghost"
+            ],
+            "items":
+            [
+                "None",
+                "None",
+                "None"
+            ],
+            "bs":
+            {
+                "hp": 50,
+                "at": 65,
+                "df": 107,
+                "sa": 105,
+                "sd": 107,
+                "sp": 91
+            },
+            "learnset_info":
+            {
+                "learnset":
+                [
+                    [
+                        1,
+                        "Thunder Shock"
+                    ],
+                    [
+                        1,
+                        "Uproar"
+                    ],
+                    [
+                        1,
+                        "Thunder Wave"
+                    ],
+                    [
+                        1,
+                        "Teleport"
+                    ],
+                    [
+                        1,
+                        "Shock Wave"
+                    ],
+                    [
+                        8,
+                        "Night Shade"
+                    ],
+                    [
+                        15,
+                        "Confuse Ray"
+                    ],
+                    [
+                        22,
+                        "Shadow Ball"
+                    ],
+                    [
+                        29,
+                        "Dark Pulse"
+                    ],
+                    [
+                        30,
+                        "Teleport"
+                    ],
+                    [
+                        36,
+                        "Signal Beam"
+                    ],
+                    [
+                        43,
+                        "Focus Blast"
+                    ],
+                    [
+                        50,
+                        "Discharge"
+                    ]
+                ],
+                "tms":
+                [
+                    "Toxic",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Light Screen",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Shadow Ball",
+                    "Double Team",
+                    "Reflect",
+                    "Shock Wave",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Thief",
+                    "Drill Run",
+                    "Charge Beam",
+                    "Endure",
+                    "Will-O-Wisp",
+                    "Flash",
+                    "Thunder Wave",
+                    "Psych Up",
+                    "Dark Pulse",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Dream Eater",
+                    "Swagger",
+                    "Substitute"
+                ]
+            },
+            "abs":
+            [
+                "Levitate",
+                " -",
+                " -"
+            ]
+        },
+        "Rotom-Wash":
+        {
+            "name": "Rotom",
+            "num": 479,
+            "types":
+            [
+                "Electric",
+                "Ghost"
+            ],
+            "items":
+            [
+                "None",
+                "None",
+                "None"
+            ],
+            "bs":
+            {
+                "hp": 50,
+                "at": 65,
+                "df": 107,
+                "sa": 105,
+                "sd": 107,
+                "sp": 91
+            },
+            "learnset_info":
+            {
+                "learnset":
+                [
+                    [
+                        1,
+                        "Thunder Shock"
+                    ],
+                    [
+                        1,
+                        "Uproar"
+                    ],
+                    [
+                        1,
+                        "Thunder Wave"
+                    ],
+                    [
+                        1,
+                        "Teleport"
+                    ],
+                    [
+                        1,
+                        "Shock Wave"
+                    ],
+                    [
+                        8,
+                        "Night Shade"
+                    ],
+                    [
+                        15,
+                        "Confuse Ray"
+                    ],
+                    [
+                        22,
+                        "Shadow Ball"
+                    ],
+                    [
+                        29,
+                        "Dark Pulse"
+                    ],
+                    [
+                        30,
+                        "Teleport"
+                    ],
+                    [
+                        36,
+                        "Signal Beam"
+                    ],
+                    [
+                        43,
+                        "Focus Blast"
+                    ],
+                    [
+                        50,
+                        "Discharge"
+                    ]
+                ],
+                "tms":
+                [
+                    "Toxic",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Light Screen",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Shadow Ball",
+                    "Double Team",
+                    "Reflect",
+                    "Shock Wave",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Thief",
+                    "Drill Run",
+                    "Charge Beam",
+                    "Endure",
+                    "Will-O-Wisp",
+                    "Flash",
+                    "Thunder Wave",
+                    "Psych Up",
+                    "Dark Pulse",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Dream Eater",
+                    "Swagger",
+                    "Substitute"
+                ]
+            },
+            "abs":
+            [
+                "Levitate",
+                " -",
+                " -"
+            ]
+        },
         "Uxie":
         {
             "name": "Uxie",
@@ -68791,7 +69406,7 @@ backup_data = {
                 [
                     [
                         1,
-                        "Hp Water"
+                        "HP Water"
                     ]
                 ],
                 "tms":
@@ -68833,7 +69448,7 @@ backup_data = {
                 [
                     [
                         1,
-                        "Hp Water"
+                        "HP Water"
                     ]
                 ],
                 "tms":
@@ -77649,7 +78264,7 @@ backup_data = {
                     "Sunny Day",
                     "Magical Leaf",
                     "Grass Whistle",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 1,
                 "ability": "Chlorophyll",
@@ -78671,7 +79286,7 @@ backup_data = {
                     "Yawn",
                     "Ice Shard",
                     "Bubble Beam",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 3,
                 "ability": "Thick Fat",
@@ -79194,7 +79809,7 @@ backup_data = {
                     "Sing",
                     "Explosion",
                     "Swallow",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 1,
                 "ability": "Gluttony",
@@ -82188,7 +82803,7 @@ backup_data = {
                 [
                     "Thunder",
                     "Brine",
-                    "Hp Grass",
+                    "HP Grass",
                     "Ice Beam"
                 ],
                 "sub_index": 2,
@@ -82232,7 +82847,7 @@ backup_data = {
                     "Air Cutter",
                     "Brine",
                     "Rain Dance",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 2,
                 "ability": "Swift Swim",
@@ -82602,7 +83217,7 @@ backup_data = {
                 [
                     "Discharge",
                     "Grass Knot",
-                    "Hp Fire",
+                    "HP Fire",
                     "Protect"
                 ],
                 "sub_index": 0,
@@ -82640,7 +83255,7 @@ backup_data = {
                 [
                     "Thunder",
                     "Grass Knot",
-                    "Hp Water",
+                    "HP Water",
                     "Nasty Plot"
                 ],
                 "sub_index": 1,
@@ -82678,7 +83293,7 @@ backup_data = {
                 [
                     "Discharge",
                     "Grass Knot",
-                    "Hp Fire",
+                    "HP Fire",
                     "Protect"
                 ],
                 "sub_index": 0,
@@ -83569,7 +84184,7 @@ backup_data = {
                 "moves":
                 [
                     "Discharge",
-                    "Hp Ice",
+                    "HP Ice",
                     "Signal Beam",
                     "Protect"
                 ],
@@ -83608,7 +84223,7 @@ backup_data = {
                 [
                     "Thunder",
                     "Grass Knot",
-                    "Hp Ice",
+                    "HP Ice",
                     "Growl"
                 ],
                 "sub_index": 0,
@@ -83979,7 +84594,7 @@ backup_data = {
                 "moves":
                 [
                     "Explosion",
-                    "Hp Fire",
+                    "HP Fire",
                     "Magnet Bomb",
                     "Charge Beam"
                 ],
@@ -85021,7 +85636,7 @@ backup_data = {
                     "Toxic Spikes",
                     "Explosion",
                     "Sludge Bomb",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -86327,7 +86942,7 @@ backup_data = {
                 [
                     "Fire Spin",
                     "Eruption",
-                    "Hp Grass",
+                    "HP Grass",
                     "Wild Charge"
                 ],
                 "sub_index": 3,
@@ -87902,7 +88517,7 @@ backup_data = {
                     "Icy Wind",
                     "Ominous Wind",
                     "Psybeam",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
@@ -87938,7 +88553,7 @@ backup_data = {
                 [
                     "Hyper Voice",
                     "Shadow Sneak",
-                    "Hp Fire",
+                    "HP Fire",
                     "Power Gem"
                 ],
                 "sub_index": 2,
@@ -88163,7 +88778,7 @@ backup_data = {
                     "Psychic",
                     "Shadow Ball",
                     "Signal Beam",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 2,
                 "ability": "Magic Guard",
@@ -89180,7 +89795,7 @@ backup_data = {
                     "Self-Destruct",
                     "Air Cutter",
                     "Ominous Wind",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 1,
                 "ability": "Unburden",
@@ -89216,7 +89831,7 @@ backup_data = {
                     "Explosion",
                     "Air Cutter",
                     "Ominous Wind",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 0,
                 "ability": "Unburden",
@@ -91229,7 +91844,7 @@ backup_data = {
                     "Zap Cannon",
                     "Dynamic Punch",
                     "Hyper Beam",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 5,
                 "ability": "No Guard",
@@ -91304,7 +91919,7 @@ backup_data = {
                     "Flash Cannon",
                     "Zap Cannon",
                     "Dynamic Punch",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 4,
                 "ability": "No Guard",
@@ -91340,7 +91955,7 @@ backup_data = {
                     "Zap Cannon",
                     "Dynamic Punch",
                     "Ice Punch",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 1,
                 "ability": "No Guard",
@@ -91412,7 +92027,7 @@ backup_data = {
                     "Charge Beam",
                     "Dynamic Punch",
                     "Dragon Pulse",
-                    "Hp Water"
+                    "HP Water"
                 ],
                 "sub_index": 1,
                 "ability": "No Guard",
@@ -92639,7 +93254,7 @@ backup_data = {
                 [
                     "Dark Pulse",
                     "Sleep Talk",
-                    "Hp Ground",
+                    "HP Ground",
                     "Hail Ball"
                 ],
                 "sub_index": 0,
@@ -95169,7 +95784,7 @@ backup_data = {
                 [
                     "Mystical Fire",
                     "Shadow Ball",
-                    "Hp Ice",
+                    "HP Ice",
                     "Explosion"
                 ],
                 "sub_index": 2,
@@ -97691,7 +98306,7 @@ backup_data = {
                 "moves":
                 [
                     "Iron Tail",
-                    "Hp Dark",
+                    "HP Dark",
                     "Torment",
                     "Screech"
                 ],
@@ -98505,7 +99120,7 @@ backup_data = {
                 [
                     "Blizzard",
                     "Whirlpool",
-                    "Hp Ground",
+                    "HP Ground",
                     "Toxic Spikes"
                 ],
                 "sub_index": 3,
@@ -99216,7 +99831,7 @@ backup_data = {
                     "Sing",
                     "Chatter",
                     "Hyper Voice",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 2,
                 "ability": "Scrappy",
@@ -99252,7 +99867,7 @@ backup_data = {
                     "Secret Power",
                     "Sing",
                     "Chatter",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 3,
                 "ability": "Scrappy",
@@ -101441,7 +102056,7 @@ backup_data = {
                 [
                     "Dragon Breath",
                     "Frenzy Plant",
-                    "Hp Rock",
+                    "HP Rock",
                     "Brick Break"
                 ],
                 "sub_index": 1,
@@ -102738,7 +103353,7 @@ backup_data = {
                     "Sleep Powder",
                     "Solar-Beam",
                     "Hyper Beam",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 1,
                 "ability": "Chlorophyll",
@@ -102811,7 +103426,7 @@ backup_data = {
                 "nature": "Relaxed",
                 "moves":
                 [
-                    "Hp Rock",
+                    "HP Rock",
                     "Petal Dance",
                     "Nature Power",
                     "Teeter Dance"
@@ -103001,7 +103616,7 @@ backup_data = {
                     "Stun Spore",
                     "Teeter Dance",
                     "Petal Dance",
-                    "Hp Rock"
+                    "HP Rock"
                 ],
                 "sub_index": 2,
                 "ability": "Chlorophyll",
@@ -103262,7 +103877,7 @@ backup_data = {
                 [
                     "Nature Power",
                     "Petal Dance",
-                    "Hp Ground",
+                    "HP Ground",
                     "Teeter Dance"
                 ],
                 "sub_index": 0,
@@ -103302,7 +103917,7 @@ backup_data = {
                     "Sleep Powder",
                     "Fire Ball",
                     "Solar Beam",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 4,
                 "ability": "Chlorophyll",
@@ -103455,7 +104070,7 @@ backup_data = {
                     "Nature Power",
                     "Power Whip",
                     "Swallow",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 1,
                 "ability": "Chlorophyll",
@@ -105776,7 +106391,7 @@ backup_data = {
                 [
                     "Hydro Pump",
                     "Ice Beam",
-                    "Hp Grass",
+                    "HP Grass",
                     "Sleep Talk"
                 ],
                 "sub_index": 4,
@@ -105812,7 +106427,7 @@ backup_data = {
                 "moves":
                 [
                     "Muddy Water",
-                    "Hp Grass",
+                    "HP Grass",
                     "Supersonic",
                     "Ice Beam"
                 ],
@@ -106418,7 +107033,7 @@ backup_data = {
                     "Fire Blast",
                     "Hypnosis",
                     "Stomp",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 0,
                 "ability": "Reckless",
@@ -107634,7 +108249,7 @@ backup_data = {
                 "moves":
                 [
                     "Air Slash",
-                    "Hp Fighting",
+                    "HP Fighting",
                     "Thunder Wave",
                     "Soft-Boiled"
                 ],
@@ -107783,7 +108398,7 @@ backup_data = {
                 [
                     "Light Screen",
                     "Charge Beam",
-                    "Hp Fire",
+                    "HP Fire",
                     "Mirror Shot"
                 ],
                 "sub_index": 0,
@@ -107820,7 +108435,7 @@ backup_data = {
                     "Magnet Bomb",
                     "Shock Wave",
                     "Double Team",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 5,
                 "ability": "Magnet Pull",
@@ -107856,7 +108471,7 @@ backup_data = {
                 [
                     "Zap Cannon",
                     "Mirror Shot",
-                    "Hp Grass",
+                    "HP Grass",
                     "Tri Attack"
                 ],
                 "sub_index": 2,
@@ -107890,7 +108505,7 @@ backup_data = {
                 "nature": "Impish",
                 "moves":
                 [
-                    "Hp Fire",
+                    "HP Fire",
                     "Thunderbolt",
                     "Magnet Bomb",
                     "Sleep Talk"
@@ -107931,7 +108546,7 @@ backup_data = {
                     "Magnet Bomb",
                     "Substitute",
                     "Discharge",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 2,
                 "ability": "Magnet Pull",
@@ -107967,7 +108582,7 @@ backup_data = {
                     "Charge Beam",
                     "Flash Cannon",
                     "Magnet Rise",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 2,
                 "ability": "Magnet Pull",
@@ -108003,7 +108618,7 @@ backup_data = {
                     "Hyper Beam",
                     "Charge Beam",
                     "Magnet Bomb",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 2,
                 "ability": "Magnet Pull",
@@ -108041,7 +108656,7 @@ backup_data = {
                     "Zap Cannon",
                     "Mirror Shot",
                     "Hyper Beam",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 2,
                 "ability": "Magnet Pull",
@@ -108078,7 +108693,7 @@ backup_data = {
                 "moves":
                 [
                     "Thunder",
-                    "Hp Water",
+                    "HP Water",
                     "Mirror Shot",
                     "Signal Beam"
                 ],
@@ -108157,7 +108772,7 @@ backup_data = {
                     "Sleep Talk",
                     "Charge Beam",
                     "Magnet Bomb",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 1,
                 "ability": "Magnet Pull",
@@ -111117,7 +111732,7 @@ backup_data = {
                 "moves":
                 [
                     "Volt Tackle",
-                    "Hp Fire",
+                    "HP Fire",
                     "Grass Knot",
                     "Ice Punch"
                 ],
@@ -111230,7 +111845,7 @@ backup_data = {
                     "Thunder",
                     "Surf",
                     "Grass Knot",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 3,
                 "ability": "Reckless",
@@ -112404,7 +113019,7 @@ backup_data = {
                 "moves":
                 [
                     "Lovely Kiss",
-                    "Hp Fire",
+                    "HP Fire",
                     "Blizzard",
                     "Psychic"
                 ],
@@ -114238,7 +114853,7 @@ backup_data = {
                     "Agility",
                     "Fire Spin",
                     "Superpower",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 4,
                 "ability": "Blaze",
@@ -118419,7 +119034,7 @@ backup_data = {
                     "Explosion",
                     "Air Slash",
                     "Shadow Ball",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 1,
                 "ability": "Unburden",
@@ -118455,7 +119070,7 @@ backup_data = {
                     "Explosion",
                     "Air Slash",
                     "Shadow Ball",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 1,
                 "ability": "Unburden",
@@ -118682,7 +119297,7 @@ backup_data = {
                 [
                     "Shadow Ball",
                     "Explosion",
-                    "Hp Ground",
+                    "HP Ground",
                     "Will-O-Wisp"
                 ],
                 "sub_index": 1,
@@ -118902,7 +119517,7 @@ backup_data = {
                     "Sleep Talk",
                     "Shadow Ball",
                     "Air Cutter",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 2,
                 "ability": "Unburden",
@@ -119491,7 +120106,7 @@ backup_data = {
                 "moves":
                 [
                     "Water Spout",
-                    "Hp Fire",
+                    "HP Fire",
                     "Ice Beam",
                     "Hyper Beam"
                 ],
@@ -122094,7 +122709,7 @@ backup_data = {
                     "Psychic",
                     "Shadow Ball",
                     "Signal Beam",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 2,
                 "ability": "Magic Guard",
@@ -123345,7 +123960,7 @@ backup_data = {
                     "Hydro Pump",
                     "Earth Power",
                     "Ice Beam",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 3,
                 "ability": "Swift Swim",
@@ -124154,7 +124769,7 @@ backup_data = {
                     "Aura Sphere",
                     "Vacuum Wave",
                     "Overheat",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 4,
                 "ability": "Iron Fist",
@@ -124190,7 +124805,7 @@ backup_data = {
                     "Aura Sphere",
                     "Vacuum Wave",
                     "Overheat",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 4,
                 "ability": "Iron Fist",
@@ -126230,7 +126845,7 @@ backup_data = {
                     "Hydro Pump",
                     "Draco Meteor",
                     "Ice Beam",
-                    "Hp Electric"
+                    "HP Electric"
                 ],
                 "sub_index": 2,
                 "ability": "Swift Swim",
@@ -126303,7 +126918,7 @@ backup_data = {
                 [
                     "Twister",
                     "Hydro Pump",
-                    "Hp Electric",
+                    "HP Electric",
                     "Sleep Talk"
                 ],
                 "sub_index": 2,
@@ -126418,7 +127033,7 @@ backup_data = {
                 [
                     "Muddy Water",
                     "Twister",
-                    "Hp Electric",
+                    "HP Electric",
                     "Bounce"
                 ],
                 "sub_index": 1,
@@ -126797,7 +127412,7 @@ backup_data = {
                 [
                     "Fire Ball",
                     "Psychic",
-                    "Hp Fighting",
+                    "HP Fighting",
                     "Signal Beam"
                 ],
                 "sub_index": 2,
@@ -126945,7 +127560,7 @@ backup_data = {
                     "Thunder Wave",
                     "Extrasensory",
                     "Signal Beam",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 1,
                 "ability": "Synchronize",
@@ -127129,7 +127744,7 @@ backup_data = {
                 [
                     "Bug Buzz",
                     "Earth Power",
-                    "Hp Rock",
+                    "HP Rock",
                     "Stealth Rock"
                 ],
                 "sub_index": 1,
@@ -127203,7 +127818,7 @@ backup_data = {
                 [
                     "Sleep Talk",
                     "Leech Life",
-                    "Hp Rock",
+                    "HP Rock",
                     "Earth Power"
                 ],
                 "sub_index": 1,
@@ -127551,7 +128166,7 @@ backup_data = {
                 "moves":
                 [
                     "Double Team",
-                    "Hp Fire",
+                    "HP Fire",
                     "Substitute",
                     "Leech Seed"
                 ],
@@ -128188,7 +128803,7 @@ backup_data = {
                 "nature": "Lax",
                 "moves":
                 [
-                    "Hp Grass",
+                    "HP Grass",
                     "Water Pulse",
                     "Icy Wind",
                     "Hypnosis"
@@ -128301,7 +128916,7 @@ backup_data = {
                     "Recover",
                     "Scald",
                     "Ice Beam",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 3,
                 "ability": "Filter",
@@ -128675,7 +129290,7 @@ backup_data = {
                 [
                     "Shadow Ball",
                     "Thunder",
-                    "Hp Fighting",
+                    "HP Fighting",
                     "Nasty Plot"
                 ],
                 "sub_index": 0,
@@ -128789,7 +129404,7 @@ backup_data = {
                 [
                     "Nasty Plot",
                     "Dark Pulse",
-                    "Hp Flying",
+                    "HP Flying",
                     "Mystical Fire"
                 ],
                 "sub_index": 5,
@@ -128826,7 +129441,7 @@ backup_data = {
                 [
                     "Overheat",
                     "Dark Pulse",
-                    "Hp Grass",
+                    "HP Grass",
                     "Nasty Plot"
                 ],
                 "sub_index": 3,
@@ -129084,7 +129699,7 @@ backup_data = {
                 [
                     "Glare",
                     "Fire Spin",
-                    "Hp Psychic",
+                    "HP Psychic",
                     "Payback"
                 ],
                 "sub_index": 1,
@@ -129380,7 +129995,7 @@ backup_data = {
                     "Sing",
                     "Sleep Talk",
                     "Ice Beam",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 1,
                 "ability": "Solid Rock",
@@ -131140,7 +131755,7 @@ backup_data = {
                 "moves":
                 [
                     "Thunder",
-                    "Hp Water",
+                    "HP Water",
                     "Gunk Shot",
                     "Will-O-Wisp"
                 ],
@@ -131366,7 +131981,7 @@ backup_data = {
                     "Poison Gas",
                     "Fire Blast",
                     "Sludge Bomb",
-                    "Hp Psychic"
+                    "HP Psychic"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
@@ -132145,7 +132760,7 @@ backup_data = {
                 [
                     "Flare Blitz",
                     "Extreme Speed",
-                    "Hp Grass",
+                    "HP Grass",
                     "Stone Edge"
                 ],
                 "sub_index": 5,
@@ -132182,7 +132797,7 @@ backup_data = {
                     "Iron Head",
                     "Extreme Speed",
                     "Fire Fang",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 1,
                 "ability": "Intimidate",
@@ -133914,7 +134529,7 @@ backup_data = {
                     "Explosion",
                     "Clamp",
                     "Avalanche",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 2,
                 "ability": "Filter",
@@ -135901,7 +136516,7 @@ backup_data = {
                 "moves":
                 [
                     "Psycho Cut",
-                    "Hp Dark",
+                    "HP Dark",
                     "Night Slash",
                     "Quick Attack"
                 ],
@@ -136238,7 +136853,7 @@ backup_data = {
                     "Aerial Ace",
                     "Swift",
                     "Heat Wave",
-                    "Hp Water"
+                    "HP Water"
                 ],
                 "sub_index": 4,
                 "ability": "Intimidate",
@@ -136350,7 +136965,7 @@ backup_data = {
                     "Heat Wave",
                     "Hyper Beam",
                     "Air Slash",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 2,
                 "ability": "Intimidate",
@@ -138787,7 +139402,7 @@ backup_data = {
                     "Rest",
                     "Sleep Talk",
                     "Pursuit",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 3,
                 "ability": "Pressure",
@@ -138934,7 +139549,7 @@ backup_data = {
                 "moves":
                 [
                     "Hypnosis",
-                    "Hp Fire",
+                    "HP Fire",
                     "Sucker Punch",
                     "Night Shade"
                 ],
@@ -139011,7 +139626,7 @@ backup_data = {
                     "Mystical Fire",
                     "Dark Pulse",
                     "Nasty Plot",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 2,
                 "ability": "Pressure",
@@ -139047,7 +139662,7 @@ backup_data = {
                     "Pursuit",
                     "Will-O-Wisp",
                     "Psychic",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 1,
                 "ability": "Pressure",
@@ -140569,7 +141184,7 @@ backup_data = {
                 [
                     "Light Screen",
                     "Thunder",
-                    "Hp Water",
+                    "HP Water",
                     "Explosion"
                 ],
                 "sub_index": 0,
@@ -140714,7 +141329,7 @@ backup_data = {
                 "moves":
                 [
                     "Thunder",
-                    "Hp Water",
+                    "HP Water",
                     "Hyper Beam",
                     "Thunder Wave"
                 ],
@@ -140865,7 +141480,7 @@ backup_data = {
                     "Explosion",
                     "Thunderbolt",
                     "Thunder Wave",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 1,
                 "ability": "Aftermath",
@@ -141468,7 +142083,7 @@ backup_data = {
                 [
                     "Hydro Pump",
                     "Ice Punch",
-                    "Hp Electric",
+                    "HP Electric",
                     "Curse"
                 ],
                 "sub_index": 3,
@@ -144057,7 +144672,7 @@ backup_data = {
                     "Hurricane",
                     "Muddy Water",
                     "Supersonic",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 4,
                 "ability": "Swift Swim",
@@ -144393,7 +145008,7 @@ backup_data = {
                     "Teeter Dance",
                     "Volt Tackle",
                     "Fake Out",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 2,
                 "ability": "Lightning Rod",
@@ -144431,7 +145046,7 @@ backup_data = {
                     "Surf",
                     "Thunder",
                     "Grass Knot",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 4,
                 "ability": "Lightning Rod",
@@ -146260,7 +146875,7 @@ backup_data = {
                     "Zap Cannon",
                     "Blizzard",
                     "Hydro Pump",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 5,
                 "ability": "Volt Absorb",
@@ -146297,7 +146912,7 @@ backup_data = {
                     "Thunder",
                     "Scald",
                     "Ice Beam",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 1,
                 "ability": "Volt Absorb",
@@ -148500,7 +149115,7 @@ backup_data = {
                 "moves":
                 [
                     "Thunder",
-                    "Hp Water",
+                    "HP Water",
                     "Ice Fang",
                     "Reflect"
                 ],
@@ -148538,7 +149153,7 @@ backup_data = {
                 [
                     "Flamethrower",
                     "Thunderbolt",
-                    "Hp Ice",
+                    "HP Ice",
                     "Thunder Wave"
                 ],
                 "sub_index": 1,
@@ -148616,7 +149231,7 @@ backup_data = {
                     "Sleep Talk",
                     "Thunderbolt",
                     "Heat Wave",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 0,
                 "ability": "Lightning Rod",
@@ -148653,7 +149268,7 @@ backup_data = {
                 [
                     "Thunder",
                     "Thunder Wave",
-                    "Hp Fire",
+                    "HP Fire",
                     "Safeguard"
                 ],
                 "sub_index": 4,
@@ -149471,7 +150086,7 @@ backup_data = {
                     "Hyper Beam",
                     "Charge Beam",
                     "Recover",
-                    "Hp Water"
+                    "HP Water"
                 ],
                 "sub_index": 2,
                 "ability": "Trace",
@@ -149509,7 +150124,7 @@ backup_data = {
                 [
                     "Hyper Beam",
                     "Recover",
-                    "Hp Ground",
+                    "HP Ground",
                     "Gravity"
                 ],
                 "sub_index": 1,
@@ -150261,7 +150876,7 @@ backup_data = {
                     "Light Screen",
                     "Petal Dance",
                     "Grass Whistle",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 0,
                 "ability": "Thick Fat",
@@ -150714,7 +151329,7 @@ backup_data = {
                 [
                     "Sing",
                     "Blizzard",
-                    "Hp Fire",
+                    "HP Fire",
                     "Water Pulse"
                 ],
                 "sub_index": 1,
@@ -150949,7 +151564,7 @@ backup_data = {
                 [
                     "Blizzard",
                     "Giga Drain",
-                    "Hp Ground",
+                    "HP Ground",
                     "Sleep Talk"
                 ],
                 "sub_index": 0,
@@ -152027,7 +152642,7 @@ backup_data = {
                 [
                     "Reflect",
                     "Leech Seed",
-                    "Hp Ice",
+                    "HP Ice",
                     "Giga Drain"
                 ],
                 "sub_index": 2,
@@ -152628,7 +153243,7 @@ backup_data = {
                 "nature": "Naughty",
                 "moves":
                 [
-                    "Hp Ground",
+                    "HP Ground",
                     "Leaf Storm",
                     "Nature Power",
                     "Explosion"
@@ -152666,7 +153281,7 @@ backup_data = {
                 [
                     "Explosion",
                     "Leaf Storm",
-                    "Hp Fire",
+                    "HP Fire",
                     "Ancient Power"
                 ],
                 "sub_index": 4,
@@ -152962,7 +153577,7 @@ backup_data = {
                     "Hurricane",
                     "Tailwind",
                     "Hyper Voice",
-                    "Hp Water"
+                    "HP Water"
                 ],
                 "sub_index": 0,
                 "ability": "Tinted Lens",
@@ -152999,7 +153614,7 @@ backup_data = {
                     "Secret Power",
                     "Air Slash",
                     "Sleep Talk",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 1,
                 "ability": "Tinted Lens",
@@ -155372,7 +155987,7 @@ backup_data = {
                     "Avalanche",
                     "Slash",
                     "Feint Attack",
-                    "Hp Dark"
+                    "HP Dark"
                 ],
                 "sub_index": 0,
                 "ability": "Technician",
@@ -155974,7 +156589,7 @@ backup_data = {
                     "Sleep Talk",
                     "Leech Life",
                     "Iron Head",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 1,
                 "ability": "Snow Cloak",
@@ -156655,7 +157270,7 @@ backup_data = {
                 "moves":
                 [
                     "Mud Bomb",
-                    "Hp Flying",
+                    "HP Flying",
                     "Yawn",
                     "Scald"
                 ],
@@ -157174,7 +157789,7 @@ backup_data = {
                     "Fire Ball",
                     "Muddy Water",
                     "Ice Beam",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 1,
                 "ability": "Hydration",
@@ -157402,7 +158017,7 @@ backup_data = {
                     "Surf",
                     "Ice Beam",
                     "Rest",
-                    "Hp Electric"
+                    "HP Electric"
                 ],
                 "sub_index": 1,
                 "ability": "Hydration",
@@ -160142,7 +160757,7 @@ backup_data = {
                     "Flame Wheel",
                     "Seed Bomb",
                     "Body Slam",
-                    "Hp Rock"
+                    "HP Rock"
                 ],
                 "sub_index": 1,
                 "ability": "Flower Gift",
@@ -161093,7 +161708,7 @@ backup_data = {
                     "Fire Ball",
                     "Discharge",
                     "Charge Beam",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 1,
                 "ability": "Static",
@@ -161132,7 +161747,7 @@ backup_data = {
                     "Pin Missile",
                     "Thunder",
                     "Shadow Ball",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 1,
                 "ability": "Static",
@@ -161166,7 +161781,7 @@ backup_data = {
                 "moves":
                 [
                     "Thunderbolt",
-                    "Hp Grass",
+                    "HP Grass",
                     "Signal Beam",
                     "Baton Pass"
                 ],
@@ -161239,7 +161854,7 @@ backup_data = {
                 [
                     "Magnet Rise",
                     "Discharge",
-                    "Hp Grass",
+                    "HP Grass",
                     "Trump Card"
                 ],
                 "sub_index": 0,
@@ -161278,7 +161893,7 @@ backup_data = {
                     "Thunder Wave",
                     "Charge Beam",
                     "Grass Knot",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 2,
                 "ability": "Rough Skin",
@@ -161313,7 +161928,7 @@ backup_data = {
                 [
                     "Hail Ball",
                     "Charge Beam",
-                    "Hp Grass",
+                    "HP Grass",
                     "Fake Tears"
                 ],
                 "sub_index": 1,
@@ -163042,7 +163657,7 @@ backup_data = {
                 "nature": "Adamant",
                 "moves":
                 [
-                    "Hp Flying",
+                    "HP Flying",
                     "Brine",
                     "Ice Beam",
                     "Giga Drain"
@@ -163272,7 +163887,7 @@ backup_data = {
                 [
                     "Self-Destruct",
                     "Lava Plume",
-                    "Hp Grass",
+                    "HP Grass",
                     "Ancient Power"
                 ],
                 "sub_index": 0,
@@ -163915,7 +164530,7 @@ backup_data = {
                     "Sleep Talk",
                     "Shadow Sneak",
                     "Ominous Wind",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 0,
                 "ability": "Clear Body",
@@ -165018,7 +165633,7 @@ backup_data = {
                     "Hail Ball",
                     "Fire Spin",
                     "Energy Ball",
-                    "Hp Rock"
+                    "HP Rock"
                 ],
                 "sub_index": 3,
                 "ability": "Magic Guard",
@@ -165397,7 +166012,7 @@ backup_data = {
                     "Bug Buzz",
                     "Hurricane",
                     "Ancient Power",
-                    "Hp Water"
+                    "HP Water"
                 ],
                 "sub_index": 1,
                 "ability": "Speed Boost",
@@ -167044,7 +167659,7 @@ backup_data = {
                     "Blizzard",
                     "Nasty Plot",
                     "Hyper Beam",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 0,
                 "ability": "Download",
@@ -167082,7 +167697,7 @@ backup_data = {
                 [
                     "Hyper Beam",
                     "Dark Pulse",
-                    "Hp Fire",
+                    "HP Fire",
                     "Solar-Beam"
                 ],
                 "sub_index": 4,
@@ -167118,7 +167733,7 @@ backup_data = {
                 "moves":
                 [
                     "Tri Attack",
-                    "Hp Fire",
+                    "HP Fire",
                     "Ice Beam",
                     "Thunderbolt"
                 ],
@@ -167193,7 +167808,7 @@ backup_data = {
                     "Tri Attack",
                     "Hyper Beam",
                     "Dark Pulse",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 0,
                 "ability": "Download",
@@ -167455,7 +168070,7 @@ backup_data = {
                     "Fire Blast",
                     "Solar Beam",
                     "Thunderbolt",
-                    "Hp Rock"
+                    "HP Rock"
                 ],
                 "sub_index": 4,
                 "ability": "Flame Body",
@@ -167750,7 +168365,7 @@ backup_data = {
                     "Gyro Ball",
                     "Zen Headbutt",
                     "Confuse Ray",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 0,
                 "ability": "Drizzle",
@@ -168055,7 +168670,7 @@ backup_data = {
                 [
                     "Hydro Pump",
                     "Giga Drain",
-                    "Hp Electric",
+                    "HP Electric",
                     "Counter"
                 ],
                 "sub_index": 3,
@@ -169036,7 +169651,7 @@ backup_data = {
                     "Solar-Beam",
                     "Ancient Power",
                     "Earthquake",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 2,
                 "ability": "Magic Guard",
@@ -170550,10 +171165,10 @@ backup_data = {
                 "nature": "Sassy",
                 "moves":
                 [
-                    "Hp Fighting",
-                    "Hp Rock",
-                    "Hp Dark",
-                    "Hp Psychic"
+                    "HP Fighting",
+                    "HP Rock",
+                    "HP Dark",
+                    "HP Psychic"
                 ],
                 "sub_index": 3,
                 "ability": "Wonder Guard",
@@ -170889,7 +171504,7 @@ backup_data = {
                 "moves":
                 [
                     "Sucker Punch",
-                    "Hp Dark",
+                    "HP Dark",
                     "Assurance",
                     "Take Down"
                 ],
@@ -173521,7 +174136,7 @@ backup_data = {
                     "Discharge",
                     "Magnet Bomb",
                     "Supersonic",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
@@ -173559,7 +174174,7 @@ backup_data = {
                     "Thunder",
                     "Mirror Shot",
                     "Metal Sound",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
@@ -173637,7 +174252,7 @@ backup_data = {
                     "Discharge",
                     "Thunderbolt",
                     "Flash Cannon",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
@@ -173716,7 +174331,7 @@ backup_data = {
                     "Zap Cannon",
                     "Lock-On",
                     "Flash Cannon",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
@@ -173754,7 +174369,7 @@ backup_data = {
                     "Thunder Wave",
                     "Thunder",
                     "Metal Burst",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -173790,7 +174405,7 @@ backup_data = {
                 [
                     "Flash Cannon",
                     "Swagger",
-                    "Hp Fire",
+                    "HP Fire",
                     "Charge Beam"
                 ],
                 "sub_index": 1,
@@ -174403,7 +175018,7 @@ backup_data = {
                 "moves":
                 [
                     "Giga Drain",
-                    "Hp Rock",
+                    "HP Rock",
                     "Earth Power",
                     "Sleep Talk"
                 ],
@@ -174442,7 +175057,7 @@ backup_data = {
                     "Solar Beam",
                     "Fire Ball",
                     "Earth Power",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 2,
                 "ability": "Solar Power",
@@ -176463,7 +177078,7 @@ backup_data = {
                     "Calm Mind",
                     "Baton Pass",
                     "Leaf Storm",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 5,
                 "ability": "Magic Guard",
@@ -176643,10 +177258,10 @@ backup_data = {
                 "nature": "Lax",
                 "moves":
                 [
-                    "Hp Psychic",
-                    "Hp Fighting",
-                    "Hp Dark",
-                    "Hp Fire"
+                    "HP Psychic",
+                    "HP Fighting",
+                    "HP Dark",
+                    "HP Fire"
                 ],
                 "sub_index": 4,
                 "ability": "Wonder Guard",
@@ -176684,7 +177299,7 @@ backup_data = {
                 [
                     "Discharge",
                     "Ominous Wind",
-                    "Hp Water",
+                    "HP Water",
                     "Heat Wave"
                 ],
                 "sub_index": 2,
@@ -176879,7 +177494,7 @@ backup_data = {
                 "moves":
                 [
                     "Leech Seed",
-                    "Hp Ground",
+                    "HP Ground",
                     "Sheer Cold",
                     "Giga Drain"
                 ],
@@ -178880,7 +179495,7 @@ backup_data = {
                     "Dark Pulse",
                     "Heat Wave",
                     "Pursuit",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 2,
                 "ability": "Solar Power",
@@ -179526,7 +180141,7 @@ backup_data = {
                     "Hurricane",
                     "Thunder",
                     "Shadow Ball",
-                    "Hp Grass"
+                    "HP Grass"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
@@ -179951,7 +180566,7 @@ backup_data = {
                     "Sheer Cold",
                     "Hurricane",
                     "Ancient Power",
-                    "Hp Ground"
+                    "HP Ground"
                 ],
                 "sub_index": 2,
                 "ability": "Snow Cloak",
@@ -179987,7 +180602,7 @@ backup_data = {
                 [
                     "Sheer Cold",
                     "Air Slash",
-                    "Hp Grass",
+                    "HP Grass",
                     "Ancient Power"
                 ],
                 "sub_index": 0,
@@ -180104,7 +180719,7 @@ backup_data = {
                 [
                     "Thunder",
                     "Hurricane",
-                    "Hp Grass",
+                    "HP Grass",
                     "Water Ball"
                 ],
                 "sub_index": 1,
@@ -180262,7 +180877,7 @@ backup_data = {
                 "moves":
                 [
                     "Shock Wave",
-                    "Hp Ice",
+                    "HP Ice",
                     "Thunder Wave",
                     "Power Gem"
                 ],
@@ -181689,7 +182304,7 @@ backup_data = {
                 [
                     "Thunder",
                     "Hydro Pump",
-                    "Hp Ice",
+                    "HP Ice",
                     "Shadow Ball"
                 ],
                 "sub_index": 3,
@@ -182633,7 +183248,7 @@ backup_data = {
                     "Explosion",
                     "Ominous Wind",
                     "Sludge Bomb",
-                    "Hp Fire"
+                    "HP Fire"
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
@@ -183123,7 +183738,7 @@ backup_data = {
                     "Draco Meteor",
                     "Heat Wave",
                     "Earthquake",
-                    "Hp Water"
+                    "HP Water"
                 ],
                 "sub_index": 1,
                 "ability": "Tinted Lens",
@@ -183245,7 +183860,7 @@ backup_data = {
                 [
                     "Wild Charge",
                     "Ice Ball",
-                    "Hp Fire",
+                    "HP Fire",
                     "Self-Destruct"
                 ],
                 "sub_index": 1,
@@ -183553,7 +184168,7 @@ backup_data = {
                     "Heat Wave",
                     "Air Slash",
                     "Solar-Beam",
-                    "Hp Fighting"
+                    "HP Fighting"
                 ],
                 "sub_index": 0,
                 "ability": "Drought",
@@ -183711,7 +184326,7 @@ backup_data = {
                 "moves":
                 [
                     "Charge Beam",
-                    "Hp Fire",
+                    "HP Fire",
                     "Ominous Wind",
                     "Blizzard"
                 ],
@@ -184280,10 +184895,10 @@ backup_data = {
                 "nature": "Mild",
                 "moves":
                 [
-                    "Hp Fire",
-                    "Hp Dark",
-                    "Hp Rock",
-                    "Hp Fighting"
+                    "HP Fire",
+                    "HP Dark",
+                    "HP Rock",
+                    "HP Fighting"
                 ],
                 "sub_index": 0,
                 "ability": "Wonder Guard",
@@ -184940,7 +185555,7 @@ backup_data = {
                     "Air Slash",
                     "Seed Flare",
                     "Earth Power",
-                    "Hp Ice"
+                    "HP Ice"
                 ],
                 "sub_index": 2,
                 "ability": "Natural Cure",
