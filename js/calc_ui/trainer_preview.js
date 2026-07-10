@@ -183,6 +183,10 @@ function get_trainer_poks(trainer_name, maybePartner=false)
             target_name.split(" ").at(-2) == set_id.split(" ").at(-2)
     }
 
+    var canMatchTrainerIds = typeof getTrainerPreviewTrainerIdFromSet === "function"
+    var primaryTrainerId = canMatchTrainerIds ? Number(getTrainerPreviewTrainerIdFromSet(trainer_name)) : 0
+    var partnerTrainerId = Number(maybePartner) || 0
+
     trainer_name = stripTrainerLevelDuplicateMarkers(trainer_name)
     var og_trainer_name = get_trainer_name(trainer_name)
     var selected_team_label = og_trainer_name || ""
@@ -209,11 +213,17 @@ function get_trainer_poks(trainer_name, maybePartner=false)
             continue
         }
 
-        // To avoid cases where grunt1 matches grunt11, check the last word in the set string.
-        if (matches_trainer_name(TR_NAMES[i], og_trainer_name, og_white_space)) {
+        var candidateTrainerId = canMatchTrainerIds ? Number(getTrainerPreviewTrainerIdFromSet(TR_NAMES[i])) : 0
+
+        if (primaryTrainerId && candidateTrainerId === primaryTrainerId) {
+            push_primary_match(TR_NAMES[i])
+        } else if (!primaryTrainerId && matches_trainer_name(TR_NAMES[i], og_trainer_name, og_white_space)) {
             push_primary_match(TR_NAMES[i])
         }
-        if (tempPartnerName && matches_trainer_name(TR_NAMES[i], tempPartnerName, partner_white_space)) {
+
+        if (partnerTrainerId && candidateTrainerId === partnerTrainerId) {
+            push_partner_match(TR_NAMES[i])
+        } else if (!partnerTrainerId && tempPartnerName && matches_trainer_name(TR_NAMES[i], tempPartnerName, partner_white_space)) {
             push_partner_match(TR_NAMES[i])
         }
     }
