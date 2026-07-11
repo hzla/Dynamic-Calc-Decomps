@@ -600,6 +600,11 @@ function getRightBeatUpParty() {
 
 function configureBeatUpMove(move, party) {
 	if (!move || (move.name !== "Beat Up" && move.originalName !== "Beat Up")) return;
+	if (typeof TITLE === "string" && TITLE === "Platinum Kaizo") {
+		move.beatUpParty = undefined;
+		move.hits = 1;
+		return;
+	}
 	move.beatUpParty = party.slice(0, 6).map(function(member) { return Object.assign({}, member); });
 	move.hits = move.beatUpParty.length;
 }

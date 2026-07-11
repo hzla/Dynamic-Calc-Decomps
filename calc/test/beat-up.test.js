@@ -112,6 +112,37 @@ describe("Beat Up", function () {
         });
     });
 
+    test("is a regular single-hit listed-power move in Platinum Kaizo", function () {
+        withGen(4, function (gen) {
+            global.TITLE = "Platinum Kaizo";
+            var beatUp = new calc.Move(gen, "Beat Up", {
+                beatUpParty: PARTY,
+                overrides: { basePower: 60, category: "Physical", type: "Dark" }
+            });
+            var regularMove = new calc.Move(gen, "Tackle", {
+                overrides: { basePower: 60, category: "Physical", type: "Dark" }
+            });
+            var attacker = new calc.Pokemon(gen, "Umbreon", {
+                level: 50,
+                item: "None",
+                moves: [beatUp]
+            });
+            var defender = new calc.Pokemon(gen, "Gengar", {
+                level: 50,
+                item: "None",
+                moves: [new calc.Move(gen, "Tackle")]
+            });
+            var field = new calc.Field();
+            var beatUpResult = calc.calculate(gen, attacker, defender, beatUp, field);
+            var regularResult = calc.calculate(gen, attacker, defender, regularMove, field);
+
+            expect(beatUpResult.move.hits).toBe(1);
+            expect(beatUpResult.move.beatUpParty).toBeUndefined();
+            expect(beatUpResult.damage).toEqual(regularResult.damage);
+            expect(Array.isArray(beatUpResult.damage[0])).toBe(false);
+        });
+    });
+
     test("labels every roll group with its contributing party member", function () {
         var source = fs.readFileSync(path.join(__dirname, "../../js/index_randoms_controls.js"), "utf8");
         var start = source.indexOf("function getBeatUpHitLabels");
