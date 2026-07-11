@@ -73,6 +73,12 @@ function calculateADV(gen, attacker, defender, move, field) {
         desc.isProtected = true;
         return result;
     }
+    if (move.named('Beat Up') && Array.isArray(move.beatUpParty)) {
+        if (move.hits > 1)
+            desc.hits = move.hits;
+        result.damage = (0, util_1.calculateLegacyBeatUpDamage)(gen, move, defender);
+        return result;
+    }
     if (move.name === 'Pain Split') {
         var average = Math.floor((attacker.curHP() + defender.curHP()) / 2);
         var damage_1 = Math.max(0, defender.curHP() - average);

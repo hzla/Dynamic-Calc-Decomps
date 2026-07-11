@@ -338,6 +338,12 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
                 break;
             case "Beat Up":
+                if (Array.isArray(move.beatUpParty)) {
+                    var beatUpMember = move.beatUpParty[hitCount];
+                    basePower = beatUpMember ? Math.floor(beatUpMember.baseAttack / 10) + 5 : 0;
+                    desc.moveBP = basePower;
+                    break;
+                }
             case "Infernal Parade":
             case "Barb Barrage":
             case "Bitter Malice":

@@ -161,7 +161,7 @@ function performCalculations() {
 	for (var i = 0; i < 4; i++) {
 		// P1
 		result = damageResults[0][i];
-		maxDamage = result.range()[1] * p1.moves[i].hits;
+		maxDamage = getMaximumResultDamage(result);
 		if (!zProtectAlerted && maxDamage > 0 && p1.item.indexOf(" Z") === -1 && p1field.defenderSide.isProtected && p1.moves[i].isZ) {
 			alert('Although only possible while hacking, Z-Moves fully damage through protect without a Z-Crystal');
 			zProtectAlerted = true;
@@ -191,7 +191,7 @@ function performCalculations() {
 
 		// P2
 		result = damageResults[1][i];
-		maxDamage = result.range()[1] * p2.moves[i].hits;
+		maxDamage = getMaximumResultDamage(result);
 		if (!zProtectAlerted && maxDamage > 0 && p2.item.indexOf(" Z") === -1 && p2field.defenderSide.isProtected && p2.moves[i].isZ) {
 			alert('Although only possible while hacking, Z-Moves fully damage through protect without a Z-Crystal');
 			zProtectAlerted = true;
@@ -259,7 +259,7 @@ $(".result-move").change(function () {
 			desc = correctImpossibleMultihitOHKOText(result, desc);
 			if (desc.indexOf('--') === -1) desc += ' -- possibly the worst move ever';
 			$("#mainResult").text(desc);
-			var summary = displayDamageHits(normalizeDamageForDisplay(result));
+			var summary = displayDamageHits(normalizeDamageForDisplay(result), getBeatUpHitLabels(result));
 			var rest = "";
 			var newLine = summary.indexOf('\n');
 			if (newLine > -1) {
@@ -267,7 +267,9 @@ $(".result-move").change(function () {
 				summary = summary.substring(0, newLine);
 			}
 			$("#firstDmgValues").html("Rolls: (" + summary + ")");
-			if (rest !== "") $("#restDmgValues").html("(" + rest + ")");
+			if (rest !== "") {
+				$("#restDmgValues").html("(" + rest.split('\n').join(")<br>(") + ")");
+			}
 
 			if (rest.trim() === "") {
 				$("#firstDmgValues").css("display", "block");
@@ -283,9 +285,15 @@ $(".result-move").change(function () {
 	var move = $(".results-right .visually-hidden:checked + .btn").text()    
 });
 
-function displayDamageHits(damage) {
+function getBeatUpHitLabels(result) {
+	if (!result || !result.move || !Array.isArray(result.move.beatUpParty)) return [];
+	return result.move.beatUpParty.map(function(member) { return member.name || "Party member"; });
+}
+
+function displayDamageHits(damage, hitLabels) {
+	hitLabels = Array.isArray(hitLabels) ? hitLabels : [];
 	// Fixed Damage
-	if (typeof damage === 'number') return damage.toString();
+	if (typeof damage === 'number') return (hitLabels[0] ? "1st Hit (" + hitLabels[0] + "): " : "") + damage.toString();
 
 	if (damage.length == 16 && typeof damage[0] === 'number') {
 		var medianIndex = 8;
@@ -300,11 +308,14 @@ function displayDamageHits(damage) {
 			}
 			return value;
 		});
-		return formatted.join(', ');
+		var singleHitPrefix = hitLabels[0] ? "1st Hit (" + hitLabels[0] + "): " : "";
+		return singleHitPrefix + formatted.join(', ');
 	}
 
 	// Standard Damage
-	if (damage.length > 2 && typeof damage[0] === 'number') return damage.join(', ');
+	if (damage.length > 2 && typeof damage[0] === 'number') {
+		return (hitLabels[0] ? "1st Hit (" + hitLabels[0] + "): " : "") + damage.join(', ');
+	}
 	// Fixed Parental Bond Damage
 	if (typeof damage[0] === 'number' && typeof damage[1] === 'number') {
 		return '1st Hit: ' + damage[0] + '; 2nd Hit: ' + damage[1];
@@ -312,10 +323,10 @@ function displayDamageHits(damage) {
 	// Multihit Damage
 	var fullText = "";
 	for (var i = 1; i <= damage.length; i++) {
-		var txt = toOrdinal(i) + " Hit: " + damage[i - 1].join(', ');
-		if (i > 1 && i < damage.length) txt += "; ";
+		var contributor = hitLabels[i - 1] ? " (" + hitLabels[i - 1] + ")" : "";
+		var txt = toOrdinal(i) + " Hit" + contributor + ": " + damage[i - 1].join(', ');
 		fullText += txt;
-		if (i % 2 == 1 && i < damage.length) fullText += "\n";
+		if (i < damage.length) fullText += "\n";
 	}
 	return fullText;
 }
@@ -495,6 +506,110 @@ function checkStatBoost(p1, p2) {
 	}
 }
 
+function getBeatUpBaseAttack(speciesName) {
+	var speciesData = pokedex && (pokedex[speciesName] || pokedex[speciesName.replace(" ", "-")] || pokedex[speciesName.replace("-", " ")] || pokedex[speciesName.split("-")[0]]);
+	var baseStats = speciesData && (speciesData.baseStats || speciesData.bs);
+	if (!baseStats) return null;
+	var baseAttack = Number(typeof baseStats.atk !== "undefined" ? baseStats.atk : baseStats.at);
+	return Number.isFinite(baseAttack) ? baseAttack : null;
+}
+
+function getBeatUpMemberLevel(setData, fallbackLevel) {
+	var level = Number(setData && setData.level);
+	if (setData && (level < 1 || typeof setData.sublevel !== "undefined") && typeof resolveRelativeSetLevel === "function") {
+		level = Number(resolveRelativeSetLevel(setData, fallbackLevel));
+	}
+	if (!Number.isFinite(level) || level < 1) {
+		level = Number(fallbackLevel) || 1;
+	}
+	return Math.max(1, Math.min(100, Math.floor(level)));
+}
+
+function hasBeatUpBlockingStatus(status) {
+	var normalized = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(status) : String(status || "Healthy");
+	return normalized !== "Healthy" && normalized !== "Confused";
+}
+
+function buildBeatUpMember(speciesName, setData, fallbackLevel) {
+	if (!speciesName || !setData || Number(setData.currentHp) === 0 || hasBeatUpBlockingStatus(setData.status)) {
+		return null;
+	}
+	var baseAttack = getBeatUpBaseAttack(speciesName);
+	if (baseAttack === null) return null;
+	return {
+		name: speciesName,
+		level: getBeatUpMemberLevel(setData, fallbackLevel),
+		baseAttack: baseAttack
+	};
+}
+
+function getLeftBeatUpParty() {
+	var party = [];
+	var preview = typeof currentParty !== "undefined" && Array.isArray(currentParty) ? currentParty.slice(0, 6) : [];
+	var selectedSetId = $('#p1 input.set-selector').val() || "";
+	var selectedSpecies = selectedSetId.split(" (")[0];
+	for (var i = 0; i < preview.length; i++) {
+		var speciesName = preview[i];
+		var slotOverride = typeof getPartyPreviewSlotOverride === "function" ? getPartyPreviewSlotOverride(speciesName, i) : null;
+		var setData = slotOverride || (setdex[speciesName] && setdex[speciesName]["My Box"]);
+		if (setData && speciesName === selectedSpecies) {
+			setData = Object.assign({}, setData, {
+				status: $('#p1 .status').val(),
+				currentHp: $('#p1 .current-hp').val()
+			});
+		}
+		var member = buildBeatUpMember(speciesName, setData, $('#levelL1').val());
+		if (member) party.push(member);
+	}
+	return party;
+}
+
+function getRightBeatUpParty() {
+	var selectedSetId = $('#p2 input.set-selector').val() || $('.opposing.set-selector').first().val() || "";
+	var selectedSetData = typeof getSetDataBySetId === "function" ? getSetDataBySetId(selectedSetId) : null;
+	var selectedTrainerId = selectedSetData && Number(selectedSetData.tr_id);
+	var trainerSets = typeof CURRENT_TRAINER_POKS !== "undefined" && Array.isArray(CURRENT_TRAINER_POKS) ? CURRENT_TRAINER_POKS.slice() : [];
+	var rememberedStates = typeof getRememberedEnemyStateMap === "function" ? getRememberedEnemyStateMap() : {};
+	var party = [];
+
+	var consideredMembers = 0;
+	for (var i = 0; i < trainerSets.length && consideredMembers < 6; i++) {
+		var setId = Array.isArray(trainerSets[i]) ? trainerSets[i][0] : trainerSets[i];
+		var setData = typeof getSetDataBySetId === "function" ? getSetDataBySetId(setId) : null;
+		if (!setData || (selectedTrainerId && Number(setData.tr_id) !== selectedTrainerId)) continue;
+		consideredMembers++;
+
+		var dataId = typeof getTrainerPreviewDataId === "function" ? getTrainerPreviewDataId(setId) : setId;
+		if (Array.isArray(fainted) && (fainted.includes(dataId) || fainted.includes(setId))) continue;
+
+		var effectiveSetData = Object.assign({}, setData);
+		var rememberedState = rememberedStates[dataId] || rememberedStates[setId];
+		if (rememberedState && typeof rememberedState.status !== "undefined") {
+			effectiveSetData.status = rememberedState.status;
+		}
+		if (dataId && dataId === (typeof getTrainerPreviewDataId === "function" ? getTrainerPreviewDataId(selectedSetId) : selectedSetId)) {
+			effectiveSetData.status = $('#p2 .status').val();
+		}
+
+		var speciesName = String(setId).split(" (")[0];
+		var member = buildBeatUpMember(speciesName, effectiveSetData, $('#levelR1').val());
+		if (member) party.push(member);
+	}
+	return party;
+}
+
+function configureBeatUpMove(move, party) {
+	if (!move || (move.name !== "Beat Up" && move.originalName !== "Beat Up")) return;
+	move.beatUpParty = party.slice(0, 6).map(function(member) { return Object.assign({}, member); });
+	move.hits = move.beatUpParty.length;
+}
+
+function getMaximumResultDamage(result) {
+	var maximum = result.range()[1];
+	var hasPerHitDistributions = Array.isArray(result.damage) && Array.isArray(result.damage[0]);
+	return hasPerHitDistributions ? maximum : maximum * (result.move.hits || 1);
+}
+
 
 function rolls_less_than(rolls, k, winsTie) {
 
@@ -567,7 +682,11 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 	}
 
 	var results = [[], []];
+	var p1BeatUpParty = getLeftBeatUpParty();
+	var p2BeatUpParty = getRightBeatUpParty();
 	for (var i = 0; i < 4; i++) {
+		configureBeatUpMove(p1.moves[i], p1BeatUpParty);
+		configureBeatUpMove(p2.moves[i], p2BeatUpParty);
 		var p2MoveName = p2.moves[i] && p2.moves[i].name;
 		var p2OriginalMoveName = p2.moves[i] && p2.moves[i].originalName;
 		var isEmptyMove = !p2.moves[i] || p2MoveName == "(No Move)" || p2OriginalMoveName == "(No Move)";

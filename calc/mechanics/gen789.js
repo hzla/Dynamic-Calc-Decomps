@@ -626,6 +626,16 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             basePower = w >= 200 ? 120 : w >= 100 ? 100 : w >= 50 ? 80 : w >= 25 ? 60 : w >= 10 ? 40 : 20;
             desc.moveBP = basePower;
             break;
+        case 'Beat Up':
+            if (Array.isArray(move.beatUpParty)) {
+                var beatUpMember = move.beatUpParty[hit - 1];
+                basePower = beatUpMember ? Math.floor(beatUpMember.baseAttack / 10) + 5 : 0;
+                desc.moveBP = basePower;
+            }
+            else {
+                basePower = move.bp;
+            }
+            break;
         
         case 'Barb Barrage':
             if (TITLE == "Emerald Imperium" || TITLE == "Emerald Imperium 1.2") {

@@ -81,6 +81,12 @@ function calculateDPP(gen, attacker, defender, move, field) {
         desc.isProtected = true;
         return result;
     }
+    if (move.named('Beat Up') && Array.isArray(move.beatUpParty)) {
+        if (move.hits > 1)
+            desc.hits = move.hits;
+        result.damage = (0, util_1.calculateLegacyBeatUpDamage)(gen, move, defender);
+        return result;
+    }
     if (attacker.hasAbility('Mold Breaker')) {
         defender.ability = '';
         desc.attackerAbility = attacker.ability;

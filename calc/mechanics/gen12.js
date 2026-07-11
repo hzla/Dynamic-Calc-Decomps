@@ -44,6 +44,12 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         desc.isProtected = true;
         return result;
     }
+    if (gen.num === 2 && move.named('Beat Up') && Array.isArray(move.beatUpParty)) {
+        if (move.hits > 1)
+            desc.hits = move.hits;
+        result.damage = (0, util_1.calculateLegacyBeatUpDamage)(gen, move, defender);
+        return result;
+    }
     if (gen.num === 1) {
         var fixedDamage = (0, util_1.handleFixedDamageMoves)(attacker, move);
         if (fixedDamage) {

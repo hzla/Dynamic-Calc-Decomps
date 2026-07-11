@@ -32,6 +32,13 @@ var Move = (function () {
         this.originalName = name;
         var data = (0, util_1.extend)(true, { name: name }, gen.moves.get((0, util_1.toID)(name)), options.overrides);
         this.hits = 1;
+        this.beatUpParty = Array.isArray(options.beatUpParty)
+            ? options.beatUpParty.slice(0, 6).map(function (member) { return ({
+                name: member.name,
+                level: member.level,
+                baseAttack: member.baseAttack
+            }); })
+            : undefined;
         if (options.useMax && data.maxMove) {
             var maxMoveName_1 = getMaxMoveName(data.type, options.species, !!(data.category === 'Status'), options.ability);
             var maxMove_1 = gen.moves.get((0, util_1.toID)(maxMoveName_1));
@@ -74,6 +81,9 @@ var Move = (function () {
                 }
             }
             this.timesUsedWithMetronome = options.timesUsedWithMetronome;
+        }
+        if (this.beatUpParty && data.name === 'Beat Up') {
+            this.hits = this.beatUpParty.length;
         }
         this.gen = gen;
         this.name = data.name;
@@ -144,6 +154,7 @@ var Move = (function () {
             hits: this.hits,
             timesUsed: this.timesUsed,
             timesUsedWithMetronome: this.timesUsedWithMetronome,
+            beatUpParty: this.beatUpParty,
             overrides: this.overrides
         });
     };

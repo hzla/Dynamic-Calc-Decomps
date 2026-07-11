@@ -855,6 +855,36 @@ function getStatDescriptionText(gen, pokemon, stat, powerTrickActive, wonderRoom
 }
 exports.getStatDescriptionText = getStatDescriptionText;
 
+function calculateLegacyBeatUpDamage(gen, move, defender) {
+    if (!move.named('Beat Up') || !Array.isArray(move.beatUpParty)) {
+        return null;
+    }
+    if (move.beatUpParty.length === 0) {
+        return 0;
+    }
+    var defense = Math.max(1, Number(defender.species && defender.species.baseStats && defender.species.baseStats.def) || 1);
+    var damageMatrix = move.beatUpParty.map(function (member) {
+        var level = Math.max(1, Number(member.level) || 1);
+        var attack = Math.max(1, Number(member.baseAttack) || 1);
+        var baseDamage = Math.floor(Math.floor((Math.floor((2 * level) / 5 + 2) * attack * 10) / defense) / 50);
+        baseDamage = (gen.num === 2 ? Math.min(997, baseDamage) : Math.max(1, baseDamage)) + 2;
+        var damage = [];
+        if (gen.num === 2) {
+            for (var roll = 217; roll <= 255; roll++) {
+                damage[roll - 217] = Math.max(1, Math.floor((baseDamage * roll) / 255));
+            }
+        }
+        else {
+            for (var roll = 85; roll <= 100; roll++) {
+                damage[roll - 85] = Math.max(1, Math.floor((baseDamage * roll) / 100));
+            }
+        }
+        return damage;
+    });
+    return damageMatrix.length === 1 ? damageMatrix[0] : damageMatrix;
+}
+exports.calculateLegacyBeatUpDamage = calculateLegacyBeatUpDamage;
+
 function handleFixedDamageMoves(attacker, move, defender=null) {
     if (move.named('Seismic Toss', 'Night Shade')) {
         return attacker.level;

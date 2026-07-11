@@ -631,6 +631,16 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
                 basePower = move.bp * (defender.status || defender.hasAbility('Comatose') ? 2 : 1);
                 desc.moveBP = basePower;
                 break;
+            case 'Beat Up':
+                if (Array.isArray(move.beatUpParty)) {
+                    var beatUpMember = move.beatUpParty[hit - 1];
+                    basePower = beatUpMember ? Math.floor(beatUpMember.baseAttack / 10) + 5 : 0;
+                    desc.moveBP = basePower;
+                }
+                else {
+                    basePower = move.bp;
+                }
+                break;
             case 'Barb Barrage':
                 basePower = move.bp * (defender.hasStatus('psn', 'tox') ? 2 : 1);
                 desc.moveBP = basePower;
