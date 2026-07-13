@@ -110602,10 +110602,10 @@ backup_data = {
       "bs": {
         "hp": 50,
         "at": 30,
-        "df": 55,
-        "sa": 65,
-        "sd": 55,
-        "sp": 20
+        "df": 70,
+        "sa": 85,
+        "sd": 70,
+        "sp": 40
       },
       "learnset_info": {
         "learnset": [
@@ -110741,9 +110741,9 @@ backup_data = {
         "hp": 60,
         "at": 40,
         "df": 80,
-        "sa": 95,
+        "sa": 110,
         "sd": 80,
-        "sp": 55
+        "sp": 65
       },
       "learnset_info": {
         "learnset": [
@@ -110891,9 +110891,9 @@ backup_data = {
       "bs": {
         "hp": 60,
         "at": 55,
-        "df": 100,
+        "df": 105,
         "sa": 145,
-        "sd": 100,
+        "sd": 105,
         "sp": 80
       },
       "learnset_info": {
