@@ -128823,8 +128823,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Motorcyclist Duke ": {
-        "level": 26,
+      "Lvl 41 Motorcyclist Duke ": {
+        "level": 41,
         "ai": 143,
         "noCh": false,
         "tr_id": 339,
@@ -128838,16 +128838,16 @@ backup_data = {
         },
         "battle_type": "Triples",
         "reward_item": "TM31",
-        "item": "None",
-        "nature": "Serious",
+        "item": "Poison Barb",
+        "nature": "Docile",
         "moves": [
-          "-----",
-          "-----",
-          "-----",
-          "-----"
+          "Twineedle",
+          "Poison Tail",
+          "Horn Leech",
+          "Protect"
         ],
         "sub_index": 0,
-        "ability": "Strong Body",
+        "ability": "Tenacity",
         "sprite": "trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -132072,37 +132072,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Trace",
         "sprite": "trainer_sprites/schoolkidf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 36 Psychic Dua - Relic Castle": {
-        "level": 36,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 510,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "None",
-        "item": "Iron Ball",
-        "nature": "Sassy",
-        "moves": [
-          "Hex",
-          "Draining Kiss",
-          "Psybeam",
-          "Shock Wave"
-        ],
-        "sub_index": 3,
-        "ability": "Friend Guard",
-        "sprite": "trainer_sprites/psychicf.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -146045,8 +146014,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 18 Youngster Keita - Virbank Complex": {
-        "level": 18,
+      "Lvl 19 Youngster Keita - Virbank Complex": {
+        "level": 19,
         "ai": 15,
         "noCh": false,
         "tr_id": 645,
@@ -146061,7 +146030,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Magnet",
         "item": "None",
-        "nature": "Naive",
+        "nature": "Relaxed",
         "moves": [
           "Aerial Ace",
           "Rock Smash",
@@ -156478,7 +156447,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Mystic Water",
         "item": "None",
-        "nature": "Naughty",
+        "nature": "Mild",
         "moves": [
           "Chilling Water",
           "Disarming Voice",
@@ -158360,7 +158329,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Mystic Water",
         "item": "None",
-        "nature": "Mild",
+        "nature": "Modest",
         "moves": [
           "Hyper Voice",
           "Thunderbolt",
@@ -161632,7 +161601,7 @@ backup_data = {
         "item": "None",
         "nature": "Lonely",
         "moves": [
-          "-----",
+          "Fake Out",
           "Leaf Blade",
           "Dark Pulse",
           "Detect"
@@ -161850,7 +161819,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "Cheri Berry",
-        "item": "None",
+        "item": "Eviolite",
         "nature": "Modest",
         "moves": [
           "Blizzard",
@@ -165814,37 +165783,6 @@ backup_data = {
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 26 Harlequin Yoncy - Route 8": {
-        "level": 26,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 571,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Eviolite",
-        "nature": "Careful",
-        "moves": [
-          "Seismic Toss",
-          "Thunder Wave",
-          "Metronome",
-          "Minimize"
-        ],
-        "sub_index": 3,
-        "ability": "Magic Bounce",
-        "sprite": "trainer_sprites/harlequin.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
       }
     },
     "Kricketune": {
@@ -167673,6 +167611,37 @@ backup_data = {
         "sub_index": 1,
         "ability": "Illumination",
         "sprite": "trainer_sprites/ghostlygent.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 36 Psychic Dua - Relic Castle": {
+        "level": 36,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 510,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "None",
+        "item": "Iron Ball",
+        "nature": "Hardy",
+        "moves": [
+          "Hex",
+          "Mystical Fire",
+          "Psychic",
+          "Destiny Bond"
+        ],
+        "sub_index": 3,
+        "ability": "Flash Fire",
+        "sprite": "trainer_sprites/psychicf.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -170167,8 +170136,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 26 Motorcyclist Duke ": {
-        "level": 26,
+      "Lvl 41 Motorcyclist Duke ": {
+        "level": 41,
         "ai": 143,
         "noCh": false,
         "tr_id": 339,
@@ -170182,16 +170151,16 @@ backup_data = {
         },
         "battle_type": "Triples",
         "reward_item": "TM31",
-        "item": "None",
-        "nature": "Lonely",
+        "item": "Roseli Berry",
+        "nature": "Calm",
         "moves": [
-          "-----",
-          "-----",
-          "-----",
-          "-----"
+          "Focus Punch",
+          "Payback",
+          "Iron Head",
+          "Fake Out"
         ],
         "sub_index": 1,
-        "ability": "Bulletproof",
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -176961,7 +176930,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Timid",
+        "nature": "Adamant",
         "moves": [
           "Play Rough",
           "Waterfall",
@@ -177889,7 +177858,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
-        "item": "None",
+        "item": "Eviolite",
         "nature": "Jolly",
         "moves": [
           "Double-Edge",
@@ -178590,7 +178559,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Mystic Water",
         "item": "Eviolite",
-        "nature": "Adamant",
+        "nature": "Bold",
         "moves": [
           "Twineedle",
           "Whirlwind",
@@ -178623,7 +178592,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Mystic Water",
         "item": "Eviolite",
-        "nature": "Naughty",
+        "nature": "Bashful",
         "moves": [
           "Dragon Breath",
           "Water Pulse",
@@ -194532,7 +194501,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Pecha Berry",
-        "item": "Eviolite",
+        "item": "None",
         "nature": "Impish",
         "moves": [
           "Rock Blast",
@@ -194541,7 +194510,7 @@ backup_data = {
           "Stealth Rock"
         ],
         "sub_index": 1,
-        "ability": "Solid Rock",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/blackbelt.png",
         "form": 0,
         "evs": {
@@ -196167,8 +196136,8 @@ backup_data = {
       }
     },
     "Wigglytuff": {
-      "Lvl 26 Motorcyclist Duke ": {
-        "level": 26,
+      "Lvl 41 Motorcyclist Duke ": {
+        "level": 41,
         "ai": 143,
         "noCh": false,
         "tr_id": 339,
@@ -196182,16 +196151,16 @@ backup_data = {
         },
         "battle_type": "Triples",
         "reward_item": "TM31",
-        "item": "None",
-        "nature": "Serious",
+        "item": "Custap Berry",
+        "nature": "Quiet",
         "moves": [
-          "-----",
-          "-----",
-          "-----",
-          "-----"
+          "Aeroblast",
+          "Moonblast",
+          "Flamethrower",
+          "Ice Beam"
         ],
         "sub_index": 2,
-        "ability": "Aerilate",
+        "ability": "Flare Boost",
         "sprite": "trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -198272,8 +198241,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 17 Youngster Keita - Virbank Complex": {
-        "level": 17,
+      "Lvl 18 Youngster Keita - Virbank Complex": {
+        "level": 18,
         "ai": 15,
         "noCh": false,
         "tr_id": 645,
@@ -198288,7 +198257,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Magnet",
         "item": "Eviolite",
-        "nature": "Quiet",
+        "nature": "Timid",
         "moves": [
           "Rock Blast",
           "Barrage",
@@ -202995,6 +202964,39 @@ backup_data = {
         }
       }
     },
+    "Litwick": {
+      "Lvl 28 Harlequin Yoncy - Route 8": {
+        "level": 28,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 571,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Gentle",
+        "moves": [
+          "Fire Spin",
+          "Night Shade",
+          "Recover",
+          "Minimize"
+        ],
+        "sub_index": 3,
+        "ability": "Illumination",
+        "sprite": "trainer_sprites/harlequin.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Poliwhirl": {
       "Lvl 60 Fisherman Arnold - Moor of Icirrus": {
         "level": 60,
@@ -203477,8 +203479,8 @@ backup_data = {
       }
     },
     "Aron": {
-      "Lvl 17 Youngster Keita - Virbank Complex": {
-        "level": 17,
+      "Lvl 18 Youngster Keita - Virbank Complex": {
+        "level": 18,
         "ai": 15,
         "noCh": false,
         "tr_id": 645,
@@ -203493,7 +203495,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Magnet",
         "item": "None",
-        "nature": "Gentle",
+        "nature": "Jolly",
         "moves": [
           "Double-Edge",
           "Metal Claw",
@@ -203510,8 +203512,8 @@ backup_data = {
       }
     },
     "Trapinch": {
-      "Lvl 17 Youngster Keita - Virbank Complex": {
-        "level": 17,
+      "Lvl 18 Youngster Keita - Virbank Complex": {
+        "level": 18,
         "ai": 15,
         "noCh": false,
         "tr_id": 645,
@@ -203526,7 +203528,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Magnet",
         "item": "None",
-        "nature": "Impish",
+        "nature": "Hardy",
         "moves": [
           "Bulldoze",
           "Bug Bite",
