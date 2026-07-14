@@ -1,5 +1,5 @@
 backup_data = {
-    "title":"Cascade White",
+  "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
@@ -776,7 +776,7 @@ backup_data = {
     },
     "Ember": {
       "type": "Fire",
-      "basePower": 40,
+      "basePower": 50,
       "category": "Special",
       "pp": 25,
       "accuracy": 100,
@@ -1136,7 +1136,7 @@ backup_data = {
     },
     "Rock Throw": {
       "type": "Rock",
-      "basePower": 50,
+      "basePower": 60,
       "category": "Physical",
       "pp": 15,
       "accuracy": 100,
@@ -1427,7 +1427,7 @@ backup_data = {
       "basePower": 70,
       "category": "Physical",
       "pp": 10,
-      "accuracy": 100,
+      "accuracy": 101,
       "priority": 0,
       "e_id": 135
     },
@@ -2629,7 +2629,7 @@ backup_data = {
       "basePower": 70,
       "category": "Special",
       "pp": 15,
-      "accuracy": 100,
+      "accuracy": 101,
       "priority": 0,
       "e_id": 135
     },
@@ -5283,7 +5283,7 @@ backup_data = {
       "pp": 30,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 0,
+      "e_id": 302,
       "flags": {
         "sound": true
       }
@@ -12052,7 +12052,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 53,
-        "at": 46,
+        "at": 56,
         "df": 55,
         "sa": 76,
         "sd": 75,
@@ -15905,11 +15905,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 55,
-        "at": 70,
+        "at": 80,
         "df": 55,
         "sa": 70,
-        "sd": 60,
-        "sp": 70
+        "sd": 55,
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
@@ -16077,7 +16077,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 80,
+        "hp": 90,
         "at": 110,
         "df": 80,
         "sa": 100,
@@ -33006,7 +33006,7 @@ backup_data = {
       },
       "abs": [
         "Blaze",
-        "Sand Rush",
+        "Flash Fire",
         "Turboblaze"
       ],
       "evos": [
@@ -33180,7 +33180,7 @@ backup_data = {
       },
       "abs": [
         "Blaze",
-        "Sand Rush",
+        "Flash Fire",
         "Turboblaze"
       ],
       "evoType": "level",
@@ -33368,7 +33368,7 @@ backup_data = {
       },
       "abs": [
         "Blaze",
-        "Sand Rush",
+        "Flash Fire",
         "Turboblaze"
       ],
       "evoType": "level",
@@ -50126,7 +50126,7 @@ backup_data = {
         "at": 100,
         "df": 65,
         "sa": 105,
-        "sd": 80,
+        "sd": 85,
         "sp": 120
       },
       "learnset_info": {
@@ -50329,7 +50329,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Pluck"
           ],
           [
             1,
@@ -50337,7 +50337,7 @@ backup_data = {
           ],
           [
             4,
-            "Pluck"
+            "Quick Attack"
           ],
           [
             7,
@@ -50345,7 +50345,7 @@ backup_data = {
           ],
           [
             10,
-            "Quick Attack"
+            "Natural Gift"
           ],
           [
             13,
@@ -50353,11 +50353,11 @@ backup_data = {
           ],
           [
             16,
-            "Double Kick"
+            "Sky Uppercut"
           ],
           [
             19,
-            "Aerial Ace"
+            "Bounce"
           ],
           [
             22,
@@ -50369,15 +50369,15 @@ backup_data = {
           ],
           [
             28,
-            "Sky Uppercut"
+            "Jump Kick"
           ],
           [
             31,
-            "Bounce"
+            "Fire Spin"
           ],
           [
             34,
-            "Jump Kick"
+            "Air Slash"
           ],
           [
             40,
@@ -50389,7 +50389,7 @@ backup_data = {
           ],
           [
             47,
-            "Fire Spin"
+            "Acrobatics"
           ]
         ],
         "tms": [
@@ -50501,7 +50501,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Pluck"
           ],
           [
             1,
@@ -50509,7 +50509,7 @@ backup_data = {
           ],
           [
             4,
-            "Pluck"
+            "Quick Attack"
           ],
           [
             7,
@@ -50517,7 +50517,7 @@ backup_data = {
           ],
           [
             10,
-            "Quick Attack"
+            "Natural Gift"
           ],
           [
             13,
@@ -50525,11 +50525,11 @@ backup_data = {
           ],
           [
             16,
-            "Double Kick"
+            "Sky Uppercut"
           ],
           [
             19,
-            "Aerial Ace"
+            "Bounce"
           ],
           [
             22,
@@ -50541,15 +50541,15 @@ backup_data = {
           ],
           [
             28,
-            "Sky Uppercut"
+            "Jump Kick"
           ],
           [
             31,
-            "Bounce"
+            "Fire Spin"
           ],
           [
             34,
-            "Jump Kick"
+            "Air Slash"
           ],
           [
             40,
@@ -50561,11 +50561,11 @@ backup_data = {
           ],
           [
             47,
-            "Fire Spin"
+            "Acrobatics"
           ],
           [
             51,
-            "Acrobatics"
+            "Blaze Kick"
           ],
           [
             57,
@@ -50691,7 +50691,7 @@ backup_data = {
           ],
           [
             4,
-            "Pluck"
+            "Quick Attack"
           ],
           [
             7,
@@ -50699,7 +50699,7 @@ backup_data = {
           ],
           [
             10,
-            "Quick Attack"
+            "Natural Gift"
           ],
           [
             13,
@@ -50711,7 +50711,7 @@ backup_data = {
           ],
           [
             19,
-            "Aerial Ace"
+            "Bounce"
           ],
           [
             22,
@@ -50723,15 +50723,15 @@ backup_data = {
           ],
           [
             28,
-            "Sky Uppercut"
+            "Jump Kick"
           ],
           [
             31,
-            "Bounce"
+            "Fire Spin"
           ],
           [
             34,
-            "Jump Kick"
+            "Air Slash"
           ],
           [
             40,
@@ -50743,11 +50743,11 @@ backup_data = {
           ],
           [
             47,
-            "Fire Spin"
+            "Acrobatics"
           ],
           [
             51,
-            "Acrobatics"
+            "Blaze Kick"
           ],
           [
             57,
@@ -50755,7 +50755,7 @@ backup_data = {
           ],
           [
             61,
-            "Blaze Kick"
+            "Supercell Slam"
           ],
           [
             65,
@@ -73244,7 +73244,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Covet"
           ],
           [
             1,
@@ -73256,7 +73256,7 @@ backup_data = {
           ],
           [
             8,
-            "Covet"
+            "Mach Punch"
           ],
           [
             10,
@@ -73264,11 +73264,11 @@ backup_data = {
           ],
           [
             14,
-            "Mach Punch"
+            "Poison Jab"
           ],
           [
             17,
-            "Counter"
+            "Switcheroo"
           ],
           [
             20,
@@ -73276,7 +73276,7 @@ backup_data = {
           ],
           [
             23,
-            "Screech"
+            "Acrobatics"
           ],
           [
             27,
@@ -73300,7 +73300,7 @@ backup_data = {
           ],
           [
             41,
-            "Switcheroo"
+            "U-turn"
           ]
         ],
         "tms": [
@@ -73415,7 +73415,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Covet"
           ],
           [
             1,
@@ -73427,7 +73427,7 @@ backup_data = {
           ],
           [
             8,
-            "Covet"
+            "Mach Punch"
           ],
           [
             10,
@@ -73435,11 +73435,11 @@ backup_data = {
           ],
           [
             14,
-            "Mach Punch"
+            "Poison Jab"
           ],
           [
             17,
-            "Counter"
+            "Switcheroo"
           ],
           [
             20,
@@ -73447,7 +73447,7 @@ backup_data = {
           ],
           [
             23,
-            "Screech"
+            "Acrobatics"
           ],
           [
             27,
@@ -73471,7 +73471,7 @@ backup_data = {
           ],
           [
             41,
-            "Switcheroo"
+            "U-turn"
           ],
           [
             44,
@@ -73620,7 +73620,7 @@ backup_data = {
           ],
           [
             8,
-            "Covet"
+            "Mach Punch"
           ],
           [
             10,
@@ -73628,11 +73628,11 @@ backup_data = {
           ],
           [
             14,
-            "Mach Punch"
+            "Poison Jab"
           ],
           [
             17,
-            "Counter"
+            "Switcheroo"
           ],
           [
             20,
@@ -73640,7 +73640,7 @@ backup_data = {
           ],
           [
             23,
-            "Screech"
+            "Acrobatics"
           ],
           [
             27,
@@ -73664,7 +73664,7 @@ backup_data = {
           ],
           [
             41,
-            "Switcheroo"
+            "U-turn"
           ],
           [
             44,
@@ -73687,16 +73687,16 @@ backup_data = {
             "Encore"
           ],
           [
-            65,
+            62,
             "Flare Blitz"
           ],
           [
-            70,
-            "Nasty Plot"
+            67,
+            "Close Combat"
           ],
           [
-            74,
-            "Close Combat"
+            72,
+            "Meteor Mash"
           ],
           [
             79,
@@ -73815,7 +73815,7 @@ backup_data = {
           ],
           [
             8,
-            "Aqua Jet"
+            "Icy Wind"
           ],
           [
             11,
@@ -73831,7 +73831,7 @@ backup_data = {
           ],
           [
             19,
-            "Icy Wind"
+            "Freeze-Dry"
           ],
           [
             22,
@@ -73843,7 +73843,7 @@ backup_data = {
           ],
           [
             28,
-            "Aurora Beam"
+            "Ice Beam"
           ],
           [
             31,
@@ -73973,7 +73973,7 @@ backup_data = {
           ],
           [
             8,
-            "Aqua Jet"
+            "Icy Wind"
           ],
           [
             11,
@@ -73989,7 +73989,7 @@ backup_data = {
           ],
           [
             19,
-            "Icy Wind"
+            "Freeze-Dry"
           ],
           [
             22,
@@ -74001,7 +74001,7 @@ backup_data = {
           ],
           [
             28,
-            "Aurora Beam"
+            "Ice Beam"
           ],
           [
             31,
@@ -74154,7 +74154,7 @@ backup_data = {
           ],
           [
             1,
-            "Freeze-Dry"
+            "Sheer Cold"
           ],
           [
             11,
@@ -74170,7 +74170,7 @@ backup_data = {
           ],
           [
             19,
-            "Icy Wind"
+            "Freeze-Dry"
           ],
           [
             22,
@@ -74182,7 +74182,7 @@ backup_data = {
           ],
           [
             28,
-            "Aurora Beam"
+            "Ice Beam"
           ],
           [
             31,
@@ -126244,7 +126244,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Naive",
+        "nature": "Timid",
         "moves": [
           "Tackle",
           "Leer",
@@ -140929,7 +140929,7 @@ backup_data = {
         "item": "Wise Glasses",
         "nature": "Relaxed",
         "moves": [
-          "Incinerate",
+          "Ember",
           "Disarming Voice",
           "Hex",
           "Will-O-Wisp"
@@ -159009,7 +159009,7 @@ backup_data = {
       },
       "Lvl 13 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 13,
-        "ai": 0,
+        "ai": 143,
         "noCh": true,
         "tr_id": 772,
         "ivs": {
@@ -161331,8 +161331,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 9 Youngster Petey - Route 20": {
-        "level": 9,
+      "Lvl 8 Youngster Petey - Route 20": {
+        "level": 8,
         "ai": 15,
         "noCh": false,
         "tr_id": 392,
@@ -161347,7 +161347,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Hasty",
+        "nature": "Relaxed",
         "moves": [
           "Karate Chop",
           "Low Kick",
@@ -163165,6 +163165,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 38 Beauty Nikola ": {
+        "level": 38,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 207,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Brave",
+        "moves": [
+          "Sludge Bomb",
+          "Petal Dance",
+          "Sleep Powder",
+          "Extrasensory"
+        ],
+        "sub_index": 0,
+        "ability": "Serene Grace",
+        "sprite": "trainer_sprites/beauty.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 40 Backers Cleo & Rio - Route 12 1": {
         "level": 40,
         "ai": 129,
@@ -164356,7 +164387,7 @@ backup_data = {
         "item": "-",
         "nature": "Calm",
         "moves": [
-          "Bullet Seed",
+          "Razor Leaf",
           "Tackle",
           "Nuzzle",
           "Leech Seed"
@@ -167350,7 +167381,7 @@ backup_data = {
         "nature": "Careful",
         "moves": [
           "Pluck",
-          "Rock Tomb",
+          "Rock Throw",
           "Flame Burst",
           "Rock Smash"
         ],
@@ -168965,7 +168996,7 @@ backup_data = {
           "Flame Charge",
           "Struggle Bug",
           "Mega Drain",
-          "Electroweb"
+          "Headbutt"
         ],
         "sub_index": 2,
         "ability": "Flame Body",
@@ -169008,7 +169039,7 @@ backup_data = {
       },
       "Lvl 13 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 13,
-        "ai": 0,
+        "ai": 143,
         "noCh": true,
         "tr_id": 772,
         "ivs": {
@@ -174710,8 +174741,8 @@ backup_data = {
       }
     },
     "Skitty": {
-      "Lvl 14 Leader Cheren ": {
-        "level": 14,
+      "Lvl 13 Leader Cheren ": {
+        "level": 13,
         "ai": 15,
         "noCh": false,
         "tr_id": 156,
@@ -174726,7 +174757,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Oran Berry",
-        "nature": "Bold",
+        "nature": "Hasty",
         "moves": [
           "Secret Power",
           "Covet",
@@ -174764,7 +174795,7 @@ backup_data = {
           "Surf",
           "Aqua Jet",
           "Slash",
-          "Mirror Coat"
+          "Revenge"
         ],
         "sub_index": 1,
         "ability": "Torrent",
@@ -175016,7 +175047,7 @@ backup_data = {
           "Flame Wheel",
           "Feint Attack",
           "Headbutt",
-          "Rock Throw"
+          "Flame Charge"
         ],
         "sub_index": 3,
         "ability": "Intimidate",
@@ -176724,8 +176755,8 @@ backup_data = {
       }
     },
     "Pidove": {
-      "Lvl 8 Youngster Terrell - Route 20": {
-        "level": 8,
+      "Lvl 7 Youngster Terrell - Route 20": {
+        "level": 7,
         "ai": 15,
         "noCh": false,
         "tr_id": 164,
@@ -176740,7 +176771,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Jolly",
+        "nature": "Gentle",
         "moves": [
           "Quick Attack",
           "Pluck",
@@ -177698,7 +177729,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Berry Juice",
-        "nature": "Relaxed",
+        "nature": "Calm",
         "moves": [
           "Secret Power",
           "Slack Off",
@@ -177828,7 +177859,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Berry Juice",
-        "nature": "Careful",
+        "nature": "Bold",
         "moves": [
           "Secret Power",
           "Quick Attack",
@@ -179541,12 +179572,12 @@ backup_data = {
         "nature": "Serious",
         "moves": [
           "Venoshock",
-          "Bite",
+          "Poison Gas",
           "Mega Drain",
           "Wing Attack"
         ],
         "sub_index": 4,
-        "ability": "Infiltrator",
+        "ability": "Keen Senses",
         "sprite": "trainer_sprites/guitarist.png",
         "form": 0,
         "evs": {
@@ -183767,7 +183798,7 @@ backup_data = {
       },
       "Lvl 12 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 12,
-        "ai": 0,
+        "ai": 143,
         "noCh": true,
         "tr_id": 772,
         "ivs": {
@@ -183862,7 +183893,7 @@ backup_data = {
       },
       "Lvl 12 Rival Benga5 - Floccesy Ranch - Starter 3": {
         "level": 12,
-        "ai": 0,
+        "ai": 143,
         "noCh": true,
         "tr_id": 772,
         "ivs": {
@@ -184130,12 +184161,12 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Berry Juice",
-        "nature": "Lonely",
+        "nature": "Quiet",
         "moves": [
-          "Drain Punch",
+          "Rock Smash",
           "Mach Punch",
           "Scary Face",
-          "Ice Punch"
+          "Dizzy Punch"
         ],
         "sub_index": 2,
         "ability": "Iron Fist",
@@ -184259,7 +184290,7 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Breaking Swipe",
-          "Rock Slide",
+          "Rock Throw",
           "Fire Blast",
           "Headbutt"
         ],
@@ -184478,13 +184509,13 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Eviolite",
+        "item": "Metal Coat",
         "nature": "Lonely",
         "moves": [
           "Spin Out",
           "Double Hit",
           "Rock Smash",
-          "Shift Gear"
+          "Autotomize"
         ],
         "sub_index": 2,
         "ability": "Levitate",
@@ -184873,70 +184904,6 @@ backup_data = {
         "sub_index": 2,
         "ability": "Overcoat",
         "sprite": "trainer_sprites/hiker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Roserade": {
-      "Lvl 37 Beauty Nikola ": {
-        "level": 37,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 207,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Covert Cloak",
-        "nature": "Naive",
-        "moves": [
-          "Sludge",
-          "Petal Dance",
-          "Sleep Powder",
-          "Extrasensory"
-        ],
-        "sub_index": 0,
-        "ability": "Serene Grace",
-        "sprite": "trainer_sprites/beauty.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 62 Sinnoh Leader Gardenia2 ": {
-        "level": 62,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 538,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Red Card",
-        "nature": "Rash",
-        "moves": [
-          "Seed Flare",
-          "Focus Blast",
-          "Hyper Beam",
-          "Quiver Dance"
-        ],
-        "sub_index": 4,
-        "ability": "Majestic Ward",
-        "sprite": "trainer_sprites/sinnohleader.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -187014,8 +186981,8 @@ backup_data = {
         "nature": "Gentle",
         "moves": [
           "Beat Up",
-          "Spark",
-          "Bulk Up",
+          "Discharge",
+          "Quick Attack",
           "Headbutt"
         ],
         "sub_index": 2,
@@ -192016,8 +191983,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 10 Youngster Petey - Route 20": {
-        "level": 10,
+      "Lvl 9 Youngster Petey - Route 20": {
+        "level": 9,
         "ai": 15,
         "noCh": false,
         "tr_id": 392,
@@ -192032,9 +191999,9 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Docile",
+        "nature": "Naive",
         "moves": [
-          "Nuzzle",
+          "Thunder Shock",
           "Covet",
           "Quick Attack",
           "Thunder Wave"
@@ -193317,8 +193284,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 9 Youngster Petey - Route 20": {
-        "level": 9,
+      "Lvl 8 Youngster Petey - Route 20": {
+        "level": 8,
         "ai": 15,
         "noCh": false,
         "tr_id": 392,
@@ -193333,7 +193300,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Gentle",
+        "nature": "Adamant",
         "moves": [
           "Tackle",
           "Stomp",
@@ -198749,8 +198716,8 @@ backup_data = {
       }
     },
     "Wurmple": {
-      "Lvl 9 Youngster Petey - Route 20": {
-        "level": 9,
+      "Lvl 10 Youngster Petey - Route 20": {
+        "level": 10,
         "ai": 15,
         "noCh": false,
         "tr_id": 392,
@@ -198765,7 +198732,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Careful",
+        "nature": "Brave",
         "moves": [
           "Skitter Smack",
           "Electroweb",
@@ -202258,6 +202225,39 @@ backup_data = {
         }
       }
     },
+    "Roserade": {
+      "Lvl 62 Sinnoh Leader Gardenia2 ": {
+        "level": 62,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 538,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Red Card",
+        "nature": "Rash",
+        "moves": [
+          "Seed Flare",
+          "Focus Blast",
+          "Hyper Beam",
+          "Quiver Dance"
+        ],
+        "sub_index": 4,
+        "ability": "Majestic Ward",
+        "sprite": "trainer_sprites/sinnohleader.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Shedinja": {
       "Lvl 51 Gentleman Daniel - Celestial Tower": {
         "level": 51,
@@ -202602,7 +202602,7 @@ backup_data = {
           "Flamethrower",
           "Beat Up",
           "Rock Tomb",
-          "Work Up"
+          "Pursuit"
         ],
         "sub_index": 4,
         "ability": "Intimidate",
