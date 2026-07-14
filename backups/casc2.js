@@ -91103,7 +91103,7 @@ backup_data = {
           ],
           [
             55,
-            "Blaze Kick"
+            "Flare Blitz"
           ],
           [
             60,
@@ -91115,7 +91115,7 @@ backup_data = {
           ],
           [
             67,
-            "Flare Blitz"
+            "Sucker Punch"
           ],
           [
             70,
