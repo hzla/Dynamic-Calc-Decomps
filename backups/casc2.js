@@ -5702,10 +5702,10 @@ backup_data = {
     },
     "Psystrike": {
       "type": "Psychic",
-      "basePower": 105,
+      "basePower": 100,
       "category": "Special",
       "pp": 10,
-      "accuracy": 85,
+      "accuracy": 100,
       "priority": 0,
       "e_id": 282
     },
