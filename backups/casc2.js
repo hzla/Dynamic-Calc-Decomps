@@ -1194,7 +1194,7 @@ backup_data = {
     },
     "Psychic": {
       "type": "Psychic",
-      "basePower": 95,
+      "basePower": 90,
       "category": "Special",
       "pp": 10,
       "accuracy": 100,
