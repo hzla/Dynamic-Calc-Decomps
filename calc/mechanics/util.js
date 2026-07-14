@@ -658,6 +658,14 @@ function getBaseDamage(level, basePower, attack, defense) {
     return Math.floor(OF32(Math.floor(OF32(OF32(Math.floor((2 * level) / 5 + 2) * basePower) * attack) / defense) / 50 + 2));
 }
 exports.getBaseDamage = getBaseDamage;
+function getCriticalHitMultiplier(gen) {
+    var configuredCritGen = typeof settings !== 'undefined' && settings
+        ? Number(settings.critGen)
+        : NaN;
+    var critGen = Number.isFinite(configuredCritGen) ? configuredCritGen : gen.num;
+    return critGen >= 6 ? 1.5 : 2;
+}
+exports.getCriticalHitMultiplier = getCriticalHitMultiplier;
 function getQPBoostedStat(pokemon, gen) {
     var e_4, _a;
     if (pokemon.boostedStat && pokemon.boostedStat !== 'auto') {

@@ -414,7 +414,7 @@ function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
             desc.defenderItem = defender.item;
         }
         if (isCritical) {
-            baseDamage = Math.floor((0, util_2.OF32)(baseDamage * 1.5));
+            baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (0, util_2.getCriticalHitMultiplier)(gen)));
             desc.isCritical = isCritical;
         }
         var stabMod = 4096;

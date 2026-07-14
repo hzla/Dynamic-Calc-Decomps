@@ -92,6 +92,7 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
     var defenseStat = isPhysical ? 'def' : 'spd';
     var at = attacker.stats[attackStat];
     var df = defender.stats[defenseStat];
+    var criticalHitMultiplier = (0, util_1.getCriticalHitMultiplier)(gen);
     var ignoreMods = move.isCrit &&
         (gen.num === 1 ||
             (gen.num === 2 && attacker.boosts[attackStat] <= defender.boosts[defenseStat]));
@@ -100,7 +101,9 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         at = attacker.rawStats[attackStat];
         df = defender.rawStats[defenseStat];
         if (gen.num === 1) {
-            lv *= 2;
+            if (criticalHitMultiplier === 2) {
+                lv *= 2;
+            }
             desc.isCritical = true;
         }
     }
@@ -151,8 +154,8 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         desc.defenderItem = defender.item;
     }
     var baseDamage = Math.floor(Math.floor((Math.floor((2 * lv) / 5 + 2) * Math.max(1, at) * move.bp) / Math.max(1, df)) / 50);
-    if (gen.num === 2 && move.isCrit) {
-        baseDamage *= 2;
+    if (move.isCrit && (gen.num === 2 || (gen.num === 1 && criticalHitMultiplier !== 2))) {
+        baseDamage = Math.floor(baseDamage * criticalHitMultiplier);
         desc.isCritical = true;
     }
     if (move.named('Pursuit') && field.defenderSide.isSwitching === 'out') {

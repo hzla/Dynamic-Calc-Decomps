@@ -564,12 +564,13 @@ function calculateDPP(gen, attacker, defender, move, field) {
         }
         baseDamage += 2;
         if (isCritical) {
+            var criticalHitMultiplier = (0, util_1.getCriticalHitMultiplier)(gen);
             if (attacker.hasAbility('Sniper')) {
-                baseDamage *= 3;
+                baseDamage = Math.floor(baseDamage * criticalHitMultiplier * 1.5);
                 desc.attackerAbility = attacker.ability;
             }
             else {
-                baseDamage *= 2;
+                baseDamage = Math.floor(baseDamage * criticalHitMultiplier);
             }
             desc.isCritical = isCritical;
         }

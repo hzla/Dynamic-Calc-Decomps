@@ -920,12 +920,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         (0, romhack_helpers_1.runHooks)(profile, "beforeFinalDamage", ctx);
         isCritical = ctx.state.isCritical;
         if (isCritical) {
-            if (settings.critGen >= 6) {
-                baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (1.5)));
-            }
-            else {
-                baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (gen.num > 5 ? 1.5 : 2)));
-            }
+            baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (0, util_2.getCriticalHitMultiplier)(gen)));
             ctx.state.isCritical = isCritical;
             baseDamage = (0, romhack_helpers_1.applyValueHooks)(profile, "baseDamage", ctx, baseDamage);
             desc.isCritical = isCritical;

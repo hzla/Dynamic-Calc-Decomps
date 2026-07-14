@@ -1363,7 +1363,7 @@ function calculateBaseDamageSMSSSV(gen, attacker, defender, basePower, attack, d
         }
     }
     if (isCritical) {
-        baseDamage = Math.floor((0, util_2.OF32)(baseDamage * 1.5));
+        baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (0, util_2.getCriticalHitMultiplier)(gen)));
         desc.isCritical = isCritical;
     }
     if (ctx) {
