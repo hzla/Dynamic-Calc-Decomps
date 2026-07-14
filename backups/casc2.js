@@ -1,5 +1,5 @@
 backup_data = {
-  "title":"Cascade White",
+    "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
@@ -1194,12 +1194,12 @@ backup_data = {
     },
     "Psychic": {
       "type": "Psychic",
-      "basePower": 90,
+      "basePower": 95,
       "category": "Special",
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 72,
+      "e_id": 22,
       "sf": true
     },
     "Hypnosis": {
@@ -3313,7 +3313,7 @@ backup_data = {
     },
     "Crush Claw": {
       "type": "Normal",
-      "basePower": 90,
+      "basePower": 95,
       "category": "Physical",
       "pp": 10,
       "accuracy": 100,
@@ -4414,7 +4414,7 @@ backup_data = {
     },
     "Energy Ball": {
       "type": "Grass",
-      "basePower": 90,
+      "basePower": 95,
       "category": "Special",
       "pp": 10,
       "accuracy": 100,
@@ -5584,12 +5584,8 @@ backup_data = {
       "pp": 15,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 48,
+      "e_id": 6,
       "target": "allAdjacentFoes",
-      "recoil": [
-        25,
-        100
-      ],
       "sf": true
     },
     "Drill Run": {
@@ -5663,7 +5659,7 @@ backup_data = {
     },
     "Leaf Tornado": {
       "type": "Grass",
-      "basePower": 70,
+      "basePower": 75,
       "category": "Special",
       "pp": 10,
       "accuracy": 100,
@@ -5817,7 +5813,7 @@ backup_data = {
     },
     "Zing Zap": {
       "type": "Electric",
-      "basePower": 85,
+      "basePower": 90,
       "category": "Physical",
       "pp": 15,
       "accuracy": 100,
@@ -6089,7 +6085,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Vine Whip"
           ],
           [
             4,
@@ -6432,15 +6428,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Ember"
           ],
           [
             1,
             "Growl"
-          ],
-          [
-            5,
-            "Ember"
           ],
           [
             7,
@@ -6459,15 +6451,11 @@ backup_data = {
             "Breaking Swipe"
           ],
           [
-            18,
-            "Glare"
-          ],
-          [
-            22,
+            20,
             "Slash"
           ],
           [
-            25,
+            24,
             "Flamethrower"
           ],
           [
@@ -6509,10 +6497,6 @@ backup_data = {
           [
             58,
             "Overheat"
-          ],
-          [
-            68,
-            "Dragon Dance"
           ]
         ],
         "tms": [
@@ -6626,15 +6610,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Ember"
           ],
           [
             1,
             "Growl"
-          ],
-          [
-            5,
-            "Ember"
           ],
           [
             7,
@@ -6653,15 +6633,11 @@ backup_data = {
             "Breaking Swipe"
           ],
           [
-            18,
-            "Glare"
-          ],
-          [
-            22,
+            20,
             "Slash"
           ],
           [
-            25,
+            24,
             "Flamethrower"
           ],
           [
@@ -6703,10 +6679,6 @@ backup_data = {
           [
             58,
             "Overheat"
-          ],
-          [
-            68,
-            "Dragon Dance"
           ]
         ],
         "tms": [
@@ -6822,15 +6794,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Sky Attack"
+            "Earthquake"
           ],
           [
             1,
             "Steel Wing"
-          ],
-          [
-            1,
-            "Dragon Claw"
           ],
           [
             7,
@@ -6849,15 +6817,11 @@ backup_data = {
             "Breaking Swipe"
           ],
           [
-            18,
-            "Glare"
-          ],
-          [
-            22,
+            20,
             "Slash"
           ],
           [
-            25,
+            24,
             "Flamethrower"
           ],
           [
@@ -6901,20 +6865,12 @@ backup_data = {
             "Overheat"
           ],
           [
-            68,
-            "Dragon Dance"
+            64,
+            "Sky Attack"
           ],
           [
-            73,
+            70,
             "Flare Blitz"
-          ],
-          [
-            79,
-            "Outrage"
-          ],
-          [
-            85,
-            "Blast Burn"
           ]
         ],
         "tms": [
@@ -7024,15 +6980,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Water Gun"
           ],
           [
             1,
             "Defense Curl"
-          ],
-          [
-            5,
-            "Water Gun"
           ],
           [
             8,
@@ -7056,18 +7008,14 @@ backup_data = {
           ],
           [
             22,
-            "Bubble Beam"
-          ],
-          [
-            25,
             "Mist"
           ],
           [
-            29,
+            27,
             "Protect"
           ],
           [
-            33,
+            32,
             "Double-Edge"
           ],
           [
@@ -7225,15 +7173,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Water Gun"
           ],
           [
             1,
             "Defense Curl"
-          ],
-          [
-            5,
-            "Water Gun"
           ],
           [
             8,
@@ -7257,18 +7201,14 @@ backup_data = {
           ],
           [
             22,
-            "Bubble Beam"
-          ],
-          [
-            25,
             "Mist"
           ],
           [
-            29,
+            27,
             "Protect"
           ],
           [
-            33,
+            32,
             "Double-Edge"
           ],
           [
@@ -7428,15 +7368,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Fake Out"
+            "Steel Beam"
           ],
           [
             1,
             "Yawn"
-          ],
-          [
-            1,
-            "Aura Sphere"
           ],
           [
             8,
@@ -7460,18 +7396,14 @@ backup_data = {
           ],
           [
             22,
-            "Bubble Beam"
-          ],
-          [
-            25,
             "Mist"
           ],
           [
-            29,
+            27,
             "Protect"
           ],
           [
-            33,
+            32,
             "Double-Edge"
           ],
           [
@@ -7513,10 +7445,6 @@ backup_data = {
           [
             70,
             "Hyper Beam"
-          ],
-          [
-            75,
-            "Steel Beam"
           ]
         ],
         "tms": [
@@ -7801,7 +7729,7 @@ backup_data = {
           ],
           [
             31,
-            "Signal Beam"
+            "Pollen Puff"
           ],
           [
             33,
@@ -7817,7 +7745,7 @@ backup_data = {
           ],
           [
             39,
-            "Pollen Puff"
+            "Fairy Wind"
           ],
           [
             41,
@@ -7938,7 +7866,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Poison Sting"
+            "Tackle"
           ],
           [
             1,
@@ -7954,7 +7882,7 @@ backup_data = {
           ],
           [
             8,
-            "Poison Tail"
+            "Poison Sting"
           ]
         ],
         "tms": [
@@ -8106,7 +8034,7 @@ backup_data = {
             "X-Scissor"
           ],
           [
-            33,
+            34,
             "Poison Jab"
           ],
           [
@@ -8238,7 +8166,7 @@ backup_data = {
           ],
           [
             1,
-            "Mud-Slap"
+            "Mirror Move"
           ],
           [
             5,
@@ -8279,10 +8207,6 @@ backup_data = {
           [
             32,
             "Thunderbolt"
-          ],
-          [
-            35,
-            "Mirror Move"
           ],
           [
             37,
@@ -8401,7 +8325,7 @@ backup_data = {
           ],
           [
             1,
-            "Mud-Slap"
+            "Mirror Move"
           ],
           [
             5,
@@ -8442,10 +8366,6 @@ backup_data = {
           [
             32,
             "Thunderbolt"
-          ],
-          [
-            35,
-            "Mirror Move"
           ],
           [
             37,
@@ -8609,10 +8529,6 @@ backup_data = {
             "Thunderbolt"
           ],
           [
-            35,
-            "Mirror Move"
-          ],
-          [
             37,
             "Me First"
           ],
@@ -8642,14 +8558,10 @@ backup_data = {
           ],
           [
             64,
-            "Blizzard"
-          ],
-          [
-            70,
             "Giga Impact"
           ],
           [
-            80,
+            77,
             "Hyper Beam"
           ]
         ],
@@ -8734,19 +8646,15 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
-          ],
-          [
-            1,
-            "Tail Whip"
-          ],
-          [
-            4,
             "Quick Attack"
           ],
           [
-            7,
+            1,
             "Screech"
+          ],
+          [
+            4,
+            "Super Fang"
           ],
           [
             9,
@@ -8766,7 +8674,7 @@ backup_data = {
           ],
           [
             19,
-            "Sucker Punch"
+            "Crunch"
           ],
           [
             23,
@@ -8782,7 +8690,7 @@ backup_data = {
           ],
           [
             28,
-            "Crunch"
+            "Sucker Punch"
           ],
           [
             31,
@@ -8798,11 +8706,11 @@ backup_data = {
           ],
           [
             44,
-            "Flail"
+            "Facade"
           ],
           [
-            54,
-            "Facade"
+            49,
+            "Flail"
           ]
         ],
         "tms": [
@@ -8905,19 +8813,15 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
-          ],
-          [
-            1,
-            "Tail Whip"
-          ],
-          [
-            4,
             "Quick Attack"
           ],
           [
-            7,
-            "Screech"
+            1,
+            "Focus Energy"
+          ],
+          [
+            4,
+            "Super Fang"
           ],
           [
             9,
@@ -8937,7 +8841,7 @@ backup_data = {
           ],
           [
             19,
-            "Sucker Punch"
+            "Crunch"
           ],
           [
             23,
@@ -8953,7 +8857,7 @@ backup_data = {
           ],
           [
             28,
-            "Crunch"
+            "Sucker Punch"
           ],
           [
             31,
@@ -8969,18 +8873,18 @@ backup_data = {
           ],
           [
             44,
-            "Flail"
-          ],
-          [
-            54,
             "Facade"
           ],
           [
-            60,
+            49,
+            "Flail"
+          ],
+          [
+            55,
             "Skull Bash"
           ],
           [
-            70,
+            59,
             "Giga Impact"
           ]
         ],
@@ -9078,11 +8982,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Growl"
-          ],
-          [
-            1,
-            "Pursuit"
+            "Leer"
           ],
           [
             1,
@@ -9106,7 +9006,7 @@ backup_data = {
           ],
           [
             17,
-            "Swagger"
+            "Feather Dance"
           ],
           [
             20,
@@ -9114,15 +9014,15 @@ backup_data = {
           ],
           [
             23,
-            "Feather Dance"
+            "Drill Run"
           ],
           [
-            25,
+            27,
             "Feint Attack"
           ],
           [
-            28,
-            "Drill Run"
+            30,
+            "Swagger"
           ],
           [
             33,
@@ -9256,10 +9156,6 @@ backup_data = {
             "Parting Shot"
           ],
           [
-            1,
-            "Feint Attack"
-          ],
-          [
             5,
             "Screech"
           ],
@@ -9277,7 +9173,7 @@ backup_data = {
           ],
           [
             17,
-            "Swagger"
+            "Feather Dance"
           ],
           [
             20,
@@ -9285,15 +9181,15 @@ backup_data = {
           ],
           [
             23,
-            "Feather Dance"
+            "Drill Run"
           ],
           [
-            25,
+            27,
             "Feint Attack"
           ],
           [
-            28,
-            "Drill Run"
+            30,
+            "Swagger"
           ],
           [
             33,
@@ -9424,11 +9320,7 @@ backup_data = {
             "Bite"
           ],
           [
-            9,
-            "Poison Tail"
-          ],
-          [
-            11,
+            10,
             "Swallow"
           ],
           [
@@ -9436,20 +9328,12 @@ backup_data = {
             "Scale Shot"
           ],
           [
-            15,
+            18,
             "Glare"
           ],
           [
-            19,
+            22,
             "Poison Fang"
-          ],
-          [
-            21,
-            "Dragon Pulse"
-          ],
-          [
-            23,
-            "Gastro Acid"
           ],
           [
             26,
@@ -9468,15 +9352,11 @@ backup_data = {
             "Devour"
           ],
           [
-            32,
+            33,
             "Scary Face"
           ],
           [
-            35,
-            "Stompin Tantrum"
-          ],
-          [
-            38,
+            37,
             "Wrap"
           ],
           [
@@ -9485,11 +9365,11 @@ backup_data = {
           ],
           [
             45,
-            "Toxic"
+            "Earthquake"
           ],
           [
             49,
-            "Cross Poison"
+            "Poison Tail"
           ]
         ],
         "tms": [
@@ -9597,11 +9477,7 @@ backup_data = {
             "Bite"
           ],
           [
-            9,
-            "Poison Tail"
-          ],
-          [
-            11,
+            10,
             "Swallow"
           ],
           [
@@ -9609,20 +9485,12 @@ backup_data = {
             "Scale Shot"
           ],
           [
-            15,
+            18,
             "Glare"
           ],
           [
-            19,
+            22,
             "Poison Fang"
-          ],
-          [
-            21,
-            "Dragon Pulse"
-          ],
-          [
-            23,
-            "Gastro Acid"
           ],
           [
             26,
@@ -9641,15 +9509,11 @@ backup_data = {
             "Devour"
           ],
           [
-            32,
+            33,
             "Scary Face"
           ],
           [
-            35,
-            "Stompin Tantrum"
-          ],
-          [
-            38,
+            37,
             "Wrap"
           ],
           [
@@ -9658,11 +9522,11 @@ backup_data = {
           ],
           [
             45,
-            "Toxic"
+            "Earthquake"
           ],
           [
             49,
-            "Cross Poison"
+            "Poison Tail"
           ],
           [
             52,
@@ -9774,12 +9638,12 @@ backup_data = {
             "Extreme Speed"
           ],
           [
-            4,
-            "Quick Attack"
+            1,
+            "Lucky Chant"
           ],
           [
             8,
-            "Confide"
+            "Charm"
           ],
           [
             11,
@@ -9790,20 +9654,16 @@ backup_data = {
             "Spark"
           ],
           [
-            18,
-            "Helping Hand"
-          ],
-          [
-            22,
+            20,
             "Double Hit"
           ],
           [
-            25,
-            "Charm"
+            24,
+            "Double Team"
           ],
           [
             28,
-            "Light Screen"
+            "Heart Stamp"
           ],
           [
             31,
@@ -9811,7 +9671,7 @@ backup_data = {
           ],
           [
             34,
-            "Double Slap"
+            "Iron Tail"
           ],
           [
             37,
@@ -9823,7 +9683,7 @@ backup_data = {
           ],
           [
             43,
-            "Double Team"
+            "Light Screen"
           ],
           [
             46,
@@ -9835,22 +9695,18 @@ backup_data = {
           ],
           [
             55,
-            "Wild Charge"
+            "Work Up"
           ],
           [
-            60,
-            "Lucky Chant"
-          ],
-          [
-            64,
+            59,
             "Meteor Mash"
           ],
           [
-            70,
+            64,
             "Electro Ball"
           ],
           [
-            76,
+            70,
             "Volt Tackle"
           ]
         ],
@@ -9964,12 +9820,12 @@ backup_data = {
             "Extreme Speed"
           ],
           [
-            4,
-            "Quick Attack"
+            1,
+            "Lucky Chant"
           ],
           [
             8,
-            "Confide"
+            "Charm"
           ],
           [
             11,
@@ -9980,20 +9836,16 @@ backup_data = {
             "Spark"
           ],
           [
-            18,
-            "Helping Hand"
-          ],
-          [
-            22,
+            20,
             "Double Hit"
           ],
           [
-            25,
-            "Charm"
+            24,
+            "Double Team"
           ],
           [
             28,
-            "Light Screen"
+            "Heart Stamp"
           ],
           [
             31,
@@ -10013,7 +9865,7 @@ backup_data = {
           ],
           [
             43,
-            "Double Team"
+            "Light Screen"
           ],
           [
             46,
@@ -10025,22 +9877,18 @@ backup_data = {
           ],
           [
             55,
-            "Wild Charge"
+            "Work Up"
           ],
           [
-            60,
-            "Lucky Chant"
-          ],
-          [
-            64,
+            59,
             "Earth Power"
           ],
           [
-            70,
+            64,
             "Electro Ball"
           ],
           [
-            76,
+            70,
             "Volt Tackle"
           ]
         ],
@@ -10145,22 +9993,18 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Accelerock"
           ],
           [
             1,
             "Poison Sting"
           ],
           [
-            5,
-            "Accelerock"
-          ],
-          [
-            8,
+            6,
             "Pin Missile"
           ],
           [
-            11,
+            10,
             "Stomp"
           ],
           [
@@ -10168,16 +10012,12 @@ backup_data = {
             "Gyro Ball"
           ],
           [
-            15,
+            16,
             "Rapid Spin"
           ],
           [
             19,
             "Bulldoze"
-          ],
-          [
-            21,
-            "Defense Curl"
           ],
           [
             24,
@@ -10209,7 +10049,7 @@ backup_data = {
           ],
           [
             47,
-            "Stone Edge"
+            "Defense Curl"
           ]
         ],
         "tms": [
@@ -10314,15 +10154,11 @@ backup_data = {
             "Sandstorm"
           ],
           [
-            5,
-            "Accelerock"
-          ],
-          [
-            8,
+            6,
             "Pin Missile"
           ],
           [
-            11,
+            10,
             "Stomp"
           ],
           [
@@ -10330,16 +10166,12 @@ backup_data = {
             "Gyro Ball"
           ],
           [
-            15,
+            16,
             "Rapid Spin"
           ],
           [
             19,
             "Bulldoze"
-          ],
-          [
-            21,
-            "Defense Curl"
           ],
           [
             24,
@@ -10371,7 +10203,7 @@ backup_data = {
           ],
           [
             47,
-            "Stone Edge"
+            "Defense Curl"
           ],
           [
             50,
@@ -10506,7 +10338,7 @@ backup_data = {
           ],
           [
             18,
-            "Sludge"
+            "Lunge"
           ],
           [
             22,
@@ -10864,7 +10696,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Wrap"
+            "Gunk Shot"
           ],
           [
             1,
@@ -10935,11 +10767,11 @@ backup_data = {
             "Rest"
           ],
           [
-            65,
-            "Gunk Shot"
+            61,
+            "Poison Tail"
           ],
           [
-            75,
+            67,
             "Headlong Rush"
           ]
         ],
@@ -11094,7 +10926,7 @@ backup_data = {
           ],
           [
             18,
-            "Lunge"
+            "Poison Fang"
           ],
           [
             22,
@@ -11282,7 +11114,7 @@ backup_data = {
           ],
           [
             18,
-            "Lunge"
+            "Poison Fang"
           ],
           [
             22,
@@ -11452,7 +11284,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Wrap"
+            "Gunk Shot"
           ],
           [
             1,
@@ -11480,7 +11312,7 @@ backup_data = {
           ],
           [
             18,
-            "Lunge"
+            "Poison Fang"
           ],
           [
             22,
@@ -11523,11 +11355,11 @@ backup_data = {
             "Megahorn"
           ],
           [
-            65,
-            "Gunk Shot"
+            61,
+            "Poison Tail"
           ],
           [
-            75,
+            67,
             "Headlong Rush"
           ]
         ],
@@ -11674,7 +11506,7 @@ backup_data = {
           ],
           [
             13,
-            "Swift"
+            "Seismic Toss"
           ],
           [
             16,
@@ -11686,7 +11518,7 @@ backup_data = {
           ],
           [
             22,
-            "Seismic Toss"
+            "Meteor Mash"
           ],
           [
             25,
@@ -11709,10 +11541,6 @@ backup_data = {
             "Fairy Wind"
           ],
           [
-            40,
-            "Stored Power"
-          ],
-          [
             43,
             "Healing Wish"
           ],
@@ -11722,7 +11550,7 @@ backup_data = {
           ],
           [
             54,
-            "Cosmic Power"
+            "Moonblast"
           ]
         ],
         "tms": [
@@ -11855,7 +11683,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Confide"
+            "Stored Power"
           ],
           [
             1,
@@ -11875,7 +11703,7 @@ backup_data = {
           ],
           [
             13,
-            "Swift"
+            "Seismic Toss"
           ],
           [
             16,
@@ -11887,7 +11715,7 @@ backup_data = {
           ],
           [
             22,
-            "Seismic Toss"
+            "Meteor Mash"
           ],
           [
             25,
@@ -11910,10 +11738,6 @@ backup_data = {
             "Fairy Wind"
           ],
           [
-            40,
-            "Stored Power"
-          ],
-          [
             43,
             "Healing Wish"
           ],
@@ -11923,22 +11747,18 @@ backup_data = {
           ],
           [
             54,
-            "Cosmic Power"
-          ],
-          [
-            59,
             "Moonblast"
           ],
           [
-            64,
-            "Soft-Boiled"
+            59,
+            "Cosmic Power"
           ],
           [
-            75,
+            66,
             "Hyper Beam"
           ],
           [
-            80,
+            72,
             "Starburst"
           ]
         ],
@@ -12070,10 +11890,6 @@ backup_data = {
           ],
           [
             4,
-            "Confide"
-          ],
-          [
-            7,
             "Confuse Ray"
           ],
           [
@@ -12082,7 +11898,7 @@ backup_data = {
           ],
           [
             13,
-            "Infernal Parade"
+            "Mystical Fire"
           ],
           [
             16,
@@ -12101,11 +11917,11 @@ backup_data = {
             "Curse"
           ],
           [
-            28,
+            29,
             "Play Rough"
           ],
           [
-            31,
+            32,
             "Grudge"
           ],
           [
@@ -12114,14 +11930,14 @@ backup_data = {
           ],
           [
             37,
-            "Mystical Fire"
+            "Fire Spin"
           ],
           [
             40,
             "Magic Coat"
           ],
           [
-            44,
+            43,
             "Dazzling Gleam"
           ],
           [
@@ -12129,12 +11945,12 @@ backup_data = {
             "Imprison"
           ],
           [
-            49,
-            "Flamethrower"
+            50,
+            "Will-O-Wisp"
           ],
           [
-            55,
-            "Will-O-Wisp"
+            56,
+            "Heat Wave"
           ]
         ],
         "tms": [
@@ -12253,16 +12069,12 @@ backup_data = {
             "Howl"
           ],
           [
-            7,
-            "Confuse Ray"
-          ],
-          [
             10,
             "Disarming Voice"
           ],
           [
             13,
-            "Infernal Parade"
+            "Mystical Fire"
           ],
           [
             16,
@@ -12281,11 +12093,11 @@ backup_data = {
             "Curse"
           ],
           [
-            28,
+            29,
             "Play Rough"
           ],
           [
-            31,
+            32,
             "Grudge"
           ],
           [
@@ -12294,14 +12106,14 @@ backup_data = {
           ],
           [
             37,
-            "Mystical Fire"
+            "Fire Spin"
           ],
           [
             40,
             "Magic Coat"
           ],
           [
-            44,
+            43,
             "Dazzling Gleam"
           ],
           [
@@ -12309,27 +12121,23 @@ backup_data = {
             "Imprison"
           ],
           [
-            49,
-            "Flamethrower"
+            50,
+            "Will-O-Wisp"
           ],
           [
-            55,
-            "Will-O-Wisp"
+            56,
+            "Heat Wave"
           ],
           [
             61,
             "Moonblast"
           ],
           [
-            67,
-            "Heat Wave"
-          ],
-          [
-            72,
+            66,
             "Nightmare"
           ],
           [
-            78,
+            70,
             "Fire Blast"
           ]
         ],
@@ -12428,10 +12236,6 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Sing"
-          ],
-          [
-            1,
             "Defense Curl"
           ],
           [
@@ -12440,7 +12244,7 @@ backup_data = {
           ],
           [
             4,
-            "Fake Tears"
+            "Disable"
           ],
           [
             7,
@@ -12464,11 +12268,11 @@ backup_data = {
           ],
           [
             22,
-            "Body Slam"
+            "Gyro Ball"
           ],
           [
             25,
-            "Draining Kiss"
+            "Sing"
           ],
           [
             29,
@@ -12487,43 +12291,27 @@ backup_data = {
             "Hyper Voice"
           ],
           [
-            40,
-            "Magic Coat"
-          ],
-          [
-            43,
-            "Gyro Ball"
+            41,
+            "Aeroblast"
           ],
           [
             45,
             "Play Rough"
           ],
           [
-            48,
-            "Sky Drop"
-          ],
-          [
-            50,
+            49,
             "Perish Song"
           ],
           [
             54,
-            "Double-Edge"
-          ],
-          [
-            58,
             "Heat Wave"
           ],
           [
-            62,
+            58,
             "Rollout"
           ],
           [
-            67,
-            "Aeroblast"
-          ],
-          [
-            75,
+            62,
             "Boomburst"
           ]
         ],
@@ -12645,10 +12433,6 @@ backup_data = {
             "Spit Up"
           ],
           [
-            4,
-            "Fake Tears"
-          ],
-          [
             7,
             "Attract"
           ],
@@ -12670,11 +12454,11 @@ backup_data = {
           ],
           [
             22,
-            "Body Slam"
+            "Gyro Ball"
           ],
           [
             25,
-            "Draining Kiss"
+            "Sing"
           ],
           [
             29,
@@ -12693,43 +12477,27 @@ backup_data = {
             "Hyper Voice"
           ],
           [
-            40,
-            "Magic Coat"
-          ],
-          [
-            43,
-            "Gyro Ball"
+            41,
+            "Aeroblast"
           ],
           [
             45,
             "Play Rough"
           ],
           [
-            48,
-            "Sky Drop"
-          ],
-          [
-            50,
+            49,
             "Perish Song"
           ],
           [
             54,
-            "Double-Edge"
-          ],
-          [
-            58,
             "Heat Wave"
           ],
           [
-            62,
+            58,
             "Rollout"
           ],
           [
-            67,
-            "Aeroblast"
-          ],
-          [
-            75,
+            62,
             "Boomburst"
           ]
         ],
@@ -12845,10 +12613,6 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Leer"
-          ],
-          [
-            1,
             "Absorb"
           ],
           [
@@ -12869,7 +12633,7 @@ backup_data = {
           ],
           [
             13,
-            "Confuse Ray"
+            "Supersonic"
           ],
           [
             16,
@@ -12993,10 +12757,6 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Leer"
-          ],
-          [
-            1,
             "Absorb"
           ],
           [
@@ -13017,7 +12777,7 @@ backup_data = {
           ],
           [
             13,
-            "Confuse Ray"
+            "Supersonic"
           ],
           [
             16,
@@ -13052,12 +12812,8 @@ backup_data = {
             "Dual Wingbeat"
           ],
           [
-            37,
-            "Screech"
-          ],
-          [
             39,
-            "Toxic"
+            "Screech"
           ],
           [
             42,
@@ -13068,11 +12824,7 @@ backup_data = {
             "Sludge Bomb"
           ],
           [
-            48,
-            "Supersonic"
-          ],
-          [
-            54,
+            52,
             "Acrobatics"
           ]
         ],
@@ -13439,7 +13191,7 @@ backup_data = {
           ],
           [
             60,
-            "Teeter Dance"
+            "Moonblast"
           ]
         ],
         "tms": [
@@ -13636,14 +13388,14 @@ backup_data = {
           ],
           [
             60,
-            "Teeter Dance"
-          ],
-          [
-            65,
             "Moonblast"
           ],
           [
-            80,
+            65,
+            "Teeter Dance"
+          ],
+          [
+            74,
             "Starburst"
           ]
         ],
@@ -13739,15 +13491,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
-          ],
-          [
-            1,
-            "Growth"
+            "Fury Cutter"
           ],
           [
             6,
-            "Fury Cutter"
+            "Growth"
           ],
           [
             8,
@@ -13767,7 +13515,7 @@ backup_data = {
           ],
           [
             17,
-            "Razor Shell"
+            "Skitter Smack"
           ],
           [
             20,
@@ -13775,26 +13523,22 @@ backup_data = {
           ],
           [
             22,
-            "Skitter Smack"
+            "Razor Shell"
           ],
           [
             25,
             "Slash"
           ],
           [
-            25,
+            28,
             "Shadow Claw"
           ],
           [
-            28,
-            "Toxic"
-          ],
-          [
-            32,
+            31,
             "Leech Life"
           ],
           [
-            35,
+            34,
             "Aromatherapy"
           ],
           [
@@ -13803,7 +13547,7 @@ backup_data = {
           ],
           [
             41,
-            "Gastro Acid"
+            "Toxic"
           ]
         ],
         "tms": [
@@ -13912,12 +13656,8 @@ backup_data = {
             "Protect"
           ],
           [
-            1,
-            "Harden"
-          ],
-          [
             6,
-            "Fury Cutter"
+            "Growth"
           ],
           [
             8,
@@ -13937,7 +13677,7 @@ backup_data = {
           ],
           [
             17,
-            "Razor Shell"
+            "Skitter Smack"
           ],
           [
             20,
@@ -13945,26 +13685,22 @@ backup_data = {
           ],
           [
             22,
-            "Skitter Smack"
+            "Razor Shell"
           ],
           [
             25,
             "Slash"
           ],
           [
-            25,
+            28,
             "Shadow Claw"
           ],
           [
-            28,
-            "Toxic"
-          ],
-          [
-            32,
+            31,
             "Leech Life"
           ],
           [
-            35,
+            34,
             "Aromatherapy"
           ],
           [
@@ -13973,7 +13709,7 @@ backup_data = {
           ],
           [
             41,
-            "Gastro Acid"
+            "Toxic"
           ],
           [
             44,
@@ -13992,16 +13728,16 @@ backup_data = {
             "Frenzy Plant"
           ],
           [
-            56,
+            57,
             "Shadow Force"
           ],
           [
             62,
-            "Worry Seed"
+            "Rage Powder"
           ],
           [
             68,
-            "Rage Powder"
+            "Worry Seed"
           ]
         ],
         "tms": [
@@ -14148,11 +13884,11 @@ backup_data = {
           ],
           [
             29,
-            "Signal Beam"
+            "Silver Wind"
           ],
           [
             32,
-            "Supersonic"
+            "Psycho Shift"
           ],
           [
             35,
@@ -14160,7 +13896,7 @@ backup_data = {
           ],
           [
             40,
-            "Silver Wind"
+            "Toxic"
           ]
         ],
         "tms": [
@@ -14309,11 +14045,11 @@ backup_data = {
           ],
           [
             29,
-            "Signal Beam"
+            "Silver Wind"
           ],
           [
             32,
-            "Supersonic"
+            "Psycho Shift"
           ],
           [
             35,
@@ -14321,38 +14057,26 @@ backup_data = {
           ],
           [
             40,
-            "Silver Wind"
-          ],
-          [
-            43,
-            "Roost"
+            "Toxic"
           ],
           [
             46,
             "Esper Wing"
           ],
           [
-            49,
-            "Psycho Shift"
-          ],
-          [
-            52,
-            "Toxic"
-          ],
-          [
-            56,
+            50,
             "Whirlwind"
           ],
           [
-            60,
+            54,
             "Scorching Swarm"
           ],
           [
-            65,
+            59,
             "Rage Powder"
           ],
           [
-            75,
+            64,
             "Quiver Dance"
           ]
         ],
@@ -14446,23 +14170,15 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Growl"
+            "Mud Bomb"
           ],
           [
             4,
-            "Low Kick"
-          ],
-          [
-            7,
-            "Covet"
+            "Sand Attack"
           ],
           [
             10,
             "Mud Shot"
-          ],
-          [
-            14,
-            "Screech"
           ],
           [
             17,
@@ -14478,7 +14194,7 @@ backup_data = {
           ],
           [
             28,
-            "Sand Attack"
+            "Metal Claw"
           ],
           [
             31,
@@ -14490,7 +14206,7 @@ backup_data = {
           ],
           [
             37,
-            "Iron Head"
+            "Final Gambit"
           ],
           [
             40,
@@ -14601,16 +14317,8 @@ backup_data = {
             "Sandstorm"
           ],
           [
-            7,
-            "Covet"
-          ],
-          [
             10,
             "Mud Shot"
-          ],
-          [
-            14,
-            "Screech"
           ],
           [
             17,
@@ -14626,7 +14334,7 @@ backup_data = {
           ],
           [
             28,
-            "Sand Attack"
+            "Metal Claw"
           ],
           [
             31,
@@ -14638,7 +14346,7 @@ backup_data = {
           ],
           [
             37,
-            "Iron Head"
+            "Final Gambit"
           ],
           [
             40,
@@ -14661,15 +14369,15 @@ backup_data = {
             "Superpower"
           ],
           [
-            63,
+            61,
             "Substitute"
           ],
           [
-            68,
+            64,
             "Spin Out"
           ],
           [
-            75,
+            68,
             "Fissure"
           ]
         ],
@@ -14812,15 +14520,15 @@ backup_data = {
           ],
           [
             43,
-            "Play Rough"
+            "Diamond Storm"
           ],
           [
             46,
-            "Captivate"
+            "Assist"
           ],
           [
             49,
-            "Double-Edge"
+            "Slash"
           ]
         ],
         "tms": [
@@ -14937,11 +14645,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Slash"
+            "Wicked Blow"
           ],
           [
             1,
-            "Parting Shot"
+            "Diamond Storm"
           ],
           [
             6,
@@ -14993,15 +14701,15 @@ backup_data = {
           ],
           [
             43,
-            "Play Rough"
+            "Diamond Storm"
           ],
           [
             46,
-            "Captivate"
+            "Assist"
           ],
           [
             49,
-            "Double-Edge"
+            "Slash"
           ],
           [
             52,
@@ -15012,24 +14720,8 @@ backup_data = {
             "Pay Day"
           ],
           [
-            62,
-            "Wicked Blow"
-          ],
-          [
-            65,
-            "Diamond Storm"
-          ],
-          [
-            70,
-            "Nasty Plot"
-          ],
-          [
-            75,
-            "Slash"
-          ],
-          [
-            82,
-            "Meteor Beam"
+            66,
+            "Hone Claws"
           ]
         ],
         "tms": [
@@ -15139,22 +14831,18 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Yawn"
           ],
           [
             1,
-            "Tail Whip"
-          ],
-          [
-            1,
-            "Water Gun"
+            "Aqua Jet"
           ],
           [
             5,
-            "Confusion"
+            "Telekinesis"
           ],
           [
-            9,
+            8,
             "Disable"
           ],
           [
@@ -15166,19 +14854,15 @@ backup_data = {
             "Chilling Water"
           ],
           [
-            16,
-            "Aqua Jet"
+            17,
+            "Psybeam"
           ],
           [
-            18,
-            "Telekinesis"
-          ],
-          [
-            21,
+            20,
             "Water Pulse"
           ],
           [
-            24,
+            22,
             "Soak"
           ],
           [
@@ -15186,15 +14870,15 @@ backup_data = {
             "Submission"
           ],
           [
-            28,
+            29,
             "Power Gem"
           ],
           [
-            30,
-            "Detect"
+            31,
+            "Me First"
           ],
           [
-            33,
+            34,
             "Aqua Tail"
           ],
           [
@@ -15207,7 +14891,7 @@ backup_data = {
           ],
           [
             41,
-            "Me First"
+            "Fake Out"
           ],
           [
             43,
@@ -15340,22 +15024,18 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Hydro Cannon"
+            "Rain Dance"
           ],
           [
             1,
-            "Psycho Shift"
+            "Hydro Cannon"
           ],
           [
             1,
             "Superpower"
           ],
           [
-            1,
-            "Meditate"
-          ],
-          [
-            9,
+            8,
             "Disable"
           ],
           [
@@ -15367,19 +15047,15 @@ backup_data = {
             "Chilling Water"
           ],
           [
-            16,
-            "Aqua Jet"
+            17,
+            "Psybeam"
           ],
           [
-            18,
-            "Telekinesis"
-          ],
-          [
-            21,
+            20,
             "Water Pulse"
           ],
           [
-            24,
+            22,
             "Soak"
           ],
           [
@@ -15387,15 +15063,15 @@ backup_data = {
             "Submission"
           ],
           [
-            28,
+            29,
             "Power Gem"
           ],
           [
-            30,
-            "Detect"
+            31,
+            "Me First"
           ],
           [
-            33,
+            34,
             "Aqua Tail"
           ],
           [
@@ -15408,7 +15084,7 @@ backup_data = {
           ],
           [
             41,
-            "Me First"
+            "Fake Out"
           ],
           [
             43,
@@ -15428,14 +15104,6 @@ backup_data = {
           ],
           [
             60,
-            "Psyblade"
-          ],
-          [
-            64,
-            "Rain Dance"
-          ],
-          [
-            67,
             "Psycho Boost"
           ]
         ],
@@ -15561,7 +15229,7 @@ backup_data = {
           ],
           [
             7,
-            "Mach Punch"
+            "Rage"
           ],
           [
             10,
@@ -15581,7 +15249,7 @@ backup_data = {
           ],
           [
             20,
-            "Rage"
+            "Temper Flare"
           ],
           [
             23,
@@ -15593,23 +15261,19 @@ backup_data = {
           ],
           [
             29,
-            "U-turn"
-          ],
-          [
-            32,
             "Cross Chop"
           ],
           [
-            36,
+            32,
             "Rage"
           ],
           [
-            39,
-            "Screech"
+            36,
+            "U-turn"
           ],
           [
             42,
-            "Spin Out"
+            "Outrage"
           ],
           [
             45,
@@ -15725,11 +15389,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Bulk Up"
+            "Karate Chop"
           ],
           [
             1,
-            "Outrage"
+            "Fling"
           ],
           [
             1,
@@ -15737,7 +15401,7 @@ backup_data = {
           ],
           [
             7,
-            "Mach Punch"
+            "Rage"
           ],
           [
             10,
@@ -15757,7 +15421,7 @@ backup_data = {
           ],
           [
             20,
-            "Rage"
+            "Temper Flare"
           ],
           [
             23,
@@ -15769,23 +15433,19 @@ backup_data = {
           ],
           [
             29,
-            "U-turn"
-          ],
-          [
-            32,
             "Cross Chop"
           ],
           [
-            36,
+            32,
             "Rage"
           ],
           [
-            39,
-            "Screech"
+            36,
+            "U-turn"
           ],
           [
             42,
-            "Spin Out"
+            "Outrage"
           ],
           [
             45,
@@ -15796,20 +15456,12 @@ backup_data = {
             "Meditate"
           ],
           [
-            52,
+            51,
             "Head Smash"
           ],
           [
-            56,
+            54,
             "Reversal"
-          ],
-          [
-            61,
-            "Wicked Blow"
-          ],
-          [
-            65,
-            "Gunk Shot"
           ]
         ],
         "tms": [
@@ -15915,7 +15567,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Bite"
+            "Howl"
           ],
           [
             1,
@@ -15923,19 +15575,15 @@ backup_data = {
           ],
           [
             5,
-            "Ember"
-          ],
-          [
-            8,
-            "Leer"
-          ],
-          [
-            11,
             "Incinerate"
           ],
           [
-            15,
+            8,
             "Retaliate"
+          ],
+          [
+            13,
+            "Crunch"
           ],
           [
             18,
@@ -15955,15 +15603,15 @@ backup_data = {
           ],
           [
             30,
-            "Endure"
+            "Helping Hand"
           ],
           [
             32,
-            "Crunch"
+            "Roar"
           ],
           [
             35,
-            "Take Down"
+            "Morning Sun"
           ],
           [
             42,
@@ -15971,7 +15619,7 @@ backup_data = {
           ],
           [
             46,
-            "Helping Hand"
+            "Endure"
           ],
           [
             50,
@@ -15979,18 +15627,14 @@ backup_data = {
           ],
           [
             55,
-            "Roar"
-          ],
-          [
-            60,
             "Double-Edge"
           ],
           [
-            66,
+            61,
             "Flare Blitz"
           ],
           [
-            70,
+            66,
             "Will-O-Wisp"
           ]
         ],
@@ -16088,7 +15732,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Head Smash"
+            "Rock Wrecker"
           ],
           [
             1,
@@ -16096,19 +15740,15 @@ backup_data = {
           ],
           [
             5,
-            "Ember"
-          ],
-          [
-            8,
-            "Leer"
-          ],
-          [
-            11,
             "Incinerate"
           ],
           [
-            15,
+            8,
             "Retaliate"
+          ],
+          [
+            13,
+            "Crunch"
           ],
           [
             18,
@@ -16128,15 +15768,15 @@ backup_data = {
           ],
           [
             30,
-            "Endure"
+            "Helping Hand"
           ],
           [
             32,
-            "Crunch"
+            "Roar"
           ],
           [
             35,
-            "Take Down"
+            "Morning Sun"
           ],
           [
             42,
@@ -16144,7 +15784,7 @@ backup_data = {
           ],
           [
             46,
-            "Helping Hand"
+            "Endure"
           ],
           [
             50,
@@ -16152,26 +15792,18 @@ backup_data = {
           ],
           [
             55,
-            "Roar"
-          ],
-          [
-            60,
             "Double-Edge"
           ],
           [
-            66,
+            61,
             "Flare Blitz"
           ],
           [
-            70,
+            66,
             "Will-O-Wisp"
           ],
           [
-            74,
-            "Howl"
-          ],
-          [
-            79,
+            71,
             "Overheat"
           ]
         ],
@@ -16259,15 +15891,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Barrage"
           ],
           [
             1,
             "Tail Whip"
-          ],
-          [
-            5,
-            "Barrage"
           ],
           [
             7,
@@ -16418,15 +16046,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Barrage"
           ],
           [
             1,
             "Tail Whip"
-          ],
-          [
-            5,
-            "Barrage"
           ],
           [
             7,
@@ -16605,10 +16229,6 @@ backup_data = {
             "Tail Whip"
           ],
           [
-            5,
-            "Barrage"
-          ],
-          [
             7,
             "Hypnosis"
           ],
@@ -16674,7 +16294,7 @@ backup_data = {
           ],
           [
             58,
-            "Circle Throw"
+            "Superpower"
           ],
           [
             63,
@@ -16926,15 +16546,11 @@ backup_data = {
           ],
           [
             28,
-            "Psyshock"
+            "Psybeam"
           ],
           [
-            30,
+            32,
             "Shadow Ball"
-          ],
-          [
-            34,
-            "Magic Coat"
           ],
           [
             36,
@@ -16945,7 +16561,7 @@ backup_data = {
             "Dazzling Gleam"
           ],
           [
-            41,
+            42,
             "Thunderbolt"
           ],
           [
@@ -16953,11 +16569,11 @@ backup_data = {
             "Psychic"
           ],
           [
-            51,
+            50,
             "Psycho Shift"
           ],
           [
-            56,
+            54,
             "Aura Sphere"
           ]
         ],
@@ -17069,7 +16685,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Teleport"
+            "Curse"
           ],
           [
             1,
@@ -17097,15 +16713,11 @@ backup_data = {
           ],
           [
             28,
-            "Psyshock"
+            "Psybeam"
           ],
           [
-            30,
+            32,
             "Shadow Ball"
-          ],
-          [
-            34,
-            "Magic Coat"
           ],
           [
             36,
@@ -17116,7 +16728,7 @@ backup_data = {
             "Dazzling Gleam"
           ],
           [
-            41,
+            42,
             "Thunderbolt"
           ],
           [
@@ -17124,36 +16736,32 @@ backup_data = {
             "Psychic"
           ],
           [
-            51,
+            50,
             "Psycho Shift"
           ],
           [
-            56,
+            54,
             "Aura Sphere"
           ],
           [
-            62,
+            59,
+            "Ice Beam"
+          ],
+          [
+            63,
             "Psystrike"
           ],
           [
             68,
-            "Focus Blast"
-          ],
-          [
-            73,
-            "Calm Mind"
-          ],
-          [
-            80,
             "Future Sight"
           ],
           [
-            85,
-            "Hyper Beam"
+            74,
+            "Zap Cannon"
           ],
           [
-            99,
-            "Psycho Boost"
+            80,
+            "Calm Mind"
           ]
         ],
         "tms": [
@@ -17259,11 +16867,7 @@ backup_data = {
           ],
           [
             1,
-            "Leer"
-          ],
-          [
-            4,
-            "Scary Face"
+            "Tickle"
           ],
           [
             7,
@@ -17271,7 +16875,7 @@ backup_data = {
           ],
           [
             10,
-            "Rock Tomb"
+            "Dual Chop"
           ],
           [
             13,
@@ -17279,15 +16883,11 @@ backup_data = {
           ],
           [
             17,
-            "Vital Throw"
+            "Wake-Up Slap"
           ],
           [
-            20,
-            "Dual Chop"
-          ],
-          [
-            22,
-            "Tickle"
+            21,
+            "Scary Face"
           ],
           [
             24,
@@ -17299,7 +16899,7 @@ backup_data = {
           ],
           [
             30,
-            "Revenge"
+            "Cross Chop"
           ],
           [
             34,
@@ -17307,19 +16907,19 @@ backup_data = {
           ],
           [
             38,
-            "Facade"
+            "Ice Punch"
           ],
           [
-            40,
-            "Cross Chop"
+            38,
+            "Thunder Punch"
           ],
           [
             43,
-            "Taunt"
+            "Facade"
           ],
           [
             46,
-            "Stone Edge"
+            "Helping Hand"
           ]
         ],
         "tms": [
@@ -17425,11 +17025,7 @@ backup_data = {
           ],
           [
             1,
-            "Leer"
-          ],
-          [
-            4,
-            "Scary Face"
+            "Tickle"
           ],
           [
             7,
@@ -17437,7 +17033,7 @@ backup_data = {
           ],
           [
             10,
-            "Rock Tomb"
+            "Dual Chop"
           ],
           [
             13,
@@ -17445,15 +17041,11 @@ backup_data = {
           ],
           [
             17,
-            "Vital Throw"
+            "Wake-Up Slap"
           ],
           [
-            20,
-            "Dual Chop"
-          ],
-          [
-            22,
-            "Tickle"
+            21,
+            "Scary Face"
           ],
           [
             24,
@@ -17465,7 +17057,7 @@ backup_data = {
           ],
           [
             30,
-            "Revenge"
+            "Cross Chop"
           ],
           [
             34,
@@ -17473,27 +17065,23 @@ backup_data = {
           ],
           [
             38,
-            "Facade"
+            "Ice Punch"
           ],
           [
-            40,
-            "Cross Chop"
+            38,
+            "Thunder Punch"
           ],
           [
             43,
-            "Taunt"
+            "Facade"
           ],
           [
             46,
-            "Stone Edge"
+            "Helping Hand"
           ],
           [
             49,
             "Dynamic Punch"
-          ],
-          [
-            53,
-            "Helping Hand"
           ],
           [
             58,
@@ -17605,11 +17193,7 @@ backup_data = {
           ],
           [
             1,
-            "Circle Throw"
-          ],
-          [
-            4,
-            "Scary Face"
+            "Encore"
           ],
           [
             7,
@@ -17617,7 +17201,7 @@ backup_data = {
           ],
           [
             10,
-            "Rock Tomb"
+            "Dual Chop"
           ],
           [
             13,
@@ -17625,15 +17209,11 @@ backup_data = {
           ],
           [
             17,
-            "Vital Throw"
+            "Wake-Up Slap"
           ],
           [
-            20,
-            "Dual Chop"
-          ],
-          [
-            22,
-            "Tickle"
+            21,
+            "Scary Face"
           ],
           [
             24,
@@ -17645,7 +17225,7 @@ backup_data = {
           ],
           [
             30,
-            "Revenge"
+            "Cross Chop"
           ],
           [
             34,
@@ -17653,27 +17233,23 @@ backup_data = {
           ],
           [
             38,
-            "Facade"
+            "Ice Punch"
           ],
           [
-            40,
-            "Cross Chop"
+            38,
+            "Thunder Punch"
           ],
           [
             43,
-            "Taunt"
+            "Facade"
           ],
           [
             46,
-            "Stone Edge"
+            "Helping Hand"
           ],
           [
             49,
             "Dynamic Punch"
-          ],
-          [
-            53,
-            "Helping Hand"
           ],
           [
             58,
@@ -17681,7 +17257,7 @@ backup_data = {
           ],
           [
             62,
-            "Close Combat"
+            "Superpower"
           ],
           [
             68,
@@ -17785,15 +17361,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Leech Seed"
+            "Tickle"
           ],
           [
             1,
             "Poison Sting"
-          ],
-          [
-            3,
-            "Tickle"
           ],
           [
             6,
@@ -17821,19 +17393,19 @@ backup_data = {
           ],
           [
             26,
-            "Poison Fang"
+            "Spit Up"
           ],
           [
-            29,
-            "Gastro Acid"
-          ],
-          [
-            33,
+            30,
             "Knock Off"
           ],
           [
+            33,
+            "Slam"
+          ],
+          [
             37,
-            "Spit Up"
+            "Poison Jab"
           ],
           [
             40,
@@ -17841,7 +17413,7 @@ backup_data = {
           ],
           [
             43,
-            "Sucker Punch"
+            "Gastro Acid"
           ],
           [
             46,
@@ -17849,7 +17421,7 @@ backup_data = {
           ],
           [
             48,
-            "Cross Poison"
+            "Sucker Punch"
           ]
         ],
         "tms": [
@@ -17946,15 +17518,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Leech Seed"
+            "Tickle"
           ],
           [
             1,
             "Poison Sting"
-          ],
-          [
-            3,
-            "Tickle"
           ],
           [
             6,
@@ -17982,19 +17550,19 @@ backup_data = {
           ],
           [
             26,
-            "Poison Fang"
+            "Spit Up"
           ],
           [
-            29,
-            "Gastro Acid"
-          ],
-          [
-            33,
+            30,
             "Knock Off"
           ],
           [
+            33,
+            "Slam"
+          ],
+          [
             37,
-            "Spit Up"
+            "Poison Jab"
           ],
           [
             40,
@@ -18002,7 +17570,7 @@ backup_data = {
           ],
           [
             43,
-            "Sucker Punch"
+            "Gastro Acid"
           ],
           [
             46,
@@ -18010,7 +17578,7 @@ backup_data = {
           ],
           [
             48,
-            "Cross Poison"
+            "Sucker Punch"
           ],
           [
             51,
@@ -18022,11 +17590,11 @@ backup_data = {
           ],
           [
             60,
-            "Worry Seed"
+            "Poison Tail"
           ],
           [
             65,
-            "Gunk Shot"
+            "Power Whip"
           ]
         ],
         "tms": [
@@ -18128,15 +17696,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Power Whip"
-          ],
-          [
-            1,
             "Sunny Day"
           ],
           [
-            3,
-            "Tickle"
+            1,
+            "Power Whip"
           ],
           [
             6,
@@ -18164,19 +17728,19 @@ backup_data = {
           ],
           [
             26,
-            "Poison Fang"
+            "Spit Up"
           ],
           [
-            29,
-            "Gastro Acid"
-          ],
-          [
-            33,
+            30,
             "Knock Off"
           ],
           [
+            33,
+            "Slam"
+          ],
+          [
             37,
-            "Spit Up"
+            "Poison Jab"
           ],
           [
             40,
@@ -18184,7 +17748,7 @@ backup_data = {
           ],
           [
             43,
-            "Sucker Punch"
+            "Gastro Acid"
           ],
           [
             46,
@@ -18192,7 +17756,7 @@ backup_data = {
           ],
           [
             48,
-            "Cross Poison"
+            "Sucker Punch"
           ],
           [
             51,
@@ -18204,19 +17768,11 @@ backup_data = {
           ],
           [
             60,
-            "Worry Seed"
+            "Poison Tail"
           ],
           [
             65,
-            "Gunk Shot"
-          ],
-          [
-            70,
             "Power Whip"
-          ],
-          [
-            78,
-            "Frenzy Plant"
           ]
         ],
         "tms": [
@@ -18307,11 +17863,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Poison Sting"
-          ],
-          [
-            1,
-            "Water Gun"
+            "Wrap"
           ],
           [
             5,
@@ -18319,7 +17871,7 @@ backup_data = {
           ],
           [
             7,
-            "Smokescreen"
+            "Toxic"
           ],
           [
             10,
@@ -18331,7 +17883,7 @@ backup_data = {
           ],
           [
             15,
-            "Knock Off"
+            "Bitter Malice"
           ],
           [
             18,
@@ -18342,28 +17894,20 @@ backup_data = {
             "Brine"
           ],
           [
-            22,
-            "Bitter Malice"
-          ],
-          [
             24,
-            "Poison Gas"
+            "Giga Drain"
           ],
           [
             27,
             "Hex"
           ],
           [
-            31,
-            "Bubble Beam"
+            30,
+            "Octazooka"
           ],
           [
             34,
-            "Wrap"
-          ],
-          [
-            34,
-            "Bind"
+            "Smokescreen"
           ],
           [
             38,
@@ -18379,7 +17923,7 @@ backup_data = {
           ],
           [
             48,
-            "Hydro Pump"
+            "Sludge Wave"
           ],
           [
             51,
@@ -18387,7 +17931,7 @@ backup_data = {
           ],
           [
             55,
-            "Sludge Wave"
+            "Hydro Pump"
           ]
         ],
         "tms": [
@@ -18490,10 +18034,6 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Toxic"
-          ],
-          [
-            1,
             "Baneful Bunker"
           ],
           [
@@ -18501,8 +18041,8 @@ backup_data = {
             "Confuse Ray"
           ],
           [
-            10,
-            "Smokescreen"
+            7,
+            "Toxic"
           ],
           [
             10,
@@ -18514,7 +18054,7 @@ backup_data = {
           ],
           [
             15,
-            "Knock Off"
+            "Bitter Malice"
           ],
           [
             18,
@@ -18525,28 +18065,20 @@ backup_data = {
             "Brine"
           ],
           [
-            22,
-            "Bitter Malice"
-          ],
-          [
             24,
-            "Poison Gas"
+            "Giga Drain"
           ],
           [
             27,
             "Hex"
           ],
           [
-            31,
-            "Bubble Beam"
+            30,
+            "Octazooka"
           ],
           [
             34,
-            "Wrap"
-          ],
-          [
-            34,
-            "Bind"
+            "Smokescreen"
           ],
           [
             38,
@@ -18562,7 +18094,7 @@ backup_data = {
           ],
           [
             48,
-            "Hydro Pump"
+            "Sludge Wave"
           ],
           [
             51,
@@ -18570,15 +18102,15 @@ backup_data = {
           ],
           [
             55,
-            "Sludge Wave"
+            "Hydro Pump"
           ],
           [
             61,
-            "Whirlpool"
+            "Recover"
           ],
           [
             66,
-            "Recover"
+            "Swords Dance"
           ]
         ],
         "tms": [
@@ -19193,19 +18725,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Growl"
-          ],
-          [
-            1,
             "Tackle"
           ],
           [
-            4,
-            "Tail Whip"
-          ],
-          [
-            7,
-            "Ember"
+            5,
+            "Growl"
           ],
           [
             9,
@@ -19221,7 +18745,7 @@ backup_data = {
           ],
           [
             15,
-            "Double Kick"
+            "Jump Kick"
           ],
           [
             17,
@@ -19237,11 +18761,11 @@ backup_data = {
           ],
           [
             26,
-            "Jump Kick"
+            "Flamethrower"
           ],
           [
             29,
-            "Flamethrower"
+            "High Horsepower"
           ],
           [
             31,
@@ -19256,16 +18780,16 @@ backup_data = {
             "Morning Sun"
           ],
           [
-            42,
+            41,
             "Double-Edge"
           ],
           [
-            46,
+            45,
             "Overheat"
           ],
           [
             49,
-            "High Horsepower"
+            "Megahorn"
           ],
           [
             52,
@@ -19375,16 +18899,8 @@ backup_data = {
             "Horn Leech"
           ],
           [
-            1,
-            "Megahorn"
-          ],
-          [
-            4,
-            "Tail Whip"
-          ],
-          [
-            7,
-            "Ember"
+            5,
+            "Growl"
           ],
           [
             9,
@@ -19400,7 +18916,7 @@ backup_data = {
           ],
           [
             15,
-            "Double Kick"
+            "Jump Kick"
           ],
           [
             17,
@@ -19416,11 +18932,11 @@ backup_data = {
           ],
           [
             26,
-            "Jump Kick"
+            "Flamethrower"
           ],
           [
             29,
-            "Flamethrower"
+            "High Horsepower"
           ],
           [
             31,
@@ -19435,16 +18951,16 @@ backup_data = {
             "Morning Sun"
           ],
           [
-            42,
+            41,
             "Double-Edge"
           ],
           [
-            46,
+            45,
             "Overheat"
           ],
           [
             49,
-            "High Horsepower"
+            "Megahorn"
           ],
           [
             52,
@@ -19465,10 +18981,6 @@ backup_data = {
           [
             70,
             "Horn Drill"
-          ],
-          [
-            75,
-            "High Jump Kick"
           ]
         ],
         "tms": [
@@ -21177,11 +20689,11 @@ backup_data = {
           ],
           [
             1,
-            "Disable"
+            "Minimize"
           ],
           [
             4,
-            "Pursuit"
+            "Shadow Sneak"
           ],
           [
             7,
@@ -21189,23 +20701,15 @@ backup_data = {
           ],
           [
             10,
-            "Harden"
+            "Disable"
           ],
           [
             13,
             "Gastro Acid"
           ],
           [
-            15,
-            "Poison Gas"
-          ],
-          [
             17,
             "Knock Off"
-          ],
-          [
-            20,
-            "Shadow Sneak"
           ],
           [
             22,
@@ -21217,11 +20721,11 @@ backup_data = {
           ],
           [
             28,
-            "Minimize"
+            "Harden"
           ],
           [
             31,
-            "Dive"
+            "Liquidation"
           ],
           [
             34,
@@ -21233,7 +20737,7 @@ backup_data = {
           ],
           [
             40,
-            "Heavy Slam"
+            "Drain Punch"
           ],
           [
             44,
@@ -21359,7 +20863,7 @@ backup_data = {
           ],
           [
             4,
-            "Pursuit"
+            "Shadow Sneak"
           ],
           [
             7,
@@ -21367,23 +20871,15 @@ backup_data = {
           ],
           [
             10,
-            "Harden"
+            "Disable"
           ],
           [
             13,
             "Gastro Acid"
           ],
           [
-            15,
-            "Poison Gas"
-          ],
-          [
             17,
             "Knock Off"
-          ],
-          [
-            20,
-            "Shadow Sneak"
           ],
           [
             22,
@@ -21395,11 +20891,11 @@ backup_data = {
           ],
           [
             28,
-            "Minimize"
+            "Harden"
           ],
           [
             31,
-            "Dive"
+            "Liquidation"
           ],
           [
             34,
@@ -21411,7 +20907,7 @@ backup_data = {
           ],
           [
             40,
-            "Heavy Slam"
+            "Drain Punch"
           ],
           [
             44,
@@ -21419,11 +20915,11 @@ backup_data = {
           ],
           [
             47,
-            "Giga Impact"
+            "Heavy Slam"
           ],
           [
             51,
-            "Wrap"
+            "Dive"
           ],
           [
             55,
@@ -21434,7 +20930,7 @@ backup_data = {
             "Acid Armor"
           ],
           [
-            65,
+            61,
             "Recover"
           ]
         ],
@@ -21959,7 +21455,7 @@ backup_data = {
           ],
           [
             49,
-            "Curse"
+            "Destiny Bond"
           ]
         ],
         "tms": [
@@ -22440,20 +21936,12 @@ backup_data = {
             "Heavy Slam"
           ],
           [
-            1,
-            "Wrap"
-          ],
-          [
-            1,
-            "Dragon Tail"
-          ],
-          [
             5,
             "Screech"
           ],
           [
             8,
-            "Rock Throw"
+            "Rock Blast"
           ],
           [
             14,
@@ -22472,20 +21960,8 @@ backup_data = {
             "Bulldoze"
           ],
           [
-            28,
-            "Thunder Fang"
-          ],
-          [
-            28,
-            "Fire Fang"
-          ],
-          [
-            28,
-            "Ice Fang"
-          ],
-          [
-            32,
-            "Rock Slide"
+            31,
+            "Rage"
           ],
           [
             34,
@@ -22493,7 +21969,7 @@ backup_data = {
           ],
           [
             37,
-            "Rage"
+            "Rock Climb"
           ],
           [
             40,
@@ -22521,7 +21997,7 @@ backup_data = {
           ],
           [
             70,
-            "Head Smash"
+            "Rock Wrecker"
           ],
           [
             80,
@@ -24083,7 +23559,7 @@ backup_data = {
           ],
           [
             4,
-            "Lick"
+            "Shadow Sneak"
           ],
           [
             7,
@@ -24095,7 +23571,7 @@ backup_data = {
           ],
           [
             14,
-            "Shadow Sneak"
+            "Take Down"
           ],
           [
             17,
@@ -24127,7 +23603,7 @@ backup_data = {
           ],
           [
             41,
-            "Shadow Punch"
+            "Double-Edge"
           ],
           [
             44,
@@ -24139,11 +23615,11 @@ backup_data = {
           ],
           [
             51,
-            "Bonemerang"
+            "Head Smash"
           ],
           [
             54,
-            "Phantom Strike"
+            "Shadow Punch"
           ]
         ],
         "tms": [
@@ -24256,7 +23732,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Superpower"
+            "Phantom Strike"
           ],
           [
             1,
@@ -24264,7 +23740,7 @@ backup_data = {
           ],
           [
             4,
-            "Lick"
+            "Shadow Sneak"
           ],
           [
             7,
@@ -24276,7 +23752,7 @@ backup_data = {
           ],
           [
             14,
-            "Shadow Sneak"
+            "Take Down"
           ],
           [
             17,
@@ -24308,7 +23784,7 @@ backup_data = {
           ],
           [
             41,
-            "Shadow Punch"
+            "Double-Edge"
           ],
           [
             44,
@@ -24320,11 +23796,11 @@ backup_data = {
           ],
           [
             51,
-            "Bonemerang"
+            "Head Smash"
           ],
           [
             54,
-            "Phantom Strike"
+            "Shadow Punch"
           ],
           [
             58,
@@ -24332,7 +23808,7 @@ backup_data = {
           ],
           [
             63,
-            "Head Smash"
+            "Bonemerang"
           ],
           [
             70,
@@ -26767,11 +26243,11 @@ backup_data = {
           ],
           [
             1,
-            "High Horsepower"
+            "Facade"
           ],
           [
             1,
-            "Facade"
+            "Tail Whip"
           ],
           [
             4,
@@ -27138,7 +26614,7 @@ backup_data = {
             "Wave Crash"
           ],
           [
-            5,
+            1,
             "Triple Axel"
           ],
           [
@@ -29033,7 +28509,7 @@ backup_data = {
           ],
           [
             4,
-            "Sand Attack"
+            "Charm"
           ],
           [
             7,
@@ -32337,7 +31813,7 @@ backup_data = {
           ],
           [
             1,
-            "Sweet Scent"
+            "Growl"
           ],
           [
             7,
@@ -32503,7 +31979,7 @@ backup_data = {
           ],
           [
             1,
-            "Sweet Scent"
+            "Growl"
           ],
           [
             7,
@@ -32566,7 +32042,7 @@ backup_data = {
             "Earthquake"
           ],
           [
-            54,
+            56,
             "Play Rough"
           ],
           [
@@ -32754,7 +32230,7 @@ backup_data = {
             "Earthquake"
           ],
           [
-            54,
+            56,
             "Play Rough"
           ],
           [
@@ -33043,7 +32519,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Quick Attack"
           ],
           [
             1,
@@ -35040,15 +34516,15 @@ backup_data = {
           ],
           [
             1,
-            "Screech"
+            "Pursuit"
           ],
           [
             6,
-            "Pin Missile"
+            "Skitter Smack"
           ],
           [
             10,
-            "Night Shade"
+            "Screech"
           ],
           [
             13,
@@ -35060,7 +34536,7 @@ backup_data = {
           ],
           [
             19,
-            "Skitter Smack"
+            "Night Shade"
           ],
           [
             23,
@@ -35191,11 +34667,11 @@ backup_data = {
           ],
           [
             6,
-            "Pin Missile"
+            "Skitter Smack"
           ],
           [
             10,
-            "Night Shade"
+            "Screech"
           ],
           [
             13,
@@ -35207,7 +34683,7 @@ backup_data = {
           ],
           [
             19,
-            "Skitter Smack"
+            "Night Shade"
           ],
           [
             23,
@@ -35347,15 +34823,11 @@ backup_data = {
           ],
           [
             1,
-            "Aura Sphere"
-          ],
-          [
-            1,
             "Wicked Blow"
           ],
           [
-            7,
-            "Bite"
+            1,
+            "Aura Sphere"
           ],
           [
             10,
@@ -35363,7 +34835,7 @@ backup_data = {
           ],
           [
             13,
-            "Confuse Ray"
+            "Supersonic"
           ],
           [
             16,
@@ -35398,12 +34870,8 @@ backup_data = {
             "Dual Wingbeat"
           ],
           [
-            37,
-            "Screech"
-          ],
-          [
             39,
-            "Toxic"
+            "Screech"
           ],
           [
             42,
@@ -35414,27 +34882,23 @@ backup_data = {
             "Sludge Bomb"
           ],
           [
-            48,
-            "Supersonic"
-          ],
-          [
-            54,
+            52,
             "Acrobatics"
           ],
           [
-            60,
-            "Cross Poison"
+            58,
+            "Wicked Blow"
           ],
           [
-            65,
+            63,
             "Hurricane"
           ],
           [
-            71,
+            69,
             "Double Team"
           ],
           [
-            78,
+            74,
             "Brave Bird"
           ]
         ],
@@ -35869,7 +35333,7 @@ backup_data = {
           ],
           [
             8,
-            "Confide"
+            "Charm"
           ],
           [
             11,
@@ -35880,20 +35344,16 @@ backup_data = {
             "Spark"
           ],
           [
-            18,
-            "Helping Hand"
-          ],
-          [
-            22,
+            20,
             "Double Hit"
           ],
           [
-            25,
-            "Charm"
+            24,
+            "Double Team"
           ],
           [
             28,
-            "Light Screen"
+            "Heart Stamp"
           ],
           [
             45,
@@ -36017,7 +35477,7 @@ backup_data = {
           ],
           [
             13,
-            "Swift"
+            "Seismic Toss"
           ],
           [
             16,
@@ -36029,7 +35489,7 @@ backup_data = {
           ],
           [
             22,
-            "Seismic Toss"
+            "Meteor Mash"
           ],
           [
             25,
@@ -36170,10 +35630,6 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Sing"
-          ],
-          [
-            1,
             "Defense Curl"
           ],
           [
@@ -36182,7 +35638,7 @@ backup_data = {
           ],
           [
             4,
-            "Fake Tears"
+            "Disable"
           ],
           [
             7,
@@ -36206,11 +35662,11 @@ backup_data = {
           ],
           [
             22,
-            "Body Slam"
+            "Gyro Ball"
           ],
           [
             25,
-            "Draining Kiss"
+            "Sing"
           ],
           [
             29,
@@ -36229,36 +35685,28 @@ backup_data = {
             "Hyper Voice"
           ],
           [
-            40,
-            "Magic Coat"
-          ],
-          [
-            43,
-            "Gyro Ball"
+            41,
+            "Aeroblast"
           ],
           [
             45,
             "Play Rough"
           ],
           [
-            48,
-            "Sky Drop"
-          ],
-          [
-            50,
+            49,
             "Perish Song"
           ],
           [
             54,
-            "Double-Edge"
-          ],
-          [
-            58,
             "Heat Wave"
           ],
           [
+            58,
+            "Rollout"
+          ],
+          [
             62,
-            "Aeroblast"
+            "Boomburst"
           ]
         ],
         "tms": [
@@ -36707,7 +36155,7 @@ backup_data = {
           ],
           [
             1,
-            "Gust"
+            "Pluck"
           ],
           [
             6,
@@ -36731,7 +36179,7 @@ backup_data = {
           ],
           [
             20,
-            "Air Cutter"
+            "Defog"
           ],
           [
             23,
@@ -36747,7 +36195,7 @@ backup_data = {
           ],
           [
             32,
-            "Fly"
+            "Air Cutter"
           ],
           [
             35,
@@ -36890,7 +36338,7 @@ backup_data = {
           ],
           [
             1,
-            "Gust"
+            "Pluck"
           ],
           [
             6,
@@ -36914,7 +36362,7 @@ backup_data = {
           ],
           [
             20,
-            "Air Cutter"
+            "Defog"
           ],
           [
             23,
@@ -36930,7 +36378,7 @@ backup_data = {
           ],
           [
             32,
-            "Fly"
+            "Air Cutter"
           ],
           [
             35,
@@ -37707,14 +37155,14 @@ backup_data = {
           ],
           [
             60,
-            "Teeter Dance"
-          ],
-          [
-            65,
             "Spirit Break"
           ],
           [
-            80,
+            65,
+            "Teeter Dance"
+          ],
+          [
+            74,
             "Frenzy Plant"
           ]
         ],
@@ -38401,10 +37849,6 @@ backup_data = {
           [
             1,
             "Tail Whip"
-          ],
-          [
-            5,
-            "Water Gun"
           ],
           [
             7,
@@ -41302,7 +40746,7 @@ backup_data = {
           ],
           [
             41,
-            "Ice Fang"
+            "Thunder Fang"
           ],
           [
             41,
@@ -41310,7 +40754,7 @@ backup_data = {
           ],
           [
             41,
-            "Thunder Fang"
+            "Ice Fang"
           ],
           [
             45,
@@ -42166,20 +41610,12 @@ backup_data = {
             "Heavy Slam"
           ],
           [
-            1,
-            "Wrap"
-          ],
-          [
-            1,
-            "Dragon Tail"
-          ],
-          [
             5,
             "Screech"
           ],
           [
             8,
-            "Rock Throw"
+            "Rock Blast"
           ],
           [
             14,
@@ -42198,20 +41634,8 @@ backup_data = {
             "Bulldoze"
           ],
           [
-            28,
-            "Thunder Fang"
-          ],
-          [
-            28,
-            "Fire Fang"
-          ],
-          [
-            28,
-            "Ice Fang"
-          ],
-          [
-            32,
-            "Iron Head"
+            31,
+            "Bind"
           ],
           [
             34,
@@ -42219,7 +41643,7 @@ backup_data = {
           ],
           [
             37,
-            "Bind"
+            "Iron Head"
           ],
           [
             40,
@@ -42247,7 +41671,7 @@ backup_data = {
           ],
           [
             70,
-            "Head Smash"
+            "Rock Wrecker"
           ],
           [
             80,
@@ -42729,10 +42153,6 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Rapid Spin"
-          ],
-          [
-            1,
             "Aqua Jet"
           ],
           [
@@ -42741,75 +42161,55 @@ backup_data = {
           ],
           [
             8,
-            "Poison Tail"
+            "Barb Barrage"
           ],
           [
             10,
             "Stockpile"
           ],
           [
-            13,
+            14,
             "Barrage"
           ],
           [
-            16,
+            18,
             "Supersonic"
-          ],
-          [
-            19,
-            "Barb Barrage"
           ],
           [
             22,
             "Pin Missile"
           ],
           [
-            25,
-            "Payback"
-          ],
-          [
-            25,
+            27,
             "Revenge"
           ],
           [
-            27,
-            "Toxic"
-          ],
-          [
             30,
-            "Aqua Tail"
-          ],
-          [
-            32,
-            "Explosion"
+            "Poison Fang"
           ],
           [
             35,
-            "Poison Jab"
+            "Aqua Tail"
           ],
           [
             38,
-            "Minimize"
+            "Explosion"
           ],
           [
-            40,
+            41,
             "Reversal"
           ],
           [
-            44,
+            46,
             "Triple Dive"
           ],
           [
-            48,
-            "Poison Jab"
-          ],
-          [
             52,
-            "Spiky Shield"
+            "Poison Tail"
           ],
           [
-            55,
-            "Acupressure"
+            56,
+            "Spiky Shield"
           ],
           [
             60,
@@ -42817,7 +42217,7 @@ backup_data = {
           ],
           [
             65,
-            "Gunk Shot"
+            "Wave Crash"
           ]
         ],
         "tms": [
@@ -42975,7 +42375,7 @@ backup_data = {
           ],
           [
             52,
-            "Dual Wingbeat"
+            "Acrobatics"
           ],
           [
             55,
@@ -43470,11 +42870,11 @@ backup_data = {
           ],
           [
             37,
-            "Seething Cold"
+            "Power Gem"
           ],
           [
             40,
-            "Fling"
+            "Seething Cold"
           ],
           [
             45,
@@ -43972,7 +43372,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Yawn"
+            "Ember"
           ],
           [
             1,
@@ -43996,7 +43396,7 @@ backup_data = {
           ],
           [
             20,
-            "Poison Gas"
+            "Metal Burst"
           ],
           [
             22,
@@ -44139,7 +43539,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Yawn"
+            "Will-O-Wisp"
           ],
           [
             1,
@@ -44163,7 +43563,7 @@ backup_data = {
           ],
           [
             20,
-            "Poison Gas"
+            "Metal Burst"
           ],
           [
             22,
@@ -44653,7 +44053,7 @@ backup_data = {
           ],
           [
             1,
-            "Rock Throw"
+            "Water Gun"
           ],
           [
             4,
@@ -44728,11 +44128,11 @@ backup_data = {
             "Head Smash"
           ],
           [
-            65,
+            60,
             "Gunk Shot"
           ],
           [
-            70,
+            65,
             "Heal Bell"
           ]
         ],
@@ -45910,7 +45310,7 @@ backup_data = {
           ],
           [
             30,
-            "Foul Play"
+            "Scary Face"
           ],
           [
             33,
@@ -46728,7 +46128,7 @@ backup_data = {
           ],
           [
             1,
-            "Hail"
+            "Sucker Punch"
           ],
           [
             1,
@@ -46740,7 +46140,7 @@ backup_data = {
           ],
           [
             1,
-            "Sucker Punch"
+            "Hail"
           ],
           [
             1,
@@ -49763,7 +49163,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tackle"
+            "Pursuit"
           ],
           [
             1,
@@ -50707,7 +50107,7 @@ backup_data = {
           ],
           [
             16,
-            "Double Kick"
+            "Sky Uppercut"
           ],
           [
             19,
@@ -50923,7 +50323,7 @@ backup_data = {
           ],
           [
             37,
-            "Yawn"
+            "Earth Power"
           ],
           [
             40,
@@ -51084,7 +50484,7 @@ backup_data = {
           ],
           [
             37,
-            "Yawn"
+            "Earth Power"
           ],
           [
             40,
@@ -51559,7 +50959,7 @@ backup_data = {
           ],
           [
             8,
-            "Sand Attack"
+            "Growl"
           ],
           [
             10,
@@ -51703,7 +51103,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Pin Missile"
+            "Growl"
           ],
           [
             1,
@@ -51859,7 +51259,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Pin Missile"
+            "Growl"
           ],
           [
             1,
@@ -51867,7 +51267,7 @@ backup_data = {
           ],
           [
             1,
-            "Quick Attack"
+            "Tackle"
           ],
           [
             4,
@@ -52476,11 +51876,11 @@ backup_data = {
           ],
           [
             32,
-            "Silver Wind"
+            "U-turn"
           ],
           [
             34,
-            "U-turn"
+            "Light Screen"
           ],
           [
             36,
@@ -53008,10 +52408,6 @@ backup_data = {
           [
             68,
             "Seed Flare"
-          ],
-          [
-            73,
-            "Rain Dance"
           ]
         ],
         "tms": [
@@ -53766,7 +53162,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 60,
-        "at": 95,
+        "at": 100,
         "df": 60,
         "sa": 75,
         "sd": 50,
@@ -62551,7 +61947,7 @@ backup_data = {
           ],
           [
             16,
-            "Feint Attack"
+            "Dizzy Punch"
           ],
           [
             18,
@@ -62575,7 +61971,7 @@ backup_data = {
           ],
           [
             31,
-            "Dizzy Punch"
+            "Feint Attack"
           ],
           [
             34,
@@ -62967,7 +62363,7 @@ backup_data = {
           ],
           [
             58,
-            "Boomburst"
+            "Dragon Dance"
           ]
         ],
         "tms": [
@@ -63300,10 +62696,6 @@ backup_data = {
           ],
           [
             9,
-            "Shadow Sneak"
-          ],
-          [
-            11,
             "Pin Missile"
           ],
           [
@@ -63312,7 +62704,7 @@ backup_data = {
           ],
           [
             16,
-            "Disable"
+            "Shadow Sneak"
           ],
           [
             19,
@@ -63320,15 +62712,15 @@ backup_data = {
           ],
           [
             23,
-            "Grudge"
+            "Disable"
           ],
           [
             25,
             "Scorching Sands"
           ],
           [
-            28,
-            "Giga Drain"
+            29,
+            "Grudge"
           ],
           [
             32,
@@ -63345,6 +62737,10 @@ backup_data = {
           [
             44,
             "Phantom Strike"
+          ],
+          [
+            48,
+            "Sand Tomb"
           ]
         ],
         "tms": [
@@ -63455,19 +62851,19 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Snap Trap"
+            "Sandstorm"
           ],
           [
             1,
-            "Sand Attack"
+            "Teeter Dance"
           ],
           [
             1,
-            "Growth"
+            "Spikes"
           ],
           [
             1,
-            "Snap Trap"
+            "Baneful Bunker"
           ],
           [
             4,
@@ -63475,10 +62871,6 @@ backup_data = {
           ],
           [
             9,
-            "Shadow Sneak"
-          ],
-          [
-            11,
             "Pin Missile"
           ],
           [
@@ -63487,7 +62879,7 @@ backup_data = {
           ],
           [
             16,
-            "Disable"
+            "Shadow Sneak"
           ],
           [
             19,
@@ -63495,15 +62887,15 @@ backup_data = {
           ],
           [
             23,
-            "Grudge"
+            "Disable"
           ],
           [
             25,
             "Scorching Sands"
           ],
           [
-            28,
-            "Giga Drain"
+            29,
+            "Grudge"
           ],
           [
             32,
@@ -63523,11 +62915,11 @@ backup_data = {
           ],
           [
             48,
-            "Sandstorm"
+            "Sand Tomb"
           ],
           [
             50,
-            "Teeter Dance"
+            "Destiny Bond"
           ],
           [
             53,
@@ -63535,15 +62927,19 @@ backup_data = {
           ],
           [
             58,
-            "Sand Tomb"
+            "Wicked Blow"
           ],
           [
-            65,
-            "Frenzy Plant"
+            62,
+            "Shadow Force"
+          ],
+          [
+            66,
+            "Growth"
           ],
           [
             70,
-            "Shadow Force"
+            "Frenzy Plant"
           ]
         ],
         "tms": [
@@ -63711,7 +63107,7 @@ backup_data = {
           ],
           [
             45,
-            "Sky Drop"
+            "Whirlwind"
           ],
           [
             48,
@@ -64228,24 +63624,12 @@ backup_data = {
             "Spit Up"
           ],
           [
-            1,
-            "Power Trip"
-          ],
-          [
             4,
             "Scary Face"
           ],
           [
-            9,
-            "Poison Tail"
-          ],
-          [
             12,
             "Screech"
-          ],
-          [
-            15,
-            "Gastro Acid"
           ],
           [
             19,
@@ -64260,12 +63644,8 @@ backup_data = {
             "Night Slash"
           ],
           [
-            30,
+            33,
             "Glare"
-          ],
-          [
-            34,
-            "Seething Cold"
           ],
           [
             37,
@@ -64284,36 +63664,32 @@ backup_data = {
             "Swagger"
           ],
           [
-            43,
+            44,
             "Aqua Tail"
           ],
           [
-            43,
+            44,
             "Iron Tail"
           ],
           [
-            46,
-            "Sludge Bomb"
-          ],
-          [
             49,
-            "Crunch"
-          ],
-          [
-            51,
-            "Coil"
-          ],
-          [
-            54,
             "Wrap"
           ],
           [
-            57,
+            53,
+            "Crunch"
+          ],
+          [
+            58,
             "Sucker Punch"
           ],
           [
             63,
-            "Gunk Shot"
+            "Poison Tail"
+          ],
+          [
+            69,
+            "Coil"
           ]
         ],
         "tms": [
@@ -64420,19 +63796,7 @@ backup_data = {
           ],
           [
             1,
-            "Ally Switch"
-          ],
-          [
-            1,
-            "Teleport"
-          ],
-          [
-            1,
             "Cosmic Power"
-          ],
-          [
-            6,
-            "Sparkle"
           ],
           [
             10,
@@ -64448,7 +63812,7 @@ backup_data = {
           ],
           [
             20,
-            "Dream Eater"
+            "Teleport"
           ],
           [
             25,
@@ -64468,7 +63832,7 @@ backup_data = {
           ],
           [
             42,
-            "Magic Coat"
+            "Ally Switch"
           ],
           [
             46,
@@ -64476,19 +63840,15 @@ backup_data = {
           ],
           [
             50,
-            "Psyshock"
+            "Psycho Boost"
           ],
           [
             53,
             "Ice Beam"
           ],
           [
-            55,
-            "Gravity"
-          ],
-          [
             57,
-            "Ally Switch"
+            "Gravity"
           ],
           [
             60,
@@ -66581,23 +65941,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Tail Whip"
-          ],
-          [
-            1,
             "Tackle"
           ],
           [
             1,
             "Flail"
-          ],
-          [
-            7,
-            "Disarming Voice"
-          ],
-          [
-            11,
-            "Breaking Swipe"
           ],
           [
             14,
@@ -66609,7 +65957,7 @@ backup_data = {
           ],
           [
             20,
-            "Attract"
+            "Mirror Coat"
           ]
         ],
         "tms": [
@@ -66680,31 +66028,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Mirror Coat"
-          ],
-          [
-            1,
-            "Whirlpool"
+            "Triple Axel"
           ],
           [
             1,
             "Fairy Wind"
-          ],
-          [
-            7,
-            "Disarming Voice"
-          ],
-          [
-            11,
-            "Breaking Swipe"
-          ],
-          [
-            14,
-            "Hypnosis"
-          ],
-          [
-            17,
-            "Water Pulse"
           ],
           [
             20,
@@ -66728,15 +66056,11 @@ backup_data = {
           ],
           [
             37,
-            "Dragon Tail"
+            "Slam"
           ],
           [
             40,
-            "Scald"
-          ],
-          [
-            43,
-            "Double Slap"
+            "Alluring Voice"
           ],
           [
             45,
@@ -66744,34 +66068,34 @@ backup_data = {
           ],
           [
             47,
+            "Triple Dive"
+          ],
+          [
+            50,
             "Wrap"
           ],
           [
-            50,
-            "Aqua Tail"
-          ],
-          [
-            50,
-            "Iron Tail"
-          ],
-          [
-            53,
+            54,
             "Recover"
           ],
           [
-            57,
-            "Triple Axel"
-          ],
-          [
-            60,
+            59,
             "Hydro Pump"
           ],
           [
-            65,
+            63,
             "Alluring Voice"
           ],
           [
-            72,
+            69,
+            "Hyper Beam"
+          ],
+          [
+            74,
+            "Barrier"
+          ],
+          [
+            80,
             "Coil"
           ]
         ],
@@ -68377,7 +67701,7 @@ backup_data = {
             "Spirit Break"
           ],
           [
-            68,
+            69,
             "Hyper Beam"
           ],
           [
@@ -68757,7 +68081,7 @@ backup_data = {
           ],
           [
             38,
-            "Rock Polish"
+            "Hail"
           ],
           [
             40,
@@ -69250,7 +68574,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Aqua Jet"
+            "Yawn"
           ],
           [
             1,
@@ -69258,15 +68582,15 @@ backup_data = {
           ],
           [
             1,
-            "Yawn"
+            "Defense Curl"
+          ],
+          [
+            1,
+            "Aqua Jet"
           ],
           [
             1,
             "Sheer Cold"
-          ],
-          [
-            1,
-            "Defense Curl"
           ],
           [
             3,
@@ -69444,10 +68768,6 @@ backup_data = {
           ],
           [
             1,
-            "Water Gun"
-          ],
-          [
-            1,
             "Iron Defense"
           ],
           [
@@ -69576,23 +68896,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Dragon Dance"
+            "Harden"
           ],
           [
             1,
-            "Wrap"
-          ],
-          [
-            1,
-            "Bite"
-          ],
-          [
-            4,
-            "Aqua Jet"
-          ],
-          [
-            8,
-            "Scary Face"
+            "Volt Tackle"
           ],
           [
             11,
@@ -69604,7 +68912,7 @@ backup_data = {
           ],
           [
             20,
-            "Hypnosis"
+            "Thunder Wave"
           ],
           [
             24,
@@ -69612,10 +68920,10 @@ backup_data = {
           ],
           [
             27,
-            "Aqua Ring"
+            "Scary Face"
           ],
           [
-            30,
+            31,
             "Devour"
           ],
           [
@@ -69624,35 +68932,31 @@ backup_data = {
           ],
           [
             39,
-            "Attract"
+            "Swagger"
           ],
           [
             42,
             "Safeguard"
           ],
           [
-            45,
+            46,
             "Dragon Rush"
           ],
           [
-            48,
-            "Harden"
-          ],
-          [
-            51,
-            "Aqua Tail"
-          ],
-          [
-            55,
+            50,
             "Wild Charge"
           ],
           [
-            59,
-            "Wave Crash"
+            54,
+            "Dive"
           ],
           [
-            65,
-            "Rest"
+            57,
+            "Baton Pass"
+          ],
+          [
+            62,
+            "Wave Crash"
           ],
           [
             70,
@@ -69761,23 +69065,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Quiver Dance"
+            "Barrier"
           ],
           [
             1,
             "Wrap"
-          ],
-          [
-            1,
-            "Poison Tail"
-          ],
-          [
-            4,
-            "Aqua Jet"
-          ],
-          [
-            8,
-            "Captivate"
           ],
           [
             11,
@@ -69797,15 +69089,15 @@ backup_data = {
           ],
           [
             27,
-            "Aqua Ring"
+            "Acid Spray"
           ],
           [
-            30,
+            31,
             "Dragon Breath"
           ],
           [
             36,
-            "Smog"
+            "Sludge"
           ],
           [
             39,
@@ -69816,28 +69108,24 @@ backup_data = {
             "Safeguard"
           ],
           [
-            45,
+            46,
             "Dragon Pulse"
           ],
           [
-            48,
-            "Barrier"
-          ],
-          [
-            51,
-            "Muddy Water"
-          ],
-          [
-            55,
+            50,
             "Sludge Bomb"
           ],
           [
-            59,
-            "Hydro Pump"
+            54,
+            "Surf"
           ],
           [
-            65,
-            "Rest"
+            57,
+            "Baton Pass"
+          ],
+          [
+            62,
+            "Hydro Pump"
           ],
           [
             70,
@@ -72758,7 +72046,7 @@ backup_data = {
           ],
           [
             1,
-            "Mega Drain"
+            "Absorb"
           ],
           [
             1,
@@ -72910,7 +72198,7 @@ backup_data = {
           ],
           [
             1,
-            "Mega Drain"
+            "Absorb"
           ],
           [
             1,
@@ -73859,7 +73147,7 @@ backup_data = {
           ],
           [
             40,
-            "Aqua Ring"
+            "Muddy Water"
           ]
         ],
         "tms": [
@@ -75243,7 +74531,7 @@ backup_data = {
           ],
           [
             1,
-            "Sticky Web"
+            "String Shot"
           ],
           [
             1,
@@ -77234,7 +76522,7 @@ backup_data = {
           ],
           [
             1,
-            "Megahorn"
+            "Bug Bite"
           ],
           [
             10,
@@ -77718,7 +77006,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Thunder Shock"
+            "Shock Wave"
           ],
           [
             1,
@@ -78118,10 +77406,6 @@ backup_data = {
           [
             67,
             "Superpower"
-          ],
-          [
-            70,
-            "Wave Crash"
           ]
         ],
         "tms": [
@@ -78382,7 +77666,7 @@ backup_data = {
           ],
           [
             1,
-            "Sunny Day"
+            "Blaze Kick"
           ],
           [
             1,
@@ -78559,7 +77843,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Mud-Slap"
+            "Absorb"
           ],
           [
             1,
@@ -78571,15 +77855,15 @@ backup_data = {
           ],
           [
             5,
-            "Acid Spray"
+            "Leech Seed"
           ],
           [
             10,
-            "Brine"
+            "Barrage"
           ],
           [
             14,
-            "Mud Shot"
+            "Bullet Seed"
           ],
           [
             18,
@@ -78591,15 +77875,15 @@ backup_data = {
           ],
           [
             24,
-            "Sludge"
+            "Scald"
           ],
           [
             27,
-            "Ancient Power"
+            "Natural Gift"
           ],
           [
             30,
-            "Mud Bomb"
+            "Horn Leech"
           ],
           [
             33,
@@ -78607,7 +77891,7 @@ backup_data = {
           ],
           [
             37,
-            "Scald"
+            "Liquidation"
           ],
           [
             40,
@@ -78619,11 +77903,11 @@ backup_data = {
           ],
           [
             43,
-            "Earthquake"
+            "Seed Bomb"
           ],
           [
             48,
-            "Muddy Water"
+            "Triple Dive"
           ]
         ],
         "tms": [
@@ -78771,6 +78055,10 @@ backup_data = {
             "Yawn"
           ],
           [
+            24,
+            "Sludge"
+          ],
+          [
             27,
             "Sludge"
           ],
@@ -78809,10 +78097,6 @@ backup_data = {
           [
             58,
             "Toxic"
-          ],
-          [
-            62,
-            "Infestation"
           ],
           [
             62,
@@ -79800,7 +79084,7 @@ backup_data = {
           ],
           [
             1,
-            "Me First"
+            "Confusion"
           ],
           [
             6,
@@ -79859,7 +79143,7 @@ backup_data = {
             "Perish Song"
           ],
           [
-            56,
+            57,
             "Alluring Voice"
           ],
           [
@@ -81329,7 +80613,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Obstruct"
+            "Rock Throw"
           ],
           [
             1,
@@ -82496,7 +81780,7 @@ backup_data = {
           ],
           [
             1,
-            "Sand Attack"
+            "Fire Spin"
           ],
           [
             5,
@@ -82887,6 +82171,10 @@ backup_data = {
           [
             43,
             "Helping Hand"
+          ],
+          [
+            46,
+            "Spike Cannon"
           ]
         ],
         "tms": [
@@ -83064,7 +82352,7 @@ backup_data = {
             "Spike Cannon"
           ],
           [
-            52,
+            50,
             "Aura Sphere"
           ],
           [
@@ -83247,10 +82535,6 @@ backup_data = {
           [
             45,
             "Heavy Slam"
-          ],
-          [
-            48,
-            "Slack Off"
           ]
         ],
         "tms": [
@@ -83389,7 +82673,7 @@ backup_data = {
             "Dig"
           ],
           [
-            40,
+            39,
             "Crunch"
           ],
           [
@@ -83503,48 +82787,32 @@ backup_data = {
             "Poison Sting"
           ],
           [
-            1,
-            "Leer"
-          ],
-          [
             4,
             "Pin Missile"
           ],
           [
-            8,
-            "Bug Bite"
-          ],
-          [
-            11,
-            "Poison Tail"
-          ],
-          [
-            14,
+            10,
             "Scary Face"
           ],
           [
-            18,
-            "Poison Fang"
-          ],
-          [
-            22,
-            "X-Scissor"
-          ],
-          [
-            26,
-            "Slash"
-          ],
-          [
-            28,
+            15,
             "Barb Barrage"
           ],
           [
-            30,
-            "Toxic"
+            20,
+            "X-Scissor"
           ],
           [
-            32,
-            "Knock Off"
+            25,
+            "Acupressure"
+          ],
+          [
+            30,
+            "Night Slash"
+          ],
+          [
+            30,
+            "Slash"
           ],
           [
             35,
@@ -83560,7 +82828,7 @@ backup_data = {
           ],
           [
             40,
-            "Acupressure"
+            "Scary Face"
           ],
           [
             46,
@@ -83568,7 +82836,7 @@ backup_data = {
           ],
           [
             50,
-            "Night Slash"
+            "Knock Off"
           ]
         ],
         "tms": [
@@ -83673,48 +82941,32 @@ backup_data = {
             "Poison Sting"
           ],
           [
-            1,
-            "Leer"
-          ],
-          [
             4,
             "Pin Missile"
           ],
           [
-            8,
-            "Bug Bite"
-          ],
-          [
-            11,
-            "Poison Tail"
-          ],
-          [
-            14,
+            10,
             "Scary Face"
           ],
           [
-            18,
-            "Poison Fang"
-          ],
-          [
-            22,
-            "X-Scissor"
-          ],
-          [
-            26,
-            "Slash"
-          ],
-          [
-            29,
+            15,
             "Barb Barrage"
           ],
           [
-            30,
-            "Toxic"
+            20,
+            "X-Scissor"
           ],
           [
-            32,
-            "Knock Off"
+            25,
+            "Acupressure"
+          ],
+          [
+            30,
+            "Night Slash"
+          ],
+          [
+            30,
+            "Slash"
           ],
           [
             35,
@@ -83730,7 +82982,7 @@ backup_data = {
           ],
           [
             40,
-            "Acupressure"
+            "Scary Face"
           ],
           [
             46,
@@ -83738,19 +82990,19 @@ backup_data = {
           ],
           [
             50,
-            "Night Slash"
+            "Knock Off"
           ],
           [
-            53,
+            55,
             "Cross Poison"
           ],
           [
-            56,
+            60,
             "Agility"
           ],
           [
             65,
-            "Wrap"
+            "Poison Tail"
           ],
           [
             75,
@@ -85338,11 +84590,11 @@ backup_data = {
           ],
           [
             37,
-            "Seething Cold"
+            "Power Gem"
           ],
           [
             40,
-            "Fling"
+            "Seething Cold"
           ],
           [
             45,
@@ -85354,7 +84606,7 @@ backup_data = {
           ],
           [
             53,
-            "Icicle Spear"
+            "Frost Breath"
           ],
           [
             58,
@@ -85362,11 +84614,11 @@ backup_data = {
           ],
           [
             62,
-            "Hone Claws"
+            "Fling"
           ],
           [
             80,
-            "Frost Breath"
+            "Hone Claws"
           ],
           [
             99,
@@ -86027,11 +85279,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Rage Powder"
+            "Synthesis"
           ],
           [
             1,
-            "Leaf Storm"
+            "Rage Powder"
           ],
           [
             1,
@@ -88562,15 +87814,15 @@ backup_data = {
           ],
           [
             13,
-            "Telekinesis"
+            "Water Pulse"
           ],
           [
             16,
-            "Shock Wave"
+            "Incinerate"
           ],
           [
             19,
-            "Hex"
+            "Leaf Tornado"
           ],
           [
             23,
@@ -90883,11 +90135,7 @@ backup_data = {
           ],
           [
             1,
-            "Leer"
-          ],
-          [
-            1,
-            "Absorb"
+            "Mega Drain"
           ],
           [
             4,
@@ -90899,7 +90147,7 @@ backup_data = {
           ],
           [
             10,
-            "Mega Drain"
+            "Glare"
           ],
           [
             13,
@@ -90922,20 +90170,16 @@ backup_data = {
             "Leaf Blade"
           ],
           [
-            30,
-            "Glare"
-          ],
-          [
-            33,
-            "Twister"
+            32,
+            "Grass Whistle"
           ],
           [
             36,
-            "Parabolic Zap"
+            "Zing Zap"
           ],
           [
             39,
-            "Captivate"
+            "Swagger"
           ]
         ],
         "tms": [
@@ -91055,11 +90299,7 @@ backup_data = {
           ],
           [
             1,
-            "Leer"
-          ],
-          [
-            1,
-            "Absorb"
+            "Mega Drain"
           ],
           [
             4,
@@ -91071,7 +90311,7 @@ backup_data = {
           ],
           [
             10,
-            "Mega Drain"
+            "Glare"
           ],
           [
             13,
@@ -91094,20 +90334,16 @@ backup_data = {
             "Leaf Blade"
           ],
           [
-            30,
-            "Glare"
-          ],
-          [
-            33,
-            "Twister"
+            32,
+            "Grass Whistle"
           ],
           [
             36,
-            "Parabolic Zap"
+            "Zing Zap"
           ],
           [
             39,
-            "Captivate"
+            "Swagger"
           ],
           [
             42,
@@ -91115,7 +90351,7 @@ backup_data = {
           ],
           [
             46,
-            "Energy Ball"
+            "Draco Meteor"
           ],
           [
             50,
@@ -91123,11 +90359,7 @@ backup_data = {
           ],
           [
             54,
-            "Swagger"
-          ],
-          [
-            58,
-            "Hurricane"
+            "Coil"
           ]
         ],
         "tms": [
@@ -91245,19 +90477,15 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Wrap"
+            "Draco Meteor"
           ],
           [
             1,
-            "Synthesis"
+            "Overheat"
           ],
           [
             1,
-            "Absorb"
-          ],
-          [
-            4,
-            "Leech Seed"
+            "Volt Tackle"
           ],
           [
             7,
@@ -91265,7 +90493,7 @@ backup_data = {
           ],
           [
             10,
-            "Mega Drain"
+            "Glare"
           ],
           [
             13,
@@ -91288,20 +90516,16 @@ backup_data = {
             "Leaf Blade"
           ],
           [
-            30,
-            "Glare"
-          ],
-          [
-            33,
-            "Twister"
+            32,
+            "Grass Whistle"
           ],
           [
             36,
-            "Parabolic Zap"
+            "Zing Zap"
           ],
           [
             39,
-            "Captivate"
+            "Swagger"
           ],
           [
             42,
@@ -91309,7 +90533,7 @@ backup_data = {
           ],
           [
             46,
-            "Energy Ball"
+            "Draco Meteor"
           ],
           [
             50,
@@ -91317,30 +90541,22 @@ backup_data = {
           ],
           [
             54,
-            "Swagger"
-          ],
-          [
-            58,
-            "Hurricane"
-          ],
-          [
-            64,
-            "Leaf Storm"
-          ],
-          [
-            67,
-            "Electro Ball"
-          ],
-          [
-            70,
             "Coil"
           ],
           [
-            76,
+            61,
+            "Leaf Storm"
+          ],
+          [
+            65,
+            "Electro Ball"
+          ],
+          [
+            74,
             "Zap Cannon"
           ],
           [
-            99,
+            81,
             "Focus Energy"
           ]
         ],
@@ -91465,7 +90681,7 @@ backup_data = {
           ],
           [
             10,
-            "Thrash"
+            "Crunch"
           ],
           [
             13,
@@ -91617,9 +90833,9 @@ backup_data = {
         "hp": 90,
         "at": 93,
         "df": 66,
-        "sa": 70,
+        "sa": 75,
         "sd": 66,
-        "sp": 55
+        "sp": 60
       },
       "learnset_info": {
         "learnset": [
@@ -91641,7 +90857,7 @@ backup_data = {
           ],
           [
             10,
-            "Thrash"
+            "Crunch"
           ],
           [
             13,
@@ -91807,7 +91023,7 @@ backup_data = {
         "hp": 110,
         "at": 123,
         "df": 81,
-        "sa": 100,
+        "sa": 110,
         "sd": 81,
         "sp": 75
       },
@@ -91826,12 +91042,12 @@ backup_data = {
             "Rock Wrecker"
           ],
           [
-            7,
-            "Stompin Tantrum"
+            1,
+            "Blaze Kick"
           ],
           [
             10,
-            "Thrash"
+            "Crunch"
           ],
           [
             13,
@@ -91887,7 +91103,7 @@ backup_data = {
           ],
           [
             55,
-            "Overheat"
+            "Blaze Kick"
           ],
           [
             60,
@@ -91903,7 +91119,7 @@ backup_data = {
           ],
           [
             70,
-            "Sucker Punch"
+            "Overheat"
           ],
           [
             75,
@@ -92066,12 +91282,12 @@ backup_data = {
             "Slash"
           ],
           [
-            29,
+            28,
             "Detect"
           ],
           [
             31,
-            "Liquidation"
+            "Triple Dive"
           ],
           [
             36,
@@ -92088,18 +91304,6 @@ backup_data = {
           [
             45,
             "Dive"
-          ],
-          [
-            50,
-            "Rest"
-          ],
-          [
-            52,
-            "Megahorn"
-          ],
-          [
-            55,
-            "Crabhammer"
           ]
         ],
         "tms": [
@@ -92211,7 +91415,7 @@ backup_data = {
         "hp": 85,
         "at": 92,
         "df": 60,
-        "sa": 73,
+        "sa": 83,
         "sd": 60,
         "sp": 70
       },
@@ -92262,12 +91466,12 @@ backup_data = {
             "Slash"
           ],
           [
-            29,
+            28,
             "Detect"
           ],
           [
             31,
-            "Liquidation"
+            "Triple Dive"
           ],
           [
             36,
@@ -92409,7 +91613,7 @@ backup_data = {
         "hp": 105,
         "at": 125,
         "df": 85,
-        "sa": 88,
+        "sa": 98,
         "sd": 70,
         "sp": 97
       },
@@ -92417,11 +91621,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Iron Defense"
+            "Triple Axel"
           ],
           [
             1,
-            "Triple Axel"
+            "Iron Defense"
           ],
           [
             1,
@@ -92465,7 +91669,7 @@ backup_data = {
           ],
           [
             31,
-            "Liquidation"
+            "Triple Dive"
           ],
           [
             36,
@@ -92669,7 +91873,7 @@ backup_data = {
           ],
           [
             31,
-            "Bind"
+            "Slam"
           ],
           [
             35,
@@ -93164,7 +92368,7 @@ backup_data = {
           ],
           [
             45,
-            "Howl"
+            "Sand Attack"
           ]
         ],
         "tms": [
@@ -95571,11 +94775,11 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Sky Attack"
+            "Reflect Type"
           ],
           [
             1,
-            "Reflect Type"
+            "Sky Attack"
           ],
           [
             1,
@@ -96126,12 +95330,12 @@ backup_data = {
             "Mud Shot"
           ],
           [
-            15,
-            "Metal Sound"
+            16,
+            "Force Palm"
           ],
           [
             19,
-            "Shock Wave"
+            "Flame Burst"
           ],
           [
             22,
@@ -96288,8 +95492,8 @@ backup_data = {
             "Mud Shot"
           ],
           [
-            15,
-            "Metal Sound"
+            16,
+            "Force Palm"
           ],
           [
             19,
@@ -96460,8 +95664,8 @@ backup_data = {
             "Mud Shot"
           ],
           [
-            15,
-            "Metal Sound"
+            16,
+            "Force Palm"
           ],
           [
             19,
@@ -98572,19 +97776,11 @@ backup_data = {
             "Bind"
           ],
           [
-            4,
-            "Mach Punch"
-          ],
-          [
-            10,
-            "Bulldoze"
-          ],
-          [
-            14,
+            8,
             "Block"
           ],
           [
-            17,
+            15,
             "Vital Throw"
           ],
           [
@@ -98596,12 +97792,12 @@ backup_data = {
             "Scary Face"
           ],
           [
-            29,
+            28,
             "Storm Throw"
           ],
           [
             33,
-            "Stompin Tantrum"
+            "Bulldoze"
           ],
           [
             36,
@@ -98613,15 +97809,11 @@ backup_data = {
           ],
           [
             42,
-            "Cross Chop"
-          ],
-          [
-            45,
-            "Endure"
+            "Circle Throw"
           ],
           [
             47,
-            "Circle Throw"
+            "Endure"
           ],
           [
             50,
@@ -98637,14 +97829,14 @@ backup_data = {
           ],
           [
             61,
-            "Headlong Rush"
+            "Hammer Arm"
           ],
           [
             65,
-            "Superpower"
+            "Headlong Rush"
           ],
           [
-            70,
+            73,
             "Bulk Up"
           ]
         ],
@@ -98740,20 +97932,12 @@ backup_data = {
             "Flail"
           ],
           [
-            4,
-            "Mach Punch"
-          ],
-          [
-            10,
-            "Rock Throw"
-          ],
-          [
-            14,
+            8,
             "Retaliate"
           ],
           [
-            17,
-            "Double Kick"
+            15,
+            "Rolling Kick"
           ],
           [
             20,
@@ -98764,7 +97948,7 @@ backup_data = {
             "Scary Face"
           ],
           [
-            29,
+            28,
             "Strength"
           ],
           [
@@ -98773,7 +97957,7 @@ backup_data = {
           ],
           [
             36,
-            "Wide Guard"
+            "Final Gambit"
           ],
           [
             40,
@@ -98784,12 +97968,8 @@ backup_data = {
             "Hammer Arm"
           ],
           [
-            45,
-            "Endure"
-          ],
-          [
             47,
-            "Bulk Up"
+            "Endure"
           ],
           [
             50,
@@ -98797,14 +97977,14 @@ backup_data = {
           ],
           [
             54,
-            "Last Resort"
+            "Cross Chop"
           ],
           [
             58,
             "Helping Hand"
           ],
           [
-            60,
+            61,
             "Close Combat"
           ],
           [
@@ -98812,7 +97992,7 @@ backup_data = {
             "Facade"
           ],
           [
-            70,
+            73,
             "Bulk Up"
           ]
         ],
@@ -99394,31 +98574,19 @@ backup_data = {
           ],
           [
             1,
-            "Pursuit"
-          ],
-          [
-            1,
-            "Defense Curl"
+            "Bite"
           ],
           [
             8,
-            "Bug Bite"
-          ],
-          [
-            11,
-            "Poison Tail"
+            "Pin Missile"
           ],
           [
             14,
-            "Protect"
-          ],
-          [
-            17,
-            "X-Scissor"
-          ],
-          [
-            21,
             "Barb Barrage"
+          ],
+          [
+            20,
+            "X-Scissor"
           ],
           [
             24,
@@ -99430,23 +98598,19 @@ backup_data = {
           ],
           [
             30,
-            "Defense Curl"
+            "Rock Climb"
           ],
           [
             34,
-            "Poison Jab"
+            "Toxic"
           ],
           [
             38,
-            "Twineedle"
-          ],
-          [
-            41,
-            "Spin Out"
+            "Horn Leech"
           ],
           [
             43,
-            "Toxic"
+            "Spin Out"
           ]
         ],
         "tms": [
@@ -99546,31 +98710,19 @@ backup_data = {
           ],
           [
             1,
-            "Pursuit"
-          ],
-          [
-            1,
-            "Defense Curl"
+            "Bite"
           ],
           [
             8,
-            "Bug Bite"
-          ],
-          [
-            11,
-            "Poison Tail"
+            "Pin Missile"
           ],
           [
             14,
-            "Protect"
-          ],
-          [
-            17,
-            "X-Scissor"
+            "Barb Barrage"
           ],
           [
             21,
-            "Barb Barrage"
+            "X-Scissor"
           ],
           [
             24,
@@ -99582,35 +98734,31 @@ backup_data = {
           ],
           [
             30,
-            "Defense Curl"
+            "Rock Climb"
           ],
           [
             34,
-            "Poison Jab"
-          ],
-          [
-            38,
-            "Twineedle"
-          ],
-          [
-            41,
-            "Spin Out"
-          ],
-          [
-            43,
             "Toxic"
           ],
           [
+            38,
+            "Horn Leech"
+          ],
+          [
+            43,
+            "Spin Out"
+          ],
+          [
             47,
-            "Cross Poison"
+            "Megahorn"
           ],
           [
             50,
-            "Baneful Bunker"
+            "Protect"
           ],
           [
             54,
-            "Megahorn"
+            "Outrage"
           ]
         ],
         "tms": [
@@ -99708,35 +98856,23 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Aqua Tail"
+            "Baneful Bunker"
           ],
           [
             1,
             "Rollout"
           ],
           [
-            1,
-            "Horn Leech"
-          ],
-          [
-            1,
-            "Defense Curl"
-          ],
-          [
-            11,
-            "Poison Tail"
+            8,
+            "Pin Missile"
           ],
           [
             14,
-            "Protect"
-          ],
-          [
-            17,
-            "X-Scissor"
+            "Barb Barrage"
           ],
           [
             21,
-            "Barb Barrage"
+            "X-Scissor"
           ],
           [
             24,
@@ -99748,51 +98884,43 @@ backup_data = {
           ],
           [
             30,
-            "Defense Curl"
+            "Rock Climb"
           ],
           [
             34,
-            "Poison Jab"
-          ],
-          [
-            38,
-            "Twineedle"
-          ],
-          [
-            41,
-            "Spin Out"
-          ],
-          [
-            43,
             "Toxic"
           ],
           [
+            38,
+            "Horn Leech"
+          ],
+          [
+            43,
+            "Spin Out"
+          ],
+          [
             47,
-            "Cross Poison"
-          ],
-          [
-            50,
-            "Baneful Bunker"
-          ],
-          [
-            54,
             "Megahorn"
           ],
           [
-            57,
+            50,
+            "Protect"
+          ],
+          [
+            54,
             "Outrage"
           ],
           [
             60,
-            "Iron Defense"
+            "Defense Curl"
           ],
           [
             63,
-            "Steamroller"
+            "Poison Tail"
           ],
           [
             68,
-            "Wrap"
+            "Steamroller"
           ],
           [
             75,
@@ -100103,11 +99231,11 @@ backup_data = {
           ],
           [
             16,
-            "Draining Kiss"
+            "Charm"
           ],
           [
             18,
-            "Encore"
+            "Draining Kiss"
           ],
           [
             21,
@@ -103895,11 +103023,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Poison Sting"
-          ],
-          [
-            1,
-            "Smokescreen"
+            "Sludge"
           ],
           [
             8,
@@ -103911,7 +103035,7 @@ backup_data = {
           ],
           [
             15,
-            "Spike Cannon"
+            "Beat Up"
           ],
           [
             17,
@@ -103919,11 +103043,11 @@ backup_data = {
           ],
           [
             20,
-            "Poison Fang"
+            "Poison Jab"
           ],
           [
             24,
-            "Beat Up"
+            "Fling"
           ],
           [
             27,
@@ -103946,32 +103070,28 @@ backup_data = {
             "Swallow"
           ],
           [
-            36,
-            "Spit Up"
-          ],
-          [
             39,
             "Double Slap"
           ],
           [
-            43,
-            "Hammer Arm"
+            42,
+            "Explosion"
           ],
           [
             45,
-            "Cross Poison"
+            "Hammer Arm"
           ],
           [
             48,
+            "Wrap"
+          ],
+          [
+            52,
             "Fling"
           ],
           [
-            51,
-            "Heavy Slam"
-          ],
-          [
             55,
-            "Curse"
+            "Heavy Slam"
           ]
         ],
         "tms": [
@@ -104077,10 +103197,6 @@ backup_data = {
             "Rollout"
           ],
           [
-            1,
-            "Smokescreen"
-          ],
-          [
             8,
             "Poison Gas"
           ],
@@ -104090,7 +103206,7 @@ backup_data = {
           ],
           [
             15,
-            "Spike Cannon"
+            "Beat Up"
           ],
           [
             17,
@@ -104098,11 +103214,11 @@ backup_data = {
           ],
           [
             20,
-            "Poison Fang"
+            "Poison Jab"
           ],
           [
             24,
-            "Beat Up"
+            "Fling"
           ],
           [
             27,
@@ -104125,39 +103241,31 @@ backup_data = {
             "Swallow"
           ],
           [
-            36,
-            "Spit Up"
-          ],
-          [
             39,
             "Double Slap"
           ],
           [
-            43,
-            "Hammer Arm"
+            42,
+            "Explosion"
           ],
           [
             45,
-            "Cross Poison"
+            "Hammer Arm"
           ],
           [
             48,
-            "Fling"
-          ],
-          [
-            51,
-            "Heavy Slam"
-          ],
-          [
-            55,
-            "Curse"
-          ],
-          [
-            60,
             "Wrap"
           ],
           [
-            65,
+            52,
+            "Fling"
+          ],
+          [
+            55,
+            "Heavy Slam"
+          ],
+          [
+            60,
             "Gunk Shot"
           ]
         ],
@@ -104305,7 +103413,7 @@ backup_data = {
           ],
           [
             38,
-            "Fake Out"
+            "Play Rough"
           ],
           [
             41,
@@ -106561,7 +105669,7 @@ backup_data = {
           ],
           [
             37,
-            "Refresh"
+            "Mist"
           ],
           [
             40,
@@ -106746,7 +105854,7 @@ backup_data = {
           ],
           [
             37,
-            "Refresh"
+            "Mist"
           ],
           [
             40,
@@ -108117,7 +107225,7 @@ backup_data = {
           ],
           [
             12,
-            "Hex"
+            "Night Shade"
           ],
           [
             15,
@@ -108278,7 +107386,7 @@ backup_data = {
           ],
           [
             12,
-            "Hex"
+            "Night Shade"
           ],
           [
             15,
@@ -108483,11 +107591,11 @@ backup_data = {
           ],
           [
             43,
-            "Sleep Talk"
+            "Rest"
           ],
           [
             43,
-            "Rest"
+            "Sleep Talk"
           ],
           [
             45,
@@ -108640,7 +107748,7 @@ backup_data = {
           ],
           [
             23,
-            "Sucker Punch"
+            "Signal Beam"
           ],
           [
             27,
@@ -108797,7 +107905,7 @@ backup_data = {
           ],
           [
             15,
-            "Mega Drain"
+            "Leech Life"
           ],
           [
             17,
@@ -109707,7 +108815,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Thunder Shock"
+            "Spark"
           ],
           [
             1,
@@ -109837,7 +108945,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Thunder Shock"
+            "Spark"
           ],
           [
             1,
@@ -109853,19 +108961,11 @@ backup_data = {
           ],
           [
             18,
-            "Spark"
-          ],
-          [
-            18,
-            "Poison Tail"
-          ],
-          [
-            18,
-            "Mega Drain"
+            "Draining Kiss"
           ],
           [
             20,
-            "Thunder Wave"
+            "Super Fang"
           ],
           [
             24,
@@ -109884,20 +108984,16 @@ backup_data = {
             "Super Fang"
           ],
           [
-            35,
+            36,
             "Gastro Acid"
           ],
           [
-            38,
-            "Bind"
-          ],
-          [
-            41,
+            40,
             "Parabolic Zap"
           ],
           [
-            45,
-            "Psychic Fangs"
+            44,
+            "Wrap"
           ],
           [
             47,
@@ -109912,11 +109008,7 @@ backup_data = {
             "Wild Charge"
           ],
           [
-            58,
-            "Toxic"
-          ],
-          [
-            62,
+            56,
             "Close Combat"
           ]
         ],
@@ -110056,19 +109148,11 @@ backup_data = {
           ],
           [
             18,
-            "Spark"
-          ],
-          [
-            18,
-            "Poison Tail"
-          ],
-          [
-            18,
-            "Mega Drain"
+            "Draining Kiss"
           ],
           [
             20,
-            "Thunder Wave"
+            "Super Fang"
           ],
           [
             24,
@@ -110087,20 +109171,16 @@ backup_data = {
             "Super Fang"
           ],
           [
-            35,
+            36,
             "Gastro Acid"
           ],
           [
-            38,
-            "Bind"
-          ],
-          [
-            41,
+            40,
             "Parabolic Zap"
           ],
           [
-            45,
-            "Psychic Fangs"
+            44,
+            "Wrap"
           ],
           [
             47,
@@ -110115,20 +109195,16 @@ backup_data = {
             "Wild Charge"
           ],
           [
-            58,
-            "Toxic"
-          ],
-          [
-            62,
+            56,
             "Close Combat"
           ],
           [
             66,
-            "Gunk Shot"
+            "Poison Tail"
           ],
           [
             70,
-            "Wrap"
+            "Sludge Wave"
           ],
           [
             75,
@@ -117354,7 +116430,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Disarming Voice"
+            "Echoed Voice"
           ],
           [
             6,
@@ -117838,6 +116914,18 @@ backup_data = {
           [
             1,
             "Wild Charge"
+          ],
+          [
+            1,
+            "Rock Blast"
+          ],
+          [
+            1,
+            "Barrage"
+          ],
+          [
+            5,
+            "Stomp"
           ],
           [
             5,
@@ -120398,7 +119486,7 @@ backup_data = {
           ],
           [
             29,
-            "Gyro Ball"
+            "Recycle"
           ],
           [
             31,
@@ -120418,7 +119506,7 @@ backup_data = {
           ],
           [
             45,
-            "Metal Sound"
+            "Rage Powder"
           ],
           [
             50,
