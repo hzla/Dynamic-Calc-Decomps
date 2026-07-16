@@ -24,6 +24,7 @@ function isLocalStorageFlagEnabled(flagName) {
 function calculateSMSSSV(gen, attacker, defender, move, field) {
     var _a;
     var title = typeof TITLE === "string" ? TITLE : "";
+    (0, util_2.applyBeatUpTitleOverride)(move, title);
     if (shouldUseVanillaGen789(title) &&
         typeof vanilla_gen789_1.calculateSMSSSVVanilla === "function") {
         return vanilla_gen789_1.calculateSMSSSVVanilla(gen, attacker, defender, move, field);

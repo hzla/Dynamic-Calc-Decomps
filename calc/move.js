@@ -82,6 +82,7 @@ var Move = (function () {
             }
             this.timesUsedWithMetronome = options.timesUsedWithMetronome;
         }
+        this.listedHits = this.hits;
         if (this.beatUpParty && data.name === 'Beat Up') {
             this.hits = this.beatUpParty.length;
         }
@@ -151,7 +152,7 @@ var Move = (function () {
             useZ: this.useZ,
             useMax: this.useMax,
             isCrit: this.isCrit,
-            hits: this.hits,
+            hits: this.originalName === 'Beat Up' ? this.listedHits : this.hits,
             timesUsed: this.timesUsed,
             timesUsedWithMetronome: this.timesUsedWithMetronome,
             beatUpParty: this.beatUpParty,

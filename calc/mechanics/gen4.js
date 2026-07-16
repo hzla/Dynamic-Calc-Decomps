@@ -34,10 +34,7 @@ var romhack_helpers_1 = require("./romhacks/helpers");
 function calculateDPP(gen, attacker, defender, move, field) {
     var title = typeof TITLE === "string" ? TITLE : "";
     var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
-    if (title === "Platinum Kaizo" && move.named('Beat Up')) {
-        move.beatUpParty = undefined;
-        move.hits = 1;
-    }
+    (0, util_1.applyBeatUpTitleOverride)(move, title);
     var ctx = {
         gen: gen,
         attacker: attacker,

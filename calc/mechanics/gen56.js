@@ -15,6 +15,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var title = typeof TITLE === "string" ? TITLE : "";
     var sourceId = typeof params !== "undefined" && params && typeof params.get === "function" ? params.get("data") : "";
     var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
+    (0, util_2.applyBeatUpTitleOverride)(move, title);
     var ctx = {
         gen: gen,
         attacker: attacker,

@@ -605,6 +605,11 @@ function configureBeatUpMove(move, party) {
 		move.hits = 1;
 		return;
 	}
+	if (typeof TITLE === "string" && (TITLE.includes("Emerald Imperium") || TITLE.includes("Radical Red"))) {
+		move.beatUpParty = undefined;
+		move.hits = Math.max(1, Number(move.listedHits) || Number(move.hits) || 1);
+		return;
+	}
 	move.beatUpParty = party.slice(0, 6).map(function(member) { return Object.assign({}, member); });
 	move.hits = move.beatUpParty.length;
 }

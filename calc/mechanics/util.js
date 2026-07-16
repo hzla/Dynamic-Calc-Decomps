@@ -893,6 +893,24 @@ function calculateLegacyBeatUpDamage(gen, move, defender) {
 }
 exports.calculateLegacyBeatUpDamage = calculateLegacyBeatUpDamage;
 
+function applyBeatUpTitleOverride(move, title) {
+    var isBeatUp = move && (typeof move.named === 'function'
+        ? move.named('Beat Up')
+        : move.name === 'Beat Up' || move.originalName === 'Beat Up');
+    if (!isBeatUp || typeof title !== 'string') {
+        return false;
+    }
+    var usesListedMoveData = title.includes('Emerald Imperium') || title.includes('Radical Red');
+    var isPlatinumKaizo = title === 'Platinum Kaizo';
+    if (!usesListedMoveData && !isPlatinumKaizo) {
+        return false;
+    }
+    move.beatUpParty = undefined;
+    move.hits = isPlatinumKaizo ? 1 : Math.max(1, Number(move.listedHits) || Number(move.hits) || 1);
+    return true;
+}
+exports.applyBeatUpTitleOverride = applyBeatUpTitleOverride;
+
 function handleFixedDamageMoves(attacker, move, defender=null) {
     if (move.named('Seismic Toss', 'Night Shade')) {
         return attacker.level;

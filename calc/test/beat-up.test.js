@@ -143,6 +143,42 @@ describe("Beat Up", function () {
         });
     });
 
+    ["Emerald Imperium 1.3", "Radical Red 4.1 Hardcore"].forEach(function (title) {
+        test("uses listed base power and multihit data for the " + title + " family", function () {
+            withGen(8, function (gen) {
+                global.TITLE = title;
+                var overrides = { basePower: 25, category: "Physical", type: "Dark", multihit: [2, 5] };
+                var beatUp = new calc.Move(gen, "Beat Up", {
+                    beatUpParty: PARTY,
+                    hits: 4,
+                    overrides: overrides
+                });
+                var regularMove = new calc.Move(gen, "Tackle", {
+                    hits: 4,
+                    overrides: overrides
+                });
+                var attacker = new calc.Pokemon(gen, "Umbreon", {
+                    level: 50,
+                    item: "None",
+                    moves: [beatUp]
+                });
+                var defender = new calc.Pokemon(gen, "Gengar", {
+                    level: 50,
+                    item: "None",
+                    moves: [new calc.Move(gen, "Tackle")]
+                });
+                var field = new calc.Field();
+                var beatUpResult = calc.calculate(gen, attacker, defender, beatUp, field);
+                var regularResult = calc.calculate(gen, attacker, defender, regularMove, field);
+
+                expect(beatUpResult.move.hits).toBe(4);
+                expect(beatUpResult.move.beatUpParty).toBeUndefined();
+                expect(beatUpResult.damage).toHaveLength(4);
+                expect(beatUpResult.damage).toEqual(regularResult.damage);
+            });
+        });
+    });
+
     test("labels every roll group with its contributing party member", function () {
         var source = fs.readFileSync(path.join(__dirname, "../../js/index_randoms_controls.js"), "utf8");
         var start = source.indexOf("function getBeatUpHitLabels");

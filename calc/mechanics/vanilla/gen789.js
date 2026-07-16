@@ -9,6 +9,7 @@ var romhacks_1 = require("../romhacks");
 var romhack_helpers_1 = require("../romhacks/helpers");
 function calculateSMSSSVVanilla(gen, attacker, defender, move, field) {
         var title = typeof TITLE === "string" ? TITLE : "";
+        (0, util_2.applyBeatUpTitleOverride)(move, title);
         var profile = (0, romhacks_1.getMechanicsProfile)(title, gen.num);
         var ctx = {
             gen: gen,

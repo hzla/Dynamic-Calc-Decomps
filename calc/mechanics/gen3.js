@@ -52,6 +52,7 @@ function applyMoveCategoryADV(move) {
 }
 function calculateADV(gen, attacker, defender, move, field) {
     var _a;
+    (0, util_1.applyBeatUpTitleOverride)(move, typeof TITLE === "string" ? TITLE : "");
     (0, util_1.checkAirLock)(attacker, field);
     (0, util_1.checkAirLock)(defender, field);
     (0, util_1.checkForecast)(attacker, field.weather);
