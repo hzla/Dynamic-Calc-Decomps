@@ -2917,7 +2917,7 @@ backup_data = {
       "e_id": 71,
       "secondaries": true
     },
-    "Featherdance": {
+    "Feather Dance": {
       "type": "Flying",
       "basePower": 0,
       "category": "Status",
@@ -7238,7 +7238,7 @@ backup_data = {
           ],
           [
             16,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             20,
@@ -7356,7 +7356,7 @@ backup_data = {
           ],
           [
             16,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             20,
@@ -7474,7 +7474,7 @@ backup_data = {
           ],
           [
             16,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             20,
@@ -36123,7 +36123,7 @@ backup_data = {
           ],
           [
             1,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             1,
@@ -36266,7 +36266,7 @@ backup_data = {
           ],
           [
             1,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             1,
@@ -36416,7 +36416,7 @@ backup_data = {
           ],
           [
             1,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             1,
@@ -38617,7 +38617,7 @@ backup_data = {
           ],
           [
             1,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             8,
@@ -38735,7 +38735,7 @@ backup_data = {
           ],
           [
             1,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             8,
@@ -38854,7 +38854,7 @@ backup_data = {
           ],
           [
             20,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             23,
@@ -38970,7 +38970,7 @@ backup_data = {
           ],
           [
             20,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             23,
@@ -52830,7 +52830,7 @@ backup_data = {
           ],
           [
             10,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             13,
@@ -52956,7 +52956,7 @@ backup_data = {
           ],
           [
             10,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             13,
@@ -53087,7 +53087,7 @@ backup_data = {
           ],
           [
             10,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             13,
@@ -53233,7 +53233,7 @@ backup_data = {
           ],
           [
             30,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             34,
@@ -53346,7 +53346,7 @@ backup_data = {
           ],
           [
             30,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             34,
@@ -53460,7 +53460,7 @@ backup_data = {
           ],
           [
             30,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             34,
@@ -58538,7 +58538,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             1,
@@ -68381,7 +68381,7 @@ backup_data = {
           ],
           [
             16,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             20,
@@ -68489,7 +68489,7 @@ backup_data = {
           ],
           [
             16,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             20,
@@ -68598,7 +68598,7 @@ backup_data = {
           ],
           [
             16,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             20,
@@ -75922,7 +75922,7 @@ backup_data = {
           ],
           [
             20,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             23,
@@ -76040,7 +76040,7 @@ backup_data = {
           ],
           [
             20,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             23,
@@ -76699,7 +76699,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             1,
@@ -81664,7 +81664,7 @@ backup_data = {
           ],
           [
             32,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             38,
@@ -81790,7 +81790,7 @@ backup_data = {
           ],
           [
             32,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             38,
@@ -81909,7 +81909,7 @@ backup_data = {
           ],
           [
             32,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             38,
@@ -82032,7 +82032,7 @@ backup_data = {
           ],
           [
             32,
-            "Featherdance"
+            "Feather Dance"
           ],
           [
             38,
@@ -88732,7 +88732,7 @@ backup_data = {
           "Air Cutter",
           "Bubble Beam",
           "Icy Wind",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 2,
         "ability": "No Guard",
@@ -88764,7 +88764,7 @@ backup_data = {
         "moves": [
           "Helping Hand",
           "Icy Wind",
-          "Featherdance",
+          "Feather Dance",
           "Air Cutter"
         ],
         "sub_index": 1,
@@ -88797,7 +88797,7 @@ backup_data = {
         "moves": [
           "Helping Hand",
           "Icy Wind",
-          "Featherdance",
+          "Feather Dance",
           "Air Cutter"
         ],
         "sub_index": 0,
@@ -88864,7 +88864,7 @@ backup_data = {
           "Air Slash",
           "Helping Hand",
           "Icy Wind",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 0,
         "ability": "No Guard",
@@ -88897,7 +88897,7 @@ backup_data = {
           "Air Slash",
           "Helping Hand",
           "Icy Wind",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 1,
         "ability": "No Guard",
@@ -88930,7 +88930,7 @@ backup_data = {
           "Air Slash",
           "Helping Hand",
           "Icy Wind",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 0,
         "ability": "No Guard",
@@ -88960,7 +88960,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Naive",
         "moves": [
-          "Featherdance",
+          "Feather Dance",
           "Air Cutter",
           "Bubble Beam",
           "Gust"
@@ -89027,7 +89027,7 @@ backup_data = {
         "nature": "Rash",
         "moves": [
           "Icy Wind",
-          "Featherdance",
+          "Feather Dance",
           "Air Cutter",
           "Bubble Beam"
         ],
@@ -99678,7 +99678,7 @@ backup_data = {
           "Hydro Pump",
           "Hurricane",
           "Blizzard",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 4,
         "ability": "No Guard",
@@ -101918,7 +101918,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Serious",
         "moves": [
-          "Featherdance",
+          "Feather Dance",
           "Wing Attack",
           "Taunt",
           "Growl"
@@ -106357,7 +106357,7 @@ backup_data = {
         "moves": [
           "Wake-Up Slap",
           "Air Cutter",
-          "Featherdance",
+          "Feather Dance",
           "Steel Wing"
         ],
         "sub_index": 0,
@@ -106390,7 +106390,7 @@ backup_data = {
         "moves": [
           "Wake-Up Slap",
           "Air Cutter",
-          "Featherdance",
+          "Feather Dance",
           "Steel Wing"
         ],
         "sub_index": 0,
@@ -106423,7 +106423,7 @@ backup_data = {
         "moves": [
           "Vacuum Wave",
           "Air Cutter",
-          "Featherdance",
+          "Feather Dance",
           "Steel Wing"
         ],
         "sub_index": 0,
@@ -107002,7 +107002,7 @@ backup_data = {
         "moves": [
           "Feint Attack",
           "Aerial Ace",
-          "Featherdance",
+          "Feather Dance",
           "Steel Wing"
         ],
         "sub_index": 2,
@@ -116559,7 +116559,7 @@ backup_data = {
         "nature": "Relaxed",
         "moves": [
           "Taunt",
-          "Featherdance",
+          "Feather Dance",
           "Wing Attack",
           "Taunt"
         ],
@@ -116664,7 +116664,7 @@ backup_data = {
           "Rock Smash",
           "Aerial Ace",
           "U-turn",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 2,
         "ability": "Intimidate",
@@ -116834,7 +116834,7 @@ backup_data = {
         "moves": [
           "Bite",
           "Peck",
-          "Featherdance",
+          "Feather Dance",
           "Steel Wing"
         ],
         "sub_index": 2,
@@ -124009,7 +124009,7 @@ backup_data = {
         "gender": "Male",
         "nature": "Naive",
         "moves": [
-          "Featherdance",
+          "Feather Dance",
           "Taunt",
           "Aerial Ace",
           "Double Kick"
@@ -142995,7 +142995,7 @@ backup_data = {
           "Vacuum Wave",
           "Gust",
           "Sand Attack",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 0,
         "ability": "Quick Feet",
@@ -143028,7 +143028,7 @@ backup_data = {
           "Vacuum Wave",
           "Gust",
           "Sand Attack",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 0,
         "ability": "Quick Feet",
@@ -143061,7 +143061,7 @@ backup_data = {
           "Vacuum Wave",
           "Gust",
           "Sand Attack",
-          "Featherdance"
+          "Feather Dance"
         ],
         "sub_index": 0,
         "ability": "Quick Feet",
@@ -146573,7 +146573,7 @@ backup_data = {
         "moves": [
           "Focus Blast",
           "Hurricane",
-          "Featherdance",
+          "Feather Dance",
           "Thunder"
         ],
         "sub_index": 3,
