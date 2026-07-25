@@ -468,13 +468,13 @@ function getBlankDevConfigDefaults() {
         invertTypes: settings.invertTypes,
         customCascadeSwitchAI: settings.customCascadeSwitchAI,
         customCascadeSwitchAIG4: settings.customCascadeSwitchAIG4,
-        readIncludes: false,
+        readIncludes: getBool('readIncludes'),
         hasMastersheet: false,
         showDex: false,
         showAI: false,
-        saveExpansion: false,
-        mechanics: "vanilla",
-        baseGame: "",
+        saveExpansion: getBool('saveExpansion'),
+        mechanics: params.get('mechanics') === "hge" ? "hge" : "vanilla",
+        baseGame: String(params.get('baseGame') || ""),
         titleOverride: "",
         platinumReduxTypeChart: isPlatinumReduxTypeChartEnabled()
     };
@@ -861,6 +861,14 @@ function applyBlankDevConfig(config) {
     ...defaults,
     ...(config || {})
   };
+
+  if (mergedConfig.mechanics === "hge") {
+    // HGE saves always use HGSS offsets, expanded boxes, and expanded ID tables.
+    // Keep these coupled even when an older stored bridge config omitted a flag.
+    mergedConfig.baseGame = "HGSS";
+    mergedConfig.readIncludes = true;
+    mergedConfig.saveExpansion = true;
+  }
 
   activeBlankDevConfig = mergedConfig;
 
@@ -1457,8 +1465,9 @@ function toggleGen3SwitchGuide() {
 }
 
 INC_EM = false
-if (SOURCES[params.get('data')]) {
-    TITLE = SOURCES[params.get('data')] || "NONE"
+const requestedDataSourceId = params.get('data')
+if (!isBlankDevMode && requestedDataSourceId && SOURCES[requestedDataSourceId]) {
+    TITLE = SOURCES[requestedDataSourceId] || "NONE"
     syncGameScopedSwitchSettings(TITLE);
 
     setGameSettings(TITLE)
@@ -1612,7 +1621,7 @@ function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
-  script.src= './js/shared_controls.js?9d2ed17d';
+  script.src= './js/shared_controls.js?e010e787';
   head.appendChild(script);
 
   memoizedCalc = deepMemoize(calculateAllMoves);
@@ -2131,15 +2140,47 @@ function loadDataSource(data) {
       loadMovesData()
     }
 
-    if (settings.readIncludes) {
-      includes = data["includes"]
-      sav_pok_names = includes["poks"]
-      sav_move_names = includes["moves"] 
-      sav_item_names = includes["items"]
-      sav_pok_growths = includes["growths"]
-      sav_abilities = includes["abilities"]
-      if (typeof window.extendSavArraysToGen67 === "function") {
-        window.extendSavArraysToGen67()
+    if (settings.readIncludes || mechanics == "hge") {
+      const embeddedIncludes = data && data["includes"]
+      const requiredIncludeKeys = ["poks", "moves", "items", "growths", "abilities"]
+      const hasCompleteEmbeddedIncludes = embeddedIncludes && requiredIncludeKeys.every(function(key) {
+        return Array.isArray(embeddedIncludes[key]) && embeddedIncludes[key].length > 0
+      })
+      const hgeDefaultIncludes = typeof window !== "undefined"
+        ? window.HGE_DEFAULT_INCLUDES
+        : typeof HGE_DEFAULT_INCLUDES !== "undefined"
+          ? HGE_DEFAULT_INCLUDES
+          : null
+      const includeSource = hasCompleteEmbeddedIncludes
+        ? embeddedIncludes
+        : mechanics == "hge" && hgeDefaultIncludes
+          ? hgeDefaultIncludes
+          : null
+
+      if (includeSource) {
+        if (mechanics == "hge") {
+          console.log(
+            "[HGE Save] Using " + (hasCompleteEmbeddedIncludes ? "backup" : "shared fallback") + " include tables."
+          )
+        }
+        // Save readers extend some tables in place, so never mutate shared defaults
+        // or the backup payload supplied by Ddex.
+        includes = {}
+        requiredIncludeKeys.forEach(function(key) {
+          includes[key] = includeSource[key].slice()
+        })
+        sav_pok_names = includes["poks"]
+        sav_move_names = includes["moves"]
+        sav_item_names = includes["items"]
+        sav_pok_growths = includes["growths"]
+        sav_abilities = includes["abilities"]
+        window.HGE_SAVE_INCLUDES_READY = mechanics == "hge"
+        window.HGE_SAVE_INCLUDE_SOURCE = hasCompleteEmbeddedIncludes ? "backup" : "shared-fallback"
+        if (mechanics != "hge" && typeof window.extendSavArraysToGen67 === "function") {
+          window.extendSavArraysToGen67()
+        }
+      } else {
+        console.warn("Save include tables were requested but are unavailable.")
       }
     }
     $('#save-pok').show()
@@ -2209,6 +2250,13 @@ function loadDataSource(data) {
     if (localStorage.customsets) {
         console.log("loading box")
         customSets = JSON.parse(localStorage.customsets);
+        if (
+            typeof pruneUnavailableHgeMegaCustomSets === "function" &&
+            pruneUnavailableHgeMegaCustomSets(customSets)
+        ) {
+            localStorage.customsets = JSON.stringify(customSets)
+            console.log("[HGE] Removed persisted Mega sets that are not present in the loaded ROM data.")
+        }
         updateDex(customSets)   
         get_box()
         displayParty()

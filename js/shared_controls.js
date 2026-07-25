@@ -680,6 +680,10 @@ function getStatusChipDamage(poke, maxHp) {
 		return createChipDamageEntry("burn", "Burn damage", Math.floor(maxHp / divisor));
 	}
 
+	if (status === "Frozen" && titleIncludesEmeraldImperium()) {
+		return createChipDamageEntry("frostbite", "Frostbite damage", Math.floor(maxHp / 16));
+	}
+
 	return null;
 }
 
