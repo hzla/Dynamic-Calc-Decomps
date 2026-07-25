@@ -6,6 +6,67 @@ const GEN5_BOX_SLOT_COUNT = GEN5_BOXES_TO_IMPORT * DS_SAVE_SLOTS_PER_BOX
 
 var invalidSavSpeciesDebugCount = 0
 
+function isHgeSaveReaderMode() {
+    return (
+        (typeof mechanics !== "undefined" && mechanics == "hge")
+        || (
+            typeof baseGame !== "undefined"
+            && baseGame == "HGSS"
+            && typeof save_expansion !== "undefined"
+            && save_expansion
+        )
+    )
+}
+
+function getHgssBoxDataBaseOffset() {
+    return (
+        isHgeSaveReaderMode()
+        || (typeof save_expansion !== "undefined" && save_expansion)
+    ) ? 0x10000 : 0x0F700
+}
+
+function configureHgssSaveReaderOffsets() {
+    partyCountOffset = 0x94
+    smallBlockSize = isHgeSaveReaderMode() ? 0xFFA0 : 0xF628
+    boxDataOffset = getHgssBoxDataBaseOffset()
+    bigBlockStart = boxDataOffset
+    bigBlockSize = 0x12310
+    footerSize = 16
+    partyPokSize = 236
+}
+
+function ensureHgeSaveIncludeTables() {
+    if (!isHgeSaveReaderMode()) {
+        return false
+    }
+    if (typeof window !== "undefined" && window.HGE_SAVE_INCLUDES_READY) {
+        return true
+    }
+
+    var hgeIncludes = typeof window !== "undefined" ? window.HGE_DEFAULT_INCLUDES : null
+    var requiredKeys = ["poks", "moves", "items", "growths", "abilities"]
+    if (!hgeIncludes || !requiredKeys.every(function(key) {
+        return Array.isArray(hgeIncludes[key]) && hgeIncludes[key].length > 0
+    })) {
+        console.warn("[HGE Save] Shared include tables are unavailable.")
+        return false
+    }
+
+    includes = {}
+    requiredKeys.forEach(function(key) {
+        includes[key] = hgeIncludes[key].slice()
+    })
+    sav_pok_names = includes.poks
+    sav_move_names = includes.moves
+    sav_item_names = includes.items
+    sav_pok_growths = includes.growths
+    sav_abilities = includes.abilities
+    window.HGE_SAVE_INCLUDES_READY = true
+    window.HGE_SAVE_INCLUDE_SOURCE = "shared-fallback-at-save-load"
+    console.log("[HGE Save] Installed shared fallback include tables before parsing the save.")
+    return true
+}
+
 function isEmptyOrInvalidDsSaveCounter(value) {
     return value === 0xFFFFFFFF || value === 0x00000000
 }
@@ -55,7 +116,7 @@ $(document).ready(function() {
         window.baseGame == "Pt" ||
         window.baseGame == "HGSS" ||
         window.baseGame == "BW" ||
-        (!hasConfiguredBaseGame && (gameGen == 4 || gameGen == 5 || mechanics == "hge"))
+        (!hasConfiguredBaseGame && (gameGen == 4 || gameGen == 5 || isHgeSaveReaderMode()))
     );
 
     if (shouldUseDsSaveReader) {
@@ -116,22 +177,7 @@ $(document).ready(function() {
             footerSize = 20
             partyPokSize = 236
         } else if (baseGame == "HGSS") {
-            partyCountOffset = 0x94
-            smallBlockSize = 0xF628
-            boxDataOffset = 0x0f700
-
-            if (mechanics == "hge") {
-                smallBlockSize = 0xFFA0
-            }
-
-            if (save_expansion) {
-                boxDataOffset = 0x10000
-            }
-
-            bigBlockStart = boxDataOffset
-            bigBlockSize = 0x12310
-            footerSize = 16
-            partyPokSize = 236
+            configureHgssSaveReaderOffsets()
         } else if (baseGame == "BW") {
             partyCountOffset = 0x18e00 + 4
             boxDataOffset = 0x400
@@ -152,9 +198,19 @@ $(document).ready(function() {
         battleStatSize = (partyPokSize - 136) / 2
 
         reader.onload = function(e) {
+            // Blank-dev/Ddex configuration finishes after some document-ready
+            // handlers. Resolve HGSS/HGE offsets at file-load time so the reader
+            // cannot retain the earlier vanilla defaults.
+            if (baseGame == "HGSS") {
+                configureHgssSaveReaderOffsets()
+                battleStatSize = (partyPokSize - 136) / 2
+            }
+
             // Extract the processing logic into a separate function for retry
             function processSaveFile(forceBlock2 = false) {
                 try {
+                    ensureHgeSaveIncludeTables()
+
                     // Convert the binary string to ArrayBuffer for easier access
                     const binaryData = e.target.result;
                     const buffer = new ArrayBuffer(binaryData.length);
@@ -205,7 +261,6 @@ $(document).ready(function() {
                         } else {
                             console.log("now reading box from block 1")
                         }
-
                         var trainerIdOffset = smallBlockStart + (baseGame == "HGSS" ? 0x74 : 0x78)
                         var tid = view[trainerIdOffset] | (view[trainerIdOffset + 1] << 8)
                         var sid = view[trainerIdOffset + 2] | (view[trainerIdOffset + 3] << 8)
@@ -293,22 +348,15 @@ $(document).ready(function() {
                        }
                        offset += CHUNK_SIZE                 
                     }
-                    if (typeof window.applyImportedSnapshot === 'function') {
-                        window.applyImportedSnapshot({
-                            showdownImport: showdownImport,
-                            deadMons: deadMons,
-                            source: 'save-file',
-                            replaceDeadMons: true,
-                            trainerId: importedTrainerId,
-                            secretId: importedSecretId,
-                            trainerIdSecret: importedTrainerIdSecret,
-                        })
-                    } else {
-                        $('.import-team-text').val(showdownImport)
+                    return {
+                        showdownImport: showdownImport,
+                        deadMons: deadMons,
+                        source: 'save-file',
+                        replaceDeadMons: true,
+                        trainerId: importedTrainerId,
+                        secretId: importedSecretId,
+                        trainerIdSecret: importedTrainerIdSecret,
                     }
-                    
-                    // If we get here, processing was successful
-                    return true;
                     
                 } catch (error) {
                     console.log('Processing failed:', error.message);
@@ -317,9 +365,9 @@ $(document).ready(function() {
             }
 
             runWithImportPartyPreviewPolicy(function() {
-                // Try processing the save file
+                var importedSnapshot
                 try {
-                    processSaveFile(forceBlock2);
+                    importedSnapshot = processSaveFile(forceBlock2);
                 } catch (error) {
                     console.log('First attempt failed, retrying with forceBlock2=true');
                     
@@ -333,16 +381,23 @@ $(document).ready(function() {
                         boxDataOffset = 0xCF30
                         bigBlockStart = boxDataOffset - 4
                     } else if (baseGame == "HGSS") {
-                        partyCountOffset = 0x94
-                        boxDataOffset = 0x0f700
-                        bigBlockStart = boxDataOffset
+                        configureHgssSaveReaderOffsets()
                     } else if (baseGame == "BW") {
                         partyCountOffset = 0x18e00 + 4
                         boxDataOffset = 0x400
                     }
                     
-                    processSaveFile(true); // Retry with forceBlock2=true
+                    importedSnapshot = processSaveFile(true); // Retry with forceBlock2=true
                     console.log('Retry with forceBlock2=true succeeded');
+                }
+
+                // Import errors are unrelated to DS block selection. Keeping this
+                // outside the retry prevents a downstream set error from switching
+                // an HGE save back to vanilla HGSS offsets and decrypting garbage.
+                if (typeof window.applyImportedSnapshot === 'function') {
+                    window.applyImportedSnapshot(importedSnapshot)
+                } else {
+                    $('.import-team-text').val(importedSnapshot.showdownImport)
                 }
             });
         };
@@ -1141,6 +1196,9 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
 
     var item_name = sav_item_names[decryptedData[mon_data_offset + 1]]
+    if (typeof item_name !== "string" || !item_name.trim()) {
+        item_name = "None"
+    }
 
     var hp_ev = decryptedData[mon_data_offset + 8] & 0xFF
     var def_ev = decryptedData[mon_data_offset + 9] & 0xFF
@@ -1180,10 +1238,10 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
     
 
-    if (mechanics == "hge") {
-        var altFormId = (((decryptedData[move_data_offset + 12] & 0xFF) >> 3) & 0x1F) - 1
-        if (altFormId > 0 && pokedex[mon_name] && pokedex[mon_name]["otherFormes"]) {
-            mon_name = pokedex[mon_name]["otherFormes"][altFormId]
+    if (isHgeSaveReaderMode()) {
+        var resolvedFormName = resolveHgeSaveFormName(mon_name, decryptedData[move_data_offset + 12])
+        if (resolvedFormName != mon_name) {
+            mon_name = resolvedFormName
             if (pokedex[nn]) {
                 nn = mon_name
             }
@@ -1946,12 +2004,73 @@ function getStat(mods, stat, base, iv, ev, level) {
     }
 };
 
+function resolveHgeSaveFormName(monName, genderFormWord) {
+    if (
+        !isHgeSaveReaderMode()
+        || !Number.isInteger(genderFormWord)
+        || typeof pokedex == "undefined"
+        || !pokedex[monName]
+        || !Array.isArray(pokedex[monName]["otherFormes"])
+    ) {
+        return monName
+    }
+
+    // HGE stores 0 for the base form and 1 for the first entry in otherFormes.
+    // The previous `> 0` check accidentally skipped that first alternate form.
+    var formIndex = (((genderFormWord & 0xFF) >> 3) & 0x1F) - 1
+    if (formIndex < 0) {
+        return monName
+    }
+    var candidateFormName = pokedex[monName]["otherFormes"][formIndex]
+    // hg-engine's PokeOtherFormMonsNoGet keeps the base species unless its
+    // species/form pair exists in PokeFormDataTbl. The ROM species catalog is
+    // our exported equivalent of that check; do not let unrelated global calc
+    // formes (for example Torterra-Mega) reinterpret an otherwise ignored bit.
+    if (!candidateFormName || !hasHgeRomSpecies(candidateFormName)) {
+        return monName
+    }
+    return candidateFormName
+}
+
+function hasHgeRomSpecies(speciesName) {
+    if (
+        !speciesName
+        || typeof backup_data == "undefined"
+        || !backup_data
+    ) {
+        return false
+    }
+
+    var speciesMaps = [backup_data.poks, backup_data.formatted_sets]
+    var speciesId = typeof cleanString == "function"
+        ? cleanString(speciesName)
+        : String(speciesName).replace(/[^a-zA-Z0-9]/g, "").toLowerCase()
+
+    for (var i = 0; i < speciesMaps.length; i++) {
+        var speciesMap = speciesMaps[i]
+        if (!speciesMap || typeof speciesMap != "object") {
+            continue
+        }
+        if (speciesMap[speciesName] || speciesMap[speciesId]) {
+            return true
+        }
+    }
+
+    return false
+}
+
 if (typeof module !== "undefined" && module.exports) {
     module.exports.__test = {
         resetParsedPokemonGlobalsForGen4Import,
         recordDsPartySlotMetadata,
         isWritableDsPartySlot,
         isDsSaveEggPokemon,
+        isHgeSaveReaderMode,
+        getHgssBoxDataBaseOffset,
+        configureHgssSaveReaderOffsets,
+        ensureHgeSaveIncludeTables,
+        hasHgeRomSpecies,
+        resolveHgeSaveFormName,
         parsePKM,
         encryptData,
     };

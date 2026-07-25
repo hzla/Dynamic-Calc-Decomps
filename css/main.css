@@ -3931,6 +3931,11 @@ table td {
     color: #f8f8f2;
 }
 
+.chip-damage--frostbite {
+    background-color: #8be9fd;
+    color: #101616;
+}
+
 .chip-damage--confusion {
     background-color: #bd93f9;
     color: #181818;

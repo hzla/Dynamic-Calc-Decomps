@@ -1274,15 +1274,60 @@ function hasBackupDataSpecies(speciesName) {
 		return false;
 	}
 
-	return Boolean(
-		(backup_data.poks && backup_data.poks[speciesName]) ||
-		(backup_data.formatted_sets && backup_data.formatted_sets[speciesName])
-	);
+	var speciesId = typeof cleanString === "function"
+		? cleanString(speciesName)
+		: String(speciesName).replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+	var speciesMaps = [backup_data.poks, backup_data.formatted_sets];
+
+	for (var i = 0; i < speciesMaps.length; i++) {
+		var speciesMap = speciesMaps[i];
+		if (speciesMap && (speciesMap[speciesName] || speciesMap[speciesId])) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+function pruneUnavailableHgeMegaCustomSets(customsets) {
+	if (
+		typeof mechanics === "undefined" ||
+		mechanics !== "hge" ||
+		typeof backup_data === "undefined" ||
+		!backup_data ||
+		(!backup_data.poks && !backup_data.formatted_sets) ||
+		!customsets
+	) {
+		return false;
+	}
+
+	var removedAny = false;
+	for (var speciesName in customsets) {
+		if (!isMegaSpeciesName(speciesName) || hasBackupDataSpecies(speciesName)) {
+			continue;
+		}
+
+		if (!customsets[speciesName] || !customsets[speciesName]["My Box"]) {
+			continue;
+		}
+
+		delete customsets[speciesName]["My Box"];
+		if (Object.keys(customsets[speciesName]).length === 0) {
+			delete customsets[speciesName];
+		}
+		removedAny = true;
+	}
+
+	return removedAny;
 }
 
 function shouldAutoImportMegaForme(megaSpeciesName) {
 	if (!megaSpeciesName) {
 		return false;
+	}
+
+	if (typeof mechanics !== "undefined" && mechanics === "hge") {
+		return hasBackupDataSpecies(megaSpeciesName);
 	}
 
 	if (typeof backup_data !== "undefined" && backup_data && (backup_data.poks || backup_data.formatted_sets)) {
@@ -1450,12 +1495,12 @@ function buildDerivedMegaSet(baseSetData, megaSpeciesName, baseSpeciesName) {
 	return megaSet;
 }
 
-function removeAutoImportedMega(customsets, megaSpeciesName) {
+function removeAutoImportedMega(customsets, megaSpeciesName, force) {
 	if (!customsets[megaSpeciesName] || !customsets[megaSpeciesName]["My Box"]) {
 		return;
 	}
 
-	if (customsets[megaSpeciesName]["My Box"].megaImportMode !== "auto") {
+	if (!force && customsets[megaSpeciesName]["My Box"].megaImportMode !== "auto") {
 		return;
 	}
 
@@ -1519,8 +1564,17 @@ function reconcileMegaImports(importedRows, customsets) {
 			var existingMegaSet = customsets[megaSpeciesName] && customsets[megaSpeciesName]["My Box"];
 
 			if (!eligibleMegaMap[megaSpeciesName]) {
-				if (existingMegaSet && existingMegaSet.megaImportMode === "auto" && existingMegaSet.megaBaseSpecies === baseSpeciesName) {
-					removeAutoImportedMega(customsets, megaSpeciesName);
+				var unavailableInHge = typeof mechanics !== "undefined" &&
+					mechanics === "hge" &&
+					!hasBackupDataSpecies(megaSpeciesName);
+				if (
+					existingMegaSet &&
+					(
+						unavailableInHge ||
+						(existingMegaSet.megaImportMode === "auto" && existingMegaSet.megaBaseSpecies === baseSpeciesName)
+					)
+				) {
+					removeAutoImportedMega(customsets, megaSpeciesName, unavailableInHge);
 				}
 				continue;
 			}

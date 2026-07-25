@@ -129,6 +129,7 @@ describe("Gen 4 save editor party slot bookkeeping", function () {
     global.settings = { devMode: false };
     global.blockOrders = [[0, 1, 2, 3]];
     global.mon_forms = {};
+    global.backup_data = undefined;
     global.pokedex = {};
     global.sav_pok_names = [];
     global.sav_pok_names[175] = "Togepi";
@@ -204,6 +205,79 @@ describe("Gen 4 save editor party slot bookkeeping", function () {
 
     expect(Array.from(chunk).some(function (byte) { return byte !== 0; })).toBe(true);
     expect(reader.parsePKM(chunk, false, 0x510)).toBe("");
+  });
+
+  test("resolves the first HGE alternate form instead of skipping form index zero", function () {
+    global.mechanics = "hge";
+    global.backup_data = {
+      poks: {
+        "Electrode-Hisui": {},
+        growlithehisui: {},
+      },
+    };
+    global.pokedex = {
+      Electrode: { otherFormes: ["Electrode-Hisui"] },
+      Growlithe: { otherFormes: ["Growlithe-Hisui"] },
+    };
+
+    expect(reader.resolveHgeSaveFormName("Electrode", 1 << 3)).toBe("Electrode-Hisui");
+    expect(reader.resolveHgeSaveFormName("Growlithe", 1 << 3)).toBe("Growlithe-Hisui");
+    expect(reader.resolveHgeSaveFormName("Electrode", 0)).toBe("Electrode");
+  });
+
+  test("ignores a nonzero form field when the HGE ROM does not define that form", function () {
+    global.mechanics = "hge";
+    global.backup_data = {
+      poks: {
+        Torterra: {},
+      },
+    };
+    global.pokedex = {
+      Torterra: { otherFormes: ["Torterra-Mega"] },
+    };
+
+    expect(reader.resolveHgeSaveFormName("Torterra", 1 << 3)).toBe("Torterra");
+  });
+
+  test("installs shared HGE include tables immediately before save parsing", function () {
+    var hgeIncludes = require("../../js/savereaders/save_constants/hge_includes.js");
+    global.window = {
+      HGE_DEFAULT_INCLUDES: hgeIncludes,
+      HGE_SAVE_INCLUDES_READY: false,
+    };
+    global.mechanics = "hge";
+    global.baseGame = "HGSS";
+    global.save_expansion = true;
+    global.sav_pok_names = ["", "Bulbasaur"];
+    global.sav_move_names = ["-----"];
+    global.sav_item_names = ["None"];
+    global.sav_pok_growths = [0];
+    global.sav_abilities = ["None"];
+
+    expect(reader.ensureHgeSaveIncludeTables()).toBe(true);
+    expect(global.sav_pok_names[646]).toBe("galvantula");
+    expect(global.sav_pok_names[873]).toBe("corviknight");
+    expect(global.window.HGE_SAVE_INCLUDE_SOURCE).toBe("shared-fallback-at-save-load");
+  });
+
+  test("keeps the expanded HGSS box offset when an HGE parse is retried", function () {
+    global.baseGame = "HGSS";
+    global.mechanics = "hge";
+    global.save_expansion = true;
+
+    expect(reader.getHgssBoxDataBaseOffset()).toBe(0x10000);
+    reader.configureHgssSaveReaderOffsets();
+    expect(global.partyCountOffset).toBe(0x94);
+    expect(global.smallBlockSize).toBe(0xFFA0);
+    expect(global.boxDataOffset).toBe(0x10000);
+    expect(global.bigBlockStart).toBe(0x10000);
+
+    global.mechanics = "vanilla";
+    global.save_expansion = false;
+    expect(reader.getHgssBoxDataBaseOffset()).toBe(0x0F700);
+    reader.configureHgssSaveReaderOffsets();
+    expect(global.smallBlockSize).toBe(0xF628);
+    expect(global.boxDataOffset).toBe(0x0F700);
   });
 
 });
