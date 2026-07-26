@@ -1,5 +1,5 @@
 backup_data = {
-  "title": "Cascade White",
+  "title" : "Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
@@ -24,6 +24,7 @@ backup_data = {
     "splash": "playrough",
     "sharpen": "nuzzle",
     "conversion": "flipturn",
+    "thief": "visegrip",
     "spiderweb": "infernalparade",
     "mindreader": "snaptrap",
     "conversion2": "spinout",
@@ -1461,7 +1462,7 @@ backup_data = {
     },
     "Egg Bomb": {
       "type": "Grass",
-      "basePower": 100,
+      "basePower": 110,
       "category": "Physical",
       "pp": 10,
       "accuracy": 100,
@@ -1938,14 +1939,14 @@ backup_data = {
         3
       ]
     },
-    "Thief": {
-      "type": "Dark",
-      "basePower": 60,
+    "Vise Grip": {
+      "type": "Steel",
+      "basePower": 90,
       "category": "Physical",
       "pp": 10,
-      "accuracy": 100,
+      "accuracy": 101,
       "priority": 0,
-      "e_id": 105
+      "e_id": 17
     },
     "Infernal Parade": {
       "type": "Fire",
@@ -2580,7 +2581,7 @@ backup_data = {
     },
     "Metal Claw": {
       "type": "Steel",
-      "basePower": 70,
+      "basePower": 75,
       "category": "Physical",
       "pp": 35,
       "accuracy": 100,
@@ -3354,7 +3355,7 @@ backup_data = {
       "basePower": 100,
       "category": "Physical",
       "pp": 10,
-      "accuracy": 95,
+      "accuracy": 100,
       "priority": 0,
       "e_id": 139,
       "sf": true,
@@ -4073,7 +4074,7 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 29,
+      "e_id": 295,
       "multihit": [
         2,
         5
@@ -4294,7 +4295,7 @@ backup_data = {
     },
     "Night Slash": {
       "type": "Dark",
-      "basePower": 35,
+      "basePower": 40,
       "category": "Physical",
       "pp": 15,
       "accuracy": 100,
@@ -4333,7 +4334,7 @@ backup_data = {
     },
     "X-Scissor": {
       "type": "Bug",
-      "basePower": 70,
+      "basePower": 80,
       "category": "Physical",
       "pp": 15,
       "accuracy": 101,
@@ -5440,7 +5441,7 @@ backup_data = {
     },
     "Retaliate": {
       "type": "Normal",
-      "basePower": 75,
+      "basePower": 85,
       "category": "Physical",
       "pp": 10,
       "accuracy": 101,
@@ -5750,7 +5751,7 @@ backup_data = {
     },
     "Gear Grind": {
       "type": "Steel",
-      "basePower": 60,
+      "basePower": 65,
       "category": "Physical",
       "pp": 15,
       "accuracy": 100,
@@ -5782,7 +5783,7 @@ backup_data = {
     },
     "Relic Song": {
       "type": "Normal",
-      "basePower": 90,
+      "basePower": 105,
       "category": "Special",
       "pp": 10,
       "accuracy": 100,
@@ -14642,11 +14643,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 65,
-        "at": 100,
+        "at": 110,
         "df": 60,
-        "sa": 95,
+        "sa": 105,
         "sd": 65,
-        "sp": 115
+        "sp": 125
       },
       "learnset_info": {
         "learnset": [
@@ -14656,7 +14657,7 @@ backup_data = {
           ],
           [
             1,
-            "Diamond Storm"
+            "Frost Breath"
           ],
           [
             6,
@@ -19557,7 +19558,7 @@ backup_data = {
       "abs": [
         "Sturdy",
         "Magnet Pull",
-        "Light Metal"
+        "Levitate"
       ],
       "evos": [
         "Magneton"
@@ -19729,7 +19730,7 @@ backup_data = {
       "abs": [
         "Sturdy",
         "Patient",
-        "Light Metal"
+        "Levitate"
       ],
       "evoType": "level",
       "evoLevel": 30
@@ -21809,7 +21810,7 @@ backup_data = {
         "at": 105,
         "df": 160,
         "sa": 30,
-        "sd": 55,
+        "sd": 70,
         "sp": 110
       },
       "learnset_info": {
@@ -22386,7 +22387,7 @@ backup_data = {
           ],
           [
             20,
-            "Metal Claw"
+            "Vise Grip"
           ],
           [
             22,
@@ -22418,7 +22419,7 @@ backup_data = {
           ],
           [
             47,
-            "Crabhammer"
+            "Guillotine"
           ]
         ],
         "tms": [
@@ -22528,8 +22529,8 @@ backup_data = {
             "Ice Hammer"
           ],
           [
-            8,
-            "Stomp"
+            1,
+            "Clamp"
           ],
           [
             11,
@@ -22545,7 +22546,7 @@ backup_data = {
           ],
           [
             20,
-            "Metal Claw"
+            "Vise Grip"
           ],
           [
             22,
@@ -22577,18 +22578,18 @@ backup_data = {
           ],
           [
             47,
-            "Crabhammer"
+            "Guillotine"
           ],
           [
             51,
             "Protect"
           ],
           [
-            57,
-            "Guillotine"
+            55,
+            "Crabhammer"
           ],
           [
-            62,
+            60,
             "Steamroller"
           ],
           [
@@ -27395,7 +27396,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Rock Throw"
+            "Seismic Toss"
           ],
           [
             1,
@@ -27407,15 +27408,15 @@ backup_data = {
           ],
           [
             10,
-            "Stomp"
-          ],
-          [
-            13,
             "Sand Attack"
           ],
           [
+            13,
+            "Vital Throw"
+          ],
+          [
             17,
-            "Storm Throw"
+            "Skitter Smack"
           ],
           [
             22,
@@ -27423,7 +27424,7 @@ backup_data = {
           ],
           [
             25,
-            "Skitter Smack"
+            "Rage"
           ],
           [
             28,
@@ -27439,15 +27440,15 @@ backup_data = {
           ],
           [
             37,
-            "Rage"
+            "Storm Throw"
           ],
           [
             40,
-            "X-Scissor"
+            "Vise Grip"
           ],
           [
             43,
-            "Me First"
+            "Flail"
           ],
           [
             45,
@@ -27459,11 +27460,11 @@ backup_data = {
           ],
           [
             51,
-            "High Horsepower"
+            "Megahorn"
           ],
           [
             55,
-            "Flail"
+            "Me First"
           ],
           [
             59,
@@ -27471,7 +27472,7 @@ backup_data = {
           ],
           [
             63,
-            "Megahorn"
+            "Steamroller"
           ],
           [
             68,
@@ -27546,8 +27547,8 @@ backup_data = {
       },
       "abs": [
         "Mold Breaker",
-        "Hyper Cutter",
-        "Sturdy"
+        "Sturdy",
+        "Hustle"
       ]
     },
     "Tauros": {
@@ -29924,9 +29925,9 @@ backup_data = {
         ]
       },
       "abs": [
-        "Intimidate",
+        "Determined",
         "Unnerve",
-        "Determined"
+        "Tough Claws"
       ]
     },
     "Snorlax": {
@@ -33469,7 +33470,7 @@ backup_data = {
           ],
           [
             32,
-            "Scary Face"
+            "Mirror Move"
           ],
           [
             35,
@@ -33629,7 +33630,7 @@ backup_data = {
           ],
           [
             32,
-            "Scary Face"
+            "Mirror Move"
           ],
           [
             35,
@@ -35762,7 +35763,7 @@ backup_data = {
           ],
           [
             23,
-            "Skill Swap"
+            "Mirror Move"
           ],
           [
             26,
@@ -35786,11 +35787,11 @@ backup_data = {
           ],
           [
             40,
-            "Psycho Shift"
+            "Whirlwind"
           ],
           [
             43,
-            "Whirlwind"
+            "Psycho Shift"
           ],
           [
             46,
@@ -35941,7 +35942,7 @@ backup_data = {
           ],
           [
             23,
-            "Skill Swap"
+            "Mirror Move"
           ],
           [
             26,
@@ -35965,11 +35966,11 @@ backup_data = {
           ],
           [
             40,
-            "Psycho Shift"
+            "Whirlwind"
           ],
           [
             43,
-            "Whirlwind"
+            "Psycho Shift"
           ],
           [
             46,
@@ -39722,7 +39723,7 @@ backup_data = {
           ],
           [
             21,
-            "Uproar"
+            "Infernal Parade"
           ],
           [
             24,
@@ -39738,7 +39739,7 @@ backup_data = {
           ],
           [
             35,
-            "Infernal Parade"
+            "Mystical Fire"
           ],
           [
             38,
@@ -40295,7 +40296,7 @@ backup_data = {
         "at": 65,
         "df": 110,
         "sa": 65,
-        "sd": 55,
+        "sd": 60,
         "sp": 15
       },
       "learnset_info": {
@@ -40451,7 +40452,7 @@ backup_data = {
         "at": 95,
         "df": 140,
         "sa": 95,
-        "sd": 80,
+        "sd": 90,
         "sp": 40
       },
       "learnset_info": {
@@ -40967,7 +40968,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 75,
+        "hp": 90,
         "at": 105,
         "df": 200,
         "sa": 30,
@@ -41112,7 +41113,7 @@ backup_data = {
         ]
       },
       "abs": [
-        "Sturdy",
+        "Filter",
         "Sheer Force",
         "Heatproof"
       ],
@@ -41730,7 +41731,7 @@ backup_data = {
           ],
           [
             52,
-            "Clamp"
+            "Vise Grip"
           ],
           [
             55,
@@ -41742,7 +41743,7 @@ backup_data = {
           ],
           [
             65,
-            "Crabhammer"
+            "Sky Attack"
           ],
           [
             81,
@@ -54615,8 +54616,8 @@ backup_data = {
       },
       "abs": [
         "Speed Boost",
-        "Speed Boost",
-        "Infiltrator"
+        "Infiltrator",
+        "Hyper Cutter"
       ],
       "evoType": "level",
       "evoLevel": 20
@@ -56524,7 +56525,7 @@ backup_data = {
           ],
           [
             28,
-            "Iron Head"
+            "Vise Grip"
           ],
           [
             32,
@@ -61711,18 +61712,18 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 45,
-        "at": 55,
+        "hp": 55,
+        "at": 65,
         "df": 75,
-        "sa": 60,
+        "sa": 70,
         "sd": 75,
-        "sp": 50
+        "sp": 60
       },
       "learnset_info": {
         "learnset": [
           [
             1,
-            "Growl"
+            "Feather Dance"
           ],
           [
             1,
@@ -61762,7 +61763,7 @@ backup_data = {
           ],
           [
             29,
-            "Feather Dance"
+            "Mirror Move"
           ],
           [
             32,
@@ -61947,7 +61948,7 @@ backup_data = {
           ],
           [
             29,
-            "Feather Dance"
+            "Mirror Move"
           ],
           [
             32,
@@ -61994,8 +61995,12 @@ backup_data = {
             "Moonblast"
           ],
           [
-            77,
+            73,
             "Sky Attack"
+          ],
+          [
+            77,
+            "Dragon Dance"
           ]
         ],
         "tms": [
@@ -62087,10 +62092,10 @@ backup_data = {
       "bs": {
         "hp": 88,
         "at": 115,
-        "df": 100,
+        "df": 105,
         "sa": 60,
         "sd": 80,
-        "sp": 75
+        "sp": 90
       },
       "learnset_info": {
         "learnset": [
@@ -62271,9 +62276,9 @@ backup_data = {
       "bs": {
         "hp": 73,
         "at": 100,
-        "df": 60,
+        "df": 70,
         "sa": 100,
-        "sd": 60,
+        "sd": 70,
         "sp": 125
       },
       "learnset_info": {
@@ -62423,7 +62428,7 @@ backup_data = {
       },
       "abs": [
         "Infiltrator",
-        "Strong Jaw",
+        "Rivalry",
         "Exploit"
       ]
     },
@@ -73966,7 +73971,7 @@ backup_data = {
         "hp": 77,
         "at": 125,
         "df": 40,
-        "sa": 30,
+        "sa": 40,
         "sd": 30,
         "sp": 78
       },
@@ -77374,7 +77379,7 @@ backup_data = {
           ],
           [
             21,
-            "Uproar"
+            "Infernal Parade"
           ],
           [
             24,
@@ -77390,7 +77395,7 @@ backup_data = {
           ],
           [
             35,
-            "Infernal Parade"
+            "Mystical Fire"
           ],
           [
             38,
@@ -77695,7 +77700,7 @@ backup_data = {
           ],
           [
             14,
-            "Night Slash"
+            "Assurance"
           ],
           [
             17,
@@ -77718,11 +77723,11 @@ backup_data = {
             "Slash"
           ],
           [
-            30,
-            "Thrash"
+            28,
+            "Night Slash"
           ],
           [
-            33,
+            32,
             "Hypnosis"
           ],
           [
@@ -77849,7 +77854,7 @@ backup_data = {
           ],
           [
             14,
-            "Night Slash"
+            "Assurance"
           ],
           [
             17,
@@ -77872,11 +77877,11 @@ backup_data = {
             "Slash"
           ],
           [
-            30,
-            "Thrash"
+            28,
+            "Night Slash"
           ],
           [
-            33,
+            32,
             "Hypnosis"
           ],
           [
@@ -81649,7 +81654,7 @@ backup_data = {
           ],
           [
             43,
-            "Iron Head"
+            "Vise Grip"
           ],
           [
             47,
@@ -82914,7 +82919,7 @@ backup_data = {
       "abs": [
         "Sturdy",
         "Patient",
-        "Light Metal"
+        "Levitate"
       ]
     },
     "Lickilicky": {
@@ -83481,7 +83486,7 @@ backup_data = {
         "df": 102,
         "sa": 95,
         "sd": 85,
-        "sp": 95
+        "sp": 100
       },
       "learnset_info": {
         "learnset": [
@@ -83648,7 +83653,7 @@ backup_data = {
         "at": 95,
         "df": 77,
         "sa": 125,
-        "sd": 110,
+        "sd": 115,
         "sp": 83
       },
       "learnset_info": {
@@ -100737,7 +100742,7 @@ backup_data = {
         "df": 40,
         "sa": 80,
         "sd": 40,
-        "sp": 65
+        "sp": 75
       },
       "learnset_info": {
         "learnset": [
@@ -100889,11 +100894,11 @@ backup_data = {
       ],
       "bs": {
         "hp": 60,
-        "at": 115,
+        "at": 120,
         "df": 60,
-        "sa": 120,
+        "sa": 125,
         "sd": 60,
-        "sp": 105
+        "sp": 115
       },
       "learnset_info": {
         "learnset": [
@@ -105533,7 +105538,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Thunder Shock"
+            "Spark"
           ],
           [
             1,
@@ -105541,7 +105546,7 @@ backup_data = {
           ],
           [
             5,
-            "Spark"
+            "Rapid Spin"
           ],
           [
             10,
@@ -105565,7 +105570,7 @@ backup_data = {
           ],
           [
             27,
-            "Rapid Spin"
+            "Vise Grip"
           ],
           [
             30,
@@ -105673,7 +105678,7 @@ backup_data = {
         "learnset": [
           [
             1,
-            "Thunder Shock"
+            "Spark"
           ],
           [
             1,
@@ -105681,7 +105686,7 @@ backup_data = {
           ],
           [
             5,
-            "Spark"
+            "Rapid Spin"
           ],
           [
             10,
@@ -105705,7 +105710,7 @@ backup_data = {
           ],
           [
             27,
-            "Rapid Spin"
+            "Vise Grip"
           ],
           [
             30,
@@ -105839,7 +105844,7 @@ backup_data = {
           ],
           [
             10,
-            "Flame Wheel"
+            "Rapid Spin"
           ],
           [
             13,
@@ -105859,7 +105864,7 @@ backup_data = {
           ],
           [
             27,
-            "Rapid Spin"
+            "Vise Grip"
           ],
           [
             30,
@@ -108127,7 +108132,7 @@ backup_data = {
       "bs": {
         "hp": 80,
         "at": 50,
-        "df": 50,
+        "df": 80,
         "sa": 105,
         "sd": 135,
         "sp": 105
@@ -108203,8 +108208,12 @@ backup_data = {
             "Glaciate"
           ],
           [
-            60,
+            57,
             "Recover"
+          ],
+          [
+            61,
+            "Doom Desire"
           ],
           [
             65,
@@ -110151,7 +110160,7 @@ backup_data = {
           ],
           [
             20,
-            "Natural Gift"
+            "Mirror Move"
           ],
           [
             24,
@@ -110268,7 +110277,7 @@ backup_data = {
       "bs": {
         "hp": 100,
         "at": 123,
-        "df": 100,
+        "df": 105,
         "sa": 57,
         "sd": 75,
         "sp": 80
@@ -110297,7 +110306,7 @@ backup_data = {
           ],
           [
             20,
-            "Natural Gift"
+            "Mirror Move"
           ],
           [
             24,
@@ -110456,7 +110465,7 @@ backup_data = {
           ],
           [
             22,
-            "Feather Dance"
+            "Mirror Move"
           ],
           [
             26,
@@ -110476,22 +110485,22 @@ backup_data = {
           ],
           [
             38,
-            "Recycle"
+            "Feather Dance"
           ],
           [
-            44,
+            42,
             "Scary Face"
+          ],
+          [
+            46,
+            "Egg Bomb"
           ],
           [
             48,
             "Brutal Swing"
           ],
           [
-            52,
-            "Egg Bomb"
-          ],
-          [
-            55,
+            51,
             "Roost"
           ]
         ],
@@ -110574,7 +110583,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 110,
-        "at": 90,
+        "at": 95,
         "df": 105,
         "sa": 55,
         "sd": 95,
@@ -110616,7 +110625,7 @@ backup_data = {
           ],
           [
             22,
-            "Feather Dance"
+            "Mirror Move"
           ],
           [
             26,
@@ -110636,30 +110645,30 @@ backup_data = {
           ],
           [
             38,
-            "Recycle"
+            "Feather Dance"
           ],
           [
-            44,
+            42,
             "Scary Face"
+          ],
+          [
+            45,
+            "Egg Bomb"
           ],
           [
             48,
             "Brutal Swing"
           ],
           [
-            52,
-            "Egg Bomb"
-          ],
-          [
-            55,
+            51,
             "Roost"
           ],
           [
-            57,
+            55,
             "Brave Bird"
           ],
           [
-            63,
+            59,
             "Toxic"
           ]
         ],
@@ -110930,7 +110939,7 @@ backup_data = {
           ],
           [
             10,
-            "Bite"
+            "Beat Up"
           ],
           [
             14,
@@ -110938,7 +110947,7 @@ backup_data = {
           ],
           [
             19,
-            "Beat Up"
+            "Feint Attack"
           ],
           [
             23,
@@ -110966,7 +110975,7 @@ backup_data = {
           ],
           [
             39,
-            "X-Scissor"
+            "Vise Grip"
           ],
           [
             43,
@@ -114005,9 +114014,9 @@ backup_data = {
         ]
       },
       "abs": [
-        "Sap Sipper",
+        "Determined",
         "Rivalry",
-        "Reckless"
+        "Sap Sipper"
       ]
     },
     "Sawsbuck-Autumn": {
@@ -121061,6 +121070,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 37 Cosplayer Miriam - Join Avenue": {
+        "level": 37,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 251,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Hyper Potion",
+        "item": "Black Sludge",
+        "nature": "Docile",
+        "moves": [
+          "Hex",
+          "Sludge",
+          "Will-O-Wisp",
+          "Destiny Bond"
+        ],
+        "sub_index": 0,
+        "ability": "Neutralizing Gas",
+        "sprite": "trainer_sprites/cosplayer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 51 Ace Trainer Vicki - Chargestone Cave": {
         "level": 51,
         "ai": 143,
@@ -125859,7 +125899,7 @@ backup_data = {
         "nature": "Rash",
         "moves": [
           "Blizzard",
-          "Shock Wave",
+          "Charge Beam",
           "Flash Cannon",
           "Mean Look"
         ],
@@ -128253,11 +128293,11 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Scientist Jacques - Route 6": {
-        "level": 48,
-        "ai": 143,
+      "Lvl 24 Policeman Petrel - Virbank City": {
+        "level": 24,
+        "ai": 15,
         "noCh": false,
-        "tr_id": 263,
+        "tr_id": 184,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -128268,17 +128308,17 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Eviolite",
-        "nature": "Jolly",
+        "item": "Quick Claw",
+        "nature": "Docile",
         "moves": [
-          "Heavy Slam",
-          "Thunder Punch",
-          "Ice Punch",
-          "Scary Face"
+          "Metal Claw",
+          "Psywave",
+          "Body Slam",
+          "Assurance"
         ],
-        "sub_index": 2,
-        "ability": "Tough Claws",
-        "sprite": "trainer_sprites/scientist.png",
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -128989,10 +129029,10 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Leftovers",
+        "item": "Scope Lens",
         "nature": "Quirky",
         "moves": [
-          "Hydro Pump",
+          "Whirlpool",
           "Thunder",
           "Ice Beam",
           "Flip Turn"
@@ -130120,7 +130160,7 @@ backup_data = {
         "item": "Assault Vest",
         "nature": "Relaxed",
         "moves": [
-          "Ingrain",
+          "Snap Trap",
           "Focus Punch",
           "Ancient Power",
           "Fire Punch"
@@ -130657,7 +130697,7 @@ backup_data = {
         "moves": [
           "Thunder Fang",
           "Devour",
-          "Rock Smash",
+          "Crunch",
           "Ice Fang"
         ],
         "sub_index": 1,
@@ -131318,6 +131358,37 @@ backup_data = {
         "sub_index": 4,
         "ability": "Sniper",
         "sprite": "trainer_sprites/clerkm.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 37 Cosplayer Anders - Join Avenue": {
+        "level": 37,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 48,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Max Potion",
+        "item": "Normal Gem",
+        "nature": "Careful",
+        "moves": [
+          "Bind",
+          "Poison Fang",
+          "Night Slash",
+          "Protect"
+        ],
+        "sub_index": 2,
+        "ability": "Tough Claws",
+        "sprite": "trainer_sprites/cosplayer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -132132,6 +132203,37 @@ backup_data = {
         "sub_index": 2,
         "ability": "Tenacity",
         "sprite": "trainer_sprites/backers.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 48 Scientist Jacques - Route 6": {
+        "level": 48,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 263,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Life Orb",
+        "nature": "Calm",
+        "moves": [
+          "Hurricane",
+          "Signal Beam",
+          "Psychic Noise",
+          "Esper Wing"
+        ],
+        "sub_index": 2,
+        "ability": "Tenacity",
+        "sprite": "trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -133141,8 +133243,8 @@ backup_data = {
       }
     },
     "Granbull": {
-      "Lvl 31 Backers Kay & Ali - Route 5": {
-        "level": 31,
+      "Lvl 36 Backers Kay & Ali - Route 5": {
+        "level": 36,
         "ai": 15,
         "noCh": false,
         "tr_id": 24,
@@ -133165,7 +133267,7 @@ backup_data = {
           "Attract"
         ],
         "sub_index": 1,
-        "ability": "Intimidate",
+        "ability": "Quick Feet",
         "sprite": "trainer_sprites/backersf.png",
         "form": 0,
         "evs": {
@@ -134791,15 +134893,15 @@ backup_data = {
           "-----"
         ],
         "sub_index": 2,
-        "ability": "Sturdy",
+        "ability": "Filter",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 44 Worker Tavarius - Driftveil City": {
-        "level": 44,
+      "Lvl 42 Worker Tavarius - Driftveil City": {
+        "level": 42,
         "ai": 143,
         "noCh": true,
         "tr_id": 323,
@@ -134814,14 +134916,14 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Assault Vest",
-        "nature": "Sassy",
+        "nature": "Naughty",
         "moves": [
           "Fire Fang",
-          "Iron Tail",
+          "Heavy Slam",
           "Crunch",
           "Thunder Fang"
         ],
-        "sub_index": 1,
+        "sub_index": 2,
         "ability": "Sheer Force",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
@@ -134853,7 +134955,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Sturdy",
+        "ability": "Filter",
         "sprite": "trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
@@ -134891,11 +134993,11 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Gus - Twist Mountain": {
-        "level": 60,
-        "ai": 1,
+      "Lvl 48 Hiker Jebediah - Mistralton Cave": {
+        "level": 48,
+        "ai": 143,
         "noCh": false,
-        "tr_id": 526,
+        "tr_id": 680,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -134906,17 +135008,17 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "-",
-        "nature": "Mild",
+        "item": "Custap Berry",
+        "nature": "Brave",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Drill Run",
+          "Scary Face",
+          "Iron Tail",
+          "Bind"
         ],
         "sub_index": 2,
-        "ability": "Sturdy",
-        "sprite": "trainer_sprites/worker.png",
+        "ability": "Filter",
+        "sprite": "trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -135132,7 +135234,7 @@ backup_data = {
         "moves": [
           "Double-Edge",
           "Substitute",
-          "Baton Pass",
+          "Ominous Wind",
           "Explosion"
         ],
         "sub_index": 1,
@@ -136735,6 +136837,37 @@ backup_data = {
         "sub_index": 0,
         "ability": "Technician",
         "sprite": "trainer_sprites/lass.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 25 Policeman Petrel - Virbank City": {
+        "level": 25,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 184,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Mild",
+        "moves": [
+          "Slash",
+          "Pay Day",
+          "Fake Out",
+          "Bite"
+        ],
+        "sub_index": 0,
+        "ability": "Technician",
+        "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -138918,13 +139051,13 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Lum Berry",
+        "item": "Liechi Berry",
         "nature": "Brave",
         "moves": [
-          "Dragon Rush",
+          "Dragon Claw",
           "Fire Punch",
           "Thunder Punch",
-          "Stealth Rock"
+          "Stockpile"
         ],
         "sub_index": 1,
         "ability": "Battle Armor",
@@ -139153,8 +139286,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Tavarius - Driftveil City": {
-        "level": 43,
+      "Lvl 41 Worker Tavarius - Driftveil City": {
+        "level": 41,
         "ai": 143,
         "noCh": true,
         "tr_id": 323,
@@ -139169,7 +139302,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Weakness Policy",
-        "nature": "Bold",
+        "nature": "Serious",
         "moves": [
           "Weather Ball",
           "Light Screen",
@@ -139645,7 +139778,7 @@ backup_data = {
           "Drill Peck",
           "Drill Run",
           "Head Smash",
-          "Thrash"
+          "Sand Attack"
         ],
         "sub_index": 2,
         "ability": "Sand Veil",
@@ -140877,504 +141010,6 @@ backup_data = {
         }
       }
     },
-    "Emboar": {
-      "Lvl 37 Cosplayer Anders - Join Avenue": {
-        "level": 37,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 48,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Max Potion",
-        "item": "Charcoal",
-        "nature": "Calm",
-        "moves": [
-          "Flamethrower",
-          "Payback",
-          "Slack Off",
-          "Work Up"
-        ],
-        "sub_index": 2,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/cosplayer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 41 Linebacker Dan2 - Driftveil Drawbridge": {
-        "level": 41,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 65,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Full Restore",
-        "item": "Sitrus Berry",
-        "nature": "Mild",
-        "moves": [
-          "Fire Punch",
-          "Crunch",
-          "Slack Off",
-          "Will-O-Wisp"
-        ],
-        "sub_index": 0,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/linebacker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 56 Veteran Ruby ": {
-        "level": 56,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 246,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Rock Gem",
-        "nature": "Naive",
-        "moves": [
-          "Overheat",
-          "Superpower",
-          "Rock Wrecker",
-          "Knock Off"
-        ],
-        "sub_index": 3,
-        "ability": "Determined",
-        "sprite": "trainer_sprites/veteranf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 38 PkMn Trainer Nate3 ": {
-        "level": 38,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 362,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Hardy",
-        "moves": [
-          "Flamethrower",
-          "Crunch",
-          "Protect",
-          "Yawn"
-        ],
-        "sub_index": 0,
-        "ability": "Determined",
-        "sprite": "trainer_sprites/pokemontrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 38 PkMn Trainer Rosa3 ": {
-        "level": 38,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 365,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Hardy",
-        "moves": [
-          "Flamethrower",
-          "Crunch",
-          "Protect",
-          "Yawn"
-        ],
-        "sub_index": 0,
-        "ability": "Determined",
-        "sprite": "trainer_sprites/pokemontrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 PkMn Trainer Rival7 - Starter 1": {
-        "level": 50,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 368,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Sitrus Berry",
-        "nature": "Gentle",
-        "moves": [
-          "Flare Blitz",
-          "Crunch",
-          "Rock Climb",
-          "Hammer Arm"
-        ],
-        "sub_index": 0,
-        "ability": "Determined",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 41 PkMn Trainer Rival10 - Starter 1": {
-        "level": 41,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 378,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Charcoal",
-        "nature": "Quirky",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 PkMn Trainer Rival13 - Clay Tunnel - Starter 1": {
-        "level": 51,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 487,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Band",
-        "nature": "Serious",
-        "moves": [
-          "Flare Blitz",
-          "Night Daze",
-          "Head Smash",
-          "Will-O-Wisp"
-        ],
-        "sub_index": 5,
-        "ability": "Determined",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 52 PkMn Trainer Bianca - Dreamyard": {
-        "level": 52,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 593,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Weakness Policy",
-        "nature": "Naughty",
-        "moves": [
-          "Searing Shot",
-          "Sucker Punch",
-          "Power Trip",
-          "Work Up"
-        ],
-        "sub_index": 4,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/bianca.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 57 PkMn Trainer Rival22 - Starter 1": {
-        "level": 57,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 684,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Charcoal",
-        "nature": "Sassy",
-        "moves": [
-          "Flamethrower",
-          "Rock Slide",
-          "Brick Break",
-          "Scald"
-        ],
-        "sub_index": 3,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 64 PkMn Trainer Rival25 - Starter 1": {
-        "level": 64,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 693,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Charcoal",
-        "nature": "Hasty",
-        "moves": [
-          "Fire Blast",
-          "Head Smash",
-          "Hammer Arm",
-          "Scald"
-        ],
-        "sub_index": 5,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 67 PkMn Trainer Rival28 - Starter 1": {
-        "level": 67,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 696,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Calm",
-        "moves": [
-          "Fire Blast",
-          "Head Smash",
-          "Hammer Arm",
-          "Scald"
-        ],
-        "sub_index": 5,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 43 PkMn Trainer Rival31 - Starter 1": {
-        "level": 43,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 701,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Charcoal",
-        "nature": "Rash",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 65 PkMn Trainer Bianca4 ": {
-        "level": 65,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 708,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Quiet",
-        "moves": [
-          "Flare Blitz",
-          "Brick Break",
-          "Wild Charge",
-          "Return"
-        ],
-        "sub_index": 5,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/bianca.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 67 PkMn Trainer Cheren3 ": {
-        "level": 67,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 709,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Focus Sash",
-        "nature": "Bashful",
-        "moves": [
-          "Flare Blitz",
-          "Head Smash",
-          "Brick Break",
-          "Wild Charge"
-        ],
-        "sub_index": 5,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/cheren.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 PkMn Trainer Rival34 - Starter 1": {
-        "level": 50,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 794,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Charcoal",
-        "nature": "Calm",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Ambipom": {
       "Lvl 41 Smasher Elena2 - Driftveil Drawbridge": {
         "level": 41,
@@ -141615,7 +141250,7 @@ backup_data = {
         "moves": [
           "Icy Wind",
           "Snarl",
-          "Ice Shard",
+          "Fake Out",
           "Low Sweep"
         ],
         "sub_index": 1,
@@ -142054,7 +141689,7 @@ backup_data = {
           "Zap Cannon",
           "Solar Beam",
           "Shadow Ball",
-          "Power Gem"
+          "Morning Sun"
         ],
         "sub_index": 3,
         "ability": "Chlorophyll",
@@ -142612,16 +142247,16 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Life Orb",
+        "item": "Red Card",
         "nature": "Quirky",
         "moves": [
-          "Sludge Bomb",
-          "Flamethrower",
-          "Ice Beam",
+          "Gunk Shot",
+          "Whirlpool",
+          "Stompin Tantrum",
           "Toxic Spikes"
         ],
         "sub_index": 0,
-        "ability": "Sheer Force",
+        "ability": "Majestic Ward",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -143522,8 +143157,8 @@ backup_data = {
         "moves": [
           "Meteor Mash",
           "Zen Headbutt",
-          "Thunder Punch",
-          "Brick Break"
+          "Light Screen",
+          "Mega Punch"
         ],
         "sub_index": 2,
         "ability": "Strong Body",
@@ -143869,8 +143504,8 @@ backup_data = {
         "moves": [
           "Hurricane",
           "Blizzard",
-          "Feather Dance",
-          "Roost"
+          "Icy Wind",
+          "Me First"
         ],
         "sub_index": 0,
         "ability": "No Guard",
@@ -144207,7 +143842,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Poison Gem",
+        "item": "Dark Gem",
         "nature": "Gentle",
         "moves": [
           "Torment",
@@ -146388,6 +146023,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 43 Worker Pasqual - Driftveil City": {
+        "level": 43,
+        "ai": 15,
+        "noCh": true,
+        "tr_id": 320,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Serious",
+        "moves": [
+          "Focus Punch",
+          "Meteor Mash",
+          "Ice Punch",
+          "Sand Attack"
+        ],
+        "sub_index": 3,
+        "ability": "Iron Fist",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 27 Worker Scott - Relic Passage": {
         "level": 27,
         "ai": 143,
@@ -146512,37 +146178,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 50 Worker Cairn - Clay Tunnel": {
-        "level": 50,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 525,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Colbur Berry",
-        "item": "Eviolite",
-        "nature": "Quirky",
-        "moves": [
-          "Hammer Arm",
-          "Meteor Mash",
-          "Ice Punch",
-          "Mach Punch"
-        ],
-        "sub_index": 3,
-        "ability": "Guts",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 41 Black Belt Wesley - Route 13": {
         "level": 41,
         "ai": 3,
@@ -146569,6 +146204,473 @@ backup_data = {
         "sub_index": 0,
         "ability": "Iron Fist",
         "sprite": "trainer_sprites/blackbelt.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Emboar": {
+      "Lvl 41 Linebacker Dan2 - Driftveil Drawbridge": {
+        "level": 41,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 65,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Full Restore",
+        "item": "Sitrus Berry",
+        "nature": "Mild",
+        "moves": [
+          "Fire Punch",
+          "Crunch",
+          "Slack Off",
+          "Will-O-Wisp"
+        ],
+        "sub_index": 0,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/linebacker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 56 Veteran Ruby ": {
+        "level": 56,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 246,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Rock Gem",
+        "nature": "Naive",
+        "moves": [
+          "Overheat",
+          "Superpower",
+          "Rock Wrecker",
+          "Knock Off"
+        ],
+        "sub_index": 3,
+        "ability": "Determined",
+        "sprite": "trainer_sprites/veteranf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 38 PkMn Trainer Nate3 ": {
+        "level": 38,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 362,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Hardy",
+        "moves": [
+          "Flamethrower",
+          "Crunch",
+          "Protect",
+          "Yawn"
+        ],
+        "sub_index": 0,
+        "ability": "Determined",
+        "sprite": "trainer_sprites/pokemontrainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 38 PkMn Trainer Rosa3 ": {
+        "level": 38,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 365,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Hardy",
+        "moves": [
+          "Flamethrower",
+          "Crunch",
+          "Protect",
+          "Yawn"
+        ],
+        "sub_index": 0,
+        "ability": "Determined",
+        "sprite": "trainer_sprites/pokemontrainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 50 PkMn Trainer Rival7 - Starter 1": {
+        "level": 50,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 368,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Sitrus Berry",
+        "nature": "Gentle",
+        "moves": [
+          "Flare Blitz",
+          "Crunch",
+          "Rock Climb",
+          "Hammer Arm"
+        ],
+        "sub_index": 0,
+        "ability": "Determined",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 41 PkMn Trainer Rival10 - Starter 1": {
+        "level": 41,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 378,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Charcoal",
+        "nature": "Quirky",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 PkMn Trainer Rival13 - Clay Tunnel - Starter 1": {
+        "level": 51,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 487,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Band",
+        "nature": "Serious",
+        "moves": [
+          "Flare Blitz",
+          "Night Daze",
+          "Head Smash",
+          "Will-O-Wisp"
+        ],
+        "sub_index": 5,
+        "ability": "Determined",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 52 PkMn Trainer Bianca - Dreamyard": {
+        "level": 52,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 593,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Weakness Policy",
+        "nature": "Naughty",
+        "moves": [
+          "Searing Shot",
+          "Sucker Punch",
+          "Power Trip",
+          "Work Up"
+        ],
+        "sub_index": 4,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/bianca.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 57 PkMn Trainer Rival22 - Starter 1": {
+        "level": 57,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 684,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Charcoal",
+        "nature": "Sassy",
+        "moves": [
+          "Flamethrower",
+          "Rock Slide",
+          "Brick Break",
+          "Scald"
+        ],
+        "sub_index": 3,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 64 PkMn Trainer Rival25 - Starter 1": {
+        "level": 64,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 693,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Charcoal",
+        "nature": "Hasty",
+        "moves": [
+          "Fire Blast",
+          "Head Smash",
+          "Hammer Arm",
+          "Scald"
+        ],
+        "sub_index": 5,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 67 PkMn Trainer Rival28 - Starter 1": {
+        "level": 67,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 696,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Calm",
+        "moves": [
+          "Fire Blast",
+          "Head Smash",
+          "Hammer Arm",
+          "Scald"
+        ],
+        "sub_index": 5,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 43 PkMn Trainer Rival31 - Starter 1": {
+        "level": 43,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 701,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Charcoal",
+        "nature": "Rash",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 65 PkMn Trainer Bianca4 ": {
+        "level": 65,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 708,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Quiet",
+        "moves": [
+          "Flare Blitz",
+          "Brick Break",
+          "Wild Charge",
+          "Return"
+        ],
+        "sub_index": 5,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/bianca.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 67 PkMn Trainer Cheren3 ": {
+        "level": 67,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 709,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Focus Sash",
+        "nature": "Bashful",
+        "moves": [
+          "Flare Blitz",
+          "Head Smash",
+          "Brick Break",
+          "Wild Charge"
+        ],
+        "sub_index": 5,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/cheren.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 50 PkMn Trainer Rival34 - Starter 1": {
+        "level": 50,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 794,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Charcoal",
+        "nature": "Calm",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -147635,7 +147737,7 @@ backup_data = {
           "Thunder Fang"
         ],
         "sub_index": 0,
-        "ability": "Exploit",
+        "ability": "Strong Jaw",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -147728,7 +147830,7 @@ backup_data = {
           "Fire Fang"
         ],
         "sub_index": 0,
-        "ability": "Strong Jaw",
+        "ability": "Rivalry",
         "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
@@ -149016,37 +149118,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Boss Trainer Abed ": {
-        "level": 53,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 184,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Quick Claw",
-        "nature": "Gentle",
-        "moves": [
-          "Rock Blast",
-          "Stealth Rock",
-          "Iron Defense",
-          "Protect"
-        ],
-        "sub_index": 1,
-        "ability": "Chlorophyll",
-        "sprite": "trainer_sprites/bosstrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 34 Striker Marco3 ": {
         "level": 34,
         "ai": 7,
@@ -149295,37 +149366,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 60 Worker Gus - Twist Mountain": {
-        "level": 60,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 526,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Naive",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Chlorophyll",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 32 Hiker Jeremy ": {
         "level": 32,
         "ai": 1,
@@ -149421,8 +149461,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Backers Stu & Art - Route 16": {
-        "level": 36,
+      "Lvl 37 Backers Stu & Art - Route 16": {
+        "level": 37,
         "ai": 143,
         "noCh": false,
         "tr_id": 257,
@@ -149437,7 +149477,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Serious",
+        "nature": "Bold",
         "moves": [
           "Grass Pledge",
           "Hyper Voice",
@@ -152212,7 +152252,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Doubles",
-        "reward_item": "Max Potion",
+        "reward_item": "Rare Bone",
         "item": "Eviolite",
         "nature": "Hardy",
         "moves": [
@@ -152529,12 +152569,12 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Electric Gem",
+        "item": "Weakness Policy",
         "nature": "Calm",
         "moves": [
           "Aurora Beam",
           "Extrasensory",
-          "Attract",
+          "Charm",
           "Thunderbolt"
         ],
         "sub_index": 3,
@@ -152726,7 +152766,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Tough Claws",
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -153485,37 +153525,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Pasqual - Driftveil City": {
-        "level": 43,
-        "ai": 15,
-        "noCh": true,
-        "tr_id": 320,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Red Card",
-        "nature": "Sassy",
-        "moves": [
-          "Dual Wingbeat",
-          "Steel Wing",
-          "Sand Attack",
-          "Pursuit"
-        ],
-        "sub_index": 3,
-        "ability": "Sturdy",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 68 Veteran Gina - Route 18": {
         "level": 68,
         "ai": 135,
@@ -153635,37 +153644,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Weak Armor",
         "sprite": "trainer_sprites/veteran.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 47 Hiker Jebediah - Mistralton Cave": {
-        "level": 47,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 680,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Red Card",
-        "nature": "Careful",
-        "moves": [
-          "Sky Drop",
-          "Drill Run",
-          "Body Press",
-          "Tailwind"
-        ],
-        "sub_index": 0,
-        "ability": "Sturdy",
-        "sprite": "trainer_sprites/hiker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -153885,6 +153863,37 @@ backup_data = {
         "sub_index": 2,
         "ability": "Battle Armor",
         "sprite": "trainer_sprites/psychicf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 43 Worker Gus - Twist Mountain": {
+        "level": 43,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 526,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Blue Shard",
+        "item": "Enigma Berry",
+        "nature": "Mild",
+        "moves": [
+          "Waterfall",
+          "Rock Slide",
+          "Phantom Strike",
+          "Spikes"
+        ],
+        "sub_index": 3,
+        "ability": "Swift Swim",
+        "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -155501,68 +155510,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 53 Boss Trainer Abed ": {
-        "level": 53,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 184,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Scope Lens",
-        "nature": "Naughty",
-        "moves": [
-          "Air Cutter",
-          "Steel Wing",
-          "Quick Attack",
-          "Hypnosis"
-        ],
-        "sub_index": 0,
-        "ability": "Resilient",
-        "sprite": "trainer_sprites/bosstrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 56 Boss Trainer Brent ": {
-        "level": 56,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 185,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Scope Lens",
-        "nature": "Adamant",
-        "moves": [
-          "Air Cutter",
-          "Steel Wing",
-          "Quick Attack",
-          "Hypnosis"
-        ],
-        "sub_index": 0,
-        "ability": "Resilient",
-        "sprite": "trainer_sprites/bosstrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 36 PkMn Ranger Lois - Route 5": {
         "level": 36,
         "ai": 15,
@@ -155589,6 +155536,37 @@ backup_data = {
         "sub_index": 0,
         "ability": "Unburden",
         "sprite": "trainer_sprites/pokemonranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Pilot Elron - Mistralton City": {
+        "level": 51,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 332,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "None",
+        "item": "Flying Gem",
+        "nature": "Brave",
+        "moves": [
+          "Acrobatics",
+          "Feather Dance",
+          "Extreme Speed",
+          "Superpower"
+        ],
+        "sub_index": 2,
+        "ability": "Unburden",
+        "sprite": "trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -157445,6 +157423,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 37 Roughneck Silvester - Route 16": {
+        "level": 37,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 217,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Serious",
+        "moves": [
+          "Facade",
+          "Quick Attack",
+          "X-Scissor",
+          "Rolling Kick"
+        ],
+        "sub_index": 1,
+        "ability": "Guts",
+        "sprite": "trainer_sprites/roughneck.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 61 Johto Leader Bugsy ": {
         "level": 61,
         "ai": 15,
@@ -157752,7 +157761,7 @@ backup_data = {
           "Protect"
         ],
         "sub_index": 4,
-        "ability": "Speed Boost",
+        "ability": "Infiltrator",
         "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
@@ -158478,7 +158487,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "Blue Shard",
-        "item": "Salac Berry",
+        "item": "Lum Berry",
         "nature": "Naive",
         "moves": [
           "Bulldoze",
@@ -158795,7 +158804,7 @@ backup_data = {
         "item": "Clear Amulet",
         "nature": "Naive",
         "moves": [
-          "Blaze Kick",
+          "Lava Plume",
           "Earthquake",
           "Spin Out",
           "Amnesia"
@@ -159153,8 +159162,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 38 Beauty Nikola ": {
-        "level": 38,
+      "Lvl 39 Beauty Nikola ": {
+        "level": 39,
         "ai": 143,
         "noCh": false,
         "tr_id": 207,
@@ -159169,7 +159178,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Brave",
+        "nature": "Timid",
         "moves": [
           "Sludge Bomb",
           "Petal Dance",
@@ -159621,7 +159630,7 @@ backup_data = {
           "Gunk Shot"
         ],
         "sub_index": 0,
-        "ability": "Toxic Boost",
+        "ability": "Prankster",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -160421,37 +160430,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Boss Trainer Brent ": {
-        "level": 56,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 185,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Expert Belt",
-        "nature": "Careful",
-        "moves": [
-          "Ice Beam",
-          "Thunderbolt",
-          "Flamethrower",
-          "Attract"
-        ],
-        "sub_index": 2,
-        "ability": "Regenerator",
-        "sprite": "trainer_sprites/bosstrainer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 50 Doctor Kit - Chargestone Cave": {
         "level": 50,
         "ai": 143,
@@ -160954,37 +160932,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Pilot Ewing - Mistralton City": {
-        "level": 52,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 151,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Smooth Rock",
-        "nature": "Naive",
-        "moves": [
-          "Weather Ball",
-          "Sand Attack",
-          "Earth Power",
-          "Spikes"
-        ],
-        "sub_index": 0,
-        "ability": "Levitate",
-        "sprite": "trainer_sprites/pilot.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 65 Boss Trainer Elie ": {
         "level": 65,
         "ai": 7,
@@ -161418,6 +161365,37 @@ backup_data = {
         "sub_index": 0,
         "ability": "Unnerve",
         "sprite": "trainer_sprites/depotagent.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 42 Worker Tavarius - Driftveil City": {
+        "level": 42,
+        "ai": 143,
+        "noCh": true,
+        "tr_id": 323,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Choice Scarf",
+        "nature": "Naughty",
+        "moves": [
+          "Headlong Rush",
+          "Rock Wrecker",
+          "-----",
+          "-----"
+        ],
+        "sub_index": 1,
+        "ability": "Arena Trap",
+        "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -162399,6 +162377,37 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 25 Policeman Rosco - Virbank City": {
+        "level": 25,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 185,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Hasty",
+        "moves": [
+          "Flamethrower",
+          "Roar",
+          "Will-O-Wisp",
+          "Morning Sun"
+        ],
+        "sub_index": 0,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/policeman.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Cinccino": {
@@ -162804,37 +162813,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Determined",
         "sprite": "trainer_sprites/hiker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 60 Worker Gus - Twist Mountain": {
-        "level": 60,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 526,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Jolly",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Determined",
-        "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -163756,37 +163734,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Levitate",
         "sprite": "trainer_sprites/roughneck.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 56 Boss Trainer Brent ": {
-        "level": 56,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 185,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Wise Glasses",
-        "nature": "Jolly",
-        "moves": [
-          "Discharge",
-          "Crunch",
-          "Signal Beam",
-          "Thunder Wave"
-        ],
-        "sub_index": 1,
-        "ability": "Levitate",
-        "sprite": "trainer_sprites/bosstrainer.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -165051,8 +164998,39 @@ backup_data = {
           "Bulk Up"
         ],
         "sub_index": 1,
-        "ability": "Hyper Cutter",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/veteran.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 50 Worker Cairn - Clay Tunnel": {
+        "level": 50,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 525,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Colbur Berry",
+        "item": "Bright Powder",
+        "nature": "Hardy",
+        "moves": [
+          "Drill Run",
+          "X-Scissor",
+          "Submission",
+          "Thrash"
+        ],
+        "sub_index": 3,
+        "ability": "Mold Breaker",
+        "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -165082,7 +165060,7 @@ backup_data = {
           "Thrash"
         ],
         "sub_index": 0,
-        "ability": "Hyper Cutter",
+        "ability": "Sturdy",
         "sprite": "trainer_sprites/blackbelt.png",
         "form": 0,
         "evs": {
@@ -165144,7 +165122,7 @@ backup_data = {
           "Vital Throw"
         ],
         "sub_index": 3,
-        "ability": "Sturdy",
+        "ability": "Hustle",
         "sprite": "trainer_sprites/harlequin.png",
         "form": 0,
         "evs": {
@@ -166062,37 +166040,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Roughneck Silvester - Route 16": {
-        "level": 36,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 217,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Brave",
-        "moves": [
-          "Crunch",
-          "Brick Break",
-          "Poison Jab",
-          "Rock Climb"
-        ],
-        "sub_index": 1,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/roughneck.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 28 Roughneck Chance - Route 9": {
         "level": 28,
         "ai": 143,
@@ -166584,7 +166531,7 @@ backup_data = {
           "Rock Climb"
         ],
         "sub_index": 2,
-        "ability": "Rivalry",
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -166615,7 +166562,7 @@ backup_data = {
           "Rock Climb"
         ],
         "sub_index": 2,
-        "ability": "Rivalry",
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/motorcyclist.png",
         "form": 0,
         "evs": {
@@ -166801,7 +166748,7 @@ backup_data = {
           "Swagger"
         ],
         "sub_index": 2,
-        "ability": "Rivalry",
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/acetrainer.png",
         "form": 0,
         "evs": {
@@ -166826,13 +166773,13 @@ backup_data = {
         "item": "Black Glasses",
         "nature": "Timid",
         "moves": [
-          "Crunch",
+          "Screech",
           "Bone Club",
           "Thunder Fang",
           "Pursuit"
         ],
         "sub_index": 3,
-        "ability": "Rivalry",
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/kantoleader.png",
         "form": 0,
         "evs": {
@@ -167865,7 +167812,7 @@ backup_data = {
           "Self-Destruct"
         ],
         "sub_index": 2,
-        "ability": "Light Metal",
+        "ability": "Levitate",
         "sprite": "trainer_sprites/scientist.png",
         "form": 0,
         "evs": {
@@ -168205,8 +168152,8 @@ backup_data = {
         "nature": "Timid",
         "moves": [
           "Gear Grind",
-          "High Horsepower",
-          "Zing Zap",
+          "Clamp",
+          "Reflect",
           "Heat Crash"
         ],
         "sub_index": 0,
@@ -168846,101 +168793,6 @@ backup_data = {
         }
       }
     },
-    "Lunatone": {
-      "Lvl 52 Pilot Ewing - Mistralton City": {
-        "level": 52,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 151,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Weakness Policy",
-        "nature": "Relaxed",
-        "moves": [
-          "Ancient Power",
-          "Stored Power",
-          "Reflect",
-          "Light Screen"
-        ],
-        "sub_index": 1,
-        "ability": "Levitate",
-        "sprite": "trainer_sprites/pilot.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 43 Worker Pasqual - Driftveil City": {
-        "level": 43,
-        "ai": 15,
-        "noCh": true,
-        "tr_id": 320,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Power Herb",
-        "nature": "Relaxed",
-        "moves": [
-          "Psychic",
-          "Mystical Fire",
-          "Meteor Beam",
-          "Ice Beam"
-        ],
-        "sub_index": 1,
-        "ability": "Levitate",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 37 Psychic Future - Desert Resort": {
-        "level": 37,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 669,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Absorb Bulb",
-        "nature": "Hardy",
-        "moves": [
-          "Mystical Fire",
-          "Ancient Power",
-          "Dream Eater",
-          "Recover"
-        ],
-        "sub_index": 3,
-        "ability": "Solid Rock",
-        "sprite": "trainer_sprites/psychicf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Flygon": {
       "Lvl 52 Pilot Ewing - Mistralton City": {
         "level": 52,
@@ -168957,16 +168809,16 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Safety Goggles",
-        "nature": "Hasty",
+        "item": "Smooth Rock",
+        "nature": "Quiet",
         "moves": [
-          "Bug Buzz",
+          "Scorching Swarm",
           "Clanging Scales",
-          "Earthquake",
-          "Boomburst"
+          "Spikes",
+          "Flamethrower"
         ],
-        "sub_index": 3,
-        "ability": "Amplifier",
+        "sub_index": 0,
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
@@ -169028,7 +168880,7 @@ backup_data = {
           "Supersonic"
         ],
         "sub_index": 0,
-        "ability": "Tenacity",
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/musician.png",
         "form": 0,
         "evs": {
@@ -169470,6 +169322,258 @@ backup_data = {
         }
       }
     },
+    "Lunatone": {
+      "Lvl 52 Pilot Ewing - Mistralton City": {
+        "level": 52,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 151,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Weakness Policy",
+        "nature": "Relaxed",
+        "moves": [
+          "Ancient Power",
+          "Stored Power",
+          "Reflect",
+          "Light Screen"
+        ],
+        "sub_index": 1,
+        "ability": "Levitate",
+        "sprite": "trainer_sprites/pilot.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 43 Worker Pasqual - Driftveil City": {
+        "level": 43,
+        "ai": 15,
+        "noCh": true,
+        "tr_id": 320,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Power Herb",
+        "nature": "Relaxed",
+        "moves": [
+          "Psychic",
+          "Mystical Fire",
+          "Meteor Beam",
+          "Ice Beam"
+        ],
+        "sub_index": 1,
+        "ability": "Levitate",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 37 Psychic Future - Desert Resort": {
+        "level": 37,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 669,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Absorb Bulb",
+        "nature": "Hardy",
+        "moves": [
+          "Mystical Fire",
+          "Ancient Power",
+          "Dream Eater",
+          "Recover"
+        ],
+        "sub_index": 3,
+        "ability": "Solid Rock",
+        "sprite": "trainer_sprites/psychicf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Mandibuzz": {
+      "Lvl 52 Pilot Ewing - Mistralton City": {
+        "level": 52,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 151,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Maranga Berry",
+        "nature": "Adamant",
+        "moves": [
+          "Power Trip",
+          "Iron Defense",
+          "Roost",
+          "Body Press"
+        ],
+        "sub_index": 3,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/pilot.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 50 Worker Cairn - Clay Tunnel": {
+        "level": 50,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 525,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Colbur Berry",
+        "item": "King’s Rock",
+        "nature": "Brave",
+        "moves": [
+          "Brave Bird",
+          "Weather Crash",
+          "Knock Off",
+          "Roost"
+        ],
+        "sub_index": 2,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 55 Veteran Cecile - Victory Road": {
+        "level": 55,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 615,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Calm",
+        "moves": [
+          "Wave Crash",
+          "Bone Rush",
+          "Swagger",
+          "U-turn"
+        ],
+        "sub_index": 0,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/veteranf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 63 Ace Trainer Kathrine - Pinwheel Forest": {
+        "level": 63,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 636,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Careful",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/acetrainerf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 35 PkMn Ranger Jaden - Desert Resort": {
+        "level": 35,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 666,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "Rare Bone",
+        "item": "Weakness Policy",
+        "nature": "Hardy",
+        "moves": [
+          "Knock Off",
+          "Razor Winds",
+          "Steel Wing",
+          "Swords Dance"
+        ],
+        "sub_index": 1,
+        "ability": "Strong Body",
+        "sprite": "trainer_sprites/pokemonranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Togekiss": {
       "Lvl 53 Pilot Chase - Mistralton City": {
         "level": 53,
@@ -169710,7 +169814,7 @@ backup_data = {
         "moves": [
           "Overheat",
           "Dragon Rush",
-          "Ancient Power",
+          "Double-Edge",
           "Substitute"
         ],
         "sub_index": 1,
@@ -171042,6 +171146,37 @@ backup_data = {
         "sub_index": 4,
         "ability": "Intimidate",
         "sprite": "trainer_sprites/cheren.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 24 Policeman Rosco - Virbank City": {
+        "level": 24,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 185,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Bashful",
+        "moves": [
+          "Retaliate",
+          "Crunch",
+          "Sand Attack",
+          "Captivate"
+        ],
+        "sub_index": 1,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -172662,7 +172797,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Doubles",
-        "reward_item": "Max Potion",
+        "reward_item": "Rare Bone",
         "item": "Ice Gem",
         "nature": "Naughty",
         "moves": [
@@ -174783,8 +174918,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 48 Hiker Jebediah - Mistralton Cave": {
-        "level": 48,
+      "Lvl 47 Hiker Jebediah - Mistralton Cave": {
+        "level": 47,
         "ai": 143,
         "noCh": false,
         "tr_id": 680,
@@ -174799,14 +174934,14 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Wide Lens",
-        "nature": "Bashful",
+        "nature": "Jolly",
         "moves": [
-          "Iron Head",
+          "Psychic Fangs",
           "Lunge",
-          "Stompin Tantrum",
-          "Rock Climb"
+          "Rock Climb",
+          "Protect"
         ],
-        "sub_index": 2,
+        "sub_index": 0,
         "ability": "Hustle",
         "sprite": "trainer_sprites/hiker.png",
         "form": 0,
@@ -175444,8 +175579,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 36 Backers Stu & Art - Route 16": {
-        "level": 36,
+      "Lvl 37 Backers Stu & Art - Route 16": {
+        "level": 37,
         "ai": 143,
         "noCh": false,
         "tr_id": 257,
@@ -175460,7 +175595,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Eviolite",
-        "nature": "Impish",
+        "nature": "Hardy",
         "moves": [
           "Rage",
           "Pursuit",
@@ -177083,10 +177218,10 @@ backup_data = {
         }
       }
     },
-    "Pawniard": {
-      "Lvl 53 Boss Trainer Abed ": {
-        "level": 53,
-        "ai": 7,
+    "Tyrogue": {
+      "Lvl 25 Policeman Petrel - Virbank City": {
+        "level": 25,
+        "ai": 15,
         "noCh": false,
         "tr_id": 184,
         "ivs": {
@@ -177099,27 +177234,27 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Muscle Band",
-        "nature": "Rash",
+        "item": "Eviolite",
+        "nature": "Adamant",
         "moves": [
-          "Metal Claw",
-          "Night Slash",
-          "Psycho Cut",
-          "Rock Polish"
+          "Vital Throw",
+          "Aerial Ace",
+          "Feint Attack",
+          "Counter"
         ],
         "sub_index": 2,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/bosstrainer.png",
+        "ability": "Hustle",
+        "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 43 Biker Zeke - Route 9": {
-        "level": 43,
-        "ai": 1,
+      "Lvl 61 Black Belt Kentaro - Pinwheel Forest": {
+        "level": 61,
+        "ai": 3,
         "noCh": false,
-        "tr_id": 219,
+        "tr_id": 637,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -177131,7 +177266,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Bold",
+        "nature": "Gentle",
         "moves": [
           "",
           "",
@@ -177140,17 +177275,17 @@ backup_data = {
         ],
         "sub_index": 0,
         "ability": "Defiant",
-        "sprite": "trainer_sprites/biker.png",
+        "sprite": "trainer_sprites/blackbelt.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow9 1": {
-        "level": 49,
-        "ai": 7,
+      "Lvl 61 Battle Girl Lee - Pinwheel Forest": {
+        "level": 61,
+        "ai": 3,
         "noCh": false,
-        "tr_id": 348,
+        "tr_id": 638,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -177162,243 +177297,28 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Bold",
+        "nature": "Relaxed",
         "moves": [
-          "Metal Claw",
-          "Feint Attack",
-          "Slash",
-          "Scary Face"
+          "",
+          "",
+          "",
+          ""
         ],
         "sub_index": 0,
         "ability": "Defiant",
-        "sprite": "trainer_sprites/shadow.png",
+        "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 49 Team Plasma Shadow9 2": {
-        "level": 49,
-        "ai": 7,
+      }
+    },
+    "Pignite": {
+      "Lvl 24 Policeman Petrel - Virbank City": {
+        "level": 24,
+        "ai": 15,
         "noCh": false,
-        "tr_id": 348,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bold",
-        "moves": [
-          "Metal Claw",
-          "Feint Attack",
-          "Slash",
-          "Hone Claws"
-        ],
-        "sub_index": 1,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/shadow.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate 1": {
-        "level": 45,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 436,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bold",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate 2": {
-        "level": 45,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 436,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bold",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate": {
-        "level": 45,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 436,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bold",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Team Plasma Grunt35 1": {
-        "level": 45,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 451,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Lax",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Team Plasma Grunt35 2": {
-        "level": 45,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 451,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Lax",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 45 Team Plasma Grunt35 ": {
-        "level": 45,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 451,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Lax",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 26 Policeman Jeff2 ": {
-        "level": 26,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 459,
+        "tr_id": 184,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -177410,26 +177330,26 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "None",
-        "nature": "Naive",
+        "nature": "Quiet",
         "moves": [
-          "Metal Claw",
-          "Pursuit",
-          "Night Slash",
-          "Psycho Cut"
+          "Dark Pulse",
+          "Temper Flare",
+          "Will-O-Wisp",
+          "Arm Thrust"
         ],
-        "sub_index": 1,
-        "ability": "Sturdy",
+        "sub_index": 3,
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow10 1": {
-        "level": 49,
-        "ai": 7,
+      "Lvl 19 PkMn Trainer Rival17 - Starter 2": {
+        "level": 19,
+        "ai": 15,
         "noCh": false,
-        "tr_id": 498,
+        "tr_id": 557,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -177440,27 +177360,60 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "-",
-        "nature": "Brave",
+        "item": "Berry Juice",
+        "nature": "Hasty",
         "moves": [
-          "Metal Claw",
-          "Feint Attack",
-          "Slash",
-          "Scary Face"
+          "Flamethrower",
+          "Beat Up",
+          "Rock Tomb",
+          "Pursuit"
+        ],
+        "sub_index": 4,
+        "ability": "Intimidate",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 28 PkMn Trainer Rival19 - Starter 1": {
+        "level": 28,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 588,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Hasty",
+        "moves": [
+          "Heat Wave",
+          "Crunch",
+          "Strength",
+          "Rock Slide"
         ],
         "sub_index": 0,
-        "ability": "Defiant",
-        "sprite": "trainer_sprites/shadow.png",
+        "ability": "Sheer Force",
+        "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 49 Team Plasma Shadow10 2": {
-        "level": 49,
-        "ai": 7,
+      }
+    },
+    "Poochyena": {
+      "Lvl 25 Policeman Rosco - Virbank City": {
+        "level": 25,
+        "ai": 143,
         "noCh": false,
-        "tr_id": 498,
+        "tr_id": 185,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -177471,27 +177424,27 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "-",
-        "nature": "Brave",
+        "item": "Eviolite",
+        "nature": "Impish",
         "moves": [
-          "Metal Claw",
-          "Feint Attack",
-          "Slash",
-          "Hone Claws"
+          "Crunch",
+          "Pursuit",
+          "Sucker Punch",
+          "Super Fang"
         ],
-        "sub_index": 1,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/shadow.png",
+        "sub_index": 2,
+        "ability": "Strong Jaw",
+        "sprite": "trainer_sprites/policeman.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 49 Team Plasma Shadow11 1": {
-        "level": 49,
-        "ai": 7,
+      "Lvl 60 Backpacker Corin - Route 15": {
+        "level": 60,
+        "ai": 1,
         "noCh": false,
-        "tr_id": 499,
+        "tr_id": 656,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -177503,88 +177456,28 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "-",
-        "nature": "Rash",
+        "nature": "Bashful",
         "moves": [
-          "Metal Claw",
-          "Feint Attack",
-          "Slash",
-          "Scary Face"
-        ],
-        "sub_index": 0,
-        "ability": "Defiant",
-        "sprite": "trainer_sprites/shadow.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 49 Team Plasma Shadow11 2": {
-        "level": 49,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 499,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Rash",
-        "moves": [
-          "Metal Claw",
-          "Feint Attack",
-          "Slash",
-          "Hone Claws"
-        ],
-        "sub_index": 1,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/shadow.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 46 Team Plasma Shadow12 1": {
-        "level": 46,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 583,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Sassy",
-        "moves": [
-          "Metal Claw",
-          "Feint Attack",
-          "Slash",
-          "Scary Face"
+          "",
+          "",
+          "",
+          ""
         ],
         "sub_index": 0,
-        "ability": "Defiant",
-        "sprite": "trainer_sprites/shadow.png",
+        "ability": "Strong Jaw",
+        "sprite": "trainer_sprites/backpackerf.png",
         "form": 0,
         "evs": {
           "df": 0
         }
-      },
-      "Lvl 46 Team Plasma Shadow12 2": {
-        "level": 46,
-        "ai": 7,
+      }
+    },
+    "Dewott": {
+      "Lvl 24 Policeman Rosco - Virbank City": {
+        "level": 24,
+        "ai": 143,
         "noCh": false,
-        "tr_id": 583,
+        "tr_id": 185,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -177595,17 +177488,79 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "-",
-        "nature": "Sassy",
+        "item": "None",
+        "nature": "Jolly",
         "moves": [
-          "Metal Claw",
-          "Feint Attack",
-          "Slash",
-          "Hone Claws"
+          "Barrage",
+          "Air Slash",
+          "Arm Thrust",
+          "Shell Smash"
         ],
-        "sub_index": 1,
+        "sub_index": 3,
+        "ability": "Shell Armor",
+        "sprite": "trainer_sprites/policeman.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 19 PkMn Trainer Rival18 - Starter 3": {
+        "level": 19,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 558,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Berry Juice",
+        "nature": "Relaxed",
+        "moves": [
+          "Razor Shell",
+          "Revenge",
+          "Air Slash",
+          "Retaliate"
+        ],
+        "sub_index": 4,
         "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/shadow.png",
+        "sprite": "trainer_sprites/rival.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 28 PkMn Trainer Rival20 - Starter 2": {
+        "level": 28,
+        "ai": 135,
+        "noCh": false,
+        "tr_id": 589,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Impish",
+        "moves": [
+          "Razor Shell",
+          "Slash",
+          "Air Slash",
+          "Strength"
+        ],
+        "sub_index": 0,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -181043,8 +180998,8 @@ backup_data = {
         "moves": [
           "Parabolic Zap",
           "Dual Chop",
-          "Signal Beam",
-          "Power Gem"
+          "Dynamic Punch",
+          "Supersonic"
         ],
         "sub_index": 0,
         "ability": "Illumination",
@@ -182877,6 +182832,504 @@ backup_data = {
         "sub_index": 0,
         "ability": "Strong Body",
         "sprite": "trainer_sprites/biker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Pawniard": {
+      "Lvl 43 Biker Zeke - Route 9": {
+        "level": 43,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 219,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bold",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/biker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 49 Team Plasma Shadow9 1": {
+        "level": 49,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 348,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bold",
+        "moves": [
+          "Metal Claw",
+          "Feint Attack",
+          "Slash",
+          "Scary Face"
+        ],
+        "sub_index": 0,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 49 Team Plasma Shadow9 2": {
+        "level": 49,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 348,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bold",
+        "moves": [
+          "Metal Claw",
+          "Feint Attack",
+          "Slash",
+          "Hone Claws"
+        ],
+        "sub_index": 1,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate 1": {
+        "level": 45,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 436,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bold",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate 2": {
+        "level": 45,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 436,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bold",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 Team Plasma Grunt21 - Plasma Frigate": {
+        "level": 45,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 436,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Bold",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 Team Plasma Grunt35 1": {
+        "level": 45,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 451,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Lax",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 Team Plasma Grunt35 2": {
+        "level": 45,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 451,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Lax",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 45 Team Plasma Grunt35 ": {
+        "level": 45,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 451,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Lax",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/teamplasma.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 26 Policeman Jeff2 ": {
+        "level": 26,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 459,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Naive",
+        "moves": [
+          "Metal Claw",
+          "Pursuit",
+          "Night Slash",
+          "Psycho Cut"
+        ],
+        "sub_index": 1,
+        "ability": "Sturdy",
+        "sprite": "trainer_sprites/policeman.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 49 Team Plasma Shadow10 1": {
+        "level": 49,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 498,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Brave",
+        "moves": [
+          "Metal Claw",
+          "Feint Attack",
+          "Slash",
+          "Scary Face"
+        ],
+        "sub_index": 0,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 49 Team Plasma Shadow10 2": {
+        "level": 49,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 498,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Brave",
+        "moves": [
+          "Metal Claw",
+          "Feint Attack",
+          "Slash",
+          "Hone Claws"
+        ],
+        "sub_index": 1,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 49 Team Plasma Shadow11 1": {
+        "level": 49,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 499,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Rash",
+        "moves": [
+          "Metal Claw",
+          "Feint Attack",
+          "Slash",
+          "Scary Face"
+        ],
+        "sub_index": 0,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 49 Team Plasma Shadow11 2": {
+        "level": 49,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 499,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Rash",
+        "moves": [
+          "Metal Claw",
+          "Feint Attack",
+          "Slash",
+          "Hone Claws"
+        ],
+        "sub_index": 1,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 46 Team Plasma Shadow12 1": {
+        "level": 46,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 583,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Sassy",
+        "moves": [
+          "Metal Claw",
+          "Feint Attack",
+          "Slash",
+          "Scary Face"
+        ],
+        "sub_index": 0,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/shadow.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 46 Team Plasma Shadow12 2": {
+        "level": 46,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 583,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Sassy",
+        "moves": [
+          "Metal Claw",
+          "Feint Attack",
+          "Slash",
+          "Hone Claws"
+        ],
+        "sub_index": 1,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -185767,12 +186220,12 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Life Orb",
-        "nature": "Docile",
+        "nature": "Brave",
         "moves": [
           "Attack Order",
           "Phantom Strike",
-          "Attack Order",
-          "Stun Spore"
+          "Crabhammer",
+          "Spore"
         ],
         "sub_index": 1,
         "ability": "Stakeout",
@@ -186665,70 +187118,6 @@ backup_data = {
         }
       }
     },
-    "Haunter": {
-      "Lvl 37 Cosplayer Miriam - Join Avenue": {
-        "level": 37,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 251,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Hyper Potion",
-        "item": "Eviolite",
-        "nature": "Hasty",
-        "moves": [
-          "Hex",
-          "Sludge Bomb",
-          "Will-O-Wisp",
-          "Destiny Bond"
-        ],
-        "sub_index": 0,
-        "ability": "Neutralizing Gas",
-        "sprite": "trainer_sprites/cosplayer.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 25 Worker Zack ": {
-        "level": 25,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 465,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Lax",
-        "moves": [
-          "Shadow Claw",
-          "Sludge",
-          "Psychic",
-          "Bitter Malice"
-        ],
-        "sub_index": 0,
-        "ability": "Shadow Tag",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Masquerain": {
       "Lvl 37 Cosplayer Miriam - Join Avenue": {
         "level": 37,
@@ -187318,10 +187707,10 @@ backup_data = {
         "item": "Yache Berry",
         "nature": "Serious",
         "moves": [
-          "Hyper Voice",
+          "Relic Song",
           "Petal Dance",
           "Mud Bomb",
-          "Fiery Dance"
+          "Follow Me"
         ],
         "sub_index": 0,
         "ability": "Heatproof",
@@ -187376,7 +187765,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Doubles",
-        "reward_item": "Max Potion",
+        "reward_item": "Rare Bone",
         "item": "Yache Berry",
         "nature": "Hasty",
         "moves": [
@@ -187632,7 +188021,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Proto Booster",
-        "nature": "Careful",
+        "nature": "Bold",
         "moves": [
           "Shock Wave",
           "Uproar",
@@ -188450,8 +188839,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 43 Worker Niel - Driftveil City": {
-        "level": 43,
+      "Lvl 41 Worker Niel - Driftveil City": {
+        "level": 41,
         "ai": 143,
         "noCh": true,
         "tr_id": 322,
@@ -188465,16 +188854,16 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Shuca Berry",
-        "nature": "Naughty",
+        "item": "Zoom Lens",
+        "nature": "Calm",
         "moves": [
-          "Play Rough",
+          "Dazzling Gleam",
           "Focus Energy",
-          "Ice Beam",
-          "Fire Blast"
+          "Blizzard",
+          "Thunder"
         ],
         "sub_index": 0,
-        "ability": "Sheer Force",
+        "ability": "Intimidate",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
@@ -188797,6 +189186,37 @@ backup_data = {
           "df": 0
         }
       },
+      "Lvl 42 Worker Niel - Driftveil City": {
+        "level": 42,
+        "ai": 143,
+        "noCh": true,
+        "tr_id": 322,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Eviolite",
+        "nature": "Timid",
+        "moves": [
+          "Facade",
+          "Guillotine",
+          "Clamp",
+          "Poison Tail"
+        ],
+        "sub_index": 1,
+        "ability": "Poison Heal",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 46 PkMn Ranger Mikiko - Seaside Cave": {
         "level": 46,
         "ai": 7,
@@ -189106,6 +189526,37 @@ backup_data = {
         "sub_index": 0,
         "ability": "Water Absorb",
         "sprite": "trainer_sprites/fisherman.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 42 Worker Gus - Twist Mountain": {
+        "level": 42,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 526,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Blue Shard",
+        "item": "Damp Rock",
+        "nature": "Relaxed",
+        "moves": [
+          "Whirlpool",
+          "Gastro Acid",
+          "Magnet Rise",
+          "Toxic Spikes"
+        ],
+        "sub_index": 0,
+        "ability": "Dry Skin",
+        "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -189491,8 +189942,8 @@ backup_data = {
       }
     },
     "Teddiursa": {
-      "Lvl 37 PkMn Ranger Lois - Route 5": {
-        "level": 37,
+      "Lvl 38 PkMn Ranger Lois - Route 5": {
+        "level": 38,
         "ai": 15,
         "noCh": false,
         "tr_id": 293,
@@ -189507,7 +189958,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Jaboca Berry",
         "item": "Eviolite",
-        "nature": "Quirky",
+        "nature": "Bashful",
         "moves": [
           "Facade",
           "Shadow Claw",
@@ -189736,7 +190187,7 @@ backup_data = {
           "Rock Tomb"
         ],
         "sub_index": 3,
-        "ability": "Tenacity",
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -189767,7 +190218,7 @@ backup_data = {
           "Rock Tomb"
         ],
         "sub_index": 3,
-        "ability": "Tenacity",
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -189798,7 +190249,7 @@ backup_data = {
           "Rock Tomb"
         ],
         "sub_index": 3,
-        "ability": "Tenacity",
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -189829,7 +190280,7 @@ backup_data = {
           "Strength"
         ],
         "sub_index": 1,
-        "ability": "Tenacity",
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -189860,7 +190311,7 @@ backup_data = {
           "Strength"
         ],
         "sub_index": 1,
-        "ability": "Tenacity",
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -189891,7 +190342,7 @@ backup_data = {
           "Strength"
         ],
         "sub_index": 1,
-        "ability": "Tenacity",
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -189922,7 +190373,7 @@ backup_data = {
           "Sing"
         ],
         "sub_index": 3,
-        "ability": "Tenacity",
+        "ability": "Sand Rush",
         "sprite": "trainer_sprites/backpacker.png",
         "form": 0,
         "evs": {
@@ -191484,8 +191935,8 @@ backup_data = {
       }
     },
     "Cacturne": {
-      "Lvl 44 Worker Niel - Driftveil City": {
-        "level": 44,
+      "Lvl 42 Worker Niel - Driftveil City": {
+        "level": 42,
         "ai": 143,
         "noCh": true,
         "tr_id": 322,
@@ -191500,14 +191951,14 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Ground Gem",
-        "nature": "Naive",
+        "nature": "Relaxed",
         "moves": [
           "Needle Arm",
           "Phantom Strike",
           "Sand Tomb",
           "Sludge Bomb"
         ],
-        "sub_index": 1,
+        "sub_index": 2,
         "ability": "Sand Rush",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
@@ -191600,7 +192051,7 @@ backup_data = {
           "Rock Wrecker",
           "Outrage",
           "Steel Beam",
-          "Avalanche"
+          "Rock Polish"
         ],
         "sub_index": 2,
         "ability": "Determined",
@@ -192049,163 +192500,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Battle Armor",
         "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Mandibuzz": {
-      "Lvl 51 Pilot Elron - Mistralton City": {
-        "level": 51,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 332,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "None",
-        "item": "Loaded Dice",
-        "nature": "Adamant",
-        "moves": [
-          "Razor Winds",
-          "Bone Rush",
-          "Rock Blast",
-          "Knock Off"
-        ],
-        "sub_index": 2,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/pilot.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 Worker Cairn - Clay Tunnel": {
-        "level": 50,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 525,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Colbur Berry",
-        "item": "King’s Rock",
-        "nature": "Brave",
-        "moves": [
-          "Brave Bird",
-          "Weather Crash",
-          "Knock Off",
-          "Roost"
-        ],
-        "sub_index": 2,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/worker.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 55 Veteran Cecile - Victory Road": {
-        "level": 55,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 615,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Calm",
-        "moves": [
-          "Wave Crash",
-          "Bone Rush",
-          "Swagger",
-          "U-turn"
-        ],
-        "sub_index": 0,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/veteranf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 63 Ace Trainer Kathrine - Pinwheel Forest": {
-        "level": 63,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 636,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Careful",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/acetrainerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 35 PkMn Ranger Jaden - Desert Resort": {
-        "level": 35,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 666,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "Max Potion",
-        "item": "Weakness Policy",
-        "nature": "Hardy",
-        "moves": [
-          "Knock Off",
-          "Razor Winds",
-          "Steel Wing",
-          "Swords Dance"
-        ],
-        "sub_index": 1,
-        "ability": "Strong Body",
-        "sprite": "trainer_sprites/pokemonranger.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -192902,6 +193196,37 @@ backup_data = {
         "sub_index": 2,
         "ability": "Sturdy",
         "sprite": "trainer_sprites/scientist.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 43 Worker Gus - Twist Mountain": {
+        "level": 43,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 526,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Blue Shard",
+        "item": "Eviolite",
+        "nature": "Rash",
+        "moves": [
+          "Thunder",
+          "Water Pulse",
+          "Bug Buzz",
+          "Self-Destruct"
+        ],
+        "sub_index": 2,
+        "ability": "Levitate",
+        "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -196648,6 +196973,39 @@ backup_data = {
         }
       }
     },
+    "Haunter": {
+      "Lvl 25 Worker Zack ": {
+        "level": 25,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 465,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Lax",
+        "moves": [
+          "Shadow Claw",
+          "Sludge",
+          "Psychic",
+          "Bitter Malice"
+        ],
+        "sub_index": 0,
+        "ability": "Shadow Tag",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Magmar": {
       "Lvl 27 Worker Scott - Relic Passage": {
         "level": 27,
@@ -196888,7 +197246,7 @@ backup_data = {
         "moves": [
           "Dragon Pulse",
           "Body Slam",
-          "Thief",
+          "Vise Grip",
           "Torment"
         ],
         "sub_index": 0,
@@ -197334,6 +197692,37 @@ backup_data = {
           "Amnesia"
         ],
         "sub_index": 0,
+        "ability": "Huge Power",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 43 Worker Gus - Twist Mountain": {
+        "level": 43,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 526,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Blue Shard",
+        "item": "Ground Gem",
+        "nature": "Serious",
+        "moves": [
+          "Hyper Fang",
+          "Waterfall",
+          "Aqua Jet",
+          "Earthquake"
+        ],
+        "sub_index": 4,
         "ability": "Huge Power",
         "sprite": "trainer_sprites/worker.png",
         "form": 0,
@@ -198335,6 +198724,70 @@ backup_data = {
         }
       }
     },
+    "Quagsire": {
+      "Lvl 42 Worker Gus - Twist Mountain": {
+        "level": 42,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 526,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Blue Shard",
+        "item": "Rindo Berry",
+        "nature": "Sassy",
+        "moves": [
+          "Barrage",
+          "Bulldoze",
+          "Bulk Up",
+          "Recover"
+        ],
+        "sub_index": 1,
+        "ability": "Simple",
+        "sprite": "trainer_sprites/worker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 29 Scientist Lumina ": {
+        "level": 29,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 568,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Modest",
+        "moves": [
+          "Waterfall",
+          "Bulldoze",
+          "Recover",
+          "Ice Punch"
+        ],
+        "sub_index": 3,
+        "ability": "Gooey",
+        "sprite": "trainer_sprites/scientistf.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Rhyperior": {
       "Lvl 63 Veteran Julia - Twist Mountain": {
         "level": 63,
@@ -198692,134 +199145,6 @@ backup_data = {
         }
       }
     },
-    "Pignite": {
-      "Lvl 19 PkMn Trainer Rival17 - Starter 2": {
-        "level": 19,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 557,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Berry Juice",
-        "nature": "Hasty",
-        "moves": [
-          "Flamethrower",
-          "Beat Up",
-          "Rock Tomb",
-          "Pursuit"
-        ],
-        "sub_index": 4,
-        "ability": "Intimidate",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 28 PkMn Trainer Rival19 - Starter 1": {
-        "level": 28,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 588,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Eviolite",
-        "nature": "Hasty",
-        "moves": [
-          "Heat Wave",
-          "Crunch",
-          "Strength",
-          "Rock Slide"
-        ],
-        "sub_index": 0,
-        "ability": "Sheer Force",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Dewott": {
-      "Lvl 19 PkMn Trainer Rival18 - Starter 3": {
-        "level": 19,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 558,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Berry Juice",
-        "nature": "Relaxed",
-        "moves": [
-          "Razor Shell",
-          "Revenge",
-          "Air Slash",
-          "Retaliate"
-        ],
-        "sub_index": 4,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 28 PkMn Trainer Rival20 - Starter 2": {
-        "level": 28,
-        "ai": 135,
-        "noCh": false,
-        "tr_id": 589,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Eviolite",
-        "nature": "Impish",
-        "moves": [
-          "Razor Shell",
-          "Slash",
-          "Air Slash",
-          "Strength"
-        ],
-        "sub_index": 0,
-        "ability": "Hyper Cutter",
-        "sprite": "trainer_sprites/rival.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Swablu": {
       "Lvl 38 Twins Rae & Ula 1": {
         "level": 38,
@@ -199070,39 +199395,6 @@ backup_data = {
         "sub_index": 1,
         "ability": "Sheer Force",
         "sprite": "trainer_sprites/blackbelt.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Quagsire": {
-      "Lvl 29 Scientist Lumina ": {
-        "level": 29,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 568,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Modest",
-        "moves": [
-          "Waterfall",
-          "Bulldoze",
-          "Recover",
-          "Ice Punch"
-        ],
-        "sub_index": 3,
-        "ability": "Gooey",
-        "sprite": "trainer_sprites/scientistf.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -199520,70 +199812,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Intimidate",
         "sprite": "trainer_sprites/pokemonranger.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Tyrogue": {
-      "Lvl 61 Black Belt Kentaro - Pinwheel Forest": {
-        "level": 61,
-        "ai": 3,
-        "noCh": false,
-        "tr_id": 637,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Gentle",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Defiant",
-        "sprite": "trainer_sprites/blackbelt.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 61 Battle Girl Lee - Pinwheel Forest": {
-        "level": 61,
-        "ai": 3,
-        "noCh": false,
-        "tr_id": 638,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Relaxed",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Defiant",
-        "sprite": "trainer_sprites/battlegirl.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -200046,39 +200274,6 @@ backup_data = {
         }
       }
     },
-    "Poochyena": {
-      "Lvl 60 Backpacker Corin - Route 15": {
-        "level": 60,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 656,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Bashful",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Strong Jaw",
-        "sprite": "trainer_sprites/backpackerf.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
     "Sawsbuck-Summer": {
       "Lvl 35 PkMn Ranger Anja - Desert Resort": {
         "level": 35,
@@ -200104,7 +200299,7 @@ backup_data = {
           "Swords Dance"
         ],
         "sub_index": 0,
-        "ability": "Reckless",
+        "ability": "Sap Sipper",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 1,
         "evs": {
@@ -200586,7 +200781,7 @@ backup_data = {
       "next": 2,
       "prev": 167
     },
-    "2": {
+     "2": {
       "id": 2,
       "next": 181,
       "prev": 168
@@ -200677,37 +200872,37 @@ backup_data = {
       "next": 173,
       "prev": 156
     },
-    "173": {
+     "173": {
       "id": 173,
       "next": 174,
       "prev": 206
     },
-    "174": {
+     "174": {
       "id": 174,
       "next": 176,
       "prev": 173
     },
-    "176": {
+     "176": {
       "id": 176,
       "next": 175,
       "prev": 174
     },
-    "175": {
+     "175": {
       "id": 175,
       "next": 557,
       "prev": 176
     },
-    "557": {
+     "557": {
       "id": 557,
       "next": 558,
       "prev": 175
     },
-    "558": {
+     "558": {
       "id": 558,
       "next": 556,
       "prev": 557
     },
-    "556": {
+     "556": {
       "id": 556,
       "next": 555,
       "prev": 558
@@ -200723,17 +200918,17 @@ backup_data = {
       "prev": 555
     },
 
-    "765": {
+     "765": {
       "id": 765,
       "next": 746,
       "prev": 112
     },
-    "746": {
+     "746": {
       "id": 746,
       "next": 745,
       "prev": 765
     },
-    "745": {
+     "745": {
       "id": 745,
       "next": 645,
       "prev": 746
@@ -200749,24 +200944,24 @@ backup_data = {
       "prev": 645
     },
 
-    "738": {
+     "738": {
       "id": 738,
       "next": 204,
       "prev": 135
     },
 
 
-    "204": {
+     "204": {
       "id": 204,
       "next": 205,
       "prev": 738
     },
-    "205": {
+     "205": {
       "id": 205,
       "next": 203,
       "prev": 204
     },
-    "203": {
+     "203": {
       "id": 203,
       "next": 138,
       "prev": 205
@@ -200781,12 +200976,12 @@ backup_data = {
       "next": 179,
       "prev": 138
     },
-    "179": {
+     "179": {
       "id": 179,
       "next": 157,
       "prev": 178
     },
-    "157": {
+     "157": {
       "id": 157,
       "next": 106,
       "prev": 179
@@ -200804,12 +200999,12 @@ backup_data = {
       "prev": 106
     },
 
-    "690": {
+     "690": {
       "id": 690,
       "next": 763,
       "prev": 300
     },
-    "763": {
+     "763": {
       "id": 763,
       "next": 124,
       "prev": 690
@@ -200848,30 +201043,30 @@ backup_data = {
       "prev": 652
     },
 
-    "224": {
+     "224": {
       "id": 224,
       "next": 211,
       "prev": 336
     },
-    "211": {
+     "211": {
       "id": 211,
       "next": 210,
       "prev": 224
     },
-    "210": {
+     "210": {
       "id": 210,
       "next": 589,
       "prev": 211
     },
+     
 
-
-    "589": {
+     "589": {
       "id": 589,
       "next": 590,
       "prev": 210
     },
 
-    "590": {
+     "590": {
       "id": 590,
       "next": 588,
       "prev": 589
@@ -200945,25 +201140,25 @@ backup_data = {
       "next": 356,
       "prev": 464
     },
-
-    "356": {
+    
+     "356": {
       "id": 356,
       "next": 342,
       "prev": 100
     },
 
-    "342": {
+     "342": {
       "id": 342,
       "next": 466,
       "prev": 356
     },
 
-    "466": {
+     "466": {
       "id": 466,
       "next": 462,
       "prev": 342
     },
-    "462": {
+     "462": {
       "id": 462,
       "next": 567,
       "prev": 466
@@ -200973,45 +201168,45 @@ backup_data = {
       "next": 568,
       "prev": 462
     },
-    "568": {
+     "568": {
       "id": 568,
       "next": 563,
       "prev": 567
     },
-    "563": {
+     "563": {
       "id": 563,
       "next": 299,
       "prev": 568
     },
 
-
-    "299": {
+    
+     "299": {
       "id": 299,
       "next": 501,
       "prev": 563
     },
 
-    "501": {
+     "501": {
       "id": 501,
       "next": 691,
       "prev": 299
     },
-    "691": {
+     "691": {
       "id": 691,
       "next": 692,
       "prev": 501
     },
-    "692": {
+     "692": {
       "id": 692,
       "next": 502,
       "prev": 691
     },
-    "502": {
+     "502": {
       "id": 502,
       "next": 503,
       "prev": 692
     },
-    "503": {
+     "503": {
       "id": 503,
       "next": 766,
       "prev": 502
@@ -201021,17 +201216,17 @@ backup_data = {
       "next": 734,
       "prev": 503
     },
-    "734": {
+     "734": {
       "id": 734,
       "next": 735,
       "prev": 766
     },
-    "735": {
+     "735": {
       "id": 735,
       "next": 736,
       "prev": 734
     },
-    "736": {
+     "736": {
       "id": 736,
       "next": 737,
       "prev": 735
@@ -201041,72 +201236,72 @@ backup_data = {
       "next": 154,
       "prev": 736
     },
-    "154": {
+     "154": {
       "id": 154,
       "next": 358,
       "prev": 737
     },
-    "358": {
+     "358": {
       "id": 358,
       "next": 226,
       "prev": 154
     },
-    "226": {
+     "226": {
       "id": 226,
       "next": 221,
       "prev": 358
     },
-    "221": {
+     "221": {
       "id": 221,
       "next": 225,
       "prev": 226
     },
-    "225": {
+     "225": {
       "id": 225,
       "next": 214,
       "prev": 221
     },
-    "214": {
+     "214": {
       "id": 214,
       "next": 223,
       "prev": 225
     },
-    "223": {
+     "223": {
       "id": 223,
       "next": 222,
       "prev": 214
     },
-    "222": {
+        "222": {
       "id": 222,
       "next": 147,
       "prev": 223
     },
-    "147": {
+     "147": {
       "id": 147,
       "next": 773,
       "prev": 222
     },
-    "773": {
+     "773": {
       "id": 773,
       "next": 666,
       "prev": 147
     },
-    "666": {
+     "666": {
       "id": 666,
       "next": 667,
       "prev": 773
     },
-    "667": {
+     "667": {
       "id": 667,
       "next": 668,
       "prev": 666
     },
-    "668": {
+     "668": {
       "id": 668,
       "next": 511,
       "prev": 667
     },
-    "511": {
+     "511": {
       "id": 511,
       "next": 665,
       "prev": 668
@@ -201124,68 +201319,68 @@ backup_data = {
       "prev": 665
     },
 
-    "664": {
+     "664": {
       "id": 664,
       "next": 663,
       "prev": 662
     },
 
-    "663": {
+       "663": {
       "id": 663,
       "next": 669,
       "prev": 664
     },
-    "669": {
+     "669": {
       "id": 669,
       "next": 512,
       "prev": 663
     },
-    "512": {
+     "512": {
       "id": 512,
       "next": 510,
       "prev": 669
     },
-    "510": {
+     "510": {
       "id": 510,
       "next": 790,
       "prev": 512
     },
-    "790": {
+        "790": {
       "id": 790,
       "next": 13,
       "prev": 510
     },
-    "13": {
+     "13": {
       "id": 13,
       "next": 59,
       "prev": 790
     },
-    "59": {
+     "59": {
       "id": 59,
       "next": 60,
       "prev": 13
     },
-    "60": {
+     "60": {
       "id": 60,
       "next": 61,
       "prev": 59
     },
-    "61": {
+     "61": {
       "id": 61,
       "next": 248,
       "prev": 60
     },
-    "248": {
+     "248": {
       "id": 248,
       "next": 48,
       "prev": 61
     },
-    "48": {
+     "48": {
       "id": 48,
       "next": 251,
       "prev": 248
     },
-    "251": {
+     "251": {
       "id": 251,
       "next": 125,
       "prev": 48
@@ -201212,37 +201407,37 @@ backup_data = {
       "next": 733,
       "prev": 270
     },
-    "733": {
+     "733": {
       "id": 733,
       "next": 361,
       "prev": 732
     },
-    "361": {
+     "361": {
       "id": 361,
       "next": 362,
       "prev": 733
     },
-    "362": {
+     "362": {
       "id": 362,
       "next": 360,
       "prev": 361
     },
-    "360": {
+     "360": {
       "id": 360,
       "next": 364,
       "prev": 362
     },
-    "364": {
+     "364": {
       "id": 364,
       "next": 365,
       "prev": 360
     },
-    "365": {
+     "365": {
       "id": 365,
       "next": 363,
       "prev": 364
     },
-    "363": {
+     "363": {
       "id": 363,
       "next": 29,
       "prev": 365
@@ -201279,220 +201474,220 @@ backup_data = {
       "next": 253,
       "prev": 52
     },
-    "253": {
+       "253": {
       "id": 253,
       "next": 254,
       "prev": 53
     },
-    "254": {
+     "254": {
       "id": 254,
       "next": 293,
       "prev": 253
     },
-    "293": {
+     "293": {
       "id": 293,
       "next": 262,
       "prev": 254
     },
-    "262": {
+     "262": {
       "id": 262,
       "next": 260,
       "prev": 293
     },
-    "260": {
+        "260": {
       "id": 260,
       "next": 261,
       "prev": 262
     },
-    "261": {
+     "261": {
       "id": 261,
       "next": 257,
       "prev": 260
     },
-    "257": {
+     "257": {
       "id": 257,
       "next": 217,
       "prev": 261
     },
-    "217": {
+     "217": {
       "id": 217,
       "next": 297,
       "prev": 257
     },
-    "297": {
+     "297": {
       "id": 297,
       "next": 298,
       "prev": 217
     },
-    "298": {
+     "298": {
       "id": 298,
       "next": 767,
       "prev": 297
     },
-    "767": {
+     "767": {
       "id": 767,
       "next": 621,
       "prev": 298
     },
-    "621": {
+     "621": {
       "id": 621,
       "next": 148,
       "prev": 767
     },
-    "148": {
+        "148": {
       "id": 148,
       "next": 207,
       "prev": 621
     },
-    "207": {
+     "207": {
       "id": 207,
       "next": 208,
       "prev": 148
     },
-    "208": {
+     "208": {
       "id": 208,
       "next": 209,
       "prev": 207
     },
-    "209": {
+     "209": {
       "id": 209,
       "next": 153,
       "prev": 208
     },
-    "153": {
+     "153": {
       "id": 153,
       "next": 359,
       "prev": 209
     },
-    "359": {
+     "359": {
       "id": 359,
       "next": 751,
       "prev": 153
     },
-    "751": {
+     "751": {
       "id": 751,
       "next": 340,
       "prev": 359
     },
-    "340": {
+     "340": {
       "id": 340,
       "next": 63,
       "prev": 751
     },
 
-    "63": {
+       "63": {
       "id": 63,
       "next": 65,
       "prev": 340
     },
-    "65": {
+     "65": {
       "id": 65,
       "next": 14,
       "prev": 63
     },
-    "14": {
+     "14": {
       "id": 14,
       "next": 58,
       "prev": 65
     },
-    "58": {
+     "58": {
       "id": 58,
       "next": 50,
       "prev": 14
     },
-    "50": {
+        "50": {
       "id": 50,
       "next": 249,
       "prev": 58
     },
-    "249": {
+     "249": {
       "id": 249,
       "next": 679,
       "prev": 50
     },
-    "679": {
+     "679": {
       "id": 679,
       "next": 670,
       "prev": 249
     },
-    "670": {
+     "670": {
       "id": 670,
       "next": 68,
       "prev": 679
     },
-    "68": {
+     "68": {
       "id": 68,
       "next": 71,
       "prev": 670
     },
-    "71": {
+     "71": {
       "id": 71,
       "next": 56,
       "prev": 68
     },
-    "56": {
+     "56": {
       "id": 56,
       "next": 57,
       "prev": 71
     },
-    "57": {
+     "57": {
       "id": 57,
       "next": 255,
       "prev": 56
     },
-    "255": {
+        "255": {
       "id": 255,
       "next": 252,
       "prev": 57
     },
-    "252": {
+     "252": {
       "id": 252,
       "next": 256,
       "prev": 255
     },
-    "256": {
+     "256": {
       "id": 256,
       "next": 339,
       "prev": 252
     },
-    "339": {
+     "339": {
       "id": 339,
       "next": 346,
       "prev": 256
     },
 
-    "346": {
+     "346": {
       "id": 346,
       "next": 768,
       "prev": 339
     },
-    "768": {
+     "768": {
       "id": 768,
       "next": 267,
       "prev": 346
     },
-    "267": {
+     "267": {
       "id": 267,
       "next": 527,
       "prev": 768
     },
-    "527": {
+     "527": {
       "id": 527,
       "next": 324,
       "prev": 267
     },
-    "324": {
+     "324": {
       "id": 324,
       "next": 323,
       "prev": 527
     },
 
-    "323": {
+       "323": {
       "id": 323,
       "next": 322,
       "prev": 324
     },
-    "322": {
+     "322": {
       "id": 322,
       "next": 490,
       "prev": 323
@@ -201504,7 +201699,7 @@ backup_data = {
       "prev": 322
     },
 
-    "321": {
+     "321": {
       "id": 321,
       "next": 110,
       "prev": 490
@@ -201516,47 +201711,47 @@ backup_data = {
       "prev": 321
     },
 
-    "320": {
+     "320": {
       "id": 320,
       "next": 319,
       "prev": 110
     },
-    "319": {
+        "319": {
       "id": 319,
       "next": 325,
       "prev": 320
     },
-    "325": {
+     "325": {
       "id": 325,
       "next": 158,
       "prev": 319
     },
-    "158": {
+     "158": {
       "id": 158,
       "next": 739,
       "prev": 325
     },
-    "739": {
+     "739": {
       "id": 739,
       "next": 566,
       "prev": 158
     },
-    "566": {
+     "566": {
       "id": 566,
       "next": 564,
       "prev": 739
     },
-    "564": {
+     "564": {
       "id": 564,
       "next": 562,
       "prev": 566
     },
-    "562": {
+     "562": {
       "id": 562,
       "next": 561,
       "prev": 564
     },
-    "561": {
+     "561": {
       "id": 561,
       "next": 565,
       "prev": 562
@@ -201579,12 +201774,12 @@ backup_data = {
     },
 
 
-    "569": {
+     "569": {
       "id": 569,
       "next": 570,
       "prev": 99
     },
-    "570": {
+     "570": {
       "id": 570,
       "next": 654,
       "prev": 569
@@ -201594,27 +201789,27 @@ backup_data = {
       "next": 634,
       "prev": 570
     },
-    "634": {
+     "634": {
       "id": 634,
       "next": 372,
       "prev": 654
     },
-    "372": {
+     "372": {
       "id": 372,
       "next": 374,
       "prev": 634
     },
-    "374": {
+     "374": {
       "id": 374,
       "next": 375,
       "prev": 372
     },
-    "375": {
+     "375": {
       "id": 375,
       "next": 371,
       "prev": 374
     },
-    "371": {
+     "371": {
       "id": 371,
       "next": 376,
       "prev": 375
@@ -201624,12 +201819,12 @@ backup_data = {
       "next": 377,
       "prev": 371
     },
-    "377": {
+        "377": {
       "id": 377,
       "next": 369,
       "prev": 376
     },
-    "369": {
+        "369": {
       "id": 369,
       "next": 370,
       "prev": 377
@@ -201702,17 +201897,17 @@ backup_data = {
       "next": 488,
       "prev": 265
     },
-    "488": {
+        "488": {
       "id": 488,
       "next": 489,
       "prev": 487
     },
-    "489": {
+        "489": {
       "id": 489,
       "next": 681,
       "prev": 488
     },
-    "681": {
+        "681": {
       "id": 681,
       "next": 680,
       "prev": 489
@@ -201729,7 +201924,7 @@ backup_data = {
     },
 
 
-    "525": {
+     "525": {
       "id": 525,
       "next": 227,
       "prev": 682
@@ -201740,107 +201935,107 @@ backup_data = {
       "next": 683,
       "prev": 525
     },
-    "683": {
+        "683": {
       "id": 683,
       "next": 491,
       "prev": 227
     },
-    "491": {
+        "491": {
       "id": 491,
       "next": 537,
       "prev": 683
     },
-    "537": {
+        "537": {
       "id": 537,
       "next": 743,
       "prev": 491
     },
-    "743": {
+        "743": {
       "id": 743,
       "next": 539,
       "prev": 537
     },
-    "539": {
+        "539": {
       "id": 539,
       "next": 741,
       "prev": 743
     },
-    "741": {
+        "741": {
       "id": 741,
       "next": 544,
       "prev": 539
     },
-    "544": {
+        "544": {
       "id": 544,
       "next": 541,
       "prev": 741
     },
-    "541": {
+        "541": {
       "id": 541,
       "next": 542,
       "prev": 544
     },
-    "542": {
+        "542": {
       "id": 542,
       "next": 671,
       "prev": 541
     },
-    "671": {
+        "671": {
       "id": 671,
       "next": 543,
       "prev": 542
     },
-    "543": {
+        "543": {
       "id": 543,
       "next": 742,
       "prev": 671
     },
-    "742": {
+        "742": {
       "id": 742,
       "next": 744,
       "prev": 543
     },
-    "744": {
+        "744": {
       "id": 744,
       "next": 284,
       "prev": 742
     },
-    "284": {
+      "284": {
       "id": 284,
       "next": 740,
       "prev": 744
     },
-    "740": {
+        "740": {
       "id": 740,
       "next": 547,
       "prev": 284
     },
-    "547": {
+        "547": {
       "id": 547,
       "next": 545,
       "prev": 740
     },
-    "545": {
+        "545": {
       "id": 545,
       "next": 493,
       "prev": 547
     },
-    "493": {
+        "493": {
       "id": 493,
       "next": 593,
       "prev": 545
     },
-    "593": {
+        "593": {
       "id": 593,
       "next": 413,
       "prev": 493
     },
-    "413": {
+        "413": {
       "id": 413,
       "next": 548,
       "prev": 593
     },
-    "548": {
+        "548": {
       "id": 548,
       "next": 646,
       "prev": 413
@@ -201860,12 +202055,12 @@ backup_data = {
     },
 
 
-    "272": {
+        "272": {
       "id": 272,
       "next": 273,
       "prev": 528
     },
-    "273": {
+        "273": {
       "id": 273,
       "next": 269,
       "prev": 272
@@ -201877,17 +202072,17 @@ backup_data = {
       "prev": 273
     },
 
-    "271": {
+        "271": {
       "id": 271,
       "next": 275,
       "prev": 269
     },
-    "275": {
+        "275": {
       "id": 275,
       "next": 276,
       "prev": 271
     },
-    "276": {
+        "276": {
       "id": 276,
       "next": 627,
       "prev": 275
@@ -201899,37 +202094,37 @@ backup_data = {
       "prev": 276
     },
 
-    "274": {
+        "274": {
       "id": 274,
       "next": 552,
       "prev": 627
     },
-    "552": {
+        "552": {
       "id": 552,
       "next": 551,
       "prev": 274
     },
-    "551": {
+        "551": {
       "id": 551,
       "next": 229,
       "prev": 552
     },
-    "229": {
+        "229": {
       "id": 229,
       "next": 550,
       "prev": 551
     },
-    "550": {
+        "550": {
       "id": 550,
       "next": 553,
       "prev": 229
     },
-    "553": {
+        "553": {
       "id": 553,
       "next": 554,
       "prev": 550
     },
-    "554": {
+        "554": {
       "id": 554,
       "next": 549,
       "prev": 553
@@ -201941,27 +202136,27 @@ backup_data = {
       "prev": 554
     },
 
-    "769": {
+        "769": {
       "id": 769,
       "next": 149,
       "prev": 549
     },
-    "149": {
+        "149": {
       "id": 149,
       "next": 150,
       "prev": 769
     },
-    "150": {
+        "150": {
       "id": 150,
       "next": 332,
       "prev": 149
     },
-    "332": {
+        "332": {
       "id": 332,
       "next": 151,
       "prev": 150
     },
-    "151": {
+        "151": {
       "id": 151,
       "next": 152,
       "prev": 332
